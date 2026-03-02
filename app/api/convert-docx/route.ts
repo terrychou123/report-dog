@@ -164,7 +164,7 @@ export async function POST(req: NextRequest) {
     compressionOptions: { level: 6 },
   });
 
-  return new NextResponse(fixedBuffer, {
+  return new NextResponse(new Uint8Array(fixedBuffer), {
     headers: {
       "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "Content-Disposition": `attachment; filename="${encodeURIComponent(filename)}.docx"`,
