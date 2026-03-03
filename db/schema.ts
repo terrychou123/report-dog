@@ -54,3 +54,20 @@ export const aiSessions = pgTable('ai_sessions', {
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 });
+
+export const kinds = pgTable('kinds', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  name: varchar('name', { length: 100 }).notNull(),
+  description: text('description'),
+  sortOrder: integer('sort_order').default(0).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+export const kindReports = pgTable('kind_reports', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  kindId: uuid('kind_id').references(() => kinds.id, { onDelete: 'cascade' }).notNull(),
+  reportId: uuid('report_id').references(() => reports.id, { onDelete: 'cascade' }).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});

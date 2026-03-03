@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { BotIcon, UsersIcon, FileTextIcon } from "lucide-react";
+import { BotIcon, UsersIcon, FileTextIcon, TagIcon } from "lucide-react";
 import { LogoutButton } from "@/components/logout-button";
 import { createClient } from "@/lib/supabase/server";
 
@@ -19,6 +19,7 @@ async function SidebarUser() {
 
 const navLinks = [
   { href: "/client", label: "對象", icon: <UsersIcon className="h-4 w-4" /> },
+  { href: "/kind",   label: "種類", icon: <TagIcon className="h-4 w-4" /> },
   { href: "/report", label: "報告", icon: <FileTextIcon className="h-4 w-4" /> },
 ];
 
