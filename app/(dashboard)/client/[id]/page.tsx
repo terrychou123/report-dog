@@ -1,27 +1,27 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+
 import { Textarea } from "@/components/ui/textarea";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { FileTextIcon, PlusIcon, ArrowLeftIcon, PencilIcon, CheckIcon, XIcon, UploadIcon, Trash2Icon, CopyIcon, LoaderIcon } from "lucide-react";
+import { FileTextIcon, PlusIcon, ArrowLeftIcon, PencilIcon, CheckIcon, XIcon, Trash2Icon, LoaderIcon, CopyIcon } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "sonner";
 
 type Client = { id: string; nickname: string; description: string | null; createdAt: string };
-type Report = { id: string; title: string; createdAt: string; fileType: string | null };
+type ClientReport = { relationId: string; reportId: string; title: string; fileType: string | null; createdAt: string };
+type Report = { id: string; title: string; fileType: string | null; createdAt: string };
 
 export default function ClientDetailPage() {
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const [client, setClient] = useState<Client | null>(null);
-  const [reports, setReports] = useState<Report[]>([]);
+  const [clientReports, setClientReports] = useState<ClientReport[]>([]);
   const [loading, setLoading] = useState(true);
 
   // 內聯編輯 state
@@ -30,22 +30,6 @@ export default function ClientDetailPage() {
   const [editDescription, setEditDescription] = useState("");
   const [fieldSaving, setFieldSaving] = useState(false);
 
-  // 新增報告 dialog state
-  const [dialogOpen, setDialogOpen] = useState(false);
-  const [reportTitle, setReportTitle] = useState("");
-  const [reportContent, setReportContent] = useState("");
-  const [saving, setSaving] = useState(false);
-
-  // .doc 上傳 state
-  const [docFile, setDocFile] = useState<File | null>(null);
-  const [docUploading, setDocUploading] = useState(false);
-  const fileInputRef = useRef<HTMLInputElement>(null);
-
-  // PDF 上傳 state
-  const [pdfFile, setPdfFile] = useState<File | null>(null);
-  const [pdfUploading, setPdfUploading] = useState(false);
-  const pdfInputRef = useRef<HTMLInputElement>(null);
-
   // 刪除對象 state
   const [deleteClientOpen, setDeleteClientOpen] = useState(false);
   const [deletingClient, setDeletingClient] = useState(false);
@@ -53,23 +37,27 @@ export default function ClientDetailPage() {
   // 複製報告 state
   const [copyingId, setCopyingId] = useState<string | null>(null);
 
+  // 關聯報告 dialog state
+  const [addOpen, setAddOpen] = useState(false);
+  const [allReports, setAllReports] = useState<Report[]>([]);
+  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [loadingReports, setLoadingReports] = useState(false);
+  const [adding, setAdding] = useState(false);
+
   useEffect(() => {
     async function load() {
-      const [clientRes, reportsRes] = await Promise.all([
+      const [clientRes, relRes] = await Promise.all([
         fetch(`/api/clients/${params.id}`),
-        fetch(`/api/reports?clientId=${params.id}`),
+        fetch(`/api/client-reports?clientId=${params.id}`),
       ]);
       if (!clientRes.ok) { router.push("/client"); return; }
-      const clientData = await clientRes.json();
-      const reportsData = await reportsRes.json();
-      setClient(clientData);
-      setReports(reportsData);
+      setClient(await clientRes.json());
+      setClientReports(relRes.ok ? await relRes.json() : []);
       setLoading(false);
     }
     load();
   }, [params.id, router]);
 
-  // 內聯編輯：儲存欄位
   async function handleSaveField(field: "nickname" | "description") {
     if (!client) return;
     const value = field === "nickname" ? editNickname.trim() : editDescription.trim();
@@ -91,91 +79,16 @@ export default function ClientDetailPage() {
     setFieldSaving(false);
   }
 
-  function startEditNickname() {
-    setEditNickname(client?.nickname ?? "");
-    setEditingField("nickname");
-  }
-
-  function startEditDescription() {
-    setEditDescription(client?.description ?? "");
-    setEditingField("description");
-  }
-
-  // 手動文字建立報告
-  const handleCreateReport = async () => {
-    if (!reportTitle.trim()) return;
-    setSaving(true);
-    const res = await fetch("/api/reports", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ clientId: params.id, title: reportTitle.trim(), content: reportContent }),
-    });
+  async function handleRemoveRelation(relationId: string) {
+    const res = await fetch(`/api/client-reports/${relationId}`, { method: "DELETE" });
     if (res.ok) {
-      const newReport = await res.json();
-      setReports((prev) => [newReport, ...prev]);
-      setDialogOpen(false);
-      setReportTitle("");
-      setReportContent("");
-      toast.success("報告已建立");
+      setClientReports((prev) => prev.filter((r) => r.relationId !== relationId));
+      toast.success("已解除關聯");
     } else {
-      toast.error("建立失敗，請重試");
+      toast.error("操作失敗，請重試");
     }
-    setSaving(false);
-  };
-
-  // 上傳 .doc 並建立報告
-  async function handleDocUpload() {
-    if (!docFile) return;
-    setDocUploading(true);
-    try {
-      const form = new FormData();
-      form.append("file", docFile);
-      const parseRes = await fetch("/api/parse-doc", { method: "POST", body: form });
-      if (!parseRes.ok) throw new Error("parse failed");
-      const { html } = await parseRes.json();
-      const title = docFile.name.replace(/\.(doc|docx)$/i, "");
-      const res = await fetch("/api/reports", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ clientId: params.id, title, content: html }),
-      });
-      if (res.ok) {
-        const newReport = await res.json();
-        setReports((prev) => [newReport, ...prev]);
-        setDialogOpen(false);
-        setDocFile(null);
-        toast.success("檔案已上傳並建立報告");
-      } else {
-        toast.error("建立報告失敗，請重試");
-      }
-    } catch {
-      toast.error("檔案解析失敗，請確認為 .docx 格式");
-    }
-    setDocUploading(false);
   }
 
-  // 上傳 PDF 並建立報告
-  async function handlePdfUpload() {
-    if (!pdfFile) return;
-    setPdfUploading(true);
-    try {
-      const form = new FormData();
-      form.append("file", pdfFile);
-      form.append("clientId", params.id);
-      const res = await fetch("/api/upload-pdf", { method: "POST", body: form });
-      if (!res.ok) { toast.error("PDF 上傳失敗，請重試"); return; }
-      const newReport = await res.json();
-      setReports((prev) => [newReport, ...prev]);
-      setDialogOpen(false);
-      setPdfFile(null);
-      toast.success("PDF 已上傳並建立報告");
-    } catch {
-      toast.error("上傳失敗，請重試");
-    }
-    setPdfUploading(false);
-  }
-
-  // 複製報告
   async function handleCopyReport(reportId: string) {
     setCopyingId(reportId);
     try {
@@ -185,16 +98,10 @@ export default function ClientDetailPage() {
       const postRes = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          clientId: params.id,
-          title: original.title + "複製",
-          content: original.content,
-        }),
+        body: JSON.stringify({ title: original.title + "複製", content: original.content }),
       });
       if (postRes.ok) {
-        const newReport = await postRes.json();
-        setReports(prev => [newReport, ...prev]);
-        toast.success("報告已複製");
+        toast.success("報告已複製（可至報告列表查看）");
       } else {
         toast.error("複製失敗，請重試");
       }
@@ -205,7 +112,6 @@ export default function ClientDetailPage() {
     }
   }
 
-  // 刪除對象
   async function handleDeleteClient() {
     setDeletingClient(true);
     const res = await fetch(`/api/clients/${params.id}`, { method: "DELETE" });
@@ -217,6 +123,46 @@ export default function ClientDetailPage() {
       setDeletingClient(false);
     }
   }
+
+  async function openAddDialog() {
+    setAddOpen(true);
+    setSelected(new Set());
+    setLoadingReports(true);
+    const res = await fetch("/api/reports");
+    if (res.ok) setAllReports(await res.json());
+    setLoadingReports(false);
+  }
+
+  function toggleReport(reportId: string) {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(reportId)) next.delete(reportId);
+      else next.add(reportId);
+      return next;
+    });
+  }
+
+  async function handleAddReports() {
+    if (selected.size === 0) return;
+    setAdding(true);
+    await Promise.all(
+      Array.from(selected).map((reportId) =>
+        fetch("/api/client-reports", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ clientId: params.id, reportId }),
+        })
+      )
+    );
+    const relRes = await fetch(`/api/client-reports?clientId=${params.id}`);
+    if (relRes.ok) setClientReports(await relRes.json());
+    setAdding(false);
+    setAddOpen(false);
+    toast.success("已新增關聯報告");
+  }
+
+  const alreadyLinkedIds = new Set(clientReports.map((r) => r.reportId));
+  const availableReports = allReports.filter((r) => !alreadyLinkedIds.has(r.id));
 
   if (loading) {
     return (
@@ -240,9 +186,7 @@ export default function ClientDetailPage() {
         返回服務對象列表
       </button>
 
-      {/* 個案資訊（可內聯編輯） */}
       <div className="mb-8 space-y-2">
-        {/* 名稱 */}
         {editingField === "nickname" ? (
           <div className="flex items-center gap-2">
             <Input
@@ -265,7 +209,7 @@ export default function ClientDetailPage() {
         ) : (
           <div
             className="group flex items-center gap-2 cursor-pointer w-fit"
-            onClick={startEditNickname}
+            onClick={() => { setEditNickname(client.nickname); setEditingField("nickname"); }}
             title="點擊編輯名稱"
           >
             <h1 className="text-2xl font-bold">{client.nickname}</h1>
@@ -273,7 +217,6 @@ export default function ClientDetailPage() {
           </div>
         )}
 
-        {/* 簡介 */}
         {editingField === "description" ? (
           <div className="space-y-2">
             <Textarea
@@ -282,9 +225,7 @@ export default function ClientDetailPage() {
               className="max-w-md resize-none"
               rows={3}
               autoFocus
-              onKeyDown={(e) => {
-                if (e.key === "Escape") setEditingField(null);
-              }}
+              onKeyDown={(e) => { if (e.key === "Escape") setEditingField(null); }}
             />
             <div className="flex gap-2">
               <Button size="sm" onClick={() => handleSaveField("description")} disabled={fieldSaving}>
@@ -299,7 +240,7 @@ export default function ClientDetailPage() {
         ) : (
           <div
             className="group flex items-start gap-2 cursor-pointer w-fit"
-            onClick={startEditDescription}
+            onClick={() => { setEditDescription(client.description ?? ""); setEditingField("description"); }}
             title="點擊編輯簡介"
           >
             <p className="text-muted-foreground">
@@ -310,7 +251,6 @@ export default function ClientDetailPage() {
         )}
       </div>
 
-      {/* 報告列表標題列 */}
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-lg font-semibold">相關報告</h2>
         <div className="flex gap-2">
@@ -323,62 +263,70 @@ export default function ClientDetailPage() {
             <Trash2Icon className="h-4 w-4 mr-1.5" />
             刪除對象
           </Button>
-          <Button size="sm" onClick={() => setDialogOpen(true)}>
+          <Button size="sm" onClick={openAddDialog}>
             <PlusIcon className="h-4 w-4 mr-1.5" />
-            上傳報告
+            關聯報告
           </Button>
         </div>
       </div>
 
-      {reports.length === 0 ? (
+      {clientReports.length === 0 ? (
         <div className="text-center py-14 text-muted-foreground border rounded-lg">
           <FileTextIcon className="h-10 w-10 mx-auto mb-3 opacity-30" />
           <p className="mb-1">尚無相關報告</p>
-          <p className="text-sm">點擊「上傳報告」新增此對象的第一份報告</p>
+          <p className="text-sm">點擊「關聯報告」將現有報告與此對象關聯</p>
         </div>
       ) : (
         <div className="space-y-3">
-          {reports.map((report) => (
-            <div key={report.id} className="relative">
-              <Link href={`/report/${report.id}`} className="block">
+          {clientReports.map((r) => (
+            <div key={r.relationId} className="relative">
+              <Link href={`/report/${r.reportId}`} className="block">
                 <Card className="hover:shadow-md transition-shadow cursor-pointer">
-                  <CardHeader className="py-3 px-4">
+                  <CardHeader className="py-3 px-4 pr-20">
                     <CardTitle className="text-sm font-medium flex items-center gap-2">
                       <FileTextIcon className="h-4 w-4 text-primary" />
-                      {report.title}
-                      {report.fileType === 'pdf' && (
+                      {r.title}
+                      {r.fileType === "pdf" && (
                         <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded">PDF</span>
                       )}
-                      <span className="ml-auto text-xs text-muted-foreground font-normal pr-7">
-                        {new Date(report.createdAt).toLocaleDateString("zh-TW")}
+                      <span className="ml-auto text-xs text-muted-foreground font-normal">
+                        {new Date(r.createdAt).toLocaleDateString("zh-TW")}
                       </span>
                     </CardTitle>
                   </CardHeader>
                 </Card>
               </Link>
-              <button
-                className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors disabled:opacity-40"
-                onClick={(e) => { e.preventDefault(); handleCopyReport(report.id); }}
-                disabled={copyingId === report.id}
-                title="複製報告"
-              >
-                {copyingId === report.id
-                  ? <LoaderIcon className="h-3.5 w-3.5 animate-spin" />
-                  : <CopyIcon className="h-3.5 w-3.5" />}
-              </button>
+              <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
+                <button
+                  className="p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors disabled:opacity-40"
+                  onClick={(e) => { e.preventDefault(); handleCopyReport(r.reportId); }}
+                  disabled={copyingId === r.reportId}
+                  title="複製報告"
+                >
+                  {copyingId === r.reportId
+                    ? <LoaderIcon className="h-3.5 w-3.5 animate-spin" />
+                    : <CopyIcon className="h-3.5 w-3.5" />}
+                </button>
+                <button
+                  className="p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
+                  onClick={(e) => { e.preventDefault(); handleRemoveRelation(r.relationId); }}
+                  title="解除關聯"
+                >
+                  <XIcon className="h-3.5 w-3.5" />
+                </button>
+              </div>
             </div>
           ))}
         </div>
       )}
 
-      {/* 確認刪除對象 Dialog */}
       <Dialog open={deleteClientOpen} onOpenChange={setDeleteClientOpen}>
         <DialogContent className="max-w-sm">
           <DialogHeader>
             <DialogTitle>確認刪除服務對象</DialogTitle>
           </DialogHeader>
           <p className="text-sm text-muted-foreground">
-            此操作將永久刪除「{client.nickname}」及所有相關報告，無法復原。
+            此操作將永久刪除「{client.nickname}」，報告本身不受影響。
           </p>
           <DialogFooter>
             <Button variant="outline" onClick={() => setDeleteClientOpen(false)} disabled={deletingClient}>
@@ -391,137 +339,52 @@ export default function ClientDetailPage() {
         </DialogContent>
       </Dialog>
 
-      {/* 上傳報告 Dialog（含兩個 tab） */}
-      <Dialog open={dialogOpen} onOpenChange={(open) => { setDialogOpen(open); if (!open) { setDocFile(null); setPdfFile(null); setReportTitle(""); setReportContent(""); } }}>
-        <DialogContent className="max-w-lg">
+      <Dialog open={addOpen} onOpenChange={(open) => { setAddOpen(open); if (!open) setSelected(new Set()); }}>
+        <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle>上傳報告</DialogTitle>
+            <DialogTitle>關聯報告</DialogTitle>
           </DialogHeader>
-
-          <Tabs defaultValue="manual">
-            <TabsList className="w-full">
-              <TabsTrigger value="manual" className="flex-1">手動輸入</TabsTrigger>
-              <TabsTrigger value="docfile" className="flex-1">上傳 .doc</TabsTrigger>
-              <TabsTrigger value="pdffile" className="flex-1">上傳 PDF</TabsTrigger>
-            </TabsList>
-
-            {/* Tab 1：手動輸入 */}
-            <TabsContent value="manual" className="space-y-4 pt-2">
-              <div className="space-y-2">
-                <Label htmlFor="report-title">報告標題 *</Label>
-                <Input
-                  id="report-title"
-                  placeholder="例如：初始評估報告、追蹤記錄 2024/01"
-                  value={reportTitle}
-                  onChange={(e) => setReportTitle(e.target.value)}
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="report-content">報告內容</Label>
-                <Textarea
-                  id="report-content"
-                  placeholder="貼上報告內容..."
-                  value={reportContent}
-                  onChange={(e) => setReportContent(e.target.value)}
-                  rows={8}
-                  className="resize-none"
-                />
-              </div>
-              <DialogFooter>
-                <Button variant="outline" onClick={() => setDialogOpen(false)}>取消</Button>
-                <Button onClick={handleCreateReport} disabled={saving || !reportTitle.trim()}>
-                  {saving ? "儲存中..." : "儲存報告"}
-                </Button>
-              </DialogFooter>
-            </TabsContent>
-
-            {/* Tab 2：上傳 .doc */}
-            <TabsContent value="docfile" className="pt-2">
-              <div
-                className="border-2 border-dashed rounded-lg p-8 text-center cursor-pointer hover:border-primary/50 hover:bg-primary/5 transition-colors"
-                onClick={() => fileInputRef.current?.click()}
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={(e) => {
-                  e.preventDefault();
-                  const file = e.dataTransfer.files[0];
-                  if (file && /\.(doc|docx)$/i.test(file.name)) setDocFile(file);
-                  else toast.error("請上傳 .doc 或 .docx 檔案");
-                }}
-              >
-                <UploadIcon className="h-10 w-10 mx-auto mb-3 text-muted-foreground opacity-40" />
-                {docFile ? (
-                  <div>
-                    <p className="font-medium text-sm">{docFile.name}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{(docFile.size / 1024).toFixed(1)} KB</p>
-                  </div>
-                ) : (
-                  <div>
-                    <p className="text-sm text-muted-foreground">點擊或拖曳 .doc / .docx 檔案至此</p>
-                    <p className="text-xs text-muted-foreground mt-1">支援 Word 2007+ 格式（.docx）</p>
-                  </div>
-                )}
-                <input
-                  ref={fileInputRef}
-                  type="file"
-                  accept=".doc,.docx"
-                  className="hidden"
-                  onChange={(e) => {
-                    const file = e.target.files?.[0];
-                    if (file) setDocFile(file);
-                  }}
-                />
-              </div>
-              <DialogFooter className="mt-4">
-                <Button variant="outline" onClick={() => setDialogOpen(false)}>取消</Button>
-                <Button onClick={handleDocUpload} disabled={docUploading || !docFile}>
-                  {docUploading ? "解析上傳中..." : "上傳並建立報告"}
-                </Button>
-              </DialogFooter>
-            </TabsContent>
-            {/* Tab 3：上傳 PDF */}
-            <TabsContent value="pdffile" className="pt-2">
-              <div
-                className="border-2 border-dashed rounded-lg p-8 text-center cursor-pointer hover:border-primary/50 hover:bg-primary/5 transition-colors"
-                onClick={() => pdfInputRef.current?.click()}
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={(e) => {
-                  e.preventDefault();
-                  const file = e.dataTransfer.files[0];
-                  if (file && /\.pdf$/i.test(file.name)) setPdfFile(file);
-                  else toast.error("請上傳 .pdf 檔案");
-                }}
-              >
-                <UploadIcon className="h-10 w-10 mx-auto mb-3 text-muted-foreground opacity-40" />
-                {pdfFile ? (
-                  <div>
-                    <p className="font-medium text-sm">{pdfFile.name}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{(pdfFile.size / 1024).toFixed(1)} KB</p>
-                  </div>
-                ) : (
-                  <div>
-                    <p className="text-sm text-muted-foreground">點擊或拖曳 .pdf 檔案至此</p>
-                    <p className="text-xs text-muted-foreground mt-1">上傳後可在報告頁面直接預覽</p>
-                  </div>
-                )}
-                <input
-                  ref={pdfInputRef}
-                  type="file"
-                  accept=".pdf"
-                  className="hidden"
-                  onChange={(e) => {
-                    const file = e.target.files?.[0];
-                    if (file) setPdfFile(file);
-                  }}
-                />
-              </div>
-              <DialogFooter className="mt-4">
-                <Button variant="outline" onClick={() => setDialogOpen(false)}>取消</Button>
-                <Button onClick={handlePdfUpload} disabled={pdfUploading || !pdfFile}>
-                  {pdfUploading ? "上傳中..." : "上傳 PDF"}
-                </Button>
-              </DialogFooter>
-            </TabsContent>
-          </Tabs>
+          {loadingReports ? (
+            <div className="space-y-2 py-4">
+              {[1, 2, 3].map((i) => <Skeleton key={i} className="h-10 w-full" />)}
+            </div>
+          ) : availableReports.length === 0 ? (
+            <p className="text-sm text-muted-foreground py-4 text-center">
+              沒有可關聯的報告（所有報告已關聯或尚無報告）
+            </p>
+          ) : (
+            <div className="space-y-2 max-h-72 overflow-y-auto py-2">
+              {availableReports.map((r) => {
+                const isSelected = selected.has(r.id);
+                return (
+                  <button
+                    key={r.id}
+                    onClick={() => toggleReport(r.id)}
+                    className={`w-full text-left px-3 py-2.5 rounded-lg border text-sm transition-colors flex items-center gap-2 ${
+                      isSelected
+                        ? "border-primary bg-primary/5 text-foreground"
+                        : "border-border hover:bg-muted"
+                    }`}
+                  >
+                    <FileTextIcon className="h-4 w-4 text-primary shrink-0" />
+                    <span className="flex-1 truncate">{r.title}</span>
+                    {r.fileType === "pdf" && (
+                      <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded shrink-0">PDF</span>
+                    )}
+                    {isSelected && <span className="text-xs text-primary font-medium shrink-0">✓</span>}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setAddOpen(false)} disabled={adding}>
+              取消
+            </Button>
+            <Button onClick={handleAddReports} disabled={adding || selected.size === 0}>
+              {adding ? "關聯中..." : `關聯${selected.size > 0 ? ` (${selected.size})` : ""}`}
+            </Button>
+          </DialogFooter>
         </DialogContent>
       </Dialog>
     </div>

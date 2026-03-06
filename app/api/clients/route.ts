@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { clients } from "@/db/schema";
-import { eq, desc } from "drizzle-orm";
+import { eq, max } from "drizzle-orm";
 
 export async function GET() {
   const supabase = await createClient();
@@ -13,7 +13,7 @@ export async function GET() {
     .select()
     .from(clients)
     .where(eq(clients.userId, data.claims.sub))
-    .orderBy(desc(clients.createdAt));
+    .orderBy(clients.sortOrder);
 
   return NextResponse.json(list);
 }
@@ -30,12 +30,20 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "nickname is required" }, { status: 400 });
   }
 
+  const [maxRow] = await db
+    .select({ max: max(clients.sortOrder) })
+    .from(clients)
+    .where(eq(clients.userId, data.claims.sub));
+
+  const nextOrder = Number(maxRow?.max ?? -1) + 1;
+
   const [inserted] = await db
     .insert(clients)
     .values({
       userId: data.claims.sub,
       nickname: nickname.trim(),
       description: description?.trim() || null,
+      sortOrder: nextOrder,
     })
     .returning();
 

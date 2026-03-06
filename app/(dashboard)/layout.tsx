@@ -18,9 +18,9 @@ async function SidebarUser() {
 }
 
 const navLinks = [
+  { href: "/report", label: "報告", icon: <FileTextIcon className="h-4 w-4" /> },
   { href: "/client", label: "對象", icon: <UsersIcon className="h-4 w-4" /> },
   { href: "/kind",   label: "種類", icon: <TagIcon className="h-4 w-4" /> },
-  { href: "/report", label: "報告", icon: <FileTextIcon className="h-4 w-4" /> },
 ];
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {

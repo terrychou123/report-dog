@@ -12,7 +12,6 @@ export async function POST(req: NextRequest) {
 
   const formData = await req.formData();
   const file = formData.get("file") as File | null;
-  const clientId = formData.get("clientId") as string | null;
 
   if (!file) return NextResponse.json({ error: "No file provided" }, { status: 400 });
 
@@ -50,7 +49,6 @@ export async function POST(req: NextRequest) {
       .insert(reports)
       .values({
         userId,
-        clientId: clientId || null,
         title,
         content: extractedContent,
         fileType: "pdf",

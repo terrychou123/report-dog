@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { kindReports, reports, kinds } from "@/db/schema";
+import { clientReports, reports, clients } from "@/db/schema";
 import { eq, and } from "drizzle-orm";
 
 export async function GET(req: NextRequest) {
@@ -9,28 +9,28 @@ export async function GET(req: NextRequest) {
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  const kindId = req.nextUrl.searchParams.get("kindId");
+  const clientId = req.nextUrl.searchParams.get("clientId");
   const reportId = req.nextUrl.searchParams.get("reportId");
 
-  if (kindId) {
-    // Verify kind belongs to user
-    const [kind] = await db
+  if (clientId) {
+    // Verify client belongs to user
+    const [client] = await db
       .select()
-      .from(kinds)
-      .where(and(eq(kinds.id, kindId), eq(kinds.userId, data.claims.sub)));
-    if (!kind) return NextResponse.json({ error: "Not found" }, { status: 404 });
+      .from(clients)
+      .where(and(eq(clients.id, clientId), eq(clients.userId, data.claims.sub)));
+    if (!client) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
     const rows = await db
       .select({
-        relationId: kindReports.id,
+        relationId: clientReports.id,
         reportId: reports.id,
         title: reports.title,
         fileType: reports.fileType,
         createdAt: reports.createdAt,
       })
-      .from(kindReports)
-      .innerJoin(reports, eq(kindReports.reportId, reports.id))
-      .where(eq(kindReports.kindId, kindId));
+      .from(clientReports)
+      .innerJoin(reports, eq(clientReports.reportId, reports.id))
+      .where(eq(clientReports.clientId, clientId));
 
     return NextResponse.json(rows);
   }
@@ -45,19 +45,19 @@ export async function GET(req: NextRequest) {
 
     const rows = await db
       .select({
-        relationId: kindReports.id,
-        kindId: kinds.id,
-        name: kinds.name,
-        description: kinds.description,
+        relationId: clientReports.id,
+        clientId: clients.id,
+        nickname: clients.nickname,
+        description: clients.description,
       })
-      .from(kindReports)
-      .innerJoin(kinds, eq(kindReports.kindId, kinds.id))
-      .where(eq(kindReports.reportId, reportId));
+      .from(clientReports)
+      .innerJoin(clients, eq(clientReports.clientId, clients.id))
+      .where(eq(clientReports.reportId, reportId));
 
     return NextResponse.json(rows);
   }
 
-  return NextResponse.json({ error: "kindId or reportId is required" }, { status: 400 });
+  return NextResponse.json({ error: "clientId or reportId is required" }, { status: 400 });
 }
 
 export async function POST(req: NextRequest) {
@@ -66,30 +66,30 @@ export async function POST(req: NextRequest) {
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const body = await req.json();
-  const { kindId, reportId } = body;
+  const { clientId, reportId } = body;
 
-  if (!kindId || !reportId) {
-    return NextResponse.json({ error: "kindId and reportId are required" }, { status: 400 });
+  if (!clientId || !reportId) {
+    return NextResponse.json({ error: "clientId and reportId are required" }, { status: 400 });
   }
 
-  // Verify kind belongs to user
-  const [kind] = await db
+  // Verify client belongs to user
+  const [client] = await db
     .select()
-    .from(kinds)
-    .where(and(eq(kinds.id, kindId), eq(kinds.userId, data.claims.sub)));
-  if (!kind) return NextResponse.json({ error: "Kind not found" }, { status: 404 });
+    .from(clients)
+    .where(and(eq(clients.id, clientId), eq(clients.userId, data.claims.sub)));
+  if (!client) return NextResponse.json({ error: "Client not found" }, { status: 404 });
 
   // Check if already associated
   const [existing] = await db
     .select()
-    .from(kindReports)
-    .where(and(eq(kindReports.kindId, kindId), eq(kindReports.reportId, reportId)));
+    .from(clientReports)
+    .where(and(eq(clientReports.clientId, clientId), eq(clientReports.reportId, reportId)));
 
   if (existing) return NextResponse.json(existing, { status: 200 });
 
   const [inserted] = await db
-    .insert(kindReports)
-    .values({ kindId, reportId })
+    .insert(clientReports)
+    .values({ clientId, reportId })
     .returning();
 
   return NextResponse.json(inserted, { status: 201 });

@@ -1,95 +1,135 @@
-import { Suspense } from "react";
-import { createClient } from "@/lib/supabase/server";
-import { db } from "@/db";
-import { clients } from "@/db/schema";
-import { eq, desc } from "drizzle-orm";
+"use client";
+
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { PlusIcon, UserIcon } from "lucide-react";
+import { UserIcon, PlusIcon, GripVerticalIcon } from "lucide-react";
+import {
+  DndContext,
+  closestCenter,
+  PointerSensor,
+  useSensor,
+  useSensors,
+  DragEndEvent,
+} from "@dnd-kit/core";
+import {
+  SortableContext,
+  useSortable,
+  verticalListSortingStrategy,
+  arrayMove,
+} from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
-async function ClientsList() {
-  const supabase = await createClient();
-  const { data } = await supabase.auth.getClaims();
-  const userId = data!.claims!.sub;
+type Client = {
+  id: string;
+  nickname: string;
+  description: string | null;
+  sortOrder: number;
+  createdAt: string;
+};
 
-  const clientList = await db
-    .select()
-    .from(clients)
-    .where(eq(clients.userId, userId))
-    .orderBy(desc(clients.createdAt));
+function SortableClientCard({ client }: { client: Client }) {
+  const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: client.id });
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+    opacity: isDragging ? 0.5 : 1,
+  };
 
-  if (clientList.length === 0) {
-    return (
-      <div className="text-center py-20 text-muted-foreground">
-        <UserIcon className="h-12 w-12 mx-auto mb-4 opacity-30" />
-        <p className="text-lg mb-2">尚無服務對象</p>
-        <p className="text-sm mb-6">點擊「新建對象」開始建立您的第一個服務對象</p>
-        <Button asChild variant="outline">
-          <Link href="/client/new">
-            <PlusIcon className="h-4 w-4 mr-2" />
-            新建對象
-          </Link>
-        </Button>
-      </div>
-    );
+  return (
+    <div ref={setNodeRef} style={style} className="relative">
+      <Link href={`/client/${client.id}`} className="block">
+        <Card className="hover:shadow-md transition-shadow cursor-pointer">
+          <CardHeader className="py-3 px-4 pr-12">
+            <CardTitle className="text-sm font-medium flex items-center gap-2">
+              <UserIcon className="h-4 w-4 text-primary shrink-0" />
+              {client.nickname}
+            </CardTitle>
+            {client.description && (
+              <CardDescription className="text-xs truncate">{client.description}</CardDescription>
+            )}
+          </CardHeader>
+        </Card>
+      </Link>
+      <button
+        {...attributes}
+        {...listeners}
+        className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-grab active:cursor-grabbing"
+        title="拖曳排序"
+      >
+        <GripVerticalIcon className="h-4 w-4" />
+      </button>
+    </div>
+  );
+}
+
+export default function ClientPage() {
+  const router = useRouter();
+  const [clients, setClients] = useState<Client[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  const sensors = useSensors(useSensor(PointerSensor));
+
+  useEffect(() => {
+    fetch("/api/clients")
+      .then((r) => r.json())
+      .then((data) => { setClients(data); setLoading(false); })
+      .catch(() => setLoading(false));
+  }, []);
+
+  async function handleDragEnd(event: DragEndEvent) {
+    const { active, over } = event;
+    if (!over || active.id === over.id) return;
+
+    const oldIndex = clients.findIndex((c) => c.id === active.id);
+    const newIndex = clients.findIndex((c) => c.id === over.id);
+    const reordered = arrayMove(clients, oldIndex, newIndex);
+    setClients(reordered);
+
+    await fetch("/api/clients/reorder", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ids: reordered.map((c) => c.id) }),
+    });
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {clientList.map((client) => (
-        <Link key={client.id} href={`/client/${client.id}`}>
-          <Card className="hover:shadow-md transition-shadow cursor-pointer h-full">
-            <CardHeader className="pb-2">
-              <CardTitle className="text-base flex items-center gap-2">
-                <UserIcon className="h-4 w-4 text-primary" />
-                {client.nickname}
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground line-clamp-2">
-                {client.description || "尚無描述"}
-              </p>
-              <p className="text-xs text-muted-foreground mt-3">
-                建立於 {new Date(client.createdAt).toLocaleDateString("zh-TW")}
-              </p>
-            </CardContent>
-          </Card>
-        </Link>
-      ))}
-    </div>
-  );
-}
-
-function ClientsListSkeleton() {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {[1, 2, 3, 4].map((i) => (
-        <Skeleton key={i} className="h-28 w-full rounded-lg" />
-      ))}
-    </div>
-  );
-}
-
-export default function ClientsPage() {
-  return (
-    <div className="p-8 max-w-4xl">
+    <div className="p-8 max-w-3xl">
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-2xl font-bold">服務對象</h1>
           <p className="text-muted-foreground mt-1 text-sm">管理您的服務對象</p>
         </div>
-        <Button asChild>
-          <Link href="/client/new">
-            <PlusIcon className="h-4 w-4 mr-2" />
-            新建對象
-          </Link>
+        <Button size="sm" onClick={() => router.push("/client/new")}>
+          <PlusIcon className="h-4 w-4 mr-1.5" />
+          新建對象
         </Button>
       </div>
-      <Suspense fallback={<ClientsListSkeleton />}>
-        <ClientsList />
-      </Suspense>
+
+      {loading ? (
+        <div className="space-y-3">
+          {[1, 2, 3].map((i) => <Skeleton key={i} className="h-16 w-full" />)}
+        </div>
+      ) : clients.length === 0 ? (
+        <div className="text-center py-14 text-muted-foreground border rounded-lg">
+          <UserIcon className="h-10 w-10 mx-auto mb-3 opacity-30" />
+          <p className="mb-1">尚無服務對象</p>
+          <p className="text-sm">點擊「新建對象」建立第一個服務對象</p>
+        </div>
+      ) : (
+        <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
+          <SortableContext items={clients.map((c) => c.id)} strategy={verticalListSortingStrategy}>
+            <div className="space-y-3">
+              {clients.map((client) => (
+                <SortableClientCard key={client.id} client={client} />
+              ))}
+            </div>
+          </SortableContext>
+        </DndContext>
+      )}
     </div>
   );
 }

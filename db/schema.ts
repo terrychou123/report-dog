@@ -5,6 +5,7 @@ export const clients = pgTable('clients', {
   userId: text('user_id').notNull(),
   nickname: varchar('nickname', { length: 100 }).notNull(),
   description: text('description'),
+  sortOrder: integer('sort_order').default(0).notNull(),
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 });
@@ -12,7 +13,6 @@ export const clients = pgTable('clients', {
 export const reports = pgTable('reports', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: text('user_id').notNull(),
-  clientId: uuid('client_id').references(() => clients.id, { onDelete: 'cascade' }),
   title: varchar('title', { length: 255 }).notNull(),
   content: text('content'),
   fileType: varchar('file_type', { length: 10 }),
@@ -68,6 +68,13 @@ export const kinds = pgTable('kinds', {
 export const kindReports = pgTable('kind_reports', {
   id: uuid('id').defaultRandom().primaryKey(),
   kindId: uuid('kind_id').references(() => kinds.id, { onDelete: 'cascade' }).notNull(),
+  reportId: uuid('report_id').references(() => reports.id, { onDelete: 'cascade' }).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
+
+export const clientReports = pgTable('client_reports', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  clientId: uuid('client_id').references(() => clients.id, { onDelete: 'cascade' }).notNull(),
   reportId: uuid('report_id').references(() => reports.id, { onDelete: 'cascade' }).notNull(),
   createdAt: timestamp('created_at').defaultNow().notNull(),
 });
