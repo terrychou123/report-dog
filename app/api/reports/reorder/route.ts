@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { kinds } from "@/db/schema";
+import { reports } from "@/db/schema";
 import { eq, and } from "drizzle-orm";
 
 export async function PUT(req: NextRequest) {
@@ -19,9 +19,9 @@ export async function PUT(req: NextRequest) {
   await Promise.all(
     ids.map((id, index) =>
       db
-        .update(kinds)
+        .update(reports)
         .set({ sortOrder: index, updatedAt: new Date() })
-        .where(and(eq(kinds.id, id), eq(kinds.userId, data.claims.sub)))
+        .where(and(eq(reports.id, id), eq(reports.userId, data.claims.sub)))
     )
   );
 

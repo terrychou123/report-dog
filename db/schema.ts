@@ -17,6 +17,7 @@ export const reports = pgTable('reports', {
   content: text('content'),
   fileType: varchar('file_type', { length: 10 }),
   fileUrl: text('file_url'),
+  sortOrder: integer('sort_order').default(0).notNull(),
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 });

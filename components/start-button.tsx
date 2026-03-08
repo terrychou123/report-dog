@@ -11,7 +11,7 @@ export function StartButton({ children = "立即開始" }: { children?: React.Re
     const supabase = createClient();
     const { data } = await supabase.auth.getClaims();
     if (data?.claims) {
-      router.push("/client");
+      router.push("/report");
     } else {
       router.push("/auth/login");
     }

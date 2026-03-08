@@ -10,7 +10,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { ShieldIcon } from "lucide-react";
 
-export default function NewClientPage() {
+export default function NewTagPage() {
   const router = useRouter();
   const [nickname, setNickname] = useState("");
   const [description, setDescription] = useState("");
@@ -26,7 +26,7 @@ export default function NewClientPage() {
     setLoading(true);
     setError("");
 
-    const res = await fetch("/api/clients", {
+    const res = await fetch("/api/tags", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ nickname: nickname.trim(), description: description.trim() }),
@@ -39,13 +39,13 @@ export default function NewClientPage() {
     }
 
     const { id } = await res.json();
-    router.push(`/client/${id}`);
+    router.push(`/tag/${id}`);
   };
 
   return (
     <div className="p-8 max-w-xl">
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">創建新對象</h1>
+        <h1 className="text-2xl font-bold">創建新標籤</h1>
         <p className="text-muted-foreground mt-1 text-sm">請使用化名避免個資洩漏</p>
       </div>
 
@@ -58,8 +58,8 @@ export default function NewClientPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle className="text-base">對象資料</CardTitle>
-          <CardDescription>填寫服務對象的基本資料</CardDescription>
+          <CardTitle className="text-base">標籤資料</CardTitle>
+          <CardDescription>填寫標籤的基本資料</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -77,7 +77,7 @@ export default function NewClientPage() {
               <Label htmlFor="description">簡單描述</Label>
               <Textarea
                 id="description"
-                placeholder="簡短說明此服務對象的背景或情況（可使用代稱）"
+                placeholder="簡短說明此標籤的背景或情況（可使用代稱）"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 disabled={loading}

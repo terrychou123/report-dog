@@ -16,16 +16,14 @@ import {
   ArrowLeftIcon, SaveIcon, SparklesIcon, CheckIcon,
   RefreshCwIcon, Trash2Icon, DownloadIcon,
   BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon,
-  PlusIcon, XIcon, UserIcon, TagIcon,
+  PlusIcon, XIcon, TagIcon,
 } from "lucide-react";
 import { toast } from "sonner";
 
 type Report = { id: string; title: string; content: string | null; fileType: string | null; fileUrl: string | null };
 type Message = { role: "user" | "assistant"; content: string; reasoning_details?: unknown };
-type ClientAssociation = { relationId: string; clientId: string; nickname: string; description: string | null };
-type ClientOption = { id: string; nickname: string; description: string | null };
-type KindAssociation = { relationId: string; kindId: string; name: string; description: string | null };
-type KindOption = { id: string; name: string; description: string | null };
+type TagAssociation = { relationId: string; clientId: string; nickname: string; description: string | null };
+type TagOption = { id: string; nickname: string; description: string | null };
 
 function preprocessHtml(rawHtml: string): string {
   const parser = new DOMParser();
@@ -105,21 +103,13 @@ export default function ReportEditorPage() {
   const [deleteReportOpen, setDeleteReportOpen] = useState(false);
   const [deletingReport, setDeletingReport] = useState(false);
 
-  // 關聯對象
-  const [clientAssociations, setClientAssociations] = useState<ClientAssociation[]>([]);
-  const [addClientsOpen, setAddClientsOpen] = useState(false);
-  const [allClients, setAllClients] = useState<ClientOption[]>([]);
-  const [selectedClients, setSelectedClients] = useState<Set<string>>(new Set());
-  const [loadingClients, setLoadingClients] = useState(false);
-  const [addingClients, setAddingClients] = useState(false);
-
-  // 關聯種類
-  const [kindAssociations, setKindAssociations] = useState<KindAssociation[]>([]);
-  const [addKindsOpen, setAddKindsOpen] = useState(false);
-  const [allKinds, setAllKinds] = useState<KindOption[]>([]);
-  const [selectedKinds, setSelectedKinds] = useState<Set<string>>(new Set());
-  const [loadingKinds, setLoadingKinds] = useState(false);
-  const [addingKinds, setAddingKinds] = useState(false);
+  // 關聯標籤
+  const [tagAssociations, setTagAssociations] = useState<TagAssociation[]>([]);
+  const [addTagsOpen, setAddTagsOpen] = useState(false);
+  const [allTags, setAllTags] = useState<TagOption[]>([]);
+  const [selectedTags, setSelectedTags] = useState<Set<string>>(new Set());
+  const [loadingTags, setLoadingTags] = useState(false);
+  const [addingTags, setAddingTags] = useState(false);
 
   const editor = useEditor({
     immediatelyRender: false,
@@ -139,18 +129,16 @@ export default function ReportEditorPage() {
   // 從 API 載入報告
   useEffect(() => {
     async function load() {
-      const [reportRes, assocRes, kindAssocRes] = await Promise.all([
+      const [reportRes, assocRes] = await Promise.all([
         fetch(`/api/reports/${params.id}`),
-        fetch(`/api/client-reports?reportId=${params.id}`),
-        fetch(`/api/kind-reports?reportId=${params.id}`),
+        fetch(`/api/tag-reports?reportId=${params.id}`),
       ]);
       if (!reportRes.ok) { router.push("/report"); return; }
       const data: Report = await reportRes.json();
       setReport(data);
       setReportTitle(data.title);
       setInitialContent(data.content || "");
-      if (assocRes.ok) setClientAssociations(await assocRes.json());
-      if (kindAssocRes.ok) setKindAssociations(await kindAssocRes.json());
+      if (assocRes.ok) setTagAssociations(await assocRes.json());
       setLoading(false);
     }
     load();
@@ -235,100 +223,52 @@ export default function ReportEditorPage() {
     setTimeout(() => inputRef.current?.focus(), 50);
   }
 
-  // 關聯對象 handlers
-  async function handleRemoveClientAssociation(relationId: string) {
-    const res = await fetch(`/api/client-reports/${relationId}`, { method: "DELETE" });
+  // 關聯標籤 handlers
+  async function handleRemoveTagAssociation(relationId: string) {
+    const res = await fetch(`/api/tag-reports/${relationId}`, { method: "DELETE" });
     if (res.ok) {
-      setClientAssociations((prev) => prev.filter((a) => a.relationId !== relationId));
+      setTagAssociations((prev) => prev.filter((a) => a.relationId !== relationId));
       toast.success("已解除關聯");
     } else {
       toast.error("操作失敗，請重試");
     }
   }
 
-  async function openAddClientsDialog() {
-    setAddClientsOpen(true);
-    setSelectedClients(new Set());
-    setLoadingClients(true);
-    const res = await fetch("/api/clients");
-    if (res.ok) setAllClients(await res.json());
-    setLoadingClients(false);
+  async function openAddTagsDialog() {
+    setAddTagsOpen(true);
+    setSelectedTags(new Set());
+    setLoadingTags(true);
+    const res = await fetch("/api/tags");
+    if (res.ok) setAllTags(await res.json());
+    setLoadingTags(false);
   }
 
-  function toggleClient(clientId: string) {
-    setSelectedClients((prev) => {
+  function toggleTag(tagId: string) {
+    setSelectedTags((prev) => {
       const next = new Set(prev);
-      if (next.has(clientId)) next.delete(clientId);
-      else next.add(clientId);
+      if (next.has(tagId)) next.delete(tagId);
+      else next.add(tagId);
       return next;
     });
   }
 
-  async function handleAddClients() {
-    if (selectedClients.size === 0) return;
-    setAddingClients(true);
+  async function handleAddTags() {
+    if (selectedTags.size === 0) return;
+    setAddingTags(true);
     await Promise.all(
-      Array.from(selectedClients).map((clientId) =>
-        fetch("/api/client-reports", {
+      Array.from(selectedTags).map((clientId) =>
+        fetch("/api/tag-reports", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ clientId, reportId: params.id }),
         })
       )
     );
-    const assocRes = await fetch(`/api/client-reports?reportId=${params.id}`);
-    if (assocRes.ok) setClientAssociations(await assocRes.json());
-    setAddingClients(false);
-    setAddClientsOpen(false);
-    toast.success("已新增關聯對象");
-  }
-
-  // 關聯種類 handlers
-  async function handleRemoveKindAssociation(relationId: string) {
-    const res = await fetch(`/api/kind-reports/${relationId}`, { method: "DELETE" });
-    if (res.ok) {
-      setKindAssociations((prev) => prev.filter((a) => a.relationId !== relationId));
-      toast.success("已解除關聯");
-    } else {
-      toast.error("操作失敗，請重試");
-    }
-  }
-
-  async function openAddKindsDialog() {
-    setAddKindsOpen(true);
-    setSelectedKinds(new Set());
-    setLoadingKinds(true);
-    const res = await fetch("/api/kinds");
-    if (res.ok) setAllKinds(await res.json());
-    setLoadingKinds(false);
-  }
-
-  function toggleKind(kindId: string) {
-    setSelectedKinds((prev) => {
-      const next = new Set(prev);
-      if (next.has(kindId)) next.delete(kindId);
-      else next.add(kindId);
-      return next;
-    });
-  }
-
-  async function handleAddKinds() {
-    if (selectedKinds.size === 0) return;
-    setAddingKinds(true);
-    await Promise.all(
-      Array.from(selectedKinds).map((kindId) =>
-        fetch("/api/kind-reports", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ kindId, reportId: params.id }),
-        })
-      )
-    );
-    const kindAssocRes = await fetch(`/api/kind-reports?reportId=${params.id}`);
-    if (kindAssocRes.ok) setKindAssociations(await kindAssocRes.json());
-    setAddingKinds(false);
-    setAddKindsOpen(false);
-    toast.success("已新增關聯種類");
+    const assocRes = await fetch(`/api/tag-reports?reportId=${params.id}`);
+    if (assocRes.ok) setTagAssociations(await assocRes.json());
+    setAddingTags(false);
+    setAddTagsOpen(false);
+    toast.success("已新增關聯標籤");
   }
 
   async function handleSave() {
@@ -448,6 +388,25 @@ export default function ReportEditorPage() {
               圈選文字段落，使用 AI 修改
             </p>
           )}
+          {/* 關聯標籤 */}
+          <div className="flex items-center gap-2 mt-2 flex-wrap">
+            {tagAssociations.map((a) => (
+              <span key={a.relationId}
+                className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-muted text-xs font-medium">
+                <TagIcon className="h-3 w-3 text-muted-foreground" />
+                {a.nickname}
+                <button onClick={() => handleRemoveTagAssociation(a.relationId)}
+                  className="ml-0.5 text-muted-foreground hover:text-foreground transition-colors">
+                  <XIcon className="h-3 w-3" />
+                </button>
+              </span>
+            ))}
+            <button onClick={openAddTagsDialog}
+              className="flex items-center gap-1 px-2.5 py-1 rounded-full border border-dashed text-xs text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+              <PlusIcon className="h-3 w-3" />
+              標籤
+            </button>
+          </div>
         </div>
         <div className="flex gap-2 shrink-0">
           <Button
@@ -511,163 +470,39 @@ export default function ReportEditorPage() {
         </div>
       )}
 
-      {/* 關聯對象 section */}
-      <div className="mt-8 pt-6 border-t">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-base font-semibold flex items-center gap-2">
-            <UserIcon className="h-4 w-4 text-muted-foreground" />
-            關聯對象
-          </h2>
-          <Button size="sm" variant="outline" onClick={openAddClientsDialog}>
-            <PlusIcon className="h-4 w-4 mr-1.5" />
-            新增關聯
-          </Button>
-        </div>
-        {clientAssociations.length === 0 ? (
-          <p className="text-sm text-muted-foreground">尚未關聯任何服務對象</p>
-        ) : (
-          <div className="flex flex-wrap gap-2">
-            {clientAssociations.map((a) => (
-              <div
-                key={a.relationId}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-muted text-sm font-medium"
-              >
-                <UserIcon className="h-3.5 w-3.5 text-muted-foreground" />
-                {a.nickname}
-                <button
-                  onClick={() => handleRemoveClientAssociation(a.relationId)}
-                  className="ml-0.5 text-muted-foreground hover:text-foreground transition-colors"
-                  title="解除關聯"
-                >
-                  <XIcon className="h-3.5 w-3.5" />
-                </button>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* 新增關聯對象 Dialog */}
-      <Dialog open={addClientsOpen} onOpenChange={(open) => { setAddClientsOpen(open); if (!open) setSelectedClients(new Set()); }}>
+      {/* 新增標籤 Dialog */}
+      <Dialog open={addTagsOpen} onOpenChange={(open) => { setAddTagsOpen(open); if (!open) setSelectedTags(new Set()); }}>
         <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle>新增關聯對象</DialogTitle>
+            <DialogTitle>新增關聯標籤</DialogTitle>
           </DialogHeader>
-          {loadingClients ? (
+          {loadingTags ? (
             <div className="space-y-2 py-4">
               {[1, 2, 3].map((i) => <Skeleton key={i} className="h-10 w-full" />)}
             </div>
           ) : (() => {
-            const linkedIds = new Set(clientAssociations.map((a) => a.clientId));
-            const available = allClients.filter((c) => !linkedIds.has(c.id));
+            const linkedIds = new Set(tagAssociations.map((a) => a.clientId));
+            const available = allTags.filter((t) => !linkedIds.has(t.id));
             return available.length === 0 ? (
               <p className="text-sm text-muted-foreground py-4 text-center">
-                所有對象均已關聯或尚無對象
+                所有標籤均已關聯或尚無標籤
               </p>
             ) : (
               <div className="space-y-2 max-h-72 overflow-y-auto py-2">
-                {available.map((c) => {
-                  const isSelected = selectedClients.has(c.id);
+                {available.map((t) => {
+                  const isSelected = selectedTags.has(t.id);
                   return (
                     <button
-                      key={c.id}
-                      onClick={() => toggleClient(c.id)}
-                      className={`w-full text-left px-3 py-2.5 rounded-lg border text-sm transition-colors flex items-center gap-2 ${
-                        isSelected ? "border-primary bg-primary/5" : "border-border hover:bg-muted"
-                      }`}
-                    >
-                      <UserIcon className="h-4 w-4 text-primary shrink-0" />
-                      <span className="flex-1 truncate">{c.nickname}</span>
-                      {c.description && (
-                        <span className="text-xs text-muted-foreground truncate max-w-24">{c.description}</span>
-                      )}
-                      {isSelected && <span className="text-xs text-primary font-medium shrink-0">✓</span>}
-                    </button>
-                  );
-                })}
-              </div>
-            );
-          })()}
-          <DialogFooter>
-            <Button variant="outline" onClick={() => setAddClientsOpen(false)} disabled={addingClients}>
-              取消
-            </Button>
-            <Button onClick={handleAddClients} disabled={addingClients || selectedClients.size === 0}>
-              {addingClients ? "關聯中..." : `關聯${selectedClients.size > 0 ? ` (${selectedClients.size})` : ""}`}
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
-
-      {/* 關聯種類 section */}
-      <div className="mt-6 pt-6 border-t">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-base font-semibold flex items-center gap-2">
-            <TagIcon className="h-4 w-4 text-muted-foreground" />
-            關聯種類
-          </h2>
-          <Button size="sm" variant="outline" onClick={openAddKindsDialog}>
-            <PlusIcon className="h-4 w-4 mr-1.5" />
-            新增關聯
-          </Button>
-        </div>
-        {kindAssociations.length === 0 ? (
-          <p className="text-sm text-muted-foreground">尚未關聯任何種類</p>
-        ) : (
-          <div className="flex flex-wrap gap-2">
-            {kindAssociations.map((a) => (
-              <div
-                key={a.relationId}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-muted text-sm font-medium"
-              >
-                <TagIcon className="h-3.5 w-3.5 text-muted-foreground" />
-                {a.name}
-                <button
-                  onClick={() => handleRemoveKindAssociation(a.relationId)}
-                  className="ml-0.5 text-muted-foreground hover:text-foreground transition-colors"
-                  title="解除關聯"
-                >
-                  <XIcon className="h-3.5 w-3.5" />
-                </button>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* 新增關聯種類 Dialog */}
-      <Dialog open={addKindsOpen} onOpenChange={(open) => { setAddKindsOpen(open); if (!open) setSelectedKinds(new Set()); }}>
-        <DialogContent className="max-w-md">
-          <DialogHeader>
-            <DialogTitle>新增關聯種類</DialogTitle>
-          </DialogHeader>
-          {loadingKinds ? (
-            <div className="space-y-2 py-4">
-              {[1, 2, 3].map((i) => <Skeleton key={i} className="h-10 w-full" />)}
-            </div>
-          ) : (() => {
-            const linkedIds = new Set(kindAssociations.map((a) => a.kindId));
-            const available = allKinds.filter((k) => !linkedIds.has(k.id));
-            return available.length === 0 ? (
-              <p className="text-sm text-muted-foreground py-4 text-center">
-                所有種類均已關聯或尚無種類
-              </p>
-            ) : (
-              <div className="space-y-2 max-h-72 overflow-y-auto py-2">
-                {available.map((k) => {
-                  const isSelected = selectedKinds.has(k.id);
-                  return (
-                    <button
-                      key={k.id}
-                      onClick={() => toggleKind(k.id)}
+                      key={t.id}
+                      onClick={() => toggleTag(t.id)}
                       className={`w-full text-left px-3 py-2.5 rounded-lg border text-sm transition-colors flex items-center gap-2 ${
                         isSelected ? "border-primary bg-primary/5" : "border-border hover:bg-muted"
                       }`}
                     >
                       <TagIcon className="h-4 w-4 text-primary shrink-0" />
-                      <span className="flex-1 truncate">{k.name}</span>
-                      {k.description && (
-                        <span className="text-xs text-muted-foreground truncate max-w-24">{k.description}</span>
+                      <span className="flex-1 truncate">{t.nickname}</span>
+                      {t.description && (
+                        <span className="text-xs text-muted-foreground truncate max-w-24">{t.description}</span>
                       )}
                       {isSelected && <span className="text-xs text-primary font-medium shrink-0">✓</span>}
                     </button>
@@ -677,11 +512,11 @@ export default function ReportEditorPage() {
             );
           })()}
           <DialogFooter>
-            <Button variant="outline" onClick={() => setAddKindsOpen(false)} disabled={addingKinds}>
+            <Button variant="outline" onClick={() => setAddTagsOpen(false)} disabled={addingTags}>
               取消
             </Button>
-            <Button onClick={handleAddKinds} disabled={addingKinds || selectedKinds.size === 0}>
-              {addingKinds ? "關聯中..." : `關聯${selectedKinds.size > 0 ? ` (${selectedKinds.size})` : ""}`}
+            <Button onClick={handleAddTags} disabled={addingTags || selectedTags.size === 0}>
+              {addingTags ? "關聯中..." : `關聯${selectedTags.size > 0 ? ` (${selectedTags.size})` : ""}`}
             </Button>
           </DialogFooter>
         </DialogContent>

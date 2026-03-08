@@ -8,11 +8,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
   BotIcon,
-  FolderIcon,
-  ShieldIcon,
+  TagIcon,
+  CopyIcon,
   ZapIcon,
   CheckIcon,
-  UsersIcon,
+  SearchIcon,
   FileTextIcon,
   SparklesIcon,
   ChevronDownIcon,
@@ -50,15 +50,15 @@ export default function Home() {
       <section className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">
         <Badge variant="outline" className="mb-6 px-4 py-1.5 text-sm">
           <SparklesIcon className="h-3.5 w-3.5 mr-1.5" />
-          AI 智能報告助手
+          行政效率工具
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          智能報告編輯，<br className="hidden md:block" />
-          <span className="text-primary">效率提升 3 倍</span>
+          定期報告，<br className="hidden md:block" />
+          <span className="text-primary">不再重複造輪子</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
-          報告汪結合先進 AI 技術，讓社工、心理師、顧問快速管理個案、精準修改報告。
-          保護隱私，提升專業品質。
+          複製上期報告當模板，AI 幫你修改差異段落，再用標籤與搜尋輕鬆管理所有報告。
+          每天例行報告，1 分鐘完成。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <StartButton>立即開始 — 免費</StartButton>
@@ -72,8 +72,8 @@ export default function Home() {
       <section className="border-y bg-muted/20 py-14 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           {[
-            { value: "10 倍", label: "報告修改速度" },
-            { value: "100%", label: "資料本地加密" },
+            { value: "1 分鐘", label: "定期報告產出時間" },
+            { value: "標籤＋搜尋", label: "快速找到任何報告" },
             { value: "免費", label: "測試期間全功能開放" },
           ].map((stat) => (
             <div key={stat.label}>
@@ -88,9 +88,9 @@ export default function Home() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">專為助人工作者設計</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">專為定期報告設計</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              從個案管理到 AI 輔助修改，每一個功能都以您的需求為中心。
+              從複製舊報告到 AI 修改、標籤分類到全文搜尋，每一個功能都以行政效率為中心。
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -98,22 +98,22 @@ export default function Home() {
               {
                 icon: <BotIcon className="h-6 w-6" />,
                 title: "AI 段落修改",
-                desc: "點擊任意段落，輸入修改指令，AI 立即給出專業建議。不滿意可反覆調整，直到達到預期效果。",
+                desc: "點擊任意段落，輸入修改指令，AI 立即給出符合本次格式的版本。不滿意可反覆調整，直到達到預期效果。",
               },
               {
-                icon: <FolderIcon className="h-6 w-6" />,
-                title: "個案集中管理",
-                desc: "以服務對象為單位管理所有相關報告，一目瞭然查看歷史記錄，不再在散亂文件中迷失。",
+                icon: <TagIcon className="h-6 w-6" />,
+                title: "標籤分類，快速找報告",
+                desc: "用標籤標記報告類型（日報、週報、月報、專案名稱），搭配全文搜尋，一秒定位任何一份報告。",
               },
               {
-                icon: <ShieldIcon className="h-6 w-6" />,
-                title: "隱私優先設計",
-                desc: "我們建議使用化名代替真實姓名，有效保護個資。您的數據安全儲存，不會對外分享。",
+                icon: <CopyIcon className="h-6 w-6" />,
+                title: "一鍵複製舊報告",
+                desc: "直接複製上期報告當模板，保留原有格式與段落結構，只需修改差異內容，省去重複排版的時間。",
               },
               {
                 icon: <ZapIcon className="h-6 w-6" />,
-                title: "快速上傳報告",
-                desc: "直接貼上報告文字，系統自動儲存並與對象關聯，無需繁複的操作流程。",
+                title: "快速建立報告",
+                desc: "直接貼上報告文字，系統自動儲存並支援手動輸入或上傳 .doc 檔，立即建立可編輯的報告。",
               },
             ].map((f) => (
               <Card key={f.title} className="group hover:shadow-md transition-shadow">
@@ -138,20 +138,20 @@ export default function Home() {
       <section className="py-20 px-6 bg-muted/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">完整工作流程</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">三步驟完成定期報告</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <Card className="md:col-span-2 p-6 flex flex-col gap-4 border-primary/20">
               <div className="p-3 rounded-xl bg-primary/10 text-primary w-fit">
                 <FileTextIcon className="h-7 w-7" />
               </div>
-              <h3 className="text-xl font-semibold">段落級 AI 對話修改</h3>
+              <h3 className="text-xl font-semibold">複製上期報告，AI 修改差異段落</h3>
               <p className="text-muted-foreground">
-                每個段落都是獨立的編輯單元。點擊後進入 AI 對話模式，以自然語言指揮修改。
-                AI 記住上下文，多輪對話直到您滿意為止。
+                不必每次從零開始。複製上一期報告後，針對有異動的段落下指令給 AI，
+                AI 依照本次情況產出修改版本，多輪對話直到您滿意為止。
               </p>
               <div className="mt-auto pt-4 border-t space-y-2">
-                {["點擊段落", "輸入修改指令", "一鍵套用"].map((step, i) => (
+                {["複製上期報告為模板", "點選要修改的段落，輸入指令", "AI 產出修改版，一鍵套用"].map((step, i) => (
                   <div key={step} className="flex items-center gap-2 text-sm text-muted-foreground">
                     <span className="w-5 h-5 rounded-full bg-primary/10 text-primary text-xs flex items-center justify-center font-bold">
                       {i + 1}
@@ -163,27 +163,27 @@ export default function Home() {
             </Card>
             <Card className="p-6 flex flex-col gap-4">
               <div className="p-3 rounded-xl bg-primary/10 text-primary w-fit">
-                <UsersIcon className="h-7 w-7" />
+                <SearchIcon className="h-7 w-7" />
               </div>
-              <h3 className="text-xl font-semibold">個案中心視圖</h3>
+              <h3 className="text-xl font-semibold">標籤分類＋全文搜尋</h3>
               <p className="text-muted-foreground">
-                所有對象的報告集中呈現，按時間排序，追蹤進度更清晰。
+                用標籤標記日報、週報、月報或專案名稱，所有報告集中管理，全文搜尋秒速定位。
               </p>
             </Card>
             <Card className="p-6 flex flex-col gap-4">
               <div className="p-3 rounded-xl bg-primary/10 text-primary w-fit">
-                <ShieldIcon className="h-7 w-7" />
+                <CopyIcon className="h-7 w-7" />
               </div>
-              <h3 className="text-xl font-semibold">化名保護機制</h3>
+              <h3 className="text-xl font-semibold">報告不怕散落</h3>
               <p className="text-muted-foreground">
-                內建化名提示，建立對象時即提醒避免填入真實姓名，輕鬆符合個資保護要求。
+                所有報告集中儲存、拖曳排序，配合標籤一目瞭然，再也不用在資料夾堆裡翻找。
               </p>
             </Card>
             <Card className="md:col-span-2 p-6 flex flex-col gap-4 bg-primary text-primary-foreground">
               <SparklesIcon className="h-7 w-7" />
               <h3 className="text-xl font-semibold">由 Claude AI 驅動</h3>
               <p className="opacity-80">
-                報告汪使用 Anthropic Claude 模型，理解繁體中文語境，提供符合台灣專業用語的修改建議。
+                報告汪使用 Anthropic Claude 模型，理解繁體中文語境，提供符合台灣行政用語的修改建議。
               </p>
               <div className="mt-auto">
                 <StartButton>免費體驗</StartButton>
@@ -206,11 +206,11 @@ export default function Home() {
             <div className="text-muted-foreground mb-8">/ 月，測試期間</div>
             <ul className="text-left space-y-3 mb-8">
               {[
-                "無限服務對象",
                 "無限報告數量",
+                "無限標籤分類",
                 "AI 段落修改",
-                "個案管理系統",
-                "資料安全儲存",
+                "一鍵複製舊報告",
+                "全文搜尋",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm">
                   <CheckIcon className="h-4 w-4 text-primary flex-shrink-0" />
@@ -233,24 +233,24 @@ export default function Home() {
           <div className="space-y-4">
             {[
               {
-                q: "報告汪適合哪些職業使用？",
-                a: "社工、心理師、諮商師、輔導老師、醫療照護工作者、顧問等需要撰寫個案報告的專業人士。",
+                q: "報告汪適合哪些行政工作使用？",
+                a: "適合需要定期產出報告的行政人員，例如：撰寫日報、週報、月報、專案進度報告、會議紀錄等重複性高的文書工作。",
               },
               {
-                q: "我的個案資料安全嗎？",
-                a: "系統採用 Supabase 加密儲存，資料不會對外分享。我們也建議使用化名，避免填入個案真實姓名。",
+                q: "如何快速產出每週 / 每月的定期報告？",
+                a: "複製上一期的報告作為模板，針對有異動的段落輸入 AI 修改指令（例如：「更新本週進度數字」），AI 立即產出修改版本，確認後套用，全程不需重新排版。",
               },
               {
-                q: "AI 修改是如何運作的？",
-                a: "您在報告中點選任意段落，輸入自然語言指令（例如：「改得更正式一些」），AI 立即提供修改版本供您確認或繼續調整。",
+                q: "AI 修改報告是如何運作的？",
+                a: "點擊報告中的任意段落，進入 AI 對話模式，以自然語言下指令（例如：「這段改得更簡潔」、「加入本週新增的事項」），AI 提供修改版本，不滿意可繼續調整。",
+              },
+              {
+                q: "標籤功能怎麼用？",
+                a: "建立標籤後（例如：週報、A 專案、財務部），將報告關聯至對應標籤。之後可透過標籤篩選或全文搜尋快速找到特定報告，不再需要在資料夾中翻找。",
               },
               {
                 q: "目前收費嗎？",
                 a: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中。",
-              },
-              {
-                q: "支援繁體中文嗎？",
-                a: "完全支援！報告汪專為繁體中文使用者設計，AI 理解台灣專業語境，提供符合本地習慣的修改建議。",
               },
             ].map((item) => (
               <details key={item.q} className="group border rounded-lg bg-background">
@@ -269,9 +269,9 @@ export default function Home() {
 
       {/* CTA */}
       <section className="py-24 px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">準備好提升報告效率了嗎？</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">準備好告別重複文書工作了嗎？</h2>
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
-          加入報告汪，讓 AI 成為您最得力的寫作助手。
+          加入報告汪，讓 AI 幫你搞定定期報告，把時間還給真正重要的事。
         </p>
         <StartButton>免費開始使用</StartButton>
       </section>

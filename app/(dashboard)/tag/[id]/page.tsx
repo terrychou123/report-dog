@@ -17,7 +17,7 @@ type Client = { id: string; nickname: string; description: string | null; create
 type ClientReport = { relationId: string; reportId: string; title: string; fileType: string | null; createdAt: string };
 type Report = { id: string; title: string; fileType: string | null; createdAt: string };
 
-export default function ClientDetailPage() {
+export default function TagDetailPage() {
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const [client, setClient] = useState<Client | null>(null);
@@ -30,7 +30,7 @@ export default function ClientDetailPage() {
   const [editDescription, setEditDescription] = useState("");
   const [fieldSaving, setFieldSaving] = useState(false);
 
-  // 刪除對象 state
+  // 刪除標籤 state
   const [deleteClientOpen, setDeleteClientOpen] = useState(false);
   const [deletingClient, setDeletingClient] = useState(false);
 
@@ -47,10 +47,10 @@ export default function ClientDetailPage() {
   useEffect(() => {
     async function load() {
       const [clientRes, relRes] = await Promise.all([
-        fetch(`/api/clients/${params.id}`),
-        fetch(`/api/client-reports?clientId=${params.id}`),
+        fetch(`/api/tags/${params.id}`),
+        fetch(`/api/tag-reports?clientId=${params.id}`),
       ]);
-      if (!clientRes.ok) { router.push("/client"); return; }
+      if (!clientRes.ok) { router.push("/tag"); return; }
       setClient(await clientRes.json());
       setClientReports(relRes.ok ? await relRes.json() : []);
       setLoading(false);
@@ -64,7 +64,7 @@ export default function ClientDetailPage() {
     if (field === "nickname" && !value) return;
     setFieldSaving(true);
     const body = field === "nickname" ? { nickname: value } : { description: value };
-    const res = await fetch(`/api/clients/${params.id}`, {
+    const res = await fetch(`/api/tags/${params.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
@@ -80,7 +80,7 @@ export default function ClientDetailPage() {
   }
 
   async function handleRemoveRelation(relationId: string) {
-    const res = await fetch(`/api/client-reports/${relationId}`, { method: "DELETE" });
+    const res = await fetch(`/api/tag-reports/${relationId}`, { method: "DELETE" });
     if (res.ok) {
       setClientReports((prev) => prev.filter((r) => r.relationId !== relationId));
       toast.success("已解除關聯");
@@ -114,10 +114,10 @@ export default function ClientDetailPage() {
 
   async function handleDeleteClient() {
     setDeletingClient(true);
-    const res = await fetch(`/api/clients/${params.id}`, { method: "DELETE" });
+    const res = await fetch(`/api/tags/${params.id}`, { method: "DELETE" });
     if (res.ok) {
-      toast.success("已刪除服務對象");
-      router.push("/client");
+      toast.success("已刪除標籤");
+      router.push("/tag");
     } else {
       toast.error("刪除失敗，請重試");
       setDeletingClient(false);
@@ -147,14 +147,14 @@ export default function ClientDetailPage() {
     setAdding(true);
     await Promise.all(
       Array.from(selected).map((reportId) =>
-        fetch("/api/client-reports", {
+        fetch("/api/tag-reports", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ clientId: params.id, reportId }),
         })
       )
     );
-    const relRes = await fetch(`/api/client-reports?clientId=${params.id}`);
+    const relRes = await fetch(`/api/tag-reports?clientId=${params.id}`);
     if (relRes.ok) setClientReports(await relRes.json());
     setAdding(false);
     setAddOpen(false);
@@ -179,11 +179,11 @@ export default function ClientDetailPage() {
   return (
     <div className="p-8 max-w-3xl">
       <button
-        onClick={() => router.push("/client")}
+        onClick={() => router.push("/tag")}
         className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
       >
         <ArrowLeftIcon className="h-3.5 w-3.5" />
-        返回服務對象列表
+        返回標籤列表
       </button>
 
       <div className="mb-8 space-y-2">
@@ -261,7 +261,7 @@ export default function ClientDetailPage() {
             onClick={() => setDeleteClientOpen(true)}
           >
             <Trash2Icon className="h-4 w-4 mr-1.5" />
-            刪除對象
+            刪除標籤
           </Button>
           <Button size="sm" onClick={openAddDialog}>
             <PlusIcon className="h-4 w-4 mr-1.5" />
@@ -274,7 +274,7 @@ export default function ClientDetailPage() {
         <div className="text-center py-14 text-muted-foreground border rounded-lg">
           <FileTextIcon className="h-10 w-10 mx-auto mb-3 opacity-30" />
           <p className="mb-1">尚無相關報告</p>
-          <p className="text-sm">點擊「關聯報告」將現有報告與此對象關聯</p>
+          <p className="text-sm">點擊「關聯報告」將現有報告與此標籤關聯</p>
         </div>
       ) : (
         <div className="space-y-3">
@@ -323,7 +323,7 @@ export default function ClientDetailPage() {
       <Dialog open={deleteClientOpen} onOpenChange={setDeleteClientOpen}>
         <DialogContent className="max-w-sm">
           <DialogHeader>
-            <DialogTitle>確認刪除服務對象</DialogTitle>
+            <DialogTitle>確認刪除標籤</DialogTitle>
           </DialogHeader>
           <p className="text-sm text-muted-foreground">
             此操作將永久刪除「{client.nickname}」，報告本身不受影響。

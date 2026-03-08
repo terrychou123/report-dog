@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { UserIcon, PlusIcon, GripVerticalIcon } from "lucide-react";
+import { TagIcon, PlusIcon, GripVerticalIcon } from "lucide-react";
 import {
   DndContext,
   closestCenter,
@@ -41,11 +41,11 @@ function SortableClientCard({ client }: { client: Client }) {
 
   return (
     <div ref={setNodeRef} style={style} className="relative">
-      <Link href={`/client/${client.id}`} className="block">
+      <Link href={`/tag/${client.id}`} className="block">
         <Card className="hover:shadow-md transition-shadow cursor-pointer">
           <CardHeader className="py-3 px-4 pr-12">
             <CardTitle className="text-sm font-medium flex items-center gap-2">
-              <UserIcon className="h-4 w-4 text-primary shrink-0" />
+              <TagIcon className="h-4 w-4 text-primary shrink-0" />
               {client.nickname}
             </CardTitle>
             {client.description && (
@@ -66,7 +66,7 @@ function SortableClientCard({ client }: { client: Client }) {
   );
 }
 
-export default function ClientPage() {
+export default function TagPage() {
   const router = useRouter();
   const [clients, setClients] = useState<Client[]>([]);
   const [loading, setLoading] = useState(true);
@@ -74,7 +74,7 @@ export default function ClientPage() {
   const sensors = useSensors(useSensor(PointerSensor));
 
   useEffect(() => {
-    fetch("/api/clients")
+    fetch("/api/tags")
       .then((r) => r.json())
       .then((data) => { setClients(data); setLoading(false); })
       .catch(() => setLoading(false));
@@ -89,7 +89,7 @@ export default function ClientPage() {
     const reordered = arrayMove(clients, oldIndex, newIndex);
     setClients(reordered);
 
-    await fetch("/api/clients/reorder", {
+    await fetch("/api/tags/reorder", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ids: reordered.map((c) => c.id) }),
@@ -100,12 +100,12 @@ export default function ClientPage() {
     <div className="p-8 max-w-3xl">
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-2xl font-bold">服務對象</h1>
-          <p className="text-muted-foreground mt-1 text-sm">管理您的服務對象</p>
+          <h1 className="text-2xl font-bold">標籤</h1>
+          <p className="text-muted-foreground mt-1 text-sm">管理您的標籤</p>
         </div>
-        <Button size="sm" onClick={() => router.push("/client/new")}>
+        <Button size="sm" onClick={() => router.push("/tag/new")}>
           <PlusIcon className="h-4 w-4 mr-1.5" />
-          新建對象
+          新建標籤
         </Button>
       </div>
 
@@ -115,9 +115,9 @@ export default function ClientPage() {
         </div>
       ) : clients.length === 0 ? (
         <div className="text-center py-14 text-muted-foreground border rounded-lg">
-          <UserIcon className="h-10 w-10 mx-auto mb-3 opacity-30" />
-          <p className="mb-1">尚無服務對象</p>
-          <p className="text-sm">點擊「新建對象」建立第一個服務對象</p>
+          <TagIcon className="h-10 w-10 mx-auto mb-3 opacity-30" />
+          <p className="mb-1">尚無標籤</p>
+          <p className="text-sm">點擊「新建標籤」建立第一個標籤</p>
         </div>
       ) : (
         <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>

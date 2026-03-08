@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { reports } from "@/db/schema";
+import { min, eq } from "drizzle-orm";
 import { PDFParse } from "pdf-parse";
 
 export async function POST(req: NextRequest) {
@@ -45,6 +46,12 @@ export async function POST(req: NextRequest) {
   }
 
   try {
+    const [minRow] = await db
+      .select({ min: min(reports.sortOrder) })
+      .from(reports)
+      .where(eq(reports.userId, userId));
+    const sortOrder = Number(minRow?.min ?? 0) - 1;
+
     const [inserted] = await db
       .insert(reports)
       .values({
@@ -53,6 +60,7 @@ export async function POST(req: NextRequest) {
         content: extractedContent,
         fileType: "pdf",
         fileUrl,
+        sortOrder,
       })
       .returning();
 

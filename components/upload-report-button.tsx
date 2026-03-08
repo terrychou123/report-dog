@@ -41,6 +41,7 @@ export function UploadReportButton() {
   function onSuccess() {
     resetAndClose();
     router.refresh();
+    window.dispatchEvent(new CustomEvent("reports-updated"));
   }
 
   // 手動建立報告
@@ -51,7 +52,7 @@ export function UploadReportButton() {
       const res = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: reportTitle.trim(), content: reportContent }),
+        body: JSON.stringify({ title: reportTitle.trim(), content: reportContent, insertAtTop: true }),
       });
       if (res.ok) {
         toast.success("報告已建立");
@@ -80,7 +81,7 @@ export function UploadReportButton() {
       const res = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title, content: html }),
+        body: JSON.stringify({ title, content: html, insertAtTop: true }),
       });
       if (res.ok) {
         toast.success("檔案已上傳並建立報告");
