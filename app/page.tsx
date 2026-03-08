@@ -21,6 +21,73 @@ import {
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            name: "報告汪",
+            url: "https://reportwang.com",
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web",
+            offers: { "@type": "Offer", price: "0", priceCurrency: "TWD" },
+            description:
+              "複製上期報告當模板，讓 AI 修改差異段落，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手。",
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "報告汪適合哪些行政工作使用？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "適合需要定期產出報告的行政人員，例如：撰寫日報、週報、月報、專案進度報告、會議紀錄等重複性高的文書工作。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "如何快速產出每週 / 每月的定期報告？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "複製上一期的報告作為模板，針對有異動的段落輸入 AI 修改指令（例如：「更新本週進度數字」），AI 立即產出修改版本，確認後套用，全程不需重新排版。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "AI 修改報告是如何運作的？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "點擊報告中的任意段落，進入 AI 對話模式，以自然語言下指令（例如：「這段改得更簡潔」、「加入本週新增的事項」），AI 提供修改版本，不滿意可繼續調整。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "標籤功能怎麼用？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "建立標籤後（例如：週報、A 專案、財務部），將報告關聯至對應標籤。之後可透過標籤篩選或全文搜尋快速找到特定報告，不再需要在資料夾中翻找。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "目前收費嗎？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中。",
+                },
+              },
+            ],
+          }),
+        }}
+      />
       {/* Navbar */}
       <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="max-w-6xl mx-auto flex h-16 items-center justify-between px-6">
@@ -53,7 +120,7 @@ export default function Home() {
           行政效率工具
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          定期報告，<br className="hidden md:block" />
+          報告汪｜定期報告，<br className="hidden md:block" />
           <span className="text-primary">不再重複造輪子</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
@@ -227,7 +294,7 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-6 bg-muted/20">
+      <section className="py-20 px-6 bg-muted/20" aria-label="常見問題">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">常見問題</h2>
           <div className="space-y-4">

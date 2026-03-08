@@ -4,14 +4,39 @@ import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
-const defaultUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : "http://localhost:3000";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  metadataBase: new URL("https://reportwang.com"),
+  title: {
+    default: "報告汪｜定期報告神器，1 分鐘完成例行報告",
+    template: "%s｜報告汪",
+  },
+  description:
+    "複製上期報告當模板，讓 AI 修改差異段落，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手，現在完全免費。",
+  keywords: ["定期報告", "報告模板", "AI 報告", "社工報告工具", "個管師", "行政效率", "報告汪"],
+  authors: [{ name: "報告汪" }],
+  creator: "報告汪",
+  openGraph: {
+    type: "website",
+    locale: "zh_TW",
+    url: "https://reportwang.com",
+    siteName: "報告汪",
+    title: "報告汪｜定期報告神器，1 分鐘完成例行報告",
+    description:
+      "複製上期報告當模板，讓 AI 修改差異段落，再用標籤與搜尋管理所有報告。現在完全免費。",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "報告汪 - 定期報告神器" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "報告汪｜定期報告神器，1 分鐘完成例行報告",
+    description: "複製上期報告當模板，AI 修改差異，標籤管理。現在完全免費。",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
+  alternates: { canonical: "https://reportwang.com" },
 };
 
 const geistSans = Geist({
@@ -26,7 +51,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="zh-TW" suppressHydrationWarning>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4360751609946942"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className={`${geistSans.className} antialiased`}>
         <ThemeProvider
           attribute="class"

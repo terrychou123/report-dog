@@ -286,9 +286,6 @@ export default function TagDetailPage() {
                     <CardTitle className="text-sm font-medium flex items-center gap-2">
                       <FileTextIcon className="h-4 w-4 text-primary" />
                       {r.title}
-                      {r.fileType === "pdf" && (
-                        <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded">PDF</span>
-                      )}
                       <span className="ml-auto text-xs text-muted-foreground font-normal">
                         {new Date(r.createdAt).toLocaleDateString("zh-TW")}
                       </span>
@@ -368,9 +365,6 @@ export default function TagDetailPage() {
                   >
                     <FileTextIcon className="h-4 w-4 text-primary shrink-0" />
                     <span className="flex-1 truncate">{r.title}</span>
-                    {r.fileType === "pdf" && (
-                      <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded shrink-0">PDF</span>
-                    )}
                     {isSelected && <span className="text-xs text-primary font-medium shrink-0">✓</span>}
                   </button>
                 );

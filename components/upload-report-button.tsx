@@ -25,17 +25,11 @@ export function UploadReportButton() {
   const [docUploading, setDocUploading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // PDF 上傳 state
-  const [pdfFile, setPdfFile] = useState<File | null>(null);
-  const [pdfUploading, setPdfUploading] = useState(false);
-  const pdfInputRef = useRef<HTMLInputElement>(null);
-
   function resetAndClose() {
     setDialogOpen(false);
     setReportTitle("");
     setReportContent("");
     setDocFile(null);
-    setPdfFile(null);
   }
 
   function onSuccess() {
@@ -96,24 +90,6 @@ export function UploadReportButton() {
     }
   }
 
-  // 上傳 PDF 並建立報告
-  async function handlePdfUpload() {
-    if (!pdfFile) return;
-    setPdfUploading(true);
-    try {
-      const form = new FormData();
-      form.append("file", pdfFile);
-      const res = await fetch("/api/upload-pdf", { method: "POST", body: form });
-      if (!res.ok) { toast.error("PDF 上傳失敗，請重試"); return; }
-      toast.success("PDF 已上傳並建立報告");
-      onSuccess();
-    } catch {
-      toast.error("上傳失敗，請重試");
-    } finally {
-      setPdfUploading(false);
-    }
-  }
-
   return (
     <>
       <Button size="sm" onClick={() => setDialogOpen(true)}>
@@ -131,7 +107,6 @@ export function UploadReportButton() {
             <TabsList className="w-full">
               <TabsTrigger value="manual" className="flex-1">手動輸入</TabsTrigger>
               <TabsTrigger value="docfile" className="flex-1">上傳 .doc</TabsTrigger>
-              <TabsTrigger value="pdffile" className="flex-1">上傳 PDF</TabsTrigger>
             </TabsList>
 
             {/* Tab 1：手動輸入 */}
@@ -208,49 +183,6 @@ export function UploadReportButton() {
               </DialogFooter>
             </TabsContent>
 
-            {/* Tab 3：上傳 PDF */}
-            <TabsContent value="pdffile" className="pt-2">
-              <div
-                className="border-2 border-dashed rounded-lg p-8 text-center cursor-pointer hover:border-primary/50 hover:bg-primary/5 transition-colors"
-                onClick={() => pdfInputRef.current?.click()}
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={(e) => {
-                  e.preventDefault();
-                  const file = e.dataTransfer.files[0];
-                  if (file && /\.pdf$/i.test(file.name)) setPdfFile(file);
-                  else toast.error("請上傳 .pdf 檔案");
-                }}
-              >
-                <UploadIcon className="h-10 w-10 mx-auto mb-3 text-muted-foreground opacity-40" />
-                {pdfFile ? (
-                  <div>
-                    <p className="font-medium text-sm">{pdfFile.name}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{(pdfFile.size / 1024).toFixed(1)} KB</p>
-                  </div>
-                ) : (
-                  <div>
-                    <p className="text-sm text-muted-foreground">點擊或拖曳 .pdf 檔案至此</p>
-                    <p className="text-xs text-muted-foreground mt-1">上傳後可在報告頁面直接預覽</p>
-                  </div>
-                )}
-                <input
-                  ref={pdfInputRef}
-                  type="file"
-                  accept=".pdf"
-                  className="hidden"
-                  onChange={(e) => {
-                    const file = e.target.files?.[0];
-                    if (file) setPdfFile(file);
-                  }}
-                />
-              </div>
-              <DialogFooter className="mt-4">
-                <Button variant="outline" onClick={resetAndClose}>取消</Button>
-                <Button onClick={handlePdfUpload} disabled={pdfUploading || !pdfFile}>
-                  {pdfUploading ? "上傳中..." : "上傳 PDF"}
-                </Button>
-              </DialogFooter>
-            </TabsContent>
           </Tabs>
         </DialogContent>
       </Dialog>

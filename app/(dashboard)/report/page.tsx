@@ -84,9 +84,6 @@ async function SearchReportsList({ query }: { query: string }) {
                   <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
                     <FileTextIcon className="h-4 w-4 text-primary flex-shrink-0" />
                     <span className="flex-1">{report.title}</span>
-                    {report.fileType === "pdf" && (
-                      <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded">PDF</span>
-                    )}
                     {tagNames.length > 0 && (
                       <span className="flex items-center gap-1 text-xs font-normal text-muted-foreground">
                         <TagIcon className="h-3 w-3" />
