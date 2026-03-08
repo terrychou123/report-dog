@@ -30,7 +30,7 @@ export function ReportSearchInput() {
       <Input
         defaultValue={q}
         onChange={(e) => handleChange(e.target.value)}
-        placeholder="搜尋標題、對象、種類..."
+        placeholder="搜尋標題和標籤"
         className="pl-9 pr-8 w-64"
       />
       {q && (
