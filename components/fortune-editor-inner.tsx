@@ -1,0 +1,404 @@
+"use client";
+
+import { useRef, useState, useCallback, useEffect } from "react";
+import { Workbook } from "@fortune-sheet/react";
+import type { Sheet } from "@fortune-sheet/core";
+import "@fortune-sheet/react/dist/index.css";
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { SaveIcon, DownloadIcon, SparklesIcon, CheckIcon, RefreshCwIcon } from "lucide-react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
+import { toast } from "sonner";
+import type { FortuneEditorProps } from "@/components/fortune-editor";
+
+type SheetData = {
+  name: string;
+  data: string[][];
+  config?: {
+    columnlen?: Record<string, number>;
+    rowlen?: Record<string, number>;
+    merge?: Record<string, { r: number; c: number; rs: number; cs: number }>;
+    borderInfo?: unknown[];
+  };
+};
+
+function normalizeInitialData(raw: unknown): SheetData[] {
+  if (!Array.isArray(raw) || raw.length === 0)
+    return [{ name: "Sheet1", data: [["", ""], ["", ""]] }];
+  if (Array.isArray(raw[0]))
+    return [{ name: "Sheet1", data: raw as string[][] }];
+  return raw as SheetData[];
+}
+
+function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
+  return sheetsData.map((s, i) => {
+    // 建立合併範圍查找表
+    const mergeMap = new Map<string, { r: number; c: number; rs: number; cs: number }>();
+    if (s.config?.merge) {
+      for (const m of Object.values(s.config.merge)) {
+        for (let dr = 0; dr < m.rs; dr++)
+          for (let dc = 0; dc < m.cs; dc++)
+            mergeMap.set(`${m.r + dr}_${m.c + dc}`, m);
+      }
+    }
+
+    return {
+      name: s.name,
+      status: i === 0 ? 1 : 0,
+      config: s.config as Sheet['config'],
+      celldata: s.data.flatMap((row, r) =>
+        row.map((val, c) => {
+          const mg = mergeMap.get(`${r}_${c}`);
+          const mc = mg
+            ? (r === mg.r && c === mg.c)
+              ? { r: mg.r, c: mg.c, rs: mg.rs, cs: mg.cs }
+              : { r: mg.r, c: mg.c }
+            : undefined;
+          return { r, c, v: { v: val, m: String(val), ...(mc ? { mc } : {}) } };
+        })
+      ),
+    };
+  });
+}
+
+function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
+  return sheets.map((sheet) => {
+    // FortuneSheet 內部使用 sheet.data（2D 陣列），onChange 回傳時 celldata 為空
+    if (sheet.data && sheet.data.length > 0) {
+      const grid: string[][] = (sheet.data as Array<Array<{ m?: unknown; v?: unknown } | null | undefined>>).map(
+        (row) => (row ?? []).map((cell) => String(cell?.m ?? cell?.v ?? ""))
+      );
+      return {
+        name: sheet.name ?? "Sheet1",
+        data: grid,
+        ...(sheet.config ? { config: sheet.config as SheetData['config'] } : {}),
+      };
+    }
+    // fallback：celldata sparse format（初始渲染前）
+    const celldata = sheet.celldata ?? [];
+    if (celldata.length === 0) return { name: sheet.name ?? "Sheet1", data: [[]] };
+    const maxR = Math.max(...celldata.map((c) => c.r));
+    const maxC = Math.max(...celldata.map((c) => c.c));
+    const grid: string[][] = Array.from({ length: maxR + 1 }, () => Array(maxC + 1).fill(""));
+    for (const cell of celldata) {
+      grid[cell.r][cell.c] = String(cell.v?.m ?? cell.v?.v ?? "");
+    }
+    return {
+      name: sheet.name ?? "Sheet1",
+      data: grid,
+      ...(sheet.config ? { config: sheet.config as SheetData['config'] } : {}),
+    };
+  });
+}
+
+export default function FortuneEditorInner({ reportId, initialData, title }: FortuneEditorProps) {
+  const sheetsRef = useRef<Sheet[]>(
+    sheetsDataToFortuneSheets(normalizeInitialData(initialData))
+  );
+  const workbookRef = useRef<React.ElementRef<typeof Workbook>>(null);
+
+  const [mounted, setMounted] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const [downloading, setDownloading] = useState(false);
+
+  // AI dialog state
+  const [aiDialogOpen, setAiDialogOpen] = useState(false);
+  const [aiSelectedText, setAiSelectedText] = useState("");
+  const [aiInstruction, setAiInstruction] = useState("");
+  const [aiProposal, setAiProposal] = useState("");
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiHistory, setAiHistory] = useState<{ role: "user" | "assistant"; content: string }[]>([]);
+  const aiInputRef = useRef<HTMLTextAreaElement>(null);
+
+  // 儲存目前圈選範圍（供套用時定位儲存格）
+  const [selectedRange, setSelectedRange] = useState<{ row: number[]; column: number[] }[] | null>(null);
+  // 保留使用者尚未同意的 AI 建議
+  const [savedProposals, setSavedProposals] = useState<string[]>([]);
+  const [confirmingIdx, setConfirmingIdx] = useState<number | null>(null);
+
+  useEffect(() => { setMounted(true); }, []);
+
+  const handleChange = useCallback((data: Sheet[]) => {
+    sheetsRef.current = data;
+  }, []);
+
+  const handleWorkbookMouseUp = useCallback(() => {
+    setTimeout(() => {
+      const wb = workbookRef.current;
+      if (!wb) return;
+      const selection = wb.getSelection();
+      if (!selection || selection.length === 0) return;
+
+      // 收集選取範圍內的所有儲存格值
+      const lines: string[] = [];
+      for (const range of selection) {
+        for (let r = range.row[0]; r <= range.row[1]; r++) {
+          const rowVals: string[] = [];
+          for (let c = range.column[0]; c <= range.column[1]; c++) {
+            const val = wb.getCellValue(r, c);
+            rowVals.push(val != null ? String(val) : "");
+          }
+          lines.push(rowVals.join("\t"));
+        }
+      }
+
+      const text = lines.join("\n").trim();
+      if (!text) return; // 空白儲存格不開啟
+
+      setSelectedRange(selection);
+      setAiSelectedText(text);
+      setAiInstruction("");
+      setAiProposal("");
+      setAiHistory([]);
+      setSavedProposals([]);
+      setConfirmingIdx(null);
+      setAiDialogOpen(true);
+      setTimeout(() => aiInputRef.current?.focus(), 100);
+    }, 50); // 等 FortuneSheet 完成 selection 更新
+  }, []);
+
+  function applyProposal(text: string) {
+    if (!selectedRange || !workbookRef.current) return;
+    const wb = workbookRef.current;
+    const lines = text.split("\n");
+    let lineIdx = 0;
+    for (const range of selectedRange) {
+      for (let r = range.row[0]; r <= range.row[1]; r++) {
+        const rowVals = (lines[lineIdx] ?? "").split("\t");
+        let colValIdx = 0;
+        for (let c = range.column[0]; c <= range.column[1]; c++) {
+          wb.setCellValue(r, c, rowVals[colValIdx] ?? "");
+          colValIdx++;
+        }
+        lineIdx++;
+      }
+    }
+    setAiDialogOpen(false);
+    toast.success("已套用修改");
+  }
+
+  async function handleSave() {
+    setSaving(true);
+    try {
+      const res = await fetch(`/api/reports/${reportId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ content: JSON.stringify(fortuneSheetsToData(sheetsRef.current)) }),
+      });
+      if (res.ok) toast.success("報告已儲存");
+      else toast.error("儲存失敗，請重試");
+    } catch {
+      toast.error("儲存失敗，請重試");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function handleDownload() {
+    setDownloading(true);
+    try {
+      const res = await fetch("/api/excel/export", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title, sheets: fortuneSheetsToData(sheetsRef.current) }),
+      });
+      if (res.ok) {
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${title}.xlsx`;
+        a.click();
+        URL.revokeObjectURL(url);
+      } else {
+        toast.error("下載失敗，請重試");
+      }
+    } catch {
+      toast.error("下載失敗，請重試");
+    } finally {
+      setDownloading(false);
+    }
+  }
+
+  async function handleAiSubmit() {
+    if (!aiInstruction.trim()) return;
+    setAiLoading(true);
+    const userMsg = aiInstruction.trim();
+    const newHistory = [...aiHistory, { role: "user" as const, content: userMsg }];
+    setAiHistory(newHistory);
+    setAiInstruction("");
+    try {
+      const res = await fetch(`/api/reports/${reportId}/ai`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          paragraph: aiSelectedText,
+          instruction: userMsg,
+          history: aiHistory,
+        }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const reply = data.revised ?? "";
+        setAiProposal(reply);
+        setAiHistory([...newHistory, { role: "assistant", content: reply }]);
+      } else {
+        toast.error("AI 回應失敗");
+      }
+    } catch {
+      toast.error("AI 回應失敗");
+    } finally {
+      setAiLoading(false);
+    }
+  }
+
+  return (
+    <div className="flex flex-col gap-2">
+      {/* Toolbar */}
+      <div className="flex items-center gap-2">
+        <Button size="sm" onClick={handleSave} disabled={saving}>
+          <SaveIcon className="h-4 w-4 mr-1" />
+          {saving ? "儲存中..." : "儲存"}
+        </Button>
+        <Button size="sm" variant="outline" onClick={handleDownload} disabled={downloading}>
+          <DownloadIcon className="h-4 w-4 mr-1" />
+          {downloading ? "下載中..." : "下載 .xlsx"}
+        </Button>
+      </div>
+
+      {/* FortuneSheet Workbook */}
+      <div
+        style={{ height: "calc(100vh - 280px)", minHeight: 600 }}
+        onMouseUp={handleWorkbookMouseUp}
+      >
+        {mounted && (
+          <Workbook
+            ref={workbookRef}
+            data={sheetsRef.current}
+            onChange={handleChange}
+            lang="zh_CN"
+          />
+        )}
+        {!mounted && (
+          <div className="flex items-center justify-center h-full border rounded-lg">
+            <span className="text-sm text-muted-foreground">載入編輯器中...</span>
+          </div>
+        )}
+      </div>
+
+      {/* AI Dialog */}
+      <Dialog open={aiDialogOpen} onOpenChange={(open) => {
+        setAiDialogOpen(open);
+        if (!open) { setSavedProposals([]); setConfirmingIdx(null); }
+      }}>
+        <DialogContent className="max-w-xl max-h-[85vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="flex items-center gap-2">
+              <SparklesIcon className="h-5 w-5 text-primary" />
+              AI 修改助手
+            </DialogTitle>
+          </DialogHeader>
+
+          <div className="space-y-4 py-2">
+            {/* 1. 選取的儲存格內容 */}
+            {aiSelectedText && (
+              <div>
+                <Label className="text-xs text-muted-foreground mb-1.5 block">選取儲存格</Label>
+                <div className="p-3 rounded-md bg-muted text-sm leading-relaxed max-h-28 overflow-y-auto whitespace-pre-wrap">
+                  {aiSelectedText}
+                </div>
+              </div>
+            )}
+
+            {/* 2. 暫存歷史 AI 建議（「繼續調整」後顯示） */}
+            {savedProposals.length > 0 && (
+              <div>
+                <Label className="text-xs text-muted-foreground mb-1.5 block">
+                  先前 AI 建議（點擊確認套用）
+                </Label>
+                <div className="space-y-2">
+                  {savedProposals.map((proposal, idx) => (
+                    <div key={idx} className="rounded-md border text-sm overflow-hidden">
+                      <div
+                        className="p-3 leading-relaxed max-h-28 overflow-y-auto whitespace-pre-wrap cursor-pointer hover:bg-muted/50 transition-colors"
+                        onClick={() => setConfirmingIdx(confirmingIdx === idx ? null : idx)}
+                      >
+                        <span className="text-xs text-muted-foreground mr-2">#{idx + 1}</span>
+                        {proposal}
+                      </div>
+                      {confirmingIdx === idx && (
+                        <div className="flex items-center gap-2 px-3 py-2 bg-muted/30 border-t">
+                          <span className="text-xs text-muted-foreground flex-1">確認套用此版本？</span>
+                          <Button size="sm" className="h-7 text-xs"
+                            onClick={() => applyProposal(proposal)}>確認</Button>
+                          <Button size="sm" variant="outline" className="h-7 text-xs"
+                            onClick={() => setConfirmingIdx(null)}>取消</Button>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* 3. 當前 AI 建議 */}
+            {aiProposal && (
+              <div>
+                <Label className="text-xs text-muted-foreground mb-1.5 block">AI 建議修改</Label>
+                <div className="p-3 rounded-md bg-primary/5 border border-primary/20 text-sm leading-relaxed max-h-40 overflow-y-auto whitespace-pre-wrap">
+                  {aiProposal}
+                </div>
+                <div className="flex gap-2 mt-3">
+                  <Button size="sm" onClick={() => applyProposal(aiProposal)} className="flex-1">
+                    <CheckIcon className="h-4 w-4 mr-1.5" />
+                    套用修改
+                  </Button>
+                  <Button size="sm" variant="outline" onClick={() => {
+                    setSavedProposals(prev => [...prev, aiProposal]);
+                    setAiProposal("");
+                    setAiInstruction("");
+                    setConfirmingIdx(null);
+                    setTimeout(() => aiInputRef.current?.focus(), 50);
+                  }} className="flex-1">
+                    <RefreshCwIcon className="h-4 w-4 mr-1.5" />
+                    繼續調整
+                  </Button>
+                </div>
+              </div>
+            )}
+
+            {/* 4. 修改指令輸入（有建議時隱藏） */}
+            {!aiProposal && (
+              <div className="space-y-2">
+                <Label htmlFor="ai-instruction">修改指令</Label>
+                <Textarea
+                  ref={aiInputRef}
+                  id="ai-instruction"
+                  placeholder="請輸入您的修改要求，例如：改得更正式一些、精簡這段..."
+                  value={aiInstruction}
+                  onChange={(e) => setAiInstruction(e.target.value)}
+                  rows={3}
+                  disabled={aiLoading}
+                />
+              </div>
+            )}
+          </div>
+
+          {!aiProposal && (
+            <DialogFooter>
+              <Button variant="outline" onClick={() => setAiDialogOpen(false)}>取消</Button>
+              <Button onClick={handleAiSubmit} disabled={aiLoading || !aiInstruction.trim()}>
+                {aiLoading ? (
+                  <><RefreshCwIcon className="h-4 w-4 mr-2 animate-spin" />AI 思考中...</>
+                ) : (
+                  <><SparklesIcon className="h-4 w-4 mr-2" />送出</>
+                )}
+              </Button>
+            </DialogFooter>
+          )}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

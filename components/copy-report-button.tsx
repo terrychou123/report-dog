@@ -2,6 +2,7 @@
 
 import { CopyIcon } from "lucide-react";
 import { useState } from "react";
+import { toast } from "sonner";
 
 export function CopyReportButton({
   reportId,
@@ -37,6 +38,10 @@ export function CopyReportButton({
           insertAtTop: true,
         }),
       });
+      if (!newReportRes.ok) {
+        toast.error("複製失敗，請重試");
+        return;
+      }
       const newReport = await newReportRes.json();
 
       if (tags.length > 0) {
@@ -51,6 +56,8 @@ export function CopyReportButton({
         );
       }
 
+      toast.success("報告已複製");
+      window.dispatchEvent(new CustomEvent("reports-updated"));
       onCopied?.();
     } finally {
       setCopying(false);

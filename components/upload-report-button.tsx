@@ -25,11 +25,17 @@ export function UploadReportButton() {
   const [docUploading, setDocUploading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Excel 上傳 state
+  const [excelFile, setExcelFile] = useState<File | null>(null);
+  const [excelUploading, setExcelUploading] = useState(false);
+  const excelInputRef = useRef<HTMLInputElement>(null);
+
   function resetAndClose() {
     setDialogOpen(false);
     setReportTitle("");
     setReportContent("");
     setDocFile(null);
+    setExcelFile(null);
   }
 
   function onSuccess() {
@@ -58,6 +64,35 @@ export function UploadReportButton() {
       toast.error("建立失敗，請重試");
     } finally {
       setSaving(false);
+    }
+  }
+
+  // 上傳 Excel 並建立報告
+  async function handleExcelUpload() {
+    if (!excelFile) return;
+    setExcelUploading(true);
+    try {
+      const form = new FormData();
+      form.append("file", excelFile);
+      const parseRes = await fetch("/api/excel/parse", { method: "POST", body: form });
+      if (!parseRes.ok) throw new Error("parse failed");
+      const { sheets } = await parseRes.json();
+      const title = excelFile.name.replace(/\.(xlsx|xls)$/i, "");
+      const res = await fetch("/api/reports", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title, content: JSON.stringify(sheets), fileType: "excel", insertAtTop: true }),
+      });
+      if (res.ok) {
+        toast.success("Excel 已上傳並建立報告");
+        onSuccess();
+      } else {
+        toast.error("建立報告失敗，請重試");
+      }
+    } catch {
+      toast.error("檔案解析失敗，請確認為 .xlsx 或 .xls 格式");
+    } finally {
+      setExcelUploading(false);
     }
   }
 
@@ -107,6 +142,7 @@ export function UploadReportButton() {
             <TabsList className="w-full">
               <TabsTrigger value="manual" className="flex-1">手動輸入</TabsTrigger>
               <TabsTrigger value="docfile" className="flex-1">上傳 .doc</TabsTrigger>
+              <TabsTrigger value="excel" className="flex-1">上傳 Excel</TabsTrigger>
             </TabsList>
 
             {/* Tab 1：手動輸入 */}
@@ -179,6 +215,50 @@ export function UploadReportButton() {
                 <Button variant="outline" onClick={resetAndClose}>取消</Button>
                 <Button onClick={handleDocUpload} disabled={docUploading || !docFile}>
                   {docUploading ? "解析上傳中..." : "上傳並建立報告"}
+                </Button>
+              </DialogFooter>
+            </TabsContent>
+
+            {/* Tab 3：上傳 Excel */}
+            <TabsContent value="excel" className="pt-2">
+              <div
+                className="border-2 border-dashed rounded-lg p-8 text-center cursor-pointer hover:border-primary/50 hover:bg-primary/5 transition-colors"
+                onClick={() => excelInputRef.current?.click()}
+                onDragOver={(e) => e.preventDefault()}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  const file = e.dataTransfer.files[0];
+                  if (file && /\.(xlsx|xls)$/i.test(file.name)) setExcelFile(file);
+                  else toast.error("請上傳 .xlsx 或 .xls 檔案");
+                }}
+              >
+                <UploadIcon className="h-10 w-10 mx-auto mb-3 text-muted-foreground opacity-40" />
+                {excelFile ? (
+                  <div>
+                    <p className="font-medium text-sm">{excelFile.name}</p>
+                    <p className="text-xs text-muted-foreground mt-1">{(excelFile.size / 1024).toFixed(1)} KB</p>
+                  </div>
+                ) : (
+                  <div>
+                    <p className="text-sm text-muted-foreground">點擊或拖曳 .xlsx / .xls 檔案至此</p>
+                    <p className="text-xs text-muted-foreground mt-1">支援 Excel 97-2003（.xls）及 2007+（.xlsx）</p>
+                  </div>
+                )}
+                <input
+                  ref={excelInputRef}
+                  type="file"
+                  accept=".xlsx,.xls"
+                  className="hidden"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (file) setExcelFile(file);
+                  }}
+                />
+              </div>
+              <DialogFooter className="mt-4">
+                <Button variant="outline" onClick={resetAndClose}>取消</Button>
+                <Button onClick={handleExcelUpload} disabled={excelUploading || !excelFile}>
+                  {excelUploading ? "解析上傳中..." : "上傳並建立報告"}
                 </Button>
               </DialogFooter>
             </TabsContent>

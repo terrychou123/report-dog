@@ -19,6 +19,7 @@ import {
   PlusIcon, XIcon, TagIcon,
 } from "lucide-react";
 import { toast } from "sonner";
+import { FortuneEditor } from "@/components/fortune-editor";
 
 type Report = { id: string; title: string; content: string | null; fileType: string | null; fileUrl: string | null };
 type Message = { role: "user" | "assistant"; content: string; reasoning_details?: unknown };
@@ -379,10 +380,12 @@ export default function ReportEditorPage() {
             className="text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
             placeholder="報告標題"
           />
-          <p className="text-muted-foreground text-sm mt-1 flex items-center gap-1.5">
-            <SparklesIcon className="h-3.5 w-3.5" />
-            圈選文字段落，使用 AI 修改
-          </p>
+          {report.fileType !== "excel" && (
+            <p className="text-muted-foreground text-sm mt-1 flex items-center gap-1.5">
+              <SparklesIcon className="h-3.5 w-3.5" />
+              圈選文字段落，使用 AI 修改
+            </p>
+          )}
           {/* 關聯標籤 */}
           <div className="flex items-center gap-2 mt-2 flex-wrap">
             {tagAssociations.map((a) => (
@@ -413,22 +416,36 @@ export default function ReportEditorPage() {
             <Trash2Icon className="h-4 w-4 mr-1.5" />
             刪除
           </Button>
-          <Button size="sm" variant="outline" onClick={handleDownload} disabled={!editor}>
-            <DownloadIcon className="h-4 w-4 mr-1.5" />
-            下載
-          </Button>
-          <Button onClick={handleSave} disabled={saving} size="sm">
-            <SaveIcon className="h-4 w-4 mr-2" />
-            {saving ? "儲存中..." : "儲存"}
-          </Button>
+          {report.fileType !== "excel" && (
+            <>
+              <Button size="sm" variant="outline" onClick={handleDownload} disabled={!editor}>
+                <DownloadIcon className="h-4 w-4 mr-1.5" />
+                下載
+              </Button>
+              <Button onClick={handleSave} disabled={saving} size="sm">
+                <SaveIcon className="h-4 w-4 mr-2" />
+                {saving ? "儲存中..." : "儲存"}
+              </Button>
+            </>
+          )}
         </div>
       </div>
 
       {/* 主內容區塊 */}
-      <div className="border rounded-lg overflow-hidden report-editor" onMouseUp={handleEditorMouseUp}>
-        <EditorToolbar editor={editor} />
-        <EditorContent editor={editor} />
-      </div>
+      {report.fileType === "excel" ? (
+        <FortuneEditor
+          reportId={report.id}
+          initialData={(() => {
+            try { return JSON.parse(report.content || "[]"); } catch { return []; }
+          })()}
+          title={reportTitle}
+        />
+      ) : (
+        <div className="border rounded-lg overflow-hidden report-editor" onMouseUp={handleEditorMouseUp}>
+          <EditorToolbar editor={editor} />
+          <EditorContent editor={editor} />
+        </div>
+      )}
 
       {/* 新增標籤 Dialog */}
       <Dialog open={addTagsOpen} onOpenChange={(open) => { setAddTagsOpen(open); if (!open) setSelectedTags(new Set()); }}>
