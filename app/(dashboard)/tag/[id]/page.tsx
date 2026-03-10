@@ -12,6 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { FileTextIcon, PlusIcon, ArrowLeftIcon, PencilIcon, CheckIcon, XIcon, Trash2Icon, LoaderIcon, CopyIcon } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "sonner";
+import { FileTypeIcon } from "@/components/file-type-icon";
 
 type Client = { id: string; nickname: string; description: string | null; createdAt: string };
 type ClientReport = { relationId: string; reportId: string; title: string; fileType: string | null; createdAt: string };
@@ -284,7 +285,7 @@ export default function TagDetailPage() {
                 <Card className="hover:shadow-md transition-shadow cursor-pointer">
                   <CardHeader className="py-3 px-4 pr-20">
                     <CardTitle className="text-sm font-medium flex items-center gap-2">
-                      <FileTextIcon className="h-4 w-4 text-primary" />
+                      <FileTypeIcon fileType={r.fileType} />
                       {r.title}
                       <span className="ml-auto text-xs text-muted-foreground font-normal">
                         {new Date(r.createdAt).toLocaleDateString("zh-TW")}
@@ -363,7 +364,7 @@ export default function TagDetailPage() {
                         : "border-border hover:bg-muted"
                     }`}
                   >
-                    <FileTextIcon className="h-4 w-4 text-primary shrink-0" />
+                    <FileTypeIcon fileType={r.fileType} />
                     <span className="flex-1 truncate">{r.title}</span>
                     {isSelected && <span className="text-xs text-primary font-medium shrink-0">✓</span>}
                   </button>

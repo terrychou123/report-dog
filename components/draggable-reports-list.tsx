@@ -21,6 +21,7 @@ import {
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { CopyReportButton } from "@/components/copy-report-button";
+import { FileTypeIcon } from "@/components/file-type-icon";
 
 type Report = {
   id: string;
@@ -47,7 +48,7 @@ function SortableReportCard({ report, onCopied }: { report: Report; onCopied: ()
         <Card className="hover:shadow-md transition-shadow cursor-pointer">
           <CardHeader className="py-3 px-4 pr-20">
             <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
-              <FileTextIcon className="h-4 w-4 text-primary flex-shrink-0" />
+              <FileTypeIcon fileType={report.fileType} />
               <span className="flex-1">{report.title}</span>
               {report.tags.length > 0 && (
                 <span className="flex items-center gap-1 text-xs font-normal text-muted-foreground">

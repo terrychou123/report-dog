@@ -11,6 +11,7 @@ import { UploadReportButton } from "@/components/upload-report-button";
 import { ReportSearchInput } from "@/components/report-search-input";
 import { DraggableReportsList } from "@/components/draggable-reports-list";
 import { CopyReportButton } from "@/components/copy-report-button";
+import { FileTypeIcon } from "@/components/file-type-icon";
 
 async function SearchReportsList({ query }: { query: string }) {
   const supabase = await createClient();
@@ -82,7 +83,7 @@ async function SearchReportsList({ query }: { query: string }) {
               <Card className="hover:shadow-md transition-shadow cursor-pointer">
                 <CardHeader className="py-3 px-4 pr-12">
                   <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
-                    <FileTextIcon className="h-4 w-4 text-primary flex-shrink-0" />
+                    <FileTypeIcon fileType={report.fileType} />
                     <span className="flex-1">{report.title}</span>
                     {tagNames.length > 0 && (
                       <span className="flex items-center gap-1 text-xs font-normal text-muted-foreground">
