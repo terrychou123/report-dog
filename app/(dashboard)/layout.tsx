@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { BotIcon, TagIcon, FileTextIcon } from "lucide-react";
 import { LogoutButton } from "@/components/logout-button";
+import { TrialBanner } from "@/components/trial-banner";
 import { createClient } from "@/lib/supabase/server";
 
 async function SidebarUser() {
@@ -17,6 +18,14 @@ async function SidebarUser() {
   );
 }
 
+async function MaybeTrialBanner() {
+  const supabase = await createClient();
+  await supabase.auth.getClaims(); // refresh session before getUser
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user?.is_anonymous) return null;
+  return <TrialBanner />;
+}
+
 const navLinks = [
   { href: "/report", label: "報告", icon: <FileTextIcon className="h-4 w-4" /> },
   { href: "/tag", label: "標籤", icon: <TagIcon className="h-4 w-4" /> },
@@ -24,7 +33,11 @@ const navLinks = [
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex min-h-screen">
+    <div className="flex flex-col min-h-screen">
+      <Suspense fallback={null}>
+        <MaybeTrialBanner />
+      </Suspense>
+      <div className="flex flex-1">
       {/* Sidebar */}
       <aside className="w-56 shrink-0 border-r bg-muted/20 flex flex-col">
         <div className="flex items-center gap-2 px-5 py-5 border-b font-bold text-lg">
@@ -54,6 +67,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           {children}
         </Suspense>
       </main>
+      </div>
     </div>
   );
 }

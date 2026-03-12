@@ -39,6 +39,10 @@ export default function NewTagPage() {
     }
 
     const { id } = await res.json();
+    setNickname("");
+    setDescription("");
+    setError("");
+    setLoading(false);
     router.push(`/tag/${id}`);
   };
 

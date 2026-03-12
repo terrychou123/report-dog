@@ -2,10 +2,10 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { AuthButton } from "@/components/auth-button";
 import { StartButton } from "@/components/start-button";
+import { TrialButton } from "@/components/trial-button";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import {
   BotIcon,
   TagIcon,
@@ -129,9 +129,7 @@ export default function Home() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <StartButton>立即開始 — 免費</StartButton>
-          <Button variant="ghost" size="lg" asChild className="text-base">
-            <Link href="/pricing">了解更多</Link>
-          </Button>
+          <TrialButton>免費試用（無需註冊）</TrialButton>
         </div>
       </section>
 
