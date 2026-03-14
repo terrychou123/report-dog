@@ -8,6 +8,7 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 import { Skeleton } from "@/components/ui/skeleton";
 import { Input } from "@/components/ui/input";
 import { TagIcon, PlusIcon, GripVerticalIcon, FileTextIcon, SearchIcon } from "lucide-react";
+import { toast } from "sonner";
 import { FileTypeIcon } from "@/components/file-type-icon";
 import {
   DndContext,
@@ -40,24 +41,84 @@ type TagReport = {
   title: string;
   fileType: string | null;
   createdAt: string;
+  sortOrder: number;
 };
+
+function SortableReportItem({ report }: { report: TagReport }) {
+  const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: report.relationId });
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+    opacity: isDragging ? 0.5 : 1,
+  };
+
+  return (
+    <div ref={setNodeRef} style={style} className="flex items-center gap-1">
+      <a
+        href={`/report/${report.reportId}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 flex-1 px-2 py-1.5 rounded text-sm hover:bg-muted transition-colors"
+      >
+        <FileTypeIcon fileType={report.fileType} />
+        <span className="flex-1 truncate">{report.title}</span>
+        <span className="text-xs text-muted-foreground shrink-0">
+          {new Date(report.createdAt).toLocaleDateString("zh-TW")}
+        </span>
+      </a>
+      <button
+        {...attributes}
+        {...listeners}
+        className="p-1 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-grab active:cursor-grabbing shrink-0"
+        aria-label="拖曳排序"
+        title="拖曳排序"
+      >
+        <GripVerticalIcon className="h-3.5 w-3.5" />
+      </button>
+    </div>
+  );
+}
 
 function SortableClientCard({ client }: { client: Client }) {
   const [expanded, setExpanded] = useState(false);
   const [reports, setReports] = useState<TagReport[]>([]);
   const [loadingReports, setLoadingReports] = useState(false);
+  const [hasFetched, setHasFetched] = useState(false);
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: client.id });
+  const reportSensors = useSensors(useSensor(PointerSensor));
 
   async function handleToggle(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
     if (expanded) { setExpanded(false); return; }
     setExpanded(true);
-    if (reports.length === 0) {
+    if (!hasFetched) {
       setLoadingReports(true);
-      const res = await fetch(`/api/tag-reports?clientId=${client.id}`);
+      const res = await fetch(`/api/tag-reports?clientId=${encodeURIComponent(client.id)}`);
       if (res.ok) setReports(await res.json());
+      setHasFetched(true);
       setLoadingReports(false);
+    }
+  }
+
+  async function handleReportDragEnd(event: DragEndEvent) {
+    const { active, over } = event;
+    if (!over || active.id === over.id) return;
+    const oldIdx = reports.findIndex((r) => r.relationId === active.id);
+    const newIdx = reports.findIndex((r) => r.relationId === over.id);
+    const reordered = arrayMove(reports, oldIdx, newIdx);
+    const previous = reports;
+    setReports(reordered);
+    try {
+      const res = await fetch("/api/tag-reports/reorder", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ clientId: client.id, ids: reordered.map((r) => r.relationId) }),
+      });
+      if (!res.ok) throw new Error();
+    } catch {
+      setReports(previous);
+      toast.error("排序更新失敗，請重試");
     }
   }
 
@@ -93,6 +154,7 @@ function SortableClientCard({ client }: { client: Client }) {
           {...attributes}
           {...listeners}
           className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-grab active:cursor-grabbing"
+          aria-label="拖曳排序"
           title="拖曳排序"
         >
           <GripVerticalIcon className="h-4 w-4" />
@@ -100,27 +162,21 @@ function SortableClientCard({ client }: { client: Client }) {
       </div>
 
       {expanded && (
-        <div className="mt-1 ml-4 border-l-2 border-primary/20 pl-3 space-y-1 pb-1">
+        <div className="mt-1 ml-4 border-l-2 border-primary/20 pl-3 pb-1">
           {loadingReports ? (
             <Skeleton className="h-7 w-full mt-1" />
           ) : reports.length === 0 ? (
             <p className="text-xs text-muted-foreground py-2">尚無報告</p>
           ) : (
-            reports.map((r) => (
-              <a
-                key={r.reportId}
-                href={`/report/${r.reportId}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-2 py-1.5 rounded text-sm hover:bg-muted transition-colors"
-              >
-                <FileTypeIcon fileType={r.fileType} />
-                <span className="flex-1 truncate">{r.title}</span>
-                <span className="text-xs text-muted-foreground shrink-0">
-                  {new Date(r.createdAt).toLocaleDateString("zh-TW")}
-                </span>
-              </a>
-            ))
+            <DndContext sensors={reportSensors} collisionDetection={closestCenter} onDragEnd={handleReportDragEnd}>
+              <SortableContext items={reports.map((r) => r.relationId)} strategy={verticalListSortingStrategy}>
+                <div className="space-y-0.5 py-0.5">
+                  {reports.map((r) => (
+                    <SortableReportItem key={r.relationId} report={r} />
+                  ))}
+                </div>
+              </SortableContext>
+            </DndContext>
           )}
         </div>
       )}
@@ -144,19 +200,27 @@ export default function TagPage() {
   }, []);
 
   async function handleDragEnd(event: DragEndEvent) {
+    if (searchQuery.trim()) return;
     const { active, over } = event;
     if (!over || active.id === over.id) return;
 
     const oldIndex = clients.findIndex((c) => c.id === active.id);
     const newIndex = clients.findIndex((c) => c.id === over.id);
     const reordered = arrayMove(clients, oldIndex, newIndex);
+    const previous = clients;
     setClients(reordered);
 
-    await fetch("/api/tags/reorder", {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ids: reordered.map((c) => c.id) }),
-    });
+    try {
+      const res = await fetch("/api/tags/reorder", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ids: reordered.map((c) => c.id) }),
+      });
+      if (!res.ok) throw new Error();
+    } catch {
+      setClients(previous);
+      toast.error("排序更新失敗，請重試");
+    }
   }
 
   const filteredClients = searchQuery.trim()

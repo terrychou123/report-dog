@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { reports, clients, clientReports } from "@/db/schema";
-import { eq, inArray, max, min } from "drizzle-orm";
+import { eq, inArray, max, min, desc } from "drizzle-orm";
 
 export async function GET() {
   const supabase = await createClient();
@@ -14,7 +14,7 @@ export async function GET() {
     .select()
     .from(reports)
     .where(eq(reports.userId, userId))
-    .orderBy(reports.sortOrder);
+    .orderBy(desc(reports.createdAt));
 
   if (reportList.length === 0) return NextResponse.json([]);
 

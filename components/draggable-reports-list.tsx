@@ -3,23 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { FileTextIcon, TagIcon, GripVerticalIcon } from "lucide-react";
-import {
-  DndContext,
-  closestCenter,
-  PointerSensor,
-  useSensor,
-  useSensors,
-  DragEndEvent,
-} from "@dnd-kit/core";
-import {
-  SortableContext,
-  useSortable,
-  verticalListSortingStrategy,
-  arrayMove,
-} from "@dnd-kit/sortable";
-import { CSS } from "@dnd-kit/utilities";
-import { toast } from "sonner";
+import { FileTextIcon, TagIcon } from "lucide-react";
 import { CopyReportButton } from "@/components/copy-report-button";
 import { FileTypeIcon } from "@/components/file-type-icon";
 
@@ -32,18 +16,9 @@ type Report = {
   tags: string[];
 };
 
-function SortableReportCard({ report, onCopied }: { report: Report; onCopied: () => void }) {
-  const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({
-    id: report.id,
-  });
-  const style = {
-    transform: CSS.Transform.toString(transform),
-    transition,
-    opacity: isDragging ? 0.5 : 1,
-  };
-
+function ReportCard({ report, onCopied }: { report: Report; onCopied: () => void }) {
   return (
-    <div ref={setNodeRef} style={style} className="relative">
+    <div className="relative">
       <a href={`/report/${report.id}`} target="_blank" rel="noopener noreferrer" className="block">
         <Card className="hover:shadow-md transition-shadow cursor-pointer">
           <CardHeader className="py-3 px-4 pr-20">
@@ -71,14 +46,6 @@ function SortableReportCard({ report, onCopied }: { report: Report; onCopied: ()
       </a>
       <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1">
         <CopyReportButton reportId={report.id} title={report.title} onCopied={onCopied} />
-        <button
-          {...attributes}
-          {...listeners}
-          className="p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-grab active:cursor-grabbing"
-          title="拖曳排序"
-        >
-          <GripVerticalIcon className="h-4 w-4" />
-        </button>
       </div>
     </div>
   );
@@ -88,11 +55,12 @@ export function DraggableReportsList() {
   const [reportList, setReportList] = useState<Report[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const sensors = useSensors(useSensor(PointerSensor));
-
   const loadReports = useCallback(() => {
     fetch("/api/reports")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
       .then((data) => {
         setReportList(data);
         setLoading(false);
@@ -104,30 +72,7 @@ export function DraggableReportsList() {
     loadReports();
     window.addEventListener("reports-updated", loadReports);
     return () => window.removeEventListener("reports-updated", loadReports);
-  }, []);
-
-  async function handleDragEnd(event: DragEndEvent) {
-    const { active, over } = event;
-    if (!over || active.id === over.id) return;
-
-    const oldIndex = reportList.findIndex((r) => r.id === active.id);
-    const newIndex = reportList.findIndex((r) => r.id === over.id);
-    const reordered = arrayMove(reportList, oldIndex, newIndex);
-    const previous = reportList;
-    setReportList(reordered);
-
-    try {
-      const res = await fetch("/api/reports/reorder", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ids: reordered.map((r) => r.id) }),
-      });
-      if (!res.ok) throw new Error();
-    } catch {
-      setReportList(previous);
-      toast.error("排序更新失敗，請重試");
-    }
-  }
+  }, [loadReports]);
 
   if (loading) {
     return (
@@ -150,14 +95,10 @@ export function DraggableReportsList() {
   }
 
   return (
-    <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
-      <SortableContext items={reportList.map((r) => r.id)} strategy={verticalListSortingStrategy}>
-        <div className="space-y-3">
-          {reportList.map((report) => (
-            <SortableReportCard key={report.id} report={report} onCopied={loadReports} />
-          ))}
-        </div>
-      </SortableContext>
-    </DndContext>
+    <div className="space-y-3">
+      {reportList.map((report) => (
+        <ReportCard key={report.id} report={report} onCopied={loadReports} />
+      ))}
+    </div>
   );
 }

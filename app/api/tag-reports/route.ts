@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { clientReports, reports, clients } from "@/db/schema";
-import { eq, and } from "drizzle-orm";
+import { eq, and, max } from "drizzle-orm";
 
 export async function GET(req: NextRequest) {
   const supabase = await createClient();
@@ -27,11 +27,12 @@ export async function GET(req: NextRequest) {
         title: reports.title,
         fileType: reports.fileType,
         createdAt: reports.createdAt,
+        sortOrder: clientReports.sortOrder,
       })
       .from(clientReports)
       .innerJoin(reports, eq(clientReports.reportId, reports.id))
       .where(eq(clientReports.clientId, clientId))
-      .orderBy(reports.sortOrder);
+      .orderBy(clientReports.sortOrder);
 
     return NextResponse.json(rows);
   }
@@ -53,7 +54,7 @@ export async function GET(req: NextRequest) {
       })
       .from(clientReports)
       .innerJoin(clients, eq(clientReports.clientId, clients.id))
-      .where(eq(clientReports.reportId, reportId));
+      .where(and(eq(clientReports.reportId, reportId), eq(clients.userId, data.claims.sub)));
 
     return NextResponse.json(rows);
   }
@@ -95,9 +96,16 @@ export async function POST(req: NextRequest) {
 
   if (existing) return NextResponse.json(existing, { status: 200 });
 
+  // Calculate next sortOrder for this client
+  const [maxRow] = await db
+    .select({ max: max(clientReports.sortOrder) })
+    .from(clientReports)
+    .where(eq(clientReports.clientId, clientId));
+  const nextOrder = Number(maxRow?.max ?? -1) + 1;
+
   const [inserted] = await db
     .insert(clientReports)
-    .values({ clientId, reportId })
+    .values({ clientId, reportId, sortOrder: nextOrder })
     .returning();
 
   return NextResponse.json(inserted, { status: 201 });
