@@ -7,7 +7,7 @@ import "@fortune-sheet/react/dist/index.css";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { SaveIcon, DownloadIcon, SparklesIcon, CheckIcon, RefreshCwIcon } from "lucide-react";
+import { SparklesIcon, CheckIcon, RefreshCwIcon } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { toast } from "sonner";
 import type { FortuneEditorProps } from "@/components/fortune-editor";
@@ -92,7 +92,11 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
   });
 }
 
-export default function FortuneEditorInner({ reportId, initialData, title }: FortuneEditorProps) {
+export default function FortuneEditorInner({
+  reportId, initialData, title,
+  saveTrigger = 0, downloadTrigger = 0,
+  onSavingChange, onDownloadingChange, onChanged,
+}: FortuneEditorProps) {
   const sheetsRef = useRef<Sheet[]>(
     sheetsDataToFortuneSheets(normalizeInitialData(initialData))
   );
@@ -121,41 +125,40 @@ export default function FortuneEditorInner({ reportId, initialData, title }: For
 
   const handleChange = useCallback((data: Sheet[]) => {
     sheetsRef.current = data;
-  }, []);
+    onChanged?.();
+  }, [onChanged]);
 
   const handleWorkbookMouseUp = useCallback(() => {
-    setTimeout(() => {
-      const wb = workbookRef.current;
-      if (!wb) return;
-      const selection = wb.getSelection();
-      if (!selection || selection.length === 0) return;
+    const wb = workbookRef.current;
+    if (!wb) return;
+    const selection = wb.getSelection();
+    if (!selection || selection.length === 0) return;
 
-      // 收集選取範圍內的所有儲存格值
-      const lines: string[] = [];
-      for (const range of selection) {
-        for (let r = range.row[0]; r <= range.row[1]; r++) {
-          const rowVals: string[] = [];
-          for (let c = range.column[0]; c <= range.column[1]; c++) {
-            const val = wb.getCellValue(r, c);
-            rowVals.push(val != null ? String(val) : "");
-          }
-          lines.push(rowVals.join("\t"));
+    // 收集選取範圍內的所有儲存格值
+    const lines: string[] = [];
+    for (const range of selection) {
+      for (let r = range.row[0]; r <= range.row[1]; r++) {
+        const rowVals: string[] = [];
+        for (let c = range.column[0]; c <= range.column[1]; c++) {
+          const val = wb.getCellValue(r, c);
+          rowVals.push(val != null ? String(val) : "");
         }
+        lines.push(rowVals.join("\t"));
       }
+    }
 
-      const text = lines.join("\n").trim();
-      if (!text) return; // 空白儲存格不開啟
+    const text = lines.join("\n").trim();
+    if (!text) return; // 空白儲存格不開啟
 
-      setSelectedRange(selection);
-      setAiSelectedText(text);
-      setAiInstruction("");
-      setAiProposal("");
-      setAiHistory([]);
-      setSavedProposals([]);
-      setConfirmingIdx(null);
-      setAiDialogOpen(true);
-      setTimeout(() => aiInputRef.current?.focus(), 100);
-    }, 50); // 等 FortuneSheet 完成 selection 更新
+    setSelectedRange(selection);
+    setAiSelectedText(text);
+    setAiInstruction("");
+    setAiProposal("");
+    setAiHistory([]);
+    setSavedProposals([]);
+    setConfirmingIdx(null);
+    setAiDialogOpen(true);
+    setTimeout(() => aiInputRef.current?.focus(), 100);
   }, []);
 
   function applyProposal(text: string) {
@@ -178,13 +181,14 @@ export default function FortuneEditorInner({ reportId, initialData, title }: For
     toast.success("已套用修改");
   }
 
-  async function handleSave() {
+  const handleSave = useCallback(async () => {
     setSaving(true);
+    onSavingChange?.(true);
     try {
       const res = await fetch(`/api/reports/${reportId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: JSON.stringify(fortuneSheetsToData(sheetsRef.current)) }),
+        body: JSON.stringify({ title, content: JSON.stringify(fortuneSheetsToData(sheetsRef.current)) }),
       });
       if (res.ok) toast.success("報告已儲存");
       else toast.error("儲存失敗，請重試");
@@ -192,11 +196,13 @@ export default function FortuneEditorInner({ reportId, initialData, title }: For
       toast.error("儲存失敗，請重試");
     } finally {
       setSaving(false);
+      onSavingChange?.(false);
     }
-  }
+  }, [reportId, title, onSavingChange]);
 
-  async function handleDownload() {
+  const handleDownload = useCallback(async () => {
     setDownloading(true);
+    onDownloadingChange?.(true);
     try {
       const res = await fetch("/api/excel/export", {
         method: "POST",
@@ -218,8 +224,12 @@ export default function FortuneEditorInner({ reportId, initialData, title }: For
       toast.error("下載失敗，請重試");
     } finally {
       setDownloading(false);
+      onDownloadingChange?.(false);
     }
-  }
+  }, [title, onDownloadingChange]);
+
+  useEffect(() => { if (saveTrigger > 0) handleSave(); }, [saveTrigger, handleSave]);
+  useEffect(() => { if (downloadTrigger > 0) handleDownload(); }, [downloadTrigger, handleDownload]);
 
   async function handleAiSubmit() {
     if (!aiInstruction.trim()) return;
@@ -255,22 +265,10 @@ export default function FortuneEditorInner({ reportId, initialData, title }: For
 
   return (
     <div className="flex flex-col gap-2">
-      {/* Toolbar */}
-      <div className="flex items-center gap-2">
-        <Button size="sm" onClick={handleSave} disabled={saving}>
-          <SaveIcon className="h-4 w-4 mr-1" />
-          {saving ? "儲存中..." : "儲存"}
-        </Button>
-        <Button size="sm" variant="outline" onClick={handleDownload} disabled={downloading}>
-          <DownloadIcon className="h-4 w-4 mr-1" />
-          {downloading ? "下載中..." : "下載 .xlsx"}
-        </Button>
-      </div>
-
       {/* FortuneSheet Workbook */}
       <div
         style={{ height: "calc(100vh - 280px)", minHeight: 600 }}
-        onMouseUp={handleWorkbookMouseUp}
+        onDoubleClick={handleWorkbookMouseUp}
       >
         {mounted && (
           <Workbook

@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Link from "next/link";
+import { useState, useEffect, useCallback } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { FileTextIcon, TagIcon, GripVerticalIcon } from "lucide-react";
@@ -20,6 +19,7 @@ import {
   arrayMove,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import { toast } from "sonner";
 import { CopyReportButton } from "@/components/copy-report-button";
 import { FileTypeIcon } from "@/components/file-type-icon";
 
@@ -44,7 +44,7 @@ function SortableReportCard({ report, onCopied }: { report: Report; onCopied: ()
 
   return (
     <div ref={setNodeRef} style={style} className="relative">
-      <Link href={`/report/${report.id}`} className="block">
+      <a href={`/report/${report.id}`} target="_blank" rel="noopener noreferrer" className="block">
         <Card className="hover:shadow-md transition-shadow cursor-pointer">
           <CardHeader className="py-3 px-4 pr-20">
             <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
@@ -68,7 +68,7 @@ function SortableReportCard({ report, onCopied }: { report: Report; onCopied: ()
             </p>
           </CardContent>
         </Card>
-      </Link>
+      </a>
       <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1">
         <CopyReportButton reportId={report.id} title={report.title} onCopied={onCopied} />
         <button
@@ -90,7 +90,7 @@ export function DraggableReportsList() {
 
   const sensors = useSensors(useSensor(PointerSensor));
 
-  const loadReports = () => {
+  const loadReports = useCallback(() => {
     fetch("/api/reports")
       .then((r) => r.json())
       .then((data) => {
@@ -98,7 +98,7 @@ export function DraggableReportsList() {
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  };
+  }, []);
 
   useEffect(() => {
     loadReports();
@@ -113,13 +113,20 @@ export function DraggableReportsList() {
     const oldIndex = reportList.findIndex((r) => r.id === active.id);
     const newIndex = reportList.findIndex((r) => r.id === over.id);
     const reordered = arrayMove(reportList, oldIndex, newIndex);
+    const previous = reportList;
     setReportList(reordered);
 
-    await fetch("/api/reports/reorder", {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ids: reordered.map((r) => r.id) }),
-    });
+    try {
+      const res = await fetch("/api/reports/reorder", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ids: reordered.map((r) => r.id) }),
+      });
+      if (!res.ok) throw new Error();
+    } catch {
+      setReportList(previous);
+      toast.error("排序更新失敗，請重試");
+    }
   }
 
   if (loading) {

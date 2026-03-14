@@ -17,6 +17,11 @@ export interface FortuneEditorProps {
   reportId: string;
   initialData: unknown;
   title: string;
+  saveTrigger?: number;
+  downloadTrigger?: number;
+  onSavingChange?: (saving: boolean) => void;
+  onDownloadingChange?: (downloading: boolean) => void;
+  onChanged?: () => void;
 }
 
 export function FortuneEditor(props: FortuneEditorProps) {

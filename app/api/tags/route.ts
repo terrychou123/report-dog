@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { clients } from "@/db/schema";
-import { eq, max } from "drizzle-orm";
+import { clients, clientReports } from "@/db/schema";
+import { eq, max, count, inArray } from "drizzle-orm";
 
 export async function GET() {
   const supabase = await createClient();
@@ -15,7 +15,17 @@ export async function GET() {
     .where(eq(clients.userId, data.claims.sub))
     .orderBy(clients.sortOrder);
 
-  return NextResponse.json(list);
+  let countMap = new Map<string, number>();
+  if (list.length > 0) {
+    const counts = await db
+      .select({ clientId: clientReports.clientId, cnt: count() })
+      .from(clientReports)
+      .where(inArray(clientReports.clientId, list.map((c) => c.id)))
+      .groupBy(clientReports.clientId);
+    countMap = new Map(counts.map((c) => [c.clientId, Number(c.cnt)]));
+  }
+
+  return NextResponse.json(list.map((c) => ({ ...c, reportCount: countMap.get(c.id) ?? 0 })));
 }
 
 export async function POST(req: NextRequest) {

@@ -26,6 +26,10 @@ type Message = { role: "user" | "assistant"; content: string; reasoning_details?
 type TagAssociation = { relationId: string; clientId: string; nickname: string; description: string | null };
 type TagOption = { id: string; nickname: string; description: string | null };
 
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
 function preprocessHtml(rawHtml: string): string {
   const parser = new DOMParser();
   const doc = parser.parseFromString(
@@ -78,6 +82,15 @@ export default function ReportEditorPage() {
   const [report, setReport] = useState<Report | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const isDirtyRef = useRef(false);
+  const [leaveDialogOpen, setLeaveDialogOpen] = useState(false);
+  const pendingNavRef = useRef<(() => void) | null>(null);
+
+  // Excel 觸發器與狀態
+  const [excelSaving, setExcelSaving] = useState(false);
+  const [excelDownloading, setExcelDownloading] = useState(false);
+  const [excelSaveTrigger, setExcelSaveTrigger] = useState(0);
+  const [excelDownloadTrigger, setExcelDownloadTrigger] = useState(0);
 
   const [reportTitle, setReportTitle] = useState("");
   const [initialContent, setInitialContent] = useState("");
@@ -124,7 +137,17 @@ export default function ReportEditorPage() {
     editorProps: {
       attributes: { class: "focus:outline-none" },
     },
+    onUpdate: () => { isDirtyRef.current = true; },
   });
+
+  // Reset dirty when Excel saving completes
+  const prevExcelSavingRef = useRef(false);
+  useEffect(() => {
+    if (prevExcelSavingRef.current && !excelSaving) {
+      isDirtyRef.current = false;
+    }
+    prevExcelSavingRef.current = excelSaving;
+  }, [excelSaving]);
 
   // 從 API 載入報告
   useEffect(() => {
@@ -158,6 +181,14 @@ export default function ReportEditorPage() {
     }
   }, [editor, loading, initialContent]);
 
+  useEffect(() => {
+    const handler = (e: BeforeUnloadEvent) => {
+      if (isDirtyRef.current) { e.preventDefault(); }
+    };
+    window.addEventListener("beforeunload", handler);
+    return () => window.removeEventListener("beforeunload", handler);
+  }, []);
+
   function openAiDialogWithText(text: string) {
     setSelectedText(text);
     setInstruction("");
@@ -188,22 +219,26 @@ export default function ReportEditorPage() {
     setHistory(newHistory);
     setInstruction("");
 
-    const res = await fetch(`/api/reports/${params.id}/ai`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ paragraph: selectedText, instruction: userMsg, history }),
-    });
+    try {
+      const res = await fetch(`/api/reports/${params.id}/ai`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ paragraph: selectedText, instruction: userMsg, history }),
+      });
 
-    if (!res.ok) {
+      if (!res.ok) {
+        toast.error("AI 回覆失敗，請重試");
+        return;
+      }
+
+      const { revised, reasoning_details } = await res.json();
+      setAiProposal(revised);
+      setHistory([...newHistory, { role: "assistant", content: revised, reasoning_details }]);
+    } catch {
       toast.error("AI 回覆失敗，請重試");
+    } finally {
       setAiLoading(false);
-      return;
     }
-
-    const { revised, reasoning_details } = await res.json();
-    setAiProposal(revised);
-    setHistory([...newHistory, { role: "assistant", content: revised, reasoning_details }]);
-    setAiLoading(false);
   }
 
   function applySpecificProposal(text: string) {
@@ -279,7 +314,7 @@ export default function ReportEditorPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML() }),
     });
-    if (res.ok) toast.success("報告已儲存");
+    if (res.ok) { toast.success("報告已儲存"); isDirtyRef.current = false; }
     else toast.error("儲存失敗，請重試");
     setSaving(false);
   }
@@ -310,7 +345,7 @@ export default function ReportEditorPage() {
       `</style>`,
       `</head>`,
       `<body>`,
-      `<h1>${filename}</h1>`,
+      `<h1>${escapeHtml(filename)}</h1>`,
       editorHtml,
       `</body>`,
       `</html>`,
@@ -364,7 +399,14 @@ export default function ReportEditorPage() {
   return (
     <div className="p-8 max-w-4xl">
       <button
-        onClick={() => router.push("/report")}
+        onClick={() => {
+          if (isDirtyRef.current) {
+            pendingNavRef.current = () => router.push("/report");
+            setLeaveDialogOpen(true);
+          } else {
+            router.push("/report");
+          }
+        }}
         className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
       >
         <ArrowLeftIcon className="h-3.5 w-3.5" />
@@ -376,16 +418,16 @@ export default function ReportEditorPage() {
         <div className="flex-1">
           <Input
             value={reportTitle}
-            onChange={(e) => setReportTitle(e.target.value)}
+            onChange={(e) => { setReportTitle(e.target.value); isDirtyRef.current = true; }}
             className="text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
             placeholder="報告標題"
           />
-          {report.fileType !== "excel" && (
-            <p className="text-muted-foreground text-sm mt-1 flex items-center gap-1.5">
-              <SparklesIcon className="h-3.5 w-3.5" />
-              圈選文字段落，使用 AI 修改
-            </p>
-          )}
+          <p className="text-muted-foreground text-sm mt-1 flex items-center gap-1.5">
+            <SparklesIcon className="h-3.5 w-3.5" />
+            {report.fileType === "excel"
+              ? "連續點擊兩次儲存格，使用AI編輯"
+              : "圈選文字段落，使用 AI 修改"}
+          </p>
           {/* 關聯標籤 */}
           <div className="flex items-center gap-2 mt-2 flex-wrap">
             {tagAssociations.map((a) => (
@@ -416,7 +458,22 @@ export default function ReportEditorPage() {
             <Trash2Icon className="h-4 w-4 mr-1.5" />
             刪除
           </Button>
-          {report.fileType !== "excel" && (
+          {report.fileType === "excel" ? (
+            <>
+              <Button size="sm" variant="outline"
+                onClick={() => setExcelDownloadTrigger(t => t + 1)}
+                disabled={excelDownloading}>
+                <DownloadIcon className="h-4 w-4 mr-1.5" />
+                {excelDownloading ? "下載中..." : "下載"}
+              </Button>
+              <Button size="sm"
+                onClick={() => setExcelSaveTrigger(t => t + 1)}
+                disabled={excelSaving}>
+                <SaveIcon className="h-4 w-4 mr-2" />
+                {excelSaving ? "儲存中..." : "儲存"}
+              </Button>
+            </>
+          ) : (
             <>
               <Button size="sm" variant="outline" onClick={handleDownload} disabled={!editor}>
                 <DownloadIcon className="h-4 w-4 mr-1.5" />
@@ -439,6 +496,11 @@ export default function ReportEditorPage() {
             try { return JSON.parse(report.content || "[]"); } catch { return []; }
           })()}
           title={reportTitle}
+          saveTrigger={excelSaveTrigger}
+          downloadTrigger={excelDownloadTrigger}
+          onSavingChange={setExcelSaving}
+          onDownloadingChange={setExcelDownloading}
+          onChanged={() => { isDirtyRef.current = true; }}
         />
       ) : (
         <div className="border rounded-lg overflow-hidden report-editor" onMouseUp={handleEditorMouseUp}>
@@ -515,6 +577,25 @@ export default function ReportEditorPage() {
             <Button variant="destructive" onClick={handleDeleteReport} disabled={deletingReport}>
               {deletingReport ? "刪除中..." : "確認刪除"}
             </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      {/* 離開確認 Dialog */}
+      <Dialog open={leaveDialogOpen} onOpenChange={setLeaveDialogOpen}>
+        <DialogContent className="max-w-sm">
+          <DialogHeader>
+            <DialogTitle>確認離開？</DialogTitle>
+          </DialogHeader>
+          <p className="text-sm text-muted-foreground">尚有未儲存的變更，離開後將遺失。</p>
+          <DialogFooter className="gap-2">
+            <Button variant="outline" onClick={() => setLeaveDialogOpen(false)}>繼續編輯</Button>
+            <Button variant="destructive" onClick={() => {
+              isDirtyRef.current = false;
+              setLeaveDialogOpen(false);
+              pendingNavRef.current?.();
+              pendingNavRef.current = null;
+            }}>離開</Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>

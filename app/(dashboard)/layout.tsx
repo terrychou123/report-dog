@@ -40,10 +40,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <div className="flex flex-1">
       {/* Sidebar */}
       <aside className="w-56 shrink-0 border-r bg-muted/20 flex flex-col">
-        <div className="flex items-center gap-2 px-5 py-5 border-b font-bold text-lg">
+        <Link href="/" className="flex items-center gap-2 px-5 py-5 border-b font-bold text-lg hover:opacity-80 transition-opacity">
           <BotIcon className="h-5 w-5 text-primary" />
           報告汪
-        </div>
+        </Link>
         <nav className="flex-1 px-3 py-4 space-y-1">
           {navLinks.map((link) => (
             <Link

@@ -1,9 +1,9 @@
 import { Suspense } from "react";
+import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { reports, clients, clientReports } from "@/db/schema";
 import { eq, desc, inArray, ilike, and } from "drizzle-orm";
-import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { FileTextIcon, TagIcon } from "lucide-react";
@@ -16,7 +16,8 @@ import { FileTypeIcon } from "@/components/file-type-icon";
 async function SearchReportsList({ query }: { query: string }) {
   const supabase = await createClient();
   const { data } = await supabase.auth.getClaims();
-  const userId = data!.claims!.sub;
+  const userId = data?.claims?.sub;
+  if (!userId) redirect("/auth/login");
 
   const likeQuery = `%${query}%`;
 
@@ -79,7 +80,7 @@ async function SearchReportsList({ query }: { query: string }) {
         const tagNames = tagMap.get(report.id) ?? [];
         return (
           <div key={report.id} className="relative">
-            <Link href={`/report/${report.id}`} className="block">
+            <a href={`/report/${report.id}`} target="_blank" rel="noopener noreferrer" className="block">
               <Card className="hover:shadow-md transition-shadow cursor-pointer">
                 <CardHeader className="py-3 px-4 pr-12">
                   <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
@@ -103,7 +104,7 @@ async function SearchReportsList({ query }: { query: string }) {
                   </p>
                 </CardContent>
               </Card>
-            </Link>
+            </a>
             <div className="absolute right-3 top-1/2 -translate-y-1/2">
               <CopyReportButton reportId={report.id} title={report.title} />
             </div>

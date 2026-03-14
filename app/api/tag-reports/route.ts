@@ -30,7 +30,8 @@ export async function GET(req: NextRequest) {
       })
       .from(clientReports)
       .innerJoin(reports, eq(clientReports.reportId, reports.id))
-      .where(eq(clientReports.clientId, clientId));
+      .where(eq(clientReports.clientId, clientId))
+      .orderBy(reports.sortOrder);
 
     return NextResponse.json(rows);
   }
@@ -78,6 +79,13 @@ export async function POST(req: NextRequest) {
     .from(clients)
     .where(and(eq(clients.id, clientId), eq(clients.userId, data.claims.sub)));
   if (!client) return NextResponse.json({ error: "Client not found" }, { status: 404 });
+
+  // Verify report belongs to user
+  const [report] = await db
+    .select()
+    .from(reports)
+    .where(and(eq(reports.id, reportId), eq(reports.userId, data.claims.sub)));
+  if (!report) return NextResponse.json({ error: "Report not found" }, { status: 404 });
 
   // Check if already associated
   const [existing] = await db
