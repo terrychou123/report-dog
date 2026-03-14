@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { AuthButton } from "@/components/auth-button";
@@ -17,6 +18,13 @@ import {
   SparklesIcon,
   ChevronDownIcon,
 } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "報告汪｜長照產業文書管理工具",
+  description:
+    "專為長照產業設計的報告管理工具。居服機構、醫院護理部、護理之家都適用。AI 輔助撰寫、標籤分類管理、評鑑備審一鍵備齊，現在完全免費。",
+  keywords: ["長照報告管理", "居家服務機構", "護理之家文書", "醫院護理部", "AI報告輔助", "定期報告", "社工報告", "個管師"],
+};
 
 export default function Home() {
   return (
@@ -254,6 +262,70 @@ export default function Home() {
                 <StartButton>免費體驗</StartButton>
               </div>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Long-term Care Industry Solutions */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <Badge variant="outline" className="mb-4">長照產業解決方案</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold">長照各職類都說好</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                emoji: "🏠",
+                badge: "居服機構",
+                href: "/home-care",
+                stat: "↓ 52%",
+                statLabel: "文書時間",
+                quote: "標籤功能讓我一眼看出誰的日誌有交、誰還沒繳，不用再每天逐一催繳。",
+                author: "吳督導・台中市居家服務中心",
+                cta: "了解居服機構 →",
+              },
+              {
+                emoji: "🏥",
+                badge: "醫院護理部",
+                href: "/hospital-nursing",
+                stat: "↓ 60%",
+                statLabel: "交接時間",
+                quote: "班別標籤讓護理師交接後就知道當班該完成哪些文書，文書焦慮大幅減少。",
+                author: "蔡護理長・台北某區域醫院",
+                cta: "了解醫院護理部 →",
+              },
+              {
+                emoji: "🏡",
+                badge: "護理之家",
+                href: "/nursing-home",
+                stat: "4 職類",
+                statLabel: "協作管理",
+                quote: "主任月報行政時間少了三分之一，各職類文件不再混在一起找不到。",
+                author: "廖主任・新北市護理之家",
+                cta: "了解護理之家 →",
+              },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="block group">
+                <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
+                  <CardContent className="pt-6 pb-6 flex flex-col h-full">
+                    <div className="flex items-center gap-2 mb-4">
+                      <span className="text-xl">{item.emoji}</span>
+                      <Badge variant="secondary" className="text-xs">{item.badge}</Badge>
+                    </div>
+                    <div className="text-4xl font-extrabold text-primary mb-0.5">{item.stat}</div>
+                    <div className="text-xs text-muted-foreground mb-4">{item.statLabel}</div>
+                    <p className="text-sm text-muted-foreground line-clamp-2 flex-1 mb-3">
+                      「{item.quote}」
+                    </p>
+                    <div className="text-xs text-muted-foreground mb-4">{item.author}</div>
+                    <div className="text-xs font-medium text-primary group-hover:underline mt-auto">
+                      {item.cta}
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
