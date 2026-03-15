@@ -16,6 +16,7 @@ import {
   FileTextIcon,
   SparklesIcon,
   ChevronDownIcon,
+  DownloadIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -317,6 +318,60 @@ export default function Home() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Free Download — 日照機構備審文件 */}
+      <section className="py-20 px-6 bg-muted/20">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <Badge variant="outline" className="mb-4">免費資源下載</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold">日照機構備審文件 &amp; 工作記錄表｜免費模板下載</h2>
+          </div>
+          <Card className="border-dashed border-2 border-primary/30 bg-background">
+            <CardContent className="pt-8 pb-8 px-8">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+                <div className="p-4 rounded-xl bg-primary/10 text-primary shrink-0">
+                  <DownloadIcon className="h-8 w-8" />
+                </div>
+                <div className="flex-1">
+                  <p className="text-muted-foreground mb-4">
+                    評鑑季來了，用這份模板把文件一次整理好。適用日間照護機構督導、社工、護理師使用。
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {["日照機構適用", "評鑑備審", "工作記錄表", "免費"].map((tag) => (
+                      <Badge key={tag} variant="secondary" className="text-xs">{tag}</Badge>
+                    ))}
+                  </div>
+                  <ul className="space-y-1.5 mb-6 text-sm text-muted-foreground">
+                    {[
+                      "評鑑備審必備文件清單",
+                      "工作記錄表格式（可直接複製使用）",
+                      "適用日照機構評鑑相關查核項目",
+                    ].map((item) => (
+                      <li key={item} className="flex items-center gap-2">
+                        <CheckIcon className="h-3.5 w-3.5 text-primary shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+                    <a
+                      href="https://docs.google.com/spreadsheets/d/1Vm10sjWs8zhE7zufBF0hvNoFZkTr5E_5/edit?usp=sharing"
+                      title="免費下載日照機構備審文件與工作記錄表 Google 試算表"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors px-5 py-2.5 rounded-lg font-medium text-sm"
+                    >
+                      <DownloadIcon className="h-4 w-4" />
+                      免費開啟試算表 →
+                    </a>
+                    <span className="text-xs text-muted-foreground">無需登入，開啟後點「檔案 → 複製」即可使用</span>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 

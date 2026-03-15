@@ -9,12 +9,20 @@ import { Card } from "@/components/ui/card";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 
 export const metadata: Metadata = {
-  title: "價格方案｜報告汪",
+  title: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・護理之家・醫院護理部適用",
   description:
-    "報告汪目前處於公開測試階段，所有功能完全免費開放。歡迎試用並提供回饋，正式版本定價方案規劃中。",
+    "報告汪是專為長照機構設計的 AI 文書管理系統，支援居服機構、醫院護理部、護理之家三大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
   alternates: { canonical: "/pricing" },
-  openGraph: { title: "價格方案｜報告汪" },
-  twitter: { title: "價格方案｜報告汪" },
+  openGraph: {
+    title: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・護理之家・醫院護理部適用",
+    description: "報告汪是專為長照機構設計的 AI 文書管理系統，支援居服機構、醫院護理部、護理之家三大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "報告汪 - 定期報告神器" }],
+  },
+  twitter: {
+    title: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・護理之家・醫院護理部適用",
+    description: "報告汪是專為長照機構設計的 AI 文書管理系統，支援居服機構、醫院護理部、護理之家三大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function PricingPage() {

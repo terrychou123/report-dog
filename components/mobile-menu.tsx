@@ -5,11 +5,7 @@ import { useState } from "react";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { BotIcon, MenuIcon } from "lucide-react";
-
-const navLinks = [
-  { href: "/", label: "首頁" },
-  { href: "/pricing", label: "價格" },
-];
+import { navLinks } from "@/lib/nav";
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
@@ -33,6 +29,7 @@ export function MobileMenu() {
             <Link
               key={link.href}
               href={link.href}
+              title={link.title}
               className="text-sm hover:text-primary transition-colors"
               onClick={() => setOpen(false)}
             >
