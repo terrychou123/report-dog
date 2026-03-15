@@ -16,14 +16,76 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "多職種同平台報告協作｜護理之家文書管理｜報告汪",
+  title: "護理之家文書管理系統｜多職種同平台協作",
   description:
-    "專為護理之家設計的多職種文書管理工具。護理師、照服員、社工、營養師同平台協作，標籤分職類管理、AI 輔助照護紀錄、評鑑文件零遺漏。現在免費試用。",
+    "報告汪專為護理之家設計：護理師、照服員、社工、營養師同平台協作，依職類標籤分區、AI 輔助照護紀錄，24 小時住民照護不遺漏。免費試用。",
+  alternates: { canonical: "/nursing-home" },
+  openGraph: {
+    title: "護理之家文書管理系統｜多職種同平台協作",
+    description:
+      "報告汪專為護理之家設計：護理師、照服員、社工、營養師同平台協作，依職類標籤分區、AI 輔助照護紀錄，24 小時住民照護不遺漏。免費試用。",
+  },
+  twitter: {
+    title: "護理之家文書管理系統｜多職種同平台協作",
+    description:
+      "報告汪專為護理之家設計：護理師、照服員、社工、營養師同平台協作，依職類標籤分區、AI 輔助照護紀錄，24 小時住民照護不遺漏。免費試用。",
+  },
 };
 
 export default function NursingHomePage() {
   return (
     <main className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "報告汪適合護理之家哪些職類使用？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "護理師、照服員、社工師、營養師都適用。各職類在同一平台各自的標籤分區撰寫文件，互不干擾；機構主任則可跨標籤彙整月報，一次掌握所有職類文件。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "多職種的文件如何在同一平台不互相干擾？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "依撰寫者職類建立獨立標籤（例如：護理師報告、照服員日誌、社工紀錄、營養評估），各職類文件自動歸入對應標籤。主任需要彙整時，透過跨標籤篩選一次取得所有職類的最新文件，不再需要逐一收集。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "護理之家的評鑑文書如何準備？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "提前建立「評鑑備審」標籤，並依撰寫頻率設定「每班執行」、「每日一次」、「每週」三層標籤。日常文書直接貼上對應標籤，評鑑前篩選「評鑑備審」即可全數到位，不再漏件。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "照服員夜班如何用手機快速完成紀錄？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "使用報告汪手機版，巡房時以語音輸入照護觀察，AI 自動整理成符合機構格式的照護紀錄，照服員只需確認後提交即可。實測夜班文書時間可從 40 分鐘縮短至不到 15 分鐘。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "目前收費嗎？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。",
+                },
+              },
+            ],
+          }),
+        }}
+      />
       <Navbar />
 
       {/* Hero */}
@@ -32,7 +94,7 @@ export default function NursingHomePage() {
           護理之家專用
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          多職種同平台報告協作｜<span className="text-primary">報告汪</span>
+          護理之家文書管理系統｜<span className="text-primary">多職種同平台協作</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
           住民 24 小時都在、報告種類繁多——護理師、照服員、社工、營養師同一平台協作，
@@ -64,7 +126,7 @@ export default function NursingHomePage() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">專為護理之家設計</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">護理之家文書管理這樣做：依職類標籤分區，24小時住民照護不遺漏</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
               從多職類標籤分區到跨職類月報，從住民照護計畫追蹤到 AI 輔助紀錄，每個功能都以護理之家工作流程為中心。
             </p>
@@ -318,7 +380,7 @@ export default function NursingHomePage() {
                     標籤依撰寫者分類，督導一眼看出誰的文件缺繳，查核零補件。
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    了解居服機構解決方案 →
+                    居服機構文書管理系統 →
                   </div>
                 </CardContent>
               </Card>
@@ -336,7 +398,7 @@ export default function NursingHomePage() {
                     班別標籤管理交接班文書，評鑑備審一鍵備齊，護理長省心省力。
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    了解醫院護理部解決方案 →
+                    護理文書管理系統・交班紀錄工具 →
                   </div>
                 </CardContent>
               </Card>

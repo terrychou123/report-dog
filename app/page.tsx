@@ -19,10 +19,17 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "報告汪｜長照產業文書管理工具",
+  title: { absolute: "報告汪｜長照機構文書管理系統・AI報告生成・評鑑備審" },
   description:
-    "專為長照產業設計的報告管理工具。居服機構、醫院護理部、護理之家都適用。AI 輔助撰寫、標籤分類管理、評鑑備審一鍵備齊，現在完全免費。",
+    "報告汪是專為長照、居服、護理之家設計的 AI 報告管理工具。標籤分類、拖曳排序、AI 輔助撰寫，評鑑文件不再遺漏。免費試用。",
   keywords: ["長照報告管理", "居家服務機構", "護理之家文書", "醫院護理部", "AI報告輔助", "定期報告", "社工報告", "個管師"],
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "報告汪｜長照機構文書管理系統・AI報告生成・評鑑備審",
+  },
+  twitter: {
+    title: "報告汪｜長照機構文書管理系統・AI報告生成・評鑑備審",
+  },
 };
 
 export default function Home() {
@@ -104,8 +111,8 @@ export default function Home() {
           行政效率工具
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          報告汪｜定期報告，<br className="hidden md:block" />
-          <span className="text-primary">不再重複造輪子</span>
+          長照機構文書管理系統<br className="hidden md:block" />
+          <span className="text-primary">AI報告生成・標籤分類・評鑑備審</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
           複製上期報告當模板，AI 幫你修改差異段落，再用標籤與搜尋輕鬆管理所有報告。
@@ -137,7 +144,7 @@ export default function Home() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">專為定期報告設計</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">長照定期報告生成工具：複製上期・AI修改差異・評鑑一鍵備審</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
               從複製舊報告到 AI 修改、標籤分類到全文搜尋，每一個功能都以行政效率為中心。
             </p>
@@ -187,7 +194,7 @@ export default function Home() {
       <section className="py-20 px-6 bg-muted/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">三步驟完成定期報告</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">三步驟完成長照定期報告</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <Card className="md:col-span-2 p-6 flex flex-col gap-4 border-primary/20">
@@ -247,7 +254,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <Badge variant="outline" className="mb-4">長照產業解決方案</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold">長照各職類都說好</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">居服、護理、社工各職類都說好</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -259,7 +266,7 @@ export default function Home() {
                 statLabel: "文書時間",
                 quote: "標籤功能讓我一眼看出誰的日誌有交、誰還沒繳，不用再每天逐一催繳。",
                 author: "吳督導・台中市居家服務中心",
-                cta: "了解居服機構 →",
+                cta: "居服機構文書管理系統 →",
               },
               {
                 emoji: "🏥",
@@ -269,7 +276,7 @@ export default function Home() {
                 statLabel: "交接時間",
                 quote: "班別標籤讓護理師交接後就知道當班該完成哪些文書，文書焦慮大幅減少。",
                 author: "蔡護理長・台北某區域醫院",
-                cta: "了解醫院護理部 →",
+                cta: "護理文書管理系統・交班紀錄工具 →",
               },
               {
                 emoji: "🏡",
@@ -279,7 +286,7 @@ export default function Home() {
                 statLabel: "協作管理",
                 quote: "主任月報行政時間少了三分之一，各職類文件不再混在一起找不到。",
                 author: "廖主任・新北市護理之家",
-                cta: "了解護理之家 →",
+                cta: "護理之家多職類文書協作平台 →",
               },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="block group">

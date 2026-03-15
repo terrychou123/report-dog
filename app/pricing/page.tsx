@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { AuthButton } from "@/components/auth-button";
@@ -6,6 +7,15 @@ import { BotIcon, CheckIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { ThemeSwitcher } from "@/components/theme-switcher";
+
+export const metadata: Metadata = {
+  title: "價格方案｜報告汪",
+  description:
+    "報告汪目前處於公開測試階段，所有功能完全免費開放。歡迎試用並提供回饋，正式版本定價方案規劃中。",
+  alternates: { canonical: "/pricing" },
+  openGraph: { title: "價格方案｜報告汪" },
+  twitter: { title: "價格方案｜報告汪" },
+};
 
 export default function PricingPage() {
   return (

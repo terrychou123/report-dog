@@ -15,14 +15,82 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "居家服務機構報告管理｜報告汪",
+  title: "居服機構文書管理系統｜AI報告生成・標籤分類",
   description:
-    "專為居服機構設計的報告管理工具。標籤分類督導追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任都適用，現在免費試用。",
+    "報告汪專為居服機構設計：督導標籤追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任一個平台管理所有報告，評鑑備審不遺漏。免費試用。",
+  alternates: { canonical: "/home-care" },
+  openGraph: {
+    title: "居服機構文書管理系統｜AI報告生成・標籤分類",
+    description:
+      "報告汪專為居服機構設計：督導標籤追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任一個平台管理所有報告，評鑑備審不遺漏。免費試用。",
+  },
+  twitter: {
+    title: "居服機構文書管理系統｜AI報告生成・標籤分類",
+    description:
+      "報告汪專為居服機構設計：督導標籤追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任一個平台管理所有報告，評鑑備審不遺漏。免費試用。",
+  },
 };
+
+const HOME_CARE_STATS = [
+  { value: "↓ 52%", label: "居服員日誌時間" },
+  { value: "零補件", label: "主管機關查核" },
+  { value: "↑ 4x", label: "督導追蹤效率" },
+];
 
 export default function HomeCarePage() {
   return (
     <main className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "報告汪適合居服機構哪些角色使用？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "居服員、督導、執行主任都適用。居服員用 AI 輔助撰寫日誌、手機完成文書；督導用標籤追蹤各居服員文件繳交狀況；主任則用送審標籤群組統一備妥查核文件。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "如何追蹤居服員的日誌繳交狀況？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "建立「依撰寫者」標籤（例如：居服員：王小明），每位居服員提交的文件自動歸入對應標籤。督導篩選標籤後一眼可見誰的文件缺繳，搭配頻率標籤（每日、每週）還能確認是否按時提交。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "如何快速備妥主管機關查核文件？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "建立「送審必備」標籤群組，將個案服務計畫、照顧日誌、異常事件通報等文件貼上此標籤。查核前點一個標籤，所有文件全部列出，拖曳排序按送審順序確認，一份都不漏。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "居服員在手機上也能使用嗎？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "可以。報告汪支援行動端操作，居服員在服務結束後即可用手機上傳、編輯並提交服務紀錄，不需等回到辦公室才能完成文書作業。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "目前收費嗎？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。",
+                },
+              },
+            ],
+          }),
+        }}
+      />
       <Navbar />
 
       {/* Hero */}
@@ -31,7 +99,7 @@ export default function HomeCarePage() {
           居服機構專用
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          居家服務機構報告管理｜<span className="text-primary">報告汪</span>
+          居服機構文書管理系統｜<span className="text-primary">AI報告生成・標籤分類</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
           標籤分類管理居服員文件、AI輔助撰寫日誌、一個標籤完成查核備審──
@@ -46,11 +114,7 @@ export default function HomeCarePage() {
       {/* Stats */}
       <section className="border-y bg-muted/20 py-14 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-          {[
-            { value: "↓ 52%", label: "居服員日誌時間" },
-            { value: "零補件", label: "主管機關查核" },
-            { value: "↑ 4x", label: "督導追蹤效率" },
-          ].map((stat) => (
+          {HOME_CARE_STATS.map((stat) => (
             <div key={stat.label}>
               <div className="text-4xl font-extrabold text-primary mb-1">{stat.value}</div>
               <div className="text-muted-foreground text-sm">{stat.label}</div>
@@ -63,7 +127,7 @@ export default function HomeCarePage() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">專為居服機構設計</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">居服機構文書管理這樣做：督導標籤追蹤，居服員日誌 AI 輔助，查核零補件</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
               從督導追蹤到查核備審，從 AI 日誌到行動端操作，每個功能都以居服工作流程為中心。
             </p>
@@ -211,11 +275,7 @@ export default function HomeCarePage() {
 
           {/* 居服 Stats Row */}
           <div className="grid grid-cols-3 gap-3">
-            {[
-              { value: "↓ 52%", label: "居服員日誌時間" },
-              { value: "零補件", label: "主管機關查核" },
-              { value: "↑ 4x", label: "督導追蹤效率" },
-            ].map((s) => (
+            {HOME_CARE_STATS.map((s) => (
               <div key={s.label} className="bg-background rounded-xl py-4 px-3 text-center border">
                 <div className="text-xl font-semibold">{s.value}</div>
                 <div className="text-xs text-muted-foreground mt-1">{s.label}</div>
@@ -288,7 +348,7 @@ export default function HomeCarePage() {
                     班別標籤管理交接班文書，評鑑備審一鍵備齊，護理長省心省力。
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    了解醫院護理部解決方案 →
+                    護理文書管理系統・交班紀錄工具 →
                   </div>
                 </CardContent>
               </Card>
@@ -306,7 +366,7 @@ export default function HomeCarePage() {
                     護理師、照服員、社工、營養師同平台協作，夜班文書時間減少 63%。
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    了解護理之家解決方案 →
+                    護理之家多職類文書協作平台 →
                   </div>
                 </CardContent>
               </Card>

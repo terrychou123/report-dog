@@ -15,14 +15,82 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "護理文書管理系統｜病房報告整合｜報告汪",
+  title: "護理文書管理系統｜病房報告整合",
   description:
-    "專為醫院護理部設計的文書管理工具。班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長都適用，現在免費試用。",
+    "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長同平台管理，病房報告不再散落。免費試用。",
+  alternates: { canonical: "/hospital-nursing" },
+  openGraph: {
+    title: "護理文書管理系統｜病房報告整合",
+    description:
+      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長同平台管理，病房報告不再散落。免費試用。",
+  },
+  twitter: {
+    title: "護理文書管理系統｜病房報告整合",
+    description:
+      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長同平台管理，病房報告不再散落。免費試用。",
+  },
 };
+
+const HOSPITAL_NURSING_STATS = [
+  { value: "↓ 60%", label: "文書交接時間" },
+  { value: "30 秒", label: "當班文件確認" },
+  { value: "評鑑零補件", label: "護理文書到位率" },
+];
 
 export default function HospitalNursingPage() {
   return (
     <main className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "報告汪適合護理部哪些角色使用？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "護理師、護理長、副護理長都適用。護理師用班別標籤確認當班文書、AI 輔助撰寫護理紀錄；護理長用標籤追蹤各班文件完成狀況；副護理長則用評鑑備審標籤群組統一備齊評鑑文件。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "如何用班別標籤管理交接班文書？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "建立「白班」、「小夜」、「大夜」獨立標籤，並搭配頻率標籤（每班必做、每日一次、每週）做雙重分類。護理師交接完畢後篩選當班標籤，即可一眼看出本班應完成哪些文書，並可拖曳調整執行順序。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "同一份文件需要跨多個標籤分類怎麼辦？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "報告汪支援多標籤功能，同一份文件可同時貼上「感控必備」、「設備維護」、「個案追蹤」等多個標籤，不需搬移或複製文件。各部門或需求篩選對應標籤，30 秒內確認文件狀態。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "如何準備醫院評鑑的護理文書？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "提前建立「評鑑備審」標籤群組，日常產出的護理品質指標報告、病房文件直接貼上此標籤。評鑑前只需篩選該標籤，所有文件全部到位，無需重新整理，達到零補件目標。",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "目前收費嗎？",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。",
+                },
+              },
+            ],
+          }),
+        }}
+      />
       <Navbar />
 
       {/* Hero */}
@@ -31,7 +99,7 @@ export default function HospitalNursingPage() {
           護理部專用
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          護理文書管理系統｜病房報告整合｜<span className="text-primary">報告汪</span>
+          護理文書管理系統｜<span className="text-primary">病房報告整合</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
           班別標籤管理交接班文書、多標籤分類不重複搬移、評鑑備審標籤一鍵到位──
@@ -46,11 +114,7 @@ export default function HospitalNursingPage() {
       {/* Stats */}
       <section className="border-y bg-muted/20 py-14 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-          {[
-            { value: "↓ 60%", label: "文書交接時間" },
-            { value: "30 秒", label: "當班文件確認" },
-            { value: "評鑑零補件", label: "護理文書到位率" },
-          ].map((stat) => (
+          {HOSPITAL_NURSING_STATS.map((stat) => (
             <div key={stat.label}>
               <div className="text-4xl font-extrabold text-primary mb-1">{stat.value}</div>
               <div className="text-muted-foreground text-sm">{stat.label}</div>
@@ -63,7 +127,7 @@ export default function HospitalNursingPage() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">專為醫院護理部設計</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">醫院護理文書管理這樣做：班別標籤交接班，評鑑備審一鍵備齊</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
               從班別標籤到評鑑備審，從多標籤分類到 AI 文書輔助，每個功能都以護理工作流程為中心。
             </p>
@@ -211,11 +275,7 @@ export default function HospitalNursingPage() {
 
           {/* Stats Row */}
           <div className="grid grid-cols-3 gap-3">
-            {[
-              { value: "↓ 60%", label: "文書交接時間" },
-              { value: "30 秒", label: "當班文件確認" },
-              { value: "評鑑零補件", label: "護理文書到位率" },
-            ].map((s) => (
+            {HOSPITAL_NURSING_STATS.map((s) => (
               <div key={s.label} className="bg-background rounded-xl py-4 px-3 text-center border">
                 <div className="text-xl font-semibold">{s.value}</div>
                 <div className="text-xs text-muted-foreground mt-1">{s.label}</div>
@@ -288,7 +348,7 @@ export default function HospitalNursingPage() {
                     標籤依撰寫者分類，督導一眼看出誰的文件缺繳，查核零補件。
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    了解居服機構解決方案 →
+                    居服機構文書管理系統 →
                   </div>
                 </CardContent>
               </Card>
@@ -306,7 +366,7 @@ export default function HospitalNursingPage() {
                     護理師、照服員、社工、營養師同平台協作，夜班文書時間減少 63%。
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    了解護理之家解決方案 →
+                    護理之家多職類文書協作平台 →
                   </div>
                 </CardContent>
               </Card>
