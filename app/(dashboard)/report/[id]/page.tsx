@@ -397,7 +397,7 @@ export default function ReportEditorPage() {
   if (!report) return null;
 
   return (
-    <div className="p-8 max-w-4xl">
+    <div className="p-4 md:p-8 max-w-4xl">
       <button
         onClick={() => {
           if (isDirtyRef.current) {
@@ -414,12 +414,12 @@ export default function ReportEditorPage() {
       </button>
 
       {/* 頁首：標題（可編輯）+ 按鈕群 */}
-      <div className="flex items-start justify-between mb-4 gap-4">
+      <div className="flex flex-col gap-3 mb-4 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
         <div className="flex-1">
           <Input
             value={reportTitle}
             onChange={(e) => { setReportTitle(e.target.value); isDirtyRef.current = true; }}
-            className="text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
+            className="text-xl md:text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
             placeholder="報告標題"
           />
           <p className="text-muted-foreground text-sm mt-1 flex items-center gap-1.5">
@@ -432,7 +432,7 @@ export default function ReportEditorPage() {
           <div className="flex items-center gap-2 mt-2 flex-wrap">
             {tagAssociations.map((a) => (
               <span key={a.relationId}
-                className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-muted text-xs font-medium">
+                className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-muted text-xs font-medium whitespace-nowrap">
                 <TagIcon className="h-3 w-3 text-muted-foreground" />
                 {a.nickname}
                 <button onClick={() => handleRemoveTagAssociation(a.relationId)}
@@ -448,7 +448,7 @@ export default function ReportEditorPage() {
             </button>
           </div>
         </div>
-        <div className="flex gap-2 shrink-0">
+        <div className="flex gap-2 shrink-0 self-end sm:self-auto">
           <Button
             size="sm"
             variant="outline"
