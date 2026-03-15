@@ -15,19 +15,19 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "護理文書管理系統｜病房報告整合",
+  title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
   description:
-    "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長同平台管理，病房報告不再散落。免費試用。",
+    "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
   alternates: { canonical: "/hospital-nursing" },
   openGraph: {
-    title: "護理文書管理系統｜病房報告整合",
+    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
     description:
-      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長同平台管理，病房報告不再散落。免費試用。",
+      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
   },
   twitter: {
-    title: "護理文書管理系統｜病房報告整合",
+    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
     description:
-      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊。護理師、護理長、副護理長同平台管理，病房報告不再散落。免費試用。",
+      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
   },
 };
 
@@ -335,7 +335,7 @@ export default function HospitalNursingPage() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/home-care" className="block group">
+            <Link href="/home-care" title="居服機構 AI 文書管理系統介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
@@ -353,7 +353,7 @@ export default function HospitalNursingPage() {
                 </CardContent>
               </Card>
             </Link>
-            <Link href="/nursing-home" className="block group">
+            <Link href="/nursing-home" title="護理之家多職種文書協作平台介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
@@ -393,9 +393,9 @@ export default function HospitalNursingPage() {
           報告汪
         </div>
         <div className="flex items-center gap-6">
-          <Link href="/pricing" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" className="hover:text-primary transition-colors">註冊</Link>
+          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
+          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
+          <Link href="/auth/sign-up" title="免費試用報告汪醫院護理部方案" className="hover:text-primary transition-colors">註冊</Link>
         </div>
         <ThemeSwitcher />
       </footer>

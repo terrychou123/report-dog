@@ -15,19 +15,19 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "居服機構文書管理系統｜AI報告生成・標籤分類",
+  title: "居服機構 AI 文書管理系統｜督導標籤追蹤・日誌 AI 撰寫・評鑑查核零補件",
   description:
-    "報告汪專為居服機構設計：督導標籤追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任一個平台管理所有報告，評鑑備審不遺漏。免費試用。",
+    "報告汪專為居服機構打造：督導依服員建立標籤分類、AI 輔助日誌撰寫省時省力、評鑑查核零補件。居服員、督導、機構主任在同一平台管理所有報告，文件不再散落。支援行動裝置，隨時隨地記錄與查閱，評鑑備審準備從容不迫。立即免費試用。",
   alternates: { canonical: "/home-care" },
   openGraph: {
-    title: "居服機構文書管理系統｜AI報告生成・標籤分類",
+    title: "居服機構 AI 文書管理系統｜督導標籤追蹤・日誌 AI 撰寫・評鑑查核零補件",
     description:
-      "報告汪專為居服機構設計：督導標籤追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任一個平台管理所有報告，評鑑備審不遺漏。免費試用。",
+      "報告汪專為居服機構打造：督導依服員建立標籤分類、AI 輔助日誌撰寫省時省力、評鑑查核零補件。居服員、督導、機構主任在同一平台管理所有報告，文件不再散落。支援行動裝置，隨時隨地記錄與查閱，評鑑備審準備從容不迫。立即免費試用。",
   },
   twitter: {
-    title: "居服機構文書管理系統｜AI報告生成・標籤分類",
+    title: "居服機構 AI 文書管理系統｜督導標籤追蹤・日誌 AI 撰寫・評鑑查核零補件",
     description:
-      "報告汪專為居服機構設計：督導標籤追蹤、AI輔助日誌撰寫、查核零補件。居服員、督導、主任一個平台管理所有報告，評鑑備審不遺漏。免費試用。",
+      "報告汪專為居服機構打造：督導依服員建立標籤分類、AI 輔助日誌撰寫省時省力、評鑑查核零補件。居服員、督導、機構主任在同一平台管理所有報告，文件不再散落。支援行動裝置，隨時隨地記錄與查閱，評鑑備審準備從容不迫。立即免費試用。",
   },
 };
 
@@ -335,7 +335,7 @@ export default function HomeCarePage() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/hospital-nursing" className="block group">
+            <Link href="/hospital-nursing" title="醫院護理部 AI 文書管理系統介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
@@ -353,7 +353,7 @@ export default function HomeCarePage() {
                 </CardContent>
               </Card>
             </Link>
-            <Link href="/nursing-home" className="block group">
+            <Link href="/nursing-home" title="護理之家多職種文書協作平台介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
@@ -393,9 +393,9 @@ export default function HomeCarePage() {
           報告汪
         </div>
         <div className="flex items-center gap-6">
-          <Link href="/pricing" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" className="hover:text-primary transition-colors">註冊</Link>
+          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
+          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
+          <Link href="/auth/sign-up" title="免費試用報告汪居服機構方案" className="hover:text-primary transition-colors">註冊</Link>
         </div>
         <ThemeSwitcher />
       </footer>

@@ -19,16 +19,20 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "報告汪｜長照機構文書管理系統・AI報告生成・評鑑備審" },
+  title: { absolute: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・護理之家・醫院護理部適用" },
   description:
-    "報告汪是專為長照、居服、護理之家設計的 AI 報告管理工具。標籤分類、拖曳排序、AI 輔助撰寫，評鑑文件不再遺漏。免費試用。",
+    "報告汪是專為長照機構設計的 AI 文書管理系統，支援居服機構、醫院護理部、護理之家三大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
   keywords: ["長照報告管理", "居家服務機構", "護理之家文書", "醫院護理部", "AI報告輔助", "定期報告", "社工報告", "個管師"],
   alternates: { canonical: "/" },
   openGraph: {
-    title: "報告汪｜長照機構文書管理系統・AI報告生成・評鑑備審",
+    title: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・護理之家・醫院護理部適用",
+    description:
+      "報告汪是專為長照機構設計的 AI 文書管理系統，支援居服機構、醫院護理部、護理之家三大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
   },
   twitter: {
-    title: "報告汪｜長照機構文書管理系統・AI報告生成・評鑑備審",
+    title: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・護理之家・醫院護理部適用",
+    description:
+      "報告汪是專為長照機構設計的 AI 文書管理系統，支援居服機構、醫院護理部、護理之家三大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
   },
 };
 
@@ -262,6 +266,7 @@ export default function Home() {
                 emoji: "🏠",
                 badge: "居服機構",
                 href: "/home-care",
+                linkTitle: "居服機構 AI 文書管理系統介紹",
                 stat: "↓ 52%",
                 statLabel: "文書時間",
                 quote: "標籤功能讓我一眼看出誰的日誌有交、誰還沒繳，不用再每天逐一催繳。",
@@ -272,6 +277,7 @@ export default function Home() {
                 emoji: "🏥",
                 badge: "醫院護理部",
                 href: "/hospital-nursing",
+                linkTitle: "醫院護理部 AI 文書管理系統介紹",
                 stat: "↓ 60%",
                 statLabel: "交接時間",
                 quote: "班別標籤讓護理師交接後就知道當班該完成哪些文書，文書焦慮大幅減少。",
@@ -282,6 +288,7 @@ export default function Home() {
                 emoji: "🏡",
                 badge: "護理之家",
                 href: "/nursing-home",
+                linkTitle: "護理之家多職種文書協作平台介紹",
                 stat: "4 職類",
                 statLabel: "協作管理",
                 quote: "主任月報行政時間少了三分之一，各職類文件不再混在一起找不到。",
@@ -289,7 +296,7 @@ export default function Home() {
                 cta: "護理之家多職類文書協作平台 →",
               },
             ].map((item) => (
-              <Link key={item.href} href={item.href} className="block group">
+              <Link key={item.href} href={item.href} title={item.linkTitle} className="block group">
                 <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                   <CardContent className="pt-6 pb-6 flex flex-col h-full">
                     <div className="flex items-center gap-2 mb-4">
@@ -341,7 +348,7 @@ export default function Home() {
             <StartButton>立即免費開始</StartButton>
           </Card>
           <p className="mt-4 text-sm text-muted-foreground">
-            <Link href="/pricing" className="underline hover:text-primary">查看完整價格說明</Link>
+            <Link href="/pricing" title="查看報告汪各方案價格" className="underline hover:text-primary">查看完整價格說明</Link>
           </p>
         </div>
       </section>
@@ -403,9 +410,9 @@ export default function Home() {
           報告汪
         </div>
         <div className="flex items-center gap-6">
-          <Link href="/pricing" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" className="hover:text-primary transition-colors">註冊</Link>
+          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
+          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
+          <Link href="/auth/sign-up" title="免費註冊報告汪帳戶" className="hover:text-primary transition-colors">註冊</Link>
         </div>
         <ThemeSwitcher />
       </footer>

@@ -16,19 +16,19 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "護理之家文書管理系統｜多職種同平台協作",
+  title: "護理之家 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作平台",
   description:
-    "報告汪專為護理之家設計：護理師、照服員、社工、營養師同平台協作，依職類標籤分區、AI 輔助照護紀錄，24 小時住民照護不遺漏。免費試用。",
+    "報告汪專為護理之家設計：護理師、照服員、社工師、營養師在同一平台協作，依職類標籤分區管理、AI 輔助照護紀錄，24 小時住民照護文件不遺漏。評鑑備審文件自動彙整，多職種分工清晰，提升整體照護品質。立即免費試用。",
   alternates: { canonical: "/nursing-home" },
   openGraph: {
-    title: "護理之家文書管理系統｜多職種同平台協作",
+    title: "護理之家 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作平台",
     description:
-      "報告汪專為護理之家設計：護理師、照服員、社工、營養師同平台協作，依職類標籤分區、AI 輔助照護紀錄，24 小時住民照護不遺漏。免費試用。",
+      "報告汪專為護理之家設計：護理師、照服員、社工師、營養師在同一平台協作，依職類標籤分區管理、AI 輔助照護紀錄，24 小時住民照護文件不遺漏。評鑑備審文件自動彙整，多職種分工清晰，提升整體照護品質。立即免費試用。",
   },
   twitter: {
-    title: "護理之家文書管理系統｜多職種同平台協作",
+    title: "護理之家 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作平台",
     description:
-      "報告汪專為護理之家設計：護理師、照服員、社工、營養師同平台協作，依職類標籤分區、AI 輔助照護紀錄，24 小時住民照護不遺漏。免費試用。",
+      "報告汪專為護理之家設計：護理師、照服員、社工師、營養師在同一平台協作，依職類標籤分區管理、AI 輔助照護紀錄，24 小時住民照護文件不遺漏。評鑑備審文件自動彙整，多職種分工清晰，提升整體照護品質。立即免費試用。",
   },
 };
 
@@ -367,7 +367,7 @@ export default function NursingHomePage() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/home-care" className="block group">
+            <Link href="/home-care" title="居服機構 AI 文書管理系統介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
@@ -385,7 +385,7 @@ export default function NursingHomePage() {
                 </CardContent>
               </Card>
             </Link>
-            <Link href="/hospital-nursing" className="block group">
+            <Link href="/hospital-nursing" title="醫院護理部 AI 文書管理系統介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
@@ -425,9 +425,9 @@ export default function NursingHomePage() {
           報告汪
         </div>
         <div className="flex items-center gap-6">
-          <Link href="/pricing" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" className="hover:text-primary transition-colors">註冊</Link>
+          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
+          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
+          <Link href="/auth/sign-up" title="免費試用報告汪護理之家方案" className="hover:text-primary transition-colors">註冊</Link>
         </div>
         <ThemeSwitcher />
       </footer>
