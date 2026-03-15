@@ -57,7 +57,7 @@ function PreviewContent() {
   const wordCount = doc.wordCount ?? current.split(/\s+/).filter(Boolean).length;
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-dvh">
       {/* Toolbar */}
       <div className="flex items-center justify-between px-4 py-2 border-b bg-background/95 backdrop-blur shrink-0">
         <div className="flex items-center gap-2">
@@ -70,7 +70,7 @@ function PreviewContent() {
           <span className="text-sm font-medium truncate max-w-[240px]">{doc.title}</span>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <span className="text-xs text-muted-foreground hidden sm:inline">
             {wordCount} words
           </span>

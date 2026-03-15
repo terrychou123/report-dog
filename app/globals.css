@@ -70,7 +70,7 @@
 /* Tiptap / ProseMirror 編輯器樣式 */
 .report-editor .ProseMirror {
   outline: none;
-  min-height: 500px;
+  min-height: 300px;
   padding: 1rem;
   font-size: 0.875rem;
   line-height: 1.75;
@@ -88,3 +88,6 @@
 .report-editor .ProseMirror th { border: 1px solid hsl(var(--border)); padding: 0.375rem 0.5rem; }
 .report-editor .ProseMirror th { background: hsl(var(--muted)); font-weight: 600; }
 .report-editor .ProseMirror blockquote { border-left: 3px solid hsl(var(--border)); padding-left: 0.75rem; color: hsl(var(--muted-foreground)); margin: 0.5rem 0; }
+@media (min-width: 768px) {
+  .report-editor .ProseMirror { min-height: 500px; }
+}

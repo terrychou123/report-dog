@@ -51,6 +51,9 @@ export async function updateSession(request: NextRequest) {
     request.nextUrl.pathname !== "/" &&
     request.nextUrl.pathname !== "/pricing" &&
     request.nextUrl.pathname !== "/ads.txt" &&
+    request.nextUrl.pathname !== "/home-care" &&
+    request.nextUrl.pathname !== "/hospital-nursing" &&
+    request.nextUrl.pathname !== "/nursing-home" &&
     !user &&
     !request.nextUrl.pathname.startsWith("/login") &&
     !request.nextUrl.pathname.startsWith("/auth")

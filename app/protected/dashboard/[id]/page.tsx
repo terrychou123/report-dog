@@ -53,7 +53,7 @@ function EditorContent() {
   if (!doc) return null;
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-dvh">
       {/* Toolbar */}
       <div className="flex items-center justify-between px-4 py-2 border-b bg-background/95 backdrop-blur">
         <div className="flex items-center gap-2">
@@ -65,13 +65,13 @@ function EditorContent() {
           <Separator orientation="vertical" className="h-5" />
           <span className="text-sm text-muted-foreground">Editor</span>
         </div>
-        <div className="flex gap-2">
-          <Button asChild variant="outline" size="sm">
+        <div className="flex gap-2 flex-wrap">
+          <Button asChild variant="outline" size="sm" className="hidden sm:inline-flex">
             <Link href={`/protected/dashboard/${id}/visualizations`}>
               <BarChart2 className="h-4 w-4 mr-1" /> Visualize
             </Link>
           </Button>
-          <Button asChild variant="outline" size="sm">
+          <Button asChild variant="outline" size="sm" className="hidden sm:inline-flex">
             <Link href={`/protected/dashboard/${id}/history`}>
               <History className="h-4 w-4 mr-1" /> History
             </Link>
@@ -90,9 +90,9 @@ function EditorContent() {
       </div>
 
       {/* Split pane */}
-      <div className="flex flex-1 overflow-hidden">
-        {/* Editor (60%) */}
-        <div className="flex-[3] p-4 overflow-auto border-r">
+      <div className="flex flex-col md:flex-row flex-1 overflow-hidden">
+        {/* Editor (60% desktop / full mobile) */}
+        <div className="flex-1 md:flex-[3] p-4 overflow-auto border-b md:border-b-0 md:border-r">
           <DocumentEditor
             docId={doc.id}
             initialTitle={doc.title}
@@ -101,8 +101,8 @@ function EditorContent() {
           />
         </div>
 
-        {/* AI Panel (40%) */}
-        <div className="flex-[2] p-4 overflow-auto">
+        {/* AI Panel (40% desktop / full mobile) */}
+        <div className="flex-1 md:flex-[2] p-4 overflow-auto">
           <h2 className="text-sm font-semibold mb-3 flex items-center gap-1.5">
             <span className="text-primary">✦</span> AI Assistant
           </h2>

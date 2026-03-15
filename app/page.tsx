@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Suspense } from "react";
-import { AuthButton } from "@/components/auth-button";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { Navbar } from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -96,30 +95,7 @@ export default function Home() {
           }),
         }}
       />
-      {/* Navbar */}
-      <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="max-w-6xl mx-auto flex h-16 items-center justify-between px-6">
-          <div className="flex items-center gap-8">
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <BotIcon className="h-6 w-6 text-primary" />
-              報告汪
-            </Link>
-            <div className="hidden md:flex items-center gap-6 text-sm">
-              <Link href="/" className="font-medium hover:text-primary transition-colors">
-                首頁
-              </Link>
-              <Link href="/pricing" className="text-muted-foreground hover:text-primary transition-colors">
-                價格
-              </Link>
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <Suspense fallback={<div className="h-8 w-20 rounded bg-muted animate-pulse" />}>
-              <AuthButton />
-            </Suspense>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero */}
       <section className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">

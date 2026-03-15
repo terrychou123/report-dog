@@ -3,7 +3,13 @@
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Edit, BarChart2, History, Trash2, FileCheck } from 'lucide-react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { Edit, BarChart2, History, Trash2, FileCheck, MoreHorizontal } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
@@ -60,30 +66,43 @@ export function DocumentCard({ doc }: { doc: Document }) {
         )}
       </CardHeader>
       <CardContent className="pt-0">
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 items-center">
           <Button asChild size="sm" variant="default">
             <Link href={`/protected/dashboard/${doc.id}`}>
               <Edit className="h-3 w-3 mr-1" /> Edit
             </Link>
           </Button>
-          <Button asChild size="sm" variant="outline">
-            <Link href={`/protected/dashboard/${doc.id}/visualizations`}>
-              <BarChart2 className="h-3 w-3 mr-1" /> Visualize
-            </Link>
-          </Button>
-          <Button asChild size="sm" variant="outline">
-            <Link href={`/protected/dashboard/${doc.id}/history`}>
-              <History className="h-3 w-3 mr-1" /> History
-            </Link>
-          </Button>
-          <Button asChild size="sm" variant="outline">
-            <Link href={`/protected/dashboard/${doc.id}/final`}>
-              <FileCheck className="h-3 w-3 mr-1" /> Final
-            </Link>
-          </Button>
-          <Button size="sm" variant="ghost" onClick={handleDelete} className="text-destructive hover:text-destructive">
-            <Trash2 className="h-3 w-3" />
-          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button size="sm" variant="outline">
+                <MoreHorizontal className="h-3 w-3" />
+                <span className="sr-only">更多操作</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start">
+              <DropdownMenuItem asChild>
+                <Link href={`/protected/dashboard/${doc.id}/visualizations`}>
+                  <BarChart2 className="h-3 w-3 mr-2" /> Visualize
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href={`/protected/dashboard/${doc.id}/history`}>
+                  <History className="h-3 w-3 mr-2" /> History
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href={`/protected/dashboard/${doc.id}/final`}>
+                  <FileCheck className="h-3 w-3 mr-2" /> Final
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                className="text-destructive focus:text-destructive"
+                onClick={handleDelete}
+              >
+                <Trash2 className="h-3 w-3 mr-2" /> Delete
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </CardContent>
     </Card>
