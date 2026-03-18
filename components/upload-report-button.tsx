@@ -67,28 +67,20 @@ export function UploadReportButton() {
     }
   }
 
-  // 上傳 Excel 並建立報告
+  // 上傳 Excel 並建立報告（server 端一步完成解析 + 建立，避免大型 JSON 超過 body 限制）
   async function handleExcelUpload() {
     if (!excelFile) return;
     setExcelUploading(true);
     try {
       const form = new FormData();
       form.append("file", excelFile);
-      const parseRes = await fetch("/api/excel/parse", { method: "POST", body: form });
-      if (!parseRes.ok) throw new Error("parse failed");
-      const { sheets } = await parseRes.json();
-      const title = excelFile.name.replace(/\.(xlsx|xls)$/i, "");
-      const res = await fetch("/api/reports", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title, content: JSON.stringify(sheets), fileType: "excel", insertAtTop: true }),
-      });
-      if (res.ok) {
-        toast.success("Excel 已上傳並建立報告");
-        onSuccess();
-      } else {
-        toast.error("建立報告失敗，請重試");
-      }
+      form.append("insertAtTop", "true");
+      const res = await fetch("/api/excel/parse", { method: "POST", body: form });
+      if (!res.ok) throw new Error("upload failed");
+      const { report } = await res.json();
+      if (!report) throw new Error("no report returned");
+      toast.success("Excel 已上傳並建立報告");
+      onSuccess();
     } catch {
       toast.error("檔案解析失敗，請確認為 .xlsx 或 .xls 格式");
     } finally {

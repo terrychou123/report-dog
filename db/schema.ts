@@ -82,3 +82,20 @@ export const clientReports = pgTable('client_reports', {
 }, (t) => ({
   uniqueClientReport: uniqueIndex('client_reports_client_id_report_id_idx').on(t.clientId, t.reportId),
 }));
+
+export const blogPosts = pgTable('blog_posts', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  slug: text('slug').notNull().unique(),
+  title: text('title').notNull(),
+  excerpt: text('excerpt'),
+  content: text('content'),
+  coverImageUrl: text('cover_image_url'),
+  category: text('category'),
+  tags: text('tags').array(),
+  status: text('status').notNull().default('draft'),
+  seoTitle: text('seo_title'),
+  seoDescription: text('seo_description'),
+  publishedAt: timestamp('published_at', { withTimezone: true }),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow(),
+});

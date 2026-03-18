@@ -106,7 +106,7 @@ async function SearchReportsList({ query }: { query: string }) {
               </Card>
             </a>
             <div className="absolute right-3 top-1/2 -translate-y-1/2">
-              <CopyReportButton reportId={report.id} title={report.title} />
+              <CopyReportButton reportId={report.id} />
             </div>
           </div>
         );

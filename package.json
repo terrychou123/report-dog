@@ -23,10 +23,12 @@
     "@tiptap/extension-table": "^3.20.0",
     "@tiptap/react": "^3.20.0",
     "@tiptap/starter-kit": "^3.20.0",
+    "@types/sanitize-html": "^2.16.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "drizzle-kit": "^0.31.9",
     "drizzle-orm": "^0.45.1",
+    "exceljs": "^4.4.0",
     "html-to-docx": "^1.8.0",
     "lucide-react": "^0.511.0",
     "mammoth": "^1.11.0",
@@ -38,9 +40,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^3.7.0",
+    "sanitize-html": "^2.17.1",
     "sonner": "^2.0.7",
-    "tailwind-merge": "^3.3.0",
-    "xlsx": "^0.18.5"
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

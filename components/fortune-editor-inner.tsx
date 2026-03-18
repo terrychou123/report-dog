@@ -21,6 +21,7 @@ type SheetData = {
     merge?: Record<string, { r: number; c: number; rs: number; cs: number }>;
     borderInfo?: unknown[];
   };
+  cellStyles?: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }>;
 };
 
 function normalizeInitialData(raw: unknown): SheetData[] {
@@ -55,24 +56,48 @@ function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
               ? { r: mg.r, c: mg.c, rs: mg.rs, cs: mg.cs }
               : { r: mg.r, c: mg.c }
             : undefined;
-          return { r, c, v: { v: val, m: String(val), ...(mc ? { mc } : {}) } };
+          const style = s.cellStyles?.[`${r}_${c}`];
+          const fc = style?.fc;
+          const bg = style?.bg;
+          const ht = style?.ht;
+          const vt = style?.vt;
+          return { r, c, v: { v: val, m: String(val), ...(mc ? { mc } : {}), ...(fc ? { fc } : {}), ...(bg ? { bg } : {}), ...(ht != null ? { ht } : {}), ...(vt != null ? { vt } : {}) } };
         })
       ),
     };
   });
 }
 
+type FsCell = { m?: unknown; v?: unknown; fc?: string; bg?: string; ht?: number; vt?: number } | null | undefined;
+
+function extractCellStyles(cell: FsCell): { fc?: string; bg?: string; ht?: number; vt?: number } | null {
+  if (!cell) return null;
+  const s: { fc?: string; bg?: string; ht?: number; vt?: number } = {};
+  if (cell.fc) s.fc = cell.fc;
+  if (cell.bg) s.bg = cell.bg;
+  if (cell.ht != null) s.ht = cell.ht;
+  if (cell.vt != null) s.vt = cell.vt;
+  return Object.keys(s).length ? s : null;
+}
+
 function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
   return sheets.map((sheet) => {
     // FortuneSheet 內部使用 sheet.data（2D 陣列），onChange 回傳時 celldata 為空
     if (sheet.data && sheet.data.length > 0) {
-      const grid: string[][] = (sheet.data as Array<Array<{ m?: unknown; v?: unknown } | null | undefined>>).map(
-        (row) => (row ?? []).map((cell) => String(cell?.m ?? cell?.v ?? ""))
-      );
+      const rows = sheet.data as Array<Array<FsCell>>;
+      const grid: string[][] = rows.map((row) => (row ?? []).map((cell) => String(cell?.m ?? cell?.v ?? "")));
+      const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
+      rows.forEach((row, r) => {
+        (row ?? []).forEach((cell, c) => {
+          const s = extractCellStyles(cell);
+          if (s) cellStyles[`${r}_${c}`] = s;
+        });
+      });
       return {
         name: sheet.name ?? "Sheet1",
         data: grid,
         ...(sheet.config ? { config: sheet.config as SheetData['config'] } : {}),
+        ...(Object.keys(cellStyles).length ? { cellStyles } : {}),
       };
     }
     // fallback：celldata sparse format（初始渲染前）
@@ -81,13 +106,17 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
     const maxR = Math.max(...celldata.map((c) => c.r));
     const maxC = Math.max(...celldata.map((c) => c.c));
     const grid: string[][] = Array.from({ length: maxR + 1 }, () => Array(maxC + 1).fill(""));
+    const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
     for (const cell of celldata) {
       grid[cell.r][cell.c] = String(cell.v?.m ?? cell.v?.v ?? "");
+      const s = extractCellStyles(cell.v as FsCell);
+      if (s) cellStyles[`${cell.r}_${cell.c}`] = s;
     }
     return {
       name: sheet.name ?? "Sheet1",
       data: grid,
       ...(sheet.config ? { config: sheet.config as SheetData['config'] } : {}),
+      ...(Object.keys(cellStyles).length ? { cellStyles } : {}),
     };
   });
 }
@@ -275,7 +304,7 @@ export default function FortuneEditorInner({
             ref={workbookRef}
             data={sheetsRef.current}
             onChange={handleChange}
-            lang="zh_CN"
+            lang="zh-TW"
           />
         )}
         {!mounted && (

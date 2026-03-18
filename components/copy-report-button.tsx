@@ -2,18 +2,18 @@
 
 import { CopyIcon } from "lucide-react";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 export function CopyReportButton({
   reportId,
-  title,
   onCopied,
 }: {
   reportId: string;
-  title: string;
   onCopied?: () => void;
 }) {
   const [copying, setCopying] = useState(false);
+  const router = useRouter();
 
   const handleCopy = async (e: React.MouseEvent) => {
     e.preventDefault();
@@ -21,44 +21,15 @@ export function CopyReportButton({
     if (copying) return;
     setCopying(true);
     try {
-      const [reportRes, tagsRes] = await Promise.all([
-        fetch(`/api/reports/${reportId}`),
-        fetch(`/api/tag-reports?reportId=${reportId}`),
-      ]);
-      const report = await reportRes.json();
-      const tags: { clientId: string }[] = tagsRes.ok ? await tagsRes.json() : [];
-
-      const newReportRes = await fetch("/api/reports", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          title: `${title} 複製`,
-          content: report.content,
-          fileType: report.fileType,
-          insertAtTop: true,
-        }),
-      });
-      if (!newReportRes.ok) {
+      const res = await fetch(`/api/reports/${reportId}/copy`, { method: "POST" });
+      if (!res.ok) {
         toast.error("複製失敗，請重試");
         return;
       }
-      const newReport = await newReportRes.json();
-
-      if (tags.length > 0) {
-        await Promise.all(
-          tags.map((t) =>
-            fetch("/api/tag-reports", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ clientId: t.clientId, reportId: newReport.id }),
-            })
-          )
-        );
-      }
-
       toast.success("報告已複製");
       window.dispatchEvent(new CustomEvent("reports-updated"));
       onCopied?.();
+      if (!onCopied) router.refresh();
     } finally {
       setCopying(false);
     }
