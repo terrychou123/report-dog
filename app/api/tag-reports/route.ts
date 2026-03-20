@@ -2,23 +2,28 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { clientReports, reports, clients } from "@/db/schema";
-import { eq, and, max } from "drizzle-orm";
+import { eq, and, max, or, sql } from "drizzle-orm";
+import { canViewTag, canEditTag } from "@/lib/auth/tag-permissions";
 
 export async function GET(req: NextRequest) {
   const supabase = await createClient();
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
+  const userId = data.claims.sub;
+
   const clientId = req.nextUrl.searchParams.get("clientId");
   const reportId = req.nextUrl.searchParams.get("reportId");
 
   if (clientId) {
-    // Verify client belongs to user
     const [client] = await db
-      .select()
+      .select({ id: clients.id, userId: clients.userId, viewers: clients.viewers, editors: clients.editors })
       .from(clients)
-      .where(and(eq(clients.id, clientId), eq(clients.userId, data.claims.sub)));
-    if (!client) return NextResponse.json({ error: "Not found" }, { status: 404 });
+      .where(eq(clients.id, clientId));
+
+    if (!client || !canViewTag(userId, client)) {
+      return NextResponse.json({ error: "Not found" }, { status: 404 });
+    }
 
     const rows = await db
       .select({
@@ -38,12 +43,32 @@ export async function GET(req: NextRequest) {
   }
 
   if (reportId) {
-    // Verify report belongs to user
+    // Verify report is accessible
     const [report] = await db
-      .select()
+      .select({ id: reports.id, userId: reports.userId })
       .from(reports)
-      .where(and(eq(reports.id, reportId), eq(reports.userId, data.claims.sub)));
+      .where(eq(reports.id, reportId));
+
     if (!report) return NextResponse.json({ error: "Not found" }, { status: 404 });
+
+    const isOwner = report.userId === userId;
+    if (!isOwner) {
+      // Check if user has access via any shared tag
+      const [sharedTag] = await db
+        .select({ id: clients.id })
+        .from(clientReports)
+        .innerJoin(clients, eq(clientReports.clientId, clients.id))
+        .where(
+          and(
+            eq(clientReports.reportId, reportId),
+            or(
+              sql`${userId} = ANY(${clients.viewers})`,
+              sql`${userId} = ANY(${clients.editors})`
+            )
+          )
+        );
+      if (!sharedTag) return NextResponse.json({ error: "Not found" }, { status: 404 });
+    }
 
     const rows = await db
       .select({
@@ -54,7 +79,16 @@ export async function GET(req: NextRequest) {
       })
       .from(clientReports)
       .innerJoin(clients, eq(clientReports.clientId, clients.id))
-      .where(and(eq(clientReports.reportId, reportId), eq(clients.userId, data.claims.sub)));
+      .where(
+        and(
+          eq(clientReports.reportId, reportId),
+          or(
+            eq(clients.userId, userId),
+            sql`${userId} = ANY(${clients.viewers})`,
+            sql`${userId} = ANY(${clients.editors})`
+          )
+        )
+      );
 
     return NextResponse.json(rows);
   }
@@ -67,6 +101,8 @@ export async function POST(req: NextRequest) {
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
+  const userId = data.claims.sub;
+
   const body = await req.json();
   const { clientId, reportId } = body;
 
@@ -74,19 +110,41 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "clientId and reportId are required" }, { status: 400 });
   }
 
-  // Verify client belongs to user
+  // Verify client is accessible and user can edit it
   const [client] = await db
-    .select()
+    .select({ id: clients.id, userId: clients.userId, viewers: clients.viewers, editors: clients.editors })
     .from(clients)
-    .where(and(eq(clients.id, clientId), eq(clients.userId, data.claims.sub)));
-  if (!client) return NextResponse.json({ error: "Client not found" }, { status: 404 });
+    .where(eq(clients.id, clientId));
 
-  // Verify report belongs to user
+  if (!client || !canEditTag(userId, client)) {
+    return NextResponse.json({ error: "Client not found or forbidden" }, { status: 404 });
+  }
+
+  // Verify report is accessible to user
   const [report] = await db
-    .select()
+    .select({ id: reports.id, userId: reports.userId })
     .from(reports)
-    .where(and(eq(reports.id, reportId), eq(reports.userId, data.claims.sub)));
+    .where(eq(reports.id, reportId));
+
   if (!report) return NextResponse.json({ error: "Report not found" }, { status: 404 });
+
+  const isReportOwner = report.userId === userId;
+  if (!isReportOwner) {
+    const [sharedTag] = await db
+      .select({ id: clients.id })
+      .from(clientReports)
+      .innerJoin(clients, eq(clientReports.clientId, clients.id))
+      .where(
+        and(
+          eq(clientReports.reportId, reportId),
+          or(
+            sql`${userId} = ANY(${clients.viewers})`,
+            sql`${userId} = ANY(${clients.editors})`
+          )
+        )
+      );
+    if (!sharedTag) return NextResponse.json({ error: "Report not found" }, { status: 404 });
+  }
 
   // Check if already associated
   const [existing] = await db
@@ -96,7 +154,6 @@ export async function POST(req: NextRequest) {
 
   if (existing) return NextResponse.json(existing, { status: 200 });
 
-  // Calculate next sortOrder for this client
   const [maxRow] = await db
     .select({ max: max(clientReports.sortOrder) })
     .from(clientReports)

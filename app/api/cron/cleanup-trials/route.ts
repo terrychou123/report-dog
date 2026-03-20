@@ -18,16 +18,22 @@ export async function GET(req: NextRequest) {
 
   const adminClient = createAdminClient(url, serviceRoleKey);
 
-  // Fetch all existing auth user IDs
-  const { data: usersData, error: listError } = await adminClient.auth.admin.listUsers({
-    perPage: 1000,
-  });
-  if (listError) {
-    console.error("Failed to list users:", listError.message);
-    return NextResponse.json({ error: "Failed to list users" }, { status: 500 });
+  // Fetch all existing auth user IDs (paginate to handle > 1000 users)
+  const existingUserIds: string[] = [];
+  let page = 1;
+  while (true) {
+    const { data: usersData, error: listError } = await adminClient.auth.admin.listUsers({
+      perPage: 1000,
+      page,
+    });
+    if (listError) {
+      console.error("Failed to list users:", listError.message);
+      return NextResponse.json({ error: "Failed to list users" }, { status: 500 });
+    }
+    usersData.users.forEach((u) => existingUserIds.push(u.id));
+    if (usersData.users.length < 1000) break;
+    page++;
   }
-
-  const existingUserIds = usersData.users.map((u) => u.id);
 
   if (existingUserIds.length === 0) {
     // No users at all — delete everything

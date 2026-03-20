@@ -194,8 +194,8 @@ export default function TagPage() {
 
   useEffect(() => {
     fetch("/api/tags")
-      .then((r) => r.json())
-      .then((data) => { setClients(data); setLoading(false); })
+      .then((r) => { if (!r.ok) throw new Error("fetch failed"); return r.json(); })
+      .then((data) => { setClients(Array.isArray(data) ? data : []); setLoading(false); })
       .catch(() => setLoading(false));
   }, []);
 

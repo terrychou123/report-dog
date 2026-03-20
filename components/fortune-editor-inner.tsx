@@ -47,7 +47,21 @@ function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
     return {
       name: s.name,
       status: i === 0 ? 1 : 0,
-      config: s.config as Sheet['config'],
+      config: (() => {
+        const cfg = s.config as Sheet['config'] & { borderInfo?: Array<{ value?: Record<string, unknown> }> };
+        if (cfg?.borderInfo) {
+          for (const entry of cfg.borderInfo) {
+            if (entry.value) {
+              for (const side of ["t", "l", "b", "r"]) {
+                if (typeof entry.value[side] === "number") {
+                  entry.value[side] = { style: entry.value[side], color: "#000000" };
+                }
+              }
+            }
+          }
+        }
+        return cfg;
+      })(),
       celldata: s.data.flatMap((row, r) =>
         row.map((val, c) => {
           const mg = mergeMap.get(`${r}_${c}`);
@@ -132,8 +146,8 @@ export default function FortuneEditorInner({
   const workbookRef = useRef<React.ElementRef<typeof Workbook>>(null);
 
   const [mounted, setMounted] = useState(false);
-  const [saving, setSaving] = useState(false);
-  const [downloading, setDownloading] = useState(false);
+  const [, setSaving] = useState(false);
+  const [, setDownloading] = useState(false);
 
   // AI dialog state
   const [aiDialogOpen, setAiDialogOpen] = useState(false);

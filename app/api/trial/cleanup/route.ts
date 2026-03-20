@@ -1,18 +1,11 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createClient as createAdminClient } from "@supabase/supabase-js";
 import { db } from "@/db";
 import { clients, kinds, reports } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
-export async function POST(req: NextRequest) {
-  // Same-origin check: cross-origin requests include an Origin header
-  const origin = req.headers.get("origin");
-  const host = req.headers.get("host");
-  if (origin && host && !origin.includes(host)) {
-    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
-  }
-
+export async function POST() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 

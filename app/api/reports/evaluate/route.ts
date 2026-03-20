@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { db } from '@/db';
-import { reports } from '@/db/schema';
-import { eq, and, inArray } from 'drizzle-orm';
+import { reports, clients, clientReports } from '@/db/schema';
+import { eq, and, inArray, or, sql } from 'drizzle-orm';
 import OpenAI from 'openai';
+import { processContent } from '@/lib/ai/content-utils';
 
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
@@ -26,36 +27,6 @@ const SYSTEM_PROMPT = `你是一位專業的長照評估專家。你將收到來
 - 條列清楚，結構化呈現
 - 提供具體可行的建議`;
 
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-}
-
-function excelJsonToText(jsonStr: string): string {
-  try {
-    const data = JSON.parse(jsonStr);
-    if (Array.isArray(data)) {
-      return data
-        .map((row: Record<string, unknown>) =>
-          Object.entries(row)
-            .map(([k, v]) => `${k}: ${v}`)
-            .join('、')
-        )
-        .join('\n');
-    }
-    return JSON.stringify(data, null, 2);
-  } catch {
-    return jsonStr;
-  }
-}
-
-function processContent(content: string | null, fileType: string | null): string {
-  if (!content) return '';
-  const type = fileType?.toLowerCase() ?? '';
-  if (type === 'word' || type === 'docx') return stripHtml(content);
-  if (type === 'excel' || type === 'xlsx' || type === 'csv') return excelJsonToText(content);
-  return content;
-}
-
 export async function POST(req: NextRequest) {
   const supabase = await createClient();
   const { data } = await supabase.auth.getClaims();
@@ -67,10 +38,46 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: '請提供 2 至 10 份報告 ID' }, { status: 400 });
   }
 
-  const reportList = await db
+  // Fetch reports accessible to the user (own + shared via tags)
+  const ownReports = await db
     .select()
     .from(reports)
     .where(and(inArray(reports.id, reportIds), eq(reports.userId, userId)));
+
+  const sharedReports = await db
+    .selectDistinct({
+      id: reports.id,
+      userId: reports.userId,
+      lastEditedByUserId: reports.lastEditedByUserId,
+      title: reports.title,
+      content: reports.content,
+      fileType: reports.fileType,
+      fileUrl: reports.fileUrl,
+      sortOrder: reports.sortOrder,
+      createdAt: reports.createdAt,
+      updatedAt: reports.updatedAt,
+    })
+    .from(reports)
+    .innerJoin(clientReports, eq(clientReports.reportId, reports.id))
+    .innerJoin(clients, eq(clientReports.clientId, clients.id))
+    .where(
+      and(
+        inArray(reports.id, reportIds),
+        or(
+          sql`${userId} = ANY(${clients.viewers})`,
+          sql`${userId} = ANY(${clients.editors})`
+        )
+      )
+    );
+
+  const seen = new Set<string>(ownReports.map((r) => r.id));
+  const reportList = [...ownReports];
+  for (const r of sharedReports) {
+    if (!seen.has(r.id)) {
+      seen.add(r.id);
+      reportList.push(r);
+    }
+  }
 
   if (reportList.length < 2) {
     return NextResponse.json({ error: '找不到足夠的報告' }, { status: 404 });

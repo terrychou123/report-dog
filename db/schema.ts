@@ -1,10 +1,14 @@
 import { pgTable, uuid, text, boolean, integer, timestamp, jsonb, varchar, uniqueIndex } from 'drizzle-orm/pg-core';
 
+// ─── Core Tables ─────────────────────────────────────────────────────────────
+
 export const clients = pgTable('clients', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: text('user_id').notNull(),
   nickname: varchar('nickname', { length: 100 }).notNull(),
   description: text('description'),
+  viewers: text('viewers').array().notNull().default([]),
+  editors: text('editors').array().notNull().default([]),
   sortOrder: integer('sort_order').default(0).notNull(),
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
@@ -13,6 +17,7 @@ export const clients = pgTable('clients', {
 export const reports = pgTable('reports', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: text('user_id').notNull(),
+  lastEditedByUserId: text('last_edited_by_user_id'),
   title: varchar('title', { length: 255 }).notNull(),
   content: text('content'),
   fileType: varchar('file_type', { length: 10 }),

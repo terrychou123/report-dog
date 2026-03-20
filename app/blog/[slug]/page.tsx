@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq } from "drizzle-orm";
@@ -81,11 +82,13 @@ export default async function BlogPostPage({ params }: Props) {
       <article className="min-h-screen bg-background">
         {/* Hero / Cover */}
         {post.coverImageUrl && (
-          <div className="w-full h-64 md:h-96 overflow-hidden">
-            <img
+          <div className="w-full h-64 md:h-96 overflow-hidden relative">
+            <Image
               src={post.coverImageUrl}
               alt={post.title}
-              className="w-full h-full object-cover"
+              fill
+              sizes="100vw"
+              className="object-cover"
             />
           </div>
         )}

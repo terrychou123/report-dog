@@ -3,11 +3,14 @@ import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { clientReports, clients } from "@/db/schema";
 import { eq, and } from "drizzle-orm";
+import { canEditTag } from "@/lib/auth/tag-permissions";
 
 export async function PUT(req: NextRequest) {
   const supabase = await createClient();
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const userId = data.claims.sub;
 
   const body = await req.json();
   const { clientId, ids } = body as { clientId: string; ids: string[] };
@@ -15,16 +18,17 @@ export async function PUT(req: NextRequest) {
   if (!clientId || !Array.isArray(ids)) {
     return NextResponse.json({ error: "clientId and ids are required" }, { status: 400 });
   }
-  if (ids.length === 0) {
-    return NextResponse.json({ ok: true });
-  }
+  if (ids.length === 0) return NextResponse.json({ ok: true });
 
-  // Verify client belongs to user
+  // Verify client is accessible and user can edit it
   const [client] = await db
-    .select()
+    .select({ id: clients.id, userId: clients.userId, viewers: clients.viewers, editors: clients.editors })
     .from(clients)
-    .where(and(eq(clients.id, clientId), eq(clients.userId, data.claims.sub)));
-  if (!client) return NextResponse.json({ error: "Not found" }, { status: 404 });
+    .where(eq(clients.id, clientId));
+
+  if (!client || !canEditTag(userId, client)) {
+    return NextResponse.json({ error: "Not found or forbidden" }, { status: 404 });
+  }
 
   await Promise.all(
     ids.map((relationId, index) =>

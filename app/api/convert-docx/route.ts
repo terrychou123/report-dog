@@ -1,7 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import JSZip from "jszip";
+import { createClient } from "@/lib/supabase/server";
 
 export async function POST(req: NextRequest) {
+  const supabase = await createClient();
+  const { data } = await supabase.auth.getClaims();
+  if (!data?.claims) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const { html, filename } = await req.json();
 
   const htmlToDocx = (await import("html-to-docx")).default;

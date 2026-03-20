@@ -14,7 +14,7 @@ type SheetData = {
     merge?: Record<string, { r: number; c: number; rs: number; cs: number }>;
     borderInfo?: unknown[];
   };
-  cellStyles?: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }>;
+  cellStyles?: Record<string, { ht?: number; vt?: number }>;
 };
 
 const BORDER_LIMIT = 5000;
@@ -30,6 +30,7 @@ function argbToHex(argb: string | undefined): string | undefined {
   const rgb = argb.length === 8 ? argb.slice(2) : argb;
   return rgb.toUpperCase();
 }
+
 
 export async function POST(req: NextRequest) {
   const supabase = await createClient();
@@ -72,7 +73,7 @@ export async function POST(req: NextRequest) {
     // 資料 + 樣式
     const data: string[][] = [];
     const rowlen: Record<string, number> = {};
-    const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
+    const cellStyles: Record<string, { ht?: number; vt?: number }> = {};
     const borderInfo: unknown[] = [];
 
     worksheet.eachRow({ includeEmpty: true }, (row, rowNumber) => {
@@ -106,7 +107,7 @@ export async function POST(req: NextRequest) {
         data[r][c] = val;
 
         // 對齊
-        const styleEntry: { fc?: string; bg?: string; ht?: number; vt?: number } = {};
+        const styleEntry: { ht?: number; vt?: number } = {};
         const h = cell.alignment?.horizontal;
         if (h === "center" || h === "centerContinuous") styleEntry.ht = 0;
         else if (h === "left" || h === "fill") styleEntry.ht = 1;
@@ -117,30 +118,7 @@ export async function POST(req: NextRequest) {
         else if (v === "top") styleEntry.vt = 1;
         else if (v === "bottom") styleEntry.vt = 2;
 
-        // 字型顏色
-        const fontArgb = cell.font?.color?.argb;
-        if (fontArgb) {
-          const alpha = fontArgb.length === 8 ? fontArgb.slice(0, 2) : "FF";
-          const rgb = argbToHex(fontArgb);
-          if (rgb && rgb !== "000000" && alpha !== "00") {
-            styleEntry.fc = `#${rgb}`;
-          }
-        }
-
-        // 背景色
-        const fill = cell.fill as ExcelJS.FillPattern | undefined;
-        if (fill?.type === "pattern" && fill.pattern !== "none") {
-          const bgArgb = fill.fgColor?.argb;
-          if (bgArgb) {
-            const alpha = bgArgb.length === 8 ? bgArgb.slice(0, 2) : "FF";
-            const rgb = argbToHex(bgArgb);
-            if (rgb && rgb !== "FFFFFF" && alpha !== "00") {
-              styleEntry.bg = `#${rgb}`;
-            }
-          }
-        }
-
-        if (styleEntry.fc || styleEntry.bg || styleEntry.ht != null || styleEntry.vt != null) {
+        if (styleEntry.ht != null || styleEntry.vt != null) {
           cellStyles[`${r}_${c}`] = styleEntry;
         }
 
@@ -152,8 +130,7 @@ export async function POST(req: NextRequest) {
             if (!bs?.style) continue;
             const style = excelBorderStyleMap[bs.style] ?? 1;
             const color = bs.color?.argb ? `#${argbToHex(bs.color.argb) ?? "000000"}` : "#000000";
-            (entry.value as Record<string, unknown>)[fsSide] =
-              style === 1 && color === "#000000" ? 1 : { style, color };
+            (entry.value as Record<string, unknown>)[fsSide] = { style, color };
           }
           if (Object.keys(entry.value as object).length > 2) {
             borderInfo.push(entry);
@@ -177,12 +154,14 @@ export async function POST(req: NextRequest) {
   });
 
   const userId = data.claims.sub;
+  const whereClause = eq(reports.userId, userId);
+
   let nextOrder: number;
   if (insertAtTop) {
-    const [minRow] = await db.select({ min: min(reports.sortOrder) }).from(reports).where(eq(reports.userId, userId));
+    const [minRow] = await db.select({ min: min(reports.sortOrder) }).from(reports).where(whereClause);
     nextOrder = Number(minRow?.min ?? 0) - 1;
   } else {
-    const [maxRow] = await db.select({ max: max(reports.sortOrder) }).from(reports).where(eq(reports.userId, userId));
+    const [maxRow] = await db.select({ max: max(reports.sortOrder) }).from(reports).where(whereClause);
     nextOrder = Number(maxRow?.max ?? -1) + 1;
   }
 
