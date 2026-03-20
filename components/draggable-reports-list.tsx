@@ -18,14 +18,12 @@ import {
 import {
   FileTextIcon,
   TagIcon,
-  SparklesIcon,
   ClipboardListIcon,
   TrashIcon,
   CopyIcon,
   LoaderIcon,
 } from "lucide-react";
 import { FileTypeIcon } from "@/components/file-type-icon";
-import { CrossReportEvaluation } from "@/components/cross-report-evaluation";
 import { EvaluationPanel } from "@/components/evaluation-panel";
 import { toast } from "sonner";
 
@@ -94,7 +92,6 @@ export function DraggableReportsList() {
   const [reportList, setReportList] = useState<Report[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
-  const [evaluationOpen, setEvaluationOpen] = useState(false);
   const [accreditationOpen, setAccreditationOpen] = useState(false);
   const [confirmAction, setConfirmAction] = useState<null | "copy" | "delete">(null);
   const [batchLoading, setBatchLoading] = useState(false);
@@ -257,15 +254,6 @@ export function DraggableReportsList() {
 
           <Button
             size="sm"
-            disabled={selectedIds.size < 2}
-            onClick={() => setEvaluationOpen(true)}
-          >
-            <SparklesIcon className="h-4 w-4 mr-1" />
-            AI 一致性分析
-          </Button>
-
-          <Button
-            size="sm"
             variant="outline"
             onClick={() => setAccreditationOpen(true)}
           >
@@ -336,13 +324,6 @@ export function DraggableReportsList() {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
-
-      <CrossReportEvaluation
-        open={evaluationOpen}
-        onOpenChange={setEvaluationOpen}
-        reportIds={Array.from(selectedIds)}
-        reportTitles={selectedTitles}
-      />
 
       <EvaluationPanel
         open={accreditationOpen}

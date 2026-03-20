@@ -12,6 +12,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 import { CheckIcon, LoaderIcon, SaveIcon } from "lucide-react";
 import { toast } from "sonner";
 
@@ -29,6 +31,7 @@ type Props = {
 
 export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, onSaved }: Props) {
   const [profileId, setProfileId] = useState("daycare");
+  const [includeConsistency, setIncludeConsistency] = useState(false);
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -49,7 +52,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
         const res = await fetch("/api/reports/evaluation", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ reportIds, profileId }),
+          body: JSON.stringify({ reportIds, profileId, includeConsistency }),
           signal: controller.signal,
         });
 
@@ -130,30 +133,46 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
           ))}
         </div>
 
-        <div className="flex items-center gap-3">
-          <Select value={profileId} onValueChange={setProfileId} disabled={loading}>
-            <SelectTrigger className="w-48">
-              <SelectValue placeholder="選擇評鑑類型" />
-            </SelectTrigger>
-            <SelectContent>
-              {PROFILES.map((p) => (
-                <SelectItem key={p.id} value={p.id}>
-                  {p.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-3">
+            <Select value={profileId} onValueChange={setProfileId} disabled={loading}>
+              <SelectTrigger className="w-48">
+                <SelectValue placeholder="選擇評鑑類型" />
+              </SelectTrigger>
+              <SelectContent>
+                {PROFILES.map((p) => (
+                  <SelectItem key={p.id} value={p.id}>
+                    {p.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
 
-          <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1} size="sm">
-            {loading ? (
-              <>
-                <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
-                分析中...
-              </>
-            ) : (
-              "開始分析"
-            )}
-          </Button>
+            <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1} size="sm">
+              {loading ? (
+                <>
+                  <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
+                  分析中...
+                </>
+              ) : (
+                "開始分析"
+              )}
+            </Button>
+          </div>
+
+          {reportIds.length >= 2 && (
+            <div className="flex items-center gap-2">
+              <Checkbox
+                id="include-consistency"
+                checked={includeConsistency}
+                onCheckedChange={(checked) => setIncludeConsistency(checked === true)}
+                disabled={loading}
+              />
+              <Label htmlFor="include-consistency" className="text-sm font-normal cursor-pointer">
+                同時檢查報告間一致性
+              </Label>
+            </div>
+          )}
         </div>
 
         <ScrollArea className="flex-1 min-h-0 rounded-md border p-4">

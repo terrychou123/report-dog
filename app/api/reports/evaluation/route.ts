@@ -67,7 +67,7 @@ export async function POST(req: NextRequest) {
   const userId = data?.claims?.sub;
   if (!userId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const { reportIds, profileId } = await req.json();
+  const { reportIds, profileId, includeConsistency } = await req.json();
   if (!Array.isArray(reportIds) || reportIds.length < 1 || reportIds.length > 50) {
     return NextResponse.json({ error: '請提供 1 至 50 份報告 ID' }, { status: 400 });
   }
@@ -125,6 +125,10 @@ export async function POST(req: NextRequest) {
 
   if (reportList.length < 1) {
     return NextResponse.json({ error: '找不到報告' }, { status: 404 });
+  }
+
+  if (includeConsistency === true && reportList.length >= 2) {
+    systemPrompt += `\n\n## 六、報告間一致性檢查\n針對多份報告之間進行交叉比對：\n- 矛盾之處：不同報告中互相矛盾或衝突的內容\n- 缺漏之處：某份報告提及但其他報告未跟進的重要資訊\n- 不一致之處：邏輯上應相互呼應但不一致的內容\n- 一致之處：各報告之間良好銜接的部分`;
   }
 
   const MAX_PER_REPORT = 8000;
