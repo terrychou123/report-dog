@@ -13,6 +13,15 @@ export async function updateSession(request: NextRequest) {
     return supabaseResponse;
   }
 
+  // 攔截首頁的 auth code，轉發到 /auth/confirm
+  // 當 Supabase Dashboard 的 Redirect URLs 未包含 /auth/confirm 時，
+  // Supabase 會回退到 Site URL（根 /），此處將 code 轉發至正確的處理路由。
+  if (request.nextUrl.pathname === "/" && request.nextUrl.searchParams.has("code")) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/auth/confirm";
+    return NextResponse.redirect(url);
+  }
+
   // With Fluid compute, don't put this client in a global environment
   // variable. Always create a new one on each request.
   const supabase = createServerClient(
