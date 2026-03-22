@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { reports, clients, clientReports } from "@/db/schema";
-import { eq, and, or, sql } from "drizzle-orm";
+import { reports, clients, clientReports, reportRevisions } from "@/db/schema";
+import { eq, and, or, sql, desc } from "drizzle-orm";
 
 async function canAccessReport(reportId: string, userId: string): Promise<boolean> {
   const [report] = await db
@@ -80,7 +80,9 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ id:
     if (!hasAccess) return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
-  return NextResponse.json(report);
+  const isOwner = report.userId === userId;
+  const canEdit = isOwner || await canEditReport(id, userId);
+  return NextResponse.json({ ...report, canEdit, isOwner });
 }
 
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
@@ -96,6 +98,32 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
 
   const body = await req.json();
   const { title, content } = body;
+
+  // 儲存前先建立版本快照（內容有變更時才建立）
+  const [current] = await db
+    .select({ title: reports.title, content: reports.content, fileType: reports.fileType })
+    .from(reports)
+    .where(eq(reports.id, id));
+  const newTitle = title?.trim() ?? current?.title;
+  const newContent = content !== undefined ? content : current?.content;
+  const hasChanges = current && (newTitle !== current.title || newContent !== current.content);
+  if (hasChanges) {
+    const [lastRevision] = await db
+      .select({ versionNumber: reportRevisions.versionNumber })
+      .from(reportRevisions)
+      .where(eq(reportRevisions.reportId, id))
+      .orderBy(desc(reportRevisions.versionNumber))
+      .limit(1);
+    const nextVersion = (lastRevision?.versionNumber ?? 0) + 1;
+    await db.insert(reportRevisions).values({
+      reportId: id,
+      userId,
+      title: current.title,
+      content: current.content,
+      fileType: current.fileType,
+      versionNumber: nextVersion,
+    });
+  }
 
   const [updated] = await db
     .update(reports)

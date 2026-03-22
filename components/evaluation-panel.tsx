@@ -13,9 +13,14 @@ import {
 } from "@/components/ui/select";
 import { CheckIcon, LoaderIcon, SaveIcon } from "lucide-react";
 import { toast } from "sonner";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { marked } from "marked";
 
 const PROFILES = [
-  { id: "daycare", label: "日間照顧中心" },
+  { id: "daycare", label: "日間照顧中心", ready: true },
+  { id: "nursing-home", label: "護理之家（即將推出）", ready: false },
+  { id: "hospital-nursing", label: "醫院護理部（即將推出）", ready: false },
 ];
 
 type Props = {
@@ -28,6 +33,7 @@ type Props = {
 
 export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, onSaved }: Props) {
   const [profileId, setProfileId] = useState("daycare");
+  const selectedProfile = PROFILES.find((p) => p.id === profileId);
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -98,10 +104,11 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
     setSaving(true);
     try {
       const date = new Date().toLocaleDateString("zh-TW", { year: "numeric", month: "2-digit", day: "2-digit" });
+      const htmlContent = await marked.parse(result);
       const res = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: `報告分析 - ${date}`, content: result, insertAtTop: true }),
+        body: JSON.stringify({ title: `報告分析 - ${date}`, content: htmlContent, insertAtTop: true }),
       });
       if (!res.ok) throw new Error("儲存失敗");
       setSaved(true);
@@ -143,7 +150,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
             </SelectContent>
           </Select>
 
-          <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1}>
+          <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1 || !selectedProfile?.ready}>
             {loading ? (
               <>
                 <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
@@ -163,7 +170,9 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
             </div>
           )}
           {result && (
-            <p className="text-sm whitespace-pre-wrap leading-relaxed">{result}</p>
+            <div className="prose prose-sm dark:prose-invert max-w-none">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{result}</ReactMarkdown>
+            </div>
           )}
           {!loading && !result && (
             <p className="text-sm text-muted-foreground">選擇評鑑類型後點擊「開始分析」。</p>

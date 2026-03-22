@@ -1,0 +1,117 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { HistoryIcon, RotateCcwIcon } from "lucide-react";
+import { toast } from "sonner";
+
+type Revision = {
+  id: string;
+  versionNumber: number;
+  title: string;
+  userId: string;
+  createdAt: string;
+};
+
+type Props = {
+  reportId: string;
+  canRestore: boolean;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  onRestored: (content: string | null, title: string) => void;
+};
+
+export function ReportHistoryPanel({ reportId, canRestore, open, onOpenChange, onRestored }: Props) {
+  const [revisions, setRevisions] = useState<Revision[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [restoringId, setRestoringId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const controller = new AbortController();
+    setLoading(true);
+    fetch(`/api/reports/${reportId}/revisions`, { signal: controller.signal })
+      .then((r) => r.json())
+      .then((data) => setRevisions(Array.isArray(data) ? data : []))
+      .catch((err) => { if (err.name !== "AbortError") toast.error("無法載入版本歷史"); })
+      .finally(() => setLoading(false));
+    return () => controller.abort();
+  }, [open, reportId]);
+
+  async function handleRestore(revision: Revision) {
+    setRestoringId(revision.id);
+    try {
+      const res = await fetch(`/api/reports/${reportId}/revisions`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ versionId: revision.id }),
+      });
+      if (!res.ok) throw new Error();
+      const { content, title } = await res.json();
+      onRestored(content, title);
+      onOpenChange(false);
+    } catch {
+      toast.error("還原失敗，請稍後再試");
+    } finally {
+      setRestoringId(null);
+    }
+  }
+
+  return (
+    <Sheet open={open} onOpenChange={onOpenChange}>
+      <SheetContent className="w-80 sm:w-96 flex flex-col">
+        <SheetHeader>
+          <SheetTitle className="flex items-center gap-2">
+            <HistoryIcon className="h-4 w-4" />
+            版本歷史
+          </SheetTitle>
+        </SheetHeader>
+
+        <div className="flex-1 overflow-y-auto mt-4 space-y-2">
+          {loading ? (
+            <>
+              {[1, 2, 3].map((i) => <Skeleton key={i} className="h-16 w-full" />)}
+            </>
+          ) : revisions.length === 0 ? (
+            <p className="text-sm text-muted-foreground text-center py-8">
+              尚無版本記錄。每次儲存時會自動建立快照。
+            </p>
+          ) : (
+            revisions.map((rev) => (
+              <div key={rev.id} className="border rounded-lg p-3 space-y-1.5">
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-xs font-medium text-muted-foreground">
+                    版本 #{rev.versionNumber}
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    {new Date(rev.createdAt).toLocaleString("zh-TW", {
+                      month: "2-digit",
+                      day: "2-digit",
+                      hour: "2-digit",
+                      minute: "2-digit",
+                    })}
+                  </span>
+                </div>
+                <p className="text-sm font-medium truncate">{rev.title}</p>
+                {canRestore && (
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="w-full h-7 text-xs"
+                    disabled={restoringId === rev.id}
+                    onClick={() => handleRestore(rev)}
+                  >
+                    <RotateCcwIcon className="h-3 w-3 mr-1.5" />
+                    {restoringId === rev.id ? "還原中..." : "還原此版本"}
+                  </Button>
+                )}
+              </div>
+            ))
+          )}
+        </div>
+      </SheetContent>
+    </Sheet>
+  );
+}

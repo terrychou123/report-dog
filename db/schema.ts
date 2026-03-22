@@ -88,6 +88,17 @@ export const clientReports = pgTable('client_reports', {
   uniqueClientReport: uniqueIndex('client_reports_client_id_report_id_idx').on(t.clientId, t.reportId),
 }));
 
+export const reportRevisions = pgTable('report_revisions', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  reportId: uuid('report_id').references(() => reports.id, { onDelete: 'cascade' }).notNull(),
+  userId: text('user_id').notNull(),
+  title: varchar('title', { length: 255 }).notNull(),
+  content: text('content'),
+  fileType: varchar('file_type', { length: 10 }),
+  versionNumber: integer('version_number').notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
+
 export const blogPosts = pgTable('blog_posts', {
   id: uuid('id').defaultRandom().primaryKey(),
   slug: text('slug').notNull().unique(),

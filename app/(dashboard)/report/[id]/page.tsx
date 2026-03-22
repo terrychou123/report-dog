@@ -16,12 +16,14 @@ import {
   ArrowLeftIcon, SaveIcon, SparklesIcon, CheckIcon,
   RefreshCwIcon, Trash2Icon, DownloadIcon,
   BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon,
-  PlusIcon, XIcon, TagIcon,
+  PlusIcon, XIcon, TagIcon, HistoryIcon, EyeIcon,
 } from "lucide-react";
 import { toast } from "sonner";
 import { FortuneEditor } from "@/components/fortune-editor";
+import { ReportHistoryPanel } from "@/components/report-history-panel";
+import { Badge } from "@/components/ui/badge";
 
-type Report = { id: string; title: string; content: string | null; fileType: string | null; fileUrl: string | null };
+type Report = { id: string; title: string; content: string | null; fileType: string | null; fileUrl: string | null; canEdit?: boolean; isOwner?: boolean };
 type Message = { role: "user" | "assistant"; content: string; reasoning_details?: unknown };
 type TagAssociation = { relationId: string; clientId: string; nickname: string; description: string | null };
 type TagOption = { id: string; nickname: string; description: string | null };
@@ -80,6 +82,7 @@ export default function ReportEditorPage() {
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const [report, setReport] = useState<Report | null>(null);
+  const canEdit = report?.canEdit !== false;
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const isDirtyRef = useRef(false);
@@ -115,6 +118,9 @@ export default function ReportEditorPage() {
   // 刪除報告
   const [deleteReportOpen, setDeleteReportOpen] = useState(false);
   const [deletingReport, setDeletingReport] = useState(false);
+
+  // 版本歷史
+  const [historyOpen, setHistoryOpen] = useState(false);
 
   // 關聯標籤
   const [tagAssociations, setTagAssociations] = useState<TagAssociation[]>([]);
@@ -167,6 +173,12 @@ export default function ReportEditorPage() {
     load();
   }, [params.id, router]);
 
+  // 根據權限設定 editor 可否編輯
+  useEffect(() => {
+    if (!editor || !report) return;
+    editor.setEditable(canEdit);
+  }, [editor, report, canEdit]);
+
   // editor 就緒且資料已載入後設定內容
   useEffect(() => {
     if (!editor || loading) return;
@@ -201,7 +213,7 @@ export default function ReportEditorPage() {
   }
 
   function handleEditorMouseUp() {
-    if (!editor) return;
+    if (!editor || !canEdit) return;
     const { from, to } = editor.state.selection;
     if (from === to) return;
     const selectedStr = editor.state.doc.textBetween(from, to, " ").trim();
@@ -416,17 +428,28 @@ export default function ReportEditorPage() {
       {/* 頁首：標題（可編輯）+ 按鈕群 */}
       <div className="flex flex-col gap-3 mb-4 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
         <div className="flex-1">
-          <Input
-            value={reportTitle}
-            onChange={(e) => { setReportTitle(e.target.value); isDirtyRef.current = true; }}
-            className="text-xl md:text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
-            placeholder="報告標題"
-          />
+          <div className="flex items-center gap-2">
+            <Input
+              value={reportTitle}
+              onChange={(e) => { setReportTitle(e.target.value); isDirtyRef.current = true; }}
+              className="text-xl md:text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
+              placeholder="報告標題"
+              readOnly={!canEdit}
+            />
+            {!canEdit && (
+              <Badge variant="secondary" className="shrink-0 flex items-center gap-1">
+                <EyeIcon className="h-3 w-3" />
+                唯讀
+              </Badge>
+            )}
+          </div>
           <p className="text-muted-foreground text-sm mt-1 flex items-center gap-1.5">
             <SparklesIcon className="h-3.5 w-3.5" />
             {report.fileType === "excel"
               ? "連續點擊兩次儲存格，使用AI編輯"
-              : "圈選文字段落，使用 AI 修改"}
+              : !canEdit
+                ? "以唯讀模式瀏覽"
+                : "圈選文字段落，使用 AI 修改"}
           </p>
           {/* 關聯標籤 */}
           <div className="flex items-center gap-2 mt-2 flex-wrap">
@@ -449,14 +472,20 @@ export default function ReportEditorPage() {
           </div>
         </div>
         <div className="flex gap-2 shrink-0 self-end sm:self-auto">
-          <Button
-            size="sm"
-            variant="outline"
-            className="text-destructive hover:text-destructive hover:bg-destructive/5"
-            onClick={() => setDeleteReportOpen(true)}
-          >
-            <Trash2Icon className="h-4 w-4 mr-1.5" />
-            刪除
+          {canEdit && (
+            <Button
+              size="sm"
+              variant="outline"
+              className="text-destructive hover:text-destructive hover:bg-destructive/5"
+              onClick={() => setDeleteReportOpen(true)}
+            >
+              <Trash2Icon className="h-4 w-4 mr-1.5" />
+              刪除
+            </Button>
+          )}
+          <Button size="sm" variant="outline" onClick={() => setHistoryOpen(true)}>
+            <HistoryIcon className="h-4 w-4 mr-1.5" />
+            歷史
           </Button>
           {report.fileType === "excel" ? (
             <>
@@ -466,12 +495,14 @@ export default function ReportEditorPage() {
                 <DownloadIcon className="h-4 w-4 mr-1.5" />
                 {excelDownloading ? "下載中..." : "下載"}
               </Button>
-              <Button size="sm"
-                onClick={() => setExcelSaveTrigger(t => t + 1)}
-                disabled={excelSaving}>
-                <SaveIcon className="h-4 w-4 mr-2" />
-                {excelSaving ? "儲存中..." : "儲存"}
-              </Button>
+              {canEdit && (
+                <Button size="sm"
+                  onClick={() => setExcelSaveTrigger(t => t + 1)}
+                  disabled={excelSaving}>
+                  <SaveIcon className="h-4 w-4 mr-2" />
+                  {excelSaving ? "儲存中..." : "儲存"}
+                </Button>
+              )}
             </>
           ) : (
             <>
@@ -479,10 +510,12 @@ export default function ReportEditorPage() {
                 <DownloadIcon className="h-4 w-4 mr-1.5" />
                 下載
               </Button>
-              <Button onClick={handleSave} disabled={saving} size="sm">
-                <SaveIcon className="h-4 w-4 mr-2" />
-                {saving ? "儲存中..." : "儲存"}
-              </Button>
+              {canEdit && (
+                <Button onClick={handleSave} disabled={saving} size="sm">
+                  <SaveIcon className="h-4 w-4 mr-2" />
+                  {saving ? "儲存中..." : "儲存"}
+                </Button>
+              )}
             </>
           )}
         </div>
@@ -599,6 +632,20 @@ export default function ReportEditorPage() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
+
+      {/* 版本歷史 Panel */}
+      <ReportHistoryPanel
+        reportId={params.id}
+        canRestore={report.isOwner === true}
+        open={historyOpen}
+        onOpenChange={setHistoryOpen}
+        onRestored={(content, title) => {
+          setReportTitle(title);
+          editor?.commands.setContent(content || "");
+          isDirtyRef.current = true;
+          toast.success("已還原版本，請儲存以確認");
+        }}
+      />
 
       {/* AI 修改助手 Dialog */}
       <Dialog open={dialogOpen} onOpenChange={(open) => {

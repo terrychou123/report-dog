@@ -15,6 +15,7 @@ const openai = new OpenAI({
 function buildSystemPrompt(profileId: string): string {
   const profile = getProfile(profileId);
   if (!profile) throw new Error(`Unknown profile: ${profileId}`);
+  if (profile.sections.length === 0) throw new Error(`Profile "${profileId}" 尚未建立評鑑指標`);
 
   const criteriaText = profile.sections
     .map((section) => {

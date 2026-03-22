@@ -44,5 +44,12 @@
       "tag": "0005_replace_workspace_with_tag_permissions",
       "breakpoints": true
     }
+    ,{
+      "idx": 6,
+      "version": "7",
+      "when": 1742860800000,
+      "tag": "0006_add_report_revisions",
+      "breakpoints": true
+    }
   ]
 }
