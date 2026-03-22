@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -12,8 +11,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
 import { CheckIcon, LoaderIcon, SaveIcon } from "lucide-react";
 import { toast } from "sonner";
 
@@ -31,7 +28,6 @@ type Props = {
 
 export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, onSaved }: Props) {
   const [profileId, setProfileId] = useState("daycare");
-  const [includeConsistency, setIncludeConsistency] = useState(false);
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -52,7 +48,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
         const res = await fetch("/api/reports/evaluation", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ reportIds, profileId, includeConsistency }),
+          body: JSON.stringify({ reportIds, profileId }),
           signal: controller.signal,
         });
 
@@ -105,7 +101,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
       const res = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: `機構評鑑分析 - ${date}`, content: result, insertAtTop: true }),
+        body: JSON.stringify({ title: `報告分析 - ${date}`, content: result, insertAtTop: true }),
       });
       if (!res.ok) throw new Error("儲存失敗");
       setSaved(true);
@@ -119,11 +115,11 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
   };
 
   return (
-    <Sheet open={open} onOpenChange={handleOpenChange}>
-      <SheetContent className="w-full sm:max-w-2xl flex flex-col gap-4 overflow-hidden">
-        <SheetHeader>
-          <SheetTitle>機構評鑑 AI 分析</SheetTitle>
-        </SheetHeader>
+    <Dialog open={open} onOpenChange={handleOpenChange}>
+      <DialogContent className="max-w-2xl max-h-[80vh] flex flex-col gap-4 overflow-hidden">
+        <DialogHeader>
+          <DialogTitle>報告 AI 分析</DialogTitle>
+        </DialogHeader>
 
         <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
           {reportTitles.map((title, i) => (
@@ -133,49 +129,33 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
           ))}
         </div>
 
-        <div className="flex flex-col gap-2">
-          <div className="flex items-center gap-3">
-            <Select value={profileId} onValueChange={setProfileId} disabled={loading}>
-              <SelectTrigger className="w-48">
-                <SelectValue placeholder="選擇評鑑類型" />
-              </SelectTrigger>
-              <SelectContent>
-                {PROFILES.map((p) => (
-                  <SelectItem key={p.id} value={p.id}>
-                    {p.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+        <div className="flex items-center gap-3">
+          <Select value={profileId} onValueChange={setProfileId} disabled={loading}>
+            <SelectTrigger className="w-48">
+              <SelectValue placeholder="選擇評鑑類型" />
+            </SelectTrigger>
+            <SelectContent>
+              {PROFILES.map((p) => (
+                <SelectItem key={p.id} value={p.id}>
+                  {p.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
 
-            <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1} size="sm">
-              {loading ? (
-                <>
-                  <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
-                  分析中...
-                </>
-              ) : (
-                "開始分析"
-              )}
-            </Button>
-          </div>
-
-          {reportIds.length >= 2 && (
-            <div className="flex items-center gap-2">
-              <Checkbox
-                id="include-consistency"
-                checked={includeConsistency}
-                onCheckedChange={(checked) => setIncludeConsistency(checked === true)}
-                disabled={loading}
-              />
-              <Label htmlFor="include-consistency" className="text-sm font-normal cursor-pointer">
-                同時檢查報告間一致性
-              </Label>
-            </div>
-          )}
+          <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1}>
+            {loading ? (
+              <>
+                <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
+                分析中...
+              </>
+            ) : (
+              "開始分析"
+            )}
+          </Button>
         </div>
 
-        <ScrollArea className="flex-1 min-h-0 rounded-md border p-4">
+        <div className="flex-1 min-h-0 overflow-y-auto rounded-md border p-4">
           {loading && !result && (
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
               <LoaderIcon className="h-4 w-4 animate-spin" />
@@ -188,10 +168,10 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
           {!loading && !result && (
             <p className="text-sm text-muted-foreground">選擇評鑑類型後點擊「開始分析」。</p>
           )}
-        </ScrollArea>
+        </div>
 
         {!loading && result && (
-          <Button variant="outline" size="sm" onClick={handleSave} disabled={saving} className="self-end">
+          <Button onClick={handleSave} disabled={saving}>
             {saved ? (
               <>
                 <CheckIcon className="h-4 w-4 mr-2" />
@@ -210,7 +190,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
             )}
           </Button>
         )}
-      </SheetContent>
-    </Sheet>
+      </DialogContent>
+    </Dialog>
   );
 }
