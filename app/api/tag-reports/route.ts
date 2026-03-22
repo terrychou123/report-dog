@@ -32,6 +32,7 @@ export async function GET(req: NextRequest) {
         title: reports.title,
         fileType: reports.fileType,
         createdAt: reports.createdAt,
+        updatedAt: reports.updatedAt,
         sortOrder: clientReports.sortOrder,
       })
       .from(clientReports)

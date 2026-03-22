@@ -16,8 +16,7 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import {
-  FileTextIcon,
-  TagIcon,
+  Share2Icon,
   ClipboardListIcon,
   TrashIcon,
   CopyIcon,
@@ -27,21 +26,24 @@ import { FileTypeIcon } from "@/components/file-type-icon";
 import { EvaluationPanel } from "@/components/evaluation-panel";
 import { toast } from "sonner";
 
-type Report = {
+type SharedReport = {
   id: string;
   title: string;
   fileType: string | null;
-  sortOrder: number;
+  fileUrl: string | null;
+  userId: string;
   createdAt: string;
+  updatedAt: string;
+  ownerEmail: string;
   tags: string[];
 };
 
-function ReportCard({
+function SharedReportCard({
   report,
   selected,
   onToggle,
 }: {
-  report: Report;
+  report: SharedReport;
   selected: boolean;
   onToggle: (id: string) => void;
 }) {
@@ -49,57 +51,75 @@ function ReportCard({
     <div className={`relative rounded-lg transition-all ${selected ? "ring-2 ring-primary shadow-md" : ""}`}>
       <Card className={`transition-shadow ${selected ? "" : "hover:shadow-md"}`}>
         <CardHeader className="py-3 px-4">
-          <CardTitle className="text-sm font-medium">
-            <div className="flex items-start gap-2">
-              <Checkbox
-                checked={selected}
-                onCheckedChange={() => onToggle(report.id)}
-                onClick={(e) => e.stopPropagation()}
-                className="shrink-0 mt-0.5"
-              />
-              <a
-                href={`/report/${report.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 min-w-0"
-                onClick={(e) => e.stopPropagation()}
-              >
-                <div className="flex items-center gap-2">
-                  <FileTypeIcon fileType={report.fileType} className="shrink-0" />
-                  <span className="break-words">{report.title}</span>
-                  {report.tags.length > 0 && (
-                    <span className="hidden md:inline-flex items-center gap-1 text-xs font-normal text-muted-foreground whitespace-nowrap">
-                      <TagIcon className="h-3 w-3" />
-                      {report.tags.join("、")}
-                    </span>
-                  )}
-                </div>
-                {report.tags.length > 0 && (
-                  <div className="flex md:hidden items-center gap-1 text-xs font-normal text-muted-foreground mt-1">
-                    <TagIcon className="h-3 w-3 shrink-0" />
-                    <span className="break-words">{report.tags.join("、")}</span>
-                  </div>
-                )}
-              </a>
-            </div>
+          <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
+            <Checkbox
+              checked={selected}
+              onCheckedChange={() => onToggle(report.id)}
+              onClick={(e) => e.stopPropagation()}
+              className="shrink-0"
+            />
+            <a
+              href={`/report/${report.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 flex-1 flex-wrap min-w-0"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <FileTypeIcon fileType={report.fileType} />
+              <span className="flex-1 min-w-0">{report.title}</span>
+            </a>
           </CardTitle>
         </CardHeader>
         <CardContent className="pt-0 px-4 pb-3">
-          <p className="text-xs text-muted-foreground pl-6">
-            {new Date(report.createdAt).toLocaleDateString("zh-TW", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
+          <div className="pl-6 flex flex-col gap-0.5 md:flex-row md:items-center md:justify-between md:gap-2">
+            <p className="text-xs text-muted-foreground">
+              {new Date(report.updatedAt || report.createdAt).toLocaleDateString("zh-TW", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </p>
+            <p className="text-xs text-muted-foreground truncate">擁有者:{report.ownerEmail}</p>
+          </div>
         </CardContent>
       </Card>
     </div>
   );
 }
 
-export function DraggableReportsList() {
-  const [reportList, setReportList] = useState<Report[]>([]);
+function SectionHeader({
+  title,
+  reports,
+  selectedIds,
+  onSelectAll,
+}: {
+  title: string;
+  reports: SharedReport[];
+  selectedIds: Set<string>;
+  onSelectAll: (ids: string[], checked: boolean) => void;
+}) {
+  const sectionIds = reports.map((r) => r.id);
+  const selectedCount = sectionIds.filter((id) => selectedIds.has(id)).length;
+  const allSelected = reports.length > 0 && selectedCount === reports.length;
+  const someSelected = selectedCount > 0 && selectedCount < reports.length;
+
+  return (
+    <div className="flex items-center gap-3 mb-3">
+      <Checkbox
+        checked={allSelected ? true : someSelected ? "indeterminate" : false}
+        onCheckedChange={(checked) => onSelectAll(sectionIds, !!checked)}
+        className="shrink-0"
+        disabled={reports.length === 0}
+      />
+      <h2 className="text-base font-semibold">{title}</h2>
+      <span className="text-xs text-muted-foreground">({reports.length} 份)</span>
+    </div>
+  );
+}
+
+export function SharedReportsList() {
+  const [viewable, setViewable] = useState<SharedReport[]>([]);
+  const [editable, setEditable] = useState<SharedReport[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [accreditationOpen, setAccreditationOpen] = useState(false);
@@ -107,13 +127,14 @@ export function DraggableReportsList() {
   const [batchLoading, setBatchLoading] = useState(false);
 
   const loadReports = useCallback(() => {
-    fetch("/api/reports")
+    fetch("/api/reports/shared")
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
       })
       .then((data) => {
-        setReportList(data);
+        setViewable(data.viewable ?? []);
+        setEditable(data.editable ?? []);
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -134,10 +155,24 @@ export function DraggableReportsList() {
     });
   };
 
+  const handleSectionSelectAll = (ids: string[], checked: boolean) => {
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (checked) {
+        ids.forEach((id) => next.add(id));
+      } else {
+        ids.forEach((id) => next.delete(id));
+      }
+      return next;
+    });
+  };
+
   const clearSelection = () => setSelectedIds(new Set());
 
-  const selectedReports = reportList.filter((r) => selectedIds.has(r.id));
+  const allReports = [...editable, ...viewable];
+  const selectedReports = allReports.filter((r) => selectedIds.has(r.id));
   const selectedTitles = selectedReports.map((r) => r.title);
+  const hasViewOnlySelected = viewable.some((r) => selectedIds.has(r.id));
 
   const handleBatchDelete = async () => {
     setBatchLoading(true);
@@ -155,7 +190,7 @@ export function DraggableReportsList() {
     if (failed === 0) {
       toast.success(`已刪除 ${succeeded} 份報告`);
     } else {
-      toast.error(`已刪除 ${succeeded} 份，${failed} 份失敗`);
+      toast.error(`已刪除 ${succeeded} 份，${failed} 份失敗（非擁有者無法刪除）`);
     }
 
     setBatchLoading(false);
@@ -200,73 +235,83 @@ export function DraggableReportsList() {
     );
   }
 
-  if (reportList.length === 0) {
+  if (viewable.length === 0 && editable.length === 0) {
     return (
       <div className="text-center py-20 text-muted-foreground">
-        <FileTextIcon className="h-12 w-12 mx-auto mb-4 opacity-30" />
-        <p className="text-lg mb-2">尚無報告</p>
-        <p className="text-sm">點擊右上角「上傳報告」建立第一份報告</p>
+        <Share2Icon className="h-12 w-12 mx-auto mb-4 opacity-30" />
+        <p className="text-lg mb-2">尚無與您分享的報告</p>
+        <p className="text-sm">當其他人透過標籤與您分享報告時，將會顯示在此處</p>
       </div>
     );
   }
 
-  const allSelected = reportList.length > 0 && selectedIds.size === reportList.length;
-  const someSelected = selectedIds.size > 0 && selectedIds.size < reportList.length;
-
   return (
     <>
-      <div className="space-y-3">
-        <div className="flex items-center gap-2 px-4 py-1">
-          <Checkbox
-            checked={allSelected ? true : someSelected ? "indeterminate" : false}
-            onCheckedChange={(checked) => {
-              if (checked) {
-                setSelectedIds(new Set(reportList.map((r) => r.id)));
-              } else {
-                clearSelection();
-              }
-            }}
-            className="shrink-0"
+      <div className="space-y-8">
+        {/* Editable section */}
+        <div>
+          <SectionHeader
+            title="我可以編輯的報告"
+            reports={editable}
+            selectedIds={selectedIds}
+            onSelectAll={handleSectionSelectAll}
           />
-          <span className="text-sm text-muted-foreground">全選</span>
+          {editable.length === 0 ? (
+            <p className="text-sm text-muted-foreground pl-7">無</p>
+          ) : (
+            <div className="space-y-3">
+              {editable.map((report) => (
+                <SharedReportCard
+                  key={report.id}
+                  report={report}
+                  selected={selectedIds.has(report.id)}
+                  onToggle={toggleSelection}
+                />
+              ))}
+            </div>
+          )}
         </div>
-        {reportList.map((report) => (
-          <ReportCard
-            key={report.id}
-            report={report}
-            selected={selectedIds.has(report.id)}
-            onToggle={toggleSelection}
+
+        {/* Viewable section */}
+        <div>
+          <SectionHeader
+            title="我可以瀏覽的報告"
+            reports={viewable}
+            selectedIds={selectedIds}
+            onSelectAll={handleSectionSelectAll}
           />
-        ))}
+          {viewable.length === 0 ? (
+            <p className="text-sm text-muted-foreground pl-7">無</p>
+          ) : (
+            <div className="space-y-3">
+              {viewable.map((report) => (
+                <SharedReportCard
+                  key={report.id}
+                  report={report}
+                  selected={selectedIds.has(report.id)}
+                  onToggle={toggleSelection}
+                />
+              ))}
+            </div>
+          )}
+        </div>
       </div>
 
       {selectedIds.size > 0 && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 rounded-full border bg-background px-5 py-3 shadow-lg">
           <span className="text-sm text-muted-foreground">已選 {selectedIds.size} 份</span>
 
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={() => setConfirmAction("copy")}
-          >
+          <Button size="sm" variant="outline" onClick={() => setConfirmAction("copy")}>
             <CopyIcon className="h-4 w-4 mr-1" />
             複製
           </Button>
 
-          <Button
-            size="sm"
-            variant="destructive"
-            onClick={() => setConfirmAction("delete")}
-          >
+          <Button size="sm" variant="destructive" onClick={() => setConfirmAction("delete")} disabled={hasViewOnlySelected}>
             <TrashIcon className="h-4 w-4 mr-1" />
             刪除
           </Button>
 
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={() => setAccreditationOpen(true)}
-          >
+          <Button size="sm" variant="outline" onClick={() => setAccreditationOpen(true)}>
             <ClipboardListIcon className="h-4 w-4 mr-1" />
             報告分析
           </Button>
@@ -289,7 +334,7 @@ export function DraggableReportsList() {
                     <li key={i} className="truncate">• {title}</li>
                   ))}
                 </ul>
-                <p className="mt-3 text-destructive font-medium">此操作無法復原。</p>
+                <p className="mt-3 text-destructive font-medium">非擁有者的報告將無法刪除。</p>
               </div>
             </AlertDialogDescription>
           </AlertDialogHeader>
@@ -324,10 +369,7 @@ export function DraggableReportsList() {
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel disabled={batchLoading}>取消</AlertDialogCancel>
-            <AlertDialogAction
-              onClick={handleBatchCopy}
-              disabled={batchLoading}
-            >
+            <AlertDialogAction onClick={handleBatchCopy} disabled={batchLoading}>
               {batchLoading ? <LoaderIcon className="h-4 w-4 animate-spin mr-1" /> : null}
               確認複製
             </AlertDialogAction>

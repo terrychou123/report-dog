@@ -7,9 +7,22 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Input } from "@/components/ui/input";
-import { TagIcon, PlusIcon, GripVerticalIcon, FileTextIcon, SearchIcon } from "lucide-react";
+import { TagIcon, PlusIcon, GripVerticalIcon, FileTextIcon, SearchIcon, UsersIcon, XIcon, Loader2Icon } from "lucide-react";
 import { toast } from "sonner";
 import { FileTypeIcon } from "@/components/file-type-icon";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import {
   DndContext,
   closestCenter,
@@ -25,14 +38,21 @@ import {
   arrayMove,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import { useCurrentUserId } from "@/lib/hooks/use-current-user-id";
+import { resolveUserEmails } from "@/lib/users";
+import { isTagOwner } from "@/lib/auth/tag-permissions";
+import { EMAIL_REGEX } from "@/lib/utils";
 
 type Client = {
   id: string;
+  userId: string;
   nickname: string;
   description: string | null;
   sortOrder: number;
   createdAt: string;
   reportCount: number;
+  viewers: string[];
+  editors: string[];
 };
 
 type TagReport = {
@@ -41,6 +61,7 @@ type TagReport = {
   title: string;
   fileType: string | null;
   createdAt: string;
+  updatedAt: string | null;
   sortOrder: number;
 };
 
@@ -58,13 +79,15 @@ function SortableReportItem({ report }: { report: TagReport }) {
         href={`/report/${report.reportId}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-2 flex-1 px-2 py-1.5 rounded text-sm hover:bg-muted transition-colors"
+        className="flex items-start gap-2 flex-1 px-2 py-1.5 rounded text-sm hover:bg-muted transition-colors"
       >
-        <FileTypeIcon fileType={report.fileType} />
-        <span className="flex-1 truncate">{report.title}</span>
-        <span className="text-xs text-muted-foreground shrink-0">
-          {new Date(report.createdAt).toLocaleDateString("zh-TW")}
-        </span>
+        <FileTypeIcon fileType={report.fileType} className="mt-0.5 shrink-0" />
+        <div className="flex-1 min-w-0">
+          <div className="truncate">{report.title}</div>
+          <div className="text-xs text-muted-foreground">
+            {new Date(report.updatedAt || report.createdAt).toLocaleDateString("zh-TW")}
+          </div>
+        </div>
       </a>
       <button
         {...attributes}
@@ -79,13 +102,153 @@ function SortableReportItem({ report }: { report: TagReport }) {
   );
 }
 
-function SortableClientCard({ client }: { client: Client }) {
+function SharedUsersButton({
+  tagId,
+  viewers,
+  editors,
+  isOwner,
+  onShareUpdate,
+}: {
+  tagId: string;
+  viewers: string[];
+  editors: string[];
+  isOwner: boolean;
+  onShareUpdate: (tagId: string, field: "viewers" | "editors", newIds: string[]) => void;
+}) {
+  const total = viewers.length + editors.length;
+  const [open, setOpen] = useState(false);
+  const [emailMap, setEmailMap] = useState<Record<string, string>>({});
+  const [loading, setLoading] = useState(false);
+  const [removingId, setRemovingId] = useState<string | null>(null);
+
+  if (total === 0) return null;
+
+  async function resolveEmails() {
+    const allIds = [...new Set([...viewers, ...editors])];
+    const missing = allIds.filter((id) => !(id in emailMap));
+    if (missing.length === 0) return;
+    setLoading(true);
+    try {
+      const mapping = await resolveUserEmails(missing);
+      setEmailMap((prev) => ({ ...prev, ...mapping }));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function handleOpenChange(val: boolean) {
+    setOpen(val);
+    if (val) resolveEmails();
+  }
+
+  async function handleRemove(field: "viewers" | "editors", userId: string) {
+    setRemovingId(userId);
+    const list = field === "viewers" ? viewers : editors;
+    const newIds = list.filter((id) => id !== userId);
+    try {
+      const res = await fetch(`/api/tags/${tagId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ [field]: newIds }),
+      });
+      if (!res.ok) throw new Error();
+      onShareUpdate(tagId, field, newIds);
+      toast.success("已移除共享者");
+    } catch {
+      toast.error("移除失敗，請重試");
+    } finally {
+      setRemovingId(null);
+    }
+  }
+
+  function renderRoleGroup(field: "viewers" | "editors", label: string, ids: string[]) {
+    return (
+      <>
+        <DropdownMenuLabel className="text-xs text-muted-foreground">{label}</DropdownMenuLabel>
+        <div className="space-y-0.5 px-2 pb-1">
+          {ids.map((id) => (
+            <div key={id} className="flex items-center justify-between gap-2 py-1 text-sm">
+              <span className="truncate">{emailMap[id] ?? id}</span>
+              {isOwner && (
+                <button
+                  onClick={() => handleRemove(field, id)}
+                  disabled={removingId === id}
+                  className="shrink-0 text-muted-foreground hover:text-destructive transition-colors"
+                  title="移除"
+                >
+                  {removingId === id
+                    ? <Loader2Icon className="h-3 w-3 animate-spin" />
+                    : <XIcon className="h-3 w-3" />
+                  }
+                </button>
+              )}
+            </div>
+          ))}
+        </div>
+      </>
+    );
+  }
+
+  return (
+    <DropdownMenu open={open} onOpenChange={handleOpenChange}>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <DropdownMenuTrigger asChild>
+              <button
+                onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
+                className="flex items-center gap-1 px-2 py-0.5 rounded-full bg-violet-500/10 text-violet-500 text-xs font-medium hover:bg-violet-500/20 transition-colors"
+              >
+                <UsersIcon className="h-3 w-3" />
+                {total}
+              </button>
+            </DropdownMenuTrigger>
+          </TooltipTrigger>
+          <TooltipContent>顯示共享者</TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+
+      <DropdownMenuContent
+        align="end"
+        className="w-64"
+        onClick={(e) => e.stopPropagation()}
+        onPointerDown={(e) => e.stopPropagation()}
+      >
+        {loading ? (
+          <div className="flex items-center justify-center py-4">
+            <Loader2Icon className="h-4 w-4 animate-spin text-muted-foreground" />
+          </div>
+        ) : (
+          <>
+            {viewers.length > 0 && renderRoleGroup("viewers", "瀏覽者", viewers)}
+            {viewers.length > 0 && editors.length > 0 && <DropdownMenuSeparator />}
+            {editors.length > 0 && renderRoleGroup("editors", "編輯者", editors)}
+          </>
+        )}
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
+}
+
+function SortableClientCard({
+  client,
+  currentUserId,
+  onShareUpdate,
+}: {
+  client: Client;
+  currentUserId: string | null;
+  onShareUpdate: (tagId: string, field: "viewers" | "editors", newIds: string[]) => void;
+}) {
   const [expanded, setExpanded] = useState(false);
   const [reports, setReports] = useState<TagReport[]>([]);
   const [loadingReports, setLoadingReports] = useState(false);
   const [hasFetched, setHasFetched] = useState(false);
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: client.id });
   const reportSensors = useSensors(useSensor(PointerSensor));
+
+  const viewers = client.viewers ?? [];
+  const editors = client.editors ?? [];
+  const isOwner = isTagOwner(currentUserId ?? "", client);
 
   async function handleToggle(e: React.MouseEvent) {
     e.preventDefault();
@@ -127,7 +290,7 @@ function SortableClientCard({ client }: { client: Client }) {
       <div className="relative">
         <Link href={`/tag/${client.id}`} className="block">
           <Card className="hover:shadow-md transition-shadow cursor-pointer">
-            <CardHeader className="py-3 px-4 pr-20">
+            <CardHeader className="py-3 px-4 pr-36">
               <CardTitle className="text-sm font-medium flex items-center gap-2">
                 <TagIcon className="h-4 w-4 text-primary shrink-0" />
                 {client.nickname}
@@ -139,26 +302,36 @@ function SortableClientCard({ client }: { client: Client }) {
           </Card>
         </Link>
 
-        {client.reportCount > 0 && (
-          <button
-            onClick={handleToggle}
-            title={expanded ? "隱藏報告" : "顯示報告"}
-            className="absolute right-10 top-1/2 -translate-y-1/2 flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary text-xs font-medium hover:bg-primary/20 transition-colors"
-          >
-            <FileTextIcon className="h-3 w-3" />
-            {client.reportCount}
-          </button>
-        )}
+        <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+          <SharedUsersButton
+            tagId={client.id}
+            viewers={viewers}
+            editors={editors}
+            isOwner={isOwner}
+            onShareUpdate={onShareUpdate}
+          />
 
-        <button
-          {...attributes}
-          {...listeners}
-          className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-grab active:cursor-grabbing"
-          aria-label="拖曳排序"
-          title="拖曳排序"
-        >
-          <GripVerticalIcon className="h-4 w-4" />
-        </button>
+          {client.reportCount > 0 && (
+            <button
+              onClick={handleToggle}
+              title={expanded ? "隱藏報告" : "顯示報告"}
+              className="flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary text-xs font-medium hover:bg-primary/20 transition-colors"
+            >
+              <FileTextIcon className="h-3 w-3" />
+              {client.reportCount}
+            </button>
+          )}
+
+          <button
+            {...attributes}
+            {...listeners}
+            className="p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-grab active:cursor-grabbing"
+            aria-label="拖曳排序"
+            title="拖曳排序"
+          >
+            <GripVerticalIcon className="h-4 w-4" />
+          </button>
+        </div>
       </div>
 
       {expanded && (
@@ -189,7 +362,7 @@ export default function TagPage() {
   const [clients, setClients] = useState<Client[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
-
+  const currentUserId = useCurrentUserId();
   const sensors = useSensors(useSensor(PointerSensor));
 
   useEffect(() => {
@@ -198,6 +371,12 @@ export default function TagPage() {
       .then((data) => { setClients(Array.isArray(data) ? data : []); setLoading(false); })
       .catch(() => setLoading(false));
   }, []);
+
+  function handleShareUpdate(tagId: string, field: "viewers" | "editors", newIds: string[]) {
+    setClients((prev) =>
+      prev.map((c) => c.id === tagId ? { ...c, [field]: newIds } : c)
+    );
+  }
 
   async function handleDragEnd(event: DragEndEvent) {
     if (searchQuery.trim()) return;
@@ -268,7 +447,12 @@ export default function TagPage() {
             <SortableContext items={filteredClients.map((c) => c.id)} strategy={verticalListSortingStrategy}>
               <div className="space-y-3">
                 {filteredClients.map((client) => (
-                  <SortableClientCard key={client.id} client={client} />
+                  <SortableClientCard
+                    key={client.id}
+                    client={client}
+                    currentUserId={currentUserId}
+                    onShareUpdate={handleShareUpdate}
+                  />
                 ))}
               </div>
             </SortableContext>

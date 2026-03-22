@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BotIcon, TagIcon, FileTextIcon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
+import { BotIcon, TagIcon, FileTextIcon, Share2Icon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { LogoutButton } from "@/components/logout-button";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 const navLinks = [
   { href: "/report", label: "報告", icon: FileTextIcon },
   { href: "/tag", label: "標籤", icon: TagIcon },
+  { href: "/share", label: "與我分享", icon: Share2Icon },
 ];
 
 interface CollapsibleSidebarProps {

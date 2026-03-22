@@ -9,14 +9,19 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "
 import { Input } from "@/components/ui/input";
 
 import { Textarea } from "@/components/ui/textarea";
-import { FileTextIcon, PlusIcon, ArrowLeftIcon, PencilIcon, CheckIcon, XIcon, Trash2Icon, LoaderIcon, CopyIcon } from "lucide-react";
+import { FileTextIcon, PlusIcon, ArrowLeftIcon, PencilIcon, CheckIcon, XIcon, Trash2Icon, LoaderIcon, CopyIcon, UserPlusIcon } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "sonner";
 import { FileTypeIcon } from "@/components/file-type-icon";
+import { useCurrentUserId } from "@/lib/hooks/use-current-user-id";
+import { resolveUserEmails } from "@/lib/users";
+import { isTagOwner } from "@/lib/auth/tag-permissions";
+import { EMAIL_REGEX } from "@/lib/utils";
 
-type Client = { id: string; nickname: string; description: string | null; createdAt: string };
-type ClientReport = { relationId: string; reportId: string; title: string; fileType: string | null; createdAt: string };
+type Client = { id: string; userId: string; nickname: string; description: string | null; viewers: string[]; editors: string[]; createdAt: string };
+type ClientReport = { relationId: string; reportId: string; title: string; fileType: string | null; createdAt: string; updatedAt: string | null };
 type Report = { id: string; title: string; fileType: string | null; createdAt: string };
+
 
 export default function TagDetailPage() {
   const params = useParams<{ id: string }>();
@@ -24,6 +29,7 @@ export default function TagDetailPage() {
   const [client, setClient] = useState<Client | null>(null);
   const [clientReports, setClientReports] = useState<ClientReport[]>([]);
   const [loading, setLoading] = useState(true);
+  const currentUserId = useCurrentUserId();
 
   // 內聯編輯 state
   const [editingField, setEditingField] = useState<"nickname" | "description" | null>(null);
@@ -45,6 +51,12 @@ export default function TagDetailPage() {
   const [loadingReports, setLoadingReports] = useState(false);
   const [adding, setAdding] = useState(false);
 
+  // 瀏覽者/編輯者 dialog state
+  const [permissionDialog, setPermissionDialog] = useState<"viewers" | "editors" | null>(null);
+  const [newMemberEmail, setNewMemberEmail] = useState("");
+  const [savingPermission, setSavingPermission] = useState(false);
+  const [userEmailMap, setUserEmailMap] = useState<Record<string, string>>({});
+
   useEffect(() => {
     async function load() {
       const [clientRes, relRes] = await Promise.all([
@@ -52,9 +64,16 @@ export default function TagDetailPage() {
         fetch(`/api/tag-reports?clientId=${params.id}`),
       ]);
       if (!clientRes.ok) { router.push("/tag"); return; }
-      setClient(await clientRes.json());
+      const clientData: Client = await clientRes.json();
+      setClient(clientData);
       setClientReports(relRes.ok ? await relRes.json() : []);
       setLoading(false);
+      // Resolve emails for all viewers and editors on load
+      const allIds = [...new Set([...clientData.viewers, ...clientData.editors])];
+      if (allIds.length > 0) {
+        const mapping = await resolveUserEmails(allIds);
+        setUserEmailMap((prev) => ({ ...prev, ...mapping }));
+      }
     }
     load();
   }, [params.id, router]);
@@ -125,6 +144,84 @@ export default function TagDetailPage() {
     }
   }
 
+  async function handleUpdatePermission(field: "viewers" | "editors", ids: string[]) {
+    setSavingPermission(true);
+    try {
+      const res = await fetch(`/api/tags/${params.id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ [field]: ids }),
+      });
+      if (res.ok) {
+        setClient((prev) => prev ? { ...prev, [field]: ids } : null);
+        toast.success("已更新");
+      } else {
+        toast.error("更新失敗，請重試");
+      }
+    } finally {
+      setSavingPermission(false);
+    }
+  }
+
+  async function handleAddMember(field: "viewers" | "editors") {
+    if (!client) return;
+    const email = newMemberEmail.trim();
+    if (!EMAIL_REGEX.test(email)) { toast.error("請輸入有效的 Email 格式"); return; }
+    setSavingPermission(true);
+    let userId: string;
+    let resolvedEmail: string;
+    let wasInvited = false;
+    const res = await fetch("/api/users/lookup-by-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+    if (res.status === 404) {
+      // User not registered — send invite
+      const inviteRes = await fetch("/api/users/invite", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, tagId: params.id }),
+      });
+      if (!inviteRes.ok) {
+        const data = await inviteRes.json();
+        toast.error(data.error ?? "發送邀請失敗");
+        setSavingPermission(false);
+        return;
+      }
+      const invited = await inviteRes.json();
+      userId = invited.userId;
+      resolvedEmail = invited.email;
+      wasInvited = true;
+      toast.success(`已發送邀請信至 ${resolvedEmail}`);
+    } else if (!res.ok) {
+      const data = await res.json();
+      toast.error(data.error ?? "查詢失敗");
+      setSavingPermission(false);
+      return;
+    } else {
+      const found = await res.json();
+      userId = found.userId;
+      resolvedEmail = found.email;
+    }
+    if (client[field].includes(userId)) { setSavingPermission(false); toast.error("此使用者已在列表中"); return; }
+    setUserEmailMap((prev) => ({ ...prev, [userId]: resolvedEmail }));
+    await handleUpdatePermission(field, [...client[field], userId]);
+    setNewMemberEmail("");
+    if (!wasInvited) {
+      fetch("/api/users/notify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: resolvedEmail, tagName: client.nickname, tagId: params.id, role: field === "viewers" ? "viewer" : "editor" }),
+      }).catch(() => {});
+    }
+  }
+
+  async function handleRemoveMember(field: "viewers" | "editors", userId: string) {
+    if (!client) return;
+    await handleUpdatePermission(field, client[field].filter((id) => id !== userId));
+  }
+
   async function openAddDialog() {
     setAddOpen(true);
     setSelected(new Set());
@@ -187,89 +284,133 @@ export default function TagDetailPage() {
         返回標籤列表
       </button>
 
-      <div className="mb-8 space-y-2">
-        {editingField === "nickname" ? (
-          <div className="flex items-center gap-2">
-            <Input
-              value={editNickname}
-              onChange={(e) => setEditNickname(e.target.value)}
-              className="text-2xl font-bold h-auto py-1 max-w-xs"
-              autoFocus
-              onKeyDown={(e) => {
-                if (e.key === "Enter") handleSaveField("nickname");
-                if (e.key === "Escape") setEditingField(null);
-              }}
-            />
-            <Button size="icon" variant="ghost" onClick={() => handleSaveField("nickname")} disabled={fieldSaving}>
-              <CheckIcon className="h-4 w-4 text-primary" />
-            </Button>
-            <Button size="icon" variant="ghost" onClick={() => setEditingField(null)} disabled={fieldSaving}>
-              <XIcon className="h-4 w-4" />
-            </Button>
-          </div>
-        ) : (
-          <div
-            className="group flex items-center gap-2 cursor-pointer w-fit"
-            onClick={() => { setEditNickname(client.nickname); setEditingField("nickname"); }}
-            title="點擊編輯名稱"
-          >
-            <h1 className="text-2xl font-bold">{client.nickname}</h1>
-            <PencilIcon className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-          </div>
-        )}
-
-        {editingField === "description" ? (
-          <div className="space-y-2">
-            <Textarea
-              value={editDescription}
-              onChange={(e) => setEditDescription(e.target.value)}
-              className="max-w-md resize-none"
-              rows={3}
-              autoFocus
-              onKeyDown={(e) => { if (e.key === "Escape") setEditingField(null); }}
-            />
-            <div className="flex gap-2">
-              <Button size="sm" onClick={() => handleSaveField("description")} disabled={fieldSaving}>
-                <CheckIcon className="h-3.5 w-3.5 mr-1" />
-                儲存
+      <div className="mb-8 flex items-start justify-between gap-4">
+        <div className="space-y-2 flex-1 min-w-0">
+          {editingField === "nickname" ? (
+            <div className="flex items-center gap-2">
+              <Input
+                value={editNickname}
+                onChange={(e) => setEditNickname(e.target.value)}
+                className="text-2xl font-bold h-auto py-1 max-w-xs"
+                autoFocus
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") handleSaveField("nickname");
+                  if (e.key === "Escape") setEditingField(null);
+                }}
+              />
+              <Button size="icon" variant="ghost" onClick={() => handleSaveField("nickname")} disabled={fieldSaving}>
+                <CheckIcon className="h-4 w-4 text-primary" />
               </Button>
-              <Button size="sm" variant="outline" onClick={() => setEditingField(null)} disabled={fieldSaving}>
-                取消
+              <Button size="icon" variant="ghost" onClick={() => setEditingField(null)} disabled={fieldSaving}>
+                <XIcon className="h-4 w-4" />
               </Button>
             </div>
-          </div>
-        ) : (
-          <div
-            className="group flex items-start gap-2 cursor-pointer w-fit"
-            onClick={() => { setEditDescription(client.description ?? ""); setEditingField("description"); }}
-            title="點擊編輯簡介"
-          >
-            <p className="text-muted-foreground">
-              {client.description || <span className="italic text-sm">點擊新增簡介...</span>}
-            </p>
-            <PencilIcon className="h-3.5 w-3.5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity mt-1 shrink-0" />
-          </div>
-        )}
-      </div>
+          ) : (
+            <div
+              className="group flex items-center gap-2 cursor-pointer w-fit"
+              onClick={() => { setEditNickname(client.nickname); setEditingField("nickname"); }}
+              title="點擊編輯名稱"
+            >
+              <h1 className="text-2xl font-bold">{client.nickname}</h1>
+              <PencilIcon className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
+          )}
 
-      <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold">相關報告</h2>
-        <div className="flex gap-2">
-          <Button
-            size="sm"
-            variant="outline"
-            className="text-destructive hover:text-destructive hover:bg-destructive/5"
-            onClick={() => setDeleteClientOpen(true)}
-          >
-            <Trash2Icon className="h-4 w-4 mr-1.5" />
-            刪除標籤
-          </Button>
+          {editingField === "description" ? (
+            <div className="space-y-2">
+              <Textarea
+                value={editDescription}
+                onChange={(e) => setEditDescription(e.target.value)}
+                className="max-w-md resize-none"
+                rows={3}
+                autoFocus
+                onKeyDown={(e) => { if (e.key === "Escape") setEditingField(null); }}
+              />
+              <div className="flex gap-2">
+                <Button size="sm" onClick={() => handleSaveField("description")} disabled={fieldSaving}>
+                  <CheckIcon className="h-3.5 w-3.5 mr-1" />
+                  儲存
+                </Button>
+                <Button size="sm" variant="outline" onClick={() => setEditingField(null)} disabled={fieldSaving}>
+                  取消
+                </Button>
+              </div>
+            </div>
+          ) : (
+            <div
+              className="group flex items-start gap-2 cursor-pointer w-fit"
+              onClick={() => { setEditDescription(client.description ?? ""); setEditingField("description"); }}
+              title="點擊編輯簡介"
+            >
+              <p className="text-muted-foreground">
+                {client.description || <span className="italic text-sm">點擊新增簡介...</span>}
+              </p>
+              <PencilIcon className="h-3.5 w-3.5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity mt-1 shrink-0" />
+            </div>
+          )}
+        </div>
+
+        <div className="flex gap-2 shrink-0 pt-1">
+          {isTagOwner(currentUserId ?? "", client) && (
+            <>
+              <Button
+                size="sm"
+                variant="outline"
+                className="text-destructive hover:text-destructive hover:bg-destructive/5"
+                onClick={() => setDeleteClientOpen(true)}
+              >
+                <Trash2Icon className="h-4 w-4 mr-1.5" />
+                刪除標籤
+              </Button>
+              <Button size="sm" variant="outline" onClick={() => setPermissionDialog("viewers")}>
+                <UserPlusIcon className="h-4 w-4 mr-1.5" />
+                新增瀏覽者
+              </Button>
+              <Button size="sm" variant="outline" onClick={() => setPermissionDialog("editors")}>
+                <UserPlusIcon className="h-4 w-4 mr-1.5" />
+                新增編輯者
+              </Button>
+            </>
+          )}
           <Button size="sm" onClick={openAddDialog}>
             <PlusIcon className="h-4 w-4 mr-1.5" />
             關聯報告
           </Button>
         </div>
       </div>
+
+      {(client.viewers.length > 0 || client.editors.length > 0) && (
+        <div className="mb-5 flex flex-wrap gap-6">
+          {(["viewers", "editors"] as const).map((field) =>
+            client[field].length > 0 ? (
+              <div key={field}>
+                <p className="text-xs text-muted-foreground mb-1.5 font-medium">
+                  {field === "viewers" ? "瀏覽者" : "編輯者"}
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {client[field].map((id) => (
+                    <div key={id} className="flex items-center gap-1 text-xs bg-muted px-2.5 py-1 rounded-full">
+                      <span>{userEmailMap[id] ?? `${id.slice(0, 8)}...`}</span>
+                      {isTagOwner(currentUserId ?? "", client) && (
+                        <button
+                          onClick={() => handleRemoveMember(field, id)}
+                          disabled={savingPermission}
+                          className="text-muted-foreground hover:text-destructive transition-colors ml-0.5 disabled:opacity-40"
+                          title="移除"
+                        >
+                          <XIcon className="h-3 w-3" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : null
+          )}
+        </div>
+      )}
+
+      <h2 className="text-lg font-semibold mb-4">報告列表</h2>
 
       {clientReports.length === 0 ? (
         <div className="text-center py-14 text-muted-foreground border rounded-lg">
@@ -288,7 +429,7 @@ export default function TagDetailPage() {
                       <FileTypeIcon fileType={r.fileType} />
                       {r.title}
                       <span className="ml-auto text-xs text-muted-foreground font-normal">
-                        {new Date(r.createdAt).toLocaleDateString("zh-TW")}
+                        {new Date(r.updatedAt || r.createdAt).toLocaleDateString("zh-TW")}
                       </span>
                     </CardTitle>
                   </CardHeader>
@@ -333,6 +474,31 @@ export default function TagDetailPage() {
             <Button variant="destructive" onClick={handleDeleteClient} disabled={deletingClient}>
               {deletingClient ? "刪除中..." : "確認刪除"}
             </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={permissionDialog !== null} onOpenChange={(open) => { if (!open) { setPermissionDialog(null); setNewMemberEmail(""); } }}>
+        <DialogContent className="max-w-md">
+          <DialogHeader>
+            <DialogTitle>{permissionDialog === "viewers" ? "新增瀏覽者" : "新增編輯者"}</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-3 py-2">
+            <div className="flex gap-2 pt-1">
+              <Input
+                placeholder="輸入 Email"
+                value={newMemberEmail}
+                onChange={(e) => setNewMemberEmail(e.target.value)}
+                onKeyDown={(e) => { if (e.key === "Enter" && permissionDialog) handleAddMember(permissionDialog); }}
+                className="text-sm"
+              />
+              <Button onClick={() => permissionDialog && handleAddMember(permissionDialog)} disabled={savingPermission || !newMemberEmail.trim()} size="sm">
+                新增
+              </Button>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => { setPermissionDialog(null); setNewMemberEmail(""); }}>關閉</Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>

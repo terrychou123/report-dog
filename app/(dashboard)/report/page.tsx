@@ -83,14 +83,22 @@ async function SearchReportsList({ query }: { query: string }) {
             <a href={`/report/${report.id}`} target="_blank" rel="noopener noreferrer" className="block">
               <Card className="hover:shadow-md transition-shadow cursor-pointer">
                 <CardHeader className="py-3 px-4 pr-12">
-                  <CardTitle className="text-sm font-medium flex items-center gap-2 flex-wrap">
-                    <FileTypeIcon fileType={report.fileType} />
-                    <span className="flex-1">{report.title}</span>
+                  <CardTitle className="text-sm font-medium">
+                    <div className="flex items-center gap-2">
+                      <FileTypeIcon fileType={report.fileType} className="shrink-0" />
+                      <span className="break-words">{report.title}</span>
+                      {tagNames.length > 0 && (
+                        <span className="hidden md:inline-flex items-center gap-1 text-xs font-normal text-muted-foreground whitespace-nowrap">
+                          <TagIcon className="h-3 w-3" />
+                          {tagNames.join("、")}
+                        </span>
+                      )}
+                    </div>
                     {tagNames.length > 0 && (
-                      <span className="flex items-center gap-1 text-xs font-normal text-muted-foreground">
-                        <TagIcon className="h-3 w-3" />
-                        {tagNames.join("、")}
-                      </span>
+                      <div className="flex md:hidden items-center gap-1 text-xs font-normal text-muted-foreground mt-1">
+                        <TagIcon className="h-3 w-3 shrink-0" />
+                        <span className="break-words">{tagNames.join("、")}</span>
+                      </div>
                     )}
                   </CardTitle>
                 </CardHeader>
@@ -122,7 +130,7 @@ export default async function ReportsPage({
 }) {
   const { q } = await searchParams;
   return (
-    <div className="p-8 max-w-3xl">
+    <div className="p-4 md:p-8 max-w-3xl">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold">我的報告</h1>
