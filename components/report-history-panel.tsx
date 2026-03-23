@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { HistoryIcon, RotateCcwIcon } from "lucide-react";
@@ -60,16 +60,20 @@ export function ReportHistoryPanel({ reportId, canRestore, open, onOpenChange, o
   }
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent className="w-80 sm:w-96 flex flex-col">
-        <SheetHeader>
-          <SheetTitle className="flex items-center gap-2">
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="max-w-md max-h-[70vh] flex flex-col">
+        <DialogHeader>
+          <DialogTitle className="flex items-center gap-2">
             <HistoryIcon className="h-4 w-4" />
             版本歷史
-          </SheetTitle>
-        </SheetHeader>
+          </DialogTitle>
+        </DialogHeader>
 
-        <div className="flex-1 overflow-y-auto mt-4 space-y-2">
+        <p className="text-xs text-muted-foreground px-1">
+          免費用戶僅保存最新的五筆資料
+        </p>
+
+        <div className="flex-1 overflow-y-auto mt-2 space-y-2">
           {loading ? (
             <>
               {[1, 2, 3].map((i) => <Skeleton key={i} className="h-16 w-full" />)}
@@ -111,7 +115,7 @@ export function ReportHistoryPanel({ reportId, canRestore, open, onOpenChange, o
             ))
           )}
         </div>
-      </SheetContent>
-    </Sheet>
+      </DialogContent>
+    </Dialog>
   );
 }

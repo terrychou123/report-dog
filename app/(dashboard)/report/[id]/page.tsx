@@ -326,7 +326,7 @@ export default function ReportEditorPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML() }),
     });
-    if (res.ok) { toast.success("報告已儲存"); isDirtyRef.current = false; }
+    if (res.ok) { toast.success("已儲存", { description: "免費用戶僅保存最新的五筆歷史版本" }); isDirtyRef.current = false; }
     else toast.error("儲存失敗，請重試");
     setSaving(false);
   }

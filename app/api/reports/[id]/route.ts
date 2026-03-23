@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { reports, clients, clientReports, reportRevisions } from "@/db/schema";
-import { eq, and, or, sql, desc } from "drizzle-orm";
+import { eq, and, or, sql, desc, inArray } from "drizzle-orm";
 
 async function canAccessReport(reportId: string, userId: string): Promise<boolean> {
   const [report] = await db
@@ -123,6 +123,18 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
       fileType: current.fileType,
       versionNumber: nextVersion,
     });
+
+    // 刪除超過 5 筆的舊版本
+    const MAX_REVISIONS = 5;
+    const allRevisions = await db
+      .select({ id: reportRevisions.id })
+      .from(reportRevisions)
+      .where(eq(reportRevisions.reportId, id))
+      .orderBy(desc(reportRevisions.versionNumber));
+    if (allRevisions.length > MAX_REVISIONS) {
+      const idsToDelete = allRevisions.slice(MAX_REVISIONS).map((r) => r.id);
+      await db.delete(reportRevisions).where(inArray(reportRevisions.id, idsToDelete));
+    }
   }
 
   const [updated] = await db
