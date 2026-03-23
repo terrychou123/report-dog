@@ -9,35 +9,35 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   BotIcon,
   TagIcon,
+  UsersIcon,
+  ClipboardListIcon,
   ChevronDownIcon,
-  CalendarIcon,
-  ClipboardCheckIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
+  title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
   description:
-    "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
-  alternates: { canonical: "/hospital" },
+    "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。社工、照服員、護理師、職能治療師在同一平台協作，文件不再散落，評鑑前不再手忙腳亂。立即免費試用。",
+  alternates: { canonical: "/day-care" },
   openGraph: {
-    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
+    title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
     description:
-      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
+      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。社工、照服員、護理師、職能治療師在同一平台協作，文件不再散落，評鑑前不再手忙腳亂。立即免費試用。",
   },
   twitter: {
-    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
+    title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
     description:
-      "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
+      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。社工、照服員、護理師、職能治療師在同一平台協作，文件不再散落，評鑑前不再手忙腳亂。立即免費試用。",
   },
 };
 
-const HOSPITAL_NURSING_STATS = [
-  { value: "↓ 60%", label: "文書交接時間" },
-  { value: "30 秒", label: "當班文件確認" },
-  { value: "評鑑零補件", label: "護理文書到位率" },
+const DAY_CARE_STATS = [
+  { value: "↓ 48%", label: "活動紀錄撰寫時間" },
+  { value: "零遺漏", label: "評鑑文件備審" },
+  { value: "3 職類", label: "同平台協作" },
 ];
 
-export default function HospitalNursingPage() {
+export default function DayCarePage() {
   return (
     <main className="min-h-screen flex flex-col">
       <script
@@ -49,34 +49,34 @@ export default function HospitalNursingPage() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "報告汪適合護理部哪些角色使用？",
+                name: "報告汪適合日照中心哪些角色使用？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "護理師、護理長、副護理長都適用。護理師用班別標籤確認當班文書、AI 輔助撰寫護理紀錄；護理長用標籤追蹤各班文件完成狀況；副護理長則用評鑑備審標籤群組統一備齊評鑑文件。",
+                  text: "社工師、照服員、護理師、職能治療師都適用。社工師用標籤管理個案服務計畫與評鑑文件；照服員用 AI 輔助撰寫活動紀錄；護理師管理健康紀錄與用藥記錄；職能治療師追蹤復健進度文件。",
                 },
               },
               {
                 "@type": "Question",
-                name: "如何用班別標籤管理交接班文書？",
+                name: "如何管理每日活動紀錄？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "建立「白班」、「小夜」、「大夜」獨立標籤，並搭配頻率標籤（每班必做、每日一次、每週）做雙重分類。護理師交接完畢後篩選當班標籤，即可一眼看出本班應完成哪些文書，並可拖曳調整執行順序。",
+                  text: "照服員填入當日活動內容，AI 整理成符合機構格式的活動紀錄，大幅縮短撰寫時間。搭配頻率標籤（每日、每週），督導可即時確認紀錄繳交狀況，不再逐一催繳。",
                 },
               },
               {
                 "@type": "Question",
-                name: "同一份文件需要跨多個標籤分類怎麼辦？",
+                name: "如何快速備妥評鑑文件？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "報告汪支援多標籤功能，同一份文件可同時貼上「感控必備」、「設備維護」、「個案追蹤」等多個標籤，不需搬移或複製文件。各部門或需求篩選對應標籤，30 秒內確認文件狀態。",
+                  text: "建立「評鑑備審」標籤群組，將個案服務計畫、活動紀錄、健康評估等文件貼上此標籤。評鑑前點一個標籤，所有需要的報告全部列出，拖曳排序確認後一份都不漏。",
                 },
               },
               {
                 "@type": "Question",
-                name: "如何準備醫院評鑑的護理文書？",
+                name: "不同職類的文件如何統一管理？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "提前建立「評鑑備審」標籤群組，日常產出的護理品質指標報告、病房文件直接貼上此標籤。評鑑前只需篩選該標籤，所有文件全部到位，無需重新整理，達到零補件目標。",
+                  text: "依職類建立標籤（社工、照服員、護理師、職能治療師），每個職類的文件分區管理，互不干擾。督導或主任可切換標籤快速掌握各職類文件狀況，跨職類協作更有效率。",
                 },
               },
               {
@@ -96,14 +96,14 @@ export default function HospitalNursingPage() {
       {/* Hero */}
       <section className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">
         <Badge variant="outline" className="mb-6 px-4 py-1.5 text-sm">
-          護理部專用
+          日照中心專用
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          護理文書管理系統｜<span className="text-primary">病房報告整合</span>
+          日照中心文書管理系統｜<span className="text-primary">AI報告生成・標籤分類</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
-          班別標籤管理交接班文書、多標籤分類不重複搬移、評鑑備審標籤一鍵到位──
-          讓護理長省下追文件的時間，把心力還給病房照護品質。
+          活動紀錄 AI 輔助撰寫、個案服務計畫標籤管理、評鑑備審一鍵彙整——
+          讓社工、照服員、護理師在同一平台協作，評鑑前不再手忙腳亂。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <StartButton>立即開始 — 免費</StartButton>
@@ -114,7 +114,7 @@ export default function HospitalNursingPage() {
       {/* Stats */}
       <section className="border-y bg-muted/20 py-14 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-          {HOSPITAL_NURSING_STATS.map((stat) => (
+          {DAY_CARE_STATS.map((stat) => (
             <div key={stat.label}>
               <div className="text-4xl font-extrabold text-primary mb-1">{stat.value}</div>
               <div className="text-muted-foreground text-sm">{stat.label}</div>
@@ -127,32 +127,32 @@ export default function HospitalNursingPage() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">醫院護理文書管理這樣做：班別標籤交接班，評鑑備審一鍵備齊</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">日照中心文書管理這樣做：活動紀錄 AI 輔助，評鑑備審一鍵彙整，多職類協作不混亂</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              從班別標籤到評鑑備審，從多標籤分類到 AI 文書輔助，每個功能都以護理工作流程為中心。
+              從活動紀錄到個案服務計畫，從評鑑備審到跨職類協作，每個功能都以日照工作流程為中心。
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
-                icon: <CalendarIcon className="h-6 w-6" />,
-                title: "班別標籤自動分類",
-                desc: "白班、小夜、大夜獨立標籤，護理師交接後即知當班該完成哪些文書。",
+                icon: <BotIcon className="h-6 w-6" />,
+                title: "活動紀錄 AI 輔助撰寫",
+                desc: "照服員填入當日活動內容，AI 整理成符合機構格式的紀錄，品質提升、時間減半。",
               },
               {
                 icon: <TagIcon className="h-6 w-6" />,
-                title: "多標籤文件不重複搬移",
-                desc: "同一份文件貼多個標籤，感控、設備、個案追蹤各自篩選，30 秒確認文件狀態。",
+                title: "評鑑備審標籤群組管理",
+                desc: "「評鑑備審」獨立標籤群組，個案服務計畫、活動紀錄、健康評估一鍵列出，評鑑前從容應對。",
               },
               {
-                icon: <ClipboardCheckIcon className="h-6 w-6" />,
-                title: "評鑑備審一鍵備齊",
-                desc: "「評鑑備審」標籤群組提前建好，評鑑前篩一個標籤全部到位，零補件。",
+                icon: <UsersIcon className="h-6 w-6" />,
+                title: "多職類文件集中追蹤",
+                desc: "社工、照服員、護理師、職能治療師依職類分區，督導一眼掌握各職類文件繳交狀況。",
               },
               {
-                icon: <BotIcon className="h-6 w-6" />,
-                title: "AI 輔助護理文書撰寫",
-                desc: "輸入照護重點，AI 整理成符合護理格式的紀錄，節省文書時間。",
+                icon: <ClipboardListIcon className="h-6 w-6" />,
+                title: "個案服務計畫即時更新",
+                desc: "社工師直接在平台更新個案服務計畫，版本清晰可追溯，評鑑委員來查核也從容應對。",
               },
             ].map((f) => (
               <Card key={f.title} className="group hover:shadow-md transition-shadow">
@@ -173,41 +173,41 @@ export default function HospitalNursingPage() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials: 日照中心 */}
       <section className="py-20 px-6 bg-muted/20">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-4 mb-10">
             <div className="flex-1 h-px bg-border" />
             <h2 className="text-sm font-medium text-muted-foreground whitespace-nowrap tracking-wider uppercase">
-              醫院護理部
+              日間照顧中心
             </h2>
             <div className="flex-1 h-px bg-border" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
-            {/* 蔡護理長 — 精選 */}
+            {/* 陳社工 — 精選 */}
             <Card className="border-primary/40 md:col-span-3">
               <CardContent className="pt-6">
                 <div className="flex items-start justify-between gap-3 flex-wrap">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-blue-100 text-blue-800 shrink-0">
-                      蔡
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-teal-100 text-teal-800 shrink-0">
+                      陳
                     </div>
                     <div>
-                      <div className="text-sm font-medium">蔡護理長</div>
-                      <div className="text-xs text-muted-foreground mt-0.5">台北某區域醫院・內科病房護理長</div>
+                      <div className="text-sm font-medium">陳社工</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">台北市日照中心・社工師</div>
                     </div>
                   </div>
                   <Badge variant="secondary">精選評價</Badge>
                 </div>
                 <div className="text-amber-500 text-sm mt-3">★★★★★</div>
                 <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                  一個病房每天要跑的護理文書種類繁多：交班紀錄、護理評估、感染管制記錄、跌倒風險評估……班班不同，輪班護理師常常不確定自己該先完成哪份。
+                  日照中心文書最複雜的地方在於「多職類、多個案、文件類型多」。我負責 20 幾位個案的服務計畫，還要協調照服員的活動紀錄和護理師的健康評估，以前每到評鑑季就焦頭爛額，根本不知道誰的文件有沒有到位。
                   <br /><br />
-                  導入<span className="text-foreground font-medium">報告汪</span>後，我們把文件依<span className="text-foreground font-medium">班別標籤</span>（白班、小夜、大夜）和<span className="text-foreground font-medium">頻率標籤</span>（每班必做、每日一次、每週）做雙重分類，護理師交接完就能拖曳調整當班的執行順序。護理部主任說這是她看過最有條理的<span className="text-foreground font-medium">護理文書管理系統</span>，已經推薦給其他病房。
+                  用了<span className="text-foreground font-medium">報告汪</span>的<span className="text-foreground font-medium">標籤群組功能</span>，我把「個案服務計畫」、「活動紀錄」、「健康評估」各自建立標籤，每次更新文件就貼標籤，評鑑前點一下「評鑑備審」群組，所有要提交的文件全部跑出來。<span className="text-foreground font-medium">評鑑委員那天，我是中心裡最不緊張的人。</span>
                 </p>
                 <div className="flex flex-wrap gap-1 mt-3">
-                  {["護理文書管理", "交班紀錄系統", "病房報告管理", "護理部行政效率"].map((tag) => (
+                  {["個案服務計畫", "評鑑備審管理", "日照社工文書", "日間照顧機構評鑑"].map((tag) => (
                     <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">
                       {tag}
                     </span>
@@ -216,26 +216,26 @@ export default function HospitalNursingPage() {
               </CardContent>
             </Card>
 
-            {/* 羅護理師 */}
+            {/* 林照服員 */}
             <Card className="md:col-span-2">
               <CardContent className="pt-6">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-purple-100 text-purple-800 shrink-0">
-                    羅
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-rose-100 text-rose-800 shrink-0">
+                    林
                   </div>
                   <div>
-                    <div className="text-sm font-medium">羅護理師</div>
-                    <div className="text-xs text-muted-foreground mt-0.5">台南市立醫院・加護病房資深護理師</div>
+                    <div className="text-sm font-medium">林照服員</div>
+                    <div className="text-xs text-muted-foreground mt-0.5">新北市日照中心・資深照服員</div>
                   </div>
                 </div>
                 <div className="text-amber-500 text-sm mt-3">★★★★★</div>
                 <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                  加護病房的文書壓力特別大，感控報表、儀器維護紀錄、病人生命徵象追蹤……每樣都急。過去同事各自建資料夾，找文件要問一圈。
+                  我每天要帶 10 幾位長輩做活動，活動結束後還要寫紀錄，以前常常不知道該怎麼描述，寫得又慢又不好看，督導還要一直退回來修改。
                   <br /><br />
-                  現在用<span className="text-foreground font-medium">分類標籤</span>把「感控必備」、「設備維護」、「個案追蹤」分開，每份報告不必搬到三個地方，同一份文件<span className="text-foreground font-medium">貼多個標籤</span>就好。交接班只要篩當下標籤，30 秒內就能確認所有文件狀態，大幅減少 ICU 的文書焦慮。
+                  現在用<span className="text-foreground font-medium">報告汪的 AI 輔助</span>，我只要把今天做了什麼活動、長輩反應怎樣輸入進去，系統就幫我整理成完整的活動紀錄格式，<span className="text-foreground font-medium">以前要花 20 分鐘，現在 8 分鐘就搞定</span>，督導說我的紀錄品質也比以前好很多。
                 </p>
                 <div className="flex flex-wrap gap-1 mt-3">
-                  {["加護病房文書", "感染管制報表", "ICU護理紀錄", "多標籤文件分類"].map((tag) => (
+                  {["活動紀錄撰寫", "AI文書輔助", "日照照服員", "長輩活動記錄"].map((tag) => (
                     <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">
                       {tag}
                     </span>
@@ -244,26 +244,26 @@ export default function HospitalNursingPage() {
               </CardContent>
             </Card>
 
-            {/* 鄭副護理長 */}
+            {/* 張護理師 */}
             <Card>
               <CardContent className="pt-6">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-amber-100 text-amber-800 shrink-0">
-                    鄭
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-green-100 text-green-800 shrink-0">
+                    張
                   </div>
                   <div>
-                    <div className="text-sm font-medium">鄭副護理長</div>
-                    <div className="text-xs text-muted-foreground mt-0.5">桃園某醫學中心・外科病房副護理長</div>
+                    <div className="text-sm font-medium">張護理師</div>
+                    <div className="text-xs text-muted-foreground mt-0.5">桃園市日照中心・護理師</div>
                   </div>
                 </div>
                 <div className="text-amber-500 text-sm mt-3">★★★★☆</div>
                 <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                  評鑑年最麻煩的就是把散落各處的護理品質指標報告集中起來。以前要花將近兩週重新整理，還怕漏項目。
+                  日照中心的護理師要管健康紀錄、用藥記錄、還要跟社工確認個案狀況，文件散落在各處很難追蹤。
                   <br /><br />
-                  今年我們提前三個月就用<span className="text-foreground font-medium">報告汪</span>建好「評鑑備審」標籤，每次產出的文件直接貼上去，到了評鑑前夕只需要<span className="text-foreground font-medium">篩一個標籤</span>就全部到位。評審委員翻閱文件時直接說「這間病房的文件是整個醫院最整齊的」，護理長當場感動快哭出來。
+                  報告汪讓我用<span className="text-foreground font-medium">職類標籤</span>把護理文件和社工文件分開管理，但需要跨職類查閱時又能一起看，<span className="text-foreground font-medium">協作效率明顯提升</span>，健康紀錄也不再遺漏。
                 </p>
                 <div className="flex flex-wrap gap-1 mt-3">
-                  {["醫院評鑑準備", "護理品質指標", "病房文件整理", "評鑑文件管理系統"].map((tag) => (
+                  {["健康紀錄管理", "多職類協作", "日照護理文書", "用藥紀錄"].map((tag) => (
                     <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">
                       {tag}
                     </span>
@@ -273,9 +273,9 @@ export default function HospitalNursingPage() {
             </Card>
           </div>
 
-          {/* Stats Row */}
+          {/* 日照 Stats Row */}
           <div className="grid grid-cols-3 gap-3">
-            {HOSPITAL_NURSING_STATS.map((s) => (
+            {DAY_CARE_STATS.map((s) => (
               <div key={s.label} className="bg-background rounded-xl py-4 px-3 text-center border">
                 <div className="text-xl font-semibold">{s.value}</div>
                 <div className="text-xs text-muted-foreground mt-1">{s.label}</div>
@@ -286,26 +286,26 @@ export default function HospitalNursingPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-6" aria-label="常見問題">
+      <section className="py-20 px-6 bg-muted/20" aria-label="常見問題">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">常見問題</h2>
           <div className="space-y-4">
             {[
               {
-                q: "報告汪適合護理部哪些角色使用？",
-                a: "護理師、護理長、副護理長都適用。護理師用班別標籤確認當班文書、AI 輔助撰寫護理紀錄；護理長用標籤追蹤各班文件完成狀況；副護理長則用評鑑備審標籤群組統一備齊評鑑文件。",
+                q: "報告汪適合日照中心哪些角色使用？",
+                a: "社工師、照服員、護理師、職能治療師都適用。社工師用標籤管理個案服務計畫與評鑑文件；照服員用 AI 輔助撰寫活動紀錄；護理師管理健康紀錄與用藥記錄；職能治療師追蹤復健進度文件。",
               },
               {
-                q: "如何用班別標籤管理交接班文書？",
-                a: "建立「白班」、「小夜」、「大夜」獨立標籤，並搭配頻率標籤（每班必做、每日一次、每週）做雙重分類。護理師交接完畢後篩選當班標籤，即可一眼看出本班應完成哪些文書，並可拖曳調整執行順序。",
+                q: "如何管理每日活動紀錄？",
+                a: "照服員填入當日活動內容，AI 整理成符合機構格式的活動紀錄，大幅縮短撰寫時間。搭配頻率標籤（每日、每週），督導可即時確認紀錄繳交狀況，不再逐一催繳。",
               },
               {
-                q: "同一份文件需要跨多個標籤分類怎麼辦？",
-                a: "報告汪支援多標籤功能，同一份文件可同時貼上「感控必備」、「設備維護」、「個案追蹤」等多個標籤，不需搬移或複製文件。各部門或需求篩選對應標籤，30 秒內確認文件狀態。",
+                q: "如何快速備妥評鑑文件？",
+                a: "建立「評鑑備審」標籤群組，將個案服務計畫、活動紀錄、健康評估等文件貼上此標籤。評鑑前點一個標籤，所有需要的報告全部列出，拖曳排序確認後一份都不漏。",
               },
               {
-                q: "如何準備醫院評鑑的護理文書？",
-                a: "提前建立「評鑑備審」標籤群組，日常產出的護理品質指標報告、病房文件直接貼上此標籤。評鑑前只需篩選該標籤，所有文件全部到位，無需重新整理，達到零補件目標。",
+                q: "不同職類的文件如何統一管理？",
+                a: "依職類建立標籤（社工、照服員、護理師、職能治療師），每個職類的文件分區管理，互不干擾。督導或主任可切換標籤快速掌握各職類文件狀況，跨職類協作更有效率。",
               },
               {
                 q: "目前收費嗎？",
@@ -353,6 +353,24 @@ export default function HospitalNursingPage() {
                 </CardContent>
               </Card>
             </Link>
+            <Link href="/hospital" title="醫院 AI 文書管理系統介紹" className="block group">
+              <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
+                <CardContent className="pt-5 pb-5">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-lg">🏥</span>
+                    <span className="font-semibold text-sm">醫院</span>
+                  </div>
+                  <div className="text-2xl font-bold text-primary mb-1">↓ 60%</div>
+                  <p className="text-xs text-muted-foreground mb-2">文書交接時間</p>
+                  <p className="text-sm text-muted-foreground">
+                    班別標籤管理交接班文書，評鑑備審一鍵備齊，護理長省心省力。
+                  </p>
+                  <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
+                    護理文書管理系統・交班紀錄工具 →
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
             <Link href="/nursing-home" title="護理之家多職種文書協作平台介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
@@ -371,35 +389,17 @@ export default function HospitalNursingPage() {
                 </CardContent>
               </Card>
             </Link>
-            <Link href="/day-care" title="日照中心 AI 文書管理系統介紹" className="block group">
-              <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
-                <CardContent className="pt-5 pb-5">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">🏢</span>
-                    <span className="font-semibold text-sm">日照中心</span>
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-1">↓ 48%</div>
-                  <p className="text-xs text-muted-foreground mb-2">活動紀錄時間</p>
-                  <p className="text-sm text-muted-foreground">
-                    個案服務計畫和活動紀錄用標籤分類後，評鑑前不再手忙腳亂。
-                  </p>
-                  <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    日照中心文書管理系統 →
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-6 text-center bg-muted/20">
+      <section className="py-24 px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          準備好讓文書不再拖累病房照護品質了嗎？
+          準備好讓日照中心文書走向智慧管理了嗎？
         </h2>
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
-          加入報告汪，護理文書交接時間減少 60%，評鑑零補件。
+          加入報告汪，活動紀錄時間減少 48%，評鑑文件零遺漏，多職類同平台協作。
         </p>
         <StartButton>免費開始使用</StartButton>
       </section>
@@ -413,7 +413,7 @@ export default function HospitalNursingPage() {
         <div className="flex items-center gap-6">
           <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
           <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" title="免費試用報告汪醫院護理部方案" className="hover:text-primary transition-colors">註冊</Link>
+          <Link href="/auth/sign-up" title="免費試用報告汪日照中心方案" className="hover:text-primary transition-colors">註冊</Link>
         </div>
         <ThemeSwitcher />
       </footer>

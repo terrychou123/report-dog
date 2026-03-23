@@ -21,6 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/home-care", lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/hospital", lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/nursing-home", lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/day-care", lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/pricing", lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/blog", lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     ...blogEntries,

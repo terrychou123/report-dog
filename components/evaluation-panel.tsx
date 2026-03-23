@@ -16,13 +16,9 @@ import { toast } from "sonner";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { marked } from "marked";
+import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
 
-const PROFILES = [
-  { id: "daycare", label: "日間照顧中心", ready: true },
-  { id: "home-care", label: "居家服務機構", ready: true },
-  { id: "nursing-home", label: "住宿型照顧機構", ready: true },
-  { id: "hospital", label: "醫院評鑑", ready: true },
-];
+const PROFILES = getAllProfiles();
 
 type Props = {
   open: boolean;
@@ -40,12 +36,15 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
+  const savedTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const runAnalysis = () => {
     if (reportIds.length < 1) return;
 
     abortRef.current?.abort();
+    if (savedTimerRef.current) clearTimeout(savedTimerRef.current);
     setResult("");
+    setSaved(false);
     setLoading(true);
     const controller = new AbortController();
     abortRef.current = controller;
@@ -116,7 +115,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
       });
       if (!res.ok) throw new Error("儲存失敗");
       setSaved(true);
-      setTimeout(() => setSaved(false), 2000);
+      savedTimerRef.current = setTimeout(() => setSaved(false), 2000);
       onSaved?.();
     } catch {
       toast.error("儲存失敗，請稍後再試。");

@@ -366,7 +366,7 @@ export default function NursingHomePage() {
               其他長照產業解決方案
             </span>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="/home-care" title="居服機構 AI 文書管理系統介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
@@ -399,6 +399,24 @@ export default function NursingHomePage() {
                   </p>
                   <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
                     護理文書管理系統・交班紀錄工具 →
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/day-care" title="日照中心 AI 文書管理系統介紹" className="block group">
+              <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
+                <CardContent className="pt-5 pb-5">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-lg">🏢</span>
+                    <span className="font-semibold text-sm">日照中心</span>
+                  </div>
+                  <div className="text-2xl font-bold text-primary mb-1">↓ 48%</div>
+                  <p className="text-xs text-muted-foreground mb-2">活動紀錄時間</p>
+                  <p className="text-sm text-muted-foreground">
+                    個案服務計畫和活動紀錄用標籤分類後，評鑑前不再手忙腳亂。
+                  </p>
+                  <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
+                    日照中心文書管理系統 →
                   </div>
                 </CardContent>
               </Card>

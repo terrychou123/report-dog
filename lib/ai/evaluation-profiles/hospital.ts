@@ -253,7 +253,7 @@ export const hospitalProfile = {
     },
     {
       name: "第一篇第四章 病歷資訊",
-      shortCode: "病歷",
+      shortCode: "歷",
       items: [
         {
           id: 1,

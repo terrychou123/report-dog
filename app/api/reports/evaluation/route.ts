@@ -79,6 +79,9 @@ export async function POST(req: NextRequest) {
   if (!Array.isArray(reportIds) || reportIds.length < 1 || reportIds.length > 50) {
     return NextResponse.json({ error: '請提供 1 至 50 份報告 ID' }, { status: 400 });
   }
+  if (reportIds.some((id: unknown) => typeof id !== 'string' || id.length > 100)) {
+    return NextResponse.json({ error: '無效的報告 ID' }, { status: 400 });
+  }
   if (!profileId || typeof profileId !== 'string') {
     return NextResponse.json({ error: '請指定評鑑類型' }, { status: 400 });
   }
@@ -91,13 +94,12 @@ export async function POST(req: NextRequest) {
   }
 
   // Fetch reports accessible to the user (own + shared via tags)
-  const ownReports = await db
-    .select()
-    .from(reports)
-    .where(and(inArray(reports.id, reportIds), eq(reports.userId, userId)));
-
-  const sharedReports = await db
-    .selectDistinct({
+  const [ownReports, sharedReports] = await Promise.all([
+    db
+      .select()
+      .from(reports)
+      .where(and(inArray(reports.id, reportIds), eq(reports.userId, userId))),
+    db.selectDistinct({
       id: reports.id,
       userId: reports.userId,
       lastEditedByUserId: reports.lastEditedByUserId,
@@ -120,7 +122,8 @@ export async function POST(req: NextRequest) {
           sql`${userId} = ANY(${clients.editors})`
         )
       )
-    );
+    ),
+  ]);
 
   const seen = new Set<string>(ownReports.map((r) => r.id));
   const reportList = [...ownReports];
@@ -172,12 +175,13 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: `AI 分析失敗：${message}` }, { status: 502 });
   }
 
+  const encoder = new TextEncoder();
   const readable = new ReadableStream({
     async start(controller) {
       try {
         for await (const chunk of stream) {
           const text = chunk.choices[0]?.delta?.content || '';
-          if (text) controller.enqueue(new TextEncoder().encode(text));
+          if (text) controller.enqueue(encoder.encode(text));
         }
         controller.close();
       } catch (e) {
