@@ -45,6 +45,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
     if (savedTimerRef.current) clearTimeout(savedTimerRef.current);
     setResult("");
     setSaved(false);
+    setSaved(false);
     setLoading(true);
     const controller = new AbortController();
     abortRef.current = controller;
@@ -91,7 +92,12 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
     if (!open) {
       abortRef.current?.abort();
       setResult("");
+      if (savedTimerRef.current) clearTimeout(savedTimerRef.current);
+      setSaved(false);
     }
+    return () => {
+      if (savedTimerRef.current) clearTimeout(savedTimerRef.current);
+    };
   }, [open]);
 
   const handleOpenChange = (nextOpen: boolean) => {

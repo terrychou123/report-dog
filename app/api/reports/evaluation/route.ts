@@ -3,14 +3,9 @@ import { createClient } from '@/lib/supabase/server';
 import { db } from '@/db';
 import { reports, clients, clientReports } from '@/db/schema';
 import { eq, and, inArray, or, sql } from 'drizzle-orm';
-import OpenAI from 'openai';
+import { createOpenRouterClient } from '@/lib/ai/openrouter-client';
 import { processContent } from '@/lib/ai/content-utils';
 import { getProfile } from '@/lib/ai/evaluation-profiles';
-
-const openai = new OpenAI({
-  baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: process.env.OPENROUTER_API_KEY,
-});
 
 function buildSystemPrompt(profileId: string): string {
   const profile = getProfile(profileId);
@@ -75,7 +70,15 @@ export async function POST(req: NextRequest) {
   const userId = data?.claims?.sub;
   if (!userId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const { reportIds, profileId } = await req.json();
+  const openai = createOpenRouterClient();
+
+  let body: unknown;
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ error: '無效的請求格式' }, { status: 400 });
+  }
+  const { reportIds, profileId } = body as { reportIds: unknown; profileId: unknown };
   if (!Array.isArray(reportIds) || reportIds.length < 1 || reportIds.length > 50) {
     return NextResponse.json({ error: '請提供 1 至 50 份報告 ID' }, { status: 400 });
   }

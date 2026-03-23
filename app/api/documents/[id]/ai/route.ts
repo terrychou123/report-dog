@@ -3,12 +3,7 @@ import { createClient } from '@/lib/supabase/server';
 import { db } from '@/db';
 import { documents } from '@/db/schema';
 import { eq, and } from 'drizzle-orm';
-import OpenAI from 'openai';
-
-const openai = new OpenAI({
-  baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: process.env.OPENROUTER_API_KEY,
-});
+import { createOpenRouterClient } from '@/lib/ai/openrouter-client';
 
 const SYSTEM_PROMPTS: Record<string, string> = {
   analyze:
@@ -27,6 +22,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
   const { data } = await supabase.auth.getClaims();
   const userId = data?.claims?.sub;
   if (!userId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+
+  const openai = createOpenRouterClient();
 
   const [doc] = await db
     .select()

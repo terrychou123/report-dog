@@ -2,6 +2,13 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { hasEnvVars } from "../utils";
 
+const PUBLIC_EXACT = new Set(["/", "/pricing", "/ads.txt", "/sitemap.xml", "/robots.txt"]);
+const PUBLIC_PREFIXES = ["/home-care", "/hospital", "/nursing-home", "/day-care", "/blog", "/login", "/auth"];
+
+function isPublicPath(pathname: string): boolean {
+  return PUBLIC_EXACT.has(pathname) || PUBLIC_PREFIXES.some((p) => pathname.startsWith(p));
+}
+
 export async function updateSession(request: NextRequest) {
   let supabaseResponse = NextResponse.next({
     request,
@@ -56,20 +63,7 @@ export async function updateSession(request: NextRequest) {
   const { data } = await supabase.auth.getClaims();
   const user = data?.claims;
 
-  if (
-    request.nextUrl.pathname !== "/" &&
-    request.nextUrl.pathname !== "/pricing" &&
-    request.nextUrl.pathname !== "/ads.txt" &&
-    request.nextUrl.pathname !== "/sitemap.xml" &&
-    request.nextUrl.pathname !== "/robots.txt" &&
-    !request.nextUrl.pathname.startsWith("/home-care") &&
-    !(request.nextUrl.pathname === "/hospital" || request.nextUrl.pathname.startsWith("/hospital/")) &&
-    !request.nextUrl.pathname.startsWith("/nursing-home") &&
-    !request.nextUrl.pathname.startsWith("/day-care") &&
-    !user &&
-    !request.nextUrl.pathname.startsWith("/login") &&
-    !request.nextUrl.pathname.startsWith("/auth")
-  ) {
+  if (!isPublicPath(request.nextUrl.pathname) && !user) {
     // no user, potentially respond by redirecting the user to the login page
     const url = request.nextUrl.clone();
     url.pathname = "/auth/login";

@@ -4,10 +4,15 @@ import { blogPosts } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const publishedPosts = await db
-    .select({ slug: blogPosts.slug, updatedAt: blogPosts.updatedAt })
-    .from(blogPosts)
-    .where(eq(blogPosts.status, "published"));
+  let publishedPosts: { slug: string; updatedAt: Date | null }[] = [];
+  try {
+    publishedPosts = await db
+      .select({ slug: blogPosts.slug, updatedAt: blogPosts.updatedAt })
+      .from(blogPosts)
+      .where(eq(blogPosts.status, "published"));
+  } catch {
+    // DB unavailable — omit blog entries from sitemap
+  }
 
   const blogEntries: MetadataRoute.Sitemap = publishedPosts.map((post) => ({
     url: `https://reportwang.com/blog/${post.slug}`,

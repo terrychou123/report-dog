@@ -1,11 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import OpenAI from "openai";
-
-const openai = new OpenAI({
-  baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.OPENROUTER_API_KEY,
-});
+import type OpenAI from "openai";
+import { createOpenRouterClient } from "@/lib/ai/openrouter-client";
 
 type Message = { role: "user" | "assistant"; content: string; reasoning_details?: unknown };
 
@@ -15,6 +11,8 @@ export async function POST(req: NextRequest) {
   const supabase = await createClient();
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const openai = createOpenRouterClient();
 
   const body = await req.json();
   const { paragraph, instruction, history = [] } = body as {
