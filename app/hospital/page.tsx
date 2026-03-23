@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
   description:
     "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
-  alternates: { canonical: "/hospital-nursing" },
+  alternates: { canonical: "/hospital" },
   openGraph: {
     title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
     description:

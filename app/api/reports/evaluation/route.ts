@@ -35,7 +35,7 @@ function buildSystemPrompt(profileId: string): string {
     .map(s => `「${s.shortCode}${s.items[0]?.id}」`)
     .join('');
 
-  return `你是${profile.label}評鑑專家，依據「${profile.description}」進行分析。
+  const base = `你是${profile.label}評鑑專家，依據「${profile.description}」進行分析。
 
 以下是完整的 ${profile.sections.reduce((n, s) => n + s.items.length, 0)} 項評鑑指標：
 
@@ -64,6 +64,9 @@ ${criteriaText}
 - 使用繁體中文
 - 如果文件不足以判斷某項，明確標示「無法判斷」而非猜測
 - 以條列清楚、結構化方式呈現`;
+
+  const suffix = (profile as { promptSuffix?: string }).promptSuffix;
+  return suffix ? `${base}${suffix}` : base;
 }
 
 export async function POST(req: NextRequest) {

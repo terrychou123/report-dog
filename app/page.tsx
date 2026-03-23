@@ -276,9 +276,9 @@ export default function Home() {
               },
               {
                 emoji: "🏥",
-                badge: "醫院護理部",
-                href: "/hospital-nursing",
-                linkTitle: "醫院護理部 AI 文書管理系統介紹",
+                badge: "醫院",
+                href: "/hospital",
+                linkTitle: "醫院 AI 文書管理系統介紹",
                 stat: "↓ 60%",
                 statLabel: "交接時間",
                 quote: "班別標籤讓護理師交接後就知道當班該完成哪些文書，文書焦慮大幅減少。",

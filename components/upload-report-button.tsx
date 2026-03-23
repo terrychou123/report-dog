@@ -184,6 +184,8 @@ export function UploadReportButton() {
             <DialogTitle>上傳報告</DialogTitle>
           </DialogHeader>
 
+          <p className="text-xs text-muted-foreground">因應個人資料保護法，請勿涉及個人敏感資料，本平台不負任何法律責任。</p>
+
           <Tabs defaultValue="upload">
             <TabsList className="w-full">
               <TabsTrigger value="upload" className="flex-1">上傳檔案</TabsTrigger>

@@ -1,9 +1,9 @@
 import { daycareProfile } from "./daycare";
 import { nursingHomeProfile } from "./nursing-home";
-import { hospitalNursingProfile } from "./hospital-nursing";
 import { homeCareProfile } from "./home-care";
+import { hospitalProfile } from "./hospital";
 
-const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalNursingProfile];
+const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile];
 
 export function getProfile(id: string) {
   return profiles.find((p) => p.id === id) ?? null;

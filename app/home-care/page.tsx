@@ -335,12 +335,12 @@ export default function HomeCarePage() {
             </span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/hospital-nursing" title="醫院護理部 AI 文書管理系統介紹" className="block group">
+            <Link href="/hospital" title="醫院 AI 文書管理系統介紹" className="block group">
               <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                 <CardContent className="pt-5 pb-5">
                   <div className="flex items-center gap-2 mb-2">
                     <span className="text-lg">🏥</span>
-                    <span className="font-semibold text-sm">醫院護理部</span>
+                    <span className="font-semibold text-sm">醫院</span>
                   </div>
                   <div className="text-2xl font-bold text-primary mb-1">↓ 60%</div>
                   <p className="text-xs text-muted-foreground mb-2">文書交接時間</p>

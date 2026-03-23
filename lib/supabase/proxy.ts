@@ -63,7 +63,7 @@ export async function updateSession(request: NextRequest) {
     request.nextUrl.pathname !== "/sitemap.xml" &&
     request.nextUrl.pathname !== "/robots.txt" &&
     request.nextUrl.pathname !== "/home-care" &&
-    request.nextUrl.pathname !== "/hospital-nursing" &&
+    request.nextUrl.pathname !== "/hospital" &&
     request.nextUrl.pathname !== "/nursing-home" &&
     !user &&
     !request.nextUrl.pathname.startsWith("/login") &&

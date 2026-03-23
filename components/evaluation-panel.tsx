@@ -21,7 +21,7 @@ const PROFILES = [
   { id: "daycare", label: "日間照顧中心", ready: true },
   { id: "home-care", label: "居家服務機構", ready: true },
   { id: "nursing-home", label: "住宿型照顧機構", ready: true },
-  { id: "hospital-nursing", label: "醫院護理部（即將推出）", ready: false },
+  { id: "hospital", label: "醫院評鑑", ready: true },
 ];
 
 type Props = {
