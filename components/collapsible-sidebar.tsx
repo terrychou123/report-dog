@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { BotIcon, TagIcon, FileTextIcon, Share2Icon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { LogoutButton } from "@/components/logout-button";
+import { NotificationBell } from "@/components/notification-bell";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
 
@@ -91,7 +92,8 @@ export function CollapsibleSidebar({ email }: CollapsibleSidebarProps) {
       </nav>
 
       {/* User */}
-      <div className="px-2 py-4 border-t flex justify-center">
+      <div className="px-2 py-4 border-t flex flex-col items-center gap-2">
+        <NotificationBell collapsed={collapsed} />
         <LogoutButton email={email} />
       </div>
     </aside>

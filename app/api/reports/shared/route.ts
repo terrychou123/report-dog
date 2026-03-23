@@ -82,9 +82,17 @@ export async function GET() {
   if (ownerIds.length > 0) {
     try {
       const adminClient = createAdminClient();
-      const results = await Promise.all(ownerIds.map((id) => adminClient.auth.admin.getUserById(id)));
-      for (const { data: userData } of results) {
-        if (userData.user?.email) ownerEmailMap[userData.user.id] = userData.user.email;
+      const results = await Promise.allSettled(
+        ownerIds.map(async (id) => {
+          const { data, error } = await adminClient.auth.admin.getUserById(id);
+          if (error) console.error(`[shared] getUserById(${id}) error:`, error.message);
+          return { id, data, error };
+        })
+      );
+      for (const result of results) {
+        if (result.status === "fulfilled" && result.value.data?.user?.email) {
+          ownerEmailMap[result.value.data.user.id] = result.value.data.user.email;
+        }
       }
     } catch {
       // Admin client unavailable — omit emails

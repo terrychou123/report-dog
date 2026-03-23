@@ -1,3 +1,10 @@
+export type TagRole = "viewer" | "editor";
+
+export const TAG_ROLE_LABELS: Record<TagRole, string> = {
+  viewer: "瀏覽者",
+  editor: "編輯者",
+};
+
 export type TagWithPermissions = {
   userId: string;
   viewers: string[] | null;

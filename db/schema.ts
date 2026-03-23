@@ -1,4 +1,4 @@
-import { pgTable, uuid, text, boolean, integer, timestamp, jsonb, varchar, uniqueIndex } from 'drizzle-orm/pg-core';
+import { pgTable, uuid, text, boolean, integer, timestamp, jsonb, varchar, uniqueIndex, index } from 'drizzle-orm/pg-core';
 
 // ─── Core Tables ─────────────────────────────────────────────────────────────
 
@@ -98,6 +98,19 @@ export const reportRevisions = pgTable('report_revisions', {
   versionNumber: integer('version_number').notNull(),
   createdAt: timestamp('created_at').defaultNow().notNull(),
 });
+
+export const notifications = pgTable('notifications', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  type: varchar('type', { length: 50 }).notNull(),
+  title: varchar('title', { length: 255 }).notNull(),
+  message: text('message'),
+  link: text('link'),
+  read: boolean('read').default(false).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+}, (t) => ({
+  userReadIdx: index('notifications_user_id_read_idx').on(t.userId, t.read),
+}));
 
 export const blogPosts = pgTable('blog_posts', {
   id: uuid('id').defaultRandom().primaryKey(),

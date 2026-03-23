@@ -1,40 +1,36 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { Resend } from "resend";
+import { db } from "@/db";
+import { notifications, clients } from "@/db/schema";
+import { eq } from "drizzle-orm";
+import { TAG_ROLE_LABELS, type TagRole } from "@/lib/auth/tag-permissions";
 
 export async function POST(req: NextRequest) {
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const { data } = await supabase.auth.getClaims();
+  if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const userId = data.claims.sub;
 
-  const { email, tagName, tagId, role } = await req.json();
-  if (!email || !tagName || !tagId || !role) {
+  const { targetUserId, tagName, tagId, role } = await req.json();
+  if (!targetUserId || !tagName || !tagId || !role) {
     return NextResponse.json({ error: "缺少必要參數" }, { status: 400 });
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) {
-    console.warn("[notify] RESEND_API_KEY not set, skipping email");
-    return NextResponse.json({ success: true, skipped: true });
+  // Verify the calling user owns the tag (only owners can add members)
+  const [tag] = await db.select({ userId: clients.userId }).from(clients).where(eq(clients.id, tagId)).limit(1);
+  if (!tag || tag.userId !== userId) {
+    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
 
-  const resend = new Resend(apiKey);
-  const roleLabel = role === "viewer" ? "瀏覽者" : "編輯者";
-  const link = `${req.nextUrl.origin}/tag/${tagId}`;
+  const roleLabel = TAG_ROLE_LABELS[role as TagRole] ?? role;
 
-  const { error } = await resend.emails.send({
-    from: "onboarding@resend.dev",
-    to: email,
-    subject: `您已被加入「${tagName}」標籤`,
-    html: `<p>您好，</p>
-<p>您已被加入「<strong>${tagName}</strong>」標籤的${roleLabel}。</p>
-<p><a href="${link}">點此查看標籤</a></p>`,
+  await db.insert(notifications).values({
+    userId: targetUserId,
+    type: "tag_member_added",
+    title: `您已被加入「${tagName}」標籤`,
+    message: `您已被加入「${tagName}」標籤的${roleLabel}`,
+    link: `/tag/${tagId}`,
   });
-
-  if (error) {
-    console.error("[notify] resend error:", error);
-    return NextResponse.json({ error: "發送通知失敗" }, { status: 500 });
-  }
 
   return NextResponse.json({ success: true });
 }

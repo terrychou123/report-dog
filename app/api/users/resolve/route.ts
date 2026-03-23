@@ -18,9 +18,17 @@ export async function POST(req: NextRequest) {
   }
 
   const mapping: Record<string, string> = {};
-  const results = await Promise.all(userIds.map((id: string) => adminClient.auth.admin.getUserById(id)));
-  for (const { data } of results) {
-    if (data.user?.email) mapping[data.user.id] = data.user.email;
+  const results = await Promise.allSettled(
+    userIds.map(async (id: string) => {
+      const { data, error } = await adminClient.auth.admin.getUserById(id);
+      if (error) console.error(`[resolve] getUserById(${id}) error:`, error.message);
+      return { id, data, error };
+    })
+  );
+  for (const result of results) {
+    if (result.status === "fulfilled" && result.value.data?.user?.email) {
+      mapping[result.value.data.user.id] = result.value.data.user.email;
+    }
   }
 
   return NextResponse.json(mapping);

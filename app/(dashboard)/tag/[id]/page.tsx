@@ -15,7 +15,7 @@ import { toast } from "sonner";
 import { FileTypeIcon } from "@/components/file-type-icon";
 import { useCurrentUserId } from "@/lib/hooks/use-current-user-id";
 import { resolveUserEmails } from "@/lib/users";
-import { isTagOwner } from "@/lib/auth/tag-permissions";
+import { isTagOwner, TAG_ROLE_LABELS } from "@/lib/auth/tag-permissions";
 import { EMAIL_REGEX } from "@/lib/utils";
 
 type Client = { id: string; userId: string; nickname: string; description: string | null; viewers: string[]; editors: string[]; createdAt: string };
@@ -144,7 +144,7 @@ export default function TagDetailPage() {
     }
   }
 
-  async function handleUpdatePermission(field: "viewers" | "editors", ids: string[]) {
+  async function handleUpdatePermission(field: "viewers" | "editors", ids: string[], silent = false) {
     setSavingPermission(true);
     try {
       const res = await fetch(`/api/tags/${params.id}`, {
@@ -154,7 +154,7 @@ export default function TagDetailPage() {
       });
       if (res.ok) {
         setClient((prev) => prev ? { ...prev, [field]: ids } : null);
-        toast.success("已更新");
+        if (!silent) toast.success("已更新");
       } else {
         toast.error("更新失敗，請重試");
       }
@@ -206,14 +206,23 @@ export default function TagDetailPage() {
     }
     if (client[field].includes(userId)) { setSavingPermission(false); toast.error("此使用者已在列表中"); return; }
     setUserEmailMap((prev) => ({ ...prev, [userId]: resolvedEmail }));
-    await handleUpdatePermission(field, [...client[field], userId]);
+    await handleUpdatePermission(field, [...client[field], userId], true);
     setNewMemberEmail("");
     if (!wasInvited) {
-      fetch("/api/users/notify", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: resolvedEmail, tagName: client.nickname, tagId: params.id, role: field === "viewers" ? "viewer" : "editor" }),
-      }).catch(() => {});
+      try {
+        const notifyRes = await fetch("/api/users/notify", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ targetUserId: userId, tagName: client.nickname, tagId: params.id, role: field === "viewers" ? "viewer" : "editor" }),
+        });
+        if (!notifyRes.ok) {
+          toast.warning(`權限已加入，但通知發送失敗`);
+        } else {
+          toast.success(`已通知 ${resolvedEmail}`);
+        }
+      } catch {
+        toast.warning(`權限已加入，但通知發送失敗`);
+      }
     }
   }
 
@@ -385,7 +394,7 @@ export default function TagDetailPage() {
             client[field].length > 0 ? (
               <div key={field}>
                 <p className="text-xs text-muted-foreground mb-1.5 font-medium">
-                  {field === "viewers" ? "瀏覽者" : "編輯者"}
+                  {TAG_ROLE_LABELS[field === "viewers" ? "viewer" : "editor"]}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {client[field].map((id) => (
