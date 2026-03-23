@@ -31,7 +31,11 @@ function buildSystemPrompt(profileId: string): string {
     })
     .join('\n\n');
 
-  return `你是日間照顧機構評鑑專家，依據「${profile.description}」進行分析。
+  const shortCodeExamples = profile.sections
+    .map(s => `「${s.shortCode}${s.items[0]?.id}」`)
+    .join('');
+
+  return `你是${profile.label}評鑑專家，依據「${profile.description}」進行分析。
 
 以下是完整的 ${profile.sections.reduce((n, s) => n + s.items.length, 0)} 項評鑑指標：
 
@@ -40,7 +44,7 @@ ${criteriaText}
 請根據使用者提供的文件，從以下五個面向逐項分析：
 
 ## 一、缺少的資料
-找出評鑑基準要求但文件中完全未提及的項目。標示項次（如「權1」「專5」「管29」「安38」）、評鑑項目名稱、缺少的具體基準。
+找出評鑑基準要求但文件中完全未提及的項目。標示項次（如${shortCodeExamples}）、評鑑項目名稱、缺少的具體基準。
 
 ## 二、不合理或矛盾之處
 找出文件內容與評鑑基準不符，或文件內部互相矛盾的地方。引用具體文件內容說明。標示對應項次。
@@ -55,7 +59,7 @@ ${criteriaText}
 針對缺漏或問題項目提出具體可行的改善建議，按急迫性排序（高→中→低）。
 
 分析規則：
-- 每個發現都必須標示對應的評鑑項次（如「權1」「專5」「管29」「安38」）
+- 每個發現都必須標示對應的評鑑項次（如${shortCodeExamples}）
 - 引用報告中的具體內容作為證據
 - 使用繁體中文
 - 如果文件不足以判斷某項，明確標示「無法判斷」而非猜測

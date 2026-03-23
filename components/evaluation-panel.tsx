@@ -11,7 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { CheckIcon, LoaderIcon, SaveIcon } from "lucide-react";
+import { AlertTriangle, CheckIcon, LoaderIcon, SaveIcon } from "lucide-react";
 import { toast } from "sonner";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -19,7 +19,8 @@ import { marked } from "marked";
 
 const PROFILES = [
   { id: "daycare", label: "日間照顧中心", ready: true },
-  { id: "nursing-home", label: "護理之家（即將推出）", ready: false },
+  { id: "home-care", label: "居家服務機構", ready: true },
+  { id: "nursing-home", label: "住宿型照顧機構", ready: true },
   { id: "hospital-nursing", label: "醫院護理部（即將推出）", ready: false },
 ];
 
@@ -103,12 +104,15 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
     if (!result || saving) return;
     setSaving(true);
     try {
-      const date = new Date().toLocaleDateString("zh-TW", { year: "numeric", month: "2-digit", day: "2-digit" });
+      const now = new Date();
+      const date = now.toLocaleDateString("zh-TW", { year: "numeric", month: "2-digit", day: "2-digit" });
+      const time = now.toLocaleTimeString("zh-TW", { hour: "2-digit", minute: "2-digit", hour12: false });
+      const datetime = `${date} ${time}`;
       const htmlContent = await marked.parse(result);
       const res = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: `報告分析 - ${date}`, content: htmlContent, insertAtTop: true }),
+        body: JSON.stringify({ title: `分析結果 - ${datetime}`, content: htmlContent, insertAtTop: true }),
       });
       if (!res.ok) throw new Error("儲存失敗");
       setSaved(true);
@@ -127,6 +131,11 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
         <DialogHeader>
           <DialogTitle>報告 AI 分析</DialogTitle>
         </DialogHeader>
+
+        <div className="flex items-start gap-2 rounded-md border border-amber-500/30 bg-amber-500/10 p-3 text-sm text-amber-700 dark:text-amber-400">
+          <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
+          <span>因應個人資料保護法，請勿涉及個人敏感資料。評估結果僅供參考，不負任何法律責任。</span>
+        </div>
 
         <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
           {reportTitles.map((title, i) => (
