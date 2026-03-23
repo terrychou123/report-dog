@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
-import { ThemeSwitcher } from "@/components/theme-switcher";
+import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -53,57 +53,6 @@ export default function Home() {
             offers: { "@type": "Offer", price: "0", priceCurrency: "TWD" },
             description:
               "複製上期報告當模板，讓 AI 修改差異段落，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手。",
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "報告汪適合哪些行政工作使用？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "適合需要定期產出報告的行政人員，例如：撰寫日報、週報、月報、專案進度報告、會議紀錄等重複性高的文書工作。",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "如何快速產出每週 / 每月的定期報告？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "複製上一期的報告作為模板，針對有異動的段落輸入 AI 修改指令（例如：「更新本週進度數字」），AI 立即產出修改版本，確認後套用，全程不需重新排版。",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "AI 修改報告是如何運作的？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "點擊報告中的任意段落，進入 AI 對話模式，以自然語言下指令（例如：「這段改得更簡潔」、「加入本週新增的事項」），AI 提供修改版本，不滿意可繼續調整。",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "標籤功能怎麼用？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "建立標籤後（例如：週報、A 專案、財務部），將報告關聯至對應標籤。之後可透過標籤篩選或全文搜尋快速找到特定報告，不再需要在資料夾中翻找。",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "目前收費嗎？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中。",
-                },
-              },
-            ],
           }),
         }}
       />
@@ -250,6 +199,58 @@ export default function Home() {
                 <StartButton>免費體驗</StartButton>
               </div>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Tutorial Section */}
+      <section className="py-20 px-6 bg-muted/30">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <Badge variant="outline" className="mb-4">使用教學</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold">從零開始，輕鬆上手報告汪</h2>
+            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+              圖文教學帶你快速掌握每個功能，從建立第一份報告到 AI 評鑑分析。
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                href: "/docs/getting-started",
+                title: "快速開始",
+                desc: "三步驟完成帳號設定並建立第一份報告，10 分鐘上手。",
+                step: "01",
+              },
+              {
+                href: "/docs/ai-editing",
+                title: "AI 段落修改",
+                desc: "點擊段落輸入自然語言指令，AI 即時產出修改版本。",
+                step: "02",
+              },
+              {
+                href: "/docs/tags-and-search",
+                title: "標籤分類與搜尋",
+                desc: "建立標籤、篩選報告，幾百份文件瞬間找到目標。",
+                step: "03",
+              },
+            ].map(({ href, title, desc, step }) => (
+              <Link key={href} href={href} title={title}>
+                <Card className="p-6 h-full hover:border-primary/50 hover:shadow-sm transition-all group">
+                  <p className="text-4xl font-bold text-primary/20 mb-4 group-hover:text-primary/40 transition-colors">{step}</p>
+                  <h3 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">{title}</h3>
+                  <p className="text-muted-foreground text-sm">{desc}</p>
+                </Card>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link
+              href="/docs"
+              title="報告汪使用教學"
+              className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+            >
+              查看完整教學 →
+            </Link>
           </div>
         </div>
       </section>
@@ -447,7 +448,7 @@ export default function Home() {
               },
             ].map((item) => (
               <details key={item.q} className="group border rounded-lg bg-background">
-                <summary className="flex items-center justify-between px-5 py-4 cursor-pointer font-medium list-none">
+                <summary className="flex items-center justify-between px-5 py-4 cursor-pointer font-medium">
                   {item.q}
                   <ChevronDownIcon className="h-4 w-4 text-muted-foreground group-open:rotate-180 transition-transform" />
                 </summary>
@@ -469,19 +470,7 @@ export default function Home() {
         <StartButton>免費開始使用</StartButton>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t py-8 px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-        <div className="flex items-center gap-2 font-semibold text-foreground">
-          <BotIcon className="h-4 w-4 text-primary" />
-          報告汪
-        </div>
-        <div className="flex items-center gap-6">
-          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" title="免費註冊報告汪帳戶" className="hover:text-primary transition-colors">註冊</Link>
-        </div>
-        <ThemeSwitcher />
-      </footer>
+      <Footer />
     </main>
   );
 }
