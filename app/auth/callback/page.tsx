@@ -1,6 +1,6 @@
 "use client";
 
-import { createBrowserClient } from "@supabase/ssr";
+import { createClient } from "@/lib/supabase/client";
 import { type EmailOtpType } from "@supabase/supabase-js";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
@@ -29,35 +29,28 @@ export default function CallbackPage() {
       return;
     }
 
-    const supabase = createBrowserClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    );
+    const handleResult = (error: { message: string } | null) => {
+      if (error) {
+        router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
+      } else {
+        router.replace("/auth/update-password");
+      }
+    };
+
+    const supabase = createClient();
 
     const handleAuth = async () => {
       // OTP / magic link via token_hash
       if (token_hash && type) {
         const { error } = await supabase.auth.verifyOtp({ token_hash, type });
-        if (error) {
-          router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
-        } else {
-          router.replace("/auth/update-password");
-        }
+        handleResult(error);
         return;
       }
 
       // Session via access_token + refresh_token (implicit flow fallback)
       if (access_token && refresh_token) {
-        const { error } = await supabase.auth.setSession({
-          access_token,
-          refresh_token,
-        });
-        if (error) {
-          router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
-        } else {
-          router.replace("/auth/update-password");
-        }
+        const { error } = await supabase.auth.setSession({ access_token, refresh_token });
+        handleResult(error);
         return;
       }
 
