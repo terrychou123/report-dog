@@ -1,3 +1,5 @@
+import { Footer } from "@/components/footer";
+import { Navbar } from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { DownloadIcon, FileSpreadsheetIcon } from "lucide-react";
@@ -10,7 +12,14 @@ export const metadata: Metadata = {
     "免費下載各長照機構評鑑 Excel 自我檢核表，包含日間照顧中心、住宿型長照機構、居家護理所、產後護理之家等多種機構類型。",
 };
 
-const DOWNLOADS = [
+type DownloadItem = {
+  slug: string;
+  name: string;
+  description: string;
+  file: string;
+};
+
+const DOWNLOADS: DownloadItem[] = [
   {
     slug: "day-care",
     name: "日間照顧中心",
@@ -27,7 +36,7 @@ const DOWNLOADS = [
     slug: "residential",
     name: "住宿型長照機構",
     description: "住宿型長照機構評鑑自我檢核，涵蓋護理品質與環境安全查核項目。",
-    file: "nursing-home.xlsx",
+    file: "residential.xlsx",
   },
   {
     slug: "general-nursing-home",
@@ -63,7 +72,9 @@ const DOWNLOADS = [
 
 export default function DownloadsPage() {
   return (
-    <main className="min-h-screen py-20 px-6">
+    <>
+      <Navbar />
+      <main className="min-h-screen py-20 px-6">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -98,6 +109,7 @@ export default function DownloadsPage() {
                 <p className="text-sm text-muted-foreground flex-1">
                   {item.description}
                 </p>
+                {/* 使用 <a> 而非 <Link>：Next.js Link 不支援 download 屬性 */}
                 <a
                   href={`/downloads/${item.file}`}
                   download
@@ -123,5 +135,7 @@ export default function DownloadsPage() {
         </p>
       </div>
     </main>
+    <Footer />
+    </>
   );
 }
