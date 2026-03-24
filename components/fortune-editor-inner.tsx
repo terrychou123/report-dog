@@ -177,16 +177,38 @@ export default function FortuneEditorInner({
     const selection = wb.getSelection();
     if (!selection || selection.length === 0) return;
 
-    // 收集選取範圍內的所有儲存格值
+    // 取得當前活躍 sheet 的合併儲存格資訊
+    const activeSheet = sheetsRef.current?.find((s) => s.status === 1) ?? sheetsRef.current?.[0];
+    const mergeConfig = (activeSheet?.config as { merge?: Record<string, { r: number; c: number; rs: number; cs: number }> })?.merge;
+
+    // 建立 (r, c) → 主格 key 的映射（合併區域內所有子格都指向主格）
+    const cellToMasterKey = new Map<string, string>();
+    if (mergeConfig) {
+      for (const m of Object.values(mergeConfig)) {
+        const masterKey = `${m.r}_${m.c}`;
+        for (let dr = 0; dr < m.rs; dr++)
+          for (let dc = 0; dc < m.cs; dc++)
+            cellToMasterKey.set(`${m.r + dr}_${m.c + dc}`, masterKey);
+      }
+    }
+
+    // 收集選取範圍內的所有儲存格值（合併區域只取一次）
     const lines: string[] = [];
+    const seenMasterKeys = new Set<string>();
     for (const range of selection) {
       for (let r = range.row[0]; r <= range.row[1]; r++) {
         const rowVals: string[] = [];
         for (let c = range.column[0]; c <= range.column[1]; c++) {
+          const cellKey = `${r}_${c}`;
+          const masterKey = cellToMasterKey.get(cellKey);
+          if (masterKey !== undefined) {
+            if (seenMasterKeys.has(masterKey)) continue; // 合併區域非主格，跳過
+            seenMasterKeys.add(masterKey);
+          }
           const val = wb.getCellValue(r, c);
           rowVals.push(val != null ? String(val) : "");
         }
-        lines.push(rowVals.join("\t"));
+        if (rowVals.length > 0) lines.push(rowVals.join("\t"));
       }
     }
 
@@ -207,17 +229,40 @@ export default function FortuneEditorInner({
   function applyProposal(text: string) {
     if (!selectedRange || !workbookRef.current) return;
     const wb = workbookRef.current;
+
+    // 取得合併儲存格資訊（與 handleWorkbookMouseUp 相同邏輯）
+    const activeSheet = sheetsRef.current?.find((s) => s.status === 1) ?? sheetsRef.current?.[0];
+    const mergeConfig = (activeSheet?.config as { merge?: Record<string, { r: number; c: number; rs: number; cs: number }> })?.merge;
+    const cellToMasterKey = new Map<string, string>();
+    if (mergeConfig) {
+      for (const m of Object.values(mergeConfig)) {
+        const masterKey = `${m.r}_${m.c}`;
+        for (let dr = 0; dr < m.rs; dr++)
+          for (let dc = 0; dc < m.cs; dc++)
+            cellToMasterKey.set(`${m.r + dr}_${m.c + dc}`, masterKey);
+      }
+    }
+
     const lines = text.split("\n");
     let lineIdx = 0;
+    const seenMasterKeys = new Set<string>();
     for (const range of selectedRange) {
       for (let r = range.row[0]; r <= range.row[1]; r++) {
         const rowVals = (lines[lineIdx] ?? "").split("\t");
         let colValIdx = 0;
+        let rowHasNewContent = false;
         for (let c = range.column[0]; c <= range.column[1]; c++) {
+          const cellKey = `${r}_${c}`;
+          const masterKey = cellToMasterKey.get(cellKey);
+          if (masterKey !== undefined) {
+            if (seenMasterKeys.has(masterKey)) continue; // 合併區域非主格，跳過
+            seenMasterKeys.add(masterKey);
+          }
           wb.setCellValue(r, c, rowVals[colValIdx] ?? "");
           colValIdx++;
+          rowHasNewContent = true;
         }
-        lineIdx++;
+        if (rowHasNewContent) lineIdx++;
       }
     }
     setAiDialogOpen(false);
