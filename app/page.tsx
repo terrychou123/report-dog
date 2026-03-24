@@ -262,7 +262,7 @@ export default function Home() {
             <Badge variant="outline" className="mb-4">長照產業解決方案</Badge>
             <h2 className="text-3xl md:text-4xl font-bold">居服、日照、護理、社工各職類都說好</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 emoji: "🏠",
@@ -318,6 +318,17 @@ export default function Home() {
                 quote: "自我檢核項目逐項對應，AI 分析直接標示缺漏，評鑑準備效率大幅提升。",
                 author: "張社工・新北市身心障礙福利機構",
                 cta: "身心障礙機構文書管理系統 →",
+              },
+              {
+                emoji: "👶",
+                badge: "產後護理之家",
+                href: "/babycare",
+                linkTitle: "產後護理之家 AI 文書管理系統介紹",
+                stat: "15 項",
+                statLabel: "評鑑基準覆蓋",
+                quote: "母嬰照護紀錄用標籤分類後，評鑑前 AI 分析直接標示缺漏，不用再逐項手動比對。",
+                author: "王護理師・台北市產後護理之家",
+                cta: "產後護理之家文書管理系統 →",
               },
             ].map((item) => (
               <Link key={item.href} href={item.href} title={item.linkTitle} className="block group">

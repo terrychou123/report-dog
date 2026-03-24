@@ -3,8 +3,9 @@ import { nursingHomeProfile } from "./nursing-home";
 import { homeCareProfile } from "./home-care";
 import { hospitalProfile } from "./hospital";
 import { disabilityProfile } from "./disability";
+import { babycareProfile } from "./babycare";
 
-const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile, disabilityProfile];
+const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile, disabilityProfile, babycareProfile];
 const profileMap = new Map(profiles.map((p) => [p.id, p]));
 
 export function getProfile(id: string) {
