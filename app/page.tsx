@@ -341,6 +341,17 @@ export default function Home() {
                 author: "張護理師・新北市居家護理所",
                 cta: "居家護理所文書管理系統 →",
               },
+              {
+                emoji: "🏥",
+                badge: "一般護理之家",
+                href: "/general-nursing-home",
+                linkTitle: "一般護理之家 AI 文書管理系統介紹",
+                stat: "15 項",
+                statLabel: "評鑑基準覆蓋",
+                quote: "住民照護計畫和環境安全文件用標籤分類後，A/B/C/D 四大構面評鑑前 AI 分析直接標示缺漏，省時又省力。",
+                author: "林護理長・台中市一般護理之家",
+                cta: "一般護理之家文書管理系統 →",
+              },
             ].map((item) => (
               <Link key={item.href} href={item.href} title={item.linkTitle} className="block group">
                 <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">

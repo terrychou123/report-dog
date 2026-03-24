@@ -13,26 +13,27 @@ import {
   ClipboardListIcon,
   ChevronDownIcon,
   SparklesIcon,
+  ShieldCheckIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "居家護理所 AI 文書管理系統｜評鑑備審・個案照護紀錄・經營指標管理平台",
+  title: "一般護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・環境安全管理平台",
   description:
-    "報告汪專為居家護理所設計：115年度居家護理所評鑑 A 經營管理（5 項）、B 照護管理（3 項）共 8 項基準 AI 逐項分析，個案照護紀錄集中管理，護理人員與機構負責人同平台協作。居家護理所文書管理首選。立即免費試用。",
-  alternates: { canonical: "/home-nursing" },
+    "報告汪專為一般護理之家設計：115年度評鑑基準 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項）共 15 項 AI 逐項分析，住民照護計畫集中管理，護理師、照服員與負責人同平台協作。一般護理之家文書管理首選。立即免費試用。",
+  alternates: { canonical: "/general-nursing-home" },
   openGraph: {
-    title: "居家護理所 AI 文書管理系統｜評鑑備審・個案照護紀錄・經營指標管理平台",
+    title: "一般護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・環境安全管理平台",
     description:
-      "報告汪專為居家護理所設計：115年度居家護理所評鑑 A 經營管理（5 項）、B 照護管理（3 項）共 8 項基準 AI 逐項分析，個案照護紀錄集中管理，護理人員與機構負責人同平台協作。居家護理所文書管理首選。立即免費試用。",
+      "報告汪專為一般護理之家設計：115年度評鑑基準 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項）共 15 項 AI 逐項分析，住民照護計畫集中管理，護理師、照服員與負責人同平台協作。一般護理之家文書管理首選。立即免費試用。",
   },
   twitter: {
-    title: "居家護理所 AI 文書管理系統｜評鑑備審・個案照護紀錄・經營指標管理平台",
+    title: "一般護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・環境安全管理平台",
     description:
-      "報告汪專為居家護理所設計：115年度居家護理所評鑑 A 經營管理（5 項）、B 照護管理（3 項）共 8 項基準 AI 逐項分析，個案照護紀錄集中管理，護理人員與機構負責人同平台協作。居家護理所文書管理首選。立即免費試用。",
+      "報告汪專為一般護理之家設計：115年度評鑑基準 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項）共 15 項 AI 逐項分析，住民照護計畫集中管理，護理師、照服員與負責人同平台協作。一般護理之家文書管理首選。立即免費試用。",
   },
 };
 
-export default function HomeNursingPage() {
+export default function GeneralNursingHomePage() {
   return (
     <main className="min-h-screen flex flex-col">
       <script
@@ -44,34 +45,34 @@ export default function HomeNursingPage() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "報告汪如何協助居家護理所的評鑑準備？",
+                name: "報告汪如何協助一般護理之家的評鑑準備？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "報告汪內建「115年度居家護理所評鑑基準」評鑑 profile，上傳機構文件與訪視紀錄後，AI 自動對應 A 經營管理（5 項）、B 照護管理（3 項）共 8 項基準，逐項標示哪些符合項目文件不足，讓評鑑準備不再是逐項手動比對的苦工。",
+                  text: "報告汪內建「115年度一般護理之家評鑑基準」評鑑 profile，上傳機構文件後，AI 自動對應 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項）共 15 項基準，逐項標示哪些符合項目文件不足，讓評鑑準備不再是逐項手動比對的苦工。",
                 },
               },
               {
                 "@type": "Question",
-                name: "居家護理所的個案照護紀錄（B2）如何用報告汪管理？",
+                name: "一般護理之家的住民照護計畫（A2.1/B2）如何用報告汪管理？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "依 B2 個案照護管理基準建立標籤：收案評估記錄、全人評估（每 6 個月）、個別化照護計畫（問題/目標/措施/評值）。護理人員完成訪視紀錄後直接貼上對應標籤，評鑑前 AI 分析直接標示哪位個案的照護計畫文件不完整，一目了然。",
+                  text: "依 A2.1 服務對象管理及 B2 生活照顧服務基準建立住民標籤，收住評估、全人評估、個別化照護計畫（問題/目標/措施/評值）依住民分類管理。評鑑前 AI 分析直接標示哪位住民的照護計畫文件不完整、每 6 個月的定期評估是否有記錄，一目了然。",
                 },
               },
               {
                 "@type": "Question",
-                name: "護理人員與機構負責人如何在同一平台分工協作？",
+                name: "護理師、照服員與機構負責人如何在同一平台分工協作？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "依職類建立獨立標籤：護理人員負責 B 區個案照護紀錄與訪視記錄，機構負責人負責 A 區經營管理文件（感染管制手冊、訪視人員安全辦法、緊急事件處理辦法等）。各職類在各自標籤區撰寫文件，負責人彙整評鑑備審時，跨標籤篩選一次取得所有最新文件。",
+                  text: "依職類建立獨立標籤：護理師負責 B1 護理照護、B3 品質監測文件；照服員負責 B2 生活照顧紀錄；行政負責 A 區行政管理文件；負責人負責 A2 住民權益及 C/D 區環境安全。各職類在各自標籤區撰寫文件，評鑑備審時跨標籤篩選一次取得所有最新文件。",
                 },
               },
               {
                 "@type": "Question",
-                name: "居家護理所的 5 項經營指標（A5）如何用報告汪追蹤？",
+                name: "C3 感染管制與 C4 災害應變文件如何用報告汪管理？",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "建立「經營指標 A5」標籤，定期將 5 項以上機構經營品質指標的統計分析報告上傳至該標籤。評鑑前 AI 直接分析指標趨勢與改善措施記錄，確認每項指標均有持續監測及閾值修訂紀錄，符合 A5 基準要求。",
+                  text: "建立「感染管制 C3」和「災害應變 C4」標籤，分別管理感染管制手冊、消毒清潔紀錄、演練計畫執行紀錄、緊急聯絡名單等文件。評鑑前 AI 自動對應 C3/C4 基準符合項目，標示哪項文件缺漏（如年度消防演練記錄、疫苗接種記錄），不再臨時補件。",
                 },
               },
               {
@@ -91,14 +92,14 @@ export default function HomeNursingPage() {
       {/* Hero */}
       <section className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">
         <Badge variant="outline" className="mb-6 px-4 py-1.5 text-sm">
-          居家護理所專用
+          一般護理之家專用
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          居家護理所文書管理系統｜<span className="text-primary">評鑑 AI 分析・個案照護紀錄管理</span>
+          一般護理之家文書管理系統｜<span className="text-primary">評鑑 AI 分析・住民照護計畫管理</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
-          115年度評鑑基準 A/B 兩大構面 8 項全覆蓋——AI 逐項對應基準符合項目，直接標示文件缺漏，
-          個案照護紀錄集中管理，評鑑準備效率大幅提升。
+          115年度評鑑基準 A/B/C/D 四大構面 15 項全覆蓋——AI 逐項對應基準符合項目，直接標示文件缺漏，
+          住民照護計畫集中管理，評鑑準備效率大幅提升。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <StartButton>立即開始 — 免費</StartButton>
@@ -110,9 +111,9 @@ export default function HomeNursingPage() {
       <section className="border-y bg-muted/20 py-14 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           {[
-            { value: "8 項", label: "評鑑基準全覆蓋" },
+            { value: "15 項", label: "評鑑基準全覆蓋" },
             { value: "AI 分析", label: "自動標示文件缺漏" },
-            { value: "5 項 KPI", label: "經營指標持續監測" },
+            { value: "4 大構面", label: "A/B/C/D 全面管理" },
           ].map((stat) => (
             <div key={stat.label}>
               <div className="text-4xl font-extrabold text-primary mb-1">{stat.value}</div>
@@ -127,33 +128,33 @@ export default function HomeNursingPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              居家護理所文書管理這樣做：評鑑基準逐項對應，個案照護紀錄集中管理
+              一般護理之家文書管理這樣做：評鑑基準逐項對應，住民照護紀錄集中管理
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              從個案收案評估到訪視人員安全管理，從感染管制紀錄到經營指標追蹤，每個功能都以居家護理所工作流程為中心。
+              從住民收住評估到感染管制演練紀錄，從照護品質指標到災害應變計畫，每個功能都以護理之家工作流程為中心。
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
                 icon: <SparklesIcon className="h-6 w-6" />,
-                title: "AI 評鑑基準分析",
-                desc: "上傳機構文件後，AI 自動對應 115年度評鑑基準 A 經營管理（5 項）、B 照護管理（3 項），逐項標示哪些符合項目文件不足，評鑑前不再逐項手動比對。",
+                title: "AI 評鑑基準分析（15 項全覆蓋）",
+                desc: "上傳機構文件後，AI 自動對應 115年度評鑑基準 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項），逐項標示哪些符合項目文件不足，評鑑前不再逐項手動比對。",
               },
               {
                 icon: <ClipboardListIcon className="h-6 w-6" />,
-                title: "個案照護紀錄管理",
-                desc: "依 B2 個案照護管理基準建立標籤，收案評估、每 6 個月全人評估、個別化照護計畫依個案分類管理，評鑑前 AI 標示哪位個案的照護計畫文件不完整。",
+                title: "住民照護計畫管理（A2.1/B2）",
+                desc: "依 A2.1 服務對象管理基準建立住民標籤，收住評估、全人評估、個別化照護計畫（問題/目標/措施/評值）依住民分類管理，評鑑前 AI 標示哪位住民的照護計畫文件不完整。",
               },
               {
                 icon: <TagIcon className="h-6 w-6" />,
-                title: "經營指標追蹤（A5）",
-                desc: "5 項以上機構經營品質指標建立專屬標籤，定期統計上傳後 AI 分析趨勢，確認每項指標均有持續監測及閾值修訂紀錄，完整符合 A5 評鑑要求。",
+                title: "品質監測指標追蹤（B3）",
+                desc: "跌倒率、壓傷發生率、約束使用率等 5 項以上照護品質指標建立專屬標籤，定期統計上傳後 AI 分析趨勢，確認每項指標均有持續監測及異常改善記錄，完整符合 B3 評鑑要求。",
               },
               {
-                icon: <UsersIcon className="h-6 w-6" />,
-                title: "訪視人員安全管理（A3）",
-                desc: "A3 居家訪視人員安全辦法、緊急通報記錄、改善追蹤文件依規定分類建檔，評鑑委員要看安全管理文件，直接從標籤調出，不用臨時翻找。",
+                icon: <ShieldCheckIcon className="h-6 w-6" />,
+                title: "環境安全與災害應變管理（C1～C4）",
+                desc: "消防安全設施檢查、感染管制消毒記錄、災害應變演練計畫依 C1～C4 基準分類建檔，AI 對應各構面符合項目，評鑑委員要看環境安全文件，直接從標籤調出，不用臨時翻找。",
               },
             ].map((f) => (
               <Card key={f.title} className="group hover:shadow-md transition-shadow">
@@ -180,35 +181,35 @@ export default function HomeNursingPage() {
           <div className="flex items-center gap-4 mb-10">
             <div className="flex-1 h-px bg-border" />
             <h2 className="text-sm font-medium text-muted-foreground whitespace-nowrap tracking-wider uppercase">
-              居家護理所
+              一般護理之家
             </h2>
             <div className="flex-1 h-px bg-border" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
-            {/* 張護理師 — 精選，全寬 */}
+            {/* 林護理長 — 精選，全寬 */}
             <Card className="border-primary/40 md:col-span-3">
               <CardContent className="pt-6">
                 <div className="flex items-start justify-between gap-3 flex-wrap">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-pink-100 text-pink-800 shrink-0">
-                      張
+                      林
                     </div>
                     <div>
-                      <div className="text-sm font-medium">張護理師</div>
-                      <div className="text-xs text-muted-foreground mt-0.5">新北市居家護理所・資深護理師</div>
+                      <div className="text-sm font-medium">林護理長</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">台中市一般護理之家・護理長</div>
                     </div>
                   </div>
                   <Badge variant="secondary">精選評價</Badge>
                 </div>
                 <div className="text-amber-500 text-sm mt-3">★★★★★</div>
                 <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                  居家護理所最麻煩的文書就是「個案照護計畫太分散」——收案評估、每 6 個月全人評估、照護計畫各放各的，評鑑委員要看 B2 個案照護管理，我要從三個地方找資料。
+                  一般護理之家最難準備的就是「住民照護計畫太分散」——收住評估、全人評估、個別化照護計畫各放各的，評鑑委員要看 A2.1 服務對象管理，我要從三個地方找資料，每次評鑑前都很崩潰。
                   <br /><br />
-                  用了<span className="text-foreground font-medium">報告汪</span>之後，我依個案建立標籤，每次訪視記錄寫完直接貼標，評鑑前<span className="text-foreground font-medium"> AI 評鑑分析</span>直接告訴我哪位個案的照護計畫文件不完整，不用再逐項手動比對，準備時間省了將近一半。
+                  用了<span className="text-foreground font-medium">報告汪</span>之後，我依住民建立標籤，照護計畫寫完直接貼標，評鑑前<span className="text-foreground font-medium"> AI 評鑑分析</span>直接告訴我哪位住民的照護計畫每 6 個月評估紀錄缺失，不用再逐項手動比對，準備時間省了超過一半。
                 </p>
                 <div className="flex flex-wrap gap-1 mt-3">
-                  {["居家護理評鑑", "個案照護計畫", "居家護理文書", "護理所評鑑準備"].map((tag) => (
+                  {["護理之家評鑑", "住民照護計畫", "護理之家文書", "一般護理之家評鑑準備"].map((tag) => (
                     <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">
                       {tag}
                     </span>
@@ -217,26 +218,26 @@ export default function HomeNursingPage() {
               </CardContent>
             </Card>
 
-            {/* 李負責人 — 2 欄 */}
+            {/* 黃負責人 — 2 欄 */}
             <Card className="md:col-span-2">
               <CardContent className="pt-6">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-sky-100 text-sky-800 shrink-0">
-                    李
+                    黃
                   </div>
                   <div>
-                    <div className="text-sm font-medium">李負責人</div>
-                    <div className="text-xs text-muted-foreground mt-0.5">台北市居家護理所・機構負責人</div>
+                    <div className="text-sm font-medium">黃負責人</div>
+                    <div className="text-xs text-muted-foreground mt-0.5">新北市一般護理之家・機構負責人</div>
                   </div>
                 </div>
                 <div className="text-amber-500 text-sm mt-3">★★★★★</div>
                 <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                  我們評鑑前最怕 A 區經營管理文件不齊——感染管制手冊、訪視人員安全辦法、緊急事件處理辦法、經營指標分析報告，每次都要臨時補件，壓力很大。
+                  我們評鑑前最怕 C 區環境設施文件不齊——消防演練紀錄、感染管制手冊、災害應變計畫、疫苗接種記錄，每次都要臨時補件，一到評鑑月份全機構都在趕文件。
                   <br /><br />
-                  用了<span className="text-foreground font-medium">報告汪</span>的標籤依<span className="text-foreground font-medium">評鑑構面分區</span>後，A 區、B 區各有對應標籤，平時文件寫完直接貼上，評鑑前 AI 一次告訴我哪個構面缺件，再也不用臨時補件了。
+                  用了<span className="text-foreground font-medium">報告汪</span>的標籤依<span className="text-foreground font-medium">評鑑構面分區</span>後，C 區四個基準（C1～C4）各有對應標籤，平時文件寫完直接貼上，評鑑前 AI 一次告訴我哪個構面缺件，再也不用臨時補件了。
                 </p>
                 <div className="flex flex-wrap gap-1 mt-3">
-                  {["居家護理所評鑑", "感染管制文件", "經營指標追蹤", "居家護理行政管理"].map((tag) => (
+                  {["護理之家評鑑", "感染管制文件", "消防安全管理", "災害應變管理"].map((tag) => (
                     <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">
                       {tag}
                     </span>
@@ -245,7 +246,7 @@ export default function HomeNursingPage() {
               </CardContent>
             </Card>
 
-            {/* 陳訪視人員 — 1 欄 */}
+            {/* 陳照服員 — 1 欄 */}
             <Card>
               <CardContent className="pt-6">
                 <div className="flex items-center gap-3">
@@ -253,18 +254,18 @@ export default function HomeNursingPage() {
                     陳
                   </div>
                   <div>
-                    <div className="text-sm font-medium">陳訪視人員</div>
-                    <div className="text-xs text-muted-foreground mt-0.5">桃園市居家護理所・護理師</div>
+                    <div className="text-sm font-medium">陳照服員</div>
+                    <div className="text-xs text-muted-foreground mt-0.5">桃園市一般護理之家・照顧服務員</div>
                   </div>
                 </div>
                 <div className="text-amber-500 text-sm mt-3">★★★★★</div>
                 <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                  A3 訪視人員安全管理是我以前最頭痛的——車禍、人身安全、動物咬傷的緊急通報記錄和改善追蹤，每次評鑑要翻出來對照，光找資料就要花很多時間。
+                  B2 生活照顧紀錄是我以前最頭痛的——沐浴、飲食、活動、夜間巡房記錄分散在好幾個表格，評鑑要對照護計畫，光找資料就要花很多時間。
                   <br /><br />
-                  現在用<span className="text-foreground font-medium">報告汪</span>建立安全管理標籤，事件記錄上傳後<span className="text-foreground font-medium"> AI 自動分析</span>改善追蹤是否完整，評鑑前每個安全事件都有完整記錄，委員問起來立刻就能找到。
+                  現在用<span className="text-foreground font-medium">報告汪</span>建立住民照顧標籤，日常紀錄上傳後<span className="text-foreground font-medium"> AI 自動對應</span> B2 基準符合項目，評鑑前每位住民的生活照顧紀錄都完整，委員查起來立刻就能找到。
                 </p>
                 <div className="flex flex-wrap gap-1 mt-3">
-                  {["訪視安全管理", "居家護理文書", "緊急事件記錄"].map((tag) => (
+                  {["生活照顧紀錄", "護理之家文書", "照服員日誌"].map((tag) => (
                     <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">
                       {tag}
                     </span>
@@ -278,9 +279,9 @@ export default function HomeNursingPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
               { value: "↓ 50%", label: "評鑑準備時間" },
-              { value: "8 項", label: "評鑑基準覆蓋" },
-              { value: "5 項", label: "KPI 指標追蹤" },
-              { value: "A+B 全覆蓋", label: "照護紀錄集中管理" },
+              { value: "15 項", label: "評鑑基準覆蓋" },
+              { value: "4 大構面", label: "A/B/C/D 全覆蓋" },
+              { value: "5 項+", label: "照護品質指標追蹤" },
             ].map((s) => (
               <div key={s.label} className="bg-background rounded-xl py-4 px-3 text-center border">
                 <div className="text-xl font-semibold">{s.value}</div>
@@ -298,20 +299,20 @@ export default function HomeNursingPage() {
           <div className="space-y-4">
             {[
               {
-                q: "報告汪如何協助居家護理所的評鑑準備？",
-                a: "報告汪內建「115年度居家護理所評鑑基準」評鑑 profile，上傳機構文件與訪視紀錄後，AI 自動對應 A 經營管理（5 項）、B 照護管理（3 項）共 8 項基準，逐項標示哪些符合項目文件不足，讓評鑑準備不再是逐項手動比對的苦工。",
+                q: "報告汪如何協助一般護理之家的評鑑準備？",
+                a: "報告汪內建「115年度一般護理之家評鑑基準」評鑑 profile，上傳機構文件後，AI 自動對應 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項）共 15 項基準，逐項標示哪些符合項目文件不足，讓評鑑準備不再是逐項手動比對的苦工。",
               },
               {
-                q: "居家護理所的個案照護紀錄（B2）如何用報告汪管理？",
-                a: "依 B2 個案照護管理基準建立標籤：收案評估記錄、全人評估（每 6 個月）、個別化照護計畫（問題/目標/措施/評值）。護理人員完成訪視紀錄後直接貼上對應標籤，評鑑前 AI 分析直接標示哪位個案的照護計畫文件不完整，一目了然。",
+                q: "一般護理之家的住民照護計畫（A2.1/B2）如何用報告汪管理？",
+                a: "依 A2.1 服務對象管理及 B2 生活照顧服務基準建立住民標籤，收住評估、全人評估、個別化照護計畫（問題/目標/措施/評值）依住民分類管理。評鑑前 AI 分析直接標示哪位住民的照護計畫文件不完整、每 6 個月的定期評估是否有記錄，一目了然。",
               },
               {
-                q: "護理人員與機構負責人如何在同一平台分工協作？",
-                a: "依職類建立獨立標籤：護理人員負責 B 區個案照護紀錄與訪視記錄，機構負責人負責 A 區經營管理文件（感染管制手冊、訪視人員安全辦法、緊急事件處理辦法等）。各職類在各自標籤區撰寫文件，負責人彙整評鑑備審時，跨標籤篩選一次取得所有最新文件。",
+                q: "護理師、照服員與機構負責人如何在同一平台分工協作？",
+                a: "依職類建立獨立標籤：護理師負責 B1 護理照護、B3 品質監測文件；照服員負責 B2 生活照顧紀錄；行政負責 A 區行政管理文件；負責人負責 A2 住民權益及 C/D 區環境安全。各職類在各自標籤區撰寫文件，評鑑備審時跨標籤篩選一次取得所有最新文件。",
               },
               {
-                q: "居家護理所的 5 項經營指標（A5）如何用報告汪追蹤？",
-                a: "建立「經營指標 A5」標籤，定期將 5 項以上機構經營品質指標的統計分析報告上傳至該標籤。評鑑前 AI 直接分析指標趨勢與改善措施記錄，確認每項指標均有持續監測及閾值修訂紀錄，符合 A5 基準要求。",
+                q: "C3 感染管制與 C4 災害應變文件如何用報告汪管理？",
+                a: "建立「感染管制 C3」和「災害應變 C4」標籤，分別管理感染管制手冊、消毒清潔紀錄、演練計畫執行紀錄、緊急聯絡名單等文件。評鑑前 AI 自動對應 C3/C4 基準符合項目，標示哪項文件缺漏（如年度消防演練記錄、疫苗接種記錄），不再臨時補件。",
               },
               {
                 q: "目前收費嗎？",
@@ -343,16 +344,6 @@ export default function HomeNursingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
               {
-                href: "/day-care",
-                title: "日照中心 AI 文書管理系統介紹",
-                emoji: "🏢",
-                label: "日照中心",
-                stat: "↓ 48%",
-                statLabel: "活動紀錄時間",
-                desc: "個案服務計畫和活動紀錄用標籤分類後，評鑑前不再手忙腳亂。",
-                cta: "日照中心文書管理系統 →",
-              },
-              {
                 href: "/nursing-home",
                 title: "護理之家 AI 文書管理系統介紹",
                 emoji: "🏡",
@@ -363,24 +354,34 @@ export default function HomeNursingPage() {
                 cta: "護理之家多職類文書協作平台 →",
               },
               {
-                href: "/general-nursing-home",
-                title: "一般護理之家 AI 文書管理系統介紹",
-                emoji: "🏥",
-                label: "一般護理之家",
-                stat: "15 項",
+                href: "/home-nursing",
+                title: "居家護理所 AI 文書管理系統介紹",
+                emoji: "🩺",
+                label: "居家護理所",
+                stat: "8 項",
                 statLabel: "評鑑基準覆蓋",
-                desc: "A/B/C/D 四大構面 15 項基準全覆蓋，住民照護計畫集中管理，AI 分析直接標示缺漏。",
-                cta: "一般護理之家文書管理系統 →",
+                desc: "個案照護紀錄和經營指標用標籤分類後，評鑑前 AI 分析直接標示缺漏。",
+                cta: "居家護理所文書管理系統 →",
               },
               {
-                href: "/home-care",
-                title: "居服機構 AI 文書管理系統介紹",
-                emoji: "🏠",
-                label: "居服機構",
-                stat: "↓ 52%",
-                statLabel: "居服員日誌時間",
-                desc: "標籤依撰寫者分類，督導一眼看出誰的文件缺繳，查核零補件。",
-                cta: "居服機構文書管理系統 →",
+                href: "/babycare",
+                title: "產後護理之家 AI 文書管理系統介紹",
+                emoji: "👶",
+                label: "產後護理之家",
+                stat: "15 項",
+                statLabel: "評鑑基準覆蓋",
+                desc: "母嬰照護紀錄集中管理，AI 分析直接標示缺漏，評鑑準備效率大幅提升。",
+                cta: "產後護理之家文書管理系統 →",
+              },
+              {
+                href: "/day-care",
+                title: "日照中心 AI 文書管理系統介紹",
+                emoji: "🏢",
+                label: "日照中心",
+                stat: "↓ 48%",
+                statLabel: "活動紀錄時間",
+                desc: "個案服務計畫和活動紀錄用標籤分類後，評鑑前不再手忙腳亂。",
+                cta: "日照中心文書管理系統 →",
               },
             ].map((item) => (
               <Link key={item.href} href={item.href} title={item.title} className="block group">
@@ -407,10 +408,10 @@ export default function HomeNursingPage() {
       {/* CTA */}
       <section className="py-24 px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          準備好讓居家護理所文書走向 AI 輔助了嗎？
+          準備好讓一般護理之家文書走向 AI 輔助了嗎？
         </h2>
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
-          加入報告汪，評鑑 AI 分析、個案照護紀錄集中管理、經營指標持續追蹤。
+          加入報告汪，評鑑 AI 分析、住民照護計畫集中管理、環境安全文件持續建檔。
         </p>
         <StartButton>免費開始使用</StartButton>
       </section>
@@ -424,7 +425,7 @@ export default function HomeNursingPage() {
         <div className="flex items-center gap-6">
           <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
           <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" title="免費試用報告汪居家護理所方案" className="hover:text-primary transition-colors">註冊</Link>
+          <Link href="/auth/sign-up" title="免費試用報告汪一般護理之家方案" className="hover:text-primary transition-colors">註冊</Link>
         </div>
         <ThemeSwitcher />
       </footer>
