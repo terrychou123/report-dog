@@ -6,7 +6,7 @@ import { techArticleJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "四大機構實戰情境",
-  description: "報告汪在居服機構、日照中心、護理之家、醫院護理部的實際使用情境，含具體成效數據。",
+  description: "報告汪在居服機構、日照中心、住宿型長照機構、醫院護理部的實際使用情境，含具體成效數據。",
   alternates: { canonical: "https://reportwang.com/docs/scenarios" },
   openGraph: {
     title: "四大機構實戰情境｜報告汪教學",
@@ -19,7 +19,7 @@ const institutionLinks = [
   { href: "/home-care", label: "🏠 居服機構" },
   { href: "/day-care", label: "🏢 日照中心" },
   { href: "/hospital", label: "🏥 醫院護理部" },
-  { href: "/nursing-home", label: "🏡 護理之家" },
+  { href: "/residential", label: "🏡 住宿型長照機構" },
 ];
 
 const scenarios = [
@@ -49,11 +49,11 @@ const scenarios = [
   },
   {
     id: 3,
-    institution: "護理之家",
-    institutionHref: "/nursing-home",
+    institution: "住宿型長照機構",
+    institutionHref: "/residential",
     emoji: "🏡",
     title: "多職類月報協作",
-    role: "廖主任・新北市護理之家",
+    role: "廖主任・新北市住宿型長照機構",
     pain: "每月各職類（護理、社工、照服）要分別提交月報，格式不統一，主任彙整時需要大量編輯，耗時耗力。",
     solution: "各職類使用相同模板，上個月的月報一鍵複製後，只用 AI 修改有異動的段落（服務人次、活動場次等數字）。主任僅需確認彙整，不用再重新排版。",
     result: "月報彙整時間減少三分之一，各職類月報格式更一致。",

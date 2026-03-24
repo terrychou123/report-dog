@@ -7,7 +7,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 
 export const metadata: Metadata = {
   title: "AI 評鑑分析",
-  description: "報告汪 AI 評鑑分析教學：上傳長照報告資料，AI 五維度評鑑分析，協助居服、日照、護理之家評鑑備審。",
+  description: "報告汪 AI 評鑑分析教學：上傳長照報告資料，AI 五維度評鑑分析，協助居服、日照、住宿型長照機構評鑑備審。",
   alternates: { canonical: "https://reportwang.com/docs/evaluation" },
   openGraph: {
     title: "AI 評鑑分析｜報告汪教學",
@@ -27,7 +27,7 @@ const dimensions = [
 const institutions = [
   { name: "居服機構", items: ["服務紀錄完整度", "個案評估更新頻率", "居服員簽名完整性"] },
   { name: "日照中心", items: ["活動紀錄多樣性", "個案參與紀錄", "評鑑指標文件完整度"] },
-  { name: "護理之家", items: ["護理評估記錄", "跨職類服務計畫", "住民權益保障記載"] },
+  { name: "住宿型長照機構", items: ["護理評估記錄", "跨職類服務計畫", "住民權益保障記載"] },
   { name: "醫院護理部", items: ["交班紀錄完整度", "護理指導記錄", "病安事件紀錄格式"] },
 ];
 
@@ -51,7 +51,7 @@ export default function EvaluationPage() {
       <h2>如何使用</h2>
       <ol>
         <li>進入「評鑑分析」功能頁面</li>
-        <li>選擇機構類型（居服、日照、護理之家、醫院）</li>
+        <li>選擇機構類型（居服、日照、住宿型長照機構、醫院）</li>
         <li>上傳或選擇要分析的報告（支援單份或批次分析）</li>
         <li>點擊「開始分析」，AI 在 30-60 秒內完成分析</li>
         <li>查看五維度分析結果與改善建議</li>

@@ -299,14 +299,14 @@ export default function Home() {
               },
               {
                 emoji: "🏡",
-                badge: "護理之家",
-                href: "/nursing-home",
-                linkTitle: "護理之家多職種文書協作平台介紹",
+                badge: "住宿型長照機構",
+                href: "/residential",
+                linkTitle: "住宿型長照機構多職種文書協作平台介紹",
                 stat: "4 職類",
                 statLabel: "協作管理",
                 quote: "主任月報行政時間少了三分之一，各職類文件不再混在一起找不到。",
-                author: "廖主任・新北市護理之家",
-                cta: "護理之家多職類文書協作平台 →",
+                author: "廖主任・新北市住宿型長照機構",
+                cta: "住宿型長照機構多職類文書協作平台 →",
               },
               {
                 emoji: "♿",
@@ -412,17 +412,14 @@ export default function Home() {
                     ))}
                   </ul>
                   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
-                    <a
-                      href="https://docs.google.com/spreadsheets/d/1Vm10sjWs8zhE7zufBF0hvNoFZkTr5E_5/edit?usp=sharing"
-                      title="免費下載日照機構備審文件與工作記錄表 Google 試算表"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href="/downloads"
                       className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors px-5 py-2.5 rounded-lg font-medium text-sm"
                     >
                       <DownloadIcon className="h-4 w-4" />
-                      免費開啟試算表 →
-                    </a>
-                    <span className="text-xs text-muted-foreground">無需登入，開啟後點「檔案 → 複製」即可使用</span>
+                      前往下載頁面 →
+                    </Link>
+                    <span className="text-xs text-muted-foreground">各機構類型 Excel 自我檢核表，免費下載使用</span>
                   </div>
                 </div>
               </div>

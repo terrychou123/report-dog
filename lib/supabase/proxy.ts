@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { hasEnvVars } from "../utils";
 
 const PUBLIC_EXACT = new Set(["/", "/pricing", "/ads.txt", "/sitemap.xml", "/robots.txt"]);
-const PUBLIC_PREFIXES = ["/home-care", "/hospital", "/nursing-home", "/day-care", "/blog", "/login", "/auth"];
+const PUBLIC_PREFIXES = ["/home-care", "/hospital", "/residential", "/day-care", "/blog", "/login", "/auth"];
 
 function isPublicPath(pathname: string): boolean {
   return PUBLIC_EXACT.has(pathname) || PUBLIC_PREFIXES.some((p) => pathname.startsWith(p));

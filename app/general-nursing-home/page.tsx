@@ -344,14 +344,14 @@ export default function GeneralNursingHomePage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
               {
-                href: "/nursing-home",
-                title: "護理之家 AI 文書管理系統介紹",
+                href: "/residential",
+                title: "住宿型長照機構 AI 文書管理系統介紹",
                 emoji: "🏡",
-                label: "護理之家",
+                label: "住宿型長照機構",
                 stat: "4 職類",
                 statLabel: "協作管理",
                 desc: "主任月報行政時間少了三分之一，各職類文件不再混在一起找不到。",
-                cta: "護理之家多職類文書協作平台 →",
+                cta: "住宿型長照機構多職類文書協作平台 →",
               },
               {
                 href: "/home-nursing",

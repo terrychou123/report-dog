@@ -347,14 +347,14 @@ export default function HospitalNursingPage() {
                 cta: "居服機構文書管理系統 →",
               },
               {
-                href: "/nursing-home",
-                title: "護理之家多職種文書協作平台介紹",
+                href: "/residential",
+                title: "住宿型長照機構多職種文書協作平台介紹",
                 emoji: "🏡",
-                label: "護理之家",
+                label: "住宿型長照機構",
                 stat: "4 職類",
                 statLabel: "同平台協作管理",
                 desc: "護理師、照服員、社工、營養師同平台協作，夜班文書時間減少 63%。",
-                cta: "護理之家多職類文書協作平台 →",
+                cta: "住宿型長照機構多職類文書協作平台 →",
               },
               {
                 href: "/day-care",
