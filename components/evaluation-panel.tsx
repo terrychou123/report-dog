@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -30,7 +30,7 @@ type Props = {
 
 export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, onSaved }: Props) {
   const [profileId, setProfileId] = useState("daycare");
-  const selectedProfile = PROFILES.find((p) => p.id === profileId);
+  const selectedProfile = useMemo(() => PROFILES.find((p) => p.id === profileId), [profileId]);
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);

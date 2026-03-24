@@ -2,11 +2,13 @@ import { daycareProfile } from "./daycare";
 import { nursingHomeProfile } from "./nursing-home";
 import { homeCareProfile } from "./home-care";
 import { hospitalProfile } from "./hospital";
+import { disabilityProfile } from "./disability";
 
-const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile];
+const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile, disabilityProfile];
+const profileMap = new Map(profiles.map((p) => [p.id, p]));
 
 export function getProfile(id: string) {
-  return profiles.find((p) => p.id === id) ?? null;
+  return profileMap.get(id) ?? null;
 }
 
 export function getAllProfiles() {
