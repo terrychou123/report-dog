@@ -334,61 +334,66 @@ export default function HomeCarePage() {
               其他長照產業解決方案
             </span>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Link href="/hospital" title="醫院 AI 文書管理系統介紹" className="block group">
-              <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
-                <CardContent className="pt-5 pb-5">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">🏥</span>
-                    <span className="font-semibold text-sm">醫院</span>
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-1">↓ 60%</div>
-                  <p className="text-xs text-muted-foreground mb-2">文書交接時間</p>
-                  <p className="text-sm text-muted-foreground">
-                    班別標籤管理交接班文書，評鑑備審一鍵備齊，護理長省心省力。
-                  </p>
-                  <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    護理文書管理系統・交班紀錄工具 →
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
-            <Link href="/nursing-home" title="護理之家多職種文書協作平台介紹" className="block group">
-              <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
-                <CardContent className="pt-5 pb-5">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">🏡</span>
-                    <span className="font-semibold text-sm">護理之家</span>
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-1">4 職類</div>
-                  <p className="text-xs text-muted-foreground mb-2">同平台協作管理</p>
-                  <p className="text-sm text-muted-foreground">
-                    護理師、照服員、社工、營養師同平台協作，夜班文書時間減少 63%。
-                  </p>
-                  <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    護理之家多職類文書協作平台 →
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
-            <Link href="/day-care" title="日照中心 AI 文書管理系統介紹" className="block group">
-              <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
-                <CardContent className="pt-5 pb-5">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">🏢</span>
-                    <span className="font-semibold text-sm">日照中心</span>
-                  </div>
-                  <div className="text-2xl font-bold text-primary mb-1">↓ 48%</div>
-                  <p className="text-xs text-muted-foreground mb-2">活動紀錄時間</p>
-                  <p className="text-sm text-muted-foreground">
-                    個案服務計畫和活動紀錄用標籤分類後，評鑑前不再手忙腳亂。
-                  </p>
-                  <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
-                    日照中心文書管理系統 →
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            {[
+              {
+                href: "/hospital",
+                title: "醫院 AI 文書管理系統介紹",
+                emoji: "🏥",
+                label: "醫院",
+                stat: "↓ 60%",
+                statLabel: "文書交接時間",
+                desc: "班別標籤管理交接班文書，評鑑備審一鍵備齊，護理長省心省力。",
+                cta: "護理文書管理系統・交班紀錄工具 →",
+              },
+              {
+                href: "/nursing-home",
+                title: "護理之家多職種文書協作平台介紹",
+                emoji: "🏡",
+                label: "護理之家",
+                stat: "4 職類",
+                statLabel: "同平台協作管理",
+                desc: "護理師、照服員、社工、營養師同平台協作，夜班文書時間減少 63%。",
+                cta: "護理之家多職類文書協作平台 →",
+              },
+              {
+                href: "/day-care",
+                title: "日照中心 AI 文書管理系統介紹",
+                emoji: "🏢",
+                label: "日照中心",
+                stat: "↓ 48%",
+                statLabel: "活動紀錄時間",
+                desc: "個案服務計畫和活動紀錄用標籤分類後，評鑑前不再手忙腳亂。",
+                cta: "日照中心文書管理系統 →",
+              },
+              {
+                href: "/home-nursing",
+                title: "居家護理所 AI 文書管理系統介紹",
+                emoji: "🩺",
+                label: "居家護理所",
+                stat: "8 項",
+                statLabel: "評鑑基準覆蓋",
+                desc: "個案照護紀錄和經營指標用標籤分類後，評鑑前 AI 分析直接標示缺漏。",
+                cta: "居家護理所文書管理系統 →",
+              },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} title={item.title} className="block group">
+                <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
+                  <CardContent className="pt-5 pb-5">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-lg">{item.emoji}</span>
+                      <span className="font-semibold text-sm">{item.label}</span>
+                    </div>
+                    <div className="text-2xl font-bold text-primary mb-1">{item.stat}</div>
+                    <p className="text-xs text-muted-foreground mb-2">{item.statLabel}</p>
+                    <p className="text-sm text-muted-foreground">{item.desc}</p>
+                    <div className="mt-3 text-xs font-medium text-primary group-hover:underline">
+                      {item.cta}
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

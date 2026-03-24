@@ -330,6 +330,17 @@ export default function Home() {
                 author: "王護理師・台北市產後護理之家",
                 cta: "產後護理之家文書管理系統 →",
               },
+              {
+                emoji: "🩺",
+                badge: "居家護理所",
+                href: "/home-nursing",
+                linkTitle: "居家護理所 AI 文書管理系統介紹",
+                stat: "8 項",
+                statLabel: "評鑑基準覆蓋",
+                quote: "個案照護紀錄和經營指標用標籤分類後，評鑑前 AI 分析直接標示缺漏，不用再逐項手動比對。",
+                author: "張護理師・新北市居家護理所",
+                cta: "居家護理所文書管理系統 →",
+              },
             ].map((item) => (
               <Link key={item.href} href={item.href} title={item.linkTitle} className="block group">
                 <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">

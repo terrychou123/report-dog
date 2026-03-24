@@ -4,16 +4,18 @@ import { homeCareProfile } from "./home-care";
 import { hospitalProfile } from "./hospital";
 import { disabilityProfile } from "./disability";
 import { babycareProfile } from "./babycare";
+import { homeNursingProfile } from "./home-nursing";
 
-const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile, disabilityProfile, babycareProfile];
+const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile, disabilityProfile, babycareProfile, homeNursingProfile];
 const profileMap = new Map(profiles.map((p) => [p.id, p]));
+const allProfilesMeta = profiles.map(({ id, label, description, sections }) => ({
+  id, label, description, ready: sections.length > 0,
+}));
 
 export function getProfile(id: string) {
   return profileMap.get(id) ?? null;
 }
 
 export function getAllProfiles() {
-  return profiles.map(({ id, label, description, sections }) => ({
-    id, label, description, ready: sections.length > 0,
-  }));
+  return allProfilesMeta;
 }

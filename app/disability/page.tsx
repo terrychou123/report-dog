@@ -343,14 +343,14 @@ export default function DisabilityPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
               {
-                href: "/home-care",
-                title: "居服機構 AI 文書管理系統介紹",
-                emoji: "🏠",
-                label: "居服機構",
-                stat: "↓ 52%",
-                statLabel: "居服員日誌時間",
-                desc: "標籤依撰寫者分類，督導一眼看出誰的文件缺繳，查核零補件。",
-                cta: "居服機構文書管理系統 →",
+                href: "/home-nursing",
+                title: "居家護理所 AI 文書管理系統介紹",
+                emoji: "🩺",
+                label: "居家護理所",
+                stat: "8 項",
+                statLabel: "評鑑基準覆蓋",
+                desc: "個案照護紀錄和經營指標用標籤分類後，評鑑前 AI 分析直接標示缺漏。",
+                cta: "居家護理所文書管理系統 →",
               },
               {
                 href: "/day-care",
