@@ -4,6 +4,7 @@ import { db } from '@/db';
 import { reports, clients, clientReports } from '@/db/schema';
 import { eq, and, inArray, or, sql } from 'drizzle-orm';
 import { createOpenRouterClient } from '@/lib/ai/openrouter-client';
+import { checkAndRecordAiUsage } from '@/lib/ai/usage-limit';
 import { processContent } from '@/lib/ai/content-utils';
 import { getProfile } from '@/lib/ai/evaluation-profiles';
 
@@ -89,11 +90,20 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: '請指定評鑑類型' }, { status: 400 });
   }
 
+  // Validate profileId before consuming quota
   let systemPrompt: string;
   try {
     systemPrompt = buildSystemPrompt(profileId);
   } catch {
     return NextResponse.json({ error: '不支援的評鑑類型' }, { status: 400 });
+  }
+
+  const usage = await checkAndRecordAiUsage(userId, 'evaluation');
+  if (!usage.allowed) {
+    return NextResponse.json(
+      { error: '今日 AI 分析次數已達上限', code: 'DAILY_LIMIT_REACHED', used: usage.used, limit: usage.limit },
+      { status: 429 },
+    );
   }
 
   // Fetch reports accessible to the user (own + shared via tags)

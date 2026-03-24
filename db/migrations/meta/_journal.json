@@ -15,40 +15,47 @@
       "when": 1741910400000,
       "tag": "0001_add_sort_order_to_client_reports",
       "breakpoints": true
-    }
-    ,{
+    },
+    {
       "idx": 2,
       "version": "7",
       "when": 1741996800000,
       "tag": "0002_add_unique_index_to_client_reports",
       "breakpoints": true
-    }
-    ,{
+    },
+    {
       "idx": 3,
       "version": "7",
       "when": 1742428800000,
       "tag": "0003_add_performance_indexes",
       "breakpoints": true
-    }
-    ,{
+    },
+    {
       "idx": 4,
       "version": "7",
       "when": 1742601600000,
       "tag": "0004_add_workspaces",
       "breakpoints": true
-    }
-    ,{
+    },
+    {
       "idx": 5,
       "version": "7",
       "when": 1742688000000,
       "tag": "0005_replace_workspace_with_tag_permissions",
       "breakpoints": true
-    }
-    ,{
+    },
+    {
       "idx": 6,
       "version": "7",
       "when": 1742860800000,
       "tag": "0006_add_report_revisions",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1774367994796,
+      "tag": "0007_odd_violations",
       "breakpoints": true
     }
   ]

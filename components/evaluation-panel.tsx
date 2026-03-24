@@ -17,6 +17,8 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { marked } from "marked";
 import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
+import { useAiUsage } from "@/lib/hooks/use-ai-usage";
+import { AiLimitDialog } from "@/components/ai/ai-limit-dialog";
 
 const PROFILES = getAllProfiles();
 
@@ -35,8 +37,10 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
+  const [limitDialogOpen, setLimitDialogOpen] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
   const savedTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const { limit, remaining, isLoading: usageLoading, refresh: refreshUsage } = useAiUsage();
 
   const runAnalysis = () => {
     if (reportIds.length < 1) return;
@@ -44,7 +48,6 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
     abortRef.current?.abort();
     if (savedTimerRef.current) clearTimeout(savedTimerRef.current);
     setResult("");
-    setSaved(false);
     setSaved(false);
     setLoading(true);
     const controller = new AbortController();
@@ -58,6 +61,12 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
           body: JSON.stringify({ reportIds, profileId }),
           signal: controller.signal,
         });
+
+        if (res.status === 429) {
+          setLimitDialogOpen(true);
+          setLoading(false);
+          return;
+        }
 
         if (!res.ok || !res.body) {
           let errorMsg = "評鑑分析失敗，請稍後再試。";
@@ -78,6 +87,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
           done = doneReading;
           if (value) setResult((prev) => prev + decoder.decode(value, { stream: !done }));
         }
+        refreshUsage();
       } catch (e) {
         if ((e as Error).name !== "AbortError") {
           setResult("評鑑分析失敗，請稍後再試。");
@@ -131,89 +141,99 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
   };
 
   return (
-    <Dialog open={open} onOpenChange={handleOpenChange}>
-      <DialogContent className="max-w-2xl max-h-[80vh] flex flex-col gap-4 overflow-hidden">
-        <DialogHeader>
-          <DialogTitle>報告 AI 分析</DialogTitle>
-        </DialogHeader>
+    <>
+      <Dialog open={open} onOpenChange={handleOpenChange}>
+        <DialogContent className="max-w-2xl max-h-[80vh] flex flex-col gap-4 overflow-hidden">
+          <DialogHeader>
+            <DialogTitle>報告 AI 分析</DialogTitle>
+          </DialogHeader>
 
-        <div className="flex items-start gap-2 rounded-md border border-amber-500/30 bg-amber-500/10 p-3 text-sm text-amber-700 dark:text-amber-400">
-          <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
-          <span>因應個人資料保護法，請勿涉及個人敏感資料。評估結果僅供參考，不負任何法律責任。</span>
-        </div>
+          <div className="flex items-start gap-2 rounded-md border border-amber-500/30 bg-amber-500/10 p-3 text-sm text-amber-700 dark:text-amber-400">
+            <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
+            <span>因應個人資料保護法，請勿涉及個人敏感資料。評估結果僅供參考，不負任何法律責任。</span>
+          </div>
 
-        <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
-          {reportTitles.map((title, i) => (
-            <Badge key={i} variant="secondary" className="text-xs">
-              {title}
-            </Badge>
-          ))}
-        </div>
+          <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto">
+            {reportTitles.map((title) => (
+              <Badge key={title} variant="secondary" className="text-xs">
+                {title}
+              </Badge>
+            ))}
+          </div>
 
-        <div className="flex items-center gap-3">
-          <Select value={profileId} onValueChange={setProfileId} disabled={loading}>
-            <SelectTrigger className="w-48">
-              <SelectValue placeholder="選擇評鑑類型" />
-            </SelectTrigger>
-            <SelectContent>
-              {PROFILES.map((p) => (
-                <SelectItem key={p.id} value={p.id}>
-                  {p.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <div className="flex items-center gap-3">
+            <Select value={profileId} onValueChange={setProfileId} disabled={loading}>
+              <SelectTrigger className="w-48">
+                <SelectValue placeholder="選擇評鑑類型" />
+              </SelectTrigger>
+              <SelectContent>
+                {PROFILES.map((p) => (
+                  <SelectItem key={p.id} value={p.id}>
+                    {p.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
 
-          <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1 || !selectedProfile?.ready}>
-            {loading ? (
-              <>
-                <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
-                分析中...
-              </>
-            ) : (
-              "開始分析"
+            <Button onClick={runAnalysis} disabled={loading || reportIds.length < 1 || !selectedProfile?.ready}>
+              {loading ? (
+                <>
+                  <LoaderIcon className="h-4 w-4 animate-spin mr-1" />
+                  分析中...
+                </>
+              ) : (
+                "開始分析"
+              )}
+            </Button>
+
+            {!usageLoading && (
+              <span className="text-xs text-muted-foreground ml-auto">
+                今日剩餘：{remaining}/{limit} 次
+              </span>
             )}
-          </Button>
-        </div>
+          </div>
 
-        <div className="flex-1 min-h-0 overflow-y-auto rounded-md border p-4">
-          {loading && !result && (
-            <div className="flex items-center gap-2 text-muted-foreground text-sm">
-              <LoaderIcon className="h-4 w-4 animate-spin" />
-              <span>AI 依評鑑基準分析中，請稍候...</span>
-            </div>
-          )}
-          {result && (
-            <div className="prose prose-sm dark:prose-invert max-w-none">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{result}</ReactMarkdown>
-            </div>
-          )}
-          {!loading && !result && (
-            <p className="text-sm text-muted-foreground">選擇評鑑類型後點擊「開始分析」。</p>
-          )}
-        </div>
-
-        {!loading && result && (
-          <Button onClick={handleSave} disabled={saving}>
-            {saved ? (
-              <>
-                <CheckIcon className="h-4 w-4 mr-2" />
-                已儲存
-              </>
-            ) : saving ? (
-              <>
-                <LoaderIcon className="h-4 w-4 animate-spin mr-2" />
-                儲存中...
-              </>
-            ) : (
-              <>
-                <SaveIcon className="h-4 w-4 mr-2" />
-                儲存結果
-              </>
+          <div className="flex-1 min-h-0 overflow-y-auto rounded-md border p-4">
+            {loading && !result && (
+              <div className="flex items-center gap-2 text-muted-foreground text-sm">
+                <LoaderIcon className="h-4 w-4 animate-spin" />
+                <span>AI 依評鑑基準分析中，請稍候...</span>
+              </div>
             )}
-          </Button>
-        )}
-      </DialogContent>
-    </Dialog>
+            {result && (
+              <div className="prose prose-sm dark:prose-invert max-w-none">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{result}</ReactMarkdown>
+              </div>
+            )}
+            {!loading && !result && (
+              <p className="text-sm text-muted-foreground">選擇評鑑類型後點擊「開始分析」。</p>
+            )}
+          </div>
+
+          {!loading && result && (
+            <Button onClick={handleSave} disabled={saving}>
+              {saved ? (
+                <>
+                  <CheckIcon className="h-4 w-4 mr-2" />
+                  已儲存
+                </>
+              ) : saving ? (
+                <>
+                  <LoaderIcon className="h-4 w-4 animate-spin mr-2" />
+                  儲存中...
+                </>
+              ) : (
+                <>
+                  <SaveIcon className="h-4 w-4 mr-2" />
+                  儲存結果
+                </>
+              )}
+            </Button>
+          )}
+        </DialogContent>
+      </Dialog>
+
+      <AiLimitDialog open={limitDialogOpen} onOpenChange={setLimitDialogOpen} />
+    </>
   );
 }

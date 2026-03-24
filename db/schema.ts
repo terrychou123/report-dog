@@ -112,6 +112,19 @@ export const notifications = pgTable('notifications', {
   userReadIdx: index('notifications_user_id_read_idx').on(t.userId, t.read),
 }));
 
+export const aiUsage = pgTable('ai_usage', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  route: varchar('route', { length: 100 }).notNull(), // 'document-ai' | 'evaluation'
+  // 'YYYY-MM-DD' UTC — used for atomic unique-constraint enforcement (free tier limit=1)
+  dateBucket: varchar('date_bucket', { length: 10 }).notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => ({
+  userDateIdx: index('ai_usage_user_id_created_at_idx').on(t.userId, t.createdAt),
+  // Unique per user per UTC day — prevents race conditions when limit=1
+  userDateBucketUniq: uniqueIndex('ai_usage_user_id_date_bucket_idx').on(t.userId, t.dateBucket),
+}));
+
 export const blogPosts = pgTable('blog_posts', {
   id: uuid('id').defaultRandom().primaryKey(),
   slug: text('slug').notNull().unique(),
