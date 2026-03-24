@@ -5,7 +5,7 @@ import { type EmailOtpType } from "@supabase/supabase-js";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-export default function ConfirmPage() {
+export default function CallbackPage() {
   const router = useRouter();
 
   useEffect(() => {
@@ -13,7 +13,10 @@ export default function ConfirmPage() {
     // Supabase sometimes sends auth tokens as URL hash fragments,
     // which are invisible to server-side route handlers.
     const hash = window.location.hash.slice(1);
-    if (!hash) return;
+    if (!hash) {
+      router.replace(`/auth/error?error=${encodeURIComponent("缺少驗證參數")}`);
+      return;
+    }
 
     const params = new URLSearchParams(hash);
     const token_hash = params.get("token_hash");
@@ -21,7 +24,10 @@ export default function ConfirmPage() {
     const access_token = params.get("access_token");
     const refresh_token = params.get("refresh_token");
 
-    if (!token_hash && !access_token) return;
+    if (!token_hash && !access_token) {
+      router.replace(`/auth/error?error=${encodeURIComponent("缺少驗證參數")}`);
+      return;
+    }
 
     const supabase = createBrowserClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -55,7 +61,7 @@ export default function ConfirmPage() {
         return;
       }
 
-      router.replace("/auth/error?error=No+token+hash+or+type");
+      router.replace(`/auth/error?error=${encodeURIComponent("缺少 token hash 或 type 參數")}`);
     };
 
     handleAuth();
