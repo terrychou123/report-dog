@@ -34,6 +34,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/home-nursing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/general-nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/pricing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/testimonial", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/blog", lastModified: staticDate, changeFrequency: "weekly", priority: 0.7 },
     { url: "https://reportwang.com/docs", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/getting-started", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },

@@ -10,6 +10,7 @@ import {
   TableIcon,
   BuildingIcon,
   HelpCircleIcon,
+  DownloadIcon,
 } from "lucide-react";
 
 export interface DocsNavItem {
@@ -68,6 +69,13 @@ export const docsNavSections: DocsNavSection[] = [
         title: "一鍵複製報告與建立模板",
         icon: CopyIcon,
         desc: "一鍵複製上期報告，建立個人模板庫",
+      },
+      {
+        href: "/docs/import-templates",
+        label: "匯入評鑑範本",
+        title: "一鍵匯入評鑑範本",
+        icon: DownloadIcon,
+        desc: "一鍵匯入機構評鑑標籤與報告範本",
       },
       {
         href: "/docs/evaluation",

@@ -12,6 +12,7 @@ export function Footer() {
       <div className="flex items-center gap-6">
         <Link href="/docs" title="報告汪使用教學" className="hover:text-primary transition-colors">教學</Link>
         <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
+        <Link href="/testimonial" title="長照從業人員對報告汪的評價" className="hover:text-primary transition-colors">評價</Link>
         <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
         <Link href="/auth/sign-up" title="免費註冊報告汪帳戶" className="hover:text-primary transition-colors">註冊</Link>
       </div>

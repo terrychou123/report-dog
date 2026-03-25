@@ -11,6 +11,7 @@ import {
   AccessibilityIcon,
   ArrowRightIcon,
   SparklesIcon,
+  DownloadIcon,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -178,8 +179,26 @@ export default function SchoolPage() {
         })}
       </div>
 
+      {/* Import Templates CTA */}
+      <div className="mt-10 rounded-xl bg-primary/5 border border-primary/20 p-6">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="shrink-0 rounded-xl bg-primary/10 p-3">
+            <DownloadIcon className="h-6 w-6 text-primary" />
+          </div>
+          <div className="flex-1">
+            <h2 className="text-base font-semibold mb-1">一鍵匯入評鑑範本，立即開始準備</h2>
+            <p className="text-sm text-muted-foreground">
+              學完評鑑基準後，到報告汪一鍵匯入對應機構類型的標籤與報告範本，AI 協助填寫內容，省去手動建立的時間。
+            </p>
+          </div>
+          <Button asChild size="sm" variant="outline" className="shrink-0">
+            <Link href="/docs/import-templates">了解匯入教學</Link>
+          </Button>
+        </div>
+      </div>
+
       {/* CTA */}
-      <div className="mt-12 rounded-xl bg-primary/5 border border-primary/20 p-6">
+      <div className="mt-6 rounded-xl bg-primary/5 border border-primary/20 p-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <div className="shrink-0 rounded-xl bg-primary/10 p-3">
             <SparklesIcon className="h-6 w-6 text-primary" />

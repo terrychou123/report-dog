@@ -125,6 +125,11 @@ export default function Home() {
                 title: "快速建立報告",
                 desc: "直接貼上報告文字，系統自動儲存並支援手動輸入或上傳 .doc 檔，立即建立可編輯的報告。",
               },
+              {
+                icon: <DownloadIcon className="h-6 w-6" />,
+                title: "一鍵匯入評鑑範本",
+                desc: "選擇機構類型，一鍵匯入對應的評鑑標籤與報告範本，涵蓋居服、日照、護理之家、醫院等 8 種機構類型，評鑑季立即開始準備。",
+              },
             ].map((f) => (
               <Card key={f.title} className="group hover:shadow-md transition-shadow">
                 <CardHeader>
@@ -199,6 +204,32 @@ export default function Home() {
                 <StartButton>免費體驗</StartButton>
               </div>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Evaluation Season Banner */}
+      <section className="py-16 px-6 bg-primary text-primary-foreground">
+        <div className="max-w-4xl mx-auto text-center">
+          <Badge variant="secondary" className="mb-4 bg-primary-foreground/20 text-primary-foreground border-0">評鑑季特別功能</Badge>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">評鑑季到了？一鍵匯入評鑑範本</h2>
+          <p className="text-lg opacity-80 mb-3">8 種機構類型完整覆蓋，省去手動建立的時間</p>
+          <p className="text-sm opacity-60 mb-8">
+            居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・產後護理之家・身心障礙福利機構・醫院
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/protected"
+              className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90 transition-colors px-6 py-3 rounded-lg font-semibold text-sm"
+            >
+              免費開始使用
+            </Link>
+            <Link
+              href="/docs/import-templates"
+              className="inline-flex items-center justify-center gap-2 border border-primary-foreground/40 hover:bg-primary-foreground/10 transition-colors px-6 py-3 rounded-lg font-medium text-sm"
+            >
+              了解更多
+            </Link>
           </div>
         </div>
       </section>
@@ -445,6 +476,7 @@ export default function Home() {
                 "無限標籤分類",
                 "AI 段落修改",
                 "一鍵複製舊報告",
+                "一鍵匯入評鑑範本",
                 "全文搜尋",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm">

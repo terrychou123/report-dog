@@ -223,6 +223,20 @@ export default function DisabilityWelfarePage() {
           })}
         </div>
       </div>
+
+      {/* Import CTA */}
+      <div className="mt-10 rounded-xl bg-primary/5 border border-primary/20 p-5">
+        <p className="text-sm font-semibold mb-1">看完評鑑基準了嗎？</p>
+        <p className="text-sm text-muted-foreground mb-3">
+          到報告汪一鍵匯入「身心障礙福利機構」評鑑範本，包含 6 個標籤和 35 份報告範本，省去手動建立的時間。
+        </p>
+        <Link
+          href="/docs/import-templates"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+        >
+          了解如何匯入評鑑範本 →
+        </Link>
+      </div>
     </>
   );
 }

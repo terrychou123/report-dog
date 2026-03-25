@@ -150,8 +150,8 @@ export const templateTags = pgTable('template_tags', {
   name: varchar('name', { length: 100 }).notNull(),
   description: text('description'),
   sortOrder: integer('sort_order').default(0).notNull(),
-  createdAt: timestamp('created_at').defaultNow().notNull(),
-  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
 });
 
 export const reportTemplates = pgTable('report_templates', {
@@ -161,8 +161,8 @@ export const reportTemplates = pgTable('report_templates', {
   content: text('content'),
   fileType: varchar('file_type', { length: 10 }).default('docx'),
   sortOrder: integer('sort_order').default(0).notNull(),
-  createdAt: timestamp('created_at').defaultNow().notNull(),
-  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
 });
 
 export const templateTagReports = pgTable('template_tag_reports', {
@@ -178,7 +178,7 @@ export const templateImports = pgTable('template_imports', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: text('user_id').notNull(),
   facilityType: varchar('facility_type', { length: 50 }).notNull(),
-  importedAt: timestamp('imported_at').defaultNow().notNull(),
+  importedAt: timestamp('imported_at', { withTimezone: true }).defaultNow().notNull(),
 }, (t) => ({
   uniqueUserFacility: uniqueIndex('template_imports_user_id_facility_type_idx').on(t.userId, t.facilityType),
 }));
