@@ -7,6 +7,7 @@ import {
   BuildingIcon,
   HospitalIcon,
   StethoscopeIcon,
+  BabyIcon,
   ArrowRightIcon,
   SparklesIcon,
 } from "lucide-react";
@@ -16,12 +17,12 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "評鑑小教室｜長照機構評鑑準備教學",
   description:
-    "報告汪評鑑小教室：提供長照機構評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
-  keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "居家護理所評鑑", "一般護理之家評鑑", "長照評鑑基準"],
+    "報告汪評鑑小教室：提供長照機構評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項、產後護理之家 17 項評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
+  keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "居家護理所評鑑", "一般護理之家評鑑", "產後護理之家評鑑", "月子中心評鑑", "長照評鑑基準"],
   alternates: { canonical: "https://reportwang.com/school" },
   openGraph: {
     title: "評鑑小教室｜長照機構評鑑準備教學｜報告汪",
-    description: "居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項評鑑基準完整解說，快速掌握評鑑重點。",
+    description: "居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項、產後護理之家 17 項評鑑基準完整解說，快速掌握評鑑重點。",
     url: "https://reportwang.com/school",
   },
 };
@@ -65,6 +66,14 @@ const courses = [
     title: "一般護理之家評鑑基準",
     desc: "115 年度一般護理之家評鑑基準，共 15 項目、4 大區塊完整解說。",
     count: "15 項評鑑基準",
+    available: true,
+  },
+  {
+    href: "/school/postpartum-care",
+    icon: BabyIcon,
+    title: "產後護理之家評鑑基準",
+    desc: "115 年度產後護理之家評鑑基準，共 17 項目、4 大區塊完整解說。",
+    count: "17 項評鑑基準",
     available: true,
   },
 ];

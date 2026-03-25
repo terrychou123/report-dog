@@ -1,0 +1,153 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "環境設施與安全維護（C1–C2）｜產後護理之家評鑑",
+  description:
+    "產後護理之家評鑑「環境設施與安全維護」2 項評鑑基準詳細說明：疏散避難系統（嬰兒疏散 SOP、消防演練）、災害緊急應變（天災應變、嬰兒室溫度管理、設備維護），含準備要訣。",
+  keywords: [
+    "產後護理之家評鑑環境設施",
+    "月子中心消防安全評鑑",
+    "產後護理之家嬰兒疏散",
+    "月子中心環境設施",
+    "115年度產後護理之家評鑑",
+    "月子中心評鑑準備",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/postpartum-care/safety-environment" },
+  openGraph: {
+    title: "環境設施與安全維護（C1–C2）｜產後護理之家評鑑｜報告汪",
+    description: "產後護理之家評鑑環境設施區塊 2 項基準詳細說明與準備要訣。",
+    url: "https://reportwang.com/school/postpartum-care/safety-environment",
+  },
+};
+
+const section = (() => {
+  const s = babycareProfile.sections.find((s) => s.shortCode === "C");
+  if (!s) throw new Error("babycareProfile: section C not found");
+  return s;
+})();
+
+const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
+  14: {
+    content:
+      "嬰兒疏散 SOP 是產後護理之家特有且評鑑委員重點關注的項目。SOP 中應明確規範嬰兒疏散的人員分工（誰抱哪幾位嬰兒）、疏散路線及集合地點。消防演練必須模擬嬰兒疏散情境，並記錄演練時間、參與人員及改善建議。消防設施合格證明應於評鑑前更新。",
+    variant: "warning",
+  },
+  15: {
+    content:
+      "嬰兒室溫度記錄應每日 2 次以上，建議使用溫濕度記錄表，並標注標準範圍（24～26°C），異常時有處置記錄。照護設備的校正記錄（嬰兒秤、黃疸儀等）應完整，建議每年至少校正 1 次並保存合格證明。天災應變計畫應包含颱風、地震等常見災害，定期演練並留有記錄。",
+    variant: "info",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "C、環境設施與安全維護（產後護理之家評鑑基準項目 14–15）",
+  description:
+    "產後護理之家評鑑基準「環境設施與安全維護」2 個評鑑項目詳細說明、準備要訣與實用提示。",
+  path: "/school/postpartum-care/safety-environment",
+});
+
+export default function PostpartumCareSafetyEnvironmentPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-6">
+        <Badge className="mb-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 border-0 hover:bg-blue-500/20">
+          C、環境設施與安全維護
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">環境設施與安全維護（項目 14–15）</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本區塊共 2 個評鑑項目，涵蓋產後護理之家的環境安全管理，包含消防疏散避難系統（特別是嬰兒疏散 SOP）
+          及天災緊急應變計畫，以及機構整體環境設施的維護管理，確保母嬰在安全的環境中接受照護。
+        </p>
+      </div>
+
+      {/* Mini TOC */}
+      <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+          本頁內容
+        </p>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+          {section.items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#item-${item.id}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+              >
+                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                  {item.id}
+                </span>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Items */}
+      <div className="space-y-12">
+        {section.items.map((item) => (
+          <section key={item.id} id={`item-${item.id}`} aria-labelledby={`heading-${item.id}`} className="scroll-mt-20">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-600 dark:text-blue-400 font-mono">
+                {item.id}
+              </span>
+              <h2 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h2>
+              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+              <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
+            </div>
+
+            <div className="mb-4">
+              <p className="text-sm font-semibold mb-2">評鑑標準</p>
+              <ul className="space-y-1.5 list-none pl-0">
+                {item.criteria.map((criterion, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                      {i + 1}
+                    </span>
+                    {criterion}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {tips[item.id] && (
+              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                {tips[item.id].content}
+              </DocsTip>
+            )}
+          </section>
+        ))}
+      </div>
+
+      {/* Prev / Next navigation */}
+      <div className="mt-12 flex items-center justify-between border-t pt-6">
+        <Link
+          href="/school/postpartum-care/professional-care"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          B、專業服務
+        </Link>
+        <Link
+          href="/school/postpartum-care/special-items"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          D、特別事項
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}

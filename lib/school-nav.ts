@@ -10,6 +10,7 @@ import {
   HospitalIcon,
   ShieldIcon,
   StethoscopeIcon,
+  BabyIcon,
 } from "lucide-react";
 
 export interface SchoolNavItem {
@@ -177,6 +178,46 @@ export const schoolNavSections: SchoolNavSection[] = [
         title: "照護管理評鑑基準（項目 6–8）",
         icon: HeartPulseIcon,
         desc: "機構資訊管理、個案照護管理、加分項目",
+      },
+    ],
+  },
+  {
+    group: "產後護理之家",
+    items: [
+      {
+        href: "/school/postpartum-care",
+        label: "評鑑基準總覽",
+        title: "產後護理之家評鑑基準總覽",
+        icon: BabyIcon,
+        desc: "17 項評鑑基準完整說明",
+      },
+      {
+        href: "/school/postpartum-care/administration",
+        label: "A、行政組織、經營管理與服務對象權益保障",
+        title: "行政組織、經營管理與服務對象權益保障（項目 1–5）",
+        icon: SettingsIcon,
+        desc: "人員配置、教育訓練、感染管制、意外事件、品質管理",
+      },
+      {
+        href: "/school/postpartum-care/professional-care",
+        label: "B、專業服務與生活照顧",
+        title: "專業服務與生活照顧（項目 6–13）",
+        icon: HeartPulseIcon,
+        desc: "產婦照護、嬰兒照護、親子關係、衛教課程、出住院評估、緊急狀況、哺乳、母乳貯存",
+      },
+      {
+        href: "/school/postpartum-care/safety-environment",
+        label: "C、環境設施與安全維護",
+        title: "環境設施與安全維護（項目 14–15）",
+        icon: ShieldIcon,
+        desc: "疏散避難系統、嬰兒疏散SOP、天災緊急應變",
+      },
+      {
+        href: "/school/postpartum-care/special-items",
+        label: "D、特別事項",
+        title: "特別事項（項目 16–17）",
+        icon: StarIcon,
+        desc: "配合政策加分、重大異常情事試評扣分項",
       },
     ],
   },

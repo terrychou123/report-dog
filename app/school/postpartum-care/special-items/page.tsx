@@ -1,0 +1,156 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "特別事項（D1–D2）｜產後護理之家評鑑",
+  description:
+    "產後護理之家評鑑「特別事項」2 項評鑑基準詳細說明：配合政策執行加分項（母嬰親善認證、創新服務）、重大異常情事試評扣分項，含準備要訣。",
+  keywords: [
+    "產後護理之家評鑑特別事項",
+    "月子中心母嬰親善認證評鑑",
+    "產後護理之家試評扣分",
+    "月子中心創新服務評鑑",
+    "115年度產後護理之家評鑑",
+    "月子中心評鑑準備",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/postpartum-care/special-items" },
+  openGraph: {
+    title: "特別事項（D1–D2）｜產後護理之家評鑑｜報告汪",
+    description: "產後護理之家評鑑特別事項區塊 2 項基準詳細說明與準備要訣。",
+    url: "https://reportwang.com/school/postpartum-care/special-items",
+  },
+};
+
+const section = (() => {
+  const s = babycareProfile.sections.find((s) => s.shortCode === "D");
+  if (!s) throw new Error("babycareProfile: section D not found");
+  return s;
+})();
+
+const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
+  16: {
+    content:
+      "D1 加分項目建議事先整理機構近期具體成效，備妥書面紀錄與成效評估報告。申請母嬰親善醫療院所認證需準備認證文件及執行數據（如純母乳哺育率）。參與衛生主管機關計畫應保存參與函文、執行紀錄及成果報告，並準備簡報方便評鑑時說明。",
+    variant: "neutral",
+  },
+  17: {
+    content:
+      "D2 為試評扣分項，任何重大醫療事故未依規定通報、違法情事或嬰兒安全事件都將直接扣分，影響整體評鑑結果。建議定期進行內部自我稽核，確認所有照護紀錄真實完整。評鑑期間務必主動配合委員查核，提供完整資料，切勿隱匿或拖延。",
+    variant: "warning",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "D、特別事項（產後護理之家評鑑基準項目 16–17）",
+  description:
+    "產後護理之家評鑑基準「特別事項」2 個評鑑項目詳細說明、準備要訣與實用提示。",
+  path: "/school/postpartum-care/special-items",
+});
+
+export default function PostpartumCareSpecialItemsPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-6">
+        <Badge className="mb-3 bg-purple-500/10 text-purple-600 dark:text-purple-400 border-0 hover:bg-purple-500/20">
+          D、特別事項
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">特別事項（項目 16–17）</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本區塊共 2 個評鑑項目，包含配合政策執行的加分機會（如母嬰親善認證、創新服務推廣），
+          以及重大異常情事的試評扣分項。其中 D2 為試評扣分項，任何重大違規情事將直接影響整體評鑑結果，需特別留意。
+        </p>
+      </div>
+
+      {/* Mini TOC */}
+      <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+          本頁內容
+        </p>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+          {section.items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#item-${item.id}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+              >
+                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                  {item.id}
+                </span>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Items */}
+      <div className="space-y-12">
+        {section.items.map((item) => (
+          <section key={item.id} id={`item-${item.id}`} aria-labelledby={`heading-${item.id}`} className="scroll-mt-20">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="w-8 h-8 rounded-full bg-purple-500/10 flex items-center justify-center text-sm font-bold text-purple-600 dark:text-purple-400 font-mono">
+                {item.id}
+              </span>
+              <h2 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h2>
+              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+              <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
+              {"isTrialDeduction" in item && item.isTrialDeduction && (
+                <Badge variant="destructive" className="text-xs">試評扣分項</Badge>
+              )}
+            </div>
+
+            <div className="mb-4">
+              <p className="text-sm font-semibold mb-2">評鑑標準</p>
+              <ul className="space-y-1.5 list-none pl-0">
+                {item.criteria.map((criterion, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                      {i + 1}
+                    </span>
+                    {criterion}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {tips[item.id] && (
+              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                {tips[item.id].content}
+              </DocsTip>
+            )}
+          </section>
+        ))}
+      </div>
+
+      {/* Prev / Next navigation */}
+      <div className="mt-12 flex items-center justify-between border-t pt-6">
+        <Link
+          href="/school/postpartum-care/safety-environment"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          C、環境設施
+        </Link>
+        <Link
+          href="/school/postpartum-care"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          返回總覽
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}
