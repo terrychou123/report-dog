@@ -1,0 +1,169 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
+import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "2.3 醫療照護之執行與評估（項目 50–65）｜醫院評鑑小教室",
+  description:
+    "醫院評鑑「醫療照護之執行與評估」16 項評鑑項目詳細說明：入院評估、照護計畫、團隊溝通、疼痛管理、跌倒壓傷預防、出院計畫、急診、加護及安寧照護等，含準備要訣。",
+  keywords: [
+    "醫院評鑑",
+    "區域醫院評鑑",
+    "地區醫院評鑑",
+    "入院評估",
+    "照護計畫",
+    "跌倒預防",
+    "壓傷預防",
+    "出院計畫",
+    "安寧照護",
+    "評鑑準備",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/hospital/care-execution" },
+  openGraph: {
+    title: "2.3 醫療照護之執行與評估（項目 50–65）｜醫院評鑑｜報告汪",
+    description: "醫院評鑑「醫療照護之執行與評估」16 項評鑑項目詳細說明與準備要訣。",
+    url: "https://reportwang.com/school/hospital/care-execution",
+  },
+};
+
+const section = (() => {
+  const s = hospitalProfile.sections.find((s) => s.shortCode === "2.3");
+  if (!s) throw new Error("hospitalProfile: section 2.3 not found");
+  return s;
+})();
+
+const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
+  52: {
+    content:
+      "SBAR（狀況、背景、評估、建議）交班格式是評鑑委員實地訪談護理人員的常見考題。建議統一各病房交班表格格式，並在訓練紀錄中保存 SBAR 教育訓練課程。若有錄音或錄影交班紀錄更佳，可直接展示標準化程度。",
+    variant: "info",
+  },
+  59: {
+    content:
+      "出院計畫「早期啟動」是評鑑重點，委員會查核出院計畫開始日期是否在入院後 24–48 小時內。建議在護理評估表中加入「出院計畫啟動」欄位，並確保長照轉介案件有社工介入紀錄及轉介聯繫紀錄。",
+    variant: "warning",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "2.3 醫療照護之執行與評估（醫院評鑑基準項目 50–65）",
+  description:
+    "醫院評鑑基準「醫療照護之執行與評估」16 個評鑑項目詳細說明、準備要訣與實用提示。",
+  path: "/school/hospital/care-execution",
+});
+
+export default function HospitalCareExecutionPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-6">
+        <Badge className="mb-3 bg-sky-500/10 text-sky-600 dark:text-sky-400 border-0 hover:bg-sky-500/20">
+          2.3 醫療照護之執行與評估
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">醫療照護之執行與評估（項目 50–65）</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本章共 16 個評鑑項目，涵蓋入院評估、照護計畫、團隊溝通、疼痛管理、跌倒壓傷預防、出院計畫、急診、加護及安寧照護等。
+        </p>
+      </div>
+
+      {/* Mini TOC */}
+      <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+          本頁內容
+        </p>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+          {section.items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#item-${item.id}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+              >
+                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                  {item.id}
+                </span>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Items */}
+      <div className="space-y-12">
+        {section.items.map((item) => (
+          <section key={item.id} id={`item-${item.id}`} aria-labelledby={`heading-${item.id}`} className="scroll-mt-20">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="w-8 h-8 rounded-full bg-sky-500/10 flex items-center justify-center text-sm font-bold text-sky-600 dark:text-sky-400 font-mono">
+                {item.id}
+              </span>
+              <h2 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h2>
+              <span className="text-xs text-muted-foreground font-mono">{item.articleNumber}</span>
+              {item.category === "必要" && (
+                <Badge className="text-xs bg-red-500/10 text-red-600 dark:text-red-400 border-0">必要</Badge>
+              )}
+              {item.category === "重點" && (
+                <Badge className="text-xs bg-amber-500/10 text-amber-600 dark:text-amber-400 border-0">重點</Badge>
+              )}
+              {item.category === "試評" && (
+                <Badge variant="outline" className="text-xs">試評</Badge>
+              )}
+              {item.category === "可免評" && (
+                <Badge variant="secondary" className="text-xs">可免評</Badge>
+              )}
+              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+              <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
+            </div>
+
+            <div className="mb-4">
+              <p className="text-sm font-semibold mb-2">評鑑標準</p>
+              <ol role="list" className="space-y-1.5 list-none pl-0">
+                {item.criteria.map((criterion, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                      {i + 1}
+                    </span>
+                    {criterion}
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            {tips[item.id] && (
+              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                {tips[item.id].content}
+              </DocsTip>
+            )}
+          </section>
+        ))}
+      </div>
+
+      {/* Prev / Next navigation */}
+      <div className="mt-12 flex items-center justify-between border-t pt-6">
+        <Link
+          href="/school/hospital/care-quality"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          2.2 品質安全
+        </Link>
+        <Link
+          href="/school/hospital/special-care"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          2.4 特殊照護
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}

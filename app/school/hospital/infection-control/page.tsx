@@ -1,0 +1,172 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
+import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "2.7 感染管制（項目 108–110）｜醫院評鑑小教室",
+  description:
+    "醫院評鑑「感染管制」3 項評鑑項目詳細說明：感染管制組織與運作、標準防護措施與接觸隔離及醫療照護相關感染監測，三項均為必要條文。",
+  keywords: [
+    "醫院評鑑感染管制",
+    "醫院評鑑手部衛生",
+    "醫院評鑑隔離措施",
+    "醫院評鑑醫療照護感染",
+    "醫院評鑑",
+    "區域醫院評鑑",
+    "地區醫院評鑑",
+    "評鑑準備",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/hospital/infection-control" },
+  openGraph: {
+    title: "2.7 感染管制（項目 108–110）｜醫院評鑑小教室｜報告汪",
+    description: "醫院評鑑感染管制區塊 3 項必要評鑑項目詳細說明與準備要訣。",
+    url: "https://reportwang.com/school/hospital/infection-control",
+  },
+};
+
+const section = (() => {
+  const s = hospitalProfile.sections.find((s) => s.shortCode === "2.7");
+  if (!s) throw new Error("hospitalProfile: section 2.7 not found");
+  return s;
+})();
+
+const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
+  108: {
+    content:
+      "感染管制委員會的運作是必要條文查核起點。確認委員會會議紀錄完整（含出席委員、討論事項、決議追蹤），感染管制醫師及護理師人力符合規定，年度感染管制計畫執行成效有書面追蹤報告。",
+    variant: "warning",
+  },
+  109: {
+    content:
+      "標準防護措施為必要條文，且評鑑委員可能進行實地觀察。手部衛生稽核執行率需達標（建議備有近期稽核數據），PPE 存放位置清楚，安全針具設備（如針頭毀形桶）配置正確。隔離病人的標誌張貼需清晰可見。",
+    variant: "warning",
+  },
+  110: {
+    content:
+      "醫療照護相關感染監測為必要條文。確認 CLABSI、VAP 等感染率計算方法標準化，與同類醫院的比較分析有紀錄，感染率異常時的調查報告及改善措施有書面追蹤。建議準備近 1 年的監測趨勢圖。",
+    variant: "warning",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "2.7 感染管制（醫院評鑑基準項目 108–110）",
+  description:
+    "醫院評鑑基準「感染管制」3 個必要評鑑項目詳細說明、準備要訣與實用提示。",
+  path: "/school/hospital/infection-control",
+});
+
+export default function HospitalInfectionControlPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-6">
+        <Badge className="mb-3 bg-red-500/10 text-red-600 dark:text-red-400 border-0 hover:bg-red-500/20">
+          2.7 感染管制
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">感染管制（項目 108–110）</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本章共 3 個評鑑項目，涵蓋感染管制組織與運作、標準防護措施與接觸隔離及醫療照護相關感染監測，三項均為必要條文。
+        </p>
+      </div>
+
+      {/* Mini TOC */}
+      <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+          本頁內容
+        </p>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+          {section.items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#item-${item.id}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+              >
+                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                  {item.id}
+                </span>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Items */}
+      <div className="space-y-12">
+        {section.items.map((item) => (
+          <section key={item.id} id={`item-${item.id}`} aria-labelledby={`heading-${item.id}`} className="scroll-mt-20">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="w-8 h-8 rounded-full bg-red-500/10 flex items-center justify-center text-sm font-bold text-red-600 dark:text-red-400 font-mono">
+                {item.id}
+              </span>
+              <span className="text-xs text-muted-foreground font-mono">{item.articleNumber}</span>
+              <h2 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h2>
+              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+              <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
+              {item.category === "必要" && (
+                <Badge className="text-xs bg-red-500/10 text-red-600 dark:text-red-400 border-0">必要</Badge>
+              )}
+              {item.category === "重點" && (
+                <Badge className="text-xs bg-amber-500/10 text-amber-600 dark:text-amber-400 border-0">重點</Badge>
+              )}
+              {item.category === "試評" && (
+                <Badge variant="outline" className="text-xs">試評</Badge>
+              )}
+              {item.category === "可免評" && (
+                <Badge variant="secondary" className="text-xs">可免評</Badge>
+              )}
+            </div>
+
+            <div className="mb-4">
+              <p className="text-sm font-semibold mb-2">評鑑標準</p>
+              <ol role="list" className="space-y-1.5 list-none pl-0">
+                {item.criteria.map((criterion, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                      {i + 1}
+                    </span>
+                    {criterion}
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            {tips[item.id] && (
+              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                {tips[item.id].content}
+              </DocsTip>
+            )}
+          </section>
+        ))}
+      </div>
+
+      {/* Prev / Next navigation */}
+      <div className="mt-12 flex items-center justify-between border-t pt-6">
+        <Link
+          href="/school/hospital/anesthesia-surgery"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          2.6 麻醉手術
+        </Link>
+        <Link
+          href="/school/hospital/lab-pathology"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          2.8 檢驗病理
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}
