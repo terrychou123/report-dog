@@ -57,6 +57,7 @@ export function TemplateImportDialog() {
       });
       if (res.status === 409) {
         toast.error("此機構類型已匯入過");
+        fetchTemplates();
         return;
       }
       if (!res.ok) throw new Error();

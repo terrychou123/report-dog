@@ -4,15 +4,24 @@ import { db } from "@/db";
 import { templateTags, reportTemplates, templateImports } from "@/db/schema";
 import { eq, count } from "drizzle-orm";
 import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
+import { unstable_cache } from "next/cache";
+
+// System-wide counts are seeded once and rarely change — cache for 5 minutes
+const getTemplateCounts = unstable_cache(
+  async () => {
+    const [tagCounts, reportCounts] = await Promise.all([
+      db.select({ facilityType: templateTags.facilityType, total: count() }).from(templateTags).groupBy(templateTags.facilityType),
+      db.select({ facilityType: reportTemplates.facilityType, total: count() }).from(reportTemplates).groupBy(reportTemplates.facilityType),
+    ]);
+    return { tagCounts, reportCounts };
+  },
+  ["template-counts"],
+  { revalidate: 300 }
+);
 
 export async function GET() {
   const profiles = getAllProfiles();
-
-  // Get tag and report counts in parallel
-  const [tagCounts, reportCounts] = await Promise.all([
-    db.select({ facilityType: templateTags.facilityType, total: count() }).from(templateTags).groupBy(templateTags.facilityType),
-    db.select({ facilityType: reportTemplates.facilityType, total: count() }).from(reportTemplates).groupBy(reportTemplates.facilityType),
-  ]);
+  const { tagCounts, reportCounts } = await getTemplateCounts();
 
   // Check which types the current user has already imported
   const supabase = await createClient();

@@ -18,7 +18,10 @@ export default function OnboardingPage() {
 
   useEffect(() => {
     fetch("/api/templates")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error();
+        return r.json();
+      })
       .then((data) => setTemplates(data))
       .catch(() => toast.error("載入範本資料失敗"))
       .finally(() => setLoading(false));
@@ -46,37 +49,42 @@ export default function OnboardingPage() {
     let totalReports = 0;
     let failed = 0;
 
-    for (let i = 0; i < types.length; i++) {
-      const facilityType = types[i];
-      try {
-        const res = await fetch("/api/templates/import", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ facilityType }),
-        });
-        if (res.ok) {
-          const data = await res.json();
-          totalTags += data.tagCount;
-          totalReports += data.reportCount;
-        } else {
+    try {
+      for (let i = 0; i < types.length; i++) {
+        const facilityType = types[i];
+        try {
+          const res = await fetch("/api/templates/import", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ facilityType }),
+          });
+          if (res.ok) {
+            const data = await res.json();
+            totalTags += data.tagCount;
+            totalReports += data.reportCount;
+          } else {
+            failed++;
+          }
+        } catch {
           failed++;
         }
-      } catch {
-        failed++;
+        setImportProgress(i + 1);
       }
-      setImportProgress(i + 1);
-    }
 
-    if (failed > 0) {
-      toast.warning(`${failed} 個機構類型匯入失敗，其餘已成功匯入`);
-    } else {
-      toast.success(`匯入完成！已建立 ${totalTags} 個標籤、${totalReports} 份報告`);
+      if (failed === types.length) {
+        toast.error("匯入失敗，請稍後再試");
+      } else if (failed > 0) {
+        toast.warning(`${failed} 個機構類型匯入失敗，其餘已成功匯入`);
+        if (typeof window !== "undefined") localStorage.setItem("onboarding_completed", "true");
+        router.push("/tag");
+      } else {
+        toast.success(`匯入完成！已建立 ${totalTags} 個標籤、${totalReports} 份報告`);
+        if (typeof window !== "undefined") localStorage.setItem("onboarding_completed", "true");
+        router.push("/tag");
+      }
+    } finally {
+      setImporting(false);
     }
-    // Signal to tag page to show onboarding guide
-    if (typeof window !== "undefined") {
-      localStorage.setItem("onboarding_completed", "true");
-    }
-    router.push("/tag");
   }
 
   const availableTemplates = templates.filter((t) => t.tagCount > 0);

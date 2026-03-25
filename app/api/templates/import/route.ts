@@ -53,19 +53,22 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "No templates found for this facility type" }, { status: 404 });
   }
 
-  // Load links, min tag order, and min report order in parallel
+  // Load template links outside the transaction (system data, never changes during user ops)
   const tagIds = tags.map((t) => t.id);
-  const [[minTagRow], [minReportRow], links] = await Promise.all([
-    db.select({ min: min(clients.sortOrder) }).from(clients).where(eq(clients.userId, userId)),
-    db.select({ min: min(reports.sortOrder) }).from(reports).where(eq(reports.userId, userId)),
-    db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds)),
-  ]);
-
-  const nextTagOrder = Number(minTagRow?.min ?? 0) - tags.length;
-  const nextReportOrder = Number(minReportRow?.min ?? 0) - tmplReports.length;
+  const links = await db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds));
 
   try {
     const result = await db.transaction(async (tx) => {
+      // Read min sort orders inside the transaction to prevent sortOrder collisions
+      // with concurrent tag/report creation by the same user
+      const [[minTagRow], [minReportRow]] = await Promise.all([
+        tx.select({ min: min(clients.sortOrder) }).from(clients).where(eq(clients.userId, userId)),
+        tx.select({ min: min(reports.sortOrder) }).from(reports).where(eq(reports.userId, userId)),
+      ]);
+
+      const nextTagOrder = Number(minTagRow?.min ?? 0) - tags.length;
+      const nextReportOrder = Number(minReportRow?.min ?? 0) - tmplReports.length;
+
       // Bulk-insert clients (tags) — returned rows match input order
       const newClients = await tx
         .insert(clients)
@@ -78,16 +81,18 @@ export async function POST(request: NextRequest) {
         .returning({ id: clients.id });
 
       // Bulk-insert reports — returned rows match input order
-      const newReports = await tx
-        .insert(reports)
-        .values(tmplReports.map((tmpl, i) => ({
-          userId,
-          title: tmpl.title,
-          content: tmpl.content ?? undefined,
-          fileType: tmpl.fileType ?? undefined,
-          sortOrder: nextReportOrder + i,
-        })))
-        .returning({ id: reports.id });
+      const newReports = tmplReports.length > 0
+        ? await tx
+            .insert(reports)
+            .values(tmplReports.map((tmpl, i) => ({
+              userId,
+              title: tmpl.title,
+              content: tmpl.content ?? undefined,
+              fileType: tmpl.fileType ?? undefined,
+              sortOrder: nextReportOrder + i,
+            })))
+            .returning({ id: reports.id })
+        : [];
 
       // O(1) lookups via Map instead of O(N) Array.find per link
       const clientMap = new Map(tags.map((tag, i) => [tag.id, newClients[i].id]));

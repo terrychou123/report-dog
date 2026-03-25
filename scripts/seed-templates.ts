@@ -78,9 +78,9 @@ async function main() {
 
     console.log(`📋 ${profile.label} (${profile.id})`);
 
-    // Clear existing data for this facility type
-    await db.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
+    // Clear existing data for this facility type (reports first — cascade only goes tag→link, not link→report)
     await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, profile.id));
+    await db.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
 
     let tagOrder = 0;
     for (const section of profile.sections) {
