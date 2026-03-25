@@ -141,3 +141,44 @@ export const blogPosts = pgTable('blog_posts', {
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow(),
 });
+
+// ─── Template System ──────────────────────────────────────────────────────────
+
+export const templateTags = pgTable('template_tags', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  facilityType: varchar('facility_type', { length: 50 }).notNull(),
+  name: varchar('name', { length: 100 }).notNull(),
+  description: text('description'),
+  sortOrder: integer('sort_order').default(0).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+export const reportTemplates = pgTable('report_templates', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  facilityType: varchar('facility_type', { length: 50 }).notNull(),
+  title: varchar('title', { length: 255 }).notNull(),
+  content: text('content'),
+  fileType: varchar('file_type', { length: 10 }).default('docx'),
+  sortOrder: integer('sort_order').default(0).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+export const templateTagReports = pgTable('template_tag_reports', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  templateTagId: uuid('template_tag_id').references(() => templateTags.id, { onDelete: 'cascade' }).notNull(),
+  reportTemplateId: uuid('report_template_id').references(() => reportTemplates.id, { onDelete: 'cascade' }).notNull(),
+  sortOrder: integer('sort_order').default(0).notNull(),
+}, (t) => ({
+  uniqueTagReport: uniqueIndex('template_tag_reports_tag_id_report_id_idx').on(t.templateTagId, t.reportTemplateId),
+}));
+
+export const templateImports = pgTable('template_imports', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  facilityType: varchar('facility_type', { length: 50 }).notNull(),
+  importedAt: timestamp('imported_at').defaultNow().notNull(),
+}, (t) => ({
+  uniqueUserFacility: uniqueIndex('template_imports_user_id_facility_type_idx').on(t.userId, t.facilityType),
+}));

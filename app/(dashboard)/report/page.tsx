@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { FileTextIcon, TagIcon } from "lucide-react";
 import { UploadReportButton } from "@/components/upload-report-button";
+import { TemplateImportDialog } from "@/components/template-import-dialog";
 import { ReportSearchInput } from "@/components/report-search-input";
 import { DraggableReportsList } from "@/components/draggable-reports-list";
 import { CopyReportButton } from "@/components/copy-report-button";
@@ -136,7 +137,10 @@ export default async function ReportsPage({
           <h1 className="text-2xl font-bold">我的報告</h1>
           <p className="text-muted-foreground mt-1 text-sm">所有已上傳的報告</p>
         </div>
-        <UploadReportButton />
+        <div className="flex items-center gap-2">
+          <TemplateImportDialog />
+          <UploadReportButton />
+        </div>
       </div>
       <div className="mb-6">
         <Suspense>

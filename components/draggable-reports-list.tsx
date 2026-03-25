@@ -23,6 +23,7 @@ import {
   CopyIcon,
   LoaderIcon,
 } from "lucide-react";
+import { TemplateImportDialog } from "@/components/template-import-dialog";
 import { FileTypeIcon } from "@/components/file-type-icon";
 import { EvaluationPanel } from "@/components/evaluation-panel";
 import { toast } from "sonner";
@@ -204,8 +205,9 @@ export function DraggableReportsList() {
     return (
       <div className="text-center py-20 text-muted-foreground">
         <FileTextIcon className="h-12 w-12 mx-auto mb-4 opacity-30" />
-        <p className="text-lg mb-2">尚無報告</p>
-        <p className="text-sm">點擊右上角「上傳報告」建立第一份報告</p>
+        <p className="text-lg mb-2 font-medium text-foreground">尚無報告</p>
+        <p className="text-sm mb-5">點擊右上角「上傳報告」建立第一份報告，或匯入評鑑範本快速開始</p>
+        <TemplateImportDialog />
       </div>
     );
   }

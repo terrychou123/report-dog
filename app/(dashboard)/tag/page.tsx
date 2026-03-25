@@ -8,6 +8,7 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 import { Skeleton } from "@/components/ui/skeleton";
 import { Input } from "@/components/ui/input";
 import { TagIcon, PlusIcon, GripVerticalIcon, FileTextIcon, SearchIcon, UsersIcon, XIcon, Loader2Icon } from "lucide-react";
+import { TemplateImportDialog } from "@/components/template-import-dialog";
 import { toast } from "sonner";
 import { FileTypeIcon } from "@/components/file-type-icon";
 import {
@@ -418,10 +419,13 @@ export default function TagPage() {
           <h1 className="text-2xl font-bold">標籤</h1>
           <p className="text-muted-foreground mt-1 text-sm">管理您的標籤</p>
         </div>
-        <Button size="sm" onClick={() => router.push("/tag/new")}>
-          <PlusIcon className="h-4 w-4 mr-1.5" />
-          新建標籤
-        </Button>
+        <div className="flex items-center gap-2">
+          <TemplateImportDialog />
+          <Button size="sm" onClick={() => router.push("/tag/new")}>
+            <PlusIcon className="h-4 w-4 mr-1.5" />
+            新建標籤
+          </Button>
+        </div>
       </div>
 
       {loading ? (
@@ -431,8 +435,9 @@ export default function TagPage() {
       ) : clients.length === 0 ? (
         <div className="text-center py-14 text-muted-foreground border rounded-lg">
           <TagIcon className="h-10 w-10 mx-auto mb-3 opacity-30" />
-          <p className="mb-1">尚無標籤</p>
-          <p className="text-sm">點擊「新建標籤」建立第一個標籤</p>
+          <p className="mb-2 font-medium text-foreground">尚無標籤</p>
+          <p className="text-sm mb-5">點擊「新建標籤」建立第一個標籤，或匯入評鑑範本快速開始</p>
+          <TemplateImportDialog />
         </div>
       ) : (
         <>
