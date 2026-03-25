@@ -9,6 +9,7 @@ import {
   BuildingIcon,
   HospitalIcon,
   ShieldIcon,
+  StethoscopeIcon,
 } from "lucide-react";
 
 export interface SchoolNavItem {
@@ -150,6 +151,32 @@ export const schoolNavSections: SchoolNavSection[] = [
         title: "服務改進創新評鑑基準（項目 73–75）",
         icon: StarIcon,
         desc: "前次評鑑改善、創新服務、違規事件",
+      },
+    ],
+  },
+  {
+    group: "居家護理所",
+    items: [
+      {
+        href: "/school/home-nursing",
+        label: "評鑑基準總覽",
+        title: "居家護理所評鑑基準總覽",
+        icon: StethoscopeIcon,
+        desc: "8 項評鑑基準完整說明",
+      },
+      {
+        href: "/school/home-nursing/management",
+        label: "A、經營管理",
+        title: "經營管理評鑑基準（項目 1–5）",
+        icon: SettingsIcon,
+        desc: "社區資源、感染管制、人員安全、緊急事件、品質監測",
+      },
+      {
+        href: "/school/home-nursing/care-management",
+        label: "B、照護管理",
+        title: "照護管理評鑑基準（項目 6–8）",
+        icon: HeartPulseIcon,
+        desc: "機構資訊管理、個案照護管理、加分項目",
       },
     ],
   },

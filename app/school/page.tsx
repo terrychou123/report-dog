@@ -6,6 +6,7 @@ import {
   SunIcon,
   BuildingIcon,
   HospitalIcon,
+  StethoscopeIcon,
   ArrowRightIcon,
   SparklesIcon,
 } from "lucide-react";
@@ -15,12 +16,12 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "評鑑小教室｜長照機構評鑑準備教學",
   description:
-    "報告汪評鑑小教室：提供長照機構評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
-  keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "長照評鑑基準"],
+    "報告汪評鑑小教室：提供長照機構評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
+  keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "居家護理所評鑑", "長照評鑑基準"],
   alternates: { canonical: "https://reportwang.com/school" },
   openGraph: {
     title: "評鑑小教室｜長照機構評鑑準備教學｜報告汪",
-    description: "居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項評鑑基準完整解說，快速掌握評鑑重點。",
+    description: "居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項評鑑基準完整解說，快速掌握評鑑重點。",
     url: "https://reportwang.com/school",
   },
 };
@@ -51,6 +52,14 @@ const courses = [
     available: true,
   },
   {
+    href: "/school/home-nursing",
+    icon: StethoscopeIcon,
+    title: "居家護理所評鑑基準",
+    desc: "115 年度居家護理所評鑑基準，共 8 項目、2 大區塊完整解說。",
+    count: "8 項評鑑基準",
+    available: true,
+  },
+  {
     href: "#",
     icon: HospitalIcon,
     title: "一般護理之家評鑑基準",
@@ -65,23 +74,13 @@ const jsonLd = educationalContentJsonLd({
   name: "長照機構評鑑小教室",
   description: "報告汪評鑑小教室：長照機構評鑑準備教學系列，涵蓋居家服務、日照、住宿型、護理之家等機構類型。",
   path: "/school",
-  itemListElement: [
-    {
-      name: "居家服務機構評鑑基準",
-      url: "https://reportwang.com/school/home-care",
-      description: "115 年度居家服務機構評鑑基準 32 項目完整解說",
-    },
-    {
-      name: "日間照顧機構評鑑基準",
-      url: "https://reportwang.com/school/daycare",
-      description: "113 年度日間照顧機構評鑑基準 43 項目完整解說",
-    },
-    {
-      name: "住宿型照顧機構評鑑基準",
-      url: "https://reportwang.com/school/nursing-home",
-      description: "114 年度住宿型照顧機構評鑑基準 75 項目完整解說",
-    },
-  ],
+  itemListElement: courses
+    .filter((c) => c.available)
+    .map((c) => ({
+      name: c.title,
+      url: `https://reportwang.com${c.href}`,
+      description: c.desc,
+    })),
 });
 
 export default function SchoolPage() {

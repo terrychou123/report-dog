@@ -1,0 +1,154 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { DocsTip } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "B、照護管理（項目 6–8）｜居家護理所評鑑",
+  description:
+    "居家護理所評鑑「照護管理」3 項評鑑基準詳細說明：機構資訊管理（5 項公開揭示）、個案照護管理（10 位以上個案、全人評估、照護計畫）、加分項目（創新照護、競賽獲獎、國際交流等），含準備要訣。",
+  keywords: [
+    "居家護理所評鑑照護管理",
+    "居家護理個案照護評鑑",
+    "居家護理機構資訊揭示",
+    "居家護理評鑑加分項目",
+    "115年度居家護理所評鑑",
+    "護理所評鑑準備",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/home-nursing/care-management" },
+  openGraph: {
+    title: "B、照護管理（項目 6–8）｜居家護理所評鑑｜報告汪",
+    description: "居家護理所評鑑照護管理 3 項基準詳細說明與準備要訣。",
+    url: "https://reportwang.com/school/home-nursing/care-management",
+  },
+};
+
+const section = homeNursingProfile.sections.find((s) => s.shortCode === "B")!;
+
+const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
+  6: {
+    content:
+      "B1 須同時符合 5 個標準才算通過：服務項目公開、服務區域標示、24 小時緊急聯繫、訪視安全權益告知、跨域合作機制。建議製作「機構資訊公告核對清單」，逐項確認現場揭示內容與書面文件是否一致。",
+    variant: "warning",
+  },
+  7: {
+    content:
+      "個案數計算包含未結案（現正服務）及結案個案，合計須達 10 位以上。全人評估需在收案時及每 6 個月執行一次，評估內容需涵蓋生理、心理、社會及功能狀況四個面向。照護計畫須依評估結果個別化訂定，並有目標、措施與評值記錄。",
+    variant: "warning",
+  },
+  8: {
+    content:
+      "B3 為加分項目，非必要評鑑標準，但有佐證資料者可爭取額外加分。建議事先整理近期機構榮譽、論文發表、國際交流等記錄，並備妥相關證明文件，於評鑑日主動提供。",
+    variant: "neutral",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "B、照護管理（居家護理所評鑑基準項目 6–8）",
+  description:
+    "居家護理所評鑑基準「照護管理」3 個評鑑項目詳細說明、準備要訣與實用提示。",
+  path: "/school/home-nursing/care-management",
+});
+
+export default function HomeNursingCareManagementPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-6">
+        <Badge className="mb-3 bg-green-500/10 text-green-600 dark:text-green-400 border-0 hover:bg-green-500/20">
+          B、照護管理
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">照護管理（項目 6–8）</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本區塊共 3 個評鑑項目，涵蓋機構資訊揭示管理、個案照護品質（全人評估與個別化照護計畫），
+          以及鼓勵機構持續創新的加分項目。
+        </p>
+      </div>
+
+      {/* Mini TOC */}
+      <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+          本頁內容
+        </p>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+          {section.items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#item-${item.id}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+              >
+                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                  {item.id}
+                </span>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Items */}
+      <div className="space-y-12">
+        {section.items.map((item) => (
+          <section key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center text-sm font-bold text-green-600 dark:text-green-400 font-mono">
+                {item.id}
+              </span>
+              <h2 className="text-lg font-bold">{item.title}</h2>
+              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+              <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
+            </div>
+
+            <div className="mb-4">
+              <h3 className="text-sm font-semibold mb-2">評鑑標準</h3>
+              <ol className="space-y-1.5 list-none pl-0">
+                {item.criteria.map((criterion, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                      {i + 1}
+                    </span>
+                    {criterion}
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            {tips[item.id] && (
+              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                {tips[item.id].content}
+              </DocsTip>
+            )}
+          </section>
+        ))}
+      </div>
+
+      {/* Prev / Next navigation */}
+      <div className="mt-12 flex items-center justify-between border-t pt-6">
+        <Link
+          href="/school/home-nursing/management"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          A、經營管理
+        </Link>
+        <Link
+          href="/school/home-nursing"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          返回總覽
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}

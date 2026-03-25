@@ -1,0 +1,171 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { Badge } from "@/components/ui/badge";
+import {
+  SettingsIcon,
+  HeartPulseIcon,
+  ArrowRightIcon,
+} from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "居家護理所評鑑基準總覽",
+  description:
+    "115 年度居家護理所評鑑基準完整說明，共 8 項目、2 大區塊：A 經營管理（社區資源、感染管制、訪視安全、緊急事件、品質監測）與 B 照護管理（機構資訊、個案照護、加分項目）。",
+  keywords: [
+    "居家護理所評鑑",
+    "居家護理評鑑基準",
+    "115年度評鑑",
+    "居家護理機構評鑑",
+    "護理所評鑑",
+    "居家護理評鑑準備",
+    "居家護理評鑑指標",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/home-nursing" },
+  openGraph: {
+    title: "居家護理所評鑑基準總覽｜評鑑小教室｜報告汪",
+    description: "8 項居家護理所評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    url: "https://reportwang.com/school/home-nursing",
+  },
+};
+
+const sectionMeta = [
+  {
+    href: "/school/home-nursing/management",
+    icon: SettingsIcon,
+    name: "A、經營管理",
+    shortCode: "A",
+    itemRange: "項目 1–5",
+    bgClass: "bg-orange-500/10",
+    textClass: "text-orange-600 dark:text-orange-400",
+  },
+  {
+    href: "/school/home-nursing/care-management",
+    icon: HeartPulseIcon,
+    name: "B、照護管理",
+    shortCode: "B",
+    itemRange: "項目 6–8",
+    bgClass: "bg-green-500/10",
+    textClass: "text-green-600 dark:text-green-400",
+  },
+];
+
+const jsonLd = educationalContentJsonLd({
+  type: "Course",
+  name: "居家護理所評鑑基準",
+  description:
+    "115 年度居家護理所評鑑基準，共 8 項目、2 大區塊完整解說。",
+  path: "/school/home-nursing",
+  hasPart: [
+    {
+      name: "A、經營管理（項目 1–5）",
+      url: "https://reportwang.com/school/home-nursing/management",
+    },
+    {
+      name: "B、照護管理（項目 6–8）",
+      url: "https://reportwang.com/school/home-nursing/care-management",
+    },
+  ],
+});
+
+export default function HomeNursingPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-8">
+        <Badge variant="secondary" className="mb-3">居家護理所</Badge>
+        <h1 className="text-2xl font-bold mb-3">居家護理所評鑑基準總覽</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          以下為 115 年度居家護理所評鑑基準，共 8 個評鑑項目，分為 2 大區塊。
+          點擊各區塊可查看詳細說明、準備要訣與實用提示。
+        </p>
+      </div>
+
+      {/* Section cards */}
+      <div className="grid gap-4 sm:grid-cols-2 mb-10">
+        {sectionMeta.map((sec) => {
+          const section = homeNursingProfile.sections.find((s) => s.shortCode === sec.shortCode);
+          const Icon = sec.icon;
+          return (
+            <Link
+              key={sec.href}
+              href={sec.href}
+              className="group rounded-xl border bg-card p-5 hover:border-primary/50 hover:shadow-sm transition-all"
+            >
+              <div className="flex items-start gap-3">
+                <div className={`shrink-0 rounded-lg p-2 ${sec.bgClass}`}>
+                  <Icon className={`h-5 w-5 ${sec.textClass}`} />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                    {sec.name}
+                  </h2>
+                  <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
+                  <div className="flex flex-wrap gap-1 mb-3">
+                    {section?.items.slice(0, 4).map((item) => (
+                      <span
+                        key={item.id}
+                        className="text-xs bg-muted rounded px-1.5 py-0.5 text-muted-foreground"
+                      >
+                        {item.title}
+                      </span>
+                    ))}
+                    {(section?.items.length ?? 0) > 4 && (
+                      <span className="text-xs text-muted-foreground px-1.5 py-0.5">
+                        +{(section?.items.length ?? 0) - 4} 項
+                      </span>
+                    )}
+                  </div>
+                  <ArrowRightIcon className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+
+      {/* Full item list */}
+      <div>
+        <h2 className="text-lg font-semibold mb-4">全部 8 項評鑑項目</h2>
+        <div className="space-y-6">
+          {homeNursingProfile.sections.map((section) => {
+            const slug = sectionMeta.find((s) => s.shortCode === section.shortCode)?.href.split("/").at(-1);
+            if (!slug) return null;
+            return (
+              <div key={section.shortCode}>
+                <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+                  {section.name}
+                </h3>
+                <div className="space-y-1">
+                  {section.items.map((item) => (
+                    <Link
+                      key={item.id}
+                      href={`/school/home-nursing/${slug}#item-${item.id}`}
+                      className="flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors group"
+                    >
+                      <span className="shrink-0 w-7 h-7 rounded-full bg-muted flex items-center justify-center text-xs font-mono font-semibold text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        {item.id}
+                      </span>
+                      <span className="text-sm group-hover:text-primary transition-colors">
+                        {item.title}
+                      </span>
+                      <Badge variant="outline" className="ml-auto text-xs shrink-0">
+                        {item.responsible}
+                      </Badge>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+}
