@@ -1,7 +1,9 @@
 import { cn } from "@/lib/utils";
 
+export type DocsTipVariant = "neutral" | "info" | "warning";
+
 interface DocsTipProps {
-  variant?: "neutral" | "info" | "warning";
+  variant?: DocsTipVariant;
   title?: string;
   children: React.ReactNode;
   className?: string;
