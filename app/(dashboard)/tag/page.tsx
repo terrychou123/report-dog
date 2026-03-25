@@ -41,7 +41,6 @@ import { CSS } from "@dnd-kit/utilities";
 import { useCurrentUserId } from "@/lib/hooks/use-current-user-id";
 import { resolveUserEmails } from "@/lib/users";
 import { isTagOwner } from "@/lib/auth/tag-permissions";
-import { EMAIL_REGEX } from "@/lib/utils";
 
 type Client = {
   id: string;
@@ -257,10 +256,13 @@ function SortableClientCard({
     setExpanded(true);
     if (!hasFetched) {
       setLoadingReports(true);
-      const res = await fetch(`/api/tag-reports?clientId=${encodeURIComponent(client.id)}`);
-      if (res.ok) setReports(await res.json());
-      setHasFetched(true);
-      setLoadingReports(false);
+      try {
+        const res = await fetch(`/api/tag-reports?clientId=${encodeURIComponent(client.id)}`);
+        if (res.ok) setReports(await res.json());
+        setHasFetched(true);
+      } finally {
+        setLoadingReports(false);
+      }
     }
   }
 

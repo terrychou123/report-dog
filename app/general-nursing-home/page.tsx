@@ -9,7 +9,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   BotIcon,
   TagIcon,
-  UsersIcon,
   ClipboardListIcon,
   ChevronDownIcon,
   SparklesIcon,
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
   title: "一般護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・環境安全管理平台",
   description:
     "報告汪專為一般護理之家設計：115年度評鑑基準 A 行政組織（5 項）、B 專業服務（3 項）、C 環境設施（4 項）、D 特別事項（3 項）共 15 項 AI 逐項分析，住民照護計畫集中管理，護理師、照服員與負責人同平台協作。一般護理之家文書管理首選。立即免費試用。",
-  alternates: { canonical: "/general-nursing-home" },
+  alternates: { canonical: "https://reportwang.com/general-nursing-home" },
   openGraph: {
     title: "一般護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・環境安全管理平台",
     description:

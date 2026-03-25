@@ -2,6 +2,7 @@
 // 執行方式：node scripts/generate-home-care-excel.js
 // 產出：~/Desktop/居家服務機構評鑑自評範本.xlsx
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const ExcelJS = require("exceljs");
 const path = require("path");
 const os = require("os");

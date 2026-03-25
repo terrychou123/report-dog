@@ -5,7 +5,7 @@ import { notifications } from "@/db/schema";
 import { eq, desc, and, inArray } from "drizzle-orm";
 
 // GET /api/notifications — list notifications for current user
-export async function GET(_req: NextRequest) {
+export async function GET() {
   const supabase = await createClient();
   const { data } = await supabase.auth.getClaims();
   if (!data?.claims) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -35,11 +35,15 @@ export async function PUT(req: NextRequest) {
       .update(notifications)
       .set({ read: true })
       .where(eq(notifications.userId, userId));
-  } else if (Array.isArray(body.ids) && body.ids.length > 0) {
+  } else if (
+    Array.isArray(body.ids) &&
+    body.ids.length > 0 &&
+    body.ids.every((id: unknown) => typeof id === "string")
+  ) {
     await db
       .update(notifications)
       .set({ read: true })
-      .where(and(eq(notifications.userId, userId), inArray(notifications.id, body.ids)));
+      .where(and(eq(notifications.userId, userId), inArray(notifications.id, body.ids as string[])));
   } else {
     return NextResponse.json({ error: "Invalid request body" }, { status: 400 });
   }

@@ -1,12 +1,12 @@
 import { db } from '@/db';
 import { aiUsage } from '@/db/schema';
-import { and, eq, gte, count } from 'drizzle-orm';
+import { and, eq, count } from 'drizzle-orm';
 
 const TIER_LIMITS: Record<string, number> = {
   free: 1,
 };
 
-function getUserTier(_userId: string): keyof typeof TIER_LIMITS {
+function getUserTier(_userId: string): keyof typeof TIER_LIMITS { // eslint-disable-line @typescript-eslint/no-unused-vars
   return 'free';
 }
 
@@ -19,12 +19,10 @@ function getUtcDateBucket(): string {
 }
 
 async function countUsageToday(userId: string): Promise<number> {
-  const todayUtc = new Date();
-  todayUtc.setUTCHours(0, 0, 0, 0);
   const [row] = await db
     .select({ count: count() })
     .from(aiUsage)
-    .where(and(eq(aiUsage.userId, userId), gte(aiUsage.createdAt, todayUtc)));
+    .where(and(eq(aiUsage.userId, userId), eq(aiUsage.dateBucket, getUtcDateBucket())));
   return row?.count ?? 0;
 }
 

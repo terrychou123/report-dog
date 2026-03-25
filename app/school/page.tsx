@@ -15,12 +15,12 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "評鑑小教室｜長照機構評鑑準備教學",
   description:
-    "報告汪評鑑小教室：提供長照機構評鑑準備教學，涵蓋居家服務機構 32 項評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
-  keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "長照評鑑基準"],
+    "報告汪評鑑小教室：提供長照機構評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
+  keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "長照評鑑基準"],
   alternates: { canonical: "https://reportwang.com/school" },
   openGraph: {
     title: "評鑑小教室｜長照機構評鑑準備教學｜報告汪",
-    description: "居家服務機構 32 項評鑑基準完整解說，快速掌握評鑑重點。",
+    description: "居家服務機構 32 項、日間照顧機構 43 項評鑑基準完整解說，快速掌握評鑑重點。",
     url: "https://reportwang.com/school",
   },
 };
@@ -35,12 +35,12 @@ const courses = [
     available: true,
   },
   {
-    href: "#",
+    href: "/school/daycare",
     icon: SunIcon,
     title: "日間照顧機構評鑑基準",
-    desc: "日間照顧中心評鑑準則完整解說，即將推出。",
-    count: "即將推出",
-    available: false,
+    desc: "113 年度臺北市政府社會局日間照顧機構評鑑基準，共 43 項目、4 大區塊完整解說。",
+    count: "43 項評鑑基準",
+    available: true,
   },
   {
     href: "#",
@@ -70,6 +70,11 @@ const jsonLd = educationalContentJsonLd({
       name: "居家服務機構評鑑基準",
       url: "https://reportwang.com/school/home-care",
       description: "115 年度居家服務機構評鑑基準 32 項目完整解說",
+    },
+    {
+      name: "日間照顧機構評鑑基準",
+      url: "https://reportwang.com/school/daycare",
+      description: "113 年度日間照顧機構評鑑基準 43 項目完整解說",
     },
   ],
 });

@@ -2,6 +2,7 @@
 // 執行方式：node scripts/generate-hospital-eval-excel.js
 // 產出：~/Desktop/114年度醫院評鑑紀錄表格.xlsx
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const ExcelJS = require("exceljs");
 const path = require("path");
 const os = require("os");
@@ -1364,7 +1365,7 @@ async function generate() {
   const COLOR_IMPORTANT  = "FFF2CC"; // [重] 淡橙
   const COLOR_OPTIONAL   = "EDEDED"; // [可] 淡灰
   const COLOR_TRIAL      = "E2EFDA"; // [試] 淡綠
-  const COLOR_SECTION_BG = "D6E4F0"; // 章節標頭列
+
 
   for (const section of sections) {
     const sheet = workbook.addWorksheet(section.name.replace("章 ", "章_").slice(0, 31));

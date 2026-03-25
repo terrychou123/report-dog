@@ -46,7 +46,7 @@ export default function DocsPage() {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-        {allDocsItems.map(({ href, icon: Icon, label, title, desc }) => (
+        {allDocsItems.map(({ href, icon: Icon, label, desc }) => (
           <Link key={href} href={href}>
             <Card className="p-5 h-full hover:border-primary/50 hover:shadow-sm transition-all group">
               <div className="flex items-start gap-4">
