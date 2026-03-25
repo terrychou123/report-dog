@@ -12,12 +12,6 @@ async function MaybeTrialBanner() {
   return <TrialBanner />;
 }
 
-async function SidebarWithData() {
-  const supabase = await createClient();
-  const { data } = await supabase.auth.getClaims();
-  return <CollapsibleSidebar email={data?.claims?.email} />;
-}
-
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex flex-col min-h-screen">
@@ -26,9 +20,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         <MaybeTrialBanner />
       </Suspense>
       <div className="flex flex-1 overflow-hidden">
-        <Suspense fallback={<div className="w-14 border-r bg-muted/20 shrink-0" />}>
-          <SidebarWithData />
-        </Suspense>
+        <CollapsibleSidebar />
         <main className="flex-1 overflow-auto">
           <Suspense fallback={<div className="p-8"><div className="h-8 w-48 rounded bg-muted animate-pulse" /></div>}>
             {children}

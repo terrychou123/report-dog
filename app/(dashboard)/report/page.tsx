@@ -1,18 +1,20 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { reports, clients, clientReports } from "@/db/schema";
 import { eq, desc, inArray, ilike, and } from "drizzle-orm";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { FileTextIcon, TagIcon } from "lucide-react";
+import { FileTextIcon } from "lucide-react";
 import { UploadReportButton } from "@/components/upload-report-button";
 import { TemplateImportDialog } from "@/components/template-import-dialog";
 import { ReportSearchInput } from "@/components/report-search-input";
 import { DraggableReportsList } from "@/components/draggable-reports-list";
 import { CopyReportButton } from "@/components/copy-report-button";
-import { FileTypeIcon } from "@/components/file-type-icon";
+import { ReportCardContent } from "@/components/report-card-content";
+import { formatZhTWDate } from "@/lib/utils";
 
 async function SearchReportsList({ query }: { query: string }) {
   const supabase = await createClient();
@@ -79,41 +81,23 @@ async function SearchReportsList({ query }: { query: string }) {
     <div className="space-y-3">
       {reportList.map((report) => {
         const tagNames = tagMap.get(report.id) ?? [];
+        const formattedDate = formatZhTWDate(report.createdAt);
         return (
           <div key={report.id} className="relative">
-            <a href={`/report/${report.id}`} target="_blank" rel="noopener noreferrer" className="block">
+            <Link href={`/report/${report.id}`} className="block">
               <Card className="hover:shadow-md transition-shadow cursor-pointer">
                 <CardHeader className="py-3 px-4 pr-12">
                   <CardTitle className="text-sm font-medium">
-                    <div className="flex items-center gap-2">
-                      <FileTypeIcon fileType={report.fileType} className="shrink-0" />
-                      <span className="break-words">{report.title}</span>
-                      {tagNames.length > 0 && (
-                        <span className="hidden md:inline-flex items-center gap-1 text-xs font-normal text-muted-foreground whitespace-nowrap">
-                          <TagIcon className="h-3 w-3" />
-                          {tagNames.join("、")}
-                        </span>
-                      )}
-                    </div>
-                    {tagNames.length > 0 && (
-                      <div className="flex md:hidden items-center gap-1 text-xs font-normal text-muted-foreground mt-1">
-                        <TagIcon className="h-3 w-3 shrink-0" />
-                        <span className="break-words">{tagNames.join("、")}</span>
-                      </div>
-                    )}
+                    <ReportCardContent
+                      title={report.title}
+                      fileType={report.fileType}
+                      formattedDate={formattedDate}
+                      tags={tagNames}
+                    />
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="pt-0 px-4 pb-3">
-                  <p className="text-xs text-muted-foreground">
-                    {new Date(report.createdAt).toLocaleDateString("zh-TW", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}
-                  </p>
-                </CardContent>
               </Card>
-            </a>
+            </Link>
             <div className="absolute right-3 top-1/2 -translate-y-1/2">
               <CopyReportButton reportId={report.id} />
             </div>
@@ -132,7 +116,7 @@ export default async function ReportsPage({
   const { q } = await searchParams;
   return (
     <div className="p-4 md:p-8 max-w-3xl">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold">我的報告</h1>
           <p className="text-muted-foreground mt-1 text-sm">所有已上傳的報告</p>

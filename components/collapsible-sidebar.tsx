@@ -1,9 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { TagIcon, FileTextIcon, Share2Icon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
-import { LogoutButton } from "@/components/logout-button";
 import { NotificationBell } from "@/components/notification-bell";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
@@ -14,19 +13,24 @@ const navLinks = [
   { href: "/share", label: "與我分享", icon: Share2Icon },
 ];
 
-interface CollapsibleSidebarProps {
-  email?: string;
-}
-
-export function CollapsibleSidebar({ email }: CollapsibleSidebarProps) {
+export function CollapsibleSidebar() {
   const [collapsed, setCollapsed] = useState(false);
+  const userToggledRef = useRef(false);
 
   useEffect(() => {
-    const check = () => setCollapsed(window.innerWidth < 768);
-    check();
-    window.addEventListener("resize", check);
-    return () => window.removeEventListener("resize", check);
+    setCollapsed(window.innerWidth < 768);
+
+    const handleResize = () => {
+      if (!userToggledRef.current) setCollapsed(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const handleToggle = () => {
+    userToggledRef.current = true;
+    setCollapsed((v) => !v);
+  };
 
   return (
     <aside
@@ -34,13 +38,13 @@ export function CollapsibleSidebar({ email }: CollapsibleSidebarProps) {
         collapsed ? "w-14" : "w-56"
       }`}
     >
-      {/* Collapse toggle */}
-      <div className="flex items-center justify-center border-b py-4 px-0">
+      {/* Collapse toggle - small screens only */}
+      <div className="md:hidden flex items-center justify-center py-4 px-0">
         <Button
           variant="ghost"
           size="icon"
           className="h-7 w-7 shrink-0"
-          onClick={() => setCollapsed((v) => !v)}
+          onClick={handleToggle}
           aria-label={collapsed ? "展開側邊欄" : "折疊側邊欄"}
         >
           {collapsed ? (
@@ -49,6 +53,11 @@ export function CollapsibleSidebar({ email }: CollapsibleSidebarProps) {
             <PanelLeftClose className="h-4 w-4" />
           )}
         </Button>
+      </div>
+
+      {/* Notification Bell - below toggle, above nav */}
+      <div className="px-2 pt-4 flex flex-col items-center">
+        <NotificationBell collapsed={collapsed} />
       </div>
 
       {/* Nav */}
@@ -81,12 +90,6 @@ export function CollapsibleSidebar({ email }: CollapsibleSidebarProps) {
           )}
         </TooltipProvider>
       </nav>
-
-      {/* User */}
-      <div className="px-2 py-4 border-t flex flex-col items-center gap-2">
-        <NotificationBell collapsed={collapsed} />
-        <LogoutButton email={email} />
-      </div>
     </aside>
   );
 }

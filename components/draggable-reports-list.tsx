@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from "next/link";
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
@@ -17,15 +18,15 @@ import {
 } from "@/components/ui/alert-dialog";
 import {
   FileTextIcon,
-  TagIcon,
   ClipboardListIcon,
   TrashIcon,
   CopyIcon,
   LoaderIcon,
 } from "lucide-react";
 import { TemplateImportDialog } from "@/components/template-import-dialog";
-import { FileTypeIcon } from "@/components/file-type-icon";
+import { ReportCardContent } from "@/components/report-card-content";
 import { EvaluationPanel } from "@/components/evaluation-panel";
+import { formatZhTWDate } from "@/lib/utils";
 import { toast } from "sonner";
 
 type Report = {
@@ -58,46 +59,27 @@ function ReportCard({
                 onClick={(e) => e.stopPropagation()}
                 className="shrink-0 mt-0.5"
               />
-              <a
+              <Link
                 href={`/report/${report.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="flex-1 min-w-0"
                 onClick={(e) => e.stopPropagation()}
               >
-                <div className="flex items-center gap-2">
-                  <FileTypeIcon fileType={report.fileType} className="shrink-0" />
-                  <span className="break-words">{report.title}</span>
-                  {report.tags.length > 0 && (
-                    <span className="hidden md:inline-flex items-center gap-1 text-xs font-normal text-muted-foreground whitespace-nowrap">
-                      <TagIcon className="h-3 w-3" />
-                      {report.tags.join("、")}
-                    </span>
-                  )}
-                </div>
-                {report.tags.length > 0 && (
-                  <div className="flex md:hidden items-center gap-1 text-xs font-normal text-muted-foreground mt-1">
-                    <TagIcon className="h-3 w-3 shrink-0" />
-                    <span className="break-words">{report.tags.join("、")}</span>
-                  </div>
-                )}
-              </a>
+                <ReportCardContent
+                  title={report.title}
+                  fileType={report.fileType}
+                  formattedDate={formatZhTWDate(report.createdAt)}
+                  tags={report.tags}
+                />
+              </Link>
             </div>
           </CardTitle>
         </CardHeader>
-        <CardContent className="pt-0 px-4 pb-3">
-          <p className="text-xs text-muted-foreground pl-6">
-            {new Date(report.createdAt).toLocaleDateString("zh-TW", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
-        </CardContent>
       </Card>
     </div>
   );
 }
+
+const PAGE_SIZE = 30;
 
 export function DraggableReportsList() {
   const [reportList, setReportList] = useState<Report[]>([]);
@@ -106,6 +88,7 @@ export function DraggableReportsList() {
   const [accreditationOpen, setAccreditationOpen] = useState(false);
   const [confirmAction, setConfirmAction] = useState<null | "copy" | "delete">(null);
   const [batchLoading, setBatchLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const loadReports = useCallback(() => {
     fetch("/api/reports")
@@ -116,6 +99,9 @@ export function DraggableReportsList() {
       .then((data) => {
         setReportList(data);
         setLoading(false);
+        setCurrentPage((prev) =>
+          Math.min(prev, Math.max(1, Math.ceil(data.length / PAGE_SIZE)))
+        );
       })
       .catch(() => setLoading(false));
   }, []);
@@ -137,8 +123,14 @@ export function DraggableReportsList() {
 
   const clearSelection = () => setSelectedIds(new Set());
 
-  const selectedReports = reportList.filter((r) => selectedIds.has(r.id));
-  const selectedTitles = selectedReports.map((r) => r.title);
+  const selectedReports = useMemo(
+    () => reportList.filter((r) => selectedIds.has(r.id)),
+    [reportList, selectedIds]
+  );
+  const selectedTitles = useMemo(
+    () => selectedReports.map((r) => r.title),
+    [selectedReports]
+  );
 
   const handleBatchDelete = async () => {
     setBatchLoading(true);
@@ -188,7 +180,6 @@ export function DraggableReportsList() {
     setConfirmAction(null);
     clearSelection();
     window.dispatchEvent(new Event("reports-updated"));
-    loadReports();
   };
 
   if (loading) {
@@ -212,27 +203,32 @@ export function DraggableReportsList() {
     );
   }
 
-  const allSelected = reportList.length > 0 && selectedIds.size === reportList.length;
-  const someSelected = selectedIds.size > 0 && selectedIds.size < reportList.length;
+  const totalPages = Math.ceil(reportList.length / PAGE_SIZE);
+  const pagedReports = useMemo(
+    () => reportList.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE),
+    [reportList, currentPage]
+  );
+  const allPageSelected = pagedReports.length > 0 && pagedReports.every((r) => selectedIds.has(r.id));
+  const somePageSelected = pagedReports.some((r) => selectedIds.has(r.id)) && !allPageSelected;
 
   return (
     <>
       <div className="space-y-3">
         <div className="flex items-center gap-2 px-4 py-1">
           <Checkbox
-            checked={allSelected ? true : someSelected ? "indeterminate" : false}
+            checked={allPageSelected ? true : somePageSelected ? "indeterminate" : false}
             onCheckedChange={(checked) => {
-              if (checked) {
-                setSelectedIds(new Set(reportList.map((r) => r.id)));
-              } else {
-                clearSelection();
-              }
+              setSelectedIds((prev) => {
+                const next = new Set(prev);
+                pagedReports.forEach((r) => (checked ? next.add(r.id) : next.delete(r.id)));
+                return next;
+              });
             }}
             className="shrink-0"
           />
           <span className="text-sm text-muted-foreground">全選</span>
         </div>
-        {reportList.map((report) => (
+        {pagedReports.map((report) => (
           <ReportCard
             key={report.id}
             report={report}
@@ -241,6 +237,30 @@ export function DraggableReportsList() {
           />
         ))}
       </div>
+
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-3 mt-6">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+            disabled={currentPage === 1}
+          >
+            上一頁
+          </Button>
+          <span className="text-sm text-muted-foreground">
+            第 {currentPage} / {totalPages} 頁
+          </span>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+            disabled={currentPage === totalPages}
+          >
+            下一頁
+          </Button>
+        </div>
+      )}
 
       {selectedIds.size > 0 && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 rounded-full border bg-background px-5 py-3 shadow-lg">
