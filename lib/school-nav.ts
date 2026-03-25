@@ -107,15 +107,55 @@ export const schoolNavSections: SchoolNavSection[] = [
     ],
   },
   {
-    group: "即將推出",
+    group: "住宿型照顧機構",
     items: [
       {
-        href: "#",
-        label: "住宿型長照機構",
-        title: "住宿型長照機構評鑑基準（即將推出）",
+        href: "/school/nursing-home",
+        label: "評鑑基準總覽",
+        title: "住宿型照顧機構評鑑基準總覽",
         icon: BuildingIcon,
-        comingSoon: true,
+        desc: "75 項評鑑基準完整說明",
       },
+      {
+        href: "/school/nursing-home/management",
+        label: "A、經營管理效能",
+        title: "經營管理效能評鑑基準（項目 1–15）",
+        icon: SettingsIcon,
+        desc: "人員配置、工作手冊、訓練計畫、勞動條件",
+      },
+      {
+        href: "/school/nursing-home/professional-quality",
+        label: "B、專業照護品質",
+        title: "專業照護品質評鑑基準（項目 16–47）",
+        icon: HeartPulseIcon,
+        desc: "照護計畫、醫療服務、感染管制、膳食、復健",
+      },
+      {
+        href: "/school/nursing-home/safety-environment",
+        label: "C、安全環境設備",
+        title: "安全環境設備評鑑基準（項目 48–63）",
+        icon: ShieldIcon,
+        desc: "空間設備、消防安全、無障礙設施、緊急應變",
+      },
+      {
+        href: "/school/nursing-home/client-rights",
+        label: "D、個案權益保障",
+        title: "個案權益保障評鑑基準（項目 64–72）",
+        icon: ShieldCheckIcon,
+        desc: "個案資料、服務契約、申訴機制、臨終照護",
+      },
+      {
+        href: "/school/nursing-home/innovation",
+        label: "E、服務改進創新",
+        title: "服務改進創新評鑑基準（項目 73–75）",
+        icon: StarIcon,
+        desc: "前次評鑑改善、創新服務、違規事件",
+      },
+    ],
+  },
+  {
+    group: "即將推出",
+    items: [
       {
         href: "#",
         label: "一般護理之家",
