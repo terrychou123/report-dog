@@ -182,6 +182,14 @@ export function DraggableReportsList() {
     window.dispatchEvent(new Event("reports-updated"));
   };
 
+  const totalPages = Math.ceil(reportList.length / PAGE_SIZE);
+  const pagedReports = useMemo(
+    () => reportList.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE),
+    [reportList, currentPage]
+  );
+  const allPageSelected = pagedReports.length > 0 && pagedReports.every((r) => selectedIds.has(r.id));
+  const somePageSelected = pagedReports.some((r) => selectedIds.has(r.id)) && !allPageSelected;
+
   if (loading) {
     return (
       <div className="space-y-3">
@@ -202,14 +210,6 @@ export function DraggableReportsList() {
       </div>
     );
   }
-
-  const totalPages = Math.ceil(reportList.length / PAGE_SIZE);
-  const pagedReports = useMemo(
-    () => reportList.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE),
-    [reportList, currentPage]
-  );
-  const allPageSelected = pagedReports.length > 0 && pagedReports.every((r) => selectedIds.has(r.id));
-  const somePageSelected = pagedReports.some((r) => selectedIds.has(r.id)) && !allPageSelected;
 
   return (
     <>

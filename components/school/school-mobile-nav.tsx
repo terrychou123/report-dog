@@ -20,7 +20,7 @@ export function SchoolMobileNav() {
         <SheetHeader className="sr-only">
           <SheetTitle>評鑑小教室目錄</SheetTitle>
         </SheetHeader>
-        <div className="overflow-y-auto h-full pb-8">
+        <div className="overflow-y-auto h-full pb-8 px-4">
           <SchoolSidebar onNavigate={() => setOpen(false)} />
         </div>
       </SheetContent>

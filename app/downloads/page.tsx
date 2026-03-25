@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Excel 自我檢核表下載 | 報告汪",
+  title: "各類長照機構評鑑自我檢查表免費下載 | 報告汪",
   description:
     "免費下載各長照機構評鑑 Excel 自我檢核表，包含日間照顧中心、住宿型長照機構、居家護理所、產後護理之家等多種機構類型。",
 };
@@ -82,11 +82,10 @@ export default function DownloadsPage() {
             免費資源下載
           </Badge>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            Excel 自我檢核表下載
+            各類長照機構評鑑自我檢查表免費下載
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            提供各類長照機構評鑑 Excel
-            自我檢核表，可直接下載使用，協助機構完整準備評鑑作業。
+            此文件由AI參考評鑑準則自動產生 非官方文件 內容僅供參考
           </p>
         </div>
 

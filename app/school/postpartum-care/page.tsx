@@ -9,6 +9,7 @@ import {
   ShieldIcon,
   StarIcon,
   ArrowRightIcon,
+  DownloadIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -192,6 +193,22 @@ export default function PostpartumCarePage() {
             );
           })}
         </div>
+      </div>
+
+      {/* Download CTA */}
+      <div className="mt-10 rounded-xl border border-dashed border-primary/30 bg-muted/50 p-5 text-center">
+        <p className="text-sm font-semibold mb-1">📋 免費下載自我檢查表</p>
+        <p className="text-sm text-muted-foreground mb-3">
+          下載「產後護理之家」評鑑自我檢查表（Excel），對照評鑑基準逐項自我檢核。
+        </p>
+        <a
+          href="/downloads/babycare.xlsx"
+          download
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+        >
+          <DownloadIcon className="h-4 w-4" />
+          免費下載 Excel 檢查表 →
+        </a>
       </div>
 
       {/* Import CTA */}

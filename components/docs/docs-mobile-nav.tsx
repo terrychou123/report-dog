@@ -20,7 +20,7 @@ export function DocsMobileNav() {
         <SheetHeader className="sr-only">
           <SheetTitle>教學目錄</SheetTitle>
         </SheetHeader>
-        <div className="overflow-y-auto h-full pb-8">
+        <div className="overflow-y-auto h-full pb-8 px-4">
           <DocsSidebar onNavigate={() => setOpen(false)} />
         </div>
       </SheetContent>
