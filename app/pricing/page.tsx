@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Suspense } from "react";
-import { AuthButton } from "@/components/auth-button";
 import { StartButton } from "@/components/start-button";
-import { BotIcon, CheckIcon } from "lucide-react";
+import { CheckIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { ThemeSwitcher } from "@/components/theme-switcher";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・住宿型長照機構・醫院護理部適用",
@@ -28,30 +26,7 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <main className="min-h-screen flex flex-col">
-      {/* Navbar */}
-      <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="max-w-6xl mx-auto flex h-16 items-center justify-between px-6">
-          <div className="flex items-center gap-8">
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <BotIcon className="h-6 w-6 text-primary" />
-              報告汪
-            </Link>
-            <div className="hidden md:flex items-center gap-6 text-sm">
-              <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
-                首頁
-              </Link>
-              <Link href="/pricing" className="font-medium hover:text-primary transition-colors">
-                價格
-              </Link>
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <Suspense fallback={<div className="h-8 w-20 rounded bg-muted animate-pulse" />}>
-              <AuthButton />
-            </Suspense>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Pricing Content */}
       <section className="flex-1 flex flex-col items-center justify-center py-20 px-6 text-center">
@@ -97,19 +72,7 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t py-8 px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-        <div className="flex items-center gap-2 font-semibold text-foreground">
-          <BotIcon className="h-4 w-4 text-primary" />
-          報告汪
-        </div>
-        <div className="flex items-center gap-6">
-          <Link href="/" className="hover:text-primary transition-colors">首頁</Link>
-          <Link href="/auth/login" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" className="hover:text-primary transition-colors">註冊</Link>
-        </div>
-        <ThemeSwitcher />
-      </footer>
+      <Footer />
     </main>
   );
 }

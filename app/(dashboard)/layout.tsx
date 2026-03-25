@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { CollapsibleSidebar } from "@/components/collapsible-sidebar";
 import { TrialBanner } from "@/components/trial-banner";
+import { Navbar } from "@/components/navbar";
 import { createClient } from "@/lib/supabase/server";
 
 async function MaybeTrialBanner() {
@@ -20,6 +21,7 @@ async function SidebarWithData() {
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex flex-col min-h-screen">
+      <Navbar />
       <Suspense fallback={null}>
         <MaybeTrialBanner />
       </Suspense>

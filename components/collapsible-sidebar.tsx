@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BotIcon, TagIcon, FileTextIcon, Share2Icon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
+import { TagIcon, FileTextIcon, Share2Icon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { LogoutButton } from "@/components/logout-button";
 import { NotificationBell } from "@/components/notification-bell";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -34,17 +34,8 @@ export function CollapsibleSidebar({ email }: CollapsibleSidebarProps) {
         collapsed ? "w-14" : "w-56"
       }`}
     >
-      {/* Logo */}
-      <div className={`flex items-center border-b py-4 ${collapsed ? "justify-center px-0" : "justify-between px-3"}`}>
-        {!collapsed && (
-          <Link
-            href="/"
-            className="flex items-center gap-2 font-bold text-lg hover:opacity-80 transition-opacity min-w-0"
-          >
-            <BotIcon className="h-5 w-5 text-primary shrink-0" />
-            <span className="truncate">報告汪</span>
-          </Link>
-        )}
+      {/* Collapse toggle */}
+      <div className="flex items-center justify-center border-b py-4 px-0">
         <Button
           variant="ghost"
           size="icon"
