@@ -11,6 +11,7 @@ import {
   ShieldIcon,
   StethoscopeIcon,
   BabyIcon,
+  AccessibilityIcon,
 } from "lucide-react";
 
 export interface SchoolNavItem {
@@ -258,6 +259,60 @@ export const schoolNavSections: SchoolNavSection[] = [
         title: "特別事項（項目 13–15）",
         icon: StarIcon,
         desc: "創新政策執行、口腔健康照護、試評扣分項",
+      },
+    ],
+  },
+  {
+    group: "身心障礙福利機構",
+    items: [
+      {
+        href: "/school/disability-welfare",
+        label: "評鑑基準總覽",
+        title: "身心障礙福利機構評鑑基準總覽",
+        icon: AccessibilityIcon,
+        desc: "35 項評鑑基準完整說明",
+      },
+      {
+        href: "/school/disability-welfare/rights-protection",
+        label: "A、權益保障",
+        title: "權益保障評鑑基準（項目 1–8）",
+        icon: ShieldCheckIcon,
+        desc: "生存權、健康權、安全、選擇、隱私、參與、社交、申訴",
+      },
+      {
+        href: "/school/disability-welfare/appropriate-care",
+        label: "B、適性照顧與支持",
+        title: "適性照顧與支持評鑑基準（項目 9–17）",
+        icon: HeartPulseIcon,
+        desc: "個別化需求、ISP、特殊照顧、情緒行為、家庭支持、轉銜",
+      },
+      {
+        href: "/school/disability-welfare/administration",
+        label: "C、行政管理",
+        title: "行政管理評鑑基準（項目 18–19）",
+        icon: SettingsIcon,
+        desc: "法規規定、行政管理落實",
+      },
+      {
+        href: "/school/disability-welfare/service-management",
+        label: "D、服務管理",
+        title: "服務管理評鑑基準（項目 20–23）",
+        icon: ShieldIcon,
+        desc: "機構設施安全、工作手冊、風險管理、權益維護",
+      },
+      {
+        href: "/school/disability-welfare/staff-management",
+        label: "E、員工管理與福利",
+        title: "員工管理與福利評鑑基準（項目 24–29）",
+        icon: StarIcon,
+        desc: "員工支持、職業安全、勞動權利、教育訓練、健康檢查",
+      },
+      {
+        href: "/school/disability-welfare/finance",
+        label: "F、會計與財務管理",
+        title: "會計與財務管理評鑑基準（項目 30–35）",
+        icon: BuildingIcon,
+        desc: "會計帳冊、財務管理、現金收支、固定資產、物資、成本",
       },
     ],
   },
