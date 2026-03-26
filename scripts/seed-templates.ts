@@ -1,5 +1,8 @@
 /**
  * Seed template data from evaluation profiles into the database.
+ * Tags are grouped by RESPONSIBLE PERSON (item.responsible), not by evaluation section.
+ * Templates are stored as FortuneSheet Excel JSON (fileType='excel').
+ *
  * Run with: npx dotenv-cli -e .env.local -- tsx scripts/seed-templates.ts
  */
 
@@ -8,6 +11,7 @@ import postgres from 'postgres';
 import { templateTags, reportTemplates, templateTagReports } from '../db/schema';
 import { eq } from 'drizzle-orm';
 import { getDbUrl } from '../db/index';
+import { buildItemSheetData, serializeSheetData } from '../lib/excel-template-builder';
 
 // Import all profiles directly (no path alias needed)
 import { daycareProfile } from '../lib/ai/evaluation-profiles/daycare';
@@ -30,31 +34,13 @@ const profiles = [
   generalNursingHomeProfile,
 ];
 
-function buildReportContent(item: {
+type ProfileItem = {
+  id: number;
   title: string;
   responsible: string;
   criteria: string[];
   reviewMethod: string;
-}): string {
-  const checklist = item.criteria.map((c) => `- ☐ ${c}`).join('\n');
-  return [
-    `# ${item.title}`,
-    ``,
-    `**負責人員：** ${item.responsible}`,
-    ``,
-    `## 評鑑基準`,
-    ``,
-    checklist,
-    ``,
-    `## 審查方式`,
-    ``,
-    item.reviewMethod,
-    ``,
-    `## 準備內容`,
-    ``,
-    `【請在此填寫您的準備內容】`,
-  ].join('\n');
-}
+};
 
 async function main() {
   if (!process.env.DATABASE_URL) {
@@ -65,7 +51,7 @@ async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
 
-  console.log('🌱 Seeding template data...\n');
+  console.log('🌱 Seeding template data (grouped by responsible person)...\n');
 
   let totalTags = 0;
   let totalReports = 0;
@@ -78,39 +64,68 @@ async function main() {
 
     console.log(`📋 ${profile.label} (${profile.id})`);
 
-    // Clear existing data for this facility type (reports first — cascade only goes tag→link, not link→report)
+    // Clear existing data for this facility type
     await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, profile.id));
     await db.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
 
-    let tagOrder = 0;
+    // Collect all items across all sections, preserving order
+    const allItems: ProfileItem[] = [];
     for (const section of profile.sections) {
-      // Insert template tag (one per section)
+      for (const item of section.items) {
+        allItems.push({
+          id: item.id,
+          title: item.title,
+          responsible: item.responsible,
+          criteria: item.criteria,
+          reviewMethod: item.reviewMethod,
+        });
+      }
+    }
+
+    // Group items by responsible person (preserving insertion order for first occurrence)
+    const responsibleGroups = new Map<string, ProfileItem[]>();
+    for (const item of allItems) {
+      const key = item.responsible;
+      if (!responsibleGroups.has(key)) {
+        responsibleGroups.set(key, []);
+      }
+      responsibleGroups.get(key)!.push(item);
+    }
+
+    console.log(`  → ${responsibleGroups.size} 個負責人員群組，${allItems.length} 個項目`);
+
+    // Insert one template_tag per responsible group, then one report_template per item
+    let tagOrder = 0;
+    for (const [responsible, items] of responsibleGroups) {
       const [newTag] = await db
         .insert(templateTags)
         .values({
           facilityType: profile.id,
-          name: section.name,
+          name: responsible,
           sortOrder: tagOrder++,
         })
         .returning();
 
-      console.log(`  📁 ${section.name} (${section.items.length} 項)`);
+      console.log(`  📁 ${responsible} (${items.length} 項)`);
 
       let reportOrder = 0;
-      for (const item of section.items) {
-        // Insert report template (one per item)
+      for (const item of items) {
+        // Build FortuneSheet-compatible Excel content
+        const sheetData = buildItemSheetData(item);
+        const content = serializeSheetData([sheetData]);
+
         const [newReport] = await db
           .insert(reportTemplates)
           .values({
             facilityType: profile.id,
             title: item.title,
-            content: buildReportContent(item),
-            fileType: 'docx',
+            content,
+            fileType: 'excel',
+            responsible: item.responsible,
             sortOrder: reportOrder++,
           })
           .returning();
 
-        // Link tag to report
         await db
           .insert(templateTagReports)
           .values({
@@ -124,6 +139,7 @@ async function main() {
       }
       totalTags++;
     }
+
     console.log();
   }
 

@@ -138,7 +138,7 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
 export default function FortuneEditorInner({
   reportId, initialData, title,
   saveTrigger = 0, downloadTrigger = 0,
-  onSavingChange, onDownloadingChange, onChanged,
+  onSavingChange, onDownloadingChange, onChanged, saveUrl,
 }: FortuneEditorProps) {
   const sheetsRef = useRef<Sheet[]>(
     sheetsDataToFortuneSheets(normalizeInitialData(initialData))
@@ -273,7 +273,7 @@ export default function FortuneEditorInner({
     setSaving(true);
     onSavingChange?.(true);
     try {
-      const res = await fetch(`/api/reports/${reportId}`, {
+      const res = await fetch(saveUrl ?? `/api/reports/${reportId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title, content: JSON.stringify(fortuneSheetsToData(sheetsRef.current)) }),
@@ -286,7 +286,7 @@ export default function FortuneEditorInner({
       setSaving(false);
       onSavingChange?.(false);
     }
-  }, [reportId, title, onSavingChange]);
+  }, [reportId, saveUrl, title, onSavingChange]);
 
   const handleDownload = useCallback(async () => {
     setDownloading(true);

@@ -22,6 +22,8 @@ export interface FortuneEditorProps {
   onSavingChange?: (saving: boolean) => void;
   onDownloadingChange?: (downloading: boolean) => void;
   onChanged?: () => void;
+  /** Override the save endpoint. Defaults to /api/reports/${reportId} */
+  saveUrl?: string;
 }
 
 export function FortuneEditor(props: FortuneEditorProps) {

@@ -4,5 +4,4 @@ export type FacilityTemplate = {
   description: string;
   tagCount: number;
   reportCount: number;
-  alreadyImported: boolean;
 };

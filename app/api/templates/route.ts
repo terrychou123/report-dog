@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { templateTags, reportTemplates, templateImports } from "@/db/schema";
-import { eq, count } from "drizzle-orm";
+import { templateTags, reportTemplates } from "@/db/schema";
+import { count } from "drizzle-orm";
 import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
 import { unstable_cache } from "next/cache";
 
@@ -23,20 +22,6 @@ export async function GET() {
   const profiles = getAllProfiles();
   const { tagCounts, reportCounts } = await getTemplateCounts();
 
-  // Check which types the current user has already imported
-  const supabase = await createClient();
-  const { data } = await supabase.auth.getClaims();
-  const userId = data?.claims?.sub;
-
-  let importedTypes: string[] = [];
-  if (userId) {
-    const imports = await db
-      .select({ facilityType: templateImports.facilityType })
-      .from(templateImports)
-      .where(eq(templateImports.userId, userId));
-    importedTypes = imports.map((i) => i.facilityType);
-  }
-
   const tagCountMap = Object.fromEntries(tagCounts.map((t) => [t.facilityType, Number(t.total)]));
   const reportCountMap = Object.fromEntries(reportCounts.map((r) => [r.facilityType, Number(r.total)]));
 
@@ -47,7 +32,6 @@ export async function GET() {
       description: p.description,
       tagCount: tagCountMap[p.id] ?? 0,
       reportCount: reportCountMap[p.id] ?? 0,
-      alreadyImported: importedTypes.includes(p.id),
     }))
   );
 }

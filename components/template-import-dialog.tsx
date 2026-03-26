@@ -10,7 +10,6 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { Loader2Icon, CheckIcon, DownloadIcon } from "lucide-react";
 import { toast } from "sonner";
 import type { FacilityTemplate } from "@/lib/types/templates";
@@ -55,11 +54,6 @@ export function TemplateImportDialog() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ facilityType: selected }),
       });
-      if (res.status === 409) {
-        toast.error("此機構類型已匯入過");
-        fetchTemplates();
-        return;
-      }
       if (!res.ok) throw new Error();
       const data = await res.json();
       toast.success(`匯入完成！已建立 ${data.tagCount} 個標籤、${data.reportCount} 份報告`);
@@ -86,7 +80,7 @@ export function TemplateImportDialog() {
           <DialogHeader>
             <DialogTitle>匯入評鑑範本</DialogTitle>
             <DialogDescription>
-              選擇您的機構類型，一鍵建立評鑑標籤與報告範本
+              選擇您的機構類型，一鍵建立評鑑標籤與報告範本（可重複匯入）
             </DialogDescription>
           </DialogHeader>
 
@@ -103,13 +97,10 @@ export function TemplateImportDialog() {
                     <button
                       key={t.facilityType}
                       type="button"
-                      disabled={t.alreadyImported}
                       onClick={() => setSelected(t.facilityType)}
                       className={[
                         "text-left rounded-lg border p-4 transition-all",
-                        t.alreadyImported
-                          ? "opacity-50 cursor-not-allowed bg-muted/30"
-                          : isSelected
+                        isSelected
                           ? "border-primary ring-2 ring-primary ring-offset-1"
                           : "hover:border-primary/50 hover:shadow-sm cursor-pointer",
                       ].join(" ")}
@@ -126,11 +117,11 @@ export function TemplateImportDialog() {
                             <p className="text-xs text-muted-foreground mt-1">尚未有範本資料</p>
                           )}
                         </div>
-                        {t.alreadyImported ? (
-                          <Badge variant="secondary" className="shrink-0 text-xs">已匯入</Badge>
-                        ) : isSelected ? (
-                          <CheckIcon className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                        ) : null}
+                        <div className="flex flex-col items-end gap-1 shrink-0">
+                          {isSelected && (
+                            <CheckIcon className="h-4 w-4 text-primary mt-0.5" />
+                          )}
+                        </div>
                       </div>
                     </button>
                   );

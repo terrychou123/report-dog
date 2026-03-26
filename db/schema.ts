@@ -159,7 +159,8 @@ export const reportTemplates = pgTable('report_templates', {
   facilityType: varchar('facility_type', { length: 50 }).notNull(),
   title: varchar('title', { length: 255 }).notNull(),
   content: text('content'),
-  fileType: varchar('file_type', { length: 10 }).default('docx'),
+  fileType: varchar('file_type', { length: 10 }).default('excel'),
+  responsible: varchar('responsible', { length: 100 }),
   sortOrder: integer('sort_order').default(0).notNull(),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
@@ -179,6 +180,4 @@ export const templateImports = pgTable('template_imports', {
   userId: text('user_id').notNull(),
   facilityType: varchar('facility_type', { length: 50 }).notNull(),
   importedAt: timestamp('imported_at', { withTimezone: true }).defaultNow().notNull(),
-}, (t) => ({
-  uniqueUserFacility: uniqueIndex('template_imports_user_id_facility_type_idx').on(t.userId, t.facilityType),
-}));
+});
