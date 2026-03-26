@@ -16,12 +16,21 @@ import {
   ArrowLeftIcon, SaveIcon, SparklesIcon, CheckIcon,
   RefreshCwIcon, Trash2Icon, DownloadIcon,
   BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon,
-  PlusIcon, XIcon, TagIcon, HistoryIcon, EyeIcon,
+  PlusIcon, XIcon, TagIcon, HistoryIcon, EyeIcon, BellRingIcon, BellOffIcon, ChevronDownIcon,
 } from "lucide-react";
 import { toast } from "sonner";
 import { FortuneEditor } from "@/components/fortune-editor";
 import { ReportHistoryPanel } from "@/components/report-history-panel";
 import { Badge } from "@/components/ui/badge";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { FREQUENCY_LABELS, FREQUENCY_ORDER, type Frequency } from "@/lib/follow-utils";
 
 type Report = { id: string; title: string; content: string | null; fileType: string | null; fileUrl: string | null; canEdit?: boolean; isOwner?: boolean };
 type Message = { role: "user" | "assistant"; content: string; reasoning_details?: unknown };
@@ -122,6 +131,10 @@ export default function ReportEditorPage() {
   // 版本歷史
   const [historyOpen, setHistoryOpen] = useState(false);
 
+  // 追蹤狀態
+  const [followStatus, setFollowStatus] = useState<{ followId: string; frequency: Frequency } | null>(null);
+  const [followLoading, setFollowLoading] = useState(false);
+
   // 關聯標籤
   const [tagAssociations, setTagAssociations] = useState<TagAssociation[]>([]);
   const [addTagsOpen, setAddTagsOpen] = useState(false);
@@ -158,9 +171,10 @@ export default function ReportEditorPage() {
   // 從 API 載入報告
   useEffect(() => {
     async function load() {
-      const [reportRes, assocRes] = await Promise.all([
+      const [reportRes, assocRes, followRes] = await Promise.all([
         fetch(`/api/reports/${params.id}`),
         fetch(`/api/tag-reports?reportId=${params.id}`),
+        fetch(`/api/follows/report/${params.id}`),
       ]);
       if (!reportRes.ok) { router.push("/report"); return; }
       const data: Report = await reportRes.json();
@@ -168,6 +182,10 @@ export default function ReportEditorPage() {
       setReportTitle(data.title);
       setInitialContent(data.content || "");
       if (assocRes.ok) setTagAssociations(await assocRes.json());
+      if (followRes.ok) {
+        const followData = await followRes.json();
+        if (followData) setFollowStatus({ followId: followData.followId, frequency: followData.frequency as Frequency });
+      }
       setLoading(false);
     }
     load();
@@ -268,6 +286,41 @@ export default function ReportEditorPage() {
     setInstruction("");
     setConfirmingIdx(null);
     setTimeout(() => inputRef.current?.focus(), 50);
+  }
+
+  // 追蹤 handlers
+  async function handleFollow(frequency: Frequency) {
+    setFollowLoading(true);
+    try {
+      const res = await fetch("/api/follows", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reportId: params.id, frequency }),
+      });
+      if (!res.ok) throw new Error();
+      const follow = await res.json();
+      setFollowStatus({ followId: follow.id, frequency });
+      toast.success(`已設定為「${FREQUENCY_LABELS[frequency]}」`);
+    } catch {
+      toast.error("追蹤設定失敗");
+    } finally {
+      setFollowLoading(false);
+    }
+  }
+
+  async function handleUnfollow() {
+    if (!followStatus) return;
+    setFollowLoading(true);
+    try {
+      const res = await fetch(`/api/follows/${followStatus.followId}`, { method: "DELETE" });
+      if (!res.ok) throw new Error();
+      setFollowStatus(null);
+      toast.success("已取消追蹤");
+    } catch {
+      toast.error("取消追蹤失敗");
+    } finally {
+      setFollowLoading(false);
+    }
   }
 
   // 關聯標籤 handlers
@@ -469,6 +522,64 @@ export default function ReportEditorPage() {
               <PlusIcon className="h-3 w-3" />
               標籤
             </button>
+          </div>
+          {/* 追蹤狀態 */}
+          <div className="flex items-center gap-2 mt-2">
+            {followStatus ? (
+              <>
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <button
+                      disabled={followLoading}
+                      className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium hover:bg-primary/20 transition-colors disabled:opacity-50"
+                    >
+                      <BellRingIcon className="h-3 w-3" />
+                      {FREQUENCY_LABELS[followStatus.frequency]}
+                      <ChevronDownIcon className="h-3 w-3 ml-0.5" />
+                    </button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="start">
+                    <DropdownMenuRadioGroup
+                      value={followStatus.frequency}
+                      onValueChange={(val) => handleFollow(val as Frequency)}
+                    >
+                      {FREQUENCY_ORDER.map((f) => (
+                        <DropdownMenuRadioItem key={f} value={f}>
+                          {FREQUENCY_LABELS[f]}
+                        </DropdownMenuRadioItem>
+                      ))}
+                    </DropdownMenuRadioGroup>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+                <button
+                  onClick={handleUnfollow}
+                  disabled={followLoading}
+                  className="flex items-center gap-1 px-2 py-1 rounded-full text-xs text-muted-foreground hover:text-destructive transition-colors disabled:opacity-50"
+                  title="取消追蹤"
+                >
+                  <BellOffIcon className="h-3 w-3" />
+                </button>
+              </>
+            ) : (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    disabled={followLoading}
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-full border border-dashed text-xs text-muted-foreground hover:text-foreground hover:border-foreground transition-colors disabled:opacity-50"
+                  >
+                    <BellRingIcon className="h-3 w-3" />
+                    追蹤
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="start">
+                  {FREQUENCY_ORDER.map((f) => (
+                    <DropdownMenuItem key={f} onSelect={() => handleFollow(f)}>
+                      {FREQUENCY_LABELS[f]}
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            )}
           </div>
         </div>
         <div className="flex gap-2 shrink-0 self-end sm:self-auto">

@@ -17,13 +17,14 @@ import {
   SparklesIcon,
   ChevronDownIcon,
   DownloadIcon,
+  BellRingIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: { absolute: "報告汪｜長照機構 AI 文書管理・報告生成・評鑑備審，居服・日照・護理之家・醫院護理部適用" },
   description:
     "報告汪是專為長照與社福機構設計的 AI 文書管理系統，支援居服機構、日照中心、醫院護理部、護理之家、身心障礙福利機構五大族群。透過智慧標籤分類、拖曳排序、AI 輔助撰寫，快速整理日誌、評鑑報告與個案記錄。多職類協作，評鑑備審文件一鍵彙整，不再臨時找不到報告。立即免費試用。",
-  keywords: ["長照報告管理", "居家服務機構", "日照中心文書", "護理之家文書", "醫院護理部", "身心障礙福利機構", "AI報告輔助", "定期報告", "社工報告", "個管師"],
+  keywords: ["長照報告管理", "居家服務機構", "日照中心文書", "護理之家文書", "醫院護理部", "身心障礙福利機構", "AI報告輔助", "定期報告", "社工報告", "個管師", "追蹤報告", "逾期提醒"],
   alternates: { canonical: "/" },
   openGraph: {
     title: "報告汪｜長照與社福機構 AI 文書管理・報告生成・評鑑備審，居服・日照・護理之家・醫院・身心障礙機構適用",
@@ -52,7 +53,7 @@ export default function Home() {
             operatingSystem: "Web",
             offers: { "@type": "Offer", price: "0", priceCurrency: "TWD" },
             description:
-              "複製上期報告當模板，讓 AI 修改差異段落，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手。",
+              "複製上期報告當模板，讓 AI 修改差異段落，追蹤報告更新頻率自動提醒逾期，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手。",
           }),
         }}
       />
@@ -129,6 +130,11 @@ export default function Home() {
                 icon: <DownloadIcon className="h-6 w-6" />,
                 title: "一鍵匯入評鑑範本",
                 desc: "選擇機構類型，一鍵匯入對應的評鑑標籤與報告範本，涵蓋居服、日照、護理之家、醫院等 8 種機構類型，評鑑季立即開始準備。",
+              },
+              {
+                icon: <BellRingIcon className="h-6 w-6" />,
+                title: "追蹤報告更新",
+                desc: "設定報告追蹤頻率（每日到每年），系統自動判斷是否逾期未更新。打開追蹤頁面，紅色標示告訴你哪份報告該催繳，督導追蹤一目了然。",
               },
             ].map((f) => (
               <Card key={f.title} className="group hover:shadow-md transition-shadow">
@@ -302,7 +308,7 @@ export default function Home() {
                 linkTitle: "居服機構 AI 文書管理系統介紹",
                 stat: "↓ 52%",
                 statLabel: "文書時間",
-                quote: "標籤功能讓我一眼看出誰的日誌有交、誰還沒繳，不用再每天逐一催繳。",
+                quote: "標籤加追蹤功能，誰的日誌沒交、哪份報告逾期，打開追蹤頁面一目了然，不用再每天逐一催繳。",
                 author: "吳督導・台中市居家服務中心",
                 cta: "居服機構文書管理系統 →",
               },
@@ -324,7 +330,7 @@ export default function Home() {
                 linkTitle: "醫院 AI 文書管理系統介紹",
                 stat: "↓ 60%",
                 statLabel: "交接時間",
-                quote: "班別標籤讓護理師交接後就知道當班該完成哪些文書，文書焦慮大幅減少。",
+                quote: "班別標籤加每日追蹤，護理師交接後就知道哪些文書該完成，逾期紅色標示讓文書焦慮大幅減少。",
                 author: "蔡護理長・台北某區域醫院",
                 cta: "護理文書管理系統・交班紀錄工具 →",
               },
@@ -477,6 +483,7 @@ export default function Home() {
                 "AI 段落修改",
                 "一鍵複製舊報告",
                 "一鍵匯入評鑑範本",
+                "追蹤報告逾期提醒",
                 "全文搜尋",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm">

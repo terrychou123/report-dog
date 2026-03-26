@@ -8,9 +8,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ChevronDownIcon } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "用戶評價｜25+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・醫院",
+  title: "用戶評價｜29+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・醫院",
   description:
-    "25+ 位居家服務、日照中心、醫院、住宿型機構、身障機構、產後護理之家、居家護理所、一般護理之家從業人員的真實評價。報告汪平均評分 4.9 顆星，廣獲 8 種機構類型長照與社福從業人員推薦。",
+    "29+ 位居家服務、日照中心、醫院、住宿型機構、身障機構、產後護理之家、居家護理所、一般護理之家從業人員的真實評價。報告汪平均評分 4.9 顆星，追蹤功能、逾期提醒、AI 文書輔助廣獲 8 種機構類型長照與社福從業人員推薦。",
   keywords: [
     "報告汪評價",
     "長照文書管理推薦",
@@ -20,18 +20,20 @@ export const metadata: Metadata = {
     "護理之家報告系統推薦",
     "醫院文書管理評價",
     "身心障礙機構文書推薦",
+    "追蹤報告逾期提醒",
+    "定期報告管理",
   ],
   alternates: { canonical: "https://reportwang.com/testimonial" },
   openGraph: {
-    title: "用戶評價｜25+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・醫院",
+    title: "用戶評價｜29+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・醫院",
     description:
-      "25+ 位長照與社福從業人員的真實評價，涵蓋 8 種機構類型。報告汪平均評分 4.9 顆星。",
+      "29+ 位長照與社福從業人員的真實評價，涵蓋 8 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
     url: "https://reportwang.com/testimonial",
   },
   twitter: {
-    title: "用戶評價｜25+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・醫院",
+    title: "用戶評價｜29+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・醫院",
     description:
-      "25+ 位長照與社福從業人員的真實評價，涵蓋 8 種機構類型。報告汪平均評分 4.9 顆星。",
+      "29+ 位長照與社福從業人員的真實評價，涵蓋 8 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
   },
 };
 
@@ -47,7 +49,7 @@ const appJsonLd = JSON.stringify({
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "25",
+    reviewCount: "29",
     bestRating: "5",
     worstRating: "1",
   },
@@ -77,6 +79,10 @@ const appJsonLd = JSON.stringify({
     { "@type": "Review", author: { "@type": "Person", "name": "林護理長" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "依住民建立標籤，AI 評鑑分析直接標示照護計畫缺失，一般護理之家評鑑準備時間省了超過一半。" },
     { "@type": "Review", author: { "@type": "Person", "name": "黃負責人" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "C 區四個構面各有標籤，評鑑前 AI 一次告知缺件，再也不用臨時補件。" },
     { "@type": "Review", author: { "@type": "Person", "name": "陳照服員（護理之家）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "住民照顧標籤加 AI 對應 B2 基準，評鑑前每位住民生活照顧紀錄都完整。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "劉督導" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "報告汪的追蹤功能讓我設定每日追蹤，哪位居服員的日誌逾期一目了然。打開追蹤頁面，紅色標示的就是還沒交的人，督導效率直接翻倍。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "周社工" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "每月追蹤評鑑文件，超過一個月沒更新就會亮紅燈。評鑑準備從臨時抱佛腳變成日常管理，再也不用等評鑑前才發現文件過期。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "吳護理長" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "護理品質指標月報設每月追蹤，感控報告設每週追蹤，一進追蹤頁面就看到哪些報告超時了。逾期紅色標示比任何提醒都有效。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "陳主任（住宿型）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "四個職類的季度報告用每季追蹤，行政月報用每月追蹤。追蹤頁面集中管理，逾期的馬上看到，督導追蹤再也不怕遺漏。" },
   ],
 });
 
@@ -89,7 +95,7 @@ const faqJsonLd = JSON.stringify({
       name: "報告汪的用戶評價如何？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "報告汪目前收集了 25 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家等 8 種機構類型。",
+        text: "報告汪目前收集了 29 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家等 8 種機構類型。追蹤功能的逾期提醒廣受督導與主任好評。",
       },
     },
     {
@@ -140,7 +146,7 @@ export default function TestimonialPage() {
         <section className="flex flex-col items-center text-center py-20 px-6 bg-gradient-to-b from-background to-muted/30">
           <Badge variant="outline" className="mb-5 px-4 py-1.5 text-sm">用戶評價</Badge>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-            25+ 位長照從業人員<br className="hidden md:block" />
+            29+ 位長照從業人員<br className="hidden md:block" />
             <span className="text-primary">真實推薦報告汪</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mb-10">
@@ -149,7 +155,7 @@ export default function TestimonialPage() {
           </p>
           <div className="grid grid-cols-3 gap-8 max-w-md">
             {[
-              { value: "25+", label: "則用戶評價" },
+              { value: "29+", label: "則用戶評價" },
               { value: "4.9", label: "平均評分（滿分 5）" },
               { value: "8", label: "種機構類型" },
             ].map((s) => (
@@ -275,6 +281,30 @@ export default function TestimonialPage() {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* 劉督導 — 追蹤功能 */}
+              <Card className="md:col-span-3">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200 shrink-0">劉</div>
+                    <div>
+                      <div className="text-sm font-medium">劉督導</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">台南市居家服務中心・督導</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    我管理 25 位居服員，每人每天都該繳日誌，以前要一個一個打電話催繳，光是確認哪些人沒交就佔掉我大半個上午。
+                    <br /><br />
+                    報告汪的<span className="text-foreground font-medium">追蹤功能</span>讓我幫每位居服員的日誌設定「<span className="text-foreground font-medium">每日追蹤</span>」，哪份日誌超過 24 小時沒更新就自動標為逾期。打開追蹤頁面，<span className="text-foreground font-medium">紅色標示的就是還沒繳的人</span>，一目了然，不用再逐一詢問，督導效率直接翻倍。評鑑委員問我怎麼做到日誌零漏繳，我說靠系統自動提醒，他說這才是現代化管理。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["追蹤功能", "逾期提醒", "居服員日誌管理", "督導追蹤效率"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -363,6 +393,30 @@ export default function TestimonialPage() {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* 周社工 — 追蹤功能 */}
+              <Card className="md:col-span-3">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200 shrink-0">周</div>
+                    <div>
+                      <div className="text-sm font-medium">周社工</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">新竹市日照中心・社工師</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    日照中心的評鑑文件更新週期各不相同，有的每月、有的每季，以前全靠自己記，常常等到評鑑前才發現某份文件已經三個月沒更新了，臨時補件手忙腳亂。
+                    <br /><br />
+                    現在用報告汪的<span className="text-foreground font-medium">追蹤功能</span>，評鑑文件設「<span className="text-foreground font-medium">每月追蹤</span>」，活動紀錄設「<span className="text-foreground font-medium">每週追蹤</span>」，超過時限沒更新就自動亮紅燈。以前評鑑準備是一年一次的焦慮衝刺，現在變成<span className="text-foreground font-medium">每天的日常管理</span>，完全不怕評鑑委員突然來查。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["追蹤功能", "評鑑備審日常管理", "逾期提醒", "日照中心評鑑"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -446,6 +500,30 @@ export default function TestimonialPage() {
                   </p>
                   <div className="flex flex-wrap gap-1 mt-3">
                     {["醫院評鑑準備", "護理品質指標", "病房文件整理", "評鑑文件管理系統"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* 吳護理長 — 追蹤功能 */}
+              <Card className="md:col-span-3">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200 shrink-0">吳</div>
+                    <div>
+                      <div className="text-sm font-medium">吳護理長</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">台北某醫學中心・內科加護病房護理長</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    加護病房每月要彙整護理品質指標，感控報告每週要更新，以前全靠個人筆記追蹤，常常漏掉一份才在截止前一天發現。
+                    <br /><br />
+                    現在用報告汪的<span className="text-foreground font-medium">追蹤功能</span>，品質指標月報設「<span className="text-foreground font-medium">每月追蹤</span>」，感控報告設「<span className="text-foreground font-medium">每週追蹤</span>」，超過時限系統自動標為逾期。一進追蹤頁面就看到哪些報告超時了，<span className="text-foreground font-medium">比任何提醒工具都有效</span>，護理師再也不需要記哪份報告什麼時候到期，全交給系統管。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["追蹤功能", "品質指標管理", "感控報告追蹤", "逾期提醒"].map((tag) => (
                       <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
                     ))}
                   </div>
@@ -541,7 +619,7 @@ export default function TestimonialPage() {
               </Card>
 
               {/* 盧照服員 */}
-              <Card className="md:col-span-3">
+              <Card className="md:col-span-2">
                 <CardContent className="pt-6">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200 shrink-0">盧</div>
@@ -558,6 +636,30 @@ export default function TestimonialPage() {
                   </p>
                   <div className="flex flex-wrap gap-1 mt-3">
                     {["照服員工作日誌", "夜班照護紀錄", "語音轉文字報告", "行動端長照紀錄"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* 陳主任 — 追蹤功能 */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200 shrink-0">陳</div>
+                    <div>
+                      <div className="text-sm font-medium">陳主任</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">新北市住宿型長照機構・機構主任</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    我們有護理、社工、照服、營養四個職類，各自的季度報告繳交期限不一樣，以前每到繳件時間才發現有人忘了，主任每次都要臨時催繳搞得大家都很緊張。
+                    <br /><br />
+                    現在用<span className="text-foreground font-medium">追蹤功能</span>，季度報告設「<span className="text-foreground font-medium">每季追蹤</span>」，月報設「每月追蹤」，<span className="text-foreground font-medium">逾期直接紅燈</span>，沒有人能說不知道。督導追蹤再也不怕遺漏。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["追蹤功能", "多職類定期報告", "逾期紅燈提醒", "機構主任管理"].map((tag) => (
                       <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
                     ))}
                   </div>

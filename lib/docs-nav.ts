@@ -11,6 +11,7 @@ import {
   BuildingIcon,
   HelpCircleIcon,
   DownloadIcon,
+  BellRingIcon,
 } from "lucide-react";
 
 export interface DocsNavItem {
@@ -62,6 +63,13 @@ export const docsNavSections: DocsNavSection[] = [
         title: "標籤分類與全文搜尋教學",
         icon: TagIcon,
         desc: "建立標籤、篩選報告、全文搜尋",
+      },
+      {
+        href: "/docs/follow-tracking",
+        label: "追蹤報告更新",
+        title: "追蹤報告更新頻率與逾期提醒教學",
+        icon: BellRingIcon,
+        desc: "設定追蹤頻率，逾期未更新自動紅色提醒",
       },
       {
         href: "/docs/copy-and-templates",

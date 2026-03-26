@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { TagIcon, FileTextIcon, Share2Icon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
+import { TagIcon, FileTextIcon, Share2Icon, BellRingIcon, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { NotificationBell } from "@/components/notification-bell";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 const navLinks = [
   { href: "/report", label: "報告", icon: FileTextIcon },
   { href: "/tag", label: "標籤", icon: TagIcon },
+  { href: "/follow", label: "追蹤", icon: BellRingIcon },
   { href: "/share", label: "與我分享", icon: Share2Icon },
 ];
 

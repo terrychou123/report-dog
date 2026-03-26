@@ -181,3 +181,14 @@ export const templateImports = pgTable('template_imports', {
   facilityType: varchar('facility_type', { length: 50 }).notNull(),
   importedAt: timestamp('imported_at', { withTimezone: true }).defaultNow().notNull(),
 });
+
+export const reportFollows = pgTable('report_follows', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  reportId: uuid('report_id').references(() => reports.id, { onDelete: 'cascade' }).notNull(),
+  frequency: varchar('frequency', { length: 20 }).notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => ({
+  uniqueUserReport: uniqueIndex('report_follows_user_id_report_id_idx').on(t.userId, t.reportId),
+  userFrequencyIdx: index('report_follows_user_id_frequency_idx').on(t.userId, t.frequency),
+}));
