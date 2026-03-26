@@ -11,10 +11,22 @@ function ConfirmPageInner() {
 
   useEffect(() => {
     const code = searchParams.get("code");
-    const token_hash = searchParams.get("token_hash");
-    const type = searchParams.get("type") as EmailOtpType | null;
     const rawNext = searchParams.get("next") ?? "/onboarding";
     const next = rawNext.startsWith("/") ? rawNext : "/onboarding";
+
+    // Also parse hash fragments — Supabase recovery flow redirects with
+    // #access_token=...&refresh_token=...&type=recovery as hash fragments
+    const hash = window.location.hash.slice(1);
+    const hashParams = new URLSearchParams(hash);
+
+    // Merge: check query params first, then hash fragments
+    const token_hash =
+      searchParams.get("token_hash") ?? hashParams.get("token_hash");
+    const type = (searchParams.get("type") ?? hashParams.get("type")) as
+      | EmailOtpType
+      | null;
+    const access_token = hashParams.get("access_token");
+    const refresh_token = hashParams.get("refresh_token");
 
     const supabase = createClient();
 
@@ -30,7 +42,21 @@ function ConfirmPageInner() {
         return;
       }
 
-      // Legacy OTP flow: token_hash + type
+      // Session via hash fragments (recovery/magic link implicit flow)
+      if (access_token && refresh_token) {
+        const { error } = await supabase.auth.setSession({
+          access_token,
+          refresh_token,
+        });
+        if (!error) {
+          router.replace(next);
+        } else {
+          router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
+        }
+        return;
+      }
+
+      // OTP flow: token_hash + type
       if (token_hash && type) {
         const { error } = await supabase.auth.verifyOtp({ type, token_hash });
         if (!error) {
@@ -41,7 +67,7 @@ function ConfirmPageInner() {
         return;
       }
 
-      router.replace(`/auth/error?error=${encodeURIComponent("缺少 token hash 或 type 參數")}`);
+      router.replace(`/auth/error?error=${encodeURIComponent("缺少驗證參數，請重新申請密碼重設連結")}`);
     };
 
     handleAuth();
