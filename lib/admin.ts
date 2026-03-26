@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 
 export async function requireAdmin(): Promise<void> {
   const supabase = await createClient();
+  await supabase.auth.getClaims(); // refresh session before getUser per CLAUDE.md
   const { data: { user }, error } = await supabase.auth.getUser();
   if (error || !user?.email || user.email !== process.env.ADMIN_EMAIL) {
     redirect("/");
@@ -13,6 +14,7 @@ export async function requireAdmin(): Promise<void> {
 export async function isAdmin(): Promise<boolean> {
   try {
     const supabase = await createClient();
+    await supabase.auth.getClaims();
     const { data: { user }, error } = await supabase.auth.getUser();
     if (error || !user?.email) return false;
     return user.email === process.env.ADMIN_EMAIL;
@@ -24,6 +26,7 @@ export async function isAdmin(): Promise<boolean> {
 /** For use in API route handlers — returns userId or a 403 JSON response */
 export async function requireAdminApi(): Promise<{ userId: string } | NextResponse> {
   const supabase = await createClient();
+  await supabase.auth.getClaims();
   const { data: { user }, error } = await supabase.auth.getUser();
   if (error || !user?.email || user.email !== process.env.ADMIN_EMAIL) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });

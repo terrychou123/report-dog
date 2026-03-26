@@ -3,20 +3,29 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { PanelLeftClose, PanelLeftOpen, BuildingIcon } from "lucide-react";
+import { PanelLeftClose, PanelLeftOpen, BuildingIcon, NewspaperIcon } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { LucideIcon } from "lucide-react";
 
-const navLinks = [
-  { href: "/admin/home-care",            label: "居家長照機構" },
-  { href: "/admin/daycare",              label: "日間照顧中心" },
-  { href: "/admin/nursing-home",         label: "住宿型照顧機構" },
-  { href: "/admin/home-nursing",         label: "居家護理所" },
-  { href: "/admin/general-nursing-home", label: "一般護理之家" },
-  { href: "/admin/babycare",             label: "產後護理之家" },
-  { href: "/admin/hospital",             label: "醫院評鑑" },
-  { href: "/admin/disability",           label: "身心障礙福利機構" },
+type NavLink = {
+  href: string;
+  label: string;
+  short: string;
+  icon: LucideIcon;
+};
+
+const navLinks: NavLink[] = [
+  { href: "/admin/blog",               label: "部落格管理",   short: "部落", icon: NewspaperIcon },
+  { href: "/admin/home-care",           label: "居家長照機構", short: "居家", icon: BuildingIcon },
+  { href: "/admin/daycare",             label: "日間照顧中心", short: "日間", icon: BuildingIcon },
+  { href: "/admin/nursing-home",        label: "住宿型照顧機構", short: "住宿", icon: BuildingIcon },
+  { href: "/admin/home-nursing",        label: "居家護理所",   short: "居護", icon: BuildingIcon },
+  { href: "/admin/general-nursing-home", label: "一般護理之家", short: "一般", icon: BuildingIcon },
+  { href: "/admin/babycare",            label: "產後護理之家", short: "產後", icon: BuildingIcon },
+  { href: "/admin/hospital",            label: "醫院評鑑",     short: "醫院", icon: BuildingIcon },
+  { href: "/admin/disability",          label: "身心障礙福利機構", short: "身障", icon: BuildingIcon },
 ];
 
 export function AdminSidebar() {
@@ -44,7 +53,7 @@ export function AdminSidebar() {
         collapsed ? "w-14" : "w-56"
       }`}
     >
-      <div className="flex items-center justify-end py-3 px-2 border-b">
+      <div className="flex items-center justify-end py-3 px-2">
         <Button
           variant="ghost"
           size="icon"
@@ -60,9 +69,9 @@ export function AdminSidebar() {
         </Button>
       </div>
 
-      <nav className="flex-1 px-2 py-4 space-y-0.5">
+      <nav className="flex-1 px-2 py-2 space-y-0.5">
         <TooltipProvider>
-          {navLinks.map(({ href, label }) => {
+          {navLinks.map(({ href, label, short, icon: Icon }) => {
             const isActive = pathname === href || pathname.startsWith(href + "/");
             return collapsed ? (
               <Tooltip key={href}>
@@ -70,14 +79,13 @@ export function AdminSidebar() {
                   <Link
                     href={href}
                     className={cn(
-                      "flex items-center justify-center p-2.5 rounded-lg text-sm transition-colors",
+                      "flex items-center justify-center py-2 rounded-lg text-xs font-medium transition-colors",
                       isActive
                         ? "bg-primary/10 text-primary"
                         : "text-muted-foreground hover:text-foreground hover:bg-muted"
                     )}
                   >
-                    <BuildingIcon className="h-4 w-4" />
-                    <span className="sr-only">{label}</span>
+                    {short}
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent side="right">{label}</TooltipContent>
@@ -93,7 +101,7 @@ export function AdminSidebar() {
                     : "text-muted-foreground hover:text-foreground hover:bg-muted"
                 )}
               >
-                <BuildingIcon className="h-4 w-4 shrink-0" />
+                <Icon className="h-4 w-4 shrink-0" />
                 <span className="truncate">{label}</span>
               </Link>
             );

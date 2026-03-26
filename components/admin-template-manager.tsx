@@ -437,7 +437,7 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
               return (
                 <div key={tag.id} className="rounded-lg border bg-card overflow-hidden">
                   {/* Header row */}
-                  <div className="flex items-center gap-3 px-4 py-3">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 px-4 py-3">
                     <button
                       className="flex items-center gap-2 flex-1 min-w-0 text-left"
                       onClick={() => setExpandedTagId(isExpanded ? null : tag.id)}
@@ -453,26 +453,28 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
                         )}
                       </div>
                     </button>
-                    <Badge variant="outline" className="text-xs shrink-0">
-                      {tagLinkedCount(tag.id)} 個範本
-                    </Badge>
-                    <div className="flex gap-1 shrink-0">
-                      <Button variant="ghost" size="icon" className="h-8 w-8" title="關聯範本"
-                        onClick={() => setAssocDialog({ open: true, tag })}>
-                        <LinkIcon className="h-3.5 w-3.5" />
-                      </Button>
-                      <Button variant="ghost" size="icon" className="h-8 w-8" title="編輯"
-                        onClick={() => setTagDialog({ open: true, editing: tag })}>
-                        <PencilIcon className="h-3.5 w-3.5" />
-                      </Button>
-                      <Button variant="ghost" size="icon" className="h-8 w-8" title="複製"
-                        onClick={() => handleCopyTag(tag)}>
-                        <CopyIcon className="h-3.5 w-3.5" />
-                      </Button>
-                      <Button variant="ghost" size="icon" className="h-8 w-8 text-destructive hover:text-destructive" title="刪除"
-                        onClick={() => setDeleteTagDialog({ open: true, tag })}>
-                        <Trash2Icon className="h-3.5 w-3.5" />
-                      </Button>
+                    <div className="flex items-center gap-2 pl-6 sm:pl-0">
+                      <Badge variant="outline" className="text-xs shrink-0">
+                        {tagLinkedCount(tag.id)} 個範本
+                      </Badge>
+                      <div className="flex gap-1 shrink-0">
+                        <Button variant="ghost" size="icon" className="h-8 w-8" title="關聯範本"
+                          onClick={() => setAssocDialog({ open: true, tag })}>
+                          <LinkIcon className="h-3.5 w-3.5" />
+                        </Button>
+                        <Button variant="ghost" size="icon" className="h-8 w-8" title="編輯"
+                          onClick={() => setTagDialog({ open: true, editing: tag })}>
+                          <PencilIcon className="h-3.5 w-3.5" />
+                        </Button>
+                        <Button variant="ghost" size="icon" className="h-8 w-8" title="複製"
+                          onClick={() => handleCopyTag(tag)}>
+                          <CopyIcon className="h-3.5 w-3.5" />
+                        </Button>
+                        <Button variant="ghost" size="icon" className="h-8 w-8 text-destructive hover:text-destructive" title="刪除"
+                          onClick={() => setDeleteTagDialog({ open: true, tag })}>
+                          <Trash2Icon className="h-3.5 w-3.5" />
+                        </Button>
+                      </div>
                     </div>
                   </div>
                   {/* Inline linked templates */}
@@ -557,6 +559,7 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
 
       {/* Dialogs */}
       <TagDialog
+        key={tagDialog.editing?.id ?? "new"}
         open={tagDialog.open}
         onClose={() => setTagDialog({ open: false })}
         onSave={handleSaveTag}

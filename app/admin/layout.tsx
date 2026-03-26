@@ -3,18 +3,12 @@ import { AdminSidebar } from "@/components/admin-sidebar";
 import { requireAdmin } from "@/lib/admin";
 import { Suspense } from "react";
 
-async function AdminGuard() {
+export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   await requireAdmin();
-  return null;
-}
 
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <Suspense fallback={null}>
-        <AdminGuard />
-      </Suspense>
       <div className="flex flex-1 overflow-hidden">
         <Suspense fallback={<div className="w-14 shrink-0 border-r bg-muted/20" />}>
           <AdminSidebar />
