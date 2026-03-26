@@ -28,13 +28,21 @@ const navLinks: NavLink[] = [
   { href: "/admin/disability",          label: "身心障礙福利機構", short: "身障", icon: BuildingIcon },
 ];
 
+const STORAGE_KEY = "admin-sidebar-collapsed";
+
 export function AdminSidebar() {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
   const userToggledRef = useRef(false);
 
   useEffect(() => {
-    setCollapsed(window.innerWidth < 768);
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved !== null) {
+      userToggledRef.current = true;
+      setCollapsed(saved === "true");
+    } else {
+      setCollapsed(window.innerWidth < 768);
+    }
     const handleResize = () => {
       if (!userToggledRef.current) setCollapsed(window.innerWidth < 768);
     };
@@ -44,7 +52,10 @@ export function AdminSidebar() {
 
   const handleToggle = () => {
     userToggledRef.current = true;
-    setCollapsed((v) => !v);
+    setCollapsed((v) => {
+      localStorage.setItem(STORAGE_KEY, String(!v));
+      return !v;
+    });
   };
 
   return (

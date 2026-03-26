@@ -1,7 +1,6 @@
 import { db } from "@/db";
 import { templateTags, reportTemplates, templateTagReports } from "@/db/schema";
 import { eq, asc, inArray } from "drizzle-orm";
-import { requireAdmin } from "@/lib/admin";
 import { AdminTemplateManager } from "@/components/admin-template-manager";
 import { notFound } from "next/navigation";
 import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
@@ -24,7 +23,6 @@ export default async function AdminFacilityPage({
 }: {
   params: Promise<{ facilityType: string }>;
 }) {
-  await requireAdmin();
   const { facilityType } = await params;
 
   if (!VALID_FACILITY_TYPES.has(facilityType)) notFound();
