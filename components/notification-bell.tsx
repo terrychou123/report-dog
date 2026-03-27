@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import { BellIcon } from "lucide-react";
+import { MailIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -90,33 +90,48 @@ export function NotificationBell({ collapsed }: NotificationBellProps) {
     if (n.link) router.push(n.link);
   }
 
-  const bell = (
-    <Button
-      variant="ghost"
-      size="icon"
-      className="h-8 w-8 shrink-0 relative"
-      aria-label="通知"
-    >
-      <BellIcon className="h-4 w-4" />
+  const iconWithBadge = (
+    <span className="relative shrink-0">
+      <MailIcon className="h-4 w-4" />
       {unreadCount > 0 && (
-        <span className="absolute top-0.5 right-0.5 h-4 w-4 rounded-full bg-primary text-[10px] font-bold text-primary-foreground flex items-center justify-center leading-none">
+        <span className="absolute -top-1.5 -right-1.5 h-4 w-4 rounded-full bg-primary text-[10px] font-bold text-primary-foreground flex items-center justify-center leading-none">
           {unreadCount > 9 ? "9+" : unreadCount}
         </span>
       )}
+    </span>
+  );
+
+  const trigger = collapsed ? (
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-8 w-8 shrink-0 relative"
+            aria-label="通知"
+          >
+            {iconWithBadge}
+          </Button>
+        </TooltipTrigger>
+        <TooltipContent side="right">通知</TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
+  ) : (
+    <Button
+      variant="ghost"
+      className="w-full justify-start gap-3 px-3 py-2.5 h-auto text-sm font-medium text-muted-foreground hover:text-foreground"
+      aria-label="通知"
+    >
+      {iconWithBadge}
+      通知
     </Button>
   );
 
   return (
     <Popover open={open} onOpenChange={handleOpen}>
       <PopoverTrigger asChild>
-        {collapsed ? (
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>{bell}</TooltipTrigger>
-              <TooltipContent side="right">通知</TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-        ) : bell}
+        {trigger}
       </PopoverTrigger>
       <PopoverContent side="right" align="start" className="w-80 p-0">
         <div className="flex items-center justify-between px-4 py-3 border-b">
