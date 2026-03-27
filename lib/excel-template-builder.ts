@@ -2,7 +2,12 @@
  * Builds FortuneSheet-compatible SheetData[] JSON for evaluation template items.
  * The JSON is stored in report_templates.content with fileType='excel'.
  * FortuneEditor (components/fortune-editor-inner.tsx) reads this format directly.
+ *
+ * Each item produces:
+ *   Sheet 0: "檢核表" — the self-assessment checklist (original format)
+ *   Sheet 1+: supplementary document templates derived from criteria descriptions
  */
+import type { SupplementarySheetDef } from './supplementary-sheet-types';
 
 export type SheetData = {
   name: string;
@@ -90,7 +95,7 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
   };
 
   return {
-    name: item.title.length > 20 ? item.title.slice(0, 20) : item.title,
+    name: "檢核表",
     data,
     config: {
       columnlen: COL_WIDTHS,
@@ -117,4 +122,97 @@ export function buildResponsibleGroupSheetData(items: EvaluationItem[]): SheetDa
  */
 export function serializeSheetData(sheets: SheetData[]): string {
   return JSON.stringify(sheets);
+}
+
+// ─── Supplementary sheet builder ──────────────────────────────────────────────
+
+
+/**
+ * Default column widths per archetype (pixels). Applied when ColumnDef.width is absent.
+ */
+const ARCHETYPE_DEFAULT_COL_WIDTH: Record<string, number> = {
+  'daily-record': 110,
+  'case-assessment': 130,
+  'inspection-checklist': 120,
+  'incident-log': 120,
+  'meeting-minutes': 140,
+  'training-record': 130,
+  'inventory-list': 130,
+  'care-plan': 140,
+};
+
+/**
+ * Builds a single supplementary document template SheetData from a SupplementarySheetDef.
+ * Layout: [Title row] [Header row] [prefillRows empty data rows]
+ */
+export function buildSupplementarySheetData(
+  def: SupplementarySheetDef,
+): SheetData {
+  const cols = def.columns;
+  const numCols = cols.length;
+  const prefillRows = def.prefillRows ?? 5;
+
+  // Row 0: title (merged across all columns)
+  const titleRow = cols.map((_, i) => (i === 0 ? def.sheetName : ""));
+
+  // Row 1: column headers
+  const headerRow = cols.map((c) => c.header);
+
+  // Data rows
+  const dataRows: string[][] = Array.from({ length: prefillRows }, () =>
+    Array(numCols).fill("")
+  );
+
+  const data: string[][] = [titleRow, headerRow, ...dataRows];
+
+  const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; bold?: boolean }> = {};
+
+  // Title row: merged, peach bg, centred
+  cellStyles["0_0"] = { bg: SUBHEADER_BG, ht: 0, vt: 1 };
+
+  // Header row: blue bg, white text, centred
+  for (let c = 0; c < numCols; c++) {
+    cellStyles[`1_${c}`] = { bg: HEADER_BG, fc: HEADER_FC, ht: 0, vt: 1 };
+  }
+
+  const defaultColWidth = ARCHETYPE_DEFAULT_COL_WIDTH[def.archetype] ?? 120;
+  const columnlen: Record<string, number> = {};
+  cols.forEach((col, i) => {
+    columnlen[String(i)] = col.width ?? defaultColWidth;
+  });
+
+  const rowlen: Record<string, number> = {
+    "0": TITLE_ROW_HEIGHT,
+    "1": HEADER_ROW_HEIGHT,
+  };
+  for (let r = 0; r < prefillRows; r++) {
+    rowlen[String(2 + r)] = DATA_ROW_BASE_HEIGHT;
+  }
+
+  return {
+    name: def.sheetName.length > 20 ? def.sheetName.slice(0, 20) : def.sheetName,
+    data,
+    config: {
+      columnlen,
+      rowlen,
+      merge: {
+        "0_0": { r: 0, c: 0, rs: 1, cs: numCols },
+      },
+    },
+    cellStyles,
+  };
+}
+
+/**
+ * Builds a complete multi-sheet workbook for one evaluation item.
+ * Returns [檢核表, ...supplementary sheets].
+ * If defs is empty or undefined, returns just the checklist sheet.
+ */
+export function buildItemMultiSheetData(
+  item: EvaluationItem,
+  defs: SupplementarySheetDef[] = [],
+): SheetData[] {
+  const checklist = buildItemSheetData(item);
+  const supplementary = defs.map((def) => buildSupplementarySheetData(def));
+  return [checklist, ...supplementary];
 }

@@ -84,6 +84,7 @@ const PAGE_SIZE = 30;
 export function DraggableReportsList() {
   const [reportList, setReportList] = useState<Report[]>([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(false);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [accreditationOpen, setAccreditationOpen] = useState(false);
   const [confirmAction, setConfirmAction] = useState<null | "copy" | "delete">(null);
@@ -91,6 +92,8 @@ export function DraggableReportsList() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const loadReports = useCallback(() => {
+    setFetchError(false);
+    setLoading(true);
     fetch("/api/reports")
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -103,7 +106,10 @@ export function DraggableReportsList() {
           Math.min(prev, Math.max(1, Math.ceil(data.length / PAGE_SIZE)))
         );
       })
-      .catch(() => setLoading(false));
+      .catch(() => {
+        setFetchError(true);
+        setLoading(false);
+      });
   }, []);
 
   useEffect(() => {
@@ -196,6 +202,16 @@ export function DraggableReportsList() {
         {[1, 2, 3].map((i) => (
           <Skeleton key={i} className="h-16 w-full rounded-lg" />
         ))}
+      </div>
+    );
+  }
+
+  if (fetchError) {
+    return (
+      <div className="text-center py-20 text-muted-foreground">
+        <p className="text-lg mb-2">載入失敗</p>
+        <p className="text-sm mb-4">無法取得報告列表，請稍後再試</p>
+        <Button variant="outline" size="sm" onClick={loadReports}>重新載入</Button>
       </div>
     );
   }
@@ -306,9 +322,9 @@ export function DraggableReportsList() {
             <AlertDialogTitle>確認刪除 {selectedIds.size} 份報告？</AlertDialogTitle>
             <AlertDialogDescription asChild>
               <div>
-                <ul className="mt-2 space-y-1 text-sm">
+                <ul className="mt-2 space-y-1 text-sm max-h-48 overflow-y-auto">
                   {selectedTitles.map((title, i) => (
-                    <li key={i} className="truncate">• {title}</li>
+                    <li key={i} className="break-words">• {title}</li>
                   ))}
                 </ul>
                 <p className="mt-3 text-destructive font-medium">此操作無法復原。</p>
@@ -335,13 +351,11 @@ export function DraggableReportsList() {
           <AlertDialogHeader>
             <AlertDialogTitle>確認複製 {selectedIds.size} 份報告？</AlertDialogTitle>
             <AlertDialogDescription asChild>
-              <div>
-                <ul className="mt-2 space-y-1 text-sm">
-                  {selectedTitles.map((title, i) => (
-                    <li key={i} className="truncate">• {title}</li>
-                  ))}
-                </ul>
-              </div>
+              <ul className="mt-2 space-y-1 text-sm max-h-48 overflow-y-auto">
+                {selectedTitles.map((title, i) => (
+                  <li key={i} className="break-words">• {title}</li>
+                ))}
+              </ul>
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

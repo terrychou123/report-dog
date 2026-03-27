@@ -391,6 +391,107 @@ export const schoolNavSections: SchoolNavSection[] = [
     ],
   },
   {
+    group: "兒少教養機構",
+    items: [
+      {
+        href: "/school/youth-care",
+        label: "評鑑基準總覽",
+        title: "兒少教養機構評鑑基準總覽",
+        icon: UsersIcon,
+        desc: "28 項評鑑基準完整說明",
+      },
+      {
+        href: "/school/youth-care/administration",
+        label: "壹、行政組織與經營管理",
+        title: "行政組織與經營管理評鑑基準（項目 1–10）",
+        icon: SettingsIcon,
+        desc: "董事會功能、業務計畫、危機管理、人力資源、財務管理",
+      },
+      {
+        href: "/school/youth-care/environment",
+        label: "貳、建築物環境與設施設備",
+        title: "建築物環境與設施設備評鑑基準（項目 11–15）",
+        icon: BuildingIcon,
+        desc: "機構環境配置、公共安全、飲食衛生、急救物資、健康服務",
+      },
+      {
+        href: "/school/youth-care/professional",
+        label: "參、專業服務",
+        title: "專業服務評鑑基準（項目 16–22）",
+        icon: HeartPulseIcon,
+        desc: "進住協助、安置輔導、家庭重聚、結束安置、資源結合、團體活動、專業支持",
+      },
+      {
+        href: "/school/youth-care/rights",
+        label: "肆、權益保障",
+        title: "權益保障評鑑基準（項目 23–27）",
+        icon: ShieldCheckIcon,
+        desc: "表意權、平等權、生命發展權、隱私保密、受有效保護",
+      },
+      {
+        href: "/school/youth-care/innovation",
+        label: "伍、服務創新（加分題）",
+        title: "服務創新（加分題）評鑑基準（項目 28）",
+        icon: StarIcon,
+        desc: "服務或營運之發展性、突破性或創造性亮點",
+      },
+    ],
+  },
+  {
+    group: "老人福利機構",
+    items: [
+      {
+        href: "/school/elderly-welfare",
+        label: "評鑑基準總覽",
+        title: "老人福利機構評鑑基準總覽",
+        icon: HeartHandshakeIcon,
+        desc: "77 項評鑑基準完整說明",
+      },
+      {
+        href: "/school/elderly-welfare/management",
+        label: "A、經營管理效能",
+        title: "經營管理效能評鑑基準（項目 1–15）",
+        icon: SettingsIcon,
+        desc: "工作手冊、人員配置、訓練、感染管制、危機管理",
+      },
+      {
+        href: "/school/elderly-welfare/professional-quality",
+        label: "B、專業照護品質",
+        title: "專業照護品質評鑑基準（項目 16–46）",
+        icon: HeartPulseIcon,
+        desc: "社工服務、護理照護、用藥管理、復能活動、品質監測",
+      },
+      {
+        href: "/school/elderly-welfare/safety-environment",
+        label: "C、安全環境設備",
+        title: "安全環境設備評鑑基準（項目 47–62）",
+        icon: ShieldIcon,
+        desc: "建築安全、消防設備、無障礙設施、緊急應變",
+      },
+      {
+        href: "/school/elderly-welfare/client-rights",
+        label: "D、個案權益保障",
+        title: "個案權益保障評鑑基準（項目 63–71）",
+        icon: ShieldCheckIcon,
+        desc: "服務資訊、服務契約、個資保護、申訴機制、滿意度調查",
+      },
+      {
+        href: "/school/elderly-welfare/innovation",
+        label: "E、服務改進創新",
+        title: "服務改進創新評鑑基準（項目 72–74）",
+        icon: StarIcon,
+        desc: "前次評鑑缺失改善、創新服務、違規事件改善",
+      },
+      {
+        href: "/school/elderly-welfare/bonus",
+        label: "F、加分題",
+        title: "加分題評鑑基準（項目 75–77）",
+        icon: SparklesIcon,
+        desc: "人才培育、智慧照護、在地安老服務",
+      },
+    ],
+  },
+  {
     group: "身心障礙福利機構",
     items: [
       {

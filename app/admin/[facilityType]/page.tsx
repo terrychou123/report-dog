@@ -3,18 +3,7 @@ import { templateTags, reportTemplates, templateTagReports } from "@/db/schema";
 import { eq, asc, inArray } from "drizzle-orm";
 import { AdminTemplateManager } from "@/components/admin-template-manager";
 import { notFound } from "next/navigation";
-import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
-
-const ADMIN_NAV_LABELS: Record<string, string> = {
-  "home-care":            "居家長照機構",
-  "daycare":              "日間照顧中心",
-  "nursing-home":         "住宿型照顧機構",
-  "home-nursing":         "居家護理所",
-  "general-nursing-home": "一般護理之家",
-  "babycare":             "產後護理之家",
-  "hospital":             "醫院評鑑",
-  "disability":           "身心障礙福利機構",
-};
+import { getAllProfiles, getProfile } from "@/lib/ai/evaluation-profiles";
 
 const VALID_FACILITY_TYPES = new Set(getAllProfiles().map((p) => p.id));
 
@@ -36,7 +25,7 @@ export default async function AdminFacilityPage({
     ? await db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds))
     : [];
 
-  const displayLabel = ADMIN_NAV_LABELS[facilityType] ?? facilityType;
+  const displayLabel = getProfile(facilityType)?.label ?? facilityType;
 
   return (
     <div className="p-8 max-w-6xl mx-auto">

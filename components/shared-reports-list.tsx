@@ -121,12 +121,15 @@ export function SharedReportsList() {
   const [viewable, setViewable] = useState<SharedReport[]>([]);
   const [editable, setEditable] = useState<SharedReport[]>([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(false);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [accreditationOpen, setAccreditationOpen] = useState(false);
   const [confirmAction, setConfirmAction] = useState<null | "copy" | "delete">(null);
   const [batchLoading, setBatchLoading] = useState(false);
 
   const loadReports = useCallback(() => {
+    setFetchError(false);
+    setLoading(true);
     fetch("/api/reports/shared")
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -137,7 +140,10 @@ export function SharedReportsList() {
         setEditable(data.editable ?? []);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => {
+        setFetchError(true);
+        setLoading(false);
+      });
   }, []);
 
   useEffect(() => {
@@ -175,8 +181,14 @@ export function SharedReportsList() {
   const hasViewOnlySelected = viewable.some((r) => selectedIds.has(r.id));
 
   const handleBatchDelete = async () => {
+    const editableIds = new Set(editable.map((r) => r.id));
+    const ids = Array.from(selectedIds).filter((id) => editableIds.has(id));
+    if (ids.length === 0) {
+      toast.error("選取的報告皆為唯讀，無法刪除");
+      setConfirmAction(null);
+      return;
+    }
     setBatchLoading(true);
-    const ids = Array.from(selectedIds);
     const results = await Promise.allSettled(
       ids.map((id) =>
         fetch(`/api/reports/${id}`, { method: "DELETE" }).then((r) => {
@@ -222,7 +234,6 @@ export function SharedReportsList() {
     setConfirmAction(null);
     clearSelection();
     window.dispatchEvent(new Event("reports-updated"));
-    loadReports();
   };
 
   if (loading) {
@@ -231,6 +242,16 @@ export function SharedReportsList() {
         {[1, 2, 3].map((i) => (
           <Skeleton key={i} className="h-16 w-full rounded-lg" />
         ))}
+      </div>
+    );
+  }
+
+  if (fetchError) {
+    return (
+      <div className="text-center py-20 text-muted-foreground">
+        <p className="text-lg mb-2">載入失敗</p>
+        <p className="text-sm mb-4">無法取得分享報告，請稍後再試</p>
+        <Button variant="outline" size="sm" onClick={loadReports}>重新載入</Button>
       </div>
     );
   }
@@ -329,9 +350,9 @@ export function SharedReportsList() {
             <AlertDialogTitle>確認刪除 {selectedIds.size} 份報告？</AlertDialogTitle>
             <AlertDialogDescription asChild>
               <div>
-                <ul className="mt-2 space-y-1 text-sm">
+                <ul className="mt-2 space-y-1 text-sm max-h-48 overflow-y-auto">
                   {selectedTitles.map((title, i) => (
-                    <li key={i} className="truncate">• {title}</li>
+                    <li key={i} className="break-words">• {title}</li>
                   ))}
                 </ul>
                 <p className="mt-3 text-destructive font-medium">非擁有者的報告將無法刪除。</p>
@@ -358,13 +379,11 @@ export function SharedReportsList() {
           <AlertDialogHeader>
             <AlertDialogTitle>確認複製 {selectedIds.size} 份報告？</AlertDialogTitle>
             <AlertDialogDescription asChild>
-              <div>
-                <ul className="mt-2 space-y-1 text-sm">
-                  {selectedTitles.map((title, i) => (
-                    <li key={i} className="truncate">• {title}</li>
-                  ))}
-                </ul>
-              </div>
+              <ul className="mt-2 space-y-1 text-sm max-h-48 overflow-y-auto">
+                {selectedTitles.map((title, i) => (
+                  <li key={i} className="break-words">• {title}</li>
+                ))}
+              </ul>
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

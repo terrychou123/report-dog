@@ -1,0 +1,150 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { DocsTip } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "E、服務改進創新（項目 72–74）｜老人福利機構評鑑",
+  description:
+    "老人福利機構評鑑「服務改進創新」3 項評鑑基準詳細說明：前次評鑑缺失改善情形、創新服務方案推行情形、近 4 年違規事件改善情形，含準備要訣。",
+  keywords: [
+    "老人福利機構服務創新評鑑",
+    "老人機構前次評鑑改善",
+    "115年度老人福利機構評鑑",
+    "老人照顧機構服務改進",
+  ],
+  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/innovation" },
+  openGraph: {
+    title: "E、服務改進創新（項目 72–74）｜老人福利機構評鑑｜報告汪",
+    description: "老人福利機構評鑑服務改進創新 3 項基準詳細說明與準備要訣。",
+    url: "https://reportwang.com/school/elderly-welfare/innovation",
+  },
+};
+
+const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "創")!;
+
+const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
+  72: {
+    content:
+      "前次評鑑缺失改善需有具體的改善計畫、執行記錄及佐證資料，而非僅說明「已改善」。建議製作缺失改善對照表，清楚呈現改善前後的差異，讓評鑑委員一目了然。若無前次評鑑，以第一次評鑑計。",
+    variant: "warning",
+  },
+  73: {
+    content:
+      "創新服務方案需提供具體的實施時間、受益對象、執行成效等佐證資料，而非僅有構想說明。成效可以量化呈現（如住民滿意度提升、員工流動率降低等），增加說服力。",
+    variant: "info",
+  },
+  74: {
+    content:
+      "違規事件（含主管機關裁罰、法院判決等）需備有完整的改善計畫及執行記錄。若近 4 年無違規事件，建議主動向主管機關索取書面確認文件，作為佐證資料。",
+    variant: "warning",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "E、服務改進創新（老人福利機構評鑑基準項目 72–74）",
+  description:
+    "老人福利機構評鑑基準「服務改進創新」3 個評鑑項目詳細說明、準備要訣與實用提示。",
+  path: "/school/elderly-welfare/innovation",
+});
+
+export default function ElderlyWelfareInnovationPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
+      {/* Header */}
+      <div className="mb-6">
+        <Badge className="mb-3 bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border-0 hover:bg-indigo-500/20">
+          E、服務改進創新
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">服務改進創新（項目 72–74）</h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本區塊共 3 個評鑑項目（占分 2%），聚焦於機構的持續改善能力，包含前次評鑑缺失的具體改善成效、創新服務方案的推行情形及近 4 年違規事件的改善狀況。
+        </p>
+      </div>
+
+      {/* Mini TOC */}
+      <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+          本頁內容
+        </p>
+        <ul className="grid grid-cols-1 gap-1">
+          {section.items.map((item) => (
+            <li key={item.id}>
+              <a
+                href={`#item-${item.id}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+              >
+                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                  {item.id}
+                </span>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Items */}
+      <div className="space-y-12">
+        {section.items.map((item) => (
+          <section key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="w-8 h-8 rounded-full bg-indigo-500/10 flex items-center justify-center text-sm font-bold text-indigo-600 dark:text-indigo-400 font-mono">
+                {item.id}
+              </span>
+              <h2 className="text-lg font-bold">{item.title}</h2>
+              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+            </div>
+
+            <div className="mb-4">
+              <h3 className="text-sm font-semibold mb-2">評鑑標準</h3>
+              <ol className="space-y-1.5 list-none pl-0">
+                {item.criteria.map((criterion, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                      {i + 1}
+                    </span>
+                    {criterion}
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            {tips[item.id] && (
+              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                {tips[item.id].content}
+              </DocsTip>
+            )}
+          </section>
+        ))}
+      </div>
+
+      {/* Prev / Next navigation */}
+      <div className="mt-12 flex items-center justify-between border-t pt-6">
+        <Link
+          href="/school/elderly-welfare/client-rights"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          D、個案權益保障
+        </Link>
+        <Link
+          href="/school/elderly-welfare/bonus"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          F、加分題
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}

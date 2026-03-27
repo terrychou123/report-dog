@@ -11,7 +11,8 @@ import postgres from 'postgres';
 import { templateTags, reportTemplates, templateTagReports } from '../db/schema';
 import { eq } from 'drizzle-orm';
 import { getDbUrl } from '../db/index';
-import { buildItemSheetData, serializeSheetData } from '../lib/excel-template-builder';
+import { buildItemMultiSheetData, serializeSheetData } from '../lib/excel-template-builder';
+import { getSupplementaryDefs } from '../lib/supplementary-sheets/index';
 
 // Import all profiles directly (no path alias needed)
 import { daycareProfile } from '../lib/ai/evaluation-profiles/daycare';
@@ -22,6 +23,8 @@ import { disabilityProfile } from '../lib/ai/evaluation-profiles/disability';
 import { babycareProfile } from '../lib/ai/evaluation-profiles/babycare';
 import { homeNursingProfile } from '../lib/ai/evaluation-profiles/home-nursing';
 import { generalNursingHomeProfile } from '../lib/ai/evaluation-profiles/general-nursing-home';
+import { youthCareProfile } from '../lib/ai/evaluation-profiles/youth-care';
+import { elderlyWelfareProfile } from '../lib/ai/evaluation-profiles/elderly-welfare';
 
 const profiles = [
   daycareProfile,
@@ -32,6 +35,8 @@ const profiles = [
   babycareProfile,
   homeNursingProfile,
   generalNursingHomeProfile,
+  youthCareProfile,
+  elderlyWelfareProfile,
 ];
 
 type ProfileItem = {
@@ -64,7 +69,7 @@ async function main() {
 
     console.log(`📋 ${profile.label} (${profile.id})`);
 
-    // Clear existing data for this facility type
+    // Clear existing data — FK onDelete:cascade on templateTagReports handles join rows automatically
     await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, profile.id));
     await db.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
 
@@ -110,9 +115,10 @@ async function main() {
 
       let reportOrder = 0;
       for (const item of items) {
-        // Build FortuneSheet-compatible Excel content
-        const sheetData = buildItemSheetData(item);
-        const content = serializeSheetData([sheetData]);
+        // Build FortuneSheet-compatible Excel content (checklist + supplementary sheets)
+        const supplementaryDefs = getSupplementaryDefs(profile.id, item.id);
+        const sheets = buildItemMultiSheetData(item, supplementaryDefs);
+        const content = serializeSheetData(sheets);
 
         const [newReport] = await db
           .insert(reportTemplates)

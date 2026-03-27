@@ -84,6 +84,10 @@ export function TemplateImportDialog() {
             </DialogDescription>
           </DialogHeader>
 
+          <p className="text-xs text-destructive/80 -mt-1">
+            ⚠️ 此評鑑範本由AI產生，非官方文件，敬請斟酌使用，本站不負任何責任
+          </p>
+
           {loading ? (
             <div className="flex justify-center py-10">
               <Loader2Icon className="h-6 w-6 animate-spin text-muted-foreground" />

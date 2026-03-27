@@ -6,17 +6,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
-const ADMIN_NAV_LABELS: Record<string, string> = {
-  "home-care":            "居家長照機構",
-  "daycare":              "日間照顧中心",
-  "nursing-home":         "住宿型照顧機構",
-  "home-nursing":         "居家護理所",
-  "general-nursing-home": "一般護理之家",
-  "babycare":             "產後護理之家",
-  "hospital":             "醫院評鑑",
-  "disability":           "身心障礙福利機構",
-};
-
 export default async function AdminPage() {
   const profiles = getAllProfiles();
 
@@ -43,7 +32,7 @@ export default async function AdminPage() {
         {profiles.map((p) => {
           const tags = tagMap[p.id] ?? 0;
           const reports = reportMap[p.id] ?? 0;
-          const displayLabel = ADMIN_NAV_LABELS[p.id] ?? p.label;
+          const displayLabel = p.label;
           return (
             <Link key={p.id} href={`/admin/${p.id}`}>
               <Card className="hover:border-primary/50 hover:shadow-sm transition-all cursor-pointer h-full">
