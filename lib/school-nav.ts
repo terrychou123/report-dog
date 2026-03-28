@@ -23,6 +23,7 @@ import {
   SyringeIcon,
   BugIcon,
   FlaskConicalIcon,
+  BrainCircuitIcon,
 } from "lucide-react";
 
 export interface SchoolNavItem {
@@ -542,6 +543,53 @@ export const schoolNavSections: SchoolNavSection[] = [
         title: "會計與財務管理評鑑基準（項目 30–35）",
         icon: BuildingIcon,
         desc: "會計帳冊、財務管理、現金收支、固定資產、物資、成本",
+      },
+    ],
+  },
+  {
+    group: "精神護理之家",
+    items: [
+      {
+        href: "/school/psychiatric-nursing-home",
+        label: "評鑑總覽",
+        title: "精神護理之家評鑑總覽",
+        icon: BrainCircuitIcon,
+        desc: "115年度精神護理之家評鑑基準，共5大面向36條指標",
+      },
+      {
+        href: "/school/psychiatric-nursing-home/management",
+        label: "A 經營管理效能",
+        title: "A、經營管理效能（A1.1–A5.1）",
+        icon: SettingsIcon,
+        desc: "業務計畫、人員配置、工作人員權益、教育訓練、資料管理，共9條",
+      },
+      {
+        href: "/school/psychiatric-nursing-home/professional-care",
+        label: "B 專業照護品質",
+        title: "B、專業照護品質（B1.1–B3.2）",
+        icon: HeartPulseIcon,
+        desc: "住民服務計畫、防疫機制、跨專業照護、品質監測、膳食服務，共21條",
+      },
+      {
+        href: "/school/psychiatric-nursing-home/safety-facilities",
+        label: "C 安全維護及設施設備",
+        title: "C、安全維護及設施設備（C1.1–C1.3）",
+        icon: ShieldIcon,
+        desc: "疏散避難系統、火災應變計畫、夜間演練，共3條（含1項重點項目）",
+      },
+      {
+        href: "/school/psychiatric-nursing-home/resident-rights",
+        label: "D 住民權益保障",
+        title: "D、住民權益保障（D1.1–D1.2）",
+        icon: UsersIcon,
+        desc: "尊重住民信仰、推動安寧緩和療護及病人自主權利，共2條",
+      },
+      {
+        href: "/school/psychiatric-nursing-home/innovation",
+        label: "E 創新及改革",
+        title: "E、創新及改革（E1.1）",
+        icon: SparklesIcon,
+        desc: "創新或特色措施具有成效並公開分享，共1條",
       },
     ],
   },

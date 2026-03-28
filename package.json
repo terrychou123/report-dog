@@ -9,6 +9,7 @@
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
     "generate:disability-checklist": "tsx scripts/generate-disability-checklist.ts",
+    "generate:psychiatric-nursing-home-checklist": "tsx scripts/generate-psychiatric-nursing-home-checklist.ts",
     "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts"
   },
   "dependencies": {

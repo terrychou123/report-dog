@@ -13,6 +13,7 @@ import { nursingHomeDefs } from './nursing-home';
 import { hospitalDefs } from './hospital';
 import { youthCareDefs } from './youth-care';
 import { elderlyWelfareDefs } from './elderly-welfare';
+import { psychiatricNursingHomeDefs } from './psychiatric-nursing-home';
 
 const registry: Record<string, SupplementaryDefsMap> = {
   daycare: daycareDefs,
@@ -25,6 +26,7 @@ const registry: Record<string, SupplementaryDefsMap> = {
   hospital: hospitalDefs,
   'youth-care': youthCareDefs,
   'elderly-welfare': elderlyWelfareDefs,
+  'psychiatric-nursing-home': psychiatricNursingHomeDefs,
 };
 
 /**

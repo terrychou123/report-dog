@@ -1,0 +1,134 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { educationalContentJsonLd } from "@/lib/jsonld";
+import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
+import { DocsTip } from "@/components/docs/docs-tip";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "C、安全維護及設施設備（C1.1–C1.3）｜精神護理之家評鑑",
+  description:
+    "115年度精神護理之家評鑑基準 C 面向：安全維護及設施設備，共 3 條指標。含疏散避難系統（重點項目）、火災應變計畫及夜間演練。",
+  keywords: ["精神護理之家評鑑", "115年度評鑑", "安全維護", "疏散避難", "火災應變", "重點項目"],
+  alternates: {
+    canonical: "https://reportwang.com/school/psychiatric-nursing-home/safety-facilities",
+  },
+  openGraph: {
+    title: "C、安全維護及設施設備（C1.1–C1.3）｜精神護理之家評鑑",
+    description: "115年度精神護理之家評鑑 C 面向 3 條指標完整解說。",
+    url: "https://reportwang.com/school/psychiatric-nursing-home/safety-facilities",
+  },
+};
+
+const section = psychiatricNursingHomeProfile.sections.find(
+  (s) => s.shortCode === "C"
+)!;
+
+const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
+  31: {
+    content:
+      "【重點項目】：各樓層須有2個以上不同避難方向之等待救接空間，且須有一定防火性能及足夠防煙能力。逃生路徑須為雙向（含1座以上安全梯及2個以上不同方向之避難途徑）。防火門應維持關閉，或能連動火警探測器自動釋放開閉，且不需鑰匙可雙向開啟。",
+    variant: "warning",
+  },
+  32: {
+    content:
+      "火災應變計畫須符合機構住民特性（精神障礙者），包含住民疏散協助流程。演練需有紀錄，且針對演練結果進行檢討改善。",
+    variant: "info",
+  },
+  33: {
+    content:
+      "夜間演練應符合機構特性，考量夜間人員配置較少之情況下的疏散能力。演練需有完整紀錄及檢討改善資料。",
+    variant: "info",
+  },
+};
+
+const jsonLd = educationalContentJsonLd({
+  type: "LearningResource",
+  name: "精神護理之家評鑑 C、安全維護及設施設備",
+  description: "115年度精神護理之家評鑑基準 C 面向 3 條指標完整解說。",
+  path: "/school/psychiatric-nursing-home/safety-facilities",
+});
+
+export default function SafetyFacilitiesPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+      <div className="mb-6">
+        <Badge className="mb-3 bg-orange-500/10 text-orange-600 dark:text-orange-400 border-0 hover:bg-orange-500/20">
+          C、安全維護及設施設備
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">
+          C、安全維護及設施設備（C1.1–C1.3）
+        </h1>
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          本面向共 3 條指標，包含 1 項重點項目（C1.1 疏散避難系統）。精神護理之家因住民具有精神障礙特性，疏散避難的規劃與演練尤為重要，各樓層須設置符合規定之等待救接空間。
+        </p>
+      </div>
+
+      <div className="space-y-8">
+        {section.items.map((item) => (
+          <div key={item.id} id={`item-${item.id}`} className="scroll-mt-16">
+            <div className="flex items-start gap-3 mb-3">
+              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/10 text-orange-600 dark:text-orange-400 flex items-center justify-center text-sm font-medium">
+                {item.id}
+              </span>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h2 className="font-semibold text-base">{item.title}</h2>
+                  {"isTrialDeduction" in item && item.isTrialDeduction && (
+                    <Badge variant="destructive" className="text-xs">重點項目</Badge>
+                  )}
+                </div>
+                <p className="text-xs text-muted-foreground mt-0.5">
+                  負責人：{item.responsible}
+                </p>
+              </div>
+            </div>
+
+            <div className="ml-11">
+              <p className="text-xs font-medium text-muted-foreground mb-2">評核要點</p>
+              <ul className="space-y-1.5 mb-3">
+                {item.criteria.map((criterion, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-sm">
+                    <span className="flex-shrink-0 w-5 h-5 rounded-full bg-muted flex items-center justify-center text-xs text-muted-foreground mt-0.5">
+                      {idx + 1}
+                    </span>
+                    <span>{criterion}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs font-medium text-muted-foreground mb-1">評核方式</p>
+              <p className="text-sm text-muted-foreground mb-3">{item.reviewMethod}</p>
+              {tips[item.id] && (
+                <DocsTip variant={tips[item.id].variant}>
+                  {tips[item.id].content}
+                </DocsTip>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="flex justify-between mt-10 pt-6 border-t">
+        <Link
+          href="/school/psychiatric-nursing-home/professional-care"
+          className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeftIcon className="h-4 w-4" />
+          B、專業照護品質
+        </Link>
+        <Link
+          href="/school/psychiatric-nursing-home/resident-rights"
+          className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          D、住民權益保障
+          <ArrowRightIcon className="h-4 w-4" />
+        </Link>
+      </div>
+    </>
+  );
+}

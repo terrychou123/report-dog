@@ -68,6 +68,12 @@ const DOWNLOADS: DownloadItem[] = [
     description: "醫院評鑑自我檢核表，涵蓋醫療品質與病人安全查核項目。",
     file: "hospital.xlsx",
   },
+  {
+    slug: "psychiatric-nursing-home",
+    name: "精神護理之家",
+    description: "115年度精神護理之家評鑑自我檢核表，共5大面向36條指標。",
+    file: "psychiatric-nursing-home.xlsx",
+  },
 ];
 
 export default function DownloadsPage() {

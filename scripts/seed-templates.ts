@@ -25,6 +25,7 @@ import { homeNursingProfile } from '../lib/ai/evaluation-profiles/home-nursing';
 import { generalNursingHomeProfile } from '../lib/ai/evaluation-profiles/general-nursing-home';
 import { youthCareProfile } from '../lib/ai/evaluation-profiles/youth-care';
 import { elderlyWelfareProfile } from '../lib/ai/evaluation-profiles/elderly-welfare';
+import { psychiatricNursingHomeProfile } from '../lib/ai/evaluation-profiles/psychiatric-nursing-home';
 
 const profiles = [
   daycareProfile,
@@ -37,6 +38,7 @@ const profiles = [
   generalNursingHomeProfile,
   youthCareProfile,
   elderlyWelfareProfile,
+  psychiatricNursingHomeProfile,
 ];
 
 type ProfileItem = {

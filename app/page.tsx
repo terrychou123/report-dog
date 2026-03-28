@@ -219,9 +219,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <Badge variant="secondary" className="mb-4 bg-primary-foreground/20 text-primary-foreground border-0">評鑑季特別功能</Badge>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">評鑑季到了？一鍵匯入評鑑範本</h2>
-          <p className="text-lg opacity-80 mb-3">8 種機構類型完整覆蓋，省去手動建立的時間</p>
+          <p className="text-lg opacity-80 mb-3">9 種機構類型完整覆蓋，省去手動建立的時間</p>
           <p className="text-sm opacity-60 mb-8">
-            居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・產後護理之家・身心障礙福利機構・醫院
+            居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・精神護理之家・產後護理之家・身心障礙福利機構・醫院
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -388,6 +388,17 @@ export default function Home() {
                 quote: "住民照護計畫和環境安全文件用標籤分類後，A/B/C/D 四大構面評鑑前 AI 分析直接標示缺漏，省時又省力。",
                 author: "林護理長・台中市一般護理之家",
                 cta: "一般護理之家文書管理系統 →",
+              },
+              {
+                emoji: "🧠",
+                badge: "精神護理之家",
+                href: "/psychiatric",
+                linkTitle: "精神護理之家評鑑報告管理系統介紹",
+                stat: "36 條",
+                statLabel: "評鑑指標全覆蓋",
+                quote: "AI 分析精神護理特有的品質監測指標，讓評鑑準備更有系統。",
+                author: "黃護理長・精神護理之家",
+                cta: "了解精神護理之家方案 →",
               },
             ].map((item) => (
               <Link key={item.href} href={item.href} title={item.linkTitle} className="block group">
