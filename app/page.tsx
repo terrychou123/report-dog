@@ -129,7 +129,7 @@ export default function Home() {
               {
                 icon: <DownloadIcon className="h-6 w-6" />,
                 title: "一鍵匯入評鑑範本",
-                desc: "選擇機構類型，一鍵匯入對應的評鑑標籤與報告範本，涵蓋居服、日照、護理之家、醫院等 8 種機構類型，評鑑季立即開始準備。",
+                desc: "選擇機構類型，一鍵匯入對應的評鑑標籤與報告範本，涵蓋居服、日照、護理之家、醫院、托嬰中心等 12 種機構類型，評鑑季立即開始準備。",
               },
               {
                 icon: <BellRingIcon className="h-6 w-6" />,
@@ -219,9 +219,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <Badge variant="secondary" className="mb-4 bg-primary-foreground/20 text-primary-foreground border-0">評鑑季特別功能</Badge>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">評鑑季到了？一鍵匯入評鑑範本</h2>
-          <p className="text-lg opacity-80 mb-3">9 種機構類型完整覆蓋，省去手動建立的時間</p>
+          <p className="text-lg opacity-80 mb-3">12 種機構類型完整覆蓋，省去手動建立的時間</p>
           <p className="text-sm opacity-60 mb-8">
-            居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・精神護理之家・產後護理之家・身心障礙福利機構・醫院
+            居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・精神護理之家・產後護理之家・身心障礙福利機構・醫院・兒少教養機構・老人福利機構・托嬰中心
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -347,14 +347,14 @@ export default function Home() {
               },
               {
                 emoji: "♿",
-                badge: "身心障礙機構",
-                href: "/disability",
+                badge: "身心障礙福利機構",
+                href: "/disability-welfare",
                 linkTitle: "身心障礙福利機構 AI 文書管理系統介紹",
-                stat: "32 項",
-                statLabel: "自我檢核覆蓋",
-                quote: "自我檢核項目逐項對應，AI 分析直接標示缺漏，評鑑準備效率大幅提升。",
-                author: "張社工・新北市身心障礙福利機構",
-                cta: "身心障礙機構文書管理系統 →",
+                stat: "35 項",
+                statLabel: "評鑑基準全覆蓋",
+                quote: "ISP 計畫 AI 輔助撰寫，35 項評鑑基準逐項對應，評鑑前什麼文件都沒漏。",
+                author: "張社工師・新北市身心障礙福利機構",
+                cta: "身心障礙福利機構文書管理系統 →",
               },
               {
                 emoji: "👶",
@@ -399,6 +399,17 @@ export default function Home() {
                 quote: "AI 分析精神護理特有的品質監測指標，讓評鑑準備更有系統。",
                 author: "黃護理長・精神護理之家",
                 cta: "了解精神護理之家方案 →",
+              },
+              {
+                emoji: "🍼",
+                badge: "托嬰中心",
+                href: "/infant-daycare",
+                linkTitle: "托嬰中心評鑑報告管理系統介紹",
+                stat: "60 項",
+                statLabel: "評鑑基準全覆蓋",
+                quote: "寶寶日誌、給藥委託單、食物樣品記錄用 AI 輔助，60 項評鑑基準逐項對應，評鑑前文書不再手忙腳亂。",
+                author: "林主任・臺北市托嬰中心",
+                cta: "托嬰中心文書管理系統 →",
               },
             ].map((item) => (
               <Link key={item.href} href={item.href} title={item.linkTitle} className="block group">

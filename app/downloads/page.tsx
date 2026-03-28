@@ -27,12 +27,6 @@ const DOWNLOADS: DownloadItem[] = [
     file: "day-care.xlsx",
   },
   {
-    slug: "disability",
-    name: "身心障礙福利機構",
-    description: "身心障礙福利機構評鑑自我檢核表，適用各類評鑑準備作業。",
-    file: "disability.xlsx",
-  },
-  {
     slug: "residential",
     name: "住宿型長照機構",
     description: "住宿型長照機構評鑑自我檢核，涵蓋護理品質與環境安全查核項目。",
@@ -73,6 +67,30 @@ const DOWNLOADS: DownloadItem[] = [
     name: "精神護理之家",
     description: "115年度精神護理之家評鑑自我檢核表，共5大面向36條指標。",
     file: "psychiatric-nursing-home.xlsx",
+  },
+  {
+    slug: "youth-care",
+    name: "兒少教養機構",
+    description: "111年度兒童及少年安置及教養機構評鑑自我檢核表，含行政、環境、專業服務及權益保障。",
+    file: "youth-care.xlsx",
+  },
+  {
+    slug: "elderly-welfare",
+    name: "老人福利機構",
+    description: "115年度老人福利機構評鑑自我檢核表，涵蓋經營管理、專業照護與住民權益保障。",
+    file: "elderly-welfare.xlsx",
+  },
+  {
+    slug: "disability-welfare",
+    name: "身心障礙福利機構",
+    description: "身心障礙福利機構評鑑自我檢核表，含權益保障、個別化支持計畫與行政管理。",
+    file: "disability-welfare.xlsx",
+  },
+  {
+    slug: "infant-daycare",
+    name: "托嬰中心",
+    description: "114-116年度臺北市托嬰中心評鑑自我檢核表，共60項基準，含行政管理、托育活動、健康安全三大區塊。",
+    file: "infant-daycare.xlsx",
   },
 ];
 

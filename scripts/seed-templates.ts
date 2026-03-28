@@ -19,26 +19,28 @@ import { daycareProfile } from '../lib/ai/evaluation-profiles/daycare';
 import { homeCareProfile } from '../lib/ai/evaluation-profiles/home-care';
 import { nursingHomeProfile } from '../lib/ai/evaluation-profiles/nursing-home';
 import { hospitalProfile } from '../lib/ai/evaluation-profiles/hospital';
-import { disabilityProfile } from '../lib/ai/evaluation-profiles/disability';
+import { disabilityWelfareProfile } from '../lib/ai/evaluation-profiles/disability-welfare';
 import { babycareProfile } from '../lib/ai/evaluation-profiles/babycare';
 import { homeNursingProfile } from '../lib/ai/evaluation-profiles/home-nursing';
 import { generalNursingHomeProfile } from '../lib/ai/evaluation-profiles/general-nursing-home';
 import { youthCareProfile } from '../lib/ai/evaluation-profiles/youth-care';
 import { elderlyWelfareProfile } from '../lib/ai/evaluation-profiles/elderly-welfare';
 import { psychiatricNursingHomeProfile } from '../lib/ai/evaluation-profiles/psychiatric-nursing-home';
+import { infantDaycareProfile } from '../lib/ai/evaluation-profiles/infant-daycare';
 
 const profiles = [
   daycareProfile,
   homeCareProfile,
   nursingHomeProfile,
   hospitalProfile,
-  disabilityProfile,
+  disabilityWelfareProfile,
   babycareProfile,
   homeNursingProfile,
   generalNursingHomeProfile,
   youthCareProfile,
   elderlyWelfareProfile,
   psychiatricNursingHomeProfile,
+  infantDaycareProfile,
 ];
 
 type ProfileItem = {
@@ -74,6 +76,12 @@ async function main() {
     // Clear existing data — FK onDelete:cascade on templateTagReports handles join rows automatically
     await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, profile.id));
     await db.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
+
+    // Clean up legacy ID if this profile was renamed (e.g. 'disability' → 'disability-welfare')
+    if (profile.id === 'disability-welfare') {
+      await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, 'disability'));
+      await db.delete(templateTags).where(eq(templateTags.facilityType, 'disability'));
+    }
 
     // Collect all items across all sections, preserving order
     const allItems: ProfileItem[] = [];

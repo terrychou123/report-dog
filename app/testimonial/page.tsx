@@ -8,9 +8,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ChevronDownIcon } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "用戶評價｜39+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構",
+  title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
   description:
-    "39+ 位居家服務、日照中心、醫院、住宿型機構、身障機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家從業人員的真實評價。報告汪平均評分 4.9 顆星，追蹤功能、逾期提醒、AI 文書輔助廣獲 11 種機構類型長照與社福從業人員推薦。",
+    "42+ 位居家服務、日照中心、醫院、住宿型機構、身障機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心從業人員的真實評價。報告汪平均評分 4.9 顆星，追蹤功能、逾期提醒、AI 文書輔助廣獲 12 種機構類型長照與社福從業人員推薦。",
   keywords: [
     "報告汪評價",
     "長照文書管理推薦",
@@ -25,15 +25,15 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/testimonial" },
   openGraph: {
-    title: "用戶評價｜39+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構",
+    title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
     description:
-      "39+ 位長照與社福從業人員的真實評價，涵蓋 11 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
+      "42+ 位長照與社福從業人員的真實評價，涵蓋 12 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
     url: "https://reportwang.com/testimonial",
   },
   twitter: {
-    title: "用戶評價｜39+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構",
+    title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
     description:
-      "39+ 位長照與社福從業人員的真實評價，涵蓋 11 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
+      "42+ 位長照與社福從業人員的真實評價，涵蓋 12 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
   },
 };
 
@@ -45,11 +45,11 @@ const appJsonLd = JSON.stringify({
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
   offers: { "@type": "Offer", price: "0", priceCurrency: "TWD" },
-  description: "專為長照與社福機構設計的 AI 文書管理系統，支援居服、日照、醫院、護理之家、精神護理之家、兒少教養機構、老人福利機構等 11 種機構類型。",
+  description: "專為長照與社福機構設計的 AI 文書管理系統，支援居服、日照、醫院、護理之家、精神護理之家、兒少教養機構、老人福利機構、托嬰中心等 12 種機構類型。",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "39",
+    reviewCount: "42",
     bestRating: "5",
     worstRating: "1",
   },
@@ -93,6 +93,9 @@ const appJsonLd = JSON.stringify({
     { "@type": "Review", author: { "@type": "Person", "name": "黃主任（老人福利）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "報告汪的追蹤功能讓我管理 6 大區塊、77 項基準的文件更新情形，哪項文件逾期亮紅燈，再也不用評鑑前才臨時補件。" },
     { "@type": "Review", author: { "@type": "Person", "name": "黃護理長" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "精神護理之家評鑑要追蹤6項品質指標，以前每個月用Excel整理很費時。用報告汪之後，各指標的改善紀錄都在同一個系統裡，評鑑時委員要看什麼文件都能快速找到，省下很多時間。" },
     { "@type": "Review", author: { "@type": "Person", "name": "陳社工師" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "精神護理之家有很多精神衛生法的特殊規定，像是住民不假外出的處理程序。報告汪的AI分析會提醒這些精神護理特有的評鑑重點，讓我們準備評鑑時不會漏掉關鍵項目。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "林主任（托嬰）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "托嬰中心60項評鑑基準，行政管理、托育活動、健康安全三大區塊各建標籤後，每份文件都有對應評鑑項目，給藥委託單、食物樣品記錄、寶寶日誌通通管理好，評鑑委員那天文件零補件。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "吳托育人員" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "每天要記錄每位嬰幼兒的寶寶日誌，以前用紙本很花時間，現在用報告汪AI輔助，輸入觀察要點後AI自動整理格式，記錄時間省了將近一半，督導說紀錄品質比以前更完整。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "鄭行政人員（托嬰）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "托嬰中心的行政文書包含體檢紀錄、在職訓練時數、接送授權書等，以前每次評鑑前都要翻遍資料夾。現在用報告汪標籤分類，AI分析直接告知哪項文件不完整，評鑑準備時間少了超過三分之一。" },
   ],
 });
 
@@ -105,7 +108,7 @@ const faqJsonLd = JSON.stringify({
       name: "報告汪的用戶評價如何？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "報告汪目前收集了 39 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家等 11 種機構類型。追蹤功能的逾期提醒廣受督導與主任好評。",
+        text: "報告汪目前收集了 42 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心等 12 種機構類型。追蹤功能的逾期提醒廣受督導與主任好評。",
       },
     },
     {
@@ -113,7 +116,7 @@ const faqJsonLd = JSON.stringify({
       name: "哪些長照機構類型使用報告汪？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "報告汪目前支援 11 種機構類型：居家服務機構、日照中心（日間照顧中心）、醫院護理部、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家。各機構類型均有對應的評鑑範本可一鍵匯入。",
+        text: "報告汪目前支援 12 種機構類型：居家服務機構、日照中心（日間照顧中心）、醫院護理部、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心。各機構類型均有對應的評鑑範本可一鍵匯入。",
       },
     },
     {
@@ -129,7 +132,7 @@ const faqJsonLd = JSON.stringify({
       name: "報告汪如何幫助評鑑準備？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "報告汪提供三項評鑑備審功能：一、依評鑑基準建立標籤，讓每份文件對應正確的評鑑項目；二、AI 評鑑分析自動標示哪些基準文件不足，不需逐項手動比對；三、一鍵匯入各機構類型的評鑑範本，涵蓋 11 種機構類型，省去手動建立的時間。",
+        text: "報告汪提供三項評鑑備審功能：一、依評鑑基準建立標籤，讓每份文件對應正確的評鑑項目；二、AI 評鑑分析自動標示哪些基準文件不足，不需逐項手動比對；三、一鍵匯入各機構類型的評鑑範本，涵蓋 12 種機構類型，省去手動建立的時間。",
       },
     },
     {
@@ -156,18 +159,18 @@ export default function TestimonialPage() {
         <section className="flex flex-col items-center text-center py-20 px-6 bg-gradient-to-b from-background to-muted/30">
           <Badge variant="outline" className="mb-5 px-4 py-1.5 text-sm">用戶評價</Badge>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-            39+ 位長照從業人員<br className="hidden md:block" />
+            42+ 位長照從業人員<br className="hidden md:block" />
             <span className="text-primary">真實推薦報告汪</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mb-10">
-            居服機構、日照中心、醫院、護理之家、身障機構、產後護理之家、居家護理所、兒少教養機構、老人福利機構、精神護理之家——
-            11 種機構類型、各種職類的真實使用心得。
+            居服機構、日照中心、醫院、護理之家、身障機構、產後護理之家、居家護理所、兒少教養機構、老人福利機構、精神護理之家、托嬰中心——
+            12 種機構類型、各種職類的真實使用心得。
           </p>
           <div className="grid grid-cols-3 gap-8 max-w-md">
             {[
-              { value: "39+", label: "則用戶評價" },
+              { value: "42+", label: "則用戶評價" },
               { value: "4.9", label: "平均評分（滿分 5）" },
-              { value: "11", label: "種機構類型" },
+              { value: "12", label: "種機構類型" },
             ].map((s) => (
               <div key={s.label}>
                 <div className="text-3xl font-extrabold text-primary">{s.value}</div>
@@ -190,13 +193,14 @@ export default function TestimonialPage() {
                 { href: "#day-care", label: "🏢 日照中心" },
                 { href: "#hospital", label: "🏥 醫院" },
                 { href: "#residential", label: "🏡 住宿型機構" },
-                { href: "#disability", label: "♿ 身障機構" },
+                { href: "#disability-welfare", label: "♿ 身障機構" },
                 { href: "#babycare", label: "👶 產後護理之家" },
                 { href: "#home-nursing", label: "🩺 居家護理所" },
                 { href: "#general-nursing-home", label: "🏥 一般護理之家" },
                 { href: "#youth-care", label: "🏫 兒少教養機構" },
                 { href: "#elderly-welfare", label: "🏥 老人福利機構" },
                 { href: "#psychiatric-nursing-home", label: "🧠 精神護理之家" },
+                { href: "#infant-daycare", label: "🍼 托嬰中心" },
               ].map((item) => (
                 <a
                   key={item.href}
@@ -683,11 +687,11 @@ export default function TestimonialPage() {
         </section>
 
         {/* ─── 身障機構 ─── */}
-        <section id="disability" className="py-20 px-6 bg-muted/20">
+        <section id="disability-welfare" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
               <h2 className="text-2xl font-bold">♿ 身心障礙福利機構</h2>
-              <Link href="/disability" className="text-sm text-primary hover:underline">
+              <Link href="/disability-welfare" className="text-sm text-primary hover:underline">
                 了解身障機構方案 →
               </Link>
             </div>
@@ -1322,6 +1326,92 @@ export default function TestimonialPage() {
           </div>
         </section>
 
+        {/* ─── 托嬰中心 ─── */}
+        <section id="infant-daycare" className="py-20 px-6">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
+              <h2 className="text-2xl font-bold">🍼 托嬰中心</h2>
+              <Link href="/infant-daycare" className="text-sm text-primary hover:underline">
+                了解托嬰中心方案 →
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {/* 林主任 — 精選 */}
+              <Card className="border-primary/40 md:col-span-3">
+                <CardContent className="pt-6">
+                  <div className="flex items-start justify-between gap-3 flex-wrap">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200 shrink-0">林</div>
+                      <div>
+                        <div className="text-sm font-medium">林主任</div>
+                        <div className="text-xs text-muted-foreground mt-0.5">臺北市托嬰中心・負責人</div>
+                      </div>
+                    </div>
+                    <Badge variant="secondary">精選評價</Badge>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    托嬰中心評鑑 60 項基準分散在行政管理、托育活動、健康安全三大區塊，以前每次評鑑準備都要翻遍資料夾，給藥委託單、食物樣品記錄、廚工體檢等各種文件東一份西一份。
+                    <br /><br />
+                    用<span className="text-foreground font-medium">報告汪</span>依三大區塊建立標籤後，每份文件都有對應的評鑑項目。<span className="text-foreground font-medium">AI 評鑑分析</span>直接告知哪一項基準的文件不完整，評鑑委員那天所有文件三秒就找到，我們是今年臺北市托嬰中心評鑑中<span className="text-foreground font-medium">文件零補件</span>的機構。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["托嬰中心評鑑備審", "60項評鑑基準", "給藥委託單管理", "托嬰中心文書管理"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* 吳托育人員 */}
+              <Card className="md:col-span-2">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 shrink-0">吳</div>
+                    <div>
+                      <div className="text-sm font-medium">吳托育人員</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">臺北市托嬰中心・資深托育人員</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    每天要記錄 8 位嬰幼兒的寶寶日誌，包含飲食、睡眠、發展觀察、情緒表現等，以前用紙本格式很耗時，而且容易寫得很籠統。
+                    <br /><br />
+                    現在用<span className="text-foreground font-medium">報告汪 AI 輔助</span>，輸入今天的觀察要點後，AI 自動整理成完整格式，每位寶寶的紀錄都更詳細，督導說品質比以前好很多，我花的時間卻只有以前的<span className="text-foreground font-medium">一半</span>。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["寶寶日誌", "嬰幼兒發展紀錄", "AI輔助撰寫", "托育活動紀錄"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* 鄭行政人員 */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 shrink-0">鄭</div>
+                    <div>
+                      <div className="text-sm font-medium">鄭行政人員</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">臺北市托嬰中心・行政人員</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    托嬰中心行政文書超多，從體檢紀錄、在職訓練時數、接送授權書到性騷擾防治公告，以前每項都要分開管理。報告汪的<span className="text-foreground font-medium">標籤分類</span>讓文件一目了然，評鑑準備時間少了超過三分之一。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["行政管理文書", "體檢紀錄管理", "在職訓練記錄", "托嬰中心行政"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* Summary Stats */}
         <section className="py-20 px-6 bg-primary text-primary-foreground">
           <div className="max-w-4xl mx-auto text-center">
@@ -1331,9 +1421,9 @@ export default function TestimonialPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-12">長照從業人員普遍推薦報告汪</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { value: "39+", label: "則真實用戶評價" },
+                { value: "42+", label: "則真實用戶評價" },
                 { value: "4.9", label: "顆星平均評分" },
-                { value: "11", label: "種機構類型覆蓋" },
+                { value: "12", label: "種機構類型覆蓋" },
                 { value: "15+", label: "種職類使用者" },
               ].map((s) => (
                 <div key={s.label} className="bg-primary-foreground/10 rounded-xl py-6 px-4">
@@ -1357,11 +1447,11 @@ export default function TestimonialPage() {
               {[
                 {
                   q: "報告汪的用戶評價如何？",
-                  a: "報告汪目前收集了 39 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家等 11 種機構類型。",
+                  a: "報告汪目前收集了 42 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心等 12 種機構類型。",
                 },
                 {
                   q: "哪些長照機構類型使用報告汪？",
-                  a: "報告汪目前支援 11 種機構類型：居家服務機構、日照中心（日間照顧中心）、醫院護理部、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家。各機構類型均有對應的評鑑範本可一鍵匯入。",
+                  a: "報告汪目前支援 12 種機構類型：居家服務機構、日照中心（日間照顧中心）、醫院護理部、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心。各機構類型均有對應的評鑑範本可一鍵匯入。",
                 },
                 {
                   q: "報告汪適合哪些職類使用？",
@@ -1369,7 +1459,7 @@ export default function TestimonialPage() {
                 },
                 {
                   q: "報告汪如何幫助評鑑準備？",
-                  a: "報告汪提供三項評鑑備審功能：一、依評鑑基準建立標籤，讓每份文件對應正確的評鑑項目；二、AI 評鑑分析自動標示哪些基準文件不足，不需逐項手動比對；三、一鍵匯入各機構類型的評鑑範本，涵蓋 11 種機構類型，省去手動建立的時間。",
+                  a: "報告汪提供三項評鑑備審功能：一、依評鑑基準建立標籤，讓每份文件對應正確的評鑑項目；二、AI 評鑑分析自動標示哪些基準文件不足，不需逐項手動比對；三、一鍵匯入各機構類型的評鑑範本，涵蓋 12 種機構類型，省去手動建立的時間。",
                 },
                 {
                   q: "報告汪目前收費嗎？",
@@ -1377,7 +1467,7 @@ export default function TestimonialPage() {
                 },
               ].map((item) => (
                 <details key={item.q} className="group border rounded-lg bg-background">
-                  <summary className="flex items-center justify-between px-5 py-4 cursor-pointer font-medium">
+                  <summary className="flex items-center justify-between px-5 py-4 cursor-pointer font-medium list-none">
                     {item.q}
                     <ChevronDownIcon className="h-4 w-4 text-muted-foreground group-open:rotate-180 transition-transform shrink-0" />
                   </summary>
@@ -1394,7 +1484,7 @@ export default function TestimonialPage() {
         <section className="py-24 px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">準備好加入他們了嗎？</h2>
           <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
-            免費開始使用報告汪，加入 39+ 位長照從業人員的行列。
+            免費開始使用報告汪，加入 42+ 位長照從業人員的行列。
           </p>
           <StartButton>免費開始使用</StartButton>
         </section>

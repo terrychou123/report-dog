@@ -3,6 +3,8 @@ import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
+export const revalidate = 86400;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   let publishedPosts: { slug: string; updatedAt: Date | null }[] = [];
   try {
@@ -32,7 +34,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/hospital", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/residential", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/day-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/disability", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/disability-welfare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/babycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/home-nursing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/general-nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
@@ -156,6 +158,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/youth-care/innovation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/professional", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+
+    // 托嬰中心
+    { url: "https://reportwang.com/infant-daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/infant-daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/infant-daycare/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/infant-daycare/childcare-activities", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/infant-daycare/health-safety", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     ...blogEntries,
   ];

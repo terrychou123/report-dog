@@ -6,7 +6,6 @@ import type { SupplementarySheetDef, SupplementaryDefsMap } from '../supplementa
 import { daycareDefs } from './daycare';
 import { homeNursingDefs } from './home-nursing';
 import { babycareDefs } from './babycare';
-import { disabilityDefs } from './disability';
 import { homeCareDefs } from './home-care';
 import { generalNursingHomeDefs } from './general-nursing-home';
 import { nursingHomeDefs } from './nursing-home';
@@ -14,12 +13,13 @@ import { hospitalDefs } from './hospital';
 import { youthCareDefs } from './youth-care';
 import { elderlyWelfareDefs } from './elderly-welfare';
 import { psychiatricNursingHomeDefs } from './psychiatric-nursing-home';
+import { disabilityWelfareDefs } from './disability-welfare';
+import { infantDaycareDefs } from './infant-daycare';
 
 const registry: Record<string, SupplementaryDefsMap> = {
   daycare: daycareDefs,
   'home-nursing': homeNursingDefs,
   babycare: babycareDefs,
-  disability: disabilityDefs,
   'home-care': homeCareDefs,
   'general-nursing-home': generalNursingHomeDefs,
   'nursing-home': nursingHomeDefs,
@@ -27,6 +27,8 @@ const registry: Record<string, SupplementaryDefsMap> = {
   'youth-care': youthCareDefs,
   'elderly-welfare': elderlyWelfareDefs,
   'psychiatric-nursing-home': psychiatricNursingHomeDefs,
+  'disability-welfare': disabilityWelfareDefs,
+  'infant-daycare': infantDaycareDefs,
 };
 
 /**

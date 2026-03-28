@@ -13,6 +13,12 @@ const nextConfig: NextConfig = {
   reactStrictMode: false,
   cacheComponents: true,
   serverExternalPackages: ['mammoth', 'pdf-parse', 'html-to-docx'],
+  async redirects() {
+    return [
+      { source: '/disability', destination: '/disability-welfare', permanent: true },
+      { source: '/downloads/disability.xlsx', destination: '/downloads/disability-welfare.xlsx', permanent: true },
+    ];
+  },
   async headers() {
     return [
       {

@@ -21,7 +21,10 @@ npm run db:studio            # Open Drizzle Studio
 npm run db:seed-templates    # Seed evaluation templates
 
 # Scripts
-npm run generate:disability-checklist   # Generate disability checklist Excel
+npm run generate:disability-welfare-checklist  # Generate disability-welfare checklist Excel
+npm run generate:infant-daycare-checklist      # Generate infant-daycare checklist Excel
+npm run generate:youth-care-checklist          # Generate youth-care checklist Excel
+npm run generate:elderly-welfare-checklist     # Generate elderly-welfare checklist Excel
 ```
 
 No test framework is configured in this project.
@@ -81,7 +84,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 - `lib/ai/openrouter-client.ts` — OpenAI SDK client via OpenRouter (`anthropic/claude-sonnet-4.6`)
 - `lib/ai/usage-limit.ts` — Free tier: 1 AI call per user per UTC day (enforced via `ai_usage` table)
-- `lib/ai/evaluation-profiles/` — 10 facility-type profiles with structured evaluation criteria for AI system prompts: `daycare`, `home-care`, `nursing-home`, `hospital`, `disability`, `babycare`, `home-nursing`, `general-nursing-home`, `youth-care`, `elderly-welfare`
+- `lib/ai/evaluation-profiles/` — 12 facility-type profiles with structured evaluation criteria for AI system prompts: `daycare`, `home-care`, `nursing-home`, `hospital`, `disability-welfare`, `babycare`, `home-nursing`, `general-nursing-home`, `youth-care`, `elderly-welfare`, `psychiatric-nursing-home`, `infant-daycare`
 
 **Three AI endpoints:**
 1. `/api/reports/[id]/ai` — Report paragraph editing with extended thinking (streaming)
@@ -95,8 +98,8 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 - `/pricing`, `/testimonial`, `/downloads`, `/onboarding`
 - `/blog`, `/blog/[slug]`, `/blog/[slug]/edit`, `/blog-admin`
 - `/docs/*` — Help center (12 pages: getting-started, create-report, ai-editing, etc.)
-- `/school/*` — Evaluation learning content for 9 facility types with sub-pages each
-- Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability`, `/babycare`, `/general-nursing-home`
+- `/school/*` — Evaluation learning content for 12 facility types with sub-pages each
+- Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`
 
 **Auth pages:** `/auth/login`, `/auth/sign-up`, `/auth/forgot-password`, `/auth/update-password`, `/auth/callback`, `/auth/confirm`, `/auth/error`
 

@@ -8,8 +8,11 @@
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
-    "generate:disability-checklist": "tsx scripts/generate-disability-checklist.ts",
     "generate:psychiatric-nursing-home-checklist": "tsx scripts/generate-psychiatric-nursing-home-checklist.ts",
+    "generate:youth-care-checklist": "tsx scripts/generate-youth-care-checklist.ts",
+    "generate:elderly-welfare-checklist": "tsx scripts/generate-elderly-welfare-checklist.ts",
+    "generate:disability-welfare-checklist": "tsx scripts/generate-disability-welfare-checklist.ts",
+    "generate:infant-daycare-checklist": "tsx scripts/generate-infant-daycare-checklist.ts",
     "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts"
   },
   "dependencies": {

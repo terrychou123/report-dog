@@ -25,7 +25,11 @@ const navLinks: NavLink[] = [
   { href: "/admin/general-nursing-home", label: "一般護理之家", short: "一般", icon: BuildingIcon },
   { href: "/admin/babycare",            label: "產後護理之家", short: "產後", icon: BuildingIcon },
   { href: "/admin/hospital",            label: "醫院評鑑",     short: "醫院", icon: BuildingIcon },
-  { href: "/admin/disability",          label: "身心障礙福利機構", short: "身障", icon: BuildingIcon },
+  { href: "/admin/disability-welfare",   label: "身心障礙福利機構", short: "身障", icon: BuildingIcon },
+  { href: "/admin/youth-care",           label: "兒少教養機構",     short: "兒少", icon: BuildingIcon },
+  { href: "/admin/elderly-welfare",      label: "老人福利機構",     short: "老福", icon: BuildingIcon },
+  { href: "/admin/psychiatric-nursing-home", label: "精神護理之家", short: "精護", icon: BuildingIcon },
+  { href: "/admin/infant-daycare",       label: "托嬰中心",         short: "托嬰", icon: BuildingIcon },
 ];
 
 const STORAGE_KEY = "admin-sidebar-collapsed";
