@@ -178,7 +178,22 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="max-w-3xl">
               <div
                 className="blog-content"
-                dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.content) }}
+                dangerouslySetInnerHTML={{
+                  __html: sanitizeHtml(post.content, {
+                    allowedTags: sanitizeHtml.defaults.allowedTags.concat([
+                      "img",
+                      "figure",
+                      "figcaption",
+                    ]),
+                    allowedAttributes: {
+                      ...sanitizeHtml.defaults.allowedAttributes,
+                      img: ["src", "alt", "style", "width", "height"],
+                      figure: ["style"],
+                      figcaption: ["style"],
+                    },
+                    allowProtocolRelative: true,
+                  }),
+                }}
               />
             </div>
           )}
