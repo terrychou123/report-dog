@@ -3,7 +3,7 @@ name: daycare-evaluation
 description: |
   日照中心評鑑大師：協助建立和維護 /school/daycare 評鑑小教室的內容。
   當使用者要新增或修改日間照顧機構評鑑相關教學頁面時觸發。
-  包含 113 年度臺北市評鑑基準知識（43 項）、頁面模板與 SEO 指引。
+  包含 115 年度臺北市評鑑基準知識（43 正式項 + 2 加分題）、頁面模板與 SEO 指引。
 metadata:
   filePattern:
     - "app/school/daycare/**"
@@ -22,11 +22,11 @@ allowed-tools:
 
 ## 評鑑基準知識
 
-### 日間照顧機構（113 年度臺北市政府社會局）
+### 日間照顧機構（115 年度臺北市政府社會局法定評鑑基準）
 
 來源檔案：`lib/ai/evaluation-profiles/daycare.ts`
 
-**4 大區塊 43 項目：**
+**4 大區塊 43 正式項目 + 伍、加分題 2 項：**
 
 | 區塊 | 項目範圍 | 頁面路徑 | 主色 |
 |------|---------|---------|------|
@@ -34,12 +34,20 @@ allowed-tools:
 | 貳、專業照護品質 | 5–22 | /school/daycare/professional-quality | green-500 |
 | 參、經營管理效能 | 23–37 | /school/daycare/management | orange-500 |
 | 肆、安全環境設備 | 38–43 | /school/daycare/safety-environment | teal-500 |
+| 伍、加分題 | 44–45 | 顯示於總覽頁 | yellow-500 |
 
 **sections 陣列索引：**
 - `sections[0]` — 壹、個案權益保障（shortCode: "權"）
 - `sections[1]` — 貳、專業照護品質（shortCode: "專"）
 - `sections[2]` — 參、經營管理效能（shortCode: "管"）
 - `sections[3]` — 肆、安全環境設備（shortCode: "安"）
+- `sections[4]` — 伍、加分題（shortCode: "加"，不對應獨立子頁）
+
+**115年度新特色：**
+- 貳、專業照護品質含 3 子分類：（一）評估與處遇（5-10）、（二）健康生活照顧（11-21）、（三）品質監測（22）
+- 參、經營管理效能含 4 子分類：（一）行政制度（23-27）、（二）服務人員管理（28-33）、（三）財務管理（34）、（四）緊急事件管理（35-37）
+- 肆、安全環境設備含子分類：（一）硬體環境設施（38-43）
+- 評分採 A-E 五等制（部分項目為 A-B-E 三等或特殊計分）
 
 ---
 
@@ -104,7 +112,7 @@ const jsonLd = educationalContentJsonLd({
 
 每頁必須確認：
 - [ ] `metadata.title` 含「日間照顧」或「日照」+ 區塊名
-- [ ] `metadata.keywords` 含地區變體：「臺北市日照評鑑」「日間照顧中心評鑑基準」「113年度評鑑」
+- [ ] `metadata.keywords` 含地區變體：「臺北市日照評鑑」「日間照顧中心評鑑基準」「115年度評鑑」
 - [ ] `alternates.canonical` 設定正確 URL（`https://reportwang.com/school/daycare/SLUG`）
 - [ ] `educationalContentJsonLd()` 已加入每頁
 - [ ] openGraph 完整（title、description、url）

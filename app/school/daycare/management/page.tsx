@@ -9,100 +9,109 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 export const metadata: Metadata = {
   title: "參、經營管理效能（項目 23–37）｜日間照顧機構評鑑",
   description:
-    "日間照顧機構評鑑「經營管理效能」15 項評鑑基準詳細說明：機構行政管理、人員配置資格訓練、財務收費管理、感染管制、委外服務、危機管理、品質監測與機構自評，含準備要訣。",
+    "115 年度日間照顧機構評鑑「經營管理效能」15 項評鑑基準詳細說明：業務計畫、工作手冊、人力設置、服務人員訓練、留任率、財務管理、緊急事件處理與性騷擾防治機制，含準備要訣。",
   keywords: [
     "日照中心經營管理評鑑",
     "日間照顧人員配置評鑑",
     "日照機構財務管理評鑑",
-    "日照感染管制評鑑",
+    "日照服務人員留任率",
+    "日照緊急事件處理評鑑",
     "臺北市日照評鑑管理效能",
-    "113年度日間照顧評鑑",
+    "115年度日間照顧評鑑",
   ],
   alternates: { canonical: "https://reportwang.com/school/daycare/management" },
   openGraph: {
     title: "參、經營管理效能（項目 23–37）｜日間照顧評鑑｜報告汪",
-    description: "日間照顧機構評鑑經營管理效能 15 項基準詳細說明與準備要訣。",
+    description: "115 年度日間照顧機構評鑑經營管理效能 15 項基準詳細說明與準備要訣。",
     url: "https://reportwang.com/school/daycare/management",
   },
 };
 
 const section = daycareProfile.sections.find((s) => s.shortCode === "管")!;
 
+// 子分類定義（對應 115 年度基準書結構）
+const subCategories = [
+  { label: "（一）行政制度", ids: [23, 24, 25, 26, 27] },
+  { label: "（二）服務人員管理", ids: [28, 29, 30, 31, 32, 33] },
+  { label: "（三）財務管理", ids: [34] },
+  { label: "（四）緊急事件管理", ids: [35, 36, 37] },
+];
+
 const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
   23: {
     content:
-      "組織章程及各項行政管理規定要分類整理，建議製作索引清單，方便評鑑委員快速查找。行政會議記錄需有主席簽名，並顯示實際討論議題，不能只記錄「宣達事項」。",
+      "年度業務計畫需在年初完成並有主管核定，計畫內容要具體可執行（如收案人數目標、活動辦理場次、訓練時數）。評鑑時會對照計畫與實際執行記錄，計畫與執行落差大需有書面說明原因，建議每季進行執行進度自我檢視。",
     variant: "info",
   },
   24: {
     content:
-      "日照中心依規定須配置主任（社工師/社工員）、護理師、照服員等人員，人數比例以核定收案人數計算。若有缺額，須有招募中的書面佐證，不能只口頭說明。",
-    variant: "warning",
+      "工作手冊需涵蓋主要業務流程（如收案程序、照護紀錄規範、緊急處理 SOP），且需定期更新（建議每年檢視一次）。評鑑委員關注手冊是否為員工實際使用，而非只是備查存放，建議在新進人員訓練中使用工作手冊並留下記錄。",
+    variant: "info",
   },
   25: {
     content:
-      "資格證書影本建檔時注意是否在有效期限內（如急救證照每 3 年更新）。建議製作人員資格到期追蹤表，以利提前安排續訓。外籍照服員需確認工作許可及照服員訓練資格。",
-    variant: "warning",
+      "行政會議（如主管會議、工作人員會議）需定期召開（建議每月至少一次）並有完整會議記錄，記錄需包含議題、討論內容、決議事項及追蹤狀態。評鑑委員關注會議是否有實質討論機構服務品質議題，而非僅做行政宣達。",
+    variant: "neutral",
   },
   26: {
     content:
-      "年度教育訓練計畫需在年初制定，訓練課程要涵蓋長照法規、照護技術、緊急處理等面向。若有臨時辦理的訓練課程，需補充至計畫記錄，確保計畫與實際執行相符。",
-    variant: "info",
+      "器材（輪椅、助行器、電動床等）需有個別維護記錄卡，記載購入日期、保養週期、維修歷程。損壞器材需即時停用並標示，修繕完成前需有替代方案。評鑑委員會現場確認器材功能是否正常及維護記錄是否與實際狀況相符。",
+    variant: "neutral",
   },
   27: {
     content:
-      "考核標準要具體量化，如「照護紀錄完整率」「準時到班率」等，避免純主觀評分。考核結果告知建議採書面方式，並附改善建議，以利人員有所依循。",
-    variant: "neutral",
+      "115 年度新增項目：評鑑委員會對照上次評鑑建議事項，確認機構是否已具體改善並有執行記錄。建議在收到上次評鑑報告後即建立改善追蹤表，列出每項建議的負責人、預計完成日期及實際執行結果，作為本次評鑑的重要佐證。",
+    variant: "warning",
   },
   28: {
     content:
-      "財務帳冊需讓評鑑委員可查閱，即使不對外公開也須備齊。帳冊與憑證建議統一編號對應，方便追蹤查核。若為非營利法人需依規定辦理財務公開及申報。",
-    variant: "neutral",
+      "人力配置需符合日照服務設置標準（依核定收案人數計算護理師、社工、照服員比例）。若有缺額，需有招募中的書面佐證（如職缺公告、面試記錄）。外籍照服員需確認工作許可及照服員訓練資格，若有人員兼任情形需說明符合規定的依據。",
+    variant: "warning",
   },
   29: {
     content:
-      "收費標準的「公開」要具體體現在服務合約、DM 及公告欄中。退費爭議即使最後無退費，也需有書面記錄（含個案或家屬確認簽名），以備查驗。",
+      "年度教育訓練計畫需在年初制定，涵蓋長照法規、照護技術、緊急處理、感染管制等面向（每人每年至少 20 小時）。臨時加辦的訓練也需補充至計畫記錄。評鑑抽查訓練簽到表及課程資料，確認計畫與實際執行相符。",
     variant: "info",
   },
   30: {
     content:
-      "資訊系統帳號權限管控需有明確記錄（如人員帳號清單及權限等級）。政府資訊申報（如照管中心個案資料、評鑑資料）需有申報時間及確認記錄。",
-    variant: "info",
+      "留任率計算公式：（年底在職人數 ÷ 年初在職人數）× 100%，計算期間為評鑑前一年度。若留任率偏低（低於 60%），需提供書面說明原因（如人員自行離職、自然退休），並說明機構已採取的留任措施。",
+    variant: "warning",
   },
   31: {
     content:
-      "照護物料（尿布、手套、口罩等）的庫存記錄建議包含入庫、使用及結存，以利評鑑委員確認物料充足。儲存環境需符合食品或衛材的相關衛生規定。",
-    variant: "neutral",
+      "業務負責人（主任）需具備社工師或社工員資格，並有在職訓練記錄。若有臨時代理主任情形，需說明代理期間及資格符合情形。評鑑委員關注主任是否實際在機構主持業務，而非掛名登記。",
+    variant: "info",
   },
   32: {
     content:
-      "感染管制 SOP 要包含洗手五時機、個人防護裝備穿脫流程、環境清消頻率。感染事件通報不限傳染病，跌倒傷口感染、腸胃道症狀群聚等也應納入通報機制。",
+      "服務人員年度健康檢查記錄需備齊，項目需包含胸部 X 光（結核病篩檢）。若有人員未完成檢查，需有說明原因及後續安排。廚房工作人員另需有食品從業人員健康證明（A 型肝炎及傷寒檢驗）。",
     variant: "warning",
   },
   33: {
     content:
-      "委外服務契約需明確規範服務品質標準及查核機制。定期查核紀錄需顯示實際查核結果，不能只有「查核完畢」字樣，發現問題需有改善要求及追蹤記錄。",
+      "服務人員疫苗注射記錄（如流感疫苗、COVID-19 疫苗）需備齊。若有人員未接種，需有說明原因（如醫療禁忌）。115 年度要求機構主動提供或協助安排員工接種，並留有集體接種或自行接種的記錄彙整。",
     variant: "info",
   },
   34: {
     content:
-      "危機應變計畫要針對日照中心的特定風險設計：火災（含老人疏散程序）、地震（桌下避難、撤離動線）、停電（緊急照明、設備備援）。演練記錄需包含事後檢討與改善事項。",
-    variant: "warning",
+      "財務帳冊需備齊供評鑑委員查閱，帳冊與憑證需統一編號對應。收費標準需在服務合約、DM 及公告欄中公開。若為非營利法人需依規定辦理財務公開及主管機關申報。退費爭議即使最終無退費，也需有書面記錄含家屬確認簽名。",
+    variant: "neutral",
   },
   35: {
     content:
-      "品質指標建議至少包含：跌倒發生率、感染事件率、個案滿意度、服務量達成率。每季彙整數據並與上季比較，若指標惡化需有書面分析原因及改善行動計畫。",
-    variant: "info",
+      "意外事件（跌倒、燙傷、噎食等）及緊急事件（急症、走失）均需有 SOP，且需有實際演練記錄（每年至少一次）。事件發生後需有書面事件報告（含原因分析及改善措施），並在期限內通報主管機關。評鑑委員會抽查特定事件的完整紀錄。",
+    variant: "warning",
   },
   36: {
     content:
-      "滿意度調查需確保匿名性（密封回收或線上表單），發放對象應包含個案（依認知功能調整問卷）及家屬。分析報告需有改善措施欄位，追蹤期限需明確。",
-    variant: "info",
+      "急救箱需備有完整急救物品（含 AED 或確認設置位置），所有物品需在有效期限內。每月定期清點並有記錄（含清點人員簽名）。員工急救訓練證照（CPR + AED）需在有效期限內，建議製作到期追蹤表提前安排複訓。",
+    variant: "warning",
   },
   37: {
     content:
-      "機構自評建議在評鑑前 3 個月完成，讓發現的問題有時間改善並留下執行記錄。自評報告需有主管簽章，若有董事會需提交討論，並保存會議記錄。",
-    variant: "neutral",
+      "115 年度新增項目：機構需有性騷擾防治相關書面規定及申訴管道，且需有年度員工教育訓練記錄（包含認識性騷擾、申訴流程等內容）。評鑑委員會確認規定是否已讓全體員工知悉（如發給員工手冊、訓練簽到表），並確認申訴管道是否運作。",
+    variant: "warning",
   },
 };
 
@@ -110,7 +119,7 @@ const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
   name: "參、經營管理效能（日間照顧機構評鑑基準項目 23–37）",
   description:
-    "日間照顧機構評鑑基準「經營管理效能」15 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "115 年度日間照顧機構評鑑基準「經營管理效能」15 個評鑑項目詳細說明、準備要訣與實用提示。",
   path: "/school/daycare/management",
 });
 
@@ -122,77 +131,99 @@ export default function DaycareManagementPage() {
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
 
-      {/* Header */}
+      {/* 頁首 */}
       <div className="mb-6">
         <Badge className="mb-3 bg-orange-500/10 text-orange-600 dark:text-orange-400 border-0 hover:bg-orange-500/20">
           參、經營管理效能
         </Badge>
         <h1 className="text-2xl font-bold mb-3">經營管理效能（項目 23–37）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 15 個評鑑項目，涵蓋日照中心的整體管理能力，從行政制度、人員管理、財務紀律到品質監測體系。
+          本區塊共 15 個評鑑項目，分為四個子分類：行政制度、服務人員管理、財務管理與緊急事件管理。
+          115 年度新增「前次評鑑建議改善情形」及「機構性騷擾防治機制」兩個項目，
           主管和行政人員的備戰程度通常決定了這個區塊的得分高低。
         </p>
       </div>
 
-      {/* Mini TOC */}
+      {/* 目錄 */}
       <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
         <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
           本頁內容
         </p>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1">
-          {section.items.map((item) => (
-            <li key={item.id}>
-              <a
-                href={`#item-${item.id}`}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
-              >
-                <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
-                  {item.id}
-                </span>
-                {item.title}
-              </a>
-            </li>
+        <div className="space-y-3">
+          {subCategories.map((cat) => (
+            <div key={cat.label}>
+              <p className="text-xs font-medium text-muted-foreground mb-1">{cat.label}</p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 pl-2">
+                {section.items
+                  .filter((item) => cat.ids.includes(item.id))
+                  .map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#item-${item.id}`}
+                        className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+                      >
+                        <span className="w-5 h-5 rounded-full bg-background border flex items-center justify-center text-xs font-mono">
+                          {item.id}
+                        </span>
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       </nav>
 
-      {/* Items */}
-      <div className="space-y-12">
-        {section.items.map((item) => (
-          <section key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
-            <div className="flex flex-wrap items-center gap-2 mb-3">
-              <span className="w-8 h-8 rounded-full bg-orange-500/10 flex items-center justify-center text-sm font-bold text-orange-600 dark:text-orange-400 font-mono">
-                {item.id}
-              </span>
-              <h2 className="text-lg font-bold">{item.title}</h2>
-              <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
-              <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
-            </div>
+      {/* 評鑑項目列表（依子分類呈現） */}
+      <div className="space-y-16">
+        {subCategories.map((cat) => (
+          <div key={cat.label}>
+            {/* 子分類標題 */}
+            <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6 pb-2 border-b">
+              {cat.label}
+            </h2>
+            <div className="space-y-12">
+              {section.items
+                .filter((item) => cat.ids.includes(item.id))
+                .map((item) => (
+                  <section key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
+                    <div className="flex flex-wrap items-center gap-2 mb-3">
+                      <span className="w-8 h-8 rounded-full bg-orange-500/10 flex items-center justify-center text-sm font-bold text-orange-600 dark:text-orange-400 font-mono">
+                        {item.id}
+                      </span>
+                      <h3 className="text-lg font-bold">{item.title}</h3>
+                      <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+                      <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
+                    </div>
 
-            <div className="mb-4">
-              <h3 className="text-sm font-semibold mb-2">評鑑標準</h3>
-              <ol className="space-y-1.5 list-none pl-0">
-                {item.criteria.map((criterion, i) => (
-                  <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
-                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
-                      {i + 1}
-                    </span>
-                    {criterion}
-                  </li>
+                    <div className="mb-4">
+                      <p className="text-sm font-semibold mb-2">評鑑標準</p>
+                      <ol className="space-y-1.5 list-none pl-0">
+                        {item.criteria.map((criterion, i) => (
+                          <li key={i} className="flex gap-2.5 text-sm text-muted-foreground">
+                            <span className="shrink-0 mt-0.5 w-5 h-5 rounded bg-muted flex items-center justify-center text-xs font-mono text-foreground">
+                              {i + 1}
+                            </span>
+                            {criterion}
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+
+                    {tips[item.id] && (
+                      <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
+                        {tips[item.id].content}
+                      </DocsTip>
+                    )}
+                  </section>
                 ))}
-              </ol>
             </div>
-
-            {tips[item.id] && (
-              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
-                {tips[item.id].content}
-              </DocsTip>
-            )}
-          </section>
+          </div>
         ))}
       </div>
 
-      {/* Prev / Next navigation */}
+      {/* 上下頁導航 */}
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/daycare/professional-quality"

@@ -13,6 +13,7 @@
     "generate:elderly-welfare-checklist": "tsx scripts/generate-elderly-welfare-checklist.ts",
     "generate:disability-welfare-checklist": "tsx scripts/generate-disability-welfare-checklist.ts",
     "generate:infant-daycare-checklist": "tsx scripts/generate-infant-daycare-checklist.ts",
+    "generate:daycare-checklist": "tsx scripts/generate-daycare-checklist.ts",
     "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts"
   },
   "dependencies": {

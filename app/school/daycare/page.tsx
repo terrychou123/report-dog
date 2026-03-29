@@ -10,28 +10,31 @@ import {
   ShieldIcon,
   ArrowRightIcon,
   DownloadIcon,
+  StarIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "日間照顧機構評鑑基準總覽",
   description:
-    "113 年度臺北市政府社會局日間照顧機構評鑑基準完整說明，共 43 項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與安全環境設備。",
+    "115 年度臺北市政府社會局日間照顧機構法定評鑑基準完整說明，共 43 正式項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與安全環境設備，另含 2 項加分題。",
   keywords: [
     "日間照顧機構評鑑基準",
     "日照中心評鑑",
     "日間照顧評鑑準備",
     "臺北市日照評鑑",
     "日間照顧中心評鑑基準",
-    "113年度評鑑",
+    "115年度評鑑",
+    "日照評鑑指標",
   ],
   alternates: { canonical: "https://reportwang.com/school/daycare" },
   openGraph: {
     title: "日間照顧機構評鑑基準總覽｜評鑑小教室｜報告汪",
-    description: "43 項日間照顧機構評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    description: "43 項日間照顧機構法定評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
     url: "https://reportwang.com/school/daycare",
   },
 };
 
+// 四大正式區塊設定
 const sectionMeta = [
   {
     href: "/school/daycare/client-rights",
@@ -71,11 +74,14 @@ const sectionMeta = [
   },
 ];
 
+// 取得加分題區塊
+const bonusSection = daycareProfile.sections.find((s) => s.shortCode === "加");
+
 const jsonLd = educationalContentJsonLd({
   type: "Course",
   name: "日間照顧機構評鑑基準",
   description:
-    "113 年度臺北市政府社會局日間照顧機構評鑑基準，共 43 項目、4 大區塊完整解說。",
+    "115 年度臺北市政府社會局日間照顧機構法定評鑑基準，共 43 正式項目、4 大區塊完整解說。",
   path: "/school/daycare",
   hasPart: [
     {
@@ -105,17 +111,17 @@ export default function DaycarePage() {
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
 
-      {/* Header */}
+      {/* 頁首 */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">日間照顧機構</Badge>
         <h1 className="text-2xl font-bold mb-3">日間照顧機構評鑑基準總覽</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          以下為 113 年度臺北市政府社會局日間照顧機構評鑑基準，共 43 個評鑑項目，分為 4 大區塊。
+          以下為 115 年度臺北市政府社會局日間照顧機構法定評鑑基準，共 43 個評鑑項目，分為 4 大區塊，另含 2 項加分題。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
       </div>
 
-      {/* Section cards */}
+      {/* 四大區塊卡片 */}
       <div className="grid gap-4 sm:grid-cols-2 mb-10">
         {sectionMeta.map((sec) => {
           const section = daycareProfile.sections.find((s) => s.shortCode === sec.shortCode);
@@ -158,48 +164,79 @@ export default function DaycarePage() {
         })}
       </div>
 
-      {/* Full item list */}
-      <div>
-        <h2 className="text-lg font-semibold mb-4">全部 43 項評鑑項目</h2>
+      {/* 全部 43 項正式評鑑項目 */}
+      <div className="mb-8">
+        <h2 className="text-lg font-semibold mb-4">全部 43 項正式評鑑項目</h2>
         <div className="space-y-6">
-          {daycareProfile.sections.map((section) => {
-            const slug = sectionMeta.find((s) => s.shortCode === section.shortCode)?.href.split("/").at(-1);
-            if (!slug) return null;
-            return (
-              <div key={section.shortCode}>
-                <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
-                  {section.name}
-                </h3>
-                <div className="space-y-1">
-                  {section.items.map((item) => (
-                    <Link
-                      key={item.id}
-                      href={`/school/daycare/${slug}#item-${item.id}`}
-                      className="flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors group"
-                    >
-                      <span className="shrink-0 w-7 h-7 rounded-full bg-muted flex items-center justify-center text-xs font-mono font-semibold text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
-                        {item.id}
-                      </span>
-                      <span className="text-sm group-hover:text-primary transition-colors">
-                        {item.title}
-                      </span>
-                      <Badge variant="outline" className="ml-auto text-xs shrink-0">
-                        {item.responsible}
-                      </Badge>
-                    </Link>
-                  ))}
+          {daycareProfile.sections
+            .filter((s) => s.shortCode !== "加")
+            .map((section) => {
+              const slug = sectionMeta.find((s) => s.shortCode === section.shortCode)?.href.split("/").at(-1);
+              if (!slug) return null;
+              return (
+                <div key={section.shortCode}>
+                  <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+                    {section.name}
+                  </h3>
+                  <div className="space-y-1">
+                    {section.items.map((item) => (
+                      <Link
+                        key={item.id}
+                        href={`/school/daycare/${slug}#item-${item.id}`}
+                        className="flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors group"
+                      >
+                        <span className="shrink-0 w-7 h-7 rounded-full bg-muted flex items-center justify-center text-xs font-mono font-semibold text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                          {item.id}
+                        </span>
+                        <span className="text-sm group-hover:text-primary transition-colors">
+                          {item.title}
+                        </span>
+                        <Badge variant="outline" className="ml-auto text-xs shrink-0">
+                          {item.responsible}
+                        </Badge>
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
       </div>
 
-      {/* Download CTA */}
-      <div className="mt-10 rounded-xl border border-dashed border-primary/30 bg-muted/50 p-5 text-center">
+      {/* 加分題區塊 */}
+      {bonusSection && (
+        <div className="mb-8 rounded-xl border border-yellow-500/30 bg-yellow-500/5 p-5">
+          <div className="flex items-center gap-2 mb-3">
+            <StarIcon className="h-4 w-4 text-yellow-600 dark:text-yellow-400" />
+            <h2 className="text-base font-semibold text-yellow-600 dark:text-yellow-400">
+              伍、加分題（2 項）
+            </h2>
+          </div>
+          <p className="text-xs text-muted-foreground mb-3">
+            加分題不計入正式評鑑項次，由評鑑委員共議給分，總計最多加分 3 分。
+          </p>
+          <div className="space-y-1">
+            {bonusSection.items.map((item) => (
+              <div
+                key={item.id}
+                className="flex items-center gap-3 rounded-lg px-3 py-2 bg-background/50"
+              >
+                <StarIcon className="shrink-0 h-4 w-4 text-yellow-500" />
+                <span className="text-sm">{item.title}</span>
+                <Badge variant="outline" className="ml-auto text-xs shrink-0">
+                  {item.responsible}
+                </Badge>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 下載 CTA */}
+      <div className="mt-6 rounded-xl border border-dashed border-primary/30 bg-muted/50 p-5 text-center">
         <p className="text-sm font-semibold mb-1">📋 免費下載自我檢查表</p>
         <p className="text-sm text-muted-foreground mb-3">
-          下載「日間照顧中心」評鑑自我檢查表（Excel），對照評鑑基準逐項自我檢核。
+          下載「日間照顧中心」評鑑自我檢查表（Excel），對照 115 年度評鑑基準逐項自我檢核。
         </p>
         <a
           href="/downloads/day-care.xlsx"
@@ -211,11 +248,11 @@ export default function DaycarePage() {
         </a>
       </div>
 
-      {/* Import CTA */}
-      <div className="mt-10 rounded-xl bg-primary/5 border border-primary/20 p-5">
+      {/* 匯入 CTA */}
+      <div className="mt-6 rounded-xl bg-primary/5 border border-primary/20 p-5">
         <p className="text-sm font-semibold mb-1">看完評鑑基準了嗎？</p>
         <p className="text-sm text-muted-foreground mb-3">
-          到報告汪一鍵匯入「日間照顧機構」評鑑範本，包含 4 個標籤和 43 份報告範本，省去手動建立的時間。
+          到報告汪一鍵匯入「日間照顧機構」評鑑範本，依 115 年度最新基準，省去手動建立的時間。
         </p>
         <Link
           href="/docs/import-templates"

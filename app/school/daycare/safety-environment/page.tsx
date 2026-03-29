@@ -9,19 +9,20 @@ import { ArrowLeftIcon } from "lucide-react";
 export const metadata: Metadata = {
   title: "肆、安全環境設備（項目 38–43）｜日間照顧機構評鑑",
   description:
-    "日間照顧機構評鑑「安全環境設備」6 項評鑑基準詳細說明：空間環境、消防安全、設備維護、無障礙設施、交通接送服務、安全監控，含準備要訣與實用提示。",
+    "115 年度日間照顧機構評鑑「安全環境設備」6 項評鑑基準詳細說明：高齡友善環境、盥洗衛生設備、休息場所、飲用水檢查、廚房衛生、環境清潔及病媒防治，含準備要訣與實用提示。",
   keywords: [
     "日照中心安全環境評鑑",
-    "日照機構消防安全評鑑",
-    "日間照顧無障礙設施評鑑",
-    "日照交通接送服務評鑑",
+    "日照機構高齡友善環境評鑑",
+    "日間照顧廚房衛生評鑑",
+    "日照飲用水檢查評鑑",
+    "日照機構病媒防治",
     "臺北市日照評鑑安全設備",
-    "113年度日間照顧評鑑",
+    "115年度日間照顧評鑑",
   ],
   alternates: { canonical: "https://reportwang.com/school/daycare/safety-environment" },
   openGraph: {
     title: "肆、安全環境設備（項目 38–43）｜日間照顧評鑑｜報告汪",
-    description: "日間照顧機構評鑑安全環境設備 6 項基準詳細說明與準備要訣。",
+    description: "115 年度日間照顧機構評鑑安全環境設備 6 項基準詳細說明與準備要訣。",
     url: "https://reportwang.com/school/daycare/safety-environment",
   },
 };
@@ -31,33 +32,33 @@ const section = daycareProfile.sections.find((s) => s.shortCode === "安")!;
 const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
   38: {
     content:
-      "空間坪數需符合日照設置標準（每人至少 4.5 平方公尺活動空間）。評鑑委員會現場量測及觀察，走道是否淨空、地板是否防滑（建議有止滑墊或防滑地磚）、採光照度是否足夠都是查核重點。",
+      "高齡友善環境重點：走道淨寬至少 120 公分（輪椅可通行）、地板防滑（防滑係數 C.S.R ≥ 0.5）、扶手穩固且高度適當（距地 75–85 公分）、照明亮度充足（活動區域至少 100 Lux）。評鑑委員會現場量測及觀察，方向標示需大字加圖示，走道不得有堆置物品阻礙動線。",
     variant: "info",
   },
   39: {
     content:
-      "消防設備定期檢查記錄需有合格廠商簽章（每半年一次），不可只由機構自行填寫。消防演練建議包含老人疏散的輔具使用（輪椅推行、步行輔具撤離），並有照片記錄。",
-    variant: "warning",
+      "盥洗衛生設備（廁所、浴室）需符合無障礙規格：馬桶旁需有扶手、浴室地板防滑、門寬至少 80 公分（輪椅可進出）。廁所需依男女及人數比例配置足夠數量，備有清潔記錄表（每日清潔頻率及清潔人員簽名）。淋浴設備需有防燙混水閥或水溫控制裝置。",
+    variant: "info",
   },
   40: {
     content:
-      "設備保養記錄建議以設備為單位建立個別維護紀錄表，包含保養日期、保養項目、廠商及費用。損壞設備的通報至修繕完成要有時間記錄，若無法即時修繕需說明暫時替代方案。",
+      "休息場所需有足夠床位或躺椅供有休息需求的個案使用，個人置物區域需有分隔或標示（保護個人物品安全）。評鑑委員關注休息區域的隱私保護（如簾幕或隔間），以及寢具定期清洗的記錄（建議每週更換、記錄洗滌日期）。",
     variant: "neutral",
   },
   41: {
     content:
-      "無障礙設施現場查核重點：扶手是否穩固、坡道坡度是否符合規定（1:12 以下）、廁所扶手及空間是否符合輪椅迴轉半徑。定期檢查記錄建議每月或每季一次，若有損壞需即時修繕。",
-    variant: "info",
+      "飲用水來源不同，檢驗要求不同：使用自來水需有定期水質抽檢記錄；使用桶裝水需有合法供應商資格文件及每批次水源記錄；若有設置過濾設備需有定期濾心更換記錄。評鑑委員會確認飲水設備是否定期清潔，以及個案取水是否便利安全（杯具衛生管理）。",
+    variant: "warning",
   },
   42: {
     content:
-      "接送車輛的定期保養記錄（含行車里程、保養項目）要與保養廠收據相符。駕駛人員建議定期接受緊急救護訓練（如 CPR）。輪椅固定裝置若無法固定輪椅型號需有替代安全措施說明。",
+      "廚房衛生採「外部供餐」與「自行供餐」雙軌評核：外部供餐需有合法廠商資格文件、供餐合約及抽查記錄；自行供餐需符合食品衛生法規（從業人員健康證明、HACCP 或衛生自主管理計畫、廚房設備符合規定）。115 年度特別關注廚餘處理及病媒防治是否延伸至廚房區域。",
     variant: "warning",
   },
   43: {
     content:
-      "監控設備使用需符合個人資料保護法，影像保存期限及查閱權限需有書面規定，並告知個案及家屬。緊急呼叫鈴建議每月測試一次並有測試記錄，確保功能正常可用。",
-    variant: "warning",
+      "清潔計畫需有各區域的清潔頻率（活動區每日清潔、廁所每日清潔兩次以上、戶外每週清潔）及清潔人員簽名記錄。病媒防治需有定期消毒/防蟲記錄，若委外執行需有廠商合約及服務紀錄。評鑑委員會現場觀察是否有異味、蟑螂痕跡、蚊蟲滋生等問題，環境整潔程度直接影響評分。",
+    variant: "info",
   },
 };
 
@@ -65,7 +66,7 @@ const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
   name: "肆、安全環境設備（日間照顧機構評鑑基準項目 38–43）",
   description:
-    "日間照顧機構評鑑基準「安全環境設備」6 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "115 年度日間照顧機構評鑑基準「安全環境設備」6 個評鑑項目詳細說明、準備要訣與實用提示。",
   path: "/school/daycare/safety-environment",
 });
 
@@ -77,19 +78,27 @@ export default function DaycareSafetyEnvironmentPage() {
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
 
-      {/* Header */}
+      {/* 頁首 */}
       <div className="mb-6">
         <Badge className="mb-3 bg-teal-500/10 text-teal-600 dark:text-teal-400 border-0 hover:bg-teal-500/20">
           肆、安全環境設備
         </Badge>
         <h1 className="text-2xl font-bold mb-3">安全環境設備（項目 38–43）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 6 個評鑑項目，是日照評鑑的最後一個區塊，著重在機構實體環境的安全性與無障礙可及性。
-          評鑑委員通常以現場觀察為主要審查方式，確認空間、設備是否真正符合長者使用需求。
+          本區塊共 6 個評鑑項目，是日照評鑑的最後一個區塊，著重在機構實體環境的安全性與高齡友善程度。
+          115 年度將子分類調整為「（一）硬體環境設施」，評鑑委員以現場觀察為主要審查方式，
+          確認空間、設備是否真正符合長者使用需求。
         </p>
       </div>
 
-      {/* Mini TOC */}
+      {/* 子分類標題 */}
+      <div className="mb-6">
+        <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider pb-2 border-b">
+          （一）硬體環境設施
+        </h2>
+      </div>
+
+      {/* 目錄 */}
       <nav className="not-prose mb-8 rounded-lg bg-muted/40 border p-4">
         <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
           本頁內容
@@ -111,7 +120,7 @@ export default function DaycareSafetyEnvironmentPage() {
         </ul>
       </nav>
 
-      {/* Items */}
+      {/* 評鑑項目列表 */}
       <div className="space-y-12">
         {section.items.map((item) => (
           <section key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
@@ -147,7 +156,7 @@ export default function DaycareSafetyEnvironmentPage() {
         ))}
       </div>
 
-      {/* Prev / Next navigation */}
+      {/* 上下頁導航 */}
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/daycare/management"
