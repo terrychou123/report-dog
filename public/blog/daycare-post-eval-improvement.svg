@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="440" fill="#f8fafc"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="56" fill="url(#headerGrad)"/>
+  <text x="32" y="22" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">評鑑結束後</text>
+  <text x="32" y="44" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">改善計畫撰寫範例</text>
+  <rect x="640" y="16" width="124" height="28" rx="8" fill="rgba(255,255,255,0.18)"/>
+  <text x="702" y="34" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white">可直接套用範本</text>
+
+  <!-- 表格標頭 -->
+  <rect x="0" y="56" width="800" height="40" fill="#1e293b"/>
+  <!-- 各欄標題 -->
+  <text x="66" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">改善項目</text>
+  <line x1="132" y1="56" x2="132" y2="96" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="256" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">缺失說明</text>
+  <line x1="380" y1="56" x2="380" y2="96" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="436" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">負責人</text>
+  <line x1="492" y1="56" x2="492" y2="96" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="556" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">完成期限</text>
+  <line x1="620" y1="56" x2="620" y2="96" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="710" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">改善措施</text>
+
+  <!-- 垂直分隔線（整表） -->
+  <line x1="132" y1="96" x2="132" y2="356" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="380" y1="96" x2="380" y2="356" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="492" y1="96" x2="492" y2="356" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="620" y1="96" x2="620" y2="356" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ===== 範例列 1 ===== -->
+  <rect x="0" y="96" width="800" height="70" fill="white"/>
+  <rect x="0" y="96" width="6" height="70" fill="#ef4444"/>
+  <!-- 改善項目 -->
+  <rect x="16" y="112" width="96" height="40" rx="8" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="64" y="130" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#dc2626" font-weight="600">督導紀錄</text>
+  <text x="64" y="146" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#ef4444">第 11 條</text>
+  <!-- 缺失說明 -->
+  <rect x="142" y="109" width="228" height="48" rx="8" fill="#fff8f8" stroke="#fecaca" stroke-width="1"/>
+  <text x="256" y="130" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#374151">督導紀錄內容過於簡略</text>
+  <text x="256" y="148" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#6b7280">缺乏具體建議與後續追蹤</text>
+  <!-- 負責人 -->
+  <rect x="400" y="114" width="76" height="32" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="438" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1d4ed8" font-weight="600">主任</text>
+  <!-- 完成期限 -->
+  <rect x="510" y="114" width="98" height="32" rx="8" fill="#fff7ed"/>
+  <text x="559" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#c2410c" font-weight="600">2 週內</text>
+  <!-- 改善措施 -->
+  <rect x="630" y="109" width="156" height="48" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="708" y="130" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#15803d">訂定督導紀錄</text>
+  <text x="708" y="148" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#15803d">標準格式範本</text>
+
+  <line x1="0" y1="166" x2="800" y2="166" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- ===== 範例列 2 ===== -->
+  <rect x="0" y="166" width="800" height="70" fill="#fafafa"/>
+  <rect x="0" y="166" width="6" height="70" fill="#f59e0b"/>
+  <rect x="16" y="182" width="96" height="40" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <text x="64" y="200" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#d97706" font-weight="600">追蹤評值</text>
+  <text x="64" y="216" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#f59e0b">第 14 條</text>
+
+  <rect x="142" y="179" width="228" height="48" rx="8" fill="#fffdf0" stroke="#fde68a" stroke-width="1"/>
+  <text x="256" y="200" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#374151">追蹤評值缺未達成原因分析</text>
+  <text x="256" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#6b7280">無法呈現照顧成效改變</text>
+
+  <rect x="400" y="184" width="76" height="32" rx="16" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+  <text x="438" y="204" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#7e22ce" font-weight="600">社工</text>
+
+  <rect x="510" y="184" width="98" height="32" rx="8" fill="#fff7ed"/>
+  <text x="559" y="204" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#c2410c" font-weight="600">1 週內</text>
+
+  <rect x="630" y="179" width="156" height="48" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="708" y="200" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#15803d">評值表新增</text>
+  <text x="708" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#15803d">原因分析欄位</text>
+
+  <line x1="0" y1="236" x2="800" y2="236" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- ===== 範例列 3 ===== -->
+  <rect x="0" y="236" width="800" height="70" fill="white"/>
+  <rect x="0" y="236" width="6" height="70" fill="#8b5cf6"/>
+  <rect x="16" y="252" width="96" height="40" rx="8" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="64" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#6d28d9" font-weight="600">品管指標</text>
+  <text x="64" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#8b5cf6">第 22 條</text>
+
+  <rect x="142" y="249" width="228" height="48" rx="8" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="256" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#374151">品管指標無數據追蹤記錄</text>
+  <text x="256" y="288" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#6b7280">無法呈現指標改善趨勢</text>
+
+  <rect x="400" y="254" width="76" height="32" rx="16" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+  <text x="438" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#065f46" font-weight="600">護理</text>
+
+  <rect x="510" y="254" width="98" height="32" rx="8" fill="#fff7ed"/>
+  <text x="559" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#c2410c" font-weight="600">2 週內</text>
+
+  <rect x="630" y="249" width="156" height="48" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="708" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#15803d">建立月報追蹤表</text>
+  <text x="708" y="288" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#15803d">每月填寫數據</text>
+
+  <line x1="0" y1="306" x2="800" y2="306" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- 空白列（示意還有更多） -->
+  <rect x="0" y="306" width="800" height="50" fill="#f8fafc"/>
+  <text x="400" y="334" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#cbd5e1">· · · 依實際評鑑缺失逐項填寫 · · ·</text>
+
+  <line x1="0" y1="356" x2="800" y2="356" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- 底部說明 -->
+  <rect x="0" y="356" width="800" height="84" fill="#f1f5f9"/>
+  <text x="32" y="382" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#334155" font-weight="600">使用說明</text>
+  <rect x="32" y="390" width="8" height="8" rx="2" fill="#10b981"/>
+  <text x="48" y="399" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">每項缺失獨立一列，填寫後交由主任確認簽核</text>
+  <rect x="32" y="410" width="8" height="8" rx="2" fill="#0ea5e9"/>
+  <text x="48" y="419" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">期限到達後確認完成狀態，未完成者需說明原因並展延</text>
+
+  <text x="770" y="430" text-anchor="end" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">報告汪製作</text>
+</svg>

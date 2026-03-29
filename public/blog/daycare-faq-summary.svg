@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#f0f9ff"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+
+  <!-- 主卡片 -->
+  <rect x="30" y="20" width="740" height="360" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- 頂部 header -->
+  <rect x="30" y="20" width="740" height="62" rx="20" fill="url(#headerGrad)"/>
+  <rect x="30" y="62" width="740" height="20" fill="url(#headerGrad)"/>
+
+  <!-- 書籤圖示 -->
+  <rect x="60" y="30" width="30" height="40" rx="3" fill="white" opacity="0.25"/>
+  <polygon points="60,70 75,60 90,70" fill="#0ea5e9"/>
+
+  <!-- 標題 -->
+  <text x="400" y="56" font-family="sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">重點速查卡</text>
+  <text x="400" y="74" font-family="sans-serif" font-size="12" fill="#bae6fd" text-anchor="middle">日間照顧中心評鑑關鍵數字一覽</text>
+
+  <!-- 副標題小標 -->
+  <text x="60" y="118" font-family="sans-serif" font-size="14" fill="#64748b" font-weight="bold">快速查閱評鑑重要規定，準備不遺漏</text>
+  <rect x="60" y="124" width="680" height="1.5" fill="#e2e8f0"/>
+
+  <!-- 六項目 2×3 佈局 -->
+
+  <!-- 第一列：左 -->
+  <rect x="50" y="138" width="330" height="70" rx="12" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <!-- 左色條 -->
+  <rect x="50" y="138" width="6" height="70" rx="3" fill="#0ea5e9"/>
+  <!-- 標籤 -->
+  <rect x="64" y="148" width="90" height="20" rx="10" fill="#0ea5e9"/>
+  <text x="109" y="162" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">評鑑週期</text>
+  <!-- 數值 -->
+  <text x="64" y="192" font-family="sans-serif" font-size="24" fill="#0ea5e9" font-weight="bold">每 4 年</text>
+  <text x="168" y="192" font-family="sans-serif" font-size="14" fill="#64748b">一次（臺北市）</text>
+
+  <!-- 第一列：右 -->
+  <rect x="420" y="138" width="330" height="70" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+  <rect x="420" y="138" width="6" height="70" rx="3" fill="#10b981"/>
+  <rect x="434" y="148" width="90" height="20" rx="10" fill="#10b981"/>
+  <text x="479" y="162" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">正式基準</text>
+  <text x="434" y="192" font-family="sans-serif" font-size="24" fill="#10b981" font-weight="bold">43 項</text>
+  <text x="510" y="192" font-family="sans-serif" font-size="14" fill="#64748b">+ 加分題 2 項</text>
+
+  <!-- 第二列：左 -->
+  <rect x="50" y="220" width="330" height="70" rx="12" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <rect x="50" y="220" width="6" height="70" rx="3" fill="#f59e0b"/>
+  <rect x="64" y="230" width="90" height="20" rx="10" fill="#f59e0b"/>
+  <text x="109" y="244" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">照顧計畫</text>
+  <text x="64" y="274" font-family="sans-serif" font-size="24" fill="#f59e0b" font-weight="bold">7 工作天</text>
+  <text x="200" y="274" font-family="sans-serif" font-size="14" fill="#64748b">內完成</text>
+
+  <!-- 第二列：右 -->
+  <rect x="420" y="220" width="330" height="70" rx="12" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <rect x="420" y="220" width="6" height="70" rx="3" fill="#8b5cf6"/>
+  <rect x="434" y="230" width="90" height="20" rx="10" fill="#8b5cf6"/>
+  <text x="479" y="244" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">督導要求</text>
+  <text x="434" y="270" font-family="sans-serif" font-size="13" fill="#7c3aed" font-weight="bold">個督每半年</text>
+  <text x="434" y="288" font-family="sans-serif" font-size="13" fill="#64748b">團督每季一次</text>
+
+  <!-- 第三列：左 -->
+  <rect x="50" y="302" width="330" height="70" rx="12" fill="#fff1f2" stroke="#fecdd3" stroke-width="1.5"/>
+  <rect x="50" y="302" width="6" height="70" rx="3" fill="#f43f5e"/>
+  <rect x="64" y="312" width="90" height="20" rx="10" fill="#f43f5e"/>
+  <text x="109" y="326" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">在職訓練</text>
+  <text x="64" y="356" font-family="sans-serif" font-size="24" fill="#f43f5e" font-weight="bold">20 小時</text>
+  <text x="200" y="356" font-family="sans-serif" font-size="14" fill="#64748b">/ 年（最低標準）</text>
+
+  <!-- 第三列：右 -->
+  <rect x="420" y="302" width="330" height="70" rx="12" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+  <rect x="420" y="302" width="6" height="70" rx="3" fill="#14b8a6"/>
+  <rect x="434" y="312" width="90" height="20" rx="10" fill="#14b8a6"/>
+  <text x="479" y="326" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">品管指標</text>
+  <text x="434" y="356" font-family="sans-serif" font-size="24" fill="#14b8a6" font-weight="bold">至少 2 項</text>
+  <text x="562" y="356" font-family="sans-serif" font-size="14" fill="#64748b">自訂</text>
+
+  <!-- 底部提示 -->
+  <text x="400" y="392" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">以上數據以臺北市 115 年評鑑基準為主，各縣市規定可能有差異，請以主管機關公告為準</text>
+</svg>

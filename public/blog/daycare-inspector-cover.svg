@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="420" fill="url(#bgGrad)"/>
+
+  <!-- 裝飾圓圈 -->
+  <circle cx="680" cy="60" r="120" fill="#0ea5e9" opacity="0.08"/>
+  <circle cx="720" cy="380" r="80" fill="#10b981" opacity="0.08"/>
+  <circle cx="50" cy="350" r="100" fill="#0ea5e9" opacity="0.06"/>
+
+  <!-- 左側評鑑委員視覺區 -->
+  <!-- 人物剪影 -->
+  <ellipse cx="155" cy="160" rx="32" ry="32" fill="#0ea5e9" opacity="0.9"/>
+  <rect x="115" y="195" width="80" height="90" rx="8" fill="#0ea5e9" opacity="0.85"/>
+  <!-- 領帶裝飾 -->
+  <polygon points="155,200 148,210 155,240 162,210" fill="#10b981" opacity="0.9"/>
+
+  <!-- 文件板 -->
+  <rect x="175" y="210" width="70" height="90" rx="6" fill="white" opacity="0.95"/>
+  <rect x="182" y="220" width="56" height="6" rx="3" fill="#0ea5e9"/>
+  <rect x="182" y="232" width="45" height="4" rx="2" fill="#64748b" opacity="0.6"/>
+  <rect x="182" y="242" width="50" height="4" rx="2" fill="#64748b" opacity="0.6"/>
+  <rect x="182" y="252" width="40" height="4" rx="2" fill="#64748b" opacity="0.6"/>
+  <!-- 勾選框 -->
+  <rect x="182" y="264" width="10" height="10" rx="2" fill="#10b981"/>
+  <text x="196" y="273" font-family="sans-serif" font-size="9" fill="#64748b">已完成</text>
+  <rect x="182" y="278" width="10" height="10" rx="2" fill="#e2e8f0"/>
+  <text x="196" y="287" font-family="sans-serif" font-size="9" fill="#64748b">待確認</text>
+
+  <!-- 放大鏡 -->
+  <circle cx="255" cy="185" r="20" fill="none" stroke="#f59e0b" stroke-width="3" opacity="0.9"/>
+  <line x1="269" y1="199" x2="282" y2="212" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="255" cy="185" r="12" fill="#f59e0b" opacity="0.15"/>
+
+  <!-- 標籤 -->
+  <rect x="100" y="300" width="80" height="22" rx="11" fill="#10b981" opacity="0.9"/>
+  <text x="140" y="315" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">評鑑委員</text>
+
+  <!-- 分隔線 -->
+  <line x1="330" y1="80" x2="330" y2="340" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- 右側文字區 -->
+  <!-- 小標籤 -->
+  <rect x="370" y="80" width="140" height="28" rx="14" fill="#0ea5e9" opacity="0.2"/>
+  <rect x="370" y="80" width="140" height="28" rx="14" fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.5"/>
+  <text x="440" y="99" font-family="sans-serif" font-size="13" fill="#0ea5e9" text-anchor="middle" font-weight="bold">深度解析系列</text>
+
+  <!-- 主標題 -->
+  <text x="370" y="160" font-family="sans-serif" font-size="40" fill="white" font-weight="bold">評鑑委員</text>
+  <text x="370" y="210" font-family="sans-serif" font-size="40" fill="white" font-weight="bold">的視角</text>
+
+  <!-- 副標題 -->
+  <text x="370" y="255" font-family="sans-serif" font-size="22" fill="#0ea5e9" font-weight="bold">到底在看什麼？</text>
+
+  <!-- 分隔線 -->
+  <rect x="370" y="272" width="60" height="3" rx="1.5" fill="#10b981"/>
+
+  <!-- 說明文字 -->
+  <text x="370" y="305" font-family="sans-serif" font-size="14" fill="#94a3b8">了解評鑑委員的審查邏輯</text>
+  <text x="370" y="325" font-family="sans-serif" font-size="14" fill="#94a3b8">讓您的日照中心完美過關</text>
+
+  <!-- 底部標籤組 -->
+  <rect x="370" y="355" width="80" height="22" rx="11" fill="#1e3a8a" opacity="0.8"/>
+  <text x="410" y="370" font-family="sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle">文件審閱</text>
+  <rect x="462" y="355" width="80" height="22" rx="11" fill="#134e4a" opacity="0.8"/>
+  <text x="502" y="370" font-family="sans-serif" font-size="11" fill="#6ee7b7" text-anchor="middle">現場訪談</text>
+  <rect x="554" y="355" width="80" height="22" rx="11" fill="#1c3557" opacity="0.8"/>
+  <text x="594" y="370" font-family="sans-serif" font-size="11" fill="#7dd3fc" text-anchor="middle">環境查看</text>
+
+  <!-- 品牌標記 -->
+  <text x="760" y="410" font-family="sans-serif" font-size="11" fill="#334155" text-anchor="end">報告汪</text>
+</svg>
