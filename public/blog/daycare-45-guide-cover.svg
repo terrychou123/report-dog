@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#2563eb"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea580c"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+    <linearGradient id="card5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#be185d"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- 裝飾圓圈 -->
+  <circle cx="1100" cy="80" r="180" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="100" cy="550" r="150" fill="rgba(255,255,255,0.03)"/>
+
+  <!-- 頂部標籤 -->
+  <rect x="60" y="55" width="130" height="32" rx="16" fill="rgba(29,78,216,0.8)"/>
+  <text x="125" y="76" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="600">評鑑準備指南</text>
+
+  <!-- 主標題 -->
+  <text x="60" y="150" font-family="'Noto Sans TC', sans-serif" font-size="58" fill="white" font-weight="700">日照中心評鑑</text>
+  <text x="60" y="220" font-family="'Noto Sans TC', sans-serif" font-size="58" fill="#60a5fa" font-weight="700">45 題全攻略</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="270" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="rgba(255,255,255,0.7)">115 年度 · 43 項正式基準 + 2 項加分題 · 逐條解析＋準備秘笈</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="295" x2="500" y2="295" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- 五大面向卡片 -->
+  <!-- 壹 個案權益保障 -->
+  <rect x="60" y="330" width="195" height="100" rx="12" fill="url(#card1)"/>
+  <text x="80" y="365" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.8)">壹、個案權益保障</text>
+  <text x="80" y="395" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">4</text>
+  <text x="118" y="395" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.8)"> 項</text>
+  <text x="80" y="420" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.65)">第 1–4 條</text>
+
+  <!-- 貳 專業照護品質 -->
+  <rect x="270" y="330" width="195" height="100" rx="12" fill="url(#card2)"/>
+  <text x="290" y="365" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.8)">貳、專業照護品質</text>
+  <text x="290" y="395" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">18</text>
+  <text x="338" y="395" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.8)"> 項</text>
+  <text x="290" y="420" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.65)">第 5–22 條 · 最核心面向</text>
+
+  <!-- 參 經營管理效能 -->
+  <rect x="480" y="330" width="195" height="100" rx="12" fill="url(#card3)"/>
+  <text x="500" y="365" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.8)">參、經營管理效能</text>
+  <text x="500" y="395" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">15</text>
+  <text x="548" y="395" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.8)"> 項</text>
+  <text x="500" y="420" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.65)">第 23–37 條</text>
+
+  <!-- 肆 安全環境設備 -->
+  <rect x="690" y="330" width="195" height="100" rx="12" fill="url(#card4)"/>
+  <text x="710" y="365" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.8)">肆、安全環境設備</text>
+  <text x="710" y="395" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">6</text>
+  <text x="748" y="395" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.8)"> 項</text>
+  <text x="710" y="420" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.65)">第 38–43 條</text>
+
+  <!-- 伍 加分題 -->
+  <rect x="900" y="330" width="195" height="100" rx="12" fill="url(#card5)"/>
+  <text x="920" y="365" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.8)">伍、加分題</text>
+  <text x="920" y="395" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">+3</text>
+  <text x="968" y="395" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.8)"> 分</text>
+  <text x="920" y="420" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.65)">第 44–45 條</text>
+
+  <!-- 底部資訊 -->
+  <text x="60" y="490" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="rgba(255,255,255,0.5)">本文涵蓋：社工師 · 護理師 · 照服員 · 業務負責人角色分工策略</text>
+
+  <!-- 品牌標籤 -->
+  <rect x="60" y="530" width="88" height="30" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="104" y="550" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.7)">報告汪</text>
+
+  <!-- 右側裝飾文件圖示 -->
+  <rect x="1060" y="380" width="80" height="100" rx="6" fill="rgba(255,255,255,0.08)"/>
+  <rect x="1072" y="395" width="55" height="4" rx="2" fill="rgba(255,255,255,0.2)"/>
+  <rect x="1072" y="408" width="40" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="1072" y="421" width="50" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="1072" y="434" width="35" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="1072" y="447" width="45" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="1072" y="460" width="30" height="4" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <!-- 勾選框 -->
+  <rect x="1087" y="340" width="50" height="30" rx="4" fill="rgba(29,78,216,0.6)"/>
+  <text x="1112" y="361" text-anchor="middle" font-family="sans-serif" font-size="18" fill="white">✓</text>
+</svg>

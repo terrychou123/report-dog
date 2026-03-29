@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c0533"/>
+      <stop offset="100%" style="stop-color:#3b0764"/>
+    </linearGradient>
+    <linearGradient id="warnCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 裝飾 -->
+  <circle cx="1100" cy="100" r="200" fill="rgba(239,68,68,0.07)"/>
+  <circle cx="50" cy="500" r="150" fill="rgba(245,158,11,0.06)"/>
+
+  <!-- 警示標籤 -->
+  <rect x="60" y="55" width="130" height="32" rx="16" fill="rgba(239,68,68,0.7)"/>
+  <text x="125" y="76" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="600">⚠️ 評鑑地雷</text>
+
+  <!-- 主標題 -->
+  <text x="60" y="145" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="white" font-weight="700">日照評鑑最常</text>
+  <text x="60" y="210" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="white" font-weight="700">被扣分的</text>
+  <text x="365" y="210" font-family="'Noto Sans TC', sans-serif" font-size="72" fill="#f59e0b" font-weight="700">5</text>
+  <text x="430" y="210" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="white" font-weight="700"> 個地雷</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="258" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="rgba(255,255,255,0.65)">115 年度版 · 你中了幾個？</text>
+
+  <!-- 漸層分隔線 -->
+  <rect x="60" y="278" width="480" height="3" rx="2" fill="url(#accentLine)"/>
+
+  <!-- 5 個地雷項目 -->
+  <!-- 地雷 1 -->
+  <rect x="60" y="305" width="210" height="72" rx="10" fill="rgba(255,255,255,0.07)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <text x="78" y="332" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#f59e0b" font-weight="700">💣 01</text>
+  <text x="78" y="357" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.85)">照顧計畫逾期完成</text>
+  <text x="78" y="372" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">第 6 條</text>
+
+  <!-- 地雷 2 -->
+  <rect x="285" y="305" width="210" height="72" rx="10" fill="rgba(255,255,255,0.07)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <text x="303" y="332" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#f59e0b" font-weight="700">💣 02</text>
+  <text x="303" y="357" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.85)">追蹤評值有做沒紀錄</text>
+  <text x="303" y="372" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">第 7 條</text>
+
+  <!-- 地雷 3 -->
+  <rect x="510" y="305" width="210" height="72" rx="10" fill="rgba(255,255,255,0.07)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <text x="528" y="332" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#f59e0b" font-weight="700">💣 03</text>
+  <text x="528" y="357" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.85)">督導紀錄不完整</text>
+  <text x="528" y="372" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">第 9 條</text>
+
+  <!-- 地雷 4 -->
+  <rect x="60" y="392" width="210" height="72" rx="10" fill="rgba(255,255,255,0.07)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <text x="78" y="419" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#f59e0b" font-weight="700">💣 04</text>
+  <text x="78" y="444" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.85)">品管指標沒自訂</text>
+  <text x="78" y="459" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">第 22 條</text>
+
+  <!-- 地雷 5 -->
+  <rect x="285" y="392" width="210" height="72" rx="10" fill="rgba(255,255,255,0.07)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <text x="303" y="419" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#f59e0b" font-weight="700">💣 05</text>
+  <text x="303" y="444" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.85)">教育訓練時數不足</text>
+  <text x="303" y="459" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">第 29 條</text>
+
+  <!-- 品牌 -->
+  <rect x="60" y="498" width="88" height="30" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="104" y="518" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.7)">報告汪</text>
+
+  <!-- 右側大型視覺 -->
+  <!-- 地雷圖形 -->
+  <circle cx="950" cy="315" r="150" fill="rgba(239,68,68,0.12)" stroke="rgba(239,68,68,0.3)" stroke-width="2"/>
+  <text x="950" y="290" text-anchor="middle" font-family="sans-serif" font-size="120" fill="rgba(245,158,11,0.9)">💣</text>
+  <text x="950" y="380" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="32" fill="rgba(255,255,255,0.8)" font-weight="700">每個地雷</text>
+  <text x="950" y="415" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="32" fill="rgba(255,255,255,0.8)" font-weight="700">都有解法</text>
+
+  <!-- 底部問句 -->
+  <text x="60" y="570" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="rgba(255,255,255,0.5)">附快速確認清單 · 評鑑前及早補強</text>
+</svg>

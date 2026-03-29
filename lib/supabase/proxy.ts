@@ -3,7 +3,26 @@ import { NextResponse, type NextRequest } from "next/server";
 import { hasEnvVars } from "../utils";
 
 const PUBLIC_EXACT = new Set(["/", "/pricing", "/ads.txt", "/sitemap.xml", "/robots.txt"]);
-const PUBLIC_PREFIXES = ["/home-care", "/hospital", "/residential", "/day-care", "/blog", "/login", "/auth"];
+const PUBLIC_PREFIXES = [
+  "/home-care",
+  "/hospital",
+  "/residential",
+  "/day-care",
+  "/blog",
+  "/login",
+  "/auth",
+  // 以下為公開內容頁，不需要登入
+  "/school",
+  "/downloads",
+  "/docs",
+  "/testimonial",
+  "/disability-welfare",
+  "/babycare",
+  "/home-nursing",
+  "/general-nursing-home",
+  "/psychiatric",
+  "/infant-daycare",
+];
 
 function isPublicPath(pathname: string): boolean {
   return PUBLIC_EXACT.has(pathname) || PUBLIC_PREFIXES.some((p) => pathname.startsWith(p));

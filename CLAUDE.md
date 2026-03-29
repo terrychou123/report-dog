@@ -2,6 +2,11 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 溝通偏好
+
+- 回答用繁體中文
+- 程式碼加上中文註解
+
 ## Product
 
 **報告汪 (reportwang.com)** — An AI-powered evaluation report management platform for long-term care (LTC) and social welfare institutions in Taiwan. Core features: report/document management with rich editing, AI-assisted analysis, tag-based collaboration/sharing, and follow/tracking.

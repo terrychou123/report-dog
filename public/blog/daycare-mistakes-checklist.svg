@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <!-- 背景 -->
+  <rect width="800" height="450" fill="#f8fafc" rx="16"/>
+  <rect x="0" y="0" width="800" height="70" fill="#0f172a" rx="16"/>
+  <rect x="0" y="54" width="800" height="16" fill="#0f172a"/>
+
+  <!-- 標題 -->
+  <text x="400" y="38" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">評鑑前 5 大地雷快速確認清單</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.5)">逐項勾選，確保評鑑前已全部達標</text>
+
+  <!-- 清單項目 1 -->
+  <rect x="40" y="85" width="720" height="58" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <!-- 勾選框（打勾） -->
+  <rect x="56" y="101" width="28" height="28" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="70" y="121" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#16a34a">✓</text>
+  <text x="98" y="109" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#0f172a" font-weight="600">照顧計畫（第 6 條）</text>
+  <text x="98" y="130" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">每位個案的計畫完成日期在評估後 7 個工作天內？有家屬參與紀錄？</text>
+  <rect x="665" y="98" width="80" height="26" rx="6" fill="#dcfce7"/>
+  <text x="705" y="115" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#16a34a" font-weight="600">✓ 完成</text>
+
+  <!-- 清單項目 2 -->
+  <rect x="40" y="155" width="720" height="58" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="56" y="171" width="28" height="28" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="70" y="190" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#ca8a04">?</text>
+  <text x="98" y="179" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#0f172a" font-weight="600">追蹤評值（第 7 條）</text>
+  <text x="98" y="200" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">有固定評值週期？未達成目標有原因分析？有計畫修正紀錄？</text>
+  <rect x="650" y="168" width="95" height="26" rx="6" fill="#fef9c3"/>
+  <text x="697" y="185" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#92400e" font-weight="600">⚠ 待確認</text>
+
+  <!-- 清單項目 3 -->
+  <rect x="40" y="225" width="720" height="58" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="56" y="241" width="28" height="28" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="70" y="260" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#dc2626">✗</text>
+  <text x="98" y="249" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#0f172a" font-weight="600">督導機制（第 9 條）</text>
+  <text x="98" y="270" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">每位工作人員（含照服員）有半年內個督紀錄？本季已有團督？</text>
+  <rect x="665" y="238" width="80" height="26" rx="6" fill="#fee2e2"/>
+  <text x="705" y="255" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#dc2626" font-weight="600">✗ 待補</text>
+
+  <!-- 清單項目 4 -->
+  <rect x="40" y="295" width="720" height="58" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="56" y="311" width="28" height="28" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="70" y="330" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#ca8a04">?</text>
+  <text x="98" y="319" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#0f172a" font-weight="600">品管指標（第 22 條）</text>
+  <text x="98" y="340" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">已自訂至少 2 項指標？有持續追蹤數據？異常案件有逐案分析？</text>
+  <rect x="650" y="308" width="95" height="26" rx="6" fill="#fef9c3"/>
+  <text x="697" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#92400e" font-weight="600">⚠ 待確認</text>
+
+  <!-- 清單項目 5 -->
+  <rect x="40" y="365" width="720" height="58" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="56" y="381" width="28" height="28" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="70" y="401" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#16a34a">✓</text>
+  <text x="98" y="389" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#0f172a" font-weight="600">教育訓練（第 29 條）</text>
+  <text x="98" y="410" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">每人已達 20 小時？有原住民族/多元文化課各 1 小時？網路課未超 5 小時？</text>
+  <rect x="665" y="378" width="80" height="26" rx="6" fill="#dcfce7"/>
+  <text x="705" y="395" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#16a34a" font-weight="600">✓ 完成</text>
+</svg>
