@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="480" fill="#f0efe8"/>
+
+  <!-- 頂部標題區域 -->
+  <rect x="0" y="0" width="800" height="66" fill="#e8e6de"/>
+  <rect x="0" y="0" width="5" height="66" fill="#d97706"/>
+  <text x="28" y="30" font-size="11" fill="#78716c" font-weight="600">改善行動</text>
+  <text x="28" y="52" font-size="18" fill="#1e293b" font-weight="800">提升留任率的 3 個月改善行動計畫</text>
+
+  <!-- 表格標題列 -->
+  <rect x="28" y="80" width="744" height="36" rx="4" fill="#e8e6de"/>
+  <!-- 欄標題 -->
+  <text x="72" y="103" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">月份</text>
+  <line x1="110" y1="80" x2="110" y2="116" stroke="#dedad3" stroke-width="1"/>
+  <text x="260" y="103" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">行動項目</text>
+  <line x1="410" y1="80" x2="410" y2="116" stroke="#dedad3" stroke-width="1"/>
+  <text x="498" y="103" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">對應盲點</text>
+  <line x1="586" y1="80" x2="586" y2="116" stroke="#dedad3" stroke-width="1"/>
+  <text x="689" y="103" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">完成標準</text>
+
+  <!-- 資料列1：第1個月 - 督導 -->
+  <rect x="28" y="116" width="744" height="58" rx="0" fill="#f0efe8"/>
+  <rect x="28" y="116" width="82" height="116" rx="0" fill="#d97706" opacity="0.08"/>
+  <text x="69" y="142" font-size="13" fill="#d97706" text-anchor="middle" font-weight="800">第 1 個月</text>
+  <text x="69" y="160" font-size="10" fill="#a8a29e" text-anchor="middle">優先處理</text>
+  <line x1="110" y1="116" x2="110" y2="232" stroke="#dedad3" stroke-width="1"/>
+  <!-- 行動1 -->
+  <rect x="120" y="124" width="8" height="8" rx="2" fill="#d97706"/>
+  <text x="136" y="135" font-size="13" fill="#1e293b" font-weight="700">盤點現有督導頻率缺口</text>
+  <text x="120" y="153" font-size="11" fill="#64748b">逐一確認每位員工的個督/團督執行狀況，找出未達標的缺口</text>
+  <line x1="410" y1="116" x2="410" y2="174" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="128" width="156" height="30" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="498" y="148" font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">盲點 1（第 9 條）</text>
+  <line x1="586" y1="116" x2="586" y2="174" stroke="#dedad3" stroke-width="1"/>
+  <text x="689" y="141" font-size="11" fill="#64748b" text-anchor="middle">建立個督/團督</text>
+  <text x="689" y="158" font-size="11" fill="#64748b" text-anchor="middle">年度排程表</text>
+
+  <!-- 分隔線 -->
+  <line x1="28" y1="174" x2="772" y2="174" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 資料列2：第1個月 - 留任率 -->
+  <rect x="28" y="174" width="744" height="58" rx="0" fill="#e8e6de" opacity="0.4"/>
+  <line x1="110" y1="174" x2="110" y2="232" stroke="#dedad3" stroke-width="1"/>
+  <rect x="120" y="182" width="8" height="8" rx="2" fill="#d97706"/>
+  <text x="136" y="193" font-size="13" fill="#1e293b" font-weight="700">計算本年度留任率</text>
+  <text x="120" y="211" font-size="11" fill="#64748b">依第30條公式計算，排除3個月內離職新進員工，完整記錄</text>
+  <line x1="410" y1="174" x2="410" y2="232" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="186" width="156" height="30" rx="6" fill="#64748b" opacity="0.1"/>
+  <text x="498" y="206" font-size="12" fill="#64748b" text-anchor="middle" font-weight="700">盲點 3（第 30 條）</text>
+  <line x1="586" y1="174" x2="586" y2="232" stroke="#dedad3" stroke-width="1"/>
+  <text x="689" y="199" font-size="11" fill="#64748b" text-anchor="middle">完成計算並以</text>
+  <text x="689" y="216" font-size="11" fill="#64748b" text-anchor="middle">書面記錄留存</text>
+
+  <!-- 分隔線 -->
+  <line x1="28" y1="232" x2="772" y2="232" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 資料列3：第2個月 - 訓練 -->
+  <rect x="28" y="232" width="744" height="58" rx="0" fill="#f0efe8"/>
+  <rect x="28" y="232" width="82" height="116" rx="0" fill="#78716c" opacity="0.07"/>
+  <text x="69" y="258" font-size="13" fill="#78716c" text-anchor="middle" font-weight="800">第 2 個月</text>
+  <text x="69" y="276" font-size="10" fill="#a8a29e" text-anchor="middle">深化改善</text>
+  <line x1="110" y1="232" x2="110" y2="348" stroke="#dedad3" stroke-width="1"/>
+  <rect x="120" y="240" width="8" height="8" rx="2" fill="#78716c"/>
+  <text x="136" y="251" font-size="13" fill="#1e293b" font-weight="700">設計年度訓練計畫</text>
+  <text x="120" y="269" font-size="11" fill="#64748b">規劃情境式訓練內容，確保在職20小時達標，網路課程不超過5小時</text>
+  <line x1="410" y1="232" x2="410" y2="290" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="244" width="156" height="30" rx="6" fill="#78716c" opacity="0.1"/>
+  <text x="498" y="264" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">盲點 2（第 29 條）</text>
+  <line x1="586" y1="232" x2="586" y2="290" stroke="#dedad3" stroke-width="1"/>
+  <text x="689" y="257" font-size="11" fill="#64748b" text-anchor="middle">含必要課程</text>
+  <text x="689" y="274" font-size="11" fill="#64748b" text-anchor="middle">與時數規劃表</text>
+
+  <!-- 分隔線 -->
+  <line x1="28" y1="290" x2="772" y2="290" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 資料列4：第2個月 - 主任進修 -->
+  <rect x="28" y="290" width="744" height="58" rx="0" fill="#e8e6de" opacity="0.4"/>
+  <line x1="110" y1="290" x2="110" y2="348" stroke="#dedad3" stroke-width="1"/>
+  <rect x="120" y="298" width="8" height="8" rx="2" fill="#78716c"/>
+  <text x="136" y="309" font-size="13" fill="#1e293b" font-weight="700">安排主任自身進修</text>
+  <text x="120" y="327" font-size="11" fill="#64748b">報名管理相關課程，完成每年至少4小時行政/品質管理訓練</text>
+  <line x1="410" y1="290" x2="410" y2="348" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="302" width="156" height="30" rx="6" fill="#a8a29e" opacity="0.15"/>
+  <text x="498" y="322" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">盲點 4（第 31 條）</text>
+  <line x1="586" y1="290" x2="586" y2="348" stroke="#dedad3" stroke-width="1"/>
+  <text x="689" y="315" font-size="11" fill="#64748b" text-anchor="middle">報名並留存</text>
+  <text x="689" y="332" font-size="11" fill="#64748b" text-anchor="middle">課程證明文件</text>
+
+  <!-- 分隔線 -->
+  <line x1="28" y1="348" x2="772" y2="348" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 資料列5：第3個月 - 健檢 -->
+  <rect x="28" y="348" width="744" height="58" rx="0" fill="#f0efe8"/>
+  <rect x="28" y="348" width="82" height="58" rx="0" fill="#94a3b8" opacity="0.08"/>
+  <text x="69" y="374" font-size="13" fill="#94a3b8" text-anchor="middle" font-weight="800">第 3 個月</text>
+  <text x="69" y="392" font-size="10" fill="#a8a29e" text-anchor="middle">鞏固制度</text>
+  <line x1="110" y1="348" x2="110" y2="406" stroke="#dedad3" stroke-width="1"/>
+  <rect x="120" y="356" width="8" height="8" rx="2" fill="#94a3b8"/>
+  <text x="136" y="367" font-size="13" fill="#1e293b" font-weight="700">更新健檢追蹤清單</text>
+  <text x="120" y="385" font-size="11" fill="#64748b">確認所有員工健檢狀態，異常值建立輔導紀錄，到期者安排複檢</text>
+  <line x1="410" y1="348" x2="410" y2="406" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="360" width="156" height="30" rx="6" fill="#94a3b8" opacity="0.15"/>
+  <text x="498" y="380" font-size="12" fill="#64748b" text-anchor="middle" font-weight="700">盲點 5（第 32 條）</text>
+  <line x1="586" y1="348" x2="586" y2="406" stroke="#dedad3" stroke-width="1"/>
+  <text x="689" y="373" font-size="11" fill="#64748b" text-anchor="middle">所有員工健檢</text>
+  <text x="689" y="390" font-size="11" fill="#64748b" text-anchor="middle">狀態確認完畢</text>
+
+  <!-- 底部邊框 -->
+  <rect x="28" y="406" width="744" height="2" rx="1" fill="#dedad3"/>
+
+  <!-- 提示文字 -->
+  <text x="28" y="430" font-size="11" fill="#94a3b8">* 建議每月底進行一次自我檢核，確認各項行動進度，並記錄執行成果以備評鑑查閱</text>
+
+  <!-- 浮水印 -->
+  <text x="756" y="468" font-size="13" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

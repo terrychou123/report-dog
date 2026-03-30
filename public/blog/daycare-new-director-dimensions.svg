@@ -1,0 +1,74 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 主背景 -->
+  <rect width="800" height="450" fill="#f0efe8"/>
+
+  <!-- 頂部標題區 -->
+  <rect x="0" y="0" width="800" height="58" fill="#e8e6de"/>
+  <text x="400" y="22" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">新手主任管理架構</text>
+  <text x="400" y="44" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="800">新手主任需掌握的六大管理面向</text>
+
+  <!-- 中心標籤 -->
+  <circle cx="400" cy="255" r="52" fill="#d97706" opacity="0.12"/>
+  <circle cx="400" cy="255" r="42" fill="#d97706" opacity="0.18"/>
+  <text x="400" y="249" font-size="14" fill="#d97706" text-anchor="middle" font-weight="800">日照</text>
+  <text x="400" y="268" font-size="14" fill="#d97706" text-anchor="middle" font-weight="800">主任</text>
+
+  <!-- 連線 -->
+  <line x1="358" y1="213" x2="230" y2="152" stroke="#dedad3" stroke-width="1.5"/>
+  <line x1="400" y1="203" x2="400" y2="132" stroke="#dedad3" stroke-width="1.5"/>
+  <line x1="442" y1="213" x2="570" y2="152" stroke="#dedad3" stroke-width="1.5"/>
+  <line x1="358" y1="297" x2="230" y2="358" stroke="#dedad3" stroke-width="1.5"/>
+  <line x1="400" y1="307" x2="400" y2="378" stroke="#dedad3" stroke-width="1.5"/>
+  <line x1="442" y1="297" x2="570" y2="358" stroke="#dedad3" stroke-width="1.5"/>
+
+  <!-- 面向1：業務計畫（上左） -->
+  <rect x="148" y="82" width="164" height="76" rx="12" fill="white" stroke="#e8e5de" stroke-width="1.5"/>
+  <rect x="148" y="82" width="164" height="28" rx="12" fill="#e8e6de"/>
+  <rect x="148" y="98" width="164" height="12" fill="#e8e6de"/>
+  <text x="230" y="102" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="800">業務計畫</text>
+  <text x="230" y="124" font-size="11" fill="#64748b" text-anchor="middle">願景、年度計畫、成果報告</text>
+  <text x="230" y="146" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">第 23 條</text>
+
+  <!-- 面向2：行政制度（上中） -->
+  <rect x="318" y="56" width="164" height="76" rx="12" fill="white" stroke="#e8e5de" stroke-width="1.5"/>
+  <rect x="318" y="56" width="164" height="28" rx="12" fill="#e8e6de"/>
+  <rect x="318" y="72" width="164" height="12" fill="#e8e6de"/>
+  <text x="400" y="76" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="800">行政制度</text>
+  <text x="400" y="98" font-size="11" fill="#64748b" text-anchor="middle">工作手冊、月行政會議</text>
+  <text x="400" y="120" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">第 24–25 條</text>
+
+  <!-- 面向3：人力管理（上右） -->
+  <rect x="488" y="82" width="164" height="76" rx="12" fill="white" stroke="#e8e5de" stroke-width="1.5"/>
+  <rect x="488" y="82" width="164" height="28" rx="12" fill="#e8e6de"/>
+  <rect x="488" y="98" width="164" height="12" fill="#e8e6de"/>
+  <text x="570" y="102" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="800">人力管理</text>
+  <text x="570" y="124" font-size="11" fill="#64748b" text-anchor="middle">設置標準、訓練、留任率</text>
+  <text x="570" y="146" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">第 28–32 條</text>
+
+  <!-- 面向4：財務管理（下左） -->
+  <rect x="148" y="348" width="164" height="76" rx="12" fill="white" stroke="#e8e5de" stroke-width="1.5"/>
+  <rect x="148" y="348" width="164" height="28" rx="12" fill="#e8e6de"/>
+  <rect x="148" y="364" width="164" height="12" fill="#e8e6de"/>
+  <text x="230" y="368" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="800">財務管理</text>
+  <text x="230" y="390" font-size="11" fill="#64748b" text-anchor="middle">獨立會計、收費收據</text>
+  <text x="230" y="412" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">第 34 條</text>
+
+  <!-- 面向5：督導品管（下中） -->
+  <rect x="318" y="375" width="164" height="76" rx="12" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="318" y="375" width="164" height="28" rx="12" fill="#d97706" opacity="0.15"/>
+  <rect x="318" y="391" width="164" height="12" fill="#d97706" opacity="0.15"/>
+  <text x="400" y="395" font-size="14" fill="#d97706" text-anchor="middle" font-weight="800">督導品管</text>
+  <text x="400" y="417" font-size="11" fill="#64748b" text-anchor="middle">個督、團督、品管指標</text>
+  <text x="400" y="439" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">第 9、22 條</text>
+
+  <!-- 面向6：緊急管理（下右） -->
+  <rect x="488" y="348" width="164" height="76" rx="12" fill="white" stroke="#e8e5de" stroke-width="1.5"/>
+  <rect x="488" y="348" width="164" height="28" rx="12" fill="#e8e6de"/>
+  <rect x="488" y="364" width="164" height="12" fill="#e8e6de"/>
+  <text x="570" y="368" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="800">緊急管理</text>
+  <text x="570" y="390" font-size="11" fill="#64748b" text-anchor="middle">緊急事故、應變機制</text>
+  <text x="570" y="412" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">第 35–37 條</text>
+
+  <!-- 浮水印 -->
+  <text x="756" y="440" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="450" fill="#f0efe8"/>
+
+  <!-- 頂部標題區 -->
+  <rect x="0" y="0" width="800" height="56" fill="#e8e6de"/>
+  <text x="30" y="34" font-size="18" font-weight="700" fill="#1e293b">7 個實戰技巧總覽</text>
+  <text x="30" y="50" font-size="12" fill="#78716c">對應 115 年度日間照顧中心評鑑基準</text>
+
+  <!-- 卡片列表 -->
+  <!-- 技巧 1 -->
+  <rect x="30" y="72" width="740" height="46" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="72" width="6" height="46" rx="3" fill="#d97706"/>
+  <text x="52" y="92" font-size="13" font-weight="700" fill="#d97706">01</text>
+  <text x="76" y="92" font-size="14" font-weight="600" fill="#1e293b">情緒同理優先回應</text>
+  <text x="76" y="109" font-size="12" fill="#64748b">先認可情緒，不直接反駁長輩的感受</text>
+  <rect x="620" y="82" width="80" height="22" rx="5" fill="#d97706" opacity="0.1"/>
+  <text x="660" y="97" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">第 6 條</text>
+
+  <!-- 技巧 2 -->
+  <rect x="30" y="126" width="740" height="46" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="126" width="6" height="46" rx="3" fill="#78716c"/>
+  <text x="52" y="146" font-size="13" font-weight="700" fill="#78716c">02</text>
+  <text x="76" y="146" font-size="14" font-weight="600" fill="#1e293b">善用個別化活動轉移注意力</text>
+  <text x="76" y="163" font-size="12" fill="#64748b">依據個案職業、興趣安排熟悉活動</text>
+  <rect x="600" y="136" width="110" height="22" rx="5" fill="#78716c" opacity="0.1"/>
+  <text x="655" y="151" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">第 6、11 條</text>
+
+  <!-- 技巧 3 -->
+  <rect x="30" y="180" width="740" height="46" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="180" width="6" height="46" rx="3" fill="#78716c"/>
+  <text x="52" y="200" font-size="13" font-weight="700" fill="#78716c">03</text>
+  <text x="76" y="200" font-size="14" font-weight="600" fill="#1e293b">創造「家」的熟悉感</text>
+  <text x="76" y="217" font-size="12" fill="#64748b">放置家人照片、熟悉物品於個案座位旁</text>
+  <rect x="620" y="190" width="80" height="22" rx="5" fill="#78716c" opacity="0.1"/>
+  <text x="660" y="205" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">第 13 條</text>
+
+  <!-- 技巧 4 -->
+  <rect x="30" y="234" width="740" height="46" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="234" width="6" height="46" rx="3" fill="#94a3b8"/>
+  <text x="52" y="254" font-size="13" font-weight="700" fill="#94a3b8">04</text>
+  <text x="76" y="254" font-size="14" font-weight="600" fill="#1e293b">辨識並回應潛在需求</text>
+  <text x="76" y="271" font-size="12" fill="#64748b">系統性排查身體不適（餓、痛、如廁）</text>
+  <rect x="620" y="244" width="80" height="22" rx="5" fill="#94a3b8" opacity="0.15"/>
+  <text x="660" y="259" font-size="12" fill="#64748b" text-anchor="middle" font-weight="600">第 5 條</text>
+
+  <!-- 技巧 5 -->
+  <rect x="30" y="288" width="740" height="46" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="288" width="6" height="46" rx="3" fill="#94a3b8"/>
+  <text x="52" y="308" font-size="13" font-weight="700" fill="#94a3b8">05</text>
+  <text x="76" y="308" font-size="14" font-weight="600" fill="#1e293b">與家屬建立共識與溝通機制</text>
+  <text x="76" y="325" font-size="12" fill="#64748b">事先統一回應方式，減少長輩混亂</text>
+  <rect x="620" y="298" width="80" height="22" rx="5" fill="#94a3b8" opacity="0.15"/>
+  <text x="660" y="313" font-size="12" fill="#64748b" text-anchor="middle" font-weight="600">第 19 條</text>
+
+  <!-- 技巧 6 -->
+  <rect x="30" y="342" width="740" height="46" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="342" width="6" height="46" rx="3" fill="#a8a29e"/>
+  <text x="52" y="362" font-size="13" font-weight="700" fill="#a8a29e">06</text>
+  <text x="76" y="362" font-size="14" font-weight="600" fill="#1e293b">做好安全看視與紀錄</text>
+  <text x="76" y="379" font-size="12" fill="#64748b">針對遊走風險個案加強監看並完整記錄</text>
+  <rect x="620" y="352" width="80" height="22" rx="5" fill="#a8a29e" opacity="0.15"/>
+  <text x="660" y="367" font-size="12" fill="#a8a29e" text-anchor="middle" font-weight="600">第 14 條</text>
+
+  <!-- 技巧 7 -->
+  <rect x="30" y="396" width="740" height="38" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="30" y="396" width="6" height="38" rx="3" fill="#d97706"/>
+  <text x="52" y="412" font-size="13" font-weight="700" fill="#d97706">07</text>
+  <text x="76" y="412" font-size="14" font-weight="600" fill="#1e293b">定期評估並更新照顧計畫</text>
+  <text x="76" y="426" font-size="12" fill="#64748b">記錄有效策略，納入追蹤評值</text>
+  <rect x="600" y="403" width="110" height="22" rx="5" fill="#d97706" opacity="0.1"/>
+  <text x="655" y="418" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">第 6、7 條</text>
+
+  <!-- 浮水印 -->
+  <text x="756" y="442" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

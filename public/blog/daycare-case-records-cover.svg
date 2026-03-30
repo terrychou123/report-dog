@@ -1,0 +1,76 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 主背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾：大數字「6」代表六大核心項目 -->
+  <text x="930" y="280" font-size="240" font-weight="900" fill="#dedad3" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">6</text>
+  <text x="930" y="330" font-size="20" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">大核心紀錄項目</text>
+
+  <!-- 右側文件模擬圖示 -->
+  <rect x="860" y="360" width="140" height="18" rx="4" fill="#c4bfb8" opacity="0.6"/>
+  <rect x="860" y="386" width="110" height="14" rx="4" fill="#c4bfb8" opacity="0.4"/>
+  <rect x="860" y="408" width="125" height="14" rx="4" fill="#c4bfb8" opacity="0.4"/>
+  <rect x="860" y="430" width="95" height="14" rx="4" fill="#c4bfb8" opacity="0.4"/>
+
+  <!-- 右側條文標籤 -->
+  <rect x="855" y="460" width="60" height="26" rx="13" fill="#d97706" opacity="0.15"/>
+  <text x="885" y="478" font-size="13" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第5條</text>
+  <rect x="925" y="460" width="60" height="26" rx="13" fill="#d97706" opacity="0.15"/>
+  <text x="955" y="478" font-size="13" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第6條</text>
+  <rect x="995" y="460" width="60" height="26" rx="13" fill="#d97706" opacity="0.15"/>
+  <text x="1025" y="478" font-size="13" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第7條</text>
+  <rect x="855" y="494" width="60" height="26" rx="13" fill="#94a3b8" opacity="0.2"/>
+  <text x="885" y="512" font-size="13" fill="#64748b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第8條</text>
+  <rect x="925" y="494" width="60" height="26" rx="13" fill="#94a3b8" opacity="0.2"/>
+  <text x="955" y="512" font-size="13" fill="#64748b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第10條</text>
+  <rect x="995" y="494" width="60" height="26" rx="13" fill="#94a3b8" opacity="0.2"/>
+  <text x="1025" y="512" font-size="13" fill="#64748b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第14條</text>
+
+  <!-- 左側內容區 -->
+  <!-- Tag 標籤 -->
+  <rect x="60" y="72" width="96" height="32" rx="8" fill="#e8e6de"/>
+  <text x="108" y="93" font-size="15" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">紀錄撰寫</text>
+
+  <!-- 年度標籤 -->
+  <rect x="168" y="72" width="112" height="32" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="224" y="93" font-size="15" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">115 年度評鑑</text>
+
+  <!-- 主標題 -->
+  <text x="60" y="192" font-size="52" font-weight="700" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">個案紀錄怎麼寫</text>
+  <text x="60" y="260" font-size="52" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">才符合評鑑標準？</text>
+
+  <!-- 水平分隔線 -->
+  <line x1="60" y1="288" x2="760" y2="288" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="322" font-size="18" fill="#64748b" font-family="'Noto Sans TC', sans-serif">範例模板 · 常見 NG 寫法 · 對照 115 年度評鑑基準第 5–10 條</text>
+
+  <!-- 底部特色標籤群組 -->
+  <rect x="60" y="390" width="100" height="36" rx="10" fill="#1e293b"/>
+  <text x="110" y="413" font-size="15" fill="#f0efe8" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">評估紀錄</text>
+
+  <rect x="172" y="390" width="100" height="36" rx="10" fill="#1e293b"/>
+  <text x="222" y="413" font-size="15" fill="#f0efe8" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">照顧計畫</text>
+
+  <rect x="284" y="390" width="100" height="36" rx="10" fill="#d97706"/>
+  <text x="334" y="413" font-size="15" fill="#fff" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">追蹤評值</text>
+
+  <rect x="396" y="390" width="100" height="36" rx="10" fill="#78716c"/>
+  <text x="446" y="413" font-size="15" fill="#f0efe8" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">紀錄保存</text>
+
+  <!-- 底部說明文字 -->
+  <text x="60" y="472" font-size="16" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">日照中心社工 × 照服員 × 主任必讀</text>
+
+  <!-- 底部分隔線 -->
+  <line x1="60" y1="490" x2="760" y2="490" stroke="#dedad3" stroke-width="1.5"/>
+
+  <!-- 品牌名稱 -->
+  <text x="60" y="522" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">報告汪</text>
+  <text x="118" y="522" font-size="16" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">長照評鑑知識平台</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="618" font-size="13" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

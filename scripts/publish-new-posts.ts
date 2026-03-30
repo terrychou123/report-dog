@@ -1,5 +1,5 @@
 /**
- * 將 5 篇新文章設為 published
+ * 將 4 篇新文章設為 published
  * npx tsx --env-file=.env.local scripts/publish-new-posts.ts
  */
 import { drizzle } from "drizzle-orm/postgres-js";
@@ -18,18 +18,17 @@ function getDbUrl(raw = process.env.DATABASE_URL) {
 }
 
 const slugs = [
-  "daycare-evaluation-inspector-perspective-2026",
-  "daycare-evaluation-faq-15-questions-2026",
-  "daycare-evaluation-3month-timeline-2026",
-  "daycare-quality-indicator-setup-guide-2026",
-  "daycare-post-evaluation-action-plan-2026",
+  "daycare-new-director-survival-guide-2026",
+  "daycare-dementia-want-go-home-tips-2026",
+  "daycare-case-records-writing-guide-2026",
+  "daycare-staff-retention-blind-spots-2026",
 ];
 
 async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
 
-  console.log("🚀 開始發佈 5 篇新文章...\n");
+  console.log("🚀 開始發佈 4 篇新文章...\n");
 
   for (const slug of slugs) {
     const [result] = await db

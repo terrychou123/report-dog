@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字 -->
+  <text x="930" y="240" font-size="180" font-weight="900" fill="#dedad3" text-anchor="middle" opacity="0.8">5</text>
+  <text x="930" y="285" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="500">個盲點</text>
+
+  <!-- 右側裝飾標籤 -->
+  <rect x="860" y="340" width="140" height="36" rx="18" fill="#d97706" opacity="0.15"/>
+  <text x="930" y="363" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">115 年度評鑑基準</text>
+
+  <rect x="860" y="388" width="140" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="930" y="411" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">對照條文解析</text>
+
+  <rect x="860" y="436" width="140" height="36" rx="18" fill="#64748b" opacity="0.12"/>
+  <text x="930" y="459" font-size="14" fill="#64748b" text-anchor="middle" font-weight="600">改善行動計畫</text>
+
+  <!-- 左側主內容區 -->
+  <!-- 類別 tag -->
+  <rect x="60" y="70" width="88" height="30" rx="6" fill="#e8e6de"/>
+  <text x="104" y="90" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">經營管理</text>
+
+  <!-- 水平裝飾線 -->
+  <rect x="60" y="118" width="48" height="4" rx="2" fill="#d97706"/>
+  <rect x="116" y="118" width="24" height="4" rx="2" fill="#dedad3"/>
+
+  <!-- 主標題 -->
+  <text x="60" y="200" font-size="54" font-weight="900" fill="#1e293b">日照中心</text>
+  <text x="60" y="268" font-size="54" font-weight="900" fill="#d97706">留不住人的真正原因</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="325" font-size="20" fill="#64748b" font-weight="400">5 個被忽略的盲點 · 對照 115 年度評鑑基準 · 含改善行動</text>
+
+  <!-- 水平分隔線 -->
+  <line x1="60" y1="360" x2="780" y2="360" stroke="#dedad3" stroke-width="1.5"/>
+
+  <!-- 底部特色標籤列 -->
+  <!-- 督導機制 -->
+  <rect x="60" y="385" width="94" height="34" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="107" y="407" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">督導機制</text>
+
+  <!-- 教育訓練 -->
+  <rect x="166" y="385" width="94" height="34" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="213" y="407" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">教育訓練</text>
+
+  <!-- 留任率 -->
+  <rect x="272" y="385" width="76" height="34" rx="8" fill="#64748b" opacity="0.12"/>
+  <text x="310" y="407" font-size="14" fill="#64748b" text-anchor="middle" font-weight="600">留任率</text>
+
+  <!-- 健康管理 -->
+  <rect x="360" y="385" width="94" height="34" rx="8" fill="#a8a29e" opacity="0.18"/>
+  <text x="407" y="407" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">健康管理</text>
+
+  <!-- 底部補充說明 -->
+  <text x="60" y="468" font-size="16" fill="#94a3b8" font-weight="400">適用對象：日照中心主任 · 照管人員 · 評鑑準備團隊</text>
+
+  <!-- 網站標識 -->
+  <text x="60" y="510" font-size="16" fill="#d97706" font-weight="700">報告汪</text>
+  <text x="105" y="510" font-size="16" fill="#94a3b8" font-weight="400">reportwang.com</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="618" font-size="13" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

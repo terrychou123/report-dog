@@ -1,0 +1,86 @@
+<svg width="800" height="480" viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="480" fill="#f0efe8"/>
+
+  <!-- 頂部標題區 -->
+  <rect x="0" y="0" width="800" height="52" fill="#e8e6de"/>
+  <text x="30" y="30" font-size="17" font-weight="700" fill="#1e293b">情境應對流程</text>
+  <text x="30" y="47" font-size="12" fill="#78716c">從「我要回家」到有效回應的標準化步驟</text>
+
+  <!-- 步驟 1：長輩說我要回家（起始） -->
+  <rect x="260" y="68" width="280" height="44" rx="22" fill="#d97706"/>
+  <text x="400" y="88" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">長輩說：我要回家</text>
+  <text x="400" y="105" font-size="11" fill="#fff3cd" text-anchor="middle">情境觸發</text>
+
+  <!-- 箭頭 1 -->
+  <line x1="400" y1="112" x2="400" y2="132" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="394,130 406,130 400,140" fill="#a8a29e"/>
+
+  <!-- 步驟 2：情緒同理 -->
+  <rect x="260" y="142" width="280" height="44" rx="8" fill="#e8e6de" stroke="#d97706" stroke-width="1.5"/>
+  <text x="400" y="162" font-size="13" font-weight="600" fill="#1e293b" text-anchor="middle">先情緒同理（不反駁）</text>
+  <text x="400" y="179" font-size="11" fill="#78716c" text-anchor="middle">「我知道你想回家，那個感覺很真實」</text>
+
+  <!-- 評鑑標籤 -->
+  <rect x="556" y="152" width="70" height="20" rx="4" fill="#d97706" opacity="0.15"/>
+  <text x="591" y="166" font-size="10" fill="#d97706" text-anchor="middle" font-weight="600">第 6 條</text>
+
+  <!-- 箭頭 2 -->
+  <line x1="400" y1="186" x2="400" y2="206" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="394,204 406,204 400,214" fill="#a8a29e"/>
+
+  <!-- 步驟 3：判斷菱形 -->
+  <polygon points="400,216 510,248 400,280 290,248" fill="#e8e6de" stroke="#78716c" stroke-width="1.5"/>
+  <text x="400" y="244" font-size="12" font-weight="600" fill="#1e293b" text-anchor="middle">排查身體需求？</text>
+  <text x="400" y="260" font-size="11" fill="#64748b" text-anchor="middle">餓、痛、如廁</text>
+
+  <!-- 是分支 -->
+  <line x1="290" y1="248" x2="170" y2="248" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="172,242 172,254 162,248" fill="#a8a29e"/>
+  <text x="240" y="240" font-size="11" fill="#78716c" text-anchor="middle">是</text>
+
+  <!-- 是：處理身體需求 -->
+  <rect x="60" y="224" width="110" height="48" rx="8" fill="#e8e6de" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="115" y="244" font-size="12" font-weight="600" fill="#1e293b" text-anchor="middle">處理身體需求</text>
+  <text x="115" y="260" font-size="10" fill="#64748b" text-anchor="middle">提供餐食/協助如廁</text>
+  <!-- 評鑑 -->
+  <rect x="75" y="276" width="80" height="18" rx="4" fill="#94a3b8" opacity="0.2"/>
+  <text x="115" y="289" font-size="10" fill="#64748b" text-anchor="middle" font-weight="600">第 5 條</text>
+
+  <!-- 是分支向下接流程 -->
+  <line x1="115" y1="294" x2="115" y2="340" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="115" y1="340" x2="400" y2="340" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- 否分支 -->
+  <line x1="400" y1="280" x2="400" y2="300" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="394,298 406,298 400,308" fill="#a8a29e"/>
+  <text x="420" y="294" font-size="11" fill="#78716c">否</text>
+
+  <!-- 步驟 4：啟動轉移活動 -->
+  <rect x="260" y="310" width="280" height="44" rx="8" fill="#e8e6de" stroke="#78716c" stroke-width="1.5"/>
+  <text x="400" y="330" font-size="13" font-weight="600" fill="#1e293b" text-anchor="middle">啟動轉移活動（個別化）</text>
+  <text x="400" y="347" font-size="11" fill="#78716c" text-anchor="middle">依興趣/職業安排熟悉活動</text>
+  <!-- 評鑑標籤 -->
+  <rect x="556" y="320" width="80" height="20" rx="4" fill="#78716c" opacity="0.12"/>
+  <text x="596" y="334" font-size="10" fill="#78716c" text-anchor="middle" font-weight="600">第 6、11 條</text>
+
+  <!-- 箭頭 4 -->
+  <line x1="400" y1="354" x2="400" y2="374" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="394,372 406,372 400,382" fill="#a8a29e"/>
+
+  <!-- 步驟 5：記錄照顧紀錄 -->
+  <rect x="260" y="384" width="280" height="34" rx="8" fill="#1e293b" opacity="0.85"/>
+  <text x="400" y="398" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">記錄有效策略到照顧紀錄</text>
+  <text x="400" y="412" font-size="11" fill="#a8a29e" text-anchor="middle">第 6、7 條要求</text>
+
+  <!-- 箭頭 5 -->
+  <line x1="400" y1="418" x2="400" y2="434" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="394,432 406,432 400,442" fill="#a8a29e"/>
+
+  <!-- 步驟 6：定期評估更新計畫 -->
+  <rect x="290" y="442" width="220" height="24" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1"/>
+  <text x="400" y="458" font-size="12" font-weight="600" fill="#d97706" text-anchor="middle">定期評估更新照顧計畫（第 7 條）</text>
+
+  <!-- 浮水印 -->
+  <text x="756" y="472" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+</svg>
