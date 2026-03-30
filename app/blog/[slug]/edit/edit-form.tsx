@@ -1,18 +1,19 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { InferSelectModel } from "drizzle-orm";
 import { blogPosts } from "@/db/schema";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
+import Image from "@tiptap/extension-image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
-import { ArrowLeft, Bold, Italic, Strikethrough, Code, Heading1, Heading2, Heading3, List, ListOrdered, Quote, Minus } from "lucide-react";
+import { ArrowLeft, Bold, Italic, Strikethrough, Code, Heading1, Heading2, Heading3, List, ListOrdered, Quote, Minus, ImageIcon, Loader2 } from "lucide-react";
 import Link from "next/link";
 
 type BlogPost = InferSelectModel<typeof blogPosts>;
@@ -25,6 +26,9 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
   const router = useRouter();
   const [isSaving, setIsSaving] = useState(false);
   const [slugChanged, setSlugChanged] = useState(false);
+  const [isUploading, setIsUploading] = useState(false);
+  // 隱藏的 file input ref，用於觸發圖片選擇
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const [form, setForm] = useState({
     slug: post.slug,
@@ -40,7 +44,11 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
 
   const editor = useEditor({
     immediatelyRender: false,
-    extensions: [StarterKit],
+    extensions: [
+      StarterKit,
+      // 圖片擴充套件：支援 src / alt / title
+      Image.configure({ inline: false, allowBase64: false }),
+    ],
     content: post.content ?? "",
     editorProps: {
       attributes: {
@@ -48,6 +56,31 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
       },
     },
   });
+
+  /** 處理圖片上傳：呼叫 API 後將圖片插入編輯器 */
+  async function handleImageUpload(file: File) {
+    if (!editor) return;
+    setIsUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      const res = await fetch("/api/blog/upload-image", {
+        method: "POST",
+        body: formData,
+      });
+      if (!res.ok) {
+        const { error } = await res.json().catch(() => ({}));
+        throw new Error(error ?? "Upload failed");
+      }
+      const { url } = await res.json();
+      editor.chain().focus().setImage({ src: url }).run();
+      toast.success("圖片已上傳");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "圖片上傳失敗");
+    } finally {
+      setIsUploading(false);
+    }
+  }
 
   const handleChange = useCallback(
     (field: keyof typeof form, value: string) => {
@@ -239,6 +272,19 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                   >
                     <Minus className="w-4 h-4" />
                   </ToolbarButton>
+                  <div className="w-px bg-border mx-1" />
+                  {/* 圖片上傳按鈕 */}
+                  <ToolbarButton
+                    onClick={() => fileInputRef.current?.click()}
+                    title="插入圖片"
+                    disabled={isUploading}
+                  >
+                    {isUploading ? (
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                    ) : (
+                      <ImageIcon className="w-4 h-4" />
+                    )}
+                  </ToolbarButton>
                 </div>
                 <EditorContent editor={editor} />
               </div>
@@ -336,6 +382,19 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
           </div>
         </div>
       </div>
+      {/* 隱藏的圖片選擇器，由工具列按鈕觸發 */}
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        className="hidden"
+        onChange={(e) => {
+          const file = e.target.files?.[0];
+          if (file) handleImageUpload(file);
+          // 清空 value 使同一檔案可重複選擇
+          e.target.value = "";
+        }}
+      />
     </div>
   );
 }
@@ -344,11 +403,13 @@ function ToolbarButton({
   onClick,
   active,
   title,
+  disabled,
   children,
 }: {
   onClick?: () => void;
   active?: boolean;
   title?: string;
+  disabled?: boolean;
   children: React.ReactNode;
 }) {
   return (
@@ -356,9 +417,11 @@ function ToolbarButton({
       type="button"
       title={title}
       onClick={onClick}
+      disabled={disabled}
       className={cn(
         "p-1.5 rounded hover:bg-accent transition-colors",
-        active && "bg-accent"
+        active && "bg-accent",
+        disabled && "opacity-50 cursor-not-allowed"
       )}
     >
       {children}

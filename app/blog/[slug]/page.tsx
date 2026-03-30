@@ -25,7 +25,27 @@ function isValidImageUrl(url: string | null): url is string {
 async function getPost(slug: string) {
   "use cache";
   const [post] = await db.select().from(blogPosts).where(eq(blogPosts.slug, slug));
-  return post;
+  if (!post) return undefined;
+  // 在快取邊界內執行 HTML 清理，避免 Server Component 預渲染時的 Math.random() 限制
+  return {
+    ...post,
+    content: post.content
+      ? sanitizeHtml(post.content, {
+          allowedTags: sanitizeHtml.defaults.allowedTags.concat([
+            "img",
+            "figure",
+            "figcaption",
+          ]),
+          allowedAttributes: {
+            ...sanitizeHtml.defaults.allowedAttributes,
+            img: ["src", "alt", "style", "width", "height"],
+            figure: ["style"],
+            figcaption: ["style"],
+          },
+          allowProtocolRelative: true,
+        })
+      : post.content,
+  };
 }
 
 export async function generateStaticParams() {
@@ -173,27 +193,12 @@ export default async function BlogPostPage({ params }: Props) {
             </p>
           )}
 
-          {/* 文章內容 — 限制閱讀寬度 */}
+          {/* 文章內容 — 限制閱讀寬度，HTML 已在 getPost 快取內清理完畢 */}
           {post.content && (
             <div className="max-w-3xl">
               <div
                 className="blog-content"
-                dangerouslySetInnerHTML={{
-                  __html: sanitizeHtml(post.content, {
-                    allowedTags: sanitizeHtml.defaults.allowedTags.concat([
-                      "img",
-                      "figure",
-                      "figcaption",
-                    ]),
-                    allowedAttributes: {
-                      ...sanitizeHtml.defaults.allowedAttributes,
-                      img: ["src", "alt", "style", "width", "height"],
-                      figure: ["style"],
-                      figcaption: ["style"],
-                    },
-                    allowProtocolRelative: true,
-                  }),
-                }}
+                dangerouslySetInnerHTML={{ __html: post.content }}
               />
             </div>
           )}
