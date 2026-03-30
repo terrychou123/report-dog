@@ -1,51 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460">
-  <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7c3aed"/>
-      <stop offset="100%" style="stop-color:#a78bfa"/>
-    </linearGradient>
-    <!-- 各象限漸層 -->
-    <linearGradient id="planGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0ea5e9"/>
-      <stop offset="100%" style="stop-color:#38bdf8"/>
-    </linearGradient>
-    <linearGradient id="doGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#10b981"/>
-      <stop offset="100%" style="stop-color:#34d399"/>
-    </linearGradient>
-    <linearGradient id="checkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f59e0b"/>
-      <stop offset="100%" style="stop-color:#fbbf24"/>
-    </linearGradient>
-    <linearGradient id="actGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8b5cf6"/>
-      <stop offset="100%" style="stop-color:#a78bfa"/>
-    </linearGradient>
-  </defs>
-
-  <!-- 背景 -->
-  <rect width="800" height="460" fill="#f8fafc"/>
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="460" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="56" fill="url(#headerGrad)"/>
+  <rect x="0" y="0" width="800" height="56" fill="#78716c"/>
   <text x="32" y="22" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">品管指標管理</text>
   <text x="32" y="44" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">PDCA 品質管理循環</text>
 
   <!-- ===== PDCA 圓形圖 ===== -->
   <!-- 外圈裝飾 -->
-  <circle cx="272" cy="272" r="190" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="272" cy="272" r="190" fill="white" stroke="#e8e5de" stroke-width="1.5"/>
 
-  <!-- P 象限 (左上, 0~90度) — 藍 -->
-  <path d="M 272 272 L 272 82 A 190 190 0 0 1 462 272 Z" fill="url(#planGrad)" opacity="0.9"/>
-  <!-- D 象限 (右上, 90~180度) — 綠 -->
-  <path d="M 272 272 L 462 272 A 190 190 0 0 1 272 462 Z" fill="url(#doGrad)" opacity="0.9"/>
-  <!-- C 象限 (右下, 180~270度) — 橙 -->
-  <path d="M 272 272 L 272 462 A 190 190 0 0 1 82 272 Z" fill="url(#checkGrad)" opacity="0.9"/>
-  <!-- A 象限 (左下, 270~360度) — 紫 -->
-  <path d="M 272 272 L 82 272 A 190 190 0 0 1 272 82 Z" fill="url(#actGrad)" opacity="0.9"/>
+  <!-- P 象限 (左上, 0~90度) — 暖灰藍 -->
+  <path d="M 272 272 L 272 82 A 190 190 0 0 1 462 272 Z" fill="#94a3b8" opacity="0.9"/>
+  <!-- D 象限 (右上, 90~180度) — 暖褐 -->
+  <path d="M 272 272 L 462 272 A 190 190 0 0 1 272 462 Z" fill="#a8a29e" opacity="0.9"/>
+  <!-- C 象限 (右下, 180~270度) — 琥珀 -->
+  <path d="M 272 272 L 272 462 A 190 190 0 0 1 82 272 Z" fill="#d97706" opacity="0.9"/>
+  <!-- A 象限 (左下, 270~360度) — 深灰褐 -->
+  <path d="M 272 272 L 82 272 A 190 190 0 0 1 272 82 Z" fill="#78716c" opacity="0.9"/>
 
   <!-- 中心白圓 -->
-  <circle cx="272" cy="272" r="70" fill="white" stroke="#f1f5f9" stroke-width="2"/>
+  <circle cx="272" cy="272" r="70" fill="white" stroke="#e8e5de" stroke-width="2"/>
   <text x="272" y="262" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">品管</text>
   <text x="272" y="282" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">循環</text>
   <text x="272" y="300" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">PDCA</text>
@@ -69,45 +45,45 @@
 
   <!-- ===== 右側說明卡片 ===== -->
   <!-- P 卡片 -->
-  <rect x="490" y="72" width="286" height="84" rx="10" fill="white" stroke="#bae6fd" stroke-width="1.5"/>
-  <rect x="490" y="72" width="6" height="84" rx="3" fill="#0ea5e9"/>
-  <text x="510" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#0369a1" font-weight="700">P — Plan　自訂指標</text>
-  <rect x="510" y="100" width="80" height="20" rx="5" fill="#f0f9ff"/>
-  <text x="550" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#0ea5e9">選定指標項目</text>
-  <rect x="600" y="100" width="80" height="20" rx="5" fill="#f0f9ff"/>
-  <text x="640" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#0ea5e9">設定目標數值</text>
+  <rect x="490" y="72" width="286" height="84" rx="10" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <rect x="490" y="72" width="6" height="84" rx="3" fill="#94a3b8"/>
+  <text x="510" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b" font-weight="700">P — Plan　自訂指標</text>
+  <rect x="510" y="100" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="550" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#94a3b8">選定指標項目</text>
+  <rect x="600" y="100" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="640" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#94a3b8">設定目標數值</text>
   <text x="510" y="142" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">訂定計算公式、資料來源與負責人員</text>
 
   <!-- D 卡片 -->
-  <rect x="490" y="170" width="286" height="84" rx="10" fill="white" stroke="#a7f3d0" stroke-width="1.5"/>
-  <rect x="490" y="170" width="6" height="84" rx="3" fill="#10b981"/>
-  <text x="510" y="190" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#065f46" font-weight="700">D — Do　每月追蹤</text>
-  <rect x="510" y="198" width="80" height="20" rx="5" fill="#f0fdf4"/>
-  <text x="550" y="212" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#10b981">每月收集數據</text>
-  <rect x="600" y="198" width="80" height="20" rx="5" fill="#f0fdf4"/>
-  <text x="640" y="212" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#10b981">填入追蹤表格</text>
+  <rect x="490" y="170" width="286" height="84" rx="10" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <rect x="490" y="170" width="6" height="84" rx="3" fill="#a8a29e"/>
+  <text x="510" y="190" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b" font-weight="700">D — Do　每月追蹤</text>
+  <rect x="510" y="198" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="550" y="212" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#a8a29e">每月收集數據</text>
+  <rect x="600" y="198" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="640" y="212" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#a8a29e">填入追蹤表格</text>
   <text x="510" y="240" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">建立月報表，持續累積歷史數據</text>
 
   <!-- C 卡片 -->
-  <rect x="490" y="268" width="286" height="84" rx="10" fill="white" stroke="#fde68a" stroke-width="1.5"/>
-  <rect x="490" y="268" width="6" height="84" rx="3" fill="#f59e0b"/>
-  <text x="510" y="288" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#92400e" font-weight="700">C — Check　異常分析</text>
-  <rect x="510" y="296" width="80" height="20" rx="5" fill="#fffbeb"/>
-  <text x="550" y="310" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#f59e0b">比對目標差距</text>
-  <rect x="600" y="296" width="80" height="20" rx="5" fill="#fffbeb"/>
-  <text x="640" y="310" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#f59e0b">逐案根因分析</text>
+  <rect x="490" y="268" width="286" height="84" rx="10" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <rect x="490" y="268" width="6" height="84" rx="3" fill="#d97706"/>
+  <text x="510" y="288" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b" font-weight="700">C — Check　異常分析</text>
+  <rect x="510" y="296" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="550" y="310" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#d97706">比對目標差距</text>
+  <rect x="600" y="296" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="640" y="310" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#d97706">逐案根因分析</text>
   <text x="510" y="338" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">異常個案需書面說明原因</text>
 
   <!-- A 卡片 -->
-  <rect x="490" y="366" width="286" height="68" rx="10" fill="white" stroke="#ddd6fe" stroke-width="1.5"/>
-  <rect x="490" y="366" width="6" height="68" rx="3" fill="#8b5cf6"/>
-  <text x="510" y="386" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#5b21b6" font-weight="700">A — Act　擬定改善</text>
-  <rect x="510" y="394" width="80" height="20" rx="5" fill="#f5f3ff"/>
-  <text x="550" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#8b5cf6">撰寫改善方案</text>
-  <rect x="600" y="394" width="80" height="20" rx="5" fill="#f5f3ff"/>
-  <text x="640" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#8b5cf6">更新 SOP 流程</text>
+  <rect x="490" y="366" width="286" height="68" rx="10" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <rect x="490" y="366" width="6" height="68" rx="3" fill="#78716c"/>
+  <text x="510" y="386" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b" font-weight="700">A — Act　擬定改善</text>
+  <rect x="510" y="394" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="550" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">撰寫改善方案</text>
+  <rect x="600" y="394" width="80" height="20" rx="5" fill="#f0efe8"/>
+  <text x="640" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">更新 SOP 流程</text>
 
   <!-- 底部 -->
-  <rect x="0" y="440" width="800" height="20" fill="#f1f5f9"/>
-  <text x="400" y="454" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">PDCA 品管循環 · 日照中心品管指標管理 · 報告汪製作</text>
+  <rect x="0" y="440" width="800" height="20" fill="#e8e5de"/>
+  <text x="400" y="454" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#c4bfb8">PDCA 品管循環 · 日照中心品管指標管理 · 報告汪 reportwang.com</text>
 </svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460">
+
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="460" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="38" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">評鑑準備 12 週時程規劃</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">各階段任務分配 · 確保準備有序推進</text>
+
+  <!-- 中央水平時間軸 -->
+  <line x1="60" y1="230" x2="740" y2="230" stroke="#d6d3d1" stroke-width="2.5"/>
+  <circle cx="60" cy="230" r="4" fill="#d6d3d1"/>
+  <circle cx="740" cy="230" r="4" fill="#d6d3d1"/>
+
+  <!-- 節點 1：了解基準（slate-400）— 上方 -->
+  <line x1="130" y1="130" x2="130" y2="218" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="130" cy="230" r="14" fill="white" stroke="#94a3b8" stroke-width="2.5"/>
+  <circle cx="130" cy="230" r="8" fill="#94a3b8"/>
+  <rect x="100" y="240" width="60" height="20" rx="10" fill="#94a3b8"/>
+  <text x="130" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">W1–W2</text>
+  <rect x="70" y="70" width="120" height="52" rx="8" fill="white"/>
+  <rect x="70" y="70" width="120" height="6" rx="3" fill="#94a3b8"/>
+  <rect x="70" y="73" width="120" height="3" fill="#94a3b8"/>
+  <text x="130" y="98" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">了解基準</text>
+  <text x="130" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#64748b">研讀手冊・標記重點</text>
+
+  <!-- 節點 2：分工規劃（stone-400）— 下方 -->
+  <line x1="270" y1="242" x2="270" y2="330" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="270" cy="230" r="14" fill="white" stroke="#a8a29e" stroke-width="2.5"/>
+  <circle cx="270" cy="230" r="8" fill="#a8a29e"/>
+  <rect x="240" y="202" width="60" height="20" rx="10" fill="#a8a29e"/>
+  <text x="270" y="216" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">W3–W4</text>
+  <rect x="210" y="338" width="120" height="52" rx="8" fill="white"/>
+  <rect x="210" y="384" width="120" height="6" rx="3" fill="#a8a29e"/>
+  <rect x="210" y="381" width="120" height="3" fill="#a8a29e"/>
+  <text x="270" y="358" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">分工規劃</text>
+  <text x="270" y="374" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#64748b">責任矩陣・時程設定</text>
+
+  <!-- 節點 3：文件蒐集（neutral-400）— 上方 -->
+  <line x1="430" y1="130" x2="430" y2="218" stroke="#a3a3a3" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="430" cy="230" r="14" fill="white" stroke="#a3a3a3" stroke-width="2.5"/>
+  <circle cx="430" cy="230" r="8" fill="#a3a3a3"/>
+  <rect x="400" y="240" width="60" height="20" rx="10" fill="#a3a3a3"/>
+  <text x="430" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">W5–W8</text>
+  <rect x="370" y="70" width="120" height="52" rx="8" fill="white"/>
+  <rect x="370" y="70" width="120" height="6" rx="3" fill="#a3a3a3"/>
+  <rect x="370" y="73" width="120" height="3" fill="#a3a3a3"/>
+  <text x="430" y="98" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">文件蒐集</text>
+  <text x="430" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#64748b">佐證資料・自評表格</text>
+
+  <!-- 節點 4：模擬演練（stone-500）— 下方 -->
+  <line x1="580" y1="242" x2="580" y2="330" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="580" cy="230" r="14" fill="white" stroke="#78716c" stroke-width="2.5"/>
+  <circle cx="580" cy="230" r="8" fill="#78716c"/>
+  <rect x="550" y="202" width="60" height="20" rx="10" fill="#78716c"/>
+  <text x="580" y="216" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">W9–W11</text>
+  <rect x="520" y="338" width="120" height="52" rx="8" fill="white"/>
+  <rect x="520" y="384" width="120" height="6" rx="3" fill="#78716c"/>
+  <rect x="520" y="381" width="120" height="3" fill="#78716c"/>
+  <text x="580" y="358" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">模擬演練</text>
+  <text x="580" y="374" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#64748b">內部訪視・修正缺漏</text>
+
+  <!-- 節點 5：評鑑當日（amber-600 暖色收尾）— 上方 -->
+  <line x1="710" y1="130" x2="710" y2="218" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="710" cy="230" r="14" fill="white" stroke="#d97706" stroke-width="2.5"/>
+  <circle cx="710" cy="230" r="8" fill="#d97706"/>
+  <rect x="678" y="240" width="64" height="20" rx="10" fill="#d97706"/>
+  <text x="710" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">W12</text>
+  <rect x="652" y="70" width="120" height="52" rx="8" fill="white"/>
+  <rect x="652" y="70" width="120" height="6" rx="3" fill="#d97706"/>
+  <rect x="652" y="73" width="120" height="3" fill="#d97706"/>
+  <text x="712" y="98" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#92400e" font-weight="700">評鑑當日</text>
+  <text x="712" y="114" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#64748b">全員就位・迎接訪視</text>
+
+  <!-- 浮水印 -->
+  <text x="756" y="450" text-anchor="end" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#c4bfb8">報告汪 reportwang.com</text>
+</svg>

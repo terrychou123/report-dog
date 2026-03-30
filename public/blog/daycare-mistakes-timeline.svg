@@ -1,59 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-  <!-- 背景 -->
-  <rect width="800" height="450" fill="#0f172a" rx="16"/>
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="450" fill="#f0efe8" rx="16"/>
 
   <!-- 標題 -->
-  <text x="400" y="45" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">5 大扣分地雷 × 對應基準條文</text>
-  <text x="400" y="68" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="rgba(255,255,255,0.5)">每個地雷都附快速解法 — 評鑑前一一確認</text>
+  <text x="400" y="45" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">5 大扣分地雷 × 對應基準條文</text>
+  <text x="400" y="68" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">每個地雷都附快速解法 — 評鑑前一一確認</text>
 
   <!-- 地雷 1 -->
-  <rect x="40" y="92" width="720" height="52" rx="8" fill="rgba(239,68,68,0.12)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
+  <rect x="40" y="92" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <!-- 編號 -->
-  <circle cx="75" cy="118" r="18" fill="#dc2626"/>
+  <circle cx="75" cy="118" r="18" fill="#78716c"/>
   <text x="75" y="124" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">01</text>
   <!-- 地雷名 -->
-  <text x="108" y="112" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="600">照顧計畫超過 7 個工作天才完成</text>
-  <text x="108" y="132" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">日期記錄不清 / 計畫與評估脫節 / 缺家屬參與紀錄</text>
+  <text x="108" y="112" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">照顧計畫超過 7 個工作天才完成</text>
+  <text x="108" y="132" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">日期記錄不清 / 計畫與評估脫節 / 缺家屬參與紀錄</text>
   <!-- 條文 -->
-  <rect x="640" y="103" width="100" height="30" rx="6" fill="rgba(239,68,68,0.3)"/>
-  <text x="690" y="122" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fca5a5">第 6 條</text>
+  <rect x="640" y="103" width="100" height="30" rx="6" fill="#e8e5de"/>
+  <text x="690" y="122" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 6 條</text>
 
   <!-- 地雷 2 -->
-  <rect x="40" y="158" width="720" height="52" rx="8" fill="rgba(245,158,11,0.1)" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
-  <circle cx="75" cy="184" r="18" fill="#d97706"/>
+  <rect x="40" y="158" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <circle cx="75" cy="184" r="18" fill="#a8a29e"/>
   <text x="75" y="190" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">02</text>
-  <text x="108" y="178" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="600">追蹤評值有做沒有紀錄</text>
-  <text x="108" y="198" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">只記達成紀錄 / 缺未達成分析 / 沒有修正計畫記錄</text>
-  <rect x="640" y="169" width="100" height="30" rx="6" fill="rgba(245,158,11,0.25)"/>
-  <text x="690" y="188" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fcd34d">第 7 條</text>
+  <text x="108" y="178" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">追蹤評值有做沒有紀錄</text>
+  <text x="108" y="198" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">只記達成紀錄 / 缺未達成分析 / 沒有修正計畫記錄</text>
+  <rect x="640" y="169" width="100" height="30" rx="6" fill="#e8e5de"/>
+  <text x="690" y="188" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 7 條</text>
 
   <!-- 地雷 3 -->
-  <rect x="40" y="224" width="720" height="52" rx="8" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.3)" stroke-width="1"/>
-  <circle cx="75" cy="250" r="18" fill="#6366f1"/>
+  <rect x="40" y="224" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <circle cx="75" cy="250" r="18" fill="#94a3b8"/>
   <text x="75" y="256" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">03</text>
-  <text x="108" y="244" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="600">督導紀錄頻率不夠或內容過於空洞</text>
-  <text x="108" y="264" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">照服員缺個督 / 只有日期和簽名 / 沒有追蹤改善紀錄</text>
-  <rect x="640" y="235" width="100" height="30" rx="6" fill="rgba(99,102,241,0.3)"/>
-  <text x="690" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a5b4fc">第 9 條</text>
+  <text x="108" y="244" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">督導紀錄頻率不夠或內容過於空洞</text>
+  <text x="108" y="264" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">照服員缺個督 / 只有日期和簽名 / 沒有追蹤改善紀錄</text>
+  <rect x="640" y="235" width="100" height="30" rx="6" fill="#e8e5de"/>
+  <text x="690" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 9 條</text>
 
   <!-- 地雷 4 -->
-  <rect x="40" y="290" width="720" height="52" rx="8" fill="rgba(13,148,136,0.12)" stroke="rgba(13,148,136,0.3)" stroke-width="1"/>
-  <circle cx="75" cy="316" r="18" fill="#0d9488"/>
+  <rect x="40" y="290" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <circle cx="75" cy="316" r="18" fill="#a3a3a3"/>
   <text x="75" y="322" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">04</text>
-  <text x="108" y="310" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="600">品管指標沒有自訂或只有名稱沒有分析</text>
-  <text x="108" y="330" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">抄用通用指標 / 有指標無數據 / 異常沒有逐案分析</text>
-  <rect x="640" y="301" width="100" height="30" rx="6" fill="rgba(13,148,136,0.3)"/>
-  <text x="690" y="320" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#6ee7b7">第 22 條</text>
+  <text x="108" y="310" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">品管指標沒有自訂或只有名稱沒有分析</text>
+  <text x="108" y="330" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">抄用通用指標 / 有指標無數據 / 異常沒有逐案分析</text>
+  <rect x="640" y="301" width="100" height="30" rx="6" fill="#e8e5de"/>
+  <text x="690" y="320" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 22 條</text>
 
   <!-- 地雷 5 -->
-  <rect x="40" y="356" width="720" height="52" rx="8" fill="rgba(190,24,93,0.12)" stroke="rgba(190,24,93,0.3)" stroke-width="1"/>
-  <circle cx="75" cy="382" r="18" fill="#be185d"/>
+  <rect x="40" y="356" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <circle cx="75" cy="382" r="18" fill="#d97706"/>
   <text x="75" y="388" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">05</text>
-  <text x="108" y="376" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="600">教育訓練時數不足或缺少規定課程</text>
-  <text x="108" y="396" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">缺原住民族/多元文化課各 1 小時 / 網路課超 5 小時</text>
-  <rect x="640" y="367" width="100" height="30" rx="6" fill="rgba(190,24,93,0.3)"/>
-  <text x="690" y="386" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#f9a8d4">第 29 條</text>
+  <text x="108" y="376" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">教育訓練時數不足或缺少規定課程</text>
+  <text x="108" y="396" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">缺原住民族/多元文化課各 1 小時 / 網路課超 5 小時</text>
+  <rect x="640" y="367" width="100" height="30" rx="6" fill="#e8e5de"/>
+  <text x="690" y="386" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 29 條</text>
 
   <!-- 底部說明 -->
-  <text x="400" y="432" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.3)">每個地雷文章中皆附快速解法清單</text>
+  <text x="400" y="432" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">每個地雷文章中皆附快速解法清單</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="448" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#c4bfb8">報告汪 reportwang.com</text>
 </svg>

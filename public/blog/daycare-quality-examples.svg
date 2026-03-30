@@ -1,122 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460">
-  <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7c3aed"/>
-      <stop offset="100%" style="stop-color:#a78bfa"/>
-    </linearGradient>
-  </defs>
-
-  <!-- 背景 -->
-  <rect width="800" height="460" fill="#f8fafc"/>
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="460" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="60" fill="url(#headerGrad)"/>
+  <rect x="0" y="0" width="800" height="60" fill="#78716c"/>
   <text x="32" y="22" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">品管指標自訂攻略</text>
   <text x="32" y="46" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">5 大適合品管指標範例</text>
 
   <!-- 欄位標頭 -->
-  <rect x="0" y="60" width="800" height="34" fill="#f1f5f9"/>
-  <line x1="0" y1="94" x2="800" y2="94" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="60" width="800" height="34" fill="#e8e5de"/>
+  <line x1="0" y1="94" x2="800" y2="94" stroke="#dedad3" stroke-width="1"/>
   <text x="32" y="82" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b" font-weight="600">指標名稱</text>
   <text x="260" y="82" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b" font-weight="600">測量方式</text>
   <text x="450" y="82" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b" font-weight="600">目標值</text>
   <text x="600" y="82" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b" font-weight="600">預警閾值</text>
   <!-- 垂直分隔線 -->
-  <line x1="244" y1="60" x2="244" y2="460" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="436" y1="60" x2="436" y2="460" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="584" y1="60" x2="584" y2="460" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="244" y1="60" x2="244" y2="460" stroke="#dedad3" stroke-width="1"/>
+  <line x1="436" y1="60" x2="436" y2="460" stroke="#dedad3" stroke-width="1"/>
+  <line x1="584" y1="60" x2="584" y2="460" stroke="#dedad3" stroke-width="1"/>
 
   <!-- ===== 指標1: 跌倒事件發生率 ===== -->
   <rect x="0" y="94" width="800" height="66" fill="white"/>
-  <rect x="0" y="94" width="6" height="66" fill="#ef4444"/>
+  <rect x="0" y="94" width="6" height="66" fill="#94a3b8"/>
   <!-- 編號 -->
-  <circle cx="24" cy="127" r="12" fill="#fef2f2"/>
-  <text x="24" y="132" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#ef4444" font-weight="700">1</text>
+  <circle cx="24" cy="127" r="12" fill="#f0efe8"/>
+  <text x="24" y="132" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8" font-weight="700">1</text>
   <!-- 指標名 -->
   <text x="46" y="120" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">跌倒事件發生率</text>
-  <rect x="46" y="128" width="70" height="20" rx="5" fill="#fef2f2"/>
-  <text x="81" y="142" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#ef4444">安全類指標</text>
+  <rect x="46" y="128" width="70" height="20" rx="5" fill="#f0efe8"/>
+  <text x="81" y="142" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">安全類指標</text>
   <!-- 測量方式 -->
   <text x="260" y="120" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#334155">每月統計跌倒人次</text>
   <text x="260" y="140" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">÷ 當月服務人次 × 100%</text>
   <!-- 目標值 -->
-  <rect x="450" y="107" width="96" height="28" rx="8" fill="#dcfce7"/>
-  <text x="498" y="125" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#16a34a" font-weight="700">&lt; 5% / 月</text>
+  <rect x="450" y="107" width="96" height="28" rx="8" fill="#e8e5de"/>
+  <text x="498" y="125" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="700">&lt; 5% / 月</text>
   <!-- 預警 -->
-  <rect x="600" y="107" width="90" height="28" rx="8" fill="#fef2f2"/>
-  <text x="645" y="125" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#ef4444" font-weight="600">≥ 5% 啟動</text>
+  <rect x="600" y="107" width="90" height="28" rx="8" fill="#f0efe8"/>
+  <text x="645" y="125" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" font-weight="600">≥ 5% 啟動</text>
 
-  <line x1="0" y1="160" x2="800" y2="160" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#f0efe8" stroke-width="1"/>
 
   <!-- ===== 指標2: 壓瘡新發率 ===== -->
-  <rect x="0" y="160" width="800" height="66" fill="#fafafa"/>
-  <rect x="0" y="160" width="6" height="66" fill="#f59e0b"/>
-  <circle cx="24" cy="193" r="12" fill="#fffbeb"/>
-  <text x="24" y="198" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#f59e0b" font-weight="700">2</text>
+  <rect x="0" y="160" width="800" height="66" fill="#fafaf9"/>
+  <rect x="0" y="160" width="6" height="66" fill="#d97706"/>
+  <circle cx="24" cy="193" r="12" fill="#f0efe8"/>
+  <text x="24" y="198" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" font-weight="700">2</text>
   <text x="46" y="186" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">壓瘡新發率</text>
-  <rect x="46" y="194" width="70" height="20" rx="5" fill="#fffbeb"/>
-  <text x="81" y="208" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#f59e0b">護理類指標</text>
+  <rect x="46" y="194" width="70" height="20" rx="5" fill="#f0efe8"/>
+  <text x="81" y="208" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#d97706">護理類指標</text>
   <text x="260" y="186" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#334155">每月新發壓瘡人次統計</text>
   <text x="260" y="206" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">護理記錄每週查核</text>
-  <rect x="450" y="173" width="96" height="28" rx="8" fill="#dcfce7"/>
-  <text x="498" y="191" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#16a34a" font-weight="700">0 例 / 月</text>
-  <rect x="600" y="173" width="90" height="28" rx="8" fill="#fef2f2"/>
-  <text x="645" y="191" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#ef4444" font-weight="600">≥ 1 例啟動</text>
+  <rect x="450" y="173" width="96" height="28" rx="8" fill="#e8e5de"/>
+  <text x="498" y="191" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="700">0 例 / 月</text>
+  <rect x="600" y="173" width="90" height="28" rx="8" fill="#f0efe8"/>
+  <text x="645" y="191" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" font-weight="600">≥ 1 例啟動</text>
 
-  <line x1="0" y1="226" x2="800" y2="226" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="0" y1="226" x2="800" y2="226" stroke="#f0efe8" stroke-width="1"/>
 
   <!-- ===== 指標3: 服藥正確率 ===== -->
   <rect x="0" y="226" width="800" height="66" fill="white"/>
-  <rect x="0" y="226" width="6" height="66" fill="#0ea5e9"/>
-  <circle cx="24" cy="259" r="12" fill="#f0f9ff"/>
-  <text x="24" y="264" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#0ea5e9" font-weight="700">3</text>
+  <rect x="0" y="226" width="6" height="66" fill="#78716c"/>
+  <circle cx="24" cy="259" r="12" fill="#f0efe8"/>
+  <text x="24" y="264" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="700">3</text>
   <text x="46" y="252" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">服藥正確率</text>
-  <rect x="46" y="260" width="70" height="20" rx="5" fill="#f0f9ff"/>
-  <text x="81" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#0ea5e9">用藥安全指標</text>
+  <rect x="46" y="260" width="70" height="20" rx="5" fill="#f0efe8"/>
+  <text x="81" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">用藥安全指標</text>
   <text x="260" y="252" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#334155">每月稽核服藥紀錄</text>
   <text x="260" y="272" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">正確筆數 ÷ 總筆數 × 100%</text>
-  <rect x="450" y="239" width="96" height="28" rx="8" fill="#dcfce7"/>
-  <text x="498" y="257" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#16a34a" font-weight="700">&gt; 99%</text>
-  <rect x="600" y="239" width="90" height="28" rx="8" fill="#fef2f2"/>
-  <text x="645" y="257" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#ef4444" font-weight="600">≤ 99% 改善</text>
+  <rect x="450" y="239" width="96" height="28" rx="8" fill="#e8e5de"/>
+  <text x="498" y="257" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="700">&gt; 99%</text>
+  <rect x="600" y="239" width="90" height="28" rx="8" fill="#f0efe8"/>
+  <text x="645" y="257" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" font-weight="600">≤ 99% 改善</text>
 
-  <line x1="0" y1="292" x2="800" y2="292" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="0" y1="292" x2="800" y2="292" stroke="#f0efe8" stroke-width="1"/>
 
   <!-- ===== 指標4: 服務對象滿意度 ===== -->
-  <rect x="0" y="292" width="800" height="66" fill="#fafafa"/>
-  <rect x="0" y="292" width="6" height="66" fill="#10b981"/>
-  <circle cx="24" cy="325" r="12" fill="#f0fdf4"/>
-  <text x="24" y="330" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#10b981" font-weight="700">4</text>
+  <rect x="0" y="292" width="800" height="66" fill="#fafaf9"/>
+  <rect x="0" y="292" width="6" height="66" fill="#a8a29e"/>
+  <circle cx="24" cy="325" r="12" fill="#f0efe8"/>
+  <text x="24" y="330" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" font-weight="700">4</text>
   <text x="46" y="318" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">服務對象滿意度</text>
-  <rect x="46" y="326" width="70" height="20" rx="5" fill="#f0fdf4"/>
-  <text x="81" y="340" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#10b981">服務品質指標</text>
+  <rect x="46" y="326" width="70" height="20" rx="5" fill="#f0efe8"/>
+  <text x="81" y="340" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#a8a29e">服務品質指標</text>
   <text x="260" y="318" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#334155">每季問卷調查（家屬填寫）</text>
   <text x="260" y="338" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">滿意人數 ÷ 有效問卷 × 100%</text>
-  <rect x="450" y="305" width="96" height="28" rx="8" fill="#dcfce7"/>
-  <text x="498" y="323" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#16a34a" font-weight="700">&gt; 85%</text>
-  <rect x="600" y="305" width="90" height="28" rx="8" fill="#fef2f2"/>
-  <text x="645" y="323" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#ef4444" font-weight="600">≤ 85% 改善</text>
+  <rect x="450" y="305" width="96" height="28" rx="8" fill="#e8e5de"/>
+  <text x="498" y="323" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="700">&gt; 85%</text>
+  <rect x="600" y="305" width="90" height="28" rx="8" fill="#f0efe8"/>
+  <text x="645" y="323" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" font-weight="600">≤ 85% 改善</text>
 
-  <line x1="0" y1="358" x2="800" y2="358" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="0" y1="358" x2="800" y2="358" stroke="#f0efe8" stroke-width="1"/>
 
   <!-- ===== 指標5: 員工在職訓練完成率 ===== -->
   <rect x="0" y="358" width="800" height="66" fill="white"/>
-  <rect x="0" y="358" width="6" height="66" fill="#8b5cf6"/>
-  <circle cx="24" cy="391" r="12" fill="#f5f3ff"/>
-  <text x="24" y="396" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#8b5cf6" font-weight="700">5</text>
+  <rect x="0" y="358" width="6" height="66" fill="#a3a3a3"/>
+  <circle cx="24" cy="391" r="12" fill="#f0efe8"/>
+  <text x="24" y="396" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a3a3a3" font-weight="700">5</text>
   <text x="46" y="384" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">員工在職訓練完成率</text>
-  <rect x="46" y="392" width="70" height="20" rx="5" fill="#f5f3ff"/>
-  <text x="81" y="406" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#8b5cf6">人員管理指標</text>
+  <rect x="46" y="392" width="70" height="20" rx="5" fill="#f0efe8"/>
+  <text x="81" y="406" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#a3a3a3">人員管理指標</text>
   <text x="260" y="384" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#334155">每年底統計訓練記錄</text>
   <text x="260" y="404" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">完成人數 ÷ 應訓人數 × 100%</text>
-  <rect x="450" y="371" width="96" height="28" rx="8" fill="#dcfce7"/>
-  <text x="498" y="389" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#16a34a" font-weight="700">100%</text>
-  <rect x="600" y="371" width="90" height="28" rx="8" fill="#fef2f2"/>
-  <text x="645" y="389" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#ef4444" font-weight="600">&lt; 100% 追蹤</text>
+  <rect x="450" y="371" width="96" height="28" rx="8" fill="#e8e5de"/>
+  <text x="498" y="389" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="700">100%</text>
+  <rect x="600" y="371" width="90" height="28" rx="8" fill="#f0efe8"/>
+  <text x="645" y="389" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" font-weight="600">&lt; 100% 追蹤</text>
 
-  <line x1="0" y1="424" x2="800" y2="424" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="0" y1="424" x2="800" y2="424" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 底部 -->
-  <rect x="0" y="424" width="800" height="36" fill="#f1f5f9"/>
-  <text x="400" y="446" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">5 大品管指標範例 · 適用日照中心 115 年度評鑑 · 報告汪製作</text>
+  <rect x="0" y="424" width="800" height="36" fill="#e8e5de"/>
+  <text x="400" y="446" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">5 大品管指標範例 · 適用日照中心 115 年度評鑑 · 報告汪 reportwang.com</text>
 </svg>

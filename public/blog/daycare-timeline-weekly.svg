@@ -1,117 +1,110 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
-  <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f59e0b"/>
-      <stop offset="100%" style="stop-color:#fbbf24"/>
-    </linearGradient>
-  </defs>
-
-  <!-- 背景 -->
-  <rect width="800" height="400" fill="#f8fafc"/>
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="400" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="60" fill="url(#headerGrad)"/>
+  <rect x="0" y="0" width="800" height="60" fill="#d97706"/>
   <text x="32" y="22" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">評鑑前最後 1 週</text>
   <text x="32" y="46" font-family="'Noto Sans TC', sans-serif" font-size="19" fill="white" font-weight="700">每日確認清單（週一至週五）</text>
 
   <!-- 卡片容器 -->
   <!-- 週一 -->
-  <rect x="24" y="80" width="140" height="268" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="24" y="80" width="140" height="44" rx="12" fill="#0ea5e9"/>
-  <rect x="24" y="108" width="140" height="16" fill="#0ea5e9"/>
+  <rect x="24" y="80" width="140" height="268" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="24" y="80" width="140" height="44" rx="12" fill="#94a3b8"/>
+  <rect x="24" y="108" width="140" height="16" fill="#94a3b8"/>
   <text x="94" y="107" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="700">週一</text>
 
   <!-- 週一 圖示 -->
-  <circle cx="94" cy="160" r="22" fill="#e0f2fe"/>
+  <circle cx="94" cy="160" r="22" fill="#f0efe8"/>
   <text x="94" y="166" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20">📋</text>
 
   <text x="94" y="206" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">個案文件</text>
   <text x="94" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">抽查</text>
 
-  <rect x="38" y="244" width="112" height="22" rx="6" fill="#f0f9ff"/>
-  <text x="94" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#0369a1">隨機抽 5 份核對</text>
-  <rect x="38" y="272" width="112" height="22" rx="6" fill="#f0f9ff"/>
-  <text x="94" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#0369a1">簽名日期確認</text>
-  <rect x="38" y="300" width="112" height="22" rx="6" fill="#f0f9ff"/>
-  <text x="94" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#0369a1">缺口即時補件</text>
+  <rect x="38" y="244" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="94" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">隨機抽 5 份核對</text>
+  <rect x="38" y="272" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="94" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">簽名日期確認</text>
+  <rect x="38" y="300" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="94" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">缺口即時補件</text>
 
   <!-- 週二 -->
-  <rect x="176" y="80" width="140" height="268" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="176" y="80" width="140" height="44" rx="12" fill="#10b981"/>
-  <rect x="176" y="108" width="140" height="16" fill="#10b981"/>
+  <rect x="176" y="80" width="140" height="268" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="176" y="80" width="140" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="176" y="108" width="140" height="16" fill="#a8a29e"/>
   <text x="246" y="107" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="700">週二</text>
 
-  <circle cx="246" cy="160" r="22" fill="#d1fae5"/>
+  <circle cx="246" cy="160" r="22" fill="#f0efe8"/>
   <text x="246" y="166" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20">🏠</text>
 
   <text x="246" y="206" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">環境與設備</text>
   <text x="246" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">檢查</text>
 
-  <rect x="190" y="244" width="112" height="22" rx="6" fill="#f0fdf4"/>
-  <text x="246" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#065f46">走廊安全確認</text>
-  <rect x="190" y="272" width="112" height="22" rx="6" fill="#f0fdf4"/>
-  <text x="246" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#065f46">設備維護紀錄</text>
-  <rect x="190" y="300" width="112" height="22" rx="6" fill="#f0fdf4"/>
-  <text x="246" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#065f46">消防設施檢查</text>
+  <rect x="190" y="244" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="246" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">走廊安全確認</text>
+  <rect x="190" y="272" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="246" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">設備維護紀錄</text>
+  <rect x="190" y="300" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="246" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">消防設施檢查</text>
 
   <!-- 週三 -->
-  <rect x="328" y="80" width="140" height="268" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="328" y="80" width="140" height="44" rx="12" fill="#8b5cf6"/>
-  <rect x="328" y="108" width="140" height="16" fill="#8b5cf6"/>
+  <rect x="328" y="80" width="140" height="268" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="328" y="80" width="140" height="44" rx="12" fill="#a3a3a3"/>
+  <rect x="328" y="108" width="140" height="16" fill="#a3a3a3"/>
   <text x="398" y="107" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="700">週三</text>
 
-  <circle cx="398" cy="160" r="22" fill="#ede9fe"/>
+  <circle cx="398" cy="160" r="22" fill="#f0efe8"/>
   <text x="398" y="166" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20">📚</text>
 
   <text x="398" y="206" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">人員訓練</text>
   <text x="398" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">時數確認</text>
 
-  <rect x="342" y="244" width="112" height="22" rx="6" fill="#f5f3ff"/>
-  <text x="398" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#5b21b6">全員時數盤點</text>
-  <rect x="342" y="272" width="112" height="22" rx="6" fill="#f5f3ff"/>
-  <text x="398" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#5b21b6">缺時數緊急補修</text>
-  <rect x="342" y="300" width="112" height="22" rx="6" fill="#f5f3ff"/>
-  <text x="398" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#5b21b6">證書文件整理</text>
+  <rect x="342" y="244" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="398" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">全員時數盤點</text>
+  <rect x="342" y="272" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="398" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">缺時數緊急補修</text>
+  <rect x="342" y="300" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="398" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">證書文件整理</text>
 
   <!-- 週四 -->
-  <rect x="480" y="80" width="140" height="268" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="480" y="80" width="140" height="44" rx="12" fill="#f59e0b"/>
-  <rect x="480" y="108" width="140" height="16" fill="#f59e0b"/>
+  <rect x="480" y="80" width="140" height="268" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="480" y="80" width="140" height="44" rx="12" fill="#d97706"/>
+  <rect x="480" y="108" width="140" height="16" fill="#d97706"/>
   <text x="550" y="107" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="700">週四</text>
 
-  <circle cx="550" cy="160" r="22" fill="#fef3c7"/>
+  <circle cx="550" cy="160" r="22" fill="#f0efe8"/>
   <text x="550" y="166" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20">🎤</text>
 
   <text x="550" y="206" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">模擬委員</text>
   <text x="550" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">訪談</text>
 
-  <rect x="494" y="244" width="112" height="22" rx="6" fill="#fffbeb"/>
-  <text x="550" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#92400e">角色扮演演練</text>
-  <rect x="494" y="272" width="112" height="22" rx="6" fill="#fffbeb"/>
-  <text x="550" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#92400e">常見問題 Q&amp;A</text>
-  <rect x="494" y="300" width="112" height="22" rx="6" fill="#fffbeb"/>
-  <text x="550" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#92400e">回答技巧提醒</text>
+  <rect x="494" y="244" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="550" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">角色扮演演練</text>
+  <rect x="494" y="272" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="550" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">常見問題 Q&amp;A</text>
+  <rect x="494" y="300" width="112" height="22" rx="6" fill="#f0efe8"/>
+  <text x="550" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">回答技巧提醒</text>
 
   <!-- 週五 -->
-  <rect x="632" y="80" width="144" height="268" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="632" y="80" width="144" height="44" rx="12" fill="#ef4444"/>
-  <rect x="632" y="108" width="144" height="16" fill="#ef4444"/>
+  <rect x="632" y="80" width="144" height="268" rx="12" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <rect x="632" y="80" width="144" height="44" rx="12" fill="#78716c"/>
+  <rect x="632" y="108" width="144" height="16" fill="#78716c"/>
   <text x="704" y="107" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" font-weight="700">週五</text>
 
-  <circle cx="704" cy="160" r="22" fill="#fee2e2"/>
+  <circle cx="704" cy="160" r="22" fill="#f0efe8"/>
   <text x="704" y="166" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20">✅</text>
 
   <text x="704" y="206" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">最終文件</text>
   <text x="704" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="600">整理與分工</text>
 
-  <rect x="646" y="244" width="114" height="22" rx="6" fill="#fff1f2"/>
-  <text x="703" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#991b1b">文件總清單核對</text>
-  <rect x="646" y="272" width="114" height="22" rx="6" fill="#fff1f2"/>
-  <text x="703" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#991b1b">分工表最終確認</text>
-  <rect x="646" y="300" width="114" height="22" rx="6" fill="#fff1f2"/>
-  <text x="703" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#991b1b">迎評當日流程說明</text>
+  <rect x="646" y="244" width="114" height="22" rx="6" fill="#f0efe8"/>
+  <text x="703" y="259" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">文件總清單核對</text>
+  <rect x="646" y="272" width="114" height="22" rx="6" fill="#f0efe8"/>
+  <text x="703" y="287" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">分工表最終確認</text>
+  <rect x="646" y="300" width="114" height="22" rx="6" fill="#f0efe8"/>
+  <text x="703" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">迎評當日流程說明</text>
 
   <!-- 底部 -->
-  <rect x="0" y="364" width="800" height="36" fill="#f1f5f9"/>
-  <text x="400" y="386" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">評鑑前最後 1 週每日確認清單 · 報告汪製作</text>
+  <rect x="0" y="364" width="800" height="36" fill="#e8e5de"/>
+  <text x="400" y="386" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">評鑑前最後 1 週每日確認清單 · 報告汪 reportwang.com</text>
 </svg>
