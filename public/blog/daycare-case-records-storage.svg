@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">個案紀錄保存要求（第 10 條）</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Left big card: 保存義務 -->
+  <rect x="52" y="80" width="330" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="80" width="330" height="5" rx="2.5" fill="#d97706"/>
+  <text x="217" y="110" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">保存義務</text>
+  <line x1="68" y1="122" x2="366" y2="122" stroke="#f0ede6" stroke-width="1"/>
+
+  <rect x="68" y="134" width="298" height="44" rx="8" fill="#d97706" opacity="0.08"/>
+  <text x="217" y="153" font-size="22" font-weight="900" fill="#d97706" text-anchor="middle">7 年</text>
+  <text x="217" y="170" font-size="12" fill="#92400e" text-anchor="middle">自結案日起計算</text>
+
+  <text x="72" y="200" font-size="13" font-weight="600" fill="#1e293b">適用範圍：</text>
+  <text x="72" y="220" font-size="12" fill="#64748b">→ 轉介紀錄</text>
+  <text x="72" y="240" font-size="12" fill="#64748b">→ 結案紀錄與相關書面文件</text>
+  <text x="72" y="260" font-size="12" fill="#64748b">→ 紙本與電子紀錄均適用</text>
+  <line x1="68" y1="278" x2="366" y2="278" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="300" font-size="13" font-weight="600" fill="#1e293b">換系統注意事項：</text>
+  <text x="72" y="320" font-size="12" fill="#78716c">→ 建立系統移轉紀錄</text>
+  <text x="72" y="340" font-size="12" fill="#78716c">→ 歷史資料完整匯出保存</text>
+  <text x="72" y="360" font-size="12" fill="#78716c">→ 可讀取格式（PDF/原始檔）</text>
+
+  <!-- Right card: 每筆紀錄格式 + 查閱管控 -->
+  <rect x="414" y="80" width="334" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="414" y="80" width="334" height="5" rx="2.5" fill="#78716c"/>
+  <text x="581" y="110" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">每筆紀錄完整格式</text>
+  <line x1="430" y1="122" x2="732" y2="122" stroke="#f0ede6" stroke-width="1"/>
+  <text x="430" y="142" font-size="12" fill="#64748b">□ 日期（年月日完整）</text>
+  <text x="430" y="162" font-size="12" fill="#64748b">□ 書寫者姓名與簽名</text>
+  <text x="430" y="182" font-size="12" fill="#64748b">□ 修改：劃線保留原文，不覆蓋</text>
+  <text x="430" y="202" font-size="11" fill="#d97706" font-weight="600">修正液覆蓋 = 不符合規定</text>
+
+  <rect x="414" y="248" width="334" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="414" y="248" width="334" height="5" rx="2.5" fill="#a8a29e"/>
+  <text x="581" y="278" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">查閱權限管控</text>
+  <line x1="430" y1="290" x2="732" y2="290" stroke="#f0ede6" stroke-width="1"/>
+  <text x="430" y="310" font-size="12" fill="#64748b">□ 電子系統：存取紀錄</text>
+  <text x="430" y="330" font-size="12" fill="#64748b">□ 紙本：鎖管並記錄借閱</text>
+  <text x="430" y="350" font-size="12" fill="#64748b">□ 結案後追蹤記錄（1、3 個月）</text>
+  <text x="430" y="370" font-size="11" fill="#78716c">對應第 4 條個資保護規定</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

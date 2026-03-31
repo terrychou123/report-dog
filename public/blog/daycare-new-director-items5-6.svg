@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 5–6 件事：年度計畫 ＋ 教育訓練制度</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Left: 第5件事 -->
+  <rect x="52" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="82" width="336" height="5" rx="2.5" fill="#d97706"/>
+  <rect x="68" y="98" width="36" height="36" rx="8" fill="#d97706" opacity="0.15"/>
+  <text x="86" y="123" font-size="20" font-weight="900" fill="#d97706" text-anchor="middle">5</text>
+  <text x="200" y="118" font-size="15" font-weight="700" fill="#1e293b">訂定年度業務計畫</text>
+  <text x="200" y="136" font-size="12" fill="#64748b">第 23 條</text>
+  <line x1="68" y1="150" x2="372" y2="150" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="172" font-size="13" font-weight="600" fill="#1e293b">計畫必含內容</text>
+  <text x="72" y="194" font-size="12" fill="#64748b">□ 機構短、中、長期目標</text>
+  <text x="72" y="214" font-size="12" fill="#64748b">□ 社區特色與機構願景</text>
+  <text x="72" y="234" font-size="12" fill="#64748b">□ 年底業務成果報告</text>
+  <line x1="68" y1="252" x2="372" y2="252" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="274" font-size="13" font-weight="600" fill="#1e293b">新任主任做法</text>
+  <rect x="68" y="284" width="304" height="32" rx="8" fill="#d97706" opacity="0.08"/>
+  <text x="220" y="305" font-size="12" fill="#d97706" text-anchor="middle">上任後 2 個月內補訂「年中版計畫」</text>
+  <text x="72" y="336" font-size="12" fill="#78716c">年底成果報告→達成情況 + 未達成原因</text>
+  <text x="72" y="356" font-size="11" fill="#64748b">評鑑委員看了會留下深刻好印象</text>
+
+  <!-- Right: 第6件事 -->
+  <rect x="412" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="412" y="82" width="336" height="5" rx="2.5" fill="#78716c"/>
+  <rect x="428" y="98" width="36" height="36" rx="8" fill="#78716c" opacity="0.15"/>
+  <text x="446" y="123" font-size="20" font-weight="900" fill="#78716c" text-anchor="middle">6</text>
+  <text x="568" y="118" font-size="15" font-weight="700" fill="#1e293b">落實教育訓練制度</text>
+  <text x="568" y="136" font-size="12" fill="#64748b">第 29 條</text>
+  <line x1="428" y1="150" x2="732" y2="150" stroke="#f0ede6" stroke-width="1"/>
+
+  <!-- training hours table -->
+  <rect x="428" y="160" width="304" height="30" rx="6" fill="#f8f7f2"/>
+  <text x="438" y="179" font-size="12" fill="#1e293b" font-weight="600">新進人員：職前訓練 16 小時（1個月內）</text>
+  <rect x="428" y="196" width="304" height="30" rx="6" fill="#d97706" opacity="0.08"/>
+  <text x="438" y="215" font-size="12" fill="#d97706">在職人員：每年至少 20 小時</text>
+  <rect x="428" y="232" width="304" height="30" rx="6" fill="#f8f7f2"/>
+  <text x="438" y="251" font-size="12" fill="#1e293b">原住民族文化敏感度：1 小時（必含）</text>
+  <rect x="428" y="268" width="304" height="30" rx="6" fill="#ef4444" opacity="0.07"/>
+  <text x="438" y="287" font-size="12" fill="#dc2626">網路課程上限：5 小時（不可超過）</text>
+
+  <line x1="428" y1="310" x2="732" y2="310" stroke="#f0ede6" stroke-width="1"/>
+  <text x="428" y="332" font-size="12" fill="#d97706" font-weight="600">建立時數追蹤表</text>
+  <text x="428" y="352" font-size="12" fill="#78716c">每季計算一次 → 不要等到 12 月才補</text>
+  <text x="428" y="372" font-size="11" fill="#64748b">員工知道自己進度 ≠ 無感簽到</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

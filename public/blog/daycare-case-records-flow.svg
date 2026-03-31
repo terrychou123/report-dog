@@ -77,5 +77,5 @@
   <text x="80" y="414" font-size="12" fill="#78716c" font-family="'Noto Sans TC', sans-serif">每 6 個月須重新評估（第5條）；個案討論紀錄需含前次決議追蹤（第8條）；安全事件隨時記錄（第14條）</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="442" font-size="13" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

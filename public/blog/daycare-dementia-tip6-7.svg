@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">技巧 6–7：安全看視 ＋ 追蹤評值更新計畫</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Left: 技巧6 -->
+  <rect x="52" y="80" width="332" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="80" width="332" height="5" rx="2.5" fill="#ef4444" opacity="0.7"/>
+  <rect x="68" y="96" width="80" height="26" rx="6" fill="#ef4444" opacity="0.10"/>
+  <text x="108" y="113" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">技巧 6</text>
+  <text x="250" y="113" font-size="15" font-weight="700" fill="#1e293b">安全看視與紀錄</text>
+  <text x="250" y="131" font-size="12" fill="#64748b">對應評鑑第 14 條</text>
+  <line x1="68" y1="148" x2="368" y2="148" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="172" font-size="13" fill="#1e293b" font-weight="600">遊走風險管理措施</text>
+  <rect x="68" y="182" width="300" height="30" rx="6" fill="#ef4444" opacity="0.08"/>
+  <text x="80" y="201" font-size="12" fill="#dc2626">→ 照顧計畫標注遊走風險等級</text>
+  <rect x="68" y="218" width="300" height="30" rx="6" fill="#f8f7f2"/>
+  <text x="80" y="237" font-size="12" fill="#1e293b">→ 座位靠近照服員工作區</text>
+  <rect x="68" y="254" width="300" height="30" rx="6" fill="#ef4444" opacity="0.08"/>
+  <text x="80" y="273" font-size="12" fill="#dc2626">→ 出入口視線控制</text>
+  <rect x="68" y="290" width="300" height="30" rx="6" fill="#f8f7f2"/>
+  <text x="80" y="309" font-size="12" fill="#1e293b">→ 每次事件當天完成紀錄</text>
+  <line x1="68" y1="332" x2="368" y2="332" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="352" font-size="12" fill="#d97706" font-weight="600">評鑑重點</text>
+  <text x="72" y="372" font-size="12" fill="#78716c">事先辨識風險 + 預防措施 + 告知家屬</text>
+
+  <!-- Right: 技巧7 -->
+  <rect x="416" y="80" width="332" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="416" y="80" width="332" height="5" rx="2.5" fill="#d97706"/>
+  <rect x="432" y="96" width="80" height="26" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="472" y="113" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">技巧 7</text>
+  <text x="610" y="113" font-size="15" font-weight="700" fill="#1e293b">定期評估更新計畫</text>
+  <text x="610" y="131" font-size="12" fill="#64748b">對應評鑑第 6、7 條</text>
+  <line x1="432" y1="148" x2="732" y2="148" stroke="#f0ede6" stroke-width="1"/>
+  <text x="436" y="172" font-size="13" fill="#1e293b" font-weight="600">每次應對後記錄</text>
+  <rect x="432" y="182" width="300" height="30" rx="6" fill="#d97706" opacity="0.08"/>
+  <text x="444" y="201" font-size="12" fill="#92400e">→ 用了什麼方法？效果如何？</text>
+  <rect x="432" y="218" width="300" height="30" rx="6" fill="#f8f7f2"/>
+  <text x="444" y="237" font-size="12" fill="#1e293b">→ 幾分鐘後情緒安定下來</text>
+  <rect x="432" y="254" width="300" height="30" rx="6" fill="#d97706" opacity="0.08"/>
+  <text x="444" y="273" font-size="12" fill="#92400e">→ 有無新的觸發因素</text>
+  <line x1="432" y1="298" x2="732" y2="298" stroke="#f0ede6" stroke-width="1"/>
+  <text x="436" y="320" font-size="13" fill="#1e293b" font-weight="600">計畫更新時機（第 6、7 條）</text>
+  <rect x="432" y="330" width="300" height="24" rx="6" fill="#f8f7f2"/>
+  <text x="444" y="346" font-size="12" fill="#1e293b">每 6 個月定期再評估</text>
+  <rect x="432" y="360" width="300" height="24" rx="6" fill="#d97706" opacity="0.08"/>
+  <text x="444" y="376" font-size="12" fill="#92400e">行為頻率明顯變化時提前更新</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

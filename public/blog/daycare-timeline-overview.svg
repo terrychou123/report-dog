@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑前 3 個月衝刺：總攬時程計畫</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 3 month cards + eval day -->
+  <!-- Month -3 -->
+  <rect x="52" y="84" width="158" height="290" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="84" width="158" height="5" rx="2.5" fill="#94a3b8"/>
+  <text x="131" y="112" font-size="24" font-weight="900" fill="#94a3b8" text-anchor="middle">-3</text>
+  <text x="131" y="132" font-size="13" fill="#64748b" text-anchor="middle">個月前</text>
+  <rect x="68" y="148" width="126" height="24" rx="6" fill="#94a3b8" opacity="0.12"/>
+  <text x="131" y="164" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">奠定基礎</text>
+  <line x1="68" y1="183" x2="194" y2="183" stroke="#f0ede6" stroke-width="1"/>
+  <text x="68" y="202" font-size="12" fill="#64748b">▸ 文件全面盤點</text>
+  <text x="68" y="220" font-size="12" fill="#64748b">▸ 缺口清單建立</text>
+  <text x="68" y="238" font-size="12" fill="#64748b">▸ 教育訓練計畫</text>
+  <text x="68" y="256" font-size="12" fill="#64748b">▸ 新進人員培訓</text>
+  <text x="68" y="274" font-size="12" fill="#64748b">▸ 品管指標確認</text>
+  <text x="68" y="292" font-size="12" fill="#64748b">▸ 自評表初填</text>
+  <text x="68" y="310" font-size="12" fill="#64748b">▸ 關鍵文件更新</text>
+  <text x="68" y="340" font-size="11" fill="#d97706" font-weight="600">關鍵里程碑：</text>
+  <text x="68" y="357" font-size="11" fill="#94a3b8">完成文件現況盤點</text>
+
+  <!-- Arrow -->
+  <text x="228" y="234" font-size="20" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- Month -2 -->
+  <rect x="246" y="84" width="158" height="290" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="246" y="84" width="158" height="5" rx="2.5" fill="#a8a29e"/>
+  <text x="325" y="112" font-size="24" font-weight="900" fill="#a8a29e" text-anchor="middle">-2</text>
+  <text x="325" y="132" font-size="13" fill="#64748b" text-anchor="middle">個月前</text>
+  <rect x="262" y="148" width="126" height="24" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="325" y="164" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">全力補強</text>
+  <line x1="262" y1="183" x2="388" y2="183" stroke="#f0ede6" stroke-width="1"/>
+  <text x="262" y="202" font-size="12" fill="#64748b">▸ 缺失文件補齊</text>
+  <text x="262" y="220" font-size="12" fill="#64748b">▸ SOP 修訂完善</text>
+  <text x="262" y="238" font-size="12" fill="#64748b">▸ 督導排程執行</text>
+  <text x="262" y="256" font-size="12" fill="#64748b">▸ 品管數據收集</text>
+  <text x="262" y="274" font-size="12" fill="#64748b">▸ 個案計畫審查</text>
+  <text x="262" y="292" font-size="12" fill="#64748b">▸ 委員會議召開</text>
+  <text x="262" y="310" font-size="12" fill="#64748b">▸ 環境設備檢修</text>
+  <text x="262" y="340" font-size="11" fill="#d97706" font-weight="600">關鍵里程碑：</text>
+  <text x="262" y="357" font-size="11" fill="#94a3b8">所有文件補齊歸檔</text>
+
+  <!-- Arrow -->
+  <text x="422" y="234" font-size="20" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- Month -1 -->
+  <rect x="440" y="84" width="158" height="290" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="440" y="84" width="158" height="5" rx="2.5" fill="#78716c"/>
+  <text x="519" y="112" font-size="24" font-weight="900" fill="#78716c" text-anchor="middle">-1</text>
+  <text x="519" y="132" font-size="13" fill="#64748b" text-anchor="middle">個月前</text>
+  <rect x="456" y="148" width="126" height="24" rx="6" fill="#78716c" opacity="0.10"/>
+  <text x="519" y="164" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">衝刺備戰</text>
+  <line x1="456" y1="183" x2="582" y2="183" stroke="#f0ede6" stroke-width="1"/>
+  <text x="456" y="202" font-size="12" fill="#64748b">▸ 模擬委員訪談</text>
+  <text x="456" y="220" font-size="12" fill="#64748b">▸ 全員宣導說明</text>
+  <text x="456" y="238" font-size="12" fill="#64748b">▸ 文件最終整備</text>
+  <text x="456" y="256" font-size="12" fill="#64748b">▸ 環境最終清查</text>
+  <text x="456" y="274" font-size="12" fill="#64748b">▸ 緊急疏散演練</text>
+  <text x="456" y="292" font-size="12" fill="#64748b">▸ 自評表送審</text>
+  <text x="456" y="310" font-size="12" fill="#64748b">▸ 最後1週確認</text>
+  <text x="456" y="340" font-size="11" fill="#d97706" font-weight="600">關鍵里程碑：</text>
+  <text x="456" y="357" font-size="11" fill="#94a3b8">模擬演練完成</text>
+
+  <!-- Arrow -->
+  <text x="616" y="234" font-size="20" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- Eval day -->
+  <rect x="634" y="84" width="114" height="290" rx="12" fill="#d97706" opacity="0.07"/>
+  <rect x="634" y="84" width="114" height="290" rx="12" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.4"/>
+  <rect x="634" y="84" width="114" height="5" rx="2.5" fill="#d97706" opacity="0.7"/>
+  <text x="691" y="112" font-size="15" font-weight="900" fill="#d97706" text-anchor="middle">評鑑日</text>
+  <text x="691" y="130" font-size="12" fill="#78716c" text-anchor="middle">全力衝刺</text>
+  <line x1="650" y1="148" x2="732" y2="148" stroke="#f0ede6" stroke-width="1"/>
+  <text x="650" y="168" font-size="11" fill="#64748b">▸ 文件就位</text>
+  <text x="650" y="186" font-size="11" fill="#64748b">▸ 人員到位</text>
+  <text x="650" y="204" font-size="11" fill="#64748b">▸ 環境整潔</text>
+  <text x="650" y="222" font-size="11" fill="#64748b">▸ 配合說明</text>
+  <text x="650" y="240" font-size="11" fill="#64748b">▸ 配合訪談</text>
+  <text x="691" y="340" font-size="11" fill="#d97706" font-weight="600" text-anchor="middle">目標：</text>
+  <text x="691" y="357" font-size="11" fill="#92400e" text-anchor="middle">順利過關</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

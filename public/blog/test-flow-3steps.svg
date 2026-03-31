@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    【3 步驟 — 等間距 + 圓圈 r=card_w/4 + H 字級自適應】
+    card_w=170, r=round(170/4)=43
+
+    H 字級自適應：
+      max_H_chars = 4（下載範本/逐項填寫/彙整備審）
+      H_font = min(36, floor((170-28)/4)) = 35
+      H_to_J1 = max(24, round(35×0.78)) = 27
+      block2_h = round(35×0.72) + 27 + 22 = 74
+
+    等間距計算：
+      block1_h = 86, block2_h = 74, block3_h = 36
+      content_h = 196
+      gap = (312-196)/4 = 29
+
+    circle cy = 149+29+43 = 221
+    "STEP" font = 17, y = 221-11 = 210
+    "0N"   font = 28,  y = 221+17 = 238
+    H  y = 149+29+86+29+25 = 318
+    J1 y = 318+27 = 345
+    J2 y = 345+22 = 367
+    pill y = 149+29+86+29+74+29 = 396
+    text y = 396+24 = 420
+
+    確認：pill bottom=432, gap4=461-432=29 ✓
+  -->
+
+  <!-- A 主標題 40px -->
+  <text x="400" y="72" text-anchor="middle" font-size="42" fill="#1e293b" font-weight="700">3 步驟評鑑自評流程</text>
+  <!-- B 副標題 22px -->
+  <text x="400" y="108" text-anchor="middle" font-size="22" fill="#57534e">從下載到彙整，快速掌握評鑑準備狀況</text>
+  <!-- 標題分隔線：與卡片群組等寬 x1=129, x2=671 -->
+  <line x1="129" y1="124" x2="671" y2="124" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭（arrow_y=301） -->
+  <line x1="299" y1="301" x2="315" y2="301" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="299,295 315,301 299,307" fill="#c4bfb8"/>
+  <line x1="485" y1="301" x2="501" y2="301" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,295 501,301 485,307" fill="#c4bfb8"/>
+
+  <!-- Card 1（x=129, cx=214, #d97706） -->
+  <rect x="129" y="141" width="170" height="320" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="129" y="141" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="145" width="170" height="4" fill="#d97706"/>
+  <!-- Block 1: STEP 圓圈（r=43, cy=221） -->
+  <circle cx="214" cy="221" r="43" fill="#fef3c7"/>
+  <text x="214" y="210" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="238" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <!-- Block 2 -->
+  <text x="214" y="318" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">下載範本</text>
+  <text x="214" y="345" text-anchor="middle" font-size="20" fill="#57534e">點擊文章連結</text>
+  <text x="214" y="367" text-anchor="middle" font-size="20" fill="#57534e">下載 Excel 範本</text>
+  <!-- Block 3: K pill（y=396） -->
+  <rect x="142" y="396" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="420" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">免費，無需註冊</text>
+
+  <!-- Card 2（x=315, cx=400, #78716c） -->
+  <rect x="315" y="141" width="170" height="320" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="315" y="141" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="145" width="170" height="4" fill="#78716c"/>
+  <!-- Block 1 -->
+  <circle cx="400" cy="221" r="43" fill="#f5f5f4"/>
+  <text x="400" y="210" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="238" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <!-- Block 2 -->
+  <text x="400" y="318" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">逐項填寫</text>
+  <text x="400" y="345" text-anchor="middle" font-size="20" fill="#57534e">標記完成／待補</text>
+  <text x="400" y="367" text-anchor="middle" font-size="20" fill="#57534e">記錄應備文件</text>
+  <!-- Block 3 -->
+  <rect x="328" y="396" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="420" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">按面向逐條確認</text>
+
+  <!-- Card 3（x=501, cx=586, #57534e） -->
+  <rect x="501" y="141" width="170" height="320" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="501" y="141" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="145" width="170" height="4" fill="#57534e"/>
+  <!-- Block 1 -->
+  <circle cx="586" cy="221" r="43" fill="#f5f0eb"/>
+  <text x="586" y="210" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="238" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <!-- Block 2 -->
+  <text x="586" y="318" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">彙整備審</text>
+  <text x="586" y="345" text-anchor="middle" font-size="20" fill="#57534e">統計完成率</text>
+  <text x="586" y="367" text-anchor="middle" font-size="20" fill="#57534e">規劃補強計畫</text>
+  <!-- Block 3 -->
+  <rect x="514" y="396" width="144" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="420" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">提前 3 個月開始</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

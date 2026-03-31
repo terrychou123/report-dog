@@ -111,5 +111,5 @@
 
   <!-- 底部 -->
   <rect x="0" y="424" width="800" height="36" fill="#e8e5de"/>
-  <text x="400" y="446" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">5 大品管指標範例 · 適用日照中心 115 年度評鑑 · 報告汪 reportwang.com</text>
+  <text x="760" y="431" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

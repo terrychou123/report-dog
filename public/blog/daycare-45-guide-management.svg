@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">參、經營管理效能：4 大管理面向（共 15 條）</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 4-step horizontal flow -->
+  <!-- Step 1: 行政管理 -->
+  <rect x="52" y="105" width="158" height="245" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="105" width="158" height="6" rx="3" fill="#d97706"/>
+  <text x="131" y="138" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">行政管理</text>
+  <circle cx="131" cy="180" r="28" fill="#d97706" opacity="0.10"/>
+  <text x="131" y="188" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
+  <line x1="68" y1="222" x2="194" y2="222" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="244" font-size="12" fill="#78716c">▸ 組織架構圖</text>
+  <text x="72" y="262" font-size="12" fill="#78716c">▸ 服務手冊</text>
+  <text x="72" y="280" font-size="12" fill="#78716c">▸ 評鑑自評作業</text>
+  <text x="72" y="298" font-size="12" fill="#78716c">▸ 督導機制</text>
+  <text x="72" y="316" font-size="12" fill="#78716c">▸ 會議記錄</text>
+
+  <!-- Arrow 1 -->
+  <line x1="224" y1="228" x2="256" y2="228" stroke="#d97706" stroke-width="2"/>
+  <polygon points="256,222 268,228 256,234" fill="#d97706"/>
+
+  <!-- Step 2: 人員管理 -->
+  <rect x="272" y="105" width="158" height="245" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="272" y="105" width="158" height="6" rx="3" fill="#78716c"/>
+  <text x="351" y="138" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">人員管理</text>
+  <circle cx="351" cy="180" r="28" fill="#78716c" opacity="0.10"/>
+  <text x="351" y="188" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">2</text>
+  <line x1="288" y1="222" x2="414" y2="222" stroke="#f0ede6" stroke-width="1"/>
+  <text x="292" y="244" font-size="12" fill="#78716c">▸ 教育訓練計畫</text>
+  <text x="292" y="262" font-size="12" fill="#78716c">▸ 訓練時數記錄</text>
+  <text x="292" y="280" font-size="12" fill="#78716c">▸ 人員資格證書</text>
+  <text x="292" y="298" font-size="12" fill="#78716c">▸ 排班與出勤</text>
+  <text x="292" y="316" font-size="12" fill="#78716c">▸ 績效考核</text>
+
+  <!-- Arrow 2 -->
+  <line x1="444" y1="228" x2="476" y2="228" stroke="#d97706" stroke-width="2"/>
+  <polygon points="476,222 488,228 476,234" fill="#d97706"/>
+
+  <!-- Step 3: 財務管理 -->
+  <rect x="492" y="105" width="158" height="245" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="492" y="105" width="158" height="6" rx="3" fill="#a8a29e"/>
+  <text x="571" y="138" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">財務管理</text>
+  <circle cx="571" cy="180" r="28" fill="#a8a29e" opacity="0.12"/>
+  <text x="571" y="188" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">3</text>
+  <line x1="508" y1="222" x2="634" y2="222" stroke="#f0ede6" stroke-width="1"/>
+  <text x="512" y="244" font-size="12" fill="#78716c">▸ 收費標準公告</text>
+  <text x="512" y="262" font-size="12" fill="#78716c">▸ 財務報告</text>
+  <text x="512" y="280" font-size="12" fill="#78716c">▸ 費用收支明細</text>
+  <text x="512" y="298" font-size="12" fill="#78716c">▸ 補助款核銷</text>
+  <text x="512" y="316" font-size="12" fill="#78716c">▸ 資產管理</text>
+
+  <!-- Step 4: 緊急應變 (right side, no arrow after) -->
+  <text x="672" y="228" font-size="20" fill="#d97706" text-anchor="middle">→</text>
+
+  <rect x="652" y="105" width="100" height="245" rx="12" fill="#d97706" opacity="0.06"/>
+  <rect x="652" y="105" width="100" height="245" rx="12" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.4"/>
+  <!-- Slightly offset for the overflow text -->
+
+  <!-- Actually redraw step 4 cleanly -->
+  <rect x="652" y="105" width="96" height="245" rx="12" fill="white" stroke="#d97706" stroke-width="1.5" opacity="0.6"/>
+  <rect x="652" y="105" width="96" height="6" rx="3" fill="#d97706" opacity="0.7"/>
+  <text x="700" y="136" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">緊急應變</text>
+  <circle cx="700" cy="178" r="26" fill="#d97706" opacity="0.10"/>
+  <text x="700" y="186" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">4</text>
+  <line x1="666" y1="217" x2="734" y2="217" stroke="#f0ede6" stroke-width="1"/>
+  <text x="668" y="236" font-size="11" fill="#78716c">▸ 緊急聯絡</text>
+  <text x="668" y="254" font-size="11" fill="#78716c">▸ 疏散演練</text>
+  <text x="668" y="272" font-size="11" fill="#78716c">▸ 事故處理</text>
+  <text x="668" y="290" font-size="11" fill="#78716c">▸ 業務連續</text>
+  <text x="668" y="308" font-size="11" fill="#78716c">▸ 通報機制</text>
+
+  <!-- Bottom note -->
+  <rect x="52" y="370" width="696" height="36" rx="8" fill="#d97706" opacity="0.08"/>
+  <text x="400" y="393" font-size="13" fill="#92400e" text-anchor="middle">15 條基準涵蓋機構完整營運能力，是評鑑委員重點審核的核心項目</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

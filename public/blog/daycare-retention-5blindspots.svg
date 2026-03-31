@@ -67,5 +67,5 @@
   <text x="683" y="414" font-size="10" fill="#64748b" text-anchor="middle">每年健檢／異常值追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="440" font-size="13" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

@@ -82,5 +82,5 @@
   <text x="400" y="458" font-size="12" font-weight="600" fill="#d97706" text-anchor="middle">定期評估更新照顧計畫（第 7 條）</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="472" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="450" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

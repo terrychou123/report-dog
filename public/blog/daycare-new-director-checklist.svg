@@ -125,5 +125,5 @@
   <text x="400" y="440" font-size="11" fill="#a8a29e" text-anchor="middle">● 橙色項目為評鑑高頻查核重點　● 灰色為建議執行項目</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="440" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

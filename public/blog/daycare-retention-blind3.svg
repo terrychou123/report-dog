@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">盲點 3：不追蹤留任率，只靠感覺（第 30 條）</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Banner -->
+  <rect x="52" y="82" width="696" height="34" rx="8" fill="#d97706" opacity="0.08"/>
+  <text x="400" y="103" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">留任率是結果指標，背後的「過程資訊」才是改善的鑰匙</text>
+
+  <!-- Left: What to collect -->
+  <rect x="52" y="130" width="330" height="260" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="130" width="330" height="5" rx="2.5" fill="#d97706"/>
+  <text x="217" y="160" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">每季追蹤清單</text>
+  <line x1="68" y1="172" x2="366" y2="172" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="196" font-size="12" fill="#64748b">□ 本季在職人數（年初→年底）</text>
+  <text x="72" y="220" font-size="12" fill="#64748b">□ 本季新進人員數</text>
+  <text x="72" y="244" font-size="12" fill="#64748b">□ 本季離職人數（分類記錄）</text>
+  <text x="72" y="268" font-size="12" fill="#64748b">□ 各離職排除情形確認</text>
+  <text x="72" y="292" font-size="12" fill="#64748b">□ 本年度累計留任率計算</text>
+  <line x1="68" y1="314" x2="366" y2="314" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="336" font-size="13" font-weight="600" fill="#1e293b">離職前面談（必做）</text>
+  <text x="72" y="356" font-size="12" fill="#78716c">① 真正的離職主因是什麼</text>
+  <text x="72" y="374" font-size="12" fill="#78716c">② 工作中最大的挑戰</text>
+
+  <!-- Right: Action plan -->
+  <rect x="414" y="130" width="334" height="260" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="414" y="130" width="334" height="5" rx="2.5" fill="#78716c"/>
+  <text x="581" y="160" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">常見誤區 vs. 正確做法</text>
+  <line x1="430" y1="172" x2="732" y2="172" stroke="#f0ede6" stroke-width="1"/>
+
+  <rect x="430" y="182" width="298" height="52" rx="8" fill="#ef4444" opacity="0.07"/>
+  <text x="449" y="202" font-size="12" fill="#dc2626" font-weight="700">❌ 常見誤區</text>
+  <text x="449" y="222" font-size="12" fill="#78716c">所有離職都算進去→留任率被低估</text>
+
+  <rect x="430" y="244" width="298" height="52" rx="8" fill="#ef4444" opacity="0.07"/>
+  <text x="449" y="264" font-size="12" fill="#dc2626" font-weight="700">❌ 常見誤區</text>
+  <text x="449" y="284" font-size="12" fill="#78716c">只記「家庭因素」，不追根本原因</text>
+
+  <rect x="430" y="306" width="298" height="52" rx="8" fill="#d97706" opacity="0.08"/>
+  <text x="449" y="326" font-size="12" fill="#d97706" font-weight="700">✓ 正確做法</text>
+  <text x="449" y="346" font-size="12" fill="#78716c">每季 15 分鐘算一次，建立趨勢圖</text>
+
+  <rect x="430" y="368" width="298" height="16" rx="6" fill="#f8f7f2"/>
+  <text x="579" y="381" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">最便宜的人事預警系統</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

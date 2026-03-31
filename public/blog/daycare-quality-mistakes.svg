@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">品管指標常見失分情境：NG vs OK 對照</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect x="52" y="74" width="335" height="32" rx="6" fill="#ef4444" opacity="0.12"/>
+  <text x="219" y="95" font-size="14" fill="#dc2626" font-weight="700" text-anchor="middle">✗ NG 失分寫法</text>
+  <rect x="413" y="74" width="335" height="32" rx="6" fill="#22c55e" opacity="0.12"/>
+  <text x="580" y="95" font-size="14" fill="#16a34a" font-weight="700" text-anchor="middle">✓ OK 得分寫法</text>
+
+  <!-- Row 1 -->
+  <rect x="52" y="114" width="335" height="68" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <text x="72" y="135" font-size="12" fill="#78716c" font-weight="600">指標：「提升服務品質」</text>
+  <text x="72" y="155" font-size="12" fill="#dc2626">✗ 目標不明確，無法量化</text>
+  <text x="72" y="173" font-size="11" fill="#94a3b8">委員無法判斷是否達標</text>
+
+  <rect x="413" y="114" width="335" height="68" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="433" y="135" font-size="12" fill="#78716c" font-weight="600">指標：「家屬滿意度 ≥ 85 分」</text>
+  <text x="433" y="155" font-size="12" fill="#16a34a">✓ 具體指標名稱 + 目標數值</text>
+  <text x="433" y="173" font-size="11" fill="#94a3b8">問卷結果可對照核實</text>
+
+  <!-- Row 2 -->
+  <rect x="52" y="192" width="335" height="68" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <text x="72" y="213" font-size="12" fill="#78716c" font-weight="600">有數據，無分析檢討記錄</text>
+  <text x="72" y="233" font-size="12" fill="#dc2626">✗ 只收集數值，沒有討論說明</text>
+  <text x="72" y="251" font-size="11" fill="#94a3b8">缺少品管循環第3步驟</text>
+
+  <rect x="413" y="192" width="335" height="68" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="433" y="213" font-size="12" fill="#78716c" font-weight="600">品管會議紀錄含數據分析</text>
+  <text x="433" y="233" font-size="12" fill="#16a34a">✓ 記錄：數值 + 分析原因 + 結論</text>
+  <text x="433" y="251" font-size="11" fill="#94a3b8">會議有日期、出席、決議</text>
+
+  <!-- Row 3 -->
+  <rect x="52" y="270" width="335" height="68" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <text x="72" y="291" font-size="12" fill="#78716c" font-weight="600">未達標但無改善行動</text>
+  <text x="72" y="311" font-size="12" fill="#dc2626">✗ 指標 60%，說「下月改善」</text>
+  <text x="72" y="329" font-size="11" fill="#94a3b8">無具體對策即可能零分</text>
+
+  <rect x="413" y="270" width="335" height="68" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="433" y="291" font-size="12" fill="#78716c" font-weight="600">未達標有具體改善計畫</text>
+  <text x="433" y="311" font-size="12" fill="#16a34a">✓ 改善對策 + 負責人 + 完成日</text>
+  <text x="433" y="329" font-size="11" fill="#94a3b8">下月追蹤改善成效</text>
+
+  <!-- Row 4 -->
+  <rect x="52" y="348" width="335" height="56" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <text x="72" y="369" font-size="12" fill="#78716c" font-weight="600">評鑑前臨時補製品管表格</text>
+  <text x="72" y="389" font-size="12" fill="#dc2626">✗ 日期連續、筆跡一致，明顯補填</text>
+
+  <rect x="413" y="348" width="335" height="56" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="433" y="369" font-size="12" fill="#78716c" font-weight="600">平時就有逐月記錄</text>
+  <text x="433" y="389" font-size="12" fill="#16a34a">✓ 不同月份不同填寫者，自然真實</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

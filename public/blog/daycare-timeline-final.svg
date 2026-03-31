@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑前最後 1 週：最終確認清單</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Alert banner -->
+  <rect x="52" y="78" width="696" height="40" rx="8" fill="#d97706" opacity="0.10"/>
+  <rect x="52" y="78" width="4" height="40" rx="2" fill="#d97706"/>
+  <text x="72" y="103" font-size="14" fill="#92400e" font-weight="700">最後 7 天：每天確認，萬無一失</text>
+
+  <!-- 3 columns -->
+  <!-- Col 1: 文件類 -->
+  <rect x="52" y="134" width="210" height="250" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="134" width="210" height="5" rx="2.5" fill="#d97706"/>
+  <text x="157" y="161" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">文件確認</text>
+  <line x1="68" y1="174" x2="246" y2="174" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="196" font-size="12" fill="#1e293b">□ 自評表已繳交</text>
+  <text x="72" y="216" font-size="12" fill="#1e293b">□ 文件依大項分類夾好</text>
+  <text x="72" y="236" font-size="12" fill="#1e293b">□ 個案計畫為最新版本</text>
+  <text x="72" y="256" font-size="12" fill="#1e293b">□ 會議紀錄本年度完整</text>
+  <text x="72" y="276" font-size="12" fill="#1e293b">□ 訓練記錄齊全有簽名</text>
+  <text x="72" y="296" font-size="12" fill="#1e293b">□ 品管數據已彙整</text>
+  <text x="72" y="316" font-size="12" fill="#1e293b">□ 索引清單準備齊全</text>
+  <rect x="68" y="344" width="180" height="28" rx="6" fill="#d97706" opacity="0.08"/>
+  <text x="158" y="362" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">✓ 文件當天備查</text>
+
+  <!-- Col 2: 人員類 -->
+  <rect x="295" y="134" width="210" height="250" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="295" y="134" width="210" height="5" rx="2.5" fill="#78716c"/>
+  <text x="400" y="161" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">人員確認</text>
+  <line x1="311" y1="174" x2="489" y2="174" stroke="#f0ede6" stroke-width="1"/>
+  <text x="315" y="196" font-size="12" fill="#1e293b">□ 評鑑日人員排班確認</text>
+  <text x="315" y="216" font-size="12" fill="#1e293b">□ 假日/休假提前安排</text>
+  <text x="315" y="236" font-size="12" fill="#1e293b">□ 主管全程在場</text>
+  <text x="315" y="256" font-size="12" fill="#1e293b">□ 各人員訪談問答準備</text>
+  <text x="315" y="276" font-size="12" fill="#1e293b">□ 聯絡人電話確認</text>
+  <text x="315" y="296" font-size="12" fill="#1e293b">□ 工作人員知悉注意事項</text>
+  <text x="315" y="316" font-size="12" fill="#1e293b">□ 臨時支援人員備案</text>
+  <rect x="311" y="344" width="180" height="28" rx="6" fill="#78716c" opacity="0.08"/>
+  <text x="401" y="362" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">✓ 人員準時到位</text>
+
+  <!-- Col 3: 環境類 -->
+  <rect x="538" y="134" width="210" height="250" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="538" y="134" width="210" height="5" rx="2.5" fill="#a8a29e"/>
+  <text x="643" y="161" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">環境確認</text>
+  <line x1="554" y1="174" x2="732" y2="174" stroke="#f0ede6" stroke-width="1"/>
+  <text x="558" y="196" font-size="12" fill="#1e293b">□ 整體環境整潔乾淨</text>
+  <text x="558" y="216" font-size="12" fill="#1e293b">□ 消防逃生通道暢通</text>
+  <text x="558" y="236" font-size="12" fill="#1e293b">□ AED/急救箱位置明顯</text>
+  <text x="558" y="256" font-size="12" fill="#1e293b">□ 廚房清潔整齊</text>
+  <text x="558" y="276" font-size="12" fill="#1e293b">□ 公告欄資訊更新</text>
+  <text x="558" y="296" font-size="12" fill="#1e293b">□ 無障礙設施通道暢通</text>
+  <text x="558" y="316" font-size="12" fill="#1e293b">□ 個案活動正常進行</text>
+  <rect x="554" y="344" width="180" height="28" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="644" y="362" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">✓ 環境如常運作</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -67,5 +67,5 @@
   <text x="460" y="411" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#9333ea" font-weight="600">環境面向</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="452" text-anchor="end" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#c4bfb8">報告汪 reportwang.com</text>
+  <text x="760" y="431" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

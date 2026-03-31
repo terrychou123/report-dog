@@ -95,5 +95,5 @@
   <text x="424" y="439" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">原因：情緒低落日增加，已修正計畫。」</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="470" font-size="13" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="450" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

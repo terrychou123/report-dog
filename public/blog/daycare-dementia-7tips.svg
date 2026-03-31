@@ -72,5 +72,5 @@
   <text x="655" y="418" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">第 6、7 條</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="442" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

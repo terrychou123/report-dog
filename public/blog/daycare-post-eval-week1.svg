@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 1 週：改善檢討會議與計畫表填寫</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Left: 改善檢討會 -->
+  <rect x="52" y="80" width="330" height="310" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="80" width="330" height="5" rx="2.5" fill="#d97706"/>
+  <text x="68" y="109" font-size="15" fill="#78716c" font-weight="700">召開改善檢討會議</text>
+  <rect x="68" y="120" width="130" height="24" rx="6" fill="#d97706" opacity="0.10"/>
+  <text x="133" y="136" font-size="12" fill="#d97706" text-anchor="middle">7天內完成</text>
+  <line x1="68" y1="156" x2="366" y2="156" stroke="#f0ede6" stroke-width="1"/>
+
+  <text x="68" y="178" font-size="13" fill="#1e293b" font-weight="600">會議必要議題：</text>
+  <text x="68" y="200" font-size="12" fill="#64748b">□ 評鑑結果報告（主任說明）</text>
+  <text x="68" y="220" font-size="12" fill="#64748b">□ 各缺失項目說明與分析</text>
+  <text x="68" y="240" font-size="12" fill="#64748b">□ 分配改善責任人</text>
+  <text x="68" y="260" font-size="12" fill="#64748b">□ 確認改善完成期限</text>
+  <text x="68" y="280" font-size="12" fill="#64748b">□ 決議改善優先順序</text>
+
+  <line x1="68" y1="298" x2="366" y2="298" stroke="#f0ede6" stroke-width="1"/>
+  <text x="68" y="318" font-size="13" fill="#1e293b" font-weight="600">會議文件留存：</text>
+  <text x="68" y="338" font-size="12" fill="#78716c">✓ 出席簽到單</text>
+  <text x="68" y="356" font-size="12" fill="#78716c">✓ 議程與討論記錄</text>
+  <text x="68" y="374" font-size="12" fill="#78716c">✓ 決議事項與執行表</text>
+
+  <!-- Right: 改善計畫表 -->
+  <rect x="418" y="80" width="330" height="310" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="418" y="80" width="330" height="5" rx="2.5" fill="#78716c"/>
+  <text x="434" y="109" font-size="15" fill="#78716c" font-weight="700">填寫改善計畫表</text>
+  <rect x="434" y="120" width="130" height="24" rx="6" fill="#78716c" opacity="0.10"/>
+  <text x="499" y="136" font-size="12" fill="#78716c" text-anchor="middle">欄位缺一不可</text>
+  <line x1="434" y1="156" x2="732" y2="156" stroke="#f0ede6" stroke-width="1"/>
+
+  <text x="434" y="176" font-size="13" fill="#1e293b" font-weight="600">必填欄位（每條缺失）：</text>
+  <rect x="434" y="186" width="300" height="26" rx="6" fill="#f8f7f2"/>
+  <text x="444" y="203" font-size="12" fill="#1e293b">① 缺失條目名稱（對應評鑑基準）</text>
+  <rect x="434" y="218" width="300" height="26" rx="6" fill="#d97706" opacity="0.06"/>
+  <text x="444" y="235" font-size="12" fill="#1e293b">② 缺失原因分析（根本原因）</text>
+  <rect x="434" y="250" width="300" height="26" rx="6" fill="#f8f7f2"/>
+  <text x="444" y="267" font-size="12" fill="#1e293b">③ 改善對策（具體可執行）</text>
+  <rect x="434" y="282" width="300" height="26" rx="6" fill="#d97706" opacity="0.06"/>
+  <text x="444" y="299" font-size="12" fill="#1e293b">④ 負責人員姓名</text>
+  <rect x="434" y="314" width="300" height="26" rx="6" fill="#f8f7f2"/>
+  <text x="444" y="331" font-size="12" fill="#1e293b">⑤ 預計完成日期</text>
+
+  <line x1="434" y1="350" x2="732" y2="350" stroke="#f0ede6" stroke-width="1"/>
+  <text x="434" y="370" font-size="12" fill="#d97706" font-weight="600">繳交規定：</text>
+  <text x="434" y="386" font-size="12" fill="#64748b">評鑑後 30 天內送主管機關</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

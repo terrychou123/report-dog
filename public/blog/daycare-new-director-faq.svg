@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">新手主任第一年 10 件事總覽</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 10 items in 2 columns of 5 -->
+  <!-- Left column -->
+  <rect x="52" y="80" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="80" width="6" height="48" rx="3" fill="#d97706"/>
+  <text x="72" y="100" font-size="13" font-weight="700" fill="#1e293b">1. 熟讀人力設置標準</text>
+  <text x="72" y="118" font-size="11" fill="#64748b">第 28 條 ｜ 2 週內完成人力盤點</text>
+
+  <rect x="52" y="136" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="136" width="6" height="48" rx="3" fill="#78716c"/>
+  <text x="72" y="156" font-size="13" font-weight="700" fill="#1e293b">2. 建立工作手冊</text>
+  <text x="72" y="174" font-size="11" fill="#64748b">第 24 條 ｜ 1 個月內審閱補訂</text>
+
+  <rect x="52" y="192" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="192" width="6" height="48" rx="3" fill="#a8a29e"/>
+  <text x="72" y="212" font-size="13" font-weight="700" fill="#1e293b">3. 啟動每月行政會議</text>
+  <text x="72" y="230" font-size="11" fill="#64748b">第 25 條 ｜ 上任當月起</text>
+
+  <rect x="52" y="248" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="248" width="6" height="48" rx="3" fill="#d97706"/>
+  <text x="72" y="268" font-size="13" font-weight="700" fill="#1e293b">4. 建立獨立財務制度</text>
+  <text x="72" y="286" font-size="11" fill="#64748b">第 34 條 ｜ 獨立帳戶+收據</text>
+
+  <rect x="52" y="304" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="304" width="6" height="48" rx="3" fill="#78716c"/>
+  <text x="72" y="324" font-size="13" font-weight="700" fill="#1e293b">5. 訂定年度業務計畫</text>
+  <text x="72" y="342" font-size="11" fill="#64748b">第 23 條 ｜ 2 個月內完成</text>
+
+  <!-- Right column -->
+  <rect x="412" y="80" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="412" y="80" width="6" height="48" rx="3" fill="#d97706"/>
+  <text x="432" y="100" font-size="13" font-weight="700" fill="#1e293b">6. 落實教育訓練制度</text>
+  <text x="432" y="118" font-size="11" fill="#64748b">第 29 條 ｜ 在職 20h/網路上限 5h</text>
+
+  <rect x="412" y="136" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="412" y="136" width="6" height="48" rx="3" fill="#78716c"/>
+  <text x="432" y="156" font-size="13" font-weight="700" fill="#1e293b">7. 追蹤年度留任率</text>
+  <text x="432" y="174" font-size="11" fill="#64748b">第 30 條 ｜ 前 4 年度平均</text>
+
+  <rect x="412" y="192" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="412" y="192" width="6" height="48" rx="3" fill="#a8a29e"/>
+  <text x="432" y="212" font-size="13" font-weight="700" fill="#1e293b">8. 主任自我提升管理力</text>
+  <text x="432" y="230" font-size="11" fill="#64748b">第 31 條 ｜ 每年至少 4 小時</text>
+
+  <rect x="412" y="248" width="336" height="48" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="412" y="248" width="6" height="48" rx="3" fill="#d97706"/>
+  <text x="432" y="268" font-size="13" font-weight="700" fill="#1e293b">9. 建立督導機制</text>
+  <text x="432" y="286" font-size="11" fill="#64748b">第 9 條 ｜ 個督/半年 ｜ 團督/季</text>
+
+  <rect x="412" y="304" width="336" height="48" rx="8" fill="#d97706" opacity="0.06"/>
+  <rect x="412" y="304" width="336" height="48" rx="8" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.5"/>
+  <rect x="412" y="304" width="6" height="48" rx="3" fill="#d97706"/>
+  <text x="432" y="324" font-size="13" font-weight="700" fill="#d97706">10. 自訂品管指標</text>
+  <text x="432" y="342" font-size="11" fill="#92400e">第 22 條 ｜ 至少 2 項可測量指標</text>
+
+  <!-- Bottom action note -->
+  <rect x="52" y="368" width="696" height="38" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="400" y="391" font-size="12" fill="#78716c" text-anchor="middle">建議新任主任建立「上任 90 天行動清單」，按優先順序逐項完成</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

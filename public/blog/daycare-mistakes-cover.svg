@@ -1,65 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-
-  <!-- 背景：米黃暖色 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 右側裝飾塊 -->
+  <!-- 右側裝飾區塊 -->
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
-  <!-- 警示標籤 -->
-  <rect x="60" y="55" width="130" height="32" rx="16" fill="#78716c"/>
-  <text x="125" y="76" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="600">評鑑地雷</text>
+  <!-- 右側裝飾大數字（200px，頂部≈y=104） -->
+  <text x="1010" y="254" font-size="200" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">5</text>
+  <text x="1010" y="292" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">個評鑑扣分陷阱</text>
 
-  <!-- 主標題 -->
-  <text x="60" y="152" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="#1e293b" font-weight="700">日照評鑑最常</text>
-  <text x="60" y="218" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="#1e293b" font-weight="700">被扣分的</text>
-  <text x="368" y="218" font-family="'Noto Sans TC', sans-serif" font-size="72" fill="#d97706" font-weight="700">5</text>
-  <text x="428" y="218" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="#1e293b" font-weight="700"> 個地雷</text>
+  <!-- 右側直列 pill 標籤（4 個，各 56px，gap 8px） -->
+  <rect x="840" y="307" width="330" height="56" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1005" y="345" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">扣分 1：照顧計畫逾期</text>
 
-  <!-- 副標題 -->
-  <text x="60" y="262" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#64748b">115 年度版 · 你中了幾個？</text>
+  <rect x="840" y="371" width="330" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1005" y="409" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">扣分 2：追蹤評值漏記</text>
 
-  <!-- 分隔線 -->
-  <line x1="60" y1="284" x2="540" y2="284" stroke="#dedad3" stroke-width="1.5"/>
+  <rect x="840" y="435" width="330" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1005" y="473" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">扣分 3：督導紀錄不全</text>
 
-  <!-- 5 個地雷項目 -->
-  <rect x="60" y="305" width="210" height="72" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="78" y="334" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">01</text>
-  <text x="78" y="357" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b">照顧計畫逾期完成</text>
-  <text x="78" y="372" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">第 6 條</text>
+  <rect x="840" y="499" width="330" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1005" y="537" font-size="28" fill="#a8a29e" text-anchor="middle" font-weight="600">扣分 5：教育訓練不足</text>
 
-  <rect x="285" y="305" width="210" height="72" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="303" y="334" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">02</text>
-  <text x="303" y="357" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b">追蹤評值有做沒紀錄</text>
-  <text x="303" y="372" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">第 7 條</text>
+  <!-- 左側主內容區 -->
+  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">日照評鑑</text>
+  <text x="60" y="338" font-size="110" font-weight="900" fill="#d97706">5 大扣分陷阱</text>
 
-  <rect x="510" y="305" width="210" height="72" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="528" y="334" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">03</text>
-  <text x="528" y="357" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b">督導紀錄不完整</text>
-  <text x="528" y="372" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">第 9 條</text>
+  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
 
-  <rect x="60" y="392" width="210" height="72" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="78" y="421" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">04</text>
-  <text x="78" y="444" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b">品管指標沒自訂</text>
-  <text x="78" y="459" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">第 22 條</text>
+  <text x="60" y="416" font-size="38" fill="#64748b" font-weight="400">115 年度 · 最常失分條文 · 附快速補救清單</text>
 
-  <rect x="285" y="392" width="210" height="72" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="303" y="421" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">05</text>
-  <text x="303" y="444" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b">教育訓練時數不足</text>
-  <text x="303" y="459" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8">第 29 條</text>
+  <!-- 特色標籤列（pill 高 54px） -->
+  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">照顧計畫</text>
 
-  <!-- 底部說明 -->
-  <text x="60" y="526" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#94a3b8">附快速確認清單 · 評鑑前及早補強</text>
+  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">督導紀錄</text>
+
+  <rect x="380" y="450" width="148" height="54" rx="10" fill="#64748b" opacity="0.12"/>
+  <text x="454" y="483" font-size="28" fill="#64748b" text-anchor="middle" font-weight="600">品管指標</text>
+
+  <rect x="540" y="450" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
+  <text x="614" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">教育訓練</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：照服員 · 社工 · 日照主任 · 評鑑前速查</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="618" text-anchor="end" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#c4bfb8">報告汪 reportwang.com</text>
-
-  <!-- 右側裝飾：每個地雷都有解法 -->
-  <text x="1010" y="220" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="72" fill="#dedad3" font-weight="700">5</text>
-  <line x1="900" y1="260" x2="1110" y2="260" stroke="#dedad3" stroke-width="1"/>
-  <text x="1010" y="296" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#a8a29e">每個地雷</text>
-  <text x="1010" y="322" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#a8a29e">都有解法</text>
-  <!-- 裝飾圓點 -->
-  <circle cx="1010" cy="380" r="30" fill="white" stroke="#dedad3" stroke-width="1.5"/>
-  <text x="1010" y="388" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706">!</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -106,5 +106,5 @@
 
   <!-- 底部 -->
   <rect x="0" y="364" width="800" height="36" fill="#e8e5de"/>
-  <text x="400" y="386" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">評鑑前最後 1 週每日確認清單 · 報告汪 reportwang.com</text>
+  <text x="760" y="375" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

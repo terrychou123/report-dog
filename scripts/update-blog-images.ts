@@ -26,7 +26,7 @@ function getDbUrl(raw = process.env.DATABASE_URL) {
   return raw;
 }
 
-// 要更新的八篇文章 JSON 檔案
+// 要更新的十二篇文章 JSON 檔案
 const POST_FILES = [
   "article-1-daycare-45-guide.json",
   "article-2-daycare-common-mistakes.json",
@@ -36,6 +36,10 @@ const POST_FILES = [
   "article-6-daycare-3month-timeline.json",
   "article-7-daycare-quality-indicator.json",
   "article-8-daycare-post-evaluation.json",
+  "article-9-daycare-new-director.json",
+  "article-10-daycare-dementia-home.json",
+  "article-11-daycare-case-records.json",
+  "article-12-daycare-retention.json",
 ];
 
 async function main() {

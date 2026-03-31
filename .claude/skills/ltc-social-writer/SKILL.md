@@ -566,7 +566,19 @@ SVG 插圖風格由 `svg-illustration` skill 管理（`public/blog/*.svg`），�
 | 插圖類型 | 數量 | 用途 |
 |---------|------|------|
 | 封面圖（cover） | 1 | `coverImageUrl` 欄位，用於 OG 社群分享卡 |
-| 內文插圖 | 2–3 | 穿插於各 `<h2>` 段落之間，輔助說明內容 |
+| 內文插圖 | 7–8 | 每 300–500 字配 1 張，穿插於各段落結束後 |
+
+### 內文插圖密度
+
+- 每 300–500 字配 1 張 SVG 內文插圖（詳見 `svg-illustration` skill）
+- 插入點：每個 `<h2>` 或 `<h3>` 段落結束後、下一段落開始前
+- 新文章建立時同步規劃插圖清單（檔名、類型、插入位置）
+
+| 文章字數 | 建議插圖數（不含封面） |
+|---------|---------------------|
+| 2,000–2,500 字 | 5–6 張 |
+| 3,000–3,500 字 | 7–8 張 |
+| 4,000–5,000 字 | 8–10 張 |
 
 ### 插圖類型選擇
 
@@ -581,7 +593,10 @@ SVG 插圖風格由 `svg-illustration` skill 管理（`public/blog/*.svg`），�
 ### 插圖引用格式（HTML 內文）
 
 ```html
-<img src="/blog/{facility-type}-{topic}-{diagram-type}.svg" alt="[描述性替代文字，包含關鍵字]" />
+<figure style="margin: 2rem 0;">
+  <img src="/blog/{facility-type}-{topic}-{diagram-type}.svg" alt="[描述性替代文字，包含關鍵字]" style="width:100%;border-radius:12px;" />
+  <figcaption style="text-align:center;font-size:0.875rem;color:#64748b;margin-top:0.5rem;">圖：[說明文字]</figcaption>
+</figure>
 ```
 
 命名規則：`{機構類型}-{文章主題}-{圖表類型}.svg`，例如：`daycare-checklist-flow.svg`

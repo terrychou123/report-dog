@@ -1,68 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="420" fill="#f0efe8"/>
+  <!-- 右側裝飾大數字（150px，頂部≈y=104） -->
+  <text x="1010" y="224" font-size="150" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">3</text>
+  <text x="1010" y="262" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">大審查方式</text>
 
-  <!-- 左側裝飾塊 -->
-  <rect x="0" y="0" width="300" height="420" fill="#e8e6de"/>
+  <!-- 右側時程條（3 條，各 80px，底部 y=538） -->
+  <rect x="840" y="282" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="840" y="282" width="7" height="80" rx="3" fill="#d97706"/>
+  <text x="862" y="318" font-size="28" fill="#d97706" font-weight="700">文件審閱</text>
+  <text x="862" y="346" font-size="22" fill="#78716c">照顧計畫 · 督導紀錄 · 品管指標</text>
 
-  <!-- 左側評鑑委員視覺區 -->
-  <!-- 人物剪影 -->
-  <ellipse cx="155" cy="160" rx="32" ry="32" fill="#94a3b8"/>
-  <rect x="115" y="195" width="80" height="90" rx="8" fill="#94a3b8"/>
-  <!-- 領帶裝飾 -->
-  <polygon points="155,200 148,210 155,240 162,210" fill="#d97706"/>
+  <rect x="840" y="370" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="840" y="370" width="7" height="80" rx="3" fill="#78716c"/>
+  <text x="862" y="406" font-size="28" fill="#78716c" font-weight="700">現場訪談</text>
+  <text x="862" y="434" font-size="22" fill="#78716c">服務對象 · 家屬 · 工作人員</text>
 
-  <!-- 文件板 -->
-  <rect x="175" y="210" width="70" height="90" rx="6" fill="white" stroke="#dedad3" stroke-width="1"/>
-  <rect x="182" y="220" width="56" height="6" rx="3" fill="#78716c"/>
-  <rect x="182" y="232" width="45" height="4" rx="2" fill="#a3a3a3"/>
-  <rect x="182" y="242" width="50" height="4" rx="2" fill="#a3a3a3"/>
-  <rect x="182" y="252" width="40" height="4" rx="2" fill="#a3a3a3"/>
-  <!-- 勾選框 -->
-  <rect x="182" y="264" width="10" height="10" rx="2" fill="#78716c"/>
-  <text x="196" y="273" font-family="sans-serif" font-size="9" fill="#64748b">已完成</text>
-  <rect x="182" y="278" width="10" height="10" rx="2" fill="#dedad3"/>
-  <text x="196" y="287" font-family="sans-serif" font-size="9" fill="#64748b">待確認</text>
+  <rect x="840" y="458" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="840" y="458" width="7" height="80" rx="3" fill="#a8a29e"/>
+  <text x="862" y="494" font-size="28" fill="#a8a29e" font-weight="700">環境查看</text>
+  <text x="862" y="522" font-size="22" fill="#78716c">高齡友善 · 廚房衛生 · 急救設備</text>
 
-  <!-- 放大鏡 -->
-  <circle cx="255" cy="185" r="20" fill="none" stroke="#d97706" stroke-width="3"/>
-  <line x1="269" y1="199" x2="282" y2="212" stroke="#d97706" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="255" cy="185" r="12" fill="#d97706" opacity="0.12"/>
+  <!-- 左側主內容區 -->
+  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">評鑑委員</text>
+  <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">怎麼看你？</text>
 
-  <!-- 評鑑委員標籤 -->
-  <rect x="100" y="300" width="80" height="22" rx="11" fill="#78716c"/>
-  <text x="140" y="315" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">評鑑委員</text>
+  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
 
-  <!-- 分隔線 -->
-  <line x1="310" y1="60" x2="310" y2="360" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="60" y="416" font-size="38" fill="#64748b" font-weight="400">文件 · 訪談 · 環境 · 現場視角大公開</text>
 
-  <!-- 右側文字區 -->
-  <rect x="340" y="70" width="140" height="28" rx="14" fill="white" stroke="#dedad3" stroke-width="1"/>
-  <text x="410" y="89" font-family="sans-serif" font-size="13" fill="#78716c" text-anchor="middle" font-weight="bold">深度解析系列</text>
+  <!-- 特色標籤列（pill 高 54px） -->
+  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">文件審閱</text>
 
-  <!-- 主標題 -->
-  <text x="340" y="160" font-family="sans-serif" font-size="40" fill="#1e293b" font-weight="bold">評鑑委員</text>
-  <text x="340" y="210" font-family="sans-serif" font-size="40" fill="#1e293b" font-weight="bold">的視角</text>
+  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">現場訪談</text>
 
-  <!-- 副標題 -->
-  <text x="340" y="252" font-family="sans-serif" font-size="22" fill="#d97706" font-weight="bold">到底在看什麼？</text>
+  <rect x="380" y="450" width="148" height="54" rx="10" fill="#64748b" opacity="0.12"/>
+  <text x="454" y="483" font-size="28" fill="#64748b" text-anchor="middle" font-weight="600">環境查看</text>
 
-  <!-- 分隔線 -->
-  <rect x="340" y="268" width="60" height="3" rx="1.5" fill="#a8a29e"/>
+  <rect x="540" y="450" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
+  <text x="614" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">評分邏輯</text>
 
-  <!-- 說明文字 -->
-  <text x="340" y="302" font-family="sans-serif" font-size="14" fill="#64748b">了解評鑑委員的審查邏輯</text>
-  <text x="340" y="322" font-family="sans-serif" font-size="14" fill="#64748b">讓您的日照中心完美過關</text>
-
-  <!-- 底部標籤 -->
-  <rect x="340" y="352" width="80" height="22" rx="11" fill="white" stroke="#dedad3" stroke-width="1"/>
-  <text x="380" y="367" font-family="sans-serif" font-size="11" fill="#78716c" text-anchor="middle">文件審閱</text>
-  <rect x="432" y="352" width="80" height="22" rx="11" fill="white" stroke="#dedad3" stroke-width="1"/>
-  <text x="472" y="367" font-family="sans-serif" font-size="11" fill="#78716c" text-anchor="middle">現場訪談</text>
-  <rect x="524" y="352" width="80" height="22" rx="11" fill="white" stroke="#dedad3" stroke-width="1"/>
-  <text x="564" y="367" font-family="sans-serif" font-size="11" fill="#78716c" text-anchor="middle">環境查看</text>
+  <!-- 適用對象 -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：日照主任 · 照服員 · 社工 · 評鑑準備</text>
 
   <!-- 浮水印 -->
-  <text x="756" y="412" text-anchor="end" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#c4bfb8">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

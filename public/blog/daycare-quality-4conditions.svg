@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 22 條：品管指標 4 大必要條件</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Center label -->
+  <text x="400" y="82" font-size="13" fill="#94a3b8" text-anchor="middle">缺少任何一條件 → 該指標不被認可，可能零分</text>
+
+  <!-- 2x2 grid -->
+  <!-- Condition 1: 有指標設定 (top left) -->
+  <rect x="52" y="98" width="335" height="158" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="98" width="335" height="5" rx="2.5" fill="#d97706"/>
+  <circle cx="84" cy="132" r="20" fill="#d97706" opacity="0.12"/>
+  <text x="84" y="139" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
+  <text x="116" y="128" font-size="15" fill="#1e293b" font-weight="700">有指標設定</text>
+  <text x="116" y="146" font-size="12" fill="#64748b">明確訂定品管指標名稱與目標值</text>
+  <line x1="68" y1="164" x2="372" y2="164" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="184" font-size="12" fill="#78716c">✓ 指標名稱具體（非模糊描述）</text>
+  <text x="72" y="202" font-size="12" fill="#78716c">✓ 設有目標達成率（如 90% 以上）</text>
+  <text x="72" y="220" font-size="12" fill="#78716c">✓ 指定負責人員或部門</text>
+  <text x="72" y="238" font-size="12" fill="#78716c">✓ 書面規範存檔可查</text>
+
+  <!-- Condition 2: 有定期收集數據 (top right) -->
+  <rect x="413" y="98" width="335" height="158" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="413" y="98" width="335" height="5" rx="2.5" fill="#78716c"/>
+  <circle cx="445" cy="132" r="20" fill="#78716c" opacity="0.12"/>
+  <text x="445" y="139" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">2</text>
+  <text x="477" y="128" font-size="15" fill="#1e293b" font-weight="700">有定期收集數據</text>
+  <text x="477" y="146" font-size="12" fill="#64748b">固定頻率統計數值，留有書面紀錄</text>
+  <line x1="429" y1="164" x2="733" y2="164" stroke="#f0ede6" stroke-width="1"/>
+  <text x="433" y="184" font-size="12" fill="#78716c">✓ 每月固定統計（或符合頻率）</text>
+  <text x="433" y="202" font-size="12" fill="#78716c">✓ 統計表有日期、數值、簽名</text>
+  <text x="433" y="220" font-size="12" fill="#78716c">✓ 至少 3 個月以上歷史資料</text>
+  <text x="433" y="238" font-size="12" fill="#78716c">✓ 數值可核對來源</text>
+
+  <!-- Condition 3: 有分析檢討 (bottom left) -->
+  <rect x="52" y="272" width="335" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="272" width="335" height="5" rx="2.5" fill="#a8a29e"/>
+  <circle cx="84" cy="306" r="20" fill="#a8a29e" opacity="0.15"/>
+  <text x="84" y="313" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">3</text>
+  <text x="116" y="302" font-size="15" fill="#1e293b" font-weight="700">有分析檢討</text>
+  <text x="116" y="320" font-size="12" fill="#64748b">對數據進行原因分析與會議討論</text>
+  <line x1="68" y1="336" x2="372" y2="336" stroke="#f0ede6" stroke-width="1"/>
+  <text x="72" y="356" font-size="12" fill="#78716c">✓ 品管會議紀錄含數據討論</text>
+  <text x="72" y="374" font-size="12" fill="#78716c">✓ 未達標時有原因分析說明</text>
+  <text x="72" y="392" font-size="12" fill="#78716c">✓ 趨勢圖或比較表輔助分析</text>
+
+  <!-- Condition 4: 有改善行動 (bottom right) -->
+  <rect x="413" y="272" width="335" height="148" rx="12" fill="white" stroke="#d97706" stroke-width="1.5" opacity="0.6"/>
+  <rect x="413" y="272" width="335" height="5" rx="2.5" fill="#d97706"/>
+  <circle cx="445" cy="306" r="20" fill="#d97706" opacity="0.12"/>
+  <text x="445" y="313" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">4</text>
+  <text x="477" y="302" font-size="15" fill="#1e293b" font-weight="700">有改善行動</text>
+  <text x="477" y="320" font-size="12" fill="#64748b">針對問題制訂對策並執行追蹤</text>
+  <line x1="429" y1="336" x2="733" y2="336" stroke="#f0ede6" stroke-width="1"/>
+  <text x="433" y="356" font-size="12" fill="#78716c">✓ 有具體改善對策（非僅口頭）</text>
+  <text x="433" y="374" font-size="12" fill="#78716c">✓ 有執行時間表與負責人</text>
+  <text x="433" y="392" font-size="12" fill="#d97706">⭐ 最常遺漏！無改善行動即零分</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

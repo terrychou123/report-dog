@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="450" fill="#f0efe8"/>
+  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">自評表 參、經營管理效能：自評核心要點</text>
+  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
+  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 4 areas in 2x2 grid -->
+  <!-- Area 1: 行政管理 (top left) -->
+  <rect x="52" y="78" width="335" height="160" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="78" width="335" height="5" rx="2.5" fill="#d97706"/>
+  <text x="68" y="103" font-size="14" fill="#78716c" font-weight="700">行政管理</text>
+  <rect x="186" y="89" width="72" height="22" rx="6" fill="#d97706" opacity="0.10"/>
+  <text x="222" y="104" font-size="12" fill="#d97706" text-anchor="middle">5 條基準</text>
+  <text x="68" y="128" font-size="12" fill="#1e293b">□  組織架構圖及職掌說明</text>
+  <text x="68" y="148" font-size="12" fill="#1e293b">□  年度服務計畫書與執行報告</text>
+  <text x="68" y="168" font-size="12" fill="#1e293b">□  督導制度：頻率、紀錄、改善</text>
+  <text x="68" y="188" font-size="12" fill="#1e293b">□  委員會/工作會議紀錄完整性</text>
+  <text x="68" y="208" font-size="12" fill="#1e293b">□  評鑑自評表（評鑑前填妥）</text>
+
+  <!-- Area 2: 人員管理 (top right) -->
+  <rect x="413" y="78" width="335" height="160" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="413" y="78" width="335" height="5" rx="2.5" fill="#78716c"/>
+  <text x="429" y="103" font-size="14" fill="#78716c" font-weight="700">人員管理</text>
+  <rect x="558" y="89" width="72" height="22" rx="6" fill="#78716c" opacity="0.10"/>
+  <text x="594" y="104" font-size="12" fill="#78716c" text-anchor="middle">4 條基準</text>
+  <text x="429" y="128" font-size="12" fill="#1e293b">□  工作人員資格證書及在職訓練</text>
+  <text x="429" y="148" font-size="12" fill="#1e293b">□  年度教育訓練計畫（含時數）</text>
+  <text x="429" y="168" font-size="12" fill="#1e293b">□  訓練簽到單及測驗/心得記錄</text>
+  <text x="429" y="188" font-size="12" fill="#1e293b">□  勞動法規遵循（保險/合約）</text>
+  <text x="429" y="208" font-size="12" fill="#1e293b">□  在職人員輪值排班記錄</text>
+
+  <!-- Area 3: 財務管理 (bottom left) -->
+  <rect x="52" y="254" width="335" height="126" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="52" y="254" width="335" height="5" rx="2.5" fill="#a8a29e"/>
+  <text x="68" y="279" font-size="14" fill="#78716c" font-weight="700">財務管理</text>
+  <rect x="186" y="265" width="72" height="22" rx="6" fill="#a8a29e" opacity="0.15"/>
+  <text x="222" y="280" font-size="12" fill="#78716c" text-anchor="middle">3 條基準</text>
+  <text x="68" y="304" font-size="12" fill="#1e293b">□  收費標準公開揭露（貼於明顯處）</text>
+  <text x="68" y="324" font-size="12" fill="#1e293b">□  年度收支報告書</text>
+  <text x="68" y="344" font-size="12" fill="#1e293b">□  補助款核銷及使用記錄</text>
+
+  <!-- Area 4: 緊急應變 (bottom right) -->
+  <rect x="413" y="254" width="335" height="126" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="413" y="254" width="335" height="5" rx="2.5" fill="#d6d3d1"/>
+  <text x="429" y="279" font-size="14" fill="#78716c" font-weight="700">緊急應變</text>
+  <rect x="564" y="265" width="72" height="22" rx="6" fill="#d6d3d1" opacity="0.3"/>
+  <text x="600" y="280" font-size="12" fill="#78716c" text-anchor="middle">3 條基準</text>
+  <text x="429" y="304" font-size="12" fill="#1e293b">□  緊急聯絡網及通報流程</text>
+  <text x="429" y="324" font-size="12" fill="#1e293b">□  年度消防演習記錄</text>
+  <text x="429" y="344" font-size="12" fill="#1e293b">□  重大事故處理紀錄（若有）</text>
+
+  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

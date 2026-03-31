@@ -1,62 +1,54 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾塊 -->
+  <!-- 右側裝飾區塊 -->
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
-  <!-- 右側裝飾大數字 -->
-  <text x="940" y="240" font-size="200" font-weight="900" fill="#dedad3" text-anchor="middle">7</text>
-  <text x="940" y="290" font-size="18" fill="#a8a29e" text-anchor="middle">個實戰技巧</text>
-  <text x="940" y="320" font-size="15" fill="#c4bfb8" text-anchor="middle">對應評鑑基準</text>
+  <!--
+    右側高度計算：
+    · 數字 "7"：font-size=190, baseline=y=247, 頂部≈y=104（與左側主標題頂部對齊）
+    · 最後 pill 底部：y=499+56=555 ≤ 左側適用對象 y=558 ✓
+    · 右側內容總高：104~555 = 451px ≤ 左側 104~565 = 461px ✓
+  -->
 
-  <!-- 右側裝飾線條 -->
-  <rect x="860" y="360" width="160" height="2" fill="#dedad3"/>
-  <rect x="860" y="375" width="120" height="2" fill="#dedad3"/>
-  <rect x="860" y="390" width="140" height="2" fill="#dedad3"/>
+  <!-- 右側裝飾大數字（190px，頂部對齊左側主標題） -->
+  <text x="1010" y="247" font-size="190" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">7</text>
+  <text x="1010" y="289" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">個常見照護技巧</text>
 
-  <!-- 左側主要內容區 -->
-  <!-- tag 標籤 -->
-  <rect x="60" y="60" width="88" height="30" rx="6" fill="#e8e6de"/>
-  <text x="104" y="80" font-size="13" fill="#78716c" text-anchor="middle" font-weight="500">照顧技巧</text>
+  <!-- 右側直列 pill 標籤（4 個，各 56px，gap 8px，底部 555）-->
+  <rect x="840" y="307" width="330" height="56" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1005" y="345" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">技巧 1：情緒同理優先</text>
 
-  <!-- 水平分隔線（tag 下方） -->
-  <rect x="60" y="106" width="680" height="1.5" fill="#dedad3"/>
+  <rect x="840" y="371" width="330" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1005" y="409" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">技巧 3：安撫音樂治療</text>
 
-  <!-- 主標題 -->
-  <text x="60" y="185" font-size="54" font-weight="800" fill="#1e293b">失智長輩一直說</text>
-  <text x="60" y="255" font-size="54" font-weight="800" fill="#d97706">「我要回家」怎麼辦？</text>
+  <rect x="840" y="435" width="330" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1005" y="473" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">技巧 6：安全視線看視</text>
 
-  <!-- 副標題 -->
-  <text x="60" y="308" font-size="20" fill="#64748b">第一線照服員的 7 個實戰技巧 · 對照 115 年度評鑑基準</text>
+  <rect x="840" y="499" width="330" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1005" y="537" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">技巧 7：追蹤評值更新</text>
 
-  <!-- 水平分隔線 -->
-  <rect x="60" y="340" width="680" height="2" fill="#dedad3"/>
+  <!-- 左側主內容區（主標題 120/110px，頂部≈y=104） -->
+  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">失智長輩</text>
+  <text x="60" y="338" font-size="110" font-weight="900" fill="#d97706">想回家怎麼辦</text>
 
-  <!-- 底部特色標籤列 -->
-  <!-- 標籤1 -->
-  <rect x="60" y="368" width="96" height="32" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="108" y="389" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">情緒同理</text>
+  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
 
-  <!-- 標籤2 -->
-  <rect x="170" y="368" width="112" height="32" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="226" y="389" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">個別化照護</text>
+  <text x="60" y="416" font-size="38" fill="#64748b" font-weight="400">7 個照護技巧 · 對照評鑑第 16 條</text>
 
-  <!-- 標籤3 -->
-  <rect x="296" y="368" width="96" height="32" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="344" y="389" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">安全看視</text>
+  <!-- 特色標籤列（28px，pill 高 54px） -->
+  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">日照中心</text>
 
-  <!-- 標籤4 -->
-  <rect x="406" y="368" width="96" height="32" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="454" y="389" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">追蹤評值</text>
+  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">失智照護</text>
 
-  <!-- 底部說明 -->
-  <text x="60" y="450" font-size="16" fill="#94a3b8">115 年度日間照顧中心評鑑基準第 5、6、7、11、13、14、19 條對應說明</text>
+  <rect x="380" y="450" width="148" height="54" rx="10" fill="#64748b" opacity="0.12"/>
+  <text x="454" y="483" font-size="28" fill="#64748b" text-anchor="middle" font-weight="600">BPSD 處理</text>
 
-  <!-- 底部品牌條 -->
-  <rect x="60" y="490" width="52" height="5" rx="3" fill="#d97706"/>
-  <rect x="124" y="490" width="52" height="5" rx="3" fill="#dedad3"/>
-  <rect x="188" y="490" width="52" height="5" rx="3" fill="#dedad3"/>
+  <!-- 適用對象說明（28px，底部≈y=565） -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：照服員 · 社工 · 日照主任 · 評鑑準備</text>
 
-  <!-- 浮水印 -->
-  <text x="1140" y="618" font-size="13" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+  <!-- 浮水印（24px，上移） -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>
