@@ -13,11 +13,11 @@
   <line x1="68" y1="156" x2="366" y2="156" stroke="#f0ede6" stroke-width="1"/>
 
   <text x="68" y="178" font-size="13" fill="#1e293b" font-weight="600">會議必要議題：</text>
-  <text x="68" y="200" font-size="12" fill="#64748b">□ 評鑑結果報告（主任說明）</text>
-  <text x="68" y="220" font-size="12" fill="#64748b">□ 各缺失項目說明與分析</text>
-  <text x="68" y="240" font-size="12" fill="#64748b">□ 分配改善責任人</text>
-  <text x="68" y="260" font-size="12" fill="#64748b">□ 確認改善完成期限</text>
-  <text x="68" y="280" font-size="12" fill="#64748b">□ 決議改善優先順序</text>
+  <text x="68" y="200" font-size="12" fill="#57534e">□ 評鑑結果報告（主任說明）</text>
+  <text x="68" y="220" font-size="12" fill="#57534e">□ 各缺失項目說明與分析</text>
+  <text x="68" y="240" font-size="12" fill="#57534e">□ 分配改善責任人</text>
+  <text x="68" y="260" font-size="12" fill="#57534e">□ 確認改善完成期限</text>
+  <text x="68" y="280" font-size="12" fill="#57534e">□ 決議改善優先順序</text>
 
   <line x1="68" y1="298" x2="366" y2="298" stroke="#f0ede6" stroke-width="1"/>
   <text x="68" y="318" font-size="13" fill="#1e293b" font-weight="600">會議文件留存：</text>
@@ -47,7 +47,7 @@
 
   <line x1="434" y1="350" x2="732" y2="350" stroke="#f0ede6" stroke-width="1"/>
   <text x="434" y="370" font-size="12" fill="#d97706" font-weight="600">繳交規定：</text>
-  <text x="434" y="386" font-size="12" fill="#64748b">評鑑後 30 天內送主管機關</text>
+  <text x="434" y="386" font-size="12" fill="#57534e">評鑑後 30 天內送主管機關</text>
 
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

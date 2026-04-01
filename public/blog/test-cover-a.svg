@@ -4,11 +4,20 @@
   <!-- 右側裝飾區塊 -->
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
-  <!-- 右側裝飾大數字（180px，頂部≈y=104） -->
+  <!--
+    右側高度計算：
+    · 數字 "45"：font-size=180, baseline=y=239, 頂部≈y=104（與左側主標題頂部對齊）
+    · 底部 pill 底部：y=491+52=543 ≤ 左側適用對象 y=558 ✓
+    · 右側內容總高：104~543 = 439px ≤ 左側 104~565 = 461px ✓
+  -->
+
+  <!-- 右側裝飾大數字（180px，頂部對齊左側主標題） -->
   <text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">45</text>
   <text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">項評鑑基準完整版</text>
 
-  <!-- 右側 2×2 資訊卡片（row1 y=299, row2 y=395, h=86）-->
+  <!-- 右側 2×2 資訊卡片（row1 y=299, row2 y=395, h=86）
+       垂直置中：title_y=rect_y+37, sub_y=title_y+31
+  -->
   <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">43 正式項</text>
   <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">硬性達標</text>
@@ -25,11 +34,13 @@
   <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">115 年度</text>
   <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">臺北市版</text>
 
-  <!-- 右側底部標籤（y=491, h=52） -->
+  <!-- 右側底部標籤（y=491, h=52, 底部=543）
+       單行置中：y = 491+26+9.8 ≈ 527
+  -->
   <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="527" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">逐條解析 · 條文對照版</text>
 
-  <!-- 左側主內容區 -->
+  <!-- 左側主內容區（主標題 120px，頂部≈y=104） -->
   <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">日照評鑑</text>
   <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">45 項全解析</text>
 
@@ -37,7 +48,7 @@
 
   <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">115 年度臺北市 · 逐條對照 · 含加分項</text>
 
-  <!-- 特色標籤列（pill 高 54px） -->
+  <!-- 特色標籤列（28px，pill 高 54px） -->
   <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">個案保障</text>
 
@@ -50,9 +61,9 @@
   <rect x="540" y="450" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
   <text x="614" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">經營管理</text>
 
-  <!-- 適用對象 -->
+  <!-- 適用對象說明（28px，底部≈y=565） -->
   <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：日照主任 · 社工 · 評鑑準備團隊</text>
 
-  <!-- 浮水印 -->
+  <!-- 浮水印（24px，上移） -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

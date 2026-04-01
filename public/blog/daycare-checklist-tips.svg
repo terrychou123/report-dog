@@ -13,8 +13,8 @@
   <text x="116" y="182" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">對照</text>
   <text x="116" y="198" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">基準說明書</text>
   <line x1="68" y1="216" x2="164" y2="216" stroke="#f0ede6" stroke-width="1"/>
-  <text x="116" y="234" font-size="11" fill="#64748b" text-anchor="middle">先讀懂每條</text>
-  <text x="116" y="250" font-size="11" fill="#64748b" text-anchor="middle">指標定義</text>
+  <text x="116" y="234" font-size="11" fill="#57534e" text-anchor="middle">先讀懂每條</text>
+  <text x="116" y="250" font-size="11" fill="#57534e" text-anchor="middle">指標定義</text>
   <text x="116" y="270" font-size="11" fill="#d97706" text-anchor="middle">⚠ 勿憑印象</text>
   <text x="116" y="286" font-size="11" fill="#94a3b8" text-anchor="middle">填寫，需逐條</text>
   <text x="116" y="302" font-size="11" fill="#94a3b8" text-anchor="middle">核對說明</text>
@@ -30,8 +30,8 @@
   <text x="272" y="182" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">實際查找</text>
   <text x="272" y="198" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">佐證文件</text>
   <line x1="224" y1="216" x2="320" y2="216" stroke="#f0ede6" stroke-width="1"/>
-  <text x="272" y="234" font-size="11" fill="#64748b" text-anchor="middle">找出對應文件</text>
-  <text x="272" y="250" font-size="11" fill="#64748b" text-anchor="middle">確認存在且完整</text>
+  <text x="272" y="234" font-size="11" fill="#57534e" text-anchor="middle">找出對應文件</text>
+  <text x="272" y="250" font-size="11" fill="#57534e" text-anchor="middle">確認存在且完整</text>
   <text x="272" y="270" font-size="11" fill="#d97706" text-anchor="middle">⚠ 先找再填</text>
   <text x="272" y="286" font-size="11" fill="#94a3b8" text-anchor="middle">不能填「有」</text>
   <text x="272" y="302" font-size="11" fill="#94a3b8" text-anchor="middle">卻找不到</text>
@@ -47,8 +47,8 @@
   <text x="428" y="182" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">如實填寫</text>
   <text x="428" y="198" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">評分等級</text>
   <line x1="380" y1="216" x2="476" y2="216" stroke="#f0ede6" stroke-width="1"/>
-  <text x="428" y="234" font-size="11" fill="#64748b" text-anchor="middle">A/B/C 級誠實</text>
-  <text x="428" y="250" font-size="11" fill="#64748b" text-anchor="middle">評估自身狀況</text>
+  <text x="428" y="234" font-size="11" fill="#57534e" text-anchor="middle">A/B/C 級誠實</text>
+  <text x="428" y="250" font-size="11" fill="#57534e" text-anchor="middle">評估自身狀況</text>
   <text x="428" y="270" font-size="11" fill="#d97706" text-anchor="middle">⚠ 勿虛填高分</text>
   <text x="428" y="286" font-size="11" fill="#94a3b8" text-anchor="middle">自評過高反而</text>
   <text x="428" y="302" font-size="11" fill="#94a3b8" text-anchor="middle">引起委員質疑</text>
@@ -64,8 +64,8 @@
   <text x="584" y="182" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">備註說明</text>
   <text x="584" y="198" font-size="13" fill="#1e293b" font-weight="700" text-anchor="middle">不足原因</text>
   <line x1="536" y1="216" x2="632" y2="216" stroke="#f0ede6" stroke-width="1"/>
-  <text x="584" y="234" font-size="11" fill="#64748b" text-anchor="middle">對B/C級項目</text>
-  <text x="584" y="250" font-size="11" fill="#64748b" text-anchor="middle">說明改善計畫</text>
+  <text x="584" y="234" font-size="11" fill="#57534e" text-anchor="middle">對B/C級項目</text>
+  <text x="584" y="250" font-size="11" fill="#57534e" text-anchor="middle">說明改善計畫</text>
   <text x="584" y="270" font-size="11" fill="#d97706" text-anchor="middle">✓ 主動說明</text>
   <text x="584" y="286" font-size="11" fill="#94a3b8" text-anchor="middle">展現改善意願</text>
   <text x="584" y="302" font-size="11" fill="#94a3b8" text-anchor="middle">獲委員認可</text>
@@ -81,15 +81,15 @@
   <text x="712" y="182" font-size="12" fill="#1e293b" font-weight="700" text-anchor="middle">繳交前</text>
   <text x="712" y="198" font-size="12" fill="#1e293b" font-weight="700" text-anchor="middle">總審查</text>
   <line x1="690" y1="216" x2="734" y2="216" stroke="#f0ede6" stroke-width="1"/>
-  <text x="712" y="234" font-size="10" fill="#64748b" text-anchor="middle">主任確認</text>
-  <text x="712" y="250" font-size="10" fill="#64748b" text-anchor="middle">每項有據</text>
+  <text x="712" y="234" font-size="10" fill="#57534e" text-anchor="middle">主任確認</text>
+  <text x="712" y="250" font-size="10" fill="#57534e" text-anchor="middle">每項有據</text>
   <text x="712" y="270" font-size="10" fill="#d97706" text-anchor="middle">交前再查</text>
   <text x="712" y="286" font-size="10" fill="#94a3b8" text-anchor="middle">一次到位</text>
 
   <!-- Bottom tip -->
   <rect x="52" y="360" width="696" height="44" rx="8" fill="white" stroke="#dedad3" stroke-width="1"/>
   <text x="400" y="378" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">最常見錯誤：用去年資料填今年自評表</text>
-  <text x="400" y="396" font-size="12" fill="#64748b" text-anchor="middle">→ 確認所有文件日期為本評鑑年度，過期文件不能當佐證</text>
+  <text x="400" y="396" font-size="12" fill="#57534e" text-anchor="middle">→ 確認所有文件日期為本評鑑年度，過期文件不能當佐證</text>
 
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

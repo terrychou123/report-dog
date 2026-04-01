@@ -16,7 +16,7 @@
   <text x="63" y="118" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <!-- 盲點標題 -->
   <text x="96" y="107" font-size="15" fill="#1e293b" font-weight="800">督導機制形同虛設</text>
-  <text x="96" y="129" font-size="12" fill="#64748b">個督頻率不足、督導內容流於形式，員工問題無法被發現與支持</text>
+  <text x="96" y="129" font-size="12" fill="#57534e">個督頻率不足、督導內容流於形式，員工問題無法被發現與支持</text>
   <!-- 條文標籤 -->
   <rect x="618" y="94" width="130" height="38" rx="6" fill="#d97706" opacity="0.12"/>
   <text x="683" y="110" font-size="11" fill="#d97706" text-anchor="middle" font-weight="700">第 9 條</text>
@@ -28,21 +28,21 @@
   <rect x="44" y="166" width="38" height="38" rx="19" fill="#78716c" opacity="0.15"/>
   <text x="63" y="190" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="96" y="179" font-size="15" fill="#1e293b" font-weight="800">教育訓練時數不足或內容無感</text>
-  <text x="96" y="201" font-size="12" fill="#64748b">訓練只是簽到、網路課程超過上限，員工缺乏實質學習與成長</text>
+  <text x="96" y="201" font-size="12" fill="#57534e">訓練只是簽到、網路課程超過上限，員工缺乏實質學習與成長</text>
   <rect x="618" y="166" width="130" height="38" rx="6" fill="#78716c" opacity="0.12"/>
   <text x="683" y="182" font-size="11" fill="#78716c" text-anchor="middle" font-weight="700">第 29 條</text>
   <text x="683" y="198" font-size="10" fill="#78716c" text-anchor="middle">在職20小時／網路上限5小時</text>
 
   <!-- 盲點3 -->
   <rect x="28" y="226" width="736" height="62" rx="8" fill="#e8e6de"/>
-  <rect x="28" y="226" width="5" height="62" rx="2" fill="#64748b"/>
-  <rect x="44" y="238" width="38" height="38" rx="19" fill="#64748b" opacity="0.15"/>
-  <text x="63" y="262" font-size="16" fill="#64748b" text-anchor="middle" font-weight="900">3</text>
+  <rect x="28" y="226" width="5" height="62" rx="2" fill="#57534e"/>
+  <rect x="44" y="238" width="38" height="38" rx="19" fill="#57534e" opacity="0.15"/>
+  <text x="63" y="262" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="96" y="251" font-size="15" fill="#1e293b" font-weight="800">不追蹤留任率數字，只靠感覺</text>
-  <text x="96" y="273" font-size="12" fill="#64748b">不知道如何計算留任率、離職原因未系統性收集與分析</text>
-  <rect x="618" y="238" width="130" height="38" rx="6" fill="#64748b" opacity="0.12"/>
-  <text x="683" y="254" font-size="11" fill="#64748b" text-anchor="middle" font-weight="700">第 30 條</text>
-  <text x="683" y="270" font-size="10" fill="#64748b" text-anchor="middle">前四年度平均留任率</text>
+  <text x="96" y="273" font-size="12" fill="#57534e">不知道如何計算留任率、離職原因未系統性收集與分析</text>
+  <rect x="618" y="238" width="130" height="38" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="683" y="254" font-size="11" fill="#57534e" text-anchor="middle" font-weight="700">第 30 條</text>
+  <text x="683" y="270" font-size="10" fill="#57534e" text-anchor="middle">前四年度平均留任率</text>
 
   <!-- 盲點4 -->
   <rect x="28" y="298" width="736" height="62" rx="8" fill="#e8e6de"/>
@@ -50,7 +50,7 @@
   <rect x="44" y="310" width="38" height="38" rx="19" fill="#a8a29e" opacity="0.2"/>
   <text x="63" y="334" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
   <text x="96" y="323" font-size="15" fill="#1e293b" font-weight="800">主任自己缺乏持續學習</text>
-  <text x="96" y="345" font-size="12" fill="#64748b">主任忙於日常事務，未安排管理進修，缺乏新管理知能輸入</text>
+  <text x="96" y="345" font-size="12" fill="#57534e">主任忙於日常事務，未安排管理進修，缺乏新管理知能輸入</text>
   <rect x="618" y="310" width="130" height="38" rx="6" fill="#a8a29e" opacity="0.15"/>
   <text x="683" y="326" font-size="11" fill="#78716c" text-anchor="middle" font-weight="700">第 31 條</text>
   <text x="683" y="342" font-size="10" fill="#78716c" text-anchor="middle">負責人每年4小時進修</text>
@@ -61,10 +61,10 @@
   <rect x="44" y="382" width="38" height="38" rx="19" fill="#94a3b8" opacity="0.2"/>
   <text x="63" y="406" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
   <text x="96" y="395" font-size="15" fill="#1e293b" font-weight="800">健康管理制度不完善</text>
-  <text x="96" y="417" font-size="12" fill="#64748b">健檢報告未追蹤異常值、員工以為健康就不需要每年受檢</text>
+  <text x="96" y="417" font-size="12" fill="#57534e">健檢報告未追蹤異常值、員工以為健康就不需要每年受檢</text>
   <rect x="618" y="382" width="130" height="38" rx="6" fill="#94a3b8" opacity="0.15"/>
-  <text x="683" y="398" font-size="11" fill="#64748b" text-anchor="middle" font-weight="700">第 32 條</text>
-  <text x="683" y="414" font-size="10" fill="#64748b" text-anchor="middle">每年健檢／異常值追蹤</text>
+  <text x="683" y="398" font-size="11" fill="#57534e" text-anchor="middle" font-weight="700">第 32 條</text>
+  <text x="683" y="414" font-size="10" fill="#57534e" text-anchor="middle">每年健檢／異常值追蹤</text>
 
   <!-- 浮水印 -->
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>

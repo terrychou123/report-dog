@@ -16,7 +16,7 @@
   <rect x="56" y="101" width="28" height="28" rx="6" fill="#e8e5de" stroke="#a8a29e" stroke-width="2"/>
   <text x="70" y="121" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#78716c">✓</text>
   <text x="98" y="109" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">照顧計畫（第 6 條）</text>
-  <text x="98" y="130" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">每位個案的計畫完成日期在評估後 7 個工作天內？有家屬參與紀錄？</text>
+  <text x="98" y="130" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">每位個案的計畫完成日期在評估後 7 個工作天內？有家屬參與紀錄？</text>
   <rect x="665" y="98" width="80" height="26" rx="6" fill="#e8e5de"/>
   <text x="705" y="115" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="600">✓ 完成</text>
 
@@ -25,7 +25,7 @@
   <rect x="56" y="171" width="28" height="28" rx="6" fill="#f0efe8" stroke="#d97706" stroke-width="2"/>
   <text x="70" y="190" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#d97706">?</text>
   <text x="98" y="179" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">追蹤評值（第 7 條）</text>
-  <text x="98" y="200" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">有固定評值週期？未達成目標有原因分析？有計畫修正紀錄？</text>
+  <text x="98" y="200" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">有固定評值週期？未達成目標有原因分析？有計畫修正紀錄？</text>
   <rect x="650" y="168" width="95" height="26" rx="6" fill="#f0efe8"/>
   <text x="697" y="185" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" font-weight="600">⚠ 待確認</text>
 
@@ -34,7 +34,7 @@
   <rect x="56" y="241" width="28" height="28" rx="6" fill="#f0efe8" stroke="#a8a29e" stroke-width="2"/>
   <text x="70" y="260" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#a8a29e">✗</text>
   <text x="98" y="249" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">督導機制（第 9 條）</text>
-  <text x="98" y="270" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">每位工作人員（含照服員）有半年內個督紀錄？本季已有團督？</text>
+  <text x="98" y="270" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">每位工作人員（含照服員）有半年內個督紀錄？本季已有團督？</text>
   <rect x="665" y="238" width="80" height="26" rx="6" fill="#e8e5de"/>
   <text x="705" y="255" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="600">✗ 待補</text>
 
@@ -43,7 +43,7 @@
   <rect x="56" y="311" width="28" height="28" rx="6" fill="#f0efe8" stroke="#d97706" stroke-width="2"/>
   <text x="70" y="330" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#d97706">?</text>
   <text x="98" y="319" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">品管指標（第 22 條）</text>
-  <text x="98" y="340" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">已自訂至少 2 項指標？有持續追蹤數據？異常案件有逐案分析？</text>
+  <text x="98" y="340" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">已自訂至少 2 項指標？有持續追蹤數據？異常案件有逐案分析？</text>
   <rect x="650" y="308" width="95" height="26" rx="6" fill="#f0efe8"/>
   <text x="697" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" font-weight="600">⚠ 待確認</text>
 
@@ -52,7 +52,7 @@
   <rect x="56" y="381" width="28" height="28" rx="6" fill="#e8e5de" stroke="#a8a29e" stroke-width="2"/>
   <text x="70" y="401" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#78716c">✓</text>
   <text x="98" y="389" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">教育訓練（第 29 條）</text>
-  <text x="98" y="410" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">每人已達 20 小時？有原住民族/多元文化課各 1 小時？網路課未超 5 小時？</text>
+  <text x="98" y="410" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">每人已達 20 小時？有原住民族/多元文化課各 1 小時？網路課未超 5 小時？</text>
   <rect x="665" y="378" width="80" height="26" rx="6" fill="#e8e5de"/>
   <text x="705" y="395" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="600">✓ 完成</text>
 

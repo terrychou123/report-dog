@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    【ref-list-3.svg — 3 列直列清單參考範本（兩層間距 + 自適應字型版）】
+    兩層間距公式：outer_gap（外圍）> inner_gap（列間）
+      inner_gap = 13（row 與 row 之間，緊湊）
+      outer_gap = floor((500-4×90-2×13)/3) = floor(114/3) = 38
+    結構：outer | Header | outer | Row1 | inner | Row2 | inner | Row3 | outer
+    驗算：3×38 + 4×90 + 2×13 = 114+360+26 = 500 ✓
+
+    自適應字型：Q_font = clamp(18, round(H×0.35), 28) = 28
+    R_font = clamp(14, Q_font-6, 18) = 18
+    circle_r = clamp(16, round(H×0.22), 22) = 20
+    S_rect_h = clamp(34, H-16, 52) = 52
+
+    Header y=38, h=90
+    Header text_y = 38+(90+36×0.85)/2 = 98（M2_font=36, 9字）
+    Row[0] y = 38+90+38 = 166
+    Row[1] y = 166+90+13 = 269
+    Row[2] y = 269+90+13 = 372
+    Row[2] bottom = 462, 底部留白=38 ✓
+
+    Row 內垂直置中（H=90, Q_font=28, R_font=18）：
+      cy = row_y+45, circle_r=20, NUM_font=18, NUM_y = row_y+51
+      Q offset+44, R offset+68
+      S_rect_y = row_y+19, h=52, S1=row_y+39, S2=row_y+59
+    浮水印 y=488
+  -->
+
+  <!-- Header（y=38, h=90） -->
+  <rect x="0" y="38" width="800" height="90" fill="#e8e6de"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <!-- M2_font=36（9字） -->
+  <text x="28" y="98" font-size="36" fill="#1e293b" font-weight="700">3 大留才管理盲點</text>
+
+  <!-- Row 1（y=166, H=90, cy=211, #d97706 琥珀） -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <!-- Q 28px offset+44 → 210; R 18px offset+68 → 234 -->
+  <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">督導機制不完整</text>
+  <text x="100" y="234" font-size="18" fill="#57534e">個別督導頻率不足，員工問題無法及時被發現與支持</text>
+  <!-- S rect y=185, h=52 -->
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">第 9 條</text>
+  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">每半年個督一次</text>
+
+  <!-- Row 2（y=269, H=90, cy=314, #78716c 暖灰） -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <!-- Q offset+44 → 313; R offset+68 → 337 -->
+  <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">教育訓練流於形式</text>
+  <text x="100" y="337" font-size="18" fill="#57534e">訓練只是簽到，缺乏實質學習，員工成長動力低落</text>
+  <!-- S rect y=288, h=52 -->
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">第 29 條</text>
+  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">在職 20 小時</text>
+
+  <!-- Row 3（y=372, H=90, cy=417, #57534e 深棕） -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <!-- Q offset+44 → 416; R offset+68 → 440 -->
+  <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">留任率未追蹤管理</text>
+  <text x="100" y="440" font-size="18" fill="#57534e">不知如何計算離職率，缺乏系統性的離職原因分析</text>
+  <!-- S rect y=391, h=52 -->
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">第 30 條</text>
+  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">前四年度留任率</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

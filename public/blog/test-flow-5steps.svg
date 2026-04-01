@@ -124,7 +124,7 @@
   <text x="706" y="359" text-anchor="middle" font-size="16" fill="#57534e">備審資料確認</text>
   <!-- Block 3 -->
   <rect x="649" y="391" width="114" height="36" rx="18" fill="#f1f5f9"/>
-  <text x="706" y="415" text-anchor="middle" font-size="16" fill="#64748b" font-weight="600">提前準備</text>
+  <text x="706" y="415" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">提前準備</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

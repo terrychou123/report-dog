@@ -18,7 +18,7 @@
   <text x="400" y="74" font-family="sans-serif" font-size="12" fill="#dedad3" text-anchor="middle">日間照顧中心評鑑關鍵數字一覽</text>
 
   <!-- 副標題小標 -->
-  <text x="60" y="118" font-family="sans-serif" font-size="14" fill="#64748b" font-weight="bold">快速查閱評鑑重要規定，準備不遺漏</text>
+  <text x="60" y="118" font-family="sans-serif" font-size="14" fill="#57534e" font-weight="bold">快速查閱評鑑重要規定，準備不遺漏</text>
   <rect x="60" y="124" width="680" height="1.5" fill="#dedad3"/>
 
   <!-- 六項目 2×3 佈局 -->
@@ -32,7 +32,7 @@
   <text x="109" y="162" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">評鑑週期</text>
   <!-- 數值 -->
   <text x="64" y="192" font-family="sans-serif" font-size="24" fill="#94a3b8" font-weight="bold">每 4 年</text>
-  <text x="168" y="192" font-family="sans-serif" font-size="14" fill="#64748b">一次（臺北市）</text>
+  <text x="168" y="192" font-family="sans-serif" font-size="14" fill="#57534e">一次（臺北市）</text>
 
   <!-- 第一列：右 -->
   <rect x="420" y="138" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
@@ -40,7 +40,7 @@
   <rect x="434" y="148" width="90" height="20" rx="10" fill="#a8a29e"/>
   <text x="479" y="162" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">正式基準</text>
   <text x="434" y="192" font-family="sans-serif" font-size="24" fill="#a8a29e" font-weight="bold">43 項</text>
-  <text x="510" y="192" font-family="sans-serif" font-size="14" fill="#64748b">+ 加分題 2 項</text>
+  <text x="510" y="192" font-family="sans-serif" font-size="14" fill="#57534e">+ 加分題 2 項</text>
 
   <!-- 第二列：左 -->
   <rect x="50" y="220" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
@@ -48,7 +48,7 @@
   <rect x="64" y="230" width="90" height="20" rx="10" fill="#d97706"/>
   <text x="109" y="244" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">照顧計畫</text>
   <text x="64" y="274" font-family="sans-serif" font-size="24" fill="#d97706" font-weight="bold">7 工作天</text>
-  <text x="200" y="274" font-family="sans-serif" font-size="14" fill="#64748b">內完成</text>
+  <text x="200" y="274" font-family="sans-serif" font-size="14" fill="#57534e">內完成</text>
 
   <!-- 第二列：右 -->
   <rect x="420" y="220" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
@@ -56,7 +56,7 @@
   <rect x="434" y="230" width="90" height="20" rx="10" fill="#78716c"/>
   <text x="479" y="244" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">督導要求</text>
   <text x="434" y="270" font-family="sans-serif" font-size="13" fill="#78716c" font-weight="bold">個督每半年</text>
-  <text x="434" y="288" font-family="sans-serif" font-size="13" fill="#64748b">團督每季一次</text>
+  <text x="434" y="288" font-family="sans-serif" font-size="13" fill="#57534e">團督每季一次</text>
 
   <!-- 第三列：左 -->
   <rect x="50" y="302" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
@@ -64,7 +64,7 @@
   <rect x="64" y="312" width="90" height="20" rx="10" fill="#a3a3a3"/>
   <text x="109" y="326" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">在職訓練</text>
   <text x="64" y="356" font-family="sans-serif" font-size="24" fill="#a3a3a3" font-weight="bold">20 小時</text>
-  <text x="200" y="356" font-family="sans-serif" font-size="14" fill="#64748b">/ 年（最低標準）</text>
+  <text x="200" y="356" font-family="sans-serif" font-size="14" fill="#57534e">/ 年（最低標準）</text>
 
   <!-- 第三列：右 -->
   <rect x="420" y="302" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
@@ -72,7 +72,7 @@
   <rect x="434" y="312" width="90" height="20" rx="10" fill="#94a3b8"/>
   <text x="479" y="326" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">品管指標</text>
   <text x="434" y="356" font-family="sans-serif" font-size="24" fill="#94a3b8" font-weight="bold">至少 2 項</text>
-  <text x="562" y="356" font-family="sans-serif" font-size="14" fill="#64748b">自訂</text>
+  <text x="562" y="356" font-family="sans-serif" font-size="14" fill="#57534e">自訂</text>
 
   <!-- 底部提示 -->
   <text x="400" y="392" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">以上數據以臺北市 115 年評鑑基準為主，各縣市規定可能有差異，請以主管機關公告為準</text>

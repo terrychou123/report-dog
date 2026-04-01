@@ -10,7 +10,7 @@
   <rect x="68" y="100" width="80" height="26" rx="6" fill="#d97706" opacity="0.12"/>
   <text x="108" y="117" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">技巧 1</text>
   <text x="202" y="117" font-size="15" font-weight="700" fill="#1e293b">情緒同理優先回應</text>
-  <text x="202" y="135" font-size="12" fill="#64748b">對應評鑑第 6 條</text>
+  <text x="202" y="135" font-size="12" fill="#57534e">對應評鑑第 6 條</text>
   <line x1="68" y1="150" x2="336" y2="150" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="174" font-size="13" fill="#1e293b" font-weight="600">❌ 避免的回應</text>
   <rect x="68" y="182" width="268" height="50" rx="8" fill="#ef4444" opacity="0.06"/>
@@ -33,7 +33,7 @@
   <rect x="436" y="100" width="80" height="26" rx="6" fill="#78716c" opacity="0.12"/>
   <text x="476" y="117" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">技巧 2</text>
   <text x="564" y="117" font-size="15" font-weight="700" fill="#1e293b">個別化活動轉移</text>
-  <text x="564" y="135" font-size="12" fill="#64748b">對應評鑑第 6、11 條</text>
+  <text x="564" y="135" font-size="12" fill="#57534e">對應評鑑第 6、11 條</text>
   <line x1="436" y1="150" x2="732" y2="150" stroke="#f0ede6" stroke-width="1"/>
   <text x="440" y="174" font-size="13" fill="#1e293b" font-weight="600">轉移活動來自生命經驗</text>
   <rect x="436" y="182" width="296" height="34" rx="8" fill="#f8f7f2"/>

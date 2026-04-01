@@ -10,7 +10,7 @@
 
   <!-- 標題 -->
   <text x="400" y="36" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">PDCA 持續改善循環</text>
-  <text x="400" y="56" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">Continuous Improvement Process · 評鑑品質提升框架</text>
+  <text x="400" y="56" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">Continuous Improvement Process · 評鑑品質提升框架</text>
 
   <!-- PDCA 弧段：Plan（藍）-80° to 5° -->
   <path d="M 422 107 A 125 125 0 0 1 525 241 L 480 237 A 80 80 0 0 0 414 151 Z" fill="#2563eb"/>
@@ -37,7 +37,7 @@
   <!-- 中央白圓 -->
   <circle cx="400" cy="230" r="74" fill="white" filter="url(#center-shadow)"/>
   <text x="400" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">PDCA</text>
-  <text x="400" y="244" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">Cycle</text>
+  <text x="400" y="244" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">Cycle</text>
   <text x="400" y="262" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#94a3b8">持續改善</text>
 
   <!-- 右上：Plan（藍） -->

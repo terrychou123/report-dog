@@ -4,7 +4,7 @@
 
   <!-- 標題 -->
   <text x="400" y="48" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">評鑑前 3 個月準備時程表</text>
-  <text x="400" y="72" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#64748b">建議最少提前 3 個月啟動系統性準備</text>
+  <text x="400" y="72" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">建議最少提前 3 個月啟動系統性準備</text>
 
   <!-- 時程線 -->
   <line x1="80" y1="260" x2="720" y2="260" stroke="#dedad3" stroke-width="2"/>
@@ -53,7 +53,7 @@
   <!-- 只剩 1 個月的特別提示 -->
   <rect x="40" y="380" width="720" height="50" rx="10" fill="white" stroke="#dedad3" stroke-width="1"/>
   <text x="400" y="401" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#1e293b" font-weight="600">⚠️ 只剩 1 個月？優先處理：第 2、6、7、9、22、29 條</text>
-  <text x="400" y="420" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">這幾條委員查核頻率最高，文件也最容易整備，應優先補強</text>
+  <text x="400" y="420" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">這幾條委員查核頻率最高，文件也最容易整備，應優先補強</text>
 
   <!-- 浮水印 -->
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>

@@ -10,7 +10,7 @@
   <rect x="68" y="96" width="80" height="26" rx="6" fill="#ef4444" opacity="0.10"/>
   <text x="108" y="113" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">技巧 6</text>
   <text x="250" y="113" font-size="15" font-weight="700" fill="#1e293b">安全看視與紀錄</text>
-  <text x="250" y="131" font-size="12" fill="#64748b">對應評鑑第 14 條</text>
+  <text x="250" y="131" font-size="12" fill="#57534e">對應評鑑第 14 條</text>
   <line x1="68" y1="148" x2="368" y2="148" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="172" font-size="13" fill="#1e293b" font-weight="600">遊走風險管理措施</text>
   <rect x="68" y="182" width="300" height="30" rx="6" fill="#ef4444" opacity="0.08"/>
@@ -31,7 +31,7 @@
   <rect x="432" y="96" width="80" height="26" rx="6" fill="#d97706" opacity="0.12"/>
   <text x="472" y="113" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">技巧 7</text>
   <text x="610" y="113" font-size="15" font-weight="700" fill="#1e293b">定期評估更新計畫</text>
-  <text x="610" y="131" font-size="12" fill="#64748b">對應評鑑第 6、7 條</text>
+  <text x="610" y="131" font-size="12" fill="#57534e">對應評鑑第 6、7 條</text>
   <line x1="432" y1="148" x2="732" y2="148" stroke="#f0ede6" stroke-width="1"/>
   <text x="436" y="172" font-size="13" fill="#1e293b" font-weight="600">每次應對後記錄</text>
   <rect x="432" y="182" width="300" height="30" rx="6" fill="#d97706" opacity="0.08"/>

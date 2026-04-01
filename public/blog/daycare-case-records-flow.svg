@@ -25,8 +25,8 @@
   <text x="424" y="152" font-size="11" fill="#fff" text-anchor="middle" opacity="0.8" font-family="'Noto Sans TC', sans-serif">第 6 條</text>
 
   <!-- 箭頭 2→3 -->
-  <line x1="524" y1="126" x2="574" y2="126" stroke="#64748b" stroke-width="2.5"/>
-  <polygon points="574,119 588,126 574,133" fill="#64748b"/>
+  <line x1="524" y1="126" x2="574" y2="126" stroke="#57534e" stroke-width="2.5"/>
+  <polygon points="574,119 588,126 574,133" fill="#57534e"/>
 
   <!-- 步驟 3：個案討論 -->
   <rect x="588" y="90" width="148" height="72" rx="12" fill="#78716c"/>
@@ -35,30 +35,30 @@
   <text x="662" y="152" font-size="11" fill="#dedad3" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第 8 條</text>
 
   <!-- 垂直箭頭：第3列→第4列 -->
-  <line x1="662" y1="162" x2="662" y2="210" stroke="#64748b" stroke-width="2.5"/>
-  <polygon points="655,210 662,224 669,210" fill="#64748b"/>
+  <line x1="662" y1="162" x2="662" y2="210" stroke="#57534e" stroke-width="2.5"/>
+  <polygon points="655,210 662,224 669,210" fill="#57534e"/>
 
   <!-- 步驟 4：追蹤評值 -->
   <rect x="588" y="224" width="148" height="72" rx="12" fill="#e8e6de"/>
   <rect x="588" y="224" width="4" height="72" rx="2" fill="#d97706"/>
   <text x="668" y="252" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">④ 追蹤評值</text>
-  <text x="668" y="270" font-size="12" fill="#64748b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">達成度分析</text>
+  <text x="668" y="270" font-size="12" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">達成度分析</text>
   <text x="668" y="286" font-size="11" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第 7 條</text>
 
   <!-- 水平箭頭：4←5（向左） -->
-  <line x1="580" y1="260" x2="524" y2="260" stroke="#64748b" stroke-width="2.5"/>
-  <polygon points="524,253 510,260 524,267" fill="#64748b"/>
+  <line x1="580" y1="260" x2="524" y2="260" stroke="#57534e" stroke-width="2.5"/>
+  <polygon points="524,253 510,260 524,267" fill="#57534e"/>
 
   <!-- 步驟 5：計畫更新 -->
   <rect x="310" y="224" width="200" height="72" rx="12" fill="#e8e6de"/>
-  <rect x="310" y="224" width="4" height="72" rx="2" fill="#64748b"/>
+  <rect x="310" y="224" width="4" height="72" rx="2" fill="#57534e"/>
   <text x="410" y="252" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">⑤ 修正計畫</text>
-  <text x="410" y="270" font-size="12" fill="#64748b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依評值結果更新策略</text>
-  <text x="410" y="286" font-size="11" fill="#64748b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第 6、7 條</text>
+  <text x="410" y="270" font-size="12" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依評值結果更新策略</text>
+  <text x="410" y="286" font-size="11" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第 6、7 條</text>
 
   <!-- 水平箭頭：5←6（向左） -->
-  <line x1="310" y1="260" x2="254" y2="260" stroke="#64748b" stroke-width="2.5"/>
-  <polygon points="254,253 240,260 254,267" fill="#64748b"/>
+  <line x1="310" y1="260" x2="254" y2="260" stroke="#57534e" stroke-width="2.5"/>
+  <polygon points="254,253 240,260 254,267" fill="#57534e"/>
 
   <!-- 步驟 6：結案保存 -->
   <rect x="60" y="224" width="180" height="72" rx="12" fill="#1e293b"/>
@@ -73,7 +73,7 @@
 
   <!-- 底部注意事項 -->
   <rect x="60" y="374" width="680" height="50" rx="10" fill="#e8e6de"/>
-  <text x="80" y="396" font-size="13" fill="#64748b" font-family="'Noto Sans TC', sans-serif">📌 重要提醒：</text>
+  <text x="80" y="396" font-size="13" fill="#57534e" font-family="'Noto Sans TC', sans-serif">📌 重要提醒：</text>
   <text x="80" y="414" font-size="12" fill="#78716c" font-family="'Noto Sans TC', sans-serif">每 6 個月須重新評估（第5條）；個案討論紀錄需含前次決議追蹤（第8條）；安全事件隨時記錄（第14條）</text>
 
   <!-- 浮水印 -->

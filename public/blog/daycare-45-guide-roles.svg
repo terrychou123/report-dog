@@ -5,7 +5,7 @@
 
   <!-- 標題 -->
   <text x="400" y="52" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">評鑑準備角色分工總覽</text>
-  <text x="400" y="76" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#64748b">四大角色 · 各司其職 · 協力備審</text>
+  <text x="400" y="76" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">四大角色 · 各司其職 · 協力備審</text>
 
   <!-- 社工師 -->
   <rect x="40" y="100" width="165" height="310" rx="12" fill="white" stroke="#94a3b8" stroke-width="1.5"/>

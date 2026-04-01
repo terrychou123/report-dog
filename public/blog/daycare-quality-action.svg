@@ -12,7 +12,7 @@
   <circle cx="84" cy="114" r="18" fill="#d97706" opacity="0.12"/>
   <text x="84" y="120" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
   <text x="116" y="110" font-size="14" fill="#1e293b" font-weight="700">確認未達標項目</text>
-  <text x="116" y="128" font-size="12" fill="#64748b">對照月報數據</text>
+  <text x="116" y="128" font-size="12" fill="#57534e">對照月報數據</text>
   <line x1="68" y1="146" x2="244" y2="146" stroke="#f0ede6" stroke-width="1"/>
   <text x="68" y="165" font-size="12" fill="#78716c">比較實際值與目標值</text>
   <text x="68" y="183" font-size="12" fill="#78716c">列出所有未達標指標</text>
@@ -25,7 +25,7 @@
   <circle cx="328" cy="114" r="18" fill="#78716c" opacity="0.12"/>
   <text x="328" y="120" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">2</text>
   <text x="360" y="110" font-size="14" fill="#1e293b" font-weight="700">分析根本原因</text>
-  <text x="360" y="128" font-size="12" fill="#64748b">品管會議討論</text>
+  <text x="360" y="128" font-size="12" fill="#57534e">品管會議討論</text>
   <line x1="312" y1="146" x2="488" y2="146" stroke="#f0ede6" stroke-width="1"/>
   <text x="312" y="165" font-size="12" fill="#78716c">使用魚骨圖分析</text>
   <text x="312" y="183" font-size="12" fill="#78716c">人員/流程/環境</text>
@@ -38,7 +38,7 @@
   <circle cx="572" cy="114" r="18" fill="#a8a29e" opacity="0.15"/>
   <text x="572" y="120" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">3</text>
   <text x="604" y="110" font-size="14" fill="#1e293b" font-weight="700">制訂改善對策</text>
-  <text x="604" y="128" font-size="12" fill="#64748b">具體可執行方案</text>
+  <text x="604" y="128" font-size="12" fill="#57534e">具體可執行方案</text>
   <line x1="556" y1="146" x2="732" y2="146" stroke="#f0ede6" stroke-width="1"/>
   <text x="556" y="165" font-size="12" fill="#78716c">對策需具體明確</text>
   <text x="556" y="183" font-size="12" fill="#78716c">指定負責人</text>
@@ -52,7 +52,7 @@
   <circle cx="84" cy="282" r="18" fill="#d97706" opacity="0.12"/>
   <text x="84" y="288" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">4</text>
   <text x="116" y="278" font-size="14" fill="#1e293b" font-weight="700">執行改善措施</text>
-  <text x="116" y="296" font-size="12" fill="#64748b">落實行動計畫</text>
+  <text x="116" y="296" font-size="12" fill="#57534e">落實行動計畫</text>
   <line x1="68" y1="312" x2="244" y2="312" stroke="#f0ede6" stroke-width="1"/>
   <text x="68" y="331" font-size="12" fill="#78716c">按時程執行對策</text>
   <text x="68" y="349" font-size="12" fill="#78716c">記錄執行過程</text>
@@ -65,7 +65,7 @@
   <circle cx="328" cy="282" r="18" fill="#78716c" opacity="0.12"/>
   <text x="328" y="288" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">5</text>
   <text x="360" y="278" font-size="14" fill="#1e293b" font-weight="700">追蹤成效確認</text>
-  <text x="360" y="296" font-size="12" fill="#64748b">下月數據驗證</text>
+  <text x="360" y="296" font-size="12" fill="#57534e">下月數據驗證</text>
   <line x1="312" y1="312" x2="488" y2="312" stroke="#f0ede6" stroke-width="1"/>
   <text x="312" y="331" font-size="12" fill="#78716c">次月繼續收集數據</text>
   <text x="312" y="349" font-size="12" fill="#78716c">與改善前比較</text>
@@ -79,7 +79,7 @@
   <circle cx="572" cy="282" r="18" fill="#d97706" opacity="0.15"/>
   <text x="572" y="288" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">6</text>
   <text x="604" y="278" font-size="14" fill="#1e293b" font-weight="700">標準化與循環</text>
-  <text x="604" y="296" font-size="12" fill="#64748b">鞏固改善成果</text>
+  <text x="604" y="296" font-size="12" fill="#57534e">鞏固改善成果</text>
   <line x1="556" y1="312" x2="732" y2="312" stroke="#f0ede6" stroke-width="1"/>
   <text x="556" y="331" font-size="12" fill="#78716c">更新 SOP 流程</text>
   <text x="556" y="349" font-size="12" fill="#78716c">納入日常作業</text>

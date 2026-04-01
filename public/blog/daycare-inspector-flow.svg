@@ -37,7 +37,7 @@
     <circle cx="57" cy="265" r="4" fill="#94a3b8"/>
     <text x="70" y="269">教育訓練紀錄</text>
     <circle cx="57" cy="285" r="4" fill="#a3a3a3" opacity="0.5"/>
-    <text x="70" y="289" fill="#64748b">品管指標報告</text>
+    <text x="70" y="289" fill="#57534e">品管指標報告</text>
   </g>
 
   <!-- 箭頭 1→2 -->
@@ -70,7 +70,7 @@
     <circle cx="317" cy="265" r="4" fill="#a8a29e"/>
     <text x="330" y="269">服務流程說明</text>
     <circle cx="317" cy="285" r="4" fill="#a3a3a3" opacity="0.5"/>
-    <text x="330" y="289" fill="#64748b">緊急應變演練</text>
+    <text x="330" y="289" fill="#57534e">緊急應變演練</text>
   </g>
 
   <!-- 箭頭 2→3 -->
@@ -104,7 +104,7 @@
     <circle cx="582" cy="265" r="4" fill="#78716c"/>
     <text x="595" y="269">衛生環境維護</text>
     <circle cx="582" cy="285" r="4" fill="#a3a3a3" opacity="0.5"/>
-    <text x="595" y="289" fill="#64748b">設備運作確認</text>
+    <text x="595" y="289" fill="#57534e">設備運作確認</text>
   </g>
 
   <!-- 底部說明 -->

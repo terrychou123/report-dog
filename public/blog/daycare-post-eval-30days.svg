@@ -101,21 +101,21 @@
   <text x="715" y="251" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">存檔備查</text>
 
   <!-- 時間軸刻度 -->
-  <text x="110" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">Day 1</text>
-  <text x="310" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">Day 8</text>
-  <text x="530" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">Day 14</text>
-  <text x="720" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">Day 30</text>
+  <text x="110" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 1</text>
+  <text x="310" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 8</text>
+  <text x="530" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 14</text>
+  <text x="720" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 30</text>
 
   <!-- 底部 -->
   <rect x="0" y="440" width="800" height="40" fill="#e8e5de"/>
   <!-- 圖例 -->
   <circle cx="80" cy="460" r="6" fill="#94a3b8"/>
-  <text x="94" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">蒐集反饋</text>
+  <text x="94" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">蒐集反饋</text>
   <circle cx="200" cy="460" r="6" fill="#a8a29e"/>
-  <text x="214" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">分派負責</text>
+  <text x="214" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">分派負責</text>
   <circle cx="320" cy="460" r="6" fill="#d97706"/>
-  <text x="334" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">執行改善</text>
+  <text x="334" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">執行改善</text>
   <circle cx="440" cy="460" r="6" fill="#78716c"/>
-  <text x="454" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#64748b">驗收存檔</text>
+  <text x="454" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">驗收存檔</text>
   <text x="760" y="450" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

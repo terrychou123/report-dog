@@ -13,7 +13,7 @@
   <rect x="52" y="136" width="330" height="140" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="52" y="136" width="330" height="5" rx="2.5" fill="#d97706"/>
   <text x="72" y="165" font-size="15" fill="#1e293b" font-weight="700">建立日常紀錄習慣</text>
-  <text x="72" y="183" font-size="12" fill="#64748b">讓評鑑文件在日常服務中自然產生</text>
+  <text x="72" y="183" font-size="12" fill="#57534e">讓評鑑文件在日常服務中自然產生</text>
   <line x1="68" y1="200" x2="366" y2="200" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="220" font-size="12" fill="#78716c">→ 督導紀錄每月確實填寫</text>
   <text x="72" y="240" font-size="12" fill="#78716c">→ 個案計畫每季更新有追蹤</text>
@@ -23,7 +23,7 @@
   <rect x="418" y="136" width="330" height="140" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="418" y="136" width="330" height="5" rx="2.5" fill="#78716c"/>
   <text x="438" y="165" font-size="15" fill="#1e293b" font-weight="700">定期內部自評</text>
-  <text x="438" y="183" font-size="12" fill="#64748b">不等評鑑才知道缺什麼</text>
+  <text x="438" y="183" font-size="12" fill="#57534e">不等評鑑才知道缺什麼</text>
   <line x1="434" y1="200" x2="732" y2="200" stroke="#f0ede6" stroke-width="1"/>
   <text x="438" y="220" font-size="12" fill="#78716c">→ 每季一次內部自評稽核</text>
   <text x="438" y="240" font-size="12" fill="#78716c">→ 發現問題立即改善</text>
@@ -33,7 +33,7 @@
   <rect x="52" y="292" width="330" height="120" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="52" y="292" width="330" height="5" rx="2.5" fill="#a8a29e"/>
   <text x="72" y="321" font-size="15" fill="#1e293b" font-weight="700">累積評鑑知識庫</text>
-  <text x="72" y="339" font-size="12" fill="#64748b">歷次評鑑的寶貴資產</text>
+  <text x="72" y="339" font-size="12" fill="#57534e">歷次評鑑的寶貴資產</text>
   <line x1="68" y1="356" x2="366" y2="356" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="376" font-size="12" fill="#78716c">→ 保存歷次委員問題記錄</text>
   <text x="72" y="394" font-size="12" fill="#78716c">→ 建立機構問答手冊</text>
@@ -43,7 +43,7 @@
   <rect x="418" y="292" width="330" height="120" rx="12" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.5"/>
   <rect x="418" y="292" width="330" height="5" rx="2.5" fill="#d97706" opacity="0.7"/>
   <text x="438" y="321" font-size="15" fill="#1e293b" font-weight="700">設定下次目標</text>
-  <text x="438" y="339" font-size="12" fill="#64748b">從這次缺失中找到進步方向</text>
+  <text x="438" y="339" font-size="12" fill="#57534e">從這次缺失中找到進步方向</text>
   <line x1="434" y1="356" x2="732" y2="356" stroke="#f0ede6" stroke-width="1"/>
   <text x="438" y="376" font-size="12" fill="#d97706">→ 設定提升評分的具體指標</text>
   <text x="438" y="394" font-size="12" fill="#d97706">→ 目標：下次評鑑零缺失</text>

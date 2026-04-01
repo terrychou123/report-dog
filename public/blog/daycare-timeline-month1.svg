@@ -15,7 +15,7 @@
   <rect x="52" y="152" width="335" height="120" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="52" y="152" width="335" height="5" rx="2.5" fill="#d97706"/>
   <text x="76" y="180" font-size="15" fill="#1e293b" font-weight="700">任務一：模擬委員訪談</text>
-  <text x="76" y="198" font-size="13" fill="#64748b">讓全員預先準備訪談問答</text>
+  <text x="76" y="198" font-size="13" fill="#57534e">讓全員預先準備訪談問答</text>
   <text x="76" y="222" font-size="12" fill="#78716c">□ 準備常見訪談問題清單（30 題以上）</text>
   <text x="76" y="240" font-size="12" fill="#78716c">□ 分角色演練：個案/家屬/工作人員</text>
   <text x="76" y="258" font-size="12" fill="#78716c">□ 避免「統一口徑」，強調真實回應</text>
@@ -24,7 +24,7 @@
   <rect x="413" y="152" width="335" height="120" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="413" y="152" width="335" height="5" rx="2.5" fill="#78716c"/>
   <text x="437" y="180" font-size="15" fill="#1e293b" font-weight="700">任務二：全員宣導說明</text>
-  <text x="437" y="198" font-size="13" fill="#64748b">讓每位員工知道評鑑當天怎麼做</text>
+  <text x="437" y="198" font-size="13" fill="#57534e">讓每位員工知道評鑑當天怎麼做</text>
   <text x="437" y="222" font-size="12" fill="#78716c">□ 召開評鑑說明會（全員參與）</text>
   <text x="437" y="240" font-size="12" fill="#78716c">□ 發放評鑑注意事項一頁說明</text>
   <text x="437" y="258" font-size="12" fill="#78716c">□ 新進人員特別輔導說明</text>
@@ -33,7 +33,7 @@
   <rect x="52" y="290" width="335" height="110" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="52" y="290" width="335" height="5" rx="2.5" fill="#a8a29e"/>
   <text x="76" y="318" font-size="15" fill="#1e293b" font-weight="700">任務三：文件最終整備</text>
-  <text x="76" y="336" font-size="13" fill="#64748b">建立文件分類索引，備查方便</text>
+  <text x="76" y="336" font-size="13" fill="#57534e">建立文件分類索引，備查方便</text>
   <text x="76" y="358" font-size="12" fill="#78716c">□ 文件依評鑑大項分類夾存</text>
   <text x="76" y="376" font-size="12" fill="#78716c">□ 製作文件清單封面頁（含頁次）</text>
 
@@ -41,7 +41,7 @@
   <rect x="413" y="290" width="335" height="110" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="413" y="290" width="335" height="5" rx="2.5" fill="#d97706" opacity="0.6"/>
   <text x="437" y="318" font-size="15" fill="#1e293b" font-weight="700">任務四：環境最終清查</text>
-  <text x="437" y="336" font-size="13" fill="#64748b">委員必看的環境細節確認</text>
+  <text x="437" y="336" font-size="13" fill="#57534e">委員必看的環境細節確認</text>
   <text x="437" y="358" font-size="12" fill="#78716c">□ 消防逃生動線無雜物阻擋</text>
   <text x="437" y="376" font-size="12" fill="#78716c">□ 廚房/廁所清潔整齊如常</text>
 

@@ -5,7 +5,7 @@
 
   <!-- 標題 -->
   <text x="400" y="38" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">評鑑面向分類說明</text>
-  <text x="400" y="58" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#64748b">4 大面向 · 了解評鑑委員的重點關注方向</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">4 大面向 · 了解評鑑委員的重點關注方向</text>
   <line x1="40" y1="70" x2="760" y2="70" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 卡片 1：個案權益（藍） -->

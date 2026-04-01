@@ -30,7 +30,7 @@
 
   <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
 
-  <text x="60" y="416" font-size="38" fill="#64748b" font-weight="400">文件 · 訪談 · 環境 · 現場視角大公開</text>
+  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">文件 · 訪談 · 環境 · 現場視角大公開</text>
 
   <!-- 特色標籤列（pill 高 54px） -->
   <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
@@ -39,8 +39,8 @@
   <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
   <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">現場訪談</text>
 
-  <rect x="380" y="450" width="148" height="54" rx="10" fill="#64748b" opacity="0.12"/>
-  <text x="454" y="483" font-size="28" fill="#64748b" text-anchor="middle" font-weight="600">環境查看</text>
+  <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="454" y="483" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">環境查看</text>
 
   <rect x="540" y="450" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
   <text x="614" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">評分邏輯</text>

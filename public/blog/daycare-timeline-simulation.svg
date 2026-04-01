@@ -8,17 +8,17 @@
   <rect x="52" y="82" width="210" height="300" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="52" y="82" width="210" height="5" rx="2.5" fill="#94a3b8"/>
   <text x="157" y="113" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">Step 1　準備</text>
-  <text x="157" y="131" font-size="13" fill="#64748b" text-anchor="middle">蒐集問題庫</text>
+  <text x="157" y="131" font-size="13" fill="#57534e" text-anchor="middle">蒐集問題庫</text>
   <line x1="68" y1="148" x2="246" y2="148" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="170" font-size="13" fill="#1e293b" font-weight="600">問題來源：</text>
-  <text x="72" y="190" font-size="12" fill="#64748b">▸ 往年評鑑問題紀錄</text>
-  <text x="72" y="208" font-size="12" fill="#64748b">▸ 評鑑基準逐條分析</text>
-  <text x="72" y="226" font-size="12" fill="#64748b">▸ 同業交流常見問題</text>
+  <text x="72" y="190" font-size="12" fill="#57534e">▸ 往年評鑑問題紀錄</text>
+  <text x="72" y="208" font-size="12" fill="#57534e">▸ 評鑑基準逐條分析</text>
+  <text x="72" y="226" font-size="12" fill="#57534e">▸ 同業交流常見問題</text>
   <text x="72" y="254" font-size="13" fill="#1e293b" font-weight="600">訪談對象：</text>
-  <text x="72" y="274" font-size="12" fill="#64748b">□ 機構主任/主管</text>
-  <text x="72" y="292" font-size="12" fill="#64748b">□ 直接服務人員</text>
-  <text x="72" y="310" font-size="12" fill="#64748b">□ 個案（知情同意）</text>
-  <text x="72" y="328" font-size="12" fill="#64748b">□ 家屬（事前溝通）</text>
+  <text x="72" y="274" font-size="12" fill="#57534e">□ 機構主任/主管</text>
+  <text x="72" y="292" font-size="12" fill="#57534e">□ 直接服務人員</text>
+  <text x="72" y="310" font-size="12" fill="#57534e">□ 個案（知情同意）</text>
+  <text x="72" y="328" font-size="12" fill="#57534e">□ 家屬（事前溝通）</text>
   <text x="72" y="355" font-size="11" fill="#d97706">目標：建立 30+ 題問題庫</text>
 
   <!-- Arrow -->
@@ -28,17 +28,17 @@
   <rect x="296" y="82" width="210" height="300" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="296" y="82" width="210" height="5" rx="2.5" fill="#78716c"/>
   <text x="401" y="113" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">Step 2　演練</text>
-  <text x="401" y="131" font-size="13" fill="#64748b" text-anchor="middle">實際角色扮演</text>
+  <text x="401" y="131" font-size="13" fill="#57534e" text-anchor="middle">實際角色扮演</text>
   <line x1="312" y1="148" x2="490" y2="148" stroke="#f0ede6" stroke-width="1"/>
   <text x="316" y="170" font-size="13" fill="#1e293b" font-weight="600">演練原則：</text>
-  <text x="316" y="190" font-size="12" fill="#64748b">▸ 一人扮演委員提問</text>
-  <text x="316" y="208" font-size="12" fill="#64748b">▸ 被訪談者自然回答</text>
-  <text x="316" y="226" font-size="12" fill="#64748b">▸ 錄影/錄音回放檢討</text>
+  <text x="316" y="190" font-size="12" fill="#57534e">▸ 一人扮演委員提問</text>
+  <text x="316" y="208" font-size="12" fill="#57534e">▸ 被訪談者自然回答</text>
+  <text x="316" y="226" font-size="12" fill="#57534e">▸ 錄影/錄音回放檢討</text>
   <rect x="316" y="248" width="170" height="30" rx="6" fill="#d97706" opacity="0.10"/>
   <text x="401" y="268" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">⚠ 關鍵原則</text>
   <text x="316" y="294" font-size="12" fill="#1e293b" font-weight="600">不要「統一口徑」</text>
-  <text x="316" y="312" font-size="12" fill="#64748b">委員能察覺背稿</text>
-  <text x="316" y="330" font-size="12" fill="#64748b">反而扣分失信任</text>
+  <text x="316" y="312" font-size="12" fill="#57534e">委員能察覺背稿</text>
+  <text x="316" y="330" font-size="12" fill="#57534e">反而扣分失信任</text>
   <text x="316" y="355" font-size="11" fill="#d97706">目標：每人演練 2 次以上</text>
 
   <!-- Arrow -->
@@ -48,12 +48,12 @@
   <rect x="540" y="82" width="208" height="300" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="540" y="82" width="208" height="5" rx="2.5" fill="#d97706"/>
   <text x="644" y="113" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">Step 3　改進</text>
-  <text x="644" y="131" font-size="13" fill="#64748b" text-anchor="middle">針對弱點強化</text>
+  <text x="644" y="131" font-size="13" fill="#57534e" text-anchor="middle">針對弱點強化</text>
   <line x1="556" y1="148" x2="732" y2="148" stroke="#f0ede6" stroke-width="1"/>
   <text x="560" y="170" font-size="13" fill="#1e293b" font-weight="600">檢討重點：</text>
-  <text x="560" y="190" font-size="12" fill="#64748b">▸ 答非所問的問題</text>
-  <text x="560" y="208" font-size="12" fill="#64748b">▸ 說不清楚的流程</text>
-  <text x="560" y="226" font-size="12" fill="#64748b">▸ 找不到的文件</text>
+  <text x="560" y="190" font-size="12" fill="#57534e">▸ 答非所問的問題</text>
+  <text x="560" y="208" font-size="12" fill="#57534e">▸ 說不清楚的流程</text>
+  <text x="560" y="226" font-size="12" fill="#57534e">▸ 找不到的文件</text>
   <text x="560" y="254" font-size="13" fill="#1e293b" font-weight="600">改進行動：</text>
   <text x="560" y="274" font-size="12" fill="#78716c">□ 補強說明話術</text>
   <text x="560" y="292" font-size="12" fill="#78716c">□ 製作常見問題卡</text>

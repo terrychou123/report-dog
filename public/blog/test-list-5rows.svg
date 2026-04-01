@@ -109,8 +109,8 @@
   <text x="100" y="469" font-size="16" fill="#57534e">健檢報告未追蹤異常值，員工以為健康就不需要每年受檢</text>
   <!-- S rect y=429, h=47 -->
   <rect x="620" y="429" width="136" height="47" rx="8" fill="#94a3b8" opacity="0.15"/>
-  <text x="688" y="447" font-size="16" fill="#64748b" text-anchor="middle">第 32 條</text>
-  <text x="688" y="467" font-size="16" fill="#64748b" text-anchor="middle">每年健檢</text>
+  <text x="688" y="447" font-size="16" fill="#57534e" text-anchor="middle">第 32 條</text>
+  <text x="688" y="467" font-size="16" fill="#57534e" text-anchor="middle">每年健檢</text>
 
   <!-- 浮水印 -->
   <text x="760" y="492" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

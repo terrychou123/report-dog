@@ -9,10 +9,10 @@
   <rect x="52" y="80" width="185" height="5" rx="2.5" fill="#d97706"/>
   <text x="144" y="111" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">肆大項</text>
   <text x="144" y="156" font-size="52" font-weight="900" fill="#d97706" text-anchor="middle">6</text>
-  <text x="144" y="176" font-size="12" fill="#64748b" text-anchor="middle">條評鑑基準</text>
+  <text x="144" y="176" font-size="12" fill="#57534e" text-anchor="middle">條評鑑基準</text>
   <line x1="68" y1="193" x2="221" y2="193" stroke="#f0ede6" stroke-width="1"/>
-  <text x="144" y="216" font-size="12" fill="#64748b" text-anchor="middle">委員現場勘查</text>
-  <text x="144" y="234" font-size="12" fill="#64748b" text-anchor="middle">比文件更重要</text>
+  <text x="144" y="216" font-size="12" fill="#57534e" text-anchor="middle">委員現場勘查</text>
+  <text x="144" y="234" font-size="12" fill="#57534e" text-anchor="middle">比文件更重要</text>
   <rect x="76" y="258" width="136" height="30" rx="8" fill="#d97706" opacity="0.10"/>
   <text x="144" y="278" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">現場查看重點</text>
   <text x="144" y="305" font-size="11" fill="#94a3b8" text-anchor="middle">空間整潔度</text>
@@ -27,27 +27,27 @@
 
   <rect x="266" y="126" width="468" height="38" rx="6" fill="#d97706" opacity="0.06"/>
   <text x="294" y="141" font-size="13" fill="#1e293b" font-weight="600">高齡友善環境</text>
-  <text x="294" y="156" font-size="12" fill="#64748b">□ 無障礙通道暢通  □ 防滑地板/扶手  □ 適老化照明</text>
+  <text x="294" y="156" font-size="12" fill="#57534e">□ 無障礙通道暢通  □ 防滑地板/扶手  □ 適老化照明</text>
 
   <rect x="266" y="172" width="468" height="38" rx="6" fill="#f8f7f2"/>
   <text x="294" y="187" font-size="13" fill="#1e293b" font-weight="600">消防安全</text>
-  <text x="294" y="202" font-size="12" fill="#64748b">□ 滅火器有效期  □ 逃生動線標示  □ 年度演習記錄</text>
+  <text x="294" y="202" font-size="12" fill="#57534e">□ 滅火器有效期  □ 逃生動線標示  □ 年度演習記錄</text>
 
   <rect x="266" y="218" width="468" height="38" rx="6" fill="#d97706" opacity="0.06"/>
   <text x="294" y="233" font-size="13" fill="#1e293b" font-weight="600">廚房衛生管理</text>
-  <text x="294" y="248" font-size="12" fill="#64748b">□ 食材留樣記錄  □ 冷藏溫度記錄  □ 餐具消毒紀錄</text>
+  <text x="294" y="248" font-size="12" fill="#57534e">□ 食材留樣記錄  □ 冷藏溫度記錄  □ 餐具消毒紀錄</text>
 
   <rect x="266" y="264" width="468" height="38" rx="6" fill="#f8f7f2"/>
   <text x="294" y="279" font-size="13" fill="#1e293b" font-weight="600">急救設備</text>
-  <text x="294" y="294" font-size="12" fill="#64748b">□ AED 有效期  □ 急救箱清單  □ 人員急救訓練證書</text>
+  <text x="294" y="294" font-size="12" fill="#57534e">□ AED 有效期  □ 急救箱清單  □ 人員急救訓練證書</text>
 
   <rect x="266" y="310" width="225" height="38" rx="6" fill="#d97706" opacity="0.06"/>
   <text x="294" y="325" font-size="13" fill="#1e293b" font-weight="600">無障礙設施</text>
-  <text x="294" y="340" font-size="12" fill="#64748b">□ 輪椅  □ 升降  □ 廁所</text>
+  <text x="294" y="340" font-size="12" fill="#57534e">□ 輪椅  □ 升降  □ 廁所</text>
 
   <rect x="499" y="310" width="235" height="38" rx="6" fill="#f8f7f2"/>
   <text x="525" y="325" font-size="13" fill="#1e293b" font-weight="600">環境清潔</text>
-  <text x="525" y="340" font-size="12" fill="#64748b">□ 清潔日誌  □ 消毒記錄</text>
+  <text x="525" y="340" font-size="12" fill="#57534e">□ 清潔日誌  □ 消毒記錄</text>
 
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

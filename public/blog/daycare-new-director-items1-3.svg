@@ -12,16 +12,16 @@
   <text x="157" y="121" font-size="14" font-weight="700" fill="#1e293b">熟讀人力設置標準</text>
   <text x="157" y="139" font-size="11" fill="#d97706">第 28 條</text>
   <line x1="68" y1="152" x2="246" y2="152" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="174" font-size="12" fill="#64748b">□ 執業登錄或報備</text>
-  <text x="72" y="196" font-size="12" fill="#64748b">□ 執照效期確認</text>
-  <text x="72" y="218" font-size="12" fill="#64748b">□ 勞保投保明細</text>
+  <text x="72" y="174" font-size="12" fill="#57534e">□ 執業登錄或報備</text>
+  <text x="72" y="196" font-size="12" fill="#57534e">□ 執照效期確認</text>
+  <text x="72" y="218" font-size="12" fill="#57534e">□ 勞保投保明細</text>
   <line x1="68" y1="236" x2="246" y2="236" stroke="#f0ede6" stroke-width="1"/>
   <rect x="68" y="248" width="178" height="32" rx="8" fill="#d97706" opacity="0.08"/>
   <text x="157" y="269" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">上任 2 週內完成</text>
   <text x="72" y="302" font-size="12" fill="#78716c">建立人力盤點表</text>
   <text x="72" y="322" font-size="12" fill="#78716c">每半年複查一次</text>
-  <text x="72" y="344" font-size="11" fill="#64748b">第一個要被檢視的文件</text>
-  <text x="72" y="364" font-size="11" fill="#64748b">→ 評鑑委員首查項</text>
+  <text x="72" y="344" font-size="11" fill="#57534e">第一個要被檢視的文件</text>
+  <text x="72" y="364" font-size="11" fill="#57534e">→ 評鑑委員首查項</text>
 
   <!-- Item 2 -->
   <rect x="295" y="84" width="210" height="310" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
@@ -31,15 +31,15 @@
   <text x="400" y="121" font-size="14" font-weight="700" fill="#1e293b">建立工作手冊</text>
   <text x="400" y="139" font-size="11" fill="#78716c">第 24 條</text>
   <line x1="311" y1="152" x2="489" y2="152" stroke="#f0ede6" stroke-width="1"/>
-  <text x="315" y="174" font-size="12" fill="#64748b">□ 組織架構圖</text>
-  <text x="315" y="196" font-size="12" fill="#64748b">□ 各職位職掌說明</text>
-  <text x="315" y="218" font-size="12" fill="#64748b">□ 差勤規定</text>
+  <text x="315" y="174" font-size="12" fill="#57534e">□ 組織架構圖</text>
+  <text x="315" y="196" font-size="12" fill="#57534e">□ 各職位職掌說明</text>
+  <text x="315" y="218" font-size="12" fill="#57534e">□ 差勤規定</text>
   <line x1="311" y1="236" x2="489" y2="236" stroke="#f0ede6" stroke-width="1"/>
   <rect x="311" y="248" width="178" height="32" rx="8" fill="#78716c" opacity="0.08"/>
   <text x="400" y="269" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">上任 1 個月內完成</text>
   <text x="315" y="302" font-size="12" fill="#78716c">每年修訂 + 版本號</text>
   <text x="315" y="322" font-size="12" fill="#78716c">全體人員簽收</text>
-  <text x="315" y="344" font-size="11" fill="#64748b">簽收單＝評鑑佐證文件</text>
+  <text x="315" y="344" font-size="11" fill="#57534e">簽收單＝評鑑佐證文件</text>
 
   <!-- Item 3 -->
   <rect x="538" y="84" width="210" height="310" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
@@ -49,16 +49,16 @@
   <text x="643" y="121" font-size="14" font-weight="700" fill="#1e293b">啟動月行政會議</text>
   <text x="643" y="139" font-size="11" fill="#78716c">第 25 條</text>
   <line x1="554" y1="152" x2="732" y2="152" stroke="#f0ede6" stroke-width="1"/>
-  <text x="558" y="174" font-size="12" fill="#64748b">□ 每月固定日期召開</text>
-  <text x="558" y="196" font-size="12" fill="#64748b">□ 四類人員參與</text>
-  <text x="558" y="218" font-size="12" fill="#64748b">□ 議程 + 紀錄 + 簽名</text>
+  <text x="558" y="174" font-size="12" fill="#57534e">□ 每月固定日期召開</text>
+  <text x="558" y="196" font-size="12" fill="#57534e">□ 四類人員參與</text>
+  <text x="558" y="218" font-size="12" fill="#57534e">□ 議程 + 紀錄 + 簽名</text>
   <line x1="554" y1="236" x2="732" y2="236" stroke="#f0ede6" stroke-width="1"/>
   <rect x="554" y="248" width="178" height="32" rx="8" fill="#a8a29e" opacity="0.12"/>
   <text x="643" y="269" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">上任當月啟動</text>
   <text x="558" y="302" font-size="12" fill="#78716c">決議追蹤欄</text>
   <text x="558" y="322" font-size="12" fill="#78716c">下次會議逐一回顧</text>
-  <text x="558" y="344" font-size="11" fill="#64748b">PDCA 循環讓委員</text>
-  <text x="558" y="364" font-size="11" fill="#64748b">一眼看出確實執行</text>
+  <text x="558" y="344" font-size="11" fill="#57534e">PDCA 循環讓委員</text>
+  <text x="558" y="364" font-size="11" fill="#57534e">一眼看出確實執行</text>
 
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

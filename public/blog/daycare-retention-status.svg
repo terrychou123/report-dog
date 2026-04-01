@@ -12,10 +12,10 @@
   <line x1="68" y1="128" x2="246" y2="128" stroke="#f0ede6" stroke-width="1"/>
   <rect x="68" y="140" width="178" height="36" rx="8" fill="#d97706" opacity="0.08"/>
   <text x="157" y="163" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">每次招募＝成本</text>
-  <text x="72" y="200" font-size="12" fill="#64748b">→ 刊登招募廣告</text>
-  <text x="72" y="220" font-size="12" fill="#64748b">→ 面試與篩選時間</text>
-  <text x="72" y="240" font-size="12" fill="#64748b">→ 職前訓練 16 小時</text>
-  <text x="72" y="260" font-size="12" fill="#64748b">→ 新人上手磨合期</text>
+  <text x="72" y="200" font-size="12" fill="#57534e">→ 刊登招募廣告</text>
+  <text x="72" y="220" font-size="12" fill="#57534e">→ 面試與篩選時間</text>
+  <text x="72" y="240" font-size="12" fill="#57534e">→ 職前訓練 16 小時</text>
+  <text x="72" y="260" font-size="12" fill="#57534e">→ 新人上手磨合期</text>
   <line x1="68" y1="278" x2="246" y2="278" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="300" font-size="12" fill="#d97706" font-weight="600">評鑑影響：</text>
   <text x="72" y="320" font-size="12" fill="#78716c">留任率納入第 30 條</text>
@@ -28,10 +28,10 @@
   <line x1="311" y1="128" x2="489" y2="128" stroke="#f0ede6" stroke-width="1"/>
   <rect x="311" y="140" width="178" height="36" rx="8" fill="#ef4444" opacity="0.08"/>
   <text x="400" y="163" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="700">個案適應新照服員</text>
-  <text x="311" y="200" font-size="12" fill="#64748b">→ 適應期長達數週</text>
-  <text x="311" y="220" font-size="12" fill="#64748b">→ 認知症長輩壓力倍增</text>
-  <text x="311" y="240" font-size="12" fill="#64748b">→ 個別化照顧中斷</text>
-  <text x="311" y="260" font-size="12" fill="#64748b">→ 家屬信任感降低</text>
+  <text x="311" y="200" font-size="12" fill="#57534e">→ 適應期長達數週</text>
+  <text x="311" y="220" font-size="12" fill="#57534e">→ 認知症長輩壓力倍增</text>
+  <text x="311" y="240" font-size="12" fill="#57534e">→ 個別化照顧中斷</text>
+  <text x="311" y="260" font-size="12" fill="#57534e">→ 家屬信任感降低</text>
   <line x1="311" y1="278" x2="489" y2="278" stroke="#f0ede6" stroke-width="1"/>
   <text x="311" y="300" font-size="12" fill="#dc2626" font-weight="600">評鑑風險：</text>
   <text x="311" y="320" font-size="12" fill="#78716c">計畫執行連續性降低</text>
@@ -44,10 +44,10 @@
   <line x1="554" y1="128" x2="732" y2="128" stroke="#f0ede6" stroke-width="1"/>
   <rect x="554" y="140" width="178" height="36" rx="8" fill="#78716c" opacity="0.08"/>
   <text x="643" y="163" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">薪資只是表面</text>
-  <text x="554" y="200" font-size="12" fill="#64748b">→ 督導形同虛設</text>
-  <text x="554" y="220" font-size="12" fill="#64748b">→ 訓練毫無感覺</text>
-  <text x="554" y="240" font-size="12" fill="#64748b">→ 問題得不到回應</text>
-  <text x="554" y="260" font-size="12" fill="#64748b">→ 看不到未來發展</text>
+  <text x="554" y="200" font-size="12" fill="#57534e">→ 督導形同虛設</text>
+  <text x="554" y="220" font-size="12" fill="#57534e">→ 訓練毫無感覺</text>
+  <text x="554" y="240" font-size="12" fill="#57534e">→ 問題得不到回應</text>
+  <text x="554" y="260" font-size="12" fill="#57534e">→ 看不到未來發展</text>
   <line x1="554" y1="278" x2="732" y2="278" stroke="#f0ede6" stroke-width="1"/>
   <text x="554" y="300" font-size="12" fill="#d97706" font-weight="600">本文分析：</text>
   <text x="554" y="320" font-size="12" fill="#78716c">5 大管理盲點</text>

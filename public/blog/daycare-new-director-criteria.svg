@@ -25,62 +25,62 @@
   <rect x="20" y="102" width="760" height="34" fill="#f0efe8"/>
   <text x="85" y="124" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 23 條</text>
   <text x="220" y="124" font-size="13" fill="#1e293b" text-anchor="middle">業務計畫</text>
-  <text x="310" y="124" font-size="12" fill="#64748b">每年撰寫成果報告、訂定短中長程計畫</text>
+  <text x="310" y="124" font-size="12" fill="#57534e">每年撰寫成果報告、訂定短中長程計畫</text>
 
   <!-- 列2：第24條 -->
   <rect x="20" y="136" width="760" height="34" fill="white"/>
   <text x="85" y="158" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 24 條</text>
   <text x="220" y="158" font-size="13" fill="#1e293b" text-anchor="middle">工作手冊</text>
-  <text x="310" y="158" font-size="12" fill="#64748b">每年至少 1 次審閱修訂、含組織職掌說明</text>
+  <text x="310" y="158" font-size="12" fill="#57534e">每年至少 1 次審閱修訂、含組織職掌說明</text>
 
   <!-- 列3：第25條 -->
   <rect x="20" y="170" width="760" height="34" fill="#f0efe8"/>
   <text x="85" y="192" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 25 條</text>
   <text x="220" y="192" font-size="13" fill="#1e293b" text-anchor="middle">行政會議</text>
-  <text x="310" y="192" font-size="12" fill="#64748b">每月至少 1 次、多專業參與、決議須追蹤</text>
+  <text x="310" y="192" font-size="12" fill="#57534e">每月至少 1 次、多專業參與、決議須追蹤</text>
 
   <!-- 列4：第28條 -->
   <rect x="20" y="204" width="760" height="34" fill="white"/>
   <text x="85" y="226" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 28 條</text>
   <text x="220" y="226" font-size="13" fill="#1e293b" text-anchor="middle">人力設置</text>
-  <text x="310" y="226" font-size="12" fill="#64748b">符合設置標準、完成執業登錄或報備</text>
+  <text x="310" y="226" font-size="12" fill="#57534e">符合設置標準、完成執業登錄或報備</text>
 
   <!-- 列5：第29條 -->
   <rect x="20" y="238" width="760" height="34" fill="#f0efe8"/>
   <text x="85" y="260" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 29 條</text>
   <text x="220" y="260" font-size="13" fill="#1e293b" text-anchor="middle">教育訓練</text>
-  <text x="310" y="260" font-size="12" fill="#64748b">職前 16hr（1 月內）、在職每年 ≥ 20hr</text>
+  <text x="310" y="260" font-size="12" fill="#57534e">職前 16hr（1 月內）、在職每年 ≥ 20hr</text>
 
   <!-- 列6：第30條 -->
   <rect x="20" y="272" width="760" height="34" fill="white"/>
   <text x="85" y="294" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 30 條</text>
   <text x="220" y="294" font-size="13" fill="#1e293b" text-anchor="middle">留任率</text>
-  <text x="310" y="294" font-size="12" fill="#64748b">前四年度平均；3 個月內離職者不計入</text>
+  <text x="310" y="294" font-size="12" fill="#57534e">前四年度平均；3 個月內離職者不計入</text>
 
   <!-- 列7：第31條 -->
   <rect x="20" y="306" width="760" height="34" fill="#f0efe8"/>
   <text x="85" y="328" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 31 條</text>
   <text x="220" y="328" font-size="13" fill="#1e293b" text-anchor="middle">主任能力</text>
-  <text x="310" y="328" font-size="12" fill="#64748b">每年行政／品質管理教育訓練 ≥ 4hr</text>
+  <text x="310" y="328" font-size="12" fill="#57534e">每年行政／品質管理教育訓練 ≥ 4hr</text>
 
   <!-- 列8：第34條 -->
   <rect x="20" y="340" width="760" height="34" fill="white"/>
   <text x="85" y="362" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 34 條</text>
   <text x="220" y="362" font-size="13" fill="#1e293b" text-anchor="middle">財務管理</text>
-  <text x="310" y="362" font-size="12" fill="#64748b">獨立會計制度、收費需開立正式收據</text>
+  <text x="310" y="362" font-size="12" fill="#57534e">獨立會計制度、收費需開立正式收據</text>
 
   <!-- 列9：第9條 -->
   <rect x="20" y="374" width="760" height="34" fill="#f0efe8"/>
   <text x="85" y="396" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 9 條</text>
   <text x="220" y="396" font-size="13" fill="#1e293b" text-anchor="middle">督導機制</text>
-  <text x="310" y="396" font-size="12" fill="#64748b">個別督導每半年 1 次；團體督導每季 1 次</text>
+  <text x="310" y="396" font-size="12" fill="#57534e">個別督導每半年 1 次；團體督導每季 1 次</text>
 
   <!-- 列10：第22條 -->
   <rect x="20" y="408" width="760" height="34" rx="0" fill="white"/>
   <rect x="20" y="422" width="760" height="20" rx="10" fill="white"/>
   <text x="85" y="430" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 22 條</text>
   <text x="220" y="430" font-size="13" fill="#1e293b" text-anchor="middle">品管指標</text>
-  <text x="310" y="430" font-size="12" fill="#64748b">自訂 ≥ 2 項指標、異常案件需逐案分析</text>
+  <text x="310" y="430" font-size="12" fill="#57534e">自訂 ≥ 2 項指標、異常案件需逐案分析</text>
 
   <!-- 底部水平分隔線 -->
   <line x1="20" y1="454" x2="780" y2="454" stroke="#dedad3" stroke-width="1"/>

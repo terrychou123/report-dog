@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    【ref-flow-5.svg — 5 步驟流程圖參考範本】
+    SKILL.md 規格：N=5, card_w=140, arrow_gap=12，滿幅佈局
+    card[0]: x=28 cx=98, card[1]: x=180 cx=250
+    card[2]: x=332 cx=402, card[3]: x=484 cx=554, card[4]: x=636 cx=706
+
+    r = round(140/4) = 35
+    block1_h = 70, block3_h = 36
+    max_H_chars = 2（下載/分工/填寫/演練/彙整）
+    H_font = min(36, floor((140-28)/2)) = min(36, 56) = 36
+    H_to_J1 = max(24, round(36×0.78)) = 28
+    block2_h = round(36×0.72) + 28 + 22 = 26+28+22 = 76
+    content_h = 70+76+36 = 182
+    gap = (312-182)/4 = 32.5 ≈ 32
+
+    card_y = 133（上移8px：分隔線→card間距9px，card底453，浮水印底部間距27px）
+    usable_top = 133+8 = 141
+    circle_cy = 141+32+35 = 208
+    STEP y = 208-9 = 199, 0N y = 208+14 = 222（STEP=14px, 0N=23px）
+    H y = 141+32+70+32+26 = 301
+    J1 y = 301+28 = 329, J2 y = 329+22 = 351
+    pill_y = 383, pill_text_y = 407
+    pill_w = min(148, 140-26) = 114, pill_x = cx-57
+    arrow_y = 133+160 = 293
+
+    A主標題：B=22px×18字=396, A=round(396/(7.83×1.15))=44; B副標題：22px
+    J說明字級：max(16,min(30,round(36×2/6)))=16px（max_J_chars=6）統一為16px
+    分隔線 x1=28, x2=776; 浮水印 y=480
+  -->
+
+  <!-- A. 主標題 44px（B=22px×18字=396, A=round(396/(7.83×1.15))=44） -->
+  <text x="400" y="72" text-anchor="middle" font-size="44" fill="#1e293b" font-weight="700">5 步驟完整評鑑準備</text>
+  <!-- B. 副標題 22px -->
+  <text x="400" y="108" text-anchor="middle" font-size="22" fill="#57534e">從準備到演練，系統化完成評鑑前置作業</text>
+  <!-- 分隔線（x1=28, x2=776） -->
+  <line x1="28" y1="124" x2="776" y2="124" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭（arrow_y=293） -->
+  <line x1="168" y1="293" x2="180" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="168,287 180,293 168,299" fill="#c4bfb8"/>
+  <line x1="320" y1="293" x2="332" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="320,287 332,293 320,299" fill="#c4bfb8"/>
+  <line x1="472" y1="293" x2="484" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="472,287 484,293 472,299" fill="#c4bfb8"/>
+  <line x1="624" y1="293" x2="636" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="624,287 636,293 624,299" fill="#c4bfb8"/>
+
+  <!-- Step 1：下載（#d97706 琥珀） card x=28 cx=98 -->
+  <rect x="28" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="133" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="137" width="140" height="4" fill="#d97706"/>
+  <!-- Block 1: STEP 圓圈（r=35, cy=208, STEP=14px, 0N=23px） -->
+  <circle cx="98" cy="208" r="35" fill="#fef3c7"/>
+  <text x="98" y="199" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP</text>
+  <text x="98" y="222" text-anchor="middle" font-size="23" fill="#d97706" font-weight="700">01</text>
+  <!-- Block 2: H 36px, J 16px -->
+  <text x="98" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">下載</text>
+  <text x="98" y="329" text-anchor="middle" font-size="16" fill="#57534e">取得範本</text>
+  <text x="98" y="351" text-anchor="middle" font-size="16" fill="#57534e">Excel 檔案</text>
+  <!-- Block 3: Pill -->
+  <rect x="41" y="383" width="114" height="36" rx="18" fill="#fef3c7"/>
+  <text x="98" y="407" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">免費取得</text>
+
+  <!-- Step 2：分工（#78716c 暖灰） card x=180 cx=250 -->
+  <rect x="180" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="133" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="137" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="208" r="35" fill="#f5f5f4"/>
+  <text x="250" y="199" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">STEP</text>
+  <text x="250" y="222" text-anchor="middle" font-size="23" fill="#78716c" font-weight="700">02</text>
+  <text x="250" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">分工</text>
+  <text x="250" y="329" text-anchor="middle" font-size="16" fill="#57534e">負責人統籌</text>
+  <text x="250" y="351" text-anchor="middle" font-size="16" fill="#57534e">分配各部門</text>
+  <rect x="193" y="383" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="250" y="407" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">跨部門協作</text>
+
+  <!-- Step 3：填寫（#57534e 深棕） card x=332 cx=402 -->
+  <rect x="332" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="133" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="137" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="208" r="35" fill="#f5f0eb"/>
+  <text x="402" y="199" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">STEP</text>
+  <text x="402" y="222" text-anchor="middle" font-size="23" fill="#57534e" font-weight="700">03</text>
+  <text x="402" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">填寫</text>
+  <text x="402" y="329" text-anchor="middle" font-size="16" fill="#57534e">逐條標記</text>
+  <text x="402" y="351" text-anchor="middle" font-size="16" fill="#57534e">記錄應備文件</text>
+  <rect x="345" y="383" width="114" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="402" y="407" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">按面向確認</text>
+
+  <!-- Step 4：演練（#a8a29e 淺灰） card x=484 cx=554 -->
+  <rect x="484" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="133" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="137" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="208" r="35" fill="#f5f5f4"/>
+  <text x="554" y="199" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="554" y="222" text-anchor="middle" font-size="23" fill="#a8a29e" font-weight="700">04</text>
+  <text x="554" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">演練</text>
+  <text x="554" y="329" text-anchor="middle" font-size="16" fill="#57534e">模擬訪談</text>
+  <text x="554" y="351" text-anchor="middle" font-size="16" fill="#57534e">Q&amp;A 練習</text>
+  <rect x="497" y="383" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="554" y="407" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">角色扮演</text>
+
+  <!-- Step 5：彙整（#94a3b8 藍灰） card x=636 cx=706 -->
+  <rect x="636" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="133" width="140" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="636" y="137" width="140" height="4" fill="#94a3b8"/>
+  <circle cx="706" cy="208" r="35" fill="#f1f5f9"/>
+  <text x="706" y="199" text-anchor="middle" font-size="14" fill="#94a3b8" font-weight="700">STEP</text>
+  <text x="706" y="222" text-anchor="middle" font-size="23" fill="#94a3b8" font-weight="700">05</text>
+  <text x="706" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">彙整</text>
+  <text x="706" y="329" text-anchor="middle" font-size="16" fill="#57534e">統計完成率</text>
+  <text x="706" y="351" text-anchor="middle" font-size="16" fill="#57534e">備審資料確認</text>
+  <rect x="649" y="383" width="114" height="36" rx="18" fill="#f1f5f9"/>
+  <text x="706" y="407" text-anchor="middle" font-size="16" fill="#94a3b8" font-weight="600">提前準備</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

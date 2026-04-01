@@ -57,7 +57,7 @@ allowed-tools:
 
 | 版型 | 最多項目數 | 每項最多行數 |
 |------|----------|------------|
-| 直列清單 | **4 項** | 標題 1 行 + 說明 1 行 |
+| 直列清單 | **最多 6 項**（建議 ≤ 4） | 標題 1 行 + 說明 1 行 |
 | 多欄卡片 | **2 欄 × 3 項 = 6 項** | 標題 1 行 + 說明 1 行 |
 | 流程圖步驟 | **3–4 步** | 步驟標題 + 說明 2 行 |
 | 表格列 | **4 列** | 每格 2 行 |
@@ -97,7 +97,15 @@ allowed-tools:
 | 安全環境設備 | `#0d9488` | `#f0fdfa` | teal-600 |
 | 創新服務 | `#4f46e5` | `#eef2ff` | indigo-600 |
 
-**流程圖色彩順序**：Step1=藍 → Step2=綠 → Step3=橘 → Step4=青
+**流程圖／條列圖色彩順序（大地色系，最終定案）**：
+| 步驟/列 | 主色 | 背景色 | 說明 |
+|--------|------|--------|------|
+| 1 | `#d97706` | `#fef3c7` | 琥珀（amber-600） |
+| 2 | `#78716c` | `#f5f5f4` | 暖灰（stone-500） |
+| 3 | `#57534e` | `#f5f0eb` | 深棕（stone-600） |
+| 4 | `#a8a29e` | `#f5f5f4` | 淺灰（stone-400） |
+| 5 | `#94a3b8` | `#f1f5f9` | 藍灰（slate-400） |
+| 6 | `#6b7280` | `#f9fafb` | 中灰（gray-500）— 僅限 6 列條列圖使用 |
 
 ### 輔助色
 
@@ -111,7 +119,7 @@ allowed-tools:
 |------|------|--------|------|
 | 標題 | `#1e293b` | ~12:1 ✓ | 圖表主標題、卡片標題 |
 | 內容 | `#57534e` | ~5.2:1 ✓ | 所有說明文字、副標、標籤 |
-| 浮水印 | `#c4bfb8` | 1.6:1（刻意淡） | 品牌浮水印專用 |
+| 浮水印 | `#d97706` | 品牌琥珀色 | 品牌浮水印專用（流程圖／條列圖） |
 
 > ⚠ **已移除**：`#3d3530`、`#6b6560`、`#8a8178`、`#94a3b8`、`#475569`、`#64748b` — 這些顏色對比度不足或與 3 層體系重疊，統一改用上表。
 
@@ -249,14 +257,15 @@ pill_h      = 36
 | H_font | **35** | **36** |
 | block2_h | 74 | 76 |
 | gap | **29** | **32** |
-| circle cy | **221** | **216** |
-| "STEP" y | 210 | 207 |
-| "0N" y | 238 | 230 |
-| H y | **318** | **309** |
-| J1 y | **345** | **337** |
-| J2 y | **367** | **359** |
-| pill y | **396** | **391** |
-| pill text y | **420** | **415** |
+| circle cy | **213** | **208** |
+| "STEP" y | 202 | 199 |
+| "0N" y | 230 | 222 |
+| H y | **310** | **301** |
+| J1 y | **337** | **329** |
+| J2 y | **359** | **351** |
+| pill y | **388** | **383** |
+| pill text y | **412** | **407** |
+| arrow y | **293** | **293** |
 
 **標題分隔線**（與卡片群組等寬）：
 
@@ -277,7 +286,10 @@ x2 = last_card.x + card_w
 
 ```
 A 主標題 y=72，B 副標題 y=108，水平分隔線 y=124
-card_y=141，card_h=320，浮水印 y=480
+card_y=133，card_h=320，浮水印 y=480
+usable_top = card_y + 8 = 141
+分隔線→card 間距 = 9px，card 底 = 453，底部間距 = 27px
+arrow_y = card_y + card_h/2 = 133 + 160 = 293
 ```
 
 **字級規範**：
@@ -320,58 +332,78 @@ card_y=141，card_h=320，浮水印 y=480
 | **S1 條文標題**（136px rect 內，不加粗） | — | 全部 | **16px** | |
 | **S2 條文說明**（136px rect 內，不加粗） | — | 全部 | **16px** | |
 
-**自適應佈局（3-5 條）**（畫布高 500）—— **全等距，Header h = H**：
+**自適應佈局（3-6 條）**（畫布高 500）—— **Header h = H，兩層間距（outer > inner）**：
 
 - Header 高度 = Row 高度（H），視覺統一
-- 所有間隔（top、header-to-row1、各行間距、bottom）統一為同一個 `gap`
+- **兩層間距**：外圍間距（outer_gap）大於列間距（inner_gap），製造「章節分段」視覺
+  - outer_gap：頂部、Header↔Row1、底部（呼吸空間）
+  - inner_gap：Row 與 Row 之間（緊湊連貫）
 
 ```
-間隔數 = N + 2
-gap    = floor((500 - (N+1) × H) / (N + 2))   ← Header 也佔 H
-Header y   = gap
-Row[i] y   = gap + H + (i + 1) × gap + i × H   （i 從 0 開始）
+inner_gap = 固定值（見表格）
+outer_gap = floor((500 - (N+1)×H - (N-1)×inner_gap) / 3)
+Header y   = outer_gap
+Row[0] y   = outer_gap + H + outer_gap
+Row[i] y   = Row[i-1].y + H + inner_gap   （i ≥ 1）
 ```
 
-| N 條數 | H（header + row 同高） | gap（全等距） | Header y |
-|--------|----------------------|--------------|----------|
-| 3 條 | **72** | **42** | 42 |
-| 4 條 | **62** | **30** | 30 |
-| 5 條 | **56** | **23** | 23 |
+| N 條數 | H | inner_gap | outer_gap | Header y | 備註 |
+|--------|---|-----------|-----------|----------|------|
+| 3 條 | **90** | **13** | **38** | 38 | 兩層間距，3×38+4×90+2×13=500 ✓ |
+| 4 條 | **62** | **13** | **50** | 50 | 兩層間距，3×50+5×62+3×13=499 ✓ |
+| 5 條 | **60** | **13** | **29** | 29 | 兩層間距，3×29+6×60+4×13=499 ✓ |
+| 6 條 | **54** | **10** | header_gap=10, pad=31 | 31 | pad+header_gap+inner全=10，2×31+10+7×54+5×10=500 ✓ |
+
+> N=3~6 均使用兩層間距（pad > inner），視覺上上下留白一致、列間緊湊。N=6 特殊：header_gap=inner=10，上下 pad=31。
 
 **Header 文字垂直置中**（font = M2_font）：
 ```
 text_y = header_y + (H + M2_font × 0.85) / 2
 ```
 
+**自適應字型（依 H 縮放，保持視覺填充比例一致）**：
+```
+Q_font   = clamp(18, round(H × 0.35), 28)   主標題字級
+R_font   = clamp(14, Q_font - 6, 18)         副標題字級
+circle_r = clamp(16, round(H × 0.22), 22)   圓圈半徑
+NUM_font = clamp(16, round(circle_r × 0.9), 20)
+S_rect_h = clamp(34, H - 16, 52)             右側色框高度
+```
+
 **Row 內垂直置中（等視覺留白）**：
 ```
-pad    = (H - Q_font × 0.85 - 20 - 16 × 0.24) / 2
-Q_y    = row_y + pad + Q_font × 0.85
-R_y    = Q_y + 20
+spacing  = round(4 + R_font×0.85 + Q_font×0.15)
+Q_y      = row_y + round((H + Q_font×0.85 - R_font×0.15 - spacing) / 2)
+R_y      = Q_y + spacing
 circle cy    = row_y + H/2
-NUM text y   = row_y + H/2 + 6
-NUM circle r = (H ≥ 72) ? 18 : 16
-S rect h     = min(46, H - 16)
-S rect y     = row_y + (H - S_rect_h) / 2
-S1 baseline  = row_y + H/2 - 6
-S2 baseline  = row_y + H/2 + 14
+NUM text y   = circle_cy + round(NUM_font × 0.35)
+S_rect_y = row_y + round((H - S_rect_h) / 2)
+S1       = S_rect_y + round((S_rect_h - 12) / 2)
+S2       = S1 + 20
 ```
 
-快速查表（Q_font 自適應 Q/R offset）：
+**快速查表（自適應結果，每 N 對應一組值）**：
 
-| H  | Q_font | Q offset | R offset | cy | NUM(+6) | S rect y (h) | S1(-6) | S2(+14) |
-|----|--------|----------|----------|----|---------|--------------|--------|---------|
-| 72 | 22 | **+33** | **+53** | +36 | +42 | +13 (h=46) | +30 | +50 |
-| 72 | 20 | **+33** | **+53** | +36 | +42 | +13 (h=46) | +30 | +50 |
-| 72 | 18 | **+32** | **+52** | +36 | +42 | +13 (h=46) | +30 | +50 |
-| 62 | 22 | **+28** | **+48** | +31 | +37 | +8  (h=46) | +25 | +45 |
-| 62 | 20 | **+28** | **+48** | +31 | +37 | +8  (h=46) | +25 | +45 |
-| 62 | 18 | **+27** | **+47** | +31 | +37 | +8  (h=46) | +25 | +45 |
-| 56 | 22 | **+25** | **+45** | +28 | +34 | +8  (h=40) | +22 | +42 |
-| 56 | 20 | **+25** | **+45** | +28 | +34 | +8  (h=40) | +22 | +42 |
-| 56 | 18 | **+24** | **+44** | +28 | +34 | +8  (h=40) | +22 | +42 |
+| H  | N | Q_font | R_font | circle_r | Q_off | R_off | cy  | S rect y (h)  | S1  | S2  |
+|----|---|--------|--------|----------|-------|-------|-----|---------------|-----|-----|
+| 90 | 3 | **28** | **18** | **20**   | +44   | +68   | +45 | +19 (h=52)    | +39 | +59 |
+| 62 | 4 | 22     | 16     | 16       | +28   | +48   | +31 | +8  (h=46)    | +25 | +45 |
+| 60 | 5 | 20     | 16     | 16       | +27   | +48   | +30 | +8  (h=44)    | +24 | +44 |
+| 54 | 6 | 18     | 14     | 16       | +24   | +43   | +27 | +8  (h=38)    | +21 | +41 |
 
-> ⚠ **最小字級 16px**（直列清單版型）。放不下時改拆成多張圖，不得縮字。
+> ⚠ **最小字級 16px**（直列清單版型，N=6 的 R_font=14px 為例外，視可讀性酌情拆圖）。放不下時改拆成多張圖，不得縮字。
+
+**Row 元素固定規則（所有 N 統一）**：
+```
+Row rect（大框）         rx="10", fill="#e8e6de"
+左色條                  rx="2", width="6"
+Circle opacity          0.15（全部 N=3~6 一致）
+S rect opacity          0.12（全部 N=3~6 一致）
+S rect rx               rx="8"
+S 標籤文字色             = 該列主色（circle fill 的同色），不得偷換其他顏色
+```
+
+> ⚠ **禁止使用 `#64748b`、`#78716c`（等輔助色）作為 Row 4/5/6 的 S 文字色** — 必須使用該列的主色。
 
 ---
 
@@ -436,7 +468,7 @@ S2 baseline  = row_y + H/2 + 14
 ### 內文插圖（右下角）
 ```xml
 <!-- 內文插圖高度 500px，浮水印固定在 y=480 -->
-<text x="760" y="480" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+<text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 ```
 
 ### 封面圖（右下角浮水印）
@@ -469,7 +501,7 @@ S2 baseline  = row_y + H/2 + 14
 │ 主標題第 2 行 100–130px #d97706 │              │
 │                                 │ 裝飾大數字    │
 │ ── 分隔線 #dedad3               │ 140~220px    │
-│ 副標題 38–40px #64748b          │ fill=#d97706  │
+│ 副標題 38–40px #57534e          │ fill=#d97706  │
 │                                 │ opacity=0.85  │
 │ 特色標籤列 4~5 個 pill 28–30px  │              │
 │                                 │ 說明文字      │
@@ -486,7 +518,7 @@ S2 baseline  = row_y + H/2 + 14
 | 主標題第 1 行 | 100–130px | 900 | `#1e293b` |
 | 主標題第 2 行 | 100–130px | 900 | `#d97706`（琥珀強調） |
 | 分隔線 | — | — | `#dedad3` stroke-width=1.5~2 |
-| 副標題 | 38–40px | 400 | `#64748b` |
+| 副標題 | 38–40px | 400 | `#57534e` |
 | 特色標籤列 | 28–30px | 600~700 | 各標籤色，`rx=8~10` |
 | 適用對象/來源 | 28–30px | 400 | `#94a3b8` / `#a8a29e` |
 | 浮水印 | 24–28px | 400 | `#c4bfb8` |
@@ -538,19 +570,19 @@ S2 baseline  = row_y + H/2 + 14
        垂直置中：title_y = rect_y + 43 - 31/2 + 28×0.35 ≈ rect_y + 37
                 sub_y   = title_y + 31（固定行距）
   -->
-  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{卡片標題 1}</text>
   <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 1}</text>
 
-  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">{卡片標題 2}</text>
   <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 2}</text>
 
-  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">{卡片標題 3}</text>
   <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 3}</text>
 
-  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{卡片標題 4}</text>
   <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 4}</text>
 
@@ -566,7 +598,7 @@ S2 baseline  = row_y + H/2 + 14
 
   <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
 
-  <text x="60" y="416" font-size="38" fill="#64748b" font-weight="400">{副標題}</text>
+  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">{副標題}</text>
 
   <!-- 特色標籤列（pill 高 54px，28px 文字） -->
   <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
@@ -599,43 +631,48 @@ S2 baseline  = row_y + H/2 + 14
 
 **用途**：呈現 3–5 個依序進行的步驟流程
 
-**骨架結構**：
+**骨架結構（以 N=4 為例，大地色系）**：
 ```xml
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
-  <rect width="800" height="460" fill="#f0efe8"/>
-  <!-- 標題 -->
-  <text x="400" y="38" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#3d3530" font-weight="700">{圖表標題}</text>
-  <text x="400" y="58" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#8a8178">{副標說明}</text>
-  <line x1="60" y1="72" x2="740" y2="72" stroke="#dedad3" stroke-width="1"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 步驟卡片（4 張，等寬排列） -->
-  <!-- 每張卡片：x=40/222/404/586, width=162, y=90, height=300 -->
-  <!-- 色彩順序：紫 #9b8ec4 → 粉紅 #d4829c → 金黃 #d4b44a → 青綠 #5bbfb5 -->
+  <!-- A. 主標題（依 A 等寬公式計算 font-size） -->
+  <text x="400" y="72" text-anchor="middle" font-size="{A_font}" fill="#1e293b" font-weight="700">{N} 步驟{流程名稱}</text>
+  <!-- B. 副標題（≤10字→26px, 11-18字→22px, 19+字→18px） -->
+  <text x="400" y="108" text-anchor="middle" font-size="{B_font}" fill="#57534e">{副標文字}</text>
+  <!-- 分隔線（與卡片群組等寬） -->
+  <line x1="28" y1="124" x2="772" y2="124" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Step 1（紫） -->
-  <rect x="40" y="90" width="162" height="300" rx="12" fill="white"/>
-  <rect x="40" y="90" width="162" height="8" rx="4" fill="#9b8ec4"/>
-  <rect x="40" y="94" width="162" height="4" fill="#9b8ec4"/>
-  <circle cx="121" cy="144" r="28" fill="#f3f0fa"/>
-  <text x="121" y="138" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#9b8ec4" font-weight="700">STEP</text>
-  <text x="121" y="155" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#9b8ec4" font-weight="700">01</text>
-  <text x="121" y="197" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#3d3530" font-weight="700">{步驟標題}</text>
-  <line x1="60" y1="210" x2="182" y2="210" stroke="#f0ede6" stroke-width="1"/>
-  <text x="121" y="234" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#6b6560">{說明行 1}</text>
-  <text x="121" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#6b6560">{說明行 2}</text>
-  <text x="121" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#6b6560">{說明行 3}</text>
-  <rect x="64" y="350" width="114" height="24" rx="12" fill="#f3f0fa"/>
-  <text x="121" y="366" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#9b8ec4" font-weight="600">{時程標籤}</text>
+  <!-- 箭頭（N-1 個，arrow_y=301） -->
+  <line x1="202" y1="301" x2="218" y2="301" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,295 218,301 202,307" fill="#c4bfb8"/>
+  <!-- ...重複 N-1 次... -->
 
-  <!-- 箭頭連接（重複 3 次）-->
-  <polygon points="210,235 224,229 224,241" fill="#c4bfb8"/>
-  <line x1="202" y1="235" x2="213" y2="235" stroke="#c4bfb8" stroke-width="1.5"/>
+  <!-- Step 1：{標題}（#d97706 琥珀）card x=28 cx=115 -->
+  <rect x="28" y="141" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="141" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="145" width="174" height="4" fill="#d97706"/>
+  <!-- Block 1: STEP 圓圈（r=44, cy=221） -->
+  <circle cx="115" cy="221" r="44" fill="#fef3c7"/>
+  <text x="115" y="210" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="239" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <!-- Block 2: H 36px, J {J_font}px -->
+  <text x="115" y="319" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">{標題}</text>
+  <text x="115" y="347" text-anchor="middle" font-size="{J_font}" fill="#57534e">{說明行 1}</text>
+  <text x="115" y="369" text-anchor="middle" font-size="{J_font}" fill="#57534e">{說明行 2}</text>
+  <!-- Block 3: Pill -->
+  <rect x="41" y="397" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="421" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">{時程標籤}</text>
 
-  <!-- 品牌 -->
-  <text x="756" y="450" text-anchor="end" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#bab4ac">報告汪製作</text>
+  <!-- Step 2：{標題}（#78716c 暖灰）...Step 3（#57534e 深棕）...Step 4（#a8a29e 淺灰）... -->
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>
 ```
+
+> ⚠ 卡片 stroke 統一使用 `stroke="#e8e6de" stroke-width="1"`，所有卡片（含最後一張）相同，不加強。
 
 ---
 
@@ -814,6 +851,30 @@ S2 baseline  = row_y + H/2 + 14
 | PDCA 圖 | `-pdca` |
 
 範例：`daycare-checklist-flow.svg`、`nursing-home-timeline-cover.svg`
+
+---
+
+## 跨模板一致性規範
+
+下列參數是流程圖（flow）與條列圖（list）**必須共用**的絕對規範，不得因模板類型不同而有差異。
+
+| 參數 | 規定值 | 備註 |
+|------|--------|------|
+| 浮水印 y | `y="480"` | 兩種模板統一 |
+| 卡片圓角 | `rx="12"` | 卡片 rect 的 rx 值統一 |
+| 浮水印色 | `#d97706` | 品牌琥珀色，兩種模板統一 |
+| 色彩輪轉序列 | 1→`#d97706` 2→`#78716c` 3→`#57534e` 4→`#a8a29e` 5→`#94a3b8` 6→`#6b7280` | 超過 5 步驟/列時才使用第 6 色 |
+
+### 刻意保留的差異（非 bug）
+
+以下差異是兩種模板的**功能性設計分工**，屬刻意設計而非疏漏：
+
+| 維度 | flow（流程圖） | list（條列圖） | 原因 |
+|------|--------------|--------------|------|
+| 標題系統 | 置中大標題 + 副標題 + 分隔線 | 左對齊色塊標題列 | flow 需要引導語；list 需要快速辨識主題 |
+| 卡片底色 | `white`（浮出感） | `#e8e6de`（嵌入感） | flow 強調每個步驟獨立；list 強調整體清單閱讀 |
+| 色條方向 | 頂部 8px 橫條 | 左側 6px 直條 | 各自與版面方向一致 |
+| 編號圓圈 | 大圓（r=35-44）+ STEP/01 雙行 | 小圓（r=16-20）+ 單數字 | flow 圓圈是視覺主角；list 圓圈是輔助標記 |
 
 ---
 

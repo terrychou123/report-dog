@@ -10,18 +10,18 @@
   <rect x="68" y="98" width="36" height="36" rx="8" fill="#d97706" opacity="0.15"/>
   <text x="86" y="123" font-size="20" font-weight="900" fill="#d97706" text-anchor="middle">8</text>
   <text x="208" y="118" font-size="15" font-weight="700" fill="#1e293b">主任自我提升管理力</text>
-  <text x="208" y="136" font-size="12" fill="#64748b">第 31 條｜每年至少 4 小時</text>
+  <text x="208" y="136" font-size="12" fill="#57534e">第 31 條｜每年至少 4 小時</text>
   <line x1="68" y1="150" x2="372" y2="150" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="172" font-size="13" font-weight="600" fill="#1e293b">進修方向選擇</text>
-  <text x="72" y="194" font-size="12" fill="#64748b">→ 衛生局主任研習</text>
-  <text x="72" y="214" font-size="12" fill="#64748b">→ 長照管理、組織行為</text>
-  <text x="72" y="234" font-size="12" fill="#64748b">→ 優秀機構參訪交流</text>
+  <text x="72" y="194" font-size="12" fill="#57534e">→ 衛生局主任研習</text>
+  <text x="72" y="214" font-size="12" fill="#57534e">→ 長照管理、組織行為</text>
+  <text x="72" y="234" font-size="12" fill="#57534e">→ 優秀機構參訪交流</text>
   <line x1="68" y1="252" x2="372" y2="252" stroke="#f0ede6" stroke-width="1"/>
   <text x="72" y="274" font-size="13" font-weight="600" fill="#1e293b">評鑑要求提出</text>
   <rect x="68" y="284" width="304" height="52" rx="8" fill="#d97706" opacity="0.08"/>
   <text x="220" y="306" font-size="12" fill="#92400e" text-anchor="middle">機構的經營管理問題</text>
   <text x="220" y="326" font-size="12" fill="#92400e" text-anchor="middle">＋ 對應的解決策略</text>
-  <text x="72" y="358" font-size="11" fill="#64748b">4小時訓練→整個團隊氛圍改變</text>
+  <text x="72" y="358" font-size="11" fill="#57534e">4小時訓練→整個團隊氛圍改變</text>
 
   <!-- Right: 第9件事 -->
   <rect x="412" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
@@ -29,7 +29,7 @@
   <rect x="428" y="98" width="36" height="36" rx="8" fill="#78716c" opacity="0.15"/>
   <text x="446" y="123" font-size="20" font-weight="900" fill="#78716c" text-anchor="middle">9</text>
   <text x="568" y="118" font-size="15" font-weight="700" fill="#1e293b">建立督導機制</text>
-  <text x="568" y="136" font-size="12" fill="#64748b">第 9 條｜適用所有服務人員</text>
+  <text x="568" y="136" font-size="12" fill="#57534e">第 9 條｜適用所有服務人員</text>
   <line x1="428" y1="150" x2="732" y2="150" stroke="#f0ede6" stroke-width="1"/>
 
   <rect x="428" y="160" width="304" height="44" rx="8" fill="#d97706" opacity="0.08"/>
@@ -42,9 +42,9 @@
 
   <line x1="428" y1="266" x2="732" y2="266" stroke="#f0ede6" stroke-width="1"/>
   <text x="432" y="288" font-size="13" font-weight="600" fill="#1e293b">督導追蹤表內容</text>
-  <text x="432" y="308" font-size="12" fill="#64748b">□ 人員姓名 ＋ 督導頻率</text>
-  <text x="432" y="328" font-size="12" fill="#64748b">□ 上次個督日期</text>
-  <text x="432" y="348" font-size="12" fill="#64748b">□ 督導者 ＋ 被督導者簽名</text>
+  <text x="432" y="308" font-size="12" fill="#57534e">□ 人員姓名 ＋ 督導頻率</text>
+  <text x="432" y="328" font-size="12" fill="#57534e">□ 上次個督日期</text>
+  <text x="432" y="348" font-size="12" fill="#57534e">□ 督導者 ＋ 被督導者簽名</text>
   <text x="432" y="368" font-size="11" fill="#d97706" font-weight="600">督導紀錄保存 7 年</text>
 
   <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>

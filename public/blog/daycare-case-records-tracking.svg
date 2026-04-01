@@ -22,8 +22,8 @@
   <rect x="52" y="146" width="216" height="5" rx="2.5" fill="#d97706"/>
   <text x="160" y="176" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">第 1 層：達成度評估</text>
   <line x1="68" y1="190" x2="252" y2="190" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="212" font-size="12" fill="#64748b">量化記錄達成程度</text>
-  <text x="72" y="232" font-size="12" fill="#64748b">用數字說話</text>
+  <text x="72" y="212" font-size="12" fill="#57534e">量化記錄達成程度</text>
+  <text x="72" y="232" font-size="12" fill="#57534e">用數字說話</text>
   <line x1="68" y1="248" x2="252" y2="248" stroke="#f0ede6" stroke-width="1"/>
   <rect x="68" y="258" width="184" height="56" rx="8" fill="#d97706" opacity="0.08"/>
   <text x="160" y="278" font-size="12" fill="#92400e" text-anchor="middle">✓「如廁目標達成</text>
@@ -36,22 +36,22 @@
   <rect x="292" y="146" width="216" height="5" rx="2.5" fill="#78716c"/>
   <text x="400" y="176" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">第 2 層：原因分析</text>
   <line x1="308" y1="190" x2="492" y2="190" stroke="#f0ede6" stroke-width="1"/>
-  <text x="312" y="212" font-size="12" fill="#64748b">未達成目標</text>
-  <text x="312" y="232" font-size="12" fill="#64748b">必須分析根本原因</text>
+  <text x="312" y="212" font-size="12" fill="#57534e">未達成目標</text>
+  <text x="312" y="232" font-size="12" fill="#57534e">必須分析根本原因</text>
   <line x1="308" y1="248" x2="492" y2="248" stroke="#f0ede6" stroke-width="1"/>
   <text x="312" y="268" font-size="12" fill="#78716c">→ 出席次數不足</text>
   <text x="312" y="286" font-size="12" fill="#78716c">→ 情緒低落日增加</text>
   <text x="312" y="306" font-size="12" fill="#78716c">→ 家人探視頻率降低</text>
-  <text x="312" y="326" font-size="11" fill="#64748b">需找到可改變的因素</text>
-  <text x="312" y="346" font-size="11" fill="#64748b">才能擬定改善策略</text>
+  <text x="312" y="326" font-size="11" fill="#57534e">需找到可改變的因素</text>
+  <text x="312" y="346" font-size="11" fill="#57534e">才能擬定改善策略</text>
 
   <!-- Level 3 -->
   <rect x="532" y="146" width="216" height="240" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="532" y="146" width="216" height="5" rx="2.5" fill="#a8a29e"/>
   <text x="640" y="176" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">第 3 層：計畫修正</text>
   <line x1="548" y1="190" x2="732" y2="190" stroke="#f0ede6" stroke-width="1"/>
-  <text x="552" y="212" font-size="12" fill="#64748b">根據分析結果</text>
-  <text x="552" y="232" font-size="12" fill="#64748b">修正目標或策略</text>
+  <text x="552" y="212" font-size="12" fill="#57534e">根據分析結果</text>
+  <text x="552" y="232" font-size="12" fill="#57534e">修正目標或策略</text>
   <line x1="548" y1="248" x2="732" y2="248" stroke="#f0ede6" stroke-width="1"/>
   <text x="552" y="268" font-size="12" fill="#78716c">→ 增加一對一陪伴</text>
   <text x="552" y="288" font-size="12" fill="#78716c">→ 聯繫家屬增加探視</text>

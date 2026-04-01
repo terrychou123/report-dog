@@ -34,7 +34,7 @@
   <line x1="32" y1="262" x2="186" y2="262" stroke="#dedad3" stroke-width="1"/>
 
   <rect x="32" y="272" width="12" height="12" rx="3" fill="#a8a29e"/>
-  <text x="52" y="283" font-size="12" fill="#64748b">啟動月行政會議</text>
+  <text x="52" y="283" font-size="12" fill="#57534e">啟動月行政會議</text>
   <text x="52" y="300" font-size="10" fill="#94a3b8">對應第 25 條</text>
 
   <!-- Q2 欄 -->
@@ -62,7 +62,7 @@
   <line x1="220" y1="262" x2="374" y2="262" stroke="#dedad3" stroke-width="1"/>
 
   <rect x="220" y="272" width="12" height="12" rx="3" fill="#a8a29e"/>
-  <text x="240" y="283" font-size="12" fill="#64748b">核算第一季留任人數</text>
+  <text x="240" y="283" font-size="12" fill="#57534e">核算第一季留任人數</text>
   <text x="240" y="300" font-size="10" fill="#94a3b8">對應第 30 條</text>
 
   <!-- Q3 欄 -->
@@ -90,7 +90,7 @@
   <line x1="408" y1="262" x2="562" y2="262" stroke="#dedad3" stroke-width="1"/>
 
   <rect x="408" y="272" width="12" height="12" rx="3" fill="#a8a29e"/>
-  <text x="428" y="283" font-size="12" fill="#64748b">主任管理訓練 4 小時</text>
+  <text x="428" y="283" font-size="12" fill="#57534e">主任管理訓練 4 小時</text>
   <text x="428" y="300" font-size="10" fill="#94a3b8">對應第 31 條</text>
 
   <!-- Q4 欄 -->
