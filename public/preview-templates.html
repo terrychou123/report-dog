@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Template 視覺微調預覽（第四輪）</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #f8f7f0; font-family: 'Noto Sans TC', sans-serif; padding: 32px 24px; }
+    h1 { font-size: 22px; font-weight: 700; color: #1e293b; margin-bottom: 8px; }
+    .subtitle { font-size: 14px; color: #57534e; margin-bottom: 32px; }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      background: #57534e;
+      display: inline-block;
+      padding: 3px 12px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+    }
+    .section-title.passed { background: #16a34a; }
+    .section-title.updated { background: #d97706; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 28px;
+      margin-bottom: 48px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 14px 18px 10px;
+      border-bottom: 1px solid #f0efe8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .card-meta {
+      font-size: 12px;
+      color: #a8a29e;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      padding: 6px 8px;
+      font-size: 11px;
+      color: #78716c;
+    }
+    .check-item { display: flex; gap: 4px; align-items: center; padding: 2px 4px; }
+    .check-item.pass { color: #16a34a; }
+    .check-item.fail { color: #dc2626; }
+
+    hr { border: none; border-top: 2px solid #e8e6de; margin: 16px 0 32px; }
+  </style>
+</head>
+<body>
+  <h1>SVG Template 視覺微調預覽（第四輪）</h1>
+  <p class="subtitle">時間軸間距加大、副標放大、卡片縮短、PDCA 改填充弧形箭頭 · 共 4 張 SVG</p>
+
+  <div class="section-title updated">→ 第四輪微調</div>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-timeline.svg — 時程甘特圖</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/blog/template-timeline.svg" alt="template-timeline">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 卡片與圓形間距 12→20px</span>
+        <span class="check-item pass">✓ 上方卡片上移 8px</span>
+        <span class="check-item pass">✓ 下方卡片下移 8px</span>
+        <span class="check-item pass">✓ 下方卡片文字上下置中</span>
+        <span class="check-item pass">✓ 上下整體邊距各 47px</span>
+        <span class="check-item pass">✓ 軸線 cy=289 不變</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-checklist.svg — 檢核表</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/blog/template-checklist.svg" alt="template-checklist">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 副標字級 20→23px</span>
+        <span class="check-item pass">✓ 副標與標題視覺等長</span>
+        <span class="check-item pass">✓ 標題 30px 不變</span>
+        <span class="check-item pass">✓ 其他元素不變</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-categories.svg — 分類卡片</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/blog/template-categories.svg" alt="template-categories">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 上排卡片 h=168（縮 10px）</span>
+        <span class="check-item pass">✓ 下排卡片 h=162（縮 10px）</span>
+        <span class="check-item pass">✓ 上排 y=104（+10px）</span>
+        <span class="check-item pass">✓ 下排 y=288（不變）</span>
+        <span class="check-item pass">✓ 整體邊距各 30px</span>
+        <span class="check-item pass">✓ 下排底 450，距浮水印 30px</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-pdca.svg — PDCA 循環圖</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/blog/template-pdca.svg" alt="template-pdca">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 環改為 4 個填充弧形箭頭</span>
+        <span class="check-item pass">✓ 外半徑 130，內半徑 75</span>
+        <span class="check-item pass">✓ 箭尖延伸至 r=142</span>
+        <span class="check-item pass">✓ 行動/計劃下移 34px（y=130）</span>
+        <span class="check-item pass">✓ 執行/查核位置不變</span>
+        <span class="check-item pass">✓ 中央白圓 r=72 保留</span>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section-title passed">✓ 對照基準（未調整）</div>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-list-4.svg — 直列清單（4列）</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/blog/template-list-4.svg" alt="template-list-4">
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-flow-3.svg — 流程圖（3步）</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/blog/template-flow-3.svg" alt="template-flow-3">
+    </div>
+  </div>
+
+  <p style="font-size:12px;color:#a8a29e;text-align:center;padding:16px 0;">
+    預覽路徑：/blog/*.svg · 請在 Next.js dev server 下開啟此頁（npm run dev）
+  </p>
+</body>
+</html>

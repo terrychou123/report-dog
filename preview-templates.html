@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Template 一致性預覽</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #f8f7f0; font-family: 'Noto Sans TC', sans-serif; padding: 32px 24px; }
+    h1 { font-size: 22px; font-weight: 700; color: #1e293b; margin-bottom: 8px; }
+    .subtitle { font-size: 14px; color: #57534e; margin-bottom: 32px; }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      background: #57534e;
+      display: inline-block;
+      padding: 3px 12px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+    }
+    .section-title.passed { background: #16a34a; }
+    .section-title.checking { background: #d97706; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 28px;
+      margin-bottom: 48px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 14px 18px 10px;
+      border-bottom: 1px solid #f0efe8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .card-meta {
+      font-size: 12px;
+      color: #a8a29e;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      padding: 4px 4px;
+      font-size: 11px;
+      color: #78716c;
+    }
+    .check-item { display: flex; gap: 4px; align-items: center; padding: 2px 4px; }
+    .check-item.pass { color: #16a34a; }
+    .check-item.fail { color: #dc2626; }
+
+    hr { border: none; border-top: 2px solid #e8e6de; margin: 16px 0 32px; }
+  </style>
+</head>
+<body>
+  <h1>SVG Template 一致性預覽</h1>
+  <p class="subtitle">對照基準（已通過）vs 修正後的 4 種新模板 · 目視確認風格一致性</p>
+
+  <!-- 對照基準 -->
+  <div class="section-title passed">✓ 對照基準（已通過一致性檢測）</div>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-flow-3.svg — 流程圖（3步）</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/public/blog/template-flow-3.svg" alt="template-flow-3">
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-list-4.svg — 直列清單（4列）</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/public/blog/template-list-4.svg" alt="template-list-4">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 修正後的模板 -->
+  <div class="section-title checking">→ 修正後（待確認）</div>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-timeline.svg — 時程甘特圖</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/public/blog/template-timeline.svg" alt="template-timeline">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 800×500</span>
+        <span class="check-item pass">✓ 浮水印 y=480 #d97706</span>
+        <span class="check-item pass">✓ 所有節點數字白色</span>
+        <span class="check-item pass">✓ 數字字級 20px（+2px）</span>
+        <span class="check-item pass">✓ 卡片 rx=12</span>
+        <span class="check-item pass">✓ 分隔線 x1=40 x2=760</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-checklist.svg — 檢核表</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/public/blog/template-checklist.svg" alt="template-checklist">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 800×500</span>
+        <span class="check-item pass">✓ 浮水印 y=480 #d97706</span>
+        <span class="check-item pass">✓ 主標題 32px（統一）</span>
+        <span class="check-item pass">✓ 副標題 22px（統一）</span>
+        <span class="check-item pass">✓ SVG path 取代 ✓/○</span>
+        <span class="check-item pass">✓ Noto Sans TC 統一</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-categories.svg — 分類卡片</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/public/blog/template-categories.svg" alt="template-categories">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 800×500</span>
+        <span class="check-item pass">✓ 浮水印 y=480 #d97706</span>
+        <span class="check-item pass">✓ 副標題 22px（統一）</span>
+        <span class="check-item pass">✓ 分隔線 y=94（對齊 pdca）</span>
+        <span class="check-item pass">✓ 下排卡片文字置中對齊</span>
+        <span class="check-item pass">✓ Noto Sans TC 統一</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-name">template-pdca.svg — PDCA 循環圖</span>
+        <span class="card-meta">800×500</span>
+      </div>
+      <img src="/public/blog/template-pdca.svg" alt="template-pdca">
+      <div class="checklist-grid">
+        <span class="check-item pass">✓ 800×500</span>
+        <span class="check-item pass">✓ 浮水印 y=480 #d97706</span>
+        <span class="check-item pass">✓ 弧段無箭頭（純同心環）</span>
+        <span class="check-item pass">✓ 副標題 22px（統一）</span>
+        <span class="check-item pass">✓ Cycle 字級 22px</span>
+        <span class="check-item pass">✓ 柔和大地色系</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 浮水印一致性確認 -->
+  <hr>
+  <div class="section-title passed">✓ 浮水印一致性（全部 6 張）</div>
+  <div style="background:#fff;border-radius:12px;padding:16px 20px;font-size:13px;color:#57534e;line-height:2;box-shadow:0 1px 4px rgba(0,0,0,0.08);margin-bottom:48px;">
+    <strong style="color:#1e293b;">位置：</strong>x=760, y=480 · text-anchor=end<br>
+    <strong style="color:#1e293b;">樣式：</strong>font-size=16px · fill=#d97706 · font-weight=400<br>
+    <strong style="color:#1e293b;">文字：</strong>報告汪 reportwang.com<br>
+    <strong style="color:#16a34a;">✓ 六張圖完全一致，無需修改</strong>
+  </div>
+
+  <p style="font-size:12px;color:#a8a29e;text-align:center;padding:16px 0;">
+    預覽路徑：/public/blog/template-*.svg · 請在 Next.js dev server 下開啟此頁（npm run dev）
+  </p>
+</body>
+</html>
