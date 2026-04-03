@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { InferSelectModel } from "drizzle-orm";
 import { blogPosts } from "@/db/schema";
@@ -13,8 +13,10 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
-import { ArrowLeft, Bold, Italic, Strikethrough, Code, Heading1, Heading2, Heading3, List, ListOrdered, Quote, Minus, ImageIcon, Loader2 } from "lucide-react";
+import { ArrowLeft, Bold, Italic, Strikethrough, Code, Heading1, Heading2, Heading3, List, ListOrdered, Quote, Minus, ImageIcon, Loader2, Code2, Eye, EyeOff } from "lucide-react";
 import Link from "next/link";
+import sanitizeHtml from "sanitize-html";
+import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
 
 type BlogPost = InferSelectModel<typeof blogPosts>;
 
@@ -27,6 +29,16 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
   const [isSaving, setIsSaving] = useState(false);
   const [slugChanged, setSlugChanged] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
+  // HTML 原始碼模式
+  const [htmlMode, setHtmlMode] = useState(false);
+  const [htmlContent, setHtmlContent] = useState(post.content ?? "");
+  // HTML 模式下是否顯示即時預覽面板（預設開啟）
+  const [showPreview, setShowPreview] = useState(true);
+  // 預覽面板用的 sanitized HTML（防止預覽執行 script / 事件處理器）
+  const sanitizedPreview = useMemo(
+    () => sanitizeHtml(htmlContent, blogSanitizeOptions),
+    [htmlContent]
+  );
   // 隱藏的 file input ref，用於觸發圖片選擇
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -93,14 +105,33 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
     [post.slug]
   );
 
+  /** 切換 HTML / 視覺模式，並同步內容 */
+  function toggleHtmlMode() {
+    if (!htmlMode) {
+      // 視覺 → HTML：將 TipTap 內容匯出為 HTML
+      setHtmlContent(editor?.getHTML() ?? "");
+    } else {
+      // HTML → 視覺：若包含 SVG 則警告使用者切換會遺失 SVG
+      if (htmlContent.includes("<svg")) {
+        toast.warning("內容含有 SVG，切換回視覺模式將遺失 SVG。建議保持 HTML 模式直接儲存。");
+        return;
+      }
+      // 將 textarea 內容寫回 TipTap
+      editor?.commands.setContent(htmlContent);
+    }
+    setHtmlMode((prev) => !prev);
+  }
+
   async function save(status: "draft" | "published") {
     setIsSaving(true);
     try {
+      // HTML 模式直接用 textarea 值，視覺模式用 TipTap 的 getHTML()
+      const content = htmlMode ? htmlContent : (editor?.getHTML() ?? null);
       const body = {
         slug: form.slug,
         title: form.title,
         excerpt: form.excerpt || null,
-        content: editor?.getHTML() ?? null,
+        content,
         coverImageUrl: form.coverImageUrl || null,
         category: form.category || null,
         tags: form.tags
@@ -193,11 +224,12 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
               <Label>內容</Label>
               <div className="mt-1 border rounded-md overflow-hidden tiptap-blog">
                 {/* Toolbar */}
-                <div className="border-b bg-muted/30 p-2 flex flex-wrap gap-1">
+                <div className="border-b bg-muted/30 p-2 flex flex-wrap gap-1 items-center">
                   <ToolbarButton
                     onClick={() => editor?.chain().focus().toggleBold().run()}
                     active={editor?.isActive("bold")}
                     title="粗體"
+                    disabled={htmlMode}
                   >
                     <Bold className="w-4 h-4" />
                   </ToolbarButton>
@@ -205,6 +237,7 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleItalic().run()}
                     active={editor?.isActive("italic")}
                     title="斜體"
+                    disabled={htmlMode}
                   >
                     <Italic className="w-4 h-4" />
                   </ToolbarButton>
@@ -212,6 +245,7 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleStrike().run()}
                     active={editor?.isActive("strike")}
                     title="刪除線"
+                    disabled={htmlMode}
                   >
                     <Strikethrough className="w-4 h-4" />
                   </ToolbarButton>
@@ -219,14 +253,16 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleCode().run()}
                     active={editor?.isActive("code")}
                     title="行內程式碼"
+                    disabled={htmlMode}
                   >
                     <Code className="w-4 h-4" />
                   </ToolbarButton>
-                  <div className="w-px bg-border mx-1" />
+                  <div className="w-px bg-border mx-1 self-stretch" />
                   <ToolbarButton
                     onClick={() => editor?.chain().focus().toggleHeading({ level: 1 }).run()}
                     active={editor?.isActive("heading", { level: 1 })}
                     title="H1"
+                    disabled={htmlMode}
                   >
                     <Heading1 className="w-4 h-4" />
                   </ToolbarButton>
@@ -234,6 +270,7 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleHeading({ level: 2 }).run()}
                     active={editor?.isActive("heading", { level: 2 })}
                     title="H2"
+                    disabled={htmlMode}
                   >
                     <Heading2 className="w-4 h-4" />
                   </ToolbarButton>
@@ -241,14 +278,16 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleHeading({ level: 3 }).run()}
                     active={editor?.isActive("heading", { level: 3 })}
                     title="H3"
+                    disabled={htmlMode}
                   >
                     <Heading3 className="w-4 h-4" />
                   </ToolbarButton>
-                  <div className="w-px bg-border mx-1" />
+                  <div className="w-px bg-border mx-1 self-stretch" />
                   <ToolbarButton
                     onClick={() => editor?.chain().focus().toggleBulletList().run()}
                     active={editor?.isActive("bulletList")}
                     title="項目清單"
+                    disabled={htmlMode}
                   >
                     <List className="w-4 h-4" />
                   </ToolbarButton>
@@ -256,6 +295,7 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleOrderedList().run()}
                     active={editor?.isActive("orderedList")}
                     title="有序清單"
+                    disabled={htmlMode}
                   >
                     <ListOrdered className="w-4 h-4" />
                   </ToolbarButton>
@@ -263,21 +303,23 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                     onClick={() => editor?.chain().focus().toggleBlockquote().run()}
                     active={editor?.isActive("blockquote")}
                     title="引用"
+                    disabled={htmlMode}
                   >
                     <Quote className="w-4 h-4" />
                   </ToolbarButton>
                   <ToolbarButton
                     onClick={() => editor?.chain().focus().setHorizontalRule().run()}
                     title="水平線"
+                    disabled={htmlMode}
                   >
                     <Minus className="w-4 h-4" />
                   </ToolbarButton>
-                  <div className="w-px bg-border mx-1" />
+                  <div className="w-px bg-border mx-1 self-stretch" />
                   {/* 圖片上傳按鈕 */}
                   <ToolbarButton
                     onClick={() => fileInputRef.current?.click()}
                     title="插入圖片"
-                    disabled={isUploading}
+                    disabled={isUploading || htmlMode}
                   >
                     {isUploading ? (
                       <Loader2 className="w-4 h-4 animate-spin" />
@@ -285,8 +327,49 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
                       <ImageIcon className="w-4 h-4" />
                     )}
                   </ToolbarButton>
+                  {/* HTML 模式切換按鈕群，靠右對齊 */}
+                  <div className="ml-auto" />
+                  <div className="w-px bg-border mx-1 self-stretch" />
+                  {/* 預覽切換按鈕（僅 HTML 模式顯示） */}
+                  {htmlMode && (
+                    <ToolbarButton
+                      onClick={() => setShowPreview((v) => !v)}
+                      active={showPreview}
+                      title={showPreview ? "隱藏預覽" : "顯示即時預覽"}
+                    >
+                      {showPreview ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                    </ToolbarButton>
+                  )}
+                  <ToolbarButton
+                    onClick={toggleHtmlMode}
+                    active={htmlMode}
+                    title={htmlMode ? "切換回視覺編輯" : "編輯 HTML 原始碼"}
+                  >
+                    <Code2 className="w-4 h-4" />
+                  </ToolbarButton>
                 </div>
-                <EditorContent editor={editor} />
+                {/* 視覺編輯模式 */}
+                {!htmlMode && <EditorContent editor={editor} />}
+                {/* HTML 原始碼模式：左右分欄（程式碼 + 即時預覽） */}
+                {htmlMode && (
+                  <div className={showPreview ? "grid grid-cols-2 divide-x" : ""}>
+                    {/* 左側：HTML 原始碼 textarea */}
+                    <Textarea
+                      value={htmlContent}
+                      onChange={(e) => setHtmlContent(e.target.value)}
+                      className="min-h-[400px] p-4 font-mono text-sm rounded-none border-0 resize-none focus-visible:ring-0"
+                      placeholder="在此輸入 HTML 原始碼..."
+                      spellCheck={false}
+                    />
+                    {/* 右側：即時渲染預覽 */}
+                    {showPreview && (
+                      <div
+                        className="min-h-[400px] p-4 overflow-auto tiptap-blog prose prose-sm max-w-none"
+                        dangerouslySetInnerHTML={{ __html: sanitizedPreview }}
+                      />
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           </div>

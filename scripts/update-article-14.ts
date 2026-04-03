@@ -12,49 +12,41 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import { blogPosts } from "../db/schema";
 import { eq } from "drizzle-orm";
-
-function getDbUrl(raw = process.env.DATABASE_URL) {
-  if (!raw) throw new Error("DATABASE_URL 未設定，請確認 .env.local");
-  const match = raw.match(/^(postgresql:\/\/[^:]+):([^@]+)@(.+)$/);
-  if (match) {
-    const [, prefix, password, suffix] = match;
-    return `${prefix}:${encodeURIComponent(password)}@${suffix}`;
-  }
-  return raw;
-}
+import { getDbUrl } from "../db/index";
 
 async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
+  try {
+    const filePath = join(process.cwd(), "scripts/blog-posts/article-14-daycare-role-division.json");
+    const raw = readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw);
 
-  const filePath = join(process.cwd(), "scripts/blog-posts/article-14-daycare-role-division.json");
-  const raw = readFileSync(filePath, "utf-8");
-  const data = JSON.parse(raw);
+    console.log("🔄 更新 article-14 角色分工文章...\n");
 
-  console.log("🔄 更新 article-14 角色分工文章...\n");
+    const [updated] = await db
+      .update(blogPosts)
+      .set({
+        title: data.title,
+        excerpt: data.excerpt ?? null,
+        content: data.content ?? null,
+        seoTitle: data.seoTitle ?? null,
+        seoDescription: data.seoDescription ?? null,
+        tags: data.tags ?? null,
+      })
+      .where(eq(blogPosts.slug, data.slug))
+      .returning({ id: blogPosts.id, slug: blogPosts.slug });
 
-  const [updated] = await db
-    .update(blogPosts)
-    .set({
-      title: data.title,
-      excerpt: data.excerpt ?? null,
-      content: data.content ?? null,
-      seoTitle: data.seoTitle ?? null,
-      seoDescription: data.seoDescription ?? null,
-      tags: data.tags ?? null,
-    })
-    .where(eq(blogPosts.slug, data.slug))
-    .returning({ id: blogPosts.id, slug: blogPosts.slug });
-
-  if (updated) {
-    console.log(`✅ 已更新：${data.title}`);
-    console.log(`   slug: ${updated.slug}`);
-    console.log(`   id: ${updated.id}`);
-  } else {
-    console.log(`⚠️  找不到 slug: ${data.slug}，請確認資料庫中是否存在此文章`);
+    if (updated) {
+      console.log(`✅ 已更新：${data.title}`);
+      console.log(`   slug: ${updated.slug}`);
+      console.log(`   id: ${updated.id}`);
+    } else {
+      console.log(`⚠️  找不到 slug: ${data.slug}，請確認資料庫中是否存在此文章`);
+    }
+  } finally {
+    await client.end();
   }
-
-  await client.end();
 }
 
 main().catch((err) => {

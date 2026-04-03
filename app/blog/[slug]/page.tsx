@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
+import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -30,20 +31,7 @@ async function getPost(slug: string) {
   return {
     ...post,
     content: post.content
-      ? sanitizeHtml(post.content, {
-          allowedTags: sanitizeHtml.defaults.allowedTags.concat([
-            "img",
-            "figure",
-            "figcaption",
-          ]),
-          allowedAttributes: {
-            ...sanitizeHtml.defaults.allowedAttributes,
-            img: ["src", "alt", "style", "width", "height"],
-            figure: ["style"],
-            figcaption: ["style"],
-          },
-          allowProtocolRelative: true,
-        })
+      ? sanitizeHtml(post.content, blogSanitizeOptions)
       : post.content,
   };
 }
