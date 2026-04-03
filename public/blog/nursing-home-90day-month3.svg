@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">第一個月行動：D-90 到 D-60</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">打好地基，優先盤點 A 構面</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 任務 1 -->
+  <rect x="40" y="114" width="340" height="160" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="40" y="114" width="340" height="40" rx="10" fill="#d97706"/>
+  <rect x="40" y="134" width="340" height="20" fill="#d97706"/>
+  <text x="210" y="139" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務1：A構面文件盤點</text>
+  <text x="58" y="170" font-size="14" fill="#57534e">A1 工作手冊 — 每年審視修訂紀錄</text>
+  <text x="58" y="192" font-size="14" fill="#57534e">A3 業務計畫 — 短中長程3年計畫</text>
+  <text x="58" y="214" font-size="14" fill="#57534e">A5 住民保護 — 性侵害防治辦法</text>
+  <text x="58" y="236" font-size="14" fill="#57534e">A6 危機管理 — 3項以上風險計畫</text>
+  <text x="58" y="258" font-size="14" fill="#d97706" font-weight="600">每半年分析紀錄是否完整？</text>
+
+  <!-- 任務 2 -->
+  <rect x="420" y="114" width="340" height="160" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="420" y="114" width="340" height="40" rx="10" fill="#78716c"/>
+  <rect x="420" y="134" width="340" height="20" fill="#78716c"/>
+  <text x="590" y="139" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務2：人力配置計算</text>
+  <text x="438" y="170" font-size="14" fill="#57534e">A9 護理 — 長照1:15 養護1:20</text>
+  <text x="438" y="192" font-size="14" fill="#57534e">A11 照服員 — 日班夜班各比例</text>
+  <text x="438" y="214" font-size="14" fill="#57534e">外籍照服員 — 不超過本國籍總數</text>
+  <text x="438" y="236" font-size="14" fill="#57534e">A8 社工 — 1:100（安養1:80）</text>
+  <text x="438" y="258" font-size="14" fill="#78716c" font-weight="600">A7 業務負責人資格（一級必要）</text>
+
+  <!-- 任務 3 -->
+  <rect x="40" y="290" width="340" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="40" y="290" width="340" height="40" rx="10" fill="#57534e"/>
+  <rect x="40" y="310" width="340" height="20" fill="#57534e"/>
+  <text x="210" y="315" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務3：在職訓練時數盤點</text>
+  <text x="58" y="348" font-size="14" fill="#57534e">A14 — 每人每年20小時</text>
+  <text x="58" y="370" font-size="14" fill="#57534e">感染管制至少4小時須獨立記錄</text>
+  <text x="58" y="392" font-size="14" fill="#57534e">護理師/照服員須有急救訓練</text>
+  <text x="58" y="414" font-size="14" fill="#d97706" font-weight="600">不足者立即安排補訓！</text>
+
+  <!-- 任務 4 -->
+  <rect x="420" y="290" width="340" height="150" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="420" y="290" width="340" height="40" rx="10" fill="#94a3b8"/>
+  <rect x="420" y="310" width="340" height="20" fill="#94a3b8"/>
+  <text x="590" y="315" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務4：前次缺失改善確認</text>
+  <text x="438" y="348" font-size="14" fill="#57534e">A4 — 過去4年查核缺失100%改善</text>
+  <text x="438" y="370" font-size="14" fill="#57534e">衛福/消防/建管/勞工均須確認</text>
+  <text x="438" y="392" font-size="14" fill="#57534e">E1 — 前次評鑑建議改善達80%</text>
+  <text x="438" y="414" font-size="14" fill="#57534e">逐一標注改善狀態並補齊</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

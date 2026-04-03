@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#faf9f7"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">個案紀錄4大核心要素</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">評鑑委員必查的紀錄品質標準</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Step 1 卡片 (琥珀 #d97706) -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="201" r="44" fill="#fef3c7"/>
+  <text x="115" y="190" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="219" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <text x="115" y="299" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">完整格式</text>
+  <text x="115" y="327" text-anchor="middle" font-size="15" fill="#57534e">日期時間項目</text>
+  <text x="115" y="349" text-anchor="middle" font-size="15" fill="#57534e">執行狀況記載</text>
+  <rect x="41" y="377" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="401" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">格式規範</text>
+
+  <!-- 箭頭 1→2 -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,273 218,279 202,285" fill="#c4bfb8"/>
+
+  <!-- Step 2 卡片 (暖灰 #78716c) -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="201" r="44" fill="#f5f5f4"/>
+  <text x="305" y="190" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="219" text-anchor="middle" font-size="29" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="299" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">照服員簽名</text>
+  <text x="305" y="327" text-anchor="middle" font-size="15" fill="#57534e">每次服務後</text>
+  <text x="305" y="349" text-anchor="middle" font-size="15" fill="#57534e">親筆或電子簽</text>
+  <rect x="231" y="377" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="401" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">不可省略</text>
+
+  <!-- 箭頭 2→3 -->
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,273 408,279 392,285" fill="#c4bfb8"/>
+
+  <!-- Step 3 卡片 (深棕 #57534e) -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="201" r="44" fill="#f5f0eb"/>
+  <text x="495" y="190" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="219" text-anchor="middle" font-size="29" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="299" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">異常記載</text>
+  <text x="495" y="327" text-anchor="middle" font-size="15" fill="#57534e">特殊情況說明</text>
+  <text x="495" y="349" text-anchor="middle" font-size="15" fill="#57534e">即時回報主管</text>
+  <rect x="421" y="377" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="401" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">完整紀錄</text>
+
+  <!-- 箭頭 3→4 -->
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,273 598,279 582,285" fill="#c4bfb8"/>
+
+  <!-- Step 4 卡片 (淺灰 #a8a29e) -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="201" r="44" fill="#f5f5f4"/>
+  <text x="685" y="190" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="219" text-anchor="middle" font-size="29" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="299" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">保存期限</text>
+  <text x="685" y="327" text-anchor="middle" font-size="15" fill="#57534e">依法規定保存</text>
+  <text x="685" y="349" text-anchor="middle" font-size="15" fill="#57534e">電子/紙本備份</text>
+  <rect x="611" y="377" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="401" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">可查可調</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

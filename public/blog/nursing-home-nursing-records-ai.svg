@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">AI 輔助護理紀錄撰寫流程</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">從事件描述到評鑑級護理紀錄，三步驟</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟 1 -->
+  <rect x="40" y="130" width="200" height="200" rx="12" fill="#d97706"/>
+  <text x="140" y="172" font-size="48" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+  <text x="140" y="208" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">輸入事件</text>
+  <text x="140" y="234" font-size="14" fill="#fff8e7" text-anchor="middle">護理師填入</text>
+  <text x="140" y="256" font-size="14" fill="#fff8e7" text-anchor="middle">事件基本描述</text>
+  <text x="140" y="278" font-size="14" fill="#fff8e7" text-anchor="middle">時間/地點/狀況</text>
+  <text x="140" y="300" font-size="14" fill="#fff8e7" text-anchor="middle">初步處置</text>
+
+  <!-- 箭頭 1 -->
+  <path d="M 260 230 L 310 230" stroke="#d97706" stroke-width="3" fill="none"/>
+  <polygon points="308,222 320,230 308,238" fill="#d97706"/>
+
+  <!-- 步驟 2 -->
+  <rect x="320" y="130" width="200" height="200" rx="12" fill="#78716c"/>
+  <text x="420" y="172" font-size="48" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+  <text x="420" y="208" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">AI 生成初稿</text>
+  <text x="420" y="234" font-size="14" fill="#e7e5e4" text-anchor="middle">自動套用 SOAP</text>
+  <text x="420" y="256" font-size="14" fill="#e7e5e4" text-anchor="middle">格式組織紀錄</text>
+  <text x="420" y="278" font-size="14" fill="#e7e5e4" text-anchor="middle">提示可能原因</text>
+  <text x="420" y="300" font-size="14" fill="#e7e5e4" text-anchor="middle">建議改善方向</text>
+
+  <!-- 箭頭 2 -->
+  <path d="M 540 230 L 590 230" stroke="#78716c" stroke-width="3" fill="none"/>
+  <polygon points="588,222 600,230 588,238" fill="#78716c"/>
+
+  <!-- 步驟 3 -->
+  <rect x="600" y="130" width="160" height="200" rx="12" fill="#57534e"/>
+  <text x="680" y="172" font-size="48" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+  <text x="680" y="208" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">確認儲存</text>
+  <text x="680" y="234" font-size="14" fill="#e7e5e4" text-anchor="middle">護理師核對</text>
+  <text x="680" y="256" font-size="14" fill="#e7e5e4" text-anchor="middle">補充細節</text>
+  <text x="680" y="278" font-size="14" fill="#e7e5e4" text-anchor="middle">一鍵儲存</text>
+  <text x="680" y="300" font-size="14" fill="#e7e5e4" text-anchor="middle">系統歸檔</text>
+
+  <!-- 底部功能說明 -->
+  <rect x="40" y="355" width="720" height="100" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <text x="400" y="380" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">報告汪 AI 護理紀錄功能還包含：</text>
+  <text x="100" y="405" font-size="14" fill="#57534e">自動提醒 B2 評值到期日</text>
+  <text x="100" y="427" font-size="14" fill="#57534e">B16 同意書更新到期提醒</text>
+  <text x="430" y="405" font-size="14" fill="#57534e">半年分析報告數據自動彙整</text>
+  <text x="430" y="427" font-size="14" fill="#57534e">B19 體重變化預警通知</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

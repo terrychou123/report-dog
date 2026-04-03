@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">A3 業務計畫書架構</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">年度計畫與中長程計畫必備要素</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 卡片 1：年度業務計畫 -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">年度業務計畫（當年度）</text>
+  <text x="60" y="172" font-size="14" fill="#57534e">• 前一年度完成訂定並核定</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 包含年度目標與執行策略</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 每季定期追蹤執行進度</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 須有董事會核准紀錄</text>
+  <rect x="60" y="248" width="150" height="20" rx="10" fill="#d97706" opacity="0.15"/>
+  <text x="135" y="262" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">前1年訂定</text>
+
+  <!-- 卡片 2：中長程計畫 -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">中長程發展計畫（3年以上）</text>
+  <text x="434" y="172" font-size="14" fill="#57534e">• 機構願景與服務發展方向</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 人力資源發展規劃</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 硬體設施改善計畫</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">• 財務永續規劃</text>
+  <rect x="434" y="248" width="150" height="20" rx="10" fill="#78716c" opacity="0.15"/>
+  <text x="509" y="262" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">涵蓋3年以上</text>
+
+  <!-- 卡片 3：A4 缺失改善 -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">A4 查核缺失改善</text>
+  <text x="60" y="358" font-size="14" fill="#57534e">• 改善率須達 100%</text>
+  <text x="60" y="378" font-size="14" fill="#57534e">• 每項缺失有負責人與期限</text>
+  <text x="60" y="398" font-size="14" fill="#57534e">• 改善後書面佐證驗證</text>
+  <text x="60" y="418" font-size="14" fill="#57534e">• 含主管機關及內部稽核</text>
+  <rect x="60" y="420" width="150" height="20" rx="10" fill="#57534e" opacity="0.15"/>
+  <text x="135" y="434" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">達成率 100%</text>
+
+  <!-- 卡片 4：E1/E2 -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#94a3b8"/>
+  <rect x="414" y="312" width="346" height="20" fill="#94a3b8"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">E1 前次改善 / E2 創新措施</text>
+  <text x="434" y="358" font-size="14" fill="#57534e">• E1：前次評鑑建議改善 ≥80%</text>
+  <text x="434" y="378" font-size="14" fill="#57534e">• E1：逐條列表呈現改善成果</text>
+  <text x="434" y="398" font-size="14" fill="#57534e">• E2：至少 1 項創新服務措施</text>
+  <text x="434" y="418" font-size="14" fill="#57534e">• E2：含問題→方案→成效論述</text>
+  <rect x="434" y="420" width="150" height="20" rx="10" fill="#94a3b8" opacity="0.2"/>
+  <text x="509" y="434" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">加分關鍵</text>
+
+  <!-- 水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

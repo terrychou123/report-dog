@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">E 區塊加分三大策略</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">衝刺優等的核心戰場</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- E1 -->
+  <rect x="40" y="118" width="720" height="96" rx="12" fill="#d97706"/>
+  <text x="112" y="148" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff">E1</text>
+  <text x="155" y="144" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff">前次評鑑建議事項改善</text>
+  <text x="155" y="168" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd">改善比例達 80% 以上給分，改善 100% 且有具體成效加分更多</text>
+  <text x="155" y="190" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd">步驟：取得前次報告書 → 逐項列出建議 → 制定改善計畫 → 留存佐證 → 計算比例</text>
+  <text x="155" y="208" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd">第一次接受評鑑者，以最近一次地方政府評鑑建議為準</text>
+  <!-- E2 -->
+  <rect x="40" y="232" width="720" height="120" rx="12" fill="#78716c"/>
+  <text x="112" y="262" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff">E2</text>
+  <text x="155" y="258" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff">創新或配合政策服務（每項 0.5 分，最多 3 分）</text>
+  <text x="155" y="282" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8">可計分項目（各 0.5 分）：</text>
+  <text x="155" y="304" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">&#9654; 加入防災社區計畫  &#9654; 每年演練 4 次（超過法定 2 次）</text>
+  <text x="155" y="324" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">&#9654; 外籍照服員每年在職訓練 6 小時以上（70% 以上）  &#9654; 協助緊急安置弱勢個案</text>
+  <text x="155" y="344" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">最容易達成：多做 2 次演練（0.5 分）+ 外籍訓練達標（0.5 分）= 1 分</text>
+  <!-- E3 -->
+  <rect x="40" y="370" width="720" height="72" rx="12" fill="#94a3b8"/>
+  <text x="112" y="398" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff">E3</text>
+  <text x="155" y="394" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff">違規及重大負面事件扣分（在總分外扣）</text>
+  <text x="155" y="420" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0">違規收容、對住民不當對待、性侵害等重大事件均會扣分</text>
+  <text x="155" y="436" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0">零違規是維持優等的必要前提——衝刺加分同時，確保沒有扣分事項</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

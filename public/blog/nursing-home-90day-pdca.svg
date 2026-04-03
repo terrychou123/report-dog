@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">PDCA 持續改善：評鑑後不鬆懈</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">把評鑑準備轉化為日常品質管理機制</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- PDCA 循環四個方塊 -->
+  <!-- P - Plan -->
+  <rect x="80" y="130" width="280" height="140" rx="12" fill="#d97706" opacity="0.9"/>
+  <text x="220" y="175" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">P</text>
+  <text x="220" y="200" font-size="18" fill="#ffffff" font-weight="600" text-anchor="middle">Plan 規劃</text>
+  <text x="220" y="224" font-size="14" fill="#fff8e7" text-anchor="middle">制定年度評鑑準備計畫</text>
+  <text x="220" y="244" font-size="14" fill="#fff8e7" text-anchor="middle">分配各構面負責人</text>
+  <text x="220" y="262" font-size="14" fill="#fff8e7" text-anchor="middle">設定關鍵時間節點</text>
+
+  <!-- D - Do -->
+  <rect x="440" y="130" width="280" height="140" rx="12" fill="#78716c" opacity="0.9"/>
+  <text x="580" y="175" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">D</text>
+  <text x="580" y="200" font-size="18" fill="#ffffff" font-weight="600" text-anchor="middle">Do 執行</text>
+  <text x="580" y="224" font-size="14" fill="#e7e5e4" text-anchor="middle">按時程完成各月任務</text>
+  <text x="580" y="244" font-size="14" fill="#e7e5e4" text-anchor="middle">文件整理與紀錄補齊</text>
+  <text x="580" y="262" font-size="14" fill="#e7e5e4" text-anchor="middle">人員訓練與演練落實</text>
+
+  <!-- C - Check -->
+  <rect x="80" y="294" width="280" height="140" rx="12" fill="#57534e" opacity="0.9"/>
+  <text x="220" y="339" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">C</text>
+  <text x="220" y="364" font-size="18" fill="#ffffff" font-weight="600" text-anchor="middle">Check 查核</text>
+  <text x="220" y="388" font-size="14" fill="#e7e5e4" text-anchor="middle">定期追蹤進度完成率</text>
+  <text x="220" y="408" font-size="14" fill="#e7e5e4" text-anchor="middle">評鑑後委員回饋整理</text>
+  <text x="220" y="428" font-size="14" fill="#e7e5e4" text-anchor="middle">對照基準逐項自評</text>
+
+  <!-- A - Act -->
+  <rect x="440" y="294" width="280" height="140" rx="12" fill="#94a3b8" opacity="0.9"/>
+  <text x="580" y="339" font-size="28" fill="#1e293b" font-weight="700" text-anchor="middle">A</text>
+  <text x="580" y="364" font-size="18" fill="#1e293b" font-weight="600" text-anchor="middle">Act 改善</text>
+  <text x="580" y="388" font-size="14" fill="#1e293b" text-anchor="middle">缺失項目列入下期計畫</text>
+  <text x="580" y="408" font-size="14" fill="#1e293b" text-anchor="middle">改善措施追蹤執行</text>
+  <text x="580" y="428" font-size="14" fill="#1e293b" text-anchor="middle">更新評鑑準備手冊</text>
+
+  <!-- 箭頭 -->
+  <path d="M 360 200 L 440 200" stroke="#d97706" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 580 270 L 580 294" stroke="#d97706" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 440 364 L 360 364" stroke="#d97706" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 220 294 L 220 270" stroke="#d97706" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

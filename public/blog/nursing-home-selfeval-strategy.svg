@@ -1,0 +1,53 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="29" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">自評表填寫 5 大策略</text>
+  <text x="400" y="59" text-anchor="middle" font-size="22" fill="#57534e">讓評鑑委員一眼看出你的努力</text>
+  <line x1="40" y1="75" x2="760" y2="75" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 標頭 -->
+  <rect x="40" y="88" width="720" height="20" rx="4" fill="#d97706"/>
+
+  <!-- 第1策略 -->
+  <rect x="40" y="118" width="720" height="60" rx="4" fill="#fff"/>
+  <rect x="40" y="118" width="4" height="60" fill="#d97706"/>
+  <rect x="44" y="118" width="60" height="60" fill="#fef3c7"/>
+  <text x="74" y="154" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">①</text>
+  <text x="125" y="143" font-size="15" fill="#1e293b" font-weight="600">先查核一級必要，再填其他項目</text>
+  <text x="125" y="165" font-size="13" fill="#57534e">9 個一級必要項目（A7/A9/A11/C4/C9/C10/C11/C12/C15）必須全部達標，任一未達即嚴重缺失</text>
+
+  <!-- 第2策略 -->
+  <rect x="40" y="191" width="720" height="60" rx="4" fill="#fafaf8"/>
+  <rect x="40" y="191" width="4" height="60" fill="#78716c"/>
+  <rect x="44" y="191" width="60" height="60" fill="#f5f4f0"/>
+  <text x="74" y="227" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">②</text>
+  <text x="125" y="216" font-size="15" fill="#1e293b" font-weight="600">用數字說話，不用模糊描述</text>
+  <text x="125" y="238" font-size="13" fill="#57534e">「每 3 個月召開品質會議，近 4 次會議均如期召開」比「定期召開品質會議」更有說服力</text>
+
+  <!-- 第3策略 -->
+  <rect x="40" y="264" width="720" height="60" rx="4" fill="#fff"/>
+  <rect x="40" y="264" width="4" height="60" fill="#d97706"/>
+  <rect x="44" y="264" width="60" height="60" fill="#fef3c7"/>
+  <text x="74" y="300" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">③</text>
+  <text x="125" y="289" font-size="15" fill="#1e293b" font-weight="600">佐證文件有條理地編排索引</text>
+  <text x="125" y="311" font-size="13" fill="#57534e">自評表中標示「詳見佐證文件第 X 頁」，讓評鑑委員快速找到對應文件，不必翻箱倒柜</text>
+
+  <!-- 第4策略 -->
+  <rect x="40" y="337" width="720" height="60" rx="4" fill="#fafaf8"/>
+  <rect x="40" y="337" width="4" height="60" fill="#78716c"/>
+  <rect x="44" y="337" width="60" height="60" fill="#f5f4f0"/>
+  <text x="74" y="373" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">④</text>
+  <text x="125" y="362" font-size="15" fill="#1e293b" font-weight="600">對二級加強項目加強佐證</text>
+  <text x="125" y="384" font-size="13" fill="#57534e">B2/B10/B25/D1/D6 等 8 個二級加強項目，建議準備 2 倍以上的佐證文件，體現重視程度</text>
+
+  <!-- 第5策略 -->
+  <rect x="40" y="410" width="720" height="60" rx="4" fill="#fff"/>
+  <rect x="40" y="410" width="4" height="60" fill="#d97706"/>
+  <rect x="44" y="410" width="60" height="60" fill="#fef3c7"/>
+  <text x="74" y="446" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">⑤</text>
+  <text x="125" y="435" font-size="15" fill="#1e293b" font-weight="600">E1 前次建議逐項列出改善對照表</text>
+  <text x="125" y="457" font-size="13" fill="#57534e">製作「前次建議 vs 本次改善」對照表，一目了然地展示改善成果，改善率需達 80% 以上</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

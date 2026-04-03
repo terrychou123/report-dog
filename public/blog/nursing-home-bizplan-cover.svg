@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="1192" y="0" width="8" height="630" fill="#d97706"/>
+  <!-- 主標題 -->
+  <rect x="60" y="80" width="700" height="12" rx="6" fill="#d97706" opacity="0.3"/>
+  <text x="60" y="185" font-size="50" fill="#1e293b" font-weight="700">年度業務計畫與中長程</text>
+  <text x="60" y="248" font-size="50" fill="#1e293b" font-weight="700">發展計畫撰寫範例解析</text>
+  <text x="60" y="310" font-size="26" fill="#d97706" font-weight="700">A3 · A4 · E1 · E2 四項指標完整攻略</text>
+  <text x="60" y="355" font-size="22" fill="#57534e">住宿型照顧機構評鑑 · 行政類核心指標</text>
+  <!-- 標籤 -->
+  <rect x="60" y="395" width="180" height="40" rx="20" fill="#d97706"/>
+  <text x="150" y="420" font-size="18" fill="white" text-anchor="middle" font-weight="600">前1年訂定計畫</text>
+  <rect x="256" y="395" width="180" height="40" rx="20" fill="#78716c"/>
+  <text x="346" y="420" font-size="18" fill="white" text-anchor="middle" font-weight="600">3年中長程</text>
+  <rect x="452" y="395" width="180" height="40" rx="20" fill="#57534e"/>
+  <text x="542" y="420" font-size="18" fill="white" text-anchor="middle" font-weight="600">改善達100%</text>
+  <!-- 右側裝飾 -->
+  <rect x="820" y="120" width="320" height="380" rx="20" fill="white" opacity="0.6"/>
+  <text x="980" y="200" font-size="80" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.5">A3</text>
+  <text x="980" y="265" font-size="22" fill="#78716c" text-anchor="middle">年度計畫前1年訂定</text>
+  <line x1="860" y1="290" x2="1100" y2="290" stroke="#a8a29e" stroke-width="1"/>
+  <text x="980" y="330" font-size="18" fill="#57534e" text-anchor="middle">中長程計畫：3 年以上</text>
+  <text x="980" y="360" font-size="18" fill="#57534e" text-anchor="middle">A4 缺失改善：100%</text>
+  <text x="980" y="390" font-size="18" fill="#57534e" text-anchor="middle">E1 前次建議改善：≥80%</text>
+  <text x="980" y="420" font-size="18" fill="#d97706" text-anchor="middle" font-weight="600">E2 創新措施：至少1項</text>
+  <!-- 底部 -->
+  <rect x="60" y="460" width="500" height="3" rx="2" fill="#a8a29e" opacity="0.5"/>
+  <text x="60" y="495" font-size="20" fill="#78716c">報告汪 · 長照機構評鑑報告管理平台</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

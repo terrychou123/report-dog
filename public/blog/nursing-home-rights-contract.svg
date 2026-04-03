@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">D2 契約 ＆ D3 生活注意事項</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">入住前後的資訊透明化要求</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 左側：D2 契約 -->
+  <rect x="40" y="104" width="346" height="340" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <text x="213" y="133" text-anchor="middle" font-size="16" fill="white" font-weight="700">D2 入住契約</text>
+
+  <text x="213" y="175" text-anchor="middle" font-size="48" fill="#d97706" font-weight="700" opacity="0.25">5</text>
+  <text x="213" y="215" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">天審閱期</text>
+  <line x1="80" y1="235" x2="366" y2="235" stroke="#e8e6de" stroke-width="1"/>
+
+  <text x="60" y="260" font-size="14" fill="#57534e">• 不得要求家屬當天即簽約</text>
+  <text x="60" y="280" font-size="14" fill="#57534e">• 不得要求放棄審閱期</text>
+  <text x="60" y="300" font-size="14" fill="#57534e">• 契約含服務項目/收費/退費</text>
+  <text x="60" y="320" font-size="14" fill="#57534e">• 契約含申訴管道資訊</text>
+  <text x="60" y="340" font-size="14" fill="#57534e">• 違反可能構成不公平條款</text>
+
+  <rect x="80" y="365" width="220" height="38" rx="8" fill="#d97706" opacity="0.1" stroke="#d97706" stroke-width="1"/>
+  <text x="190" y="384" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">評鑑委員會查閱契約簽署日期</text>
+  <text x="190" y="400" font-size="12" fill="#78716c" text-anchor="middle">確認是否給予足夠審閱時間</text>
+
+  <!-- 右側：D3 生活注意事項 -->
+  <rect x="414" y="104" width="346" height="340" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="133" text-anchor="middle" font-size="16" fill="white" font-weight="700">D3 生活注意事項</text>
+
+  <text x="587" y="185" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700" opacity="0.35">公告揭露</text>
+  <text x="587" y="220" text-anchor="middle" font-size="15" fill="#57534e">住民自由溝通不受限制</text>
+  <line x1="454" y1="235" x2="740" y2="235" stroke="#e8e6de" stroke-width="1"/>
+
+  <text x="434" y="260" font-size="14" fill="#57534e">• 作息時間在明顯處公告</text>
+  <text x="434" y="280" font-size="14" fill="#57534e">• 訪客規定清楚說明</text>
+  <text x="434" y="300" font-size="14" fill="#57534e">• 外出程序有書面規範</text>
+  <text x="434" y="320" font-size="14" fill="#57534e">• 不得限制住民與外界通訊</text>
+  <text x="434" y="340" font-size="14" fill="#57534e">• 家屬可隨時聯絡住民</text>
+
+  <rect x="454" y="365" width="220" height="38" rx="8" fill="#78716c" opacity="0.1" stroke="#78716c" stroke-width="1"/>
+  <text x="564" y="384" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">委員可能詢問住民</text>
+  <text x="564" y="400" font-size="12" fill="#78716c" text-anchor="middle">是否有被限制通訊的情形</text>
+
+  <!-- 水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

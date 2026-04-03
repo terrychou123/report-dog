@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">B30 特殊飲食分類</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">個別化飲食需依疾病與需求分類設計</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 左上：疾病類 -->
+  <rect x="40" y="118" width="348" height="160" rx="14" fill="#d97706"/>
+  <text x="214" y="165" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">疾病飲食類</text>
+  <text x="214" y="195" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">糖尿病飲食（控醣）</text>
+  <text x="214" y="217" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">腎臟病飲食（低磷低鉀）</text>
+  <text x="214" y="239" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">心臟病飲食（低鹽低脂）</text>
+  <text x="214" y="261" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">痛風飲食（低嘌呤）</text>
+  <!-- 右上：質地類 -->
+  <rect x="412" y="118" width="348" height="160" rx="14" fill="#78716c"/>
+  <text x="586" y="165" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">食物質地類</text>
+  <text x="586" y="195" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">一般飲食</text>
+  <text x="586" y="217" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">細碎飲食</text>
+  <text x="586" y="239" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">軟質飲食</text>
+  <text x="586" y="261" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">流質 / 管灌飲食</text>
+  <!-- 左下：宗教偏好 -->
+  <rect x="40" y="298" width="348" height="160" rx="14" fill="#57534e"/>
+  <text x="214" y="345" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">宗教與個人偏好</text>
+  <text x="214" y="375" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">素食（全素或蛋奶素）</text>
+  <text x="214" y="397" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">禁豬肉（清真飲食）</text>
+  <text x="214" y="419" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">入住時評估並記錄</text>
+  <text x="214" y="441" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">落實於日常供餐</text>
+  <!-- 右下：追蹤評值 -->
+  <rect x="412" y="298" width="348" height="160" rx="14" fill="#94a3b8"/>
+  <text x="586" y="345" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">追蹤評值</text>
+  <text x="586" y="375" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">營養師定期介入</text>
+  <text x="586" y="397" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">每半年滿意度調查</text>
+  <text x="586" y="419" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">依結果修正計畫</text>
+  <text x="586" y="441" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">（B30 條核心要求）</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

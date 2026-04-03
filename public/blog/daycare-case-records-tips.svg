@@ -1,54 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">個案紀錄撰寫技巧總整理</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- NG vs OK comparison table -->
-  <!-- Header -->
-  <rect x="52" y="78" width="330" height="40" rx="8" fill="#ef4444" opacity="0.10"/>
-  <text x="217" y="103" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">❌ 常見 NG 寫法</text>
-  <rect x="418" y="78" width="330" height="40" rx="8" fill="#22c55e" opacity="0.10"/>
-  <text x="583" y="103" font-size="15" font-weight="700" fill="#16a34a" text-anchor="middle">✓ 正確寫法</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">個案紀錄 4 大撰寫原則</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">掌握核心原則，讓每一筆紀錄都能通過評鑑</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Row 1: 評估 -->
-  <rect x="52" y="126" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="72" y="148" font-size="11" fill="#78716c" font-weight="600">入案評估</text>
-  <text x="72" y="168" font-size="12" fill="#dc2626">「整體狀況尚可，功能維持穩定」</text>
+  <!-- 左上卡片（#d97706）原則1 客觀具體 -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="68" cy="126" r="3" fill="white" opacity="0.8"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">原則 1：客觀具體描述</text>
+  <text x="60" y="172" font-size="14" fill="#57534e">• 記錄可觀察的行為事實</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 用 5W1H 架構組織內容</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 避免「情緒不好」等主觀詞彙</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 數量化描述優於形容詞描述</text>
+  <rect x="56" y="246" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="96" y="260" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">核心原則</text>
 
-  <rect x="418" y="126" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="438" y="148" font-size="11" fill="#78716c" font-weight="600">入案評估</text>
-  <text x="438" y="168" font-size="12" fill="#16a34a">「ADL 45分、MMSE 18分，輕度認知障礙」</text>
+  <!-- 右上卡片（#78716c）原則2 即時完整 -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">原則 2：即時完整記錄</text>
+  <text x="434" y="172" font-size="14" fill="#57534e">• 服務當天完成記錄</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 時間精確標記至分鐘</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 工作人員親筆簽名確認</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">• 不得事後補記或塗改</text>
+  <rect x="430" y="246" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="260" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">時效要求</text>
 
-  <!-- Row 2: 計畫目標 -->
-  <rect x="52" y="198" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="72" y="220" font-size="11" fill="#78716c" font-weight="600">照顧目標</text>
-  <text x="72" y="240" font-size="12" fill="#dc2626">「維持現況，提供所需照顧服務」</text>
+  <!-- 左下卡片（#57534e）原則3 個別化呈現 -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">原則 3：個別化呈現</text>
+  <text x="60" y="356" font-size="14" fill="#57534e">• 記錄顯示個案的獨特性</text>
+  <text x="60" y="376" font-size="14" fill="#57534e">• 禁止複製貼上範本套用</text>
+  <text x="60" y="396" font-size="14" fill="#57534e">• 展現對個案的深入了解</text>
+  <text x="60" y="416" font-size="14" fill="#57534e">• 每位個案記錄應明顯不同</text>
+  <rect x="56" y="430" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="444" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">個別差異</text>
 
-  <rect x="418" y="198" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="438" y="220" font-size="11" fill="#78716c" font-weight="600">照顧目標</text>
-  <text x="438" y="240" font-size="12" fill="#16a34a">「3個月內如廁輔助下完成率達90%」</text>
+  <!-- 右下卡片（#a8a29e）原則4 計畫連動 -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">原則 4：計畫連動評值</text>
+  <text x="434" y="356" font-size="14" fill="#57534e">• 每筆記錄需與照顧目標連結</text>
+  <text x="434" y="376" font-size="14" fill="#57534e">• 提供計畫調整的依據與軌跡</text>
+  <text x="434" y="396" font-size="14" fill="#57534e">• 呈現照護成效的連續變化</text>
+  <text x="434" y="416" font-size="14" fill="#57534e">• 讓評鑑委員看到照護品質</text>
+  <rect x="430" y="430" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="444" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">目標連結</text>
 
-  <!-- Row 3: 追蹤評值 -->
-  <rect x="52" y="270" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="72" y="292" font-size="11" fill="#78716c" font-weight="600">追蹤評值</text>
-  <text x="72" y="312" font-size="12" fill="#dc2626">「計畫繼續執行，個案狀況穩定」</text>
-
-  <rect x="418" y="270" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="438" y="292" font-size="11" fill="#78716c" font-weight="600">追蹤評值</text>
-  <text x="438" y="312" font-size="12" fill="#16a34a">「如廁目標7/10次達成，增加指導頻率」</text>
-
-  <!-- Row 4: 個案討論 -->
-  <rect x="52" y="342" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="72" y="364" font-size="11" fill="#78716c" font-weight="600">個案討論</text>
-  <text x="72" y="384" font-size="12" fill="#dc2626">「出席：社工、護理。結論：繼續執行」</text>
-
-  <rect x="418" y="342" width="330" height="62" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="438" y="364" font-size="11" fill="#78716c" font-weight="600">個案討論</text>
-  <text x="438" y="384" font-size="12" fill="#16a34a">「跨專業決議+責任人+期限+前次追蹤」</text>
-
-  <!-- Center divider -->
-  <line x1="400" y1="78" x2="400" y2="404" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="4,3"/>
-
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -4,25 +4,6 @@ import * as os from "os";
 import { addSheet, type ItemGroup } from "./lib/excel-checklist-builder";
 import { daycareProfile } from "../lib/ai/evaluation-profiles/daycare";
 
-// 從 115 年度評鑑 Profile 動態轉換為 ItemGroup 格式
-function sectionToGroups(shortCode: string): ItemGroup[] {
-  const section = daycareProfile.sections.find((s) => s.shortCode === shortCode);
-  if (!section) return [];
-
-  // 取出非加分題的項目，依子分類分群
-  // 子分類依 115 年度評鑑基準書定義
-  return [
-    {
-      groupTitle: section.name,
-      items: section.items.map((item) => ({
-        id: String(item.id),
-        title: `${item.title}（${item.responsible}）`,
-        criteria: item.criteria,
-      })),
-    },
-  ];
-}
-
 // 壹、個案權益保障（項目 1–4）
 const sheetAGroups: ItemGroup[] = [
   {

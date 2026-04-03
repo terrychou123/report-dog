@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">社工師評鑑準備負責項目</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">A8 設置：長照養護失智1:100、安養1:80</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 項目 1 -->
+  <rect x="40" y="115" width="340" height="150" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <rect x="40" y="115" width="340" height="48" rx="10" fill="#78716c"/>
+  <rect x="40" y="143" width="340" height="20" fill="#78716c"/>
+  <text x="210" y="145" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">個案心理社會服務</text>
+  <text x="58" y="182" font-size="14" fill="#57534e">B2 心理社會評估（含ISP協作）</text>
+  <text x="58" y="204" font-size="14" fill="#57534e">B4 適應輔導：新住民入住支持</text>
+  <text x="58" y="226" font-size="14" fill="#57534e">B8 家屬服務：每季1次電訪紀錄</text>
+  <text x="58" y="248" font-size="14" fill="#78716c">D1 個案資料管理系統維護</text>
+
+  <!-- 項目 2 -->
+  <rect x="420" y="115" width="340" height="150" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <rect x="420" y="115" width="340" height="48" rx="10" fill="#78716c"/>
+  <rect x="420" y="143" width="340" height="20" fill="#78716c"/>
+  <text x="590" y="145" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">活動與社區資源</text>
+  <text x="438" y="182" font-size="14" fill="#57534e">B6 每月至少1次團體或社區活動</text>
+  <text x="438" y="204" font-size="14" fill="#57534e">活動紀錄完整（含照片和評值）</text>
+  <text x="438" y="226" font-size="14" fill="#57534e">B7 至少3處社區資源網絡</text>
+  <text x="438" y="248" font-size="14" fill="#78716c">定期盤點更新社區資源資料</text>
+
+  <!-- 項目 3 -->
+  <rect x="40" y="282" width="340" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="40" y="282" width="340" height="48" rx="10" fill="#57534e"/>
+  <rect x="40" y="310" width="340" height="20" fill="#57534e"/>
+  <text x="210" y="312" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">入出機構管理（A2）</text>
+  <text x="58" y="350" font-size="14" fill="#57534e">服務對象入出機構辦法定期修訂</text>
+  <text x="58" y="372" font-size="14" fill="#57534e">收容人數符合許可立案床數</text>
+  <text x="58" y="394" font-size="14" fill="#57534e">收容類型符合機構許可範圍</text>
+  <text x="58" y="416" font-size="14" fill="#d97706">近4年無違規收容紀錄（二級加強）</text>
+
+  <!-- 項目 4 -->
+  <rect x="420" y="282" width="340" height="150" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="420" y="282" width="340" height="48" rx="10" fill="#94a3b8"/>
+  <rect x="420" y="310" width="340" height="20" fill="#94a3b8"/>
+  <text x="590" y="312" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">住民權益保障（D 構面）</text>
+  <text x="438" y="350" font-size="14" fill="#57534e">D2 契約5天審閱期確認</text>
+  <text x="438" y="372" font-size="14" fill="#57534e">D3 住民生活注意事項公告</text>
+  <text x="438" y="394" font-size="14" fill="#57534e">D6 申訴機制明顯位置張貼</text>
+  <text x="438" y="416" font-size="14" fill="#57534e">D9 滿意度調查書面報告</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

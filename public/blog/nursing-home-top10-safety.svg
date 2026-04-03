@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">消防安全與疏散常見缺失（C9、C11）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">C9/C10/C11/C12 均為一級必要項目，不可忽視</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Row 1 y=118 H=130 #d97706 -->
+  <rect x="28" y="118" width="744" height="130" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="130" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="183" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="190" font-size="20" fill="#d97706" text-anchor="middle" font-weight="900">8</text>
+  <text x="100" y="158" font-size="20" fill="#1e293b" font-weight="700">C9 消防設備未按時委外檢修（一級必要）</text>
+  <text x="100" y="182" font-size="16" fill="#57534e">問題：每半年須委消防設備師進行設備檢修，但常拖延或未完整申報。</text>
+  <text x="100" y="202" font-size="16" fill="#57534e">每月自主用電安全檢查台帳空白，防火管理人資格不符（不可由社工、醫事人員擔任）。</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">改善：年初排定半年檢修日，月檢查台帳由指定人員填寫，確認防火管理人資格。</text>
+  <rect x="620" y="131" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="155" font-size="16" fill="#d97706" text-anchor="middle">一級必要</text>
+  <text x="688" y="173" font-size="16" fill="#d97706" text-anchor="middle">C9</text>
+
+  <!-- Row 2 y=262 #78716c -->
+  <rect x="28" y="262" width="744" height="130" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="262" width="6" height="130" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="327" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="334" font-size="20" fill="#78716c" text-anchor="middle" font-weight="900">9</text>
+  <text x="100" y="302" font-size="20" fill="#1e293b" font-weight="700">C11 EOP 演練次數不足（一級必要）</text>
+  <text x="100" y="326" font-size="16" fill="#57534e">問題：每年須至少 2 次緊急應變演練，含複合型與夜間演練各至少 1 次。</text>
+  <text x="100" y="346" font-size="16" fill="#57534e">常見缺失：只做白天演練、缺少夜間場次；演練書面紀錄不完整或缺評核報告。</text>
+  <text x="100" y="366" font-size="16" fill="#57534e">改善：年初計畫含 1 次夜間演練；每次演練留存照片、簽到表、評核報告。</text>
+  <rect x="620" y="275" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="299" font-size="16" fill="#78716c" text-anchor="middle">一級必要</text>
+  <text x="688" y="317" font-size="16" fill="#78716c" text-anchor="middle">C11</text>
+
+  <!-- 補充說明 -->
+  <text x="46" y="420" font-size="15" fill="#57534e">補充：C10（疏散避難雙向路徑）和 C12（各樓層 A3 以上避難圖）同為一級必要，一併確認。</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

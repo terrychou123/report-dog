@@ -1,52 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑結束 = 下次評鑑的開始：4 大準備方向</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Top banner -->
-  <rect x="52" y="78" width="696" height="38" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="101" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">高分機構的秘訣：不是評鑑前衝刺，而是平時就在做評鑑的事</text>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">下次評鑑 4 大長期準備方向</text>
 
-  <!-- 4 cards in 2x2 -->
-  <!-- Card 1 -->
-  <rect x="52" y="136" width="330" height="140" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="136" width="330" height="5" rx="2.5" fill="#d97706"/>
-  <text x="72" y="165" font-size="15" fill="#1e293b" font-weight="700">建立日常紀錄習慣</text>
-  <text x="72" y="183" font-size="12" fill="#57534e">讓評鑑文件在日常服務中自然產生</text>
-  <line x1="68" y1="200" x2="366" y2="200" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="220" font-size="12" fill="#78716c">→ 督導紀錄每月確實填寫</text>
-  <text x="72" y="240" font-size="12" fill="#78716c">→ 個案計畫每季更新有追蹤</text>
-  <text x="72" y="260" font-size="12" fill="#78716c">→ 品管數據每月收集不間斷</text>
+  <!-- ===== Row 1（y=160）#d97706 常態文件管理 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">建立常態文件管理機制</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">每月審查個案文件，不留至評鑑前才補件，形成日常習慣</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">月度審查</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">即時補件</text>
 
-  <!-- Card 2 -->
-  <rect x="418" y="136" width="330" height="140" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="418" y="136" width="330" height="5" rx="2.5" fill="#78716c"/>
-  <text x="438" y="165" font-size="15" fill="#1e293b" font-weight="700">定期內部自評</text>
-  <text x="438" y="183" font-size="12" fill="#57534e">不等評鑑才知道缺什麼</text>
-  <line x1="434" y1="200" x2="732" y2="200" stroke="#f0ede6" stroke-width="1"/>
-  <text x="438" y="220" font-size="12" fill="#78716c">→ 每季一次內部自評稽核</text>
-  <text x="438" y="240" font-size="12" fill="#78716c">→ 發現問題立即改善</text>
-  <text x="438" y="260" font-size="12" fill="#78716c">→ 縮短評鑑前衝刺時間</text>
+  <!-- ===== Row 2（y=235）#78716c 持續在職訓練 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">全年均布在職訓練時數</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">訓練時數全年分散安排，每季確認達標，避免年底集中補課</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">季度確認</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">均布安排</text>
 
-  <!-- Card 3 -->
-  <rect x="52" y="292" width="330" height="120" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="292" width="330" height="5" rx="2.5" fill="#a8a29e"/>
-  <text x="72" y="321" font-size="15" fill="#1e293b" font-weight="700">累積評鑑知識庫</text>
-  <text x="72" y="339" font-size="12" fill="#57534e">歷次評鑑的寶貴資產</text>
-  <line x1="68" y1="356" x2="366" y2="356" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="376" font-size="12" fill="#78716c">→ 保存歷次委員問題記錄</text>
-  <text x="72" y="394" font-size="12" fill="#78716c">→ 建立機構問答手冊</text>
+  <!-- ===== Row 3（y=310）#57534e 定期自評 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">每季對照評鑑基準自我評核</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">定期參照評鑑指標進行自評，及早發現缺口提前改善</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">每季自評</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">提前改善</text>
 
-  <!-- Card 4 -->
-  <rect x="418" y="292" width="330" height="120" rx="12" fill="#d97706" opacity="0.06"/>
-  <rect x="418" y="292" width="330" height="120" rx="12" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.5"/>
-  <rect x="418" y="292" width="330" height="5" rx="2.5" fill="#d97706" opacity="0.7"/>
-  <text x="438" y="321" font-size="15" fill="#1e293b" font-weight="700">設定下次目標</text>
-  <text x="438" y="339" font-size="12" fill="#57534e">從這次缺失中找到進步方向</text>
-  <line x1="434" y1="356" x2="732" y2="356" stroke="#f0ede6" stroke-width="1"/>
-  <text x="438" y="376" font-size="12" fill="#d97706">→ 設定提升評分的具體指標</text>
-  <text x="438" y="394" font-size="12" fill="#d97706">→ 目標：下次評鑑零缺失</text>
+  <!-- ===== Row 4（y=385）#a8a29e 累積改善歷程 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">累積每次改善的書面歷程</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">每次改善都留書面記錄，向委員展示持續進步的具體軌跡</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">累積歷程</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">展示成長</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

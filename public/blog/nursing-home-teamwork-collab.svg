@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">多人協作工具如何改善評鑑準備</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">報告汪多職種協作功能說明</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 問題/痛點 -->
+  <rect x="40" y="115" width="340" height="280" rx="12" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="40" y="115" width="340" height="48" rx="12" fill="#ef4444"/>
+  <rect x="40" y="143" width="340" height="20" fill="#ef4444"/>
+  <text x="210" y="145" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">傳統準備方式的痛點</text>
+  <text x="58" y="182" font-size="14" fill="#374151">各職種各自為政，無整合</text>
+  <text x="58" y="204" font-size="14" fill="#374151">進度只靠口頭回報，難追蹤</text>
+  <text x="58" y="226" font-size="14" fill="#374151">文件散落各人電腦或紙本</text>
+  <text x="58" y="248" font-size="14" fill="#374151">主管不知道哪些項目落後</text>
+  <text x="58" y="270" font-size="14" fill="#374151">評鑑前一週才發現大量缺失</text>
+  <text x="58" y="292" font-size="14" fill="#374151">補件壓力大，文件品質差</text>
+  <text x="58" y="314" font-size="14" fill="#374151">人員離職後文件無法交接</text>
+  <text x="58" y="336" font-size="14" fill="#374151">每次評鑑都重複同樣錯誤</text>
+  <text x="58" y="358" font-size="14" fill="#374151">工作人員壓力大、士氣低落</text>
+
+  <!-- 解決方案 -->
+  <rect x="420" y="115" width="340" height="280" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="420" y="115" width="340" height="48" rx="12" fill="#22c55e"/>
+  <rect x="420" y="143" width="340" height="20" fill="#22c55e"/>
+  <text x="590" y="145" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">報告汪多人協作解決方案</text>
+  <text x="438" y="182" font-size="14" fill="#374151">各職種分配任務，即時更新</text>
+  <text x="438" y="204" font-size="14" fill="#374151">進度看板：主管一眼掌握全局</text>
+  <text x="438" y="226" font-size="14" fill="#374151">雲端文件管理，隨時可查閱</text>
+  <text x="438" y="248" font-size="14" fill="#374151">自動提醒：評值/同意書到期</text>
+  <text x="438" y="270" font-size="14" fill="#374151">AI 輔助文件初稿，節省時間</text>
+  <text x="438" y="292" font-size="14" fill="#374151">評鑑結果自動歸檔備查</text>
+  <text x="438" y="314" font-size="14" fill="#374151">人員異動無縫交接知識庫</text>
+  <text x="438" y="336" font-size="14" fill="#374151">歷次評鑑缺失自動追蹤改善</text>
+  <text x="438" y="358" font-size="14" fill="#374151">減少加班，降低評鑑焦慮</text>
+
+  <!-- 底部 CTA -->
+  <rect x="40" y="410" width="720" height="60" rx="10" fill="#d97706"/>
+  <text x="400" y="435" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">立即開始使用報告汪</text>
+  <text x="400" y="458" font-size="14" fill="#fff8e7" text-anchor="middle">多職種協作 / AI 報告撰寫 / 評鑑進度追蹤 — reportwang.com</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#ffffff" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

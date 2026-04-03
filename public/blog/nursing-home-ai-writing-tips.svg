@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=38, h=90） -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="92" font-size="36" fill="#1e293b" font-weight="700">使用 AI 文書工具三大訣竅</text>
+  <text x="28" y="116" font-size="18" fill="#57534e">讓 AI 輔助發揮最大效益，通過評鑑委員審查</text>
+
+  <!-- Row 1（y=166）色系 #d97706 H=90, inner_gap=13, outer_gap=38 -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="218" font-size="20" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="203" font-size="22" fill="#1e293b" font-weight="700">AI 初稿必須人工審閱後才送出</text>
+  <text x="100" y="231" font-size="16" fill="#57534e">評鑑委員能識別未修改的機制化文件。護理師、社工師務必</text>
+  <text x="100" y="251" font-size="16" fill="#57534e">依實際臨床觀察補充個別細節，確保內容真實反映住民狀況。</text>
+  <rect x="620" y="179" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="203" font-size="16" fill="#d97706" text-anchor="middle">臨床判斷</text>
+  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">不可替代</text>
+
+  <!-- Row 2（y=269）色系 #78716c -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="321" font-size="20" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="306" font-size="22" fill="#1e293b" font-weight="700">建立機構專屬提示語庫</text>
+  <text x="100" y="334" font-size="16" fill="#57534e">將機構服務對象特性、常見疾病、照顧哲學整合為 AI 提示語，</text>
+  <text x="100" y="354" font-size="16" fill="#57534e">讓每次生成的文件更符合機構風格，不需要每次重新說明背景。</text>
+  <rect x="620" y="282" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="306" font-size="16" fill="#78716c" text-anchor="middle">機構特色</text>
+  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">客製化設定</text>
+
+  <!-- Row 3（y=372）色系 #57534e -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="424" font-size="20" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="409" font-size="22" fill="#1e293b" font-weight="700">用 AI 查核缺失，不只是生成文件</text>
+  <text x="100" y="437" font-size="16" fill="#57534e">AI 最大價值之一是評鑑前逐項自我查核，找出文件缺漏、</text>
+  <text x="100" y="457" font-size="16" fill="#57534e">尚未更新的計畫書，比委員先一步發現問題並完成改善。</text>
+  <rect x="620" y="385" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="409" font-size="16" fill="#57534e" text-anchor="middle">AI 自我</text>
+  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">查核缺失</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="492" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,84 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="450" fill="#f0efe8" rx="16"/>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑準備角色分工總覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">社工師・護理師・照服員・業務負責人各司其職</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 標題 -->
-  <text x="400" y="52" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">評鑑準備角色分工總覽</text>
-  <text x="400" y="76" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">四大角色 · 各司其職 · 協力備審</text>
+  <!-- 2x2 卡片佈局 -->
+  <!-- 上排 y=104, h=168  下排 y=288, h=162（底=450） -->
+  <!-- 左欄 x=40 w=346    右欄 x=414 w=346 -->
 
-  <!-- 社工師 -->
-  <rect x="40" y="100" width="165" height="310" rx="12" fill="white" stroke="#94a3b8" stroke-width="1.5"/>
-  <rect x="40" y="100" width="165" height="6" rx="3" fill="#94a3b8"/>
-  <rect x="40" y="103" width="165" height="3" fill="#94a3b8"/>
-  <circle cx="122" cy="142" r="22" fill="#94a3b8"/>
-  <text x="122" y="150" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="white">👩‍💼</text>
-  <text x="122" y="184" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" font-weight="600">社工師</text>
-  <line x1="60" y1="196" x2="185" y2="196" stroke="#e8e5de" stroke-width="1"/>
-  <text x="50" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 個案評估（第5條）</text>
-  <text x="50" y="240" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 照顧計畫（第6條）</text>
-  <text x="50" y="262" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 追蹤評值（第7條）</text>
-  <text x="50" y="284" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 個案研討（第8條）</text>
-  <text x="50" y="306" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 申訴機制（第2條）</text>
-  <text x="50" y="328" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 社會參與（第18條）</text>
-  <text x="50" y="350" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 家屬支持（第19條）</text>
-  <rect x="55" y="375" width="115" height="24" rx="6" fill="#f0efe8"/>
-  <text x="112" y="391" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">負責 9 項以上</text>
+  <!-- 卡片 1: 社工師 (amber #d97706), 左上 x=40 y=104 w=346 h=168 -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <!-- 圖示：小圓圈（人） -->
+  <circle cx="70" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="70" cy="126" r="3" fill="white" opacity="0.8"/>
+  <text x="200" y="132" text-anchor="middle" font-size="18" fill="white" font-weight="700">社工師</text>
+  <!-- 負責條文 -->
+  <text x="60" y="170" font-size="14" fill="#57534e">負責：第 2、5–10、13、18–19 條</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 個案評估、照顧計畫、追蹤評值</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 申訴辦法、個案研討會紀錄</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 家屬支持活動、社區服務記錄</text>
+  <!-- 底部標籤 -->
+  <rect x="56" y="248" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="96" y="261" text-anchor="middle" font-size="13" fill="#d97706" font-weight="600">文件類</text>
 
-  <!-- 護理師 -->
-  <rect x="220" y="100" width="165" height="310" rx="12" fill="white" stroke="#a8a29e" stroke-width="1.5"/>
-  <rect x="220" y="100" width="165" height="6" rx="3" fill="#a8a29e"/>
-  <rect x="220" y="103" width="165" height="3" fill="#a8a29e"/>
-  <circle cx="302" cy="142" r="22" fill="#a8a29e"/>
-  <text x="302" y="150" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="white">👩‍⚕️</text>
-  <text x="302" y="184" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" font-weight="600">護理師</text>
-  <line x1="240" y1="196" x2="365" y2="196" stroke="#e8e5de" stroke-width="1"/>
-  <text x="230" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 協助服藥（第12條）</text>
-  <text x="230" y="240" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 健康檢查（第20條）</text>
-  <text x="230" y="262" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 防疫機制（第21條）</text>
-  <text x="230" y="284" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 工作人員健檢</text>
-  <text x="246" y="300" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">（第32條）</text>
-  <text x="230" y="322" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 疫苗注射（第33條）</text>
-  <text x="230" y="344" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 急救物品（第36條）</text>
-  <rect x="235" y="375" width="115" height="24" rx="6" fill="#f0efe8"/>
-  <text x="292" y="391" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">負責 6 項以上</text>
+  <!-- 卡片 2: 護理師 (stone #78716c), 右上 x=414 y=104 w=346 h=168 -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <circle cx="444" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="444" cy="126" r="3" fill="white" opacity="0.8"/>
+  <text x="574" y="132" text-anchor="middle" font-size="18" fill="white" font-weight="700">護理師</text>
+  <text x="434" y="170" font-size="14" fill="#57534e">負責：第 12、20–21、32–33、36 條</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 協助服藥紀錄、藥袋留存佐證</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 健康檢查、防疫體溫紀錄</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">• 急救箱盤點、疫苗施打統計</text>
+  <rect x="430" y="248" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="261" text-anchor="middle" font-size="13" fill="#78716c" font-weight="600">健康類</text>
 
-  <!-- 照服員/行政 -->
-  <rect x="400" y="100" width="165" height="310" rx="12" fill="white" stroke="#a3a3a3" stroke-width="1.5"/>
-  <rect x="400" y="100" width="165" height="6" rx="3" fill="#a3a3a3"/>
-  <rect x="400" y="103" width="165" height="3" fill="#a3a3a3"/>
-  <circle cx="482" cy="142" r="22" fill="#a3a3a3"/>
-  <text x="482" y="150" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="white">🧑‍🤝‍🧑</text>
-  <text x="482" y="184" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" font-weight="600">照服員/行政</text>
-  <line x1="420" y1="196" x2="545" y2="196" stroke="#e8e5de" stroke-width="1"/>
-  <text x="410" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 自我照顧（第11條）</text>
-  <text x="410" y="240" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 安全看視（第14條）</text>
-  <text x="410" y="262" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 個人清潔（第15條）</text>
-  <text x="410" y="284" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 工作手冊（第24條）</text>
-  <text x="410" y="306" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 環境整備（第38–43條）</text>
-  <text x="410" y="328" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 器材維護（第26條）</text>
-  <text x="410" y="350" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 廚房衛生（第42條）</text>
-  <rect x="415" y="375" width="115" height="24" rx="6" fill="#f0efe8"/>
-  <text x="472" y="391" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">負責 10 項以上</text>
+  <!-- 卡片 3: 照服員/行政 (dark stone #57534e), 左下 x=40 y=288 w=346 h=162 -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <circle cx="70" cy="310" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="70" cy="310" r="3" fill="white" opacity="0.8"/>
+  <text x="200" y="316" text-anchor="middle" font-size="18" fill="white" font-weight="700">照服員 / 行政</text>
+  <text x="60" y="354" font-size="14" fill="#57534e">負責：第 1、3–4、11、14–17、38–43 條</text>
+  <text x="60" y="374" font-size="14" fill="#57534e">• 工作手冊、器材維護、環境整備</text>
+  <text x="60" y="394" font-size="14" fill="#57534e">• 廚房衛生紀錄、飲用水檢測報告</text>
+  <rect x="56" y="426" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="439" text-anchor="middle" font-size="13" fill="#57534e" font-weight="600">環境類</text>
 
-  <!-- 業務負責人 -->
-  <rect x="580" y="100" width="180" height="310" rx="12" fill="white" stroke="#d97706" stroke-width="1.5"/>
-  <rect x="580" y="100" width="180" height="6" rx="3" fill="#d97706"/>
-  <rect x="580" y="103" width="180" height="3" fill="#d97706"/>
-  <circle cx="670" cy="142" r="22" fill="#d97706"/>
-  <text x="670" y="150" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="white">🏢</text>
-  <text x="670" y="184" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" font-weight="600">業務負責人</text>
-  <line x1="600" y1="196" x2="740" y2="196" stroke="#e8e5de" stroke-width="1"/>
-  <text x="590" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 督導機制（第9條）</text>
-  <text x="590" y="240" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 品管指標（第22條）</text>
-  <text x="590" y="262" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 業務計畫（第23條）</text>
-  <text x="590" y="284" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 人力設置（第28條）</text>
-  <text x="590" y="306" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 教育訓練（第29條）</text>
-  <text x="590" y="328" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 緊急事件（第35條）</text>
-  <text x="590" y="350" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">• 性騷擾防治（第37條）</text>
-  <rect x="595" y="375" width="150" height="24" rx="6" fill="#fef3c7"/>
-  <text x="670" y="391" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#92400e">統籌 10 項以上</text>
+  <!-- 卡片 4: 業務負責人 (light stone #a8a29e), 右下 x=414 y=288 w=346 h=162 -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <circle cx="444" cy="310" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="444" cy="310" r="3" fill="white" opacity="0.8"/>
+  <text x="574" y="316" text-anchor="middle" font-size="18" fill="white" font-weight="700">業務負責人</text>
+  <text x="434" y="354" font-size="14" fill="#57534e">負責：第 9、22–27、30–31、34–37 條</text>
+  <text x="434" y="374" font-size="14" fill="#57534e">• 年度業務計畫、品管指標自訂</text>
+  <text x="434" y="394" font-size="14" fill="#57534e">• 行政會議記錄、性騷擾防治辦法</text>
+  <rect x="430" y="426" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="439" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="600">管理類</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

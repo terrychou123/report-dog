@@ -1,70 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="450" fill="#f0efe8" rx="16"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 標題 -->
-  <text x="400" y="48" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">Excel 自評表使用流程</text>
-  <text x="400" y="72" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">4 個步驟 · 讓評鑑準備有系統有效率</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">自評表 4 步驟使用流程</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">下載→分工→逐項填寫→彙整備審，30 分鐘完成盤點</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 連接線 -->
-  <line x1="167" y1="220" x2="213" y2="220" stroke="#a8a29e" stroke-width="2.5" stroke-dasharray="5,3"/>
-  <line x1="347" y1="220" x2="393" y2="220" stroke="#a8a29e" stroke-width="2.5" stroke-dasharray="5,3"/>
-  <line x1="527" y1="220" x2="573" y2="220" stroke="#a8a29e" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <!-- 箭頭 (arrow_y=279) -->
+  <polygon points="202,273 218,279 202,285" fill="#c4bfb8"/>
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,273 408,279 392,285" fill="#c4bfb8"/>
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,273 598,279 582,285" fill="#c4bfb8"/>
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
 
-  <!-- Step 1：下載 -->
-  <rect x="40" y="115" width="170" height="210" rx="16" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="125" cy="160" r="35" fill="#f0efe8"/>
-  <text x="125" y="175" text-anchor="middle" font-family="sans-serif" font-size="38">📥</text>
-  <text x="125" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#78716c" font-weight="700">Step 1</text>
-  <text x="125" y="240" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">下載範本</text>
-  <text x="125" y="268" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">點擊文章連結</text>
-  <text x="125" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">下載 Excel 範本</text>
-  <rect x="60" y="300" width="130" height="14" rx="4" fill="#e8e5de"/>
-  <text x="125" y="311" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">免費 · 無需註冊</text>
+  <!-- Step 1：下載模板 (#d97706) x=28 cx=115 -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="183" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="212" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <text x="115" y="298" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">下載模板</text>
+  <text x="115" y="326" text-anchor="middle" font-size="18" fill="#57534e">從評鑑局網站下載</text>
+  <text x="115" y="348" text-anchor="middle" font-size="18" fill="#57534e">印出紙本便於填寫</text>
+  <rect x="41" y="382" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="406" text-anchor="middle" font-size="18" fill="#d97706" font-weight="600">立刻開始</text>
 
-  <!-- Step 2：分工 -->
-  <rect x="220" y="115" width="170" height="210" rx="16" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="305" cy="160" r="35" fill="#f0efe8"/>
-  <text x="305" y="175" text-anchor="middle" font-family="sans-serif" font-size="38">👥</text>
-  <text x="305" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#a8a29e" font-weight="700">Step 2</text>
-  <text x="305" y="240" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">分工確認</text>
-  <text x="305" y="268" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">業務負責人統籌</text>
-  <text x="305" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">分配各部門填寫</text>
-  <rect x="240" y="300" width="130" height="14" rx="4" fill="#e8e5de"/>
-  <text x="305" y="311" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">社工/護理/照服/行政</text>
+  <!-- Step 2：分工確認 (#78716c) x=218 cx=305 -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="183" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="212" text-anchor="middle" font-size="29" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="298" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">分工確認</text>
+  <text x="305" y="326" text-anchor="middle" font-size="18" fill="#57534e">各面向分工主責</text>
+  <text x="305" y="348" text-anchor="middle" font-size="18" fill="#57534e">確認負責人與期限</text>
+  <rect x="231" y="382" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="406" text-anchor="middle" font-size="18" fill="#78716c" font-weight="600">第 1 週</text>
 
-  <!-- Step 3：填寫 -->
-  <rect x="400" y="115" width="170" height="210" rx="16" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="485" cy="160" r="35" fill="#f0efe8"/>
-  <text x="485" y="175" text-anchor="middle" font-family="sans-serif" font-size="38">✍️</text>
-  <text x="485" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#a3a3a3" font-weight="700">Step 3</text>
-  <text x="485" y="240" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">逐項填寫</text>
-  <text x="485" y="268" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">標記完成/待補</text>
-  <text x="485" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">記錄應備文件</text>
-  <rect x="420" y="300" width="130" height="14" rx="4" fill="#e8e5de"/>
-  <text x="485" y="311" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">按面向逐條確認</text>
+  <!-- Step 3：逐項填寫 (#57534e) x=408 cx=495 -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="183" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="212" text-anchor="middle" font-size="29" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="298" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">逐項填寫</text>
+  <text x="495" y="326" text-anchor="middle" font-size="18" fill="#57534e">對照條文逐項作答</text>
+  <text x="495" y="348" text-anchor="middle" font-size="18" fill="#57534e">附上佐證文件頁碼</text>
+  <rect x="421" y="382" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="406" text-anchor="middle" font-size="18" fill="#57534e" font-weight="600">前 2 個月</text>
 
-  <!-- Step 4：彙整 -->
-  <rect x="580" y="115" width="180" height="210" rx="16" fill="white" stroke="#dedad3" stroke-width="2"/>
-  <circle cx="670" cy="160" r="35" fill="#f0efe8"/>
-  <text x="670" y="175" text-anchor="middle" font-family="sans-serif" font-size="38">📊</text>
-  <text x="670" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" font-weight="700">Step 4</text>
-  <text x="670" y="240" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">彙整備審</text>
-  <text x="670" y="268" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">統計完成率</text>
-  <text x="670" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">規劃補強計畫</text>
-  <rect x="600" y="300" width="140" height="14" rx="4" fill="#e8e5de"/>
-  <text x="670" y="311" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">建議提前 3 個月開始</text>
-
-  <!-- 建議時程 -->
-  <rect x="40" y="355" width="720" height="70" rx="12" fill="#78716c"/>
-  <text x="400" y="382" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">💡 建議使用時機</text>
-  <text x="150" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e8e5de">評鑑前 3 個月</text>
-  <text x="150" y="420" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.6)">全面盤點缺口</text>
-  <text x="400" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e8e5de">評鑑前 2 個月</text>
-  <text x="400" y="420" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.6)">補齊文件缺口</text>
-  <text x="650" y="408" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e8e5de">評鑑前 1 個月</text>
-  <text x="650" y="420" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.6)">全面確認+訪談演練</text>
+  <!-- Step 4：彙整備審 (#a8a29e) x=598 cx=685 -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="183" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="212" text-anchor="middle" font-size="29" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="298" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">彙整備審</text>
+  <text x="685" y="326" text-anchor="middle" font-size="18" fill="#57534e">主管複核後裝訂</text>
+  <text x="685" y="348" text-anchor="middle" font-size="18" fill="#57534e">評鑑前完成備審</text>
+  <rect x="611" y="382" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="406" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="600">評鑑前完成</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -1,57 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">貳、專業照護品質：3 大面向（共 18 條）</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 3 large category cards, horizontal layout -->
-  <!-- Card 1: 評估與處遇計畫 -->
-  <rect x="52" y="84" width="212" height="290" rx="14" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="84" width="212" height="6" rx="3" fill="#d97706"/>
-  <text x="158" y="122" font-size="15" fill="#78716c" text-anchor="middle" font-weight="700">評估與處遇計畫</text>
-  <text x="158" y="145" font-size="32" font-weight="900" fill="#d97706" text-anchor="middle">8</text>
-  <text x="158" y="166" font-size="12" fill="#94a3b8" text-anchor="middle">條評鑑基準</text>
-  <line x1="72" y1="182" x2="244" y2="182" stroke="#f0ede6" stroke-width="1"/>
-  <text x="82" y="204" font-size="12" fill="#1e293b" font-weight="600">▸ 個別照顧計畫</text>
-  <text x="82" y="222" font-size="12" fill="#57534e">  制訂、執行、追蹤</text>
-  <text x="82" y="246" font-size="12" fill="#1e293b" font-weight="600">▸ 需求評估</text>
-  <text x="82" y="264" font-size="12" fill="#57534e">  ADL/IADL/認知功能</text>
-  <text x="82" y="288" font-size="12" fill="#1e293b" font-weight="600">▸ 多專業團隊合作</text>
-  <text x="82" y="306" font-size="12" fill="#57534e">  職能/護理/社工協作</text>
-  <text x="82" y="330" font-size="12" fill="#1e293b" font-weight="600">▸ 出所追蹤管理</text>
-  <text x="82" y="348" font-size="12" fill="#57534e">  離所原因記錄</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">貳、專業照護品質（第 5–22 條）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">評估處遇 → 健康照顧 → 品質監測，共 18 條核心項目</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Card 2: 健康照顧管理 -->
-  <rect x="294" y="84" width="212" height="290" rx="14" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="294" y="84" width="212" height="6" rx="3" fill="#78716c"/>
-  <text x="400" y="122" font-size="15" fill="#78716c" text-anchor="middle" font-weight="700">健康照顧管理</text>
-  <text x="400" y="145" font-size="32" font-weight="900" fill="#d97706" text-anchor="middle">6</text>
-  <text x="400" y="166" font-size="12" fill="#94a3b8" text-anchor="middle">條評鑑基準</text>
-  <line x1="314" y1="182" x2="486" y2="182" stroke="#f0ede6" stroke-width="1"/>
-  <text x="324" y="204" font-size="12" fill="#1e293b" font-weight="600">▸ 用藥安全管理</text>
-  <text x="324" y="222" font-size="12" fill="#57534e">  藥物核對、紀錄</text>
-  <text x="324" y="246" font-size="12" fill="#1e293b" font-weight="600">▸ 感染管制</text>
-  <text x="324" y="264" font-size="12" fill="#57534e">  洗手、隔離措施</text>
-  <text x="324" y="288" font-size="12" fill="#1e293b" font-weight="600">▸ 跌倒預防</text>
-  <text x="324" y="306" font-size="12" fill="#57534e">  風險評估、環境調整</text>
-  <text x="324" y="330" font-size="12" fill="#1e293b" font-weight="600">▸ 異常事件通報</text>
-  <text x="324" y="348" font-size="12" fill="#57534e">  事故報告、改善</text>
+  <!-- 箭頭 N=3, arrow_y=279 -->
+  <!-- 0→1: card 0 right edge=129+170=299, card 1 left=315 → 16px gap -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="299,273 315,279 299,285" fill="#c4bfb8"/>
+  <!-- 1→2: card 1 right edge=315+170=485, card 2 left=501 -->
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,273 501,279 485,285" fill="#c4bfb8"/>
 
-  <!-- Card 3: 照護品質監測 -->
-  <rect x="536" y="84" width="212" height="290" rx="14" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="536" y="84" width="212" height="6" rx="3" fill="#a8a29e"/>
-  <text x="642" y="122" font-size="15" fill="#78716c" text-anchor="middle" font-weight="700">照護品質監測</text>
-  <text x="642" y="145" font-size="32" font-weight="900" fill="#d97706" text-anchor="middle">4</text>
-  <text x="642" y="166" font-size="12" fill="#94a3b8" text-anchor="middle">條評鑑基準</text>
-  <line x1="556" y1="182" x2="728" y2="182" stroke="#f0ede6" stroke-width="1"/>
-  <text x="566" y="204" font-size="12" fill="#1e293b" font-weight="600">▸ 品管指標設定</text>
-  <text x="566" y="222" font-size="12" fill="#57534e">  自訂指標、目標值</text>
-  <text x="566" y="246" font-size="12" fill="#1e293b" font-weight="600">▸ PDCA 管理循環</text>
-  <text x="566" y="264" font-size="12" fill="#57534e">  Plan→Do→Check→Act</text>
-  <text x="566" y="288" font-size="12" fill="#1e293b" font-weight="600">▸ 數據追蹤記錄</text>
-  <text x="566" y="306" font-size="12" fill="#57534e">  月報、趨勢分析</text>
-  <text x="566" y="330" font-size="12" fill="#1e293b" font-weight="600">▸ 改善措施執行</text>
-  <text x="566" y="348" font-size="12" fill="#57534e">  對策落實、成效評估</text>
+  <!-- Step 1: 評估處遇 #d97706, card x=129 cx=214, r=43 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="212" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <text x="214" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">評估處遇</text>
+  <text x="214" y="324" text-anchor="middle" font-size="18" fill="#57534e">評估計畫</text>
+  <text x="214" y="346" text-anchor="middle" font-size="18" fill="#57534e">追蹤督導</text>
+  <rect x="140" y="381" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">第 5–10 條</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- Step 2: 健康照顧 #78716c, card x=315 cx=400, r=43 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="212" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">健康照顧</text>
+  <text x="400" y="324" text-anchor="middle" font-size="18" fill="#57534e">服藥活動</text>
+  <text x="400" y="346" text-anchor="middle" font-size="18" fill="#57534e">防疫健檢</text>
+  <rect x="326" y="381" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">第 11–21 條</text>
+
+  <!-- Step 3: 品質監測 #57534e, card x=501 cx=586, r=43 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="212" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">品質監測</text>
+  <text x="586" y="324" text-anchor="middle" font-size="18" fill="#57534e">品管指標</text>
+  <text x="586" y="346" text-anchor="middle" font-size="18" fill="#57534e">異常分析</text>
+  <rect x="512" y="381" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="405" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">第 22 條</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

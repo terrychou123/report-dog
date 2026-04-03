@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 裝飾線 -->
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#d97706"/>
+  <!-- 右側裝飾 — ISP 流程圖示 -->
+  <rect x="800" y="80" width="340" height="480" rx="16" fill="#ffffff" opacity="0.55"/>
+  <!-- 5步驟流程小圖 -->
+  <circle cx="970" cy="148" r="28" fill="#d97706"/>
+  <text x="970" y="154" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">評</text>
+  <line x1="970" y1="176" x2="970" y2="212" stroke="#d97706" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <circle cx="970" cy="230" r="28" fill="#78716c"/>
+  <text x="970" y="236" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">目</text>
+  <line x1="970" y1="258" x2="970" y2="294" stroke="#78716c" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <circle cx="970" cy="312" r="28" fill="#57534e"/>
+  <text x="970" y="318" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">計</text>
+  <line x1="970" y1="340" x2="970" y2="376" stroke="#57534e" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <circle cx="970" cy="394" r="28" fill="#94a3b8"/>
+  <text x="970" y="400" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">執</text>
+  <line x1="970" y1="422" x2="970" y2="458" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <circle cx="970" cy="476" r="28" fill="#a8a29e"/>
+  <text x="970" y="482" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">評</text>
+  <!-- 標題 -->
+  <text x="80" y="180" font-size="52" fill="#1e293b" font-weight="700">個別化照顧計畫（ISP）</text>
+  <text x="80" y="248" font-size="38" fill="#d97706" font-weight="600">撰寫範例：從需求評估到目標設定</text>
+  <!-- 說明 -->
+  <text x="80" y="320" font-size="22" fill="#57534e">對應 B2 評鑑基準：72小時初評、每3個月評值</text>
+  <text x="80" y="352" font-size="22" fill="#57534e">每半年修正計畫、跨專業團隊協作</text>
+  <!-- 標籤 -->
+  <rect x="80" y="405" width="120" height="36" rx="18" fill="#fef3c7"/>
+  <text x="140" y="428" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">實務技巧</text>
+  <rect x="216" y="405" width="120" height="36" rx="18" fill="#fef3c7"/>
+  <text x="276" y="428" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">ISP 撰寫</text>
+  <rect x="352" y="405" width="120" height="36" rx="18" fill="#fef3c7"/>
+  <text x="412" y="428" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">住宿型評鑑</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

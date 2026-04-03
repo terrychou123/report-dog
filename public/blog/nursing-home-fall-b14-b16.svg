@@ -1,0 +1,50 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">B14 壓損 × B16 約束管理要求</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">分析週期與文件格式比較</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上排左 - B14 核心要求 -->
+  <rect x="40" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="104" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="210" y="140" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">B14 壓損預防核心要求</text>
+  <text x="60" y="166" font-size="14" fill="#57534e">• 訂有壓損預防評估措施與流程</text>
+  <text x="60" y="188" font-size="14" fill="#57534e">• 發生壓損案件：逐案分析處置</text>
+  <text x="60" y="210" font-size="14" fill="#57534e">• 有監測紀錄且紀錄完整</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 每季（每3個月）定期分析改善</text>
+  <text x="60" y="258" font-size="13" fill="#d97706" font-weight="600">★ 安養機構不適用本項</text>
+
+  <!-- 上排右 - B14 分析要素 -->
+  <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="104" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="590" y="140" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">B14 季報分析必含要素</text>
+  <text x="440" y="166" font-size="14" fill="#57534e">• 本季壓損案件數及嚴重度分布</text>
+  <text x="440" y="188" font-size="14" fill="#57534e">• 壓損發生原因分類</text>
+  <text x="440" y="210" font-size="14" fill="#57534e">• 翻身拍背執行遵從率</text>
+  <text x="440" y="232" font-size="14" fill="#57534e">• 具體改善措施與追蹤方式</text>
+  <text x="440" y="258" font-size="13" fill="#78716c" font-weight="600">★ 每2小時翻身要有執行紀錄</text>
+
+  <!-- 下排左 - B16 核心要求 -->
+  <rect x="40" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="288" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="210" y="322" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">B16 約束管理核心要求</text>
+  <text x="60" y="348" font-size="14" fill="#57534e">• 須醫師診斷或護理人員專業判斷</text>
+  <text x="60" y="370" font-size="14" fill="#57534e">• 有個別化評估（非公版統一評估）</text>
+  <text x="60" y="392" font-size="14" fill="#57534e">• 同意書自簽訂日起 3 個月內有效</text>
+  <text x="60" y="414" font-size="14" fill="#57534e">• 約束過程中隨時監測有完整紀錄</text>
+  <text x="60" y="440" font-size="13" fill="#d97706" font-weight="600">★ 安養機構不適用，無不當約束</text>
+
+  <!-- 下排右 - B16 同意書管理 -->
+  <rect x="420" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="288" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="590" y="322" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">同意書管理重點</text>
+  <text x="440" y="348" font-size="14" fill="#57534e">• 有效期：自簽訂日起 3 個月</text>
+  <text x="440" y="370" font-size="14" fill="#57534e">• 到期前主動更新同意書</text>
+  <text x="440" y="392" font-size="14" fill="#57534e">• 每季應進行案件分析改善</text>
+  <text x="440" y="414" font-size="14" fill="#57534e">• 監測紀錄含時間、評估、觀察</text>
+  <text x="440" y="440" font-size="13" fill="#78716c" font-weight="600">★ 常見：同意書逾期未更新</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

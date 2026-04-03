@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">護理紀錄 4 大常見錯誤</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">對應改善方向</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 錯誤 1 -->
+  <rect x="40" y="115" width="340" height="145" rx="10" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="40" y="115" width="340" height="42" rx="10" fill="#ef4444"/>
+  <rect x="40" y="137" width="340" height="20" fill="#ef4444"/>
+  <text x="210" y="139" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">錯誤1：缺乏即時性</text>
+  <text x="58" y="175" font-size="14" fill="#374151">事件3天後才補填，日期邏輯不符</text>
+  <text x="58" y="197" font-size="14" fill="#374151">委員看到補填痕跡，信任度大降</text>
+  <text x="58" y="222" font-size="14" fill="#22c55e" font-weight="700">改善：制度規定事件當天完成記錄</text>
+  <text x="58" y="244" font-size="14" fill="#22c55e">督導定期抽查記錄時間合理性</text>
+
+  <!-- 錯誤 2 -->
+  <rect x="420" y="115" width="340" height="145" rx="10" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="420" y="115" width="340" height="42" rx="10" fill="#ef4444"/>
+  <rect x="420" y="137" width="340" height="20" fill="#ef4444"/>
+  <text x="590" y="139" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">錯誤2：格式不統一</text>
+  <text x="438" y="175" font-size="14" fill="#374151">不同護理師用不同格式記錄</text>
+  <text x="438" y="197" font-size="14" fill="#374151">委員難以比較和審查</text>
+  <text x="438" y="222" font-size="14" fill="#22c55e" font-weight="700">改善：統一設計標準化表單</text>
+  <text x="438" y="244" font-size="14" fill="#22c55e">護理長定期稽核格式一致性</text>
+
+  <!-- 錯誤 3 -->
+  <rect x="40" y="276" width="340" height="145" rx="10" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="40" y="276" width="340" height="42" rx="10" fill="#ef4444"/>
+  <rect x="40" y="298" width="340" height="20" fill="#ef4444"/>
+  <text x="210" y="300" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">錯誤3：缺乏邏輯性</text>
+  <text x="58" y="336" font-size="14" fill="#374151">記錄了措施，但無分析邏輯</text>
+  <text x="58" y="358" font-size="14" fill="#374151">例：「體重下降，繼續觀察」</text>
+  <text x="58" y="383" font-size="14" fill="#22c55e" font-weight="700">改善：採用 SOAP 格式</text>
+  <text x="58" y="405" font-size="14" fill="#22c55e">確保每筆有完整分析邏輯</text>
+
+  <!-- 錯誤 4 -->
+  <rect x="420" y="276" width="340" height="145" rx="10" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="420" y="276" width="340" height="42" rx="10" fill="#ef4444"/>
+  <rect x="420" y="298" width="340" height="20" fill="#ef4444"/>
+  <text x="590" y="300" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">錯誤4：分析空洞</text>
+  <text x="438" y="336" font-size="14" fill="#374151">跌倒分析只是重複事件描述</text>
+  <text x="438" y="358" font-size="14" fill="#374151">改善措施只寫「加強巡視」</text>
+  <text x="438" y="383" font-size="14" fill="#22c55e" font-weight="700">改善：措施要具體可執行</text>
+  <text x="438" y="405" font-size="14" fill="#22c55e">例：「增加走廊夜間感應燈」</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">護理紀錄評鑑自查清單</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">評鑑前逐項核對，確保無遺漏</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 左欄 -->
+  <text x="40" y="124" font-size="16" fill="#d97706" font-weight="700">B2 個案服務計畫</text>
+  <rect x="40" y="132" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="146" font-size="14" fill="#1e293b">72小時初評含跌倒/壓損/營養三項評估</text>
+  <rect x="40" y="158" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="172" font-size="14" fill="#1e293b">每3個月評值記錄（含比較說明）</text>
+  <rect x="40" y="184" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="198" font-size="14" fill="#1e293b">每半年修正計畫並有家屬確認</text>
+
+  <text x="40" y="222" font-size="16" fill="#d97706" font-weight="700">B9 醫師巡診</text>
+  <rect x="40" y="230" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="244" font-size="14" fill="#1e293b">入住1個月內醫師評估記錄</text>
+  <rect x="40" y="256" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="270" font-size="14" fill="#1e293b">定期巡診紀錄有醫師親筆簽名</text>
+  <rect x="40" y="282" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="296" font-size="14" fill="#1e293b">未以門診紀錄代替機構巡診紀錄</text>
+
+  <text x="40" y="320" font-size="16" fill="#78716c" font-weight="700">B13/B14 跌倒/壓損</text>
+  <rect x="40" y="328" width="18" height="18" rx="3" fill="#78716c"/>
+  <text x="68" y="342" font-size="14" fill="#1e293b">每件事件有完整逐案分析</text>
+  <rect x="40" y="354" width="18" height="18" rx="3" fill="#78716c"/>
+  <text x="68" y="368" font-size="14" fill="#1e293b">跌倒每半年整體分析/壓損每季</text>
+  <rect x="40" y="380" width="18" height="18" rx="3" fill="#78716c"/>
+  <text x="68" y="394" font-size="14" fill="#1e293b">分析含原因+改善措施+追蹤</text>
+
+  <!-- 右欄 -->
+  <text x="420" y="124" font-size="16" fill="#57534e" font-weight="700">B16 約束管理</text>
+  <rect x="420" y="132" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="146" font-size="14" fill="#1e293b">使用依據：醫師診斷或護理判斷記錄</text>
+  <rect x="420" y="158" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="172" font-size="14" fill="#1e293b">家屬同意書未超過3個月</text>
+  <rect x="420" y="184" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="198" font-size="14" fill="#1e293b">每2小時監測記錄完整</text>
+  <rect x="420" y="210" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="224" font-size="14" fill="#1e293b">每季整體約束使用分析</text>
+
+  <text x="420" y="250" font-size="16" fill="#57534e" font-weight="700">B17 感染預防</text>
+  <rect x="420" y="258" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="272" font-size="14" fill="#1e293b">疥瘡/呼道/腸道/不明發燒流程書面化</text>
+  <rect x="420" y="284" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="298" font-size="14" fill="#1e293b">每件感染事件逐案分析</text>
+  <rect x="420" y="310" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="324" font-size="14" fill="#1e293b">每半年感染整體分析報告</text>
+
+  <text x="420" y="352" font-size="16" fill="#94a3b8" font-weight="700">B11/B12 用藥管理</text>
+  <rect x="420" y="360" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="374" font-size="14" fill="#1e293b">藥品儲存合規+管制藥加鎖</text>
+  <rect x="420" y="386" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="400" font-size="14" fill="#1e293b">每3個月藥師諮詢服務紀錄</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

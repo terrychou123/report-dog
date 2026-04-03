@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="60" y="60" width="480" height="4" fill="#d97706"/>
+  <text x="60" y="148" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#1e293b">照服員人力配置計算</text>
+  <text x="60" y="210" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#d97706">A11 一級必要項全解</text>
+  <text x="60" y="268" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="#57534e">排班紀錄 × 外籍比例 × 夜班計算</text>
+  <rect x="60" y="294" width="560" height="2" fill="#a8a29e"/>
+  <rect x="60" y="318" width="150" height="44" rx="22" fill="#d97706"/>
+  <text x="135" y="346" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">長照型 1:5/1:15</text>
+  <rect x="226" y="318" width="150" height="44" rx="22" fill="#78716c"/>
+  <text x="301" y="346" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">養護型 1:8/1:25</text>
+  <rect x="392" y="318" width="150" height="44" rx="22" fill="#57534e"/>
+  <text x="467" y="346" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">失智型 1:3/1:15</text>
+  <!-- 右側視覺 -->
+  <rect x="720" y="120" width="420" height="380" rx="20" fill="#d97706" opacity="0.08"/>
+  <text x="930" y="240" font-family="'Noto Sans TC', sans-serif" font-size="120" font-weight="700" fill="#d97706" opacity="0.15" text-anchor="middle">A11</text>
+  <text x="930" y="340" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#57534e" text-anchor="middle">九項一級必要項之一</text>
+  <text x="930" y="378" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">不達標 = 無法通過評鑑</text>
+  <text x="930" y="430" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#d97706" text-anchor="middle">4 年配置記錄均須留存</text>
+  <text x="60" y="430" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c">住宿型照顧機構評鑑實務技巧系列</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">護理師評鑑準備負責項目</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">A9 一級必要：長照1:15、養護1:20、全日上班</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 項目 1 -->
+  <rect x="40" y="115" width="340" height="150" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="115" width="340" height="48" rx="10" fill="#d97706"/>
+  <rect x="40" y="143" width="340" height="20" fill="#d97706"/>
+  <text x="210" y="145" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">護理文件核心任務</text>
+  <text x="58" y="182" font-size="14" fill="#57534e">B2 個案計畫：初評+評值+修正</text>
+  <text x="58" y="204" font-size="14" fill="#57534e">B9 醫師巡診紀錄完整性</text>
+  <text x="58" y="226" font-size="14" fill="#57534e">B13/B14 跌倒壓損逐案分析</text>
+  <text x="58" y="248" font-size="14" fill="#d97706">B16 約束同意書3個月有效期</text>
+
+  <!-- 項目 2 -->
+  <rect x="420" y="115" width="340" height="150" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="420" y="115" width="340" height="48" rx="10" fill="#d97706"/>
+  <rect x="420" y="143" width="340" height="20" fill="#d97706"/>
+  <text x="590" y="145" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">感染與安全管理</text>
+  <text x="438" y="182" font-size="14" fill="#57534e">B10 防疫：每日體溫測量+手部衛生</text>
+  <text x="438" y="204" font-size="14" fill="#57534e">B17 感染事件逐案分析報告</text>
+  <text x="438" y="226" font-size="14" fill="#57534e">B23 侵入性照護技術 SOP 稽核</text>
+  <text x="438" y="248" font-size="14" fill="#d97706">B24 緊急送醫記錄+家屬聯繫</text>
+
+  <!-- 項目 3 -->
+  <rect x="40" y="282" width="340" height="150" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="40" y="282" width="340" height="48" rx="10" fill="#78716c"/>
+  <rect x="40" y="310" width="340" height="20" fill="#78716c"/>
+  <text x="210" y="312" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">日常照護品質紀錄</text>
+  <text x="58" y="350" font-size="14" fill="#57534e">B26 下床活動/肢體活動記錄</text>
+  <text x="58" y="372" font-size="14" fill="#57534e">B27 翻身/清潔/洗澡頻率記錄</text>
+  <text x="58" y="394" font-size="14" fill="#57534e">B19 每月體重測量+預警處置</text>
+  <text x="58" y="416" font-size="14" fill="#78716c">B11/B12 用藥安全管理</text>
+
+  <!-- 項目 4 -->
+  <rect x="420" y="282" width="340" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="420" y="282" width="340" height="48" rx="10" fill="#57534e"/>
+  <rect x="420" y="310" width="340" height="20" fill="#57534e"/>
+  <text x="590" y="312" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">人力配置自我確認</text>
+  <text x="438" y="350" font-size="14" fill="#57534e">確認每班排班符合比例規定</text>
+  <text x="438" y="372" font-size="14" fill="#57534e">執業登錄狀態確認</text>
+  <text x="438" y="394" font-size="14" fill="#57534e">4年內無違規聘用紀錄</text>
+  <text x="438" y="416" font-size="14" fill="#d97706">C15 護理站急救設備在效期</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

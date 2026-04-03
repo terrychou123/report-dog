@@ -1,0 +1,71 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">跌倒逐案分析標準格式</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">B13 逐案分析 4 個必備要素</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 步驟1 -->
+  <rect x="28" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="115" cy="170" r="22" fill="#d97706"/>
+  <text x="115" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">1</text>
+  <text x="115" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">事件基本資料</text>
+  <text x="115" y="244" text-anchor="middle" font-size="13" fill="#57534e">姓名、日期時間</text>
+  <text x="115" y="264" text-anchor="middle" font-size="13" fill="#57534e">發生地點</text>
+  <text x="115" y="284" text-anchor="middle" font-size="13" fill="#57534e">跌倒情形描述</text>
+  <text x="115" y="304" text-anchor="middle" font-size="13" fill="#57534e">傷害程度評估</text>
+  <text x="115" y="338" text-anchor="middle" font-size="12" fill="#d97706" font-weight="600">完整記錄事件</text>
+
+  <!-- 箭頭 1→2 -->
+  <polygon points="210,245 228,237 228,253" fill="#d97706"/>
+  <line x1="202" y1="245" x2="228" y2="245" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟2 -->
+  <rect x="218" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="305" cy="170" r="22" fill="#78716c"/>
+  <text x="305" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">2</text>
+  <text x="305" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">原因分析</text>
+  <text x="305" y="244" text-anchor="middle" font-size="13" fill="#57534e">個人因素（病史）</text>
+  <text x="305" y="264" text-anchor="middle" font-size="13" fill="#57534e">環境因素</text>
+  <text x="305" y="284" text-anchor="middle" font-size="13" fill="#57534e">活動相關因素</text>
+  <text x="305" y="304" text-anchor="middle" font-size="13" fill="#57534e">藥物因素</text>
+  <text x="305" y="338" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">多面向原因探討</text>
+
+  <!-- 箭頭 2→3 -->
+  <polygon points="400,245 418,237 418,253" fill="#d97706"/>
+  <line x1="392" y1="245" x2="418" y2="245" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟3 -->
+  <rect x="408" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="495" cy="170" r="22" fill="#d97706"/>
+  <text x="495" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">3</text>
+  <text x="495" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">處置與追蹤</text>
+  <text x="495" y="244" text-anchor="middle" font-size="13" fill="#57534e">立即處置措施</text>
+  <text x="495" y="264" text-anchor="middle" font-size="13" fill="#57534e">通知家屬紀錄</text>
+  <text x="495" y="284" text-anchor="middle" font-size="13" fill="#57534e">個別預防措施</text>
+  <text x="495" y="304" text-anchor="middle" font-size="13" fill="#57534e">後續追蹤觀察</text>
+  <text x="495" y="338" text-anchor="middle" font-size="12" fill="#d97706" font-weight="600">個別化處置計畫</text>
+
+  <!-- 箭頭 3→4 -->
+  <polygon points="590,245 608,237 608,253" fill="#d97706"/>
+  <line x1="582" y1="245" x2="608" y2="245" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟4 -->
+  <rect x="598" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="685" cy="170" r="22" fill="#78716c"/>
+  <text x="685" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">4</text>
+  <text x="685" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">計畫修正</text>
+  <text x="685" y="244" text-anchor="middle" font-size="13" fill="#57534e">照顧計畫更新</text>
+  <text x="685" y="264" text-anchor="middle" font-size="13" fill="#57534e">預防措施強化</text>
+  <text x="685" y="284" text-anchor="middle" font-size="13" fill="#57534e">環境改善紀錄</text>
+  <text x="685" y="304" text-anchor="middle" font-size="13" fill="#57534e">列入半年分析</text>
+  <text x="685" y="338" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">納入定期分析</text>
+
+  <!-- 底部說明 -->
+  <rect x="40" y="390" width="720" height="60" rx="8" fill="#fef3c7"/>
+  <text x="400" y="416" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">半年統計分析報告：需含案件總數、原因分類統計、改善行動方案、追蹤成效</text>
+  <text x="400" y="441" text-anchor="middle" font-size="14" fill="#78716c">B14 壓損同樣採逐案分析，但定期分析週期為「每季」（比 B13 更頻繁）</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

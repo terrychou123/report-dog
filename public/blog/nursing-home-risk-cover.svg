@@ -1,0 +1,64 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 左側色塊 -->
+  <rect x="0" y="0" width="580" height="630" fill="#57534e"/>
+  <!-- 右側 -->
+  <rect x="580" y="0" width="620" height="630" fill="#faf9f5"/>
+
+  <!-- 左側標題 -->
+  <text x="60" y="120" font-size="48" fill="#fff" font-weight="700">危機管理計畫</text>
+  <text x="60" y="180" font-size="48" fill="#fff" font-weight="700">怎麼寫？</text>
+  <text x="60" y="250" font-size="28" fill="#fde68a" font-weight="400">A6 風險管理 4 個必備要素</text>
+
+  <!-- 標籤 -->
+  <rect x="60" y="290" width="220" height="40" rx="20" fill="#44403c"/>
+  <text x="170" y="316" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">A6 評鑑基準解析</text>
+
+  <!-- 重點數字 -->
+  <rect x="60" y="360" width="460" height="120" rx="12" fill="#44403c" opacity="0.8"/>
+  <text x="90" y="398" font-size="16" fill="#fde68a">最少風險項目數</text>
+  <text x="90" y="440" font-size="64" fill="#d97706" font-weight="700">3</text>
+  <text x="180" y="440" font-size="28" fill="#fff" font-weight="400">個（含）以上</text>
+  <text x="90" y="468" font-size="16" fill="#a8a29e">每半年定期分析一次</text>
+
+  <!-- 右側卡片 -->
+  <rect x="620" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="640" y="115" font-size="36">📋</text>
+  <text x="720" y="122" font-size="20" fill="#1e293b" font-weight="700">風險計畫</text>
+  <text x="720" y="148" font-size="14" fill="#57534e">3項以上風險</text>
+  <text x="720" y="168" font-size="14" fill="#57534e">明確處理程序</text>
+  <text x="720" y="188" font-size="14" fill="#57534e">每半年分析</text>
+
+  <rect x="880" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="900" y="115" font-size="36">📊</text>
+  <text x="980" y="122" font-size="20" fill="#1e293b" font-weight="700">A4 查核缺失</text>
+  <text x="980" y="148" font-size="14" fill="#57534e">改善達 100%</text>
+  <text x="980" y="168" font-size="14" fill="#57534e">過去 4 年查核</text>
+  <text x="980" y="188" font-size="14" fill="#57534e">全面改善要求</text>
+
+  <rect x="620" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="640" y="265" font-size="36">🔄</text>
+  <text x="720" y="272" font-size="20" fill="#1e293b" font-weight="700">PDCA 循環</text>
+  <text x="720" y="298" font-size="14" fill="#57534e">計畫→執行</text>
+  <text x="720" y="318" font-size="14" fill="#57534e">查核→行動</text>
+  <text x="720" y="338" font-size="14" fill="#57534e">持續改善</text>
+
+  <rect x="880" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="900" y="265" font-size="36">🏆</text>
+  <text x="980" y="272" font-size="20" fill="#1e293b" font-weight="700">E1 前次改善</text>
+  <text x="980" y="298" font-size="14" fill="#57534e">建議改善≥80%</text>
+  <text x="980" y="318" font-size="14" fill="#57534e">具體執行佐證</text>
+  <text x="980" y="338" font-size="14" fill="#57534e">完整改善紀錄</text>
+
+  <!-- 底部 -->
+  <rect x="620" y="390" width="500" height="160" rx="12" fill="#fef3c7"/>
+  <text x="870" y="430" text-anchor="middle" font-size="18" fill="#92400e" font-weight="700">A6 危機管理 4 大必備要素</text>
+  <text x="640" y="465" font-size="15" fill="#78716c">✓ 選擇 3 個以上風險訂定計畫</text>
+  <text x="640" y="492" font-size="15" fill="#78716c">✓ 明確具體處理程序與措施</text>
+  <text x="640" y="519" font-size="15" fill="#78716c">✓ 事件發生時依計畫執行有紀錄</text>
+  <text x="640" y="546" font-size="15" fill="#78716c">✓ 每半年定期分析報告含追蹤</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

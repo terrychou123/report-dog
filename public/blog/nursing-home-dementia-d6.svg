@@ -1,0 +1,49 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">D6 居家情境評鑑要求</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">二級加強項目——3 大核心要求</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 標頭 -->
+  <rect x="40" y="110" width="720" height="46" rx="6" fill="#d97706"/>
+  <text x="80" y="140" font-size="16" fill="#fff" font-weight="700">要求項目</text>
+  <text x="350" y="140" font-size="16" fill="#fff" font-weight="700">說明</text>
+  <text x="620" y="140" font-size="16" fill="#fff" font-weight="700">查核方式</text>
+
+  <!-- 第1項 -->
+  <rect x="40" y="166" width="720" height="90" rx="4" fill="#fff"/>
+  <rect x="40" y="166" width="4" height="90" fill="#d97706"/>
+  <text x="56" y="194" font-size="15" fill="#1e293b" font-weight="600">床間隔離視線屏障</text>
+  <text x="56" y="216" font-size="13" fill="#57534e">床與床之間具隔離視線之屏障物</text>
+  <text x="56" y="236" font-size="13" fill="#57534e">（如圍簾），保護住民隱私</text>
+  <text x="350" y="200" font-size="13" fill="#57534e">所有病床均需有床簾</text>
+  <text x="350" y="220" font-size="13" fill="#57534e">功能正常、可完全遮蔽</text>
+  <text x="350" y="240" font-size="13" fill="#57534e">顏色、材質整潔</text>
+  <text x="620" y="220" font-size="14" fill="#d97706" font-weight="600">實地察看</text>
+
+  <!-- 第2項 -->
+  <rect x="40" y="268" width="720" height="90" rx="4" fill="#fafaf8"/>
+  <rect x="40" y="268" width="4" height="90" fill="#78716c"/>
+  <text x="56" y="296" font-size="15" fill="#1e293b" font-weight="600">禁設監視器於寢室浴廁</text>
+  <text x="56" y="318" font-size="13" fill="#57534e">監視器未設置於服務對象</text>
+  <text x="56" y="338" font-size="13" fill="#57534e">寢室及浴廁內</text>
+  <text x="350" y="302" font-size="13" fill="#57534e">走廊可設置，寢室不行</text>
+  <text x="350" y="322" font-size="13" fill="#57534e">浴廁絕對禁止設置</text>
+  <text x="350" y="342" font-size="13" fill="#57534e">需完整說明監視範圍</text>
+  <text x="620" y="322" font-size="14" fill="#d97706" font-weight="600">實地察看</text>
+
+  <!-- 第3項 -->
+  <rect x="40" y="370" width="720" height="90" rx="4" fill="#fff"/>
+  <rect x="40" y="370" width="4" height="90" fill="#d97706"/>
+  <text x="56" y="398" font-size="15" fill="#1e293b" font-weight="600">床頭櫃與個人物品</text>
+  <text x="56" y="420" font-size="13" fill="#57534e">床位旁有可擺放私人物品的床頭櫃</text>
+  <text x="56" y="440" font-size="13" fill="#57534e">允許服務對象攜帶個人物品佈置</text>
+  <text x="350" y="404" font-size="13" fill="#57534e">每位住民有床頭櫃</text>
+  <text x="350" y="424" font-size="13" fill="#57534e">實際有個人物品擺放</text>
+  <text x="350" y="444" font-size="13" fill="#57534e">住民可自主管理物品</text>
+  <text x="620" y="422" font-size="14" fill="#d97706" font-weight="600">實地察看</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

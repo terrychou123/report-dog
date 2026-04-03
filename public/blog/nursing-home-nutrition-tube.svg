@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">B32 管灌飲食紀錄要點</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">委員可能現場抽測的四大操作重點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 項目1 -->
+  <rect x="40" y="118" width="720" height="72" rx="8" fill="#ffffff"/>
+  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
+  <circle cx="80" cy="154" r="20" fill="#d97706"/>
+  <text x="80" y="160" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="120" y="142" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">每日至少一次天然食材（非商業配方）</text>
+  <text x="120" y="166" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">新鮮蔬果汁、米湯、蒸蛋液等天然食材（商業包裝稀釋果汁不算）</text>
+  <!-- 項目2 -->
+  <rect x="40" y="202" width="720" height="72" rx="8" fill="#f8f7f5"/>
+  <rect x="40" y="202" width="6" height="72" rx="3" fill="#78716c"/>
+  <circle cx="80" cy="238" r="20" fill="#78716c"/>
+  <text x="80" y="244" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="120" y="226" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">灌食技術正確（管路確認、回抽、空針高度、流速）</text>
+  <text x="120" y="250" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">注意：評鑑現場抽測時不可使用灌食筒或灌食袋，須用空針</text>
+  <!-- 項目3 -->
+  <rect x="40" y="286" width="720" height="72" rx="8" fill="#ffffff"/>
+  <rect x="40" y="286" width="6" height="72" rx="3" fill="#57534e"/>
+  <circle cx="80" cy="322" r="20" fill="#57534e"/>
+  <text x="80" y="328" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="120" y="310" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">灌食後 1 小時上半身抬高 30-45 度</text>
+  <text x="120" y="334" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">灌食時向住民說明或打招呼，尊重住民尊嚴</text>
+  <!-- 項目4 -->
+  <rect x="40" y="370" width="720" height="72" rx="8" fill="#f8f7f5"/>
+  <rect x="40" y="370" width="6" height="72" rx="3" fill="#94a3b8"/>
+  <circle cx="80" cy="406" r="20" fill="#94a3b8"/>
+  <text x="80" y="412" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="120" y="394" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">個別空針，使用過程符合衛生清潔</text>
+  <text x="120" y="418" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">空針為個人專用，使用後清潔消毒不得混用，管路保持暢通無殘留</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

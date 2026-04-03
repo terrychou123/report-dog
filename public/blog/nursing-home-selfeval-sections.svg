@@ -1,0 +1,60 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">5 大區塊自評表填寫重點</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">75 項評鑑指標分區攻略</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上排左 - A區塊 -->
+  <rect x="40" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="104" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="56" y="136" font-size="17" fill="#d97706" font-weight="700">A 區塊：經營管理效能（15項）</text>
+  <text x="56" y="158" font-size="13" fill="#57534e">• 一級必要：A7/A9/A11（3個）</text>
+  <text x="56" y="178" font-size="13" fill="#57534e">• 二級加強：A2 入出機構管理</text>
+  <text x="56" y="198" font-size="13" fill="#57534e">• A4 查核缺失改善達 100%</text>
+  <text x="56" y="218" font-size="13" fill="#57534e">• A6 危機管理計畫 3 個以上風險</text>
+  <text x="56" y="254" font-size="13" fill="#d97706" font-weight="600">★ 人力配置是最常被查核的核心</text>
+
+  <!-- 上排右 - B區塊 -->
+  <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="104" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="436" y="136" font-size="17" fill="#78716c" font-weight="700">B 區塊：專業照護品質（32項）</text>
+  <text x="436" y="158" font-size="13" fill="#57534e">• 二級加強：B2/B10/B25（3個）</text>
+  <text x="436" y="178" font-size="13" fill="#57534e">• B13 跌倒：每半年分析報告</text>
+  <text x="436" y="198" font-size="13" fill="#57534e">• B14 壓損：每季分析報告</text>
+  <text x="436" y="218" font-size="13" fill="#57534e">• B16 約束：同意書 3 月有效期</text>
+  <text x="436" y="254" font-size="13" fill="#78716c" font-weight="600">★ 「逐案分析」是護理項目關鍵詞</text>
+
+  <!-- 下排左 - C區塊 -->
+  <rect x="40" y="288" width="220" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="288" width="220" height="8" rx="4" fill="#d97706"/>
+  <text x="56" y="316" font-size="15" fill="#d97706" font-weight="700">C 安全環境（16項）</text>
+  <text x="56" y="338" font-size="12" fill="#57534e">• 一級必要：C4/C9/C10</text>
+  <text x="56" y="356" font-size="12" fill="#57534e">  C11/C12/C15（6個）</text>
+  <text x="56" y="376" font-size="12" fill="#57534e">• 消防每半年委託檢修</text>
+  <text x="56" y="396" font-size="12" fill="#57534e">• 疏散避難圖標示明確</text>
+  <text x="56" y="430" font-size="12" fill="#d97706" font-weight="600">★ C區最多一級必要</text>
+
+  <!-- 下排中 - D區塊 -->
+  <rect x="280" y="288" width="220" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="280" y="288" width="220" height="8" rx="4" fill="#78716c"/>
+  <text x="296" y="316" font-size="15" fill="#78716c" font-weight="700">D 個案權益（9項）</text>
+  <text x="296" y="338" font-size="12" fill="#57534e">• 二級加強：D1/D6（2個）</text>
+  <text x="296" y="358" font-size="12" fill="#57534e">• D6 床間圍簾設置</text>
+  <text x="296" y="378" font-size="12" fill="#57534e">• 禁寢室浴廁監視器</text>
+  <text x="296" y="398" font-size="12" fill="#57534e">• 服務契約 5 天審閱期</text>
+  <text x="296" y="430" font-size="12" fill="#78716c" font-weight="600">★ 實地察看項目多</text>
+
+  <!-- 下排右 - E區塊 -->
+  <rect x="520" y="288" width="240" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="520" y="288" width="240" height="8" rx="4" fill="#d97706"/>
+  <text x="536" y="316" font-size="15" fill="#d97706" font-weight="700">E 服務改進創新（3項）</text>
+  <text x="536" y="338" font-size="12" fill="#57534e">• E1 前次評鑑建議改善≥80%</text>
+  <text x="536" y="358" font-size="12" fill="#57534e">  逐項製作改善對照表</text>
+  <text x="536" y="378" font-size="12" fill="#57534e">• E2 創新措施至少 1 項</text>
+  <text x="536" y="398" font-size="12" fill="#57534e">• E3 違規扣分避免發生</text>
+  <text x="536" y="430" font-size="12" fill="#d97706" font-weight="600">★ 建議主動準備 E2 創新項目</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

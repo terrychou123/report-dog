@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑現場答題技巧</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">四步驟讓委員看到你的專業與準備</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 步驟1 -->
+  <rect x="80" y="130" width="140" height="120" rx="14" fill="#d97706"/>
+  <text x="150" y="182" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="150" y="216" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">確認問題</text>
+  <text x="150" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">先理解委員</text>
+  <text x="150" y="257" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">問的重點</text>
+  <!-- 箭頭 -->
+  <text x="248" y="196" font-family="'Noto Sans TC', sans-serif" font-size="30" fill="#78716c" text-anchor="middle">&#8594;</text>
+  <!-- 步驟2 -->
+  <rect x="270" y="130" width="140" height="120" rx="14" fill="#78716c"/>
+  <text x="340" y="182" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="340" y="216" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">說法規</text>
+  <text x="340" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">引用對應的</text>
+  <text x="340" y="257" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">評鑑基準條文</text>
+  <!-- 箭頭 -->
+  <text x="438" y="196" font-family="'Noto Sans TC', sans-serif" font-size="30" fill="#57534e" text-anchor="middle">&#8594;</text>
+  <!-- 步驟3 -->
+  <rect x="460" y="130" width="140" height="120" rx="14" fill="#57534e"/>
+  <text x="530" y="182" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="530" y="216" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">說做法</text>
+  <text x="530" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">說明機構實際</text>
+  <text x="530" y="257" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">執行的具體方式</text>
+  <!-- 箭頭 -->
+  <text x="628" y="196" font-family="'Noto Sans TC', sans-serif" font-size="30" fill="#94a3b8" text-anchor="middle">&#8594;</text>
+  <!-- 步驟4 -->
+  <rect x="650" y="130" width="110" height="120" rx="14" fill="#94a3b8"/>
+  <text x="705" y="182" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="705" y="216" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">指文件</text>
+  <text x="705" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">主動說明</text>
+  <text x="705" y="257" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">佐證文件位置</text>
+  <!-- 說明卡 -->
+  <rect x="40" y="278" width="720" height="54" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <text x="60" y="298" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">常見錯誤：</text>
+  <text x="162" y="298" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">「我不清楚，要問護理長。」——工作人員各自都需了解自己負責的面向</text>
+  <text x="60" y="322" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">正確做法：</text>
+  <text x="162" y="322" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">每人清楚自己職責範圍的答題要點，超出範圍時說「請委員查閱文件」</text>
+  <!-- 底部提示 -->
+  <rect x="40" y="352" width="720" height="54" rx="10" fill="#57534e"/>
+  <text x="60" y="372" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#ffffff">評鑑前準備：</text>
+  <text x="176" y="372" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8">評鑑前 2 週至少進行一次全員模擬訪談演練</text>
+  <text x="60" y="396" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8">讓每位工作人員知道「可能被問什麼」以及「答案在哪份文件裡」</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

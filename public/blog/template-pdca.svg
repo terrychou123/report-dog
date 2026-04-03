@@ -1,73 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460">
-  <defs>
-    <filter id="center-shadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#94a3b8" flood-opacity="0.2"/>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
 
   <!-- 背景：米黃暖色 -->
-  <rect width="800" height="460" fill="#f0efe8"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 標題 -->
-  <text x="400" y="36" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">PDCA 持續改善循環</text>
-  <text x="400" y="56" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">Continuous Improvement Process · 評鑑品質提升框架</text>
+  <!-- 標題（34px）+ 副標（22px）+ 分隔線 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">PDCA 持續改善循環</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">Continuous Improvement Process</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- PDCA 弧段：Plan（藍）-80° to 5° -->
-  <path d="M 422 107 A 125 125 0 0 1 525 241 L 480 237 A 80 80 0 0 0 414 151 Z" fill="#2563eb"/>
-  <polygon points="501,255 494,230 512,248" fill="#2563eb"/>
+  <!--
+    ===== PDCA 粗弧箭頭環 =====
+    圓心 cx=400, cy=285（800px SVG 水平置中）
+    外半徑 R=130，內半徑 r=68（弧帶厚 62px）
+    每段弧 72°，間隔 18°
+    整體順時針旋轉 50°（標準位置 +50°，等同逆時針 -30° 調整）
+    箭頭：外翹 +15=145，內翹 r-15=53，箭尖在 r=99 再多 14°
+    point(radius, θ) = (400 + radius·sinθ, 285 − radius·cosθ)
 
-  <!-- Do（綠）10° to 95° -->
-  <path d="M 523 252 A 125 125 0 0 1 389 355 L 393 310 A 80 80 0 0 0 479 244 Z" fill="#16a34a"/>
-  <polygon points="375,331 400,324 382,342" fill="#16a34a"/>
+    Plan :  14°→ 86°，箭尖 100°（右上）
+    Do   : 104°→176°，箭尖 190°（右下）
+    Check: 194°→266°，箭尖 280°（左下）
+    Act  : 284°→356°，箭尖  10°（左上）
+  -->
 
-  <!-- Check（橘）100° to 185° -->
-  <path d="M 378 353 A 125 125 0 0 1 276 219 L 320 223 A 80 80 0 0 0 386 309 Z" fill="#ea580c"/>
-  <polygon points="299,205 306,230 290,212" fill="#ea580c"/>
+  <!-- === P（Plan，#d97706 琥珀）：弧 14°→86° === -->
+  <path d="
+    M 431 159
+    A 130 130 0 0 1 530 276
+    L 545 275
+    L 498 302
+    L 453 281
+    L 468 280
+    A 68 68 0 0 0 416 219
+    Z"
+    fill="#d97706"/>
 
-  <!-- Act（紫）190° to 275° -->
-  <path d="M 277 208 A 125 125 0 0 1 411 106 L 407 150 A 80 80 0 0 0 321 216 Z" fill="#9333ea"/>
-  <polygon points="425,129 400,136 418,120" fill="#9333ea"/>
+  <!-- === D（Do，#78716c 暖灰）：弧 104°→176° === -->
+  <path d="
+    M 526 316
+    A 130 130 0 0 1 409 415
+    L 410 430
+    L 383 383
+    L 404 338
+    L 405 353
+    A 68 68 0 0 0 466 301
+    Z"
+    fill="#78716c"/>
 
-  <!-- 字母 -->
-  <text x="481" y="178" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="white" font-weight="700">P</text>
-  <text x="462" y="321" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="white" font-weight="700">D</text>
-  <text x="319" y="302" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="white" font-weight="700">C</text>
-  <text x="338" y="159" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="white" font-weight="700">A</text>
+  <!-- === C（Check，#57534e 深棕）：弧 194°→266° === -->
+  <path d="
+    M 369 411
+    A 130 130 0 0 1 270 294
+    L 255 295
+    L 303 268
+    L 347 289
+    L 332 290
+    A 68 68 0 0 0 384 351
+    Z"
+    fill="#57534e"/>
 
-  <!-- 中央白圓 -->
-  <circle cx="400" cy="230" r="74" fill="white" filter="url(#center-shadow)"/>
-  <text x="400" y="224" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">PDCA</text>
-  <text x="400" y="244" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">Cycle</text>
-  <text x="400" y="262" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#94a3b8">持續改善</text>
+  <!-- === A（Act，#a8a29e 淺灰）：弧 284°→356° === -->
+  <path d="
+    M 274 254
+    A 130 130 0 0 1 391 155
+    L 390 140
+    L 417 188
+    L 396 232
+    L 395 217
+    A 68 68 0 0 0 334 269
+    Z"
+    fill="#a8a29e"/>
 
-  <!-- 右上：Plan（藍） -->
-  <rect x="556" y="72" width="6" height="18" rx="1" fill="#2563eb"/>
-  <text x="568" y="86" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">計劃 Plan</text>
-  <line x1="556" y1="96" x2="700" y2="96" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="556" y="112" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">設定明確的改善目標</text>
-  <text x="556" y="130" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">制定具體行動方案</text>
+  <!-- 弧段字母（各弧中點，r=99） -->
+  <!-- P：50° → (476, 221) -->
+  <text x="476" y="227" text-anchor="middle" font-size="30" fill="white" font-weight="700">P</text>
+  <!-- D：140° → (464, 361) -->
+  <text x="464" y="367" text-anchor="middle" font-size="30" fill="white" font-weight="700">D</text>
+  <!-- C：230° → (324, 349) -->
+  <text x="324" y="355" text-anchor="middle" font-size="30" fill="white" font-weight="700">C</text>
+  <!-- A：320° → (336, 209)，改為白色 -->
+  <text x="336" y="215" text-anchor="middle" font-size="30" fill="white" font-weight="700">A</text>
 
-  <!-- 右下：Do（綠） -->
-  <rect x="556" y="300" width="6" height="18" rx="1" fill="#16a34a"/>
-  <text x="568" y="314" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">執行 Do</text>
-  <line x1="556" y1="324" x2="700" y2="324" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="556" y="340" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">依計劃執行各項任務</text>
-  <text x="556" y="358" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">收集過程中的數據</text>
+  <!-- 中央「PDCA Cycle」文字（白圓已移除，文字直接顯示於箭頭間隙上） -->
+  <text x="400" y="278" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">PDCA</text>
+  <text x="400" y="302" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">Cycle</text>
 
-  <!-- 左下：Check（橘） -->
-  <rect x="100" y="300" width="6" height="18" rx="1" fill="#ea580c"/>
-  <text x="112" y="314" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">查核 Check</text>
-  <line x1="100" y1="324" x2="244" y2="324" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="100" y="340" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">評估執行結果成效</text>
-  <text x="100" y="358" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">找出差異與問題點</text>
+  <!-- 右上：計劃 Plan（y=130，下移 20px） -->
+  <rect x="555" y="130" width="6" height="22" rx="1" fill="#d97706"/>
+  <text x="567" y="148" font-size="22" fill="#1e293b" font-weight="700">計劃 Plan</text>
+  <line x1="555" y1="156" x2="755" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="175" font-size="17" fill="#57534e">設定明確的改善目標</text>
+  <text x="555" y="196" font-size="17" fill="#57534e">制定具體行動方案</text>
 
-  <!-- 左上：Act（紫） -->
-  <rect x="100" y="72" width="6" height="18" rx="1" fill="#9333ea"/>
-  <text x="112" y="86" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">行動 Act</text>
-  <line x1="100" y1="96" x2="244" y2="96" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="100" y="112" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">落實改善措施</text>
-  <text x="100" y="130" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#475569">納入下一輪計劃基礎</text>
+  <!-- 右下：執行 Do（y=365，下移 10px） -->
+  <rect x="555" y="365" width="6" height="22" rx="1" fill="#78716c"/>
+  <text x="567" y="383" font-size="22" fill="#1e293b" font-weight="700">執行 Do</text>
+  <line x1="555" y1="391" x2="755" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="410" font-size="17" fill="#57534e">依計劃執行各項任務</text>
+  <text x="555" y="431" font-size="17" fill="#57534e">收集過程中的數據</text>
+
+  <!-- 左下：查核 Check（y=365，x=100） -->
+  <rect x="100" y="365" width="6" height="22" rx="1" fill="#57534e"/>
+  <text x="112" y="383" font-size="22" fill="#1e293b" font-weight="700">查核 Check</text>
+  <line x1="100" y1="391" x2="300" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="410" font-size="17" fill="#57534e">評估執行結果成效</text>
+  <text x="100" y="431" font-size="17" fill="#57534e">找出差異與問題點</text>
+
+  <!-- 左上：行動 Act（y=130，x=100） -->
+  <rect x="100" y="130" width="6" height="22" rx="1" fill="#a8a29e"/>
+  <text x="112" y="148" font-size="22" fill="#1e293b" font-weight="700">行動 Act</text>
+  <line x1="100" y1="156" x2="300" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="175" font-size="17" fill="#57534e">落實改善措施</text>
+  <text x="100" y="196" font-size="17" fill="#57534e">納入下一輪計劃基礎</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="431" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="490" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

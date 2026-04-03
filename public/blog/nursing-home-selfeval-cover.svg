@@ -1,0 +1,65 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 左側色塊 -->
+  <rect x="0" y="0" width="580" height="630" fill="#d97706"/>
+  <!-- 右側 -->
+  <rect x="580" y="0" width="620" height="630" fill="#faf9f5"/>
+
+  <!-- 左側標題 -->
+  <text x="60" y="110" font-size="48" fill="#fff" font-weight="700">評鑑自評表</text>
+  <text x="60" y="170" font-size="48" fill="#fff" font-weight="700">填寫技巧</text>
+  <text x="60" y="240" font-size="28" fill="#fde68a" font-weight="400">讓委員一眼看出你的努力</text>
+
+  <!-- 標籤 -->
+  <rect x="60" y="280" width="220" height="40" rx="20" fill="#92400e"/>
+  <text x="170" y="306" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">75 項全面攻略</text>
+
+  <!-- 重點 -->
+  <rect x="60" y="350" width="460" height="140" rx="12" fill="#b45309" opacity="0.6"/>
+  <text x="90" y="388" font-size="16" fill="#fde68a">評鑑共計</text>
+  <text x="90" y="432" font-size="64" fill="#fff" font-weight="700">75</text>
+  <text x="195" y="432" font-size="28" fill="#fde68a" font-weight="400">個評鑑項目</text>
+  <text x="90" y="470" font-size="15" fill="#a8a29e">9個一級必要 ／ 8個二級加強</text>
+
+  <!-- 右側卡片 -->
+  <rect x="620" y="80" width="240" height="120" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="640" y="112" font-size="34">📝</text>
+  <text x="720" y="118" font-size="19" fill="#1e293b" font-weight="700">5大策略</text>
+  <text x="720" y="142" font-size="14" fill="#57534e">先A後B、先重後輕</text>
+  <text x="720" y="162" font-size="14" fill="#57534e">佐證文件條理清晰</text>
+  <text x="720" y="182" font-size="14" fill="#57534e">用數字說話最有力</text>
+
+  <rect x="880" y="80" width="240" height="120" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="900" y="112" font-size="34">🎯</text>
+  <text x="980" y="118" font-size="19" fill="#1e293b" font-weight="700">常見失分</text>
+  <text x="980" y="142" font-size="14" fill="#57534e">「有做但沒記錄」</text>
+  <text x="980" y="162" font-size="14" fill="#57534e">「有文件但不完整」</text>
+  <text x="980" y="182" font-size="14" fill="#57534e">「有改善但無追蹤」</text>
+
+  <rect x="620" y="220" width="240" height="120" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="640" y="252" font-size="34">📊</text>
+  <text x="720" y="258" font-size="19" fill="#1e293b" font-weight="700">A 區塊重點</text>
+  <text x="720" y="282" font-size="14" fill="#57534e">3個一級必要</text>
+  <text x="720" y="302" font-size="14" fill="#57534e">人力配置核查</text>
+  <text x="720" y="322" font-size="14" fill="#57534e">A4/A6 行政管理</text>
+
+  <rect x="880" y="220" width="240" height="120" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="900" y="252" font-size="34">🏥</text>
+  <text x="980" y="258" font-size="19" fill="#1e293b" font-weight="700">B 區塊重點</text>
+  <text x="980" y="282" font-size="14" fill="#57534e">32項護理照護</text>
+  <text x="980" y="302" font-size="14" fill="#57534e">逐案分析紀錄</text>
+  <text x="980" y="322" font-size="14" fill="#57534e">定期分析週期</text>
+
+  <!-- 底部 -->
+  <rect x="620" y="368" width="500" height="192" rx="12" fill="#fef3c7"/>
+  <text x="870" y="406" text-anchor="middle" font-size="18" fill="#92400e" font-weight="700">自評表填寫黃金原則</text>
+  <text x="640" y="440" font-size="15" fill="#78716c">✓ 一級必要項目必須全部達標</text>
+  <text x="640" y="466" font-size="15" fill="#78716c">✓ 二級加強要有完整佐證文件</text>
+  <text x="640" y="492" font-size="15" fill="#78716c">✓ 每項「達標」需有具體佐證說明</text>
+  <text x="640" y="518" font-size="15" fill="#78716c">✓ E1 前次建議需有改善對照表</text>
+  <text x="640" y="544" font-size="15" fill="#78716c">✓ 預先整理文件索引方便委員查閱</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

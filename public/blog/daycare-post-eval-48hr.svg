@@ -1,71 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑結束 48 小時內：3 步驟緊急處理</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 3 steps -->
-  <!-- Step 1: 記錄 -->
-  <rect x="52" y="84" width="210" height="302" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="84" width="210" height="5" rx="2.5" fill="#d97706"/>
-  <text x="157" y="113" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">Step 1　記錄反饋</text>
-  <circle cx="157" cy="155" r="30" fill="#d97706" opacity="0.10"/>
-  <text x="157" y="163" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
-  <line x1="68" y1="196" x2="246" y2="196" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="218" font-size="13" fill="#1e293b" font-weight="600">需記錄的內容：</text>
-  <text x="72" y="238" font-size="12" fill="#57534e">▸ 委員口頭意見</text>
-  <text x="72" y="256" font-size="12" fill="#57534e">▸ 書面評分單</text>
-  <text x="72" y="274" font-size="12" fill="#57534e">▸ 現場查核缺失</text>
-  <text x="72" y="292" font-size="12" fill="#57534e">▸ 受訪者反映問題</text>
-  <text x="72" y="320" font-size="13" fill="#d97706" font-weight="600">注意：</text>
-  <text x="72" y="340" font-size="12" fill="#94a3b8">委員離開即整理</text>
-  <text x="72" y="358" font-size="12" fill="#94a3b8">記憶最清晰時記錄</text>
-  <text x="72" y="372" font-size="11" fill="#a8a29e">不要等隔天再寫</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑結束 48 小時 3 大緊急行動</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">趁記憶猶新，立刻啟動改善的黃金 48 小時</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Arrow 1 -->
-  <text x="284" y="236" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- 箭頭 -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="299,273 315,279 299,285" fill="#c4bfb8"/>
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,273 501,279 485,285" fill="#c4bfb8"/>
 
-  <!-- Step 2: 分類 -->
-  <rect x="296" y="84" width="210" height="302" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="296" y="84" width="210" height="5" rx="2.5" fill="#78716c"/>
-  <text x="401" y="113" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">Step 2　分類缺失</text>
-  <circle cx="401" cy="155" r="30" fill="#78716c" opacity="0.10"/>
-  <text x="401" y="163" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">2</text>
-  <line x1="312" y1="196" x2="490" y2="196" stroke="#f0ede6" stroke-width="1"/>
-  <text x="316" y="218" font-size="13" fill="#1e293b" font-weight="600">3 類缺失定義：</text>
-  <rect x="316" y="228" width="170" height="26" rx="6" fill="#ef4444" opacity="0.10"/>
-  <text x="401" y="245" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">A 類：嚴重缺失</text>
-  <text x="316" y="264" font-size="11" fill="#57534e">影響個案安全/權益</text>
-  <text x="316" y="282" font-size="11" fill="#57534e">需立即改善並通報</text>
-  <rect x="316" y="294" width="170" height="26" rx="6" fill="#f59e0b" opacity="0.10"/>
-  <text x="401" y="311" font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">B 類：一般缺失</text>
-  <text x="316" y="330" font-size="11" fill="#57534e">文件或流程不完整</text>
-  <text x="316" y="348" font-size="11" fill="#57534e">30天內改善</text>
-  <text x="316" y="366" font-size="12" fill="#78716c">C 類：小缺失</text>
-  <text x="316" y="384" font-size="11" fill="#57534e">輕微，下次改善</text>
+  <!-- Step 1：收集委員意見（#d97706）x=129 cx=214 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="211" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <text x="214" y="297" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">收集意見</text>
+  <text x="214" y="324" text-anchor="middle" font-size="23" fill="#57534e">整理委員口頭</text>
+  <text x="214" y="347" text-anchor="middle" font-size="23" fill="#57534e">反饋與發現事項</text>
+  <rect x="142" y="381" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" text-anchor="middle" font-size="18" fill="#d97706" font-weight="600">即日完成</text>
 
-  <!-- Arrow 2 -->
-  <text x="528" y="236" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- Step 2：清點問題清單（#78716c）x=315 cx=400 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="211" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="297" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">清點缺失</text>
+  <text x="400" y="324" text-anchor="middle" font-size="23" fill="#57534e">列出所有待改善</text>
+  <text x="400" y="347" text-anchor="middle" font-size="23" fill="#57534e">項目分類排序</text>
+  <rect x="328" y="381" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" text-anchor="middle" font-size="18" fill="#78716c" font-weight="600">24 小時內</text>
 
-  <!-- Step 3: 評估 -->
-  <rect x="540" y="84" width="208" height="302" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="540" y="84" width="208" height="5" rx="2.5" fill="#a8a29e"/>
-  <text x="644" y="113" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">Step 3　評估優先序</text>
-  <circle cx="644" cy="155" r="30" fill="#a8a29e" opacity="0.12"/>
-  <text x="644" y="163" font-size="26" font-weight="900" fill="#d97706" text-anchor="middle">3</text>
-  <line x1="556" y1="196" x2="732" y2="196" stroke="#f0ede6" stroke-width="1"/>
-  <text x="560" y="218" font-size="13" fill="#1e293b" font-weight="600">優先處理順序：</text>
-  <rect x="560" y="228" width="172" height="34" rx="6" fill="#ef4444" opacity="0.10"/>
-  <text x="560" y="248" font-size="12" fill="#dc2626" font-weight="700">① A類 → 立即行動</text>
-  <text x="560" y="262" font-size="11" fill="#57534e">今日即開始處理</text>
-  <rect x="560" y="272" width="172" height="34" rx="6" fill="#f59e0b" opacity="0.10"/>
-  <text x="560" y="292" font-size="12" fill="#d97706" font-weight="700">② B類 → 1週內啟動</text>
-  <text x="560" y="306" font-size="11" fill="#57534e">第1週開檢討會</text>
-  <rect x="560" y="316" width="172" height="34" rx="6" fill="#78716c" opacity="0.08"/>
-  <text x="560" y="336" font-size="12" fill="#78716c" font-weight="700">③ C類 → 納入計畫</text>
-  <text x="560" y="350" font-size="11" fill="#57534e">合併下次改善</text>
-  <text x="560" y="374" font-size="13" fill="#d97706" font-weight="600">繳交期限確認：</text>
-  <text x="560" y="392" font-size="12" fill="#57534e">改善報告 30 天後</text>
+  <!-- Step 3：啟動緊急改善（#57534e）x=501 cx=586 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="211" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="297" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">啟動改善</text>
+  <text x="586" y="324" text-anchor="middle" font-size="23" fill="#57534e">立即修正可快速</text>
+  <text x="586" y="347" text-anchor="middle" font-size="23" fill="#57534e">解決的問題事項</text>
+  <rect x="514" y="381" width="144" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="405" text-anchor="middle" font-size="18" fill="#57534e" font-weight="600">48 小時內</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

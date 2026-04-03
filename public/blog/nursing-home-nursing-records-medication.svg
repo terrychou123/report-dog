@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">用藥紀錄 4 大要點（B11/B12）</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">藥品儲存、給藥記錄、藥師諮詢、反應追蹤</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 要點 1 -->
+  <rect x="40" y="118" width="340" height="150" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="118" width="340" height="48" rx="10" fill="#d97706"/>
+  <rect x="40" y="146" width="340" height="20" fill="#d97706"/>
+  <text x="210" y="148" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">要點1：藥品儲存安全（B11）</text>
+  <text x="58" y="184" font-size="14" fill="#57534e">藥品依規定分類儲存，均在效期內</text>
+  <text x="58" y="206" font-size="14" fill="#57534e">標示清楚：姓名+服用時間+劑量</text>
+  <text x="58" y="228" font-size="14" fill="#57534e">管制藥品：專設加鎖櫃儲藏</text>
+  <text x="58" y="250" font-size="14" fill="#d97706">不再使用管制藥品須送特約藥局回收</text>
+
+  <!-- 要點 2 -->
+  <rect x="420" y="118" width="340" height="150" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <rect x="420" y="118" width="340" height="48" rx="10" fill="#78716c"/>
+  <rect x="420" y="146" width="340" height="20" fill="#78716c"/>
+  <text x="590" y="148" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">要點2：給藥三讀五對（B12）</text>
+  <text x="438" y="184" font-size="14" fill="#57534e">由醫護人員執行處方及給藥</text>
+  <text x="438" y="206" font-size="14" fill="#57534e">確實執行三讀五對，且有記錄</text>
+  <text x="438" y="228" font-size="14" fill="#57534e">每位住民有完整的用藥紀錄</text>
+  <text x="438" y="250" font-size="14" fill="#78716c">每3個月藥師提供藥物管理諮詢</text>
+
+  <!-- 要點 3 -->
+  <rect x="40" y="284" width="340" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+  <rect x="40" y="284" width="340" height="48" rx="10" fill="#57534e"/>
+  <rect x="40" y="312" width="340" height="20" fill="#57534e"/>
+  <text x="210" y="314" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">要點3：藥師諮詢紀錄</text>
+  <text x="58" y="350" font-size="14" fill="#57534e">每3個月由藥師提供1次藥事服務</text>
+  <text x="58" y="372" font-size="14" fill="#57534e">藥物管理/諮詢/指導均需有記錄</text>
+  <text x="58" y="394" font-size="14" fill="#57534e">藥師到訪紀錄須保存（含簽名）</text>
+  <text x="58" y="416" font-size="14" fill="#d97706">特約藥師須有合約及到勤記錄</text>
+
+  <!-- 要點 4 -->
+  <rect x="420" y="284" width="340" height="150" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="420" y="284" width="340" height="48" rx="10" fill="#94a3b8"/>
+  <rect x="420" y="312" width="340" height="20" fill="#94a3b8"/>
+  <text x="590" y="314" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">要點4：用藥反應追蹤</text>
+  <text x="438" y="350" font-size="14" fill="#57534e">觀察用藥反應、交互作用</text>
+  <text x="438" y="372" font-size="14" fill="#57534e">重複用藥問題有處理紀錄</text>
+  <text x="438" y="394" font-size="14" fill="#57534e">必要時與醫師/藥師諮詢追蹤</text>
+  <text x="438" y="416" font-size="14" fill="#57534e">追蹤紀錄完整保存</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

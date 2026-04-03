@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">衝刺優等自我查核清單</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">評鑑前 3 個月確認所有關鍵項目</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 底線確認 -->
+  <text x="56" y="124" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">底線確認（一級必要項）</text>
+  <rect x="40" y="132" width="340" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="140" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="153" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">A7 業務負責人實際參與管理</text>
+  <rect x="400" y="132" width="360" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="408" y="140" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="434" y="153" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">A9 護理人員比例達標，全日均有護理師</text>
+  <rect x="40" y="172" width="340" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="180" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="193" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">A11 照顧服務員比例達標</text>
+  <rect x="400" y="172" width="360" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="408" y="180" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="434" y="193" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">C4 寢室浴廁緊急呼叫系統功能正常</text>
+  <rect x="40" y="212" width="340" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="220" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="233" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">C9 消防設備每半年委託師檢修</text>
+  <rect x="400" y="212" width="360" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="408" y="220" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="434" y="233" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">C10 疏散避難路徑暢通，等待救援空間</text>
+  <rect x="40" y="252" width="340" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="260" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="273" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">C11 EOP 完備，每年演練 2 次（含夜間）</text>
+  <rect x="400" y="252" width="360" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="408" y="260" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="434" y="273" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">C12 各樓層疏散策略制定並落實演練</text>
+  <rect x="40" y="292" width="340" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="300" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="313" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">C15 護理站基本急救設備完備</text>
+  <!-- 加分確認 -->
+  <text x="56" y="348" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">加分確認（E 區塊）</text>
+  <rect x="40" y="356" width="340" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="48" y="364" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="74" y="377" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">E1 前次建議事項改善比例已達 80% 以上</text>
+  <rect x="400" y="356" width="360" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="408" y="364" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="434" y="377" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">E2 已確認 2 項以上創新服務可計分</text>
+  <rect x="40" y="396" width="340" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="48" y="404" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="74" y="417" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">E3 零違規、零重大負面事件記錄</text>
+  <rect x="400" y="396" width="360" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="408" y="404" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="434" y="417" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">E1 佐證文件已備齊，改善比例計算完成</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

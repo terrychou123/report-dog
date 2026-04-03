@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">照服員評鑑準備負責項目</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">A11 一級必要：全日各班均有本國籍照服員</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 比例快速計算 -->
+  <rect x="40" y="108" width="720" height="50" rx="8" fill="#fef3c7"/>
+  <text x="400" y="130" font-size="15" fill="#92400e" text-anchor="middle" font-weight="700">A11 照服員比例：長照 日1:5 / 夜1:15 ｜養護 日1:8 / 夜1:25 ｜失智 日1:3 / 夜1:15</text>
+  <text x="400" y="150" font-size="14" fill="#92400e" text-anchor="middle">外籍照服員不超過本國籍護理人員+本國籍照服員總人數</text>
+
+  <!-- 項目 1 -->
+  <rect x="40" y="172" width="340" height="145" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+  <rect x="40" y="172" width="340" height="48" rx="10" fill="#57534e"/>
+  <rect x="40" y="200" width="340" height="20" fill="#57534e"/>
+  <text x="210" y="202" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">日常照護紀錄（B27）</text>
+  <text x="58" y="240" font-size="14" fill="#57534e">每週洗澡至少2次（夏季3次）</text>
+  <text x="58" y="262" font-size="14" fill="#57534e">臥床住民每2小時翻身拍背</text>
+  <text x="58" y="284" font-size="14" fill="#57534e">紀錄與實際操作相符</text>
+  <text x="58" y="306" font-size="14" fill="#d97706">住民拒絕洗澡須在護理記錄說明</text>
+
+  <!-- 項目 2 -->
+  <rect x="420" y="172" width="340" height="145" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+  <rect x="420" y="172" width="340" height="48" rx="10" fill="#57534e"/>
+  <rect x="420" y="200" width="340" height="20" fill="#57534e"/>
+  <text x="590" y="202" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">下床活動協助（B26）</text>
+  <text x="438" y="240" font-size="14" fill="#57534e">可移動住民每天至少下床2次</text>
+  <text x="438" y="262" font-size="14" fill="#57534e">意識不清每天至少下床1次</text>
+  <text x="438" y="284" font-size="14" fill="#57534e">依評估結果使用合適輔具</text>
+  <text x="438" y="306" font-size="14" fill="#57534e">重度失能者每日被動肢體活動</text>
+
+  <!-- 項目 3 -->
+  <rect x="40" y="330" width="340" height="125" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="40" y="330" width="340" height="48" rx="10" fill="#94a3b8"/>
+  <rect x="40" y="358" width="340" height="20" fill="#94a3b8"/>
+  <text x="210" y="360" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">照服員訓練（A13/A14）</text>
+  <text x="58" y="398" font-size="14" fill="#57534e">新進：16小時職前訓練1個月內</text>
+  <text x="58" y="420" font-size="14" fill="#57534e">在職：每年20小時含急救訓練</text>
+  <text x="58" y="442" font-size="14" fill="#57534e">感染管制至少4小時獨立記錄</text>
+
+  <!-- 項目 4 -->
+  <rect x="420" y="330" width="340" height="125" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="420" y="330" width="340" height="48" rx="10" fill="#94a3b8"/>
+  <rect x="420" y="358" width="340" height="20" fill="#94a3b8"/>
+  <text x="590" y="360" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">評鑑當天訪談準備</text>
+  <text x="438" y="398" font-size="14" fill="#57534e">能說明跌倒事件第一步處置</text>
+  <text x="438" y="420" font-size="14" fill="#57534e">了解住民保護通報流程</text>
+  <text x="438" y="442" font-size="14" fill="#57534e">熟悉手部衛生及感染防護</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

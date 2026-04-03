@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">長照 3.0 政策推進時程</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">機構因應節點與準備建議</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 時間軸主線 -->
+  <line x1="60" y1="220" x2="740" y2="220" stroke="#a8a29e" stroke-width="3"/>
+
+  <!-- 節點 1：長照2.0 -->
+  <circle cx="100" cy="220" r="16" fill="#a8a29e"/>
+  <text x="100" y="225" font-size="12" fill="white" text-anchor="middle" font-weight="700">2.0</text>
+  <rect x="40" y="240" width="120" height="90" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="100" y="260" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">長照 2.0</text>
+  <text x="100" y="278" font-size="12" fill="#57534e" text-anchor="middle">服務量擴大</text>
+  <text x="100" y="294" font-size="12" fill="#57534e" text-anchor="middle">普及化階段</text>
+  <text x="100" y="310" font-size="12" fill="#a8a29e" text-anchor="middle">~2025年</text>
+
+  <!-- 節點 2：長照3.0上路 -->
+  <circle cx="280" cy="220" r="20" fill="#d97706"/>
+  <text x="280" y="225" font-size="11" fill="white" text-anchor="middle" font-weight="700">上路</text>
+  <!-- 上方標籤 -->
+  <rect x="200" y="100" width="160" height="100" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <line x1="280" y1="200" x2="280" y2="220" stroke="#d97706" stroke-width="1.5"/>
+  <text x="280" y="122" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">2026 年 1 月</text>
+  <text x="280" y="143" font-size="13" fill="#1e293b" text-anchor="middle" font-weight="600">長照 3.0 正式上路</text>
+  <text x="280" y="161" font-size="12" fill="#57534e" text-anchor="middle">以人為中心</text>
+  <text x="280" y="178" font-size="12" fill="#57534e" text-anchor="middle">數位化推動</text>
+
+  <!-- 節點 3：過渡期 -->
+  <circle cx="460" cy="220" r="16" fill="#78716c"/>
+  <text x="460" y="225" font-size="12" fill="white" text-anchor="middle" font-weight="700">轉型</text>
+  <rect x="395" y="240" width="130" height="90" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="460" y="260" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">過渡期</text>
+  <text x="460" y="278" font-size="12" fill="#57534e" text-anchor="middle">現行75項指標</text>
+  <text x="460" y="294" font-size="12" fill="#57534e" text-anchor="middle">持續適用</text>
+  <text x="460" y="310" font-size="12" fill="#78716c" text-anchor="middle">2026年</text>
+
+  <!-- 節點 4：新指標 -->
+  <circle cx="640" cy="220" r="16" fill="#57534e"/>
+  <text x="640" y="225" font-size="12" fill="white" text-anchor="middle" font-weight="700">新版</text>
+  <!-- 上方標籤 -->
+  <rect x="565" y="100" width="150" height="100" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="640" y1="200" x2="640" y2="220" stroke="#57534e" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="640" y="122" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">未來方向</text>
+  <text x="640" y="143" font-size="13" fill="#57534e" text-anchor="middle">評鑑指標可能</text>
+  <text x="640" y="161" font-size="12" fill="#57534e" text-anchor="middle">逐步更新修訂</text>
+  <text x="640" y="178" font-size="12" fill="#a8a29e" text-anchor="middle">以衛福部公告為準</text>
+
+  <!-- 機構準備建議框 -->
+  <rect x="40" y="370" width="720" height="85" rx="12" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="40" y="370" width="6" height="85" rx="3" fill="#d97706"/>
+  <text x="400" y="398" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">現在就可以做的準備</text>
+  <text x="400" y="420" font-size="13" fill="#57534e" text-anchor="middle">① 強化 B2 個案計畫個別化程度  ② 推動一項數位化管理工具</text>
+  <text x="400" y="440" font-size="13" fill="#57534e" text-anchor="middle">③ 品質會議加入數據趨勢分析  ④ 建立住民生命故事紀錄</text>
+
+  <!-- 水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">ISP 撰寫五步驟流程</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">從入住評估到持續改善的完整循環</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 流程步驟 — 橫向排列 -->
+  <!-- 步驟 1 -->
+  <rect x="40" y="135" width="128" height="140" rx="10" fill="#d97706"/>
+  <text x="104" y="178" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+  <text x="104" y="206" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">需求評估</text>
+  <text x="104" y="228" font-size="13" fill="#fff8e7" text-anchor="middle">ADL/認知</text>
+  <text x="104" y="248" font-size="13" fill="#fff8e7" text-anchor="middle">跌倒/壓損</text>
+  <text x="104" y="268" font-size="13" fill="#fff8e7" text-anchor="middle">營養評估</text>
+
+  <!-- 箭頭 -->
+  <path d="M 172 205 L 196 205" stroke="#d97706" stroke-width="3" fill="none"/>
+  <polygon points="194,197 206,205 194,213" fill="#d97706"/>
+
+  <!-- 步驟 2 -->
+  <rect x="204" y="135" width="128" height="140" rx="10" fill="#78716c"/>
+  <text x="268" y="178" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+  <text x="268" y="206" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">目標設定</text>
+  <text x="268" y="228" font-size="13" fill="#e7e5e4" text-anchor="middle">短期目標</text>
+  <text x="268" y="248" font-size="13" fill="#e7e5e4" text-anchor="middle">長期目標</text>
+  <text x="268" y="268" font-size="13" fill="#e7e5e4" text-anchor="middle">住民參與</text>
+
+  <path d="M 336 205 L 360 205" stroke="#78716c" stroke-width="3" fill="none"/>
+  <polygon points="358,197 370,205 358,213" fill="#78716c"/>
+
+  <!-- 步驟 3 -->
+  <rect x="368" y="135" width="128" height="140" rx="10" fill="#57534e"/>
+  <text x="432" y="178" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+  <text x="432" y="206" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">計畫制定</text>
+  <text x="432" y="228" font-size="13" fill="#e7e5e4" text-anchor="middle">跨專業分工</text>
+  <text x="432" y="248" font-size="13" fill="#e7e5e4" text-anchor="middle">照護措施</text>
+  <text x="432" y="268" font-size="13" fill="#e7e5e4" text-anchor="middle">時間節點</text>
+
+  <path d="M 500 205 L 524 205" stroke="#57534e" stroke-width="3" fill="none"/>
+  <polygon points="522,197 534,205 522,213" fill="#57534e"/>
+
+  <!-- 步驟 4 -->
+  <rect x="532" y="135" width="108" height="140" rx="10" fill="#94a3b8"/>
+  <text x="586" y="178" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">4</text>
+  <text x="586" y="206" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">執行服務</text>
+  <text x="586" y="228" font-size="13" fill="#1e293b" text-anchor="middle">按計畫執行</text>
+  <text x="586" y="248" font-size="13" fill="#1e293b" text-anchor="middle">日常照護</text>
+  <text x="586" y="268" font-size="13" fill="#1e293b" text-anchor="middle">紀錄記錄</text>
+
+  <path d="M 644 205 L 668 205" stroke="#94a3b8" stroke-width="3" fill="none"/>
+  <polygon points="666,197 678,205 666,213" fill="#94a3b8"/>
+
+  <!-- 步驟 5 -->
+  <rect x="676" y="135" width="88" height="140" rx="10" fill="#a8a29e"/>
+  <text x="720" y="178" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">5</text>
+  <text x="720" y="206" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">評值修正</text>
+  <text x="720" y="228" font-size="13" fill="#f0efe8" text-anchor="middle">每3個月</text>
+  <text x="720" y="248" font-size="13" fill="#f0efe8" text-anchor="middle">評值</text>
+  <text x="720" y="268" font-size="13" fill="#f0efe8" text-anchor="middle">半年修正</text>
+
+  <!-- 回饋箭頭 -->
+  <path d="M 720 280 Q 720 350 400 350 Q 80 350 80 280 Q 80 275 104 275" stroke="#d97706" stroke-width="2" fill="none" stroke-dasharray="6,3"/>
+  <polygon points="92,267 104,275 92,283" fill="#d97706"/>
+
+  <!-- 時間標示 -->
+  <rect x="40" y="310" width="300" height="50" rx="8" fill="#fef3c7"/>
+  <text x="190" y="328" font-size="14" fill="#92400e" text-anchor="middle" font-weight="700">關鍵時間點（B2 規定）</text>
+  <text x="190" y="350" font-size="13" fill="#92400e" text-anchor="middle">入住後72小時 / 每3個月 / 每半年修正</text>
+
+  <rect x="460" y="310" width="300" height="50" rx="8" fill="#e0f2fe"/>
+  <text x="610" y="328" font-size="14" fill="#0369a1" text-anchor="middle" font-weight="700">跨專業參與者</text>
+  <text x="610" y="350" font-size="13" fill="#0369a1" text-anchor="middle">護理師 / 社工 / 物理治療師 / 營養師</text>
+
+  <!-- 底部B2說明 -->
+  <rect x="40" y="385" width="720" height="72" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <text x="400" y="411" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">B2 個案服務計畫（二級加強）— 評鑑委員必查項目</text>
+  <text x="400" y="436" font-size="14" fill="#57534e" text-anchor="middle">「執行服務措施與照顧計畫一致，並每半年至少1次依評估結果與服務對象或家屬共同討論修正照顧計畫」</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

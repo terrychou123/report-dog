@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 背景裝飾 -->
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="1192" y="0" width="8" height="630" fill="#d97706"/>
+  <!-- 主標題區塊 -->
+  <rect x="60" y="80" width="700" height="12" rx="6" fill="#d97706" opacity="0.3"/>
+  <text x="60" y="180" font-size="56" fill="#1e293b" font-weight="700">消防安全與緊急應變演練</text>
+  <text x="60" y="255" font-size="44" fill="#d97706" font-weight="700">C 區塊拿高分的關鍵</text>
+  <text x="60" y="320" font-size="26" fill="#57534e">住宿型照顧機構評鑑 · C9 / C10 / C11 / C12 / C15</text>
+  <!-- 標籤 -->
+  <rect x="60" y="365" width="160" height="40" rx="20" fill="#d97706"/>
+  <text x="140" y="390" font-size="18" fill="white" text-anchor="middle" font-weight="600">一級必要×5</text>
+  <rect x="236" y="365" width="160" height="40" rx="20" fill="#78716c"/>
+  <text x="316" y="390" font-size="18" fill="white" text-anchor="middle" font-weight="600">評鑑準備</text>
+  <rect x="412" y="365" width="220" height="40" rx="20" fill="#57534e"/>
+  <text x="522" y="390" font-size="18" fill="white" text-anchor="middle" font-weight="600">114年度評鑑</text>
+  <!-- 右側裝飾圖形 -->
+  <circle cx="980" cy="280" r="180" fill="#d97706" opacity="0.08"/>
+  <circle cx="980" cy="280" r="120" fill="#d97706" opacity="0.12"/>
+  <circle cx="980" cy="280" r="60" fill="#d97706" opacity="0.18"/>
+  <!-- 數字標示 -->
+  <text x="980" y="290" font-size="80" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.6">5</text>
+  <text x="980" y="340" font-size="22" fill="#78716c" text-anchor="middle">項一級必要</text>
+  <!-- 底部裝飾線 -->
+  <rect x="60" y="460" width="500" height="3" rx="2" fill="#a8a29e" opacity="0.5"/>
+  <text x="60" y="495" font-size="20" fill="#78716c">報告汪 · 長照機構評鑑報告管理平台</text>
+  <!-- 水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

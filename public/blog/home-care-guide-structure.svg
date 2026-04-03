@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="52" font-size="24" fill="#1e293b" font-weight="700" text-anchor="middle">32 項評鑑基準分布</text>
+  <line x1="40" y1="68" x2="760" y2="68" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 第一列：個案權益保障 4項 (11.8%) -->
+  <text x="40" y="120" font-size="16" fill="#2563eb" font-weight="700">個案權益保障</text>
+  <!-- 背景條 -->
+  <rect x="40" y="128" width="580" height="40" rx="6" fill="#e8e4dc"/>
+  <!-- 填充條 width=135 -->
+  <rect x="40" y="128" width="135" height="40" rx="6" fill="#2563eb"/>
+  <!-- 條內文字 -->
+  <text x="90" y="153" font-size="14" fill="white" font-weight="700" text-anchor="middle">4 項</text>
+  <!-- 百分比標籤 -->
+  <text x="183" y="153" font-size="14" fill="#2563eb" font-weight="600">11.8%</text>
+  <!-- 項目範圍 -->
+  <text x="700" y="153" font-size="14" fill="#64748b" text-anchor="middle">項 1–4</text>
+
+  <!-- 第二列：專業照護品質 10項 (29.4%) -->
+  <text x="40" y="210" font-size="16" fill="#16a34a" font-weight="700">專業照護品質</text>
+  <rect x="40" y="218" width="580" height="40" rx="6" fill="#e8e4dc"/>
+  <!-- 填充條 width=340 -->
+  <rect x="40" y="218" width="340" height="40" rx="6" fill="#16a34a"/>
+  <text x="190" y="243" font-size="14" fill="white" font-weight="700" text-anchor="middle">10 項</text>
+  <text x="388" y="243" font-size="14" fill="#16a34a" font-weight="600">29.4%</text>
+  <text x="700" y="243" font-size="14" fill="#64748b" text-anchor="middle">項 5–14</text>
+
+  <!-- 第三列：經營管理效能 16項 (47.1%) -->
+  <text x="40" y="300" font-size="16" fill="#ea580c" font-weight="700">經營管理效能</text>
+  <rect x="40" y="308" width="580" height="40" rx="6" fill="#e8e4dc"/>
+  <!-- 填充條 width=543 -->
+  <rect x="40" y="308" width="543" height="40" rx="6" fill="#ea580c"/>
+  <text x="311" y="333" font-size="14" fill="white" font-weight="700" text-anchor="middle">16 項</text>
+  <text x="591" y="333" font-size="14" fill="#ea580c" font-weight="600">47.1%</text>
+  <text x="700" y="333" font-size="14" fill="#64748b" text-anchor="middle">項 15–30</text>
+
+  <!-- 第四列：加分題 2項 (5.9%) -->
+  <text x="40" y="390" font-size="16" fill="#9333ea" font-weight="700">加分題</text>
+  <rect x="40" y="398" width="580" height="40" rx="6" fill="#e8e4dc"/>
+  <!-- 填充條 width=68 -->
+  <rect x="40" y="398" width="68" height="40" rx="6" fill="#9333ea"/>
+  <!-- 條太窄，文字放在條外 -->
+  <text x="116" y="423" font-size="14" fill="#9333ea" font-weight="600">2 項　5.9%</text>
+  <text x="700" y="423" font-size="14" fill="#64748b" text-anchor="middle">項 31–32</text>
+
+  <!-- 底部說明 -->
+  <text x="400" y="470" font-size="14" fill="#57534e" text-anchor="middle">合計 34 項（含 32 項基準 + 2 項加分題）</text>
+
+  <!-- 浮水印：長條圖用 #c4bfb8 -->
+  <text x="784" y="490" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

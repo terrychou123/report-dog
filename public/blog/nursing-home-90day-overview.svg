@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑前 90 天準備概覽</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">三階段各有重點，缺一不可</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 三階段 -->
+  <!-- 第一階段 D-90~D-60 -->
+  <rect x="40" y="116" width="220" height="300" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="116" width="220" height="52" rx="12" fill="#d97706"/>
+  <rect x="40" y="148" width="220" height="20" fill="#d97706"/>
+  <text x="150" y="148" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">第一個月</text>
+  <text x="150" y="166" font-size="14" fill="#fff8e7" text-anchor="middle">D-90 到 D-60</text>
+  <text x="60" y="198" font-size="15" fill="#57534e" font-weight="700">打好地基</text>
+  <text x="60" y="222" font-size="14" fill="#57534e">A 構面文件盤點</text>
+  <text x="60" y="244" font-size="14" fill="#57534e">A1/A3/A5/A6</text>
+  <text x="60" y="268" font-size="14" fill="#57534e">人力配置計算</text>
+  <text x="60" y="290" font-size="14" fill="#57534e">A7/A8/A9/A11</text>
+  <text x="60" y="314" font-size="14" fill="#57534e">在職訓練時數盤點</text>
+  <text x="60" y="336" font-size="14" fill="#57534e">A14 每人20小時</text>
+  <text x="60" y="360" font-size="14" fill="#57534e">前次缺失改善確認</text>
+  <text x="60" y="382" font-size="14" fill="#57534e">A4/E1</text>
+
+  <!-- 第二階段 D-60~D-30 -->
+  <rect x="290" y="116" width="220" height="300" rx="12" fill="#f0fdf4" stroke="#78716c" stroke-width="2"/>
+  <rect x="290" y="116" width="220" height="52" rx="12" fill="#78716c"/>
+  <rect x="290" y="148" width="220" height="20" fill="#78716c"/>
+  <text x="400" y="148" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">第二個月</text>
+  <text x="400" y="166" font-size="14" fill="#e2e8f0" text-anchor="middle">D-60 到 D-30</text>
+  <text x="310" y="198" font-size="15" fill="#57534e" font-weight="700">補強核心文件</text>
+  <text x="310" y="222" font-size="14" fill="#57534e">個案服務計畫核對</text>
+  <text x="310" y="244" font-size="14" fill="#57534e">B2 全部住民逐案查</text>
+  <text x="310" y="268" font-size="14" fill="#57534e">跌倒壓損感染分析</text>
+  <text x="310" y="290" font-size="14" fill="#57534e">B13/B14/B17</text>
+  <text x="310" y="314" font-size="14" fill="#57534e">消防設備申報確認</text>
+  <text x="310" y="336" font-size="14" fill="#57534e">C9 一級必要</text>
+  <text x="310" y="360" font-size="14" fill="#57534e">EOP 演練排定</text>
+  <text x="310" y="382" font-size="14" fill="#57534e">C11/C12 一級必要</text>
+
+  <!-- 第三階段 D-30~評鑑 -->
+  <rect x="540" y="116" width="220" height="300" rx="12" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
+  <rect x="540" y="116" width="220" height="52" rx="12" fill="#57534e"/>
+  <rect x="540" y="148" width="220" height="20" fill="#57534e"/>
+  <text x="650" y="148" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">最後一個月</text>
+  <text x="650" y="166" font-size="14" fill="#e2e8f0" text-anchor="middle">D-30 到評鑑日</text>
+  <text x="560" y="198" font-size="15" fill="#57534e" font-weight="700">查漏補缺衝刺</text>
+  <text x="560" y="222" font-size="14" fill="#57534e">契約審閱期確認</text>
+  <text x="560" y="244" font-size="14" fill="#57534e">D2 五天審閱期</text>
+  <text x="560" y="268" font-size="14" fill="#57534e">滿意度調查完成</text>
+  <text x="560" y="290" font-size="14" fill="#57534e">D9 書面分析報告</text>
+  <text x="560" y="314" font-size="14" fill="#57534e">模擬評鑑查核</text>
+  <text x="560" y="336" font-size="14" fill="#57534e">文件/訪談/環境</text>
+  <text x="560" y="360" font-size="14" fill="#57534e">最終自評確認</text>
+  <text x="560" y="382" font-size="14" fill="#57534e">一級必要逐一核對</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

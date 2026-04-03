@@ -1,116 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380">
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="380" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 標題 -->
-  <text x="400" y="42" font-family="sans-serif" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="bold">評鑑委員三階段審查流程</text>
-  <rect x="340" y="50" width="120" height="3" rx="1.5" fill="#a8a29e"/>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑委員 3 軌查核流程</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">文件審閱・現場訪談・環境查看，三軌並行同步進行</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- ===== 第一階段：文件審閱 ===== -->
-  <rect x="30" y="75" width="210" height="260" rx="14" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <!-- 頂部色條 -->
-  <rect x="30" y="75" width="210" height="48" rx="14" fill="#94a3b8"/>
-  <rect x="30" y="99" width="210" height="24" fill="#94a3b8"/>
-  <!-- 階段號 -->
-  <circle cx="62" cy="99" r="16" fill="white" opacity="0.25"/>
-  <text x="62" y="105" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">1</text>
-  <!-- 標題 -->
-  <text x="135" y="96" font-family="sans-serif" font-size="17" fill="white" text-anchor="middle" font-weight="bold">文件審閱</text>
-  <text x="135" y="116" font-family="sans-serif" font-size="11" fill="#dedad3" text-anchor="middle">評鑑前 / Document Review</text>
+  <!-- 箭頭 -->
+  <polygon points="299,273 315,279 299,285" fill="#c4bfb8"/>
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,273 501,279 485,285" fill="#c4bfb8"/>
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#c4bfb8" stroke-width="2"/>
 
-  <!-- 文件圖示 -->
-  <rect x="105" y="135" width="60" height="50" rx="4" fill="#f0efe8" stroke="#a8a29e" stroke-width="1.5"/>
-  <line x1="115" y1="148" x2="155" y2="148" stroke="#a8a29e" stroke-width="1.5"/>
-  <line x1="115" y1="157" x2="155" y2="157" stroke="#a8a29e" stroke-width="1.5"/>
-  <line x1="115" y1="166" x2="145" y2="166" stroke="#a8a29e" stroke-width="1.5"/>
-  <rect x="148" y="128" width="22" height="22" rx="3" fill="#a8a29e" opacity="0.3"/>
-  <text x="159" y="143" font-family="sans-serif" font-size="14" fill="#78716c" text-anchor="middle">✓</text>
+  <!-- Step 1：文件審閱 (#d97706) cx=214 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="211" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <text x="214" y="297" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">文件審閱</text>
+  <text x="214" y="324" text-anchor="middle" font-size="18" fill="#57534e">照顧計畫・督導紀錄</text>
+  <text x="214" y="346" text-anchor="middle" font-size="18" fill="#57534e">教育訓練重點核對</text>
+  <rect x="142" y="381" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" text-anchor="middle" font-size="18" fill="#d97706" font-weight="600">第 1 軌</text>
 
-  <!-- 子項目 -->
-  <g font-family="sans-serif" font-size="12.5" fill="#1e293b">
-    <circle cx="57" cy="205" r="4" fill="#94a3b8"/>
-    <text x="70" y="209">照顧計畫書</text>
-    <circle cx="57" cy="225" r="4" fill="#94a3b8"/>
-    <text x="70" y="229">個案評估紀錄</text>
-    <circle cx="57" cy="245" r="4" fill="#94a3b8"/>
-    <text x="70" y="249">督導紀錄表</text>
-    <circle cx="57" cy="265" r="4" fill="#94a3b8"/>
-    <text x="70" y="269">教育訓練紀錄</text>
-    <circle cx="57" cy="285" r="4" fill="#a3a3a3" opacity="0.5"/>
-    <text x="70" y="289" fill="#57534e">品管指標報告</text>
-  </g>
+  <!-- Step 2：現場訪談 (#78716c) cx=400 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="211" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="297" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">現場訪談</text>
+  <text x="400" y="324" text-anchor="middle" font-size="18" fill="#57534e">分職類問答驗證</text>
+  <text x="400" y="346" text-anchor="middle" font-size="18" fill="#57534e">答案是否相互印證</text>
+  <rect x="328" y="381" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" text-anchor="middle" font-size="18" fill="#78716c" font-weight="600">第 2 軌</text>
 
-  <!-- 箭頭 1→2 -->
-  <line x1="243" y1="205" x2="285" y2="205" stroke="#a8a29e" stroke-width="2"/>
-  <polygon points="280,200 290,205 280,210" fill="#a8a29e"/>
-  <text x="264" y="198" font-family="sans-serif" font-size="10" fill="#78716c" text-anchor="middle">通過</text>
-
-  <!-- ===== 第二階段：現場訪談 ===== -->
-  <rect x="290" y="75" width="210" height="260" rx="14" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="290" y="75" width="210" height="48" rx="14" fill="#a8a29e"/>
-  <rect x="290" y="99" width="210" height="24" fill="#a8a29e"/>
-  <circle cx="322" cy="99" r="16" fill="white" opacity="0.25"/>
-  <text x="322" y="105" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">2</text>
-  <text x="395" y="96" font-family="sans-serif" font-size="17" fill="white" text-anchor="middle" font-weight="bold">現場訪談</text>
-  <text x="395" y="116" font-family="sans-serif" font-size="11" fill="#dedad3" text-anchor="middle">評鑑當日 / On-site Interview</text>
-
-  <!-- 對話圖示 -->
-  <rect x="348" y="132" width="50" height="36" rx="8" fill="#f0efe8" stroke="#a8a29e" stroke-width="1.5"/>
-  <text x="373" y="156" font-family="sans-serif" font-size="18" text-anchor="middle">💬</text>
-  <rect x="368" y="152" width="42" height="28" rx="6" fill="#e8e5de" stroke="#a8a29e" stroke-width="1.2"/>
-  <text x="389" y="170" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#78716c">?</text>
-
-  <g font-family="sans-serif" font-size="12.5" fill="#1e293b">
-    <circle cx="317" cy="205" r="4" fill="#a8a29e"/>
-    <text x="330" y="209">主管接受訪談</text>
-    <circle cx="317" cy="225" r="4" fill="#a8a29e"/>
-    <text x="330" y="229">工作人員問答</text>
-    <circle cx="317" cy="245" r="4" fill="#a8a29e"/>
-    <text x="330" y="249">個案家屬訪談</text>
-    <circle cx="317" cy="265" r="4" fill="#a8a29e"/>
-    <text x="330" y="269">服務流程說明</text>
-    <circle cx="317" cy="285" r="4" fill="#a3a3a3" opacity="0.5"/>
-    <text x="330" y="289" fill="#57534e">緊急應變演練</text>
-  </g>
-
-  <!-- 箭頭 2→3 -->
-  <line x1="503" y1="205" x2="545" y2="205" stroke="#a8a29e" stroke-width="2"/>
-  <polygon points="540,200 550,205 540,210" fill="#a8a29e"/>
-  <text x="524" y="198" font-family="sans-serif" font-size="10" fill="#78716c" text-anchor="middle">完成</text>
-
-  <!-- ===== 第三階段：環境查看 ===== -->
-  <rect x="555" y="75" width="210" height="260" rx="14" fill="white" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="555" y="75" width="210" height="48" rx="14" fill="#78716c"/>
-  <rect x="555" y="99" width="210" height="24" fill="#78716c"/>
-  <circle cx="587" cy="99" r="16" fill="white" opacity="0.25"/>
-  <text x="587" y="105" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">3</text>
-  <text x="660" y="96" font-family="sans-serif" font-size="17" fill="white" text-anchor="middle" font-weight="bold">環境查看</text>
-  <text x="660" y="116" font-family="sans-serif" font-size="11" fill="#dedad3" text-anchor="middle">評鑑當日 / Facility Check</text>
-
-  <!-- 建築圖示 -->
-  <rect x="620" y="135" width="68" height="48" rx="4" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
-  <polygon points="654,127 612,138 696,138" fill="#78716c" opacity="0.7"/>
-  <rect x="638" y="155" width="14" height="18" rx="2" fill="#78716c" opacity="0.5"/>
-  <rect x="618" y="148" width="12" height="10" rx="1" fill="#78716c" opacity="0.3"/>
-  <rect x="670" y="148" width="12" height="10" rx="1" fill="#78716c" opacity="0.3"/>
-
-  <g font-family="sans-serif" font-size="12.5" fill="#1e293b">
-    <circle cx="582" cy="205" r="4" fill="#78716c"/>
-    <text x="595" y="209">公共空間安全</text>
-    <circle cx="582" cy="225" r="4" fill="#78716c"/>
-    <text x="595" y="229">無障礙設施</text>
-    <circle cx="582" cy="245" r="4" fill="#78716c"/>
-    <text x="595" y="249">消防設備檢查</text>
-    <circle cx="582" cy="265" r="4" fill="#78716c"/>
-    <text x="595" y="269">衛生環境維護</text>
-    <circle cx="582" cy="285" r="4" fill="#a3a3a3" opacity="0.5"/>
-    <text x="595" y="289" fill="#57534e">設備運作確認</text>
-  </g>
-
-  <!-- 底部說明 -->
-  <rect x="30" y="345" width="740" height="24" rx="12" fill="#e8e5de"/>
-  <text x="400" y="361" font-family="sans-serif" font-size="12" fill="#78716c" text-anchor="middle">三階段完成後，委員綜合評分，決定評鑑結果：優等 / 甲等 / 乙等</text>
+  <!-- Step 3：環境查看 (#57534e) cx=586 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="211" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="297" text-anchor="middle" font-size="35" fill="#1e293b" font-weight="700">環境查看</text>
+  <text x="586" y="324" text-anchor="middle" font-size="18" fill="#57534e">高齡友善設施</text>
+  <text x="586" y="346" text-anchor="middle" font-size="18" fill="#57534e">急救設備完整性</text>
+  <rect x="514" y="381" width="144" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="405" text-anchor="middle" font-size="18" fill="#57534e" font-weight="600">第 3 軌</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="356" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

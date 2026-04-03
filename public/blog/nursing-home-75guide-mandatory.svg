@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="90" fill="white"/>
+  <rect x="0" y="29" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="83" font-size="36" fill="#1e293b" font-weight="700">9 大一級必要項目</text>
+  <text x="28" y="107" font-size="18" fill="#57534e">任一項未達標即視為嚴重缺失，直接影響評鑑等第</text>
+  <!-- Row 1 y=133 h=36 #d97706 -->
+  <rect x="28" y="133" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="133" width="6" height="36" rx="2" fill="#d97706"/>
+  <circle cx="58" cy="151" r="12" fill="#d97706" opacity="0.15"/>
+  <text x="58" y="156" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="82" y="157" font-size="18" fill="#1e293b" font-weight="700">A7 業務負責人</text>
+  <text x="82" y="157" font-size="16" fill="#57534e" dx="130">專任，符合法規資格，投保勞健保勞退</text>
+  <rect x="620" y="139" width="136" height="24" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="156" font-size="14" fill="#d97706" text-anchor="middle">A 區塊</text>
+  <!-- Row 2 y=176 #78716c -->
+  <rect x="28" y="176" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="176" width="6" height="36" rx="2" fill="#78716c"/>
+  <circle cx="58" cy="194" r="12" fill="#78716c" opacity="0.15"/>
+  <text x="58" y="199" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="82" y="200" font-size="18" fill="#1e293b" font-weight="700">A9 護理人員</text>
+  <text x="82" y="200" font-size="16" fill="#57534e" dx="120">長照1:15/養護1:20/失智1:20，全日有護理人員</text>
+  <rect x="620" y="182" width="136" height="24" rx="6" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="199" font-size="14" fill="#78716c" text-anchor="middle">A 區塊</text>
+  <!-- Row 3 y=219 #57534e -->
+  <rect x="28" y="219" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="219" width="6" height="36" rx="2" fill="#57534e"/>
+  <circle cx="58" cy="237" r="12" fill="#57534e" opacity="0.15"/>
+  <text x="58" y="242" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="82" y="243" font-size="18" fill="#1e293b" font-weight="700">A11 照顧服務員</text>
+  <text x="82" y="243" font-size="16" fill="#57534e" dx="140">長照日1:5夜1:15，養護日1:8夜1:25，失智日1:3夜1:15</text>
+  <rect x="620" y="225" width="136" height="24" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="242" font-size="14" fill="#57534e" text-anchor="middle">A 區塊</text>
+  <!-- Row 4 y=262 #a8a29e -->
+  <rect x="28" y="262" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="262" width="6" height="36" rx="2" fill="#a8a29e"/>
+  <circle cx="58" cy="280" r="12" fill="#a8a29e" opacity="0.15"/>
+  <text x="58" y="285" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="82" y="286" font-size="18" fill="#1e293b" font-weight="700">C4 緊急呼叫系統</text>
+  <text x="82" y="286" font-size="16" fill="#57534e" dx="145">浴室、廁所及寢室均應設置，功能正常可立即反應</text>
+  <rect x="620" y="268" width="136" height="24" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="285" font-size="14" fill="#a8a29e" text-anchor="middle">C 區塊</text>
+  <!-- Row 5 y=305 #94a3b8 -->
+  <rect x="28" y="305" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="305" width="6" height="36" rx="2" fill="#94a3b8"/>
+  <circle cx="58" cy="323" r="12" fill="#94a3b8" opacity="0.15"/>
+  <text x="58" y="328" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="82" y="329" font-size="18" fill="#1e293b" font-weight="700">C9 消防安全</text>
+  <text x="82" y="329" font-size="16" fill="#57534e" dx="100">每半年委託消防設備師檢修；每月自主檢查用電</text>
+  <rect x="620" y="311" width="136" height="24" rx="6" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="328" font-size="14" fill="#94a3b8" text-anchor="middle">C 區塊</text>
+  <!-- Row 6 y=348 #6b7280 -->
+  <rect x="28" y="348" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="348" width="6" height="36" rx="2" fill="#6b7280"/>
+  <circle cx="58" cy="366" r="12" fill="#6b7280" opacity="0.15"/>
+  <text x="58" y="371" font-size="14" fill="#6b7280" text-anchor="middle" font-weight="900">6</text>
+  <text x="82" y="372" font-size="18" fill="#1e293b" font-weight="700">C10/C11/C12 疏散避難 + EOP 演練 + 疏散策略</text>
+  <rect x="620" y="354" width="136" height="24" rx="6" fill="#6b7280" opacity="0.12"/>
+  <text x="688" y="371" font-size="14" fill="#6b7280" text-anchor="middle">C 區塊</text>
+  <!-- Row 7 (C15) y=391 #d97706 -->
+  <rect x="28" y="391" width="744" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="391" width="6" height="36" rx="2" fill="#d97706"/>
+  <circle cx="58" cy="409" r="12" fill="#d97706" opacity="0.15"/>
+  <text x="58" y="414" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">9</text>
+  <text x="82" y="415" font-size="18" fill="#1e293b" font-weight="700">C15 護理站設施</text>
+  <text x="82" y="415" font-size="16" fill="#57534e" dx="130">基本急救設備齊全（含氧氣、甦醒袋、急救藥品）；每層有護理站</text>
+  <rect x="620" y="397" width="136" height="24" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="414" font-size="14" fill="#d97706" text-anchor="middle">C 區塊</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

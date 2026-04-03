@@ -1,77 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">品管指標是什麼？4 步驟理解核心概念</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Definition card -->
-  <rect x="52" y="82" width="696" height="72" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="82" width="4" height="72" rx="2" fill="#d97706"/>
-  <text x="72" y="107" font-size="14" fill="#78716c" font-weight="700">品管指標定義</text>
-  <text x="72" y="128" font-size="13" fill="#1e293b">機構自訂的服務品質衡量數值，用於追蹤照護成效並驅動持續改善</text>
-  <text x="72" y="146" font-size="12" fill="#57534e">→ 不是給委員看的表格，是機構真正管理服務品質的工具</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">品管指標 4 大核心概念</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">掌握指標本質，從容應對第 22 條查核</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 4-step flow -->
-  <!-- Step 1 -->
-  <rect x="52" y="178" width="152" height="210" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="178" width="152" height="5" rx="2.5" fill="#d97706"/>
-  <text x="128" y="204" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">① 設定指標</text>
-  <circle cx="128" cy="245" r="28" fill="#d97706" opacity="0.10"/>
-  <text x="128" y="253" font-size="28" fill="#d97706" font-weight="900" text-anchor="middle">P</text>
-  <text x="128" y="276" font-size="12" fill="#78716c" text-anchor="middle">Plan</text>
-  <line x1="68" y1="293" x2="188" y2="293" stroke="#f0ede6" stroke-width="1"/>
-  <text x="68" y="313" font-size="11" fill="#57534e">選擇 2+ 個指標</text>
-  <text x="68" y="329" font-size="11" fill="#57534e">設目標值/頻率</text>
-  <text x="68" y="345" font-size="11" fill="#57534e">責任人分配</text>
-  <text x="68" y="361" font-size="11" fill="#57534e">規範書面化</text>
+  <!-- 左上卡片（#d97706，x=40, y=104, w=346, h=168）-->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="68" cy="126" r="3" fill="white" opacity="0.8"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">品管指標是什麼</text>
+  <text x="60" y="172" font-size="14" fill="#57534e">• 選定可量化的照護品質項目</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 每月蒐集、統計、分析數據</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 從數字找出照護改善方向</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 非只是填表，是真正管理工具</text>
+  <rect x="56" y="246" width="70" height="20" rx="10" fill="#fef3c7"/>
+  <text x="91" y="260" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">基本概念</text>
 
-  <!-- Arrow -->
-  <text x="222" y="285" font-size="20" fill="#d97706" text-anchor="middle">→</text>
+  <!-- 右上卡片（#78716c，x=414, y=104, w=346, h=168）-->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">為何要監測指標</text>
+  <text x="434" y="172" font-size="14" fill="#57534e">• 讓服務品質可被客觀衡量</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 發現異常即啟動改善流程</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 向委員展示持續改善的意願</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">• 第 22 條是評鑑加分重點</text>
+  <rect x="430" y="246" width="70" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="465" y="260" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">監測目的</text>
 
-  <!-- Step 2 -->
-  <rect x="236" y="178" width="152" height="210" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="236" y="178" width="152" height="5" rx="2.5" fill="#16a34a"/>
-  <text x="312" y="204" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">② 收集數據</text>
-  <circle cx="312" cy="245" r="28" fill="#16a34a" opacity="0.10"/>
-  <text x="312" y="253" font-size="28" fill="#16a34a" font-weight="900" text-anchor="middle">D</text>
-  <text x="312" y="276" font-size="12" fill="#78716c" text-anchor="middle">Do</text>
-  <line x1="252" y1="293" x2="372" y2="293" stroke="#f0ede6" stroke-width="1"/>
-  <text x="252" y="313" font-size="11" fill="#57534e">每月定期統計</text>
-  <text x="252" y="329" font-size="11" fill="#57534e">填寫月報表單</text>
-  <text x="252" y="345" font-size="11" fill="#57534e">數值簽名確認</text>
-  <text x="252" y="361" font-size="11" fill="#57534e">存放可查詢</text>
+  <!-- 左下卡片（#57534e，x=40, y=288, w=346, h=162）-->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">委員如何查核</text>
+  <text x="60" y="356" font-size="14" fill="#57534e">• 現場抽查品管指標追蹤表</text>
+  <text x="60" y="376" font-size="14" fill="#57534e">• 詢問個案異常如何處理</text>
+  <text x="60" y="396" font-size="14" fill="#57534e">• 查看改善方案是否已落實</text>
+  <text x="60" y="416" font-size="14" fill="#57534e">• 請工作人員說明指標意義</text>
+  <rect x="56" y="430" width="70" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="91" y="444" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">查核重點</text>
 
-  <!-- Arrow -->
-  <text x="406" y="285" font-size="20" fill="#d97706" text-anchor="middle">→</text>
+  <!-- 右下卡片（#a8a29e，x=414, y=288, w=346, h=162）-->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">如何選擇指標</text>
+  <text x="434" y="356" font-size="14" fill="#57534e">• 優先選跌倒、壓瘡等高風險項</text>
+  <text x="434" y="376" font-size="14" fill="#57534e">• 需訂有目標值（如跌倒 &lt; 2 件）</text>
+  <text x="434" y="396" font-size="14" fill="#57534e">• 搭配第 22 條自訂至少 2 項</text>
+  <text x="434" y="416" font-size="14" fill="#57534e">• 越貼近實際照護問題越好</text>
+  <rect x="430" y="430" width="70" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="465" y="444" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">選指標</text>
 
-  <!-- Step 3 -->
-  <rect x="420" y="178" width="152" height="210" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="420" y="178" width="152" height="5" rx="2.5" fill="#ea580c"/>
-  <text x="496" y="204" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">③ 分析檢討</text>
-  <circle cx="496" cy="245" r="28" fill="#ea580c" opacity="0.10"/>
-  <text x="496" y="253" font-size="24" fill="#ea580c" font-weight="900" text-anchor="middle">C</text>
-  <text x="496" y="276" font-size="12" fill="#78716c" text-anchor="middle">Check</text>
-  <line x1="436" y1="293" x2="556" y2="293" stroke="#f0ede6" stroke-width="1"/>
-  <text x="436" y="313" font-size="11" fill="#57534e">與目標值比較</text>
-  <text x="436" y="329" font-size="11" fill="#57534e">趨勢圖分析</text>
-  <text x="436" y="345" font-size="11" fill="#57534e">未達標原因</text>
-  <text x="436" y="361" font-size="11" fill="#57534e">召開品管討論</text>
-
-  <!-- Arrow -->
-  <text x="590" y="285" font-size="20" fill="#d97706" text-anchor="middle">→</text>
-
-  <!-- Step 4 -->
-  <rect x="604" y="178" width="144" height="210" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="604" y="178" width="144" height="5" rx="2.5" fill="#9333ea"/>
-  <text x="676" y="204" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">④ 改善執行</text>
-  <circle cx="676" cy="245" r="28" fill="#9333ea" opacity="0.10"/>
-  <text x="676" y="253" font-size="28" fill="#9333ea" font-weight="900" text-anchor="middle">A</text>
-  <text x="676" y="276" font-size="12" fill="#78716c" text-anchor="middle">Act</text>
-  <line x1="620" y1="293" x2="732" y2="293" stroke="#f0ede6" stroke-width="1"/>
-  <text x="620" y="313" font-size="11" fill="#57534e">制訂改善對策</text>
-  <text x="620" y="329" font-size="11" fill="#57534e">執行並追蹤</text>
-  <text x="620" y="345" font-size="11" fill="#57534e">下月再評估</text>
-  <text x="620" y="361" font-size="11" fill="#57534e">循環持續</text>
-
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

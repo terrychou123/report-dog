@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">A4 滿分自我查核清單</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">評鑑前確認所有文件到位</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 文件完整性 -->
+  <text x="56" y="124" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">文件完整性（4 年）</text>
+  <rect x="40" y="132" width="348" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="140" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="153" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">所有衛福查核通知及結果文件</text>
+  <rect x="412" y="132" width="348" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="420" y="140" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="446" y="153" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">所有消防局查核及設備檢修報告</text>
+  <rect x="40" y="172" width="348" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="48" y="180" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="74" y="193" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">建管局公共安全申報文件</text>
+  <rect x="412" y="172" width="348" height="32" rx="6" fill="#d97706" opacity="0.15"/>
+  <rect x="420" y="180" width="16" height="16" rx="3" fill="#d97706"/>
+  <text x="446" y="193" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">勞政局查核及外勞管理文件</text>
+  <!-- 改善記錄 -->
+  <text x="56" y="224" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">改善記錄完整性</text>
+  <rect x="40" y="232" width="348" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="48" y="240" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="74" y="253" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">每筆缺失均有改善計畫（含負責人及期限）</text>
+  <rect x="412" y="232" width="348" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="420" y="240" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="446" y="253" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">每筆缺失均有佐證文件（照片/記錄/採購）</text>
+  <rect x="40" y="272" width="348" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="48" y="280" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="74" y="293" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">缺失追蹤台帳狀態全部更新為「已結案」</text>
+  <rect x="412" y="272" width="348" height="32" rx="6" fill="#78716c" opacity="0.15"/>
+  <rect x="420" y="280" width="16" height="16" rx="3" fill="#78716c"/>
+  <text x="446" y="293" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">改善比例計算完成（目標 100%）</text>
+  <!-- 預防機制 -->
+  <text x="56" y="324" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e">預防機制</text>
+  <rect x="40" y="332" width="348" height="32" rx="6" fill="#57534e" opacity="0.15"/>
+  <rect x="48" y="340" width="16" height="16" rx="3" fill="#57534e"/>
+  <text x="74" y="353" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">重複缺失已納入 SOP 或員工訓練</text>
+  <rect x="412" y="332" width="348" height="32" rx="6" fill="#57534e" opacity="0.15"/>
+  <rect x="420" y="340" width="16" height="16" rx="3" fill="#57534e"/>
+  <text x="446" y="353" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">消防設備維護排程已建立並落實</text>
+  <rect x="40" y="372" width="348" height="32" rx="6" fill="#57534e" opacity="0.15"/>
+  <rect x="48" y="380" width="16" height="16" rx="3" fill="#57534e"/>
+  <text x="74" y="393" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">人力配置每季自我複查，確保比例達標</text>
+  <rect x="412" y="372" width="348" height="32" rx="6" fill="#57534e" opacity="0.15"/>
+  <rect x="420" y="380" width="16" height="16" rx="3" fill="#57534e"/>
+  <text x="446" y="393" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">完成 1 次完整 A4 文件模擬展示演練</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

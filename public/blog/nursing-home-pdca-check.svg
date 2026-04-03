@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">Check 查核階段</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">改善完成不等於問題解決——自查清單</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 查核項目1 -->
+  <rect x="40" y="118" width="720" height="58" rx="8" fill="#ffffff"/>
+  <rect x="40" y="118" width="6" height="58" rx="3" fill="#d97706"/>
+  <rect x="56" y="130" width="34" height="34" rx="4" fill="#d97706"/>
+  <text x="73" y="152" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="106" y="143" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">改善後 1 個月內部查核</text>
+  <text x="106" y="165" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">確認改善措施仍持續執行，未因日常業務壓力而鬆懈</text>
+  <!-- 查核項目2 -->
+  <rect x="40" y="192" width="720" height="58" rx="8" fill="#ffffff"/>
+  <rect x="40" y="192" width="6" height="58" rx="3" fill="#78716c"/>
+  <rect x="56" y="204" width="34" height="34" rx="4" fill="#78716c"/>
+  <text x="73" y="226" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="106" y="217" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">改善後 3 個月再次查核</text>
+  <text x="106" y="239" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">驗證改善效果是否持續，與初次查核結果比較趨勢</text>
+  <!-- 查核項目3 -->
+  <rect x="40" y="266" width="720" height="58" rx="8" fill="#ffffff"/>
+  <rect x="40" y="266" width="6" height="58" rx="3" fill="#57534e"/>
+  <rect x="56" y="278" width="34" height="34" rx="4" fill="#57534e"/>
+  <text x="73" y="300" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="106" y="291" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">品質會議討論（每季）</text>
+  <text x="106" y="313" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">B1 條要求每 3 個月召開品質會議，將查核結果列入議程形成文件閉環</text>
+  <!-- 查核項目4 -->
+  <rect x="40" y="340" width="720" height="58" rx="8" fill="#ffffff"/>
+  <rect x="40" y="340" width="6" height="58" rx="3" fill="#94a3b8"/>
+  <rect x="56" y="352" width="34" height="34" rx="4" fill="#94a3b8"/>
+  <text x="73" y="374" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="106" y="365" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">效果不如預期立即啟動 Act</text>
+  <text x="106" y="387" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">不等到下次評鑑才發現問題，主動進入 Act 階段調整策略</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">B10 防疫機制要求詳解</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">二級加強項目——評鑑委員重點查核清單</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 標頭列 -->
+  <rect x="40" y="100" width="720" height="50" rx="6" fill="#d97706"/>
+  <text x="80" y="132" font-size="16" fill="#fff" font-weight="700">查核項目</text>
+  <text x="480" y="132" font-size="16" fill="#fff" font-weight="700">頻率要求</text>
+  <text x="640" y="132" font-size="16" fill="#fff" font-weight="700">查核方式</text>
+
+  <!-- 第1行 -->
+  <rect x="40" y="160" width="720" height="62" rx="4" fill="#fff"/>
+  <rect x="40" y="160" width="4" height="62" fill="#d97706"/>
+  <text x="56" y="185" font-size="15" fill="#1e293b" font-weight="600">住民體溫測量</text>
+  <text x="56" y="207" font-size="13" fill="#57534e">並依人口密集機構傳染病監視作業注意事項上網登載</text>
+  <text x="480" y="197" font-size="15" fill="#d97706" font-weight="700">每日至少 1 次</text>
+  <text x="640" y="197" font-size="13" fill="#57534e">查核紀錄表</text>
+
+  <!-- 第2行 -->
+  <rect x="40" y="235" width="720" height="62" rx="4" fill="#fafaf8"/>
+  <rect x="40" y="235" width="4" height="62" fill="#78716c"/>
+  <text x="56" y="260" font-size="15" fill="#1e293b" font-weight="600">工作人員體溫測量</text>
+  <text x="56" y="282" font-size="13" fill="#57534e">有完整紀錄且按時上網登載</text>
+  <text x="480" y="272" font-size="15" fill="#d97706" font-weight="700">每週至少 1 次</text>
+  <text x="640" y="272" font-size="13" fill="#57534e">抽查紀錄</text>
+
+  <!-- 第3行 -->
+  <rect x="40" y="310" width="720" height="62" rx="4" fill="#fff"/>
+  <rect x="40" y="310" width="4" height="62" fill="#d97706"/>
+  <text x="56" y="335" font-size="15" fill="#1e293b" font-weight="600">每間寢室洗手設施</text>
+  <text x="56" y="357" font-size="13" fill="#57534e">含乾洗手液或酒精性消毒液，且在效期內</text>
+  <text x="480" y="347" font-size="15" fill="#d97706" font-weight="700">常備且在效期內</text>
+  <text x="640" y="347" font-size="13" fill="#57534e">實地察看</text>
+
+  <!-- 第4行 -->
+  <rect x="40" y="385" width="720" height="62" rx="4" fill="#fafaf8"/>
+  <rect x="40" y="385" width="4" height="62" fill="#78716c"/>
+  <text x="56" y="410" font-size="15" fill="#1e293b" font-weight="600">感染管制手冊</text>
+  <text x="56" y="432" font-size="13" fill="#57534e">訂有呼吸道、腸道、疥瘡、不明發燒、群聚感染之通報作業流程</text>
+  <text x="480" y="422" font-size="15" fill="#d97706" font-weight="700">定期更新</text>
+  <text x="640" y="422" font-size="13" fill="#57534e">文件檢閱</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

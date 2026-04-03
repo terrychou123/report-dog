@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">第二個月行動：D-60 到 D-30</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">補強核心照護文件，消防安全同步確認</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 任務 5：B2 個案計畫 -->
+  <rect x="40" y="114" width="340" height="170" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="114" width="340" height="42" rx="10" fill="#d97706"/>
+  <rect x="40" y="136" width="340" height="20" fill="#d97706"/>
+  <text x="210" y="140" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務5：個案服務計畫核對（B2）</text>
+  <text x="58" y="174" font-size="14" fill="#57534e">72小時初評：跌倒+壓損+營養</text>
+  <text x="58" y="196" font-size="14" fill="#57534e">每3個月評值（安養6個月）</text>
+  <text x="58" y="218" font-size="14" fill="#57534e">每半年修正計畫並告知家屬</text>
+  <text x="58" y="240" font-size="14" fill="#57534e">資料依規定年限保存</text>
+  <text x="58" y="262" font-size="14" fill="#d97706" font-weight="600">二級加強項目，逐一住民核對！</text>
+
+  <!-- 任務 6：跌倒壓損感染 -->
+  <rect x="420" y="114" width="340" height="170" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <rect x="420" y="114" width="340" height="42" rx="10" fill="#78716c"/>
+  <rect x="420" y="136" width="340" height="20" fill="#78716c"/>
+  <text x="590" y="140" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務6：逐案分析補強</text>
+  <text x="438" y="174" font-size="14" fill="#57534e">B13 跌倒 — 逐案分析+每半年整體</text>
+  <text x="438" y="196" font-size="14" fill="#57534e">B14 壓損 — 逐案分析+每季整體</text>
+  <text x="438" y="218" font-size="14" fill="#57534e">B17 感染 — 疥瘡/呼道/腸道/發燒</text>
+  <text x="438" y="240" font-size="14" fill="#57534e">每半年整體分析+改善措施</text>
+  <text x="438" y="262" font-size="14" fill="#78716c" font-weight="600">記錄要有「分析」不只是「描述」</text>
+
+  <!-- 任務 7：消防設備 -->
+  <rect x="40" y="300" width="340" height="150" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="40" y="300" width="340" height="42" rx="10" fill="#57534e"/>
+  <rect x="40" y="322" width="340" height="20" fill="#57534e"/>
+  <text x="210" y="326" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務7：消防設備確認（C9）</text>
+  <text x="58" y="360" font-size="14" fill="#57534e">每半年消防設備師檢修申報</text>
+  <text x="58" y="382" font-size="14" fill="#57534e">前2次完整申報紀錄是否可查？</text>
+  <text x="58" y="404" font-size="14" fill="#57534e">每月自主用電檢查台帳</text>
+  <text x="58" y="426" font-size="14" fill="#d97706" font-weight="600">一級必要，防火管理人資格確認</text>
+
+  <!-- 任務 8：演練 -->
+  <rect x="420" y="300" width="340" height="150" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="420" y="300" width="340" height="42" rx="10" fill="#94a3b8"/>
+  <rect x="420" y="322" width="340" height="20" fill="#94a3b8"/>
+  <text x="590" y="326" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務8：EOP演練排定（C11）</text>
+  <text x="438" y="360" font-size="14" fill="#57534e">每年2次含夜間演練1次</text>
+  <text x="438" y="382" font-size="14" fill="#57534e">含複合型緊急災害應變演練</text>
+  <text x="438" y="404" font-size="14" fill="#57534e">演練紀錄+照片+評核報告</text>
+  <text x="438" y="426" font-size="14" fill="#57534e">一級必要，現在就排定日期！</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

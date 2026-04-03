@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">個別化飲食評估流程</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">從入住評估到定期追蹤的四步驟</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 流程節點 -->
+  <rect x="60" y="138" width="155" height="170" rx="14" fill="#d97706"/>
+  <text x="137" y="195" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="137" y="232" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">入住評估</text>
+  <text x="137" y="258" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">疾病類別確認</text>
+  <text x="137" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">宗教偏好記錄</text>
+  <text x="137" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">質地需求評估</text>
+  <!-- 箭頭 -->
+  <polygon points="224,228 240,238 224,248" fill="#78716c"/>
+  <line x1="215" y1="238" x2="238" y2="238" stroke="#78716c" stroke-width="2"/>
+  <!-- 流程節點2 -->
+  <rect x="252" y="138" width="155" height="170" rx="14" fill="#78716c"/>
+  <text x="329" y="195" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="329" y="232" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">計畫擬定</text>
+  <text x="329" y="258" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">營養師設計</text>
+  <text x="329" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">個別化菜單</text>
+  <text x="329" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">與照護計畫整合</text>
+  <!-- 箭頭 -->
+  <polygon points="416,228 432,238 416,248" fill="#57534e"/>
+  <line x1="407" y1="238" x2="430" y2="238" stroke="#57534e" stroke-width="2"/>
+  <!-- 流程節點3 -->
+  <rect x="444" y="138" width="155" height="170" rx="14" fill="#57534e"/>
+  <text x="521" y="195" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="521" y="232" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">執行記錄</text>
+  <text x="521" y="258" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">日常供餐紀錄</text>
+  <text x="521" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">體重監測每月</text>
+  <text x="521" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">異常即介入</text>
+  <!-- 箭頭 -->
+  <polygon points="608,228 624,238 608,248" fill="#94a3b8"/>
+  <line x1="599" y1="238" x2="622" y2="238" stroke="#94a3b8" stroke-width="2"/>
+  <!-- 流程節點4 -->
+  <rect x="636" y="138" width="124" height="170" rx="14" fill="#94a3b8"/>
+  <text x="698" y="195" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="698" y="232" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">定期評值</text>
+  <text x="698" y="258" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">半年滿意度</text>
+  <text x="698" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">調查與分析</text>
+  <text x="698" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">修正計畫</text>
+  <!-- 底部說明 -->
+  <text x="400" y="350" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e" text-anchor="middle">流程完整記錄 = B30 條「對營養評估異常者，有營養師介入個別化改善措施」</text>
+  <rect x="40" y="362" width="720" height="52" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <text x="60" y="384" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">B19 連動：</text>
+  <text x="160" y="384" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">每月體重監測，30 天內體重改變 ±5% 以上須逐案分析（B19 每季分析）</text>
+  <text x="60" y="404" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">B2 連動：</text>
+  <text x="144" y="404" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">個別化飲食計畫需與個案服務計畫（B2）中的飲食面向相互呼應</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

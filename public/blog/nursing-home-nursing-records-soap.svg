@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">SOAP 格式護理紀錄說明</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">確保每筆紀錄有完整的分析邏輯</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- S -->
+  <rect x="40" y="120" width="340" height="130" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="120" width="68" height="130" rx="10" fill="#d97706"/>
+  <rect x="88" y="120" width="20" height="130" fill="#d97706"/>
+  <text x="74" y="192" font-size="40" fill="#ffffff" font-weight="700" text-anchor="middle">S</text>
+  <text x="120" y="148" font-size="17" fill="#1e293b" font-weight="700">Subjective 主觀資料</text>
+  <text x="120" y="172" font-size="14" fill="#57534e">住民主訴、家屬反映</text>
+  <text x="120" y="194" font-size="14" fill="#57534e">例：「昨晚上廁所時感覺頭暈」</text>
+  <text x="120" y="216" font-size="14" fill="#57534e">「腰部疼痛，評分 NRS 6 分」</text>
+  <text x="120" y="238" font-size="14" fill="#57534e">（引用住民或家屬原話）</text>
+
+  <!-- O -->
+  <rect x="420" y="120" width="340" height="130" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <rect x="420" y="120" width="68" height="130" rx="10" fill="#78716c"/>
+  <rect x="468" y="120" width="20" height="130" fill="#78716c"/>
+  <text x="454" y="192" font-size="40" fill="#ffffff" font-weight="700" text-anchor="middle">O</text>
+  <text x="500" y="148" font-size="17" fill="#1e293b" font-weight="700">Objective 客觀資料</text>
+  <text x="500" y="172" font-size="14" fill="#57534e">可測量的觀察數據</text>
+  <text x="500" y="194" font-size="14" fill="#57534e">血壓 BP 148/92，體溫 37.2°C</text>
+  <text x="500" y="216" font-size="14" fill="#57534e">Braden Scale 14分，MNA 10分</text>
+  <text x="500" y="238" font-size="14" fill="#57534e">（評估量表分數、生命徵象）</text>
+
+  <!-- A -->
+  <rect x="40" y="270" width="340" height="130" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+  <rect x="40" y="270" width="68" height="130" rx="10" fill="#57534e"/>
+  <rect x="88" y="270" width="20" height="130" fill="#57534e"/>
+  <text x="74" y="342" font-size="40" fill="#ffffff" font-weight="700" text-anchor="middle">A</text>
+  <text x="120" y="298" font-size="17" fill="#1e293b" font-weight="700">Assessment 護理評估</text>
+  <text x="120" y="322" font-size="14" fill="#57534e">分析問題與原因</text>
+  <text x="120" y="344" font-size="14" fill="#57534e">跌倒風險：環境因素+體力下降</text>
+  <text x="120" y="366" font-size="14" fill="#57534e">壓損高風險：長期臥床+營養不良</text>
+  <text x="120" y="388" font-size="14" fill="#d97706" font-weight="600">（說明「為什麼」）</text>
+
+  <!-- P -->
+  <rect x="420" y="270" width="340" height="130" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="420" y="270" width="68" height="130" rx="10" fill="#94a3b8"/>
+  <rect x="468" y="270" width="20" height="130" fill="#94a3b8"/>
+  <text x="454" y="342" font-size="40" fill="#ffffff" font-weight="700" text-anchor="middle">P</text>
+  <text x="500" y="298" font-size="17" fill="#1e293b" font-weight="700">Plan 照護計畫</text>
+  <text x="500" y="322" font-size="14" fill="#57534e">具體且可執行的改善措施</text>
+  <text x="500" y="344" font-size="14" fill="#57534e">增加走廊夜間感應燈（3日內完成）</text>
+  <text x="500" y="366" font-size="14" fill="#57534e">調整翻身頻率：每2小時一次</text>
+  <text x="500" y="388" font-size="14" fill="#d97706" font-weight="600">（說明「改了什麼」）</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

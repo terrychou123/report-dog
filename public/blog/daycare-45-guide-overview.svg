@@ -1,45 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">45 題評鑑基準：5 大面向分布總覽</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Row 1: 3 cards -->
-  <rect x="52" y="78" width="218" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="78" width="218" height="5" rx="2.5" fill="#94a3b8"/>
-  <text x="161" y="108" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">壹、個案權益保障</text>
-  <text x="161" y="158" font-size="54" font-weight="900" fill="#d97706" text-anchor="middle">4</text>
-  <text x="161" y="180" font-size="13" fill="#57534e" text-anchor="middle">條評鑑基準</text>
-  <text x="161" y="200" font-size="11" fill="#a8a29e" text-anchor="middle">知情同意・隱私・尊嚴・申訴</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">日照評鑑五大面向一覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">各面向查核重點與題數一覽，掌握 45 條備審方向</text>
+  <line x1="28" y1="94" x2="776" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <rect x="291" y="78" width="218" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="291" y="78" width="218" height="5" rx="2.5" fill="#d97706"/>
-  <text x="400" y="108" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">貳、專業照護品質</text>
-  <text x="400" y="158" font-size="54" font-weight="900" fill="#d97706" text-anchor="middle">18</text>
-  <text x="400" y="180" font-size="13" fill="#57534e" text-anchor="middle">條評鑑基準（佔 40%）</text>
-  <text x="400" y="200" font-size="11" fill="#a8a29e" text-anchor="middle">評估・健康管理・品質監測</text>
+  <!-- 箭頭 N=5，arrow_y=279 -->
+  <!-- 0→1: x1=168, x2=180 -->
+  <line x1="168" y1="279" x2="180" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="168,273 180,279 168,285" fill="#c4bfb8"/>
+  <!-- 1→2: x1=320, x2=332 -->
+  <line x1="320" y1="279" x2="332" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="320,273 332,279 320,285" fill="#c4bfb8"/>
+  <!-- 2→3: x1=472, x2=484 -->
+  <line x1="472" y1="279" x2="484" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="472,273 484,279 472,285" fill="#c4bfb8"/>
+  <!-- 3→4: x1=624, x2=636 -->
+  <line x1="624" y1="279" x2="636" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="624,273 636,279 624,285" fill="#c4bfb8"/>
 
-  <rect x="530" y="78" width="218" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="530" y="78" width="218" height="5" rx="2.5" fill="#78716c"/>
-  <text x="639" y="108" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">參、經營管理效能</text>
-  <text x="639" y="158" font-size="54" font-weight="900" fill="#d97706" text-anchor="middle">15</text>
-  <text x="639" y="180" font-size="13" fill="#57534e" text-anchor="middle">條評鑑基準（佔 33%）</text>
-  <text x="639" y="200" font-size="11" fill="#a8a29e" text-anchor="middle">行政・人員・財務・緊急</text>
+  <!-- Step 1: 個案 #d97706 琥珀，card x=28 cx=98 -->
+  <rect x="28" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="140" height="4" fill="#d97706"/>
+  <circle cx="98" cy="189" r="35" fill="#fef3c7"/>
+  <text x="98" y="180" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP</text>
+  <text x="98" y="203" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">01</text>
+  <text x="98" y="288" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">個案</text>
+  <text x="98" y="316" text-anchor="middle" font-size="18" fill="#57534e">申訴機制</text>
+  <text x="98" y="338" text-anchor="middle" font-size="18" fill="#57534e">契約個資</text>
+  <rect x="41" y="376" width="114" height="36" rx="18" fill="#fef3c7"/>
+  <text x="98" y="400" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">共 4 條</text>
 
-  <!-- Row 2: 2 cards centered -->
-  <rect x="172" y="244" width="210" height="138" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="172" y="244" width="210" height="5" rx="2.5" fill="#a8a29e"/>
-  <text x="277" y="274" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">肆、安全環境設備</text>
-  <text x="277" y="320" font-size="50" font-weight="900" fill="#d97706" text-anchor="middle">6</text>
-  <text x="277" y="342" font-size="13" fill="#57534e" text-anchor="middle">條評鑑基準</text>
-  <text x="277" y="362" font-size="11" fill="#a8a29e" text-anchor="middle">高齡友善・消防・廚房衛生</text>
+  <!-- Step 2: 照護 #78716c 暖灰，card x=180 cx=250 -->
+  <rect x="180" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="108" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="112" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="250" y="180" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">STEP</text>
+  <text x="250" y="203" text-anchor="middle" font-size="22" fill="#78716c" font-weight="700">02</text>
+  <text x="250" y="288" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">照護</text>
+  <text x="250" y="316" text-anchor="middle" font-size="18" fill="#57534e">評估督導</text>
+  <text x="250" y="338" text-anchor="middle" font-size="18" fill="#57534e">品管指標</text>
+  <rect x="193" y="376" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="250" y="400" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">共 18 條</text>
 
-  <rect x="418" y="244" width="210" height="138" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="418" y="244" width="210" height="5" rx="2.5" fill="#d6d3d1"/>
-  <text x="523" y="274" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">伍、附加特色指標</text>
-  <text x="523" y="320" font-size="50" font-weight="900" fill="#d97706" text-anchor="middle">2</text>
-  <text x="523" y="342" font-size="13" fill="#57534e" text-anchor="middle">條評鑑基準</text>
-  <text x="523" y="362" font-size="11" fill="#a8a29e" text-anchor="middle">創新服務・社區連結</text>
+  <!-- Step 3: 管理 #57534e 深棕，card x=332 cx=402 -->
+  <rect x="332" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="108" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="112" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="189" r="35" fill="#f5f0eb"/>
+  <text x="402" y="180" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">STEP</text>
+  <text x="402" y="203" text-anchor="middle" font-size="22" fill="#57534e" font-weight="700">03</text>
+  <text x="402" y="288" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">管理</text>
+  <text x="402" y="316" text-anchor="middle" font-size="18" fill="#57534e">制度人員</text>
+  <text x="402" y="338" text-anchor="middle" font-size="18" fill="#57534e">財務應變</text>
+  <rect x="345" y="376" width="114" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="402" y="400" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">共 15 條</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- Step 4: 安全 #a8a29e 淺灰，card x=484 cx=554 -->
+  <rect x="484" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="108" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="112" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="554" y="180" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="554" y="203" text-anchor="middle" font-size="22" fill="#a8a29e" font-weight="700">04</text>
+  <text x="554" y="288" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">安全</text>
+  <text x="554" y="316" text-anchor="middle" font-size="18" fill="#57534e">環境衛浴</text>
+  <text x="554" y="338" text-anchor="middle" font-size="18" fill="#57534e">飲水廚房</text>
+  <rect x="497" y="376" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="554" y="400" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">共 6 條</text>
+
+  <!-- Step 5: 加分 #94a3b8 藍灰，card x=636 cx=706 -->
+  <rect x="636" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="108" width="140" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="636" y="112" width="140" height="4" fill="#94a3b8"/>
+  <circle cx="706" cy="189" r="35" fill="#f1f5f9"/>
+  <text x="706" y="180" text-anchor="middle" font-size="14" fill="#94a3b8" font-weight="700">STEP</text>
+  <text x="706" y="203" text-anchor="middle" font-size="22" fill="#94a3b8" font-weight="700">05</text>
+  <text x="706" y="288" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">加分</text>
+  <text x="706" y="316" text-anchor="middle" font-size="18" fill="#57534e">原民敏感</text>
+  <text x="706" y="338" text-anchor="middle" font-size="18" fill="#57534e">監視管理</text>
+  <rect x="649" y="376" width="114" height="36" rx="18" fill="#f1f5f9"/>
+  <text x="706" y="400" text-anchor="middle" font-size="16" fill="#94a3b8" font-weight="600">共 2 條</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

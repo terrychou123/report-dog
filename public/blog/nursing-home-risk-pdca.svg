@@ -1,0 +1,63 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">危機管理 PDCA 持續改善循環</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">A6 從計畫到改善的完整週期</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- PDCA 四個方塊 -->
+  <!-- P - 計畫 -->
+  <rect x="60" y="130" width="290" height="140" rx="12" fill="#d97706"/>
+  <text x="205" y="175" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">P — Plan</text>
+  <text x="205" y="203" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">計畫</text>
+  <text x="80" y="232" font-size="14" fill="#fff">• 選擇 3 個以上風險類型</text>
+  <text x="80" y="254" font-size="14" fill="#fff">• 訂定各風險計畫書</text>
+
+  <!-- D - 執行 -->
+  <rect x="450" y="130" width="290" height="140" rx="12" fill="#78716c"/>
+  <text x="595" y="175" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">D — Do</text>
+  <text x="595" y="203" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">執行</text>
+  <text x="470" y="232" font-size="14" fill="#fff">• 事件發生時依計畫執行</text>
+  <text x="470" y="254" font-size="14" fill="#fff">• 完整記錄處理過程</text>
+
+  <!-- 箭頭從P到D -->
+  <polygon points="362,200 378,192 378,208" fill="#1e293b"/>
+  <line x1="350" y1="200" x2="378" y2="200" stroke="#1e293b" stroke-width="2"/>
+  <text x="400" y="196" text-anchor="middle" font-size="14" fill="#57534e">執行</text>
+
+  <!-- C - 查核 -->
+  <rect x="450" y="310" width="290" height="140" rx="12" fill="#d97706"/>
+  <text x="595" y="355" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">C — Check</text>
+  <text x="595" y="383" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">查核</text>
+  <text x="470" y="412" font-size="14" fill="#fff">• 每半年定期進行分析</text>
+  <text x="470" y="434" font-size="14" fill="#fff">• 撰寫分析報告</text>
+
+  <!-- A - 行動 -->
+  <rect x="60" y="310" width="290" height="140" rx="12" fill="#78716c"/>
+  <text x="205" y="355" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">A — Act</text>
+  <text x="205" y="383" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">行動</text>
+  <text x="80" y="412" font-size="14" fill="#fff">• 制定改善措施</text>
+  <text x="80" y="434" font-size="14" fill="#fff">• 追蹤改善成效</text>
+
+  <!-- 箭頭從D到C -->
+  <polygon points="595,282 587,298 603,298" fill="#1e293b"/>
+  <line x1="595" y1="270" x2="595" y2="298" stroke="#1e293b" stroke-width="2"/>
+  <text x="620" y="292" font-size="14" fill="#57534e">分析</text>
+
+  <!-- 箭頭從C到A -->
+  <polygon points="438,380 422,372 422,388" fill="#1e293b"/>
+  <line x1="450" y1="380" x2="422" y2="380" stroke="#1e293b" stroke-width="2"/>
+  <text x="400" y="376" text-anchor="middle" font-size="14" fill="#57534e">改善</text>
+
+  <!-- 箭頭從A到P -->
+  <polygon points="205,298 197,282 213,282" fill="#1e293b"/>
+  <line x1="205" y1="310" x2="205" y2="282" stroke="#1e293b" stroke-width="2"/>
+  <text x="160" y="296" font-size="14" fill="#57534e">更新</text>
+
+  <!-- 每半年的標示 -->
+  <rect x="310" y="265" width="180" height="36" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="400" y="289" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">每半年一循環</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

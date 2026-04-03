@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">ISP 評鑑自查清單</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">評鑑前逐案核對，確保 B2 達標</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 初評核對 -->
+  <text x="40" y="124" font-size="17" fill="#d97706" font-weight="700">初評（入住72小時內）</text>
+  <rect x="40" y="132" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="146" font-size="14" fill="#1e293b">72小時初評完成日期有記錄</text>
+  <rect x="40" y="158" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="172" font-size="14" fill="#1e293b">初評含跌倒風險量表（Morse/同等工具）</text>
+  <rect x="40" y="184" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="198" font-size="14" fill="#1e293b">初評含壓損風險量表（Braden Scale）</text>
+  <rect x="40" y="210" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="224" font-size="14" fill="#1e293b">初評含營養評估（MNA/MUST）</text>
+  <rect x="40" y="236" width="18" height="18" rx="3" fill="#d97706"/>
+  <text x="68" y="250" font-size="14" fill="#1e293b">初評有護理師簽名及日期</text>
+
+  <!-- 定期評值 -->
+  <text x="40" y="278" font-size="17" fill="#78716c" font-weight="700">定期評值（每3個月）</text>
+  <rect x="40" y="286" width="18" height="18" rx="3" fill="#78716c"/>
+  <text x="68" y="300" font-size="14" fill="#1e293b">每3個月有正式評值記錄（安養6個月）</text>
+  <rect x="40" y="312" width="18" height="18" rx="3" fill="#78716c"/>
+  <text x="68" y="326" font-size="14" fill="#1e293b">評值內容有與前次比較說明</text>
+  <rect x="40" y="338" width="18" height="18" rx="3" fill="#78716c"/>
+  <text x="68" y="352" font-size="14" fill="#1e293b">所有在住住民評值均未逾期</text>
+
+  <!-- 分隔 -->
+  <line x1="400" y1="114" x2="400" y2="455" stroke="#a8a29e" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- 計畫修正 -->
+  <text x="420" y="124" font-size="17" fill="#57534e" font-weight="700">計畫修正（每半年）</text>
+  <rect x="420" y="132" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="146" font-size="14" fill="#1e293b">每半年有計畫修正書面紀錄</text>
+  <rect x="420" y="158" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="172" font-size="14" fill="#1e293b">修正有與住民/家屬共同討論</text>
+  <rect x="420" y="184" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="198" font-size="14" fill="#1e293b">家屬確認有書面紀錄（簽名）</text>
+  <rect x="420" y="210" width="18" height="18" rx="3" fill="#57534e"/>
+  <text x="448" y="224" font-size="14" fill="#1e293b">修正內容具體（非複製貼上）</text>
+
+  <!-- 資料管理 -->
+  <text x="420" y="256" font-size="17" fill="#94a3b8" font-weight="700">資料管理</text>
+  <rect x="420" y="264" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="278" font-size="14" fill="#1e293b">個案資料依規定年限保存</text>
+  <rect x="420" y="290" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="304" font-size="14" fill="#1e293b">資料調閱辦法訂定且有調閱紀錄</text>
+
+  <!-- 跨專業 -->
+  <text x="420" y="336" font-size="17" fill="#94a3b8" font-weight="700">跨專業協作</text>
+  <rect x="420" y="344" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="358" font-size="14" fill="#1e293b">每3個月跨專業聯繫會議紀錄</text>
+  <rect x="420" y="370" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="384" font-size="14" fill="#1e293b">至少3種不同領域人員參與</text>
+  <rect x="420" y="396" width="18" height="18" rx="3" fill="#94a3b8"/>
+  <text x="448" y="410" font-size="14" fill="#1e293b">會議決議有執行追蹤記錄</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

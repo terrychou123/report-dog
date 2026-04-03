@@ -1,0 +1,68 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">A6 危機管理自我查核清單</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">評鑑前確認：計畫書與執行紀錄</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左欄 - 計畫書完備 -->
+  <text x="60" y="122" font-size="15" fill="#d97706" font-weight="700">計畫書完備性</text>
+  <text x="430" y="122" font-size="15" fill="#78716c" font-weight="700">執行紀錄完整性</text>
+
+  <rect x="40" y="132" width="350" height="36" rx="6" fill="#fff"/>
+  <rect x="40" y="132" width="6" height="36" rx="3" fill="#d97706"/>
+  <text x="58" y="156" font-size="14" fill="#57534e">□ 已選擇 3 個以上風險類型</text>
+
+  <rect x="40" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
+  <rect x="40" y="176" width="6" height="36" rx="3" fill="#d97706"/>
+  <text x="58" y="200" font-size="14" fill="#57534e">□ 每個風險均有獨立計畫書</text>
+
+  <rect x="40" y="220" width="350" height="36" rx="6" fill="#fff"/>
+  <rect x="40" y="220" width="6" height="36" rx="3" fill="#d97706"/>
+  <text x="58" y="244" font-size="14" fill="#57534e">□ 計畫書含明確處理程序與步驟</text>
+
+  <rect x="40" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
+  <rect x="40" y="264" width="6" height="36" rx="3" fill="#d97706"/>
+  <text x="58" y="288" font-size="14" fill="#57534e">□ 責任人員與聯絡方式明確</text>
+
+  <rect x="40" y="308" width="350" height="36" rx="6" fill="#fff"/>
+  <rect x="40" y="308" width="6" height="36" rx="3" fill="#d97706"/>
+  <text x="58" y="332" font-size="14" fill="#57534e">□ 計畫書已含年度審視更新日期</text>
+
+  <rect x="40" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
+  <rect x="40" y="352" width="6" height="36" rx="3" fill="#d97706"/>
+  <text x="58" y="376" font-size="14" fill="#57534e">□ 工作人員知悉計畫內容</text>
+
+  <!-- 右欄 - 執行紀錄 -->
+  <rect x="410" y="132" width="350" height="36" rx="6" fill="#fff"/>
+  <rect x="410" y="132" width="6" height="36" rx="3" fill="#78716c"/>
+  <text x="428" y="156" font-size="14" fill="#57534e">□ 事件發生時有依計畫執行紀錄</text>
+
+  <rect x="410" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
+  <rect x="410" y="176" width="6" height="36" rx="3" fill="#78716c"/>
+  <text x="428" y="200" font-size="14" fill="#57534e">□ 事件處理紀錄含過程與結果</text>
+
+  <rect x="410" y="220" width="350" height="36" rx="6" fill="#fff"/>
+  <rect x="410" y="220" width="6" height="36" rx="3" fill="#78716c"/>
+  <text x="428" y="244" font-size="14" fill="#57534e">□ 近半年已完成定期分析報告</text>
+
+  <rect x="410" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
+  <rect x="410" y="264" width="6" height="36" rx="3" fill="#78716c"/>
+  <text x="428" y="288" font-size="14" fill="#57534e">□ 分析報告含改善措施及追蹤</text>
+
+  <rect x="410" y="308" width="350" height="36" rx="6" fill="#fff"/>
+  <rect x="410" y="308" width="6" height="36" rx="3" fill="#78716c"/>
+  <text x="428" y="332" font-size="14" fill="#57534e">□ A4 過去4年查核缺失改善達100%</text>
+
+  <rect x="410" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
+  <rect x="410" y="352" width="6" height="36" rx="3" fill="#78716c"/>
+  <text x="428" y="376" font-size="14" fill="#57534e">□ E1 前次評鑑建議改善≥80%</text>
+
+  <!-- 底部 -->
+  <rect x="40" y="408" width="720" height="48" rx="8" fill="#fef3c7"/>
+  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#92400e" font-weight="700">A6 評鑑委員常問：「萬一發生 XXX 風險，貴機構的處理流程是什麼？」</text>
+  <text x="400" y="450" text-anchor="middle" font-size="13" fill="#78716c">工作人員須能口頭說明計畫要點，不只是展示文件，實際知曉更重要</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

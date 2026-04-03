@@ -1,62 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 22 條：品管指標 4 大必要條件</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Center label -->
-  <text x="400" y="82" font-size="13" fill="#94a3b8" text-anchor="middle">缺少任何一條件 → 該指標不被認可，可能零分</text>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">第 22 條品管指標四大要件</text>
 
-  <!-- 2x2 grid -->
-  <!-- Condition 1: 有指標設定 (top left) -->
-  <rect x="52" y="98" width="335" height="158" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="98" width="335" height="5" rx="2.5" fill="#d97706"/>
-  <circle cx="84" cy="132" r="20" fill="#d97706" opacity="0.12"/>
-  <text x="84" y="139" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
-  <text x="116" y="128" font-size="15" fill="#1e293b" font-weight="700">有指標設定</text>
-  <text x="116" y="146" font-size="12" fill="#57534e">明確訂定品管指標名稱與目標值</text>
-  <line x1="68" y1="164" x2="372" y2="164" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="184" font-size="12" fill="#78716c">✓ 指標名稱具體（非模糊描述）</text>
-  <text x="72" y="202" font-size="12" fill="#78716c">✓ 設有目標達成率（如 90% 以上）</text>
-  <text x="72" y="220" font-size="12" fill="#78716c">✓ 指定負責人員或部門</text>
-  <text x="72" y="238" font-size="12" fill="#78716c">✓ 書面規範存檔可查</text>
+  <!-- ===== Row 1（y=160）色系 #d97706 琥珀 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">自訂至少 2 項品管指標</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">機構依服務內容自選至少 2 項可量化的照護指標並書面訂定</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">第22條</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">自訂指標</text>
 
-  <!-- Condition 2: 有定期收集數據 (top right) -->
-  <rect x="413" y="98" width="335" height="158" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="413" y="98" width="335" height="5" rx="2.5" fill="#78716c"/>
-  <circle cx="445" cy="132" r="20" fill="#78716c" opacity="0.12"/>
-  <text x="445" y="139" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">2</text>
-  <text x="477" y="128" font-size="15" fill="#1e293b" font-weight="700">有定期收集數據</text>
-  <text x="477" y="146" font-size="12" fill="#57534e">固定頻率統計數值，留有書面紀錄</text>
-  <line x1="429" y1="164" x2="733" y2="164" stroke="#f0ede6" stroke-width="1"/>
-  <text x="433" y="184" font-size="12" fill="#78716c">✓ 每月固定統計（或符合頻率）</text>
-  <text x="433" y="202" font-size="12" fill="#78716c">✓ 統計表有日期、數值、簽名</text>
-  <text x="433" y="220" font-size="12" fill="#78716c">✓ 至少 3 個月以上歷史資料</text>
-  <text x="433" y="238" font-size="12" fill="#78716c">✓ 數值可核對來源</text>
+  <!-- ===== Row 2（y=235）色系 #78716c 暖灰 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">每項均訂有處理辦法</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">針對指標異常須有明確的處理措施或流程，書面規範化</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">處理辦法</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">書面規範</text>
 
-  <!-- Condition 3: 有分析檢討 (bottom left) -->
-  <rect x="52" y="272" width="335" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="272" width="335" height="5" rx="2.5" fill="#a8a29e"/>
-  <circle cx="84" cy="306" r="20" fill="#a8a29e" opacity="0.15"/>
-  <text x="84" y="313" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">3</text>
-  <text x="116" y="302" font-size="15" fill="#1e293b" font-weight="700">有分析檢討</text>
-  <text x="116" y="320" font-size="12" fill="#57534e">對數據進行原因分析與會議討論</text>
-  <line x1="68" y1="336" x2="372" y2="336" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="356" font-size="12" fill="#78716c">✓ 品管會議紀錄含數據討論</text>
-  <text x="72" y="374" font-size="12" fill="#78716c">✓ 未達標時有原因分析說明</text>
-  <text x="72" y="392" font-size="12" fill="#78716c">✓ 趨勢圖或比較表輔助分析</text>
+  <!-- ===== Row 3（y=310）色系 #57534e 深棕 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">每月進行逐案分析</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">按月統計指標數值，逐案分析異常原因，留下完整書面記錄</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">逐案分析</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">月度執行</text>
 
-  <!-- Condition 4: 有改善行動 (bottom right) -->
-  <rect x="413" y="272" width="335" height="148" rx="12" fill="white" stroke="#d97706" stroke-width="1.5" opacity="0.6"/>
-  <rect x="413" y="272" width="335" height="5" rx="2.5" fill="#d97706"/>
-  <circle cx="445" cy="306" r="20" fill="#d97706" opacity="0.12"/>
-  <text x="445" y="313" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">4</text>
-  <text x="477" y="302" font-size="15" fill="#1e293b" font-weight="700">有改善行動</text>
-  <text x="477" y="320" font-size="12" fill="#57534e">針對問題制訂對策並執行追蹤</text>
-  <line x1="429" y1="336" x2="733" y2="336" stroke="#f0ede6" stroke-width="1"/>
-  <text x="433" y="356" font-size="12" fill="#78716c">✓ 有具體改善對策（非僅口頭）</text>
-  <text x="433" y="374" font-size="12" fill="#78716c">✓ 有執行時間表與負責人</text>
-  <text x="433" y="392" font-size="12" fill="#d97706">⭐ 最常遺漏！無改善行動即零分</text>
+  <!-- ===== Row 4（y=385）色系 #a8a29e 淺灰 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">異常時立即擬改善方案</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">發現指標超標即啟動改善，追蹤改善成效並完整記錄</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">改善方案</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">立即啟動</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

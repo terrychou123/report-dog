@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑前 10 大缺失自我查核清單</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">評鑑前 1 個月逐項完成，確保萬無一失</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左欄 -->
+  <rect x="40" y="104" width="6" height="24" rx="3" fill="#d97706"/>
+  <text x="56" y="121" font-size="18" fill="#1e293b" font-weight="700">人力配置（A9、A11）</text>
+
+  <!-- 已確認項目（SVG path 勾選） -->
+  <rect x="48" y="134" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 52,144 L 56,149 L 65,137" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="150" font-size="17" fill="#1e293b">護理師人數符合各型別比例</text>
+
+  <rect x="48" y="162" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 52,172 L 56,177 L 65,165" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="178" font-size="17" fill="#1e293b">各班有護理人員值班紀錄</text>
+
+  <rect x="48" y="190" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="78" y="206" font-size="17" fill="#1e293b">夜班照服員比例符合各型別標準</text>
+
+  <rect x="40" y="225" width="6" height="24" rx="3" fill="#78716c"/>
+  <text x="56" y="242" font-size="18" fill="#1e293b" font-weight="700">個案計畫（B2）</text>
+
+  <rect x="48" y="255" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 52,265 L 56,270 L 65,258" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="271" font-size="17" fill="#1e293b">所有住民均有 72 小時內初評紀錄</text>
+
+  <rect x="48" y="283" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="78" y="299" font-size="17" fill="#1e293b">近 3 個月計畫評值均已完成</text>
+
+  <rect x="48" y="311" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="78" y="327" font-size="17" fill="#1e293b">計畫修正每半年確實執行</text>
+
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 右欄 -->
+  <rect x="416" y="104" width="6" height="24" rx="3" fill="#57534e"/>
+  <text x="432" y="121" font-size="18" fill="#1e293b" font-weight="700">感染分析（B13、B17）</text>
+
+  <rect x="424" y="134" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 428,144 L 432,149 L 441,137" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="454" y="150" font-size="17" fill="#1e293b">跌倒事件均有逐案原因分析</text>
+
+  <rect x="424" y="162" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="454" y="178" font-size="17" fill="#1e293b">半年跌倒統計分析報告已完成</text>
+
+  <rect x="424" y="190" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="454" y="206" font-size="17" fill="#1e293b">感染事件逐案分析齊備</text>
+
+  <rect x="416" y="225" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <text x="432" y="242" font-size="18" fill="#1e293b" font-weight="700">消防安全（C9、C11）</text>
+
+  <rect x="424" y="255" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 428,265 L 432,270 L 441,258" fill="none" stroke="#a8a29e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="454" y="271" font-size="17" fill="#1e293b">半年消防設備師檢修已完成</text>
+
+  <rect x="424" y="283" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="454" y="299" font-size="17" fill="#1e293b">月用電安全自主檢查台帳齊全</text>
+
+  <rect x="424" y="311" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="454" y="327" font-size="17" fill="#1e293b">EOP 演練（含夜間）已完成 2 次</text>
+
+  <!-- 圖例 -->
+  <line x1="40" y1="433" x2="760" y2="433" stroke="#dedad3" stroke-width="1"/>
+  <rect x="75" y="443" width="18" height="18" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 78,453 L 82,458 L 91,446" fill="none" stroke="#78716c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="458" font-size="18" fill="#57534e">已確認完成</text>
+  <rect x="260" y="443" width="18" height="18" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="287" y="458" font-size="18" fill="#57534e">待確認項目</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">紙本管理四大痛點</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">每次評鑑前都會重演的困境</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <rect x="40" y="118" width="720" height="64" rx="8" fill="#ffffff"/>
+  <rect x="40" y="118" width="6" height="64" rx="3" fill="#d97706"/>
+  <rect x="56" y="130" width="38" height="38" rx="6" fill="#d97706"/>
+  <text x="75" y="155" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="112" y="143" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">文件散落各處，評鑑前追文件耗時</text>
+  <text x="112" y="167" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">A 區在行政室、B 區在護理站、C 區在環安——評鑑前集中文件需要大量時間</text>
+  <rect x="40" y="196" width="720" height="64" rx="8" fill="#f8f7f5"/>
+  <rect x="40" y="196" width="6" height="64" rx="3" fill="#78716c"/>
+  <rect x="56" y="208" width="38" height="38" rx="6" fill="#78716c"/>
+  <text x="75" y="233" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="112" y="221" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">版本無法追蹤，不確定哪份是最新版</text>
+  <text x="112" y="245" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">工作手冊、危機管理計畫每次修訂後，舊版本可能仍在流通</text>
+  <rect x="40" y="274" width="720" height="64" rx="8" fill="#ffffff"/>
+  <rect x="40" y="274" width="6" height="64" rx="3" fill="#57534e"/>
+  <rect x="56" y="286" width="38" height="38" rx="6" fill="#57534e"/>
+  <text x="75" y="311" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="112" y="299" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">多人同時修改，資訊無法同步</text>
+  <text x="112" y="323" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">護理長和社工分別修改照護計畫，完成後才發現兩份版本不同需要整合</text>
+  <rect x="40" y="352" width="720" height="64" rx="8" fill="#f8f7f5"/>
+  <rect x="40" y="352" width="6" height="64" rx="3" fill="#94a3b8"/>
+  <rect x="56" y="364" width="38" height="38" rx="6" fill="#94a3b8"/>
+  <text x="75" y="389" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="112" y="377" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">委員提問，臨場無法快速找到佐證文件</text>
+  <text x="112" y="401" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">「最近一次跌倒分析報告在哪裡？」翻遍資料夾找不到，評鑑現場氣氛驟然緊張</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

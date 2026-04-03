@@ -1,99 +1,70 @@
-<svg width="800" height="480" viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
-  <!-- 主背景 -->
-  <rect width="800" height="480" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 頂部標題區域 -->
-  <rect x="0" y="0" width="800" height="64" fill="#1e293b"/>
-  <text x="400" y="38" font-size="20" font-weight="700" fill="#f0efe8" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">專業紀錄 vs. NG 寫法對照</text>
-  <text x="400" y="56" font-size="13" fill="#94a3b8" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">對應評鑑基準第 5、6、7 條</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">紀錄品質 NG vs OK 對比</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">從反例學習正確書寫方式，讓記錄通過評鑑檢核</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 左欄標題（NG） -->
-  <rect x="20" y="78" width="370" height="38" rx="8" fill="#e8d5d5" opacity="0.7"/>
-  <text x="32" y="100" font-size="16" font-weight="700" fill="#c0392b" font-family="'Noto Sans TC', sans-serif">✗  NG 寫法（評鑑時會被標記）</text>
+  <!-- 左上卡片（#d97706，NG 主觀空泛）x=40 y=104 w=346 h=168 -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="68" cy="126" r="3" fill="white" opacity="0.8"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：主觀空泛描述</text>
+  <text x="60" y="172" font-size="14" fill="#57534e">• 「今天個案情緒不好」</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 「狀況穩定」「尚好」等模糊詞</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 看不出具體觀察事實</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 無法提供評鑑所需的客觀依據</text>
+  <rect x="56" y="246" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="96" y="260" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">扣分風險</text>
 
-  <!-- 右欄標題（OK） -->
-  <rect x="410" y="78" width="370" height="38" rx="8" fill="#d5e8d8" opacity="0.7"/>
-  <text x="422" y="100" font-size="16" font-weight="700" fill="#1e7e34" font-family="'Noto Sans TC', sans-serif">✓  專業寫法（符合評鑑要求）</text>
+  <!-- 右上卡片（#78716c，OK 客觀具體）x=414 y=104 w=346 h=168 -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">OK：客觀具體描述</text>
+  <text x="434" y="172" font-size="14" fill="#57534e">• 「09:30 個案拒絕用餐，表情皺眉」</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 記錄時間、行為事實與量化數據</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 用 5W1H 架構描述可觀察事實</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">• 避免主觀判斷用詞</text>
+  <rect x="430" y="246" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="260" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">評鑑合格</text>
 
-  <!-- 中間分隔線 -->
-  <line x1="400" y1="72" x2="400" y2="460" stroke="#dedad3" stroke-width="2"/>
+  <!-- 左下卡片（#57534e，NG 缺乏追蹤）x=40 y=288 w=346 h=162 -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：缺乏後續追蹤</text>
+  <text x="60" y="356" font-size="14" fill="#57534e">• 記錄問題後沒有後續評值記錄</text>
+  <text x="60" y="376" font-size="14" fill="#57534e">• 照護計畫從未更新修改</text>
+  <text x="60" y="396" font-size="14" fill="#57534e">• 無法呈現動態照護的連續性</text>
+  <text x="60" y="416" font-size="14" fill="#57534e">• 委員查閱時看不到改善軌跡</text>
+  <rect x="56" y="430" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="444" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">扣分項目</text>
 
-  <!-- 條目 1：評估紀錄（第5條） -->
-  <!-- 條文標籤 -->
-  <rect x="20" y="126" width="50" height="20" rx="10" fill="#d97706" opacity="0.2"/>
-  <text x="45" y="140" font-size="11" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第5條</text>
-  <rect x="410" y="126" width="50" height="20" rx="10" fill="#d97706" opacity="2"/>
-  <text x="435" y="140" font-size="11" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第5條</text>
-
-  <!-- NG 內容 1 -->
-  <rect x="20" y="150" width="370" height="52" rx="8" fill="#e8e6de"/>
-  <rect x="20" y="150" width="4" height="52" rx="2" fill="#e57373"/>
-  <text x="34" y="171" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">「整體狀況尚可，日常生活功能</text>
-  <text x="34" y="191" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">維持穩定。」</text>
-
-  <!-- OK 內容 1 -->
-  <rect x="410" y="150" width="370" height="52" rx="8" fill="#e8e6de"/>
-  <rect x="410" y="150" width="4" height="52" rx="2" fill="#4caf50"/>
-  <text x="424" y="165" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">「ADL 評估：45分（使用巴氏量表），</text>
-  <text x="424" y="181" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">無法自行如廁，需協助沐浴；MMSE</text>
-  <text x="424" y="197" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">18分，輕度認知障礙。」</text>
-
-  <!-- 條目 2：照顧計畫（第6條） -->
-  <rect x="20" y="212" width="50" height="20" rx="10" fill="#57534e" opacity="0.2"/>
-  <text x="45" y="226" font-size="11" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第6條</text>
-  <rect x="410" y="212" width="50" height="20" rx="10" fill="#57534e" opacity="0.2"/>
-  <text x="435" y="226" font-size="11" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第6條</text>
-
-  <!-- NG 內容 2 -->
-  <rect x="20" y="236" width="370" height="52" rx="8" fill="#e8e6de"/>
-  <rect x="20" y="236" width="4" height="52" rx="2" fill="#e57373"/>
-  <text x="34" y="257" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">「照顧目標：維持現況，提供所需</text>
-  <text x="34" y="277" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">照顧服務。」</text>
-
-  <!-- OK 內容 2 -->
-  <rect x="410" y="236" width="370" height="52" rx="8" fill="#e8e6de"/>
-  <rect x="410" y="236" width="4" height="52" rx="2" fill="#4caf50"/>
-  <text x="424" y="251" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">「目標：3個月內如廁能力維持在</text>
-  <text x="424" y="267" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">輔助下可自行完成（依個案需求訂</text>
-  <text x="424" y="283" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">定，含家屬確認簽名）」</text>
-
-  <!-- 條目 3：個案意見（第6條） -->
-  <rect x="20" y="298" width="50" height="20" rx="10" fill="#57534e" opacity="0.2"/>
-  <text x="45" y="312" font-size="11" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第6條</text>
-  <rect x="410" y="298" width="50" height="20" rx="10" fill="#57534e" opacity="0.2"/>
-  <text x="435" y="312" font-size="11" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第6條</text>
-
-  <!-- NG 內容 3 -->
-  <rect x="20" y="322" width="370" height="52" rx="8" fill="#e8e6de"/>
-  <rect x="20" y="322" width="4" height="52" rx="2" fill="#e57373"/>
-  <text x="34" y="343" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">「持續照顧中，無特殊狀況，按計</text>
-  <text x="34" y="363" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">畫執行。」（未記錄個案反應）</text>
-
-  <!-- OK 內容 3 -->
-  <rect x="410" y="322" width="370" height="52" rx="8" fill="#e8e6de"/>
-  <rect x="410" y="322" width="4" height="52" rx="2" fill="#4caf50"/>
-  <text x="424" y="337" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">「03/15 長輩主動表示想學摺紙，</text>
-  <text x="424" y="353" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">已與家屬討論並納入週活動計畫，</text>
-  <text x="424" y="369" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">家屬表示支持。」</text>
-
-  <!-- 條目 4：追蹤評值（第7條） -->
-  <rect x="20" y="384" width="50" height="20" rx="10" fill="#d97706" opacity="0.2"/>
-  <text x="45" y="398" font-size="11" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第7條</text>
-  <rect x="410" y="384" width="50" height="20" rx="10" fill="#d97706" opacity="0.2"/>
-  <text x="435" y="398" font-size="11" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">第7條</text>
-
-  <!-- NG 內容 4 -->
-  <rect x="20" y="408" width="370" height="42" rx="8" fill="#e8e6de"/>
-  <rect x="20" y="408" width="4" height="42" rx="2" fill="#e57373"/>
-  <text x="34" y="429" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">「評值：計畫繼續執行，狀況穩</text>
-  <text x="34" y="445" font-size="13" fill="#78716c" font-family="'Noto Sans TC', sans-serif">定。」（無達成率、無分析）</text>
-
-  <!-- OK 內容 4 -->
-  <rect x="410" y="408" width="370" height="42" rx="8" fill="#e8e6de"/>
-  <rect x="410" y="408" width="4" height="42" rx="2" fill="#4caf50"/>
-  <text x="424" y="423" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">「部分達成（7/10次成功）；未達成</text>
-  <text x="424" y="439" font-size="12" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">原因：情緒低落日增加，已修正計畫。」</text>
+  <!-- 右下卡片（#a8a29e，OK 持續追蹤）x=414 y=288 w=346 h=162 -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">OK：持續追蹤評值</text>
+  <text x="434" y="356" font-size="14" fill="#57534e">• 每筆記錄標記下次評值時間</text>
+  <text x="434" y="376" font-size="14" fill="#57534e">• 照護計畫隨狀況變化動態更新</text>
+  <text x="434" y="396" font-size="14" fill="#57534e">• 記錄呈現完整照護軌跡</text>
+  <text x="434" y="416" font-size="14" fill="#57534e">• 評鑑委員可清楚看到改善成效</text>
+  <rect x="430" y="430" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="444" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">評鑑加分</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="450" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

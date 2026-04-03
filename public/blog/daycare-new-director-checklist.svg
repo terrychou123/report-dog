@@ -1,129 +1,85 @@
-<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
-  <!-- 主背景 -->
-  <rect width="800" height="450" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 頂部標題區 -->
-  <rect x="0" y="0" width="800" height="58" fill="#e8e6de"/>
-  <text x="400" y="22" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">主任年度必做清單</text>
-  <text x="400" y="44" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="800">主任年度必做清單（115 年度評鑑版）</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">新手主任第一年工作確認清單</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">文件制度・人力訓練，兩大面向全面到位</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 四個季度欄 -->
-  <!-- Q1 欄 -->
-  <rect x="20" y="74" width="178" height="352" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="20" y="74" width="178" height="36" rx="10" fill="#e8e6de"/>
-  <rect x="20" y="96" width="178" height="14" fill="#e8e6de"/>
-  <text x="109" y="98" font-size="14" fill="#78716c" text-anchor="middle" font-weight="800">Q1　1–3 月</text>
+  <!-- 左欄 Section 1：文件制度 #d97706 -->
+  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">文件制度</text>
 
-  <!-- Q1 項目 -->
-  <rect x="32" y="122" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="52" y="133" font-size="12" fill="#1e293b">訂年度業務計畫</text>
-  <text x="52" y="150" font-size="10" fill="#94a3b8">對應第 23 條</text>
+  <rect x="64" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,150 L 72,155 L 81,143" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="156" font-size="18" fill="#1e293b">服務作業手冊已更新</text>
 
-  <line x1="32" y1="162" x2="186" y2="162" stroke="#dedad3" stroke-width="1"/>
+  <rect x="64" y="180" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,190 L 72,195 L 81,183" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="196" font-size="18" fill="#1e293b">個案文件格式符合規定</text>
 
-  <rect x="32" y="172" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="52" y="183" font-size="12" fill="#1e293b">完成工作手冊審閱</text>
-  <text x="52" y="200" font-size="10" fill="#94a3b8">對應第 24 條</text>
+  <rect x="64" y="220" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,230 L 72,235 L 81,223" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="236" font-size="18" fill="#1e293b">督導紀錄每月完整填寫</text>
 
-  <line x1="32" y1="212" x2="186" y2="212" stroke="#dedad3" stroke-width="1"/>
+  <!-- 左欄 Section 2：品管機制 #57534e -->
+  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">品管機制</text>
 
-  <rect x="32" y="222" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="52" y="233" font-size="12" fill="#1e293b">檢視人力配置</text>
-  <text x="52" y="250" font-size="10" fill="#94a3b8">對應第 28 條</text>
+  <rect x="64" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="310" font-size="18" fill="#1e293b">品管指標已書面訂定</text>
 
-  <line x1="32" y1="262" x2="186" y2="262" stroke="#dedad3" stroke-width="1"/>
+  <rect x="64" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="350" font-size="18" fill="#1e293b">每月指標數據有追蹤記錄</text>
 
-  <rect x="32" y="272" width="12" height="12" rx="3" fill="#a8a29e"/>
-  <text x="52" y="283" font-size="12" fill="#57534e">啟動月行政會議</text>
-  <text x="52" y="300" font-size="10" fill="#94a3b8">對應第 25 條</text>
+  <rect x="64" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="390" font-size="18" fill="#1e293b">異常個案已有改善方案</text>
 
-  <!-- Q2 欄 -->
-  <rect x="208" y="74" width="178" height="352" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="208" y="74" width="178" height="36" rx="10" fill="#e8e6de"/>
-  <rect x="208" y="96" width="178" height="14" fill="#e8e6de"/>
-  <text x="297" y="98" font-size="14" fill="#78716c" text-anchor="middle" font-weight="800">Q2　4–6 月</text>
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
-  <rect x="220" y="122" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="240" y="133" font-size="12" fill="#1e293b">辦半年個別督導</text>
-  <text x="240" y="150" font-size="10" fill="#94a3b8">對應第 9 條</text>
+  <!-- 右欄 Section 1：人力訓練 #78716c -->
+  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">人力訓練</text>
 
-  <line x1="220" y1="162" x2="374" y2="162" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,150 L 428,155 L 437,143" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="156" font-size="18" fill="#1e293b">全員訓練時數已達標</text>
 
-  <rect x="220" y="172" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="240" y="183" font-size="12" fill="#1e293b">更新品管指標</text>
-  <text x="240" y="200" font-size="10" fill="#94a3b8">對應第 22 條</text>
+  <rect x="420" y="180" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,190 L 428,195 L 437,183" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="196" font-size="18" fill="#1e293b">特殊訓練時數有記錄</text>
 
-  <line x1="220" y1="212" x2="374" y2="212" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="220" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,230 L 428,235 L 437,223" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="236" font-size="18" fill="#1e293b">主任進修時數已完成</text>
 
-  <rect x="220" y="222" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="240" y="233" font-size="12" fill="#1e293b">確認教育訓練進度</text>
-  <text x="240" y="250" font-size="10" fill="#94a3b8">對應第 29 條</text>
+  <!-- 右欄 Section 2：年度規劃 #a8a29e -->
+  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">年度規劃</text>
 
-  <line x1="220" y1="262" x2="374" y2="262" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="310" font-size="18" fill="#1e293b">年度服務計畫已完成</text>
 
-  <rect x="220" y="272" width="12" height="12" rx="3" fill="#a8a29e"/>
-  <text x="240" y="283" font-size="12" fill="#57534e">核算第一季留任人數</text>
-  <text x="240" y="300" font-size="10" fill="#94a3b8">對應第 30 條</text>
+  <rect x="420" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="350" font-size="18" fill="#1e293b">全年訓練日曆已排定</text>
 
-  <!-- Q3 欄 -->
-  <rect x="396" y="74" width="178" height="352" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="396" y="74" width="178" height="36" rx="10" fill="#e8e6de"/>
-  <rect x="396" y="96" width="178" height="14" fill="#e8e6de"/>
-  <text x="485" y="98" font-size="14" fill="#78716c" text-anchor="middle" font-weight="800">Q3　7–9 月</text>
+  <rect x="420" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="390" font-size="18" fill="#1e293b">評鑑準備時程已規劃</text>
 
-  <rect x="408" y="122" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="428" y="133" font-size="12" fill="#1e293b">辦跨專業個案討論</text>
-  <text x="428" y="150" font-size="10" fill="#94a3b8">對應第 9、25 條</text>
+  <!-- 底部分隔線 -->
+  <line x1="40" y1="433" x2="760" y2="433" stroke="#dedad3" stroke-width="1"/>
 
-  <line x1="408" y1="162" x2="562" y2="162" stroke="#dedad3" stroke-width="1"/>
+  <!-- 圖例 -->
+  <rect x="75" y="443" width="18" height="18" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 78,453 L 82,458 L 91,446" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="458" font-size="18" fill="#57534e">已確認完成</text>
 
-  <rect x="408" y="172" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="428" y="183" font-size="12" fill="#1e293b">辦家屬活動（第2次）</text>
-  <text x="428" y="200" font-size="10" fill="#94a3b8">對應第 23 條</text>
-
-  <line x1="408" y1="212" x2="562" y2="212" stroke="#dedad3" stroke-width="1"/>
-
-  <rect x="408" y="222" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="428" y="233" font-size="12" fill="#1e293b">留任率中期核算</text>
-  <text x="428" y="250" font-size="10" fill="#94a3b8">對應第 30 條</text>
-
-  <line x1="408" y1="262" x2="562" y2="262" stroke="#dedad3" stroke-width="1"/>
-
-  <rect x="408" y="272" width="12" height="12" rx="3" fill="#a8a29e"/>
-  <text x="428" y="283" font-size="12" fill="#57534e">主任管理訓練 4 小時</text>
-  <text x="428" y="300" font-size="10" fill="#94a3b8">對應第 31 條</text>
-
-  <!-- Q4 欄 -->
-  <rect x="584" y="74" width="196" height="352" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="584" y="74" width="196" height="36" rx="10" fill="#d97706" opacity="0.15"/>
-  <rect x="584" y="96" width="196" height="14" fill="#d97706" opacity="0.15"/>
-  <text x="682" y="98" font-size="14" fill="#d97706" text-anchor="middle" font-weight="800">Q4　10–12 月</text>
-
-  <rect x="596" y="122" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="616" y="133" font-size="12" fill="#1e293b">撰寫年度成果報告</text>
-  <text x="616" y="150" font-size="10" fill="#94a3b8">對應第 23 條</text>
-
-  <line x1="596" y1="162" x2="768" y2="162" stroke="#dedad3" stroke-width="1"/>
-
-  <rect x="596" y="172" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="616" y="183" font-size="12" fill="#1e293b">辦教育訓練複訓</text>
-  <text x="616" y="200" font-size="10" fill="#94a3b8">對應第 29 條</text>
-
-  <line x1="596" y1="212" x2="768" y2="212" stroke="#dedad3" stroke-width="1"/>
-
-  <rect x="596" y="222" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="616" y="233" font-size="12" fill="#1e293b">評鑑前自評</text>
-  <text x="616" y="250" font-size="10" fill="#94a3b8">對應第 22–34 條</text>
-
-  <line x1="596" y1="262" x2="768" y2="262" stroke="#dedad3" stroke-width="1"/>
-
-  <rect x="596" y="272" width="12" height="12" rx="3" fill="#d97706"/>
-  <text x="616" y="283" font-size="12" fill="#1e293b">確認財務帳冊完整</text>
-  <text x="616" y="300" font-size="10" fill="#94a3b8">對應第 34 條</text>
-
-  <!-- 底部說明 -->
-  <text x="400" y="440" font-size="11" fill="#a8a29e" text-anchor="middle">● 橙色項目為評鑑高頻查核重點　● 灰色為建議執行項目</text>
+  <rect x="230" y="443" width="18" height="18" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="257" y="458" font-size="18" fill="#57534e">待確認項目</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

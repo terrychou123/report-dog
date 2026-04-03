@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="94" fill="white"/>
+  <rect x="0" y="0" width="6" height="94" fill="#d97706"/>
+  <text x="400" y="48" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">各職種評鑑自查清單</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">評鑑前請逐項確認</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="100" x2="400" y2="430" stroke="#dedad3" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- 左欄：行政/主任 -->
+  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <text x="76" y="126" font-size="18" font-weight="700" fill="#d97706">行政 / 主任</text>
+
+  <!-- 勾選項目 -->
+  <rect x="60" y="143" width="20" height="20" rx="3" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <path d="M64,153 L68,158 L77,146" stroke="#d97706" stroke-width="2" fill="none"/>
+  <text x="94" y="158" font-size="18" fill="#1e293b">危機管理計畫（選3風險以上）</text>
+
+  <rect x="60" y="173" width="20" height="20" rx="3" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <path d="M64,183 L68,188 L77,176" stroke="#d97706" stroke-width="2" fill="none"/>
+  <text x="94" y="188" font-size="18" fill="#1e293b">業務負責人專任投保勞健保</text>
+
+  <rect x="60" y="203" width="20" height="20" rx="3" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <path d="M64,213 L68,218 L77,206" stroke="#d97706" stroke-width="2" fill="none"/>
+  <text x="94" y="218" font-size="18" fill="#1e293b">年度訓練計畫與時數紀錄</text>
+
+  <!-- 左欄：社工師 -->
+  <rect x="60" y="240" width="6" height="24" rx="3" fill="#78716c"/>
+  <text x="76" y="258" font-size="18" font-weight="700" fill="#78716c">社工師</text>
+
+  <rect x="60" y="275" width="20" height="20" rx="3" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <path d="M64,285 L68,290 L77,278" stroke="#78716c" stroke-width="2" fill="none"/>
+  <text x="94" y="290" font-size="18" fill="#1e293b">社工配置符合1:100或1:80</text>
+
+  <rect x="60" y="305" width="20" height="20" rx="3" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <path d="M64,315 L68,320 L77,308" stroke="#78716c" stroke-width="2" fill="none"/>
+  <text x="94" y="320" font-size="18" fill="#1e293b">個案服務計畫每半年更新</text>
+
+  <rect x="60" y="335" width="20" height="20" rx="3" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <path d="M64,345 L68,350 L77,338" stroke="#78716c" stroke-width="2" fill="none"/>
+  <text x="94" y="350" font-size="18" fill="#1e293b">D1-D9個案權益文件齊全</text>
+
+  <!-- 右欄：護理師 -->
+  <rect x="416" y="108" width="6" height="24" rx="3" fill="#57534e"/>
+  <text x="432" y="126" font-size="18" font-weight="700" fill="#57534e">護理師</text>
+
+  <rect x="416" y="143" width="20" height="20" rx="3" fill="white" stroke="#57534e" stroke-width="1.5"/>
+  <path d="M420,153 L424,158 L433,146" stroke="#57534e" stroke-width="2" fill="none"/>
+  <text x="450" y="158" font-size="18" fill="#1e293b">護理配置：長照1:15/養護1:20</text>
+
+  <rect x="416" y="173" width="20" height="20" rx="3" fill="white" stroke="#57534e" stroke-width="1.5"/>
+  <path d="M420,183 L424,188 L433,176" stroke="#57534e" stroke-width="2" fill="none"/>
+  <text x="450" y="188" font-size="18" fill="#1e293b">跌倒壓損評估辦法與逐案分析</text>
+
+  <rect x="416" y="203" width="20" height="20" rx="3" fill="white" stroke="#57534e" stroke-width="1.5"/>
+  <path d="M420,213 L424,218 L433,206" stroke="#57534e" stroke-width="2" fill="none"/>
+  <text x="450" y="218" font-size="18" fill="#1e293b">感染監測紀錄含逐案分析</text>
+
+  <!-- 右欄：環安人員 -->
+  <rect x="416" y="240" width="6" height="24" rx="3" fill="#94a3b8"/>
+  <text x="432" y="258" font-size="18" font-weight="700" fill="#57534e">環安人員</text>
+
+  <rect x="416" y="275" width="20" height="20" rx="3" fill="white" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M420,285 L424,290 L433,278" stroke="#94a3b8" stroke-width="2" fill="none"/>
+  <text x="450" y="290" font-size="18" fill="#1e293b">消防設備每半年委託檢修</text>
+
+  <rect x="416" y="305" width="20" height="20" rx="3" fill="white" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M420,315 L424,320 L433,308" stroke="#94a3b8" stroke-width="2" fill="none"/>
+  <text x="450" y="320" font-size="18" fill="#1e293b">每年2次疏散演練含夜間1次</text>
+
+  <rect x="416" y="335" width="20" height="20" rx="3" fill="white" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M420,345 L424,350 L433,338" stroke="#94a3b8" stroke-width="2" fill="none"/>
+  <text x="450" y="350" font-size="18" fill="#1e293b">緊急避難圖各樓層張貼（A3+）</text>
+
+  <!-- 底部圖例 -->
+  <line x1="40" y1="390" x2="760" y2="390" stroke="#dedad3" stroke-width="1"/>
+  <rect x="60" y="403" width="16" height="16" rx="2" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <path d="M63,411 L67,415 L73,405" stroke="#d97706" stroke-width="2" fill="none"/>
+  <text x="84" y="416" font-size="14" fill="#57534e">已完成</text>
+  <rect x="170" y="403" width="16" height="16" rx="2" fill="white" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="194" y="416" font-size="14" fill="#57534e">待確認</text>
+  <text x="440" y="416" font-size="14" fill="#a8a29e">評鑑前請所有職種逐項自查</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

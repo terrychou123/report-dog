@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑數位工具核心功能</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">專為評鑑場景設計的四大功能需求</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <rect x="40" y="118" width="348" height="160" rx="14" fill="#d97706"/>
+  <text x="214" y="162" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">文件分類與快速搜尋</text>
+  <text x="214" y="192" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">依 75 條基準分類存放</text>
+  <text x="214" y="214" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">輸入條文編號即找到文件</text>
+  <text x="214" y="236" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">評鑑當天不再翻箱倒櫃</text>
+  <text x="214" y="258" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">（對應 B3 管理系統要求）</text>
+  <rect x="412" y="118" width="348" height="160" rx="14" fill="#78716c"/>
+  <text x="586" y="162" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">版本控制與稽核記錄</text>
+  <text x="586" y="192" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">每次修改有時間戳記</text>
+  <text x="586" y="214" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">修改人員記錄可查詢</text>
+  <text x="586" y="236" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">符合 D1 條稽核要求</text>
+  <text x="586" y="258" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">（個資保護稽核紀錄）</text>
+  <rect x="40" y="298" width="348" height="160" rx="14" fill="#57534e"/>
+  <text x="214" y="342" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">多人協作與任務分配</text>
+  <text x="214" y="372" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">主管分配任務給各職責人員</text>
+  <text x="214" y="394" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">即時查看各項目完成狀態</text>
+  <text x="214" y="416" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">避免評鑑前資訊孤島</text>
+  <rect x="412" y="298" width="348" height="160" rx="14" fill="#94a3b8"/>
+  <text x="586" y="342" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">AI 輔助文書撰寫</text>
+  <text x="586" y="372" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">依評鑑格式自動生成初稿</text>
+  <text x="586" y="394" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">個案服務計畫、品質報告</text>
+  <text x="586" y="416" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">人員確認修改後存檔</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

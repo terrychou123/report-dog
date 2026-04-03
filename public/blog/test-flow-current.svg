@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區（現行位置：主標 y=72, 副標 y=108, 分隔線 y=124） -->
+  <text x="400" y="72" text-anchor="middle" font-size="24" fill="#1e293b" font-weight="700">評鑑準備 4 大關鍵步驟</text>
+  <text x="400" y="108" text-anchor="middle" font-size="18" fill="#57534e">掌握流程、提前佈局，讓評鑑不再慌亂</text>
+  <line x1="28" y1="124" x2="772" y2="124" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 標題區範圍示意（淡色標示） -->
+  <rect x="1" y="1" width="798" height="139" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+  <text x="8" y="14" font-size="11" fill="#94a3b8">標題區 y=1→139（高度 138px）</text>
+
+  <!-- 箭頭 (N=4, arrow_y=301) -->
+  <line x1="202" y1="301" x2="218" y2="301" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,295 218,301 202,307" fill="#c4bfb8"/>
+  <line x1="392" y1="301" x2="408" y2="301" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,295 408,301 392,307" fill="#c4bfb8"/>
+  <line x1="582" y1="301" x2="598" y2="301" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,295 598,301 582,307" fill="#c4bfb8"/>
+
+  <!-- Step 1 (#d97706 琥珀) card x=28 cx=115 -->
+  <rect x="28" y="141" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="141" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="145" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="221" r="44" fill="#fef3c7"/>
+  <text x="115" y="210" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="239" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <text x="115" y="319" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">自我評估</text>
+  <text x="115" y="347" text-anchor="middle" font-size="15" fill="#57534e">盤點現有文件</text>
+  <text x="115" y="369" text-anchor="middle" font-size="15" fill="#57534e">與執行落差</text>
+  <rect x="41" y="397" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="421" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">評鑑前 90 天</text>
+
+  <!-- Step 2 (#78716c 暖灰) card x=218 cx=305 -->
+  <rect x="218" y="141" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="141" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="145" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="221" r="44" fill="#f5f5f4"/>
+  <text x="305" y="210" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="239" text-anchor="middle" font-size="29" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="319" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">制定計畫</text>
+  <text x="305" y="347" text-anchor="middle" font-size="15" fill="#57534e">分工負責人</text>
+  <text x="305" y="369" text-anchor="middle" font-size="15" fill="#57534e">與截止日期</text>
+  <rect x="231" y="397" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="421" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">評鑑前 60 天</text>
+
+  <!-- Step 3 (#57534e 深棕) card x=408 cx=495 -->
+  <rect x="408" y="141" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="141" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="145" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="221" r="44" fill="#f5f0eb"/>
+  <text x="495" y="210" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="239" text-anchor="middle" font-size="29" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="319" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">文件整備</text>
+  <text x="495" y="347" text-anchor="middle" font-size="15" fill="#57534e">補齊紀錄表單</text>
+  <text x="495" y="369" text-anchor="middle" font-size="15" fill="#57534e">與政策規範</text>
+  <rect x="421" y="397" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="421" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">評鑑前 30 天</text>
+
+  <!-- Step 4 (#a8a29e 淺灰) card x=598 cx=685 -->
+  <rect x="598" y="141" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="141" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="145" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="221" r="44" fill="#f5f5f4"/>
+  <text x="685" y="210" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="239" text-anchor="middle" font-size="29" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="319" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">模擬演練</text>
+  <text x="685" y="347" text-anchor="middle" font-size="15" fill="#57534e">內部自評與</text>
+  <text x="685" y="369" text-anchor="middle" font-size="15" fill="#57534e">弱點改善</text>
+  <rect x="611" y="397" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="421" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">評鑑前 7 天</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">九項一級必要項總覽</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">任何一項不達標即無法通過評鑑</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 管理類 -->
+  <text x="56" y="124" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">A 管理類（3 項）</text>
+  <rect x="40" y="132" width="225" height="44" rx="6" fill="#d97706"/>
+  <text x="152" y="150" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">A7 業務負責人</text>
+  <text x="152" y="168" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">實際參與管理，資格符合</text>
+  <rect x="280" y="132" width="225" height="44" rx="6" fill="#d97706"/>
+  <text x="392" y="150" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">A9 護理人員</text>
+  <text x="392" y="168" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">比例達標，全日均有護理師</text>
+  <rect x="520" y="132" width="240" height="44" rx="6" fill="#d97706"/>
+  <text x="640" y="150" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">A11 照顧服務員</text>
+  <text x="640" y="168" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">比例達標，各班本國籍照服員</text>
+  <!-- 安全類 -->
+  <text x="56" y="200" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e">C 安全類（6 項）</text>
+  <rect x="40" y="208" width="225" height="44" rx="6" fill="#57534e"/>
+  <text x="152" y="226" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C4 緊急呼叫系統</text>
+  <text x="152" y="244" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">寢室浴廁均設置，功能正常</text>
+  <rect x="280" y="208" width="225" height="44" rx="6" fill="#57534e"/>
+  <text x="392" y="226" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C9 消防安全設備</text>
+  <text x="392" y="244" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">每半年委託消防設備師檢修</text>
+  <rect x="520" y="208" width="240" height="44" rx="6" fill="#57534e"/>
+  <text x="640" y="226" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C10 疏散避難系統</text>
+  <text x="640" y="244" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">逃生路徑暢通，等待救援空間</text>
+  <rect x="40" y="266" width="225" height="44" rx="6" fill="#78716c"/>
+  <text x="152" y="284" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C11 緊急應變計畫</text>
+  <text x="152" y="302" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">EOP 完備，每年演練 2 次</text>
+  <rect x="280" y="266" width="225" height="44" rx="6" fill="#78716c"/>
+  <text x="392" y="284" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C12 疏散策略</text>
+  <text x="392" y="302" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">各樓層住民疏散順序與策略</text>
+  <rect x="520" y="266" width="240" height="44" rx="6" fill="#78716c"/>
+  <text x="640" y="284" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C15 護理站設施</text>
+  <text x="640" y="302" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">基本急救設備完備，功能正常</text>
+  <!-- 說明框 -->
+  <rect x="40" y="330" width="720" height="60" rx="10" fill="#d97706" opacity="0.1"/>
+  <text x="60" y="352" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">安全類佔 6/9 項：</text>
+  <text x="200" y="352" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">C9-C12 消防與疏散是最受重視的底線，每年至少 2 次演練（含夜間 1 次）</text>
+  <text x="60" y="380" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">管理類佔 3/9 項：</text>
+  <text x="196" y="380" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">A7、A9、A11 人力配置與主管實際參與，新任主管第一週就要確認</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

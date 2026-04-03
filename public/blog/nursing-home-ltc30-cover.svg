@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="1192" y="0" width="8" height="630" fill="#d97706"/>
+  <!-- 主標題 -->
+  <rect x="60" y="80" width="700" height="12" rx="6" fill="#d97706" opacity="0.3"/>
+  <text x="60" y="185" font-size="50" fill="#1e293b" font-weight="700">長照 3.0 上路後</text>
+  <text x="60" y="250" font-size="40" fill="#d97706" font-weight="700">住宿型機構評鑑會怎麼變？</text>
+  <text x="60" y="308" font-size="24" fill="#57534e">2026年1月正式啟動 · 趨勢分析與因應策略</text>
+  <!-- 標籤 -->
+  <rect x="60" y="348" width="180" height="40" rx="20" fill="#d97706"/>
+  <text x="150" y="373" font-size="17" fill="white" text-anchor="middle" font-weight="600">以人為中心</text>
+  <rect x="256" y="348" width="160" height="40" rx="20" fill="#78716c"/>
+  <text x="336" y="373" font-size="17" fill="white" text-anchor="middle" font-weight="600">數位化</text>
+  <rect x="432" y="348" width="200" height="40" rx="20" fill="#57534e"/>
+  <text x="532" y="373" font-size="17" fill="white" text-anchor="middle" font-weight="600">品質可視化</text>
+  <!-- 右側裝飾 -->
+  <rect x="820" y="100" width="340" height="400" rx="20" fill="white" opacity="0.55"/>
+  <text x="990" y="185" font-size="72" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.5">3.0</text>
+  <text x="990" y="230" font-size="20" fill="#78716c" text-anchor="middle">長照 3.0 核心轉向</text>
+  <line x1="860" y1="255" x2="1120" y2="255" stroke="#a8a29e" stroke-width="1"/>
+  <text x="990" y="295" font-size="17" fill="#57534e" text-anchor="middle">服務量 → 服務質</text>
+  <text x="990" y="330" font-size="17" fill="#57534e" text-anchor="middle">機構本位 → 住民本位</text>
+  <text x="990" y="365" font-size="17" fill="#57534e" text-anchor="middle">紙本管理 → 數位化</text>
+  <text x="990" y="400" font-size="17" fill="#d97706" text-anchor="middle" font-weight="600">2026年1月 正式上路</text>
+  <!-- 底部 -->
+  <rect x="60" y="455" width="500" height="3" rx="2" fill="#a8a29e" opacity="0.5"/>
+  <text x="60" y="490" font-size="20" fill="#78716c">報告汪 · 長照機構評鑑報告管理平台</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

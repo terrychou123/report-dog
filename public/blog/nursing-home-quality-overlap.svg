@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">品質獎勵與評鑑 4 大重疊領域</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">日常執行一份，兩套系統同步受益</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 卡片 1：品質會議 -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">品質會議（B1）</text>
+  <text x="60" y="172" font-size="14" fill="#57534e">• 評鑑：每 3 個月召開，有決議</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 品質獎：品質改善核心活動</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 做法：統一會議格式涵蓋兩套</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">  要求，一份紀錄兩用</text>
+  <rect x="60" y="248" width="140" height="20" rx="10" fill="#d97706" opacity="0.15"/>
+  <text x="130" y="262" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">每季1次</text>
+
+  <!-- 卡片 2：個案計畫 -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">個案計畫（B2）</text>
+  <text x="434" y="172" font-size="14" fill="#57534e">• 評鑑：72hr 初評，每季評值</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 品質獎：個別化照護品質佐證</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 做法：標準化範本同時滿足</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">  兩套評核格式要求</text>
+  <rect x="434" y="248" width="140" height="20" rx="10" fill="#78716c" opacity="0.15"/>
+  <text x="504" y="262" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">二級加強</text>
+
+  <!-- 卡片 3：危機管理 -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">危機管理（A6）</text>
+  <text x="60" y="358" font-size="14" fill="#57534e">• 評鑑：3 個以上風險，每半年</text>
+  <text x="60" y="378" font-size="14" fill="#57534e">• 品質獎：風險管理指標</text>
+  <text x="60" y="398" font-size="14" fill="#57534e">• 做法：風險分析結果帶入</text>
+  <text x="60" y="418" font-size="14" fill="#57534e">  品質會議討論，形成 PDCA</text>
+  <rect x="60" y="420" width="140" height="20" rx="10" fill="#57534e" opacity="0.15"/>
+  <text x="130" y="434" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">每半年分析</text>
+
+  <!-- 卡片 4：創新措施 -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#94a3b8"/>
+  <rect x="414" y="312" width="346" height="20" fill="#94a3b8"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">創新措施（E2）</text>
+  <text x="434" y="358" font-size="14" fill="#57534e">• 評鑑：至少 1 項創新方案</text>
+  <text x="434" y="378" font-size="14" fill="#57534e">• 品質獎：創新服務亮點</text>
+  <text x="434" y="398" font-size="14" fill="#57534e">• 做法：品質獎勵創新方案</text>
+  <text x="434" y="418" font-size="14" fill="#57534e">  直接作為 E2 佐證</text>
+  <rect x="434" y="420" width="140" height="20" rx="10" fill="#94a3b8" opacity="0.2"/>
+  <text x="504" y="434" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">雙重加分</text>
+
+  <!-- 水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

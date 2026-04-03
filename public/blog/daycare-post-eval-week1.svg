@@ -1,53 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 1 週：改善檢討會議與計畫表填寫</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Left: 改善檢討會 -->
-  <rect x="52" y="80" width="330" height="310" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="80" width="330" height="5" rx="2.5" fill="#d97706"/>
-  <text x="68" y="109" font-size="15" fill="#78716c" font-weight="700">召開改善檢討會議</text>
-  <rect x="68" y="120" width="130" height="24" rx="6" fill="#d97706" opacity="0.10"/>
-  <text x="133" y="136" font-size="12" fill="#d97706" text-anchor="middle">7天內完成</text>
-  <line x1="68" y1="156" x2="366" y2="156" stroke="#f0ede6" stroke-width="1"/>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">評鑑後第 1 週四大必做任務</text>
 
-  <text x="68" y="178" font-size="13" fill="#1e293b" font-weight="600">會議必要議題：</text>
-  <text x="68" y="200" font-size="12" fill="#57534e">□ 評鑑結果報告（主任說明）</text>
-  <text x="68" y="220" font-size="12" fill="#57534e">□ 各缺失項目說明與分析</text>
-  <text x="68" y="240" font-size="12" fill="#57534e">□ 分配改善責任人</text>
-  <text x="68" y="260" font-size="12" fill="#57534e">□ 確認改善完成期限</text>
-  <text x="68" y="280" font-size="12" fill="#57534e">□ 決議改善優先順序</text>
+  <!-- ===== Row 1（y=160）#d97706 召開檢討會議 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">召開全員改善檢討會議</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">由主任主持，全員參與，逐條討論委員意見與評鑑回饋</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">全員參與</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">主任主持</text>
 
-  <line x1="68" y1="298" x2="366" y2="298" stroke="#f0ede6" stroke-width="1"/>
-  <text x="68" y="318" font-size="13" fill="#1e293b" font-weight="600">會議文件留存：</text>
-  <text x="68" y="338" font-size="12" fill="#78716c">✓ 出席簽到單</text>
-  <text x="68" y="356" font-size="12" fill="#78716c">✓ 議程與討論記錄</text>
-  <text x="68" y="374" font-size="12" fill="#78716c">✓ 決議事項與執行表</text>
+  <!-- ===== Row 2（y=235）#78716c 製作改善計畫表 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">製作改善計畫追蹤表</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">每項缺失訂明負責人員、具體改善措施與完成期限</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">書面計畫</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">分工負責</text>
 
-  <!-- Right: 改善計畫表 -->
-  <rect x="418" y="80" width="330" height="310" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="418" y="80" width="330" height="5" rx="2.5" fill="#78716c"/>
-  <text x="434" y="109" font-size="15" fill="#78716c" font-weight="700">填寫改善計畫表</text>
-  <rect x="434" y="120" width="130" height="24" rx="6" fill="#78716c" opacity="0.10"/>
-  <text x="499" y="136" font-size="12" fill="#78716c" text-anchor="middle">欄位缺一不可</text>
-  <line x1="434" y1="156" x2="732" y2="156" stroke="#f0ede6" stroke-width="1"/>
+  <!-- ===== Row 3（y=310）#57534e 優先處理扣分項目 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">優先處理扣分項目</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">文件補件、流程調整、環境改善可立即啟動的先行動</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">即時啟動</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">優先改善</text>
 
-  <text x="434" y="176" font-size="13" fill="#1e293b" font-weight="600">必填欄位（每條缺失）：</text>
-  <rect x="434" y="186" width="300" height="26" rx="6" fill="#f8f7f2"/>
-  <text x="444" y="203" font-size="12" fill="#1e293b">① 缺失條目名稱（對應評鑑基準）</text>
-  <rect x="434" y="218" width="300" height="26" rx="6" fill="#d97706" opacity="0.06"/>
-  <text x="444" y="235" font-size="12" fill="#1e293b">② 缺失原因分析（根本原因）</text>
-  <rect x="434" y="250" width="300" height="26" rx="6" fill="#f8f7f2"/>
-  <text x="444" y="267" font-size="12" fill="#1e293b">③ 改善對策（具體可執行）</text>
-  <rect x="434" y="282" width="300" height="26" rx="6" fill="#d97706" opacity="0.06"/>
-  <text x="444" y="299" font-size="12" fill="#1e293b">④ 負責人員姓名</text>
-  <rect x="434" y="314" width="300" height="26" rx="6" fill="#f8f7f2"/>
-  <text x="444" y="331" font-size="12" fill="#1e293b">⑤ 預計完成日期</text>
+  <!-- ===== Row 4（y=385）#a8a29e 通報主管機關 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">確認改善計畫書繳交期限</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">依規定提交改善計畫書給主管機關，確認繳交格式與時限</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">依法繳交</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">確認期限</text>
 
-  <line x1="434" y1="350" x2="732" y2="350" stroke="#f0ede6" stroke-width="1"/>
-  <text x="434" y="370" font-size="12" fill="#d97706" font-weight="600">繳交規定：</text>
-  <text x="434" y="386" font-size="12" fill="#57534e">評鑑後 30 天內送主管機關</text>
-
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑委員四大訪談主題</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">對應評鑑基準條文與主要訪談對象</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 2x2 格局 -->
+  <!-- 左上：管理類 -->
+  <rect x="40" y="118" width="350" height="160" rx="14" fill="#d97706"/>
+  <text x="215" y="168" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">管理類</text>
+  <text x="215" y="200" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#fff3cd" text-anchor="middle">對象：主任（院長）</text>
+  <text x="215" y="224" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">條文：A3、A6、A7</text>
+  <text x="215" y="248" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">重點：業務計畫、危機管理、實際參與</text>
+  <!-- 右上：照護類 -->
+  <rect x="410" y="118" width="350" height="160" rx="14" fill="#78716c"/>
+  <text x="585" y="168" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">照護類</text>
+  <text x="585" y="200" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d4ccc8" text-anchor="middle">對象：護理長、照服員</text>
+  <text x="585" y="224" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">條文：B2、B13、B26、B27</text>
+  <text x="585" y="248" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">重點：個案計畫、跌倒、翻身活動</text>
+  <!-- 左下：權益類 -->
+  <rect x="40" y="298" width="350" height="160" rx="14" fill="#57534e"/>
+  <text x="215" y="348" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">權益類</text>
+  <text x="215" y="380" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d4ccc8" text-anchor="middle">對象：社工師、服務對象</text>
+  <text x="215" y="404" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">條文：D1、D3、D4</text>
+  <text x="215" y="428" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">重點：資料保護、申訴機制</text>
+  <!-- 右下：安全類 -->
+  <rect x="410" y="298" width="350" height="160" rx="14" fill="#94a3b8"/>
+  <text x="585" y="348" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">安全類</text>
+  <text x="585" y="380" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#e2e8f0" text-anchor="middle">對象：環境安全負責人</text>
+  <text x="585" y="404" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">條文：C4、C9、C11、C12</text>
+  <text x="585" y="428" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">重點：消防、疏散、緊急呼叫</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

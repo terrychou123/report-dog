@@ -1,56 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">品管指標常見失分情境：NG vs OK 對照</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Header -->
-  <rect x="52" y="74" width="335" height="32" rx="6" fill="#ef4444" opacity="0.12"/>
-  <text x="219" y="95" font-size="14" fill="#dc2626" font-weight="700" text-anchor="middle">✗ NG 失分寫法</text>
-  <rect x="413" y="74" width="335" height="32" rx="6" fill="#22c55e" opacity="0.12"/>
-  <text x="580" y="95" font-size="14" fill="#16a34a" font-weight="700" text-anchor="middle">✓ OK 得分寫法</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">品管指標常見失分 NG vs 正確 OK</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">4 種情境對照，避開評鑑最常見的扣分地雷</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Row 1 -->
-  <rect x="52" y="114" width="335" height="68" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
-  <text x="72" y="135" font-size="12" fill="#78716c" font-weight="600">指標：「提升服務品質」</text>
-  <text x="72" y="155" font-size="12" fill="#dc2626">✗ 目標不明確，無法量化</text>
-  <text x="72" y="173" font-size="11" fill="#94a3b8">委員無法判斷是否達標</text>
+  <!-- 左上卡片（#d97706，x=40, y=104, w=346, h=168）-->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：只有數字，無逐案分析</text>
+  <text x="60" y="170" font-size="14" fill="#57534e">X  每月跌倒統計表只有件數欄位</text>
+  <text x="60" y="190" font-size="14" fill="#57534e">X  無法說明哪位個案、原因為何</text>
+  <line x1="56" y1="204" x2="370" y2="204" stroke="#dedad3" stroke-width="1"/>
+  <text x="60" y="222" font-size="14" fill="#d97706" font-weight="600">OK  逐案記錄姓名、發生經過、</text>
+  <text x="60" y="240" font-size="14" fill="#d97706" font-weight="600">        採取措施與改善追蹤</text>
+  <rect x="56" y="248" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="96" y="262" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">逐案分析</text>
 
-  <rect x="413" y="114" width="335" height="68" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
-  <text x="433" y="135" font-size="12" fill="#78716c" font-weight="600">指標：「家屬滿意度 ≥ 85 分」</text>
-  <text x="433" y="155" font-size="12" fill="#16a34a">✓ 具體指標名稱 + 目標數值</text>
-  <text x="433" y="173" font-size="11" fill="#94a3b8">問卷結果可對照核實</text>
+  <!-- 右上卡片（#78716c，x=414, y=104, w=346, h=168）-->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無改善方案或流於形式</text>
+  <text x="434" y="170" font-size="14" fill="#57534e">X  改善措施欄填「加強注意」</text>
+  <text x="434" y="190" font-size="14" fill="#57534e">X  無具體行動項目與期限</text>
+  <line x1="430" y1="204" x2="744" y2="204" stroke="#dedad3" stroke-width="1"/>
+  <text x="434" y="222" font-size="14" fill="#78716c" font-weight="600">OK  具體寫出：調整環境照明、</text>
+  <text x="434" y="240" font-size="14" fill="#78716c" font-weight="600">        增加巡視頻率至每 2 小時</text>
+  <rect x="430" y="248" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="262" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">具體行動</text>
 
-  <!-- Row 2 -->
-  <rect x="52" y="192" width="335" height="68" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
-  <text x="72" y="213" font-size="12" fill="#78716c" font-weight="600">有數據，無分析檢討記錄</text>
-  <text x="72" y="233" font-size="12" fill="#dc2626">✗ 只收集數值，沒有討論說明</text>
-  <text x="72" y="251" font-size="11" fill="#94a3b8">缺少品管循環第3步驟</text>
+  <!-- 左下卡片（#57534e，x=40, y=288, w=346, h=162）-->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無法說明指標意義</text>
+  <text x="60" y="355" font-size="14" fill="#57534e">X  被委員詢問「這個指標追蹤什麼」</text>
+  <text x="60" y="375" font-size="14" fill="#57534e">X  工作人員答不出來或說「不清楚」</text>
+  <line x1="56" y1="389" x2="370" y2="389" stroke="#dedad3" stroke-width="1"/>
+  <text x="60" y="407" font-size="14" fill="#57534e" font-weight="600">OK  全員了解指標定義、目標</text>
+  <text x="60" y="425" font-size="14" fill="#57534e" font-weight="600">        值與自己的追蹤責任</text>
+  <rect x="56" y="432" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="446" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">全員知悉</text>
 
-  <rect x="413" y="192" width="335" height="68" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
-  <text x="433" y="213" font-size="12" fill="#78716c" font-weight="600">品管會議紀錄含數據分析</text>
-  <text x="433" y="233" font-size="12" fill="#16a34a">✓ 記錄：數值 + 分析原因 + 結論</text>
-  <text x="433" y="251" font-size="11" fill="#94a3b8">會議有日期、出席、決議</text>
+  <!-- 右下卡片（#a8a29e，x=414, y=288, w=346, h=162）-->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無連續 3 個月記錄</text>
+  <text x="434" y="355" font-size="14" fill="#57534e">X  評鑑月才臨時補做 3 個月記錄</text>
+  <text x="434" y="375" font-size="14" fill="#57534e">X  數據格式前後不一致</text>
+  <line x1="430" y1="389" x2="744" y2="389" stroke="#dedad3" stroke-width="1"/>
+  <text x="434" y="407" font-size="14" fill="#a8a29e" font-weight="600">OK  每月如實記錄，累積 3 個</text>
+  <text x="434" y="425" font-size="14" fill="#a8a29e" font-weight="600">        月以上連續完整數據</text>
+  <rect x="430" y="432" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="446" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">持續記錄</text>
 
-  <!-- Row 3 -->
-  <rect x="52" y="270" width="335" height="68" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
-  <text x="72" y="291" font-size="12" fill="#78716c" font-weight="600">未達標但無改善行動</text>
-  <text x="72" y="311" font-size="12" fill="#dc2626">✗ 指標 60%，說「下月改善」</text>
-  <text x="72" y="329" font-size="11" fill="#94a3b8">無具體對策即可能零分</text>
-
-  <rect x="413" y="270" width="335" height="68" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
-  <text x="433" y="291" font-size="12" fill="#78716c" font-weight="600">未達標有具體改善計畫</text>
-  <text x="433" y="311" font-size="12" fill="#16a34a">✓ 改善對策 + 負責人 + 完成日</text>
-  <text x="433" y="329" font-size="11" fill="#94a3b8">下月追蹤改善成效</text>
-
-  <!-- Row 4 -->
-  <rect x="52" y="348" width="335" height="56" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
-  <text x="72" y="369" font-size="12" fill="#78716c" font-weight="600">評鑑前臨時補製品管表格</text>
-  <text x="72" y="389" font-size="12" fill="#dc2626">✗ 日期連續、筆跡一致，明顯補填</text>
-
-  <rect x="413" y="348" width="335" height="56" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
-  <text x="433" y="369" font-size="12" fill="#78716c" font-weight="600">平時就有逐月記錄</text>
-  <text x="433" y="389" font-size="12" fill="#16a34a">✓ 不同月份不同填寫者，自然真實</text>
-
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

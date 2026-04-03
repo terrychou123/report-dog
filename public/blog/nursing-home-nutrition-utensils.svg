@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">B31 餐具清潔與個別化規範</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">餐具管理三大評鑑要求</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 要求1 -->
+  <rect x="40" y="130" width="720" height="100" rx="12" fill="#d97706"/>
+  <text x="400" y="168" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1. 備有個別化輔助餐具並落實使用</text>
+  <text x="400" y="198" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#fff3cd" text-anchor="middle">缺口杯、易握把柄湯匙刀叉、高邊盤</text>
+  <text x="400" y="220" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">「備有」不夠——要「落實提供給有需求的住民使用」委員才算達標</text>
+  <!-- 要求2 -->
+  <rect x="40" y="248" width="720" height="80" rx="12" fill="#78716c"/>
+  <text x="400" y="282" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2. 非全為不鏽鋼材質，除特殊情況外不使用免洗餐具</text>
+  <text x="400" y="312" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">評鑑委員會現場察看餐具材質，全部使用免洗餐具可能被認定不符合</text>
+  <!-- 要求3 -->
+  <rect x="40" y="346" width="720" height="80" rx="12" fill="#57534e"/>
+  <text x="400" y="380" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">3. 每位住民有私人餐具及飲用水工具，並有明確標示</text>
+  <text x="400" y="410" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">個人化標示（如姓名貼）清楚可辨，避免交叉使用降低感染風險</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

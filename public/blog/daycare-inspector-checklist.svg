@@ -1,119 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
-  <!-- 背景：米黃暖色 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 頂部標題區 -->
-  <rect x="0" y="0" width="800" height="72" fill="#78716c"/>
-  <text x="400" y="32" font-family="sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">評鑑委員最關注的 10 大要點</text>
-  <text x="400" y="56" font-family="sans-serif" font-size="13" fill="#dedad3" text-anchor="middle">日間照顧中心必備自查清單 — 對照這 10 點，提早準備不失分</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑三軌查核確認清單</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">文件・訪談・環境，三軌確認一次到位</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 左欄 (1-5) -->
-  <!-- 項目 1 -->
-  <rect x="40" y="92" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="40" y="92" width="6" height="58" rx="3" fill="#94a3b8"/>
-  <rect x="58" y="108" width="22" height="22" rx="6" fill="#94a3b8"/>
-  <text x="69" y="123" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="98" cy="108" r="10" fill="#94a3b8"/>
-  <text x="98" y="113" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">1</text>
-  <text x="118" y="111" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">照顧計畫完成時間</text>
-  <text x="118" y="129" font-family="sans-serif" font-size="12" fill="#57534e">評估後須於 7 工作天內完成計畫書</text>
+  <!-- 左欄 Section 1：文件審閱重點 #d97706 -->
+  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">文件審閱重點</text>
 
-  <!-- 項目 2 -->
-  <rect x="40" y="160" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="40" y="160" width="6" height="58" rx="3" fill="#94a3b8"/>
-  <rect x="58" y="176" width="22" height="22" rx="6" fill="#94a3b8"/>
-  <text x="69" y="191" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="98" cy="176" r="10" fill="#94a3b8"/>
-  <text x="98" y="181" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">2</text>
-  <text x="118" y="179" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">追蹤評值有無紀錄</text>
-  <text x="118" y="197" font-family="sans-serif" font-size="12" fill="#57534e">每次服務後需有追蹤評值記錄</text>
+  <!-- 左欄 Item 1：已確認 -->
+  <rect x="64" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,150 L 72,155 L 81,143" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="156" font-size="18" fill="#1e293b">照顧計畫完成日期符合規定</text>
 
-  <!-- 項目 3 -->
-  <rect x="40" y="228" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="40" y="228" width="6" height="58" rx="3" fill="#94a3b8"/>
-  <rect x="58" y="244" width="22" height="22" rx="6" fill="#94a3b8"/>
-  <text x="69" y="259" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="98" cy="244" r="10" fill="#94a3b8"/>
-  <text x="98" y="249" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">3</text>
-  <text x="118" y="247" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">督導頻率是否達標</text>
-  <text x="118" y="265" font-family="sans-serif" font-size="12" fill="#57534e">個督每半年、團督每季一次</text>
+  <!-- 左欄 Item 2：待確認 -->
+  <rect x="64" y="180" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="196" font-size="18" fill="#1e293b">督導紀錄頻率足夠完整</text>
 
-  <!-- 項目 4 -->
-  <rect x="40" y="296" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="40" y="296" width="6" height="58" rx="3" fill="#94a3b8"/>
-  <rect x="58" y="312" width="22" height="22" rx="6" fill="#94a3b8"/>
-  <text x="69" y="327" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="98" cy="312" r="10" fill="#94a3b8"/>
-  <text x="98" y="317" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">4</text>
-  <text x="118" y="315" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">品管指標是否自訂</text>
-  <text x="118" y="333" font-family="sans-serif" font-size="12" fill="#57534e">至少自訂 2 項品質管理指標</text>
+  <!-- 左欄 Item 3：待確認 -->
+  <rect x="64" y="220" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="236" font-size="18" fill="#1e293b">教育訓練時數與類別達標</text>
 
-  <!-- 項目 5 -->
-  <rect x="40" y="364" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="40" y="364" width="6" height="58" rx="3" fill="#94a3b8"/>
-  <rect x="58" y="380" width="22" height="22" rx="6" fill="#94a3b8"/>
-  <text x="69" y="395" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="98" cy="380" r="10" fill="#94a3b8"/>
-  <text x="98" y="385" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">5</text>
-  <text x="118" y="383" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">教育訓練時數完整</text>
-  <text x="118" y="401" font-family="sans-serif" font-size="12" fill="#57534e">每年在職訓練至少 20 小時</text>
+  <!-- 左欄 Section 2：訪談準備重點 #57534e -->
+  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">訪談準備重點</text>
 
-  <!-- 右欄 (6-10) -->
-  <!-- 項目 6 -->
-  <rect x="414" y="92" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="92" width="6" height="58" rx="3" fill="#78716c"/>
-  <rect x="432" y="108" width="22" height="22" rx="6" fill="#78716c"/>
-  <text x="443" y="123" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="472" cy="108" r="10" fill="#78716c"/>
-  <text x="472" y="113" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">6</text>
-  <text x="492" y="111" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">緊急事件處理流程</text>
-  <text x="492" y="129" font-family="sans-serif" font-size="12" fill="#57534e">SOP 書面化並定期演練</text>
+  <!-- 左欄 Item 4 -->
+  <rect x="64" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="310" font-size="18" fill="#1e293b">各職類了解自身查核重點</text>
 
-  <!-- 項目 7 -->
-  <rect x="414" y="160" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="160" width="6" height="58" rx="3" fill="#78716c"/>
-  <rect x="432" y="176" width="22" height="22" rx="6" fill="#78716c"/>
-  <text x="443" y="191" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="472" cy="176" r="10" fill="#78716c"/>
-  <text x="472" y="181" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">7</text>
-  <text x="492" y="179" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">個資管理規定</text>
-  <text x="492" y="197" font-family="sans-serif" font-size="12" fill="#57534e">個案資料保護措施落實</text>
+  <!-- 左欄 Item 5 -->
+  <rect x="64" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="350" font-size="18" fill="#1e293b">能用自己的話說明工作邏輯</text>
 
-  <!-- 項目 8 -->
-  <rect x="414" y="228" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="228" width="6" height="58" rx="3" fill="#78716c"/>
-  <rect x="432" y="244" width="22" height="22" rx="6" fill="#78716c"/>
-  <text x="443" y="259" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="472" cy="244" r="10" fill="#78716c"/>
-  <text x="472" y="249" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">8</text>
-  <text x="492" y="247" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">申訴機制落實</text>
-  <text x="492" y="265" font-family="sans-serif" font-size="12" fill="#57534e">投訴管道公開、處理紀錄完整</text>
+  <!-- 左欄 Item 6 -->
+  <rect x="64" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="390" font-size="18" fill="#1e293b">緊急事件流程已內化</text>
 
-  <!-- 項目 9 -->
-  <rect x="414" y="296" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="296" width="6" height="58" rx="3" fill="#78716c"/>
-  <rect x="432" y="312" width="22" height="22" rx="6" fill="#78716c"/>
-  <text x="443" y="327" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="472" cy="312" r="10" fill="#78716c"/>
-  <text x="472" y="317" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">9</text>
-  <text x="492" y="315" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">環境設備安全</text>
-  <text x="492" y="333" font-family="sans-serif" font-size="12" fill="#57534e">空間安全、消防設備定期檢查</text>
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 項目 10 -->
-  <rect x="414" y="364" width="346" height="58" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="364" width="6" height="58" rx="3" fill="#78716c"/>
-  <rect x="432" y="380" width="22" height="22" rx="6" fill="#78716c"/>
-  <text x="443" y="395" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">✓</text>
-  <circle cx="472" cy="380" r="10" fill="#78716c"/>
-  <text x="472" y="385" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">10</text>
-  <text x="492" y="383" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="bold">工作手冊完整性</text>
-  <text x="492" y="401" font-family="sans-serif" font-size="12" fill="#57534e">職責明確、程序書面化更新</text>
+  <!-- 右欄 Section 1：環境查看重點 #78716c -->
+  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">環境查看重點</text>
 
-  <!-- 底部 -->
-  <rect x="40" y="436" width="720" height="44" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="400" y="456" font-family="sans-serif" font-size="12" fill="#57534e" text-anchor="middle">以上 10 項為評鑑委員重點查核項目</text>
-  <text x="400" y="472" font-family="sans-serif" font-size="12" fill="#78716c" text-anchor="middle" font-weight="bold">建議每季自查一次，確保評鑑時零缺失</text>
+  <!-- 右欄 Item 1 -->
+  <rect x="420" y="140" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="156" font-size="18" fill="#1e293b">高齡友善設施已完善</text>
+
+  <!-- 右欄 Item 2 -->
+  <rect x="420" y="180" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="196" font-size="18" fill="#1e293b">廚房留樣規定確實執行</text>
+
+  <!-- 右欄 Item 3 -->
+  <rect x="420" y="220" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="236" font-size="18" fill="#1e293b">急救物品完整且位置知悉</text>
+
+  <!-- 右欄 Section 2：整體備審重點 #a8a29e -->
+  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">整體備審重點</text>
+
+  <!-- 右欄 Item 4 -->
+  <rect x="420" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="310" font-size="18" fill="#1e293b">文件前後邏輯一致無矛盾</text>
+
+  <!-- 右欄 Item 5 -->
+  <rect x="420" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="350" font-size="18" fill="#1e293b">有改善歷程可向委員說明</text>
+
+  <!-- 右欄 Item 6 -->
+  <rect x="420" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="390" font-size="18" fill="#1e293b">前次評鑑建議已追蹤改善</text>
+
+  <!-- 底部分隔線 -->
+  <line x1="40" y1="433" x2="760" y2="433" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 圖例 -->
+  <rect x="75" y="443" width="18" height="18" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 78,453 L 82,458 L 91,446" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="458" font-size="18" fill="#57534e">已確認完成</text>
+
+  <rect x="230" y="443" width="18" height="18" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="257" y="458" font-size="18" fill="#57534e">待確認項目</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="468" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

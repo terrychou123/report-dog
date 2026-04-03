@@ -1,121 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="480" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="60" fill="#78716c"/>
-  <text x="32" y="22" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">評鑑結束後</text>
-  <text x="32" y="46" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">評鑑後 30 天行動計畫</text>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">黃金 30 天 4 大改善面向</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">分面向分工，讓改善執行有條不紊</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 水平時間軸 -->
-  <line x1="60" y1="290" x2="760" y2="290" stroke="#dedad3" stroke-width="2"/>
-  <!-- 軸線覆蓋 -->
-  <rect x="60" y="288" width="700" height="4" rx="2" fill="#a8a29e" opacity="0.4"/>
+  <!-- 左上卡片（#d97706，x=40, y=104, w=346, h=168）-->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="68" cy="126" r="3" fill="white" opacity="0.8"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">文件補強</text>
+  <text x="60" y="172" font-size="14" fill="#57534e">• 補齊評鑑中被要求的缺失文件</text>
+  <text x="60" y="192" font-size="14" fill="#57534e">• 更新表單格式符合最新規定</text>
+  <text x="60" y="212" font-size="14" fill="#57534e">• 整理個案文件確保完整性</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 製作文件索引便於後續查閱</text>
+  <rect x="56" y="246" width="70" height="20" rx="10" fill="#fef3c7"/>
+  <text x="91" y="260" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">文件作業</text>
 
-  <!-- ===== 第1週 ===== -->
-  <!-- 節點 -->
-  <circle cx="110" cy="290" r="18" fill="#94a3b8" stroke="white" stroke-width="3"/>
-  <text x="110" y="295" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">D1</text>
+  <!-- 右上卡片（#78716c，x=414, y=104, w=346, h=168）-->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">人員訓練</text>
+  <text x="434" y="172" font-size="14" fill="#57534e">• 針對評鑑缺失加強在職訓練</text>
+  <text x="434" y="192" font-size="14" fill="#57534e">• 辦理訪談應對模擬演練</text>
+  <text x="434" y="212" font-size="14" fill="#57534e">• 確認人員了解各自職責規範</text>
+  <text x="434" y="232" font-size="14" fill="#57534e">• 補足缺少的訓練紀錄文件</text>
+  <rect x="430" y="246" width="70" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="465" y="260" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">人員訓練</text>
 
-  <!-- 上方卡片 -->
-  <rect x="42" y="88" width="136" height="176" rx="12" fill="white" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="42" y="88" width="136" height="40" rx="12" fill="#94a3b8"/>
-  <rect x="42" y="112" width="136" height="16" fill="#94a3b8"/>
-  <text x="110" y="113" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="700">第 1 週</text>
+  <!-- 左下卡片（#57534e，x=40, y=288, w=346, h=162）-->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">環境設備</text>
+  <text x="60" y="356" font-size="14" fill="#57534e">• 修繕有缺失的高齡友善設施</text>
+  <text x="60" y="376" font-size="14" fill="#57534e">• 補充安全設備與急救物品</text>
+  <text x="60" y="396" font-size="14" fill="#57534e">• 廚房留樣設備與流程確認</text>
+  <text x="60" y="416" font-size="14" fill="#57534e">• 定期環境安全巡查機制建立</text>
+  <rect x="56" y="430" width="70" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="91" y="444" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">環境改善</text>
 
-  <!-- 連接線 -->
-  <line x1="110" y1="264" x2="110" y2="128" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 右下卡片（#a8a29e，x=414, y=288, w=346, h=162）-->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">制度建立</text>
+  <text x="434" y="356" font-size="14" fill="#57534e">• 新增或修訂缺失的服務流程</text>
+  <text x="434" y="376" font-size="14" fill="#57534e">• 建立品管指標月度追蹤制度</text>
+  <text x="434" y="396" font-size="14" fill="#57534e">• 訂定督導與查核機制頻率</text>
+  <text x="434" y="416" font-size="14" fill="#57534e">• 確認制度規範書面化並公告</text>
+  <rect x="430" y="430" width="70" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="465" y="444" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">制度規範</text>
 
-  <text x="110" y="152" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">蒐集委員意見</text>
-  <text x="110" y="170" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">整理缺失清單</text>
-
-  <rect x="56" y="184" width="108" height="22" rx="6" fill="#f0efe8"/>
-  <text x="110" y="199" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">評鑑報告取得</text>
-  <rect x="56" y="210" width="108" height="22" rx="6" fill="#f0efe8"/>
-  <text x="110" y="225" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">缺失條次整理</text>
-  <rect x="56" y="236" width="108" height="22" rx="6" fill="#f0efe8"/>
-  <text x="110" y="251" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">主任召開說明會</text>
-
-  <!-- ===== 第2週 ===== -->
-  <circle cx="310" cy="290" r="18" fill="#a8a29e" stroke="white" stroke-width="3"/>
-  <text x="310" y="295" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="white" font-weight="700">D8</text>
-
-  <rect x="242" y="88" width="136" height="176" rx="12" fill="white" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="242" y="88" width="136" height="40" rx="12" fill="#a8a29e"/>
-  <rect x="242" y="112" width="136" height="16" fill="#a8a29e"/>
-  <text x="310" y="113" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="700">第 2 週</text>
-
-  <line x1="310" y1="264" x2="310" y2="128" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
-
-  <text x="310" y="152" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">分派負責人員</text>
-  <text x="310" y="170" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">制定改善期限</text>
-
-  <rect x="256" y="184" width="108" height="22" rx="6" fill="#f0efe8"/>
-  <text x="310" y="199" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">各缺失分配負責</text>
-  <rect x="256" y="210" width="108" height="22" rx="6" fill="#f0efe8"/>
-  <text x="310" y="225" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">訂出完成時間表</text>
-  <rect x="256" y="236" width="108" height="22" rx="6" fill="#f0efe8"/>
-  <text x="310" y="251" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">所需資源確認</text>
-
-  <!-- ===== 第2-4週 ===== -->
-  <circle cx="530" cy="290" r="18" fill="#d97706" stroke="white" stroke-width="3"/>
-  <text x="530" y="295" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="9" fill="white" font-weight="700">D14</text>
-
-  <rect x="460" y="88" width="138" height="176" rx="12" fill="white" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="460" y="88" width="138" height="40" rx="12" fill="#d97706"/>
-  <rect x="460" y="112" width="138" height="16" fill="#d97706"/>
-  <text x="529" y="113" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="700">第 2–4 週</text>
-
-  <line x1="530" y1="264" x2="530" y2="128" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
-
-  <text x="529" y="152" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">執行改善措施</text>
-  <text x="529" y="170" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">建立追蹤機制</text>
-
-  <rect x="474" y="184" width="110" height="22" rx="6" fill="#f0efe8"/>
-  <text x="529" y="199" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">逐項改善落實</text>
-  <rect x="474" y="210" width="110" height="22" rx="6" fill="#f0efe8"/>
-  <text x="529" y="225" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">每週進度回報</text>
-  <rect x="474" y="236" width="110" height="22" rx="6" fill="#f0efe8"/>
-  <text x="529" y="251" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">建立追蹤表格</text>
-
-  <!-- ===== 第30天 ===== -->
-  <circle cx="720" cy="290" r="22" fill="#78716c" stroke="white" stroke-width="3"/>
-  <text x="720" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="9" fill="white" font-weight="700">第30</text>
-  <text x="720" y="298" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="9" fill="white" font-weight="700">天</text>
-
-  <rect x="650" y="88" width="130" height="176" rx="12" fill="white" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="650" y="88" width="130" height="40" rx="12" fill="#78716c"/>
-  <rect x="650" y="112" width="130" height="16" fill="#78716c"/>
-  <text x="715" y="113" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="700">第 30 天</text>
-
-  <line x1="720" y1="264" x2="720" y2="128" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
-
-  <text x="715" y="152" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">確認改善成效</text>
-  <text x="715" y="170" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#1e293b" font-weight="600">更新 SOP 文件</text>
-
-  <rect x="664" y="184" width="102" height="22" rx="6" fill="#f0efe8"/>
-  <text x="715" y="199" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">改善成效驗收</text>
-  <rect x="664" y="210" width="102" height="22" rx="6" fill="#f0efe8"/>
-  <text x="715" y="225" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">SOP 文件更新</text>
-  <rect x="664" y="236" width="102" height="22" rx="6" fill="#f0efe8"/>
-  <text x="715" y="251" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#78716c">存檔備查</text>
-
-  <!-- 時間軸刻度 -->
-  <text x="110" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 1</text>
-  <text x="310" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 8</text>
-  <text x="530" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 14</text>
-  <text x="720" y="325" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">Day 30</text>
-
-  <!-- 底部 -->
-  <rect x="0" y="440" width="800" height="40" fill="#e8e5de"/>
-  <!-- 圖例 -->
-  <circle cx="80" cy="460" r="6" fill="#94a3b8"/>
-  <text x="94" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">蒐集反饋</text>
-  <circle cx="200" cy="460" r="6" fill="#a8a29e"/>
-  <text x="214" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">分派負責</text>
-  <circle cx="320" cy="460" r="6" fill="#d97706"/>
-  <text x="334" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">執行改善</text>
-  <circle cx="440" cy="460" r="6" fill="#78716c"/>
-  <text x="454" y="464" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">驗收存檔</text>
-  <text x="760" y="450" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

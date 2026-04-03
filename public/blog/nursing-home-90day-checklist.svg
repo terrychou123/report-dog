@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑前最後一週自查清單</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">一級必要與二級加強項目逐一確認</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 左欄：一級必要 -->
+  <text x="40" y="124" font-size="18" fill="#d97706" font-weight="700">一級必要（9項）任一未達標即降等</text>
+
+  <!-- 項目清單 -->
+  <rect x="40" y="134" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="148" font-size="14" fill="#1e293b">A7 業務負責人資格符合且專任</text>
+
+  <rect x="40" y="160" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="174" font-size="14" fill="#1e293b">A9 護理人員比例達標+全日上班</text>
+
+  <rect x="40" y="186" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="200" font-size="14" fill="#1e293b">A11 照服員比例+外籍比例未超標</text>
+
+  <rect x="40" y="212" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="226" font-size="14" fill="#1e293b">C4 緊急呼叫設備功能正常</text>
+
+  <rect x="40" y="238" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="252" font-size="14" fill="#1e293b">C9 消防設備檢修前2次申報完整</text>
+
+  <rect x="40" y="264" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="278" font-size="14" fill="#1e293b">C10 逃生路徑暢通+防火門正常</text>
+
+  <rect x="40" y="290" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="304" font-size="14" fill="#1e293b">C11 EOP演練2次含夜間1次</text>
+
+  <rect x="40" y="316" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="330" font-size="14" fill="#1e293b">C12 避難圖張貼+工作人員訓練</text>
+
+  <rect x="40" y="342" width="18" height="18" rx="4" fill="#d97706"/>
+  <text x="68" y="356" font-size="14" fill="#1e293b">C15 護理站急救設備齊全在效期</text>
+
+  <!-- 分隔線 -->
+  <line x1="400" y1="114" x2="400" y2="460" stroke="#a8a29e" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- 右欄：重點二級加強 -->
+  <text x="420" y="124" font-size="18" fill="#78716c" font-weight="700">重點二級加強項目確認</text>
+
+  <rect x="420" y="134" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="148" font-size="14" fill="#1e293b">A2 入出機構辦法有定期修訂</text>
+
+  <rect x="420" y="160" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="174" font-size="14" fill="#1e293b">B2 個案計畫全員逐案核對</text>
+
+  <rect x="420" y="186" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="200" font-size="14" fill="#1e293b">B10 防疫機制體溫紀錄+手部衛生</text>
+
+  <rect x="420" y="212" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="226" font-size="14" fill="#1e293b">B25 流感疫苗接種名冊完整</text>
+
+  <rect x="420" y="238" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="252" font-size="14" fill="#1e293b">C5 電梯無障礙設備符合規定</text>
+
+  <rect x="420" y="264" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="278" font-size="14" fill="#1e293b">D1 個案資料管理系統有授權</text>
+
+  <rect x="420" y="290" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="304" font-size="14" fill="#1e293b">D2 契約5天審閱期佐證文件</text>
+
+  <rect x="420" y="316" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="330" font-size="14" fill="#1e293b">D6 申訴管道明顯位置張貼</text>
+
+  <rect x="420" y="342" width="18" height="18" rx="4" fill="#78716c"/>
+  <text x="448" y="356" font-size="14" fill="#1e293b">D9 滿意度調查報告含改善措施</text>
+
+  <!-- 底部提示 -->
+  <rect x="40" y="398" width="720" height="48" rx="8" fill="#fef3c7"/>
+  <text x="400" y="418" font-size="15" fill="#92400e" text-anchor="middle" font-weight="600">用報告汪建立你的評鑑準備進度追蹤看板</text>
+  <text x="400" y="438" font-size="14" fill="#92400e" text-anchor="middle">每項任務指定負責人，截止日期提醒，讓進度不脫軌</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

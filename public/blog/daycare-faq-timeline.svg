@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 主標題 32px y=48 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑當日 4 個主要階段</text>
+  <!-- 副標題 22px y=78 -->
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">開場・文件・訪談・回饋，掌握時序備而不亂</text>
+  <!-- 分隔線 y=94 -->
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭 (arrow_y=279)，N=4 共 3 個 -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,273 218,279 202,285" fill="#c4bfb8"/>
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,273 408,279 392,285" fill="#c4bfb8"/>
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,273 598,279 582,285" fill="#c4bfb8"/>
+
+  <!-- ===== Step 1：開場說明（#d97706 琥珀）x=28 cx=115 ===== -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <!-- STEP 圓圈 (r=44, cy=193) -->
+  <circle cx="115" cy="193" r="44" fill="#fef3c7"/>
+  <text x="115" y="182" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="211" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <!-- 卡片標題 H_font=36 -->
+  <text x="115" y="296" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">開場說明</text>
+  <!-- 說明 J_font=24 -->
+  <text x="115" y="324" text-anchor="middle" font-size="24" fill="#57534e">委員介紹及</text>
+  <text x="115" y="348" text-anchor="middle" font-size="24" fill="#57534e">說明查核方式</text>
+  <!-- Pill 標籤 (y=379, w=148) -->
+  <rect x="41" y="379" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="403" text-anchor="middle" font-size="18" fill="#d97706" font-weight="600">委員介紹</text>
+
+  <!-- ===== Step 2：文件審閱（#78716c 暖灰）x=218 cx=305 ===== -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="193" r="44" fill="#f5f5f4"/>
+  <text x="305" y="182" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="211" text-anchor="middle" font-size="29" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="296" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">文件審閱</text>
+  <text x="305" y="324" text-anchor="middle" font-size="24" fill="#57534e">系統審閱備審</text>
+  <text x="305" y="348" text-anchor="middle" font-size="24" fill="#57534e">資料耗時最長</text>
+  <rect x="231" y="379" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="403" text-anchor="middle" font-size="18" fill="#78716c" font-weight="600">耗時最長</text>
+
+  <!-- ===== Step 3：訪談查看（#57534e 深棕）x=408 cx=495 ===== -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="193" r="44" fill="#f5f0eb"/>
+  <text x="495" y="182" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="211" text-anchor="middle" font-size="29" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="296" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">訪談查看</text>
+  <text x="495" y="324" text-anchor="middle" font-size="24" fill="#57534e">訪談各職類</text>
+  <text x="495" y="348" text-anchor="middle" font-size="24" fill="#57534e">人員及環境</text>
+  <rect x="421" y="379" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="403" text-anchor="middle" font-size="18" fill="#57534e" font-weight="600">同步進行</text>
+
+  <!-- ===== Step 4：結果回饋（#a8a29e 淺灰）x=598 cx=685 ===== -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="193" r="44" fill="#f5f5f4"/>
+  <text x="685" y="182" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="211" text-anchor="middle" font-size="29" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="296" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">結果回饋</text>
+  <text x="685" y="324" text-anchor="middle" font-size="24" fill="#57534e">口頭說明</text>
+  <text x="685" y="348" text-anchor="middle" font-size="24" fill="#57534e">初步評鑑意見</text>
+  <rect x="611" y="379" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="403" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="600">初步回饋</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

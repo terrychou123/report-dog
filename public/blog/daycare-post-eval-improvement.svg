@@ -1,117 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440">
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="440" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="56" fill="#78716c"/>
-  <text x="32" y="22" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">評鑑結束後</text>
-  <text x="32" y="44" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700">改善計畫撰寫範例</text>
-  <rect x="640" y="16" width="124" height="28" rx="8" fill="rgba(255,255,255,0.18)"/>
-  <text x="702" y="34" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white">可直接套用範本</text>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">改善計畫書撰寫確認清單</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">文件內容・執行規劃，兩大面向全面到位</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 表格標頭 -->
-  <rect x="0" y="56" width="800" height="40" fill="#a8a29e"/>
-  <!-- 各欄標題 -->
-  <text x="66" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">改善項目</text>
-  <line x1="132" y1="56" x2="132" y2="96" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-  <text x="256" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">缺失說明</text>
-  <line x1="380" y1="56" x2="380" y2="96" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-  <text x="436" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">負責人</text>
-  <line x1="492" y1="56" x2="492" y2="96" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-  <text x="556" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">完成期限</text>
-  <line x1="620" y1="56" x2="620" y2="96" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-  <text x="710" y="81" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="white" font-weight="600">改善措施</text>
+  <!-- 左欄 Section 1：文件內容 #d97706 -->
+  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">文件內容</text>
 
-  <!-- 垂直分隔線（整表） -->
-  <line x1="132" y1="96" x2="132" y2="356" stroke="#dedad3" stroke-width="1"/>
-  <line x1="380" y1="96" x2="380" y2="356" stroke="#dedad3" stroke-width="1"/>
-  <line x1="492" y1="96" x2="492" y2="356" stroke="#dedad3" stroke-width="1"/>
-  <line x1="620" y1="96" x2="620" y2="356" stroke="#dedad3" stroke-width="1"/>
+  <rect x="64" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,150 L 72,155 L 81,143" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="156" font-size="18" fill="#1e293b">明列每項缺失的改善措施</text>
 
-  <!-- ===== 範例列 1 ===== -->
-  <rect x="0" y="96" width="800" height="70" fill="white"/>
-  <rect x="0" y="96" width="6" height="70" fill="#94a3b8"/>
-  <!-- 改善項目 -->
-  <rect x="16" y="112" width="96" height="40" rx="8" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
-  <text x="64" y="130" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" font-weight="600">督導紀錄</text>
-  <text x="64" y="146" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#94a3b8">第 11 條</text>
-  <!-- 缺失說明 -->
-  <rect x="142" y="109" width="228" height="48" rx="8" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
-  <text x="256" y="130" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#374151">督導紀錄內容過於簡略</text>
-  <text x="256" y="148" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#6b7280">缺乏具體建議與後續追蹤</text>
-  <!-- 負責人 -->
-  <rect x="400" y="114" width="76" height="32" rx="16" fill="#e8e5de" stroke="#dedad3" stroke-width="1"/>
-  <text x="438" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="600">主任</text>
-  <!-- 完成期限 -->
-  <rect x="510" y="114" width="98" height="32" rx="8" fill="#f0efe8"/>
-  <text x="559" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" font-weight="600">2 週內</text>
-  <!-- 改善措施 -->
-  <rect x="630" y="109" width="156" height="48" rx="8" fill="#e8e5de" stroke="#dedad3" stroke-width="1"/>
-  <text x="708" y="130" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">訂定督導紀錄</text>
-  <text x="708" y="148" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">標準格式範本</text>
+  <rect x="64" y="180" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,190 L 72,195 L 81,183" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="196" font-size="18" fill="#1e293b">訂定各項完成期限</text>
 
-  <line x1="0" y1="166" x2="800" y2="166" stroke="#f0efe8" stroke-width="1"/>
+  <rect x="64" y="220" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,230 L 72,235 L 81,223" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="236" font-size="18" fill="#1e293b">指定各項負責人員</text>
 
-  <!-- ===== 範例列 2 ===== -->
-  <rect x="0" y="166" width="800" height="70" fill="#fafaf9"/>
-  <rect x="0" y="166" width="6" height="70" fill="#d97706"/>
-  <rect x="16" y="182" width="96" height="40" rx="8" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
-  <text x="64" y="200" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" font-weight="600">追蹤評值</text>
-  <text x="64" y="216" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#d97706">第 14 條</text>
+  <!-- 左欄 Section 2：執行規劃 #57534e -->
+  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">執行規劃</text>
 
-  <rect x="142" y="179" width="228" height="48" rx="8" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
-  <text x="256" y="200" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#374151">追蹤評值缺未達成原因分析</text>
-  <text x="256" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#6b7280">無法呈現照顧成效改變</text>
+  <rect x="64" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="310" font-size="18" fill="#1e293b">改善進度追蹤機制已建立</text>
 
-  <rect x="400" y="184" width="76" height="32" rx="16" fill="#e8e5de" stroke="#dedad3" stroke-width="1"/>
-  <text x="438" y="204" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="600">社工</text>
+  <rect x="64" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="350" font-size="18" fill="#1e293b">全員已知悉各自負責項目</text>
 
-  <rect x="510" y="184" width="98" height="32" rx="8" fill="#f0efe8"/>
-  <text x="559" y="204" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" font-weight="600">1 週內</text>
+  <rect x="64" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="390" font-size="18" fill="#1e293b">主管定期查核時間已排定</text>
 
-  <rect x="630" y="179" width="156" height="48" rx="8" fill="#e8e5de" stroke="#dedad3" stroke-width="1"/>
-  <text x="708" y="200" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">評值表新增</text>
-  <text x="708" y="218" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">原因分析欄位</text>
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
-  <line x1="0" y1="236" x2="800" y2="236" stroke="#f0efe8" stroke-width="1"/>
+  <!-- 右欄 Section 1：格式規範 #78716c -->
+  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">格式規範</text>
 
-  <!-- ===== 範例列 3 ===== -->
-  <rect x="0" y="236" width="800" height="70" fill="white"/>
-  <rect x="0" y="236" width="6" height="70" fill="#a3a3a3"/>
-  <rect x="16" y="252" width="96" height="40" rx="8" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
-  <text x="64" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" font-weight="600">品管指標</text>
-  <text x="64" y="286" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#a3a3a3">第 22 條</text>
+  <rect x="420" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,150 L 428,155 L 437,143" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="156" font-size="18" fill="#1e293b">使用主管機關規定表單</text>
 
-  <rect x="142" y="249" width="228" height="48" rx="8" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
-  <text x="256" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#374151">品管指標無數據追蹤記錄</text>
-  <text x="256" y="288" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="10" fill="#6b7280">無法呈現指標改善趨勢</text>
+  <rect x="420" y="180" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,190 L 428,195 L 437,183" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="196" font-size="18" fill="#1e293b">確認送件格式與頁數限制</text>
 
-  <rect x="400" y="254" width="76" height="32" rx="16" fill="#e8e5de" stroke="#dedad3" stroke-width="1"/>
-  <text x="438" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" font-weight="600">護理</text>
+  <rect x="420" y="220" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,230 L 428,235 L 437,223" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="236" font-size="18" fill="#1e293b">主任簽核頁已附上</text>
 
-  <rect x="510" y="254" width="98" height="32" rx="8" fill="#f0efe8"/>
-  <text x="559" y="274" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" font-weight="600">2 週內</text>
+  <!-- 右欄 Section 2：備存文件 #a8a29e -->
+  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">備存文件</text>
 
-  <rect x="630" y="249" width="156" height="48" rx="8" fill="#e8e5de" stroke="#dedad3" stroke-width="1"/>
-  <text x="708" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">建立月報追蹤表</text>
-  <text x="708" y="288" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">每月填寫數據</text>
+  <rect x="420" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="310" font-size="18" fill="#1e293b">計畫書正本已留存備查</text>
 
-  <line x1="0" y1="306" x2="800" y2="306" stroke="#dedad3" stroke-width="1"/>
+  <rect x="420" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="350" font-size="18" fill="#1e293b">送件收據或確認信已保存</text>
 
-  <!-- 空白列（示意還有更多） -->
-  <rect x="0" y="306" width="800" height="50" fill="#f0efe8"/>
-  <text x="400" y="334" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#c4bfb8">· · · 依實際評鑑缺失逐項填寫 · · ·</text>
+  <rect x="420" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="390" font-size="18" fill="#1e293b">改善完成後填寫結案紀錄</text>
 
-  <line x1="0" y1="356" x2="800" y2="356" stroke="#dedad3" stroke-width="1"/>
+  <!-- 底部分隔線 -->
+  <line x1="40" y1="433" x2="760" y2="433" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 底部說明 -->
-  <rect x="0" y="356" width="800" height="84" fill="#e8e5de"/>
-  <text x="32" y="382" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#334155" font-weight="600">使用說明</text>
-  <rect x="32" y="390" width="8" height="8" rx="2" fill="#a8a29e"/>
-  <text x="48" y="399" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">每項缺失獨立一列，填寫後交由主任確認簽核</text>
-  <rect x="32" y="410" width="8" height="8" rx="2" fill="#94a3b8"/>
-  <text x="48" y="419" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">期限到達後確認完成狀態，未完成者需說明原因並展延</text>
+  <!-- 圖例 -->
+  <rect x="75" y="443" width="18" height="18" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 78,453 L 82,458 L 91,446" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="458" font-size="18" fill="#57534e">已確認完成</text>
+
+  <rect x="230" y="443" width="18" height="18" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="257" y="458" font-size="18" fill="#57534e">待確認項目</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="412" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

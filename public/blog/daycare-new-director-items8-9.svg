@@ -1,51 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 8–9 件事：主任進修 ＋ 督導機制</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Left: 第8件事 -->
-  <rect x="52" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="82" width="336" height="5" rx="2.5" fill="#d97706"/>
-  <rect x="68" y="98" width="36" height="36" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="86" y="123" font-size="20" font-weight="900" fill="#d97706" text-anchor="middle">8</text>
-  <text x="208" y="118" font-size="15" font-weight="700" fill="#1e293b">主任自我提升管理力</text>
-  <text x="208" y="136" font-size="12" fill="#57534e">第 31 條｜每年至少 4 小時</text>
-  <line x1="68" y1="150" x2="372" y2="150" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="172" font-size="13" font-weight="600" fill="#1e293b">進修方向選擇</text>
-  <text x="72" y="194" font-size="12" fill="#57534e">→ 衛生局主任研習</text>
-  <text x="72" y="214" font-size="12" fill="#57534e">→ 長照管理、組織行為</text>
-  <text x="72" y="234" font-size="12" fill="#57534e">→ 優秀機構參訪交流</text>
-  <line x1="68" y1="252" x2="372" y2="252" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="274" font-size="13" font-weight="600" fill="#1e293b">評鑑要求提出</text>
-  <rect x="68" y="284" width="304" height="52" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="220" y="306" font-size="12" fill="#92400e" text-anchor="middle">機構的經營管理問題</text>
-  <text x="220" y="326" font-size="12" fill="#92400e" text-anchor="middle">＋ 對應的解決策略</text>
-  <text x="72" y="358" font-size="11" fill="#57534e">4小時訓練→整個團隊氛圍改變</text>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">主任進修與督導機制建立</text>
 
-  <!-- Right: 第9件事 -->
-  <rect x="412" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="412" y="82" width="336" height="5" rx="2.5" fill="#78716c"/>
-  <rect x="428" y="98" width="36" height="36" rx="8" fill="#78716c" opacity="0.15"/>
-  <text x="446" y="123" font-size="20" font-weight="900" fill="#78716c" text-anchor="middle">9</text>
-  <text x="568" y="118" font-size="15" font-weight="700" fill="#1e293b">建立督導機制</text>
-  <text x="568" y="136" font-size="12" fill="#57534e">第 9 條｜適用所有服務人員</text>
-  <line x1="428" y1="150" x2="732" y2="150" stroke="#f0ede6" stroke-width="1"/>
+  <!-- ===== Row 1（y=160）#d97706 法定進修時數 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">8</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">主任每年必須完成法定進修時數</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">主管機關明定主任年度進修時數要求，評鑑時會查核紀錄</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">主任進修</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">法定時數</text>
 
-  <rect x="428" y="160" width="304" height="44" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="580" y="180" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">個督：每半年至少 1 次</text>
-  <text x="580" y="198" font-size="12" fill="#92400e" text-anchor="middle">照服員也適用</text>
+  <!-- ===== Row 2（y=235）#78716c 進修選擇 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">+</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">優先選擇評鑑相關課程</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">品管指標、法規解讀、照護技術等課程優先排入年度進修計畫</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">課程選擇</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">評鑑相關</text>
 
-  <rect x="428" y="212" width="304" height="44" rx="8" fill="#78716c" opacity="0.08"/>
-  <text x="580" y="232" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">團督：每季至少 1 次</text>
-  <text x="580" y="250" font-size="12" fill="#78716c" text-anchor="middle">可結合月行政會議</text>
+  <!-- ===== Row 3（y=310）#57534e 督導制度 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">9</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">建立每月個案督導制度</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">每月辦理個案督導會議，留下督導紀錄是評鑑第 21 條必查</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">個案督導</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">每月一次</text>
 
-  <line x1="428" y1="266" x2="732" y2="266" stroke="#f0ede6" stroke-width="1"/>
-  <text x="432" y="288" font-size="13" font-weight="600" fill="#1e293b">督導追蹤表內容</text>
-  <text x="432" y="308" font-size="12" fill="#57534e">□ 人員姓名 ＋ 督導頻率</text>
-  <text x="432" y="328" font-size="12" fill="#57534e">□ 上次個督日期</text>
-  <text x="432" y="348" font-size="12" fill="#57534e">□ 督導者 ＋ 被督導者簽名</text>
-  <text x="432" y="368" font-size="11" fill="#d97706" font-weight="600">督導紀錄保存 7 年</text>
+  <!-- ===== Row 4（y=385）#a8a29e 督導紀錄 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">+</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">督導紀錄內容規範</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">每案每月至少 1 次，記錄督導日期、討論內容、改善追蹤</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">記錄規範</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">每案每月</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

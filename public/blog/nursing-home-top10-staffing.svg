@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">人力配置三大常見缺失（A9、A11）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">一級必要項目，任一不達標即影響評鑑等第</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Row 1 y=118 H=90 #d97706 -->
+  <rect x="28" y="118" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="163" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="170" font-size="20" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="155" font-size="20" fill="#1e293b" font-weight="700">A9 護理人員比例不足</text>
+  <text x="100" y="179" font-size="16" fill="#57534e">長照型 1:15 / 養護型 1:20 / 失智型 1:20；全日均須有護理人員上班</text>
+  <text x="100" y="199" font-size="16" fill="#57534e">改善：護理師請假時立即啟動備援；離職後 30 日內補足缺額</text>
+  <rect x="620" y="131" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="155" font-size="16" fill="#d97706" text-anchor="middle">一級必要</text>
+  <text x="688" y="173" font-size="16" fill="#d97706" text-anchor="middle">A9</text>
+
+  <!-- Row 2 y=221 #78716c -->
+  <rect x="28" y="221" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="221" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="273" font-size="20" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">A11 夜班照服員比例不符</text>
+  <text x="100" y="282" font-size="16" fill="#57534e">長照夜班 1:15 / 養護夜班 1:25 / 失智夜班 1:15 / 安養夜班 1:35</text>
+  <text x="100" y="302" font-size="16" fill="#57534e">改善：排班系統自動驗證各班人力比例，不符時警示提醒</text>
+  <rect x="620" y="234" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="258" font-size="16" fill="#78716c" text-anchor="middle">一級必要</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">A11</text>
+
+  <!-- Row 3 y=324 #57534e -->
+  <rect x="28" y="324" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="324" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="369" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="376" font-size="20" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="361" font-size="20" fill="#1e293b" font-weight="700">外籍照服員比例超標</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">外籍人數不可超過本國籍照服員及護理人員總人數；全班應有本國籍</text>
+  <text x="100" y="405" font-size="16" fill="#57534e">改善：定期計算比例；確保每班次至少 1 名本國籍照服員上班</text>
+  <rect x="620" y="337" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="361" font-size="16" fill="#57534e" text-anchor="middle">A11 細部</text>
+  <text x="688" y="379" font-size="16" fill="#57534e" text-anchor="middle">規定查核</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,47 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">個案紀錄保存要求（第 10 條）</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Left big card: 保存義務 -->
-  <rect x="52" y="80" width="330" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="80" width="330" height="5" rx="2.5" fill="#d97706"/>
-  <text x="217" y="110" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">保存義務</text>
-  <line x1="68" y1="122" x2="366" y2="122" stroke="#f0ede6" stroke-width="1"/>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">個案紀錄保存 4 大規範（第 10 條）</text>
 
-  <rect x="68" y="134" width="298" height="44" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="217" y="153" font-size="22" font-weight="900" fill="#d97706" text-anchor="middle">7 年</text>
-  <text x="217" y="170" font-size="12" fill="#92400e" text-anchor="middle">自結案日起計算</text>
+  <!-- ===== Row 1（y=160）#d97706 保存年限 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">保存年限要求</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">依規定保存至少 7 年，未成年個案或有糾紛者須依法延長保存</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">最少 7 年</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">依法保存</text>
 
-  <text x="72" y="200" font-size="13" font-weight="600" fill="#1e293b">適用範圍：</text>
-  <text x="72" y="220" font-size="12" fill="#57534e">→ 轉介紀錄</text>
-  <text x="72" y="240" font-size="12" fill="#57534e">→ 結案紀錄與相關書面文件</text>
-  <text x="72" y="260" font-size="12" fill="#57534e">→ 紙本與電子紀錄均適用</text>
-  <line x1="68" y1="278" x2="366" y2="278" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="300" font-size="13" font-weight="600" fill="#1e293b">換系統注意事項：</text>
-  <text x="72" y="320" font-size="12" fill="#78716c">→ 建立系統移轉紀錄</text>
-  <text x="72" y="340" font-size="12" fill="#78716c">→ 歷史資料完整匯出保存</text>
-  <text x="72" y="360" font-size="12" fill="#78716c">→ 可讀取格式（PDF/原始檔）</text>
+  <!-- ===== Row 2（y=235）#78716c 安全保存方式 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">安全保存方式</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">紙本須上鎖保管，電子檔案加密存取，防止資料外洩或未授權查閱</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">加密保管</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">防止外洩</text>
 
-  <!-- Right card: 每筆紀錄格式 + 查閱管控 -->
-  <rect x="414" y="80" width="334" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="80" width="334" height="5" rx="2.5" fill="#78716c"/>
-  <text x="581" y="110" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">每筆紀錄完整格式</text>
-  <line x1="430" y1="122" x2="732" y2="122" stroke="#f0ede6" stroke-width="1"/>
-  <text x="430" y="142" font-size="12" fill="#57534e">□ 日期（年月日完整）</text>
-  <text x="430" y="162" font-size="12" fill="#57534e">□ 書寫者姓名與簽名</text>
-  <text x="430" y="182" font-size="12" fill="#57534e">□ 修改：劃線保留原文，不覆蓋</text>
-  <text x="430" y="202" font-size="11" fill="#d97706" font-weight="600">修正液覆蓋 = 不符合規定</text>
+  <!-- ===== Row 3（y=310）#57534e 查閱權限管理 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">查閱權限管理</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">僅授權人員可查閱，每次查閱均需留存查閱記錄，保護個案隱私</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">授權管控</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">隱私保護</text>
 
-  <rect x="414" y="248" width="334" height="148" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="414" y="248" width="334" height="5" rx="2.5" fill="#a8a29e"/>
-  <text x="581" y="278" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">查閱權限管控</text>
-  <line x1="430" y1="290" x2="732" y2="290" stroke="#f0ede6" stroke-width="1"/>
-  <text x="430" y="310" font-size="12" fill="#57534e">□ 電子系統：存取紀錄</text>
-  <text x="430" y="330" font-size="12" fill="#57534e">□ 紙本：鎖管並記錄借閱</text>
-  <text x="430" y="350" font-size="12" fill="#57534e">□ 結案後追蹤記錄（1、3 個月）</text>
-  <text x="430" y="370" font-size="11" fill="#78716c">對應第 4 條個資保護規定</text>
+  <!-- ===== Row 4（y=385）#a8a29e 結案移交規定 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">結案移交規定</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">個案轉介或結案時，依規定辦理文件移交，並留存移交記錄</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">移交程序</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">留存記錄</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

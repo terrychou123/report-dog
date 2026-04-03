@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">日照評鑑品質 PDCA 循環</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">持續改善照護品質，迎接每次評鑑</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!--
+    PDCA 粗弧箭頭環
+    圓心 cx=400, cy=285；外半徑 R=130，內半徑 r=68
+    每段弧 72°，間隔 18°；整體順時針旋轉 50°
+    Plan:  14°→ 86°；Do: 104°→176°；Check: 194°→266°；Act: 284°→356°
+  -->
+
+  <!-- P（Plan，琥珀） -->
+  <path d="
+    M 431 159
+    A 130 130 0 0 1 530 276
+    L 545 275
+    L 498 302
+    L 453 281
+    L 468 280
+    A 68 68 0 0 0 416 219
+    Z"
+    fill="#d97706"/>
+
+  <!-- D（Do，暖灰） -->
+  <path d="
+    M 526 316
+    A 130 130 0 0 1 409 415
+    L 410 430
+    L 383 383
+    L 404 338
+    L 405 353
+    A 68 68 0 0 0 466 301
+    Z"
+    fill="#78716c"/>
+
+  <!-- C（Check，深棕） -->
+  <path d="
+    M 369 411
+    A 130 130 0 0 1 270 294
+    L 255 295
+    L 303 268
+    L 347 289
+    L 332 290
+    A 68 68 0 0 0 384 351
+    Z"
+    fill="#57534e"/>
+
+  <!-- A（Act，淺灰） -->
+  <path d="
+    M 274 254
+    A 130 130 0 0 1 391 155
+    L 390 140
+    L 417 188
+    L 396 232
+    L 395 217
+    A 68 68 0 0 0 334 269
+    Z"
+    fill="#a8a29e"/>
+
+  <!-- 弧段字母（各弧中點，r=99） -->
+  <text x="476" y="227" text-anchor="middle" font-size="30" fill="white" font-weight="700">P</text>
+  <text x="464" y="367" text-anchor="middle" font-size="30" fill="white" font-weight="700">D</text>
+  <text x="324" y="355" text-anchor="middle" font-size="30" fill="white" font-weight="700">C</text>
+  <text x="336" y="215" text-anchor="middle" font-size="30" fill="white" font-weight="700">A</text>
+
+  <!-- 中央文字 -->
+  <text x="400" y="278" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">品質</text>
+  <text x="400" y="302" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">循環</text>
+
+  <!-- 右上：計劃 Plan -->
+  <rect x="555" y="130" width="6" height="22" rx="1" fill="#d97706"/>
+  <text x="567" y="148" font-size="22" fill="#1e293b" font-weight="700">計劃 Plan</text>
+  <line x1="555" y1="156" x2="755" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="175" font-size="17" fill="#57534e">設定品管指標目標</text>
+  <text x="555" y="196" font-size="17" fill="#57534e">制定改善行動方案</text>
+
+  <!-- 右下：執行 Do -->
+  <rect x="555" y="365" width="6" height="22" rx="1" fill="#78716c"/>
+  <text x="567" y="383" font-size="22" fill="#1e293b" font-weight="700">執行 Do</text>
+  <line x1="555" y1="391" x2="755" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="410" font-size="17" fill="#57534e">落實照護標準程序</text>
+  <text x="555" y="431" font-size="17" fill="#57534e">記錄追蹤執行數據</text>
+
+  <!-- 左下：查核 Check -->
+  <rect x="100" y="365" width="6" height="22" rx="1" fill="#57534e"/>
+  <text x="112" y="383" font-size="22" fill="#1e293b" font-weight="700">查核 Check</text>
+  <line x1="100" y1="391" x2="300" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="410" font-size="17" fill="#57534e">比對指標達成情形</text>
+  <text x="100" y="431" font-size="17" fill="#57534e">分析異常原因根源</text>
+
+  <!-- 左上：行動 Act -->
+  <rect x="100" y="130" width="6" height="22" rx="1" fill="#a8a29e"/>
+  <text x="112" y="148" font-size="22" fill="#1e293b" font-weight="700">行動 Act</text>
+  <line x1="100" y1="156" x2="300" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="175" font-size="17" fill="#57534e">修正偏差改善措施</text>
+  <text x="100" y="196" font-size="17" fill="#57534e">納入下一期改善計劃</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="490" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

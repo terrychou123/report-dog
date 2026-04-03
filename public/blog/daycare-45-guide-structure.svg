@@ -1,62 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="450" fill="#f0efe8" rx="16"/>
+  <!-- Header (y=29, h=60) -->
+  <rect x="0" y="29" width="800" height="60" fill="white"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <text x="28" y="74" font-size="36" fill="#1e293b" font-weight="700">五大面向基準總覽</text>
 
-  <!-- 標題 -->
-  <text x="400" y="50" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#1e293b" font-weight="700">115 年度日照評鑑 — 五大面向題數分布</text>
-  <text x="400" y="78" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">43 項正式基準 + 2 項加分題，共 45 項</text>
+  <!-- Row 1 y=118, H=60, 琥珀 #d97706 -->
+  <rect x="28" y="118" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">壹、個案權益保障</text>
+  <text x="100" y="166" font-size="16" fill="#57534e">服務資訊公開、申訴機制、契約簽訂、個人資料保護</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="142" font-size="16" fill="#d97706" text-anchor="middle">共 4 條</text>
+  <text x="688" y="162" font-size="16" fill="#d97706" text-anchor="middle">第 1–4 條</text>
 
-  <!-- 壹：個案權益保障 4題 -->
-  <rect x="60" y="110" width="130" height="260" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="60" y="282" width="130" height="88" rx="10" fill="#94a3b8"/>
-  <text x="125" y="250" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="600">壹</text>
-  <text x="125" y="270" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">個案權益</text>
-  <text x="125" y="315" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">4</text>
-  <text x="125" y="340" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.85)">第 1–4 條</text>
-  <text x="125" y="390" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">4 / 43</text>
+  <!-- Row 2 y=191, H=60, 暖灰 #78716c -->
+  <rect x="28" y="191" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">貳、專業照護品質</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">個案評估、照顧計畫、督導機制、健康照護、品管指標</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="215" font-size="16" fill="#78716c" text-anchor="middle">共 18 條</text>
+  <text x="688" y="235" font-size="16" fill="#78716c" text-anchor="middle">第 5–22 條</text>
 
-  <!-- 貳：專業照護品質 18題 -->
-  <rect x="210" y="110" width="130" height="260" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="210" y="148" width="130" height="222" rx="10" fill="#a8a29e"/>
-  <text x="275" y="136" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="600">貳</text>
-  <text x="275" y="168" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">專業照護</text>
-  <text x="275" y="275" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="white" font-weight="700">18</text>
-  <text x="275" y="320" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.85)">第 5–22 條</text>
-  <text x="275" y="390" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">18 / 43 最多</text>
+  <!-- Row 3 y=264, H=60, 深棕 #57534e -->
+  <rect x="28" y="264" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">參、經營管理效能</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">行政制度、服務人員管理、財務管理、緊急事件管理</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="288" font-size="16" fill="#57534e" text-anchor="middle">共 15 條</text>
+  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">第 23–37 條</text>
 
-  <!-- 參：經營管理效能 15題 -->
-  <rect x="360" y="110" width="130" height="260" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="360" y="178" width="130" height="192" rx="10" fill="#a3a3a3"/>
-  <text x="425" y="158" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="600">參</text>
-  <text x="425" y="175" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">經營管理</text>
-  <text x="425" y="265" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="56" fill="white" font-weight="700">15</text>
-  <text x="425" y="310" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.85)">第 23–37 條</text>
-  <text x="425" y="390" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">15 / 43</text>
+  <!-- Row 4 y=337, H=60, 淺灰 #a8a29e -->
+  <rect x="28" y="337" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">肆、安全環境設備</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">高齡友善環境、衛浴設備、飲用水、廚房衛生、環境清潔</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="361" font-size="16" fill="#a8a29e" text-anchor="middle">共 6 條</text>
+  <text x="688" y="381" font-size="16" fill="#a8a29e" text-anchor="middle">第 38–43 條</text>
 
-  <!-- 肆：安全環境設備 6題 -->
-  <rect x="510" y="110" width="130" height="260" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="510" y="254" width="130" height="116" rx="10" fill="#78716c"/>
-  <text x="575" y="228" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" font-weight="600">肆</text>
-  <text x="575" y="246" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">安全環境</text>
-  <text x="575" y="310" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="white" font-weight="700">6</text>
-  <text x="575" y="340" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="rgba(255,255,255,0.85)">第 38–43 條</text>
-  <text x="575" y="390" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">6 / 43</text>
-
-  <!-- 伍：加分題 2題 -->
-  <rect x="660" y="110" width="100" height="260" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="660" y="306" width="100" height="64" rx="10" fill="#d97706"/>
-  <text x="710" y="278" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" font-weight="600">伍</text>
-  <text x="710" y="296" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">加分題</text>
-  <text x="710" y="343" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="28" fill="white" font-weight="700">+3</text>
-  <text x="710" y="390" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">最多 3 分</text>
-
-  <!-- X 軸底線 -->
-  <line x1="60" y1="370" x2="760" y2="370" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="4,4"/>
-
-  <!-- 說明 -->
-  <text x="400" y="430" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">貳、專業照護品質（18 項）為評鑑最核心面向，需社工師、護理師、照服員共同準備</text>
+  <!-- Row 5 y=410, H=60, 藍灰 #94a3b8 -->
+  <rect x="28" y="410" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">伍、加分題</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">原住民族文化敏感度、監視器設備權益保障</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="434" font-size="16" fill="#94a3b8" text-anchor="middle">共 2 條</text>
+  <text x="688" y="454" font-size="16" fill="#94a3b8" text-anchor="middle">第 44–45 條</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

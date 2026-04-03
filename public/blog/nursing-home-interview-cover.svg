@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="60" y="60" width="480" height="4" fill="#d97706"/>
+  <text x="60" y="148" font-family="'Noto Sans TC', sans-serif" font-size="52" font-weight="700" fill="#1e293b">評鑑現場模擬</text>
+  <text x="60" y="216" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#d97706">委員會問什麼？教你怎麼答</text>
+  <text x="60" y="280" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="#57534e">A7 管理 × B2 照護 × D1 權益 × C9 安全</text>
+  <rect x="60" y="308" width="600" height="2" fill="#a8a29e"/>
+  <!-- 四大主題標籤 -->
+  <rect x="60" y="334" width="130" height="44" rx="22" fill="#d97706"/>
+  <text x="125" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">管理類訪談</text>
+  <rect x="206" y="334" width="130" height="44" rx="22" fill="#78716c"/>
+  <text x="271" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">照護類訪談</text>
+  <rect x="352" y="334" width="130" height="44" rx="22" fill="#57534e"/>
+  <text x="417" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">權益類訪談</text>
+  <rect x="498" y="334" width="130" height="44" rx="22" fill="#94a3b8"/>
+  <text x="563" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">安全類訪談</text>
+  <!-- 右側裝飾圖 -->
+  <rect x="720" y="120" width="420" height="380" rx="20" fill="#ffffff" opacity="0.5"/>
+  <text x="930" y="210" font-family="'Noto Sans TC', sans-serif" font-size="80" fill="#d97706" opacity="0.2" text-anchor="middle">Q</text>
+  <text x="930" y="310" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="#57534e" text-anchor="middle">「請說明機構今年</text>
+  <text x="930" y="350" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="#57534e" text-anchor="middle">的業務計畫重點。」</text>
+  <text x="930" y="400" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#d97706" text-anchor="middle">A3 條核心訪談題</text>
+  <text x="60" y="430" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c">住宿型照顧機構評鑑準備系列</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

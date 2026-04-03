@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">業務計畫書撰寫流程</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">4 步驟從草擬到評鑑呈現</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 流程卡片 1：盤點現況 -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <circle cx="115" cy="201" r="44" fill="#d97706" opacity="0.15"/>
+  <circle cx="115" cy="201" r="30" fill="#d97706"/>
+  <text x="115" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="115" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="115" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">盤點現況</text>
+  <text x="115" y="322" font-size="13" fill="#57534e" text-anchor="middle">前次評鑑建議</text>
+  <text x="115" y="342" font-size="13" fill="#57534e" text-anchor="middle">現行服務缺口</text>
+  <rect x="50" y="377" width="130" height="26" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="115" y="395" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">11-12月執行</text>
+
+  <!-- 箭頭 -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="218,274 228,279 218,284" fill="#a8a29e"/>
+
+  <!-- 流程卡片 2：草擬計畫 -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <circle cx="305" cy="201" r="44" fill="#78716c" opacity="0.15"/>
+  <circle cx="305" cy="201" r="30" fill="#78716c"/>
+  <text x="305" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="305" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="305" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">草擬計畫</text>
+  <text x="305" y="322" font-size="13" fill="#57534e" text-anchor="middle">年度目標設定</text>
+  <text x="305" y="342" font-size="13" fill="#57534e" text-anchor="middle">中長程願景更新</text>
+  <rect x="240" y="377" width="130" height="26" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="305" y="395" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">跨部門討論</text>
+
+  <!-- 箭頭 -->
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="408,274 418,279 408,284" fill="#a8a29e"/>
+
+  <!-- 流程卡片 3：核定送審 -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <circle cx="495" cy="201" r="44" fill="#57534e" opacity="0.15"/>
+  <circle cx="495" cy="201" r="30" fill="#57534e"/>
+  <text x="495" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="495" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="495" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">核定送審</text>
+  <text x="495" y="322" font-size="13" fill="#57534e" text-anchor="middle">董事會審議</text>
+  <text x="495" y="342" font-size="13" fill="#57534e" text-anchor="middle">核定文件存檔</text>
+  <rect x="430" y="377" width="130" height="26" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="495" y="395" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">12月底前完成</text>
+
+  <!-- 箭頭 -->
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="598,274 608,279 598,284" fill="#a8a29e"/>
+
+  <!-- 流程卡片 4：執行追蹤 -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <circle cx="685" cy="201" r="44" fill="#94a3b8" opacity="0.2"/>
+  <circle cx="685" cy="201" r="30" fill="#94a3b8"/>
+  <text x="685" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="685" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">4</text>
+  <text x="685" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">執行追蹤</text>
+  <text x="685" y="322" font-size="13" fill="#57534e" text-anchor="middle">每季進度檢討</text>
+  <text x="685" y="342" font-size="13" fill="#57534e" text-anchor="middle">品質會議報告</text>
+  <rect x="620" y="377" width="130" height="26" rx="10" fill="#94a3b8" opacity="0.18"/>
+  <text x="685" y="395" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">全年度持續</text>
+
+  <!-- 水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

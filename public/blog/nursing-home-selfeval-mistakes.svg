@@ -1,0 +1,50 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">自評表常見填寫錯誤</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">4 大錯誤模式與正確做法</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上排左 - 錯誤1 -->
+  <rect x="40" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="104" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="60" y="138" font-size="15" fill="#d97706" font-weight="700">❌ 錯誤一：空洞描述</text>
+  <text x="60" y="160" font-size="13" fill="#57534e">錯：「定期召開品質會議」</text>
+  <text x="60" y="182" font-size="13" fill="#57534e">對：「每 3 個月召開服務品質會議，</text>
+  <text x="60" y="202" font-size="13" fill="#57534e">   近 4 次均如期召開，</text>
+  <text x="60" y="222" font-size="13" fill="#57534e">   詳見佐證文件第 3-8 頁」</text>
+  <text x="60" y="254" font-size="13" fill="#d97706" font-weight="600">★ 數字 + 頻率 + 索引頁碼</text>
+
+  <!-- 上排右 - 錯誤2 -->
+  <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="104" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="440" y="138" font-size="15" fill="#78716c" font-weight="700">❌ 錯誤二：文件與自評不一致</text>
+  <text x="440" y="160" font-size="13" fill="#57534e">自評填「達標」，但佐證文件</text>
+  <text x="440" y="182" font-size="13" fill="#57534e">顯示分析週期不符（如B14應</text>
+  <text x="440" y="202" font-size="13" fill="#57534e">每季但只有半年一次）</text>
+  <text x="440" y="222" font-size="13" fill="#57534e">委員交叉比對會發現矛盾</text>
+  <text x="440" y="254" font-size="13" fill="#78716c" font-weight="600">★ 自評前先核對文件內容</text>
+
+  <!-- 下排左 - 錯誤3 -->
+  <rect x="40" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="288" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="60" y="320" font-size="15" fill="#d97706" font-weight="700">❌ 錯誤三：有執行無改善追蹤</text>
+  <text x="60" y="344" font-size="13" fill="#57534e">分析報告只有統計數字</text>
+  <text x="60" y="366" font-size="13" fill="#57534e">如「本季跌倒 2 件」</text>
+  <text x="60" y="388" font-size="13" fill="#57534e">沒有具體改善方案與追蹤</text>
+  <text x="60" y="410" font-size="13" fill="#57534e">「改善方案」是評鑑必要元素</text>
+  <text x="60" y="440" font-size="13" fill="#d97706" font-weight="600">★ 數字後面要有行動方案</text>
+
+  <!-- 下排右 - 錯誤4 -->
+  <rect x="420" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="288" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="440" y="320" font-size="15" fill="#78716c" font-weight="700">❌ 錯誤四：文件堆疊無結構</text>
+  <text x="440" y="344" font-size="13" fill="#57534e">一堆紙本文件沒有索引</text>
+  <text x="440" y="366" font-size="13" fill="#57534e">委員找不到對應資料</text>
+  <text x="440" y="388" font-size="13" fill="#57534e">反而造成負面印象</text>
+  <text x="440" y="410" font-size="13" fill="#57534e">建議製作文件索引清單</text>
+  <text x="440" y="440" font-size="13" fill="#78716c" font-weight="600">★ 條理清晰比份量多更重要</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑成功準備 3 大關鍵</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">系統化追蹤、文件標準化、提前演練</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 關鍵 1 -->
+  <rect x="40" y="118" width="220" height="310" rx="12" fill="#d97706"/>
+  <text x="150" y="162" font-size="52" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+  <text x="150" y="196" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">系統化追蹤</text>
+  <line x1="60" y1="210" x2="240" y2="210" stroke="#fef3c7" stroke-width="1"/>
+  <text x="150" y="238" font-size="14" fill="#fff8e7" text-anchor="middle">每個評鑑項目</text>
+  <text x="150" y="260" font-size="14" fill="#fff8e7" text-anchor="middle">都要有：</text>
+  <text x="150" y="286" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">負責人</text>
+  <text x="150" y="308" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">進度記錄</text>
+  <text x="150" y="330" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">截止日期</text>
+  <text x="150" y="358" font-size="13" fill="#fff8e7" text-anchor="middle">主管在看板</text>
+  <text x="150" y="378" font-size="13" fill="#fff8e7" text-anchor="middle">一眼看全局</text>
+  <text x="150" y="398" font-size="13" fill="#fff8e7" text-anchor="middle">不靠口頭回報</text>
+  <text x="150" y="418" font-size="13" fill="#fef3c7" text-anchor="middle">報告汪追蹤功能</text>
+
+  <!-- 關鍵 2 -->
+  <rect x="290" y="118" width="220" height="310" rx="12" fill="#78716c"/>
+  <text x="400" y="162" font-size="52" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+  <text x="400" y="196" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">文件標準化</text>
+  <line x1="310" y1="210" x2="490" y2="210" stroke="#e7e5e4" stroke-width="1"/>
+  <text x="400" y="238" font-size="14" fill="#e7e5e4" text-anchor="middle">同類文件</text>
+  <text x="400" y="260" font-size="14" fill="#e7e5e4" text-anchor="middle">用同一格式</text>
+  <text x="400" y="286" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">標注版本日期</text>
+  <text x="400" y="308" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">標注負責人</text>
+  <text x="400" y="330" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">格式一致</text>
+  <text x="400" y="358" font-size="13" fill="#e7e5e4" text-anchor="middle">委員隨機抽查</text>
+  <text x="400" y="378" font-size="13" fill="#e7e5e4" text-anchor="middle">立即找到</text>
+  <text x="400" y="398" font-size="13" fill="#e7e5e4" text-anchor="middle">且格式一致</text>
+  <text x="400" y="418" font-size="13" fill="#fef3c7" text-anchor="middle">雲端文件管理</text>
+
+  <!-- 關鍵 3 -->
+  <rect x="540" y="118" width="220" height="310" rx="12" fill="#57534e"/>
+  <text x="650" y="162" font-size="52" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+  <text x="650" y="196" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">提前演練</text>
+  <line x1="560" y1="210" x2="740" y2="210" stroke="#e7e5e4" stroke-width="1"/>
+  <text x="650" y="238" font-size="14" fill="#e7e5e4" text-anchor="middle">不只消防演練</text>
+  <text x="650" y="260" font-size="14" fill="#e7e5e4" text-anchor="middle">訪談也要演練</text>
+  <text x="650" y="286" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">護理師演練</text>
+  <text x="650" y="308" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">社工師演練</text>
+  <text x="650" y="330" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">照服員演練</text>
+  <text x="650" y="358" font-size="13" fill="#e7e5e4" text-anchor="middle">練習回答</text>
+  <text x="650" y="378" font-size="13" fill="#e7e5e4" text-anchor="middle">委員常問問題</text>
+  <text x="650" y="398" font-size="13" fill="#e7e5e4" text-anchor="middle">評鑑不緊張</text>
+  <text x="650" y="418" font-size="13" fill="#fef3c7" text-anchor="middle">多人協作平台</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

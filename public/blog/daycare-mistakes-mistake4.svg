@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=38, h=90）-->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="98" font-size="36" fill="#1e293b" font-weight="700">地雷四：品管指標踩雷點</text>
+
+  <!-- Row 1（y=166）#d97706 — 未依機構特性自訂 -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">未依機構特性自訂</text>
+  <text x="100" y="234" font-size="18" fill="#57534e">須結合機構實際狀況，抄用通用指標易在委員訪談時露餡</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">自訂</text>
+  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">特性</text>
+
+  <!-- Row 2（y=269）#78716c — 有指標無追蹤數據 -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">有指標無追蹤數據</text>
+  <text x="100" y="337" font-size="18" fill="#57534e">指標訂定後需月報記錄數據，只有名稱沒有數值視同未執行</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">月報</text>
+  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">追蹤</text>
+
+  <!-- Row 3（y=372）#57534e — 異常未逐案分析 -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">異常未逐案分析</text>
+  <text x="100" y="440" font-size="18" fill="#57534e">指標出現異常時需逐案說明原因，非僅呈現整體趨勢</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">逐案</text>
+  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">分析</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

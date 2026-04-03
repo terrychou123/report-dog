@@ -1,62 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="450" fill="#f0efe8" rx="16"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 標題 -->
-  <text x="400" y="45" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">5 大扣分地雷 × 對應基準條文</text>
-  <text x="400" y="68" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">每個地雷都附快速解法 — 評鑑前一一確認</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">5 大評鑑扣分地雷</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">照顧計畫・追蹤評值・督導紀錄・品管指標・教育訓練</text>
+  <line x1="28" y1="94" x2="776" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 地雷 1 -->
-  <rect x="40" y="92" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <!-- 編號 -->
-  <circle cx="75" cy="118" r="18" fill="#78716c"/>
-  <text x="75" y="124" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">01</text>
-  <!-- 地雷名 -->
-  <text x="108" y="112" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">照顧計畫超過 7 個工作天才完成</text>
-  <text x="108" y="132" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">日期記錄不清 / 計畫與評估脫節 / 缺家屬參與紀錄</text>
-  <!-- 條文 -->
-  <rect x="640" y="103" width="100" height="30" rx="6" fill="#e8e5de"/>
-  <text x="690" y="122" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 6 條</text>
+  <!-- 箭頭 N=5, arrow_y=279 -->
+  <!-- 0→1: card[0] right=28+140=168, card[1] left=180 -->
+  <line x1="168" y1="279" x2="180" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="168,273 180,279 168,285" fill="#c4bfb8"/>
+  <!-- 1→2: 320→332 -->
+  <line x1="320" y1="279" x2="332" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="320,273 332,279 320,285" fill="#c4bfb8"/>
+  <!-- 2→3: 472→484 -->
+  <line x1="472" y1="279" x2="484" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="472,273 484,279 472,285" fill="#c4bfb8"/>
+  <!-- 3→4: 624→636 -->
+  <line x1="624" y1="279" x2="636" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="624,273 636,279 624,285" fill="#c4bfb8"/>
 
-  <!-- 地雷 2 -->
-  <rect x="40" y="158" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="75" cy="184" r="18" fill="#a8a29e"/>
-  <text x="75" y="190" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">02</text>
-  <text x="108" y="178" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">追蹤評值有做沒有紀錄</text>
-  <text x="108" y="198" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">只記達成紀錄 / 缺未達成分析 / 沒有修正計畫記錄</text>
-  <rect x="640" y="169" width="100" height="30" rx="6" fill="#e8e5de"/>
-  <text x="690" y="188" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 7 條</text>
+  <!-- N=5 card_w=140 arrow_gap=12 r=35
+       H_font=28（4字標題）gap=40
+       cy=191 STEP_y=182 0N_y=205
+       H_y=286 J1_y=310 J2_y=332
+       pill_y=372 pill_text_y=396 pill_w=114 -->
 
-  <!-- 地雷 3 -->
-  <rect x="40" y="224" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="75" cy="250" r="18" fill="#94a3b8"/>
-  <text x="75" y="256" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">03</text>
-  <text x="108" y="244" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">督導紀錄頻率不夠或內容過於空洞</text>
-  <text x="108" y="264" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">照服員缺個督 / 只有日期和簽名 / 沒有追蹤改善紀錄</text>
-  <rect x="640" y="235" width="100" height="30" rx="6" fill="#e8e5de"/>
-  <text x="690" y="254" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 9 條</text>
+  <!-- Step 0: 照顧計畫 #d97706 x=28 cx=98 -->
+  <rect x="28" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="140" height="4" fill="#d97706"/>
+  <circle cx="98" cy="191" r="35" fill="#fef3c7"/>
+  <text x="98" y="182" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP</text>
+  <text x="98" y="205" text-anchor="middle" font-size="23" fill="#d97706" font-weight="700">01</text>
+  <text x="98" y="286" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">照顧計畫</text>
+  <text x="98" y="310" text-anchor="middle" font-size="16" fill="#57534e">7工作天期限</text>
+  <text x="98" y="332" text-anchor="middle" font-size="16" fill="#57534e">家屬參與記錄</text>
+  <rect x="41" y="372" width="114" height="36" rx="18" fill="#fef3c7"/>
+  <text x="98" y="396" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">第 6 條</text>
 
-  <!-- 地雷 4 -->
-  <rect x="40" y="290" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="75" cy="316" r="18" fill="#a3a3a3"/>
-  <text x="75" y="322" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">04</text>
-  <text x="108" y="310" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">品管指標沒有自訂或只有名稱沒有分析</text>
-  <text x="108" y="330" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">抄用通用指標 / 有指標無數據 / 異常沒有逐案分析</text>
-  <rect x="640" y="301" width="100" height="30" rx="6" fill="#e8e5de"/>
-  <text x="690" y="320" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 22 條</text>
+  <!-- Step 1: 追蹤評值 #78716c x=180 cx=250 -->
+  <rect x="180" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="108" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="112" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="191" r="35" fill="#f5f5f4"/>
+  <text x="250" y="182" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">STEP</text>
+  <text x="250" y="205" text-anchor="middle" font-size="23" fill="#78716c" font-weight="700">02</text>
+  <text x="250" y="286" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">追蹤評值</text>
+  <text x="250" y="310" text-anchor="middle" font-size="16" fill="#57534e">未達成要分析</text>
+  <text x="250" y="332" text-anchor="middle" font-size="16" fill="#57534e">計畫修正要留紀</text>
+  <rect x="193" y="372" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="250" y="396" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">第 7 條</text>
 
-  <!-- 地雷 5 -->
-  <rect x="40" y="356" width="720" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <circle cx="75" cy="382" r="18" fill="#d97706"/>
-  <text x="75" y="388" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" font-weight="700">05</text>
-  <text x="108" y="376" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="600">教育訓練時數不足或缺少規定課程</text>
-  <text x="108" y="396" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">缺原住民族/多元文化課各 1 小時 / 網路課超 5 小時</text>
-  <rect x="640" y="367" width="100" height="30" rx="6" fill="#e8e5de"/>
-  <text x="690" y="386" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">第 29 條</text>
+  <!-- Step 2: 督導紀錄 #57534e x=332 cx=402 -->
+  <rect x="332" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="108" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="112" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="191" r="35" fill="#f5f0eb"/>
+  <text x="402" y="182" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">STEP</text>
+  <text x="402" y="205" text-anchor="middle" font-size="23" fill="#57534e" font-weight="700">03</text>
+  <text x="402" y="286" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">督導紀錄</text>
+  <text x="402" y="310" text-anchor="middle" font-size="16" fill="#57534e">個督每半年</text>
+  <text x="402" y="332" text-anchor="middle" font-size="16" fill="#57534e">團督每一季</text>
+  <rect x="345" y="372" width="114" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="402" y="396" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">第 9 條</text>
 
-  <!-- 底部說明 -->
-  <text x="400" y="432" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#94a3b8">每個地雷文章中皆附快速解法清單</text>
+  <!-- Step 3: 品管指標 #a8a29e x=484 cx=554 -->
+  <rect x="484" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="108" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="112" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="191" r="35" fill="#f5f5f4"/>
+  <text x="554" y="182" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="554" y="205" text-anchor="middle" font-size="23" fill="#a8a29e" font-weight="700">04</text>
+  <text x="554" y="286" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">品管指標</text>
+  <text x="554" y="310" text-anchor="middle" font-size="16" fill="#57534e">自訂至少兩項</text>
+  <text x="554" y="332" text-anchor="middle" font-size="16" fill="#57534e">逐案異常分析</text>
+  <rect x="497" y="372" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="554" y="396" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">第 22 條</text>
+
+  <!-- Step 4: 教育訓練 #94a3b8 x=636 cx=706 -->
+  <rect x="636" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="108" width="140" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="636" y="112" width="140" height="4" fill="#94a3b8"/>
+  <circle cx="706" cy="191" r="35" fill="#f1f5f9"/>
+  <text x="706" y="182" text-anchor="middle" font-size="14" fill="#94a3b8" font-weight="700">STEP</text>
+  <text x="706" y="205" text-anchor="middle" font-size="23" fill="#94a3b8" font-weight="700">05</text>
+  <text x="706" y="286" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">教育訓練</text>
+  <text x="706" y="310" text-anchor="middle" font-size="16" fill="#57534e">每年至少20時</text>
+  <text x="706" y="332" text-anchor="middle" font-size="16" fill="#57534e">必要課程齊備</text>
+  <rect x="649" y="372" width="114" height="36" rx="18" fill="#f1f5f9"/>
+  <text x="706" y="396" text-anchor="middle" font-size="14" fill="#94a3b8" font-weight="600">第 29 條</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

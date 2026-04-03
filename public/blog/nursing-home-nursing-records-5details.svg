@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑委員最在意的 5 個細節</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">護理紀錄品質決定 B 構面成績</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 細節 1 -->
+  <rect x="40" y="112" width="340" height="80" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <circle cx="72" cy="152" r="22" fill="#d97706"/>
+  <text x="72" y="158" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+  <text x="106" y="142" font-size="16" fill="#1e293b" font-weight="700">B2 個案服務計畫初評完整性</text>
+  <text x="106" y="164" font-size="14" fill="#57534e">72小時初評含三項高風險評估（跌倒/壓損/營養）</text>
+
+  <!-- 細節 2 -->
+  <rect x="40" y="204" width="340" height="80" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <circle cx="72" cy="244" r="22" fill="#d97706"/>
+  <text x="72" y="250" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+  <text x="106" y="234" font-size="16" fill="#1e293b" font-weight="700">B13/B14 跌倒壓損逐案分析</text>
+  <text x="106" y="256" font-size="14" fill="#57534e">不只記錄事件，要有原因分析+改善措施</text>
+
+  <!-- 細節 3 -->
+  <rect x="40" y="296" width="340" height="80" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <circle cx="72" cy="336" r="22" fill="#78716c"/>
+  <text x="72" y="342" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+  <text x="106" y="326" font-size="16" fill="#1e293b" font-weight="700">B9 醫師巡診紀錄品質</text>
+  <text x="106" y="348" font-size="14" fill="#57534e">不得以門診紀錄代替，需有醫師親筆簽名</text>
+
+  <!-- 細節 4 -->
+  <rect x="420" y="112" width="340" height="80" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <circle cx="452" cy="152" r="22" fill="#78716c"/>
+  <text x="452" y="158" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">4</text>
+  <text x="486" y="142" font-size="16" fill="#1e293b" font-weight="700">B17 感染事件完整流程記錄</text>
+  <text x="486" y="164" font-size="14" fill="#57534e">通報/隔離/接觸者追蹤/改善措施全記錄</text>
+
+  <!-- 細節 5 -->
+  <rect x="420" y="204" width="340" height="80" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+  <circle cx="452" cy="244" r="22" fill="#57534e"/>
+  <text x="452" y="250" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">5</text>
+  <text x="486" y="234" font-size="16" fill="#1e293b" font-weight="700">B16 約束同意書有效期</text>
+  <text x="486" y="256" font-size="14" fill="#57534e">每3個月更新家屬同意書（不可逾期）</text>
+
+  <!-- 底部統計 -->
+  <rect x="40" y="398" width="720" height="72" rx="10" fill="#fef3c7"/>
+  <text x="400" y="425" font-size="15" fill="#92400e" text-anchor="middle" font-weight="700">B 構面 32 項評鑑基準中</text>
+  <text x="400" y="450" font-size="14" fill="#92400e" text-anchor="middle">護理紀錄直接或間接影響超過 15 項，佔 B 構面近 50% 的得分關鍵</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

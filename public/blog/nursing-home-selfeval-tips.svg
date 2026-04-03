@@ -1,0 +1,71 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">自評表填寫 4 大訣竅</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">從委員視角思考如何展現成果</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 步驟1 -->
+  <rect x="28" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="115" cy="170" r="22" fill="#d97706"/>
+  <text x="115" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">1</text>
+  <text x="115" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">先自我盤點</text>
+  <text x="115" y="244" text-anchor="middle" font-size="13" fill="#57534e">逐項閱讀評鑑基準</text>
+  <text x="115" y="264" text-anchor="middle" font-size="13" fill="#57534e">確認各項文件</text>
+  <text x="115" y="284" text-anchor="middle" font-size="13" fill="#57534e">是否已備妥</text>
+  <text x="115" y="304" text-anchor="middle" font-size="13" fill="#57534e">標記缺口項目</text>
+  <text x="115" y="340" text-anchor="middle" font-size="12" fill="#d97706" font-weight="600">建立缺口清單</text>
+
+  <!-- 箭頭 1→2 -->
+  <polygon points="210,245 228,237 228,253" fill="#d97706"/>
+  <line x1="202" y1="245" x2="228" y2="245" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟2 -->
+  <rect x="218" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="305" cy="170" r="22" fill="#78716c"/>
+  <text x="305" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">2</text>
+  <text x="305" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">補強缺口文件</text>
+  <text x="305" y="244" text-anchor="middle" font-size="13" fill="#57534e">針對缺漏項目</text>
+  <text x="305" y="264" text-anchor="middle" font-size="13" fill="#57534e">補充佐證資料</text>
+  <text x="305" y="284" text-anchor="middle" font-size="13" fill="#57534e">確認分析報告</text>
+  <text x="305" y="304" text-anchor="middle" font-size="13" fill="#57534e">週期符合要求</text>
+  <text x="305" y="340" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">優先補強重點項</text>
+
+  <!-- 箭頭 2→3 -->
+  <polygon points="400,245 418,237 418,253" fill="#d97706"/>
+  <line x1="392" y1="245" x2="418" y2="245" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟3 -->
+  <rect x="408" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="495" cy="170" r="22" fill="#d97706"/>
+  <text x="495" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">3</text>
+  <text x="495" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">填寫自評說明</text>
+  <text x="495" y="244" text-anchor="middle" font-size="13" fill="#57534e">用具體數字描述</text>
+  <text x="495" y="264" text-anchor="middle" font-size="13" fill="#57534e">說明執行頻率</text>
+  <text x="495" y="284" text-anchor="middle" font-size="13" fill="#57534e">標示佐證文件</text>
+  <text x="495" y="304" text-anchor="middle" font-size="13" fill="#57534e">頁碼索引位置</text>
+  <text x="495" y="340" text-anchor="middle" font-size="12" fill="#d97706" font-weight="600">條理清晰是關鍵</text>
+
+  <!-- 箭頭 3→4 -->
+  <polygon points="590,245 608,237 608,253" fill="#d97706"/>
+  <line x1="582" y1="245" x2="608" y2="245" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 步驟4 -->
+  <rect x="598" y="140" width="174" height="220" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <circle cx="685" cy="170" r="22" fill="#78716c"/>
+  <text x="685" y="177" text-anchor="middle" font-size="22" fill="#fff" font-weight="700">4</text>
+  <text x="685" y="218" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">模擬委員視角</text>
+  <text x="685" y="244" text-anchor="middle" font-size="13" fill="#57534e">請同事扮演委員</text>
+  <text x="685" y="264" text-anchor="middle" font-size="13" fill="#57534e">查閱自評表</text>
+  <text x="685" y="284" text-anchor="middle" font-size="13" fill="#57534e">確認邏輯一致</text>
+  <text x="685" y="304" text-anchor="middle" font-size="13" fill="#57534e">文件可快速調閱</text>
+  <text x="685" y="340" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">事前模擬減焦慮</text>
+
+  <!-- 底部說明 -->
+  <rect x="40" y="390" width="720" height="60" rx="8" fill="#fef3c7"/>
+  <text x="400" y="415" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">評鑑委員最看重的三個字：完整性、一致性、可查核性</text>
+  <text x="400" y="440" text-anchor="middle" font-size="14" fill="#78716c">自評表填「A」（達標），文件卻找不到或不完整，比填「B」還失分</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

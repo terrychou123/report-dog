@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">照護類訪談問題</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">委員最常問護理長與照服員的四類照護問題</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- Q1 -->
+  <rect x="40" y="118" width="720" height="72" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="40" y="118" width="64" height="72" rx="8" fill="#d97706"/>
+  <text x="72" y="160" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">B2</text>
+  <text x="125" y="144" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">Q：新住民入住後，個案服務計畫何時完成？評估哪些面向？</text>
+  <text x="125" y="170" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：入住 72 小時內完成，含身體、心理、社會及高風險評估（跌倒、壓傷、營養）</text>
+  <!-- Q2 -->
+  <rect x="40" y="204" width="720" height="72" rx="8" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="40" y="204" width="64" height="72" rx="8" fill="#78716c"/>
+  <text x="72" y="246" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">B13</text>
+  <text x="125" y="230" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">Q：住民發生跌倒時，你們的處理流程是什麼？</text>
+  <text x="125" y="256" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：立即評估傷勢→通知護理師→聯繫家屬→逐案分析→每半年定期分析改善</text>
+  <!-- Q3 -->
+  <rect x="40" y="290" width="720" height="72" rx="8" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="40" y="290" width="64" height="72" rx="8" fill="#57534e"/>
+  <text x="72" y="332" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">B27</text>
+  <text x="125" y="316" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e">Q：臥床住民的翻身拍背頻率是多少？</text>
+  <text x="125" y="342" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：至少每 2 小時正確執行翻身拍背，擺位正確，有完整紀錄（安養不適用）</text>
+  <!-- Q4 -->
+  <rect x="40" y="376" width="720" height="72" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="40" y="376" width="64" height="72" rx="8" fill="#94a3b8"/>
+  <text x="72" y="418" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">B26</text>
+  <text x="125" y="402" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#94a3b8">Q：住民每天下床活動幾次？如何安排？</text>
+  <text x="125" y="428" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：可移動住民每天至少下床 2 次（意識不清者 1 次），使用符合需求輔具</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

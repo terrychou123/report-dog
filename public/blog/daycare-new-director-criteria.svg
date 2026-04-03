@@ -1,93 +1,57 @@
-<svg width="800" height="480" viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
-  <!-- 主背景 -->
-  <rect width="800" height="480" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 頂部標題區 -->
-  <rect x="0" y="0" width="800" height="58" fill="#e8e6de"/>
-  <text x="400" y="22" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">評鑑條文快速對照</text>
-  <text x="400" y="44" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="800">主任相關評鑑條文快速對照（第 23–34 條）</text>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">日照中心主任資格四大條件</text>
 
-  <!-- 表格區域背景 -->
-  <rect x="20" y="68" width="760" height="386" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <!-- ===== Row 1（y=160）#d97706 學歷 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">學歷與科系要求</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">社會工作、護理、職能治療等相關科系大學以上學歷畢業</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">學歷條件</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">相關科系</text>
 
-  <!-- 表格標題列 -->
-  <rect x="20" y="68" width="760" height="34" rx="10" fill="#e8e6de"/>
-  <rect x="20" y="88" width="760" height="14" fill="#e8e6de"/>
-  <text x="85" y="90" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">條文</text>
-  <text x="220" y="90" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">主題</text>
-  <text x="520" y="90" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">主任必知重點</text>
+  <!-- ===== Row 2（y=235）#78716c 年齡 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">年齡限制</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">年滿 20 歲，法規另有規定者從其規定</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">年齡條件</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">法規規定</text>
 
-  <!-- 垂直分隔線 -->
-  <line x1="140" y1="68" x2="140" y2="454" stroke="#dedad3" stroke-width="1"/>
-  <line x1="300" y1="68" x2="300" y2="454" stroke="#dedad3" stroke-width="1"/>
+  <!-- ===== Row 3（y=310）#57534e 訓練 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">完成主任職前訓練</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">完成主管機關認可的主任職前訓練課程並取得結訓證書</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">訓練條件</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">結訓證書</text>
 
-  <!-- 列1：第23條 -->
-  <rect x="20" y="102" width="760" height="34" fill="#f0efe8"/>
-  <text x="85" y="124" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 23 條</text>
-  <text x="220" y="124" font-size="13" fill="#1e293b" text-anchor="middle">業務計畫</text>
-  <text x="310" y="124" font-size="12" fill="#57534e">每年撰寫成果報告、訂定短中長程計畫</text>
-
-  <!-- 列2：第24條 -->
-  <rect x="20" y="136" width="760" height="34" fill="white"/>
-  <text x="85" y="158" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 24 條</text>
-  <text x="220" y="158" font-size="13" fill="#1e293b" text-anchor="middle">工作手冊</text>
-  <text x="310" y="158" font-size="12" fill="#57534e">每年至少 1 次審閱修訂、含組織職掌說明</text>
-
-  <!-- 列3：第25條 -->
-  <rect x="20" y="170" width="760" height="34" fill="#f0efe8"/>
-  <text x="85" y="192" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 25 條</text>
-  <text x="220" y="192" font-size="13" fill="#1e293b" text-anchor="middle">行政會議</text>
-  <text x="310" y="192" font-size="12" fill="#57534e">每月至少 1 次、多專業參與、決議須追蹤</text>
-
-  <!-- 列4：第28條 -->
-  <rect x="20" y="204" width="760" height="34" fill="white"/>
-  <text x="85" y="226" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 28 條</text>
-  <text x="220" y="226" font-size="13" fill="#1e293b" text-anchor="middle">人力設置</text>
-  <text x="310" y="226" font-size="12" fill="#57534e">符合設置標準、完成執業登錄或報備</text>
-
-  <!-- 列5：第29條 -->
-  <rect x="20" y="238" width="760" height="34" fill="#f0efe8"/>
-  <text x="85" y="260" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 29 條</text>
-  <text x="220" y="260" font-size="13" fill="#1e293b" text-anchor="middle">教育訓練</text>
-  <text x="310" y="260" font-size="12" fill="#57534e">職前 16hr（1 月內）、在職每年 ≥ 20hr</text>
-
-  <!-- 列6：第30條 -->
-  <rect x="20" y="272" width="760" height="34" fill="white"/>
-  <text x="85" y="294" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 30 條</text>
-  <text x="220" y="294" font-size="13" fill="#1e293b" text-anchor="middle">留任率</text>
-  <text x="310" y="294" font-size="12" fill="#57534e">前四年度平均；3 個月內離職者不計入</text>
-
-  <!-- 列7：第31條 -->
-  <rect x="20" y="306" width="760" height="34" fill="#f0efe8"/>
-  <text x="85" y="328" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 31 條</text>
-  <text x="220" y="328" font-size="13" fill="#1e293b" text-anchor="middle">主任能力</text>
-  <text x="310" y="328" font-size="12" fill="#57534e">每年行政／品質管理教育訓練 ≥ 4hr</text>
-
-  <!-- 列8：第34條 -->
-  <rect x="20" y="340" width="760" height="34" fill="white"/>
-  <text x="85" y="362" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 34 條</text>
-  <text x="220" y="362" font-size="13" fill="#1e293b" text-anchor="middle">財務管理</text>
-  <text x="310" y="362" font-size="12" fill="#57534e">獨立會計制度、收費需開立正式收據</text>
-
-  <!-- 列9：第9條 -->
-  <rect x="20" y="374" width="760" height="34" fill="#f0efe8"/>
-  <text x="85" y="396" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 9 條</text>
-  <text x="220" y="396" font-size="13" fill="#1e293b" text-anchor="middle">督導機制</text>
-  <text x="310" y="396" font-size="12" fill="#57534e">個別督導每半年 1 次；團體督導每季 1 次</text>
-
-  <!-- 列10：第22條 -->
-  <rect x="20" y="408" width="760" height="34" rx="0" fill="white"/>
-  <rect x="20" y="422" width="760" height="20" rx="10" fill="white"/>
-  <text x="85" y="430" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 22 條</text>
-  <text x="220" y="430" font-size="13" fill="#1e293b" text-anchor="middle">品管指標</text>
-  <text x="310" y="430" font-size="12" fill="#57534e">自訂 ≥ 2 項指標、異常案件需逐案分析</text>
-
-  <!-- 底部水平分隔線 -->
-  <line x1="20" y1="454" x2="780" y2="454" stroke="#dedad3" stroke-width="1"/>
-
-  <!-- 底部說明 -->
-  <text x="400" y="471" font-size="11" fill="#a8a29e" text-anchor="middle">資料來源：臺北市 115 年度日間照顧機構評鑑基準</text>
+  <!-- ===== Row 4（y=385）#a8a29e 進修 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">在職期間持續進修</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">每年完成法定進修時數，主管機關規定課程優先列入計畫</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">進修條件</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">年度時數</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="450" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

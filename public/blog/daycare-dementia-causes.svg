@@ -1,54 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">「想回家」背後的 3 種根源</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Top banner -->
-  <rect x="52" y="78" width="696" height="34" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="99" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">失智長輩說「我要回家」——不一定真的想要那棟房子，而是在說別的事</text>
+  <!-- Header（y=38, h=90）N=3 -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="99" font-size="40" fill="#1e293b" font-weight="700">「想回家」背後的 3 種根源</text>
 
-  <!-- Card 1: 認知混亂 -->
-  <rect x="52" y="128" width="210" height="270" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="128" width="210" height="5" rx="2.5" fill="#d97706"/>
-  <circle cx="157" cy="175" r="28" fill="#d97706" opacity="0.10"/>
-  <text x="157" y="183" font-size="28" text-anchor="middle" fill="#d97706">🧭</text>
-  <text x="157" y="226" font-size="16" font-weight="700" fill="#1e293b" text-anchor="middle">認知混亂</text>
-  <line x1="72" y1="240" x2="246" y2="240" stroke="#f0ede6" stroke-width="1"/>
-  <text x="157" y="262" font-size="12" fill="#57534e" text-anchor="middle">時間感、空間感喪失</text>
-  <text x="157" y="282" font-size="12" fill="#57534e" text-anchor="middle">以為在陌生環境</text>
-  <text x="157" y="302" font-size="12" fill="#57534e" text-anchor="middle">不記得已來到日照</text>
-  <rect x="72" y="326" width="170" height="52" rx="8" fill="#d97706" opacity="0.06"/>
-  <text x="157" y="349" font-size="11" fill="#92400e" text-anchor="middle">→ 以技巧 1 情緒同理</text>
-  <text x="157" y="368" font-size="11" fill="#92400e" text-anchor="middle">優先回應定向感需求</text>
+  <!-- ===== Row 1（y=166）H=90 #d97706 記憶錯置 ===== -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="218" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="205" font-size="28" fill="#1e293b" font-weight="700">記憶錯置：大腦時光倒流</text>
+  <text x="100" y="235" font-size="18" fill="#57534e">想回的「家」是記憶中的兒時家，大腦無法辨認現在的環境</text>
+  <rect x="620" y="174" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="195" font-size="16" fill="#d97706" text-anchor="middle">認知功能</text>
+  <text x="688" y="215" font-size="16" fill="#d97706" text-anchor="middle">記憶衰退</text>
 
-  <!-- Card 2: 情緒需求 -->
-  <rect x="295" y="128" width="210" height="270" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="295" y="128" width="210" height="5" rx="2.5" fill="#78716c"/>
-  <circle cx="400" cy="175" r="28" fill="#78716c" opacity="0.10"/>
-  <text x="400" y="183" font-size="28" text-anchor="middle" fill="#78716c">💛</text>
-  <text x="400" y="226" font-size="16" font-weight="700" fill="#1e293b" text-anchor="middle">情緒需求</text>
-  <line x1="315" y1="240" x2="489" y2="240" stroke="#f0ede6" stroke-width="1"/>
-  <text x="400" y="262" font-size="12" fill="#57534e" text-anchor="middle">孤獨、焦慮、無聊</text>
-  <text x="400" y="282" font-size="12" fill="#57534e" text-anchor="middle">渴望安全感與歸屬感</text>
-  <text x="400" y="302" font-size="12" fill="#57534e" text-anchor="middle">「家」=被愛的地方</text>
-  <rect x="315" y="326" width="170" height="52" rx="8" fill="#78716c" opacity="0.07"/>
-  <text x="400" y="349" font-size="11" fill="#78716c" text-anchor="middle">→ 以技巧 2 個別化活動</text>
-  <text x="400" y="368" font-size="11" fill="#78716c" text-anchor="middle">連結熟悉生命經驗</text>
+  <!-- ===== Row 2（y=269）H=90 #78716c 環境陌生 ===== -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="321" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="308" font-size="28" fill="#1e293b" font-weight="700">環境陌生：安全感失落</text>
+  <text x="100" y="338" font-size="18" fill="#57534e">日照中心環境陌生，觸發不安全感，「回家」代表「安全」</text>
+  <rect x="620" y="277" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="298" font-size="16" fill="#78716c" text-anchor="middle">環境因素</text>
+  <text x="688" y="318" font-size="16" fill="#78716c" text-anchor="middle">安全需求</text>
 
-  <!-- Card 3: 身體不適 -->
-  <rect x="538" y="128" width="210" height="270" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="538" y="128" width="210" height="5" rx="2.5" fill="#a8a29e"/>
-  <circle cx="643" cy="175" r="28" fill="#a8a29e" opacity="0.12"/>
-  <text x="643" y="183" font-size="28" text-anchor="middle" fill="#78716c">🩺</text>
-  <text x="643" y="226" font-size="16" font-weight="700" fill="#1e293b" text-anchor="middle">身體不適的訊號</text>
-  <line x1="558" y1="240" x2="732" y2="240" stroke="#f0ede6" stroke-width="1"/>
-  <text x="643" y="262" font-size="12" fill="#57534e" text-anchor="middle">無法清楚說明不舒服</text>
-  <text x="643" y="282" font-size="12" fill="#57534e" text-anchor="middle">飢餓 / 如廁需求</text>
-  <text x="643" y="302" font-size="12" fill="#57534e" text-anchor="middle">身體某處疼痛</text>
-  <rect x="558" y="326" width="170" height="52" rx="8" fill="#a8a29e" opacity="0.10"/>
-  <text x="643" y="349" font-size="11" fill="#78716c" text-anchor="middle">→ 以技巧 4 先排查</text>
-  <text x="643" y="368" font-size="11" fill="#78716c" text-anchor="middle">3 項身體需求確認</text>
+  <!-- ===== Row 3（y=372）H=90 #57534e 需求未滿足 ===== -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="424" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="411" font-size="28" fill="#1e293b" font-weight="700">需求未滿足：身心發出求救訊號</text>
+  <text x="100" y="441" font-size="18" fill="#57534e">疼痛、如廁需求、孤獨感等未被看見，以「想回家」表達</text>
+  <rect x="620" y="380" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="401" font-size="16" fill="#57534e" text-anchor="middle">身心需求</text>
+  <text x="688" y="421" font-size="16" fill="#57534e" text-anchor="middle">求救訊號</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

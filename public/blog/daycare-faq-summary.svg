@@ -1,82 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
-  <!-- 背景：米黃暖色 -->
-  <rect width="800" height="400" fill="#f0efe8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- 主卡片 -->
-  <rect x="30" y="20" width="740" height="360" rx="20" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">日照評鑑關鍵數字速查</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">12 個必記數字，備審期間隨時查閱不漏填</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 頂部 header -->
-  <rect x="30" y="20" width="740" height="62" rx="20" fill="#78716c"/>
-  <rect x="30" y="62" width="740" height="20" fill="#78716c"/>
+  <!-- 左欄 Section 1：文件規定 #d97706 -->
+  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">文件規定</text>
 
-  <!-- 書籤圖示 -->
-  <rect x="60" y="30" width="30" height="40" rx="3" fill="white" opacity="0.25"/>
-  <polygon points="60,70 75,60 90,70" fill="#78716c"/>
+  <!-- 左欄 Item 1：已確認 -->
+  <rect x="64" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,150 L 72,155 L 81,143" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="156" font-size="18" fill="#1e293b">照顧計畫：7 個工作天完成</text>
 
-  <!-- 標題 -->
-  <text x="400" y="56" font-family="sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">重點速查卡</text>
-  <text x="400" y="74" font-family="sans-serif" font-size="12" fill="#dedad3" text-anchor="middle">日間照顧中心評鑑關鍵數字一覽</text>
+  <!-- 左欄 Item 2：已確認 -->
+  <rect x="64" y="180" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,190 L 72,195 L 81,183" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="196" font-size="18" fill="#1e293b">品管指標：自訂至少 2 項</text>
 
-  <!-- 副標題小標 -->
-  <text x="60" y="118" font-family="sans-serif" font-size="14" fill="#57534e" font-weight="bold">快速查閱評鑑重要規定，準備不遺漏</text>
-  <rect x="60" y="124" width="680" height="1.5" fill="#dedad3"/>
+  <!-- 左欄 Item 3：已確認 -->
+  <rect x="64" y="220" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,230 L 72,235 L 81,223" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="236" font-size="18" fill="#1e293b">前次評鑑建議：已追蹤改善</text>
 
-  <!-- 六項目 2×3 佈局 -->
+  <!-- 左欄 Section 2：在職訓練 #57534e -->
+  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">在職訓練</text>
 
-  <!-- 第一列：左 -->
-  <rect x="50" y="138" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
-  <!-- 左色條 -->
-  <rect x="50" y="138" width="6" height="70" rx="3" fill="#94a3b8"/>
-  <!-- 標籤 -->
-  <rect x="64" y="148" width="90" height="20" rx="10" fill="#94a3b8"/>
-  <text x="109" y="162" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">評鑑週期</text>
-  <!-- 數值 -->
-  <text x="64" y="192" font-family="sans-serif" font-size="24" fill="#94a3b8" font-weight="bold">每 4 年</text>
-  <text x="168" y="192" font-family="sans-serif" font-size="14" fill="#57534e">一次（臺北市）</text>
+  <!-- 左欄 Item 4：待確認 -->
+  <rect x="64" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="310" font-size="18" fill="#1e293b">每年在職訓練合計 20 小時</text>
 
-  <!-- 第一列：右 -->
-  <rect x="420" y="138" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="420" y="138" width="6" height="70" rx="3" fill="#a8a29e"/>
-  <rect x="434" y="148" width="90" height="20" rx="10" fill="#a8a29e"/>
-  <text x="479" y="162" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">正式基準</text>
-  <text x="434" y="192" font-family="sans-serif" font-size="24" fill="#a8a29e" font-weight="bold">43 項</text>
-  <text x="510" y="192" font-family="sans-serif" font-size="14" fill="#57534e">+ 加分題 2 項</text>
+  <!-- 左欄 Item 5：待確認 -->
+  <rect x="64" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="350" font-size="18" fill="#1e293b">線上課程最多採計 5 小時</text>
 
-  <!-- 第二列：左 -->
-  <rect x="50" y="220" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="50" y="220" width="6" height="70" rx="3" fill="#d97706"/>
-  <rect x="64" y="230" width="90" height="20" rx="10" fill="#d97706"/>
-  <text x="109" y="244" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">照顧計畫</text>
-  <text x="64" y="274" font-family="sans-serif" font-size="24" fill="#d97706" font-weight="bold">7 工作天</text>
-  <text x="200" y="274" font-family="sans-serif" font-size="14" fill="#57534e">內完成</text>
+  <!-- 左欄 Item 6：待確認 -->
+  <rect x="64" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="390" font-size="18" fill="#1e293b">含原住民族文化課程各 1 小時</text>
 
-  <!-- 第二列：右 -->
-  <rect x="420" y="220" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="420" y="220" width="6" height="70" rx="3" fill="#78716c"/>
-  <rect x="434" y="230" width="90" height="20" rx="10" fill="#78716c"/>
-  <text x="479" y="244" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">督導要求</text>
-  <text x="434" y="270" font-family="sans-serif" font-size="13" fill="#78716c" font-weight="bold">個督每半年</text>
-  <text x="434" y="288" font-family="sans-serif" font-size="13" fill="#57534e">團督每季一次</text>
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- 第三列：左 -->
-  <rect x="50" y="302" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="50" y="302" width="6" height="70" rx="3" fill="#a3a3a3"/>
-  <rect x="64" y="312" width="90" height="20" rx="10" fill="#a3a3a3"/>
-  <text x="109" y="326" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">在職訓練</text>
-  <text x="64" y="356" font-family="sans-serif" font-size="24" fill="#a3a3a3" font-weight="bold">20 小時</text>
-  <text x="200" y="356" font-family="sans-serif" font-size="14" fill="#57534e">/ 年（最低標準）</text>
+  <!-- 右欄 Section 1：評鑑制度 #78716c -->
+  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">評鑑制度</text>
 
-  <!-- 第三列：右 -->
-  <rect x="420" y="302" width="330" height="70" rx="12" fill="#f0efe8" stroke="#dedad3" stroke-width="1.5"/>
-  <rect x="420" y="302" width="6" height="70" rx="3" fill="#94a3b8"/>
-  <rect x="434" y="312" width="90" height="20" rx="10" fill="#94a3b8"/>
-  <text x="479" y="326" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">品管指標</text>
-  <text x="434" y="356" font-family="sans-serif" font-size="24" fill="#94a3b8" font-weight="bold">至少 2 項</text>
-  <text x="562" y="356" font-family="sans-serif" font-size="14" fill="#57534e">自訂</text>
+  <!-- 右欄 Item 1：已確認 -->
+  <rect x="420" y="140" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,150 L 428,155 L 437,143" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="156" font-size="18" fill="#1e293b">評鑑週期：每 3 年辦理一次</text>
 
-  <!-- 底部提示 -->
-  <text x="400" y="392" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">以上數據以臺北市 115 年評鑑基準為主，各縣市規定可能有差異，請以主管機關公告為準</text>
+  <!-- 右欄 Item 2：已確認 -->
+  <rect x="420" y="180" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,190 L 428,195 L 437,183" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="196" font-size="18" fill="#1e293b">評鑑委員：2–3 位到場查核</text>
+
+  <!-- 右欄 Item 3：已確認 -->
+  <rect x="420" y="220" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,230 L 428,235 L 437,223" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="236" font-size="18" fill="#1e293b">評鑑時間：約 3 至 4 小時</text>
+
+  <!-- 右欄 Section 2：督導頻率 #a8a29e -->
+  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">督導頻率</text>
+
+  <!-- 右欄 Item 4：待確認 -->
+  <rect x="420" y="294" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="310" font-size="18" fill="#1e293b">個別督導：每半年至少一次</text>
+
+  <!-- 右欄 Item 5：待確認 -->
+  <rect x="420" y="334" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="350" font-size="18" fill="#1e293b">團體督導：每季至少一次</text>
+
+  <!-- 右欄 Item 6：待確認 -->
+  <rect x="420" y="374" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="450" y="390" font-size="18" fill="#1e293b">督導紀錄須有實質討論內容</text>
+
+  <!-- 底部分隔線 -->
+  <line x1="40" y1="433" x2="760" y2="433" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 圖例 -->
+  <rect x="75" y="443" width="18" height="18" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 78,453 L 82,458 L 91,446" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="458" font-size="18" fill="#57534e">已確認完成</text>
+
+  <rect x="230" y="443" width="18" height="18" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="257" y="458" font-size="18" fill="#57534e">待確認項目</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="375" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -1,75 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">照顧計畫 4 大必要要素（第 6 條）</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Top rule -->
-  <rect x="52" y="78" width="696" height="34" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="99" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">評估完成後 7 個工作天內完成 ｜ 制式模板套用所有個案 = 不符合</text>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">照顧計畫 4 大必要要素（第 6 條）</text>
 
-  <!-- 4 flow steps -->
-  <!-- Step 1 -->
-  <rect x="52" y="126" width="154" height="260" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="126" width="154" height="5" rx="2.5" fill="#d97706"/>
-  <text x="129" y="162" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">① 具體目標</text>
-  <line x1="68" y1="176" x2="190" y2="176" stroke="#f0ede6" stroke-width="1"/>
-  <text x="129" y="200" font-size="12" fill="#57534e" text-anchor="middle">可衡量，有數字</text>
-  <text x="129" y="220" font-size="12" fill="#57534e" text-anchor="middle">有時間節點</text>
-  <line x1="68" y1="238" x2="190" y2="238" stroke="#f0ede6" stroke-width="1"/>
-  <rect x="68" y="248" width="120" height="48" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="128" y="268" font-size="11" fill="#92400e" text-anchor="middle">✓ 3個月內</text>
-  <text x="128" y="286" font-size="11" fill="#92400e" text-anchor="middle">如廁輔助達成</text>
-  <rect x="68" y="302" width="120" height="38" rx="8" fill="#f0ede6"/>
-  <text x="128" y="318" font-size="11" fill="#94a3b8" text-anchor="middle">✗ 維持現況</text>
-  <text x="128" y="334" font-size="11" fill="#94a3b8" text-anchor="middle">（過於模糊）</text>
+  <!-- ===== Row 1（y=160）#d97706 個案需求描述 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">個案需求描述</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">依評估結果列出身心需求，具體描述優先照護問題與限制</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">需求說明</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">評估依據</text>
 
-  <!-- Arrow 1 -->
-  <text x="226" y="252" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- ===== Row 2（y=235）#78716c 照顧目標設定 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">照顧目標設定</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">以可量化的具體目標呈現，區分短期（1月）與長期（3月）目標</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">目標設定</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">可量化</text>
 
-  <!-- Step 2 -->
-  <rect x="244" y="126" width="154" height="260" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="244" y="126" width="154" height="5" rx="2.5" fill="#78716c"/>
-  <text x="321" y="162" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">② 服務策略</text>
-  <line x1="260" y1="176" x2="382" y2="176" stroke="#f0ede6" stroke-width="1"/>
-  <text x="321" y="200" font-size="12" fill="#57534e" text-anchor="middle">每項目標對應</text>
-  <text x="321" y="220" font-size="12" fill="#57534e" text-anchor="middle">具體介入措施</text>
-  <line x1="260" y1="238" x2="382" y2="238" stroke="#f0ede6" stroke-width="1"/>
-  <text x="260" y="262" font-size="12" fill="#78716c">→ 每週3次平衡訓練</text>
-  <text x="260" y="282" font-size="12" fill="#78716c">→ 每日提醒如廁</text>
-  <text x="260" y="302" font-size="12" fill="#78716c">→ 餐後口腔護理</text>
+  <!-- ===== Row 3（y=310）#57534e 服務介入措施 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">服務介入措施</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">說明具體服務項目、執行頻率、負責人員與執行方式</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">執行計畫</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">分工明確</text>
 
-  <!-- Arrow 2 -->
-  <text x="418" y="252" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- ===== Row 4（y=385）#a8a29e 預期成效指標 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">預期成效指標</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">設定可評量的成效指標與評值時間點，作為追蹤評值依據</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">評值基準</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">追蹤依據</text>
 
-  <!-- Step 3 -->
-  <rect x="436" y="126" width="154" height="260" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="436" y="126" width="154" height="5" rx="2.5" fill="#a8a29e"/>
-  <text x="513" y="162" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">③ 個案意見</text>
-  <line x1="452" y1="176" x2="574" y2="176" stroke="#f0ede6" stroke-width="1"/>
-  <text x="513" y="200" font-size="12" fill="#57534e" text-anchor="middle">個案或代理人</text>
-  <text x="513" y="220" font-size="12" fill="#57534e" text-anchor="middle">意見與簽名確認</text>
-  <line x1="452" y1="238" x2="574" y2="238" stroke="#f0ede6" stroke-width="1"/>
-  <text x="452" y="262" font-size="12" fill="#78716c">→ 個案意見記錄</text>
-  <text x="452" y="282" font-size="12" fill="#78716c">→ 家屬確認簽名</text>
-  <text x="452" y="302" font-size="11" fill="#94a3b8">失智：觀察行為線索</text>
-
-  <!-- Arrow 3 -->
-  <text x="610" y="252" font-size="22" fill="#d97706" text-anchor="middle">→</text>
-
-  <!-- Step 4 -->
-  <rect x="628" y="126" width="120" height="260" rx="12" fill="#d97706" opacity="0.06"/>
-  <rect x="628" y="126" width="120" height="260" rx="12" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.5"/>
-  <rect x="628" y="126" width="120" height="5" rx="2.5" fill="#d97706" opacity="0.7"/>
-  <text x="688" y="162" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">④ 負責人</text>
-  <text x="688" y="180" font-size="11" fill="#78716c" text-anchor="middle">與時程</text>
-  <line x1="644" y1="192" x2="732" y2="192" stroke="#f0ede6" stroke-width="1"/>
-  <text x="688" y="218" font-size="12" fill="#57534e" text-anchor="middle">每目標</text>
-  <text x="688" y="238" font-size="12" fill="#57534e" text-anchor="middle">標明負責人</text>
-  <line x1="644" y1="254" x2="732" y2="254" stroke="#f0ede6" stroke-width="1"/>
-  <text x="644" y="276" font-size="11" fill="#d97706">社工</text>
-  <text x="644" y="296" font-size="11" fill="#d97706">護理師</text>
-  <text x="644" y="316" font-size="11" fill="#d97706">照服員</text>
-
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

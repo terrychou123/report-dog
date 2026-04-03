@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">10 項二級加強項目全覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">任一不達標須提出改善計畫，影響評鑑等第</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上排 2×2 y=104 h=168 -->
+  <!-- 卡片1: A區塊 x=40 w=346 -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">A 區塊（1 項）</text>
+  <text x="60" y="170" font-size="14" fill="#57534e">A2 入住出管理：</text>
+  <text x="60" y="190" font-size="14" fill="#57534e">  • 4 年內無違規缺失紀錄</text>
+  <text x="60" y="210" font-size="14" fill="#57534e">  • 評鑑後 10 日內陳報改善說明</text>
+  <rect x="56" y="248" width="70" height="20" rx="10" fill="#fef3c7"/>
+  <text x="91" y="262" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">A2 加強</text>
+
+  <!-- 卡片2: B區塊 x=414 w=346 -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">B 區塊（3 項）</text>
+  <text x="434" y="168" font-size="14" fill="#57534e">B2 個案計畫：72小時初評，每3月評值</text>
+  <text x="434" y="188" font-size="14" fill="#57534e">B10 防疫管理：住民每日體溫監測</text>
+  <text x="434" y="208" font-size="14" fill="#57534e">B25 疫苗接種：流感接種名冊與鼓勵策略</text>
+  <rect x="430" y="248" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="262" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">B 三項加強</text>
+
+  <!-- 下排 2×2 y=288 h=162 -->
+  <!-- 卡片3: C區塊 x=40 w=346 -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">C 區塊（4 項）</text>
+  <text x="60" y="352" font-size="14" fill="#57534e">C5 電梯：門寬≥90cm，深≥135cm</text>
+  <text x="60" y="370" font-size="14" fill="#57534e">C6 無障礙浴廁：扶手、輪椅迴轉空間</text>
+  <text x="60" y="388" font-size="14" fill="#57534e">C7 廚房衛生：留存150g冷藏48小時</text>
+  <text x="60" y="406" font-size="14" fill="#57534e">C16 飲用水：每3月大腸桿菌群檢測</text>
+  <rect x="56" y="422" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="436" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">C 四項加強</text>
+
+  <!-- 卡片4: D區塊 x=414 w=346 -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">D 區塊（2 項）</text>
+  <text x="434" y="354" font-size="14" fill="#57534e">D1 個案資料管理：</text>
+  <text x="434" y="374" font-size="14" fill="#57534e">  • 明確存取權限，統計分析上傳衛福部</text>
+  <text x="434" y="394" font-size="14" fill="#57534e">D6 居家情境：床間圍簾，寢室無監視器</text>
+  <rect x="430" y="420" width="70" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="465" y="434" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">D1、D6</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">新任主管交接流程</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">四個關鍵節點確保無縫接軌</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- 流程節點1 -->
+  <rect x="60" y="140" width="140" height="200" rx="14" fill="#d97706"/>
+  <text x="130" y="204" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="130" y="242" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">資格確認</text>
+  <text x="130" y="268" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">勞健保投保</text>
+  <text x="130" y="288" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">資格文件更新</text>
+  <text x="130" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">A7 一級必要</text>
+  <!-- 箭頭 -->
+  <polygon points="215,235 230,245 215,255" fill="#78716c"/>
+  <line x1="200" y1="245" x2="228" y2="245" stroke="#78716c" stroke-width="2"/>
+  <!-- 流程節點2 -->
+  <rect x="240" y="140" width="140" height="200" rx="14" fill="#78716c"/>
+  <text x="310" y="204" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="310" y="242" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">現況盤點</text>
+  <text x="310" y="268" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">前次評鑑報告</text>
+  <text x="310" y="288" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">核心文件地圖</text>
+  <text x="310" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">A4 查核記錄</text>
+  <!-- 箭頭 -->
+  <polygon points="395,235 410,245 395,255" fill="#57534e"/>
+  <line x1="380" y1="245" x2="408" y2="245" stroke="#57534e" stroke-width="2"/>
+  <!-- 流程節點3 -->
+  <rect x="420" y="140" width="140" height="200" rx="14" fill="#57534e"/>
+  <text x="490" y="204" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="490" y="242" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">介入管理</text>
+  <text x="490" y="268" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">品質會議主持</text>
+  <text x="490" y="288" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">人力配置查核</text>
+  <text x="490" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">危機計畫確認</text>
+  <!-- 箭頭 -->
+  <polygon points="575,235 590,245 575,255" fill="#94a3b8"/>
+  <line x1="560" y1="245" x2="588" y2="245" stroke="#94a3b8" stroke-width="2"/>
+  <!-- 流程節點4 -->
+  <rect x="600" y="140" width="140" height="200" rx="14" fill="#94a3b8"/>
+  <text x="670" y="204" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="670" y="242" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">模擬評鑑</text>
+  <text x="670" y="268" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">75 條自查</text>
+  <text x="670" y="288" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">訪談預演</text>
+  <text x="670" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">分工確認完成</text>
+  <!-- 底部說明 -->
+  <text x="400" y="390" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e" text-anchor="middle">交接完成 = 資格文件已到位 + 現況已掌握 + 實際參與已留存</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

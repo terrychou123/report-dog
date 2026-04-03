@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">最後一個月行動：D-30 到評鑑日</text>
+  <text x="40" y="78" font-size="22" fill="#57534e">查漏補缺、模擬查核、最終確認</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 任務 9：契約 D2 -->
+  <rect x="40" y="114" width="340" height="155" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="114" width="340" height="42" rx="10" fill="#d97706"/>
+  <rect x="40" y="136" width="340" height="20" fill="#d97706"/>
+  <text x="210" y="140" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務9：契約審閱確認（D2）</text>
+  <text x="58" y="174" font-size="14" fill="#57534e">提供住民5天以上書面審閱期</text>
+  <text x="58" y="196" font-size="14" fill="#57534e">契約含：服務項目/收費/申訴</text>
+  <text x="58" y="218" font-size="14" fill="#57534e">抽查近半年入住住民契約</text>
+  <text x="58" y="240" font-size="14" fill="#57534e">收據日與簽約日相差5天以上</text>
+  <text x="58" y="258" font-size="14" fill="#d97706" font-weight="600">二級加強項目</text>
+
+  <!-- 任務 10：滿意度 D9 -->
+  <rect x="420" y="114" width="340" height="155" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
+  <rect x="420" y="114" width="340" height="42" rx="10" fill="#78716c"/>
+  <rect x="420" y="136" width="340" height="20" fill="#78716c"/>
+  <text x="590" y="140" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務10：滿意度調查（D9）</text>
+  <text x="438" y="174" font-size="14" fill="#57534e">每年至少1次不具名問卷</text>
+  <text x="438" y="196" font-size="14" fill="#57534e">對象：住民+家屬（匿名）</text>
+  <text x="438" y="218" font-size="14" fill="#57534e">書面分析：滿意度+待改善</text>
+  <text x="438" y="240" font-size="14" fill="#57534e">對應改善措施文件化</text>
+  <text x="438" y="258" font-size="14" fill="#78716c" font-weight="600">留2週完成分析撰寫</text>
+
+  <!-- 任務 11：模擬評鑑 -->
+  <rect x="40" y="284" width="340" height="165" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="40" y="284" width="340" height="42" rx="10" fill="#57534e"/>
+  <rect x="40" y="306" width="340" height="20" fill="#57534e"/>
+  <text x="210" y="310" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務11：模擬查核演練</text>
+  <text x="58" y="344" font-size="14" fill="#57534e">文件查核：隨機指定項目計時</text>
+  <text x="58" y="366" font-size="14" fill="#57534e">人員訪談：護理師/社工/照服員</text>
+  <text x="58" y="388" font-size="14" fill="#57534e">環境觀察：C4緊急呼叫/D4申訴</text>
+  <text x="58" y="410" font-size="14" fill="#57534e">3分鐘內找到任何文件</text>
+  <text x="58" y="432" font-size="14" fill="#d97706" font-weight="600">不只消防演練，訪談也要演練！</text>
+
+  <!-- 任務 12：最終自評 -->
+  <rect x="420" y="284" width="340" height="165" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="420" y="284" width="340" height="42" rx="10" fill="#94a3b8"/>
+  <rect x="420" y="306" width="340" height="20" fill="#94a3b8"/>
+  <text x="590" y="310" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">任務12：最終自評（E1）</text>
+  <text x="438" y="344" font-size="14" fill="#57534e">一級必要9項全部核對達標</text>
+  <text x="438" y="366" font-size="14" fill="#57534e">A7/A9/A11/C4/C9/C10</text>
+  <text x="438" y="388" font-size="14" fill="#57534e">C11/C12/C15</text>
+  <text x="438" y="410" font-size="14" fill="#57534e">二級加強項目文件完整性確認</text>
+  <text x="438" y="432" font-size="14" fill="#57534e">前次評鑑建議改善80%以上</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

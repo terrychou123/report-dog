@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">D6 居家情境 ＆ D1 資料管理</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">二級加強指標 · 隱私保護與數據治理</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 標題列背景 -->
+  <rect x="0" y="29" width="800" height="60" fill="white"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+
+  <!-- 要點 1：D6 圍簾 -->
+  <rect x="28" y="118" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="70" cy="148" r="16" fill="#d97706"/>
+  <text x="70" y="154" font-size="20" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="105" y="142" font-size="14" fill="#1e293b" font-weight="600">D6｜床位間設置圍簾（二級加強）</text>
+  <text x="105" y="162" font-size="14" fill="#57534e">每個床位均可拉上圍簾形成獨立空間，提供住民基本隱私保護</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="144" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">D6 居家</text>
+  <text x="688" y="162" font-size="12" fill="#78716c" text-anchor="middle">二級加強</text>
+
+  <!-- 要點 2：D6 監視器 -->
+  <rect x="28" y="191" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="3" fill="#78716c"/>
+  <circle cx="70" cy="221" r="16" fill="#78716c"/>
+  <text x="70" y="227" font-size="20" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="105" y="215" font-size="14" fill="#1e293b" font-weight="600">D6｜寢室與浴廁禁止設置監視器</text>
+  <text x="105" y="235" font-size="14" fill="#57534e">走廊可設置，但攝影角度不得拍入寢室或浴廁內部，需留存設定紀錄</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="217" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">D6 隱私</text>
+  <text x="688" y="235" font-size="12" fill="#78716c" text-anchor="middle">絕對禁止</text>
+
+  <!-- 要點 3：D6 床頭櫃 -->
+  <rect x="28" y="264" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="3" fill="#57534e"/>
+  <circle cx="70" cy="294" r="16" fill="#57534e"/>
+  <text x="70" y="300" font-size="20" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="105" y="288" font-size="14" fill="#1e293b" font-weight="600">D6｜每位住民有床頭櫃存放個人物品</text>
+  <text x="105" y="308" font-size="14" fill="#57534e">床頭櫃須有可上鎖功能，讓住民有安全存放個人重要物品的空間</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="290" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">D6 物品</text>
+  <text x="688" y="308" font-size="12" fill="#78716c" text-anchor="middle">二級加強</text>
+
+  <!-- 要點 4：D1 資料管理 -->
+  <rect x="28" y="337" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <circle cx="70" cy="367" r="16" fill="#94a3b8"/>
+  <text x="70" y="373" font-size="20" fill="white" text-anchor="middle" font-weight="700">4</text>
+  <text x="105" y="361" font-size="14" fill="#1e293b" font-weight="600">D1｜個案資料明確存取權限＋定期上傳衛福部系統（二級加強）</text>
+  <text x="105" y="381" font-size="14" fill="#57534e">建立資料存取管理規定，記錄誰可查閱個案資料，並定期統計分析上傳</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.18"/>
+  <text x="688" y="363" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">D1 資料</text>
+  <text x="688" y="381" font-size="12" fill="#78716c" text-anchor="middle">二級加強</text>
+
+  <!-- 底部提示 -->
+  <rect x="28" y="415" width="744" height="45" rx="8" fill="#d97706" opacity="0.08"/>
+  <text x="400" y="435" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">二級加強說明</text>
+  <text x="400" y="453" font-size="13" fill="#78716c" text-anchor="middle">D6 和 D1 均為「二級加強」項目，要求比一般指標更細緻，須特別用心備審</text>
+
+  <!-- 水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

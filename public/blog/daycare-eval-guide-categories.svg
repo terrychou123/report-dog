@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">日照評鑑四大面向說明</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">4 大面向，了解評鑑委員的重點關注方向</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 卡片區塊：上排 y=104，h=168；下排 y=288，h=162 -->
+
+  <!-- 卡片 1：個案權益保障（琥珀） -->
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
+  <text x="60" y="134" font-size="24" fill="white" font-weight="700">個案權益保障</text>
+  <text x="60" y="174" font-size="20" fill="#57534e">• 個案隱私權與尊嚴維護</text>
+  <text x="60" y="198" font-size="20" fill="#57534e">• 照顧計畫訂定與執行紀錄</text>
+  <text x="60" y="222" font-size="20" fill="#57534e">• 申訴與投訴處理機制</text>
+  <text x="60" y="246" font-size="20" fill="#57534e">• 家屬參與及溝通聯繫</text>
+
+  <!-- 卡片 2：專業照護品質（暖灰） -->
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
+  <text x="434" y="134" font-size="24" fill="white" font-weight="700">專業照護品質</text>
+  <text x="434" y="174" font-size="20" fill="#57534e">• 護理人員資格與配置比例</text>
+  <text x="434" y="198" font-size="20" fill="#57534e">• 在職訓練時數達標情形</text>
+  <text x="434" y="222" font-size="20" fill="#57534e">• 緊急事件處理標準程序</text>
+  <text x="434" y="246" font-size="20" fill="#57534e">• 感染管控措施落實程度</text>
+
+  <!-- 卡片 3：經營管理效能（深棕） -->
+  <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
+  <text x="60" y="318" font-size="24" fill="white" font-weight="700">經營管理效能</text>
+  <text x="60" y="367" font-size="20" fill="#57534e">• 機構組織架構與職責分工</text>
+  <text x="60" y="391" font-size="20" fill="#57534e">• 品質改善計畫訂定執行</text>
+  <text x="60" y="415" font-size="20" fill="#57534e">• 財務透明度與資訊公開</text>
+
+  <!-- 卡片 4：安全環境設備（淺灰） -->
+  <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
+  <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
+  <text x="434" y="318" font-size="24" fill="white" font-weight="700">安全環境設備</text>
+  <text x="434" y="367" font-size="20" fill="#57534e">• 消防安全設施定期維護</text>
+  <text x="434" y="391" font-size="20" fill="#57534e">• 無障礙空間符合法規</text>
+  <text x="434" y="415" font-size="20" fill="#57534e">• 醫療廢棄物處理合規</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

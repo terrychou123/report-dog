@@ -1,51 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">第 5–6 件事：年度計畫 ＋ 教育訓練制度</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Left: 第5件事 -->
-  <rect x="52" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="82" width="336" height="5" rx="2.5" fill="#d97706"/>
-  <rect x="68" y="98" width="36" height="36" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="86" y="123" font-size="20" font-weight="900" fill="#d97706" text-anchor="middle">5</text>
-  <text x="200" y="118" font-size="15" font-weight="700" fill="#1e293b">訂定年度業務計畫</text>
-  <text x="200" y="136" font-size="12" fill="#57534e">第 23 條</text>
-  <line x1="68" y1="150" x2="372" y2="150" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="172" font-size="13" font-weight="600" fill="#1e293b">計畫必含內容</text>
-  <text x="72" y="194" font-size="12" fill="#57534e">□ 機構短、中、長期目標</text>
-  <text x="72" y="214" font-size="12" fill="#57534e">□ 社區特色與機構願景</text>
-  <text x="72" y="234" font-size="12" fill="#57534e">□ 年底業務成果報告</text>
-  <line x1="68" y1="252" x2="372" y2="252" stroke="#f0ede6" stroke-width="1"/>
-  <text x="72" y="274" font-size="13" font-weight="600" fill="#1e293b">新任主任做法</text>
-  <rect x="68" y="284" width="304" height="32" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="220" y="305" font-size="12" fill="#d97706" text-anchor="middle">上任後 2 個月內補訂「年中版計畫」</text>
-  <text x="72" y="336" font-size="12" fill="#78716c">年底成果報告→達成情況 + 未達成原因</text>
-  <text x="72" y="356" font-size="11" fill="#57534e">評鑑委員看了會留下深刻好印象</text>
+  <!-- Header（y=50, h=76）-->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">年度計畫與教育訓練制度建立</text>
 
-  <!-- Right: 第6件事 -->
-  <rect x="412" y="82" width="336" height="316" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="412" y="82" width="336" height="5" rx="2.5" fill="#78716c"/>
-  <rect x="428" y="98" width="36" height="36" rx="8" fill="#78716c" opacity="0.15"/>
-  <text x="446" y="123" font-size="20" font-weight="900" fill="#78716c" text-anchor="middle">6</text>
-  <text x="568" y="118" font-size="15" font-weight="700" fill="#1e293b">落實教育訓練制度</text>
-  <text x="568" y="136" font-size="12" fill="#57534e">第 29 條</text>
-  <line x1="428" y1="150" x2="732" y2="150" stroke="#f0ede6" stroke-width="1"/>
+  <!-- ===== Row 1（y=160）#d97706 制定年度計畫 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">制定年度服務計畫</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">規劃節日活動、訓練課程、評鑑準備時程，一次統整全年</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">年度規劃</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">全年統整</text>
 
-  <!-- training hours table -->
-  <rect x="428" y="160" width="304" height="30" rx="6" fill="#f8f7f2"/>
-  <text x="438" y="179" font-size="12" fill="#1e293b" font-weight="600">新進人員：職前訓練 16 小時（1個月內）</text>
-  <rect x="428" y="196" width="304" height="30" rx="6" fill="#d97706" opacity="0.08"/>
-  <text x="438" y="215" font-size="12" fill="#d97706">在職人員：每年至少 20 小時</text>
-  <rect x="428" y="232" width="304" height="30" rx="6" fill="#f8f7f2"/>
-  <text x="438" y="251" font-size="12" fill="#1e293b">原住民族文化敏感度：1 小時（必含）</text>
-  <rect x="428" y="268" width="304" height="30" rx="6" fill="#ef4444" opacity="0.07"/>
-  <text x="438" y="287" font-size="12" fill="#dc2626">網路課程上限：5 小時（不可超過）</text>
+  <!-- ===== Row 2（y=235）#78716c 規劃訓練制度 ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">6</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">規劃全年教育訓練日曆</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">建立訓練時程，確保人員依法達到在職訓練時數要求</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">訓練日曆</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">時數達標</text>
 
-  <line x1="428" y1="310" x2="732" y2="310" stroke="#f0ede6" stroke-width="1"/>
-  <text x="428" y="332" font-size="12" fill="#d97706" font-weight="600">建立時數追蹤表</text>
-  <text x="428" y="352" font-size="12" fill="#78716c">每季計算一次 → 不要等到 12 月才補</text>
-  <text x="428" y="372" font-size="11" fill="#57534e">員工知道自己進度 ≠ 無感簽到</text>
+  <!-- ===== Row 3（y=310）#57534e 特殊訓練 ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">+</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">特殊訓練時數要特別注意</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">失智照顧、身障服務等特殊訓練時數，評鑑查核有明確要求</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">特殊訓練</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">額外注意</text>
 
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- ===== Row 4（y=385）#a8a29e 訓練記錄 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">+</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">訓練紀錄完整保存是關鍵</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">每次訓練的簽到表、教材、評核表均需完整歸檔備查</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">訓練記錄</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">完整歸檔</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

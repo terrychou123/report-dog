@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<rect width="800" height="500" fill="#f0efe8"/>
+<text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">AI輔助撰寫使用流程</text>
+<text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">從原始文字到合規文件</text>
+<line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+<line x1="202" y1="279" x2="210" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+<polygon points="210,274 218,279 210,284" fill="#c4bfb8"/>
+<line x1="392" y1="279" x2="400" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+<polygon points="400,274 408,279 400,284" fill="#c4bfb8"/>
+<line x1="582" y1="279" x2="590" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+<polygon points="590,274 598,279 590,284" fill="#c4bfb8"/>
+<rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+<rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+<circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+<text x="115" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+<text x="115" y="211" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+<text x="115" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">上傳原稿</text>
+<text x="115" y="324" text-anchor="middle" font-size="14" fill="#57534e">上傳既有文件</text>
+<text x="115" y="346" text-anchor="middle" font-size="14" fill="#57534e">或貼上草稿</text>
+<rect x="41" y="381" width="148" height="36" rx="18" fill="#fef3c7"/>
+<text x="115" y="405" text-anchor="middle" font-size="15" fill="#d97706" font-weight="600">開始輸入</text>
+<rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+<rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+<circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+<text x="305" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+<text x="305" y="211" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+<text x="305" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">AI生成初稿</text>
+<text x="305" y="324" text-anchor="middle" font-size="14" fill="#57534e">依評鑑基準</text>
+<text x="305" y="346" text-anchor="middle" font-size="14" fill="#57534e">自動生成格式</text>
+<rect x="231" y="381" width="148" height="36" rx="18" fill="#f5f5f4"/>
+<text x="305" y="405" text-anchor="middle" font-size="15" fill="#78716c" font-weight="600">初稿產出</text>
+<rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+<rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+<circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+<text x="495" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+<text x="495" y="211" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+<text x="495" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">人工審閱</text>
+<text x="495" y="324" text-anchor="middle" font-size="14" fill="#57534e">社工師確認</text>
+<text x="495" y="346" text-anchor="middle" font-size="14" fill="#57534e">內容準確性</text>
+<rect x="421" y="381" width="148" height="36" rx="18" fill="#f5f0eb"/>
+<text x="495" y="405" text-anchor="middle" font-size="15" fill="#57534e" font-weight="600">專業把關</text>
+<rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+<rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+<circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+<text x="685" y="183" text-anchor="middle" font-size="17" fill="#a8a29e" font-weight="700">STEP</text>
+<text x="685" y="211" text-anchor="middle" font-size="28" fill="#a8a29e" font-weight="700">04</text>
+<text x="685" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">完成文件</text>
+<text x="685" y="324" text-anchor="middle" font-size="14" fill="#57534e">符合評鑑格式</text>
+<text x="685" y="346" text-anchor="middle" font-size="14" fill="#57534e">直接備審使用</text>
+<rect x="611" y="381" width="148" height="36" rx="18" fill="#f5f5f4"/>
+<text x="685" y="405" text-anchor="middle" font-size="15" fill="#a8a29e" font-weight="600">完成準備</text>
+<text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

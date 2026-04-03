@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">品質自我檢核表（項目27-30）</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#57534e" text-anchor="middle">評鑑前按欄位逐一確認品質管理閉環</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1.5"/>
+
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1.5"/>
+
+  <!-- ===== 左欄 ===== -->
+
+  <!-- 分類：品質改善（項27） -->
+  <rect x="64" y="110" width="4" height="26" rx="2" fill="#d97706"/>
+  <text x="78" y="129" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#d97706">品質改善（項27）</text>
+
+  <!-- 勾選項目 y=147 已建立品質改善計畫 -->
+  <rect x="64" y="147" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,157 L 72,162 L 81,150" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="163" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">已建立品質改善計畫</text>
+
+  <!-- 勾選項目 y=177 缺失問題已記錄在案 -->
+  <rect x="64" y="177" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,187 L 72,192 L 81,180" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="193" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">缺失問題已記錄在案</text>
+
+  <!-- 勾選項目 y=207 改善措施已執行追蹤 -->
+  <rect x="64" y="207" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,217 L 72,222 L 81,210" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="223" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">改善措施已執行追蹤</text>
+
+  <!-- 未勾選項目 y=237 改善結果已書面存查 -->
+  <rect x="64" y="237" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <text x="94" y="253" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">改善結果已書面存查</text>
+
+  <!-- 分類：品質監測（項29） -->
+  <rect x="64" y="272" width="4" height="26" rx="2" fill="#57534e"/>
+  <text x="78" y="275" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#57534e">品質監測（項29）</text>
+
+  <!-- 勾選項目 y=311 定期品質指標監測進行 -->
+  <rect x="64" y="311" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,321 L 72,326 L 81,314" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="327" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">定期品質指標監測進行</text>
+
+  <!-- 勾選項目 y=341 監測數據已整理分析 -->
+  <rect x="64" y="341" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,351 L 72,356 L 81,344" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="357" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">監測數據已整理分析</text>
+
+  <!-- 勾選項目 y=371 異常指標已提出對策 -->
+  <rect x="64" y="371" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 68,381 L 72,386 L 81,374" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="387" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">異常指標已提出對策</text>
+
+  <!-- 未勾選項目 y=401 品質報告完成存查 -->
+  <rect x="64" y="401" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <text x="94" y="417" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">品質報告完成存查</text>
+
+  <!-- ===== 右欄 ===== -->
+
+  <!-- 分類：滿意度調查（項28） -->
+  <rect x="420" y="110" width="4" height="26" rx="2" fill="#78716c"/>
+  <text x="434" y="129" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#78716c">滿意度調查（項28）</text>
+
+  <!-- 勾選項目 y=147 年度滿意度調查完成 -->
+  <rect x="420" y="147" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,157 L 428,162 L 437,150" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="163" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">年度滿意度調查完成</text>
+
+  <!-- 勾選項目 y=177 調查結果已分析報告 -->
+  <rect x="420" y="177" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,187 L 428,192 L 437,180" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="193" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">調查結果已分析報告</text>
+
+  <!-- 勾選項目 y=207 不滿意項目已改善 -->
+  <rect x="420" y="207" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,217 L 428,222 L 437,210" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="223" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">不滿意項目已改善</text>
+
+  <!-- 未勾選項目 y=237 調查報告已存檔備查 -->
+  <rect x="420" y="237" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <text x="450" y="253" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">調查報告已存檔備查</text>
+
+  <!-- 分類：機構自評（項30） -->
+  <rect x="420" y="272" width="4" height="26" rx="2" fill="#a8a29e"/>
+  <text x="434" y="275" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#a8a29e">機構自評（項30）</text>
+
+  <!-- 勾選項目 y=311 自評表格填寫完整 -->
+  <rect x="420" y="311" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,321 L 428,326 L 437,314" fill="none" stroke="#a8a29e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="327" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">自評表格填寫完整</text>
+
+  <!-- 勾選項目 y=341 書面評估報告完成 -->
+  <rect x="420" y="341" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,351 L 428,356 L 437,344" fill="none" stroke="#a8a29e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="357" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">書面評估報告完成</text>
+
+  <!-- 勾選項目 y=371 改善計畫已制定 -->
+  <rect x="420" y="371" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 424,381 L 428,386 L 437,374" fill="none" stroke="#a8a29e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="387" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">改善計畫已制定</text>
+
+  <!-- 未勾選項目 y=401 自評結果已呈報 -->
+  <rect x="420" y="401" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <text x="450" y="417" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#1e293b">自評結果已呈報</text>
+
+  <!-- 底部分隔線與圖例 -->
+  <line x1="40" y1="433" x2="760" y2="433" stroke="#dedad3" stroke-width="1.5"/>
+  <!-- 圖例 已勾選 -->
+  <rect x="40" y="445" width="16" height="16" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <path d="M 44,453 L 48,458 L 57,446" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="459" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">已完成</text>
+  <!-- 圖例 未勾選 -->
+  <rect x="130" y="445" width="16" height="16" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
+  <text x="152" y="459" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">待完成</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

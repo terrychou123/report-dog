@@ -1,86 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Noto Sans TC', sans-serif">
-  <rect width="800" height="450" fill="#f0efe8"/>
-  <text x="400" y="46" font-size="21" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑結束後：黃金 30 天行動總覽</text>
-  <rect x="60" y="58" width="48" height="3" rx="1.5" fill="#d97706"/>
-  <line x1="116" y1="59.5" x2="740" y2="59.5" stroke="#dedad3" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
 
-  <!-- Alert -->
-  <rect x="52" y="78" width="696" height="38" rx="8" fill="#d97706" opacity="0.10"/>
-  <rect x="52" y="78" width="4" height="38" rx="2" fill="#d97706"/>
-  <text x="72" y="101" font-size="13" fill="#92400e">評鑑結束不代表結束，黃金 30 天是展現機構真正管理力的關鍵時刻</text>
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑後黃金 30 天行動時程</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">五個關鍵節點，讓改善不落空</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Timeline: 4 phases -->
-  <!-- Phase 1: 48hr -->
-  <rect x="52" y="134" width="152" height="248" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="52" y="134" width="152" height="5" rx="2.5" fill="#d97706"/>
-  <text x="128" y="160" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">48 小時內</text>
-  <circle cx="128" cy="198" r="26" fill="#d97706" opacity="0.10"/>
-  <text x="128" y="196" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">48</text>
-  <text x="128" y="212" font-size="10" fill="#d97706" text-anchor="middle">小時</text>
-  <line x1="68" y1="234" x2="188" y2="234" stroke="#f0ede6" stroke-width="1"/>
-  <text x="68" y="254" font-size="12" fill="#57534e">▸ 記錄委員反饋</text>
-  <text x="68" y="272" font-size="12" fill="#57534e">▸ 分類缺失等級</text>
-  <text x="68" y="290" font-size="12" fill="#57534e">▸ A類/B類/C類</text>
-  <text x="68" y="308" font-size="12" fill="#57534e">▸ 確認通報義務</text>
-  <rect x="68" y="338" width="116" height="28" rx="6" fill="#d97706" opacity="0.10"/>
-  <text x="126" y="356" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">最緊急</text>
-  <text x="68" y="368" font-size="11" fill="#94a3b8">A類需立即處理</text>
+  <!-- 時間軸 -->
+  <line x1="60" y1="272" x2="736" y2="272" stroke="#a8a29e" stroke-width="4"/>
+  <polygon points="736,265 736,279 752,272" fill="#a8a29e"/>
 
-  <!-- Arrow 1 -->
-  <text x="220" y="260" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- ===== Node 1：第 1-2 天（上方，#d97706，cx=120）===== -->
+  <rect x="60" y="108" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="60" y="108" width="120" height="8" rx="4" fill="#d97706"/>
+  <rect x="60" y="112" width="120" height="4" fill="#d97706"/>
+  <text x="120" y="145" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">第 1–2 天</text>
+  <text x="120" y="167" text-anchor="middle" font-size="16" fill="#57534e">收集意見</text>
+  <text x="120" y="187" text-anchor="middle" font-size="16" fill="#57534e">清點缺失</text>
+  <line x1="120" y1="208" x2="120" y2="248" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="120" cy="272" r="24" fill="#d97706"/>
+  <text x="120" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">1</text>
+  <rect x="86" y="300" width="68" height="22" rx="11" fill="#d97706"/>
+  <text x="120" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">緊急處理</text>
 
-  <!-- Phase 2: Week 1 -->
-  <rect x="236" y="134" width="152" height="248" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="236" y="134" width="152" height="5" rx="2.5" fill="#a8a29e"/>
-  <text x="312" y="160" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">第 1 週</text>
-  <circle cx="312" cy="198" r="26" fill="#a8a29e" opacity="0.12"/>
-  <text x="312" y="196" font-size="20" fill="#78716c" text-anchor="middle" font-weight="700">W1</text>
-  <line x1="252" y1="234" x2="372" y2="234" stroke="#f0ede6" stroke-width="1"/>
-  <text x="252" y="254" font-size="12" fill="#57534e">▸ 召開改善會議</text>
-  <text x="252" y="272" font-size="12" fill="#57534e">▸ 填改善計畫表</text>
-  <text x="252" y="290" font-size="12" fill="#57534e">▸ 分配改善任務</text>
-  <text x="252" y="308" font-size="12" fill="#57534e">▸ 設定完成期限</text>
-  <rect x="252" y="338" width="116" height="28" rx="6" fill="#a8a29e" opacity="0.12"/>
-  <text x="310" y="356" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">組織動員</text>
-  <text x="252" y="368" font-size="11" fill="#94a3b8">全員知悉缺失</text>
+  <!-- ===== Node 2：第 3-7 天（下方，#78716c，cx=254）===== -->
+  <rect x="220" y="222" width="68" height="22" rx="11" fill="#78716c"/>
+  <text x="254" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">計畫啟動</text>
+  <circle cx="254" cy="272" r="24" fill="#78716c"/>
+  <text x="254" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">2</text>
+  <line x1="254" y1="296" x2="254" y2="350" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="194" y="350" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="194" y="442" width="120" height="8" rx="4" fill="#78716c"/>
+  <rect x="194" y="438" width="120" height="4" fill="#78716c"/>
+  <text x="254" y="379" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">第 3–7 天</text>
+  <text x="254" y="401" text-anchor="middle" font-size="16" fill="#57534e">召開會議</text>
+  <text x="254" y="421" text-anchor="middle" font-size="16" fill="#57534e">製作計畫表</text>
 
-  <!-- Arrow 2 -->
-  <text x="404" y="260" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- ===== Node 3：第 2 週（上方，#57534e，cx=388）===== -->
+  <rect x="328" y="108" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="328" y="108" width="120" height="8" rx="4" fill="#57534e"/>
+  <rect x="328" y="112" width="120" height="4" fill="#57534e"/>
+  <text x="388" y="145" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">第 2 週</text>
+  <text x="388" y="167" text-anchor="middle" font-size="16" fill="#57534e">啟動改善</text>
+  <text x="388" y="187" text-anchor="middle" font-size="16" fill="#57534e">分工執行</text>
+  <line x1="388" y1="208" x2="388" y2="248" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="388" cy="272" r="24" fill="#57534e"/>
+  <text x="388" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">3</text>
+  <rect x="354" y="300" width="68" height="22" rx="11" fill="#57534e"/>
+  <text x="388" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">執行改善</text>
 
-  <!-- Phase 3: Week 2-4 -->
-  <rect x="420" y="134" width="152" height="248" rx="12" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="420" y="134" width="152" height="5" rx="2.5" fill="#78716c"/>
-  <text x="496" y="160" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">第 2–4 週</text>
-  <circle cx="496" cy="198" r="26" fill="#78716c" opacity="0.10"/>
-  <text x="496" y="196" font-size="20" fill="#78716c" text-anchor="middle" font-weight="700">W4</text>
-  <line x1="436" y1="234" x2="556" y2="234" stroke="#f0ede6" stroke-width="1"/>
-  <text x="436" y="254" font-size="12" fill="#57534e">▸ 快速改善B/C類</text>
-  <text x="436" y="272" font-size="12" fill="#57534e">▸ 建立基礎文件</text>
-  <text x="436" y="290" font-size="12" fill="#57534e">▸ SOP 修訂更新</text>
-  <text x="436" y="308" font-size="12" fill="#57534e">▸ 持續追蹤進度</text>
-  <rect x="436" y="338" width="116" height="28" rx="6" fill="#78716c" opacity="0.10"/>
-  <text x="494" y="356" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">快速改善</text>
-  <text x="436" y="368" font-size="11" fill="#94a3b8">見效最快的時段</text>
+  <!-- ===== Node 4：第 3 週（下方，#a8a29e，cx=522）===== -->
+  <rect x="488" y="222" width="68" height="22" rx="11" fill="#a8a29e"/>
+  <text x="522" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">追蹤進度</text>
+  <circle cx="522" cy="272" r="24" fill="#a8a29e"/>
+  <text x="522" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">4</text>
+  <line x1="522" y1="296" x2="522" y2="350" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="462" y="350" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="462" y="442" width="120" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="462" y="438" width="120" height="4" fill="#a8a29e"/>
+  <text x="522" y="379" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">第 3 週</text>
+  <text x="522" y="401" text-anchor="middle" font-size="16" fill="#57534e">追蹤進度</text>
+  <text x="522" y="421" text-anchor="middle" font-size="16" fill="#57534e">驗收成效</text>
 
-  <!-- Arrow 3 -->
-  <text x="588" y="260" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+  <!-- ===== Node 5：第 4 週（上方，#94a3b8，cx=656）===== -->
+  <rect x="596" y="108" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="596" y="108" width="120" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="596" y="112" width="120" height="4" fill="#94a3b8"/>
+  <text x="656" y="145" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">第 4 週</text>
+  <text x="656" y="167" text-anchor="middle" font-size="16" fill="#57534e">提交報告</text>
+  <text x="656" y="187" text-anchor="middle" font-size="16" fill="#57534e">備存文件</text>
+  <line x1="656" y1="208" x2="656" y2="248" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="656" cy="272" r="24" fill="#94a3b8"/>
+  <text x="656" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">5</text>
+  <rect x="622" y="300" width="68" height="22" rx="11" fill="#94a3b8"/>
+  <text x="656" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">結案歸檔</text>
 
-  <!-- Phase 4: Day 30 -->
-  <rect x="604" y="134" width="144" height="248" rx="12" fill="#d97706" opacity="0.06"/>
-  <rect x="604" y="134" width="144" height="248" rx="12" fill="none" stroke="#d97706" stroke-width="1.5" opacity="0.4"/>
-  <rect x="604" y="134" width="144" height="5" rx="2.5" fill="#d97706" opacity="0.7"/>
-  <text x="676" y="160" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">第 30 天</text>
-  <circle cx="676" cy="198" r="26" fill="#d97706" opacity="0.12"/>
-  <text x="676" y="196" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700">30</text>
-  <text x="676" y="210" font-size="10" fill="#d97706" text-anchor="middle">天</text>
-  <line x1="620" y1="234" x2="732" y2="234" stroke="#f0ede6" stroke-width="1"/>
-  <text x="620" y="254" font-size="12" fill="#57534e">▸ 確認A類改善</text>
-  <text x="620" y="272" font-size="12" fill="#57534e">▸ 更新所有SOP</text>
-  <text x="620" y="290" font-size="12" fill="#57534e">▸ 完善文件台帳</text>
-  <text x="620" y="308" font-size="12" fill="#57534e">▸ 繳交改善報告</text>
-  <rect x="620" y="338" width="112" height="28" rx="6" fill="#d97706" opacity="0.12"/>
-  <text x="676" y="356" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">完成改善</text>
-  <text x="620" y="368" font-size="11" fill="#94a3b8">呈報主管機關</text>
-
-  <text x="760" y="421" font-size="16" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

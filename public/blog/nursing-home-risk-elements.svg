@@ -1,0 +1,54 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">A6 危機管理計畫 4 大必備要素</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">114年度臺北市評鑑基準要求</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上排左 - 要素1 -->
+  <rect x="40" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="104" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="56" y="138" font-size="34" fill="#d97706" font-weight="700">①</text>
+  <text x="100" y="138" font-size="18" fill="#1e293b" font-weight="700">3 個以上風險項目</text>
+  <text x="60" y="164" font-size="14" fill="#57534e">機構需選擇至少 3 個風險類型</text>
+  <text x="60" y="186" font-size="14" fill="#57534e">訂定危機管理計畫</text>
+  <text x="60" y="208" font-size="14" fill="#57534e">可包含：策略風險、營運風險</text>
+  <text x="60" y="230" font-size="14" fill="#57534e">財務風險、天然災害、意外事件</text>
+  <text x="60" y="258" font-size="13" fill="#d97706" font-weight="600">★ 各風險須有個別計畫書</text>
+
+  <!-- 上排右 - 要素2 -->
+  <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="104" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="436" y="138" font-size="34" fill="#78716c" font-weight="700">②</text>
+  <text x="480" y="138" font-size="18" fill="#1e293b" font-weight="700">明確具體處理程序</text>
+  <text x="440" y="164" font-size="14" fill="#57534e">每個風險計畫必須包含</text>
+  <text x="440" y="186" font-size="14" fill="#57534e">明確的處理步驟和措施</text>
+  <text x="440" y="208" font-size="14" fill="#57534e">責任人員清楚</text>
+  <text x="440" y="230" font-size="14" fill="#57534e">緊急聯絡網路設置</text>
+  <text x="440" y="258" font-size="13" fill="#78716c" font-weight="600">★ 「有辦法但沒程序」是缺失</text>
+
+  <!-- 下排左 - 要素3 -->
+  <rect x="40" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="288" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="56" y="322" font-size="34" fill="#d97706" font-weight="700">③</text>
+  <text x="100" y="322" font-size="18" fill="#1e293b" font-weight="700">事件發生依計畫執行</text>
+  <text x="60" y="348" font-size="14" fill="#57534e">事件發生時，能依計畫確實執行</text>
+  <text x="60" y="370" font-size="14" fill="#57534e">有完整的處理過程紀錄</text>
+  <text x="60" y="392" font-size="14" fill="#57534e">包含事件經過、處置方式</text>
+  <text x="60" y="414" font-size="14" fill="#57534e">結果記錄及後續追蹤</text>
+  <text x="60" y="440" font-size="13" fill="#d97706" font-weight="600">★ 計畫不等於執行，需有佐證</text>
+
+  <!-- 下排右 - 要素4 -->
+  <rect x="420" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="288" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="436" y="322" font-size="34" fill="#78716c" font-weight="700">④</text>
+  <text x="480" y="322" font-size="18" fill="#1e293b" font-weight="700">每半年定期分析</text>
+  <text x="440" y="348" font-size="14" fill="#57534e">每半年對發生事件進行檢討</text>
+  <text x="440" y="370" font-size="14" fill="#57534e">有分析報告、改善措施</text>
+  <text x="440" y="392" font-size="14" fill="#57534e">及追蹤紀錄</text>
+  <text x="440" y="414" font-size="14" fill="#57534e">無事件亦需撰寫分析報告</text>
+  <text x="440" y="440" font-size="13" fill="#78716c" font-weight="600">★ 分析報告須有改善方案</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

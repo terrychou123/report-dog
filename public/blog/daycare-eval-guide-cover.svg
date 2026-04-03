@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字（頂部對齊左側主標題） -->
+  <text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">45</text>
+  <text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">項評鑑基準</text>
+
+  <!-- 右側 2×2 資訊卡片（row1 y=299, row2 y=395, h=86） -->
+  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">43 正式項</text>
+  <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">必備項目</text>
+
+  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">2 加分項</text>
+  <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">卓越表現</text>
+
+  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="918" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">12 週</text>
+  <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">準備時程</text>
+
+  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">Excel</text>
+  <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">免費範本</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="527" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">115 年度臺北市版</text>
+
+  <!-- 左側主內容區 -->
+  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">日照評鑑</text>
+  <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">完整攻略</text>
+
+  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">115 年度 · 43 + 2 項 · 從準備到改善全流程</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">自評清單</text>
+
+  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">文件範本</text>
+
+  <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="454" y="483" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">實務教學</text>
+
+  <!-- 適用對象說明 -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：日照主任 · 社工 · 評鑑準備團隊</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

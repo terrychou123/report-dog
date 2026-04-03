@@ -1,0 +1,50 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">失智照護環境設計要求</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">D6 居家情境（二級加強）及空間要求</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上排左 - D6 居家情境 -->
+  <rect x="40" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="104" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="210" y="140" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">D6 居家情境（二級加強）</text>
+  <text x="60" y="166" font-size="14" fill="#57534e">• 床與床之間具隔離視線之屏障物</text>
+  <text x="60" y="188" font-size="14" fill="#57534e">（如圍簾）—— 保護住民隱私</text>
+  <text x="60" y="210" font-size="14" fill="#57534e">• 監視器不得設置於寢室及浴廁</text>
+  <text x="60" y="232" font-size="14" fill="#57534e">• 床位旁有床頭櫃可放私人物品</text>
+  <text x="60" y="258" font-size="13" fill="#d97706" font-weight="600">★ 二級加強，委員特別查核</text>
+
+  <!-- 上排右 - 活動空間 -->
+  <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="104" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="590" y="140" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">日常活動空間</text>
+  <text x="440" y="166" font-size="14" fill="#57534e">• 每樓層均有活動空間</text>
+  <text x="440" y="188" font-size="14" fill="#57534e">• 每週至少一次清潔並有紀錄</text>
+  <text x="440" y="210" font-size="14" fill="#57534e">• 餐廳動線滿足服務對象需求</text>
+  <text x="440" y="232" font-size="14" fill="#57534e">• 設有足夠交誼設施設備</text>
+  <text x="440" y="258" font-size="13" fill="#78716c" font-weight="600">★ 失智住民需要安全可辨識環境</text>
+
+  <!-- 下排左 - 輔具設備 -->
+  <rect x="40" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="40" y="288" width="340" height="8" rx="4" fill="#d97706"/>
+  <text x="210" y="322" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">輔具與康樂設備</text>
+  <text x="60" y="348" font-size="14" fill="#57534e">• 提供各類適切安全的生活輔具</text>
+  <text x="60" y="370" font-size="14" fill="#57534e">• 有電視、音響等適當康樂設備</text>
+  <text x="60" y="392" font-size="14" fill="#57534e">• 書報類、棋奕類、美勞類設備</text>
+  <text x="60" y="414" font-size="14" fill="#57534e">• 落實使用並有相關紀錄（B28）</text>
+  <text x="60" y="440" font-size="13" fill="#d97706" font-weight="600">★ 「有設備但無使用紀錄」是常見缺失</text>
+
+  <!-- 下排右 - 個人化空間 -->
+  <rect x="420" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <rect x="420" y="288" width="340" height="8" rx="4" fill="#78716c"/>
+  <text x="590" y="322" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">個人化居住空間</text>
+  <text x="440" y="348" font-size="14" fill="#57534e">• 允許攜帶個人物品佈置空間</text>
+  <text x="440" y="370" font-size="14" fill="#57534e">• 尊重個人裝扮（髮型、衣物）</text>
+  <text x="440" y="392" font-size="14" fill="#57534e">• 熟悉物品有助降低失智焦慮</text>
+  <text x="440" y="414" font-size="14" fill="#57534e">• 私人物品保管辦法（D7）</text>
+  <text x="440" y="440" font-size="13" fill="#78716c" font-weight="600">★ 居家情境設計提升住民安全感</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

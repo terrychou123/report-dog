@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">權益類訪談問題</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">委員最常問社工師與服務對象的三類權益問題</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
+  <!-- Q1 -->
+  <rect x="40" y="118" width="720" height="98" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="40" y="118" width="64" height="98" rx="8" fill="#d97706"/>
+  <text x="72" y="173" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">D4</text>
+  <text x="125" y="148" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">Q：住民或家屬如果有申訴，流程是什麼？</text>
+  <text x="125" y="176" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：申訴管道（書面信箱、電話、面談）公告於明顯處，專人處理並回覆申訴者，</text>
+  <text x="125" y="200" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">每年分析申訴案件並有記錄追蹤</text>
+  <!-- Q2 -->
+  <rect x="40" y="232" width="720" height="98" rx="8" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="40" y="232" width="64" height="98" rx="8" fill="#78716c"/>
+  <text x="72" y="287" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">D1</text>
+  <text x="125" y="262" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">Q：住民的個人資料如何保護？系統如何限制權限？</text>
+  <text x="125" y="290" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：系統使用權限設置、個資法遵循、肖像權同意書取得，現場可操作示範，</text>
+  <text x="125" y="314" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">資料統計分析結果作為品質改善依據</text>
+  <!-- Q3 -->
+  <rect x="40" y="346" width="720" height="98" rx="8" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="40" y="346" width="64" height="98" rx="8" fill="#57534e"/>
+  <text x="72" y="401" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">D3</text>
+  <text x="125" y="376" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e">Q：住民可以自由和外界溝通嗎？有哪些限制？</text>
+  <text x="125" y="404" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：D3 條明確保障住民可自由與外界溝通，說明機構如何落實此項權利，</text>
+  <text x="125" y="428" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">若有違規情事說明處理與調整的記錄</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>
