@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大文字（C1+C2） -->
+  <text x="1010" y="195" font-size="106" font-weight="900" fill="#2563eb" text-anchor="middle" opacity="0.85">C1+C2</text>
+  <text x="1010" y="237" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">疏散避難 + 災害應變</text>
+
+  <!-- 右側資訊卡片 -->
+  <rect x="840" y="260" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="296" font-size="22" fill="#2563eb" font-weight="700">每年 2 次</text>
+  <text x="970" y="296" font-size="21" fill="#57534e">消防演練（含嬰兒）</text>
+
+  <rect x="840" y="322" width="320" height="56" rx="10" fill="#2563eb" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="358" font-size="22" fill="#2563eb" font-weight="700">人員分工表</text>
+  <text x="982" y="358" font-size="21" fill="#57534e">書面 SOP 必備</text>
+
+  <rect x="840" y="384" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="420" font-size="22" fill="#d97706" font-weight="700">24–26°C</text>
+  <text x="970" y="420" font-size="21" fill="#57534e">嬰兒室溫度監測</text>
+
+  <rect x="840" y="446" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="482" font-size="22" fill="#78716c" font-weight="700">天災應變計畫</text>
+  <text x="982" y="482" font-size="21" fill="#57534e">颱風 + 地震 + 停電</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="512" width="320" height="52" rx="10" fill="#2563eb" opacity="0.10"/>
+  <text x="1000" y="548" font-size="24" fill="#2563eb" text-anchor="middle" font-weight="700">現場觀察 + 資料查核</text>
+
+  <rect x="840" y="570" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="599" font-size="20" fill="#57534e" text-anchor="middle">含嬰兒疏散工具確認</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="160" font-size="96" font-weight="900" fill="#1e293b">嬰兒疏散</text>
+  <text x="60" y="266" font-size="96" font-weight="900" fill="#2563eb">演練怎麼做？</text>
+
+  <line x1="60" y1="298" x2="780" y2="298" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="344" font-size="34" fill="#57534e" font-weight="400">C1 + C2 · 產後護理之家消防安全評鑑全攻略</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="372" width="188" height="52" rx="10" fill="#2563eb" opacity="0.10"/>
+  <text x="154" y="404" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="600">疏散 SOP</text>
+
+  <rect x="260" y="372" width="188" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="354" y="404" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">演練紀錄</text>
+
+  <rect x="460" y="372" width="188" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="554" y="404" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">溫度管理</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="460" font-size="28" fill="#94a3b8">防火管理人 · 護理主管 · 機構負責人</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="508" font-size="30" fill="#57534e" font-weight="500">嬰兒疏散 SOP 必須有人員分工，不能只是一張流程圖</text>
+  <text x="60" y="546" font-size="26" fill="#a8a29e">演練紀錄 + 溫度記錄，是 C 區通過評鑑的兩大關鍵</text>
+
+  <!-- 浮水印 -->
+  <text x="780" y="592" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

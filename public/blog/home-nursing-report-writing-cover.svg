@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字 -->
+  <text x="1010" y="219" font-size="160" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">4</text>
+  <text x="1010" y="261" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">步驟完整撰寫流程</text>
+
+  <!-- 右側流程步驟 -->
+  <rect x="840" y="279" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="868" y="313" font-size="24" fill="#d97706" font-weight="700">STEP 1</text>
+  <text x="960" y="313" font-size="22" fill="#78716c">資料蒐集</text>
+
+  <rect x="840" y="347" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="868" y="381" font-size="24" fill="#d97706" font-weight="700">STEP 2</text>
+  <text x="960" y="381" font-size="22" fill="#78716c">架構規劃</text>
+
+  <rect x="840" y="415" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="868" y="449" font-size="24" fill="#d97706" font-weight="700">STEP 3</text>
+  <text x="960" y="449" font-size="22" fill="#78716c">初稿撰寫</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="483" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="519" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">AI 協助省時 60%</text>
+
+  <rect x="840" y="547" width="320" height="52" rx="10" fill="#78716c" opacity="0.10"/>
+  <text x="1000" y="583" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">A5 品質指標報告為範例</text>
+
+  <!-- 左側主內容區 -->
+  <text x="60" y="200" font-size="110" font-weight="900" fill="#1e293b">評鑑報告撰寫</text>
+  <text x="60" y="338" font-size="110" font-weight="900" fill="#d97706">實戰完整指南</text>
+
+  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="416" font-size="36" fill="#57534e" font-weight="400">從資料蒐集到完稿 · 附 AI 輔助技巧</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">報告撰寫</text>
+
+  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">AI 輔助</text>
+
+  <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="454" y="483" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">A5 基準</text>
+
+  <rect x="540" y="450" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
+  <text x="614" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">115 年度</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：居家護理所負責人 · 護理長 · 護理師</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

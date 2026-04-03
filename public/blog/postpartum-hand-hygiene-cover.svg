@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大數字 80% -->
+  <text x="1010" y="200" font-size="116" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.88">80%</text>
+  <text x="1010" y="242" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">流感疫苗接種率門檻</text>
+
+  <!-- 右側資訊卡片 -->
+  <rect x="840" y="264" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="300" font-size="22" fill="#d97706" font-weight="700">手部衛生 5 時機</text>
+  <text x="1060" y="300" font-size="21" fill="#57534e">WHO 標準</text>
+
+  <rect x="840" y="326" width="320" height="56" rx="10" fill="#d97706" opacity="0.12" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="362" font-size="22" fill="#d97706" font-weight="700">每季稽核</text>
+  <text x="958" y="362" font-size="21" fill="#57534e">遵從率統計記錄</text>
+
+  <rect x="840" y="388" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="424" font-size="22" fill="#16a34a" font-weight="700">嬰兒床消毒</text>
+  <text x="968" y="424" font-size="21" fill="#57534e">每次出院後記錄</text>
+
+  <rect x="840" y="450" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="486" font-size="22" fill="#78716c" font-weight="700">訪客管理</text>
+  <text x="950" y="486" font-size="21" fill="#57534e">進入嬰兒室規範</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="515" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="551" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">A2.1 感染管制</text>
+
+  <rect x="840" y="575" width="320" height="40" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="601" font-size="18" fill="#57534e" text-anchor="middle">不知情稽核更具代表性</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="162" font-size="88" font-weight="900" fill="#1e293b">手部衛生</text>
+  <text x="60" y="260" font-size="88" font-weight="900" fill="#d97706">稽核怎麼做？</text>
+
+  <line x1="60" y1="292" x2="780" y2="292" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="338" font-size="33" fill="#57534e" font-weight="400">A2.1 · 流感疫苗接種率 80% 達標實戰教學</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="366" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="149" y="398" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">稽核方法</text>
+
+  <rect x="250" y="366" width="178" height="52" rx="10" fill="#16a34a" opacity="0.10"/>
+  <text x="339" y="398" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">疫苗統計</text>
+
+  <rect x="440" y="366" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="529" y="398" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">環境清潔</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="452" font-size="28" fill="#94a3b8">感控負責人 · 護理主管 · 機構負責人</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="500" font-size="30" fill="#57534e" font-weight="500">流感疫苗接種率未滿 80%，A2.1 直接扣分</text>
+  <text x="60" y="538" font-size="26" fill="#a8a29e">手部衛生稽核要不知情觀察，才有真實代表性</text>
+
+  <!-- 浮水印 -->
+  <text x="780" y="585" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

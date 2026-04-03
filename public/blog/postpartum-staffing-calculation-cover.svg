@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大文字（1.4× 配置） -->
+  <text x="1010" y="210" font-size="138" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.88">1.4×</text>
+  <text x="1010" y="252" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">法定最低人力配置係數</text>
+
+  <!-- 右側 2×2 資訊卡片 -->
+  <rect x="840" y="274" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="918" y="311" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">NRP</text>
+  <text x="918" y="342" font-size="21" fill="#a8a29e" text-anchor="middle">每 2 年複訓</text>
+
+  <rect x="1005" y="274" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1083" y="311" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">BLS</text>
+  <text x="1083" y="342" font-size="21" fill="#a8a29e" text-anchor="middle">每 2 年複訓</text>
+
+  <rect x="840" y="370" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="918" y="407" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">母乳訓練</text>
+  <text x="918" y="438" font-size="21" fill="#a8a29e" text-anchor="middle">每年 8 小時</text>
+
+  <rect x="1005" y="370" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1083" y="407" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">外部研習</text>
+  <text x="1083" y="438" font-size="21" fill="#a8a29e" text-anchor="middle">每年 8 小時</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="466" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="502" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">A1.1 × A1.2 雙重備文</text>
+
+  <rect x="840" y="528" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="564" font-size="22" fill="#57534e" text-anchor="middle">含效期追蹤 + 計算範例</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="178" font-size="96" font-weight="900" fill="#1e293b">護產人員配置</text>
+  <text x="60" y="284" font-size="96" font-weight="900" fill="#d97706">怎麼計算？</text>
+
+  <line x1="60" y1="316" x2="780" y2="316" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="362" font-size="36" fill="#57534e" font-weight="400">A1.1 + A1.2 · NRP/BLS 效期管理攻略</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="390" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="149" y="422" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">1.4 倍公式</text>
+
+  <rect x="250" y="390" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="339" y="422" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">證照追蹤</text>
+
+  <rect x="440" y="390" width="178" height="52" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="529" y="422" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">排班備查</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="472" font-size="28" fill="#94a3b8">機構負責人 · 護理主管 · 行政人員</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="520" font-size="30" fill="#57534e" font-weight="500">床數 ÷ 5 × 1.4 = 所需護產人員總數</text>
+  <text x="60" y="556" font-size="26" fill="#a8a29e">評鑑前三個月盤點效期，不再臨時補救</text>
+
+  <!-- 浮水印 -->
+  <text x="780" y="600" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

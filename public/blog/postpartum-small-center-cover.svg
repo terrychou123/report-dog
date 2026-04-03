@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大數字 30床 -->
+  <text x="1010" y="190" font-size="106" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.88">30床</text>
+  <text x="1010" y="232" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">小型機構評鑑挑戰</text>
+
+  <!-- 右側痛點卡片 -->
+  <rect x="840" y="256" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="280" font-size="18" fill="#a8a29e" font-weight="500">痛點 1</text>
+  <text x="858" y="304" font-size="22" fill="#d97706" font-weight="700">1.4 倍人力計算疏漏</text>
+
+  <rect x="840" y="318" width="320" height="56" rx="10" fill="#d97706" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="342" font-size="18" fill="#a8a29e" font-weight="500">痛點 2</text>
+  <text x="858" y="366" font-size="22" fill="#d97706" font-weight="700">品質指標樣本數不足</text>
+
+  <rect x="840" y="380" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="404" font-size="18" fill="#a8a29e" font-weight="500">痛點 3</text>
+  <text x="858" y="428" font-size="22" fill="#d97706" font-weight="700">兼任多職記錄混亂</text>
+
+  <!-- 右側解法 -->
+  <rect x="840" y="446" width="320" height="56" rx="10" fill="#16a34a" opacity="0.10"/>
+  <text x="1000" y="482" font-size="24" fill="#16a34a" text-anchor="middle" font-weight="700">6 週行動計畫</text>
+
+  <rect x="840" y="510" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="542" font-size="22" fill="#57534e" text-anchor="middle">AI 輔助 × 模板化記錄</text>
+
+  <rect x="840" y="569" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="598" font-size="20" fill="#57534e" text-anchor="middle">小團隊也能拿優等</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="162" font-size="88" font-weight="900" fill="#1e293b">小型月子中心</text>
+  <text x="60" y="260" font-size="88" font-weight="900" fill="#d97706">評鑑生存指南</text>
+
+  <line x1="60" y1="292" x2="780" y2="292" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="338" font-size="33" fill="#57534e" font-weight="400">30 床以下 · 資源有限也能拿優等</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="366" width="188" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="154" y="398" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">人力計算</text>
+
+  <rect x="260" y="366" width="188" height="52" rx="10" fill="#16a34a" opacity="0.10"/>
+  <text x="354" y="398" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">精簡策略</text>
+
+  <rect x="460" y="366" width="188" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="554" y="398" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">AI 輔助</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="452" font-size="28" fill="#94a3b8">小型機構負責人 · 護理主管 · 兼任負責人</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="500" font-size="30" fill="#57534e" font-weight="500">評鑑標準不分大小機構，但準備策略可以精簡</text>
+  <text x="60" y="538" font-size="26" fill="#a8a29e">3 個常見缺失 + 6 週行動計畫，系統化備審</text>
+
+  <!-- 浮水印 -->
+  <text x="780" y="585" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 49 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 69 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -69,13 +69,62 @@ const POST_FILES = [
   "article-47-nursing-home-digital-transform.json",
   "article-48-nursing-home-grade-strategy.json",
   "article-49-nursing-home-continuous-improvement.json",
+  // 居家護理所系列（第一波 3 篇）
+  "article-50-home-nursing-eval-prep-guide.json",
+  "article-51-home-nursing-eval-common-mistakes.json",
+  "article-52-home-nursing-self-eval-excel-guide.json",
+  // 居家護理所系列（第二波 3 篇）
+  "article-53-home-nursing-eval-report-writing.json",
+  "article-54-home-nursing-quality-indicators.json",
+  "article-55-home-nursing-paperwork-burden.json",
+  // 居家護理所系列（第三波 3 篇）
+  "article-56-home-nursing-infection-control.json",
+  "article-57-home-nursing-care-plan-writing.json",
+  "article-58-home-nursing-small-team-survival.json",
+  // 居家護理所系列（第四波 4 篇）
+  "article-59-home-nursing-top-rated-traits.json",
+  "article-60-home-nursing-90day-countdown.json",
+  "article-61-home-nursing-visit-safety.json",
+  "article-62-home-nursing-emergency-handling.json",
+  // 居家護理所系列（第五波 7 篇）
+  "article-63-home-nursing-digital-transform.json",
+  "article-64-home-nursing-community-resources.json",
+  "article-65-home-nursing-pdca-writing.json",
+  "article-66-home-nursing-bonus-items.json",
+  "article-67-home-nursing-eval-comparison.json",
+  "article-68-home-nursing-cross-discipline.json",
+  "article-69-home-nursing-ai-efficiency.json",
+  // 產後護理之家系列（第一波）
+  "article-70-postpartum-eval-prep-guide.json",
+  "article-71-postpartum-eval-common-mistakes.json",
+  "article-72-postpartum-nursing-records-burden.json",
+  "article-73-postpartum-quality-indicators.json",
+  "article-74-postpartum-infection-control.json",
+  // 產後護理之家系列（第二波）
+  "article-75-postpartum-breastfeeding-plan.json",
+  "article-76-postpartum-accident-sop.json",
+  // 產後護理之家系列（第三波）
+  "article-77-postpartum-staffing-calculation.json",
+  "article-78-postpartum-depression-epds.json",
+  // 產後護理之家系列（第四波）
+  "article-79-postpartum-discharge-assessment.json",
+  "article-80-postpartum-fire-evacuation.json",
+  "article-81-postpartum-jaundice-weight.json",
+  "article-82-postpartum-group-education.json",
+  "article-83-postpartum-emergency-sop.json",
+  "article-84-postpartum-hand-hygiene.json",
+  "article-85-postpartum-self-evaluation.json",
+  "article-86-postpartum-small-center.json",
+  "article-87-postpartum-rooming-in.json",
+  "article-88-postpartum-d1-bonus.json",
+  "article-89-postpartum-pdca.json",
 ];
 
 async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
   try {
-    console.log("📝 開始匯入部落格文章（日照中心 17 篇 + 居家照顧 7 篇 + 住宿型機構 25 篇，共 49 篇）...\n");
+    console.log("📝 開始匯入部落格文章（日照中心 17 篇 + 居家照顧 7 篇 + 住宿型機構 25 篇 + 居家護理所 20 篇 + 產後護理之家 20 篇，共 89 篇）...\n");
 
     for (const filename of POST_FILES) {
       const filePath = join(process.cwd(), "scripts/blog-posts", filename);

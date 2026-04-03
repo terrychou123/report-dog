@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大文字 B1.6 -->
+  <text x="1010" y="195" font-size="120" font-weight="900" fill="#16a34a" text-anchor="middle" opacity="0.85">B1.6</text>
+  <text x="1010" y="237" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">緊急狀況處理</text>
+
+  <!-- 右側資訊卡片 -->
+  <rect x="840" y="260" width="320" height="54" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="295" font-size="21" fill="#dc2626" font-weight="700">產婦緊急 SOP</text>
+  <text x="980" y="295" font-size="20" fill="#57534e">大出血・休克・癲癇</text>
+
+  <rect x="840" y="320" width="320" height="54" rx="10" fill="#dc2626" opacity="0.08" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="355" font-size="21" fill="#dc2626" font-weight="700">嬰兒緊急 SOP</text>
+  <text x="980" y="355" font-size="20" fill="#57534e">呼吸窘迫・NRP</text>
+
+  <rect x="840" y="380" width="320" height="54" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="415" font-size="21" fill="#d97706" font-weight="700">急救演練記錄</text>
+  <text x="980" y="415" font-size="20" fill="#57534e">每年至少 1–2 次</text>
+
+  <rect x="840" y="440" width="320" height="54" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="475" font-size="21" fill="#78716c" font-weight="700">醫療合作協議</text>
+  <text x="980" y="475" font-size="20" fill="#57534e">每年更新確認</text>
+
+  <!-- 右側 SOP 格式提示 -->
+  <rect x="840" y="503" width="320" height="56" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="529" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">識別→處置→通報→記錄</text>
+  <text x="1000" y="551" font-size="18" fill="#78716c" text-anchor="middle">SOP 標準格式</text>
+
+  <rect x="840" y="566" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="595" font-size="20" fill="#57534e" text-anchor="middle">含緊急聯絡電話張貼</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="158" font-size="88" font-weight="900" fill="#1e293b">母嬰急救</text>
+  <text x="60" y="256" font-size="88" font-weight="900" fill="#dc2626">SOP 與醫療合作</text>
+
+  <line x1="60" y1="288" x2="780" y2="288" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="334" font-size="32" fill="#57534e" font-weight="400">B1.6 · 緊急應變文件準備清單</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="362" width="178" height="52" rx="10" fill="#dc2626" opacity="0.10"/>
+  <text x="149" y="394" font-size="26" fill="#dc2626" text-anchor="middle" font-weight="600">緊急 SOP</text>
+
+  <rect x="250" y="362" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="339" y="394" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">演練紀錄</text>
+
+  <rect x="440" y="362" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="529" y="394" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">醫療合作</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="452" font-size="28" fill="#94a3b8">護產人員 · 護理主管 · 機構負責人</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="500" font-size="30" fill="#57534e" font-weight="500">口頭說好不算，醫療合作協議要有書面簽名</text>
+  <text x="60" y="538" font-size="26" fill="#a8a29e">SOP 加演練紀錄，才是評鑑委員信任的緊急應變</text>
+
+  <!-- 浮水印 -->
+  <text x="780" y="585" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

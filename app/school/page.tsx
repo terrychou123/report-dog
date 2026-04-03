@@ -45,7 +45,7 @@ const courses = [
     href: "/school/daycare",
     icon: SunIcon,
     title: "日間照顧機構評鑑基準",
-    desc: "113 年度臺北市政府社會局日間照顧機構評鑑基準，共 43 項目、4 大區塊完整解說。",
+    desc: "115 年度臺北市政府社會局日間照顧機構評鑑基準，共 43 項目、4 大區塊完整解說。",
     count: "43 項評鑑基準",
     available: true,
   },

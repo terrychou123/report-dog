@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側 PDCA 四象限 -->
+  <text x="1010" y="180" font-size="80" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">PDCA</text>
+  <text x="1010" y="222" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">持續改善循環</text>
+
+  <rect x="840" y="242" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="917" y="279" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
+  <text x="917" y="306" font-size="22" fill="#78716c" text-anchor="middle">計畫目標</text>
+
+  <rect x="1006" y="242" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1083" y="279" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">D</text>
+  <text x="1083" y="306" font-size="22" fill="#78716c" text-anchor="middle">執行 SOP</text>
+
+  <rect x="840" y="340" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="917" y="377" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">C</text>
+  <text x="917" y="404" font-size="22" fill="#78716c" text-anchor="middle">季報查核</text>
+
+  <rect x="1006" y="340" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1083" y="377" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
+  <text x="1083" y="404" font-size="22" fill="#78716c" text-anchor="middle">改善追蹤</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="440" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="476" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">照護計畫 × 品質指標</text>
+
+  <rect x="840" y="504" width="320" height="52" rx="10" fill="#78716c" opacity="0.10"/>
+  <text x="1000" y="540" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">讓委員看到真實循環</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+
+  <!-- 左側主內容區 -->
+  <text x="60" y="190" font-size="100" font-weight="900" fill="#1e293b">照護計畫</text>
+  <text x="60" y="318" font-size="100" font-weight="900" fill="#d97706">PDCA 撰寫指引</text>
+
+  <line x1="60" y1="348" x2="780" y2="348" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="400" font-size="36" fill="#57534e" font-weight="400">從照護計畫到品質指標的 PDCA 實踐</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="434" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="467" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">PDCA 循環</text>
+
+  <rect x="220" y="434" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="467" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">品質管理</text>
+
+  <rect x="380" y="434" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="454" y="467" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">A5/B2 基準</text>
+
+  <rect x="540" y="434" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
+  <text x="614" y="467" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">115 年度</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="540" font-size="28" fill="#94a3b8">適用對象：居家護理所負責人 · 護理長 · 品管人員</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字（5 招） -->
+  <text x="1010" y="235" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">5</text>
+  <text x="1010" y="277" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">招文書效率技巧</text>
+
+  <!-- 右側效率指標卡片 -->
+  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">省 50%</text>
+  <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">文書時間</text>
+
+  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">B1.1–B1.8</text>
+  <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">評鑑對應</text>
+
+  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="918" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">入住流程</text>
+  <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">30 分鐘完成</text>
+
+  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1083" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">115 年度</text>
+  <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">最新基準</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="527" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">表格設計 · 流程優化 · AI 輔助</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="182" font-size="102" font-weight="900" fill="#1e293b">月子中心護理</text>
+  <text x="60" y="300" font-size="102" font-weight="900" fill="#1e293b">記錄寫不完？</text>
+  <text x="60" y="400" font-size="94" font-weight="900" fill="#d97706">5 招省一半時間</text>
+
+  <line x1="60" y1="428" x2="780" y2="428" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="476" font-size="34" fill="#57534e" font-weight="400">對應 B1 專業服務 8 項 · 系統設計優於個人勤奮</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="502" width="168" height="50" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="144" y="533" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">入住流程包</text>
+
+  <rect x="240" y="502" width="168" height="50" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="324" y="533" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">出院整合表</text>
+
+  <rect x="420" y="502" width="168" height="50" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="504" y="533" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">哺乳指標化</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="580" font-size="26" fill="#94a3b8">適用對象：產後護理之家護理師 · 護理主管 · 機構負責人</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="616" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
