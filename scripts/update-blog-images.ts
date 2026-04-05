@@ -42,15 +42,15 @@ async function main() {
     await Promise.all(
       POST_FILES.map(async (filename) => {
         const filePath = join(process.cwd(), "scripts/blog-posts", filename);
-        const raw = readFileSync(filePath, "utf-8");
-        const data = JSON.parse(raw);
-
-        if (!data.slug) {
-          console.error(`❌ 缺少 slug：${filename}`);
-          return;
-        }
-
         try {
+          const raw = readFileSync(filePath, "utf-8");
+          const data = JSON.parse(raw);
+
+          if (!data.slug) {
+            console.error(`❌ 缺少 slug：${filename}`);
+            return;
+          }
+
           const [updated] = await db
             .update(blogPosts)
             .set({

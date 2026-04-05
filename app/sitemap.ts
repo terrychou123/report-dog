@@ -157,7 +157,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/youth-care/environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/innovation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/professional", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/youth-care/rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care/finance", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     // 托嬰中心
     { url: "https://reportwang.com/infant-daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },

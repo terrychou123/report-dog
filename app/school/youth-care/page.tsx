@@ -7,29 +7,29 @@ import {
   SettingsIcon,
   BuildingIcon,
   HeartPulseIcon,
-  ShieldCheckIcon,
+  FileTextIcon,
   StarIcon,
   ArrowRightIcon,
   DownloadIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "兒少教養機構評鑑基準總覽｜111年度聯合評鑑完整說明",
+  title: "兒少安置機構評鑑基準總覽｜112年度評鑑完整說明",
   description:
-    "111年度兒童及少年安置及教養機構聯合評鑑指標完整說明，共28項目、5大區塊：行政組織與經營管理、建築物環境與設施設備、專業服務、權益保障及服務創新。幫助機構社工、生輔人員、行政主管快速掌握評鑑重點。",
+    "112年度兒童及少年安置機構評鑑指標完整說明，共35項目、5大區塊：行政組織與經營管理（10分）、建築物環境及設施設備（10分）、專業服務（60分）、財務管理（20分）及特殊事項或措施（±10分）。幫助機構社工、生輔人員、行政主管快速掌握評鑑重點。",
   keywords: [
-    "兒少教養機構評鑑",
-    "兒童及少年安置教養機構",
-    "111年度聯合評鑑",
+    "兒少安置機構評鑑",
+    "兒童及少年安置機構",
+    "112年度評鑑",
     "兒童及少年福利機構評鑑",
     "安置機構評鑑基準",
     "兒少評鑑準備",
-    "教養機構評鑑指標",
+    "安置機構評鑑指標",
   ],
   alternates: { canonical: "https://reportwang.com/school/youth-care" },
   openGraph: {
-    title: "兒少教養機構評鑑基準總覽｜評鑑小教室｜報告汪",
-    description: "28項兒少教養機構評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "兒少安置機構評鑑基準總覽｜評鑑小教室｜報告汪",
+    description: "112年度兒少安置機構評鑑基準完整解說，掌握5大區塊評鑑重點，提升評鑑通過率。",
     url: "https://reportwang.com/school/youth-care",
   },
 };
@@ -40,16 +40,16 @@ const sectionMeta = [
     icon: SettingsIcon,
     name: "壹、行政組織與經營管理",
     shortCode: "管",
-    itemRange: "項目 1–10",
+    itemRange: "項目 1–6・10分",
     bgClass: "bg-orange-500/10",
     textClass: "text-orange-600 dark:text-orange-400",
   },
   {
     href: "/school/youth-care/environment",
     icon: BuildingIcon,
-    name: "貳、建築物環境與設施設備",
+    name: "貳、建築物環境及設施設備",
     shortCode: "環",
-    itemRange: "項目 11–15",
+    itemRange: "項目 7–14・10分",
     bgClass: "bg-teal-500/10",
     textClass: "text-teal-600 dark:text-teal-400",
   },
@@ -58,25 +58,25 @@ const sectionMeta = [
     icon: HeartPulseIcon,
     name: "參、專業服務",
     shortCode: "專",
-    itemRange: "項目 16–22",
+    itemRange: "項目 15–28・60分",
     bgClass: "bg-blue-500/10",
     textClass: "text-blue-600 dark:text-blue-400",
   },
   {
-    href: "/school/youth-care/rights",
-    icon: ShieldCheckIcon,
-    name: "肆、權益保障",
-    shortCode: "權",
-    itemRange: "項目 23–27",
+    href: "/school/youth-care/finance",
+    icon: FileTextIcon,
+    name: "肆、財務管理",
+    shortCode: "財",
+    itemRange: "項目 29・20分",
     bgClass: "bg-green-500/10",
     textClass: "text-green-600 dark:text-green-400",
   },
   {
     href: "/school/youth-care/innovation",
     icon: StarIcon,
-    name: "伍、服務創新（加分題）",
-    shortCode: "創",
-    itemRange: "項目 28",
+    name: "伍、特殊事項或措施（含創新服務方案）",
+    shortCode: "特",
+    itemRange: "項目 30–35・±10分",
     bgClass: "bg-purple-500/10",
     textClass: "text-purple-600 dark:text-purple-400",
   },
@@ -84,9 +84,9 @@ const sectionMeta = [
 
 const jsonLd = educationalContentJsonLd({
   type: "Course",
-  name: "兒少教養機構評鑑基準",
+  name: "兒少安置機構評鑑基準",
   description:
-    "111年度兒童及少年安置及教養機構聯合評鑑指標，共28項目、5大區塊完整解說。",
+    "112年度兒童及少年安置機構評鑑指標，共35項目、5大區塊完整解說。",
   path: "/school/youth-care",
   hasPart: sectionMeta.map((s) => ({
     name: s.name,
@@ -104,10 +104,29 @@ export default function YouthCareSchoolPage() {
       />
 
       <div className="prose prose-sm dark:prose-invert max-w-none mb-8">
-        <h1 className="text-2xl font-bold mb-2">兒少教養機構評鑑基準</h1>
+        <h1 className="text-2xl font-bold mb-2">兒少安置機構評鑑基準</h1>
         <p className="text-muted-foreground">
-          111年度兒童及少年安置及教養機構聯合評鑑指標，共 28 項目、5 大區塊。涵蓋行政組織管理、建築物環境、專業服務、權益保障及服務創新加分題，幫助機構人員系統性準備評鑑。
+          112年度兒童及少年安置機構評鑑指標，共 35 項目、5 大區塊。專業服務配分最重（60分），另含財務管理（20分）及特殊事項加減分（±10分），幫助機構人員系統性準備評鑑。
         </p>
+      </div>
+
+      {/* 配分總覽 */}
+      <div className="mb-8 rounded-xl border bg-muted/20 p-4">
+        <p className="text-xs font-semibold text-muted-foreground mb-3">各區塊配分</p>
+        <div className="grid grid-cols-5 gap-2 text-center">
+          {[
+            { label: "壹 行政管理", score: "10分", color: "text-orange-600 dark:text-orange-400" },
+            { label: "貳 環境設備", score: "10分", color: "text-teal-600 dark:text-teal-400" },
+            { label: "參 專業服務", score: "60分", color: "text-blue-600 dark:text-blue-400" },
+            { label: "肆 財務管理", score: "20分", color: "text-green-600 dark:text-green-400" },
+            { label: "伍 特殊事項", score: "±10分", color: "text-purple-600 dark:text-purple-400" },
+          ].map((item) => (
+            <div key={item.label} className="rounded-lg bg-card border p-2.5">
+              <div className={`text-base font-bold ${item.color}`}>{item.score}</div>
+              <div className="text-xs text-muted-foreground mt-0.5 leading-tight">{item.label}</div>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Section cards */}
@@ -168,8 +187,9 @@ export default function YouthCareSchoolPage() {
       {/* Full item list */}
       <div className="mt-10 space-y-6">
         <h2 className="text-lg font-semibold">所有評鑑項目</h2>
-        {youthCareProfile.sections.map((section, sIdx) => {
-          const meta = sectionMeta[sIdx];
+        {youthCareProfile.sections.map((section) => {
+          const meta = sectionMeta.find((m) => m.shortCode === section.shortCode);
+          if (!meta) return null;
           return (
             <div key={section.name}>
               <div className="flex items-center gap-2 mb-3">
@@ -207,9 +227,9 @@ export default function YouthCareSchoolPage() {
             <DownloadIcon className="h-6 w-6 text-primary" />
           </div>
           <div className="flex-1">
-            <h2 className="text-base font-semibold mb-1">一鍵匯入兒少教養機構評鑑範本</h2>
+            <h2 className="text-base font-semibold mb-1">一鍵匯入兒少安置機構評鑑範本</h2>
             <p className="text-sm text-muted-foreground">
-              學完評鑑基準後，到報告汪一鍵匯入兒少教養機構的標籤與報告範本（28個評鑑項目，含安置計畫、處遇紀錄、督導記錄等），AI 協助填寫內容，省去手動建立的時間。
+              學完評鑑基準後，到報告汪一鍵匯入兒少安置機構的標籤與報告範本（含個案輔導目標、服務品質、資源結合等評鑑項目），AI 協助填寫內容，省去手動建立的時間。
             </p>
           </div>
         </div>

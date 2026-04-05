@@ -5,65 +5,66 @@ import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { AgeQualityTabs } from "./_age-quality-tabs";
 
 export const metadata: Metadata = {
-  title: "專業服務（項目 16–22）｜兒少教養機構評鑑",
+  title: "專業服務（項目 15–28）｜兒少安置機構評鑑",
   description:
-    "111年度兒少教養機構聯合評鑑：參、專業服務，共7項基準（44分），包含進住機構協助、安置期間生活輔導、家庭重聚、結束安置輔導、資源結合、團體活動及專業支持等完整評鑑說明。",
+    "112年度兒少安置機構評鑑：參、專業服務（60分），共14項基準，包含個案紀錄（1分）、輔導目標（15分）、專業服務品質（32分，含2歲以下及2歲以上兩版本）、權益保障（2分）、資源結合（6分）、專業訓練（4分）完整評鑑說明。",
   keywords: [
-    "兒少教養機構評鑑",
+    "兒少安置機構評鑑",
     "安置機構專業服務評鑑",
-    "111年度聯合評鑑",
-    "兒少安置計畫評鑑",
+    "112年度評鑑",
+    "兒少輔導目標評鑑",
     "安置期間生活輔導評鑑",
-    "兒少教養機構社工評鑑",
-    "結束安置準備輔導",
+    "兒少安置機構社工評鑑",
+    "資源結合運用評鑑",
   ],
   alternates: { canonical: "https://reportwang.com/school/youth-care/professional" },
   openGraph: {
-    title: "專業服務（項目 16–22）｜兒少教養機構評鑑｜報告汪",
-    description: "兒少教養機構評鑑參、專業服務7項基準完整解說，涵蓋安置計畫、生活輔導、家庭重聚、結束安置等核心社工服務評鑑要點。",
+    title: "專業服務（項目 15–28）｜兒少安置機構評鑑｜報告汪",
+    description: "兒少安置機構評鑑參、專業服務14項基準完整解說，涵蓋個案紀錄、輔導目標、服務品質（含2歲以下/以上雙版本）、資源結合等核心服務評鑑要點。",
     url: "https://reportwang.com/school/youth-care/professional",
   },
 };
 
 const section = youthCareProfile.sections[2];
 
+const generalItems = section.items.filter((item) => !("ageGroup" in item && item.ageGroup));
+const caseRecordItem = generalItems.find((item) => item.id === 15);
+const guidanceItem = generalItems.find((item) => item.id === 16);
+
 const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
+  15: {
+    content: "個案紀錄及交班紀錄由主管機關依輔導查核表-專業服務第一至二項目評分。確保個案紀錄完整性及交班紀錄的規範性，養成每班確實記錄的習慣，並保存查核相關紀錄。",
+    variant: "info",
+  },
   16: {
-    content: "安置照顧計畫需在「安置1個月內」完成，這是評鑑委員最常查核的時間點。計畫需依兒少的年齡、族群特性和文化背景個別化擬定，且需有與重要關係人（父母、主責社工、教師）共同討論的書面記錄。",
+    content: "輔導目標達成是本區塊配分最高的單項（15分），且為主動評估性指標。評鑑委員透過審閱文件及訪談評分，關鍵是：(1)每位個案需有明確的年度輔導服務目標；(2)需定期檢視目標執行情形並有記錄；(3)需有目標達成情形的評估。目標設定要具體、可衡量，避免過於籠統。",
     variant: "warning",
   },
-  17: {
-    content: "個案處遇計畫定期檢視是本項的核心：安置1年內，以3個月為原則（至多不超過6個月）；1年以上則至少每3至6個月檢視調整。緊急、短期安置個案不適用定期檢視規定。評鑑委員會抽查多個個案紀錄，確保定期檢視有確實執行。",
+  25: {
+    content: "申訴制度與權益保障由主管機關依輔導查核表-權益保障第一至七項目評分。重點：(1)必須建立內外兩套申訴制度（院生與家屬各一）；(2)每月需召開家庭會議且有完整紀錄；(3)零用金管理制度需有簽收或匯款紀錄；(4)機構絕對不得有任何形式的虐待或不當對待情事。",
     variant: "warning",
   },
-  18: {
-    content: "本項不適用於緊急安置個案。評鑑重點是「具體的方法與策略」及「有成效」，不只是有辦法與主責社工聯繫。需保存每次家庭聯繫、會面或重聚的紀錄，包含兒少反應和後續追蹤情形。",
+  26: {
+    content: "資源結合與運用共6個子項各1分（6分）。需注意：(1)資源檔案需定期更新，不可只有建立沒有維護；(2)志工管理需有完整的招募、訓練、服務紀錄；(3)與主管機關的聯繫合作需有具體的共同個案研討、緊短家園討論等互動資料。",
     variant: "info",
   },
-  19: {
-    content: "結束安置後的關懷追蹤需至少持續1年，評鑑委員會查核是否有具體的追蹤記錄。準備計畫需涵蓋多面向議題（就學、就業、租屋、就醫、金錢管理等），緊急安置個案不適用「關懷結束安置個案」部分。",
-    variant: "info",
-  },
-  20: {
-    content: "資源清冊需「每年盤點更新」，評鑑委員會看是否有更新日期紀錄。重要的是要有實際「運用紀錄」，說明曾連結哪些資源給哪些個案，並呈現資源連結的成效。",
+  27: {
+    content: "服務評估需要呈現方案及服務績效評估資料，不只是辦理紀錄。評估應聚焦在「提供兒少發展與成長之需求是否滿足」，建議使用量化指標（參與率、目標達成率）搭配質化評估（個案回饋、行為改變觀察）。",
     variant: "neutral",
   },
-  21: {
-    content: "團體活動或服務方案需有「成效評估及紀錄」，不只是活動辦理記錄。成效評估可以是量化（參與人數、達成率）或質化（個案回饋、行為改變觀察）方式呈現。",
-    variant: "neutral",
-  },
-  22: {
-    content: "專業督導制度需有明確頻率（至少每月1次），且督導紀錄要清楚記錄督導內容（含專業知能提升、問題討論、危機預防等）。若機構在「升遷與久任」方面有具體支持措施（如薪資調整制度、資深員工獎勵），應備齊相關辦法文件。",
+  28: {
+    content: "專業成長包含個案研討會（1分）及專業督導制度（1分）。個案研討會需有完整的討論紀錄；督導制度需有固定頻率（建議每月至少1次）並有督導紀錄，記錄需涵蓋督導內容、討論結論及追蹤事項。",
     variant: "info",
   },
 };
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
-  name: "兒少教養機構評鑑：參、專業服務",
-  description: "111年度兒少教養機構聯合評鑑專業服務7項基準完整解說，包含進住機構協助與適應、安置期間生活輔導、兒少與家庭重聚、結束安置準備與輔導等核心服務。",
+  name: "兒少安置機構評鑑：參、專業服務",
+  description: "112年度兒少安置機構評鑑專業服務14項基準完整解說，包含個案紀錄、輔導目標、專業服務品質（2歲以下及2歲以上兩版本）、權益保障、資源結合及專業訓練。",
   path: "/school/youth-care/professional",
 });
 
@@ -81,19 +82,37 @@ export default function YouthCareProfessionalPage() {
           <Badge className="bg-blue-500/10 text-blue-600 dark:text-blue-400 hover:bg-blue-500/20">
             {section.shortCode}
           </Badge>
-          <span className="text-sm text-muted-foreground">項目 16–22</span>
+          <span className="text-sm text-muted-foreground">項目 15–28・60分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">{section.name}</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共7項基準（44分），是整個評鑑配分最重的區塊，著重個案服務品質。評鑑委員會透過審閱文件、實地觀察、與機構人員訪談及與個案訪談等方式綜合評分。
+          本區塊共14項基準（60分），是整個評鑑配分最重的區塊。評鑑委員透過審閱文件、實地訪談等方式綜合評分。
+          「三、兒童少年專業服務品質」依安置兒少年齡分為2歲以下及2歲以上18歲以下兩個版本。
         </p>
+      </div>
+
+      {/* 子區塊配分說明 */}
+      <div className="mb-6 grid grid-cols-3 sm:grid-cols-6 gap-2 text-center text-xs">
+        {[
+          { label: "一 個案紀錄", score: "1分" },
+          { label: "二 輔導目標", score: "15分" },
+          { label: "三 服務品質", score: "32分" },
+          { label: "四 權益保障", score: "2分" },
+          { label: "五 資源結合", score: "6分" },
+          { label: "六 專業訓練", score: "4分" },
+        ].map((s) => (
+          <div key={s.label} className="rounded-lg bg-blue-500/5 border border-blue-500/20 p-2">
+            <div className="font-bold text-blue-600 dark:text-blue-400">{s.score}</div>
+            <div className="text-muted-foreground mt-0.5">{s.label}</div>
+          </div>
+        ))}
       </div>
 
       {/* Mini TOC */}
       <div className="mb-8 rounded-lg border bg-muted/30 p-4">
         <p className="text-xs font-medium text-muted-foreground mb-2">本頁項目</p>
         <div className="flex flex-wrap gap-2">
-          {section.items.map((item) => (
+          {generalItems.map((item) => (
             <a
               key={item.id}
               href={`#item-${item.id}`}
@@ -102,44 +121,135 @@ export default function YouthCareProfessionalPage() {
               {item.id}. {item.title.length > 12 ? item.title.slice(0, 12) + "…" : item.title}
             </a>
           ))}
+          <a href="#service-quality"
+            className="text-xs px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-500/20 transition-colors">
+            17–24. 服務品質（雙版本）
+          </a>
         </div>
       </div>
 
       {/* Items */}
-      <div className="space-y-10">
-        {section.items.map((item) => (
-          <div key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
-            <div className="flex items-start gap-3 mb-3">
-              <span className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-600 dark:text-blue-400 font-mono shrink-0">
-                {item.id}
-              </span>
-              <div className="flex-1">
-                <h2 className="text-lg font-semibold leading-snug">{item.title}</h2>
-                <div className="flex flex-wrap gap-1.5 mt-1.5">
-                  <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
-                  <Badge variant="secondary" className="text-xs">{item.reviewMethod.split("、")[0]}</Badge>
+      <div className="space-y-12">
+
+        {/* 一、個案紀錄 */}
+        <section>
+          <div className="flex items-center gap-2 mb-6">
+            <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400">參一</span>
+            <span className="text-sm font-semibold text-muted-foreground">個案紀錄與交接班紀錄（1分）</span>
+          </div>
+          {caseRecordItem && (
+            <div id={`item-${caseRecordItem.id}`} className="scroll-mt-20">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-600 dark:text-blue-400 font-mono shrink-0">
+                  {caseRecordItem.id}
+                </span>
+                <div className="flex-1">
+                  <h2 className="text-lg font-semibold leading-snug">{caseRecordItem.title}</h2>
+                  <div className="flex flex-wrap gap-1.5 mt-1.5">
+                    <Badge variant="outline" className="text-xs">{caseRecordItem.responsible}</Badge>
+                    {caseRecordItem.score !== undefined && <Badge variant="secondary" className="text-xs">{caseRecordItem.score}分</Badge>}
+                    <Badge variant="outline" className="text-xs text-amber-600 border-amber-400">主管機關評分</Badge>
+                  </div>
                 </div>
               </div>
+              <div className="ml-11">
+                <p className="text-xs text-muted-foreground mb-2 font-medium">評鑑基準：</p>
+                <ol className="space-y-1.5 list-decimal list-inside mb-4">
+                  {caseRecordItem.criteria.map((c, i) => (
+                    <li key={i} className="text-sm text-muted-foreground leading-relaxed">{c}</li>
+                  ))}
+                </ol>
+                {tips[caseRecordItem.id] && (
+                  <DocsTip variant={tips[caseRecordItem.id].variant ?? "neutral"}>{tips[caseRecordItem.id].content}</DocsTip>
+                )}
+              </div>
             </div>
+          )}
+        </section>
 
-            <div className="ml-11">
-              <p className="text-xs text-muted-foreground mb-2 font-medium">評鑑基準：</p>
-              <ol className="space-y-1.5 list-decimal list-inside mb-4">
-                {item.criteria.map((c, i) => (
-                  <li key={i} className="text-sm text-muted-foreground leading-relaxed">
-                    {c}
-                  </li>
-                ))}
-              </ol>
-
-              {tips[item.id] && (
-                <DocsTip variant={tips[item.id].variant ?? "neutral"}>
-                  {tips[item.id].content}
-                </DocsTip>
-              )}
-            </div>
+        {/* 二、輔導目標 */}
+        <section>
+          <div className="flex items-center gap-2 mb-6">
+            <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400">參二</span>
+            <span className="text-sm font-semibold text-muted-foreground">兒童少年輔導目標之達成（15分）</span>
           </div>
-        ))}
+          {guidanceItem && (
+            <div id={`item-${guidanceItem.id}`} className="scroll-mt-20">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-600 dark:text-blue-400 font-mono shrink-0">
+                  {guidanceItem.id}
+                </span>
+                <div className="flex-1">
+                  <h2 className="text-lg font-semibold leading-snug">{guidanceItem.title}</h2>
+                  <div className="flex flex-wrap gap-1.5 mt-1.5">
+                    <Badge variant="outline" className="text-xs">{guidanceItem.responsible}</Badge>
+                    {guidanceItem.score !== undefined && <Badge variant="secondary" className="text-xs">{guidanceItem.score}分</Badge>}
+                  </div>
+                </div>
+              </div>
+              <div className="ml-11">
+                <p className="text-xs text-muted-foreground mb-2 font-medium">評鑑基準：</p>
+                <ol className="space-y-1.5 list-decimal list-inside mb-4">
+                  {guidanceItem.criteria.map((c, i) => (
+                    <li key={i} className="text-sm text-muted-foreground leading-relaxed">{c}</li>
+                  ))}
+                </ol>
+                {tips[guidanceItem.id] && (
+                  <DocsTip variant={tips[guidanceItem.id].variant ?? "neutral"}>{tips[guidanceItem.id].content}</DocsTip>
+                )}
+              </div>
+            </div>
+          )}
+        </section>
+
+        {/* 三、專業服務品質（client 雙版本） */}
+        <section id="service-quality" className="scroll-mt-20">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400">參三</span>
+            <span className="text-sm font-semibold text-muted-foreground">兒童少年專業服務品質（32分）</span>
+          </div>
+          <AgeQualityTabs allItems={section.items} />
+        </section>
+
+        {/* 四～六、其餘通用項目 */}
+        <section>
+          <div className="flex items-center gap-2 mb-6">
+            <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400">參四至六</span>
+            <span className="text-sm font-semibold text-muted-foreground">權益保障・資源結合・專業訓練（12分）</span>
+          </div>
+          <div className="space-y-10">
+            {generalItems.filter((item) => item.id >= 25).map((item) => (
+              <div key={item.id} id={`item-${item.id}`} className="scroll-mt-20">
+                <div className="flex items-start gap-3 mb-3">
+                  <span className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-sm font-bold text-blue-600 dark:text-blue-400 font-mono shrink-0">
+                    {item.id}
+                  </span>
+                  <div className="flex-1">
+                    <h2 className="text-lg font-semibold leading-snug">{item.title}</h2>
+                    <div className="flex flex-wrap gap-1.5 mt-1.5">
+                      <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
+                      {item.score !== undefined && <Badge variant="secondary" className="text-xs">{item.score}分</Badge>}
+                      {item.id === 25 && (
+                        <Badge variant="outline" className="text-xs text-amber-600 border-amber-400">主管機關評分</Badge>
+                      )}
+                    </div>
+                  </div>
+                </div>
+                <div className="ml-11">
+                  <p className="text-xs text-muted-foreground mb-2 font-medium">評鑑基準：</p>
+                  <ol className="space-y-1.5 list-decimal list-inside mb-4">
+                    {item.criteria.map((c, i) => (
+                      <li key={i} className="text-sm text-muted-foreground leading-relaxed">{c}</li>
+                    ))}
+                  </ol>
+                  {tips[item.id] && (
+                    <DocsTip variant={tips[item.id].variant ?? "neutral"}>{tips[item.id].content}</DocsTip>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
 
       {/* Prev / Next */}
@@ -149,13 +259,13 @@ export default function YouthCareProfessionalPage() {
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           <ArrowLeftIcon className="h-4 w-4" />
-          貳、建築物環境與設施設備
+          貳、建築物環境及設施設備
         </Link>
         <Link
-          href="/school/youth-care/rights"
+          href="/school/youth-care/finance"
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
-          肆、權益保障
+          肆、財務管理
           <ArrowRightIcon className="h-4 w-4" />
         </Link>
       </div>
