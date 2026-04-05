@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾 -->
+  <text x="1010" y="230" font-size="120" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">5人</text>
+  <text x="1010" y="280" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">以下小型機構適用</text>
+  <line x1="840" y1="300" x2="1180" y2="300" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 右側卡片 -->
+  <rect x="840" y="311" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="335" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">任務分工</text>
+  <text x="1000" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">一人多職的生存術</text>
+
+  <rect x="840" y="389" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="413" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">AI 工具</text>
+  <text x="1000" y="445" font-size="22" fill="#a8a29e" text-anchor="middle">文書自動化省時</text>
+
+  <rect x="840" y="467" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="491" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">優先準備</text>
+  <text x="1000" y="523" font-size="22" fill="#a8a29e" text-anchor="middle">80/20 省力策略</text>
+
+  <!-- 左側主內容 -->
+  <text x="60" y="188" font-size="100" font-weight="900" fill="#1e293b">人力不足</text>
+  <text x="60" y="316" font-size="80" font-weight="900" fill="#d97706">生存指南</text>
+  <line x1="60" y1="346" x2="780" y2="346" stroke="#dedad3" stroke-width="2"/>
+  <text x="60" y="394" font-size="34" fill="#57534e">邊帶孩子邊備審 × AI 工具 × 省力策略</text>
+
+  <rect x="60" y="420" width="160" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="140" y="453" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">任務分工</text>
+
+  <rect x="232" y="420" width="160" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="312" y="453" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">省力工具</text>
+
+  <rect x="404" y="420" width="160" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="484" y="453" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">80/20策略</text>
+
+  <text x="60" y="546" font-size="26" fill="#94a3b8">適用：小型托嬰中心負責人・托育人員兼行政</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

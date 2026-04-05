@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑準備三大階段</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">從 12 週前到評鑑當天</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭 -->
+  <line x1="271" y1="279" x2="282" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="271,273 287,279 271,285" fill="#c4bfb8"/>
+  <line x1="487" y1="279" x2="498" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="487,273 503,279 487,285" fill="#c4bfb8"/>
+
+  <!-- Card 0：第一階段（#d97706）N=4 card_w=174 -->
+  <rect x="28" y="108" width="243" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="243" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="243" height="4" fill="#d97706"/>
+  <circle cx="149" cy="194" r="44" fill="#fef3c7"/>
+  <text x="149" y="183" text-anchor="middle" font-size="16" fill="#d97706" font-weight="700">第一階段</text>
+  <text x="149" y="211" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">12-9週</text>
+  <text x="149" y="290" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">盤點分工</text>
+  <text x="149" y="318" text-anchor="middle" font-size="16" fill="#57534e">逐條核對指標</text>
+  <text x="149" y="340" text-anchor="middle" font-size="16" fill="#57534e">分配負責人員</text>
+  <rect x="64" y="374" width="170" height="36" rx="18" fill="#fef3c7"/>
+  <text x="149" y="398" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">奠定基礎</text>
+
+  <!-- Card 1：第二階段（#78716c）-->
+  <rect x="287" y="108" width="216" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="287" y="108" width="216" height="8" rx="4" fill="#78716c"/>
+  <rect x="287" y="112" width="216" height="4" fill="#78716c"/>
+  <circle cx="395" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="395" y="183" text-anchor="middle" font-size="16" fill="#78716c" font-weight="700">第二階段</text>
+  <text x="395" y="211" text-anchor="middle" font-size="22" fill="#78716c" font-weight="700">8-5週</text>
+  <text x="395" y="290" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">整備撰寫</text>
+  <text x="395" y="318" text-anchor="middle" font-size="16" fill="#57534e">補齊佐證文件</text>
+  <text x="395" y="340" text-anchor="middle" font-size="16" fill="#57534e">完成自評說明</text>
+  <rect x="323" y="374" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="395" y="398" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">主力衝刺</text>
+
+  <!-- Card 2：第三階段（#57534e）-->
+  <rect x="519" y="108" width="253" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="519" y="108" width="253" height="8" rx="4" fill="#57534e"/>
+  <rect x="519" y="112" width="253" height="4" fill="#57534e"/>
+  <circle cx="645" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="645" y="183" text-anchor="middle" font-size="16" fill="#57534e" font-weight="700">第三階段</text>
+  <text x="645" y="211" text-anchor="middle" font-size="22" fill="#57534e" font-weight="700">4-0週</text>
+  <text x="645" y="290" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">覆核備場</text>
+  <text x="645" y="318" text-anchor="middle" font-size="16" fill="#57534e">模擬評鑑訪談</text>
+  <text x="645" y="340" text-anchor="middle" font-size="16" fill="#57534e">整理現場陳設</text>
+  <rect x="573" y="374" width="144" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="645" y="398" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">決勝關鍵</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

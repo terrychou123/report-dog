@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑前三個月備考時程</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">按月分工推進，讓評鑑準備有條不紊</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 時間軸（y=272）-->
+  <line x1="60" y1="272" x2="736" y2="272" stroke="#a8a29e" stroke-width="4"/>
+  <polygon points="736,265 736,279 752,272" fill="#a8a29e"/>
+
+  <!-- 節點 cx 位置：155, 335, 515, 695 -->
+
+  <!-- 節點 1（上方, cx=155, #d97706）-->
+  <!-- 上方卡片 -->
+  <rect x="95" y="108" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="95" y="108" width="120" height="8" rx="4" fill="#d97706"/>
+  <rect x="95" y="112" width="120" height="4" fill="#d97706"/>
+  <text x="155" y="140" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">評鑑前3個月</text>
+  <text x="155" y="162" text-anchor="middle" font-size="15" fill="#57534e">自我評估差距</text>
+  <text x="155" y="182" text-anchor="middle" font-size="15" fill="#57534e">盤點準備狀況</text>
+  <!-- 虛線 -->
+  <line x1="155" y1="208" x2="155" y2="248" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 大圓 -->
+  <circle cx="155" cy="272" r="24" fill="#d97706"/>
+  <text x="155" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">1</text>
+  <!-- Pill 在圓下方 -->
+  <rect x="121" y="300" width="68" height="22" rx="11" fill="#d97706"/>
+  <text x="155" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W1-W4</text>
+
+  <!-- 節點 2（下方, cx=335, #78716c）-->
+  <!-- Pill 在圓上方 -->
+  <rect x="301" y="222" width="68" height="22" rx="11" fill="#78716c"/>
+  <text x="335" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">W5-W8</text>
+  <!-- 大圓 -->
+  <circle cx="335" cy="272" r="24" fill="#78716c"/>
+  <text x="335" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">2</text>
+  <!-- 虛線 -->
+  <line x1="335" y1="296" x2="335" y2="350" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 下方卡片 -->
+  <rect x="275" y="350" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="275" y="442" width="120" height="8" rx="4" fill="#78716c"/>
+  <rect x="275" y="438" width="120" height="4" fill="#78716c"/>
+  <text x="335" y="382" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">評鑑前2個月</text>
+  <text x="335" y="404" text-anchor="middle" font-size="15" fill="#57534e">文件整備收集</text>
+  <text x="335" y="424" text-anchor="middle" font-size="15" fill="#57534e">環境改善修繕</text>
+
+  <!-- 節點 3（上方, cx=515, #57534e）-->
+  <!-- 上方卡片 -->
+  <rect x="455" y="108" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="455" y="108" width="120" height="8" rx="4" fill="#57534e"/>
+  <rect x="455" y="112" width="120" height="4" fill="#57534e"/>
+  <text x="515" y="140" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">評鑑前1個月</text>
+  <text x="515" y="162" text-anchor="middle" font-size="15" fill="#57534e">模擬評鑑演練</text>
+  <text x="515" y="182" text-anchor="middle" font-size="15" fill="#57534e">人員說明訓練</text>
+  <!-- 虛線 -->
+  <line x1="515" y1="208" x2="515" y2="248" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 大圓 -->
+  <circle cx="515" cy="272" r="24" fill="#57534e"/>
+  <text x="515" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">3</text>
+  <!-- Pill 在圓下方 -->
+  <rect x="481" y="300" width="68" height="22" rx="11" fill="#57534e"/>
+  <text x="515" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W9-W11</text>
+
+  <!-- 節點 4（下方, cx=695, #a8a29e）-->
+  <!-- Pill 在圓上方 -->
+  <rect x="661" y="222" width="68" height="22" rx="11" fill="#a8a29e"/>
+  <text x="695" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">W12</text>
+  <!-- 大圓 -->
+  <circle cx="695" cy="272" r="24" fill="#a8a29e"/>
+  <text x="695" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">4</text>
+  <!-- 虛線 -->
+  <line x1="695" y1="296" x2="695" y2="350" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 下方卡片 -->
+  <rect x="635" y="350" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="635" y="442" width="120" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="635" y="438" width="120" height="4" fill="#a8a29e"/>
+  <text x="695" y="382" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">評鑑前1週</text>
+  <text x="695" y="404" text-anchor="middle" font-size="15" fill="#57534e">資料最後確認</text>
+  <text x="695" y="424" text-anchor="middle" font-size="15" fill="#57534e">環境最終整備</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

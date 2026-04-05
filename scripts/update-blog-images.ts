@@ -14,17 +14,7 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import { eq } from "drizzle-orm";
 import { blogPosts } from "../db/schema";
-
-// 取得 DB 連線（與 db/index.ts 相同邏輯）
-function getDbUrl(raw = process.env.DATABASE_URL) {
-  if (!raw) throw new Error("DATABASE_URL 未設定，請確認 .env.local");
-  const match = raw.match(/^(postgresql:\/\/[^:]+):([^@]+)@(.+)$/);
-  if (match) {
-    const [, prefix, password, suffix] = match;
-    return `${prefix}:${encodeURIComponent(password)}@${suffix}`;
-  }
-  return raw;
-}
+import { getDbUrl } from "../db/index";
 
 // 要更新的十二篇文章 JSON 檔案
 const POST_FILES = [
@@ -46,45 +36,49 @@ async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
 
-  console.log("🖼️  開始更新部落格文章圖片...\n");
+  try {
+    console.log("🖼️  開始更新部落格文章圖片...\n");
 
-  for (const filename of POST_FILES) {
-    const filePath = join(process.cwd(), "scripts/blog-posts", filename);
-    const raw = readFileSync(filePath, "utf-8");
-    const data = JSON.parse(raw);
+    await Promise.all(
+      POST_FILES.map(async (filename) => {
+        const filePath = join(process.cwd(), "scripts/blog-posts", filename);
+        const raw = readFileSync(filePath, "utf-8");
+        const data = JSON.parse(raw);
 
-    if (!data.slug) {
-      console.error(`❌ 缺少 slug：${filename}`);
-      continue;
-    }
+        if (!data.slug) {
+          console.error(`❌ 缺少 slug：${filename}`);
+          return;
+        }
 
-    try {
-      const [updated] = await db
-        .update(blogPosts)
-        .set({
-          coverImageUrl: data.coverImageUrl ?? null,
-          content: data.content ?? null,
-          updatedAt: new Date(),
-        })
-        .where(eq(blogPosts.slug, data.slug))
-        .returning({ id: blogPosts.id, slug: blogPosts.slug });
+        try {
+          const [updated] = await db
+            .update(blogPosts)
+            .set({
+              coverImageUrl: data.coverImageUrl ?? null,
+              content: data.content ?? null,
+              updatedAt: new Date(),
+            })
+            .where(eq(blogPosts.slug, data.slug))
+            .returning({ id: blogPosts.id, slug: blogPosts.slug });
 
-      if (updated) {
-        console.log(`✅ 已更新：${data.title}`);
-        console.log(`   slug: ${data.slug}`);
-        console.log(`   coverImageUrl: ${data.coverImageUrl}\n`);
-      } else {
-        console.warn(`⚠️  找不到文章（slug 不存在）：${data.slug}`);
-        console.warn(`   請先執行 seed-blog-posts.ts 建立文章\n`);
-      }
-    } catch (err) {
-      console.error(`❌ 更新失敗：${filename}`, err);
-    }
+          if (updated) {
+            console.log(`✅ 已更新：${data.title}`);
+            console.log(`   slug: ${data.slug}`);
+            console.log(`   coverImageUrl: ${data.coverImageUrl}\n`);
+          } else {
+            console.warn(`⚠️  找不到文章（slug 不存在）：${data.slug}`);
+            console.warn(`   請先執行 seed-blog-posts.ts 建立文章\n`);
+          }
+        } catch (err) {
+          console.error(`❌ 更新失敗：${filename}`, err);
+        }
+      })
+    );
+
+    console.log("✨ 完成！請重啟 dev server 或等待快取更新後確認圖片顯示。");
+  } finally {
+    await client.end();
   }
-
-  console.log("✨ 完成！請重啟 dev server 或等待快取更新後確認圖片顯示。");
-
-  await client.end();
 }
 
 main().catch((err) => {

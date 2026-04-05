@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="40" y="50" width="720" height="62" rx="8" fill="#d97706"/>
+  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">2026 年評鑑 4 大趨勢重點</text>
+  <!-- Row 1 -->
+  <rect x="40" y="160" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="160" width="8" height="62" rx="3" fill="#d97706"/>
+  <text x="76" y="185" font-size="14" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">趨勢 1</text>
+  <text x="160" y="185" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">個別化照護強化</text>
+  <text x="160" y="210" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">指標 35 每日個別觀察記錄是否落實，個別化計畫品質日益受重視</text>
+  <!-- Row 2 -->
+  <rect x="40" y="235" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="235" width="8" height="62" rx="3" fill="#78716c"/>
+  <text x="76" y="260" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">趨勢 2</text>
+  <text x="160" y="260" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">數位化記錄普及</text>
+  <text x="160" y="285" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">電子日誌、數位照顧記錄逐步取代紙本，委員接受電子文件查核</text>
+  <!-- Row 3 -->
+  <rect x="40" y="310" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="310" width="8" height="62" rx="3" fill="#57534e"/>
+  <text x="76" y="335" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">趨勢 3</text>
+  <text x="160" y="335" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">親師溝通透明化</text>
+  <text x="160" y="360" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">家長告知機制、溝通記錄、1歲以下禁枕（指標 55）等親師知情強化</text>
+  <!-- Row 4 -->
+  <rect x="40" y="385" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="385" width="8" height="62" rx="3" fill="#94a3b8"/>
+  <text x="76" y="410" font-size="14" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif" font-weight="700">趨勢 4</text>
+  <text x="160" y="410" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">持續改善機制</text>
+  <text x="160" y="435" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑重視是否建立自評與改善循環，感染管制（指標 60）須依最新版本</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

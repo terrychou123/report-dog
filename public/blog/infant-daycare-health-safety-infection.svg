@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#57534e"/>
+  <text x="28" y="90" font-size="32" fill="#1e293b" font-weight="700">感染管制三要點（指標58-60）</text>
+  <text x="28" y="118" font-size="17" fill="#78716c">手冊須為疾管署最新版本（指標60）</text>
+
+  <!-- Row 0：手部衛生 y=166 -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">手部衛生（指標58）</text>
+  <text x="100" y="226" font-size="16" fill="#57534e">照護前後、餵食前後、換尿布後均須洗手；洗手設施（皂液、擦手紙）配置完整</text>
+  <text x="100" y="246" font-size="14" fill="#d97706">委員查核：實地觀察工作人員洗手習慣，查洗手海報是否張貼於正確位置</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">實地觀察</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">設施完備</text>
+
+  <!-- Row 1：隔離程序 y=269 -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">隔離程序（指標59）</text>
+  <text x="100" y="329" font-size="16" fill="#57534e">嬰幼兒疑似傳染病時的隔離流程、通報程序須有書面SOP；隔離空間標示清楚</text>
+  <text x="100" y="349" font-size="14" fill="#78716c">委員查核：查閱隔離程序書面文件，確認工作人員是否熟悉流程（口頭訪談）</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">SOP書面</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">人員熟悉</text>
+
+  <!-- Row 2：手冊最新版本 y=372 -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">感染管制手冊（指標60）</text>
+  <text x="100" y="432" font-size="16" fill="#57534e">感染管制手冊須依疾管署最新版本更新，封面標示版本日期，定期確認是否有新版</text>
+  <text x="100" y="452" font-size="14" fill="#57534e">委員查核：查閱手冊版本頁，確認與疾管署現行版一致；過期版本為扣分項</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">疾管署</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">最新版本</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

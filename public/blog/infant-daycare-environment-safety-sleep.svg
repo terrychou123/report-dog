@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="92" font-size="32" fill="#1e293b" font-weight="700">三大空間安全重點一覽</text>
+  <text x="28" y="118" font-size="17" fill="#78716c">睡眠區・活動區・廚房衛生（指標15、52-57）</text>
+
+  <!-- Row 0：睡眠區 y=166 -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
+  <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">睡眠區（指標15、55）</text>
+  <text x="100" y="226" font-size="16" fill="#57534e">床距 30 公分以上（指標15）；1 歲以下禁用枕頭、床距確認（指標55）</text>
+  <text x="100" y="246" font-size="14" fill="#d97706">→ 每月拍照存檔，睡眠區布置不得隨意更改，評鑑當日保持原狀</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">高風險</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">必須達標</text>
+
+  <!-- Row 1：活動區 y=269 -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">B</text>
+  <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">活動區（指標52-54）</text>
+  <text x="100" y="329" font-size="16" fill="#57534e">玩具每週清潔消毒、破損立即下架；地板材質確認（防滑、軟性）</text>
+  <text x="100" y="349" font-size="14" fill="#78716c">→ 建立玩具清潔消毒記錄表，委員必查，有表就能過</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">中風險</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">記錄即達標</text>
+
+  <!-- Row 2：廚房衛生 y=372 -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
+  <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">廚房衛生（指標44-46）</text>
+  <text x="100" y="432" font-size="16" fill="#57534e">食物留樣 7°C 以下冷藏 48 小時；冰箱溫度 0-7°C 每日記錄；清潔頻率登記</text>
+  <text x="100" y="452" font-size="14" fill="#57534e">→ 溫度計要有、紀錄表要每日填、留樣容器標示日期時間和品名</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">文件查核</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">記錄完整</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

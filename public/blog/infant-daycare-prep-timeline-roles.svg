@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2020/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=38, h=90） -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="95" font-size="36" fill="#1e293b" font-weight="700">各角色準備分工對照</text>
+
+  <!-- Row 0（y=166）#d97706 琥珀 -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">負</text>
+  <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">負責人（中心主任）</text>
+  <text x="100" y="224" font-size="16" fill="#57534e">召開準備會議、分配工作、覆核自評說明、確認高風險項目改善、模擬訪談主持</text>
+  <text x="100" y="244" font-size="14" fill="#d97706">重點：評鑑當天需代表機構向委員說明制度設計與改善計畫</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">統籌主導</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">最終決策</text>
+
+  <!-- Row 1（y=269）#78716c 暖灰 -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">行</text>
+  <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">行政人員</text>
+  <text x="100" y="327" font-size="16" fill="#57534e">管理佐證文件、建立附件索引、整理裝訂、追蹤各部門文件繳交進度</text>
+  <text x="100" y="347" font-size="14" fill="#78716c">重點：評鑑前 1 週確認所有文件到位，無缺頁、無版本混淆</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">文件管理</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">追蹤進度</text>
+
+  <!-- Row 2（y=372）#57534e 深棕 -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">托</text>
+  <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">托育人員</text>
+  <text x="100" y="430" font-size="16" fill="#57534e">填寫托育活動自評說明（指標 12-36）、確認日誌記錄格式、熟悉委員訪談問題</text>
+  <text x="100" y="450" font-size="14" fill="#57534e">重點：委員常訪談帶班人員，需能說明個別照顧計畫與日常課程執行</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">活動說明</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">訪談應對</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

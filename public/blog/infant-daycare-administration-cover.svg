@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <rect x="60" y="60" width="140" height="36" rx="18" fill="#d97706"/>
+  <text x="130" y="83" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑準備</text>
+  <text x="60" y="175" font-size="52" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="900">行政管理</text>
+  <text x="60" y="245" font-size="52" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="900">20 分攻略</text>
+  <text x="60" y="315" font-size="26" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="500">11 項指標逐條解析</text>
+  <line x1="60" y1="350" x2="480" y2="350" stroke="#d97706" stroke-width="3"/>
+  <text x="60" y="395" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif">指標 1-11 | 必備文件清單 | 常見扣分陷阱</text>
+  <text x="60" y="428" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif">臺北市 114-116 年度托嬰中心評鑑</text>
+  <rect x="60" y="468" width="140" height="32" rx="16" fill="#f5f0e8" stroke="#d97706" stroke-width="1.5"/>
+  <text x="130" y="489" font-size="14" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">行政管理</text>
+  <rect x="212" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <text x="272" y="489" font-size="14" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">在職訓練</text>
+  <rect x="344" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <text x="404" y="489" font-size="14" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">文書管理</text>
+  <!-- 右側大數字 -->
+  <text x="1010" y="320" font-size="200" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="900" opacity="0.12">11</text>
+  <text x="1010" y="280" font-size="100" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="900">11</text>
+  <text x="1010" y="350" font-size="28" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">項評鑑指標</text>
+  <text x="1010" y="398" font-size="22" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">行政管理區塊 20 分</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

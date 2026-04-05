@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="24" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="900">改善計畫三大要素</text>
+  <!-- 副標 -->
+  <text x="400" y="78" font-size="16" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每項缺失都要包含這三個部分才算完整</text>
+  <!-- 分隔線 -->
+  <line x1="80" y1="94" x2="720" y2="94" stroke="#e8e6de" stroke-width="2"/>
+  <!-- Row 1 -->
+  <rect x="60" y="130" width="680" height="90" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
+  <rect x="60" y="130" width="10" height="90" rx="4" fill="#d97706"/>
+  <text x="100" y="163" font-size="20" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">要素一：問題說明</text>
+  <text x="100" y="195" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">清楚描述缺失內容、發生原因、影響範圍，讓主管機關了解機構對問題的認識</text>
+  <!-- Row 2 -->
+  <rect x="60" y="257" width="680" height="90" rx="10" fill="white" stroke="#78716c" stroke-width="2"/>
+  <rect x="60" y="257" width="10" height="90" rx="4" fill="#78716c"/>
+  <text x="100" y="290" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">要素二：改善行動 + 截止日</text>
+  <text x="100" y="320" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">具體列出改善措施、負責人員姓名、預計完成日期，避免使用模糊承諾</text>
+  <!-- Row 3 -->
+  <rect x="60" y="384" width="680" height="90" rx="10" fill="white" stroke="#57534e" stroke-width="2"/>
+  <rect x="60" y="384" width="10" height="90" rx="4" fill="#57534e"/>
+  <text x="100" y="417" font-size="20" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">要素三：驗證方式</text>
+  <text x="100" y="447" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">說明如何確認改善已落實，例如：相關文件建立、訓練完成紀錄、主管複查簽名</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

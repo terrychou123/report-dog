@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾數字 -->
+  <text x="1010" y="255" font-size="160" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">3</text>
+  <text x="1010" y="295" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">大區塊文件清單</text>
+  <line x1="840" y1="315" x2="1180" y2="315" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 右側卡片 -->
+  <rect x="840" y="326" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="350" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">行政管理</text>
+  <text x="1000" y="382" font-size="22" fill="#a8a29e" text-anchor="middle">11 項指標必備文件</text>
+
+  <rect x="840" y="404" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="428" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">托育活動</text>
+  <text x="1000" y="460" font-size="22" fill="#a8a29e" text-anchor="middle">25 項指標必備文件</text>
+
+  <rect x="840" y="482" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="506" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">健康安全</text>
+  <text x="1000" y="538" font-size="22" fill="#a8a29e" text-anchor="middle">24 項指標必備文件</text>
+
+  <!-- 左側主內容 -->
+  <text x="60" y="196" font-size="110" font-weight="900" fill="#1e293b">佐證資料</text>
+  <text x="60" y="338" font-size="88" font-weight="900" fill="#d97706">完整清單</text>
+  <line x1="60" y1="368" x2="780" y2="368" stroke="#dedad3" stroke-width="2"/>
+  <text x="60" y="416" font-size="36" fill="#57534e">三大區塊文件清單 × 整理技巧</text>
+
+  <rect x="60" y="442" width="180" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="150" y="475" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">文件清單</text>
+
+  <rect x="252" y="442" width="180" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="342" y="475" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">整理技巧</text>
+
+  <rect x="444" y="442" width="180" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="534" y="475" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">114-116年度</text>
+
+  <text x="60" y="556" font-size="26" fill="#94a3b8">適用：托嬰中心負責人・行政人員・托育人員</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

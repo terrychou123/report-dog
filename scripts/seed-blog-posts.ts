@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 109 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 129 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -140,7 +140,30 @@ const POST_FILES = [
   "article-107-general-nursing-home-evacuation-system.json",
   "article-108-general-nursing-home-new-director-guide.json",
   "article-109-general-nursing-home-eval-vs-quality.json",
+  // 托嬰中心系列（20 篇）
+  "article-110-infant-daycare-60-guide.json",
+  "article-111-infant-daycare-top10-deficiencies.json",
+  "article-112-infant-daycare-self-evaluation.json",
+  "article-113-infant-daycare-evidence.json",
+  "article-114-infant-daycare-prep-timeline.json",
+  "article-115-infant-daycare-baby-diary-ai.json",
+  "article-116-infant-daycare-plain-language.json",
+  "article-117-infant-daycare-small-center.json",
+  "article-118-infant-daycare-environment-safety.json",
+  "article-119-infant-daycare-pdca.json",
+  "article-120-infant-daycare-health-safety.json",
+  "article-121-infant-daycare-curriculum.json",
+  "article-122-infant-daycare-care-plan.json",
+  "article-123-infant-daycare-parent-communication.json",
+  "article-124-infant-daycare-administration.json",
+  "article-125-infant-daycare-faq.json",
+  "article-126-infant-daycare-evaluator-perspective.json",
+  "article-127-infant-daycare-role-division.json",
+  "article-128-infant-daycare-trends.json",
+  "article-129-infant-daycare-post-evaluation.json",
 ];
+
+const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布
 
 async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
@@ -148,40 +171,43 @@ async function main() {
   try {
     console.log(`📝 開始匯入部落格文章（共 ${POST_FILES.length} 篇）...\n`);
 
-    for (const filename of POST_FILES) {
-      const filePath = join(process.cwd(), "scripts/blog-posts", filename);
-      const raw = readFileSync(filePath, "utf-8");
-      const data = JSON.parse(raw);
+    // 平行讀檔 + 寫入，大幅縮短執行時間
+    await Promise.all(
+      POST_FILES.map(async (filename) => {
+        const filePath = join(process.cwd(), "scripts/blog-posts", filename);
+        const raw = readFileSync(filePath, "utf-8");
+        const data = JSON.parse(raw);
 
-      try {
-        const [inserted] = await db
-          .insert(blogPosts)
-          .values({
-            slug: data.slug,
-            title: data.title,
-            excerpt: data.excerpt ?? null,
-            content: data.content ?? null,
-            coverImageUrl: data.coverImageUrl ?? null,
-            category: data.category ?? null,
-            tags: data.tags ?? null,
-            status: "draft", // 初始為草稿，確認後再於 /blog-admin 發布
-            seoTitle: data.seoTitle ?? null,
-            seoDescription: data.seoDescription ?? null,
-          })
-          .onConflictDoNothing() // 若 slug 已存在則略過
-          .returning({ id: blogPosts.id, slug: blogPosts.slug });
+        try {
+          const [inserted] = await db
+            .insert(blogPosts)
+            .values({
+              slug: data.slug,
+              title: data.title,
+              excerpt: data.excerpt ?? null,
+              content: data.content ?? null,
+              coverImageUrl: data.coverImageUrl ?? null,
+              category: data.category ?? null,
+              tags: data.tags ?? null,
+              status: INITIAL_STATUS,
+              seoTitle: data.seoTitle ?? null,
+              seoDescription: data.seoDescription ?? null,
+            })
+            .onConflictDoNothing() // 若 slug 已存在則略過
+            .returning({ id: blogPosts.id, slug: blogPosts.slug });
 
-        if (inserted) {
-          console.log(`✅ 已新增：${data.title}`);
-          console.log(`   slug: ${data.slug}`);
-          console.log(`   id: ${inserted.id}\n`);
-        } else {
-          console.log(`⏭️  已略過（slug 已存在）：${data.slug}\n`);
+          if (inserted) {
+            console.log(`✅ 已新增：${data.title}`);
+            console.log(`   slug: ${data.slug}`);
+            console.log(`   id: ${inserted.id}\n`);
+          } else {
+            console.log(`⏭️  已略過（slug 已存在）：${data.slug}\n`);
+          }
+        } catch (err) {
+          console.error(`❌ 匯入失敗：${filename}`, err);
         }
-      } catch (err) {
-        console.error(`❌ 匯入失敗：${filename}`, err);
-      }
-    }
+      })
+    );
 
     console.log("✨ 完成！請前往 /blog-admin 確認並將文章狀態改為 published。");
   } finally {

@@ -2,16 +2,7 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import { inArray } from "drizzle-orm";
 import { blogPosts } from "../db/schema";
-
-function getDbUrl(raw = process.env.DATABASE_URL) {
-  if (!raw) throw new Error("DATABASE_URL 未設定");
-  const match = raw.match(/^(postgresql:\/\/[^:]+):([^@]+)@(.+)$/);
-  if (match) {
-    const [, prefix, password, suffix] = match;
-    return `${prefix}:${encodeURIComponent(password)}@${suffix}`;
-  }
-  return raw;
-}
+import { getDbUrl } from "../db/index";
 
 async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
@@ -23,17 +14,20 @@ async function main() {
     "daycare-quality-indicator-setup-guide-2026",
     "daycare-post-evaluation-action-plan-2026",
   ];
-  const rows = await db.select({
-    slug: blogPosts.slug,
-    status: blogPosts.status,
-    coverImageUrl: blogPosts.coverImageUrl,
-  }).from(blogPosts).where(inArray(blogPosts.slug, slugs));
-  for (const r of rows) {
-    console.log(`slug: ${r.slug}`);
-    console.log(`  status: ${r.status}`);
-    console.log(`  coverImageUrl: ${r.coverImageUrl}`);
-    console.log();
+  try {
+    const rows = await db.select({
+      slug: blogPosts.slug,
+      status: blogPosts.status,
+      coverImageUrl: blogPosts.coverImageUrl,
+    }).from(blogPosts).where(inArray(blogPosts.slug, slugs));
+    for (const r of rows) {
+      console.log(`slug: ${r.slug}`);
+      console.log(`  status: ${r.status}`);
+      console.log(`  coverImageUrl: ${r.coverImageUrl}`);
+      console.log();
+    }
+  } finally {
+    await client.end();
   }
-  await client.end();
 }
 main().catch(console.error);

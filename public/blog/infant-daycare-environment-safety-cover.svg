@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大字 -->
+  <text x="1010" y="220" font-size="150" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">15</text>
+  <text x="1010" y="268" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">個低預算改善做法</text>
+  <line x1="840" y1="290" x2="1180" y2="290" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 右側卡片 -->
+  <rect x="840" y="301" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="325" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">不換設備</text>
+  <text x="1000" y="357" font-size="22" fill="#a8a29e" text-anchor="middle">確認現有符合規範</text>
+
+  <rect x="840" y="379" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="403" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">記錄優先</text>
+  <text x="1000" y="435" font-size="22" fill="#a8a29e" text-anchor="middle">維護記錄比投資重要</text>
+
+  <rect x="840" y="457" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="481" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">指標對照</text>
+  <text x="1000" y="513" font-size="22" fill="#a8a29e" text-anchor="middle">52-57 健康安全</text>
+
+  <!-- 左側主內容 -->
+  <text x="60" y="178" font-size="90" font-weight="900" fill="#1e293b">硬體環境</text>
+  <text x="60" y="296" font-size="76" font-weight="900" fill="#d97706">評鑑攻略</text>
+  <line x1="60" y1="326" x2="780" y2="326" stroke="#dedad3" stroke-width="2"/>
+  <text x="60" y="374" font-size="32" fill="#57534e">低預算通過環境安全評鑑 × 記錄制度 × 15 個做法</text>
+
+  <rect x="60" y="400" width="180" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="150" y="433" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">安全改善</text>
+
+  <rect x="252" y="400" width="180" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="342" y="433" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">維護記錄</text>
+
+  <rect x="444" y="400" width="180" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="534" y="433" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">指標達標</text>
+
+  <text x="60" y="546" font-size="26" fill="#94a3b8">適用：托嬰中心負責人・環安管理者・評鑑籌備小組</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

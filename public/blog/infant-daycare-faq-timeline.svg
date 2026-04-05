@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="24" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="900">評鑑前後時間軸與常見問題</text>
+  <!-- 副標 -->
+  <text x="400" y="78" font-size="16" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">三個關鍵時間點的準備重點</text>
+  <!-- 分隔線 -->
+  <line x1="80" y1="94" x2="720" y2="94" stroke="#e8e6de" stroke-width="2"/>
+  <!-- Row 1 -->
+  <rect x="60" y="130" width="680" height="90" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
+  <rect x="60" y="130" width="10" height="90" rx="4" fill="#d97706"/>
+  <text x="100" y="162" font-size="20" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑前（通知後 60 天）</text>
+  <text x="100" y="190" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">常問：「收到通知後來得及準備嗎？」準備重點：自評表填寫、文件清點、人員告知、環境整理</text>
+  <!-- Row 2 -->
+  <rect x="60" y="257" width="680" height="90" rx="10" fill="white" stroke="#78716c" stroke-width="2"/>
+  <rect x="60" y="257" width="10" height="90" rx="4" fill="#78716c"/>
+  <text x="100" y="289" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑當天（上午 3-4 小時）</text>
+  <text x="100" y="317" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">常問：「委員會突然問什麼？」重點：資料夾備好、人員在崗、正常作息、坦誠回答訪談問題</text>
+  <!-- Row 3 -->
+  <rect x="60" y="384" width="680" height="90" rx="10" fill="white" stroke="#57534e" stroke-width="2"/>
+  <rect x="60" y="384" width="10" height="90" rx="4" fill="#57534e"/>
+  <text x="100" y="416" font-size="20" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑後（收到結果 2 週內）</text>
+  <text x="100" y="444" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">常問：「缺失要怎麼回覆？」重點：提交改善計畫書、具體說明改善行動與期限、存檔備查</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

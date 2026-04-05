@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="90" font-size="32" fill="#1e293b" font-weight="700">課程計畫三要素（指標24-30）</text>
+  <text x="28" y="118" font-size="17" fill="#78716c">符合評鑑要求的課程計畫必備內容</text>
+
+  <!-- Row 0：發展領域涵蓋 y=166 -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">發展領域涵蓋</text>
+  <text x="100" y="226" font-size="16" fill="#57534e">課程計畫須涵蓋五大發展領域：動作、語言、認知、社會情緒、感官知覺</text>
+  <text x="100" y="246" font-size="14" fill="#d97706">委員查核：課程表上是否清楚標示每項活動涵蓋的發展領域，不得遺漏</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">五大領域</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">均須出現</text>
+
+  <!-- Row 1：個別化調整 y=269 -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">個別化調整說明</text>
+  <text x="100" y="329" font-size="16" fill="#57534e">課程計畫中須說明如何依嬰幼兒個別發展差異調整活動難易度</text>
+  <text x="100" y="349" font-size="14" fill="#78716c">委員查核：個別化觀察紀錄是否有對應課程調整的說明，非所有孩子套同一套</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">個別差異</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">調整說明</text>
+
+  <!-- Row 2：紀錄方式 y=372 -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">活動紀錄方式</text>
+  <text x="100" y="432" font-size="16" fill="#57534e">每次活動後有紀錄：活動名稱、參與人數、觀察重點、下次調整方向</text>
+  <text x="100" y="452" font-size="14" fill="#57534e">委員查核：課程計畫和活動紀錄是否有連結（計畫→執行→記錄→調整的完整循環）</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">計畫→執行</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">→記錄→調整</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
