@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">護理人員給藥三讀五對流程</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B1.6要求的給藥標準作業程序</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 步驟1 -->
+  <rect x="40" y="120" width="155" height="300" rx="12" fill="#d97706"/>
+  <text x="117" y="190" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">第一讀</text>
+  <line x1="60" y1="205" x2="175" y2="205" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="117" y="235" font-size="16" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">拿取藥品時</text>
+  <text x="117" y="265" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">核對醫囑</text>
+
+  <!-- 箭頭1 -->
+  <polygon points="210,270 225,260 225,280" fill="#57534e"/>
+  <line x1="195" y1="270" x2="225" y2="270" stroke="#57534e" stroke-width="2"/>
+
+  <!-- 步驟2 -->
+  <rect x="230" y="120" width="155" height="300" rx="12" fill="#78716c"/>
+  <text x="307" y="190" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">第二讀</text>
+  <line x1="250" y1="205" x2="365" y2="205" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="307" y="235" font-size="16" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">準備藥品時</text>
+  <text x="307" y="265" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">再次核對</text>
+
+  <!-- 箭頭2 -->
+  <polygon points="400,270 415,260 415,280" fill="#57534e"/>
+  <line x1="385" y1="270" x2="415" y2="270" stroke="#57534e" stroke-width="2"/>
+
+  <!-- 步驟3 -->
+  <rect x="420" y="120" width="155" height="300" rx="12" fill="#57534e"/>
+  <text x="497" y="175" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">第三讀</text>
+  <line x1="440" y1="190" x2="555" y2="190" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="497" y="215" font-size="15" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">給藥前確認五對</text>
+  <text x="497" y="243" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">姓名、藥品名稱</text>
+  <text x="497" y="265" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">劑量、時間</text>
+  <text x="497" y="287" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">給藥途徑</text>
+
+  <!-- 箭頭3 -->
+  <polygon points="590,270 605,260 605,280" fill="#57534e"/>
+  <line x1="575" y1="270" x2="605" y2="270" stroke="#57534e" stroke-width="2"/>
+
+  <!-- 步驟4 -->
+  <rect x="610" y="120" width="150" height="300" rx="12" fill="#a8a29e"/>
+  <text x="685" y="175" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">給藥後記錄</text>
+  <line x1="630" y1="190" x2="740" y2="190" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="685" y="220" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">觀察用藥</text>
+  <text x="685" y="244" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">反應，記錄</text>
+  <text x="685" y="268" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">於護理紀錄</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

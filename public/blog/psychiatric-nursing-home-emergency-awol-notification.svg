@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">緊急事件通報對象與時效</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">各類事件的通報對象、時效與法規依據</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="118" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
+  <text x="60" y="145" font-size="18" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">擅自離院（精神衛生法第52條）</text>
+  <text x="60" y="171" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">立即通知保護人（家屬）；行蹤不明時立即向警察報告，不得延遲</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="204" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="204" width="6" height="72" rx="3" fill="#78716c"/>
+  <text x="60" y="231" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">傷害行為事件</text>
+  <text x="60" y="257" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">依機構辦法處理，視情況通知家屬及警察，記錄事件經過與處理</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="290" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="290" width="6" height="72" rx="3" fill="#57534e"/>
+  <text x="60" y="317" font-size="18" font-weight="700" fill="#57534e" font-family="'Noto Sans TC', sans-serif">不預期心跳停止</text>
+  <text x="60" y="343" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">立即急救，通知家屬及醫師，完整記錄急救過程與結果</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="376" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="376" width="6" height="72" rx="3" fill="#a8a29e"/>
+  <text x="60" y="403" font-size="18" font-weight="700" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">群聚感染事件</text>
+  <text x="60" y="429" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">依傳染病防治法通報主管機關，立即啟動隔離措施，保護未感染住民</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

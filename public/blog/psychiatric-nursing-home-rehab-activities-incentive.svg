@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">獎勵金制度必備要素</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">B1.15要求的獎勵金計算辦法規範重點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="118" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
+  <text x="60" y="147" font-size="18" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">訂有辦法</text>
+  <text x="60" y="173" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">合理的獎勵金計算標準（辦法），內容具體明確，每年審核更新</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="204" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="204" width="6" height="72" rx="3" fill="#78716c"/>
+  <text x="60" y="233" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">計算標準合理</text>
+  <text x="60" y="259" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">以小時計算，符合最低工資規定精神，不得低於法定標準</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="290" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="290" width="6" height="72" rx="3" fill="#57534e"/>
+  <text x="60" y="319" font-size="18" font-weight="700" fill="#57534e" font-family="'Noto Sans TC', sans-serif">實際發放</text>
+  <text x="60" y="345" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每月按時發放，有發放紀錄（如簽收單或匯款記錄），可供查驗</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="376" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="376" width="6" height="72" rx="3" fill="#a8a29e"/>
+  <text x="60" y="405" font-size="18" font-weight="700" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">住民同意</text>
+  <text x="60" y="431" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">入住時取得同意書，說明復健作業性質、時數上限及獎勵金辦法</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

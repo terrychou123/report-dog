@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">精神衛生法修法四大重點</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">111年12月三讀通過，112年12月施行</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="114" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="114" width="8" height="80" rx="4" fill="#d97706"/>
+  <text x="72" y="148" font-size="20" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">緊急安置縮短</text>
+  <text x="72" y="176" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">不得逾7日（舊法為5日加延長），保障人身自由</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="206" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="206" width="8" height="80" rx="4" fill="#78716c"/>
+  <text x="72" y="240" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">強制鑑定加速</text>
+  <text x="72" y="268" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">在開始安置3日內完成強制鑑定（提升時效）</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="298" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="298" width="8" height="80" rx="4" fill="#57534e"/>
+  <text x="72" y="332" font-size="20" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">社區支持入法</text>
+  <text x="72" y="360" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">社區心理衛生中心功能強化，提供社區支持服務</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="390" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="390" width="8" height="80" rx="4" fill="#a8a29e"/>
+  <text x="72" y="424" font-size="20" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif" font-weight="700">合理調整原則</text>
+  <text x="72" y="452" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">機構需提供住民合理的生活調整，尊重個別需求</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

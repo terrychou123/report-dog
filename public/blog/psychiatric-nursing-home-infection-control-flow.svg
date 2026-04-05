@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">感染管制作業四大執行面向</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">人員監測、計畫管理、環境防護、外部合作的整合作業</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 流程連接線 -->
+  <line x1="130" y1="200" x2="670" y2="200" stroke="#e8e6de" stroke-width="4" stroke-dasharray="8,4"/>
+
+  <!-- 步驟1 -->
+  <circle cx="130" cy="200" r="38" fill="#d97706"/>
+  <text x="130" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">健康</text>
+  <text x="130" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">監測</text>
+  <rect x="50" y="258" width="160" height="100" rx="8" fill="white"/>
+  <text x="130" y="282" font-size="17" font-weight="700" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">健康監測</text>
+  <text x="130" y="304" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">住民每日體溫記錄</text>
+  <text x="130" y="322" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">工作人員每週體溫</text>
+  <text x="130" y="340" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">線上登載系統</text>
+
+  <!-- 步驟2 -->
+  <circle cx="330" cy="200" r="38" fill="#78716c"/>
+  <text x="330" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">計畫</text>
+  <text x="330" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行</text>
+  <rect x="250" y="258" width="160" height="100" rx="8" fill="white"/>
+  <text x="330" y="282" font-size="17" font-weight="700" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">計畫執行</text>
+  <text x="330" y="304" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">感染管制計畫</text>
+  <text x="330" y="322" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">5類涵蓋完整</text>
+  <text x="330" y="340" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每年更新一次</text>
+
+  <!-- 步驟3 -->
+  <circle cx="530" cy="200" r="38" fill="#57534e"/>
+  <text x="530" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">環境</text>
+  <text x="530" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">防護</text>
+  <rect x="450" y="258" width="160" height="100" rx="8" fill="white"/>
+  <text x="530" y="282" font-size="17" font-weight="700" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">環境防護</text>
+  <text x="530" y="304" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">洗手設施配置</text>
+  <text x="530" y="322" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">防疫物資1週儲備</text>
+  <text x="530" y="340" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">定期環境清潔</text>
+
+  <!-- 步驟4 -->
+  <circle cx="670" cy="200" r="38" fill="#a8a29e"/>
+  <text x="670" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">隔離</text>
+  <text x="670" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">應變</text>
+  <rect x="590" y="258" width="160" height="100" rx="8" fill="white"/>
+  <text x="670" y="282" font-size="17" font-weight="700" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">隔離應變</text>
+  <text x="670" y="304" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">隔離空間規劃</text>
+  <text x="670" y="322" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">群聚感染應急動線</text>
+  <text x="670" y="340" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">通報機制啟動</text>
+
+  <!-- 提示文字 -->
+  <rect x="40" y="390" width="720" height="48" rx="8" fill="#d97706" fill-opacity="0.12"/>
+  <text x="400" y="421" font-size="20" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">感染管制計畫需每年更新，並覆蓋5大類感控面向</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區 -->
+  <rect x="700" y="0" width="500" height="630" fill="#e8e6de"/>
+
+  <!-- 特色標籤 -->
+  <rect x="60" y="60" width="130" height="32" rx="16" fill="#d97706"/>
+  <text x="125" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精神衛生法</text>
+  <rect x="202" y="60" width="80" height="32" rx="16" fill="#78716c"/>
+  <text x="242" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">D1.1</text>
+  <rect x="294" y="60" width="80" height="32" rx="16" fill="#57534e"/>
+  <text x="334" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B1.10</text>
+
+  <!-- 主標題第1行 -->
+  <text x="60" y="210" font-size="120" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">精神衛生法</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="350" font-size="110" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">修法因應</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="420" font-size="34" fill="#57534e" font-family="'Noto Sans TC', sans-serif">修法對護理之家評鑑的影響與住民權益保障</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="450" x2="640" y2="450" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 右側大數字 -->
+  <text x="950" y="240" font-size="180" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700" opacity="0.12">112</text>
+  <text x="950" y="240" font-size="160" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">112</text>
+  <text x="950" y="290" font-size="26" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">年12月正式施行</text>
+
+  <!-- 右側 pill 標籤 -->
+  <rect x="770" y="360" width="185" height="40" rx="20" fill="#d97706"/>
+  <text x="862" y="386" font-size="17" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">強制安置7日</text>
+
+  <rect x="770" y="412" width="185" height="40" rx="20" fill="#78716c"/>
+  <text x="862" y="438" font-size="17" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">鑑定3日內</text>
+
+  <rect x="770" y="464" width="185" height="40" rx="20" fill="#57534e"/>
+  <text x="862" y="490" font-size="17" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">社區支持入法</text>
+
+  <rect x="770" y="516" width="185" height="40" rx="20" fill="#a8a29e"/>
+  <text x="862" y="542" font-size="17" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">合理調整</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

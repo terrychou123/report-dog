@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 149 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 169 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -182,6 +182,27 @@ const POST_FILES = [
   "article-147-youth-care-administration-management.json",
   "article-148-youth-care-innovation-bonus-points.json",
   "article-149-youth-care-evaluator-perspective.json",
+  // 精神護理之家系列（20 篇）
+  "article-150-psychiatric-nursing-home-evaluation-guide.json",
+  "article-151-psychiatric-nursing-home-top10-deficiencies.json",
+  "article-152-psychiatric-nursing-home-staffing.json",
+  "article-153-psychiatric-nursing-home-restraint.json",
+  "article-154-psychiatric-nursing-home-quality-indicators.json",
+  "article-155-psychiatric-nursing-home-self-eval-checklist.json",
+  "article-156-psychiatric-nursing-home-infection-control.json",
+  "article-157-psychiatric-nursing-home-rehab-activities.json",
+  "article-158-psychiatric-nursing-home-emergency-awol.json",
+  "article-159-psychiatric-nursing-home-fire-safety.json",
+  "article-160-psychiatric-nursing-home-care-plan.json",
+  "article-161-psychiatric-nursing-home-medication.json",
+  "article-162-psychiatric-nursing-home-training.json",
+  "article-163-psychiatric-nursing-home-interdisciplinary.json",
+  "article-164-psychiatric-nursing-home-mental-health-act.json",
+  "article-165-psychiatric-nursing-home-nutrition.json",
+  "article-166-psychiatric-nursing-home-community.json",
+  "article-167-psychiatric-nursing-home-resident-rights.json",
+  "article-168-psychiatric-nursing-home-business-plan.json",
+  "article-169-psychiatric-nursing-home-innovation.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布

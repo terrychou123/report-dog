@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">評鑑缺失改善四步驟</text>
+  <text x="40" y="78" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif">從找出缺失到完成改善的標準流程</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 流程步驟 -->
+  <!-- 步驟1 -->
+  <rect x="30" y="130" width="165" height="290" rx="12" fill="#d97706" opacity="0.12"/>
+  <rect x="30" y="130" width="165" height="6" rx="3" fill="#d97706"/>
+  <circle cx="112" cy="188" r="28" fill="#d97706"/>
+  <text x="112" y="196" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">1</text>
+  <text x="112" y="238" font-size="18" font-weight="bold" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">自評盤點</text>
+  <text x="112" y="268" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">逐條核對</text>
+  <text x="112" y="290" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">36項基準</text>
+  <text x="112" y="312" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">找出差距</text>
+
+  <!-- 箭頭1 -->
+  <polygon points="210,270 230,255 230,285" fill="#dedad3"/>
+  <line x1="195" y1="270" x2="230" y2="270" stroke="#dedad3" stroke-width="3"/>
+
+  <!-- 步驟2 -->
+  <rect x="235" y="130" width="165" height="290" rx="12" fill="#78716c" opacity="0.12"/>
+  <rect x="235" y="130" width="165" height="6" rx="3" fill="#78716c"/>
+  <circle cx="317" cy="188" r="28" fill="#78716c"/>
+  <text x="317" y="196" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">2</text>
+  <text x="317" y="238" font-size="18" font-weight="bold" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">優先排序</text>
+  <text x="317" y="268" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">試扣分項目</text>
+  <text x="317" y="290" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">優先處理</text>
+  <text x="317" y="312" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">再按影響度</text>
+
+  <!-- 箭頭2 -->
+  <polygon points="415,270 435,255 435,285" fill="#dedad3"/>
+  <line x1="400" y1="270" x2="435" y2="270" stroke="#dedad3" stroke-width="3"/>
+
+  <!-- 步驟3 -->
+  <rect x="440" y="130" width="165" height="290" rx="12" fill="#57534e" opacity="0.12"/>
+  <rect x="440" y="130" width="165" height="6" rx="3" fill="#57534e"/>
+  <circle cx="522" cy="188" r="28" fill="#57534e"/>
+  <text x="522" y="196" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">3</text>
+  <text x="522" y="238" font-size="18" font-weight="bold" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">補強執行</text>
+  <text x="522" y="268" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">補齊文件</text>
+  <text x="522" y="290" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">調整制度</text>
+  <text x="522" y="312" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">訓練員工</text>
+
+  <!-- 箭頭3 -->
+  <polygon points="620,270 640,255 640,285" fill="#dedad3"/>
+  <line x1="605" y1="270" x2="640" y2="270" stroke="#dedad3" stroke-width="3"/>
+
+  <!-- 步驟4 -->
+  <rect x="645" y="130" width="125" height="290" rx="12" fill="#a8a29e" opacity="0.12"/>
+  <rect x="645" y="130" width="125" height="6" rx="3" fill="#a8a29e"/>
+  <circle cx="707" cy="188" r="28" fill="#a8a29e"/>
+  <text x="707" y="196" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">4</text>
+  <text x="707" y="238" font-size="18" font-weight="bold" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">驗證確認</text>
+  <text x="707" y="268" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">再次核對</text>
+  <text x="707" y="290" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">確認改善</text>
+  <text x="707" y="312" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">留存紀錄</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

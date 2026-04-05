@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">各類人員訓練時數要求一覽</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">A4.1規定的各職類最低訓練時數</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="114" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="114" width="8" height="80" rx="4" fill="#d97706"/>
+  <text x="72" y="148" font-size="20" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">全體工作人員</text>
+  <text x="72" y="176" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每年至少20小時，含感染管制至少4小時</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="206" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="206" width="8" height="80" rx="4" fill="#78716c"/>
+  <text x="72" y="240" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">新進工作人員</text>
+  <text x="72" y="268" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">到職後1個月內完成至少16小時職前訓練</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="298" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="298" width="8" height="80" rx="4" fill="#57534e"/>
+  <text x="72" y="332" font-size="20" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">廚工及供膳人員</text>
+  <text x="72" y="360" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每年至少8小時營養及衛生相關訓練</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="390" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="390" width="8" height="80" rx="4" fill="#a8a29e"/>
+  <text x="72" y="424" font-size="20" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif" font-weight="700">現職護理人員</text>
+  <text x="72" y="452" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">BLS急救訓練證照在效期內者需達50%</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

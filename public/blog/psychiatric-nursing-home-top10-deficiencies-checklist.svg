@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">缺失改善確認清單</text>
+  <text x="40" y="78" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif">逐項確認是否已改善，評鑑前完成</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 左欄上段 A2.2 -->
+  <rect x="30" y="112" width="360" height="160" rx="10" fill="white" opacity="0.75"/>
+  <rect x="30" y="112" width="360" height="6" rx="3" fill="#d97706"/>
+  <text x="50" y="142" font-size="17" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">A2.2 人員配置</text>
+  <!-- 已確認項目 -->
+  <rect x="50" y="154" width="14" height="14" rx="3" fill="#d97706"/>
+  <text x="72" y="166" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">排班表24小時完整</text>
+  <rect x="50" y="178" width="14" height="14" rx="3" fill="#d97706"/>
+  <text x="72" y="190" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">排班表24小時完整（已確認）</text>
+  <!-- 待確認項目 -->
+  <rect x="50" y="202" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="72" y="214" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">兼任人員支援報備（待確認）</text>
+  <rect x="50" y="226" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="72" y="238" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">職能/心理師時數計算（待確認）</text>
+
+  <!-- 左欄下段 B1.7 -->
+  <rect x="30" y="284" width="360" height="160" rx="10" fill="white" opacity="0.75"/>
+  <rect x="30" y="284" width="360" height="6" rx="3" fill="#78716c"/>
+  <text x="50" y="314" font-size="17" font-weight="bold" fill="#78716c" font-family="'Noto Sans TC', sans-serif">B1.7 品質監測</text>
+  <rect x="50" y="326" width="14" height="14" rx="3" fill="#78716c"/>
+  <text x="72" y="338" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">跌倒指標月報（已確認）</text>
+  <rect x="50" y="350" width="14" height="14" rx="3" fill="#78716c"/>
+  <text x="72" y="362" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">壓傷盛行率記錄（已確認）</text>
+  <rect x="50" y="374" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="72" y="386" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">年度閾值修訂（待確認）</text>
+  <rect x="50" y="398" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="72" y="410" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">品質會議改善紀錄（待確認）</text>
+
+  <!-- 右欄上段 B1.10 -->
+  <rect x="410" y="112" width="360" height="160" rx="10" fill="white" opacity="0.75"/>
+  <rect x="410" y="112" width="360" height="6" rx="3" fill="#57534e"/>
+  <text x="430" y="142" font-size="17" font-weight="bold" fill="#57534e" font-family="'Noto Sans TC', sans-serif">B1.10 緊急事件</text>
+  <rect x="430" y="154" width="14" height="14" rx="3" fill="#57534e"/>
+  <text x="452" y="166" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">擅離院SOP已訂定（已確認）</text>
+  <rect x="430" y="178" width="14" height="14" rx="3" fill="#57534e"/>
+  <text x="452" y="190" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">緊急通報流程圖張貼（已確認）</text>
+  <rect x="430" y="202" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="452" y="214" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">員工訪談演練（待確認）</text>
+  <rect x="430" y="226" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="452" y="238" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">演練紀錄存檔（待確認）</text>
+
+  <!-- 右欄下段 C1.1 -->
+  <rect x="410" y="284" width="360" height="160" rx="10" fill="white" opacity="0.75"/>
+  <rect x="410" y="284" width="360" height="6" rx="3" fill="#a8a29e"/>
+  <text x="430" y="314" font-size="17" font-weight="bold" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">C1.1 避難系統</text>
+  <rect x="430" y="326" width="14" height="14" rx="3" fill="#a8a29e"/>
+  <text x="452" y="338" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">逃生圖張貼於各樓層（已確認）</text>
+  <rect x="430" y="350" width="14" height="14" rx="3" fill="#a8a29e"/>
+  <text x="452" y="362" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">消防演練記錄（已確認）</text>
+  <rect x="430" y="374" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="452" y="386" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">等待救接空間查驗（待確認）</text>
+  <rect x="430" y="398" width="14" height="14" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="452" y="410" font-size="14" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">防火門自動關閉功能（待確認）</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

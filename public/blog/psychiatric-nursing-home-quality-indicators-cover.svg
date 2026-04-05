@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區 -->
+  <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
+
+  <!-- 主標題第1行 -->
+  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">6大品質</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">監測指標</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="322" x2="760" y2="322" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="366" font-size="36" fill="#57534e" font-family="'Noto Sans TC', sans-serif">跌倒、壓傷、約束、感染等完整解析</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="396" width="100" height="40" rx="20" fill="#d97706"/>
+  <text x="110" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B1.7</text>
+
+  <rect x="176" y="396" width="140" height="40" rx="20" fill="#78716c"/>
+  <text x="246" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">月報追蹤</text>
+
+  <rect x="332" y="396" width="160" height="40" rx="20" fill="#57534e"/>
+  <text x="412" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">PDCA改善</text>
+
+  <!-- 適用對象說明 -->
+  <text x="60" y="476" font-size="26" fill="#57534e" font-family="'Noto Sans TC', sans-serif">適用對象：品質管理負責人、護理長</text>
+
+  <!-- 右側裝飾大數字 -->
+  <text x="900" y="260" font-size="200" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif" opacity="0.9">6</text>
+  <!-- 右側說明文字 -->
+  <text x="990" y="305" font-size="26" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">品質監測指標</text>
+
+  <!-- 右側 2x2 資訊卡片 -->
+  <!-- 卡片1 -->
+  <rect x="825" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="907" y="375" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">跌倒</text>
+  <text x="907" y="400" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">月監測</text>
+  <text x="907" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">發生率計算</text>
+
+  <!-- 卡片2 -->
+  <rect x="1005" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="1087" y="375" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">壓力性損傷</text>
+  <text x="1087" y="400" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">盛行率</text>
+  <text x="1087" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">點盛行率調查</text>
+
+  <!-- 卡片3 -->
+  <rect x="825" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="907" y="490" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">約束</text>
+  <text x="907" y="515" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">最小化</text>
+  <text x="907" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">約束率監測</text>
+
+  <!-- 卡片4 -->
+  <rect x="1005" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="1087" y="490" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">感染</text>
+  <text x="1087" y="515" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">密度計算</text>
+  <text x="1087" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">感染密度追蹤</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

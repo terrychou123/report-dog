@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">C、D、E面向自評項目</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">安全管理、住民權益與創新加分的備審要點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="118" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
+  <text x="60" y="146" font-size="18" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">C1.1 疏散避難（試扣分）</text>
+  <text x="60" y="170" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">等待救接空間各樓層2個以上、防火門常閉、各入口逃生圖張貼</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="204" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="204" width="6" height="72" rx="3" fill="#78716c"/>
+  <text x="60" y="232" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">C1.2 + C1.3 消防演練</text>
+  <text x="60" y="256" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">火災應變計畫完整、夜間演練計畫及執行紀錄留存</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="290" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="290" width="6" height="72" rx="3" fill="#57534e"/>
+  <text x="60" y="318" font-size="18" font-weight="700" fill="#57534e" font-family="'Noto Sans TC', sans-serif">D1.1 + D1.2 住民權益</text>
+  <text x="60" y="342" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">宗教信仰尊重記錄、安寧療護計畫、病人自主意願紀錄</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="376" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="376" width="6" height="72" rx="3" fill="#a8a29e"/>
+  <text x="60" y="404" font-size="18" font-weight="700" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">E1.1 創新加分</text>
+  <text x="60" y="428" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">創新措施計畫、成效佐證資料、公開分享紀錄完整</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

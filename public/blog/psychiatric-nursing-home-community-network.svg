@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 主標題 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">可連結的多元社區資源類型</text>
+  <!-- 副標題 -->
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">B1.13提供的社區資源類型範例</text>
+  <!-- 分隔線 -->
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 4欄分類卡片 -->
+  <!-- 卡片1 -->
+  <rect x="40" y="114" width="165" height="330" rx="12" fill="#d97706"/>
+  <text x="122" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">精神障礙</text>
+  <text x="122" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">服務</text>
+  <line x1="60" y1="185" x2="185" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="122" y="215" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精障協作模式</text>
+  <text x="122" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">服務據點</text>
+  <text x="122" y="265" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">自立生活中心</text>
+  <text x="122" y="295" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精神復健</text>
+  <text x="122" y="315" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">機構</text>
+
+  <!-- 卡片2 -->
+  <rect x="220" y="114" width="165" height="330" rx="12" fill="#78716c"/>
+  <text x="302" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">互助支持</text>
+  <text x="302" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">資源</text>
+  <line x1="240" y1="185" x2="365" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="302" y="215" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">同儕支持</text>
+  <text x="302" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">（陪同就醫）</text>
+  <text x="302" y="265" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">外出購物等</text>
+  <text x="302" y="295" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">家屬自助</text>
+  <text x="302" y="315" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">團體</text>
+
+  <!-- 卡片3 -->
+  <rect x="400" y="114" width="165" height="330" rx="12" fill="#57534e"/>
+  <text x="482" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">社區照顧</text>
+  <text x="482" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">資源</text>
+  <line x1="420" y1="185" x2="545" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="482" y="215" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">社區關懷</text>
+  <text x="482" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">據點</text>
+  <text x="482" y="265" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">居家服務</text>
+  <text x="482" y="295" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">日間照顧</text>
+  <text x="482" y="315" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">中心</text>
+
+  <!-- 卡片4 -->
+  <rect x="580" y="114" width="180" height="330" rx="12" fill="#a8a29e"/>
+  <text x="670" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">志工與</text>
+  <text x="670" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">教育</text>
+  <line x1="600" y1="185" x2="740" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="670" y="215" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">志工人力</text>
+  <text x="670" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">資源</text>
+  <text x="670" y="265" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">家屬教育</text>
+  <text x="670" y="285" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">活動</text>
+  <text x="670" y="315" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">社區講座</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

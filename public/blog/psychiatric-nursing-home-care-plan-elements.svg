@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">個案資料檔必備內容</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">評鑑委員至少抽查3位住民病歷的核對重點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="114" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="114" width="8" height="80" rx="4" fill="#d97706"/>
+  <text x="72" y="148" font-size="20" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">基本資料</text>
+  <text x="72" y="176" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">入住日期、診斷、保護人資訊、緊急聯絡人</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="206" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="206" width="8" height="80" rx="4" fill="#78716c"/>
+  <text x="72" y="240" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">六大評估紀錄</text>
+  <text x="72" y="268" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">身體、心理、社會、認知、活動功能、營養各項評估結果</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="298" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="298" width="8" height="80" rx="4" fill="#57534e"/>
+  <text x="72" y="332" font-size="20" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">照護計畫</text>
+  <text x="72" y="360" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">具體目標、執行措施、預期效果、責任人</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="390" width="720" height="80" rx="10" fill="white"/>
+  <rect x="40" y="390" width="8" height="80" rx="4" fill="#a8a29e"/>
+  <text x="72" y="424" font-size="20" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif" font-weight="700">追蹤修訂紀錄</text>
+  <text x="72" y="452" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每月體重、每季評估、每半年家屬討論修訂紀錄</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

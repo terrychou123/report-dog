@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">防疫物資管理重點</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑委員實地查驗的物資項目</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="118" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
+  <rect x="56" y="126" width="58" height="56" rx="6" fill="#d97706" fill-opacity="0.15"/>
+  <text x="85" y="166" font-size="30" text-anchor="middle" fill="#d97706" font-family="'Noto Sans TC', sans-serif">M</text>
+  <text x="130" y="146" font-size="18" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">口罩庫存</text>
+  <text x="130" y="172" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">各類口罩至少1週需求量，標示有效期限，按類別分開存放</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="204" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="204" width="6" height="72" rx="3" fill="#78716c"/>
+  <rect x="56" y="212" width="58" height="56" rx="6" fill="#78716c" fill-opacity="0.15"/>
+  <text x="85" y="252" font-size="30" text-anchor="middle" fill="#78716c" font-family="'Noto Sans TC', sans-serif">H</text>
+  <text x="130" y="232" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">洗手設備</text>
+  <text x="130" y="258" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">酒精乾洗手液，近床邊配置，洗手台充足供應洗手皂</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="290" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="290" width="6" height="72" rx="3" fill="#57534e"/>
+  <rect x="56" y="298" width="58" height="56" rx="6" fill="#57534e" fill-opacity="0.15"/>
+  <text x="85" y="338" font-size="30" text-anchor="middle" fill="#57534e" font-family="'Noto Sans TC', sans-serif">G</text>
+  <text x="130" y="318" font-size="18" font-weight="700" fill="#57534e" font-family="'Noto Sans TC', sans-serif">手套耗材</text>
+  <text x="130" y="344" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">拋棄式手套，依尺碼分類，儲備適當數量，取用便利</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="376" width="720" height="72" rx="8" fill="white"/>
+  <rect x="40" y="376" width="6" height="72" rx="3" fill="#a8a29e"/>
+  <rect x="56" y="384" width="58" height="56" rx="6" fill="#a8a29e" fill-opacity="0.15"/>
+  <text x="85" y="424" font-size="30" text-anchor="middle" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">L</text>
+  <text x="130" y="404" font-size="18" font-weight="700" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">物資記錄</text>
+  <text x="130" y="430" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">定期盤點清冊，含有效期限核查日期，異常即補充</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

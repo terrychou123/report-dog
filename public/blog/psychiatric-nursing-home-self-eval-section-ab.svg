@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">A、B面向重點自評項目</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">30項核心指標的自評確認重點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="112" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="112" width="6" height="58" rx="3" fill="#d97706"/>
+  <text x="60" y="137" font-size="18" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">A2.2 人員設置（試扣分）</text>
+  <text x="60" y="160" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">排班表、護理紀錄、職能治療師支援報備</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="182" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="182" width="6" height="58" rx="3" fill="#78716c"/>
+  <text x="60" y="207" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">B1.7 品質監測</text>
+  <text x="60" y="230" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">6大指標月報、品質會議紀錄、年度閾值設定</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="252" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="252" width="6" height="58" rx="3" fill="#57534e"/>
+  <text x="60" y="277" font-size="18" font-weight="700" fill="#57534e" font-family="'Noto Sans TC', sans-serif">B1.3 防疫機制</text>
+  <text x="60" y="300" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">感染管制計畫年度更新、體溫監測紀錄完整</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="322" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="322" width="6" height="58" rx="3" fill="#a8a29e"/>
+  <text x="60" y="347" font-size="18" font-weight="700" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">B1.1 照護計畫</text>
+  <text x="60" y="370" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">入住72小時評估、每月體重記錄、每半年家屬修訂</text>
+
+  <!-- 行5 -->
+  <rect x="40" y="392" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="392" width="6" height="58" rx="3" fill="#94a3b8"/>
+  <text x="60" y="417" font-size="18" font-weight="700" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif">B1.15 復健作業</text>
+  <text x="60" y="440" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每週15小時上限、獎勵金辦法、簽到冊完整</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

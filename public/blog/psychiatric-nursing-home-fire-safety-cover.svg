@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區 -->
+  <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
+
+  <!-- 左側內容區 -->
+  <!-- 主標題第1行 -->
+  <text x="60" y="155" font-size="130" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">消防安全</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="275" font-size="115" font-weight="900" fill="#d97706" font-family="'Noto Sans TC', sans-serif">試扣分攻略</text>
+  <!-- 副標題 -->
+  <text x="60" y="345" font-size="34" fill="#57534e" font-family="'Noto Sans TC', sans-serif">C1.1避難逃生系統完整準備策略</text>
+
+  <!-- 特色標籤 -->
+  <rect x="60" y="385" width="160" height="44" rx="22" fill="#d97706"/>
+  <text x="140" y="413" font-size="21" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">C1.1試扣分</text>
+  <rect x="236" y="385" width="140" height="44" rx="22" fill="#78716c"/>
+  <text x="306" y="413" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">消防安全</text>
+  <rect x="392" y="385" width="140" height="44" rx="22" fill="#57534e"/>
+  <text x="462" y="413" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">夜間演練</text>
+
+  <!-- 適用對象說明 -->
+  <text x="60" y="490" font-size="28" fill="#78716c" font-family="'Noto Sans TC', sans-serif">適用：精神護理之家安全管理負責人員</text>
+  <text x="60" y="530" font-size="28" fill="#78716c" font-family="'Noto Sans TC', sans-serif">C面向三項要求的完整準備方法</text>
+
+  <!-- 右側裝飾 -->
+  <!-- 大數字 -->
+  <text x="1000" y="190" font-size="200" font-weight="900" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">2</text>
+  <text x="1000" y="248" font-size="24" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">個方向等待救接空間</text>
+
+  <!-- 2×2 卡片 -->
+  <!-- 卡片1 -->
+  <rect x="820" y="275" width="170" height="80" rx="10" fill="white"/>
+  <text x="905" y="306" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">C1.1 避難系統</text>
+  <text x="905" y="334" font-size="16" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">試扣分</text>
+  <!-- 卡片2 -->
+  <rect x="1005" y="275" width="170" height="80" rx="10" fill="white"/>
+  <text x="1090" y="306" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">C1.2</text>
+  <text x="1090" y="334" font-size="16" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">火災應變</text>
+  <!-- 卡片3 -->
+  <rect x="820" y="368" width="170" height="80" rx="10" fill="white"/>
+  <text x="905" y="399" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">C1.3</text>
+  <text x="905" y="427" font-size="16" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">夜間演練</text>
+  <!-- 卡片4 -->
+  <rect x="1005" y="368" width="170" height="80" rx="10" fill="white"/>
+  <text x="1090" y="393" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">等待救接空間</text>
+  <text x="1090" y="421" font-size="16" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">各樓層2處</text>
+
+  <!-- 底部說明 -->
+  <text x="1000" y="510" font-size="20" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">C面向不符合即試扣分</text>
+  <text x="1000" y="542" font-size="18" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">務必優先確認硬體設施</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

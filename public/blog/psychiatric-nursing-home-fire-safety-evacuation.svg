@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">C1.1疏散避難系統必備要求</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">試扣分項目的五大設置重點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 行1 -->
+  <rect x="40" y="112" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="112" width="6" height="58" rx="3" fill="#d97706"/>
+  <text x="60" y="136" font-size="18" font-weight="700" fill="#d97706" font-family="'Noto Sans TC', sans-serif">雙向逃生路徑</text>
+  <text x="60" y="158" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">1座以上安全梯，2個以上不同方向的避難途徑，各樓層均需符合</text>
+
+  <!-- 行2 -->
+  <rect x="40" y="182" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="182" width="6" height="58" rx="3" fill="#78716c"/>
+  <text x="60" y="206" font-size="18" font-weight="700" fill="#78716c" font-family="'Noto Sans TC', sans-serif">防火門管理</text>
+  <text x="60" y="228" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">維持關閉或連動火警探測器自動釋放，不需鑰匙即可雙向開啟</text>
+
+  <!-- 行3 -->
+  <rect x="40" y="252" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="252" width="6" height="58" rx="3" fill="#57534e"/>
+  <text x="60" y="276" font-size="18" font-weight="700" fill="#57534e" font-family="'Noto Sans TC', sans-serif">等待救接空間</text>
+  <text x="60" y="298" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">各樓層2個以上，具防火性能、防煙能力及足夠面積供住民等待</text>
+
+  <!-- 行4 -->
+  <rect x="40" y="322" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="322" width="6" height="58" rx="3" fill="#a8a29e"/>
+  <text x="60" y="346" font-size="18" font-weight="700" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">逃生圖張貼</text>
+  <text x="60" y="368" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">主要出入口、玄關及安全梯側均需張貼逃生避難平面圖</text>
+
+  <!-- 行5 -->
+  <rect x="40" y="392" width="720" height="58" rx="8" fill="white"/>
+  <rect x="40" y="392" width="6" height="58" rx="3" fill="#94a3b8"/>
+  <text x="60" y="416" font-size="18" font-weight="700" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif">動線暢通</text>
+  <text x="60" y="438" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">走廊及緊急出口無阻礙物，易堆積處設淨空標示提醒</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

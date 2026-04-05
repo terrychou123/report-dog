@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 主標題 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">精神護理之家創新方向示例</text>
+  <!-- 副標題 -->
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">可發展的創新措施類型，結合機構特色</text>
+  <!-- 分隔線 -->
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 4欄分類卡片 -->
+  <!-- 卡片1 -->
+  <rect x="40" y="114" width="165" height="330" rx="12" fill="#d97706"/>
+  <text x="122" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">科技輔助</text>
+  <text x="122" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">照護</text>
+  <line x1="60" y1="185" x2="185" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="122" y="212" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">ICT遠距診療</text>
+  <text x="122" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">APP住民管理</text>
+  <text x="122" y="258" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">感測設備</text>
+  <text x="122" y="295" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">提升照護效率</text>
+
+  <!-- 卡片2 -->
+  <rect x="220" y="114" width="165" height="330" rx="12" fill="#78716c"/>
+  <text x="302" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">去約束化</text>
+  <text x="302" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">計畫</text>
+  <line x1="240" y1="185" x2="365" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="302" y="212" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">非藥物介入</text>
+  <text x="302" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">取代約束</text>
+  <text x="302" y="295" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">改善住民</text>
+  <text x="302" y="315" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">生活品質</text>
+
+  <!-- 卡片3 -->
+  <rect x="400" y="114" width="165" height="330" rx="12" fill="#57534e"/>
+  <text x="482" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">同儕支持</text>
+  <text x="482" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">方案</text>
+  <line x1="420" y1="185" x2="545" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="482" y="212" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">復原同儕</text>
+  <text x="482" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">支持員制度</text>
+  <text x="482" y="295" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">促進社區</text>
+  <text x="482" y="315" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">連結與復原</text>
+
+  <!-- 卡片4 -->
+  <rect x="580" y="114" width="180" height="330" rx="12" fill="#a8a29e"/>
+  <text x="670" y="150" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">藝術治療</text>
+  <text x="670" y="172" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">活動</text>
+  <line x1="600" y1="185" x2="740" y2="185" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="670" y="212" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">系統性藝術</text>
+  <text x="670" y="235" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">音樂治療</text>
+  <text x="670" y="295" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">有成效評估</text>
+  <text x="670" y="315" font-size="13" fill="rgba(255,255,255,0.85)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">紀錄</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

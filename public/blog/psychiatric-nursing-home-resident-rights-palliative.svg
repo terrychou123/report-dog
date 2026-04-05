@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 主標題 -->
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">安寧緩和療護推動流程</text>
+  <!-- 副標題 -->
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">D1.2要求的安寧療護機制建立步驟</text>
+  <!-- 分隔線 -->
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 步驟1 -->
+  <rect x="40" y="130" width="155" height="110" rx="12" fill="#d97706"/>
+  <text x="117" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 1</text>
+  <text x="117" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">建立機制</text>
+  <text x="117" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">訂定安寧緩和</text>
+  <text x="117" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">療護工作計畫</text>
+  <text x="117" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">或流程</text>
+
+  <!-- 箭頭1 -->
+  <polygon points="210,182 230,172 230,192" fill="#a8a29e"/>
+  <line x1="195" y1="182" x2="230" y2="182" stroke="#a8a29e" stroke-width="3"/>
+
+  <!-- 步驟2 -->
+  <rect x="235" y="130" width="155" height="110" rx="12" fill="#78716c"/>
+  <text x="312" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 2</text>
+  <text x="312" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">個別評估</text>
+  <text x="312" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依住民狀況</text>
+  <text x="312" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">評估安寧療護</text>
+  <text x="312" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">需求，進行溝通</text>
+
+  <!-- 箭頭2 -->
+  <polygon points="405,182 425,172 425,192" fill="#a8a29e"/>
+  <line x1="390" y1="182" x2="425" y2="182" stroke="#a8a29e" stroke-width="3"/>
+
+  <!-- 步驟3 -->
+  <rect x="430" y="130" width="155" height="110" rx="12" fill="#57534e"/>
+  <text x="507" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 3</text>
+  <text x="507" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行記錄</text>
+  <text x="507" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">有執行記錄，</text>
+  <text x="507" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">或說明無法</text>
+  <text x="507" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">提供的原因</text>
+
+  <!-- 箭頭3 -->
+  <polygon points="600,182 620,172 620,192" fill="#a8a29e"/>
+  <line x1="585" y1="182" x2="620" y2="182" stroke="#a8a29e" stroke-width="3"/>
+
+  <!-- 步驟4 -->
+  <rect x="625" y="130" width="135" height="110" rx="12" fill="#a8a29e"/>
+  <text x="692" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 4</text>
+  <text x="692" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">病人自主</text>
+  <text x="692" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">推動預立</text>
+  <text x="692" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">醫療決定</text>
+  <text x="692" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">有紀錄</text>
+
+  <!-- 連接線 -->
+  <line x1="117" y1="240" x2="117" y2="300" stroke="#d97706" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="312" y1="240" x2="312" y2="300" stroke="#78716c" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="507" y1="240" x2="507" y2="300" stroke="#57534e" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="692" y1="240" x2="692" y2="300" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- 底部說明框 -->
+  <rect x="40" y="390" width="720" height="50" rx="8" fill="white" opacity="0.6"/>
+  <text x="400" y="420" font-size="17" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">病人自主權利法推動需主動說明，並留存住民或家屬知情同意紀錄</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

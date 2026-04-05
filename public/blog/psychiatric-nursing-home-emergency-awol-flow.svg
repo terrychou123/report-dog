@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">住民擅自離院處理SOP</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">精神衛生法第52條規定的標準通報流程</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 流程連接線 -->
+  <line x1="130" y1="200" x2="670" y2="200" stroke="#e8e6de" stroke-width="4" stroke-dasharray="8,4"/>
+
+  <!-- 步驟1 -->
+  <circle cx="130" cy="200" r="38" fill="#d97706"/>
+  <text x="130" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">發現</text>
+  <text x="130" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">離院</text>
+  <rect x="60" y="258" width="140" height="92" rx="8" fill="white"/>
+  <text x="130" y="284" font-size="17" font-weight="700" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">發現離院</text>
+  <text x="130" y="306" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">確認住民不在院內</text>
+  <text x="130" y="326" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">立即通知護理站</text>
+  <text x="130" y="344" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">記錄發現時間</text>
+
+  <!-- 步驟2 -->
+  <circle cx="330" cy="200" r="38" fill="#78716c"/>
+  <text x="330" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">立即</text>
+  <text x="330" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">通報</text>
+  <rect x="260" y="258" width="140" height="92" rx="8" fill="white"/>
+  <text x="330" y="284" font-size="17" font-weight="700" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">立即通報</text>
+  <text x="330" y="306" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">通知保護人（家屬）</text>
+  <text x="330" y="326" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">行蹤不明立即報警</text>
+  <text x="330" y="344" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依精神衛生法第52條</text>
+
+  <!-- 步驟3 -->
+  <circle cx="530" cy="200" r="38" fill="#57534e"/>
+  <text x="530" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">啟動</text>
+  <text x="530" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">尋找</text>
+  <rect x="460" y="258" width="140" height="92" rx="8" fill="white"/>
+  <text x="530" y="284" font-size="17" font-weight="700" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">啟動尋找</text>
+  <text x="530" y="306" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">機構附近搜尋</text>
+  <text x="530" y="326" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">與警察協同追蹤</text>
+  <text x="530" y="344" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">保持聯絡暢通</text>
+
+  <!-- 步驟4 -->
+  <circle cx="670" cy="200" r="38" fill="#a8a29e"/>
+  <text x="670" y="196" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">後續</text>
+  <text x="670" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">處理</text>
+  <rect x="600" y="258" width="140" height="92" rx="8" fill="white"/>
+  <text x="670" y="284" font-size="17" font-weight="700" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">後續處理</text>
+  <text x="670" y="306" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">返院後安全評估</text>
+  <text x="670" y="326" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">填寫事件分析報告</text>
+  <text x="670" y="344" font-size="13" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">追蹤改善措施</text>
+
+  <!-- 提示文字 -->
+  <rect x="40" y="390" width="720" height="48" rx="8" fill="#d97706" fill-opacity="0.12"/>
+  <text x="400" y="421" font-size="20" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精神衛生法第52條：行蹤不明需立即向警察報告</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">復健作業活動自評清單</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑前確認B1.15的四項要求均已符合</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 左欄標題 -->
+  <rect x="40" y="110" width="340" height="40" rx="6" fill="#d97706"/>
+  <text x="210" y="136" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">制度面</text>
+
+  <!-- 左欄項目1 - 確認 -->
+  <rect x="40" y="162" width="340" height="54" rx="6" fill="white"/>
+  <circle cx="70" cy="189" r="14" fill="#22c55e"/>
+  <text x="70" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
+  <text x="96" y="184" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">有獎勵金計算辦法</text>
+  <text x="96" y="204" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">書面辦法完整，已上傳備審</text>
+
+  <!-- 左欄項目2 - 確認 -->
+  <rect x="40" y="228" width="340" height="54" rx="6" fill="white"/>
+  <circle cx="70" cy="255" r="14" fill="#22c55e"/>
+  <text x="70" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
+  <text x="96" y="250" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">每位住民有同意書</text>
+  <text x="96" y="270" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">入住時已簽署，歸檔保存</text>
+
+  <!-- 左欄項目3 - 待確認 -->
+  <rect x="40" y="294" width="340" height="54" rx="6" fill="white"/>
+  <circle cx="70" cy="321" r="14" fill="#f59e0b"/>
+  <text x="70" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">!</text>
+  <text x="96" y="316" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">辦法是否每年更新</text>
+  <text x="96" y="336" font-size="14" fill="#f59e0b" font-family="'Noto Sans TC', sans-serif">待確認 — 需確認更新日期</text>
+
+  <!-- 右欄標題 -->
+  <rect x="420" y="110" width="340" height="40" rx="6" fill="#78716c"/>
+  <text x="590" y="136" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行面</text>
+
+  <!-- 右欄項目1 - 確認 -->
+  <rect x="420" y="162" width="340" height="54" rx="6" fill="white"/>
+  <circle cx="450" cy="189" r="14" fill="#22c55e"/>
+  <text x="450" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
+  <text x="476" y="184" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">每週時數不超過15小時</text>
+  <text x="476" y="204" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">已逐月核對，無超時情形</text>
+
+  <!-- 右欄項目2 - 確認 -->
+  <rect x="420" y="228" width="340" height="54" rx="6" fill="white"/>
+  <circle cx="450" cy="255" r="14" fill="#22c55e"/>
+  <text x="450" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
+  <text x="476" y="250" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">有簽到冊</text>
+  <text x="476" y="270" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">每次活動均有住民簽到</text>
+
+  <!-- 右欄項目3 - 待確認 -->
+  <rect x="420" y="294" width="340" height="54" rx="6" fill="white"/>
+  <circle cx="450" cy="321" r="14" fill="#f59e0b"/>
+  <text x="450" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">!</text>
+  <text x="476" y="316" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">B2.3職能評估連結</text>
+  <text x="476" y="336" font-size="14" fill="#f59e0b" font-family="'Noto Sans TC', sans-serif">待確認 — 需確認評估記錄</text>
+
+  <!-- 圖例說明 -->
+  <circle cx="60" cy="398" r="10" fill="#22c55e"/>
+  <text x="78" y="403" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">已確認</text>
+  <circle cx="160" cy="398" r="10" fill="#f59e0b"/>
+  <text x="178" y="403" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">待確認（需補強）</text>
+
+  <!-- 提示 -->
+  <rect x="40" y="420" width="720" height="40" rx="6" fill="#d97706" fill-opacity="0.12"/>
+  <text x="400" y="445" font-size="18" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">發放紀錄與簽到冊是評鑑委員最常查驗的文件</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

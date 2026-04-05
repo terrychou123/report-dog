@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">A2.2人力配置自評清單</text>
+  <text x="40" y="78" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif">評鑑前逐項確認，試扣分項目務必達標</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 左欄：護理人員 -->
+  <rect x="30" y="112" width="360" height="330" rx="10" fill="white" opacity="0.75"/>
+  <rect x="30" y="112" width="360" height="6" rx="3" fill="#d97706"/>
+  <text x="50" y="142" font-size="19" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">護理人員</text>
+  <text x="370" y="142" font-size="14" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">A2.2 試扣分</text>
+
+  <!-- 已確認項目 -->
+  <rect x="50" y="158" width="15" height="15" rx="3" fill="#d97706"/>
+  <text x="74" y="171" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">有排班表（已確認）</text>
+  <rect x="50" y="184" width="15" height="15" rx="3" fill="#d97706"/>
+  <text x="74" y="197" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">夜班有護理人員在班（已確認）</text>
+  <rect x="50" y="210" width="15" height="15" rx="3" fill="#d97706"/>
+  <text x="74" y="223" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">護理師執照影本備齊（已確認）</text>
+
+  <!-- 待確認項目 -->
+  <rect x="50" y="236" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="74" y="249" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">連假是否有排班缺口（待確認）</text>
+  <rect x="50" y="262" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="74" y="275" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">三班護理紀錄簽名完整性（待確認）</text>
+  <rect x="50" y="288" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="74" y="301" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">臨時代理護理程序（待確認）</text>
+  <rect x="50" y="314" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="74" y="327" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">護理人員年度出勤紀錄（待確認）</text>
+  <rect x="50" y="340" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="74" y="353" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">護理人力配比計算表（待確認）</text>
+
+  <!-- 右欄：專業人員 -->
+  <rect x="410" y="112" width="360" height="330" rx="10" fill="white" opacity="0.75"/>
+  <rect x="410" y="112" width="360" height="6" rx="3" fill="#78716c"/>
+  <text x="430" y="142" font-size="19" font-weight="bold" fill="#78716c" font-family="'Noto Sans TC', sans-serif">專業人員</text>
+  <text x="750" y="142" font-size="14" fill="#78716c" text-anchor="end" font-family="'Noto Sans TC', sans-serif">職能/心理師</text>
+
+  <!-- 已確認項目 -->
+  <rect x="430" y="158" width="15" height="15" rx="3" fill="#78716c"/>
+  <text x="454" y="171" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">職能治療師時數紀錄（已確認）</text>
+  <rect x="430" y="184" width="15" height="15" rx="3" fill="#78716c"/>
+  <text x="454" y="197" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">心理師支援報備文件（已確認）</text>
+  <rect x="430" y="210" width="15" height="15" rx="3" fill="#78716c"/>
+  <text x="454" y="223" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">專業人員執照備齊（已確認）</text>
+
+  <!-- 待確認項目 -->
+  <rect x="430" y="236" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="454" y="249" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">工作人員名冊更新（待確認）</text>
+  <rect x="430" y="262" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="454" y="275" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">床數變動後重新計算（待確認）</text>
+  <rect x="430" y="288" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="454" y="301" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">兼任人員聘用合約（待確認）</text>
+  <rect x="430" y="314" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="454" y="327" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">職能師月時數統計表（待確認）</text>
+  <rect x="430" y="340" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
+  <text x="454" y="353" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">照服員結訓證書影本（待確認）</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

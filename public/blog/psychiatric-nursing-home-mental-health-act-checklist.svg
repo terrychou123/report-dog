@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">法規遵循自評清單</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">確認機構已因應精神衛生法修法調整</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 左欄標題 -->
+  <rect x="40" y="110" width="340" height="44" rx="8" fill="#d97706"/>
+  <text x="210" y="138" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">SOP更新</text>
+
+  <!-- 右欄標題 -->
+  <rect x="420" y="110" width="340" height="44" rx="8" fill="#78716c"/>
+  <text x="590" y="138" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">文件建置</text>
+
+  <!-- 左欄項目1 確認 -->
+  <rect x="40" y="165" width="340" height="64" rx="8" fill="white"/>
+  <rect x="55" y="182" width="24" height="24" rx="4" fill="#d97706"/>
+  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
+  <text x="95" y="193" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：擅離院SOP含法律依據</text>
+  <text x="95" y="215" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">引用新法第52條規定</text>
+
+  <!-- 左欄項目2 確認 -->
+  <rect x="40" y="240" width="340" height="64" rx="8" fill="white"/>
+  <rect x="55" y="257" width="24" height="24" rx="4" fill="#d97706"/>
+  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
+  <text x="95" y="268" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：強制住院相關流程更新</text>
+  <text x="95" y="290" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">配合7日安置上限修訂</text>
+
+  <!-- 左欄項目3 待確認 -->
+  <rect x="40" y="315" width="340" height="80" rx="8" fill="white"/>
+  <rect x="55" y="337" width="24" height="24" rx="4" fill="#a8a29e"/>
+  <text x="67" y="354" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">!</text>
+  <text x="95" y="345" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">待確認：員工接受新法訓練</text>
+  <text x="95" y="367" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">是否安排修法內容教育訓練</text>
+
+  <!-- 右欄項目1 確認 -->
+  <rect x="420" y="165" width="340" height="64" rx="8" fill="white"/>
+  <rect x="435" y="182" width="24" height="24" rx="4" fill="#78716c"/>
+  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
+  <text x="475" y="193" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：住民自主權利紀錄</text>
+  <text x="475" y="215" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">預立醫療決定推動有記錄</text>
+
+  <!-- 右欄項目2 確認 -->
+  <rect x="420" y="240" width="340" height="64" rx="8" fill="white"/>
+  <rect x="435" y="257" width="24" height="24" rx="4" fill="#78716c"/>
+  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
+  <text x="475" y="268" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：安寧療護推動記錄</text>
+  <text x="475" y="290" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">相關活動有書面紀錄</text>
+
+  <!-- 右欄項目3 待確認 -->
+  <rect x="420" y="315" width="340" height="80" rx="8" fill="white"/>
+  <rect x="435" y="337" width="24" height="24" rx="4" fill="#a8a29e"/>
+  <text x="447" y="354" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">!</text>
+  <text x="475" y="345" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">待確認：家屬教育含法規說明</text>
+  <text x="475" y="367" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">家屬說明會是否含新法內容</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>
