@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header (y=50, h=62) -->
+  <rect x="0" y="50" width="800" height="62" fill="white"/>
+  <rect x="0" y="50" width="6" height="62" fill="#2563eb"/>
+  <text x="28" y="91" font-size="30" fill="#1e293b" font-weight="700">督導制度與個案研討會（項目 27–28）</text>
+
+  <!-- Row 1 (y=160): 項目27 服務評估 2分 -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">27</text>
+  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700">服務（含方案）評估</text>
+  <text x="100" y="207" font-size="16" fill="#57534e">服務/方案績效評估報告，須含具體評估方法、結果與改善方向</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="188" font-size="16" fill="#d97706" text-anchor="middle">配分</text>
+  <text x="688" y="208" font-size="18" fill="#d97706" text-anchor="middle" font-weight="700">2 分</text>
+
+  <!-- Row 2 (y=235): 個案研討會 1分 -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">28a</text>
+  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">個案研討會</text>
+  <text x="100" y="282" font-size="16" fill="#57534e">定期舉辦，需有：出席名單、討論個案、摘要與行動建議</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="263" font-size="16" fill="#78716c" text-anchor="middle">配分</text>
+  <text x="688" y="283" font-size="18" fill="#78716c" text-anchor="middle" font-weight="700">1 分</text>
+
+  <!-- Row 3 (y=310): 專業督導制度 1分 -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">28b</text>
+  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700">專業督導制度</text>
+  <text x="100" y="357" font-size="16" fill="#57534e">督導頻率、督導記錄（主題/意見/行動），且確實落實</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="338" font-size="16" fill="#57534e" text-anchor="middle">配分</text>
+  <text x="688" y="358" font-size="18" fill="#57534e" text-anchor="middle" font-weight="700">1 分</text>
+
+  <!-- Row 4 (y=385): 評分關鍵提示 -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="1" stroke-dasharray="5,3"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#d97706"/>
+  <text x="66" y="407" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">！</text>
+  <text x="100" y="407" font-size="18" fill="#1e293b" font-weight="700">評鑑委員查核重點</text>
+  <text x="100" y="431" font-size="15" fill="#57534e">制度要有實際落實！個案研討與督導紀錄需完整、具體，</text>
+  <text x="100" y="449" font-size="15" fill="#57534e">不可只有空白表格，也不可事後補寫</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- Left content area -->
+  <rect x="0" y="0" width="820" height="630" fill="#f0efe8"/>
+  <!-- Right panel -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- Accent bar -->
+  <rect x="60" y="80" width="8" height="80" fill="#d97706"/>
+  <!-- Main title -->
+  <text x="88" y="130" font-family="'Noto Sans TC', sans-serif" font-size="52" font-weight="700" fill="#1e293b">評鑑自我檢核表</text>
+  <text x="88" y="195" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="500" fill="#57534e">兒少安置機構 112年度</text>
+  <!-- Subtitle description -->
+  <text x="88" y="270" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#78716c">從下載到完成的實戰使用教學</text>
+  <!-- Info chips -->
+  <rect x="88" y="310" width="180" height="44" rx="22" fill="#d97706"/>
+  <text x="178" y="338" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="white" text-anchor="middle">全 5 大區塊</text>
+  <rect x="284" y="310" width="180" height="44" rx="22" fill="#78716c"/>
+  <text x="374" y="338" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="white" text-anchor="middle">共 35 項目</text>
+  <rect x="480" y="310" width="200" height="44" rx="22" fill="#94a3b8"/>
+  <text x="580" y="338" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="white" text-anchor="middle">評鑑人員審核</text>
+  <!-- Right panel large number -->
+  <text x="1010" y="260" font-family="'Noto Sans TC', sans-serif" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle">35</text>
+  <text x="1010" y="340" font-family="'Noto Sans TC', sans-serif" font-size="28" fill="#78716c" text-anchor="middle">評鑑項目</text>
+  <text x="1010" y="390" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#a8a29e" text-anchor="middle">全面自我檢核</text>
+  <!-- Bottom section list -->
+  <text x="88" y="430" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#57534e">壹 行政組織 ／ 貳 環境設施 ／ 參 專業服務</text>
+  <text x="88" y="465" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#57534e">肆 財務管理 ／ 伍 特殊事項</text>
+  <!-- Watermark -->
+  <text x="1140" y="600" font-size="24" font-family="'Noto Sans TC', sans-serif" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- Decorative text on right -->
+  <text x="1010" y="310" font-size="96" fill="#d97706" opacity="0.85" text-anchor="middle" font-weight="700">三個月</text>
+  <text x="1010" y="400" font-size="36" fill="#78716c" text-anchor="middle" font-weight="500">快速上手</text>
+  <text x="1010" y="445" font-size="28" fill="#a8a29e" text-anchor="middle" font-weight="400">評鑑準備</text>
+  <!-- Left content -->
+  <text x="72" y="175" font-size="68" fill="#1e293b" font-weight="700">新進生輔員</text>
+  <text x="72" y="255" font-size="44" fill="#d97706" font-weight="700">評鑑生存指南</text>
+  <text x="72" y="325" font-size="26" fill="#57534e" font-weight="400">從零開始，三個月搞懂</text>
+  <text x="72" y="365" font-size="26" fill="#57534e" font-weight="400">你在評鑑中扮演的角色與責任</text>
+  <!-- Pills -->
+  <rect x="72" y="415" width="140" height="40" rx="20" fill="#d97706"/>
+  <text x="142" y="441" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="500">實務技巧</text>
+  <rect x="226" y="415" width="130" height="40" rx="20" fill="#78716c"/>
+  <text x="291" y="441" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="500">生輔員</text>
+  <rect x="370" y="415" width="130" height="40" rx="20" fill="#57534e"/>
+  <text x="435" y="441" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="500">新進人員</text>
+  <!-- Watermark -->
+  <text x="1140" y="600" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

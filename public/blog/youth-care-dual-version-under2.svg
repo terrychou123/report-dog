@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="28" y="28" width="744" height="62" rx="10" fill="#ea580c"/>
+  <text x="400" y="53" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">2 歲以下版本：項目 17–20 配分明細</text>
+  <text x="400" y="78" font-size="15" fill="#fed7aa" text-anchor="middle">嬰幼兒安置機構適用</text>
+  <!-- Row 1: Item 17 -->
+  <rect x="28" y="108" width="744" height="62" rx="8" fill="#ffffff"/>
+  <rect x="28" y="108" width="6" height="62" rx="3" fill="#ea580c"/>
+  <circle cx="66" cy="121" r="16" fill="#ea580c"/>
+  <text x="66" y="127" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">17</text>
+  <text x="94" y="126" font-size="16" fill="#1e293b" font-weight="600">入院協助與適應</text>
+  <text x="94" y="150" font-size="14" fill="#57534e">了解嬰幼兒身心狀態（2分）+ 協助作息適應（2分）</text>
+  <rect x="620" y="116" width="144" height="46" rx="8" fill="#fed7aa"/>
+  <text x="692" y="136" font-size="18" fill="#c2410c" text-anchor="middle" font-weight="700">4 分</text>
+  <text x="692" y="154" font-size="13" fill="#c2410c" text-anchor="middle">2 個面向</text>
+  <!-- Row 2: Item 18 -->
+  <rect x="28" y="183" width="744" height="62" rx="8" fill="#ffffff"/>
+  <rect x="28" y="183" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="196" r="16" fill="#d97706"/>
+  <text x="66" y="202" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">18</text>
+  <text x="94" y="201" font-size="16" fill="#1e293b" font-weight="600">在院生活輔導（核心項目）</text>
+  <text x="94" y="225" font-size="14" fill="#57534e">人身安全、家庭空間、飲食、依附關係等 8 面向</text>
+  <rect x="620" y="191" width="144" height="46" rx="8" fill="#fef3c7"/>
+  <text x="692" y="211" font-size="18" fill="#92400e" text-anchor="middle" font-weight="700">16 分</text>
+  <text x="692" y="229" font-size="13" fill="#92400e" text-anchor="middle">8 面向各 2 分</text>
+  <!-- Row 3: Item 19 -->
+  <rect x="28" y="258" width="744" height="62" rx="8" fill="#ffffff"/>
+  <rect x="28" y="258" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="271" r="16" fill="#57534e"/>
+  <text x="66" y="277" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">19</text>
+  <text x="94" y="276" font-size="16" fill="#1e293b" font-weight="600">離院協助與準備</text>
+  <text x="94" y="300" font-size="14" fill="#57534e">協助嬰幼兒離院之準備（2分）</text>
+  <rect x="620" y="266" width="144" height="46" rx="8" fill="#e5e7eb"/>
+  <text x="692" y="286" font-size="18" fill="#374151" text-anchor="middle" font-weight="700">2 分</text>
+  <text x="692" y="304" font-size="13" fill="#374151" text-anchor="middle">1 面向</text>
+  <!-- Row 4: Item 20 -->
+  <rect x="28" y="333" width="744" height="62" rx="8" fill="#ffffff"/>
+  <rect x="28" y="333" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="346" r="16" fill="#a8a29e"/>
+  <text x="66" y="352" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">20</text>
+  <text x="94" y="351" font-size="16" fill="#1e293b" font-weight="600">直接服務</text>
+  <text x="94" y="375" font-size="14" fill="#57534e">個案處遇計畫、生活紀錄、家庭重聚、特殊行為等 5 面向</text>
+  <rect x="620" y="341" width="144" height="46" rx="8" fill="#e5e7eb"/>
+  <text x="692" y="361" font-size="18" fill="#374151" text-anchor="middle" font-weight="700">10 分</text>
+  <text x="692" y="379" font-size="13" fill="#374151" text-anchor="middle">5 面向各 2 分</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

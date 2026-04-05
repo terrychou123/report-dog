@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Title -->
+  <text x="400" y="52" font-size="22" fill="#1e293b" text-anchor="middle" font-weight="700">新進生輔員三個月評鑑準備時程</text>
+  <text x="400" y="78" font-size="15" fill="#57534e" text-anchor="middle">按月份掌握核心任務，建立個案紀錄基礎</text>
+  <!-- N=3 Flow cards -->
+  <!-- Arrows -->
+  <line x1="315" y1="279" x2="399" y2="279" stroke="#a8a29e" stroke-width="2.5"/>
+  <polygon points="399,274 409,279 399,284" fill="#a8a29e"/>
+  <line x1="501" y1="279" x2="585" y2="279" stroke="#a8a29e" stroke-width="2.5"/>
+  <polygon points="585,274 595,279 585,284" fill="#a8a29e"/>
+  <!-- Card 1: Month 1 -->
+  <rect x="129" y="108" width="186" height="342" rx="12" fill="#ffffff"/>
+  <!-- STEP circle -->
+  <circle cx="222" cy="194" r="43" fill="#d97706"/>
+  <text x="222" y="188" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第一個月</text>
+  <text x="222" y="208" font-size="14" fill="#fef3c7" text-anchor="middle">認識制度</text>
+  <text x="222" y="270" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="600">核心任務</text>
+  <text x="222" y="296" font-size="13" fill="#57534e" text-anchor="middle">閱讀員工手冊</text>
+  <text x="222" y="316" font-size="13" fill="#57534e" text-anchor="middle">了解輔導查核表</text>
+  <text x="222" y="336" font-size="13" fill="#57534e" text-anchor="middle">熟悉交班格式</text>
+  <text x="222" y="356" font-size="13" fill="#57534e" text-anchor="middle">跟班學習紀錄寫法</text>
+  <text x="222" y="390" font-size="12" fill="#92400e" text-anchor="middle" font-weight="600">重點：交班紀錄</text>
+  <text x="222" y="408" font-size="12" fill="#92400e" text-anchor="middle">項目 15</text>
+  <!-- Card 2: Month 2 -->
+  <rect x="315" y="108" width="186" height="342" rx="12" fill="#ffffff"/>
+  <!-- STEP circle -->
+  <circle cx="408" cy="194" r="43" fill="#78716c"/>
+  <text x="408" y="188" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第二個月</text>
+  <text x="408" y="208" font-size="14" fill="#d6d3d1" text-anchor="middle">建立紀錄</text>
+  <text x="408" y="270" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="600">核心任務</text>
+  <text x="408" y="296" font-size="13" fill="#57534e" text-anchor="middle">開始獨立撰寫</text>
+  <text x="408" y="316" font-size="13" fill="#57534e" text-anchor="middle">生活輔導紀錄</text>
+  <text x="408" y="336" font-size="13" fill="#57534e" text-anchor="middle">了解個案處遇計畫</text>
+  <text x="408" y="356" font-size="13" fill="#57534e" text-anchor="middle">參與個案研討會</text>
+  <text x="408" y="390" font-size="12" fill="#1d4ed8" text-anchor="middle" font-weight="600">重點：在院輔導</text>
+  <text x="408" y="408" font-size="12" fill="#1d4ed8" text-anchor="middle">項目 22 / 18</text>
+  <!-- Card 3: Month 3 -->
+  <rect x="501" y="108" width="186" height="342" rx="12" fill="#ffffff"/>
+  <!-- STEP circle -->
+  <circle cx="594" cy="194" r="43" fill="#57534e"/>
+  <text x="594" y="188" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第三個月</text>
+  <text x="594" y="208" font-size="14" fill="#d6d3d1" text-anchor="middle">自我查核</text>
+  <text x="594" y="270" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="600">核心任務</text>
+  <text x="594" y="296" font-size="13" fill="#57534e" text-anchor="middle">自我檢查紀錄完整性</text>
+  <text x="594" y="316" font-size="13" fill="#57534e" text-anchor="middle">補齊缺漏文件</text>
+  <text x="594" y="336" font-size="13" fill="#57534e" text-anchor="middle">了解委員訪視流程</text>
+  <text x="594" y="356" font-size="13" fill="#57534e" text-anchor="middle">模擬委員問答</text>
+  <text x="594" y="390" font-size="12" fill="#166534" text-anchor="middle" font-weight="600">重點：全面備齊</text>
+  <text x="594" y="408" font-size="12" fill="#166534" text-anchor="middle">各項目文件</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

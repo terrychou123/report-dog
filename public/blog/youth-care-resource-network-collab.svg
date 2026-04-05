@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans TC', sans-serif; }
+    </style>
+  </defs>
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <rect x="28" y="28" width="744" height="56" rx="10" fill="#57534e"/>
+  <text x="400" y="64" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">跨專業協調合作記錄機制</text>
+
+  <!-- N=3 flow: Cards at x=44,289,534; y=108 h=342 -->
+  <!-- Card 1 -->
+  <rect x="44" y="108" width="210" height="342" rx="14" fill="#ffffff"/>
+  <rect x="44" y="108" width="210" height="8" rx="8" fill="#d97706"/>
+  <text x="149" y="156" font-size="28" font-weight="900" fill="#d97706" text-anchor="middle">建立</text>
+  <text x="149" y="188" font-size="17" font-weight="700" fill="#1e293b" text-anchor="middle">合作名錄</text>
+  <line x1="68" y1="208" x2="234" y2="208" stroke="#e8e6de" stroke-width="1"/>
+  <text x="68" y="234" font-size="14" fill="#57534e">心理師</text>
+  <text x="68" y="258" font-size="14" fill="#57534e">學校輔導老師</text>
+  <text x="68" y="282" font-size="14" fill="#57534e">精神科醫師</text>
+  <text x="68" y="306" font-size="14" fill="#57534e">職能治療師</text>
+  <text x="68" y="330" font-size="14" fill="#57534e">法律扶助人員</text>
+  <text x="68" y="354" font-size="14" fill="#57534e">其他專業人員</text>
+  <rect x="62" y="370" width="166" height="62" rx="8" fill="#fef3c7"/>
+  <text x="145" y="396" font-size="13" fill="#78716c" text-anchor="middle">建議：整理合作</text>
+  <text x="145" y="416" font-size="13" fill="#78716c" text-anchor="middle">協議書 (MOU)</text>
+
+  <!-- Arrow 1→2 -->
+  <text x="268" y="290" font-size="32" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- Card 2 -->
+  <rect x="289" y="108" width="210" height="342" rx="14" fill="#ffffff"/>
+  <rect x="289" y="108" width="210" height="8" rx="8" fill="#78716c"/>
+  <text x="394" y="156" font-size="28" font-weight="900" fill="#78716c" text-anchor="middle">記錄</text>
+  <text x="394" y="188" font-size="17" font-weight="700" fill="#1e293b" text-anchor="middle">聯繫情形</text>
+  <line x1="313" y1="208" x2="479" y2="208" stroke="#e8e6de" stroke-width="1"/>
+  <text x="313" y="234" font-size="14" fill="#57534e">聯繫日期</text>
+  <text x="313" y="258" font-size="14" fill="#57534e">對口人員姓名</text>
+  <text x="313" y="282" font-size="14" fill="#57534e">討論議題摘要</text>
+  <text x="313" y="306" font-size="14" fill="#57534e">提供的專業建議</text>
+  <text x="313" y="330" font-size="14" fill="#57534e">後續行動確認</text>
+  <text x="313" y="354" font-size="14" fill="#57534e">聯繫方式（電話/面談）</text>
+  <rect x="307" y="370" width="166" height="62" rx="8" fill="#fef3c7"/>
+  <text x="390" y="396" font-size="13" fill="#78716c" text-anchor="middle">電話諮詢需於</text>
+  <text x="390" y="416" font-size="13" fill="#78716c" text-anchor="middle">24小時內書面記錄</text>
+
+  <!-- Arrow 2→3 -->
+  <text x="513" y="290" font-size="32" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- Card 3 -->
+  <rect x="534" y="108" width="210" height="342" rx="14" fill="#ffffff"/>
+  <rect x="534" y="108" width="210" height="8" rx="8" fill="#57534e"/>
+  <text x="639" y="156" font-size="28" font-weight="900" fill="#57534e" text-anchor="middle">追蹤</text>
+  <text x="639" y="188" font-size="17" font-weight="700" fill="#1e293b" text-anchor="middle">執行成效</text>
+  <line x1="558" y1="208" x2="724" y2="208" stroke="#e8e6de" stroke-width="1"/>
+  <text x="558" y="234" font-size="14" fill="#57534e">建議執行情形</text>
+  <text x="558" y="258" font-size="14" fill="#57534e">個案服務調整</text>
+  <text x="558" y="282" font-size="14" fill="#57534e">再次聯繫記錄</text>
+  <text x="558" y="306" font-size="14" fill="#57534e">合作關係評估</text>
+  <text x="558" y="330" font-size="14" fill="#57534e">年度合作回顧</text>
+  <text x="558" y="354" font-size="14" fill="#57534e">新資源開發需求</text>
+  <rect x="552" y="370" width="166" height="62" rx="8" fill="#fef3c7"/>
+  <text x="635" y="396" font-size="13" fill="#78716c" text-anchor="middle">形成系統性</text>
+  <text x="635" y="416" font-size="13" fill="#78716c" text-anchor="middle">而非臨時性合作</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
+</svg>

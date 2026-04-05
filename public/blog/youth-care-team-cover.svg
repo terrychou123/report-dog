@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- Left panel -->
+  <text x="60" y="90" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">112年度兒少安置機構評鑑</text>
+  <text x="60" y="160" font-family="'Noto Sans TC', sans-serif" font-size="46" fill="#1e293b" font-weight="900">評鑑不是</text>
+  <text x="60" y="220" font-family="'Noto Sans TC', sans-serif" font-size="46" fill="#1e293b" font-weight="900">一個人的事</text>
+  <text x="60" y="285" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="#d97706" font-weight="700">團隊分工協作全指南</text>
+
+  <text x="60" y="350" font-family="'Noto Sans TC', sans-serif" font-size="17" fill="#57534e">5 個角色 × 35 個評鑑項目</text>
+  <text x="60" y="376" font-family="'Noto Sans TC', sans-serif" font-size="17" fill="#57534e">讓每個人都知道自己的責任範圍</text>
+
+  <!-- Tag badges -->
+  <rect x="60" y="420" width="130" height="38" rx="19" fill="#d97706"/>
+  <text x="125" y="444" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle">實務技巧</text>
+
+  <rect x="205" y="420" width="130" height="38" rx="19" fill="#78716c"/>
+  <text x="270" y="444" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle">團隊分工</text>
+
+  <rect x="350" y="420" width="130" height="38" rx="19" fill="#94a3b8"/>
+  <text x="415" y="444" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle">多人協作</text>
+
+  <!-- Right panel: 5 role circles -->
+  <text x="1010" y="80" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#57534e" text-anchor="middle">5 大核心角色</text>
+
+  <circle cx="1010" cy="155" r="45" fill="#d97706" opacity="0.15"/>
+  <circle cx="1010" cy="155" r="35" fill="#d97706"/>
+  <text x="1010" y="161" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">主管/院長</text>
+
+  <circle cx="910" cy="270" r="35" fill="#78716c"/>
+  <text x="910" y="276" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">社工</text>
+
+  <circle cx="1110" cy="270" r="35" fill="#57534e"/>
+  <text x="1110" y="276" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">生輔員</text>
+
+  <circle cx="930" cy="400" r="35" fill="#a8a29e"/>
+  <text x="930" y="406" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">行政</text>
+
+  <circle cx="1090" cy="400" r="35" fill="#94a3b8"/>
+  <text x="1090" y="406" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">督導</text>
+
+  <!-- Connection lines -->
+  <line x1="1010" y1="190" x2="940" y2="240" stroke="#d97706" stroke-width="1.5" opacity="0.4"/>
+  <line x1="1010" y1="190" x2="1080" y2="240" stroke="#d97706" stroke-width="1.5" opacity="0.4"/>
+  <line x1="910" y1="305" x2="930" y2="365" stroke="#78716c" stroke-width="1.5" opacity="0.4"/>
+  <line x1="1110" y1="305" x2="1090" y2="365" stroke="#57534e" stroke-width="1.5" opacity="0.4"/>
+
+  <text x="1010" y="490" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e" text-anchor="middle">協作產出更好成果</text>
+
+  <!-- Watermark -->
+  <text x="1140" y="600" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

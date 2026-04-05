@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans TC', sans-serif; }
+    </style>
+  </defs>
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- N=5 list Header y=29 h=60 -->
+  <rect x="28" y="29" width="744" height="60" rx="10" fill="#78716c"/>
+  <text x="400" y="67" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">項目 7–14 環境設備區塊（10分±2）</text>
+
+  <!-- Row 1 y=118 h=60 -->
+  <rect x="28" y="118" width="744" height="60" rx="10" fill="#ffffff"/>
+  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706"/>
+  <text x="66" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="148">7</text>
+  <text x="96" y="141" font-size="17" font-weight="700" fill="#1e293b">整體環境衛生</text>
+  <text x="96" y="162" font-size="13" fill="#57534e">清潔頻率記錄、蟲害與異常處理紀錄</text>
+  <rect x="660" y="129" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="152" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
+
+  <!-- Row 2 y=191 h=60 -->
+  <rect x="28" y="191" width="744" height="60" rx="10" fill="#ffffff"/>
+  <rect x="28" y="191" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="221" r="16" fill="#d97706"/>
+  <text x="66" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="221">8</text>
+  <text x="96" y="214" font-size="17" font-weight="700" fill="#1e293b">機構環境配置（設置標準第21條）</text>
+  <text x="96" y="235" font-size="13" fill="#57534e">人均面積、功能空間設置、逃生動線——最嚴格</text>
+  <rect x="660" y="202" width="100" height="38" rx="8" fill="#fee2e2"/>
+  <text x="710" y="225" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">2 分</text>
+
+  <!-- Row 3 y=264 h=60 -->
+  <rect x="28" y="264" width="744" height="60" rx="10" fill="#ffffff"/>
+  <rect x="28" y="264" width="6" height="60" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="294" r="16" fill="#78716c"/>
+  <text x="66" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="294">9</text>
+  <text x="96" y="287" font-size="17" font-weight="700" fill="#1e293b">醫療保健設施</text>
+  <text x="96" y="308" font-size="13" fill="#57534e">AED、急救藥箱效期、工作人員急救訓練記錄</text>
+  <rect x="660" y="275" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="298" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
+
+  <!-- Row 4 y=337 h=60 -->
+  <rect x="28" y="337" width="744" height="60" rx="10" fill="#ffffff"/>
+  <rect x="28" y="337" width="6" height="60" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="367" r="16" fill="#57534e"/>
+  <text x="66" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="367">12</text>
+  <text x="96" y="360" font-size="17" font-weight="700" fill="#1e293b">危機事故預防及處理</text>
+  <text x="96" y="381" font-size="13" fill="#57534e">分析、改進措施、教育訓練、事故記錄——最複雜</text>
+  <rect x="660" y="348" width="100" height="38" rx="8" fill="#fee2e2"/>
+  <text x="710" y="371" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">2 分</text>
+
+  <!-- Row 5 y=410 h=60 -->
+  <rect x="28" y="410" width="744" height="60" rx="10" fill="#ffffff"/>
+  <rect x="28" y="410" width="6" height="60" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="440" r="16" fill="#a8a29e"/>
+  <text x="66" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="440">其他</text>
+  <text x="96" y="433" font-size="17" font-weight="700" fill="#1e293b">項目10、11、13、14</text>
+  <text x="96" y="454" font-size="13" fill="#57534e">食物冷凍藏設備、公共安全、飲食衛生、健康醫療（各1分）</text>
+  <rect x="660" y="421" width="100" height="38" rx="8" fill="#f5f3ef"/>
+  <text x="710" y="444" font-size="15" font-weight="700" fill="#78716c" text-anchor="middle">各 1 分</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
+</svg>

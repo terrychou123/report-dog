@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="28" y="16" width="744" height="60" rx="12" fill="#78716c"/>
+  <text x="400" y="53" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="middle">扣分預防策略：三道防線</text>
+
+  <!-- N=3 flow: Cards x=129,315,501 cx=214,400,586 y=108 h=342 -->
+  <!-- Card 1 -->
+  <rect x="129" y="108" width="170" height="342" rx="14" fill="white"/>
+  <rect x="129" y="108" width="170" height="8" rx="7" fill="#d97706"/>
+  <text x="214" y="155" font-family="'Noto Sans TC', sans-serif" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">01</text>
+  <text x="214" y="185" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">日常制度建立</text>
+  <line x1="149" y1="200" x2="279" y2="200" stroke="#e2e0d8" stroke-width="1"/>
+  <text x="214" y="228" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">個案追蹤表</text>
+  <text x="214" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">每月固定更新</text>
+  <text x="214" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">生輔員日誌</text>
+  <text x="214" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">標準化格式</text>
+  <text x="214" y="328" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">資源清冊</text>
+  <text x="214" y="348" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">季度審查更新</text>
+  <text x="214" y="378" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">申訴紀錄表</text>
+  <text x="214" y="398" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">零件數管理</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="303,279 316,272 316,286" fill="#d97706"/>
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#d97706" stroke-width="2"/>
+
+  <!-- Card 2 -->
+  <rect x="315" y="108" width="170" height="342" rx="14" fill="white"/>
+  <rect x="315" y="108" width="170" height="8" rx="7" fill="#78716c"/>
+  <text x="400" y="155" font-family="'Noto Sans TC', sans-serif" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">02</text>
+  <text x="400" y="185" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">定期自我查核</text>
+  <line x1="335" y1="200" x2="465" y2="200" stroke="#e2e0d8" stroke-width="1"/>
+  <text x="400" y="228" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">每季逐項</text>
+  <text x="400" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">對照評鑑基準</text>
+  <text x="400" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">全國兒少</text>
+  <text x="400" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">安置系統核對</text>
+  <text x="400" y="328" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">財務文件</text>
+  <text x="400" y="348" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">定期盤點補件</text>
+  <text x="400" y="378" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">AI 輔助</text>
+  <text x="400" y="398" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">缺漏偵測</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="489,279 502,272 502,286" fill="#78716c"/>
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#78716c" stroke-width="2"/>
+
+  <!-- Card 3 -->
+  <rect x="501" y="108" width="170" height="342" rx="14" fill="white"/>
+  <rect x="501" y="108" width="170" height="8" rx="7" fill="#94a3b8"/>
+  <text x="586" y="155" font-family="'Noto Sans TC', sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle" font-weight="900">03</text>
+  <text x="586" y="185" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">評鑑前衝刺</text>
+  <line x1="521" y1="200" x2="651" y2="200" stroke="#e2e0d8" stroke-width="1"/>
+  <text x="586" y="228" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">評鑑前 3 個月</text>
+  <text x="586" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">啟動模擬演練</text>
+  <text x="586" y="278" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">委員視角</text>
+  <text x="586" y="298" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">文件整備確認</text>
+  <text x="586" y="328" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">工作人員</text>
+  <text x="586" y="348" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">訪談模擬準備</text>
+  <text x="586" y="378" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">最終清單</text>
+  <text x="586" y="398" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">逐項打勾確認</text>
+
+  <!-- Watermark -->
+  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

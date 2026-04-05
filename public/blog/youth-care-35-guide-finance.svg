@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">肆、財務管理 20 分計分邏輯</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">依歷年 4 次財務查核結果計分，評鑑當天無法補救</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 主說明區 -->
+  <!-- 左側：4次查核說明 -->
+  <rect x="28" y="108" width="360" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="360" height="10" rx="4" fill="#16a34a"/>
+  <rect x="28" y="112" width="360" height="6" fill="#16a34a"/>
+
+  <text x="208" y="143" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">4 次財務查核</text>
+  <line x1="48" y1="155" x2="368" y2="155" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 查核1 -->
+  <rect x="48" y="165" width="320" height="50" rx="8" fill="#f0fdf4"/>
+  <text x="68" y="185" font-size="17" fill="#16a34a" font-weight="700">① 衛福部社家署 109 年</text>
+  <text x="68" y="205" font-size="15" fill="#57534e">全國性財務查核</text>
+
+  <!-- 查核2 -->
+  <rect x="48" y="225" width="320" height="50" rx="8" fill="#f0fdf4"/>
+  <text x="68" y="245" font-size="17" fill="#16a34a" font-weight="700">② 地方主管機關 110 年</text>
+  <text x="68" y="265" font-size="15" fill="#57534e">年度財務查核</text>
+
+  <!-- 查核3 -->
+  <rect x="48" y="285" width="320" height="50" rx="8" fill="#f0fdf4"/>
+  <text x="68" y="305" font-size="17" fill="#16a34a" font-weight="700">③ 地方主管機關 111 年</text>
+  <text x="68" y="325" font-size="15" fill="#57534e">年度財務查核</text>
+
+  <!-- 查核4 -->
+  <rect x="48" y="345" width="320" height="50" rx="8" fill="#f0fdf4"/>
+  <text x="68" y="365" font-size="17" fill="#16a34a" font-weight="700">④ 地方主管機關 112 年</text>
+  <text x="68" y="385" font-size="15" fill="#57534e">年度財務查核</text>
+
+  <!-- 右側：計分說明 -->
+  <rect x="408" y="108" width="360" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="360" height="10" rx="4" fill="#d97706"/>
+  <rect x="408" y="112" width="360" height="6" fill="#d97706"/>
+
+  <text x="588" y="143" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">計分方式</text>
+  <line x1="428" y1="155" x2="748" y2="155" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 計分情境1 -->
+  <rect x="428" y="165" width="320" height="50" rx="8" fill="#fef3c7"/>
+  <text x="448" y="185" font-size="17" fill="#d97706" font-weight="700">每次合格（無需補件）</text>
+  <text x="448" y="205" font-size="15" fill="#57534e">共 4 次 × 不扣分 = 滿分 20 分</text>
+
+  <!-- 計分情境2 -->
+  <rect x="428" y="225" width="320" height="50" rx="8" fill="#fef3c7"/>
+  <text x="448" y="245" font-size="17" fill="#d97706" font-weight="700">1 次函文補件後合格</text>
+  <text x="448" y="265" font-size="15" fill="#57534e">20 分 - 2 分 = 18 分</text>
+
+  <!-- 計分情境3 -->
+  <rect x="428" y="285" width="320" height="50" rx="8" fill="#fef3c7"/>
+  <text x="448" y="305" font-size="17" fill="#d97706" font-weight="700">2 次函文補件後合格</text>
+  <text x="448" y="325" font-size="15" fill="#57534e">20 分 - 4 分 = 16 分</text>
+
+  <!-- 計分情境4 -->
+  <rect x="428" y="345" width="320" height="50" rx="8" fill="#fef3c7"/>
+  <text x="448" y="365" font-size="17" fill="#d97706" font-weight="700">4 次皆函文補件</text>
+  <text x="448" y="385" font-size="15" fill="#57534e">20 分 - 8 分 = 12 分（最低）</text>
+
+  <!-- 底部提醒 -->
+  <rect x="28" y="422" width="744" height="40" rx="10" fill="#fef3c7"/>
+  <text x="400" y="447" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700">平時每次查核積極配合、期限內改善缺失，是唯一有效策略</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

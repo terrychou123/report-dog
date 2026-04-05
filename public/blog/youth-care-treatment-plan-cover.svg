@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- 右側大數字 -->
+  <text x="1010" y="220" font-size="160" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">計畫</text>
+  <text x="1010" y="272" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">處遇計畫撰寫指南</text>
+  <!-- 右側資訊卡片 -->
+  <rect x="840" y="296" width="320" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="325" font-size="22" fill="#1e293b" text-anchor="middle" font-weight="700">目標要具體可量化</text>
+  <text x="1000" y="350" font-size="18" fill="#a8a29e" text-anchor="middle">不能只寫「增強自信心」</text>
+  <rect x="840" y="372" width="320" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="401" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">計畫與紀錄要對應</text>
+  <text x="1000" y="426" font-size="18" fill="#a8a29e" text-anchor="middle">計畫是藍圖，紀錄是施工記錄</text>
+  <rect x="840" y="448" width="320" height="64" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="477" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">定期評估與調整</text>
+  <text x="1000" y="502" font-size="18" fill="#d97706" text-anchor="middle">不是寫完就放著</text>
+  <!-- 左側主內容 -->
+  <text x="60" y="190" font-size="110" font-weight="900" fill="#1e293b">處遇計畫</text>
+  <text x="60" y="320" font-size="110" font-weight="900" fill="#d97706">撰寫攻略</text>
+  <line x1="60" y1="348" x2="780" y2="348" stroke="#dedad3" stroke-width="2"/>
+  <text x="60" y="400" font-size="36" fill="#57534e" font-weight="400">從委員查核角度學習怎麼寫才過關</text>
+  <rect x="60" y="432" width="180" height="54" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="150" y="465" font-size="24" fill="#d97706" text-anchor="middle" font-weight="600">直接服務</text>
+  <rect x="252" y="432" width="180" height="54" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="342" y="465" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">項目20/24</text>
+  <rect x="444" y="432" width="180" height="54" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="534" y="465" font-size="24" fill="#57534e" text-anchor="middle" font-weight="600">AI輔助撰寫</text>
+  <text x="60" y="556" font-size="26" fill="#94a3b8">適用：安置機構社工師、生輔員督導</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

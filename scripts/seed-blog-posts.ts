@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 129 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 149 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -161,6 +161,27 @@ const POST_FILES = [
   "article-127-infant-daycare-role-division.json",
   "article-128-infant-daycare-trends.json",
   "article-129-infant-daycare-post-evaluation.json",
+  // 兒少安置機構系列（20 篇）
+  "article-130-youth-care-evaluation-35-items-guide.json",
+  "article-131-youth-care-evaluation-faq.json",
+  "article-132-youth-care-treatment-plan-writing.json",
+  "article-133-youth-care-case-record-tips.json",
+  "article-134-youth-care-professional-service-guide.json",
+  "article-135-youth-care-under2-over2-dual-version.json",
+  "article-136-youth-care-finance-20-points-guide.json",
+  "article-137-youth-care-new-staff-onboarding.json",
+  "article-138-youth-care-self-checklist-guide.json",
+  "article-139-youth-care-trauma-informed-evaluation.json",
+  "article-140-youth-care-discharge-tracking-guide.json",
+  "article-141-youth-care-common-deficiencies.json",
+  "article-142-youth-care-team-collaboration.json",
+  "article-143-youth-care-grievance-mechanism.json",
+  "article-144-youth-care-supervision-record.json",
+  "article-145-youth-care-environment-safety-checklist.json",
+  "article-146-youth-care-resource-network-guide.json",
+  "article-147-youth-care-administration-management.json",
+  "article-148-youth-care-innovation-bonus-points.json",
+  "article-149-youth-care-evaluator-perspective.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布

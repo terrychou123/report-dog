@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Title -->
+  <text x="400" y="52" font-size="22" fill="#1e293b" text-anchor="middle" font-weight="700">財務查核四次時程與執行單位</text>
+  <text x="400" y="80" font-size="15" fill="#57534e" text-anchor="middle">每次查核合格得 20 分，函文補件扣 2 分，最終取平均</text>
+  <!-- Timeline line -->
+  <line x1="100" y1="220" x2="700" y2="220" stroke="#a8a29e" stroke-width="3"/>
+  <!-- Node 1: 109年 -->
+  <circle cx="130" cy="220" r="30" fill="#16a34a"/>
+  <text x="130" y="215" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">109</text>
+  <text x="130" y="232" font-size="13" fill="#ffffff" text-anchor="middle">年</text>
+  <rect x="60" y="268" width="140" height="90" rx="8" fill="#ffffff"/>
+  <text x="130" y="292" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">社家署</text>
+  <text x="130" y="310" font-size="12" fill="#57534e" text-anchor="middle">全國統一</text>
+  <text x="130" y="328" font-size="12" fill="#57534e" text-anchor="middle">財務查核</text>
+  <text x="130" y="346" font-size="12" fill="#92400e" text-anchor="middle">第 1 次</text>
+  <!-- Node 2: 110年 -->
+  <circle cx="310" cy="220" r="30" fill="#2563eb"/>
+  <text x="310" y="215" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">110</text>
+  <text x="310" y="232" font-size="13" fill="#ffffff" text-anchor="middle">年</text>
+  <rect x="240" y="268" width="140" height="90" rx="8" fill="#ffffff"/>
+  <text x="310" y="292" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="700">地方政府</text>
+  <text x="310" y="310" font-size="12" fill="#57534e" text-anchor="middle">直轄市或</text>
+  <text x="310" y="328" font-size="12" fill="#57534e" text-anchor="middle">縣市政府</text>
+  <text x="310" y="346" font-size="12" fill="#92400e" text-anchor="middle">第 2 次</text>
+  <!-- Node 3: 111年 -->
+  <circle cx="490" cy="220" r="30" fill="#9333ea"/>
+  <text x="490" y="215" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">111</text>
+  <text x="490" y="232" font-size="13" fill="#ffffff" text-anchor="middle">年</text>
+  <rect x="420" y="268" width="140" height="90" rx="8" fill="#ffffff"/>
+  <text x="490" y="292" font-size="13" fill="#9333ea" text-anchor="middle" font-weight="700">地方政府</text>
+  <text x="490" y="310" font-size="12" fill="#57534e" text-anchor="middle">直轄市或</text>
+  <text x="490" y="328" font-size="12" fill="#57534e" text-anchor="middle">縣市政府</text>
+  <text x="490" y="346" font-size="12" fill="#92400e" text-anchor="middle">第 3 次</text>
+  <!-- Node 4: 112年 -->
+  <circle cx="670" cy="220" r="30" fill="#d97706"/>
+  <text x="670" y="215" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">112</text>
+  <text x="670" y="232" font-size="13" fill="#ffffff" text-anchor="middle">年</text>
+  <rect x="600" y="268" width="140" height="90" rx="8" fill="#ffffff"/>
+  <text x="670" y="292" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">地方政府</text>
+  <text x="670" y="310" font-size="12" fill="#57534e" text-anchor="middle">評鑑年度</text>
+  <text x="670" y="328" font-size="12" fill="#57534e" text-anchor="middle">最新查核</text>
+  <text x="670" y="346" font-size="12" fill="#92400e" text-anchor="middle">第 4 次</text>
+  <!-- Score formula -->
+  <rect x="140" y="395" width="520" height="50" rx="10" fill="#1e293b"/>
+  <text x="400" y="416" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="600">計分公式：(第1次 + 第2次 + 第3次 + 第4次) 取平均</text>
+  <text x="400" y="436" font-size="14" fill="#fde68a" text-anchor="middle">全合格 = 20 分；每次函文補件合格 = 扣 2 分</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

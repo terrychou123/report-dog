@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">15 個常見問題六大分類</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">依主題分類，快速找到你最需要的答案</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左上：制度基礎 -->
+  <rect x="28" y="108" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="364" height="10" rx="4" fill="#d97706"/>
+  <rect x="28" y="113" width="364" height="5" fill="#d97706"/>
+  <text x="210" y="140" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">評鑑制度基礎（Q1–Q4）</text>
+  <text x="48" y="164" font-size="16" fill="#57534e">幾年一次？指標有無修訂？委員組成？</text>
+  <text x="48" y="185" font-size="16" fill="#57534e">評鑑當天流程與時長</text>
+
+  <!-- 右上：雙版本 -->
+  <rect x="408" y="108" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="364" height="10" rx="4" fill="#78716c"/>
+  <rect x="408" y="113" width="364" height="5" fill="#78716c"/>
+  <text x="590" y="140" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">雙版本選擇（Q5–Q6）</text>
+  <text x="428" y="164" font-size="16" fill="#57534e">什麼是雙版本？我的機構用哪套？</text>
+  <text x="428" y="185" font-size="16" fill="#57534e">2歲以上15面向如何準備？</text>
+
+  <!-- 左中：文件準備 -->
+  <rect x="28" y="212" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="212" width="364" height="10" rx="4" fill="#2563eb"/>
+  <rect x="28" y="217" width="364" height="5" fill="#2563eb"/>
+  <text x="210" y="244" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">文件準備（Q7–Q9）</text>
+  <text x="48" y="268" font-size="16" fill="#57534e">最重要的文件是哪些？</text>
+  <text x="48" y="289" font-size="16" fill="#57534e">委員訪談兒少？準備幾年份文件？</text>
+
+  <!-- 右中：等第計分 -->
+  <rect x="408" y="212" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="212" width="364" height="10" rx="4" fill="#16a34a"/>
+  <rect x="408" y="217" width="364" height="5" fill="#16a34a"/>
+  <text x="590" y="244" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">等第與計分（Q10–Q12）</text>
+  <text x="428" y="268" font-size="16" fill="#57534e">優等的確切條件？丙丁等怎麼辦？</text>
+  <text x="428" y="289" font-size="16" fill="#57534e">加分項目值得準備嗎？</text>
+
+  <!-- 左下：機構實務 -->
+  <rect x="28" y="316" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="316" width="364" height="10" rx="4" fill="#9333ea"/>
+  <rect x="28" y="321" width="364" height="5" fill="#9333ea"/>
+  <text x="210" y="348" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">機構實務（Q13–Q15）</text>
+  <text x="48" y="372" font-size="16" fill="#57534e">小機構分工策略？</text>
+  <text x="48" y="393" font-size="16" fill="#57534e">能臨時補寫個案紀錄嗎？</text>
+
+  <!-- 右下：下一步 -->
+  <rect x="408" y="316" width="364" height="90" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <rect x="408" y="316" width="364" height="10" rx="4" fill="#d97706"/>
+  <rect x="408" y="321" width="364" height="5" fill="#d97706"/>
+  <text x="590" y="348" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">下載自評工具</text>
+  <text x="428" y="372" font-size="16" fill="#57534e">免費下載 112 年度評鑑</text>
+  <text x="428" y="393" font-size="16" fill="#57534e">自我檢核表 Excel</text>
+
+  <!-- 提示條 -->
+  <rect x="28" y="422" width="744" height="36" rx="8" fill="#e8e6de"/>
+  <text x="400" y="445" font-size="16" fill="#57534e" text-anchor="middle">本文 Q&A 內容依據衛生福利部 112 年度兒童及少年安置機構評鑑指標</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

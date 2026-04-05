@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="28" y="29" width="744" height="60" rx="8" fill="#1e293b"/>
+  <text x="400" y="67" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">112年度評鑑五大區塊一覽</text>
+  <!-- Row 1 -->
+  <rect x="28" y="118" width="744" height="60" rx="8" fill="white"/>
+  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706"/>
+  <text x="66" y="154" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">壹</text>
+  <text x="100" y="144" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">行政組織與經營管理</text>
+  <text x="100" y="167" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">董事會、人力資源、訓練進修、勞動條件</text>
+  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7"/>
+  <text x="688" y="152" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">10 分</text>
+  <!-- Row 2 -->
+  <rect x="28" y="191" width="744" height="60" rx="8" fill="white"/>
+  <rect x="28" y="191" width="6" height="60" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c"/>
+  <text x="66" y="227" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">貳</text>
+  <text x="100" y="217" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">建築物環境及設施設備</text>
+  <text x="100" y="240" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">硬體設備管理、公共安全、飲食衛生、健康醫療</text>
+  <rect x="620" y="198" width="136" height="46" rx="8" fill="#f1f5f9"/>
+  <text x="688" y="225" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">10 分</text>
+  <!-- Row 3 -->
+  <rect x="28" y="264" width="744" height="60" rx="8" fill="white"/>
+  <rect x="28" y="264" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="294" r="16" fill="#d97706"/>
+  <text x="66" y="300" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">參</text>
+  <text x="100" y="290" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">專業服務（最大區塊）</text>
+  <text x="100" y="313" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">個案紀錄、輔導目標、專業服務品質、申訴、資源結合</text>
+  <rect x="620" y="271" width="136" height="46" rx="8" fill="#fef3c7"/>
+  <text x="688" y="298" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">60 分</text>
+  <!-- Row 4 -->
+  <rect x="28" y="337" width="744" height="60" rx="8" fill="white"/>
+  <rect x="28" y="337" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#94a3b8"/>
+  <text x="66" y="373" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">肆</text>
+  <text x="100" y="363" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">財務管理</text>
+  <text x="100" y="386" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">財務查核合格、函文補件情形</text>
+  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9"/>
+  <text x="688" y="371" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#94a3b8" text-anchor="middle">20 分</text>
+  <!-- Row 5 -->
+  <rect x="28" y="410" width="744" height="60" rx="8" fill="white"/>
+  <rect x="28" y="410" width="6" height="60" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="440" r="16" fill="#57534e"/>
+  <text x="66" y="446" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">伍</text>
+  <text x="100" y="436" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">特殊事項或措施</text>
+  <text x="100" y="459" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">違規扣分 / 特殊個案加分 / 創新服務方案</text>
+  <rect x="620" y="417" width="136" height="46" rx="8" fill="#f1f5f9"/>
+  <text x="688" y="444" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle">+/-10 分</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

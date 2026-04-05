@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans TC', sans-serif; }
+    </style>
+  </defs>
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 N=4 Header y=50 h=62 -->
+  <rect x="28" y="50" width="744" height="62" rx="10" fill="#d97706"/>
+  <text x="400" y="84" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">項目 12：危機事故預防及處理（2分）</text>
+  <text x="400" y="104" font-size="16" fill="#fef3c7" text-anchor="middle">四面向查核架構</text>
+
+  <!-- Row 1 y=160 h=62 -->
+  <rect x="28" y="160" width="744" height="62" rx="10" fill="#ffffff"/>
+  <rect x="28" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706"/>
+  <text x="66" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="191">1</text>
+  <text x="96" y="184" font-size="18" font-weight="700" fill="#1e293b">危機事故分析（Analysis）</text>
+  <text x="96" y="207" font-size="14" fill="#57534e">事故類型統計、發生原因分析、風險程度評估；無事故需有風險評估記錄</text>
+  <rect x="660" y="171" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="194" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">主動管理</text>
+
+  <!-- Row 2 y=235 h=62 -->
+  <rect x="28" y="235" width="744" height="62" rx="10" fill="#ffffff"/>
+  <rect x="28" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c"/>
+  <text x="66" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="266">2</text>
+  <text x="96" y="259" font-size="18" font-weight="700" fill="#1e293b">改進措施（Improvement）</text>
+  <text x="96" y="282" font-size="14" fill="#57534e">具體改善行動＋執行記錄（含照片/設備更換/流程修訂版本）</text>
+  <rect x="660" y="246" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="269" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">需落實</text>
+
+  <!-- Row 3 y=310 h=62 -->
+  <rect x="28" y="310" width="744" height="62" rx="10" fill="#ffffff"/>
+  <rect x="28" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e"/>
+  <text x="66" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="341">3</text>
+  <text x="96" y="334" font-size="18" font-weight="700" fill="#1e293b">教育訓練（Training）</text>
+  <text x="96" y="357" font-size="14" fill="#57534e">訓練計畫、簽到表、訓練內容（含演練照片）；主題需符合機構實際風險</text>
+  <rect x="660" y="321" width="100" height="38" rx="8" fill="#f5f3ef"/>
+  <text x="710" y="344" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">定期舉辦</text>
+
+  <!-- Row 4 y=385 h=62 -->
+  <rect x="28" y="385" width="744" height="62" rx="10" fill="#ffffff"/>
+  <rect x="28" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
+  <text x="66" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central" y="416">4</text>
+  <text x="96" y="409" font-size="18" font-weight="700" fill="#1e293b">事故處理記錄（Incident Records）</text>
+  <text x="96" y="432" font-size="14" fill="#57534e">事故報告書、後續追蹤、主管機關通報紀錄；輕微事故也需完整記錄</text>
+  <rect x="660" y="396" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="419" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">全程記錄</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
+</svg>

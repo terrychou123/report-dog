@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">處遇計畫三大常見問題</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">委員最常點名的扣分原因與改善方向</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Row 1 (y=108, H=90) -->
+  <rect x="28" y="108" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="153" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="159" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="135" font-size="19" fill="#dc2626" font-weight="700">問題：目標太模糊，無法評估達成</text>
+  <text x="100" y="158" font-size="16" fill="#57534e">委員問：「這個目標，我要怎麼知道有沒有達成？」</text>
+  <text x="100" y="180" font-size="16" fill="#1e293b" font-weight="700">改善：加上具體指標（時程、頻率、行為次數）</text>
+  <rect x="620" y="120" width="136" height="58" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="143" font-size="16" fill="#d97706" text-anchor="middle">目標寫法</text>
+  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">需具體化</text>
+
+  <!-- Row 2 (y=211) -->
+  <rect x="28" y="211" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="211" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="256" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="262" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="238" font-size="19" fill="#dc2626" font-weight="700">問題：計畫和紀錄「對不上」</text>
+  <text x="100" y="261" font-size="16" fill="#57534e">計畫說「每週個別會談」，但生活紀錄找不到會談記錄</text>
+  <text x="100" y="283" font-size="16" fill="#1e293b" font-weight="700">改善：建立「個案服務對照表」，計畫與紀錄相互連結</text>
+  <rect x="620" y="223" width="136" height="58" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="246" font-size="16" fill="#78716c" text-anchor="middle">計畫=藍圖</text>
+  <text x="688" y="266" font-size="16" fill="#78716c" text-anchor="middle">紀錄=施工</text>
+
+  <!-- Row 3 (y=314) -->
+  <rect x="28" y="314" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="314" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="359" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="365" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="341" font-size="19" fill="#dc2626" font-weight="700">問題：全機構個案的計畫看起來一模一樣</text>
+  <text x="100" y="364" font-size="16" fill="#57534e">委員質疑：計畫是否真的依個案個別需求擬定？</text>
+  <text x="100" y="386" font-size="16" fill="#1e293b" font-weight="700">改善：每份計畫需反映個案的獨特評估與需求</text>
+  <rect x="620" y="326" width="136" height="58" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="349" font-size="16" fill="#57534e" text-anchor="middle">個別化</text>
+  <text x="688" y="369" font-size="16" fill="#57534e" text-anchor="middle">是關鍵</text>
+
+  <!-- 底部 -->
+  <rect x="28" y="416" width="744" height="36" rx="8" fill="#fef3c7"/>
+  <text x="400" y="438" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">評鑑委員看的是「計畫真的指導了服務」，而非「計畫文件有幾頁」</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

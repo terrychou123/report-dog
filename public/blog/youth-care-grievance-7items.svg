@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="28" y="16" width="744" height="60" rx="12" fill="#d97706"/>
+  <text x="400" y="53" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="middle">項目 25 申訴制度：7 個評鑑標準</text>
+
+  <!-- Group A: 申訴管道 (criteria 1-2) -->
+  <rect x="28" y="96" width="360" height="56" rx="10" fill="white"/>
+  <rect x="28" y="96" width="6" height="56" rx="3" fill="#d97706"/>
+  <text x="48" y="115" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#d97706" font-weight="700">管道建立</text>
+  <text x="48" y="134" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">兒少內外申訴管道 建立並實施</text>
+  <text x="350" y="124" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">1</text>
+
+  <rect x="408" y="96" width="360" height="56" rx="10" fill="white"/>
+  <rect x="408" y="96" width="6" height="56" rx="3" fill="#d97706"/>
+  <text x="428" y="115" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#d97706" font-weight="700">管道建立</text>
+  <text x="428" y="134" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">家屬內外申訴管道 建立並實施</text>
+  <text x="730" y="124" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">2</text>
+
+  <!-- Criteria 3 -->
+  <rect x="28" y="164" width="744" height="52" rx="10" fill="white"/>
+  <rect x="28" y="164" width="6" height="52" rx="3" fill="#78716c"/>
+  <text x="48" y="181" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c" font-weight="700">紀錄要求</text>
+  <text x="48" y="201" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">所有申訴案件均有書面處理紀錄（即使當期無申訴案，仍需保有定期確認記錄）</text>
+  <text x="762" y="191" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">3</text>
+
+  <!-- Criteria 4 -->
+  <rect x="28" y="228" width="744" height="52" rx="10" fill="white"/>
+  <rect x="28" y="228" width="6" height="52" rx="3" fill="#78716c"/>
+  <text x="48" y="245" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c" font-weight="700">參與機制</text>
+  <text x="48" y="265" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">每月召開家庭會議，尊重兒少表達權，紀錄完整並據以實施</text>
+  <text x="762" y="255" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">4</text>
+
+  <!-- Criteria 5 -->
+  <rect x="28" y="292" width="744" height="52" rx="10" fill="white"/>
+  <rect x="28" y="292" width="6" height="52" rx="3" fill="#57534e"/>
+  <text x="48" y="309" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" font-weight="700">保護原則</text>
+  <text x="48" y="329" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">機構無虐待或不人道對待情事（委員可直接訪談兒少確認）</text>
+  <text x="762" y="319" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle" font-weight="700">5</text>
+
+  <!-- Criteria 6-7: 零用金 -->
+  <rect x="28" y="356" width="360" height="56" rx="10" fill="white"/>
+  <rect x="28" y="356" width="6" height="56" rx="3" fill="#a8a29e"/>
+  <text x="48" y="375" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e" font-weight="700">財務管理</text>
+  <text x="48" y="395" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">零用金薄或管理制度、有簽收或匯款紀錄</text>
+  <text x="350" y="385" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle" font-weight="700">6</text>
+
+  <rect x="408" y="356" width="360" height="56" rx="10" fill="white"/>
+  <rect x="408" y="356" width="6" height="56" rx="3" fill="#a8a29e"/>
+  <text x="428" y="375" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e" font-weight="700">稽查確認</text>
+  <text x="428" y="395" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#1e293b" font-weight="700">抽訪兒少確認有無遭剋扣零用金</text>
+  <text x="730" y="385" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle" font-weight="700">7</text>
+
+  <!-- Watermark -->
+  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

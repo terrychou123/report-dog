@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑等第判定條件一覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">總分條件 + 各大項最低門檻，缺一不可</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 表頭 -->
+  <rect x="28" y="108" width="744" height="40" rx="6" fill="#e8e4dc"/>
+  <text x="114" y="133" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">等第</text>
+  <text x="240" y="133" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">總分條件</text>
+  <text x="360" y="133" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">壹（最高10）</text>
+  <text x="460" y="133" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">貳（最高10）</text>
+  <text x="568" y="133" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">參（最高60）</text>
+  <text x="672" y="133" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">肆（最高20）</text>
+  <line x1="28" y1="148" x2="772" y2="148" stroke="#dedad3" stroke-width="1"/>
+  <line x1="172" y1="108" x2="172" y2="440" stroke="#dedad3" stroke-width="1"/>
+  <line x1="300" y1="108" x2="300" y2="440" stroke="#dedad3" stroke-width="1"/>
+  <line x1="416" y1="108" x2="416" y2="440" stroke="#dedad3" stroke-width="1"/>
+  <line x1="512" y1="108" x2="512" y2="440" stroke="#dedad3" stroke-width="1"/>
+  <line x1="620" y1="108" x2="620" y2="440" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 優等 -->
+  <rect x="28" y="148" width="744" height="56" fill="white"/>
+  <rect x="28" y="148" width="6" height="56" fill="#d97706"/>
+  <text x="114" y="182" font-size="24" fill="#d97706" text-anchor="middle" font-weight="900">優等</text>
+  <text x="240" y="182" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">90 分以上</text>
+  <text x="360" y="182" font-size="18" fill="#57534e" text-anchor="middle">8分以上</text>
+  <text x="460" y="182" font-size="18" fill="#57534e" text-anchor="middle">8分以上</text>
+  <text x="568" y="182" font-size="18" fill="#57534e" text-anchor="middle">48分以上</text>
+  <text x="672" y="182" font-size="18" fill="#57534e" text-anchor="middle">16分以上</text>
+  <line x1="28" y1="204" x2="772" y2="204" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 甲等 -->
+  <rect x="28" y="204" width="744" height="56" fill="#fafaf8"/>
+  <rect x="28" y="204" width="6" height="56" fill="#78716c"/>
+  <text x="114" y="238" font-size="24" fill="#78716c" text-anchor="middle" font-weight="900">甲等</text>
+  <text x="240" y="238" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">80–89 分</text>
+  <text x="360" y="238" font-size="18" fill="#57534e" text-anchor="middle">7分以上</text>
+  <text x="460" y="238" font-size="18" fill="#57534e" text-anchor="middle">7分以上</text>
+  <text x="568" y="238" font-size="18" fill="#57534e" text-anchor="middle">42分以上</text>
+  <text x="672" y="238" font-size="18" fill="#57534e" text-anchor="middle">14分以上</text>
+  <line x1="28" y1="260" x2="772" y2="260" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 乙等 -->
+  <rect x="28" y="260" width="744" height="56" fill="white"/>
+  <rect x="28" y="260" width="6" height="56" fill="#a8a29e"/>
+  <text x="114" y="294" font-size="24" fill="#a8a29e" text-anchor="middle" font-weight="900">乙等</text>
+  <text x="240" y="294" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">70–79 分</text>
+  <text x="360" y="294" font-size="18" fill="#57534e" text-anchor="middle">—</text>
+  <text x="460" y="294" font-size="18" fill="#57534e" text-anchor="middle">—</text>
+  <text x="568" y="294" font-size="18" fill="#57534e" text-anchor="middle">—</text>
+  <text x="672" y="294" font-size="18" fill="#57534e" text-anchor="middle">—</text>
+  <line x1="28" y1="316" x2="772" y2="316" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 丙等 -->
+  <rect x="28" y="316" width="744" height="56" fill="#fafaf8"/>
+  <rect x="28" y="316" width="6" height="56" fill="#94a3b8"/>
+  <text x="114" y="350" font-size="24" fill="#94a3b8" text-anchor="middle" font-weight="900">丙等</text>
+  <text x="240" y="350" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">60–69 分</text>
+  <text x="360" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="460" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="568" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="672" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <line x1="28" y1="372" x2="772" y2="372" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 丁等 -->
+  <rect x="28" y="372" width="744" height="56" fill="white"/>
+  <rect x="28" y="372" width="6" height="56" fill="#dc2626"/>
+  <text x="114" y="406" font-size="24" fill="#dc2626" text-anchor="middle" font-weight="900">丁等</text>
+  <text x="240" y="406" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">60 分以下</text>
+  <text x="360" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="460" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="568" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="672" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+
+  <!-- 底部說明 -->
+  <rect x="28" y="440" width="744" height="26" rx="6" fill="#fef3c7"/>
+  <text x="400" y="457" font-size="14" fill="#d97706" text-anchor="middle">優等/甲等的各大項門檻：優等80%、甲等70%，總分達標但大項未達門檻，等第仍下降</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="28" y="29" width="744" height="62" rx="8" fill="#1e293b"/>
+  <text x="400" y="68" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">創傷知情記錄：好的寫法 vs 待改進寫法</text>
+  <!-- Section A label -->
+  <rect x="28" y="115" width="340" height="36" rx="6" fill="#d97706"/>
+  <text x="198" y="138" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">建議寫法（創傷視角）</text>
+  <!-- Section B label -->
+  <rect x="432" y="115" width="340" height="36" rx="6" fill="#94a3b8"/>
+  <text x="602" y="138" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">待改進寫法（行為描述）</text>
+  <!-- Row 1 -->
+  <rect x="28" y="162" width="340" height="90" rx="8" fill="white"/>
+  <rect x="28" y="162" width="6" height="90" rx="3" fill="#d97706"/>
+  <text x="48" y="185" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#d97706">心理諮商紀錄</text>
+  <text x="48" y="205" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">「個案因觸發創傷記憶，</text>
+  <text x="48" y="222" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">出現情緒激動，提供安全</text>
+  <text x="48" y="239" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">角落並協助情緒調節…」</text>
+  <rect x="432" y="162" width="340" height="90" rx="8" fill="white"/>
+  <rect x="432" y="162" width="6" height="90" rx="3" fill="#94a3b8"/>
+  <text x="452" y="185" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#94a3b8">心理諮商紀錄</text>
+  <text x="452" y="205" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">「個案情緒激動，已</text>
+  <text x="452" y="222" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">予以安撫處理。」</text>
+  <!-- Row 2 -->
+  <rect x="28" y="265" width="340" height="90" rx="8" fill="white"/>
+  <rect x="28" y="265" width="6" height="90" rx="3" fill="#d97706"/>
+  <text x="48" y="288" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#d97706">特殊行為處理</text>
+  <text x="48" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">「建立觸發因素清單，</text>
+  <text x="48" y="325" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">工作人員依 SOP 以非</text>
+  <text x="48" y="342" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">懲罰方式回應攻擊行為」</text>
+  <rect x="432" y="265" width="340" height="90" rx="8" fill="white"/>
+  <rect x="432" y="265" width="6" height="90" rx="3" fill="#94a3b8"/>
+  <text x="452" y="288" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#94a3b8">特殊行為處理</text>
+  <text x="452" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">「個案出現攻擊行為，</text>
+  <text x="452" y="325" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">予以隔離冷靜後</text>
+  <text x="452" y="342" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">再進行說明。」</text>
+  <!-- Row 3 -->
+  <rect x="28" y="368" width="340" height="90" rx="8" fill="white"/>
+  <rect x="28" y="368" width="6" height="90" rx="3" fill="#d97706"/>
+  <text x="48" y="391" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#d97706">個別化教養原則</text>
+  <text x="48" y="411" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">「因應個案複雜性創傷</text>
+  <text x="48" y="428" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">史，調整寢室分配，</text>
+  <text x="48" y="445" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">避免與高衝突院生同寢」</text>
+  <rect x="432" y="368" width="340" height="90" rx="8" fill="white"/>
+  <rect x="432" y="368" width="6" height="90" rx="3" fill="#94a3b8"/>
+  <text x="452" y="391" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#94a3b8">個別化教養原則</text>
+  <text x="452" y="411" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">「個案已調整寢室，</text>
+  <text x="452" y="428" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">情況有所改善。」</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>
