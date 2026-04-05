@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑前 15 項自查清單：最容易遺漏的文件</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">紅色 = 最高失分風險 · 評鑑前必須確認</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 左欄 A+B -->
+  <text x="48" y="120" font-size="18" fill="#d97706" font-weight="700">A 區行政管理</text>
+  <text x="48" y="142" font-size="14" fill="#dc2626">▶ A1.1 負責人查看書面記錄（含月份無缺漏）</text>
+  <text x="48" y="162" font-size="14" fill="#dc2626">▶ A1.2 急救訓練明確標示含 AED</text>
+  <text x="48" y="182" font-size="14" fill="#dc2626">▶ A1.3 意外事件「追蹤改善措施」不空白</text>
+  <text x="48" y="202" font-size="14" fill="#57534e">▶ A2.1 感控計畫 1 年內有更新記錄</text>
+  <text x="48" y="222" font-size="14" fill="#57534e">▶ A2.2 安寧訓練記錄 + 轉介名單</text>
+
+  <text x="48" y="254" font-size="18" fill="#16a34a" font-weight="700">B 區專業服務</text>
+  <text x="48" y="276" font-size="14" fill="#dc2626">▶ B1 照護計畫評值記錄不空白</text>
+  <text x="48" y="296" font-size="14" fill="#dc2626">▶ B1 每3個月修訂有實質內容</text>
+  <text x="48" y="316" font-size="14" fill="#dc2626">▶ B2 跨專業會議含≥3種不同領域人員</text>
+  <text x="48" y="336" font-size="14" fill="#57534e">▶ B2 ADL 退步有調整照護計畫記錄</text>
+  <text x="48" y="356" font-size="14" fill="#dc2626">▶ B3 品質季報含文字分析段落</text>
+  <text x="48" y="376" font-size="14" fill="#57534e">▶ B3 未達標指標有改善計畫</text>
+
+  <!-- 右欄 C+D -->
+  <line x1="400" y1="106" x2="400" y2="450" stroke="#dedad3" stroke-width="1.5"/>
+
+  <text x="420" y="120" font-size="18" fill="#2563eb" font-weight="700">C 區消防安全</text>
+  <text x="420" y="142" font-size="14" fill="#dc2626">▶ C1 今年已辦夜間演練（含記錄）</text>
+  <text x="420" y="162" font-size="14" fill="#57534e">▶ C1 消防設備維護在效期內</text>
+  <text x="420" y="182" font-size="14" fill="#dc2626">▶ C2 疏散通道無障礙物（現場確認）</text>
+  <text x="420" y="202" font-size="14" fill="#57534e">▶ C3 住民疏散名冊符合現況</text>
+  <text x="420" y="222" font-size="14" fill="#dc2626">▶ C4 工作人員能自行操作消防設備</text>
+  <text x="420" y="242" font-size="14" fill="#dc2626">▶ C4 各班次均有情境演練練習</text>
+
+  <text x="420" y="276" font-size="18" fill="#7c3aed" font-weight="700">D 區特別事項</text>
+  <text x="420" y="298" font-size="14" fill="#57534e">▶ D1 創新服務有書面成效記錄</text>
+  <text x="420" y="318" font-size="14" fill="#57534e">▶ D2 口腔清潔記錄含狀況觀察</text>
+  <text x="420" y="338" font-size="14" fill="#57534e">▶ D2 牙科合作診所聯絡名單</text>
+  <text x="420" y="358" font-size="14" fill="#dc2626">▶ D3 確認無未通報事故/違規情事</text>
+
+  <!-- 圖例 -->
+  <rect x="40" y="430" width="220" height="32" rx="6" fill="#fef2f2"/>
+  <text x="50" y="452" font-size="14" fill="#dc2626" font-weight="600">▶ 紅色 = 最常失分項目，優先確認</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

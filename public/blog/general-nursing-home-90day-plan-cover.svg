@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字 -->
+  <text x="1010" y="218" font-size="156" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.88">90</text>
+  <text x="1010" y="258" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">天完整備戰計畫</text>
+
+  <!-- 右側三階段卡片 -->
+  <rect x="840" y="280" width="320" height="68" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="860" y="308" font-size="24" fill="#d97706" font-weight="700">第一個月 D-90 至 D-60</text>
+  <text x="860" y="334" font-size="20" fill="#57534e">全面盤點 · 找出文件缺口</text>
+
+  <rect x="840" y="358" width="320" height="68" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="860" y="386" font-size="24" fill="#16a34a" font-weight="700">第二個月 D-60 至 D-30</text>
+  <text x="860" y="412" font-size="20" fill="#57534e">核心項目補強 · 安排演練</text>
+
+  <rect x="840" y="436" width="320" height="68" rx="10" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
+  <text x="860" y="464" font-size="24" fill="#57534e" font-weight="700">第三個月 D-30 至評鑑日</text>
+  <text x="860" y="490" font-size="20" fill="#57534e">情境演練 · 模擬查核</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="520" width="320" height="50" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="551" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">週任務清單 · 角色分工表</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="200" font-size="100" font-weight="900" fill="#1e293b">一般護理之家</text>
+  <text x="60" y="318" font-size="92" font-weight="900" fill="#d97706">評鑑90天倒數</text>
+
+  <line x1="60" y1="348" x2="790" y2="348" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="396" font-size="34" fill="#57534e" font-weight="400">從手忙腳亂到從容應對的完整計畫</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="428" width="220" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="170" y="460" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">三階段行動計畫</text>
+
+  <rect x="290" y="428" width="220" height="52" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="400" y="460" font-size="28" fill="#16a34a" text-anchor="middle" font-weight="600">週任務分解清單</text>
+
+  <rect x="520" y="428" width="220" height="52" rx="10" fill="#2563eb" opacity="0.12"/>
+  <text x="630" y="460" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="600">角色分工對照表</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="544" font-size="26" fill="#94a3b8">適用對象：護理長 · 評鑑負責人 · 希望有系統備戰評鑑的工作人員</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">三種疏散方式比較（C3 基準）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">依住民失能程度制定個別化疏散策略</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- === 列表版型 N=3 (H=90, outer_gap=38, inner_gap=13) === -->
+  <!-- Header y=38 -->
+  <rect x="0" y="38" width="800" height="90" fill="white"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <!-- Header 主標題 -->
+  <text x="28" y="94" font-size="36" fill="#1e293b" font-weight="700">住民疏散等級分類對照表</text>
+
+  <!-- Row 1：自行行走（y=166, H=90） -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="218" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="200" font-size="22" fill="#1e293b" font-weight="700">自行行走</text>
+  <text x="100" y="224" font-size="16" fill="#57534e">可獨立行走或使用助行器，能依指示疏散。協助人力：1 人引導即可，疏散速度最快。</text>
+  <rect x="620" y="174" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="196" font-size="16" fill="#d97706" text-anchor="middle">1 人引導</text>
+  <text x="688" y="216" font-size="16" fill="#d97706" text-anchor="middle">最快疏散</text>
+
+  <!-- Row 2：輪椅推送（y=269, H=90） -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="321" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="303" font-size="22" fill="#1e293b" font-weight="700">輪椅推送</text>
+  <text x="100" y="327" font-size="16" fill="#57534e">使用輪椅移動，無法自行行走。協助人力：每人需 1 名工作人員協助推送輪椅疏散。</text>
+  <rect x="620" y="277" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="299" font-size="16" fill="#78716c" text-anchor="middle">1對1人力</text>
+  <text x="688" y="319" font-size="16" fill="#78716c" text-anchor="middle">中速疏散</text>
+
+  <!-- Row 3：擔架搬運（y=372, H=90） -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="424" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="406" font-size="22" fill="#1e293b" font-weight="700">擔架搬運</text>
+  <text x="100" y="430" font-size="16" fill="#57534e">完全臥床，無法移動。協助人力：每人需 2–3 名工作人員，疏散至等待救援空間優先。</text>
+  <rect x="620" y="380" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="402" font-size="16" fill="#57534e" text-anchor="middle">2–3人協助</text>
+  <text x="688" y="422" font-size="16" fill="#57534e" text-anchor="middle">防火區劃優先</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">第二個月：核心項目補強執行</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">依缺口清單優先補強，按責任分工平行推進</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- 第5週 -->
+  <rect x="40" y="112" width="340" height="150" rx="10" fill="white" stroke="#16a34a" stroke-width="2"/>
+  <rect x="40" y="112" width="340" height="38" rx="10" fill="#16a34a"/>
+  <rect x="40" y="130" width="340" height="20" fill="#16a34a"/>
+  <text x="210" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第5週：B 區照護計畫補強（最花時間）</text>
+  <text x="56" y="166" font-size="14" fill="#57534e">• 逐份補填照護計畫空白評值欄位</text>
+  <text x="56" y="186" font-size="14" fill="#57534e">• 補充缺少的跨專業簽名</text>
+  <text x="56" y="206" font-size="14" fill="#57534e">• 安排跨專業照護計畫會議（確保3種以上領域）</text>
+  <text x="56" y="226" font-size="14" fill="#57534e">• 完成本季品質指標分析報告（含文字說明）</text>
+  <text x="56" y="250" font-size="14" fill="#dc2626" font-weight="600">優先！委員最仔細查的區塊</text>
+
+  <!-- 第6週 -->
+  <rect x="400" y="112" width="360" height="150" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
+  <rect x="400" y="112" width="360" height="38" rx="10" fill="#d97706"/>
+  <rect x="400" y="130" width="360" height="20" fill="#d97706"/>
+  <text x="580" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第6週：A 區行政記錄補強</text>
+  <text x="416" y="166" font-size="14" fill="#57534e">• 感控計畫加上年度審閱記錄與日期更新</text>
+  <text x="416" y="186" font-size="14" fill="#57534e">• 辦理安寧療護工作人員教育訓練</text>
+  <text x="416" y="206" font-size="14" fill="#57534e">• 建立安寧轉介機制聯絡名單</text>
+  <text x="416" y="226" font-size="14" fill="#57534e">• 安排急救訓練效期即將到期人員複訓</text>
+
+  <!-- 第7週 -->
+  <rect x="40" y="280" width="340" height="150" rx="10" fill="white" stroke="#2563eb" stroke-width="2"/>
+  <rect x="40" y="280" width="340" height="38" rx="10" fill="#2563eb"/>
+  <rect x="40" y="298" width="340" height="20" fill="#2563eb"/>
+  <text x="210" y="304" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第7週：C 區消防安全補強</text>
+  <text x="56" y="334" font-size="14" fill="#57534e">• 建立多情境疏散計畫（至少3起火點）</text>
+  <text x="56" y="354" font-size="14" fill="#57534e">• 辦理夜間消防演練並留存完整記錄</text>
+  <text x="56" y="374" font-size="14" fill="#57534e">• 更新住民個別化疏散名冊（符合現況）</text>
+  <text x="56" y="396" font-size="14" fill="#dc2626" font-weight="600">夜間演練不要再拖！</text>
+
+  <!-- 第8週 -->
+  <rect x="400" y="280" width="360" height="150" rx="10" fill="white" stroke="#7c3aed" stroke-width="2"/>
+  <rect x="400" y="280" width="360" height="38" rx="10" fill="#7c3aed"/>
+  <rect x="400" y="298" width="360" height="20" fill="#7c3aed"/>
+  <text x="580" y="304" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第8週：D 區特別事項補強</text>
+  <text x="416" y="334" font-size="14" fill="#57534e">• 建立口腔照護記錄格式（從本週開始記錄）</text>
+  <text x="416" y="354" font-size="14" fill="#57534e">• 確認口腔照護工作人員訓練記錄</text>
+  <text x="416" y="374" font-size="14" fill="#57534e">• 建立牙科轉介合作診所聯絡名單</text>
+  <text x="416" y="394" font-size="14" fill="#57534e">• 整理 D1 創新服務書面成效記錄</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">品質指標 PDCA 循環</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">B3 持續改善的四個環節——評鑑委員最重視的架構</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- PDCA 弧形箭頭（圓心 cx=400, cy=285, R=130, r=68） -->
+  <!-- Plan（P）#d97706 琥珀 -->
+  <path d="M 431 159 A 130 130 0 0 1 530 276 L 545 275 L 498 302 L 453 281 L 468 280 A 68 68 0 0 0 416 219 Z" fill="#d97706"/>
+  <!-- Do（D）#78716c 暖灰 -->
+  <path d="M 526 316 A 130 130 0 0 1 409 415 L 410 430 L 383 383 L 404 338 L 405 353 A 68 68 0 0 0 466 301 Z" fill="#78716c"/>
+  <!-- Check（C）#57534e 深棕 -->
+  <path d="M 369 411 A 130 130 0 0 1 270 294 L 255 295 L 303 268 L 347 289 L 332 290 A 68 68 0 0 0 384 351 Z" fill="#57534e"/>
+  <!-- Act（A）#a8a29e 淺灰 -->
+  <path d="M 274 254 A 130 130 0 0 1 391 155 L 390 140 L 417 188 L 396 232 L 395 217 A 68 68 0 0 0 334 269 Z" fill="#a8a29e"/>
+
+  <!-- 字母 -->
+  <text x="476" y="232" text-anchor="middle" font-size="30" fill="white" font-weight="700">P</text>
+  <text x="464" y="372" text-anchor="middle" font-size="30" fill="white" font-weight="700">D</text>
+  <text x="324" y="360" text-anchor="middle" font-size="30" fill="white" font-weight="700">C</text>
+  <text x="336" y="220" text-anchor="middle" font-size="30" fill="white" font-weight="700">A</text>
+
+  <!-- 中央文字 -->
+  <text x="400" y="278" text-anchor="middle" font-size="22" font-weight="700" fill="#1e293b">PDCA</text>
+  <text x="400" y="302" text-anchor="middle" font-size="22" font-weight="700" fill="#1e293b">Cycle</text>
+
+  <!-- 右上：Plan 說明 -->
+  <rect x="6" y="108" width="4" height="28" rx="2" fill="#d97706"/>
+  <text x="16" y="123" font-size="20" fill="#d97706" font-weight="700">P — Plan 設定目標</text>
+  <line x1="10" y1="140" x2="230" y2="140" stroke="#d97706" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="10" y="157" font-size="16" fill="#57534e">參考業界標準設定目標值</text>
+  <text x="10" y="177" font-size="16" fill="#57534e">跌倒率：近 2 年平均值以下</text>
+
+  <!-- 右下：Do 說明 -->
+  <rect x="558" y="108" width="4" height="28" rx="2" fill="#78716c"/>
+  <text x="568" y="123" font-size="20" fill="#78716c" font-weight="700">D — Do 每月收集</text>
+  <line x1="562" y1="140" x2="780" y2="140" stroke="#78716c" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="562" y="157" font-size="16" fill="#57534e">事件即時記錄，不積累補寫</text>
+  <text x="562" y="177" font-size="16" fill="#57534e">月底統計件數與人日數</text>
+
+  <!-- 左下：Check 說明 -->
+  <rect x="558" y="360" width="4" height="28" rx="2" fill="#57534e"/>
+  <text x="568" y="375" font-size="20" fill="#57534e" font-weight="700">C — Check 每季分析</text>
+  <line x1="562" y1="392" x2="780" y2="392" stroke="#57534e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="562" y="409" font-size="16" fill="#57534e">計算指標值對比目標值</text>
+  <text x="562" y="429" font-size="16" fill="#57534e">分析趨勢，撰寫原因分析</text>
+
+  <!-- 左上：Act 說明 -->
+  <rect x="6" y="360" width="4" height="28" rx="2" fill="#a8a29e"/>
+  <text x="16" y="375" font-size="20" fill="#a8a29e" font-weight="700">A — Act 改善追蹤</text>
+  <line x1="10" y1="392" x2="230" y2="392" stroke="#a8a29e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="10" y="409" font-size="16" fill="#57534e">具體改善措施含負責人</text>
+  <text x="10" y="429" font-size="16" fill="#57534e">下季追蹤改善成效</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

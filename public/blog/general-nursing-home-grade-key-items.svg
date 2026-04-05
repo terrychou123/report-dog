@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="6" fill="#b45309"/>
+
+  <!-- 標題 -->
+  <text x="400" y="45" font-size="22" fill="#92400e" font-weight="bold" text-anchor="middle">關鍵加分項目分析——各區塊對等第的影響</text>
+
+  <!-- A 區 -->
+  <rect x="20" y="65" width="370" height="155" fill="white" rx="10" stroke="#1e3a5f" stroke-width="2"/>
+  <rect x="20" y="65" width="370" height="38" fill="#1e3a5f" rx="10"/>
+  <rect x="20" y="88" width="370" height="15" fill="#1e3a5f"/>
+  <text x="205" y="90" font-size="15" fill="white" font-weight="bold" text-anchor="middle">A 區 行政管理（門檻區）</text>
+  <!-- 影響程度標示 -->
+  <rect x="270" y="70" width="110" height="26" fill="#fef3c7" rx="6"/>
+  <text x="325" y="87" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">影響：門檻條件</text>
+  <text x="40" y="127" font-size="14" fill="#44403c">• A1.1 負責人管理：每月查核記錄</text>
+  <text x="40" y="147" font-size="14" fill="#44403c">• A1.3 意外事件：24小時通報機制</text>
+  <text x="40" y="167" font-size="14" fill="#44403c">• 未達 A 區基準 → 影響等第評級</text>
+  <text x="40" y="190" font-size="14" fill="#78716c">＊A 區屬行政基礎，全部達成是最低要求</text>
+
+  <!-- B 區 -->
+  <rect x="410" y="65" width="370" height="155" fill="white" rx="10" stroke="#dc2626" stroke-width="2"/>
+  <rect x="410" y="65" width="370" height="38" fill="#dc2626" rx="10"/>
+  <rect x="410" y="88" width="370" height="15" fill="#dc2626"/>
+  <text x="595" y="90" font-size="15" fill="white" font-weight="bold" text-anchor="middle">B 區 照護品質（主要分數）</text>
+  <rect x="650" y="70" width="120" height="26" fill="#fee2e2" rx="6"/>
+  <text x="710" y="87" font-size="14" fill="#991b1b" font-weight="bold" text-anchor="middle">影響：甲等/乙等差距</text>
+  <text x="430" y="127" font-size="14" fill="#44403c">• B1 照護計畫個別化（評值欄不空白）</text>
+  <text x="430" y="147" font-size="14" fill="#44403c">• B2 跨專業會議有實質討論記錄</text>
+  <text x="430" y="167" font-size="14" fill="#44403c">• B3 品質指標完整 PDCA 記錄</text>
+  <text x="430" y="190" font-size="14" fill="#78716c">＊B 區是委員最仔細查核的核心區塊</text>
+
+  <!-- C 區 -->
+  <rect x="20" y="235" width="370" height="140" fill="white" rx="10" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="20" y="235" width="370" height="38" fill="#f59e0b" rx="10"/>
+  <rect x="20" y="258" width="370" height="15" fill="#f59e0b"/>
+  <text x="205" y="260" font-size="15" fill="white" font-weight="bold" text-anchor="middle">C 區 消防安全（實地查核）</text>
+  <rect x="260" y="240" width="120" height="26" fill="#fef3c7" rx="6"/>
+  <text x="320" y="257" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">影響：失分風險高</text>
+  <text x="40" y="293" font-size="14" fill="#44403c">• C4 消防演習情境演練（實地查核）</text>
+  <text x="40" y="313" font-size="14" fill="#44403c">• 滅火器、緊急出口、疏散路線</text>
+  <text x="40" y="333" font-size="14" fill="#44403c">• 護理師熟悉消防設備操作</text>
+  <text x="40" y="357" font-size="14" fill="#78716c">＊C 區單項嚴重缺失可能導致整體等第下降</text>
+
+  <!-- D1 加分 -->
+  <rect x="410" y="235" width="370" height="140" fill="white" rx="10" stroke="#16a34a" stroke-width="2"/>
+  <rect x="410" y="235" width="370" height="38" fill="#16a34a" rx="10"/>
+  <rect x="410" y="258" width="370" height="15" fill="#16a34a"/>
+  <text x="595" y="260" font-size="15" fill="white" font-weight="bold" text-anchor="middle">D1 創新加分（優等關鍵）</text>
+  <rect x="640" y="240" width="130" height="26" fill="#dcfce7" rx="6"/>
+  <text x="705" y="257" font-size="14" fill="#166534" font-weight="bold" text-anchor="middle">影響：合格→優等</text>
+  <text x="430" y="293" font-size="14" fill="#44403c">• 配合政府創新照護計畫得分</text>
+  <text x="430" y="313" font-size="14" fill="#44403c">• 低成本高效益的加分方式</text>
+  <text x="430" y="333" font-size="14" fill="#44403c">• 特殊照護措施（如失智友善）</text>
+  <text x="430" y="357" font-size="14" fill="#78716c">＊D1 是從甲等升優等的重要推力</text>
+
+  <!-- 總結 -->
+  <rect x="20" y="390" width="760" height="75" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="1.5"/>
+  <text x="400" y="415" font-size="15" fill="#92400e" font-weight="bold" text-anchor="middle">備考策略優先序：A 區（門檻）→ B 區（主要分數）→ C 區（防失分）→ D1（衝優等）</text>
+  <text x="400" y="438" font-size="14" fill="#78350f" text-anchor="middle">資源有限時，建議先確保 A 區全達標 + B 區核心項目完整，再投入 D1 創新加分</text>
+  <text x="400" y="457" font-size="14" fill="#78716c" text-anchor="middle">中小型機構最低目標：合格；三年目標：甲等；五年目標：優等</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

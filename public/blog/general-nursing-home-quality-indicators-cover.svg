@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大字「B3」 -->
+  <text x="1010" y="250" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">B3</text>
+  <text x="1010" y="290" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">品質監測評鑑基準</text>
+
+  <!-- 右側 5 大指標卡片（y=310~540，每個 h=42，間距 10） -->
+  <rect x="840" y="310" width="320" height="42" rx="8" fill="#d97706" opacity="0.15"/>
+  <text x="1000" y="337" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">跌倒發生率（件/千人日）</text>
+
+  <rect x="840" y="362" width="320" height="42" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="1000" y="389" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">壓傷發生率（院內新發生）</text>
+
+  <rect x="840" y="414" width="320" height="42" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="1000" y="441" font-size="24" fill="#57534e" text-anchor="middle" font-weight="700">導管相關感染率（CAUTI）</text>
+
+  <rect x="840" y="466" width="320" height="42" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="1000" y="493" font-size="24" fill="#1e293b" text-anchor="middle" font-weight="700">約束使用率</text>
+
+  <rect x="840" y="518" width="320" height="42" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="545" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">非計畫性住院率</text>
+
+  <!-- 左側主內容區 -->
+  <text x="60" y="195" font-size="110" font-weight="900" fill="#1e293b">品質指標</text>
+  <text x="60" y="330" font-size="110" font-weight="900" fill="#d97706">PDCA 追蹤</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="358" x2="780" y2="358" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="408" font-size="38" fill="#57534e" font-weight="400">跌倒、壓傷、感染 — 每季分析實戰教學</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="444" width="150" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="135" y="476" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">評鑑準備</text>
+
+  <rect x="224" y="444" width="140" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="476" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">B3 基準</text>
+
+  <rect x="378" y="444" width="150" height="52" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="453" y="476" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">115 年度</text>
+
+  <!-- 適用對象說明 -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用：護理長、品管負責人、護理師</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

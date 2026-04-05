@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">最後一個月：演練衝刺＋最終查核</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">從情境演練到模擬查核，評鑑日前10天全部就緒</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#57534e" stroke-width="2"/>
+
+  <!-- 第9-10週 -->
+  <rect x="40" y="112" width="340" height="155" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="112" width="340" height="38" rx="10" fill="#d97706"/>
+  <rect x="40" y="130" width="340" height="20" fill="#d97706"/>
+  <text x="210" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第9-10週：情境演練＋人員培訓</text>
+  <text x="56" y="166" font-size="14" fill="#57534e">• C4 情境演練：以不同起火點為情境</text>
+  <text x="56" y="186" font-size="14" fill="#57534e">• 各班次人員均完成至少1次情境練習</text>
+  <text x="56" y="206" font-size="14" fill="#57534e">• 演練後召開檢討會議、調整疏散名冊</text>
+  <text x="56" y="226" font-size="14" fill="#57534e">• 複習 A1.3 緊急事件24小時通報流程</text>
+  <text x="56" y="256" font-size="14" fill="#dc2626" font-weight="600">C4 情境演練是唯一無法補救的項目</text>
+
+  <!-- 第11週 -->
+  <rect x="400" y="112" width="360" height="155" rx="10" fill="white" stroke="#57534e" stroke-width="2"/>
+  <rect x="400" y="112" width="360" height="38" rx="10" fill="#57534e"/>
+  <rect x="400" y="130" width="360" height="20" fill="#57534e"/>
+  <text x="580" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第11週：整體文件最終盤點</text>
+  <text x="416" y="166" font-size="14" fill="#57534e">• 逐一核對 15 項基準，確認缺漏已補</text>
+  <text x="416" y="186" font-size="14" fill="#57534e">• 文件按評鑑基準編號分類裝訂</text>
+  <text x="416" y="206" font-size="14" fill="#57534e">• 最終走查 C2 疏散通道（確認無障礙物）</text>
+  <text x="416" y="226" font-size="14" fill="#57534e">• 使用 AI 自動查核，標示遺漏項目</text>
+  <text x="416" y="256" font-size="14" fill="#16a34a" font-weight="600">評鑑前10天完成所有文件整理</text>
+
+  <!-- 第12週 -->
+  <rect x="40" y="284" width="720" height="140" rx="10" fill="#fef9c3" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="284" width="720" height="38" rx="10" fill="#d97706" opacity="0.85"/>
+  <rect x="40" y="302" width="720" height="20" fill="#d97706" opacity="0.85"/>
+  <text x="400" y="308" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第12週（評鑑前一週）：模擬評鑑最終確認</text>
+  <text x="56" y="340" font-size="14" fill="#57534e">• 護理長扮演評鑑委員，翻閱文件並提問工作人員（如「跌倒後多久通報家屬？」「感控計畫幾時更新的？」）</text>
+  <text x="56" y="360" font-size="14" fill="#57534e">• 確認所有工作人員知道評鑑應答注意事項（不確定的事說「我去確認後回覆」）</text>
+  <text x="56" y="380" font-size="14" fill="#57534e">• 確認評鑑當天各負責人員知道帶委員看哪些文件、去哪些區域</text>
+  <text x="56" y="404" font-size="14" fill="#d97706" font-weight="600">目標：評鑑當天每個人知道自己的角色和要說什麼</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

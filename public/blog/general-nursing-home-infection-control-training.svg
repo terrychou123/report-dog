@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">感控教育訓練年度排程建議</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">每年至少 6 小時，分散各月份辦理</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 時間軸橫線 y=272 -->
+  <line x1="60" y1="272" x2="736" y2="272" stroke="#a8a29e" stroke-width="4"/>
+  <polygon points="736,265 736,279 752,272" fill="#a8a29e"/>
+
+  <!-- 節點 1（上方，3月 cx=170）：手部衛生 -->
+  <rect x="110" y="110" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="110" y="110" width="120" height="8" rx="4" fill="#d97706"/>
+  <rect x="110" y="114" width="120" height="4" fill="#d97706"/>
+  <text x="170" y="147" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">手部衛生</text>
+  <text x="170" y="169" text-anchor="middle" font-size="15" fill="#57534e">3 月辦理</text>
+  <text x="170" y="189" text-anchor="middle" font-size="15" fill="#d97706" font-weight="700">2 小時</text>
+  <!-- 虛線 + 圓點 -->
+  <line x1="170" y1="210" x2="170" y2="248" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="170" cy="272" r="24" fill="#d97706"/>
+  <text x="170" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">1</text>
+  <!-- W 標籤下方 -->
+  <rect x="136" y="300" width="68" height="22" rx="11" fill="#d97706"/>
+  <text x="170" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">Q1 辦理</text>
+
+  <!-- 節點 2（下方，5月 cx=310）：傳染病防疫 -->
+  <!-- W 標籤上方 -->
+  <rect x="276" y="222" width="68" height="22" rx="11" fill="#78716c"/>
+  <text x="310" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">Q2 辦理</text>
+  <circle cx="310" cy="272" r="24" fill="#78716c"/>
+  <text x="310" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">2</text>
+  <!-- 虛線 + 下方卡片 -->
+  <line x1="310" y1="296" x2="310" y2="346" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="250" y="346" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="250" y="438" width="120" height="8" rx="4" fill="#78716c"/>
+  <rect x="250" y="434" width="120" height="4" fill="#78716c"/>
+  <text x="310" y="375" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">傳染病防疫</text>
+  <text x="310" y="397" text-anchor="middle" font-size="15" fill="#57534e">5 月辦理</text>
+  <text x="310" y="417" text-anchor="middle" font-size="15" fill="#78716c" font-weight="700">2 小時</text>
+
+  <!-- 節點 3（上方，8月 cx=490）：標準防護 -->
+  <rect x="430" y="110" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="430" y="110" width="120" height="8" rx="4" fill="#57534e"/>
+  <rect x="430" y="114" width="120" height="4" fill="#57534e"/>
+  <text x="490" y="147" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">標準防護</text>
+  <text x="490" y="169" text-anchor="middle" font-size="15" fill="#57534e">8 月辦理</text>
+  <text x="490" y="189" text-anchor="middle" font-size="15" fill="#57534e" font-weight="700">1 小時</text>
+  <line x1="490" y1="210" x2="490" y2="248" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="490" cy="272" r="24" fill="#57534e"/>
+  <text x="490" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">3</text>
+  <rect x="456" y="300" width="68" height="22" rx="11" fill="#57534e"/>
+  <text x="490" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">Q3 辦理</text>
+
+  <!-- 節點 4（下方，11月 cx=650）：綜合複習 -->
+  <rect x="616" y="222" width="68" height="22" rx="11" fill="#a8a29e"/>
+  <text x="650" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">Q4 辦理</text>
+  <circle cx="650" cy="272" r="24" fill="#a8a29e"/>
+  <text x="650" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">4</text>
+  <line x1="650" y1="296" x2="650" y2="346" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="590" y="346" width="120" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="590" y="438" width="120" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="590" y="434" width="120" height="4" fill="#a8a29e"/>
+  <text x="650" y="375" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">綜合複習</text>
+  <text x="650" y="397" text-anchor="middle" font-size="15" fill="#57534e">11 月辦理</text>
+  <text x="650" y="417" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">1 小時</text>
+
+  <!-- 總計說明 -->
+  <rect x="280" y="106" width="140" height="36" rx="18" fill="#16a34a" opacity="0.15"/>
+  <text x="350" y="130" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">全年共 6 小時</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑準備進化路徑</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">從手工 Excel 到 AI 全自動——三個階段的升級</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 階段 1 -->
+  <rect x="40" y="120" width="210" height="230" rx="10" fill="white" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="40" y="120" width="210" height="44" rx="10" fill="#94a3b8"/>
+  <rect x="40" y="140" width="210" height="24" fill="#94a3b8"/>
+  <text x="145" y="148" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">階段一：手工自評</text>
+  <text x="145" y="168" font-size="12" fill="#e2e8f0" text-anchor="middle">大多數機構現在的做法</text>
+  <text x="56" y="190" font-size="14" fill="#57534e">• 下載衛福部官方自評表</text>
+  <text x="56" y="210" font-size="14" fill="#57534e">• 護理長逐條手工填寫</text>
+  <text x="56" y="230" font-size="14" fill="#57534e">• 以紙本或 Excel 管理</text>
+  <text x="56" y="278" font-size="14" fill="#94a3b8">缺點：耗時、易遺漏、</text>
+  <text x="56" y="296" font-size="14" fill="#94a3b8">跨人員難協作</text>
+  <text x="56" y="316" font-size="14" fill="#94a3b8">準備耗時：60+ 小時</text>
+
+  <!-- 升級箭頭 1 -->
+  <text x="268" y="240" font-size="28" fill="#d97706" text-anchor="middle">→</text>
+  <text x="268" y="262" font-size="11" fill="#d97706" text-anchor="middle">升級</text>
+
+  <!-- 階段 2 -->
+  <rect x="290" y="120" width="220" height="230" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
+  <rect x="290" y="120" width="220" height="44" rx="10" fill="#d97706"/>
+  <rect x="290" y="140" width="220" height="24" fill="#d97706"/>
+  <text x="400" y="148" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">階段二：Excel 自評表</text>
+  <text x="400" y="168" font-size="12" fill="#fef9c3" text-anchor="middle">結構化但仍手動</text>
+  <text x="306" y="190" font-size="14" fill="#57534e">• 建立 6 欄位自評結構</text>
+  <text x="306" y="210" font-size="14" fill="#57534e">• 三段式評估更清晰</text>
+  <text x="306" y="230" font-size="14" fill="#57534e">• 統計摘要可自動算</text>
+  <text x="306" y="278" font-size="14" fill="#d97706">優點：進度更清晰，</text>
+  <text x="306" y="296" font-size="14" fill="#d97706">分工更明確</text>
+  <text x="306" y="316" font-size="14" fill="#57534e">準備耗時：30–40 小時</text>
+
+  <!-- 升級箭頭 2 -->
+  <text x="528" y="240" font-size="28" fill="#16a34a" text-anchor="middle">→</text>
+  <text x="528" y="262" font-size="11" fill="#16a34a" text-anchor="middle">升級</text>
+
+  <!-- 階段 3 -->
+  <rect x="550" y="120" width="210" height="230" rx="10" fill="white" stroke="#16a34a" stroke-width="2"/>
+  <rect x="550" y="120" width="210" height="44" rx="10" fill="#16a34a"/>
+  <rect x="550" y="140" width="210" height="24" fill="#16a34a"/>
+  <text x="655" y="148" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">階段三：AI 全自動</text>
+  <text x="655" y="168" font-size="12" fill="#bbf7d0" text-anchor="middle">報告汪智慧評鑑系統</text>
+  <text x="566" y="190" font-size="14" fill="#57534e">• AI 自動比對 15 項基準</text>
+  <text x="566" y="210" font-size="14" fill="#57534e">• 即時缺失警示</text>
+  <text x="566" y="230" font-size="14" fill="#57534e">• 多人協作同步追蹤</text>
+  <text x="566" y="278" font-size="14" fill="#16a34a">優點：最省時、最精準，</text>
+  <text x="566" y="296" font-size="14" fill="#16a34a">全程有 AI 把關</text>
+  <text x="566" y="316" font-size="14" fill="#57534e">準備耗時：10–15 小時</text>
+
+  <!-- 建議 -->
+  <rect x="40" y="374" width="720" height="66" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="400" y="396" font-size="13" fill="#1e293b" text-anchor="middle" font-weight="700">本文建議的行動路徑</text>
+  <text x="400" y="416" font-size="14" fill="#57534e" text-anchor="middle">現在使用手工自評？ → 先套用本文 Excel 範本，熟悉結構後升級至報告汪</text>
+  <text x="400" y="436" font-size="14" fill="#16a34a" text-anchor="middle">報告汪免費方案可完整試用 AI 自動查核功能，評鑑前30天開始使用即可</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

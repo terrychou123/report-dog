@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8" rx="16"/>
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="68" fill="#d97706" rx="16"/>
+  <rect x="0" y="52" width="800" height="16" fill="#d97706"/>
+  <text x="400" y="43" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">D1 創新加分：5 個低成本高效益案例</text>
+  <!-- 案例1 -->
+  <rect x="28" y="86" width="222" height="180" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="28" y="86" width="222" height="44" rx="12" fill="#d97706" opacity="0.15"/>
+  <rect x="28" y="116" width="222" height="14" fill="#d97706" opacity="0.15"/>
+  <text x="139" y="113" font-size="36" text-anchor="middle">🤖</text>
+  <text x="139" y="148" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">AI 文書工具</text>
+  <text x="46" y="174" font-size="14" fill="#d97706" font-weight="700">成本：低</text>
+  <text x="46" y="193" font-size="14" fill="#44403c">• 工具訂閱費或免費</text>
+  <text x="46" y="211" font-size="14" fill="#44403c">• 護理師文書省 33%</text>
+  <text x="46" y="229" font-size="14" fill="#44403c">• 可作 D1 加分佐證</text>
+  <text x="46" y="251" font-size="14" fill="#d97706" font-weight="700">評鑑亮點：科技創新</text>
+  <!-- 案例2 -->
+  <rect x="270" y="86" width="222" height="180" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="270" y="86" width="222" height="44" rx="12" fill="#d97706" opacity="0.15"/>
+  <rect x="270" y="116" width="222" height="14" fill="#d97706" opacity="0.15"/>
+  <text x="381" y="113" font-size="36" text-anchor="middle">📖</text>
+  <text x="381" y="148" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">住民生命故事書</text>
+  <text x="288" y="174" font-size="14" fill="#d97706" font-weight="700">成本：極低</text>
+  <text x="288" y="193" font-size="14" fill="#44403c">• 列印費＋訪談時間</text>
+  <text x="288" y="211" font-size="14" fill="#44403c">• 個別化照護依據</text>
+  <text x="288" y="229" font-size="14" fill="#44403c">• 家屬滿意度提升</text>
+  <text x="288" y="251" font-size="14" fill="#d97706" font-weight="700">評鑑亮點：以人為本</text>
+  <!-- 案例3 -->
+  <rect x="512" y="86" width="258" height="180" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="512" y="86" width="258" height="44" rx="12" fill="#d97706" opacity="0.15"/>
+  <rect x="512" y="116" width="258" height="14" fill="#d97706" opacity="0.15"/>
+  <text x="641" y="113" font-size="36" text-anchor="middle">🧠</text>
+  <text x="641" y="148" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">失智友善環境改善</text>
+  <text x="530" y="174" font-size="14" fill="#d97706" font-weight="700">成本：低至中</text>
+  <text x="530" y="193" font-size="14" fill="#44403c">• 標示優化＋感知盒</text>
+  <text x="530" y="211" font-size="14" fill="#44403c">• 遊走事件減少</text>
+  <text x="530" y="229" font-size="14" fill="#44403c">• 可申請失智友善認證</text>
+  <text x="530" y="251" font-size="14" fill="#d97706" font-weight="700">評鑑亮點：政策配合</text>
+  <!-- 案例4 -->
+  <rect x="28" y="288" width="350" height="174" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="28" y="288" width="350" height="44" rx="12" fill="#44403c" opacity="0.10"/>
+  <rect x="28" y="318" width="350" height="14" fill="#44403c" opacity="0.10"/>
+  <text x="203" y="315" font-size="36" text-anchor="middle">📱</text>
+  <text x="203" y="350" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">家屬數位探視系統</text>
+  <text x="48" y="376" font-size="14" fill="#d97706" font-weight="700">成本：極低（LINE/Google Meet）</text>
+  <text x="48" y="396" font-size="14" fill="#44403c">• 維護家屬與住民連結</text>
+  <text x="48" y="416" font-size="14" fill="#44403c">• COVID 後延續的創新</text>
+  <text x="48" y="436" font-size="14" fill="#d97706" font-weight="700">評鑑亮點：家屬中心創新</text>
+  <!-- 案例5 -->
+  <rect x="400" y="288" width="370" height="174" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="400" y="288" width="370" height="44" rx="12" fill="#44403c" opacity="0.10"/>
+  <rect x="400" y="318" width="370" height="14" fill="#44403c" opacity="0.10"/>
+  <text x="585" y="315" font-size="36" text-anchor="middle">🏆</text>
+  <text x="585" y="350" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">工作人員技能競賽</text>
+  <text x="418" y="376" font-size="14" fill="#d97706" font-weight="700">成本：極低（時間成本）</text>
+  <text x="418" y="396" font-size="14" fill="#44403c">• 移位、口腔照護競賽</text>
+  <text x="418" y="416" font-size="14" fill="#44403c">• 提升品質意識文化</text>
+  <text x="418" y="436" font-size="14" fill="#d97706" font-weight="700">評鑑亮點：員工參與創新（D1基準）</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

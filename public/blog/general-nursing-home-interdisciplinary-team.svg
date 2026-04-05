@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">跨專業團隊組成</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">B2 評鑑：以住民需求為中心，各專業彈性參與</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 中央圓：住民 -->
+  <circle cx="400" cy="290" r="58" fill="#d97706" opacity="0.85"/>
+  <text x="400" y="283" text-anchor="middle" font-size="22" fill="white" font-weight="700">住民</text>
+  <text x="400" y="306" text-anchor="middle" font-size="18" fill="white">為中心</text>
+
+  <!-- 連接線 -->
+  <line x1="400" y1="232" x2="400" y2="176" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="456" y1="254" x2="534" y2="198" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="450" y1="314" x2="534" y2="366" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="400" y1="348" x2="400" y2="400" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="350" y1="314" x2="266" y2="366" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="344" y1="254" x2="266" y2="198" stroke="#dedad3" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- 上方：護理師（核心，粗框） -->
+  <rect x="330" y="120" width="140" height="56" rx="12" fill="white" stroke="#d97706" stroke-width="2.5"/>
+  <text x="400" y="145" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">護理師</text>
+  <text x="400" y="167" text-anchor="middle" font-size="14" fill="#57534e">主持會議 · 照護計畫主責</text>
+
+  <!-- 右上：物理治療師 -->
+  <rect x="540" y="148" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <text x="610" y="173" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">物理治療師</text>
+  <text x="610" y="193" text-anchor="middle" font-size="14" fill="#57534e">移動功能 · 輔具評估</text>
+
+  <!-- 右下：營養師 -->
+  <rect x="540" y="338" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <text x="610" y="363" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">營養師</text>
+  <text x="610" y="383" text-anchor="middle" font-size="14" fill="#57534e">飲食調整 · 管灌評估</text>
+
+  <!-- 下方：照服員主管 -->
+  <rect x="330" y="408" width="140" height="56" rx="12" fill="white" stroke="#d97706" stroke-width="2.5"/>
+  <text x="400" y="433" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">照服員主管</text>
+  <text x="400" y="453" text-anchor="middle" font-size="14" fill="#57534e">日常照顧 · ADL 觀察</text>
+
+  <!-- 左下：社工師 -->
+  <rect x="120" y="338" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <text x="190" y="363" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">社工師</text>
+  <text x="190" y="383" text-anchor="middle" font-size="14" fill="#57534e">家屬聯繫 · 資源連結</text>
+
+  <!-- 左上：職能治療師 -->
+  <rect x="120" y="148" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <text x="190" y="173" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">職能治療師</text>
+  <text x="190" y="193" text-anchor="middle" font-size="14" fill="#57534e">ADL 訓練 · 認知活動</text>
+
+  <!-- 粗框圖例 -->
+  <rect x="40" y="454" width="16" height="16" rx="3" fill="white" stroke="#d97706" stroke-width="2.5"/>
+  <text x="62" y="467" font-size="15" fill="#57534e">核心成員（必須出席）</text>
+  <rect x="220" y="454" width="16" height="16" rx="3" fill="white" stroke="#78716c" stroke-width="1.5"/>
+  <text x="242" y="467" font-size="15" fill="#57534e">依住民需求彈性納入</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

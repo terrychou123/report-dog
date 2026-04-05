@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 69 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 109 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -15,7 +15,6 @@ import postgres from "postgres";
 import { blogPosts } from "../db/schema";
 import { getDbUrl } from "../db/index";
 
-// 四十九篇文章的 JSON 檔案路徑
 const POST_FILES = [
   // 日照中心系列（17 篇）
   "article-1-daycare-45-guide.json",
@@ -118,13 +117,36 @@ const POST_FILES = [
   "article-87-postpartum-rooming-in.json",
   "article-88-postpartum-d1-bonus.json",
   "article-89-postpartum-pdca.json",
+  // 一般護理之家系列（第一波 5 篇）
+  "article-90-general-nursing-home-eval-15-guide.json",
+  "article-91-general-nursing-home-eval-common-mistakes.json",
+  "article-92-general-nursing-home-eval-90day-plan.json",
+  "article-93-general-nursing-home-care-plan-writing.json",
+  "article-94-general-nursing-home-self-eval-guide.json",
+  // 一般護理之家系列（第二波 5 篇）
+  "article-95-general-nursing-home-fire-drill-guide.json",
+  "article-96-general-nursing-home-infection-control-guide.json",
+  "article-97-general-nursing-home-paperwork-reduction.json",
+  "article-98-general-nursing-home-quality-indicators.json",
+  "article-99-general-nursing-home-interdisciplinary-meeting.json",
+  // 一般護理之家系列（第三波 10 篇）
+  "article-100-general-nursing-home-palliative-care.json",
+  "article-101-general-nursing-home-oral-care.json",
+  "article-102-general-nursing-home-staffing-cpr.json",
+  "article-103-general-nursing-home-accident-handling.json",
+  "article-104-general-nursing-home-manager-a11.json",
+  "article-105-general-nursing-home-grade-strategy.json",
+  "article-106-general-nursing-home-d1-innovation.json",
+  "article-107-general-nursing-home-evacuation-system.json",
+  "article-108-general-nursing-home-new-director-guide.json",
+  "article-109-general-nursing-home-eval-vs-quality.json",
 ];
 
 async function main() {
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
   try {
-    console.log("📝 開始匯入部落格文章（日照中心 17 篇 + 居家照顧 7 篇 + 住宿型機構 25 篇 + 居家護理所 20 篇 + 產後護理之家 20 篇，共 89 篇）...\n");
+    console.log(`📝 開始匯入部落格文章（共 ${POST_FILES.length} 篇）...\n`);
 
     for (const filename of POST_FILES) {
       const filePath = join(process.cwd(), "scripts/blog-posts", filename);

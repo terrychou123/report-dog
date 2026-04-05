@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">從「湊人數」到「真正整合」</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">3 個關鍵轉變——評鑑委員看到的成熟品質</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 流程圖：card_w=170, arrow_gap=16, margin=129 -->
+  <!-- 卡片座標：i=0 x=129 cx=214 / i=1 x=315 cx=400 / i=2 x=501 cx=586 -->
+
+  <!-- 卡片 1：討論有數據（#d97706）x=129 cx=214 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <!-- STEP 圓 r=43 cy=201 -->
+  <circle cx="214" cy="201" r="43" fill="#fef3c7"/>
+  <text x="214" y="190" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="215" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <!-- 卡片標題 -->
+  <text x="214" y="302" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">討論</text>
+  <text x="214" y="326" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">有數據</text>
+  <!-- 說明 -->
+  <text x="214" y="355" text-anchor="middle" font-size="16" fill="#57534e">ADL/MMSE</text>
+  <text x="214" y="375" text-anchor="middle" font-size="16" fill="#57534e">分數趨勢</text>
+  <!-- Pill -->
+  <rect x="139" y="392" width="150" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="416" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">數字說話</text>
+
+  <!-- 箭頭 1→2 -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="299,273 315,279 299,285" fill="#c4bfb8"/>
+
+  <!-- 卡片 2：決議有分工（#78716c）x=315 cx=400 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="201" r="43" fill="#f5f5f4"/>
+  <text x="400" y="190" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="215" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="302" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">決議</text>
+  <text x="400" y="326" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">有分工</text>
+  <text x="400" y="355" text-anchor="middle" font-size="16" fill="#57534e">含負責人</text>
+  <text x="400" y="375" text-anchor="middle" font-size="16" fill="#57534e">執行時程</text>
+  <rect x="325" y="392" width="150" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="416" text-anchor="middle" font-size="17" fill="#78716c" font-weight="600">可執行</text>
+
+  <!-- 箭頭 2→3 -->
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,273 501,279 485,285" fill="#c4bfb8"/>
+
+  <!-- 卡片 3：追蹤有記錄（#57534e）x=501 cx=586 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="201" r="43" fill="#f5f0eb"/>
+  <text x="586" y="190" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="215" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="302" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">追蹤</text>
+  <text x="586" y="326" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">有記錄</text>
+  <text x="586" y="355" text-anchor="middle" font-size="16" fill="#57534e">前次決議</text>
+  <text x="586" y="375" text-anchor="middle" font-size="16" fill="#57534e">成效回顧</text>
+  <rect x="511" y="392" width="150" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="416" text-anchor="middle" font-size="17" fill="#57534e" font-weight="600">閉環改善</text>
+
+  <!-- 標題分隔線（x1=129 x2=671） -->
+  <!-- 已由標題區 y=94 分隔線處理 -->
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

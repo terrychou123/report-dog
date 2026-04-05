@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">B1 照護計畫四個時序要求流程圖</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">從入住到修訂——每一步都需要書面記錄</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- 步驟1 -->
+  <rect x="40" y="120" width="160" height="220" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="40" y="120" width="160" height="42" rx="10" fill="#16a34a"/>
+  <rect x="40" y="142" width="160" height="20" fill="#16a34a"/>
+  <text x="120" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">Step 1</text>
+  <text x="120" y="164" font-size="13" fill="#bbf7d0" text-anchor="middle">24 小時內</text>
+  <text x="56" y="190" font-size="13" fill="#57534e" font-weight="600">初步護理評估</text>
+  <text x="56" y="212" font-size="14" fill="#57534e">• 生命徵象</text>
+  <text x="56" y="232" font-size="14" fill="#57534e">• 意識狀態</text>
+  <text x="56" y="252" font-size="14" fill="#57534e">• 皮膚狀況</text>
+  <text x="56" y="272" font-size="14" fill="#57534e">• 功能狀態</text>
+  <text x="56" y="310" font-size="14" fill="#dc2626">需標示完成時間</text>
+
+  <!-- 箭頭 -->
+  <text x="224" y="235" font-size="30" fill="#16a34a" text-anchor="middle">→</text>
+
+  <!-- 步驟2 -->
+  <rect x="240" y="120" width="160" height="220" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="240" y="120" width="160" height="42" rx="10" fill="#16a34a"/>
+  <rect x="240" y="142" width="160" height="20" fill="#16a34a"/>
+  <text x="320" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">Step 2</text>
+  <text x="320" y="164" font-size="13" fill="#bbf7d0" text-anchor="middle">72 小時內</text>
+  <text x="256" y="190" font-size="13" fill="#57534e" font-weight="600">完整四面向評估</text>
+  <text x="256" y="212" font-size="14" fill="#57534e">• 生理面向</text>
+  <text x="256" y="232" font-size="14" fill="#57534e">• 心理面向</text>
+  <text x="256" y="252" font-size="14" fill="#57534e">• 社會面向</text>
+  <text x="256" y="272" font-size="14" fill="#57534e">• 功能面向</text>
+  <text x="256" y="292" font-size="14" fill="#57534e">MMSE/Barthel</text>
+  <text x="256" y="324" font-size="14" fill="#dc2626">四面向缺一不可</text>
+
+  <!-- 箭頭 -->
+  <text x="424" y="235" font-size="30" fill="#16a34a" text-anchor="middle">→</text>
+
+  <!-- 步驟3 -->
+  <rect x="440" y="120" width="160" height="220" rx="10" fill="#f0fdf4" stroke="#d97706" stroke-width="2"/>
+  <rect x="440" y="120" width="160" height="42" rx="10" fill="#d97706"/>
+  <rect x="440" y="142" width="160" height="20" fill="#d97706"/>
+  <text x="520" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">Step 3</text>
+  <text x="520" y="164" font-size="13" fill="#fef9c3" text-anchor="middle">訂定照護計畫</text>
+  <text x="456" y="190" font-size="13" fill="#57534e" font-weight="600">四要素齊全</text>
+  <text x="456" y="212" font-size="14" fill="#57534e">• 照護問題</text>
+  <text x="456" y="232" font-size="14" fill="#57534e">• 照護目標</text>
+  <text x="456" y="252" font-size="14" fill="#57534e">• 照護措施</text>
+  <text x="456" y="272" font-size="14" fill="#57534e">• 評值記錄</text>
+  <text x="456" y="310" font-size="14" fill="#dc2626">個別化非套用範本</text>
+
+  <!-- 箭頭 -->
+  <text x="624" y="235" font-size="30" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- 步驟4 -->
+  <rect x="636" y="120" width="124" height="220" rx="10" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <rect x="636" y="120" width="124" height="42" rx="10" fill="#d97706"/>
+  <rect x="636" y="142" width="124" height="20" fill="#d97706"/>
+  <text x="698" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">Step 4</text>
+  <text x="698" y="164" font-size="13" fill="#fef9c3" text-anchor="middle">每3個月修訂</text>
+  <text x="648" y="190" font-size="12" fill="#57534e" font-weight="600">修訂要件：</text>
+  <text x="648" y="212" font-size="14" fill="#57534e">評值記錄</text>
+  <text x="648" y="232" font-size="14" fill="#57534e">↓ 計畫調整</text>
+  <text x="648" y="252" font-size="14" fill="#57534e">↓ 下期目標</text>
+  <text x="648" y="310" font-size="14" fill="#dc2626">狀況變化隨時修訂</text>
+
+  <!-- 底部說明 -->
+  <rect x="40" y="360" width="720" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="384" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="600">B1 最常見失分點</text>
+  <text x="400" y="406" font-size="14" fill="#dc2626" text-anchor="middle">評值記錄空白 · 計畫超3個月未修訂 · 四要素不完整 · 無跨專業簽名</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字「5」 -->
+  <text x="1010" y="250" font-size="200" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">5</text>
+  <text x="1010" y="288" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">大數位化減負招式</text>
+
+  <!-- 右側 5 個招式 pill 標籤（y=310~540，每個 h=42，間距 10） -->
+  <rect x="840" y="310" width="320" height="42" rx="8" fill="#d97706" opacity="0.15"/>
+  <text x="1000" y="337" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">AI 輔助照護計畫初稿</text>
+
+  <rect x="840" y="362" width="320" height="42" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="1000" y="389" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">訓練記錄模板 + 電子簽名</text>
+
+  <rect x="840" y="414" width="320" height="42" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="1000" y="441" font-size="24" fill="#57534e" text-anchor="middle" font-weight="700">多人協作即時分工</text>
+
+  <rect x="840" y="466" width="320" height="42" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="1000" y="493" font-size="24" fill="#a8a29e" text-anchor="middle" font-weight="700">品質指標自動統計</text>
+
+  <rect x="840" y="518" width="320" height="42" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="545" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">AI 自動查核文件缺失</text>
+
+  <!-- 左側主內容區 -->
+  <!-- 主標題第 1 行 -->
+  <text x="60" y="195" font-size="110" font-weight="900" fill="#1e293b">護理之家</text>
+  <!-- 主標題第 2 行（橙色強調） -->
+  <text x="60" y="330" font-size="110" font-weight="900" fill="#d97706">文書減負</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="358" x2="780" y2="358" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="408" font-size="38" fill="#57534e" font-weight="400">5 招數位化策略，評鑑品質不打折</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="444" width="150" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="135" y="476" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">實務技巧</text>
+
+  <rect x="224" y="444" width="150" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="299" y="476" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">數位化</text>
+
+  <rect x="388" y="444" width="150" height="52" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="463" y="476" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">115 年度</text>
+
+  <!-- 適用對象說明 -->
+  <text x="60" y="558" font-size="28" fill="#94a3b8">適用：一般護理之家護理長、護理師</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

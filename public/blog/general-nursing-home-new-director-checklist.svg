@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8" rx="16"/>
+  <!-- 標題 -->
+  <rect x="0" y="0" width="800" height="64" fill="#d97706" rx="16"/>
+  <rect x="0" y="50" width="800" height="14" fill="#d97706"/>
+  <text x="400" y="40" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">新任護理長前 30 天必做清單</text>
+  <!-- 左欄 第1-2週 -->
+  <rect x="24" y="78" width="370" height="392" rx="12" fill="#ffffff" opacity="0.85"/>
+  <!-- 第1週標題 -->
+  <rect x="24" y="78" width="370" height="38" rx="12" fill="#d97706" opacity="0.85"/>
+  <rect x="24" y="104" width="370" height="12" fill="#d97706" opacity="0.85"/>
+  <text x="209" y="104" font-size="16" font-weight="900" text-anchor="middle" fill="#ffffff">第 1 週 ─ 盤點現況</text>
+  <!-- 第1週任務 -->
+  <text x="44" y="134" font-size="14" fill="#44403c">□  向主管索取最近一次評鑑報告</text>
+  <text x="44" y="154" font-size="14" fill="#44403c">□  確認評鑑等第與缺失項目清單</text>
+  <text x="44" y="174" font-size="14" fill="#44403c">□  推算下次評鑑時間</text>
+  <text x="44" y="194" font-size="14" fill="#44403c">□  逐一確認 15 項基準文件現況</text>
+  <text x="44" y="214" font-size="14" fill="#78716c">     （有 / 部分有 / 無，建立記錄表）</text>
+  <text x="44" y="234" font-size="14" fill="#44403c">□  與前任護理長進行交接確認</text>
+  <text x="44" y="254" font-size="14" fill="#78716c">     合約到期日期 / 進行中的計畫</text>
+  <text x="44" y="274" font-size="14" fill="#44403c">□  確認各班人員訓練效期</text>
+  <text x="44" y="294" font-size="14" fill="#44403c">□  確認本年度消防演練記錄</text>
+  <!-- 分隔 -->
+  <rect x="44" y="308" width="330" height="1" fill="#e5e7eb"/>
+  <!-- 第2週標題 -->
+  <text x="44" y="328" font-size="14" font-weight="700" fill="#44403c">第 2 週 ─ 識別高風險缺口</text>
+  <!-- 第2週任務 -->
+  <text x="44" y="352" font-size="14" fill="#44403c">□  製作缺口優先級清單（P1/P2/P3）</text>
+  <text x="44" y="372" font-size="14" fill="#44403c">□  標記「無法補救」的高風險項目</text>
+  <text x="44" y="392" font-size="14" fill="#d97706">     ↳ BLS 效期、演練次數不足</text>
+  <text x="44" y="412" font-size="14" fill="#44403c">□  立即安排 P1 項目的改善行動</text>
+  <text x="44" y="432" font-size="14" fill="#44403c">□  向主管簡報現況與改善計畫</text>
+  <text x="44" y="452" font-size="14" fill="#44403c">□  初步訂定評鑑前行動時程表</text>
+  <!-- 右欄 第3-4週 -->
+  <rect x="406" y="78" width="370" height="392" rx="12" fill="#ffffff" opacity="0.85"/>
+  <!-- 第3週標題 -->
+  <rect x="406" y="78" width="370" height="38" rx="12" fill="#44403c" opacity="0.85"/>
+  <rect x="406" y="104" width="370" height="12" fill="#44403c" opacity="0.85"/>
+  <text x="591" y="104" font-size="16" font-weight="900" text-anchor="middle" fill="#ffffff">第 3 週 ─ 建立分工</text>
+  <!-- 第3週任務 -->
+  <text x="426" y="134" font-size="14" fill="#44403c">□  15 項基準各指定一位負責人</text>
+  <text x="426" y="154" font-size="14" fill="#44403c">□  說明各負責人的文件維護職責</text>
+  <text x="426" y="174" font-size="14" fill="#44403c">□  建立文件更新週期提醒機制</text>
+  <text x="426" y="194" font-size="14" fill="#44403c">□  啟動每週 30 分鐘進度追蹤會議</text>
+  <text x="426" y="214" font-size="14" fill="#78716c">     三問：完成了什麼 / 問題 / 下週計畫</text>
+  <text x="426" y="234" font-size="14" fill="#44403c">□  安排工作人員疏散名冊熟悉訓練</text>
+  <text x="426" y="254" font-size="14" fill="#44403c">□  確認家屬聯繫機制完整</text>
+  <text x="426" y="274" font-size="14" fill="#44403c">□  確認品質指標本月數據更新</text>
+  <!-- 分隔 -->
+  <rect x="426" y="294" width="330" height="1" fill="#e5e7eb"/>
+  <!-- 第4週標題 -->
+  <text x="426" y="314" font-size="14" font-weight="700" fill="#1e40af">第 4 週 ─ 系統化管理</text>
+  <!-- 第4週任務 -->
+  <text x="426" y="338" font-size="14" fill="#44403c">□  建立文件管理系統（數位或紙本）</text>
+  <text x="426" y="358" font-size="14" fill="#44403c">□  導入 AI 輔助工具（如報告汪）</text>
+  <text x="426" y="378" font-size="14" fill="#44403c">□  設定每季自評時程（模擬查核）</text>
+  <text x="426" y="398" font-size="14" fill="#44403c">□  完成 D1 創新項目規劃</text>
+  <text x="426" y="418" font-size="14" fill="#44403c">□  確認上次評鑑缺失改善進度</text>
+  <text x="426" y="438" font-size="14" fill="#44403c">□  回顧 30 天成果，更新優先清單</text>
+  <text x="426" y="458" font-size="14" fill="#1e40af" font-weight="700">     → 評鑑準備正式納入日常管理</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

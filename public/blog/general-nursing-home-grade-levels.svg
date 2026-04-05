@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="6" fill="#b45309"/>
+
+  <!-- 標題 -->
+  <text x="400" y="45" font-size="22" fill="#92400e" font-weight="bold" text-anchor="middle">一般護理之家評鑑等第判定說明</text>
+
+  <!-- 優等卡片 -->
+  <rect x="30" y="70" width="740" height="88" fill="#fbbf24" rx="10" stroke="#b45309" stroke-width="2"/>
+  <rect x="30" y="70" width="140" height="88" fill="#b45309" rx="10"/>
+  <rect x="140" y="70" width="30" height="88" fill="#b45309"/>
+  <text x="100" y="108" font-size="22" fill="white" font-weight="900" text-anchor="middle">★</text>
+  <text x="100" y="135" font-size="18" fill="white" font-weight="bold" text-anchor="middle">優等</text>
+  <text x="460" y="100" font-size="14" fill="#78350f" font-weight="bold" text-anchor="middle">全部評鑑項目達成（無缺失）＋ D1 創新加分項獲分</text>
+  <text x="460" y="122" font-size="14" fill="#78350f" text-anchor="middle">B 區照護品質全數達標、B2 跨專業會議有實質記錄</text>
+  <text x="460" y="143" font-size="14" fill="#78350f" text-anchor="middle">機構主動執行超過基本要求的創新照護措施</text>
+
+  <!-- 甲等卡片 -->
+  <rect x="30" y="175" width="740" height="80" fill="white" rx="10" stroke="#d97706" stroke-width="2"/>
+  <rect x="30" y="175" width="140" height="80" fill="#d97706" rx="10"/>
+  <rect x="140" y="175" width="30" height="80" fill="#d97706"/>
+  <text x="100" y="207" font-size="18" fill="white" font-weight="bold" text-anchor="middle">甲等</text>
+  <text x="100" y="232" font-size="14" fill="white" text-anchor="middle">合格以上</text>
+  <text x="460" y="205" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">A 區全部達成、B 區大部分達成（少量可改善項）</text>
+  <text x="460" y="226" font-size="14" fill="#78350f" text-anchor="middle">照護計畫個別化、品質指標有 PDCA 記錄</text>
+  <text x="460" y="247" font-size="14" fill="#78350f" text-anchor="middle">護理記錄完整、消防安全符合規定</text>
+
+  <!-- 乙等卡片 -->
+  <rect x="30" y="272" width="740" height="80" fill="white" rx="10" stroke="#78716c" stroke-width="2"/>
+  <rect x="30" y="272" width="140" height="80" fill="#78716c" rx="10"/>
+  <rect x="140" y="272" width="30" height="80" fill="#78716c"/>
+  <text x="100" y="304" font-size="18" fill="white" font-weight="bold" text-anchor="middle">乙等</text>
+  <text x="100" y="329" font-size="14" fill="white" text-anchor="middle">合格</text>
+  <text x="460" y="302" font-size="14" fill="#57534e" font-weight="bold" text-anchor="middle">基本行政與安全要件達成，但有若干照護品質缺失</text>
+  <text x="460" y="323" font-size="14" fill="#57534e" text-anchor="middle">A 區部分項目未符合規定或 B 區有多項待改善</text>
+  <text x="460" y="344" font-size="14" fill="#57534e" text-anchor="middle">須提出改善計畫並於限期內完成</text>
+
+  <!-- 不合格卡片 -->
+  <rect x="30" y="369" width="740" height="75" fill="white" rx="10" stroke="#dc2626" stroke-width="2"/>
+  <rect x="30" y="369" width="140" height="75" fill="#dc2626" rx="10"/>
+  <rect x="140" y="369" width="30" height="75" fill="#dc2626"/>
+  <text x="100" y="398" font-size="18" fill="white" font-weight="bold" text-anchor="middle">不合格</text>
+  <text x="100" y="423" font-size="14" fill="white" text-anchor="middle">停業/糾正</text>
+  <text x="460" y="398" font-size="14" fill="#991b1b" font-weight="bold" text-anchor="middle">重要評鑑基準項目嚴重缺失或違反法規</text>
+  <text x="460" y="419" font-size="14" fill="#7f1d1d" text-anchor="middle">涉及住民安全、人身自由或基本照護品質嚴重不足</text>
+  <text x="460" y="440" font-size="14" fill="#7f1d1d" text-anchor="middle">依規定須停業整改，期限內改善後再評鑑</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

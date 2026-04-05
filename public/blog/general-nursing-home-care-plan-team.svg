@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">AI 輔助照護計畫撰寫流程</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">從輸入評估數據到完成初稿，節省 50% 文書時間</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- 步驟 1：輸入評估數據 -->
+  <rect x="40" y="112" width="148" height="130" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="40" y="112" width="148" height="36" rx="10" fill="#16a34a"/>
+  <rect x="40" y="128" width="148" height="20" fill="#16a34a"/>
+  <text x="114" y="135" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">① 輸入評估數據</text>
+  <text x="56" y="166" font-size="14" fill="#57534e">• 量表分數</text>
+  <text x="56" y="184" font-size="14" fill="#57534e">  Morse / Braden</text>
+  <text x="56" y="202" font-size="14" fill="#57534e">• 主訴與功能狀況</text>
+
+  <!-- 箭頭 -->
+  <text x="208" y="182" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- 步驟 2：AI 生成初稿 -->
+  <rect x="224" y="112" width="148" height="130" rx="10" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <rect x="224" y="112" width="148" height="36" rx="10" fill="#d97706"/>
+  <rect x="224" y="128" width="148" height="20" fill="#d97706"/>
+  <text x="298" y="135" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">② AI 生成初稿</text>
+  <text x="240" y="166" font-size="14" fill="#57534e">• 自動比對評鑑基準</text>
+  <text x="240" y="184" font-size="14" fill="#57534e">• 依問題清單產出草稿</text>
+  <text x="240" y="202" font-size="14" fill="#57534e">• 提示遺漏項目</text>
+
+  <!-- 箭頭 -->
+  <text x="392" y="182" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- 步驟 3：護理師審核修改 -->
+  <rect x="408" y="112" width="148" height="130" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="408" y="112" width="148" height="36" rx="10" fill="#2563eb"/>
+  <rect x="408" y="128" width="148" height="20" fill="#2563eb"/>
+  <text x="482" y="135" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">③ 護理師審核</text>
+  <text x="424" y="166" font-size="14" fill="#57534e">• 確認措施可執行性</text>
+  <text x="424" y="184" font-size="14" fill="#57534e">• 修改不符個案處</text>
+  <text x="424" y="202" font-size="14" fill="#57534e">• 調整目標數值</text>
+
+  <!-- 箭頭 -->
+  <text x="576" y="182" font-size="22" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- 步驟 4：完成照護計畫 -->
+  <rect x="590" y="112" width="170" height="130" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <rect x="590" y="112" width="170" height="36" rx="10" fill="#dc2626"/>
+  <rect x="590" y="128" width="170" height="20" fill="#dc2626"/>
+  <text x="675" y="135" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">④ 跨專業確認完成</text>
+  <text x="606" y="166" font-size="14" fill="#57534e">• 物理/職能治療師簽名</text>
+  <text x="606" y="184" font-size="14" fill="#57534e">• 家屬溝通並知情</text>
+  <text x="606" y="202" font-size="14" fill="#57534e">• 系統存檔備查</text>
+
+  <!-- 對比區塊 -->
+  <rect x="40" y="264" width="340" height="110" rx="10" fill="white" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="40" y="264" width="340" height="34" rx="10" fill="#fee2e2"/>
+  <rect x="40" y="278" width="340" height="20" fill="#fee2e2"/>
+  <text x="210" y="286" font-size="14" fill="#dc2626" font-weight="700" text-anchor="middle">傳統方式（耗時）</text>
+  <text x="56" y="318" font-size="14" fill="#57534e">• 護理師逐一手工撰寫，每份耗時 30–60 分鐘</text>
+  <text x="56" y="338" font-size="14" fill="#57534e">• 容易複製貼上造成個別化不足</text>
+  <text x="56" y="358" font-size="14" fill="#57534e">• 評值欄位常遺忘填寫</text>
+
+  <rect x="400" y="264" width="360" height="110" rx="10" fill="white" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="400" y="264" width="360" height="34" rx="10" fill="#f0fdf4"/>
+  <rect x="400" y="278" width="360" height="20" fill="#f0fdf4"/>
+  <text x="580" y="286" font-size="14" fill="#16a34a" font-weight="700" text-anchor="middle">AI 輔助方式（高效）</text>
+  <text x="416" y="318" font-size="14" fill="#57534e">• AI 生成初稿只需 3–5 分鐘，人工審核 10 分鐘</text>
+  <text x="416" y="338" font-size="14" fill="#57534e">• 系統提示遺漏項目，確保四要素齊全</text>
+  <text x="416" y="358" font-size="14" fill="#57534e">• 每份計畫個別化，自動帶入量表數值</text>
+
+  <!-- 提示 -->
+  <rect x="40" y="394" width="720" height="46" rx="8" fill="#fef9c3" stroke="#d97706" stroke-width="1"/>
+  <text x="400" y="414" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">💡 報告汪 AI 文書助理已整合一般護理之家評鑑基準，</text>
+  <text x="400" y="432" font-size="13" fill="#92400e" text-anchor="middle">輸入住民評估資料後，30 秒內可生成符合 B1 規範的照護計畫初稿</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

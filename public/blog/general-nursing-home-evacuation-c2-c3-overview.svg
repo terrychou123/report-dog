@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8" rx="16"/>
+  <!-- 標題 -->
+  <rect x="0" y="0" width="800" height="64" fill="#1e40af" rx="16"/>
+  <rect x="0" y="50" width="800" height="14" fill="#1e40af"/>
+  <text x="400" y="40" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C2 vs C3 查核方式對比</text>
+  <!-- C2 左欄 -->
+  <rect x="24" y="78" width="368" height="398" rx="12" fill="#1e40af" opacity="0.08"/>
+  <rect x="24" y="78" width="368" height="52" rx="12" fill="#1e40af"/>
+  <rect x="24" y="114" width="368" height="16" fill="#1e40af"/>
+  <text x="208" y="111" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C2  疏散避難系統</text>
+  <!-- C2 查核方式標籤 -->
+  <rect x="44" y="142" width="130" height="28" rx="14" fill="#1e40af"/>
+  <text x="109" y="161" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">實地查核</text>
+  <text x="190" y="161" font-size="14" fill="#44403c">委員當場走訪</text>
+  <!-- C2 查核項目 -->
+  <text x="44" y="196" font-size="14" fill="#44403c" font-weight="700">評鑑委員實地確認項目：</text>
+  <!-- 項目1 -->
+  <rect x="44" y="206" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="60" y="224" font-size="14" fill="#1e40af" font-weight="700">疏散通道暢通無障礙物</text>
+  <text x="60" y="242" font-size="14" fill="#78716c">輪椅、推車、雜物、紙箱不可放置通道</text>
+  <!-- 項目2 -->
+  <rect x="44" y="258" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="60" y="276" font-size="14" fill="#1e40af" font-weight="700">等待救援空間設置完整</text>
+  <text x="60" y="294" font-size="14" fill="#78716c">防火門正常、標示清晰、位置圖張貼</text>
+  <!-- 項目3 -->
+  <rect x="44" y="310" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="60" y="328" font-size="14" fill="#1e40af" font-weight="700">緊急照明設備功能正常</text>
+  <text x="60" y="346" font-size="14" fill="#78716c">委員可能測試停電反應，需有測試記錄</text>
+  <!-- 項目4 -->
+  <rect x="44" y="362" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="60" y="380" font-size="14" fill="#1e40af" font-weight="700">疏散指示標誌清晰可見</text>
+  <text x="60" y="398" font-size="14" fill="#78716c">不被遮蔽、高度適當、覆蓋各疏散方向</text>
+  <!-- 項目5 -->
+  <rect x="44" y="414" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="60" y="432" font-size="14" fill="#1e40af" font-weight="700">床位配置利於緊急疏散</text>
+  <text x="60" y="450" font-size="14" fill="#78716c">床與床之間的通道足夠輪椅或擔架通行</text>
+  <!-- 中間分隔 -->
+  <rect x="396" y="86" width="8" height="388" rx="4" fill="#d97706" opacity="0.3"/>
+  <!-- C3 右欄 -->
+  <rect x="408" y="78" width="368" height="398" rx="12" fill="#d97706" opacity="0.07"/>
+  <rect x="408" y="78" width="368" height="52" rx="12" fill="#d97706"/>
+  <rect x="408" y="114" width="368" height="16" fill="#d97706"/>
+  <text x="592" y="111" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C3  個別化疏散策略</text>
+  <!-- C3 查核方式標籤 -->
+  <rect x="428" y="142" width="160" height="28" rx="14" fill="#d97706"/>
+  <text x="508" y="161" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">資料查核＋實地抽測</text>
+  <!-- C3 查核項目 -->
+  <text x="428" y="196" font-size="14" fill="#44403c" font-weight="700">評鑑委員查核項目：</text>
+  <!-- 項目1 -->
+  <rect x="428" y="206" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="444" y="224" font-size="14" fill="#d97706" font-weight="700">個別化疏散名冊（文件審閱）</text>
+  <text x="444" y="242" font-size="14" fill="#78716c">每位住民有失能分級與對應疏散方式</text>
+  <!-- 項目2 -->
+  <rect x="428" y="258" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="444" y="276" font-size="14" fill="#d97706" font-weight="700">疏散後持續照顧 SOP（文件）</text>
+  <text x="444" y="294" font-size="14" fill="#78716c">用藥、特殊醫療需求、家屬聯繫流程</text>
+  <!-- 項目3 -->
+  <rect x="428" y="310" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
+  <text x="444" y="328" font-size="14" fill="#d97706" font-weight="700">工作人員訓練記錄（文件）</text>
+  <text x="444" y="346" font-size="14" fill="#78716c">各班均有參與疏散策略訓練的記錄</text>
+  <!-- 項目4 -->
+  <rect x="428" y="362" width="328" height="60" rx="8" fill="#fef3c7" opacity="0.95"/>
+  <text x="444" y="380" font-size="14" fill="#d97706" font-weight="700">⚠ 實地抽測（最關鍵！）</text>
+  <text x="444" y="398" font-size="14" fill="#78716c">委員問：「101室王○○用什麼疏散？」</text>
+  <text x="444" y="416" font-size="14" fill="#78716c">工作人員必須能當場正確回答</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

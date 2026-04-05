@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾圖示 - B1 評鑑基準重點 -->
+  <text x="1010" y="190" font-size="84" font-weight="900" fill="#16a34a" text-anchor="middle" opacity="0.85">B1</text>
+  <text x="1010" y="226" font-size="22" fill="#78716c" text-anchor="middle" font-weight="600">評鑑核心基準</text>
+
+  <!-- 右側四時序卡片 -->
+  <rect x="840" y="248" width="320" height="60" rx="8" fill="white" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="856" y="274" font-size="24" fill="#16a34a" font-weight="700">⏱ 24 小時內</text>
+  <text x="856" y="298" font-size="20" fill="#57534e">完成初步護理評估</text>
+
+  <rect x="840" y="318" width="320" height="60" rx="8" fill="white" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="856" y="344" font-size="24" fill="#16a34a" font-weight="700">📋 72 小時內</text>
+  <text x="856" y="368" font-size="20" fill="#57534e">完成完整四面向評估</text>
+
+  <rect x="840" y="388" width="320" height="60" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <text x="856" y="414" font-size="24" fill="#d97706" font-weight="700">✍ 個別化計畫</text>
+  <text x="856" y="438" font-size="20" fill="#57534e">跨專業簽名 · 四要素齊全</text>
+
+  <rect x="840" y="458" width="320" height="60" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <text x="856" y="484" font-size="24" fill="#d97706" font-weight="700">🔄 每 3 個月修訂</text>
+  <text x="856" y="508" font-size="20" fill="#57534e">評值記錄不空白</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="530" width="320" height="50" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="1000" y="561" font-size="24" fill="#16a34a" text-anchor="middle" font-weight="700">附完整撰寫範例</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="190" font-size="92" font-weight="900" fill="#1e293b">護理之家照護計畫</text>
+  <text x="60" y="300" font-size="80" font-weight="900" fill="#16a34a">怎麼寫才對？</text>
+
+  <line x1="60" y1="330" x2="790" y2="330" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="378" font-size="34" fill="#57534e" font-weight="400">B1 個別化照護計畫 · 撰寫範例 · AI 輔助技巧</text>
+
+  <!-- 特色標籤 -->
+  <rect x="60" y="410" width="190" height="52" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="155" y="442" font-size="28" fill="#16a34a" text-anchor="middle" font-weight="600">四要素架構</text>
+
+  <rect x="260" y="410" width="190" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="355" y="442" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">跨專業簽名</text>
+
+  <rect x="460" y="410" width="190" height="52" rx="10" fill="#2563eb" opacity="0.12"/>
+  <text x="555" y="442" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="600">AI 輔助初稿</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="544" font-size="26" fill="#94a3b8">適用對象：護理師 · 護理長 · 評鑑文書負責人</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

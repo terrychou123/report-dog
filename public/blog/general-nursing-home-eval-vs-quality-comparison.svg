@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8" rx="16"/>
+  <!-- 標題 -->
+  <rect x="0" y="0" width="800" height="64" fill="#d97706" rx="16"/>
+  <rect x="0" y="50" width="800" height="14" fill="#d97706"/>
+  <text x="400" y="40" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">定期評鑑 vs 品質獎勵計畫：5 維度比較</text>
+  <!-- 表格 -->
+  <!-- 欄標題 -->
+  <rect x="24" y="78" width="188" height="42" rx="0" fill="#f1f5f9"/>
+  <text x="118" y="104" font-size="14" font-weight="700" text-anchor="middle" fill="#64748b">比較維度</text>
+  <rect x="214" y="78" width="278" height="42" rx="0" fill="#d97706"/>
+  <text x="353" y="104" font-size="16" font-weight="900" text-anchor="middle" fill="#ffffff">定期評鑑</text>
+  <rect x="494" y="78" width="282" height="42" rx="0" fill="#1e40af"/>
+  <text x="635" y="104" font-size="16" font-weight="900" text-anchor="middle" fill="#ffffff">品質獎勵計畫</text>
+  <!-- 圓角框 -->
+  <rect x="24" y="78" width="752" height="386" rx="12" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- 行1：目的 -->
+  <rect x="24" y="120" width="188" height="58" fill="#f8fafc"/>
+  <text x="118" y="150" font-size="14" font-weight="700" text-anchor="middle" fill="#44403c">目的</text>
+  <rect x="214" y="120" width="278" height="58" fill="#fff7ed"/>
+  <text x="353" y="138" font-size="14" text-anchor="middle" fill="#44403c">確認機構符合最低</text>
+  <text x="353" y="158" font-size="14" text-anchor="middle" fill="#44403c">照護品質標準</text>
+  <rect x="494" y="120" width="282" height="58" fill="#eff6ff"/>
+  <text x="635" y="138" font-size="14" text-anchor="middle" fill="#44403c">鼓勵機構主動提升</text>
+  <text x="635" y="158" font-size="14" text-anchor="middle" fill="#44403c">品質，超越法規要求</text>
+  <!-- 行2：頻率 -->
+  <rect x="24" y="178" width="188" height="56" fill="#f1f5f9"/>
+  <text x="118" y="210" font-size="14" font-weight="700" text-anchor="middle" fill="#44403c">頻率</text>
+  <rect x="214" y="178" width="278" height="56" fill="#fafafa"/>
+  <text x="353" y="210" font-size="14" text-anchor="middle" fill="#44403c">每 3–4 年一次</text>
+  <rect x="494" y="178" width="282" height="56" fill="#f8fafc"/>
+  <text x="635" y="210" font-size="14" text-anchor="middle" fill="#44403c">每年申請一次</text>
+  <!-- 行3：結果形式 -->
+  <rect x="24" y="234" width="188" height="58" fill="#f8fafc"/>
+  <text x="118" y="264" font-size="14" font-weight="700" text-anchor="middle" fill="#44403c">結果形式</text>
+  <rect x="214" y="234" width="278" height="58" fill="#fff7ed"/>
+  <text x="353" y="254" font-size="14" text-anchor="middle" fill="#44403c">等第判定</text>
+  <text x="353" y="274" font-size="14" text-anchor="middle" fill="#d97706" font-weight="700">優等 / 甲等 / 乙等（公告）</text>
+  <rect x="494" y="234" width="282" height="58" fill="#eff6ff"/>
+  <text x="635" y="254" font-size="14" text-anchor="middle" fill="#44403c">獎勵金發放</text>
+  <text x="635" y="274" font-size="14" text-anchor="middle" fill="#1e40af" font-weight="700">依指標達標程度計算</text>
+  <!-- 行4：強制性 -->
+  <rect x="24" y="292" width="188" height="58" fill="#f1f5f9"/>
+  <text x="118" y="322" font-size="14" font-weight="700" text-anchor="middle" fill="#44403c">強制性</text>
+  <rect x="214" y="292" width="278" height="58" fill="#fef2f2"/>
+  <text x="353" y="312" font-size="14" text-anchor="middle" fill="#991b1b" font-weight="700">強制參與</text>
+  <text x="353" y="332" font-size="14" text-anchor="middle" fill="#44403c">未通過有行政處分</text>
+  <rect x="494" y="292" width="282" height="58" fill="#f0fdf4"/>
+  <text x="635" y="312" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">自願申請</text>
+  <text x="635" y="332" font-size="14" text-anchor="middle" fill="#44403c">不申請無處罰</text>
+  <!-- 行5：查核方式 -->
+  <rect x="24" y="350" width="188" height="56" fill="#f8fafc"/>
+  <text x="118" y="382" font-size="14" font-weight="700" text-anchor="middle" fill="#44403c">查核方式</text>
+  <rect x="214" y="350" width="278" height="56" fill="#fff7ed"/>
+  <text x="353" y="378" font-size="14" text-anchor="middle" fill="#44403c">實地查核＋書面文件審閱</text>
+  <rect x="494" y="350" width="282" height="56" fill="#eff6ff"/>
+  <text x="635" y="370" font-size="14" text-anchor="middle" fill="#44403c">主要為書面文件</text>
+  <text x="635" y="390" font-size="14" text-anchor="middle" fill="#44403c">＋品質指標數據審閱</text>
+  <!-- 橫向分隔線 -->
+  <line x1="24" y1="120" x2="776" y2="120" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="24" y1="178" x2="776" y2="178" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="24" y1="234" x2="776" y2="234" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="24" y1="292" x2="776" y2="292" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="24" y1="350" x2="776" y2="350" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- 縱向分隔線 -->
+  <line x1="212" y1="78" x2="212" y2="406" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="492" y1="78" x2="492" y2="406" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- 底部提示 -->
+  <text x="400" y="444" font-size="14" text-anchor="middle" fill="#44403c">關鍵策略：先完成強制性評鑑，再善用重疊文件申請品質獎勵計畫</text>
+  <text x="400" y="464" font-size="14" text-anchor="middle" fill="#d97706" font-weight="700">品質指標月報、照護計畫、訓練記錄——準備一份，兩邊都用！</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+</svg>

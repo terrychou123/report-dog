@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">情境演練流程（C4 實地查核）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">委員指定起火點→工作人員現場執行→評分</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 流程圖，card_w=170, margin=129 -->
+  <!-- Arrow y=279 -->
+
+  <!-- Step 1：委員指定起火點（x=129, cx=214） -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <!-- STEP 圓圈 -->
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="211" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <!-- H 標題 -->
+  <text x="214" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">委員指定</text>
+  <text x="214" y="318" text-anchor="middle" font-size="14" fill="#57534e">評鑑委員隨機</text>
+  <text x="214" y="336" text-anchor="middle" font-size="14" fill="#57534e">指定起火位置</text>
+  <!-- Pill -->
+  <rect x="142" y="381" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">不事先告知</text>
+
+  <!-- 箭頭 -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="299,273 315,279 299,285" fill="#c4bfb8"/>
+
+  <!-- Step 2：工作人員現場執行（x=315, cx=400） -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="211" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">現場執行</text>
+  <text x="400" y="318" text-anchor="middle" font-size="14" fill="#57534e">工作人員依情境</text>
+  <text x="400" y="336" text-anchor="middle" font-size="14" fill="#57534e">執行疏散流程</text>
+  <rect x="328" y="381" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">3–5 分鐘內</text>
+
+  <!-- 箭頭 -->
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,273 501,279 485,285" fill="#c4bfb8"/>
+
+  <!-- Step 3：委員評分（x=501, cx=586） -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#dc2626"/>
+  <rect x="501" y="112" width="170" height="4" fill="#dc2626"/>
+  <circle cx="586" cy="194" r="43" fill="#fee2e2"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#dc2626" font-weight="700">STEP</text>
+  <text x="586" y="211" text-anchor="middle" font-size="28" fill="#dc2626" font-weight="700">03</text>
+  <text x="586" y="297" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">委員評分</text>
+  <text x="586" y="318" text-anchor="middle" font-size="14" fill="#57534e">查核反應速度</text>
+  <text x="586" y="336" text-anchor="middle" font-size="14" fill="#57534e">與疏散正確性</text>
+  <rect x="514" y="381" width="144" height="36" rx="18" fill="#fee2e2"/>
+  <text x="586" y="405" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="600">即時現場評核</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

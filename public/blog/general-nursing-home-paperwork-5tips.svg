@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">護理之家文書減負 5 大策略</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">數位化後每季可節省 50% 以上的文書作業時間</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=5 流程圖：card_w=140, arrow_gap=12 -->
+  <!-- 箭頭 y=279 -->
+
+  <!-- 卡片 1：AI 照護計畫（#d97706 琥珀）x=28 cx=98 -->
+  <rect x="28" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="140" height="4" fill="#d97706"/>
+  <circle cx="98" cy="189" r="35" fill="#fef3c7"/>
+  <text x="98" y="180" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP</text>
+  <text x="98" y="203" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">01</text>
+  <text x="98" y="288" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">AI 照護</text>
+  <text x="98" y="311" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">計畫初稿</text>
+  <text x="98" y="338" text-anchor="middle" font-size="16" fill="#57534e">30→5 分鐘</text>
+  <text x="98" y="358" text-anchor="middle" font-size="16" fill="#57534e">每份省 25 分</text>
+  <rect x="28" y="377" width="140" height="36" rx="18" fill="#fef3c7"/>
+  <text x="98" y="401" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">B1 主力</text>
+
+  <!-- 箭頭 1→2 -->
+  <line x1="168" y1="279" x2="180" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="168,273 180,279 168,285" fill="#c4bfb8"/>
+
+  <!-- 卡片 2：訓練模板（#78716c 暖灰）x=180 cx=250 -->
+  <rect x="180" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="108" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="112" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="250" y="180" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">STEP</text>
+  <text x="250" y="203" text-anchor="middle" font-size="22" fill="#78716c" font-weight="700">02</text>
+  <text x="250" y="288" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">訓練記錄</text>
+  <text x="250" y="311" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">電子化</text>
+  <text x="250" y="338" text-anchor="middle" font-size="16" fill="#57534e">模板統一</text>
+  <text x="250" y="358" text-anchor="middle" font-size="16" fill="#57534e">電子簽名</text>
+  <rect x="194" y="377" width="112" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="250" y="401" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">A 區整合</text>
+
+  <!-- 箭頭 2→3 -->
+  <line x1="320" y1="279" x2="332" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="320,273 332,279 320,285" fill="#c4bfb8"/>
+
+  <!-- 卡片 3：多人協作（#57534e 深棕）x=332 cx=402 -->
+  <rect x="332" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="108" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="112" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="189" r="35" fill="#f5f0eb"/>
+  <text x="402" y="180" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">STEP</text>
+  <text x="402" y="203" text-anchor="middle" font-size="22" fill="#57534e" font-weight="700">03</text>
+  <text x="402" y="288" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">多人協作</text>
+  <text x="402" y="311" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">即時分工</text>
+  <text x="402" y="338" text-anchor="middle" font-size="16" fill="#57534e">各基準</text>
+  <text x="402" y="358" text-anchor="middle" font-size="16" fill="#57534e">各自負責</text>
+  <rect x="346" y="377" width="112" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="402" y="401" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">全區分工</text>
+
+  <!-- 箭頭 3→4 -->
+  <line x1="472" y1="279" x2="484" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="472,273 484,279 472,285" fill="#c4bfb8"/>
+
+  <!-- 卡片 4：品質指標（#a8a29e 淺灰）x=484 cx=554 -->
+  <rect x="484" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="108" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="112" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="554" y="180" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="554" y="203" text-anchor="middle" font-size="22" fill="#a8a29e" font-weight="700">04</text>
+  <text x="554" y="288" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">品質指標</text>
+  <text x="554" y="311" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">自動統計</text>
+  <text x="554" y="338" text-anchor="middle" font-size="16" fill="#57534e">記錄→報告</text>
+  <text x="554" y="358" text-anchor="middle" font-size="16" fill="#57534e">自動計算</text>
+  <rect x="498" y="377" width="112" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="554" y="401" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="600">B3 輔助</text>
+
+  <!-- 箭頭 4→5 -->
+  <line x1="624" y1="279" x2="636" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="624,273 636,279 624,285" fill="#c4bfb8"/>
+
+  <!-- 卡片 5：AI 查核（#d97706 琥珀）x=636 cx=706 -->
+  <rect x="636" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="108" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="636" y="112" width="140" height="4" fill="#d97706"/>
+  <circle cx="706" cy="189" r="35" fill="#fef3c7"/>
+  <text x="706" y="180" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP</text>
+  <text x="706" y="203" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">05</text>
+  <text x="706" y="288" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">AI 自動</text>
+  <text x="706" y="311" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">查核缺失</text>
+  <text x="706" y="338" text-anchor="middle" font-size="16" fill="#57534e">上傳文件</text>
+  <text x="706" y="358" text-anchor="middle" font-size="16" fill="#57534e">秒出清單</text>
+  <rect x="650" y="377" width="112" height="36" rx="18" fill="#fef3c7"/>
+  <text x="706" y="401" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">評鑑前用</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

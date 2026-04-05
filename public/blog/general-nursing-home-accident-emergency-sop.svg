@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="6" fill="#e11d48"/>
+
+  <!-- 標題 -->
+  <text x="400" y="45" font-size="22" fill="#9f1239" font-weight="bold" text-anchor="middle">緊急醫療應變 SOP（A1.3）</text>
+
+  <!-- 觸發條件區 -->
+  <rect x="20" y="65" width="220" height="130" fill="#fff1f2" rx="10" stroke="#e11d48" stroke-width="2"/>
+  <rect x="20" y="65" width="220" height="32" fill="#e11d48" rx="10"/>
+  <rect x="20" y="83" width="220" height="14" fill="#e11d48"/>
+  <text x="130" y="86" font-size="14" fill="white" font-weight="bold" text-anchor="middle">緊急狀況觸發條件</text>
+  <text x="40" y="117" font-size="14" fill="#9f1239" font-weight="bold">⚠ 意識改變（嗜睡/昏迷）</text>
+  <text x="40" y="138" font-size="14" fill="#9f1239" font-weight="bold">⚠ 呼吸困難/暫停</text>
+  <text x="40" y="159" font-size="14" fill="#9f1239" font-weight="bold">⚠ 心跳停止（無脈搏）</text>
+  <text x="40" y="180" font-size="14" fill="#9f1239" font-weight="bold">⚠ 大量出血/骨折</text>
+
+  <!-- 大箭頭 -->
+  <polygon points="245,130 260,122 260,138" fill="#e11d48"/>
+  <line x1="240" y1="130" x2="260" y2="130" stroke="#e11d48" stroke-width="3"/>
+
+  <!-- 流程縱向 -->
+  <!-- 步驟1 -->
+  <rect x="265" y="70" width="150" height="55" fill="#fee2e2" rx="8" stroke="#e11d48" stroke-width="2"/>
+  <text x="340" y="92" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">① 立即評估</text>
+  <text x="340" y="110" font-size="14" fill="#78350f" text-anchor="middle">ABCD 初步評估</text>
+
+  <!-- 下箭頭 -->
+  <polygon points="340,130 333,142 347,142" fill="#e11d48"/>
+  <line x1="340" y1="125" x2="340" y2="142" stroke="#e11d48" stroke-width="2"/>
+
+  <!-- 步驟2 -->
+  <rect x="265" y="146" width="150" height="55" fill="#fee2e2" rx="8" stroke="#e11d48" stroke-width="2"/>
+  <text x="340" y="168" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">② 啟動急救</text>
+  <text x="340" y="186" font-size="14" fill="#78350f" text-anchor="middle">CPR / AED</text>
+
+  <!-- 下箭頭 -->
+  <polygon points="340,206 333,218 347,218" fill="#e11d48"/>
+  <line x1="340" y1="201" x2="340" y2="218" stroke="#e11d48" stroke-width="2"/>
+
+  <!-- 步驟3 -->
+  <rect x="265" y="222" width="150" height="55" fill="#fca5a5" rx="8" stroke="#dc2626" stroke-width="2"/>
+  <text x="340" y="244" font-size="14" fill="white" font-weight="bold" text-anchor="middle">③ 叫救護車</text>
+  <text x="340" y="262" font-size="14" fill="white" text-anchor="middle">撥打 119</text>
+
+  <!-- 下箭頭 -->
+  <polygon points="340,282 333,294 347,294" fill="#e11d48"/>
+  <line x1="340" y1="277" x2="340" y2="294" stroke="#e11d48" stroke-width="2"/>
+
+  <!-- 步驟4 -->
+  <rect x="265" y="298" width="150" height="55" fill="#fee2e2" rx="8" stroke="#e11d48" stroke-width="2"/>
+  <text x="340" y="320" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">④ 通知家屬</text>
+  <text x="340" y="338" font-size="14" fill="#78350f" text-anchor="middle">醫師/主管知情</text>
+
+  <!-- 下箭頭 -->
+  <polygon points="340,358 333,370 347,370" fill="#e11d48"/>
+  <line x1="340" y1="353" x2="340" y2="370" stroke="#e11d48" stroke-width="2"/>
+
+  <!-- 步驟5 -->
+  <rect x="265" y="374" width="150" height="55" fill="#166534" rx="8"/>
+  <text x="340" y="396" font-size="14" fill="white" font-weight="bold" text-anchor="middle">⑤ 陪同就醫</text>
+  <text x="340" y="414" font-size="14" fill="#86efac" text-anchor="middle">帶病歷資料</text>
+
+  <!-- 右側記錄要求 -->
+  <rect x="440" y="65" width="340" height="200" fill="white" rx="10" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="440" y="65" width="340" height="33" fill="#d97706" rx="10"/>
+  <rect x="440" y="81" width="340" height="17" fill="#d97706"/>
+  <text x="610" y="87" font-size="14" fill="white" font-weight="bold" text-anchor="middle">緊急事件記錄必填欄位</text>
+  <text x="460" y="118" font-size="14" fill="#44403c">📝 事件發生時間與地點</text>
+  <text x="460" y="138" font-size="14" fill="#44403c">📝 當時住民狀況描述</text>
+  <text x="460" y="158" font-size="14" fill="#44403c">📝 護理師採取的急救措施</text>
+  <text x="460" y="178" font-size="14" fill="#44403c">📝 通知醫師/救護車/家屬時間</text>
+  <text x="460" y="198" font-size="14" fill="#44403c">📝 送醫後追蹤結果</text>
+  <text x="460" y="218" font-size="14" fill="#44403c">📝 護理師簽名與主管簽核</text>
+  <text x="460" y="238" font-size="14" fill="#44403c">📝 後續改善措施計畫</text>
+
+  <!-- 右側訓練提示 -->
+  <rect x="440" y="280" width="340" height="155" fill="white" rx="10" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="440" y="280" width="340" height="33" fill="#7c3aed" rx="10"/>
+  <rect x="440" y="296" width="340" height="17" fill="#7c3aed"/>
+  <text x="610" y="302" font-size="14" fill="white" font-weight="bold" text-anchor="middle">護理師急救訓練要點</text>
+  <text x="460" y="333" font-size="14" fill="#44403c">✓ 每年 CPR 換證訓練（16小時含）</text>
+  <text x="460" y="353" font-size="14" fill="#44403c">✓ AED 操作實作演練</text>
+  <text x="460" y="373" font-size="14" fill="#44403c">✓ 緊急疏散與急救情境模擬</text>
+  <text x="460" y="393" font-size="14" fill="#44403c">✓ 熟悉機構急救設備位置</text>
+  <text x="460" y="413" font-size="14" fill="#44403c">✓ 訓練記錄存入在職訓練檔案</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

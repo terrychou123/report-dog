@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">C 區消防安全 4 項基準概覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">查核方式：資料查核 vs 實地查核</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- C1 卡片（x=28, w=174, y=108, h=342） -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <!-- 編號圓 -->
+  <circle cx="115" cy="188" r="38" fill="#fef3c7"/>
+  <text x="115" y="178" text-anchor="middle" font-size="16" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="204" text-anchor="middle" font-size="26" fill="#d97706" font-weight="700">C1</text>
+  <!-- 標題 -->
+  <text x="115" y="264" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">演練計畫</text>
+  <!-- 說明 -->
+  <text x="115" y="290" text-anchor="middle" font-size="14" fill="#57534e">年度 2 次演練</text>
+  <text x="115" y="310" text-anchor="middle" font-size="14" fill="#57534e">含夜間 1 次</text>
+  <text x="115" y="330" text-anchor="middle" font-size="14" fill="#57534e">設備保養有紀錄</text>
+  <!-- 查核方式標籤 -->
+  <rect x="41" y="368" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="391" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">資料+實地查核</text>
+
+  <!-- 箭頭 C1→C2 -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,273 218,279 202,285" fill="#c4bfb8"/>
+
+  <!-- C2 卡片（x=218） -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="188" r="38" fill="#f5f5f4"/>
+  <text x="305" y="178" text-anchor="middle" font-size="16" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="204" text-anchor="middle" font-size="26" fill="#78716c" font-weight="700">C2</text>
+  <text x="305" y="264" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">疏散通道</text>
+  <text x="305" y="290" text-anchor="middle" font-size="14" fill="#57534e">通道暢通無阻</text>
+  <text x="305" y="310" text-anchor="middle" font-size="14" fill="#57534e">等待救援空間</text>
+  <text x="305" y="330" text-anchor="middle" font-size="14" fill="#57534e">疏散標誌清晰</text>
+  <rect x="231" y="368" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="391" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">實地查核</text>
+
+  <!-- 箭頭 C2→C3 -->
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,273 408,279 392,285" fill="#c4bfb8"/>
+
+  <!-- C3 卡片（x=408） -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="188" r="38" fill="#f5f0eb"/>
+  <text x="495" y="178" text-anchor="middle" font-size="16" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="204" text-anchor="middle" font-size="26" fill="#57534e" font-weight="700">C3</text>
+  <text x="495" y="264" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">個別化疏散</text>
+  <text x="495" y="290" text-anchor="middle" font-size="14" fill="#57534e">依失能分行走</text>
+  <text x="495" y="310" text-anchor="middle" font-size="14" fill="#57534e">輪椅、擔架策略</text>
+  <text x="495" y="330" text-anchor="middle" font-size="14" fill="#57534e">疏散後照顧程序</text>
+  <rect x="421" y="368" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="391" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">資料+實地查核</text>
+
+  <!-- 箭頭 C3→C4 -->
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,273 598,279 582,285" fill="#c4bfb8"/>
+
+  <!-- C4 卡片（x=598） -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#dc2626"/>
+  <rect x="598" y="112" width="174" height="4" fill="#dc2626"/>
+  <circle cx="685" cy="188" r="38" fill="#fee2e2"/>
+  <text x="685" y="178" text-anchor="middle" font-size="16" fill="#dc2626" font-weight="700">STEP</text>
+  <text x="685" y="204" text-anchor="middle" font-size="26" fill="#dc2626" font-weight="700">C4</text>
+  <text x="685" y="264" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">情境演練</text>
+  <text x="685" y="290" text-anchor="middle" font-size="14" fill="#57534e">指定起火點演練</text>
+  <text x="685" y="310" text-anchor="middle" font-size="14" fill="#57534e">住民了解緊急</text>
+  <text x="685" y="330" text-anchor="middle" font-size="14" fill="#57534e">疏散信號</text>
+  <!-- 特別標示：最難 -->
+  <rect x="611" y="368" width="148" height="36" rx="18" fill="#fee2e2"/>
+  <text x="685" y="391" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="600">實地查核（最難）</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

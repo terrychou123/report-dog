@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8" rx="16"/>
+  <rect x="20" y="20" width="760" height="460" fill="white" rx="12"/>
+
+  <!-- 標題列 -->
+  <rect x="20" y="20" width="760" height="60" fill="#0ea5e9" rx="12"/>
+  <rect x="20" y="60" width="760" height="20" fill="#0ea5e9"/>
+  <text x="400" y="58" font-size="22" font-weight="700" fill="white" text-anchor="middle">口腔健康評估流程（D2 評鑑基準）</text>
+
+  <!-- 流程步驟橫排 -->
+  <!-- 步驟1 入住評估 -->
+  <rect x="45" y="115" width="155" height="150" rx="12" fill="#e0f2fe"/>
+  <rect x="45" y="115" width="155" height="8" rx="4" fill="#0ea5e9"/>
+  <text x="123" y="148" font-size="34" font-weight="900" fill="#0ea5e9" text-anchor="middle">①</text>
+  <text x="123" y="178" font-size="15" font-weight="700" fill="#0c4a6e" text-anchor="middle">入住評估</text>
+  <text x="123" y="200" font-size="14" fill="#334155" text-anchor="middle">入住 72 小時內</text>
+  <text x="123" y="220" font-size="14" fill="#334155" text-anchor="middle">完成口腔評估</text>
+  <text x="123" y="240" font-size="14" fill="#0ea5e9" text-anchor="middle">工具：OHSS</text>
+
+  <!-- 箭頭 -->
+  <polygon points="205,185 220,178 220,192" fill="#0ea5e9"/>
+  <line x1="200" y1="185" x2="222" y2="185" stroke="#0ea5e9" stroke-width="2"/>
+
+  <!-- 步驟2 照護計畫 -->
+  <rect x="222" y="115" width="155" height="150" rx="12" fill="#cffafe"/>
+  <rect x="222" y="115" width="155" height="8" rx="4" fill="#06b6d4"/>
+  <text x="300" y="148" font-size="34" font-weight="900" fill="#06b6d4" text-anchor="middle">②</text>
+  <text x="300" y="178" font-size="15" font-weight="700" fill="#164e63" text-anchor="middle">計畫訂定</text>
+  <text x="300" y="200" font-size="14" fill="#334155" text-anchor="middle">依評估結果</text>
+  <text x="300" y="220" font-size="14" fill="#334155" text-anchor="middle">擬定個別計畫</text>
+  <text x="300" y="240" font-size="14" fill="#06b6d4" text-anchor="middle">目標 + 措施</text>
+
+  <!-- 箭頭 -->
+  <polygon points="382,185 397,178 397,192" fill="#06b6d4"/>
+  <line x1="377" y1="185" x2="399" y2="185" stroke="#06b6d4" stroke-width="2"/>
+
+  <!-- 步驟3 每日執行 -->
+  <rect x="399" y="115" width="155" height="150" rx="12" fill="#dbeafe"/>
+  <rect x="399" y="115" width="155" height="8" rx="4" fill="#3b82f6"/>
+  <text x="477" y="148" font-size="34" font-weight="900" fill="#3b82f6" text-anchor="middle">③</text>
+  <text x="477" y="178" font-size="15" font-weight="700" fill="#1e3a5f" text-anchor="middle">每日執行</text>
+  <text x="477" y="200" font-size="14" fill="#334155" text-anchor="middle">照服員協助</text>
+  <text x="477" y="220" font-size="14" fill="#334155" text-anchor="middle">每日清潔</text>
+  <text x="477" y="240" font-size="14" fill="#3b82f6" text-anchor="middle">留存執行記錄</text>
+
+  <!-- 箭頭 -->
+  <polygon points="559,185 574,178 574,192" fill="#3b82f6"/>
+  <line x1="554" y1="185" x2="576" y2="185" stroke="#3b82f6" stroke-width="2"/>
+
+  <!-- 步驟4 定期追蹤 -->
+  <rect x="576" y="115" width="175" height="150" rx="12" fill="#ede9fe"/>
+  <rect x="576" y="115" width="175" height="8" rx="4" fill="#8b5cf6"/>
+  <text x="664" y="148" font-size="34" font-weight="900" fill="#8b5cf6" text-anchor="middle">④</text>
+  <text x="664" y="178" font-size="15" font-weight="700" fill="#3b0764" text-anchor="middle">定期追蹤</text>
+  <text x="664" y="200" font-size="14" fill="#334155" text-anchor="middle">每月重新評估</text>
+  <text x="664" y="220" font-size="14" fill="#334155" text-anchor="middle">有變化→調整計畫</text>
+  <text x="664" y="240" font-size="14" fill="#8b5cf6" text-anchor="middle">必要時轉介牙科</text>
+
+  <!-- 高風險族群說明 -->
+  <rect x="45" y="295" width="710" height="60" rx="10" fill="#fff7ed"/>
+  <rect x="45" y="295" width="4" height="60" rx="2" fill="#f97316"/>
+  <text x="65" y="320" font-size="14" font-weight="700" fill="#7c2d12">高風險族群——需加強評估頻率</text>
+  <text x="65" y="342" font-size="14" fill="#475569">🔴 鼻胃管住民　🔴 氣切住民　🔴 認知障礙（失智）住民　🔴 長期使用抗生素住民　🔴 免疫功能低下住民</text>
+
+  <!-- OHSS 工具說明 -->
+  <rect x="45" y="375" width="710" height="90" rx="10" fill="#f0fdf4"/>
+  <rect x="45" y="375" width="4" height="90" rx="2" fill="#16a34a"/>
+  <text x="65" y="400" font-size="14" font-weight="700" fill="#14532d">OHSS 口腔健康篩選工具評估項目</text>
+  <text x="65" y="422" font-size="14" fill="#334155">嘴唇、牙齦/口腔組織、舌頭、唾液/濕潤度、自然牙、義齒（假牙）</text>
+  <text x="65" y="442" font-size="14" fill="#334155">每項 0–3 分，分數越高代表口腔健康狀況越需要介入，應連結照護計畫調整</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾大數字 -->
+  <text x="1010" y="230" font-size="168" font-weight="900" fill="#dc2626" text-anchor="middle" opacity="0.72">10</text>
+  <text x="1010" y="272" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">大常見缺失全解析</text>
+
+  <!-- 右側缺失分類卡片 -->
+  <rect x="840" y="296" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="860" y="324" font-size="24" fill="#dc2626" font-weight="700">文書記錄不完整</text>
+  <text x="860" y="348" font-size="20" fill="#a8a29e">最常見 · A1/B1/B3 失分主因</text>
+
+  <rect x="840" y="370" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="860" y="398" font-size="24" fill="#d97706" font-weight="700">消防演練不達標</text>
+  <text x="860" y="422" font-size="20" fill="#a8a29e">缺夜間演練 · 情境計畫不足</text>
+
+  <rect x="840" y="444" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="860" y="472" font-size="24" fill="#2563eb" font-weight="700">照護計畫評值空白</text>
+  <text x="860" y="496" font-size="20" fill="#a8a29e">B1 最常扣分點</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="524" width="320" height="50" rx="10" fill="#dc2626" opacity="0.12"/>
+  <text x="1000" y="555" font-size="24" fill="#dc2626" text-anchor="middle" font-weight="700">每項附補救方法</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="200" font-size="96" font-weight="900" fill="#1e293b">一般護理之家</text>
+  <text x="60" y="308" font-size="96" font-weight="900" fill="#dc2626">評鑑10大缺失</text>
+
+  <line x1="60" y1="338" x2="790" y2="338" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="386" font-size="34" fill="#57534e" font-weight="400">過來人血淚教訓 · 失分原因 · 補救方法</text>
+
+  <!-- 標籤 -->
+  <rect x="60" y="420" width="176" height="52" rx="10" fill="#dc2626" opacity="0.1"/>
+  <text x="148" y="452" font-size="28" fill="#dc2626" text-anchor="middle" font-weight="600">A 區 4 個缺失</text>
+
+  <rect x="246" y="420" width="176" height="52" rx="10" fill="#16a34a" opacity="0.1"/>
+  <text x="334" y="452" font-size="28" fill="#16a34a" text-anchor="middle" font-weight="600">B 區 3 個缺失</text>
+
+  <rect x="432" y="420" width="176" height="52" rx="10" fill="#2563eb" opacity="0.1"/>
+  <text x="520" y="452" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="600">C 區 2 個缺失</text>
+
+  <rect x="618" y="420" width="176" height="52" rx="10" fill="#7c3aed" opacity="0.1"/>
+  <text x="706" y="452" font-size="28" fill="#7c3aed" text-anchor="middle" font-weight="600">D 區 1 個缺失</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="544" font-size="26" fill="#94a3b8">適用對象：護理長 · 評鑑負責人 · 第一次準備評鑑的工作人員</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

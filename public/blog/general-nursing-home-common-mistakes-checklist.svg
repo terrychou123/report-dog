@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">10 大缺失快速補救清單</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">評鑑前 30 天執行——按優先順序補強</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#dc2626" stroke-width="2"/>
+
+  <!-- 緊急（1週內） -->
+  <rect x="40" y="110" width="220" height="320" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <rect x="40" y="110" width="220" height="40" rx="10" fill="#dc2626"/>
+  <rect x="40" y="130" width="220" height="20" fill="#dc2626"/>
+  <text x="150" y="136" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">立即處理（1週內）</text>
+  <text x="56" y="168" font-size="14" fill="#57534e">□ 排定夜間消防演練</text>
+  <text x="56" y="190" font-size="14" fill="#57534e">□ 建立多情境疏散計畫</text>
+  <text x="56" y="212" font-size="14" fill="#57534e">□ 確認疏散通道暢通</text>
+  <text x="56" y="234" font-size="14" fill="#57534e">□ 急救訓練效期核查</text>
+  <text x="56" y="272" font-size="14" fill="#dc2626" font-weight="600">這些無法在評鑑前</text>
+  <text x="56" y="292" font-size="14" fill="#dc2626">一夜之間補救</text>
+  <text x="56" y="312" font-size="14" fill="#57534e">拖延越久風險越高</text>
+  <text x="56" y="332" font-size="14" fill="#57534e">立即開始行動</text>
+
+  <!-- 2週內 -->
+  <rect x="280" y="110" width="220" height="320" rx="10" fill="#fef9c3" stroke="#d97706" stroke-width="2"/>
+  <rect x="280" y="110" width="220" height="40" rx="10" fill="#d97706"/>
+  <rect x="280" y="130" width="220" height="20" fill="#d97706"/>
+  <text x="390" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">2 週內完成</text>
+  <text x="296" y="168" font-size="14" fill="#57534e">□ 補填評值空白欄位</text>
+  <text x="296" y="190" font-size="14" fill="#57534e">□ 更新感控計畫日期</text>
+  <text x="296" y="212" font-size="14" fill="#57534e">□ 品質季報加分析文字</text>
+  <text x="296" y="234" font-size="14" fill="#57534e">□ 補確認跨專業人員組成</text>
+  <text x="296" y="256" font-size="14" fill="#57534e">□ 建立口腔照護記錄格式</text>
+  <text x="296" y="286" font-size="14" fill="#d97706" font-weight="600">大多數文書缺失</text>
+  <text x="296" y="306" font-size="14" fill="#d97706">可在2週內補齊</text>
+  <text x="296" y="326" font-size="14" fill="#57534e">但日期必須誠實填寫</text>
+
+  <!-- 1個月前 -->
+  <rect x="520" y="110" width="220" height="320" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="520" y="110" width="220" height="40" rx="10" fill="#16a34a"/>
+  <rect x="520" y="130" width="220" height="20" fill="#16a34a"/>
+  <text x="630" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">評鑑前完成</text>
+  <text x="536" y="168" font-size="14" fill="#57534e">□ 工作人員情境演練</text>
+  <text x="536" y="190" font-size="14" fill="#57534e">□ 負責人月查記錄補齊</text>
+  <text x="536" y="212" font-size="14" fill="#57534e">□ 意外事件改善措施補填</text>
+  <text x="536" y="234" font-size="14" fill="#57534e">□ 牙科轉介名單建立</text>
+  <text x="536" y="256" font-size="14" fill="#57534e">□ 最終模擬評鑑查核</text>
+  <text x="536" y="286" font-size="14" fill="#16a34a" font-weight="600">全部補強完成後</text>
+  <text x="536" y="306" font-size="14" fill="#16a34a">進行AI自動查核</text>
+  <text x="536" y="326" font-size="14" fill="#57534e">確認無遺漏項目</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

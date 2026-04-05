@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">評鑑 90 天三階段準備計畫總覽</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">先盤點、再補強、最後衝刺——不亂不慌</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#d97706" stroke-width="2"/>
+
+  <!-- 階段一 -->
+  <rect x="40" y="112" width="220" height="300" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="40" y="112" width="220" height="50" rx="12" fill="#d97706"/>
+  <rect x="40" y="138" width="220" height="24" fill="#d97706"/>
+  <text x="150" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第一個月</text>
+  <text x="150" y="162" font-size="14" fill="#fef9c3" text-anchor="middle">D-90 至 D-60</text>
+  <text x="56" y="192" font-size="14" fill="#57534e" font-weight="600">全面盤點</text>
+  <text x="56" y="214" font-size="14" fill="#57534e">逐項確認文件現況</text>
+  <text x="56" y="234" font-size="14" fill="#57534e">找出完整度缺口</text>
+  <text x="56" y="254" font-size="14" fill="#57534e">分工責任確認</text>
+  <text x="56" y="282" font-size="14" fill="#d97706" font-weight="600">成果：缺口清單</text>
+  <text x="56" y="304" font-size="14" fill="#57534e">知道要從哪裡補</text>
+  <text x="56" y="352" font-size="14" fill="#78716c">第1週：A 區</text>
+  <text x="56" y="370" font-size="14" fill="#78716c">第2週：B 區</text>
+  <text x="56" y="388" font-size="14" fill="#78716c">第3週：C 區</text>
+  <text x="56" y="406" font-size="14" fill="#78716c">第4週：D 區 + 彙整</text>
+
+  <!-- 箭頭 -->
+  <text x="284" y="268" font-size="36" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- 階段二 -->
+  <rect x="296" y="112" width="220" height="300" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="296" y="112" width="220" height="50" rx="12" fill="#16a34a"/>
+  <rect x="296" y="138" width="220" height="24" fill="#16a34a"/>
+  <text x="406" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
+  <text x="406" y="162" font-size="14" fill="#bbf7d0" text-anchor="middle">D-60 至 D-30</text>
+  <text x="312" y="192" font-size="14" fill="#57534e" font-weight="600">核心補強</text>
+  <text x="312" y="214" font-size="14" fill="#57534e">B 區照護計畫補強</text>
+  <text x="312" y="234" font-size="14" fill="#57534e">A 區行政記錄更新</text>
+  <text x="312" y="254" font-size="14" fill="#57534e">C 區多情境計畫建立</text>
+  <text x="312" y="274" font-size="14" fill="#57534e">辦理夜間消防演練</text>
+  <text x="312" y="320" font-size="14" fill="#16a34a" font-weight="600">成果：缺口補強完成</text>
+  <text x="312" y="342" font-size="14" fill="#57534e">15 項均達到基本水準</text>
+
+  <!-- 箭頭 -->
+  <text x="540" y="268" font-size="36" fill="#d97706" text-anchor="middle">→</text>
+
+  <!-- 階段三 -->
+  <rect x="552" y="112" width="208" height="300" rx="12" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
+  <rect x="552" y="112" width="208" height="50" rx="12" fill="#57534e"/>
+  <rect x="552" y="138" width="208" height="24" fill="#57534e"/>
+  <text x="656" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第三個月</text>
+  <text x="656" y="162" font-size="14" fill="#e2e8f0" text-anchor="middle">D-30 至評鑑日</text>
+  <text x="568" y="192" font-size="14" fill="#57534e" font-weight="600">衝刺查核</text>
+  <text x="568" y="214" font-size="14" fill="#57534e">C4 情境演練各班次</text>
+  <text x="568" y="234" font-size="14" fill="#57534e">文件整理分類裝訂</text>
+  <text x="568" y="254" font-size="14" fill="#57534e">模擬評鑑查核</text>
+  <text x="568" y="274" font-size="14" fill="#57534e">疏散通道最終走查</text>
+  <text x="568" y="302" font-size="14" fill="#d97706" font-weight="600">成果：評鑑就緒</text>
+  <text x="568" y="322" font-size="14" fill="#57534e">工作人員熟練</text>
+  <text x="568" y="362" font-size="14" fill="#16a34a">評鑑日：從容應對</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

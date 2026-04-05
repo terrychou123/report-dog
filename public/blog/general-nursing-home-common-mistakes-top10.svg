@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">10 大常見缺失分布圖</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">集中在三大根本原因：有做沒記錄 · 記錄不完整 · 演練不足</text>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#dc2626" stroke-width="2"/>
+
+  <!-- 三大根本原因 -->
+  <rect x="40" y="110" width="220" height="300" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <rect x="40" y="110" width="220" height="42" rx="10" fill="#dc2626"/>
+  <rect x="40" y="132" width="220" height="20" fill="#dc2626"/>
+  <text x="150" y="136" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">有做但沒記錄</text>
+  <text x="56" y="170" font-size="14" fill="#57534e">缺失 1：負責人查看無書面</text>
+  <text x="56" y="192" font-size="14" fill="#57534e">缺失 4：感控計畫多年未更</text>
+  <text x="56" y="214" font-size="14" fill="#57534e">缺失 10：口腔清潔無記錄</text>
+  <text x="56" y="246" font-size="14" fill="#dc2626" font-weight="600">佔缺失總數 ~40%</text>
+  <text x="56" y="268" font-size="14" fill="#57534e">根本原因：</text>
+  <text x="56" y="288" font-size="14" fill="#57534e">缺乏記錄習慣</text>
+  <text x="56" y="308" font-size="14" fill="#57534e">或記錄格式不完整</text>
+
+  <rect x="280" y="110" width="220" height="300" rx="10" fill="#fef9c3" stroke="#d97706" stroke-width="2"/>
+  <rect x="280" y="110" width="220" height="42" rx="10" fill="#d97706"/>
+  <rect x="280" y="132" width="220" height="20" fill="#d97706"/>
+  <text x="390" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">記錄格式不完整</text>
+  <text x="296" y="170" font-size="14" fill="#57534e">缺失 2：BLS記錄未含AED</text>
+  <text x="296" y="192" font-size="14" fill="#57534e">缺失 3：改善措施空白</text>
+  <text x="296" y="214" font-size="14" fill="#57534e">缺失 5：跨專業人員不足</text>
+  <text x="296" y="234" font-size="14" fill="#57534e">缺失 6：評值記錄空白</text>
+  <text x="296" y="254" font-size="14" fill="#57534e">缺失 7：季報無分析文字</text>
+  <text x="296" y="278" font-size="14" fill="#d97706" font-weight="600">佔缺失總數 ~50%</text>
+  <text x="296" y="298" font-size="14" fill="#57534e">根本原因：</text>
+  <text x="296" y="318" font-size="14" fill="#57534e">格式設計不夠完整</text>
+  <text x="296" y="338" font-size="14" fill="#57534e">或沒有標準範本</text>
+
+  <rect x="520" y="110" width="220" height="300" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="520" y="110" width="220" height="42" rx="10" fill="#2563eb"/>
+  <rect x="520" y="132" width="220" height="20" fill="#2563eb"/>
+  <text x="630" y="136" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">演練執行不足</text>
+  <text x="536" y="170" font-size="14" fill="#57534e">缺失 8：缺夜間演練</text>
+  <text x="536" y="192" font-size="14" fill="#57534e">缺失 9：只熟悉主動線</text>
+  <text x="536" y="226" font-size="14" fill="#2563eb" font-weight="600">佔缺失總數 ~20%</text>
+  <text x="536" y="248" font-size="14" fill="#57534e">根本原因：</text>
+  <text x="536" y="268" font-size="14" fill="#57534e">擔心影響住民</text>
+  <text x="536" y="288" font-size="14" fill="#57534e">導致演練一再延後</text>
+  <text x="536" y="316" font-size="14" fill="#dc2626" font-weight="600">⚠ 最難補救的缺失</text>
+  <text x="536" y="336" font-size="14" fill="#dc2626">評鑑前必須實際執行</text>
+
+  <!-- 底部提示 -->
+  <rect x="40" y="432" width="720" height="38" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="456" font-size="14" fill="#57534e" text-anchor="middle">解法：建立系統性記錄習慣 + 標準化文件格式 + 定期排程演練</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
