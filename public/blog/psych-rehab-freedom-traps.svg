@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="40" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">重3.11 常見違規類型</text>
+  <line x1="28" y1="54" x2="772" y2="54" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左側：硬性限制 -->
+  <rect x="28" y="64" width="360" height="400" rx="12" fill="white"/>
+  <!-- 紅色頂部色條 -->
+  <rect x="28" y="64" width="360" height="8" rx="4" fill="#dc2626"/>
+  <rect x="28" y="68" width="360" height="4" fill="#dc2626"/>
+  <text x="208" y="106" font-size="22" fill="#dc2626" text-anchor="middle" font-weight="700">硬性限制</text>
+  <text x="208" y="128" font-size="15" fill="#57534e" text-anchor="middle">物理設施直接阻礙出入</text>
+
+  <!-- 硬性限制 1 -->
+  <circle cx="58" cy="168" r="14" fill="#dc2626" opacity="0.15"/>
+  <text x="58" y="174" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">1</text>
+  <text x="84" y="164" font-size="17" fill="#1e293b" font-weight="700">電子門禁阻擋</text>
+  <text x="84" y="184" font-size="14" fill="#57534e">大門需刷卡，住民沒有門卡</text>
+
+  <!-- 硬性限制 2 -->
+  <circle cx="58" cy="232" r="14" fill="#dc2626" opacity="0.15"/>
+  <text x="58" y="238" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">2</text>
+  <text x="84" y="228" font-size="17" fill="#1e293b" font-weight="700">欄杆圍牆封閉</text>
+  <text x="84" y="248" font-size="14" fill="#57534e">物理圍封，住民無法自行出入</text>
+
+  <!-- 硬性限制 3 -->
+  <circle cx="58" cy="296" r="14" fill="#dc2626" opacity="0.15"/>
+  <text x="58" y="302" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">3</text>
+  <text x="84" y="292" font-size="17" fill="#1e293b" font-weight="700">夜間全面鎖門</text>
+  <text x="84" y="312" font-size="14" fill="#57534e">無任何例外，禁止所有外出</text>
+
+  <!-- 底部說明框 -->
+  <rect x="46" y="362" width="322" height="76" rx="8" fill="#fef2f2"/>
+  <!-- 警告符號 -->
+  <polygon points="78,385 88,369 98,385" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="88" y="382" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">!</text>
+  <text x="208" y="392" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">評鑑當場即被認定違規</text>
+  <text x="208" y="414" font-size="13" fill="#57534e" text-anchor="middle">物理設施改造需提早規劃</text>
+
+  <!-- 右側：軟性限制 -->
+  <rect x="412" y="64" width="360" height="400" rx="12" fill="white"/>
+  <!-- 琥珀色頂部色條 -->
+  <rect x="412" y="64" width="360" height="8" rx="4" fill="#d97706"/>
+  <rect x="412" y="68" width="360" height="4" fill="#d97706"/>
+  <text x="592" y="106" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">軟性限制</text>
+  <text x="592" y="128" font-size="15" fill="#57534e" text-anchor="middle">管理制度造成實質限制</text>
+
+  <!-- 軟性限制 1 -->
+  <circle cx="442" cy="168" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="442" y="174" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">1</text>
+  <text x="468" y="164" font-size="17" fill="#1e293b" font-weight="700">外出審核制度</text>
+  <text x="468" y="184" font-size="14" fill="#57534e">填表→組長→主任逐級簽核</text>
+
+  <!-- 軟性限制 2 -->
+  <circle cx="442" cy="232" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="442" y="238" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">2</text>
+  <text x="468" y="228" font-size="17" fill="#1e293b" font-weight="700">強制陪同外出</text>
+  <text x="468" y="248" font-size="14" fill="#57534e">所有外出均需工作人員陪同</text>
+
+  <!-- 軟性限制 3 -->
+  <circle cx="442" cy="296" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="442" y="302" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">3</text>
+  <text x="468" y="292" font-size="17" fill="#1e293b" font-weight="700">住民不知道有外出權</text>
+  <text x="468" y="312" font-size="14" fill="#57534e">機構從未告知可自由外出</text>
+
+  <!-- 底部說明框 -->
+  <rect x="430" y="362" width="322" height="76" rx="8" fill="#fff7ed"/>
+  <text x="592" y="392" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">訪談住民時立即暴露</text>
+  <text x="592" y="414" font-size="13" fill="#57534e" text-anchor="middle">制度調整可在評鑑前快速完成</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

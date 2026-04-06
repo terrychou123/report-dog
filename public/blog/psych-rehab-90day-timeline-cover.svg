@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- 大型裝飾數字 90 -->
+  <text x="1010" y="230" text-anchor="middle" font-size="190" fill="#d97706" opacity="0.85" font-weight="900">90</text>
+  <text x="1010" y="286" text-anchor="middle" font-size="28" fill="#57534e">天備評時間軸</text>
+  <line x1="880" y1="314" x2="1140" y2="314" stroke="#dedad3" stroke-width="1"/>
+  <text x="1010" y="352" text-anchor="middle" font-size="20" fill="#57534e">盤點 → 整備 → 演練</text>
+  <text x="1010" y="384" text-anchor="middle" font-size="20" fill="#57534e">三階段完整攻略</text>
+  <text x="1010" y="440" text-anchor="middle" font-size="18" fill="#78716c">日間型 36 條</text>
+  <text x="1010" y="468" text-anchor="middle" font-size="18" fill="#78716c">住宿型 40 條</text>
+  <text x="1010" y="496" text-anchor="middle" font-size="18" fill="#78716c">通用版</text>
+
+  <!-- 左側主要內容 -->
+  <rect x="60" y="56" width="220" height="36" rx="18" fill="#d97706" opacity="0.15"/>
+  <text x="170" y="79" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">115年度 精神復健機構</text>
+
+  <!-- 主標題 -->
+  <text x="60" y="190" font-size="80" fill="#1e293b" font-weight="900">評鑑前 90 天</text>
+  <text x="60" y="298" font-size="92" fill="#d97706" font-weight="900">準備時間軸</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="324" x2="760" y2="324" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="372" font-size="32" fill="#57534e">從缺口盤點到 PFM 演練，每個環節都在對的時間點完成</text>
+
+  <!-- 三個階段標籤 -->
+  <rect x="60" y="410" width="200" height="40" rx="20" fill="#fef3c7"/>
+  <text x="160" y="435" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">D-90~60 盤點期</text>
+
+  <rect x="276" y="410" width="200" height="40" rx="20" fill="#f5f5f4"/>
+  <text x="376" y="435" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">D-60~30 整備期</text>
+
+  <rect x="492" y="410" width="200" height="40" rx="20" fill="#f5f0eb"/>
+  <text x="592" y="435" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">D-30~7 演練期</text>
+
+  <!-- PFM tag -->
+  <rect x="60" y="466" width="180" height="36" rx="18" fill="#eff6ff"/>
+  <text x="150" y="489" text-anchor="middle" font-size="16" fill="#2563eb" font-weight="600">PFM 訓練計畫</text>
+
+  <rect x="254" y="466" width="204" height="36" rx="18" fill="#fef2f2"/>
+  <text x="356" y="489" text-anchor="middle" font-size="16" fill="#dc2626" font-weight="600">住宿型 3.11 特別處理</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="606" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

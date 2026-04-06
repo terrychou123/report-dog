@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">三章總覽：條數與配分對照</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">日間型 36 條 100 分 vs 住宿型 40 條 100 分</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 表頭 -->
+  <rect x="28" y="106" width="744" height="40" rx="8" fill="#e8e4dc"/>
+  <text x="200" y="131" text-anchor="middle" font-size="16" fill="#57534e" font-weight="700">章節</text>
+  <text x="430" y="131" text-anchor="middle" font-size="16" fill="#0284c7" font-weight="700">日間型</text>
+  <text x="650" y="131" text-anchor="middle" font-size="16" fill="#7c3aed" font-weight="700">住宿型</text>
+
+  <!-- 第一章 -->
+  <rect x="28" y="154" width="744" height="72" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="154" width="6" height="72" rx="2" fill="#2563eb"/>
+  <text x="200" y="180" text-anchor="middle" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
+  <text x="200" y="202" text-anchor="middle" font-size="15" fill="#57534e">負責人、人力、設施、空間</text>
+  <!-- 日間型 -->
+  <rect x="336" y="162" width="180" height="56" rx="8" fill="#eff6ff"/>
+  <text x="426" y="185" text-anchor="middle" font-size="22" fill="#0284c7" font-weight="700">10 條</text>
+  <text x="426" y="207" text-anchor="middle" font-size="15" fill="#0284c7">34 分</text>
+  <!-- 住宿型 -->
+  <rect x="556" y="162" width="180" height="56" rx="8" fill="#f5f3ff"/>
+  <text x="646" y="185" text-anchor="middle" font-size="22" fill="#7c3aed" font-weight="700">12 條</text>
+  <text x="646" y="207" text-anchor="middle" font-size="15" fill="#7c3aed">33 分（含24h人力）</text>
+
+  <!-- 第二章 -->
+  <rect x="28" y="234" width="744" height="72" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="234" width="6" height="72" rx="2" fill="#16a34a"/>
+  <text x="200" y="260" text-anchor="middle" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
+  <text x="200" y="282" text-anchor="middle" font-size="15" fill="#57534e">評估、計畫、訓練（PFM × 2）</text>
+  <!-- 日間型 -->
+  <rect x="336" y="242" width="180" height="56" rx="8" fill="#f0fdf4"/>
+  <text x="426" y="265" text-anchor="middle" font-size="22" fill="#16a34a" font-weight="700">14 條</text>
+  <text x="426" y="287" text-anchor="middle" font-size="15" fill="#16a34a">37 分（2.3 社區化）</text>
+  <!-- 住宿型 -->
+  <rect x="556" y="242" width="180" height="56" rx="8" fill="#f0fdf4"/>
+  <text x="646" y="265" text-anchor="middle" font-size="22" fill="#16a34a" font-weight="700">14 條</text>
+  <text x="646" y="287" text-anchor="middle" font-size="15" fill="#16a34a">37 分（2.3 獨立生活 6 分）</text>
+
+  <!-- 第三章 -->
+  <rect x="28" y="314" width="744" height="72" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="314" width="6" height="72" rx="2" fill="#ea580c"/>
+  <text x="200" y="340" text-anchor="middle" font-size="17" fill="#1e293b" font-weight="700">第3章 服務品質</text>
+  <text x="200" y="362" text-anchor="middle" font-size="15" fill="#57534e">收結案、紀錄、出入自由（PFM × 3/5）</text>
+  <!-- 日間型 -->
+  <rect x="336" y="322" width="180" height="56" rx="8" fill="#fff7ed"/>
+  <text x="426" y="345" text-anchor="middle" font-size="22" fill="#ea580c" font-weight="700">12 條</text>
+  <text x="426" y="367" text-anchor="middle" font-size="15" fill="#ea580c">29 分</text>
+  <!-- 住宿型 -->
+  <rect x="556" y="322" width="180" height="56" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="646" y="345" text-anchor="middle" font-size="22" fill="#dc2626" font-weight="700">14 條</text>
+  <text x="646" y="367" text-anchor="middle" font-size="15" fill="#dc2626">30 分（含重3.11）</text>
+
+  <!-- 合計 -->
+  <rect x="28" y="394" width="744" height="52" rx="8" fill="#e8e4dc"/>
+  <text x="200" y="425" text-anchor="middle" font-size="17" fill="#1e293b" font-weight="700">合計</text>
+  <text x="426" y="425" text-anchor="middle" font-size="20" fill="#0284c7" font-weight="700">36 條 / 100 分</text>
+  <text x="646" y="425" text-anchor="middle" font-size="20" fill="#7c3aed" font-weight="700">40 條 / 100 分</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">PFM訪談：日間型5項 vs 住宿型7項</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">住宿型多3.7財物自主與重3.11出入自由</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左側：日間型 5項 -->
+  <rect x="40" y="108" width="346" height="330" rx="12" fill="white" stroke="#0284c7" stroke-width="2"/>
+  <rect x="40" y="108" width="346" height="40" rx="12" fill="#0284c7"/>
+  <rect x="40" y="128" width="346" height="20" fill="#0284c7"/>
+  <text x="213" y="134" text-anchor="middle" font-size="20" fill="white" font-weight="700">日間型 5項PFM</text>
+
+  <rect x="60" y="158" width="306" height="36" rx="8" fill="#eff6ff"/>
+  <text x="80" y="181" font-size="16" fill="#0284c7" font-weight="700">2.8  輔導規則就醫及藥物自我管理</text>
+  <rect x="60" y="202" width="306" height="36" rx="8" fill="#eff6ff"/>
+  <text x="80" y="225" font-size="16" fill="#0284c7" font-weight="700">2.12  社區融合</text>
+  <rect x="60" y="246" width="306" height="36" rx="8" fill="#eff6ff"/>
+  <text x="80" y="269" font-size="16" fill="#0284c7" font-weight="700">3.2  訂定適當收案標準</text>
+  <rect x="60" y="290" width="306" height="36" rx="8" fill="#eff6ff"/>
+  <text x="80" y="313" font-size="16" fill="#0284c7" font-weight="700">3.5  適切的復健基金管理</text>
+  <rect x="60" y="334" width="306" height="36" rx="8" fill="#eff6ff"/>
+  <text x="80" y="357" font-size="16" fill="#0284c7" font-weight="700">3.6  落實學員權益維護措施</text>
+
+  <!-- 右側：住宿型 7項（含共有5項+2個住宿型獨有） -->
+  <rect x="414" y="108" width="346" height="330" rx="12" fill="white" stroke="#7c3aed" stroke-width="2"/>
+  <rect x="414" y="108" width="346" height="40" rx="12" fill="#7c3aed"/>
+  <rect x="414" y="128" width="346" height="20" fill="#7c3aed"/>
+  <text x="587" y="134" text-anchor="middle" font-size="20" fill="white" font-weight="700">住宿型 7項PFM</text>
+
+  <!-- 共有5項 -->
+  <text x="434" y="162" font-size="14" fill="#a8a29e">（共有5項，同日間型）</text>
+  <rect x="434" y="172" width="306" height="30" rx="6" fill="#f5f3ff"/>
+  <text x="454" y="192" font-size="14" fill="#7c3aed">2.8 藥物自我管理</text>
+  <rect x="434" y="206" width="306" height="30" rx="6" fill="#f5f3ff"/>
+  <text x="454" y="226" font-size="14" fill="#7c3aed">2.12 社區融合</text>
+  <rect x="434" y="240" width="306" height="30" rx="6" fill="#f5f3ff"/>
+  <text x="454" y="260" font-size="14" fill="#7c3aed">3.2 收案標準 ／ 3.5 復健基金 ／ 3.6 權益維護</text>
+
+  <!-- 住宿型獨有2項 -->
+  <text x="434" y="290" font-size="14" fill="#a8a29e">（住宿型獨有2項）</text>
+  <rect x="434" y="300" width="306" height="36" rx="8" fill="#e9d5ff"/>
+  <text x="454" y="323" font-size="16" fill="#7c3aed" font-weight="700">3.7  維護住民財物自主管理</text>
+  <rect x="434" y="344" width="306" height="36" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="454" y="365" font-size="16" fill="#dc2626" font-weight="700">重3.11  維護住民出入自由</text>
+  <text x="454" y="383" font-size="13" fill="#dc2626">未達C即不合格！</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

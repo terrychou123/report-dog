@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">3.3 結案標準三類情境設計</text>
+  <text x="400" y="76" font-size="20" fill="#57534e" text-anchor="middle">正向結案、機構轉換、非自願結案三種都要規劃</text>
+  <line x1="129" y1="93" x2="671" y2="93" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- ===== STEP01 正向結案 (cx=214) ===== -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="214" y="211" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="214" y="295" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">正向結案</text>
+  <text x="214" y="318" font-size="17" fill="#57534e" text-anchor="middle">目標達成</text>
+  <text x="214" y="340" font-size="14" fill="#57534e" text-anchor="middle">功能顯著提升</text>
+  <text x="214" y="360" font-size="13" fill="#57534e" text-anchor="middle">可獨立生活就業</text>
+  <rect x="147" y="381" width="134" height="36" rx="18" fill="#f0fdf4"/>
+  <text x="214" y="405" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="600">服務目標達成</text>
+
+  <!-- 箭頭 01→02 -->
+  <line x1="302" y1="279" x2="312" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="312,274 320,279 312,284" fill="#d97706"/>
+
+  <!-- ===== STEP02 機構轉換 (cx=400) ===== -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="400" y="211" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="400" y="295" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">機構轉換</text>
+  <text x="400" y="318" font-size="17" fill="#57534e" text-anchor="middle">需求轉銜</text>
+  <text x="400" y="340" font-size="14" fill="#57534e" text-anchor="middle">轉介其他機構</text>
+  <text x="400" y="360" font-size="13" fill="#57534e" text-anchor="middle">急性病房 / 長照</text>
+  <rect x="333" y="381" width="134" height="36" rx="18" fill="#fff7ed"/>
+  <text x="400" y="405" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600">資源轉介連結</text>
+
+  <!-- 箭頭 02→03 -->
+  <line x1="488" y1="279" x2="498" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="498,274 506,279 498,284" fill="#78716c"/>
+
+  <!-- ===== STEP03 非自願結案 (cx=586) ===== -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="586" y="211" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="586" y="295" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">非自願結案</text>
+  <text x="586" y="318" font-size="17" fill="#57534e" text-anchor="middle">關係終止</text>
+  <text x="586" y="340" font-size="14" fill="#57534e" text-anchor="middle">長期失聯 / 違規</text>
+  <text x="586" y="360" font-size="13" fill="#57534e" text-anchor="middle">申訴權利保障</text>
+  <rect x="519" y="381" width="134" height="36" rx="18" fill="#fef2f2"/>
+  <text x="586" y="405" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="600">程序保障</text>
+
+  <!-- 底部說明 -->
+  <rect x="129" y="458" width="542" height="28" rx="6" fill="#fff7ed"/>
+  <text x="400" y="476" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">每次結案均需有「結案評估紀錄」說明原因、達成目標與轉介去向</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="495" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

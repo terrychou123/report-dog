@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header (y=50, h=62) -->
+  <rect x="0" y="50" width="800" height="62" fill="white"/>
+  <rect x="0" y="50" width="6" height="62" fill="#d97706"/>
+  <text x="28" y="90" font-size="36" fill="#1e293b" font-weight="700">PFM 7 項核心提問與達標判斷</text>
+
+  <!-- ===== Row 1 (y=160) 2.8 用藥管理 #d97706 ===== -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="184" font-size="20" fill="#1e293b" font-weight="700">2.8 藥物自我管理</text>
+  <text x="100" y="206" font-size="15" fill="#57534e">「你在吃什麼藥？這個藥是做什麼的？」→ 達標：能說出至少一種藥名或用途</text>
+  <rect x="634" y="168" width="130" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="699" y="186" font-size="15" fill="#d97706" text-anchor="middle">2.8</text>
+  <text x="699" y="206" font-size="14" fill="#d97706" text-anchor="middle">PFM 項目</text>
+
+  <!-- ===== Row 2 (y=235) 2.12 社區融合 #78716c ===== -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="259" font-size="20" fill="#1e293b" font-weight="700">2.12 社區融合</text>
+  <text x="100" y="281" font-size="15" fill="#57534e">「上個月你有去社區做什麼嗎？」→ 達標：能描述具體地點與活動</text>
+  <rect x="634" y="243" width="130" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="699" y="261" font-size="15" fill="#78716c" text-anchor="middle">2.12</text>
+  <text x="699" y="281" font-size="14" fill="#78716c" text-anchor="middle">PFM 項目</text>
+
+  <!-- ===== Row 3 (y=310) 3.6 申訴機制 #57534e ===== -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="334" font-size="20" fill="#1e293b" font-weight="700">3.6 學員 / 住民權益維護</text>
+  <text x="100" y="356" font-size="15" fill="#57534e">「如果覺得被不公平對待，你知道可以怎麼做嗎？」→ 達標：說出一種申訴管道</text>
+  <rect x="634" y="318" width="130" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="699" y="336" font-size="15" fill="#57534e" text-anchor="middle">3.6</text>
+  <text x="699" y="356" font-size="14" fill="#57534e" text-anchor="middle">PFM 項目</text>
+
+  <!-- ===== Row 4 (y=385) 重3.11 出入自由 #dc2626 ===== -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#dc2626"/>
+  <circle cx="66" cy="416" r="16" fill="#dc2626" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="900">!</text>
+  <text x="100" y="408" font-size="20" fill="#dc2626" font-weight="700">重3.11 維護住民出入自由（住宿型唯一重點）</text>
+  <text x="100" y="430" font-size="15" fill="#dc2626">「你想出去，可以自由外出嗎？」→ 未達C → 整場評鑑不合格</text>
+  <rect x="634" y="393" width="130" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="699" y="411" font-size="15" fill="#dc2626" text-anchor="middle">重3.11</text>
+  <text x="699" y="431" font-size="14" fill="#dc2626" text-anchor="middle">重點項目</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

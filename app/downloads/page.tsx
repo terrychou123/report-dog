@@ -92,6 +92,12 @@ const DOWNLOADS: DownloadItem[] = [
     description: "114-116年度臺北市托嬰中心評鑑自我檢核表，共60項基準，含行政管理、托育活動、健康安全三大區塊。",
     file: "infant-daycare.xlsx",
   },
+  {
+    slug: "psychiatric-rehabilitation-institution",
+    name: "精神復健機構",
+    description: "115年度精神復健機構評鑑自我檢核表，涵蓋日間型及住宿型機構評鑑基準。",
+    file: "psychiatric-rehabilitation-institution.xlsx",
+  },
 ];
 
 export default function DownloadsPage() {

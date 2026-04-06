@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header (y=50, h=62) -->
+  <rect x="0" y="50" width="800" height="62" fill="white"/>
+  <rect x="0" y="50" width="6" height="62" fill="#57534e"/>
+  <text x="28" y="83" font-size="32" fill="#1e293b" font-weight="700">第三階段 D-30 至 D-7：演練驗收期</text>
+
+  <!-- Row 1（y=160）D-30 全員說明 #d97706 -->
+  <rect x="28" y="160" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">D-30</text>
+  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700">全員評鑑說明會</text>
+  <text x="100" y="207" font-size="16" fill="#57534e">評鑑動線演練，PFM 訪談場地安排，各章節負責人確認文件回應流程</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="186" font-size="15" fill="#d97706" text-anchor="middle">動線確認</text>
+  <text x="688" y="206" font-size="15" fill="#d97706" text-anchor="middle">角色分工</text>
+
+  <!-- Row 2（y=235）D-21 第二輪PFM #78716c -->
+  <rect x="28" y="235" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">D-21</text>
+  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">第二輪 PFM 模擬演練</text>
+  <text x="100" y="282" font-size="16" fill="#57534e">針對回答不流暢的學員個別加強，確認他們真正了解用藥和社區融合狀況</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="261" font-size="15" fill="#78716c" text-anchor="middle">個別加強</text>
+  <text x="688" y="281" font-size="15" fill="#78716c" text-anchor="middle">真實理解</text>
+
+  <!-- Row 3（y=310）D-14 文件最終整理 #57534e -->
+  <rect x="28" y="310" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">D-14</text>
+  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700">備審文件最終整理</text>
+  <text x="100" y="357" font-size="16" fill="#57534e">依章節建立索引目錄，PFM 和重點項目文件特別標記，電子紙本兩備</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="336" font-size="15" fill="#57534e" text-anchor="middle">建立索引</text>
+  <text x="688" y="356" font-size="15" fill="#57534e" text-anchor="middle">電紙兩備</text>
+
+  <!-- Row 4（y=385）D-7 最終清零 #a8a29e -->
+  <rect x="28" y="385" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">D-7</text>
+  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700">最終清零確認</text>
+  <text x="100" y="432" font-size="16" fill="#57534e">逐條對照確認無遺漏，這一輪主要是確認而非補救，準備進入倒數7天</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="411" font-size="15" fill="#a8a29e" text-anchor="middle">逐條清零</text>
+  <text x="688" y="431" font-size="15" fill="#a8a29e" text-anchor="middle">確認不補救</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

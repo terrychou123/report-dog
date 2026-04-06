@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">緊急事件處理三類情境</text>
+  <text x="400" y="76" font-size="20" fill="#57534e" text-anchor="middle">每類情境均需書面化流程與紀錄</text>
+  <line x1="129" y1="93" x2="671" y2="93" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- ===== STEP01 緊急醫療 (cx=214) ===== -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="214" y="211" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="214" y="297" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">緊急醫療</text>
+  <text x="214" y="320" font-size="17" fill="#57534e" text-anchor="middle">送醫流程</text>
+  <text x="214" y="342" font-size="14" fill="#57534e" text-anchor="middle">通報家屬 / 主管</text>
+  <rect x="147" y="381" width="134" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">緊急醫療</text>
+
+  <!-- 箭頭 01→02 -->
+  <line x1="302" y1="279" x2="312" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="312,274 320,279 312,284" fill="#d97706"/>
+
+  <!-- ===== STEP02 異常行為 (cx=400) ===== -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="400" y="211" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="400" y="297" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">異常事件</text>
+  <text x="400" y="320" font-size="17" fill="#57534e" text-anchor="middle">安撫 / 介入</text>
+  <text x="400" y="342" font-size="14" fill="#57534e" text-anchor="middle">紀錄 / 後續追蹤</text>
+  <rect x="333" y="381" width="134" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">異常事件</text>
+
+  <!-- 箭頭 02→03 -->
+  <line x1="488" y1="279" x2="498" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="498,274 506,279 498,284" fill="#78716c"/>
+
+  <!-- ===== STEP03 群聚感染 (cx=586) ===== -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="586" y="211" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="586" y="297" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">群聚感染</text>
+  <text x="586" y="320" font-size="17" fill="#57534e" text-anchor="middle">隔離措施</text>
+  <text x="586" y="342" font-size="14" fill="#57534e" text-anchor="middle">衛生局通報</text>
+  <rect x="519" y="381" width="134" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="405" font-size="16" fill="#57534e" text-anchor="middle" font-weight="600">感染管控</text>
+
+  <!-- 底部說明 -->
+  <rect x="129" y="458" width="542" height="28" rx="6" fill="#fff7ed"/>
+  <text x="400" y="476" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">即使本年度無緊急事件，也需準備書面流程與表單範本</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="495" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

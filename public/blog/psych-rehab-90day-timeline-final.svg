@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">評鑑前7天最終確認清單</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">這一輪是確認，不是補救——準備好的，上場就贏</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Row 1 (y=110): 文件確認 -->
+  <rect x="28" y="110" width="744" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="110" width="6" height="64" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="142" r="18" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="148" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">D-7</text>
+  <text x="100" y="131" font-size="18" fill="#1e293b" font-weight="700">備審文件逐章清零</text>
+  <text x="100" y="153" font-size="15" fill="#57534e">三章節負責人各自確認文件完整，索引目錄更新完成，特殊標記（PFM、重點）確認</text>
+  <text x="100" y="167" font-size="15" fill="#57534e">確認電子版 USB 或雲端備份可正常讀取</text>
+  <rect x="620" y="118" width="136" height="48" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="138" font-size="15" fill="#d97706" text-anchor="middle">文件全清零</text>
+  <text x="688" y="158" font-size="15" fill="#d97706" text-anchor="middle">索引完整</text>
+
+  <!-- Row 2 (y=182): 環境整備 -->
+  <rect x="28" y="182" width="744" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="182" width="6" height="64" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="214" r="18" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="220" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">D-5</text>
+  <text x="100" y="203" font-size="18" fill="#1e293b" font-weight="700">空間環境整潔備場</text>
+  <text x="100" y="225" font-size="15" fill="#57534e">復健治療空間（1.7）、健身康樂設施（1.8）整潔確認；住宿型廚房（1.10）衛生檢查</text>
+  <text x="100" y="239" font-size="15" fill="#57534e">住宿型 1.8 確認無學員與工作人員隔離設施，家庭化氛圍到位</text>
+  <rect x="620" y="190" width="136" height="48" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="210" font-size="15" fill="#78716c" text-anchor="middle">環境整潔</text>
+  <text x="688" y="230" font-size="15" fill="#78716c" text-anchor="middle">家庭化確認</text>
+
+  <!-- Row 3 (y=254): 簡報演練 -->
+  <rect x="28" y="254" width="744" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="254" width="6" height="64" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="286" r="18" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="292" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">D-3</text>
+  <text x="100" y="275" font-size="18" fill="#1e293b" font-weight="700">評鑑簡報最終演練</text>
+  <text x="100" y="297" font-size="15" fill="#57534e">機構介紹簡報（10分鐘）由主管演練一次，確認 1.10/1.12 評鑑資料填寫無誤</text>
+  <text x="100" y="311" font-size="15" fill="#57534e">確認評鑑當日的接待動線和各部門待命位置</text>
+  <rect x="620" y="262" width="136" height="48" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="282" font-size="15" fill="#57534e" text-anchor="middle">簡報就緒</text>
+  <text x="688" y="302" font-size="15" fill="#57534e" text-anchor="middle">動線確認</text>
+
+  <!-- Row 4 (y=326): 評鑑當日 -->
+  <rect x="28" y="326" width="744" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="326" width="6" height="64" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="358" r="18" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="364" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">D-Day</text>
+  <text x="100" y="347" font-size="18" fill="#1e293b" font-weight="700">評鑑當日：迎接委員注意事項</text>
+  <text x="100" y="369" font-size="15" fill="#57534e">學員或住民自然互動（勿刻意迴避 PFM 訪談），工作人員各司其職</text>
+  <text x="100" y="383" font-size="15" fill="#57534e">委員提問文件時，章節負責人迅速到位回應；住宿型確認門禁可自由進出</text>
+  <rect x="620" y="334" width="136" height="48" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="354" font-size="15" fill="#a8a29e" text-anchor="middle">自然應對</text>
+  <text x="688" y="374" font-size="15" fill="#a8a29e" text-anchor="middle">各司其職</text>
+
+  <!-- 底部提示 -->
+  <rect x="28" y="400" width="744" height="46" rx="10" fill="#fef3c7"/>
+  <rect x="28" y="400" width="6" height="46" rx="2" fill="#d97706"/>
+  <text x="400" y="420" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">評鑑準備的最高境界：讓服務品質真正到位，文件是事實的記錄，不是裝飾</text>
+  <text x="400" y="438" text-anchor="middle" font-size="15" fill="#57534e">使用報告汪定期追蹤功能，隨時掌握各條目備評進度，評鑑季不再手忙腳亂</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

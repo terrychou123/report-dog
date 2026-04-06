@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- 日間型 vs 住宿型 2.3 配分裝飾 -->
+  <text x="1010" y="160" text-anchor="middle" font-size="28" fill="#0284c7" font-weight="700">日間型 2.3</text>
+  <text x="1010" y="210" text-anchor="middle" font-size="120" fill="#0284c7" opacity="0.7" font-weight="900">4</text>
+  <text x="1010" y="244" text-anchor="middle" font-size="22" fill="#0284c7">分</text>
+  <line x1="880" y1="264" x2="1140" y2="264" stroke="#dedad3" stroke-width="2"/>
+  <text x="1010" y="306" text-anchor="middle" font-size="28" fill="#7c3aed" font-weight="700">住宿型 2.3</text>
+  <text x="1010" y="376" text-anchor="middle" font-size="120" fill="#7c3aed" opacity="0.7" font-weight="900">6</text>
+  <text x="1010" y="410" text-anchor="middle" font-size="22" fill="#7c3aed">分（全評鑑最高）</text>
+
+  <rect x="60" y="56" width="230" height="36" rx="18" fill="#d97706" opacity="0.15"/>
+  <text x="175" y="79" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">115年度 精神復健機構</text>
+
+  <text x="60" y="186" font-size="76" fill="#1e293b" font-weight="900">社區生活化復健</text>
+  <text x="60" y="292" font-size="76" fill="#d97706" font-weight="900">活動設計指南</text>
+
+  <line x1="60" y1="316" x2="760" y2="316" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="364" font-size="28" fill="#57534e">日間型 2.3 社區化 vs 住宿型 2.3 獨立生活（6分）</text>
+
+  <rect x="60" y="402" width="172" height="36" rx="18" fill="#eff6ff"/>
+  <text x="146" y="425" text-anchor="middle" font-size="16" fill="#0284c7" font-weight="600">日間型社區化</text>
+
+  <rect x="246" y="402" width="200" height="36" rx="18" fill="#f5f3ff"/>
+  <text x="346" y="425" text-anchor="middle" font-size="16" fill="#7c3aed" font-weight="600">住宿型獨立生活訓練</text>
+
+  <rect x="460" y="402" width="172" height="36" rx="18" fill="#f0fdf4"/>
+  <text x="546" y="425" text-anchor="middle" font-size="16" fill="#16a34a" font-weight="600">2.4 活動規劃</text>
+
+  <text x="1140" y="606" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

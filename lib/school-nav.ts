@@ -24,6 +24,8 @@ import {
   BugIcon,
   FlaskConicalIcon,
   BrainCircuitIcon,
+  BriefcaseMedicalIcon,
+  ClipboardCheckIcon,
 } from "lucide-react";
 
 export interface SchoolNavItem {
@@ -623,6 +625,39 @@ export const schoolNavSections: SchoolNavSection[] = [
         title: "E、創新及改革（E1.1）",
         icon: SparklesIcon,
         desc: "創新或特色措施具有成效並公開分享，共1條",
+      },
+    ],
+  },
+  {
+    group: "精神復健機構",
+    items: [
+      {
+        href: "/school/psychiatric-rehabilitation-institution",
+        label: "評鑑總覽",
+        title: "精神復健機構評鑑總覽",
+        icon: BriefcaseMedicalIcon,
+        desc: "115年度精神復健機構評鑑基準，含日間型36條與住宿型40條",
+      },
+      {
+        href: "/school/psychiatric-rehabilitation-institution/management",
+        label: "第1章 經營管理",
+        title: "第1章、經營管理（1.1–1.10/1.12）",
+        icon: SettingsIcon,
+        desc: "負責人經營管理、人力穩定性、督導訓練、環境設施，日間型10條/住宿型12條",
+      },
+      {
+        href: "/school/psychiatric-rehabilitation-institution/rehabilitation",
+        label: "第2章 復健服務",
+        title: "第2章、復健服務（2.1–2.14）",
+        icon: HeartHandshakeIcon,
+        desc: "復健評估、社區生活訓練、就業輔導、社區融合，日間型14條/住宿型14條",
+      },
+      {
+        href: "/school/psychiatric-rehabilitation-institution/service-quality",
+        label: "第3章 服務品質",
+        title: "第3章、服務品質（3.1–3.12/3.14）",
+        icon: ClipboardCheckIcon,
+        desc: "工作手冊、收結案標準、權益維護、緊急應變，日間型12條/住宿型14條",
       },
     ],
   },

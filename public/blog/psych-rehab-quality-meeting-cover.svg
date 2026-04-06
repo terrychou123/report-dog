@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
+  <!-- 右側日間型 -->
+  <text x="1010" y="145" font-size="22" fill="#57534e" text-anchor="middle" font-weight="600">日間型</text>
+  <text x="1010" y="198" font-size="96" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">3.10</text>
+  <text x="1010" y="228" font-size="22" fill="#57534e" text-anchor="middle">品質管理會議</text>
+  <line x1="860" y1="250" x2="1160" y2="250" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="1010" y="280" font-size="22" fill="#57534e" text-anchor="middle">+</text>
+  <text x="1010" y="330" font-size="96" fill="#78716c" text-anchor="middle" font-weight="700" opacity="0.75">3.11</text>
+  <text x="1010" y="360" font-size="22" fill="#57534e" text-anchor="middle">滿意度調查</text>
+  <!-- 住宿型說明 -->
+  <rect x="870" y="390" width="280" height="50" rx="8" fill="#78716c" opacity="0.10"/>
+  <text x="1010" y="420" font-size="18" fill="#78716c" text-anchor="middle" font-weight="600">住宿型：3.12 ＋ 3.13</text>
+  <text x="1010" y="475" font-size="18" fill="#57534e" text-anchor="middle">內容相同、條號順移</text>
+  <!-- 左側主要內容 -->
+  <rect x="60" y="60" width="160" height="38" rx="19" fill="#ea580c" opacity="0.12"/>
+  <text x="140" y="85" font-size="18" fill="#ea580c" text-anchor="middle" font-weight="700">服務品質</text>
+  <!-- 主標題 -->
+  <text x="60" y="185" font-size="72" fill="#1e293b" font-weight="700">品質管理會議</text>
+  <text x="60" y="275" font-size="68" fill="#d97706" font-weight="700">滿意度調查</text>
+  <!-- 分隔線 -->
+  <line x1="60" y1="305" x2="760" y2="305" stroke="#dedad3" stroke-width="2"/>
+  <!-- 副標題 -->
+  <text x="60" y="352" font-size="28" fill="#57534e">從會議議題到問卷設計</text>
+  <text x="60" y="392" font-size="26" fill="#57534e">建立服務品質自我改善循環</text>
+  <!-- 標籤 Pills -->
+  <rect x="60" y="440" width="128" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="124" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">品質管理</text>
+  <rect x="202" y="440" width="128" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="266" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">滿意度調查</text>
+  <rect x="344" y="440" width="128" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="408" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">改善循環</text>
+  <rect x="486" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="560" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="610" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
+  <!-- 右側大數字 3.6 + 3.7 -->
+  <text x="1010" y="195" font-size="120" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">3.6</text>
+  <line x1="860" y1="225" x2="1160" y2="225" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="1010" y="340" font-size="120" fill="#78716c" text-anchor="middle" font-weight="700" opacity="0.75">3.7</text>
+  <!-- PFM 標籤 -->
+  <rect x="880" y="380" width="260" height="46" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1010" y="410" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">PFM 訪談項目</text>
+  <text x="1010" y="465" font-size="20" fill="#57534e" text-anchor="middle">日間型 + 住宿型</text>
+  <!-- 左側主要內容 -->
+  <!-- 類別標籤 -->
+  <rect x="60" y="60" width="160" height="38" rx="19" fill="#ea580c" opacity="0.12"/>
+  <text x="140" y="85" font-size="18" fill="#ea580c" text-anchor="middle" font-weight="700">服務品質</text>
+  <!-- 主標題 -->
+  <text x="60" y="185" font-size="76" fill="#1e293b" font-weight="700">學員‧住民</text>
+  <text x="60" y="275" font-size="76" fill="#d97706" font-weight="700">權益維護</text>
+  <!-- 分隔線 -->
+  <line x1="60" y1="304" x2="760" y2="304" stroke="#dedad3" stroke-width="2"/>
+  <!-- 副標題 -->
+  <text x="60" y="350" font-size="28" fill="#57534e">3.6 申訴機制設計與執行</text>
+  <text x="60" y="390" font-size="26" fill="#57534e">住宿型 3.7 財物自主管理合規做法</text>
+  <!-- 標籤 Pills -->
+  <rect x="60" y="440" width="128" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="124" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">申訴機制</text>
+  <rect x="202" y="440" width="128" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="266" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">財物自主</text>
+  <rect x="344" y="440" width="120" height="36" rx="18" fill="#16a34a" opacity="0.12"/>
+  <text x="404" y="463" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">PFM訪談</text>
+  <rect x="478" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="552" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="610" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">重3.11 評鑑委員查核三個層面</text>
+  <text x="400" y="76" font-size="20" fill="#57534e" text-anchor="middle">三層面缺一不可，同時達標才算合規</text>
+  <line x1="129" y1="93" x2="671" y2="93" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- ===== STEP01 物理環境 (cx=214) ===== -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="214" y="211" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="214" y="297" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">物理查核</text>
+  <text x="214" y="324" font-size="18" fill="#57534e" text-anchor="middle">門禁設施</text>
+  <text x="214" y="346" font-size="15" fill="#57534e" text-anchor="middle">大門可否自行開啟</text>
+  <rect x="142" y="381" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">物理環境</text>
+
+  <!-- 箭頭 01→02 -->
+  <line x1="302" y1="279" x2="312" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="312,274 320,279 312,284" fill="#d97706"/>
+
+  <!-- ===== STEP02 管理制度 (cx=400) ===== -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="400" y="211" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="400" y="297" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">制度查核</text>
+  <text x="400" y="324" font-size="18" fill="#57534e" text-anchor="middle">外出規定</text>
+  <text x="400" y="346" font-size="15" fill="#57534e" text-anchor="middle">通知 vs 申請許可</text>
+  <rect x="328" y="381" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">管理制度</text>
+
+  <!-- 箭頭 02→03 -->
+  <line x1="488" y1="279" x2="498" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="498,274 506,279 498,284" fill="#78716c"/>
+
+  <!-- ===== STEP03 PFM訪談 (cx=586) ===== -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="586" y="211" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="586" y="297" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">PFM訪談</text>
+  <text x="586" y="324" font-size="18" fill="#57534e" text-anchor="middle">直接問住民</text>
+  <text x="586" y="346" font-size="15" fill="#57534e" text-anchor="middle">外出經驗驗證</text>
+  <rect x="514" y="381" width="144" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="405" font-size="16" fill="#57534e" text-anchor="middle" font-weight="600">住民訪談</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

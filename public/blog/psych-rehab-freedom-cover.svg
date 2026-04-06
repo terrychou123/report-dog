@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 頂部紅色警示條 -->
+  <rect x="0" y="0" width="1200" height="8" fill="#dc2626" opacity="0.7"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
+  <!-- 右側大數字 3.11 -->
+  <text x="1010" y="220" font-size="140" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">3.11</text>
+  <!-- 重點項目標籤 -->
+  <rect x="870" y="255" width="280" height="56" rx="10" fill="#dc2626" opacity="0.12"/>
+  <text x="1010" y="291" font-size="28" fill="#dc2626" text-anchor="middle" font-weight="700">重點項目</text>
+  <!-- 警告說明 -->
+  <text x="1010" y="360" font-size="22" fill="#57534e" text-anchor="middle">未達 C 等級</text>
+  <text x="1010" y="394" font-size="22" fill="#dc2626" text-anchor="middle" font-weight="600">整場評鑑不合格</text>
+  <text x="1010" y="450" font-size="20" fill="#57534e" text-anchor="middle">PFM 訪談項目</text>
+  <text x="1010" y="480" font-size="20" fill="#57534e" text-anchor="middle">住宿型專有</text>
+  <!-- 左側主要內容 -->
+  <!-- 類別標籤 -->
+  <rect x="60" y="60" width="160" height="38" rx="19" fill="#ea580c" opacity="0.12"/>
+  <text x="140" y="85" font-size="18" fill="#ea580c" text-anchor="middle" font-weight="700">服務品質</text>
+  <!-- 主標題 -->
+  <text x="60" y="185" font-size="80" fill="#1e293b" font-weight="700">維護住民</text>
+  <text x="60" y="280" font-size="80" fill="#d97706" font-weight="700">出入自由</text>
+  <!-- 分隔線 -->
+  <line x1="60" y1="308" x2="760" y2="308" stroke="#dedad3" stroke-width="2"/>
+  <!-- 副標題 -->
+  <text x="60" y="354" font-size="28" fill="#57534e">住宿型機構採開放式管理</text>
+  <text x="60" y="394" font-size="26" fill="#57534e">評鑑委員查核物理環境與管理制度</text>
+  <!-- 標籤 Pills -->
+  <rect x="60" y="440" width="142" height="36" rx="18" fill="#dc2626" opacity="0.12"/>
+  <text x="131" y="463" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="600">住宿型專有</text>
+  <rect x="216" y="440" width="128" height="36" rx="18" fill="#dc2626" opacity="0.12"/>
+  <text x="280" y="463" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="600">重點項目</text>
+  <rect x="358" y="440" width="120" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="418" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">PFM訪談</text>
+  <rect x="492" y="440" width="148" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="566" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">115年度評鑑</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="610" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

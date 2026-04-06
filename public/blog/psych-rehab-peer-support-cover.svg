@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
+  <!-- 右側試評 2.14 -->
+  <text x="1010" y="205" font-size="100" fill="#7c3aed" text-anchor="middle" font-weight="700" opacity="0.85">試2.14</text>
+  <!-- 試評標籤 -->
+  <rect x="870" y="230" width="280" height="46" rx="10" fill="#7c3aed" opacity="0.12"/>
+  <text x="1010" y="261" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">試評條目（不計分）</text>
+  <text x="1010" y="320" font-size="20" fill="#57534e" text-anchor="middle">有罹病經驗的康復者</text>
+  <text x="1010" y="350" font-size="20" fill="#57534e" text-anchor="middle">擔任同儕支持者</text>
+  <!-- CHIME 標籤 -->
+  <rect x="870" y="390" width="280" height="80" rx="12" fill="#d97706" opacity="0.08"/>
+  <text x="1010" y="418" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">CHIME 理念</text>
+  <text x="1010" y="442" font-size="16" fill="#57534e" text-anchor="middle">Hope ‧ Connectedness</text>
+  <text x="1010" y="462" font-size="16" fill="#57534e" text-anchor="middle">Identity ‧ Meaning</text>
+  <!-- 左側主要內容 -->
+  <rect x="60" y="60" width="196" height="38" rx="19" fill="#7c3aed" opacity="0.12"/>
+  <text x="158" y="85" font-size="18" fill="#7c3aed" text-anchor="middle" font-weight="700">復健服務</text>
+  <!-- 主標題 -->
+  <text x="60" y="185" font-size="76" fill="#1e293b" font-weight="700">同儕支持</text>
+  <text x="60" y="275" font-size="64" fill="#7c3aed" font-weight="700">Peer Support</text>
+  <!-- 分隔線 -->
+  <line x1="60" y1="305" x2="760" y2="305" stroke="#dedad3" stroke-width="2"/>
+  <!-- 副標題 -->
+  <text x="60" y="352" font-size="28" fill="#57534e">有罹病經驗的康復者以自身故事</text>
+  <text x="60" y="392" font-size="26" fill="#57534e">陪伴仍在復元路上的服務對象</text>
+  <!-- 標籤 Pills -->
+  <rect x="60" y="440" width="120" height="36" rx="18" fill="#7c3aed" opacity="0.12"/>
+  <text x="120" y="463" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="600">試評2.14</text>
+  <rect x="194" y="440" width="100" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="244" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">CHIME</text>
+  <rect x="308" y="440" width="120" height="36" rx="18" fill="#16a34a" opacity="0.12"/>
+  <text x="368" y="463" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">個人復元</text>
+  <rect x="442" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="516" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="610" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

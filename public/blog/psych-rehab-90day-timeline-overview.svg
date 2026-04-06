@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">評鑑前90天三階段備評總覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">日間型36條／住宿型40條通用時間軸</text>
+  <!-- 分隔線 N=3 範圍：x1=129, x2=671 -->
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 流程圖：card_w=170, gap=16, margin=129 -->
+  <!-- card_y=108, card_bottom=450, arrow_y=279 -->
+
+  <!-- Card 0: 第一階段 D-90~D-60 (x=129, cx=214) -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <!-- 圓形 cy=194 -->
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="211" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <!-- H 標題 -->
+  <text x="214" y="290" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">盤點期</text>
+  <!-- J1 -->
+  <text x="214" y="318" text-anchor="middle" font-size="18" fill="#57534e">D-90 至 D-60</text>
+  <!-- J2 -->
+  <text x="214" y="340" text-anchor="middle" font-size="16" fill="#57534e">全面找出缺口</text>
+  <!-- K Pill -->
+  <rect x="131" y="374" width="166" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="398" text-anchor="middle" font-size="15" fill="#d97706" font-weight="600">啟動會議＋盤點</text>
+
+  <!-- Arrow 0→1 -->
+  <line x1="299" y1="279" x2="311" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="315,279 309,275 309,283" fill="#dedad3"/>
+
+  <!-- Card 1: 第二階段 D-60~D-30 (x=315, cx=400) -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="211" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="290" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">整備期</text>
+  <text x="400" y="318" text-anchor="middle" font-size="18" fill="#57534e">D-60 至 D-30</text>
+  <text x="400" y="340" text-anchor="middle" font-size="16" fill="#57534e">補齊文件缺口</text>
+  <rect x="317" y="374" width="166" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="398" text-anchor="middle" font-size="15" fill="#78716c" font-weight="600">PFM訓練啟動</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="485" y1="279" x2="497" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="501,279 495,275 495,283" fill="#dedad3"/>
+
+  <!-- Card 2: 第三階段 D-30~D-7 (x=501, cx=586) -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="211" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="290" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">演練期</text>
+  <text x="586" y="318" text-anchor="middle" font-size="18" fill="#57534e">D-30 至 D-7</text>
+  <text x="586" y="340" text-anchor="middle" font-size="16" fill="#57534e">全員準備到位</text>
+  <rect x="503" y="374" width="166" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="398" text-anchor="middle" font-size="15" fill="#57534e" font-weight="600">模擬演練驗收</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

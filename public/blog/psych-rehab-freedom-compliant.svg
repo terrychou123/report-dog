@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="40" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">重3.11 合規出入自由管理設計</text>
+  <line x1="28" y1="54" x2="772" y2="54" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 上半部：可以要求 -->
+  <rect x="28" y="64" width="744" height="190" rx="12" fill="white"/>
+  <!-- 綠色頂部色條 -->
+  <rect x="28" y="64" width="744" height="8" rx="4" fill="#16a34a"/>
+  <rect x="28" y="68" width="744" height="4" fill="#16a34a"/>
+  <!-- 標頭 -->
+  <rect x="28" y="64" width="6" height="190" rx="2" fill="#16a34a"/>
+  <text x="64" y="104" font-size="20" fill="#16a34a" font-weight="700">可以要求</text>
+  <text x="64" y="126" font-size="15" fill="#57534e">以下是合規的管理安排，不構成限制出入自由</text>
+
+  <!-- 可以做 1 -->
+  <!-- 勾選符號 -->
+  <circle cx="68" cy="158" r="14" fill="#16a34a" opacity="0.12"/>
+  <path d="M 62,158 L 67,163 L 74,153" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="154" font-size="17" fill="#1e293b" font-weight="700">外出前登記：填寫預計返回時間及緊急聯絡電話</text>
+  <text x="90" y="174" font-size="14" fill="#57534e">登記後即可自行離開，無需等待批准</text>
+
+  <!-- 可以做 2 -->
+  <circle cx="68" cy="218" r="14" fill="#16a34a" opacity="0.12"/>
+  <path d="M 62,218 L 67,223 L 74,213" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="214" font-size="17" fill="#1e293b" font-weight="700">超時未歸關懷：超過預計時間啟動聯繫確認</text>
+  <text x="90" y="234" font-size="14" fill="#57534e">工作人員主動聯繫確認安全，非限制自由</text>
+
+  <!-- 下半部：不可以要求 -->
+  <rect x="28" y="272" width="744" height="200" rx="12" fill="white"/>
+  <!-- 紅色頂部色條 -->
+  <rect x="28" y="272" width="744" height="8" rx="4" fill="#dc2626"/>
+  <rect x="28" y="276" width="744" height="4" fill="#dc2626"/>
+  <!-- 標頭 -->
+  <rect x="28" y="272" width="6" height="200" rx="2" fill="#dc2626"/>
+  <text x="64" y="314" font-size="20" fill="#dc2626" font-weight="700">不可以要求</text>
+  <text x="64" y="336" font-size="15" fill="#57534e">以下做法被評鑑委員認定為限制出入自由</text>
+
+  <!-- 不可以做 1 -->
+  <!-- X 符號 -->
+  <circle cx="68" cy="366" r="14" fill="#dc2626" opacity="0.12"/>
+  <line x1="62" y1="360" x2="74" y2="372" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <line x1="74" y1="360" x2="62" y2="372" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <text x="90" y="362" font-size="17" fill="#1e293b" font-weight="700">外出需申請：填表後等待主管審核批准</text>
+  <text x="90" y="382" font-size="14" fill="#57534e">「申請→審核→批准」流程構成實質限制</text>
+
+  <!-- 不可以做 2 -->
+  <circle cx="68" cy="428" r="14" fill="#dc2626" opacity="0.12"/>
+  <line x1="62" y1="422" x2="74" y2="434" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <line x1="74" y1="422" x2="62" y2="434" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
+  <text x="90" y="424" font-size="17" fill="#1e293b" font-weight="700">夜間全面禁止外出，無任何例外機制</text>
+  <text x="90" y="444" font-size="14" fill="#57534e">夜間需有不限制自由的安全保障機制替代</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

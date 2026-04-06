@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">PFM 項目自評重點：委員直接訪談學員</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">日間型 5 項、住宿型 7 項，無法回答即評為未符合 C 等級</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Row 1 (y=110): 2.8 藥物自我管理 -->
+  <rect x="28" y="110" width="744" height="66" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="110" width="6" height="66" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="143" r="18" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="149" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">2.8</text>
+  <text x="100" y="133" font-size="18" fill="#1e293b" font-weight="700">輔導規則就醫及藥物自我管理</text>
+  <text x="100" y="154" font-size="15" fill="#57534e">委員問：「你知道你在吃什麼藥嗎？」60% 以上學員能說出藥名及作用</text>
+  <text x="100" y="170" font-size="15" fill="#57534e">備審：用藥教育紀錄、服藥自我管理訓練表、個別化評估紀錄</text>
+  <rect x="620" y="118" width="136" height="50" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="140" font-size="15" fill="#d97706" text-anchor="middle">日間＋住宿</text>
+  <text x="688" y="160" font-size="15" fill="#d97706" text-anchor="middle">共有 PFM</text>
+
+  <!-- Row 2 (y=184): 2.12 社區融合 -->
+  <rect x="28" y="184" width="744" height="66" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="184" width="6" height="66" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="217" r="18" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="223" font-size="13" fill="#78716c" text-anchor="middle" font-weight="900">2.12</text>
+  <text x="100" y="207" font-size="18" fill="#1e293b" font-weight="700">社區融合</text>
+  <text x="100" y="228" font-size="15" fill="#57534e">委員問：「上個月有沒有去社區活動？去了哪裡？」</text>
+  <text x="100" y="244" font-size="15" fill="#57534e">備審：每月社區外出紀錄、資源連結清單、活動照片或簽到表</text>
+  <rect x="620" y="192" width="136" height="50" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="214" font-size="15" fill="#78716c" text-anchor="middle">日間＋住宿</text>
+  <text x="688" y="234" font-size="15" fill="#78716c" text-anchor="middle">共有 PFM</text>
+
+  <!-- Row 3 (y=258): 3.6+3.7 權益/財物 -->
+  <rect x="28" y="258" width="744" height="66" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="258" width="6" height="66" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="291" r="18" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="297" font-size="13" fill="#57534e" text-anchor="middle" font-weight="900">3.6</text>
+  <text x="100" y="281" font-size="18" fill="#1e293b" font-weight="700">落實學員／住民權益維護措施</text>
+  <text x="100" y="302" font-size="15" fill="#57534e">委員問：「如果你覺得被不公平對待，你知道怎麼申訴嗎？」</text>
+  <text x="100" y="318" font-size="15" fill="#57534e">備審：權益說明紀錄、申訴流程張貼、學員自治會議紀錄</text>
+  <rect x="620" y="266" width="136" height="50" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="288" font-size="15" fill="#57534e" text-anchor="middle">日間＋住宿</text>
+  <text x="688" y="308" font-size="15" fill="#57534e" text-anchor="middle">共有 PFM</text>
+
+  <!-- Row 4 (y=332): 重3.11 -->
+  <rect x="28" y="332" width="744" height="68" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="28" y="332" width="6" height="68" rx="2" fill="#dc2626"/>
+  <circle cx="66" cy="366" r="18" fill="#dc2626" opacity="0.15"/>
+  <polygon points="66,354 60,374 72,374" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <text x="66" y="371" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">!</text>
+  <text x="100" y="355" font-size="18" fill="#1e293b" font-weight="700">重3.11 維護住民出入自由（住宿型獨有）</text>
+  <text x="100" y="376" font-size="15" fill="#dc2626" font-weight="700">未達 C 級 = 整場評鑑不合格！委員查看門禁並訪談住民</text>
+  <text x="100" y="392" font-size="15" fill="#57534e">住民應可自由出入，機構不得以設施設備限制；需有外出自主機制</text>
+  <rect x="620" y="342" width="136" height="50" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="688" y="364" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型獨有</text>
+  <text x="688" y="384" font-size="14" fill="#dc2626" text-anchor="middle">未達C不合格</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

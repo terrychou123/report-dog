@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="40" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">1.3 評鑑委員雙軌查核</text>
+  <line x1="28" y1="54" x2="772" y2="54" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左側：文件查核 -->
+  <rect x="28" y="64" width="360" height="400" rx="12" fill="white"/>
+  <rect x="28" y="64" width="360" height="8" rx="4" fill="#2563eb"/>
+  <rect x="28" y="68" width="360" height="4" fill="#2563eb"/>
+  <rect x="28" y="64" width="6" height="400" rx="2" fill="#2563eb"/>
+  <text x="208" y="104" font-size="22" fill="#2563eb" text-anchor="middle" font-weight="700">文件查核</text>
+  <text x="208" y="126" font-size="15" fill="#57534e" text-anchor="middle">評鑑委員翻閱紙本或電子文件</text>
+
+  <!-- 文件項目 1 -->
+  <circle cx="58" cy="165" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="171" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">1</text>
+  <text x="82" y="161" font-size="16" fill="#1e293b" font-weight="700">督導計畫書</text>
+  <text x="82" y="179" font-size="14" fill="#57534e">督導頻率、督導者資格、形式</text>
+
+  <!-- 文件項目 2 -->
+  <circle cx="58" cy="224" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="230" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">2</text>
+  <text x="82" y="220" font-size="16" fill="#1e293b" font-weight="700">督導紀錄</text>
+  <text x="82" y="238" font-size="14" fill="#57534e">每次督導：日期、議題、結論、簽名</text>
+
+  <!-- 文件項目 3 -->
+  <circle cx="58" cy="283" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="289" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">3</text>
+  <text x="82" y="279" font-size="16" fill="#1e293b" font-weight="700">年度訓練計畫</text>
+  <text x="82" y="297" font-size="14" fill="#57534e">主題、時程、方式、負責人</text>
+
+  <!-- 文件項目 4 -->
+  <circle cx="58" cy="342" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="348" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">4</text>
+  <text x="82" y="338" font-size="16" fill="#1e293b" font-weight="700">訓練出席紀錄</text>
+  <text x="82" y="356" font-size="14" fill="#57534e">簽到表 ＋ 時數 ＋ 達成率</text>
+
+  <rect x="46" y="395" width="322" height="50" rx="8" fill="#eff6ff"/>
+  <text x="208" y="424" font-size="14" fill="#2563eb" text-anchor="middle">文件完整 ≠ 評分高；文件需反映真實執行</text>
+
+  <!-- 右側：訪談工作人員 -->
+  <rect x="412" y="64" width="360" height="400" rx="12" fill="white"/>
+  <rect x="412" y="64" width="360" height="8" rx="4" fill="#d97706"/>
+  <rect x="412" y="68" width="360" height="4" fill="#d97706"/>
+  <rect x="412" y="64" width="6" height="400" rx="2" fill="#d97706"/>
+  <text x="592" y="104" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">訪談工作人員</text>
+  <text x="592" y="126" font-size="15" fill="#57534e" text-anchor="middle">評鑑委員隨機訪談工作人員</text>
+
+  <!-- 訪談問題 1 -->
+  <circle cx="442" cy="165" r="14" fill="#d97706" opacity="0.12"/>
+  <text x="442" y="171" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">Q1</text>
+  <text x="466" y="161" font-size="16" fill="#1e293b" font-weight="700">你的督導是誰？</text>
+  <text x="466" y="179" font-size="14" fill="#57534e">確認督導安排是真實存在的</text>
+
+  <!-- 訪談問題 2 -->
+  <circle cx="442" cy="224" r="14" fill="#d97706" opacity="0.12"/>
+  <text x="442" y="230" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">Q2</text>
+  <text x="466" y="220" font-size="16" fill="#1e293b" font-weight="700">你們多久督導一次？</text>
+  <text x="466" y="238" font-size="14" fill="#57534e">確認督導頻率與計畫一致</text>
+
+  <!-- 訪談問題 3 -->
+  <circle cx="442" cy="283" r="14" fill="#d97706" opacity="0.12"/>
+  <text x="442" y="289" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">Q3</text>
+  <text x="466" y="279" font-size="16" fill="#1e293b" font-weight="700">最近接受了什麼訓練？</text>
+  <text x="466" y="297" font-size="14" fill="#57534e">確認訓練有真實執行，工作人員記得</text>
+
+  <!-- 新人提示 -->
+  <rect x="430" y="343" width="322" height="100" rx="8" fill="#fff7ed"/>
+  <text x="592" y="370" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">新人注意</text>
+  <text x="592" y="392" font-size="14" fill="#57534e" text-anchor="middle">加入機構就應立刻被納入</text>
+  <text x="592" y="412" font-size="14" fill="#57534e" text-anchor="middle">督導計畫，第一週安排督導</text>
+  <text x="592" y="432" font-size="14" fill="#57534e" text-anchor="middle">留下第一次督導紀錄</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

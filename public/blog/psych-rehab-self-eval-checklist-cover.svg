@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- 大型裝飾數字 76（日間36+住宿40） -->
+  <text x="1010" y="240" text-anchor="middle" font-size="180" fill="#d97706" opacity="0.85" font-weight="900">76</text>
+  <text x="1010" y="296" text-anchor="middle" font-size="30" fill="#57534e">條評鑑指標</text>
+  <text x="1010" y="336" text-anchor="middle" font-size="22" fill="#78716c">日間型 36 條</text>
+  <text x="1010" y="368" text-anchor="middle" font-size="22" fill="#78716c">住宿型 40 條</text>
+  <line x1="880" y1="398" x2="1140" y2="398" stroke="#dedad3" stroke-width="1"/>
+  <text x="1010" y="434" text-anchor="middle" font-size="20" fill="#57534e">含 PFM、重點、可選</text>
+  <text x="1010" y="462" text-anchor="middle" font-size="20" fill="#57534e">試評 全標記版</text>
+
+  <!-- 左側主要內容 -->
+  <!-- 分類標籤 -->
+  <rect x="60" y="56" width="240" height="36" rx="18" fill="#d97706" opacity="0.15"/>
+  <text x="180" y="79" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">115年度 精神復健機構</text>
+
+  <!-- 主標題 -->
+  <text x="60" y="193" font-size="88" fill="#1e293b" font-weight="900">精神復健機構評鑑</text>
+  <text x="60" y="308" font-size="104" fill="#d97706" font-weight="900">自評檢核表</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="332" x2="760" y2="332" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="378" font-size="32" fill="#57534e">日間型 36 條＋住宿型 40 條雙版本逐條對照</text>
+
+  <!-- 功能標籤列 -->
+  <!-- PFM -->
+  <rect x="60" y="416" width="152" height="36" rx="18" fill="#eff6ff"/>
+  <text x="136" y="439" text-anchor="middle" font-size="16" fill="#2563eb" font-weight="600">PFM 訪談項目</text>
+  <!-- 重點 -->
+  <rect x="224" y="416" width="152" height="36" rx="18" fill="#fef2f2"/>
+  <text x="300" y="439" text-anchor="middle" font-size="16" fill="#dc2626" font-weight="600">重點項目標記</text>
+  <!-- 可選 -->
+  <rect x="388" y="416" width="152" height="36" rx="18" fill="#f0fdf4"/>
+  <text x="464" y="439" text-anchor="middle" font-size="16" fill="#16a34a" font-weight="600">可選項目說明</text>
+  <!-- 試評 -->
+  <rect x="552" y="416" width="152" height="36" rx="18" fill="#faf5ff"/>
+  <text x="628" y="439" text-anchor="middle" font-size="16" fill="#9333ea" font-weight="600">試評項目提示</text>
+
+  <!-- 三輪審查標籤 -->
+  <rect x="60" y="468" width="190" height="36" rx="18" fill="#fff7ed"/>
+  <text x="155" y="491" text-anchor="middle" font-size="16" fill="#ea580c" font-weight="600">建議三輪審查流程</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="606" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

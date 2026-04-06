@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">2.8 PFM 評鑑委員查核雙軌機制</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">訪談學員 ＋ 審查文件，兩軌同時進行</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左側：訪談學員 -->
+  <rect x="28" y="108" width="352" height="340" rx="12" fill="white" stroke="#d97706" stroke-width="2"/>
+  <rect x="28" y="108" width="352" height="40" rx="12" fill="#d97706"/>
+  <rect x="28" y="128" width="352" height="20" fill="#d97706"/>
+  <text x="204" y="134" text-anchor="middle" font-size="19" fill="white" font-weight="700">訪談學員（PFM 直問）</text>
+
+  <text x="48" y="172" font-size="16" fill="#d97706" font-weight="700">委員提問方向：</text>
+
+  <rect x="48" y="182" width="312" height="40" rx="8" fill="#fef3c7"/>
+  <text x="68" y="205" font-size="15" fill="#d97706">「你現在有吃什麼藥嗎？」</text>
+
+  <rect x="48" y="230" width="312" height="40" rx="8" fill="#fef3c7"/>
+  <text x="68" y="253" font-size="15" fill="#d97706">「你知道這個藥是做什麼的嗎？」</text>
+
+  <rect x="48" y="278" width="312" height="40" rx="8" fill="#fef3c7"/>
+  <text x="68" y="301" font-size="15" fill="#d97706">「你是自己吃，還是有人幫你？」</text>
+
+  <rect x="48" y="326" width="312" height="40" rx="8" fill="#fef3c7"/>
+  <text x="68" y="349" font-size="15" fill="#d97706">「如果感覺不對，你會怎麼辦？」</text>
+
+  <rect x="48" y="384" width="312" height="48" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="204" y="404" text-anchor="middle" font-size="15" fill="#d97706" font-weight="700">目標：60%以上能流暢回答</text>
+  <text x="204" y="424" text-anchor="middle" font-size="14" fill="#d97706">用自己的話就好，不需專業術語</text>
+
+  <!-- 右側：審查文件 -->
+  <rect x="420" y="108" width="352" height="340" rx="12" fill="white" stroke="#78716c" stroke-width="2"/>
+  <rect x="420" y="108" width="352" height="40" rx="12" fill="#78716c"/>
+  <rect x="420" y="128" width="352" height="20" fill="#78716c"/>
+  <text x="596" y="134" text-anchor="middle" font-size="19" fill="white" font-weight="700">審查文件（機構備審）</text>
+
+  <text x="440" y="172" font-size="16" fill="#78716c" font-weight="700">委員查核文件：</text>
+
+  <rect x="440" y="182" width="312" height="52" rx="8" fill="#f5f5f4"/>
+  <text x="460" y="202" font-size="15" fill="#1e293b" font-weight="700">用藥教育紀錄</text>
+  <text x="460" y="222" font-size="14" fill="#57534e">日期、內容、學員回饋（每次有記錄）</text>
+
+  <rect x="440" y="242" width="312" height="52" rx="8" fill="#f5f5f4"/>
+  <text x="460" y="262" font-size="15" fill="#1e293b" font-weight="700">服藥自我管理能力評估表</text>
+  <text x="460" y="282" font-size="14" fill="#57534e">每人能力分級（完全自管/協助/依賴）</text>
+
+  <rect x="440" y="302" width="312" height="52" rx="8" fill="#f5f5f4"/>
+  <text x="460" y="322" font-size="15" fill="#1e293b" font-weight="700">就醫輔導紀錄</text>
+  <text x="460" y="342" font-size="14" fill="#57534e">陪同就醫紀錄、電話提醒、回診追蹤</text>
+
+  <rect x="440" y="384" width="312" height="48" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="596" y="404" text-anchor="middle" font-size="15" fill="#78716c" font-weight="700">計算比例：能自管人數 / 在案總數</text>
+  <text x="596" y="424" text-anchor="middle" font-size="14" fill="#78716c">須備有每人能力評估紀錄供計算</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -10,8 +10,27 @@ import { youthCareProfile } from "./youth-care";
 import { elderlyWelfareProfile } from "./elderly-welfare";
 import { psychiatricNursingHomeProfile } from "./psychiatric-nursing-home";
 import { infantDaycareProfile } from "./infant-daycare";
+import {
+  psychiatricRehabilitationDayProfile,
+  psychiatricRehabilitationResidentialProfile,
+} from "./psychiatric-rehabilitation-institution";
 
-const profiles = [daycareProfile, homeCareProfile, nursingHomeProfile, hospitalProfile, disabilityWelfareProfile, babycareProfile, homeNursingProfile, generalNursingHomeProfile, youthCareProfile, elderlyWelfareProfile, psychiatricNursingHomeProfile, infantDaycareProfile];
+const profiles = [
+  daycareProfile,
+  homeCareProfile,
+  nursingHomeProfile,
+  hospitalProfile,
+  disabilityWelfareProfile,
+  babycareProfile,
+  homeNursingProfile,
+  generalNursingHomeProfile,
+  youthCareProfile,
+  elderlyWelfareProfile,
+  psychiatricNursingHomeProfile,
+  infantDaycareProfile,
+  psychiatricRehabilitationDayProfile,
+  psychiatricRehabilitationResidentialProfile,
+];
 const profileMap = new Map(profiles.map((p) => [p.id, p]));
 const allProfilesMeta = profiles.map(({ id, label, description, sections }) => ({
   id, label, description, ready: sections.length > 0,

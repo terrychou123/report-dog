@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="40" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">3.6 評鑑委員雙軌查核</text>
+  <line x1="28" y1="54" x2="772" y2="54" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左側：PFM訪談服務對象 -->
+  <rect x="28" y="64" width="360" height="400" rx="12" fill="white"/>
+  <rect x="28" y="64" width="360" height="8" rx="4" fill="#2563eb"/>
+  <rect x="28" y="68" width="360" height="4" fill="#2563eb"/>
+  <rect x="28" y="64" width="6" height="400" rx="2" fill="#2563eb"/>
+  <text x="208" y="104" font-size="22" fill="#2563eb" text-anchor="middle" font-weight="700">PFM 訪談服務對象</text>
+  <text x="208" y="126" font-size="15" fill="#57534e" text-anchor="middle">評鑑委員直接提問</text>
+
+  <!-- 訪談問題 1 -->
+  <circle cx="58" cy="166" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="172" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="700">Q1</text>
+  <text x="82" y="162" font-size="16" fill="#1e293b" font-weight="700">申訴管道是什麼？</text>
+  <text x="82" y="180" font-size="14" fill="#57534e">能否說出至少一種反映管道</text>
+
+  <!-- 訪談問題 2 -->
+  <circle cx="58" cy="230" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="236" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="700">Q2</text>
+  <text x="82" y="226" font-size="16" fill="#1e293b" font-weight="700">覺得不公平怎麼辦？</text>
+  <text x="82" y="244" font-size="14" fill="#57534e">能否描述申訴或反映意見的步驟</text>
+
+  <!-- 訪談問題 3 -->
+  <circle cx="58" cy="294" r="14" fill="#2563eb" opacity="0.12"/>
+  <text x="58" y="300" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="700">Q3</text>
+  <text x="82" y="290" font-size="16" fill="#1e293b" font-weight="700">你在這裡有哪些權利？</text>
+  <text x="82" y="308" font-size="14" fill="#57534e">對自身權益的基本認識</text>
+
+  <!-- 達標說明 -->
+  <rect x="46" y="360" width="322" height="76" rx="8" fill="#eff6ff"/>
+  <text x="208" y="388" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">達標：能說出至少一種申訴管道</text>
+  <text x="208" y="410" font-size="13" fill="#57534e" text-anchor="middle">如：向工作人員反映、申訴箱、衛生局電話</text>
+
+  <!-- 右側：文件查核 -->
+  <rect x="412" y="64" width="360" height="400" rx="12" fill="white"/>
+  <rect x="412" y="64" width="360" height="8" rx="4" fill="#d97706"/>
+  <rect x="412" y="68" width="360" height="4" fill="#d97706"/>
+  <rect x="412" y="64" width="6" height="400" rx="2" fill="#d97706"/>
+  <text x="592" y="104" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">文件查核</text>
+  <text x="592" y="126" font-size="15" fill="#57534e" text-anchor="middle">評鑑委員審查書面資料</text>
+
+  <!-- 文件查核 1 -->
+  <circle cx="442" cy="166" r="14" fill="#d97706" opacity="0.12"/>
+  <text x="442" y="172" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">D1</text>
+  <text x="466" y="162" font-size="16" fill="#1e293b" font-weight="700">服務說明書</text>
+  <text x="466" y="180" font-size="14" fill="#57534e">入案時提供，含簽收紀錄</text>
+
+  <!-- 文件查核 2 -->
+  <circle cx="442" cy="230" r="14" fill="#d97706" opacity="0.12"/>
+  <text x="442" y="236" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">D2</text>
+  <text x="466" y="226" font-size="16" fill="#1e293b" font-weight="700">申訴機制書面化</text>
+  <text x="466" y="244" font-size="14" fill="#57534e">三管道：機構內部、外部衛生局、申訴箱</text>
+
+  <!-- 文件查核 3 -->
+  <circle cx="442" cy="294" r="14" fill="#d97706" opacity="0.12"/>
+  <text x="442" y="300" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">D3</text>
+  <text x="466" y="290" font-size="16" fill="#1e293b" font-weight="700">申訴紀錄簿</text>
+  <text x="466" y="308" font-size="14" fill="#57534e">零申訴也需記錄「本月無申訴」</text>
+
+  <!-- 達標說明 -->
+  <rect x="430" y="360" width="322" height="76" rx="8" fill="#fff7ed"/>
+  <text x="592" y="388" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">重點：申訴機制存在≠服務對象知道</text>
+  <text x="592" y="410" font-size="13" fill="#57534e" text-anchor="middle">兩者必須同時確認，才能通過 PFM 查核</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 169 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 189 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -203,6 +203,27 @@ const POST_FILES = [
   "article-167-psychiatric-nursing-home-resident-rights.json",
   "article-168-psychiatric-nursing-home-business-plan.json",
   "article-169-psychiatric-nursing-home-innovation.json",
+  // 精神復健機構系列（20 篇）
+  "article-170-psych-rehab-evaluation-guide.json",
+  "article-171-psych-rehab-top10-deficiencies.json",
+  "article-172-psych-rehab-day-vs-residential.json",
+  "article-173-psych-rehab-self-eval-checklist.json",
+  "article-174-psych-rehab-90day-timeline.json",
+  "article-175-psych-rehab-personal-recovery-chime.json",
+  "article-176-psych-rehab-rehab-plan-writing.json",
+  "article-177-psych-rehab-community-rehab.json",
+  "article-178-psych-rehab-medication-self-mgmt.json",
+  "article-179-psych-rehab-work-rehab.json",
+  "article-180-psych-rehab-freedom-of-movement.json",
+  "article-181-psych-rehab-rights-protection.json",
+  "article-182-psych-rehab-pfm-interview-prep.json",
+  "article-183-psych-rehab-emergency-infection.json",
+  "article-184-psych-rehab-record-management.json",
+  "article-185-psych-rehab-new-staff-guide.json",
+  "article-186-psych-rehab-community-integration.json",
+  "article-187-psych-rehab-peer-support.json",
+  "article-188-psych-rehab-quality-meeting.json",
+  "article-189-psych-rehab-innovation-bonus.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布

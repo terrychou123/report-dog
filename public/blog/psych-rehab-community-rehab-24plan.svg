@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">2.4 活動規劃 PDCA 循環</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">「妥善規劃並定期修正」——四個缺一不可的環節</text>
+  <!-- 分隔線 N=4 範圍：x1=28, x2=772 -->
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=4 流程圖：card_w=174, gap=16, x[i]=28+i×190 -->
+  <!-- card_y=108, card_bottom=450, arrow_y=279 -->
+
+  <!-- Card 0: Plan 規劃 (x=28, cx=115) -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">PLAN</text>
+  <text x="115" y="211" text-anchor="middle" font-size="26" fill="#d97706" font-weight="700">規劃</text>
+  <text x="115" y="296" text-anchor="middle" font-size="24" fill="#1e293b" font-weight="700">月度計畫</text>
+  <text x="115" y="322" text-anchor="middle" font-size="17" fill="#57534e">事前規劃</text>
+  <text x="115" y="344" text-anchor="middle" font-size="17" fill="#57534e">分工資源</text>
+  <rect x="30" y="378" width="170" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="402" text-anchor="middle" font-size="15" fill="#d97706" font-weight="600">月度計畫書</text>
+
+  <!-- Arrow 0→1 -->
+  <line x1="202" y1="279" x2="214" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="218,279 212,275 212,283" fill="#dedad3"/>
+
+  <!-- Card 1: Do 執行 (x=218, cx=305) -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">DO</text>
+  <text x="305" y="211" text-anchor="middle" font-size="26" fill="#78716c" font-weight="700">執行</text>
+  <text x="305" y="296" text-anchor="middle" font-size="24" fill="#1e293b" font-weight="700">活動執行</text>
+  <text x="305" y="322" text-anchor="middle" font-size="17" fill="#57534e">依計畫進行</text>
+  <text x="305" y="344" text-anchor="middle" font-size="17" fill="#57534e">記錄參與</text>
+  <rect x="220" y="378" width="170" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="402" text-anchor="middle" font-size="15" fill="#78716c" font-weight="600">出席／參與紀錄</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="392" y1="279" x2="404" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="408,279 402,275 402,283" fill="#dedad3"/>
+
+  <!-- Card 2: Check 查核 (x=408, cx=495) -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">CHECK</text>
+  <text x="495" y="211" text-anchor="middle" font-size="26" fill="#57534e" font-weight="700">查核</text>
+  <text x="495" y="296" text-anchor="middle" font-size="24" fill="#1e293b" font-weight="700">月底檢討</text>
+  <text x="495" y="322" text-anchor="middle" font-size="17" fill="#57534e">服務對象</text>
+  <text x="495" y="344" text-anchor="middle" font-size="17" fill="#57534e">回饋收集</text>
+  <rect x="410" y="378" width="170" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="402" text-anchor="middle" font-size="15" fill="#57534e" font-weight="600">滿意度回饋表</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="582" y1="279" x2="594" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="598,279 592,275 592,283" fill="#dedad3"/>
+
+  <!-- Card 3: Act 修正 (x=598, cx=685) -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="183" text-anchor="middle" font-size="17" fill="#a8a29e" font-weight="700">ACT</text>
+  <text x="685" y="211" text-anchor="middle" font-size="26" fill="#a8a29e" font-weight="700">修正</text>
+  <text x="685" y="296" text-anchor="middle" font-size="24" fill="#1e293b" font-weight="700">計畫調整</text>
+  <text x="685" y="322" text-anchor="middle" font-size="17" fill="#57534e">依回饋修正</text>
+  <text x="685" y="344" text-anchor="middle" font-size="17" fill="#57534e">下月計畫書</text>
+  <rect x="600" y="378" width="170" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="402" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">修正說明列於計畫</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

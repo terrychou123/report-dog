@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">評鑑前 60 天 PFM 準備時間軸</text>
+  <text x="400" y="76" font-size="20" fill="#57534e" text-anchor="middle">從能力評估到最終確認的系統性準備</text>
+  <line x1="28" y1="93" x2="772" y2="93" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=4 flow chart, card_w=174, gap=16 -->
+  <!-- Cards: x=28(cx=115), x=218(cx=305), x=408(cx=495), x=598(cx=685) -->
+
+  <!-- ===== STEP01 D-60 能力評估 (cx=115) ===== -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="183" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="115" y="212" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="115" y="298" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">能力評估</text>
+  <text x="115" y="322" font-size="17" fill="#57534e" text-anchor="middle">非正式演練</text>
+  <text x="115" y="342" font-size="14" fill="#57534e" text-anchor="middle">建立個別清單</text>
+  <rect x="41" y="382" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="406" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">D-60</text>
+
+  <!-- 箭頭 01→02 -->
+  <line x1="205" y1="279" x2="215" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="215,274 223,279 215,284" fill="#d97706"/>
+
+  <!-- ===== STEP02 D-45 個別加強 (cx=305) ===== -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="305" y="212" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="305" y="298" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">個別加強</text>
+  <text x="305" y="322" font-size="17" fill="#57534e" text-anchor="middle">針對困難者</text>
+  <text x="305" y="342" font-size="14" fill="#57534e" text-anchor="middle">個別化訓練</text>
+  <rect x="231" y="382" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="406" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">D-45</text>
+
+  <!-- 箭頭 02→03 -->
+  <line x1="395" y1="279" x2="405" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="405,274 413,279 405,284" fill="#78716c"/>
+
+  <!-- ===== STEP03 D-30 全員演練 (cx=495) ===== -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="183" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="495" y="212" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="495" y="298" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">全員演練</text>
+  <text x="495" y="322" font-size="17" fill="#57534e" text-anchor="middle">第二輪模擬</text>
+  <text x="495" y="342" font-size="14" fill="#57534e" text-anchor="middle">習慣陌生訪談</text>
+  <rect x="421" y="382" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="406" font-size="16" fill="#57534e" text-anchor="middle" font-weight="600">D-30</text>
+
+  <!-- 箭頭 03→04 -->
+  <line x1="585" y1="279" x2="595" y2="279" stroke="#57534e" stroke-width="2"/>
+  <polygon points="595,274 603,279 595,284" fill="#57534e"/>
+
+  <!-- ===== STEP04 D-14 最終確認 (cx=685) ===== -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="183" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="685" y="212" font-size="28" fill="#a8a29e" text-anchor="middle" font-weight="700">04</text>
+  <text x="685" y="298" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">最終確認</text>
+  <text x="685" y="322" font-size="17" fill="#57534e" text-anchor="middle">抽查 3-5 人</text>
+  <text x="685" y="342" font-size="14" fill="#57534e" text-anchor="middle">文件完整確認</text>
+  <rect x="611" y="382" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="406" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="600">D-14</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

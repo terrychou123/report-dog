@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">第一章 經營管理 差異對照</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">日間型10條34分 vs 住宿型12條33分</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左側：日間型 -->
+  <rect x="40" y="108" width="346" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="108" width="346" height="40" rx="12" fill="#0284c7"/>
+  <rect x="40" y="128" width="346" height="20" fill="#0284c7"/>
+  <text x="213" y="134" text-anchor="middle" font-size="20" fill="white" font-weight="700">日間型（10條 / 34分）</text>
+  <text x="60" y="170" font-size="17" fill="#1e293b" font-weight="700">1.4 工作人員健康檢查（3分）</text>
+  <text x="60" y="190" font-size="15" fill="#57534e">全體工作人員每年健康檢查</text>
+  <line x1="60" y1="202" x2="366" y2="202" stroke="#f0efe8" stroke-width="1"/>
+  <text x="60" y="222" font-size="17" fill="#1e293b" font-weight="700">1.7 復健治療空間及設施（4分）</text>
+  <text x="60" y="242" font-size="15" fill="#57534e">配合學員復健規劃，提供適當空間</text>
+  <line x1="60" y1="254" x2="366" y2="254" stroke="#f0efe8" stroke-width="1"/>
+  <text x="60" y="274" font-size="17" fill="#1e293b" font-weight="700">1.8 健身及康樂設施（2分）</text>
+  <text x="60" y="294" font-size="15" fill="#57534e">設施符合學員需求，有常態性活動</text>
+  <line x1="60" y1="306" x2="366" y2="306" stroke="#f0efe8" stroke-width="1"/>
+  <text x="60" y="326" font-size="17" fill="#1e293b" font-weight="700">可選1.9 前次評鑑建議改善（3分）</text>
+  <text x="60" y="346" font-size="15" fill="#57534e">有前次評鑑建議者需提出改善成效</text>
+  <rect x="60" y="370" width="306" height="50" rx="8" fill="#eff6ff"/>
+  <text x="213" y="395" text-anchor="middle" font-size="15" fill="#0284c7">日間型無24小時人力要求</text>
+  <text x="213" y="412" text-anchor="middle" font-size="15" fill="#0284c7">無廚房空間要求</text>
+
+  <!-- 右側：住宿型 -->
+  <rect x="414" y="108" width="346" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="108" width="346" height="40" rx="12" fill="#7c3aed"/>
+  <rect x="414" y="128" width="346" height="20" fill="#7c3aed"/>
+  <text x="587" y="134" text-anchor="middle" font-size="20" fill="white" font-weight="700">住宿型（12條 / 33分）</text>
+  <text x="434" y="165" font-size="17" fill="#1e293b" font-weight="700">1.4 日夜間人力配置（2分）</text>
+  <text x="434" y="183" font-size="14" fill="#dc2626">24小時均需負責人/專任管理人員/專業人員在場</text>
+  <line x1="434" y1="195" x2="740" y2="195" stroke="#f0efe8" stroke-width="1"/>
+  <text x="434" y="215" font-size="17" fill="#1e293b" font-weight="700">1.5 工作人員健康檢查（2分）</text>
+  <text x="434" y="233" font-size="14" fill="#57534e">同日間型1.4，但配分較低</text>
+  <line x1="434" y1="245" x2="740" y2="245" stroke="#f0efe8" stroke-width="1"/>
+  <text x="434" y="265" font-size="17" fill="#1e293b" font-weight="700">1.8 日常活動空間（3分）</text>
+  <text x="434" y="283" font-size="14" fill="#57534e">安全衛生且「家庭化」，無學員/工作人員隔離</text>
+  <line x1="434" y1="295" x2="740" y2="295" stroke="#f0efe8" stroke-width="1"/>
+  <text x="434" y="315" font-size="17" fill="#1e293b" font-weight="700">1.10 廚房空間及設施（2分）</text>
+  <text x="434" y="333" font-size="14" fill="#57534e">住宿型獨有，符合安全衛生標準</text>
+  <line x1="434" y1="345" x2="740" y2="345" stroke="#f0efe8" stroke-width="1"/>
+  <text x="434" y="365" font-size="17" fill="#1e293b" font-weight="700">可選1.11 前次評鑑建議改善（3分）</text>
+  <text x="434" y="383" font-size="14" fill="#57534e">同日間型1.9</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

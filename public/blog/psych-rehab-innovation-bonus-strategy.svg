@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 主標題（7字→37px），副標題 -->
+  <text x="400" y="48" font-size="37" fill="#1e293b" text-anchor="middle" font-weight="700">評鑑加分三大策略方向</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+  <text x="400" y="78" font-size="22" fill="#57534e" text-anchor="middle">從C等躍升B等的關鍵差距</text>
+
+  <!-- N=3 流程圖：card_w=170, margin=129, arrow_y=279 -->
+
+  <!-- STEP01：復元導向（amber #d97706），cx=214 -->
+  <rect x="129" y="108" width="170" height="342" rx="14" fill="white"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="214" y="211" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="214" y="297" font-size="35" fill="#1e293b" text-anchor="middle" font-weight="700">復元導向</text>
+  <text x="214" y="324" font-size="20" fill="#57534e" text-anchor="middle">文件與服務均</text>
+  <text x="214" y="346" font-size="20" fill="#57534e" text-anchor="middle">體現CHIME理念</text>
+  <rect x="142" y="381" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="404" font-size="17" fill="#d97706" text-anchor="middle" font-weight="600">理念落實</text>
+
+  <!-- 箭頭 01→02 -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="315,273 327,279 315,285" fill="#dedad3"/>
+
+  <!-- STEP02：去機構化（stone-500 #78716c），cx=400 -->
+  <rect x="315" y="108" width="170" height="342" rx="14" fill="white"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" font-size="17" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="400" y="211" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="400" y="297" font-size="35" fill="#1e293b" text-anchor="middle" font-weight="700">去機構化</text>
+  <text x="400" y="324" font-size="20" fill="#57534e" text-anchor="middle">鼓勵自主生活</text>
+  <text x="400" y="346" font-size="20" fill="#57534e" text-anchor="middle">外出與個別選擇</text>
+  <rect x="328" y="381" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="404" font-size="17" fill="#78716c" text-anchor="middle" font-weight="600">自主賦能</text>
+
+  <!-- 箭頭 02→03 -->
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="501,273 513,279 501,285" fill="#dedad3"/>
+
+  <!-- STEP03：前次改善（stone-600 #57534e），cx=586 -->
+  <rect x="501" y="108" width="170" height="342" rx="14" fill="white"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#9333ea"/>
+  <rect x="501" y="112" width="170" height="4" fill="#9333ea"/>
+  <circle cx="586" cy="194" r="43" fill="#faf5ff"/>
+  <text x="586" y="183" font-size="17" fill="#9333ea" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="586" y="211" font-size="28" fill="#9333ea" text-anchor="middle" font-weight="700">03</text>
+  <text x="586" y="297" font-size="35" fill="#1e293b" text-anchor="middle" font-weight="700">前次改善</text>
+  <text x="586" y="324" font-size="20" fill="#57534e" text-anchor="middle">展示具體</text>
+  <text x="586" y="346" font-size="20" fill="#57534e" text-anchor="middle">改善成效數據</text>
+  <rect x="514" y="381" width="144" height="36" rx="18" fill="#faf5ff"/>
+  <text x="586" y="404" font-size="17" fill="#9333ea" text-anchor="middle" font-weight="600">持續進步</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

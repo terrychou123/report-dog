@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">工作復健服務分流路徑</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">依就業準備度分三類，評鑑委員看的是差異化服務，而非一刀切</text>
+  <!-- 分隔線 N=3 範圍 -->
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 流程圖：card_w=170, gap=16, margin=129 -->
+
+  <!-- Card 0: 工作性活動 (x=129, cx=214) -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">第一類</text>
+  <text x="214" y="211" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">準備期</text>
+  <text x="214" y="290" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">工作性活動</text>
+  <text x="214" y="316" text-anchor="middle" font-size="16" fill="#57534e">建立工作習慣</text>
+  <text x="214" y="338" text-anchor="middle" font-size="16" fill="#57534e">基本技能訓練</text>
+  <rect x="131" y="372" width="166" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="396" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">機構內有目的活動</text>
+
+  <!-- Arrow 0→1 -->
+  <line x1="299" y1="279" x2="311" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="315,279 309,275 309,283" fill="#dedad3"/>
+
+  <!-- Card 1: 職前準備/庇護 (x=315, cx=400) -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">第二類</text>
+  <text x="400" y="211" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">銜接期</text>
+  <text x="400" y="290" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">職前準備</text>
+  <text x="400" y="316" text-anchor="middle" font-size="16" fill="#57534e">履歷面試技巧</text>
+  <text x="400" y="338" text-anchor="middle" font-size="16" fill="#57534e">庇護就業轉介</text>
+  <rect x="317" y="372" width="166" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="396" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">外部轉介紀錄</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="485" y1="279" x2="497" y2="279" stroke="#dedad3" stroke-width="2"/>
+  <polygon points="501,279 495,275 495,283" fill="#dedad3"/>
+
+  <!-- Card 2: 支持就業/競爭就業 (x=501, cx=586) -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">第三類</text>
+  <text x="586" y="211" text-anchor="middle" font-size="24" fill="#57534e" font-weight="700">就業期</text>
+  <text x="586" y="290" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">支持就業</text>
+  <text x="586" y="316" text-anchor="middle" font-size="16" fill="#57534e">競爭性職場</text>
+  <text x="586" y="338" text-anchor="middle" font-size="16" fill="#57534e">後續追蹤支持</text>
+  <rect x="503" y="372" width="166" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="396" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">就業後追蹤紀錄</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

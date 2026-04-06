@@ -27,6 +27,10 @@ import { youthCareProfile } from '../lib/ai/evaluation-profiles/youth-care';
 import { elderlyWelfareProfile } from '../lib/ai/evaluation-profiles/elderly-welfare';
 import { psychiatricNursingHomeProfile } from '../lib/ai/evaluation-profiles/psychiatric-nursing-home';
 import { infantDaycareProfile } from '../lib/ai/evaluation-profiles/infant-daycare';
+import {
+  psychiatricRehabilitationDayProfile,
+  psychiatricRehabilitationResidentialProfile,
+} from '../lib/ai/evaluation-profiles/psychiatric-rehabilitation-institution';
 
 const profiles = [
   daycareProfile,
@@ -41,6 +45,8 @@ const profiles = [
   elderlyWelfareProfile,
   psychiatricNursingHomeProfile,
   infantDaycareProfile,
+  psychiatricRehabilitationDayProfile,
+  psychiatricRehabilitationResidentialProfile,
 ];
 
 type ProfileItem = {
