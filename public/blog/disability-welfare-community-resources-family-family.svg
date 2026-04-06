@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-size="34" fill="#1e293b" font-weight="700" text-anchor="middle">4402 家庭服務三步驟循環</text>
+  <text x="400" y="78" font-size="20" fill="#57534e" text-anchor="middle">定期聯繫、返家探親、家庭功能評估 — 社工師主責</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3: cx=214/400/586 -->
+
+  <!-- Card 1: 定期聯繫 (amber) x=129 cx=214 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="214" y="211" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="214" y="297" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">定期聯繫</text>
+  <text x="214" y="324" font-size="16" fill="#57534e" text-anchor="middle">每月聯繫家屬</text>
+  <text x="214" y="346" font-size="16" fill="#57534e" text-anchor="middle">說明個案近況</text>
+  <rect x="142" y="381" width="144" height="36" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="214" y="405" font-size="18" fill="#d97706" text-anchor="middle" font-weight="600">聯繫紀錄</text>
+
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="315,274 325,279 315,284" fill="#d97706"/>
+
+  <!-- Card 2: 返家探親 (stone-500) x=315 cx=400 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="400" y="211" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="400" y="297" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">返家探親</text>
+  <text x="400" y="324" font-size="16" fill="#57534e" text-anchor="middle">協助規劃定期</text>
+  <text x="400" y="346" font-size="16" fill="#57534e" text-anchor="middle">返家或家屬訪視</text>
+  <rect x="328" y="381" width="144" height="36" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="400" y="405" font-size="18" fill="#78716c" text-anchor="middle" font-weight="600">探親紀錄</text>
+
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="501,274 511,279 501,284" fill="#78716c"/>
+
+  <!-- Card 3: 家庭評估 (stone-600) x=501 cx=586 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="586" y="211" font-size="26" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="586" y="297" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">家庭評估</text>
+  <text x="586" y="324" font-size="16" fill="#57534e" text-anchor="middle">評估家庭功能</text>
+  <text x="586" y="346" font-size="16" fill="#57534e" text-anchor="middle">提供支持服務</text>
+  <rect x="514" y="381" width="144" height="36" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="586" y="405" font-size="18" fill="#57534e" text-anchor="middle" font-weight="600">家庭服務</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

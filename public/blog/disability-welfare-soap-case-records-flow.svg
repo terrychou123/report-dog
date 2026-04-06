@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 主標題 -->
+  <text x="400" y="48" font-size="34" fill="#1e293b" font-weight="700" text-anchor="middle">SOAP 個案紀錄四段格式</text>
+  <text x="400" y="78" font-size="20" fill="#57534e" text-anchor="middle">身心障礙機構評鑑 4103 — 每 2 週一次執行紀錄</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- Card 1: S主觀 (amber) x=28 cx=115 -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="183" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="115" y="212" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="115" y="298" font-size="36" fill="#1e293b" text-anchor="middle" font-weight="700">S 主觀</text>
+  <text x="115" y="326" font-size="16" fill="#57534e" text-anchor="middle">服務對象自述</text>
+  <text x="115" y="348" font-size="16" fill="#57534e" text-anchor="middle">感受與意願</text>
+  <rect x="41" y="382" width="148" height="36" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="115" y="406" font-size="18" fill="#d97706" text-anchor="middle" font-weight="600">主觀陳述</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="218,274 228,279 218,284" fill="#d97706"/>
+
+  <!-- Card 2: O客觀 (stone-500) x=218 cx=305 -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="305" y="212" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="305" y="298" font-size="36" fill="#1e293b" text-anchor="middle" font-weight="700">O 客觀</text>
+  <text x="305" y="326" font-size="16" fill="#57534e" text-anchor="middle">工作人員觀察</text>
+  <text x="305" y="348" font-size="16" fill="#57534e" text-anchor="middle">具體事實紀錄</text>
+  <rect x="231" y="382" width="148" height="36" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="305" y="406" font-size="18" fill="#78716c" text-anchor="middle" font-weight="600">客觀紀錄</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="408,274 418,279 408,284" fill="#78716c"/>
+
+  <!-- Card 3: A評估 (stone-600) x=408 cx=495 -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="183" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="495" y="212" font-size="26" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="495" y="298" font-size="36" fill="#1e293b" text-anchor="middle" font-weight="700">A 評估</text>
+  <text x="495" y="326" font-size="16" fill="#57534e" text-anchor="middle">專業判斷分析</text>
+  <text x="495" y="348" font-size="16" fill="#57534e" text-anchor="middle">進展說明解讀</text>
+  <rect x="421" y="382" width="148" height="36" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="495" y="406" font-size="18" fill="#57534e" text-anchor="middle" font-weight="600">評估分析</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#57534e" stroke-width="2"/>
+  <polygon points="598,274 608,279 598,284" fill="#57534e"/>
+
+  <!-- Card 4: P計畫 (stone-400) x=598 cx=685 -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="183" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="685" y="212" font-size="26" fill="#a8a29e" text-anchor="middle" font-weight="700">04</text>
+  <text x="685" y="298" font-size="36" fill="#1e293b" text-anchor="middle" font-weight="700">P 計畫</text>
+  <text x="685" y="326" font-size="16" fill="#57534e" text-anchor="middle">後續服務行動</text>
+  <text x="685" y="348" font-size="16" fill="#57534e" text-anchor="middle">目標與策略調整</text>
+  <rect x="611" y="382" width="148" height="36" rx="10" fill="#a8a29e" opacity="0.12"/>
+  <text x="685" y="406" font-size="18" fill="#a8a29e" text-anchor="middle" font-weight="600">服務計畫</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

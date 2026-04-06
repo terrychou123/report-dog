@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-size="32" fill="#1e293b" font-weight="700" text-anchor="middle">無障礙路徑五項新增指標</text>
+  <text x="400" y="78" font-size="20" fill="#57534e" text-anchor="middle">3115–3119 不計分指標 — 需留存現況記錄與改善計畫</text>
+  <line x1="28" y1="94" x2="776" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=5: card_w=140, cx=98/250/402/554/706 -->
+
+  <!-- Card 1: 室外通路 x=28 cx=98 -->
+  <rect x="28" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="140" height="4" fill="#d97706"/>
+  <circle cx="98" cy="189" r="35" fill="#fef3c7"/>
+  <text x="98" y="180" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="98" y="203" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="98" y="288" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">室外通路</text>
+  <text x="98" y="316" font-size="16" fill="#57534e" text-anchor="middle">路面平整</text>
+  <text x="98" y="338" font-size="16" fill="#57534e" text-anchor="middle">無障礙出入</text>
+  <rect x="41" y="376" width="114" height="36" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="98" y="400" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">3115</text>
+
+  <line x1="168" y1="279" x2="180" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="180,274 190,279 180,284" fill="#d97706"/>
+
+  <!-- Card 2: 室內通路 x=180 cx=250 -->
+  <rect x="180" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="108" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="112" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="250" y="180" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="250" y="203" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="250" y="288" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">室內通路</text>
+  <text x="250" y="316" font-size="16" fill="#57534e" text-anchor="middle">淨寬120cm</text>
+  <text x="250" y="338" font-size="16" fill="#57534e" text-anchor="middle">無門檻障礙</text>
+  <rect x="193" y="376" width="114" height="36" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="250" y="400" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">3116</text>
+
+  <line x1="320" y1="279" x2="332" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="332,274 342,279 332,284" fill="#78716c"/>
+
+  <!-- Card 3: 坡道設計 x=332 cx=402 -->
+  <rect x="332" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="108" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="112" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="189" r="35" fill="#f5f0eb"/>
+  <text x="402" y="180" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="402" y="203" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="402" y="288" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">坡道設計</text>
+  <text x="402" y="316" font-size="16" fill="#57534e" text-anchor="middle">坡度≤1:12</text>
+  <text x="402" y="338" font-size="16" fill="#57534e" text-anchor="middle">防滑加扶手</text>
+  <rect x="345" y="376" width="114" height="36" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="402" y="400" font-size="16" fill="#57534e" text-anchor="middle" font-weight="600">3117</text>
+
+  <line x1="472" y1="279" x2="484" y2="279" stroke="#57534e" stroke-width="2"/>
+  <polygon points="484,274 494,279 484,284" fill="#57534e"/>
+
+  <!-- Card 4: 樓梯安全 x=484 cx=554 -->
+  <rect x="484" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="108" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="112" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="554" y="180" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="554" y="203" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="700">04</text>
+  <text x="554" y="288" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">樓梯安全</text>
+  <text x="554" y="316" font-size="16" fill="#57534e" text-anchor="middle">兩側扶手</text>
+  <text x="554" y="338" font-size="16" fill="#57534e" text-anchor="middle">止滑條設置</text>
+  <rect x="497" y="376" width="114" height="36" rx="10" fill="#a8a29e" opacity="0.12"/>
+  <text x="554" y="400" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="600">3118</text>
+
+  <line x1="624" y1="279" x2="636" y2="279" stroke="#a8a29e" stroke-width="2"/>
+  <polygon points="636,274 646,279 636,284" fill="#a8a29e"/>
+
+  <!-- Card 5: 昇降設備 x=636 cx=706 -->
+  <rect x="636" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="108" width="140" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="636" y="112" width="140" height="4" fill="#94a3b8"/>
+  <circle cx="706" cy="189" r="35" fill="#f1f5f9"/>
+  <text x="706" y="180" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="706" y="203" font-size="22" fill="#94a3b8" text-anchor="middle" font-weight="700">05</text>
+  <text x="706" y="288" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">昇降設備</text>
+  <text x="706" y="316" font-size="16" fill="#57534e" text-anchor="middle">輪椅可進入</text>
+  <text x="706" y="338" font-size="16" fill="#57534e" text-anchor="middle">緊急通話設備</text>
+  <rect x="649" y="376" width="114" height="36" rx="10" fill="#94a3b8" opacity="0.12"/>
+  <text x="706" y="400" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="600">3119</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
