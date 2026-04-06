@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">報告汪如何幫身心障礙機構備審？</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">四大功能對應評鑑四大痛點・系統化管理備審文件</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 2×2 卡片配置 -->
+  <!-- 上排: x=40(w=346) y=108 h=168 / x=414(w=346) y=108 h=168 -->
+  <!-- 下排: x=40(w=346) y=282 h=168 / x=414(w=346) y=282 h=168 -->
+
+  <!-- 卡片1: AI輔助報告撰寫 -->
+  <rect x="40" y="108" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="108" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="132" width="346" height="20" fill="#d97706"/>
+  <circle cx="72" cy="130" r="12" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <rect x="68" y="126" width="8" height="8" rx="1" fill="white" opacity="0.8"/>
+  <text x="213" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">AI 輔助報告撰寫</text>
+  <text x="60" y="180" font-size="15" fill="#57534e">• 依 49 項指標生成 ISP 初稿</text>
+  <text x="60" y="200" font-size="15" fill="#57534e">• 智能填寫會議記錄與督導紀錄</text>
+  <text x="60" y="220" font-size="15" fill="#57534e">• 依評鑑基準自動提示必備資料</text>
+  <text x="60" y="240" font-size="15" fill="#57534e">• 節省每篇文件 50% 以上時間</text>
+  <rect x="56" y="252" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="96" y="266" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">1106人力</text>
+
+  <!-- 卡片2: AI自我查核缺失 -->
+  <rect x="414" y="108" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="108" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="132" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">AI 輔助自我查核缺失</text>
+  <text x="434" y="180" font-size="15" fill="#57534e">• 49 項指標逐條查核進度</text>
+  <text x="434" y="200" font-size="15" fill="#57534e">• 自動標記未完成或有缺失的項目</text>
+  <text x="434" y="220" font-size="15" fill="#57534e">• 優先提示高分項目準備狀況</text>
+  <text x="434" y="240" font-size="15" fill="#57534e">• 模擬評鑑委員查核視角</text>
+  <rect x="430" y="252" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="266" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">ISP追蹤</text>
+
+  <!-- 卡片3: 多人協作 -->
+  <rect x="40" y="282" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="282" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="306" width="346" height="20" fill="#57534e"/>
+  <text x="213" y="311" text-anchor="middle" font-size="16" fill="white" font-weight="700">多人協作分工備審</text>
+  <text x="60" y="354" font-size="15" fill="#57534e">• 社工・護理師・教保員各負責分區</text>
+  <text x="60" y="374" font-size="15" fill="#57534e">• 即時查看每位同仁備審進度</text>
+  <text x="60" y="394" font-size="15" fill="#57534e">• 集中管理所有佐證資料</text>
+  <text x="60" y="414" font-size="15" fill="#57534e">• 避免重複準備或相互矛盾</text>
+  <rect x="56" y="426" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="440" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">佐證資料</text>
+
+  <!-- 卡片4: 定期追蹤 -->
+  <rect x="414" y="282" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="282" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="306" width="346" height="20" fill="#a8a29e"/>
+  <text x="587" y="311" text-anchor="middle" font-size="16" fill="white" font-weight="700">定期追蹤提醒</text>
+  <text x="434" y="354" font-size="15" fill="#57534e">• 消防設備半年檢修自動提醒</text>
+  <text x="434" y="374" font-size="15" fill="#57534e">• 員工健檢到期前通知</text>
+  <text x="434" y="394" font-size="15" fill="#57534e">• ISP 半年檢討時程追蹤</text>
+  <text x="434" y="414" font-size="15" fill="#57534e">• 演練與會議日期行事曆整合</text>
+  <rect x="430" y="426" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="440" text-anchor="middle" font-size="14" fill="#1e293b" font-weight="600">時程提醒</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

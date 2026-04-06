@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">專業服務類常見失分（項目9-10）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">ISP 評估工具選用與感染管制的實務缺失</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=2, H=90, outer_gap=38 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="218" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">9</text>
+  <text x="100" y="202" font-size="22" fill="#1e293b" font-weight="700">ISP 評估工具未適齡適性選用（4101）</text>
+  <text x="100" y="228" font-size="16" fill="#57534e">兒童/成人/臥床/精神障礙者各有不同評估向度・工具選用需符合服務對象特性</text>
+  <text x="100" y="248" font-size="16" fill="#57534e">評估過程需納入本人需求、興趣及家屬期待・否則ISP整份計畫被質疑基礎不足</text>
+  <rect x="610" y="174" width="148" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="684" y="202" font-size="14" fill="#d97706" text-anchor="middle">4101</text>
+  <text x="684" y="220" font-size="14" fill="#d97706" text-anchor="middle">ISP擬訂</text>
+  <text x="684" y="238" font-size="14" fill="#d97706" text-anchor="middle">4分項目</text>
+
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="417" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="424" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">10</text>
+  <text x="100" y="408" font-size="22" fill="#1e293b" font-weight="700">體溫監測及感染管制未落實執行（4306）</text>
+  <text x="100" y="434" font-size="16" fill="#57534e">新增每日體溫監測要求・手部衛生稽核・群聚事件通報機制需有書面規定</text>
+  <text x="100" y="454" font-size="16" fill="#57534e">感染管制措施需納入員工訓練內容・並有執行紀錄可供查核</text>
+  <rect x="610" y="380" width="148" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="684" y="408" font-size="14" fill="#78716c" text-anchor="middle">4306</text>
+  <text x="684" y="426" font-size="14" fill="#78716c" text-anchor="middle">傳染病預防</text>
+  <text x="684" y="444" font-size="14" fill="#78716c" text-anchor="middle">3分項目</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

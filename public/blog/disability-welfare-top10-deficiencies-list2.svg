@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">人力與現場類常見失分（項目5-8）</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">人力計算與環境設施現場觀察的常見缺失</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="146" font-size="20" fill="#1e293b" font-weight="700">人力配置比例未採三年月均值計算（1106）</text>
+  <text x="100" y="168" font-size="16" fill="#57534e">應以106-108年歷月雇用月均值計算・非評鑑當日在職人數</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="14" fill="#d97706" text-anchor="middle">1106</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">最高8分</text>
+
+  <rect x="28" y="193" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="193" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="224" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="230" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">6</text>
+  <text x="100" y="221" font-size="20" fill="#1e293b" font-weight="700">全國平台資料未定期更新（1103）</text>
+  <text x="100" y="243" font-size="16" fill="#57534e">新增標準・員工名冊與服務對象資料需定期填報・評鑑當場抽查</text>
+  <rect x="620" y="201" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="222" font-size="14" fill="#78716c" text-anchor="middle">1103</text>
+  <text x="688" y="240" font-size="14" fill="#78716c" text-anchor="middle">新增標準</text>
+
+  <rect x="28" y="268" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="268" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="299" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="305" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">7</text>
+  <text x="100" y="296" font-size="20" fill="#1e293b" font-weight="700">浴廁隱密性不足或比例不達標（3101）</text>
+  <text x="100" y="318" font-size="16" fill="#57534e">浴廁與服務人數比不得小於1:6・須有隔間或門簾・現場觀察</text>
+  <rect x="620" y="276" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="297" font-size="14" fill="#57534e" text-anchor="middle">3101</text>
+  <text x="688" y="315" font-size="14" fill="#57534e" text-anchor="middle">現場觀察</text>
+
+  <rect x="28" y="343" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="343" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="374" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="380" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">8</text>
+  <text x="100" y="371" font-size="20" fill="#1e293b" font-weight="700">夜間演練紀錄不完整（3106-1）</text>
+  <text x="100" y="393" font-size="16" fill="#57534e">每年至少2次含夜間演練1次・需有腳本/過程/檢討會議記錄</text>
+  <rect x="620" y="351" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="372" font-size="14" fill="#1e293b" text-anchor="middle">3106-1</text>
+  <text x="688" y="390" font-size="14" fill="#57534e" text-anchor="middle">3分項目</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header y=31 h=64 -->
+  <rect x="0" y="31" width="800" height="64" fill="white"/>
+  <rect x="0" y="31" width="6" height="64" fill="#d97706"/>
+  <text x="28" y="74" font-size="36" fill="#1e293b" font-weight="700">AI 輔助文書的 5 個實戰場景</text>
+
+  <!-- N=5, H=60, inner_gap=13, outer_gap=29 -->
+  <!-- Row 1 y=118 #d97706 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="143" font-size="20" fill="#1e293b" font-weight="700">ISP 個別化服務計畫初稿</text>
+  <text x="100" y="165" font-size="16" fill="#57534e">輸入評估結果、障礙類型、服務目標，AI 生成符合4101-4103指標的計畫框架</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="152" font-size="16" fill="#d97706" text-anchor="middle">省時 70%</text>
+
+  <!-- Row 2 y=191 #78716c -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="216" font-size="20" fill="#1e293b" font-weight="700">SOAP 個案紀錄</text>
+  <text x="100" y="238" font-size="16" fill="#57534e">輸入口頭描述或關鍵字，AI 整理成格式正確的 S/O/A/P 四段式紀錄</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="225" font-size="16" fill="#78716c" text-anchor="middle">省時 60%</text>
+
+  <!-- Row 3 y=264 #57534e -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="289" font-size="20" fill="#1e293b" font-weight="700">評鑑自評缺口分析</text>
+  <text x="100" y="311" font-size="16" fill="#57534e">上傳現有備審文件，AI 自動對照49項指標找出缺口並提供補強建議</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="298" font-size="16" fill="#57534e" text-anchor="middle">全指標掃描</text>
+
+  <!-- Row 4 y=337 #a8a29e -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="362" font-size="20" fill="#1e293b" font-weight="700">管理會議紀錄</text>
+  <text x="100" y="384" font-size="16" fill="#57534e">輸入會議討論重點，AI 生成含決議追蹤的正式會議紀錄格式</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="371" font-size="16" fill="#a8a29e" text-anchor="middle">格式標準化</text>
+
+  <!-- Row 5 y=410 #94a3b8 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="435" font-size="20" fill="#1e293b" font-weight="700">員工訓練紀錄整理</text>
+  <text x="100" y="457" font-size="16" fill="#57534e">批量輸入訓練場次和出席名單，AI 統計時數並確認是否達1105標準</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="444" font-size="16" fill="#94a3b8" text-anchor="middle">批量處理</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

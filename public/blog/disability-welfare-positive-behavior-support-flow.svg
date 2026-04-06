@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">正向行為支持（PBS）實施流程</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">四步驟系統化處理挑戰性行為</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=4 flow -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="206,273 218,279 206,285" fill="#c4bfb8"/>
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="396,273 408,279 396,285" fill="#c4bfb8"/>
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="586,273 598,279 586,285" fill="#c4bfb8"/>
+
+  <!-- Card 1: 行為觀察 -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="211" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <text x="115" y="297" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">行為觀察</text>
+  <text x="115" y="322" text-anchor="middle" font-size="15" fill="#57534e">ABC 記錄</text>
+  <text x="115" y="344" text-anchor="middle" font-size="15" fill="#57534e">前事結果</text>
+  <rect x="41" y="381" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="405" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">收集資料</text>
+
+  <!-- Card 2: 功能評估 -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="211" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="297" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">功能評估</text>
+  <text x="305" y="322" text-anchor="middle" font-size="15" fill="#57534e">行為目的</text>
+  <text x="305" y="344" text-anchor="middle" font-size="15" fill="#57534e">動機分析</text>
+  <rect x="231" y="381" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="405" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">找出功能</text>
+
+  <!-- Card 3: 支持計畫 -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="211" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="297" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">支持計畫</text>
+  <text x="495" y="322" text-anchor="middle" font-size="15" fill="#57534e">環境調整</text>
+  <text x="495" y="344" text-anchor="middle" font-size="15" fill="#57534e">替代行為</text>
+  <rect x="421" y="381" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="405" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">擬定策略</text>
+
+  <!-- Card 4: 成效追蹤 -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="183" text-anchor="middle" font-size="17" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="211" text-anchor="middle" font-size="28" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="297" text-anchor="middle" font-size="20" fill="#1e293b" font-weight="700">成效追蹤</text>
+  <text x="685" y="322" text-anchor="middle" font-size="15" fill="#57534e">行為頻率</text>
+  <text x="685" y="344" text-anchor="middle" font-size="15" fill="#57534e">計畫修訂</text>
+  <rect x="611" y="381" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="405" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">持續評估</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

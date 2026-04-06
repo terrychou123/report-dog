@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">ISP 評估工具選用：依服務對象類型</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">4101 要求「適齡、適性」・不同族群評估向度不同</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 2x2 卡片 -->
+  <!-- 上排 x=40 y=108 w=346 h=168, x=414 y=108 w=346 h=168 -->
+  <!-- 下排 x=40 y=282 w=346 h=168, x=414 y=282 w=346 h=168 -->
+
+  <!-- 卡片1: 兒童 -->
+  <rect x="40" y="108" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="108" width="346" height="44" rx="12" fill="#d97706"/>
+  <rect x="40" y="132" width="346" height="20" fill="#d97706"/>
+  <text x="213" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">兒童服務對象</text>
+  <text x="60" y="176" font-size="15" fill="#57534e">• 動作、語言溝通</text>
+  <text x="60" y="196" font-size="15" fill="#57534e">• 生活自理、認知</text>
+  <text x="60" y="216" font-size="15" fill="#57534e">• 社會情緒、社會參與</text>
+  <text x="60" y="236" font-size="15" fill="#57534e">• 作息本位評估模式</text>
+  <rect x="56" y="252" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="96" y="266" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">兒童發展</text>
+
+  <!-- 卡片2: 成人 -->
+  <rect x="414" y="108" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="108" width="346" height="44" rx="12" fill="#78716c"/>
+  <rect x="414" y="132" width="346" height="20" fill="#78716c"/>
+  <text x="587" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">成人服務對象</text>
+  <text x="434" y="176" font-size="15" fill="#57534e">• 居家生活、社會適應</text>
+  <text x="434" y="196" font-size="15" fill="#57534e">• 社會參與、財務管理</text>
+  <text x="434" y="216" font-size="15" fill="#57534e">• 休閒、技藝陶冶</text>
+  <text x="434" y="236" font-size="15" fill="#57534e">• 人際關係、作息活動</text>
+  <rect x="430" y="252" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="266" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">社區融合</text>
+
+  <!-- 卡片3: 長期臥床/失智 -->
+  <rect x="40" y="282" width="346" height="168" rx="12" fill="white"/>
+  <rect x="40" y="282" width="346" height="44" rx="12" fill="#57534e"/>
+  <rect x="40" y="306" width="346" height="20" fill="#57534e"/>
+  <text x="213" y="311" text-anchor="middle" font-size="16" fill="white" font-weight="700">長期臥床/失智者</text>
+  <text x="60" y="350" font-size="15" fill="#57534e">• 身體功能、心理情緒</text>
+  <text x="60" y="370" font-size="15" fill="#57534e">• 認知功能評估</text>
+  <text x="60" y="390" font-size="15" fill="#57534e">• 日常生活功能（ADL）</text>
+  <text x="60" y="410" font-size="15" fill="#57534e">• 社會互動能力</text>
+  <rect x="56" y="426" width="80" height="20" rx="10" fill="#f5f0eb"/>
+  <text x="96" y="440" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">功能評估</text>
+
+  <!-- 卡片4: 精神障礙 -->
+  <rect x="414" y="282" width="346" height="168" rx="12" fill="white"/>
+  <rect x="414" y="282" width="346" height="44" rx="12" fill="#a8a29e"/>
+  <rect x="414" y="306" width="346" height="20" fill="#a8a29e"/>
+  <text x="587" y="311" text-anchor="middle" font-size="16" fill="white" font-weight="700">精神障礙服務對象</text>
+  <text x="434" y="350" font-size="15" fill="#57534e">• 承成人向度</text>
+  <text x="434" y="370" font-size="15" fill="#57534e">• 精神症狀評估</text>
+  <text x="434" y="390" font-size="15" fill="#57534e">• 心理情緒狀態</text>
+  <text x="434" y="410" font-size="15" fill="#57534e">• 日常生活自理能力</text>
+  <rect x="430" y="426" width="80" height="20" rx="10" fill="#f5f5f4"/>
+  <text x="470" y="440" text-anchor="middle" font-size="14" fill="#1e293b" font-weight="600">症狀評估</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

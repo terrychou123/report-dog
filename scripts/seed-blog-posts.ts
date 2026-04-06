@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 189 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 209 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -224,6 +224,27 @@ const POST_FILES = [
   "article-187-psych-rehab-peer-support.json",
   "article-188-psych-rehab-quality-meeting.json",
   "article-189-psych-rehab-innovation-bonus.json",
+  // 身心障礙福利機構系列（20 篇）
+  "article-190-disability-welfare-evaluation-guide.json",
+  "article-191-disability-welfare-top10-deficiencies.json",
+  "article-192-disability-welfare-isp-writing-guide.json",
+  "article-193-disability-welfare-self-evaluation-report.json",
+  "article-194-disability-welfare-evidence-preparation.json",
+  "article-195-disability-welfare-prep-timeline.json",
+  "article-196-disability-welfare-fire-safety-3105.json",
+  "article-197-disability-welfare-isp-multi-need-assessment.json",
+  "article-198-disability-welfare-staffing-ratios-1106.json",
+  "article-199-disability-welfare-paperwork-efficiency.json",
+  "article-200-disability-welfare-professional-team-4201.json",
+  "article-201-disability-welfare-positive-behavior-support.json",
+  "article-202-disability-welfare-soap-case-records.json",
+  "article-203-disability-welfare-health-dietary-management.json",
+  "article-204-disability-welfare-infection-control.json",
+  "article-205-disability-welfare-caregiver-staff-crisis.json",
+  "article-206-disability-welfare-environment-accessibility.json",
+  "article-207-disability-welfare-community-resources-family.json",
+  "article-208-disability-welfare-new-staff-guide.json",
+  "article-209-disability-welfare-quality-improvement.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布

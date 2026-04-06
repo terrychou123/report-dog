@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">三類查核方式對應佐證策略</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">依評鑑委員查核方式準備對應佐證・各有重點</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 3 cards horizontal, each w=230, gap=10, start x=25 -->
+  <!-- Card 1: 審閱書面資料 x=25 -->
+  <rect x="25" y="108" width="230" height="342" rx="12" fill="white"/>
+  <rect x="25" y="108" width="230" height="44" rx="12" fill="#d97706"/>
+  <rect x="25" y="132" width="230" height="20" fill="#d97706"/>
+  <text x="140" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">審閱書面資料</text>
+  <text x="45" y="180" font-size="15" fill="#57534e">• 文件必須成冊完整</text>
+  <text x="45" y="200" font-size="15" fill="#57534e">• 按年份分類歸檔</text>
+  <text x="45" y="220" font-size="15" fill="#57534e">• 每份文件有索引編號</text>
+  <text x="45" y="240" font-size="15" fill="#57534e">• 相關函報公文附原件</text>
+  <text x="45" y="260" font-size="15" fill="#57534e">• 電子檔案需可列印</text>
+  <text x="45" y="280" font-size="15" fill="#57534e">• 會議紀錄含決議追蹤</text>
+  <text x="45" y="300" font-size="15" fill="#57534e">• 簽名紀錄齊全</text>
+  <rect x="41" y="378" width="198" height="28" rx="8" fill="#fef3c7"/>
+  <text x="140" y="397" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">行政面向為主</text>
+
+  <!-- Card 2: 現場實務觀察 x=280 -->
+  <rect x="280" y="108" width="230" height="342" rx="12" fill="white"/>
+  <rect x="280" y="108" width="230" height="44" rx="12" fill="#57534e"/>
+  <rect x="280" y="132" width="230" height="20" fill="#57534e"/>
+  <text x="395" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">現場實務觀察</text>
+  <text x="300" y="180" font-size="15" fill="#57534e">• 環境整潔無雜物</text>
+  <text x="300" y="200" font-size="15" fill="#57534e">• 逃生路徑暢通</text>
+  <text x="300" y="220" font-size="15" fill="#57534e">• 設備功能正常運作</text>
+  <text x="300" y="240" font-size="15" fill="#57534e">• 標示清楚可辨識</text>
+  <text x="300" y="260" font-size="15" fill="#57534e">• 人員在崗依法配置</text>
+  <text x="300" y="280" font-size="15" fill="#57534e">• 輔具取用方便</text>
+  <text x="300" y="300" font-size="15" fill="#57534e">• 服務對象尊嚴維護</text>
+  <rect x="296" y="378" width="198" height="28" rx="8" fill="#f5f0eb"/>
+  <text x="395" y="397" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">環境面向為主</text>
+
+  <!-- Card 3: 訪談工作人員 x=535 -->
+  <rect x="535" y="108" width="230" height="342" rx="12" fill="white"/>
+  <rect x="535" y="108" width="230" height="44" rx="12" fill="#78716c"/>
+  <rect x="535" y="132" width="230" height="20" fill="#78716c"/>
+  <text x="650" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">訪談工作人員</text>
+  <text x="555" y="180" font-size="15" fill="#57534e">• 工作人員了解ISP</text>
+  <text x="555" y="200" font-size="15" fill="#57534e">• 熟知緊急應變程序</text>
+  <text x="555" y="220" font-size="15" fill="#57534e">• 能說明通報機制</text>
+  <text x="555" y="240" font-size="15" fill="#57534e">• 了解感染管制要點</text>
+  <text x="555" y="260" font-size="15" fill="#57534e">• 知道消防職責分工</text>
+  <text x="555" y="280" font-size="15" fill="#57534e">• 能描述服務對象需求</text>
+  <text x="555" y="300" font-size="15" fill="#57534e">• 了解服務流程</text>
+  <rect x="551" y="378" width="198" height="28" rx="8" fill="#f5f5f4"/>
+  <text x="650" y="397" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">專業面向為主</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

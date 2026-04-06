@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">4201 跨專業團隊運作要素</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">三個核心運作機制・缺一都會被扣分</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 flow -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="303,273 315,279 303,285" fill="#c4bfb8"/>
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="489,273 501,279 489,285" fill="#c4bfb8"/>
+
+  <!-- Card 1: 合作規定 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">必備</text>
+  <text x="214" y="211" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">01</text>
+  <text x="214" y="297" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">合作規定</text>
+  <text x="214" y="322" text-anchor="middle" font-size="16" fill="#57534e">書面跨專業</text>
+  <text x="214" y="344" text-anchor="middle" font-size="16" fill="#57534e">合作規定書</text>
+  <rect x="145" y="381" width="138" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="405" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">制度文件</text>
+
+  <!-- Card 2: 月督導 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">必備</text>
+  <text x="400" y="211" text-anchor="middle" font-size="22" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="297" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">月督導</text>
+  <text x="400" y="322" text-anchor="middle" font-size="16" fill="#57534e">每月一次</text>
+  <text x="400" y="344" text-anchor="middle" font-size="16" fill="#57534e">督導紀錄</text>
+  <rect x="331" y="381" width="138" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="405" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">每月留存</text>
+
+  <!-- Card 3: 個案研討 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">必備</text>
+  <text x="586" y="211" text-anchor="middle" font-size="22" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="297" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">個案研討</text>
+  <text x="586" y="322" text-anchor="middle" font-size="16" fill="#57534e">每年至少</text>
+  <text x="586" y="344" text-anchor="middle" font-size="16" fill="#57534e">2 次全員</text>
+  <rect x="517" y="381" width="138" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="405" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">年度留存</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
