@@ -106,14 +106,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/hospital/staff-support", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/hospital/strategy", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
-    // 身心障礙福利機構
+    // 身心障礙福利機構（109年度）
     { url: "https://reportwang.com/school/disability-welfare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/school/disability-welfare/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/appropriate-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/finance", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/rights-protection", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/service-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/staff-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/professional", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     // 產後護理之家
     { url: "https://reportwang.com/school/postpartum-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },

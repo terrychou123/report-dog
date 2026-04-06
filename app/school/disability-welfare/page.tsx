@@ -4,24 +4,21 @@ import { educationalContentJsonLd } from "@/lib/jsonld";
 import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { Badge } from "@/components/ui/badge";
 import {
+  SettingsIcon,
   ShieldCheckIcon,
   HeartPulseIcon,
-  SettingsIcon,
-  ShieldIcon,
-  StarIcon,
-  BuildingIcon,
   ArrowRightIcon,
   DownloadIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "身心障礙福利機構評鑑小教室｜報告汪",
+  title: "身心障礙福利機構評鑑小教室｜109年度｜報告汪",
   description:
-    "身心障礙福利機構專業服務品質與經營管理標準指引完整解說，共6大區塊35項目，幫助身心障礙機構管理人員掌握評鑑重點。",
+    "109年度身心障礙福利機構評鑑指標完整解說，共3大區塊49項目，涵蓋行政組織及經營管理、環境設施及安全維護、專業服務，幫助身心障礙機構管理人員掌握評鑑重點。",
   keywords: [
     "身心障礙福利機構評鑑",
     "身心障礙機構評鑑基準",
-    "CRPD",
+    "109年度身障機構評鑑",
     "身心障礙機構",
     "身心障礙福利機構",
     "評鑑小教室",
@@ -30,64 +27,39 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/disability-welfare" },
   openGraph: {
-    title: "身心障礙福利機構評鑑小教室｜評鑑小教室｜報告汪",
-    description: "35 項身心障礙福利機構評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "身心障礙福利機構評鑑小教室｜109年度｜報告汪",
+    description:
+      "49 項身心障礙福利機構評鑑指標完整解說，掌握評鑑重點，提升評鑑通過率。",
     url: "https://reportwang.com/school/disability-welfare",
   },
 };
 
+// 區塊頁面對應設定
 const sectionMeta = [
-  {
-    href: "/school/disability-welfare/rights-protection",
-    icon: ShieldCheckIcon,
-    name: "A、權益保障",
-    shortCode: "A",
-    itemRange: "項目 1–8",
-    bgClass: "bg-orange-500/10",
-    textClass: "text-orange-600 dark:text-orange-400",
-  },
-  {
-    href: "/school/disability-welfare/appropriate-care",
-    icon: HeartPulseIcon,
-    name: "B、適性照顧與支持",
-    shortCode: "B",
-    itemRange: "項目 9–17",
-    bgClass: "bg-green-500/10",
-    textClass: "text-green-600 dark:text-green-400",
-  },
   {
     href: "/school/disability-welfare/administration",
     icon: SettingsIcon,
-    name: "C、行政管理",
-    shortCode: "C",
-    itemRange: "項目 18–19",
+    name: "一、行政組織及經營管理（含會計及財務管理）",
+    shortCode: "行",
+    itemRange: "項目 1–11",
     bgClass: "bg-blue-500/10",
     textClass: "text-blue-600 dark:text-blue-400",
   },
   {
-    href: "/school/disability-welfare/service-management",
-    icon: ShieldIcon,
-    name: "D、服務管理",
-    shortCode: "D",
-    itemRange: "項目 20–23",
-    bgClass: "bg-teal-500/10",
-    textClass: "text-teal-600 dark:text-teal-400",
+    href: "/school/disability-welfare/environment",
+    icon: ShieldCheckIcon,
+    name: "二、環境設施及安全維護",
+    shortCode: "環",
+    itemRange: "項目 12–31（含5項不計分）",
+    bgClass: "bg-green-500/10",
+    textClass: "text-green-600 dark:text-green-400",
   },
   {
-    href: "/school/disability-welfare/staff-management",
-    icon: StarIcon,
-    name: "E、員工管理與福利",
-    shortCode: "E",
-    itemRange: "項目 24–29",
-    bgClass: "bg-indigo-500/10",
-    textClass: "text-indigo-600 dark:text-indigo-400",
-  },
-  {
-    href: "/school/disability-welfare/finance",
-    icon: BuildingIcon,
-    name: "F、會計與財務管理",
-    shortCode: "F",
-    itemRange: "項目 30–35",
+    href: "/school/disability-welfare/professional",
+    icon: HeartPulseIcon,
+    name: "三、專業服務",
+    shortCode: "專",
+    itemRange: "項目 32–49",
     bgClass: "bg-purple-500/10",
     textClass: "text-purple-600 dark:text-purple-400",
   },
@@ -95,34 +67,22 @@ const sectionMeta = [
 
 const jsonLd = educationalContentJsonLd({
   type: "Course",
-  name: "身心障礙福利機構評鑑基準",
+  name: "109年度身心障礙福利機構評鑑指標",
   description:
-    "身心障礙福利機構專業服務品質與經營管理標準指引，共 35 項目、6 大區塊完整解說。",
+    "109年度身心障礙福利機構評鑑指標，共 49 項目、3 大區塊完整解說。",
   path: "/school/disability-welfare",
   hasPart: [
     {
-      name: "A、權益保障（項目 1–8）",
-      url: "https://reportwang.com/school/disability-welfare/rights-protection",
-    },
-    {
-      name: "B、適性照顧與支持（項目 9–17）",
-      url: "https://reportwang.com/school/disability-welfare/appropriate-care",
-    },
-    {
-      name: "C、行政管理（項目 18–19）",
+      name: "一、行政組織及經營管理（項目 1–11）",
       url: "https://reportwang.com/school/disability-welfare/administration",
     },
     {
-      name: "D、服務管理（項目 20–23）",
-      url: "https://reportwang.com/school/disability-welfare/service-management",
+      name: "二、環境設施及安全維護（項目 12–31）",
+      url: "https://reportwang.com/school/disability-welfare/environment",
     },
     {
-      name: "E、員工管理與福利（項目 24–29）",
-      url: "https://reportwang.com/school/disability-welfare/staff-management",
-    },
-    {
-      name: "F、會計與財務管理（項目 30–35）",
-      url: "https://reportwang.com/school/disability-welfare/finance",
+      name: "三、專業服務（項目 32–49）",
+      url: "https://reportwang.com/school/disability-welfare/professional",
     },
   ],
 });
@@ -137,18 +97,25 @@ export default function DisabilityWelfarePage() {
 
       {/* Header */}
       <div className="mb-8">
-        <Badge variant="secondary" className="mb-3">身心障礙福利機構</Badge>
-        <h1 className="text-2xl font-bold mb-3">身心障礙福利機構評鑑基準總覽</h1>
+        <Badge variant="secondary" className="mb-3">
+          身心障礙福利機構｜109年度
+        </Badge>
+        <h1 className="text-2xl font-bold mb-3">
+          身心障礙福利機構評鑑指標總覽
+        </h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          以下為衛福部社家署「身心障礙福利機構專業服務品質與經營管理標準指引」，共 35 個評鑑項目，分為 6 大區塊。
-          點擊各區塊可查看詳細說明、準備要訣與實用提示。
+          以下為衛福部社家署「109年度身心障礙福利機構評鑑指標」，共 49
+          個評鑑項目（含 5 項不計分新增指標），分為 3
+          大區塊。點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
       </div>
 
       {/* Section cards */}
-      <div className="grid gap-4 sm:grid-cols-2 mb-10">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-10">
         {sectionMeta.map((sec) => {
-          const section = disabilityWelfareProfile.sections.find((s) => s.shortCode === sec.shortCode);
+          const section = disabilityWelfareProfile.sections.find(
+            (s) => s.shortCode === sec.shortCode,
+          );
           const Icon = sec.icon;
           return (
             <Link
@@ -164,14 +131,18 @@ export default function DisabilityWelfarePage() {
                   <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
                   </h2>
-                  <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    {sec.itemRange}
+                  </p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (
                       <span
                         key={item.id}
                         className="text-xs bg-muted rounded px-1.5 py-0.5 text-muted-foreground"
                       >
-                        {item.title}
+                        {item.title.length > 10
+                          ? item.title.slice(0, 10) + "…"
+                          : item.title}
                       </span>
                     ))}
                     {(section?.items.length ?? 0) > 4 && (
@@ -190,11 +161,13 @@ export default function DisabilityWelfarePage() {
 
       {/* Full item list */}
       <div>
-        <h2 className="text-lg font-semibold mb-4">全部 35 項評鑑項目</h2>
+        <h2 className="text-lg font-semibold mb-4">全部 49 項評鑑項目</h2>
         <div className="space-y-6">
           {disabilityWelfareProfile.sections.map((section) => {
-            const slug = sectionMeta.find((s) => s.shortCode === section.shortCode)?.href.split("/").at(-1);
-            if (!slug) return null;
+            const meta = sectionMeta.find(
+              (s) => s.shortCode === section.shortCode,
+            );
+            if (!meta) return null;
             return (
               <div key={section.shortCode}>
                 <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
@@ -204,17 +177,28 @@ export default function DisabilityWelfarePage() {
                   {section.items.map((item) => (
                     <Link
                       key={item.id}
-                      href={`/school/disability-welfare/${slug}#item-${item.id}`}
+                      href={`${meta.href}#item-${item.id}`}
                       className="flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors group"
                     >
                       <span className="shrink-0 w-7 h-7 rounded-full bg-muted flex items-center justify-center text-xs font-mono font-semibold text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
                         {item.id}
                       </span>
-                      <span className="text-sm group-hover:text-primary transition-colors">
+                      <span className="text-sm group-hover:text-primary transition-colors flex-1 min-w-0 truncate">
+                        {item.score === 0 && (
+                          <Badge
+                            variant="outline"
+                            className="text-xs mr-1.5 shrink-0"
+                          >
+                            不計分
+                          </Badge>
+                        )}
                         {item.title}
                       </span>
-                      <Badge variant="outline" className="ml-auto text-xs shrink-0">
-                        {item.responsible}
+                      <Badge
+                        variant="outline"
+                        className="ml-auto text-xs shrink-0"
+                      >
+                        {item.score > 0 ? `${item.score}分` : "不計分"}
                       </Badge>
                     </Link>
                   ))}
@@ -227,12 +211,15 @@ export default function DisabilityWelfarePage() {
 
       {/* Download CTA */}
       <div className="mt-10 rounded-xl border border-dashed border-primary/30 bg-muted/50 p-5 text-center">
-        <p className="text-sm font-semibold mb-1">📋 免費下載自我檢查表</p>
+        <p className="text-sm font-semibold mb-1">
+          📋 免費下載自我檢查表
+        </p>
         <p className="text-sm text-muted-foreground mb-3">
-          下載「身心障礙福利機構」評鑑自我檢查表（Excel），對照評鑑基準逐項自我檢核。
+          下載「身心障礙福利機構」評鑑自我檢查表（Excel），對照 109
+          年度評鑑指標逐項自我檢核。
         </p>
         <a
-          href="/downloads/disability.xlsx"
+          href="/downloads/disability-welfare.xlsx"
           download
           className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
         >
@@ -243,9 +230,10 @@ export default function DisabilityWelfarePage() {
 
       {/* Import CTA */}
       <div className="mt-10 rounded-xl bg-primary/5 border border-primary/20 p-5">
-        <p className="text-sm font-semibold mb-1">看完評鑑基準了嗎？</p>
+        <p className="text-sm font-semibold mb-1">看完評鑑指標了嗎？</p>
         <p className="text-sm text-muted-foreground mb-3">
-          到報告汪一鍵匯入「身心障礙福利機構」評鑑範本，包含 6 個標籤和 35 份報告範本，省去手動建立的時間。
+          到報告汪一鍵匯入「身心障礙福利機構」評鑑範本，包含 3 個標籤和 49
+          份報告範本，省去手動建立的時間。
         </p>
         <Link
           href="/docs/import-templates"
