@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="68" fill="#1c1917"/>
+  <text x="400" y="36" font-family="'Noto Sans TC', sans-serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">AI 輔助文書工作流程（報告汪）</text>
+  <text x="400" y="57" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">護理評估到品質報告，AI協助生成標準格式初稿</text>
+
+  <!-- 步驟1 — STEP 01 輸入需求 (#d97706) -->
+  <rect x="32" y="80" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="80" width="8" height="82" rx="4" fill="#d97706"/>
+  <!-- 步驟標籤 -->
+  <rect x="52" y="90" width="88" height="26" rx="5" fill="#d97706" opacity="0.15"/>
+  <text x="96" y="108" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">STEP 01</text>
+  <text x="156" y="107" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">輸入需求</text>
+  <text x="56" y="132" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">指定文書類型（護理評估 / 改善計畫 / 會議紀錄）與基本資料</text>
+  <text x="56" y="152" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">填入機構名稱、期間、指標名稱等基本欄位，無需手動組織架構</text>
+  <!-- Pill -->
+  <rect x="680" y="102" width="68" height="26" rx="13" fill="#d97706"/>
+  <text x="714" y="120" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">30秒</text>
+
+  <!-- 步驟2 — STEP 02 AI生成初稿 (#78716c) -->
+  <rect x="32" y="174" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="174" width="8" height="82" rx="4" fill="#78716c"/>
+  <rect x="52" y="184" width="88" height="26" rx="5" fill="#78716c" opacity="0.15"/>
+  <text x="96" y="202" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">STEP 02</text>
+  <text x="156" y="201" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">AI 生成初稿</text>
+  <text x="56" y="226" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">依評鑑基準自動生成符合格式的文書草稿</text>
+  <text x="56" y="246" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">包含結構、段落、關鍵用語，節省70%撰寫時間</text>
+  <rect x="670" y="196" width="78" height="26" rx="13" fill="#78716c"/>
+  <text x="709" y="214" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">AI生成</text>
+
+  <!-- 步驟3 — STEP 03 專業審閱 (#57534e) -->
+  <rect x="32" y="268" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="268" width="8" height="82" rx="4" fill="#57534e"/>
+  <rect x="52" y="278" width="88" height="26" rx="5" fill="#57534e" opacity="0.15"/>
+  <text x="96" y="296" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">STEP 03</text>
+  <text x="156" y="295" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">專業審閱</text>
+  <text x="56" y="320" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">醫護人員確認內容正確性，補充個別化細節</text>
+  <text x="56" y="340" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">AI負責草稿，專業人員負責最終品質，符合法規要求</text>
+  <rect x="660" y="290" width="90" height="26" rx="13" fill="#57534e"/>
+  <text x="705" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">把關品質</text>
+
+  <!-- 步驟4 — STEP 04 完成歸檔 (#a8a29e) -->
+  <rect x="32" y="362" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="362" width="8" height="82" rx="4" fill="#a8a29e"/>
+  <rect x="52" y="372" width="88" height="26" rx="5" fill="#a8a29e" opacity="0.18"/>
+  <text x="96" y="390" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">STEP 04</text>
+  <text x="156" y="389" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">完成歸檔</text>
+  <text x="56" y="414" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">電子簽名、歸入系統，自動追蹤完成度</text>
+  <text x="56" y="434" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">評鑑時可快速調閱，追蹤進度一目了然</text>
+  <rect x="660" y="384" width="90" height="26" rx="13" fill="#a8a29e"/>
+  <text x="705" y="402" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">可查核</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+</svg>

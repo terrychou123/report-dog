@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">必要條文備審角色分工</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">明確各科部負責的必要條文，備審不遺漏</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=5 直列清單，H=60, outer_gap=29, inner_gap=13 -->
+  <!-- Header y=29, Row1 y=118, Row2 y=191, Row3 y=264, Row4 y=337, Row5 y=410 -->
+
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="white"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <text x="28" y="71" font-size="36" fill="#1e293b" font-weight="700">負責部門與對應必要條文</text>
+
+  <!-- Row 1: 品管部門 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="140" font-size="20" fill="#1e293b" font-weight="700">品管部門</text>
+  <text x="100" y="163" font-size="16" fill="#57534e">2.2.1 品質指標管理、2.2.2 病安文化推動、2.2.3 異常事件通報與分析</text>
+  <rect x="596" y="126" width="160" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="676" y="145" font-size="16" fill="#d97706" text-anchor="middle">必要條文</text>
+  <text x="676" y="165" font-size="16" fill="#d97706" text-anchor="middle">3 項</text>
+
+  <!-- Row 2: 護理部門 -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="213" font-size="20" fill="#1e293b" font-weight="700">護理部門</text>
+  <text x="100" y="236" font-size="16" fill="#57534e">1.3.2 護理人力配置、2.5.4 給藥作業安全、2.7.2 標準防護措施與接觸隔離</text>
+  <rect x="596" y="199" width="160" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="676" y="218" font-size="16" fill="#78716c" text-anchor="middle">必要條文</text>
+  <text x="676" y="238" font-size="16" fill="#78716c" text-anchor="middle">3 項</text>
+
+  <!-- Row 3: 感控護理師 -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="286" font-size="20" fill="#1e293b" font-weight="700">感控護理師</text>
+  <text x="100" y="309" font-size="16" fill="#57534e">2.7.1 感控組織與運作、2.7.2 標準防護措施、2.7.3 醫療照護相關感染監測</text>
+  <rect x="596" y="272" width="160" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="676" y="291" font-size="16" fill="#57534e" text-anchor="middle">必要條文</text>
+  <text x="676" y="311" font-size="16" fill="#57534e" text-anchor="middle">3 項（全章）</text>
+
+  <!-- Row 4: 藥劑部門 -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="359" font-size="20" fill="#1e293b" font-weight="700">藥劑部門</text>
+  <text x="100" y="382" font-size="16" fill="#57534e">2.5.5 高警訊藥品管理、2.5.8 管制藥品管理（與護理共同負責 2.5.4）</text>
+  <rect x="596" y="345" width="160" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="676" y="364" font-size="16" fill="#78716c" text-anchor="middle">必要條文</text>
+  <text x="676" y="384" font-size="16" fill="#78716c" text-anchor="middle">2 項</text>
+
+  <!-- Row 5: 行政/設施管理 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="432" font-size="20" fill="#1e293b" font-weight="700">行政 / 設施管理</text>
+  <text x="100" y="455" font-size="16" fill="#57534e">1.3.1 醫師人力、1.3.3 醫事人員配置、1.4.1 病歷書寫、1.5.2 消防安全</text>
+  <rect x="596" y="418" width="160" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="676" y="437" font-size="16" fill="#57534e" text-anchor="middle">必要條文</text>
+  <text x="676" y="457" font-size="16" fill="#57534e" text-anchor="middle">4 項</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="100" fill="#1c1917"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">護理人力配置（1.3.2）四大查核要件</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle">必要條文／資料查核 ＋ 實地查核—護病比計算與夜班安排是查核重點</text>
+
+  <!-- 列1：護病比符合法規 -->
+  <rect x="38" y="110" width="724" height="80" rx="9" fill="#fffbeb"/>
+  <rect x="38" y="110" width="7" height="80" rx="4" fill="#d97706"/>
+  <text x="60" y="138" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#d97706">護病比符合法規</text>
+  <text x="60" y="158" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">各班次護病比記錄清楚，白班/小夜班/大夜班分別計算，符合法定標準</text>
+  <text x="60" y="178" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">公式：每班護理師人數 ÷ 照護病人數（各班獨立計算）</text>
+  <rect x="622" y="128" width="122" height="32" rx="16" fill="#d97706"/>
+  <text x="683" y="149" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">班次計算</text>
+
+  <!-- 列2：夜班護理人員值班 -->
+  <rect x="38" y="200" width="724" height="80" rx="9" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="200" width="7" height="80" rx="4" fill="#78716c"/>
+  <text x="60" y="228" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#78716c">夜班護理人員值班</text>
+  <text x="60" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">每一護理單元夜間必須有護理人員值班，不得以「備勤」取代正式值班</text>
+  <text x="60" y="268" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">查核重點：班表與實際到班紀錄一致，簽到退紀錄完整</text>
+  <rect x="618" y="218" width="126" height="32" rx="16" fill="#78716c"/>
+  <text x="681" y="239" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">夜班配置</text>
+
+  <!-- 列3：執照有效且執業登記 -->
+  <rect x="38" y="290" width="724" height="80" rx="9" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="290" width="7" height="80" rx="4" fill="#57534e"/>
+  <text x="60" y="318" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#57534e">執照有效且執業登記完整</text>
+  <text x="60" y="338" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">所有護理人員執照在效期內，執業登記完成且登記院所正確無誤</text>
+  <text x="60" y="358" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">核心文件：護理師/護士執業執照影本、執業登記清冊</text>
+  <rect x="618" y="308" width="126" height="32" rx="16" fill="#57534e"/>
+  <text x="681" y="329" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">執照管理</text>
+
+  <!-- 列4：緊急補足機制 -->
+  <rect x="38" y="380" width="724" height="80" rx="9" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="380" width="7" height="80" rx="4" fill="#a8a29e"/>
+  <text x="60" y="408" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#a8a29e">緊急補足機制</text>
+  <text x="60" y="428" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">護理人力不足時有具體緊急補足流程（如召回、支援、外包），且有書面規定</text>
+  <text x="60" y="448" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">核心文件：緊急補足機制書面規定、啟動紀錄</text>
+  <rect x="618" y="398" width="126" height="32" rx="16" fill="#a8a29e"/>
+  <text x="681" y="419" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">緊急機制</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">報告汪 reportwang.com</text>
+</svg>

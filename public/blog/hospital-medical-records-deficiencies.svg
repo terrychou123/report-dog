@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header 左色條 -->
+  <rect x="50" y="38" width="6" height="80" rx="3" fill="#dc2626"/>
+
+  <!-- Header 標題 -->
+  <text x="68" y="72" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="900" fill="#1e293b">病歷書寫三大常見缺失</text>
+  <text x="68" y="106" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#64748b">1.4.1 評鑑委員最常查到的問題與改善對策</text>
+
+  <!-- Row 1 -->
+  <rect x="50" y="135" width="700" height="90" rx="10" fill="white"/>
+  <rect x="50" y="135" width="6" height="90" rx="3" fill="#d97706"/>
+  <text x="70" y="165" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#1e293b">出院病摘逾時未完成</text>
+  <text x="70" y="191" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">超過14天未完成出院病摘，是1.4.1最常見缺失</text>
+  <text x="70" y="211" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">改善：設系統提醒（出院第7/12天），逾期自動通知主治醫師與科主任</text>
+  <!-- 右側標籤 -->
+  <rect x="648" y="153" width="90" height="30" rx="15" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="693" y="173" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#92400e" text-anchor="middle">最常見</text>
+
+  <!-- Row 2 -->
+  <rect x="50" y="238" width="700" height="90" rx="10" fill="white"/>
+  <rect x="50" y="238" width="6" height="90" rx="3" fill="#78716c"/>
+  <text x="70" y="268" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#1e293b">書寫不完整或預簽空白</text>
+  <text x="70" y="294" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">手術紀錄缺項、護理記錄未按時書寫、預簽空白病歷讓他人代填</text>
+  <text x="70" y="314" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">改善：建立書寫查核清單，每月抽樣5%病歷確認完整度</text>
+  <!-- 右側標籤 -->
+  <rect x="636" y="256" width="102" height="30" rx="15" fill="#f5f5f4" stroke="#78716c" stroke-width="2"/>
+  <text x="687" y="276" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">品質問題</text>
+
+  <!-- Row 3 -->
+  <rect x="50" y="341" width="700" height="90" rx="10" fill="white"/>
+  <rect x="50" y="341" width="6" height="90" rx="3" fill="#57534e"/>
+  <text x="70" y="371" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#1e293b">調閱管理制度有漏洞</text>
+  <text x="70" y="397" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">查閱記錄不完整、無法追蹤誰調閱了什麼，電子系統存取日誌缺失</text>
+  <text x="70" y="417" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">改善：電子系統自動記錄存取日誌，每月審查異常存取記錄</text>
+  <!-- 右側標籤 -->
+  <rect x="648" y="359" width="90" height="30" rx="15" fill="#f5f5f4" stroke="#57534e" stroke-width="2"/>
+  <text x="693" y="379" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#44403c" text-anchor="middle">資安面</text>
+
+  <!-- 浮水印 -->
+  <text x="50" y="480" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#94a3b8" opacity="0.8">報告汪 reportwang.com</text>
+</svg>

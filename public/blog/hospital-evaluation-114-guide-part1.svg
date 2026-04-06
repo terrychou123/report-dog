@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">第一部分：經營管理 7 章速覽</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">Part 1 共 42 條，含 5 項必要條文</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 7個章節，分兩排：上4下3 -->
+  <!-- 上排: y=108, 每個 w=174, 間距10, 4個 = 4×174+3×10=726, 從x=37 -->
+  <!-- 下排: y=294, 3個居中 w=174, 3×174+2×10=542, margin=(800-542)/2=129 -->
+
+  <!-- 上排 -->
+  <!-- 1.1 醫院經營策略 -->
+  <rect x="37" y="108" width="174" height="166" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="37" y="108" width="174" height="8" rx="4" fill="#ea580c"/>
+  <rect x="37" y="112" width="174" height="4" fill="#ea580c"/>
+  <text x="124" y="140" text-anchor="middle" font-size="15" fill="#ea580c" font-weight="700">1.1</text>
+  <text x="124" y="158" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">醫院經營策略</text>
+  <text x="124" y="182" text-anchor="middle" font-size="24" fill="#ea580c" font-weight="900">5 條</text>
+  <text x="124" y="210" text-anchor="middle" font-size="14" fill="#57534e">重點：1.1.3</text>
+  <text x="124" y="228" text-anchor="middle" font-size="14" fill="#57534e">品質管理組織</text>
+  <text x="124" y="248" text-anchor="middle" font-size="14" fill="#57534e">無必要條文</text>
+  <rect x="53" y="256" width="142" height="10" rx="5" fill="#ea580c" opacity="0.12"/>
+
+  <!-- 1.2 員工管理 -->
+  <rect x="221" y="108" width="174" height="166" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="221" y="108" width="174" height="8" rx="4" fill="#16a34a"/>
+  <rect x="221" y="112" width="174" height="4" fill="#16a34a"/>
+  <text x="308" y="140" text-anchor="middle" font-size="15" fill="#16a34a" font-weight="700">1.2</text>
+  <text x="308" y="158" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">員工管理</text>
+  <text x="308" y="182" text-anchor="middle" font-size="24" fill="#16a34a" font-weight="900">7 條</text>
+  <text x="308" y="210" text-anchor="middle" font-size="14" fill="#57534e">重點：1.2.3</text>
+  <text x="308" y="228" text-anchor="middle" font-size="14" fill="#57534e">職業安全衛生</text>
+  <text x="308" y="248" text-anchor="middle" font-size="14" fill="#57534e">無必要條文</text>
+  <rect x="237" y="256" width="142" height="10" rx="5" fill="#16a34a" opacity="0.12"/>
+
+  <!-- 1.3 人力資源 -->
+  <rect x="405" y="108" width="174" height="166" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="405" y="108" width="174" height="8" rx="4" fill="#2563eb"/>
+  <rect x="405" y="112" width="174" height="4" fill="#2563eb"/>
+  <text x="492" y="140" text-anchor="middle" font-size="15" fill="#2563eb" font-weight="700">1.3</text>
+  <text x="492" y="158" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">人力資源管理</text>
+  <text x="492" y="182" text-anchor="middle" font-size="24" fill="#2563eb" font-weight="900">10 條</text>
+  <text x="492" y="210" text-anchor="middle" font-size="14" fill="#dc2626">必要：1.3.1-1.3.3</text>
+  <text x="492" y="228" text-anchor="middle" font-size="14" fill="#57534e">重點：1.3.5 職前</text>
+  <text x="492" y="248" text-anchor="middle" font-size="14" fill="#57534e">1.3.6 在職訓練</text>
+  <rect x="421" y="256" width="142" height="10" rx="5" fill="#dc2626" opacity="0.25"/>
+
+  <!-- 1.4 病歷資訊 -->
+  <rect x="589" y="108" width="174" height="166" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="589" y="108" width="174" height="8" rx="4" fill="#0d9488"/>
+  <rect x="589" y="112" width="174" height="4" fill="#0d9488"/>
+  <text x="676" y="140" text-anchor="middle" font-size="15" fill="#0d9488" font-weight="700">1.4</text>
+  <text x="676" y="158" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">病歷資訊管理</text>
+  <text x="676" y="182" text-anchor="middle" font-size="24" fill="#0d9488" font-weight="900">4 條</text>
+  <text x="676" y="210" text-anchor="middle" font-size="14" fill="#dc2626">必要：1.4.1</text>
+  <text x="676" y="228" text-anchor="middle" font-size="14" fill="#57534e">重點：1.4.2</text>
+  <text x="676" y="248" text-anchor="middle" font-size="14" fill="#57534e">資訊安全管理</text>
+  <rect x="605" y="256" width="142" height="10" rx="5" fill="#dc2626" opacity="0.25"/>
+
+  <!-- 下排 居中 3個 -->
+  <!-- 1.5 安全環境 -->
+  <rect x="129" y="294" width="174" height="156" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="294" width="174" height="8" rx="4" fill="#4f46e5"/>
+  <rect x="129" y="298" width="174" height="4" fill="#4f46e5"/>
+  <text x="216" y="326" text-anchor="middle" font-size="15" fill="#4f46e5" font-weight="700">1.5</text>
+  <text x="216" y="344" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">安全環境設備</text>
+  <text x="216" y="368" text-anchor="middle" font-size="24" fill="#4f46e5" font-weight="900">7 條</text>
+  <text x="216" y="396" text-anchor="middle" font-size="14" fill="#dc2626">必要：1.5.2 消防</text>
+  <text x="216" y="414" text-anchor="middle" font-size="14" fill="#57534e">重點：1.5.3 設備</text>
+  <text x="216" y="432" text-anchor="middle" font-size="14" fill="#57534e">1.5.4 危險物品</text>
+  <rect x="145" y="438" width="142" height="10" rx="5" fill="#dc2626" opacity="0.25"/>
+
+  <!-- 1.6 病人服務 -->
+  <rect x="313" y="294" width="174" height="156" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="313" y="294" width="174" height="8" rx="4" fill="#9333ea"/>
+  <rect x="313" y="298" width="174" height="4" fill="#9333ea"/>
+  <text x="400" y="326" text-anchor="middle" font-size="15" fill="#9333ea" font-weight="700">1.6</text>
+  <text x="400" y="344" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">病人導向服務</text>
+  <text x="400" y="368" text-anchor="middle" font-size="24" fill="#9333ea" font-weight="900">4 條</text>
+  <text x="400" y="396" text-anchor="middle" font-size="14" fill="#57534e">重點：1.6.3</text>
+  <text x="400" y="414" text-anchor="middle" font-size="14" fill="#57534e">病人滿意度</text>
+  <text x="400" y="432" text-anchor="middle" font-size="14" fill="#57534e">無必要條文</text>
+  <rect x="329" y="438" width="142" height="10" rx="5" fill="#9333ea" opacity="0.12"/>
+
+  <!-- 1.7 風險管理 -->
+  <rect x="497" y="294" width="174" height="156" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="497" y="294" width="174" height="8" rx="4" fill="#dc2626"/>
+  <rect x="497" y="298" width="174" height="4" fill="#dc2626"/>
+  <text x="584" y="326" text-anchor="middle" font-size="15" fill="#dc2626" font-weight="700">1.7</text>
+  <text x="584" y="344" text-anchor="middle" font-size="15" fill="#1e293b" font-weight="700">風險危機管理</text>
+  <text x="584" y="368" text-anchor="middle" font-size="24" fill="#dc2626" font-weight="900">5 條</text>
+  <text x="584" y="396" text-anchor="middle" font-size="14" fill="#57534e">重點：1.7.1 風險</text>
+  <text x="584" y="414" text-anchor="middle" font-size="14" fill="#57534e">1.7.2 醫療事故</text>
+  <text x="584" y="432" text-anchor="middle" font-size="14" fill="#57534e">1.7.4 大量傷患</text>
+  <rect x="513" y="438" width="142" height="10" rx="5" fill="#dc2626" opacity="0.12"/>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 頂部標題區塊 -->
+  <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
+  <text x="400" y="52" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">1.5章安全環境三大關鍵條文</text>
+  <text x="400" y="82" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">必要條文與重點條文共同構成安全環境管理核心</text>
+
+  <!-- 列 1 (y=128, H=90)：1.5.2 消防安全管理（必要條文） -->
+  <rect x="38" y="128" width="724" height="90" rx="10" fill="#fff1f2"/>
+  <rect x="38" y="128" width="6" height="90" rx="3" fill="#dc2626"/>
+  <!-- 左側圓圈編號 -->
+  <circle cx="80" cy="173" r="22" fill="#dc2626"/>
+  <text x="80" y="178" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1.5.2</text>
+  <!-- 標題 -->
+  <text x="118" y="156" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#7f1d1d">1.5.2 消防安全管理（必要條文）</text>
+  <!-- 說明 -->
+  <text x="118" y="177" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">資料查核＋實地查核，設備維護+年度2次演練含夜間+病人疏散計畫</text>
+  <!-- 右側標籤 -->
+  <rect x="622" y="149" width="116" height="26" rx="13" fill="#dc2626"/>
+  <text x="680" y="167" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">最嚴格</text>
+  <!-- 副說明 -->
+  <text x="118" y="200" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">必要條文：未符合將嚴重影響評鑑結果，資料查核與實地走查雙重審查</text>
+
+  <!-- 列 2 (y=231, H=90)：1.5.1 建築物安全管理（重點條文） -->
+  <rect x="38" y="231" width="724" height="90" rx="10" fill="#fffbeb"/>
+  <rect x="38" y="231" width="6" height="90" rx="3" fill="#d97706"/>
+  <!-- 左側圓圈編號 -->
+  <circle cx="80" cy="276" r="22" fill="#d97706"/>
+  <text x="80" y="281" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1.5.1</text>
+  <!-- 標題 -->
+  <text x="118" y="259" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78350f">1.5.1 建築物安全管理（重點條文）</text>
+  <!-- 說明 -->
+  <text x="118" y="280" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">資料查核＋實地查核，建築法規合規、無障礙設施、備用電源</text>
+  <!-- 右側標籤 -->
+  <rect x="622" y="252" width="116" height="26" rx="13" fill="#d97706"/>
+  <text x="680" y="270" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">實地查核</text>
+  <!-- 副說明 -->
+  <text x="118" y="303" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">使用執照合法、定期維護紀錄、緊急備用電源，實地查核建築狀況</text>
+
+  <!-- 列 3 (y=334, H=90)：1.5.5 緊急應變計畫（重點條文） -->
+  <rect x="38" y="334" width="724" height="90" rx="10" fill="#f5f5f4"/>
+  <rect x="38" y="334" width="6" height="90" rx="3" fill="#78716c"/>
+  <!-- 左側圓圈編號 -->
+  <circle cx="80" cy="379" r="22" fill="#78716c"/>
+  <text x="80" y="384" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1.5.5</text>
+  <!-- 標題 -->
+  <text x="118" y="362" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">1.5.5 緊急應變計畫（重點條文）</text>
+  <!-- 說明 -->
+  <text x="118" y="383" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">資料查核，多災害情境計畫、定期演練、指揮體系、外部聯繫</text>
+  <!-- 右側標籤 -->
+  <rect x="622" y="355" width="116" height="26" rx="13" fill="#78716c"/>
+  <text x="680" y="373" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">計畫完整</text>
+  <!-- 副說明 -->
+  <text x="118" y="406" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">全面性緊急應變計畫、演練紀錄、指揮系統明確、外部救護聯繫機制</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+</svg>

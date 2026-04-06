@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 頂部標題區塊 -->
+  <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">夜間疏散演練實戰SOP</text>
+  <text x="400" y="76" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">夜班人力精簡，演練更考驗實際應變能力</text>
+
+  <!-- 步驟 1 (y=128)：啟動警報 -->
+  <rect x="38" y="128" width="724" height="82" rx="10" fill="#fff1f2"/>
+  <rect x="38" y="128" width="6" height="82" rx="3" fill="#dc2626"/>
+  <rect x="50" y="140" width="72" height="26" rx="13" fill="#dc2626"/>
+  <text x="86" y="158" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 01</text>
+  <text x="138" y="156" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#7f1d1d">啟動警報</text>
+  <text x="138" y="177" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">夜班護理長收到演練啟動信號，廣播緊急疏散，通知所有夜班人員就位</text>
+  <text x="138" y="197" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">護理師、照服員、保全、夜班行政人員均需就位，計時從警報啟動開始</text>
+  <rect x="624" y="144" width="116" height="26" rx="13" fill="#dc2626"/>
+  <text x="682" y="162" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">警報啟動</text>
+
+  <!-- 步驟 2 (y=228)：病人分類 -->
+  <rect x="38" y="228" width="724" height="82" rx="10" fill="#fffbeb"/>
+  <rect x="38" y="228" width="6" height="82" rx="3" fill="#d97706"/>
+  <rect x="50" y="240" width="72" height="26" rx="13" fill="#d97706"/>
+  <text x="86" y="258" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 02</text>
+  <text x="138" y="256" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78350f">病人分類</text>
+  <text x="138" y="277" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">依行動能力分類：可自行走動、需協助、輪椅、臥床，優先疏散高風險病人</text>
+  <text x="138" y="297" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">自行走動者引導至安全區後，人員返回協助其他病人，最後處理臥床病人</text>
+  <rect x="624" y="244" width="116" height="26" rx="13" fill="#d97706"/>
+  <text x="682" y="262" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">分類優先</text>
+
+  <!-- 步驟 3 (y=328)：水平疏散 -->
+  <rect x="38" y="328" width="724" height="82" rx="10" fill="#f5f5f4"/>
+  <rect x="38" y="328" width="6" height="82" rx="3" fill="#78716c"/>
+  <rect x="50" y="340" width="72" height="26" rx="13" fill="#78716c"/>
+  <text x="86" y="358" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 03</text>
+  <text x="138" y="356" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">水平疏散</text>
+  <text x="138" y="377" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">優先執行水平疏散（到防煙區隔），臥床病人使用滑板或輪椅移動到安全區</text>
+  <text x="138" y="397" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">關閉防火門隔絕煙火，電梯禁止使用，垂直疏散為最後手段</text>
+  <rect x="624" y="344" width="116" height="26" rx="13" fill="#78716c"/>
+  <text x="682" y="362" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">水平優先</text>
+
+  <!-- 步驟 4 (y=424)：記錄與總結 -->
+  <rect x="38" y="420" width="724" height="58" rx="10" fill="#f5f5f4"/>
+  <rect x="38" y="420" width="6" height="58" rx="3" fill="#57534e"/>
+  <rect x="50" y="430" width="72" height="26" rx="13" fill="#57534e"/>
+  <text x="86" y="448" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 04</text>
+  <text x="138" y="446" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">記錄與總結</text>
+  <text x="138" y="465" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">記錄疏散時間、發現問題，事後填寫演練紀錄，主管簽核歸檔備查</text>
+  <rect x="624" y="434" width="116" height="26" rx="13" fill="#57534e"/>
+  <text x="682" y="452" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">即時記錄</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="490" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+</svg>

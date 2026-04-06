@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">114年度醫院評鑑基準分類</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">共 124 條，優先確保 20 項必要條文不失分</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 水平條狀圖 -->
+  <!-- 總寬度：660px，從 x=100 到 x=760 -->
+  <!-- 必要 20/124 = 16.1% → 106px -->
+  <!-- 重點 42/124 = 33.9% → 224px -->
+  <!-- 可免評 25/124 = 20.2% → 133px -->
+  <!-- 一般 37/124 = 29.8% → 197px -->
+
+  <!-- 類別 1：必要 20項 -->
+  <rect x="28" y="136" width="744" height="70" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="136" width="6" height="70" rx="2" fill="#dc2626"/>
+  <text x="52" y="163" font-size="20" fill="#1e293b" font-weight="700">必要</text>
+  <text x="52" y="185" font-size="16" fill="#57534e">不合格視為重大缺失，影響整體評鑑結果</text>
+  <!-- 進度條 -->
+  <rect x="240" y="153" width="480" height="28" rx="14" fill="#f5f5f4"/>
+  <rect x="240" y="153" width="77" height="28" rx="14" fill="#dc2626"/>
+  <text x="280" y="172" text-anchor="middle" font-size="16" fill="white" font-weight="700">20 項</text>
+  <text x="736" y="172" text-anchor="end" font-size="16" fill="#78716c">16%</text>
+
+  <!-- 類別 2：重點 42項 -->
+  <rect x="28" y="220" width="744" height="70" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="220" width="6" height="70" rx="2" fill="#d97706"/>
+  <text x="52" y="247" font-size="20" fill="#1e293b" font-weight="700">重點</text>
+  <text x="52" y="269" font-size="16" fill="#57534e">重要領域嚴格查核，建議優先準備</text>
+  <rect x="240" y="237" width="480" height="28" rx="14" fill="#f5f5f4"/>
+  <rect x="240" y="237" width="163" height="28" rx="14" fill="#d97706"/>
+  <text x="322" y="256" text-anchor="middle" font-size="16" fill="white" font-weight="700">42 項</text>
+  <text x="736" y="256" text-anchor="end" font-size="16" fill="#78716c">34%</text>
+
+  <!-- 類別 3：可免評 25項 -->
+  <rect x="28" y="304" width="744" height="70" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="304" width="6" height="70" rx="2" fill="#78716c"/>
+  <text x="52" y="331" font-size="20" fill="#1e293b" font-weight="700">可免評</text>
+  <text x="52" y="353" font-size="16" fill="#57534e">符合免評條件者可不計入，需書面說明</text>
+  <rect x="240" y="321" width="480" height="28" rx="14" fill="#f5f5f4"/>
+  <rect x="240" y="321" width="97" height="28" rx="14" fill="#78716c"/>
+  <text x="289" y="340" text-anchor="middle" font-size="16" fill="white" font-weight="700">25 項</text>
+  <text x="736" y="340" text-anchor="end" font-size="16" fill="#78716c">20%</text>
+
+  <!-- 類別 4：一般 37項 -->
+  <rect x="28" y="388" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="388" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <text x="52" y="413" font-size="20" fill="#1e293b" font-weight="700">一般</text>
+  <text x="52" y="433" font-size="16" fill="#57534e">一般性評鑑條文，整體準備兼顧即可</text>
+  <rect x="240" y="402" width="480" height="28" rx="14" fill="#f5f5f4"/>
+  <rect x="240" y="402" width="143" height="28" rx="14" fill="#a8a29e"/>
+  <text x="312" y="421" text-anchor="middle" font-size="16" fill="white" font-weight="700">37 項</text>
+  <text x="736" y="421" text-anchor="end" font-size="16" fill="#78716c">30%</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

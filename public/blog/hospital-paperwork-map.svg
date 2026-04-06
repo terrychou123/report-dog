@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="68" fill="#1c1917"/>
+  <text x="400" y="42" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">跨章節文書需求地圖</text>
+
+  <!-- 列1 — 第一篇 經營管理面文書 (#d97706)，y=166 -->
+  <rect x="32" y="128" width="736" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="128" width="8" height="90" rx="4" fill="#d97706"/>
+  <text x="56" y="157" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">第一篇 經營管理面文書</text>
+  <text x="56" y="179" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">人力配置紀錄（1.3）、病歷管理（1.4）、消防演練（1.5）</text>
+  <text x="56" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">教育訓練（1.3.5–1.3.9）等，跨5章節，由管理部門主導產出</text>
+  <!-- 右側標籤 -->
+  <rect x="648" y="150" width="100" height="32" rx="16" fill="#d97706" opacity="0.15"/>
+  <text x="698" y="171" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">經營管理</text>
+
+  <!-- 列2 — 第二篇 醫療照護面文書 (#78716c)，y=269 -->
+  <rect x="32" y="231" width="736" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="231" width="8" height="90" rx="4" fill="#78716c"/>
+  <text x="56" y="260" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">第二篇 醫療照護面文書</text>
+  <text x="56" y="282" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">護理評估（2.3）、用藥安全（2.5）、手術查核（2.6）</text>
+  <text x="56" y="303" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">感染管制（2.7）等，跨7章節，量最大且查核最頻繁</text>
+  <rect x="648" y="253" width="100" height="32" rx="16" fill="#78716c" opacity="0.15"/>
+  <text x="698" y="274" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">醫療照護</text>
+
+  <!-- 列3 — 品質安全面文書 (#57534e)，y=372 -->
+  <rect x="32" y="334" width="736" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="334" width="8" height="90" rx="4" fill="#57534e"/>
+  <text x="56" y="363" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">品質安全面文書</text>
+  <text x="56" y="385" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">品質指標（2.2.1）、異常事件RCA（2.2.3）、病安文化（2.2.2）</text>
+  <text x="56" y="406" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">核心文書，委員最重視改善計畫閉環管理</text>
+  <rect x="648" y="356" width="100" height="32" rx="16" fill="#57534e" opacity="0.12"/>
+  <text x="698" y="377" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">品安核心</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+</svg>

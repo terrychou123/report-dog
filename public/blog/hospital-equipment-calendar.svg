@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9" />
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="80" fill="#0d9488" />
+  <text x="400" y="35" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">設備與危險物品全年追蹤管理曆</text>
+  <text x="400" y="60" font-size="13" fill="#ccfbf1" text-anchor="middle">按季追蹤確保維護紀錄完整，可供評鑑查核</text>
+
+  <!-- 列1：第一季（y=92） -->
+  <rect x="30" y="92" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="92" width="6" height="88" rx="3" fill="#d97706" />
+  <rect x="36" y="92" width="100" height="88" fill="#fffbeb" />
+  <text x="86" y="128" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">第一季</text>
+  <text x="86" y="148" font-size="12" fill="#d97706" text-anchor="middle">1-3月</text>
+  <line x1="136" y1="100" x2="136" y2="172" stroke="#e7e5e4" stroke-width="1" />
+  <text x="155" y="120" font-size="14" font-weight="700" fill="#1c1917">計畫訂定期</text>
+  <text x="155" y="142" font-size="12" fill="#57534e">年度設備維護計畫訂定、年初設備清冊更新盤點、</text>
+  <text x="155" y="162" font-size="12" fill="#57534e">危險物品清冊核對</text>
+  <rect x="648" y="114" width="90" height="26" rx="6" fill="#fef3c7" />
+  <text x="693" y="132" font-size="12" fill="#92400e" text-anchor="middle" font-weight="600">計畫訂定</text>
+
+  <!-- 列2：第二季（y=192） -->
+  <rect x="30" y="192" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="192" width="6" height="88" rx="3" fill="#78716c" />
+  <rect x="36" y="192" width="100" height="88" fill="#f5f5f4" />
+  <text x="86" y="228" font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">第二季</text>
+  <text x="86" y="248" font-size="12" fill="#78716c" text-anchor="middle">4-6月</text>
+  <line x1="136" y1="200" x2="136" y2="272" stroke="#e7e5e4" stroke-width="1" />
+  <text x="155" y="220" font-size="14" font-weight="700" fill="#1c1917">維護執行期</text>
+  <text x="155" y="242" font-size="12" fill="#57534e">執行上半年預防性維護、高風險設備半年度安全查核、</text>
+  <text x="155" y="262" font-size="12" fill="#57534e">危險物品SDS版本更新</text>
+  <rect x="648" y="214" width="90" height="26" rx="6" fill="#f5f5f4" />
+  <text x="693" y="232" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">維護執行</text>
+
+  <!-- 列3：第三季（y=292） -->
+  <rect x="30" y="292" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="292" width="6" height="88" rx="3" fill="#57534e" />
+  <rect x="36" y="292" width="100" height="88" fill="#f5f5f4" />
+  <text x="86" y="328" font-size="13" font-weight="700" fill="#44403c" text-anchor="middle">第三季</text>
+  <text x="86" y="348" font-size="12" fill="#57534e" text-anchor="middle">7-9月</text>
+  <line x1="136" y1="300" x2="136" y2="372" stroke="#e7e5e4" stroke-width="1" />
+  <text x="155" y="320" font-size="14" font-weight="700" fill="#1c1917">中期評估期</text>
+  <text x="155" y="342" font-size="12" fill="#57534e">中期設備維護成效評估、新增設備清冊更新、</text>
+  <text x="155" y="362" font-size="12" fill="#57534e">危險物品洩漏演練</text>
+  <rect x="648" y="314" width="90" height="26" rx="6" fill="#f5f5f4" />
+  <text x="693" y="332" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">中期評估</text>
+
+  <!-- 列4：第四季（y=392） -->
+  <rect x="30" y="392" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="392" width="6" height="88" rx="3" fill="#a8a29e" />
+  <rect x="36" y="392" width="100" height="88" fill="#f5f5f4" />
+  <text x="86" y="428" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">第四季</text>
+  <text x="86" y="448" font-size="12" fill="#a8a29e" text-anchor="middle">10-12月</text>
+  <line x1="136" y1="400" x2="136" y2="472" stroke="#e7e5e4" stroke-width="1" />
+  <text x="155" y="420" font-size="14" font-weight="700" fill="#1c1917">年度結案期</text>
+  <text x="155" y="442" font-size="12" fill="#57534e">年度維護紀錄彙整、設備訓練完成率確認、</text>
+  <text x="155" y="462" font-size="12" fill="#57534e">次年維護計畫規劃</text>
+  <rect x="648" y="414" width="90" height="26" rx="6" fill="#f5f5f4" />
+  <text x="693" y="432" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">年度結案</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">品質指標管理的PDCA持續改善循環</text>
+  <text x="400" y="76" text-anchor="middle" font-size="20" fill="#57534e">每個循環結束後，Act確認環節不可遺漏</text>
+  <line x1="28" y1="92" x2="772" y2="92" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=4 flow：card_w=174, arrow_gap=16 -->
+  <!-- card[0]: x=28  cx=115 -->
+  <!-- card[1]: x=218 cx=305 -->
+  <!-- card[2]: x=408 cx=495 -->
+  <!-- card[3]: x=598 cx=685 -->
+
+  <!-- 箭頭 arrow_y=279 -->
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,273 218,279 202,285" fill="#c4bfb8"/>
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,273 408,279 392,285" fill="#c4bfb8"/>
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,273 598,279 582,285" fill="#c4bfb8"/>
+
+  <!-- Step 01：Plan 計畫 (#d97706) x=28 cx=115 -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="181" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">Plan</text>
+  <text x="115" y="214" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">計畫</text>
+  <text x="115" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">指標選定</text>
+  <text x="115" y="324" text-anchor="middle" font-size="18" fill="#57534e">年度指標清單</text>
+  <text x="115" y="346" text-anchor="middle" font-size="18" fill="#57534e">目標值與頻率</text>
+  <rect x="40" y="381" width="150" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="405" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">每年度初訂定</text>
+
+  <!-- Step 02：Do 執行 (#78716c) x=218 cx=305 -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="181" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">Do</text>
+  <text x="305" y="214" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">執行</text>
+  <text x="305" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">數據收集</text>
+  <text x="305" y="324" text-anchor="middle" font-size="18" fill="#57534e">每月/每季收集</text>
+  <text x="305" y="346" text-anchor="middle" font-size="18" fill="#57534e">標準化計算</text>
+  <rect x="230" y="381" width="150" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="405" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">依標準公式計算</text>
+
+  <!-- Step 03：Check 查核 (#57534e) x=408 cx=495 -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="181" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">Check</text>
+  <text x="495" y="214" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">查核</text>
+  <text x="495" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">趨勢分析</text>
+  <text x="495" y="324" text-anchor="middle" font-size="18" fill="#57534e">與目標值比較</text>
+  <text x="495" y="346" text-anchor="middle" font-size="18" fill="#57534e">找出異常原因</text>
+  <rect x="420" y="381" width="150" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="405" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">至少每季分析</text>
+
+  <!-- Step 04：Act 行動 (#a8a29e) x=598 cx=685 -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="181" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">Act</text>
+  <text x="685" y="214" text-anchor="middle" font-size="28" fill="#a8a29e" font-weight="700">行動</text>
+  <text x="685" y="297" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">改善執行</text>
+  <text x="685" y="324" text-anchor="middle" font-size="18" fill="#57534e">具體改善措施</text>
+  <text x="685" y="346" text-anchor="middle" font-size="18" fill="#57534e">下週期確認成效</text>
+  <rect x="610" y="381" width="150" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="405" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">最常被忽略環節</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

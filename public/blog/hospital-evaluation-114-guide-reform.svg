@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑制度改革前後對比</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">從4年大拜拜走向6年日常化品質管理</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 垂直分隔線 -->
+  <line x1="400" y1="104" x2="400" y2="450" stroke="#dedad3" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 左欄：舊制 -->
+  <rect x="28" y="108" width="354" height="52" rx="10" fill="#a8a29e" opacity="0.2"/>
+  <text x="205" y="140" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">舊制：4 年一評</text>
+
+  <rect x="28" y="172" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="172" width="6" height="76" rx="2" fill="#a8a29e"/>
+  <text x="52" y="200" font-size="18" fill="#1e293b" font-weight="700">備審方式</text>
+  <text x="52" y="222" font-size="16" fill="#57534e">評鑑前 1-2 個月臨時衝刺準備</text>
+  <text x="52" y="240" font-size="16" fill="#57534e">文件集中補建、全院熬夜整理</text>
+
+  <rect x="28" y="260" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="260" width="6" height="76" rx="2" fill="#a8a29e"/>
+  <text x="52" y="288" font-size="18" fill="#1e293b" font-weight="700">評鑑頻率</text>
+  <text x="52" y="310" font-size="16" fill="#57534e">每 4 年辦理一次</text>
+  <text x="52" y="328" font-size="16" fill="#57534e">評鑑壓力集中爆發</text>
+
+  <rect x="28" y="348" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="348" width="6" height="76" rx="2" fill="#a8a29e"/>
+  <text x="52" y="376" font-size="18" fill="#1e293b" font-weight="700">查核重點</text>
+  <text x="52" y="398" font-size="16" fill="#57534e">評鑑當天文件是否齊全</text>
+  <text x="52" y="416" font-size="16" fill="#57534e">書面資料完整度優先</text>
+
+  <!-- 右欄：新制 -->
+  <rect x="418" y="108" width="354" height="52" rx="10" fill="#d97706" opacity="0.15"/>
+  <text x="595" y="140" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">新制：6 年一評</text>
+
+  <rect x="418" y="172" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="418" y="172" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="442" y="200" font-size="18" fill="#1e293b" font-weight="700">備審方式</text>
+  <text x="442" y="222" font-size="16" fill="#57534e">日常化持續品質紀錄</text>
+  <text x="442" y="240" font-size="16" fill="#57534e">評鑑是日常品質的自然呈現</text>
+
+  <rect x="418" y="260" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="418" y="260" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="442" y="288" font-size="18" fill="#1e293b" font-weight="700">評鑑頻率</text>
+  <text x="442" y="310" font-size="16" fill="#57534e">每 6 年正式評鑑</text>
+  <text x="442" y="328" font-size="16" fill="#57534e">+ 常態性監測指標持續追蹤</text>
+
+  <rect x="418" y="348" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="418" y="348" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="442" y="376" font-size="18" fill="#1e293b" font-weight="700">查核重點</text>
+  <text x="442" y="398" font-size="16" fill="#57534e">過去幾年的持續性品質紀錄</text>
+  <text x="442" y="416" font-size="16" fill="#57534e">連續性改善比臨時衝刺更重要</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

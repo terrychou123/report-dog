@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="100" fill="#f5f5f4"/>
+  <text x="400" y="46" text-anchor="middle" font-size="26" font-weight="900" fill="#1c1917">20項必要條文6年持續管理策略</text>
+  <text x="400" y="76" text-anchor="middle" font-size="15" fill="#78716c">任何時候都不失守，AI輔助自我查核</text>
+
+  <!-- 步驟1：建立查核清冊 -->
+  <rect x="38" y="112" width="724" height="84" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="112" width="10" height="84" rx="5" fill="#d97706"/>
+  <!-- STEP 標籤 -->
+  <rect x="58" y="126" width="88" height="26" rx="6" fill="#fef3c7"/>
+  <text x="102" y="144" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">STEP 01</text>
+  <text x="160" y="140" font-size="17" font-weight="700" fill="#1c1917">建立查核清冊</text>
+  <text x="58" y="170" font-size="14" fill="#78716c">列出全部20項必要條文及各自的文書要求，指定負責部門</text>
+  <!-- Pill -->
+  <rect x="638" y="130" width="88" height="28" rx="14" fill="#fef3c7"/>
+  <text x="682" y="149" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">一次建立</text>
+
+  <!-- 步驟2：季度自我評估 -->
+  <rect x="38" y="208" width="724" height="84" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="208" width="10" height="84" rx="5" fill="#78716c"/>
+  <rect x="58" y="222" width="88" height="26" rx="6" fill="#f5f5f4"/>
+  <text x="102" y="240" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">STEP 02</text>
+  <text x="160" y="236" font-size="17" font-weight="700" fill="#1c1917">季度自我評估</text>
+  <text x="58" y="266" font-size="14" fill="#78716c">每季使用AI查核必要條文符合狀態，生成缺口報告，掌握現況</text>
+  <rect x="638" y="226" width="88" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="682" y="245" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">季度AI查核</text>
+
+  <!-- 步驟3：即時改善 -->
+  <rect x="38" y="304" width="724" height="84" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="304" width="10" height="84" rx="5" fill="#57534e"/>
+  <rect x="58" y="318" width="88" height="26" rx="6" fill="#f5f5f4"/>
+  <text x="102" y="336" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">STEP 03</text>
+  <text x="160" y="332" font-size="17" font-weight="700" fill="#1c1917">即時改善</text>
+  <text x="58" y="362" font-size="14" fill="#78716c">發現缺口立即改善，不等到評鑑，改善過程有完整改善紀錄</text>
+  <rect x="638" y="322" width="88" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="682" y="341" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">即時修補</text>
+
+  <!-- 步驟4：評鑑前衝刺 -->
+  <rect x="38" y="400" width="724" height="84" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="400" width="10" height="84" rx="5" fill="#a8a29e"/>
+  <rect x="58" y="414" width="88" height="26" rx="6" fill="#f5f5f4"/>
+  <text x="102" y="432" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="700">STEP 04</text>
+  <text x="160" y="428" font-size="17" font-weight="700" fill="#1c1917">評鑑前衝刺</text>
+  <text x="58" y="458" font-size="14" fill="#78716c">評鑑前3個月進行最終確認，確保所有必要條文100%符合</text>
+  <rect x="638" y="418" width="88" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="682" y="437" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="700">最終確認</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大數字 10 -->
+  <text x="1010" y="280" text-anchor="middle" font-size="200" fill="#d97706" font-weight="900" opacity="0.85">10</text>
+  <text x="1010" y="320" text-anchor="middle" font-size="26" fill="#78716c" font-weight="600">大常見失分條文</text>
+
+  <!-- 右側資訊卡片 2×2 -->
+  <rect x="840" y="350" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="918" y="387" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">20 項</text>
+  <text x="918" y="418" text-anchor="middle" font-size="22" fill="#78716c">全數為必要條文</text>
+
+  <rect x="1005" y="350" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1083" y="387" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">三重查核</text>
+  <text x="1083" y="418" text-anchor="middle" font-size="22" fill="#78716c">實地＋訪談＋資料</text>
+
+  <rect x="840" y="446" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="918" y="483" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">30 天</text>
+  <text x="918" y="514" text-anchor="middle" font-size="22" fill="#78716c">緊急修補方案</text>
+
+  <rect x="1005" y="446" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1083" y="483" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">感控</text>
+  <text x="1083" y="514" text-anchor="middle" font-size="22" fill="#78716c">用藥‧手術‧品管</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="542" width="320" height="46" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="572" text-anchor="middle" font-size="26" fill="#d97706" font-weight="700">AI 自我查核提前避雷</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="210" font-size="118" fill="#1e293b" font-weight="900">醫院評鑑</text>
+  <text x="60" y="330" font-size="110" fill="#d97706" font-weight="900">常見失分</text>
+
+  <!-- 左側分隔線 -->
+  <line x1="60" y1="358" x2="780" y2="358" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 左側副標題 -->
+  <text x="60" y="400" font-size="36" fill="#57534e">必要條文失分根因 × 真實場景 × 30天修補</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="428" width="160" height="48" rx="10" fill="#dc2626" opacity="0.12"/>
+  <text x="140" y="460" text-anchor="middle" font-size="26" fill="#dc2626" font-weight="600">感控三必要</text>
+
+  <rect x="232" y="428" width="160" height="48" rx="10" fill="#7c3aed" opacity="0.12"/>
+  <text x="312" y="460" text-anchor="middle" font-size="26" fill="#7c3aed" font-weight="600">用藥三必要</text>
+
+  <rect x="404" y="428" width="160" height="48" rx="10" fill="#0d9488" opacity="0.12"/>
+  <text x="484" y="460" text-anchor="middle" font-size="26" fill="#0d9488" font-weight="600">手術安全</text>
+
+  <rect x="576" y="428" width="160" height="48" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="656" y="460" text-anchor="middle" font-size="26" fill="#d97706" font-weight="600">護病比計算</text>
+
+  <!-- 第二排標籤 -->
+  <rect x="60" y="488" width="180" height="48" rx="10" fill="#2563eb" opacity="0.12"/>
+  <text x="150" y="520" text-anchor="middle" font-size="26" fill="#2563eb" font-weight="600">RCA品質提升</text>
+
+  <rect x="252" y="488" width="180" height="48" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="342" y="520" text-anchor="middle" font-size="26" fill="#16a34a" font-weight="600">消防演練</text>
+
+  <rect x="444" y="488" width="180" height="48" rx="10" fill="#4f46e5" opacity="0.12"/>
+  <text x="534" y="520" text-anchor="middle" font-size="26" fill="#4f46e5" font-weight="600">病歷時效</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="570" font-size="26" fill="#a8a29e">適用：醫院品管人員、護理主管、感控護理師</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="612" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

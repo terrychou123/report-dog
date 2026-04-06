@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="100" fill="#1c1917"/>
+  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">醫事人員配置（1.3.3）各類人員查核</text>
+  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle">必要條文／資料查核—各類醫事人員執照有效、執業登記完整</text>
+
+  <!-- 列1：藥師 -->
+  <rect x="38" y="110" width="724" height="80" rx="9" fill="#fffbeb"/>
+  <rect x="38" y="110" width="7" height="80" rx="4" fill="#d97706"/>
+  <text x="60" y="138" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#d97706">藥師</text>
+  <text x="60" y="158" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">依藥事法規定，門診/住院藥局藥師人數符合規定，執業登記完整可查核</text>
+  <text x="60" y="178" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">核心文件：藥師名冊、執業執照影本、藥局開放時數紀錄</text>
+  <rect x="622" y="128" width="122" height="32" rx="16" fill="#d97706"/>
+  <text x="683" y="149" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">藥師配置</text>
+
+  <!-- 列2：放射師、醫事檢驗師 -->
+  <rect x="38" y="200" width="724" height="80" rx="9" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="200" width="7" height="80" rx="4" fill="#78716c"/>
+  <text x="60" y="228" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#78716c">放射師、醫事檢驗師</text>
+  <text x="60" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">放射科、檢驗科人員配置符合醫療法規，高風險作業人員資格與執照完整</text>
+  <text x="60" y="268" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">核心文件：放射師/檢驗師名冊、執業執照、輻射安全人員資格</text>
+  <rect x="614" y="218" width="130" height="32" rx="16" fill="#78716c"/>
+  <text x="679" y="239" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">技術人員</text>
+
+  <!-- 列3：物理治療師、職能治療師 -->
+  <rect x="38" y="290" width="724" height="80" rx="9" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="290" width="7" height="80" rx="4" fill="#57534e"/>
+  <text x="60" y="318" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#57534e">物理治療師、職能治療師</text>
+  <text x="60" y="338" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">復健科人員依病人量合理配置，治療師執照有效且執業登記院所正確</text>
+  <text x="60" y="358" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">核心文件：治療師名冊、執業執照影本、排班紀錄</text>
+  <rect x="622" y="308" width="122" height="32" rx="16" fill="#57534e"/>
+  <text x="683" y="329" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">治療師</text>
+
+  <!-- 列4：其他醫事人員 -->
+  <rect x="38" y="380" width="724" height="80" rx="9" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="380" width="7" height="80" rx="4" fill="#a8a29e"/>
+  <text x="60" y="408" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#a8a29e">其他醫事人員</text>
+  <text x="60" y="428" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">語言治療師、臨床心理師、醫療社工等依服務需求配置，執照文件齊全</text>
+  <text x="60" y="448" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">核心文件：各類人員名冊、執業執照、服務紀錄</text>
+  <rect x="622" y="398" width="122" height="32" rx="16" fill="#a8a29e"/>
+  <text x="683" y="419" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">其他類別</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">報告汪 reportwang.com</text>
+</svg>

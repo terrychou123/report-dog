@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="40" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">5-Why分析法：從表面到系統根本原因</text>
+  <text x="400" y="66" text-anchor="middle" font-size="18" fill="#57534e">案例：護理師給藥劑量錯誤事件</text>
+  <line x1="28" y1="80" x2="772" y2="80" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=5 flow：card_w=140, margin=28 -->
+  <!-- card[0]: x=28  cx=98 -->
+  <!-- card[1]: x=180 cx=250 -->
+  <!-- card[2]: x=332 cx=402 -->
+  <!-- card[3]: x=484 cx=554 -->
+  <!-- card[4]: x=636 cx=706 -->
+
+  <!-- 箭頭 arrow_y=279 -->
+  <line x1="168" y1="279" x2="180" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="168,273 180,279 168,285" fill="#c4bfb8"/>
+  <line x1="320" y1="279" x2="332" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="320,273 332,279 320,285" fill="#c4bfb8"/>
+  <line x1="472" y1="279" x2="484" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="472,273 484,279 472,285" fill="#c4bfb8"/>
+  <line x1="624" y1="279" x2="636" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="624,273 636,279 624,285" fill="#c4bfb8"/>
+
+  <!-- Step 01：表面問題 (#d97706) x=28 cx=98 -->
+  <rect x="28" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="140" height="4" fill="#d97706"/>
+  <circle cx="98" cy="189" r="35" fill="#fef3c7"/>
+  <text x="98" y="180" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">Why</text>
+  <text x="98" y="203" text-anchor="middle" font-size="22" fill="#d97706" font-weight="700">01</text>
+  <text x="98" y="277" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">為何出錯</text>
+  <text x="98" y="301" text-anchor="middle" font-size="14" fill="#57534e">護理師給了</text>
+  <text x="98" y="320" text-anchor="middle" font-size="14" fill="#57534e">2倍劑量</text>
+  <rect x="38" y="376" width="120" height="34" rx="17" fill="#fef3c7"/>
+  <text x="98" y="398" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">表面問題</text>
+
+  <!-- Step 02：第一層 (#78716c) x=180 cx=250 -->
+  <rect x="180" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="108" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="112" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="250" y="180" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">Why</text>
+  <text x="250" y="203" text-anchor="middle" font-size="22" fill="#78716c" font-weight="700">02</text>
+  <text x="250" y="277" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">為何誤讀</text>
+  <text x="250" y="301" text-anchor="middle" font-size="14" fill="#57534e">混淆兩個</text>
+  <text x="250" y="320" text-anchor="middle" font-size="14" fill="#57534e">外觀相似藥品</text>
+  <rect x="190" y="376" width="120" height="34" rx="17" fill="#f5f5f4"/>
+  <text x="250" y="398" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">人員原因</text>
+
+  <!-- Step 03：第二層 (#57534e) x=332 cx=402 -->
+  <rect x="332" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="108" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="112" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="189" r="35" fill="#f5f0eb"/>
+  <text x="402" y="180" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">Why</text>
+  <text x="402" y="203" text-anchor="middle" font-size="22" fill="#57534e" font-weight="700">03</text>
+  <text x="402" y="277" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">為何未核對</text>
+  <text x="402" y="301" text-anchor="middle" font-size="14" fill="#57534e">夜班忙碌</text>
+  <text x="402" y="320" text-anchor="middle" font-size="14" fill="#57534e">跳過雙重查核</text>
+  <rect x="342" y="376" width="120" height="34" rx="17" fill="#f5f0eb"/>
+  <text x="402" y="398" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">流程原因</text>
+
+  <!-- Step 04：第三層 (#a8a29e) x=484 cx=554 -->
+  <rect x="484" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="108" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="112" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="189" r="35" fill="#f5f5f4"/>
+  <text x="554" y="180" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">Why</text>
+  <text x="554" y="203" text-anchor="middle" font-size="22" fill="#a8a29e" font-weight="700">04</text>
+  <text x="554" y="277" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">為何能跳過</text>
+  <text x="554" y="301" text-anchor="middle" font-size="14" fill="#57534e">系統無強制</text>
+  <text x="554" y="320" text-anchor="middle" font-size="14" fill="#57534e">雙簽欄位</text>
+  <rect x="494" y="376" width="120" height="34" rx="17" fill="#f5f5f4"/>
+  <text x="554" y="398" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">制度原因</text>
+
+  <!-- Step 05：系統根本 (#dc2626) x=636 cx=706 -->
+  <rect x="636" y="108" width="140" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="108" width="140" height="8" rx="4" fill="#dc2626"/>
+  <rect x="636" y="112" width="140" height="4" fill="#dc2626"/>
+  <circle cx="706" cy="189" r="35" fill="#fef2f2"/>
+  <text x="706" y="180" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="700">根本</text>
+  <text x="706" y="203" text-anchor="middle" font-size="22" fill="#dc2626" font-weight="700">原因</text>
+  <text x="706" y="277" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">系統缺陷</text>
+  <text x="706" y="301" text-anchor="middle" font-size="14" fill="#57534e">電子系統未</text>
+  <text x="706" y="320" text-anchor="middle" font-size="14" fill="#57534e">設強制雙核</text>
+  <rect x="646" y="376" width="120" height="34" rx="17" fill="#fef2f2"/>
+  <text x="706" y="398" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="600">系統根本</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

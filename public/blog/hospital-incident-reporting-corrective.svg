@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="44" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">RCA改善措施品質：合格 vs 常見缺失</text>
+  <line x1="28" y1="60" x2="772" y2="60" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 左欄標題：不合格 -->
+  <rect x="28" y="70" width="358" height="48" rx="8" fill="#fee2e2"/>
+  <text x="207" y="101" text-anchor="middle" font-size="22" fill="#dc2626" font-weight="700">常見缺失寫法（不合格）</text>
+
+  <!-- 右欄標題：合格 -->
+  <rect x="414" y="70" width="358" height="48" rx="8" fill="#dcfce7"/>
+  <text x="593" y="101" text-anchor="middle" font-size="22" fill="#16a34a" font-weight="700">符合評鑑標準（合格）</text>
+
+  <!-- 中間分隔線 -->
+  <line x1="400" y1="70" x2="400" y2="465" stroke="#dedad3" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- 左欄 Row 1 -->
+  <rect x="28" y="132" width="358" height="72" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <rect x="28" y="132" width="5" height="72" rx="3" fill="#dc2626"/>
+  <text x="46" y="156" font-size="16" fill="#dc2626" font-weight="700">根本原因：</text>
+  <text x="46" y="178" font-size="16" fill="#57534e">護理師疏失，未確認藥品劑量</text>
+  <text x="46" y="196" font-size="14" fill="#a8a29e">（個人歸咎，非系統分析）</text>
+
+  <!-- 右欄 Row 1 -->
+  <rect x="414" y="132" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <rect x="414" y="132" width="5" height="72" rx="3" fill="#16a34a"/>
+  <text x="432" y="156" font-size="16" fill="#16a34a" font-weight="700">根本原因：</text>
+  <text x="432" y="178" font-size="16" fill="#57534e">電子系統無強制雙重查核機制</text>
+  <text x="432" y="196" font-size="14" fill="#57534e">（系統設計缺陷，可防呆改善）</text>
+
+  <!-- 左欄 Row 2 -->
+  <rect x="28" y="218" width="358" height="72" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <rect x="28" y="218" width="5" height="72" rx="3" fill="#dc2626"/>
+  <text x="46" y="242" font-size="16" fill="#dc2626" font-weight="700">改善措施：</text>
+  <text x="46" y="264" font-size="16" fill="#57534e">加強教育訓練，提醒護理師注意</text>
+  <text x="46" y="282" font-size="14" fill="#a8a29e">（無負責人、無完成日期、無驗證）</text>
+
+  <!-- 右欄 Row 2 -->
+  <rect x="414" y="218" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <rect x="414" y="218" width="5" height="72" rx="3" fill="#16a34a"/>
+  <text x="432" y="242" font-size="16" fill="#16a34a" font-weight="700">改善措施：</text>
+  <text x="432" y="264" font-size="16" fill="#57534e">資訊室於電子系統新增強制雙簽欄</text>
+  <text x="432" y="282" font-size="14" fill="#57534e">位（資訊主任，2024/12/31前完成）</text>
+
+  <!-- 左欄 Row 3 -->
+  <rect x="28" y="304" width="358" height="72" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <rect x="28" y="304" width="5" height="72" rx="3" fill="#dc2626"/>
+  <text x="46" y="328" font-size="16" fill="#dc2626" font-weight="700">3個月追蹤：</text>
+  <text x="46" y="350" font-size="16" fill="#57534e">（空白，無追蹤文件）</text>
+  <text x="46" y="368" font-size="14" fill="#a8a29e">評鑑委員抽查→此項必定失分</text>
+
+  <!-- 右欄 Row 3 -->
+  <rect x="414" y="304" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <rect x="414" y="304" width="5" height="72" rx="3" fill="#16a34a"/>
+  <text x="432" y="328" font-size="16" fill="#16a34a" font-weight="700">3個月追蹤：</text>
+  <text x="432" y="350" font-size="16" fill="#57534e">系統已上線，感控稽查執行率98%</text>
+  <text x="432" y="368" font-size="14" fill="#57534e">3個月內同類事件0件，追蹤閉環</text>
+
+  <!-- 左欄 Row 4：評鑑結果 -->
+  <rect x="28" y="390" width="358" height="52" rx="8" fill="#fee2e2"/>
+  <text x="207" y="421" text-anchor="middle" font-size="18" fill="#dc2626" font-weight="700">評鑑委員評定：不符合</text>
+  <text x="207" y="438" text-anchor="middle" font-size="14" fill="#dc2626">RCA做了，但品質不足</text>
+
+  <!-- 右欄 Row 4：評鑑結果 -->
+  <rect x="414" y="390" width="358" height="52" rx="8" fill="#dcfce7"/>
+  <text x="593" y="421" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">評鑑委員評定：符合</text>
+  <text x="593" y="438" text-anchor="middle" font-size="14" fill="#16a34a">根本原因挖到系統，改善可驗證</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9" />
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="90" fill="#1c1917" />
+  <text x="400" y="38" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">高風險設備使用前安全查核流程</text>
+  <text x="400" y="65" font-size="13" fill="#d6d3d1" text-anchor="middle">使用前確認，防止設備故障危害病人安全</text>
+  <text x="400" y="83" font-size="11" fill="#a8a29e" text-anchor="middle">適用設備：呼吸器、電刀、除顫器等高風險醫療設備</text>
+
+  <!-- 連接箭頭 -->
+  <line x1="400" y1="162" x2="400" y2="192" stroke="#d6d3d1" stroke-width="2" stroke-dasharray="4,2" />
+  <line x1="400" y1="262" x2="400" y2="292" stroke="#d6d3d1" stroke-width="2" stroke-dasharray="4,2" />
+  <line x1="400" y1="362" x2="400" y2="392" stroke="#d6d3d1" stroke-width="2" stroke-dasharray="4,2" />
+
+  <!-- 步驟1：取出設備 -->
+  <rect x="30" y="100" width="740" height="88" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2" />
+  <rect x="30" y="100" width="100" height="88" rx="10" fill="#d97706" />
+  <!-- 蓋住右圓角 -->
+  <rect x="100" y="100" width="30" height="88" fill="#d97706" />
+  <text x="80" y="138" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="158" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">01</text>
+  <text x="145" y="130" font-size="15" font-weight="700" fill="#1c1917">取出設備</text>
+  <text x="145" y="152" font-size="12" fill="#57534e">從指定位置取出設備，確認設備外觀無破損、電源線完整</text>
+  <rect x="590" y="122" width="90" height="26" rx="13" fill="#fef3c7" />
+  <text x="635" y="140" font-size="12" fill="#92400e" text-anchor="middle" font-weight="600">外觀確認</text>
+
+  <!-- 步驟2：功能自我測試 -->
+  <rect x="30" y="200" width="740" height="88" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2" />
+  <rect x="30" y="200" width="100" height="88" rx="10" fill="#78716c" />
+  <rect x="100" y="200" width="30" height="88" fill="#78716c" />
+  <text x="80" y="238" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="258" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">02</text>
+  <text x="145" y="230" font-size="15" font-weight="700" fill="#1c1917">功能自我測試</text>
+  <text x="145" y="252" font-size="12" fill="#57534e">開機執行設備自我測試，確認警報功能、壓力/電力輸出正常</text>
+  <rect x="590" y="222" width="90" height="26" rx="13" fill="#f5f5f4" />
+  <text x="635" y="240" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">功能測試</text>
+
+  <!-- 步驟3：填寫查核表 -->
+  <rect x="30" y="300" width="740" height="88" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2" />
+  <rect x="30" y="300" width="100" height="88" rx="10" fill="#57534e" />
+  <rect x="100" y="300" width="30" height="88" fill="#57534e" />
+  <text x="80" y="338" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="358" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">03</text>
+  <text x="145" y="330" font-size="15" font-weight="700" fill="#1c1917">填寫查核表</text>
+  <text x="145" y="352" font-size="12" fill="#57534e">完成使用前安全查核清單，簽名確認，記錄使用日期與使用人員</text>
+  <rect x="590" y="322" width="90" height="26" rx="13" fill="#f5f5f4" />
+  <text x="635" y="340" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">查核簽名</text>
+
+  <!-- 步驟4：異常通報 -->
+  <rect x="30" y="400" width="740" height="72" rx="10" fill="#ffffff" stroke="#a8a29e" stroke-width="2" />
+  <rect x="30" y="400" width="100" height="72" rx="10" fill="#a8a29e" />
+  <rect x="100" y="400" width="30" height="72" fill="#a8a29e" />
+  <text x="80" y="428" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="448" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">04</text>
+  <text x="145" y="425" font-size="15" font-weight="700" fill="#1c1917">異常通報</text>
+  <text x="145" y="447" font-size="12" fill="#57534e">發現設備異常立即通報維修，貼上「停用待修」標示，調度備用設備</text>
+  <rect x="590" y="418" width="90" height="26" rx="13" fill="#f5f5f4" />
+  <text x="635" y="436" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">異常處理</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+</svg>

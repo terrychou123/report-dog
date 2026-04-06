@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9" />
+  <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
+
+  <!-- 標題 -->
+  <text x="400" y="40" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">個別化照護計畫三大核心要素</text>
+  <text x="400" y="58" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">2.3.2 重點條文｜資料查核＋訪談</text>
+
+  <!-- 列1 -->
+  <rect x="30" y="82" width="740" height="100" rx="10" fill="#fffbeb" />
+  <rect x="30" y="82" width="6" height="100" rx="3" fill="#d97706" />
+  <!-- 序號圓圈 -->
+  <circle cx="72" cy="132" r="22" fill="#d97706" />
+  <text x="72" y="138" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="112" y="118" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#92400e">跨專業團隊共同擬定</text>
+  <text x="112" y="142" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">醫師、護理師、社工、復健師、藥師等共同討論</text>
+  <text x="112" y="162" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">依病人需求設定照護目標，各專業均有簽名</text>
+  <!-- 右側標籤 -->
+  <rect x="650" y="108" width="98" height="32" rx="16" fill="#d97706" />
+  <text x="699" y="129" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">團隊共識</text>
+
+  <!-- 列2 -->
+  <rect x="30" y="196" width="740" height="100" rx="10" fill="#f5f5f4" />
+  <rect x="30" y="196" width="6" height="100" rx="3" fill="#78716c" />
+  <circle cx="72" cy="246" r="22" fill="#78716c" />
+  <text x="72" y="252" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="112" y="232" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">依狀況適時更新</text>
+  <text x="112" y="256" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">病情改變、手術後、轉科時需即時更新，有修訂日期與原因</text>
+  <text x="112" y="276" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">穩定病人建議每週評估是否需要修訂</text>
+  <rect x="650" y="222" width="98" height="32" rx="16" fill="#78716c" />
+  <text x="699" y="243" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">動態管理</text>
+
+  <!-- 列3 -->
+  <rect x="30" y="310" width="740" height="100" rx="10" fill="#f5f5f4" />
+  <rect x="30" y="310" width="6" height="100" rx="3" fill="#57534e" />
+  <circle cx="72" cy="360" r="22" fill="#57534e" />
+  <text x="72" y="366" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="112" y="346" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">病人家屬參與</text>
+  <text x="112" y="370" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">照護目標與方式取得病人及家屬同意，意見受到尊重</text>
+  <text x="112" y="390" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">家屬意見有記錄，並反映在照護計畫調整中</text>
+  <rect x="634" y="336" width="114" height="32" rx="16" fill="#57534e" />
+  <text x="691" y="357" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">以人為中心</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+</svg>

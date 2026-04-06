@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">三種查核方式各自揭露的缺失</text>
+  <text x="400" y="76" text-anchor="middle" font-size="18" fill="#57534e">評鑑委員如何發現你的問題？依查核類型分類</text>
+  <line x1="28" y1="92" x2="772" y2="92" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- ===== 欄 1：資料查核 (x=28, cx=145, w=234) ===== -->
+  <rect x="28" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 標頭 -->
+  <rect x="28" y="100" width="234" height="48" rx="12" fill="#d97706"/>
+  <rect x="28" y="124" width="234" height="24" fill="#d97706"/>
+  <!-- 標頭文字 -->
+  <text x="145" y="130" text-anchor="middle" font-size="20" fill="white" font-weight="700">資料查核</text>
+  <!-- 副標 -->
+  <text x="145" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常從文件中發現：</text>
+  <!-- 項目 1-5 -->
+  <rect x="48" y="183" width="6" height="6" rx="1" fill="#d97706"/>
+  <text x="62" y="192" font-size="15" fill="#1e293b" font-weight="600">RCA 根本原因不完整</text>
+  <text x="62" y="210" font-size="14" fill="#57534e">改善措施追蹤空白</text>
+
+  <rect x="48" y="225" width="6" height="6" rx="1" fill="#d97706"/>
+  <text x="62" y="234" font-size="15" fill="#1e293b" font-weight="600">護病比計算公式錯誤</text>
+  <text x="62" y="252" font-size="14" fill="#57534e">班次人數與規定不符</text>
+
+  <rect x="48" y="267" width="6" height="6" rx="1" fill="#d97706"/>
+  <text x="62" y="276" font-size="15" fill="#1e293b" font-weight="600">HAI 計算分母不標準</text>
+  <text x="62" y="294" font-size="14" fill="#57534e">用住院人數而非導管日</text>
+
+  <rect x="48" y="309" width="6" height="6" rx="1" fill="#d97706"/>
+  <text x="62" y="318" font-size="15" fill="#1e293b" font-weight="600">品質指標無目標值</text>
+  <text x="62" y="336" font-size="14" fill="#57534e">或無改善計畫追蹤</text>
+
+  <rect x="48" y="351" width="6" height="6" rx="1" fill="#d97706"/>
+  <text x="62" y="360" font-size="15" fill="#1e293b" font-weight="600">病歷書寫時效不符</text>
+  <text x="62" y="378" font-size="14" fill="#57534e">出院摘要延遲完成</text>
+
+  <!-- 底部標籤 -->
+  <rect x="44" y="416" width="202" height="60" rx="10" fill="#fef3c7"/>
+  <text x="145" y="441" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">涵蓋10大失分中的6條</text>
+  <text x="145" y="461" text-anchor="middle" font-size="14" fill="#d97706">1.3.2 / 2.2.1 / 2.2.3 / 1.4.1 / 2.7.3</text>
+
+  <!-- ===== 欄 2：訪談查核 (x=283, cx=400, w=234) ===== -->
+  <rect x="283" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="283" y="100" width="234" height="48" rx="12" fill="#78716c"/>
+  <rect x="283" y="124" width="234" height="24" fill="#78716c"/>
+  <text x="400" y="130" text-anchor="middle" font-size="20" fill="white" font-weight="700">訪談查核</text>
+  <text x="400" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常從訪談中發現：</text>
+
+  <rect x="303" y="183" width="6" height="6" rx="1" fill="#78716c"/>
+  <text x="317" y="192" font-size="15" fill="#1e293b" font-weight="600">Time Out 非全員共同確認</text>
+  <text x="317" y="210" font-size="14" fill="#57534e">醫師未停止動作參與</text>
+
+  <rect x="303" y="225" width="6" height="6" rx="1" fill="#78716c"/>
+  <text x="317" y="234" font-size="15" fill="#1e293b" font-weight="600">手部衛生五時機說不完</text>
+  <text x="317" y="252" font-size="14" fill="#57534e">護理師無法完整回答</text>
+
+  <rect x="303" y="267" width="6" height="6" rx="1" fill="#78716c"/>
+  <text x="317" y="276" font-size="15" fill="#1e293b" font-weight="600">緊急知情同意 SOP 不熟</text>
+  <text x="317" y="294" font-size="14" fill="#57534e">意識不清患者如何處理</text>
+
+  <rect x="303" y="309" width="6" height="6" rx="1" fill="#78716c"/>
+  <text x="317" y="318" font-size="15" fill="#1e293b" font-weight="600">高警訊藥品識別不確定</text>
+  <text x="317" y="336" font-size="14" fill="#57534e">護理師不知道那是高警訊</text>
+
+  <rect x="303" y="351" width="6" height="6" rx="1" fill="#78716c"/>
+  <text x="317" y="360" font-size="15" fill="#1e293b" font-weight="600">品質指標無法說明分析</text>
+  <text x="317" y="378" font-size="14" fill="#57534e">有數字但無法解讀內容</text>
+
+  <rect x="299" y="416" width="202" height="60" rx="10" fill="#f5f5f4"/>
+  <text x="400" y="441" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">涵蓋10大失分中的4條</text>
+  <text x="400" y="461" text-anchor="middle" font-size="14" fill="#78716c">2.1.2 / 2.2.1 / 2.5.5 / 2.6.1</text>
+
+  <!-- ===== 欄 3：實地查核 (x=538, cx=655, w=234) ===== -->
+  <rect x="538" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="538" y="100" width="234" height="48" rx="12" fill="#dc2626"/>
+  <rect x="538" y="124" width="234" height="24" fill="#dc2626"/>
+  <text x="655" y="130" text-anchor="middle" font-size="20" fill="white" font-weight="700">實地查核</text>
+  <text x="655" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常現場直接發現：</text>
+
+  <rect x="558" y="183" width="6" height="6" rx="1" fill="#dc2626"/>
+  <text x="572" y="192" font-size="15" fill="#1e293b" font-weight="600">PPE 使用不正確</text>
+  <text x="572" y="210" font-size="14" fill="#57534e">換藥未戴手套、口罩鬆脫</text>
+
+  <rect x="558" y="225" width="6" height="6" rx="1" fill="#dc2626"/>
+  <text x="572" y="234" font-size="15" fill="#1e293b" font-weight="600">高警訊藥品無標示</text>
+  <text x="572" y="252" font-size="14" fill="#57534e">與一般藥品混放無警示</text>
+
+  <rect x="558" y="267" width="6" height="6" rx="1" fill="#dc2626"/>
+  <text x="572" y="276" font-size="15" fill="#1e293b" font-weight="600">消防設備逾期未換</text>
+  <text x="572" y="294" font-size="14" fill="#57534e">滅火器超過有效日期</text>
+
+  <rect x="558" y="309" width="6" height="6" rx="1" fill="#dc2626"/>
+  <text x="572" y="318" font-size="15" fill="#1e293b" font-weight="600">隔離標示錯誤或缺漏</text>
+  <text x="572" y="336" font-size="14" fill="#57534e">床頭無正確隔離類別標示</text>
+
+  <rect x="558" y="351" width="6" height="6" rx="1" fill="#dc2626"/>
+  <text x="572" y="360" font-size="15" fill="#1e293b" font-weight="600">銳器盒超過安全容量</text>
+  <text x="572" y="378" font-size="14" fill="#57534e">超過 3/4 滿未更換</text>
+
+  <rect x="554" y="416" width="202" height="60" rx="10" fill="white" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="655" y="441" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="600">最難補救的查核類型</text>
+  <text x="655" y="461" text-anchor="middle" font-size="14" fill="#dc2626">2.7.2 / 2.5.5 / 1.5.2</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

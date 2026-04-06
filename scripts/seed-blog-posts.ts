@@ -1,6 +1,6 @@
 /**
  * 部落格文章 Seed Script
- * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 209 篇）
+ * 將 scripts/blog-posts/ 下的部落格文章寫入資料庫（共 229 篇）
  *
  * 使用方式：
  *   npx tsx --env-file=.env.local scripts/seed-blog-posts.ts
@@ -245,6 +245,27 @@ const POST_FILES = [
   "article-207-disability-welfare-community-resources-family.json",
   "article-208-disability-welfare-new-staff-guide.json",
   "article-209-disability-welfare-quality-improvement.json",
+  // 醫院評鑑系列（4 篇，持續新增至 229 篇）
+  "article-210-hospital-evaluation-114-guide.json",
+  "article-211-hospital-top10-deficiencies.json",
+  "article-212-hospital-patient-safety-culture.json",
+  "article-213-hospital-quality-indicators-pdca.json",
+  "article-214-hospital-incident-reporting-rca.json",
+  "article-215-hospital-infection-control.json",
+  "article-216-hospital-medication-safety.json",
+  "article-217-hospital-hand-hygiene.json",
+  "article-218-hospital-medical-records-documentation-ai.json",
+  "article-219-hospital-nursing-care-plan-evaluation.json",
+  "article-220-hospital-evaluation-paperwork-burden-solutions.json",
+  "article-221-hospital-discharge-planning-care-continuity.json",
+  "article-222-hospital-staffing-requirements-mandatory.json",
+  "article-223-hospital-fire-safety-emergency-evacuation.json",
+  "article-224-hospital-surgical-safety-checklist-evaluation.json",
+  "article-225-hospital-patient-rights-informed-consent.json",
+  "article-226-hospital-training-education-evaluation.json",
+  "article-227-hospital-medical-equipment-hazardous-materials.json",
+  "article-228-hospital-risk-management-crisis-communication.json",
+  "article-229-hospital-evaluation-6-year-cycle-reform.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布

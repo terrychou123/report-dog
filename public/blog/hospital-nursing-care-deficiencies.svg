@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9" />
+  <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
+
+  <!-- 標題 -->
+  <text x="400" y="40" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">2.3 章評鑑常見失分場景（4 大缺失）</text>
+  <text x="400" y="58" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">醫院評鑑護理照護評核｜實際案例缺失分析</text>
+
+  <!-- 列1 失分1 -->
+  <rect x="30" y="82" width="740" height="82" rx="10" fill="#fff1f2" />
+  <rect x="30" y="82" width="6" height="82" rx="3" fill="#dc2626" />
+  <circle cx="72" cy="123" r="24" fill="#dc2626" />
+  <text x="72" y="118" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="700">失分</text>
+  <text x="72" y="133" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="900">1</text>
+  <text x="112" y="112" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#991b1b">24 小時未完成入院評估</text>
+  <text x="112" y="134" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">四面向有缺漏，或超過時限才完成，評鑑委員翻病歷即可發現</text>
+  <rect x="652" y="100" width="100" height="30" rx="15" fill="#dc2626" />
+  <text x="702" y="120" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">時限管控</text>
+
+  <!-- 列2 失分2 -->
+  <rect x="30" y="176" width="740" height="82" rx="10" fill="#fffbeb" />
+  <rect x="30" y="176" width="6" height="82" rx="3" fill="#d97706" />
+  <circle cx="72" cy="217" r="24" fill="#d97706" />
+  <text x="72" y="212" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="700">失分</text>
+  <text x="72" y="227" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="900">2</text>
+  <text x="112" y="206" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#92400e">照護計畫未更新</text>
+  <text x="112" y="228" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">病情改變後計畫未修訂，仍顯示舊目標，護理師訪談說法與紀錄不符</text>
+  <rect x="648" y="194" width="104" height="30" rx="15" fill="#d97706" />
+  <text x="700" y="214" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">動態管理</text>
+
+  <!-- 列3 失分3 -->
+  <rect x="30" y="270" width="740" height="82" rx="10" fill="#f5f5f4" />
+  <rect x="30" y="270" width="6" height="82" rx="3" fill="#78716c" />
+  <circle cx="72" cy="311" r="24" fill="#78716c" />
+  <text x="72" y="306" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="700">失分</text>
+  <text x="72" y="321" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="900">3</text>
+  <text x="112" y="300" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#44403c">翻身單形式化</text>
+  <text x="112" y="322" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">翻身紀錄每格都是整點，現場查核壓傷已發生，紀錄與事實不符</text>
+  <rect x="648" y="288" width="104" height="30" rx="15" fill="#78716c" />
+  <text x="700" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">實質執行</text>
+
+  <!-- 列4 失分4 -->
+  <rect x="30" y="364" width="740" height="82" rx="10" fill="#f5f5f4" />
+  <rect x="30" y="364" width="6" height="82" rx="3" fill="#57534e" />
+  <circle cx="72" cy="405" r="24" fill="#57534e" />
+  <text x="72" y="400" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="700">失分</text>
+  <text x="72" y="415" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="900">4</text>
+  <text x="112" y="394" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#44403c">跌倒未通報</text>
+  <text x="112" y="416" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">輕微跌倒未書寫異常事件，交接班也未記錄，評鑑發現缺漏</text>
+  <rect x="648" y="382" width="104" height="30" rx="15" fill="#57534e" />
+  <text x="700" y="402" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">完整通報</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+</svg>

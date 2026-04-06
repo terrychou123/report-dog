@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#fafaf9"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大文字 WHO -->
+  <text x="870" y="160" font-family="'Noto Sans TC', sans-serif" font-size="100" font-weight="900" fill="#9333ea" opacity="0.15">WHO</text>
+  <text x="870" y="115" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#9333ea">手術安全查核表三步驟</text>
+
+  <!-- 右側三卡片 -->
+  <!-- 卡片1：Sign In -->
+  <rect x="845" y="140" width="305" height="100" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+  <rect x="845" y="140" width="8" height="100" rx="4" fill="#d97706"/>
+  <text x="870" y="168" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#d97706">Sign In</text>
+  <text x="870" y="188" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#44403c">術前確認</text>
+  <text x="870" y="207" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">麻醉誘導前，確認身分、部位標示</text>
+  <text x="870" y="224" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">及麻醉機安全檢查</text>
+
+  <!-- 卡片2：Time Out -->
+  <rect x="845" y="258" width="305" height="100" rx="10" fill="#ffffff" stroke="#9333ea" stroke-width="2"/>
+  <rect x="845" y="258" width="8" height="100" rx="4" fill="#9333ea"/>
+  <text x="870" y="286" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#9333ea">Time Out</text>
+  <text x="870" y="306" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#44403c">切皮前</text>
+  <text x="870" y="325" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">全員暫停，確認病人、手術、部位、</text>
+  <text x="870" y="342" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">備血及預防性抗生素</text>
+
+  <!-- 卡片3：Sign Out -->
+  <rect x="845" y="376" width="305" height="100" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+  <rect x="845" y="376" width="8" height="100" rx="4" fill="#57534e"/>
+  <text x="870" y="404" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#57534e">Sign Out</text>
+  <text x="870" y="424" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#44403c">離開前</text>
+  <text x="870" y="443" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">確認器械紗布點數、手術名稱正確</text>
+  <text x="870" y="460" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">及標本送檢確認</text>
+
+  <!-- 左側標題區 -->
+  <!-- 頂部類別標籤 -->
+  <rect x="60" y="50" width="120" height="32" rx="6" fill="#9333ea"/>
+  <text x="120" y="71" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">醫院評鑑攻略</text>
+
+  <!-- 主標題 -->
+  <text x="60" y="148" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="900" fill="#1c1917">手術安全查核</text>
+  <text x="60" y="210" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="900" fill="#9333ea">必要條文攻略</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="255" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#78716c">2.6.1查核表 × 2.6.2麻醉評估 × 2.6.3麻醉管理</text>
+
+  <!-- 分隔線 -->
+  <rect x="60" y="280" width="300" height="3" rx="2" fill="#9333ea"/>
+
+  <!-- 特色標籤 -->
+  <rect x="60" y="305" width="90" height="28" rx="14" fill="#f5f0ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="105" y="323" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#9333ea" text-anchor="middle">WHO查核表</text>
+
+  <rect x="162" y="305" width="80" height="28" rx="14" fill="#f5f0ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="202" y="323" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#9333ea" text-anchor="middle">Time Out</text>
+
+  <rect x="254" y="305" width="90" height="28" rx="14" fill="#f5f0ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="299" y="323" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#9333ea" text-anchor="middle">麻醉前評估</text>
+
+  <rect x="60" y="345" width="100" height="28" rx="14" fill="#f5f0ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="110" y="363" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#9333ea" text-anchor="middle">困難插管推車</text>
+
+  <rect x="172" y="345" width="80" height="28" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="212" y="363" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" text-anchor="middle">AI輔助</text>
+
+  <!-- 底部必要條文說明 -->
+  <rect x="60" y="420" width="680" height="90" rx="10" fill="#f5f0ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="80" y="447" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#7e22ce">3項必要條文</text>
+  <text x="190" y="447" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#44403c">| 資料查核 + 訪談 + 實地查核，三種方式全面審查</text>
+  <text x="80" y="470" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#44403c">2.6.1 手術安全查核（資料+訪談） | 2.6.2 麻醉前評估（資料）</text>
+  <text x="80" y="493" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#44403c">2.6.3 麻醉作業管理（資料+實地） | 三項皆為必要條文，不得不符</text>
+
+  <!-- 浮水印 -->
+  <text x="600" y="612" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+</svg>

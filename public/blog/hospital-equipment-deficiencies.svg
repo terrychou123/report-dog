@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9" />
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="80" fill="#374151" />
+  <text x="400" y="35" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">設備管理評鑑常見失分場景</text>
+  <text x="400" y="60" font-size="13" fill="#d1d5db" text-anchor="middle">提前了解，避免在實地查核時被委員發現</text>
+
+  <!-- 列1：失分1（y=92） -->
+  <rect x="30" y="92" width="740" height="88" rx="8" fill="#fff1f2" stroke="#fecdd3" stroke-width="1" />
+  <rect x="30" y="92" width="6" height="88" rx="3" fill="#dc2626" />
+  <circle cx="72" cy="136" r="22" fill="#dc2626" />
+  <text x="72" y="130" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
+  <text x="72" y="147" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="108" y="120" font-size="15" font-weight="700" fill="#dc2626">設備清冊與實際不符</text>
+  <text x="108" y="142" font-size="12" fill="#57534e">清冊上有設備但現場找不到，或現場有設備但未列入清冊，</text>
+  <text x="108" y="162" font-size="12" fill="#57534e">實地查核時立即被發現</text>
+  <rect x="648" y="114" width="90" height="26" rx="6" fill="#fee2e2" />
+  <text x="693" y="132" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="600">清冊一致</text>
+
+  <!-- 列2：失分2（y=192） -->
+  <rect x="30" y="192" width="740" height="88" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1" />
+  <rect x="30" y="192" width="6" height="88" rx="3" fill="#d97706" />
+  <circle cx="72" cy="236" r="22" fill="#d97706" />
+  <text x="72" y="230" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
+  <text x="72" y="247" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="108" y="220" font-size="15" font-weight="700" fill="#92400e">預防性維護逾期未執行</text>
+  <text x="108" y="242" font-size="12" fill="#57534e">呼吸器/除顫器上一次維護距今超過規定期限，</text>
+  <text x="108" y="262" font-size="12" fill="#57534e">紀錄卡顯示逾期，是最常見的缺失</text>
+  <rect x="648" y="214" width="90" height="26" rx="6" fill="#fef3c7" />
+  <text x="693" y="232" font-size="12" fill="#92400e" text-anchor="middle" font-weight="600">按時執行</text>
+
+  <!-- 列3：失分3（y=292） -->
+  <rect x="30" y="292" width="740" height="88" rx="8" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="292" width="6" height="88" rx="3" fill="#78716c" />
+  <circle cx="72" cy="336" r="22" fill="#78716c" />
+  <text x="72" y="330" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
+  <text x="72" y="347" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="108" y="320" font-size="15" font-weight="700" fill="#57534e">危險物品標示不完整</text>
+  <text x="108" y="342" font-size="12" fill="#57534e">現場容器標示褪色看不清，或SDS資料表不在儲存場所旁，</text>
+  <text x="108" y="362" font-size="12" fill="#57534e">人員不知道放在哪裡</text>
+  <rect x="648" y="314" width="90" height="26" rx="6" fill="#f5f5f4" />
+  <text x="693" y="332" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">標示完整</text>
+
+  <!-- 列4：失分4（y=392） -->
+  <rect x="30" y="392" width="740" height="88" rx="8" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="392" width="6" height="88" rx="3" fill="#57534e" />
+  <circle cx="72" cy="436" r="22" fill="#57534e" />
+  <text x="72" y="430" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
+  <text x="72" y="447" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="108" y="420" font-size="15" font-weight="700" fill="#44403c">洩漏應變人員不熟悉</text>
+  <text x="108" y="442" font-size="12" fill="#57534e">評鑑委員詢問護理師某化學清潔劑洩漏怎麼處理，</text>
+  <text x="108" y="462" font-size="12" fill="#57534e">人員無法回答或找不到應變SOP</text>
+  <rect x="648" y="414" width="90" height="26" rx="6" fill="#f5f5f4" />
+  <text x="693" y="432" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">人員熟知</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+</svg>

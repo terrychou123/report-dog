@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區 (Header y=29, h=60) -->
+  <rect x="0" y="0" width="800" height="89" fill="#f5f5f4"/>
+  <text x="400" y="44" text-anchor="middle" font-size="26" font-weight="900" fill="#1c1917">評鑑改革5大影響</text>
+  <text x="400" y="71" text-anchor="middle" font-size="14" fill="#78716c">6年週期帶來品管思維的系統性轉變</text>
+
+  <!-- 列1 y=118, H=60, S rect h=44 -->
+  <rect x="38" y="104" width="724" height="60" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="104" width="8" height="60" rx="4" fill="#d97706"/>
+  <!-- 圓圈「1」 -->
+  <circle cx="70" cy="134" r="16" fill="#d97706"/>
+  <text x="70" y="139" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="700">1</text>
+  <!-- 標題與說明 -->
+  <text x="96" y="125" font-size="15" font-weight="700" fill="#1c1917">品管週期拉長但要求不降</text>
+  <text x="96" y="147" font-size="13" fill="#78716c">6年不等於可以鬆懈，持續符合評鑑基準是基本要求</text>
+  <!-- 右側標籤 -->
+  <rect x="642" y="116" width="80" height="28" rx="14" fill="#fef3c7"/>
+  <text x="682" y="135" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">持續達標</text>
+
+  <!-- 列2 y=191, H=60 -->
+  <rect x="38" y="177" width="724" height="60" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="177" width="8" height="60" rx="4" fill="#78716c"/>
+  <circle cx="70" cy="207" r="16" fill="#78716c"/>
+  <text x="70" y="212" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="700">2</text>
+  <text x="96" y="198" font-size="15" font-weight="700" fill="#1c1917">持續性品質監測成核心</text>
+  <text x="96" y="220" font-size="13" fill="#78716c">每月品管報告、季度自我查核取代評鑑年集中備審</text>
+  <rect x="642" y="189" width="80" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="682" y="208" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">常態品管</text>
+
+  <!-- 列3 y=264, H=60 -->
+  <rect x="38" y="250" width="724" height="60" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="250" width="8" height="60" rx="4" fill="#57534e"/>
+  <circle cx="70" cy="280" r="16" fill="#57534e"/>
+  <text x="70" y="285" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="700">3</text>
+  <text x="96" y="271" font-size="15" font-weight="700" fill="#1c1917">AI工具需求大增</text>
+  <text x="96" y="293" font-size="13" fill="#78716c">6年文書量更大，AI輔助分析和追蹤成必要工具</text>
+  <rect x="642" y="262" width="80" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="682" y="281" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">AI需求</text>
+
+  <!-- 列4 y=337, H=60 -->
+  <rect x="38" y="323" width="724" height="60" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="323" width="8" height="60" rx="4" fill="#a8a29e"/>
+  <circle cx="70" cy="353" r="16" fill="#a8a29e"/>
+  <text x="70" y="358" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="700">4</text>
+  <text x="96" y="344" font-size="15" font-weight="700" fill="#1c1917">必要條文重要性更突出</text>
+  <text x="96" y="366" font-size="13" fill="#78716c">20項必要條文任何時候都不能失守，AI自我查核成為日常工具</text>
+  <rect x="642" y="335" width="80" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="682" y="354" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="700">必要條文</text>
+
+  <!-- 列5 y=410, H=60 -->
+  <rect x="38" y="396" width="724" height="60" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="396" width="8" height="60" rx="4" fill="#94a3b8"/>
+  <circle cx="70" cy="426" r="16" fill="#94a3b8"/>
+  <text x="70" y="431" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="700">5</text>
+  <text x="96" y="417" font-size="15" font-weight="700" fill="#1c1917">跨年度文書管理挑戰</text>
+  <text x="96" y="439" font-size="13" fill="#78716c">6年紀錄量龐大，系統化管理和快速調閱能力成為評鑑核心競爭力</text>
+  <rect x="642" y="408" width="80" height="28" rx="14" fill="#f1f5f9"/>
+  <text x="682" y="427" text-anchor="middle" font-size="13" fill="#94a3b8" font-weight="700">文書管理</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+</svg>

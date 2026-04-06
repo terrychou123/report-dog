@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafaf9"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="78" fill="#1c1917"/>
+  <text x="400" y="38" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">知情同意書四大必備內容（2.1.2）</text>
+  <text x="400" y="62" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle">必要條文 — 缺一不可，評鑑委員逐項查核</text>
+
+  <!-- 列1（y=92，h=80）-->
+  <rect x="28" y="92" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="92" width="6" height="80" rx="3" fill="#d97706"/>
+  <text x="52" y="116" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706">治療目的與方式</text>
+  <text x="52" y="136" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">清楚說明要做什麼、為什麼做、怎麼做，使用病人能理解的語言（非純醫學術語）</text>
+  <text x="52" y="158" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">避免只給制式說明單，需針對病人個別狀況調整說明</text>
+  <rect x="660" y="110" width="88" height="28" rx="14" fill="#fef3c7"/>
+  <text x="704" y="129" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">清楚說明</text>
+
+  <!-- 列2（y=182，h=80）-->
+  <rect x="28" y="182" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="182" width="6" height="80" rx="3" fill="#78716c"/>
+  <text x="52" y="206" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c">風險與可能併發症</text>
+  <text x="52" y="226" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">該處置或手術的已知風險，依病人個別狀況調整說明，不可只給制式風險清單</text>
+  <text x="52" y="248" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">高齡、合併症、特殊體質等個別因素應納入說明</text>
+  <rect x="660" y="200" width="88" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="704" y="219" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#78716c" text-anchor="middle">個別風險</text>
+
+  <!-- 列3（y=272，h=80）-->
+  <rect x="28" y="272" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="272" width="6" height="80" rx="3" fill="#57534e"/>
+  <text x="52" y="296" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e">替代方案</text>
+  <text x="52" y="316" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">其他可選擇的治療方式，包含不治療的選項，讓病人有真正的知情選擇空間</text>
+  <text x="52" y="338" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">最常見缺失：替代方案欄位空白或僅寫「無」，評鑑委員首要關注點</text>
+  <rect x="660" y="290" width="88" height="28" rx="14" fill="#e8e6de"/>
+  <text x="704" y="309" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#57534e" text-anchor="middle">選擇權</text>
+
+  <!-- 列4（y=362，h=80）-->
+  <rect x="28" y="362" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="362" width="6" height="80" rx="3" fill="#a8a29e"/>
+  <text x="52" y="386" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c">不治療的後果</text>
+  <text x="52" y="406" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">若選擇不接受此治療，預期的疾病進展與影響，有助病人做真正的知情決策</text>
+  <text x="52" y="428" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">不得只說明治療的好處，必須同時說明不治療的風險</text>
+  <rect x="660" y="380" width="88" height="28" rx="14" fill="#f5f5f4"/>
+  <text x="704" y="399" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#a8a29e" text-anchor="middle">決策資訊</text>
+
+  <!-- 浮水印 -->
+  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+</svg>
