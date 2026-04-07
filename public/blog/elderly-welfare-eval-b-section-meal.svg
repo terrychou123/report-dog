@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">膳食管理 B28–B31：4 大核心要求</text>
+  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" font-family="sans-serif">營養師菜單設計、個別化飲食、適宜餐具、腸道餵食，全方位照顧飲食需求</text>
+
+  <!-- N=4 版型：H=62 -->
+
+  <!-- 列 1：B28 菜單擬定 -->
+  <rect x="50" y="135" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="135" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="74" cy="166" r="16" fill="#d97706"/>
+  <text x="74" y="171" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B28</text>
+  <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">膳食菜單擬定（B28）</text>
+  <text x="108" y="182" font-size="16" fill="#57534e" font-family="sans-serif">由專任或特約營養師擬定，至少 2 星期循環菜單，每週提供 1 次快樂餐</text>
+  <rect x="620" y="143" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif" font-weight="700">營養師</text>
+  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">2 週循環</text>
+
+  <!-- 列 2：B29 個別化飲食 -->
+  <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="210" width="6" height="62" rx="3" fill="#16a34a"/>
+  <circle cx="74" cy="241" r="16" fill="#16a34a"/>
+  <text x="74" y="246" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B29</text>
+  <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">個別化飲食設計（B29）</text>
+  <text x="108" y="257" font-size="16" fill="#57534e" font-family="sans-serif">依疾病/宗教/生理需求設計，食物質地區分一般/細碎/軟質/流質/管灌等</text>
+  <rect x="620" y="218" width="136" height="46" rx="6" fill="#dcfce7"/>
+  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif" font-weight="700">個別設計</text>
+  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif">半年滿意調查</text>
+
+  <!-- 列 3：B30 適宜餐具 -->
+  <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="285" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="74" cy="316" r="16" fill="#78716c"/>
+  <text x="74" y="321" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B30</text>
+  <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">個別化餐具供應（B30）</text>
+  <text x="108" y="332" font-size="16" fill="#57534e" font-family="sans-serif">備有缺口杯、易握湯匙、高邊盤等，每位住民有私人餐具並有明確標示</text>
+  <rect x="620" y="293" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif" font-weight="700">私人餐具</text>
+  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">明確標示</text>
+
+  <!-- 列 4：B31 腸道管灌 -->
+  <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="360" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="74" cy="391" r="16" fill="#57534e"/>
+  <text x="74" y="396" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B31</text>
+  <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">腸道管灌餵食照護（B31）</text>
+  <text x="108" y="407" font-size="16" fill="#57534e" font-family="sans-serif">個別灌食空針、至少一次自然食材、灌食後頭頸抬高 30-45 度維持 60 分鐘內</text>
+  <rect x="620" y="368" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif" font-weight="700">頭部抬高</text>
+  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif">30-45 度</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
+  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">報告汪 4 大核心功能</text>
+  <text x="400" y="72" font-size="15" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">專為老人福利機構 77 項評鑑設計</text>
+
+  <!-- N=4，Row y: 160/235/310/385，H=62，outer_gap=50 -->
+
+  <!-- Row 1 -->
+  <rect x="29" y="148" width="742" height="62" rx="6" fill="#ffffff"/>
+  <rect x="29" y="148" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="179" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="184" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">AI</text>
+  <text x="100" y="170" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">AI 文書助理</text>
+  <text x="100" y="193" font-size="14" fill="#57534e" font-family="sans-serif">基於 77 項評鑑指標設計，生成符合格式的文件初稿</text>
+  <rect x="620" y="161" width="136" height="36" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="179" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">個案計畫</text>
+  <text x="688" y="196" font-size="12" fill="#d97706" font-family="sans-serif" text-anchor="middle">PDCA 報告</text>
+
+  <!-- Row 2 -->
+  <rect x="29" y="223" width="742" height="62" rx="6" fill="#ffffff"/>
+  <rect x="29" y="223" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="254" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="259" font-size="11" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">掃描</text>
+  <text x="100" y="245" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">批量自我查核掃描</text>
+  <text x="100" y="268" font-size="14" fill="#57534e" font-family="sans-serif">77 項逐條比對，依優先等級排序改善建議清單</text>
+  <rect x="620" y="236" width="136" height="36" rx="6" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="254" font-size="13" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">二級加強</text>
+  <text x="688" y="271" font-size="12" fill="#78716c" font-family="sans-serif" text-anchor="middle">優先標示</text>
+
+  <!-- Row 3 -->
+  <rect x="29" y="298" width="742" height="62" rx="6" fill="#ffffff"/>
+  <rect x="29" y="298" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="329" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="334" font-size="11" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">協作</text>
+  <text x="100" y="320" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">多人協作編輯</text>
+  <text x="100" y="343" font-size="14" fill="#57534e" font-family="sans-serif">社工、護理師、行政各自編輯，主管即時查看進度</text>
+  <rect x="620" y="311" width="136" height="36" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="329" font-size="13" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">職類分工</text>
+  <text x="688" y="346" font-size="12" fill="#57534e" font-family="sans-serif" text-anchor="middle">A–F 區分配</text>
+
+  <!-- Row 4 -->
+  <rect x="29" y="373" width="742" height="62" rx="6" fill="#ffffff"/>
+  <rect x="29" y="373" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="404" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="409" font-size="11" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">版本</text>
+  <text x="100" y="395" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">歷史版本追蹤</text>
+  <text x="100" y="418" font-size="14" fill="#57534e" font-family="sans-serif">每次修訂自動存檔，佐證 A1 工作手冊修訂紀錄</text>
+  <rect x="620" y="386" width="136" height="36" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="404" font-size="13" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">修訂歷程</text>
+  <text x="688" y="421" font-size="12" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">完整留存</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

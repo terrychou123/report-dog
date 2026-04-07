@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
+  <text x="400" y="29" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">A2 二級加強</text>
+  <text x="400" y="60" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="700">入出機構管理 — 三大必達要點</text>
+  <rect x="310" y="70" width="180" height="26" rx="13" fill="#ea580c"/>
+  <text x="400" y="88" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">任一未達標即限制等級</text>
+
+  <!-- N=3 版型: H=90, outer_gap=38, Row y: 166/269/372 -->
+
+  <!-- Row 1: 近4年無違規 -->
+  <rect x="38" y="118" width="724" height="90" rx="8" fill="white"/>
+  <rect x="38" y="118" width="6" height="90" rx="3" fill="#d97706"/>
+  <circle cx="75" cy="163" r="16" fill="#d97706"/>
+  <text x="75" y="169" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="110" y="151" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">近 4 年無違規收容紀錄</text>
+  <text x="110" y="174" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">評鑑委員直接向主管機關查詢，機構無法自行說明</text>
+  <text x="110" y="196" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">提前向主管機關確認違規紀錄，有記錄即為「待改善」</text>
+  <rect x="598" y="130" width="136" height="46" rx="6" fill="#fef2f2"/>
+  <text x="666" y="149" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">最高風險</text>
+  <text x="666" y="167" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle">不可補救</text>
+
+  <!-- Row 2: 收費公開於網站 -->
+  <rect x="38" y="221" width="724" height="90" rx="8" fill="white"/>
+  <rect x="38" y="221" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="75" cy="266" r="16" fill="#78716c"/>
+  <text x="75" y="272" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="110" y="254" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">收費標準公開於機構網站</text>
+  <text x="110" y="277" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">須公開地方主管機關「核准」的收費標準，而非自訂版本</text>
+  <text x="110" y="299" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">建議截圖網站頁面並標注更新日期，納入備審資料</text>
+  <rect x="598" y="233" width="136" height="46" rx="6" fill="#f0fdf4"/>
+  <text x="666" y="252" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">可自行</text>
+  <text x="666" y="270" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#166534" text-anchor="middle">確認補正</text>
+
+  <!-- Row 3: 入出機構辦法完備 -->
+  <rect x="38" y="324" width="724" height="90" rx="8" fill="white"/>
+  <rect x="38" y="324" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="75" cy="369" r="16" fill="#57534e"/>
+  <text x="75" y="375" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="110" y="357" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">入出機構辦法完備且定期修訂</text>
+  <text x="110" y="380" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">辦法須包含：服務對象、流程、評估機制、收費標準</text>
+  <text x="110" y="402" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">需有修訂日期紀錄及有專人辦理的佐證資料</text>
+  <rect x="598" y="336" width="136" height="46" rx="6" fill="#f0fdf4"/>
+  <text x="666" y="355" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">文件備審</text>
+  <text x="666" y="373" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#166534" text-anchor="middle">可提前準備</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', 'PingFang TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="50" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700" font-family="sans-serif">F2 人間懷服務 ＋ F3 逃生資訊（各 +0.5 分）</text>
+  <!-- N=4: H=62, outer_gap=50, Row y: 145/220/295/370 -->
+  <!-- F2 說明列 -->
+  <rect x="50" y="100" width="700" height="30" rx="6" fill="#78716c" opacity="0.08"/>
+  <text x="80" y="121" font-size="15" fill="#78716c" font-weight="700" font-family="sans-serif">F2 加入倡導人間懷服務（+0.5 分）</text>
+  <!-- Row 1 F2-a -->
+  <rect x="50" y="145" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="145" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="85" cy="176" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="85" y="182" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
+  <text x="118" y="169" font-size="17" fill="#1e293b" font-weight="700" font-family="sans-serif">定期盤點孤立/無家屬住民</text>
+  <text x="118" y="191" font-size="14" fill="#57534e" font-family="sans-serif">建立「無家屬或扶養義務人」、「半年內無家屬訪視」或有關懷需求住民清冊</text>
+  <rect x="570" y="153" width="168" height="46" rx="6" fill="#d97706" opacity="0.10"/>
+  <text x="654" y="181" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">定期更新清冊</text>
+  <!-- Row 2 F2-b -->
+  <rect x="50" y="220" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="220" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="85" cy="251" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="85" y="257" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
+  <text x="118" y="244" font-size="17" fill="#1e293b" font-weight="700" font-family="sans-serif">配合倡導關懷人每月 2 次定期拜訪</text>
+  <text x="118" y="266" font-size="14" fill="#57534e" font-family="sans-serif">與倡導關懷人（志工或社工）合作，每月至少 2 次拜訪孤立住民並留有完整紀錄</text>
+  <rect x="570" y="228" width="168" height="46" rx="6" fill="#78716c" opacity="0.10"/>
+  <text x="654" y="256" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">每月 2 次紀錄</text>
+  <!-- F3 說明列 -->
+  <rect x="50" y="295" width="700" height="30" rx="6" fill="#57534e" opacity="0.08"/>
+  <text x="80" y="316" font-size="15" fill="#57534e" font-weight="700" font-family="sans-serif">F3 提供視（聽）覺障礙者逃生資訊（+0.5 分）</text>
+  <!-- Row 3 F3-a -->
+  <rect x="50" y="340" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="340" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="85" cy="371" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="85" y="377" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
+  <text x="118" y="364" font-size="17" fill="#1e293b" font-weight="700" font-family="sans-serif">視覺障礙者逃生資訊</text>
+  <text x="118" y="386" font-size="14" fill="#57534e" font-family="sans-serif">逃生避難圖設有點字、觸摸引導或語音播放等措施，供視覺障礙者掌握逃生路線</text>
+  <rect x="570" y="348" width="168" height="46" rx="6" fill="#57534e" opacity="0.10"/>
+  <text x="654" y="376" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">現場實地核查</text>
+  <!-- Row 4 F3-b -->
+  <rect x="50" y="415" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="415" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="85" cy="446" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="85" y="452" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
+  <text x="118" y="439" font-size="17" fill="#1e293b" font-weight="700" font-family="sans-serif">聽覺障礙者緊急警示設施</text>
+  <text x="118" y="461" font-size="14" fill="#57534e" font-family="sans-serif">出入口安裝緊急閃光警示燈，供聽覺障礙者在火警或緊急事件時及時掌握危險發生</text>
+  <rect x="570" y="423" width="168" height="46" rx="6" fill="#a8a29e" opacity="0.10"/>
+  <text x="654" y="451" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="600" font-family="sans-serif">設施設備</text>
+  <!-- 浮水印 -->
+  <text x="760" y="492" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

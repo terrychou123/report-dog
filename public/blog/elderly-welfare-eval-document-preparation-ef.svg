@@ -1,0 +1,48 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 Header y=38 h=90 -->
+  <rect x="24" y="38" width="752" height="90" rx="8" fill="#1e293b"/>
+  <text x="400" y="74" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">E+F 區加分文件清單</text>
+  <text x="400" y="104" font-size="16" fill="#94a3b8" text-anchor="middle" font-family="sans-serif">服務創新 + 加分項目｜最多可加 4 分，是優等關鍵</text>
+
+  <!-- Row1 y=166 E1品質改善 -->
+  <rect x="24" y="166" width="752" height="90" rx="6" fill="#ffffff"/>
+  <rect x="24" y="166" width="6" height="90" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706"/>
+  <text x="66" y="216" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">E1</text>
+  <text x="100" y="200" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">品質改善 PDCA 成果報告（E1）</text>
+  <text x="100" y="224" font-size="16" fill="#57534e" font-family="sans-serif">完整 PDCA 循環文件：計畫書、執行紀錄、稽核分析、改善成效數據</text>
+  <text x="100" y="244" font-size="15" fill="#78716c" font-family="sans-serif">建議涵蓋至少1項照護品質指標之完整年度改善歷程</text>
+  <rect x="620" y="182" width="136" height="56" rx="6" fill="#fef3c7"/>
+  <text x="688" y="210" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">加分項目</text>
+  <text x="688" y="230" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">E 最多+2</text>
+
+  <!-- Row2 y=269 E2創新服務 -->
+  <rect x="24" y="269" width="752" height="90" rx="6" fill="#ffffff"/>
+  <rect x="24" y="269" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c"/>
+  <text x="66" y="319" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">E2</text>
+  <text x="100" y="303" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">創新服務報告（E2，最高加 2 分）</text>
+  <text x="100" y="327" font-size="16" fill="#57534e" font-family="sans-serif">每項創新措施加0.5分：起源背景、執行方法、具體成效（含照片或數據）</text>
+  <text x="100" y="347" font-size="15" fill="#78716c" font-family="sans-serif">政府試辦計畫、特殊族群照護創新模式、多元族群語言翻譯服務均可計分</text>
+  <rect x="620" y="285" width="136" height="56" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="313" font-size="15" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">每項+0.5</text>
+  <text x="688" y="333" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">最多+2分</text>
+
+  <!-- Row3 y=372 F1/F2/F3 -->
+  <rect x="24" y="372" width="752" height="90" rx="6" fill="#ffffff"/>
+  <rect x="24" y="372" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e"/>
+  <text x="66" y="422" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">F</text>
+  <text x="100" y="406" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">F 加分項目（F1 牙科、F2 關懷人、F3 視聽障逃生）</text>
+  <text x="100" y="430" font-size="16" fill="#57534e" font-family="sans-serif">F1牙科診療機制(+1)、F2倡導關懷人每月2次拜訪(+0.5)、F3點字/閃光警示(+0.5)</text>
+  <text x="100" y="450" font-size="15" fill="#78716c" font-family="sans-serif">F 區最多加 2 分，加上 E 區合計最多 4 分，是甲等升優等的分水嶺</text>
+  <rect x="620" y="388" width="136" height="56" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="416" font-size="15" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">F 最多+2</text>
+  <text x="688" y="436" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif">共可+4分</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

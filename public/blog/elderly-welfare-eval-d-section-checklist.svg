@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題列 -->
+  <rect x="30" y="29" width="740" height="62" rx="10" fill="#2563eb"/>
+  <text x="400" y="68" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">D 區 9 項自我查核清單</text>
+
+  <!-- Row 1 (N=5: y=118) -->
+  <rect x="30" y="118" width="740" height="60" rx="8" fill="#ffffff"/>
+  <rect x="30" y="118" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706"/>
+  <text x="66" y="154" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
+  <text x="100" y="140" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">D1 資料保密</text>
+  <text x="100" y="162" font-size="16" fill="#57534e" font-family="sans-serif">系統權限設定完成、個資管理辦法含肖像權同意書、統計分析有改善紀錄</text>
+  <rect x="620" y="126" width="136" height="46" rx="6" fill="#dbeafe"/>
+  <text x="688" y="154" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">二級加強</text>
+
+  <!-- Row 2 (y=191) -->
+  <rect x="30" y="191" width="740" height="60" rx="8" fill="#ffffff"/>
+  <rect x="30" y="191" width="6" height="60" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c"/>
+  <text x="66" y="227" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
+  <text x="100" y="213" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">D2 入住契約</text>
+  <text x="100" y="235" font-size="16" fill="#57534e" font-family="sans-serif">核備契約含騎縫章、5天審閱期紀錄、四要素完備、條件變更及時換約</text>
+  <rect x="620" y="199" width="136" height="46" rx="6" fill="#fef9c3"/>
+  <text x="688" y="227" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">文件核查</text>
+
+  <!-- Row 3 (y=264) -->
+  <rect x="30" y="264" width="740" height="60" rx="8" fill="#ffffff"/>
+  <rect x="30" y="264" width="6" height="60" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e"/>
+  <text x="66" y="300" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
+  <text x="100" y="286" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">D3 財務管理 / D4 申訴管道</text>
+  <text x="100" y="308" font-size="16" fill="#57534e" font-family="sans-serif">財物管理辦法告知住民並有紀錄；申訴流程張貼明顯處，年度分析報告完成</text>
+  <rect x="620" y="272" width="136" height="46" rx="6" fill="#f0fdf4"/>
+  <text x="688" y="300" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">公告+紀錄</text>
+
+  <!-- Row 4 (y=337) -->
+  <rect x="30" y="337" width="740" height="60" rx="8" fill="#ffffff"/>
+  <rect x="30" y="337" width="6" height="60" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e"/>
+  <text x="66" y="373" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
+  <text x="100" y="359" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">D6 隱私布置</text>
+  <text x="100" y="381" font-size="16" fill="#57534e" font-family="sans-serif">寢室無監視器、圍簾完整可用、允許個人物品布置、服務時拉起圍簾</text>
+  <rect x="620" y="345" width="136" height="46" rx="6" fill="#dbeafe"/>
+  <text x="688" y="373" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">二級加強</text>
+
+  <!-- Row 5 (y=410) -->
+  <rect x="30" y="410" width="740" height="60" rx="8" fill="#ffffff"/>
+  <rect x="30" y="410" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8"/>
+  <text x="66" y="446" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">5</text>
+  <text x="100" y="432" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">D8 緩和醫療 / D9 滿意度問卷</text>
+  <text x="100" y="454" font-size="16" fill="#57534e" font-family="sans-serif">安寧教育訓練完訓、DNR流程含案例、每年辦理不具名滿意度調查並有改善報告</text>
+  <rect x="620" y="418" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="446" font-size="15" fill="#94a3b8" text-anchor="middle" font-weight="600" font-family="sans-serif">護理+社工協作</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

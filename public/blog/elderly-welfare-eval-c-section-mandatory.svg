@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="90" fill="#dc2626"/>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C 區 6 項一級必要指標：一票否決不能失守</text>
+  <text x="400" y="68" font-size="16" fill="#fecaca" text-anchor="middle" font-family="sans-serif">任一項不符合即評鑑不通過 ｜ 115年度老人福利機構評鑑</text>
+
+  <!-- N=6 版型：H=54, inner_gap=10, pad=31, Header y=31, Row y: 95/159/223/287/351/415 -->
+
+  <!-- Row 1: C4 緊急呼叫 -->
+  <rect x="30" y="95" width="740" height="54" rx="6" fill="white"/>
+  <rect x="30" y="95" width="6" height="54" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="122" r="16" fill="#d97706"/>
+  <text x="66" y="127" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C4</text>
+  <text x="100" y="116" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">C4. 寢室及浴廁緊急呼叫系統</text>
+  <text x="100" y="136" font-size="13" fill="#57534e" font-family="sans-serif">浴室、廁所、寢室均需設置；功能正常、位置適當、按鈴有人立即回應</text>
+  <rect x="620" y="106" width="136" height="33" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="127" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row 2: C9 消防安全設備 -->
+  <rect x="30" y="159" width="740" height="54" rx="6" fill="white"/>
+  <rect x="30" y="159" width="6" height="54" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="186" r="16" fill="#78716c"/>
+  <text x="66" y="191" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C9</text>
+  <text x="100" y="180" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">C9. 消防安全設備申報與檢修</text>
+  <text x="100" y="200" font-size="13" fill="#57534e" font-family="sans-serif">每半年委託消防設備師檢修申報；備有5年完整申報紀錄；建立防火管理制度</text>
+  <rect x="620" y="170" width="136" height="33" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="191" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row 3: C10 疏散避難 -->
+  <rect x="30" y="223" width="740" height="54" rx="6" fill="white"/>
+  <rect x="30" y="223" width="6" height="54" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="250" r="16" fill="#57534e"/>
+  <text x="66" y="255" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C10</text>
+  <text x="100" y="244" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">C10. 疏散避難系統及等待救接空間</text>
+  <text x="100" y="264" font-size="13" fill="#57534e" font-family="sans-serif">雙向逃生路徑；防火門暢通；設等待救接空間含排煙設計</text>
+  <rect x="620" y="234" width="136" height="33" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="255" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row 4: C11 災害應變計畫 -->
+  <rect x="30" y="287" width="740" height="54" rx="6" fill="white"/>
+  <rect x="30" y="287" width="6" height="54" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="314" r="16" fill="#a8a29e"/>
+  <text x="66" y="319" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C11</text>
+  <text x="100" y="308" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">C11. 緊急災害應變計畫</text>
+  <text x="100" y="328" font-size="13" fill="#57534e" font-family="sans-serif">每年複合型+夜間演練各1次；每月自主檢查用電設備；每半年委外檢驗</text>
+  <rect x="620" y="298" width="136" height="33" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="319" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row 5: C12 疏散策略 -->
+  <rect x="30" y="351" width="740" height="54" rx="6" fill="white"/>
+  <rect x="30" y="351" width="6" height="54" rx="3" fill="#94a3b8"/>
+  <circle cx="66" cy="378" r="16" fill="#94a3b8"/>
+  <text x="66" y="383" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C12</text>
+  <text x="100" y="372" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">C12. 疏散策略及照顧人力應變能力</text>
+  <text x="100" y="392" font-size="13" fill="#57534e" font-family="sans-serif">A3以上逃生圖張貼各樓層；外籍看護工參與防災訓練；各類人員應變演練</text>
+  <rect x="620" y="362" width="136" height="33" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="383" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row 6: C15 護理站 -->
+  <rect x="30" y="415" width="740" height="54" rx="6" fill="white"/>
+  <rect x="30" y="415" width="6" height="54" rx="3" fill="#6b7280"/>
+  <circle cx="66" cy="442" r="16" fill="#6b7280"/>
+  <text x="66" y="447" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C15</text>
+  <text x="100" y="436" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">C15. 護理站設施設備</text>
+  <text x="100" y="456" font-size="13" fill="#57534e" font-family="sans-serif">備有基本急救設備、氧氣瓶在效期；各樓層設護理站；人員熟悉急救器材</text>
+  <rect x="620" y="426" width="136" height="33" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="447" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

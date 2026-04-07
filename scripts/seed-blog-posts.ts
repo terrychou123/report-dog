@@ -12,6 +12,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
+import { sql } from "drizzle-orm";
 import { blogPosts } from "../db/schema";
 import { getDbUrl } from "../db/index";
 
@@ -266,6 +267,27 @@ const POST_FILES = [
   "article-227-hospital-medical-equipment-hazardous-materials.json",
   "article-228-hospital-risk-management-crisis-communication.json",
   "article-229-hospital-evaluation-6-year-cycle-reform.json",
+  // 老人福利機構系列（20 篇）
+  "article-230-elderly-welfare-eval-77-guide.json",
+  "article-231-elderly-welfare-eval-top10-deficiencies.json",
+  "article-232-elderly-welfare-eval-90day-plan.json",
+  "article-233-elderly-welfare-eval-document-preparation.json",
+  "article-234-elderly-welfare-eval-self-checklist.json",
+  "article-235-elderly-welfare-eval-b-section-professional-care.json",
+  "article-236-elderly-welfare-care-plan-writing.json",
+  "article-237-elderly-welfare-infection-control-guide.json",
+  "article-238-elderly-welfare-eval-a-section-management.json",
+  "article-239-elderly-welfare-staffing-requirements.json",
+  "article-240-elderly-welfare-eval-c-section-safety.json",
+  "article-241-elderly-welfare-fire-evacuation-guide.json",
+  "article-242-elderly-welfare-eval-d-section-client-rights.json",
+  "article-243-elderly-welfare-fall-prevention-monitoring.json",
+  "article-244-elderly-welfare-ai-documentation.json",
+  "article-245-elderly-welfare-eval-interview-preparation.json",
+  "article-246-elderly-welfare-eval-grade-strategy.json",
+  "article-247-elderly-welfare-nutrition-meal-management.json",
+  "article-248-elderly-welfare-palliative-end-of-life.json",
+  "article-249-elderly-welfare-eval-innovation-bonus.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布
@@ -297,15 +319,30 @@ async function main() {
               seoTitle: data.seoTitle ?? null,
               seoDescription: data.seoDescription ?? null,
             })
-            .onConflictDoNothing() // 若 slug 已存在則略過
-            .returning({ id: blogPosts.id, slug: blogPosts.slug });
+            .onConflictDoUpdate({
+              target: blogPosts.slug,
+              // 僅更新內容欄位，保留 status / publishedAt 避免覆蓋已發布狀態
+              set: {
+                title: sql`excluded.title`,
+                excerpt: sql`excluded.excerpt`,
+                content: sql`excluded.content`,
+                coverImageUrl: sql`excluded.cover_image_url`,
+                category: sql`excluded.category`,
+                tags: sql`excluded.tags`,
+                seoTitle: sql`excluded.seo_title`,
+                seoDescription: sql`excluded.seo_description`,
+                updatedAt: sql`now()`,
+              },
+            })
+            .returning({ id: blogPosts.id, slug: blogPosts.slug, isNew: sql<boolean>`(xmax = 0)` });
 
           if (inserted) {
-            console.log(`✅ 已新增：${data.title}`);
+            const verb = inserted.isNew ? "已新增" : "已更新";
+            console.log(`✅ ${verb}：${data.title}`);
             console.log(`   slug: ${data.slug}`);
             console.log(`   id: ${inserted.id}\n`);
           } else {
-            console.log(`⏭️  已略過（slug 已存在）：${data.slug}\n`);
+            console.log(`⏭️  已略過（無變更）：${data.slug}\n`);
           }
         } catch (err) {
           console.error(`❌ 匯入失敗：${filename}`, err);

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">老人福利機構評鑑等第計算方式</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">依衛生福利部辦理老人福利機構評鑑及獎勵辦法</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 list: H=90, inner_gap=13, outer_gap=38 -->
+  <!-- Row y: 166, 269, 372 -->
+
+  <!-- Row 1: 優等 90+ -->
+  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#16a34a"/>
+  <circle cx="66" cy="211" r="20" fill="#16a34a" opacity="0.15"/>
+  <text x="66" y="218" font-size="18" fill="#16a34a" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="196" font-size="28" fill="#16a34a" font-weight="700">優等</text>
+  <text x="100" y="227" font-size="18" fill="#57534e">總分 90 分（含）以上，且一級必要指標與二級加強指標均達規定評分標準</text>
+  <text x="100" y="248" font-size="16" fill="#57534e">優等機構可享受評鑑獎勵，名單公開於社家署網站</text>
+  <rect x="620" y="174" width="136" height="52" rx="8" fill="#16a34a" opacity="0.12"/>
+  <text x="688" y="196" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="700">90 分</text>
+  <text x="688" y="218" font-size="16" fill="#16a34a" text-anchor="middle">以上</text>
+
+  <!-- Row 2: 合格 70+ -->
+  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="314" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="321" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="299" font-size="28" fill="#d97706" font-weight="700">合格</text>
+  <text x="100" y="330" font-size="18" fill="#57534e">總分 70 分（含）以上，一級必要指標全部達標</text>
+  <text x="100" y="351" font-size="16" fill="#57534e">合格機構維持正常營運，定期接受主管機關輔導追蹤</text>
+  <rect x="620" y="277" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="299" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">70 分</text>
+  <text x="688" y="321" font-size="16" fill="#d97706" text-anchor="middle">以上</text>
+
+  <!-- Row 3: 不合格 -->
+  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#dc2626"/>
+  <circle cx="66" cy="417" r="20" fill="#dc2626" opacity="0.15"/>
+  <text x="66" y="424" font-size="18" fill="#dc2626" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="402" font-size="28" fill="#dc2626" font-weight="700">不合格</text>
+  <text x="100" y="433" font-size="18" fill="#57534e">總分未達 70 分，或一級必要指標（C4/C9-C12/C15）有任一項未達標</text>
+  <text x="100" y="454" font-size="16" fill="#57534e">需接受限期改善，嚴重時可能影響機構評鑑資格</text>
+  <rect x="620" y="380" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="688" y="402" font-size="20" fill="#dc2626" text-anchor="middle" font-weight="700">70 分</text>
+  <text x="688" y="424" font-size="16" fill="#dc2626" text-anchor="middle">未達</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

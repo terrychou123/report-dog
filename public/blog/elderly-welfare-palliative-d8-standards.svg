@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="58" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700" font-family="sans-serif">D8 緩和醫療臨終照護 — 6 大評鑑基準</text>
+  <!-- N=6: H=54, inner_gap=10, pad=31, Header y=31, Row y: 95/159/223/287/351/415 -->
+  <!-- Row 1 -->
+  <rect x="31" y="80" width="738" height="54" rx="8" fill="#ffffff"/>
+  <rect x="31" y="80" width="6" height="54" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="107" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="113" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
+  <text x="100" y="101" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">安寧療護教育訓練</text>
+  <text x="100" y="122" font-size="14" fill="#57534e" font-family="sans-serif">護理人員及社工人員應完成安寧療護及病人自主權利法之教育訓練</text>
+  <rect x="620" y="88" width="136" height="38" rx="6" fill="#d97706" opacity="0.10"/>
+  <text x="688" y="112" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">護理＋社工</text>
+  <!-- Row 2 -->
+  <rect x="31" y="144" width="738" height="54" rx="8" fill="#ffffff"/>
+  <rect x="31" y="144" width="6" height="54" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="171" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="177" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
+  <text x="100" y="165" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">DNR 作業流程建置</text>
+  <text x="100" y="186" font-size="14" fill="#57534e" font-family="sans-serif">訂有 DNR 簽立、預立醫囑及鼓勵共同討論的機制與流程規範</text>
+  <rect x="620" y="152" width="136" height="38" rx="6" fill="#78716c" opacity="0.10"/>
+  <text x="688" y="176" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">流程 SOP</text>
+  <!-- Row 3 -->
+  <rect x="31" y="208" width="738" height="54" rx="8" fill="#ffffff"/>
+  <rect x="31" y="208" width="6" height="54" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="235" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="241" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
+  <text x="100" y="229" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">DNR 實際案例佐證</text>
+  <text x="100" y="250" font-size="14" fill="#57534e" font-family="sans-serif">訂有已簽訂與未簽訂 DNR 的處理流程，並有實際案例佐證</text>
+  <rect x="620" y="216" width="136" height="38" rx="6" fill="#57534e" opacity="0.10"/>
+  <text x="688" y="240" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">案例文件</text>
+  <!-- Row 4 -->
+  <rect x="31" y="272" width="738" height="54" rx="8" fill="#ffffff"/>
+  <rect x="31" y="272" width="6" height="54" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="299" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="305" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
+  <text x="100" y="293" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">臨終照護諮詢服務</text>
+  <text x="100" y="314" font-size="14" fill="#57534e" font-family="sans-serif">提供服務對象或家屬臨終照護關懷相關處理流程或手冊</text>
+  <rect x="620" y="280" width="136" height="38" rx="6" fill="#a8a29e" opacity="0.10"/>
+  <text x="688" y="304" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="600" font-family="sans-serif">家屬諮詢</text>
+  <!-- Row 5 -->
+  <rect x="31" y="336" width="738" height="54" rx="8" fill="#ffffff"/>
+  <rect x="31" y="336" width="6" height="54" rx="3" fill="#94a3b8"/>
+  <circle cx="66" cy="363" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="369" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="700" font-family="sans-serif">5</text>
+  <text x="100" y="357" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">緩和醫療資訊提供</text>
+  <text x="100" y="378" font-size="14" fill="#57534e" font-family="sans-serif">提供意定監護、緩和（DNR）、安寧療護及病人自主權利相關資訊</text>
+  <rect x="620" y="344" width="136" height="38" rx="6" fill="#94a3b8" opacity="0.10"/>
+  <text x="688" y="368" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="600" font-family="sans-serif">資訊揭露</text>
+  <!-- Row 6 -->
+  <rect x="31" y="400" width="738" height="54" rx="8" fill="#ffffff"/>
+  <rect x="31" y="400" width="6" height="54" rx="3" fill="#6b7280"/>
+  <circle cx="66" cy="427" r="16" fill="#6b7280" opacity="0.15"/>
+  <text x="66" y="433" font-size="16" fill="#6b7280" text-anchor="middle" font-weight="700" font-family="sans-serif">6</text>
+  <text x="100" y="421" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">喪葬事宜協助</text>
+  <text x="100" y="442" font-size="14" fill="#57534e" font-family="sans-serif">協助家屬處理喪葬事宜，並留有完整紀錄</text>
+  <rect x="620" y="408" width="136" height="38" rx="6" fill="#6b7280" opacity="0.10"/>
+  <text x="688" y="432" font-size="14" fill="#6b7280" text-anchor="middle" font-weight="600" font-family="sans-serif">喪葬紀錄</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

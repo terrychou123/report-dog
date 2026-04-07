@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="50" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">定期追蹤：膳食合規監控四層機制</text>
+  <text x="400" y="76" font-size="16" fill="#57534e" text-anchor="middle" font-family="sans-serif">報告汪定期追蹤功能，讓護理、行政、營養師分工管理各自指標</text>
+
+  <!-- N=4, H=62, outer_gap=50 -->
+  <!-- Row 1 (y=160) -->
+  <rect x="40" y="110" width="720" height="62" rx="6" fill="#ffffff"/>
+  <rect x="40" y="110" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="74" cy="141" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="74" y="147" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">月</text>
+  <text x="100" y="133" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">每月追蹤</text>
+  <text x="100" y="156" font-size="14" fill="#57534e" font-family="sans-serif">菜單是否已有營養師簽名、快樂餐執行紀錄完整、管灌住民個別空針標示確認</text>
+  <rect x="596" y="119" width="136" height="46" rx="5" fill="#d97706" opacity="0.12"/>
+  <text x="664" y="138" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">行政人員</text>
+  <text x="664" y="157" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">護理人員</text>
+
+  <!-- Row 2 (y=235) -->
+  <rect x="40" y="185" width="720" height="62" rx="6" fill="#ffffff"/>
+  <rect x="40" y="185" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="74" cy="216" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="74" y="222" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">季</text>
+  <text x="100" y="208" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">每季追蹤</text>
+  <text x="100" y="231" font-size="14" fill="#57534e" font-family="sans-serif">個別化飲食計畫是否依重評更新、管灌技術稽核執行、B29 營養師介入紀錄完整</text>
+  <rect x="596" y="194" width="136" height="46" rx="5" fill="#78716c" opacity="0.1"/>
+  <text x="664" y="213" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">護理主管</text>
+  <text x="664" y="232" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">文件稽核</text>
+
+  <!-- Row 3 (y=310) -->
+  <rect x="40" y="260" width="720" height="62" rx="6" fill="#ffffff"/>
+  <rect x="40" y="260" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="74" cy="291" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="74" y="297" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">半年</text>
+  <text x="100" y="283" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">每半年追蹤</text>
+  <text x="100" y="306" font-size="14" fill="#57534e" font-family="sans-serif">膳食滿意度調查完成並有改善措施、特約營養師合約有效期確認、年度到機構次數</text>
+  <rect x="596" y="269" width="136" height="46" rx="5" fill="#57534e" opacity="0.1"/>
+  <text x="664" y="288" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">6月/12月</text>
+  <text x="664" y="307" font-size="13" fill="#57534e" text-anchor="middle" font-family="sans-serif">各辦理一次</text>
+
+  <!-- Row 4 (y=385) -->
+  <rect x="40" y="335" width="720" height="62" rx="6" fill="#16a34a" opacity="0.06"/>
+  <rect x="40" y="335" width="6" height="62" rx="3" fill="#16a34a"/>
+  <circle cx="74" cy="366" r="16" fill="#16a34a" opacity="0.2"/>
+  <text x="74" y="372" font-size="14" font-weight="700" fill="#16a34a" text-anchor="middle" font-family="sans-serif">事件</text>
+  <text x="100" y="358" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">事件觸發追蹤</text>
+  <text x="100" y="381" font-size="14" fill="#57534e" font-family="sans-serif">住民體重異常→觸發 B29 飲食計畫修訂；新入住特殊疾病→72H 內完成飲食評估</text>
+  <rect x="596" y="344" width="136" height="46" rx="5" fill="#16a34a" opacity="0.12"/>
+  <text x="664" y="363" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="600" font-family="sans-serif">即時觸發</text>
+  <text x="664" y="382" font-size="13" fill="#16a34a" text-anchor="middle" font-family="sans-serif">立即回應</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

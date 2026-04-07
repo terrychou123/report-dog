@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="90" fill="#0d9488"/>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C 區安全環境設備 16 項分組概覽</text>
+  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" font-family="sans-serif">老人福利機構評鑑 115年度 ｜ 共16項，一級必要6項，配分25%</text>
+
+  <!-- N=4 版型：H=62, outer_gap=50, Row y: 160/235/310/385 -->
+
+  <!-- Row 1：空間設施（C1-C4） -->
+  <rect x="30" y="128" width="740" height="62" rx="8" fill="white"/>
+  <rect x="30" y="128" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="159" r="16" fill="#d97706"/>
+  <text cx="66" cy="159" x="66" y="164" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="100" y="152" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">空間與設施（C1-C4）</text>
+  <text x="100" y="174" font-size="14" fill="#57534e" font-family="sans-serif">採光通風、儲藏、日常活動空間、緊急呼叫系統（C4 一級必要）</text>
+  <rect x="620" y="139" width="136" height="40" rx="6" fill="#f0fdf4" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="688" y="164" font-size="14" fill="#0d9488" text-anchor="middle" font-family="sans-serif">4 項｜1 項必要</text>
+
+  <!-- Row 2：無障礙與餐廚（C5-C8） -->
+  <rect x="30" y="203" width="740" height="62" rx="8" fill="white"/>
+  <rect x="30" y="203" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="234" r="16" fill="#78716c"/>
+  <text cx="66" cy="234" x="66" y="239" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="100" y="227" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">無障礙與餐廚衛生（C5-C8）</text>
+  <text x="100" y="249" font-size="14" fill="#57534e" font-family="sans-serif">電梯、無障礙浴廁、廚房衛生、污物處理（均為二級加強）</text>
+  <rect x="620" y="214" width="136" height="40" rx="6" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
+  <text x="688" y="239" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">4 項｜0 項必要</text>
+
+  <!-- Row 3：消防疏散（C9-C12） -->
+  <rect x="30" y="278" width="740" height="62" rx="8" fill="white"/>
+  <rect x="30" y="278" width="6" height="62" rx="3" fill="#dc2626"/>
+  <circle cx="66" cy="309" r="16" fill="#dc2626"/>
+  <text cx="66" cy="309" x="66" y="314" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="100" y="302" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">消防疏散與演練（C9-C12）⚠</text>
+  <text x="100" y="324" font-size="14" fill="#57534e" font-family="sans-serif">消防設備申報、疏散避難、災害應變計畫、疏散策略（全部一級必要）</text>
+  <rect x="620" y="289" width="136" height="40" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="314" font-size="14" fill="#dc2626" text-anchor="middle" font-family="sans-serif">4 項｜4 項必要</text>
+
+  <!-- Row 4：護理與用水（C13-C16） -->
+  <rect x="30" y="353" width="740" height="62" rx="8" fill="white"/>
+  <rect x="30" y="353" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="384" r="16" fill="#57534e"/>
+  <text cx="66" cy="384" x="66" y="389" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">4</text>
+  <text x="100" y="377" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">護理站與設備用水（C13-C16）</text>
+  <text x="100" y="399" font-size="14" fill="#57534e" font-family="sans-serif">隔離空間、設備維護、護理站（C15 一級必要）、飲用水（C16 二級加強）</text>
+  <rect x="620" y="364" width="136" height="40" rx="6" fill="#f0fdf4" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="688" y="389" font-size="14" fill="#0d9488" text-anchor="middle" font-family="sans-serif">4 項｜1 項必要</text>
+
+  <!-- 底部說明 -->
+  <text x="30" y="455" font-size="14" fill="#78716c" font-family="sans-serif">⚠ C9-C12 全部為一級必要，任一不符合即一票否決，建議優先備齊</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

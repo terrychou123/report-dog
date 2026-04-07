@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header (N=4) -->
+  <rect x="50" y="50" width="700" height="76" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="400" y="89" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" font-family="sans-serif">AI 輔助撰寫個案計畫的 4 大優勢</text>
+  <text x="400" y="113" font-size="15" fill="#57534e" text-anchor="middle" font-family="sans-serif">報告汪 AI 報告撰寫功能，協助機構快速產出符合評鑑規範的計畫</text>
+
+  <!-- Row 1: y=160 -->
+  <rect x="50" y="160" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="87" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="87" y="197" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="120" y="182" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">自動對應評鑑指標</text>
+  <text x="120" y="202" font-size="14" fill="#57534e" font-family="sans-serif">AI 根據 B2 指標自動提示必填欄位，確保每份計畫符合評鑑基本要求</text>
+  <rect x="620" y="167" width="115" height="46" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="677" y="191" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle" font-family="sans-serif">指標對應</text>
+  <text x="677" y="207" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">自動提示</text>
+
+  <!-- Row 2: y=235 -->
+  <rect x="50" y="235" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="87" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="87" y="272" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="120" y="257" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">快速生成個別化文字</text>
+  <text x="120" y="277" font-size="14" fill="#57534e" font-family="sans-serif">輸入評估數據後，AI 自動生成個別化目標描述，避免計畫同質化問題</text>
+  <rect x="620" y="242" width="115" height="46" rx="6" fill="#78716c" opacity="0.12"/>
+  <text x="677" y="266" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle" font-family="sans-serif">文字生成</text>
+  <text x="677" y="282" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">個別化</text>
+
+  <!-- Row 3: y=310 -->
+  <rect x="50" y="310" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="87" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="87" y="347" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="120" y="332" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">自動追蹤更新期限</text>
+  <text x="120" y="352" font-size="14" fill="#57534e" font-family="sans-serif">系統自動提醒 3 個月評估到期，避免逾期未更新的評鑑缺失</text>
+  <rect x="620" y="317" width="115" height="46" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="677" y="341" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle" font-family="sans-serif">期限追蹤</text>
+  <text x="677" y="357" font-size="13" fill="#57534e" text-anchor="middle" font-family="sans-serif">到期提醒</text>
+
+  <!-- Row 4: y=385 -->
+  <rect x="50" y="385" width="700" height="62" rx="8" fill="#ffffff"/>
+  <rect x="50" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="87" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="87" y="422" font-size="16" fill="#a8a29e" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+  <text x="120" y="407" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">多職類協作撰寫</text>
+  <text x="120" y="427" font-size="14" fill="#57534e" font-family="sans-serif">社工/護理/照服員可同時在同一平台填寫各自評估，主管統一審核簽核</text>
+  <rect x="620" y="392" width="115" height="46" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="677" y="416" font-size="14" fill="#a8a29e" font-weight="700" text-anchor="middle" font-family="sans-serif">協作平台</text>
+  <text x="677" y="432" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="sans-serif">統一管理</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

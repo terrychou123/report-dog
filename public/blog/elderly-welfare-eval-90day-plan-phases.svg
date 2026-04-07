@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題列 Header y=38, h=90 -->
+  <rect x="30" y="38" width="740" height="90" rx="8" fill="#1e293b"/>
+  <text x="400" y="88" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">老人福利機構評鑑 90 天三階段概覽</text>
+  <text x="400" y="115" font-size="16" fill="#94a3b8" text-anchor="middle" font-family="sans-serif">從手忙腳亂到從容應對，三個月分階段推進</text>
+
+  <!-- Row1 y=166, h=90 -->
+  <rect x="30" y="166" width="740" height="90" rx="6" fill="#ffffff"/>
+  <rect x="30" y="166" width="6" height="90" rx="3" fill="#d97706"/>
+  <!-- 圓圈 cx=66, r=16 -->
+  <circle cx="66" cy="211" r="16" fill="#d97706"/>
+  <text cx="66" cy="216" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif" x="66" y="216">1</text>
+  <!-- 標題 x=100 -->
+  <text x="100" y="198" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">第一個月（第 1-4 週）：基礎盤點</text>
+  <text x="100" y="222" font-size="16" fill="#57534e" font-family="sans-serif">AI 自我查核 77 項指標、處理 A 區行政問題、確認 C 區必要指標、召開品質會議</text>
+  <!-- 右框 x=620, w=136, h=46 -->
+  <rect x="620" y="188" width="136" height="46" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="688" y="207" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">第 1-4 週</text>
+  <text x="688" y="226" font-size="13" fill="#92400e" text-anchor="middle" font-family="sans-serif">基礎盤點期</text>
+
+  <!-- Row2 y=269, h=90 -->
+  <rect x="30" y="269" width="740" height="90" rx="6" fill="#ffffff"/>
+  <rect x="30" y="269" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c"/>
+  <text x="66" y="319" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="100" y="301" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">第二個月（第 5-8 週）：文件補強</text>
+  <text x="100" y="325" font-size="16" fill="#57534e" font-family="sans-serif">補強個案服務計畫、防疫 SOP、七大監測指標統計、D 區個案權益文件</text>
+  <rect x="620" y="291" width="136" height="46" rx="6" fill="#f5f5f4" stroke="#78716c" stroke-width="1.5"/>
+  <text x="688" y="310" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">第 5-8 週</text>
+  <text x="688" y="329" font-size="13" fill="#44403c" text-anchor="middle" font-family="sans-serif">文件補強期</text>
+
+  <!-- Row3 y=372, h=90 -->
+  <rect x="30" y="372" width="740" height="90" rx="6" fill="#ffffff"/>
+  <rect x="30" y="372" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e"/>
+  <text x="66" y="422" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="100" y="404" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">第三個月（第 9-12 週）：模擬衝刺</text>
+  <text x="100" y="428" font-size="16" fill="#57534e" font-family="sans-serif">全員分工確認、內部模擬演練、缺失修正設備測試、最後備詢演練</text>
+  <rect x="620" y="394" width="136" height="46" rx="6" fill="#f0efe8" stroke="#57534e" stroke-width="1.5"/>
+  <text x="688" y="413" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif">第 9-12 週</text>
+  <text x="688" y="432" font-size="13" fill="#44403c" text-anchor="middle" font-family="sans-serif">模擬衝刺期</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

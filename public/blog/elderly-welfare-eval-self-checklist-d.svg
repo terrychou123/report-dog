@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header y=50, h=76 -->
+  <rect x="40" y="50" width="720" height="76" rx="10" fill="#1e293b"/>
+  <text x="400" y="87" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">D 區：個案權益保障 — 4 大核心自評問題（D1–D9）</text>
+  <text x="400" y="113" font-size="15" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">重點在資料保密、契約審閱、隱私維護、安寧療護訓練</text>
+
+  <!-- N=4 版型：H=62, inner_gap=13, outer_gap=50 -->
+  <!-- Row1 y=160 -->
+  <rect x="40" y="160" width="720" height="62" rx="8" fill="#ffffff"/>
+  <rect x="40" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706"/>
+  <text x="66" y="197" font-size="14" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">D1</text>
+  <text x="100" y="183" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">個案資料系統使用者權限</text>
+  <text x="100" y="206" font-size="15" fill="#57534e" font-family="sans-serif">評鑑委員現場操作確認：有密碼系統及分層權限設定</text>
+  <rect x="620" y="171" width="128" height="40" rx="6" fill="#fef3c7"/>
+  <text x="684" y="196" font-size="14" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">二級加強</text>
+
+  <!-- Row2 y=235 -->
+  <rect x="40" y="235" width="720" height="62" rx="8" fill="#ffffff"/>
+  <rect x="40" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c"/>
+  <text x="66" y="272" font-size="14" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">D2</text>
+  <text x="100" y="258" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">入住契約5天審閱期</text>
+  <text x="100" y="281" font-size="15" fill="#57534e" font-family="sans-serif">消費者保護法規定；合約內容需完整含收費、申訴管道</text>
+  <rect x="620" y="246" width="128" height="40" rx="6" fill="#dcfce7"/>
+  <text x="684" y="271" font-size="14" font-weight="700" fill="#16a34a" font-family="sans-serif" text-anchor="middle">必要規定</text>
+
+  <!-- Row3 y=310 -->
+  <rect x="40" y="310" width="720" height="62" rx="8" fill="#ffffff"/>
+  <rect x="40" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e"/>
+  <text x="66" y="347" font-size="14" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">D6</text>
+  <text x="100" y="333" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">監視器禁止設於寢室及浴廁</text>
+  <text x="100" y="356" font-size="15" fill="#57534e" font-family="sans-serif">床位間需有圍簾隔離；提供任何服務時隨時維護隱私</text>
+  <rect x="620" y="321" width="128" height="40" rx="6" fill="#fee2e2"/>
+  <text x="684" y="346" font-size="14" font-weight="700" fill="#dc2626" font-family="sans-serif" text-anchor="middle">紅線違規</text>
+
+  <!-- Row4 y=385 -->
+  <rect x="40" y="385" width="720" height="62" rx="8" fill="#ffffff"/>
+  <rect x="40" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
+  <text x="66" y="422" font-size="14" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">D8</text>
+  <text x="100" y="408" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">護理師＋社工安寧療護訓練完訓</text>
+  <text x="100" y="431" font-size="15" fill="#57534e" font-family="sans-serif">需有完訓紀錄；機構需有DNR共同討論機制的實際案例</text>
+  <rect x="620" y="396" width="128" height="40" rx="6" fill="#fef3c7"/>
+  <text x="684" y="421" font-size="14" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">需有案例</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

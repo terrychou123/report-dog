@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題列 -->
+  <rect x="30" y="50" width="740" height="62" rx="10" fill="#d97706"/>
+  <text x="400" y="89" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">B13–B19 七大監測指標全覽</text>
+
+  <!-- Row 1: B13-B15 -->
+  <rect x="30" y="160" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706"/>
+  <text x="66" y="197" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
+  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">B13 跌倒預防 / B14 壓傷預防 / B15 疼痛評估</text>
+  <text x="100" y="207" font-size="16" fill="#57534e" font-family="sans-serif">三大臨床監測項目，均需每季分析報告 + PDCA 改善方案</text>
+  <rect x="620" y="168" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="196" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">護理主責</text>
+
+  <!-- Row 2: B16-B17 -->
+  <rect x="30" y="235" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c"/>
+  <text x="66" y="272" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
+  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">B16 約束管理 / B17 感染監測</text>
+  <text x="100" y="282" font-size="16" fill="#57534e" font-family="sans-serif">B16需醫師診斷或護理評估、家屬同意書；B17需皮膚/呼吸道/腸道分類通報流程</text>
+  <rect x="620" y="243" width="136" height="46" rx="6" fill="#dbeafe"/>
+  <text x="688" y="271" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">流程+同意書</text>
+
+  <!-- Row 3: B18-B19 -->
+  <rect x="30" y="310" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e"/>
+  <text x="66" y="347" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
+  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">B18 住院轉入管理 / B19 體重管理</text>
+  <text x="100" y="357" font-size="16" fill="#57534e" font-family="sans-serif">B18非計畫性住院逐案分析；B19體重每月量測，30天內±5%以上即為非計畫性異常</text>
+  <rect x="620" y="318" width="136" height="46" rx="6" fill="#f0fdf4"/>
+  <text x="688" y="346" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">月測記錄</text>
+
+  <!-- Row 4: 共同要求 -->
+  <rect x="30" y="385" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
+  <text x="66" y="422" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
+  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">七大監測共同要求</text>
+  <text x="100" y="432" font-size="16" fill="#57534e" font-family="sans-serif">每項均需：訂有處理辦法及流程、逐案分析、完整監測紀錄、每季分析+改善方案</text>
+  <rect x="620" y="393" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="421" font-size="15" fill="#a8a29e" text-anchor="middle" font-weight="600" font-family="sans-serif">四項缺一不可</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

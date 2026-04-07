@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題列 -->
+  <rect x="30" y="50" width="740" height="62" rx="10" fill="#d97706"/>
+  <text x="400" y="89" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">月報告與季報告撰寫架構</text>
+
+  <!-- Row 1 (N=4: y=160) -->
+  <rect x="30" y="160" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706"/>
+  <text x="66" y="197" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
+  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">月報告：發生件數 + 率 + 逐案說明</text>
+  <text x="100" y="207" font-size="16" fill="#57534e" font-family="sans-serif">每月填寫「監測件數/住民人次×1000=發生率」，逐件事件附上處置摘要與追蹤結果</text>
+  <rect x="620" y="168" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="196" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">月報範本套用</text>
+
+  <!-- Row 2 (y=235) -->
+  <rect x="30" y="235" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c"/>
+  <text x="66" y="272" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
+  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">季報告：趨勢分析 + 高風險族群特徵</text>
+  <text x="100" y="282" font-size="16" fill="#57534e" font-family="sans-serif">彙整三個月數據，分析發生率趨勢（升/降/持平），識別高風險族群（如失智、多重用藥）</text>
+  <rect x="620" y="243" width="136" height="46" rx="6" fill="#dbeafe"/>
+  <text x="688" y="271" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">趨勢圖輔助</text>
+
+  <!-- Row 3 (y=310) -->
+  <rect x="30" y="310" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e"/>
+  <text x="66" y="347" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
+  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">改善對策：具體、可執行、有期限</text>
+  <text x="100" y="357" font-size="16" fill="#57534e" font-family="sans-serif">改善方案須寫明：對策名稱、執行措施、負責人、預計完成時間及預期成效指標</text>
+  <rect x="620" y="318" width="136" height="46" rx="6" fill="#f0fdf4"/>
+  <text x="688" y="346" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">具體可量化</text>
+
+  <!-- Row 4 (y=385) -->
+  <rect x="30" y="385" width="740" height="62" rx="8" fill="#ffffff"/>
+  <rect x="30" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
+  <text x="66" y="422" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
+  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">會議紀錄：決議 + 追蹤管考</text>
+  <text x="100" y="432" font-size="16" fill="#57534e" font-family="sans-serif">季分析報告須納入品管會議討論，會議紀錄記載決議事項，下季回顧執行成效</text>
+  <rect x="620" y="393" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="421" font-size="15" fill="#a8a29e" text-anchor="middle" font-weight="600" font-family="sans-serif">會議紀錄留存</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

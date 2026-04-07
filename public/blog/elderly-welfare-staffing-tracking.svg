@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="76" fill="#1e293b"/>
+  <text x="400" y="29" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">報告汪 定期追蹤功能</text>
+  <text x="400" y="57" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="700">人力合規定期追蹤機制</text>
+
+  <!-- N=4 版型: H=62, outer_gap=50, Row y: 100/175/250/325 -->
+
+  <!-- Row 1: 每月追蹤 -->
+  <rect x="50" y="100" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="100" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="87" cy="131" r="16" fill="#d97706"/>
+  <text x="87" y="137" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">月</text>
+  <text x="118" y="125" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">每月追蹤</text>
+  <text x="118" y="148" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">各職類在職人數、外籍/本國籍照服員比例、護理三班排班覆蓋</text>
+  <rect x="556" y="108" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="624" y="127" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">每月 1 次</text>
+  <text x="624" y="145" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#92400e" text-anchor="middle">比例盤點</text>
+
+  <!-- Row 2: 每季追蹤 -->
+  <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="175" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="87" cy="206" r="16" fill="#78716c"/>
+  <text x="87" y="212" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">季</text>
+  <text x="118" y="200" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">每季追蹤</text>
+  <text x="118" y="223" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">兼任/特約人員合約與報備有效期；各人員在職訓練累計時數</text>
+  <rect x="556" y="183" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="624" y="202" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">每季 1 次</text>
+  <text x="624" y="220" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">文件審查</text>
+
+  <!-- Row 3: 每年追蹤 -->
+  <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="250" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="87" cy="281" r="16" fill="#57534e"/>
+  <text x="87" y="287" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">年</text>
+  <text x="118" y="275" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">每年追蹤</text>
+  <text x="118" y="298" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">全體在職訓練達 20H確認、急救訓練更新、廚工執照與 8H 外訓</text>
+  <rect x="556" y="258" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="624" y="277" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">年底確認</text>
+  <text x="624" y="295" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">全員時數</text>
+
+  <!-- Row 4: 事件觸發 -->
+  <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="325" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="87" cy="356" r="16" fill="#a8a29e"/>
+  <text x="87" y="362" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">事</text>
+  <text x="118" y="350" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">事件觸發追蹤</text>
+  <text x="118" y="373" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">人員異動→立即重算外籍比例；新進人員→1個月內完成職前訓練16H</text>
+  <rect x="556" y="333" width="136" height="46" rx="6" fill="#fef2f2"/>
+  <text x="624" y="352" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">即時觸發</text>
+  <text x="624" y="370" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle">立即處理</text>
+
+  <!-- 底部說明 -->
+  <rect x="50" y="404" width="700" height="52" rx="8" fill="#1e293b" opacity="0.9"/>
+  <text x="400" y="425" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="700">報告汪定期追蹤 — 多人查看狀態，行政社工護理各組即時掌握合規情形</text>
+  <text x="400" y="446" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="15" fill="#94a3b8" text-anchor="middle">評鑑前不再緊急補件 · 系統提醒未達標項目 · 一鍵彙整備審資料</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', 'PingFang TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

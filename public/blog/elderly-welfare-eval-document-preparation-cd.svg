@@ -1,0 +1,52 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 Header y=50 h=76 -->
+  <rect x="24" y="50" width="752" height="76" rx="8" fill="#1e293b"/>
+  <text x="400" y="82" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">C+D 區重點備審文件</text>
+  <text x="400" y="110" font-size="16" fill="#94a3b8" text-anchor="middle" font-family="sans-serif">安全環境設備 + 個案權益保障</text>
+
+  <!-- Row1 y=160 C9 消防 -->
+  <rect x="24" y="160" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706"/>
+  <text x="66" y="196" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">C9</text>
+  <text x="100" y="183" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">消防安全設備申報紀錄（C9，一級必要）</text>
+  <text x="100" y="207" font-size="16" fill="#57534e" font-family="sans-serif">每半年申報1次，需備5年完整申報紀錄；委託消防設備師或消防設備士出具</text>
+  <rect x="620" y="171" width="136" height="40" rx="6" fill="#fee2e2"/>
+  <text x="688" y="196" font-size="16" font-weight="700" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row2 y=235 C11/C12 演練/逃生圖 -->
+  <rect x="24" y="235" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c"/>
+  <text x="66" y="271" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">C11</text>
+  <text x="100" y="258" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">緊急演練紀錄 + 各樓層逃生圖（C11、C12，一級必要）</text>
+  <text x="100" y="282" font-size="16" fill="#57534e" font-family="sans-serif">每年複合型+夜間演練各1次含檢討紀錄；各樓層A3以上逃生圖（標示方向正確）</text>
+  <rect x="620" y="246" width="136" height="40" rx="6" fill="#fee2e2"/>
+  <text x="688" y="271" font-size="16" font-weight="700" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row3 y=310 C15 護理站 -->
+  <rect x="24" y="310" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e"/>
+  <text x="66" y="346" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">C15</text>
+  <text x="100" y="333" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">護理站急救設備效期紀錄（C15，一級必要）</text>
+  <text x="100" y="357" font-size="16" fill="#57534e" font-family="sans-serif">每層護理站設置確認、急救設備定期效期查核紀錄（氧氣瓶需在效期內）</text>
+  <rect x="620" y="321" width="136" height="40" rx="6" fill="#fee2e2"/>
+  <text x="688" y="346" font-size="16" font-weight="700" fill="#dc2626" text-anchor="middle" font-family="sans-serif">一級必要</text>
+
+  <!-- Row4 y=385 D1/D2/D4/D8 -->
+  <rect x="24" y="385" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
+  <text x="66" y="421" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">D1</text>
+  <text x="100" y="408" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">D 區個案權益文件（D1、D2、D4、D8）</text>
+  <text x="100" y="432" font-size="16" fill="#57534e" font-family="sans-serif">個資系統權限清單、肖像權同意書、入住契約（5天審閱）、申訴統計、DNR流程</text>
+  <rect x="620" y="396" width="136" height="40" rx="6" fill="#fef9ee"/>
+  <text x="688" y="421" font-size="16" font-weight="700" fill="#a8a29e" text-anchor="middle" font-family="sans-serif">二級加強</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="720" y="80" width="400" height="470" rx="20" fill="#e8e6de"/>
+  <!-- 大字 B13-B19 -->
+  <text x="920" y="260" font-size="90" fill="#d97706" text-anchor="middle" font-weight="700" font-family="sans-serif">B13-B19</text>
+  <!-- 說明文字 -->
+  <text x="920" y="320" font-size="34" fill="#57534e" text-anchor="middle" font-family="sans-serif">七大監測指標</text>
+  <!-- 標示 -->
+  <rect x="790" y="360" width="260" height="60" rx="12" fill="#d97706"/>
+  <text x="920" y="400" font-size="26" fill="#ffffff" text-anchor="middle" font-weight="600" font-family="sans-serif">PDCA 循環改善</text>
+
+  <!-- 左側主標題 -->
+  <text x="80" y="200" font-size="100" fill="#1e293b" text-anchor="start" font-weight="700" font-family="sans-serif">七大監測指標</text>
+  <text x="80" y="320" font-size="100" fill="#d97706" text-anchor="start" font-weight="700" font-family="sans-serif">PDCA 撰寫指南</text>
+
+  <!-- 副標題 -->
+  <text x="80" y="395" font-size="38" fill="#57534e" text-anchor="start" font-family="sans-serif">B13-B19 月統計 + 分析 + 改善，評鑑不扣分</text>
+
+  <!-- Pill 標籤 -->
+  <rect x="80" y="440" width="220" height="42" rx="21" fill="#fef3c7"/>
+  <text x="190" y="468" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">7大監測B13-B19</text>
+
+  <rect x="315" y="440" width="140" height="42" rx="21" fill="#fef3c7"/>
+  <text x="385" y="468" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">PDCA循環</text>
+
+  <rect x="470" y="440" width="155" height="42" rx="21" fill="#fef3c7"/>
+  <text x="547" y="468" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">月統計範例</text>
+
+  <rect x="640" y="440" width="140" height="42" rx="21" fill="#fef3c7"/>
+  <text x="710" y="468" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">定期追蹤</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

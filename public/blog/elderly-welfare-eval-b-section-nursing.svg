@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">護理服務 B9–B24：4 大核心執行面向</text>
+  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" font-family="sans-serif">從醫療服務、藥品管理到侵入性照護，16 項指標全面把關護理品質</text>
+
+  <!-- N=4 版型 -->
+
+  <!-- 列 1 -->
+  <rect x="50" y="135" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="135" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="74" cy="166" r="16" fill="#d97706"/>
+  <text x="74" y="171" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B9</text>
+  <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">例行醫療服務（B9）</text>
+  <text x="108" y="182" font-size="16" fill="#57534e" font-family="sans-serif">特約醫師巡診（每 3 個月），新入住 1 個月內完成醫師評估，急後送合約備齊</text>
+  <rect x="620" y="143" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif" font-weight="700">巡診紀錄</text>
+  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">每 3 個月</text>
+
+  <!-- 列 2 -->
+  <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="210" width="6" height="62" rx="3" fill="#16a34a"/>
+  <circle cx="74" cy="241" r="16" fill="#16a34a"/>
+  <text x="74" y="246" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B11</text>
+  <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">藥品安全管理（B11–B12）</text>
+  <text x="108" y="257" font-size="16" fill="#57534e" font-family="sans-serif">藥品分區儲存、清楚標示、三讀五對；每 3 個月藥師提供諮詢；管制藥品回收</text>
+  <rect x="620" y="218" width="136" height="46" rx="6" fill="#dcfce7"/>
+  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif" font-weight="700">三讀五對</text>
+  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif">藥師諮詢</text>
+
+  <!-- 列 3 -->
+  <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="285" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="74" cy="316" r="16" fill="#78716c"/>
+  <text x="74" y="321" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B20</text>
+  <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">管路移除照護計畫（B20–B23）</text>
+  <text x="108" y="332" font-size="16" fill="#57534e" font-family="sans-serif">鼻胃管及導尿管移除計畫，含吞嚥練習與膀胱訓練，侵入性照護由護理師執行</text>
+  <rect x="620" y="293" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif" font-weight="700">功能復健</text>
+  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">護理執行</text>
+
+  <!-- 列 4 -->
+  <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="360" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="74" cy="391" r="16" fill="#57534e"/>
+  <text x="74" y="396" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B24</text>
+  <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">疫苗接種率管理（B24）</text>
+  <text x="108" y="407" font-size="16" fill="#57534e" font-family="sans-serif">工作人員及服務對象公費流感疫苗施打率須達 80% 以上，並有接種名冊紀錄</text>
+  <rect x="620" y="368" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif" font-weight="700">接種率</text>
+  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif">80% 以上</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

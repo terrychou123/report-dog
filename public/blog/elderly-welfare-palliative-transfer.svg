@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題 -->
+  <text x="400" y="50" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700" font-family="sans-serif">安寧療護轉介機制 — 3 大要點</text>
+  <!-- N=3: H=90, outer_gap=38, Header y=38, Row y: 166/269/372 -->
+  <!-- Row 1 -->
+  <rect x="38" y="151" width="724" height="90" rx="8" fill="#ffffff"/>
+  <rect x="38" y="151" width="6" height="90" rx="3" fill="#d97706"/>
+  <circle cx="73" cy="196" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="73" y="202" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
+  <text x="107" y="185" font-size="18" fill="#1e293b" font-weight="700" font-family="sans-serif">建立安寧療護機構轉介合約</text>
+  <text x="107" y="209" font-size="14" fill="#57534e" font-family="sans-serif">與鄰近安寧療護機構（醫院安寧病房或居家安寧）簽訂轉介合作備忘錄或合約</text>
+  <text x="107" y="230" font-size="14" fill="#57534e" font-family="sans-serif">合約內容含轉介條件、接收流程、聯絡窗口，並定期更新（每年確認合約有效性）</text>
+  <rect x="590" y="162" width="150" height="46" rx="6" fill="#d97706" opacity="0.10"/>
+  <text x="665" y="190" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">合約文件</text>
+  <!-- Row 2 -->
+  <rect x="38" y="254" width="724" height="90" rx="8" fill="#ffffff"/>
+  <rect x="38" y="254" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="73" cy="299" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="73" y="305" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
+  <text x="107" y="288" font-size="18" fill="#1e293b" font-weight="700" font-family="sans-serif">訂定轉介作業流程</text>
+  <text x="107" y="312" font-size="14" fill="#57534e" font-family="sans-serif">制定清楚的轉介 SOP：評估條件 → 家屬知情同意 → 主管機關通報 → 轉介執行</text>
+  <text x="107" y="333" font-size="14" fill="#57534e" font-family="sans-serif">流程應納入護理手冊，並定期對全體護理及社工人員進行宣導演練</text>
+  <rect x="590" y="265" width="150" height="46" rx="6" fill="#78716c" opacity="0.10"/>
+  <text x="665" y="293" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">SOP 制定</text>
+  <!-- Row 3 -->
+  <rect x="38" y="357" width="724" height="90" rx="8" fill="#ffffff"/>
+  <rect x="38" y="357" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="73" cy="402" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="73" y="408" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
+  <text x="107" y="391" font-size="18" fill="#1e293b" font-weight="700" font-family="sans-serif">實際轉介案例佐證</text>
+  <text x="107" y="415" font-size="14" fill="#57534e" font-family="sans-serif">保留已執行轉介案例的相關文件：轉介單、知情同意書、接收機構回函</text>
+  <text x="107" y="436" font-size="14" fill="#57534e" font-family="sans-serif">若無實際轉介案例，應說明原因並提供機構已具備轉介能力的備用文件</text>
+  <rect x="590" y="368" width="150" height="46" rx="6" fill="#57534e" opacity="0.10"/>
+  <text x="665" y="396" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">案例備查</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

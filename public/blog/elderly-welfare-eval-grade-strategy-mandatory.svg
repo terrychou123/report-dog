@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="45" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">6 項一級必要指標：一票否決，絕不能失分</text>
+  <text x="400" y="70" font-size="16" fill="#57534e" text-anchor="middle" font-family="sans-serif">任一項未達標 → 整體評定「不合格」，與總分無關</text>
+
+  <!-- N=6, H=54, inner_gap=10, pad=31 -->
+  <!-- Row 1: C4 (y=95) -->
+  <rect x="40" y="86" width="720" height="54" rx="6" fill="#ffffff"/>
+  <rect x="40" y="86" width="6" height="54" rx="3" fill="#d97706"/>
+  <circle cx="74" cy="113" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="74" y="119" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="100" y="107" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">C4 緊急呼叫系統</text>
+  <text x="100" y="128" font-size="14" fill="#57534e" font-family="sans-serif">浴室、廁所、寢室均設有呼叫設備，功能正常，有人按鈴能立即反應</text>
+  <rect x="596" y="93" width="136" height="40" rx="5" fill="#dc2626" opacity="0.1"/>
+  <text x="664" y="118" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="600" font-family="sans-serif">現場測試核查</text>
+
+  <!-- Row 2: C9 (y=159) -->
+  <rect x="40" y="150" width="720" height="54" rx="6" fill="#ffffff"/>
+  <rect x="40" y="150" width="6" height="54" rx="3" fill="#78716c"/>
+  <circle cx="74" cy="177" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="74" y="183" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="100" y="171" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">C9 消防安全設備</text>
+  <text x="100" y="192" font-size="14" fill="#57534e" font-family="sans-serif">灑水設備、滅火器、消防栓、廣播系統符合消防法令，每半年維護有紀錄</text>
+  <rect x="596" y="157" width="136" height="40" rx="5" fill="#78716c" opacity="0.1"/>
+  <text x="664" y="182" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">每半年維護</text>
+
+  <!-- Row 3: C10 (y=223) -->
+  <rect x="40" y="214" width="720" height="54" rx="6" fill="#ffffff"/>
+  <rect x="40" y="214" width="6" height="54" rx="3" fill="#57534e"/>
+  <circle cx="74" cy="241" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="74" y="247" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="100" y="235" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">C10 昇降通道安全</text>
+  <text x="100" y="256" font-size="14" fill="#57534e" font-family="sans-serif">走廊、樓梯、安全梯無障礙物阻擋，防火門功能正常且常保關閉</text>
+  <rect x="596" y="221" width="136" height="40" rx="5" fill="#57534e" opacity="0.1"/>
+  <text x="664" y="246" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">實地察看</text>
+
+  <!-- Row 4: C11 (y=287) -->
+  <rect x="40" y="278" width="720" height="54" rx="6" fill="#ffffff"/>
+  <rect x="40" y="278" width="6" height="54" rx="3" fill="#a8a29e"/>
+  <circle cx="74" cy="305" r="16" fill="#a8a29e" opacity="0.2"/>
+  <text x="74" y="311" font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle" font-family="sans-serif">4</text>
+  <text x="100" y="299" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">C11 消防演練</text>
+  <text x="100" y="320" font-size="14" fill="#57534e" font-family="sans-serif">每年一次複合型演練＋一次夜間演練，留有腳本、照片、檢討紀錄</text>
+  <rect x="596" y="285" width="136" height="40" rx="5" fill="#a8a29e" opacity="0.15"/>
+  <text x="664" y="310" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">每年兩次演練</text>
+
+  <!-- Row 5: C12 (y=351) -->
+  <rect x="40" y="342" width="720" height="54" rx="6" fill="#ffffff"/>
+  <rect x="40" y="342" width="6" height="54" rx="3" fill="#94a3b8"/>
+  <circle cx="74" cy="369" r="16" fill="#94a3b8" opacity="0.2"/>
+  <text x="74" y="375" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle" font-family="sans-serif">5</text>
+  <text x="100" y="363" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">C12 疏散策略</text>
+  <text x="100" y="384" font-size="14" fill="#57534e" font-family="sans-serif">各樓層張貼 A3 以上避難平面圖，全員完成防救災教育訓練</text>
+  <rect x="596" y="349" width="136" height="40" rx="5" fill="#94a3b8" opacity="0.15"/>
+  <text x="664" y="374" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">A3圖+訓練紀錄</text>
+
+  <!-- Row 6: C15 (y=415) -->
+  <rect x="40" y="406" width="720" height="54" rx="6" fill="#ffffff"/>
+  <rect x="40" y="406" width="6" height="54" rx="3" fill="#6b7280"/>
+  <circle cx="74" cy="433" r="16" fill="#6b7280" opacity="0.15"/>
+  <text x="74" y="439" font-size="14" font-weight="700" fill="#6b7280" text-anchor="middle" font-family="sans-serif">6</text>
+  <text x="100" y="427" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">C15 護理站設施</text>
+  <text x="100" y="448" font-size="14" fill="#57534e" font-family="sans-serif">每層設護理站，備有急救設備、藥品櫃、治療車，護理人員熟悉操作</text>
+  <rect x="596" y="413" width="136" height="40" rx="5" fill="#6b7280" opacity="0.1"/>
+  <text x="664" y="438" font-size="13" fill="#6b7280" text-anchor="middle" font-weight="600" font-family="sans-serif">現場抽查操作</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

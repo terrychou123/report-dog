@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#f0efe8"/>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="780" y="0" width="420" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大數字 90 -->
+  <text x="870" y="320" font-size="220" font-weight="900" fill="#d97706" text-anchor="middle" font-family="sans-serif" opacity="0.85">90</text>
+  <!-- 右側說明文字 -->
+  <text x="870" y="390" font-size="36" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">天倒數計畫</text>
+  <!-- 右側小字 -->
+  <text x="870" y="440" font-size="22" fill="#78716c" text-anchor="middle" font-family="sans-serif">老人福利機構評鑑</text>
+  <text x="870" y="470" font-size="22" fill="#78716c" text-anchor="middle" font-family="sans-serif">115 年度準備指南</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="140" font-size="100" font-weight="900" fill="#1e293b" font-family="sans-serif">老人福利機構</text>
+  <text x="60" y="250" font-size="100" font-weight="900" fill="#d97706" font-family="sans-serif">評鑑 90 天倒數</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="320" font-size="38" fill="#57534e" font-family="sans-serif">分週任務清單，從容應對評鑑</text>
+
+  <!-- 分隔線 -->
+  <rect x="60" y="348" width="680" height="4" fill="#d97706" rx="2"/>
+
+  <!-- pill 標籤群 -->
+  <!-- pill 1 -->
+  <rect x="60" y="370" width="158" height="40" rx="20" fill="#d97706"/>
+  <text x="139" y="396" font-size="18" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="700">週計畫清單</text>
+
+  <!-- pill 2 -->
+  <rect x="230" y="370" width="158" height="40" rx="20" fill="#78716c"/>
+  <text x="309" y="396" font-size="18" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="700">三階段備審</text>
+
+  <!-- pill 3 -->
+  <rect x="400" y="370" width="138" height="40" rx="20" fill="#57534e"/>
+  <text x="469" y="396" font-size="18" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="700">定期追蹤</text>
+
+  <!-- pill 4 -->
+  <rect x="550" y="370" width="158" height="40" rx="20" fill="#a8a29e"/>
+  <text x="629" y="396" font-size="18" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="700">報告汪輔助</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="490" font-size="26" fill="#78716c" font-family="sans-serif">第一個月：基礎盤點</text>
+  <text x="60" y="525" font-size="26" fill="#78716c" font-family="sans-serif">第二個月：文件補強　第三個月：模擬衝刺</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

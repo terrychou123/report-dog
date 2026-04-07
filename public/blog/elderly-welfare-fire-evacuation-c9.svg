@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="90" fill="#d97706"/>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C9. 消防安全設備：5 年申報紀錄不能中斷</text>
+  <text x="400" y="68" font-size="16" fill="#fef3c7" text-anchor="middle" font-family="sans-serif">一級必要指標 ｜ 115年度老人福利機構評鑑</text>
+
+  <!-- N=3 版型 -->
+
+  <!-- Row 1: 建築公安申報 -->
+  <rect x="30" y="128" width="740" height="90" rx="8" fill="white"/>
+  <rect x="30" y="128" width="6" height="90" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="173" r="16" fill="#d97706"/>
+  <text x="66" y="178" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">建築物防火避難設施安全檢查申報</text>
+  <text x="100" y="183" font-size="14" fill="#57534e" font-family="sans-serif">建物現況需與使用執照登載用途相符；依建築物公共安全檢查申報期間</text>
+  <text x="100" y="202" font-size="14" fill="#57534e" font-family="sans-serif">規定辦理；現場須備有檢查報告書及地方政府機關審查合格證明文件</text>
+  <rect x="620" y="151" width="136" height="46" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="688" y="170" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">每年申報</text>
+  <text x="688" y="189" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">文件備查</text>
+
+  <!-- Row 2: 半年消防設備檢修 -->
+  <rect x="30" y="231" width="740" height="90" rx="8" fill="white"/>
+  <rect x="30" y="231" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="276" r="16" fill="#78716c"/>
+  <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">每半年委託消防設備師（士）定期檢修</text>
+  <text x="100" y="286" font-size="14" fill="#57534e" font-family="sans-serif">每半年辦理一次消防安全設備檢修；結果依限報請當地消防機關備查；</text>
+  <text x="100" y="305" font-size="14" fill="#57534e" font-family="sans-serif">委託對象需為合格消防設備師或消防設備士，並留存委託合約</text>
+  <rect x="620" y="254" width="136" height="46" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="273" font-size="14" fill="#dc2626" text-anchor="middle" font-family="sans-serif">半年一次</text>
+  <text x="688" y="292" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">備查必要</text>
+
+  <!-- Row 3: 5年完整紀錄 -->
+  <rect x="30" y="334" width="740" height="90" rx="8" fill="white"/>
+  <rect x="30" y="334" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="379" r="16" fill="#57534e"/>
+  <text x="66" y="384" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="100" y="366" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">備有近 5 年完整申報紀錄</text>
+  <text x="100" y="389" font-size="14" fill="#57534e" font-family="sans-serif">5 年紀錄需連續完整，中斷一次即不符合；建議依年度分資料夾整理，</text>
+  <text x="100" y="408" font-size="14" fill="#57534e" font-family="sans-serif">每份紀錄含申報表、委託合約、消防機關備查回函，共三件套為一組</text>
+  <rect x="620" y="357" width="136" height="46" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="688" y="376" font-size="14" fill="#dc2626" text-anchor="middle" font-family="sans-serif">5 年完整</text>
+  <text x="688" y="395" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">不可中斷</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 Header y=50 h=76 -->
+  <rect x="24" y="50" width="752" height="76" rx="8" fill="#1e293b"/>
+  <text x="400" y="82" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">備審文件準備 4 步驟流程</text>
+  <text x="400" y="110" font-size="16" fill="#94a3b8" text-anchor="middle" font-family="sans-serif">建議評鑑前 3 個月啟動，依優先順序逐步完成</text>
+
+  <!-- Row1 y=160 步驟1 盤點清冊 -->
+  <rect x="24" y="160" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="160" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706"/>
+  <text x="66" y="196" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="100" y="183" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">盤點現有文件庫（評鑑前 12 週）</text>
+  <text x="100" y="207" font-size="16" fill="#57534e" font-family="sans-serif">依六大區塊列出 77 項對應文件清單，逐一確認現況是否已有、是否完整</text>
+  <rect x="620" y="171" width="136" height="40" rx="6" fill="#fef3c7"/>
+  <text x="688" y="196" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">第12週</text>
+
+  <!-- Row2 y=235 步驟2 缺口分析 -->
+  <rect x="24" y="235" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="235" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c"/>
+  <text x="66" y="271" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="100" y="258" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">優先補強一級必要 + 二級加強項目（評鑑前 8 週）</text>
+  <text x="100" y="282" font-size="16" fill="#57534e" font-family="sans-serif">C區一級必要指標（C4/C9/C10/C11/C12/C15）優先完成；再處理二級加強A2/A4/B2/B10/D1</text>
+  <rect x="620" y="246" width="136" height="40" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="271" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">第8週</text>
+
+  <!-- Row3 y=310 步驟3 補足一般指標 -->
+  <rect x="24" y="310" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="310" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e"/>
+  <text x="66" y="346" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="100" y="333" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">補足一般指標文件（評鑑前 4 週）</text>
+  <text x="100" y="357" font-size="16" fill="#57534e" font-family="sans-serif">訓練紀錄、照護記錄、個案資料、品管會議記錄逐一核實，確保內容完整一致</text>
+  <rect x="620" y="321" width="136" height="40" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="346" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">第4週</text>
+
+  <!-- Row4 y=385 步驟4 加分題準備 -->
+  <rect x="24" y="385" width="752" height="62" rx="6" fill="#ffffff"/>
+  <rect x="24" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
+  <text x="66" y="421" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">4</text>
+  <text x="100" y="408" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">準備 E/F 加分題文件 + 最終自我查核（評鑑前 1 週）</text>
+  <text x="100" y="432" font-size="16" fill="#57534e" font-family="sans-serif">整理創新服務報告、PDCA成果、F區加分文件；AI逐項查核確認備審文件完整度</text>
+  <rect x="620" y="396" width="136" height="40" rx="6" fill="#fef9ee"/>
+  <text x="688" y="421" font-size="16" font-weight="700" fill="#a8a29e" text-anchor="middle" font-family="sans-serif">第1週</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

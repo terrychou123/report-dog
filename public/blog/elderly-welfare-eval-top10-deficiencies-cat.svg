@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 -->
+  <text x="400" y="48" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="Arial, sans-serif">10 大缺失分布：評鑑區域分類總覽</text>
+
+  <!-- 說明文字 -->
+  <text x="400" y="80" font-size="16" fill="#57534e" text-anchor="middle" font-family="Arial, sans-serif">依 A/B/C/D 四大評鑑區分析缺失分布比例</text>
+
+  <!-- A區 橫條 -->
+  <rect x="60" y="116" width="680" height="70" rx="10" fill="white"/>
+  <rect x="60" y="116" width="6" height="70" rx="3" fill="#d97706"/>
+  <!-- 圓圈標記 -->
+  <circle cx="94" cy="151" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="94" y="157" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" font-family="Arial, sans-serif">A</text>
+  <!-- 文字 -->
+  <text x="125" y="143" font-size="20" font-weight="700" fill="#1e293b" font-family="Arial, sans-serif">A 區－經營管理效能</text>
+  <text x="125" y="169" font-size="16" fill="#57534e" font-family="Arial, sans-serif">A2 入出管理、A4 查核缺失、A13-A14 訓練時數</text>
+  <!-- 右側標籤 -->
+  <rect x="612" y="124" width="112" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="668" y="152" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle" font-family="Arial, sans-serif">3 項缺失</text>
+
+  <!-- B區 橫條 -->
+  <rect x="60" y="202" width="680" height="70" rx="10" fill="white"/>
+  <rect x="60" y="202" width="6" height="70" rx="3" fill="#78716c"/>
+  <circle cx="94" cy="237" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="94" y="243" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700" font-family="Arial, sans-serif">B</text>
+  <text x="125" y="229" font-size="20" font-weight="700" fill="#1e293b" font-family="Arial, sans-serif">B 區－專業照護品質</text>
+  <text x="125" y="255" font-size="16" fill="#57534e" font-family="Arial, sans-serif">B2 服務計畫、B10 防疫、B13-19 七大監測、B25-27 照護記錄</text>
+  <rect x="612" y="210" width="112" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="668" y="238" font-size="18" font-weight="700" fill="#78716c" text-anchor="middle" font-family="Arial, sans-serif">4 項缺失</text>
+
+  <!-- C區 橫條 -->
+  <rect x="60" y="288" width="680" height="70" rx="10" fill="white"/>
+  <rect x="60" y="288" width="6" height="70" rx="3" fill="#dc2626"/>
+  <circle cx="94" cy="323" r="16" fill="#dc2626" opacity="0.15"/>
+  <text x="94" y="329" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700" font-family="Arial, sans-serif">C</text>
+  <text x="125" y="315" font-size="20" font-weight="700" fill="#1e293b" font-family="Arial, sans-serif">C 區－安全環境設備（一級必要）</text>
+  <text x="125" y="341" font-size="16" fill="#57534e" font-family="Arial, sans-serif">C4 緊急呼叫、C9 消防、C10 疏散、C11 演練、C12 逃生圖、C15 護理站</text>
+  <rect x="612" y="296" width="112" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="668" y="324" font-size="18" font-weight="700" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif">1 類缺失</text>
+
+  <!-- D區 橫條 -->
+  <rect x="60" y="374" width="680" height="70" rx="10" fill="white"/>
+  <rect x="60" y="374" width="6" height="70" rx="3" fill="#57534e"/>
+  <circle cx="94" cy="409" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="94" y="415" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700" font-family="Arial, sans-serif">D</text>
+  <text x="125" y="401" font-size="20" font-weight="700" fill="#1e293b" font-family="Arial, sans-serif">D 區－個案權益保障</text>
+  <text x="125" y="427" font-size="16" fill="#57534e" font-family="Arial, sans-serif">D1 個資保密管理、肖像權同意書、系統權限管控</text>
+  <rect x="612" y="382" width="112" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="668" y="410" font-size="18" font-weight="700" fill="#57534e" text-anchor="middle" font-family="Arial, sans-serif">1 項缺失</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="Arial, sans-serif">報告汪 reportwang.com</text>
+</svg>

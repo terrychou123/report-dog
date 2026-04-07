@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區塊 -->
+  <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
+  <text x="400" y="29" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">A8 社會工作人員設置情形</text>
+  <text x="400" y="60" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="700">社工設置三大合規要點</text>
+  <text x="400" y="82" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">評鑑檢視近 5 年配置狀況，非僅當年</text>
+
+  <!-- N=3 版型: H=90, outer_gap=38, Row y: 118/221/324 -->
+
+  <!-- Row 1: 人數達法定標準 -->
+  <rect x="38" y="118" width="724" height="90" rx="8" fill="white"/>
+  <rect x="38" y="118" width="6" height="90" rx="3" fill="#d97706"/>
+  <circle cx="75" cy="163" r="16" fill="#d97706"/>
+  <text x="75" y="169" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="110" y="151" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">人數達法定標準（近 5 年）</text>
+  <text x="110" y="174" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">依老人福利機構設置標準按床數比例配置社工人員</text>
+  <text x="110" y="196" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">評鑑檢視近 5 年，短期人數不足也可能被記錄</text>
+  <rect x="598" y="130" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="666" y="149" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">床數比例</text>
+  <text x="666" y="167" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#92400e" text-anchor="middle">近5年檢視</text>
+
+  <!-- Row 2: 兼任社工合規管理 -->
+  <rect x="38" y="221" width="724" height="90" rx="8" fill="white"/>
+  <rect x="38" y="221" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="75" cy="266" r="16" fill="#78716c"/>
+  <text x="75" y="272" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="110" y="254" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">兼任社工三大文件缺一不可</text>
+  <text x="110" y="277" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">原任職單位報備同意書、機構合約書、到勤紀錄（三件齊備）</text>
+  <text x="110" y="299" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">兼任社工須於機構投保勞保；個人兼任亦同</text>
+  <rect x="598" y="233" width="136" height="46" rx="6" fill="#fef2f2"/>
+  <text x="666" y="252" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">3件文件</text>
+  <text x="666" y="270" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle">缺一不可</text>
+
+  <!-- Row 3: 資格文件齊備 -->
+  <rect x="38" y="324" width="724" height="90" rx="8" fill="white"/>
+  <rect x="38" y="324" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="75" cy="369" r="16" fill="#57534e"/>
+  <text x="75" y="375" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="110" y="357" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">資格文件逐一對應名冊</text>
+  <text x="110" y="380" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">社工師：執照正本；社工員：相關科系畢業證明</text>
+  <text x="110" y="402" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">社工師離職前應立即啟動招募，避免資格空窗期</text>
+  <rect x="598" y="336" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="666" y="355" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">執照</text>
+  <text x="666" y="373" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">一一對應</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', 'PingFang TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

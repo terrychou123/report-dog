@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
+  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">評鑑訪談 3 種模式</text>
+  <text x="400" y="72" font-size="15" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">115年度老人福利機構評鑑・各模式應對要點</text>
+
+  <!-- N=3，H=90，outer_gap=38，Row y: 166/269/372 -->
+
+  <!-- Row 1 -->
+  <rect x="29" y="154" width="742" height="90" rx="6" fill="#ffffff"/>
+  <rect x="29" y="154" width="6" height="90" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="199" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="204" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">主管</text>
+  <text x="100" y="183" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">主管訪談</text>
+  <text x="100" y="207" font-size="14" fill="#57534e" font-family="sans-serif">業務負責人、各部門主管接受委員提問，重點在制度設計</text>
+  <text x="100" y="229" font-size="14" fill="#57534e" font-family="sans-serif">改善績效、數據解讀——委員追問數字背後的意義</text>
+  <rect x="620" y="167" width="136" height="46" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="186" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">A–F 區</text>
+  <text x="688" y="204" font-size="12" fill="#d97706" font-family="sans-serif" text-anchor="middle">所有指標</text>
+
+  <!-- Row 2 -->
+  <rect x="29" y="257" width="742" height="90" rx="6" fill="#ffffff"/>
+  <rect x="29" y="257" width="6" height="90" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="302" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="307" font-size="13" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">員工</text>
+  <text x="100" y="286" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">工作人員訪談</text>
+  <text x="100" y="310" font-size="14" fill="#57534e" font-family="sans-serif">委員隨機抽問照服員、護理師、社工，測試是否熟悉 SOP</text>
+  <text x="100" y="332" font-size="14" fill="#57534e" font-family="sans-serif">最容易翻車的模式——基層人員需提前練習常見問題</text>
+  <rect x="620" y="270" width="136" height="46" rx="6" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="289" font-size="13" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">SOP 熟悉</text>
+  <text x="688" y="307" font-size="12" fill="#78716c" font-family="sans-serif" text-anchor="middle">高風險模式</text>
+
+  <!-- Row 3 -->
+  <rect x="29" y="360" width="742" height="90" rx="6" fill="#ffffff"/>
+  <rect x="29" y="360" width="6" height="90" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="405" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="410" font-size="13" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">個案</text>
+  <text x="100" y="389" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">服務對象訪談</text>
+  <text x="100" y="413" font-size="14" fill="#57534e" font-family="sans-serif">委員直接與個案交談，詢問滿意度、申訴管道、約束情況</text>
+  <text x="100" y="435" font-size="14" fill="#57534e" font-family="sans-serif">無法預先安排答案，平時照護品質才是關鍵</text>
+  <rect x="620" y="373" width="136" height="46" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="392" font-size="13" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">D 區核心</text>
+  <text x="688" y="410" font-size="12" fill="#57534e" font-family="sans-serif" text-anchor="middle">平時品質</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">B10 感染管制（二級加強）：4 大防疫機制</text>
+  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" font-family="sans-serif">每日體溫量測、感染管制手冊、防護物資儲備，三位一體防疫</text>
+
+  <!-- N=4 版型：H=62, outer_gap=50, Header y=50, Row y: 160/235/310/385 -->
+
+  <!-- 列 1 -->
+  <rect x="50" y="135" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="135" width="6" height="62" rx="3" fill="#d97706"/>
+  <circle cx="74" cy="166" r="16" fill="#d97706"/>
+  <text x="74" y="171" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">1</text>
+  <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">每日體溫量測與線上通報</text>
+  <text x="108" y="182" font-size="16" fill="#57534e" font-family="sans-serif">工作人員與服務對象每日至少量測 1 次體溫，依規定按時上網登載通報</text>
+  <rect x="620" y="143" width="136" height="46" rx="6" fill="#fef3c7"/>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif" font-weight="700">每日執行</text>
+  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">線上登載</text>
+
+  <!-- 列 2 -->
+  <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="210" width="6" height="62" rx="3" fill="#16a34a"/>
+  <circle cx="74" cy="241" r="16" fill="#16a34a"/>
+  <text x="74" y="246" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">2</text>
+  <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">各類傳染病通報作業流程</text>
+  <text x="108" y="257" font-size="16" fill="#57534e" font-family="sans-serif">呼吸道、腸道傳染病、不明發燒、群聚感染事件均有作業流程及通報辦法</text>
+  <rect x="620" y="218" width="136" height="46" rx="6" fill="#dcfce7"/>
+  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif" font-weight="700">4 類傳染病</text>
+  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif">流程明確</text>
+
+  <!-- 列 3 -->
+  <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="285" width="6" height="62" rx="3" fill="#78716c"/>
+  <circle cx="74" cy="316" r="16" fill="#78716c"/>
+  <text x="74" y="321" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">3</text>
+  <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">感染管制手冊年度更新</text>
+  <text x="108" y="332" font-size="16" fill="#57534e" font-family="sans-serif">制定感染管制手冊並確實執行，每年至少檢視更新 1 次，洗手設施配置齊全</text>
+  <rect x="620" y="293" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif" font-weight="700">年度更新</text>
+  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">手冊必備</text>
+
+  <!-- 列 4 -->
+  <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
+  <rect x="50" y="360" width="6" height="62" rx="3" fill="#57534e"/>
+  <circle cx="74" cy="391" r="16" fill="#57534e"/>
+  <text x="74" y="396" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">4</text>
+  <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">防護物資適當儲備與管理</text>
+  <text x="108" y="407" font-size="16" fill="#57534e" font-family="sans-serif">口罩手套等防護裝備有儲備量，定期檢視效期，離地離牆通風儲放，訪客亦納入</text>
+  <rect x="620" y="368" width="136" height="46" rx="6" fill="#f5f5f4"/>
+  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif" font-weight="700">物資儲備</text>
+  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif">效期管理</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>

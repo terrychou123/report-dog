@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
+  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">5 大訪談應對技巧</text>
+  <text x="400" y="72" font-size="15" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">讓每位工作人員備答不慌張</text>
+
+  <!-- N=5，H=60，outer_gap=29，Row y: 118/191/264/337/410 -->
+
+  <!-- Row 1 -->
+  <rect x="29" y="106" width="742" height="60" rx="6" fill="#ffffff"/>
+  <rect x="29" y="106" width="6" height="60" rx="3" fill="#d97706"/>
+  <circle cx="66" cy="136" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="141" font-size="15" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">1</text>
+  <text x="100" y="128" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">數字要能背，不能查</text>
+  <text x="100" y="152" font-size="13" fill="#57534e" font-family="sans-serif">各職類主管製作「關鍵數字備忘卡」：人員數、時數、監測數據、施打率</text>
+  <rect x="620" y="119" width="136" height="34" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="141" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">隨身攜帶</text>
+
+  <!-- Row 2 -->
+  <rect x="29" y="179" width="742" height="60" rx="6" fill="#ffffff"/>
+  <rect x="29" y="179" width="6" height="60" rx="3" fill="#78716c"/>
+  <circle cx="66" cy="209" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="214" font-size="15" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">2</text>
+  <text x="100" y="201" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">文件要能 30 秒內找到</text>
+  <text x="100" y="225" font-size="13" fill="#57534e" font-family="sans-serif">報告汪標籤分類系統，委員問到時立即調出，不讓委員等待</text>
+  <rect x="620" y="192" width="136" height="34" rx="6" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="214" font-size="13" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">即時調閱</text>
+
+  <!-- Row 3 -->
+  <rect x="29" y="252" width="742" height="60" rx="6" fill="#ffffff"/>
+  <rect x="29" y="252" width="6" height="60" rx="3" fill="#57534e"/>
+  <circle cx="66" cy="282" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="287" font-size="15" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">3</text>
+  <text x="100" y="274" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">現場設備要提前練習（C4/C15）</text>
+  <text x="100" y="298" font-size="13" fill="#57534e" font-family="sans-serif">緊急呼叫鈴按下後，全員練習「接收→回應→到場」完整流程</text>
+  <rect x="620" y="265" width="136" height="34" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="287" font-size="13" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">演練到位</text>
+
+  <!-- Row 4 -->
+  <rect x="29" y="325" width="742" height="60" rx="6" fill="#ffffff"/>
+  <rect x="29" y="325" width="6" height="60" rx="3" fill="#a8a29e"/>
+  <circle cx="66" cy="355" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="360" font-size="15" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">4</text>
+  <text x="100" y="347" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">基層工作人員模擬訪談練習</text>
+  <text x="100" y="371" font-size="13" fill="#57534e" font-family="sans-serif">評鑑前 4–6 週辦 1–2 次全員模擬，照服員重點練習 3 題高頻問題</text>
+  <rect x="620" y="338" width="136" height="34" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="360" font-size="13" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">全員演練</text>
+
+  <!-- Row 5 -->
+  <rect x="29" y="398" width="742" height="60" rx="6" fill="#ffffff"/>
+  <rect x="29" y="398" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <circle cx="66" cy="428" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="433" font-size="15" font-weight="700" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">5</text>
+  <text x="100" y="420" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">多人協作，各職類分區負責備答</text>
+  <text x="100" y="444" font-size="13" fill="#57534e" font-family="sans-serif">行政/A區、社工/B1-B8+D區、護理/B9-B24、照服/B25-B27</text>
+  <rect x="620" y="411" width="136" height="34" rx="6" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="433" font-size="13" font-weight="700" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">報告汪協作</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+</svg>
