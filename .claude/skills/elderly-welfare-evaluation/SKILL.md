@@ -1,7 +1,7 @@
 ---
 name: elderly-welfare-evaluation
 description: |
-  老人福利機構評鑑大師：協助建立和維護 /school/elderly-welfare 評鑑小教室的內容。
+  老人福利機構評鑑大師：協助建立和維護 /school/elderly-welfare 評鑑小教室及 /blog 部落格的內容。
   當使用者要新增或修改老人福利機構評鑑相關教學頁面時觸發。
   包含 115 年度老人福利機構評鑑基準知識（77 項）、頁面模板與 SEO 指引。
 metadata:
