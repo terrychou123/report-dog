@@ -18,6 +18,17 @@ import {
   ChevronDownIcon,
   DownloadIcon,
   BellRingIcon,
+  // 長照產業解決方案卡片 icon
+  Home as HomeIcon,
+  Sun as SunIcon,
+  Hospital,
+  BedDouble,
+  Accessibility,
+  Baby,
+  Stethoscope,
+  HeartPulse,
+  Brain,
+  Milk,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -302,7 +313,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                emoji: "🏠",
+                icon: HomeIcon,
                 badge: "居服機構",
                 href: "/home-care",
                 linkTitle: "居服機構 AI 文書管理系統介紹",
@@ -313,7 +324,7 @@ export default function Home() {
                 cta: "居服機構文書管理系統 →",
               },
               {
-                emoji: "🏢",
+                icon: SunIcon,
                 badge: "日照中心",
                 href: "/day-care",
                 linkTitle: "日照中心 AI 文書管理系統介紹",
@@ -324,7 +335,7 @@ export default function Home() {
                 cta: "日照中心文書管理系統 →",
               },
               {
-                emoji: "🏥",
+                icon: Hospital,
                 badge: "醫院",
                 href: "/hospital",
                 linkTitle: "醫院 AI 文書管理系統介紹",
@@ -335,7 +346,7 @@ export default function Home() {
                 cta: "護理文書管理系統・交班紀錄工具 →",
               },
               {
-                emoji: "🏡",
+                icon: BedDouble,
                 badge: "住宿型長照機構",
                 href: "/residential",
                 linkTitle: "住宿型長照機構多職種文書協作平台介紹",
@@ -346,7 +357,7 @@ export default function Home() {
                 cta: "住宿型長照機構多職類文書協作平台 →",
               },
               {
-                emoji: "♿",
+                icon: Accessibility,
                 badge: "身心障礙福利機構",
                 href: "/disability-welfare",
                 linkTitle: "身心障礙福利機構 AI 文書管理系統介紹",
@@ -357,7 +368,7 @@ export default function Home() {
                 cta: "身心障礙福利機構文書管理系統 →",
               },
               {
-                emoji: "👶",
+                icon: Baby,
                 badge: "產後護理之家",
                 href: "/babycare",
                 linkTitle: "產後護理之家 AI 文書管理系統介紹",
@@ -368,7 +379,7 @@ export default function Home() {
                 cta: "產後護理之家文書管理系統 →",
               },
               {
-                emoji: "🩺",
+                icon: Stethoscope,
                 badge: "居家護理所",
                 href: "/home-nursing",
                 linkTitle: "居家護理所 AI 文書管理系統介紹",
@@ -379,7 +390,7 @@ export default function Home() {
                 cta: "居家護理所文書管理系統 →",
               },
               {
-                emoji: "🏥",
+                icon: HeartPulse,
                 badge: "一般護理之家",
                 href: "/general-nursing-home",
                 linkTitle: "一般護理之家 AI 文書管理系統介紹",
@@ -390,7 +401,7 @@ export default function Home() {
                 cta: "一般護理之家文書管理系統 →",
               },
               {
-                emoji: "🧠",
+                icon: Brain,
                 badge: "精神護理之家",
                 href: "/psychiatric",
                 linkTitle: "精神護理之家評鑑報告管理系統介紹",
@@ -401,7 +412,7 @@ export default function Home() {
                 cta: "了解精神護理之家方案 →",
               },
               {
-                emoji: "🍼",
+                icon: Milk,
                 badge: "托嬰中心",
                 href: "/infant-daycare",
                 linkTitle: "托嬰中心評鑑報告管理系統介紹",
@@ -416,7 +427,10 @@ export default function Home() {
                 <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
                   <CardContent className="pt-6 pb-6 flex flex-col h-full">
                     <div className="flex items-center gap-2 mb-4">
-                      <span className="text-xl">{item.emoji}</span>
+                      {/* 44x44 圓形淺色背景 + 22px icon，符合 DESIGN.md Feature card 規範 */}
+                      <div className="w-11 h-11 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                        <item.icon className="w-[22px] h-[22px]" strokeWidth={1.8} />
+                      </div>
                       <Badge variant="secondary" className="text-xs">{item.badge}</Badge>
                     </div>
                     <div className="text-4xl font-extrabold text-primary mb-0.5">{item.stat}</div>

@@ -12,6 +12,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ["var(--font-noto-serif-tc)", "Noto Serif TC", "serif"],
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

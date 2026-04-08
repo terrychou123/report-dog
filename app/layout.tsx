@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Noto_Serif_TC } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
@@ -45,6 +45,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+// 中文襯線標題字體 — see DESIGN.md
+// CJK 字體不支援 latin subset 預載，用 preload: false 讓瀏覽器完整使用字形集
+const notoSerifTC = Noto_Serif_TC({
+  variable: "--font-noto-serif-tc",
+  display: "swap",
+  preload: false,
+  weight: ["400", "500", "600", "700"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -59,7 +68,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </head>
-      <body className={`${geistSans.className} antialiased`}>
+      <body className={`${geistSans.className} ${notoSerifTC.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

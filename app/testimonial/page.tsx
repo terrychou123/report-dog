@@ -5,7 +5,34 @@ import { Footer } from "@/components/footer";
 import { StartButton } from "@/components/start-button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChevronDownIcon } from "lucide-react";
+import {
+  ChevronDownIcon,
+  Home as HomeIcon,
+  Sun as SunIcon,
+  Hospital,
+  BedDouble,
+  Accessibility,
+  Baby,
+  Stethoscope,
+  HeartPulse,
+  School,
+  HandHeart,
+  Brain,
+  Milk,
+  type LucideIcon,
+} from "lucide-react";
+
+type NavItem = { href: string; icon: LucideIcon | null; label: string };
+
+// 各機構類型 section 標題：icon 左側對齊文字
+function SectionHeading({ icon: Icon, children }: { icon: LucideIcon; children: React.ReactNode }) {
+  return (
+    <h2 className="text-2xl font-bold inline-flex items-center gap-2">
+      <Icon className="w-6 h-6 text-primary" strokeWidth={1.8} />
+      {children}
+    </h2>
+  );
+}
 
 export const metadata: Metadata = {
   title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
@@ -187,26 +214,27 @@ export default function TestimonialPage() {
         >
           <div className="max-w-6xl mx-auto px-6">
             <div className="overflow-x-auto flex gap-2 py-3 whitespace-nowrap">
-              {[
-                { href: "#", label: "全部" },
-                { href: "#home-care", label: "🏠 居服機構" },
-                { href: "#day-care", label: "🏢 日照中心" },
-                { href: "#hospital", label: "🏥 醫院" },
-                { href: "#residential", label: "🏡 住宿型機構" },
-                { href: "#disability-welfare", label: "♿ 身障機構" },
-                { href: "#babycare", label: "👶 產後護理之家" },
-                { href: "#home-nursing", label: "🩺 居家護理所" },
-                { href: "#general-nursing-home", label: "🏥 一般護理之家" },
-                { href: "#youth-care", label: "🏫 兒少教養機構" },
-                { href: "#elderly-welfare", label: "🏥 老人福利機構" },
-                { href: "#psychiatric-nursing-home", label: "🧠 精神護理之家" },
-                { href: "#infant-daycare", label: "🍼 托嬰中心" },
-              ].map((item) => (
+              {([
+                { href: "#", icon: null, label: "全部" },
+                { href: "#home-care", icon: HomeIcon, label: "居服機構" },
+                { href: "#day-care", icon: SunIcon, label: "日照中心" },
+                { href: "#hospital", icon: Hospital, label: "醫院" },
+                { href: "#residential", icon: BedDouble, label: "住宿型機構" },
+                { href: "#disability-welfare", icon: Accessibility, label: "身障機構" },
+                { href: "#babycare", icon: Baby, label: "產後護理之家" },
+                { href: "#home-nursing", icon: Stethoscope, label: "居家護理所" },
+                { href: "#general-nursing-home", icon: HeartPulse, label: "一般護理之家" },
+                { href: "#youth-care", icon: School, label: "兒少教養機構" },
+                { href: "#elderly-welfare", icon: HandHeart, label: "老人福利機構" },
+                { href: "#psychiatric-nursing-home", icon: Brain, label: "精神護理之家" },
+                { href: "#infant-daycare", icon: Milk, label: "托嬰中心" },
+              ] as NavItem[]).map((item) => (
                 <a
                   key={item.href}
                   href={item.href}
-                  className="rounded-full border px-4 py-1.5 text-sm hover:bg-muted hover:border-primary/30 transition-colors"
+                  className="inline-flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-sm hover:bg-muted hover:border-primary/30 transition-colors"
                 >
+                  {item.icon && <item.icon className="w-4 h-4" strokeWidth={1.8} />}
                   {item.label}
                 </a>
               ))}
@@ -218,7 +246,7 @@ export default function TestimonialPage() {
         <section id="home-care" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏠 居服機構</h2>
+              <SectionHeading icon={HomeIcon}>居服機構</SectionHeading>
               <Link href="/home-care" className="text-sm text-primary hover:underline">
                 了解居服機構方案 →
               </Link>
@@ -330,7 +358,7 @@ export default function TestimonialPage() {
         <section id="day-care" className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏢 日照中心</h2>
+              <SectionHeading icon={SunIcon}>日照中心</SectionHeading>
               <Link href="/day-care" className="text-sm text-primary hover:underline">
                 了解日照中心方案 →
               </Link>
@@ -442,7 +470,7 @@ export default function TestimonialPage() {
         <section id="hospital" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏥 醫院</h2>
+              <SectionHeading icon={Hospital}>醫院</SectionHeading>
               <Link href="/hospital" className="text-sm text-primary hover:underline">
                 了解醫院方案 →
               </Link>
@@ -554,7 +582,7 @@ export default function TestimonialPage() {
         <section id="residential" className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏡 住宿型長照機構</h2>
+              <SectionHeading icon={BedDouble}>住宿型長照機構</SectionHeading>
               <Link href="/residential" className="text-sm text-primary hover:underline">
                 了解住宿型機構方案 →
               </Link>
@@ -690,7 +718,7 @@ export default function TestimonialPage() {
         <section id="disability-welfare" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">♿ 身心障礙福利機構</h2>
+              <SectionHeading icon={Accessibility}>身心障礙福利機構</SectionHeading>
               <Link href="/disability-welfare" className="text-sm text-primary hover:underline">
                 了解身障機構方案 →
               </Link>
@@ -778,7 +806,7 @@ export default function TestimonialPage() {
         <section id="babycare" className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">👶 產後護理之家</h2>
+              <SectionHeading icon={Baby}>產後護理之家</SectionHeading>
               <Link href="/babycare" className="text-sm text-primary hover:underline">
                 了解產後護理之家方案 →
               </Link>
@@ -866,7 +894,7 @@ export default function TestimonialPage() {
         <section id="home-nursing" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🩺 居家護理所</h2>
+              <SectionHeading icon={Stethoscope}>居家護理所</SectionHeading>
               <Link href="/home-nursing" className="text-sm text-primary hover:underline">
                 了解居家護理所方案 →
               </Link>
@@ -954,7 +982,7 @@ export default function TestimonialPage() {
         <section id="general-nursing-home" className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏥 一般護理之家</h2>
+              <SectionHeading icon={HeartPulse}>一般護理之家</SectionHeading>
               <Link href="/general-nursing-home" className="text-sm text-primary hover:underline">
                 了解一般護理之家方案 →
               </Link>
@@ -1042,7 +1070,7 @@ export default function TestimonialPage() {
         <section id="youth-care" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏫 兒少教養機構</h2>
+              <SectionHeading icon={School}>兒少教養機構</SectionHeading>
               <Link href="/school/youth-care" className="text-sm text-primary hover:underline">
                 了解兒少教養機構評鑑基準 →
               </Link>
@@ -1154,7 +1182,7 @@ export default function TestimonialPage() {
         <section id="elderly-welfare" className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🏥 老人福利機構</h2>
+              <SectionHeading icon={HandHeart}>老人福利機構</SectionHeading>
               <Link href="/school/elderly-welfare" className="text-sm text-primary hover:underline">
                 了解老人福利機構評鑑基準 →
               </Link>
@@ -1266,7 +1294,7 @@ export default function TestimonialPage() {
         <section id="psychiatric-nursing-home" className="py-20 px-6 bg-muted/20">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🧠 精神護理之家</h2>
+              <SectionHeading icon={Brain}>精神護理之家</SectionHeading>
               <Link href="/school/psychiatric-nursing-home" className="text-sm text-primary hover:underline">
                 了解精神護理之家評鑑基準 →
               </Link>
@@ -1330,7 +1358,7 @@ export default function TestimonialPage() {
         <section id="infant-daycare" className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center justify-between gap-4 mb-10 flex-wrap">
-              <h2 className="text-2xl font-bold">🍼 托嬰中心</h2>
+              <SectionHeading icon={Milk}>托嬰中心</SectionHeading>
               <Link href="/infant-daycare" className="text-sm text-primary hover:underline">
                 了解托嬰中心方案 →
               </Link>

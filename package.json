@@ -15,7 +15,8 @@
     "generate:infant-daycare-checklist": "tsx scripts/generate-infant-daycare-checklist.ts",
     "generate:daycare-checklist": "tsx scripts/generate-daycare-checklist.ts",
     "generate:psychiatric-rehabilitation-institution-checklist": "tsx scripts/generate-psychiatric-rehabilitation-institution-checklist.ts",
-    "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts"
+    "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts",
+    "generate:carousel": "tsx scripts/generate-carousel.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -55,6 +56,7 @@
     "remark-gfm": "^4.0.1",
     "resend": "^6.9.4",
     "sanitize-html": "^2.17.1",
+    "sharp": "^0.34.5",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.3.0"
   },
@@ -63,6 +65,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sharp": "^0.31.1",
     "autoprefixer": "^10.4.20",
     "dotenv-cli": "^11.0.0",
     "eslint": "^9",
