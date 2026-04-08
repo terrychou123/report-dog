@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       title: post.seoTitle || post.title,
       description: post.seoDescription || post.excerpt || undefined,
-      images: post.coverImageUrl ? [{ url: post.coverImageUrl }] : [],
+      // og:image 由同目錄的 opengraph-image.tsx 動態產生 PNG（避免 SVG 字型在社群平台顯示亂碼）
       publishedTime: post.publishedAt?.toISOString(),
       modifiedTime: post.updatedAt?.toISOString(),
     },

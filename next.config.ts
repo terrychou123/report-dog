@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
   },
   reactStrictMode: false,
   cacheComponents: true,
-  serverExternalPackages: ['mammoth', 'pdf-parse', 'html-to-docx'],
+  serverExternalPackages: ['mammoth', 'pdf-parse', 'html-to-docx', '@resvg/resvg-js'],
   async redirects() {
     return [
       { source: '/disability', destination: '/disability-welfare', permanent: true },
