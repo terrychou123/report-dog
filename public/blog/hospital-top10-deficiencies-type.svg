@@ -12,7 +12,7 @@
   <rect x="28" y="100" width="234" height="48" rx="12" fill="#d97706"/>
   <rect x="28" y="124" width="234" height="24" fill="#d97706"/>
   <!-- 標頭文字 -->
-  <text x="145" y="130" text-anchor="middle" font-size="20" fill="white" font-weight="700">資料查核</text>
+  <text x="145" y="143" text-anchor="middle" font-size="20" fill="white" font-weight="700">資料查核</text>
   <!-- 副標 -->
   <text x="145" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常從文件中發現：</text>
   <!-- 項目 1-5 -->
@@ -38,14 +38,14 @@
 
   <!-- 底部標籤 -->
   <rect x="44" y="416" width="202" height="60" rx="10" fill="#fef3c7"/>
-  <text x="145" y="441" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">涵蓋10大失分中的6條</text>
-  <text x="145" y="461" text-anchor="middle" font-size="14" fill="#d97706">1.3.2 / 2.2.1 / 2.2.3 / 1.4.1 / 2.7.3</text>
+  <text x="145" y="436" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">涵蓋10大失分中的6條</text>
+  <text x="145" y="456" text-anchor="middle" font-size="14" fill="#d97706">1.3.2 / 2.2.1 / 2.2.3 / 1.4.1 / 2.7.3</text>
 
   <!-- ===== 欄 2：訪談查核 (x=283, cx=400, w=234) ===== -->
   <rect x="283" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="283" y="100" width="234" height="48" rx="12" fill="#78716c"/>
   <rect x="283" y="124" width="234" height="24" fill="#78716c"/>
-  <text x="400" y="130" text-anchor="middle" font-size="20" fill="white" font-weight="700">訪談查核</text>
+  <text x="400" y="143" text-anchor="middle" font-size="20" fill="white" font-weight="700">訪談查核</text>
   <text x="400" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常從訪談中發現：</text>
 
   <rect x="303" y="183" width="6" height="6" rx="2" fill="#78716c"/>
@@ -69,14 +69,14 @@
   <text x="317" y="378" font-size="14" fill="#57534e">有數字但無法解讀內容</text>
 
   <rect x="299" y="416" width="202" height="60" rx="10" fill="#f5f5f4"/>
-  <text x="400" y="441" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">涵蓋10大失分中的4條</text>
-  <text x="400" y="461" text-anchor="middle" font-size="14" fill="#78716c">2.1.2 / 2.2.1 / 2.5.5 / 2.6.1</text>
+  <text x="400" y="436" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">涵蓋10大失分中的4條</text>
+  <text x="400" y="456" text-anchor="middle" font-size="14" fill="#78716c">2.1.2 / 2.2.1 / 2.5.5 / 2.6.1</text>
 
   <!-- ===== 欄 3：實地查核 (x=538, cx=655, w=234) ===== -->
   <rect x="538" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="538" y="100" width="234" height="48" rx="12" fill="#dc2626"/>
   <rect x="538" y="124" width="234" height="24" fill="#dc2626"/>
-  <text x="655" y="130" text-anchor="middle" font-size="20" fill="white" font-weight="700">實地查核</text>
+  <text x="655" y="143" text-anchor="middle" font-size="20" fill="white" font-weight="700">實地查核</text>
   <text x="655" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常現場直接發現：</text>
 
   <rect x="558" y="183" width="6" height="6" rx="1" fill="#dc2626"/>
@@ -100,8 +100,8 @@
   <text x="572" y="378" font-size="14" fill="#57534e">超過 3/4 滿未更換</text>
 
   <rect x="554" y="416" width="202" height="60" rx="10" fill="white" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="655" y="441" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="600">最難補救的查核類型</text>
-  <text x="655" y="461" text-anchor="middle" font-size="14" fill="#dc2626">2.7.2 / 2.5.5 / 1.5.2</text>
+  <text x="655" y="436" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="600">最難補救的查核類型</text>
+  <text x="655" y="456" text-anchor="middle" font-size="14" fill="#dc2626">2.7.2 / 2.5.5 / 1.5.2</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

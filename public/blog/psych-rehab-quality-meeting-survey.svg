@@ -16,8 +16,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">問卷設計</text>
   <text x="100" y="208" font-size="16" fill="#57534e">涵蓋服務品質、環境、工作人員態度等多面向</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">面向完整</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">題目明確</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">面向完整</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">題目明確</text>
 
   <!-- Row 2：發放對象（stone-500 #78716c） -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">發放對象</text>
   <text x="100" y="283" font-size="16" fill="#57534e">學員／住民＋家屬，設匿名填寫選項保護隱私</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">對象涵蓋</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">匿名保護</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">對象涵蓋</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">匿名保護</text>
 
   <!-- Row 3：統計分析（stone-600 #57534e） -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">統計分析</text>
   <text x="100" y="358" font-size="16" fill="#57534e">計算各題平均分，找出低分項目與年度趨勢</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">資料分析</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">指標追蹤</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">資料分析</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">指標追蹤</text>
 
   <!-- Row 4：改善回饋（stone-400 #a8a29e） -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">改善回饋</text>
   <text x="100" y="433" font-size="16" fill="#57534e">結果提交品質管理會議，追蹤改善成效閉環</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">改善閉環</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">品質提升</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">改善閉環</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">品質提升</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

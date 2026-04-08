@@ -2,9 +2,9 @@
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="400" y="44" text-anchor="middle" font-size="26" fill="#1e293b" font-weight="700">老人福利機構評鑑 6 個月備審時程</text>
-  <text x="400" y="68" text-anchor="middle" font-size="17" fill="#57534e">評鑑前半年啟動，系統備妥 77 項指標分階行動計畫</text>
-  <line x1="28" y1="82" x2="772" y2="82" stroke="#dedad3" stroke-width="1"/>
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">老人福利機構評鑑 6 個月備審時程</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">評鑑前半年啟動，系統備妥 77 項指標分階行動計畫</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 主時間軸 -->
   <line x1="80" y1="252" x2="718" y2="252" stroke="#c4bfb8" stroke-width="3"/>
@@ -16,12 +16,12 @@
   <rect x="16" y="100" width="128" height="110" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
   <rect x="16" y="100" width="128" height="5" rx="3" fill="#d97706"/>
   <rect x="16" y="103" width="128" height="2" fill="#d97706"/>
-  <text x="80" y="120" font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">評鑑前 6 個月</text>
+  <text x="80" y="120" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">評鑑前 6 個月</text>
   <line x1="26" y1="127" x2="134" y2="127" stroke="#d97706" stroke-width="0.7" opacity="0.5"/>
   <text x="80" y="143" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="700">全面自我查核</text>
-  <text x="80" y="160" font-size="12" fill="#57534e" text-anchor="middle">77 項指標逐項盤點</text>
-  <text x="80" y="176" font-size="12" fill="#57534e" text-anchor="middle">找出缺口列改善清單</text>
-  <text x="80" y="192" font-size="12" fill="#57534e" text-anchor="middle">報告汪 AI 批量掃描</text>
+  <text x="80" y="160" font-size="14" fill="#57534e" text-anchor="middle">77 項指標逐項盤點</text>
+  <text x="80" y="176" font-size="14" fill="#57534e" text-anchor="middle">找出缺口列改善清單</text>
+  <text x="80" y="192" font-size="14" fill="#57534e" text-anchor="middle">報告汪 AI 批量掃描</text>
   <!-- 連接線 -->
   <line x1="80" y1="210" x2="80" y2="244" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 軸上節點 -->
@@ -40,24 +40,24 @@
   <rect x="176" y="277" width="128" height="110" rx="8" fill="white" stroke="#78716c" stroke-width="1.5"/>
   <rect x="176" y="381" width="128" height="6" rx="3" fill="#78716c"/>
   <rect x="176" y="377" width="128" height="4" fill="#78716c"/>
-  <text x="240" y="295" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">評鑑前 4-5 個月</text>
+  <text x="240" y="295" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">評鑑前 4-5 個月</text>
   <line x1="186" y1="302" x2="294" y2="302" stroke="#78716c" stroke-width="0.7" opacity="0.5"/>
   <text x="240" y="318" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="700">攻堅必要指標</text>
-  <text x="240" y="335" font-size="12" fill="#57534e" text-anchor="middle">C4/C9-C12/C15</text>
-  <text x="240" y="351" font-size="12" fill="#57534e" text-anchor="middle">設備檢修紀錄到位</text>
-  <text x="240" y="367" font-size="12" fill="#57534e" text-anchor="middle">確認消防申報期程</text>
+  <text x="240" y="335" font-size="14" fill="#57534e" text-anchor="middle">C4/C9-C12/C15</text>
+  <text x="240" y="351" font-size="14" fill="#57534e" text-anchor="middle">設備檢修紀錄到位</text>
+  <text x="240" y="367" font-size="14" fill="#57534e" text-anchor="middle">確認消防申報期程</text>
 
   <!-- ===== 節點 3：評鑑前 3 個月（上，#57534e）===== -->
   <!-- 上方卡片 -->
   <rect x="336" y="100" width="128" height="110" rx="8" fill="white" stroke="#57534e" stroke-width="1.5"/>
   <rect x="336" y="100" width="128" height="5" rx="3" fill="#57534e"/>
   <rect x="336" y="103" width="128" height="2" fill="#57534e"/>
-  <text x="400" y="120" font-size="12" fill="#57534e" text-anchor="middle" font-weight="700">評鑑前 3 個月</text>
+  <text x="400" y="120" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">評鑑前 3 個月</text>
   <line x1="346" y1="127" x2="454" y2="127" stroke="#57534e" stroke-width="0.7" opacity="0.5"/>
   <text x="400" y="143" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="700">補齊 PDCA 記錄</text>
-  <text x="400" y="160" font-size="12" fill="#57534e" text-anchor="middle">B2 個案計畫完整性</text>
-  <text x="400" y="176" font-size="12" fill="#57534e" text-anchor="middle">在職訓練時數達標</text>
-  <text x="400" y="192" font-size="12" fill="#57534e" text-anchor="middle">品質監測指標統計</text>
+  <text x="400" y="160" font-size="14" fill="#57534e" text-anchor="middle">B2 個案計畫完整性</text>
+  <text x="400" y="176" font-size="14" fill="#57534e" text-anchor="middle">在職訓練時數達標</text>
+  <text x="400" y="192" font-size="14" fill="#57534e" text-anchor="middle">品質監測指標統計</text>
   <!-- 連接線 -->
   <line x1="400" y1="210" x2="400" y2="244" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 軸上節點 -->
@@ -76,24 +76,24 @@
   <rect x="496" y="277" width="128" height="110" rx="8" fill="white" stroke="#a8a29e" stroke-width="1.5"/>
   <rect x="496" y="381" width="128" height="6" rx="3" fill="#a8a29e"/>
   <rect x="496" y="377" width="128" height="4" fill="#a8a29e"/>
-  <text x="560" y="295" font-size="12" fill="#a8a29e" text-anchor="middle" font-weight="700">評鑑前 1-2 個月</text>
+  <text x="560" y="295" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700">評鑑前 1-2 個月</text>
   <line x1="506" y1="302" x2="614" y2="302" stroke="#a8a29e" stroke-width="0.7" opacity="0.5"/>
   <text x="560" y="318" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="700">整理備審文件</text>
-  <text x="560" y="335" font-size="12" fill="#57534e" text-anchor="middle">六大區塊逐一彙整</text>
-  <text x="560" y="351" font-size="12" fill="#57534e" text-anchor="middle">模擬評鑑訪談演練</text>
-  <text x="560" y="367" font-size="12" fill="#57534e" text-anchor="middle">分工角色確認到位</text>
+  <text x="560" y="335" font-size="14" fill="#57534e" text-anchor="middle">六大區塊逐一彙整</text>
+  <text x="560" y="351" font-size="14" fill="#57534e" text-anchor="middle">模擬評鑑訪談演練</text>
+  <text x="560" y="367" font-size="14" fill="#57534e" text-anchor="middle">分工角色確認到位</text>
 
   <!-- ===== 節點 5：評鑑前 1 週（上，#94a3b8）===== -->
   <!-- 上方卡片 -->
   <rect x="656" y="100" width="128" height="110" rx="8" fill="white" stroke="#94a3b8" stroke-width="1.5"/>
   <rect x="656" y="100" width="128" height="5" rx="3" fill="#94a3b8"/>
   <rect x="656" y="103" width="128" height="2" fill="#94a3b8"/>
-  <text x="720" y="120" font-size="12" fill="#94a3b8" text-anchor="middle" font-weight="700">評鑑前 1 週</text>
+  <text x="720" y="120" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="700">評鑑前 1 週</text>
   <line x1="666" y1="127" x2="774" y2="127" stroke="#94a3b8" stroke-width="0.7" opacity="0.5"/>
   <text x="720" y="143" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="700">最後確認衝刺</text>
-  <text x="720" y="160" font-size="12" fill="#57534e" text-anchor="middle">緊急呼叫系統測試</text>
-  <text x="720" y="176" font-size="12" fill="#57534e" text-anchor="middle">護理站設備效期查驗</text>
-  <text x="720" y="192" font-size="12" fill="#57534e" text-anchor="middle">全員到位待詢確認</text>
+  <text x="720" y="160" font-size="14" fill="#57534e" text-anchor="middle">緊急呼叫系統測試</text>
+  <text x="720" y="176" font-size="14" fill="#57534e" text-anchor="middle">護理站設備效期查驗</text>
+  <text x="720" y="192" font-size="14" fill="#57534e" text-anchor="middle">全員到位待詢確認</text>
   <!-- 連接線 -->
   <line x1="720" y1="210" x2="720" y2="244" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 軸上節點 -->
@@ -102,7 +102,7 @@
   <circle cx="720" cy="252" r="3" fill="#94a3b8" opacity="0.15"/>
 
   <!-- 評鑑日標記 -->
-  <text x="740" y="242" font-size="12" fill="#dc2626" font-weight="700">評鑑日</text>
+  <text x="740" y="242" font-size="14" fill="#dc2626" font-weight="700">評鑑日</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -9,7 +9,7 @@
   <rect x="40" y="115" width="340" height="320" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
   <rect x="40" y="115" width="340" height="46" rx="12" fill="#d97706"/>
   <rect x="40" y="141" width="340" height="20" fill="#d97706"/>
-  <text x="210" y="144" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">高頻查核護理紀錄項目</text>
+  <text x="210" y="157" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">高頻查核護理紀錄項目</text>
 
   <text x="60" y="182" font-size="14" fill="#57534e">B2 個案服務計畫 — 初評/評值/修正</text>
   <text x="60" y="204" font-size="14" fill="#57534e">B13 跌倒預防 — 逐案分析+半年整體</text>
@@ -28,7 +28,7 @@
   <rect x="420" y="115" width="340" height="320" rx="12" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
   <rect x="420" y="115" width="340" height="46" rx="12" fill="#78716c"/>
   <rect x="420" y="141" width="340" height="20" fill="#78716c"/>
-  <text x="590" y="144" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">各項紀錄關鍵要求</text>
+  <text x="590" y="157" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">各項紀錄關鍵要求</text>
 
   <text x="440" y="178" font-size="14" fill="#d97706" font-weight="700">B13/B14 — 逐案分析三要素：</text>
   <text x="440" y="198" font-size="13" fill="#57534e">事件描述 + 原因分析 + 改善措施</text>

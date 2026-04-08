@@ -10,20 +10,20 @@
 
   <!-- 右側效率指標卡片 -->
   <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">省 50%</text>
-  <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">文書時間</text>
+  <text x="918" y="328" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">省 50%</text>
+  <text x="918" y="359" font-size="22" fill="#a8a29e" text-anchor="middle">文書時間</text>
 
   <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">B1.1–B1.8</text>
-  <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">評鑑對應</text>
+  <text x="1083" y="328" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">B1.1–B1.8</text>
+  <text x="1083" y="359" font-size="22" fill="#a8a29e" text-anchor="middle">評鑑對應</text>
 
   <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">入住流程</text>
-  <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">30 分鐘完成</text>
+  <text x="918" y="424" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">入住流程</text>
+  <text x="918" y="455" font-size="22" fill="#a8a29e" text-anchor="middle">30 分鐘完成</text>
 
   <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">115 年度</text>
-  <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">最新基準</text>
+  <text x="1083" y="424" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">115 年度</text>
+  <text x="1083" y="455" font-size="22" fill="#a8a29e" text-anchor="middle">最新基準</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
@@ -40,13 +40,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="502" width="168" height="50" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="144" y="533" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">入住流程包</text>
+  <text x="144" y="536" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">入住流程包</text>
 
   <rect x="240" y="502" width="168" height="50" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="324" y="533" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">出院整合表</text>
+  <text x="324" y="536" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">出院整合表</text>
 
   <rect x="420" y="502" width="168" height="50" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="504" y="533" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">哺乳指標化</text>
+  <text x="504" y="536" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">哺乳指標化</text>
 
   <!-- 適用對象 -->
   <text x="60" y="580" font-size="26" fill="#94a3b8">適用對象：產後護理之家護理師 · 護理主管 · 機構負責人</text>

@@ -15,8 +15,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">食物樣品保存不當（第44項）</text>
   <text x="100" y="166" font-size="16" fill="#57534e">缺失：未密封或未標示日期，或溫度超標（需7°C以下保存48小時備查）</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="142" font-size="16" fill="#dc2626" text-anchor="middle">衛生缺失</text>
-  <text x="688" y="162" font-size="16" fill="#dc2626" text-anchor="middle">第44項</text>
+  <text x="688" y="138" font-size="16" fill="#dc2626" text-anchor="middle">衛生缺失</text>
+  <text x="688" y="158" font-size="16" fill="#dc2626" text-anchor="middle">第44項</text>
 
   <!-- Row 1：冰箱無溫度計（y=191）#78716c -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">冰箱無溫度計或溫度超標（第46項）</text>
   <text x="100" y="239" font-size="16" fill="#57534e">缺失：冰箱冷藏室無溫度計，或溫度計顯示超過7°C；冷凍室高於-18°C</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="215" font-size="16" fill="#dc2626" text-anchor="middle">設備缺失</text>
-  <text x="688" y="235" font-size="16" fill="#dc2626" text-anchor="middle">第46項</text>
+  <text x="688" y="211" font-size="16" fill="#dc2626" text-anchor="middle">設備缺失</text>
+  <text x="688" y="231" font-size="16" fill="#dc2626" text-anchor="middle">第46項</text>
 
   <!-- Row 2：1歲以內使用枕頭（y=264）#57534e -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">1歲以內使用枕頭（第55項）</text>
   <text x="100" y="312" font-size="16" fill="#57534e">缺失：睡床上擺有枕頭。1歲以內應保持仰睡姿勢且不使用枕頭（防窒息規定）</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="288" font-size="16" fill="#dc2626" text-anchor="middle">安全缺失</text>
-  <text x="688" y="308" font-size="16" fill="#dc2626" text-anchor="middle">第55項</text>
+  <text x="688" y="284" font-size="16" fill="#dc2626" text-anchor="middle">安全缺失</text>
+  <text x="688" y="304" font-size="16" fill="#dc2626" text-anchor="middle">第55項</text>
 
   <!-- Row 3：給藥未落實五對原則（y=337）#a8a29e -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">給藥未落實五對原則（第59項）</text>
   <text x="100" y="385" font-size="16" fill="#57534e">缺失：無委託藥單、給藥紀錄不完整，或未遵循五對原則（嬰幼兒、藥物、劑量、時間、途徑）</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="361" font-size="16" fill="#dc2626" text-anchor="middle">照護缺失</text>
-  <text x="688" y="381" font-size="16" fill="#dc2626" text-anchor="middle">第59項</text>
+  <text x="688" y="357" font-size="16" fill="#dc2626" text-anchor="middle">照護缺失</text>
+  <text x="688" y="377" font-size="16" fill="#dc2626" text-anchor="middle">第59項</text>
 
   <!-- Row 4：感染管制手冊未更新（y=410）#94a3b8 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">感染管制手冊未更新至最新版（第60項）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">缺失：使用舊版感染管制手冊；需依疾管署公告最新版「托嬰中心感染管制手冊」修訂</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="434" font-size="16" fill="#dc2626" text-anchor="middle">制度缺失</text>
-  <text x="688" y="454" font-size="16" fill="#dc2626" text-anchor="middle">第60項</text>
+  <text x="688" y="430" font-size="16" fill="#dc2626" text-anchor="middle">制度缺失</text>
+  <text x="688" y="450" font-size="16" fill="#dc2626" text-anchor="middle">第60項</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

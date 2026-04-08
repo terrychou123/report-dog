@@ -26,49 +26,49 @@
 
   <rect x="28" y="212" width="358" height="50" rx="8" fill="white" stroke="#fde68a" stroke-width="1"/>
   <rect x="28" y="212" width="5" height="50" rx="3" fill="#d97706"/>
-  <text x="50" y="234" font-size="16" fill="#d97706" font-weight="700">步驟 2</text>
-  <text x="50" y="254" font-size="16" fill="#57534e">穿隔離衣</text>
+  <text x="50" y="227" font-size="16" fill="#d97706" font-weight="700">步驟 2</text>
+  <text x="50" y="247" font-size="16" fill="#57534e">穿隔離衣</text>
 
   <rect x="28" y="274" width="358" height="50" rx="8" fill="white" stroke="#fde68a" stroke-width="1"/>
   <rect x="28" y="274" width="5" height="50" rx="3" fill="#d97706"/>
-  <text x="50" y="296" font-size="16" fill="#d97706" font-weight="700">步驟 3</text>
-  <text x="50" y="316" font-size="16" fill="#57534e">戴口罩（需密合測試）</text>
+  <text x="50" y="289" font-size="16" fill="#d97706" font-weight="700">步驟 3</text>
+  <text x="50" y="309" font-size="16" fill="#57534e">戴口罩（需密合測試）</text>
 
   <rect x="28" y="336" width="358" height="50" rx="8" fill="white" stroke="#fde68a" stroke-width="1"/>
   <rect x="28" y="336" width="5" height="50" rx="3" fill="#d97706"/>
-  <text x="50" y="358" font-size="16" fill="#d97706" font-weight="700">步驟 4</text>
-  <text x="50" y="378" font-size="16" fill="#57534e">戴護目鏡/面罩（如需要）</text>
+  <text x="50" y="351" font-size="16" fill="#d97706" font-weight="700">步驟 4</text>
+  <text x="50" y="371" font-size="16" fill="#57534e">戴護目鏡/面罩（如需要）</text>
 
   <rect x="28" y="398" width="358" height="50" rx="8" fill="white" stroke="#fde68a" stroke-width="1"/>
   <rect x="28" y="398" width="5" height="50" rx="3" fill="#d97706"/>
-  <text x="50" y="420" font-size="16" fill="#d97706" font-weight="700">步驟 5</text>
-  <text x="50" y="440" font-size="16" fill="#57534e">戴手套（最後戴）</text>
+  <text x="50" y="413" font-size="16" fill="#d97706" font-weight="700">步驟 5</text>
+  <text x="50" y="433" font-size="16" fill="#57534e">戴手套（最後戴）</text>
 
   <!-- 脫除步驟 -->
   <rect x="414" y="150" width="358" height="50" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
   <rect x="414" y="150" width="5" height="50" rx="3" fill="#dc2626"/>
-  <text x="436" y="172" font-size="16" fill="#dc2626" font-weight="700">步驟 1</text>
-  <text x="436" y="192" font-size="16" fill="#57534e">脫手套（最外、最髒先脫）</text>
+  <text x="436" y="165" font-size="16" fill="#dc2626" font-weight="700">步驟 1</text>
+  <text x="436" y="185" font-size="16" fill="#57534e">脫手套（最外、最髒先脫）</text>
 
   <rect x="414" y="212" width="358" height="50" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
   <rect x="414" y="212" width="5" height="50" rx="3" fill="#dc2626"/>
-  <text x="436" y="234" font-size="16" fill="#dc2626" font-weight="700">步驟 2</text>
-  <text x="436" y="254" font-size="16" fill="#57534e">洗手（脫手套後立即洗手）</text>
+  <text x="436" y="227" font-size="16" fill="#dc2626" font-weight="700">步驟 2</text>
+  <text x="436" y="247" font-size="16" fill="#57534e">洗手（脫手套後立即洗手）</text>
 
   <rect x="414" y="274" width="358" height="50" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
   <rect x="414" y="274" width="5" height="50" rx="3" fill="#dc2626"/>
-  <text x="436" y="296" font-size="16" fill="#dc2626" font-weight="700">步驟 3</text>
-  <text x="436" y="316" font-size="16" fill="#57534e">脫護目鏡/面罩（向前推下）</text>
+  <text x="436" y="289" font-size="16" fill="#dc2626" font-weight="700">步驟 3</text>
+  <text x="436" y="309" font-size="16" fill="#57534e">脫護目鏡/面罩（向前推下）</text>
 
   <rect x="414" y="336" width="358" height="50" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
   <rect x="414" y="336" width="5" height="50" rx="3" fill="#dc2626"/>
-  <text x="436" y="358" font-size="16" fill="#dc2626" font-weight="700">步驟 4</text>
-  <text x="436" y="378" font-size="16" fill="#57534e">脫隔離衣（向外折疊卷起丟棄）</text>
+  <text x="436" y="351" font-size="16" fill="#dc2626" font-weight="700">步驟 4</text>
+  <text x="436" y="371" font-size="16" fill="#57534e">脫隔離衣（向外折疊卷起丟棄）</text>
 
   <rect x="414" y="398" width="358" height="50" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
   <rect x="414" y="398" width="5" height="50" rx="3" fill="#dc2626"/>
-  <text x="436" y="420" font-size="16" fill="#dc2626" font-weight="700">步驟 5</text>
-  <text x="436" y="440" font-size="16" fill="#57534e">脫口罩 → 再次洗手</text>
+  <text x="436" y="413" font-size="16" fill="#dc2626" font-weight="700">步驟 5</text>
+  <text x="436" y="433" font-size="16" fill="#57534e">脫口罩 → 再次洗手</text>
 
   <!-- 浮水印 -->
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

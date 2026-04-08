@@ -18,8 +18,8 @@
   <text x="100" y="183" font-size="14" fill="#57534e" >防火管理人、照顧服務員、護理人員、替代役、家屬自聘外籍看護工、家屬；</text>
   <text x="100" y="202" font-size="14" fill="#57534e" >各類人員均需安排訓練，不可僅限機構正職員工</text>
   <rect x="620" y="151" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="170" font-size="14" fill="#dc2626" text-anchor="middle" >6類人員</text>
-  <text x="688" y="189" font-size="13" fill="#dc2626" text-anchor="middle" >全覆蓋</text>
+  <text x="688" y="165" font-size="14" fill="#dc2626" text-anchor="middle" >6類人員</text>
+  <text x="688" y="184" font-size="13" fill="#dc2626" text-anchor="middle" >全覆蓋</text>
 
   <!-- Row 2: 外籍人員特別要求 -->
   <rect x="30" y="231" width="740" height="90" rx="8" fill="white"/>
@@ -30,8 +30,8 @@
   <text x="100" y="286" font-size="14" fill="#57534e" >家屬自聘的外籍看護工也包含在內；建議準備多語言版本訓練教材</text>
   <text x="100" y="305" font-size="14" fill="#57534e" >（印尼語、越南語、菲律賓語等）；訓練須有簽到表留存備查</text>
   <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
-  <text x="688" y="273" font-size="14" fill="#d97706" text-anchor="middle" >多語教材</text>
-  <text x="688" y="292" font-size="13" fill="#d97706" text-anchor="middle" >簽到存查</text>
+  <text x="688" y="268" font-size="14" fill="#d97706" text-anchor="middle" >多語教材</text>
+  <text x="688" y="287" font-size="13" fill="#d97706" text-anchor="middle" >簽到存查</text>
 
   <!-- Row 3: 逃生圖規格 -->
   <rect x="30" y="334" width="740" height="90" rx="8" fill="white"/>
@@ -42,8 +42,8 @@
   <text x="100" y="389" font-size="14" fill="#57534e" >尺寸 A3 以上（約 29.7×42 cm）；具比例尺；標示所在位置方向與機構現場相符；</text>
   <text x="100" y="408" font-size="14" fill="#57534e" >張貼於各樓層出入口及樓梯間；圖面需標示防火區劃、等待救接空間、出口位置</text>
   <rect x="620" y="357" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
-  <text x="688" y="376" font-size="14" fill="#0d9488" text-anchor="middle" >A3 以上</text>
-  <text x="688" y="395" font-size="13" fill="#0d9488" text-anchor="middle" >各樓層貼</text>
+  <text x="688" y="371" font-size="14" fill="#0d9488" text-anchor="middle" >A3 以上</text>
+  <text x="688" y="390" font-size="13" fill="#0d9488" text-anchor="middle" >各樓層貼</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

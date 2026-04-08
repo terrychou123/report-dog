@@ -28,13 +28,13 @@
   <text x="60" y="416" font-size="36" fill="#57534e">評鑑前 3 個月倒數 × 逐週行動清單</text>
 
   <rect x="60" y="442" width="180" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="150" y="475" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">指標盤點</text>
+  <text x="150" y="479" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">指標盤點</text>
 
   <rect x="252" y="442" width="180" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="342" y="475" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">分工整備</text>
+  <text x="342" y="479" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">分工整備</text>
 
   <rect x="444" y="442" width="180" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="534" y="475" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">現場模擬</text>
+  <text x="534" y="479" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">現場模擬</text>
 
   <text x="60" y="556" font-size="26" fill="#94a3b8">適用：托嬰中心負責人・行政人員・托育人員</text>
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

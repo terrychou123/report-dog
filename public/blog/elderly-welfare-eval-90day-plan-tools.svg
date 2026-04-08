@@ -15,8 +15,8 @@
   <text x="100" y="188" font-size="18" font-weight="700" fill="#1e293b">AI 查核：一鍵掃描 77 項，自動找出缺失</text>
   <text x="100" y="208" font-size="16" fill="#57534e">輸入現況資料後，AI 依評鑑指標逐項比對，紅燈項目即時列出</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">適用時機</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">第 1 週盤點</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">適用時機</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">第 1 週盤點</text>
 
   <!-- Row2 y=235, h=62 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="263" font-size="18" font-weight="700" fill="#1e293b">定期追蹤：設定指標任務，到期自動提醒</text>
   <text x="100" y="283" font-size="16" fill="#57534e">為每個補強項目設定截止日，系統追蹤進度並發送提醒通知</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">適用時機</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">全 12 週持續</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">適用時機</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">全 12 週持續</text>
 
   <!-- Row3 y=310, h=62 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="338" font-size="18" font-weight="700" fill="#1e293b">協作分工：標記負責人，跨部門同步進度</text>
   <text x="100" y="358" font-size="16" fill="#57534e">社工、護理、照服、行政各自看到自己的任務，減少漏漏球</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">適用時機</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">第 9 週分工</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">適用時機</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">第 9 週分工</text>
 
   <!-- Row4 y=385, h=62 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="413" font-size="18" font-weight="700" fill="#1e293b">文件管理：集中存放，評鑑當天快速調閱</text>
   <text x="100" y="433" font-size="16" fill="#57534e">所有評鑑文件統一上傳，依指標分類，委員要什麼立即找到</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">適用時機</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">第 12 週衝刺</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">適用時機</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">第 12 週衝刺</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

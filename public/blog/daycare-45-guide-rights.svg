@@ -16,8 +16,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">第 1 條　服務資訊公開</text>
   <text x="100" y="208" font-size="16" fill="#57534e">機構簡介需更新，設公開網路平台介紹服務內容</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">行政</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">負責</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">行政</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">負責</text>
 
   <!-- Row 2 y=235, H=62, 暖灰 #78716c — 第2條 申訴機制 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">第 2 條　申訴/意見反應機制</text>
   <text x="100" y="283" font-size="16" fill="#57534e">書面申訴辦法，處理紀錄完整，定期分析改善</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">社工</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">負責</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">社工</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">負責</text>
 
   <!-- Row 3 y=310, H=62, 深棕 #57534e — 第3條 契約簽訂 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">第 3 條　服務契約簽訂情形</text>
   <text x="100" y="358" font-size="16" fill="#57534e">使用核定版契約，訂有審閱期，確實說明雙方權責</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">行政</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">社工</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">行政</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">社工</text>
 
   <!-- Row 4 y=385, H=62, 淺灰 #a8a29e — 第4條 個資保護 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">第 4 條　個人資料管理與保密</text>
   <text x="100" y="433" font-size="16" fill="#57534e">紙本上鎖保管，電子資料設權限，全員了解個資規定</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">全體</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">人員</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">全體</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">人員</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

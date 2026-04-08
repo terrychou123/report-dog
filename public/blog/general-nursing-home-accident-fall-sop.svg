@@ -68,7 +68,7 @@
   <rect x="20" y="200" width="360" height="200" fill="white" rx="10" stroke="#d97706" stroke-width="1.5"/>
   <rect x="20" y="200" width="360" height="36" fill="#d97706" rx="10"/>
   <rect x="20" y="218" width="360" height="18" fill="#d97706"/>
-  <text x="200" y="224" font-size="15" fill="white" font-weight="bold" text-anchor="middle">通報內容應包含</text>
+  <text x="200" y="232" font-size="15" fill="white" font-weight="bold" text-anchor="middle">通報內容應包含</text>
   <text x="40" y="260" font-size="14" fill="#44403c">• 事件發生時間、地點</text>
   <text x="40" y="282" font-size="14" fill="#44403c">• 住民姓名、病歷號</text>
   <text x="40" y="304" font-size="14" fill="#44403c">• 事件經過描述</text>
@@ -80,7 +80,7 @@
   <rect x="420" y="200" width="360" height="200" fill="white" rx="10" stroke="#166534" stroke-width="1.5"/>
   <rect x="420" y="200" width="360" height="36" fill="#166534" rx="10"/>
   <rect x="420" y="218" width="360" height="18" fill="#166534"/>
-  <text x="600" y="224" font-size="15" fill="white" font-weight="bold" text-anchor="middle">後續追蹤重點</text>
+  <text x="600" y="232" font-size="15" fill="white" font-weight="bold" text-anchor="middle">後續追蹤重點</text>
   <text x="440" y="260" font-size="14" fill="#44403c">• 原因分析（人、機、料、法、環）</text>
   <text x="440" y="282" font-size="14" fill="#44403c">• 擬定預防改善措施</text>
   <text x="440" y="304" font-size="14" fill="#44403c">• 指定負責人與完成期限</text>

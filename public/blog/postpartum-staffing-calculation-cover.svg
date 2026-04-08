@@ -10,20 +10,20 @@
 
   <!-- 右側 2×2 資訊卡片 -->
   <rect x="840" y="274" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="311" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">NRP</text>
-  <text x="918" y="342" font-size="21" fill="#a8a29e" text-anchor="middle">每 2 年複訓</text>
+  <text x="918" y="302" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">NRP</text>
+  <text x="918" y="333" font-size="21" fill="#a8a29e" text-anchor="middle">每 2 年複訓</text>
 
   <rect x="1005" y="274" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="311" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">BLS</text>
-  <text x="1083" y="342" font-size="21" fill="#a8a29e" text-anchor="middle">每 2 年複訓</text>
+  <text x="1083" y="302" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">BLS</text>
+  <text x="1083" y="333" font-size="21" fill="#a8a29e" text-anchor="middle">每 2 年複訓</text>
 
   <rect x="840" y="370" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="407" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">母乳訓練</text>
-  <text x="918" y="438" font-size="21" fill="#a8a29e" text-anchor="middle">每年 8 小時</text>
+  <text x="918" y="398" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">母乳訓練</text>
+  <text x="918" y="429" font-size="21" fill="#a8a29e" text-anchor="middle">每年 8 小時</text>
 
   <rect x="1005" y="370" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="407" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">外部研習</text>
-  <text x="1083" y="438" font-size="21" fill="#a8a29e" text-anchor="middle">每年 8 小時</text>
+  <text x="1083" y="398" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">外部研習</text>
+  <text x="1083" y="429" font-size="21" fill="#a8a29e" text-anchor="middle">每年 8 小時</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="466" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
@@ -42,13 +42,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="390" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="149" y="422" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">1.4 倍公式</text>
+  <text x="149" y="425" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">1.4 倍公式</text>
 
   <rect x="250" y="390" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="339" y="422" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">證照追蹤</text>
+  <text x="339" y="425" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">證照追蹤</text>
 
   <rect x="440" y="390" width="178" height="52" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="529" y="422" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">排班備查</text>
+  <text x="529" y="425" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">排班備查</text>
 
   <!-- 適用對象 -->
   <text x="60" y="472" font-size="28" fill="#94a3b8">機構負責人 · 護理主管 · 行政人員</text>

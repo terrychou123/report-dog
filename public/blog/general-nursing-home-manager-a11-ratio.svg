@@ -37,10 +37,10 @@
   <rect x="400" y="342" width="370" height="38" fill="#fef3c7"/>
   <line x1="30" y1="342" x2="400" y2="342" stroke="#d1d5db" stroke-width="1"/>
   <line x1="400" y1="342" x2="780" y2="342" stroke="#d1d5db" stroke-width="1"/>
-  <text x="215" y="357" font-size="14" fill="#1e40af" font-weight="bold" text-anchor="middle">日班：45 ÷ 9 = 5 位護理師</text>
-  <text x="215" y="372" font-size="14" fill="#1e40af" text-anchor="middle">（住民45人，每班需配置至少5人）</text>
-  <text x="585" y="357" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">夜班：45 ÷ 15 = 3 位護理師</text>
-  <text x="585" y="372" font-size="14" fill="#92400e" text-anchor="middle">（住民45人，每班需配置至少3人）</text>
+  <text x="215" y="354" font-size="14" fill="#1e40af" font-weight="bold" text-anchor="middle">日班：45 ÷ 9 = 5 位護理師</text>
+  <text x="215" y="369" font-size="14" fill="#1e40af" text-anchor="middle">（住民45人，每班需配置至少5人）</text>
+  <text x="585" y="354" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">夜班：45 ÷ 15 = 3 位護理師</text>
+  <text x="585" y="369" font-size="14" fill="#92400e" text-anchor="middle">（住民45人，每班需配置至少3人）</text>
 
   <!-- 注意事項 -->
   <rect x="30" y="390" width="740" height="70" fill="#fff7ed" rx="8" stroke="#d97706" stroke-width="1.5"/>

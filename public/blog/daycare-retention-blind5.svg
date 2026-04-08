@@ -16,8 +16,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">定期安排健康檢查</text>
   <text x="100" y="208" font-size="16" fill="#57534e">每年為全體員工安排健康檢查，結果留存建立健康管理台帳</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">每年一次</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">建立台帳</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">每年一次</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">建立台帳</text>
 
   <!-- ===== Row 2（y=235）#78716c 職業傷病通報 ===== -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">建立職業傷病通報流程</text>
   <text x="100" y="283" font-size="16" fill="#57534e">制定職業傷病通報處理 SOP，發生時立即記錄並呈報主管機關</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">通報 SOP</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">即時處理</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">通報 SOP</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">即時處理</text>
 
   <!-- ===== Row 3（y=310）#57534e 心理健康支持 ===== -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">提供心理健康支持資源</text>
   <text x="100" y="358" font-size="16" fill="#57534e">提供情緒支持管道、員工協助方案，讓員工感受到被機構照顧</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">情緒支持</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">心理輔導</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">情緒支持</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">心理輔導</text>
 
   <!-- ===== Row 4（y=385）#a8a29e 健康管理記錄 ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">完整的健康管理記錄</text>
   <text x="100" y="433" font-size="16" fill="#57534e">建立健康管理台帳，記錄體檢結果、傷病處理，符合第 32 條規範</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">第 32 條</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">評鑑符合</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">第 32 條</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">評鑑符合</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

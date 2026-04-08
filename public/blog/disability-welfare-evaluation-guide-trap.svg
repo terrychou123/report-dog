@@ -18,8 +18,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">ISP 執行紀錄低於每 2 週 1 次</text>
   <text x="100" y="167" font-size="16" fill="#57534e">4103第2項明確規定・每2週至少記錄1次・漏紀錄是最常見缺失</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="144" font-size="14" fill="#d97706" text-anchor="middle">4103</text>
-  <text x="688" y="162" font-size="14" fill="#d97706" text-anchor="middle">每2週記錄</text>
+  <text x="688" y="139" font-size="14" fill="#d97706" text-anchor="middle">4103</text>
+  <text x="688" y="157" font-size="14" fill="#d97706" text-anchor="middle">每2週記錄</text>
 
   <!-- Row 2: 消防檢修未申報 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -29,8 +29,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">消防安全設備檢修申報資料不完整</text>
   <text x="100" y="240" font-size="16" fill="#57534e">3105核心指標・需備3年申報紀錄・初檢不合格須出具複檢合格證明</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="217" font-size="14" fill="#78716c" text-anchor="middle">3105</text>
-  <text x="688" y="235" font-size="14" fill="#78716c" text-anchor="middle">核心指標</text>
+  <text x="688" y="212" font-size="14" fill="#78716c" text-anchor="middle">3105</text>
+  <text x="688" y="230" font-size="14" fill="#78716c" text-anchor="middle">核心指標</text>
 
   <!-- Row 3: 人力比計算錯誤 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -40,8 +40,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">人力配置比例計算未採三年月均值</text>
   <text x="100" y="313" font-size="16" fill="#57534e">1106需以106-108年歷月雇用月均值計算・非以當日在職人數</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="290" font-size="14" fill="#57534e" text-anchor="middle">1106</text>
-  <text x="688" y="308" font-size="14" fill="#57534e" text-anchor="middle">月均值計算</text>
+  <text x="688" y="285" font-size="14" fill="#57534e" text-anchor="middle">1106</text>
+  <text x="688" y="303" font-size="14" fill="#57534e" text-anchor="middle">月均值計算</text>
 
   <!-- Row 4: 全國平台資料未更新 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -51,8 +51,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">全國身心障礙福利資訊整合平台未定期更新</text>
   <text x="100" y="386" font-size="16" fill="#57534e">1103新增標準・人員名冊與服務對象資料需定期填報・評鑑時當場抽查</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="363" font-size="14" fill="#1e293b" text-anchor="middle">1103</text>
-  <text x="688" y="381" font-size="14" fill="#57534e" text-anchor="middle">平台填報</text>
+  <text x="688" y="358" font-size="14" fill="#1e293b" text-anchor="middle">1103</text>
+  <text x="688" y="376" font-size="14" fill="#57534e" text-anchor="middle">平台填報</text>
 
   <!-- Row 5: 夜間演練資料不足 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -62,8 +62,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">緊急災害夜間演練紀錄不完整</text>
   <text x="100" y="459" font-size="16" fill="#57534e">3106-1每年至少2次演練含夜間1次・須有腳本/過程/檢討會議記錄</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="436" font-size="14" fill="#94a3b8" text-anchor="middle">3106-1</text>
-  <text x="688" y="454" font-size="14" fill="#94a3b8" text-anchor="middle">夜間演練</text>
+  <text x="688" y="431" font-size="14" fill="#94a3b8" text-anchor="middle">3106-1</text>
+  <text x="688" y="449" font-size="14" fill="#94a3b8" text-anchor="middle">夜間演練</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

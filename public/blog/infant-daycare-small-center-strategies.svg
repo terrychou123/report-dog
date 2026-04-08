@@ -16,8 +16,8 @@
   <text x="100" y="224" font-size="16" fill="#57534e">行政管理區塊（20分）大多是文件整理，不需購置設備，只需整理已有的紀錄，投入時間少、得分機會大</text>
   <text x="100" y="244" font-size="14" fill="#d97706">重點：先攻文件類指標，健康安全量化記錄最後確認，托育活動當天呈現</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">80/20</text>
-  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">省力策略</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">80/20</text>
+  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">省力策略</text>
 
   <!-- Row 1（y=269）#78716c -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">利用 AI 工具壓縮文書時間</text>
   <text x="100" y="327" font-size="16" fill="#57534e">寶寶日誌、自評說明、佐證整理，三類文書佔備審時間 60% 以上，AI 工具可壓縮至原本一半</text>\n  <text x="100" y="347" font-size="14" fill="#78716c">適用工具：AI 日誌、自動套版自評說明、雲端佐證文件管理</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">文書減量</text>
-  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">50%以上</text>
+  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">文書減量</text>
+  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">50%以上</text>
 
   <!-- Row 2（y=372）#57534e -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="430" font-size="16" fill="#57534e">利用孩子午睡時間處理文書、換班間隙填寫日誌，每次只做一件事，不求完美但求持續</text>
   <text x="100" y="450" font-size="14" fill="#57534e">重點：建立每日 10 分鐘文書習慣，比評鑑前一次趕完壓力小且品質更好</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">片段任務</text>
-  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">持續累積</text>
+  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">片段任務</text>
+  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">持續累積</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

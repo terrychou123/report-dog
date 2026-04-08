@@ -14,7 +14,7 @@
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
   <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="68" cy="126" r="3" fill="white"/>
-  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">技巧 6：安全看視</text>
+  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">技巧 6：安全看視</text>
   <text x="60" y="172" font-size="14" fill="#57534e">• 保持 5–10 步安全視距</text>
   <text x="60" y="192" font-size="14" fill="#57534e">• 確認出入口安全設施</text>
   <text x="60" y="212" font-size="14" fill="#57534e">• 準備緊急聯絡與定位資訊</text>
@@ -28,7 +28,7 @@
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
   <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
-  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">技巧 7：追蹤評值</text>
+  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">技巧 7：追蹤評值</text>
   <text x="434" y="172" font-size="14" fill="#57534e">• 記錄事件時間、地點與情境</text>
   <text x="434" y="192" font-size="14" fill="#57534e">• 記錄應對方式與個案反應</text>
   <text x="434" y="212" font-size="14" fill="#57534e">• 每月彙整事件頻率趨勢</text>
@@ -42,7 +42,7 @@
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
   <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
   <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
-  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">評鑑關聯：第 6 條</text>
+  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">評鑑關聯：第 6 條</text>
   <text x="60" y="356" font-size="14" fill="#57534e">• 對應失智照顧技術條文</text>
   <text x="60" y="376" font-size="14" fill="#57534e">• 展示工作人員安全看視訓練</text>
   <text x="60" y="396" font-size="14" fill="#57534e">• 走失預防有書面措施佐證</text>
@@ -57,7 +57,7 @@
   <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
-  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">評鑑關聯：第 4 條</text>
+  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">評鑑關聯：第 4 條</text>
   <text x="434" y="356" font-size="14" fill="#57534e">• 對應個案照護記錄條文</text>
   <text x="434" y="376" font-size="14" fill="#57534e">• 記錄需有改善計畫依據</text>
   <text x="434" y="396" font-size="14" fill="#57534e">• 展示持續評值機制完整</text>

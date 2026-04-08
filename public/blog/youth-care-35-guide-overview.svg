@@ -15,8 +15,8 @@
   <text x="100" y="131" font-size="20" fill="#1e293b" font-weight="700">行政組織與經營管理</text>
   <text x="100" y="155" font-size="16" fill="#57534e">項目 1–6｜制度文件、人力管理、輔導查核（項目 4–6 由主管機關評分）</text>
   <rect x="620" y="116" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="137" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">10 分</text>
-  <text x="688" y="155" font-size="16" fill="#d97706" text-anchor="middle">6 項</text>
+  <text x="688" y="131" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">10 分</text>
+  <text x="688" y="149" font-size="16" fill="#d97706" text-anchor="middle">6 項</text>
 
   <!-- Row 2：貳、環境設備（y=183） -->
   <rect x="28" y="183" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="206" font-size="20" fill="#1e293b" font-weight="700">建築物環境及設施設備</text>
   <text x="100" y="230" font-size="16" fill="#57534e">項目 7–14｜全部由主管機關實地觀察，評委可依現場狀況 ±2 分</text>
   <rect x="620" y="191" width="136" height="46" rx="8" fill="#0d9488" opacity="0.12"/>
-  <text x="688" y="212" font-size="20" fill="#0d9488" text-anchor="middle" font-weight="700">10 分</text>
-  <text x="688" y="230" font-size="16" fill="#0d9488" text-anchor="middle">8 項</text>
+  <text x="688" y="206" font-size="20" fill="#0d9488" text-anchor="middle" font-weight="700">10 分</text>
+  <text x="688" y="224" font-size="16" fill="#0d9488" text-anchor="middle">8 項</text>
 
   <!-- Row 3：參、專業服務（y=258） -->
   <rect x="28" y="258" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="281" font-size="20" fill="#1e293b" font-weight="700">專業服務（含雙版本指標）</text>
   <text x="100" y="305" font-size="16" fill="#57534e">項目 15–28｜個案紀錄、輔導目標、在院生活、申訴制度、資源結合</text>
   <rect x="620" y="266" width="136" height="46" rx="8" fill="#2563eb" opacity="0.12"/>
-  <text x="688" y="287" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="700">60 分</text>
-  <text x="688" y="305" font-size="16" fill="#2563eb" text-anchor="middle">14 項</text>
+  <text x="688" y="281" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="700">60 分</text>
+  <text x="688" y="299" font-size="16" fill="#2563eb" text-anchor="middle">14 項</text>
 
   <!-- Row 4：肆、財務管理（y=333） -->
   <rect x="28" y="333" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="356" font-size="20" fill="#1e293b" font-weight="700">財務管理</text>
   <text x="100" y="380" font-size="16" fill="#57534e">項目 29｜依衛福部社家署 109 年 + 地方政府 110–112 年財務查核結果計分</text>
   <rect x="620" y="341" width="136" height="46" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="688" y="362" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="700">20 分</text>
-  <text x="688" y="380" font-size="16" fill="#16a34a" text-anchor="middle">1 項</text>
+  <text x="688" y="356" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="700">20 分</text>
+  <text x="688" y="374" font-size="16" fill="#16a34a" text-anchor="middle">1 項</text>
 
   <!-- Row 5：伍、特殊事項（y=408） -->
   <rect x="28" y="408" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="431" font-size="20" fill="#1e293b" font-weight="700">特殊事項或措施（含創新服務方案）</text>
   <text x="100" y="455" font-size="16" fill="#57534e">項目 30–35｜違規最高扣 10 分；收容多元、防疫、社工薪資等最高加 9 分</text>
   <rect x="620" y="416" width="136" height="46" rx="8" fill="#9333ea" opacity="0.12"/>
-  <text x="688" y="437" font-size="20" fill="#9333ea" text-anchor="middle" font-weight="700">±10 分</text>
-  <text x="688" y="455" font-size="16" fill="#9333ea" text-anchor="middle">6 項</text>
+  <text x="688" y="431" font-size="20" fill="#9333ea" text-anchor="middle" font-weight="700">±10 分</text>
+  <text x="688" y="449" font-size="16" fill="#9333ea" text-anchor="middle">6 項</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

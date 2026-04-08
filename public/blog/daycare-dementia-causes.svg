@@ -16,8 +16,8 @@
   <text x="100" y="205" font-size="28" fill="#1e293b" font-weight="700">記憶錯置：大腦時光倒流</text>
   <text x="100" y="235" font-size="18" fill="#57534e">想回的「家」是記憶中的兒時家，大腦無法辨認現在的環境</text>
   <rect x="620" y="174" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="195" font-size="16" fill="#d97706" text-anchor="middle">認知功能</text>
-  <text x="688" y="215" font-size="16" fill="#d97706" text-anchor="middle">記憶衰退</text>
+  <text x="688" y="190" font-size="16" fill="#d97706" text-anchor="middle">認知功能</text>
+  <text x="688" y="210" font-size="16" fill="#d97706" text-anchor="middle">記憶衰退</text>
 
   <!-- ===== Row 2（y=269）H=90 #78716c 環境陌生 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="308" font-size="28" fill="#1e293b" font-weight="700">環境陌生：安全感失落</text>
   <text x="100" y="338" font-size="18" fill="#57534e">日照中心環境陌生，觸發不安全感，「回家」代表「安全」</text>
   <rect x="620" y="277" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="298" font-size="16" fill="#78716c" text-anchor="middle">環境因素</text>
-  <text x="688" y="318" font-size="16" fill="#78716c" text-anchor="middle">安全需求</text>
+  <text x="688" y="293" font-size="16" fill="#78716c" text-anchor="middle">環境因素</text>
+  <text x="688" y="313" font-size="16" fill="#78716c" text-anchor="middle">安全需求</text>
 
   <!-- ===== Row 3（y=372）H=90 #57534e 需求未滿足 ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="411" font-size="28" fill="#1e293b" font-weight="700">需求未滿足：身心發出求救訊號</text>
   <text x="100" y="441" font-size="18" fill="#57534e">疼痛、如廁需求、孤獨感等未被看見，以「想回家」表達</text>
   <rect x="620" y="380" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="401" font-size="16" fill="#57534e" text-anchor="middle">身心需求</text>
-  <text x="688" y="421" font-size="16" fill="#57534e" text-anchor="middle">求救訊號</text>
+  <text x="688" y="396" font-size="16" fill="#57534e" text-anchor="middle">身心需求</text>
+  <text x="688" y="416" font-size="16" fill="#57534e" text-anchor="middle">求救訊號</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

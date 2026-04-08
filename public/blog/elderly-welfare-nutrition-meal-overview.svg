@@ -15,8 +15,8 @@
   <text x="100" y="133" font-size="16" font-weight="700" fill="#1e293b" >B28 膳食管理（行政/主管）</text>
   <text x="100" y="156" font-size="14" fill="#57534e" >菜單由營養師擬定並簽名、至少2週循環菜單、每週快樂餐、達營養均衡原則</text>
   <rect x="596" y="119" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="664" y="138" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600" >文件查核</text>
-  <text x="664" y="157" font-size="13" fill="#d97706" text-anchor="middle" >現場訪談</text>
+  <text x="664" y="133" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600" >文件查核</text>
+  <text x="664" y="152" font-size="13" fill="#d97706" text-anchor="middle" >現場訪談</text>
 
   <!-- Row 2 (y=235) -->
   <rect x="40" y="185" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -26,8 +26,8 @@
   <text x="100" y="208" font-size="16" font-weight="700" fill="#1e293b" >B29 個別化飲食（護理）</text>
   <text x="100" y="231" font-size="14" fill="#57534e" >依疾病/宗教設計個別飲食、食物質地符合需求、半年滿意度調查、營養師介入</text>
   <rect x="596" y="194" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="664" y="213" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" >個案計畫</text>
-  <text x="664" y="232" font-size="13" fill="#78716c" text-anchor="middle" >照護紀錄</text>
+  <text x="664" y="208" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" >個案計畫</text>
+  <text x="664" y="227" font-size="13" fill="#78716c" text-anchor="middle" >照護紀錄</text>
 
   <!-- Row 3 (y=310) -->
   <rect x="40" y="260" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -37,8 +37,8 @@
   <text x="100" y="283" font-size="16" font-weight="700" fill="#1e293b" >B30 點心供應（行政/主管）</text>
   <text x="100" y="306" font-size="14" fill="#57534e" >備有個別化餐具（缺口杯/易握把柄）、私人餐具有標示、非全不鏽鋼</text>
   <rect x="596" y="269" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="664" y="288" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600" >實地察看</text>
-  <text x="664" y="307" font-size="13" fill="#57534e" text-anchor="middle" >現場訪談</text>
+  <text x="664" y="283" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600" >實地察看</text>
+  <text x="664" y="302" font-size="13" fill="#57534e" text-anchor="middle" >現場訪談</text>
 
   <!-- Row 4 (y=385) -->
   <rect x="40" y="335" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -48,8 +48,8 @@
   <text x="100" y="358" font-size="16" font-weight="700" fill="#1e293b" >B31 管灌護理（護理）</text>
   <text x="100" y="381" font-size="14" fill="#57534e" >個別灌食空針、非全商業配方、技術正確（位置確認/回抽/高度/流速）、姿勢維護</text>
   <rect x="596" y="344" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="664" y="363" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" >現場操作</text>
-  <text x="664" y="382" font-size="13" fill="#78716c" text-anchor="middle" >技術抽查</text>
+  <text x="664" y="358" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" >現場操作</text>
+  <text x="664" y="377" font-size="13" fill="#78716c" text-anchor="middle" >技術抽查</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

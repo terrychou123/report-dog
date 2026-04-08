@@ -14,7 +14,7 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="60" y="134" font-size="24" fill="white" font-weight="700">個案權益保障</text>
+  <text x="60" y="146" font-size="24" fill="white" font-weight="700">個案權益保障</text>
   <text x="60" y="174" font-size="20" fill="#57534e">• 個案隱私權與尊嚴維護</text>
   <text x="60" y="198" font-size="20" fill="#57534e">• 照顧計畫訂定與執行紀錄</text>
   <text x="60" y="222" font-size="20" fill="#57534e">• 申訴與投訴處理機制</text>
@@ -24,7 +24,7 @@
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="434" y="134" font-size="24" fill="white" font-weight="700">專業照護品質</text>
+  <text x="434" y="146" font-size="24" fill="white" font-weight="700">專業照護品質</text>
   <text x="434" y="174" font-size="20" fill="#57534e">• 護理人員資格與配置比例</text>
   <text x="434" y="198" font-size="20" fill="#57534e">• 在職訓練時數達標情形</text>
   <text x="434" y="222" font-size="20" fill="#57534e">• 緊急事件處理標準程序</text>
@@ -34,7 +34,7 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="60" y="318" font-size="24" fill="white" font-weight="700">經營管理效能</text>
+  <text x="60" y="330" font-size="24" fill="white" font-weight="700">經營管理效能</text>
   <text x="60" y="367" font-size="20" fill="#57534e">• 機構組織架構與職責分工</text>
   <text x="60" y="391" font-size="20" fill="#57534e">• 品質改善計畫訂定執行</text>
   <text x="60" y="415" font-size="20" fill="#57534e">• 財務透明度與資訊公開</text>
@@ -43,7 +43,7 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
   <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
-  <text x="434" y="318" font-size="24" fill="white" font-weight="700">安全環境設備</text>
+  <text x="434" y="330" font-size="24" fill="white" font-weight="700">安全環境設備</text>
   <text x="434" y="367" font-size="20" fill="#57534e">• 消防安全設施定期維護</text>
   <text x="434" y="391" font-size="20" fill="#57534e">• 無障礙空間符合法規</text>
   <text x="434" y="415" font-size="20" fill="#57534e">• 醫療廢棄物處理合規</text>

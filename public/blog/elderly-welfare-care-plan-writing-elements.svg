@@ -14,8 +14,8 @@
   <text x="100" y="140" font-size="16" fill="#1e293b" font-weight="700" >多專業評估紀錄</text>
   <text x="100" y="160" font-size="14" fill="#57534e" >護理、社工、照服員各自完成評估並簽名，入住 72 小時內完成</text>
   <rect x="620" y="125" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="149" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle" >必要文件</text>
-  <text x="688" y="165" font-size="13" fill="#d97706" text-anchor="middle" >各職類簽名</text>
+  <text x="688" y="140" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle" >必要文件</text>
+  <text x="688" y="156" font-size="13" fill="#d97706" text-anchor="middle" >各職類簽名</text>
 
   <!-- Row 2 -->
   <rect x="29" y="191" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -25,8 +25,8 @@
   <text x="100" y="213" font-size="16" fill="#1e293b" font-weight="700" >個別化照護目標</text>
   <text x="100" y="233" font-size="14" fill="#57534e" >載明短期/長期目標及家屬期望，具體可測量（如：增加步行距離）</text>
   <rect x="620" y="198" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="222" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle" >SMART目標</text>
-  <text x="688" y="238" font-size="13" fill="#78716c" text-anchor="middle" >可量測</text>
+  <text x="688" y="213" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle" >SMART目標</text>
+  <text x="688" y="229" font-size="13" fill="#78716c" text-anchor="middle" >可量測</text>
 
   <!-- Row 3 -->
   <rect x="29" y="264" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -36,8 +36,8 @@
   <text x="100" y="286" font-size="16" fill="#1e293b" font-weight="700" >服務措施與頻率</text>
   <text x="100" y="306" font-size="14" fill="#57534e" >各職類負責項目、執行頻率（每日/每週）明確載明</text>
   <rect x="620" y="271" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="295" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle" >明確分工</text>
-  <text x="688" y="311" font-size="13" fill="#57534e" text-anchor="middle" >頻率清楚</text>
+  <text x="688" y="286" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle" >明確分工</text>
+  <text x="688" y="302" font-size="13" fill="#57534e" text-anchor="middle" >頻率清楚</text>
 
   <!-- Row 4 -->
   <rect x="29" y="337" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -47,8 +47,8 @@
   <text x="100" y="359" font-size="16" fill="#1e293b" font-weight="700" >執行與評值記錄</text>
   <text x="100" y="379" font-size="14" fill="#57534e" >每月記錄服務執行進度，並載明評值結果（達成/未達/調整）</text>
   <rect x="620" y="344" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="368" font-size="14" fill="#a8a29e" font-weight="700" text-anchor="middle" >月度記錄</text>
-  <text x="688" y="384" font-size="13" fill="#a8a29e" text-anchor="middle" >評值結果</text>
+  <text x="688" y="359" font-size="14" fill="#a8a29e" font-weight="700" text-anchor="middle" >月度記錄</text>
+  <text x="688" y="375" font-size="13" fill="#a8a29e" text-anchor="middle" >評值結果</text>
 
   <!-- Row 5 -->
   <rect x="29" y="410" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -58,8 +58,8 @@
   <text x="100" y="432" font-size="16" fill="#1e293b" font-weight="700" >家屬討論修正紀錄</text>
   <text x="100" y="452" font-size="14" fill="#57534e" >半年至少 1 次與家屬共同修正計畫，需有家屬簽名及會議紀錄</text>
   <rect x="620" y="417" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="441" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle" >半年一次</text>
-  <text x="688" y="457" font-size="13" fill="#94a3b8" text-anchor="middle" >家屬簽名</text>
+  <text x="688" y="432" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle" >半年一次</text>
+  <text x="688" y="448" font-size="13" fill="#94a3b8" text-anchor="middle" >家屬簽名</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

@@ -8,8 +8,8 @@
   <rect x="40" y="112" width="168" height="300" rx="10" fill="white" stroke="#16a34a" stroke-width="2"/>
   <rect x="40" y="112" width="168" height="44" rx="10" fill="#16a34a"/>
   <rect x="40" y="132" width="168" height="24" fill="#16a34a"/>
-  <text x="124" y="140" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護問題</text>
-  <text x="124" y="156" font-size="13" fill="#bbf7d0" text-anchor="middle">依評估結果識別</text>
+  <text x="124" y="127" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護問題</text>
+  <text x="124" y="143" font-size="13" fill="#bbf7d0" text-anchor="middle">依評估結果識別</text>
   <text x="56" y="182" font-size="13" fill="#57534e" font-weight="600">好的問題描述：</text>
   <text x="56" y="202" font-size="14" fill="#57534e">• 含評估量表分數</text>
   <text x="56" y="222" font-size="14" fill="#57534e">  Morse 70/Braden 16</text>
@@ -22,8 +22,8 @@
   <rect x="222" y="112" width="168" height="300" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
   <rect x="222" y="112" width="168" height="44" rx="10" fill="#d97706"/>
   <rect x="222" y="132" width="168" height="24" fill="#d97706"/>
-  <text x="306" y="140" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護目標</text>
-  <text x="306" y="156" font-size="13" fill="#fef9c3" text-anchor="middle">具體可測量</text>
+  <text x="306" y="127" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護目標</text>
+  <text x="306" y="143" font-size="13" fill="#fef9c3" text-anchor="middle">具體可測量</text>
   <text x="238" y="182" font-size="13" fill="#57534e" font-weight="600">好的目標描述：</text>
   <text x="238" y="202" font-size="14" fill="#57534e">• 有時間框架</text>
   <text x="238" y="222" font-size="14" fill="#57534e">  「3個月內」</text>
@@ -36,8 +36,8 @@
   <rect x="404" y="112" width="168" height="300" rx="10" fill="white" stroke="#2563eb" stroke-width="2"/>
   <rect x="404" y="112" width="168" height="44" rx="10" fill="#2563eb"/>
   <rect x="404" y="132" width="168" height="24" fill="#2563eb"/>
-  <text x="488" y="140" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護措施</text>
-  <text x="488" y="156" font-size="13" fill="#bfdbfe" text-anchor="middle">誰·做什麼·多久</text>
+  <text x="488" y="127" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護措施</text>
+  <text x="488" y="143" font-size="13" fill="#bfdbfe" text-anchor="middle">誰·做什麼·多久</text>
   <text x="420" y="182" font-size="13" fill="#57534e" font-weight="600">好的措施描述：</text>
   <text x="420" y="202" font-size="14" fill="#57534e">• 明確執行者</text>
   <text x="420" y="222" font-size="14" fill="#57534e">  「護理師/照服員」</text>
@@ -50,8 +50,8 @@
   <rect x="586" y="112" width="174" height="300" rx="10" fill="white" stroke="#dc2626" stroke-width="2"/>
   <rect x="586" y="112" width="174" height="44" rx="10" fill="#dc2626"/>
   <rect x="586" y="132" width="174" height="24" fill="#dc2626"/>
-  <text x="673" y="140" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">評值記錄</text>
-  <text x="673" y="156" font-size="14" fill="#fee2e2" text-anchor="middle">最常被空白</text>
+  <text x="673" y="127" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">評值記錄</text>
+  <text x="673" y="143" font-size="14" fill="#fee2e2" text-anchor="middle">最常被空白</text>
   <text x="600" y="182" font-size="14" fill="#57534e" font-weight="600">好的評值描述：</text>
   <text x="600" y="202" font-size="14" fill="#57534e">• 目標達成與否</text>
   <text x="600" y="222" font-size="14" fill="#57534e">  「達成/未達成」</text>

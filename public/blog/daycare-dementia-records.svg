@@ -16,8 +16,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">事件觸發情境</text>
   <text x="100" y="208" font-size="16" fill="#57534e">記錄發生時間、地點，以及當時環境背景與前置刺激因子</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">時間地點</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">前置情境</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">時間地點</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">前置情境</text>
 
   <!-- ===== Row 2（y=235）#78716c 應對過程 ===== -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">應對過程記錄</text>
   <text x="100" y="283" font-size="16" fill="#57534e">使用哪項技巧介入、應對步驟順序，以及個案的當下反應</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">應對技巧</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">個案反應</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">應對技巧</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">個案反應</text>
 
   <!-- ===== Row 3（y=310）#57534e 介入效果 ===== -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">介入效果評估</text>
   <text x="100" y="358" font-size="16" fill="#57534e">情緒是否平復、平復所需時間、是否需要轉介或升級處理</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">效果評估</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">平復時間</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">效果評估</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">平復時間</text>
 
   <!-- ===== Row 4（y=385）#a8a29e 後續行動 ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">後續照護行動</text>
   <text x="100" y="433" font-size="16" fill="#57534e">是否調整照護計畫、是否通知家屬，以及後續追蹤安排</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">計畫調整</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">家屬通知</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">計畫調整</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">家屬通知</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

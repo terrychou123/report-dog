@@ -10,16 +10,16 @@
 
   <!-- 右側 3 個查核層次卡片 -->
   <rect x="840" y="260" width="320" height="62" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="283" font-size="18" fill="#a8a29e" font-weight="500">計畫層次</text>
-  <text x="858" y="310" font-size="22" fill="#16a34a" font-weight="700">年度課程計畫書</text>
+  <text x="858" y="277" font-size="18" fill="#a8a29e" font-weight="500">計畫層次</text>
+  <text x="858" y="304" font-size="22" fill="#16a34a" font-weight="700">年度課程計畫書</text>
 
   <rect x="840" y="330" width="320" height="62" rx="10" fill="#16a34a" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="353" font-size="18" fill="#a8a29e" font-weight="500">執行層次</text>
-  <text x="858" y="380" font-size="22" fill="#16a34a" font-weight="700">出席紀錄（產婦簽名）</text>
+  <text x="858" y="347" font-size="18" fill="#a8a29e" font-weight="500">執行層次</text>
+  <text x="858" y="374" font-size="22" fill="#16a34a" font-weight="700">出席紀錄（產婦簽名）</text>
 
   <rect x="840" y="400" width="320" height="62" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="423" font-size="18" fill="#a8a29e" font-weight="500">品質層次</text>
-  <text x="858" y="450" font-size="22" fill="#d97706" font-weight="700">教材多元 + 定期更新</text>
+  <text x="858" y="417" font-size="18" fill="#a8a29e" font-weight="500">品質層次</text>
+  <text x="858" y="444" font-size="22" fill="#d97706" font-weight="700">教材多元 + 定期更新</text>
 
   <!-- 右側課程主題範例 -->
   <rect x="840" y="472" width="320" height="46" rx="10" fill="#d97706" opacity="0.12"/>
@@ -39,13 +39,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="367" width="178" height="52" rx="10" fill="#16a34a" opacity="0.10"/>
-  <text x="149" y="399" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">課程計畫</text>
+  <text x="149" y="402" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">課程計畫</text>
 
   <rect x="250" y="367" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="339" y="399" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">出席紀錄</text>
+  <text x="339" y="402" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">出席紀錄</text>
 
   <rect x="440" y="367" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="529" y="399" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">教材品質</text>
+  <text x="529" y="402" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">教材品質</text>
 
   <!-- 適用對象 -->
   <text x="60" y="455" font-size="28" fill="#94a3b8">護產人員 · 護理主管 · 衛教負責人</text>

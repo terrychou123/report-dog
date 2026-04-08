@@ -8,7 +8,7 @@
   <rect x="40" y="110" width="340" height="140" rx="10" fill="white" stroke="#d97706" stroke-width="1.5"/>
   <rect x="40" y="110" width="340" height="38" rx="10" fill="#d97706"/>
   <rect x="40" y="128" width="340" height="20" fill="#d97706"/>
-  <text x="210" y="134" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A1.1 負責人管理查核</text>
+  <text x="210" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A1.1 負責人管理查核</text>
   <text x="56" y="166" font-size="14" fill="#57534e">• 每月1次查看記錄（含具體內容）</text>
   <text x="56" y="186" font-size="14" fill="#57534e">• 護理人員執照效期建檔追蹤</text>
   <text x="56" y="206" font-size="14" fill="#57534e">• 日班≤9人、夜班≤15人照護比</text>
@@ -18,7 +18,7 @@
   <rect x="420" y="110" width="340" height="140" rx="10" fill="white" stroke="#d97706" stroke-width="1.5"/>
   <rect x="420" y="110" width="340" height="38" rx="10" fill="#d97706"/>
   <rect x="420" y="128" width="340" height="20" fill="#d97706"/>
-  <text x="590" y="134" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A1.2 人員配置急救訓練</text>
+  <text x="590" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A1.2 人員配置急救訓練</text>
   <text x="436" y="166" font-size="14" fill="#57534e">• BLS+AED 急救訓練每2年1次</text>
   <text x="436" y="186" font-size="14" fill="#57534e">• 訓練記錄須明確標示含AED</text>
   <text x="436" y="206" font-size="14" fill="#57534e">• 照服員結業證明書建檔</text>
@@ -28,7 +28,7 @@
   <rect x="40" y="264" width="340" height="140" rx="10" fill="white" stroke="#d97706" stroke-width="1.5"/>
   <rect x="40" y="264" width="340" height="38" rx="10" fill="#d97706"/>
   <rect x="40" y="282" width="340" height="20" fill="#d97706"/>
-  <text x="210" y="288" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A1.3 意外緊急事件處理</text>
+  <text x="210" y="298" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A1.3 意外緊急事件處理</text>
   <text x="56" y="320" font-size="14" fill="#57534e">• 意外事件24hr內通報</text>
   <text x="56" y="340" font-size="14" fill="#57534e">• 事件記錄含追蹤改善措施</text>
   <text x="56" y="360" font-size="14" fill="#57534e">• 護理師熟知緊急流程（可抽測）</text>
@@ -38,7 +38,7 @@
   <rect x="420" y="264" width="160" height="140" rx="10" fill="white" stroke="#d97706" stroke-width="1.5"/>
   <rect x="420" y="264" width="160" height="38" rx="10" fill="#d97706"/>
   <rect x="420" y="282" width="160" height="20" fill="#d97706"/>
-  <text x="500" y="288" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A2.1 感控</text>
+  <text x="500" y="298" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A2.1 感控</text>
   <text x="432" y="320" font-size="14" fill="#57534e">感控計畫每年審閱</text>
   <text x="432" y="340" font-size="14" fill="#57534e">每年6hr感控訓練</text>
   <text x="432" y="360" font-size="14" fill="#57534e">傳染病監測記錄</text>
@@ -48,7 +48,7 @@
   <rect x="598" y="264" width="162" height="140" rx="10" fill="white" stroke="#d97706" stroke-width="1.5"/>
   <rect x="598" y="264" width="162" height="38" rx="10" fill="#d97706"/>
   <rect x="598" y="282" width="162" height="20" fill="#d97706"/>
-  <text x="679" y="288" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A2.2 安寧</text>
+  <text x="679" y="298" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">A2.2 安寧</text>
   <text x="610" y="320" font-size="14" fill="#57534e">提供安寧資訊</text>
   <text x="610" y="340" font-size="14" fill="#57534e">協助辦理AD</text>
   <text x="610" y="360" font-size="14" fill="#57534e">建立轉介機制</text>

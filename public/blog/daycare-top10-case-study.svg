@@ -6,7 +6,7 @@
 <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="40" y="104" width="346" height="40" rx="12" fill="#d97706"/>
 <rect x="40" y="124" width="346" height="20" fill="#d97706"/>
-<text x="213" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">研討頻率要求</text>
+<text x="213" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">研討頻率要求</text>
 <text x="56" y="166" font-size="15" fill="#57534e">• 每個月至少辦理一次</text>
 <text x="56" y="190" font-size="15" fill="#57534e">• 日期、主題需有書面計畫</text>
 <text x="56" y="214" font-size="15" fill="#57534e">• 臨時召開亦需留有記錄</text>
@@ -15,7 +15,7 @@
 <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="414" y="104" width="346" height="40" rx="12" fill="#78716c"/>
 <rect x="414" y="124" width="346" height="20" fill="#78716c"/>
-<text x="587" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">研討記錄內容</text>
+<text x="587" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">研討記錄內容</text>
 <text x="430" y="166" font-size="15" fill="#57534e">• 參與人員簽到表</text>
 <text x="430" y="190" font-size="15" fill="#57534e">• 討論議題與決議事項</text>
 <text x="430" y="214" font-size="15" fill="#57534e">• 後續追蹤行動記錄</text>
@@ -24,7 +24,7 @@
 <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="40" y="288" width="346" height="40" rx="12" fill="#57534e"/>
 <rect x="40" y="308" width="346" height="20" fill="#57534e"/>
-<text x="213" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">跨職類參與</text>
+<text x="213" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">跨職類參與</text>
 <text x="56" y="350" font-size="15" fill="#57534e">• 社工師、護理師、照服員</text>
 <text x="56" y="374" font-size="15" fill="#57534e">• 主任或督導出席</text>
 <text x="56" y="398" font-size="15" fill="#57534e">• 需有簽到紀錄佐證</text>
@@ -33,7 +33,7 @@
 <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="414" y="288" width="346" height="40" rx="12" fill="#a8a29e"/>
 <rect x="414" y="308" width="346" height="20" fill="#a8a29e"/>
-<text x="587" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">常見缺失情境</text>
+<text x="587" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">常見缺失情境</text>
 <text x="430" y="350" font-size="15" fill="#57534e">• 只有簽到無討論內容</text>
 <text x="430" y="374" font-size="15" fill="#57534e">• 跨職類人員未實際出席</text>
 <text x="430" y="398" font-size="15" fill="#57534e">• 討論議題與個案無關</text>

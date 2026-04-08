@@ -65,12 +65,12 @@
 
   <!-- 時間標示 -->
   <rect x="40" y="310" width="300" height="50" rx="8" fill="#fef3c7"/>
-  <text x="190" y="328" font-size="14" fill="#92400e" text-anchor="middle" font-weight="700">關鍵時間點（B2 規定）</text>
-  <text x="190" y="350" font-size="13" fill="#92400e" text-anchor="middle">入住後72小時 / 每3個月 / 每半年修正</text>
+  <text x="190" y="324" font-size="14" fill="#92400e" text-anchor="middle" font-weight="700">關鍵時間點（B2 規定）</text>
+  <text x="190" y="346" font-size="13" fill="#92400e" text-anchor="middle">入住後72小時 / 每3個月 / 每半年修正</text>
 
   <rect x="460" y="310" width="300" height="50" rx="8" fill="#e0f2fe"/>
-  <text x="610" y="328" font-size="14" fill="#0369a1" text-anchor="middle" font-weight="700">跨專業參與者</text>
-  <text x="610" y="350" font-size="13" fill="#0369a1" text-anchor="middle">護理師 / 社工 / 物理治療師 / 營養師</text>
+  <text x="610" y="324" font-size="14" fill="#0369a1" text-anchor="middle" font-weight="700">跨專業參與者</text>
+  <text x="610" y="346" font-size="13" fill="#0369a1" text-anchor="middle">護理師 / 社工 / 物理治療師 / 營養師</text>
 
   <!-- 底部B2說明 -->
   <rect x="40" y="385" width="720" height="72" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>

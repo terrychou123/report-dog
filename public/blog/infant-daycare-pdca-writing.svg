@@ -16,8 +16,8 @@
   <text x="100" y="226" font-size="16" fill="#57534e">具體描述指標不足的現象，避免籠統寫「執行不夠落實」</text>
   <text x="100" y="246" font-size="14" fill="#d97706">範例：「指標44食物留樣記錄表不完整，3月份有7天未記錄留樣時間」</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">具體量化</text>
-  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">必填欄位</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">具體量化</text>
+  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">必填欄位</text>
 
   <!-- Row 1：改善行動 y=269 -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="329" font-size="16" fill="#57534e">列出具體行動步驟，指定負責人和截止日期，避免空泛的「加強執行」</text>
   <text x="100" y="349" font-size="14" fill="#78716c">範例：「由廚房負責人（王老師）每日上午10點填寫留樣記錄，主任每週五覆核」</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">誰做/何時</text>
-  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">可追蹤</text>
+  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">誰做/何時</text>
+  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">可追蹤</text>
 
   <!-- Row 2：追蹤機制 y=372 -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -40,8 +40,8 @@
   <text x="100" y="432" font-size="16" fill="#57534e">說明如何驗證改善成效，以及改善後如何標準化維持</text>
   <text x="100" y="452" font-size="14" fill="#57534e">範例：「下個月起記錄表由100%填寫率為達標標準，連續3個月達標後列為SOP」</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">成效標準</text>
-  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">標準化</text>
+  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">成效標準</text>
+  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">標準化</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -36,13 +36,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="444" width="150" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="135" y="476" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">評鑑準備</text>
+  <text x="135" y="479" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">評鑑準備</text>
 
   <rect x="224" y="444" width="140" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="476" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">B3 基準</text>
+  <text x="294" y="479" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">B3 基準</text>
 
   <rect x="378" y="444" width="150" height="52" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="453" y="476" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">115 年度</text>
+  <text x="453" y="479" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">115 年度</text>
 
   <!-- 適用對象說明 -->
   <text x="60" y="558" font-size="28" fill="#94a3b8">適用：護理長、品管負責人、護理師</text>

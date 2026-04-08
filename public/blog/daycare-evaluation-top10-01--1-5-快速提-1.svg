@@ -10,8 +10,8 @@
 <text x="100" y="209" font-size="28" fill="#1e293b" font-weight="700">第6條 照顧計畫超過 7 個…</text>
 <text x="100" y="234" font-size="18" fill="#57534e">評估完成後須在 7 個「工作天」（不含假日）內完成照顧計</text>
 <rect x="620" y="174" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-<text x="688" y="195" font-size="18" fill="#d97706" text-anchor="middle">第6條</text>
-<text x="688" y="213" font-size="18" fill="#d97706" text-anchor="middle">社工</text>
+<text x="688" y="191" font-size="18" fill="#d97706" text-anchor="middle">第6條</text>
+<text x="688" y="209" font-size="18" fill="#d97706" text-anchor="middle">社工</text>
 <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
 <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
@@ -19,8 +19,8 @@
 <text x="100" y="312" font-size="28" fill="#1e293b" font-weight="700">第7條 追蹤評值有做沒有紀錄</text>
 <text x="100" y="337" font-size="18" fill="#57534e">評值紀錄必須包含「未達成目標的原因分析」和「修正後的計畫</text>
 <rect x="620" y="277" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-<text x="688" y="298" font-size="18" fill="#78716c" text-anchor="middle">第7條</text>
-<text x="688" y="316" font-size="18" fill="#78716c" text-anchor="middle">社工</text>
+<text x="688" y="294" font-size="18" fill="#78716c" text-anchor="middle">第7條</text>
+<text x="688" y="312" font-size="18" fill="#78716c" text-anchor="middle">社工</text>
 <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
 <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
@@ -28,7 +28,7 @@
 <text x="100" y="415" font-size="28" fill="#1e293b" font-weight="700">第9條 督導紀錄頻率不足或內…</text>
 <text x="100" y="440" font-size="18" fill="#57534e">個督每半年一次、團督每季一次，且每位工作人員（含照服員）</text>
 <rect x="620" y="380" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-<text x="688" y="401" font-size="18" fill="#57534e" text-anchor="middle">第9條</text>
-<text x="688" y="419" font-size="18" fill="#57534e" text-anchor="middle">督導</text>
+<text x="688" y="397" font-size="18" fill="#57534e" text-anchor="middle">第9條</text>
+<text x="688" y="415" font-size="18" fill="#57534e" text-anchor="middle">督導</text>
 <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

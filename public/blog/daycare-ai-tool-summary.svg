@@ -6,7 +6,7 @@
 <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="40" y="104" width="346" height="40" rx="12" fill="#d97706"/>
 <rect x="40" y="124" width="346" height="20" fill="#d97706"/>
-<text x="213" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">AI輔助撰寫</text>
+<text x="213" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">AI輔助撰寫</text>
 <text x="56" y="166" font-size="15" fill="#57534e">• 照顧計畫書、活動記錄自動生成</text>
 <text x="56" y="190" font-size="15" fill="#57534e">• 依評鑑基準格式自動調整</text>
 <text x="56" y="214" font-size="15" fill="#57534e">• 節省50%以上文書作業時間</text>
@@ -15,7 +15,7 @@
 <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="414" y="104" width="346" height="40" rx="12" fill="#78716c"/>
 <rect x="414" y="124" width="346" height="20" fill="#78716c"/>
-<text x="587" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">多人協作</text>
+<text x="587" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">多人協作</text>
 <text x="430" y="166" font-size="15" fill="#57534e">• 三職類同平台、標籤分類</text>
 <text x="430" y="190" font-size="15" fill="#57534e">• 即時進度追蹤、權限管理</text>
 <text x="430" y="214" font-size="15" fill="#57534e">• 主任總覽所有準備狀態</text>
@@ -24,7 +24,7 @@
 <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="40" y="288" width="346" height="40" rx="12" fill="#57534e"/>
 <rect x="40" y="308" width="346" height="20" fill="#57534e"/>
-<text x="213" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">定期追蹤</text>
+<text x="213" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">定期追蹤</text>
 <text x="56" y="350" font-size="15" fill="#57534e">• 自訂追蹤頻率與到期提醒</text>
 <text x="56" y="374" font-size="15" fill="#57534e">• 家屬聯繫、品質監測不漏</text>
 <text x="56" y="398" font-size="15" fill="#57534e">• 逾期自動通知，不錯過</text>
@@ -33,7 +33,7 @@
 <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="414" y="288" width="346" height="40" rx="12" fill="#a8a29e"/>
 <rect x="414" y="308" width="346" height="20" fill="#a8a29e"/>
-<text x="587" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">AI查核缺失</text>
+<text x="587" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">AI查核缺失</text>
 <text x="430" y="350" font-size="15" fill="#57534e">• 自動比對43條評鑑基準</text>
 <text x="430" y="374" font-size="15" fill="#57534e">• 標記缺失、提供改善方向</text>
 <text x="430" y="398" font-size="15" fill="#57534e">• 評鑑前一鍵找出所有漏洞</text>

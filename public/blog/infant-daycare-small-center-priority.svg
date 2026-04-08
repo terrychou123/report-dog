@@ -15,8 +15,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">體檢紀錄 + 訓練出席表（指標 1-2）</text>
   <text x="100" y="208" font-size="16" fill="#57534e">最常失分，且補件有時間限制（體檢需實際執行），評鑑前最優先確認完整性</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">第一週</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">立即確認</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">第一週</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">立即確認</text>
 
   <!-- Row 2（y=235）#78716c -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">冰箱溫度日誌 + 食物留樣（指標 44、46）</text>
   <text x="100" y="283" font-size="16" fill="#57534e">每日需持續記錄，無法事後補，若已有缺漏需立即從今天開始補齊近期記錄</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">即日起</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">每日執行</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">即日起</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">每日執行</text>
 
   <!-- Row 3（y=310）#57534e -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">寶寶日誌格式升級（指標 35）</text>
   <text x="100" y="358" font-size="16" fill="#57534e">若現有日誌缺乏個別化觀察，從現在開始每篇加上 1 句發展描述，近期的日誌就能達標</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">格式升級</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">漸進累積</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">格式升級</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">漸進累積</text>
 
   <!-- Row 4（y=385）#a8a29e -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">自評說明撰寫（全部 60 條）</text>
   <text x="100" y="433" font-size="16" fill="#57534e">上述三類文件就位後，自評說明才有內容可寫；留最後 4-6 週集中完成，效率最高</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">最後階段</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">集中完成</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">最後階段</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">集中完成</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

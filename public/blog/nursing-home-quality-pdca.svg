@@ -15,7 +15,7 @@
   <rect x="60" y="130" width="220" height="120" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="60" y="130" width="220" height="44" rx="12" fill="#d97706"/>
   <rect x="60" y="154" width="220" height="20" fill="#d97706"/>
-  <text x="170" y="159" text-anchor="middle" font-size="20" fill="white" font-weight="700">P — 計畫</text>
+  <text x="170" y="171" text-anchor="middle" font-size="20" fill="white" font-weight="700">P — 計畫</text>
   <text x="80" y="195" font-size="13" fill="#57534e">• A3 業務計畫訂定</text>
   <text x="80" y="213" font-size="13" fill="#57534e">• A6 危機管理分析</text>
   <text x="80" y="231" font-size="13" fill="#57534e">• B2 個案計畫初評</text>
@@ -28,7 +28,7 @@
   <rect x="520" y="130" width="220" height="120" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="520" y="130" width="220" height="44" rx="12" fill="#78716c"/>
   <rect x="520" y="154" width="220" height="20" fill="#78716c"/>
-  <text x="630" y="159" text-anchor="middle" font-size="20" fill="white" font-weight="700">D — 執行</text>
+  <text x="630" y="171" text-anchor="middle" font-size="20" fill="white" font-weight="700">D — 執行</text>
   <text x="540" y="195" font-size="13" fill="#57534e">• B1 品質會議運作</text>
   <text x="540" y="213" font-size="13" fill="#57534e">• B5 跨專業聯繫會</text>
   <text x="540" y="231" font-size="13" fill="#57534e">• 各項照護實際落實</text>
@@ -41,7 +41,7 @@
   <rect x="520" y="360" width="220" height="110" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="520" y="360" width="220" height="44" rx="12" fill="#57534e"/>
   <rect x="520" y="384" width="220" height="20" fill="#57534e"/>
-  <text x="630" y="389" text-anchor="middle" font-size="20" fill="white" font-weight="700">C — 查核</text>
+  <text x="630" y="401" text-anchor="middle" font-size="20" fill="white" font-weight="700">C — 查核</text>
   <text x="540" y="423" font-size="13" fill="#57534e">• B13/B14/B17 逐案分析</text>
   <text x="540" y="441" font-size="13" fill="#57534e">• E1 前次建議改善追蹤</text>
 
@@ -53,7 +53,7 @@
   <rect x="60" y="360" width="220" height="110" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="60" y="360" width="220" height="44" rx="12" fill="#94a3b8"/>
   <rect x="60" y="384" width="220" height="20" fill="#94a3b8"/>
-  <text x="170" y="389" text-anchor="middle" font-size="20" fill="white" font-weight="700">A — 改善</text>
+  <text x="170" y="401" text-anchor="middle" font-size="20" fill="white" font-weight="700">A — 改善</text>
   <text x="80" y="423" font-size="13" fill="#57534e">• A4 缺失改善 100%</text>
   <text x="80" y="441" font-size="13" fill="#57534e">• E2 創新措施推動</text>
 

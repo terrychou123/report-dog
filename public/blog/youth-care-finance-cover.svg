@@ -2,8 +2,8 @@
   <rect width="1200" height="630" fill="#f0efe8"/>
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
   <!-- Decorative large number -->
-  <text x="1010" y="370" font-size="220" fill="#16a34a" opacity="0.85" text-anchor="middle" font-weight="700">20</text>
-  <text x="1010" y="430" font-size="28" fill="#78716c" text-anchor="middle" font-weight="500">分 / 單項</text>
+  <text x="1010" y="319" font-size="220" fill="#16a34a" opacity="0.85" text-anchor="middle" font-weight="700">20</text>
+  <text x="1010" y="379" font-size="28" fill="#78716c" text-anchor="middle" font-weight="500">分 / 單項</text>
   <!-- Left content -->
   <text x="72" y="175" font-size="64" fill="#1e293b" font-weight="700">財務管理</text>
   <text x="72" y="258" font-size="42" fill="#16a34a" font-weight="700">一項就佔 20 分</text>

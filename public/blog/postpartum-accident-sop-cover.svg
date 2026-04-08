@@ -10,28 +10,28 @@
 
   <!-- 右側 7 類清單 -->
   <rect x="840" y="279" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="304" font-size="19" fill="#d97706" font-weight="700">① 跌倒</text>
-  <text x="940" y="304" font-size="19" fill="#57534e">  ② 燙傷</text>
+  <text x="858" y="298" font-size="19" fill="#d97706" font-weight="700">① 跌倒</text>
+  <text x="940" y="298" font-size="19" fill="#57534e">  ② 燙傷</text>
 
   <rect x="840" y="323" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="348" font-size="19" fill="#d97706" font-weight="700">③ 嬰兒抱錯</text>
-  <text x="1000" y="348" font-size="19" fill="#57534e">④ 嬰兒誘拐</text>
+  <text x="858" y="342" font-size="19" fill="#d97706" font-weight="700">③ 嬰兒抱錯</text>
+  <text x="1000" y="342" font-size="19" fill="#57534e">④ 嬰兒誘拐</text>
 
   <rect x="840" y="367" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="392" font-size="19" fill="#d97706" font-weight="700">⑤ 藥物錯誤</text>
-  <text x="1000" y="392" font-size="19" fill="#57534e">⑥ 設備故障</text>
+  <text x="858" y="386" font-size="19" fill="#d97706" font-weight="700">⑤ 藥物錯誤</text>
+  <text x="1000" y="386" font-size="19" fill="#57534e">⑥ 設備故障</text>
 
   <rect x="840" y="411" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="858" y="436" font-size="19" fill="#d97706" font-weight="700">⑦ 其他重大事故</text>
 
   <!-- 24小時通報強調 -->
   <rect x="840" y="459" width="320" height="60" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="487" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">24 小時</text>
-  <text x="1000" y="511" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600">通報時限（自發現時起算）</text>
+  <text x="1000" y="479" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">24 小時</text>
+  <text x="1000" y="503" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600">通報時限（自發現時起算）</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="529" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="565" font-size="21" fill="#57534e" text-anchor="middle">含 A2.2 評鑑前自我檢核清單</text>
+  <text x="1000" y="562" font-size="21" fill="#57534e" text-anchor="middle">含 A2.2 評鑑前自我檢核清單</text>
 
   <!-- 左側主標題 -->
   <text x="60" y="178" font-size="96" font-weight="900" fill="#1e293b">意外事件 SOP</text>
@@ -43,13 +43,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="390" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="149" y="422" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">SOP 框架</text>
+  <text x="149" y="425" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">SOP 框架</text>
 
   <rect x="250" y="390" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="339" y="422" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">通報機制</text>
+  <text x="339" y="425" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">通報機制</text>
 
   <rect x="440" y="390" width="178" height="52" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="529" y="422" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">演練記錄</text>
+  <text x="529" y="425" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">演練記錄</text>
 
   <!-- 適用對象 -->
   <text x="60" y="472" font-size="28" fill="#94a3b8">護理主管 · 機構負責人 · 當班護理師</text>

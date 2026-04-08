@@ -15,8 +15,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">只勾選「有/無」未說明做法</text>
   <text x="100" y="208" font-size="16" fill="#57534e">自評欄填「有」或「符合」，卻未說明如何執行，評鑑委員無法核實，容易被追問或扣分</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">最常見</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">直接扣分</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">最常見</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">直接扣分</text>
 
   <!-- Row 2（y=235）#78716c 暖灰 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">用語模糊、未引用官方指標數值</text>
   <text x="100" y="283" font-size="16" fill="#57534e">寫「溫度適當」「定期清洗」，而非「0-7°C」「每週日清洗」，與指標語言不對應，難以得滿分</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">健康安全</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">重災區</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">健康安全</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">重災區</text>
 
   <!-- Row 3（y=310）#57534e 深棕 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">佐證文件漏標編號或找不到</text>
   <text x="100" y="358" font-size="16" fill="#57534e">自評說明提到某文件，但未標注附件編號，委員翻找佐證時找不到，直接影響信任度與得分</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">文件管理</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">易補救</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">文件管理</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">易補救</text>
 
   <!-- Row 4（y=385）#a8a29e 淺灰 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">全由一人填寫，不符合分工現實</text>
   <text x="100" y="433" font-size="16" fill="#57534e">多人負責的項目由同一人填寫，未說明角色分工，委員實地訪談時各人說法不一，互相矛盾</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">訪談風險</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">協作可解</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">訪談風險</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">協作可解</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

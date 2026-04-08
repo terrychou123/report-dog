@@ -19,8 +19,8 @@
   <text x="100" y="211" font-size="15" fill="#57534e">住宿型獨有：住民應能自主管理個人財物，評鑑委員直接訪談住民確認</text>
   <text x="100" y="227" font-size="15" fill="#57534e">機構不應代為保管所有住民的金錢，應有適當的財務自主機制</text>
   <rect x="620" y="176" width="136" height="50" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="196" font-size="15" fill="#d97706" text-anchor="middle">住宿型獨有</text>
-  <text x="688" y="216" font-size="15" fill="#d97706" text-anchor="middle">PFM訪談</text>
+  <text x="688" y="191" font-size="15" fill="#d97706" text-anchor="middle">住宿型獨有</text>
+  <text x="688" y="211" font-size="15" fill="#d97706" text-anchor="middle">PFM訪談</text>
 
   <!-- Row 2: 重3.11 -->
   <rect x="28" y="246" width="744" height="88" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
@@ -47,8 +47,8 @@
   <text x="100" y="389" font-size="15" fill="#57534e">日間型3.5必須備審；住宿型可3.5為可選項目（若有辦理仍建議備審）</text>
   <text x="100" y="406" font-size="15" fill="#57534e">備審內容相同：90%工作獎勵、每月公告收支明細、學員代表參與管理委員會</text>
   <rect x="620" y="354" width="136" height="50" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="374" font-size="15" fill="#6b7280" text-anchor="middle">日間型必評</text>
-  <text x="688" y="394" font-size="15" fill="#6b7280" text-anchor="middle">住宿型可選</text>
+  <text x="688" y="369" font-size="15" fill="#6b7280" text-anchor="middle">日間型必評</text>
+  <text x="688" y="389" font-size="15" fill="#6b7280" text-anchor="middle">住宿型可選</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

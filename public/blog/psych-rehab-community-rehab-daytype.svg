@@ -14,8 +14,8 @@
   <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700">真實社區場所外出（非機構周邊散步）</text>
   <text x="100" y="207" font-size="16" fill="#57534e">市場、圖書館、超商、社區活動中心、家庭拜訪，每次有目的地和目標說明</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="186" font-size="15" fill="#d97706" text-anchor="middle">每月紀錄</text>
-  <text x="688" y="206" font-size="15" fill="#d97706" text-anchor="middle">地點＋目的</text>
+  <text x="688" y="181" font-size="15" fill="#d97706" text-anchor="middle">每月紀錄</text>
+  <text x="688" y="201" font-size="15" fill="#d97706" text-anchor="middle">地點＋目的</text>
 
   <!-- Row 2: 社區資源連結 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -25,8 +25,8 @@
   <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">社區資源連結（主動建立關係，非只辦活動）</text>
   <text x="100" y="282" font-size="16" fill="#57534e">與就業服務站、身障服務、社區照顧關懷據點、家庭支持等建立合作連結並有紀錄</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="261" font-size="15" fill="#78716c" text-anchor="middle">連結清單</text>
-  <text x="688" y="281" font-size="15" fill="#78716c" text-anchor="middle">合作紀錄</text>
+  <text x="688" y="256" font-size="15" fill="#78716c" text-anchor="middle">連結清單</text>
+  <text x="688" y="276" font-size="15" fill="#78716c" text-anchor="middle">合作紀錄</text>
 
   <!-- Row 3: 多元服務類型 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -36,8 +36,8 @@
   <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700">多元服務類型（至少3種以上不同取向）</text>
   <text x="100" y="357" font-size="16" fill="#57534e">生活技能訓練、藝術治療、運動復健、職業準備、心理支持——不同課程服務不同目標</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="336" font-size="15" fill="#57534e" text-anchor="middle">課程計畫書</text>
-  <text x="688" y="356" font-size="15" fill="#57534e" text-anchor="middle">類型說明</text>
+  <text x="688" y="331" font-size="15" fill="#57534e" text-anchor="middle">課程計畫書</text>
+  <text x="688" y="351" font-size="15" fill="#57534e" text-anchor="middle">類型說明</text>
 
   <!-- Row 4: 個別化連結 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -47,8 +47,8 @@
   <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700">個別化連結（每項服務都有復健目標依據）</text>
   <text x="100" y="432" font-size="16" fill="#57534e">課程設計說明哪些學員適合、對應哪個 2.2 復健目標，不是所有人上同樣的課</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="411" font-size="15" fill="#a8a29e" text-anchor="middle">服務連結</text>
-  <text x="688" y="431" font-size="15" fill="#a8a29e" text-anchor="middle">個別計畫</text>
+  <text x="688" y="406" font-size="15" fill="#a8a29e" text-anchor="middle">服務連結</text>
+  <text x="688" y="426" font-size="15" fill="#a8a29e" text-anchor="middle">個別計畫</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

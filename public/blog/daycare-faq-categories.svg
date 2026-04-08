@@ -12,7 +12,7 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="213" y="133" text-anchor="middle" font-size="16" fill="white" font-weight="700">評鑑制度類（Q1–Q5）</text>
+  <text x="213" y="144" text-anchor="middle" font-size="16" fill="white" font-weight="700">評鑑制度類（Q1–Q5）</text>
   <text x="60" y="176" font-size="14" fill="#57534e">• 評鑑每 3 年辦理一次</text>
   <text x="60" y="196" font-size="14" fill="#57534e">• 2–3 位委員到場查核</text>
   <text x="60" y="216" font-size="14" fill="#57534e">• 未通過需限期改善提計畫</text>
@@ -23,7 +23,7 @@
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="587" y="133" text-anchor="middle" font-size="16" fill="white" font-weight="700">文件準備類（Q6–Q10）</text>
+  <text x="587" y="144" text-anchor="middle" font-size="16" fill="white" font-weight="700">文件準備類（Q6–Q10）</text>
   <text x="434" y="176" font-size="14" fill="#57534e">• 照顧計畫 7 工作天內完成</text>
   <text x="434" y="196" font-size="14" fill="#57534e">• 在職訓練 20 小時以上</text>
   <text x="434" y="216" font-size="14" fill="#57534e">• 品管指標需自訂至少 2 項</text>
@@ -34,7 +34,7 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="213" y="317" text-anchor="middle" font-size="16" fill="white" font-weight="700">現場評鑑類（Q11–Q15）</text>
+  <text x="213" y="328" text-anchor="middle" font-size="16" fill="white" font-weight="700">現場評鑑類（Q11–Q15）</text>
   <text x="60" y="360" font-size="14" fill="#57534e">• 評鑑當日約 3–4 小時</text>
   <text x="60" y="380" font-size="14" fill="#57534e">• 4 職類人員均需在場</text>
   <text x="60" y="400" font-size="14" fill="#57534e">• 環境查看是最難補救的</text>
@@ -45,7 +45,7 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
   <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
-  <text x="587" y="317" text-anchor="middle" font-size="16" fill="white" font-weight="700">通用備審技巧</text>
+  <text x="587" y="328" text-anchor="middle" font-size="16" fill="white" font-weight="700">通用備審技巧</text>
   <text x="434" y="360" font-size="14" fill="#57534e">• 日常有做、日常有記</text>
   <text x="434" y="380" font-size="14" fill="#57534e">• 文件有改善軌跡才有故事性</text>
   <text x="434" y="400" font-size="14" fill="#57534e">• 誠實說明現況勝過隱瞞</text>

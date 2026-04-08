@@ -14,8 +14,8 @@
   <text x="100" y="185" font-size="22" fill="#1e293b" font-weight="700">4301 健康管理（4分）</text>
   <text x="100" y="208" font-size="16" fill="#57534e">健康評估紀錄、定期健檢、就醫記錄與異常追蹤 — 護理師主責</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">4 分</text>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">護理師主責</text>
+  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">4 分</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">護理師主責</text>
 
   <!-- Row 2 (y=235) 4302 用藥管理 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -25,8 +25,8 @@
   <text x="100" y="260" font-size="22" fill="#1e293b" font-weight="700">4302 用藥管理（4分）</text>
   <text x="100" y="283" font-size="16" fill="#57534e">用藥紀錄、給藥人員簽名、藥物保存與副作用監測</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">4 分</text>
-  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">護理師主責</text>
+  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">4 分</text>
+  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">護理師主責</text>
 
   <!-- Row 3 (y=310) 4303 膳食服務 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -36,8 +36,8 @@
   <text x="100" y="335" font-size="22" fill="#1e293b" font-weight="700">4303 膳食服務（4分）</text>
   <text x="100" y="358" font-size="16" fill="#57534e">15天不重複菜單、每月烹調技術考核（109年度新增要求）</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">4 分</text>
-  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">廚房教保員</text>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">4 分</text>
+  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">廚房教保員</text>
 
   <!-- Row 4 (y=385) 4304 輔具服務 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -47,8 +47,8 @@
   <text x="100" y="410" font-size="22" fill="#1e293b" font-weight="700">4304 輔具服務（4分）</text>
   <text x="100" y="433" font-size="16" fill="#57534e">輔具需求評估、申請協助、定期維護保養與使用訓練紀錄</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">4 分</text>
-  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">社工教保員</text>
+  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">4 分</text>
+  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">社工教保員</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -12,8 +12,8 @@
   <text x="94" y="126" font-size="16" fill="#1e293b" font-weight="600">社家署 109 年財務查核</text>
   <text x="94" y="150" font-size="14" fill="#57534e">衛生福利部社會及家庭署執行，全國統一標準查核</text>
   <rect x="540" y="116" width="224" height="46" rx="8" fill="#dcfce7"/>
-  <text x="652" y="134" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="152" font-size="13" fill="#166534" text-anchor="middle">函文補件：扣 2 分</text>
+  <text x="652" y="130" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="148" font-size="13" fill="#166534" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Row 2 -->
   <rect x="28" y="183" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="183" width="6" height="62" rx="3" fill="#2563eb"/>
@@ -22,8 +22,8 @@
   <text x="94" y="201" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 110 年查核</text>
   <text x="94" y="225" font-size="14" fill="#57534e">直轄市或縣市政府執行，依地方標準查核</text>
   <rect x="540" y="191" width="224" height="46" rx="8" fill="#dbeafe"/>
-  <text x="652" y="209" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="227" font-size="13" fill="#1d4ed8" text-anchor="middle">函文補件：扣 2 分</text>
+  <text x="652" y="205" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="223" font-size="13" fill="#1d4ed8" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Row 3 -->
   <rect x="28" y="258" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="258" width="6" height="62" rx="3" fill="#9333ea"/>
@@ -32,8 +32,8 @@
   <text x="94" y="276" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 111 年查核</text>
   <text x="94" y="300" font-size="14" fill="#57534e">直轄市或縣市政府執行，依地方標準查核</text>
   <rect x="540" y="266" width="224" height="46" rx="8" fill="#f3e8ff"/>
-  <text x="652" y="284" font-size="14" fill="#7e22ce" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="302" font-size="13" fill="#7e22ce" text-anchor="middle">函文補件：扣 2 分</text>
+  <text x="652" y="280" font-size="14" fill="#7e22ce" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="298" font-size="13" fill="#7e22ce" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Row 4 -->
   <rect x="28" y="333" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="333" width="6" height="62" rx="2" fill="#d97706"/>
@@ -42,8 +42,8 @@
   <text x="94" y="351" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 112 年查核</text>
   <text x="94" y="375" font-size="14" fill="#57534e">評鑑當年度查核結果，最新資料</text>
   <rect x="540" y="341" width="224" height="46" rx="8" fill="#fef3c7"/>
-  <text x="652" y="359" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="377" font-size="13" fill="#92400e" text-anchor="middle">函文補件：扣 2 分</text>
+  <text x="652" y="355" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="373" font-size="13" fill="#92400e" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Watermark -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

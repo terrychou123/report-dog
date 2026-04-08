@@ -2,8 +2,8 @@
   <rect width="1200" height="630" fill="#f0efe8"/>
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
   <!-- Decorative large number -->
-  <text x="1010" y="370" font-size="220" fill="#d97706" opacity="0.85" text-anchor="middle" font-weight="700">32</text>
-  <text x="1010" y="430" font-size="28" fill="#78716c" text-anchor="middle" font-weight="500">分 / 版本</text>
+  <text x="1010" y="319" font-size="220" fill="#d97706" opacity="0.85" text-anchor="middle" font-weight="700">32</text>
+  <text x="1010" y="379" font-size="28" fill="#78716c" text-anchor="middle" font-weight="500">分 / 版本</text>
   <!-- Left content -->
   <text x="72" y="180" font-size="56" fill="#1e293b" font-weight="700">2 歲以下 vs 2 歲以上</text>
   <text x="72" y="255" font-size="44" fill="#d97706" font-weight="700">雙版本評鑑指標完整解析</text>

@@ -6,7 +6,7 @@
 <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="40" y="104" width="346" height="40" rx="12" fill="#2563eb"/>
 <rect x="40" y="124" width="346" height="20" fill="#2563eb"/>
-<text x="213" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">社工師</text>
+<text x="213" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">社工師</text>
 <text x="56" y="166" font-size="15" fill="#57534e">• 負責：第2、5-10、13、18-19條</text>
 <text x="56" y="190" font-size="15" fill="#57534e">• 個案評估、照顧計畫、個案研討</text>
 <text x="56" y="214" font-size="15" fill="#57534e">• 服務品質紀錄、家屬溝通聯絡</text>
@@ -15,7 +15,7 @@
 <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="414" y="104" width="346" height="40" rx="12" fill="#16a34a"/>
 <rect x="414" y="124" width="346" height="20" fill="#16a34a"/>
-<text x="587" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">護理師</text>
+<text x="587" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">護理師</text>
 <text x="430" y="166" font-size="15" fill="#57534e">• 負責：第12、20-21、32-33、36條</text>
 <text x="430" y="190" font-size="15" fill="#57534e">• 健康評估、感染管制、緊急處置</text>
 <text x="430" y="214" font-size="15" fill="#57534e">• 護理紀錄、健康促進計畫</text>
@@ -24,7 +24,7 @@
 <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="40" y="288" width="346" height="40" rx="12" fill="#ea580c"/>
 <rect x="40" y="308" width="346" height="20" fill="#ea580c"/>
-<text x="213" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">照服員</text>
+<text x="213" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">照服員</text>
 <text x="56" y="350" font-size="15" fill="#57534e">• 負責：第11、14-16條</text>
 <text x="56" y="374" font-size="15" fill="#57534e">• 日常生活協助與服務紀錄</text>
 <text x="56" y="398" font-size="15" fill="#57534e">• 備餐供餐、活動協助記錄</text>
@@ -33,7 +33,7 @@
 <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="414" y="288" width="346" height="40" rx="12" fill="#78716c"/>
 <rect x="414" y="308" width="346" height="20" fill="#78716c"/>
-<text x="587" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">主任/行政</text>
+<text x="587" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">主任/行政</text>
 <text x="430" y="350" font-size="15" fill="#57534e">• 負責：第1、3-4、17、22-28、34-43條</text>
 <text x="430" y="374" font-size="15" fill="#57534e">• 行政制度、人力管理、財務</text>
 <text x="430" y="398" font-size="15" fill="#57534e">• 環境設備、緊急應變管理</text>

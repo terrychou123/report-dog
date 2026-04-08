@@ -39,13 +39,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">機構自評</text>
+  <text x="134" y="487" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">機構自評</text>
 
   <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">品質管理</text>
+  <text x="294" y="487" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">品質管理</text>
 
   <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="454" y="483" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">評鑑準備</text>
+  <text x="454" y="487" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">評鑑準備</text>
 
   <!-- 適用對象說明 -->
   <text x="60" y="558" font-size="28" fill="#94a3b8">適用：居家服務機構主管・品管人員</text>

@@ -16,8 +16,8 @@
   <text x="100" y="127" font-size="20" fill="#1e293b" font-weight="700">會議日期、時間（起迄）與地點</text>
   <text x="100" y="149" font-size="16" fill="#57534e">確認每 3 個月內召開，記錄實際時數</text>
   <rect x="580" y="111" width="180" height="42" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="670" y="129" font-size="16" fill="#d97706" text-anchor="middle">頻率查核</text>
-  <text x="670" y="147" font-size="16" fill="#d97706" text-anchor="middle">必要欄位</text>
+  <text x="670" y="123" font-size="16" fill="#d97706" text-anchor="middle">頻率查核</text>
+  <text x="670" y="141" font-size="16" fill="#d97706" text-anchor="middle">必要欄位</text>
 
   <!-- Row 2：出席人員 -->
   <rect x="28" y="173" width="744" height="58" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="197" font-size="20" fill="#1e293b" font-weight="700">出席人員名單（姓名、職稱、專業領域）</text>
   <text x="100" y="219" font-size="16" fill="#57534e">確認「至少 3 種不同領域」，請假者也要記錄</text>
   <rect x="580" y="181" width="180" height="42" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="670" y="199" font-size="16" fill="#78716c" text-anchor="middle">跨專業</text>
-  <text x="670" y="217" font-size="16" fill="#78716c" text-anchor="middle">驗證欄</text>
+  <text x="670" y="193" font-size="16" fill="#78716c" text-anchor="middle">跨專業</text>
+  <text x="670" y="211" font-size="16" fill="#78716c" text-anchor="middle">驗證欄</text>
 
   <!-- Row 3：討論個案 -->
   <rect x="28" y="243" width="744" height="58" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="267" font-size="20" fill="#1e293b" font-weight="700">討論個案與 ADL/認知功能評估結果</text>
   <text x="100" y="289" font-size="16" fill="#57534e">Barthel Index + MMSE 分數，標注與上季比較趨勢</text>
   <rect x="580" y="251" width="180" height="42" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="670" y="269" font-size="16" fill="#57534e" text-anchor="middle">數據佐證</text>
-  <text x="670" y="287" font-size="16" fill="#57534e" text-anchor="middle">必要欄位</text>
+  <text x="670" y="263" font-size="16" fill="#57534e" text-anchor="middle">數據佐證</text>
+  <text x="670" y="281" font-size="16" fill="#57534e" text-anchor="middle">必要欄位</text>
 
   <!-- Row 4：各專業意見 -->
   <rect x="28" y="313" width="744" height="58" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="337" font-size="20" fill="#1e293b" font-weight="700">各專業意見摘要</text>
   <text x="100" y="359" font-size="16" fill="#57534e">護理師/治療師/營養師各自的觀察與建議（不能只有護理師）</text>
   <rect x="580" y="321" width="180" height="42" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="670" y="339" font-size="16" fill="#d97706" text-anchor="middle">最重要！</text>
-  <text x="670" y="357" font-size="16" fill="#d97706" text-anchor="middle">整合關鍵</text>
+  <text x="670" y="333" font-size="16" fill="#d97706" text-anchor="middle">最重要！</text>
+  <text x="670" y="351" font-size="16" fill="#d97706" text-anchor="middle">整合關鍵</text>
 
   <!-- Row 5：決議分工 + 家屬參與 -->
   <rect x="28" y="383" width="744" height="58" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -60,8 +60,8 @@
   <text x="100" y="407" font-size="20" fill="#1e293b" font-weight="700">決議分工 + 家屬參與記錄 + 下次會議日</text>
   <text x="100" y="429" font-size="16" fill="#57534e">決議含負責人與時程；家屬通知方式與意見要記錄</text>
   <rect x="580" y="391" width="180" height="42" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="670" y="409" font-size="16" fill="#1e293b" text-anchor="middle">追蹤依據</text>
-  <text x="670" y="427" font-size="16" fill="#1e293b" text-anchor="middle">必要欄位</text>
+  <text x="670" y="403" font-size="16" fill="#1e293b" text-anchor="middle">追蹤依據</text>
+  <text x="670" y="421" font-size="16" fill="#1e293b" text-anchor="middle">必要欄位</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

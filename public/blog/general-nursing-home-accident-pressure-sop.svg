@@ -58,7 +58,7 @@
   <rect x="20" y="240" width="370" height="195" fill="white" rx="10" stroke="#dc2626" stroke-width="1.5"/>
   <rect x="20" y="240" width="370" height="35" fill="#dc2626" rx="10"/>
   <rect x="20" y="257" width="370" height="18" fill="#dc2626"/>
-  <text x="205" y="263" font-size="14" fill="white" font-weight="bold" text-anchor="middle">院內獲得壓傷（需通報）</text>
+  <text x="205" y="271" font-size="14" fill="white" font-weight="bold" text-anchor="middle">院內獲得壓傷（需通報）</text>
   <text x="40" y="297" font-size="14" fill="#44403c">• 入院時皮膚完整，住院後出現</text>
   <text x="40" y="318" font-size="14" fill="#44403c">• 24小時內向機構主管通報</text>
   <text x="40" y="339" font-size="14" fill="#44403c">• 填寫意外事件通報表</text>
@@ -70,7 +70,7 @@
   <rect x="410" y="240" width="370" height="195" fill="white" rx="10" stroke="#78716c" stroke-width="1.5"/>
   <rect x="410" y="240" width="370" height="35" fill="#78716c" rx="10"/>
   <rect x="410" y="257" width="370" height="18" fill="#78716c"/>
-  <text x="595" y="263" font-size="14" fill="white" font-weight="bold" text-anchor="middle">入院時已存在（無需通報）</text>
+  <text x="595" y="271" font-size="14" fill="white" font-weight="bold" text-anchor="middle">入院時已存在（無需通報）</text>
   <text x="430" y="297" font-size="14" fill="#44403c">• 入院評估時即記錄皮膚狀況</text>
   <text x="430" y="318" font-size="14" fill="#44403c">• 留存照片（日期、部位、大小）</text>
   <text x="430" y="339" font-size="14" fill="#44403c">• 入院照護計畫納入壓傷護理</text>

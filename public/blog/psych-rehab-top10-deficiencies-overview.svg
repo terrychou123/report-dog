@@ -8,7 +8,7 @@
   <rect x="40" y="108" width="220" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="108" width="220" height="40" rx="12" fill="#dc2626"/>
   <rect x="40" y="128" width="220" height="20" fill="#dc2626"/>
-  <text x="150" y="134" text-anchor="middle" font-size="18" fill="white" font-weight="700">高風險（可不合格）</text>
+  <text x="150" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">高風險（可不合格）</text>
   <text x="60" y="175" font-size="16" fill="#1e293b" font-weight="700">1. 住宿型3.11</text>
   <text x="60" y="196" font-size="15" fill="#57534e">出入自由限制</text>
   <text x="60" y="214" font-size="13" fill="#dc2626">→ 唯一重點項目</text>
@@ -25,7 +25,7 @@
   <rect x="290" y="108" width="220" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="290" y="108" width="220" height="40" rx="12" fill="#ea580c"/>
   <rect x="290" y="128" width="220" height="20" fill="#ea580c"/>
-  <text x="400" y="134" text-anchor="middle" font-size="18" fill="white" font-weight="700">中高風險（常失分）</text>
+  <text x="400" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">中高風險（常失分）</text>
   <text x="310" y="175" font-size="16" fill="#1e293b" font-weight="700">4. 計畫未每3月修正</text>
   <text x="310" y="196" font-size="15" fill="#57534e">2.2 復健計畫</text>
   <line x1="310" y1="208" x2="490" y2="208" stroke="#f0efe8" stroke-width="1"/>
@@ -39,7 +39,7 @@
   <rect x="540" y="108" width="220" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="540" y="108" width="220" height="40" rx="12" fill="#d97706"/>
   <rect x="540" y="128" width="220" height="20" fill="#d97706"/>
-  <text x="650" y="134" text-anchor="middle" font-size="18" fill="white" font-weight="700">中風險（易忽略）</text>
+  <text x="650" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">中風險（易忽略）</text>
   <text x="560" y="175" font-size="16" fill="#1e293b" font-weight="700">7. 消防演練未備查</text>
   <text x="560" y="196" font-size="15" fill="#57534e">3.9 緊急應變演練</text>
   <line x1="560" y1="208" x2="740" y2="208" stroke="#f0efe8" stroke-width="1"/>

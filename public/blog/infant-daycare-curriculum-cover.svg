@@ -28,13 +28,13 @@
   <text x="60" y="374" font-size="32" fill="#57534e">托育活動40分 × 課程計畫格式 × 委員常問問題</text>
 
   <rect x="60" y="400" width="170" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="145" y="433" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">課程計畫</text>
+  <text x="145" y="436" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">課程計畫</text>
 
   <rect x="242" y="400" width="170" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="327" y="433" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">個別觀察</text>
+  <text x="327" y="436" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">個別觀察</text>
 
   <rect x="424" y="400" width="170" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="509" y="433" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">親師溝通</text>
+  <text x="509" y="436" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">親師溝通</text>
 
   <text x="60" y="546" font-size="26" fill="#94a3b8">適用：托育人員・課程負責人・托嬰中心評鑑承辦人員</text>
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

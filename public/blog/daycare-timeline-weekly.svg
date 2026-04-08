@@ -16,8 +16,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">個案文件最終抽查</text>
   <text x="100" y="165" font-size="16" fill="#57534e">隨機抽查 3–5 位，逐一確認評估計畫追蹤評值完整</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="143" font-size="16" fill="#d97706" text-anchor="middle">週一</text>
-  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">文件抽查</text>
+  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">週一</text>
+  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">文件抽查</text>
 
   <!-- ===== Row 2（y=191）#78716c 週二 ===== -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">環境設備最終確認</text>
   <text x="100" y="238" font-size="16" fill="#57534e">廚房留樣、急救箱物品、廁所防滑設備再次確認</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="216" font-size="16" fill="#78716c" text-anchor="middle">週二</text>
-  <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">環境設備</text>
+  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">週二</text>
+  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">環境設備</text>
 
   <!-- ===== Row 3（y=264）#57534e 週三 ===== -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">教育訓練時數確認</text>
   <text x="100" y="311" font-size="16" fill="#57534e">所有人員時數達標，訓練紀錄含特殊課程文件歸檔</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="289" font-size="16" fill="#57534e" text-anchor="middle">週三</text>
-  <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">訓練時數</text>
+  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">週三</text>
+  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">訓練時數</text>
 
   <!-- ===== Row 4（y=337）#a8a29e 週四 ===== -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">全員最後模擬演練</text>
   <text x="100" y="384" font-size="16" fill="#57534e">完整模擬委員訪談，確認第6、9、21、29、35條</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="362" font-size="16" fill="#a8a29e" text-anchor="middle">週四</text>
-  <text x="688" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">模擬演練</text>
+  <text x="688" y="357" font-size="16" fill="#a8a29e" text-anchor="middle">週四</text>
+  <text x="688" y="377" font-size="16" fill="#a8a29e" text-anchor="middle">模擬演練</text>
 
   <!-- ===== Row 5（y=410）#94a3b8 週五 ===== -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -60,8 +60,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">文件分類整理與分工</text>
   <text x="100" y="457" font-size="16" fill="#57534e">文件夾依條文排序，確認評鑑當天人員接待分工</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="435" font-size="16" fill="#94a3b8" text-anchor="middle">週五</text>
-  <text x="688" y="455" font-size="16" fill="#94a3b8" text-anchor="middle">整理分工</text>
+  <text x="688" y="430" font-size="16" fill="#94a3b8" text-anchor="middle">週五</text>
+  <text x="688" y="450" font-size="16" fill="#94a3b8" text-anchor="middle">整理分工</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

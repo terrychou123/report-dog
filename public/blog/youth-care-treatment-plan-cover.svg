@@ -12,8 +12,8 @@
   <text x="1000" y="401" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">計畫與紀錄要對應</text>
   <text x="1000" y="426" font-size="18" fill="#a8a29e" text-anchor="middle">計畫是藍圖，紀錄是施工記錄</text>
   <rect x="840" y="448" width="320" height="64" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="477" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">定期評估與調整</text>
-  <text x="1000" y="502" font-size="18" fill="#d97706" text-anchor="middle">不是寫完就放著</text>
+  <text x="1000" y="468" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">定期評估與調整</text>
+  <text x="1000" y="493" font-size="18" fill="#d97706" text-anchor="middle">不是寫完就放著</text>
   <!-- 左側主內容 -->
   <text x="60" y="190" font-size="110" font-weight="900" fill="#1e293b">處遇計畫</text>
   <text x="60" y="320" font-size="110" font-weight="900" fill="#d97706">撰寫攻略</text>

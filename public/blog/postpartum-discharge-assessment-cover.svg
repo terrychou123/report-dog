@@ -10,24 +10,24 @@
 
   <!-- 右側 5 個評鑑條件卡片 -->
   <rect x="840" y="265" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="297" font-size="20" fill="#16a34a" font-weight="700">① 產婦出院評估</text>
-  <text x="1025" y="297" font-size="18" fill="#57534e">傷口・子宮・乳房・情緒</text>
+  <text x="858" y="289" font-size="20" fill="#16a34a" font-weight="700">① 產婦出院評估</text>
+  <text x="1025" y="289" font-size="18" fill="#57534e">傷口・子宮・乳房・情緒</text>
 
   <rect x="840" y="319" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="351" font-size="20" fill="#16a34a" font-weight="700">② 嬰兒出院評估</text>
-  <text x="1025" y="351" font-size="18" fill="#57534e">體重・黃疸・餵食</text>
+  <text x="858" y="343" font-size="20" fill="#16a34a" font-weight="700">② 嬰兒出院評估</text>
+  <text x="1025" y="343" font-size="18" fill="#57534e">體重・黃疸・餵食</text>
 
   <rect x="840" y="373" width="320" height="48" rx="10" fill="#16a34a" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="405" font-size="20" fill="#16a34a" font-weight="700">③ 書面出院指導</text>
-  <text x="1025" y="405" font-size="18" fill="#57534e">家屬簽名必要</text>
+  <text x="858" y="397" font-size="20" fill="#16a34a" font-weight="700">③ 書面出院指導</text>
+  <text x="1025" y="397" font-size="18" fill="#57534e">家屬簽名必要</text>
 
   <rect x="840" y="427" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="459" font-size="20" fill="#78716c" font-weight="700">④ 社區資源轉介</text>
-  <text x="1025" y="459" font-size="18" fill="#57534e">衛生所・哺乳資源</text>
+  <text x="858" y="451" font-size="20" fill="#78716c" font-weight="700">④ 社區資源轉介</text>
+  <text x="1025" y="451" font-size="18" fill="#57534e">衛生所・哺乳資源</text>
 
   <rect x="840" y="481" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="513" font-size="20" fill="#78716c" font-weight="700">⑤ 出院後追蹤</text>
-  <text x="1025" y="513" font-size="18" fill="#57534e">3–7 天電話關懷</text>
+  <text x="858" y="505" font-size="20" fill="#78716c" font-weight="700">⑤ 出院後追蹤</text>
+  <text x="1025" y="505" font-size="18" fill="#57534e">3–7 天電話關懷</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="539" width="320" height="46" rx="10" fill="#16a34a" opacity="0.10"/>
@@ -43,13 +43,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="367" width="188" height="52" rx="10" fill="#16a34a" opacity="0.10"/>
-  <text x="154" y="399" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">出院指導</text>
+  <text x="154" y="402" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">出院指導</text>
 
   <rect x="260" y="367" width="188" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="354" y="399" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">家屬簽名</text>
+  <text x="354" y="402" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">家屬簽名</text>
 
   <rect x="460" y="367" width="188" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="554" y="399" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">出院追蹤</text>
+  <text x="554" y="402" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">出院追蹤</text>
 
   <!-- 適用對象 -->
   <text x="60" y="455" font-size="28" fill="#94a3b8">護產人員 · 護理主管 · 月子中心負責人</text>

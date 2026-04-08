@@ -39,16 +39,16 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="452" width="130" height="50" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="125" y="483" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">C1 演練計畫</text>
+  <text x="125" y="486" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">C1 演練計畫</text>
 
   <rect x="202" y="452" width="130" height="50" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="267" y="483" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">C2 疏散通道</text>
+  <text x="267" y="486" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">C2 疏散通道</text>
 
   <rect x="344" y="452" width="130" height="50" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="409" y="483" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">C3 疏散策略</text>
+  <text x="409" y="486" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">C3 疏散策略</text>
 
   <rect x="486" y="452" width="130" height="50" rx="10" fill="#dc2626" opacity="0.12"/>
-  <text x="551" y="483" font-size="26" fill="#dc2626" text-anchor="middle" font-weight="600">C4 情境演練</text>
+  <text x="551" y="486" font-size="26" fill="#dc2626" text-anchor="middle" font-weight="600">C4 情境演練</text>
 
   <!-- 適用對象 -->
   <text x="60" y="555" font-size="28" fill="#94a3b8">適用：一般護理之家 ｜ 115 年度評鑑基準</text>

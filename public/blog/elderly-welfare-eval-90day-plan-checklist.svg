@@ -18,74 +18,74 @@
   <!-- 左欄項目 1 -->
   <rect x="30" y="148" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="30" y="148" width="5" height="46" rx="2" fill="#d97706"/>
-  <text x="48" y="167" font-size="14" font-weight="700" fill="#1e293b" >1. 業務負責人登錄與勞健保</text>
-  <text x="48" y="185" font-size="13" fill="#57534e" >A7：資格登錄、勞健保、勞退金提撥</text>
+  <text x="48" y="162" font-size="14" font-weight="700" fill="#1e293b" >1. 業務負責人登錄與勞健保</text>
+  <text x="48" y="180" font-size="13" fill="#57534e" >A7：資格登錄、勞健保、勞退金提撥</text>
 
   <!-- 右欄項目 2 -->
   <rect x="410" y="148" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="410" y="148" width="5" height="46" rx="2" fill="#78716c"/>
-  <text x="428" y="167" font-size="14" font-weight="700" fill="#1e293b" >2. 七大監測指標每季分析</text>
-  <text x="428" y="185" font-size="13" fill="#57534e" >B13-B19：每季有分析報告與改善方案</text>
+  <text x="428" y="162" font-size="14" font-weight="700" fill="#1e293b" >2. 七大監測指標每季分析</text>
+  <text x="428" y="180" font-size="13" fill="#57534e" >B13-B19：每季有分析報告與改善方案</text>
 
   <!-- 左欄項目 3 -->
   <rect x="30" y="202" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="30" y="202" width="5" height="46" rx="2" fill="#d97706"/>
-  <text x="48" y="221" font-size="14" font-weight="700" fill="#1e293b" >3. 在職訓練時數：每人 20 小時</text>
-  <text x="48" y="239" font-size="13" fill="#57534e" >A14：含急救訓練、感染管制、性別議題</text>
+  <text x="48" y="216" font-size="14" font-weight="700" fill="#1e293b" >3. 在職訓練時數：每人 20 小時</text>
+  <text x="48" y="234" font-size="13" fill="#57534e" >A14：含急救訓練、感染管制、性別議題</text>
 
   <!-- 右欄項目 4 -->
   <rect x="410" y="202" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="410" y="202" width="5" height="46" rx="2" fill="#78716c"/>
-  <text x="428" y="221" font-size="14" font-weight="700" fill="#1e293b" >4. 緊急廣播與逃生設備測試</text>
-  <text x="428" y="239" font-size="13" fill="#57534e" >C4/C9：設備正常、逃生動線清楚</text>
+  <text x="428" y="216" font-size="14" font-weight="700" fill="#1e293b" >4. 緊急廣播與逃生設備測試</text>
+  <text x="428" y="234" font-size="13" fill="#57534e" >C4/C9：設備正常、逃生動線清楚</text>
 
   <!-- 左欄項目 5 -->
   <rect x="30" y="256" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="30" y="256" width="5" height="46" rx="2" fill="#d97706"/>
-  <text x="48" y="275" font-size="14" font-weight="700" fill="#1e293b" >5. 品質會議記錄完整（B1）</text>
-  <text x="48" y="293" font-size="13" fill="#57534e" >每季 1 次，決議追蹤紀錄、PDCA 閉環</text>
+  <text x="48" y="270" font-size="14" font-weight="700" fill="#1e293b" >5. 品質會議記錄完整（B1）</text>
+  <text x="48" y="288" font-size="13" fill="#57534e" >每季 1 次，決議追蹤紀錄、PDCA 閉環</text>
 
   <!-- 右欄項目 6 -->
   <rect x="410" y="256" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="410" y="256" width="5" height="46" rx="2" fill="#78716c"/>
-  <text x="428" y="275" font-size="14" font-weight="700" fill="#1e293b" >6. 個案服務計畫每季更新</text>
-  <text x="428" y="293" font-size="13" fill="#57534e" >B2：至少每 3 個月重新評估並與家屬討論</text>
+  <text x="428" y="270" font-size="14" font-weight="700" fill="#1e293b" >6. 個案服務計畫每季更新</text>
+  <text x="428" y="288" font-size="13" fill="#57534e" >B2：至少每 3 個月重新評估並與家屬討論</text>
 
   <!-- 左欄項目 7 -->
   <rect x="30" y="310" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="30" y="310" width="5" height="46" rx="2" fill="#57534e"/>
-  <text x="48" y="329" font-size="14" font-weight="700" fill="#1e293b" >7. 疫苗施打率達 80%</text>
-  <text x="48" y="347" font-size="13" fill="#57534e" >B24：工作人員與住民流感疫苗各達 80%</text>
+  <text x="48" y="324" font-size="14" font-weight="700" fill="#1e293b" >7. 疫苗施打率達 80%</text>
+  <text x="48" y="342" font-size="13" fill="#57534e" >B24：工作人員與住民流感疫苗各達 80%</text>
 
   <!-- 右欄項目 8 -->
   <rect x="410" y="310" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="410" y="310" width="5" height="46" rx="2" fill="#57534e"/>
-  <text x="428" y="329" font-size="14" font-weight="700" fill="#1e293b" >8. 翻身拍背每 2 小時紀錄</text>
-  <text x="428" y="347" font-size="13" fill="#57534e" >B26：臥床住民翻身擺位紀錄與實際相符</text>
+  <text x="428" y="324" font-size="14" font-weight="700" fill="#1e293b" >8. 翻身拍背每 2 小時紀錄</text>
+  <text x="428" y="342" font-size="13" fill="#57534e" >B26：臥床住民翻身擺位紀錄與實際相符</text>
 
   <!-- 左欄項目 9 -->
   <rect x="30" y="364" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="30" y="364" width="5" height="46" rx="2" fill="#a8a29e"/>
-  <text x="48" y="383" font-size="14" font-weight="700" fill="#1e293b" >9. 過去 4 年查核缺失改善 100%</text>
-  <text x="48" y="401" font-size="13" fill="#57534e" >A4：衛生、消防、建管、勞工缺失全改善</text>
+  <text x="48" y="378" font-size="14" font-weight="700" fill="#1e293b" >9. 過去 4 年查核缺失改善 100%</text>
+  <text x="48" y="396" font-size="13" fill="#57534e" >A4：衛生、消防、建管、勞工缺失全改善</text>
 
   <!-- 右欄項目 10 -->
   <rect x="410" y="364" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="410" y="364" width="5" height="46" rx="2" fill="#a8a29e"/>
-  <text x="428" y="383" font-size="14" font-weight="700" fill="#1e293b" >10. 照顧服務員人數符合規定</text>
-  <text x="428" y="401" font-size="13" fill="#57534e" >A11：外籍看護不超過 1/2，本國籍隨時在班</text>
+  <text x="428" y="378" font-size="14" font-weight="700" fill="#1e293b" >10. 照顧服務員人數符合規定</text>
+  <text x="428" y="396" font-size="13" fill="#57534e" >A11：外籍看護不超過 1/2，本國籍隨時在班</text>
 
   <!-- 左欄項目 11 -->
   <rect x="30" y="418" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="30" y="418" width="5" height="46" rx="2" fill="#94a3b8"/>
-  <text x="48" y="437" font-size="14" font-weight="700" fill="#1e293b" >11. 個案權益說明書完備（D 區）</text>
-  <text x="48" y="455" font-size="13" fill="#57534e" >服務契約、申訴機制、隱私保護均有簽署</text>
+  <text x="48" y="432" font-size="14" font-weight="700" fill="#1e293b" >11. 個案權益說明書完備（D 區）</text>
+  <text x="48" y="450" font-size="13" fill="#57534e" >服務契約、申訴機制、隱私保護均有簽署</text>
 
   <!-- 右欄項目 12 -->
   <rect x="410" y="418" width="360" height="46" rx="4" fill="#ffffff"/>
   <rect x="410" y="418" width="5" height="46" rx="2" fill="#94a3b8"/>
-  <text x="428" y="437" font-size="14" font-weight="700" fill="#1e293b" >12. 防疫 SOP 與儲備物資確認</text>
-  <text x="428" y="455" font-size="13" fill="#57534e" >B10：感染管制手冊更新、口罩手套有效期限</text>
+  <text x="428" y="432" font-size="14" font-weight="700" fill="#1e293b" >12. 防疫 SOP 與儲備物資確認</text>
+  <text x="428" y="450" font-size="13" fill="#57534e" >B10：感染管制手冊更新、口罩手套有效期限</text>
 
   <!-- 浮水印 -->
   <text x="760" y="492" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

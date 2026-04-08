@@ -9,7 +9,7 @@
   <rect x="28" y="86" width="222" height="180" rx="12" fill="#ffffff" opacity="0.95"/>
   <rect x="28" y="86" width="222" height="44" rx="12" fill="#d97706" opacity="0.15"/>
   <rect x="28" y="116" width="222" height="14" fill="#d97706" opacity="0.15"/>
-  <text x="139" y="113" font-size="36" text-anchor="middle">🤖</text>
+  <text x="139" y="121" font-size="36" text-anchor="middle">🤖</text>
   <text x="139" y="148" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">AI 文書工具</text>
   <text x="46" y="174" font-size="14" fill="#d97706" font-weight="700">成本：低</text>
   <text x="46" y="193" font-size="14" fill="#44403c">• 工具訂閱費或免費</text>
@@ -20,7 +20,7 @@
   <rect x="270" y="86" width="222" height="180" rx="12" fill="#ffffff" opacity="0.95"/>
   <rect x="270" y="86" width="222" height="44" rx="12" fill="#d97706" opacity="0.15"/>
   <rect x="270" y="116" width="222" height="14" fill="#d97706" opacity="0.15"/>
-  <text x="381" y="113" font-size="36" text-anchor="middle">📖</text>
+  <text x="381" y="121" font-size="36" text-anchor="middle">📖</text>
   <text x="381" y="148" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">住民生命故事書</text>
   <text x="288" y="174" font-size="14" fill="#d97706" font-weight="700">成本：極低</text>
   <text x="288" y="193" font-size="14" fill="#44403c">• 列印費＋訪談時間</text>
@@ -31,7 +31,7 @@
   <rect x="512" y="86" width="258" height="180" rx="12" fill="#ffffff" opacity="0.95"/>
   <rect x="512" y="86" width="258" height="44" rx="12" fill="#d97706" opacity="0.15"/>
   <rect x="512" y="116" width="258" height="14" fill="#d97706" opacity="0.15"/>
-  <text x="641" y="113" font-size="36" text-anchor="middle">🧠</text>
+  <text x="641" y="121" font-size="36" text-anchor="middle">🧠</text>
   <text x="641" y="148" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">失智友善環境改善</text>
   <text x="530" y="174" font-size="14" fill="#d97706" font-weight="700">成本：低至中</text>
   <text x="530" y="193" font-size="14" fill="#44403c">• 標示優化＋感知盒</text>
@@ -42,7 +42,7 @@
   <rect x="28" y="288" width="350" height="174" rx="12" fill="#ffffff" opacity="0.95"/>
   <rect x="28" y="288" width="350" height="44" rx="12" fill="#44403c" opacity="0.10"/>
   <rect x="28" y="318" width="350" height="14" fill="#44403c" opacity="0.10"/>
-  <text x="203" y="315" font-size="36" text-anchor="middle">📱</text>
+  <text x="203" y="323" font-size="36" text-anchor="middle">📱</text>
   <text x="203" y="350" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">家屬數位探視系統</text>
   <text x="48" y="376" font-size="14" fill="#d97706" font-weight="700">成本：極低（LINE/Google Meet）</text>
   <text x="48" y="396" font-size="14" fill="#44403c">• 維護家屬與住民連結</text>
@@ -52,7 +52,7 @@
   <rect x="400" y="288" width="370" height="174" rx="12" fill="#ffffff" opacity="0.95"/>
   <rect x="400" y="288" width="370" height="44" rx="12" fill="#44403c" opacity="0.10"/>
   <rect x="400" y="318" width="370" height="14" fill="#44403c" opacity="0.10"/>
-  <text x="585" y="315" font-size="36" text-anchor="middle">🏆</text>
+  <text x="585" y="323" font-size="36" text-anchor="middle">🏆</text>
   <text x="585" y="350" font-size="15" font-weight="900" text-anchor="middle" fill="#1c1917">工作人員技能競賽</text>
   <text x="418" y="376" font-size="14" fill="#d97706" font-weight="700">成本：極低（時間成本）</text>
   <text x="418" y="396" font-size="14" fill="#44403c">• 移位、口腔照護競賽</text>

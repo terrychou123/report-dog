@@ -18,8 +18,8 @@
   <text x="100" y="183" font-size="14" fill="#57534e" >浴室、廁所、每間寢室均須設置；按鈕或拉繩位置適當，</text>
   <text x="100" y="202" font-size="14" fill="#57534e" >坐姿或臥床者皆可觸及；需有多元族群語言翻譯或清楚圖示</text>
   <rect x="620" y="151" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
-  <text x="688" y="170" font-size="14" fill="#0d9488" text-anchor="middle" >3 個空間</text>
-  <text x="688" y="189" font-size="13" fill="#0d9488" text-anchor="middle" >全覆蓋</text>
+  <text x="688" y="165" font-size="14" fill="#0d9488" text-anchor="middle" >3 個空間</text>
+  <text x="688" y="184" font-size="13" fill="#0d9488" text-anchor="middle" >全覆蓋</text>
 
   <!-- Row 2 -->
   <rect x="30" y="231" width="740" height="90" rx="8" fill="white"/>
@@ -30,8 +30,8 @@
   <text x="100" y="286" font-size="14" fill="#57534e" >評鑑委員會現場測試設備功能；呼叫系統應正常運作，</text>
   <text x="100" y="305" font-size="14" fill="#57534e" >無故障、無中斷、鈴聲清楚可辨識；定期維護有紀錄</text>
   <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
-  <text x="688" y="273" font-size="14" fill="#d97706" text-anchor="middle" >現場測試</text>
-  <text x="688" y="292" font-size="13" fill="#d97706" text-anchor="middle" >不能失效</text>
+  <text x="688" y="268" font-size="14" fill="#d97706" text-anchor="middle" >現場測試</text>
+  <text x="688" y="287" font-size="13" fill="#d97706" text-anchor="middle" >不能失效</text>
 
   <!-- Row 3 -->
   <rect x="30" y="334" width="740" height="90" rx="8" fill="white"/>
@@ -42,8 +42,8 @@
   <text x="100" y="389" font-size="14" fill="#57534e" >有人按鈴，服務人員能立即反應並前往處理；需訂有緊急</text>
   <text x="100" y="408" font-size="14" fill="#57534e" >呼叫回應 SOP 及人員訓練紀錄，確認值班人員知悉流程</text>
   <rect x="620" y="357" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="376" font-size="14" fill="#dc2626" text-anchor="middle" >立即回應</text>
-  <text x="688" y="395" font-size="13" fill="#dc2626" text-anchor="middle" >人員訓練</text>
+  <text x="688" y="371" font-size="14" fill="#dc2626" text-anchor="middle" >立即回應</text>
+  <text x="688" y="390" font-size="13" fill="#dc2626" text-anchor="middle" >人員訓練</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

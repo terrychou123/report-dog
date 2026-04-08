@@ -16,8 +16,8 @@
   <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">只記達成未記未達</text>
   <text x="100" y="234" font-size="18" fill="#57534e">第 7 條要求對未達成目標有原因分析，不可只記達成狀況</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">原因</text>
-  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">分析</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">原因</text>
+  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">分析</text>
 
   <!-- Row 2（y=269）#78716c — 缺計畫修正記錄 -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">缺計畫修正記錄</text>
   <text x="100" y="337" font-size="18" fill="#57534e">分析原因後需有具體修正計畫，僅寫「繼續觀察」不夠</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">計畫</text>
-  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">修正</text>
+  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">計畫</text>
+  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">修正</text>
 
   <!-- Row 3（y=372）#57534e — 評值時間點不規律 -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">評值時間點不規律</text>
   <text x="100" y="440" font-size="18" fill="#57534e">建議固定每 3 個月評值一次，讓委員看出追蹤是持續的</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">定期</text>
-  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">執行</text>
+  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">定期</text>
+  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">執行</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

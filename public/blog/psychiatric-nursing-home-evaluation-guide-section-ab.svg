@@ -11,32 +11,32 @@
   <!-- 行1 -->
   <rect x="30" y="110" width="6" height="60" rx="2" fill="#d97706"/>
   <rect x="44" y="110" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="136" font-size="18" font-weight="bold" fill="#d97706" >A2.2 人員設置</text>
-  <text x="66" y="160" font-size="15" fill="#57534e" >試扣分重點！24小時護理在班，200床分界點計算</text>
+  <text x="66" y="129" font-size="18" font-weight="bold" fill="#d97706" >A2.2 人員設置</text>
+  <text x="66" y="153" font-size="15" fill="#57534e" >試扣分重點！24小時護理在班，200床分界點計算</text>
 
   <!-- 行2 -->
   <rect x="30" y="182" width="6" height="60" rx="2" fill="#78716c"/>
   <rect x="44" y="182" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="208" font-size="18" font-weight="bold" fill="#78716c" >B1.7 品質監測</text>
-  <text x="66" y="232" font-size="15" fill="#57534e" >跌倒、壓傷、約束等6大指標需逐月監測</text>
+  <text x="66" y="201" font-size="18" font-weight="bold" fill="#78716c" >B1.7 品質監測</text>
+  <text x="66" y="225" font-size="15" fill="#57534e" >跌倒、壓傷、約束等6大指標需逐月監測</text>
 
   <!-- 行3 -->
   <rect x="30" y="254" width="6" height="60" rx="2" fill="#57534e"/>
   <rect x="44" y="254" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="280" font-size="18" font-weight="bold" fill="#57534e" >B1.3 防疫機制</text>
-  <text x="66" y="304" font-size="15" fill="#57534e" >感染管制計畫每年更新，專責人員8小時課程</text>
+  <text x="66" y="273" font-size="18" font-weight="bold" fill="#57534e" >B1.3 防疫機制</text>
+  <text x="66" y="297" font-size="15" fill="#57534e" >感染管制計畫每年更新，專責人員8小時課程</text>
 
   <!-- 行4 -->
   <rect x="30" y="326" width="6" height="60" rx="2" fill="#a8a29e"/>
   <rect x="44" y="326" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="352" font-size="18" font-weight="bold" fill="#a8a29e" >B1.1 照護計畫</text>
-  <text x="66" y="376" font-size="15" fill="#57534e" >入住72小時內完成6大評估，每半年修訂</text>
+  <text x="66" y="345" font-size="18" font-weight="bold" fill="#a8a29e" >B1.1 照護計畫</text>
+  <text x="66" y="369" font-size="15" fill="#57534e" >入住72小時內完成6大評估，每半年修訂</text>
 
   <!-- 行5 -->
   <rect x="30" y="398" width="6" height="60" rx="2" fill="#94a3b8"/>
   <rect x="44" y="398" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="424" font-size="18" font-weight="bold" fill="#94a3b8" >B1.15 復健作業</text>
-  <text x="66" y="448" font-size="15" fill="#57534e" >每週上限15小時，需有獎勵金辦法</text>
+  <text x="66" y="417" font-size="18" font-weight="bold" fill="#94a3b8" >B1.15 復健作業</text>
+  <text x="66" y="441" font-size="15" fill="#57534e" >每週上限15小時，需有獎勵金辦法</text>
 
   <!-- 品牌浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>

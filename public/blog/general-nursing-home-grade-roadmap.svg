@@ -11,8 +11,8 @@
 
   <!-- 階梯1：不合格 → 合格 -->
   <rect x="50" y="370" width="155" height="50" fill="#fca5a5" rx="8" stroke="#dc2626" stroke-width="2"/>
-  <text x="128" y="390" font-size="15" fill="#991b1b" font-weight="bold" text-anchor="middle">不合格</text>
-  <text x="128" y="410" font-size="14" fill="#7f1d1d" text-anchor="middle">重大缺失</text>
+  <text x="128" y="385" font-size="15" fill="#991b1b" font-weight="bold" text-anchor="middle">不合格</text>
+  <text x="128" y="405" font-size="14" fill="#7f1d1d" text-anchor="middle">重大缺失</text>
 
   <!-- 箭頭右 -->
   <polygon points="215,393 228,385 228,401" fill="#d97706"/>
@@ -22,7 +22,7 @@
   <rect x="230" y="320" width="155" height="100" fill="#fed7aa" rx="8" stroke="#d97706" stroke-width="2"/>
   <text x="308" y="358" font-size="17" fill="#92400e" font-weight="bold" text-anchor="middle">合格</text>
   <text x="308" y="378" font-size="14" fill="#78350f" text-anchor="middle">A 區全達標</text>
-  <text x="308" y="396" font-size="14" fill="#78350f" text-anchor="middle">B 區部分達成</text>
+  <text x="308" y="393" font-size="14" fill="#78350f" text-anchor="middle">B 區部分達成</text>
   <text x="308" y="413" font-size="14" fill="#78350f" text-anchor="middle">無重大缺失</text>
 
   <!-- 箭頭右 -->
@@ -37,7 +37,7 @@
   <text x="488" y="341" font-size="14" fill="#78350f" text-anchor="middle">照護計畫個別化</text>
   <text x="488" y="359" font-size="14" fill="#78350f" text-anchor="middle">PDCA 記錄完整</text>
   <text x="488" y="377" font-size="14" fill="#78350f" text-anchor="middle">C 區消防達標</text>
-  <text x="488" y="400" font-size="14" fill="#78716c" text-anchor="middle">少量待改善</text>
+  <text x="488" y="397" font-size="14" fill="#78716c" text-anchor="middle">少量待改善</text>
 
   <!-- 箭頭右 -->
   <polygon points="575,263 588,255 588,271" fill="#b45309"/>
@@ -64,14 +64,14 @@
   <!-- 合格→甲等 標注 -->
   <line x1="308" y1="318" x2="230" y2="280" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4"/>
   <rect x="30" y="258" width="190" height="50" fill="white" rx="6" stroke="#d97706" stroke-width="1.5"/>
-  <text x="125" y="278" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">B1 照護計畫個別化</text>
-  <text x="125" y="298" font-size="14" fill="#78350f" text-anchor="middle">B3 PDCA 記錄完整</text>
+  <text x="125" y="273" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">B1 照護計畫個別化</text>
+  <text x="125" y="293" font-size="14" fill="#78350f" text-anchor="middle">B3 PDCA 記錄完整</text>
 
   <!-- 甲等→優等 標注 -->
   <line x1="488" y1="238" x2="390" y2="195" stroke="#b45309" stroke-width="1.5" stroke-dasharray="4"/>
   <rect x="185" y="165" width="195" height="50" fill="white" rx="6" stroke="#b45309" stroke-width="1.5"/>
-  <text x="283" y="185" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">D1 創新加分項目</text>
-  <text x="283" y="205" font-size="14" fill="#78350f" text-anchor="middle">B2 跨專業實質記錄</text>
+  <text x="283" y="180" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">D1 創新加分項目</text>
+  <text x="283" y="200" font-size="14" fill="#78350f" text-anchor="middle">B2 跨專業實質記錄</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

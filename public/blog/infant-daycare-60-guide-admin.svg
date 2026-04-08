@@ -15,8 +15,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">立案行政與業務管理（第1-3項）</text>
   <text x="100" y="166" font-size="16" fill="#57534e">體檢紀錄、在職訓練18小時、監視器保養、嬰幼兒接送與出缺席管理</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="142" font-size="16" fill="#d97706" text-anchor="middle">第1-3項</text>
-  <text x="688" y="162" font-size="16" fill="#d97706" text-anchor="middle">負責人主管</text>
+  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">第1-3項</text>
+  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">負責人主管</text>
 
   <!-- Row 1：人事領導與管理（y=191）#78716c -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">人事領導與管理（第4-5項）</text>
   <text x="100" y="239" font-size="16" fill="#57534e">人事規章、差假辦法、薪資保險提撥、任職一年以上人員占2/3以上</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="215" font-size="16" fill="#78716c" text-anchor="middle">第4-5項</text>
-  <text x="688" y="235" font-size="16" fill="#78716c" text-anchor="middle">負責人主管</text>
+  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">第4-5項</text>
+  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">負責人主管</text>
 
   <!-- Row 2：文書與檔案管理（y=264）#57534e -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">文書與檔案管理（第6-7項）</text>
   <text x="100" y="312" font-size="16" fill="#57534e">家長手冊、行事曆、公文管理、每半年召開全體工作人員會議</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="288" font-size="16" fill="#57534e" text-anchor="middle">第6-7項</text>
-  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">行政人員</text>
+  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">第6-7項</text>
+  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">行政人員</text>
 
   <!-- Row 3：財務總務與安全管理（y=337）#a8a29e -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">財務總務與安全管理（第8-10項）</text>
   <text x="100" y="385" font-size="16" fill="#57534e">財產清冊年度盤點、事故傷害流程、CPR證照、每半年逃生演練</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="361" font-size="16" fill="#1e293b" text-anchor="middle">第8-10項</text>
-  <text x="688" y="381" font-size="16" fill="#1e293b" text-anchor="middle">行政負責人</text>
+  <text x="688" y="357" font-size="16" fill="#1e293b" text-anchor="middle">第8-10項</text>
+  <text x="688" y="377" font-size="16" fill="#1e293b" text-anchor="middle">行政負責人</text>
 
   <!-- Row 4：兒童權益保障（y=410）#94a3b8 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">兒童權益保障（第11項）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">弱勢收托辦法、兒童保護通報流程、早期療育轉介、年度社區服務</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="434" font-size="16" fill="#1e293b" text-anchor="middle">第11項</text>
-  <text x="688" y="454" font-size="16" fill="#1e293b" text-anchor="middle">負責人主管</text>
+  <text x="688" y="430" font-size="16" fill="#1e293b" text-anchor="middle">第11項</text>
+  <text x="688" y="450" font-size="16" fill="#1e293b" text-anchor="middle">負責人主管</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

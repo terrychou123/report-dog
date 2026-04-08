@@ -39,16 +39,16 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="448" width="148" height="50" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="479" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">行政管理</text>
+  <text x="134" y="482" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">行政管理</text>
 
   <rect x="220" y="448" width="148" height="50" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="479" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">環境設施</text>
+  <text x="294" y="482" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">環境設施</text>
 
   <rect x="380" y="448" width="148" height="50" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="454" y="479" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">專業服務</text>
+  <text x="454" y="482" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">專業服務</text>
 
   <rect x="540" y="448" width="148" height="50" rx="10" fill="#a8a29e" opacity="0.12"/>
-  <text x="614" y="479" font-size="26" fill="#a8a29e" text-anchor="middle" font-weight="600">AI自我查核</text>
+  <text x="614" y="482" font-size="26" fill="#a8a29e" text-anchor="middle" font-weight="600">AI自我查核</text>
 
   <!-- 適用對象說明 -->
   <text x="60" y="552" font-size="28" fill="#94a3b8">適用：機構社工・教保員・護理師・機構主任</text>

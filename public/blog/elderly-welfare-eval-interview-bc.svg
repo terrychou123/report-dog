@@ -47,7 +47,7 @@
   <text x="100" y="395" font-size="15" font-weight="700" fill="#1e293b" >這個按鈕按下去會有人反應嗎？（現場測試）</text>
   <text x="100" y="418" font-size="13" fill="#57534e" >應對：立即有人回應，提前演練「呼叫→護理站→到場」流程</text>
   <rect x="620" y="386" width="136" height="36" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="404" font-size="13" font-weight="700" fill="#a8a29e"  text-anchor="middle">一級必要</text>
+  <text x="688" y="409" font-size="13" font-weight="700" fill="#a8a29e"  text-anchor="middle">一級必要</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

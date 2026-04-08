@@ -10,20 +10,20 @@
 
   <!-- 右側資訊卡片 -->
   <rect x="840" y="264" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="300" font-size="22" fill="#d97706" font-weight="700">手部衛生 5 時機</text>
-  <text x="1060" y="300" font-size="21" fill="#57534e">WHO 標準</text>
+  <text x="858" y="292" font-size="22" fill="#d97706" font-weight="700">手部衛生 5 時機</text>
+  <text x="1060" y="292" font-size="21" fill="#57534e">WHO 標準</text>
 
   <rect x="840" y="326" width="320" height="56" rx="10" fill="#d97706" opacity="0.12" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="362" font-size="22" fill="#d97706" font-weight="700">每季稽核</text>
-  <text x="958" y="362" font-size="21" fill="#57534e">遵從率統計記錄</text>
+  <text x="858" y="354" font-size="22" fill="#d97706" font-weight="700">每季稽核</text>
+  <text x="958" y="354" font-size="21" fill="#57534e">遵從率統計記錄</text>
 
   <rect x="840" y="388" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="424" font-size="22" fill="#16a34a" font-weight="700">嬰兒床消毒</text>
-  <text x="968" y="424" font-size="21" fill="#57534e">每次出院後記錄</text>
+  <text x="858" y="416" font-size="22" fill="#16a34a" font-weight="700">嬰兒床消毒</text>
+  <text x="968" y="416" font-size="21" fill="#57534e">每次出院後記錄</text>
 
   <rect x="840" y="450" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="486" font-size="22" fill="#78716c" font-weight="700">訪客管理</text>
-  <text x="950" y="486" font-size="21" fill="#57534e">進入嬰兒室規範</text>
+  <text x="858" y="478" font-size="22" fill="#78716c" font-weight="700">訪客管理</text>
+  <text x="950" y="478" font-size="21" fill="#57534e">進入嬰兒室規範</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="515" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
@@ -42,13 +42,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="366" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="149" y="398" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">稽核方法</text>
+  <text x="149" y="401" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">稽核方法</text>
 
   <rect x="250" y="366" width="178" height="52" rx="10" fill="#16a34a" opacity="0.10"/>
-  <text x="339" y="398" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">疫苗統計</text>
+  <text x="339" y="401" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="600">疫苗統計</text>
 
   <rect x="440" y="366" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="529" y="398" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">環境清潔</text>
+  <text x="529" y="401" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">環境清潔</text>
 
   <!-- 適用對象 -->
   <text x="60" y="452" font-size="28" fill="#94a3b8">感控負責人 · 護理主管 · 機構負責人</text>

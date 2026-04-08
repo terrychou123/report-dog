@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">職前訓練 — 16 小時（到職後 1 個月內）</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">感染管制≥4H、個案權益≥2H、勞工安全衛生≥2H；需有適任性考核與意見回饋</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="127"  font-size="18" fill="#92400e" text-anchor="middle" font-weight="700">16 H</text>
-  <text x="624" y="145"  font-size="14" fill="#92400e" text-anchor="middle">1個月內完成</text>
+  <text x="624" y="123"  font-size="18" fill="#92400e" text-anchor="middle" font-weight="700">16 H</text>
+  <text x="624" y="141"  font-size="14" fill="#92400e" text-anchor="middle">1個月內完成</text>
 
   <!-- Row 2: 在職訓練 20H -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">在職訓練 — 每人每年 20 小時</text>
   <text x="118" y="223"  font-size="16" fill="#57534e">感染管制專業人員另需8H感染管制課程；機構外訓須有心得報告</text>
   <rect x="556" y="183" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="202"  font-size="18" fill="#92400e" text-anchor="middle" font-weight="700">20 H</text>
-  <text x="624" y="220"  font-size="14" fill="#92400e" text-anchor="middle">每人每年</text>
+  <text x="624" y="198"  font-size="18" fill="#92400e" text-anchor="middle" font-weight="700">20 H</text>
+  <text x="624" y="216"  font-size="14" fill="#92400e" text-anchor="middle">每人每年</text>
 
   <!-- Row 3: 急救訓練 -->
   <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="118" y="275"  font-size="20" fill="#1e293b" font-weight="700">護理人員 &amp; 照服員 — 急救訓練有效期證明</text>
   <text x="118" y="298"  font-size="16" fill="#57534e">BLS / CPR+AED / ACLS / ENT-1 擇一完訓；含外籍看護工；時數含入20H</text>
   <rect x="556" y="258" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="277"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">有效期內</text>
-  <text x="624" y="295"  font-size="14" fill="#57534e" text-anchor="middle">完訓證明</text>
+  <text x="624" y="272"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">有效期內</text>
+  <text x="624" y="290"  font-size="14" fill="#57534e" text-anchor="middle">完訓證明</text>
 
   <!-- Row 4: 廚工 8H -->
   <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
@@ -50,13 +50,13 @@
   <text x="118" y="350"  font-size="20" fill="#1e293b" font-weight="700">廚工 — 丙級執照 + 每年 8 小時外部訓練</text>
   <text x="118" y="373"  font-size="16" fill="#57534e">負責膳食廚工須持丙級以上餐飲技術士執照；8H須為外部（餐飲工會等）訓練</text>
   <rect x="556" y="333" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="352"  font-size="18" fill="#57534e" text-anchor="middle" font-weight="700">8 H</text>
-  <text x="624" y="370"  font-size="14" fill="#57534e" text-anchor="middle">外部訓練</text>
+  <text x="624" y="348"  font-size="18" fill="#57534e" text-anchor="middle" font-weight="700">8 H</text>
+  <text x="624" y="366"  font-size="14" fill="#57534e" text-anchor="middle">外部訓練</text>
 
   <!-- 提示說明 -->
   <rect x="50" y="404" width="700" height="52" rx="8" fill="#e7e5e4"/>
-  <text x="400" y="425"  font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">未滿 1 年新進人員：按任職月數比例計算所需訓練時數</text>
-  <text x="400" y="446"  font-size="15" fill="#78716c" text-anchor="middle">建議建立逐人追蹤表，年底前提醒未達標人員補訓</text>
+  <text x="400" y="420"  font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">未滿 1 年新進人員：按任職月數比例計算所需訓練時數</text>
+  <text x="400" y="441"  font-size="15" fill="#78716c" text-anchor="middle">建議建立逐人追蹤表，年底前提醒未達標人員補訓</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

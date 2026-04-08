@@ -11,59 +11,59 @@
   <!-- Row y: 108, 181, 254, 327, 400 -->
 
   <!-- Row 1: A1/A2/A3 制度面 -->
-  <rect x="28" y="108" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="108" width="6" height="60" rx="2" fill="#d97706"/>
-  <circle cx="66" cy="138" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="144" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
-  <text x="100" y="130" font-size="20" fill="#1e293b" font-weight="700">A1 工作手冊 ／ A3 年度業務計畫</text>
-  <text x="100" y="152" font-size="16" fill="#57534e">訂定工作手冊、業務計畫並每年審閱修訂，有具體績效紀錄</text>
-  <rect x="620" y="116" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="135" font-size="16" fill="#d97706" text-anchor="middle">文件檢閱</text>
-  <text x="688" y="155" font-size="16" fill="#d97706" text-anchor="middle">行政主管</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="145" font-size="21" fill="#1e293b" font-weight="700">A1 工作手冊 ／ A3 年度業務計畫</text>
+  <text x="100" y="166" font-size="16" fill="#57534e">訂定工作手冊、業務計畫並每年審閱修訂，有具體績效紀錄</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">文件檢閱</text>
+  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">行政主管</text>
 
   <!-- Row 2: A2 二級加強 -->
-  <rect x="28" y="181" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="181" width="6" height="60" rx="2" fill="#78716c"/>
-  <circle cx="66" cy="211" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="217" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
-  <text x="100" y="203" font-size="20" fill="#1e293b" font-weight="700">A2 入出機構管理（二級加強）</text>
-  <text x="100" y="225" font-size="16" fill="#57534e">收容類型符合立案、近 4 年無違規、收費公開於網站</text>
-  <rect x="620" y="189" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="208" font-size="16" fill="#78716c" text-anchor="middle">查核重點</text>
-  <text x="688" y="228" font-size="16" fill="#78716c" text-anchor="middle">二級加強</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="218" font-size="21" fill="#1e293b" font-weight="700">A2 入出機構管理（二級加強）</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">收容類型符合立案、近 4 年無違規、收費公開於網站</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">查核重點</text>
+  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">二級加強</text>
 
   <!-- Row 3: A4 二級加強 -->
-  <rect x="28" y="254" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="254" width="6" height="60" rx="2" fill="#57534e"/>
-  <circle cx="66" cy="284" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="290" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
-  <text x="100" y="276" font-size="20" fill="#1e293b" font-weight="700">A4 查核缺失改善（二級加強）</text>
-  <text x="100" y="298" font-size="16" fill="#57534e">過去 4 年衛生/消防/建管/勞工查核缺失改善率需達 100%</text>
-  <rect x="620" y="262" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="281" font-size="16" fill="#57534e" text-anchor="middle">向主管機關</text>
-  <text x="688" y="301" font-size="16" fill="#57534e" text-anchor="middle">調閱紀錄</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="291" font-size="21" fill="#1e293b" font-weight="700">A4 查核缺失改善（二級加強）</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">過去 4 年衛生/消防/建管/勞工查核缺失改善率需達 100%</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">向主管機關</text>
+  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">調閱紀錄</text>
 
   <!-- Row 4: A7-A11 人力配置 -->
-  <rect x="28" y="327" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="327" width="6" height="60" rx="2" fill="#a8a29e"/>
-  <circle cx="66" cy="357" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="363" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
-  <text x="100" y="349" font-size="20" fill="#1e293b" font-weight="700">A7-A11 五大職類人力配置</text>
-  <text x="100" y="371" font-size="16" fill="#57534e">負責人專任投保、護理 24H 值班、外籍看護工不超過照服員 1/2</text>
-  <rect x="620" y="335" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="354" font-size="16" fill="#a8a29e" text-anchor="middle">法規合規</text>
-  <text x="688" y="374" font-size="16" fill="#a8a29e" text-anchor="middle">硬性規定</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="364" font-size="21" fill="#1e293b" font-weight="700">A7-A11 五大職類人力配置</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">負責人專任投保、護理 24H 值班、外籍看護工不超過照服員 1/2</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="357" font-size="16" fill="#a8a29e" text-anchor="middle">法規合規</text>
+  <text x="688" y="377" font-size="16" fill="#a8a29e" text-anchor="middle">硬性規定</text>
 
   <!-- Row 5: A13-A14 訓練 -->
-  <rect x="28" y="400" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="400" width="6" height="60" rx="2" fill="#94a3b8"/>
-  <circle cx="66" cy="430" r="16" fill="#94a3b8" opacity="0.15"/>
-  <text x="66" y="436" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
-  <text x="100" y="422" font-size="20" fill="#1e293b" font-weight="700">A13-A14 職前與在職訓練</text>
-  <text x="100" y="444" font-size="16" fill="#57534e">新進 16 小時職前（含感染管制 4 小時）；每人每年在職訓練 20 小時</text>
-  <rect x="620" y="408" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="427" font-size="16" fill="#94a3b8" text-anchor="middle">訓練紀錄</text>
-  <text x="688" y="447" font-size="16" fill="#94a3b8" text-anchor="middle">需正本呈現</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="437" font-size="21" fill="#1e293b" font-weight="700">A13-A14 職前與在職訓練</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">新進 16 小時職前（含感染管制 4 小時）；每人每年在職訓練 20 小時</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="430" font-size="16" fill="#94a3b8" text-anchor="middle">訓練紀錄</text>
+  <text x="688" y="450" font-size="16" fill="#94a3b8" text-anchor="middle">需正本呈現</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

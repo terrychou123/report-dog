@@ -8,7 +8,7 @@
   <rect x="40" y="108" width="346" height="168" rx="12" fill="white" stroke="#0284c7" stroke-width="2"/>
   <rect x="40" y="108" width="346" height="40" rx="12" fill="#0284c7"/>
   <rect x="40" y="128" width="346" height="20" fill="#0284c7"/>
-  <text x="213" y="134" text-anchor="middle" font-size="19" fill="white" font-weight="700">日間型 2.3（4分）</text>
+  <text x="213" y="145" text-anchor="middle" font-size="19" fill="white" font-weight="700">日間型 2.3（4分）</text>
   <text x="60" y="168" font-size="17" fill="#1e293b" font-weight="700">社區生活化多元復健服務</text>
   <text x="60" y="190" font-size="15" fill="#57534e">依個別化復健目標提供多元服務</text>
   <text x="60" y="210" font-size="15" fill="#57534e">強調外出、社區活動、資源連結</text>
@@ -19,7 +19,7 @@
   <rect x="414" y="108" width="346" height="168" rx="12" fill="white" stroke="#7c3aed" stroke-width="2"/>
   <rect x="414" y="108" width="346" height="40" rx="12" fill="#7c3aed"/>
   <rect x="414" y="128" width="346" height="20" fill="#7c3aed"/>
-  <text x="587" y="134" text-anchor="middle" font-size="19" fill="white" font-weight="700">住宿型 2.3（6分，最高）</text>
+  <text x="587" y="145" text-anchor="middle" font-size="19" fill="white" font-weight="700">住宿型 2.3（6分，最高）</text>
   <text x="434" y="168" font-size="17" fill="#1e293b" font-weight="700">個別化獨立生活功能訓練</text>
   <text x="434" y="190" font-size="15" fill="#57534e">日常生活技能、自我照顧為主</text>
   <text x="434" y="210" font-size="15" fill="#57534e">個別化課程，非團體活動為主</text>

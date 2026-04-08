@@ -8,38 +8,38 @@
   <text x="56" y="128"  font-size="16" font-weight="700" fill="#d97706">行政管理類</text>
   <rect x="40" y="138" width="348" height="38" rx="6" fill="#ffffff"/>
   <rect x="40" y="138" width="4" height="38" rx="2" fill="#d97706"/>
-  <text x="54" y="152"  font-size="14" fill="#1e293b">A7 業務負責人資格文件備存</text>
-  <text x="54" y="168"  font-size="13" fill="#78716c">含勞健保、勞退金投保更新</text>
+  <text x="54" y="149"  font-size="14" fill="#1e293b">A7 業務負責人資格文件備存</text>
+  <text x="54" y="165"  font-size="13" fill="#78716c">含勞健保、勞退金投保更新</text>
   <rect x="40" y="184" width="348" height="38" rx="6" fill="#ffffff"/>
   <rect x="40" y="184" width="4" height="38" rx="2" fill="#d97706"/>
-  <text x="54" y="198"  font-size="14" fill="#1e293b">A3 年度業務計畫確認執行狀況</text>
-  <text x="54" y="214"  font-size="13" fill="#78716c">確認前一年度訂定，已按計畫執行</text>
+  <text x="54" y="195"  font-size="14" fill="#1e293b">A3 年度業務計畫確認執行狀況</text>
+  <text x="54" y="211"  font-size="13" fill="#78716c">確認前一年度訂定，已按計畫執行</text>
   <rect x="40" y="230" width="348" height="38" rx="6" fill="#ffffff"/>
   <rect x="40" y="230" width="4" height="38" rx="2" fill="#d97706"/>
-  <text x="54" y="244"  font-size="14" fill="#1e293b">A4 過去 4 年查核缺失彙整</text>
-  <text x="54" y="260"  font-size="13" fill="#78716c">衛福、消防、建管、勞工均需涵蓋</text>
+  <text x="54" y="241"  font-size="14" fill="#1e293b">A4 過去 4 年查核缺失彙整</text>
+  <text x="54" y="257"  font-size="13" fill="#78716c">衛福、消防、建管、勞工均需涵蓋</text>
   <rect x="40" y="276" width="348" height="38" rx="6" fill="#ffffff"/>
   <rect x="40" y="276" width="4" height="38" rx="2" fill="#d97706"/>
-  <text x="54" y="290"  font-size="14" fill="#1e293b">A6 危機管理計畫閱讀與確認</text>
-  <text x="54" y="306"  font-size="13" fill="#78716c">至少 3 項風險，每半年檢討有記錄</text>
+  <text x="54" y="287"  font-size="14" fill="#1e293b">A6 危機管理計畫閱讀與確認</text>
+  <text x="54" y="303"  font-size="13" fill="#78716c">至少 3 項風險，每半年檢討有記錄</text>
   <!-- 右欄 -->
   <text x="430" y="128"  font-size="16" font-weight="700" fill="#78716c">人力與品質類</text>
   <rect x="414" y="138" width="346" height="38" rx="6" fill="#ffffff"/>
   <rect x="414" y="138" width="4" height="38" rx="2" fill="#78716c"/>
-  <text x="428" y="152"  font-size="14" fill="#1e293b">A9 護理人員配置（一級必要）達標</text>
-  <text x="428" y="168"  font-size="13" fill="#78716c">全日均有護理師，執業登錄完成</text>
+  <text x="428" y="149"  font-size="14" fill="#1e293b">A9 護理人員配置（一級必要）達標</text>
+  <text x="428" y="165"  font-size="13" fill="#78716c">全日均有護理師，執業登錄完成</text>
   <rect x="414" y="184" width="346" height="38" rx="6" fill="#ffffff"/>
   <rect x="414" y="184" width="4" height="38" rx="2" fill="#78716c"/>
-  <text x="428" y="198"  font-size="14" fill="#1e293b">A11 照服員配置（一級必要）達標</text>
-  <text x="428" y="214"  font-size="13" fill="#78716c">外籍人員比例確認，各班本國籍照服員</text>
+  <text x="428" y="195"  font-size="14" fill="#1e293b">A11 照服員配置（一級必要）達標</text>
+  <text x="428" y="211"  font-size="13" fill="#78716c">外籍人員比例確認，各班本國籍照服員</text>
   <rect x="414" y="230" width="346" height="38" rx="6" fill="#ffffff"/>
   <rect x="414" y="230" width="4" height="38" rx="2" fill="#78716c"/>
-  <text x="428" y="244"  font-size="14" fill="#1e293b">A14 在職訓練年度計畫確認</text>
-  <text x="428" y="260"  font-size="13" fill="#78716c">每人 20 小時，感染管制至少 4 小時</text>
+  <text x="428" y="241"  font-size="14" fill="#1e293b">A14 在職訓練年度計畫確認</text>
+  <text x="428" y="257"  font-size="13" fill="#78716c">每人 20 小時，感染管制至少 4 小時</text>
   <rect x="414" y="276" width="346" height="38" rx="6" fill="#ffffff"/>
   <rect x="414" y="276" width="4" height="38" rx="2" fill="#78716c"/>
-  <text x="428" y="290"  font-size="14" fill="#1e293b">B1 主持品質會議並留有記錄</text>
-  <text x="428" y="306"  font-size="13" fill="#78716c">主管親自主持，讓名字出現在會議紀錄</text>
+  <text x="428" y="287"  font-size="14" fill="#1e293b">B1 主持品質會議並留有記錄</text>
+  <text x="428" y="303"  font-size="13" fill="#78716c">主管親自主持，讓名字出現在會議紀錄</text>
   <!-- 模擬評鑑欄 -->
   <rect x="40" y="330" width="720" height="60" rx="10" fill="#d97706"/>
   <text x="400" y="356"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">第 4 週：完成一次完整模擬評鑑自查</text>

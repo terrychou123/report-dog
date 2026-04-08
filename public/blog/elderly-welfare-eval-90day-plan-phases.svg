@@ -16,8 +16,8 @@
   <text x="116" y="209" font-size="22" font-weight="700" fill="#1e293b">第一個月（第 1-4 週）：基礎盤點</text>
   <text x="116" y="230" font-size="16" fill="#57534e">AI 自我查核 77 項指標、處理 A 區行政問題、確認 C 區必要指標、召開品質會議</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">第 1-4 週</text>
-  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">基礎盤點期</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">第 1-4 週</text>
+  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">基礎盤點期</text>
 
   <!-- Row2 y=269, h=90 -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="116" y="312" font-size="22" font-weight="700" fill="#1e293b">第二個月（第 5-8 週）：文件補強</text>
   <text x="116" y="333" font-size="16" fill="#57534e">補強個案服務計畫、防疫 SOP、七大監測指標統計、D 區個案權益文件</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">第 5-8 週</text>
-  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">文件補強期</text>
+  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">第 5-8 週</text>
+  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">文件補強期</text>
 
   <!-- Row3 y=372, h=90 -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="116" y="415" font-size="22" font-weight="700" fill="#1e293b">第三個月（第 9-12 週）：模擬衝刺</text>
   <text x="116" y="436" font-size="16" fill="#57534e">全員分工確認、內部模擬演練、缺失修正設備測試、最後備詢演練</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">第 9-12 週</text>
-  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">模擬衝刺期</text>
+  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">第 9-12 週</text>
+  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">模擬衝刺期</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

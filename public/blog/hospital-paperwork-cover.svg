@@ -55,20 +55,20 @@
   <!-- 解方1 -->
   <rect x="848" y="248" width="310" height="72" rx="8" fill="#ffffff" opacity="0.7"/>
   <rect x="848" y="248" width="6" height="72" rx="3" fill="#ea580c"/>
-  <text x="866" y="276"  font-size="17" font-weight="700" fill="#1c1917">AI 輔助文書</text>
-  <text x="866" y="300"  font-size="14" fill="#78716c">初稿生成節省70%撰寫時間</text>
+  <text x="866" y="273"  font-size="17" font-weight="700" fill="#1c1917">AI 輔助文書</text>
+  <text x="866" y="297"  font-size="14" fill="#78716c">初稿生成節省70%撰寫時間</text>
 
   <!-- 解方2 -->
   <rect x="848" y="332" width="310" height="72" rx="8" fill="#ffffff" opacity="0.7"/>
   <rect x="848" y="332" width="6" height="72" rx="2" fill="#78716c"/>
-  <text x="866" y="360"  font-size="17" font-weight="700" fill="#1c1917">日常化品管</text>
-  <text x="866" y="384"  font-size="14" fill="#78716c">月度例行作業取代評鑑前衝刺</text>
+  <text x="866" y="357"  font-size="17" font-weight="700" fill="#1c1917">日常化品管</text>
+  <text x="866" y="381"  font-size="14" fill="#78716c">月度例行作業取代評鑑前衝刺</text>
 
   <!-- 解方3 -->
   <rect x="848" y="416" width="310" height="72" rx="8" fill="#ffffff" opacity="0.7"/>
   <rect x="848" y="416" width="6" height="72" rx="2" fill="#57534e"/>
-  <text x="866" y="444"  font-size="17" font-weight="700" fill="#1c1917">定期追蹤系統</text>
-  <text x="866" y="468"  font-size="14" fill="#78716c">跨部門可視化，每季自我查核</text>
+  <text x="866" y="441"  font-size="17" font-weight="700" fill="#1c1917">定期追蹤系統</text>
+  <text x="866" y="465"  font-size="14" fill="#78716c">跨部門可視化，每季自我查核</text>
 
   <!-- 浮水印 -->
   <text x="600" y="612"  font-size="13" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>

@@ -68,6 +68,10 @@ npm run svg:validate -- --fix public/blog/{filename}.svg --verbose
 4. **對稱清晰佈局**：中央圖表 + 四周說明文字
 5. **層次分明排版**：大標題粗體 + 中標準體 + 小說明細體
 6. **色塊方形標記（■）**：用於引導標題/分段
+7. **文字垂直置中**：所有文字區塊必須在其所屬容器（rect / pill / card / circle / header row）的高度範圍內垂直置中對齊。通用公式：
+   - 單行：`text_y = container_y + container_h / 2 + font_size × 0.35`
+   - 雙行（標題 + 副文字，baseline 間距 = gap）：`title_y = container_y + container_h / 2 - gap / 2 + (title_font - subtitle_font) × 0.175`，`subtitle_y = title_y + gap`
+   - 三區塊以上：使用 equal-gap 等間距佈局，`gap = (usable_h - total_content_h) / (區塊數 + 1)`
 
 ---
 

@@ -10,20 +10,20 @@
 
   <!-- 右側 4 區塊摘要 -->
   <rect x="840" y="260" width="155" height="80" rx="10" fill="#d97706" opacity="0.12" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="295" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">A 區</text>
-  <text x="918" y="325" font-size="22" fill="#78716c" text-anchor="middle">5 項</text>
+  <text x="918" y="286" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">A 區</text>
+  <text x="918" y="316" font-size="22" fill="#78716c" text-anchor="middle">5 項</text>
 
   <rect x="1005" y="260" width="155" height="80" rx="10" fill="#16a34a" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="295" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="700">B 區</text>
-  <text x="1083" y="325" font-size="22" fill="#78716c" text-anchor="middle">8 項</text>
+  <text x="1083" y="286" font-size="26" fill="#16a34a" text-anchor="middle" font-weight="700">B 區</text>
+  <text x="1083" y="316" font-size="22" fill="#78716c" text-anchor="middle">8 項</text>
 
   <rect x="840" y="350" width="155" height="80" rx="10" fill="#2563eb" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="385" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">C 區</text>
-  <text x="918" y="415" font-size="22" fill="#78716c" text-anchor="middle">2 項</text>
+  <text x="918" y="376" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="700">C 區</text>
+  <text x="918" y="406" font-size="22" fill="#78716c" text-anchor="middle">2 項</text>
 
   <rect x="1005" y="350" width="155" height="80" rx="10" fill="#7c3aed" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="385" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="700">D 區</text>
-  <text x="1083" y="415" font-size="22" fill="#78716c" text-anchor="middle">2 項（加分）</text>
+  <text x="1083" y="376" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="700">D 區</text>
+  <text x="1083" y="406" font-size="22" fill="#78716c" text-anchor="middle">2 項（加分）</text>
 
   <!-- 右側 AI 功能 -->
   <rect x="840" y="440" width="320" height="56" rx="10" fill="#7c3aed" opacity="0.10"/>
@@ -45,13 +45,13 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="366" width="178" height="52" rx="10" fill="#7c3aed" opacity="0.10"/>
-  <text x="149" y="398" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="600">缺口分析</text>
+  <text x="149" y="401" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="600">缺口分析</text>
 
   <rect x="250" y="366" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="339" y="398" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">文件對應</text>
+  <text x="339" y="401" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">文件對應</text>
 
   <rect x="440" y="366" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="529" y="398" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">誠實自評</text>
+  <text x="529" y="401" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">誠實自評</text>
 
   <!-- 適用對象 -->
   <text x="60" y="452" font-size="28" fill="#94a3b8">護理主管 · 機構負責人 · 評鑑準備負責人</text>

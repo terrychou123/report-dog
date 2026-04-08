@@ -9,7 +9,7 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">入住行政與資訊揭露</text>
+  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">入住行政與資訊揭露</text>
   <text x="60" y="172" font-size="14" fill="#57534e">D2 契約 5 天審閱期</text>
   <text x="60" y="192" font-size="14" fill="#57534e">D3 生活注意事項明顯公告</text>
   <text x="60" y="212" font-size="14" fill="#57534e">D1 個案資料管理（二級加強）</text>
@@ -21,7 +21,7 @@
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">溝通申訴與滿意度</text>
+  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">溝通申訴與滿意度</text>
   <text x="434" y="172" font-size="14" fill="#57534e">D4 申訴機制（明顯處張貼）</text>
   <text x="434" y="192" font-size="14" fill="#57534e">   有專人，每年統計分析</text>
   <text x="434" y="212" font-size="14" fill="#57534e">D9 不具名滿意度調查每年</text>
@@ -33,7 +33,7 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">隱私與居家情境</text>
+  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">隱私與居家情境</text>
   <text x="60" y="358" font-size="14" fill="#57534e">D6 床間圍簾（二級加強）</text>
   <text x="60" y="378" font-size="14" fill="#57534e">   寢室浴廁無監視器</text>
   <text x="60" y="398" font-size="14" fill="#57534e">   每位住民有床頭櫃</text>
@@ -45,7 +45,7 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#94a3b8"/>
   <rect x="414" y="312" width="346" height="20" fill="#94a3b8"/>
-  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">緩和醫療與生命末期</text>
+  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">緩和醫療與生命末期</text>
   <text x="434" y="358" font-size="14" fill="#57534e">D8 提供 DNR 相關資訊</text>
   <text x="434" y="378" font-size="14" fill="#57534e">   提供臨終照護手冊</text>
   <text x="434" y="398" font-size="14" fill="#57534e">   協助住民了解 AD 選擇權</text>

@@ -9,11 +9,11 @@
 
   <!-- 左欄標題 -->
   <rect x="28" y="108" width="360" height="44" rx="10" fill="#4f46e5" opacity="0.15"/>
-  <text x="208" y="135" font-size="22" fill="#4f46e5" text-anchor="middle" font-weight="700">2 歲以下嬰幼兒</text>
+  <text x="208" y="138" font-size="22" fill="#4f46e5" text-anchor="middle" font-weight="700">2 歲以下嬰幼兒</text>
 
   <!-- 右欄標題 -->
   <rect x="412" y="108" width="360" height="44" rx="10" fill="#7c3aed" opacity="0.15"/>
-  <text x="592" y="135" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">2 歲以上兒童及少年</text>
+  <text x="592" y="138" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">2 歲以上兒童及少年</text>
 
   <!-- 中間分隔線 -->
   <line x1="400" y1="108" x2="400" y2="440" stroke="#dedad3" stroke-width="1" stroke-dasharray="6,4"/>

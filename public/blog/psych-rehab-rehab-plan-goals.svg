@@ -8,7 +8,7 @@
   <rect x="28" y="108" width="354" height="350" rx="12" fill="white" stroke="#dc2626" stroke-width="2"/>
   <rect x="28" y="108" width="354" height="40" rx="12" fill="#dc2626"/>
   <rect x="28" y="128" width="354" height="20" fill="#dc2626"/>
-  <text x="205" y="134" text-anchor="middle" font-size="20" fill="white" font-weight="700">需改善的目標寫法</text>
+  <text x="205" y="145" text-anchor="middle" font-size="20" fill="white" font-weight="700">需改善的目標寫法</text>
 
   <text x="48" y="176" font-size="16" fill="#57534e" font-weight="700">問題一：過於籠統</text>
   <rect x="48" y="186" width="314" height="40" rx="6" fill="#fef2f2"/>
@@ -22,14 +22,14 @@
 
   <text x="48" y="378" font-size="16" fill="#57534e" font-weight="700">問題三：多人共用同一目標</text>
   <rect x="48" y="388" width="314" height="40" rx="6" fill="#fef2f2"/>
-  <text x="68" y="410" font-size="15" fill="#dc2626">5 人計畫中目標文字完全相同</text>
+  <text x="68" y="413" font-size="15" fill="#dc2626">5 人計畫中目標文字完全相同</text>
   <text x="48" y="440" font-size="14" fill="#57534e">→ 評鑑委員一眼看出，嚴重扣分</text>
 
   <!-- 右側：良好（綠色） -->
   <rect x="418" y="108" width="354" height="350" rx="12" fill="white" stroke="#16a34a" stroke-width="2"/>
   <rect x="418" y="108" width="354" height="40" rx="12" fill="#16a34a"/>
   <rect x="418" y="128" width="354" height="20" fill="#16a34a"/>
-  <text x="595" y="134" text-anchor="middle" font-size="20" fill="white" font-weight="700">良好的目標寫法</text>
+  <text x="595" y="145" text-anchor="middle" font-size="20" fill="white" font-weight="700">良好的目標寫法</text>
 
   <text x="438" y="176" font-size="16" fill="#57534e" font-weight="700">優點一：具體可量測</text>
   <rect x="438" y="186" width="314" height="40" rx="6" fill="#f0fdf4"/>
@@ -43,7 +43,7 @@
 
   <text x="438" y="378" font-size="16" fill="#57534e" font-weight="700">優點三：個別化步驟</text>
   <rect x="438" y="388" width="314" height="40" rx="6" fill="#f0fdf4"/>
-  <text x="458" y="410" font-size="15" fill="#16a34a">「練習步驟：辨識公車路線→自行刷卡」</text>
+  <text x="458" y="413" font-size="15" fill="#16a34a">「練習步驟：辨識公車路線→自行刷卡」</text>
   <text x="438" y="440" font-size="14" fill="#57534e">→ 可拆解執行，顯示個案管理深度</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

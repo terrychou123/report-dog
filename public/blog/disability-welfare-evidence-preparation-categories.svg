@@ -9,7 +9,7 @@
   <rect x="25" y="108" width="230" height="342" rx="12" fill="white"/>
   <rect x="25" y="108" width="230" height="44" rx="12" fill="#d97706"/>
   <rect x="25" y="132" width="230" height="20" fill="#d97706"/>
-  <text x="140" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">審閱書面資料</text>
+  <text x="140" y="148" text-anchor="middle" font-size="16" fill="white" font-weight="700">審閱書面資料</text>
   <text x="45" y="180" font-size="15" fill="#57534e">• 文件必須成冊完整</text>
   <text x="45" y="200" font-size="15" fill="#57534e">• 按年份分類歸檔</text>
   <text x="45" y="220" font-size="15" fill="#57534e">• 每份文件有索引編號</text>
@@ -24,7 +24,7 @@
   <rect x="280" y="108" width="230" height="342" rx="12" fill="white"/>
   <rect x="280" y="108" width="230" height="44" rx="12" fill="#57534e"/>
   <rect x="280" y="132" width="230" height="20" fill="#57534e"/>
-  <text x="395" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">現場實務觀察</text>
+  <text x="395" y="148" text-anchor="middle" font-size="16" fill="white" font-weight="700">現場實務觀察</text>
   <text x="300" y="180" font-size="15" fill="#57534e">• 環境整潔無雜物</text>
   <text x="300" y="200" font-size="15" fill="#57534e">• 逃生路徑暢通</text>
   <text x="300" y="220" font-size="15" fill="#57534e">• 設備功能正常運作</text>
@@ -39,7 +39,7 @@
   <rect x="535" y="108" width="230" height="342" rx="12" fill="white"/>
   <rect x="535" y="108" width="230" height="44" rx="12" fill="#78716c"/>
   <rect x="535" y="132" width="230" height="20" fill="#78716c"/>
-  <text x="650" y="137" text-anchor="middle" font-size="16" fill="white" font-weight="700">訪談工作人員</text>
+  <text x="650" y="148" text-anchor="middle" font-size="16" fill="white" font-weight="700">訪談工作人員</text>
   <text x="555" y="180" font-size="15" fill="#57534e">• 工作人員了解ISP</text>
   <text x="555" y="200" font-size="15" fill="#57534e">• 熟知緊急應變程序</text>
   <text x="555" y="220" font-size="15" fill="#57534e">• 能說明通報機制</text>

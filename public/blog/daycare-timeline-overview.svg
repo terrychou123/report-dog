@@ -12,7 +12,7 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="213" y="133" text-anchor="middle" font-size="16" fill="white" font-weight="700">第 3 個月：奠基</text>
+  <text x="213" y="144" text-anchor="middle" font-size="16" fill="white" font-weight="700">第 3 個月：奠基</text>
   <text x="60" y="176" font-size="14" fill="#57534e">• 個案文件逐一盤點與確認</text>
   <text x="60" y="196" font-size="14" fill="#57534e">• 教育訓練時數與督導紀錄</text>
   <text x="60" y="216" font-size="14" fill="#57534e">• 品管指標現況確認</text>
@@ -23,7 +23,7 @@
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="587" y="133" text-anchor="middle" font-size="16" fill="white" font-weight="700">第 2 個月：補強</text>
+  <text x="587" y="144" text-anchor="middle" font-size="16" fill="white" font-weight="700">第 2 個月：補強</text>
   <text x="434" y="176" font-size="14" fill="#57534e">• 補足個案文件缺漏</text>
   <text x="434" y="196" font-size="14" fill="#57534e">• 補課達到 20 小時訓練</text>
   <text x="434" y="216" font-size="14" fill="#57534e">• 前次評鑑改善追蹤確認</text>
@@ -34,7 +34,7 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="213" y="317" text-anchor="middle" font-size="16" fill="white" font-weight="700">第 1 個月：備戰</text>
+  <text x="213" y="328" text-anchor="middle" font-size="16" fill="white" font-weight="700">第 1 個月：備戰</text>
   <text x="60" y="360" font-size="14" fill="#57534e">• 召開全員評鑑說明會</text>
   <text x="60" y="380" font-size="14" fill="#57534e">• 模擬委員訪談演練</text>
   <text x="60" y="400" font-size="14" fill="#57534e">• 環境設備最終確認</text>
@@ -45,7 +45,7 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
   <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
-  <text x="587" y="317" text-anchor="middle" font-size="16" fill="white" font-weight="700">最後 1 週：決戰</text>
+  <text x="587" y="328" text-anchor="middle" font-size="16" fill="white" font-weight="700">最後 1 週：決戰</text>
   <text x="434" y="360" font-size="14" fill="#57534e">• 每日逐項確認清單</text>
   <text x="434" y="380" font-size="14" fill="#57534e">• 文件整理與分類</text>
   <text x="434" y="400" font-size="14" fill="#57534e">• 人員分工與接待準備</text>

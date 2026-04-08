@@ -16,8 +16,8 @@
   <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" >B13 跌倒 + B14 壓力性損傷</text>
   <text x="108" y="182" font-size="16" fill="#57534e" >訂定預防評估措施與處理流程，逐案分析，每季統計分析並提出改善方案</text>
   <rect x="620" y="143" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">高風險監測</text>
-  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" >每季改善</text>
+  <text x="688" y="157" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">高風險監測</text>
+  <text x="688" y="176" font-size="14" fill="#d97706" text-anchor="middle" >每季改善</text>
 
   <!-- 列 2：疼痛 + 約束 -->
   <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
@@ -27,8 +27,8 @@
   <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" >B15 疼痛偵測 + B16 約束管理</text>
   <text x="108" y="257" font-size="16" fill="#57534e" >疼痛含時間/位置/嚴重度評估；約束前須有醫師診斷、家屬同意書（3 個月有效）</text>
   <rect x="620" y="218" width="136" height="46" rx="8" fill="#dcfce7" opacity="0.12"/>
-  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">知情同意</text>
-  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" >無不當約束</text>
+  <text x="688" y="232" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">知情同意</text>
+  <text x="688" y="251" font-size="14" fill="#16a34a" text-anchor="middle" >無不當約束</text>
 
   <!-- 列 3：感染 + 非計畫住院 -->
   <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
@@ -38,8 +38,8 @@
   <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" >B17 感染監測 + B18 非計畫性住院</text>
   <text x="108" y="332" font-size="16" fill="#57534e" >感染含疥瘡、呼吸道、腸道等；非計畫住院逐案分析，每季追蹤改善</text>
   <rect x="620" y="293" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">逐案分析</text>
-  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" >紀錄完整</text>
+  <text x="688" y="307" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">逐案分析</text>
+  <text x="688" y="326" font-size="14" fill="#78716c" text-anchor="middle" >紀錄完整</text>
 
   <!-- 列 4：體重改變 -->
   <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
@@ -49,8 +49,8 @@
   <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" >B19 非計畫性體重改變監測</text>
   <text x="108" y="407" font-size="16" fill="#57534e" >30 天內體重改變 ±5% 視為異常，每月量測 1 次，異常逐案分析每季改善</text>
   <rect x="620" y="368" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">每月量測</text>
-  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" >±5% 警戒</text>
+  <text x="688" y="382" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">每月量測</text>
+  <text x="688" y="401" font-size="14" fill="#57534e" text-anchor="middle" >±5% 警戒</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

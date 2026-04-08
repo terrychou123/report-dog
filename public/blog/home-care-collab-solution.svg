@@ -15,7 +15,7 @@
   <text x="100" y="188"  font-size="22" font-weight="700" fill="#1e293b">標籤任務分配</text>
   <text x="100" y="208"  font-size="16" fill="#57534e">依評鑑構面建立標籤，成員各自負責</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185"  font-size="16" text-anchor="middle" fill="#d97706">任務清晰</text>
+  <text x="688" y="197"  font-size="16" text-anchor="middle" fill="#d97706">任務清晰</text>
   <text x="688" y="205"  font-size="16" text-anchor="middle" fill="#d97706">報告汪功能</text>
 
   <!-- Row 2: 版本自動管理 -->
@@ -26,7 +26,7 @@
   <text x="100" y="263"  font-size="22" font-weight="700" fill="#1e293b">版本自動管理</text>
   <text x="100" y="283"  font-size="16" fill="#57534e">每次修改自動存檔，可查看歷史版本</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260"  font-size="16" text-anchor="middle" fill="#78716c">不怕衝突</text>
+  <text x="688" y="272"  font-size="16" text-anchor="middle" fill="#78716c">不怕衝突</text>
   <text x="688" y="280"  font-size="16" text-anchor="middle" fill="#78716c">報告汪功能</text>
 
   <!-- Row 3: 評鑑進度追蹤 -->
@@ -37,7 +37,7 @@
   <text x="100" y="338"  font-size="22" font-weight="700" fill="#1e293b">評鑑進度追蹤</text>
   <text x="100" y="358"  font-size="16" fill="#57534e">定期追蹤功能，掌握各項準備狀況</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335"  font-size="16" text-anchor="middle" fill="#57534e">進度可視</text>
+  <text x="688" y="347"  font-size="16" text-anchor="middle" fill="#57534e">進度可視</text>
   <text x="688" y="355"  font-size="16" text-anchor="middle" fill="#57534e">報告汪功能</text>
 
   <!-- Row 4: AI缺失查核 -->
@@ -48,7 +48,7 @@
   <text x="100" y="413"  font-size="22" font-weight="700" fill="#1e293b">AI缺失查核</text>
   <text x="100" y="433"  font-size="16" fill="#57534e">AI自動比對評鑑基準，找出準備缺口</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410"  font-size="16" text-anchor="middle" fill="#a8a29e">智能提醒</text>
+  <text x="688" y="422"  font-size="16" text-anchor="middle" fill="#a8a29e">智能提醒</text>
   <text x="688" y="430"  font-size="16" text-anchor="middle" fill="#a8a29e">報告汪功能</text>
 
   <!-- 浮水印 -->

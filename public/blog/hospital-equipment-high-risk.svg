@@ -18,8 +18,8 @@
   <rect x="30" y="100" width="100" height="88" rx="10" fill="#d97706" />
   <!-- 蓋住右圓角 -->
   <rect x="100" y="100" width="30" height="88" fill="#d97706" />
-  <text x="80" y="138" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
-  <text x="80" y="158" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">01</text>
+  <text x="80" y="132" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="152" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">01</text>
   <text x="145" y="130" font-size="15" font-weight="700" fill="#1c1917">取出設備</text>
   <text x="145" y="152" font-size="12" fill="#57534e">從指定位置取出設備，確認設備外觀無破損、電源線完整</text>
   <rect x="590" y="122" width="90" height="26" rx="13" fill="#fef3c7" />
@@ -29,8 +29,8 @@
   <rect x="30" y="200" width="740" height="88" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2" />
   <rect x="30" y="200" width="100" height="88" rx="10" fill="#78716c" />
   <rect x="100" y="200" width="30" height="88" fill="#78716c" />
-  <text x="80" y="238" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
-  <text x="80" y="258" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">02</text>
+  <text x="80" y="232" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="252" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">02</text>
   <text x="145" y="230" font-size="15" font-weight="700" fill="#1c1917">功能自我測試</text>
   <text x="145" y="252" font-size="12" fill="#57534e">開機執行設備自我測試，確認警報功能、壓力/電力輸出正常</text>
   <rect x="590" y="222" width="90" height="26" rx="13" fill="#f5f5f4" />
@@ -40,8 +40,8 @@
   <rect x="30" y="300" width="740" height="88" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2" />
   <rect x="30" y="300" width="100" height="88" rx="10" fill="#57534e" />
   <rect x="100" y="300" width="30" height="88" fill="#57534e" />
-  <text x="80" y="338" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
-  <text x="80" y="358" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">03</text>
+  <text x="80" y="332" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="352" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">03</text>
   <text x="145" y="330" font-size="15" font-weight="700" fill="#1c1917">填寫查核表</text>
   <text x="145" y="352" font-size="12" fill="#57534e">完成使用前安全查核清單，簽名確認，記錄使用日期與使用人員</text>
   <rect x="590" y="322" width="90" height="26" rx="13" fill="#f5f5f4" />
@@ -51,8 +51,8 @@
   <rect x="30" y="400" width="740" height="72" rx="10" fill="#ffffff" stroke="#a8a29e" stroke-width="2" />
   <rect x="30" y="400" width="100" height="72" rx="10" fill="#a8a29e" />
   <rect x="100" y="400" width="30" height="72" fill="#a8a29e" />
-  <text x="80" y="428" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
-  <text x="80" y="448" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">04</text>
+  <text x="80" y="424" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">STEP</text>
+  <text x="80" y="444" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">04</text>
   <text x="145" y="425" font-size="15" font-weight="700" fill="#1c1917">異常通報</text>
   <text x="145" y="447" font-size="12" fill="#57534e">發現設備異常立即通報維修，貼上「停用待修」標示，調度備用設備</text>
   <rect x="590" y="418" width="90" height="26" rx="13" fill="#f5f5f4" />

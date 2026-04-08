@@ -16,16 +16,16 @@
 
   <!-- 右側3個卡片 -->
   <rect x="845" y="355" width="310" height="58" rx="10" fill="#ffffff" opacity="0.85"/>
-  <text x="865" y="378"  font-size="13" fill="#d97706" font-weight="700">護病比計算</text>
-  <text x="865" y="400"  font-size="13" fill="#57534e">各班次分別計算，白班/夜班合規</text>
+  <text x="865" y="373"  font-size="13" fill="#d97706" font-weight="700">護病比計算</text>
+  <text x="865" y="395"  font-size="13" fill="#57534e">各班次分別計算，白班/夜班合規</text>
 
   <rect x="845" y="423" width="310" height="58" rx="10" fill="#ffffff" opacity="0.85"/>
-  <text x="865" y="446"  font-size="13" fill="#2563eb" font-weight="700">執照管理</text>
-  <text x="865" y="468"  font-size="13" fill="#57534e">效期追蹤，預警提醒，及時換照</text>
+  <text x="865" y="441"  font-size="13" fill="#2563eb" font-weight="700">執照管理</text>
+  <text x="865" y="463"  font-size="13" fill="#57534e">效期追蹤，預警提醒，及時換照</text>
 
   <rect x="845" y="491" width="310" height="58" rx="10" fill="#ffffff" opacity="0.85"/>
-  <text x="865" y="514"  font-size="13" fill="#16a34a" font-weight="700">人力排班</text>
-  <text x="865" y="536"  font-size="13" fill="#57534e">夜班值班制度，緊急補足機制</text>
+  <text x="865" y="509"  font-size="13" fill="#16a34a" font-weight="700">人力排班</text>
+  <text x="865" y="531"  font-size="13" fill="#57534e">夜班值班制度，緊急補足機制</text>
 
   <!-- 左側主標題 -->
   <text x="60" y="130"  font-size="58" font-weight="900" fill="#1c1917">醫院人力配置</text>

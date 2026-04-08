@@ -8,8 +8,8 @@
   <rect x="40" y="112" width="220" height="300" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
   <rect x="40" y="112" width="220" height="50" rx="12" fill="#d97706"/>
   <rect x="40" y="138" width="220" height="24" fill="#d97706"/>
-  <text x="150" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第一個月</text>
-  <text x="150" y="162" font-size="14" fill="#fef9c3" text-anchor="middle">D-90 至 D-60</text>
+  <text x="150" y="129" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第一個月</text>
+  <text x="150" y="147" font-size="14" fill="#fef9c3" text-anchor="middle">D-90 至 D-60</text>
   <text x="56" y="192" font-size="14" fill="#57534e" font-weight="600">全面盤點</text>
   <text x="56" y="214" font-size="14" fill="#57534e">逐項確認文件現況</text>
   <text x="56" y="234" font-size="14" fill="#57534e">找出完整度缺口</text>
@@ -28,8 +28,8 @@
   <rect x="296" y="112" width="220" height="300" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
   <rect x="296" y="112" width="220" height="50" rx="12" fill="#16a34a"/>
   <rect x="296" y="138" width="220" height="24" fill="#16a34a"/>
-  <text x="406" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
-  <text x="406" y="162" font-size="14" fill="#bbf7d0" text-anchor="middle">D-60 至 D-30</text>
+  <text x="406" y="129" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
+  <text x="406" y="147" font-size="14" fill="#bbf7d0" text-anchor="middle">D-60 至 D-30</text>
   <text x="312" y="192" font-size="14" fill="#57534e" font-weight="600">核心補強</text>
   <text x="312" y="214" font-size="14" fill="#57534e">B 區照護計畫補強</text>
   <text x="312" y="234" font-size="14" fill="#57534e">A 區行政記錄更新</text>
@@ -45,8 +45,8 @@
   <rect x="552" y="112" width="208" height="300" rx="12" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
   <rect x="552" y="112" width="208" height="50" rx="12" fill="#57534e"/>
   <rect x="552" y="138" width="208" height="24" fill="#57534e"/>
-  <text x="656" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第三個月</text>
-  <text x="656" y="162" font-size="14" fill="#e2e8f0" text-anchor="middle">D-30 至評鑑日</text>
+  <text x="656" y="129" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第三個月</text>
+  <text x="656" y="147" font-size="14" fill="#e2e8f0" text-anchor="middle">D-30 至評鑑日</text>
   <text x="568" y="192" font-size="14" fill="#57534e" font-weight="600">衝刺查核</text>
   <text x="568" y="214" font-size="14" fill="#57534e">C4 情境演練各班次</text>
   <text x="568" y="234" font-size="14" fill="#57534e">文件整理分類裝訂</text>

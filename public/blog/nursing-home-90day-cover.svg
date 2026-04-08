@@ -15,14 +15,14 @@
   <text x="80" y="342" font-size="22" fill="#57534e">按月分配任務，對應 75 項評鑑基準</text>
   <!-- 三階段標籤 -->
   <rect x="80" y="390" width="200" height="56" rx="8" fill="#d97706"/>
-  <text x="180" y="424" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">第1個月</text>
-  <text x="180" y="444" font-size="16" fill="#ffffff" text-anchor="middle">D-90~D-60</text>
+  <text x="180" y="409" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">第1個月</text>
+  <text x="180" y="429" font-size="16" fill="#ffffff" text-anchor="middle">D-90~D-60</text>
   <rect x="300" y="390" width="200" height="56" rx="8" fill="#78716c"/>
-  <text x="400" y="424" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">第2個月</text>
-  <text x="400" y="444" font-size="16" fill="#ffffff" text-anchor="middle">D-60~D-30</text>
+  <text x="400" y="409" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">第2個月</text>
+  <text x="400" y="429" font-size="16" fill="#ffffff" text-anchor="middle">D-60~D-30</text>
   <rect x="520" y="390" width="200" height="56" rx="8" fill="#57534e"/>
-  <text x="620" y="424" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">最後一個月</text>
-  <text x="620" y="444" font-size="16" fill="#ffffff" text-anchor="middle">D-30~評鑑日</text>
+  <text x="620" y="409" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">最後一個月</text>
+  <text x="620" y="429" font-size="16" fill="#ffffff" text-anchor="middle">D-30~評鑑日</text>
   <!-- 分類標籤 -->
   <rect x="80" y="490" width="100" height="32" rx="16" fill="#fef3c7"/>
   <text x="130" y="511" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">評鑑準備</text>

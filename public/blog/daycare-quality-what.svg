@@ -14,7 +14,7 @@
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
   <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="68" cy="126" r="3" fill="white"/>
-  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">品管指標是什麼</text>
+  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">品管指標是什麼</text>
   <text x="60" y="172" font-size="14" fill="#57534e">• 選定可量化的照護品質項目</text>
   <text x="60" y="192" font-size="14" fill="#57534e">• 每月蒐集、統計、分析數據</text>
   <text x="60" y="212" font-size="14" fill="#57534e">• 從數字找出照護改善方向</text>
@@ -28,7 +28,7 @@
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
   <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
-  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">為何要監測指標</text>
+  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">為何要監測指標</text>
   <text x="434" y="172" font-size="14" fill="#57534e">• 讓服務品質可被客觀衡量</text>
   <text x="434" y="192" font-size="14" fill="#57534e">• 發現異常即啟動改善流程</text>
   <text x="434" y="212" font-size="14" fill="#57534e">• 向委員展示持續改善的意願</text>
@@ -42,7 +42,7 @@
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
   <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
   <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
-  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">委員如何查核</text>
+  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">委員如何查核</text>
   <text x="60" y="356" font-size="14" fill="#57534e">• 現場抽查品管指標追蹤表</text>
   <text x="60" y="376" font-size="14" fill="#57534e">• 詢問個案異常如何處理</text>
   <text x="60" y="396" font-size="14" fill="#57534e">• 查看改善方案是否已落實</text>
@@ -57,7 +57,7 @@
   <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
-  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">如何選擇指標</text>
+  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">如何選擇指標</text>
   <text x="434" y="356" font-size="14" fill="#57534e">• 優先選跌倒、壓瘡等高風險項</text>
   <text x="434" y="376" font-size="14" fill="#57534e">• 需訂有目標值（如跌倒 &lt; 2 件）</text>
   <text x="434" y="396" font-size="14" fill="#57534e">• 搭配第 22 條自訂至少 2 項</text>

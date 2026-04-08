@@ -6,7 +6,7 @@
 <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="40" y="104" width="346" height="40" rx="12" fill="#d97706"/>
 <rect x="40" y="124" width="346" height="20" fill="#d97706"/>
-<text x="213" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">標籤分類管理</text>
+<text x="213" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">標籤分類管理</text>
 <text x="56" y="166" font-size="15" fill="#57534e">• 依評鑑四大章節建立標籤</text>
 <text x="56" y="190" font-size="15" fill="#57534e">• 文件自動分類對應條文</text>
 <text x="56" y="214" font-size="15" fill="#57534e">• 快速找到所需備審文件</text>
@@ -15,7 +15,7 @@
 <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="414" y="104" width="346" height="40" rx="12" fill="#78716c"/>
 <rect x="414" y="124" width="346" height="20" fill="#78716c"/>
-<text x="587" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">職類權限設定</text>
+<text x="587" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">職類權限設定</text>
 <text x="430" y="166" font-size="15" fill="#57534e">• 社工師/護理師/行政各自登入</text>
 <text x="430" y="190" font-size="15" fill="#57534e">• 只看到自己負責的條文</text>
 <text x="430" y="214" font-size="15" fill="#57534e">• 避免誤改他人文件</text>
@@ -24,7 +24,7 @@
 <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="40" y="288" width="346" height="40" rx="12" fill="#57534e"/>
 <rect x="40" y="308" width="346" height="20" fill="#57534e"/>
-<text x="213" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">進度即時掌握</text>
+<text x="213" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">進度即時掌握</text>
 <text x="56" y="350" font-size="15" fill="#57534e">• 主任一眼看到整體進度</text>
 <text x="56" y="374" font-size="15" fill="#57534e">• 哪些條文已完成/待補</text>
 <text x="56" y="398" font-size="15" fill="#57534e">• 不用逐一詢問各職類</text>
@@ -33,7 +33,7 @@
 <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="414" y="288" width="346" height="40" rx="12" fill="#a8a29e"/>
 <rect x="414" y="308" width="346" height="20" fill="#a8a29e"/>
-<text x="587" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">共用文件模板</text>
+<text x="587" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">共用文件模板</text>
 <text x="430" y="350" font-size="15" fill="#57534e">• 提供標準照顧計畫模板</text>
 <text x="430" y="374" font-size="15" fill="#57534e">• 會議記錄、評值表格</text>
 <text x="430" y="398" font-size="15" fill="#57534e">• 減少從零開始撰寫時間</text>

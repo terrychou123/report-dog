@@ -9,7 +9,7 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">C9 消防安全設備</text>
+  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">C9 消防安全設備</text>
   <text x="60" y="176" font-size="14" fill="#57534e">• 每半年委消防設備師檢修申報</text>
   <text x="60" y="196" font-size="14" fill="#57534e">• 每月自主用電安全檢查（書面）</text>
   <text x="60" y="216" font-size="14" fill="#57534e">• 防火管理人不得由社工/醫事/</text>
@@ -22,7 +22,7 @@
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="587" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">C10/C12 疏散路徑與避難圖</text>
+  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">C10/C12 疏散路徑與避難圖</text>
   <text x="434" y="176" font-size="14" fill="#57534e">• 雙向疏散路徑（走道暢通）</text>
   <text x="434" y="196" font-size="14" fill="#57534e">• 防火門往避難方向開啟</text>
   <text x="434" y="216" font-size="14" fill="#57534e">• 各樓層出入口 A3 以上避難圖</text>
@@ -34,7 +34,7 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="213" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">C11 緊急應變演練（EOP）</text>
+  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">C11 緊急應變演練（EOP）</text>
   <text x="60" y="358" font-size="14" fill="#57534e">• 每年至少 2 次演練</text>
   <text x="60" y="378" font-size="14" fill="#57534e">• 含 1 次複合型災害演練</text>
   <text x="60" y="398" font-size="14" fill="#57534e">• 含 1 次夜間演練</text>
@@ -46,7 +46,7 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#94a3b8"/>
   <rect x="414" y="312" width="346" height="20" fill="#94a3b8"/>
-  <text x="587" y="317" text-anchor="middle" font-size="15" fill="white" font-weight="700">C15 護理站急救設備</text>
+  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">C15 護理站急救設備</text>
   <text x="434" y="358" font-size="14" fill="#57534e">• 每層樓均設置護理站</text>
   <text x="434" y="378" font-size="14" fill="#57534e">• 備有基本急救設備（AED 等）</text>
   <text x="434" y="398" font-size="14" fill="#57534e">• 設備在效期內</text>

@@ -8,7 +8,7 @@
   <rect x="40" y="112" width="350" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
   <rect x="40" y="112" width="350" height="36" rx="8" fill="#dc2626"/>
   <rect x="40" y="128" width="350" height="20" fill="#dc2626"/>
-  <text x="215" y="134" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題1：負責人查看記錄內容空洞</text>
+  <text x="215" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題1：負責人查看記錄內容空洞</text>
   <text x="56" y="164" font-size="14" fill="#57534e">❌ 只寫「督導機構」→ ✅ 寫「查看 B 棟 302 房，發現護欄未固定</text>
   <text x="56" y="184" font-size="14" fill="#57534e">   已交代護理師 4/3 前完成調整，4/5 追蹤確認」</text>
 
@@ -16,7 +16,7 @@
   <rect x="40" y="218" width="350" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
   <rect x="40" y="218" width="350" height="36" rx="8" fill="#dc2626"/>
   <rect x="40" y="234" width="350" height="20" fill="#dc2626"/>
-  <text x="215" y="240" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題2：急救訓練記錄未標示AED</text>
+  <text x="215" y="250" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題2：急救訓練記錄未標示AED</text>
   <text x="56" y="270" font-size="14" fill="#57534e">❌ 結業證書只寫「急救訓練 8 小時」</text>
   <text x="56" y="290" font-size="14" fill="#57534e">✅ 確認記錄上明確標示「含 BLS 及 AED 操作實習」</text>
 
@@ -24,7 +24,7 @@
   <rect x="40" y="324" width="350" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
   <rect x="40" y="324" width="350" height="36" rx="8" fill="#dc2626"/>
   <rect x="40" y="340" width="350" height="20" fill="#dc2626"/>
-  <text x="215" y="346" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題3：意外事件無追蹤改善措施</text>
+  <text x="215" y="356" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題3：意外事件無追蹤改善措施</text>
   <text x="56" y="376" font-size="14" fill="#57534e">❌ 事件記錄末欄：「持續觀察中」</text>
   <text x="56" y="396" font-size="14" fill="#57534e">✅ 填入：「調整床墊高度、新增床側防跌墊、夜間</text>
   <text x="56" y="414" font-size="14" fill="#57534e">   加強巡視頻率（每2hr），4/10 追蹤無再發生」</text>
@@ -33,7 +33,7 @@
   <rect x="412" y="112" width="348" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
   <rect x="412" y="112" width="348" height="36" rx="8" fill="#d97706"/>
   <rect x="412" y="128" width="348" height="20" fill="#d97706"/>
-  <text x="586" y="134" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題4：品質季報只有數字表格</text>
+  <text x="586" y="144" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題4：品質季報只有數字表格</text>
   <text x="428" y="164" font-size="14" fill="#57534e">❌ 季報：「Q1 跌倒率：2.3%，Q2：3.1%」（無說明）</text>
   <text x="428" y="184" font-size="14" fill="#57534e">✅ 加入：「Q2 跌倒率上升，因新收3位高風險住民</text>
   <text x="428" y="200" font-size="14" fill="#57534e">   已加強跌倒評估頻率，預計Q3回降」</text>
@@ -42,7 +42,7 @@
   <rect x="412" y="218" width="348" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
   <rect x="412" y="218" width="348" height="36" rx="8" fill="#d97706"/>
   <rect x="412" y="234" width="348" height="20" fill="#d97706"/>
-  <text x="586" y="240" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題5：感控計畫版本日期過舊</text>
+  <text x="586" y="250" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題5：感控計畫版本日期過舊</text>
   <text x="428" y="270" font-size="14" fill="#57534e">❌ 感控計畫封面日期：「108 年 3 月」</text>
   <text x="428" y="290" font-size="14" fill="#57534e">✅ 每年加上「年度審閱記錄」頁：「115年3月審閱，</text>
   <text x="428" y="306" font-size="14" fill="#57534e">   第3節依最新感控建議更新，其餘內容維持適用」</text>

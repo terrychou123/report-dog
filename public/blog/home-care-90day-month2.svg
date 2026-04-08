@@ -15,8 +15,8 @@
   <text x="100" y="145"  font-size="22" font-weight="700" fill="#1e293b">個別計畫更新</text>
   <text x="100" y="165"  font-size="16" fill="#57534e">逐一更新超過6個月的服務計畫</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="143"  font-size="16" text-anchor="middle" fill="#d97706">項目6</text>
-  <text x="688" y="162"  font-size="16" text-anchor="middle" fill="#d97706">第5-8週</text>
+  <text x="688" y="139"  font-size="16" text-anchor="middle" fill="#d97706">項目6</text>
+  <text x="688" y="158"  font-size="16" text-anchor="middle" fill="#d97706">第5-8週</text>
 
   <!-- Row 2: y=191, 滿意度調查 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218"  font-size="22" font-weight="700" fill="#1e293b">滿意度調查</text>
   <text x="100" y="238"  font-size="16" fill="#57534e">設計並執行年度個案滿意度調查</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="216"  font-size="16" text-anchor="middle" fill="#78716c">項目28</text>
-  <text x="688" y="235"  font-size="16" text-anchor="middle" fill="#78716c">第5-8週</text>
+  <text x="688" y="212"  font-size="16" text-anchor="middle" fill="#78716c">項目28</text>
+  <text x="688" y="231"  font-size="16" text-anchor="middle" fill="#78716c">第5-8週</text>
 
   <!-- Row 3: y=264, 機構自評啟動 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291"  font-size="22" font-weight="700" fill="#1e293b">機構自評啟動</text>
   <text x="100" y="311"  font-size="16" fill="#57534e">開始填寫機構自我評鑑表格</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="289"  font-size="16" text-anchor="middle" fill="#57534e">項目30</text>
-  <text x="688" y="308"  font-size="16" text-anchor="middle" fill="#57534e">第5-8週</text>
+  <text x="688" y="285"  font-size="16" text-anchor="middle" fill="#57534e">項目30</text>
+  <text x="688" y="304"  font-size="16" text-anchor="middle" fill="#57534e">第5-8週</text>
 
   <!-- Row 4: y=337, 督導紀錄補齊 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364"  font-size="22" font-weight="700" fill="#1e293b">督導紀錄補齊</text>
   <text x="100" y="384"  font-size="16" fill="#57534e">確認訪視紀錄完整、頻率達標</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="362"  font-size="16" text-anchor="middle" fill="#a8a29e">項目12</text>
-  <text x="688" y="381"  font-size="16" text-anchor="middle" fill="#a8a29e">第5-8週</text>
+  <text x="688" y="358"  font-size="16" text-anchor="middle" fill="#a8a29e">項目12</text>
+  <text x="688" y="377"  font-size="16" text-anchor="middle" fill="#a8a29e">第5-8週</text>
 
   <!-- Row 5: y=410, 申訴機制確認 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437"  font-size="22" font-weight="700" fill="#1e293b">申訴機制確認</text>
   <text x="100" y="457"  font-size="16" fill="#57534e">確認申訴流程已建立並告知個案</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="435"  font-size="16" text-anchor="middle" fill="#94a3b8">項目4</text>
-  <text x="688" y="454"  font-size="16" text-anchor="middle" fill="#94a3b8">第5-8週</text>
+  <text x="688" y="431"  font-size="16" text-anchor="middle" fill="#94a3b8">項目4</text>
+  <text x="688" y="450"  font-size="16" text-anchor="middle" fill="#94a3b8">第5-8週</text>
 
   <!-- 浮水印 -->
   <text x="760" y="492"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

@@ -22,9 +22,9 @@
 <line x1="60" y1="416" x2="780" y2="416" stroke="#dedad3" stroke-width="2"/>
 <text x="60" y="462" font-size="36" fill="#57534e" font-weight="400">評鑑通知下來了，機構主任卻不知道從哪裡開始？本文提供完整的 </text>
 <rect x="60" y="516" width="216" height="50" rx="10" fill="#fef3c7"/>
-<text x="168" y="548" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">老人福利機構評鑑</text>
+<text x="168" y="536" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">老人福利機構評鑑</text>
 <rect x="290" y="516" width="144" height="50" rx="10" fill="#f5f5f4"/>
 <text x="362" y="548" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">90天倒數</text>
-<text x="60" y="558" font-size="26" fill="#94a3b8">適用：老人福利機構評鑑準備團隊</text>
+<text x="60" y="546" font-size="26" fill="#94a3b8">適用：老人福利機構評鑑準備團隊</text>
 <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

@@ -15,8 +15,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700" >格式不完整</text>
   <text x="100" y="208" font-size="16" fill="#57534e" >缺少日期、時間或服務項目欄位</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >項目13</text>
-  <text x="688" y="205" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >評委必查</text>
+  <text x="688" y="181" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >項目13</text>
+  <text x="688" y="201" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >評委必查</text>
 
   <!-- Row 2 (#78716c) y=235 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700" >未親筆簽名</text>
   <text x="100" y="283" font-size="16" fill="#57534e" >照服員服務後未簽名確認</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >簽名規定</text>
-  <text x="688" y="280" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >不可省略</text>
+  <text x="688" y="256" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >簽名規定</text>
+  <text x="688" y="276" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >不可省略</text>
 
   <!-- Row 3 (#57534e) y=310 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700" >異常未記錄</text>
   <text x="100" y="358" font-size="16" fill="#57534e" >個案身體異常未立即記載回報</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >異常事件</text>
-  <text x="688" y="355" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >重大缺失</text>
+  <text x="688" y="331" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >異常事件</text>
+  <text x="688" y="351" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >重大缺失</text>
 
   <!-- Row 4 (#a8a29e) y=385 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700" >保存不當</text>
   <text x="100" y="433" font-size="16" fill="#57534e" >紀錄遺失或未依法定期限保存</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >保存期限</text>
-  <text x="688" y="430" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >法規規定</text>
+  <text x="688" y="406" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >保存期限</text>
+  <text x="688" y="426" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >法規規定</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>

@@ -18,8 +18,8 @@
   <text x="100" y="234" font-size="16" fill="#57534e">服務費率、服務項目須公開揭示</text>
   <!-- S rect: y=row_y+19=185, h=52 -->
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="206" font-size="16" fill="#d97706" text-anchor="middle">項目1</text>
-  <text x="688" y="226" font-size="16" fill="#d97706" text-anchor="middle">主管負責</text>
+  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">項目1</text>
+  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">主管負責</text>
 
   <!-- Row 2 (y=269) stone #78716c -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -31,8 +31,8 @@
   <text x="100" y="313" font-size="22" fill="#1e293b" font-weight="700">基本權益維護</text>
   <text x="100" y="337" font-size="16" fill="#57534e">個案尊嚴、自主選擇服務的權利</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="309" font-size="16" fill="#78716c" text-anchor="middle">項目2</text>
-  <text x="688" y="329" font-size="16" fill="#78716c" text-anchor="middle">社工負責</text>
+  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">項目2</text>
+  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">社工負責</text>
 
   <!-- Row 3 (y=372) stone #57534e -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -44,8 +44,8 @@
   <text x="100" y="416" font-size="22" fill="#1e293b" font-weight="700">隱私保護</text>
   <text x="100" y="440" font-size="16" fill="#57534e">個案資料保密、不得洩露個資</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="412" font-size="16" fill="#57534e" text-anchor="middle">項目3</text>
-  <text x="688" y="432" font-size="16" fill="#57534e" text-anchor="middle">全體落實</text>
+  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">項目3</text>
+  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">全體落實</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
