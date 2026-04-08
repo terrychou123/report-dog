@@ -17,7 +17,8 @@
     "generate:psychiatric-rehabilitation-institution-checklist": "tsx scripts/generate-psychiatric-rehabilitation-institution-checklist.ts",
     "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts",
     "generate:carousel": "tsx scripts/generate-carousel.ts",
-    "extract:keypoints": "tsx scripts/extract-article-keypoints.ts"
+    "extract:keypoints": "tsx scripts/extract-article-keypoints.ts",
+    "svg:validate": "tsx scripts/validate-svg.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

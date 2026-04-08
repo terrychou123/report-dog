@@ -1,46 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 Header y=38, h=90 -->
   <rect x="40" y="38" width="720" height="90" rx="10" fill="#1e293b"/>
-  <text x="400" y="90" font-size="26" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">如何使用三色燈自評系統</text>
-  <text x="400" y="118" font-size="16" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">評估每項指標的符合程度，快速定位改善優先順序</text>
+  <text x="400" y="90" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">如何使用三色燈自評系統</text>
+  <text x="400" y="118" font-size="16" fill="#a8a29e" text-anchor="middle">評估每項指標的符合程度，快速定位改善優先順序</text>
 
   <!-- N=3 版型：H=90, inner_gap=13, outer_gap=38 -->
   <!-- Row1 y=166 -->
-  <rect x="40" y="166" width="720" height="90" rx="8" fill="#ffffff"/>
-  <rect x="40" y="166" width="6" height="90" rx="3" fill="#16a34a"/>
-  <!-- 綠燈圓圈 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#16a34a"/>
+  <!-- 綠燈雙圈設計（保留） -->
   <circle cx="83" cy="211" r="20" fill="#dcfce7"/>
   <circle cx="83" cy="211" r="12" fill="#16a34a"/>
-  <text x="116" y="203" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">綠燈｜符合</text>
-  <text x="116" y="226" font-size="16" fill="#57534e" font-family="sans-serif">文件齊備、執行有紀錄，可隨時應評。維持現況即可，無需額外行動。</text>
-  <rect x="622" y="178" width="126" height="46" rx="8" fill="#dcfce7"/>
-  <text x="685" y="207" font-size="16" font-weight="700" fill="#16a34a" font-family="sans-serif" text-anchor="middle">維持現況</text>
+  <text x="116" y="209" font-size="22" font-weight="700" fill="#1e293b">綠燈｜符合</text>
+  <text x="116" y="230" font-size="16" fill="#57534e">文件齊備、執行有紀錄，可隨時應評。維持現況即可，無需額外行動。</text>
+  <rect x="622" y="185" width="136" height="52" rx="8" fill="#16a34a" opacity="0.12"/>
+  <text x="690" y="218" font-size="16" fill="#16a34a" text-anchor="middle">維持現況</text>
 
   <!-- Row2 y=269 -->
-  <rect x="40" y="269" width="720" height="90" rx="8" fill="#ffffff"/>
-  <rect x="40" y="269" width="6" height="90" rx="3" fill="#d97706"/>
-  <!-- 黃燈圓圈 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#d97706"/>
+  <!-- 黃燈雙圈設計（保留） -->
   <circle cx="83" cy="314" r="20" fill="#fef3c7"/>
   <circle cx="83" cy="314" r="12" fill="#d97706"/>
-  <text x="116" y="306" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">黃燈｜待補強</text>
-  <text x="116" y="329" font-size="16" fill="#57534e" font-family="sans-serif">制度存在但有執行缺口，或紀錄不完整。評鑑前 60 天完成改善。</text>
-  <rect x="622" y="281" width="126" height="46" rx="8" fill="#fef3c7"/>
-  <text x="685" y="310" font-size="16" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">60天補強</text>
+  <text x="116" y="312" font-size="22" font-weight="700" fill="#1e293b">黃燈｜待補強</text>
+  <text x="116" y="333" font-size="16" fill="#57534e">制度存在但有執行缺口，或紀錄不完整。評鑑前 60 天完成改善。</text>
+  <rect x="622" y="288" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="690" y="321" font-size="16" fill="#d97706" text-anchor="middle">60天補強</text>
 
   <!-- Row3 y=372 -->
-  <rect x="40" y="372" width="720" height="90" rx="8" fill="#ffffff"/>
-  <rect x="40" y="372" width="6" height="90" rx="3" fill="#dc2626"/>
-  <!-- 紅燈圓圈 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#dc2626"/>
+  <!-- 紅燈雙圈設計（保留） -->
   <circle cx="83" cy="417" r="20" fill="#fee2e2"/>
   <circle cx="83" cy="417" r="12" fill="#dc2626"/>
-  <text x="116" y="409" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">紅燈｜不符合</text>
-  <text x="116" y="432" font-size="16" fill="#57534e" font-family="sans-serif">尚未建立制度，或屬一級必要指標未達標。須立即啟動改善行動。</text>
-  <rect x="622" y="384" width="126" height="46" rx="8" fill="#fee2e2"/>
-  <text x="685" y="413" font-size="16" font-weight="700" fill="#dc2626" font-family="sans-serif" text-anchor="middle">立即改善</text>
+  <text x="116" y="415" font-size="22" font-weight="700" fill="#1e293b">紅燈｜不符合</text>
+  <text x="116" y="436" font-size="16" fill="#57534e">尚未建立制度，或屬一級必要指標未達標。須立即啟動改善行動。</text>
+  <rect x="622" y="391" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="690" y="424" font-size="16" fill="#dc2626" text-anchor="middle">立即改善</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

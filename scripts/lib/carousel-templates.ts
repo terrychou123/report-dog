@@ -36,6 +36,16 @@ function truncate(text: string, max = 28): string {
   return text.length > max ? text.slice(0, max) + "…" : text;
 }
 
+/** XML 安全字元轉義（防止 SVG 因文章內容含 &、<、> 等字元而失效） */
+function esc(text: string): string {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 // ─── 共用元件 ────────────────────────────────────────────────────────────────
 
 /** 浮水印（右下角） */
@@ -55,11 +65,11 @@ function svgWrap(content: string): string {
 /** 置中標題 + 分隔線（取代舊的 sectionHeader 色條） */
 function slideTitle(title: string, subtitle?: string): string {
   const subSvg = subtitle
-    ? `<text x="540" y="80" font-size="30" fill="${C.content}" text-anchor="middle">${subtitle}</text>`
+    ? `<text x="540" y="80" font-size="30" fill="${C.content}" text-anchor="middle">${esc(subtitle)}</text>`
     : "";
   const divY = subtitle ? 100 : 72;
   return `
-  <text x="540" y="52" font-size="56" font-weight="700" fill="${C.title}" text-anchor="middle">${title}</text>
+  <text x="540" y="52" font-size="56" font-weight="700" fill="${C.title}" text-anchor="middle">${esc(title)}</text>
   ${subSvg}
   <line x1="60" y1="${divY}" x2="1020" y2="${divY}" stroke="${C.divider}" stroke-width="1"/>`;
 }
@@ -87,26 +97,26 @@ export function renderCoverSlide(data: CarouselArticleData): string {
     const color = STEP_COLORS[i].main;
     return `
     <rect x="${60 + i * 200}" y="620" width="180" height="52" rx="26" fill="${color}" opacity="0.13"/>
-    <text x="${60 + i * 200 + 90}" y="653" font-size="28" fill="${color}" text-anchor="middle" font-weight="600">${tag}</text>`;
+    <text x="${60 + i * 200 + 90}" y="653" font-size="28" fill="${color}" text-anchor="middle" font-weight="600">${esc(tag)}</text>`;
   }).join("\n");
 
   return svgWrap(`
   <!-- 分類 pill -->
   <rect x="60" y="60" width="160" height="52" rx="26" fill="${C.primary}" opacity="0.13"/>
-  <text x="140" y="93" font-size="28" fill="${C.primary}" text-anchor="middle" font-weight="700">${data.category}</text>
+  <text x="140" y="93" font-size="28" fill="${C.primary}" text-anchor="middle" font-weight="700">${esc(data.category)}</text>
 
   <!-- 主標題：行1 深色、行2 琥珀 -->
-  <text x="60" y="240" font-size="100" font-weight="900" fill="${C.title}">${line1 ?? ""}</text>
-  <text x="60" y="360" font-size="100" font-weight="900" fill="${C.primary}">${line2 ?? ""}</text>
+  <text x="60" y="240" font-size="100" font-weight="900" fill="${C.title}">${esc(line1 ?? "")}</text>
+  <text x="60" y="360" font-size="100" font-weight="900" fill="${C.primary}">${esc(line2 ?? "")}</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="400" x2="1020" y2="400" stroke="${C.divider}" stroke-width="2"/>
 
   <!-- 副標題 -->
-  <text x="60" y="460" font-size="36" fill="${C.content}" font-weight="400">${data.subtitle}</text>
+  <text x="60" y="460" font-size="36" fill="${C.content}" font-weight="400">${esc(data.subtitle)}</text>
 
   <!-- 適用對象 -->
-  <text x="60" y="510" font-size="30" fill="${C.muted}">${data.audience}</text>
+  <text x="60" y="510" font-size="30" fill="${C.muted}">${esc(data.audience)}</text>
 
   <!-- Tag pills -->
   ${tagPills}
@@ -115,8 +125,8 @@ export function renderCoverSlide(data: CarouselArticleData): string {
   <rect x="0" y="${panelY}" width="1080" height="390" fill="${C.panel}"/>
 
   <!-- 大數字裝飾（琥珀，低透明） -->
-  <text x="840" y="${panelY + 210}" font-size="280" font-weight="900" fill="${C.primary}" text-anchor="middle" opacity="0.15">${data.highlightNumber}</text>
-  <text x="840" y="${panelY + 250}" font-size="30" fill="${C.primary}" text-anchor="middle" font-weight="600" opacity="0.5">${data.highlightLabel}</text>
+  <text x="840" y="${panelY + 210}" font-size="280" font-weight="900" fill="${C.primary}" text-anchor="middle" opacity="0.15">${esc(data.highlightNumber)}</text>
+  <text x="840" y="${panelY + 250}" font-size="30" fill="${C.primary}" text-anchor="middle" font-weight="600" opacity="0.5">${esc(data.highlightLabel)}</text>
 
   <!-- 2 張 info card -->
   ${blogCard(80, panelY + 40, 440, 100, C.primary)}
@@ -147,9 +157,9 @@ export function renderOverviewSlide(items: DeficiencyItem[], label: string): str
     <!-- 項目 #${item.rank} -->
     ${blogCard(60, y, 960, CARD_H, color)}
     ${rankNumber(92, y + 68, item.rank, color)}
-    <text x="148" y="${y + 60}" font-size="36" font-weight="700" fill="${C.title}">${item.title}</text>
-    <text x="148" y="${y + 100}" font-size="28" fill="${C.content}">${item.articleRef}・負責：${item.responsible}</text>
-    <text x="148" y="${y + 135}" font-size="24" fill="${C.muted}">${truncate(item.shortDesc)}</text>
+    <text x="148" y="${y + 60}" font-size="36" font-weight="700" fill="${C.title}">${esc(item.title)}</text>
+    <text x="148" y="${y + 100}" font-size="28" fill="${C.content}">${esc(item.articleRef)}・負責：${esc(item.responsible ?? "")}</text>
+    <text x="148" y="${y + 135}" font-size="24" fill="${C.muted}">${esc(truncate(item.shortDesc))}</text>
     `;
   });
 
@@ -188,13 +198,13 @@ export function renderDetailSlide(items: DeficiencyItem[], slideLabel: string): 
     return `
     <!-- 缺失 #${item.rank} -->
     ${blogCard(60, y, 960, CARD_H, color)}
-    <text x="92" y="${headerY}" font-size="30" font-weight="700" fill="${color}">${item.rank}. ${item.articleRef}</text>
-    <text x="92" y="${titleY}" font-size="42" font-weight="700" fill="${C.title}">${item.title}</text>
+    <text x="92" y="${headerY}" font-size="30" font-weight="700" fill="${color}">${item.rank}. ${esc(item.articleRef)}</text>
+    <text x="92" y="${titleY}" font-size="42" font-weight="700" fill="${C.title}">${esc(item.title)}</text>
     <line x1="92" y1="${divY}" x2="988" y2="${divY}" stroke="${C.divider}" stroke-width="1"/>
-    <text x="92" y="${line1Y}" font-size="30" fill="${C.content}">${line1}</text>
-    ${line2 ? `<text x="92" y="${line2Y}" font-size="30" fill="${C.content}">${line2}</text>` : ""}
+    <text x="92" y="${line1Y}" font-size="30" fill="${C.content}">${esc(line1)}</text>
+    ${line2 ? `<text x="92" y="${line2Y}" font-size="30" fill="${C.content}">${esc(line2)}</text>` : ""}
     <rect x="92" y="${responsibleY}" width="220" height="44" rx="22" fill="${color}" opacity="0.13"/>
-    <text x="202" y="${responsibleY + 30}" font-size="24" fill="${color}" text-anchor="middle" font-weight="600">負責：${item.responsible}</text>
+    <text x="202" y="${responsibleY + 30}" font-size="24" fill="${color}" text-anchor="middle" font-weight="600">負責：${esc(item.responsible ?? "")}</text>
     `;
   });
 
@@ -220,7 +230,7 @@ export function renderChecklistSlide(items: string[], label: string): string {
     return `
     <rect x="80" y="${y}" width="${BOX}" height="${BOX}" rx="8" fill="${C.bg}" stroke="${C.muted}" stroke-width="1.5"/>
     ${checkmark}
-    <text x="${80 + BOX + 24}" y="${y + BOX * 0.72}" font-size="32" fill="${C.title}">${text}</text>`;
+    <text x="${80 + BOX + 24}" y="${y + BOX * 0.72}" font-size="32" fill="${C.title}">${esc(text)}</text>`;
   }
 
   const CHECKED_IDX = 1; // 第 2 項預設勾選（示範）
@@ -267,7 +277,7 @@ export function renderCtaSlide(data: CarouselArticleData): string {
   <!-- 完整文章 card -->
   ${blogCard(60, 475, 960, 150, C.primary)}
   <text x="96" y="528" font-size="36" font-weight="700" fill="${C.title}">完整文章</text>
-  <text x="96" y="572" font-size="28" fill="${C.content}">${data.blogUrl}</text>
+  <text x="96" y="572" font-size="28" fill="${C.content}">${esc(data.blogUrl)}</text>
   <text x="96" y="607" font-size="24" fill="${C.muted}">含 10 大缺失逐條解析 + 快速解法情境</text>
 
   <!-- AI 工具 card -->

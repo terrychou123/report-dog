@@ -164,8 +164,8 @@ async function main() {
     console.log(`✅ 掃描完成`);
     console.log(`   文章數：${articles.length}`);
     console.log(`   解析錯誤：${errorCount}`);
-    console.log(`   平均字數：${Math.round(totalChars / articles.length)}`);
-    console.log(`   平均重點數：${Math.round(totalKps / articles.length)}`);
+    console.log(`   平均字數：${articles.length > 0 ? Math.round(totalChars / articles.length) : "N/A"}`);
+    console.log(`   平均重點數：${articles.length > 0 ? Math.round(totalKps / articles.length) : "N/A"}`);
     return;
   }
 
@@ -227,7 +227,10 @@ async function main() {
     if (!fs.existsSync(CAROUSEL_DATA_DIR)) {
       fs.mkdirSync(CAROUSEL_DATA_DIR, { recursive: true });
     }
-    const outPath = path.join(CAROUSEL_DATA_DIR, `${kp.slug}.ts`);
+    const outPath = path.resolve(CAROUSEL_DATA_DIR, `${kp.slug}.ts`);
+    if (!outPath.startsWith(CAROUSEL_DATA_DIR + path.sep) && outPath !== CAROUSEL_DATA_DIR) {
+      throw new Error(`Path traversal detected in slug: ${kp.slug}`);
+    }
     fs.writeFileSync(outPath, tsCode, "utf-8");
     console.log(`   ✅ 已儲存：${outPath}`);
     console.log();
@@ -264,18 +267,26 @@ async function main() {
 
     let count = 0;
 
+    /** 安全寫入：驗證路徑不超出輸出目錄（防止含 ../ 的 slug） */
+    function safeWriteSvg(filename: string, content: string): string {
+      const resolved = path.resolve(PUBLIC_BLOG_DIR, filename);
+      if (!resolved.startsWith(PUBLIC_BLOG_DIR + path.sep) && resolved !== PUBLIC_BLOG_DIR) {
+        throw new Error(`Path traversal detected in filename: ${filename}`);
+      }
+      fs.writeFileSync(resolved, content, "utf-8");
+      return resolved;
+    }
+
     // 封面圖
     const coverSvg = renderSvgPlanItem(plan.coverSvg, kp);
-    const coverPath = path.join(PUBLIC_BLOG_DIR, plan.coverSvg.filename);
-    fs.writeFileSync(coverPath, coverSvg, "utf-8");
+    safeWriteSvg(plan.coverSvg.filename, coverSvg);
     console.log(`   ✅ ${plan.coverSvg.filename}  [封面 1200×630]`);
     count++;
 
     // 內文插圖
     for (const item of plan.inlineSvgs) {
       const svg = renderSvgPlanItem(item, kp);
-      const outPath = path.join(PUBLIC_BLOG_DIR, item.filename);
-      fs.writeFileSync(outPath, svg, "utf-8");
+      safeWriteSvg(item.filename, svg);
       console.log(`   ✅ ${item.filename}  [${item.template}]`);
       count++;
     }

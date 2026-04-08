@@ -143,7 +143,7 @@ export function keypointsToSvgPlan(kp: ArticleKeypoints): SvgPlan {
     const maxSvgs = Math.min(svgsPerSection, 2);
     const chunkSize = Math.ceil(kps.length / maxSvgs);
 
-    for (let i = 0; i < Math.min(maxSvgs, Math.ceil(kps.length / 1)); i++) {
+    for (let i = 0; i < Math.min(maxSvgs, Math.ceil(kps.length / chunkSize)); i++) {
       const chunk = kps.slice(i * chunkSize, (i + 1) * chunkSize);
       if (chunk.length === 0) break;
 

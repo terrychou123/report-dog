@@ -1,56 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header y=50, h=76 -->
   <rect x="30" y="50" width="740" height="76" rx="8" fill="#d97706"/>
-  <text x="400" y="84" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">第一個月（第 1-4 週）：基礎盤點任務</text>
-  <text x="400" y="112" font-size="15" fill="#fef3c7" text-anchor="middle" font-family="sans-serif">掌握現況、找出紅燈、啟動品質管理機制</text>
+  <text x="400" y="84" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">第一個月（第 1-4 週）：基礎盤點任務</text>
+  <text x="400" y="112" font-size="15" fill="#fef3c7" text-anchor="middle">掌握現況、找出紅燈、啟動品質管理機制</text>
 
   <!-- Row1 y=160, h=62 -->
-  <rect x="30" y="160" width="740" height="62" rx="6" fill="#ffffff"/>
-  <rect x="30" y="160" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="191" r="16" fill="#d97706"/>
-  <text x="66" y="196" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">W1</text>
-  <text x="100" y="180" font-size="19" font-weight="700" fill="#1e293b" font-family="sans-serif">第 1 週：AI 自我查核全部 77 項指標</text>
-  <text x="100" y="200" font-size="15" fill="#57534e" font-family="sans-serif">用報告汪 AI 掃描所有指標，標記紅燈（不符合）與黃燈（待確認）</text>
-  <rect x="620" y="169" width="136" height="44" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <text x="688" y="188" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">工具</text>
-  <text x="688" y="206" font-size="13" fill="#92400e" text-anchor="middle" font-family="sans-serif">AI 查核 + 追蹤</text>
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">W1</text>
+  <text x="100" y="188" font-size="18" font-weight="700" fill="#1e293b">第 1 週：AI 自我查核全部 77 項指標</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">用報告汪 AI 掃描所有指標，標記紅燈（不符合）與黃燈（待確認）</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">工具</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">AI 查核 + 追蹤</text>
 
   <!-- Row2 y=235, h=62 -->
-  <rect x="30" y="235" width="740" height="62" rx="6" fill="#ffffff"/>
-  <rect x="30" y="235" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="266" r="16" fill="#78716c"/>
-  <text x="66" y="271" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">W2</text>
-  <text x="100" y="255" font-size="19" font-weight="700" fill="#1e293b" font-family="sans-serif">第 2 週：處理 A 區行政管理問題</text>
-  <text x="100" y="275" font-size="15" fill="#57534e" font-family="sans-serif">重點：A2 入出機構管理、A4 查核缺失改善、A7-A11 人員設置確認</text>
-  <rect x="620" y="244" width="136" height="44" rx="6" fill="#f5f5f4" stroke="#78716c" stroke-width="1.5"/>
-  <text x="688" y="263" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">負責單位</text>
-  <text x="688" y="281" font-size="13" fill="#44403c" text-anchor="middle" font-family="sans-serif">行政 / 主管</text>
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" font-weight="900" fill="#78716c" text-anchor="middle">W2</text>
+  <text x="100" y="263" font-size="18" font-weight="700" fill="#1e293b">第 2 週：處理 A 區行政管理問題</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">重點：A2 入出機構管理、A4 查核缺失改善、A7-A11 人員設置確認</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">負責單位</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">行政 / 主管</text>
 
   <!-- Row3 y=310, h=62 -->
-  <rect x="30" y="310" width="740" height="62" rx="6" fill="#ffffff"/>
-  <rect x="30" y="310" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="341" r="16" fill="#57534e"/>
-  <text x="66" y="346" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">W3</text>
-  <text x="100" y="330" font-size="19" font-weight="700" fill="#1e293b" font-family="sans-serif">第 3 週：確認 C 區一級必要指標達標</text>
-  <text x="100" y="350" font-size="15" fill="#57534e" font-family="sans-serif">C4 防火逃生、C9 緊急廣播、C10 消防演練、C11 監控、C12/C15 設備</text>
-  <rect x="620" y="319" width="136" height="44" rx="6" fill="#f0efe8" stroke="#57534e" stroke-width="1.5"/>
-  <text x="688" y="338" font-size="13" fill="#57534e" text-anchor="middle" font-family="sans-serif">負責單位</text>
-  <text x="688" y="356" font-size="13" fill="#44403c" text-anchor="middle" font-family="sans-serif">行政 / 設備</text>
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" font-weight="900" fill="#57534e" text-anchor="middle">W3</text>
+  <text x="100" y="338" font-size="18" font-weight="700" fill="#1e293b">第 3 週：確認 C 區一級必要指標達標</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">C4 防火逃生、C9 緊急廣播、C10 消防演練、C11 監控、C12/C15 設備</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">負責單位</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">行政 / 設備</text>
 
   <!-- Row4 y=385, h=62 -->
-  <rect x="30" y="385" width="740" height="62" rx="6" fill="#ffffff"/>
-  <rect x="30" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
-  <text x="66" y="421" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">W4</text>
-  <text x="100" y="405" font-size="19" font-weight="700" fill="#1e293b" font-family="sans-serif">第 4 週：召開 B1 品質會議，確認 PDCA 完整</text>
-  <text x="100" y="425" font-size="15" fill="#57534e" font-family="sans-serif">至少每季 1 次品質會議，議題討論、決議追蹤記錄均需完備</text>
-  <rect x="620" y="394" width="136" height="44" rx="6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="1.5"/>
-  <text x="688" y="413" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">負責單位</text>
-  <text x="688" y="431" font-size="13" fill="#44403c" text-anchor="middle" font-family="sans-serif">社工 / 主管</text>
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" font-weight="900" fill="#a8a29e" text-anchor="middle">W4</text>
+  <text x="100" y="413" font-size="18" font-weight="700" fill="#1e293b">第 4 週：召開 B1 品質會議，確認 PDCA 完整</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">至少每季 1 次品質會議，議題討論、決議追蹤記錄均需完備</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">負責單位</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">社工 / 主管</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

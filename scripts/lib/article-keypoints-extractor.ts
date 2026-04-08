@@ -141,11 +141,12 @@ export interface ArticleJson {
 export function extractKeypoints(article: ArticleJson): ArticleKeypoints {
   const $ = cheerio.load(article.content);
 
-  // ── 1. 摘要：第一個 blockquote（不含後面的基準說明 blockquote） ─────────────
+  // ── 1. 摘要：找第一個非「基準說明」型 blockquote（評鑑基準文章常以基準 blockquote 開頭）
   let summary = "";
-  $("blockquote").first().each((_, el) => {
+  $("blockquote").each((_, el) => {
+    if (summary) return; // 已找到，停止遍歷
     const text = $(el).text().trim();
-    // 過濾掉評鑑基準說明型的 blockquote（以「第X條基準說明」開頭）
+    // 跳過評鑑基準說明型的 blockquote（以「第X條基準說明」開頭）
     if (!text.match(/^第\s*\d+\s*條基準說明/)) {
       summary = truncate(text.replace(/^重點摘要[：:]\s*/, ""), 200);
     }

@@ -20,6 +20,44 @@ allowed-tools:
 
 # 部落格 SVG 插圖風格指南
 
+## ⚡ 生成工作流（每次建立 SVG 必須按此順序執行）
+
+> **根本原因提醒**：SKILL.md 規則分散、字數多，AI 容易遺漏細節。**必須從模板複製骨架**，不得從規則重新推導。
+
+1. **確定版型與 N 值** → 直列清單（N=3~6）? 流程圖? 封面?
+2. **Read 對應模板檔案** → `public/blog/template-list-{N}.svg`（或其他版型的模板）
+3. **複製全部 XML 骨架** → 僅替換 `<text>` 內的中文字串，不改任何座標或屬性
+4. **依字數調整 font-size** → 用本文件的自適應公式（Q_font 等），只改需要縮小的部分
+5. **驗證並修正** → 執行下方指令，確認全部 PASS
+
+### 驗證快速指令
+
+```bash
+# 驗證單一檔案（詳細輸出）
+npm run svg:validate -- public/blog/{filename}.svg --verbose
+
+# 驗證全部非模板 SVG
+npm run svg:validate
+
+# 自動修正可修項目 + 驗證（推薦）
+npm run svg:validate -- --fix public/blog/{filename}.svg --verbose
+```
+
+### --fix 可自動修正的項目
+
+| 修正項目 | 說明 |
+|---------|------|
+| font-family 位置 | 從 `<text>` 移至 `<svg>` 根元素 |
+| Row rect rx | 修正為 `rx="12"` |
+| Circle opacity | 加上 `opacity="0.15"` |
+| S 標籤框 rx/opacity | 修正為 `rx="8"` `opacity="0.12"` |
+| 左色條 rx | 修正為 `rx="2"` |
+| Circle 內文字色 | 實心圓 → 半透明後，白色文字改為主色 |
+
+**需人工判斷（只報告）**：Q 列標題 font-size、Row y 座標錯位、Header 風格、emoji
+
+---
+
 ## 設計原則
 
 **風格定位：專業資訊圖表風**（與報告汪網站視覺系統一致）
@@ -1056,17 +1094,24 @@ S 標籤文字色             = 該列主色（circle fill 的同色），不得
 
 ## 上線前品質檢查清單
 
+**自動化驗證（優先執行）：**
+```bash
+npm run svg:validate -- public/blog/{filename}.svg --verbose
+```
+全部 PASS 後再進行人工確認。
+
+**人工確認項目（自動驗證無法涵蓋）：**
 - [ ] **若檔案含 `@frozen` 標記則跳過（禁止修改）**
 - [ ] SVG 尺寸符合規範（封面 1200×630 / 內文 **800×500**）
 - [ ] `viewBox` 與 `width`/`height` 一致
 - [ ] 背景色使用 `#f0efe8`（米黃暖色）
-- [ ] 字型為 `'Noto Sans TC', sans-serif`
+- [ ] 字型為 `'Noto Sans TC', sans-serif`（設定在 `<svg>` 根元素）
 - [ ] **無任何低於 14px 的文字**（最重要！）
 - [ ] **無 emoji 或 Unicode 符號字元**（用 SVG 圖形替代）
 - [ ] **文字色只用 `#1e293b`（標題）或 `#57534e`（內容）**
 - [ ] 單張圖項目數未超過密度上限
 - [ ] 所有顏色來自本文件定義的色彩系統
-- [ ] 包含「報告汪 reportwang.com」品牌浮水印（y=480）
+- [ ] 包含「報告汪 reportwang.com」品牌浮水印（內文 y=480 / 封面 y=590）
 - [ ] 檔案命名符合 `{機構}-{主題}-{類型}.svg` 格式
 - [ ] SVG 自包含（無外部圖片引用、無 JavaScript）
 - [ ] 中文文字正確顯示（用繁體中文）

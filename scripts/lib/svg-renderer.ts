@@ -39,6 +39,7 @@ interface ListRow {
  * @param rows    最多 5 項，各含 label/desc/s1/s2
  */
 export function renderList(title: string, rows: ListRow[]): string {
+  if (rows.length < 3) throw new Error(`renderList requires at least 3 rows, got ${rows.length}`);
   const n = Math.min(rows.length, 5);
 
   // 依項目數決定佈局參數
@@ -469,6 +470,8 @@ export function renderSvgPlanItem(item: SvgPlanItem, kp: ArticleKeypoints): stri
 
 function esc(text: string): string {
   return text
+    // XML 1.0 不允許 U+0000–U+0008、U+000B、U+000C、U+000E–U+001F 控制字元
+    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")

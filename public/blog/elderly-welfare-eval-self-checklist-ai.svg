@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header y=50, h=76 -->
   <rect x="40" y="50" width="720" height="76" rx="10" fill="#1e293b"/>
-  <text x="400" y="87" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">報告汪 AI 自我查核 — 4 大核心優勢</text>
-  <text x="400" y="113" font-size="15" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">從手動 2–3 小時縮短為 AI 批量掃描，確保77項指標無遺漏</text>
+  <text x="400" y="87" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">報告汪 AI 自我查核 — 4 大核心優勢</text>
+  <text x="400" y="113" font-size="15" fill="#a8a29e" text-anchor="middle">從手動 2–3 小時縮短為 AI 批量掃描，確保77項指標無遺漏</text>
 
   <!-- N=4 版型：H=62, inner_gap=13, outer_gap=50 -->
   <!-- Row1 y=160 -->
-  <rect x="40" y="160" width="720" height="62" rx="8" fill="#ffffff"/>
-  <rect x="40" y="160" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="191" r="16" fill="#d97706"/>
-  <text x="66" y="197" font-size="16" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">1</text>
-  <text x="100" y="183" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">批量文件比對</text>
-  <text x="100" y="206" font-size="15" fill="#57534e" font-family="sans-serif">上傳工作手冊、訓練紀錄等，AI自動比對各指標符合程度</text>
-  <rect x="620" y="171" width="128" height="40" rx="6" fill="#fef3c7"/>
-  <text x="684" y="196" font-size="14" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">一鍵掃描</text>
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
+  <text x="100" y="188" font-size="22" font-weight="700" fill="#1e293b">批量文件比對</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">上傳工作手冊、訓練紀錄等，AI自動比對各指標符合程度</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="197" font-size="16" fill="#d97706" text-anchor="middle">一鍵掃描</text>
 
   <!-- Row2 y=235 -->
-  <rect x="40" y="235" width="720" height="62" rx="8" fill="#ffffff"/>
-  <rect x="40" y="235" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="266" r="16" fill="#78716c"/>
-  <text x="66" y="272" font-size="16" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">2</text>
-  <text x="100" y="258" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">即時盲點提醒</text>
-  <text x="100" y="281" font-size="15" fill="#57534e" font-family="sans-serif">優先標示一級必要指標與高頻扣分項目，不遺漏任何風險</text>
-  <rect x="620" y="246" width="128" height="40" rx="6" fill="#fef3c7"/>
-  <text x="684" y="271" font-size="14" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">風險優先</text>
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" font-weight="900" fill="#78716c" text-anchor="middle">2</text>
+  <text x="100" y="263" font-size="22" font-weight="700" fill="#1e293b">即時盲點提醒</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">優先標示一級必要指標與高頻扣分項目，不遺漏任何風險</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="272" font-size="16" fill="#78716c" text-anchor="middle">風險優先</text>
 
   <!-- Row3 y=310 -->
-  <rect x="40" y="310" width="720" height="62" rx="8" fill="#ffffff"/>
-  <rect x="40" y="310" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="341" r="16" fill="#57534e"/>
-  <text x="66" y="347" font-size="16" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">3</text>
-  <text x="100" y="333" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">結構化查核報告輸出</text>
-  <text x="100" y="356" font-size="15" fill="#57534e" font-family="sans-serif">自動生成查核報告，可作為品管會議討論依據或佐證資料</text>
-  <rect x="620" y="321" width="128" height="40" rx="6" fill="#dcfce7"/>
-  <text x="684" y="346" font-size="14" font-weight="700" fill="#16a34a" font-family="sans-serif" text-anchor="middle">自動生成</text>
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" font-weight="900" fill="#57534e" text-anchor="middle">3</text>
+  <text x="100" y="338" font-size="20" font-weight="700" fill="#1e293b">結構化查核報告輸出</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">自動生成查核報告，可作為品管會議討論依據或佐證資料</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="347" font-size="16" fill="#57534e" text-anchor="middle">自動生成</text>
 
   <!-- Row4 y=385 -->
-  <rect x="40" y="385" width="720" height="62" rx="8" fill="#ffffff"/>
-  <rect x="40" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
-  <text x="66" y="422" font-size="16" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">4</text>
-  <text x="100" y="408" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">歷次比較追蹤</text>
-  <text x="100" y="431" font-size="15" fill="#57534e" font-family="sans-serif">多次自評記錄比較，追蹤紅燈項目是否已全數轉為綠燈</text>
-  <rect x="620" y="396" width="128" height="40" rx="6" fill="#dcfce7"/>
-  <text x="684" y="421" font-size="14" font-weight="700" fill="#16a34a" font-family="sans-serif" text-anchor="middle">進度追蹤</text>
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" font-weight="900" fill="#a8a29e" text-anchor="middle">4</text>
+  <text x="100" y="413" font-size="22" font-weight="700" fill="#1e293b">歷次比較追蹤</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">多次自評記錄比較，追蹤紅燈項目是否已全數轉為綠燈</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="422" font-size="16" fill="#a8a29e" text-anchor="middle">進度追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>
