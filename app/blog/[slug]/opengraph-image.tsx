@@ -1,6 +1,7 @@
 import { Resvg } from "@resvg/resvg-js";
 import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { readFile } from "node:fs/promises";
+import { join, resolve } from "node:path";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq } from "drizzle-orm";
@@ -8,17 +9,13 @@ import { eq } from "drizzle-orm";
 // OG 圖片設定
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+// Next.js ISR：OG 圖片每天重新驗證一次
+export const revalidate = 86400;
 
-// 模組層級快取字型，避免每次請求重複讀取 11MB 檔案
-let fontCache: Buffer | null = null;
-function getFont(): Buffer {
-  if (!fontCache) {
-    fontCache = readFileSync(
-      join(process.cwd(), "fonts", "NotoSansTC-Variable.ttf")
-    );
-  }
-  return fontCache;
-}
+// 模組載入時同步讀取字型一次，後續請求直接複用（同一 isolate 內）
+const fontCache: Buffer = readFileSync(
+  join(process.cwd(), "fonts", "NotoSansTC-Variable.ttf")
+);
 
 export default async function Image({
   params,
@@ -39,13 +36,27 @@ export default async function Image({
   if (coverUrl?.startsWith("/") && coverUrl.endsWith(".svg")) {
     try {
       const svgPath = join(process.cwd(), "public", coverUrl);
-      const svgContent = readFileSync(svgPath, "utf-8");
-      const font = getFont();
+
+      // 路徑穿越防護：確認解析後路徑在 public/ 目錄內
+      const publicDir = resolve(process.cwd(), "public");
+      if (!resolve(svgPath).startsWith(publicDir + "/")) {
+        throw new Error(`coverUrl 路徑超出 public 目錄範圍：${coverUrl}`);
+      }
+
+      const svgContent = await readFile(svgPath, "utf-8");
+
+      // 僅渲染 1200×630 封面 SVG（內文插圖 800×500 比例不符 OG 規格，會產生 1200×750）
+      const vbMatch = svgContent.match(/viewBox="0 0 (\d+) (\d+)"/);
+      if (!vbMatch || vbMatch[1] !== "1200" || vbMatch[2] !== "630") {
+        throw new Error(
+          `SVG viewBox 非 1200×630（${vbMatch ? `${vbMatch[1]}×${vbMatch[2]}` : "未知"}），跳過渲染`
+        );
+      }
 
       const resvg = new Resvg(svgContent, {
-        fitTo: { mode: "width", value: 1200 },
+        fitTo: { mode: "width", value: size.width },
         font: {
-          fontBuffers: [font],
+          fontBuffers: [fontCache],
           loadSystemFonts: false,
         },
       });
@@ -54,18 +65,30 @@ export default async function Image({
       const pngBuffer = pngData.asPng();
 
       return new Response(pngBuffer, {
-        headers: { "Content-Type": "image/png" },
+        headers: {
+          "Content-Type": "image/png",
+          "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+        },
       });
-    } catch {
+    } catch (err) {
       // SVG 讀取或渲染失敗時，fallback 到預設圖
+      console.error("[og-image] SVG 渲染失敗:", err);
     }
   }
 
   // Fallback：讀取預設 OG 圖片
-  const fallback = readFileSync(
-    join(process.cwd(), "app", "opengraph-image.png")
-  );
-  return new Response(fallback, {
-    headers: { "Content-Type": "image/png" },
-  });
+  try {
+    const fallback = await readFile(
+      join(process.cwd(), "app", "opengraph-image.png")
+    );
+    return new Response(fallback, {
+      headers: {
+        "Content-Type": "image/png",
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+      },
+    });
+  } catch (err) {
+    console.error("[og-image] fallback 圖片讀取失敗:", err);
+    return new Response(null, { status: 404 });
+  }
 }

@@ -29,13 +29,6 @@ const LIST_SPEC: Record<
 /** 大地色系色彩順序 */
 const ROW_COLORS = ["#d97706", "#78716c", "#57534e", "#a8a29e", "#94a3b8", "#6b7280"];
 
-/** 允許的文字色 */
-const ALLOWED_TEXT_COLORS = new Set([
-  "#1e293b", "#57534e", "#d97706",
-  "#ffffff", "#fef3c7",           // Header 白色文字（非標準，但常用）
-  ...ROW_COLORS,
-]);
-
 // ─── 輔助函式 ────────────────────────────────────────────────────────────────
 
 type Level = "PASS" | "WARN" | "FAIL" | "FIXED";
@@ -66,6 +59,69 @@ function expectedQFont(H: number): number {
   return Math.min(28, Math.max(18, Math.round(H * 0.35)));
 }
 
+// ─── 垂直置中檢查相關 ──────────────────────────────────────────────────────────
+
+const VCENTER_TOL = 2; // 垂直置中容差 ±2px
+
+interface ContainerRect { x: number; y: number; w: number; h: number; el: string }
+interface TextEl { x: number; y: number; fs: number; content: string; el: string; idx: number }
+
+/** 精確索引替換，避免相同元素只修正第一次出現 */
+function replaceAt(str: string, idx: number, oldStr: string, newStr: string): string {
+  return str.slice(0, idx) + newStr + str.slice(idx + oldStr.length);
+}
+
+/** 解析容器 rect（排除背景、色條、Row 主框） */
+function parseContainers(svg: string, svgW: number): ContainerRect[] {
+  const out: ContainerRect[] = [];
+  for (const m of svg.matchAll(/<rect([^>]*)>/g)) {
+    const el = m[0];
+    const w = parseFloat(attr(el, "width") ?? "0");
+    const h = parseFloat(attr(el, "height") ?? "0");
+    // 排除：背景大色塊、色條、裝飾線、Row 主框
+    if (w >= svgW * 0.9 || w <= 10 || h <= 6) continue;
+    if (attr(el, "stroke") === "#e8e6de") continue;
+    out.push({
+      x: parseFloat(attr(el, "x") ?? "0"),
+      y: parseFloat(attr(el, "y") ?? "0"),
+      w, h, el,
+    });
+  }
+  return out;
+}
+
+/** 解析文字元素（排除浮水印），記錄原始索引供精確替換使用 */
+function parseTexts(svg: string): TextEl[] {
+  const out: TextEl[] = [];
+  for (const m of svg.matchAll(/<text([^>]*)>([^<]*)<\/text>/g)) {
+    const el = m[0]; const content = m[2].trim();
+    if (content.includes("報告汪") || content.includes("reportwang")) continue;
+    out.push({
+      x: parseFloat(attr(el, "x") ?? "0"),
+      y: parseFloat(attr(el, "y") ?? "0"),
+      fs: parseFloat(attr(el, "font-size") ?? "16"),
+      content, el, idx: m.index!,
+    });
+  }
+  return out;
+}
+
+/** 文字 baseline 是否落在 rect 內 */
+function textInRect(t: TextEl, r: ContainerRect): boolean {
+  return t.x >= r.x - 5 && t.x <= r.x + r.w + 5 &&
+         t.y >= r.y + t.fs * 0.15 && t.y <= r.y + r.h + 2;
+}
+
+/** 單行垂直置中預期 y */
+function vcY1(ry: number, rh: number, fs: number): number {
+  return Math.round(ry + rh / 2 + fs * 0.35);
+}
+
+/** 雙行垂直置中預期 title_y（保留既有 gap，整組置中） */
+function vcY2(ry: number, rh: number, tfs: number, sfs: number, gap: number): number {
+  return Math.round(ry + rh / 2 - gap / 2 + (tfs - sfs) * 0.175);
+}
+
 // ─── 自動修正函式 ────────────────────────────────────────────────────────────
 
 /** 在元素字串中設定或替換指定屬性 */
@@ -78,9 +134,14 @@ function setAttr(el: string, name: string, value: string): string {
   return el.replace(/(\/?>)/, ` ${name}="${value}"$1`);
 }
 
+function isTimeline(svg: string): boolean {
+  return /<!--\s*@template:\s*timeline\s*-->/.test(svg);
+}
+
 function fixSvg(svg: string): { result: string; fixes: string[] } {
   let out = svg;
   const fixes: string[] = [];
+  const timeline = isTimeline(out);
 
   // ── 1. font-family：從 <text> 移到 <svg> 根元素 ────────────────────────────
   const root = svgRootAttrs(out);
@@ -115,19 +176,34 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
     return full;
   });
 
-  // ── 3. Circle：加上 opacity="0.15" ────────────────────────────────────────
-  out = out.replace(/<circle([^>]+)>/g, (match, attrs) => {
-    const full = `<circle${attrs}>`;
-    const op = attr(full, "opacity");
-    if (op === null) {
-      fixes.push("Circle 加上 opacity=\"0.15\"");
-      return setAttr(full, "opacity", "0.15");
-    } else if (parseFloat(op) >= 0.5) {
-      fixes.push(`Circle opacity="${op}" → "0.15"`);
-      return setAttr(full, "opacity", "0.15");
-    }
-    return full;
-  });
+  // ── 3. Circle：深色 fill（ROW_COLORS）才加 opacity="0.15" ─────────────────
+  // 淺色 fill（如 #fef3c7、#f5f5f4）本身已是淡色，加透明度後在白底上會消失
+  // @template: timeline 的 SVG 圓圈保持實心（實心圓+白色數字），跳過不改
+  if (!timeline) {
+    out = out.replace(/<circle([^>]+)>/g, (match, attrs) => {
+      const full = `<circle${attrs}>`;
+      const fillColor = attr(full, "fill");
+      if (!fillColor || !ROW_COLORS.includes(fillColor)) {
+        // 淺色 circle：若被錯誤加上 opacity="0.15"，移除它
+        const op = attr(full, "opacity");
+        if (op === "0.15") {
+          fixes.push(`淺色 Circle (fill=${fillColor}) 移除錯誤 opacity="0.15"`);
+          return full.replace(/\s*opacity="0\.15"/, "");
+        }
+        return full;
+      }
+      // 深色 ROW_COLORS fill：確保有 opacity="0.15"
+      const op = attr(full, "opacity");
+      if (op === null) {
+        fixes.push("Circle 加上 opacity=\"0.15\"");
+        return setAttr(full, "opacity", "0.15");
+      } else if (parseFloat(op) >= 0.5) {
+        fixes.push(`Circle opacity="${op}" → "0.15"`);
+        return setAttr(full, "opacity", "0.15");
+      }
+      return full;
+    });
+  }
 
   // ── 4. S 標籤框（width=136 的 rect）：rx → 8, opacity → 0.12 ──────────────
   out = out.replace(/<rect([^>]+)width="136"([^>]*)>/g, (match, pre, post) => {
@@ -169,13 +245,51 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
 
   // ── 6. Circle 內數字文字：實心圓變半透明後，文字色需從白色改為對應主色 ──────
   // 找到 circle 後緊跟的 <text>，若 fill="#ffffff" 就改為 circle 的主色
-  out = out.replace(
-    /(<circle[^>]+fill="(#[^"]+)"[^>]*>)\s*\n(\s*)(<text[^>]+)fill="#ffffff"([^>]*>)/g,
-    (match, circle, circleColor, indent, textPre, textPost) => {
-      fixes.push(`Circle 內文字色 #ffffff → ${circleColor}`);
-      return `${circle}\n${indent}${textPre}fill="${circleColor}"${textPost}`;
+  // timeline 模板保持實心圓+白色文字，跳過此修正
+  if (!timeline) {
+    out = out.replace(
+      /(<circle[^>]+fill="(#[^"]+)"[^>]*>)\s*\n(\s*)(<text[^>]+)fill="#ffffff"([^>]*>)/g,
+      (match, circle, circleColor, indent, textPre, textPost) => {
+        fixes.push(`Circle 內文字色 #ffffff → ${circleColor}`);
+        return `${circle}\n${indent}${textPre}fill="${circleColor}"${textPost}`;
+      }
+    );
+  }
+
+  // ── 7. 文字垂直置中修正 ──────────────────────────────────────────────────────
+  const fSvgW = parseFloat(attr(svgRootAttrs(out), "width") ?? "800");
+  const fContainers = parseContainers(out, fSvgW);
+  const fTexts = parseTexts(out);
+
+  // 收集所有替換，再以索引降序套用（避免提前替換偏移後續索引）
+  const pending: { idx: number; old: string; next: string; msg: string }[] = [];
+
+  for (const rect of fContainers) {
+    const inner = fTexts.filter(t => textInRect(t, rect));
+    if (inner.length === 1) {
+      const t = inner[0];
+      const ey = vcY1(rect.y, rect.h, t.fs);
+      if (Math.abs(t.y - ey) > VCENTER_TOL) {
+        pending.push({ idx: t.idx, old: t.el, next: setAttr(t.el, "y", String(ey)), msg: `文字「${t.content.slice(0, 6)}」y=${t.y}→${ey}（垂直置中）` });
+      }
+    } else if (inner.length === 2) {
+      const [a, b] = [...inner].sort((x, y) => x.y - y.y);
+      const gap = b.y - a.y;
+      const ey = vcY2(rect.y, rect.h, a.fs, b.fs, gap);
+      if (Math.abs(a.y - ey) > VCENTER_TOL) {
+        const ey2 = ey + gap;
+        pending.push({ idx: a.idx, old: a.el, next: setAttr(a.el, "y", String(ey)), msg: `雙行「${a.content.slice(0, 6)}」y=${a.y}→${ey}（垂直置中）` });
+        pending.push({ idx: b.idx, old: b.el, next: setAttr(b.el, "y", String(ey2)), msg: "" });
+      }
     }
-  );
+  }
+
+  // 從字串尾端往頭替換，確保索引不受前方替換影響
+  pending.sort((a, b) => b.idx - a.idx);
+  for (const p of pending) {
+    out = replaceAt(out, p.idx, p.old, p.next);
+    if (p.msg) fixes.push(p.msg);
+  }
 
   // 去重 fixes 訊息
   const uniqueFixes = [...new Set(fixes)];
@@ -292,7 +406,44 @@ function validateSvg(filePath: string): { file: string; results: CheckResult[] }
     results.push(warn(`偵測到 ${detectedN} 個 Row rect，不在支援的 N=3~6 範圍，跳過版型驗證`));
   }
 
+  // ── 3. 文字垂直置中 ─────────────────────────────────────────────────────────
+  validateVerticalCenter(svg, results);
+
   return { file: filePath, results };
+}
+
+/** 驗證所有容器內文字是否垂直置中 */
+function validateVerticalCenter(svg: string, results: CheckResult[]) {
+  const svgW = parseFloat(attr(svgRootAttrs(svg), "width") ?? "800");
+  const containers = parseContainers(svg, svgW);
+  const texts = parseTexts(svg);
+  const issues: string[] = [];
+
+  for (const rect of containers) {
+    const inner = texts.filter(t => textInRect(t, rect));
+    if (inner.length === 1) {
+      const t = inner[0];
+      const ey = vcY1(rect.y, rect.h, t.fs);
+      if (Math.abs(t.y - ey) > VCENTER_TOL) {
+        issues.push(`「${t.content.slice(0, 8)}」y=${t.y}（預期 ${ey}，容器 y=${rect.y} h=${rect.h}）`);
+      }
+    } else if (inner.length === 2) {
+      const [a, b] = [...inner].sort((x, y) => x.y - y.y);
+      const gap = b.y - a.y;
+      const ey = vcY2(rect.y, rect.h, a.fs, b.fs, gap);
+      if (Math.abs(a.y - ey) > VCENTER_TOL) {
+        issues.push(`雙行「${a.content.slice(0, 8)}」title_y=${a.y}（預期 ${ey}，容器 y=${rect.y} h=${rect.h}）`);
+      }
+    }
+  }
+
+  if (issues.length === 0) {
+    results.push(pass("文字垂直置中正確"));
+  } else {
+    for (const issue of issues) {
+      results.push(fail(`文字未垂直置中：${issue}`));
+    }
+  }
 }
 
 function validateListType(svg: string, N: number, results: CheckResult[]) {
@@ -333,16 +484,26 @@ function validateListType(svg: string, N: number, results: CheckResult[]) {
   }
 
   // ── Circle opacity=0.15 ─────────────────────────────────────────────────
-  const circles = [...svg.matchAll(/<circle[^>]+>/g)];
-  const solidCircles = circles.filter(m => {
-    const el = m[0];
-    const op = attr(el, "opacity");
-    return op === null || parseFloat(op) >= 0.5;
-  });
-  if (solidCircles.length === 0) {
-    results.push(pass("Circle opacity=0.15（無實心圓）"));
+  // 只檢查深色 ROW_COLORS fill 的 circle，淺色 fill 不在此限
+  // @template: timeline 的 SVG 圓圈應為實心，跳過此檢查
+  if (isTimeline(svg)) {
+    results.push(pass("Circle（timeline 模板，實心圓正確）"));
   } else {
-    results.push(fail(`${solidCircles.length} 個 Circle 未設 opacity=0.15（舊式實心圓）`));
+    const circles = [...svg.matchAll(/<circle[^>]+>/g)];
+    const darkCircles = circles.filter(m => {
+      const fill = attr(m[0], "fill");
+      return fill && ROW_COLORS.includes(fill);
+    });
+    const solidCircles = darkCircles.filter(m => {
+      const el = m[0];
+      const op = attr(el, "opacity");
+      return op === null || parseFloat(op) >= 0.5;
+    });
+    if (solidCircles.length === 0) {
+      results.push(pass("Circle opacity=0.15（深色圓已設透明度）"));
+    } else {
+      results.push(fail(`${solidCircles.length} 個深色 Circle 未設 opacity=0.15（舊式實心圓）`));
+    }
   }
 
   // ── S 標籤框（rx=8, opacity=0.12）──────────────────────────────────────
@@ -415,16 +576,7 @@ function validateListType(svg: string, N: number, results: CheckResult[]) {
 
   // ── 色彩順序 ─────────────────────────────────────────────────────────────
   // 左色條 fill 順序（依 y 排序）
-  const coloredBars: { y: number; color: string }[] = [];
-  for (const m of svg.matchAll(/<rect[^>]+width="6"[^>]+height="\d+"[^>]*>/g)) {
-    const el = m[0];
-    const y = attr(el, "y");
-    const fill = attr(el, "fill");
-    if (y && fill && fill !== "#d97706" || (fill === "#d97706" && y !== "50")) {
-      coloredBars.push({ y: parseInt(y ?? "0"), color: fill ?? "" });
-    }
-  }
-  // 簡化：直接掃描有 fill 且符合 ROW_COLORS 的左色條
+  // 掃描有 fill 且符合 ROW_COLORS 的左色條
   const leftBarColors: { y: number; color: string }[] = [];
   for (const m of svg.matchAll(/<rect[^>]+width="6"[^>]+rx="2"[^>]*>/g)) {
     const el = m[0];
