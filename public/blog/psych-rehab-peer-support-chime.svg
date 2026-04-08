@@ -9,7 +9,7 @@
   <text x="28" y="74" font-size="36" fill="#1e293b" font-weight="700">CHIME 個人復元五元素</text>
 
   <!-- Row 1：Connectedness（amber #d97706），y=118，H=60 -->
-  <rect x="28" y="118" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
   <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">C</text>
@@ -20,7 +20,7 @@
   <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">社區融合</text>
 
   <!-- Row 2：Hope（stone-500 #78716c），y=191 -->
-  <rect x="28" y="191" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">H</text>
@@ -31,7 +31,7 @@
   <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">復元動力</text>
 
   <!-- Row 3：Identity（stone-600 #57534e），y=264 -->
-  <rect x="28" y="264" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">I</text>
@@ -42,7 +42,7 @@
   <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">去標籤化</text>
 
   <!-- Row 4：Meaning（stone-400 #a8a29e），y=337 -->
-  <rect x="28" y="337" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">M</text>
@@ -53,7 +53,7 @@
   <text x="688" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">目標導向</text>
 
   <!-- Row 5：Empowerment（slate-400 #94a3b8），y=410 -->
-  <rect x="28" y="410" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">E</text>

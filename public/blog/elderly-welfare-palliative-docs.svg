@@ -1,54 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
-  <text x="400" y="45" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700" font-family="sans-serif">D8 評鑑備審文件清單 — 5 大類</text>
+  <text x="400" y="45" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700" >D8 評鑑備審文件清單 — 5 大類</text>
   <!-- N=5: H=60, outer_gap=29, Header y=29, Row y: 118/191/264/337/410 -->
   <!-- Row 1 -->
   <rect x="29" y="103" width="742" height="60" rx="8" fill="#ffffff"/>
-  <rect x="29" y="103" width="6" height="60" rx="3" fill="#d97706"/>
+  <rect x="29" y="103" width="6" height="60" rx="2" fill="#d97706"/>
   <circle cx="64" cy="133" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="64" y="139" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
-  <text x="98" y="126" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">安寧療護訓練紀錄</text>
-  <text x="98" y="147" font-size="14" fill="#57534e" font-family="sans-serif">護理人員及社工人員安寧療護教育訓練結業證書、課程出席紀錄</text>
+  <text x="64" y="139" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
+  <text x="98" y="126" font-size="16" fill="#1e293b" font-weight="700" >安寧療護訓練紀錄</text>
+  <text x="98" y="147" font-size="14" fill="#57534e" >護理人員及社工人員安寧療護教育訓練結業證書、課程出席紀錄</text>
   <rect x="611" y="111" width="148" height="44" rx="6" fill="#d97706" opacity="0.10"/>
-  <text x="685" y="138" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">人事資料夾</text>
+  <text x="685" y="138" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" >人事資料夾</text>
   <!-- Row 2 -->
   <rect x="29" y="176" width="742" height="60" rx="8" fill="#ffffff"/>
-  <rect x="29" y="176" width="6" height="60" rx="3" fill="#78716c"/>
+  <rect x="29" y="176" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="64" cy="206" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="64" y="212" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
-  <text x="98" y="199" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">DNR 作業流程與意願書</text>
-  <text x="98" y="220" font-size="14" fill="#57534e" font-family="sans-serif">機構 DNR 作業 SOP 文件、已簽訂意願書案例（去識別化）、未簽訂案例處理紀錄</text>
+  <text x="64" y="212" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
+  <text x="98" y="199" font-size="16" fill="#1e293b" font-weight="700" >DNR 作業流程與意願書</text>
+  <text x="98" y="220" font-size="14" fill="#57534e" >機構 DNR 作業 SOP 文件、已簽訂意願書案例（去識別化）、未簽訂案例處理紀錄</text>
   <rect x="611" y="184" width="148" height="44" rx="6" fill="#78716c" opacity="0.10"/>
-  <text x="685" y="211" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">護理站備文</text>
+  <text x="685" y="211" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >護理站備文</text>
   <!-- Row 3 -->
   <rect x="29" y="249" width="742" height="60" rx="8" fill="#ffffff"/>
-  <rect x="29" y="249" width="6" height="60" rx="3" fill="#57534e"/>
+  <rect x="29" y="249" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="64" cy="279" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="64" y="285" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
-  <text x="98" y="272" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">臨終照護關懷手冊/流程</text>
-  <text x="98" y="293" font-size="14" fill="#57534e" font-family="sans-serif">提供家屬的臨終照護說明手冊、照護流程規範文件（含語言版本說明）</text>
+  <text x="64" y="285" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700" >3</text>
+  <text x="98" y="272" font-size="16" fill="#1e293b" font-weight="700" >臨終照護關懷手冊/流程</text>
+  <text x="98" y="293" font-size="14" fill="#57534e" >提供家屬的臨終照護說明手冊、照護流程規範文件（含語言版本說明）</text>
   <rect x="611" y="257" width="148" height="44" rx="6" fill="#57534e" opacity="0.10"/>
-  <text x="685" y="284" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">家屬服務組</text>
+  <text x="685" y="284" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" >家屬服務組</text>
   <!-- Row 4 -->
   <rect x="29" y="322" width="742" height="60" rx="8" fill="#ffffff"/>
-  <rect x="29" y="322" width="6" height="60" rx="3" fill="#a8a29e"/>
+  <rect x="29" y="322" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="64" cy="352" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="64" y="358" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
-  <text x="98" y="345" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">安寧療護轉介合約</text>
-  <text x="98" y="366" font-size="14" fill="#57534e" font-family="sans-serif">與安寧療護機構簽訂的轉介合作合約或備忘錄，含接收機構資訊及聯絡方式</text>
+  <text x="64" y="358" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700" >4</text>
+  <text x="98" y="345" font-size="16" fill="#1e293b" font-weight="700" >安寧療護轉介合約</text>
+  <text x="98" y="366" font-size="14" fill="#57534e" >與安寧療護機構簽訂的轉介合作合約或備忘錄，含接收機構資訊及聯絡方式</text>
   <rect x="611" y="330" width="148" height="44" rx="6" fill="#a8a29e" opacity="0.10"/>
-  <text x="685" y="357" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="600" font-family="sans-serif">合約管理組</text>
+  <text x="685" y="357" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="600" >合約管理組</text>
   <!-- Row 5 -->
   <rect x="29" y="395" width="742" height="60" rx="8" fill="#ffffff"/>
-  <rect x="29" y="395" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <rect x="29" y="395" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="64" cy="425" r="16" fill="#94a3b8" opacity="0.15"/>
-  <text x="64" y="431" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="700" font-family="sans-serif">5</text>
-  <text x="98" y="418" font-size="16" fill="#1e293b" font-weight="700" font-family="sans-serif">喪葬協助紀錄</text>
-  <text x="98" y="439" font-size="14" fill="#57534e" font-family="sans-serif">機構協助家屬辦理後事的服務紀錄（日期、服務內容、承辦人員簽名）</text>
+  <text x="64" y="431" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="700" >5</text>
+  <text x="98" y="418" font-size="16" fill="#1e293b" font-weight="700" >喪葬協助紀錄</text>
+  <text x="98" y="439" font-size="14" fill="#57534e" >機構協助家屬辦理後事的服務紀錄（日期、服務內容、承辦人員簽名）</text>
   <rect x="611" y="403" width="148" height="44" rx="6" fill="#94a3b8" opacity="0.10"/>
-  <text x="685" y="430" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="600" font-family="sans-serif">社工服務組</text>
+  <text x="685" y="430" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="600" >社工服務組</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

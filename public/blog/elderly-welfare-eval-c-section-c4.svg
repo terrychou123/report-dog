@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#0d9488"/>
-  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C4. 寢室及浴廁緊急呼叫系統（一級必要）</text>
-  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" font-family="sans-serif">老人福利機構 C 區指標 ｜ 現場測試是評鑑必查項目</text>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" >C4. 寢室及浴廁緊急呼叫系統（一級必要）</text>
+  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" >老人福利機構 C 區指標 ｜ 現場測試是評鑑必查項目</text>
 
   <!-- N=3 版型：H=90, outer_gap=38, Row y: 166/269/372 -->
 
   <!-- Row 1 -->
   <rect x="30" y="128" width="740" height="90" rx="8" fill="white"/>
-  <rect x="30" y="128" width="6" height="90" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="173" r="16" fill="#d97706"/>
-  <text x="66" y="178" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">1</text>
-  <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">設置位置要求</text>
-  <text x="100" y="183" font-size="14" fill="#57534e" font-family="sans-serif">浴室、廁所、每間寢室均須設置；按鈕或拉繩位置適當，</text>
-  <text x="100" y="202" font-size="14" fill="#57534e" font-family="sans-serif">坐姿或臥床者皆可觸及；需有多元族群語言翻譯或清楚圖示</text>
-  <rect x="620" y="151" width="136" height="46" rx="6" fill="#f0fdf4" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="688" y="170" font-size="14" fill="#0d9488" text-anchor="middle" font-family="sans-serif">3 個空間</text>
-  <text x="688" y="189" font-size="13" fill="#0d9488" text-anchor="middle" font-family="sans-serif">全覆蓋</text>
+  <rect x="30" y="128" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="173" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="178" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >1</text>
+  <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" >設置位置要求</text>
+  <text x="100" y="183" font-size="14" fill="#57534e" >浴室、廁所、每間寢室均須設置；按鈕或拉繩位置適當，</text>
+  <text x="100" y="202" font-size="14" fill="#57534e" >坐姿或臥床者皆可觸及；需有多元族群語言翻譯或清楚圖示</text>
+  <rect x="620" y="151" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="170" font-size="14" fill="#0d9488" text-anchor="middle" >3 個空間</text>
+  <text x="688" y="189" font-size="13" fill="#0d9488" text-anchor="middle" >全覆蓋</text>
 
   <!-- Row 2 -->
   <rect x="30" y="231" width="740" height="90" rx="8" fill="white"/>
-  <rect x="30" y="231" width="6" height="90" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="276" r="16" fill="#78716c"/>
-  <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">2</text>
-  <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">功能測試要求</text>
-  <text x="100" y="286" font-size="14" fill="#57534e" font-family="sans-serif">評鑑委員會現場測試設備功能；呼叫系統應正常運作，</text>
-  <text x="100" y="305" font-size="14" fill="#57534e" font-family="sans-serif">無故障、無中斷、鈴聲清楚可辨識；定期維護有紀錄</text>
-  <rect x="620" y="254" width="136" height="46" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="688" y="273" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">現場測試</text>
-  <text x="688" y="292" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">不能失效</text>
+  <rect x="30" y="231" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="276" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >2</text>
+  <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" >功能測試要求</text>
+  <text x="100" y="286" font-size="14" fill="#57534e" >評鑑委員會現場測試設備功能；呼叫系統應正常運作，</text>
+  <text x="100" y="305" font-size="14" fill="#57534e" >無故障、無中斷、鈴聲清楚可辨識；定期維護有紀錄</text>
+  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <text x="688" y="273" font-size="14" fill="#d97706" text-anchor="middle" >現場測試</text>
+  <text x="688" y="292" font-size="13" fill="#d97706" text-anchor="middle" >不能失效</text>
 
   <!-- Row 3 -->
   <rect x="30" y="334" width="740" height="90" rx="8" fill="white"/>
-  <rect x="30" y="334" width="6" height="90" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="379" r="16" fill="#57534e"/>
-  <text x="66" y="384" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">3</text>
-  <text x="100" y="366" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">即時回應要求</text>
-  <text x="100" y="389" font-size="14" fill="#57534e" font-family="sans-serif">有人按鈴，服務人員能立即反應並前往處理；需訂有緊急</text>
-  <text x="100" y="408" font-size="14" fill="#57534e" font-family="sans-serif">呼叫回應 SOP 及人員訓練紀錄，確認值班人員知悉流程</text>
-  <rect x="620" y="357" width="136" height="46" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="688" y="376" font-size="14" fill="#dc2626" text-anchor="middle" font-family="sans-serif">立即回應</text>
-  <text x="688" y="395" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">人員訓練</text>
+  <rect x="30" y="334" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="379" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="384" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >3</text>
+  <text x="100" y="366" font-size="18" font-weight="bold" fill="#1e293b" >即時回應要求</text>
+  <text x="100" y="389" font-size="14" fill="#57534e" >有人按鈴，服務人員能立即反應並前往處理；需訂有緊急</text>
+  <text x="100" y="408" font-size="14" fill="#57534e" >呼叫回應 SOP 及人員訓練紀錄，確認值班人員知悉流程</text>
+  <rect x="620" y="357" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="376" font-size="14" fill="#dc2626" text-anchor="middle" >立即回應</text>
+  <text x="688" y="395" font-size="13" fill="#dc2626" text-anchor="middle" >人員訓練</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

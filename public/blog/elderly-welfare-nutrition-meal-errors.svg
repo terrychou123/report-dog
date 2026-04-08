@@ -1,56 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="400" y="50" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">B28-B31 四大常見缺失與預防對策</text>
-  <text x="400" y="76" font-size="16" fill="#57534e" text-anchor="middle" font-family="sans-serif">每個缺失均可透過流程設計與文件格式改善來預防</text>
+  <text x="400" y="50" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" >B28-B31 四大常見缺失與預防對策</text>
+  <text x="400" y="76" font-size="16" fill="#57534e" text-anchor="middle" >每個缺失均可透過流程設計與文件格式改善來預防</text>
 
   <!-- N=4, H=62, outer_gap=50 -->
   <!-- Row 1 (y=160) -->
   <rect x="40" y="110" width="720" height="62" rx="6" fill="#ffffff"/>
   <rect x="40" y="110" width="6" height="62" rx="3" fill="#dc2626"/>
-  <circle cx="74" cy="141" r="16" fill="#dc2626" opacity="0.15"/>
-  <text x="74" y="147" font-size="16" font-weight="700" fill="#dc2626" text-anchor="middle" font-family="sans-serif">①</text>
-  <text x="100" y="133" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">菜單無營養師簽名（B28）</text>
-  <text x="100" y="156" font-size="14" fill="#57534e" font-family="sans-serif">預防：建立菜單核准流程，每季新菜單張貼前以電子郵件傳送營養師確認取得簽名</text>
-  <rect x="596" y="119" width="136" height="46" rx="5" fill="#dc2626" opacity="0.1"/>
-  <text x="664" y="138" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="600" font-family="sans-serif">最高頻</text>
-  <text x="664" y="157" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">缺失</text>
+  <circle cx="74" cy="141" r="16" fill="#dc2626"/>
+  <text x="74" y="147" font-size="16" font-weight="700" fill="#dc2626" text-anchor="middle" >①</text>
+  <text x="100" y="133" font-size="16" font-weight="700" fill="#1e293b" >菜單無營養師簽名（B28）</text>
+  <text x="100" y="156" font-size="14" fill="#57534e" >預防：建立菜單核准流程，每季新菜單張貼前以電子郵件傳送營養師確認取得簽名</text>
+  <rect x="596" y="119" width="136" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="664" y="138" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="600" >最高頻</text>
+  <text x="664" y="157" font-size="13" fill="#dc2626" text-anchor="middle" >缺失</text>
 
   <!-- Row 2 (y=235) -->
   <rect x="40" y="185" width="720" height="62" rx="6" fill="#ffffff"/>
-  <rect x="40" y="185" width="6" height="62" rx="3" fill="#d97706"/>
+  <rect x="40" y="185" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="74" cy="216" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="74" y="222" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">②</text>
-  <text x="100" y="208" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">個別化飲食無照護計畫或紀錄（B29）</text>
-  <text x="100" y="231" font-size="14" fill="#57534e" font-family="sans-serif">預防：個案服務計畫增設「飲食照護計畫」欄位，特殊疾病住民必填，每季更新</text>
-  <rect x="596" y="194" width="136" height="46" rx="5" fill="#d97706" opacity="0.12"/>
-  <text x="664" y="213" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">文件</text>
-  <text x="664" y="232" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">格式改善</text>
+  <text x="74" y="222" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle" >②</text>
+  <text x="100" y="208" font-size="16" font-weight="700" fill="#1e293b" >個別化飲食無照護計畫或紀錄（B29）</text>
+  <text x="100" y="231" font-size="14" fill="#57534e" >預防：個案服務計畫增設「飲食照護計畫」欄位，特殊疾病住民必填，每季更新</text>
+  <rect x="596" y="194" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="664" y="213" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600" >文件</text>
+  <text x="664" y="232" font-size="13" fill="#d97706" text-anchor="middle" >格式改善</text>
 
   <!-- Row 3 (y=310) -->
   <rect x="40" y="260" width="720" height="62" rx="6" fill="#ffffff"/>
-  <rect x="40" y="260" width="6" height="62" rx="3" fill="#78716c"/>
+  <rect x="40" y="260" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="74" cy="291" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="74" y="297" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">③</text>
-  <text x="100" y="283" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">管灌使用共用空針（B31）</text>
-  <text x="100" y="306" font-size="14" fill="#57534e" font-family="sans-serif">預防：護理站為每位管灌住民設置個別「空針包」，張貼姓名標籤，每月盤點存量</text>
-  <rect x="596" y="269" width="136" height="46" rx="5" fill="#78716c" opacity="0.1"/>
-  <text x="664" y="288" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">床邊標示</text>
-  <text x="664" y="307" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">月度盤點</text>
+  <text x="74" y="297" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle" >③</text>
+  <text x="100" y="283" font-size="16" font-weight="700" fill="#1e293b" >管灌使用共用空針（B31）</text>
+  <text x="100" y="306" font-size="14" fill="#57534e" >預防：護理站為每位管灌住民設置個別「空針包」，張貼姓名標籤，每月盤點存量</text>
+  <rect x="596" y="269" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="664" y="288" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600" >床邊標示</text>
+  <text x="664" y="307" font-size="13" fill="#78716c" text-anchor="middle" >月度盤點</text>
 
   <!-- Row 4 (y=385) -->
   <rect x="40" y="335" width="720" height="62" rx="6" fill="#ffffff"/>
-  <rect x="40" y="335" width="6" height="62" rx="3" fill="#57534e"/>
+  <rect x="40" y="335" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="74" cy="366" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="74" y="372" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">④</text>
-  <text x="100" y="358" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">管灌後未維持抬高姿勢或無紀錄（B31）</text>
-  <text x="100" y="381" font-size="14" fill="#57534e" font-family="sans-serif">預防：灌食紀錄表增設「灌食結束時間」與「抬高維持至（時間）」欄位，強制填寫</text>
-  <rect x="596" y="344" width="136" height="46" rx="5" fill="#57534e" opacity="0.1"/>
-  <text x="664" y="363" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">表單</text>
-  <text x="664" y="382" font-size="13" fill="#57534e" text-anchor="middle" font-family="sans-serif">欄位設計</text>
+  <text x="74" y="372" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle" >④</text>
+  <text x="100" y="358" font-size="16" font-weight="700" fill="#1e293b" >管灌後未維持抬高姿勢或無紀錄（B31）</text>
+  <text x="100" y="381" font-size="14" fill="#57534e" >預防：灌食紀錄表增設「灌食結束時間」與「抬高維持至（時間）」欄位，強制填寫</text>
+  <rect x="596" y="344" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="664" y="363" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600" >表單</text>
+  <text x="664" y="382" font-size="13" fill="#57534e" text-anchor="middle" >欄位設計</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

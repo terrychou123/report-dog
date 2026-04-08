@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">以 PDCA 建立 A4 持續改善機制</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">從被動應對到主動預防</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">以 PDCA 建立 A4 持續改善機制</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">從被動應對到主動預防</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- P -->
   <rect x="40" y="118" width="340" height="138" rx="12" fill="#d97706"/>
-  <text x="80" y="152" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#ffffff">P</text>
-  <text x="118" y="152" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff">Plan 計畫</text>
-  <text x="60" y="180" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd">每年初盤點過去 1 年所有缺失</text>
-  <text x="60" y="200" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd">分析缺失集中類型與根因</text>
-  <text x="60" y="220" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd">制定預防性改善計畫</text>
-  <text x="60" y="240" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd">設定各項缺失改善的 KPI</text>
+  <text x="80" y="152"  font-size="28" font-weight="700" fill="#ffffff">P</text>
+  <text x="118" y="152"  font-size="20" font-weight="700" fill="#ffffff">Plan 計畫</text>
+  <text x="60" y="180"  font-size="14" fill="#fff3cd">每年初盤點過去 1 年所有缺失</text>
+  <text x="60" y="200"  font-size="14" fill="#fff3cd">分析缺失集中類型與根因</text>
+  <text x="60" y="220"  font-size="14" fill="#fff3cd">制定預防性改善計畫</text>
+  <text x="60" y="240"  font-size="14" fill="#fff3cd">設定各項缺失改善的 KPI</text>
   <!-- D -->
   <rect x="420" y="118" width="340" height="138" rx="12" fill="#78716c"/>
-  <text x="460" y="152" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#ffffff">D</text>
-  <text x="498" y="152" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff">Do 執行</text>
-  <text x="440" y="180" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">依計畫執行缺失改善</text>
-  <text x="440" y="200" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">每季更新缺失追蹤台帳</text>
-  <text x="440" y="220" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">留存所有佐證文件</text>
-  <text x="440" y="240" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">每筆缺失確保結案記錄</text>
+  <text x="460" y="152"  font-size="28" font-weight="700" fill="#ffffff">D</text>
+  <text x="498" y="152"  font-size="20" font-weight="700" fill="#ffffff">Do 執行</text>
+  <text x="440" y="180"  font-size="14" fill="#d4ccc8">依計畫執行缺失改善</text>
+  <text x="440" y="200"  font-size="14" fill="#d4ccc8">每季更新缺失追蹤台帳</text>
+  <text x="440" y="220"  font-size="14" fill="#d4ccc8">留存所有佐證文件</text>
+  <text x="440" y="240"  font-size="14" fill="#d4ccc8">每筆缺失確保結案記錄</text>
   <!-- C -->
   <rect x="40" y="272" width="340" height="138" rx="12" fill="#57534e"/>
-  <text x="80" y="306" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#ffffff">C</text>
-  <text x="118" y="306" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff">Check 查核</text>
-  <text x="60" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">每半年進行內部自查</text>
-  <text x="60" y="354" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">模擬各機關查核重點</text>
-  <text x="60" y="374" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">提前發現潛在缺失</text>
-  <text x="60" y="394" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8">評鑑前完整 A4 文件演示</text>
+  <text x="80" y="306"  font-size="28" font-weight="700" fill="#ffffff">C</text>
+  <text x="118" y="306"  font-size="20" font-weight="700" fill="#ffffff">Check 查核</text>
+  <text x="60" y="334"  font-size="14" fill="#d4ccc8">每半年進行內部自查</text>
+  <text x="60" y="354"  font-size="14" fill="#d4ccc8">模擬各機關查核重點</text>
+  <text x="60" y="374"  font-size="14" fill="#d4ccc8">提前發現潛在缺失</text>
+  <text x="60" y="394"  font-size="14" fill="#d4ccc8">評鑑前完整 A4 文件演示</text>
   <!-- A -->
   <rect x="420" y="272" width="340" height="138" rx="12" fill="#94a3b8"/>
-  <text x="460" y="306" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#ffffff">A</text>
-  <text x="498" y="306" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff">Act 行動</text>
-  <text x="440" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0">有效改善措施標準化</text>
-  <text x="440" y="354" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0">納入 SOP 更新</text>
-  <text x="440" y="374" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0">加入員工在職訓練</text>
-  <text x="440" y="394" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0">更新設備維護排程</text>
+  <text x="460" y="306"  font-size="28" font-weight="700" fill="#ffffff">A</text>
+  <text x="498" y="306"  font-size="20" font-weight="700" fill="#ffffff">Act 行動</text>
+  <text x="440" y="334"  font-size="14" fill="#e2e8f0">有效改善措施標準化</text>
+  <text x="440" y="354"  font-size="14" fill="#e2e8f0">納入 SOP 更新</text>
+  <text x="440" y="374"  font-size="14" fill="#e2e8f0">加入員工在職訓練</text>
+  <text x="440" y="394"  font-size="14" fill="#e2e8f0">更新設備維護排程</text>
   <!-- 循環箭頭 -->
-  <text x="400" y="200" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#a8a29e" text-anchor="middle">&#8594;</text>
-  <text x="400" y="350" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#a8a29e" text-anchor="middle">&#8592;</text>
-  <text x="210" y="260" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#a8a29e" text-anchor="middle">&#8595;</text>
-  <text x="590" y="260" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#a8a29e" text-anchor="middle">&#8593;</text>
+  <text x="400" y="200"  font-size="24" fill="#a8a29e" text-anchor="middle">&#8594;</text>
+  <text x="400" y="350"  font-size="24" fill="#a8a29e" text-anchor="middle">&#8592;</text>
+  <text x="210" y="260"  font-size="24" fill="#a8a29e" text-anchor="middle">&#8595;</text>
+  <text x="590" y="260"  font-size="24" fill="#a8a29e" text-anchor="middle">&#8593;</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

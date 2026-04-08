@@ -19,7 +19,7 @@
   <text x="130" y="166" text-anchor="middle" font-size="14" fill="#57534e">逐條對照</text>
   <text x="130" y="184" text-anchor="middle" font-size="14" fill="#57534e">49項自評</text>
   <line x1="130" y1="208" x2="130" y2="248" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <circle cx="130" cy="272" r="24" fill="#d97706"/>
+  <circle cx="130" cy="272" r="24" fill="#d97706" opacity="0.15"/>
   <text x="130" y="280" text-anchor="middle" font-size="18" fill="white" font-weight="700">1</text>
   <rect x="96" y="300" width="68" height="22" rx="11" fill="#d97706"/>
   <text x="130" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W1–W4</text>
@@ -35,7 +35,7 @@
   <text x="310" y="166" text-anchor="middle" font-size="14" fill="#57534e">補齊文件</text>
   <text x="310" y="184" text-anchor="middle" font-size="14" fill="#57534e">ISP/消防優先</text>
   <line x1="310" y1="208" x2="310" y2="248" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <circle cx="310" cy="272" r="24" fill="#78716c"/>
+  <circle cx="310" cy="272" r="24" fill="#78716c" opacity="0.15"/>
   <text x="310" y="280" text-anchor="middle" font-size="18" fill="white" font-weight="700">2</text>
   <rect x="276" y="300" width="68" height="22" rx="11" fill="#78716c"/>
   <text x="310" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W5–W8</text>
@@ -48,7 +48,7 @@
   <text x="490" y="166" text-anchor="middle" font-size="14" fill="#57534e">角色扮演</text>
   <text x="490" y="184" text-anchor="middle" font-size="14" fill="#57534e">逐條清查</text>
   <line x1="490" y1="208" x2="490" y2="248" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <circle cx="490" cy="272" r="24" fill="#57534e"/>
+  <circle cx="490" cy="272" r="24" fill="#57534e" opacity="0.15"/>
   <text x="490" y="280" text-anchor="middle" font-size="18" fill="white" font-weight="700">3</text>
   <rect x="456" y="300" width="68" height="22" rx="11" fill="#57534e"/>
   <text x="490" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W9–W11</text>
@@ -64,7 +64,7 @@
   <text x="670" y="401" text-anchor="middle" font-size="14" fill="#57534e">資料索引</text>
   <text x="670" y="421" text-anchor="middle" font-size="14" fill="#57534e">環境整潔</text>
   <line x1="670" y1="296" x2="670" y2="350" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <circle cx="670" cy="272" r="24" fill="#a8a29e"/>
+  <circle cx="670" cy="272" r="24" fill="#a8a29e" opacity="0.15"/>
   <text x="670" y="280" text-anchor="middle" font-size="18" fill="white" font-weight="700">4</text>
   <rect x="636" y="222" width="68" height="22" rx="11" fill="#a8a29e"/>
   <text x="670" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">最後1週</text>

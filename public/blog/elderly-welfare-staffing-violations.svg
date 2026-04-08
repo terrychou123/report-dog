@@ -1,69 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
   <rect x="0" y="0" width="800" height="76" fill="#1e293b"/>
-  <text x="400" y="29" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">人力配置類高頻扣分點</text>
-  <text x="400" y="57" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="700">五大常見違規彙整</text>
+  <text x="400" y="29"  font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">人力配置類高頻扣分點</text>
+  <text x="400" y="57"  font-size="22" fill="white" text-anchor="middle" font-weight="700">五大常見違規彙整</text>
 
   <!-- N=5 版型: H=60, outer_gap=29, Row y: 118/191/264/337/410 -->
 
   <!-- Row 1: 護理人員夜班空窗 -->
   <rect x="29" y="88" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="88" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="118" r="16" fill="#d97706"/>
-  <text x="66" y="124" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">1</text>
-  <text x="100" y="112" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">護理人員夜班空窗</text>
-  <text x="100" y="134" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">夜班或假日無護理人員，僅由照服員值班；違反 A9 全日排班要求</text>
-  <rect x="620" y="95" width="136" height="46" rx="6" fill="#fef2f2"/>
-  <text x="688" y="114" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">A9</text>
-  <text x="688" y="132" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle">最高頻</text>
+  <rect x="29" y="88" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="118" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="124"  font-size="14" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="100" y="112"  font-size="20" fill="#1e293b" font-weight="700">護理人員夜班空窗</text>
+  <text x="100" y="134"  font-size="16" fill="#57534e">夜班或假日無護理人員，僅由照服員值班；違反 A9 全日排班要求</text>
+  <rect x="620" y="95" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="114"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">A9</text>
+  <text x="688" y="132"  font-size="14" fill="#dc2626" text-anchor="middle">最高頻</text>
 
   <!-- Row 2: 外籍比例超標 -->
   <rect x="29" y="161" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="161" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="191" r="16" fill="#78716c"/>
-  <text x="66" y="197" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
-  <text x="100" y="185" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">外籍照服員比例超標</text>
-  <text x="100" y="207" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">本國籍照服員離職後未補充，外籍比例超過 1/2，常未察覺</text>
-  <rect x="620" y="168" width="136" height="46" rx="6" fill="#fef2f2"/>
-  <text x="688" y="187" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">A11</text>
-  <text x="688" y="205" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle">異動即算</text>
+  <rect x="29" y="161" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="191" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="197"  font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="100" y="185"  font-size="20" fill="#1e293b" font-weight="700">外籍照服員比例超標</text>
+  <text x="100" y="207"  font-size="16" fill="#57534e">本國籍照服員離職後未補充，外籍比例超過 1/2，常未察覺</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="187"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">A11</text>
+  <text x="688" y="205"  font-size="14" fill="#dc2626" text-anchor="middle">異動即算</text>
 
   <!-- Row 3: 特約未完成報備 -->
   <rect x="29" y="234" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="234" width="6" height="60" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="264" r="16" fill="#57534e"/>
-  <text x="66" y="270" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
-  <text x="100" y="258" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">特約專業人員未完成支援報備</text>
-  <text x="100" y="280" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">有合約但無報備公文，或報備公文已到期未續辦</text>
-  <rect x="620" y="241" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="688" y="260" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">A10</text>
-  <text x="688" y="278" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">定期續辦</text>
+  <rect x="29" y="234" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="264" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="270"  font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="100" y="258"  font-size="20" fill="#1e293b" font-weight="700">特約專業人員未完成支援報備</text>
+  <text x="100" y="280"  font-size="16" fill="#57534e">有合約但無報備公文，或報備公文已到期未續辦</text>
+  <rect x="620" y="241" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="688" y="260"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">A10</text>
+  <text x="688" y="278"  font-size="14" fill="#57534e" text-anchor="middle">定期續辦</text>
 
   <!-- Row 4: 訓練記錄缺失 -->
   <rect x="29" y="307" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="307" width="6" height="60" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="337" r="16" fill="#a8a29e"/>
-  <text x="66" y="343" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">4</text>
-  <text x="100" y="331" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">訓練記錄缺失</text>
-  <text x="100" y="353" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">職前訓練超過1個月未完成、在職訓練時數不足、急救證明失效</text>
-  <rect x="620" y="314" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="688" y="333" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">A13–A14</text>
-  <text x="688" y="351" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">逐人追蹤</text>
+  <rect x="29" y="307" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="337" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="343"  font-size="14" fill="white" text-anchor="middle" font-weight="700">4</text>
+  <text x="100" y="331"  font-size="20" fill="#1e293b" font-weight="700">訓練記錄缺失</text>
+  <text x="100" y="353"  font-size="16" fill="#57534e">職前訓練超過1個月未完成、在職訓練時數不足、急救證明失效</text>
+  <rect x="620" y="314" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="688" y="333"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">A13–A14</text>
+  <text x="688" y="351"  font-size="14" fill="#57534e" text-anchor="middle">逐人追蹤</text>
 
   <!-- Row 5: 負責人投保異常 -->
   <rect x="29" y="380" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="380" width="6" height="60" rx="3" fill="#94a3b8"/>
-  <circle cx="66" cy="410" r="16" fill="#94a3b8"/>
-  <text x="66" y="416" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">5</text>
-  <text x="100" y="404" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">業務負責人投保狀態異常</text>
-  <text x="100" y="426" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">換負責人後未及時更新勞健保投保；兼職情況未妥善處理</text>
-  <rect x="620" y="387" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="688" y="406" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">A7</text>
-  <text x="688" y="424" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">換人即辦</text>
+  <rect x="29" y="380" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="410" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="416"  font-size="14" fill="white" text-anchor="middle" font-weight="700">5</text>
+  <text x="100" y="404"  font-size="20" fill="#1e293b" font-weight="700">業務負責人投保狀態異常</text>
+  <text x="100" y="426"  font-size="16" fill="#57534e">換負責人後未及時更新勞健保投保；兼職情況未妥善處理</text>
+  <rect x="620" y="387" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="688" y="406"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">A7</text>
+  <text x="688" y="424"  font-size="14" fill="#57534e" text-anchor="middle">換人即辦</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', 'PingFang TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

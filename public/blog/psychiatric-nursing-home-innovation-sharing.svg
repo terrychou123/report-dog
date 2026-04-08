@@ -1,38 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 主標題 -->
-  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">創新措施公開分享管道</text>
+  <text x="40" y="48" font-size="32" fill="#1e293b"  font-weight="bold">創新措施公開分享管道</text>
   <!-- 副標題 -->
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">E1.1要求的「公開分享」達標方式</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >E1.1要求的「公開分享」達標方式</text>
   <!-- 分隔線 -->
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 行1 -->
   <rect x="40" y="118" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="118" width="6" height="68" rx="3" fill="#d97706"/>
-  <text x="70" y="147" font-size="22" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="bold">獲得獎項</text>
-  <text x="70" y="174" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">政府機關、專業學會或評比活動的機構獎勵</text>
+  <rect x="40" y="118" width="6" height="68" rx="2" fill="#d97706"/>
+  <text x="70" y="147" font-size="22" fill="#d97706"  font-weight="bold">獲得獎項</text>
+  <text x="70" y="174" font-size="17" fill="#57534e" >政府機關、專業學會或評比活動的機構獎勵</text>
 
   <!-- 行2 -->
   <rect x="40" y="202" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="202" width="6" height="68" rx="3" fill="#78716c"/>
-  <text x="70" y="231" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="bold">發表論文</text>
-  <text x="70" y="258" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">期刊論文、研討會摘要、機構成效報告</text>
+  <rect x="40" y="202" width="6" height="68" rx="2" fill="#78716c"/>
+  <text x="70" y="231" font-size="22" fill="#78716c"  font-weight="bold">發表論文</text>
+  <text x="70" y="258" font-size="17" fill="#57534e" >期刊論文、研討會摘要、機構成效報告</text>
 
   <!-- 行3 -->
   <rect x="40" y="286" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="286" width="6" height="68" rx="3" fill="#57534e"/>
-  <text x="70" y="315" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="bold">接受參訪</text>
-  <text x="70" y="342" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">邀請其他機構參訪，正式接待有紀錄</text>
+  <rect x="40" y="286" width="6" height="68" rx="2" fill="#57534e"/>
+  <text x="70" y="315" font-size="22" fill="#57534e"  font-weight="bold">接受參訪</text>
+  <text x="70" y="342" font-size="17" fill="#57534e" >邀請其他機構參訪，正式接待有紀錄</text>
 
   <!-- 行4 -->
   <rect x="40" y="370" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="370" width="6" height="68" rx="3" fill="#a8a29e"/>
-  <text x="70" y="399" font-size="22" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif" font-weight="bold">活動報告</text>
-  <text x="70" y="426" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">在研討會、訓練課程或機構網站對外分享成果</text>
+  <rect x="40" y="370" width="6" height="68" rx="2" fill="#a8a29e"/>
+  <text x="70" y="399" font-size="22" fill="#a8a29e"  font-weight="bold">活動報告</text>
+  <text x="70" y="426" font-size="17" fill="#57534e" >在研討會、訓練課程或機構網站對外分享成果</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

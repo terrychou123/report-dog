@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
@@ -6,36 +6,36 @@
   <rect x="720" y="0" width="480" height="630" fill="#e8e6de" rx="0"/>
 
   <!-- 右側大字「25%」 -->
-  <text x="960" y="260" font-size="160" font-weight="900" fill="#0d9488" text-anchor="middle" font-family="sans-serif">25%</text>
+  <text x="960" y="260" font-size="160" font-weight="900" fill="#0d9488" text-anchor="middle" >25%</text>
   <!-- 右側說明文字 -->
-  <text x="960" y="320" font-size="36" fill="#57534e" text-anchor="middle" font-family="sans-serif">配分佔比</text>
-  <text x="960" y="370" font-size="28" fill="#78716c" text-anchor="middle" font-family="sans-serif">C 區安全環境設備</text>
+  <text x="960" y="320" font-size="36" fill="#57534e" text-anchor="middle" >配分佔比</text>
+  <text x="960" y="370" font-size="28" fill="#78716c" text-anchor="middle" >C 區安全環境設備</text>
 
   <!-- 左側主標題第1行 -->
-  <text x="80" y="190" font-size="100" font-weight="900" fill="#1e293b" font-family="sans-serif">C 區安全環境</text>
+  <text x="80" y="190" font-size="100" font-weight="900" fill="#1e293b" >C 區安全環境</text>
   <!-- 左側主標題第2行（青色） -->
-  <text x="80" y="310" font-size="100" font-weight="900" fill="#0d9488" font-family="sans-serif">16 項全解析</text>
+  <text x="80" y="310" font-size="100" font-weight="900" fill="#0d9488" >16 項全解析</text>
 
   <!-- 副標題 -->
-  <text x="80" y="380" font-size="38" fill="#57534e" font-family="sans-serif">6 項一級必要指標一票否決，25% 配分不失守</text>
+  <text x="80" y="380" font-size="38" fill="#57534e" >6 項一級必要指標一票否決，25% 配分不失守</text>
 
   <!-- Pill 標籤 -->
   <!-- Pill 1 -->
   <rect x="80" y="430" width="170" height="44" rx="22" fill="#0d9488"/>
-  <text x="165" y="458" font-size="20" fill="white" text-anchor="middle" font-family="sans-serif">一票否決機制</text>
+  <text x="165" y="458" font-size="20" fill="white" text-anchor="middle" >一票否決機制</text>
   <!-- Pill 2 -->
   <rect x="264" y="430" width="130" height="44" rx="22" fill="#0f766e"/>
-  <text x="329" y="458" font-size="20" fill="white" text-anchor="middle" font-family="sans-serif">消防安全</text>
+  <text x="329" y="458" font-size="20" fill="white" text-anchor="middle" >消防安全</text>
   <!-- Pill 3 -->
   <rect x="408" y="430" width="130" height="44" rx="22" fill="#0f766e"/>
-  <text x="473" y="458" font-size="20" fill="white" text-anchor="middle" font-family="sans-serif">緊急呼叫</text>
+  <text x="473" y="458" font-size="20" fill="white" text-anchor="middle" >緊急呼叫</text>
   <!-- Pill 4 -->
   <rect x="552" y="430" width="130" height="44" rx="22" fill="#134e4a"/>
-  <text x="617" y="458" font-size="20" fill="white" text-anchor="middle" font-family="sans-serif">AI自我查核</text>
+  <text x="617" y="458" font-size="20" fill="white" text-anchor="middle" >AI自我查核</text>
 
   <!-- 底部細節 -->
-  <text x="80" y="560" font-size="26" fill="#78716c" font-family="sans-serif">老人福利機構評鑑 115年度 ｜ C區16項指標完整攻略</text>
+  <text x="80" y="560" font-size="26" fill="#78716c" >老人福利機構評鑑 115年度 ｜ C區16項指標完整攻略</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

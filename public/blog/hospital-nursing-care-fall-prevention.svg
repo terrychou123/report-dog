@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9" />
   <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
 
   <!-- 標題 -->
-  <text x="400" y="38" font-family="'Noto Sans TC', sans-serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">跌倒壓傷雙預防評鑑查核重點</text>
-  <text x="400" y="58" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">2.3.6 跌倒預防 × 2.3.7 壓傷預防｜資料查核＋實地查核</text>
+  <text x="400" y="38"  font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">跌倒壓傷雙預防評鑑查核重點</text>
+  <text x="400" y="58"  font-size="12" fill="#a8a29e" text-anchor="middle">2.3.6 跌倒預防 × 2.3.7 壓傷預防｜資料查核＋實地查核</text>
 
   <!-- 列1 -->
   <rect x="30" y="82" width="740" height="110" rx="10" fill="#fffbeb" />
-  <rect x="30" y="82" width="6" height="110" rx="3" fill="#d97706" />
-  <circle cx="72" cy="137" r="24" fill="#d97706" />
-  <text x="72" y="143" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="112" y="116" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#92400e">入院風險評估</text>
-  <text x="112" y="140" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">跌倒：Morse 量表評估；壓傷：Braden 量表評估</text>
-  <text x="112" y="162" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">高風險病人床邊標示清楚，並主動告知家屬預防措施</text>
+  <rect x="30" y="82" width="6" height="110" rx="2" fill="#d97706" />
+  <circle cx="72" cy="137" r="24" fill="#d97706"  opacity="0.15"/>
+  <text x="72" y="143"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
+  <text x="112" y="116"  font-size="18" font-weight="700" fill="#92400e">入院風險評估</text>
+  <text x="112" y="140"  font-size="14" fill="#57534e">跌倒：Morse 量表評估；壓傷：Braden 量表評估</text>
+  <text x="112" y="162"  font-size="14" fill="#57534e">高風險病人床邊標示清楚，並主動告知家屬預防措施</text>
   <rect x="640" y="108" width="108" height="32" rx="16" fill="#d97706" />
-  <text x="694" y="129" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">量表工具</text>
+  <text x="694" y="129"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">量表工具</text>
 
   <!-- 列2 -->
   <rect x="30" y="206" width="740" height="110" rx="10" fill="#f5f5f4" />
-  <rect x="30" y="206" width="6" height="110" rx="3" fill="#78716c" />
-  <circle cx="72" cy="261" r="24" fill="#78716c" />
-  <text x="72" y="267" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="112" y="240" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">預防措施執行記錄</text>
-  <text x="112" y="264" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">跌倒：床欄、呼叫鈴、防滑鞋、環境整潔，有護理紀錄</text>
-  <text x="112" y="286" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">壓傷：每 2 小時翻身，翻身單確實填寫，皮膚評估有記錄</text>
+  <rect x="30" y="206" width="6" height="110" rx="2" fill="#78716c" />
+  <circle cx="72" cy="261" r="24" fill="#78716c"  opacity="0.15"/>
+  <text x="72" y="267"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
+  <text x="112" y="240"  font-size="18" font-weight="700" fill="#44403c">預防措施執行記錄</text>
+  <text x="112" y="264"  font-size="14" fill="#57534e">跌倒：床欄、呼叫鈴、防滑鞋、環境整潔，有護理紀錄</text>
+  <text x="112" y="286"  font-size="14" fill="#57534e">壓傷：每 2 小時翻身，翻身單確實填寫，皮膚評估有記錄</text>
   <rect x="640" y="232" width="108" height="32" rx="16" fill="#78716c" />
-  <text x="694" y="253" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">實地查核</text>
+  <text x="694" y="253"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">實地查核</text>
 
   <!-- 列3 -->
   <rect x="30" y="330" width="740" height="110" rx="10" fill="#f5f5f4" />
-  <rect x="30" y="330" width="6" height="110" rx="3" fill="#57534e" />
-  <circle cx="72" cy="385" r="24" fill="#57534e" />
-  <text x="72" y="391" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="112" y="364" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">事件通報與後續處理</text>
-  <text x="112" y="388" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">發生跌倒或院內壓傷時，24 小時內完成異常事件通報</text>
-  <text x="112" y="410" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">評估發生原因、後續處理措施與改善計畫均有書面記錄</text>
+  <rect x="30" y="330" width="6" height="110" rx="2" fill="#57534e" />
+  <circle cx="72" cy="385" r="24" fill="#57534e"  opacity="0.15"/>
+  <text x="72" y="391"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
+  <text x="112" y="364"  font-size="18" font-weight="700" fill="#44403c">事件通報與後續處理</text>
+  <text x="112" y="388"  font-size="14" fill="#57534e">發生跌倒或院內壓傷時，24 小時內完成異常事件通報</text>
+  <text x="112" y="410"  font-size="14" fill="#57534e">評估發生原因、後續處理措施與改善計畫均有書面記錄</text>
   <rect x="640" y="356" width="108" height="32" rx="16" fill="#57534e" />
-  <text x="694" y="377" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">通報追蹤</text>
+  <text x="694" y="377"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">通報追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

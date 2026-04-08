@@ -1,38 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">第四週行動計畫</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">模擬評鑑走一遍——找出真正的缺口</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">第四週行動計畫</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">模擬評鑑走一遍——找出真正的缺口</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <rect x="40" y="108" width="100" height="36" rx="18" fill="#94a3b8"/>
-  <text x="90" y="131" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">第 4 週</text>
+  <text x="90" y="131"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">第 4 週</text>
   <!-- 項目1 -->
   <rect x="40" y="162" width="720" height="64" rx="8" fill="#ffffff"/>
-  <rect x="40" y="162" width="6" height="64" rx="3" fill="#d97706"/>
-  <circle cx="80" cy="194" r="18" fill="#d97706"/>
-  <text x="80" y="200" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="116" y="186" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">對照 75 條基準逐一自查（重點：9 項一級必要）</text>
-  <text x="116" y="210" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">確認每條文件是否到位，標注缺口並列入緊急改善清單</text>
+  <rect x="40" y="162" width="6" height="64" rx="2" fill="#d97706"/>
+  <circle cx="80" cy="194" r="18" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="200"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
+  <text x="116" y="186"  font-size="17" font-weight="700" fill="#1e293b">對照 75 條基準逐一自查（重點：9 項一級必要）</text>
+  <text x="116" y="210"  font-size="15" fill="#57534e">確認每條文件是否到位，標注缺口並列入緊急改善清單</text>
   <!-- 項目2 -->
   <rect x="40" y="240" width="720" height="64" rx="8" fill="#ffffff"/>
-  <rect x="40" y="240" width="6" height="64" rx="3" fill="#78716c"/>
-  <circle cx="80" cy="272" r="18" fill="#78716c"/>
-  <text x="80" y="278" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="116" y="264" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">準備委員可能提問的問題並預演回答</text>
-  <text x="116" y="288" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">「跌倒事件如何處理？」「最近半年有無重大事件？」等訪談問題演練</text>
+  <rect x="40" y="240" width="6" height="64" rx="2" fill="#78716c"/>
+  <circle cx="80" cy="272" r="18" fill="#78716c" opacity="0.15"/>
+  <text x="80" y="278"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
+  <text x="116" y="264"  font-size="17" font-weight="700" fill="#1e293b">準備委員可能提問的問題並預演回答</text>
+  <text x="116" y="288"  font-size="15" fill="#57534e">「跌倒事件如何處理？」「最近半年有無重大事件？」等訪談問題演練</text>
   <!-- 項目3 -->
   <rect x="40" y="318" width="720" height="64" rx="8" fill="#ffffff"/>
-  <rect x="40" y="318" width="6" height="64" rx="3" fill="#57534e"/>
-  <circle cx="80" cy="350" r="18" fill="#57534e"/>
-  <text x="80" y="356" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="116" y="342" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">確認工作人員評鑑當天角色與文件位置</text>
-  <text x="116" y="366" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">護理長、社工師、行政各自清楚負責的評鑑面向與對應文件</text>
+  <rect x="40" y="318" width="6" height="64" rx="2" fill="#57534e"/>
+  <circle cx="80" cy="350" r="18" fill="#57534e" opacity="0.15"/>
+  <text x="80" y="356"  font-size="16" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
+  <text x="116" y="342"  font-size="17" font-weight="700" fill="#1e293b">確認工作人員評鑑當天角色與文件位置</text>
+  <text x="116" y="366"  font-size="15" fill="#57534e">護理長、社工師、行政各自清楚負責的評鑑面向與對應文件</text>
   <!-- 項目4 -->
   <rect x="40" y="396" width="720" height="64" rx="8" fill="#ffffff"/>
-  <rect x="40" y="396" width="6" height="64" rx="3" fill="#94a3b8"/>
-  <circle cx="80" cy="428" r="18" fill="#94a3b8"/>
-  <text x="80" y="434" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="116" y="420" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">使用多人協作工具追蹤各項目完成狀態</text>
-  <text x="116" y="444" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">評鑑準備任務分配各職責人員，主管即時查看進度，評鑑前零混亂</text>
+  <rect x="40" y="396" width="6" height="64" rx="2" fill="#94a3b8"/>
+  <circle cx="80" cy="428" r="18" fill="#94a3b8" opacity="0.15"/>
+  <text x="80" y="434"  font-size="16" font-weight="700" fill="#94a3b8" text-anchor="middle">4</text>
+  <text x="116" y="420"  font-size="17" font-weight="700" fill="#1e293b">使用多人協作工具追蹤各項目完成狀態</text>
+  <text x="116" y="444"  font-size="15" fill="#57534e">評鑑準備任務分配各職責人員，主管即時查看進度，評鑑前零混亂</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -7,12 +7,12 @@
 
   <!-- 標題列背景 -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
 
   <!-- 建議 1 -->
-  <rect x="28" y="118" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="118" width="6" height="72" rx="3" fill="#d97706"/>
-  <circle cx="70" cy="154" r="16" fill="#d97706"/>
+  <rect x="28" y="118" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="72" rx="2" fill="#d97706"/>
+  <circle cx="70" cy="154" r="16" fill="#d97706" opacity="0.15"/>
   <text x="70" y="160" font-size="20" fill="white" text-anchor="middle" font-weight="700">1</text>
   <text x="105" y="143" font-size="14" fill="#1e293b" font-weight="600">重新審視 B2 個案計畫的個別化程度</text>
   <text x="105" y="163" font-size="14" fill="#57534e">確認每位住民的個案計畫是否真正反映其個人偏好、生活習慣與文化背景</text>
@@ -22,9 +22,9 @@
   <text x="688" y="169" font-size="12" fill="#78716c" text-anchor="middle">B2 強化</text>
 
   <!-- 建議 2 -->
-  <rect x="28" y="203" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="203" width="6" height="72" rx="3" fill="#78716c"/>
-  <circle cx="70" cy="239" r="16" fill="#78716c"/>
+  <rect x="28" y="203" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="203" width="6" height="72" rx="2" fill="#78716c"/>
+  <circle cx="70" cy="239" r="16" fill="#78716c" opacity="0.15"/>
   <text x="70" y="245" font-size="20" fill="white" text-anchor="middle" font-weight="700">2</text>
   <text x="105" y="228" font-size="14" fill="#1e293b" font-weight="600">選擇一個流程進行數位化，作為 E2 創新措施</text>
   <text x="105" y="248" font-size="14" fill="#57534e">品質會議管理系統、跌倒紀錄數位化、或評鑑報告管理平台均可</text>
@@ -34,9 +34,9 @@
   <text x="688" y="254" font-size="12" fill="#78716c" text-anchor="middle">E2 素材</text>
 
   <!-- 建議 3 -->
-  <rect x="28" y="288" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="288" width="6" height="72" rx="3" fill="#57534e"/>
-  <circle cx="70" cy="324" r="16" fill="#57534e"/>
+  <rect x="28" y="288" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="288" width="6" height="72" rx="2" fill="#57534e"/>
+  <circle cx="70" cy="324" r="16" fill="#57534e" opacity="0.15"/>
   <text x="70" y="330" font-size="20" fill="white" text-anchor="middle" font-weight="700">3</text>
   <text x="105" y="313" font-size="14" fill="#1e293b" font-weight="600">強化品質會議的數據分析深度</text>
   <text x="105" y="333" font-size="14" fill="#57534e">在 B1 品質會議中加入跌倒、壓損、感染發生率的趨勢圖表分析</text>
@@ -46,14 +46,14 @@
   <text x="688" y="339" font-size="12" fill="#78716c" text-anchor="middle">B1 升級</text>
 
   <!-- 建議 4 -->
-  <rect x="28" y="373" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="373" width="6" height="72" rx="3" fill="#94a3b8"/>
-  <circle cx="70" cy="409" r="16" fill="#94a3b8"/>
+  <rect x="28" y="373" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="373" width="6" height="72" rx="2" fill="#94a3b8"/>
+  <circle cx="70" cy="409" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="70" y="415" font-size="20" fill="white" text-anchor="middle" font-weight="700">4</text>
   <text x="105" y="398" font-size="14" fill="#1e293b" font-weight="600">建立住民生命故事紀錄，展現以人為中心的服務文化</text>
   <text x="105" y="418" font-size="14" fill="#57534e">在 D5 靈性關懷紀錄中加入住民個人故事、重要記憶與心願</text>
   <text x="105" y="436" font-size="13" fill="#78716c">這是長照3.0最難複製的競爭力，也是委員最願意給高分的亮點</text>
-  <rect x="620" y="381" width="136" height="55" rx="8" fill="#94a3b8" opacity="0.18"/>
+  <rect x="620" y="381" width="136" height="55" rx="8" fill="#94a3b8" opacity="0.12"/>
   <text x="688" y="406" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">文化建立</text>
   <text x="688" y="424" font-size="12" fill="#78716c" text-anchor="middle">D5 深化</text>
 

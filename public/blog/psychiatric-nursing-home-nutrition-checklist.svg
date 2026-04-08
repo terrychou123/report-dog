@@ -1,68 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 主標題 -->
-  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">膳食管理自評清單</text>
+  <text x="40" y="48" font-size="32" fill="#1e293b"  font-weight="bold">膳食管理自評清單</text>
   <!-- 副標題 -->
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑前確認B3.1的七項要求</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >評鑑前確認B3.1的七項要求</text>
   <!-- 分隔線 -->
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 左欄標題 -->
   <rect x="40" y="114" width="340" height="44" rx="8" fill="#d97706"/>
-  <text x="210" y="141" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">菜單管理</text>
+  <text x="210" y="141" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">菜單管理</text>
 
   <!-- 右欄標題 -->
   <rect x="420" y="114" width="340" height="44" rx="8" fill="#78716c"/>
-  <text x="590" y="141" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">個別化飲食</text>
+  <text x="590" y="141" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">個別化飲食</text>
 
   <!-- 左欄項目1：確認 -->
   <rect x="40" y="172" width="340" height="52" rx="6" fill="white" opacity="0.8"/>
-  <circle cx="72" cy="198" r="14" fill="#d97706"/>
-  <text x="72" y="204" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">✓</text>
-  <text x="98" y="193" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">確認</text>
-  <text x="98" y="215" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">有2週循環菜單</text>
+  <circle cx="72" cy="198" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="72" y="204" font-size="16" fill="white" text-anchor="middle"  font-weight="bold">✓</text>
+  <text x="98" y="193" font-size="16" fill="#1e293b"  font-weight="bold">確認</text>
+  <text x="98" y="215" font-size="15" fill="#57534e" >有2週循環菜單</text>
 
   <!-- 左欄項目2：確認 -->
   <rect x="40" y="234" width="340" height="52" rx="6" fill="white" opacity="0.8"/>
-  <circle cx="72" cy="260" r="14" fill="#d97706"/>
-  <text x="72" y="266" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">✓</text>
-  <text x="98" y="255" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">確認</text>
-  <text x="98" y="277" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">快樂餐有紀錄</text>
+  <circle cx="72" cy="260" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="72" y="266" font-size="16" fill="white" text-anchor="middle"  font-weight="bold">✓</text>
+  <text x="98" y="255" font-size="16" fill="#1e293b"  font-weight="bold">確認</text>
+  <text x="98" y="277" font-size="15" fill="#57534e" >快樂餐有紀錄</text>
 
   <!-- 左欄項目3：待確認 -->
   <rect x="40" y="296" width="340" height="52" rx="6" fill="white" opacity="0.8"/>
-  <circle cx="72" cy="322" r="14" fill="#a8a29e"/>
-  <text x="72" y="328" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">?</text>
-  <text x="98" y="317" font-size="16" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="bold">待確認</text>
-  <text x="98" y="339" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">菜單由營養師擬定</text>
+  <circle cx="72" cy="322" r="14" fill="#a8a29e" opacity="0.15"/>
+  <text x="72" y="328" font-size="16" fill="white" text-anchor="middle" >?</text>
+  <text x="98" y="317" font-size="16" fill="#78716c"  font-weight="bold">待確認</text>
+  <text x="98" y="339" font-size="15" fill="#57534e" >菜單由營養師擬定</text>
 
   <!-- 右欄項目1：確認 -->
   <rect x="420" y="172" width="340" height="52" rx="6" fill="white" opacity="0.8"/>
-  <circle cx="452" cy="198" r="14" fill="#78716c"/>
-  <text x="452" y="204" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">✓</text>
-  <text x="478" y="193" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">確認</text>
-  <text x="478" y="215" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">質地差異化</text>
+  <circle cx="452" cy="198" r="14" fill="#78716c" opacity="0.15"/>
+  <text x="452" y="204" font-size="16" fill="white" text-anchor="middle"  font-weight="bold">✓</text>
+  <text x="478" y="193" font-size="16" fill="#1e293b"  font-weight="bold">確認</text>
+  <text x="478" y="215" font-size="15" fill="#57534e" >質地差異化</text>
 
   <!-- 右欄項目2：確認 -->
   <rect x="420" y="234" width="340" height="52" rx="6" fill="white" opacity="0.8"/>
-  <circle cx="452" cy="260" r="14" fill="#78716c"/>
-  <text x="452" y="266" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">✓</text>
-  <text x="478" y="255" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">確認</text>
-  <text x="478" y="277" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">有滿意度調查</text>
+  <circle cx="452" cy="260" r="14" fill="#78716c" opacity="0.15"/>
+  <text x="452" y="266" font-size="16" fill="white" text-anchor="middle"  font-weight="bold">✓</text>
+  <text x="478" y="255" font-size="16" fill="#1e293b"  font-weight="bold">確認</text>
+  <text x="478" y="277" font-size="15" fill="#57534e" >有滿意度調查</text>
 
   <!-- 右欄項目3：待確認 -->
   <rect x="420" y="296" width="340" height="52" rx="6" fill="white" opacity="0.8"/>
-  <circle cx="452" cy="322" r="14" fill="#a8a29e"/>
-  <text x="452" y="328" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">?</text>
-  <text x="478" y="317" font-size="16" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="bold">待確認</text>
-  <text x="478" y="339" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">特殊疾病飲食計畫</text>
+  <circle cx="452" cy="322" r="14" fill="#a8a29e" opacity="0.15"/>
+  <text x="452" y="328" font-size="16" fill="white" text-anchor="middle" >?</text>
+  <text x="478" y="317" font-size="16" fill="#78716c"  font-weight="bold">待確認</text>
+  <text x="478" y="339" font-size="15" fill="#57534e" >特殊疾病飲食計畫</text>
 
   <!-- 底部提示 -->
   <rect x="40" y="370" width="720" height="50" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="400" y="400" font-size="17" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">「待確認」項目請於評鑑前完成補件，確保文件齊全</text>
+  <text x="400" y="400" font-size="17" fill="#78716c" text-anchor="middle" >「待確認」項目請於評鑑前完成補件，確保文件齊全</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

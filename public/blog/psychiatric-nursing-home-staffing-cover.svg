@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
@@ -6,59 +6,59 @@
   <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
 
   <!-- 主標題第1行 -->
-  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">人力配置</text>
+  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" >人力配置</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">完整解析</text>
+  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" >完整解析</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="322" x2="760" y2="322" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 副標題 -->
-  <text x="60" y="366" font-size="36" fill="#57534e" font-family="'Noto Sans TC', sans-serif">24小時護理在班與專業人員設置全指南</text>
+  <text x="60" y="366" font-size="36" fill="#57534e" >24小時護理在班與專業人員設置全指南</text>
 
   <!-- 特色標籤列 -->
   <rect x="60" y="396" width="180" height="40" rx="20" fill="#d97706"/>
-  <text x="150" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">A2.2試扣分</text>
+  <text x="150" y="421" font-size="20" fill="white" text-anchor="middle" >A2.2試扣分</text>
 
   <rect x="256" y="396" width="140" height="40" rx="20" fill="#78716c"/>
-  <text x="326" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">24小時</text>
+  <text x="326" y="421" font-size="20" fill="white" text-anchor="middle" >24小時</text>
 
   <rect x="412" y="396" width="160" height="40" rx="20" fill="#57534e"/>
-  <text x="492" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">200床分界</text>
+  <text x="492" y="421" font-size="20" fill="white" text-anchor="middle" >200床分界</text>
 
   <!-- 適用對象說明 -->
-  <text x="60" y="476" font-size="26" fill="#57534e" font-family="'Noto Sans TC', sans-serif">適用對象：人事主管、護理長、機構負責人</text>
+  <text x="60" y="476" font-size="26" fill="#57534e" >適用對象：人事主管、護理長、機構負責人</text>
 
   <!-- 右側裝飾大數字 -->
-  <text x="830" y="270" font-size="200" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif" opacity="0.9">24</text>
+  <text x="830" y="270" font-size="200" font-weight="bold" fill="#d97706"  opacity="0.9">24</text>
   <!-- 右側說明文字 -->
-  <text x="990" y="315" font-size="26" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">小時護理在班</text>
+  <text x="990" y="315" font-size="26" fill="#57534e" text-anchor="middle" >小時護理在班</text>
 
   <!-- 右側 2x2 資訊卡片 -->
   <!-- 卡片1 -->
   <rect x="825" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="375" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">護理人員</text>
-  <text x="907" y="400" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">24小時在班</text>
-  <text x="907" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">不可電話on-call</text>
+  <text x="907" y="375" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >護理人員</text>
+  <text x="907" y="400" font-size="15" fill="#57534e" text-anchor="middle" >24小時在班</text>
+  <text x="907" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" >不可電話on-call</text>
 
   <!-- 卡片2 -->
   <rect x="1005" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="375" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">照顧服務員</text>
-  <text x="1087" y="400" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依床數配置</text>
-  <text x="1087" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">資格需符合規定</text>
+  <text x="1087" y="375" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >照顧服務員</text>
+  <text x="1087" y="400" font-size="15" fill="#57534e" text-anchor="middle" >依床數配置</text>
+  <text x="1087" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" >資格需符合規定</text>
 
   <!-- 卡片3 -->
   <rect x="825" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="490" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">職能治療</text>
-  <text x="907" y="515" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">4hr/週</text>
-  <text x="907" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">200床為分界</text>
+  <text x="907" y="490" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >職能治療</text>
+  <text x="907" y="515" font-size="15" fill="#57534e" text-anchor="middle" >4hr/週</text>
+  <text x="907" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" >200床為分界</text>
 
   <!-- 卡片4 -->
   <rect x="1005" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="490" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">心理師</text>
-  <text x="1087" y="515" font-size="15" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">配置合規</text>
-  <text x="1087" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">同職能治療</text>
+  <text x="1087" y="490" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >心理師</text>
+  <text x="1087" y="515" font-size="15" fill="#57534e" text-anchor="middle" >配置合規</text>
+  <text x="1087" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" >同職能治療</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

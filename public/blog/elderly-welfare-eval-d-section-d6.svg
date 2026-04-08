@@ -1,42 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題列 -->
   <rect x="30" y="38" width="740" height="90" rx="10" fill="#2563eb"/>
-  <text x="400" y="80" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">D6 住民隱私及居家布置（二級加強）</text>
-  <text x="400" y="112" font-size="17" fill="#bfdbfe" text-anchor="middle" font-family="sans-serif">監視器規範 × 床位屏障 × 個人布置空間</text>
+  <text x="400" y="80" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" >D6 住民隱私及居家布置（二級加強）</text>
+  <text x="400" y="112" font-size="17" fill="#bfdbfe" text-anchor="middle" >監視器規範 × 床位屏障 × 個人布置空間</text>
 
   <!-- Row 1 (N=3: y=166) -->
   <rect x="30" y="166" width="740" height="90" rx="8" fill="#ffffff"/>
-  <rect x="30" y="166" width="6" height="90" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="211" r="16" fill="#d97706"/>
-  <text x="66" y="217" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
-  <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">監視器不得進入寢室及浴廁</text>
-  <text x="100" y="225" font-size="16" fill="#57534e" font-family="sans-serif">監視器嚴禁設置於服務對象寢室及浴廁內，違反即觸發二級加強扣分，現場察看驗證</text>
-  <rect x="620" y="174" width="136" height="46" rx="6" fill="#fee2e2"/>
-  <text x="688" y="202" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="600" font-family="sans-serif">高風險扣分項</text>
+  <rect x="30" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
+  <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700" >監視器不得進入寢室及浴廁</text>
+  <text x="100" y="225" font-size="16" fill="#57534e" >監視器嚴禁設置於服務對象寢室及浴廁內，違反即觸發二級加強扣分，現場察看驗證</text>
+  <rect x="620" y="174" width="136" height="46" rx="8" fill="#fee2e2" opacity="0.12"/>
+  <text x="688" y="202" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="600" >高風險扣分項</text>
 
   <!-- Row 2 (y=269) -->
   <rect x="30" y="269" width="740" height="90" rx="8" fill="#ffffff"/>
-  <rect x="30" y="269" width="6" height="90" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="314" r="16" fill="#78716c"/>
-  <text x="66" y="320" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
-  <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">床與床間設置圍簾隔屏</text>
-  <text x="100" y="328" font-size="16" fill="#57534e" font-family="sans-serif">多人房床位之間須有可隔離視線的屏障物（如圍簾），服務時隨時拉起，維護隱私</text>
-  <rect x="620" y="277" width="136" height="46" rx="6" fill="#dbeafe"/>
-  <text x="688" y="305" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">現場察看確認</text>
+  <rect x="30" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
+  <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" >床與床間設置圍簾隔屏</text>
+  <text x="100" y="328" font-size="16" fill="#57534e" >多人房床位之間須有可隔離視線的屏障物（如圍簾），服務時隨時拉起，維護隱私</text>
+  <rect x="620" y="277" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <text x="688" y="305" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >現場察看確認</text>
 
   <!-- Row 3 (y=372) -->
   <rect x="30" y="372" width="740" height="90" rx="8" fill="#ffffff"/>
-  <rect x="30" y="372" width="6" height="90" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="417" r="16" fill="#57534e"/>
-  <text x="66" y="423" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
-  <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">允許住民攜帶私人物品佈置空間</text>
-  <text x="100" y="431" font-size="16" fill="#57534e" font-family="sans-serif">床頭櫃提供私人物品存放空間，允許住民依個人喜好布置，不危及公共安全即可</text>
-  <rect x="620" y="380" width="136" height="46" rx="6" fill="#f0fdf4"/>
-  <text x="688" y="408" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">訪談住民意見</text>
+  <rect x="30" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700" >3</text>
+  <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700" >允許住民攜帶私人物品佈置空間</text>
+  <text x="100" y="431" font-size="16" fill="#57534e" >床頭櫃提供私人物品存放空間，允許住民依個人喜好布置，不危及公共安全即可</text>
+  <rect x="620" y="380" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="408" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" >訪談住民意見</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

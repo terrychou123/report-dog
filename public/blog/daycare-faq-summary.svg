@@ -9,7 +9,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄 Section 1：文件規定 #d97706 -->
-  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <rect x="60" y="108" width="6" height="24" rx="2" fill="#d97706"/>
   <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">文件規定</text>
 
   <!-- 左欄 Item 1：已確認 -->
@@ -28,7 +28,7 @@
   <text x="94" y="236" font-size="18" fill="#1e293b">前次評鑑建議：已追蹤改善</text>
 
   <!-- 左欄 Section 2：在職訓練 #57534e -->
-  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <rect x="60" y="262" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">在職訓練</text>
 
   <!-- 左欄 Item 4：待確認 -->
@@ -47,7 +47,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄 Section 1：評鑑制度 #78716c -->
-  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <rect x="416" y="108" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">評鑑制度</text>
 
   <!-- 右欄 Item 1：已確認 -->
@@ -66,7 +66,7 @@
   <text x="450" y="236" font-size="18" fill="#1e293b">評鑑時間：約 3 至 4 小時</text>
 
   <!-- 右欄 Section 2：督導頻率 #a8a29e -->
-  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <rect x="416" y="262" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">督導頻率</text>
 
   <!-- 右欄 Item 4：待確認 -->

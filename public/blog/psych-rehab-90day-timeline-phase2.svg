@@ -3,11 +3,11 @@
 
   <!-- Header (y=50, h=62) -->
   <rect x="0" y="50" width="800" height="62" fill="white"/>
-  <rect x="0" y="50" width="6" height="62" fill="#78716c"/>
+  <rect x="0" y="50" width="6" height="62" fill="#78716c" rx="2"/>
   <text x="28" y="83" font-size="32" fill="#1e293b" font-weight="700">第二階段 D-60 至 D-30：文件整備期</text>
 
   <!-- Row 1（y=160）D-60 PFM訓練 #d97706 -->
-  <rect x="28" y="160" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">D-60</text>
@@ -20,7 +20,7 @@
   <!-- Row 2（y=235）D-50 住宿型3.11 #dc2626 -->
   <rect x="28" y="235" width="744" height="62" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
   <rect x="28" y="235" width="6" height="62" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="266" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="266" r="16" fill="#dc2626"/>
   <polygon points="66,254 60,274 72,274" fill="none" stroke="#dc2626" stroke-width="2"/>
   <text x="66" y="271" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">!</text>
   <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">住宿型 3.11 出入自由機制確認（D-50）</text>
@@ -30,7 +30,7 @@
   <text x="688" y="281" font-size="14" fill="#dc2626" text-anchor="middle">未達C不合格</text>
 
   <!-- Row 3（y=310）D-40 第一輪內部評核 #57534e -->
-  <rect x="28" y="310" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="347" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">D-40</text>
@@ -41,7 +41,7 @@
   <text x="688" y="356" font-size="15" fill="#57534e" text-anchor="middle">找出盲點</text>
 
   <!-- Row 4（y=385）D-30 全員說明 #a8a29e -->
-  <rect x="28" y="385" width="744" height="62" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">D-30</text>

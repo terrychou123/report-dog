@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
@@ -6,47 +6,47 @@
   <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
 
   <!-- 主標題第1行 -->
-  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">約束使用</text>
+  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" >約束使用</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">記錄規範</text>
+  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" >記錄規範</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="322" x2="760" y2="322" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 副標題 -->
-  <text x="60" y="366" font-size="34" fill="#57534e" font-family="'Noto Sans TC', sans-serif">評鑑基準、通報流程與常見缺失完整解析</text>
+  <text x="60" y="366" font-size="34" fill="#57534e" >評鑑基準、通報流程與常見缺失完整解析</text>
 
   <!-- 特色標籤列 -->
   <rect x="60" y="396" width="100" height="40" rx="20" fill="#d97706"/>
-  <text x="110" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B1.7</text>
+  <text x="110" y="421" font-size="20" fill="white" text-anchor="middle" >B1.7</text>
 
   <rect x="176" y="396" width="140" height="40" rx="20" fill="#78716c"/>
-  <text x="246" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">品質監測</text>
+  <text x="246" y="421" font-size="20" fill="white" text-anchor="middle" >品質監測</text>
 
   <rect x="332" y="396" width="140" height="40" rx="20" fill="#57534e"/>
-  <text x="402" y="421" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">約束管理</text>
+  <text x="402" y="421" font-size="20" fill="white" text-anchor="middle" >約束管理</text>
 
   <!-- 適用對象說明 -->
-  <text x="60" y="476" font-size="26" fill="#57534e" font-family="'Noto Sans TC', sans-serif">適用對象：護理長、護理人員、品質管理負責人</text>
+  <text x="60" y="476" font-size="26" fill="#57534e" >適用對象：護理長、護理人員、品質管理負責人</text>
 
   <!-- 右側裝飾大數字 -->
-  <text x="900" y="260" font-size="200" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif" opacity="0.9">6</text>
+  <text x="900" y="260" font-size="200" font-weight="bold" fill="#d97706"  opacity="0.9">6</text>
   <!-- 右側說明文字 -->
-  <text x="990" y="305" font-size="26" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">品質指標之一</text>
+  <text x="990" y="305" font-size="26" fill="#57534e" text-anchor="middle" >品質指標之一</text>
 
   <!-- 右側直列 pill -->
   <rect x="840" y="340" width="310" height="44" rx="22" fill="white" opacity="0.85"/>
-  <text x="995" y="368" font-size="20" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">使用評估</text>
+  <text x="995" y="368" font-size="20" fill="#d97706" text-anchor="middle" >使用評估</text>
 
   <rect x="840" y="395" width="310" height="44" rx="22" fill="white" opacity="0.85"/>
-  <text x="995" y="423" font-size="20" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">家屬同意</text>
+  <text x="995" y="423" font-size="20" fill="#78716c" text-anchor="middle" >家屬同意</text>
 
   <rect x="840" y="450" width="310" height="44" rx="22" fill="white" opacity="0.85"/>
-  <text x="995" y="478" font-size="20" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行記錄</text>
+  <text x="995" y="478" font-size="20" fill="#57534e" text-anchor="middle" >執行記錄</text>
 
   <rect x="840" y="505" width="310" height="44" rx="22" fill="white" opacity="0.85"/>
-  <text x="995" y="533" font-size="20" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">解除追蹤</text>
+  <text x="995" y="533" font-size="20" fill="#a8a29e" text-anchor="middle" >解除追蹤</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

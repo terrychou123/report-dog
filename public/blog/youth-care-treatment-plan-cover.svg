@@ -5,10 +5,10 @@
   <text x="1010" y="220" font-size="160" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">計畫</text>
   <text x="1010" y="272" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">處遇計畫撰寫指南</text>
   <!-- 右側資訊卡片 -->
-  <rect x="840" y="296" width="320" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="296" width="320" height="64" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="325" font-size="22" fill="#1e293b" text-anchor="middle" font-weight="700">目標要具體可量化</text>
   <text x="1000" y="350" font-size="18" fill="#a8a29e" text-anchor="middle">不能只寫「增強自信心」</text>
-  <rect x="840" y="372" width="320" height="64" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="372" width="320" height="64" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="401" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">計畫與紀錄要對應</text>
   <text x="1000" y="426" font-size="18" fill="#a8a29e" text-anchor="middle">計畫是藍圖，紀錄是施工記錄</text>
   <rect x="840" y="448" width="320" height="64" rx="10" fill="#d97706" opacity="0.12"/>

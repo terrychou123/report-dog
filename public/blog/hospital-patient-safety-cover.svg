@@ -9,13 +9,13 @@
   <text x="1010" y="338" text-anchor="middle" font-size="26" fill="#78716c" font-weight="600">2.2章全數為必要條文</text>
 
   <!-- 右側資訊卡片 -->
-  <rect x="840" y="366" width="320" height="52" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="366" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="399" text-anchor="middle" font-size="26" fill="#d97706" font-weight="700">品質指標管理 2.2.1</text>
 
-  <rect x="840" y="428" width="320" height="52" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="428" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="461" text-anchor="middle" font-size="26" fill="#78716c" font-weight="700">病安文化推動 2.2.2</text>
 
-  <rect x="840" y="490" width="320" height="52" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="490" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="523" text-anchor="middle" font-size="26" fill="#57534e" font-weight="700">異常事件通報 2.2.3</text>
 
   <!-- 右側底部標籤 -->

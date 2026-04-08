@@ -1,59 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header -->
   <rect x="28" y="16" width="744" height="60" rx="12" fill="#1e293b"/>
-  <text x="400" y="53" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="middle">評鑑前自我檢核清單</text>
+  <text x="400" y="53"  font-size="20" fill="white" font-weight="700" text-anchor="middle">評鑑前自我檢核清單</text>
 
   <!-- N=4 list: Header y=50 h=62; Rows at y=160,235,310,385 h=62 -->
   <!-- Using N=4 positions for 4 key check categories -->
 
   <!-- Row 1 -->
   <rect x="28" y="108" width="744" height="62" rx="12" fill="white"/>
-  <rect x="28" y="108" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="139" r="16" fill="#d97706"/>
-  <text x="66" y="145" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">A</text>
-  <text x="100" y="131" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">個案管理文件</text>
-  <text x="100" y="153" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">年度輔導目標追蹤表、個案研討紀錄、督導記錄是否完整且對應個案</text>
+  <rect x="28" y="108" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="139" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="145"  font-size="14" fill="white" text-anchor="middle" font-weight="700">A</text>
+  <text x="100" y="131"  font-size="15" fill="#1e293b" font-weight="700">個案管理文件</text>
+  <text x="100" y="153"  font-size="12" fill="#57534e">年度輔導目標追蹤表、個案研討紀錄、督導記錄是否完整且對應個案</text>
   <rect x="660" y="116" width="100" height="46" rx="8" fill="#fef3c7"/>
-  <text x="710" y="144" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">項目 16, 28</text>
+  <text x="710" y="144"  font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">項目 16, 28</text>
 
   <!-- Row 2 -->
   <rect x="28" y="183" width="744" height="62" rx="12" fill="white"/>
-  <rect x="28" y="183" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="214" r="16" fill="#78716c"/>
-  <text x="66" y="220" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">B</text>
-  <text x="100" y="206" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">生活輔導紀錄</text>
-  <text x="100" y="228" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">2歲以上版本 15 個子面向生活輔導紀錄、日誌交班記錄連續完整</text>
+  <rect x="28" y="183" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="214" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="220"  font-size="14" fill="white" text-anchor="middle" font-weight="700">B</text>
+  <text x="100" y="206"  font-size="15" fill="#1e293b" font-weight="700">生活輔導紀錄</text>
+  <text x="100" y="228"  font-size="12" fill="#57534e">2歲以上版本 15 個子面向生活輔導紀錄、日誌交班記錄連續完整</text>
   <rect x="660" y="191" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="219" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">項目 15, 22</text>
+  <text x="710" y="219"  font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">項目 15, 22</text>
 
   <!-- Row 3 -->
   <rect x="28" y="258" width="744" height="62" rx="12" fill="white"/>
-  <rect x="28" y="258" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="289" r="16" fill="#57534e"/>
-  <text x="66" y="295" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">C</text>
-  <text x="100" y="281" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">申訴與零用金制度</text>
-  <text x="100" y="303" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">申訴書面紀錄（即使零案件）、零用金薄收據、每月家庭會議記錄</text>
+  <rect x="28" y="258" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="289" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="295"  font-size="14" fill="white" text-anchor="middle" font-weight="700">C</text>
+  <text x="100" y="281"  font-size="15" fill="#1e293b" font-weight="700">申訴與零用金制度</text>
+  <text x="100" y="303"  font-size="12" fill="#57534e">申訴書面紀錄（即使零案件）、零用金薄收據、每月家庭會議記錄</text>
   <rect x="660" y="266" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="294" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e" text-anchor="middle" font-weight="700">項目 25</text>
+  <text x="710" y="294"  font-size="12" fill="#57534e" text-anchor="middle" font-weight="700">項目 25</text>
 
   <!-- Row 4 -->
   <rect x="28" y="333" width="744" height="62" rx="12" fill="white"/>
-  <rect x="28" y="333" width="6" height="62" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="364" r="16" fill="#a8a29e"/>
-  <text x="66" y="370" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">D</text>
-  <text x="100" y="356" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">資源網絡與財務文件</text>
-  <text x="100" y="378" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">資源清冊最後更新日期、4次歷年財務稽核文件、補件狀態確認</text>
+  <rect x="28" y="333" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="364" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="370"  font-size="14" fill="white" text-anchor="middle" font-weight="700">D</text>
+  <text x="100" y="356"  font-size="15" fill="#1e293b" font-weight="700">資源網絡與財務文件</text>
+  <text x="100" y="378"  font-size="12" fill="#57534e">資源清冊最後更新日期、4次歷年財務稽核文件、補件狀態確認</text>
   <rect x="660" y="341" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="369" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" font-weight="700">項目 26, 29</text>
+  <text x="710" y="369"  font-size="12" fill="#a8a29e" text-anchor="middle" font-weight="700">項目 26, 29</text>
 
   <!-- Note at bottom -->
   <rect x="28" y="415" width="744" height="50" rx="10" fill="#fef9f0"/>
-  <rect x="28" y="415" width="6" height="50" rx="3" fill="#d97706"/>
-  <text x="55" y="436" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" font-weight="700">AI 輔助提醒</text>
-  <text x="55" y="456" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">使用報告汪 AI 自我查核功能，依評鑑指標自動比對文件缺漏，並提供補強建議</text>
+  <rect x="28" y="415" width="6" height="50" rx="2" fill="#d97706"/>
+  <text x="55" y="436"  font-size="13" fill="#d97706" font-weight="700">AI 輔助提醒</text>
+  <text x="55" y="456"  font-size="12" fill="#57534e">使用報告汪 AI 自我查核功能，依評鑑指標自動比對文件缺漏，並提供補強建議</text>
 
   <!-- Watermark -->
-  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

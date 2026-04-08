@@ -9,15 +9,15 @@
   <line x1="840" y1="300" x2="1180" y2="300" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右側卡片 -->
-  <rect x="840" y="311" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="311" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="335" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">Plan 計畫</text>
   <text x="1000" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">問題描述 + 原因分析</text>
 
-  <rect x="840" y="389" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="389" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="413" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">Do 執行</text>
   <text x="1000" y="445" font-size="22" fill="#a8a29e" text-anchor="middle">負責人 + 截止日</text>
 
-  <rect x="840" y="467" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="467" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="491" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">Check+Act</text>
   <text x="1000" y="523" font-size="22" fill="#a8a29e" text-anchor="middle">驗證方式 + 再循環</text>
 

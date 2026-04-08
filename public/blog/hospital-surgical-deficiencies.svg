@@ -1,60 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 標題區塊 -->
   <rect x="0" y="0" width="800" height="80" fill="#1c1917"/>
-  <text x="400" y="35" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">手術安全評鑑常見失分場景</text>
-  <text x="400" y="60" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle">2.6章三項必要條文最常被指出的缺失</text>
+  <text x="400" y="35"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">手術安全評鑑常見失分場景</text>
+  <text x="400" y="60"  font-size="13" fill="#a8a29e" text-anchor="middle">2.6章三項必要條文最常被指出的缺失</text>
 
   <!-- 列1：Time Out流於形式 -->
   <rect x="40" y="100" width="720" height="73" rx="10" fill="#fff5f5" stroke="#fca5a5" stroke-width="1.5"/>
   <rect x="40" y="100" width="6" height="73" rx="3" fill="#dc2626"/>
   <circle cx="80" cy="136" r="20" fill="#dc2626"/>
-  <text x="80" y="133" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
-  <text x="80" y="145" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="115" y="120" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#dc2626">Time Out流於形式</text>
-  <text x="115" y="140" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">護理師單方宣讀病人資料，其他人員未停下確認，或主刀醫師在場外打電話</text>
-  <text x="115" y="158" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#b91c1c">評鑑訪談護理師時說法不一，委員立即發現執行問題</text>
+  <text x="80" y="133"  font-size="9" font-weight="700" fill="#dc2626" text-anchor="middle">失分</text>
+  <text x="80" y="145"  font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="115" y="120"  font-size="14" font-weight="700" fill="#dc2626">Time Out流於形式</text>
+  <text x="115" y="140"  font-size="11" fill="#57534e">護理師單方宣讀病人資料，其他人員未停下確認，或主刀醫師在場外打電話</text>
+  <text x="115" y="158"  font-size="11" fill="#b91c1c">評鑑訪談護理師時說法不一，委員立即發現執行問題</text>
   <rect x="660" y="116" width="72" height="26" rx="6" fill="#fee2e2"/>
-  <text x="696" y="133" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#dc2626" text-anchor="middle">執行落實</text>
+  <text x="696" y="133"  font-size="11" fill="#dc2626" text-anchor="middle">執行落實</text>
 
   <!-- 列2：手術部位未由執刀醫師標示 -->
   <rect x="40" y="185" width="720" height="73" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
-  <rect x="40" y="185" width="6" height="73" rx="3" fill="#d97706"/>
-  <circle cx="80" cy="221" r="20" fill="#d97706"/>
-  <text x="80" y="218" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
-  <text x="80" y="230" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="115" y="205" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706">手術部位未由執刀醫師標示</text>
-  <text x="115" y="225" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">由住院醫師或護理師代為標示，不符合2.6.1要求「由執刀醫師執行」</text>
-  <text x="115" y="243" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#92400e">查核表上雖有記載已標示，但訪談時確認執行者非主治醫師</text>
+  <rect x="40" y="185" width="6" height="73" rx="2" fill="#d97706"/>
+  <circle cx="80" cy="221" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="218"  font-size="9" font-weight="700" fill="#d97706" text-anchor="middle">失分</text>
+  <text x="80" y="230"  font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="115" y="205"  font-size="14" font-weight="700" fill="#d97706">手術部位未由執刀醫師標示</text>
+  <text x="115" y="225"  font-size="11" fill="#57534e">由住院醫師或護理師代為標示，不符合2.6.1要求「由執刀醫師執行」</text>
+  <text x="115" y="243"  font-size="11" fill="#92400e">查核表上雖有記載已標示，但訪談時確認執行者非主治醫師</text>
   <rect x="660" y="201" width="72" height="26" rx="6" fill="#fef3c7"/>
-  <text x="696" y="218" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#d97706" text-anchor="middle">醫師親標</text>
+  <text x="696" y="218"  font-size="11" fill="#d97706" text-anchor="middle">醫師親標</text>
 
   <!-- 列3：麻醉記錄不完整 -->
   <rect x="40" y="270" width="720" height="73" rx="10" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1.5"/>
-  <rect x="40" y="270" width="6" height="73" rx="3" fill="#78716c"/>
-  <circle cx="80" cy="306" r="20" fill="#78716c"/>
-  <text x="80" y="303" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
-  <text x="80" y="315" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="115" y="290" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c">麻醉記錄不完整</text>
-  <text x="115" y="310" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">生命徵象空白段落、藥物劑量未記錄、麻醉結束時間缺漏</text>
-  <text x="115" y="328" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">資料查核時被發現，委員要求補正說明，影響整體評鑑印象</text>
+  <rect x="40" y="270" width="6" height="73" rx="2" fill="#78716c"/>
+  <circle cx="80" cy="306" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="80" y="303"  font-size="9" font-weight="700" fill="#78716c" text-anchor="middle">失分</text>
+  <text x="80" y="315"  font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="115" y="290"  font-size="14" font-weight="700" fill="#78716c">麻醉記錄不完整</text>
+  <text x="115" y="310"  font-size="11" fill="#57534e">生命徵象空白段落、藥物劑量未記錄、麻醉結束時間缺漏</text>
+  <text x="115" y="328"  font-size="11" fill="#78716c">資料查核時被發現，委員要求補正說明，影響整體評鑑印象</text>
   <rect x="660" y="286" width="72" height="26" rx="6" fill="#f5f5f4"/>
-  <text x="696" y="303" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c" text-anchor="middle">完整記錄</text>
+  <text x="696" y="303"  font-size="11" fill="#78716c" text-anchor="middle">完整記錄</text>
 
   <!-- 列4：困難插管推車設備缺漏 -->
   <rect x="40" y="355" width="720" height="73" rx="10" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1.5"/>
-  <rect x="40" y="355" width="6" height="73" rx="3" fill="#57534e"/>
-  <circle cx="80" cy="391" r="20" fill="#57534e"/>
-  <text x="80" y="388" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">失分</text>
-  <text x="80" y="400" font-family="'Noto Sans TC', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="115" y="375" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e">困難插管推車設備缺漏</text>
-  <text x="115" y="395" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e">實地查核時發現推車內某型號LMA缺貨、喉頭鏡電池沒電</text>
-  <text x="115" y="413" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">或最近一次檢查已超過3個月，定期維護紀錄未確實執行</text>
+  <rect x="40" y="355" width="6" height="73" rx="2" fill="#57534e"/>
+  <circle cx="80" cy="391" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="80" y="388"  font-size="9" font-weight="700" fill="#57534e" text-anchor="middle">失分</text>
+  <text x="80" y="400"  font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="115" y="375"  font-size="14" font-weight="700" fill="#57534e">困難插管推車設備缺漏</text>
+  <text x="115" y="395"  font-size="11" fill="#57534e">實地查核時發現推車內某型號LMA缺貨、喉頭鏡電池沒電</text>
+  <text x="115" y="413"  font-size="11" fill="#78716c">或最近一次檢查已超過3個月，定期維護紀錄未確實執行</text>
   <rect x="660" y="371" width="72" height="26" rx="6" fill="#f5f5f4"/>
-  <text x="696" y="388" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">定期維護</text>
+  <text x="696" y="388"  font-size="11" fill="#57534e" text-anchor="middle">定期維護</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

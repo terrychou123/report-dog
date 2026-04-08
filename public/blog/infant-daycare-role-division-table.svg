@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="40" y="50" width="720" height="62" rx="8" fill="#d97706"/>
-  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">4 種角色與負責指標範圍</text>
+  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle"  font-weight="700">4 種角色與負責指標範圍</text>
   <!-- Row 1 -->
-  <rect x="40" y="160" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="160" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="160" width="8" height="62" rx="3" fill="#d97706"/>
-  <text x="76" y="185" font-size="14" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">負責人</text>
-  <text x="160" y="185" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">整體統籌</text>
-  <text x="160" y="210" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">指標 1-11 行政管理全覽、委員接待、訪談主要對口、最終文件審查</text>
+  <text x="76" y="185" font-size="14" fill="#d97706"  font-weight="700">負責人</text>
+  <text x="160" y="185" font-size="18" fill="#1e293b"  font-weight="700">整體統籌</text>
+  <text x="160" y="210" font-size="14" fill="#78716c" >指標 1-11 行政管理全覽、委員接待、訪談主要對口、最終文件審查</text>
   <!-- Row 2 -->
-  <rect x="40" y="235" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="235" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="235" width="8" height="62" rx="3" fill="#78716c"/>
-  <text x="76" y="260" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">行政人員</text>
-  <text x="160" y="260" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">文件彙整</text>
-  <text x="160" y="285" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">行政文件備齊分類、在職訓練清冊建立、指標 1-11 相關證明文件</text>
+  <text x="76" y="260" font-size="14" fill="#78716c"  font-weight="700">行政人員</text>
+  <text x="160" y="260" font-size="18" fill="#1e293b"  font-weight="700">文件彙整</text>
+  <text x="160" y="285" font-size="14" fill="#78716c" >行政文件備齊分類、在職訓練清冊建立、指標 1-11 相關證明文件</text>
   <!-- Row 3 -->
-  <rect x="40" y="310" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="310" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="310" width="8" height="62" rx="3" fill="#57534e"/>
-  <text x="76" y="335" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">托育人員</text>
-  <text x="160" y="335" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">活動說明</text>
-  <text x="160" y="360" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">指標 12-36 托育活動、個別化照顧計畫、每日觀察記錄（指標 35）說明</text>
+  <text x="76" y="335" font-size="14" fill="#57534e"  font-weight="700">托育人員</text>
+  <text x="160" y="335" font-size="18" fill="#1e293b"  font-weight="700">活動說明</text>
+  <text x="160" y="360" font-size="14" fill="#78716c" >指標 12-36 托育活動、個別化照顧計畫、每日觀察記錄（指標 35）說明</text>
   <!-- Row 4 -->
-  <rect x="40" y="385" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="385" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="385" width="8" height="62" rx="3" fill="#94a3b8"/>
-  <text x="76" y="410" font-size="14" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif" font-weight="700">廚工</text>
-  <text x="160" y="410" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">健康安全</text>
-  <text x="160" y="435" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">指標 37-60 健康安全、食物留樣（指標 44）、冰箱溫度記錄（指標 46）</text>
+  <text x="76" y="410" font-size="14" fill="#94a3b8"  font-weight="700">廚工</text>
+  <text x="160" y="410" font-size="18" fill="#1e293b"  font-weight="700">健康安全</text>
+  <text x="160" y="435" font-size="14" fill="#78716c" >指標 37-60 健康安全、食物留樣（指標 44）、冰箱溫度記錄（指標 46）</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

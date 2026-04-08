@@ -3,11 +3,11 @@
 
   <!-- Header -->
   <rect x="0" y="38" width="800" height="90" fill="white"/>
-  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="95" font-size="36" fill="#1e293b" font-weight="700">自評表架構：三大區塊 14 個子類</text>
 
   <!-- Row 0：行政管理（y=166）-->
-  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
@@ -19,7 +19,7 @@
   <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">11項指標</text>
 
   <!-- Row 1：托育活動（y=269）-->
-  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">B</text>
@@ -31,7 +31,7 @@
   <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">25項指標</text>
 
   <!-- Row 2：健康安全（y=372）-->
-  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">C</text>

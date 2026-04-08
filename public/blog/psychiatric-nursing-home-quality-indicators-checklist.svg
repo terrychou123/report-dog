@@ -1,64 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">品質監測執行確認清單</text>
-  <text x="40" y="78" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif">評鑑前確認6大指標監測是否完整</text>
+  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" >品質監測執行確認清單</text>
+  <text x="40" y="78" font-size="22" fill="#57534e" >評鑑前確認6大指標監測是否完整</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 左欄：資料收集 -->
   <rect x="30" y="112" width="360" height="330" rx="10" fill="white" opacity="0.75"/>
   <rect x="30" y="112" width="360" height="6" rx="3" fill="#d97706"/>
-  <text x="50" y="142" font-size="19" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">資料收集</text>
-  <text x="370" y="142" font-size="14" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">B1.7月報</text>
+  <text x="50" y="142" font-size="19" font-weight="bold" fill="#d97706" >資料收集</text>
+  <text x="370" y="142" font-size="14" fill="#d97706" text-anchor="end" >B1.7月報</text>
 
   <!-- 已確認 -->
   <rect x="50" y="158" width="15" height="15" rx="3" fill="#d97706"/>
-  <text x="74" y="171" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每月跌倒資料（已確認）</text>
+  <text x="74" y="171" font-size="15" fill="#57534e" >每月跌倒資料（已確認）</text>
   <rect x="50" y="184" width="15" height="15" rx="3" fill="#d97706"/>
-  <text x="74" y="197" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">壓傷盛行率調查（已確認）</text>
+  <text x="74" y="197" font-size="15" fill="#57534e" >壓傷盛行率調查（已確認）</text>
   <rect x="50" y="210" width="15" height="15" rx="3" fill="#d97706"/>
-  <text x="74" y="223" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">感染事件通報記錄（已確認）</text>
+  <text x="74" y="223" font-size="15" fill="#57534e" >感染事件通報記錄（已確認）</text>
 
   <!-- 待確認 -->
   <rect x="50" y="236" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="74" y="249" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">約束率計算（待確認）</text>
+  <text x="74" y="249" font-size="15" fill="#a8a29e" >約束率計算（待確認）</text>
   <rect x="50" y="262" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="74" y="275" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">非計畫轉院記錄（待確認）</text>
+  <text x="74" y="275" font-size="15" fill="#a8a29e" >非計畫轉院記錄（待確認）</text>
   <rect x="50" y="288" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="74" y="301" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">體重監測月報（待確認）</text>
+  <text x="74" y="301" font-size="15" fill="#a8a29e" >體重監測月報（待確認）</text>
   <rect x="50" y="314" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="74" y="327" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">指標計算公式核對（待確認）</text>
+  <text x="74" y="327" font-size="15" fill="#a8a29e" >指標計算公式核對（待確認）</text>
   <rect x="50" y="340" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="74" y="353" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">歷史資料連續12個月（待確認）</text>
+  <text x="74" y="353" font-size="15" fill="#a8a29e" >歷史資料連續12個月（待確認）</text>
 
   <!-- 右欄：文件管理 -->
   <rect x="410" y="112" width="360" height="330" rx="10" fill="white" opacity="0.75"/>
   <rect x="410" y="112" width="360" height="6" rx="3" fill="#78716c"/>
-  <text x="430" y="142" font-size="19" font-weight="bold" fill="#78716c" font-family="'Noto Sans TC', sans-serif">文件管理</text>
-  <text x="750" y="142" font-size="14" fill="#78716c" text-anchor="end" font-family="'Noto Sans TC', sans-serif">品質管理</text>
+  <text x="430" y="142" font-size="19" font-weight="bold" fill="#78716c" >文件管理</text>
+  <text x="750" y="142" font-size="14" fill="#78716c" text-anchor="end" >品質管理</text>
 
   <!-- 已確認 -->
   <rect x="430" y="158" width="15" height="15" rx="3" fill="#78716c"/>
-  <text x="454" y="171" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">品質會議紀錄（已確認）</text>
+  <text x="454" y="171" font-size="15" fill="#57534e" >品質會議紀錄（已確認）</text>
   <rect x="430" y="184" width="15" height="15" rx="3" fill="#78716c"/>
-  <text x="454" y="197" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">閾值設定文件（已確認）</text>
+  <text x="454" y="197" font-size="15" fill="#57534e" >閾值設定文件（已確認）</text>
   <rect x="430" y="210" width="15" height="15" rx="3" fill="#78716c"/>
-  <text x="454" y="223" font-size="15" fill="#57534e" font-family="'Noto Sans TC', sans-serif">操作型定義手冊備查（已確認）</text>
+  <text x="454" y="223" font-size="15" fill="#57534e" >操作型定義手冊備查（已確認）</text>
 
   <!-- 待確認 -->
   <rect x="430" y="236" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="454" y="249" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">年度改善報告（待確認）</text>
+  <text x="454" y="249" font-size="15" fill="#a8a29e" >年度改善報告（待確認）</text>
   <rect x="430" y="262" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="454" y="275" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">閾值超標改善紀錄（待確認）</text>
+  <text x="454" y="275" font-size="15" fill="#a8a29e" >閾值超標改善紀錄（待確認）</text>
   <rect x="430" y="288" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="454" y="301" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">跨年度趨勢分析（待確認）</text>
+  <text x="454" y="301" font-size="15" fill="#a8a29e" >跨年度趨勢分析（待確認）</text>
   <rect x="430" y="314" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="454" y="327" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">指標責任人員確認（待確認）</text>
+  <text x="454" y="327" font-size="15" fill="#a8a29e" >指標責任人員確認（待確認）</text>
   <rect x="430" y="340" width="15" height="15" rx="3" fill="none" stroke="#a8a29e" stroke-width="2"/>
-  <text x="454" y="353" font-size="15" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">備審資料夾分類整理（待確認）</text>
+  <text x="454" y="353" font-size="15" fill="#a8a29e" >備審資料夾分類整理（待確認）</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -7,36 +7,36 @@
 
   <!-- 細節 1 -->
   <rect x="40" y="112" width="340" height="80" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
-  <circle cx="72" cy="152" r="22" fill="#d97706"/>
-  <text x="72" y="158" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+  <circle cx="72" cy="152" r="22" fill="#d97706" opacity="0.15"/>
+  <text x="72" y="158" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
   <text x="106" y="142" font-size="16" fill="#1e293b" font-weight="700">B2 個案服務計畫初評完整性</text>
   <text x="106" y="164" font-size="14" fill="#57534e">72小時初評含三項高風險評估（跌倒/壓損/營養）</text>
 
   <!-- 細節 2 -->
   <rect x="40" y="204" width="340" height="80" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
-  <circle cx="72" cy="244" r="22" fill="#d97706"/>
-  <text x="72" y="250" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+  <circle cx="72" cy="244" r="22" fill="#d97706" opacity="0.15"/>
+  <text x="72" y="250" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">2</text>
   <text x="106" y="234" font-size="16" fill="#1e293b" font-weight="700">B13/B14 跌倒壓損逐案分析</text>
   <text x="106" y="256" font-size="14" fill="#57534e">不只記錄事件，要有原因分析+改善措施</text>
 
   <!-- 細節 3 -->
   <rect x="40" y="296" width="340" height="80" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
-  <circle cx="72" cy="336" r="22" fill="#78716c"/>
-  <text x="72" y="342" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+  <circle cx="72" cy="336" r="22" fill="#78716c" opacity="0.15"/>
+  <text x="72" y="342" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">3</text>
   <text x="106" y="326" font-size="16" fill="#1e293b" font-weight="700">B9 醫師巡診紀錄品質</text>
   <text x="106" y="348" font-size="14" fill="#57534e">不得以門診紀錄代替，需有醫師親筆簽名</text>
 
   <!-- 細節 4 -->
   <rect x="420" y="112" width="340" height="80" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
-  <circle cx="452" cy="152" r="22" fill="#78716c"/>
-  <text x="452" y="158" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">4</text>
+  <circle cx="452" cy="152" r="22" fill="#78716c" opacity="0.15"/>
+  <text x="452" y="158" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">4</text>
   <text x="486" y="142" font-size="16" fill="#1e293b" font-weight="700">B17 感染事件完整流程記錄</text>
   <text x="486" y="164" font-size="14" fill="#57534e">通報/隔離/接觸者追蹤/改善措施全記錄</text>
 
   <!-- 細節 5 -->
   <rect x="420" y="204" width="340" height="80" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
-  <circle cx="452" cy="244" r="22" fill="#57534e"/>
-  <text x="452" y="250" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">5</text>
+  <circle cx="452" cy="244" r="22" fill="#57534e" opacity="0.15"/>
+  <text x="452" y="250" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">5</text>
   <text x="486" y="234" font-size="16" fill="#1e293b" font-weight="700">B16 約束同意書有效期</text>
   <text x="486" y="256" font-size="14" fill="#57534e">每3個月更新家屬同意書（不可逾期）</text>
 

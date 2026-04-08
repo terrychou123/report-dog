@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="40" y="50" width="720" height="62" rx="8" fill="#d97706"/>
-  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑後 4 個步驟</text>
+  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle"  font-weight="700">評鑑後 4 個步驟</text>
   <!-- Row 1 -->
-  <rect x="40" y="160" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="160" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="160" width="8" height="62" rx="3" fill="#d97706"/>
-  <text x="76" y="185" font-size="14" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 1</text>
-  <text x="160" y="185" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">收到評鑑報告</text>
-  <text x="160" y="210" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">確認評鑑總分、各指標得分、缺失說明，完整閱讀委員意見</text>
+  <text x="76" y="185" font-size="14" fill="#d97706"  font-weight="700">步驟 1</text>
+  <text x="160" y="185" font-size="18" fill="#1e293b"  font-weight="700">收到評鑑報告</text>
+  <text x="160" y="210" font-size="14" fill="#78716c" >確認評鑑總分、各指標得分、缺失說明，完整閱讀委員意見</text>
   <!-- Row 2 -->
-  <rect x="40" y="235" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="235" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="235" width="8" height="62" rx="3" fill="#78716c"/>
-  <text x="76" y="260" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 2</text>
-  <text x="160" y="260" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">分析缺失原因</text>
-  <text x="160" y="285" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">區分「文件缺漏」、「制度不足」、「執行落差」三類問題，找出根本原因</text>
+  <text x="76" y="260" font-size="14" fill="#78716c"  font-weight="700">步驟 2</text>
+  <text x="160" y="260" font-size="18" fill="#1e293b"  font-weight="700">分析缺失原因</text>
+  <text x="160" y="285" font-size="14" fill="#78716c" >區分「文件缺漏」、「制度不足」、「執行落差」三類問題，找出根本原因</text>
   <!-- Row 3 -->
-  <rect x="40" y="310" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="310" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="310" width="8" height="62" rx="3" fill="#57534e"/>
-  <text x="76" y="335" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 3</text>
-  <text x="160" y="335" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">提交改善計畫</text>
-  <text x="160" y="360" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">收到結果 2 週內提交，每項缺失列出改善行動、負責人員、完成日期</text>
+  <text x="76" y="335" font-size="14" fill="#57534e"  font-weight="700">步驟 3</text>
+  <text x="160" y="335" font-size="18" fill="#1e293b"  font-weight="700">提交改善計畫</text>
+  <text x="160" y="360" font-size="14" fill="#78716c" >收到結果 2 週內提交，每項缺失列出改善行動、負責人員、完成日期</text>
   <!-- Row 4 -->
-  <rect x="40" y="385" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="385" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="385" width="8" height="62" rx="3" fill="#94a3b8"/>
-  <text x="76" y="410" font-size="14" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 4</text>
-  <text x="160" y="410" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">追蹤執行成效</text>
-  <text x="160" y="435" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">按期限追蹤每項改善行動，完成後留存佐證文件，為下次評鑑建立基礎</text>
+  <text x="76" y="410" font-size="14" fill="#94a3b8"  font-weight="700">步驟 4</text>
+  <text x="160" y="410" font-size="18" fill="#1e293b"  font-weight="700">追蹤執行成效</text>
+  <text x="160" y="435" font-size="14" fill="#78716c" >按期限追蹤每項改善行動，完成後留存佐證文件，為下次評鑑建立基礎</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

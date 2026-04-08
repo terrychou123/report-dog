@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 左側裝飾色塊 -->
@@ -7,23 +7,23 @@
   <circle cx="980" cy="315" r="220" fill="#d97706" opacity="0.08"/>
   <circle cx="980" cy="315" r="160" fill="#d97706" opacity="0.08"/>
   <!-- 右側大字裝飾 -->
-  <text x="960" y="260" font-size="160" fill="#d97706" opacity="0.15" text-anchor="middle" font-weight="900" font-family="sans-serif">D8</text>
-  <text x="960" y="400" font-size="56" fill="#d97706" opacity="0.25" text-anchor="middle" font-weight="700" font-family="sans-serif">緩和醫療</text>
+  <text x="960" y="260" font-size="160" fill="#d97706" opacity="0.15" text-anchor="middle" font-weight="900" >D8</text>
+  <text x="960" y="400" font-size="56" fill="#d97706" opacity="0.25" text-anchor="middle" font-weight="700" >緩和醫療</text>
   <!-- 主標題第1行 -->
-  <text x="80" y="200" font-size="100" fill="#1e293b" font-weight="900" font-family="sans-serif">緩和醫療</text>
+  <text x="80" y="200" font-size="100" fill="#1e293b" font-weight="900" >緩和醫療</text>
   <!-- 主標題第2行 -->
-  <text x="80" y="315" font-size="100" fill="#d97706" font-weight="900" font-family="sans-serif">D8 建置指南</text>
+  <text x="80" y="315" font-size="100" fill="#d97706" font-weight="900" >D8 建置指南</text>
   <!-- 副標題 -->
-  <text x="80" y="380" font-size="38" fill="#57534e" font-weight="400" font-family="sans-serif">DNR 流程、安寧訓練、臨終照護，D8 六大基準全達標</text>
+  <text x="80" y="380" font-size="38" fill="#57534e" font-weight="400" >DNR 流程、安寧訓練、臨終照護，D8 六大基準全達標</text>
   <!-- Pills -->
   <rect x="80" y="420" width="148" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="154" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">D8指標</text>
+  <text x="154" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" >D8指標</text>
   <rect x="244" y="420" width="148" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="318" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">DNR流程</text>
+  <text x="318" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" >DNR流程</text>
   <rect x="408" y="420" width="180" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="498" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">安寧療護訓練</text>
+  <text x="498" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" >安寧療護訓練</text>
   <rect x="604" y="420" width="148" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="678" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">備審文件</text>
+  <text x="678" y="448" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600" >備審文件</text>
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -1,39 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 主標題 -->
-  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">循環菜單規劃四大要求</text>
+  <text x="40" y="48" font-size="32" fill="#1e293b"  font-weight="bold">循環菜單規劃四大要求</text>
   <!-- 副標題 -->
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">B3.1對菜單設計的完整規範</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >B3.1對菜單設計的完整規範</text>
   <!-- 分隔線 -->
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 行1 -->
-  <rect x="40" y="118" width="6" height="68" rx="3" fill="#d97706"/>
+  <rect x="40" y="118" width="6" height="68" rx="2" fill="#d97706"/>
   <rect x="40" y="118" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="118" width="6" height="68" rx="3" fill="#d97706"/>
-  <text x="70" y="147" font-size="22" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="bold">2週循環菜單</text>
-  <text x="70" y="174" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">至少提供2星期循環菜單，且與每日實際餐食相符</text>
+  <rect x="40" y="118" width="6" height="68" rx="2" fill="#d97706"/>
+  <text x="70" y="147" font-size="22" fill="#d97706"  font-weight="bold">2週循環菜單</text>
+  <text x="70" y="174" font-size="17" fill="#57534e" >至少提供2星期循環菜單，且與每日實際餐食相符</text>
 
   <!-- 行2 -->
   <rect x="40" y="202" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="202" width="6" height="68" rx="3" fill="#78716c"/>
-  <text x="70" y="231" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="bold">個別化飲食</text>
-  <text x="70" y="258" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">依質地（一般／細碎／軟質／流質）及宗教習慣提供</text>
+  <rect x="40" y="202" width="6" height="68" rx="2" fill="#78716c"/>
+  <text x="70" y="231" font-size="22" fill="#78716c"  font-weight="bold">個別化飲食</text>
+  <text x="70" y="258" font-size="17" fill="#57534e" >依質地（一般／細碎／軟質／流質）及宗教習慣提供</text>
 
   <!-- 行3 -->
   <rect x="40" y="286" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="286" width="6" height="68" rx="3" fill="#57534e"/>
-  <text x="70" y="315" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="bold">快樂餐每週</text>
-  <text x="70" y="342" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每週至少1次快樂餐，有紀錄</text>
+  <rect x="40" y="286" width="6" height="68" rx="2" fill="#57534e"/>
+  <text x="70" y="315" font-size="22" fill="#57534e"  font-weight="bold">快樂餐每週</text>
+  <text x="70" y="342" font-size="17" fill="#57534e" >每週至少1次快樂餐，有紀錄</text>
 
   <!-- 行4 -->
   <rect x="40" y="370" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="370" width="6" height="68" rx="3" fill="#a8a29e"/>
-  <text x="70" y="399" font-size="22" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif" font-weight="bold">特殊疾病飲食</text>
-  <text x="70" y="426" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">依糖尿病、腎臟病、心臟病等個別需求訂定</text>
+  <rect x="40" y="370" width="6" height="68" rx="2" fill="#a8a29e"/>
+  <text x="70" y="399" font-size="22" fill="#a8a29e"  font-weight="bold">特殊疾病飲食</text>
+  <text x="70" y="426" font-size="17" fill="#57534e" >依糖尿病、腎臟病、心臟病等個別需求訂定</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

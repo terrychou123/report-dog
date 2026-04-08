@@ -11,52 +11,52 @@
 
   <!-- 左欄項目 -->
   <rect x="40" y="132" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="40" y="132" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="132" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="156" font-size="14" fill="#57534e">□ 住民體溫紀錄表（每日）完整且無缺漏</text>
 
   <rect x="40" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="40" y="176" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="176" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="200" font-size="14" fill="#57534e">□ 員工體溫紀錄表（每週）完整且有簽名</text>
 
   <rect x="40" y="220" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="40" y="220" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="220" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="244" font-size="14" fill="#57534e">□ 每間寢室洗手設施及酒精消毒液在效期內</text>
 
   <rect x="40" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="40" y="264" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="264" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="288" font-size="14" fill="#57534e">□ 感染管制手冊已更新，含4類通報流程</text>
 
   <rect x="40" y="308" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="40" y="308" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="308" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="332" font-size="14" fill="#57534e">□ 傳染病通報已按時上網登載</text>
 
   <rect x="40" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="40" y="352" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="352" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="376" font-size="14" fill="#57534e">□ C13 隔離空間獨立空調、衛浴功能正常</text>
 
   <!-- 右欄項目 -->
   <rect x="410" y="132" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="410" y="132" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="132" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="156" font-size="14" fill="#57534e">□ 感染監測紀錄（含疥瘡、呼吸道等）完整</text>
 
   <rect x="410" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="410" y="176" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="176" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="200" font-size="14" fill="#57534e">□ 感染案件已逐案填寫分析表單</text>
 
   <rect x="410" y="220" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="410" y="220" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="220" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="244" font-size="14" fill="#57534e">□ 已完成近半年感染分析報告（B17）</text>
 
   <rect x="410" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="410" y="264" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="264" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="288" font-size="14" fill="#57534e">□ 流感疫苗接種名冊已繕造（含未打原因）</text>
 
   <rect x="410" y="308" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="410" y="308" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="308" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="332" font-size="14" fill="#57534e">□ 疫苗接種名冊格式正確（施打日期欄位）</text>
 
   <rect x="410" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="410" y="352" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="352" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="376" font-size="14" fill="#57534e">□ 機構有鼓勵住民與員工接種疫苗之策略</text>
 
   <!-- 說明 -->

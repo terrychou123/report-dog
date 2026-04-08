@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 主標題 -->
-  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">社區資源連結作業流程</text>
+  <text x="40" y="48" font-size="32" fill="#1e293b"  font-weight="bold">社區資源連結作業流程</text>
   <!-- 副標題 -->
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">從盤點到成效評值的完整管理循環</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >從盤點到成效評值的完整管理循環</text>
   <!-- 分隔線 -->
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 步驟1 -->
   <rect x="40" y="130" width="155" height="110" rx="12" fill="#d97706"/>
-  <text x="117" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 1</text>
-  <text x="117" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">資源盤點</text>
-  <text x="117" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">由社工師盤點</text>
-  <text x="117" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">社區資源，</text>
-  <text x="117" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">建立資源清冊</text>
+  <text x="117" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
+  <text x="117" y="198" font-size="18" fill="white" text-anchor="middle" >資源盤點</text>
+  <text x="117" y="310" font-size="14" fill="#57534e" text-anchor="middle" >由社工師盤點</text>
+  <text x="117" y="330" font-size="14" fill="#57534e" text-anchor="middle" >社區資源，</text>
+  <text x="117" y="350" font-size="14" fill="#57534e" text-anchor="middle" >建立資源清冊</text>
 
   <!-- 箭頭1 -->
   <polygon points="210,182 230,172 230,192" fill="#a8a29e"/>
@@ -23,11 +23,11 @@
 
   <!-- 步驟2 -->
   <rect x="235" y="130" width="155" height="110" rx="12" fill="#78716c"/>
-  <text x="312" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 2</text>
-  <text x="312" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">建立連結</text>
-  <text x="312" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">與至少3處</text>
-  <text x="312" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">（目標5處）</text>
-  <text x="312" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">正式連結</text>
+  <text x="312" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
+  <text x="312" y="198" font-size="18" fill="white" text-anchor="middle" >建立連結</text>
+  <text x="312" y="310" font-size="14" fill="#57534e" text-anchor="middle" >與至少3處</text>
+  <text x="312" y="330" font-size="14" fill="#57534e" text-anchor="middle" >（目標5處）</text>
+  <text x="312" y="350" font-size="14" fill="#57534e" text-anchor="middle" >正式連結</text>
 
   <!-- 箭頭2 -->
   <polygon points="405,182 425,172 425,192" fill="#a8a29e"/>
@@ -35,11 +35,11 @@
 
   <!-- 步驟3 -->
   <rect x="430" y="130" width="155" height="110" rx="12" fill="#57534e"/>
-  <text x="507" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 3</text>
-  <text x="507" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">推動參與</text>
-  <text x="507" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">鼓勵住民</text>
-  <text x="507" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">參與社區活動</text>
-  <text x="507" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">記錄簽到照片</text>
+  <text x="507" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
+  <text x="507" y="198" font-size="18" fill="white" text-anchor="middle" >推動參與</text>
+  <text x="507" y="310" font-size="14" fill="#57534e" text-anchor="middle" >鼓勵住民</text>
+  <text x="507" y="330" font-size="14" fill="#57534e" text-anchor="middle" >參與社區活動</text>
+  <text x="507" y="350" font-size="14" fill="#57534e" text-anchor="middle" >記錄簽到照片</text>
 
   <!-- 箭頭3 -->
   <polygon points="600,182 620,172 620,192" fill="#a8a29e"/>
@@ -47,11 +47,11 @@
 
   <!-- 步驟4 -->
   <rect x="625" y="130" width="135" height="110" rx="12" fill="#a8a29e"/>
-  <text x="692" y="170" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">STEP 4</text>
-  <text x="692" y="198" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">成效評值</text>
-  <text x="692" y="310" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">各項活動</text>
-  <text x="692" y="330" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">有評值紀錄</text>
-  <text x="692" y="350" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依評值修訂</text>
+  <text x="692" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
+  <text x="692" y="198" font-size="18" fill="white" text-anchor="middle" >成效評值</text>
+  <text x="692" y="310" font-size="14" fill="#57534e" text-anchor="middle" >各項活動</text>
+  <text x="692" y="330" font-size="14" fill="#57534e" text-anchor="middle" >有評值紀錄</text>
+  <text x="692" y="350" font-size="14" fill="#57534e" text-anchor="middle" >依評值修訂</text>
 
   <!-- 連接線 -->
   <line x1="117" y1="240" x2="117" y2="300" stroke="#d97706" stroke-width="2" stroke-dasharray="4,3"/>
@@ -61,8 +61,8 @@
 
   <!-- 底部說明框 -->
   <rect x="40" y="390" width="720" height="50" rx="8" fill="white" opacity="0.6"/>
-  <text x="400" y="420" font-size="17" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">正式連結需有合作協議或公文佐證，活動紀錄需含照片與簽到表</text>
+  <text x="400" y="420" font-size="17" fill="#57534e" text-anchor="middle" >正式連結需有合作協議或公文佐證，活動紀錄需含照片與簽到表</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -1,72 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">消防安全自評清單</text>
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑前全面確認C面向三項要求</text>
+  <text x="40" y="48" font-size="32" font-weight="900" fill="#1e293b" >消防安全自評清單</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >評鑑前全面確認C面向三項要求</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
 
   <!-- 左欄標題 -->
   <rect x="40" y="110" width="340" height="40" rx="6" fill="#d97706"/>
-  <text x="210" y="136" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">硬體設施</text>
+  <text x="210" y="136" font-size="20" font-weight="700" fill="white" text-anchor="middle" >硬體設施</text>
 
   <!-- 左欄項目1 - 確認 -->
   <rect x="40" y="162" width="340" height="54" rx="6" fill="white"/>
   <circle cx="70" cy="189" r="14" fill="#22c55e"/>
-  <text x="70" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
-  <text x="96" y="184" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">逃生圖張貼位置</text>
-  <text x="96" y="204" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">入口、玄關、安全梯側均已張貼</text>
+  <text x="70" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
+  <text x="96" y="184" font-size="16" fill="#1e293b" >逃生圖張貼位置</text>
+  <text x="96" y="204" font-size="14" fill="#78716c" >入口、玄關、安全梯側均已張貼</text>
 
   <!-- 左欄項目2 - 確認 -->
   <rect x="40" y="228" width="340" height="54" rx="6" fill="white"/>
   <circle cx="70" cy="255" r="14" fill="#22c55e"/>
-  <text x="70" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
-  <text x="96" y="250" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">等待救接空間查驗</text>
-  <text x="96" y="270" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">各樓層2處，面積符合規定</text>
+  <text x="70" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
+  <text x="96" y="250" font-size="16" fill="#1e293b" >等待救接空間查驗</text>
+  <text x="96" y="270" font-size="14" fill="#78716c" >各樓層2處，面積符合規定</text>
 
   <!-- 左欄項目3 - 待確認 -->
   <rect x="40" y="294" width="340" height="54" rx="6" fill="white"/>
   <circle cx="70" cy="321" r="14" fill="#f59e0b"/>
-  <text x="70" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">!</text>
-  <text x="96" y="316" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">防火門常閉確認</text>
-  <text x="96" y="336" font-size="14" fill="#f59e0b" font-family="'Noto Sans TC', sans-serif">待確認 — 需逐一檢查關閉狀態</text>
+  <text x="70" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" >!</text>
+  <text x="96" y="316" font-size="16" fill="#1e293b" >防火門常閉確認</text>
+  <text x="96" y="336" font-size="14" fill="#f59e0b" >待確認 — 需逐一檢查關閉狀態</text>
 
   <!-- 右欄標題 -->
   <rect x="420" y="110" width="340" height="40" rx="6" fill="#78716c"/>
-  <text x="590" y="136" font-size="20" font-weight="700" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">文件演練</text>
+  <text x="590" y="136" font-size="20" font-weight="700" fill="white" text-anchor="middle" >文件演練</text>
 
   <!-- 右欄項目1 - 確認 -->
   <rect x="420" y="162" width="340" height="54" rx="6" fill="white"/>
   <circle cx="450" cy="189" r="14" fill="#22c55e"/>
-  <text x="450" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
-  <text x="476" y="184" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">火災應變計畫</text>
-  <text x="476" y="204" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">計畫完整，已年度更新</text>
+  <text x="450" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
+  <text x="476" y="184" font-size="16" fill="#1e293b" >火災應變計畫</text>
+  <text x="476" y="204" font-size="14" fill="#78716c" >計畫完整，已年度更新</text>
 
   <!-- 右欄項目2 - 確認 -->
   <rect x="420" y="228" width="340" height="54" rx="6" fill="white"/>
   <circle cx="450" cy="255" r="14" fill="#22c55e"/>
-  <text x="450" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">V</text>
-  <text x="476" y="250" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">夜間演練記錄</text>
-  <text x="476" y="270" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">有演練紀錄表及簽到冊</text>
+  <text x="450" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
+  <text x="476" y="250" font-size="16" fill="#1e293b" >夜間演練記錄</text>
+  <text x="476" y="270" font-size="14" fill="#78716c" >有演練紀錄表及簽到冊</text>
 
   <!-- 右欄項目3 - 待確認 -->
   <rect x="420" y="294" width="340" height="54" rx="6" fill="white"/>
   <circle cx="450" cy="321" r="14" fill="#f59e0b"/>
-  <text x="450" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" font-family="'Noto Sans TC', sans-serif">!</text>
-  <text x="476" y="316" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">演練檢討改善報告</text>
-  <text x="476" y="336" font-size="14" fill="#f59e0b" font-family="'Noto Sans TC', sans-serif">待確認 — 需補充改善追蹤</text>
+  <text x="450" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" >!</text>
+  <text x="476" y="316" font-size="16" fill="#1e293b" >演練檢討改善報告</text>
+  <text x="476" y="336" font-size="14" fill="#f59e0b" >待確認 — 需補充改善追蹤</text>
 
   <!-- 圖例說明 -->
   <circle cx="60" cy="398" r="10" fill="#22c55e"/>
-  <text x="78" y="403" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">已確認</text>
+  <text x="78" y="403" font-size="16" fill="#57534e" >已確認</text>
   <circle cx="160" cy="398" r="10" fill="#f59e0b"/>
-  <text x="178" y="403" font-size="16" fill="#57534e" font-family="'Noto Sans TC', sans-serif">待確認（需補強）</text>
+  <text x="178" y="403" font-size="16" fill="#57534e" >待確認（需補強）</text>
 
   <!-- 提示 -->
   <rect x="40" y="420" width="720" height="40" rx="6" fill="#d97706" fill-opacity="0.12"/>
-  <text x="400" y="445" font-size="18" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">C1.1為試扣分項目，硬體設施務必在評鑑前完成現場確認</text>
+  <text x="400" y="445" font-size="18" fill="#d97706" text-anchor="middle" >C1.1為試扣分項目，硬體設施務必在評鑑前完成現場確認</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

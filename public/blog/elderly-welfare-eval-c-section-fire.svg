@@ -1,57 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#dc2626"/>
-  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C9-C10 消防安全設備與疏散避難（一級必要）</text>
-  <text x="400" y="68" font-size="16" fill="#fecaca" text-anchor="middle" font-family="sans-serif">兩項均為一票否決指標 ｜ 115年度老人福利機構評鑑</text>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" >C9-C10 消防安全設備與疏散避難（一級必要）</text>
+  <text x="400" y="68" font-size="16" fill="#fecaca" text-anchor="middle" >兩項均為一票否決指標 ｜ 115年度老人福利機構評鑑</text>
 
   <!-- N=4 版型：H=62, outer_gap=50, Row y: 160/235/310/385 -->
 
   <!-- Row 1: C9-申報 -->
   <rect x="30" y="110" width="740" height="62" rx="8" fill="white"/>
-  <rect x="30" y="110" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="141" r="16" fill="#d97706"/>
-  <text x="66" y="146" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C9</text>
-  <text x="100" y="134" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">建築物防火避難設施安全檢查申報</text>
-  <text x="100" y="156" font-size="13" fill="#57534e" font-family="sans-serif">建物用途與使用執照相符；現場備有檢查報告書及地方政府審查合格證明</text>
-  <rect x="620" y="121" width="136" height="40" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="688" y="146" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">每年申報</text>
+  <rect x="30" y="110" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="141" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="146" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C9</text>
+  <text x="100" y="134" font-size="17" font-weight="bold" fill="#1e293b" >建築物防火避難設施安全檢查申報</text>
+  <text x="100" y="156" font-size="13" fill="#57534e" >建物用途與使用執照相符；現場備有檢查報告書及地方政府審查合格證明</text>
+  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <text x="688" y="146" font-size="13" fill="#d97706" text-anchor="middle" >每年申報</text>
 
   <!-- Row 2: C9-半年檢修 -->
   <rect x="30" y="185" width="740" height="62" rx="8" fill="white"/>
-  <rect x="30" y="185" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="216" r="16" fill="#78716c"/>
-  <text x="66" y="221" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C9</text>
-  <text x="100" y="209" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">消防安全設備半年定期檢修申報</text>
-  <text x="100" y="231" font-size="13" fill="#57534e" font-family="sans-serif">每半年委託消防設備師/設備士檢修，結果報消防機關備查，備有5年完整紀錄</text>
-  <rect x="620" y="196" width="136" height="40" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="688" y="221" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">5 年紀錄</text>
+  <rect x="30" y="185" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="216" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="221" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C9</text>
+  <text x="100" y="209" font-size="17" font-weight="bold" fill="#1e293b" >消防安全設備半年定期檢修申報</text>
+  <text x="100" y="231" font-size="13" fill="#57534e" >每半年委託消防設備師/設備士檢修，結果報消防機關備查，備有5年完整紀錄</text>
+  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="221" font-size="13" fill="#dc2626" text-anchor="middle" >5 年紀錄</text>
 
   <!-- Row 3: C10-雙向逃生 -->
   <rect x="30" y="260" width="740" height="62" rx="8" fill="white"/>
-  <rect x="30" y="260" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="291" r="16" fill="#57534e"/>
-  <text x="66" y="296" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C10</text>
-  <text x="100" y="284" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">逃生路徑為雙向設計</text>
-  <text x="100" y="306" font-size="13" fill="#57534e" font-family="sans-serif">至少1座安全梯＋兩個以上避難途徑；防火門往避難方向開啟，隨時保持開閘</text>
-  <rect x="620" y="271" width="136" height="40" rx="6" fill="#f0fdf4" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="688" y="296" font-size="13" fill="#0d9488" text-anchor="middle" font-family="sans-serif">雙向逃生</text>
+  <rect x="30" y="260" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="291" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="296" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C10</text>
+  <text x="100" y="284" font-size="17" font-weight="bold" fill="#1e293b" >逃生路徑為雙向設計</text>
+  <text x="100" y="306" font-size="13" fill="#57534e" >至少1座安全梯＋兩個以上避難途徑；防火門往避難方向開啟，隨時保持開閘</text>
+  <rect x="620" y="271" width="136" height="40" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="296" font-size="13" fill="#0d9488" text-anchor="middle" >雙向逃生</text>
 
   <!-- Row 4: C10-排煙空間 -->
   <rect x="30" y="335" width="740" height="62" rx="8" fill="white"/>
-  <rect x="30" y="335" width="6" height="62" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="366" r="16" fill="#a8a29e"/>
-  <text x="66" y="371" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C10</text>
-  <text x="100" y="359" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">等待救接空間與排煙設計</text>
-  <text x="100" y="381" font-size="13" fill="#57534e" font-family="sans-serif">設等待救接空間有排煙設計或有效排煙功能；火災時中央空調自動切斷</text>
-  <rect x="620" y="346" width="136" height="40" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="688" y="371" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">排煙連動</text>
+  <rect x="30" y="335" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="366" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="371" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C10</text>
+  <text x="100" y="359" font-size="17" font-weight="bold" fill="#1e293b" >等待救接空間與排煙設計</text>
+  <text x="100" y="381" font-size="13" fill="#57534e" >設等待救接空間有排煙設計或有效排煙功能；火災時中央空調自動切斷</text>
+  <rect x="620" y="346" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <text x="688" y="371" font-size="13" fill="#d97706" text-anchor="middle" >排煙連動</text>
 
   <!-- 底部說明 -->
-  <text x="30" y="440" font-size="14" fill="#78716c" font-family="sans-serif">消防安全設備5年紀錄是高頻查核項目，務必保持完整連續性紀錄</text>
+  <text x="30" y="440" font-size="14" fill="#78716c" >消防安全設備5年紀錄是高頻查核項目，務必保持完整連續性紀錄</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

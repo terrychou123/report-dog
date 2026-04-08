@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">Act 行動階段</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">固化改善成果，讓進步成為機構標準</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">Act 行動階段</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">固化改善成果，讓進步成為機構標準</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 項目1 -->
   <rect x="40" y="130" width="220" height="240" rx="14" fill="#d97706"/>
-  <text x="150" y="195" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="150" y="240" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">修訂 SOP</text>
-  <text x="150" y="272" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">將成功改善方法</text>
-  <text x="150" y="294" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">寫入工作手冊</text>
-  <text x="150" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">（呼應 A1 條）</text>
+  <text x="150" y="195"  font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="150" y="240"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">修訂 SOP</text>
+  <text x="150" y="272"  font-size="15" fill="#fff3cd" text-anchor="middle">將成功改善方法</text>
+  <text x="150" y="294"  font-size="15" fill="#fff3cd" text-anchor="middle">寫入工作手冊</text>
+  <text x="150" y="316"  font-size="14" fill="#fff3cd" text-anchor="middle">（呼應 A1 條）</text>
   <!-- 項目2 -->
   <rect x="290" y="130" width="220" height="240" rx="14" fill="#78716c"/>
-  <text x="400" y="195" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="400" y="240" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">納入訓練</text>
-  <text x="400" y="272" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">缺失案例作為</text>
-  <text x="400" y="294" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">在職訓練教材</text>
-  <text x="400" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">（呼應 A14 條）</text>
+  <text x="400" y="195"  font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="400" y="240"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">納入訓練</text>
+  <text x="400" y="272"  font-size="15" fill="#d4ccc8" text-anchor="middle">缺失案例作為</text>
+  <text x="400" y="294"  font-size="15" fill="#d4ccc8" text-anchor="middle">在職訓練教材</text>
+  <text x="400" y="316"  font-size="14" fill="#d4ccc8" text-anchor="middle">（呼應 A14 條）</text>
   <!-- 項目3 -->
   <rect x="540" y="130" width="220" height="240" rx="14" fill="#57534e"/>
-  <text x="650" y="195" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="650" y="240" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">更新年度計畫</text>
-  <text x="650" y="272" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">納入預防措施</text>
-  <text x="650" y="294" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">展現持續改善</text>
-  <text x="650" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">（呼應 A3 條）</text>
+  <text x="650" y="195"  font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="650" y="240"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">更新年度計畫</text>
+  <text x="650" y="272"  font-size="15" fill="#d4ccc8" text-anchor="middle">納入預防措施</text>
+  <text x="650" y="294"  font-size="15" fill="#d4ccc8" text-anchor="middle">展現持續改善</text>
+  <text x="650" y="316"  font-size="14" fill="#d4ccc8" text-anchor="middle">（呼應 A3 條）</text>
   <!-- 底部說明 -->
   <rect x="40" y="395" width="720" height="50" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-  <text x="60" y="416" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">Act 的目標：</text>
-  <text x="160" y="416" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">讓改善成果在人員異動後仍能延續——標準化才是真正的改善</text>
-  <text x="60" y="436" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">對應 E2 條：</text>
-  <text x="160" y="436" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">創新措施納入 PDCA 追蹤，讓委員看到「具體實蹟」</text>
+  <text x="60" y="416"  font-size="15" font-weight="700" fill="#d97706">Act 的目標：</text>
+  <text x="160" y="416"  font-size="15" fill="#57534e">讓改善成果在人員異動後仍能延續——標準化才是真正的改善</text>
+  <text x="60" y="436"  font-size="15" font-weight="700" fill="#78716c">對應 E2 條：</text>
+  <text x="160" y="436"  font-size="15" fill="#57534e">創新措施納入 PDCA 追蹤，讓委員看到「具體實蹟」</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

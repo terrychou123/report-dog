@@ -26,11 +26,11 @@
   <text x="60" y="390" font-size="36" fill="#57534e">安置機構評鑑最大區塊完整解析</text>
 
   <!-- 特色標籤列 -->
-  <rect x="60" y="430" width="136" height="40" rx="20" fill="#d97706" opacity="0.12"/>
+  <rect x="60" y="430" width="136" height="40" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="128" y="456" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600">輔導目標 15分</text>
-  <rect x="208" y="430" width="136" height="40" rx="20" fill="#2563eb" opacity="0.10"/>
+  <rect x="208" y="430" width="136" height="40" rx="8" fill="#2563eb" opacity="0.12"/>
   <text x="276" y="456" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600">雙版本各 32分</text>
-  <rect x="356" y="430" width="136" height="40" rx="20" fill="#16a34a" opacity="0.10"/>
+  <rect x="356" y="430" width="136" height="40" rx="8" fill="#16a34a" opacity="0.12"/>
   <text x="424" y="456" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="600">資源結合 6分</text>
 
   <!-- 底部資訊 -->

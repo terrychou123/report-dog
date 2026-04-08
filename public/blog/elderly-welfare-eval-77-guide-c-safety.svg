@@ -10,7 +10,7 @@
   <!-- Row y: 95, 159, 223, 287, 351, 415 -->
 
   <!-- Row 1: C4 緊急呼叫 -->
-  <rect x="28" y="95" width="744" height="54" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="95" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="95" width="6" height="54" rx="2" fill="#d97706"/>
   <circle cx="66" cy="122" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="128" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">C4</text>
@@ -21,7 +21,7 @@
   <text x="688" y="136" font-size="14" fill="#d97706" text-anchor="middle">一級必要</text>
 
   <!-- Row 2: C9 消防安全 -->
-  <rect x="28" y="159" width="744" height="54" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="159" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="159" width="6" height="54" rx="2" fill="#78716c"/>
   <circle cx="66" cy="186" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="192" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">C9</text>
@@ -32,7 +32,7 @@
   <text x="688" y="200" font-size="14" fill="#78716c" text-anchor="middle">一級必要</text>
 
   <!-- Row 3: C10 疏散避難 -->
-  <rect x="28" y="223" width="744" height="54" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="223" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="223" width="6" height="54" rx="2" fill="#57534e"/>
   <circle cx="66" cy="250" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="256" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">C10</text>
@@ -43,7 +43,7 @@
   <text x="688" y="264" font-size="14" fill="#57534e" text-anchor="middle">一級必要</text>
 
   <!-- Row 4: C11 災害應變計畫 -->
-  <rect x="28" y="287" width="744" height="54" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="287" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="287" width="6" height="54" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="314" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="320" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">C11</text>
@@ -54,7 +54,7 @@
   <text x="688" y="328" font-size="14" fill="#1e293b" text-anchor="middle">一級必要</text>
 
   <!-- Row 5: C12 疏散策略 -->
-  <rect x="28" y="351" width="744" height="54" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="351" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="351" width="6" height="54" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="378" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="384" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">C12</text>
@@ -65,7 +65,7 @@
   <text x="688" y="392" font-size="14" fill="#57534e" text-anchor="middle">一級必要</text>
 
   <!-- Row 6: C15 護理站 -->
-  <rect x="28" y="415" width="744" height="54" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="415" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="415" width="6" height="54" rx="2" fill="#6b7280"/>
   <circle cx="66" cy="442" r="16" fill="#6b7280" opacity="0.15"/>
   <text x="66" y="448" font-size="16" fill="#6b7280" text-anchor="middle" font-weight="900">C15</text>

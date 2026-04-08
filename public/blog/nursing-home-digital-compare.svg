@@ -1,46 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">紙本管理 vs. 數位管理</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">關鍵差異比較</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">紙本管理 vs. 數位管理</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">關鍵差異比較</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 標題列 -->
   <rect x="40" y="110" width="320" height="36" rx="6" fill="#78716c"/>
-  <text x="200" y="133" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">紙本管理</text>
+  <text x="200" y="133"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">紙本管理</text>
   <rect x="440" y="110" width="320" height="36" rx="6" fill="#d97706"/>
-  <text x="600" y="133" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">數位管理</text>
+  <text x="600" y="133"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">數位管理</text>
   <!-- 項目1 -->
   <rect x="40" y="154" width="320" height="50" rx="4" fill="#ffffff"/>
-  <text x="60" y="174" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">文件查找</text>
-  <text x="60" y="194" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">手動翻閱資料夾，評鑑前耗費數小時</text>
+  <text x="60" y="174"  font-size="15" font-weight="700" fill="#78716c">文件查找</text>
+  <text x="60" y="194"  font-size="14" fill="#57534e">手動翻閱資料夾，評鑑前耗費數小時</text>
   <rect x="440" y="154" width="320" height="50" rx="4" fill="#ffffff"/>
-  <text x="460" y="174" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">文件查找</text>
-  <text x="460" y="194" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">輸入條文編號，30 秒內找到</text>
+  <text x="460" y="174"  font-size="15" font-weight="700" fill="#d97706">文件查找</text>
+  <text x="460" y="194"  font-size="14" fill="#57534e">輸入條文編號，30 秒內找到</text>
   <!-- 分隔符 -->
-  <text x="400" y="188" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
+  <text x="400" y="188"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 項目2 -->
   <rect x="40" y="212" width="320" height="50" rx="4" fill="#f8f7f5"/>
-  <text x="60" y="232" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">版本管理</text>
-  <text x="60" y="252" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">不確定哪份是最新版，容易誤用舊版</text>
+  <text x="60" y="232"  font-size="15" font-weight="700" fill="#78716c">版本管理</text>
+  <text x="60" y="252"  font-size="14" fill="#57534e">不確定哪份是最新版，容易誤用舊版</text>
   <rect x="440" y="212" width="320" height="50" rx="4" fill="#f8f7f5"/>
-  <text x="460" y="232" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">版本管理</text>
-  <text x="460" y="252" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">版本自動記錄，修改時間與人員清晰</text>
-  <text x="400" y="246" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
+  <text x="460" y="232"  font-size="15" font-weight="700" fill="#d97706">版本管理</text>
+  <text x="460" y="252"  font-size="14" fill="#57534e">版本自動記錄，修改時間與人員清晰</text>
+  <text x="400" y="246"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 項目3 -->
   <rect x="40" y="270" width="320" height="50" rx="4" fill="#ffffff"/>
-  <text x="60" y="290" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">多人協作</text>
-  <text x="60" y="310" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">各自修改後需人工整合，版本衝突</text>
+  <text x="60" y="290"  font-size="15" font-weight="700" fill="#78716c">多人協作</text>
+  <text x="60" y="310"  font-size="14" fill="#57534e">各自修改後需人工整合，版本衝突</text>
   <rect x="440" y="270" width="320" height="50" rx="4" fill="#ffffff"/>
-  <text x="460" y="290" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">多人協作</text>
-  <text x="460" y="310" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">即時同步，主管追蹤各項任務進度</text>
-  <text x="400" y="304" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
+  <text x="460" y="290"  font-size="15" font-weight="700" fill="#d97706">多人協作</text>
+  <text x="460" y="310"  font-size="14" fill="#57534e">即時同步，主管追蹤各項任務進度</text>
+  <text x="400" y="304"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 項目4 -->
   <rect x="40" y="328" width="320" height="50" rx="4" fill="#f8f7f5"/>
-  <text x="60" y="348" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">評鑑準備時間</text>
-  <text x="60" y="368" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">評鑑前 2-3 週大量人力集中整理文件</text>
+  <text x="60" y="348"  font-size="15" font-weight="700" fill="#78716c">評鑑準備時間</text>
+  <text x="60" y="368"  font-size="14" fill="#57534e">評鑑前 2-3 週大量人力集中整理文件</text>
   <rect x="440" y="328" width="320" height="50" rx="4" fill="#f8f7f5"/>
-  <text x="460" y="348" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">評鑑準備時間</text>
-  <text x="460" y="368" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">日常即維護，評鑑前確認週次即可</text>
-  <text x="400" y="362" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
+  <text x="460" y="348"  font-size="15" font-weight="700" fill="#d97706">評鑑準備時間</text>
+  <text x="460" y="368"  font-size="14" fill="#57534e">日常即維護，評鑑前確認週次即可</text>
+  <text x="400" y="362"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

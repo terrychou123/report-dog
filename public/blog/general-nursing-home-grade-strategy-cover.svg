@@ -4,7 +4,7 @@
   <!-- 頂部金色條 -->
   <rect width="1200" height="8" fill="#b45309"/>
   <!-- 左側裝飾線 -->
-  <rect x="60" y="40" width="6" height="550" fill="#d97706" rx="3"/>
+  <rect x="60" y="40" width="6" height="550" fill="#d97706" rx="2"/>
 
   <!-- 大標題區 -->
   <text x="100" y="120" font-size="28" fill="#92400e" font-weight="bold">115年度 一般護理之家評鑑</text>

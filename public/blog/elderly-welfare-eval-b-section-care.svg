@@ -1,52 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">照服員日常照護 B25–B27：3 大服務面向</text>
-  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" font-family="sans-serif">活動促進、清潔翻身、自我照顧能力增進，共同維護住民尊嚴與生活品質</text>
+  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" >照服員日常照護 B25–B27：3 大服務面向</text>
+  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" >活動促進、清潔翻身、自我照顧能力增進，共同維護住民尊嚴與生活品質</text>
 
   <!-- N=3 版型：H=約90，使用自訂間距 -->
 
   <!-- 列 1：B25 日常活動 -->
   <rect x="50" y="115" width="700" height="88" rx="8" fill="white"/>
-  <rect x="50" y="115" width="6" height="88" rx="3" fill="#d97706"/>
-  <circle cx="74" cy="159" r="20" fill="#d97706"/>
-  <text x="74" y="165" font-size="16" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B25</text>
-  <text x="112" y="145" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">提供服務對象日常活動促進</text>
-  <text x="112" y="170" font-size="15" fill="#57534e" font-family="sans-serif">可移動個案每日下床 2 次，意識不清者每日 1 次；使用輔具，提供被動肢體</text>
-  <text x="112" y="192" font-size="15" fill="#57534e" font-family="sans-serif">活動、感官刺激與認知功能訓練，依物理/職能治療師評估結果執行</text>
-  <rect x="620" y="127" width="136" height="64" rx="6" fill="#fef3c7"/>
-  <text x="688" y="152" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif" font-weight="700">下床頻率</text>
-  <text x="688" y="172" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">每日 2 次</text>
-  <text x="688" y="184" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">（意識不清 1 次）</text>
+  <rect x="50" y="115" width="6" height="88" rx="2" fill="#d97706"/>
+  <circle cx="74" cy="159" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="74" y="165" font-size="16" fill="white" text-anchor="middle"  font-weight="700">B25</text>
+  <text x="112" y="145" font-size="20" font-weight="700" fill="#1e293b" >提供服務對象日常活動促進</text>
+  <text x="112" y="170" font-size="15" fill="#57534e" >可移動個案每日下床 2 次，意識不清者每日 1 次；使用輔具，提供被動肢體</text>
+  <text x="112" y="192" font-size="15" fill="#57534e" >活動、感官刺激與認知功能訓練，依物理/職能治療師評估結果執行</text>
+  <rect x="620" y="127" width="136" height="64" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="152" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">下床頻率</text>
+  <text x="688" y="172" font-size="14" fill="#d97706" text-anchor="middle" >每日 2 次</text>
+  <text x="688" y="184" font-size="13" fill="#d97706" text-anchor="middle" >（意識不清 1 次）</text>
 
   <!-- 列 2：B26 清潔翻身 -->
   <rect x="50" y="225" width="700" height="88" rx="8" fill="white"/>
   <rect x="50" y="225" width="6" height="88" rx="3" fill="#16a34a"/>
   <circle cx="74" cy="269" r="20" fill="#16a34a"/>
-  <text x="74" y="275" font-size="16" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B26</text>
-  <text x="112" y="255" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">清潔照護及翻身拍背</text>
-  <text x="112" y="280" font-size="15" fill="#57534e" font-family="sans-serif">每週至少洗澡 2 次，維持儀容整潔；臥床個案每 2 小時翻身拍背並記錄；</text>
-  <text x="112" y="302" font-size="15" fill="#57534e" font-family="sans-serif">落實每日餐後睡前口腔清潔，包含鼻胃管住民，尊重個人裝扮偏好</text>
-  <rect x="620" y="237" width="136" height="64" rx="6" fill="#dcfce7"/>
-  <text x="688" y="262" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif" font-weight="700">翻身頻率</text>
-  <text x="688" y="282" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif">每 2 小時</text>
-  <text x="688" y="294" font-size="13" fill="#16a34a" text-anchor="middle" font-family="sans-serif">擺位記錄</text>
+  <text x="74" y="275" font-size="16" fill="white" text-anchor="middle"  font-weight="700">B26</text>
+  <text x="112" y="255" font-size="20" font-weight="700" fill="#1e293b" >清潔照護及翻身拍背</text>
+  <text x="112" y="280" font-size="15" fill="#57534e" >每週至少洗澡 2 次，維持儀容整潔；臥床個案每 2 小時翻身拍背並記錄；</text>
+  <text x="112" y="302" font-size="15" fill="#57534e" >落實每日餐後睡前口腔清潔，包含鼻胃管住民，尊重個人裝扮偏好</text>
+  <rect x="620" y="237" width="136" height="64" rx="8" fill="#dcfce7" opacity="0.12"/>
+  <text x="688" y="262" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">翻身頻率</text>
+  <text x="688" y="282" font-size="14" fill="#16a34a" text-anchor="middle" >每 2 小時</text>
+  <text x="688" y="294" font-size="13" fill="#16a34a" text-anchor="middle" >擺位記錄</text>
 
   <!-- 列 3：B27 自我照顧能力 -->
   <rect x="50" y="335" width="700" height="88" rx="8" fill="white"/>
-  <rect x="50" y="335" width="6" height="88" rx="3" fill="#78716c"/>
-  <circle cx="74" cy="379" r="20" fill="#78716c"/>
-  <text x="74" y="385" font-size="16" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">B27</text>
-  <text x="112" y="365" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">自我照顧能力增進與輔具運用</text>
-  <text x="112" y="390" font-size="15" fill="#57534e" font-family="sans-serif">提供最少必要協助，鼓勵自行進食/翻身/如廁；輪椅個別化配置適合人體尺寸；</text>
-  <text x="112" y="412" font-size="15" fill="#57534e" font-family="sans-serif">提供電視音響書報等康樂設備，並提供衛教、協助購物郵電等生活服務</text>
-  <rect x="620" y="347" width="136" height="64" rx="6" fill="#f5f5f4"/>
-  <text x="688" y="372" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif" font-weight="700">最少協助</text>
-  <text x="688" y="392" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">輔具配對</text>
-  <text x="688" y="404" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">個別適用</text>
+  <rect x="50" y="335" width="6" height="88" rx="2" fill="#78716c"/>
+  <circle cx="74" cy="379" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="74" y="385" font-size="16" fill="white" text-anchor="middle"  font-weight="700">B27</text>
+  <text x="112" y="365" font-size="20" font-weight="700" fill="#1e293b" >自我照顧能力增進與輔具運用</text>
+  <text x="112" y="390" font-size="15" fill="#57534e" >提供最少必要協助，鼓勵自行進食/翻身/如廁；輪椅個別化配置適合人體尺寸；</text>
+  <text x="112" y="412" font-size="15" fill="#57534e" >提供電視音響書報等康樂設備，並提供衛教、協助購物郵電等生活服務</text>
+  <rect x="620" y="347" width="136" height="64" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="688" y="372" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">最少協助</text>
+  <text x="688" y="392" font-size="14" fill="#78716c" text-anchor="middle" >輔具配對</text>
+  <text x="688" y="404" font-size="13" fill="#78716c" text-anchor="middle" >個別適用</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

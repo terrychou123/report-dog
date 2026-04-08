@@ -5,19 +5,19 @@
   <text x="1010" y="240" font-size="34" fill="#78716c" text-anchor="middle" font-weight="600">5個實戰場景</text>
   <rect x="840" y="270" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="303" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">文書效率化策略</text>
-  <rect x="840" y="334" width="148" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="334" width="148" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="360" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">ISP 撰寫</text>
   <text x="914" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">AI 初稿生成</text>
-  <rect x="1000" y="334" width="148" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1000" y="334" width="148" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="360" font-size="20" fill="#78716c" text-anchor="middle" font-weight="700">個案紀錄</text>
   <text x="1074" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">SOAP 快速</text>
-  <rect x="840" y="406" width="148" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="406" width="148" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="432" font-size="20" fill="#57534e" text-anchor="middle" font-weight="700">評鑑自評</text>
   <text x="914" y="454" font-size="16" fill="#a8a29e" text-anchor="middle">缺口分析</text>
-  <rect x="1000" y="406" width="148" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1000" y="406" width="148" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="432" font-size="20" fill="#a8a29e" text-anchor="middle" font-weight="700">會議紀錄</text>
   <text x="1074" y="454" font-size="16" fill="#a8a29e" text-anchor="middle">決議整理</text>
-  <rect x="840" y="478" width="320" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="478" width="320" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="504" font-size="20" fill="#78716c" text-anchor="middle" font-weight="700">訓練紀錄 &amp; 年度報告</text>
   <text x="1000" y="526" font-size="16" fill="#a8a29e" text-anchor="middle">批量生成・格式統一</text>
   <text x="60" y="195" font-size="100" font-weight="900" fill="#1e293b">文書工作</text>

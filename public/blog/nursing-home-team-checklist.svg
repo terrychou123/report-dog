@@ -4,7 +4,7 @@
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="94" fill="white"/>
-  <rect x="0" y="0" width="6" height="94" fill="#d97706"/>
+  <rect x="0" y="0" width="6" height="94" fill="#d97706" rx="2"/>
   <text x="400" y="48" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">各職種評鑑自查清單</text>
   <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">評鑑前請逐項確認</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
@@ -13,7 +13,7 @@
   <line x1="400" y1="100" x2="400" y2="430" stroke="#dedad3" stroke-width="1" stroke-dasharray="4,4"/>
 
   <!-- 左欄：行政/主任 -->
-  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <rect x="60" y="108" width="6" height="24" rx="2" fill="#d97706"/>
   <text x="76" y="126" font-size="18" font-weight="700" fill="#d97706">行政 / 主任</text>
 
   <!-- 勾選項目 -->
@@ -30,7 +30,7 @@
   <text x="94" y="218" font-size="18" fill="#1e293b">年度訓練計畫與時數紀錄</text>
 
   <!-- 左欄：社工師 -->
-  <rect x="60" y="240" width="6" height="24" rx="3" fill="#78716c"/>
+  <rect x="60" y="240" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="76" y="258" font-size="18" font-weight="700" fill="#78716c">社工師</text>
 
   <rect x="60" y="275" width="20" height="20" rx="3" fill="white" stroke="#78716c" stroke-width="1.5"/>
@@ -46,7 +46,7 @@
   <text x="94" y="350" font-size="18" fill="#1e293b">D1-D9個案權益文件齊全</text>
 
   <!-- 右欄：護理師 -->
-  <rect x="416" y="108" width="6" height="24" rx="3" fill="#57534e"/>
+  <rect x="416" y="108" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="432" y="126" font-size="18" font-weight="700" fill="#57534e">護理師</text>
 
   <rect x="416" y="143" width="20" height="20" rx="3" fill="white" stroke="#57534e" stroke-width="1.5"/>
@@ -62,7 +62,7 @@
   <text x="450" y="218" font-size="18" fill="#1e293b">感染監測紀錄含逐案分析</text>
 
   <!-- 右欄：環安人員 -->
-  <rect x="416" y="240" width="6" height="24" rx="3" fill="#94a3b8"/>
+  <rect x="416" y="240" width="6" height="24" rx="2" fill="#94a3b8"/>
   <text x="432" y="258" font-size="18" font-weight="700" fill="#57534e">環安人員</text>
 
   <rect x="416" y="275" width="20" height="20" rx="3" fill="white" stroke="#94a3b8" stroke-width="1.5"/>

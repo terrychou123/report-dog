@@ -9,19 +9,19 @@
   <text x="1010" y="283" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">大職種分工</text>
 
   <!-- 右側 2×2 資訊卡片 -->
-  <rect x="840" y="303" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="303" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="340" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">行政主任</text>
   <text x="918" y="371" font-size="22" fill="#a8a29e" text-anchor="middle">A1-A7, E1-E3</text>
 
-  <rect x="1005" y="303" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1005" y="303" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="340" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">社工師</text>
   <text x="1083" y="371" font-size="22" fill="#a8a29e" text-anchor="middle">A8, B3-B8, D1-D9</text>
 
-  <rect x="840" y="399" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="399" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="436" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">護理師</text>
   <text x="918" y="467" font-size="22" fill="#a8a29e" text-anchor="middle">A9-A11, B 系列</text>
 
-  <rect x="1005" y="399" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1005" y="399" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="436" font-size="28" fill="#a8a29e" text-anchor="middle" font-weight="700">環安人員</text>
   <text x="1083" y="467" font-size="22" fill="#a8a29e" text-anchor="middle">C1-C14 系列</text>
 

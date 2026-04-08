@@ -1,42 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題列 -->
   <rect x="30" y="38" width="740" height="90" rx="10" fill="#d97706"/>
-  <text x="400" y="80" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">B13 跌倒預防 3 大要點</text>
-  <text x="400" y="112" font-size="17" fill="#fef3c7" text-anchor="middle" font-family="sans-serif">評估措施 × 逐案分析 × 每季改善方案</text>
+  <text x="400" y="80" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" >B13 跌倒預防 3 大要點</text>
+  <text x="400" y="112" font-size="17" fill="#fef3c7" text-anchor="middle" >評估措施 × 逐案分析 × 每季改善方案</text>
 
   <!-- Row 1 (N=3: y=166) -->
   <rect x="30" y="166" width="740" height="90" rx="8" fill="#ffffff"/>
-  <rect x="30" y="166" width="6" height="90" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="211" r="16" fill="#d97706"/>
-  <text x="66" y="217" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
-  <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">訂有跌倒預防評估措施、處理辦法及流程</text>
-  <text x="100" y="225" font-size="16" fill="#57534e" font-family="sans-serif">含跌倒風險評估工具（如 Morse 量表）、高風險個案標記、環境改善措施及緊急處理流程</text>
-  <rect x="620" y="174" width="136" height="46" rx="6" fill="#fef3c7"/>
-  <text x="688" y="202" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">書面辦法必備</text>
+  <rect x="30" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
+  <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700" >訂有跌倒預防評估措施、處理辦法及流程</text>
+  <text x="100" y="225" font-size="16" fill="#57534e" >含跌倒風險評估工具（如 Morse 量表）、高風險個案標記、環境改善措施及緊急處理流程</text>
+  <rect x="620" y="174" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="202" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600" >書面辦法必備</text>
 
   <!-- Row 2 (y=269) -->
   <rect x="30" y="269" width="740" height="90" rx="8" fill="#ffffff"/>
-  <rect x="30" y="269" width="6" height="90" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="314" r="16" fill="#78716c"/>
-  <text x="66" y="320" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
-  <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">發生跌倒案件應逐案分析、處置</text>
-  <text x="100" y="328" font-size="16" fill="#57534e" font-family="sans-serif">每次跌倒事件均需填寫跌倒事件報告表，記錄發生時間、地點、原因、處置措施及追蹤</text>
-  <rect x="620" y="277" width="136" height="46" rx="6" fill="#dbeafe"/>
-  <text x="688" y="305" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">事件報告表</text>
+  <rect x="30" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
+  <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" >發生跌倒案件應逐案分析、處置</text>
+  <text x="100" y="328" font-size="16" fill="#57534e" >每次跌倒事件均需填寫跌倒事件報告表，記錄發生時間、地點、原因、處置措施及追蹤</text>
+  <rect x="620" y="277" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <text x="688" y="305" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" >事件報告表</text>
 
   <!-- Row 3 (y=372) -->
   <rect x="30" y="372" width="740" height="90" rx="8" fill="#ffffff"/>
-  <rect x="30" y="372" width="6" height="90" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="417" r="16" fill="#57534e"/>
-  <text x="66" y="423" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
-  <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">有監測紀錄且每季分析檢討並提改善方案</text>
-  <text x="100" y="431" font-size="16" fill="#57534e" font-family="sans-serif">每月彙整跌倒件數（分分母：全體住民人次），每季分析趨勢、高風險族群並提改善對策</text>
-  <rect x="620" y="380" width="136" height="46" rx="6" fill="#f0fdf4"/>
-  <text x="688" y="408" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">季報告追蹤</text>
+  <rect x="30" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700" >3</text>
+  <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700" >有監測紀錄且每季分析檢討並提改善方案</text>
+  <text x="100" y="431" font-size="16" fill="#57534e" >每月彙整跌倒件數（分分母：全體住民人次），每季分析趨勢、高風險族群並提改善對策</text>
+  <rect x="620" y="380" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="408" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" >季報告追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

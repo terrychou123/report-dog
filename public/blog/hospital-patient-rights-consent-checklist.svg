@@ -1,48 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="78" fill="#1c1917"/>
-  <text x="400" y="38" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">知情同意書常見缺漏查核清單</text>
-  <text x="400" y="62" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle">評鑑前逐項自查，避免四大常見缺失</text>
+  <text x="400" y="38"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">知情同意書常見缺漏查核清單</text>
+  <text x="400" y="62"  font-size="13" fill="#a8a29e" text-anchor="middle">評鑑前逐項自查，避免四大常見缺失</text>
 
   <!-- 列1（y=92，h=80）— 紅色警示 -->
   <rect x="28" y="92" width="744" height="80" rx="8" fill="#fff5f5" stroke="#fecaca" stroke-width="1"/>
   <rect x="28" y="92" width="6" height="80" rx="3" fill="#dc2626"/>
-  <text x="52" y="116" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#dc2626">替代方案欄位空白</text>
-  <text x="52" y="136" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">同意書上「替代治療方案」欄位常被省略填寫，是評鑑委員最常點出的缺失</text>
-  <text x="52" y="158" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#dc2626">高風險：評鑑委員首要關注點，請確認每份同意書此欄有實質填寫</text>
+  <text x="52" y="116"  font-size="14" font-weight="700" fill="#dc2626">替代方案欄位空白</text>
+  <text x="52" y="136"  font-size="12" fill="#57534e">同意書上「替代治療方案」欄位常被省略填寫，是評鑑委員最常點出的缺失</text>
+  <text x="52" y="158"  font-size="11" fill="#dc2626">高風險：評鑑委員首要關注點，請確認每份同意書此欄有實質填寫</text>
   <rect x="660" y="110" width="88" height="28" rx="14" fill="#fee2e2"/>
-  <text x="704" y="129" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle">必填欄位</text>
+  <text x="704" y="129"  font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle">必填欄位</text>
 
   <!-- 列2（y=182，h=80）-->
   <rect x="28" y="182" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
-  <rect x="28" y="182" width="6" height="80" rx="3" fill="#d97706"/>
-  <text x="52" y="206" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706">不治療後果未說明</text>
-  <text x="52" y="226" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">同意書只說明「做了有什麼風險」，未說明「不做有什麼後果」，違反充分告知原則</text>
-  <text x="52" y="248" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">告知義務要求雙向說明，治療風險與不治療後果同等重要</text>
+  <rect x="28" y="182" width="6" height="80" rx="2" fill="#d97706"/>
+  <text x="52" y="206"  font-size="14" font-weight="700" fill="#d97706">不治療後果未說明</text>
+  <text x="52" y="226"  font-size="12" fill="#57534e">同意書只說明「做了有什麼風險」，未說明「不做有什麼後果」，違反充分告知原則</text>
+  <text x="52" y="248"  font-size="11" fill="#a8a29e">告知義務要求雙向說明，治療風險與不治療後果同等重要</text>
   <rect x="660" y="200" width="88" height="28" rx="14" fill="#fef3c7"/>
-  <text x="704" y="219" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">完整告知</text>
+  <text x="704" y="219"  font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">完整告知</text>
 
   <!-- 列3（y=272，h=80）-->
   <rect x="28" y="272" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
-  <rect x="28" y="272" width="6" height="80" rx="3" fill="#78716c"/>
-  <text x="52" y="296" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c">緊急情況紀錄缺漏</text>
-  <text x="52" y="316" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">緊急手術未留下聯繫家屬的嘗試紀錄，或緊急情況說明未記錄，補填時機說明不清</text>
-  <text x="52" y="338" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">緊急程序需有書面紀錄，事後補記需有明確時間軸佐證</text>
+  <rect x="28" y="272" width="6" height="80" rx="2" fill="#78716c"/>
+  <text x="52" y="296"  font-size="14" font-weight="700" fill="#78716c">緊急情況紀錄缺漏</text>
+  <text x="52" y="316"  font-size="12" fill="#57534e">緊急手術未留下聯繫家屬的嘗試紀錄，或緊急情況說明未記錄，補填時機說明不清</text>
+  <text x="52" y="338"  font-size="11" fill="#a8a29e">緊急程序需有書面紀錄，事後補記需有明確時間軸佐證</text>
   <rect x="660" y="290" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="704" y="309" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#78716c" text-anchor="middle">緊急程序</text>
+  <text x="704" y="309"  font-size="12" font-weight="700" fill="#78716c" text-anchor="middle">緊急程序</text>
 
   <!-- 列4（y=362，h=80）-->
   <rect x="28" y="362" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
-  <rect x="28" y="362" width="6" height="80" rx="3" fill="#a8a29e"/>
-  <text x="52" y="386" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c">可撤回權利未告知</text>
-  <text x="52" y="406" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e">知情同意書未載明「病人可隨時撤回同意」，護理師訪談時也無法說明此權利</text>
-  <text x="52" y="428" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">文書與人員訓練雙重缺失，評鑑訪談時最容易暴露</text>
+  <rect x="28" y="362" width="6" height="80" rx="2" fill="#a8a29e"/>
+  <text x="52" y="386"  font-size="14" font-weight="700" fill="#78716c">可撤回權利未告知</text>
+  <text x="52" y="406"  font-size="12" fill="#57534e">知情同意書未載明「病人可隨時撤回同意」，護理師訪談時也無法說明此權利</text>
+  <text x="52" y="428"  font-size="11" fill="#a8a29e">文書與人員訓練雙重缺失，評鑑訪談時最容易暴露</text>
   <rect x="660" y="380" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="704" y="399" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#a8a29e" text-anchor="middle">撤回告知</text>
+  <text x="704" y="399"  font-size="12" font-weight="700" fill="#a8a29e" text-anchor="middle">撤回告知</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

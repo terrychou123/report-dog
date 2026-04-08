@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑前 6 個月優等衝刺時程</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">分階段備妥所有材料</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">評鑑前 6 個月優等衝刺時程</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">分階段備妥所有材料</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 時間軸 -->
   <line x1="80" y1="200" x2="720" y2="200" stroke="#a8a29e" stroke-width="3"/>
   <!-- M-6 -->
-  <circle cx="80" cy="200" r="16" fill="#d97706"/>
-  <text x="80" y="175" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">M-6</text>
-  <text x="80" y="232" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">確認 9 項</text>
-  <text x="80" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">必要項</text>
-  <text x="80" y="264" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">全部達標</text>
+  <circle cx="80" cy="200" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="175"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">M-6</text>
+  <text x="80" y="232"  font-size="13" fill="#57534e" text-anchor="middle">確認 9 項</text>
+  <text x="80" y="248"  font-size="13" fill="#57534e" text-anchor="middle">必要項</text>
+  <text x="80" y="264"  font-size="13" fill="#57534e" text-anchor="middle">全部達標</text>
   <!-- M-5 -->
-  <circle cx="200" cy="200" r="16" fill="#78716c"/>
-  <text x="200" y="175" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">M-5</text>
-  <text x="200" y="232" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">取得前次</text>
-  <text x="200" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">報告書</text>
-  <text x="200" y="264" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">列出 E1 清單</text>
+  <circle cx="200" cy="200" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="200" y="175"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">M-5</text>
+  <text x="200" y="232"  font-size="13" fill="#57534e" text-anchor="middle">取得前次</text>
+  <text x="200" y="248"  font-size="13" fill="#57534e" text-anchor="middle">報告書</text>
+  <text x="200" y="264"  font-size="13" fill="#57534e" text-anchor="middle">列出 E1 清單</text>
   <!-- M-4 -->
-  <circle cx="320" cy="200" r="16" fill="#57534e"/>
-  <text x="320" y="175" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">M-4</text>
-  <text x="320" y="232" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">E1 改善</text>
-  <text x="320" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">計畫啟動</text>
-  <text x="320" y="264" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">留存佐證</text>
+  <circle cx="320" cy="200" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="320" y="175"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">M-4</text>
+  <text x="320" y="232"  font-size="13" fill="#57534e" text-anchor="middle">E1 改善</text>
+  <text x="320" y="248"  font-size="13" fill="#57534e" text-anchor="middle">計畫啟動</text>
+  <text x="320" y="264"  font-size="13" fill="#57534e" text-anchor="middle">留存佐證</text>
   <!-- M-3 -->
-  <circle cx="440" cy="200" r="16" fill="#d97706"/>
-  <text x="440" y="175" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">M-3</text>
-  <text x="440" y="232" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">確認 E2</text>
-  <text x="440" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">可計分項</text>
-  <text x="440" y="264" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">第 3 次演練</text>
+  <circle cx="440" cy="200" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="440" y="175"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">M-3</text>
+  <text x="440" y="232"  font-size="13" fill="#57534e" text-anchor="middle">確認 E2</text>
+  <text x="440" y="248"  font-size="13" fill="#57534e" text-anchor="middle">可計分項</text>
+  <text x="440" y="264"  font-size="13" fill="#57534e" text-anchor="middle">第 3 次演練</text>
   <!-- M-2 -->
-  <circle cx="560" cy="200" r="16" fill="#78716c"/>
-  <text x="560" y="175" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">M-2</text>
-  <text x="560" y="232" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">全套文件</text>
-  <text x="560" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">完成備查</text>
-  <text x="560" y="264" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle">第 4 次演練</text>
+  <circle cx="560" cy="200" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="560" y="175"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">M-2</text>
+  <text x="560" y="232"  font-size="13" fill="#57534e" text-anchor="middle">全套文件</text>
+  <text x="560" y="248"  font-size="13" fill="#57534e" text-anchor="middle">完成備查</text>
+  <text x="560" y="264"  font-size="13" fill="#57534e" text-anchor="middle">第 4 次演練</text>
   <!-- 評鑑日 -->
-  <circle cx="720" cy="200" r="20" fill="#d97706"/>
-  <text x="720" y="175" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">評鑑日</text>
-  <text x="720" y="232" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" text-anchor="middle">優等</text>
-  <text x="720" y="248" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" text-anchor="middle">目標</text>
+  <circle cx="720" cy="200" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="720" y="175"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">評鑑日</text>
+  <text x="720" y="232"  font-size="13" fill="#d97706" text-anchor="middle">優等</text>
+  <text x="720" y="248"  font-size="13" fill="#d97706" text-anchor="middle">目標</text>
   <!-- 重要提示 -->
   <rect x="40" y="310" width="720" height="60" rx="10" fill="#d97706" opacity="0.1"/>
-  <text x="60" y="335" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">關鍵原則：</text>
-  <text x="168" y="335" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">9 項一級必要項是底線（M-6 就要確認），E 區塊加分是等第的差距</text>
-  <text x="60" y="358" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">E1 改善比例計算要提前，留存佐證文件是最常被忽略的失分點</text>
+  <text x="60" y="335"  font-size="15" font-weight="700" fill="#d97706">關鍵原則：</text>
+  <text x="168" y="335"  font-size="15" fill="#57534e">9 項一級必要項是底線（M-6 就要確認），E 區塊加分是等第的差距</text>
+  <text x="60" y="358"  font-size="15" fill="#57534e">E1 改善比例計算要提前，留存佐證文件是最常被忽略的失分點</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

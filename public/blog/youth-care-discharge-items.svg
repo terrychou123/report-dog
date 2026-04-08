@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="29" width="744" height="62" rx="8" fill="#1e293b"/>
-  <text x="400" y="68" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">項目 23 與 24 離院相關評鑑指標</text>
+  <text x="400" y="68"  font-size="22" font-weight="700" fill="white" text-anchor="middle">項目 23 與 24 離院相關評鑑指標</text>
   <!-- Row 1 -->
   <rect x="28" y="118" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="148" r="16" fill="#d97706"/>
-  <text x="66" y="154" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">23</text>
-  <text x="100" y="142" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">協助兒童少年離院之準備（2 分）</text>
-  <text x="100" y="165" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">離院計畫書、過渡期服務、與原生家庭或安置去處的銜接安排</text>
-  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="152" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 23</text>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154"  font-size="14" font-weight="700" fill="white" text-anchor="middle">23</text>
+  <text x="100" y="142"  font-size="17" font-weight="600" fill="#1e293b">協助兒童少年離院之準備（2 分）</text>
+  <text x="100" y="165"  font-size="14" fill="#78716c">離院計畫書、過渡期服務、與原生家庭或安置去處的銜接安排</text>
+  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="152"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 23</text>
   <!-- Row 2 -->
   <rect x="28" y="191" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="191" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="221" r="16" fill="#d97706"/>
-  <text x="66" y="227" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">23</text>
-  <text x="100" y="215" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">少年獨立生活技巧之訓練（2 分）</text>
-  <text x="100" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">烹飪、理財、租屋、就業、社福資源運用等獨立生活技能課程紀錄</text>
-  <rect x="620" y="198" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="225" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 23</text>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="221" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="227"  font-size="14" font-weight="700" fill="white" text-anchor="middle">23</text>
+  <text x="100" y="215"  font-size="17" font-weight="600" fill="#1e293b">少年獨立生活技巧之訓練（2 分）</text>
+  <text x="100" y="238"  font-size="14" fill="#78716c">烹飪、理財、租屋、就業、社福資源運用等獨立生活技能課程紀錄</text>
+  <rect x="620" y="198" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="225"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 23</text>
   <!-- Row 3 -->
   <rect x="28" y="264" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="264" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="294" r="16" fill="#78716c"/>
-  <text x="66" y="300" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
-  <text x="100" y="288" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">輔導少年職業探索與生涯輔導（1 分）</text>
-  <text x="100" y="311" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">職業性向測驗、職場參訪、生涯規劃會談等紀錄，協助少年連結就業資源</text>
-  <rect x="620" y="271" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="298" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="294" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="300"  font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
+  <text x="100" y="288"  font-size="17" font-weight="600" fill="#1e293b">輔導少年職業探索與生涯輔導（1 分）</text>
+  <text x="100" y="311"  font-size="14" fill="#78716c">職業性向測驗、職場參訪、生涯規劃會談等紀錄，協助少年連結就業資源</text>
+  <rect x="620" y="271" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="298"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
   <!-- Row 4 -->
   <rect x="28" y="337" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="337" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="367" r="16" fill="#78716c"/>
-  <text x="66" y="373" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
-  <text x="100" y="361" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">離院兒童少年之協助與追蹤輔導（1 分）</text>
-  <text x="100" y="384" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">離院後追蹤聯絡紀錄，包含時間點、方式（電話/家訪）、個案現況與回應</text>
-  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="371" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="367" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="373"  font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
+  <text x="100" y="361"  font-size="17" font-weight="600" fill="#1e293b">離院兒童少年之協助與追蹤輔導（1 分）</text>
+  <text x="100" y="384"  font-size="14" fill="#78716c">離院後追蹤聯絡紀錄，包含時間點、方式（電話/家訪）、個案現況與回應</text>
+  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="371"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
   <!-- Row 5 -->
   <rect x="28" y="410" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="410" width="6" height="60" rx="3" fill="#94a3b8"/>
-  <circle cx="66" cy="440" r="16" fill="#94a3b8"/>
-  <text x="66" y="446" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">20</text>
-  <text x="100" y="434" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">離院嬰幼兒之轉銜協助與追蹤輔導（2 分，2 歲以下版）</text>
-  <text x="100" y="457" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">轉銜計畫、養護家庭或機構的銜接文件，以及離院後追蹤紀錄</text>
-  <rect x="620" y="417" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="444" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">項目 20</text>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446"  font-size="14" font-weight="700" fill="white" text-anchor="middle">20</text>
+  <text x="100" y="434"  font-size="17" font-weight="600" fill="#1e293b">離院嬰幼兒之轉銜協助與追蹤輔導（2 分，2 歲以下版）</text>
+  <text x="100" y="457"  font-size="14" fill="#78716c">轉銜計畫、養護家庭或機構的銜接文件，以及離院後追蹤紀錄</text>
+  <rect x="620" y="417" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="444"  font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">項目 20</text>
   <!-- Watermark -->
-  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16"  fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

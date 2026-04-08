@@ -9,19 +9,19 @@
   <text x="1010" y="280" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">文書輔助</text>
 
   <!-- 右側 2×2 資訊卡片 row1 y=305 row2 y=400 h=86 -->
-  <rect x="840" y="305" width="155" height="80" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="305" width="155" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="340" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">75 項</text>
   <text x="918" y="368" font-size="20" fill="#a8a29e" text-anchor="middle">評鑑指標</text>
 
-  <rect x="1005" y="305" width="155" height="80" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1005" y="305" width="155" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="340" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">省 50%</text>
   <text x="1083" y="368" font-size="20" fill="#a8a29e" text-anchor="middle">文書時間</text>
 
-  <rect x="840" y="398" width="155" height="80" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="398" width="155" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="433" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">4 步驟</text>
   <text x="918" y="461" font-size="20" fill="#a8a29e" text-anchor="middle">AI輔助流程</text>
 
-  <rect x="1005" y="398" width="155" height="80" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1005" y="398" width="155" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="433" font-size="28" fill="#a8a29e" text-anchor="middle" font-weight="700">B2 A3</text>
   <text x="1083" y="461" font-size="20" fill="#a8a29e" text-anchor="middle">核心文件</text>
 

@@ -9,15 +9,15 @@
   <line x1="840" y1="300" x2="1180" y2="300" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右側卡片 -->
-  <rect x="840" y="311" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="311" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="335" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">任務分工</text>
   <text x="1000" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">一人多職的生存術</text>
 
-  <rect x="840" y="389" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="389" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="413" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">AI 工具</text>
   <text x="1000" y="445" font-size="22" fill="#a8a29e" text-anchor="middle">文書自動化省時</text>
 
-  <rect x="840" y="467" width="320" height="70" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="467" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="491" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">優先準備</text>
   <text x="1000" y="523" font-size="22" fill="#a8a29e" text-anchor="middle">80/20 省力策略</text>
 

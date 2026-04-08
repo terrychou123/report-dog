@@ -1,59 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題 -->
-  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">照護計畫更新時程</text>
-  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">持續性的照護計畫管理循環</text>
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle"  font-weight="700">照護計畫更新時程</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" >持續性的照護計畫管理循環</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 時程線 -->
   <line x1="130" y1="280" x2="670" y2="280" stroke="#dedad3" stroke-width="3"/>
 
   <!-- 節點1 -->
-  <circle cx="180" cy="280" r="20" fill="#d97706"/>
-  <text x="180" y="286" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">1</text>
+  <circle cx="180" cy="280" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="180" y="286" font-size="18" fill="white" text-anchor="middle"  font-weight="700">1</text>
 
   <!-- 節點1 上方文字 -->
   <rect x="80" y="120" width="200" height="130" rx="10" fill="white"/>
-  <text x="180" y="148" font-size="16" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">入住第1個月</text>
+  <text x="180" y="148" font-size="16" fill="#d97706" text-anchor="middle"  font-weight="700">入住第1個月</text>
   <line x1="100" y1="158" x2="260" y2="158" stroke="#dedad3" stroke-width="1"/>
-  <text x="180" y="178" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">72小時評估</text>
-  <text x="180" y="198" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">→照護計畫</text>
-  <text x="180" y="218" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">→適應輔導</text>
-  <text x="180" y="238" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">（1週內）</text>
+  <text x="180" y="178" font-size="14" fill="#57534e" text-anchor="middle" >72小時評估</text>
+  <text x="180" y="198" font-size="14" fill="#57534e" text-anchor="middle" >→照護計畫</text>
+  <text x="180" y="218" font-size="14" fill="#57534e" text-anchor="middle" >→適應輔導</text>
+  <text x="180" y="238" font-size="14" fill="#57534e" text-anchor="middle" >（1週內）</text>
   <!-- 連線 -->
   <line x1="180" y1="250" x2="180" y2="260" stroke="#d97706" stroke-width="2" stroke-dasharray="4,2"/>
 
   <!-- 節點2 -->
-  <circle cx="400" cy="280" r="20" fill="#78716c"/>
-  <text x="400" y="286" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">2</text>
+  <circle cx="400" cy="280" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="400" y="286" font-size="18" fill="white" text-anchor="middle"  font-weight="700">2</text>
 
   <!-- 節點2 下方文字 -->
   <rect x="300" y="320" width="200" height="130" rx="10" fill="white"/>
   <!-- 連線 -->
   <line x1="400" y1="300" x2="400" y2="320" stroke="#78716c" stroke-width="2" stroke-dasharray="4,2"/>
-  <text x="400" y="348" font-size="16" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">每3個月</text>
+  <text x="400" y="348" font-size="16" fill="#78716c" text-anchor="middle"  font-weight="700">每3個月</text>
   <line x1="320" y1="358" x2="480" y2="358" stroke="#dedad3" stroke-width="1"/>
-  <text x="400" y="378" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">工作團隊評估</text>
-  <text x="400" y="398" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">身心社認知活動</text>
-  <text x="400" y="418" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">功能，更新紀錄</text>
+  <text x="400" y="378" font-size="14" fill="#57534e" text-anchor="middle" >工作團隊評估</text>
+  <text x="400" y="398" font-size="14" fill="#57534e" text-anchor="middle" >身心社認知活動</text>
+  <text x="400" y="418" font-size="14" fill="#57534e" text-anchor="middle" >功能，更新紀錄</text>
 
   <!-- 節點3 -->
-  <circle cx="620" cy="280" r="20" fill="#57534e"/>
-  <text x="620" y="286" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">3</text>
+  <circle cx="620" cy="280" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="620" y="286" font-size="18" fill="white" text-anchor="middle"  font-weight="700">3</text>
 
   <!-- 節點3 上方文字 -->
   <rect x="520" y="120" width="200" height="130" rx="10" fill="white"/>
-  <text x="620" y="148" font-size="16" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">每6個月</text>
+  <text x="620" y="148" font-size="16" fill="#57534e" text-anchor="middle"  font-weight="700">每6個月</text>
   <line x1="540" y1="158" x2="700" y2="158" stroke="#dedad3" stroke-width="1"/>
-  <text x="620" y="178" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">與住民或家屬</text>
-  <text x="620" y="198" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">共同討論，</text>
-  <text x="620" y="218" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">修訂照護計畫</text>
-  <text x="620" y="238" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">並有紀錄</text>
+  <text x="620" y="178" font-size="14" fill="#57534e" text-anchor="middle" >與住民或家屬</text>
+  <text x="620" y="198" font-size="14" fill="#57534e" text-anchor="middle" >共同討論，</text>
+  <text x="620" y="218" font-size="14" fill="#57534e" text-anchor="middle" >修訂照護計畫</text>
+  <text x="620" y="238" font-size="14" fill="#57534e" text-anchor="middle" >並有紀錄</text>
   <!-- 連線 -->
   <line x1="620" y1="250" x2="620" y2="260" stroke="#57534e" stroke-width="2" stroke-dasharray="4,2"/>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -43,7 +43,7 @@
   <!-- Row 4: 住宿型重點 -->
   <rect x="28" y="354" width="744" height="72" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
   <rect x="28" y="354" width="6" height="72" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="390" r="18" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="390" r="18" fill="#dc2626"/>
   <text x="66" y="395" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="900">重3.11</text>
   <text x="100" y="379" font-size="18" fill="#1e293b" font-weight="700">維護住民出入自由（住宿型重點項目）</text>
   <text x="100" y="400" font-size="15" fill="#dc2626">常見缺失：住民說「需要簽退才能外出」或「晚上門會鎖」= 直接不合格</text>

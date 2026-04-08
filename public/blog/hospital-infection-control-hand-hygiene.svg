@@ -6,7 +6,7 @@
 
   <!-- Header（y=29, h=60） -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
   <text x="28" y="71" font-size="36" fill="#1e293b" font-weight="700">WHO手部衛生五大時機（My 5 Moments）</text>
 
   <!-- ===== Row 1（y=118）接觸病人前 #d97706 ===== -->
@@ -32,7 +32,7 @@
   <!-- ===== Row 3（y=264）接觸體液後 #dc2626 ===== -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="264" width="6" height="60" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="294" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="294" r="16" fill="#dc2626"/>
   <text x="66" y="300" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="287" font-size="20" fill="#1e293b" font-weight="700">接觸體液後（After body fluid exposure）</text>
   <text x="100" y="311" font-size="16" fill="#57534e">接觸血液、尿液、傷口分泌物、黏膜等體液後，須立即洗手（此時用流水洗手優於消毒液）</text>

@@ -9,7 +9,7 @@
 
   <!-- 列1：第一季（y=92） -->
   <rect x="30" y="92" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="92" width="6" height="88" rx="3" fill="#d97706" />
+  <rect x="30" y="92" width="6" height="88" rx="2" fill="#d97706" />
   <rect x="36" y="92" width="100" height="88" fill="#fffbeb" />
   <text x="86" y="128" font-size="13" font-weight="700" fill="#92400e" text-anchor="middle">第一季</text>
   <text x="86" y="148" font-size="12" fill="#d97706" text-anchor="middle">1-3月</text>
@@ -22,7 +22,7 @@
 
   <!-- 列2：第二季（y=192） -->
   <rect x="30" y="192" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="192" width="6" height="88" rx="3" fill="#78716c" />
+  <rect x="30" y="192" width="6" height="88" rx="2" fill="#78716c" />
   <rect x="36" y="192" width="100" height="88" fill="#f5f5f4" />
   <text x="86" y="228" font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">第二季</text>
   <text x="86" y="248" font-size="12" fill="#78716c" text-anchor="middle">4-6月</text>
@@ -35,7 +35,7 @@
 
   <!-- 列3：第三季（y=292） -->
   <rect x="30" y="292" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="292" width="6" height="88" rx="3" fill="#57534e" />
+  <rect x="30" y="292" width="6" height="88" rx="2" fill="#57534e" />
   <rect x="36" y="292" width="100" height="88" fill="#f5f5f4" />
   <text x="86" y="328" font-size="13" font-weight="700" fill="#44403c" text-anchor="middle">第三季</text>
   <text x="86" y="348" font-size="12" fill="#57534e" text-anchor="middle">7-9月</text>
@@ -48,7 +48,7 @@
 
   <!-- 列4：第四季（y=392） -->
   <rect x="30" y="392" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="392" width="6" height="88" rx="3" fill="#a8a29e" />
+  <rect x="30" y="392" width="6" height="88" rx="2" fill="#a8a29e" />
   <rect x="36" y="392" width="100" height="88" fill="#f5f5f4" />
   <text x="86" y="428" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">第四季</text>
   <text x="86" y="448" font-size="12" fill="#a8a29e" text-anchor="middle">10-12月</text>

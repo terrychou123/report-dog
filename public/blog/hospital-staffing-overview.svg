@@ -1,42 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 標題區塊 -->
   <rect x="0" y="0" width="800" height="110" fill="#1c1917"/>
-  <text x="400" y="52" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">人力配置 3 項必要條文一覽</text>
-  <text x="400" y="84" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">任一不符合即視為重大缺失，直接影響醫院評鑑結果</text>
+  <text x="400" y="52"  font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">人力配置 3 項必要條文一覽</text>
+  <text x="400" y="84"  font-size="14" fill="#a8a29e" text-anchor="middle">任一不符合即視為重大缺失，直接影響醫院評鑑結果</text>
 
   <!-- 列1：醫師人力配置 -->
   <rect x="38" y="128" width="724" height="90" rx="10" fill="#fffbeb"/>
   <rect x="38" y="128" width="8" height="90" rx="4" fill="#d97706"/>
-  <text x="62" y="160" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#d97706">1.3.1 醫師人力配置（必要）</text>
-  <text x="62" y="183" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">各科別醫師符合醫療法規定，值班制度合規，有書面清冊可供查核</text>
-  <text x="62" y="204" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">查核方式：資料查核</text>
+  <text x="62" y="160"  font-size="15" font-weight="800" fill="#d97706">1.3.1 醫師人力配置（必要）</text>
+  <text x="62" y="183"  font-size="13" fill="#57534e">各科別醫師符合醫療法規定，值班制度合規，有書面清冊可供查核</text>
+  <text x="62" y="204"  font-size="12" fill="#a8a29e">查核方式：資料查核</text>
   <!-- 右側標籤 -->
   <rect x="630" y="148" width="114" height="36" rx="18" fill="#d97706"/>
-  <text x="687" y="171" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">資料查核</text>
+  <text x="687" y="171"  font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">資料查核</text>
 
   <!-- 列2：護理人力配置 -->
   <rect x="38" y="231" width="724" height="90" rx="10" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
   <rect x="38" y="231" width="8" height="90" rx="4" fill="#78716c"/>
-  <text x="62" y="263" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#78716c">1.3.2 護理人力配置（必要）</text>
-  <text x="62" y="286" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">護病比合規、夜班人力完整、緊急補足機制書面化</text>
-  <text x="62" y="307" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">查核方式：資料查核 ＋ 實地查核</text>
+  <text x="62" y="263"  font-size="15" font-weight="800" fill="#78716c">1.3.2 護理人力配置（必要）</text>
+  <text x="62" y="286"  font-size="13" fill="#57534e">護病比合規、夜班人力完整、緊急補足機制書面化</text>
+  <text x="62" y="307"  font-size="12" fill="#a8a29e">查核方式：資料查核 ＋ 實地查核</text>
   <!-- 右側標籤 -->
   <rect x="612" y="251" width="132" height="36" rx="18" fill="#78716c"/>
-  <text x="678" y="274" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">雙重查核</text>
+  <text x="678" y="274"  font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">雙重查核</text>
 
   <!-- 列3：醫事人員配置 -->
   <rect x="38" y="334" width="724" height="90" rx="10" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
   <rect x="38" y="334" width="8" height="90" rx="4" fill="#57534e"/>
-  <text x="62" y="366" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#57534e">1.3.3 醫事人員配置（必要）</text>
-  <text x="62" y="389" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">藥師、放射師等各類人員配置符合規定，執照有效且登記完整</text>
-  <text x="62" y="410" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e">查核方式：資料查核</text>
+  <text x="62" y="366"  font-size="15" font-weight="800" fill="#57534e">1.3.3 醫事人員配置（必要）</text>
+  <text x="62" y="389"  font-size="13" fill="#57534e">藥師、放射師等各類人員配置符合規定，執照有效且登記完整</text>
+  <text x="62" y="410"  font-size="12" fill="#a8a29e">查核方式：資料查核</text>
   <!-- 右側標籤 -->
   <rect x="618" y="354" width="126" height="36" rx="18" fill="#57534e"/>
-  <text x="681" y="377" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">多類人員</text>
+  <text x="681" y="377"  font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">多類人員</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="12" fill="#a8a29e" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

@@ -1,42 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 標題區塊 -->
   <rect x="0" y="0" width="800" height="110" fill="#1c1917"/>
-  <text x="400" y="52" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">人力配置評鑑三大常見缺失</text>
-  <text x="400" y="84" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">了解失分模式，提前修正，避免必要條文被列重大缺失</text>
+  <text x="400" y="52"  font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">人力配置評鑑三大常見缺失</text>
+  <text x="400" y="84"  font-size="14" fill="#a8a29e" text-anchor="middle">了解失分模式，提前修正，避免必要條文被列重大缺失</text>
 
   <!-- 列1：護病比計算錯誤 -->
   <rect x="38" y="128" width="724" height="90" rx="10" fill="#fff1f2"/>
   <rect x="38" y="128" width="8" height="90" rx="4" fill="#dc2626"/>
-  <text x="62" y="160" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#dc2626">護病比計算錯誤</text>
-  <text x="62" y="181" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">常見：將所有班次護理師總數除以總病人數（應按班次分別計算）</text>
-  <text x="62" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">或未將支援跨病房的護理師正確歸類至各病房計算</text>
+  <text x="62" y="160"  font-size="15" font-weight="800" fill="#dc2626">護病比計算錯誤</text>
+  <text x="62" y="181"  font-size="13" fill="#57534e">常見：將所有班次護理師總數除以總病人數（應按班次分別計算）</text>
+  <text x="62" y="200"  font-size="13" fill="#57534e">或未將支援跨病房的護理師正確歸類至各病房計算</text>
   <!-- 右側標籤 -->
   <rect x="614" y="148" width="130" height="36" rx="18" fill="#dc2626"/>
-  <text x="679" y="171" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">計算方式</text>
+  <text x="679" y="171"  font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">計算方式</text>
 
   <!-- 列2：執照過期未更新 -->
   <rect x="38" y="231" width="724" height="90" rx="10" fill="#fffbeb"/>
   <rect x="38" y="231" width="8" height="90" rx="4" fill="#d97706"/>
-  <text x="62" y="263" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#d97706">執照過期未更新</text>
-  <text x="62" y="284" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">醫事人員執照有 6 年效期，部分醫院未建立預警機制</text>
-  <text x="62" y="303" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">評鑑前才發現執照已過期，無法立即補救，直接列缺失</text>
+  <text x="62" y="263"  font-size="15" font-weight="800" fill="#d97706">執照過期未更新</text>
+  <text x="62" y="284"  font-size="13" fill="#57534e">醫事人員執照有 6 年效期，部分醫院未建立預警機制</text>
+  <text x="62" y="303"  font-size="13" fill="#57534e">評鑑前才發現執照已過期，無法立即補救，直接列缺失</text>
   <!-- 右側標籤 -->
   <rect x="618" y="251" width="126" height="36" rx="18" fill="#d97706"/>
-  <text x="681" y="274" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">效期管控</text>
+  <text x="681" y="274"  font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">效期管控</text>
 
   <!-- 列3：夜班配置不符規定 -->
   <rect x="38" y="334" width="724" height="90" rx="10" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
   <rect x="38" y="334" width="8" height="90" rx="4" fill="#78716c"/>
-  <text x="62" y="366" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#78716c">夜班配置不符規定</text>
-  <text x="62" y="387" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">部分單位以「備勤」代替值班，或夜班紀錄未詳細記錄護病比</text>
-  <text x="62" y="406" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">實地查核時評鑑委員直接比對班表與到班紀錄，差異立即被發現</text>
+  <text x="62" y="366"  font-size="15" font-weight="800" fill="#78716c">夜班配置不符規定</text>
+  <text x="62" y="387"  font-size="13" fill="#57534e">部分單位以「備勤」代替值班，或夜班紀錄未詳細記錄護病比</text>
+  <text x="62" y="406"  font-size="13" fill="#57534e">實地查核時評鑑委員直接比對班表與到班紀錄，差異立即被發現</text>
   <!-- 右側標籤 -->
   <rect x="618" y="354" width="126" height="36" rx="18" fill="#78716c"/>
-  <text x="681" y="377" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">值班制度</text>
+  <text x="681" y="377"  font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">值班制度</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="12" fill="#a8a29e" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

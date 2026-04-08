@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#0d9488"/>
-  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C12. 外籍照護人員防災訓練：不能忽略的高頻失分點</text>
-  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" font-family="sans-serif">一級必要指標 ｜ 115年度老人福利機構評鑑</text>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" >C12. 外籍照護人員防災訓練：不能忽略的高頻失分點</text>
+  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" >一級必要指標 ｜ 115年度老人福利機構評鑑</text>
 
   <!-- N=3 版型 -->
 
   <!-- Row 1: 適用人員範圍 -->
   <rect x="30" y="128" width="740" height="90" rx="8" fill="white"/>
-  <rect x="30" y="128" width="6" height="90" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="173" r="16" fill="#d97706"/>
-  <text x="66" y="178" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">1</text>
-  <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">六類人員均需參與防災訓練</text>
-  <text x="100" y="183" font-size="14" fill="#57534e" font-family="sans-serif">防火管理人、照顧服務員、護理人員、替代役、家屬自聘外籍看護工、家屬；</text>
-  <text x="100" y="202" font-size="14" fill="#57534e" font-family="sans-serif">各類人員均需安排訓練，不可僅限機構正職員工</text>
-  <rect x="620" y="151" width="136" height="46" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="688" y="170" font-size="14" fill="#dc2626" text-anchor="middle" font-family="sans-serif">6類人員</text>
-  <text x="688" y="189" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">全覆蓋</text>
+  <rect x="30" y="128" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="173" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="178" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >1</text>
+  <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" >六類人員均需參與防災訓練</text>
+  <text x="100" y="183" font-size="14" fill="#57534e" >防火管理人、照顧服務員、護理人員、替代役、家屬自聘外籍看護工、家屬；</text>
+  <text x="100" y="202" font-size="14" fill="#57534e" >各類人員均需安排訓練，不可僅限機構正職員工</text>
+  <rect x="620" y="151" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="170" font-size="14" fill="#dc2626" text-anchor="middle" >6類人員</text>
+  <text x="688" y="189" font-size="13" fill="#dc2626" text-anchor="middle" >全覆蓋</text>
 
   <!-- Row 2: 外籍人員特別要求 -->
   <rect x="30" y="231" width="740" height="90" rx="8" fill="white"/>
-  <rect x="30" y="231" width="6" height="90" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="276" r="16" fill="#78716c"/>
-  <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">2</text>
-  <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">外籍看護工訓練注意事項</text>
-  <text x="100" y="286" font-size="14" fill="#57534e" font-family="sans-serif">家屬自聘的外籍看護工也包含在內；建議準備多語言版本訓練教材</text>
-  <text x="100" y="305" font-size="14" fill="#57534e" font-family="sans-serif">（印尼語、越南語、菲律賓語等）；訓練須有簽到表留存備查</text>
-  <rect x="620" y="254" width="136" height="46" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="688" y="273" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">多語教材</text>
-  <text x="688" y="292" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">簽到存查</text>
+  <rect x="30" y="231" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="276" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >2</text>
+  <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" >外籍看護工訓練注意事項</text>
+  <text x="100" y="286" font-size="14" fill="#57534e" >家屬自聘的外籍看護工也包含在內；建議準備多語言版本訓練教材</text>
+  <text x="100" y="305" font-size="14" fill="#57534e" >（印尼語、越南語、菲律賓語等）；訓練須有簽到表留存備查</text>
+  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <text x="688" y="273" font-size="14" fill="#d97706" text-anchor="middle" >多語教材</text>
+  <text x="688" y="292" font-size="13" fill="#d97706" text-anchor="middle" >簽到存查</text>
 
   <!-- Row 3: 逃生圖規格 -->
   <rect x="30" y="334" width="740" height="90" rx="8" fill="white"/>
-  <rect x="30" y="334" width="6" height="90" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="379" r="16" fill="#57534e"/>
-  <text x="66" y="384" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">3</text>
-  <text x="100" y="366" font-size="18" font-weight="bold" fill="#1e293b" font-family="sans-serif">逃生圖規格與張貼位置</text>
-  <text x="100" y="389" font-size="14" fill="#57534e" font-family="sans-serif">尺寸 A3 以上（約 29.7×42 cm）；具比例尺；標示所在位置方向與機構現場相符；</text>
-  <text x="100" y="408" font-size="14" fill="#57534e" font-family="sans-serif">張貼於各樓層出入口及樓梯間；圖面需標示防火區劃、等待救接空間、出口位置</text>
-  <rect x="620" y="357" width="136" height="46" rx="6" fill="#f0fdf4" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="688" y="376" font-size="14" fill="#0d9488" text-anchor="middle" font-family="sans-serif">A3 以上</text>
-  <text x="688" y="395" font-size="13" fill="#0d9488" text-anchor="middle" font-family="sans-serif">各樓層貼</text>
+  <rect x="30" y="334" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="379" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="384" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >3</text>
+  <text x="100" y="366" font-size="18" font-weight="bold" fill="#1e293b" >逃生圖規格與張貼位置</text>
+  <text x="100" y="389" font-size="14" fill="#57534e" >尺寸 A3 以上（約 29.7×42 cm）；具比例尺；標示所在位置方向與機構現場相符；</text>
+  <text x="100" y="408" font-size="14" fill="#57534e" >張貼於各樓層出入口及樓梯間；圖面需標示防火區劃、等待救接空間、出口位置</text>
+  <rect x="620" y="357" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="376" font-size="14" fill="#0d9488" text-anchor="middle" >A3 以上</text>
+  <text x="688" y="395" font-size="13" fill="#0d9488" text-anchor="middle" >各樓層貼</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

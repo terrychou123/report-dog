@@ -7,12 +7,12 @@
 
   <!-- 標題列背景 -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
 
   <!-- 訣竅 1 -->
-  <rect x="28" y="118" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="118" width="6" height="72" rx="3" fill="#d97706"/>
-  <circle cx="70" cy="154" r="16" fill="#d97706"/>
+  <rect x="28" y="118" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="72" rx="2" fill="#d97706"/>
+  <circle cx="70" cy="154" r="16" fill="#d97706" opacity="0.15"/>
   <text x="70" y="160" font-size="20" fill="white" text-anchor="middle" font-weight="700">1</text>
   <text x="105" y="143" font-size="14" fill="#1e293b" font-weight="600">指定「品質評鑑雙軌負責人」：一人對口評鑑、一人對口品質獎勵</text>
   <text x="105" y="163" font-size="14" fill="#57534e">兩人定期同步，確保文件可相互引用，避免平行作業產生衝突</text>
@@ -22,9 +22,9 @@
   <text x="688" y="169" font-size="12" fill="#78716c" text-anchor="middle">雙軌並行</text>
 
   <!-- 訣竅 2 -->
-  <rect x="28" y="203" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="203" width="6" height="72" rx="3" fill="#78716c"/>
-  <circle cx="70" cy="239" r="16" fill="#78716c"/>
+  <rect x="28" y="203" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="203" width="6" height="72" rx="2" fill="#78716c"/>
+  <circle cx="70" cy="239" r="16" fill="#78716c" opacity="0.15"/>
   <text x="70" y="245" font-size="20" fill="white" text-anchor="middle" font-weight="700">2</text>
   <text x="105" y="228" font-size="14" fill="#1e293b" font-weight="600">品質會議議程標準化：固定納入「評鑑指標進度」與「品質獎進度」</text>
   <text x="105" y="248" font-size="14" fill="#57534e">每次品質會議同時推進兩套系統，一份紀錄自然產生雙向佐證</text>
@@ -34,9 +34,9 @@
   <text x="688" y="254" font-size="12" fill="#78716c" text-anchor="middle">一次產出</text>
 
   <!-- 訣竅 3 -->
-  <rect x="28" y="288" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="288" width="6" height="72" rx="3" fill="#57534e"/>
-  <circle cx="70" cy="324" r="16" fill="#57534e"/>
+  <rect x="28" y="288" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="288" width="6" height="72" rx="2" fill="#57534e"/>
+  <circle cx="70" cy="324" r="16" fill="#57534e" opacity="0.15"/>
   <text x="70" y="330" font-size="20" fill="white" text-anchor="middle" font-weight="700">3</text>
   <text x="105" y="313" font-size="14" fill="#1e293b" font-weight="600">建立共用雲端文件夾：評鑑佐證依 A-E 分類，品質獎依指標分類</text>
   <text x="105" y="333" font-size="14" fill="#57534e">同一份文件放入兩個分類資料夾，避免重複建檔造成版本混亂</text>
@@ -46,14 +46,14 @@
   <text x="688" y="339" font-size="12" fill="#78716c" text-anchor="middle">避免版本亂</text>
 
   <!-- 訣竅 4 -->
-  <rect x="28" y="373" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="373" width="6" height="72" rx="3" fill="#94a3b8"/>
-  <circle cx="70" cy="409" r="16" fill="#94a3b8"/>
+  <rect x="28" y="373" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="373" width="6" height="72" rx="2" fill="#94a3b8"/>
+  <circle cx="70" cy="409" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="70" y="415" font-size="20" fill="white" text-anchor="middle" font-weight="700">4</text>
   <text x="105" y="398" font-size="14" fill="#1e293b" font-weight="600">定期「雙向核對」：每季末對照兩套清單，找出漏洞補強</text>
   <text x="105" y="418" font-size="14" fill="#57534e">評鑑 75 項指標與品質獎勵指標各自確認進度，互相提醒補件</text>
   <text x="105" y="436" font-size="13" fill="#78716c">建議在 Q3 結束時進行一次完整的雙向核對，留足補強時間</text>
-  <rect x="620" y="381" width="136" height="55" rx="8" fill="#94a3b8" opacity="0.18"/>
+  <rect x="620" y="381" width="136" height="55" rx="8" fill="#94a3b8" opacity="0.12"/>
   <text x="688" y="406" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">定期核對</text>
   <text x="688" y="424" font-size="12" fill="#78716c" text-anchor="middle">Q3 末完成</text>
 

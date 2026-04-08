@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
   <!-- 左側裝飾線條 -->
-  <rect x="60" y="60" width="6" height="510" fill="#d97706" rx="3"/>
+  <rect x="60" y="60" width="6" height="510" fill="#d97706" rx="2"/>
 
   <!-- 主標題第1行：老人福利機構（黑色） -->
-  <text x="88" y="168" font-size="100" font-weight="900" fill="#1e293b" font-family="sans-serif">老人福利機構</text>
+  <text x="88" y="168" font-size="100" font-weight="900" fill="#1e293b" >老人福利機構</text>
 
   <!-- 主標題第2行：評鑑自我查核（琥珀色） -->
-  <text x="88" y="280" font-size="100" font-weight="900" fill="#d97706" font-family="sans-serif">評鑑自我查核</text>
+  <text x="88" y="280" font-size="100" font-weight="900" fill="#d97706" >評鑑自我查核</text>
 
   <!-- 副標題 -->
-  <text x="88" y="340" font-size="38" font-weight="400" fill="#57534e" font-family="sans-serif">77 項逐條檢核，評鑑前找出所有盲點</text>
+  <text x="88" y="340" font-size="38" font-weight="400" fill="#57534e" >77 項逐條檢核，評鑑前找出所有盲點</text>
 
   <!-- pill 標籤 -->
   <!-- pill 1：6大區塊自評 -->
   <rect x="88" y="380" width="188" height="44" rx="22" fill="#d97706"/>
-  <text x="182" y="408" font-size="20" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">6大區塊自評</text>
+  <text x="182" y="408" font-size="20" font-weight="700" fill="#ffffff"  text-anchor="middle">6大區塊自評</text>
 
   <!-- pill 2：三色燈系統 -->
   <rect x="290" y="380" width="168" height="44" rx="22" fill="#78716c"/>
-  <text x="374" y="408" font-size="20" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">三色燈系統</text>
+  <text x="374" y="408" font-size="20" font-weight="700" fill="#ffffff"  text-anchor="middle">三色燈系統</text>
 
   <!-- pill 3：盲點提醒 -->
   <rect x="472" y="380" width="132" height="44" rx="22" fill="#57534e"/>
-  <text x="538" y="408" font-size="20" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">盲點提醒</text>
+  <text x="538" y="408" font-size="20" font-weight="700" fill="#ffffff"  text-anchor="middle">盲點提醒</text>
 
   <!-- pill 4：AI查核 -->
   <rect x="618" y="380" width="116" height="44" rx="22" fill="#94a3b8"/>
-  <text x="676" y="408" font-size="20" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">AI查核</text>
+  <text x="676" y="408" font-size="20" font-weight="700" fill="#ffffff"  text-anchor="middle">AI查核</text>
 
   <!-- 右側裝飾區塊 -->
   <rect x="820" y="80" width="320" height="470" rx="24" fill="#e8e6de"/>
 
   <!-- 大數字 77 -->
-  <text x="980" y="310" font-size="200" font-weight="900" fill="#d97706" font-family="sans-serif" text-anchor="middle">77</text>
+  <text x="980" y="310" font-size="200" font-weight="900" fill="#d97706"  text-anchor="middle">77</text>
 
   <!-- 說明文字 -->
-  <text x="980" y="370" font-size="32" font-weight="600" fill="#57534e" font-family="sans-serif" text-anchor="middle">項自我查核</text>
+  <text x="980" y="370" font-size="32" font-weight="600" fill="#57534e"  text-anchor="middle">項自我查核</text>
 
   <!-- 區塊說明 -->
-  <text x="980" y="420" font-size="22" fill="#78716c" font-family="sans-serif" text-anchor="middle">A行政 B照護 C安全</text>
-  <text x="980" y="452" font-size="22" fill="#78716c" font-family="sans-serif" text-anchor="middle">D權益 E創新 F加分</text>
+  <text x="980" y="420" font-size="22" fill="#78716c"  text-anchor="middle">A行政 B照護 C安全</text>
+  <text x="980" y="452" font-size="22" fill="#78716c"  text-anchor="middle">D權益 E創新 F加分</text>
 
   <!-- 115年度標籤 -->
   <rect x="878" y="92" width="204" height="40" rx="8" fill="#d97706"/>
-  <text x="980" y="118" font-size="20" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">115年度評鑑適用</text>
+  <text x="980" y="118" font-size="20" font-weight="700" fill="#ffffff"  text-anchor="middle">115年度評鑑適用</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

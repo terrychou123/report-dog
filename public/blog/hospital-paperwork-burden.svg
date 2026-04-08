@@ -1,49 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="68" fill="#1c1917"/>
-  <text x="400" y="42" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">醫院評鑑四大文書需求類型</text>
+  <text x="400" y="42"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">醫院評鑑四大文書需求類型</text>
 
   <!-- 列1 — 臨床照護文書 (#d97706) -->
   <rect x="32" y="88" width="736" height="86" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="32" y="88" width="8" height="86" rx="4" fill="#d97706"/>
   <!-- 左側內容 -->
-  <text x="56" y="115" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">臨床照護文書</text>
-  <text x="56" y="138" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">護理評估、照護計畫、交班記錄、病歷書寫</text>
-  <text x="56" y="158" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">每日必做，量大且直接影響評鑑委員查核重點</text>
+  <text x="56" y="115"  font-size="17" font-weight="700" fill="#1c1917">臨床照護文書</text>
+  <text x="56" y="138"  font-size="14" fill="#57534e">護理評估、照護計畫、交班記錄、病歷書寫</text>
+  <text x="56" y="158"  font-size="13" fill="#78716c">每日必做，量大且直接影響評鑑委員查核重點</text>
   <!-- 右側標籤 -->
   <rect x="668" y="110" width="80" height="32" rx="16" fill="#d97706" opacity="0.15"/>
-  <text x="708" y="131" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">每日</text>
+  <text x="708" y="131"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">每日</text>
 
   <!-- 列2 — 品質管理文書 (#78716c) -->
   <rect x="32" y="186" width="736" height="86" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="32" y="186" width="8" height="86" rx="4" fill="#78716c"/>
-  <text x="56" y="213" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">品質管理文書</text>
-  <text x="56" y="236" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">品質指標月報、PDCA改善計畫、委員會議紀錄</text>
-  <text x="56" y="256" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">每月產出，是評鑑委員評估品管成熟度的核心依據</text>
+  <text x="56" y="213"  font-size="17" font-weight="700" fill="#1c1917">品質管理文書</text>
+  <text x="56" y="236"  font-size="14" fill="#57534e">品質指標月報、PDCA改善計畫、委員會議紀錄</text>
+  <text x="56" y="256"  font-size="13" fill="#78716c">每月產出，是評鑑委員評估品管成熟度的核心依據</text>
   <rect x="668" y="208" width="80" height="32" rx="16" fill="#78716c" opacity="0.15"/>
-  <text x="708" y="229" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">每月</text>
+  <text x="708" y="229"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">每月</text>
 
   <!-- 列3 — 感染管制文書 (#57534e) -->
   <rect x="32" y="284" width="736" height="86" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="32" y="284" width="8" height="86" rx="4" fill="#57534e"/>
-  <text x="56" y="311" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">感染管制文書</text>
-  <text x="56" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">手部衛生稽核紀錄、HAI監測月報、感染事件調查</text>
-  <text x="56" y="354" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">持續追蹤，稽核紀錄需可回溯查核</text>
+  <text x="56" y="311"  font-size="17" font-weight="700" fill="#1c1917">感染管制文書</text>
+  <text x="56" y="334"  font-size="14" fill="#57534e">手部衛生稽核紀錄、HAI監測月報、感染事件調查</text>
+  <text x="56" y="354"  font-size="13" fill="#78716c">持續追蹤，稽核紀錄需可回溯查核</text>
   <rect x="648" y="306" width="100" height="32" rx="16" fill="#57534e" opacity="0.12"/>
-  <text x="698" y="327" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">持續追蹤</text>
+  <text x="698" y="327"  font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">持續追蹤</text>
 
   <!-- 列4 — 教育訓練文書 (#a8a29e) -->
   <rect x="32" y="382" width="736" height="86" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="32" y="382" width="8" height="86" rx="4" fill="#a8a29e"/>
-  <text x="56" y="409" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1c1917">教育訓練文書</text>
-  <text x="56" y="432" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">職前訓練、在職教育、繼續教育積分紀錄</text>
-  <text x="56" y="452" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c">年度滾動累積，需定期盤點完整性</text>
+  <text x="56" y="409"  font-size="17" font-weight="700" fill="#1c1917">教育訓練文書</text>
+  <text x="56" y="432"  font-size="14" fill="#57534e">職前訓練、在職教育、繼續教育積分紀錄</text>
+  <text x="56" y="452"  font-size="13" fill="#78716c">年度滾動累積，需定期盤點完整性</text>
   <rect x="648" y="404" width="100" height="32" rx="16" fill="#a8a29e" opacity="0.18"/>
-  <text x="698" y="425" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">年度滾動</text>
+  <text x="698" y="425"  font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">年度滾動</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
 </svg>

@@ -4,7 +4,7 @@
 
   <!-- Header (N=5: y=29, h=76) -->
   <rect x="0" y="29" width="800" height="76" fill="white"/>
-  <rect x="0" y="29" width="6" height="76" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="76" fill="#d97706" rx="2"/>
   <text x="28" y="83" font-size="34" fill="#1e293b" font-weight="700">參、經營管理效能（項 15–30）</text>
 
   <!-- N=5: H=60, Row positions: 118, 191, 264, 337, 410 -->

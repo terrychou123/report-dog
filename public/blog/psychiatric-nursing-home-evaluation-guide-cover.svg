@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
@@ -7,62 +7,62 @@
 
   <!-- 左側主內容區 -->
   <!-- 主標題第1行 -->
-  <text x="60" y="160" font-size="110" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">精神護理之家</text>
+  <text x="60" y="160" font-size="110" font-weight="bold" fill="#1e293b" >精神護理之家</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="280" font-size="120" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">評鑑攻略</text>
+  <text x="60" y="280" font-size="120" font-weight="bold" fill="#d97706" >評鑑攻略</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="310" x2="760" y2="310" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 副標題 -->
-  <text x="60" y="355" font-size="38" fill="#57534e" font-family="'Noto Sans TC', sans-serif">115年度36項基準完整準備策略</text>
+  <text x="60" y="355" font-size="38" fill="#57534e" >115年度36項基準完整準備策略</text>
 
   <!-- 特色標籤列 -->
   <rect x="60" y="385" width="140" height="40" rx="20" fill="#d97706"/>
-  <text x="130" y="411" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">115年度</text>
+  <text x="130" y="411" font-size="20" fill="white" text-anchor="middle" >115年度</text>
 
   <rect x="215" y="385" width="140" height="40" rx="20" fill="#78716c"/>
-  <text x="285" y="411" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">5大面向</text>
+  <text x="285" y="411" font-size="20" fill="white" text-anchor="middle" >5大面向</text>
 
   <rect x="370" y="385" width="180" height="40" rx="20" fill="#57534e"/>
-  <text x="460" y="411" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">2個試扣分</text>
+  <text x="460" y="411" font-size="20" fill="white" text-anchor="middle" >2個試扣分</text>
 
   <rect x="565" y="385" width="160" height="40" rx="20" fill="#a8a29e"/>
-  <text x="645" y="411" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">36項基準</text>
+  <text x="645" y="411" font-size="20" fill="white" text-anchor="middle" >36項基準</text>
 
   <!-- 適用對象說明 -->
-  <text x="60" y="470" font-size="26" fill="#57534e" font-family="'Noto Sans TC', sans-serif">適用對象：精神護理之家全體工作人員</text>
+  <text x="60" y="470" font-size="26" fill="#57534e" >適用對象：精神護理之家全體工作人員</text>
 
   <!-- 右側裝飾大數字 -->
-  <text x="870" y="260" font-size="200" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif" opacity="0.9">36</text>
+  <text x="870" y="260" font-size="200" font-weight="bold" fill="#d97706"  opacity="0.9">36</text>
   <!-- 右側說明文字 -->
-  <text x="990" y="305" font-size="28" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">評鑑基準</text>
+  <text x="990" y="305" font-size="28" fill="#57534e" text-anchor="middle" >評鑑基準</text>
 
   <!-- 右側 2x2 資訊卡片 -->
   <!-- 卡片1 -->
   <rect x="825" y="330" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="370" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">A面向</text>
-  <text x="907" y="398" font-size="18" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">9項</text>
-  <text x="907" y="424" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">經營管理效能</text>
+  <text x="907" y="370" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" >A面向</text>
+  <text x="907" y="398" font-size="18" fill="#1e293b" text-anchor="middle" >9項</text>
+  <text x="907" y="424" font-size="14" fill="#57534e" text-anchor="middle" >經營管理效能</text>
 
   <!-- 卡片2 -->
   <rect x="1005" y="330" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="370" font-size="20" font-weight="bold" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B面向</text>
-  <text x="1087" y="398" font-size="18" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">21項</text>
-  <text x="1087" y="424" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">專業照護品質</text>
+  <text x="1087" y="370" font-size="20" font-weight="bold" fill="#78716c" text-anchor="middle" >B面向</text>
+  <text x="1087" y="398" font-size="18" fill="#1e293b" text-anchor="middle" >21項</text>
+  <text x="1087" y="424" font-size="14" fill="#57534e" text-anchor="middle" >專業照護品質</text>
 
   <!-- 卡片3 -->
   <rect x="825" y="455" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="495" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">C面向</text>
-  <text x="907" y="523" font-size="18" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">3項</text>
-  <text x="907" y="549" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">安全維護設施</text>
+  <text x="907" y="495" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" >C面向</text>
+  <text x="907" y="523" font-size="18" fill="#1e293b" text-anchor="middle" >3項</text>
+  <text x="907" y="549" font-size="14" fill="#57534e" text-anchor="middle" >安全維護設施</text>
 
   <!-- 卡片4 -->
   <rect x="1005" y="455" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="495" font-size="20" font-weight="bold" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">D/E面向</text>
-  <text x="1087" y="523" font-size="18" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">3項</text>
-  <text x="1087" y="549" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">住民權益+創新</text>
+  <text x="1087" y="495" font-size="20" font-weight="bold" fill="#a8a29e" text-anchor="middle" >D/E面向</text>
+  <text x="1087" y="523" font-size="18" fill="#1e293b" text-anchor="middle" >3項</text>
+  <text x="1087" y="549" font-size="14" fill="#57534e" text-anchor="middle" >住民權益+創新</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

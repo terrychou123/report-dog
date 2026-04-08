@@ -1,64 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
-  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">5 大 AI 應用場景</text>
-  <text x="400" y="72" font-size="15" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">老人福利機構評鑑文書效率提升</text>
+  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff"  text-anchor="middle">5 大 AI 應用場景</text>
+  <text x="400" y="72" font-size="15" fill="#94a3b8"  text-anchor="middle">老人福利機構評鑑文書效率提升</text>
 
   <!-- N=5，Row y: 118/191/264/337/410，H=60 -->
 
   <!-- Row 1 -->
   <rect x="29" y="106" width="742" height="60" rx="6" fill="#ffffff"/>
-  <rect x="29" y="106" width="6" height="60" rx="3" fill="#d97706"/>
+  <rect x="29" y="106" width="6" height="60" rx="2" fill="#d97706"/>
   <circle cx="66" cy="136" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="141" font-size="15" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">1</text>
-  <text x="100" y="128" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">B2 個案服務計畫自動生成初稿</text>
-  <text x="100" y="152" font-size="14" fill="#57534e" font-family="sans-serif">社工輸入評估數據，AI 產出符合指標格式的計畫初稿</text>
-  <rect x="620" y="119" width="136" height="34" rx="6" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="141" font-size="14" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">省 60% 時間</text>
+  <text x="66" y="141" font-size="15" font-weight="700" fill="#d97706"  text-anchor="middle">1</text>
+  <text x="100" y="128" font-size="16" font-weight="700" fill="#1e293b" >B2 個案服務計畫自動生成初稿</text>
+  <text x="100" y="152" font-size="14" fill="#57534e" >社工輸入評估數據，AI 產出符合指標格式的計畫初稿</text>
+  <rect x="620" y="119" width="136" height="34" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="141" font-size="14" font-weight="700" fill="#d97706"  text-anchor="middle">省 60% 時間</text>
 
   <!-- Row 2 -->
   <rect x="29" y="179" width="742" height="60" rx="6" fill="#ffffff"/>
-  <rect x="29" y="179" width="6" height="60" rx="3" fill="#78716c"/>
+  <rect x="29" y="179" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="66" cy="209" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="214" font-size="15" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">2</text>
-  <text x="100" y="201" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">B13–B19 七大監測 PDCA 批量產出</text>
-  <text x="100" y="225" font-size="14" fill="#57534e" font-family="sans-serif">護理師輸入本季數據，AI 生成 7 項 PDCA 分析報告</text>
-  <rect x="620" y="192" width="136" height="34" rx="6" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="214" font-size="14" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">省 70% 時間</text>
+  <text x="66" y="214" font-size="15" font-weight="700" fill="#78716c"  text-anchor="middle">2</text>
+  <text x="100" y="201" font-size="16" font-weight="700" fill="#1e293b" >B13–B19 七大監測 PDCA 批量產出</text>
+  <text x="100" y="225" font-size="14" fill="#57534e" >護理師輸入本季數據，AI 生成 7 項 PDCA 分析報告</text>
+  <rect x="620" y="192" width="136" height="34" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="214" font-size="14" font-weight="700" fill="#78716c"  text-anchor="middle">省 70% 時間</text>
 
   <!-- Row 3 -->
   <rect x="29" y="252" width="742" height="60" rx="6" fill="#ffffff"/>
-  <rect x="29" y="252" width="6" height="60" rx="3" fill="#57534e"/>
+  <rect x="29" y="252" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="66" cy="282" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="287" font-size="15" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">3</text>
-  <text x="100" y="274" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">評鑑自我查核 77 項逐條掃描</text>
-  <text x="100" y="298" font-size="14" fill="#57534e" font-family="sans-serif">AI 對照指標找出缺失，依優先級排序改善建議</text>
-  <rect x="620" y="265" width="136" height="34" rx="6" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="287" font-size="14" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">省 50% 時間</text>
+  <text x="66" y="287" font-size="15" font-weight="700" fill="#57534e"  text-anchor="middle">3</text>
+  <text x="100" y="274" font-size="16" font-weight="700" fill="#1e293b" >評鑑自我查核 77 項逐條掃描</text>
+  <text x="100" y="298" font-size="14" fill="#57534e" >AI 對照指標找出缺失，依優先級排序改善建議</text>
+  <rect x="620" y="265" width="136" height="34" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="287" font-size="14" font-weight="700" fill="#57534e"  text-anchor="middle">省 50% 時間</text>
 
   <!-- Row 4 -->
   <rect x="29" y="325" width="742" height="60" rx="6" fill="#ffffff"/>
-  <rect x="29" y="325" width="6" height="60" rx="3" fill="#a8a29e"/>
+  <rect x="29" y="325" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="355" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="360" font-size="15" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">4</text>
-  <text x="100" y="347" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">A 區行政文件整理與撰寫</text>
-  <text x="100" y="371" font-size="14" fill="#57534e" font-family="sans-serif">AI 依 A 區指標要求生成工作手冊、業務計畫等文件草稿</text>
-  <rect x="620" y="338" width="136" height="34" rx="6" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="360" font-size="14" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">省 40% 時間</text>
+  <text x="66" y="360" font-size="15" font-weight="700" fill="#a8a29e"  text-anchor="middle">4</text>
+  <text x="100" y="347" font-size="16" font-weight="700" fill="#1e293b" >A 區行政文件整理與撰寫</text>
+  <text x="100" y="371" font-size="14" fill="#57534e" >AI 依 A 區指標要求生成工作手冊、業務計畫等文件草稿</text>
+  <rect x="620" y="338" width="136" height="34" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="360" font-size="14" font-weight="700" fill="#a8a29e"  text-anchor="middle">省 40% 時間</text>
 
   <!-- Row 5 -->
   <rect x="29" y="398" width="742" height="60" rx="6" fill="#ffffff"/>
-  <rect x="29" y="398" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <rect x="29" y="398" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="428" r="16" fill="#94a3b8" opacity="0.15"/>
-  <text x="66" y="433" font-size="15" font-weight="700" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">5</text>
-  <text x="100" y="420" font-size="16" font-weight="700" fill="#1e293b" font-family="sans-serif">D 區個案權益文件完整度檢查</text>
-  <text x="100" y="444" font-size="14" fill="#57534e" font-family="sans-serif">AI 掃描每位個案的 D 區文件，列出缺漏並提供補件範本</text>
-  <rect x="620" y="411" width="136" height="34" rx="6" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="433" font-size="14" font-weight="700" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">省 55% 時間</text>
+  <text x="66" y="433" font-size="15" font-weight="700" fill="#94a3b8"  text-anchor="middle">5</text>
+  <text x="100" y="420" font-size="16" font-weight="700" fill="#1e293b" >D 區個案權益文件完整度檢查</text>
+  <text x="100" y="444" font-size="14" fill="#57534e" >AI 掃描每位個案的 D 區文件，列出缺漏並提供補件範本</text>
+  <rect x="620" y="411" width="136" height="34" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="433" font-size="14" font-weight="700" fill="#94a3b8"  text-anchor="middle">省 55% 時間</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

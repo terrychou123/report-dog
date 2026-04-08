@@ -1,59 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header -->
   <rect x="28" y="16" width="744" height="60" rx="12" fill="#1e293b"/>
-  <text x="400" y="53" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="middle">評鑑準備時程表（評鑑前 6 個月）</text>
+  <text x="400" y="53"  font-size="20" fill="white" font-weight="700" text-anchor="middle">評鑑準備時程表（評鑑前 6 個月）</text>
 
   <!-- Timeline axis -->
   <line x1="80" y1="280" x2="720" y2="280" stroke="#d97706" stroke-width="3"/>
   <polygon points="715,274 730,280 715,286" fill="#d97706"/>
 
   <!-- Phase 1: -6M to -4M -->
-  <circle cx="140" cy="280" r="12" fill="#d97706"/>
-  <text x="140" y="265" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">-6 個月</text>
+  <circle cx="140" cy="280" r="12" fill="#d97706" opacity="0.15"/>
+  <text x="140" y="265"  font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">-6 個月</text>
 
   <rect x="80" y="140" width="145" height="120" rx="10" fill="white"/>
-  <text x="152" y="163" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">制度建立期</text>
-  <text x="152" y="183" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">日誌格式統一</text>
-  <text x="152" y="200" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">申訴制度建立</text>
-  <text x="152" y="217" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">資源清冊更新</text>
-  <text x="152" y="234" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">全員分工確認</text>
+  <text x="152" y="163"  font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">制度建立期</text>
+  <text x="152" y="183"  font-size="11" fill="#57534e" text-anchor="middle">日誌格式統一</text>
+  <text x="152" y="200"  font-size="11" fill="#57534e" text-anchor="middle">申訴制度建立</text>
+  <text x="152" y="217"  font-size="11" fill="#57534e" text-anchor="middle">資源清冊更新</text>
+  <text x="152" y="234"  font-size="11" fill="#57534e" text-anchor="middle">全員分工確認</text>
   <line x1="140" y1="260" x2="140" y2="268" stroke="#d97706" stroke-width="2"/>
 
   <!-- Phase 2: -4M to -2M -->
-  <circle cx="340" cy="280" r="12" fill="#78716c"/>
-  <text x="340" y="265" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">-4 個月</text>
+  <circle cx="340" cy="280" r="12" fill="#78716c" opacity="0.15"/>
+  <text x="340" y="265"  font-size="12" fill="#78716c" text-anchor="middle" font-weight="700">-4 個月</text>
 
   <rect x="275" y="310" width="145" height="120" rx="10" fill="white"/>
-  <text x="347" y="333" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">文件整備期</text>
-  <text x="347" y="353" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">個案計畫整合</text>
-  <text x="347" y="370" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">財務文件盤點</text>
-  <text x="347" y="387" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">AI 缺漏掃描</text>
-  <text x="347" y="404" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">補件填寫完成</text>
+  <text x="347" y="333"  font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">文件整備期</text>
+  <text x="347" y="353"  font-size="11" fill="#57534e" text-anchor="middle">個案計畫整合</text>
+  <text x="347" y="370"  font-size="11" fill="#57534e" text-anchor="middle">財務文件盤點</text>
+  <text x="347" y="387"  font-size="11" fill="#57534e" text-anchor="middle">AI 缺漏掃描</text>
+  <text x="347" y="404"  font-size="11" fill="#57534e" text-anchor="middle">補件填寫完成</text>
   <line x1="340" y1="280" x2="340" y2="310" stroke="#78716c" stroke-width="2"/>
 
   <!-- Phase 3: -2M to -1M -->
-  <circle cx="540" cy="280" r="12" fill="#57534e"/>
-  <text x="540" y="265" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e" text-anchor="middle" font-weight="700">-2 個月</text>
+  <circle cx="540" cy="280" r="12" fill="#57534e" opacity="0.15"/>
+  <text x="540" y="265"  font-size="12" fill="#57534e" text-anchor="middle" font-weight="700">-2 個月</text>
 
   <rect x="475" y="140" width="145" height="120" rx="10" fill="white"/>
-  <text x="547" y="163" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle" font-weight="700">模擬審查期</text>
-  <text x="547" y="183" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">主管逐項審閱</text>
-  <text x="547" y="200" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">內部模擬評鑑</text>
-  <text x="547" y="217" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">缺失修正補強</text>
-  <text x="547" y="234" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">訪談演練</text>
+  <text x="547" y="163"  font-size="13" fill="#57534e" text-anchor="middle" font-weight="700">模擬審查期</text>
+  <text x="547" y="183"  font-size="11" fill="#57534e" text-anchor="middle">主管逐項審閱</text>
+  <text x="547" y="200"  font-size="11" fill="#57534e" text-anchor="middle">內部模擬評鑑</text>
+  <text x="547" y="217"  font-size="11" fill="#57534e" text-anchor="middle">缺失修正補強</text>
+  <text x="547" y="234"  font-size="11" fill="#57534e" text-anchor="middle">訪談演練</text>
   <line x1="540" y1="260" x2="540" y2="268" stroke="#57534e" stroke-width="2"/>
 
   <!-- Phase 4: Evaluation day -->
-  <circle cx="700" cy="280" r="14" fill="#d97706"/>
-  <text x="700" y="265" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">評鑑日</text>
-  <text x="700" y="302" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="900">GO!</text>
+  <circle cx="700" cy="280" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="700" y="265"  font-size="12" fill="#d97706" text-anchor="middle" font-weight="700">評鑑日</text>
+  <text x="700" y="302"  font-size="16" fill="#1e293b" text-anchor="middle" font-weight="900">GO!</text>
 
   <!-- Legend -->
   <rect x="80" y="448" width="640" height="30" rx="8" fill="white" opacity="0.7"/>
-  <text x="400" y="468" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#57534e" text-anchor="middle">每個月初進行一次全體同仁進度確認會議，使用報告汪標籤功能追蹤各區塊完成狀態</text>
+  <text x="400" y="468"  font-size="12" fill="#57534e" text-anchor="middle">每個月初進行一次全體同仁進度確認會議，使用報告汪標籤功能追蹤各區塊完成狀態</text>
 
   <!-- Watermark -->
-  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

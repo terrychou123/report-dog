@@ -74,28 +74,28 @@
   <text x="400" y="302" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">循環</text>
 
   <!-- 右上：計劃 Plan -->
-  <rect x="555" y="130" width="6" height="22" rx="1" fill="#d97706"/>
+  <rect x="555" y="130" width="6" height="22" rx="2" fill="#d97706"/>
   <text x="567" y="148" font-size="22" fill="#1e293b" font-weight="700">計劃 Plan</text>
   <line x1="555" y1="156" x2="755" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="555" y="175" font-size="17" fill="#57534e">設定品管指標目標</text>
   <text x="555" y="196" font-size="17" fill="#57534e">制定改善行動方案</text>
 
   <!-- 右下：執行 Do -->
-  <rect x="555" y="365" width="6" height="22" rx="1" fill="#78716c"/>
+  <rect x="555" y="365" width="6" height="22" rx="2" fill="#78716c"/>
   <text x="567" y="383" font-size="22" fill="#1e293b" font-weight="700">執行 Do</text>
   <line x1="555" y1="391" x2="755" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="555" y="410" font-size="17" fill="#57534e">落實照護標準程序</text>
   <text x="555" y="431" font-size="17" fill="#57534e">記錄追蹤執行數據</text>
 
   <!-- 左下：查核 Check -->
-  <rect x="100" y="365" width="6" height="22" rx="1" fill="#57534e"/>
+  <rect x="100" y="365" width="6" height="22" rx="2" fill="#57534e"/>
   <text x="112" y="383" font-size="22" fill="#1e293b" font-weight="700">查核 Check</text>
   <line x1="100" y1="391" x2="300" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="100" y="410" font-size="17" fill="#57534e">比對指標達成情形</text>
   <text x="100" y="431" font-size="17" fill="#57534e">分析異常原因根源</text>
 
   <!-- 左上：行動 Act -->
-  <rect x="100" y="130" width="6" height="22" rx="1" fill="#a8a29e"/>
+  <rect x="100" y="130" width="6" height="22" rx="2" fill="#a8a29e"/>
   <text x="112" y="148" font-size="22" fill="#1e293b" font-weight="700">行動 Act</text>
   <line x1="100" y1="156" x2="300" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="100" y="175" font-size="17" fill="#57534e">修正偏差改善措施</text>

@@ -1,57 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">B 區專業照護品質：4 大職類分工總覽</text>
-  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" font-family="sans-serif">社工 × 護理 × 照服員 × 行政，共 31 項評鑑指標</text>
+  <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" >B 區專業照護品質：4 大職類分工總覽</text>
+  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" >社工 × 護理 × 照服員 × 行政，共 31 項評鑑指標</text>
 
   <!-- N=4 版型：H=62, outer_gap=50, Header y=50, Row y: 160/235/310/385 -->
 
   <!-- 列 1：社工 B1-B8 -->
   <rect x="50" y="135" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="135" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="166" r="16" fill="#d97706"/>
-  <text x="66" y="171" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">社工</text>
-  <text x="100" y="158" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">社工服務 B1–B8（8 項）</text>
-  <text x="100" y="182" font-size="16" fill="#57534e" font-family="sans-serif">品質會議、個案計畫（二級加強）、資訊系統、出院銜接、多專業整合、志工活動</text>
-  <rect x="620" y="143" width="136" height="46" rx="6" fill="#fef3c7"/>
-  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif" font-weight="700">社工主責</text>
-  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" font-family="sans-serif">B1 ~ B8</text>
+  <rect x="50" y="135" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="166" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="171" font-size="14" fill="white" text-anchor="middle"  font-weight="700">社工</text>
+  <text x="100" y="158" font-size="20" font-weight="700" fill="#1e293b" >社工服務 B1–B8（8 項）</text>
+  <text x="100" y="182" font-size="16" fill="#57534e" >品質會議、個案計畫（二級加強）、資訊系統、出院銜接、多專業整合、志工活動</text>
+  <rect x="620" y="143" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">社工主責</text>
+  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" >B1 ~ B8</text>
 
   <!-- 列 2：護理 B9-B24 -->
   <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
   <rect x="50" y="210" width="6" height="62" rx="3" fill="#16a34a"/>
   <circle cx="66" cy="241" r="16" fill="#16a34a"/>
-  <text x="66" y="246" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">護理</text>
-  <text x="100" y="233" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">護理服務 B9–B24（16 項）</text>
-  <text x="100" y="257" font-size="16" fill="#57534e" font-family="sans-serif">醫療服務、感染管制（二級加強）、藥品管理、七大監測、管路照護、疫苗注射</text>
-  <rect x="620" y="218" width="136" height="46" rx="6" fill="#dcfce7"/>
-  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif" font-weight="700">護理主責</text>
-  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" font-family="sans-serif">B9 ~ B24</text>
+  <text x="66" y="246" font-size="14" fill="white" text-anchor="middle"  font-weight="700">護理</text>
+  <text x="100" y="233" font-size="20" font-weight="700" fill="#1e293b" >護理服務 B9–B24（16 項）</text>
+  <text x="100" y="257" font-size="16" fill="#57534e" >醫療服務、感染管制（二級加強）、藥品管理、七大監測、管路照護、疫苗注射</text>
+  <rect x="620" y="218" width="136" height="46" rx="8" fill="#dcfce7" opacity="0.12"/>
+  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">護理主責</text>
+  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" >B9 ~ B24</text>
 
   <!-- 列 3：照服員 B25-B27 -->
   <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="285" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="316" r="16" fill="#78716c"/>
-  <text x="66" y="321" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">照服</text>
-  <text x="100" y="308" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">照服員服務 B25–B27（3 項）</text>
-  <text x="100" y="332" font-size="16" fill="#57534e" font-family="sans-serif">日常活動促進、清潔翻身拍背、自我照顧能力增進及輔具運用</text>
-  <rect x="620" y="293" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif" font-weight="700">照服主責</text>
-  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" font-family="sans-serif">B25 ~ B27</text>
+  <rect x="50" y="285" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="316" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="321" font-size="14" fill="white" text-anchor="middle"  font-weight="700">照服</text>
+  <text x="100" y="308" font-size="20" font-weight="700" fill="#1e293b" >照服員服務 B25–B27（3 項）</text>
+  <text x="100" y="332" font-size="16" fill="#57534e" >日常活動促進、清潔翻身拍背、自我照顧能力增進及輔具運用</text>
+  <rect x="620" y="293" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">照服主責</text>
+  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" >B25 ~ B27</text>
 
   <!-- 列 4：行政/膳食 B28-B31 -->
   <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="360" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="391" r="16" fill="#57534e"/>
-  <text x="66" y="396" font-size="14" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="700">膳食</text>
-  <text x="100" y="383" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">膳食管理 B28–B31（4 項）</text>
-  <text x="100" y="407" font-size="16" fill="#57534e" font-family="sans-serif">菜單擬定、個別化飲食、適宜餐具供應、腸道管灌餵食</text>
-  <rect x="620" y="368" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif" font-weight="700">跨職主責</text>
-  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" font-family="sans-serif">B28 ~ B31</text>
+  <rect x="50" y="360" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="391" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="396" font-size="14" fill="white" text-anchor="middle"  font-weight="700">膳食</text>
+  <text x="100" y="383" font-size="20" font-weight="700" fill="#1e293b" >膳食管理 B28–B31（4 項）</text>
+  <text x="100" y="407" font-size="16" fill="#57534e" >菜單擬定、個別化飲食、適宜餐具供應、腸道管灌餵食</text>
+  <rect x="620" y="368" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">跨職主責</text>
+  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" >B28 ~ B31</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

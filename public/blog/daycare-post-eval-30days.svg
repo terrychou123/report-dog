@@ -13,7 +13,7 @@
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
   <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
-  <circle cx="68" cy="126" r="3" fill="white" opacity="0.8"/>
+  <circle cx="68" cy="126" r="3" fill="white"/>
   <text x="213" y="133" text-anchor="middle" font-size="15" fill="white" font-weight="700">文件補強</text>
   <text x="60" y="172" font-size="14" fill="#57534e">• 補齊評鑑中被要求的缺失文件</text>
   <text x="60" y="192" font-size="14" fill="#57534e">• 更新表單格式符合最新規定</text>

@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
   <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
   <rect x="60" y="60" width="480" height="4" fill="#d97706"/>
-  <text x="60" y="148" font-family="'Noto Sans TC', sans-serif" font-size="52" font-weight="700" fill="#1e293b">新任主管接手評鑑準備</text>
-  <text x="60" y="216" font-family="'Noto Sans TC', sans-serif" font-size="48" font-weight="700" fill="#d97706">30 天快速上手指南</text>
-  <text x="60" y="280" font-family="'Noto Sans TC', sans-serif" font-size="26" fill="#57534e">A7 業務負責人 × 多人協作評鑑準備</text>
+  <text x="60" y="148"  font-size="52" font-weight="700" fill="#1e293b">新任主管接手評鑑準備</text>
+  <text x="60" y="216"  font-size="48" font-weight="700" fill="#d97706">30 天快速上手指南</text>
+  <text x="60" y="280"  font-size="26" fill="#57534e">A7 業務負責人 × 多人協作評鑑準備</text>
   <rect x="60" y="308" width="560" height="2" fill="#a8a29e"/>
   <!-- 週標籤 -->
   <rect x="60" y="334" width="116" height="44" rx="22" fill="#d97706"/>
-  <text x="118" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第1週盤點</text>
+  <text x="118" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第1週盤點</text>
   <rect x="192" y="334" width="116" height="44" rx="22" fill="#78716c"/>
-  <text x="250" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第2週人力</text>
+  <text x="250" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第2週人力</text>
   <rect x="324" y="334" width="116" height="44" rx="22" fill="#57534e"/>
-  <text x="382" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第3週協作</text>
+  <text x="382" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第3週協作</text>
   <rect x="456" y="334" width="116" height="44" rx="22" fill="#94a3b8"/>
-  <text x="514" y="362" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第4週模擬</text>
+  <text x="514" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">第4週模擬</text>
   <!-- 右側大數字裝飾 -->
-  <text x="720" y="420" font-family="'Noto Sans TC', sans-serif" font-size="280" font-weight="700" fill="#d97706" opacity="0.10">30</text>
-  <text x="900" y="480" font-family="'Noto Sans TC', sans-serif" font-size="36" font-weight="700" fill="#57534e" text-anchor="middle">天</text>
-  <text x="900" y="530" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">評鑑快速掌握計畫</text>
-  <text x="60" y="430" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c">住宿型照顧機構評鑑準備系列</text>
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="720" y="420"  font-size="280" font-weight="700" fill="#d97706" opacity="0.10">30</text>
+  <text x="900" y="480"  font-size="36" font-weight="700" fill="#57534e" text-anchor="middle">天</text>
+  <text x="900" y="530"  font-size="22" fill="#78716c" text-anchor="middle">評鑑快速掌握計畫</text>
+  <text x="60" y="430"  font-size="22" fill="#78716c">住宿型照顧機構評鑑準備系列</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

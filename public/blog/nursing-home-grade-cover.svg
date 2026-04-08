@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
   <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
   <rect x="60" y="60" width="480" height="4" fill="#d97706"/>
-  <text x="60" y="138" font-family="'Noto Sans TC', sans-serif" font-size="44" font-weight="700" fill="#1e293b">評鑑等第怎麼算？</text>
-  <text x="60" y="200" font-family="'Noto Sans TC', sans-serif" font-size="44" font-weight="700" fill="#d97706">從「合格」衝刺「優等」的策略</text>
-  <text x="60" y="258" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#57534e">9 項一級必要 × E1/E2 加分 × 二級加強項提升</text>
+  <text x="60" y="138"  font-size="44" font-weight="700" fill="#1e293b">評鑑等第怎麼算？</text>
+  <text x="60" y="200"  font-size="44" font-weight="700" fill="#d97706">從「合格」衝刺「優等」的策略</text>
+  <text x="60" y="258"  font-size="24" fill="#57534e">9 項一級必要 × E1/E2 加分 × 二級加強項提升</text>
   <rect x="60" y="284" width="600" height="2" fill="#a8a29e"/>
   <rect x="60" y="308" width="140" height="44" rx="22" fill="#d97706"/>
-  <text x="130" y="336" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">底線：9 項必要</text>
+  <text x="130" y="336"  font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">底線：9 項必要</text>
   <rect x="216" y="308" width="140" height="44" rx="22" fill="#78716c"/>
-  <text x="286" y="336" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">E2 最多加 3 分</text>
+  <text x="286" y="336"  font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">E2 最多加 3 分</text>
   <rect x="372" y="308" width="140" height="44" rx="22" fill="#57534e"/>
-  <text x="442" y="336" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">E1 改善 80%+</text>
+  <text x="442" y="336"  font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">E1 改善 80%+</text>
   <!-- 右側等第階梯 -->
   <rect x="730" y="150" width="390" height="320" rx="16" fill="#ffffff" opacity="0.5"/>
   <rect x="760" y="400" width="330" height="40" rx="8" fill="#a8a29e"/>
-  <text x="925" y="426" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">合格（甲等）</text>
+  <text x="925" y="426"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">合格（甲等）</text>
   <rect x="780" y="346" width="290" height="40" rx="8" fill="#78716c"/>
-  <text x="925" y="372" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">良好（甲等上）</text>
+  <text x="925" y="372"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">良好（甲等上）</text>
   <rect x="810" y="292" width="230" height="40" rx="8" fill="#57534e"/>
-  <text x="925" y="318" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">優良</text>
+  <text x="925" y="318"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">優良</text>
   <rect x="840" y="238" width="170" height="40" rx="8" fill="#d97706"/>
-  <text x="925" y="264" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">優等</text>
-  <text x="925" y="210" font-family="'Noto Sans TC', sans-serif" font-size="36" fill="#d97706" text-anchor="middle">&#8593;</text>
-  <text x="925" y="184" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#d97706" text-anchor="middle">目標</text>
-  <text x="60" y="430" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c">住宿型照顧機構評鑑準備系列</text>
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="925" y="264"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">優等</text>
+  <text x="925" y="210"  font-size="36" fill="#d97706" text-anchor="middle">&#8593;</text>
+  <text x="925" y="184"  font-size="18" fill="#d97706" text-anchor="middle">目標</text>
+  <text x="60" y="430"  font-size="22" fill="#78716c">住宿型照顧機構評鑑準備系列</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

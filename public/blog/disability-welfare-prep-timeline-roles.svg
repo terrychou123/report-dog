@@ -3,7 +3,7 @@
 
   <!-- Header y=50 h=76 -->
   <rect x="0" y="50" width="800" height="76" fill="white"/>
-  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
   <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">評鑑分工表：誰負責哪些指標</text>
 
   <!-- Row 1 (y=160) 機構主任 #d97706 -->

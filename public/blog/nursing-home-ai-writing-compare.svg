@@ -14,8 +14,8 @@
   <line x1="40" y1="152" x2="760" y2="152" stroke="#dedad3" stroke-width="1"/>
 
   <!-- Row 1: B2 個案計畫 y=152-212 -->
-  <rect x="40" y="152" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="152" width="6" height="60" fill="#d97706"/>
+  <rect x="40" y="152" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="152" width="6" height="60" fill="#d97706" rx="2"/>
   <text x="200" y="186" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">B2 個案計畫</text>
   <line x1="360" y1="152" x2="360" y2="212" stroke="#dedad3" stroke-width="1"/>
   <text x="476" y="186" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">45 分鐘 / 份</text>
@@ -23,8 +23,8 @@
   <text x="676" y="186" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">15 分鐘（省 67%）</text>
 
   <!-- Row 2: A6 危機管理 y=212-272 -->
-  <rect x="40" y="212" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="212" width="6" height="60" fill="#78716c"/>
+  <rect x="40" y="212" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="212" width="6" height="60" fill="#78716c" rx="2"/>
   <text x="200" y="246" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">A6 危機管理計畫</text>
   <line x1="360" y1="212" x2="360" y2="272" stroke="#dedad3" stroke-width="1"/>
   <text x="476" y="246" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">2–3 小時</text>
@@ -32,8 +32,8 @@
   <text x="676" y="246" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">40 分鐘（省 60%）</text>
 
   <!-- Row 3: B1 品質分析報告 y=272-332 -->
-  <rect x="40" y="272" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="272" width="6" height="60" fill="#57534e"/>
+  <rect x="40" y="272" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="272" width="6" height="60" fill="#57534e" rx="2"/>
   <text x="200" y="306" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">品質分析報告</text>
   <line x1="360" y1="272" x2="360" y2="332" stroke="#dedad3" stroke-width="1"/>
   <text x="476" y="306" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">2 小時</text>
@@ -41,8 +41,8 @@
   <text x="676" y="306" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">30 分鐘（省 75%）</text>
 
   <!-- Row 4: A3 年度業務計畫 y=332-392 -->
-  <rect x="40" y="332" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="332" width="6" height="60" fill="#a8a29e"/>
+  <rect x="40" y="332" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="332" width="6" height="60" fill="#a8a29e" rx="2"/>
   <text x="200" y="366" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">A3 年度業務計畫</text>
   <line x1="360" y1="332" x2="360" y2="392" stroke="#dedad3" stroke-width="1"/>
   <text x="476" y="366" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">全天（8 小時）</text>

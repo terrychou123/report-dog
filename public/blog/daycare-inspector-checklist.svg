@@ -9,7 +9,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄 Section 1：文件審閱重點 #d97706 -->
-  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <rect x="60" y="108" width="6" height="24" rx="2" fill="#d97706"/>
   <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">文件審閱重點</text>
 
   <!-- 左欄 Item 1：已確認 -->
@@ -26,7 +26,7 @@
   <text x="94" y="236" font-size="18" fill="#1e293b">教育訓練時數與類別達標</text>
 
   <!-- 左欄 Section 2：訪談準備重點 #57534e -->
-  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <rect x="60" y="262" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">訪談準備重點</text>
 
   <!-- 左欄 Item 4 -->
@@ -45,7 +45,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄 Section 1：環境查看重點 #78716c -->
-  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <rect x="416" y="108" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">環境查看重點</text>
 
   <!-- 右欄 Item 1 -->
@@ -61,7 +61,7 @@
   <text x="450" y="236" font-size="18" fill="#1e293b">急救物品完整且位置知悉</text>
 
   <!-- 右欄 Section 2：整體備審重點 #a8a29e -->
-  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <rect x="416" y="262" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">整體備審重點</text>
 
   <!-- 右欄 Item 4 -->

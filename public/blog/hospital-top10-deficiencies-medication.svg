@@ -3,7 +3,7 @@
 
   <!-- Header (y=38, h=90) -->
   <rect x="0" y="38" width="800" height="90" fill="white"/>
-  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="98" font-size="36" fill="#1e293b" font-weight="700">用藥安全三大必要條文</text>
 
   <!-- Row 1 (y=166) 2.5.4 給藥作業安全 #d97706 -->

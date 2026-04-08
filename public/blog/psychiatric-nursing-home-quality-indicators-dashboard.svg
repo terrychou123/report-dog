@@ -1,48 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="40" y="44" font-size="30" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">6大品質監測指標一覽</text>
-  <text x="40" y="72" font-size="20" fill="#57534e" font-family="'Noto Sans TC', sans-serif">依精神護理機構評鑑持續性監測指標操作型定義手冊</text>
+  <text x="40" y="44" font-size="30" font-weight="bold" fill="#1e293b" >6大品質監測指標一覽</text>
+  <text x="40" y="72" font-size="20" fill="#57534e" >依精神護理機構評鑑持續性監測指標操作型定義手冊</text>
   <line x1="40" y1="86" x2="760" y2="86" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 行1 跌倒 -->
-  <rect x="30" y="98" width="6" height="52" rx="3" fill="#d97706"/>
+  <rect x="30" y="98" width="6" height="52" rx="2" fill="#d97706"/>
   <rect x="44" y="98" width="716" height="52" rx="5" fill="white" opacity="0.7"/>
-  <text x="66" y="120" font-size="17" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">跌倒</text>
-  <text x="66" y="140" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">跌倒發生率 = 事件數 / 住民日 x 1000</text>
+  <text x="66" y="120" font-size="17" font-weight="bold" fill="#d97706" >跌倒</text>
+  <text x="66" y="140" font-size="14" fill="#57534e" >跌倒發生率 = 事件數 / 住民日 x 1000</text>
 
   <!-- 行2 壓力性損傷 -->
-  <rect x="30" y="160" width="6" height="52" rx="3" fill="#78716c"/>
+  <rect x="30" y="160" width="6" height="52" rx="2" fill="#78716c"/>
   <rect x="44" y="160" width="716" height="52" rx="5" fill="white" opacity="0.7"/>
-  <text x="66" y="182" font-size="17" font-weight="bold" fill="#78716c" font-family="'Noto Sans TC', sans-serif">壓力性損傷</text>
-  <text x="66" y="202" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">盛行率 = 在院住民有壓傷數 / 在院總數 x 100</text>
+  <text x="66" y="182" font-size="17" font-weight="bold" fill="#78716c" >壓力性損傷</text>
+  <text x="66" y="202" font-size="14" fill="#57534e" >盛行率 = 在院住民有壓傷數 / 在院總數 x 100</text>
 
   <!-- 行3 約束 -->
-  <rect x="30" y="222" width="6" height="52" rx="3" fill="#57534e"/>
+  <rect x="30" y="222" width="6" height="52" rx="2" fill="#57534e"/>
   <rect x="44" y="222" width="716" height="52" rx="5" fill="white" opacity="0.7"/>
-  <text x="66" y="244" font-size="17" font-weight="bold" fill="#57534e" font-family="'Noto Sans TC', sans-serif">約束</text>
-  <text x="66" y="264" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">約束率 = 使用約束住民日 / 全體住民日 x 100</text>
+  <text x="66" y="244" font-size="17" font-weight="bold" fill="#57534e" >約束</text>
+  <text x="66" y="264" font-size="14" fill="#57534e" >約束率 = 使用約束住民日 / 全體住民日 x 100</text>
 
   <!-- 行4 感染 -->
-  <rect x="30" y="284" width="6" height="52" rx="3" fill="#a8a29e"/>
+  <rect x="30" y="284" width="6" height="52" rx="2" fill="#a8a29e"/>
   <rect x="44" y="284" width="716" height="52" rx="5" fill="white" opacity="0.7"/>
-  <text x="66" y="306" font-size="17" font-weight="bold" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">感染</text>
-  <text x="66" y="326" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">感染密度 = 感染事件數 / 住民日 x 1000</text>
+  <text x="66" y="306" font-size="17" font-weight="bold" fill="#a8a29e" >感染</text>
+  <text x="66" y="326" font-size="14" fill="#57534e" >感染密度 = 感染事件數 / 住民日 x 1000</text>
 
   <!-- 行5 非計畫性轉急性住院 -->
-  <rect x="30" y="346" width="6" height="52" rx="3" fill="#94a3b8"/>
+  <rect x="30" y="346" width="6" height="52" rx="2" fill="#94a3b8"/>
   <rect x="44" y="346" width="716" height="52" rx="5" fill="white" opacity="0.7"/>
-  <text x="66" y="368" font-size="17" font-weight="bold" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif">非計畫性轉急性住院</text>
-  <text x="66" y="388" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">發生率 = 件數 / 住民月（每月追蹤）</text>
+  <text x="66" y="368" font-size="17" font-weight="bold" fill="#94a3b8" >非計畫性轉急性住院</text>
+  <text x="66" y="388" font-size="14" fill="#57534e" >發生率 = 件數 / 住民月（每月追蹤）</text>
 
   <!-- 行6 非計畫性體重改變 -->
-  <rect x="30" y="408" width="6" height="52" rx="3" fill="#6b7280"/>
+  <rect x="30" y="408" width="6" height="52" rx="2" fill="#6b7280"/>
   <rect x="44" y="408" width="716" height="52" rx="5" fill="white" opacity="0.7"/>
-  <text x="66" y="430" font-size="17" font-weight="bold" fill="#6b7280" font-family="'Noto Sans TC', sans-serif">非計畫性體重改變</text>
-  <text x="66" y="450" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">每月追蹤體重，超出閾值需介入並記錄</text>
+  <text x="66" y="430" font-size="17" font-weight="bold" fill="#6b7280" >非計畫性體重改變</text>
+  <text x="66" y="450" font-size="14" fill="#57534e" >每月追蹤體重，超出閾值需介入並記錄</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="488" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="488" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

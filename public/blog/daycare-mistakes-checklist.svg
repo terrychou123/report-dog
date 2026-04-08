@@ -9,7 +9,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄 Section 1：照護計畫（第 6 條）#d97706 -->
-  <rect x="60" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <rect x="60" y="108" width="6" height="24" rx="2" fill="#d97706"/>
   <text x="74" y="125" font-size="18" fill="#1e293b" font-weight="700">照護計畫（第 6 條）</text>
 
   <!-- 左欄 Item 1：已確認（✓）-->
@@ -26,7 +26,7 @@
   <text x="94" y="236" font-size="18" fill="#1e293b">家屬參與過程有記錄</text>
 
   <!-- 左欄 Section 2：追蹤評值（第 7 條）#57534e -->
-  <rect x="60" y="262" width="6" height="24" rx="3" fill="#57534e"/>
+  <rect x="60" y="262" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="74" y="279" font-size="18" fill="#1e293b" font-weight="700">追蹤評值（第 7 條）</text>
 
   <!-- 左欄 Item 4 -->
@@ -45,7 +45,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄 Section 1：督導管理（第 9 條）#78716c -->
-  <rect x="416" y="108" width="6" height="24" rx="3" fill="#78716c"/>
+  <rect x="416" y="108" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="430" y="125" font-size="18" fill="#1e293b" font-weight="700">督導管理（第 9 條）</text>
 
   <!-- 右欄 Item 1 -->
@@ -61,7 +61,7 @@
   <text x="450" y="236" font-size="18" fill="#1e293b">督導紀錄內容充實</text>
 
   <!-- 右欄 Section 2：品管訓練（第 22・29 條）#a8a29e -->
-  <rect x="416" y="262" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <rect x="416" y="262" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="430" y="279" font-size="18" fill="#1e293b" font-weight="700">品管訓練（第 22・29 條）</text>
 
   <!-- 右欄 Item 4 -->

@@ -1,62 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題 -->
-  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">教育訓練管理自評清單</text>
-  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">評鑑前確認A4.1的四項要求均已達標</text>
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle"  font-weight="700">教育訓練管理自評清單</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" >評鑑前確認A4.1的四項要求均已達標</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 左欄標題 -->
   <rect x="40" y="110" width="340" height="44" rx="8" fill="#d97706"/>
-  <text x="210" y="138" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">時數管理</text>
+  <text x="210" y="138" font-size="20" fill="white" text-anchor="middle"  font-weight="700">時數管理</text>
 
   <!-- 右欄標題 -->
   <rect x="420" y="110" width="340" height="44" rx="8" fill="#78716c"/>
-  <text x="590" y="138" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">證照管理</text>
+  <text x="590" y="138" font-size="20" fill="white" text-anchor="middle"  font-weight="700">證照管理</text>
 
   <!-- 左欄項目1 確認 -->
   <rect x="40" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="182" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
-  <text x="95" y="193" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：每人有訓練時數統計表</text>
-  <text x="95" y="215" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">個人訓練紀錄可供查核</text>
+  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="95" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：每人有訓練時數統計表</text>
+  <text x="95" y="215" font-size="14" fill="#78716c" >個人訓練紀錄可供查核</text>
 
   <!-- 左欄項目2 確認 -->
   <rect x="40" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="257" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
-  <text x="95" y="268" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：感控4小時已達標</text>
-  <text x="95" y="290" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">感控訓練時數有記錄</text>
+  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="95" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：感控4小時已達標</text>
+  <text x="95" y="290" font-size="14" fill="#78716c" >感控訓練時數有記錄</text>
 
   <!-- 左欄項目3 待確認 -->
   <rect x="40" y="315" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="332" width="24" height="24" rx="4" fill="#a8a29e"/>
-  <text x="67" y="349" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">!</text>
-  <text x="95" y="343" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">待確認：廚工8小時是否有記錄</text>
-  <text x="95" y="365" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">廚工供膳人員訓練時數確認</text>
+  <text x="67" y="349" font-size="14" fill="white" text-anchor="middle"  font-weight="700">!</text>
+  <text x="95" y="343" font-size="16" fill="#1e293b"  font-weight="700">待確認：廚工8小時是否有記錄</text>
+  <text x="95" y="365" font-size="14" fill="#78716c" >廚工供膳人員訓練時數確認</text>
 
   <!-- 右欄項目1 確認 -->
   <rect x="420" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="182" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
-  <text x="475" y="193" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：BLS護理師達50%</text>
-  <text x="475" y="215" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">持有效BLS證照護理師比率</text>
+  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="475" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：BLS護理師達50%</text>
+  <text x="475" y="215" font-size="14" fill="#78716c" >持有效BLS證照護理師比率</text>
 
   <!-- 右欄項目2 確認 -->
   <rect x="420" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="257" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">✓</text>
-  <text x="475" y="268" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">確認：各訓練有簽到紀錄</text>
-  <text x="475" y="290" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">出席名單完整存檔</text>
+  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="475" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：各訓練有簽到紀錄</text>
+  <text x="475" y="290" font-size="14" fill="#78716c" >出席名單完整存檔</text>
 
   <!-- 右欄項目3 待確認 -->
   <rect x="420" y="315" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="332" width="24" height="24" rx="4" fill="#a8a29e"/>
-  <text x="447" y="349" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">!</text>
-  <text x="475" y="343" font-size="16" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">待確認：職前訓練1個月內完成</text>
-  <text x="475" y="365" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">新進人員職前訓練時間查核</text>
+  <text x="447" y="349" font-size="14" fill="white" text-anchor="middle"  font-weight="700">!</text>
+  <text x="475" y="343" font-size="16" fill="#1e293b"  font-weight="700">待確認：職前訓練1個月內完成</text>
+  <text x="475" y="365" font-size="14" fill="#78716c" >新進人員職前訓練時間查核</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

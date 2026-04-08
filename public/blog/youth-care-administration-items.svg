@@ -1,4 +1,4 @@
-<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <defs>
     <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;display=swap');</style>
   </defs>
@@ -6,52 +6,52 @@
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="24" width="744" height="62" rx="12" fill="#1e293b"/>
-  <text x="400" y="50" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">評分者分工</text>
-  <text x="400" y="72" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">行政組織管理 6 項目配分與評分者</text>
+  <text x="400" y="50"  font-size="14" fill="#94a3b8" text-anchor="middle">評分者分工</text>
+  <text x="400" y="72"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">行政組織管理 6 項目配分與評分者</text>
   <!-- Row 1 -->
   <rect x="28" y="110" width="744" height="62" rx="12" fill="#ffffff"/>
-  <rect x="28" y="110" width="6" height="62" rx="3" fill="#d97706"/>
+  <rect x="28" y="110" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="141" r="16" fill="#fef3c7"/>
-  <text x="66" y="146" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
-  <text x="100" y="136" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#1e293b">項目 1：董理事會功能</text>
-  <text x="100" y="158" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">審議預算決算、董事改選、權責劃分</text>
-  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fef3c7"/>
-  <text x="688" y="145" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">評鑑人員 2分</text>
+  <text x="66" y="146"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
+  <text x="100" y="136"  font-size="15" font-weight="700" fill="#1e293b">項目 1：董理事會功能</text>
+  <text x="100" y="158"  font-size="13" fill="#57534e">審議預算決算、董事改選、權責劃分</text>
+  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="145"  font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">評鑑人員 2分</text>
   <!-- Row 2 -->
   <rect x="28" y="185" width="744" height="62" rx="12" fill="#ffffff"/>
-  <rect x="28" y="185" width="6" height="62" rx="3" fill="#78716c"/>
+  <rect x="28" y="185" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="216" r="16" fill="#f5f5f4"/>
-  <text x="66" y="221" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
-  <text x="100" y="211" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#1e293b">項目 2：行政架構</text>
-  <text x="100" y="233" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">例行會議0.3、組織架構0.2、安置系統1、報表0.5</text>
-  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fef3c7"/>
-  <text x="688" y="220" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">評鑑人員 2分</text>
+  <text x="66" y="221"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
+  <text x="100" y="211"  font-size="15" font-weight="700" fill="#1e293b">項目 2：行政架構</text>
+  <text x="100" y="233"  font-size="13" fill="#57534e">例行會議0.3、組織架構0.2、安置系統1、報表0.5</text>
+  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="220"  font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">評鑑人員 2分</text>
   <!-- Row 3 -->
   <rect x="28" y="260" width="744" height="62" rx="12" fill="#ffffff"/>
-  <rect x="28" y="260" width="6" height="62" rx="3" fill="#57534e"/>
+  <rect x="28" y="260" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="291" r="16" fill="#f5f5f4"/>
-  <text x="66" y="296" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
-  <text x="100" y="286" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#1e293b">項目 3：員工手冊</text>
-  <text x="100" y="308" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">手冊職掌、差勤代理、績效考核、申訴、薪資（各0.4）</text>
-  <rect x="620" y="271" width="136" height="40" rx="8" fill="#fef3c7"/>
-  <text x="688" y="295" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">評鑑人員 2分</text>
+  <text x="66" y="296"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
+  <text x="100" y="286"  font-size="15" font-weight="700" fill="#1e293b">項目 3：員工手冊</text>
+  <text x="100" y="308"  font-size="13" fill="#57534e">手冊職掌、差勤代理、績效考核、申訴、薪資（各0.4）</text>
+  <rect x="620" y="271" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="295"  font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">評鑑人員 2分</text>
   <!-- Row 4 -->
   <rect x="28" y="335" width="744" height="62" rx="12" fill="#fff7ed"/>
-  <rect x="28" y="335" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <rect x="28" y="335" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="366" r="16" fill="#e7e5e4"/>
-  <text x="66" y="371" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
-  <text x="100" y="361" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#1e293b">項目 4：人員資格（進用符規定、流失率20%以下、久任獎勵）</text>
-  <rect x="620" y="346" width="136" height="40" rx="8" fill="#e7e5e4"/>
-  <text x="688" y="370" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">主管機關 2分</text>
+  <text x="66" y="371"  font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
+  <text x="100" y="361"  font-size="15" font-weight="700" fill="#1e293b">項目 4：人員資格（進用符規定、流失率20%以下、久任獎勵）</text>
+  <rect x="620" y="346" width="136" height="40" rx="8" fill="#e7e5e4" opacity="0.12"/>
+  <text x="688" y="370"  font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">主管機關 2分</text>
   <!-- Row 5 -->
   <rect x="28" y="410" width="744" height="62" rx="12" fill="#fff7ed"/>
-  <rect x="28" y="410" width="6" height="62" rx="3" fill="#94a3b8"/>
+  <rect x="28" y="410" width="6" height="62" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="441" r="16" fill="#e7e5e4"/>
-  <text x="66" y="446" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">5</text>
-  <text x="100" y="436" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#1e293b">項目 5&amp;6：訓練進修（1分）、勞動條件（1分）</text>
-  <text x="100" y="458" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">性侵害防治課程全員完成、法定訓練時數、勞動法規合規</text>
-  <rect x="620" y="421" width="136" height="40" rx="8" fill="#e7e5e4"/>
-  <text x="688" y="445" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">主管機關 2分</text>
+  <text x="66" y="446"  font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">5</text>
+  <text x="100" y="436"  font-size="15" font-weight="700" fill="#1e293b">項目 5&amp;6：訓練進修（1分）、勞動條件（1分）</text>
+  <text x="100" y="458"  font-size="13" fill="#57534e">性侵害防治課程全員完成、法定訓練時數、勞動法規合規</text>
+  <rect x="620" y="421" width="136" height="40" rx="8" fill="#e7e5e4" opacity="0.12"/>
+  <text x="688" y="445"  font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">主管機關 2分</text>
   <!-- Watermark -->
-  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
+  <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
 </svg>

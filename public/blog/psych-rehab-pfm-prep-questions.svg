@@ -4,7 +4,7 @@
 
   <!-- Header (y=50, h=62) -->
   <rect x="0" y="50" width="800" height="62" fill="white"/>
-  <rect x="0" y="50" width="6" height="62" fill="#d97706"/>
+  <rect x="0" y="50" width="6" height="62" fill="#d97706" rx="2"/>
   <text x="28" y="90" font-size="36" fill="#1e293b" font-weight="700">PFM 7 項核心提問與達標判斷</text>
 
   <!-- ===== Row 1 (y=160) 2.8 用藥管理 #d97706 ===== -->
@@ -43,7 +43,7 @@
   <!-- ===== Row 4 (y=385) 重3.11 出入自由 #dc2626 ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
   <rect x="28" y="385" width="6" height="62" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="416" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="416" r="16" fill="#dc2626"/>
   <text x="66" y="422" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="900">!</text>
   <text x="100" y="408" font-size="20" fill="#dc2626" font-weight="700">重3.11 維護住民出入自由（住宿型唯一重點）</text>
   <text x="100" y="430" font-size="15" fill="#dc2626">「你想出去，可以自由外出嗎？」→ 未達C → 整場評鑑不合格</text>

@@ -7,12 +7,12 @@
 
   <!-- 標題列背景 -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
 
   <!-- 列 1 -->
-  <rect x="28" y="118" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="70" cy="148" r="16" fill="#d97706"/>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="70" cy="148" r="16" fill="#d97706" opacity="0.15"/>
   <text x="70" y="154" font-size="20" fill="white" text-anchor="middle" font-weight="700">1</text>
   <text x="105" y="142" font-size="14" fill="#1e293b" font-weight="600">A3 年度計畫必須於前一年度完成訂定</text>
   <text x="105" y="162" font-size="14" fill="#57534e">114 年計畫須於 113 年底前核定，保存董事會審議紀錄</text>
@@ -21,9 +21,9 @@
   <text x="688" y="162" font-size="12" fill="#78716c" text-anchor="middle">前1年訂定</text>
 
   <!-- 列 2 -->
-  <rect x="28" y="191" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="191" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="70" cy="221" r="16" fill="#78716c"/>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="70" cy="221" r="16" fill="#78716c" opacity="0.15"/>
   <text x="70" y="227" font-size="20" fill="white" text-anchor="middle" font-weight="700">2</text>
   <text x="105" y="215" font-size="14" fill="#1e293b" font-weight="600">中長程計畫涵蓋 3 年以上，含願景與資源規劃</text>
   <text x="105" y="235" font-size="14" fill="#57534e">方向：服務量能、人力培訓、設施改善、財務規劃四大面向</text>
@@ -32,9 +32,9 @@
   <text x="688" y="235" font-size="12" fill="#78716c" text-anchor="middle">4個面向</text>
 
   <!-- 列 3 -->
-  <rect x="28" y="264" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="264" width="6" height="60" rx="3" fill="#57534e"/>
-  <circle cx="70" cy="294" r="16" fill="#57534e"/>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="70" cy="294" r="16" fill="#57534e" opacity="0.15"/>
   <text x="70" y="300" font-size="20" fill="white" text-anchor="middle" font-weight="700">3</text>
   <text x="105" y="288" font-size="14" fill="#1e293b" font-weight="600">業務計畫執行進度每季追蹤，有書面檢討紀錄</text>
   <text x="105" y="308" font-size="14" fill="#57534e">建議在品質會議（B1）納入計畫執行進度為固定議程</text>
@@ -43,13 +43,13 @@
   <text x="688" y="308" font-size="12" fill="#78716c" text-anchor="middle">每季1次</text>
 
   <!-- 列 4 -->
-  <rect x="28" y="337" width="744" height="60" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="337" width="6" height="60" rx="3" fill="#94a3b8"/>
-  <circle cx="70" cy="367" r="16" fill="#94a3b8"/>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="70" cy="367" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="70" y="373" font-size="20" fill="white" text-anchor="middle" font-weight="700">4</text>
   <text x="105" y="361" font-size="14" fill="#1e293b" font-weight="600">A4 缺失改善率 100%：每項缺失有負責人、期限、驗證</text>
   <text x="105" y="381" font-size="14" fill="#57534e">改善完成後附照片或再查核結果，未完成者須說明原因</text>
-  <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.18"/>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
   <text x="688" y="363" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">改善率</text>
   <text x="688" y="381" font-size="12" fill="#78716c" text-anchor="middle">100%</text>
 

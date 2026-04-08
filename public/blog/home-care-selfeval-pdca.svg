@@ -1,60 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題 -->
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">品質管理 PDCA 循環</text>
-  <text x="400" y="76" font-family="'Noto Sans TC', sans-serif" font-size="18" fill="#57534e" text-anchor="middle">持續改善居家服務品質的核心方法</text>
+  <text x="400" y="48"  font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">品質管理 PDCA 循環</text>
+  <text x="400" y="76"  font-size="18" fill="#57534e" text-anchor="middle">持續改善居家服務品質的核心方法</text>
   <line x1="40" y1="90" x2="760" y2="90" stroke="#dedad3" stroke-width="1.5"/>
 
   <!-- ===== P (Plan) 左上卡片 ===== -->
   <rect x="30" y="100" width="350" height="130" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
   <!-- P 大字 -->
-  <text x="85" y="172" font-family="'Noto Sans TC', sans-serif" font-size="50" font-weight="900" fill="#d97706" text-anchor="middle">P</text>
+  <text x="85" y="172"  font-size="50" font-weight="900" fill="#d97706" text-anchor="middle">P</text>
   <!-- 相位名稱與說明 -->
-  <text x="120" y="132" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#1e293b">PLAN 計畫</text>
-  <text x="120" y="156" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">制定改善目標與行動計畫</text>
+  <text x="120" y="132"  font-size="20" font-weight="700" fill="#1e293b">PLAN 計畫</text>
+  <text x="120" y="156"  font-size="15" fill="#57534e">制定改善目標與行動計畫</text>
   <!-- 評鑑項目 badge -->
   <rect x="120" y="172" width="110" height="30" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="175" y="191" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d97706" text-anchor="middle">項目27 品質改善</text>
+  <text x="175" y="191"  font-size="14" fill="#d97706" text-anchor="middle">項目27 品質改善</text>
 
   <!-- ===== D (Do) 右上卡片 ===== -->
   <rect x="420" y="100" width="350" height="130" rx="10" fill="#f5f5f4" stroke="#78716c" stroke-width="2"/>
   <!-- D 大字 -->
-  <text x="475" y="172" font-family="'Noto Sans TC', sans-serif" font-size="50" font-weight="900" fill="#78716c" text-anchor="middle">D</text>
+  <text x="475" y="172"  font-size="50" font-weight="900" fill="#78716c" text-anchor="middle">D</text>
   <!-- 相位名稱與說明 -->
-  <text x="510" y="132" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#1e293b">DO 執行</text>
-  <text x="510" y="156" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">落實改善行動，記錄執行過程</text>
+  <text x="510" y="132"  font-size="20" font-weight="700" fill="#1e293b">DO 執行</text>
+  <text x="510" y="156"  font-size="15" fill="#57534e">落實改善行動，記錄執行過程</text>
   <!-- 評鑑項目 badge -->
   <rect x="510" y="172" width="126" height="30" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="573" y="191" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c" text-anchor="middle">項目28 滿意度調查</text>
+  <text x="573" y="191"  font-size="14" fill="#78716c" text-anchor="middle">項目28 滿意度調查</text>
 
   <!-- ===== C (Check) 左下卡片 ===== -->
   <rect x="30" y="260" width="350" height="130" rx="10" fill="#f5f0eb" stroke="#57534e" stroke-width="2"/>
   <!-- C 大字 -->
-  <text x="85" y="332" font-family="'Noto Sans TC', sans-serif" font-size="50" font-weight="900" fill="#57534e" text-anchor="middle">C</text>
+  <text x="85" y="332"  font-size="50" font-weight="900" fill="#57534e" text-anchor="middle">C</text>
   <!-- 相位名稱與說明 -->
-  <text x="120" y="292" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#1e293b">CHECK 查核</text>
-  <text x="120" y="316" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">查核執行結果，分析數據指標</text>
+  <text x="120" y="292"  font-size="20" font-weight="700" fill="#1e293b">CHECK 查核</text>
+  <text x="120" y="316"  font-size="15" fill="#57534e">查核執行結果，分析數據指標</text>
   <!-- 評鑑項目 badge -->
   <rect x="120" y="332" width="110" height="30" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="175" y="351" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">項目29 品質監測</text>
+  <text x="175" y="351"  font-size="14" fill="#57534e" text-anchor="middle">項目29 品質監測</text>
 
   <!-- ===== A (Act) 右下卡片 ===== -->
   <rect x="420" y="260" width="350" height="130" rx="10" fill="#f5f5f4" stroke="#a8a29e" stroke-width="2"/>
   <!-- A 大字 -->
-  <text x="475" y="332" font-family="'Noto Sans TC', sans-serif" font-size="50" font-weight="900" fill="#a8a29e" text-anchor="middle">A</text>
+  <text x="475" y="332"  font-size="50" font-weight="900" fill="#a8a29e" text-anchor="middle">A</text>
   <!-- 相位名稱與說明 -->
-  <text x="510" y="292" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#1e293b">ACT 行動</text>
-  <text x="510" y="316" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">標準化有效做法，再循環改善</text>
+  <text x="510" y="292"  font-size="20" font-weight="700" fill="#1e293b">ACT 行動</text>
+  <text x="510" y="316"  font-size="15" fill="#57534e">標準化有效做法，再循環改善</text>
   <!-- 評鑑項目 badge -->
   <rect x="510" y="332" width="110" height="30" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="565" y="351" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">項目30 機構自評</text>
+  <text x="565" y="351"  font-size="14" fill="#a8a29e" text-anchor="middle">項目30 機構自評</text>
 
   <!-- ===== 中央圓形 ===== -->
   <circle cx="400" cy="325" r="50" fill="#e8e4dc"/>
-  <text x="400" y="321" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">PDCA</text>
-  <text x="400" y="341" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c" text-anchor="middle">持續改善</text>
+  <text x="400" y="321"  font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">PDCA</text>
+  <text x="400" y="341"  font-size="14" fill="#78716c" text-anchor="middle">持續改善</text>
 
   <!-- ===== 循環箭頭 ===== -->
   <!-- P→D 向右箭頭（頂部中央） -->
@@ -70,5 +70,5 @@
   <polygon points="42,337 42,313 27,325" fill="#a8a29e"/>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480"  font-size="16" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

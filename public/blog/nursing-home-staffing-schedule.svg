@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">排班紀錄評鑑關鍵欄位</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">委員核對排班表的四大重點欄位</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">排班紀錄評鑑關鍵欄位</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">委員核對排班表的四大重點欄位</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 2x2格局 -->
   <rect x="40" y="118" width="348" height="160" rx="14" fill="#d97706"/>
-  <text x="214" y="168" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">人員身份別標注</text>
-  <text x="214" y="198" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">每位照服員標注</text>
-  <text x="214" y="220" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#fff3cd" text-anchor="middle">「本國籍」或「外籍」</text>
-  <text x="214" y="248" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">讓委員可直接計算比例</text>
+  <text x="214" y="168"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">人員身份別標注</text>
+  <text x="214" y="198"  font-size="15" fill="#fff3cd" text-anchor="middle">每位照服員標注</text>
+  <text x="214" y="220"  font-size="15" fill="#fff3cd" text-anchor="middle">「本國籍」或「外籍」</text>
+  <text x="214" y="248"  font-size="14" fill="#fff3cd" text-anchor="middle">讓委員可直接計算比例</text>
   <rect x="412" y="118" width="348" height="160" rx="14" fill="#78716c"/>
-  <text x="586" y="168" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">班別時間記錄</text>
-  <text x="586" y="198" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">日班、夜班起訖時間</text>
-  <text x="586" y="220" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">清楚標注確保各時段</text>
-  <text x="586" y="248" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">在班人數可被核算</text>
+  <text x="586" y="168"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">班別時間記錄</text>
+  <text x="586" y="198"  font-size="15" fill="#d4ccc8" text-anchor="middle">日班、夜班起訖時間</text>
+  <text x="586" y="220"  font-size="15" fill="#d4ccc8" text-anchor="middle">清楚標注確保各時段</text>
+  <text x="586" y="248"  font-size="14" fill="#d4ccc8" text-anchor="middle">在班人數可被核算</text>
   <rect x="40" y="298" width="348" height="160" rx="14" fill="#57534e"/>
-  <text x="214" y="348" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">實際出勤簽到記錄</text>
-  <text x="214" y="378" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">排班表 + 出勤簽到</text>
-  <text x="214" y="400" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#d4ccc8" text-anchor="middle">相互佐證確認</text>
-  <text x="214" y="428" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">實際出勤情形</text>
+  <text x="214" y="348"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">實際出勤簽到記錄</text>
+  <text x="214" y="378"  font-size="15" fill="#d4ccc8" text-anchor="middle">排班表 + 出勤簽到</text>
+  <text x="214" y="400"  font-size="15" fill="#d4ccc8" text-anchor="middle">相互佐證確認</text>
+  <text x="214" y="428"  font-size="14" fill="#d4ccc8" text-anchor="middle">實際出勤情形</text>
   <rect x="412" y="298" width="348" height="160" rx="14" fill="#94a3b8"/>
-  <text x="586" y="348" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">代班人員記錄</text>
-  <text x="586" y="378" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">請假或換班時</text>
-  <text x="586" y="400" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">代班人員資格與身份別</text>
-  <text x="586" y="428" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">均需記錄</text>
+  <text x="586" y="348"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">代班人員記錄</text>
+  <text x="586" y="378"  font-size="15" fill="#e2e8f0" text-anchor="middle">請假或換班時</text>
+  <text x="586" y="400"  font-size="15" fill="#e2e8f0" text-anchor="middle">代班人員資格與身份別</text>
+  <text x="586" y="428"  font-size="14" fill="#e2e8f0" text-anchor="middle">均需記錄</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

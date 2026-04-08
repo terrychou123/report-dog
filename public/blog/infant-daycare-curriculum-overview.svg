@@ -3,12 +3,12 @@
 
   <!-- Header -->
   <rect x="0" y="0" width="800" height="90" fill="white"/>
-  <rect x="0" y="0" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="0" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="46" font-size="30" fill="#1e293b" font-weight="700">托育活動 40 分：4 個子類總覽</text>
   <text x="28" y="74" font-size="18" fill="#78716c">臺北市114-116年度 指標12-36 分類說明</text>
 
   <!-- Row 1：關係建立 y=160 -->
-  <rect x="28" y="100" width="744" height="62" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="100" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="100" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="131" r="18" fill="#d97706" opacity="0.15"/>
   <text x="66" y="137" font-size="15" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
@@ -18,7 +18,7 @@
   <text x="702" y="136" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600">3項 · 觀察</text>
 
   <!-- Row 2：環境規劃 y=235 -->
-  <rect x="28" y="175" width="744" height="62" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="175" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="175" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="206" r="18" fill="#78716c" opacity="0.15"/>
   <text x="66" y="212" font-size="15" fill="#78716c" text-anchor="middle" font-weight="900">B</text>
@@ -28,7 +28,7 @@
   <text x="702" y="211" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600">9項 · 觀察</text>
 
   <!-- Row 3：活動實施 y=310 -->
-  <rect x="28" y="250" width="744" height="62" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="250" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="250" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="281" r="18" fill="#57534e" opacity="0.15"/>
   <text x="66" y="287" font-size="15" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
@@ -38,7 +38,7 @@
   <text x="702" y="286" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600">10項 · 混合</text>
 
   <!-- Row 4：親師交流 y=385 -->
-  <rect x="28" y="325" width="744" height="62" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="325" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="325" width="6" height="62" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="356" r="18" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="362" font-size="15" fill="#94a3b8" text-anchor="middle" font-weight="900">D</text>
@@ -48,7 +48,7 @@
   <text x="702" y="361" font-size="15" fill="#94a3b8" text-anchor="middle" font-weight="600">3項 · 文件</text>
 
   <!-- 底部說明 -->
-  <rect x="28" y="410" width="744" height="52" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="744" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="400" y="432" font-size="15" fill="#78716c" text-anchor="middle">托育活動 25 項指標以實地觀察為主（約60%），文件佐證為輔（約40%）</text>
   <text x="400" y="452" font-size="14" fill="#d97706" text-anchor="middle">→ 備審重點：日常照護品質真實呈現 + 課程計畫文件完整</text>
 

@@ -4,7 +4,7 @@
 
   <!-- Header (y=50) -->
   <rect x="0" y="50" width="800" height="62" fill="white"/>
-  <rect x="0" y="50" width="6" height="62" fill="#d97706"/>
+  <rect x="0" y="50" width="6" height="62" fill="#d97706" rx="2"/>
   <text x="28" y="92" font-size="34" fill="#1e293b" font-weight="700">3.2 收案標準設計四要素</text>
 
   <!-- ===== Row 1 (y=160) 適用對象說明 #d97706 ===== -->

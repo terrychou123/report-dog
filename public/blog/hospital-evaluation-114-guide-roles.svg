@@ -11,7 +11,7 @@
 
   <!-- Header -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
   <text x="28" y="71" font-size="36" fill="#1e293b" font-weight="700">負責部門與對應必要條文</text>
 
   <!-- Row 1: 品管部門 -->

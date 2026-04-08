@@ -24,7 +24,7 @@
   <rect x="28" y="269" width="6" height="90" rx="2" fill="#d97706"/>
   <!-- 黃燈雙圈設計（保留） -->
   <circle cx="83" cy="314" r="20" fill="#fef3c7"/>
-  <circle cx="83" cy="314" r="12" fill="#d97706"/>
+  <circle cx="83" cy="314" r="12" fill="#d97706" opacity="0.15"/>
   <text x="116" y="312" font-size="22" font-weight="700" fill="#1e293b">黃燈｜待補強</text>
   <text x="116" y="333" font-size="16" fill="#57534e">制度存在但有執行缺口，或紀錄不完整。評鑑前 60 天完成改善。</text>
   <rect x="622" y="288" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>

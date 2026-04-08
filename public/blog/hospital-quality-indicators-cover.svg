@@ -9,13 +9,13 @@
   <text x="1010" y="318" text-anchor="middle" font-size="24" fill="#78716c" font-weight="600">品質指標選定四大標準</text>
 
   <!-- 右側資訊卡片 -->
-  <rect x="840" y="346" width="320" height="52" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="346" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="379" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">臨床意義 · 可測量性</text>
 
-  <rect x="840" y="408" width="320" height="52" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="408" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="441" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">改善可行性 · 三面向</text>
 
-  <rect x="840" y="470" width="320" height="52" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="470" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="503" text-anchor="middle" font-size="24" fill="#57534e" font-weight="700">臨床 × 效率 × 安全</text>
 
   <!-- 右側底部標籤 -->

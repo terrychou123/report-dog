@@ -9,19 +9,19 @@
   <text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">大常見缺失</text>
 
   <!-- 右側 2×2 資訊卡片（row1 y=299, row2 y=395, h=86） -->
-  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">前 5 項</text>
   <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">深度解析</text>
 
-  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1005" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">後 5 項</text>
   <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">快速補強</text>
 
-  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">多年度</text>
   <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">真實扣分紀錄</text>
 
-  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1005" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">快速解法</text>
   <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">每項附情境</text>
 

@@ -3,7 +3,7 @@
 
   <!-- Header y=29 h=90 -->
   <rect x="0" y="29" width="800" height="90" fill="white"/>
-  <rect x="0" y="29" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="29" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="84" font-size="36" fill="#1e293b" font-weight="700">1106 四類人力配置法定要求</text>
 
   <!-- Row 1: 社工師 #d97706 -->

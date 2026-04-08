@@ -4,7 +4,7 @@
 
   <!-- Header (y=50) -->
   <rect x="0" y="50" width="800" height="62" fill="white"/>
-  <rect x="0" y="50" width="6" height="62" fill="#d97706"/>
+  <rect x="0" y="50" width="6" height="62" fill="#d97706" rx="2"/>
   <text x="28" y="92" font-size="34" fill="#1e293b" font-weight="700">緊急應變演練必備紀錄</text>
 
   <!-- ===== Row 1 (y=160) 演練計畫書 #d97706 ===== -->

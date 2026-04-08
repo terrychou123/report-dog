@@ -9,7 +9,7 @@
   <rect x="590" y="0" width="20" height="630" fill="#f0efe8"/>
   <!-- VS 標誌 -->
   <circle cx="600" cy="315" r="52" fill="#1c1917"/>
-  <text x="600" y="328" font-size="28" font-weight="900" text-anchor="middle" fill="#ffffff">VS</text>
+  <text x="600" y="328" font-size="28" font-weight="900" text-anchor="middle" fill="#1c1917">VS</text>
   <!-- 左側 - 評鑑 -->
   <text x="280" y="120" font-size="44" font-weight="900" text-anchor="middle" fill="#d97706">定期評鑑</text>
   <rect x="80" y="148" width="400" height="240" rx="14" fill="#ffffff" opacity="0.85"/>

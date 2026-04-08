@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 右側裝飾區 -->
@@ -6,45 +6,45 @@
 
   <!-- 特色標籤 -->
   <rect x="60" y="60" width="80" height="32" rx="16" fill="#d97706"/>
-  <text x="100" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">A4.1</text>
+  <text x="100" y="81" font-size="16" fill="white" text-anchor="middle" >A4.1</text>
   <rect x="152" y="60" width="100" height="32" rx="16" fill="#78716c"/>
-  <text x="202" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">BLS急救</text>
+  <text x="202" y="81" font-size="16" fill="white" text-anchor="middle" >BLS急救</text>
   <rect x="264" y="60" width="100" height="32" rx="16" fill="#57534e"/>
-  <text x="314" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">在職教育</text>
+  <text x="314" y="81" font-size="16" fill="white" text-anchor="middle" >在職教育</text>
 
   <!-- 主標題第1行 -->
-  <text x="60" y="220" font-size="120" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">在職訓練</text>
+  <text x="60" y="220" font-size="120" fill="#1e293b"  font-weight="700">在職訓練</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="360" font-size="110" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">每人20小時</text>
+  <text x="60" y="360" font-size="110" fill="#d97706"  font-weight="700">每人20小時</text>
 
   <!-- 副標題 -->
-  <text x="60" y="430" font-size="34" fill="#57534e" font-family="'Noto Sans TC', sans-serif">A4.1教育訓練計畫：感控4小時與BLS達標策略</text>
+  <text x="60" y="430" font-size="34" fill="#57534e" >A4.1教育訓練計畫：感控4小時與BLS達標策略</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="460" x2="620" y2="460" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 右側大數字 -->
-  <text x="950" y="240" font-size="180" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700" opacity="0.12">20</text>
-  <text x="950" y="240" font-size="160" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">20</text>
-  <text x="950" y="290" font-size="26" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">小時每人每年</text>
+  <text x="950" y="240" font-size="180" fill="#d97706" text-anchor="middle"  font-weight="700" opacity="0.12">20</text>
+  <text x="950" y="240" font-size="160" fill="#d97706" text-anchor="middle"  font-weight="700">20</text>
+  <text x="950" y="290" font-size="26" fill="#78716c" text-anchor="middle" >小時每人每年</text>
 
   <!-- 右側 2×2 卡片 -->
   <rect x="760" y="320" width="180" height="70" rx="8" fill="white"/>
-  <text x="850" y="349" font-size="16" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">職前訓練</text>
-  <text x="850" y="373" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">16小時/月</text>
+  <text x="850" y="349" font-size="16" fill="#d97706" text-anchor="middle"  font-weight="700">職前訓練</text>
+  <text x="850" y="373" font-size="14" fill="#57534e" text-anchor="middle" >16小時/月</text>
 
   <rect x="960" y="320" width="180" height="70" rx="8" fill="white"/>
-  <text x="1050" y="349" font-size="16" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">在職訓練</text>
-  <text x="1050" y="373" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">20小時/年</text>
+  <text x="1050" y="349" font-size="16" fill="#78716c" text-anchor="middle"  font-weight="700">在職訓練</text>
+  <text x="1050" y="373" font-size="14" fill="#57534e" text-anchor="middle" >20小時/年</text>
 
   <rect x="760" y="404" width="180" height="70" rx="8" fill="white"/>
-  <text x="850" y="433" font-size="16" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">感控課程</text>
-  <text x="850" y="457" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">含4小時</text>
+  <text x="850" y="433" font-size="16" fill="#57534e" text-anchor="middle"  font-weight="700">感控課程</text>
+  <text x="850" y="457" font-size="14" fill="#57534e" text-anchor="middle" >含4小時</text>
 
   <rect x="960" y="404" width="180" height="70" rx="8" fill="white"/>
-  <text x="1050" y="433" font-size="16" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">BLS</text>
-  <text x="1050" y="457" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">50%護理師</text>
+  <text x="1050" y="433" font-size="16" fill="#a8a29e" text-anchor="middle"  font-weight="700">BLS</text>
+  <text x="1050" y="457" font-size="14" fill="#57534e" text-anchor="middle" >50%護理師</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

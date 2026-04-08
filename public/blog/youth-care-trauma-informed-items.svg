@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="29" width="744" height="62" rx="8" fill="#1e293b"/>
-  <text x="400" y="68" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">創傷知情照護對應評鑑項目</text>
+  <text x="400" y="68"  font-size="22" font-weight="700" fill="white" text-anchor="middle">創傷知情照護對應評鑑項目</text>
   <!-- Row 1 -->
   <rect x="28" y="118" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="148" r="16" fill="#d97706"/>
-  <text x="66" y="154" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">22</text>
-  <text x="100" y="142" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">在院生活輔導 — 個別化教養原則（1 分）</text>
-  <text x="100" y="165" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">重視個別差異、建立個別化教養原則，是創傷知情的核心體現</text>
-  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="152" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 22</text>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154"  font-size="14" font-weight="700" fill="white" text-anchor="middle">22</text>
+  <text x="100" y="142"  font-size="17" font-weight="600" fill="#1e293b">在院生活輔導 — 個別化教養原則（1 分）</text>
+  <text x="100" y="165"  font-size="14" fill="#78716c">重視個別差異、建立個別化教養原則，是創傷知情的核心體現</text>
+  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="152"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 22</text>
   <!-- Row 2 -->
   <rect x="28" y="191" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="191" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="221" r="16" fill="#d97706"/>
-  <text x="66" y="227" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">22</text>
-  <text x="100" y="215" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">在院生活輔導 — 確保人身安全措施（1 分）</text>
-  <text x="100" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">安全感是創傷復原的前提，評鑑人員會查核人身安全機制的落實情形</text>
-  <rect x="620" y="198" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="225" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 22</text>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="221" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="227"  font-size="14" font-weight="700" fill="white" text-anchor="middle">22</text>
+  <text x="100" y="215"  font-size="17" font-weight="600" fill="#1e293b">在院生活輔導 — 確保人身安全措施（1 分）</text>
+  <text x="100" y="238"  font-size="14" fill="#78716c">安全感是創傷復原的前提，評鑑人員會查核人身安全機制的落實情形</text>
+  <rect x="620" y="198" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="225"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">項目 22</text>
   <!-- Row 3 -->
   <rect x="28" y="264" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="264" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="294" r="16" fill="#78716c"/>
-  <text x="66" y="300" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
-  <text x="100" y="288" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">直接服務 — 兒童少年心理諮商輔導（1 分）</text>
-  <text x="100" y="311" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">心理諮商紀錄應反映創傷歷程，連結心理師評估與個案處遇計畫</text>
-  <rect x="620" y="271" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="298" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="294" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="300"  font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
+  <text x="100" y="288"  font-size="17" font-weight="600" fill="#1e293b">直接服務 — 兒童少年心理諮商輔導（1 分）</text>
+  <text x="100" y="311"  font-size="14" fill="#78716c">心理諮商紀錄應反映創傷歷程，連結心理師評估與個案處遇計畫</text>
+  <rect x="620" y="271" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="298"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
   <!-- Row 4 -->
   <rect x="28" y="337" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="337" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="367" r="16" fill="#78716c"/>
-  <text x="66" y="373" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
-  <text x="100" y="361" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">直接服務 — 特殊行為處理模式（1 分）</text>
-  <text x="100" y="384" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">從創傷視角理解行為觸發點，建立非懲罰性的特殊行為處理 SOP</text>
-  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="371" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="367" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="373"  font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
+  <text x="100" y="361"  font-size="17" font-weight="600" fill="#1e293b">直接服務 — 特殊行為處理模式（1 分）</text>
+  <text x="100" y="384"  font-size="14" fill="#78716c">從創傷視角理解行為觸發點，建立非懲罰性的特殊行為處理 SOP</text>
+  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="371"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">項目 24</text>
   <!-- Row 5 -->
   <rect x="28" y="410" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="410" width="6" height="60" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="440" r="16" fill="#57534e"/>
-  <text x="66" y="446" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
-  <text x="100" y="434" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">直接服務 — 個案處遇計畫與紀錄（1 分）</text>
-  <text x="100" y="457" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">處遇計畫需納入創傷史評估、安全計畫目標，並定期更新評估創傷復原進度</text>
-  <rect x="620" y="417" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="444" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">項目 24</text>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="440" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="446"  font-size="14" font-weight="700" fill="white" text-anchor="middle">24</text>
+  <text x="100" y="434"  font-size="17" font-weight="600" fill="#1e293b">直接服務 — 個案處遇計畫與紀錄（1 分）</text>
+  <text x="100" y="457"  font-size="14" fill="#78716c">處遇計畫需納入創傷史評估、安全計畫目標，並定期更新評估創傷復原進度</text>
+  <rect x="620" y="417" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="444"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">項目 24</text>
   <!-- Watermark -->
-  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16"  fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

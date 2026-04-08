@@ -51,7 +51,7 @@
   <!-- Row 5: 住宿型3.11重點項目 -->
   <rect x="28" y="396" width="744" height="54" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
   <rect x="28" y="396" width="6" height="54" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="423" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="423" r="16" fill="#dc2626"/>
   <text x="66" y="429" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="900">!</text>
   <text x="100" y="418" font-size="20" fill="#1e293b" font-weight="700">重3.11 維護住民出入自由（住宿型，PFM）</text>
   <text x="100" y="440" font-size="16" fill="#dc2626" font-weight="700">未達C級即評鑑不合格！機構應採開放式管理，不得以任何設施限制住民出入</text>

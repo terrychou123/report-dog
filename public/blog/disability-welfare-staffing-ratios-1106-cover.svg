@@ -6,16 +6,16 @@
   <text x="1010" y="300" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">分單項指標 1106</text>
   <rect x="840" y="326" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="359" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">人力配置法規全解析</text>
-  <rect x="840" y="388" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="388" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="418" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">社工師</text>
   <text x="914" y="444" font-size="18" fill="#a8a29e" text-anchor="middle">服務對象比</text>
-  <rect x="1000" y="388" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1000" y="388" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="418" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">護理師</text>
   <text x="1074" y="444" font-size="18" fill="#a8a29e" text-anchor="middle">班別規定</text>
-  <rect x="840" y="472" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="472" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="502" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">教保員</text>
   <text x="914" y="528" font-size="18" fill="#a8a29e" text-anchor="middle">直接服務比</text>
-  <rect x="1000" y="472" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1000" y="472" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="502" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="700">生活服務員</text>
   <text x="1074" y="528" font-size="18" fill="#a8a29e" text-anchor="middle">夜間人力</text>
   <text x="60" y="195" font-size="100" font-weight="900" fill="#1e293b">人力配置</text>

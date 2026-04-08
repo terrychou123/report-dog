@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">品質指標PDCA改善循環</text>
-  <text x="40" y="78" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif">從指標監測到改善措施的持續改善機制</text>
+  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" >品質指標PDCA改善循環</text>
+  <text x="40" y="78" font-size="22" fill="#57534e" >從指標監測到改善措施的持續改善機制</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- PDCA 循環中心圓 -->
   <circle cx="400" cy="295" r="55" fill="#f0efe8" stroke="#dedad3" stroke-width="3"/>
-  <text x="400" y="286" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">PDCA</text>
-  <text x="400" y="312" font-size="16" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">持續改善</text>
+  <text x="400" y="286" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" >PDCA</text>
+  <text x="400" y="312" font-size="16" fill="#57534e" text-anchor="middle" >持續改善</text>
 
   <!-- Plan 上方 -->
   <rect x="270" y="112" width="260" height="100" rx="12" fill="#d97706" opacity="0.12"/>
   <rect x="270" y="112" width="260" height="6" rx="3" fill="#d97706"/>
-  <text x="400" y="145" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">Plan（計畫）</text>
-  <text x="400" y="170" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">設定年度閾值</text>
-  <text x="400" y="192" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">制定監測計畫</text>
+  <text x="400" y="145" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" >Plan（計畫）</text>
+  <text x="400" y="170" font-size="14" fill="#57534e" text-anchor="middle" >設定年度閾值</text>
+  <text x="400" y="192" font-size="14" fill="#57534e" text-anchor="middle" >制定監測計畫</text>
   <!-- 箭頭下 -->
   <line x1="400" y1="212" x2="400" y2="238" stroke="#d97706" stroke-width="2" stroke-dasharray="4,3"/>
   <polygon points="393,238 407,238 400,248" fill="#d97706"/>
@@ -25,10 +25,10 @@
   <!-- Do 右方 -->
   <rect x="570" y="225" width="200" height="130" rx="12" fill="#78716c" opacity="0.12"/>
   <rect x="570" y="225" width="200" height="6" rx="3" fill="#78716c"/>
-  <text x="670" y="258" font-size="20" font-weight="bold" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">Do（執行）</text>
-  <text x="670" y="283" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每月蒐集</text>
-  <text x="670" y="303" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">指標資料</text>
-  <text x="670" y="323" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">逐案分析</text>
+  <text x="670" y="258" font-size="20" font-weight="bold" fill="#78716c" text-anchor="middle" >Do（執行）</text>
+  <text x="670" y="283" font-size="14" fill="#57534e" text-anchor="middle" >每月蒐集</text>
+  <text x="670" y="303" font-size="14" fill="#57534e" text-anchor="middle" >指標資料</text>
+  <text x="670" y="323" font-size="14" fill="#57534e" text-anchor="middle" >逐案分析</text>
   <!-- 箭頭左 -->
   <line x1="568" y1="295" x2="455" y2="295" stroke="#78716c" stroke-width="2" stroke-dasharray="4,3"/>
   <polygon points="455,288 455,302 445,295" fill="#78716c"/>
@@ -36,8 +36,8 @@
   <!-- Check 下方 -->
   <rect x="270" y="388" width="260" height="90" rx="12" fill="#57534e" opacity="0.12"/>
   <rect x="270" y="388" width="260" height="6" rx="3" fill="#57534e"/>
-  <text x="400" y="420" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">Check（查核）</text>
-  <text x="400" y="445" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">品質會議討論，比較閾值</text>
+  <text x="400" y="420" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" >Check（查核）</text>
+  <text x="400" y="445" font-size="14" fill="#57534e" text-anchor="middle" >品質會議討論，比較閾值</text>
   <!-- 箭頭上 -->
   <line x1="400" y1="386" x2="400" y2="352" stroke="#57534e" stroke-width="2" stroke-dasharray="4,3"/>
   <polygon points="393,352 407,352 400,342" fill="#57534e"/>
@@ -45,14 +45,14 @@
   <!-- Act 左方 -->
   <rect x="30" y="225" width="200" height="130" rx="12" fill="#a8a29e" opacity="0.12"/>
   <rect x="30" y="225" width="200" height="6" rx="3" fill="#a8a29e"/>
-  <text x="130" y="258" font-size="20" font-weight="bold" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">Act（改善）</text>
-  <text x="130" y="283" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">提出改善措施</text>
-  <text x="130" y="303" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">修訂作業流程</text>
-  <text x="130" y="323" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">更新辦法</text>
+  <text x="130" y="258" font-size="20" font-weight="bold" fill="#a8a29e" text-anchor="middle" >Act（改善）</text>
+  <text x="130" y="283" font-size="14" fill="#57534e" text-anchor="middle" >提出改善措施</text>
+  <text x="130" y="303" font-size="14" fill="#57534e" text-anchor="middle" >修訂作業流程</text>
+  <text x="130" y="323" font-size="14" fill="#57534e" text-anchor="middle" >更新辦法</text>
   <!-- 箭頭右 -->
   <line x1="232" y1="295" x2="345" y2="295" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,3"/>
   <polygon points="345,288 345,302 355,295" fill="#a8a29e"/>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#f8f7f4;stop-opacity:1" />
@@ -13,37 +13,37 @@
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de" />
 
   <!-- 右側大數字「7」 -->
-  <text x="990" y="240" font-family="'Noto Sans TC', sans-serif" font-size="200" font-weight="900" fill="#2563eb" opacity="0.18" text-anchor="middle">7</text>
-  <text x="990" y="245" font-family="'Noto Sans TC', sans-serif" font-size="200" font-weight="900" fill="#2563eb" opacity="0.9" text-anchor="middle" style="clip-path: inset(0 0 60% 0)">7</text>
+  <text x="990" y="240"  font-size="200" font-weight="900" fill="#2563eb" opacity="0.18" text-anchor="middle">7</text>
+  <text x="990" y="245"  font-size="200" font-weight="900" fill="#2563eb" opacity="0.9" text-anchor="middle" style="clip-path: inset(0 0 60% 0)">7</text>
 
   <!-- 右側副標 -->
-  <text x="990" y="290" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">大重點條文</text>
+  <text x="990" y="290"  font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">大重點條文</text>
 
   <!-- 右側卡片區塊 -->
   <!-- 卡片1 -->
   <rect x="848" y="320" width="305" height="68" rx="10" fill="#ffffff" opacity="0.85" />
   <rect x="848" y="320" width="6" height="68" rx="3" fill="#2563eb" />
-  <text x="868" y="348" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">入院評估 24h</text>
-  <text x="868" y="372" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">生理心理社會靈性四面向</text>
+  <text x="868" y="348"  font-size="16" font-weight="700" fill="#1e3a8a">入院評估 24h</text>
+  <text x="868" y="372"  font-size="13" fill="#57534e">生理心理社會靈性四面向</text>
 
   <!-- 卡片2 -->
   <rect x="848" y="400" width="305" height="68" rx="10" fill="#ffffff" opacity="0.85" />
   <rect x="848" y="400" width="6" height="68" rx="3" fill="#2563eb" />
-  <text x="868" y="428" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">個別化照護計畫</text>
-  <text x="868" y="452" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">跨專業團隊，家屬參與</text>
+  <text x="868" y="428"  font-size="16" font-weight="700" fill="#1e3a8a">個別化照護計畫</text>
+  <text x="868" y="452"  font-size="13" fill="#57534e">跨專業團隊，家屬參與</text>
 
   <!-- 卡片3 -->
   <rect x="848" y="480" width="305" height="68" rx="10" fill="#ffffff" opacity="0.85" />
   <rect x="848" y="480" width="6" height="68" rx="3" fill="#2563eb" />
-  <text x="868" y="508" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">跌倒壓傷雙預防</text>
-  <text x="868" y="532" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">量表評估 + 實地查核</text>
+  <text x="868" y="508"  font-size="16" font-weight="700" fill="#1e3a8a">跌倒壓傷雙預防</text>
+  <text x="868" y="532"  font-size="13" fill="#57534e">量表評估 + 實地查核</text>
 
   <!-- 左側主標題 -->
-  <text x="68" y="148" font-family="'Noto Sans TC', sans-serif" font-size="72" font-weight="900" fill="#1c1917">護理評估</text>
-  <text x="68" y="230" font-family="'Noto Sans TC', sans-serif" font-size="72" font-weight="900" fill="#2563eb">照護計畫</text>
+  <text x="68" y="148"  font-size="72" font-weight="900" fill="#1c1917">護理評估</text>
+  <text x="68" y="230"  font-size="72" font-weight="900" fill="#2563eb">照護計畫</text>
 
   <!-- 副標題 -->
-  <text x="68" y="282" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#57534e" font-weight="500">醫院評鑑 2.3 章 × 7 大重點條文 × AI 文書策略</text>
+  <text x="68" y="282"  font-size="24" fill="#57534e" font-weight="500">醫院評鑑 2.3 章 × 7 大重點條文 × AI 文書策略</text>
 
   <!-- 分隔線 -->
   <line x1="68" y1="308" x2="620" y2="308" stroke="#d6d3d1" stroke-width="1.5" />
@@ -51,29 +51,29 @@
   <!-- 特色標籤群組 -->
   <!-- 標籤1 -->
   <rect x="68" y="330" width="108" height="38" rx="19" fill="#2563eb" />
-  <text x="122" y="354" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">入院評估</text>
+  <text x="122" y="354"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">入院評估</text>
 
   <!-- 標籤2 -->
   <rect x="188" y="330" width="122" height="38" rx="19" fill="#1d4ed8" />
-  <text x="249" y="354" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">個別化計畫</text>
+  <text x="249" y="354"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">個別化計畫</text>
 
   <!-- 標籤3 -->
   <rect x="322" y="330" width="110" height="38" rx="19" fill="#1e40af" />
-  <text x="377" y="354" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">SBAR 交班</text>
+  <text x="377" y="354"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">SBAR 交班</text>
 
   <!-- 標籤4 -->
   <rect x="68" y="382" width="108" height="38" rx="19" fill="#3b82f6" />
-  <text x="122" y="406" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">跌倒預防</text>
+  <text x="122" y="406"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">跌倒預防</text>
 
   <!-- 標籤5 -->
   <rect x="188" y="382" width="108" height="38" rx="19" fill="#60a5fa" />
-  <text x="242" y="406" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">壓傷預防</text>
+  <text x="242" y="406"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">壓傷預防</text>
 
   <!-- 左下角說明文字 -->
-  <text x="68" y="480" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#78716c">醫院評鑑 2.3 章「醫療照護之執行與評估」</text>
-  <text x="68" y="508" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#78716c">共 16 項條文，其中 7 項為重點條文</text>
-  <text x="68" y="536" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#78716c">含資料查核、訪談與實地查核三種方式</text>
+  <text x="68" y="480"  font-size="20" fill="#78716c">醫院評鑑 2.3 章「醫療照護之執行與評估」</text>
+  <text x="68" y="508"  font-size="20" fill="#78716c">共 16 項條文，其中 7 項為重點條文</text>
+  <text x="68" y="536"  font-size="20" fill="#78716c">含資料查核、訪談與實地查核三種方式</text>
 
   <!-- 浮水印 -->
-  <text x="600" y="612" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+  <text x="600" y="612"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
 </svg>

@@ -52,7 +52,7 @@
   <!-- ===== Row 5（y=410）正確的時間 #9333ea ===== -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="410" width="6" height="60" rx="2" fill="#9333ea"/>
-  <circle cx="66" cy="440" r="16" fill="#9333ea" opacity="0.15"/>
+  <circle cx="66" cy="440" r="16" fill="#9333ea"/>
   <text x="66" y="446" font-size="16" fill="#9333ea" text-anchor="middle" font-weight="900">5對</text>
   <text x="100" y="433" font-size="20" fill="#1e293b" font-weight="700">正確的時間（Right Time）</text>
   <text x="100" y="457" font-size="16" fill="#57534e">依醫囑時間給藥，偏差超過30分鐘需記錄原因；給藥後立即在紀錄單上簽名，不得事先預簽</text>

@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header 左色條 -->
-  <rect x="50" y="38" width="6" height="80" rx="3" fill="#d97706"/>
+  <rect x="50" y="38" width="6" height="80" rx="2" fill="#d97706"/>
 
   <!-- Header 標題 -->
-  <text x="68" y="72" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="900" fill="#1e293b">病歷書寫時限規定</text>
-  <text x="68" y="106" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#64748b">各類病歷記錄完成期限｜超時是最常見評鑑缺失</text>
+  <text x="68" y="72"  font-size="32" font-weight="900" fill="#1e293b">病歷書寫時限規定</text>
+  <text x="68" y="106"  font-size="15" fill="#64748b">各類病歷記錄完成期限｜超時是最常見評鑑缺失</text>
 
   <!-- Row 1 -->
   <rect x="50" y="135" width="700" height="90" rx="10" fill="white"/>
-  <rect x="50" y="135" width="6" height="90" rx="3" fill="#d97706"/>
-  <text x="70" y="165" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#1e293b">入院病史與評估（24小時內）</text>
-  <text x="70" y="191" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">入院24小時內完成入院病史記錄及護理評估；住院前24小時內容</text>
-  <text x="70" y="211" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">是最常被抽查的時間段，記錄完整度直接影響評鑑結果</text>
+  <rect x="50" y="135" width="6" height="90" rx="2" fill="#d97706"/>
+  <text x="70" y="165"  font-size="18" font-weight="700" fill="#1e293b">入院病史與評估（24小時內）</text>
+  <text x="70" y="191"  font-size="13" fill="#64748b">入院24小時內完成入院病史記錄及護理評估；住院前24小時內容</text>
+  <text x="70" y="211"  font-size="13" fill="#64748b">是最常被抽查的時間段，記錄完整度直接影響評鑑結果</text>
   <!-- 右側標籤 -->
   <rect x="645" y="155" width="95" height="32" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-  <text x="692" y="176" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#92400e" text-anchor="middle">24hr</text>
+  <text x="692" y="176"  font-size="15" font-weight="800" fill="#92400e" text-anchor="middle">24hr</text>
 
   <!-- Row 2 -->
   <rect x="50" y="238" width="700" height="90" rx="10" fill="white"/>
-  <rect x="50" y="238" width="6" height="90" rx="3" fill="#78716c"/>
-  <text x="70" y="268" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#1e293b">手術紀錄（術後24小時內）</text>
-  <text x="70" y="294" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">手術紀錄由執刀醫師於術後24小時內完成，術前同意書須術前取得</text>
-  <text x="70" y="314" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">不得由非執刀醫師代簽；術後臨時醫囑亦需及時記錄</text>
+  <rect x="50" y="238" width="6" height="90" rx="2" fill="#78716c"/>
+  <text x="70" y="268"  font-size="18" font-weight="700" fill="#1e293b">手術紀錄（術後24小時內）</text>
+  <text x="70" y="294"  font-size="13" fill="#64748b">手術紀錄由執刀醫師於術後24小時內完成，術前同意書須術前取得</text>
+  <text x="70" y="314"  font-size="13" fill="#64748b">不得由非執刀醫師代簽；術後臨時醫囑亦需及時記錄</text>
   <!-- 右側標籤 -->
   <rect x="632" y="258" width="108" height="32" rx="16" fill="#f5f5f4" stroke="#78716c" stroke-width="2"/>
-  <text x="686" y="279" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#57534e" text-anchor="middle">24hr術後</text>
+  <text x="686" y="279"  font-size="14" font-weight="800" fill="#57534e" text-anchor="middle">24hr術後</text>
 
   <!-- Row 3 -->
   <rect x="50" y="341" width="700" height="90" rx="10" fill="white"/>
-  <rect x="50" y="341" width="6" height="90" rx="3" fill="#57534e"/>
-  <text x="70" y="371" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#1e293b">出院病歷摘要（出院後14天）</text>
-  <text x="70" y="397" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">出院病摘最遲於出院後14天完成；超時是1.4.1最常見的評鑑缺失</text>
-  <text x="70" y="417" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#64748b">建議第7天、第12天設系統提醒，逾期自動通知科主任</text>
+  <rect x="50" y="341" width="6" height="90" rx="2" fill="#57534e"/>
+  <text x="70" y="371"  font-size="18" font-weight="700" fill="#1e293b">出院病歷摘要（出院後14天）</text>
+  <text x="70" y="397"  font-size="13" fill="#64748b">出院病摘最遲於出院後14天完成；超時是1.4.1最常見的評鑑缺失</text>
+  <text x="70" y="417"  font-size="13" fill="#64748b">建議第7天、第12天設系統提醒，逾期自動通知科主任</text>
   <!-- 右側標籤 -->
   <rect x="630" y="361" width="110" height="32" rx="16" fill="#f5f5f4" stroke="#57534e" stroke-width="2"/>
-  <text x="685" y="382" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#44403c" text-anchor="middle">14天最遲</text>
+  <text x="685" y="382"  font-size="14" font-weight="800" fill="#44403c" text-anchor="middle">14天最遲</text>
 
   <!-- 浮水印 -->
-  <text x="50" y="480" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#94a3b8" opacity="0.8">報告汪 reportwang.com</text>
+  <text x="50" y="480"  font-size="13" fill="#94a3b8" opacity="0.8">報告汪 reportwang.com</text>
 </svg>

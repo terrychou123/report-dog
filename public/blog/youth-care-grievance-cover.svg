@@ -1,57 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
   <!-- Left panel -->
-  <text x="60" y="90" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#d97706" font-weight="700">112年度兒少安置機構評鑑｜項目 25</text>
-  <text x="60" y="165" font-family="'Noto Sans TC', sans-serif" font-size="46" fill="#1e293b" font-weight="900">兒少申訴機制</text>
-  <text x="60" y="225" font-family="'Noto Sans TC', sans-serif" font-size="46" fill="#1e293b" font-weight="900">怎麼建？</text>
-  <text x="60" y="290" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#d97706" font-weight="700">設計與紀錄完整指南</text>
+  <text x="60" y="90"  font-size="20" fill="#d97706" font-weight="700">112年度兒少安置機構評鑑｜項目 25</text>
+  <text x="60" y="165"  font-size="46" fill="#1e293b" font-weight="900">兒少申訴機制</text>
+  <text x="60" y="225"  font-size="46" fill="#1e293b" font-weight="900">怎麼建？</text>
+  <text x="60" y="290"  font-size="24" fill="#d97706" font-weight="700">設計與紀錄完整指南</text>
 
-  <text x="60" y="355" font-family="'Noto Sans TC', sans-serif" font-size="17" fill="#57534e">7 個評鑑標準逐一說明</text>
-  <text x="60" y="381" font-family="'Noto Sans TC', sans-serif" font-size="17" fill="#57534e">零用金管理與家庭會議實務要點</text>
+  <text x="60" y="355"  font-size="17" fill="#57534e">7 個評鑑標準逐一說明</text>
+  <text x="60" y="381"  font-size="17" fill="#57534e">零用金管理與家庭會議實務要點</text>
 
   <!-- Tag badges -->
   <rect x="60" y="425" width="130" height="38" rx="19" fill="#d97706"/>
-  <text x="125" y="449" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle">申訴機制</text>
+  <text x="125" y="449"  font-size="15" fill="white" text-anchor="middle">申訴機制</text>
 
   <rect x="205" y="425" width="130" height="38" rx="19" fill="#78716c"/>
-  <text x="270" y="449" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle">兒少權益</text>
+  <text x="270" y="449"  font-size="15" fill="white" text-anchor="middle">兒少權益</text>
 
   <rect x="350" y="425" width="130" height="38" rx="19" fill="#94a3b8"/>
-  <text x="415" y="449" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle">零用金管理</text>
+  <text x="415" y="449"  font-size="15" fill="white" text-anchor="middle">零用金管理</text>
 
   <!-- Right panel: 7 criteria visual -->
-  <text x="1010" y="80" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e" text-anchor="middle">7 個評鑑標準</text>
+  <text x="1010" y="80"  font-size="16" fill="#57534e" text-anchor="middle">7 個評鑑標準</text>
 
   <!-- 7 small boxes -->
   <rect x="870" y="100" width="130" height="44" rx="8" fill="#d97706" opacity="0.9"/>
-  <text x="935" y="127" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">兒少申訴管道</text>
+  <text x="935" y="127"  font-size="13" fill="white" text-anchor="middle" font-weight="700">兒少申訴管道</text>
 
   <rect x="1010" y="100" width="130" height="44" rx="8" fill="#d97706" opacity="0.7"/>
-  <text x="1075" y="127" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">家屬申訴管道</text>
+  <text x="1075" y="127"  font-size="13" fill="white" text-anchor="middle" font-weight="700">家屬申訴管道</text>
 
   <rect x="870" y="160" width="130" height="44" rx="8" fill="#78716c" opacity="0.9"/>
-  <text x="935" y="187" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">書面申訴紀錄</text>
+  <text x="935" y="187"  font-size="13" fill="white" text-anchor="middle" font-weight="700">書面申訴紀錄</text>
 
   <rect x="1010" y="160" width="130" height="44" rx="8" fill="#78716c" opacity="0.7"/>
-  <text x="1075" y="187" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">每月家庭會議</text>
+  <text x="1075" y="187"  font-size="13" fill="white" text-anchor="middle" font-weight="700">每月家庭會議</text>
 
   <rect x="870" y="220" width="130" height="44" rx="8" fill="#57534e" opacity="0.9"/>
-  <text x="935" y="247" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">無不當對待</text>
+  <text x="935" y="247"  font-size="13" fill="white" text-anchor="middle" font-weight="700">無不當對待</text>
 
   <rect x="1010" y="220" width="130" height="44" rx="8" fill="#57534e" opacity="0.7"/>
-  <text x="1075" y="247" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">零用金管理制度</text>
+  <text x="1075" y="247"  font-size="13" fill="white" text-anchor="middle" font-weight="700">零用金管理制度</text>
 
   <rect x="940" y="280" width="130" height="44" rx="8" fill="#a8a29e"/>
-  <text x="1005" y="307" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">零用金稽查</text>
+  <text x="1005" y="307"  font-size="13" fill="white" text-anchor="middle" font-weight="700">零用金稽查</text>
 
   <!-- Score display -->
-  <text x="1010" y="390" font-family="'Noto Sans TC', sans-serif" font-size="72" fill="#d97706" font-weight="900" text-anchor="middle">2</text>
-  <text x="1010" y="430" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="#57534e" text-anchor="middle">分項目</text>
-  <text x="1010" y="460" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">高扣分率</text>
-  <text x="1010" y="490" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">需全標準達標</text>
+  <text x="1010" y="390"  font-size="72" fill="#d97706" font-weight="900" text-anchor="middle">2</text>
+  <text x="1010" y="430"  font-size="20" fill="#57534e" text-anchor="middle">分項目</text>
+  <text x="1010" y="460"  font-size="14" fill="#a8a29e" text-anchor="middle">高扣分率</text>
+  <text x="1010" y="490"  font-size="14" fill="#a8a29e" text-anchor="middle">需全標準達標</text>
 
   <!-- Watermark -->
-  <text x="1140" y="600" font-family="'Noto Sans TC', sans-serif" font-size="24" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="1140" y="600"  font-size="24" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

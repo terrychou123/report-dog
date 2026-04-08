@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
 <rect width="800" height="500" fill="#f0efe8"/>
 <rect x="0" y="50" width="800" height="76" fill="white"/>
-<rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+<rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
 <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">主任/行政負責範疇</text>
 <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>

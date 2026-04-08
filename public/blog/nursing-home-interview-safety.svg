@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">安全類訪談問題</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">委員最常問環境安全負責人的三類問題</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">安全類訪談問題</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">委員最常問環境安全負責人的三類問題</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- Q1 -->
   <rect x="40" y="118" width="720" height="98" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <rect x="40" y="118" width="80" height="98" rx="8" fill="#d97706"/>
-  <text x="80" y="155" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C11</text>
-  <text x="80" y="180" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C12</text>
-  <text x="140" y="148" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">Q：如果現在發生火災，你的職責是什麼？</text>
-  <text x="140" y="174" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：說明自衛消防編組角色（通報、滅火、疏散）、各樓層住民疏散順序，</text>
-  <text x="140" y="198" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">夜間人力不足時的應變方式（C12 外籍照服員需參與防災訓練）</text>
+  <text x="80" y="155"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C11</text>
+  <text x="80" y="180"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C12</text>
+  <text x="140" y="148"  font-size="15" font-weight="700" fill="#d97706">Q：如果現在發生火災，你的職責是什麼？</text>
+  <text x="140" y="174"  font-size="14" fill="#57534e">答：說明自衛消防編組角色（通報、滅火、疏散）、各樓層住民疏散順序，</text>
+  <text x="140" y="198"  font-size="14" fill="#57534e">夜間人力不足時的應變方式（C12 外籍照服員需參與防災訓練）</text>
   <!-- Q2 -->
   <rect x="40" y="232" width="720" height="98" rx="8" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
   <rect x="40" y="232" width="80" height="98" rx="8" fill="#78716c"/>
-  <text x="80" y="287" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">C9</text>
-  <text x="140" y="262" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">Q：消防設備多久檢修一次？最近一次是什麼時候？</text>
-  <text x="140" y="290" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：每半年委託消防設備師定期檢修，期限內報請消防機關備查，</text>
-  <text x="140" y="314" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">備有前 2 次完整申報紀錄（C9 為一級必要項）</text>
+  <text x="80" y="287"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">C9</text>
+  <text x="140" y="262"  font-size="15" font-weight="700" fill="#78716c">Q：消防設備多久檢修一次？最近一次是什麼時候？</text>
+  <text x="140" y="290"  font-size="14" fill="#57534e">答：每半年委託消防設備師定期檢修，期限內報請消防機關備查，</text>
+  <text x="140" y="314"  font-size="14" fill="#57534e">備有前 2 次完整申報紀錄（C9 為一級必要項）</text>
   <!-- Q3 -->
   <rect x="40" y="346" width="720" height="98" rx="8" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
   <rect x="40" y="346" width="80" height="98" rx="8" fill="#57534e"/>
-  <text x="80" y="401" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">C4</text>
-  <text x="140" y="376" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e">Q：緊急呼叫設備測試頻率是多少？位置是否適當？</text>
-  <text x="140" y="404" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">答：寢室、浴室、廁所均設有緊急呼叫設備（一級必要），功能正常、位置適當，</text>
-  <text x="140" y="428" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">有人按鈴時服務人員能立即反應，說明定期測試頻率與記錄方式</text>
+  <text x="80" y="401"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">C4</text>
+  <text x="140" y="376"  font-size="15" font-weight="700" fill="#57534e">Q：緊急呼叫設備測試頻率是多少？位置是否適當？</text>
+  <text x="140" y="404"  font-size="14" fill="#57534e">答：寢室、浴室、廁所均設有緊急呼叫設備（一級必要），功能正常、位置適當，</text>
+  <text x="140" y="428"  font-size="14" fill="#57534e">有人按鈴時服務人員能立即反應，說明定期測試頻率與記錄方式</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -4,11 +4,11 @@
 
   <!-- Header（y=38, h=90） -->
   <rect x="0" y="38" width="800" height="90" fill="white"/>
-  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="95" font-size="36" fill="#1e293b" font-weight="700">行政管理佐證清單（指標 1-11）</text>
 
   <!-- Row 0（y=166）#d97706 琥珀 -->
-  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
@@ -20,7 +20,7 @@
   <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">優先準備</text>
 
   <!-- Row 1（y=269）#78716c 暖灰 -->
-  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">B</text>
@@ -32,7 +32,7 @@
   <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">逐人核對</text>
 
   <!-- Row 2（y=372）#57534e 深棕 -->
-  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">C</text>

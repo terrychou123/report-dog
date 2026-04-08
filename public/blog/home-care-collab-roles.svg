@@ -1,56 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
   <rect x="0" y="50" width="800" height="76" fill="white"/>
-  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
-  <text x="28" y="104" font-family="sans-serif" font-size="44" font-weight="700" fill="#1e293b">三大角色評鑑分工</text>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
+  <text x="28" y="104"  font-size="44" font-weight="700" fill="#1e293b">三大角色評鑑分工</text>
 
   <!-- Row 1: 機構主管 -->
   <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="197" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#d97706">1</text>
-  <text x="100" y="188" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">機構主管</text>
-  <text x="100" y="208" font-family="sans-serif" font-size="16" fill="#57534e">行政管理、人力配置、財務、自評等</text>
+  <text x="66" y="197"  font-size="16" font-weight="900" text-anchor="middle" fill="#d97706">1</text>
+  <text x="100" y="188"  font-size="22" font-weight="700" fill="#1e293b">機構主管</text>
+  <text x="100" y="208"  font-size="16" fill="#57534e">行政管理、人力配置、財務、自評等</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="185" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#d97706">15項</text>
-  <text x="688" y="205" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#d97706">項目15-30</text>
+  <text x="688" y="185"  font-size="16" text-anchor="middle" fill="#d97706">15項</text>
+  <text x="688" y="205"  font-size="16" text-anchor="middle" fill="#d97706">項目15-30</text>
 
   <!-- Row 2: 社工/督導 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="272" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#78716c">2</text>
-  <text x="100" y="263" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">社工/督導</text>
-  <text x="100" y="283" font-family="sans-serif" font-size="16" fill="#57534e">個案計畫、家屬溝通、滿意度調查等</text>
+  <text x="66" y="272"  font-size="16" font-weight="900" text-anchor="middle" fill="#78716c">2</text>
+  <text x="100" y="263"  font-size="22" font-weight="700" fill="#1e293b">社工/督導</text>
+  <text x="100" y="283"  font-size="16" fill="#57534e">個案計畫、家屬溝通、滿意度調查等</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="260" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#78716c">7項</text>
-  <text x="688" y="280" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#78716c">項目2,4-7,11,28</text>
+  <text x="688" y="260"  font-size="16" text-anchor="middle" fill="#78716c">7項</text>
+  <text x="688" y="280"  font-size="16" text-anchor="middle" fill="#78716c">項目2,4-7,11,28</text>
 
   <!-- Row 3: 照顧服務員 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="347" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#57534e">3</text>
-  <text x="100" y="338" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">照顧服務員</text>
-  <text x="100" y="358" font-family="sans-serif" font-size="16" fill="#57534e">服務紀錄、身體照顧、日常生活協助</text>
+  <text x="66" y="347"  font-size="16" font-weight="900" text-anchor="middle" fill="#57534e">3</text>
+  <text x="100" y="338"  font-size="22" font-weight="700" fill="#1e293b">照顧服務員</text>
+  <text x="100" y="358"  font-size="16" fill="#57534e">服務紀錄、身體照顧、日常生活協助</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="335" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#57534e">5項</text>
-  <text x="688" y="355" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#57534e">項目8,9,13</text>
+  <text x="688" y="335"  font-size="16" text-anchor="middle" fill="#57534e">5項</text>
+  <text x="688" y="355"  font-size="16" text-anchor="middle" fill="#57534e">項目8,9,13</text>
 
   <!-- Row 4: 全體共同 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="422" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#a8a29e">4</text>
-  <text x="100" y="413" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">全體共同</text>
-  <text x="100" y="433" font-family="sans-serif" font-size="16" fill="#57534e">隱私保護、緊急事件、感染管制等</text>
+  <text x="66" y="422"  font-size="16" font-weight="900" text-anchor="middle" fill="#a8a29e">4</text>
+  <text x="100" y="413"  font-size="22" font-weight="700" fill="#1e293b">全體共同</text>
+  <text x="100" y="433"  font-size="16" fill="#57534e">隱私保護、緊急事件、感染管制等</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="410" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#a8a29e">5項</text>
-  <text x="688" y="430" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#a8a29e">項目3,10,26</text>
+  <text x="688" y="410"  font-size="16" text-anchor="middle" fill="#a8a29e">5項</text>
+  <text x="688" y="430"  font-size="16" text-anchor="middle" fill="#a8a29e">項目3,10,26</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-family="sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

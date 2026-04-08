@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">數位化導入四步驟流程</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">漸進式導入策略，避免全面換轉的不適應</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">數位化導入四步驟流程</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">漸進式導入策略，避免全面換轉的不適應</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 步驟1 -->
   <rect x="60" y="130" width="145" height="195" rx="14" fill="#d97706"/>
-  <text x="132" y="192" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="132" y="226" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">現況盤點</text>
-  <text x="132" y="252" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">第 1-2 週</text>
-  <text x="132" y="274" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">文件清單</text>
-  <text x="132" y="294" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">負責人確認</text>
-  <text x="132" y="314" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#fff3cd" text-anchor="middle">更新頻率</text>
+  <text x="132" y="192"  font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="132" y="226"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">現況盤點</text>
+  <text x="132" y="252"  font-size="13" fill="#fff3cd" text-anchor="middle">第 1-2 週</text>
+  <text x="132" y="274"  font-size="13" fill="#fff3cd" text-anchor="middle">文件清單</text>
+  <text x="132" y="294"  font-size="13" fill="#fff3cd" text-anchor="middle">負責人確認</text>
+  <text x="132" y="314"  font-size="13" fill="#fff3cd" text-anchor="middle">更新頻率</text>
   <!-- 箭頭 -->
   <polygon points="213,228 228,238 213,248" fill="#78716c"/>
   <line x1="205" y1="238" x2="226" y2="238" stroke="#78716c" stroke-width="2"/>
   <!-- 步驟2 -->
   <rect x="240" y="130" width="145" height="195" rx="14" fill="#78716c"/>
-  <text x="312" y="192" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="312" y="226" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">選工具設置</text>
-  <text x="312" y="252" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">第 3-4 週</text>
-  <text x="312" y="274" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">選擇平台</text>
-  <text x="312" y="294" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">設置分類架構</text>
-  <text x="312" y="314" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">訂資訊規範</text>
+  <text x="312" y="192"  font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="312" y="226"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">選工具設置</text>
+  <text x="312" y="252"  font-size="13" fill="#d4ccc8" text-anchor="middle">第 3-4 週</text>
+  <text x="312" y="274"  font-size="13" fill="#d4ccc8" text-anchor="middle">選擇平台</text>
+  <text x="312" y="294"  font-size="13" fill="#d4ccc8" text-anchor="middle">設置分類架構</text>
+  <text x="312" y="314"  font-size="13" fill="#d4ccc8" text-anchor="middle">訂資訊規範</text>
   <!-- 箭頭 -->
   <polygon points="393,228 408,238 393,248" fill="#57534e"/>
   <line x1="385" y1="238" x2="406" y2="238" stroke="#57534e" stroke-width="2"/>
   <!-- 步驟3 -->
   <rect x="420" y="130" width="145" height="195" rx="14" fill="#57534e"/>
-  <text x="492" y="192" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="492" y="226" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">遷移與訓練</text>
-  <text x="492" y="252" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">第 5-8 週</text>
-  <text x="492" y="274" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">紙本數位化</text>
-  <text x="492" y="294" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">人員操作訓練</text>
-  <text x="492" y="314" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d4ccc8" text-anchor="middle">從常更新項開始</text>
+  <text x="492" y="192"  font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="492" y="226"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">遷移與訓練</text>
+  <text x="492" y="252"  font-size="13" fill="#d4ccc8" text-anchor="middle">第 5-8 週</text>
+  <text x="492" y="274"  font-size="13" fill="#d4ccc8" text-anchor="middle">紙本數位化</text>
+  <text x="492" y="294"  font-size="13" fill="#d4ccc8" text-anchor="middle">人員操作訓練</text>
+  <text x="492" y="314"  font-size="13" fill="#d4ccc8" text-anchor="middle">從常更新項開始</text>
   <!-- 箭頭 -->
   <polygon points="573,228 588,238 573,248" fill="#94a3b8"/>
   <line x1="565" y1="238" x2="586" y2="238" stroke="#94a3b8" stroke-width="2"/>
   <!-- 步驟4 -->
   <rect x="600" y="130" width="140" height="195" rx="14" fill="#94a3b8"/>
-  <text x="670" y="192" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="670" y="226" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">試行修正</text>
-  <text x="670" y="252" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">第 9-12 週</text>
-  <text x="670" y="274" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">正式投入使用</text>
-  <text x="670" y="294" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">每月收集回饋</text>
-  <text x="670" y="314" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#e2e8f0" text-anchor="middle">調整優化流程</text>
+  <text x="670" y="192"  font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="670" y="226"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">試行修正</text>
+  <text x="670" y="252"  font-size="13" fill="#e2e8f0" text-anchor="middle">第 9-12 週</text>
+  <text x="670" y="274"  font-size="13" fill="#e2e8f0" text-anchor="middle">正式投入使用</text>
+  <text x="670" y="294"  font-size="13" fill="#e2e8f0" text-anchor="middle">每月收集回饋</text>
+  <text x="670" y="314"  font-size="13" fill="#e2e8f0" text-anchor="middle">調整優化流程</text>
   <!-- 底部說明 -->
   <rect x="40" y="348" width="720" height="50" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-  <text x="400" y="368" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">12 週完成基礎數位化，下次評鑑開始前已能全面運用</text>
-  <text x="400" y="388" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">建議採「紙本 + 數位雙軌並行」過渡策略，確認系統穩定後再完全轉換</text>
+  <text x="400" y="368"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">12 週完成基礎數位化，下次評鑑開始前已能全面運用</text>
+  <text x="400" y="388"  font-size="14" fill="#57534e" text-anchor="middle">建議採「紙本 + 數位雙軌並行」過渡策略，確認系統穩定後再完全轉換</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

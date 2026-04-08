@@ -1,57 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
   <!-- 左側主標題區 -->
   <!-- 主標題第1行（黑色） -->
-  <text x="80" y="180" font-size="100" font-weight="700" fill="#1e293b" font-family="sans-serif">膳食管理</text>
+  <text x="80" y="180" font-size="100" font-weight="700" fill="#1e293b" >膳食管理</text>
   <!-- 主標題第2行（琥珀色） -->
-  <text x="80" y="295" font-size="100" font-weight="700" fill="#d97706" font-family="sans-serif">B28-B31 攻略</text>
+  <text x="80" y="295" font-size="100" font-weight="700" fill="#d97706" >B28-B31 攻略</text>
 
   <!-- 副標題 -->
-  <text x="80" y="360" font-size="36" fill="#57534e" font-family="sans-serif">營養師菜單、個別化飲食、管灌護理，評鑑不扣分</text>
+  <text x="80" y="360" font-size="36" fill="#57534e" >營養師菜單、個別化飲食、管灌護理，評鑑不扣分</text>
 
   <!-- Pill 標籤 -->
   <!-- pill 1: B28-B31指標 -->
   <rect x="80" y="400" width="192" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="176" y="428" font-size="21" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">B28-B31指標</text>
+  <text x="176" y="428" font-size="21" fill="#d97706" text-anchor="middle" font-weight="600" >B28-B31指標</text>
 
   <!-- pill 2: 菜單設計 -->
   <rect x="288" y="400" width="156" height="44" rx="22" fill="#78716c" opacity="0.15"/>
-  <text x="366" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">菜單設計</text>
+  <text x="366" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" >菜單設計</text>
 
   <!-- pill 3: 個別化飲食 -->
   <rect x="460" y="400" width="192" height="44" rx="22" fill="#57534e" opacity="0.15"/>
-  <text x="556" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">個別化飲食</text>
+  <text x="556" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" >個別化飲食</text>
 
   <!-- pill 4: 管灌技術 -->
   <rect x="668" y="400" width="156" height="44" rx="22" fill="#78716c" opacity="0.15"/>
-  <text x="746" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">管灌技術</text>
+  <text x="746" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" >管灌技術</text>
 
   <!-- 右側裝飾：4個指標圓圈 -->
   <!-- B28 圓 -->
   <circle cx="980" cy="160" r="70" fill="#d97706" opacity="0.12"/>
-  <text x="980" y="150" font-size="28" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">B28</text>
-  <text x="980" y="182" font-size="18" fill="#57534e" text-anchor="middle" font-family="sans-serif">膳食管理</text>
+  <text x="980" y="150" font-size="28" font-weight="700" fill="#d97706" text-anchor="middle" >B28</text>
+  <text x="980" y="182" font-size="18" fill="#57534e" text-anchor="middle" >膳食管理</text>
 
   <!-- B29 圓 -->
   <circle cx="1110" cy="220" r="70" fill="#78716c" opacity="0.12"/>
-  <text x="1110" y="210" font-size="28" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">B29</text>
-  <text x="1110" y="242" font-size="18" fill="#57534e" text-anchor="middle" font-family="sans-serif">個別化飲食</text>
+  <text x="1110" y="210" font-size="28" font-weight="700" fill="#78716c" text-anchor="middle" >B29</text>
+  <text x="1110" y="242" font-size="18" fill="#57534e" text-anchor="middle" >個別化飲食</text>
 
   <!-- B30 圓 -->
   <circle cx="950" cy="330" r="60" fill="#57534e" opacity="0.1"/>
-  <text x="950" y="320" font-size="26" font-weight="700" fill="#57534e" text-anchor="middle" font-family="sans-serif">B30</text>
-  <text x="950" y="348" font-size="16" fill="#57534e" text-anchor="middle" font-family="sans-serif">點心供應</text>
+  <text x="950" y="320" font-size="26" font-weight="700" fill="#57534e" text-anchor="middle" >B30</text>
+  <text x="950" y="348" font-size="16" fill="#57534e" text-anchor="middle" >點心供應</text>
 
   <!-- B31 圓 -->
   <circle cx="1090" cy="390" r="65" fill="#a8a29e" opacity="0.15"/>
-  <text x="1090" y="380" font-size="26" font-weight="700" fill="#78716c" text-anchor="middle" font-family="sans-serif">B31</text>
-  <text x="1090" y="405" font-size="16" fill="#57534e" text-anchor="middle" font-family="sans-serif">管灌護理</text>
+  <text x="1090" y="380" font-size="26" font-weight="700" fill="#78716c" text-anchor="middle" >B31</text>
+  <text x="1090" y="405" font-size="16" fill="#57534e" text-anchor="middle" >管灌護理</text>
 
   <!-- 底部裝飾線 -->
   <rect x="80" y="490" width="480" height="4" rx="2" fill="#d97706" opacity="0.4"/>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -1,67 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 (N=5: y=29, h=60) -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
-  <text x="28" y="76" font-family="sans-serif" font-size="36" font-weight="700" fill="#1e293b">第 3 個月：確認整備</text>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
+  <text x="28" y="76"  font-size="36" font-weight="700" fill="#1e293b">第 3 個月：確認整備</text>
 
   <!-- Row 1: y=118, 服務紀錄抽查 -->
   <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
   <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="154" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#d97706">1</text>
-  <text x="100" y="145" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">服務紀錄抽查</text>
-  <text x="100" y="165" font-family="sans-serif" font-size="16" fill="#57534e">抽查近3個月服務紀錄品質</text>
+  <text x="66" y="154"  font-size="16" font-weight="900" text-anchor="middle" fill="#d97706">1</text>
+  <text x="100" y="145"  font-size="22" font-weight="700" fill="#1e293b">服務紀錄抽查</text>
+  <text x="100" y="165"  font-size="16" fill="#57534e">抽查近3個月服務紀錄品質</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="143" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#d97706">項目13</text>
-  <text x="688" y="162" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#d97706">第9-12週</text>
+  <text x="688" y="143"  font-size="16" text-anchor="middle" fill="#d97706">項目13</text>
+  <text x="688" y="162"  font-size="16" text-anchor="middle" fill="#d97706">第9-12週</text>
 
   <!-- Row 2: y=191, 品質改善計畫 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="227" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#78716c">2</text>
-  <text x="100" y="218" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">品質改善計畫</text>
-  <text x="100" y="238" font-family="sans-serif" font-size="16" fill="#57534e">針對自評發現缺失制定改善對策</text>
+  <text x="66" y="227"  font-size="16" font-weight="900" text-anchor="middle" fill="#78716c">2</text>
+  <text x="100" y="218"  font-size="22" font-weight="700" fill="#1e293b">品質改善計畫</text>
+  <text x="100" y="238"  font-size="16" fill="#57534e">針對自評發現缺失制定改善對策</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="216" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#78716c">項目27</text>
-  <text x="688" y="235" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#78716c">第9-12週</text>
+  <text x="688" y="216"  font-size="16" text-anchor="middle" fill="#78716c">項目27</text>
+  <text x="688" y="235"  font-size="16" text-anchor="middle" fill="#78716c">第9-12週</text>
 
   <!-- Row 3: y=264, 人員資格查核 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="300" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#57534e">3</text>
-  <text x="100" y="291" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">人員資格查核</text>
-  <text x="100" y="311" font-family="sans-serif" font-size="16" fill="#57534e">確認照服員資格文件齊全有效</text>
+  <text x="66" y="300"  font-size="16" font-weight="900" text-anchor="middle" fill="#57534e">3</text>
+  <text x="100" y="291"  font-size="22" font-weight="700" fill="#1e293b">人員資格查核</text>
+  <text x="100" y="311"  font-size="16" fill="#57534e">確認照服員資格文件齊全有效</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="289" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#57534e">項目17</text>
-  <text x="688" y="308" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#57534e">第9-12週</text>
+  <text x="688" y="289"  font-size="16" text-anchor="middle" fill="#57534e">項目17</text>
+  <text x="688" y="308"  font-size="16" text-anchor="middle" fill="#57534e">第9-12週</text>
 
   <!-- Row 4: y=337, 感染管制確認 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="373" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#a8a29e">4</text>
-  <text x="100" y="364" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">感染管制確認</text>
-  <text x="100" y="384" font-family="sans-serif" font-size="16" fill="#57534e">感染管制SOP及手衛生文件備妥</text>
+  <text x="66" y="373"  font-size="16" font-weight="900" text-anchor="middle" fill="#a8a29e">4</text>
+  <text x="100" y="364"  font-size="22" font-weight="700" fill="#1e293b">感染管制確認</text>
+  <text x="100" y="384"  font-size="16" fill="#57534e">感染管制SOP及手衛生文件備妥</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="362" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#a8a29e">項目26</text>
-  <text x="688" y="381" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#a8a29e">第9-12週</text>
+  <text x="688" y="362"  font-size="16" text-anchor="middle" fill="#a8a29e">項目26</text>
+  <text x="688" y="381"  font-size="16" text-anchor="middle" fill="#a8a29e">第9-12週</text>
 
   <!-- Row 5: y=410, 收費資訊公告 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
-  <text x="66" y="446" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="#94a3b8">5</text>
-  <text x="100" y="437" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e293b">收費資訊公告</text>
-  <text x="100" y="457" font-family="sans-serif" font-size="16" fill="#57534e">服務費率及收退費規定已公告</text>
+  <text x="66" y="446"  font-size="16" font-weight="900" text-anchor="middle" fill="#94a3b8">5</text>
+  <text x="100" y="437"  font-size="22" font-weight="700" fill="#1e293b">收費資訊公告</text>
+  <text x="100" y="457"  font-size="16" fill="#57534e">服務費率及收退費規定已公告</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="435" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">項目22</text>
-  <text x="688" y="454" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">第9-12週</text>
+  <text x="688" y="435"  font-size="16" text-anchor="middle" fill="#94a3b8">項目22</text>
+  <text x="688" y="454"  font-size="16" text-anchor="middle" fill="#94a3b8">第9-12週</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="492" font-family="sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="492"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

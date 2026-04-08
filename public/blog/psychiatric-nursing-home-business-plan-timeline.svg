@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 主標題 -->
-  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">業務計畫年度管理時程</text>
+  <text x="40" y="48" font-size="32" fill="#1e293b"  font-weight="bold">業務計畫年度管理時程</text>
   <!-- 副標題 -->
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">從計畫訂定到年度檢討的循環管理</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >從計畫訂定到年度檢討的循環管理</text>
   <!-- 分隔線 -->
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
@@ -13,42 +13,42 @@
   <line x1="100" y1="280" x2="700" y2="280" stroke="#c4bfb8" stroke-width="4"/>
 
   <!-- 節點1 -->
-  <circle cx="150" cy="280" r="22" fill="#d97706"/>
-  <text x="150" y="286" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">1</text>
+  <circle cx="150" cy="280" r="22" fill="#d97706" opacity="0.15"/>
+  <text x="150" y="286" font-size="18" fill="white" text-anchor="middle"  font-weight="bold">1</text>
   <!-- 節點1上方說明 -->
   <rect x="60" y="128" width="180" height="130" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="150" y="152" font-size="16" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">年初（1-3月）</text>
+  <text x="150" y="152" font-size="16" fill="#d97706" text-anchor="middle"  font-weight="bold">年初（1-3月）</text>
   <line x1="100" y1="160" x2="200" y2="160" stroke="#d97706" stroke-width="1" opacity="0.4"/>
-  <text x="150" y="180" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">完成年度業務計畫</text>
-  <text x="150" y="200" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">召開監督/經營</text>
-  <text x="150" y="220" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">團隊會議</text>
-  <text x="150" y="240" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">訂定目標</text>
+  <text x="150" y="180" font-size="14" fill="#57534e" text-anchor="middle" >完成年度業務計畫</text>
+  <text x="150" y="200" font-size="14" fill="#57534e" text-anchor="middle" >召開監督/經營</text>
+  <text x="150" y="220" font-size="14" fill="#57534e" text-anchor="middle" >團隊會議</text>
+  <text x="150" y="240" font-size="14" fill="#57534e" text-anchor="middle" >訂定目標</text>
   <!-- 連接線 -->
   <line x1="150" y1="258" x2="150" y2="258" stroke="#d97706" stroke-width="2"/>
 
   <!-- 節點2 -->
-  <circle cx="400" cy="280" r="22" fill="#78716c"/>
-  <text x="400" y="286" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">2</text>
+  <circle cx="400" cy="280" r="22" fill="#78716c" opacity="0.15"/>
+  <text x="400" y="286" font-size="18" fill="white" text-anchor="middle"  font-weight="bold">2</text>
   <!-- 節點2下方說明 -->
   <rect x="310" y="322" width="180" height="120" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="400" y="346" font-size="16" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">期中（6-8月）</text>
+  <text x="400" y="346" font-size="16" fill="#78716c" text-anchor="middle"  font-weight="bold">期中（6-8月）</text>
   <line x1="340" y1="354" x2="460" y2="354" stroke="#78716c" stroke-width="1" opacity="0.4"/>
-  <text x="400" y="374" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行情形追蹤</text>
-  <text x="400" y="394" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">必要時修訂計畫</text>
-  <text x="400" y="414" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">紀錄進度</text>
+  <text x="400" y="374" font-size="14" fill="#57534e" text-anchor="middle" >執行情形追蹤</text>
+  <text x="400" y="394" font-size="14" fill="#57534e" text-anchor="middle" >必要時修訂計畫</text>
+  <text x="400" y="414" font-size="14" fill="#57534e" text-anchor="middle" >紀錄進度</text>
 
   <!-- 節點3 -->
-  <circle cx="650" cy="280" r="22" fill="#57534e"/>
-  <text x="650" y="286" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">3</text>
+  <circle cx="650" cy="280" r="22" fill="#57534e" opacity="0.15"/>
+  <text x="650" y="286" font-size="18" fill="white" text-anchor="middle"  font-weight="bold">3</text>
   <!-- 節點3上方說明 -->
   <rect x="560" y="128" width="180" height="130" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="650" y="152" font-size="16" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">年底（10-12月）</text>
+  <text x="650" y="152" font-size="16" fill="#57534e" text-anchor="middle"  font-weight="bold">年底（10-12月）</text>
   <line x1="600" y1="160" x2="700" y2="160" stroke="#57534e" stroke-width="1" opacity="0.4"/>
-  <text x="650" y="180" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">年度成果</text>
-  <text x="650" y="200" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">檢討分析</text>
-  <text x="650" y="220" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">提出改善措施</text>
-  <text x="650" y="240" font-size="14" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">準備下年度計畫</text>
+  <text x="650" y="180" font-size="14" fill="#57534e" text-anchor="middle" >年度成果</text>
+  <text x="650" y="200" font-size="14" fill="#57534e" text-anchor="middle" >檢討分析</text>
+  <text x="650" y="220" font-size="14" fill="#57534e" text-anchor="middle" >提出改善措施</text>
+  <text x="650" y="240" font-size="14" fill="#57534e" text-anchor="middle" >準備下年度計畫</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

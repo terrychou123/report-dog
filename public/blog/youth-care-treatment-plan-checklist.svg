@@ -5,7 +5,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄 -->
-  <rect x="40" y="108" width="6" height="24" rx="3" fill="#d97706"/>
+  <rect x="40" y="108" width="6" height="24" rx="2" fill="#d97706"/>
   <text x="54" y="125" font-size="20" fill="#1e293b" font-weight="700">個案計畫完整性</text>
 
   <!-- 左欄項目 -->
@@ -23,7 +23,7 @@
   <rect x="64" y="220" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
   <text x="94" y="236" font-size="18" fill="#1e293b">計畫與生活紀錄相互對應</text>
 
-  <rect x="40" y="258" width="6" height="24" rx="3" fill="#78716c"/>
+  <rect x="40" y="258" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="54" y="275" font-size="20" fill="#1e293b" font-weight="700">直接服務紀錄</text>
 
   <rect x="64" y="287" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
@@ -40,7 +40,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄 -->
-  <rect x="420" y="108" width="6" height="24" rx="3" fill="#57534e"/>
+  <rect x="420" y="108" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="434" y="125" font-size="20" fill="#1e293b" font-weight="700">原生家庭與資源連結</text>
 
   <rect x="444" y="136" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
@@ -53,7 +53,7 @@
   <rect x="444" y="192" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
   <text x="474" y="208" font-size="18" fill="#1e293b">資源網絡清冊更新</text>
 
-  <rect x="420" y="230" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <rect x="420" y="230" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="434" y="247" font-size="20" fill="#1e293b" font-weight="700">文件整理與索引</text>
 
   <rect x="444" y="258" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>

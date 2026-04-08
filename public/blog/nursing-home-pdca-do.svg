@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">Do 執行階段</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">四個關鍵動作確保改善落地並留存軌跡</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">Do 執行階段</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">四個關鍵動作確保改善落地並留存軌跡</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 流程卡片 1 -->
   <rect x="40" y="118" width="160" height="160" rx="12" fill="#d97706"/>
-  <text x="120" y="170" font-family="'Noto Sans TC', sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="120" y="204" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">指定</text>
-  <text x="120" y="226" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">負責人</text>
-  <text x="120" y="258" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#fff3cd" text-anchor="middle">每項缺失專人</text>
+  <text x="120" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="120" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">指定</text>
+  <text x="120" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">負責人</text>
+  <text x="120" y="258"  font-size="14" fill="#fff3cd" text-anchor="middle">每項缺失專人</text>
   <!-- 箭頭 -->
-  <text x="222" y="206" font-family="'Noto Sans TC', sans-serif" font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
+  <text x="222" y="206"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 流程卡片 2 -->
   <rect x="240" y="118" width="160" height="160" rx="12" fill="#78716c"/>
-  <text x="320" y="170" font-family="'Noto Sans TC', sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="320" y="204" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">設立</text>
-  <text x="320" y="226" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">里程碑</text>
-  <text x="320" y="258" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">拆分可追蹤步驟</text>
+  <text x="320" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="320" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">設立</text>
+  <text x="320" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">里程碑</text>
+  <text x="320" y="258"  font-size="14" fill="#d4ccc8" text-anchor="middle">拆分可追蹤步驟</text>
   <!-- 箭頭 -->
-  <text x="422" y="206" font-family="'Noto Sans TC', sans-serif" font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
+  <text x="422" y="206"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 流程卡片 3 -->
   <rect x="440" y="118" width="160" height="160" rx="12" fill="#57534e"/>
-  <text x="520" y="170" font-family="'Noto Sans TC', sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="520" y="204" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">拍照</text>
-  <text x="520" y="226" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">佐證</text>
-  <text x="520" y="258" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#d4ccc8" text-anchor="middle">改善前後對比照</text>
+  <text x="520" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="520" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">拍照</text>
+  <text x="520" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">佐證</text>
+  <text x="520" y="258"  font-size="14" fill="#d4ccc8" text-anchor="middle">改善前後對比照</text>
   <!-- 箭頭 -->
-  <text x="622" y="206" font-family="'Noto Sans TC', sans-serif" font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
+  <text x="622" y="206"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 流程卡片 4 -->
   <rect x="640" y="118" width="120" height="160" rx="12" fill="#94a3b8"/>
-  <text x="700" y="170" font-family="'Noto Sans TC', sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="700" y="204" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">通知</text>
-  <text x="700" y="226" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">主管機關</text>
-  <text x="700" y="258" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">確保記錄一致</text>
+  <text x="700" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="700" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">通知</text>
+  <text x="700" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">主管機關</text>
+  <text x="700" y="258"  font-size="14" fill="#e2e8f0" text-anchor="middle">確保記錄一致</text>
   <!-- 說明區 -->
   <rect x="40" y="310" width="720" height="70" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-  <text x="60" y="338" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#d97706">最常見的失敗：</text>
-  <text x="200" y="338" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e">「做了但沒留記錄」——每個改善步驟都需要時間戳記與負責人簽名</text>
-  <text x="60" y="364" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#78716c">對應 A4 條：</text>
-  <text x="170" y="364" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e">過去 4 年查核缺失改善情形，改善達 100% 計 A 分</text>
+  <text x="60" y="338"  font-size="16" font-weight="700" fill="#d97706">最常見的失敗：</text>
+  <text x="200" y="338"  font-size="16" fill="#57534e">「做了但沒留記錄」——每個改善步驟都需要時間戳記與負責人簽名</text>
+  <text x="60" y="364"  font-size="16" font-weight="700" fill="#78716c">對應 A4 條：</text>
+  <text x="170" y="364"  font-size="16" fill="#57534e">過去 4 年查核缺失改善情形，改善達 100% 計 A 分</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

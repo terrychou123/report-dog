@@ -1,42 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
   <!-- 左側主標題區 -->
   <!-- 主標題第1行（黑色） -->
-  <text x="80" y="180" font-size="100" font-weight="700" fill="#1e293b" font-family="sans-serif">從合格</text>
+  <text x="80" y="180" font-size="100" font-weight="700" fill="#1e293b" >從合格</text>
   <!-- 主標題第2行（琥珀色） -->
-  <text x="80" y="295" font-size="100" font-weight="700" fill="#d97706" font-family="sans-serif">突破優等</text>
+  <text x="80" y="295" font-size="100" font-weight="700" fill="#d97706" >突破優等</text>
 
   <!-- 副標題 -->
-  <text x="80" y="360" font-size="38" fill="#57534e" font-family="sans-serif">115 年度評鑑等第制度解析，5 大策略助你衝上優等</text>
+  <text x="80" y="360" font-size="38" fill="#57534e" >115 年度評鑑等第制度解析，5 大策略助你衝上優等</text>
 
   <!-- Pill 標籤 -->
   <!-- pill 1: 等第制度解析 -->
   <rect x="80" y="400" width="200" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="180" y="428" font-size="22" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">等第制度解析</text>
+  <text x="180" y="428" font-size="22" fill="#d97706" text-anchor="middle" font-weight="600" >等第制度解析</text>
 
   <!-- pill 2: 一級必要守住 -->
   <rect x="296" y="400" width="200" height="44" rx="22" fill="#78716c" opacity="0.15"/>
-  <text x="396" y="428" font-size="22" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">一級必要守住</text>
+  <text x="396" y="428" font-size="22" fill="#57534e" text-anchor="middle" font-weight="600" >一級必要守住</text>
 
   <!-- pill 3: 二級加強攻略 -->
   <rect x="512" y="400" width="200" height="44" rx="22" fill="#57534e" opacity="0.15"/>
-  <text x="612" y="428" font-size="22" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">二級加強攻略</text>
+  <text x="612" y="428" font-size="22" fill="#57534e" text-anchor="middle" font-weight="600" >二級加強攻略</text>
 
   <!-- pill 4: AI自我查核 -->
   <rect x="728" y="400" width="176" height="44" rx="22" fill="#16a34a" opacity="0.15"/>
-  <text x="816" y="428" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="600" font-family="sans-serif">AI自我查核</text>
+  <text x="816" y="428" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="600" >AI自我查核</text>
 
   <!-- 右側裝飾：大字90 -->
-  <text x="970" y="290" font-size="200" font-weight="700" fill="#16a34a" text-anchor="middle" opacity="0.18" font-family="sans-serif">90</text>
-  <text x="970" y="250" font-size="200" font-weight="700" fill="#16a34a" text-anchor="middle" font-family="sans-serif">90</text>
+  <text x="970" y="290" font-size="200" font-weight="700" fill="#16a34a" text-anchor="middle" opacity="0.18" >90</text>
+  <text x="970" y="250" font-size="200" font-weight="700" fill="#16a34a" text-anchor="middle" >90</text>
   <!-- 說明文字 -->
-  <text x="970" y="310" font-size="36" fill="#16a34a" text-anchor="middle" font-weight="600" font-family="sans-serif">分達優等</text>
+  <text x="970" y="310" font-size="36" fill="#16a34a" text-anchor="middle" font-weight="600" >分達優等</text>
 
   <!-- 底部裝飾線 -->
   <rect x="80" y="490" width="480" height="4" rx="2" fill="#d97706" opacity="0.4"/>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

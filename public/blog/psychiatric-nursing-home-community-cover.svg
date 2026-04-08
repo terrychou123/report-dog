@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 右側裝飾區 -->
@@ -6,45 +6,45 @@
 
   <!-- 特色標籤 -->
   <rect x="60" y="60" width="100" height="32" rx="16" fill="#d97706"/>
-  <text x="110" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">B1.13</text>
+  <text x="110" y="81" font-size="16" fill="white" text-anchor="middle"  font-weight="bold">B1.13</text>
   <rect x="170" y="60" width="130" height="32" rx="16" fill="#78716c"/>
-  <text x="235" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">社區連結</text>
+  <text x="235" y="81" font-size="16" fill="white" text-anchor="middle" >社區連結</text>
   <rect x="310" y="60" width="110" height="32" rx="16" fill="#57534e"/>
-  <text x="365" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精神障礙</text>
+  <text x="365" y="81" font-size="16" fill="white" text-anchor="middle" >精神障礙</text>
 
   <!-- 主標題第1行 -->
-  <text x="60" y="220" font-size="120" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">社區資源</text>
+  <text x="60" y="220" font-size="120" fill="#1e293b"  font-weight="bold">社區資源</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="340" font-size="110" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="bold">3處到5處</text>
+  <text x="60" y="340" font-size="110" fill="#d97706"  font-weight="bold">3處到5處</text>
 
   <!-- 副標題 -->
-  <text x="60" y="405" font-size="36" fill="#57534e" font-family="'Noto Sans TC', sans-serif">B1.13社區連結達標策略與社區參與評鑑準備</text>
+  <text x="60" y="405" font-size="36" fill="#57534e" >B1.13社區連結達標策略與社區參與評鑑準備</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="430" x2="760" y2="430" stroke="#c4bfb8" stroke-width="2"/>
 
   <!-- 底部說明 -->
-  <text x="60" y="470" font-size="28" fill="#78716c" font-family="'Noto Sans TC', sans-serif">精神護理之家評鑑準備系列</text>
+  <text x="60" y="470" font-size="28" fill="#78716c" >精神護理之家評鑑準備系列</text>
 
   <!-- 右側裝飾區內容 -->
   <!-- 大數字 -->
-  <text x="1010" y="200" font-size="200" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold" opacity="0.9">5</text>
-  <text x="1010" y="245" font-size="22" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">連結5處為較高評分</text>
-  <text x="1010" y="275" font-size="26" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">處社區資源網絡</text>
+  <text x="1010" y="200" font-size="200" fill="#d97706" text-anchor="middle"  font-weight="bold" opacity="0.9">5</text>
+  <text x="1010" y="245" font-size="22" fill="#57534e" text-anchor="middle" >連結5處為較高評分</text>
+  <text x="1010" y="275" font-size="26" fill="#78716c" text-anchor="middle"  font-weight="bold">處社區資源網絡</text>
 
   <!-- 直列pill -->
   <rect x="870" y="310" width="280" height="44" rx="22" fill="#d97706"/>
-  <text x="1010" y="338" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精障協作服務</text>
+  <text x="1010" y="338" font-size="18" fill="white" text-anchor="middle" >精障協作服務</text>
 
   <rect x="870" y="365" width="280" height="44" rx="22" fill="#78716c"/>
-  <text x="1010" y="393" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">自立生活中心</text>
+  <text x="1010" y="393" font-size="18" fill="white" text-anchor="middle" >自立生活中心</text>
 
   <rect x="870" y="420" width="280" height="44" rx="22" fill="#57534e"/>
-  <text x="1010" y="448" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">同儕支持</text>
+  <text x="1010" y="448" font-size="18" fill="white" text-anchor="middle" >同儕支持</text>
 
   <rect x="870" y="475" width="280" height="44" rx="22" fill="#a8a29e"/>
-  <text x="1010" y="503" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">志工資源</text>
+  <text x="1010" y="503" font-size="18" fill="white" text-anchor="middle" >志工資源</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

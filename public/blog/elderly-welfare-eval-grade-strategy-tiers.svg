@@ -1,51 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="400" y="52" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" font-family="sans-serif">115 年度評鑑三級等第制度</text>
-  <text x="400" y="80" font-size="16" fill="#57534e" text-anchor="middle" font-family="sans-serif">總分門檻 × 一級必要 × 二級加強：三條件決定等第</text>
+  <text x="400" y="52" font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle" >115 年度評鑑三級等第制度</text>
+  <text x="400" y="80" font-size="16" fill="#57534e" text-anchor="middle" >總分門檻 × 一級必要 × 二級加強：三條件決定等第</text>
 
   <!-- N=3, H=90, outer_gap=38 -->
   <!-- Row 1: 優等 (y=166) -->
   <rect x="40" y="128" width="720" height="90" rx="8" fill="#ffffff"/>
   <rect x="40" y="128" width="6" height="90" rx="3" fill="#16a34a"/>
   <!-- 圓圈 -->
-  <circle cx="90" cy="173" r="22" fill="#16a34a" opacity="0.15"/>
-  <text x="90" y="179" font-size="20" font-weight="700" fill="#16a34a" text-anchor="middle" font-family="sans-serif">優</text>
+  <circle cx="90" cy="173" r="22" fill="#16a34a"/>
+  <text x="90" y="179" font-size="20" font-weight="700" fill="#16a34a" text-anchor="middle" >優</text>
   <!-- 標題與說明 -->
-  <text x="126" y="160" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">優等</text>
-  <text x="126" y="182" font-size="15" fill="#57534e" font-family="sans-serif">總分 90 分（含）以上，且一級必要指標＋二級加強指標全部達規定標準</text>
-  <text x="126" y="204" font-size="14" fill="#16a34a" font-family="sans-serif">✦ 獲主管機關公開表揚，補助申請享優先資格</text>
+  <text x="126" y="160" font-size="20" font-weight="700" fill="#1e293b" >優等</text>
+  <text x="126" y="182" font-size="15" fill="#57534e" >總分 90 分（含）以上，且一級必要指標＋二級加強指標全部達規定標準</text>
+  <text x="126" y="204" font-size="14" fill="#16a34a" >✦ 獲主管機關公開表揚，補助申請享優先資格</text>
   <!-- 右側標籤 -->
-  <rect x="596" y="145" width="136" height="46" rx="6" fill="#16a34a" opacity="0.12"/>
-  <text x="664" y="164" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="600" font-family="sans-serif">≥ 90 分</text>
-  <text x="664" y="183" font-size="13" fill="#16a34a" text-anchor="middle" font-family="sans-serif">一＋二級達標</text>
+  <rect x="596" y="145" width="136" height="46" rx="8" fill="#16a34a" opacity="0.12"/>
+  <text x="664" y="164" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="600" >≥ 90 分</text>
+  <text x="664" y="183" font-size="13" fill="#16a34a" text-anchor="middle" >一＋二級達標</text>
 
   <!-- Row 2: 合格 (y=269) -->
   <rect x="40" y="231" width="720" height="90" rx="8" fill="#ffffff"/>
-  <rect x="40" y="231" width="6" height="90" rx="3" fill="#d97706"/>
+  <rect x="40" y="231" width="6" height="90" rx="2" fill="#d97706"/>
   <circle cx="90" cy="276" r="22" fill="#d97706" opacity="0.15"/>
-  <text x="90" y="282" font-size="20" font-weight="700" fill="#d97706" text-anchor="middle" font-family="sans-serif">合</text>
-  <text x="126" y="263" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">合格</text>
-  <text x="126" y="285" font-size="15" fill="#57534e" font-family="sans-serif">總分 70 分（含）以上，且六項一級必要指標全部達規定評分標準</text>
-  <text x="126" y="307" font-size="14" fill="#d97706" font-family="sans-serif">✦ 符合基本照護品質，可繼續正常營運</text>
-  <rect x="596" y="248" width="136" height="46" rx="6" fill="#d97706" opacity="0.12"/>
-  <text x="664" y="267" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">≥ 70 分</text>
-  <text x="664" y="286" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">一級達標</text>
+  <text x="90" y="282" font-size="20" font-weight="700" fill="#d97706" text-anchor="middle" >合</text>
+  <text x="126" y="263" font-size="20" font-weight="700" fill="#1e293b" >合格</text>
+  <text x="126" y="285" font-size="15" fill="#57534e" >總分 70 分（含）以上，且六項一級必要指標全部達規定評分標準</text>
+  <text x="126" y="307" font-size="14" fill="#d97706" >✦ 符合基本照護品質，可繼續正常營運</text>
+  <rect x="596" y="248" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="664" y="267" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" >≥ 70 分</text>
+  <text x="664" y="286" font-size="13" fill="#d97706" text-anchor="middle" >一級達標</text>
 
   <!-- Row 3: 不合格 (y=372) -->
   <rect x="40" y="334" width="720" height="90" rx="8" fill="#ffffff"/>
   <rect x="40" y="334" width="6" height="90" rx="3" fill="#dc2626"/>
-  <circle cx="90" cy="379" r="22" fill="#dc2626" opacity="0.15"/>
-  <text x="90" y="385" font-size="20" font-weight="700" fill="#dc2626" text-anchor="middle" font-family="sans-serif">否</text>
-  <text x="126" y="366" font-size="20" font-weight="700" fill="#1e293b" font-family="sans-serif">不合格</text>
-  <text x="126" y="388" font-size="15" fill="#57534e" font-family="sans-serif">總分未達 70 分，或一級必要指標（C4/C9-C12/C15）任一項未達標</text>
-  <text x="126" y="410" font-size="14" fill="#dc2626" font-family="sans-serif">⚠ 面臨限期改善乃至停業處分</text>
-  <rect x="596" y="351" width="136" height="46" rx="6" fill="#dc2626" opacity="0.12"/>
-  <text x="664" y="370" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600" font-family="sans-serif">＜ 70 分</text>
-  <text x="664" y="389" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">或一級未過</text>
+  <circle cx="90" cy="379" r="22" fill="#dc2626"/>
+  <text x="90" y="385" font-size="20" font-weight="700" fill="#dc2626" text-anchor="middle" >否</text>
+  <text x="126" y="366" font-size="20" font-weight="700" fill="#1e293b" >不合格</text>
+  <text x="126" y="388" font-size="15" fill="#57534e" >總分未達 70 分，或一級必要指標（C4/C9-C12/C15）任一項未達標</text>
+  <text x="126" y="410" font-size="14" fill="#dc2626" >⚠ 面臨限期改善乃至停業處分</text>
+  <rect x="596" y="351" width="136" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="664" y="370" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600" >＜ 70 分</text>
+  <text x="664" y="389" font-size="13" fill="#dc2626" text-anchor="middle" >或一級未過</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

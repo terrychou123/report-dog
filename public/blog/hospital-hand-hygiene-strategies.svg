@@ -32,7 +32,7 @@
   <!-- ===== Row 3（y=264）環境設計 #16a34a ===== -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="264" width="6" height="60" rx="2" fill="#16a34a"/>
-  <circle cx="66" cy="294" r="16" fill="#16a34a" opacity="0.15"/>
+  <circle cx="66" cy="294" r="16" fill="#16a34a"/>
   <text x="66" y="300" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="287" font-size="20" fill="#1e293b" font-weight="700">從提醒升級為環境設計</text>
   <text x="100" y="311" font-size="16" fill="#57534e">每床旁可及之處配置乾洗手液（最重要）、清除環境障礙——方便洗手勝過貼標語10倍</text>

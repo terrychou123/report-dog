@@ -1,74 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 頂部標題區塊 -->
   <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
-  <text x="400" y="52" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">出院計畫早期啟動四步驟</text>
-  <text x="400" y="82" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">入院即規劃，確保出院準備不漏接</text>
+  <text x="400" y="52"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">出院計畫早期啟動四步驟</text>
+  <text x="400" y="82"  font-size="14" fill="#a8a29e" text-anchor="middle">入院即規劃，確保出院準備不漏接</text>
 
   <!-- 步驟 1 (y=128) -->
   <rect x="38" y="128" width="724" height="82" rx="10" fill="#fffbeb"/>
-  <rect x="38" y="128" width="6" height="82" rx="3" fill="#d97706"/>
+  <rect x="38" y="128" width="6" height="82" rx="2" fill="#d97706"/>
   <!-- 步驟標籤 -->
   <rect x="52" y="142" width="84" height="24" rx="12" fill="#d97706"/>
-  <text x="94" y="159" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 01</text>
+  <text x="94" y="159"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 01</text>
   <!-- 標題 -->
-  <text x="152" y="154" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#92400e">入院篩選</text>
+  <text x="152" y="154"  font-size="15" font-weight="700" fill="#92400e">入院篩選</text>
   <!-- 說明 -->
-  <text x="152" y="176" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">高齡、複雜需求、預期功能退步者，入院後24小時內啟動出院評估</text>
+  <text x="152" y="176"  font-size="12" fill="#78716c">高齡、複雜需求、預期功能退步者，入院後24小時內啟動出院評估</text>
   <!-- 右側 Pill -->
   <rect x="630" y="153" width="108" height="26" rx="13" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <text x="684" y="171" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#92400e" text-anchor="middle">入院 24h</text>
+  <text x="684" y="171"  font-size="12" font-weight="700" fill="#92400e" text-anchor="middle">入院 24h</text>
   <!-- 連接箭頭 -->
-  <text x="400" y="224" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="middle">&#9660;</text>
+  <text x="400" y="224"  font-size="16" fill="#d97706" text-anchor="middle">&#9660;</text>
 
   <!-- 步驟 2 (y=234) -->
   <rect x="38" y="232" width="724" height="82" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="232" width="6" height="82" rx="3" fill="#78716c"/>
+  <rect x="38" y="232" width="6" height="82" rx="2" fill="#78716c"/>
   <!-- 步驟標籤 -->
   <rect x="52" y="246" width="84" height="24" rx="12" fill="#78716c"/>
-  <text x="94" y="263" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 02</text>
+  <text x="94" y="263"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 02</text>
   <!-- 標題 -->
-  <text x="152" y="258" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">需求評估</text>
+  <text x="152" y="258"  font-size="15" font-weight="700" fill="#44403c">需求評估</text>
   <!-- 說明 -->
-  <text x="152" y="280" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">社工評估長照需求，護理師規劃出院教育內容，醫師確認醫療計畫</text>
+  <text x="152" y="280"  font-size="12" fill="#78716c">社工評估長照需求，護理師規劃出院教育內容，醫師確認醫療計畫</text>
   <!-- 右側 Pill -->
   <rect x="630" y="257" width="108" height="26" rx="13" fill="#f5f5f4" stroke="#78716c" stroke-width="1.5"/>
-  <text x="684" y="275" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#44403c" text-anchor="middle">跨團隊</text>
+  <text x="684" y="275"  font-size="12" font-weight="700" fill="#44403c" text-anchor="middle">跨團隊</text>
   <!-- 連接箭頭 -->
-  <text x="400" y="328" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#78716c" text-anchor="middle">&#9660;</text>
+  <text x="400" y="328"  font-size="16" fill="#78716c" text-anchor="middle">&#9660;</text>
 
   <!-- 步驟 3 (y=336) -->
   <rect x="38" y="336" width="724" height="82" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="336" width="6" height="82" rx="3" fill="#57534e"/>
+  <rect x="38" y="336" width="6" height="82" rx="2" fill="#57534e"/>
   <!-- 步驟標籤 -->
   <rect x="52" y="350" width="84" height="24" rx="12" fill="#57534e"/>
-  <text x="94" y="367" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 03</text>
+  <text x="94" y="367"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 03</text>
   <!-- 標題 -->
-  <text x="152" y="362" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">資源連結</text>
+  <text x="152" y="362"  font-size="15" font-weight="700" fill="#44403c">資源連結</text>
   <!-- 說明 -->
-  <text x="152" y="384" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">有長照需求者聯繫居服/日照/護理之家，確認出院後服務銜接</text>
+  <text x="152" y="384"  font-size="12" fill="#78716c">有長照需求者聯繫居服/日照/護理之家，確認出院後服務銜接</text>
   <!-- 右側 Pill -->
   <rect x="630" y="361" width="108" height="26" rx="13" fill="#f5f5f4" stroke="#57534e" stroke-width="1.5"/>
-  <text x="684" y="379" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#44403c" text-anchor="middle">出院前</text>
+  <text x="684" y="379"  font-size="12" font-weight="700" fill="#44403c" text-anchor="middle">出院前</text>
   <!-- 連接箭頭 -->
-  <text x="400" y="430" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e" text-anchor="middle">&#9660;</text>
+  <text x="400" y="430"  font-size="16" fill="#57534e" text-anchor="middle">&#9660;</text>
 
   <!-- 步驟 4 (y=440) -->
   <rect x="38" y="436" width="724" height="44" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="436" width="6" height="44" rx="3" fill="#a8a29e"/>
+  <rect x="38" y="436" width="6" height="44" rx="2" fill="#a8a29e"/>
   <!-- 步驟標籤 -->
   <rect x="52" y="446" width="84" height="24" rx="12" fill="#a8a29e"/>
-  <text x="94" y="463" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 04</text>
+  <text x="94" y="463"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 04</text>
   <!-- 標題 -->
-  <text x="152" y="458" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">出院教育</text>
+  <text x="152" y="458"  font-size="15" font-weight="700" fill="#44403c">出院教育</text>
   <!-- 說明 -->
-  <text x="152" y="473" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">完成七大項出院教育，家屬確認知悉並簽名，紀錄歸入病歷</text>
+  <text x="152" y="473"  font-size="12" fill="#78716c">完成七大項出院教育，家屬確認知悉並簽名，紀錄歸入病歷</text>
   <!-- 右側 Pill -->
   <rect x="630" y="449" width="108" height="26" rx="13" fill="#f5f5f4" stroke="#a8a29e" stroke-width="1.5"/>
-  <text x="684" y="467" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#57534e" text-anchor="middle">出院當天</text>
+  <text x="684" y="467"  font-size="12" font-weight="700" fill="#57534e" text-anchor="middle">出院當天</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="496" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="496"  font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

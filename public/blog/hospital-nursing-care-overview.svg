@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9" rx="16" />
   <rect width="800" height="64" fill="#1c1917" rx="0" />
@@ -6,42 +6,42 @@
   <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
 
   <!-- 標題區塊 -->
-  <text x="400" y="40" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">2.3 章七大重點條文一覽（前 4 條）</text>
-  <text x="400" y="58" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle">醫院評鑑｜醫療照護執行與評估</text>
+  <text x="400" y="40"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">2.3 章七大重點條文一覽（前 4 條）</text>
+  <text x="400" y="58"  font-size="12" fill="#a8a29e" text-anchor="middle">醫院評鑑｜醫療照護執行與評估</text>
 
   <!-- 列1 (#d97706) -->
   <rect x="30" y="82" width="740" height="84" rx="10" fill="#fffbeb" />
-  <rect x="30" y="82" width="6" height="84" rx="3" fill="#d97706" />
-  <text x="52" y="113" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#d97706">2.3.1  病人入院評估</text>
-  <text x="52" y="137" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">24 小時內完成生理、心理、社會及靈性評估，評鑑方式：資料查核</text>
+  <rect x="30" y="82" width="6" height="84" rx="2" fill="#d97706" />
+  <text x="52" y="113"  font-size="18" font-weight="700" fill="#d97706">2.3.1  病人入院評估</text>
+  <text x="52" y="137"  font-size="14" fill="#57534e">24 小時內完成生理、心理、社會及靈性評估，評鑑方式：資料查核</text>
   <!-- 右側標籤 -->
   <rect x="658" y="98" width="90" height="32" rx="16" fill="#d97706" />
-  <text x="703" y="119" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">24h 時限</text>
+  <text x="703" y="119"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">24h 時限</text>
 
   <!-- 列2 (#78716c) -->
   <rect x="30" y="178" width="740" height="84" rx="10" fill="#f5f5f4" />
-  <rect x="30" y="178" width="6" height="84" rx="3" fill="#78716c" />
-  <text x="52" y="209" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">2.3.2  個別化照護計畫</text>
-  <text x="52" y="233" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">跨專業團隊共同擬定，家屬參與，依狀況適時更新，評鑑：資料查核＋訪談</text>
+  <rect x="30" y="178" width="6" height="84" rx="2" fill="#78716c" />
+  <text x="52" y="209"  font-size="18" font-weight="700" fill="#44403c">2.3.2  個別化照護計畫</text>
+  <text x="52" y="233"  font-size="14" fill="#57534e">跨專業團隊共同擬定，家屬參與，依狀況適時更新，評鑑：資料查核＋訪談</text>
   <rect x="662" y="194" width="86" height="32" rx="16" fill="#78716c" />
-  <text x="705" y="215" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">跨專業</text>
+  <text x="705" y="215"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">跨專業</text>
 
   <!-- 列3 (#57534e) -->
   <rect x="30" y="274" width="740" height="84" rx="10" fill="#f5f5f4" />
-  <rect x="30" y="274" width="6" height="84" rx="3" fill="#57534e" />
-  <text x="52" y="305" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">2.3.3  醫療團隊溝通交接班</text>
-  <text x="52" y="329" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">SBAR 標準化交班，跨科別溝通有格式，評鑑方式：資料查核＋訪談</text>
+  <rect x="30" y="274" width="6" height="84" rx="2" fill="#57534e" />
+  <text x="52" y="305"  font-size="18" font-weight="700" fill="#44403c">2.3.3  醫療團隊溝通交接班</text>
+  <text x="52" y="329"  font-size="14" fill="#57534e">SBAR 標準化交班，跨科別溝通有格式，評鑑方式：資料查核＋訪談</text>
   <rect x="666" y="290" width="80" height="32" rx="16" fill="#57534e" />
-  <text x="706" y="311" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">SBAR</text>
+  <text x="706" y="311"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">SBAR</text>
 
   <!-- 列4 (#a8a29e) -->
   <rect x="30" y="370" width="740" height="84" rx="10" fill="#f5f5f4" />
-  <rect x="30" y="370" width="6" height="84" rx="3" fill="#a8a29e" />
-  <text x="52" y="401" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#44403c">2.3.4  疼痛評估與管理</text>
-  <text x="52" y="425" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e">標準化疼痛評估工具，有評估與再評估紀錄，評鑑方式：資料查核</text>
+  <rect x="30" y="370" width="6" height="84" rx="2" fill="#a8a29e" />
+  <text x="52" y="401"  font-size="18" font-weight="700" fill="#44403c">2.3.4  疼痛評估與管理</text>
+  <text x="52" y="425"  font-size="14" fill="#57534e">標準化疼痛評估工具，有評估與再評估紀錄，評鑑方式：資料查核</text>
   <rect x="654" y="386" width="100" height="32" rx="16" fill="#a8a29e" />
-  <text x="704" y="407" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">定期評估</text>
+  <text x="704" y="407"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">定期評估</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

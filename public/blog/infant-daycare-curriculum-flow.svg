@@ -3,12 +3,12 @@
 
   <!-- Header -->
   <rect x="0" y="0" width="800" height="90" fill="white"/>
-  <rect x="0" y="0" width="6" height="90" fill="#78716c"/>
+  <rect x="0" y="0" width="6" height="90" fill="#78716c" rx="2"/>
   <text x="28" y="45" font-size="30" fill="#1e293b" font-weight="700">課程設計三步驟流程</text>
   <text x="28" y="73" font-size="18" fill="#78716c">觀察幼兒 → 計畫課程 → 記錄成果（評鑑委員最在乎的循環）</text>
 
   <!-- Step 1: 觀察幼兒 -->
-  <rect x="28" y="120" width="228" height="300" rx="14" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="28" y="120" width="228" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="28" y="120" width="228" height="10" rx="7" fill="#d97706"/>
   <text x="142" y="175" font-size="50" fill="#d97706" text-anchor="middle">👁</text>
   <text x="142" y="220" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">Step 1</text>
@@ -24,7 +24,7 @@
   <text x="291" y="278" font-size="36" fill="#a8a29e" text-anchor="middle">→</text>
 
   <!-- Step 2: 計畫課程 -->
-  <rect x="314" y="120" width="228" height="300" rx="14" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="314" y="120" width="228" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="314" y="120" width="228" height="10" rx="7" fill="#78716c"/>
   <text x="428" y="175" font-size="50" fill="#78716c" text-anchor="middle">📋</text>
   <text x="428" y="220" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">Step 2</text>
@@ -40,7 +40,7 @@
   <text x="577" y="278" font-size="36" fill="#a8a29e" text-anchor="middle">→</text>
 
   <!-- Step 3: 記錄成果 -->
-  <rect x="600" y="120" width="172" height="300" rx="14" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="600" y="120" width="172" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="600" y="120" width="172" height="10" rx="7" fill="#57534e"/>
   <text x="686" y="175" font-size="50" fill="#57534e" text-anchor="middle">📝</text>
   <text x="686" y="220" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">Step 3</text>

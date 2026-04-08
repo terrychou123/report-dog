@@ -4,42 +4,42 @@
 
   <!-- Header（y=38, H=90）-->
   <rect x="0" y="38" width="800" height="90" fill="white"/>
-  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="95" font-size="36" fill="#1e293b" font-weight="700">行政管理類 3 大缺失</text>
 
   <!-- Row 0：廚工體檢週期（y=166）#d97706 -->
-  <rect x="28" y="166" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">廚工體檢週期搞錯（第1項）</text>
   <text x="100" y="224" font-size="16" fill="#57534e">缺失：廚工與其他員工統一每2年體檢1次</text>
   <text x="100" y="244" font-size="16" fill="#d97706" font-weight="600">正確：廚工每1年體檢1次，其他人員每2年1次，兩者週期不同</text>
-  <rect x="620" y="185" width="136" height="52" rx="8" fill="#dc2626" opacity="0.10"/>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="688" y="207" font-size="16" fill="#dc2626" text-anchor="middle">高頻缺失</text>
   <text x="688" y="227" font-size="16" fill="#dc2626" text-anchor="middle">第1項</text>
 
   <!-- Row 1：在職訓練未達標（y=269）#78716c -->
-  <rect x="28" y="269" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">在職訓練時數不足（第2項）</text>
   <text x="100" y="327" font-size="16" fill="#57534e">缺失：訓練時數紀錄不完整，或線上課程未留截圖備查</text>
   <text x="100" y="347" font-size="16" fill="#78716c" font-weight="600">正確：主管與托育人員每年18小時以上，其他工作人員至少4小時</text>
-  <rect x="620" y="288" width="136" height="52" rx="8" fill="#dc2626" opacity="0.10"/>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="688" y="310" font-size="16" fill="#dc2626" text-anchor="middle">文書缺失</text>
   <text x="688" y="330" font-size="16" fill="#dc2626" text-anchor="middle">第2項</text>
 
   <!-- Row 2：監視器無保養紀錄（y=372）#57534e -->
-  <rect x="28" y="372" width="744" height="90" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">監視器無保養紀錄（第1項）</text>
   <text x="100" y="430" font-size="16" fill="#57534e">缺失：安裝了監視器，但沒有定期檢核與保養維護的書面紀錄</text>
   <text x="100" y="450" font-size="16" fill="#57534e" font-weight="600">正確：監視器設備需定期檢核、保養管理及維護，並留存紀錄</text>
-  <rect x="620" y="391" width="136" height="52" rx="8" fill="#dc2626" opacity="0.10"/>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="688" y="413" font-size="16" fill="#dc2626" text-anchor="middle">設備缺失</text>
   <text x="688" y="433" font-size="16" fill="#dc2626" text-anchor="middle">第1項</text>
 

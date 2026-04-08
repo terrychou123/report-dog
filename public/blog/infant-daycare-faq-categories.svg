@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="40" y="50" width="720" height="62" rx="8" fill="#d97706"/>
-  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑 FAQ 4 大類別</text>
+  <text x="400" y="88" font-size="22" fill="white" text-anchor="middle"  font-weight="700">評鑑 FAQ 4 大類別</text>
   <!-- Row 1 -->
-  <rect x="40" y="160" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="160" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="160" width="8" height="62" rx="3" fill="#d97706"/>
-  <text x="76" y="183" font-size="14" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="700">類別一</text>
-  <text x="160" y="183" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑制度</text>
-  <text x="160" y="208" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑頻率（3年一輪）、委員組成、評分方式、總分 100 分制</text>
+  <text x="76" y="183" font-size="14" fill="#d97706"  font-weight="700">類別一</text>
+  <text x="160" y="183" font-size="18" fill="#1e293b"  font-weight="700">評鑑制度</text>
+  <text x="160" y="208" font-size="14" fill="#78716c" >評鑑頻率（3年一輪）、委員組成、評分方式、總分 100 分制</text>
   <!-- Row 2 -->
-  <rect x="40" y="235" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="235" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="235" width="8" height="62" rx="3" fill="#78716c"/>
-  <text x="76" y="258" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">類別二</text>
-  <text x="160" y="258" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">文件準備</text>
-  <text x="160" y="283" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">哪些文件必備、保存期限、正本與影本要求、電子文件可否</text>
+  <text x="76" y="258" font-size="14" fill="#78716c"  font-weight="700">類別二</text>
+  <text x="160" y="258" font-size="18" fill="#1e293b"  font-weight="700">文件準備</text>
+  <text x="160" y="283" font-size="14" fill="#78716c" >哪些文件必備、保存期限、正本與影本要求、電子文件可否</text>
   <!-- Row 3 -->
-  <rect x="40" y="310" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="310" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="310" width="8" height="62" rx="3" fill="#57534e"/>
-  <text x="76" y="333" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="700">類別三</text>
-  <text x="160" y="333" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">當天流程</text>
-  <text x="160" y="358" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">委員幾點到、評鑑順序、要不要開放觀摩、訪談誰、持續多久</text>
+  <text x="76" y="333" font-size="14" fill="#57534e"  font-weight="700">類別三</text>
+  <text x="160" y="333" font-size="18" fill="#1e293b"  font-weight="700">當天流程</text>
+  <text x="160" y="358" font-size="14" fill="#78716c" >委員幾點到、評鑑順序、要不要開放觀摩、訪談誰、持續多久</text>
   <!-- Row 4 -->
-  <rect x="40" y="385" width="720" height="62" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="385" width="720" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="385" width="8" height="62" rx="3" fill="#94a3b8"/>
-  <text x="76" y="408" font-size="14" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif" font-weight="700">類別四</text>
-  <text x="160" y="408" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">評鑑結果</text>
-  <text x="160" y="433" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">幾分及格、如何申訴、缺失改善期限、結果如何公布</text>
+  <text x="76" y="408" font-size="14" fill="#94a3b8"  font-weight="700">類別四</text>
+  <text x="160" y="408" font-size="18" fill="#1e293b"  font-weight="700">評鑑結果</text>
+  <text x="160" y="433" font-size="14" fill="#78716c" >幾分及格、如何申訴、缺失改善期限、結果如何公布</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

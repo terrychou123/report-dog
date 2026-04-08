@@ -1,51 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題列 -->
   <rect x="30" y="50" width="740" height="62" rx="10" fill="#d97706"/>
-  <text x="400" y="89" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">報告汪定期追蹤功能 × 七大監測管理</text>
+  <text x="400" y="89" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" >報告汪定期追蹤功能 × 七大監測管理</text>
 
   <!-- Row 1 (N=4: y=160) -->
   <rect x="30" y="160" width="740" height="62" rx="8" fill="#ffffff"/>
-  <rect x="30" y="160" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="191" r="16" fill="#d97706"/>
-  <text x="66" y="197" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">1</text>
-  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">追蹤功能：監控月報 / 季報完成進度</text>
-  <text x="100" y="207" font-size="16" fill="#57534e" font-family="sans-serif">為每項監測指標建立追蹤報告，設定每月截止提醒，主管可即時查看各項完成狀態</text>
-  <rect x="620" y="168" width="136" height="46" rx="6" fill="#fef3c7"/>
-  <text x="688" y="196" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600" font-family="sans-serif">即時進度追蹤</text>
+  <rect x="30" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
+  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700" >追蹤功能：監控月報 / 季報完成進度</text>
+  <text x="100" y="207" font-size="16" fill="#57534e" >為每項監測指標建立追蹤報告，設定每月截止提醒，主管可即時查看各項完成狀態</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="196" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600" >即時進度追蹤</text>
 
   <!-- Row 2 (y=235) -->
   <rect x="30" y="235" width="740" height="62" rx="8" fill="#ffffff"/>
-  <rect x="30" y="235" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="266" r="16" fill="#78716c"/>
-  <text x="66" y="272" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">2</text>
-  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">AI 輔助撰寫：快速產出分析報告文字</text>
-  <text x="100" y="282" font-size="16" fill="#57534e" font-family="sans-serif">輸入月統計數字，AI 自動生成趨勢分析段落及改善對策初稿，護理人員微調後即可納入報告</text>
-  <rect x="620" y="243" width="136" height="46" rx="6" fill="#dbeafe"/>
-  <text x="688" y="271" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" font-family="sans-serif">AI 加速撰寫</text>
+  <rect x="30" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
+  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700" >AI 輔助撰寫：快速產出分析報告文字</text>
+  <text x="100" y="282" font-size="16" fill="#57534e" >輸入月統計數字，AI 自動生成趨勢分析段落及改善對策初稿，護理人員微調後即可納入報告</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <text x="688" y="271" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" >AI 加速撰寫</text>
 
   <!-- Row 3 (y=310) -->
   <rect x="30" y="310" width="740" height="62" rx="8" fill="#ffffff"/>
-  <rect x="30" y="310" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="341" r="16" fill="#57534e"/>
-  <text x="66" y="347" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">3</text>
-  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">多人協作：護理 / 社工 / 主管分工</text>
-  <text x="100" y="357" font-size="16" fill="#57534e" font-family="sans-serif">各監測項目分配給責任護理師，社工負責 D 區部分，主管即時查閱並加注意見</text>
-  <rect x="620" y="318" width="136" height="46" rx="6" fill="#f0fdf4"/>
-  <text x="688" y="346" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" font-family="sans-serif">分工不漏項</text>
+  <rect x="30" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700" >3</text>
+  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700" >多人協作：護理 / 社工 / 主管分工</text>
+  <text x="100" y="357" font-size="16" fill="#57534e" >各監測項目分配給責任護理師，社工負責 D 區部分，主管即時查閱並加注意見</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="346" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" >分工不漏項</text>
 
   <!-- Row 4 (y=385) -->
   <rect x="30" y="385" width="740" height="62" rx="8" fill="#ffffff"/>
-  <rect x="30" y="385" width="6" height="62" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="416" r="16" fill="#a8a29e"/>
-  <text x="66" y="422" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700" font-family="sans-serif">4</text>
-  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700" font-family="sans-serif">歷史版本：評鑑備審資料完整保存</text>
-  <text x="100" y="432" font-size="16" fill="#57534e" font-family="sans-serif">所有月報、季報歷史版本自動保存，評鑑時可快速調出過去兩年完整監測記錄備查</text>
-  <rect x="620" y="393" width="136" height="46" rx="6" fill="#fef3c7"/>
-  <text x="688" y="421" font-size="15" fill="#a8a29e" text-anchor="middle" font-weight="600" font-family="sans-serif">歷史記錄備查</text>
+  <rect x="30" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700" >4</text>
+  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700" >歷史版本：評鑑備審資料完整保存</text>
+  <text x="100" y="432" font-size="16" fill="#57534e" >所有月報、季報歷史版本自動保存，評鑑時可快速調出過去兩年完整監測記錄備查</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="421" font-size="15" fill="#a8a29e" text-anchor="middle" font-weight="600" >歷史記錄備查</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 右側裝飾區 -->
@@ -7,46 +7,46 @@
   <!-- 左側內容區 -->
   <!-- 特色標籤 -->
   <rect x="60" y="60" width="90" height="32" rx="16" fill="#d97706"/>
-  <text x="105" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">B3.1</text>
+  <text x="105" y="81" font-size="16" fill="white" text-anchor="middle"  font-weight="bold">B3.1</text>
   <rect x="160" y="60" width="130" height="32" rx="16" fill="#78716c"/>
-  <text x="225" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">個別化飲食</text>
+  <text x="225" y="81" font-size="16" fill="white" text-anchor="middle" >個別化飲食</text>
   <rect x="300" y="60" width="90" height="32" rx="16" fill="#57534e"/>
-  <text x="345" y="81" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">營養師</text>
+  <text x="345" y="81" font-size="16" fill="white" text-anchor="middle" >營養師</text>
 
   <!-- 主標題第1行 -->
-  <text x="60" y="220" font-size="120" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">膳食管理</text>
+  <text x="60" y="220" font-size="120" fill="#1e293b"  font-weight="bold">膳食管理</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="345" font-size="110" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="bold">個別化飲食</text>
+  <text x="60" y="345" font-size="110" fill="#d97706"  font-weight="bold">個別化飲食</text>
 
   <!-- 副標題 -->
-  <text x="60" y="410" font-size="38" fill="#57534e" font-family="'Noto Sans TC', sans-serif">B3.1循環菜單、快樂餐與營養照護評鑑準備</text>
+  <text x="60" y="410" font-size="38" fill="#57534e" >B3.1循環菜單、快樂餐與營養照護評鑑準備</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="435" x2="760" y2="435" stroke="#c4bfb8" stroke-width="2"/>
 
   <!-- 底部說明 -->
-  <text x="60" y="475" font-size="28" fill="#78716c" font-family="'Noto Sans TC', sans-serif">精神護理之家評鑑準備系列</text>
+  <text x="60" y="475" font-size="28" fill="#78716c" >精神護理之家評鑑準備系列</text>
 
   <!-- 右側裝飾區內容 -->
   <!-- 大數字 -->
-  <text x="1010" y="200" font-size="200" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold" opacity="0.9">2</text>
+  <text x="1010" y="200" font-size="200" fill="#d97706" text-anchor="middle"  font-weight="bold" opacity="0.9">2</text>
   <!-- 說明文字 -->
-  <text x="1010" y="245" font-size="22" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每年2次滿意度調查</text>
-  <text x="1010" y="275" font-size="26" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="bold">週循環菜單</text>
+  <text x="1010" y="245" font-size="22" fill="#57534e" text-anchor="middle" >每年2次滿意度調查</text>
+  <text x="1010" y="275" font-size="26" fill="#78716c" text-anchor="middle"  font-weight="bold">週循環菜單</text>
 
   <!-- 直列pill -->
   <rect x="870" y="310" width="280" height="44" rx="22" fill="#d97706"/>
-  <text x="1010" y="338" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">一般／細碎／軟質</text>
+  <text x="1010" y="338" font-size="20" fill="white" text-anchor="middle" >一般／細碎／軟質</text>
 
   <rect x="870" y="365" width="280" height="44" rx="22" fill="#78716c"/>
-  <text x="1010" y="393" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">快樂餐每週</text>
+  <text x="1010" y="393" font-size="20" fill="white" text-anchor="middle" >快樂餐每週</text>
 
   <rect x="870" y="420" width="280" height="44" rx="22" fill="#57534e"/>
-  <text x="1010" y="448" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">循環菜單2週</text>
+  <text x="1010" y="448" font-size="20" fill="white" text-anchor="middle" >循環菜單2週</text>
 
   <rect x="870" y="475" width="280" height="44" rx="22" fill="#a8a29e"/>
-  <text x="1010" y="503" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">滿意度調查</text>
+  <text x="1010" y="503" font-size="20" fill="white" text-anchor="middle" >滿意度調查</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

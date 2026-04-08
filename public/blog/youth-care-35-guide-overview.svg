@@ -21,7 +21,7 @@
   <!-- Row 2：貳、環境設備（y=183） -->
   <rect x="28" y="183" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="183" width="6" height="62" rx="2" fill="#0d9488"/>
-  <circle cx="66" cy="214" r="16" fill="#0d9488" opacity="0.15"/>
+  <circle cx="66" cy="214" r="16" fill="#0d9488"/>
   <text x="66" y="220" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="900">貳</text>
   <text x="100" y="206" font-size="20" fill="#1e293b" font-weight="700">建築物環境及設施設備</text>
   <text x="100" y="230" font-size="16" fill="#57534e">項目 7–14｜全部由主管機關實地觀察，評委可依現場狀況 ±2 分</text>
@@ -32,7 +32,7 @@
   <!-- Row 3：參、專業服務（y=258） -->
   <rect x="28" y="258" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="258" width="6" height="62" rx="2" fill="#2563eb"/>
-  <circle cx="66" cy="289" r="16" fill="#2563eb" opacity="0.15"/>
+  <circle cx="66" cy="289" r="16" fill="#2563eb"/>
   <text x="66" y="295" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="900">參</text>
   <text x="100" y="281" font-size="20" fill="#1e293b" font-weight="700">專業服務（含雙版本指標）</text>
   <text x="100" y="305" font-size="16" fill="#57534e">項目 15–28｜個案紀錄、輔導目標、在院生活、申訴制度、資源結合</text>
@@ -43,7 +43,7 @@
   <!-- Row 4：肆、財務管理（y=333） -->
   <rect x="28" y="333" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="333" width="6" height="62" rx="2" fill="#16a34a"/>
-  <circle cx="66" cy="364" r="16" fill="#16a34a" opacity="0.15"/>
+  <circle cx="66" cy="364" r="16" fill="#16a34a"/>
   <text x="66" y="370" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="900">肆</text>
   <text x="100" y="356" font-size="20" fill="#1e293b" font-weight="700">財務管理</text>
   <text x="100" y="380" font-size="16" fill="#57534e">項目 29｜依衛福部社家署 109 年 + 地方政府 110–112 年財務查核結果計分</text>
@@ -54,7 +54,7 @@
   <!-- Row 5：伍、特殊事項（y=408） -->
   <rect x="28" y="408" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="408" width="6" height="62" rx="2" fill="#9333ea"/>
-  <circle cx="66" cy="439" r="16" fill="#9333ea" opacity="0.15"/>
+  <circle cx="66" cy="439" r="16" fill="#9333ea"/>
   <text x="66" y="445" font-size="16" fill="#9333ea" text-anchor="middle" font-weight="900">伍</text>
   <text x="100" y="431" font-size="20" fill="#1e293b" font-weight="700">特殊事項或措施（含創新服務方案）</text>
   <text x="100" y="455" font-size="16" fill="#57534e">項目 30–35｜違規最高扣 10 分；收容多元、防疫、社工薪資等最高加 9 分</text>

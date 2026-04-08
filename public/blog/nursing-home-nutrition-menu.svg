@@ -1,36 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">B29 菜單設計四大要點</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">委員查核菜單的關鍵確認事項</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">B29 菜單設計四大要點</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">委員查核菜單的關鍵確認事項</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 項目1 -->
   <rect x="40" y="118" width="720" height="72" rx="8" fill="#ffffff"/>
-  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
-  <circle cx="80" cy="154" r="20" fill="#d97706"/>
-  <text x="80" y="160" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="120" y="142" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">菜單由合格營養師擬定並提供諮詢</text>
-  <text x="120" y="166" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">菜單需有營養師簽名，符合 A10 兼任專業人員資格規定，可查勤紀錄</text>
+  <rect x="40" y="118" width="6" height="72" rx="2" fill="#d97706"/>
+  <circle cx="80" cy="154" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="160"  font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
+  <text x="120" y="142"  font-size="17" font-weight="700" fill="#1e293b">菜單由合格營養師擬定並提供諮詢</text>
+  <text x="120" y="166"  font-size="15" fill="#57534e">菜單需有營養師簽名，符合 A10 兼任專業人員資格規定，可查勤紀錄</text>
   <!-- 項目2 -->
   <rect x="40" y="202" width="720" height="72" rx="8" fill="#f8f7f5"/>
-  <rect x="40" y="202" width="6" height="72" rx="3" fill="#78716c"/>
-  <circle cx="80" cy="238" r="20" fill="#78716c"/>
-  <text x="80" y="244" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="120" y="226" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">提供營養均衡且多變化菜色</text>
-  <text x="120" y="250" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">不是每週重複同一批菜，菜色有變化且與當日實際餐食相符</text>
+  <rect x="40" y="202" width="6" height="72" rx="2" fill="#78716c"/>
+  <circle cx="80" cy="238" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="80" y="244"  font-size="18" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
+  <text x="120" y="226"  font-size="17" font-weight="700" fill="#1e293b">提供營養均衡且多變化菜色</text>
+  <text x="120" y="250"  font-size="15" fill="#57534e">不是每週重複同一批菜，菜色有變化且與當日實際餐食相符</text>
   <!-- 項目3 -->
   <rect x="40" y="286" width="720" height="72" rx="8" fill="#ffffff"/>
-  <rect x="40" y="286" width="6" height="72" rx="3" fill="#57534e"/>
-  <circle cx="80" cy="322" r="20" fill="#57534e"/>
-  <text x="80" y="328" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="120" y="310" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">提供至少 2 週循環菜單</text>
-  <text x="120" y="334" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">菜單週期至少 2 週，委員評鑑當天可能比對菜單與實際供餐是否相符</text>
+  <rect x="40" y="286" width="6" height="72" rx="2" fill="#57534e"/>
+  <circle cx="80" cy="322" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="80" y="328"  font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
+  <text x="120" y="310"  font-size="17" font-weight="700" fill="#1e293b">提供至少 2 週循環菜單</text>
+  <text x="120" y="334"  font-size="15" fill="#57534e">菜單週期至少 2 週，委員評鑑當天可能比對菜單與實際供餐是否相符</text>
   <!-- 項目4 -->
   <rect x="40" y="370" width="720" height="72" rx="8" fill="#f8f7f5"/>
-  <rect x="40" y="370" width="6" height="72" rx="3" fill="#94a3b8"/>
-  <circle cx="80" cy="406" r="20" fill="#94a3b8"/>
-  <text x="80" y="412" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="120" y="394" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">每週至少提供 1 次快樂餐</text>
-  <text x="120" y="418" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">讓住民依個人偏好自由選擇餐點，需在紀錄中體現提供選擇的機會</text>
+  <rect x="40" y="370" width="6" height="72" rx="2" fill="#94a3b8"/>
+  <circle cx="80" cy="406" r="20" fill="#94a3b8" opacity="0.15"/>
+  <text x="80" y="412"  font-size="18" font-weight="700" fill="#94a3b8" text-anchor="middle">4</text>
+  <text x="120" y="394"  font-size="17" font-weight="700" fill="#1e293b">每週至少提供 1 次快樂餐</text>
+  <text x="120" y="418"  font-size="15" fill="#57534e">讓住民依個人偏好自由選擇餐點，需在紀錄中體現提供選擇的機會</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

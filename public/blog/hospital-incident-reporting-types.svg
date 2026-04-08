@@ -6,7 +6,7 @@
 
   <!-- Header（y=38, h=90） -->
   <rect x="0" y="38" width="800" height="90" fill="white"/>
-  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="101" font-size="40" fill="#1e293b" font-weight="700">醫療異常事件三大分類</text>
 
   <!-- ===== Row 1（y=166）警示事件 #d97706 ===== -->

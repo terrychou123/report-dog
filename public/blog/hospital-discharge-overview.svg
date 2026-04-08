@@ -1,63 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 頂部標題區塊 -->
   <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
-  <text x="400" y="52" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">出院計畫三大評鑑條文一覽</text>
-  <text x="400" y="82" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">重點條文需通過資料查核與訪談雙重審查</text>
+  <text x="400" y="52"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">出院計畫三大評鑑條文一覽</text>
+  <text x="400" y="82"  font-size="14" fill="#a8a29e" text-anchor="middle">重點條文需通過資料查核與訪談雙重審查</text>
 
   <!-- 列 1 (y=166, H=90) -->
   <rect x="38" y="128" width="724" height="90" rx="10" fill="#fffbeb"/>
-  <rect x="38" y="128" width="6" height="90" rx="3" fill="#d97706"/>
+  <rect x="38" y="128" width="6" height="90" rx="2" fill="#d97706"/>
   <!-- 左側圓圈編號 -->
-  <circle cx="80" cy="173" r="22" fill="#d97706"/>
-  <text x="80" y="179" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2.3</text>
-  <text x="80" y="192" font-family="'Noto Sans TC', sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">.10</text>
+  <circle cx="80" cy="173" r="22" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="179"  font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">2.3</text>
+  <text x="80" y="192"  font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">.10</text>
   <!-- 標題 -->
-  <text x="118" y="156" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#92400e">出院計畫與準備（重點條文）</text>
+  <text x="118" y="156"  font-size="15" font-weight="700" fill="#92400e">出院計畫與準備（重點條文）</text>
   <!-- 說明 -->
-  <text x="118" y="177" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">資料查核＋訪談，早期啟動、出院教育完整、長照銜接落實</text>
+  <text x="118" y="177"  font-size="12" fill="#78716c">資料查核＋訪談，早期啟動、出院教育完整、長照銜接落實</text>
   <!-- 右側標籤 -->
   <rect x="626" y="149" width="112" height="26" rx="13" fill="#d97706"/>
-  <text x="682" y="167" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">雙重查核</text>
+  <text x="682" y="167"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">雙重查核</text>
   <!-- 副說明 -->
-  <text x="118" y="200" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">最高強度評鑑，需備出院護理指導單、長照轉銜評估單、病歷紀錄</text>
+  <text x="118" y="200"  font-size="11" fill="#a8a29e">最高強度評鑑，需備出院護理指導單、長照轉銜評估單、病歷紀錄</text>
 
   <!-- 列 2 (y=269, H=90) -->
   <rect x="38" y="231" width="724" height="90" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="231" width="6" height="90" rx="3" fill="#78716c"/>
+  <rect x="38" y="231" width="6" height="90" rx="2" fill="#78716c"/>
   <!-- 左側圓圈編號 -->
-  <circle cx="80" cy="276" r="22" fill="#78716c"/>
-  <text x="80" y="282" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2.3</text>
-  <text x="80" y="295" font-family="'Noto Sans TC', sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">.11</text>
+  <circle cx="80" cy="276" r="22" fill="#78716c" opacity="0.15"/>
+  <text x="80" y="282"  font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">2.3</text>
+  <text x="80" y="295"  font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">.11</text>
   <!-- 標題 -->
-  <text x="118" y="259" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">轉診轉介作業（一般條文）</text>
+  <text x="118" y="259"  font-size="15" font-weight="700" fill="#44403c">轉診轉介作業（一般條文）</text>
   <!-- 說明 -->
-  <text x="118" y="280" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">資料查核，標準化流程、完整轉診資料、確認機制</text>
+  <text x="118" y="280"  font-size="12" fill="#78716c">資料查核，標準化流程、完整轉診資料、確認機制</text>
   <!-- 右側標籤 -->
   <rect x="626" y="252" width="112" height="26" rx="13" fill="#78716c"/>
-  <text x="682" y="270" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">轉銜文書</text>
+  <text x="682" y="270"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">轉銜文書</text>
   <!-- 副說明 -->
-  <text x="118" y="303" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">轉診單、病歷摘要、影像、知情同意、接收確認，一份都不能少</text>
+  <text x="118" y="303"  font-size="11" fill="#a8a29e">轉診單、病歷摘要、影像、知情同意、接收確認，一份都不能少</text>
 
   <!-- 列 3 (y=372, H=90) -->
   <rect x="38" y="334" width="724" height="90" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="334" width="6" height="90" rx="3" fill="#57534e"/>
+  <rect x="38" y="334" width="6" height="90" rx="2" fill="#57534e"/>
   <!-- 左側圓圈編號 -->
-  <circle cx="80" cy="379" r="22" fill="#57534e"/>
-  <text x="80" y="385" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2.3</text>
-  <text x="80" y="398" font-family="'Noto Sans TC', sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">.16</text>
+  <circle cx="80" cy="379" r="22" fill="#57534e" opacity="0.15"/>
+  <text x="80" y="385"  font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">2.3</text>
+  <text x="80" y="398"  font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">.16</text>
   <!-- 標題 -->
-  <text x="118" y="362" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">病歷摘要與出院紀錄（重點條文）</text>
+  <text x="118" y="362"  font-size="15" font-weight="700" fill="#44403c">病歷摘要與出院紀錄（重點條文）</text>
   <!-- 說明 -->
-  <text x="118" y="383" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">資料查核，時限內完成、內容完整、及時提供後續照護單位</text>
+  <text x="118" y="383"  font-size="12" fill="#78716c">資料查核，時限內完成、內容完整、及時提供後續照護單位</text>
   <!-- 右側標籤 -->
   <rect x="626" y="355" width="112" height="26" rx="13" fill="#57534e"/>
-  <text x="682" y="373" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">時限管控</text>
+  <text x="682" y="373"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">時限管控</text>
   <!-- 副說明 -->
-  <text x="118" y="406" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">出院後規定時限內由醫師完成並提供後續照護單位，逾時即缺失</text>
+  <text x="118" y="406"  font-size="11" fill="#a8a29e">出院後規定時限內由醫師完成並提供後續照護單位，逾時即缺失</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
 </svg>

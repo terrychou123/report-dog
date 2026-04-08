@@ -38,7 +38,7 @@
   <!-- Row 3 (y=258): 重點項目 -->
   <rect x="28" y="258" width="744" height="62" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
   <rect x="28" y="258" width="6" height="62" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="289" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="289" r="16" fill="#dc2626"/>
   <polygon points="66,279 60,297 72,297" fill="none" stroke="#dc2626" stroke-width="2"/>
   <text x="66" y="295" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="900">!</text>
   <text x="100" y="280" font-size="18" fill="#1e293b" font-weight="700">重點項目（住宿型獨有）</text>

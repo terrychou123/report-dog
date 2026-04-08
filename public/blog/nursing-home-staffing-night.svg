@@ -1,36 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">夜班人力配置計算重點</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">最容易出現配置不足的四大盲點</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">夜班人力配置計算重點</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">最容易出現配置不足的四大盲點</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 項目1 -->
   <rect x="40" y="118" width="720" height="72" rx="8" fill="#ffffff"/>
-  <rect x="40" y="118" width="6" height="72" rx="3" fill="#d97706"/>
+  <rect x="40" y="118" width="6" height="72" rx="2" fill="#d97706"/>
   <rect x="56" y="132" width="40" height="40" rx="6" fill="#d97706"/>
-  <text x="76" y="158" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="114" y="148" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">夜班人數以「實際在班」計算</text>
-  <text x="114" y="172" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">備勤（on call）人員不算在夜班人數，必須是真正在機構值班的照服員</text>
+  <text x="76" y="158"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="114" y="148"  font-size="17" font-weight="700" fill="#1e293b">夜班人數以「實際在班」計算</text>
+  <text x="114" y="172"  font-size="15" fill="#57534e">備勤（on call）人員不算在夜班人數，必須是真正在機構值班的照服員</text>
   <!-- 項目2 -->
   <rect x="40" y="202" width="720" height="72" rx="8" fill="#f8f7f5"/>
-  <rect x="40" y="202" width="6" height="72" rx="3" fill="#78716c"/>
+  <rect x="40" y="202" width="6" height="72" rx="2" fill="#78716c"/>
   <rect x="56" y="216" width="40" height="40" rx="6" fill="#78716c"/>
-  <text x="76" y="242" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="114" y="232" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">整段夜班期間均需達標</text>
-  <text x="114" y="256" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">如 22:00 至翌日 08:00 為夜班，中間任何時點人數低於標準即屬違規</text>
+  <text x="76" y="242"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="114" y="232"  font-size="17" font-weight="700" fill="#1e293b">整段夜班期間均需達標</text>
+  <text x="114" y="256"  font-size="15" fill="#57534e">如 22:00 至翌日 08:00 為夜班，中間任何時點人數低於標準即屬違規</text>
   <!-- 項目3 -->
   <rect x="40" y="286" width="720" height="72" rx="8" fill="#ffffff"/>
-  <rect x="40" y="286" width="6" height="72" rx="3" fill="#57534e"/>
+  <rect x="40" y="286" width="6" height="72" rx="2" fill="#57534e"/>
   <rect x="56" y="300" width="40" height="40" rx="6" fill="#57534e"/>
-  <text x="76" y="326" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="114" y="316" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">夜班也需至少 1 位本國籍照服員</text>
-  <text x="114" y="340" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">即使夜班人力已達比例，若全數為外籍照服員，仍視為不符合 A11</text>
+  <text x="76" y="326"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="114" y="316"  font-size="17" font-weight="700" fill="#1e293b">夜班也需至少 1 位本國籍照服員</text>
+  <text x="114" y="340"  font-size="15" fill="#57534e">即使夜班人力已達比例，若全數為外籍照服員，仍視為不符合 A11</text>
   <!-- 項目4 -->
   <rect x="40" y="370" width="720" height="72" rx="8" fill="#f8f7f5"/>
-  <rect x="40" y="370" width="6" height="72" rx="3" fill="#94a3b8"/>
+  <rect x="40" y="370" width="6" height="72" rx="2" fill="#94a3b8"/>
   <rect x="56" y="384" width="40" height="40" rx="6" fill="#94a3b8"/>
-  <text x="76" y="410" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="114" y="400" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="700" fill="#1e293b">4 年排班記錄須完整留存</text>
-  <text x="114" y="424" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">委員查核 4 年內配置狀況，排班表與出勤記錄至少保存 4 年</text>
+  <text x="76" y="410"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="114" y="400"  font-size="17" font-weight="700" fill="#1e293b">4 年排班記錄須完整留存</text>
+  <text x="114" y="424"  font-size="15" fill="#57534e">委員查核 4 年內配置狀況，排班表與出勤記錄至少保存 4 年</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

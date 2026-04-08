@@ -1,53 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="29" width="744" height="62" rx="8" fill="#1e293b"/>
-  <text x="400" y="68" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">追蹤輔導記錄：評鑑委員查核的五大要素</text>
+  <text x="400" y="68"  font-size="22" font-weight="700" fill="white" text-anchor="middle">追蹤輔導記錄：評鑑委員查核的五大要素</text>
   <!-- Row 1 -->
   <rect x="28" y="118" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="148" r="16" fill="#d97706"/>
-  <text x="66" y="154" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">01</text>
-  <text x="100" y="142" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">明確記錄追蹤日期與方式</text>
-  <text x="100" y="165" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">電話聯絡、家訪或書面問卷需分別記錄，評鑑委員會核對追蹤頻率</text>
-  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="152" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">時間記錄</text>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154"  font-size="14" font-weight="700" fill="white" text-anchor="middle">01</text>
+  <text x="100" y="142"  font-size="17" font-weight="600" fill="#1e293b">明確記錄追蹤日期與方式</text>
+  <text x="100" y="165"  font-size="14" fill="#78716c">電話聯絡、家訪或書面問卷需分別記錄，評鑑委員會核對追蹤頻率</text>
+  <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="152"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">時間記錄</text>
   <!-- Row 2 -->
   <rect x="28" y="191" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="191" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="221" r="16" fill="#78716c"/>
-  <text x="66" y="227" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">02</text>
-  <text x="100" y="215" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">個案現況描述（生活、就業、就學）</text>
-  <text x="100" y="238" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">每次追蹤需具體說明個案在離院後的適應情形，避免只寫「狀況良好」</text>
-  <rect x="620" y="198" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="225" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">現況描述</text>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227"  font-size="14" font-weight="700" fill="white" text-anchor="middle">02</text>
+  <text x="100" y="215"  font-size="17" font-weight="600" fill="#1e293b">個案現況描述（生活、就業、就學）</text>
+  <text x="100" y="238"  font-size="14" fill="#78716c">每次追蹤需具體說明個案在離院後的適應情形，避免只寫「狀況良好」</text>
+  <rect x="620" y="198" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="225"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">現況描述</text>
   <!-- Row 3 -->
   <rect x="28" y="264" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="264" width="6" height="60" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="294" r="16" fill="#57534e"/>
-  <text x="66" y="300" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">03</text>
-  <text x="100" y="288" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">遭遇困難與機構回應方式</text>
-  <text x="100" y="311" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">記錄個案面臨的困境（租屋、就業、家庭）以及機構提供的協助或轉介</text>
-  <rect x="620" y="271" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="298" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">困難回應</text>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300"  font-size="14" font-weight="700" fill="white" text-anchor="middle">03</text>
+  <text x="100" y="288"  font-size="17" font-weight="600" fill="#1e293b">遭遇困難與機構回應方式</text>
+  <text x="100" y="311"  font-size="14" fill="#78716c">記錄個案面臨的困境（租屋、就業、家庭）以及機構提供的協助或轉介</text>
+  <rect x="620" y="271" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="298"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">困難回應</text>
   <!-- Row 4 -->
   <rect x="28" y="337" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="337" width="6" height="60" rx="3" fill="#94a3b8"/>
-  <circle cx="66" cy="367" r="16" fill="#94a3b8"/>
-  <text x="66" y="373" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">04</text>
-  <text x="100" y="361" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">無法聯繫個案的處理紀錄</text>
-  <text x="100" y="384" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">若個案失聯，需記錄嘗試聯繫方式（電話、書信、家訪），以及後續處置</text>
-  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="371" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">失聯處置</text>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="373"  font-size="14" font-weight="700" fill="white" text-anchor="middle">04</text>
+  <text x="100" y="361"  font-size="17" font-weight="600" fill="#1e293b">無法聯繫個案的處理紀錄</text>
+  <text x="100" y="384"  font-size="14" fill="#78716c">若個案失聯，需記錄嘗試聯繫方式（電話、書信、家訪），以及後續處置</text>
+  <rect x="620" y="344" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="371"  font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">失聯處置</text>
   <!-- Row 5 -->
   <rect x="28" y="410" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="410" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="440" r="16" fill="#d97706"/>
-  <text x="66" y="446" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">05</text>
-  <text x="100" y="434" font-family="'Noto Sans TC', sans-serif" font-size="17" font-weight="600" fill="#1e293b">追蹤結束或結案說明</text>
-  <text x="100" y="457" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">說明追蹤輔導結束的原因與時間點，例如個案穩定自立、達追蹤期限等</text>
-  <rect x="620" y="417" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="444" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">結案說明</text>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="440" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="446"  font-size="14" font-weight="700" fill="white" text-anchor="middle">05</text>
+  <text x="100" y="434"  font-size="17" font-weight="600" fill="#1e293b">追蹤結束或結案說明</text>
+  <text x="100" y="457"  font-size="14" fill="#78716c">說明追蹤輔導結束的原因與時間點，例如個案穩定自立、達追蹤期限等</text>
+  <rect x="620" y="417" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="444"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">結案說明</text>
   <!-- Watermark -->
-  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16"  fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

@@ -1,51 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題 -->
-  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">修法對評鑑的影響面向</text>
-  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">需更新的SOP與文件範疇</text>
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle"  font-weight="700">修法對評鑑的影響面向</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" >需更新的SOP與文件範疇</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 卡片1 B1.10 -->
   <rect x="40" y="114" width="168" height="340" rx="12" fill="#d97706"/>
-  <text x="124" y="155" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">B1.10</text>
-  <text x="124" y="178" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">緊急事件</text>
+  <text x="124" y="155" font-size="18" fill="white" text-anchor="middle"  font-weight="700">B1.10</text>
+  <text x="124" y="178" font-size="16" fill="white" text-anchor="middle" >緊急事件</text>
   <line x1="60" y1="195" x2="188" y2="195" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="124" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">擅離院通報</text>
-  <text x="124" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">流程需符合</text>
-  <text x="124" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">新法第52條</text>
-  <text x="124" y="288" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">規定</text>
+  <text x="124" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >擅離院通報</text>
+  <text x="124" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >流程需符合</text>
+  <text x="124" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >新法第52條</text>
+  <text x="124" y="288" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >規定</text>
 
   <!-- 卡片2 D1.1 -->
   <rect x="220" y="114" width="168" height="340" rx="12" fill="#78716c"/>
-  <text x="304" y="155" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">D1.1</text>
-  <text x="304" y="178" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">住民信仰</text>
+  <text x="304" y="155" font-size="18" fill="white" text-anchor="middle"  font-weight="700">D1.1</text>
+  <text x="304" y="178" font-size="16" fill="white" text-anchor="middle" >住民信仰</text>
   <line x1="240" y1="195" x2="368" y2="195" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="304" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">宗教信仰尊重</text>
-  <text x="304" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">心靈關懷需有</text>
-  <text x="304" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">具體執行</text>
-  <text x="304" y="288" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">記錄</text>
+  <text x="304" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >宗教信仰尊重</text>
+  <text x="304" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >心靈關懷需有</text>
+  <text x="304" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >具體執行</text>
+  <text x="304" y="288" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >記錄</text>
 
   <!-- 卡片3 D1.2 -->
   <rect x="400" y="114" width="168" height="340" rx="12" fill="#57534e"/>
-  <text x="484" y="155" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">D1.2</text>
-  <text x="484" y="178" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">病人自主</text>
+  <text x="484" y="155" font-size="18" fill="white" text-anchor="middle"  font-weight="700">D1.2</text>
+  <text x="484" y="178" font-size="16" fill="white" text-anchor="middle" >病人自主</text>
   <line x1="420" y1="195" x2="548" y2="195" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="484" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">預立醫療</text>
-  <text x="484" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">決定推動，</text>
-  <text x="484" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">住民自主</text>
-  <text x="484" y="288" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">權利紀錄</text>
+  <text x="484" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >預立醫療</text>
+  <text x="484" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >決定推動，</text>
+  <text x="484" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >住民自主</text>
+  <text x="484" y="288" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >權利紀錄</text>
 
   <!-- 卡片4 A1.1 -->
   <rect x="580" y="114" width="180" height="340" rx="12" fill="#a8a29e"/>
-  <text x="670" y="155" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">A1.1</text>
-  <text x="670" y="178" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">業務計畫</text>
+  <text x="670" y="155" font-size="18" fill="white" text-anchor="middle"  font-weight="700">A1.1</text>
+  <text x="670" y="178" font-size="16" fill="white" text-anchor="middle" >業務計畫</text>
   <line x1="600" y1="195" x2="740" y2="195" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="670" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">將法規遵循</text>
-  <text x="670" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">列為機構政策</text>
-  <text x="670" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">納入業務計畫</text>
+  <text x="670" y="222" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >將法規遵循</text>
+  <text x="670" y="244" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >列為機構政策</text>
+  <text x="670" y="266" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >納入業務計畫</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

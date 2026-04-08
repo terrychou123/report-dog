@@ -1,65 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header -->
   <rect x="28" y="16" width="744" height="60" rx="12" fill="#d97706"/>
-  <text x="400" y="53" font-family="'Noto Sans TC', sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="middle">評鑑最常失分的 TOP 5 項目</text>
+  <text x="400" y="53"  font-size="20" fill="white" font-weight="700" text-anchor="middle">評鑑最常失分的 TOP 5 項目</text>
 
   <!-- Row 1: Item 16 -->
   <rect x="28" y="118" width="744" height="60" rx="12" fill="white"/>
-  <rect x="28" y="118" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="148" r="16" fill="#d97706"/>
-  <text x="66" y="154" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="700">1</text>
-  <text x="100" y="142" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">項目 16：兒少輔導目標達成</text>
-  <text x="100" y="163" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">缺乏追蹤紀錄、目標設定流於形式</text>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154"  font-size="15" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="100" y="142"  font-size="15" fill="#1e293b" font-weight="700">項目 16：兒少輔導目標達成</text>
+  <text x="100" y="163"  font-size="13" fill="#57534e">缺乏追蹤紀錄、目標設定流於形式</text>
   <rect x="660" y="125" width="100" height="46" rx="8" fill="#fef3c7"/>
-  <text x="710" y="145" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">15 分</text>
-  <text x="710" y="162" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#d97706" text-anchor="middle">最高配分</text>
+  <text x="710" y="145"  font-size="13" fill="#d97706" text-anchor="middle" font-weight="700">15 分</text>
+  <text x="710" y="162"  font-size="11" fill="#d97706" text-anchor="middle">最高配分</text>
 
   <!-- Row 2: Item 22 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white"/>
-  <rect x="28" y="191" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="221" r="16" fill="#78716c"/>
-  <text x="66" y="227" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="700">2</text>
-  <text x="100" y="215" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">項目 22：2歲以上在院生活輔導</text>
-  <text x="100" y="236" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">15 個子面向任一缺漏即扣分</text>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227"  font-size="15" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="100" y="215"  font-size="15" fill="#1e293b" font-weight="700">項目 22：2歲以上在院生活輔導</text>
+  <text x="100" y="236"  font-size="13" fill="#57534e">15 個子面向任一缺漏即扣分</text>
   <rect x="660" y="198" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="218" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">15 分</text>
-  <text x="710" y="235" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c" text-anchor="middle">最複雜項目</text>
+  <text x="710" y="218"  font-size="13" fill="#78716c" text-anchor="middle" font-weight="700">15 分</text>
+  <text x="710" y="235"  font-size="11" fill="#78716c" text-anchor="middle">最複雜項目</text>
 
   <!-- Row 3: Item 29 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white"/>
-  <rect x="28" y="264" width="6" height="60" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="294" r="16" fill="#57534e"/>
-  <text x="66" y="300" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="700">3</text>
-  <text x="100" y="288" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">項目 29：財務管理</text>
-  <text x="100" y="309" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">前次評鑑補件未完成、財務文件不齊全</text>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300"  font-size="15" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="100" y="288"  font-size="15" fill="#1e293b" font-weight="700">項目 29：財務管理</text>
+  <text x="100" y="309"  font-size="13" fill="#57534e">前次評鑑補件未完成、財務文件不齊全</text>
   <rect x="660" y="271" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="291" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e" text-anchor="middle" font-weight="700">20 分</text>
-  <text x="710" y="308" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#57534e" text-anchor="middle">主管機關評</text>
+  <text x="710" y="291"  font-size="13" fill="#57534e" text-anchor="middle" font-weight="700">20 分</text>
+  <text x="710" y="308"  font-size="11" fill="#57534e" text-anchor="middle">主管機關評</text>
 
   <!-- Row 4: Item 26 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white"/>
-  <rect x="28" y="337" width="6" height="60" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="367" r="16" fill="#a8a29e"/>
-  <text x="66" y="373" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="700">4</text>
-  <text x="100" y="361" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">項目 26：資源結合與運用</text>
-  <text x="100" y="382" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">資源網絡清冊過期未更新</text>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373"  font-size="15" fill="white" text-anchor="middle" font-weight="700">4</text>
+  <text x="100" y="361"  font-size="15" fill="#1e293b" font-weight="700">項目 26：資源結合與運用</text>
+  <text x="100" y="382"  font-size="13" fill="#57534e">資源網絡清冊過期未更新</text>
   <rect x="660" y="344" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="364" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#a8a29e" text-anchor="middle" font-weight="700">6 分</text>
-  <text x="710" y="381" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e" text-anchor="middle">6個面向</text>
+  <text x="710" y="364"  font-size="13" fill="#a8a29e" text-anchor="middle" font-weight="700">6 分</text>
+  <text x="710" y="381"  font-size="11" fill="#a8a29e" text-anchor="middle">6個面向</text>
 
   <!-- Row 5: Item 25 & 28 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white"/>
-  <rect x="28" y="410" width="6" height="60" rx="3" fill="#94a3b8"/>
-  <circle cx="66" cy="440" r="16" fill="#94a3b8"/>
-  <text x="66" y="446" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="700">5</text>
-  <text x="100" y="434" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#1e293b" font-weight="700">項目 25：申訴制度 ／ 項目 28：專業成長</text>
-  <text x="100" y="455" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#57534e">零用金稽查、督導紀錄未落實</text>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446"  font-size="15" fill="white" text-anchor="middle" font-weight="700">5</text>
+  <text x="100" y="434"  font-size="15" fill="#1e293b" font-weight="700">項目 25：申訴制度 ／ 項目 28：專業成長</text>
+  <text x="100" y="455"  font-size="13" fill="#57534e">零用金稽查、督導紀錄未落實</text>
   <rect x="660" y="417" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="437" font-family="'Noto Sans TC', sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle" font-weight="700">各 2 分</text>
-  <text x="710" y="454" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">高扣分率</text>
+  <text x="710" y="437"  font-size="13" fill="#94a3b8" text-anchor="middle" font-weight="700">各 2 分</text>
+  <text x="710" y="454"  font-size="11" fill="#94a3b8" text-anchor="middle">高扣分率</text>
 
   <!-- Watermark -->
-  <text x="760" y="480" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

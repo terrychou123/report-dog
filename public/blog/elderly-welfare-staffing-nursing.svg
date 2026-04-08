@@ -1,63 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
   <rect x="0" y="0" width="800" height="76" fill="#1e293b"/>
-  <text x="400" y="29" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">A9 護理人員設置情形</text>
-  <text x="400" y="57" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="700">護理人員法定標準 — 24H 排班是核心</text>
+  <text x="400" y="29"  font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="400">A9 護理人員設置情形</text>
+  <text x="400" y="57"  font-size="22" fill="white" text-anchor="middle" font-weight="700">護理人員法定標準 — 24H 排班是核心</text>
 
   <!-- N=4 版型: H=62, outer_gap=50, Row y: 160/235/310/385 -->
 
   <!-- Row 1: 人數符合設置標準 -->
   <rect x="50" y="100" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="100" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="87" cy="131" r="16" fill="#d97706"/>
-  <text x="87" y="137" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">1</text>
-  <text x="118" y="125" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">聘任人數符合機構設置標準</text>
-  <text x="118" y="148" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">依住宿型機構設置標準按床數比例配置；評鑑核對投保名冊與排班表</text>
-  <rect x="556" y="108" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="624" y="127" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">床數比例</text>
-  <text x="624" y="145" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">依法配置</text>
+  <rect x="50" y="100" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="87" cy="131" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="87" y="137"  font-size="14" fill="white" text-anchor="middle" font-weight="700">1</text>
+  <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">聘任人數符合機構設置標準</text>
+  <text x="118" y="148"  font-size="16" fill="#57534e">依住宿型機構設置標準按床數比例配置；評鑑核對投保名冊與排班表</text>
+  <rect x="556" y="108" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="624" y="127"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">床數比例</text>
+  <text x="624" y="145"  font-size="14" fill="#57534e" text-anchor="middle">依法配置</text>
 
   <!-- Row 2: 執業登錄 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="175" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="87" cy="206" r="16" fill="#78716c"/>
-  <text x="87" y="212" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
-  <text x="118" y="200" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">完成執業登錄</text>
-  <text x="118" y="223" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">登錄機構須與實際服務機構一致；跨機構執業需有支援報備公文</text>
-  <rect x="556" y="183" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="624" y="202" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">登錄確認</text>
-  <text x="624" y="220" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">機構一致</text>
+  <rect x="50" y="175" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="87" cy="206" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="87" y="212"  font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
+  <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">完成執業登錄</text>
+  <text x="118" y="223"  font-size="16" fill="#57534e">登錄機構須與實際服務機構一致；跨機構執業需有支援報備公文</text>
+  <rect x="556" y="183" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="624" y="202"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">登錄確認</text>
+  <text x="624" y="220"  font-size="14" fill="#57534e" text-anchor="middle">機構一致</text>
 
   <!-- Row 3: 全日排班 -->
   <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="250" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="87" cy="281" r="16" fill="#57534e"/>
-  <text x="87" y="287" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
-  <text x="118" y="275" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">全日均應有護理人員上班（24H）</text>
-  <text x="118" y="298" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">日班、小夜班、大夜班均需護理人員值班；不得以照服員代理</text>
-  <rect x="556" y="258" width="136" height="46" rx="6" fill="#fef2f2"/>
-  <text x="624" y="277" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">硬性要求</text>
-  <text x="624" y="295" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#dc2626" text-anchor="middle">最常扣分</text>
+  <rect x="50" y="250" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="87" cy="281" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="87" y="287"  font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
+  <text x="118" y="275"  font-size="20" fill="#1e293b" font-weight="700">全日均應有護理人員上班（24H）</text>
+  <text x="118" y="298"  font-size="16" fill="#57534e">日班、小夜班、大夜班均需護理人員值班；不得以照服員代理</text>
+  <rect x="556" y="258" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="624" y="277"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">硬性要求</text>
+  <text x="624" y="295"  font-size="14" fill="#dc2626" text-anchor="middle">最常扣分</text>
 
   <!-- Row 4: 近5年無違規 -->
   <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
-  <rect x="50" y="325" width="6" height="62" rx="3" fill="#a8a29e"/>
-  <circle cx="87" cy="356" r="16" fill="#a8a29e"/>
-  <text x="87" y="362" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">4</text>
-  <text x="118" y="350" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" fill="#1e293b" font-weight="700">近 5 年無違規聘用紀錄</text>
-  <text x="118" y="373" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#57534e">由主管機關直接提供資料；機構需事先向主管機關確認是否有紀錄</text>
-  <rect x="556" y="333" width="136" height="46" rx="6" fill="#f5f5f4"/>
-  <text x="624" y="352" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">主管機關</text>
-  <text x="624" y="370" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">提供資料</text>
+  <rect x="50" y="325" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="87" cy="356" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="87" y="362"  font-size="14" fill="white" text-anchor="middle" font-weight="700">4</text>
+  <text x="118" y="350"  font-size="20" fill="#1e293b" font-weight="700">近 5 年無違規聘用紀錄</text>
+  <text x="118" y="373"  font-size="16" fill="#57534e">由主管機關直接提供資料；機構需事先向主管機關確認是否有紀錄</text>
+  <rect x="556" y="333" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
+  <text x="624" y="352"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">主管機關</text>
+  <text x="624" y="370"  font-size="14" fill="#57534e" text-anchor="middle">提供資料</text>
 
   <!-- 警示說明 -->
   <rect x="50" y="404" width="700" height="52" rx="8" fill="#fef2f2" opacity="0.8"/>
-  <text x="400" y="425" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">夜班空窗最常被查核：排班表需呈現三班，並備妥護理人員簽到紀錄</text>
-  <text x="400" y="446" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="15" fill="#dc2626" text-anchor="middle">假日、連假期間亦須有護理人員在班，建議提前準備備用排班名單</text>
+  <text x="400" y="425"  font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">夜班空窗最常被查核：排班表需呈現三班，並備妥護理人員簽到紀錄</text>
+  <text x="400" y="446"  font-size="15" fill="#dc2626" text-anchor="middle">假日、連假期間亦須有護理人員在班，建議提前準備備用排班名單</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', 'PingFang TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

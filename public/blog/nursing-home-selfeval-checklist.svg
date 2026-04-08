@@ -10,52 +10,52 @@
   <text x="430" y="122" font-size="15" fill="#78716c" font-weight="700">分析報告 ／ E1 改善</text>
 
   <rect x="40" y="132" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="40" y="132" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="132" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="156" font-size="14" fill="#57534e">□ 9個一級必要項目逐一確認達標</text>
 
   <rect x="40" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="40" y="176" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="176" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="200" font-size="14" fill="#57534e">□ 8個二級加強項目佐證文件備齊</text>
 
   <rect x="40" y="220" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="40" y="220" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="220" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="244" font-size="14" fill="#57534e">□ 自評表填寫說明有具體數字描述</text>
 
   <rect x="40" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="40" y="264" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="264" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="288" font-size="14" fill="#57534e">□ 佐證文件製作索引頁碼</text>
 
   <rect x="40" y="308" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="40" y="308" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="308" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="332" font-size="14" fill="#57534e">□ A4 過去4年查核缺失改善100%確認</text>
 
   <rect x="40" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="40" y="352" width="6" height="36" rx="3" fill="#d97706"/>
+  <rect x="40" y="352" width="6" height="36" rx="2" fill="#d97706"/>
   <text x="58" y="376" font-size="14" fill="#57534e">□ A6 危機管理計畫含3項以上風險</text>
 
   <!-- 右欄 - 分析與E1 -->
   <rect x="410" y="132" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="410" y="132" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="132" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="156" font-size="14" fill="#57534e">□ B13 跌倒半年分析報告含改善方案</text>
 
   <rect x="410" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="410" y="176" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="176" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="200" font-size="14" fill="#57534e">□ B14 壓損每季分析報告完整（長養失）</text>
 
   <rect x="410" y="220" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="410" y="220" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="220" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="244" font-size="14" fill="#57534e">□ B17 感染半年分析報告含改善SOP</text>
 
   <rect x="410" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="410" y="264" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="264" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="288" font-size="14" fill="#57534e">□ E1 前次建議改善對照表已製作</text>
 
   <rect x="410" y="308" width="350" height="36" rx="6" fill="#fff"/>
-  <rect x="410" y="308" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="308" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="332" font-size="14" fill="#57534e">□ E1 改善比例計算達 80% 以上</text>
 
   <rect x="410" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
-  <rect x="410" y="352" width="6" height="36" rx="3" fill="#78716c"/>
+  <rect x="410" y="352" width="6" height="36" rx="2" fill="#78716c"/>
   <text x="428" y="376" font-size="14" fill="#57534e">□ 文件和自評內容交叉比對一致</text>
 
   <!-- 底部 -->

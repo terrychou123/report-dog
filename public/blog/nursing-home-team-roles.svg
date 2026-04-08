@@ -4,7 +4,7 @@
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="94" fill="white"/>
-  <rect x="0" y="0" width="6" height="94" fill="#d97706"/>
+  <rect x="0" y="0" width="6" height="94" fill="#d97706" rx="2"/>
   <text x="400" y="48" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">5大職種分工一覽</text>
   <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">住宿型機構評鑑職種責任表</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>

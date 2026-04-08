@@ -8,7 +8,7 @@
   <!-- 流程卡片 1：制定EOP -->
   <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <circle cx="115" cy="201" r="44" fill="#d97706" opacity="0.15"/>
-  <circle cx="115" cy="201" r="30" fill="#d97706"/>
+  <circle cx="115" cy="201" r="30" fill="#d97706" opacity="0.15"/>
   <text x="115" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
   <text x="115" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">1</text>
   <text x="115" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">制定 EOP</text>
@@ -24,7 +24,7 @@
   <!-- 流程卡片 2：上半年演練 -->
   <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <circle cx="305" cy="201" r="44" fill="#78716c" opacity="0.15"/>
-  <circle cx="305" cy="201" r="30" fill="#78716c"/>
+  <circle cx="305" cy="201" r="30" fill="#78716c" opacity="0.15"/>
   <text x="305" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
   <text x="305" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">2</text>
   <text x="305" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">上半年演練</text>
@@ -40,7 +40,7 @@
   <!-- 流程卡片 3：複合型夜間演練 -->
   <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <circle cx="495" cy="201" r="44" fill="#57534e" opacity="0.15"/>
-  <circle cx="495" cy="201" r="30" fill="#57534e"/>
+  <circle cx="495" cy="201" r="30" fill="#57534e" opacity="0.15"/>
   <text x="495" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
   <text x="495" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">3</text>
   <text x="495" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">夜間複合演練</text>
@@ -56,7 +56,7 @@
   <!-- 流程卡片 4：檢討改善 -->
   <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <circle cx="685" cy="201" r="44" fill="#94a3b8" opacity="0.2"/>
-  <circle cx="685" cy="201" r="30" fill="#94a3b8"/>
+  <circle cx="685" cy="201" r="30" fill="#94a3b8" opacity="0.15"/>
   <text x="685" y="195" font-size="18" fill="white" text-anchor="middle" font-weight="600">STEP</text>
   <text x="685" y="220" font-size="29" fill="white" text-anchor="middle" font-weight="700">4</text>
   <text x="685" y="299" font-size="15" fill="#1e293b" text-anchor="middle" font-weight="700">檢討與追蹤</text>

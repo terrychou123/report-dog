@@ -4,7 +4,7 @@
 
   <!-- Header (N=3: y=38, h=76) -->
   <rect x="0" y="38" width="800" height="76" fill="white"/>
-  <rect x="0" y="38" width="6" height="76" fill="#d97706"/>
+  <rect x="0" y="38" width="6" height="76" fill="#d97706" rx="2"/>
   <text x="28" y="92" font-size="36" fill="#1e293b" font-weight="700">壹、個案權益保障（項 1–4）</text>
 
   <!-- Row 1 (y=166) amber #d97706, N=3: H=90 -->

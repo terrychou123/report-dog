@@ -1,52 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">缺失改善追蹤建議時程</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">從發現缺失到固化標準的六個月路線圖</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">缺失改善追蹤建議時程</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">從發現缺失到固化標準的六個月路線圖</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 時間軸主線 -->
   <line x1="80" y1="270" x2="720" y2="270" stroke="#d97706" stroke-width="3"/>
   <!-- 時間點1：第0週 -->
-  <circle cx="80" cy="270" r="14" fill="#d97706"/>
-  <text x="80" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">發現</text>
-  <text x="80" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">缺失</text>
+  <circle cx="80" cy="270" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="316"  font-size="14" fill="#57534e" text-anchor="middle">發現</text>
+  <text x="80" y="334"  font-size="14" fill="#57534e" text-anchor="middle">缺失</text>
   <rect x="30" y="170" width="100" height="76" rx="8" fill="#d97706"/>
-  <text x="80" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 0 週</text>
-  <text x="80" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">分類性質</text>
-  <text x="80" y="234" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">指定負責人</text>
+  <text x="80" y="200"  font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 0 週</text>
+  <text x="80" y="218"  font-size="12" fill="#fff3cd" text-anchor="middle">分類性質</text>
+  <text x="80" y="234"  font-size="12" fill="#fff3cd" text-anchor="middle">指定負責人</text>
   <!-- 時間點2：第1-2週 -->
-  <circle cx="240" cy="270" r="14" fill="#78716c"/>
-  <text x="240" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">執行</text>
-  <text x="240" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">改善</text>
+  <circle cx="240" cy="270" r="14" fill="#78716c" opacity="0.15"/>
+  <text x="240" y="316"  font-size="14" fill="#57534e" text-anchor="middle">執行</text>
+  <text x="240" y="334"  font-size="14" fill="#57534e" text-anchor="middle">改善</text>
   <rect x="190" y="170" width="100" height="76" rx="8" fill="#78716c"/>
-  <text x="240" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 1-2 週</text>
-  <text x="240" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">落實改善</text>
-  <text x="240" y="234" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">留存佐證</text>
+  <text x="240" y="200"  font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 1-2 週</text>
+  <text x="240" y="218"  font-size="12" fill="#d4ccc8" text-anchor="middle">落實改善</text>
+  <text x="240" y="234"  font-size="12" fill="#d4ccc8" text-anchor="middle">留存佐證</text>
   <!-- 時間點3：第4週 -->
-  <circle cx="400" cy="270" r="14" fill="#57534e"/>
-  <text x="400" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">第一次</text>
-  <text x="400" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">查核</text>
+  <circle cx="400" cy="270" r="14" fill="#57534e" opacity="0.15"/>
+  <text x="400" y="316"  font-size="14" fill="#57534e" text-anchor="middle">第一次</text>
+  <text x="400" y="334"  font-size="14" fill="#57534e" text-anchor="middle">查核</text>
   <rect x="350" y="170" width="100" height="76" rx="8" fill="#57534e"/>
-  <text x="400" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 4 週</text>
-  <text x="400" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">內部查核</text>
-  <text x="400" y="234" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#d4ccc8" text-anchor="middle">確認持續</text>
+  <text x="400" y="200"  font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 4 週</text>
+  <text x="400" y="218"  font-size="12" fill="#d4ccc8" text-anchor="middle">內部查核</text>
+  <text x="400" y="234"  font-size="12" fill="#d4ccc8" text-anchor="middle">確認持續</text>
   <!-- 時間點4：第12週 -->
-  <circle cx="560" cy="270" r="14" fill="#94a3b8"/>
-  <text x="560" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">第二次</text>
-  <text x="560" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">查核</text>
+  <circle cx="560" cy="270" r="14" fill="#94a3b8" opacity="0.15"/>
+  <text x="560" y="316"  font-size="14" fill="#57534e" text-anchor="middle">第二次</text>
+  <text x="560" y="334"  font-size="14" fill="#57534e" text-anchor="middle">查核</text>
   <rect x="510" y="170" width="100" height="76" rx="8" fill="#94a3b8"/>
-  <text x="560" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 12 週</text>
-  <text x="560" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">品質會議</text>
-  <text x="560" y="234" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">列入議程</text>
+  <text x="560" y="200"  font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 12 週</text>
+  <text x="560" y="218"  font-size="12" fill="#e2e8f0" text-anchor="middle">品質會議</text>
+  <text x="560" y="234"  font-size="12" fill="#e2e8f0" text-anchor="middle">列入議程</text>
   <!-- 時間點5：第24週 -->
-  <circle cx="720" cy="270" r="14" fill="#d97706"/>
-  <text x="720" y="316" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">固化</text>
-  <text x="720" y="334" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">標準</text>
+  <circle cx="720" cy="270" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="720" y="316"  font-size="14" fill="#57534e" text-anchor="middle">固化</text>
+  <text x="720" y="334"  font-size="14" fill="#57534e" text-anchor="middle">標準</text>
   <rect x="670" y="170" width="100" height="76" rx="8" fill="#d97706"/>
-  <text x="720" y="200" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 24 週</text>
-  <text x="720" y="218" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">修訂 SOP</text>
-  <text x="720" y="234" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#fff3cd" text-anchor="middle">納入訓練</text>
+  <text x="720" y="200"  font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">第 24 週</text>
+  <text x="720" y="218"  font-size="12" fill="#fff3cd" text-anchor="middle">修訂 SOP</text>
+  <text x="720" y="234"  font-size="12" fill="#fff3cd" text-anchor="middle">納入訓練</text>
   <!-- 底部說明 -->
-  <text x="400" y="390" font-family="'Noto Sans TC', sans-serif" font-size="16" fill="#57534e" text-anchor="middle">6 個月完整改善週期 ＝ A4 條「改善率 100%」的文件基礎</text>
+  <text x="400" y="390"  font-size="16" fill="#57534e" text-anchor="middle">6 個月完整改善週期 ＝ A4 條「改善率 100%」的文件基礎</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

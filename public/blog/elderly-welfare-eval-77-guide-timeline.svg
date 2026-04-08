@@ -25,15 +25,15 @@
   <!-- 連接線 -->
   <line x1="80" y1="210" x2="80" y2="244" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 軸上節點 -->
-  <circle cx="80" cy="252" r="8" fill="#d97706"/>
+  <circle cx="80" cy="252" r="8" fill="#d97706" opacity="0.15"/>
   <circle cx="80" cy="252" r="5" fill="white"/>
-  <circle cx="80" cy="252" r="3" fill="#d97706"/>
+  <circle cx="80" cy="252" r="3" fill="#d97706" opacity="0.15"/>
 
   <!-- ===== 節點 2：評鑑前 4-5 個月（下，#78716c）===== -->
   <!-- 軸上節點 -->
-  <circle cx="240" cy="252" r="8" fill="#78716c"/>
+  <circle cx="240" cy="252" r="8" fill="#78716c" opacity="0.15"/>
   <circle cx="240" cy="252" r="5" fill="white"/>
-  <circle cx="240" cy="252" r="3" fill="#78716c"/>
+  <circle cx="240" cy="252" r="3" fill="#78716c" opacity="0.15"/>
   <!-- 連接線 -->
   <line x1="240" y1="260" x2="240" y2="277" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 下方卡片 -->
@@ -61,15 +61,15 @@
   <!-- 連接線 -->
   <line x1="400" y1="210" x2="400" y2="244" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 軸上節點 -->
-  <circle cx="400" cy="252" r="8" fill="#57534e"/>
+  <circle cx="400" cy="252" r="8" fill="#57534e" opacity="0.15"/>
   <circle cx="400" cy="252" r="5" fill="white"/>
-  <circle cx="400" cy="252" r="3" fill="#57534e"/>
+  <circle cx="400" cy="252" r="3" fill="#57534e" opacity="0.15"/>
 
   <!-- ===== 節點 4：評鑑前 1-2 個月（下，#a8a29e）===== -->
   <!-- 軸上節點 -->
-  <circle cx="560" cy="252" r="8" fill="#a8a29e"/>
+  <circle cx="560" cy="252" r="8" fill="#a8a29e" opacity="0.15"/>
   <circle cx="560" cy="252" r="5" fill="white"/>
-  <circle cx="560" cy="252" r="3" fill="#a8a29e"/>
+  <circle cx="560" cy="252" r="3" fill="#a8a29e" opacity="0.15"/>
   <!-- 連接線 -->
   <line x1="560" y1="260" x2="560" y2="277" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 下方卡片 -->
@@ -97,9 +97,9 @@
   <!-- 連接線 -->
   <line x1="720" y1="210" x2="720" y2="244" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,3"/>
   <!-- 軸上節點 -->
-  <circle cx="720" cy="252" r="8" fill="#94a3b8"/>
+  <circle cx="720" cy="252" r="8" fill="#94a3b8" opacity="0.15"/>
   <circle cx="720" cy="252" r="5" fill="white"/>
-  <circle cx="720" cy="252" r="3" fill="#94a3b8"/>
+  <circle cx="720" cy="252" r="3" fill="#94a3b8" opacity="0.15"/>
 
   <!-- 評鑑日標記 -->
   <text x="740" y="242" font-size="12" fill="#dc2626" font-weight="700">評鑑日</text>

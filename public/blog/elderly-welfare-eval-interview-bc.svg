@@ -1,54 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#1e293b"/>
-  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff" font-family="sans-serif" text-anchor="middle">B/C 區常見訪談問題</text>
-  <text x="400" y="72" font-size="15" fill="#94a3b8" font-family="sans-serif" text-anchor="middle">專業照護・安全環境｜數字要背、設備要演練</text>
+  <text x="400" y="44" font-size="22" font-weight="700" fill="#ffffff"  text-anchor="middle">B/C 區常見訪談問題</text>
+  <text x="400" y="72" font-size="15" fill="#94a3b8"  text-anchor="middle">專業照護・安全環境｜數字要背、設備要演練</text>
 
   <!-- N=4，Row y: 160/235/310/385，H=62，outer_gap=50 -->
 
   <!-- Row 1 -->
   <rect x="29" y="148" width="742" height="62" rx="6" fill="#ffffff"/>
-  <rect x="29" y="148" width="6" height="62" rx="3" fill="#d97706"/>
+  <rect x="29" y="148" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="179" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="184" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">B2</text>
-  <text x="100" y="170" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">個案服務計畫多久重新評估？誰參與評估？</text>
-  <text x="100" y="193" font-size="13" fill="#57534e" font-family="sans-serif">備答：每3個月，社工/護理/照服共同評估，說出最近評估日</text>
-  <rect x="620" y="161" width="136" height="36" rx="6" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="184" font-size="13" font-weight="700" fill="#d97706" font-family="sans-serif" text-anchor="middle">二級加強</text>
+  <text x="66" y="184" font-size="13" font-weight="700" fill="#d97706"  text-anchor="middle">B2</text>
+  <text x="100" y="170" font-size="15" font-weight="700" fill="#1e293b" >個案服務計畫多久重新評估？誰參與評估？</text>
+  <text x="100" y="193" font-size="13" fill="#57534e" >備答：每3個月，社工/護理/照服共同評估，說出最近評估日</text>
+  <rect x="620" y="161" width="136" height="36" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="184" font-size="13" font-weight="700" fill="#d97706"  text-anchor="middle">二級加強</text>
 
   <!-- Row 2 -->
   <rect x="29" y="223" width="742" height="62" rx="6" fill="#ffffff"/>
-  <rect x="29" y="223" width="6" height="62" rx="3" fill="#78716c"/>
+  <rect x="29" y="223" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="254" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="259" font-size="13" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">B13</text>
-  <text x="100" y="245" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">如何追蹤七大監測指標？有哪些改善例子？</text>
-  <text x="100" y="268" font-size="13" fill="#57534e" font-family="sans-serif">備答：背出本季各項案例數，說出具體改善措施與成效</text>
-  <rect x="620" y="236" width="136" height="36" rx="6" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="259" font-size="13" font-weight="700" fill="#78716c" font-family="sans-serif" text-anchor="middle">每季PDCA</text>
+  <text x="66" y="259" font-size="13" font-weight="700" fill="#78716c"  text-anchor="middle">B13</text>
+  <text x="100" y="245" font-size="15" font-weight="700" fill="#1e293b" >如何追蹤七大監測指標？有哪些改善例子？</text>
+  <text x="100" y="268" font-size="13" fill="#57534e" >備答：背出本季各項案例數，說出具體改善措施與成效</text>
+  <rect x="620" y="236" width="136" height="36" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="259" font-size="13" font-weight="700" fill="#78716c"  text-anchor="middle">每季PDCA</text>
 
   <!-- Row 3 -->
   <rect x="29" y="298" width="742" height="62" rx="6" fill="#ffffff"/>
-  <rect x="29" y="298" width="6" height="62" rx="3" fill="#57534e"/>
+  <rect x="29" y="298" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="329" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="334" font-size="13" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">B10</text>
-  <text x="100" y="320" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">防疫 SOP 最近一次更新是何時？調整了什麼？</text>
-  <text x="100" y="343" font-size="13" fill="#57534e" font-family="sans-serif">備答：說出感染管制手冊最近更新日期與具體調整內容</text>
-  <rect x="620" y="311" width="136" height="36" rx="6" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="334" font-size="13" font-weight="700" fill="#57534e" font-family="sans-serif" text-anchor="middle">二級加強</text>
+  <text x="66" y="334" font-size="13" font-weight="700" fill="#57534e"  text-anchor="middle">B10</text>
+  <text x="100" y="320" font-size="15" font-weight="700" fill="#1e293b" >防疫 SOP 最近一次更新是何時？調整了什麼？</text>
+  <text x="100" y="343" font-size="13" fill="#57534e" >備答：說出感染管制手冊最近更新日期與具體調整內容</text>
+  <rect x="620" y="311" width="136" height="36" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="334" font-size="13" font-weight="700" fill="#57534e"  text-anchor="middle">二級加強</text>
 
   <!-- Row 4 -->
   <rect x="29" y="373" width="742" height="62" rx="6" fill="#ffffff"/>
-  <rect x="29" y="373" width="6" height="62" rx="3" fill="#a8a29e"/>
+  <rect x="29" y="373" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="404" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="409" font-size="13" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">C4</text>
-  <text x="100" y="395" font-size="15" font-weight="700" fill="#1e293b" font-family="sans-serif">這個按鈕按下去會有人反應嗎？（現場測試）</text>
-  <text x="100" y="418" font-size="13" fill="#57534e" font-family="sans-serif">應對：立即有人回應，提前演練「呼叫→護理站→到場」流程</text>
-  <rect x="620" y="386" width="136" height="36" rx="6" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="404" font-size="13" font-weight="700" fill="#a8a29e" font-family="sans-serif" text-anchor="middle">一級必要</text>
+  <text x="66" y="409" font-size="13" font-weight="700" fill="#a8a29e"  text-anchor="middle">C4</text>
+  <text x="100" y="395" font-size="15" font-weight="700" fill="#1e293b" >這個按鈕按下去會有人反應嗎？（現場測試）</text>
+  <text x="100" y="418" font-size="13" fill="#57534e" >應對：立即有人回應，提前演練「呼叫→護理站→到場」流程</text>
+  <rect x="620" y="386" width="136" height="36" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="404" font-size="13" font-weight="700" fill="#a8a29e"  text-anchor="middle">一級必要</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

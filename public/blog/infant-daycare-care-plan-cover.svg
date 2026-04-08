@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 右側裝飾區 -->
@@ -6,30 +6,30 @@
   <!-- 左側主內容 -->
   <!-- 類別標籤 -->
   <rect x="60" y="60" width="140" height="36" rx="18" fill="#d97706"/>
-  <text x="130" y="83" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">實務技巧</text>
+  <text x="130" y="83" font-size="16" fill="white" text-anchor="middle"  font-weight="700">實務技巧</text>
   <!-- 主標題第一行 -->
-  <text x="60" y="175" font-size="52" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="900">托嬰中心</text>
+  <text x="60" y="175" font-size="52" fill="#1e293b"  font-weight="900">托嬰中心</text>
   <!-- 主標題第二行 -->
-  <text x="60" y="245" font-size="52" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="900">個別化照顧計畫</text>
+  <text x="60" y="245" font-size="52" fill="#d97706"  font-weight="900">個別化照顧計畫</text>
   <!-- 副標 -->
-  <text x="60" y="315" font-size="26" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="500">從觀察到計畫的完整範本</text>
+  <text x="60" y="315" font-size="26" fill="#57534e"  font-weight="500">從觀察到計畫的完整範本</text>
   <!-- 分隔線 -->
   <line x1="60" y1="350" x2="480" y2="350" stroke="#d97706" stroke-width="3"/>
   <!-- 描述 -->
-  <text x="60" y="395" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif">評鑑指標 12-14、24 | 托育活動區塊核心文件</text>
-  <text x="60" y="428" font-size="20" fill="#78716c" font-family="'Noto Sans TC', sans-serif">臺北市 114-116 年度托嬰中心評鑑</text>
+  <text x="60" y="395" font-size="20" fill="#78716c" >評鑑指標 12-14、24 | 托育活動區塊核心文件</text>
+  <text x="60" y="428" font-size="20" fill="#78716c" >臺北市 114-116 年度托嬰中心評鑑</text>
   <!-- 標籤群 -->
   <rect x="60" y="468" width="140" height="32" rx="16" fill="#f5f0e8" stroke="#d97706" stroke-width="1.5"/>
-  <text x="130" y="489" font-size="14" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">個別化照顧</text>
+  <text x="130" y="489" font-size="14" fill="#d97706" text-anchor="middle" >個別化照顧</text>
   <rect x="212" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
-  <text x="272" y="489" font-size="14" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">發展評量</text>
+  <text x="272" y="489" font-size="14" fill="#78716c" text-anchor="middle" >發展評量</text>
   <rect x="344" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
-  <text x="404" y="489" font-size="14" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">114年度</text>
+  <text x="404" y="489" font-size="14" fill="#78716c" text-anchor="middle" >114年度</text>
   <!-- 右側裝飾大字 -->
-  <text x="1010" y="310" font-size="180" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="900" opacity="0.15">個</text>
-  <text x="1010" y="280" font-size="90" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="900">個別化</text>
-  <text x="1010" y="370" font-size="28" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">照顧計畫範本</text>
-  <text x="1010" y="420" font-size="22" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">5 大計畫要素</text>
+  <text x="1010" y="310" font-size="180" fill="#d97706" text-anchor="middle"  font-weight="900" opacity="0.15">個</text>
+  <text x="1010" y="280" font-size="90" fill="#d97706" text-anchor="middle"  font-weight="900">個別化</text>
+  <text x="1010" y="370" font-size="28" fill="#78716c" text-anchor="middle" >照顧計畫範本</text>
+  <text x="1010" y="420" font-size="22" fill="#a8a29e" text-anchor="middle" >5 大計畫要素</text>
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -1,36 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">外籍照服員人數限制</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">A11 條文三大要點解析</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">外籍照服員人數限制</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">A11 條文三大要點解析</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 公式區 -->
   <rect x="40" y="118" width="720" height="90" rx="12" fill="#d97706"/>
-  <text x="400" y="152" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">外籍照服員人數</text>
-  <text x="400" y="182" font-family="'Noto Sans TC', sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 本國籍照服員人數 + 護理人員人數</text>
+  <text x="400" y="152"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">外籍照服員人數</text>
+  <text x="400" y="182"  font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 本國籍照服員人數 + 護理人員人數</text>
   <!-- 範例 -->
   <rect x="40" y="226" width="350" height="120" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-  <text x="215" y="258" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">範例（達標）</text>
-  <text x="215" y="284" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e" text-anchor="middle">本國籍照服員 8 人</text>
-  <text x="215" y="306" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e" text-anchor="middle">護理人員 3 人</text>
-  <text x="215" y="332" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">外籍上限 = 11 人</text>
+  <text x="215" y="258"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">範例（達標）</text>
+  <text x="215" y="284"  font-size="15" fill="#57534e" text-anchor="middle">本國籍照服員 8 人</text>
+  <text x="215" y="306"  font-size="15" fill="#57534e" text-anchor="middle">護理人員 3 人</text>
+  <text x="215" y="332"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">外籍上限 = 11 人</text>
   <rect x="410" y="226" width="350" height="120" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
-  <text x="585" y="258" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">範例（不達標）</text>
-  <text x="585" y="284" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e" text-anchor="middle">本國籍照服員 8 人</text>
-  <text x="585" y="306" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e" text-anchor="middle">護理人員 3 人</text>
-  <text x="585" y="332" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">外籍 12 人 → 超出 1 人</text>
+  <text x="585" y="258"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">範例（不達標）</text>
+  <text x="585" y="284"  font-size="15" fill="#57534e" text-anchor="middle">本國籍照服員 8 人</text>
+  <text x="585" y="306"  font-size="15" fill="#57534e" text-anchor="middle">護理人員 3 人</text>
+  <text x="585" y="332"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">外籍 12 人 → 超出 1 人</text>
   <!-- 三大要點 -->
   <rect x="40" y="364" width="225" height="80" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-  <text x="152" y="394" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">外籍比例計算</text>
-  <text x="152" y="416" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">護理人員可計入</text>
-  <text x="152" y="434" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">分母計算</text>
+  <text x="152" y="394"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">外籍比例計算</text>
+  <text x="152" y="416"  font-size="14" fill="#57534e" text-anchor="middle">護理人員可計入</text>
+  <text x="152" y="434"  font-size="14" fill="#57534e" text-anchor="middle">分母計算</text>
   <rect x="287" y="364" width="225" height="80" rx="10" fill="#ffffff" stroke="#78716c" stroke-width="1.5"/>
-  <text x="399" y="394" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c" text-anchor="middle">各班本國籍</text>
-  <text x="399" y="416" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">每班至少 1 位</text>
-  <text x="399" y="434" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">本國籍照服員</text>
+  <text x="399" y="394"  font-size="15" font-weight="700" fill="#78716c" text-anchor="middle">各班本國籍</text>
+  <text x="399" y="416"  font-size="14" fill="#57534e" text-anchor="middle">每班至少 1 位</text>
+  <text x="399" y="434"  font-size="14" fill="#57534e" text-anchor="middle">本國籍照服員</text>
   <rect x="534" y="364" width="226" height="80" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
-  <text x="647" y="394" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e" text-anchor="middle">A9 連動計算</text>
-  <text x="647" y="416" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">護理人員也需同時</text>
-  <text x="647" y="434" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#57534e" text-anchor="middle">達 A9 比例要求</text>
+  <text x="647" y="394"  font-size="15" font-weight="700" fill="#57534e" text-anchor="middle">A9 連動計算</text>
+  <text x="647" y="416"  font-size="14" fill="#57534e" text-anchor="middle">護理人員也需同時</text>
+  <text x="647" y="434"  font-size="14" fill="#57534e" text-anchor="middle">達 A9 比例要求</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
@@ -9,54 +9,54 @@
   <rect x="60" y="60" width="480" height="6" fill="#d97706" rx="3"/>
 
   <!-- 主標題第1行 -->
-  <text x="60" y="180" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="100" font-weight="900" fill="#1e293b">老人福利機構</text>
+  <text x="60" y="180"  font-size="100" font-weight="900" fill="#1e293b">老人福利機構</text>
 
   <!-- 主標題第2行（琥珀色） -->
-  <text x="60" y="300" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="100" font-weight="900" fill="#d97706">人力配置全解析</text>
+  <text x="60" y="300"  font-size="100" font-weight="900" fill="#d97706">人力配置全解析</text>
 
   <!-- 副標題 -->
-  <text x="60" y="370" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="38" font-weight="500" fill="#57534e">五大職類法定標準，常見違規預防指南</text>
+  <text x="60" y="370"  font-size="38" font-weight="500" fill="#57534e">五大職類法定標準，常見違規預防指南</text>
 
   <!-- Pill 標籤 -->
   <!-- Pill 1: A7-A11五職類 -->
   <rect x="60" y="420" width="220" height="44" rx="22" fill="#d97706"/>
-  <text x="170" y="448" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" font-weight="600" fill="white" text-anchor="middle">A7-A11五職類</text>
+  <text x="170" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">A7-A11五職類</text>
 
   <!-- Pill 2: 法定比例 -->
   <rect x="296" y="420" width="130" height="44" rx="22" fill="#78716c"/>
-  <text x="361" y="448" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" font-weight="600" fill="white" text-anchor="middle">法定比例</text>
+  <text x="361" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">法定比例</text>
 
   <!-- Pill 3: 常見違規 -->
   <rect x="442" y="420" width="130" height="44" rx="22" fill="#57534e"/>
-  <text x="507" y="448" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" font-weight="600" fill="white" text-anchor="middle">常見違規</text>
+  <text x="507" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">常見違規</text>
 
   <!-- Pill 4: 定期追蹤 -->
   <rect x="588" y="420" width="130" height="44" rx="22" fill="#a8a29e"/>
-  <text x="653" y="448" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="20" font-weight="600" fill="white" text-anchor="middle">定期追蹤</text>
+  <text x="653" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">定期追蹤</text>
 
   <!-- 右側裝飾區塊 -->
   <rect x="840" y="100" width="300" height="320" rx="24" fill="white" opacity="0.7"/>
 
   <!-- 五大職類清單 -->
-  <text x="990" y="155" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">五大職類</text>
+  <text x="990" y="155"  font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">五大職類</text>
   <line x1="870" y1="170" x2="1110" y2="170" stroke="#e7e5e4" stroke-width="2"/>
-  <text x="870" y="208" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#d97706" font-weight="600">A7</text>
-  <text x="910" y="208" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#57534e">業務負責人</text>
-  <text x="870" y="248" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#78716c" font-weight="600">A8</text>
-  <text x="910" y="248" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#57534e">社工人員</text>
-  <text x="870" y="288" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#57534e" font-weight="600">A9</text>
-  <text x="910" y="288" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#57534e">護理人員</text>
-  <text x="870" y="328" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#a8a29e" font-weight="600">A10</text>
-  <text x="916" y="328" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#57534e">特約專業人員</text>
-  <text x="870" y="368" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#94a3b8" font-weight="600">A11</text>
-  <text x="916" y="368" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" fill="#57534e">照顧服務員</text>
+  <text x="870" y="208"  font-size="22" fill="#d97706" font-weight="600">A7</text>
+  <text x="910" y="208"  font-size="22" fill="#57534e">業務負責人</text>
+  <text x="870" y="248"  font-size="22" fill="#78716c" font-weight="600">A8</text>
+  <text x="910" y="248"  font-size="22" fill="#57534e">社工人員</text>
+  <text x="870" y="288"  font-size="22" fill="#57534e" font-weight="600">A9</text>
+  <text x="910" y="288"  font-size="22" fill="#57534e">護理人員</text>
+  <text x="870" y="328"  font-size="22" fill="#a8a29e" font-weight="600">A10</text>
+  <text x="916" y="328"  font-size="22" fill="#57534e">特約專業人員</text>
+  <text x="870" y="368"  font-size="22" fill="#94a3b8" font-weight="600">A11</text>
+  <text x="916" y="368"  font-size="22" fill="#57534e">照顧服務員</text>
 
   <!-- 底部裝飾線 -->
   <rect x="60" y="540" width="700" height="4" fill="#e7e5e4" rx="2"/>
 
   <!-- 年度標示 -->
-  <text x="60" y="575" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="26" fill="#a8a29e" font-weight="400">115年度老人福利機構評鑑</text>
+  <text x="60" y="575"  font-size="26" fill="#a8a29e" font-weight="400">115年度老人福利機構評鑑</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', 'PingFang TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

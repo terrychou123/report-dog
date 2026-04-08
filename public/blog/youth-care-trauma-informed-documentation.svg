@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="29" width="744" height="62" rx="8" fill="#1e293b"/>
-  <text x="400" y="68" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">創傷知情記錄四步驟流程</text>
+  <text x="400" y="68"  font-size="22" font-weight="700" fill="white" text-anchor="middle">創傷知情記錄四步驟流程</text>
   <!-- Row 1 -->
   <rect x="28" y="160" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="160" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="191" r="16" fill="#d97706"/>
-  <text x="66" y="197" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">1</text>
-  <text x="100" y="184" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">接案初期創傷史評估</text>
-  <text x="100" y="208" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">記錄個案的創傷經歷、觸發因素，建立個別化安全計畫基線資料</text>
-  <rect x="620" y="168" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="195" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">接案紀錄</text>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197"  font-size="16" font-weight="700" fill="white" text-anchor="middle">1</text>
+  <text x="100" y="184"  font-size="18" font-weight="600" fill="#1e293b">接案初期創傷史評估</text>
+  <text x="100" y="208"  font-size="14" fill="#78716c">記錄個案的創傷經歷、觸發因素，建立個別化安全計畫基線資料</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="195"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">接案紀錄</text>
   <!-- Row 2 -->
   <rect x="28" y="235" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="235" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="266" r="16" fill="#78716c"/>
-  <text x="66" y="272" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">2</text>
-  <text x="100" y="259" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">個案處遇計畫納入創傷目標</text>
-  <text x="100" y="283" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">將「情緒調節能力」「建立安全依附」等創傷復原目標明確寫入年度計畫</text>
-  <rect x="620" y="243" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="270" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">處遇計畫</text>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272"  font-size="16" font-weight="700" fill="white" text-anchor="middle">2</text>
+  <text x="100" y="259"  font-size="18" font-weight="600" fill="#1e293b">個案處遇計畫納入創傷目標</text>
+  <text x="100" y="283"  font-size="14" fill="#78716c">將「情緒調節能力」「建立安全依附」等創傷復原目標明確寫入年度計畫</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="270"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">處遇計畫</text>
   <!-- Row 3 -->
   <rect x="28" y="310" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="310" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="341" r="16" fill="#57534e"/>
-  <text x="66" y="347" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">3</text>
-  <text x="100" y="334" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">日常生活輔導紀錄反映創傷視角</text>
-  <text x="100" y="358" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">生活紀錄應從「行為原因理解」出發，說明工作人員的回應方式與效果</text>
-  <rect x="620" y="318" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="345" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">生活紀錄</text>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347"  font-size="16" font-weight="700" fill="white" text-anchor="middle">3</text>
+  <text x="100" y="334"  font-size="18" font-weight="600" fill="#1e293b">日常生活輔導紀錄反映創傷視角</text>
+  <text x="100" y="358"  font-size="14" fill="#78716c">生活紀錄應從「行為原因理解」出發，說明工作人員的回應方式與效果</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="345"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">生活紀錄</text>
   <!-- Row 4 -->
   <rect x="28" y="385" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="385" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="416" r="16" fill="#d97706"/>
-  <text x="66" y="422" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">4</text>
-  <text x="100" y="409" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">定期評估創傷復原進展</text>
-  <text x="100" y="433" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">每季評估創傷相關目標達成情形，調整處遇計畫並記錄改善軌跡</text>
-  <rect x="620" y="393" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="420" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">定期評估</text>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="416" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="422"  font-size="16" font-weight="700" fill="white" text-anchor="middle">4</text>
+  <text x="100" y="409"  font-size="18" font-weight="600" fill="#1e293b">定期評估創傷復原進展</text>
+  <text x="100" y="433"  font-size="14" fill="#78716c">每季評估創傷相關目標達成情形，調整處遇計畫並記錄改善軌跡</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="420"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">定期評估</text>
   <!-- Watermark -->
-  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16"  fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

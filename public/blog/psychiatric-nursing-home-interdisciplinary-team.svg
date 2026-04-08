@@ -1,47 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題 -->
-  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">精神護理之家跨專業照護團隊</text>
-  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">五大核心專業的角色分工與評鑑規範</text>
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle"  font-weight="700">精神護理之家跨專業照護團隊</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" >五大核心專業的角色分工與評鑑規範</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 卡片1 護理師 -->
   <rect x="40" y="114" width="168" height="340" rx="12" fill="#d97706"/>
   <rect x="40" y="114" width="168" height="50" rx="12" fill="#d97706"/>
-  <text x="124" y="148" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">護理師</text>
+  <text x="124" y="148" font-size="20" fill="white" text-anchor="middle"  font-weight="700">護理師</text>
   <line x1="60" y1="165" x2="188" y2="165" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="124" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">主責照護計畫</text>
-  <text x="124" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">給藥、品質監測</text>
-  <text x="124" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">24小時在班</text>
+  <text x="124" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >主責照護計畫</text>
+  <text x="124" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >給藥、品質監測</text>
+  <text x="124" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >24小時在班</text>
   <rect x="64" y="260" width="120" height="28" rx="14" fill="rgba(255,255,255,0.25)"/>
-  <text x="124" y="279" font-size="14" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">核心</text>
+  <text x="124" y="279" font-size="14" fill="white" text-anchor="middle" >核心</text>
 
   <!-- 卡片2 醫師 -->
   <rect x="220" y="114" width="168" height="340" rx="12" fill="#78716c"/>
-  <text x="304" y="148" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">醫師（特約）</text>
+  <text x="304" y="148" font-size="20" fill="white" text-anchor="middle"  font-weight="700">醫師（特約）</text>
   <line x1="240" y1="165" x2="368" y2="165" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="304" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每3個月巡診</text>
-  <text x="304" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">新入住1個月</text>
-  <text x="304" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">內評估、緊急後送</text>
+  <text x="304" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >每3個月巡診</text>
+  <text x="304" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >新入住1個月</text>
+  <text x="304" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >內評估、緊急後送</text>
 
   <!-- 卡片3 職能治療師 -->
   <rect x="400" y="114" width="168" height="340" rx="12" fill="#57534e"/>
-  <text x="484" y="148" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">職能治療師</text>
+  <text x="484" y="148" font-size="20" fill="white" text-anchor="middle"  font-weight="700">職能治療師</text>
   <line x1="420" y1="165" x2="548" y2="165" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="484" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B2.3預防延緩</text>
-  <text x="484" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">失能評估</text>
-  <text x="484" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B1.15復健活動指導</text>
+  <text x="484" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >B2.3預防延緩</text>
+  <text x="484" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >失能評估</text>
+  <text x="484" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >B1.15復健活動指導</text>
 
   <!-- 卡片4 臨床心理師 -->
   <rect x="580" y="114" width="180" height="340" rx="12" fill="#a8a29e"/>
-  <text x="670" y="148" font-size="20" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">臨床心理師</text>
+  <text x="670" y="148" font-size="20" fill="white" text-anchor="middle"  font-weight="700">臨床心理師</text>
   <line x1="600" y1="165" x2="740" y2="165" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="670" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">心理評估</text>
-  <text x="670" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">精神照護</text>
-  <text x="670" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">住民適應輔導</text>
+  <text x="670" y="195" font-size="14" fill="rgba(255,255,255,0.95)" text-anchor="middle" >心理評估</text>
+  <text x="670" y="217" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >精神照護</text>
+  <text x="670" y="239" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >住民適應輔導</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 頂部標題區塊 -->
   <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
-  <text x="400" y="52" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">長照銜接三步驟</text>
-  <text x="400" y="82" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">從醫院到社區，評鑑委員查核長照連結的完整紀錄</text>
+  <text x="400" y="52"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">長照銜接三步驟</text>
+  <text x="400" y="82"  font-size="14" fill="#a8a29e" text-anchor="middle">從醫院到社區，評鑑委員查核長照連結的完整紀錄</text>
 
   <!-- 列 1 (y=166, H=90) -->
   <rect x="38" y="128" width="724" height="90" rx="10" fill="#fffbeb"/>
-  <rect x="38" y="128" width="6" height="90" rx="3" fill="#d97706"/>
-  <circle cx="80" cy="173" r="22" fill="#d97706"/>
-  <text x="80" y="180" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="118" y="155" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#92400e">篩選需求病人</text>
-  <text x="118" y="178" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">入院時評估：高齡、獨居、肢體功能障礙、認知退化等高需求指標</text>
-  <text x="118" y="201" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">社工在入院評估（2.3.1）完成後即介入，建立轉銜需求清單</text>
+  <rect x="38" y="128" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="80" cy="173" r="22" fill="#d97706" opacity="0.15"/>
+  <text x="80" y="180"  font-size="20" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
+  <text x="118" y="155"  font-size="15" font-weight="700" fill="#92400e">篩選需求病人</text>
+  <text x="118" y="178"  font-size="12" fill="#78716c">入院時評估：高齡、獨居、肢體功能障礙、認知退化等高需求指標</text>
+  <text x="118" y="201"  font-size="11" fill="#a8a29e">社工在入院評估（2.3.1）完成後即介入，建立轉銜需求清單</text>
   <rect x="626" y="149" width="112" height="26" rx="13" fill="#d97706"/>
-  <text x="682" y="167" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">早期篩選</text>
+  <text x="682" y="167"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">早期篩選</text>
 
   <!-- 列 2 (y=269, H=90) -->
   <rect x="38" y="231" width="724" height="90" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="231" width="6" height="90" rx="3" fill="#78716c"/>
-  <circle cx="80" cy="276" r="22" fill="#78716c"/>
-  <text x="80" y="283" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="118" y="258" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">評估與申請</text>
-  <text x="118" y="281" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">填寫出院準備轉銜評估單，依CMS量表評估等級，申請長照服務</text>
-  <text x="118" y="304" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">聯繫長照管理中心或居服機構，取得服務確認時程，記錄聯繫紀錄</text>
+  <rect x="38" y="231" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="80" cy="276" r="22" fill="#78716c" opacity="0.15"/>
+  <text x="80" y="283"  font-size="20" font-weight="900" fill="#78716c" text-anchor="middle">2</text>
+  <text x="118" y="258"  font-size="15" font-weight="700" fill="#44403c">評估與申請</text>
+  <text x="118" y="281"  font-size="12" fill="#78716c">填寫出院準備轉銜評估單，依CMS量表評估等級，申請長照服務</text>
+  <text x="118" y="304"  font-size="11" fill="#a8a29e">聯繫長照管理中心或居服機構，取得服務確認時程，記錄聯繫紀錄</text>
   <rect x="626" y="252" width="112" height="26" rx="13" fill="#78716c"/>
-  <text x="682" y="270" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">評估轉銜</text>
+  <text x="682" y="270"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">評估轉銜</text>
 
   <!-- 列 3 (y=372, H=90) -->
   <rect x="38" y="334" width="724" height="90" rx="10" fill="#f5f5f4"/>
-  <rect x="38" y="334" width="6" height="90" rx="3" fill="#57534e"/>
-  <circle cx="80" cy="379" r="22" fill="#57534e"/>
-  <text x="80" y="386" font-family="'Noto Sans TC', sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="118" y="361" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#44403c">確認銜接成功</text>
-  <text x="118" y="384" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#78716c">出院前確認長照服務啟動時間，紀錄轉銜結果，後續追蹤是否使用</text>
-  <text x="118" y="407" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#a8a29e">評鑑委員查核「有無完整紀錄」，只寫「已告知長照」不足以通過</text>
+  <rect x="38" y="334" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="80" cy="379" r="22" fill="#57534e" opacity="0.15"/>
+  <text x="80" y="386"  font-size="20" font-weight="900" fill="#57534e" text-anchor="middle">3</text>
+  <text x="118" y="361"  font-size="15" font-weight="700" fill="#44403c">確認銜接成功</text>
+  <text x="118" y="384"  font-size="12" fill="#78716c">出院前確認長照服務啟動時間，紀錄轉銜結果，後續追蹤是否使用</text>
+  <text x="118" y="407"  font-size="11" fill="#a8a29e">評鑑委員查核「有無完整紀錄」，只寫「已告知長照」不足以通過</text>
   <rect x="626" y="355" width="112" height="26" rx="13" fill="#57534e"/>
-  <text x="682" y="373" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">追蹤確認</text>
+  <text x="682" y="373"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">追蹤確認</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
 </svg>

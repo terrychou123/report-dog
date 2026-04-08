@@ -1,64 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#0d9488"/>
-  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">C 區自我查核清單：用報告汪 AI 不遺漏</text>
-  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" font-family="sans-serif">評鑑前六個月開始逐項確認 ｜ AI 自我查核功能協助追蹤</text>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" >C 區自我查核清單：用報告汪 AI 不遺漏</text>
+  <text x="400" y="68" font-size="16" fill="#ccfbf1" text-anchor="middle" >評鑑前六個月開始逐項確認 ｜ AI 自我查核功能協助追蹤</text>
 
   <!-- N=5 版型：H=60, outer_gap=29, Row y: 118/191/264/337/410 -->
 
   <!-- Row 1 -->
   <rect x="30" y="100" width="740" height="60" rx="6" fill="white"/>
-  <rect x="30" y="100" width="6" height="60" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="130" r="16" fill="#d97706"/>
-  <text x="66" y="135" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">1</text>
-  <text x="100" y="123" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">消防安全設備申報紀錄（C9）</text>
-  <text x="100" y="145" font-size="13" fill="#57534e" font-family="sans-serif">確認近5年申報紀錄完整；最近一次半年檢修報告書已備查；建築公安申報合格</text>
-  <rect x="620" y="111" width="136" height="38" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="688" y="135" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">優先確認</text>
+  <rect x="30" y="100" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="130" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="135" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >1</text>
+  <text x="100" y="123" font-size="17" font-weight="bold" fill="#1e293b" >消防安全設備申報紀錄（C9）</text>
+  <text x="100" y="145" font-size="13" fill="#57534e" >確認近5年申報紀錄完整；最近一次半年檢修報告書已備查；建築公安申報合格</text>
+  <rect x="620" y="111" width="136" height="38" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="135" font-size="13" fill="#dc2626" text-anchor="middle" >優先確認</text>
 
   <!-- Row 2 -->
   <rect x="30" y="173" width="740" height="60" rx="6" fill="white"/>
-  <rect x="30" y="173" width="6" height="60" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="203" r="16" fill="#78716c"/>
-  <text x="66" y="208" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">2</text>
-  <text x="100" y="196" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">疏散避難系統實地確認（C10）</text>
-  <text x="100" y="218" font-size="13" fill="#57534e" font-family="sans-serif">走道/防火門無雜物；雙向逃生路徑暢通；排煙設備連動測試正常；防火門可雙向開</text>
-  <rect x="620" y="184" width="136" height="38" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="688" y="208" font-size="13" fill="#d97706" text-anchor="middle" font-family="sans-serif">現場巡查</text>
+  <rect x="30" y="173" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="203" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="208" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >2</text>
+  <text x="100" y="196" font-size="17" font-weight="bold" fill="#1e293b" >疏散避難系統實地確認（C10）</text>
+  <text x="100" y="218" font-size="13" fill="#57534e" >走道/防火門無雜物；雙向逃生路徑暢通；排煙設備連動測試正常；防火門可雙向開</text>
+  <rect x="620" y="184" width="136" height="38" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <text x="688" y="208" font-size="13" fill="#d97706" text-anchor="middle" >現場巡查</text>
 
   <!-- Row 3 -->
   <rect x="30" y="246" width="740" height="60" rx="6" fill="white"/>
-  <rect x="30" y="246" width="6" height="60" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="276" r="16" fill="#57534e"/>
-  <text x="66" y="281" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">3</text>
-  <text x="100" y="269" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">年度演練計畫與記錄（C11）</text>
-  <text x="100" y="291" font-size="13" fill="#57534e" font-family="sans-serif">複合型演練＋夜間演練各1次紀錄；演練後檢討會議記錄；修正版應變計畫</text>
-  <rect x="620" y="257" width="136" height="38" rx="6" fill="#f0fdf4" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="688" y="281" font-size="13" fill="#0d9488" text-anchor="middle" font-family="sans-serif">文件備齊</text>
+  <rect x="30" y="246" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="276" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="281" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >3</text>
+  <text x="100" y="269" font-size="17" font-weight="bold" fill="#1e293b" >年度演練計畫與記錄（C11）</text>
+  <text x="100" y="291" font-size="13" fill="#57534e" >複合型演練＋夜間演練各1次紀錄；演練後檢討會議記錄；修正版應變計畫</text>
+  <rect x="620" y="257" width="136" height="38" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="281" font-size="13" fill="#0d9488" text-anchor="middle" >文件備齊</text>
 
   <!-- Row 4 -->
   <rect x="30" y="319" width="740" height="60" rx="6" fill="white"/>
-  <rect x="30" y="319" width="6" height="60" rx="3" fill="#a8a29e"/>
-  <circle cx="66" cy="349" r="16" fill="#a8a29e"/>
-  <text x="66" y="354" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">4</text>
-  <text x="100" y="342" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">逃生圖與外籍人員訓練（C12）</text>
-  <text x="100" y="364" font-size="13" fill="#57534e" font-family="sans-serif">各樓層A3以上逃生圖更新至最新版；外籍看護工防災訓練紀錄有簽到表</text>
-  <rect x="620" y="330" width="136" height="38" rx="6" fill="#fafaf9" stroke="#a8a29e" stroke-width="1.5"/>
-  <text x="688" y="354" font-size="13" fill="#78716c" text-anchor="middle" font-family="sans-serif">實地貼查</text>
+  <rect x="30" y="319" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="349" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="354" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >4</text>
+  <text x="100" y="342" font-size="17" font-weight="bold" fill="#1e293b" >逃生圖與外籍人員訓練（C12）</text>
+  <text x="100" y="364" font-size="13" fill="#57534e" >各樓層A3以上逃生圖更新至最新版；外籍看護工防災訓練紀錄有簽到表</text>
+  <rect x="620" y="330" width="136" height="38" rx="8" fill="#fafaf9" opacity="0.12"/>
+  <text x="688" y="354" font-size="13" fill="#78716c" text-anchor="middle" >實地貼查</text>
 
   <!-- Row 5 -->
   <rect x="30" y="392" width="740" height="60" rx="6" fill="white"/>
-  <rect x="30" y="392" width="6" height="60" rx="3" fill="#94a3b8"/>
-  <circle cx="66" cy="422" r="16" fill="#94a3b8"/>
-  <text x="66" y="427" font-size="13" font-weight="bold" fill="white" text-anchor="middle" font-family="sans-serif">5</text>
-  <text x="100" y="415" font-size="17" font-weight="bold" fill="#1e293b" font-family="sans-serif">緊急呼叫與護理站全面測試（C4、C15）</text>
-  <text x="100" y="437" font-size="13" fill="#57534e" font-family="sans-serif">測試每間寢室及浴廁呼叫鈴；護理站氧氣瓶有效期；急救設備功能正常有紀錄</text>
-  <rect x="620" y="403" width="136" height="38" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="688" y="427" font-size="13" fill="#dc2626" text-anchor="middle" font-family="sans-serif">現場測試</text>
+  <rect x="30" y="392" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="422" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="427" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >5</text>
+  <text x="100" y="415" font-size="17" font-weight="bold" fill="#1e293b" >緊急呼叫與護理站全面測試（C4、C15）</text>
+  <text x="100" y="437" font-size="13" fill="#57534e" >測試每間寢室及浴廁呼叫鈴；護理站氧氣瓶有效期；急救設備功能正常有紀錄</text>
+  <rect x="620" y="403" width="136" height="38" rx="8" fill="#fef2f2" opacity="0.12"/>
+  <text x="688" y="427" font-size="13" fill="#dc2626" text-anchor="middle" >現場測試</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

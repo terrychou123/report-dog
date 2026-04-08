@@ -1,38 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 主標題 -->
-  <text x="40" y="48" font-size="32" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="bold">業務計畫三層架構要素</text>
+  <text x="40" y="48" font-size="32" fill="#1e293b"  font-weight="bold">業務計畫三層架構要素</text>
   <!-- 副標題 -->
-  <text x="40" y="78" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif">A1.1規定的短中長程計畫必備內容</text>
+  <text x="40" y="78" font-size="22" fill="#78716c" >A1.1規定的短中長程計畫必備內容</text>
   <!-- 分隔線 -->
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 行1 -->
   <rect x="40" y="118" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="118" width="6" height="68" rx="3" fill="#d97706"/>
-  <text x="70" y="147" font-size="22" fill="#d97706" font-family="'Noto Sans TC', sans-serif" font-weight="bold">短程計畫（1年以內）</text>
-  <text x="70" y="174" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">年度業務計畫，具體目標與執行方案</text>
+  <rect x="40" y="118" width="6" height="68" rx="2" fill="#d97706"/>
+  <text x="70" y="147" font-size="22" fill="#d97706"  font-weight="bold">短程計畫（1年以內）</text>
+  <text x="70" y="174" font-size="17" fill="#57534e" >年度業務計畫，具體目標與執行方案</text>
 
   <!-- 行2 -->
   <rect x="40" y="202" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="202" width="6" height="68" rx="3" fill="#78716c"/>
-  <text x="70" y="231" font-size="22" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="bold">中程計畫（1-4年）</text>
-  <text x="70" y="258" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">服務發展方向，人力配置與設備投資規劃</text>
+  <rect x="40" y="202" width="6" height="68" rx="2" fill="#78716c"/>
+  <text x="70" y="231" font-size="22" fill="#78716c"  font-weight="bold">中程計畫（1-4年）</text>
+  <text x="70" y="258" font-size="17" fill="#57534e" >服務發展方向，人力配置與設備投資規劃</text>
 
   <!-- 行3 -->
   <rect x="40" y="286" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="286" width="6" height="68" rx="3" fill="#57534e"/>
-  <text x="70" y="315" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif" font-weight="bold">長程計畫（4年以上）</text>
-  <text x="70" y="342" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">機構願景與策略方向，長期服務目標</text>
+  <rect x="40" y="286" width="6" height="68" rx="2" fill="#57534e"/>
+  <text x="70" y="315" font-size="22" fill="#57534e"  font-weight="bold">長程計畫（4年以上）</text>
+  <text x="70" y="342" font-size="17" fill="#57534e" >機構願景與策略方向，長期服務目標</text>
 
   <!-- 行4 -->
   <rect x="40" y="370" width="720" height="68" rx="8" fill="white" opacity="0.7"/>
-  <rect x="40" y="370" width="6" height="68" rx="3" fill="#a8a29e"/>
-  <text x="70" y="399" font-size="22" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif" font-weight="bold">年度檢討</text>
-  <text x="70" y="426" font-size="17" fill="#57534e" font-family="'Noto Sans TC', sans-serif">各項業務執行情形分析，提出改善方案</text>
+  <rect x="40" y="370" width="6" height="68" rx="2" fill="#a8a29e"/>
+  <text x="70" y="399" font-size="22" fill="#a8a29e"  font-weight="bold">年度檢討</text>
+  <text x="70" y="426" font-size="17" fill="#57534e" >各項業務執行情形分析，提出改善方案</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

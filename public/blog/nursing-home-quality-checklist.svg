@@ -6,7 +6,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
 
   <!-- 項目 1 -->
-  <rect x="28" y="110" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
   <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">品質會議紀錄格式含「品質獎勵計畫指標進度」欄位</text>
@@ -15,7 +15,7 @@
   <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">B1 雙向</text>
 
   <!-- 項目 2 -->
-  <rect x="28" y="172" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
   <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">個案照護計畫範本同時滿足 B2 格式要求與品質獎個案記錄標準</text>
@@ -24,7 +24,7 @@
   <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">B2 雙向</text>
 
   <!-- 項目 3 -->
-  <rect x="28" y="234" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
   <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">✓</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">A6 危機管理分析報告納入品質會議討論，形成 PDCA 改善循環</text>
@@ -33,7 +33,7 @@
   <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">A6 雙向</text>
 
   <!-- 項目 4 -->
-  <rect x="28" y="296" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
   <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">✓</text>
   <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">E2 創新措施報告同時作為品質獎勵計畫的創新亮點申報材料</text>
@@ -42,7 +42,7 @@
   <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">E2 雙向</text>
 
   <!-- 項目 5 -->
-  <rect x="28" y="358" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
   <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">✓</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">D9 年度滿意度調查結果用於品質獎勵計畫的住民滿意度指標申報</text>

@@ -6,16 +6,16 @@
   <text x="1010" y="260" font-size="26" fill="#57534e" text-anchor="middle">高分策略</text>
   <rect x="840" y="286" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="319" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">社區資源連結 + 家庭服務</text>
-  <rect x="840" y="350" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="350" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="380" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">社區活動</text>
   <text x="914" y="406" font-size="18" fill="#a8a29e" text-anchor="middle">外出記錄</text>
-  <rect x="1000" y="350" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1000" y="350" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="380" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">家庭聯繫</text>
   <text x="1074" y="406" font-size="18" fill="#a8a29e" text-anchor="middle">返家探親</text>
-  <rect x="840" y="434" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="434" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="464" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">資源網絡</text>
   <text x="914" y="490" font-size="18" fill="#a8a29e" text-anchor="middle">合作紀錄</text>
-  <rect x="1000" y="434" width="148" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="1000" y="434" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="464" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="700">家屬參與</text>
   <text x="1074" y="490" font-size="18" fill="#a8a29e" text-anchor="middle">家庭會議</text>
   <text x="60" y="185" font-size="80" font-weight="900" fill="#1e293b">社區資源</text>

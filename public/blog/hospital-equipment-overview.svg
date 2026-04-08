@@ -10,10 +10,10 @@
   <!-- 列1：設備清冊管理（y=166，H=90） -->
   <rect x="30" y="130" width="740" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
   <!-- 左側色條 -->
-  <rect x="30" y="130" width="6" height="90" rx="3" fill="#d97706" />
+  <rect x="30" y="130" width="6" height="90" rx="2" fill="#d97706" />
   <!-- 圓圈數字 -->
-  <circle cx="68" cy="175" r="20" fill="#d97706" />
-  <text x="68" y="181" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <circle cx="68" cy="175" r="20" fill="#d97706"  opacity="0.15"/>
+  <text x="68" y="181" font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
   <!-- 標題 -->
   <text x="100" y="160" font-size="17" font-weight="700" fill="#1c1917">設備清冊管理</text>
   <!-- 說明 -->
@@ -24,9 +24,9 @@
 
   <!-- 列2：定期預防性維護（y=269，H=90） -->
   <rect x="30" y="233" width="740" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="233" width="6" height="90" rx="3" fill="#78716c" />
-  <circle cx="68" cy="278" r="20" fill="#78716c" />
-  <text x="68" y="284" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="30" y="233" width="6" height="90" rx="2" fill="#78716c" />
+  <circle cx="68" cy="278" r="20" fill="#78716c"  opacity="0.15"/>
+  <text x="68" y="284" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
   <text x="100" y="263" font-size="17" font-weight="700" fill="#1c1917">定期預防性維護</text>
   <text x="100" y="286" font-size="13" fill="#57534e">依廠商建議或院內規定執行定期維護，每次維護有執行紀錄和技術員簽名</text>
   <rect x="650" y="255" width="90" height="28" rx="6" fill="#f5f5f4" />
@@ -34,9 +34,9 @@
 
   <!-- 列3：人員訓練與使用查核（y=372，H=90） -->
   <rect x="30" y="336" width="740" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="336" width="6" height="90" rx="3" fill="#57534e" />
-  <circle cx="68" cy="381" r="20" fill="#57534e" />
-  <text x="68" y="387" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="30" y="336" width="6" height="90" rx="2" fill="#57534e" />
+  <circle cx="68" cy="381" r="20" fill="#57534e"  opacity="0.15"/>
+  <text x="68" y="387" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
   <text x="100" y="366" font-size="17" font-weight="700" fill="#1c1917">人員訓練與使用查核</text>
   <text x="100" y="389" font-size="13" fill="#57534e">使用設備人員接受訓練有紀錄，高風險設備使用前有安全查核流程</text>
   <rect x="650" y="358" width="90" height="28" rx="6" fill="#f5f5f4" />

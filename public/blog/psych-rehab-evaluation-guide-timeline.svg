@@ -17,7 +17,7 @@
   <text x="100" y="179" text-anchor="middle" font-size="14" fill="#57534e">逐條自評差距</text>
   <text x="100" y="197" text-anchor="middle" font-size="14" fill="#57534e">成立備審小組</text>
   <line x1="100" y1="208" x2="100" y2="248" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <circle cx="100" cy="272" r="24" fill="#d97706"/>
+  <circle cx="100" cy="272" r="24" fill="#d97706" opacity="0.15"/>
   <text x="100" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">1</text>
   <rect x="66" y="300" width="68" height="22" rx="11" fill="#d97706"/>
   <text x="100" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W1-W4</text>
@@ -25,7 +25,7 @@
   <!-- 節點2：評鑑前2個月（下方） -->
   <rect x="222" y="222" width="68" height="22" rx="11" fill="#78716c"/>
   <text x="256" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">W5-W8</text>
-  <circle cx="256" cy="272" r="24" fill="#78716c"/>
+  <circle cx="256" cy="272" r="24" fill="#78716c" opacity="0.15"/>
   <text x="256" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">2</text>
   <line x1="256" y1="296" x2="256" y2="350" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4,3"/>
   <rect x="186" y="350" width="140" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -45,7 +45,7 @@
   <text x="412" y="179" text-anchor="middle" font-size="14" fill="#57534e">確認住宿型3.11</text>
   <text x="412" y="197" text-anchor="middle" font-size="14" fill="#57534e">準備負責人簡報</text>
   <line x1="412" y1="208" x2="412" y2="248" stroke="#57534e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <circle cx="412" cy="272" r="24" fill="#57534e"/>
+  <circle cx="412" cy="272" r="24" fill="#57534e" opacity="0.15"/>
   <text x="412" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">3</text>
   <rect x="378" y="300" width="68" height="22" rx="11" fill="#57534e"/>
   <text x="412" y="315" text-anchor="middle" font-size="14" fill="white" font-weight="700">W9-W12</text>
@@ -53,7 +53,7 @@
   <!-- 節點4：評鑑前1週（下方） -->
   <rect x="534" y="222" width="68" height="22" rx="11" fill="#a8a29e"/>
   <text x="568" y="237" text-anchor="middle" font-size="14" fill="white" font-weight="700">W13</text>
-  <circle cx="568" cy="272" r="24" fill="#a8a29e"/>
+  <circle cx="568" cy="272" r="24" fill="#a8a29e" opacity="0.15"/>
   <text x="568" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">4</text>
   <line x1="568" y1="296" x2="568" y2="350" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
   <rect x="498" y="350" width="140" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -65,7 +65,7 @@
   <text x="568" y="435" text-anchor="middle" font-size="14" fill="#57534e">預演負責人簡報</text>
 
   <!-- 評鑑日圖示 -->
-  <circle cx="700" cy="272" r="28" fill="#16a34a" opacity="0.15"/>
+  <circle cx="700" cy="272" r="28" fill="#16a34a"/>
   <circle cx="700" cy="272" r="20" fill="#16a34a"/>
   <!-- 勾選圖示 -->
   <path d="M 690,272 L 697,280 L 714,260" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>

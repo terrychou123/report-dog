@@ -1,43 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
-  <text x="400" y="48" font-family="'Noto Sans TC', sans-serif" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">各型別機構照服員配置比例</text>
-  <text x="400" y="78" font-family="'Noto Sans TC', sans-serif" font-size="22" fill="#78716c" text-anchor="middle">A11 條文規定：日班與夜班標準對照</text>
+  <text x="400" y="48"  font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">各型別機構照服員配置比例</text>
+  <text x="400" y="78"  font-size="22" fill="#78716c" text-anchor="middle">A11 條文規定：日班與夜班標準對照</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 標題列 -->
   <rect x="40" y="114" width="720" height="40" rx="6" fill="#57534e"/>
-  <text x="200" y="140" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">機構型別</text>
-  <text x="420" y="140" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">日班比例（照服員:住民）</text>
-  <text x="640" y="140" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">夜班比例（照服員:住民）</text>
+  <text x="200" y="140"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">機構型別</text>
+  <text x="420" y="140"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">日班比例（照服員:住民）</text>
+  <text x="640" y="140"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">夜班比例（照服員:住民）</text>
   <!-- 長照型 -->
   <rect x="40" y="162" width="720" height="50" rx="4" fill="#ffffff"/>
   <rect x="40" y="162" width="6" height="50" rx="2" fill="#d97706"/>
-  <text x="200" y="193" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">長照型</text>
-  <text x="420" y="193" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:5</text>
-  <text x="640" y="193" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
+  <text x="200" y="193"  font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">長照型</text>
+  <text x="420" y="193"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:5</text>
+  <text x="640" y="193"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
   <!-- 養護型 -->
   <rect x="40" y="220" width="720" height="50" rx="4" fill="#f8f7f5"/>
   <rect x="40" y="220" width="6" height="50" rx="2" fill="#78716c"/>
-  <text x="200" y="251" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#78716c" text-anchor="middle">養護型</text>
-  <text x="420" y="251" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:8</text>
-  <text x="640" y="251" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:25</text>
+  <text x="200" y="251"  font-size="18" font-weight="700" fill="#78716c" text-anchor="middle">養護型</text>
+  <text x="420" y="251"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:8</text>
+  <text x="640" y="251"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:25</text>
   <!-- 失智型 -->
   <rect x="40" y="278" width="720" height="50" rx="4" fill="#ffffff"/>
   <rect x="40" y="278" width="6" height="50" rx="2" fill="#57534e"/>
-  <text x="200" y="309" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">失智型</text>
-  <text x="420" y="309" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#d97706" text-anchor="middle">1:3</text>
-  <text x="640" y="309" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
+  <text x="200" y="309"  font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">失智型</text>
+  <text x="420" y="309"  font-size="24" font-weight="700" fill="#d97706" text-anchor="middle">1:3</text>
+  <text x="640" y="309"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
   <!-- 安養型 -->
   <rect x="40" y="336" width="720" height="50" rx="4" fill="#f8f7f5"/>
   <rect x="40" y="336" width="6" height="50" rx="2" fill="#94a3b8"/>
-  <text x="200" y="367" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="700" fill="#94a3b8" text-anchor="middle">安養型</text>
-  <text x="420" y="367" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
-  <text x="640" y="367" font-family="'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:35</text>
+  <text x="200" y="367"  font-size="18" font-weight="700" fill="#94a3b8" text-anchor="middle">安養型</text>
+  <text x="420" y="367"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
+  <text x="640" y="367"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:35</text>
   <!-- 說明 -->
   <rect x="40" y="402" width="720" height="50" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="60" y="424" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706">失智型日班最嚴格：</text>
-  <text x="200" y="424" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">每 3 位住民就需要 1 位照服員，60 床失智型日班需 20 位照服員</text>
-  <text x="60" y="444" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c">各班均需：</text>
-  <text x="140" y="444" font-family="'Noto Sans TC', sans-serif" font-size="15" fill="#57534e">至少 1 位本國籍照服員，外籍照服員 ≤ 本國籍照服員 + 護理人員總數</text>
+  <text x="60" y="424"  font-size="15" font-weight="700" fill="#d97706">失智型日班最嚴格：</text>
+  <text x="200" y="424"  font-size="15" fill="#57534e">每 3 位住民就需要 1 位照服員，60 床失智型日班需 20 位照服員</text>
+  <text x="60" y="444"  font-size="15" font-weight="700" fill="#78716c">各班均需：</text>
+  <text x="140" y="444"  font-size="15" fill="#57534e">至少 1 位本國籍照服員，外籍照服員 ≤ 本國籍照服員 + 護理人員總數</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

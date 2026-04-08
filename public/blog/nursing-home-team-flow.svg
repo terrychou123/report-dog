@@ -4,7 +4,7 @@
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="94" fill="white"/>
-  <rect x="0" y="0" width="6" height="94" fill="#d97706"/>
+  <rect x="0" y="0" width="6" height="94" fill="#d97706" rx="2"/>
   <text x="400" y="48" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">多職種協作流程</text>
   <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">從任務分配到整合演練的四步驟</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
@@ -13,7 +13,7 @@
   <line x1="28" y1="102" x2="772" y2="102" stroke="#dedad3" stroke-width="1" stroke-dasharray="4,4"/>
 
   <!-- 卡片1：任務分配 -->
-  <rect x="28" y="108" width="174" height="342" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
   <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
   <circle cx="115" cy="201" r="44" fill="#d97706" opacity="0.10"/>
@@ -31,7 +31,7 @@
   <polygon points="218,273 228,279 218,285" fill="#d97706"/>
 
   <!-- 卡片2：各自準備 -->
-  <rect x="218" y="108" width="174" height="342" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
   <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
   <circle cx="305" cy="201" r="44" fill="#78716c" opacity="0.10"/>
@@ -49,7 +49,7 @@
   <polygon points="408,273 418,279 408,285" fill="#78716c"/>
 
   <!-- 卡片3：交叉確認 -->
-  <rect x="408" y="108" width="174" height="342" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
   <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
   <circle cx="495" cy="201" r="44" fill="#57534e" opacity="0.10"/>
@@ -67,7 +67,7 @@
   <polygon points="598,273 608,279 598,285" fill="#57534e"/>
 
   <!-- 卡片4：整合演練 -->
-  <rect x="598" y="108" width="174" height="342" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
   <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
   <circle cx="685" cy="201" r="44" fill="#a8a29e" opacity="0.10"/>

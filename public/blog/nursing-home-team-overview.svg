@@ -4,13 +4,13 @@
 
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="94" fill="white"/>
-  <rect x="0" y="0" width="6" height="94" fill="#d97706"/>
+  <rect x="0" y="0" width="6" height="94" fill="#d97706" rx="2"/>
   <text x="400" y="48" font-size="32" font-weight="700" fill="#1e293b" text-anchor="middle">各職種負責評鑑範圍</text>
   <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle">住宿型機構評鑑五大職種分工</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 上排左：行政/主任 -->
-  <rect x="40" y="104" width="346" height="168" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="104" width="346" height="44" rx="10" fill="#d97706" opacity="0.12"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706" opacity="0.12"/>
   <text x="213" y="133" font-size="20" font-weight="700" fill="#d97706" text-anchor="middle">行政 / 主任</text>
@@ -21,7 +21,7 @@
   <text x="115" y="252" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">經營管理效能</text>
 
   <!-- 上排右：社工師 -->
-  <rect x="414" y="104" width="346" height="168" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="414" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="104" width="346" height="44" rx="10" fill="#78716c" opacity="0.12"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c" opacity="0.12"/>
   <text x="587" y="133" font-size="20" font-weight="700" fill="#78716c" text-anchor="middle">社工師</text>
@@ -32,7 +32,7 @@
   <text x="489" y="252" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">個案權益保障</text>
 
   <!-- 下排左：護理師A -->
-  <rect x="40" y="288" width="224" height="162" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="288" width="224" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="288" width="224" height="40" rx="10" fill="#57534e" opacity="0.12"/>
   <rect x="40" y="308" width="224" height="20" fill="#57534e" opacity="0.12"/>
   <text x="152" y="314" font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">護理師（護A）</text>
@@ -44,7 +44,7 @@
   <text x="98" y="436" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">護理照護品質</text>
 
   <!-- 下排中：護理師B -->
-  <rect x="276" y="288" width="222" height="162" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="276" y="288" width="222" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="276" y="288" width="222" height="40" rx="10" fill="#a8a29e" opacity="0.15"/>
   <rect x="276" y="308" width="222" height="20" fill="#a8a29e" opacity="0.15"/>
   <text x="387" y="314" font-size="18" font-weight="700" fill="#78716c" text-anchor="middle">護理師（護B）</text>
@@ -56,7 +56,7 @@
   <text x="334" y="436" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">感控照服管理</text>
 
   <!-- 下排右：環安人員 -->
-  <rect x="510" y="288" width="250" height="162" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="510" y="288" width="250" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="510" y="288" width="250" height="40" rx="10" fill="#94a3b8" opacity="0.15"/>
   <rect x="510" y="308" width="250" height="20" fill="#94a3b8" opacity="0.15"/>
   <text x="635" y="314" font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">環安人員</text>

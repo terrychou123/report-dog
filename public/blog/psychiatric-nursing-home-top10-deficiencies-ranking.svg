@@ -1,52 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">前5大高頻失分項目排名</text>
-  <text x="40" y="78" font-size="22" fill="#57534e" font-family="'Noto Sans TC', sans-serif">依發生頻率排序，優先改善這5項</text>
+  <text x="40" y="48" font-size="32" font-weight="bold" fill="#1e293b" >前5大高頻失分項目排名</text>
+  <text x="40" y="78" font-size="22" fill="#57534e" >依發生頻率排序，優先改善這5項</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 行1 -->
-  <rect x="30" y="110" width="6" height="60" rx="3" fill="#d97706"/>
+  <rect x="30" y="110" width="6" height="60" rx="2" fill="#d97706"/>
   <rect x="44" y="110" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
   <rect x="44" y="110" width="44" height="60" rx="6" fill="#d97706"/>
-  <text x="66" y="147" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">1</text>
-  <text x="105" y="135" font-size="17" font-weight="bold" fill="#d97706" font-family="'Noto Sans TC', sans-serif">排班無法證明24小時在班</text>
-  <text x="105" y="158" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">對應A2.2試扣分，影響整體評鑑</text>
+  <text x="66" y="147" font-size="20" font-weight="bold" fill="white" text-anchor="middle" >1</text>
+  <text x="105" y="135" font-size="17" font-weight="bold" fill="#d97706" >排班無法證明24小時在班</text>
+  <text x="105" y="158" font-size="14" fill="#57534e" >對應A2.2試扣分，影響整體評鑑</text>
 
   <!-- 行2 -->
-  <rect x="30" y="182" width="6" height="60" rx="3" fill="#78716c"/>
+  <rect x="30" y="182" width="6" height="60" rx="2" fill="#78716c"/>
   <rect x="44" y="182" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
   <rect x="44" y="182" width="44" height="60" rx="6" fill="#78716c"/>
-  <text x="66" y="219" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">2</text>
-  <text x="105" y="207" font-size="17" font-weight="bold" fill="#78716c" font-family="'Noto Sans TC', sans-serif">品質監測指標未逐月追蹤</text>
-  <text x="105" y="230" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">對應B1.7，6大指標缺任一月份</text>
+  <text x="66" y="219" font-size="20" font-weight="bold" fill="white" text-anchor="middle" >2</text>
+  <text x="105" y="207" font-size="17" font-weight="bold" fill="#78716c" >品質監測指標未逐月追蹤</text>
+  <text x="105" y="230" font-size="14" fill="#57534e" >對應B1.7，6大指標缺任一月份</text>
 
   <!-- 行3 -->
-  <rect x="30" y="254" width="6" height="60" rx="3" fill="#57534e"/>
+  <rect x="30" y="254" width="6" height="60" rx="2" fill="#57534e"/>
   <rect x="44" y="254" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
   <rect x="44" y="254" width="44" height="60" rx="6" fill="#57534e"/>
-  <text x="66" y="291" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">3</text>
-  <text x="105" y="279" font-size="17" font-weight="bold" fill="#57534e" font-family="'Noto Sans TC', sans-serif">約束記錄不完整</text>
-  <text x="105" y="302" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">評估→同意→執行→解除後追蹤缺一</text>
+  <text x="66" y="291" font-size="20" font-weight="bold" fill="white" text-anchor="middle" >3</text>
+  <text x="105" y="279" font-size="17" font-weight="bold" fill="#57534e" >約束記錄不完整</text>
+  <text x="105" y="302" font-size="14" fill="#57534e" >評估→同意→執行→解除後追蹤缺一</text>
 
   <!-- 行4 -->
-  <rect x="30" y="326" width="6" height="60" rx="3" fill="#a8a29e"/>
+  <rect x="30" y="326" width="6" height="60" rx="2" fill="#a8a29e"/>
   <rect x="44" y="326" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
   <rect x="44" y="326" width="44" height="60" rx="6" fill="#a8a29e"/>
-  <text x="66" y="363" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">4</text>
-  <text x="105" y="351" font-size="17" font-weight="bold" fill="#a8a29e" font-family="'Noto Sans TC', sans-serif">擅離院SOP員工不熟悉</text>
-  <text x="105" y="374" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">B1.10，訪談時員工答不出流程</text>
+  <text x="66" y="363" font-size="20" font-weight="bold" fill="white" text-anchor="middle" >4</text>
+  <text x="105" y="351" font-size="17" font-weight="bold" fill="#a8a29e" >擅離院SOP員工不熟悉</text>
+  <text x="105" y="374" font-size="14" fill="#57534e" >B1.10，訪談時員工答不出流程</text>
 
   <!-- 行5 -->
-  <rect x="30" y="398" width="6" height="60" rx="3" fill="#94a3b8"/>
+  <rect x="30" y="398" width="6" height="60" rx="2" fill="#94a3b8"/>
   <rect x="44" y="398" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
   <rect x="44" y="398" width="44" height="60" rx="6" fill="#94a3b8"/>
-  <text x="66" y="435" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">5</text>
-  <text x="105" y="423" font-size="17" font-weight="bold" fill="#94a3b8" font-family="'Noto Sans TC', sans-serif">在職訓練未達20小時</text>
-  <text x="105" y="446" font-size="14" fill="#57534e" font-family="'Noto Sans TC', sans-serif">A4.1，感染管制課程不足4小時</text>
+  <text x="66" y="435" font-size="20" font-weight="bold" fill="white" text-anchor="middle" >5</text>
+  <text x="105" y="423" font-size="17" font-weight="bold" fill="#94a3b8" >在職訓練未達20小時</text>
+  <text x="105" y="446" font-size="14" fill="#57534e" >A4.1，感染管制課程不足4小時</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

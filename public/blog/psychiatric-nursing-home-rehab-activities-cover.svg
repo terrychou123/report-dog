@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 右側裝飾區 -->
@@ -6,42 +6,42 @@
 
   <!-- 左側內容區 -->
   <!-- 主標題第1行 -->
-  <text x="60" y="160" font-size="130" font-weight="900" fill="#1e293b" font-family="'Noto Sans TC', sans-serif">復健作業</text>
+  <text x="60" y="160" font-size="130" font-weight="900" fill="#1e293b" >復健作業</text>
   <!-- 主標題第2行 -->
-  <text x="60" y="290" font-size="115" font-weight="900" fill="#d97706" font-family="'Noto Sans TC', sans-serif">每週15小時</text>
+  <text x="60" y="290" font-size="115" font-weight="900" fill="#d97706" >每週15小時</text>
   <!-- 副標題 -->
-  <text x="60" y="356" font-size="32" fill="#57534e" font-family="'Noto Sans TC', sans-serif">復健活動規劃、獎勵金制度與評鑑準備全解析</text>
+  <text x="60" y="356" font-size="32" fill="#57534e" >復健活動規劃、獎勵金制度與評鑑準備全解析</text>
 
   <!-- 特色標籤 -->
   <rect x="60" y="396" width="120" height="44" rx="22" fill="#d97706"/>
-  <text x="120" y="424" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">B1.15</text>
+  <text x="120" y="424" font-size="22" fill="white" text-anchor="middle" >B1.15</text>
   <rect x="196" y="396" width="140" height="44" rx="22" fill="#78716c"/>
-  <text x="266" y="424" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">復健活動</text>
+  <text x="266" y="424" font-size="22" fill="white" text-anchor="middle" >復健活動</text>
   <rect x="352" y="396" width="140" height="44" rx="22" fill="#57534e"/>
-  <text x="422" y="424" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">職能治療</text>
+  <text x="422" y="424" font-size="22" fill="white" text-anchor="middle" >職能治療</text>
 
   <!-- 適用對象說明 -->
-  <text x="60" y="500" font-size="28" fill="#78716c" font-family="'Noto Sans TC', sans-serif">適用：精神護理之家復健活動負責人員</text>
-  <text x="60" y="540" font-size="28" fill="#78716c" font-family="'Noto Sans TC', sans-serif">獎勵金制度設計與時數記錄完整指引</text>
+  <text x="60" y="500" font-size="28" fill="#78716c" >適用：精神護理之家復健活動負責人員</text>
+  <text x="60" y="540" font-size="28" fill="#78716c" >獎勵金制度設計與時數記錄完整指引</text>
 
   <!-- 右側裝飾 -->
   <!-- 大數字 -->
-  <text x="1000" y="210" font-size="210" font-weight="900" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">15</text>
-  <text x="1000" y="265" font-size="26" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">小時每週上限</text>
+  <text x="1000" y="210" font-size="210" font-weight="900" fill="#d97706" text-anchor="middle" >15</text>
+  <text x="1000" y="265" font-size="26" fill="#78716c" text-anchor="middle" >小時每週上限</text>
 
   <!-- 直列pill -->
   <rect x="860" y="300" width="280" height="44" rx="22" fill="white"/>
-  <text x="1000" y="328" font-size="20" fill="#d97706" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">住民同意</text>
+  <text x="1000" y="328" font-size="20" fill="#d97706" text-anchor="middle" >住民同意</text>
 
   <rect x="860" y="356" width="280" height="44" rx="22" fill="white"/>
-  <text x="1000" y="384" font-size="20" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">獎勵金辦法</text>
+  <text x="1000" y="384" font-size="20" fill="#78716c" text-anchor="middle" >獎勵金辦法</text>
 
   <rect x="860" y="412" width="280" height="44" rx="22" fill="white"/>
-  <text x="1000" y="440" font-size="20" fill="#57534e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">時數記錄</text>
+  <text x="1000" y="440" font-size="20" fill="#57534e" text-anchor="middle" >時數記錄</text>
 
   <rect x="860" y="468" width="280" height="44" rx="22" fill="white"/>
-  <text x="1000" y="496" font-size="20" fill="#a8a29e" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">專人指導</text>
+  <text x="1000" y="496" font-size="20" fill="#a8a29e" text-anchor="middle" >專人指導</text>
 
   <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

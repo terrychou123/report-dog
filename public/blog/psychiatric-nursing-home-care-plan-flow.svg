@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題 -->
-  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">入住評估與照護計畫建立流程</text>
-  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">從入住到照護計畫完成的B1.1標準作業</text>
+  <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle"  font-weight="700">入住評估與照護計畫建立流程</text>
+  <text x="400" y="78" font-size="22" fill="#78716c" text-anchor="middle" >從入住到照護計畫完成的B1.1標準作業</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="2"/>
 
   <!-- 步驟1 -->
   <rect x="40" y="120" width="155" height="300" rx="12" fill="#d97706"/>
-  <text x="117" y="190" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 1</text>
-  <text x="117" y="220" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">入住72小時內</text>
+  <text x="117" y="190" font-size="18" fill="white" text-anchor="middle"  font-weight="700">步驟 1</text>
+  <text x="117" y="220" font-size="16" fill="white" text-anchor="middle" >入住72小時內</text>
   <line x1="60" y1="238" x2="175" y2="238" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="117" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">完成身體、心理、</text>
-  <text x="117" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">社會、認知、</text>
-  <text x="117" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">活動功能、</text>
-  <text x="117" y="330" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">營養六大評估</text>
+  <text x="117" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >完成身體、心理、</text>
+  <text x="117" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >社會、認知、</text>
+  <text x="117" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >活動功能、</text>
+  <text x="117" y="330" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >營養六大評估</text>
 
   <!-- 箭頭1 -->
   <polygon points="210,265 225,255 225,275" fill="#57534e"/>
@@ -23,13 +23,13 @@
 
   <!-- 步驟2 -->
   <rect x="230" y="120" width="155" height="300" rx="12" fill="#78716c"/>
-  <text x="307" y="190" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 2</text>
-  <text x="307" y="220" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">擬定照護計畫</text>
+  <text x="307" y="190" font-size="18" fill="white" text-anchor="middle"  font-weight="700">步驟 2</text>
+  <text x="307" y="220" font-size="16" fill="white" text-anchor="middle" >擬定照護計畫</text>
   <line x1="250" y1="238" x2="365" y2="238" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="307" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依評估結果訂定</text>
-  <text x="307" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">具體照護目標</text>
-  <text x="307" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">與計畫（含預防</text>
-  <text x="307" y="330" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">延緩失能）</text>
+  <text x="307" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >依評估結果訂定</text>
+  <text x="307" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >具體照護目標</text>
+  <text x="307" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >與計畫（含預防</text>
+  <text x="307" y="330" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >延緩失能）</text>
 
   <!-- 箭頭2 -->
   <polygon points="400,265 415,255 415,275" fill="#57534e"/>
@@ -37,12 +37,12 @@
 
   <!-- 步驟3 -->
   <rect x="420" y="120" width="155" height="300" rx="12" fill="#57534e"/>
-  <text x="497" y="190" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 3</text>
-  <text x="497" y="220" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行與紀錄</text>
+  <text x="497" y="190" font-size="18" fill="white" text-anchor="middle"  font-weight="700">步驟 3</text>
+  <text x="497" y="220" font-size="16" fill="white" text-anchor="middle" >執行與紀錄</text>
   <line x1="440" y1="238" x2="555" y2="238" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="497" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">執行照護措施，</text>
-  <text x="497" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每月追蹤體重，</text>
-  <text x="497" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">持續護理紀錄</text>
+  <text x="497" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >執行照護措施，</text>
+  <text x="497" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >每月追蹤體重，</text>
+  <text x="497" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >持續護理紀錄</text>
 
   <!-- 箭頭3 -->
   <polygon points="590,265 605,255 605,275" fill="#57534e"/>
@@ -50,14 +50,14 @@
 
   <!-- 步驟4 -->
   <rect x="610" y="120" width="150" height="300" rx="12" fill="#a8a29e"/>
-  <text x="685" y="190" font-size="18" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">步驟 4</text>
-  <text x="685" y="220" font-size="16" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">每半年修訂</text>
+  <text x="685" y="190" font-size="18" fill="white" text-anchor="middle"  font-weight="700">步驟 4</text>
+  <text x="685" y="220" font-size="16" fill="white" text-anchor="middle" >每半年修訂</text>
   <line x1="630" y1="238" x2="740" y2="238" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-  <text x="685" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">與住民/家屬</text>
-  <text x="685" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">共同討論，</text>
-  <text x="685" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">依評值結果</text>
-  <text x="685" y="330" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="'Noto Sans TC', sans-serif">修正計畫</text>
+  <text x="685" y="264" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >與住民/家屬</text>
+  <text x="685" y="286" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >共同討論，</text>
+  <text x="685" y="308" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >依評值結果</text>
+  <text x="685" y="330" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle" >修正計畫</text>
 
   <!-- 品牌浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -11,7 +11,7 @@
   <!-- Row1 y=118 -->
   <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="118" width="6" height="60" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="148" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="148" r="16" fill="#dc2626"/>
   <text x="66" y="154" font-size="16" font-weight="900" fill="#dc2626" text-anchor="middle">C4</text>
   <text x="100" y="145" font-size="20" font-weight="700" fill="#dc2626">【一級必要】緊急呼叫系統實地測試</text>
   <text x="100" y="166" font-size="16" fill="#57534e">浴室、廁所、寢室均安裝；按鈴後服務員須立即反應</text>
@@ -21,7 +21,7 @@
   <!-- Row2 y=191 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="191" width="6" height="60" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="221" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="221" r="16" fill="#dc2626"/>
   <text x="66" y="227" font-size="16" font-weight="900" fill="#dc2626" text-anchor="middle">C9</text>
   <text x="100" y="218" font-size="20" font-weight="700" fill="#dc2626">【一級必要】防火避難申報＋消防檢修</text>
   <text x="100" y="239" font-size="16" fill="#57534e">建物公安申報合格；消防設備每半年檢修；備近5年紀錄</text>
@@ -31,7 +31,7 @@
   <!-- Row3 y=264 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="264" width="6" height="60" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="294" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="294" r="16" fill="#dc2626"/>
   <text x="66" y="300" font-size="16" font-weight="900" fill="#dc2626" text-anchor="middle">C12</text>
   <text x="100" y="291" font-size="20" font-weight="700" fill="#dc2626">【一級必要】各樓層A3以上逃生圖</text>
   <text x="100" y="312" font-size="16" fill="#57534e">需標示所在位置、防火區劃、等待救接空間；方向必須正確</text>
@@ -41,7 +41,7 @@
   <!-- Row4 y=337 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="337" width="6" height="60" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="367" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="367" r="16" fill="#dc2626"/>
   <text x="66" y="373" font-size="16" font-weight="900" fill="#dc2626" text-anchor="middle">C15</text>
   <text x="100" y="364" font-size="20" font-weight="700" fill="#dc2626">【一級必要】每層護理站＋急救設備效期</text>
   <text x="100" y="385" font-size="16" fill="#57534e">每層樓設護理站；氧氣瓶在效期內；護理人員熟悉使用</text>
@@ -51,7 +51,7 @@
   <!-- Row5 y=410 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="410" width="6" height="60" rx="2" fill="#dc2626"/>
-  <circle cx="66" cy="440" r="16" fill="#dc2626" opacity="0.15"/>
+  <circle cx="66" cy="440" r="16" fill="#dc2626"/>
   <text x="66" y="446" font-size="16" font-weight="900" fill="#dc2626" text-anchor="middle">C11</text>
   <text x="100" y="437" font-size="20" font-weight="700" fill="#dc2626">【一級必要】夜間演練＋複合型演練各1次</text>
   <text x="100" y="458" font-size="16" fill="#57534e">每年各執行1次；需有演練腳本、照片、檢討會議紀錄</text>

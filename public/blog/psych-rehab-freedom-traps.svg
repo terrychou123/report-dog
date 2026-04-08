@@ -14,19 +14,19 @@
   <text x="208" y="128" font-size="15" fill="#57534e" text-anchor="middle">物理設施直接阻礙出入</text>
 
   <!-- 硬性限制 1 -->
-  <circle cx="58" cy="168" r="14" fill="#dc2626" opacity="0.15"/>
+  <circle cx="58" cy="168" r="14" fill="#dc2626"/>
   <text x="58" y="174" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">1</text>
   <text x="84" y="164" font-size="17" fill="#1e293b" font-weight="700">電子門禁阻擋</text>
   <text x="84" y="184" font-size="14" fill="#57534e">大門需刷卡，住民沒有門卡</text>
 
   <!-- 硬性限制 2 -->
-  <circle cx="58" cy="232" r="14" fill="#dc2626" opacity="0.15"/>
+  <circle cx="58" cy="232" r="14" fill="#dc2626"/>
   <text x="58" y="238" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">2</text>
   <text x="84" y="228" font-size="17" fill="#1e293b" font-weight="700">欄杆圍牆封閉</text>
   <text x="84" y="248" font-size="14" fill="#57534e">物理圍封，住民無法自行出入</text>
 
   <!-- 硬性限制 3 -->
-  <circle cx="58" cy="296" r="14" fill="#dc2626" opacity="0.15"/>
+  <circle cx="58" cy="296" r="14" fill="#dc2626"/>
   <text x="58" y="302" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">3</text>
   <text x="84" y="292" font-size="17" fill="#1e293b" font-weight="700">夜間全面鎖門</text>
   <text x="84" y="312" font-size="14" fill="#57534e">無任何例外，禁止所有外出</text>

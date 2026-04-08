@@ -13,19 +13,19 @@
   <rect x="28" y="108" width="354" height="52" rx="10" fill="#a8a29e" opacity="0.2"/>
   <text x="205" y="140" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">舊制：4 年一評</text>
 
-  <rect x="28" y="172" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="172" width="354" height="76" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="172" width="6" height="76" rx="2" fill="#a8a29e"/>
   <text x="52" y="200" font-size="18" fill="#1e293b" font-weight="700">備審方式</text>
   <text x="52" y="222" font-size="16" fill="#57534e">評鑑前 1-2 個月臨時衝刺準備</text>
   <text x="52" y="240" font-size="16" fill="#57534e">文件集中補建、全院熬夜整理</text>
 
-  <rect x="28" y="260" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="260" width="354" height="76" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="260" width="6" height="76" rx="2" fill="#a8a29e"/>
   <text x="52" y="288" font-size="18" fill="#1e293b" font-weight="700">評鑑頻率</text>
   <text x="52" y="310" font-size="16" fill="#57534e">每 4 年辦理一次</text>
   <text x="52" y="328" font-size="16" fill="#57534e">評鑑壓力集中爆發</text>
 
-  <rect x="28" y="348" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="348" width="354" height="76" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="348" width="6" height="76" rx="2" fill="#a8a29e"/>
   <text x="52" y="376" font-size="18" fill="#1e293b" font-weight="700">查核重點</text>
   <text x="52" y="398" font-size="16" fill="#57534e">評鑑當天文件是否齊全</text>
@@ -35,19 +35,19 @@
   <rect x="418" y="108" width="354" height="52" rx="10" fill="#d97706" opacity="0.15"/>
   <text x="595" y="140" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">新制：6 年一評</text>
 
-  <rect x="418" y="172" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="418" y="172" width="354" height="76" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="418" y="172" width="6" height="76" rx="2" fill="#d97706"/>
   <text x="442" y="200" font-size="18" fill="#1e293b" font-weight="700">備審方式</text>
   <text x="442" y="222" font-size="16" fill="#57534e">日常化持續品質紀錄</text>
   <text x="442" y="240" font-size="16" fill="#57534e">評鑑是日常品質的自然呈現</text>
 
-  <rect x="418" y="260" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="418" y="260" width="354" height="76" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="418" y="260" width="6" height="76" rx="2" fill="#d97706"/>
   <text x="442" y="288" font-size="18" fill="#1e293b" font-weight="700">評鑑頻率</text>
   <text x="442" y="310" font-size="16" fill="#57534e">每 6 年正式評鑑</text>
   <text x="442" y="328" font-size="16" fill="#57534e">+ 常態性監測指標持續追蹤</text>
 
-  <rect x="418" y="348" width="354" height="76" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="418" y="348" width="354" height="76" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="418" y="348" width="6" height="76" rx="2" fill="#d97706"/>
   <text x="442" y="376" font-size="18" fill="#1e293b" font-weight="700">查核重點</text>
   <text x="442" y="398" font-size="16" fill="#57534e">過去幾年的持續性品質紀錄</text>

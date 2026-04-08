@@ -5,7 +5,7 @@
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- Row 1: 當事人語言的目標 -->
-  <rect x="28" y="110" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="110" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="110" width="6" height="72" rx="2" fill="#d97706"/>
   <circle cx="66" cy="146" r="18" fill="#d97706" opacity="0.15"/>
   <text x="66" y="152" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
@@ -17,7 +17,7 @@
   <text x="688" y="158" font-size="15" fill="#d97706" text-anchor="middle">在計畫前段</text>
 
   <!-- Row 2: 優勢導向 -->
-  <rect x="28" y="190" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="190" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="190" width="6" height="72" rx="2" fill="#78716c"/>
   <circle cx="66" cy="226" r="18" fill="#78716c" opacity="0.15"/>
   <text x="66" y="232" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
@@ -29,7 +29,7 @@
   <text x="688" y="238" font-size="15" fill="#78716c" text-anchor="middle">評估必填</text>
 
   <!-- Row 3: 三方參與 -->
-  <rect x="28" y="270" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="270" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="270" width="6" height="72" rx="2" fill="#57534e"/>
   <circle cx="66" cy="306" r="18" fill="#57534e" opacity="0.15"/>
   <text x="66" y="312" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
@@ -41,7 +41,7 @@
   <text x="688" y="318" font-size="15" fill="#57534e" text-anchor="middle">共同決定</text>
 
   <!-- Row 4: 季度更新 -->
-  <rect x="28" y="350" width="744" height="72" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="350" width="744" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="350" width="6" height="72" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="386" r="18" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="392" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>

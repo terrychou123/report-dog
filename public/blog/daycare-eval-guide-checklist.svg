@@ -9,7 +9,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄：硬體環境（琥珀） -->
-  <rect x="60" y="111" width="6" height="24" rx="3" fill="#d97706"/>
+  <rect x="60" y="111" width="6" height="24" rx="2" fill="#d97706"/>
   <text x="74" y="129" font-size="20" fill="#1e293b" font-weight="700">硬體環境</text>
 
   <!-- 已完成：打勾框 -->
@@ -30,7 +30,7 @@
   <text x="94" y="253" font-size="18" fill="#1e293b">緊急呼叫系統正常運作</text>
 
   <!-- 左欄：服務品質（暖灰） -->
-  <rect x="60" y="275" width="6" height="24" rx="3" fill="#78716c"/>
+  <rect x="60" y="275" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="74" y="293" font-size="20" fill="#1e293b" font-weight="700">服務品質</text>
 
   <rect x="64" y="311" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
@@ -52,7 +52,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄：文件管理（深棕） -->
-  <rect x="416" y="111" width="6" height="24" rx="3" fill="#57534e"/>
+  <rect x="416" y="111" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="430" y="129" font-size="20" fill="#1e293b" font-weight="700">文件管理</text>
 
   <rect x="420" y="147" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
@@ -71,7 +71,7 @@
   <text x="450" y="253" font-size="18" fill="#1e293b">電子檔備份至雲端完成</text>
 
   <!-- 右欄：人員準備（淺灰） -->
-  <rect x="416" y="275" width="6" height="24" rx="3" fill="#a8a29e"/>
+  <rect x="416" y="275" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="430" y="293" font-size="20" fill="#1e293b" font-weight="700">人員準備</text>
 
   <rect x="420" y="311" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>

@@ -6,7 +6,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
 
   <!-- 項目 1 -->
-  <rect x="28" y="110" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
   <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">D2｜契約範本（含5天審閱期說明＋家屬簽收記錄）</text>
@@ -15,7 +15,7 @@
   <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">D2 契約</text>
 
   <!-- 項目 2 -->
-  <rect x="28" y="172" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
   <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">D4｜申訴機制告示（明顯張貼）＋年度申訴統計分析報告</text>
@@ -24,7 +24,7 @@
   <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">D4 申訴</text>
 
   <!-- 項目 3 -->
-  <rect x="28" y="234" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
   <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">✓</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">D6｜寢室照片（圍簾、床頭櫃）＋確認無監視器於寢室浴廁</text>
@@ -33,7 +33,7 @@
   <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">D6 隱私</text>
 
   <!-- 項目 4 -->
-  <rect x="28" y="296" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
   <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">✓</text>
   <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">D8｜緩和醫療資訊（DNR 告知紀錄）＋臨終照護手冊留存</text>
@@ -42,7 +42,7 @@
   <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">D8 緩和</text>
 
   <!-- 項目 5 -->
-  <rect x="28" y="358" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
   <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">✓</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">D9｜年度不具名滿意度調查問卷＋統計分析＋改善措施追蹤</text>

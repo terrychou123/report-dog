@@ -9,9 +9,9 @@
 
   <!-- 列1：設備清冊（y=90） -->
   <rect x="30" y="92" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="92" width="6" height="88" rx="3" fill="#d97706" />
-  <circle cx="68" cy="136" r="18" fill="#d97706" />
-  <text x="68" y="142" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <rect x="30" y="92" width="6" height="88" rx="2" fill="#d97706" />
+  <circle cx="68" cy="136" r="18" fill="#d97706"  opacity="0.15"/>
+  <text x="68" y="142" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
   <text x="98" y="120" font-size="15" font-weight="700" fill="#1c1917">設備清冊</text>
   <text x="98" y="140" font-size="12" fill="#57534e">醫療設備全院清冊，含名稱、型號、序號、位置、維護週期，</text>
   <text x="98" y="158" font-size="12" fill="#57534e">定期盤點確認與實際一致</text>
@@ -20,9 +20,9 @@
 
   <!-- 列2：預防性維護紀錄（y=190） -->
   <rect x="30" y="192" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="192" width="6" height="88" rx="3" fill="#78716c" />
-  <circle cx="68" cy="236" r="18" fill="#78716c" />
-  <text x="68" y="242" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="30" y="192" width="6" height="88" rx="2" fill="#78716c" />
+  <circle cx="68" cy="236" r="18" fill="#78716c"  opacity="0.15"/>
+  <text x="68" y="242" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
   <text x="98" y="220" font-size="15" font-weight="700" fill="#1c1917">預防性維護紀錄</text>
   <text x="98" y="240" font-size="12" fill="#57534e">依計畫執行定期維護，每次有紀錄（日期、執行人、結果），</text>
   <text x="98" y="258" font-size="12" fill="#57534e">可供2-3年追溯</text>
@@ -31,9 +31,9 @@
 
   <!-- 列3：故障通報維修流程（y=292） -->
   <rect x="30" y="292" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="292" width="6" height="88" rx="3" fill="#57534e" />
-  <circle cx="68" cy="336" r="18" fill="#57534e" />
-  <text x="68" y="342" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="30" y="292" width="6" height="88" rx="2" fill="#57534e" />
+  <circle cx="68" cy="336" r="18" fill="#57534e"  opacity="0.15"/>
+  <text x="68" y="342" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
   <text x="98" y="320" font-size="15" font-weight="700" fill="#1c1917">故障通報維修流程</text>
   <text x="98" y="340" font-size="12" fill="#57534e">設備故障立即通報，有維修工單、備用設備調度、恢復使用前確認安全，</text>
   <text x="98" y="358" font-size="12" fill="#57534e">不影響病人照護</text>
@@ -42,9 +42,9 @@
 
   <!-- 列4：高風險設備安全查核（y=392） -->
   <rect x="30" y="392" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
-  <rect x="30" y="392" width="6" height="88" rx="3" fill="#a8a29e" />
-  <circle cx="68" cy="436" r="18" fill="#a8a29e" />
-  <text x="68" y="442" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <rect x="30" y="392" width="6" height="88" rx="2" fill="#a8a29e" />
+  <circle cx="68" cy="436" r="18" fill="#a8a29e"  opacity="0.15"/>
+  <text x="68" y="442" font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
   <text x="98" y="420" font-size="15" font-weight="700" fill="#1c1917">高風險設備安全查核</text>
   <text x="98" y="440" font-size="12" fill="#57534e">呼吸器、電刀等使用前有標準查核清單，</text>
   <text x="98" y="458" font-size="12" fill="#57534e">使用人員訓練紀錄完整</text>

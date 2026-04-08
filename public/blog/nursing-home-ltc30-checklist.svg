@@ -6,7 +6,7 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#d97706" stroke-width="2"/>
 
   <!-- 項目 1 -->
-  <rect x="28" y="110" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
   <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">B2 個案計畫已包含住民個人偏好、文化背景等個別化資訊</text>
@@ -15,7 +15,7 @@
   <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">以人為中心</text>
 
   <!-- 項目 2 -->
-  <rect x="28" y="172" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
   <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">至少一項照護管理流程已數位化（如品質會議紀錄或個案追蹤）</text>
@@ -24,7 +24,7 @@
   <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">數位化</text>
 
   <!-- 項目 3 -->
-  <rect x="28" y="234" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
   <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">✓</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">D1 個案資料定期上傳衛福部系統，有明確的存取權限紀錄</text>
@@ -33,7 +33,7 @@
   <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">資料治理</text>
 
   <!-- 項目 4 -->
-  <rect x="28" y="296" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
   <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">✓</text>
   <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">B1 品質會議有數據趨勢分析（跌倒/壓損/感染發生率圖表）</text>
@@ -42,7 +42,7 @@
   <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">品質可視化</text>
 
   <!-- 項目 5 -->
-  <rect x="28" y="358" width="744" height="50" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
   <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">✓</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">有一項創新措施（E2）展現科技應用或以人為中心的服務創新</text>

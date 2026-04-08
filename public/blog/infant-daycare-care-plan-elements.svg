@@ -1,39 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題列 -->
   <rect x="40" y="29" width="720" height="60" rx="8" fill="#d97706"/>
-  <text x="400" y="66" font-size="22" fill="white" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-weight="700">個別化照顧計畫 5 大要素</text>
+  <text x="400" y="66" font-size="22" fill="white" text-anchor="middle"  font-weight="700">個別化照顧計畫 5 大要素</text>
   <!-- Row 1 -->
-  <rect x="40" y="118" width="720" height="60" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="118" width="720" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="118" width="8" height="60" rx="3" fill="#d97706"/>
-  <text x="70" y="143" font-size="15" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">01</text>
-  <text x="108" y="143" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">幼兒基本資料</text>
-  <text x="108" y="167" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">姓名、出生日期、入托日期、家長聯絡方式、特殊需求記錄</text>
+  <text x="70" y="143" font-size="15" fill="#78716c"  font-weight="700">01</text>
+  <text x="108" y="143" font-size="18" fill="#1e293b"  font-weight="700">幼兒基本資料</text>
+  <text x="108" y="167" font-size="14" fill="#78716c" >姓名、出生日期、入托日期、家長聯絡方式、特殊需求記錄</text>
   <!-- Row 2 -->
-  <rect x="40" y="191" width="720" height="60" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="191" width="720" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="191" width="8" height="60" rx="3" fill="#78716c"/>
-  <text x="70" y="216" font-size="15" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">02</text>
-  <text x="108" y="216" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">發展評量結果</text>
-  <text x="108" y="240" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">粗動作、精細動作、語言、認知、社會情緒五大發展領域評量</text>
+  <text x="70" y="216" font-size="15" fill="#78716c"  font-weight="700">02</text>
+  <text x="108" y="216" font-size="18" fill="#1e293b"  font-weight="700">發展評量結果</text>
+  <text x="108" y="240" font-size="14" fill="#78716c" >粗動作、精細動作、語言、認知、社會情緒五大發展領域評量</text>
   <!-- Row 3 -->
-  <rect x="40" y="264" width="720" height="60" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="264" width="720" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="264" width="8" height="60" rx="3" fill="#57534e"/>
-  <text x="70" y="289" font-size="15" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">03</text>
-  <text x="108" y="289" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">照顧目標</text>
-  <text x="108" y="313" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">依評量結果訂定短期（1個月）與中期（3個月）具體可測量目標</text>
+  <text x="70" y="289" font-size="15" fill="#78716c"  font-weight="700">03</text>
+  <text x="108" y="289" font-size="18" fill="#1e293b"  font-weight="700">照顧目標</text>
+  <text x="108" y="313" font-size="14" fill="#78716c" >依評量結果訂定短期（1個月）與中期（3個月）具體可測量目標</text>
   <!-- Row 4 -->
-  <rect x="40" y="337" width="720" height="60" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="337" width="720" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="337" width="8" height="60" rx="3" fill="#a8a29e"/>
-  <text x="70" y="362" font-size="15" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">04</text>
-  <text x="108" y="362" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">執行策略</text>
-  <text x="108" y="386" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">日常照顧方式、活動設計、親師溝通重點、家庭配合事項</text>
+  <text x="70" y="362" font-size="15" fill="#78716c"  font-weight="700">04</text>
+  <text x="108" y="362" font-size="18" fill="#1e293b"  font-weight="700">執行策略</text>
+  <text x="108" y="386" font-size="14" fill="#78716c" >日常照顧方式、活動設計、親師溝通重點、家庭配合事項</text>
   <!-- Row 5 -->
-  <rect x="40" y="410" width="720" height="60" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="40" y="410" width="720" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="410" width="8" height="60" rx="3" fill="#94a3b8"/>
-  <text x="70" y="435" font-size="15" fill="#78716c" font-family="'Noto Sans TC', sans-serif" font-weight="700">05</text>
-  <text x="108" y="435" font-size="18" fill="#1e293b" font-family="'Noto Sans TC', sans-serif" font-weight="700">定期複評</text>
-  <text x="108" y="459" font-size="14" fill="#78716c" font-family="'Noto Sans TC', sans-serif">每季複評一次，更新目標與策略，指標 35 每日觀察記錄佐證</text>
+  <text x="70" y="435" font-size="15" fill="#78716c"  font-weight="700">05</text>
+  <text x="108" y="435" font-size="18" fill="#1e293b"  font-weight="700">定期複評</text>
+  <text x="108" y="459" font-size="14" fill="#78716c" >每季複評一次，更新目標與策略，指標 35 每日觀察記錄佐證</text>
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

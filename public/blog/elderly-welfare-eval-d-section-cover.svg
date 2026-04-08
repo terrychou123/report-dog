@@ -1,37 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
 
   <!-- 右側裝飾區塊 -->
   <rect x="720" y="80" width="400" height="470" rx="20" fill="#e8e6de"/>
   <!-- 大字 13% -->
-  <text x="920" y="280" font-size="160" fill="#2563eb" text-anchor="middle" font-weight="700" font-family="sans-serif">13%</text>
+  <text x="920" y="280" font-size="160" fill="#2563eb" text-anchor="middle" font-weight="700" >13%</text>
   <!-- 說明文字 -->
-  <text x="920" y="340" font-size="36" fill="#57534e" text-anchor="middle" font-family="sans-serif">配分佔比</text>
+  <text x="920" y="340" font-size="36" fill="#57534e" text-anchor="middle" >配分佔比</text>
   <!-- D區標示 -->
   <rect x="800" y="370" width="240" height="60" rx="12" fill="#2563eb"/>
-  <text x="920" y="410" font-size="26" fill="#ffffff" text-anchor="middle" font-weight="600" font-family="sans-serif">D 區個案權益</text>
+  <text x="920" y="410" font-size="26" fill="#ffffff" text-anchor="middle" font-weight="600" >D 區個案權益</text>
 
   <!-- 左側主標題 -->
-  <text x="80" y="200" font-size="100" fill="#1e293b" text-anchor="start" font-weight="700" font-family="sans-serif">D 區個案權益</text>
-  <text x="80" y="320" font-size="100" fill="#2563eb" text-anchor="start" font-weight="700" font-family="sans-serif">9 項保障攻略</text>
+  <text x="80" y="200" font-size="100" fill="#1e293b" text-anchor="start" font-weight="700" >D 區個案權益</text>
+  <text x="80" y="320" font-size="100" fill="#2563eb" text-anchor="start" font-weight="700" >9 項保障攻略</text>
 
   <!-- 副標題 -->
-  <text x="80" y="395" font-size="38" fill="#57534e" text-anchor="start" font-family="sans-serif">從入住契約到臨終照護，13% 配分不失守</text>
+  <text x="80" y="395" font-size="38" fill="#57534e" text-anchor="start" >從入住契約到臨終照護，13% 配分不失守</text>
 
   <!-- Pill 標籤 -->
   <rect x="80" y="440" width="220" height="42" rx="21" fill="#dbeafe"/>
-  <text x="190" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">D1/D6二級加強</text>
+  <text x="190" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" >D1/D6二級加強</text>
 
   <rect x="315" y="440" width="140" height="42" rx="21" fill="#dbeafe"/>
-  <text x="385" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">入住契約</text>
+  <text x="385" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" >入住契約</text>
 
   <rect x="470" y="440" width="140" height="42" rx="21" fill="#dbeafe"/>
-  <text x="540" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">緩和醫療</text>
+  <text x="540" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" >緩和醫療</text>
 
   <rect x="625" y="440" width="140" height="42" rx="21" fill="#dbeafe"/>
-  <text x="695" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" font-family="sans-serif">AI輔助</text>
+  <text x="695" y="468" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="600" >AI輔助</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="sans-serif">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

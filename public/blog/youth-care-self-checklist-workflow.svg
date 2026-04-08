@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="29" width="744" height="62" rx="8" fill="#1e293b"/>
-  <text x="400" y="68" font-family="'Noto Sans TC', sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">自我檢核四步驟工作流程</text>
+  <text x="400" y="68"  font-size="22" font-weight="700" fill="white" text-anchor="middle">自我檢核四步驟工作流程</text>
   <!-- Row 1 -->
   <rect x="28" y="160" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="160" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="191" r="16" fill="#d97706"/>
-  <text x="66" y="197" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">1</text>
-  <text x="100" y="186" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">下載官方評鑑自我檢核表</text>
-  <text x="100" y="210" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">至衛生福利部或主管機關下載 112 年度版本，確認使用最新表格</text>
-  <rect x="620" y="168" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="195" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">準備期</text>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197"  font-size="16" font-weight="700" fill="white" text-anchor="middle">1</text>
+  <text x="100" y="186"  font-size="18" font-weight="600" fill="#1e293b">下載官方評鑑自我檢核表</text>
+  <text x="100" y="210"  font-size="14" fill="#78716c">至衛生福利部或主管機關下載 112 年度版本，確認使用最新表格</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="195"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">準備期</text>
   <!-- Row 2 -->
   <rect x="28" y="235" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="235" width="6" height="62" rx="3" fill="#78716c"/>
-  <circle cx="66" cy="266" r="16" fill="#78716c"/>
-  <text x="66" y="272" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">2</text>
-  <text x="100" y="261" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">逐項比對現有文件</text>
-  <text x="100" y="285" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">按五大區塊逐一核對，在每個項目欄位標記「有／無／待補」</text>
-  <rect x="620" y="243" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="270" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#78716c" text-anchor="middle">核查期</text>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272"  font-size="16" font-weight="700" fill="white" text-anchor="middle">2</text>
+  <text x="100" y="261"  font-size="18" font-weight="600" fill="#1e293b">逐項比對現有文件</text>
+  <text x="100" y="285"  font-size="14" fill="#78716c">按五大區塊逐一核對，在每個項目欄位標記「有／無／待補」</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="270"  font-size="15" font-weight="700" fill="#78716c" text-anchor="middle">核查期</text>
   <!-- Row 3 -->
   <rect x="28" y="310" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="310" width="6" height="62" rx="3" fill="#57534e"/>
-  <circle cx="66" cy="341" r="16" fill="#57534e"/>
-  <text x="66" y="347" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">3</text>
-  <text x="100" y="336" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">記錄缺漏項目與補件責任人</text>
-  <text x="100" y="360" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">將標記為「無」或「待補」的項目列入改善追蹤清單，指定負責人與期限</text>
-  <rect x="620" y="318" width="136" height="46" rx="8" fill="#f1f5f9"/>
-  <text x="688" y="345" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#57534e" text-anchor="middle">盤點期</text>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347"  font-size="16" font-weight="700" fill="white" text-anchor="middle">3</text>
+  <text x="100" y="336"  font-size="18" font-weight="600" fill="#1e293b">記錄缺漏項目與補件責任人</text>
+  <text x="100" y="360"  font-size="14" fill="#78716c">將標記為「無」或「待補」的項目列入改善追蹤清單，指定負責人與期限</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#f1f5f9" opacity="0.12"/>
+  <text x="688" y="345"  font-size="15" font-weight="700" fill="#57534e" text-anchor="middle">盤點期</text>
   <!-- Row 4 -->
   <rect x="28" y="385" width="744" height="62" rx="8" fill="white"/>
-  <rect x="28" y="385" width="6" height="62" rx="3" fill="#d97706"/>
-  <circle cx="66" cy="416" r="16" fill="#d97706"/>
-  <text x="66" y="422" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">4</text>
-  <text x="100" y="411" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="600" fill="#1e293b">改善與複核確認</text>
-  <text x="100" y="435" font-family="'Noto Sans TC', sans-serif" font-size="14" fill="#78716c">補齊文件後再次逐項複核，確保每個項目皆有對應佐證文件</text>
-  <rect x="620" y="393" width="136" height="46" rx="8" fill="#fef3c7"/>
-  <text x="688" y="420" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">完成期</text>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="416" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="422"  font-size="16" font-weight="700" fill="white" text-anchor="middle">4</text>
+  <text x="100" y="411"  font-size="18" font-weight="600" fill="#1e293b">改善與複核確認</text>
+  <text x="100" y="435"  font-size="14" fill="#78716c">補齊文件後再次逐項複核，確保每個項目皆有對應佐證文件</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="420"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">完成期</text>
   <!-- Watermark -->
-  <text x="760" y="480" font-size="16" font-family="'Noto Sans TC', sans-serif" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16"  fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>
