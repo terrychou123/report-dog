@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<rect width="800" height="500" fill="#f0efe8"/>
+<rect x="0" y="38" width="800" height="90" fill="white"/>
+<rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+<text x="28" y="97" font-size="32" fill="#1e293b" font-weight="700">日間照顧評鑑 — #1–5 快速提醒：已有</text>
+<rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+<circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+<text x="66" y="218" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+<text x="100" y="209" font-size="28" fill="#1e293b" font-weight="700">第22條 品管指標沒自訂或只有…</text>
+<text x="100" y="234" font-size="18" fill="#57534e">需依機構特性自訂至少 2 項可量化指標，並持續追蹤數據；</text>
+<rect x="620" y="174" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+<text x="688" y="195" font-size="18" fill="#d97706" text-anchor="middle">第22條</text>
+<text x="688" y="213" font-size="18" fill="#d97706" text-anchor="middle">品管</text>
+<rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+<circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+<text x="66" y="321" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+<text x="100" y="312" font-size="28" fill="#1e293b" font-weight="700">第29條 教育訓練時數不足或缺…</text>
+<text x="100" y="337" font-size="18" fill="#57534e">20 小時中必須含原住民族和多元族群文化課程各 1 小時</text>
+<rect x="620" y="277" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+<text x="688" y="298" font-size="18" fill="#78716c" text-anchor="middle">第29條</text>
+<text x="688" y="316" font-size="18" fill="#78716c" text-anchor="middle">行政</text>
+<text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>

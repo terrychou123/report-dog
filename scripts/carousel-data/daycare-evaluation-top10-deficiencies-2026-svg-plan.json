@@ -1,0 +1,128 @@
+{
+  "slug": "daycare-evaluation-top10-deficiencies-2026",
+  "coverSvg": {
+    "filename": "daycare-evaluation-t-cover.svg",
+    "template": "cover",
+    "alt": "日照中心評鑑常見缺失 TOP 10：整合多年度真實扣分紀錄 封面圖",
+    "insertAfterSection": "cover",
+    "labels": [
+      "日照中心評鑑常見缺失 TOP 10：整合多年度真實扣分紀錄"
+    ],
+    "descriptions": [
+      "整合多年度日照中心評鑑扣分紀錄，歸納出最容易被委員抓到的 10 大缺失。前 5 項已有深度解析文章，本篇重點補充後 5 "
+    ]
+  },
+  "inlineSvgs": [
+    {
+      "filename": "daycare-evaluation-top10-01--1-5-快速提-1.svg",
+      "template": "list3",
+      "alt": "#1–5 快速提醒：已有深度解析的 5 大地雷 示意圖",
+      "insertAfterSection": "#1–5 快速提醒：已有深度解析的 5 大地雷",
+      "labels": [
+        "第6條 照顧計畫超過 7 個…",
+        "第7條 追蹤評值有做沒有紀錄",
+        "第9條 督導紀錄頻率不足或內…"
+      ],
+      "descriptions": [
+        "評估完成後須在 7 個「工作天」（不含假日）內完成照顧計畫，且需有家屬參與紀錄。",
+        "評值紀錄必須包含「未達成目標的原因分析」和「修正後的計畫」，只記達成情形、缺少分",
+        "個督每半年一次、團督每季一次，且每位工作人員（含照服員）都適用。"
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-02--1-5-快速提-2.svg",
+      "template": "list3",
+      "alt": "#1–5 快速提醒：已有深度解析的 5 大地雷 （2）示意圖",
+      "insertAfterSection": "#1–5 快速提醒：已有深度解析的 5 大地雷",
+      "labels": [
+        "第22條 品管指標沒自訂或只有…",
+        "第29條 教育訓練時數不足或缺…"
+      ],
+      "descriptions": [
+        "需依機構特性自訂至少 2 項可量化指標，並持續追蹤數據；異常案件需有逐案分析，缺",
+        "20 小時中必須含原住民族和多元族群文化課程各 1 小時，且網路課程上限 5 小"
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-03-缺失-6-1.svg",
+      "template": "list3",
+      "alt": "缺失 #6 — 第 8 條：個案研討紀錄不完整（社工 / 照服員） 示意圖",
+      "insertAfterSection": "缺失 #6 — 第 8 條：個案研討紀錄不完整（社工 / 照服員）",
+      "labels": [
+        "第8條 個案研討紀錄不完整"
+      ],
+      "descriptions": [
+        "個案研討是機構跨專業合作的核心機制，但評鑑委員在查核時，最常發現以下三種缺失："
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-04-缺失-7-1.svg",
+      "template": "list3",
+      "alt": "缺失 #7 — 第 13 條：團體活動年度計畫缺乏多元性（社工 / 照服員） 示意圖",
+      "insertAfterSection": "缺失 #7 — 第 13 條：團體活動年度計畫缺乏多元性（社工 / 照服員）",
+      "labels": [
+        "第13條 團體活動年度計畫缺乏…"
+      ],
+      "descriptions": [
+        "活動計畫的缺失通常不是「沒辦活動」，而是計畫和紀錄出了問題："
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-05-缺失-8-1.svg",
+      "template": "list3",
+      "alt": "缺失 #8 — 第 21 條：防疫感染手冊未定期更新（護理師） 示意圖",
+      "insertAfterSection": "缺失 #8 — 第 21 條：防疫感染手冊未定期更新（護理師）",
+      "labels": [
+        "第21條 防疫感染手冊未定期更…"
+      ],
+      "descriptions": [
+        "感染防控是長照機構的核心安全議題，但這一條的缺失往往發生在「文件管理」而非「執行"
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-06-缺失-9-1.svg",
+      "template": "list3",
+      "alt": "缺失 #9 — 第 24 條：工作手冊多年未更新（行政） 示意圖",
+      "insertAfterSection": "缺失 #9 — 第 24 條：工作手冊多年未更新（行政）",
+      "labels": [
+        "第24條 工作手冊多年未更新"
+      ],
+      "descriptions": [
+        "工作手冊是機構人事管理的基礎文件，但在日照評鑑中，這一條的缺失往往是「文件老舊」"
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-07-缺失-10-1.svg",
+      "template": "list3",
+      "alt": "缺失 #10 — 第 41 條：飲用水檢測紀錄空白（行政） 示意圖",
+      "insertAfterSection": "缺失 #10 — 第 41 條：飲用水檢測紀錄空白（行政）",
+      "labels": [
+        "第41條 飲用水檢測紀錄空白"
+      ],
+      "descriptions": [
+        "飲用水管理看似簡單，卻是許多機構在行政文件審查時意外失分的地方，原因通常不是「沒"
+      ]
+    },
+    {
+      "filename": "daycare-evaluation-top10-08-checklist.svg",
+      "template": "checklist",
+      "alt": "日照中心評鑑常見缺失 TOP 10：整合多年度真實扣分紀錄 自查清單",
+      "insertAfterSection": "自查清單",
+      "labels": [
+        "第 6 條（照顧計畫）",
+        "第 7 條（追蹤評值）",
+        "第 9 條（督導紀錄）",
+        "第 22 條（品管指標）",
+        "第 29 條（教育訓練）",
+        "第 8 條（個案研討）",
+        "第 13 條（活動計畫）",
+        "第 21 條（感染手冊）",
+        "第 24 條（工作手冊）",
+        "第 41 條（飲用水）"
+      ],
+      "descriptions": []
+    }
+  ],
+  "charCount": 5812,
+  "totalSvgCount": 9
+}

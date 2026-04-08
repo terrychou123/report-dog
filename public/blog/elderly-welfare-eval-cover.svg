@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+<rect width="1200" height="630" fill="#f0efe8"/>
+<rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+<text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">39</text>
+<text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">大重點</text>
+<rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="917" y="328" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">第1項</text>
+<text x="917" y="359" font-size="20" fill="#a8a29e" text-anchor="middle">A 區</text>
+<rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="1082" y="328" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">第2項</text>
+<text x="1082" y="359" font-size="20" fill="#a8a29e" text-anchor="middle">B 區</text>
+<rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="917" y="424" font-size="26" fill="#57534e" text-anchor="middle" font-weight="700">第3項</text>
+<text x="917" y="455" font-size="20" fill="#a8a29e" text-anchor="middle">C 區</text>
+<rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="1082" y="424" font-size="26" fill="#a8a29e" text-anchor="middle" font-weight="700">第4項</text>
+<text x="1082" y="455" font-size="20" fill="#a8a29e" text-anchor="middle">D 區</text>
+<rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+<text x="1000" y="527" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">AI 輔助撰寫 × 報告汪</text>
+<text x="60" y="200" font-size="104" font-weight="900" fill="#1e293b">老人福利機構</text>
+<text x="60" y="322" font-size="80" font-weight="900" fill="#d97706">老人福利機構評鑑 9</text>
+<line x1="60" y1="416" x2="780" y2="416" stroke="#dedad3" stroke-width="2"/>
+<text x="60" y="462" font-size="36" fill="#57534e" font-weight="400">評鑑通知下來了，機構主任卻不知道從哪裡開始？本文提供完整的 </text>
+<rect x="60" y="516" width="216" height="50" rx="10" fill="#fef3c7"/>
+<text x="168" y="548" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">老人福利機構評鑑</text>
+<rect x="290" y="516" width="144" height="50" rx="10" fill="#f5f5f4"/>
+<text x="362" y="548" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">90天倒數</text>
+<text x="60" y="558" font-size="26" fill="#94a3b8">適用：老人福利機構評鑑準備團隊</text>
+<text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+</svg>
