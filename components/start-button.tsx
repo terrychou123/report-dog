@@ -18,7 +18,7 @@ export function StartButton({ children = "立即開始" }: { children?: React.Re
   };
 
   return (
-    <Button size="lg" onClick={handleStart} className="text-base px-8 py-6">
+    <Button size="lg" variant="accent" onClick={handleStart} className="text-base px-8 py-6">
       {children}
     </Button>
   );

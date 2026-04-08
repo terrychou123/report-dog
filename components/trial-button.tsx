@@ -31,7 +31,7 @@ export function TrialButton({ children = "免費試用" }: { children?: React.Re
   };
 
   return (
-    <Button size="lg" variant="outline" onClick={handleTrial} disabled={loading} className="text-base px-8 py-6">
+    <Button size="lg" variant="outline" onClick={handleTrial} disabled={loading} className="text-base px-8 py-6 hover:bg-primary hover:text-primary-foreground">
       {loading ? "載入中…" : children}
     </Button>
   );

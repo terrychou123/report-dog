@@ -237,7 +237,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/protected"
-              className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90 transition-colors px-6 py-3 rounded-lg font-semibold text-sm"
+              className="inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground hover:bg-accent/90 transition-colors px-6 py-3 rounded-lg font-semibold text-sm"
             >
               免費開始使用
             </Link>
@@ -487,7 +487,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
                     <Link
                       href="/downloads"
-                      className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors px-5 py-2.5 rounded-lg font-medium text-sm"
+                      className="inline-flex items-center gap-2 bg-accent text-accent-foreground hover:bg-accent/90 transition-colors px-5 py-2.5 rounded-lg font-medium text-sm"
                     >
                       <DownloadIcon className="h-4 w-4" />
                       前往下載頁面 →

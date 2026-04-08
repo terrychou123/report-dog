@@ -15,7 +15,7 @@ export function TrialBanner() {
         </span>
         <Button
           size="sm"
-          variant="default"
+          variant="accent"
           onClick={() => setDialogOpen(true)}
           className="shrink-0"
         >

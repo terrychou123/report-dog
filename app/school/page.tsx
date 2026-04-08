@@ -244,7 +244,7 @@ export default function SchoolPage() {
               了解評鑑基準後，讓 AI 協助撰寫、修改報告段落，並針對評鑑基準提供五維度分析，讓報告更有說服力。
             </p>
           </div>
-          <Button asChild size="sm" className="shrink-0">
+          <Button asChild size="sm" variant="accent" className="shrink-0">
             <Link href="/protected">免費開始使用</Link>
           </Button>
         </div>

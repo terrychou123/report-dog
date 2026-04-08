@@ -3,29 +3,31 @@
 
 import type { CarouselArticleData, DeficiencyItem } from "./carousel-types";
 
-// ─── 設計 Token（與現有部落格 SVG 一致）───────────────────────────────────────
+// ─── 設計 Token（對齊 DESIGN.md 品牌色系）────────────────────────────────────
 const C = {
-  bg: "#f0efe8",        // 暖米色背景
-  panel: "#e8e6de",     // 右側/底部裝飾區
-  divider: "#dedad3",   // 分隔線
-  cardBorder: "#e8e6de",
-  cardBg: "white",
-  amber: "#d97706",     // 主色調 amber
-  title: "#1e293b",     // 標題文字
-  content: "#57534e",   // 內文文字
-  light: "#94a3b8",     // 淡色文字
-  muted: "#a8a29e",     // 次要文字
-  warmGray: "#78716c",
-  watermark: "#d97706", // 內容圖浮水印色
+  bg: "#faf9f6",        // DESIGN.md --background 暖米白
+  panel: "#f5f0eb",     // 底部裝飾區（--secondary 暖灰）
+  divider: "#e0d8cf",   // DESIGN.md --border 暖邊框
+  cardBorder: "#e0d8cf",
+  cardBg: "#ffffff",    // DESIGN.md --card
+  primary: "#2c7a94",   // DESIGN.md --primary 深青色
+  accent: "#e35b24",    // DESIGN.md --accent 赤陶橘
+  title: "#302a25",     // DESIGN.md --foreground 暖深棕
+  content: "#786f68",   // DESIGN.md --muted-foreground 暖灰
+  light: "#a09890",     // 淡色暖灰文字
+  muted: "#a09890",     // 次要暖灰文字
+  warmGray: "#786f68",
+  watermark: "#a09890", // 低調暖灰浮水印
 };
 
 // earth tone 順序色（10 項循環使用）
+// #1 赤陶橘高亮、#2 深青色、其餘暖灰大地色調
 const STEP_COLORS = [
-  { main: "#d97706", bg: "#fef3c7" },
-  { main: "#78716c", bg: "#f5f5f4" },
-  { main: "#57534e", bg: "#f5f0eb" },
-  { main: "#a8a29e", bg: "#f5f5f4" },
-  { main: "#94a3b8", bg: "#f1f5f9" },
+  { main: "#e35b24", bg: "#fdf0eb" }, // 赤陶橘（最高頻缺失）
+  { main: "#2c7a94", bg: "#eaf4f7" }, // 深青色
+  { main: "#786f68", bg: "#f5f0eb" }, // 暖灰棕
+  { main: "#a09890", bg: "#f5f5f4" }, // 淡暖灰
+  { main: "#9b8370", bg: "#f7f0eb" }, // 沙棕
 ];
 
 function stepColor(rank: number) {
@@ -39,7 +41,7 @@ function watermark(y = 1320): string {
   return `<text x="1050" y="${y}" font-size="26" fill="${C.watermark}" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>`;
 }
 
-/** SVG 外框 */
+/** SVG 外框（預設字體 Noto Sans TC，標題另行指定 Noto Serif TC） */
 function svgWrap(content: string): string {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" font-family="'Noto Sans TC', sans-serif">
   <rect width="1080" height="1350" fill="${C.bg}"/>
@@ -54,11 +56,11 @@ function pill(x: number, y: number, w: number, h: number, color: string, text: s
   <text x="${x + w / 2}" y="${y + h / 2 + fontSize * 0.35}" font-size="${fontSize}" fill="${color}" text-anchor="middle" font-weight="600">${text}</text>`;
 }
 
-/** 帶左側色條的橫排區塊 header */
+/** 帶左側色條的橫排區塊 header（色條用 primary 深青，標題用 Noto Serif TC） */
 function sectionHeader(y: number, color: string, text: string, subText = ""): string {
-  return `<rect x="0" y="${y}" width="1080" height="80" fill="${color}" opacity="0.08"/>
-  <rect x="0" y="${y}" width="8" height="80" rx="2" fill="${color}"/>
-  <text x="36" y="${y + 50}" font-size="34" font-weight="700" fill="${C.title}">${text}</text>
+  return `<rect x="0" y="${y}" width="1080" height="80" fill="${C.primary}" opacity="0.07"/>
+  <rect x="0" y="${y}" width="8" height="80" rx="2" fill="${C.primary}"/>
+  <text x="36" y="${y + 50}" font-size="34" font-weight="700" fill="${C.primary}" font-family="'Noto Serif TC', serif">${text}</text>
   ${subText ? `<text x="36" y="${y + 76}" font-size="22" fill="${C.content}">${subText}</text>` : ""}`;
 }
 
@@ -83,20 +85,20 @@ export function renderCoverSlide(data: CarouselArticleData): string {
   }).join("\n");
 
   return svgWrap(`
-  <!-- 右下裝飾區 -->
+  <!-- 底部裝飾區 -->
   <rect x="0" y="${panelY}" width="1080" height="370" fill="${C.panel}"/>
 
-  <!-- 大數字裝飾 -->
-  <text x="840" y="${panelY + 170}" font-size="240" font-weight="900" fill="${C.amber}" text-anchor="middle" opacity="0.85">${data.highlightNumber}</text>
-  <text x="840" y="${panelY + 220}" font-size="36" fill="${C.warmGray}" text-anchor="middle" font-weight="600">${data.highlightLabel}</text>
+  <!-- 大數字裝飾（調低透明度，改用深青色） -->
+  <text x="840" y="${panelY + 170}" font-size="240" font-weight="900" fill="${C.primary}" text-anchor="middle" opacity="0.18" font-family="'Noto Serif TC', serif">${data.highlightNumber}</text>
+  <text x="840" y="${panelY + 220}" font-size="36" fill="${C.primary}" text-anchor="middle" font-weight="600" opacity="0.5">${data.highlightLabel}</text>
 
-  <!-- 分類 pill -->
-  <rect x="60" y="60" width="160" height="52" rx="26" fill="${C.amber}" opacity="0.15"/>
-  <text x="140" y="93" font-size="28" fill="${C.amber}" text-anchor="middle" font-weight="700">${data.category}</text>
+  <!-- 分類 pill（深青色） -->
+  <rect x="60" y="60" width="160" height="52" rx="26" fill="${C.primary}" opacity="0.12"/>
+  <text x="140" y="93" font-size="28" fill="${C.primary}" text-anchor="middle" font-weight="700">${data.category}</text>
 
-  <!-- 主標題 -->
-  <text x="60" y="220" font-size="108" font-weight="900" fill="${C.title}">${line1 ?? ""}</text>
-  <text x="60" y="360" font-size="108" font-weight="900" fill="${C.amber}">${line2 ?? ""}</text>
+  <!-- 主標題：行1 暖深棕，行2 赤陶橘（Noto Serif TC） -->
+  <text x="60" y="220" font-size="108" font-weight="900" fill="${C.title}" font-family="'Noto Serif TC', serif">${line1 ?? ""}</text>
+  <text x="60" y="360" font-size="108" font-weight="900" fill="${C.accent}" font-family="'Noto Serif TC', serif">${line2 ?? ""}</text>
 
   <!-- 分隔線 -->
   <line x1="60" y1="400" x2="1020" y2="400" stroke="${C.divider}" stroke-width="2"/>
@@ -108,28 +110,28 @@ export function renderCoverSlide(data: CarouselArticleData): string {
   ${tagPills}
 
   <!-- 適用對象 -->
-  <text x="60" y="930" font-size="30" fill="${C.light}">${data.audience}</text>
+  <text x="60" y="930" font-size="30" fill="${C.muted}">${data.audience}</text>
 
   <!-- 底部面板：4 個資訊卡 -->
   <rect x="60" y="${panelY + 30}" width="215" height="90" rx="10" fill="white" stroke="${C.cardBorder}" stroke-width="1"/>
-  <text x="168" y="${panelY + 72}" font-size="30" fill="${C.amber}" text-anchor="middle" font-weight="700">前 5 項</text>
+  <text x="168" y="${panelY + 72}" font-size="30" fill="${C.primary}" text-anchor="middle" font-weight="700" font-family="'Noto Serif TC', serif">前 5 項</text>
   <text x="168" y="${panelY + 103}" font-size="22" fill="${C.muted}" text-anchor="middle">深度解析</text>
 
   <rect x="295" y="${panelY + 30}" width="215" height="90" rx="10" fill="white" stroke="${C.cardBorder}" stroke-width="1"/>
-  <text x="403" y="${panelY + 72}" font-size="30" fill="${C.warmGray}" text-anchor="middle" font-weight="700">後 5 項</text>
+  <text x="403" y="${panelY + 72}" font-size="30" fill="${C.content}" text-anchor="middle" font-weight="700" font-family="'Noto Serif TC', serif">後 5 項</text>
   <text x="403" y="${panelY + 103}" font-size="22" fill="${C.muted}" text-anchor="middle">快速補強</text>
 
   <rect x="530" y="${panelY + 30}" width="215" height="90" rx="10" fill="white" stroke="${C.cardBorder}" stroke-width="1"/>
-  <text x="638" y="${panelY + 72}" font-size="30" fill="${C.warmGray}" text-anchor="middle" font-weight="700">多年度</text>
+  <text x="638" y="${panelY + 72}" font-size="30" fill="${C.content}" text-anchor="middle" font-weight="700" font-family="'Noto Serif TC', serif">多年度</text>
   <text x="638" y="${panelY + 103}" font-size="22" fill="${C.muted}" text-anchor="middle">真實扣分紀錄</text>
 
   <rect x="765" y="${panelY + 30}" width="215" height="90" rx="10" fill="white" stroke="${C.cardBorder}" stroke-width="1"/>
-  <text x="873" y="${panelY + 72}" font-size="30" fill="${C.amber}" text-anchor="middle" font-weight="700">快速解法</text>
+  <text x="873" y="${panelY + 72}" font-size="30" fill="${C.accent}" text-anchor="middle" font-weight="700" font-family="'Noto Serif TC', serif">快速解法</text>
   <text x="873" y="${panelY + 103}" font-size="22" fill="${C.muted}" text-anchor="middle">每項附情境</text>
 
-  <!-- 底部標語 -->
-  <rect x="60" y="${panelY + 145}" width="960" height="60" rx="10" fill="${C.amber}" opacity="0.13"/>
-  <text x="540" y="${panelY + 185}" font-size="30" fill="${C.amber}" text-anchor="middle" font-weight="700">評鑑前必看整合指南 · 整合多年度扣分紀錄</text>
+  <!-- 底部標語（赤陶橘） -->
+  <rect x="60" y="${panelY + 145}" width="960" height="60" rx="10" fill="${C.accent}" opacity="0.10"/>
+  <text x="540" y="${panelY + 185}" font-size="30" fill="${C.accent}" text-anchor="middle" font-weight="700">評鑑前必看整合指南 · 整合多年度扣分紀錄</text>
   `);
 }
 
@@ -158,10 +160,10 @@ export function renderOverviewSlide(data: CarouselArticleData): string {
   });
 
   return svgWrap(`
-  <!-- 標題區 -->
-  <rect x="0" y="0" width="1080" height="96" fill="${C.amber}" opacity="0.10"/>
-  <rect x="0" y="0" width="10" height="96" fill="${C.amber}"/>
-  <text x="540" y="58" font-size="40" font-weight="900" fill="${C.title}" text-anchor="middle">10 大常見缺失 一覽</text>
+  <!-- 標題區（深青色色條） -->
+  <rect x="0" y="0" width="1080" height="96" fill="${C.primary}" opacity="0.08"/>
+  <rect x="0" y="0" width="10" height="96" fill="${C.primary}"/>
+  <text x="540" y="58" font-size="40" font-weight="900" fill="${C.primary}" text-anchor="middle" font-family="'Noto Serif TC', serif">10 大常見缺失 一覽</text>
   <text x="540" y="84" font-size="24" fill="${C.content}" text-anchor="middle">日照中心評鑑 · 多年度整合扣分紀錄</text>
 
   ${rows.join("")}
@@ -172,7 +174,7 @@ export function renderOverviewSlide(data: CarouselArticleData): string {
   <text x="820" y="1150" font-size="22" fill="${C.muted}" text-anchor="middle"># 6 – 10</text>
 
   <line x1="40" y1="1170" x2="1040" y2="1170" stroke="${C.divider}" stroke-width="1"/>
-  <text x="540" y="1210" font-size="26" fill="${C.amber}" text-anchor="middle" font-weight="600">左右滑動查看各項詳細說明 →</text>
+  <text x="540" y="1210" font-size="26" fill="${C.accent}" text-anchor="middle" font-weight="600">左右滑動查看各項詳細說明 →</text>
   `);
 }
 
@@ -203,8 +205,8 @@ export function renderDetailSlide(
     <rect x="142" y="${y + 24}" width="110" height="44" rx="8" fill="${color}" opacity="0.15"/>
     <text x="197" y="${y + 53}" font-size="24" fill="${color}" text-anchor="middle" font-weight="700">${item.articleRef}</text>
 
-    <!-- 標題 -->
-    <text x="270" y="${y + 53}" font-size="34" font-weight="900" fill="${C.title}">${item.title}</text>
+    <!-- 標題（Noto Serif TC） -->
+    <text x="270" y="${y + 53}" font-size="34" font-weight="900" fill="${C.title}" font-family="'Noto Serif TC', serif">${item.title}</text>
 
     <!-- 分隔線 -->
     <line x1="142" y1="${y + 82}" x2="1020" y2="${y + 82}" stroke="${C.divider}" stroke-width="1"/>
@@ -219,16 +221,16 @@ export function renderDetailSlide(
   });
 
   return svgWrap(`
-  <!-- 頁面標題 -->
-  <rect x="0" y="0" width="1080" height="88" fill="${C.amber}" opacity="0.10"/>
-  <rect x="0" y="0" width="10" height="88" fill="${C.amber}"/>
-  <text x="540" y="52" font-size="36" font-weight="900" fill="${C.title}" text-anchor="middle">常見缺失詳解</text>
+  <!-- 頁面標題（深青色色條） -->
+  <rect x="0" y="0" width="1080" height="88" fill="${C.primary}" opacity="0.08"/>
+  <rect x="0" y="0" width="10" height="88" fill="${C.primary}"/>
+  <text x="540" y="52" font-size="36" font-weight="900" fill="${C.primary}" text-anchor="middle" font-family="'Noto Serif TC', serif">常見缺失詳解</text>
   <text x="540" y="80" font-size="22" fill="${C.content}" text-anchor="middle">${slideLabel}</text>
 
   ${cards.join("")}
 
   <line x1="40" y1="1250" x2="1040" y2="1250" stroke="${C.divider}" stroke-width="1"/>
-  <text x="540" y="1295" font-size="26" fill="${C.amber}" text-anchor="middle" font-weight="600">完整文章含快速解法 → reportwang.com/blog</text>
+  <text x="540" y="1295" font-size="26" fill="${C.accent}" text-anchor="middle" font-weight="600">完整文章含快速解法 → reportwang.com/blog</text>
   `);
 }
 
@@ -268,10 +270,10 @@ export function renderChecklistSlide(data: CarouselArticleData): string {
   });
 
   return svgWrap(`
-  <!-- 標題 -->
-  <rect x="0" y="0" width="1080" height="120" fill="${C.amber}" opacity="0.10"/>
-  <rect x="0" y="0" width="10" height="120" fill="${C.amber}"/>
-  <text x="540" y="60" font-size="44" font-weight="900" fill="${C.title}" text-anchor="middle">評鑑前自查清單</text>
+  <!-- 標題（深青色色條） -->
+  <rect x="0" y="0" width="1080" height="120" fill="${C.primary}" opacity="0.08"/>
+  <rect x="0" y="0" width="10" height="120" fill="${C.primary}"/>
+  <text x="540" y="60" font-size="44" font-weight="900" fill="${C.primary}" text-anchor="middle" font-family="'Noto Serif TC', serif">評鑑前自查清單</text>
   <text x="540" y="100" font-size="28" fill="${C.content}" text-anchor="middle">10 大缺失對應確認項目</text>
 
   <!-- 左欄 -->
@@ -290,7 +292,7 @@ export function renderChecklistSlide(data: CarouselArticleData): string {
   <rect x="220" y="1240" width="30" height="30" rx="5" fill="none" stroke="${C.muted}" stroke-width="1.5"/>
   <text x="262" y="1262" font-size="26" fill="${C.content}">待確認</text>
 
-  <text x="540" y="1310" font-size="28" fill="${C.amber}" text-anchor="middle" font-weight="600">評鑑前逐項確認，避免扣分！</text>
+  <text x="540" y="1310" font-size="28" fill="${C.accent}" text-anchor="middle" font-weight="600">評鑑前逐項確認，避免扣分！</text>
   `);
 }
 
@@ -298,43 +300,43 @@ export function renderChecklistSlide(data: CarouselArticleData): string {
 
 export function renderCtaSlide(data: CarouselArticleData): string {
   return svgWrap(`
-  <!-- 上方色塊 -->
-  <rect x="0" y="0" width="1080" height="480" fill="${C.amber}" opacity="0.12"/>
-  <rect x="0" y="0" width="10" height="480" fill="${C.amber}"/>
+  <!-- 上方色塊（深青色） -->
+  <rect x="0" y="0" width="1080" height="480" fill="${C.primary}" opacity="0.10"/>
+  <rect x="0" y="0" width="10" height="480" fill="${C.primary}"/>
 
-  <!-- 主標語 -->
-  <text x="540" y="160" font-size="56" font-weight="900" fill="${C.title}" text-anchor="middle">備考不再迷茫</text>
-  <text x="540" y="240" font-size="56" font-weight="900" fill="${C.amber}" text-anchor="middle">讓 AI 幫你比對</text>
+  <!-- 主標語（標題用深青色+Noto Serif TC，強調行用赤陶橘） -->
+  <text x="540" y="160" font-size="56" font-weight="900" fill="${C.primary}" text-anchor="middle" font-family="'Noto Serif TC', serif">備考不再迷茫</text>
+  <text x="540" y="240" font-size="56" font-weight="900" fill="${C.accent}" text-anchor="middle" font-family="'Noto Serif TC', serif">讓 AI 幫你比對</text>
   <text x="540" y="320" font-size="36" fill="${C.content}" text-anchor="middle">評鑑基準 × 你的機構文件</text>
   <text x="540" y="380" font-size="34" fill="${C.content}" text-anchor="middle">自動找出缺漏、補強重點</text>
 
   <!-- 分隔線 -->
   <line x1="80" y1="500" x2="1000" y2="500" stroke="${C.divider}" stroke-width="2"/>
 
-  <!-- 完整文章區塊 -->
+  <!-- 完整文章區塊（深青色色條） -->
   <rect x="40" y="540" width="1000" height="130" rx="12" fill="white" stroke="${C.cardBorder}" stroke-width="1"/>
-  <rect x="40" y="540" width="8" height="130" rx="2" fill="${C.amber}"/>
-  <text x="80" y="590" font-size="28" font-weight="700" fill="${C.title}">完整文章</text>
+  <rect x="40" y="540" width="8" height="130" rx="2" fill="${C.primary}"/>
+  <text x="80" y="590" font-size="28" font-weight="700" fill="${C.title}" font-family="'Noto Serif TC', serif">完整文章</text>
   <text x="80" y="626" font-size="24" fill="${C.content}">${data.blogUrl}</text>
   <text x="80" y="658" font-size="22" fill="${C.muted}">含 10 大缺失逐條解析 + 快速解法情境</text>
 
-  <!-- AI 工具區塊 -->
-  <rect x="40" y="700" width="1000" height="130" rx="12" fill="${C.amber}" opacity="0.10" stroke="${C.amber}" stroke-width="1" stroke-opacity="0.3"/>
-  <rect x="40" y="700" width="8" height="130" rx="2" fill="${C.amber}"/>
-  <text x="80" y="750" font-size="28" font-weight="700" fill="${C.amber}">報告汪 AI 評鑑助手</text>
+  <!-- AI 工具區塊（赤陶橘色條） -->
+  <rect x="40" y="700" width="1000" height="130" rx="12" fill="${C.accent}" opacity="0.07" stroke="${C.accent}" stroke-width="1" stroke-opacity="0.25"/>
+  <rect x="40" y="700" width="8" height="130" rx="2" fill="${C.accent}"/>
+  <text x="80" y="750" font-size="28" font-weight="700" fill="${C.accent}" font-family="'Noto Serif TC', serif">報告汪 AI 評鑑助手</text>
   <text x="80" y="786" font-size="24" fill="${C.content}">reportwang.com</text>
   <text x="80" y="818" font-size="22" fill="${C.muted}">上傳報告 → AI 自動比對評鑑基準 → 找缺漏</text>
 
   <!-- 品牌 logo 區 -->
   <line x1="80" y1="880" x2="1000" y2="880" stroke="${C.divider}" stroke-width="1"/>
-  <text x="540" y="950" font-size="52" font-weight="900" fill="${C.title}" text-anchor="middle">報告汪</text>
+  <text x="540" y="950" font-size="52" font-weight="900" fill="${C.primary}" text-anchor="middle" font-family="'Noto Serif TC', serif">報告汪</text>
   <text x="540" y="1010" font-size="30" fill="${C.content}" text-anchor="middle">長照機構評鑑報告管理平台</text>
 
-  <!-- 分類標籤 -->
-  ${pill(360, 1050, 360, 64, C.amber, "日照評鑑備考首選", 30)}
+  <!-- 分類標籤（赤陶橘） -->
+  ${pill(360, 1050, 360, 64, C.accent, "日照評鑑備考首選", 30)}
 
   <!-- 追蹤提示 -->
-  <text x="540" y="1180" font-size="32" fill="${C.title}" text-anchor="middle" font-weight="700">追蹤帳號，每週分享評鑑技巧</text>
+  <text x="540" y="1180" font-size="32" fill="${C.title}" text-anchor="middle" font-weight="700" font-family="'Noto Serif TC', serif">追蹤帳號，每週分享評鑑技巧</text>
   <text x="540" y="1230" font-size="26" fill="${C.muted}" text-anchor="middle">更多評鑑機構類型 · 陸續更新中</text>
   `);
 }

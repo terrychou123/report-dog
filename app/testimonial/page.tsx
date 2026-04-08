@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { StartButton } from "@/components/start-button";
+import { TrialButton } from "@/components/trial-button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -204,6 +205,11 @@ export default function TestimonialPage() {
                 <div className="text-xs text-muted-foreground mt-1">{s.label}</div>
               </div>
             ))}
+          </div>
+          {/* CTA 按鈕 */}
+          <div className="mt-10 flex flex-col sm:flex-row gap-3">
+            <StartButton>免費開始使用</StartButton>
+            <TrialButton>免費試用（無需註冊）</TrialButton>
           </div>
         </section>
 
@@ -1509,12 +1515,17 @@ export default function TestimonialPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-24 px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">準備好加入他們了嗎？</h2>
-          <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
-            免費開始使用報告汪，加入 42+ 位長照從業人員的行列。
-          </p>
-          <StartButton>免費開始使用</StartButton>
+        <section className="py-12 px-6 text-center">
+          <div className="bg-primary/5 rounded-2xl max-w-3xl mx-auto px-8 py-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">準備好加入他們了嗎？</h2>
+            <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
+              免費開始使用報告汪，加入 42+ 位長照從業人員的行列。
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <StartButton>免費開始使用</StartButton>
+              <TrialButton>免費試用（無需註冊）</TrialButton>
+            </div>
+          </div>
         </section>
 
         <Footer />
