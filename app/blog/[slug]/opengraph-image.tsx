@@ -1,5 +1,4 @@
 import { Resvg } from "@resvg/resvg-js";
-import { readFileSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { db } from "@/db";
@@ -12,10 +11,8 @@ export const contentType = "image/png";
 // Next.js ISR：OG 圖片每天重新驗證一次
 export const revalidate = 86400;
 
-// 模組載入時同步讀取字型一次，後續請求直接複用（同一 isolate 內）
-const fontCache: Buffer = readFileSync(
-  join(process.cwd(), "fonts", "NotoSansTC-Variable.ttf")
-);
+// 字型檔案路徑（resvg 會自行讀取）
+const fontPath = join(process.cwd(), "fonts", "NotoSansTC-Variable.ttf");
 
 export default async function Image({
   params,
@@ -56,7 +53,7 @@ export default async function Image({
       const resvg = new Resvg(svgContent, {
         fitTo: { mode: "width", value: size.width },
         font: {
-          fontBuffers: [fontCache],
+          fontFiles: [fontPath],
           loadSystemFonts: false,
         },
       });
@@ -64,7 +61,7 @@ export default async function Image({
       const pngData = resvg.render();
       const pngBuffer = pngData.asPng();
 
-      return new Response(pngBuffer, {
+      return new Response(new Uint8Array(pngBuffer), {
         headers: {
           "Content-Type": "image/png",
           "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
