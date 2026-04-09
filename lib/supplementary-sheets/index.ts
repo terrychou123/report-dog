@@ -15,6 +15,8 @@ import { elderlyWelfareDefs } from './elderly-welfare';
 import { psychiatricNursingHomeDefs } from './psychiatric-nursing-home';
 import { disabilityWelfareDefs } from './disability-welfare';
 import { infantDaycareDefs } from './infant-daycare';
+import { psychiatricRehabilitationDayDefs } from './psychiatric-rehabilitation-day';
+import { psychiatricRehabilitationResidentialDefs } from './psychiatric-rehabilitation-residential';
 
 const registry: Record<string, SupplementaryDefsMap> = {
   daycare: daycareDefs,
@@ -29,6 +31,8 @@ const registry: Record<string, SupplementaryDefsMap> = {
   'psychiatric-nursing-home': psychiatricNursingHomeDefs,
   'disability-welfare': disabilityWelfareDefs,
   'infant-daycare': infantDaycareDefs,
+  'psychiatric-rehabilitation-day': psychiatricRehabilitationDayDefs,
+  'psychiatric-rehabilitation-residential': psychiatricRehabilitationResidentialDefs,
 };
 
 /**

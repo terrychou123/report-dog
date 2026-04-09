@@ -7,6 +7,7 @@ import { createOpenRouterClient } from '@/lib/ai/openrouter-client';
 import { checkAndRecordAiUsage } from '@/lib/ai/usage-limit';
 import { processContent } from '@/lib/ai/content-utils';
 import { getProfile } from '@/lib/ai/evaluation-profiles';
+import { getWikiContext } from '@/lib/ai/wiki-context';
 
 function buildSystemPrompt(profileId: string): string {
   const profile = getProfile(profileId);
@@ -62,7 +63,11 @@ ${criteriaText}
 - 以條列清楚、結構化方式呈現`;
 
   const suffix = (profile as { promptSuffix?: string }).promptSuffix;
-  return suffix ? `${base}${suffix}` : base;
+  const withSuffix = suffix ? `${base}${suffix}` : base;
+
+  // 附加知識庫補充資訊（常見缺失、準備指南）
+  const wikiContext = getWikiContext(profileId);
+  return wikiContext ? `${withSuffix}${wikiContext}` : withSuffix;
 }
 
 export async function POST(req: NextRequest) {

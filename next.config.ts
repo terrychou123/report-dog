@@ -13,9 +13,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: false,
   cacheComponents: true,
   serverExternalPackages: ['mammoth', 'pdf-parse', 'html-to-docx', '@resvg/resvg-js'],
-  // 確保字型檔案包含在 Vercel 部署 bundle 中（readFileSync 路徑無法被靜態追蹤）
+  // 確保字型檔案與知識庫包含在 Vercel 部署 bundle 中（readFileSync 路徑無法被靜態追蹤）
   outputFileTracingIncludes: {
     '/blog/[slug]/opengraph-image': ['./fonts/**'],
+    '/api/reports/evaluation': ['./knowledge/wiki/**'],
   },
   async redirects() {
     return [

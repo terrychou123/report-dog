@@ -1,0 +1,689 @@
+---
+generated_at: 2026-04-09
+total_pages: 689
+---
+
+# 評鑑知識庫目錄
+
+## 跨機構主題頁（Topics）
+
+- [topics/infection-control.md](topics/infection-control.md) — 感染控制，跨 14 種機構
+- [topics/care-plans.md](topics/care-plans.md) — 照顧計畫，跨 10+ 種機構
+- [topics/documentation.md](topics/documentation.md) — 文件紀錄管理，跨 12 種機構
+- [topics/quality-monitoring.md](topics/quality-monitoring.md) — 品質監控，跨 12 種機構
+- [topics/client-rights.md](topics/client-rights.md) — 個案權益，跨 12 種機構
+- [topics/staff-training.md](topics/staff-training.md) — 人員訓練，跨 14 種機構
+- [topics/emergency-management.md](topics/emergency-management.md) — 緊急事件處理，跨 12 種機構
+- [topics/medication-management.md](topics/medication-management.md) — 藥物管理，跨 10 種機構
+- [topics/nutrition-diet.md](topics/nutrition-diet.md) — 營養與飲食，跨 10 種機構
+- [topics/fire-safety.md](topics/fire-safety.md) — 消防安全，跨 11 種機構
+- [topics/physical-environment.md](topics/physical-environment.md) — 環境設施，跨 12 種機構
+- [topics/complaint-mechanisms.md](topics/complaint-mechanisms.md) — 申訴與意見反應，跨 7 種機構
+- [topics/financial-management.md](topics/financial-management.md) — 財務管理，跨 9 種機構
+- [topics/privacy-data-protection.md](topics/privacy-data-protection.md) — 隱私與個資保護，跨 13 種機構
+
+## 機構類型頁面
+
+- [facility-types/daycare/overview.md](facility-types/daycare/overview.md) — 日間照顧中心，概覽，115年度臺北市政府社會局日間照顧機構法定評鑑基準
+- [facility-types/daycare/items/01-服務資訊公開.md](facility-types/daycare/items/01-服務資訊公開.md) — 日間照顧中心 權1：服務資訊公開
+- [facility-types/daycare/items/02-意見反應申訴機制的訂定與處理情形.md](facility-types/daycare/items/02-意見反應申訴機制的訂定與處理情形.md) — 日間照顧中心 權2：意見反應/申訴機制的訂定與處理情形
+- [facility-types/daycare/items/03-服務契約簽訂情形.md](facility-types/daycare/items/03-服務契約簽訂情形.md) — 日間照顧中心 權3：服務契約簽訂情形
+- [facility-types/daycare/items/04-個人資料管理與保密性.md](facility-types/daycare/items/04-個人資料管理與保密性.md) — 日間照顧中心 權4：個人資料管理與保密性
+- [facility-types/daycare/items/05-服務對象評估.md](facility-types/daycare/items/05-服務對象評估.md) — 日間照顧中心 專5：服務對象評估
+- [facility-types/daycare/items/06-照顧計畫.md](facility-types/daycare/items/06-照顧計畫.md) — 日間照顧中心 專6：照顧計畫
+- [facility-types/daycare/items/07-追蹤評值.md](facility-types/daycare/items/07-追蹤評值.md) — 日間照顧中心 專7：追蹤評值
+- [facility-types/daycare/items/08-服務對象研討辦理情形.md](facility-types/daycare/items/08-服務對象研討辦理情形.md) — 日間照顧中心 專8：服務對象研討辦理情形
+- [facility-types/daycare/items/09-督導機制辦理情形.md](facility-types/daycare/items/09-督導機制辦理情形.md) — 日間照顧中心 專9：督導機制辦理情形
+- [facility-types/daycare/items/10-訂定開案收案、轉介、暫停服務與結案相關辦法.md](facility-types/daycare/items/10-訂定開案收案、轉介、暫停服務與結案相關辦法.md) — 日間照顧中心 專10：訂定開案/收案、轉介、暫停服務與結案相關辦法
+- [facility-types/daycare/items/11-維持自我照顧能力.md](facility-types/daycare/items/11-維持自我照顧能力.md) — 日間照顧中心 專11：維持自我照顧能力
+- [facility-types/daycare/items/12-協助服藥.md](facility-types/daycare/items/12-協助服藥.md) — 日間照顧中心 專12：協助服藥
+- [facility-types/daycare/items/13-服務對象團體活動辦理情形.md](facility-types/daycare/items/13-服務對象團體活動辦理情形.md) — 日間照顧中心 專13：服務對象團體活動辦理情形
+- [facility-types/daycare/items/14-安全看視.md](facility-types/daycare/items/14-安全看視.md) — 日間照顧中心 專14：安全看視
+- [facility-types/daycare/items/15-維護個人清潔衛生.md](facility-types/daycare/items/15-維護個人清潔衛生.md) — 日間照顧中心 專15：維護個人清潔衛生
+- [facility-types/daycare/items/16-提供營養餐點服務.md](facility-types/daycare/items/16-提供營養餐點服務.md) — 日間照顧中心 專16：提供營養餐點服務
+- [facility-types/daycare/items/17-提供適當之休閒及運動設施.md](facility-types/daycare/items/17-提供適當之休閒及運動設施.md) — 日間照顧中心 專17：提供適當之休閒及運動設施
+- [facility-types/daycare/items/18-辦理社會參與.md](facility-types/daycare/items/18-辦理社會參與.md) — 日間照顧中心 專18：辦理社會參與
+- [facility-types/daycare/items/19-提供家屬支持性服務.md](facility-types/daycare/items/19-提供家屬支持性服務.md) — 日間照顧中心 專19：提供家屬支持性服務
+- [facility-types/daycare/items/20-服務對象健康檢查及健康管理情形.md](facility-types/daycare/items/20-服務對象健康檢查及健康管理情形.md) — 日間照顧中心 專20：服務對象健康檢查及健康管理情形
+- [facility-types/daycare/items/21-防疫機制建置情形.md](facility-types/daycare/items/21-防疫機制建置情形.md) — 日間照顧中心 專21：防疫機制建置情形
+- [facility-types/daycare/items/22-執行服務品管指標.md](facility-types/daycare/items/22-執行服務品管指標.md) — 日間照顧中心 專22：執行服務品管指標
+- [facility-types/daycare/items/23-業務計畫及營運方針之擬定與執行情形.md](facility-types/daycare/items/23-業務計畫及營運方針之擬定與執行情形.md) — 日間照顧中心 管23：業務計畫及營運方針之擬定與執行情形
+- [facility-types/daycare/items/24-工作手冊及行政規範.md](facility-types/daycare/items/24-工作手冊及行政規範.md) — 日間照顧中心 管24：工作手冊及行政規範
+- [facility-types/daycare/items/25-行政會議辦理情形.md](facility-types/daycare/items/25-行政會議辦理情形.md) — 日間照顧中心 管25：行政會議辦理情形
+- [facility-types/daycare/items/26-器材維護與管理.md](facility-types/daycare/items/26-器材維護與管理.md) — 日間照顧中心 管26：器材維護與管理
+- [facility-types/daycare/items/27-前次評鑑建議改善情形.md](facility-types/daycare/items/27-前次評鑑建議改善情形.md) — 日間照顧中心 管27：前次評鑑建議改善情形
+- [facility-types/daycare/items/28-人力設置情形.md](facility-types/daycare/items/28-人力設置情形.md) — 日間照顧中心 管28：人力設置情形
+- [facility-types/daycare/items/29-服務人員教育訓練情形.md](facility-types/daycare/items/29-服務人員教育訓練情形.md) — 日間照顧中心 管29：服務人員教育訓練情形
+- [facility-types/daycare/items/30-專任服務人員年度留任率.md](facility-types/daycare/items/30-專任服務人員年度留任率.md) — 日間照顧中心 管30：專任服務人員年度留任率
+- [facility-types/daycare/items/31-業務負責人執業能力.md](facility-types/daycare/items/31-業務負責人執業能力.md) — 日間照顧中心 管31：業務負責人執業能力
+- [facility-types/daycare/items/32-服務人員定期接受健康檢查情形.md](facility-types/daycare/items/32-服務人員定期接受健康檢查情形.md) — 日間照顧中心 管32：服務人員定期接受健康檢查情形
+- [facility-types/daycare/items/33-服務人員接受疫苗注射情形.md](facility-types/daycare/items/33-服務人員接受疫苗注射情形.md) — 日間照顧中心 管33：服務人員接受疫苗注射情形
+- [facility-types/daycare/items/34-健全的財務管理制度.md](facility-types/daycare/items/34-健全的財務管理制度.md) — 日間照顧中心 管34：健全的財務管理制度
+- [facility-types/daycare/items/35-意外或緊急事件處理情形.md](facility-types/daycare/items/35-意外或緊急事件處理情形.md) — 日間照顧中心 管35：意外或緊急事件處理情形
+- [facility-types/daycare/items/36-具有急救物品.md](facility-types/daycare/items/36-具有急救物品.md) — 日間照顧中心 管36：具有急救物品
+- [facility-types/daycare/items/37-機構性侵害及性騷擾事件防治機制建置情形.md](facility-types/daycare/items/37-機構性侵害及性騷擾事件防治機制建置情形.md) — 日間照顧中心 管37：機構性侵害及性騷擾事件防治機制建置情形
+- [facility-types/daycare/items/38-符合高齡友善環境.md](facility-types/daycare/items/38-符合高齡友善環境.md) — 日間照顧中心 安38：符合高齡友善環境
+- [facility-types/daycare/items/39-設置盥洗衛生設備.md](facility-types/daycare/items/39-設置盥洗衛生設備.md) — 日間照顧中心 安39：設置盥洗衛生設備
+- [facility-types/daycare/items/40-提供合宜之休息場所.md](facility-types/daycare/items/40-提供合宜之休息場所.md) — 日間照顧中心 安40：提供合宜之休息場所
+- [facility-types/daycare/items/41-飲用水檢查.md](facility-types/daycare/items/41-飲用水檢查.md) — 日間照顧中心 安41：飲用水檢查
+- [facility-types/daycare/items/42-廚房衛生.md](facility-types/daycare/items/42-廚房衛生.md) — 日間照顧中心 安42：廚房衛生
+- [facility-types/daycare/items/43-機構環境清潔及病媒防治措施.md](facility-types/daycare/items/43-機構環境清潔及病媒防治措施.md) — 日間照顧中心 安43：機構環境清潔及病媒防治措施
+- [facility-types/daycare/items/44-服務原住民族之文化敏感度措施.md](facility-types/daycare/items/44-服務原住民族之文化敏感度措施.md) — 日間照顧中心 加44：服務原住民族之文化敏感度措施
+- [facility-types/daycare/items/45-機構權益保障（監視錄影設備）.md](facility-types/daycare/items/45-機構權益保障（監視錄影設備）.md) — 日間照顧中心 加45：機構權益保障（監視錄影設備）
+- [facility-types/home-care/overview.md](facility-types/home-care/overview.md) — 居家服務機構，概覽，115年度臺北市政府社會局居家服務機構評鑑基準
+- [facility-types/home-care/items/01-服務資訊公開.md](facility-types/home-care/items/01-服務資訊公開.md) — 居家服務機構 權1：服務資訊公開
+- [facility-types/home-care/items/02-個案基本權益維護.md](facility-types/home-care/items/02-個案基本權益維護.md) — 居家服務機構 權2：個案基本權益維護
+- [facility-types/home-care/items/03-個案隱私保護.md](facility-types/home-care/items/03-個案隱私保護.md) — 居家服務機構 權3：個案隱私保護
+- [facility-types/home-care/items/04-申訴機制.md](facility-types/home-care/items/04-申訴機制.md) — 居家服務機構 權4：申訴機制
+- [facility-types/home-care/items/05-入案評估.md](facility-types/home-care/items/05-入案評估.md) — 居家服務機構 專5：入案評估
+- [facility-types/home-care/items/06-個別服務計畫.md](facility-types/home-care/items/06-個別服務計畫.md) — 居家服務機構 專6：個別服務計畫
+- [facility-types/home-care/items/07-服務計畫執行與評值.md](facility-types/home-care/items/07-服務計畫執行與評值.md) — 居家服務機構 專7：服務計畫執行與評值
+- [facility-types/home-care/items/08-身體照顧服務.md](facility-types/home-care/items/08-身體照顧服務.md) — 居家服務機構 專8：身體照顧服務
+- [facility-types/home-care/items/09-日常生活協助.md](facility-types/home-care/items/09-日常生活協助.md) — 居家服務機構 專9：日常生活協助
+- [facility-types/home-care/items/10-緊急事件處理.md](facility-types/home-care/items/10-緊急事件處理.md) — 居家服務機構 專10：緊急事件處理
+- [facility-types/home-care/items/11-家屬溝通與參與.md](facility-types/home-care/items/11-家屬溝通與參與.md) — 居家服務機構 專11：家屬溝通與參與
+- [facility-types/home-care/items/12-督導與訪視.md](facility-types/home-care/items/12-督導與訪視.md) — 居家服務機構 專12：督導與訪視
+- [facility-types/home-care/items/13-服務紀錄.md](facility-types/home-care/items/13-服務紀錄.md) — 居家服務機構 專13：服務紀錄
+- [facility-types/home-care/items/14-結案與轉介.md](facility-types/home-care/items/14-結案與轉介.md) — 居家服務機構 專14：結案與轉介
+- [facility-types/home-care/items/15-機構行政管理.md](facility-types/home-care/items/15-機構行政管理.md) — 居家服務機構 管15：機構行政管理
+- [facility-types/home-care/items/16-人員配置.md](facility-types/home-care/items/16-人員配置.md) — 居家服務機構 管16：人員配置
+- [facility-types/home-care/items/17-人員資格.md](facility-types/home-care/items/17-人員資格.md) — 居家服務機構 管17：人員資格
+- [facility-types/home-care/items/18-人員訓練.md](facility-types/home-care/items/18-人員訓練.md) — 居家服務機構 管18：人員訓練
+- [facility-types/home-care/items/19-人員健康管理.md](facility-types/home-care/items/19-人員健康管理.md) — 居家服務機構 管19：人員健康管理
+- [facility-types/home-care/items/20-人員績效管理.md](facility-types/home-care/items/20-人員績效管理.md) — 居家服務機構 管20：人員績效管理
+- [facility-types/home-care/items/21-財務管理.md](facility-types/home-care/items/21-財務管理.md) — 居家服務機構 管21：財務管理
+- [facility-types/home-care/items/22-收退費管理.md](facility-types/home-care/items/22-收退費管理.md) — 居家服務機構 管22：收退費管理
+- [facility-types/home-care/items/23-專任服務人員年度留任率.md](facility-types/home-care/items/23-專任服務人員年度留任率.md) — 居家服務機構 管23：專任服務人員年度留任率
+- [facility-types/home-care/items/24-23-1-兼任服務人員年度留任率.md](facility-types/home-care/items/24-23-1-兼任服務人員年度留任率.md) — 居家服務機構 管24：23-1 兼任服務人員年度留任率
+- [facility-types/home-care/items/25-資訊管理.md](facility-types/home-care/items/25-資訊管理.md) — 居家服務機構 管25：資訊管理
+- [facility-types/home-care/items/26-感染管制.md](facility-types/home-care/items/26-感染管制.md) — 居家服務機構 管26：感染管制
+- [facility-types/home-care/items/27-服務品質改善.md](facility-types/home-care/items/27-服務品質改善.md) — 居家服務機構 管27：服務品質改善
+- [facility-types/home-care/items/28-服務使用者滿意度調查.md](facility-types/home-care/items/28-服務使用者滿意度調查.md) — 居家服務機構 管28：服務使用者滿意度調查
+- [facility-types/home-care/items/29-品質監測機制.md](facility-types/home-care/items/29-品質監測機制.md) — 居家服務機構 管29：品質監測機制
+- [facility-types/home-care/items/30-機構自評.md](facility-types/home-care/items/30-機構自評.md) — 居家服務機構 管30：機構自評
+- [facility-types/home-care/items/31-創新服務或社區資源連結.md](facility-types/home-care/items/31-創新服務或社區資源連結.md) — 居家服務機構 加31：創新服務或社區資源連結
+- [facility-types/home-care/items/32-照顧者支持服務.md](facility-types/home-care/items/32-照顧者支持服務.md) — 居家服務機構 加32：照顧者支持服務
+- [facility-types/nursing-home/overview.md](facility-types/nursing-home/overview.md) — 住宿型照顧機構，概覽，114年度臺北市老人安養暨長期照顧機構評鑑指標
+- [facility-types/nursing-home/items/01-A1.-工作人員權益相關制度訂定及執行情形.md](facility-types/nursing-home/items/01-A1.-工作人員權益相關制度訂定及執行情形.md) — 住宿型照顧機構 管1：A1. 工作人員權益相關制度訂定及執行情形
+- [facility-types/nursing-home/items/02-A2.-入出機構之管理（二級加強）.md](facility-types/nursing-home/items/02-A2.-入出機構之管理（二級加強）.md) — 住宿型照顧機構 管2：A2. 入出機構之管理（二級加強）
+- [facility-types/nursing-home/items/03-A3.-業務計畫及營運（或政策）方針之擬訂與執行情形.md](facility-types/nursing-home/items/03-A3.-業務計畫及營運（或政策）方針之擬訂與執行情形.md) — 住宿型照顧機構 管3：A3. 業務計畫及營運（或政策）方針之擬訂與執行情形
+- [facility-types/nursing-home/items/04-A4.-過去4年接受目的事業主管機關查核缺失改善情形.md](facility-types/nursing-home/items/04-A4.-過去4年接受目的事業主管機關查核缺失改善情形.md) — 住宿型照顧機構 管4：A4. 過去4年接受目的事業主管機關查核缺失改善情形
+- [facility-types/nursing-home/items/05-A5.-機構內住民保護、性侵害及性騷擾事件防治機制建置情形.md](facility-types/nursing-home/items/05-A5.-機構內住民保護、性侵害及性騷擾事件防治機制建置情形.md) — 住宿型照顧機構 管5：A5. 機構內住民保護、性侵害及性騷擾事件防治機制建置情形
+- [facility-types/nursing-home/items/06-A6.-危機或緊急事件風險管理情形.md](facility-types/nursing-home/items/06-A6.-危機或緊急事件風險管理情形.md) — 住宿型照顧機構 管6：A6. 危機或緊急事件風險管理情形
+- [facility-types/nursing-home/items/07-A7.-業務負責人實際參與行政作業與照顧品質管理情形（一級必要）.md](facility-types/nursing-home/items/07-A7.-業務負責人實際參與行政作業與照顧品質管理情形（一級必要）.md) — 住宿型照顧機構 管7：A7. 業務負責人實際參與行政作業與照顧品質管理情形（一級必要）
+- [facility-types/nursing-home/items/08-A8.-社會工作人員設置情形.md](facility-types/nursing-home/items/08-A8.-社會工作人員設置情形.md) — 住宿型照顧機構 管8：A8. 社會工作人員設置情形
+- [facility-types/nursing-home/items/09-A9.-護理人員設置情形（一級必要）.md](facility-types/nursing-home/items/09-A9.-護理人員設置情形（一級必要）.md) — 住宿型照顧機構 管9：A9. 護理人員設置情形（一級必要）
+- [facility-types/nursing-home/items/10-A10.-兼任（特約）專業人員設置情形.md](facility-types/nursing-home/items/10-A10.-兼任（特約）專業人員設置情形.md) — 住宿型照顧機構 管10：A10. 兼任（特約）專業人員設置情形
+- [facility-types/nursing-home/items/11-A11.-照顧服務員設置情形（一級必要）.md](facility-types/nursing-home/items/11-A11.-照顧服務員設置情形（一級必要）.md) — 住宿型照顧機構 管11：A11. 照顧服務員設置情形（一級必要）
+- [facility-types/nursing-home/items/12-A12.-工作人員勞動條件符合法令情形.md](facility-types/nursing-home/items/12-A12.-工作人員勞動條件符合法令情形.md) — 住宿型照顧機構 管12：A12. 工作人員勞動條件符合法令情形
+- [facility-types/nursing-home/items/13-A13.-新進工作人員職前訓練情形.md](facility-types/nursing-home/items/13-A13.-新進工作人員職前訓練情形.md) — 住宿型照顧機構 管13：A13. 新進工作人員職前訓練情形
+- [facility-types/nursing-home/items/14-A14.-在職教育訓練計畫訂定及辦理情形.md](facility-types/nursing-home/items/14-A14.-在職教育訓練計畫訂定及辦理情形.md) — 住宿型照顧機構 管14：A14. 在職教育訓練計畫訂定及辦理情形
+- [facility-types/nursing-home/items/15-A15.-廚工及供膳人員領照及接受教育訓練情形.md](facility-types/nursing-home/items/15-A15.-廚工及供膳人員領照及接受教育訓練情形.md) — 住宿型照顧機構 管15：A15. 廚工及供膳人員領照及接受教育訓練情形
+- [facility-types/nursing-home/items/16-B1.-定期召開服務品質會議及其辦理情形.md](facility-types/nursing-home/items/16-B1.-定期召開服務品質會議及其辦理情形.md) — 住宿型照顧機構 專16：B1. 定期召開服務品質會議及其辦理情形
+- [facility-types/nursing-home/items/17-B2.-個案服務計畫與評值及管理情形（二級加強）.md](facility-types/nursing-home/items/17-B2.-個案服務計畫與評值及管理情形（二級加強）.md) — 住宿型照顧機構 專17：B2. 個案服務計畫與評值及管理情形（二級加強）
+- [facility-types/nursing-home/items/18-B3.-機構資訊化建置及管理情形.md](facility-types/nursing-home/items/18-B3.-機構資訊化建置及管理情形.md) — 住宿型照顧機構 專18：B3. 機構資訊化建置及管理情形
+- [facility-types/nursing-home/items/19-B4.-服務對象適應輔導或支持措施.md](facility-types/nursing-home/items/19-B4.-服務對象適應輔導或支持措施.md) — 住宿型照顧機構 專19：B4. 服務對象適應輔導或支持措施
+- [facility-types/nursing-home/items/20-B5.-跨專業整合照護執行情形.md](facility-types/nursing-home/items/20-B5.-跨專業整合照護執行情形.md) — 住宿型照顧機構 專20：B5. 跨專業整合照護執行情形
+- [facility-types/nursing-home/items/21-B6.-服務對象團體或社區活動辦理情形.md](facility-types/nursing-home/items/21-B6.-服務對象團體或社區活動辦理情形.md) — 住宿型照顧機構 專21：B6. 服務對象團體或社區活動辦理情形
+- [facility-types/nursing-home/items/22-B7.-社區資源聯結及運用情形.md](facility-types/nursing-home/items/22-B7.-社區資源聯結及運用情形.md) — 住宿型照顧機構 專22：B7. 社區資源聯結及運用情形
+- [facility-types/nursing-home/items/23-B8.-與家屬互動及提供服務情形.md](facility-types/nursing-home/items/23-B8.-與家屬互動及提供服務情形.md) — 住宿型照顧機構 專23：B8. 與家屬互動及提供服務情形
+- [facility-types/nursing-home/items/24-B9.-提供服務對象例行及必要之醫療服務情形.md](facility-types/nursing-home/items/24-B9.-提供服務對象例行及必要之醫療服務情形.md) — 住宿型照顧機構 專24：B9. 提供服務對象例行及必要之醫療服務情形
+- [facility-types/nursing-home/items/25-B10.-防疫機制建置情形（二級加強）.md](facility-types/nursing-home/items/25-B10.-防疫機制建置情形（二級加強）.md) — 住宿型照顧機構 專25：B10. 防疫機制建置情形（二級加強）
+- [facility-types/nursing-home/items/26-B11.-服務對象處方藥品安全管理情形.md](facility-types/nursing-home/items/26-B11.-服務對象處方藥品安全管理情形.md) — 住宿型照顧機構 專26：B11. 服務對象處方藥品安全管理情形
+- [facility-types/nursing-home/items/27-B12.-提供服務對象藥事服務情形.md](facility-types/nursing-home/items/27-B12.-提供服務對象藥事服務情形.md) — 住宿型照顧機構 專27：B12. 提供服務對象藥事服務情形
+- [facility-types/nursing-home/items/28-B13.-服務對象跌倒預防、處理及監測情形.md](facility-types/nursing-home/items/28-B13.-服務對象跌倒預防、處理及監測情形.md) — 住宿型照顧機構 專28：B13. 服務對象跌倒預防、處理及監測情形
+- [facility-types/nursing-home/items/29-B14.-服務對象壓力性損傷預防、處理及監測情形.md](facility-types/nursing-home/items/29-B14.-服務對象壓力性損傷預防、處理及監測情形.md) — 住宿型照顧機構 專29：B14. 服務對象壓力性損傷預防、處理及監測情形
+- [facility-types/nursing-home/items/30-B15.-服務對象疼痛偵測與處置情形.md](facility-types/nursing-home/items/30-B15.-服務對象疼痛偵測與處置情形.md) — 住宿型照顧機構 專30：B15. 服務對象疼痛偵測與處置情形
+- [facility-types/nursing-home/items/31-B16.-服務對象約束處理及監測情形.md](facility-types/nursing-home/items/31-B16.-服務對象約束處理及監測情形.md) — 住宿型照顧機構 專31：B16. 服務對象約束處理及監測情形
+- [facility-types/nursing-home/items/32-B17.-服務對象感染預防、處理及監測情形.md](facility-types/nursing-home/items/32-B17.-服務對象感染預防、處理及監測情形.md) — 住宿型照顧機構 專32：B17. 服務對象感染預防、處理及監測情形
+- [facility-types/nursing-home/items/33-B18.-服務對象非計畫性住院處理及監測情形.md](facility-types/nursing-home/items/33-B18.-服務對象非計畫性住院處理及監測情形.md) — 住宿型照顧機構 專33：B18. 服務對象非計畫性住院處理及監測情形
+- [facility-types/nursing-home/items/34-B19.-服務對象非計畫性體重改變處理及監測情形.md](facility-types/nursing-home/items/34-B19.-服務對象非計畫性體重改變處理及監測情形.md) — 住宿型照顧機構 專34：B19. 服務對象非計畫性體重改變處理及監測情形
+- [facility-types/nursing-home/items/35-B20.-提供移除鼻胃管之增進照護計畫及執行情形.md](facility-types/nursing-home/items/35-B20.-提供移除鼻胃管之增進照護計畫及執行情形.md) — 住宿型照顧機構 專35：B20. 提供移除鼻胃管之增進照護計畫及執行情形
+- [facility-types/nursing-home/items/36-B21.-提供移除導尿管機能增進的照護計畫及執行情形.md](facility-types/nursing-home/items/36-B21.-提供移除導尿管機能增進的照護計畫及執行情形.md) — 住宿型照顧機構 專36：B21. 提供移除導尿管機能增進的照護計畫及執行情形
+- [facility-types/nursing-home/items/37-B22.-工作人員及服務對象定期健康檢查及健康管理情形.md](facility-types/nursing-home/items/37-B22.-工作人員及服務對象定期健康檢查及健康管理情形.md) — 住宿型照顧機構 專37：B22. 工作人員及服務對象定期健康檢查及健康管理情形
+- [facility-types/nursing-home/items/38-B23.-侵入性照護之執行情形.md](facility-types/nursing-home/items/38-B23.-侵入性照護之執行情形.md) — 住宿型照顧機構 專38：B23. 侵入性照護之執行情形
+- [facility-types/nursing-home/items/39-B24.-提供緊急送醫服務情形.md](facility-types/nursing-home/items/39-B24.-提供緊急送醫服務情形.md) — 住宿型照顧機構 專39：B24. 提供緊急送醫服務情形
+- [facility-types/nursing-home/items/40-B25.-服務對象及工作人員接受疫苗注射情形.md](facility-types/nursing-home/items/40-B25.-服務對象及工作人員接受疫苗注射情形.md) — 住宿型照顧機構 專40：B25. 服務對象及工作人員接受疫苗注射情形
+- [facility-types/nursing-home/items/41-B26.-提供服務對象日常活動情形.md](facility-types/nursing-home/items/41-B26.-提供服務對象日常活動情形.md) — 住宿型照顧機構 專41：B26. 提供服務對象日常活動情形
+- [facility-types/nursing-home/items/42-B27.-提供服務對象清潔（含身體、寢具及衣物）及翻身拍背服務情形.md](facility-types/nursing-home/items/42-B27.-提供服務對象清潔（含身體、寢具及衣物）及翻身拍背服務情形.md) — 住宿型照顧機構 專42：B27. 提供服務對象清潔（含身體、寢具及衣物）及翻身拍背服務情形
+- [facility-types/nursing-home/items/43-B28.-提升服務對象自我照顧能力之促進及相關輔具運用情形.md](facility-types/nursing-home/items/43-B28.-提升服務對象自我照顧能力之促進及相關輔具運用情形.md) — 住宿型照顧機構 專43：B28. 提升服務對象自我照顧能力之促進及相關輔具運用情形
+- [facility-types/nursing-home/items/44-B29.-服務對象膳食及菜單擬定情形.md](facility-types/nursing-home/items/44-B29.-服務對象膳食及菜單擬定情形.md) — 住宿型照顧機構 專44：B29. 服務對象膳食及菜單擬定情形
+- [facility-types/nursing-home/items/45-B30.-提供個別化飲食情形.md](facility-types/nursing-home/items/45-B30.-提供個別化飲食情形.md) — 住宿型照顧機構 專45：B30. 提供個別化飲食情形
+- [facility-types/nursing-home/items/46-B31.-依服務對象個別需要提供適宜餐具及容器情形.md](facility-types/nursing-home/items/46-B31.-依服務對象個別需要提供適宜餐具及容器情形.md) — 住宿型照顧機構 專46：B31. 依服務對象個別需要提供適宜餐具及容器情形
+- [facility-types/nursing-home/items/47-B32.-管灌服務對象餵食情形.md](facility-types/nursing-home/items/47-B32.-管灌服務對象餵食情形.md) — 住宿型照顧機構 專47：B32. 管灌服務對象餵食情形
+- [facility-types/nursing-home/items/48-C1.-公共空間及寢室空間採光、照明及通風設備情形.md](facility-types/nursing-home/items/48-C1.-公共空間及寢室空間採光、照明及通風設備情形.md) — 住宿型照顧機構 安48：C1. 公共空間及寢室空間採光、照明及通風設備情形
+- [facility-types/nursing-home/items/49-C2.-儲藏設施設置情形.md](facility-types/nursing-home/items/49-C2.-儲藏設施設置情形.md) — 住宿型照顧機構 安49：C2. 儲藏設施設置情形
+- [facility-types/nursing-home/items/50-C3.-日常活動空間（如餐廳、閱覽區、活動區、會客區）及設施、設備設置情形.md](facility-types/nursing-home/items/50-C3.-日常活動空間（如餐廳、閱覽區、活動區、會客區）及設施、設備設置情形.md) — 住宿型照顧機構 安50：C3. 日常活動空間（如餐廳、閱覽區、活動區、會客區）及設施、設備設置情形
+- [facility-types/nursing-home/items/51-C4.-寢室及浴廁緊急呼叫系統設置情形（一級必要）.md](facility-types/nursing-home/items/51-C4.-寢室及浴廁緊急呼叫系統設置情形（一級必要）.md) — 住宿型照顧機構 安51：C4. 寢室及浴廁緊急呼叫系統設置情形（一級必要）
+- [facility-types/nursing-home/items/52-C5.-昇降機（電梯）設置情形（二級加強）.md](facility-types/nursing-home/items/52-C5.-昇降機（電梯）設置情形（二級加強）.md) — 住宿型照顧機構 安52：C5. 昇降機（電梯）設置情形（二級加強）
+- [facility-types/nursing-home/items/53-C6.-無障礙浴廁及洗澡設備之設置與使用情形（二級加強）.md](facility-types/nursing-home/items/53-C6.-無障礙浴廁及洗澡設備之設置與使用情形（二級加強）.md) — 住宿型照顧機構 安53：C6. 無障礙浴廁及洗澡設備之設置與使用情形（二級加強）
+- [facility-types/nursing-home/items/54-C7.-餐廳、廚房之設施設備與環境清潔衛生情形（二級加強）.md](facility-types/nursing-home/items/54-C7.-餐廳、廚房之設施設備與環境清潔衛生情形（二級加強）.md) — 住宿型照顧機構 安54：C7. 餐廳、廚房之設施設備與環境清潔衛生情形（二級加強）
+- [facility-types/nursing-home/items/55-C8.-污物、事業廢棄物處理及環境病媒、蟲害防治情形.md](facility-types/nursing-home/items/55-C8.-污物、事業廢棄物處理及環境病媒、蟲害防治情形.md) — 住宿型照顧機構 安55：C8. 污物、事業廢棄物處理及環境病媒、蟲害防治情形
+- [facility-types/nursing-home/items/56-C9.-建築物公共安全檢查簽證申報及消防安全設備設置、檢修及防火管理情形（一級必要）.md](facility-types/nursing-home/items/56-C9.-建築物公共安全檢查簽證申報及消防安全設備設置、檢修及防火管理情形（一級必要）.md) — 住宿型照顧機構 安56：C9. 建築物公共安全檢查簽證申報及消防安全設備設置、檢修及防火管理情形（一級必要）
+- [facility-types/nursing-home/items/57-C10.-疏散避難系統及等待救援空間設置（一級必要）.md](facility-types/nursing-home/items/57-C10.-疏散避難系統及等待救援空間設置（一級必要）.md) — 住宿型照顧機構 安57：C10. 疏散避難系統及等待救援空間設置（一級必要）
+- [facility-types/nursing-home/items/58-C11.-訂定符合機構特性及需要之緊急災害應變計畫（EOP）及作業程序，並落實演練（一級必要）.md](facility-types/nursing-home/items/58-C11.-訂定符合機構特性及需要之緊急災害應變計畫（EOP）及作業程序，並落實演練（一級必要）.md) — 住宿型照顧機構 安58：C11. 訂定符合機構特性及需要之緊急災害應變計畫（EOP）及作業程序，並落實演練（一級必要）
+- [facility-types/nursing-home/items/59-C12.-訂定符合機構住民之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力（一級必要）.md](facility-types/nursing-home/items/59-C12.-訂定符合機構住民之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力（一級必要）.md) — 住宿型照顧機構 安59：C12. 訂定符合機構住民之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力（一級必要）
+- [facility-types/nursing-home/items/60-C13.-隔離空間設置及使用情形.md](facility-types/nursing-home/items/60-C13.-隔離空間設置及使用情形.md) — 住宿型照顧機構 安60：C13. 隔離空間設置及使用情形
+- [facility-types/nursing-home/items/61-C14.-設備、儀器維護及辦理人員操作訓練情形.md](facility-types/nursing-home/items/61-C14.-設備、儀器維護及辦理人員操作訓練情形.md) — 住宿型照顧機構 安61：C14. 設備、儀器維護及辦理人員操作訓練情形
+- [facility-types/nursing-home/items/62-C15.-護理站設施設備設置情形（一級必要）.md](facility-types/nursing-home/items/62-C15.-護理站設施設備設置情形（一級必要）.md) — 住宿型照顧機構 安62：C15. 護理站設施設備設置情形（一級必要）
+- [facility-types/nursing-home/items/63-C16.-機構飲用供水設備安全及清潔情形（二級加強）.md](facility-types/nursing-home/items/63-C16.-機構飲用供水設備安全及清潔情形（二級加強）.md) — 住宿型照顧機構 安63：C16. 機構飲用供水設備安全及清潔情形（二級加強）
+- [facility-types/nursing-home/items/64-D1.-服務對象個案資料管理、統計分析與應用及保密情形（二級加強）.md](facility-types/nursing-home/items/64-D1.-服務對象個案資料管理、統計分析與應用及保密情形（二級加強）.md) — 住宿型照顧機構 權64：D1. 服務對象個案資料管理、統計分析與應用及保密情形（二級加強）
+- [facility-types/nursing-home/items/65-D2.-與入住委託人訂立契約情形.md](facility-types/nursing-home/items/65-D2.-與入住委託人訂立契約情形.md) — 住宿型照顧機構 權65：D2. 與入住委託人訂立契約情形
+- [facility-types/nursing-home/items/66-D3.-服務對象生活注意事項及家屬來訪注意事項訂定情形.md](facility-types/nursing-home/items/66-D3.-服務對象生活注意事項及家屬來訪注意事項訂定情形.md) — 住宿型照顧機構 權66：D3. 服務對象生活注意事項及家屬來訪注意事項訂定情形
+- [facility-types/nursing-home/items/67-D4.-服務對象或家屬申訴意見反應辦理情形.md](facility-types/nursing-home/items/67-D4.-服務對象或家屬申訴意見反應辦理情形.md) — 住宿型照顧機構 權67：D4. 服務對象或家屬申訴意見反應辦理情形
+- [facility-types/nursing-home/items/68-D5.-尊重服務對象信仰情形.md](facility-types/nursing-home/items/68-D5.-尊重服務對象信仰情形.md) — 住宿型照顧機構 權68：D5. 尊重服務對象信仰情形
+- [facility-types/nursing-home/items/69-D6.-居家情境佈置情形（二級加強）.md](facility-types/nursing-home/items/69-D6.-居家情境佈置情形（二級加強）.md) — 住宿型照顧機構 權69：D6. 居家情境佈置情形（二級加強）
+- [facility-types/nursing-home/items/70-D7.-服務對象財物管理及死亡遺產處理情形.md](facility-types/nursing-home/items/70-D7.-服務對象財物管理及死亡遺產處理情形.md) — 住宿型照顧機構 權70：D7. 服務對象財物管理及死亡遺產處理情形
+- [facility-types/nursing-home/items/71-D8.-提供緩和醫療及臨終照護措施.md](facility-types/nursing-home/items/71-D8.-提供緩和醫療及臨終照護措施.md) — 住宿型照顧機構 權71：D8. 提供緩和醫療及臨終照護措施
+- [facility-types/nursing-home/items/72-D9.-辦理服務滿意度調查情形.md](facility-types/nursing-home/items/72-D9.-辦理服務滿意度調查情形.md) — 住宿型照顧機構 權72：D9. 辦理服務滿意度調查情形
+- [facility-types/nursing-home/items/73-E1.-前次評鑑建議事項改善情形.md](facility-types/nursing-home/items/73-E1.-前次評鑑建議事項改善情形.md) — 住宿型照顧機構 創73：E1. 前次評鑑建議事項改善情形
+- [facility-types/nursing-home/items/74-E2.-創新或配合政策創新或特色相關措施執行.md](facility-types/nursing-home/items/74-E2.-創新或配合政策創新或特色相關措施執行.md) — 住宿型照顧機構 創74：E2. 創新或配合政策創新或特色相關措施執行
+- [facility-types/nursing-home/items/75-E3.-評鑑期間之違規及重大負面事件紀錄.md](facility-types/nursing-home/items/75-E3.-評鑑期間之違規及重大負面事件紀錄.md) — 住宿型照顧機構 創75：E3. 評鑑期間之違規及重大負面事件紀錄
+- [facility-types/hospital/overview.md](facility-types/hospital/overview.md) — 醫院評鑑，概覽，114 年度衛生福利部醫院評鑑基準（區域醫院、地區醫院適用）
+- [facility-types/hospital/items/01-院務發展計畫.md](facility-types/hospital/items/01-院務發展計畫.md) — 醫院評鑑 1.11：院務發展計畫
+- [facility-types/hospital/items/02-組織架構與職掌.md](facility-types/hospital/items/02-組織架構與職掌.md) — 醫院評鑑 1.12：組織架構與職掌
+- [facility-types/hospital/items/03-品質管理組織與機制.md](facility-types/hospital/items/03-品質管理組織與機制.md) — 醫院評鑑 1.13：品質管理組織與機制
+- [facility-types/hospital/items/04-績效評估與管理.md](facility-types/hospital/items/04-績效評估與管理.md) — 醫院評鑑 1.14：績效評估與管理
+- [facility-types/hospital/items/05-社會責任與社區健康.md](facility-types/hospital/items/05-社會責任與社區健康.md) — 醫院評鑑 1.15：社會責任與社區健康
+- [facility-types/hospital/items/06-員工支持方案.md](facility-types/hospital/items/06-員工支持方案.md) — 醫院評鑑 1.26：員工支持方案
+- [facility-types/hospital/items/07-員工申訴機制.md](facility-types/hospital/items/07-員工申訴機制.md) — 醫院評鑑 1.27：員工申訴機制
+- [facility-types/hospital/items/08-職業安全衛生管理.md](facility-types/hospital/items/08-職業安全衛生管理.md) — 醫院評鑑 1.28：職業安全衛生管理
+- [facility-types/hospital/items/09-職業傷害保護.md](facility-types/hospital/items/09-職業傷害保護.md) — 醫院評鑑 1.29：職業傷害保護
+- [facility-types/hospital/items/10-員工健康管理.md](facility-types/hospital/items/10-員工健康管理.md) — 醫院評鑑 1.210：員工健康管理
+- [facility-types/hospital/items/11-勞動條件保障.md](facility-types/hospital/items/11-勞動條件保障.md) — 醫院評鑑 1.211：勞動條件保障
+- [facility-types/hospital/items/12-員工服務守則與倫理規範.md](facility-types/hospital/items/12-員工服務守則與倫理規範.md) — 醫院評鑑 1.212：員工服務守則與倫理規範
+- [facility-types/hospital/items/13-醫師人力配置.md](facility-types/hospital/items/13-醫師人力配置.md) — 醫院評鑑 1.313：醫師人力配置
+- [facility-types/hospital/items/14-護理人力配置.md](facility-types/hospital/items/14-護理人力配置.md) — 醫院評鑑 1.314：護理人力配置
+- [facility-types/hospital/items/15-醫事人員配置.md](facility-types/hospital/items/15-醫事人員配置.md) — 醫院評鑑 1.315：醫事人員配置
+- [facility-types/hospital/items/16-社工及行政人力配置.md](facility-types/hospital/items/16-社工及行政人力配置.md) — 醫院評鑑 1.316：社工及行政人力配置
+- [facility-types/hospital/items/17-新進人員職前訓練.md](facility-types/hospital/items/17-新進人員職前訓練.md) — 醫院評鑑 1.317：新進人員職前訓練
+- [facility-types/hospital/items/18-在職教育訓練.md](facility-types/hospital/items/18-在職教育訓練.md) — 醫院評鑑 1.318：在職教育訓練
+- [facility-types/hospital/items/19-醫師繼續教育.md](facility-types/hospital/items/19-醫師繼續教育.md) — 醫院評鑑 1.319：醫師繼續教育
+- [facility-types/hospital/items/20-護理人員繼續教育.md](facility-types/hospital/items/20-護理人員繼續教育.md) — 醫院評鑑 1.320：護理人員繼續教育
+- [facility-types/hospital/items/21-志願服務管理.md](facility-types/hospital/items/21-志願服務管理.md) — 醫院評鑑 1.321：志願服務管理
+- [facility-types/hospital/items/22-人員資格審查與管理.md](facility-types/hospital/items/22-人員資格審查與管理.md) — 醫院評鑑 1.322：人員資格審查與管理
+- [facility-types/hospital/items/23-病歷書寫與管理.md](facility-types/hospital/items/23-病歷書寫與管理.md) — 醫院評鑑 1.423：病歷書寫與管理
+- [facility-types/hospital/items/24-資訊安全管理.md](facility-types/hospital/items/24-資訊安全管理.md) — 醫院評鑑 1.424：資訊安全管理
+- [facility-types/hospital/items/25-醫療資訊系統管理.md](facility-types/hospital/items/25-醫療資訊系統管理.md) — 醫院評鑑 1.425：醫療資訊系統管理
+- [facility-types/hospital/items/26-內外部溝通機制.md](facility-types/hospital/items/26-內外部溝通機制.md) — 醫院評鑑 1.426：內外部溝通機制
+- [facility-types/hospital/items/27-建築物安全管理.md](facility-types/hospital/items/27-建築物安全管理.md) — 醫院評鑑 1.527：建築物安全管理
+- [facility-types/hospital/items/28-消防安全管理.md](facility-types/hospital/items/28-消防安全管理.md) — 醫院評鑑 1.528：消防安全管理
+- [facility-types/hospital/items/29-醫療設備管理.md](facility-types/hospital/items/29-醫療設備管理.md) — 醫院評鑑 1.529：醫療設備管理
+- [facility-types/hospital/items/30-危險物品管理.md](facility-types/hospital/items/30-危險物品管理.md) — 醫院評鑑 1.530：危險物品管理
+- [facility-types/hospital/items/31-緊急應變計畫.md](facility-types/hospital/items/31-緊急應變計畫.md) — 醫院評鑑 1.531：緊急應變計畫
+- [facility-types/hospital/items/32-環境清潔管理.md](facility-types/hospital/items/32-環境清潔管理.md) — 醫院評鑑 1.532：環境清潔管理
+- [facility-types/hospital/items/33-廢棄物管理.md](facility-types/hospital/items/33-廢棄物管理.md) — 醫院評鑑 1.533：廢棄物管理
+- [facility-types/hospital/items/34-病人服務資訊提供.md](facility-types/hospital/items/34-病人服務資訊提供.md) — 醫院評鑑 1.634：病人服務資訊提供
+- [facility-types/hospital/items/35-就醫流程管理.md](facility-types/hospital/items/35-就醫流程管理.md) — 醫院評鑑 1.635：就醫流程管理
+- [facility-types/hospital/items/36-病人滿意度管理.md](facility-types/hospital/items/36-病人滿意度管理.md) — 醫院評鑑 1.636：病人滿意度管理
+- [facility-types/hospital/items/37-社區健康促進.md](facility-types/hospital/items/37-社區健康促進.md) — 醫院評鑑 1.637：社區健康促進
+- [facility-types/hospital/items/38-風險管理機制.md](facility-types/hospital/items/38-風險管理機制.md) — 醫院評鑑 1.738：風險管理機制
+- [facility-types/hospital/items/39-醫療事故處理.md](facility-types/hospital/items/39-醫療事故處理.md) — 醫院評鑑 1.739：醫療事故處理
+- [facility-types/hospital/items/40-院內緊急事件應變.md](facility-types/hospital/items/40-院內緊急事件應變.md) — 醫院評鑑 1.740：院內緊急事件應變
+- [facility-types/hospital/items/41-大量傷患應變計畫.md](facility-types/hospital/items/41-大量傷患應變計畫.md) — 醫院評鑑 1.741：大量傷患應變計畫
+- [facility-types/hospital/items/42-危機溝通管理.md](facility-types/hospital/items/42-危機溝通管理.md) — 醫院評鑑 1.742：危機溝通管理
+- [facility-types/hospital/items/43-病人基本權利保障.md](facility-types/hospital/items/43-病人基本權利保障.md) — 醫院評鑑 2.143：病人基本權利保障
+- [facility-types/hospital/items/44-知情同意作業.md](facility-types/hospital/items/44-知情同意作業.md) — 醫院評鑑 2.144：知情同意作業
+- [facility-types/hospital/items/45-病人隱私保護.md](facility-types/hospital/items/45-病人隱私保護.md) — 醫院評鑑 2.145：病人隱私保護
+- [facility-types/hospital/items/46-病人申訴機制.md](facility-types/hospital/items/46-病人申訴機制.md) — 醫院評鑑 2.146：病人申訴機制
+- [facility-types/hospital/items/47-醫療品質指標管理.md](facility-types/hospital/items/47-醫療品質指標管理.md) — 醫院評鑑 2.247：醫療品質指標管理
+- [facility-types/hospital/items/48-病人安全文化推動.md](facility-types/hospital/items/48-病人安全文化推動.md) — 醫院評鑑 2.248：病人安全文化推動
+- [facility-types/hospital/items/49-異常事件通報與分析.md](facility-types/hospital/items/49-異常事件通報與分析.md) — 醫院評鑑 2.249：異常事件通報與分析
+- [facility-types/hospital/items/50-病人入院評估.md](facility-types/hospital/items/50-病人入院評估.md) — 醫院評鑑 2.350：病人入院評估
+- [facility-types/hospital/items/51-個別化照護計畫.md](facility-types/hospital/items/51-個別化照護計畫.md) — 醫院評鑑 2.351：個別化照護計畫
+- [facility-types/hospital/items/52-醫療團隊溝通與交接班.md](facility-types/hospital/items/52-醫療團隊溝通與交接班.md) — 醫院評鑑 2.352：醫療團隊溝通與交接班
+- [facility-types/hospital/items/53-疼痛評估與管理.md](facility-types/hospital/items/53-疼痛評估與管理.md) — 醫院評鑑 2.353：疼痛評估與管理
+- [facility-types/hospital/items/54-營養評估與照護.md](facility-types/hospital/items/54-營養評估與照護.md) — 醫院評鑑 2.354：營養評估與照護
+- [facility-types/hospital/items/55-跌倒預防.md](facility-types/hospital/items/55-跌倒預防.md) — 醫院評鑑 2.355：跌倒預防
+- [facility-types/hospital/items/56-壓傷預防.md](facility-types/hospital/items/56-壓傷預防.md) — 醫院評鑑 2.356：壓傷預防
+- [facility-types/hospital/items/57-身體約束管理.md](facility-types/hospital/items/57-身體約束管理.md) — 醫院評鑑 2.357：身體約束管理
+- [facility-types/hospital/items/58-復健醫療服務.md](facility-types/hospital/items/58-復健醫療服務.md) — 醫院評鑑 2.358：復健醫療服務
+- [facility-types/hospital/items/59-出院計畫與準備.md](facility-types/hospital/items/59-出院計畫與準備.md) — 醫院評鑑 2.359：出院計畫與準備
+- [facility-types/hospital/items/60-轉診轉介作業.md](facility-types/hospital/items/60-轉診轉介作業.md) — 醫院評鑑 2.360：轉診轉介作業
+- [facility-types/hospital/items/61-急診醫療服務.md](facility-types/hospital/items/61-急診醫療服務.md) — 醫院評鑑 2.361：急診醫療服務
+- [facility-types/hospital/items/62-加護病房照護.md](facility-types/hospital/items/62-加護病房照護.md) — 醫院評鑑 2.362：加護病房照護
+- [facility-types/hospital/items/63-臨終照護.md](facility-types/hospital/items/63-臨終照護.md) — 醫院評鑑 2.363：臨終照護
+- [facility-types/hospital/items/64-安寧緩和醫療.md](facility-types/hospital/items/64-安寧緩和醫療.md) — 醫院評鑑 2.364：安寧緩和醫療
+- [facility-types/hospital/items/65-病歷摘要與出院紀錄.md](facility-types/hospital/items/65-病歷摘要與出院紀錄.md) — 醫院評鑑 2.365：病歷摘要與出院紀錄
+- [facility-types/hospital/items/66-血液透析照護.md](facility-types/hospital/items/66-血液透析照護.md) — 醫院評鑑 2.466：血液透析照護
+- [facility-types/hospital/items/67-化學治療照護.md](facility-types/hospital/items/67-化學治療照護.md) — 醫院評鑑 2.467：化學治療照護
+- [facility-types/hospital/items/68-放射治療作業.md](facility-types/hospital/items/68-放射治療作業.md) — 醫院評鑑 2.468：放射治療作業
+- [facility-types/hospital/items/69-輸血作業安全.md](facility-types/hospital/items/69-輸血作業安全.md) — 醫院評鑑 2.469：輸血作業安全
+- [facility-types/hospital/items/70-內視鏡作業.md](facility-types/hospital/items/70-內視鏡作業.md) — 醫院評鑑 2.470：內視鏡作業
+- [facility-types/hospital/items/71-心導管作業.md](facility-types/hospital/items/71-心導管作業.md) — 醫院評鑑 2.471：心導管作業
+- [facility-types/hospital/items/72-高壓氧治療.md](facility-types/hospital/items/72-高壓氧治療.md) — 醫院評鑑 2.472：高壓氧治療
+- [facility-types/hospital/items/73-核子醫學服務.md](facility-types/hospital/items/73-核子醫學服務.md) — 醫院評鑑 2.473：核子醫學服務
+- [facility-types/hospital/items/74-精神科照護.md](facility-types/hospital/items/74-精神科照護.md) — 醫院評鑑 2.474：精神科照護
+- [facility-types/hospital/items/75-婦產科照護.md](facility-types/hospital/items/75-婦產科照護.md) — 醫院評鑑 2.475：婦產科照護
+- [facility-types/hospital/items/76-新生兒照護.md](facility-types/hospital/items/76-新生兒照護.md) — 醫院評鑑 2.476：新生兒照護
+- [facility-types/hospital/items/77-兒科照護.md](facility-types/hospital/items/77-兒科照護.md) — 醫院評鑑 2.477：兒科照護
+- [facility-types/hospital/items/78-骨科照護.md](facility-types/hospital/items/78-骨科照護.md) — 醫院評鑑 2.478：骨科照護
+- [facility-types/hospital/items/79-神經外科照護.md](facility-types/hospital/items/79-神經外科照護.md) — 醫院評鑑 2.479：神經外科照護
+- [facility-types/hospital/items/80-燒傷照護.md](facility-types/hospital/items/80-燒傷照護.md) — 醫院評鑑 2.480：燒傷照護
+- [facility-types/hospital/items/81-眼科照護.md](facility-types/hospital/items/81-眼科照護.md) — 醫院評鑑 2.481：眼科照護
+- [facility-types/hospital/items/82-耳鼻喉科照護.md](facility-types/hospital/items/82-耳鼻喉科照護.md) — 醫院評鑑 2.482：耳鼻喉科照護
+- [facility-types/hospital/items/83-牙科照護.md](facility-types/hospital/items/83-牙科照護.md) — 醫院評鑑 2.483：牙科照護
+- [facility-types/hospital/items/84-中醫服務.md](facility-types/hospital/items/84-中醫服務.md) — 醫院評鑑 2.484：中醫服務
+- [facility-types/hospital/items/85-器官移植照護.md](facility-types/hospital/items/85-器官移植照護.md) — 醫院評鑑 2.485：器官移植照護
+- [facility-types/hospital/items/86-復健醫學服務.md](facility-types/hospital/items/86-復健醫學服務.md) — 醫院評鑑 2.486：復健醫學服務
+- [facility-types/hospital/items/87-輔具服務.md](facility-types/hospital/items/87-輔具服務.md) — 醫院評鑑 2.487：輔具服務
+- [facility-types/hospital/items/88-居家醫療服務.md](facility-types/hospital/items/88-居家醫療服務.md) — 醫院評鑑 2.488：居家醫療服務
+- [facility-types/hospital/items/89-長期照護銜接服務.md](facility-types/hospital/items/89-長期照護銜接服務.md) — 醫院評鑑 2.489：長期照護銜接服務
+- [facility-types/hospital/items/90-藥品管理制度.md](facility-types/hospital/items/90-藥品管理制度.md) — 醫院評鑑 2.590：藥品管理制度
+- [facility-types/hospital/items/91-處方開立管理.md](facility-types/hospital/items/91-處方開立管理.md) — 醫院評鑑 2.591：處方開立管理
+- [facility-types/hospital/items/92-藥品調劑作業.md](facility-types/hospital/items/92-藥品調劑作業.md) — 醫院評鑑 2.592：藥品調劑作業
+- [facility-types/hospital/items/93-給藥作業安全.md](facility-types/hospital/items/93-給藥作業安全.md) — 醫院評鑑 2.593：給藥作業安全
+- [facility-types/hospital/items/94-高警訊藥品管理.md](facility-types/hospital/items/94-高警訊藥品管理.md) — 醫院評鑑 2.594：高警訊藥品管理
+- [facility-types/hospital/items/95-藥品不良反應監測.md](facility-types/hospital/items/95-藥品不良反應監測.md) — 醫院評鑑 2.595：藥品不良反應監測
+- [facility-types/hospital/items/96-抗生素合理使用管理.md](facility-types/hospital/items/96-抗生素合理使用管理.md) — 醫院評鑑 2.596：抗生素合理使用管理
+- [facility-types/hospital/items/97-管制藥品管理.md](facility-types/hospital/items/97-管制藥品管理.md) — 醫院評鑑 2.597：管制藥品管理
+- [facility-types/hospital/items/98-出院藥物衛教.md](facility-types/hospital/items/98-出院藥物衛教.md) — 醫院評鑑 2.598：出院藥物衛教
+- [facility-types/hospital/items/99-手術安全查核.md](facility-types/hospital/items/99-手術安全查核.md) — 醫院評鑑 2.699：手術安全查核
+- [facility-types/hospital/items/100-麻醉前評估.md](facility-types/hospital/items/100-麻醉前評估.md) — 醫院評鑑 2.6100：麻醉前評估
+- [facility-types/hospital/items/101-麻醉作業管理.md](facility-types/hospital/items/101-麻醉作業管理.md) — 醫院評鑑 2.6101：麻醉作業管理
+- [facility-types/hospital/items/102-手術室安全管理.md](facility-types/hospital/items/102-手術室安全管理.md) — 醫院評鑑 2.6102：手術室安全管理
+- [facility-types/hospital/items/103-術後照護作業.md](facility-types/hospital/items/103-術後照護作業.md) — 醫院評鑑 2.6103：術後照護作業
+- [facility-types/hospital/items/104-術後疼痛管理.md](facility-types/hospital/items/104-術後疼痛管理.md) — 醫院評鑑 2.6104：術後疼痛管理
+- [facility-types/hospital/items/105-日間手術管理.md](facility-types/hospital/items/105-日間手術管理.md) — 醫院評鑑 2.6105：日間手術管理
+- [facility-types/hospital/items/106-緊急手術應變.md](facility-types/hospital/items/106-緊急手術應變.md) — 醫院評鑑 2.6106：緊急手術應變
+- [facility-types/hospital/items/107-手術器械及耗材管理.md](facility-types/hospital/items/107-手術器械及耗材管理.md) — 醫院評鑑 2.6107：手術器械及耗材管理
+- [facility-types/hospital/items/108-感染管制組織與運作.md](facility-types/hospital/items/108-感染管制組織與運作.md) — 醫院評鑑 2.7108：感染管制組織與運作
+- [facility-types/hospital/items/109-標準防護措施與接觸隔離.md](facility-types/hospital/items/109-標準防護措施與接觸隔離.md) — 醫院評鑑 2.7109：標準防護措施與接觸隔離
+- [facility-types/hospital/items/110-醫療照護相關感染監測.md](facility-types/hospital/items/110-醫療照護相關感染監測.md) — 醫院評鑑 2.7110：醫療照護相關感染監測
+- [facility-types/hospital/items/111-檢驗品質管理.md](facility-types/hospital/items/111-檢驗品質管理.md) — 醫院評鑑 2.8111：檢驗品質管理
+- [facility-types/hospital/items/112-緊急檢驗作業.md](facility-types/hospital/items/112-緊急檢驗作業.md) — 醫院評鑑 2.8112：緊急檢驗作業
+- [facility-types/hospital/items/113-血液銀行作業.md](facility-types/hospital/items/113-血液銀行作業.md) — 醫院評鑑 2.8113：血液銀行作業
+- [facility-types/hospital/items/114-微生物檢驗作業.md](facility-types/hospital/items/114-微生物檢驗作業.md) — 醫院評鑑 2.8114：微生物檢驗作業
+- [facility-types/hospital/items/115-病理組織檢查.md](facility-types/hospital/items/115-病理組織檢查.md) — 醫院評鑑 2.8115：病理組織檢查
+- [facility-types/hospital/items/116-細胞病理學作業.md](facility-types/hospital/items/116-細胞病理學作業.md) — 醫院評鑑 2.8116：細胞病理學作業
+- [facility-types/hospital/items/117-解剖病理作業.md](facility-types/hospital/items/117-解剖病理作業.md) — 醫院評鑑 2.8117：解剖病理作業
+- [facility-types/hospital/items/118-一般放射作業.md](facility-types/hospital/items/118-一般放射作業.md) — 醫院評鑑 2.8118：一般放射作業
+- [facility-types/hospital/items/119-電腦斷層作業.md](facility-types/hospital/items/119-電腦斷層作業.md) — 醫院評鑑 2.8119：電腦斷層作業
+- [facility-types/hospital/items/120-磁振造影作業.md](facility-types/hospital/items/120-磁振造影作業.md) — 醫院評鑑 2.8120：磁振造影作業
+- [facility-types/hospital/items/121-超音波作業.md](facility-types/hospital/items/121-超音波作業.md) — 醫院評鑑 2.8121：超音波作業
+- [facility-types/hospital/items/122-血管攝影作業.md](facility-types/hospital/items/122-血管攝影作業.md) — 醫院評鑑 2.8122：血管攝影作業
+- [facility-types/hospital/items/123-放射治療品質管理.md](facility-types/hospital/items/123-放射治療品質管理.md) — 醫院評鑑 2.8123：放射治療品質管理
+- [facility-types/hospital/items/124-醫學影像資訊管理.md](facility-types/hospital/items/124-醫學影像資訊管理.md) — 醫院評鑑 2.8124：醫學影像資訊管理
+- [facility-types/disability-welfare/overview.md](facility-types/disability-welfare/overview.md) — 身心障礙福利機構，概覽，109年度身心障礙福利機構評鑑指標，涵蓋行政組織及經營管理、環境設施及安全維護、專業服務三大面向。
+- [facility-types/disability-welfare/items/01-董（理）事會議會務執行及決策管理機制.md](facility-types/disability-welfare/items/01-董（理）事會議會務執行及決策管理機制.md) — 身心障礙福利機構 行1：董（理）事會議會務執行及決策管理機制
+- [facility-types/disability-welfare/items/02-機構管理制度.md](facility-types/disability-welfare/items/02-機構管理制度.md) — 身心障礙福利機構 行2：機構管理制度
+- [facility-types/disability-welfare/items/03-機構配合情形.md](facility-types/disability-welfare/items/03-機構配合情形.md) — 身心障礙福利機構 行3：機構配合情形
+- [facility-types/disability-welfare/items/04-員工健康檢查情形.md](facility-types/disability-welfare/items/04-員工健康檢查情形.md) — 身心障礙福利機構 行4：員工健康檢查情形
+- [facility-types/disability-welfare/items/05-員工訓練情形.md](facility-types/disability-welfare/items/05-員工訓練情形.md) — 身心障礙福利機構 行5：員工訓練情形
+- [facility-types/disability-welfare/items/06-專業服務人力.md](facility-types/disability-welfare/items/06-專業服務人力.md) — 身心障礙福利機構 行6：專業服務人力
+- [facility-types/disability-welfare/items/07-法定通報責任.md](facility-types/disability-welfare/items/07-法定通報責任.md) — 身心障礙福利機構 行7：法定通報責任
+- [facility-types/disability-welfare/items/08-會計制度.md](facility-types/disability-welfare/items/08-會計制度.md) — 身心障礙福利機構 行8：會計制度
+- [facility-types/disability-welfare/items/09-財務報告及管理作為.md](facility-types/disability-welfare/items/09-財務報告及管理作為.md) — 身心障礙福利機構 行9：財務報告及管理作為
+- [facility-types/disability-welfare/items/10-財物管理.md](facility-types/disability-welfare/items/10-財物管理.md) — 身心障礙福利機構 行10：財物管理
+- [facility-types/disability-welfare/items/11-捐贈財物之管理徵信情形.md](facility-types/disability-welfare/items/11-捐贈財物之管理徵信情形.md) — 身心障礙福利機構 行11：捐贈財物之管理徵信情形
+- [facility-types/disability-welfare/items/12-浴廁比例、隱密性及方便性.md](facility-types/disability-welfare/items/12-浴廁比例、隱密性及方便性.md) — 身心障礙福利機構 環12：浴廁比例、隱密性及方便性
+- [facility-types/disability-welfare/items/13-無障礙浴廁.md](facility-types/disability-welfare/items/13-無障礙浴廁.md) — 身心障礙福利機構 環13：無障礙浴廁
+- [facility-types/disability-welfare/items/14-緊急呼叫設備.md](facility-types/disability-welfare/items/14-緊急呼叫設備.md) — 身心障礙福利機構 環14：緊急呼叫設備
+- [facility-types/disability-welfare/items/15-有無避難逃生路徑及等待救援空間.md](facility-types/disability-welfare/items/15-有無避難逃生路徑及等待救援空間.md) — 身心障礙福利機構 環15：有無避難逃生路徑及等待救援空間
+- [facility-types/disability-welfare/items/16-建築物公共安全檢查簽證申報及消防安全設備設置、檢修申報及防火管理情形.md](facility-types/disability-welfare/items/16-建築物公共安全檢查簽證申報及消防安全設備設置、檢修申報及防火管理情形.md) — 身心障礙福利機構 環16：建築物公共安全檢查簽證申報及消防安全設備設置、檢修申報及防火管理情形
+- [facility-types/disability-welfare/items/17-訂定符合機構特性及需要之緊急災害應變計畫及作業程序，並落實演練.md](facility-types/disability-welfare/items/17-訂定符合機構特性及需要之緊急災害應變計畫及作業程序，並落實演練.md) — 身心障礙福利機構 環17：訂定符合機構特性及需要之緊急災害應變計畫及作業程序，並落實演練
+- [facility-types/disability-welfare/items/18-訂定符合機構服務對象之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力.md](facility-types/disability-welfare/items/18-訂定符合機構服務對象之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力.md) — 身心障礙福利機構 環18：訂定符合機構服務對象之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力
+- [facility-types/disability-welfare/items/19-寢室面積及自然採光通風.md](facility-types/disability-welfare/items/19-寢室面積及自然採光通風.md) — 身心障礙福利機構 環19：寢室面積及自然採光通風
+- [facility-types/disability-welfare/items/20-機具使用安全及儀器設備操作維護.md](facility-types/disability-welfare/items/20-機具使用安全及儀器設備操作維護.md) — 身心障礙福利機構 環20：機具使用安全及儀器設備操作維護
+- [facility-types/disability-welfare/items/21-重度失能機構之護理空間護理站.md](facility-types/disability-welfare/items/21-重度失能機構之護理空間護理站.md) — 身心障礙福利機構 環21：重度失能機構之護理空間/護理站
+- [facility-types/disability-welfare/items/22-環境清潔衛生及廢棄物處理分類.md](facility-types/disability-welfare/items/22-環境清潔衛生及廢棄物處理分類.md) — 身心障礙福利機構 環22：環境清潔衛生及廢棄物處理分類
+- [facility-types/disability-welfare/items/23-污物處理情形.md](facility-types/disability-welfare/items/23-污物處理情形.md) — 身心障礙福利機構 環23：污物處理情形
+- [facility-types/disability-welfare/items/24-餐廳、廚房之環境設備與餐具符合衛生原則.md](facility-types/disability-welfare/items/24-餐廳、廚房之環境設備與餐具符合衛生原則.md) — 身心障礙福利機構 環24：餐廳、廚房之環境設備與餐具符合衛生原則
+- [facility-types/disability-welfare/items/25-食物儲存空間及冷凍（藏）設備.md](facility-types/disability-welfare/items/25-食物儲存空間及冷凍（藏）設備.md) — 身心障礙福利機構 環25：食物儲存空間及冷凍（藏）設備
+- [facility-types/disability-welfare/items/26-儲藏設施設置情形.md](facility-types/disability-welfare/items/26-儲藏設施設置情形.md) — 身心障礙福利機構 環26：儲藏設施設置情形
+- [facility-types/disability-welfare/items/27-室外通路.md](facility-types/disability-welfare/items/27-室外通路.md) — 身心障礙福利機構 環27：室外通路
+- [facility-types/disability-welfare/items/28-室內通路走廊及出入口.md](facility-types/disability-welfare/items/28-室內通路走廊及出入口.md) — 身心障礙福利機構 環28：室內通路走廊及出入口
+- [facility-types/disability-welfare/items/29-坡道.md](facility-types/disability-welfare/items/29-坡道.md) — 身心障礙福利機構 環29：坡道
+- [facility-types/disability-welfare/items/30-樓梯.md](facility-types/disability-welfare/items/30-樓梯.md) — 身心障礙福利機構 環30：樓梯
+- [facility-types/disability-welfare/items/31-昇降機.md](facility-types/disability-welfare/items/31-昇降機.md) — 身心障礙福利機構 環31：昇降機
+- [facility-types/disability-welfare/items/32-個別化服務支持計畫之擬訂.md](facility-types/disability-welfare/items/32-個別化服務支持計畫之擬訂.md) — 身心障礙福利機構 專32：個別化服務/支持計畫之擬訂
+- [facility-types/disability-welfare/items/33-依據評估結果擬定服務目標.md](facility-types/disability-welfare/items/33-依據評估結果擬定服務目標.md) — 身心障礙福利機構 專33：依據評估結果擬定服務目標
+- [facility-types/disability-welfare/items/34-服務目標之執行.md](facility-types/disability-welfare/items/34-服務目標之執行.md) — 身心障礙福利機構 專34：服務目標之執行
+- [facility-types/disability-welfare/items/35-專業團隊服務模式.md](facility-types/disability-welfare/items/35-專業團隊服務模式.md) — 身心障礙福利機構 專35：專業團隊服務模式
+- [facility-types/disability-welfare/items/36-輔具及活動器材.md](facility-types/disability-welfare/items/36-輔具及活動器材.md) — 身心障礙福利機構 專36：輔具及活動器材
+- [facility-types/disability-welfare/items/37-特殊的支持措施.md](facility-types/disability-welfare/items/37-特殊的支持措施.md) — 身心障礙福利機構 專37：特殊的支持措施
+- [facility-types/disability-welfare/items/38-體能與休閒活動.md](facility-types/disability-welfare/items/38-體能與休閒活動.md) — 身心障礙福利機構 專38：體能與休閒活動
+- [facility-types/disability-welfare/items/39-空間規劃與作息人力配置.md](facility-types/disability-welfare/items/39-空間規劃與作息人力配置.md) — 身心障礙福利機構 專39：空間規劃與作息人力配置
+- [facility-types/disability-welfare/items/40-提供服務對象的清潔服務.md](facility-types/disability-welfare/items/40-提供服務對象的清潔服務.md) — 身心障礙福利機構 專40：提供服務對象的清潔服務
+- [facility-types/disability-welfare/items/41-服務對象壓力性損傷預防及處理情形.md](facility-types/disability-welfare/items/41-服務對象壓力性損傷預防及處理情形.md) — 身心障礙福利機構 專41：服務對象壓力性損傷預防及處理情形
+- [facility-types/disability-welfare/items/42-定期健檢，並作健康管理.md](facility-types/disability-welfare/items/42-定期健檢，並作健康管理.md) — 身心障礙福利機構 專42：定期健檢，並作健康管理
+- [facility-types/disability-welfare/items/43-口腔照護支持服務.md](facility-types/disability-welfare/items/43-口腔照護支持服務.md) — 身心障礙福利機構 專43：口腔照護支持服務
+- [facility-types/disability-welfare/items/44-膳食服務.md](facility-types/disability-welfare/items/44-膳食服務.md) — 身心障礙福利機構 專44：膳食服務
+- [facility-types/disability-welfare/items/45-用藥及托藥安全管理.md](facility-types/disability-welfare/items/45-用藥及托藥安全管理.md) — 身心障礙福利機構 專45：用藥及托藥安全管理
+- [facility-types/disability-welfare/items/46-意外傷害或緊急事件處理情形.md](facility-types/disability-welfare/items/46-意外傷害或緊急事件處理情形.md) — 身心障礙福利機構 專46：意外傷害或緊急事件處理情形
+- [facility-types/disability-welfare/items/47-傳染病之預防與處理.md](facility-types/disability-welfare/items/47-傳染病之預防與處理.md) — 身心障礙福利機構 專47：傳染病之預防與處理
+- [facility-types/disability-welfare/items/48-社區資源管理與運用.md](facility-types/disability-welfare/items/48-社區資源管理與運用.md) — 身心障礙福利機構 專48：社區資源管理與運用
+- [facility-types/disability-welfare/items/49-家庭訪視與需求評估.md](facility-types/disability-welfare/items/49-家庭訪視與需求評估.md) — 身心障礙福利機構 專49：家庭訪視與需求評估
+- [facility-types/babycare/overview.md](facility-types/babycare/overview.md) — 產後護理之家，概覽，115年度產後護理之家評鑑基準
+- [facility-types/babycare/items/01-A1.1-專任人員配置情形.md](facility-types/babycare/items/01-A1.1-專任人員配置情形.md) — 產後護理之家 A1：A1.1 專任人員配置情形
+- [facility-types/babycare/items/02-A1.2-教育訓練及急救訓練.md](facility-types/babycare/items/02-A1.2-教育訓練及急救訓練.md) — 產後護理之家 A2：A1.2 教育訓練及急救訓練
+- [facility-types/babycare/items/03-A2.1-母嬰安全及感染管制.md](facility-types/babycare/items/03-A2.1-母嬰安全及感染管制.md) — 產後護理之家 A3：A2.1 母嬰安全及感染管制
+- [facility-types/babycare/items/04-A2.2-意外事件預防與處理.md](facility-types/babycare/items/04-A2.2-意外事件預防與處理.md) — 產後護理之家 A4：A2.2 意外事件預防與處理
+- [facility-types/babycare/items/05-A2.3-品質管理機制與監測.md](facility-types/babycare/items/05-A2.3-品質管理機制與監測.md) — 產後護理之家 A5：A2.3 品質管理機制與監測
+- [facility-types/babycare/items/06-B1.1-產婦照護.md](facility-types/babycare/items/06-B1.1-產婦照護.md) — 產後護理之家 B6：B1.1 產婦照護
+- [facility-types/babycare/items/07-B1.2-嬰兒照護.md](facility-types/babycare/items/07-B1.2-嬰兒照護.md) — 產後護理之家 B7：B1.2 嬰兒照護
+- [facility-types/babycare/items/08-B1.3-親子關係促進.md](facility-types/babycare/items/08-B1.3-親子關係促進.md) — 產後護理之家 B8：B1.3 親子關係促進
+- [facility-types/babycare/items/09-B1.4-團體衛教課程.md](facility-types/babycare/items/09-B1.4-團體衛教課程.md) — 產後護理之家 B9：B1.4 團體衛教課程
+- [facility-types/babycare/items/10-B1.5-出住院評估.md](facility-types/babycare/items/10-B1.5-出住院評估.md) — 產後護理之家 B10：B1.5 出住院評估
+- [facility-types/babycare/items/11-B1.6-緊急狀況處理.md](facility-types/babycare/items/11-B1.6-緊急狀況處理.md) — 產後護理之家 B11：B1.6 緊急狀況處理
+- [facility-types/babycare/items/12-B1.7-哺乳及餵食計畫.md](facility-types/babycare/items/12-B1.7-哺乳及餵食計畫.md) — 產後護理之家 B12：B1.7 哺乳及餵食計畫
+- [facility-types/babycare/items/13-B1.8-母乳收集與貯存.md](facility-types/babycare/items/13-B1.8-母乳收集與貯存.md) — 產後護理之家 B13：B1.8 母乳收集與貯存
+- [facility-types/babycare/items/14-C1-疏散避難系統.md](facility-types/babycare/items/14-C1-疏散避難系統.md) — 產後護理之家 C14：C1 疏散避難系統
+- [facility-types/babycare/items/15-C2-災害緊急應變.md](facility-types/babycare/items/15-C2-災害緊急應變.md) — 產後護理之家 C15：C2 災害緊急應變
+- [facility-types/babycare/items/16-D1-配合政策執行（加分）.md](facility-types/babycare/items/16-D1-配合政策執行（加分）.md) — 產後護理之家 D16：D1 配合政策執行（加分）
+- [facility-types/babycare/items/17-D2-重大異常情事（試評扣分）.md](facility-types/babycare/items/17-D2-重大異常情事（試評扣分）.md) — 產後護理之家 D17：D2 重大異常情事（試評扣分）
+- [facility-types/home-nursing/overview.md](facility-types/home-nursing/overview.md) — 居家護理所，概覽，115年度居家護理所評鑑基準
+- [facility-types/home-nursing/items/01-A1-社區資源盤點與運用.md](facility-types/home-nursing/items/01-A1-社區資源盤點與運用.md) — 居家護理所 A1：A1 社區資源盤點與運用
+- [facility-types/home-nursing/items/02-A2-感染管制作業與器材維護管理.md](facility-types/home-nursing/items/02-A2-感染管制作業與器材維護管理.md) — 居家護理所 A2：A2 感染管制作業與器材維護管理
+- [facility-types/home-nursing/items/03-A3-居家訪視人員安全管理.md](facility-types/home-nursing/items/03-A3-居家訪視人員安全管理.md) — 居家護理所 A3：A3 居家訪視人員安全管理
+- [facility-types/home-nursing/items/04-A4-個案緊急或意外事件處理.md](facility-types/home-nursing/items/04-A4-個案緊急或意外事件處理.md) — 居家護理所 A4：A4 個案緊急或意外事件處理
+- [facility-types/home-nursing/items/05-A5-機構經營指標監測與持續改善.md](facility-types/home-nursing/items/05-A5-機構經營指標監測與持續改善.md) — 居家護理所 A5：A5 機構經營指標監測與持續改善
+- [facility-types/home-nursing/items/06-B1-機構資訊管理.md](facility-types/home-nursing/items/06-B1-機構資訊管理.md) — 居家護理所 B6：B1 機構資訊管理
+- [facility-types/home-nursing/items/07-B2-個案照護管理.md](facility-types/home-nursing/items/07-B2-個案照護管理.md) — 居家護理所 B7：B2 個案照護管理
+- [facility-types/home-nursing/items/08-B3-加分項目.md](facility-types/home-nursing/items/08-B3-加分項目.md) — 居家護理所 B8：B3 加分項目
+- [facility-types/general-nursing-home/overview.md](facility-types/general-nursing-home/overview.md) — 一般護理之家，概覽，115年度一般護理之家評鑑基準
+- [facility-types/general-nursing-home/items/01-A1.1-機構負責人實際管理行政作業與照護品質.md](facility-types/general-nursing-home/items/01-A1.1-機構負責人實際管理行政作業與照護品質.md) — 一般護理之家 A1：A1.1 機構負責人實際管理行政作業與照護品質
+- [facility-types/general-nursing-home/items/02-A1.2-專任人員配置及急救訓練情形.md](facility-types/general-nursing-home/items/02-A1.2-專任人員配置及急救訓練情形.md) — 一般護理之家 A2：A1.2 專任人員配置及急救訓練情形
+- [facility-types/general-nursing-home/items/03-A1.3-意外或緊急事件處理流程及執行情形.md](facility-types/general-nursing-home/items/03-A1.3-意外或緊急事件處理流程及執行情形.md) — 一般護理之家 A3：A1.3 意外或緊急事件處理流程及執行情形
+- [facility-types/general-nursing-home/items/04-A2.1-防疫機制落實執行及檢討改善.md](facility-types/general-nursing-home/items/04-A2.1-防疫機制落實執行及檢討改善.md) — 一般護理之家 A4：A2.1 防疫機制落實執行及檢討改善
+- [facility-types/general-nursing-home/items/05-A2.2-推動安寧緩和療護及病人醫療自主權.md](facility-types/general-nursing-home/items/05-A2.2-推動安寧緩和療護及病人醫療自主權.md) — 一般護理之家 A5：A2.2 推動安寧緩和療護及病人醫療自主權
+- [facility-types/general-nursing-home/items/06-B1-住民服務需求評估及確實依評估結果執行照護計畫.md](facility-types/general-nursing-home/items/06-B1-住民服務需求評估及確實依評估結果執行照護計畫.md) — 一般護理之家 B6：B1 住民服務需求評估及確實依評估結果執行照護計畫
+- [facility-types/general-nursing-home/items/07-B2-提供住民整合性照顧並定期檢討執行成效.md](facility-types/general-nursing-home/items/07-B2-提供住民整合性照顧並定期檢討執行成效.md) — 一般護理之家 B7：B2 提供住民整合性照顧並定期檢討執行成效
+- [facility-types/general-nursing-home/items/08-B3-訂有品質監測指標並定期檢討執行成效.md](facility-types/general-nursing-home/items/08-B3-訂有品質監測指標並定期檢討執行成效.md) — 一般護理之家 B8：B3 訂有品質監測指標並定期檢討執行成效
+- [facility-types/general-nursing-home/items/09-C1-災害緊急應變計畫及作業程序符合機構及住民需要並落實演練.md](facility-types/general-nursing-home/items/09-C1-災害緊急應變計畫及作業程序符合機構及住民需要並落實演練.md) — 一般護理之家 C9：C1 災害緊急應變計畫及作業程序符合機構及住民需要並落實演練
+- [facility-types/general-nursing-home/items/10-C2-疏散避難系統及等待救援空間設置.md](facility-types/general-nursing-home/items/10-C2-疏散避難系統及等待救援空間設置.md) — 一般護理之家 C10：C2 疏散避難系統及等待救援空間設置
+- [facility-types/general-nursing-home/items/11-C3-疏散策略及持續照顧作業程序並落實教育訓練.md](facility-types/general-nursing-home/items/11-C3-疏散策略及持續照顧作業程序並落實教育訓練.md) — 一般護理之家 C11：C3 疏散策略及持續照顧作業程序並落實教育訓練
+- [facility-types/general-nursing-home/items/12-C4-情境式火災風險辨識與溝通並依情境實地抽測演練.md](facility-types/general-nursing-home/items/12-C4-情境式火災風險辨識與溝通並依情境實地抽測演練.md) — 一般護理之家 C12：C4 情境式火災風險辨識與溝通並依情境實地抽測演練
+- [facility-types/general-nursing-home/items/13-D1-創新或配合政策執行.md](facility-types/general-nursing-home/items/13-D1-創新或配合政策執行.md) — 一般護理之家 D13：D1 創新或配合政策執行
+- [facility-types/general-nursing-home/items/14-D2-強化住民口腔健康照護.md](facility-types/general-nursing-home/items/14-D2-強化住民口腔健康照護.md) — 一般護理之家 D14：D2 強化住民口腔健康照護
+- [facility-types/general-nursing-home/items/15-D3-其他重大異常情事（試評扣分項）.md](facility-types/general-nursing-home/items/15-D3-其他重大異常情事（試評扣分項）.md) — 一般護理之家 D15：D3 其他重大異常情事（試評扣分項）
+- [facility-types/youth-care/overview.md](facility-types/youth-care/overview.md) — 兒少安置機構，概覽，112年度兒童及少年安置機構評鑑指標
+- [facility-types/youth-care/items/01-董(理)事會功能與運作.md](facility-types/youth-care/items/01-董(理)事會功能與運作.md) — 兒少安置機構 管1：董(理)事會功能與運作
+- [facility-types/youth-care/items/02-機構行政組織架構與業務運作.md](facility-types/youth-care/items/02-機構行政組織架構與業務運作.md) — 兒少安置機構 管2：機構行政組織架構與業務運作
+- [facility-types/youth-care/items/03-員工手冊及人事制度.md](facility-types/youth-care/items/03-員工手冊及人事制度.md) — 兒少安置機構 管3：員工手冊及人事制度
+- [facility-types/youth-care/items/04-人員資格與人數.md](facility-types/youth-care/items/04-人員資格與人數.md) — 兒少安置機構 管4：人員資格與人數
+- [facility-types/youth-care/items/05-訓練進修.md](facility-types/youth-care/items/05-訓練進修.md) — 兒少安置機構 管5：訓練進修
+- [facility-types/youth-care/items/06-勞動條件.md](facility-types/youth-care/items/06-勞動條件.md) — 兒少安置機構 管6：勞動條件
+- [facility-types/youth-care/items/07-整體環境衛生.md](facility-types/youth-care/items/07-整體環境衛生.md) — 兒少安置機構 環7：整體環境衛生
+- [facility-types/youth-care/items/08-機構環境配置.md](facility-types/youth-care/items/08-機構環境配置.md) — 兒少安置機構 環8：機構環境配置
+- [facility-types/youth-care/items/09-醫療保健設施.md](facility-types/youth-care/items/09-醫療保健設施.md) — 兒少安置機構 環9：醫療保健設施
+- [facility-types/youth-care/items/10-食物冷凍(藏)設備及儲存空間.md](facility-types/youth-care/items/10-食物冷凍(藏)設備及儲存空間.md) — 兒少安置機構 環10：食物冷凍(藏)設備及儲存空間
+- [facility-types/youth-care/items/11-公共安全.md](facility-types/youth-care/items/11-公共安全.md) — 兒少安置機構 環11：公共安全
+- [facility-types/youth-care/items/12-危機事故預防及處理.md](facility-types/youth-care/items/12-危機事故預防及處理.md) — 兒少安置機構 環12：危機事故預防及處理
+- [facility-types/youth-care/items/13-飲食及環境衛生.md](facility-types/youth-care/items/13-飲食及環境衛生.md) — 兒少安置機構 環13：飲食及環境衛生
+- [facility-types/youth-care/items/14-健康與醫療.md](facility-types/youth-care/items/14-健康與醫療.md) — 兒少安置機構 環14：健康與醫療
+- [facility-types/youth-care/items/15-個案紀錄與交班紀錄.md](facility-types/youth-care/items/15-個案紀錄與交班紀錄.md) — 兒少安置機構 專15：個案紀錄與交班紀錄
+- [facility-types/youth-care/items/16-兒童少年輔導目標之達成.md](facility-types/youth-care/items/16-兒童少年輔導目標之達成.md) — 兒少安置機構 專16：兒童少年輔導目標之達成
+- [facility-types/youth-care/items/17-入院協助與適應【適用安置2歲以下兒童】.md](facility-types/youth-care/items/17-入院協助與適應【適用安置2歲以下兒童】.md) — 兒少安置機構 專17：入院協助與適應【適用安置2歲以下兒童】
+- [facility-types/youth-care/items/18-在院生活輔導【適用安置2歲以下兒童】.md](facility-types/youth-care/items/18-在院生活輔導【適用安置2歲以下兒童】.md) — 兒少安置機構 專18：在院生活輔導【適用安置2歲以下兒童】
+- [facility-types/youth-care/items/19-離院協助與準備【適用安置2歲以下兒童】.md](facility-types/youth-care/items/19-離院協助與準備【適用安置2歲以下兒童】.md) — 兒少安置機構 專19：離院協助與準備【適用安置2歲以下兒童】
+- [facility-types/youth-care/items/20-直接服務【適用安置2歲以下兒童】.md](facility-types/youth-care/items/20-直接服務【適用安置2歲以下兒童】.md) — 兒少安置機構 專20：直接服務【適用安置2歲以下兒童】
+- [facility-types/youth-care/items/21-入院協助與適應【適用安置未滿2歲以上18歲以下兒童及少年】.md](facility-types/youth-care/items/21-入院協助與適應【適用安置未滿2歲以上18歲以下兒童及少年】.md) — 兒少安置機構 專21：入院協助與適應【適用安置未滿2歲以上18歲以下兒童及少年】
+- [facility-types/youth-care/items/22-在院生活輔導【適用安置未滿2歲以上18歲以下兒童及少年】.md](facility-types/youth-care/items/22-在院生活輔導【適用安置未滿2歲以上18歲以下兒童及少年】.md) — 兒少安置機構 專22：在院生活輔導【適用安置未滿2歲以上18歲以下兒童及少年】
+- [facility-types/youth-care/items/23-離院協助與準備【適用安置未滿2歲以上18歲以下兒童及少年】.md](facility-types/youth-care/items/23-離院協助與準備【適用安置未滿2歲以上18歲以下兒童及少年】.md) — 兒少安置機構 專23：離院協助與準備【適用安置未滿2歲以上18歲以下兒童及少年】
+- [facility-types/youth-care/items/24-直接服務【適用安置未滿2歲以上18歲以下兒童及少年】.md](facility-types/youth-care/items/24-直接服務【適用安置未滿2歲以上18歲以下兒童及少年】.md) — 兒少安置機構 專24：直接服務【適用安置未滿2歲以上18歲以下兒童及少年】
+- [facility-types/youth-care/items/25-申訴制度與權益保障.md](facility-types/youth-care/items/25-申訴制度與權益保障.md) — 兒少安置機構 專25：申訴制度與權益保障
+- [facility-types/youth-care/items/26-資源結合與運用.md](facility-types/youth-care/items/26-資源結合與運用.md) — 兒少安置機構 專26：資源結合與運用
+- [facility-types/youth-care/items/27-服務（含方案）評估.md](facility-types/youth-care/items/27-服務（含方案）評估.md) — 兒少安置機構 專27：服務（含方案）評估
+- [facility-types/youth-care/items/28-專業成長.md](facility-types/youth-care/items/28-專業成長.md) — 兒少安置機構 專28：專業成長
+- [facility-types/youth-care/items/29-財務管理.md](facility-types/youth-care/items/29-財務管理.md) — 兒少安置機構 財29：財務管理
+- [facility-types/youth-care/items/30-違反兒少法相關情事（最高扣10分）.md](facility-types/youth-care/items/30-違反兒少法相關情事（最高扣10分）.md) — 兒少安置機構 特30：違反兒少法相關情事（最高扣10分）
+- [facility-types/youth-care/items/31-機構收容個案樣態多元（最高+4分）.md](facility-types/youth-care/items/31-機構收容個案樣態多元（最高+4分）.md) — 兒少安置機構 特31：機構收容個案樣態多元（最高+4分）
+- [facility-types/youth-care/items/32-推動安置兒童少年服務學習及志願服務（最高+1分）.md](facility-types/youth-care/items/32-推動安置兒童少年服務學習及志願服務（最高+1分）.md) — 兒少安置機構 特32：推動安置兒童少年服務學習及志願服務（最高+1分）
+- [facility-types/youth-care/items/33-社工薪資符合衛福部標準（最高+1分）.md](facility-types/youth-care/items/33-社工薪資符合衛福部標準（最高+1分）.md) — 兒少安置機構 特33：社工薪資符合衛福部標準（最高+1分）
+- [facility-types/youth-care/items/34-因應COVID-19疫情防疫措施（最高+3分）.md](facility-types/youth-care/items/34-因應COVID-19疫情防疫措施（最高+3分）.md) — 兒少安置機構 特34：因應COVID-19疫情防疫措施（最高+3分）
+- [facility-types/youth-care/items/35-其他創新服務（最高+1分）.md](facility-types/youth-care/items/35-其他創新服務（最高+1分）.md) — 兒少安置機構 特35：其他創新服務（最高+1分）
+- [facility-types/elderly-welfare/overview.md](facility-types/elderly-welfare/overview.md) — 老人福利機構，概覽，115年度老人福利機構評鑑指標
+- [facility-types/elderly-welfare/items/01-A1.-工作人員權益相關制度訂定及執行情形.md](facility-types/elderly-welfare/items/01-A1.-工作人員權益相關制度訂定及執行情形.md) — 老人福利機構 管1：A1. 工作人員權益相關制度訂定及執行情形
+- [facility-types/elderly-welfare/items/02-A2.-入出機構之管理（二級加強）.md](facility-types/elderly-welfare/items/02-A2.-入出機構之管理（二級加強）.md) — 老人福利機構 管2：A2. 入出機構之管理（二級加強）
+- [facility-types/elderly-welfare/items/03-A3.-業務計畫及營運（或政策）方針之擬訂與執行情形.md](facility-types/elderly-welfare/items/03-A3.-業務計畫及營運（或政策）方針之擬訂與執行情形.md) — 老人福利機構 管3：A3. 業務計畫及營運（或政策）方針之擬訂與執行情形
+- [facility-types/elderly-welfare/items/04-A4.-過去4年接受目的事業主管機關查核缺失改善情形（二級加強）.md](facility-types/elderly-welfare/items/04-A4.-過去4年接受目的事業主管機關查核缺失改善情形（二級加強）.md) — 老人福利機構 管4：A4. 過去4年接受目的事業主管機關查核缺失改善情形（二級加強）
+- [facility-types/elderly-welfare/items/05-A5.-機構內住民保護、性侵害及性騷擾事件防治機制建置情形.md](facility-types/elderly-welfare/items/05-A5.-機構內住民保護、性侵害及性騷擾事件防治機制建置情形.md) — 老人福利機構 管5：A5. 機構內住民保護、性侵害及性騷擾事件防治機制建置情形
+- [facility-types/elderly-welfare/items/06-A6.-危機或緊急事件風險管理情形.md](facility-types/elderly-welfare/items/06-A6.-危機或緊急事件風險管理情形.md) — 老人福利機構 管6：A6. 危機或緊急事件風險管理情形
+- [facility-types/elderly-welfare/items/07-A7.-業務負責人實際參與行政作業與照護品質管理情形.md](facility-types/elderly-welfare/items/07-A7.-業務負責人實際參與行政作業與照護品質管理情形.md) — 老人福利機構 管7：A7. 業務負責人實際參與行政作業與照護品質管理情形
+- [facility-types/elderly-welfare/items/08-A8.-社會工作人員設置情形.md](facility-types/elderly-welfare/items/08-A8.-社會工作人員設置情形.md) — 老人福利機構 管8：A8. 社會工作人員設置情形
+- [facility-types/elderly-welfare/items/09-A9.-護理人員設置情形.md](facility-types/elderly-welfare/items/09-A9.-護理人員設置情形.md) — 老人福利機構 管9：A9. 護理人員設置情形
+- [facility-types/elderly-welfare/items/10-A10.-兼任（特約）專業人員設置情形.md](facility-types/elderly-welfare/items/10-A10.-兼任（特約）專業人員設置情形.md) — 老人福利機構 管10：A10. 兼任（特約）專業人員設置情形
+- [facility-types/elderly-welfare/items/11-A11.-照顧服務員設置情形.md](facility-types/elderly-welfare/items/11-A11.-照顧服務員設置情形.md) — 老人福利機構 管11：A11. 照顧服務員設置情形
+- [facility-types/elderly-welfare/items/12-A12.-工作人員勞動條件符合法令情形.md](facility-types/elderly-welfare/items/12-A12.-工作人員勞動條件符合法令情形.md) — 老人福利機構 管12：A12. 工作人員勞動條件符合法令情形
+- [facility-types/elderly-welfare/items/13-A13.-新進工作人員職前訓練情形.md](facility-types/elderly-welfare/items/13-A13.-新進工作人員職前訓練情形.md) — 老人福利機構 管13：A13. 新進工作人員職前訓練情形
+- [facility-types/elderly-welfare/items/14-A14.-在職教育訓練計畫訂定及辦理情形.md](facility-types/elderly-welfare/items/14-A14.-在職教育訓練計畫訂定及辦理情形.md) — 老人福利機構 管14：A14. 在職教育訓練計畫訂定及辦理情形
+- [facility-types/elderly-welfare/items/15-A15.-廚工及供膳人員領照及接受教育訓練情形.md](facility-types/elderly-welfare/items/15-A15.-廚工及供膳人員領照及接受教育訓練情形.md) — 老人福利機構 管15：A15. 廚工及供膳人員領照及接受教育訓練情形
+- [facility-types/elderly-welfare/items/16-B1.-定期召開服務品質會議及其辦理情形.md](facility-types/elderly-welfare/items/16-B1.-定期召開服務品質會議及其辦理情形.md) — 老人福利機構 專16：B1. 定期召開服務品質會議及其辦理情形
+- [facility-types/elderly-welfare/items/17-B2.-個案服務計畫與評估及管理情形（二級加強）.md](facility-types/elderly-welfare/items/17-B2.-個案服務計畫與評估及管理情形（二級加強）.md) — 老人福利機構 專17：B2. 個案服務計畫與評估及管理情形（二級加強）
+- [facility-types/elderly-welfare/items/18-B3.-機構資訊化建置及管理情形.md](facility-types/elderly-welfare/items/18-B3.-機構資訊化建置及管理情形.md) — 老人福利機構 專18：B3. 機構資訊化建置及管理情形
+- [facility-types/elderly-welfare/items/19-B4.-服務對象適應輔導或支持措施.md](facility-types/elderly-welfare/items/19-B4.-服務對象適應輔導或支持措施.md) — 老人福利機構 專19：B4. 服務對象適應輔導或支持措施
+- [facility-types/elderly-welfare/items/20-B5.-跨專業整合照護執行情形.md](facility-types/elderly-welfare/items/20-B5.-跨專業整合照護執行情形.md) — 老人福利機構 專20：B5. 跨專業整合照護執行情形
+- [facility-types/elderly-welfare/items/21-B6.-服務對象團體或社區活動辦理情形.md](facility-types/elderly-welfare/items/21-B6.-服務對象團體或社區活動辦理情形.md) — 老人福利機構 專21：B6. 服務對象團體或社區活動辦理情形
+- [facility-types/elderly-welfare/items/22-B7.-社區資源聯結及運用情形.md](facility-types/elderly-welfare/items/22-B7.-社區資源聯結及運用情形.md) — 老人福利機構 專22：B7. 社區資源聯結及運用情形
+- [facility-types/elderly-welfare/items/23-B8.-與家屬互動及提供服務情形.md](facility-types/elderly-welfare/items/23-B8.-與家屬互動及提供服務情形.md) — 老人福利機構 專23：B8. 與家屬互動及提供服務情形
+- [facility-types/elderly-welfare/items/24-B9.-提供服務對象例行及必要之醫療服務情形.md](facility-types/elderly-welfare/items/24-B9.-提供服務對象例行及必要之醫療服務情形.md) — 老人福利機構 專24：B9. 提供服務對象例行及必要之醫療服務情形
+- [facility-types/elderly-welfare/items/25-B10.-防疫機制建置情形（二級加強）.md](facility-types/elderly-welfare/items/25-B10.-防疫機制建置情形（二級加強）.md) — 老人福利機構 專25：B10. 防疫機制建置情形（二級加強）
+- [facility-types/elderly-welfare/items/26-B11.-服務對象處方藥品安全管理情形.md](facility-types/elderly-welfare/items/26-B11.-服務對象處方藥品安全管理情形.md) — 老人福利機構 專26：B11. 服務對象處方藥品安全管理情形
+- [facility-types/elderly-welfare/items/27-B12.-提供服務對象藥事服務情形.md](facility-types/elderly-welfare/items/27-B12.-提供服務對象藥事服務情形.md) — 老人福利機構 專27：B12. 提供服務對象藥事服務情形
+- [facility-types/elderly-welfare/items/28-B13.-服務對象跌倒預防、處理及監測情形.md](facility-types/elderly-welfare/items/28-B13.-服務對象跌倒預防、處理及監測情形.md) — 老人福利機構 專28：B13. 服務對象跌倒預防、處理及監測情形
+- [facility-types/elderly-welfare/items/29-B14.-服務對象壓力性損傷預防、處理及監測情形.md](facility-types/elderly-welfare/items/29-B14.-服務對象壓力性損傷預防、處理及監測情形.md) — 老人福利機構 專29：B14. 服務對象壓力性損傷預防、處理及監測情形
+- [facility-types/elderly-welfare/items/30-B15.-服務對象疼痛偵測與處理情形.md](facility-types/elderly-welfare/items/30-B15.-服務對象疼痛偵測與處理情形.md) — 老人福利機構 專30：B15. 服務對象疼痛偵測與處理情形
+- [facility-types/elderly-welfare/items/31-B16.-服務對象約束處理及監測情形.md](facility-types/elderly-welfare/items/31-B16.-服務對象約束處理及監測情形.md) — 老人福利機構 專31：B16. 服務對象約束處理及監測情形
+- [facility-types/elderly-welfare/items/32-B17.-服務對象感染預防、處理及監測情形.md](facility-types/elderly-welfare/items/32-B17.-服務對象感染預防、處理及監測情形.md) — 老人福利機構 專32：B17. 服務對象感染預防、處理及監測情形
+- [facility-types/elderly-welfare/items/33-B18.-服務對象非計畫性住院處理及監測情形.md](facility-types/elderly-welfare/items/33-B18.-服務對象非計畫性住院處理及監測情形.md) — 老人福利機構 專33：B18. 服務對象非計畫性住院處理及監測情形
+- [facility-types/elderly-welfare/items/34-B19.-服務對象非計畫性體重改變處理及監測情形.md](facility-types/elderly-welfare/items/34-B19.-服務對象非計畫性體重改變處理及監測情形.md) — 老人福利機構 專34：B19. 服務對象非計畫性體重改變處理及監測情形
+- [facility-types/elderly-welfare/items/35-B20.-提供管路移除（鼻胃管及導尿管等）之增進照護計畫及執行情形.md](facility-types/elderly-welfare/items/35-B20.-提供管路移除（鼻胃管及導尿管等）之增進照護計畫及執行情形.md) — 老人福利機構 專35：B20. 提供管路移除（鼻胃管及導尿管等）之增進照護計畫及執行情形
+- [facility-types/elderly-welfare/items/36-B21.-工作人員及服務對象定期健康檢查及健康管理情形.md](facility-types/elderly-welfare/items/36-B21.-工作人員及服務對象定期健康檢查及健康管理情形.md) — 老人福利機構 專36：B21. 工作人員及服務對象定期健康檢查及健康管理情形
+- [facility-types/elderly-welfare/items/37-B22.-侵入性照護之執行情形.md](facility-types/elderly-welfare/items/37-B22.-侵入性照護之執行情形.md) — 老人福利機構 專37：B22. 侵入性照護之執行情形
+- [facility-types/elderly-welfare/items/38-B23.-提供緊急送醫服務情形.md](facility-types/elderly-welfare/items/38-B23.-提供緊急送醫服務情形.md) — 老人福利機構 專38：B23. 提供緊急送醫服務情形
+- [facility-types/elderly-welfare/items/39-B24.-服務對象及工作人員接受疫苗注射情形.md](facility-types/elderly-welfare/items/39-B24.-服務對象及工作人員接受疫苗注射情形.md) — 老人福利機構 專39：B24. 服務對象及工作人員接受疫苗注射情形
+- [facility-types/elderly-welfare/items/40-B25.-提供服務對象日常活動情形.md](facility-types/elderly-welfare/items/40-B25.-提供服務對象日常活動情形.md) — 老人福利機構 專40：B25. 提供服務對象日常活動情形
+- [facility-types/elderly-welfare/items/41-B26.-提供服務對象清潔（含身體、寢具及衣物）及翻身拍背服務情形.md](facility-types/elderly-welfare/items/41-B26.-提供服務對象清潔（含身體、寢具及衣物）及翻身拍背服務情形.md) — 老人福利機構 專41：B26. 提供服務對象清潔（含身體、寢具及衣物）及翻身拍背服務情形
+- [facility-types/elderly-welfare/items/42-B27.-提升服務對象自我照顧能力之促進及相關輔具運用情形.md](facility-types/elderly-welfare/items/42-B27.-提升服務對象自我照顧能力之促進及相關輔具運用情形.md) — 老人福利機構 專42：B27. 提升服務對象自我照顧能力之促進及相關輔具運用情形
+- [facility-types/elderly-welfare/items/43-B28.-服務對象膳食及菜單擬定情形.md](facility-types/elderly-welfare/items/43-B28.-服務對象膳食及菜單擬定情形.md) — 老人福利機構 專43：B28. 服務對象膳食及菜單擬定情形
+- [facility-types/elderly-welfare/items/44-B29.-提供個別化飲食情形.md](facility-types/elderly-welfare/items/44-B29.-提供個別化飲食情形.md) — 老人福利機構 專44：B29. 提供個別化飲食情形
+- [facility-types/elderly-welfare/items/45-B30.-依服務對象個別需要提供適宜餐具及容器情形.md](facility-types/elderly-welfare/items/45-B30.-依服務對象個別需要提供適宜餐具及容器情形.md) — 老人福利機構 專45：B30. 依服務對象個別需要提供適宜餐具及容器情形
+- [facility-types/elderly-welfare/items/46-B31.-管灌服務對象餵食情形.md](facility-types/elderly-welfare/items/46-B31.-管灌服務對象餵食情形.md) — 老人福利機構 專46：B31. 管灌服務對象餵食情形
+- [facility-types/elderly-welfare/items/47-C1.-公共空間及寢室空間採光、照明及通風設備情形.md](facility-types/elderly-welfare/items/47-C1.-公共空間及寢室空間採光、照明及通風設備情形.md) — 老人福利機構 安47：C1. 公共空間及寢室空間採光、照明及通風設備情形
+- [facility-types/elderly-welfare/items/48-C2.-儲藏設施設置情形.md](facility-types/elderly-welfare/items/48-C2.-儲藏設施設置情形.md) — 老人福利機構 安48：C2. 儲藏設施設置情形
+- [facility-types/elderly-welfare/items/49-C3.-日常活動空間（如餐廳、閱覽區、活動區、會客區）及設施、設備設置情形.md](facility-types/elderly-welfare/items/49-C3.-日常活動空間（如餐廳、閱覽區、活動區、會客區）及設施、設備設置情形.md) — 老人福利機構 安49：C3. 日常活動空間（如餐廳、閱覽區、活動區、會客區）及設施、設備設置情形
+- [facility-types/elderly-welfare/items/50-C4.-寢室及浴廁緊急呼叫系統設置情形（一級必要）.md](facility-types/elderly-welfare/items/50-C4.-寢室及浴廁緊急呼叫系統設置情形（一級必要）.md) — 老人福利機構 安50：C4. 寢室及浴廁緊急呼叫系統設置情形（一級必要）
+- [facility-types/elderly-welfare/items/51-C5.-昇降機（電梯）設置情形（二級加強）.md](facility-types/elderly-welfare/items/51-C5.-昇降機（電梯）設置情形（二級加強）.md) — 老人福利機構 安51：C5. 昇降機（電梯）設置情形（二級加強）
+- [facility-types/elderly-welfare/items/52-C6.-無障礙浴廁及洗澡設備之設置與使用情形（二級加強）.md](facility-types/elderly-welfare/items/52-C6.-無障礙浴廁及洗澡設備之設置與使用情形（二級加強）.md) — 老人福利機構 安52：C6. 無障礙浴廁及洗澡設備之設置與使用情形（二級加強）
+- [facility-types/elderly-welfare/items/53-C7.-餐廳、廚房之設施設備與環境清潔衛生情形（二級加強）.md](facility-types/elderly-welfare/items/53-C7.-餐廳、廚房之設施設備與環境清潔衛生情形（二級加強）.md) — 老人福利機構 安53：C7. 餐廳、廚房之設施設備與環境清潔衛生情形（二級加強）
+- [facility-types/elderly-welfare/items/54-C8.-污物、事業廢棄物處理及環境病媒、蟲鼠防治情形.md](facility-types/elderly-welfare/items/54-C8.-污物、事業廢棄物處理及環境病媒、蟲鼠防治情形.md) — 老人福利機構 安54：C8. 污物、事業廢棄物處理及環境病媒、蟲鼠防治情形
+- [facility-types/elderly-welfare/items/55-C9.-機構房舍與設施建築物防火避難設施與設備安全查驗及消防安全設備置、檢修及防火管理情形（一級必要）.md](facility-types/elderly-welfare/items/55-C9.-機構房舍與設施建築物防火避難設施與設備安全查驗及消防安全設備置、檢修及防火管理情形（一級必要）.md) — 老人福利機構 安55：C9. 機構房舍與設施建築物防火避難設施與設備安全查驗及消防安全設備置、檢修及防火管理情形（一級必要）
+- [facility-types/elderly-welfare/items/56-C10.-疏散避難系統及等待救接空間設置（一級必要）.md](facility-types/elderly-welfare/items/56-C10.-疏散避難系統及等待救接空間設置（一級必要）.md) — 老人福利機構 安56：C10. 疏散避難系統及等待救接空間設置（一級必要）
+- [facility-types/elderly-welfare/items/57-C11.-訂定符合機構特性及需要之緊急災害應變計畫（一級必要）.md](facility-types/elderly-welfare/items/57-C11.-訂定符合機構特性及需要之緊急災害應變計畫（一級必要）.md) — 老人福利機構 安57：C11. 訂定符合機構特性及需要之緊急災害應變計畫（一級必要）
+- [facility-types/elderly-welfare/items/58-C12.-訂定符合機構住民之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力（一級必要）.md](facility-types/elderly-welfare/items/58-C12.-訂定符合機構住民之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力（一級必要）.md) — 老人福利機構 安58：C12. 訂定符合機構住民之疏散策略及持續照顧作業程序，並落實照顧人力之緊急應變能力（一級必要）
+- [facility-types/elderly-welfare/items/59-C13.-隔離空間設置及使用情形.md](facility-types/elderly-welfare/items/59-C13.-隔離空間設置及使用情形.md) — 老人福利機構 安59：C13. 隔離空間設置及使用情形
+- [facility-types/elderly-welfare/items/60-C14.-設備、儀器維護及辦理人員操作訓練情形.md](facility-types/elderly-welfare/items/60-C14.-設備、儀器維護及辦理人員操作訓練情形.md) — 老人福利機構 安60：C14. 設備、儀器維護及辦理人員操作訓練情形
+- [facility-types/elderly-welfare/items/61-C15.-護理站設施設備設置情形（一級必要）.md](facility-types/elderly-welfare/items/61-C15.-護理站設施設備設置情形（一級必要）.md) — 老人福利機構 安61：C15. 護理站設施設備設置情形（一級必要）
+- [facility-types/elderly-welfare/items/62-C16.-機構飲用供水設備安全及清潔情形（二級加強）.md](facility-types/elderly-welfare/items/62-C16.-機構飲用供水設備安全及清潔情形（二級加強）.md) — 老人福利機構 安62：C16. 機構飲用供水設備安全及清潔情形（二級加強）
+- [facility-types/elderly-welfare/items/63-D1.-服務對象個案資料管理、統計分析與應用及保密情形（二級加強）.md](facility-types/elderly-welfare/items/63-D1.-服務對象個案資料管理、統計分析與應用及保密情形（二級加強）.md) — 老人福利機構 權63：D1. 服務對象個案資料管理、統計分析與應用及保密情形（二級加強）
+- [facility-types/elderly-welfare/items/64-D2.-與入住委託人訂立契約情形.md](facility-types/elderly-welfare/items/64-D2.-與入住委託人訂立契約情形.md) — 老人福利機構 權64：D2. 與入住委託人訂立契約情形
+- [facility-types/elderly-welfare/items/65-D3.-服務對象生活注意事項及家屬來訪注意事項訂定情形.md](facility-types/elderly-welfare/items/65-D3.-服務對象生活注意事項及家屬來訪注意事項訂定情形.md) — 老人福利機構 權65：D3. 服務對象生活注意事項及家屬來訪注意事項訂定情形
+- [facility-types/elderly-welfare/items/66-D4.-服務對象或家屬申訴意見反應辦理情形.md](facility-types/elderly-welfare/items/66-D4.-服務對象或家屬申訴意見反應辦理情形.md) — 老人福利機構 權66：D4. 服務對象或家屬申訴意見反應辦理情形
+- [facility-types/elderly-welfare/items/67-D5.-尊重服務對象信仰情形.md](facility-types/elderly-welfare/items/67-D5.-尊重服務對象信仰情形.md) — 老人福利機構 權67：D5. 尊重服務對象信仰情形
+- [facility-types/elderly-welfare/items/68-D6.-住民隱私及居家布置情形（二級加強）.md](facility-types/elderly-welfare/items/68-D6.-住民隱私及居家布置情形（二級加強）.md) — 老人福利機構 權68：D6. 住民隱私及居家布置情形（二級加強）
+- [facility-types/elderly-welfare/items/69-D7.-服務對象財物管理及死亡遺產處理辦法情形.md](facility-types/elderly-welfare/items/69-D7.-服務對象財物管理及死亡遺產處理辦法情形.md) — 老人福利機構 權69：D7. 服務對象財物管理及死亡遺產處理辦法情形
+- [facility-types/elderly-welfare/items/70-D8.-提供緩和醫療及臨終照護措施.md](facility-types/elderly-welfare/items/70-D8.-提供緩和醫療及臨終照護措施.md) — 老人福利機構 權70：D8. 提供緩和醫療及臨終照護措施
+- [facility-types/elderly-welfare/items/71-D9.-辦理服務滿意度調查情形.md](facility-types/elderly-welfare/items/71-D9.-辦理服務滿意度調查情形.md) — 老人福利機構 權71：D9. 辦理服務滿意度調查情形
+- [facility-types/elderly-welfare/items/72-E1.-前次評鑑建議事項改善情形.md](facility-types/elderly-welfare/items/72-E1.-前次評鑑建議事項改善情形.md) — 老人福利機構 創72：E1. 前次評鑑建議事項改善情形
+- [facility-types/elderly-welfare/items/73-E2.-創新或配合政策執行（加分項）.md](facility-types/elderly-welfare/items/73-E2.-創新或配合政策執行（加分項）.md) — 老人福利機構 創73：E2. 創新或配合政策執行（加分項）
+- [facility-types/elderly-welfare/items/74-E3.-評鑑期間之違規及重大負面事件紀錄（扣分）.md](facility-types/elderly-welfare/items/74-E3.-評鑑期間之違規及重大負面事件紀錄（扣分）.md) — 老人福利機構 創74：E3. 評鑑期間之違規及重大負面事件紀錄（扣分）
+- [facility-types/elderly-welfare/items/75-F1.-訂有住民牙科診療機制（1分）.md](facility-types/elderly-welfare/items/75-F1.-訂有住民牙科診療機制（1分）.md) — 老人福利機構 加75：F1. 訂有住民牙科診療機制（1分）
+- [facility-types/elderly-welfare/items/76-F2.-加入倡導人間懷服務（0.5分）.md](facility-types/elderly-welfare/items/76-F2.-加入倡導人間懷服務（0.5分）.md) — 老人福利機構 加76：F2. 加入倡導人間懷服務（0.5分）
+- [facility-types/elderly-welfare/items/77-F3.-提供視（聽）覺障礙者逃生資訊（0.5分）.md](facility-types/elderly-welfare/items/77-F3.-提供視（聽）覺障礙者逃生資訊（0.5分）.md) — 老人福利機構 加77：F3. 提供視（聽）覺障礙者逃生資訊（0.5分）
+- [facility-types/psychiatric-nursing-home/overview.md](facility-types/psychiatric-nursing-home/overview.md) — 精神護理之家，概覽，115年度精神護理之家評鑑基準
+- [facility-types/psychiatric-nursing-home/items/01-A1.1-業務計畫及管運方針之擬訂與執行情形.md](facility-types/psychiatric-nursing-home/items/01-A1.1-業務計畫及管運方針之擬訂與執行情形.md) — 精神護理之家 A1：A1.1 業務計畫及管運方針之擬訂與執行情形
+- [facility-types/psychiatric-nursing-home/items/02-A1.2-過去四年接受主管機關查核缺失改善及前次評鑑建議事項改善情形.md](facility-types/psychiatric-nursing-home/items/02-A1.2-過去四年接受主管機關查核缺失改善及前次評鑑建議事項改善情形.md) — 精神護理之家 A2：A1.2 過去四年接受主管機關查核缺失改善及前次評鑑建議事項改善情形
+- [facility-types/psychiatric-nursing-home/items/03-A1.3-機構內性侵害及性騷擾事件防治機制建置情形.md](facility-types/psychiatric-nursing-home/items/03-A1.3-機構內性侵害及性騷擾事件防治機制建置情形.md) — 精神護理之家 A3：A1.3 機構內性侵害及性騷擾事件防治機制建置情形
+- [facility-types/psychiatric-nursing-home/items/04-A2.1-機構負責人實際參與行政作業與照顧品質管理情形.md](facility-types/psychiatric-nursing-home/items/04-A2.1-機構負責人實際參與行政作業與照顧品質管理情形.md) — 精神護理之家 A4：A2.1 機構負責人實際參與行政作業與照顧品質管理情形
+- [facility-types/psychiatric-nursing-home/items/05-A2.2-聘用工作人員（含專任、兼任人員）設置情形.md](facility-types/psychiatric-nursing-home/items/05-A2.2-聘用工作人員（含專任、兼任人員）設置情形.md) — 精神護理之家 A5：A2.2 聘用工作人員（含專任、兼任人員）設置情形
+- [facility-types/psychiatric-nursing-home/items/06-A3.1-工作人員權益相關制度訂定及執行情形.md](facility-types/psychiatric-nursing-home/items/06-A3.1-工作人員權益相關制度訂定及執行情形.md) — 精神護理之家 A6：A3.1 工作人員權益相關制度訂定及執行情形
+- [facility-types/psychiatric-nursing-home/items/07-A3.2-工作人員定期接受健康檢查情形.md](facility-types/psychiatric-nursing-home/items/07-A3.2-工作人員定期接受健康檢查情形.md) — 精神護理之家 A7：A3.2 工作人員定期接受健康檢查情形
+- [facility-types/psychiatric-nursing-home/items/08-A4.1-工作人員（含廚工）職前及在職訓練計畫訂定及辦理情形.md](facility-types/psychiatric-nursing-home/items/08-A4.1-工作人員（含廚工）職前及在職訓練計畫訂定及辦理情形.md) — 精神護理之家 A8：A4.1 工作人員（含廚工）職前及在職訓練計畫訂定及辦理情形
+- [facility-types/psychiatric-nursing-home/items/09-A5.1-住民資料管理、統計分析與應用及保密情形.md](facility-types/psychiatric-nursing-home/items/09-A5.1-住民資料管理、統計分析與應用及保密情形.md) — 精神護理之家 A9：A5.1 住民資料管理、統計分析與應用及保密情形
+- [facility-types/psychiatric-nursing-home/items/10-B1.1-住民服務計畫與評估及管理（含營養評估及紀錄）情形.md](facility-types/psychiatric-nursing-home/items/10-B1.1-住民服務計畫與評估及管理（含營養評估及紀錄）情形.md) — 精神護理之家 B10：B1.1 住民服務計畫與評估及管理（含營養評估及紀錄）情形
+- [facility-types/psychiatric-nursing-home/items/11-B1.2-住民適應輔導或支持措施.md](facility-types/psychiatric-nursing-home/items/11-B1.2-住民適應輔導或支持措施.md) — 精神護理之家 B11：B1.2 住民適應輔導或支持措施
+- [facility-types/psychiatric-nursing-home/items/12-B1.3-防疫機制建置情形.md](facility-types/psychiatric-nursing-home/items/12-B1.3-防疫機制建置情形.md) — 精神護理之家 B12：B1.3 防疫機制建置情形
+- [facility-types/psychiatric-nursing-home/items/13-B1.4-跨專業整合照護執行情形.md](facility-types/psychiatric-nursing-home/items/13-B1.4-跨專業整合照護執行情形.md) — 精神護理之家 B13：B1.4 跨專業整合照護執行情形
+- [facility-types/psychiatric-nursing-home/items/14-B1.5-提供住民例行及必要之醫療服務情形.md](facility-types/psychiatric-nursing-home/items/14-B1.5-提供住民例行及必要之醫療服務情形.md) — 精神護理之家 B14：B1.5 提供住民例行及必要之醫療服務情形
+- [facility-types/psychiatric-nursing-home/items/15-B1.6-提供住民處方藥品安全管理與藥事服務情形.md](facility-types/psychiatric-nursing-home/items/15-B1.6-提供住民處方藥品安全管理與藥事服務情形.md) — 精神護理之家 B15：B1.6 提供住民處方藥品安全管理與藥事服務情形
+- [facility-types/psychiatric-nursing-home/items/16-B1.7-住民照護服務品質監測情形.md](facility-types/psychiatric-nursing-home/items/16-B1.7-住民照護服務品質監測情形.md) — 精神護理之家 B16：B1.7 住民照護服務品質監測情形
+- [facility-types/psychiatric-nursing-home/items/17-B1.8-住民健康檢查及健康管理情形.md](facility-types/psychiatric-nursing-home/items/17-B1.8-住民健康檢查及健康管理情形.md) — 精神護理之家 B17：B1.8 住民健康檢查及健康管理情形
+- [facility-types/psychiatric-nursing-home/items/18-B1.9-侵入性照護之執行情形（可選）.md](facility-types/psychiatric-nursing-home/items/18-B1.9-侵入性照護之執行情形（可選）.md) — 精神護理之家 B18：B1.9 侵入性照護之執行情形（可選）
+- [facility-types/psychiatric-nursing-home/items/19-B1.10-緊急及意外事件處理情形.md](facility-types/psychiatric-nursing-home/items/19-B1.10-緊急及意外事件處理情形.md) — 精神護理之家 B19：B1.10 緊急及意外事件處理情形
+- [facility-types/psychiatric-nursing-home/items/20-B1.11-提供緊急送醫服務情形.md](facility-types/psychiatric-nursing-home/items/20-B1.11-提供緊急送醫服務情形.md) — 精神護理之家 B20：B1.11 提供緊急送醫服務情形
+- [facility-types/psychiatric-nursing-home/items/21-B1.12-提供符合住民需求之個別、團體或社區活動.md](facility-types/psychiatric-nursing-home/items/21-B1.12-提供符合住民需求之個別、團體或社區活動.md) — 精神護理之家 B21：B1.12 提供符合住民需求之個別、團體或社區活動
+- [facility-types/psychiatric-nursing-home/items/22-B1.13-社區資源聯結及運用情形.md](facility-types/psychiatric-nursing-home/items/22-B1.13-社區資源聯結及運用情形.md) — 精神護理之家 B22：B1.13 社區資源聯結及運用情形
+- [facility-types/psychiatric-nursing-home/items/23-B1.14-與家屬互動及提供服務情形.md](facility-types/psychiatric-nursing-home/items/23-B1.14-與家屬互動及提供服務情形.md) — 精神護理之家 B23：B1.14 與家屬互動及提供服務情形
+- [facility-types/psychiatric-nursing-home/items/24-B1.15-鼓勵住民參與機構復健作業活動情形.md](facility-types/psychiatric-nursing-home/items/24-B1.15-鼓勵住民參與機構復健作業活動情形.md) — 精神護理之家 B24：B1.15 鼓勵住民參與機構復健作業活動情形
+- [facility-types/psychiatric-nursing-home/items/25-B1.16-護理站設施備設備設置情形.md](facility-types/psychiatric-nursing-home/items/25-B1.16-護理站設施備設備設置情形.md) — 精神護理之家 B25：B1.16 護理站設施備設備設置情形
+- [facility-types/psychiatric-nursing-home/items/26-B2.1-協助與促進住民自我照顧能力.md](facility-types/psychiatric-nursing-home/items/26-B2.1-協助與促進住民自我照顧能力.md) — 精神護理之家 B26：B2.1 協助與促進住民自我照顧能力
+- [facility-types/psychiatric-nursing-home/items/27-B2.2-提供住民清潔服務情形（含身體、寢具及衣物）.md](facility-types/psychiatric-nursing-home/items/27-B2.2-提供住民清潔服務情形（含身體、寢具及衣物）.md) — 精神護理之家 B27：B2.2 提供住民清潔服務情形（含身體、寢具及衣物）
+- [facility-types/psychiatric-nursing-home/items/28-B2.3-提供預防及延緩失能活動情形.md](facility-types/psychiatric-nursing-home/items/28-B2.3-提供預防及延緩失能活動情形.md) — 精神護理之家 B28：B2.3 提供預防及延緩失能活動情形
+- [facility-types/psychiatric-nursing-home/items/29-B3.1-住民膳食及個別化飲食情形.md](facility-types/psychiatric-nursing-home/items/29-B3.1-住民膳食及個別化飲食情形.md) — 精神護理之家 B29：B3.1 住民膳食及個別化飲食情形
+- [facility-types/psychiatric-nursing-home/items/30-B3.2-管灌住民餵食情形（可選）.md](facility-types/psychiatric-nursing-home/items/30-B3.2-管灌住民餵食情形（可選）.md) — 精神護理之家 B30：B3.2 管灌住民餵食情形（可選）
+- [facility-types/psychiatric-nursing-home/items/31-C1.1-疏散避難系統及等待救接空間設置.md](facility-types/psychiatric-nursing-home/items/31-C1.1-疏散避難系統及等待救接空間設置.md) — 精神護理之家 C31：C1.1 疏散避難系統及等待救接空間設置
+- [facility-types/psychiatric-nursing-home/items/32-C1.2-訂定符合機構住民及需要之火災應變計畫及作業程序並落實演練.md](facility-types/psychiatric-nursing-home/items/32-C1.2-訂定符合機構住民及需要之火災應變計畫及作業程序並落實演練.md) — 精神護理之家 C32：C1.2 訂定符合機構住民及需要之火災應變計畫及作業程序並落實演練
+- [facility-types/psychiatric-nursing-home/items/33-C1.3-落實機構特性之夜間演練計畫.md](facility-types/psychiatric-nursing-home/items/33-C1.3-落實機構特性之夜間演練計畫.md) — 精神護理之家 C33：C1.3 落實機構特性之夜間演練計畫
+- [facility-types/psychiatric-nursing-home/items/34-D1.1-尊重住民信仰情形.md](facility-types/psychiatric-nursing-home/items/34-D1.1-尊重住民信仰情形.md) — 精神護理之家 D34：D1.1 尊重住民信仰情形
+- [facility-types/psychiatric-nursing-home/items/35-D1.2-推動安寧緩和療護及病人自主權利.md](facility-types/psychiatric-nursing-home/items/35-D1.2-推動安寧緩和療護及病人自主權利.md) — 精神護理之家 D35：D1.2 推動安寧緩和療護及病人自主權利
+- [facility-types/psychiatric-nursing-home/items/36-E1.1-創新或特色措施具有成效並公開分享.md](facility-types/psychiatric-nursing-home/items/36-E1.1-創新或特色措施具有成效並公開分享.md) — 精神護理之家 E36：E1.1 創新或特色措施具有成效並公開分享
+- [facility-types/infant-daycare/overview.md](facility-types/infant-daycare/overview.md) — 托嬰中心，概覽，臺北市114-116年度托嬰中心評鑑指標
+- [facility-types/infant-daycare/items/01-行政管理配合事項.md](facility-types/infant-daycare/items/01-行政管理配合事項.md) — 托嬰中心 管1：行政管理配合事項
+- [facility-types/infant-daycare/items/02-員工在職訓練.md](facility-types/infant-daycare/items/02-員工在職訓練.md) — 托嬰中心 管2：員工在職訓練
+- [facility-types/infant-daycare/items/03-嬰幼兒資料與接送管理.md](facility-types/infant-daycare/items/03-嬰幼兒資料與接送管理.md) — 托嬰中心 管3：嬰幼兒資料與接送管理
+- [facility-types/infant-daycare/items/04-人事規章與差假管理.md](facility-types/infant-daycare/items/04-人事規章與差假管理.md) — 托嬰中心 人4：人事規章與差假管理
+- [facility-types/infant-daycare/items/05-員工薪資、保險與退休.md](facility-types/infant-daycare/items/05-員工薪資、保險與退休.md) — 托嬰中心 人5：員工薪資、保險與退休
+- [facility-types/infant-daycare/items/06-家長手冊、行事曆與公文管理.md](facility-types/infant-daycare/items/06-家長手冊、行事曆與公文管理.md) — 托嬰中心 文6：家長手冊、行事曆與公文管理
+- [facility-types/infant-daycare/items/07-召開會議.md](facility-types/infant-daycare/items/07-召開會議.md) — 托嬰中心 文7：召開會議
+- [facility-types/infant-daycare/items/08-財務與總務管理.md](facility-types/infant-daycare/items/08-財務與總務管理.md) — 托嬰中心 財8：財務與總務管理
+- [facility-types/infant-daycare/items/09-事故傷害預防的行政措施.md](facility-types/infant-daycare/items/09-事故傷害預防的行政措施.md) — 托嬰中心 財9：事故傷害預防的行政措施
+- [facility-types/infant-daycare/items/10-災害處理.md](facility-types/infant-daycare/items/10-災害處理.md) — 托嬰中心 財10：災害處理
+- [facility-types/infant-daycare/items/11-兒童福利服務.md](facility-types/infant-daycare/items/11-兒童福利服務.md) — 托嬰中心 權11：兒童福利服務
+- [facility-types/infant-daycare/items/12-安全依附與情緒照顧.md](facility-types/infant-daycare/items/12-安全依附與情緒照顧.md) — 托嬰中心 互12：安全依附與情緒照顧
+- [facility-types/infant-daycare/items/13-溝通與互動.md](facility-types/infant-daycare/items/13-溝通與互動.md) — 托嬰中心 互13：溝通與互動
+- [facility-types/infant-daycare/items/14-團隊專業與協力.md](facility-types/infant-daycare/items/14-團隊專業與協力.md) — 托嬰中心 互14：團隊專業與協力
+- [facility-types/infant-daycare/items/15-休息睡眠空間.md](facility-types/infant-daycare/items/15-休息睡眠空間.md) — 托嬰中心 環15：休息睡眠空間
+- [facility-types/infant-daycare/items/16-餵食用餐空間.md](facility-types/infant-daycare/items/16-餵食用餐空間.md) — 托嬰中心 環16：餵食用餐空間
+- [facility-types/infant-daycare/items/17-清潔盥洗空間.md](facility-types/infant-daycare/items/17-清潔盥洗空間.md) — 托嬰中心 環17：清潔盥洗空間
+- [facility-types/infant-daycare/items/18-遊戲活動空間.md](facility-types/infant-daycare/items/18-遊戲活動空間.md) — 托嬰中心 環18：遊戲活動空間
+- [facility-types/infant-daycare/items/19-環境舒適程度.md](facility-types/infant-daycare/items/19-環境舒適程度.md) — 托嬰中心 環19：環境舒適程度
+- [facility-types/infant-daycare/items/20-遊戲設備使用安全.md](facility-types/infant-daycare/items/20-遊戲設備使用安全.md) — 托嬰中心 環20：遊戲設備使用安全
+- [facility-types/infant-daycare/items/21-遊戲設備與材料.md](facility-types/infant-daycare/items/21-遊戲設備與材料.md) — 托嬰中心 環21：遊戲設備與材料
+- [facility-types/infant-daycare/items/22-教玩具類型.md](facility-types/infant-daycare/items/22-教玩具類型.md) — 托嬰中心 環22：教玩具類型
+- [facility-types/infant-daycare/items/23-情境設計.md](facility-types/infant-daycare/items/23-情境設計.md) — 托嬰中心 環23：情境設計
+- [facility-types/infant-daycare/items/24-作息規劃與活動安排.md](facility-types/infant-daycare/items/24-作息規劃與活動安排.md) — 托嬰中心 活24：作息規劃與活動安排
+- [facility-types/infant-daycare/items/25-餵食用餐.md](facility-types/infant-daycare/items/25-餵食用餐.md) — 托嬰中心 活25：餵食用餐
+- [facility-types/infant-daycare/items/26-更換尿布.md](facility-types/infant-daycare/items/26-更換尿布.md) — 托嬰中心 活26：更換尿布
+- [facility-types/infant-daycare/items/27-如廁練習.md](facility-types/infant-daycare/items/27-如廁練習.md) — 托嬰中心 活27：如廁練習
+- [facility-types/infant-daycare/items/28-生活自理.md](facility-types/infant-daycare/items/28-生活自理.md) — 托嬰中心 活28：生活自理
+- [facility-types/infant-daycare/items/29-睡眠與休息.md](facility-types/infant-daycare/items/29-睡眠與休息.md) — 托嬰中心 活29：睡眠與休息
+- [facility-types/infant-daycare/items/30-活動設計與材料選用.md](facility-types/infant-daycare/items/30-活動設計與材料選用.md) — 托嬰中心 活30：活動設計與材料選用
+- [facility-types/infant-daycare/items/31-活動的引導與進行.md](facility-types/infant-daycare/items/31-活動的引導與進行.md) — 托嬰中心 活31：活動的引導與進行
+- [facility-types/infant-daycare/items/32-生活情境中學習.md](facility-types/infant-daycare/items/32-生活情境中學習.md) — 托嬰中心 活32：生活情境中學習
+- [facility-types/infant-daycare/items/33-觀察評量與輔導追蹤.md](facility-types/infant-daycare/items/33-觀察評量與輔導追蹤.md) — 托嬰中心 活33：觀察評量與輔導追蹤
+- [facility-types/infant-daycare/items/34-每日接送互動.md](facility-types/infant-daycare/items/34-每日接送互動.md) — 托嬰中心 親34：每日接送互動
+- [facility-types/infant-daycare/items/35-親師溝通.md](facility-types/infant-daycare/items/35-親師溝通.md) — 托嬰中心 親35：親師溝通
+- [facility-types/infant-daycare/items/36-親職教育.md](facility-types/infant-daycare/items/36-親職教育.md) — 托嬰中心 親36：親職教育
+- [facility-types/infant-daycare/items/37-體位測量.md](facility-types/infant-daycare/items/37-體位測量.md) — 托嬰中心 健37：體位測量
+- [facility-types/infant-daycare/items/38-發展篩檢.md](facility-types/infant-daycare/items/38-發展篩檢.md) — 托嬰中心 健38：發展篩檢
+- [facility-types/infant-daycare/items/39-健康管理.md](facility-types/infant-daycare/items/39-健康管理.md) — 托嬰中心 健39：健康管理
+- [facility-types/infant-daycare/items/40-餐點設計.md](facility-types/infant-daycare/items/40-餐點設計.md) — 托嬰中心 食40：餐點設計
+- [facility-types/infant-daycare/items/41-食品選購及存放.md](facility-types/infant-daycare/items/41-食品選購及存放.md) — 托嬰中心 食41：食品選購及存放
+- [facility-types/infant-daycare/items/42-餐點供應.md](facility-types/infant-daycare/items/42-餐點供應.md) — 托嬰中心 食42：餐點供應
+- [facility-types/infant-daycare/items/43-飲水供應的品質.md](facility-types/infant-daycare/items/43-飲水供應的品質.md) — 托嬰中心 食43：飲水供應的品質
+- [facility-types/infant-daycare/items/44-食物樣品保存.md](facility-types/infant-daycare/items/44-食物樣品保存.md) — 托嬰中心 食44：食物樣品保存
+- [facility-types/infant-daycare/items/45-廚房設備與環境.md](facility-types/infant-daycare/items/45-廚房設備與環境.md) — 托嬰中心 衛45：廚房設備與環境
+- [facility-types/infant-daycare/items/46-冰箱清潔.md](facility-types/infant-daycare/items/46-冰箱清潔.md) — 托嬰中心 衛46：冰箱清潔
+- [facility-types/infant-daycare/items/47-餐具.md](facility-types/infant-daycare/items/47-餐具.md) — 托嬰中心 衛47：餐具
+- [facility-types/infant-daycare/items/48-寢具.md](facility-types/infant-daycare/items/48-寢具.md) — 托嬰中心 衛48：寢具
+- [facility-types/infant-daycare/items/49-嬰幼兒個人清潔用品.md](facility-types/infant-daycare/items/49-嬰幼兒個人清潔用品.md) — 托嬰中心 衛49：嬰幼兒個人清潔用品
+- [facility-types/infant-daycare/items/50-環境衛生.md](facility-types/infant-daycare/items/50-環境衛生.md) — 托嬰中心 衛50：環境衛生
+- [facility-types/infant-daycare/items/51-浴廁衛生.md](facility-types/infant-daycare/items/51-浴廁衛生.md) — 托嬰中心 衛51：浴廁衛生
+- [facility-types/infant-daycare/items/52-預防跌倒墜落.md](facility-types/infant-daycare/items/52-預防跌倒墜落.md) — 托嬰中心 安52：預防跌倒墜落
+- [facility-types/infant-daycare/items/53-預防壓砸夾刺撞傷.md](facility-types/infant-daycare/items/53-預防壓砸夾刺撞傷.md) — 托嬰中心 安53：預防壓砸夾刺撞傷
+- [facility-types/infant-daycare/items/54-預防燒燙傷.md](facility-types/infant-daycare/items/54-預防燒燙傷.md) — 托嬰中心 安54：預防燒燙傷
+- [facility-types/infant-daycare/items/55-預防窒息.md](facility-types/infant-daycare/items/55-預防窒息.md) — 托嬰中心 安55：預防窒息
+- [facility-types/infant-daycare/items/56-預防中毒.md](facility-types/infant-daycare/items/56-預防中毒.md) — 托嬰中心 安56：預防中毒
+- [facility-types/infant-daycare/items/57-遊戲場地與設備安全.md](facility-types/infant-daycare/items/57-遊戲場地與設備安全.md) — 托嬰中心 安57：遊戲場地與設備安全
+- [facility-types/infant-daycare/items/58-保健設備.md](facility-types/infant-daycare/items/58-保健設備.md) — 托嬰中心 護58：保健設備
+- [facility-types/infant-daycare/items/59-藥品管理.md](facility-types/infant-daycare/items/59-藥品管理.md) — 托嬰中心 護59：藥品管理
+- [facility-types/infant-daycare/items/60-感染管控.md](facility-types/infant-daycare/items/60-感染管控.md) — 托嬰中心 護60：感染管控
+- [facility-types/psychiatric-rehabilitation-day/overview.md](facility-types/psychiatric-rehabilitation-day/overview.md) — 精神復健機構（日間型），概覽，115年度精神復健機構評鑑基準－日間型機構
+- [facility-types/psychiatric-rehabilitation-day/items/01-1.1-機構負責人之經營管理.md](facility-types/psychiatric-rehabilitation-day/items/01-1.1-機構負責人之經營管理.md) — 精神復健機構（日間型） 11：1.1 機構負責人之經營管理
+- [facility-types/psychiatric-rehabilitation-day/items/02-1.2-專任工作人員人力穩定性.md](facility-types/psychiatric-rehabilitation-day/items/02-1.2-專任工作人員人力穩定性.md) — 精神復健機構（日間型） 12：1.2 專任工作人員人力穩定性
+- [facility-types/psychiatric-rehabilitation-day/items/03-1.3-督導與教育訓練制度.md](facility-types/psychiatric-rehabilitation-day/items/03-1.3-督導與教育訓練制度.md) — 精神復健機構（日間型） 13：1.3 督導與教育訓練制度
+- [facility-types/psychiatric-rehabilitation-day/items/04-1.4-工作人員定期接受健康檢查情形.md](facility-types/psychiatric-rehabilitation-day/items/04-1.4-工作人員定期接受健康檢查情形.md) — 精神復健機構（日間型） 14：1.4 工作人員定期接受健康檢查情形
+- [facility-types/psychiatric-rehabilitation-day/items/05-1.5-社區便利性.md](facility-types/psychiatric-rehabilitation-day/items/05-1.5-社區便利性.md) — 精神復健機構（日間型） 15：1.5 社區便利性
+- [facility-types/psychiatric-rehabilitation-day/items/06-1.6-復健資源開發及運用.md](facility-types/psychiatric-rehabilitation-day/items/06-1.6-復健資源開發及運用.md) — 精神復健機構（日間型） 16：1.6 復健資源開發及運用
+- [facility-types/psychiatric-rehabilitation-day/items/07-1.7-復健治療空間及設施.md](facility-types/psychiatric-rehabilitation-day/items/07-1.7-復健治療空間及設施.md) — 精神復健機構（日間型） 17：1.7 復健治療空間及設施
+- [facility-types/psychiatric-rehabilitation-day/items/08-1.8-健身及康樂設施.md](facility-types/psychiatric-rehabilitation-day/items/08-1.8-健身及康樂設施.md) — 精神復健機構（日間型） 18：1.8 健身及康樂設施
+- [facility-types/psychiatric-rehabilitation-day/items/09-1.9-前次評鑑建議事項辦理情形確實且具成效.md](facility-types/psychiatric-rehabilitation-day/items/09-1.9-前次評鑑建議事項辦理情形確實且具成效.md) — 精神復健機構（日間型） 19：1.9 前次評鑑建議事項辦理情形確實且具成效
+- [facility-types/psychiatric-rehabilitation-day/items/10-1.10-評鑑資料填寫及實地評鑑簡報品質良好.md](facility-types/psychiatric-rehabilitation-day/items/10-1.10-評鑑資料填寫及實地評鑑簡報品質良好.md) — 精神復健機構（日間型） 110：1.10 評鑑資料填寫及實地評鑑簡報品質良好
+- [facility-types/psychiatric-rehabilitation-day/items/11-2.1-復健評估.md](facility-types/psychiatric-rehabilitation-day/items/11-2.1-復健評估.md) — 精神復健機構（日間型） 211：2.1 復健評估
+- [facility-types/psychiatric-rehabilitation-day/items/12-2.2-訂定復健目標及計畫.md](facility-types/psychiatric-rehabilitation-day/items/12-2.2-訂定復健目標及計畫.md) — 精神復健機構（日間型） 212：2.2 訂定復健目標及計畫
+- [facility-types/psychiatric-rehabilitation-day/items/13-2.3-提供社區生活化之多元復健服務.md](facility-types/psychiatric-rehabilitation-day/items/13-2.3-提供社區生活化之多元復健服務.md) — 精神復健機構（日間型） 213：2.3 提供社區生活化之多元復健服務
+- [facility-types/psychiatric-rehabilitation-day/items/14-2.4-活動妥善規劃並定期修正.md](facility-types/psychiatric-rehabilitation-day/items/14-2.4-活動妥善規劃並定期修正.md) — 精神復健機構（日間型） 214：2.4 活動妥善規劃並定期修正
+- [facility-types/psychiatric-rehabilitation-day/items/15-2.5-提供健康促進活動.md](facility-types/psychiatric-rehabilitation-day/items/15-2.5-提供健康促進活動.md) — 精神復健機構（日間型） 215：2.5 提供健康促進活動
+- [facility-types/psychiatric-rehabilitation-day/items/16-2.6-提供工作復健訓練及轉銜服務.md](facility-types/psychiatric-rehabilitation-day/items/16-2.6-提供工作復健訓練及轉銜服務.md) — 精神復健機構（日間型） 216：2.6 提供工作復健訓練及轉銜服務
+- [facility-types/psychiatric-rehabilitation-day/items/17-2.7-定期生活諮詢及心理輔導.md](facility-types/psychiatric-rehabilitation-day/items/17-2.7-定期生活諮詢及心理輔導.md) — 精神復健機構（日間型） 217：2.7 定期生活諮詢及心理輔導
+- [facility-types/psychiatric-rehabilitation-day/items/18-2.8-輔導規則就醫及藥物自我管理.md](facility-types/psychiatric-rehabilitation-day/items/18-2.8-輔導規則就醫及藥物自我管理.md) — 精神復健機構（日間型） 218：2.8 輔導規則就醫及藥物自我管理
+- [facility-types/psychiatric-rehabilitation-day/items/19-2.9-召開社區復健及適應討論會.md](facility-types/psychiatric-rehabilitation-day/items/19-2.9-召開社區復健及適應討論會.md) — 精神復健機構（日間型） 219：2.9 召開社區復健及適應討論會
+- [facility-types/psychiatric-rehabilitation-day/items/20-2.10-召開學員自治會議.md](facility-types/psychiatric-rehabilitation-day/items/20-2.10-召開學員自治會議.md) — 精神復健機構（日間型） 220：2.10 召開學員自治會議
+- [facility-types/psychiatric-rehabilitation-day/items/21-2.11-提供學員家庭支持服務.md](facility-types/psychiatric-rehabilitation-day/items/21-2.11-提供學員家庭支持服務.md) — 精神復健機構（日間型） 221：2.11 提供學員家庭支持服務
+- [facility-types/psychiatric-rehabilitation-day/items/22-2.12-社區融合.md](facility-types/psychiatric-rehabilitation-day/items/22-2.12-社區融合.md) — 精神復健機構（日間型） 222：2.12 社區融合
+- [facility-types/psychiatric-rehabilitation-day/items/23-2.13-社會參與.md](facility-types/psychiatric-rehabilitation-day/items/23-2.13-社會參與.md) — 精神復健機構（日間型） 223：2.13 社會參與
+- [facility-types/psychiatric-rehabilitation-day/items/24-2.14-同儕支持.md](facility-types/psychiatric-rehabilitation-day/items/24-2.14-同儕支持.md) — 精神復健機構（日間型） 224：2.14 同儕支持
+- [facility-types/psychiatric-rehabilitation-day/items/25-3.1-訂有工作手冊，並落實執行.md](facility-types/psychiatric-rehabilitation-day/items/25-3.1-訂有工作手冊，並落實執行.md) — 精神復健機構（日間型） 325：3.1 訂有工作手冊，並落實執行
+- [facility-types/psychiatric-rehabilitation-day/items/26-3.2-訂定適當收案標準，並落實執行.md](facility-types/psychiatric-rehabilitation-day/items/26-3.2-訂定適當收案標準，並落實執行.md) — 精神復健機構（日間型） 326：3.2 訂定適當收案標準，並落實執行
+- [facility-types/psychiatric-rehabilitation-day/items/27-3.3-訂定適當結案標準，並落實執行.md](facility-types/psychiatric-rehabilitation-day/items/27-3.3-訂定適當結案標準，並落實執行.md) — 精神復健機構（日間型） 327：3.3 訂定適當結案標準，並落實執行
+- [facility-types/psychiatric-rehabilitation-day/items/28-3.4-紀錄完整，並妥善管理.md](facility-types/psychiatric-rehabilitation-day/items/28-3.4-紀錄完整，並妥善管理.md) — 精神復健機構（日間型） 328：3.4 紀錄完整，並妥善管理
+- [facility-types/psychiatric-rehabilitation-day/items/29-3.5-適切的復健基金管理.md](facility-types/psychiatric-rehabilitation-day/items/29-3.5-適切的復健基金管理.md) — 精神復健機構（日間型） 329：3.5 適切的復健基金管理
+- [facility-types/psychiatric-rehabilitation-day/items/30-3.6-落實學員權益維護措施.md](facility-types/psychiatric-rehabilitation-day/items/30-3.6-落實學員權益維護措施.md) — 精神復健機構（日間型） 330：3.6 落實學員權益維護措施
+- [facility-types/psychiatric-rehabilitation-day/items/31-3.7-落實學員健康維護措施.md](facility-types/psychiatric-rehabilitation-day/items/31-3.7-落實學員健康維護措施.md) — 精神復健機構（日間型） 331：3.7 落實學員健康維護措施
+- [facility-types/psychiatric-rehabilitation-day/items/32-3.8-訂定處理緊急醫療、異常及群聚感染事件處理流程，並落實執行.md](facility-types/psychiatric-rehabilitation-day/items/32-3.8-訂定處理緊急醫療、異常及群聚感染事件處理流程，並落實執行.md) — 精神復健機構（日間型） 332：3.8 訂定處理緊急醫療、異常及群聚感染事件處理流程，並落實執行
+- [facility-types/psychiatric-rehabilitation-day/items/33-3.9-建立機構緊急應變管理機制並落實執行.md](facility-types/psychiatric-rehabilitation-day/items/33-3.9-建立機構緊急應變管理機制並落實執行.md) — 精神復健機構（日間型） 333：3.9 建立機構緊急應變管理機制並落實執行
+- [facility-types/psychiatric-rehabilitation-day/items/34-3.10-召開品質管理相關會議.md](facility-types/psychiatric-rehabilitation-day/items/34-3.10-召開品質管理相關會議.md) — 精神復健機構（日間型） 334：3.10 召開品質管理相關會議
+- [facility-types/psychiatric-rehabilitation-day/items/35-3.11-執行學員及家屬滿意度調查.md](facility-types/psychiatric-rehabilitation-day/items/35-3.11-執行學員及家屬滿意度調查.md) — 精神復健機構（日間型） 335：3.11 執行學員及家屬滿意度調查
+- [facility-types/psychiatric-rehabilitation-day/items/36-3.12-訂定並落實訪客管理規範，且有訪客紀錄.md](facility-types/psychiatric-rehabilitation-day/items/36-3.12-訂定並落實訪客管理規範，且有訪客紀錄.md) — 精神復健機構（日間型） 336：3.12 訂定並落實訪客管理規範，且有訪客紀錄
+- [facility-types/psychiatric-rehabilitation-residential/overview.md](facility-types/psychiatric-rehabilitation-residential/overview.md) — 精神復健機構（住宿型），概覽，115年度精神復健機構評鑑基準－住宿型機構
+- [facility-types/psychiatric-rehabilitation-residential/items/01-1.1-機構負責人之經營管理.md](facility-types/psychiatric-rehabilitation-residential/items/01-1.1-機構負責人之經營管理.md) — 精神復健機構（住宿型） 11：1.1 機構負責人之經營管理
+- [facility-types/psychiatric-rehabilitation-residential/items/02-1.2-專任工作人員人力穩定性.md](facility-types/psychiatric-rehabilitation-residential/items/02-1.2-專任工作人員人力穩定性.md) — 精神復健機構（住宿型） 12：1.2 專任工作人員人力穩定性
+- [facility-types/psychiatric-rehabilitation-residential/items/03-1.3-督導與教育訓練制度.md](facility-types/psychiatric-rehabilitation-residential/items/03-1.3-督導與教育訓練制度.md) — 精神復健機構（住宿型） 13：1.3 督導與教育訓練制度
+- [facility-types/psychiatric-rehabilitation-residential/items/04-1.4-適切的日、夜間人力配置.md](facility-types/psychiatric-rehabilitation-residential/items/04-1.4-適切的日、夜間人力配置.md) — 精神復健機構（住宿型） 14：1.4 適切的日、夜間人力配置
+- [facility-types/psychiatric-rehabilitation-residential/items/05-1.5-工作人員定期接受健康檢查情形.md](facility-types/psychiatric-rehabilitation-residential/items/05-1.5-工作人員定期接受健康檢查情形.md) — 精神復健機構（住宿型） 15：1.5 工作人員定期接受健康檢查情形
+- [facility-types/psychiatric-rehabilitation-residential/items/06-1.6-社區便利性.md](facility-types/psychiatric-rehabilitation-residential/items/06-1.6-社區便利性.md) — 精神復健機構（住宿型） 16：1.6 社區便利性
+- [facility-types/psychiatric-rehabilitation-residential/items/07-1.7-復健資源開發及運用.md](facility-types/psychiatric-rehabilitation-residential/items/07-1.7-復健資源開發及運用.md) — 精神復健機構（住宿型） 17：1.7 復健資源開發及運用
+- [facility-types/psychiatric-rehabilitation-residential/items/08-1.8-日常活動空間.md](facility-types/psychiatric-rehabilitation-residential/items/08-1.8-日常活動空間.md) — 精神復健機構（住宿型） 18：1.8 日常活動空間
+- [facility-types/psychiatric-rehabilitation-residential/items/09-1.9-健身及康樂設施.md](facility-types/psychiatric-rehabilitation-residential/items/09-1.9-健身及康樂設施.md) — 精神復健機構（住宿型） 19：1.9 健身及康樂設施
+- [facility-types/psychiatric-rehabilitation-residential/items/10-1.10-廚房空間及設施.md](facility-types/psychiatric-rehabilitation-residential/items/10-1.10-廚房空間及設施.md) — 精神復健機構（住宿型） 110：1.10 廚房空間及設施
+- [facility-types/psychiatric-rehabilitation-residential/items/11-1.11-前次評鑑建議事項辦理情形確實且具成效.md](facility-types/psychiatric-rehabilitation-residential/items/11-1.11-前次評鑑建議事項辦理情形確實且具成效.md) — 精神復健機構（住宿型） 111：1.11 前次評鑑建議事項辦理情形確實且具成效
+- [facility-types/psychiatric-rehabilitation-residential/items/12-1.12-評鑑資料填寫及實地評鑑簡報品質良好.md](facility-types/psychiatric-rehabilitation-residential/items/12-1.12-評鑑資料填寫及實地評鑑簡報品質良好.md) — 精神復健機構（住宿型） 112：1.12 評鑑資料填寫及實地評鑑簡報品質良好
+- [facility-types/psychiatric-rehabilitation-residential/items/13-2.1-復健評估.md](facility-types/psychiatric-rehabilitation-residential/items/13-2.1-復健評估.md) — 精神復健機構（住宿型） 213：2.1 復健評估
+- [facility-types/psychiatric-rehabilitation-residential/items/14-2.2-訂定復健目標及計畫.md](facility-types/psychiatric-rehabilitation-residential/items/14-2.2-訂定復健目標及計畫.md) — 精神復健機構（住宿型） 214：2.2 訂定復健目標及計畫
+- [facility-types/psychiatric-rehabilitation-residential/items/15-2.3-提供個別化的獨立生活功能訓練.md](facility-types/psychiatric-rehabilitation-residential/items/15-2.3-提供個別化的獨立生活功能訓練.md) — 精神復健機構（住宿型） 215：2.3 提供個別化的獨立生活功能訓練
+- [facility-types/psychiatric-rehabilitation-residential/items/16-2.4-活動妥善規劃並定期修正.md](facility-types/psychiatric-rehabilitation-residential/items/16-2.4-活動妥善規劃並定期修正.md) — 精神復健機構（住宿型） 216：2.4 活動妥善規劃並定期修正
+- [facility-types/psychiatric-rehabilitation-residential/items/17-2.5-提供健康促進活動.md](facility-types/psychiatric-rehabilitation-residential/items/17-2.5-提供健康促進活動.md) — 精神復健機構（住宿型） 217：2.5 提供健康促進活動
+- [facility-types/psychiatric-rehabilitation-residential/items/18-2.6-職前準備、工作轉介或就業輔導.md](facility-types/psychiatric-rehabilitation-residential/items/18-2.6-職前準備、工作轉介或就業輔導.md) — 精神復健機構（住宿型） 218：2.6 職前準備、工作轉介或就業輔導
+- [facility-types/psychiatric-rehabilitation-residential/items/19-2.7-定期生活諮詢及心理輔導.md](facility-types/psychiatric-rehabilitation-residential/items/19-2.7-定期生活諮詢及心理輔導.md) — 精神復健機構（住宿型） 219：2.7 定期生活諮詢及心理輔導
+- [facility-types/psychiatric-rehabilitation-residential/items/20-2.8-輔導規則就醫及藥物自我管理.md](facility-types/psychiatric-rehabilitation-residential/items/20-2.8-輔導規則就醫及藥物自我管理.md) — 精神復健機構（住宿型） 220：2.8 輔導規則就醫及藥物自我管理
+- [facility-types/psychiatric-rehabilitation-residential/items/21-2.9-召開社區復健及適應討論會.md](facility-types/psychiatric-rehabilitation-residential/items/21-2.9-召開社區復健及適應討論會.md) — 精神復健機構（住宿型） 221：2.9 召開社區復健及適應討論會
+- [facility-types/psychiatric-rehabilitation-residential/items/22-2.10-召開住民自治會議.md](facility-types/psychiatric-rehabilitation-residential/items/22-2.10-召開住民自治會議.md) — 精神復健機構（住宿型） 222：2.10 召開住民自治會議
+- [facility-types/psychiatric-rehabilitation-residential/items/23-2.11-提供住民家庭支持服務.md](facility-types/psychiatric-rehabilitation-residential/items/23-2.11-提供住民家庭支持服務.md) — 精神復健機構（住宿型） 223：2.11 提供住民家庭支持服務
+- [facility-types/psychiatric-rehabilitation-residential/items/24-2.12-社區融合.md](facility-types/psychiatric-rehabilitation-residential/items/24-2.12-社區融合.md) — 精神復健機構（住宿型） 224：2.12 社區融合
+- [facility-types/psychiatric-rehabilitation-residential/items/25-2.13-社會參與.md](facility-types/psychiatric-rehabilitation-residential/items/25-2.13-社會參與.md) — 精神復健機構（住宿型） 225：2.13 社會參與
+- [facility-types/psychiatric-rehabilitation-residential/items/26-2.14-同儕支持.md](facility-types/psychiatric-rehabilitation-residential/items/26-2.14-同儕支持.md) — 精神復健機構（住宿型） 226：2.14 同儕支持
+- [facility-types/psychiatric-rehabilitation-residential/items/27-3.1-訂有工作手冊，並落實執行.md](facility-types/psychiatric-rehabilitation-residential/items/27-3.1-訂有工作手冊，並落實執行.md) — 精神復健機構（住宿型） 327：3.1 訂有工作手冊，並落實執行
+- [facility-types/psychiatric-rehabilitation-residential/items/28-3.2-訂定適當收案標準，並落實執行.md](facility-types/psychiatric-rehabilitation-residential/items/28-3.2-訂定適當收案標準，並落實執行.md) — 精神復健機構（住宿型） 328：3.2 訂定適當收案標準，並落實執行
+- [facility-types/psychiatric-rehabilitation-residential/items/29-3.3-訂定適當結案標準，並落實執行.md](facility-types/psychiatric-rehabilitation-residential/items/29-3.3-訂定適當結案標準，並落實執行.md) — 精神復健機構（住宿型） 329：3.3 訂定適當結案標準，並落實執行
+- [facility-types/psychiatric-rehabilitation-residential/items/30-3.4-紀錄完整，並妥善管理.md](facility-types/psychiatric-rehabilitation-residential/items/30-3.4-紀錄完整，並妥善管理.md) — 精神復健機構（住宿型） 330：3.4 紀錄完整，並妥善管理
+- [facility-types/psychiatric-rehabilitation-residential/items/31-3.5-適切的復健基金管理.md](facility-types/psychiatric-rehabilitation-residential/items/31-3.5-適切的復健基金管理.md) — 精神復健機構（住宿型） 331：3.5 適切的復健基金管理
+- [facility-types/psychiatric-rehabilitation-residential/items/32-3.6-落實住民權益維護措施.md](facility-types/psychiatric-rehabilitation-residential/items/32-3.6-落實住民權益維護措施.md) — 精神復健機構（住宿型） 332：3.6 落實住民權益維護措施
+- [facility-types/psychiatric-rehabilitation-residential/items/33-3.7-維護住民財物自主管理權益.md](facility-types/psychiatric-rehabilitation-residential/items/33-3.7-維護住民財物自主管理權益.md) — 精神復健機構（住宿型） 333：3.7 維護住民財物自主管理權益
+- [facility-types/psychiatric-rehabilitation-residential/items/34-3.8-落實住民健康維護措施.md](facility-types/psychiatric-rehabilitation-residential/items/34-3.8-落實住民健康維護措施.md) — 精神復健機構（住宿型） 334：3.8 落實住民健康維護措施
+- [facility-types/psychiatric-rehabilitation-residential/items/35-3.9-訂定處理緊急醫療、異常及群聚感染事件處理流程，並落實執行.md](facility-types/psychiatric-rehabilitation-residential/items/35-3.9-訂定處理緊急醫療、異常及群聚感染事件處理流程，並落實執行.md) — 精神復健機構（住宿型） 335：3.9 訂定處理緊急醫療、異常及群聚感染事件處理流程，並落實執行
+- [facility-types/psychiatric-rehabilitation-residential/items/36-3.10-建立機構緊急應變管理機制並落實執行.md](facility-types/psychiatric-rehabilitation-residential/items/36-3.10-建立機構緊急應變管理機制並落實執行.md) — 精神復健機構（住宿型） 336：3.10 建立機構緊急應變管理機制並落實執行
+- [facility-types/psychiatric-rehabilitation-residential/items/37-3.11-維護住民出入自由.md](facility-types/psychiatric-rehabilitation-residential/items/37-3.11-維護住民出入自由.md) — 精神復健機構（住宿型） 337：3.11 維護住民出入自由
+- [facility-types/psychiatric-rehabilitation-residential/items/38-3.12-召開品質管理相關會議.md](facility-types/psychiatric-rehabilitation-residential/items/38-3.12-召開品質管理相關會議.md) — 精神復健機構（住宿型） 338：3.12 召開品質管理相關會議
+- [facility-types/psychiatric-rehabilitation-residential/items/39-3.13-執行住民及家屬滿意度調查.md](facility-types/psychiatric-rehabilitation-residential/items/39-3.13-執行住民及家屬滿意度調查.md) — 精神復健機構（住宿型） 339：3.13 執行住民及家屬滿意度調查
+- [facility-types/psychiatric-rehabilitation-residential/items/40-3.14-訂定並落實訪客管理規範，且有訪客紀錄.md](facility-types/psychiatric-rehabilitation-residential/items/40-3.14-訂定並落實訪客管理規範，且有訪客紀錄.md) — 精神復健機構（住宿型） 340：3.14 訂定並落實訪客管理規範，且有訪客紀錄
