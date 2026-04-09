@@ -11,8 +11,14 @@ export const contentType = "image/png";
 // Next.js ISR：OG 圖片每天重新驗證一次
 export const revalidate = 86400;
 
-// 字型檔案路徑（resvg 會自行讀取）
-const fontPath = join(process.cwd(), "fonts", "NotoSansTC-Variable.ttf");
+// 靜態字重字型（從 variable font 產生，各含完整 CJK 字形，resvg 可正確匹配 font-weight）
+const fontDir = join(process.cwd(), "fonts");
+const fontFiles = [
+  join(fontDir, "NotoSansTC-Regular.ttf"),   // weight 400
+  join(fontDir, "NotoSansTC-SemiBold.ttf"),  // weight 600
+  join(fontDir, "NotoSansTC-Bold.ttf"),       // weight 700
+  join(fontDir, "NotoSansTC-Black.ttf"),      // weight 900
+];
 
 export default async function Image({
   params,
@@ -53,7 +59,7 @@ export default async function Image({
       const resvg = new Resvg(svgContent, {
         fitTo: { mode: "width", value: size.width },
         font: {
-          fontFiles: [fontPath],
+          fontFiles,
           loadSystemFonts: false,
         },
       });
