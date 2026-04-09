@@ -12,8 +12,8 @@
   <text x="94" y="126" font-size="16" fill="#1e293b" font-weight="600">適用對象</text>
   <text x="94" y="150" font-size="14" fill="#57534e">2 歲以下：嬰幼兒專屬（依附關係、發展刺激）</text>
   <rect x="540" y="116" width="224" height="46" rx="8" fill="#fef3c7"/>
-  <text x="652" y="130" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">2 歲以上</text>
-  <text x="652" y="148" font-size="14" fill="#92400e" text-anchor="middle">個別化教養 + 獨立技能</text>
+  <text x="652" y="135" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">2 歲以上</text>
+  <text x="652" y="153" font-size="14" fill="#92400e" text-anchor="middle">個別化教養 + 獨立技能</text>
   <!-- Row 2 -->
   <rect x="28" y="183" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="183" width="6" height="62" rx="2" fill="#78716c"/>
@@ -22,8 +22,8 @@
   <text x="94" y="201" font-size="16" fill="#1e293b" font-weight="600">項目 id 範圍</text>
   <text x="94" y="225" font-size="14" fill="#57534e">2 歲以下：項目 17、18、19、20（共 4 個項目）</text>
   <rect x="540" y="191" width="224" height="46" rx="8" fill="#e5e7eb"/>
-  <text x="652" y="205" font-size="14" fill="#374151" text-anchor="middle" font-weight="600">項目 21–24</text>
-  <text x="652" y="223" font-size="14" fill="#374151" text-anchor="middle">同樣 4 個子項結構</text>
+  <text x="652" y="210" font-size="14" fill="#374151" text-anchor="middle" font-weight="600">項目 21–24</text>
+  <text x="652" y="228" font-size="14" fill="#374151" text-anchor="middle">同樣 4 個子項結構</text>
   <!-- Row 3 -->
   <rect x="28" y="258" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="258" width="6" height="62" rx="2" fill="#57534e"/>
@@ -32,8 +32,8 @@
   <text x="94" y="276" font-size="16" fill="#1e293b" font-weight="600">最大配分差異</text>
   <text x="94" y="300" font-size="14" fill="#57534e">2 歲以下：在院 16 分（8 面向）；直接服務 10 分</text>
   <rect x="540" y="266" width="224" height="46" rx="8" fill="#dcfce7"/>
-  <text x="652" y="280" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">2 歲以上：在院 15 分</text>
-  <text x="652" y="298" font-size="14" fill="#166534" text-anchor="middle">15 面向；直接服務 9 分</text>
+  <text x="652" y="285" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">2 歲以上：在院 15 分</text>
+  <text x="652" y="303" font-size="14" fill="#166534" text-anchor="middle">15 面向；直接服務 9 分</text>
   <!-- Row 4 -->
   <rect x="28" y="333" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="333" width="6" height="62" rx="2" fill="#a8a29e"/>
@@ -42,8 +42,8 @@
   <text x="94" y="351" font-size="16" fill="#1e293b" font-weight="600">評分總計</text>
   <text x="94" y="375" font-size="14" fill="#57534e">兩版本各自合計 32 分，依機構實際收容年齡評分</text>
   <rect x="540" y="341" width="224" height="46" rx="8" fill="#fde8d0"/>
-  <text x="652" y="355" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="700">各版本 32 分</text>
-  <text x="652" y="373" font-size="14" fill="#c2410c" text-anchor="middle">同分設計，不同內涵</text>
+  <text x="652" y="360" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="700">各版本 32 分</text>
+  <text x="652" y="378" font-size="14" fill="#c2410c" text-anchor="middle">同分設計，不同內涵</text>
   <!-- Watermark -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

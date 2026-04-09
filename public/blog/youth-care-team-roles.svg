@@ -13,8 +13,8 @@
   <text x="100" y="142"  font-size="15" fill="#1e293b" font-weight="700">主管 / 院長</text>
   <text x="100" y="163"  font-size="16" fill="#57534e">董事會紀錄（項目 1）、整體協調、財務管理（項目 29）</text>
   <rect x="660" y="125" width="100" height="46" rx="8" fill="#fef3c7"/>
-  <text x="710" y="140"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">壹 + 肆</text>
-  <text x="710" y="157"  font-size="14" fill="#d97706" text-anchor="middle">統籌負責</text>
+  <text x="710" y="144"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">壹 + 肆</text>
+  <text x="710" y="161"  font-size="14" fill="#d97706" text-anchor="middle">統籌負責</text>
 
   <!-- Row 2: 社工 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white"/>
@@ -24,8 +24,8 @@
   <text x="100" y="215"  font-size="15" fill="#1e293b" font-weight="700">社工</text>
   <text x="100" y="236"  font-size="16" fill="#57534e">個案計畫（項目 15, 16, 24）、資源網絡（項目 26）、離院追蹤</text>
   <rect x="660" y="198" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="213"  font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">參 為主</text>
-  <text x="710" y="230"  font-size="14" fill="#78716c" text-anchor="middle">最多項目</text>
+  <text x="710" y="217"  font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">參 為主</text>
+  <text x="710" y="234"  font-size="14" fill="#78716c" text-anchor="middle">最多項目</text>
 
   <!-- Row 3: 生輔員 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white"/>
@@ -35,8 +35,8 @@
   <text x="100" y="288"  font-size="15" fill="#1e293b" font-weight="700">生輔員</text>
   <text x="100" y="309"  font-size="16" fill="#57534e">日誌、交班（項目 15）、在院生活輔導（項目 22）</text>
   <rect x="660" y="271" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="286"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">每日執行</text>
-  <text x="710" y="303"  font-size="14" fill="#57534e" text-anchor="middle">現場觀察</text>
+  <text x="710" y="290"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">每日執行</text>
+  <text x="710" y="307"  font-size="14" fill="#57534e" text-anchor="middle">現場觀察</text>
 
   <!-- Row 4: 行政 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white"/>
@@ -46,8 +46,8 @@
   <text x="100" y="361"  font-size="15" fill="#1e293b" font-weight="700">行政人員</text>
   <text x="100" y="382"  font-size="16" fill="#57534e">人事記錄（項目 3, 4, 5）、訓練紀錄（項目 5）、財務文件（項目 29）</text>
   <rect x="660" y="344" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="359"  font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700">壹 + 肆</text>
-  <text x="710" y="376"  font-size="14" fill="#a8a29e" text-anchor="middle">文件管理</text>
+  <text x="710" y="363"  font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700">壹 + 肆</text>
+  <text x="710" y="380"  font-size="14" fill="#a8a29e" text-anchor="middle">文件管理</text>
 
   <!-- Row 5: 督導 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white"/>
@@ -57,8 +57,8 @@
   <text x="100" y="434"  font-size="15" fill="#1e293b" font-weight="700">督導</text>
   <text x="100" y="455"  font-size="16" fill="#57534e">個案研討（項目 28）、督導紀錄（項目 28）、品質把關</text>
   <rect x="660" y="417" width="100" height="46" rx="8" fill="#f5f3f0"/>
-  <text x="710" y="432"  font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="700">項目 28</text>
-  <text x="710" y="449"  font-size="14" fill="#94a3b8" text-anchor="middle">品質保證</text>
+  <text x="710" y="436"  font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="700">項目 28</text>
+  <text x="710" y="453"  font-size="14" fill="#94a3b8" text-anchor="middle">品質保證</text>
 
   <!-- Watermark -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

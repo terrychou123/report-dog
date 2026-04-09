@@ -15,8 +15,8 @@
   <text x="100" y="188"  font-size="22" font-weight="700" fill="#1e293b">文件最終整備</text>
   <text x="100" y="208"  font-size="16" fill="#57534e">佐證文件分類裝訂，索引建立完成</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181"  font-size="16" text-anchor="middle" fill="#d97706">全部文件</text>
-  <text x="688" y="201"  font-size="16" text-anchor="middle" fill="#d97706">評鑑前7天</text>
+  <text x="688" y="187"  font-size="16" text-anchor="middle" fill="#d97706">全部文件</text>
+  <text x="688" y="207"  font-size="16" text-anchor="middle" fill="#d97706">評鑑前7天</text>
 
   <!-- Row 2: y=235, 人員任務說明 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="263"  font-size="22" font-weight="700" fill="#1e293b">人員任務說明</text>
   <text x="100" y="283"  font-size="16" fill="#57534e">全體人員評鑑當日任務與流程說明</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256"  font-size="16" text-anchor="middle" fill="#78716c">人員準備</text>
-  <text x="688" y="276"  font-size="16" text-anchor="middle" fill="#78716c">評鑑前5天</text>
+  <text x="688" y="262"  font-size="16" text-anchor="middle" fill="#78716c">人員準備</text>
+  <text x="688" y="282"  font-size="16" text-anchor="middle" fill="#78716c">評鑑前5天</text>
 
   <!-- Row 3: y=310, 問答模擬演練 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="338"  font-size="22" font-weight="700" fill="#1e293b">問答模擬演練</text>
   <text x="100" y="358"  font-size="16" fill="#57534e">模擬委員訪視問答，熟悉回答方式</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331"  font-size="16" text-anchor="middle" fill="#57534e">訪視演練</text>
-  <text x="688" y="351"  font-size="16" text-anchor="middle" fill="#57534e">評鑑前3天</text>
+  <text x="688" y="337"  font-size="16" text-anchor="middle" fill="#57534e">訪視演練</text>
+  <text x="688" y="357"  font-size="16" text-anchor="middle" fill="#57534e">評鑑前3天</text>
 
   <!-- Row 4: y=385, 電子備份完成 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="413"  font-size="22" font-weight="700" fill="#1e293b">電子備份完成</text>
   <text x="100" y="433"  font-size="16" fill="#57534e">所有文件雲端備份，確保可調閱</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406"  font-size="16" text-anchor="middle" fill="#a8a29e">雙重備份</text>
-  <text x="688" y="426"  font-size="16" text-anchor="middle" fill="#a8a29e">評鑑前1天</text>
+  <text x="688" y="412"  font-size="16" text-anchor="middle" fill="#a8a29e">雙重備份</text>
+  <text x="688" y="432"  font-size="16" text-anchor="middle" fill="#a8a29e">評鑑前1天</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

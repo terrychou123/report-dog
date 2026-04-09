@@ -14,8 +14,8 @@
   <text x="100" y="185" font-size="22" fill="#1e293b" font-weight="700">3101 浴廁設施（3分）</text>
   <text x="100" y="208" font-size="16" fill="#57534e">浴廁數量比例、男女隔離設置、隱私設計（隔間與門簾）</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">3 分</text>
-  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">基本設施</text>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">3 分</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">基本設施</text>
 
   <!-- Row 2 (y=235) 3102 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -25,8 +25,8 @@
   <text x="100" y="260" font-size="22" fill="#1e293b" font-weight="700">3102 無障礙浴廁（4分）</text>
   <text x="100" y="283" font-size="16" fill="#57534e">輪椅迴轉 150×150cm、安全扶手、緊急求救鈴、防滑地板</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">4 分</text>
-  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">高分指標</text>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">4 分</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">高分指標</text>
 
   <!-- Row 3 (y=310) 3107 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -36,8 +36,8 @@
   <text x="100" y="335" font-size="22" fill="#1e293b" font-weight="700">3107 寢室面積（4分）</text>
   <text x="100" y="358" font-size="16" fill="#57534e">每人最低使用面積符合法定標準，需附平面圖與面積計算</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">4 分</text>
-  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">空間指標</text>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">4 分</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">空間指標</text>
 
   <!-- Row 4 (y=385) 3113 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -47,8 +47,8 @@
   <text x="100" y="410" font-size="22" fill="#1e293b" font-weight="700">3113 安全逃生設施（4分）</text>
   <text x="100" y="433" font-size="16" fill="#57534e">緊急照明、逃生方向標示、出口暢通、緊急廣播警報設備</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">4 分</text>
-  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">安全指標</text>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">4 分</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">安全指標</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

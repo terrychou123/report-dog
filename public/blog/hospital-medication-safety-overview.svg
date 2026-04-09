@@ -18,8 +18,8 @@
   <text x="100" y="222" font-size="16" fill="#57534e">給藥前五對查核、給藥有書面紀錄及執行簽名、自備藥品由藥師評估確認</text>
   <text x="100" y="246" font-size="16" fill="#9333ea">查核方式：資料查核＋訪談（問護理師五對執行細節）</text>
   <rect x="600" y="174" width="156" height="52" rx="8" fill="#9333ea" opacity="0.12"/>
-  <text x="678" y="190" font-size="16" fill="#9333ea" text-anchor="middle">訪談護理師</text>
-  <text x="678" y="210" font-size="16" fill="#9333ea" text-anchor="middle">五對執行方式</text>
+  <text x="678" y="196" font-size="16" fill="#9333ea" text-anchor="middle">訪談護理師</text>
+  <text x="678" y="216" font-size="16" fill="#9333ea" text-anchor="middle">五對執行方式</text>
 
   <!-- ===== Row 2（y=269）2.5.5 高警訊 #d97706 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -30,8 +30,8 @@
   <text x="100" y="325" font-size="16" fill="#57534e">特別標示及儲存管理、雙重查核機制落實、全員知悉高警訊藥品清單</text>
   <text x="100" y="349" font-size="16" fill="#d97706">查核方式：資料查核＋實地查核（當場翻藥箱查標示）</text>
   <rect x="600" y="277" width="156" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="678" y="293" font-size="16" fill="#d97706" text-anchor="middle">實地查標示</text>
-  <text x="678" y="313" font-size="16" fill="#d97706" text-anchor="middle">雙核記錄</text>
+  <text x="678" y="299" font-size="16" fill="#d97706" text-anchor="middle">實地查標示</text>
+  <text x="678" y="319" font-size="16" fill="#d97706" text-anchor="middle">雙核記錄</text>
 
   <!-- ===== Row 3（y=372）2.5.8 管制藥品 #78716c ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -42,8 +42,8 @@
   <text x="100" y="428" font-size="16" fill="#57534e">儲存領用符合管制藥品管理條例、清點紀錄完整無短缺、浪費量雙人簽名</text>
   <text x="100" y="452" font-size="16" fill="#78716c">查核方式：資料查核＋實地查核（翻清點本、查保險箱）</text>
   <rect x="600" y="380" width="156" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="678" y="396" font-size="16" fill="#78716c" text-anchor="middle">清點本連續</text>
-  <text x="678" y="416" font-size="16" fill="#78716c" text-anchor="middle">無空白</text>
+  <text x="678" y="402" font-size="16" fill="#78716c" text-anchor="middle">清點本連續</text>
+  <text x="678" y="422" font-size="16" fill="#78716c" text-anchor="middle">無空白</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

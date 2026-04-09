@@ -16,8 +16,8 @@
   <text x="100" y="205" font-size="28" fill="#1e293b" font-weight="700">日常服務記錄（每次服務）</text>
   <text x="100" y="235" font-size="16" fill="#57534e">記錄個案當日出席狀況、服務執行內容、即時觀察與特殊情況</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">每次服務</text>
-  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">即時記錄</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">每次服務</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">即時記錄</text>
 
   <!-- ===== Row 2（y=269）H=90 #78716c 月度狀況評估 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="308" font-size="28" fill="#1e293b" font-weight="700">月度狀況評估（每月一次）</text>
   <text x="100" y="338" font-size="16" fill="#57534e">彙整當月服務記錄、評估目標達成率、依狀況調整照護計畫內容</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">每月評估</text>
-  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">計畫調整</text>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">每月評估</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">計畫調整</text>
 
   <!-- ===== Row 3（y=372）H=90 #57534e 年度綜合評值 ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="411" font-size="28" fill="#1e293b" font-weight="700">年度綜合評值（每年至少一次）</text>
   <text x="100" y="441" font-size="16" fill="#57534e">全面回顧照護成效、更新照護計畫、與家屬溝通服務方向調整</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">年度評值</text>
-  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">家屬溝通</text>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">年度評值</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">家屬溝通</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

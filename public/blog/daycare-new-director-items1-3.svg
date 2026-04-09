@@ -16,8 +16,8 @@
   <text x="100" y="205" font-size="28" fill="#1e293b" font-weight="700">全面盤點現有人力狀況</text>
   <text x="100" y="235" font-size="16" fill="#57534e">確認各職類人數是否符合法規比例，建立個人訓練時數追蹤清單</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">上任第一週</text>
-  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">人力盤點</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">上任第一週</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">人力盤點</text>
 
   <!-- ===== Row 2（y=269）H=90 #78716c 熟悉手冊 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="308" font-size="28" fill="#1e293b" font-weight="700">熟讀服務作業手冊與評鑑基準</text>
   <text x="100" y="338" font-size="16" fill="#57534e">逐條閱讀評鑑指標，標記尚未符合項目，建立改善行動清單</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">上任第一月</text>
-  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">熟悉法規</text>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">上任第一月</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">熟悉法規</text>
 
   <!-- ===== Row 3（y=372）H=90 #57534e 說明會 ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="411" font-size="28" fill="#1e293b" font-weight="700">召開全員說明會</text>
   <text x="100" y="441" font-size="16" fill="#57534e">介紹自己的管理方向，說明評鑑準備重點，凝聚全員共識</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">上任第一月</text>
-  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">全員說明</text>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">上任第一月</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">全員說明</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

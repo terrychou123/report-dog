@@ -22,33 +22,33 @@
 
   <!-- 上方：護理師（核心，粗框） -->
   <rect x="330" y="120" width="140" height="56" rx="12" fill="white" stroke="#d97706" stroke-width="2.5"/>
-  <text x="400" y="138" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">護理師</text>
-  <text x="400" y="160" text-anchor="middle" font-size="14" fill="#57534e">主持會議 · 照護計畫主責</text>
+  <text x="400" y="143" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">護理師</text>
+  <text x="400" y="165" text-anchor="middle" font-size="14" fill="#57534e">主持會議 · 照護計畫主責</text>
 
   <!-- 右上：物理治療師 -->
   <rect x="540" y="148" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
-  <text x="610" y="167" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">物理治療師</text>
-  <text x="610" y="187" text-anchor="middle" font-size="14" fill="#57534e">移動功能 · 輔具評估</text>
+  <text x="610" y="172" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">物理治療師</text>
+  <text x="610" y="192" text-anchor="middle" font-size="14" fill="#57534e">移動功能 · 輔具評估</text>
 
   <!-- 右下：營養師 -->
   <rect x="540" y="338" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
-  <text x="610" y="357" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">營養師</text>
-  <text x="610" y="377" text-anchor="middle" font-size="14" fill="#57534e">飲食調整 · 管灌評估</text>
+  <text x="610" y="362" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">營養師</text>
+  <text x="610" y="382" text-anchor="middle" font-size="14" fill="#57534e">飲食調整 · 管灌評估</text>
 
   <!-- 下方：照服員主管 -->
   <rect x="330" y="408" width="140" height="56" rx="12" fill="white" stroke="#d97706" stroke-width="2.5"/>
-  <text x="400" y="427" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">照服員主管</text>
-  <text x="400" y="447" text-anchor="middle" font-size="14" fill="#57534e">日常照顧 · ADL 觀察</text>
+  <text x="400" y="432" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">照服員主管</text>
+  <text x="400" y="452" text-anchor="middle" font-size="14" fill="#57534e">日常照顧 · ADL 觀察</text>
 
   <!-- 左下：社工師 -->
   <rect x="120" y="338" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
-  <text x="190" y="357" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">社工師</text>
-  <text x="190" y="377" text-anchor="middle" font-size="14" fill="#57534e">家屬聯繫 · 資源連結</text>
+  <text x="190" y="362" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">社工師</text>
+  <text x="190" y="382" text-anchor="middle" font-size="14" fill="#57534e">家屬聯繫 · 資源連結</text>
 
   <!-- 左上：職能治療師 -->
   <rect x="120" y="148" width="140" height="56" rx="12" fill="white" stroke="#78716c" stroke-width="1.5"/>
-  <text x="190" y="167" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">職能治療師</text>
-  <text x="190" y="187" text-anchor="middle" font-size="14" fill="#57534e">ADL 訓練 · 認知活動</text>
+  <text x="190" y="172" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">職能治療師</text>
+  <text x="190" y="192" text-anchor="middle" font-size="14" fill="#57534e">ADL 訓練 · 認知活動</text>
 
   <!-- 粗框圖例 -->
   <rect x="40" y="454" width="16" height="16" rx="3" fill="white" stroke="#d97706" stroke-width="2.5"/>

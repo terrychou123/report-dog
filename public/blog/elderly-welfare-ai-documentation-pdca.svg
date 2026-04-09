@@ -18,8 +18,8 @@
   <text x="100" y="207" font-size="16" fill="#57534e" >B13 跌倒 ／ B14 壓力性損傷 ／ B15 疼痛 ／ B16 約束</text>
   <text x="100" y="229" font-size="16" fill="#57534e" >B17 感染 ／ B18 非計畫性住院 ／ B19 非計畫性體重改變</text>
   <rect x="620" y="167" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="14" font-weight="700" fill="#d97706"  text-anchor="middle">7 項指標</text>
-  <text x="688" y="199" font-size="14" fill="#d97706"  text-anchor="middle">各需每季報告</text>
+  <text x="688" y="186" font-size="14" font-weight="700" fill="#d97706"  text-anchor="middle">7 項指標</text>
+  <text x="688" y="204" font-size="14" fill="#d97706"  text-anchor="middle">各需每季報告</text>
 
   <!-- Row 2 -->
   <rect x="29" y="257" width="742" height="90" rx="6" fill="#ffffff"/>
@@ -30,8 +30,8 @@
   <text x="100" y="310" font-size="16" fill="#57534e" >護理師輸入本季案例數、數據，AI 自動生成：</text>
   <text x="100" y="332" font-size="16" fill="#57534e" >計畫說明-執行紀要-數據分析-改善措施建議</text>
   <rect x="620" y="270" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="284" font-size="14" font-weight="700" fill="#78716c"  text-anchor="middle">分鐘內</text>
-  <text x="688" y="302" font-size="14" fill="#78716c"  text-anchor="middle">7 份同時完成</text>
+  <text x="688" y="289" font-size="14" font-weight="700" fill="#78716c"  text-anchor="middle">分鐘內</text>
+  <text x="688" y="307" font-size="14" fill="#78716c"  text-anchor="middle">7 份同時完成</text>
 
   <!-- Row 3 -->
   <rect x="29" y="360" width="742" height="90" rx="6" fill="#ffffff"/>
@@ -42,8 +42,8 @@
   <text x="100" y="413" font-size="16" fill="#57534e" >核對案例數據正確性、補充個案處置細節、確認改善方向</text>
   <text x="100" y="435" font-size="16" fill="#57534e" >全年 28 份報告：56h - 17h，節省 70%</text>
   <rect x="620" y="373" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="387" font-size="14" font-weight="700" fill="#57534e"  text-anchor="middle">節省 70%</text>
-  <text x="688" y="405" font-size="14" fill="#57534e"  text-anchor="middle">全年時間</text>
+  <text x="688" y="392" font-size="14" font-weight="700" fill="#57534e"  text-anchor="middle">節省 70%</text>
+  <text x="688" y="410" font-size="14" fill="#57534e"  text-anchor="middle">全年時間</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

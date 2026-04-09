@@ -7,11 +7,11 @@
   <rect x="840" y="306" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="339" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">跨障別評估方法</text>
   <rect x="840" y="370" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="914" y="400" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">評估面向</text>
-  <text x="914" y="429" font-size="18" fill="#a8a29e" text-anchor="middle">六大需求域</text>
+  <text x="914" y="399" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">評估面向</text>
+  <text x="914" y="428" font-size="18" fill="#a8a29e" text-anchor="middle">六大需求域</text>
   <rect x="1000" y="370" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1074" y="400" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">工具選用</text>
-  <text x="1074" y="429" font-size="18" fill="#a8a29e" text-anchor="middle">依障別適配</text>
+  <text x="1074" y="399" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">工具選用</text>
+  <text x="1074" y="428" font-size="18" fill="#a8a29e" text-anchor="middle">依障別適配</text>
   <rect x="840" y="454" width="320" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1000" y="482" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">ISP 4101+4102+4103</text>
   <text x="1000" y="513" font-size="18" fill="#a8a29e" text-anchor="middle">合計 12 分重點指標</text>

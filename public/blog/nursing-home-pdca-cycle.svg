@@ -10,20 +10,20 @@
   <text x="400" y="310"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">改善</text>
   <!-- P 區塊 -->
   <rect x="240" y="115" width="180" height="90" rx="12" fill="#d97706"/>
-  <text x="330" y="150"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">P</text>
-  <text x="330" y="178"  font-size="16" fill="#ffffff" text-anchor="middle">Plan 計畫</text>
+  <text x="330" y="156"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">P</text>
+  <text x="330" y="184"  font-size="16" fill="#ffffff" text-anchor="middle">Plan 計畫</text>
   <!-- D 區塊 -->
   <rect x="540" y="230" width="180" height="90" rx="12" fill="#78716c"/>
-  <text x="630" y="265"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
-  <text x="630" y="293"  font-size="16" fill="#ffffff" text-anchor="middle">Do 執行</text>
+  <text x="630" y="271"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
+  <text x="630" y="299"  font-size="16" fill="#ffffff" text-anchor="middle">Do 執行</text>
   <!-- C 區塊 -->
   <rect x="240" y="360" width="180" height="90" rx="12" fill="#57534e"/>
-  <text x="330" y="395"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
-  <text x="330" y="423"  font-size="16" fill="#ffffff" text-anchor="middle">Check 查核</text>
+  <text x="330" y="401"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="330" y="429"  font-size="16" fill="#ffffff" text-anchor="middle">Check 查核</text>
   <!-- A 區塊 -->
   <rect x="80" y="230" width="180" height="90" rx="12" fill="#94a3b8"/>
-  <text x="170" y="265"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
-  <text x="170" y="293"  font-size="16" fill="#ffffff" text-anchor="middle">Act 行動</text>
+  <text x="170" y="271"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="170" y="299"  font-size="16" fill="#ffffff" text-anchor="middle">Act 行動</text>
   <!-- 箭頭連線 -->
   <path d="M420,205 Q490,230 540,255" stroke="#d97706" stroke-width="2.5" fill="none" marker-end="url(#arrow1)"/>
   <path d="M630,320 Q610,365 520,400" stroke="#78716c" stroke-width="2.5" fill="none" marker-end="url(#arrow2)"/>

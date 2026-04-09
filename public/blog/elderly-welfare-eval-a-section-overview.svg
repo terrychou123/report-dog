@@ -17,8 +17,8 @@
   <text x="100" y="142"  font-size="20" fill="#1e293b" font-weight="700">行政制度類（A1–A6）</text>
   <text x="100" y="164"  font-size="16" fill="#57534e">工作手冊、入出機構管理(二級加強)、業務計畫、查核缺失(二級加強)、住民保護、危機管理</text>
   <rect x="620" y="125" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="139"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">6 項</text>
-  <text x="688" y="157"  font-size="14" fill="#92400e" text-anchor="middle">含2項加強</text>
+  <text x="688" y="144"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">6 項</text>
+  <text x="688" y="162"  font-size="14" fill="#92400e" text-anchor="middle">含2項加強</text>
 
   <!-- Row 2: 人力配置類 A7-A12 -->
   <rect x="29" y="191" width="742" height="60" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="100" y="215"  font-size="20" fill="#1e293b" font-weight="700">人力配置類（A7–A12）</text>
   <text x="100" y="237"  font-size="16" fill="#57534e">業務負責人、社工、護理人員、特約專業人員、照服員、勞動條件</text>
   <rect x="620" y="198" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="212"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">6 項</text>
-  <text x="688" y="230"  font-size="14" fill="#57534e" text-anchor="middle">人力法規</text>
+  <text x="688" y="217"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">6 項</text>
+  <text x="688" y="235"  font-size="14" fill="#57534e" text-anchor="middle">人力法規</text>
 
   <!-- Row 3: 教育訓練類 A13-A15 -->
   <rect x="29" y="264" width="742" height="60" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="100" y="288"  font-size="20" fill="#1e293b" font-weight="700">教育訓練類（A13–A15）</text>
   <text x="100" y="310"  font-size="16" fill="#57534e">職前訓練（16H）、在職訓練（20H）、廚工持照與年度訓練</text>
   <rect x="620" y="271" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="285"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">3 項</text>
-  <text x="688" y="303"  font-size="14" fill="#57534e" text-anchor="middle">時數要求</text>
+  <text x="688" y="290"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">3 項</text>
+  <text x="688" y="308"  font-size="14" fill="#57534e" text-anchor="middle">時數要求</text>
 
   <!-- Row 4: 二級加強說明 -->
   <rect x="29" y="337" width="742" height="60" rx="8" fill="white"/>
@@ -50,8 +50,8 @@
   <text x="100" y="361"  font-size="20" fill="#1e293b" font-weight="700">二級加強項目</text>
   <text x="100" y="383"  font-size="16" fill="#57534e">A2 入出機構管理、A4 查核缺失改善 — 任一「待改善」即限制最終等級</text>
   <rect x="620" y="344" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="358"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">最高風險</text>
-  <text x="688" y="376"  font-size="14" fill="#dc2626" text-anchor="middle">優先確保</text>
+  <text x="688" y="363"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">最高風險</text>
+  <text x="688" y="381"  font-size="14" fill="#dc2626" text-anchor="middle">優先確保</text>
 
   <!-- Row 5: A區總配分 -->
   <rect x="29" y="410" width="742" height="60" rx="8" fill="white"/>
@@ -61,8 +61,8 @@
   <text x="100" y="434"  font-size="20" fill="#1e293b" font-weight="700">A 區總配分</text>
   <text x="100" y="456"  font-size="16" fill="#57534e">佔全項評鑑總配分約 20%，是影響優甲等的重要區域</text>
   <rect x="620" y="417" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="431"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">約 20%</text>
-  <text x="688" y="449"  font-size="14" fill="#92400e" text-anchor="middle">總配分</text>
+  <text x="688" y="436"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">約 20%</text>
+  <text x="688" y="454"  font-size="14" fill="#92400e" text-anchor="middle">總配分</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

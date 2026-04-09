@@ -6,8 +6,8 @@
   <!-- Q1 -->
   <rect x="40" y="118" width="720" height="98" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <rect x="40" y="118" width="80" height="98" rx="8" fill="#d97706"/>
-  <text x="80" y="155"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C11</text>
-  <text x="80" y="180"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C12</text>
+  <text x="80" y="160"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C11</text>
+  <text x="80" y="185"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">C12</text>
   <text x="140" y="148"  font-size="15" font-weight="700" fill="#d97706">Q：如果現在發生火災，你的職責是什麼？</text>
   <text x="140" y="174"  font-size="14" fill="#57534e">答：說明自衛消防編組角色（通報、滅火、疏散）、各樓層住民疏散順序，</text>
   <text x="140" y="198"  font-size="14" fill="#57534e">夜間人力不足時的應變方式（C12 外籍照服員需參與防災訓練）</text>

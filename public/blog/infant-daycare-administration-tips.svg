@@ -9,18 +9,18 @@
   <!-- Row 1 -->
   <rect x="60" y="130" width="680" height="88" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
   <rect x="60" y="130" width="10" height="88" rx="4" fill="#d97706"/>
-  <text x="100" y="160" font-size="20" fill="#d97706"  font-weight="700">關鍵一：制度訂定要完整</text>
-  <text x="100" y="190" font-size="16" fill="#57534e" >規章制度每項都需有書面版本，放置位置固定、人員知悉，委員詢問時能立即取出</text>
+  <text x="100" y="166" font-size="20" fill="#d97706"  font-weight="700">關鍵一：制度訂定要完整</text>
+  <text x="100" y="196" font-size="16" fill="#57534e" >規章制度每項都需有書面版本，放置位置固定、人員知悉，委員詢問時能立即取出</text>
   <!-- Row 2 -->
   <rect x="60" y="255" width="680" height="88" rx="10" fill="white" stroke="#78716c" stroke-width="2"/>
   <rect x="60" y="255" width="10" height="88" rx="4" fill="#78716c"/>
-  <text x="100" y="285" font-size="20" fill="#78716c"  font-weight="700">關鍵二：訓練紀錄要逐人核對</text>
-  <text x="100" y="315" font-size="16" fill="#57534e" >在職訓練逐人建立時數清冊，托育人員 18 小時、廚工及行政人員 4 小時，缺少一人即扣分</text>
+  <text x="100" y="291" font-size="20" fill="#78716c"  font-weight="700">關鍵二：訓練紀錄要逐人核對</text>
+  <text x="100" y="321" font-size="16" fill="#57534e" >在職訓練逐人建立時數清冊，托育人員 18 小時、廚工及行政人員 4 小時，缺少一人即扣分</text>
   <!-- Row 3 -->
   <rect x="60" y="380" width="680" height="88" rx="10" fill="white" stroke="#57534e" stroke-width="2"/>
   <rect x="60" y="380" width="10" height="88" rx="4" fill="#57534e"/>
-  <text x="100" y="410" font-size="20" fill="#57534e"  font-weight="700">關鍵三：文件查得到</text>
-  <text x="100" y="440" font-size="16" fill="#57534e" >委員通常在現場隨機翻查，文件分類標示清楚、正本影本分開，30 秒內找到任何資料</text>
+  <text x="100" y="416" font-size="20" fill="#57534e"  font-weight="700">關鍵三：文件查得到</text>
+  <text x="100" y="446" font-size="16" fill="#57534e" >委員通常在現場隨機翻查，文件分類標示清楚、正本影本分開，30 秒內找到任何資料</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

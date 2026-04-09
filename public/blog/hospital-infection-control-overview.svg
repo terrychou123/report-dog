@@ -18,8 +18,8 @@
   <text x="100" y="222" font-size="16" fill="#57534e">感控委員會定期開會有記錄、感控醫師護理師人力符合規定、年度計畫有追蹤報告</text>
   <text x="100" y="246" font-size="16" fill="#57534e">查核方式：資料查核</text>
   <rect x="600" y="174" width="156" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="678" y="190" font-size="16" fill="#dc2626" text-anchor="middle">人力+會議</text>
-  <text x="678" y="210" font-size="16" fill="#dc2626" text-anchor="middle">記錄+計畫</text>
+  <text x="678" y="196" font-size="16" fill="#dc2626" text-anchor="middle">人力+會議</text>
+  <text x="678" y="216" font-size="16" fill="#dc2626" text-anchor="middle">記錄+計畫</text>
 
   <!-- ===== Row 2（y=269）2.7.2 標準防護 #d97706 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -30,8 +30,8 @@
   <text x="100" y="325" font-size="16" fill="#57534e">手部衛生稽核執行率達標、隔離措施正確、PPE使用正確（訓練有記錄）</text>
   <text x="100" y="349" font-size="16" fill="#d97706" font-weight="600">查核方式：資料查核＋訪談＋實地查核（三重，最嚴格）</text>
   <rect x="600" y="277" width="156" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="678" y="293" font-size="16" fill="#d97706" text-anchor="middle">現場當場</text>
-  <text x="678" y="313" font-size="16" fill="#d97706" text-anchor="middle">觀察示範</text>
+  <text x="678" y="299" font-size="16" fill="#d97706" text-anchor="middle">現場當場</text>
+  <text x="678" y="319" font-size="16" fill="#d97706" text-anchor="middle">觀察示範</text>
 
   <!-- ===== Row 3（y=372）2.7.3 HAI監測 #78716c ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -42,8 +42,8 @@
   <text x="100" y="428" font-size="16" fill="#57534e">HAI定期監測、計算方法標準化（符合感控學會定義）、感染率異常即時調查</text>
   <text x="100" y="452" font-size="16" fill="#57534e">查核方式：資料查核（需有外部基準比較）</text>
   <rect x="600" y="380" width="156" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="678" y="396" font-size="16" fill="#78716c" text-anchor="middle">標準計算</text>
-  <text x="678" y="416" font-size="16" fill="#78716c" text-anchor="middle">外部比較</text>
+  <text x="678" y="402" font-size="16" fill="#78716c" text-anchor="middle">標準計算</text>
+  <text x="678" y="422" font-size="16" fill="#78716c" text-anchor="middle">外部比較</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

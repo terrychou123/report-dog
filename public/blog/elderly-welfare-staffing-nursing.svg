@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">聘任人數符合機構設置標準</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">依住宿型機構設置標準按床數比例配置；評鑑核對投保名冊與排班表</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="122"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">床數比例</text>
-  <text x="624" y="140"  font-size="14" fill="#57534e" text-anchor="middle">依法配置</text>
+  <text x="624" y="127"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">床數比例</text>
+  <text x="624" y="145"  font-size="14" fill="#57534e" text-anchor="middle">依法配置</text>
 
   <!-- Row 2: 執業登錄 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">完成執業登錄</text>
   <text x="118" y="223"  font-size="16" fill="#57534e">登錄機構須與實際服務機構一致；跨機構執業需有支援報備公文</text>
   <rect x="556" y="183" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="197"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">登錄確認</text>
-  <text x="624" y="215"  font-size="14" fill="#57534e" text-anchor="middle">機構一致</text>
+  <text x="624" y="202"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">登錄確認</text>
+  <text x="624" y="220"  font-size="14" fill="#57534e" text-anchor="middle">機構一致</text>
 
   <!-- Row 3: 全日排班 -->
   <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="118" y="275"  font-size="20" fill="#1e293b" font-weight="700">全日均應有護理人員上班（24H）</text>
   <text x="118" y="298"  font-size="16" fill="#57534e">日班、小夜班、大夜班均需護理人員值班；不得以照服員代理</text>
   <rect x="556" y="258" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="624" y="272"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">硬性要求</text>
-  <text x="624" y="290"  font-size="14" fill="#dc2626" text-anchor="middle">最常扣分</text>
+  <text x="624" y="277"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">硬性要求</text>
+  <text x="624" y="295"  font-size="14" fill="#dc2626" text-anchor="middle">最常扣分</text>
 
   <!-- Row 4: 近5年無違規 -->
   <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
@@ -50,13 +50,13 @@
   <text x="118" y="350"  font-size="20" fill="#1e293b" font-weight="700">近 5 年無違規聘用紀錄</text>
   <text x="118" y="373"  font-size="16" fill="#57534e">由主管機關直接提供資料；機構需事先向主管機關確認是否有紀錄</text>
   <rect x="556" y="333" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="347"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">主管機關</text>
-  <text x="624" y="365"  font-size="14" fill="#57534e" text-anchor="middle">提供資料</text>
+  <text x="624" y="352"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">主管機關</text>
+  <text x="624" y="370"  font-size="14" fill="#57534e" text-anchor="middle">提供資料</text>
 
   <!-- 警示說明 -->
   <rect x="50" y="404" width="700" height="52" rx="8" fill="#fef2f2" opacity="0.8"/>
-  <text x="400" y="420"  font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">夜班空窗最常被查核：排班表需呈現三班，並備妥護理人員簽到紀錄</text>
-  <text x="400" y="441"  font-size="15" fill="#dc2626" text-anchor="middle">假日、連假期間亦須有護理人員在班，建議提前準備備用排班名單</text>
+  <text x="400" y="425"  font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">夜班空窗最常被查核：排班表需呈現三班，並備妥護理人員簽到紀錄</text>
+  <text x="400" y="446"  font-size="15" fill="#dc2626" text-anchor="middle">假日、連假期間亦須有護理人員在班，建議提前準備備用排班名單</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

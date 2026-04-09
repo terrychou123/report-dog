@@ -15,8 +15,8 @@
   <text x="100" y="145" font-size="19" fill="#1e293b" font-weight="700">「符合衛生規範之食物保存」（指標 44）</text>
   <text x="100" y="166" font-size="16" fill="#57534e">白話：每批餐點需留樣，密封加蓋存於 7°C 以下冷藏，保存 48 小時後棄置，需有紀錄表</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">7°C / 48hr</text>
-  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">每日記錄</text>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">7°C / 48hr</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">每日記錄</text>
 
   <!-- Row 1（y=191）#78716c -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218" font-size="19" fill="#1e293b" font-weight="700">「落實感染管制措施」（指標 60）</text>
   <text x="100" y="239" font-size="16" fill="#57534e">白話：機構有感染管制手冊，依疾管署最新版本修訂，工作人員知悉手洗手、隔離措施程序</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">最新版本</text>
-  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">全員知悉</text>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">最新版本</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">全員知悉</text>
 
   <!-- Row 2（y=264）#57534e -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291" font-size="19" fill="#1e293b" font-weight="700">「嬰幼兒睡眠安全環境」（指標 55）</text>
   <text x="100" y="312" font-size="16" fill="#57534e">白話：1 歲以下嬰兒睡眠不使用枕頭、毛毯、玩偶，睡床間距 30 公分以上，需有查核記錄</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">無枕原則</text>
-  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">床距30cm</text>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">無枕原則</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">床距30cm</text>
 
   <!-- Row 3（y=337）#a8a29e -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364" font-size="19" fill="#1e293b" font-weight="700">「依委託給藥五對原則執行」（指標 59）</text>
   <text x="100" y="385" font-size="16" fill="#57534e">白話：家長委託給藥時，需核對姓名、藥品、劑量、時間、途徑（給藥方式），並填單記錄</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="357" font-size="16" fill="#1e293b" text-anchor="middle">五對核對</text>
-  <text x="688" y="377" font-size="16" fill="#1e293b" text-anchor="middle">每次填單</text>
+  <text x="688" y="363" font-size="16" fill="#1e293b" text-anchor="middle">五對核對</text>
+  <text x="688" y="383" font-size="16" fill="#1e293b" text-anchor="middle">每次填單</text>
 
   <!-- Row 4（y=410）#94a3b8 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437" font-size="19" fill="#1e293b" font-weight="700">「落實環境衛生清潔消毒工作」（指標 45-51）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">白話：廚房、廁所、玩具需按頻率清潔消毒（每日/每週），需有清潔記錄表，標明負責人</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="430" font-size="16" fill="#1e293b" text-anchor="middle">頻率量化</text>
-  <text x="688" y="450" font-size="16" fill="#1e293b" text-anchor="middle">逐日記錄</text>
+  <text x="688" y="436" font-size="16" fill="#1e293b" text-anchor="middle">頻率量化</text>
+  <text x="688" y="456" font-size="16" fill="#1e293b" text-anchor="middle">逐日記錄</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -14,8 +14,8 @@
   <text x="100" y="202" font-size="16" fill="#57534e">每月自主用電安全檢查台帳空白，防火管理人資格不符（不可由社工、醫事人員擔任）。</text>
   <text x="100" y="222" font-size="16" fill="#57534e">改善：年初排定半年檢修日，月檢查台帳由指定人員填寫，確認防火管理人資格。</text>
   <rect x="620" y="131" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="148" font-size="16" fill="#d97706" text-anchor="middle">一級必要</text>
-  <text x="688" y="166" font-size="16" fill="#d97706" text-anchor="middle">C9</text>
+  <text x="688" y="154" font-size="16" fill="#d97706" text-anchor="middle">一級必要</text>
+  <text x="688" y="172" font-size="16" fill="#d97706" text-anchor="middle">C9</text>
 
   <!-- Row 2 y=262 #78716c -->
   <rect x="28" y="262" width="744" height="130" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="346" font-size="16" fill="#57534e">常見缺失：只做白天演練、缺少夜間場次；演練書面紀錄不完整或缺評核報告。</text>
   <text x="100" y="366" font-size="16" fill="#57534e">改善：年初計畫含 1 次夜間演練；每次演練留存照片、簽到表、評核報告。</text>
   <rect x="620" y="275" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="292" font-size="16" fill="#78716c" text-anchor="middle">一級必要</text>
-  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">C11</text>
+  <text x="688" y="298" font-size="16" fill="#78716c" text-anchor="middle">一級必要</text>
+  <text x="688" y="316" font-size="16" fill="#78716c" text-anchor="middle">C11</text>
 
   <!-- 補充說明 -->
   <text x="46" y="420" font-size="15" fill="#57534e">補充：C10（疏散避難雙向路徑）和 C12（各樓層 A3 以上避難圖）同為一級必要，一併確認。</text>

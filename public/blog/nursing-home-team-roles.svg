@@ -17,8 +17,8 @@
   <text x="100" y="143" font-size="20" font-weight="700" fill="#1e293b">行政 / 主任</text>
   <text x="100" y="163" font-size="16" fill="#57534e">A1-A7 機構設置、危機管理｜A12-A15 訓練績效｜E1-E3 創新改善</text>
   <rect x="598" y="126" width="162" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="679" y="138" font-size="16" text-anchor="middle" fill="#d97706">A構面為主</text>
-  <text x="679" y="158" font-size="16" text-anchor="middle" fill="#d97706">經營管理核心</text>
+  <text x="679" y="144" font-size="16" text-anchor="middle" fill="#d97706">A構面為主</text>
+  <text x="679" y="164" font-size="16" text-anchor="middle" fill="#d97706">經營管理核心</text>
 
   <!-- Row 2：社工師 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="216" font-size="20" font-weight="700" fill="#1e293b">社工師</text>
   <text x="100" y="236" font-size="16" fill="#57534e">A8 社工配置｜B3-B8 個案計畫家屬溝通｜D1-D9 個案權益保障</text>
   <rect x="598" y="199" width="162" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="679" y="211" font-size="16" text-anchor="middle" fill="#78716c">D構面為主</text>
-  <text x="679" y="231" font-size="16" text-anchor="middle" fill="#78716c">個案權益核心</text>
+  <text x="679" y="217" font-size="16" text-anchor="middle" fill="#78716c">D構面為主</text>
+  <text x="679" y="237" font-size="16" text-anchor="middle" fill="#78716c">個案權益核心</text>
 
   <!-- Row 3：護理師A -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="289" font-size="20" font-weight="700" fill="#1e293b">護理師（護A）</text>
   <text x="100" y="309" font-size="16" fill="#57534e">A9 護理配置｜B9/B11-B16 醫療藥品跌倒壓損疼痛約束｜B22-B27</text>
   <rect x="598" y="272" width="162" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="679" y="284" font-size="16" text-anchor="middle" fill="#57534e">B構面（護A）</text>
-  <text x="679" y="304" font-size="16" text-anchor="middle" fill="#57534e">臨床照護品質</text>
+  <text x="679" y="290" font-size="16" text-anchor="middle" fill="#57534e">B構面（護A）</text>
+  <text x="679" y="310" font-size="16" text-anchor="middle" fill="#57534e">臨床照護品質</text>
 
   <!-- Row 4：護理師B -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="100" y="362" font-size="20" font-weight="700" fill="#1e293b">護理師（護B）</text>
   <text x="100" y="382" font-size="16" fill="#57534e">A11 照服員配比｜B17-B21 感染預防非計畫住院｜B25 疫苗｜C7/C8</text>
   <rect x="598" y="345" width="162" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="679" y="357" font-size="16" text-anchor="middle" fill="#78716c">B構面（護B）</text>
-  <text x="679" y="377" font-size="16" text-anchor="middle" fill="#78716c">感控衛生管理</text>
+  <text x="679" y="363" font-size="16" text-anchor="middle" fill="#78716c">B構面（護B）</text>
+  <text x="679" y="383" font-size="16" text-anchor="middle" fill="#78716c">感控衛生管理</text>
 
   <!-- Row 5：環安人員 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -61,8 +61,8 @@
   <text x="100" y="435" font-size="20" font-weight="700" fill="#1e293b">環安人員</text>
   <text x="100" y="455" font-size="16" fill="#57534e">C1-C6 無障礙設施緊急呼叫｜C9-C14 消防疏散演練EOP｜C16</text>
   <rect x="598" y="418" width="162" height="44" rx="8" fill="#94a3b8" opacity="0.15"/>
-  <text x="679" y="430" font-size="16" text-anchor="middle" fill="#57534e">C構面為主</text>
-  <text x="679" y="450" font-size="16" text-anchor="middle" fill="#57534e">安全環境設備</text>
+  <text x="679" y="436" font-size="16" text-anchor="middle" fill="#57534e">C構面為主</text>
+  <text x="679" y="456" font-size="16" text-anchor="middle" fill="#57534e">安全環境設備</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

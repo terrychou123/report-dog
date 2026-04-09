@@ -10,8 +10,8 @@
 <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">定期評值</text>
 <text x="100" y="234" font-size="16" fill="#57534e">每3個月進行一次定期追蹤評值作業</text>
 <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-<text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">頻率規範</text>
-<text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">每3個月</text>
+<text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">頻率規範</text>
+<text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">每3個月</text>
 <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
 <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
@@ -19,8 +19,8 @@
 <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">即時評值</text>
 <text x="100" y="337" font-size="16" fill="#57534e">狀況顯著改變時立即進行追蹤評值</text>
 <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-<text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">即時要求</text>
-<text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">狀況改變</text>
+<text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">即時要求</text>
+<text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">狀況改變</text>
 <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
 <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
@@ -28,7 +28,7 @@
 <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">通知記錄</text>
 <text x="100" y="440" font-size="16" fill="#57534e">評值結果需通知家屬並完整留存紀錄</text>
 <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-<text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">文件要求</text>
-<text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">通知家屬</text>
+<text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">文件要求</text>
+<text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">通知家屬</text>
 <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

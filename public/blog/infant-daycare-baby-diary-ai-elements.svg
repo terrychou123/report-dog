@@ -16,8 +16,8 @@
   <text x="100" y="224" font-size="16" fill="#57534e">記錄該名幼兒當天的動作、語言、社會互動觀察，而非通用性描述，委員會交叉核對不同幼兒的日誌是否各異</text>
   <text x="100" y="244" font-size="14" fill="#d97706">範例：「小明今日爬行速度明顯加快，嘗試扶站時腿部更有力」</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">評鑑核查</text>
-  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">最重要</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">評鑑核查</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">最重要</text>
 
   <!-- Row 1（y=269）#78716c -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="327" font-size="16" fill="#57534e">記錄每餐進食量、午睡時間、尿布更換次數，這類記錄是基本，但不能只有這些而缺乏發展觀察</text>
   <text x="100" y="347" font-size="14" fill="#78716c">提示：飲食量+發展觀察並重，各佔日誌約 50%，才符合個別化要求</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">基本項目</text>
-  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">不可或缺</text>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">基本項目</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">不可或缺</text>
 
   <!-- Row 2（y=372）#57534e -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -40,8 +40,8 @@
   <text x="100" y="430" font-size="16" fill="#57534e">視需要附上今日特別事項或需家長知悉的內容（如換新奶粉、出現輕微紅疹），加強親師互動</text>
   <text x="100" y="450" font-size="16" fill="#57534e">提示：不是每天都要寫，但有異常狀況時必須記錄，評鑑委員會核查</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">加分項目</text>
-  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">親師互動</text>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">加分項目</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">親師互動</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

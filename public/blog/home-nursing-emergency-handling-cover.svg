@@ -34,7 +34,7 @@
   <text x="1000" y="507" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">辦法 · 通報記錄 · 改善追蹤</text>
 
   <rect x="840" y="535" width="320" height="52" rx="10" fill="#78716c" opacity="0.10"/>
-  <text x="1000" y="554" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">個案緊急事件處理</text>
+  <text x="1000" y="569" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">個案緊急事件處理</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="585" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

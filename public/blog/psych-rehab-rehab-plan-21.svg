@@ -14,8 +14,8 @@
   <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700">功能性評估</text>
   <text x="100" y="207" font-size="16" fill="#57534e">日常生活、社交、認知、職業技能；住宿型特別強調 ADL/IADL 獨立生活功能</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="15" fill="#d97706" text-anchor="middle">入案評估</text>
-  <text x="688" y="201" font-size="15" fill="#d97706" text-anchor="middle">標準化工具</text>
+  <text x="688" y="186" font-size="15" fill="#d97706" text-anchor="middle">入案評估</text>
+  <text x="688" y="206" font-size="15" fill="#d97706" text-anchor="middle">標準化工具</text>
 
   <!-- Row 2: 自殺風險評估 -->
   <rect x="28" y="235" width="744" height="62" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
@@ -26,8 +26,8 @@
   <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">自殺及自傷風險評估（精神復健機構特有）</text>
   <text x="100" y="282" font-size="16" fill="#dc2626">需有系統性評估機制、紀錄與後續追蹤——最容易被忽略的必備要素</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="256" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">定期更新</text>
-  <text x="688" y="276" font-size="15" fill="#dc2626" text-anchor="middle">追蹤紀錄</text>
+  <text x="688" y="261" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">定期更新</text>
+  <text x="688" y="281" font-size="15" fill="#dc2626" text-anchor="middle">追蹤紀錄</text>
 
   <!-- Row 3: 優勢評估 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700">優勢與復元期待評估（CHIME 精神）</text>
   <text x="100" y="357" font-size="16" fill="#57534e">不只評估問題和缺損，也記錄學員的優勢、興趣、復元目標（體現個人復元理念）</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="15" fill="#57534e" text-anchor="middle">優勢導向</text>
-  <text x="688" y="351" font-size="15" fill="#57534e" text-anchor="middle">非問題聚焦</text>
+  <text x="688" y="336" font-size="15" fill="#57534e" text-anchor="middle">優勢導向</text>
+  <text x="688" y="356" font-size="15" fill="#57534e" text-anchor="middle">非問題聚焦</text>
 
   <!-- Row 4: 時效要求 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700">時效要求：入案後 7–14 個工作天內完成</text>
   <text x="100" y="432" font-size="16" fill="#57534e">初次評估需在規定時效內完成，並由合格專業人員（護理師、社工、職能治療師）執行</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="15" fill="#a8a29e" text-anchor="middle">7–14天</text>
-  <text x="688" y="426" font-size="15" fill="#a8a29e" text-anchor="middle">入案後完成</text>
+  <text x="688" y="411" font-size="15" fill="#a8a29e" text-anchor="middle">7–14天</text>
+  <text x="688" y="431" font-size="15" fill="#a8a29e" text-anchor="middle">入案後完成</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

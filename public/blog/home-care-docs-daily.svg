@@ -17,8 +17,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700" >紀錄品質差異</text>
   <text x="100" y="208" font-size="16" fill="#57534e" >日常習慣vs評鑑前補寫，委員一眼看出</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >日常管理</text>
-  <text x="688" y="201" font-size="16" text-anchor="middle" fill="#d97706" >明顯優勢</text>
+  <text x="688" y="187" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >日常管理</text>
+  <text x="688" y="207" font-size="16" text-anchor="middle" fill="#d97706" >明顯優勢</text>
 
   <!-- Row 2 (y=235, color=#78716c) -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700" >時間成本差異</text>
   <text x="100" y="283" font-size="16" fill="#57534e" >平時15分鐘填寫vs評鑑前通宵整理</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >省時省力</text>
-  <text x="688" y="276" font-size="16" text-anchor="middle" fill="#78716c" >差距很大</text>
+  <text x="688" y="262" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >省時省力</text>
+  <text x="688" y="282" font-size="16" text-anchor="middle" fill="#78716c" >差距很大</text>
 
   <!-- Row 3 (y=310, color=#57534e) -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700" >遺漏風險差異</text>
   <text x="100" y="358" font-size="16" fill="#57534e" >日常留底vs倉促補件，漏洞更多</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >完整度</text>
-  <text x="688" y="351" font-size="16" text-anchor="middle" fill="#57534e" >風險倍增</text>
+  <text x="688" y="337" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >完整度</text>
+  <text x="688" y="357" font-size="16" text-anchor="middle" fill="#57534e" >風險倍增</text>
 
   <!-- Row 4 (y=385, color=#a8a29e) -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700" >壓力差異</text>
   <text x="100" y="433" font-size="16" fill="#57534e" >從容面對評鑑vs評鑑前集體焦慮</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >心理負擔</text>
-  <text x="688" y="426" font-size="16" text-anchor="middle" fill="#a8a29e" >天壤之別</text>
+  <text x="688" y="412" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >心理負擔</text>
+  <text x="688" y="432" font-size="16" text-anchor="middle" fill="#a8a29e" >天壤之別</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>

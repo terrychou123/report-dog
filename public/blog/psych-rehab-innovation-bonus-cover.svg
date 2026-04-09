@@ -7,8 +7,8 @@
   <text x="1010" y="215" font-size="130" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">CHIME</text>
   <!-- C→B等 標籤 -->
   <rect x="870" y="248" width="280" height="56" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1010" y="266" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">C 等 - B 等卓越策略</text>
-  <text x="1010" y="299" font-size="18" fill="#57534e" text-anchor="middle">差距不在文件，在理念體現</text>
+  <text x="1010" y="267" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">C 等 - B 等卓越策略</text>
+  <text x="1010" y="300" font-size="18" fill="#57534e" text-anchor="middle">差距不在文件，在理念體現</text>
   <!-- 可選項目說明 -->
   <text x="1010" y="370" font-size="20" fill="#57534e" text-anchor="middle">可1.9（日間型）</text>
   <text x="1010" y="400" font-size="20" fill="#57534e" text-anchor="middle">可1.11（住宿型）</text>

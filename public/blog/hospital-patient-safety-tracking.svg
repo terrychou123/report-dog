@@ -17,8 +17,8 @@
   <text x="100" y="184" font-size="22" fill="#1e293b" font-weight="700">每月｜品質指標月報</text>
   <text x="100" y="208" font-size="16" fill="#57534e">2.2.1：每月收集指標數值、趨勢比較，及早發現異常，品管委員會審查前完成</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">月底前完成</text>
-  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">品管人員主責</text>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">月底前完成</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">品管人員主責</text>
 
   <!-- ===== Row 2（y=235）季度分析 #78716c ===== -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="259" font-size="22" fill="#1e293b" font-weight="700">每季｜品管委員會審查</text>
   <text x="100" y="283" font-size="16" fill="#57534e">2.2.1+2.2.2：品質指標分析、病安文化推動進度、異常事件RCA回顧，有決議紀錄</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">委員會召開</text>
-  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">至少每季一次</text>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">委員會召開</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">至少每季一次</text>
 
   <!-- ===== Row 3（y=310）RCA追蹤 #57534e ===== -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="334" font-size="22" fill="#1e293b" font-weight="700">事件發生後3個月｜RCA追蹤確認</text>
   <text x="100" y="358" font-size="16" fill="#57534e">2.2.3：改善措施執行完成確認、類似事件有無再發、追蹤文件歸檔備評鑑查閱</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">RCA完成</text>
-  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">3個月後回追</text>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">RCA完成</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">3個月後回追</text>
 
   <!-- ===== Row 4（y=385）年度計畫 #a8a29e ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="100" y="409" font-size="22" fill="#1e293b" font-weight="700">每年｜病安目標年度計畫</text>
   <text x="100" y="433" font-size="16" fill="#57534e">2.2.2：年初確認衛福部最新病安目標，制定推動計畫，年底評估執行成效</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">年初確認</text>
-  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">衛福部公告</text>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">年初確認</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">衛福部公告</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

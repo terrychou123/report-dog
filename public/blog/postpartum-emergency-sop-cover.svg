@@ -27,8 +27,8 @@
 
   <!-- 右側 SOP 格式提示 -->
   <rect x="840" y="503" width="320" height="56" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="520" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">識別-處置-通報-記錄</text>
-  <text x="1000" y="554" font-size="18" fill="#78716c" text-anchor="middle">SOP 標準格式</text>
+  <text x="1000" y="521" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">識別-處置-通報-記錄</text>
+  <text x="1000" y="555" font-size="18" fill="#78716c" text-anchor="middle">SOP 標準格式</text>
 
   <rect x="840" y="566" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="1000" y="595" font-size="20" fill="#57534e" text-anchor="middle">含緊急聯絡電話張貼</text>

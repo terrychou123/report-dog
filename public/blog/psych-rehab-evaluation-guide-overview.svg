@@ -17,14 +17,14 @@
   <line x1="60" y1="228" x2="366" y2="228" stroke="#e8e6de" stroke-width="1"/>
   <!-- 章節分佈 -->
   <rect x="60" y="240" width="306" height="36" rx="8" fill="#eff6ff"/>
-  <text x="80" y="258" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
-  <text x="346" y="258" text-anchor="end" font-size="17" fill="#0284c7" font-weight="700">34分 / 10條</text>
+  <text x="80" y="264" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
+  <text x="346" y="264" text-anchor="end" font-size="17" fill="#0284c7" font-weight="700">34分 / 10條</text>
   <rect x="60" y="284" width="306" height="36" rx="8" fill="#f0fdf4"/>
-  <text x="80" y="302" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
-  <text x="346" y="302" text-anchor="end" font-size="17" fill="#16a34a" font-weight="700">37分 / 14條</text>
+  <text x="80" y="308" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
+  <text x="346" y="308" text-anchor="end" font-size="17" fill="#16a34a" font-weight="700">37分 / 14條</text>
   <rect x="60" y="328" width="306" height="36" rx="8" fill="#fff7ed"/>
-  <text x="80" y="346" font-size="17" fill="#1e293b" font-weight="700">第3章 服務品質</text>
-  <text x="346" y="346" text-anchor="end" font-size="17" fill="#ea580c" font-weight="700">29分 / 12條</text>
+  <text x="80" y="352" font-size="17" fill="#1e293b" font-weight="700">第3章 服務品質</text>
+  <text x="346" y="352" text-anchor="end" font-size="17" fill="#ea580c" font-weight="700">29分 / 12條</text>
   <!-- 特殊項目 -->
   <text x="60" y="388" font-size="15" fill="#57534e">可選：1.2、1.9（共2條）</text>
   <text x="60" y="408" font-size="15" fill="#57534e">試評：2.13、2.14（不計分）</text>
@@ -42,14 +42,14 @@
   <line x1="434" y1="228" x2="740" y2="228" stroke="#e8e6de" stroke-width="1"/>
   <!-- 章節分佈 -->
   <rect x="434" y="240" width="306" height="36" rx="8" fill="#eff6ff"/>
-  <text x="454" y="258" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
-  <text x="720" y="258" text-anchor="end" font-size="17" fill="#0284c7" font-weight="700">33分 / 12條</text>
+  <text x="454" y="264" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
+  <text x="720" y="264" text-anchor="end" font-size="17" fill="#0284c7" font-weight="700">33分 / 12條</text>
   <rect x="434" y="284" width="306" height="36" rx="8" fill="#f0fdf4"/>
-  <text x="454" y="302" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
-  <text x="720" y="302" text-anchor="end" font-size="17" fill="#16a34a" font-weight="700">37分 / 14條</text>
+  <text x="454" y="308" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
+  <text x="720" y="308" text-anchor="end" font-size="17" fill="#16a34a" font-weight="700">37分 / 14條</text>
   <rect x="434" y="328" width="306" height="36" rx="8" fill="#fff7ed"/>
-  <text x="454" y="346" font-size="17" fill="#1e293b" font-weight="700">第3章 服務品質</text>
-  <text x="720" y="346" text-anchor="end" font-size="17" fill="#ea580c" font-weight="700">30分 / 14條</text>
+  <text x="454" y="352" font-size="17" fill="#1e293b" font-weight="700">第3章 服務品質</text>
+  <text x="720" y="352" text-anchor="end" font-size="17" fill="#ea580c" font-weight="700">30分 / 14條</text>
   <!-- 特殊項目 -->
   <text x="434" y="388" font-size="15" fill="#57534e">可選：1.2、1.11、3.5（共3條）</text>
   <text x="434" y="408" font-size="15" fill="#57534e">試評：2.13、2.14、3.14（不計分）</text>

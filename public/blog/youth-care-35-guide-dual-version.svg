@@ -37,14 +37,14 @@
   <!-- 19 離院協助 -->
   <rect x="40" y="330" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="330" width="6" height="50" rx="2" fill="#4f46e5"/>
-  <text x="60" y="350" font-size="18" fill="#1e293b" font-weight="700">項目 19：離院協助與準備 2 分</text>
-  <text x="60" y="370" font-size="15" fill="#57534e">協助嬰幼兒離院準備（轉銜協助）</text>
+  <text x="60" y="351" font-size="18" fill="#1e293b" font-weight="700">項目 19：離院協助與準備 2 分</text>
+  <text x="60" y="371" font-size="15" fill="#57534e">協助嬰幼兒離院準備（轉銜協助）</text>
 
   <!-- 20 直接服務 -->
   <rect x="40" y="390" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="390" width="6" height="50" rx="2" fill="#4f46e5"/>
-  <text x="60" y="410" font-size="18" fill="#1e293b" font-weight="700">項目 20：直接服務 10 分</text>
-  <text x="60" y="430" font-size="15" fill="#57534e">處遇計畫、生活紀錄、重聚處置</text>
+  <text x="60" y="411" font-size="18" fill="#1e293b" font-weight="700">項目 20：直接服務 10 分</text>
+  <text x="60" y="431" font-size="15" fill="#57534e">處遇計畫、生活紀錄、重聚處置</text>
 
   <!-- 右欄四項 -->
   <!-- 21 入院協助 -->
@@ -65,14 +65,14 @@
   <!-- 23 離院協助 -->
   <rect x="420" y="330" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="420" y="330" width="6" height="50" rx="2" fill="#7c3aed"/>
-  <text x="440" y="350" font-size="18" fill="#1e293b" font-weight="700">項目 23：離院協助與準備 4 分</text>
-  <text x="440" y="370" font-size="15" fill="#57534e">離院準備 2分＋獨立生活技巧訓練 2分</text>
+  <text x="440" y="351" font-size="18" fill="#1e293b" font-weight="700">項目 23：離院協助與準備 4 分</text>
+  <text x="440" y="371" font-size="15" fill="#57534e">離院準備 2分＋獨立生活技巧訓練 2分</text>
 
   <!-- 24 直接服務 -->
   <rect x="420" y="390" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="420" y="390" width="6" height="50" rx="2" fill="#7c3aed"/>
-  <text x="440" y="410" font-size="18" fill="#1e293b" font-weight="700">項目 24：直接服務 9 分</text>
-  <text x="440" y="430" font-size="15" fill="#57534e">處遇計畫、心理諮商、就學輔導</text>
+  <text x="440" y="411" font-size="18" fill="#1e293b" font-weight="700">項目 24：直接服務 9 分</text>
+  <text x="440" y="431" font-size="15" fill="#57534e">處遇計畫、心理諮商、就學輔導</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

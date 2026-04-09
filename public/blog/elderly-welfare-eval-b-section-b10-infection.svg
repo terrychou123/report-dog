@@ -16,8 +16,8 @@
   <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" >每日體溫量測與線上通報</text>
   <text x="108" y="182" font-size="16" fill="#57534e" >工作人員與服務對象每日至少量測 1 次體溫，依規定按時上網登載通報</text>
   <rect x="620" y="143" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="157" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">每日執行</text>
-  <text x="688" y="176" font-size="14" fill="#d97706" text-anchor="middle" >線上登載</text>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">每日執行</text>
+  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" >線上登載</text>
 
   <!-- 列 2 -->
   <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
@@ -27,8 +27,8 @@
   <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" >各類傳染病通報作業流程</text>
   <text x="108" y="257" font-size="16" fill="#57534e" >呼吸道、腸道傳染病、不明發燒、群聚感染事件均有作業流程及通報辦法</text>
   <rect x="620" y="218" width="136" height="46" rx="8" fill="#dcfce7" opacity="0.12"/>
-  <text x="688" y="232" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">4 類傳染病</text>
-  <text x="688" y="251" font-size="14" fill="#16a34a" text-anchor="middle" >流程明確</text>
+  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">4 類傳染病</text>
+  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" >流程明確</text>
 
   <!-- 列 3 -->
   <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
@@ -38,8 +38,8 @@
   <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" >感染管制手冊年度更新</text>
   <text x="108" y="332" font-size="16" fill="#57534e" >制定感染管制手冊並確實執行，每年至少檢視更新 1 次，洗手設施配置齊全</text>
   <rect x="620" y="293" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="307" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">年度更新</text>
-  <text x="688" y="326" font-size="14" fill="#78716c" text-anchor="middle" >手冊必備</text>
+  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">年度更新</text>
+  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" >手冊必備</text>
 
   <!-- 列 4 -->
   <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
@@ -49,8 +49,8 @@
   <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" >防護物資適當儲備與管理</text>
   <text x="108" y="407" font-size="16" fill="#57534e" >口罩手套等防護裝備有儲備量，定期檢視效期，離地離牆通風儲放，訪客亦納入</text>
   <rect x="620" y="368" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="382" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">物資儲備</text>
-  <text x="688" y="401" font-size="14" fill="#57534e" text-anchor="middle" >效期管理</text>
+  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">物資儲備</text>
+  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" >效期管理</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

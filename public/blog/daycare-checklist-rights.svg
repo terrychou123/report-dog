@@ -16,8 +16,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">知情同意（第 1 條）</text>
   <text x="100" y="208" font-size="16" fill="#57534e">服務說明書與同意書是否依規簽署保存</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">知情</text>
-  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">同意</text>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">知情</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">同意</text>
 
   <!-- Row 2 (y=235) #78716c 隱私保護 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">隱私保護（第 2 條）</text>
   <text x="100" y="283" font-size="16" fill="#57534e">個案資料保管與存取是否符合個資規定</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">資料</text>
-  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">保管</text>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">資料</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">保管</text>
 
   <!-- Row 3 (y=310) #57534e 申訴管道 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">申訴管道（第 3 條）</text>
   <text x="100" y="358" font-size="16" fill="#57534e">申訴箱設置及投訴處理紀錄是否完整</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">申訴</text>
-  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">紀錄</text>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">申訴</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">紀錄</text>
 
   <!-- Row 4 (y=385) #a8a29e 尊嚴照顧 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">尊嚴照顧（第 4 條）</text>
   <text x="100" y="433" font-size="16" fill="#57534e">照顧過程是否符合尊嚴與個案自主要求</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">尊嚴</text>
-  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">自主</text>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">尊嚴</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">自主</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

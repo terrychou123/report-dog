@@ -11,8 +11,8 @@
 
   <!-- 步驟1 -->
   <rect x="40" y="130" width="155" height="110" rx="12" fill="#d97706"/>
-  <text x="117" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
-  <text x="117" y="198" font-size="18" fill="white" text-anchor="middle" >建立機制</text>
+  <text x="117" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
+  <text x="117" y="206" font-size="18" fill="white" text-anchor="middle" >建立機制</text>
   <text x="117" y="310" font-size="14" fill="#57534e" text-anchor="middle" >訂定安寧緩和</text>
   <text x="117" y="330" font-size="14" fill="#57534e" text-anchor="middle" >療護工作計畫</text>
   <text x="117" y="350" font-size="14" fill="#57534e" text-anchor="middle" >或流程</text>
@@ -23,8 +23,8 @@
 
   <!-- 步驟2 -->
   <rect x="235" y="130" width="155" height="110" rx="12" fill="#78716c"/>
-  <text x="312" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
-  <text x="312" y="198" font-size="18" fill="white" text-anchor="middle" >個別評估</text>
+  <text x="312" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
+  <text x="312" y="206" font-size="18" fill="white" text-anchor="middle" >個別評估</text>
   <text x="312" y="310" font-size="14" fill="#57534e" text-anchor="middle" >依住民狀況</text>
   <text x="312" y="330" font-size="14" fill="#57534e" text-anchor="middle" >評估安寧療護</text>
   <text x="312" y="350" font-size="14" fill="#57534e" text-anchor="middle" >需求，進行溝通</text>
@@ -35,8 +35,8 @@
 
   <!-- 步驟3 -->
   <rect x="430" y="130" width="155" height="110" rx="12" fill="#57534e"/>
-  <text x="507" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
-  <text x="507" y="198" font-size="18" fill="white" text-anchor="middle" >執行記錄</text>
+  <text x="507" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
+  <text x="507" y="206" font-size="18" fill="white" text-anchor="middle" >執行記錄</text>
   <text x="507" y="310" font-size="14" fill="#57534e" text-anchor="middle" >有執行記錄，</text>
   <text x="507" y="330" font-size="14" fill="#57534e" text-anchor="middle" >或說明無法</text>
   <text x="507" y="350" font-size="14" fill="#57534e" text-anchor="middle" >提供的原因</text>
@@ -47,8 +47,8 @@
 
   <!-- 步驟4 -->
   <rect x="625" y="130" width="135" height="110" rx="12" fill="#a8a29e"/>
-  <text x="692" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
-  <text x="692" y="198" font-size="18" fill="white" text-anchor="middle" >病人自主</text>
+  <text x="692" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
+  <text x="692" y="206" font-size="18" fill="white" text-anchor="middle" >病人自主</text>
   <text x="692" y="310" font-size="14" fill="#57534e" text-anchor="middle" >推動預立</text>
   <text x="692" y="330" font-size="14" fill="#57534e" text-anchor="middle" >醫療決定</text>
   <text x="692" y="350" font-size="14" fill="#57534e" text-anchor="middle" >有紀錄</text>

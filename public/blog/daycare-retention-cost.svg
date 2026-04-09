@@ -16,8 +16,8 @@
   <text x="100" y="205" font-size="28" fill="#1e293b" font-weight="700">留任率計算公式</text>
   <text x="100" y="235" font-size="16" fill="#57534e">（年底在職人數 ÷ 年初在職人數）× 100%，全職與兼職分開計算</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">全職分開</text>
-  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">計算清楚</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">全職分開</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">計算清楚</text>
 
   <!-- ===== Row 2（y=269）H=90 #78716c 評鑑標準 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="308" font-size="28" fill="#1e293b" font-weight="700">評鑑評分標準</text>
   <text x="100" y="338" font-size="16" fill="#57534e">留任率 70% 以上為合格，80% 以上為優良，低於 70% 為主要缺失</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">70% 合格</text>
-  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">80% 優良</text>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">70% 合格</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">80% 優良</text>
 
   <!-- ===== Row 3（y=372）H=90 #57534e 加分關鍵 ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="411" font-size="28" fill="#1e293b" font-weight="700">評鑑加分關鍵</text>
   <text x="100" y="441" font-size="16" fill="#57534e">提供年度留任率趨勢圖表、離職原因分析、改善行動說明</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">趨勢圖表</text>
-  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">主動管理</text>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">趨勢圖表</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">主動管理</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -36,8 +36,8 @@
   <!-- Check 下方 -->
   <rect x="270" y="388" width="260" height="90" rx="12" fill="#57534e" opacity="0.12"/>
   <rect x="270" y="388" width="260" height="6" rx="3" fill="#57534e"/>
-  <text x="400" y="420" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" >Check（查核）</text>
-  <text x="400" y="445" font-size="14" fill="#57534e" text-anchor="middle" >品質會議討論，比較閾值</text>
+  <text x="400" y="428" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" >Check（查核）</text>
+  <text x="400" y="453" font-size="14" fill="#57534e" text-anchor="middle" >品質會議討論，比較閾值</text>
   <!-- 箭頭上 -->
   <line x1="400" y1="386" x2="400" y2="352" stroke="#57534e" stroke-width="2" stroke-dasharray="4,3"/>
   <polygon points="393,352 407,352 400,342" fill="#57534e"/>

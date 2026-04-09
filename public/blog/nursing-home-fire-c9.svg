@@ -17,8 +17,8 @@
   <text x="105" y="142" font-size="14" fill="#1e293b" font-weight="600">每半年委託消防設備師（士）辦理消防安全設備檢修申報</text>
   <text x="105" y="162" font-size="14" fill="#57534e">須留存申報書與檢修紀錄，建議保存至少 3 年備查</text>
   <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="140" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">佐證文件</text>
-  <text x="688" y="158" font-size="14" fill="#78716c" text-anchor="middle">消防申報書×2</text>
+  <text x="688" y="145" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">佐證文件</text>
+  <text x="688" y="163" font-size="14" fill="#78716c" text-anchor="middle">消防申報書×2</text>
 
   <!-- 列 2：每月用電檢查 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="105" y="215" font-size="14" fill="#1e293b" font-weight="600">每月自主用電安全檢查</text>
   <text x="105" y="235" font-size="14" fill="#57534e">須有書面記錄，涵蓋延長線、電器設備、配電盤等，不得回溯補填</text>
   <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="213" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">佐證文件</text>
-  <text x="688" y="231" font-size="14" fill="#78716c" text-anchor="middle">月度檢查表×12</text>
+  <text x="688" y="218" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">佐證文件</text>
+  <text x="688" y="236" font-size="14" fill="#78716c" text-anchor="middle">月度檢查表×12</text>
 
   <!-- 列 3：防火管理人資格 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="105" y="288" font-size="14" fill="#1e293b" font-weight="600">防火管理人資格限制</text>
   <text x="105" y="308" font-size="14" fill="#57534e">不得由社工、醫事人員或照服員兼任，須取得消防局核准資格證書</text>
   <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="286" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">佐證文件</text>
-  <text x="688" y="304" font-size="14" fill="#78716c" text-anchor="middle">資格證書影本</text>
+  <text x="688" y="291" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">佐證文件</text>
+  <text x="688" y="309" font-size="14" fill="#78716c" text-anchor="middle">資格證書影本</text>
 
   <!-- 列 4：EOP與演練 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="105" y="361" font-size="14" fill="#1e293b" font-weight="600">防火管理人執行職責紀錄</text>
   <text x="105" y="381" font-size="14" fill="#57534e">須有定期執行消防相關工作的書面紀錄，評鑑委員會詢問職責內容</text>
   <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="359" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">佐證文件</text>
-  <text x="688" y="377" font-size="14" fill="#78716c" text-anchor="middle">執行紀錄彙整</text>
+  <text x="688" y="364" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">佐證文件</text>
+  <text x="688" y="382" font-size="14" fill="#78716c" text-anchor="middle">執行紀錄彙整</text>
 
   <!-- 警示框 -->
   <rect x="28" y="415" width="744" height="50" rx="10" fill="#d97706" opacity="0.1" stroke="#d97706" stroke-width="1"/>

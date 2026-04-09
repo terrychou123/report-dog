@@ -12,8 +12,8 @@
   <!-- 流程圖：4步驟橫向排列 -->
   <!-- 步驟1 -->
   <rect x="40" y="130" width="155" height="110" rx="12" fill="#d97706"/>
-  <text x="117" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
-  <text x="117" y="198" font-size="18" fill="white" text-anchor="middle" >入住評估</text>
+  <text x="117" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
+  <text x="117" y="206" font-size="18" fill="white" text-anchor="middle" >入住評估</text>
   <text x="117" y="310" font-size="14" fill="#57534e" text-anchor="middle" >入住72小時內</text>
   <text x="117" y="330" font-size="14" fill="#57534e" text-anchor="middle" >完成初次營養</text>
   <text x="117" y="350" font-size="14" fill="#57534e" text-anchor="middle" >需求評估</text>
@@ -24,8 +24,8 @@
 
   <!-- 步驟2 -->
   <rect x="235" y="130" width="155" height="110" rx="12" fill="#78716c"/>
-  <text x="312" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
-  <text x="312" y="198" font-size="18" fill="white" text-anchor="middle" >每月追蹤</text>
+  <text x="312" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
+  <text x="312" y="206" font-size="18" fill="white" text-anchor="middle" >每月追蹤</text>
   <text x="312" y="310" font-size="14" fill="#57534e" text-anchor="middle" >每月至少測量</text>
   <text x="312" y="330" font-size="14" fill="#57534e" text-anchor="middle" >體重1次，</text>
   <text x="312" y="350" font-size="14" fill="#57534e" text-anchor="middle" >有紀錄</text>
@@ -36,8 +36,8 @@
 
   <!-- 步驟3 -->
   <rect x="430" y="130" width="155" height="110" rx="12" fill="#57534e"/>
-  <text x="507" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
-  <text x="507" y="198" font-size="18" fill="white" text-anchor="middle" >異常介入</text>
+  <text x="507" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
+  <text x="507" y="206" font-size="18" fill="white" text-anchor="middle" >異常介入</text>
   <text x="507" y="310" font-size="14" fill="#57534e" text-anchor="middle" >體重或營養</text>
   <text x="507" y="330" font-size="14" fill="#57534e" text-anchor="middle" >指標異常，</text>
   <text x="507" y="350" font-size="14" fill="#57534e" text-anchor="middle" >營養師介入</text>
@@ -48,8 +48,8 @@
 
   <!-- 步驟4 -->
   <rect x="625" y="130" width="135" height="110" rx="12" fill="#a8a29e"/>
-  <text x="692" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
-  <text x="692" y="198" font-size="18" fill="white" text-anchor="middle" >定期修訂</text>
+  <text x="692" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
+  <text x="692" y="206" font-size="18" fill="white" text-anchor="middle" >定期修訂</text>
   <text x="692" y="310" font-size="14" fill="#57534e" text-anchor="middle" >定期評值，</text>
   <text x="692" y="330" font-size="14" fill="#57534e" text-anchor="middle" >追蹤及修正</text>
   <text x="692" y="350" font-size="14" fill="#57534e" text-anchor="middle" >飲食照護計畫</text>

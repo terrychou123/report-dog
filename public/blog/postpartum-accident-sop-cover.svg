@@ -10,15 +10,15 @@
 
   <!-- 右側 7 類清單 -->
   <rect x="840" y="279" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="289" font-size="19" fill="#d97706" font-weight="700">1 跌倒</text>
+  <text x="858" y="305" font-size="19" fill="#d97706" font-weight="700">1 跌倒</text>
   <text x="940" y="320" font-size="19" fill="#57534e"> 2 燙傷</text>
 
   <rect x="840" y="323" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="333" font-size="19" fill="#d97706" font-weight="700">3 嬰兒抱錯</text>
+  <text x="858" y="349" font-size="19" fill="#d97706" font-weight="700">3 嬰兒抱錯</text>
   <text x="1000" y="364" font-size="19" fill="#57534e">4 嬰兒誘拐</text>
 
   <rect x="840" y="367" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="377" font-size="19" fill="#d97706" font-weight="700">5 藥物錯誤</text>
+  <text x="858" y="393" font-size="19" fill="#d97706" font-weight="700">5 藥物錯誤</text>
   <text x="1000" y="408" font-size="19" fill="#57534e">6 設備故障</text>
 
   <rect x="840" y="411" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>

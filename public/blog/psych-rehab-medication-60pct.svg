@@ -13,8 +13,8 @@
   <text x="100" y="154" font-size="16" fill="#57534e">能說出藥名、用途、服用時間，自行整理藥盒，知道何時需要回診或聯繫醫師</text>
   <text x="100" y="170" font-size="16" fill="#57534e">定義：不需工作人員提醒，有完整的自主管理流程</text>
   <rect x="620" y="118" width="136" height="50" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="688" y="133" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="700">計入分子</text>
-  <text x="688" y="153" font-size="15" fill="#16a34a" text-anchor="middle">60% 目標</text>
+  <text x="688" y="138" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="700">計入分子</text>
+  <text x="688" y="158" font-size="15" fill="#16a34a" text-anchor="middle">60% 目標</text>
 
   <!-- Row 2: 協助下自管 -->
   <rect x="28" y="184" width="744" height="66" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -25,8 +25,8 @@
   <text x="100" y="228" font-size="16" fill="#57534e">能說出至少一種藥名或用途，了解自己為何需要服藥，知道感覺不對要告訴工作人員</text>
   <text x="100" y="244" font-size="16" fill="#57534e">評鑑委員依個別訪談狀況判斷是否達到基本自我管理意識</text>
   <rect x="620" y="192" width="136" height="50" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="207" font-size="15" fill="#d97706" text-anchor="middle">視評估</text>
-  <text x="688" y="227" font-size="15" fill="#d97706" text-anchor="middle">部分計入</text>
+  <text x="688" y="212" font-size="15" fill="#d97706" text-anchor="middle">視評估</text>
+  <text x="688" y="232" font-size="15" fill="#d97706" text-anchor="middle">部分計入</text>
 
   <!-- Row 3: 完全依賴 -->
   <rect x="28" y="258" width="744" height="66" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="302" font-size="16" fill="#57534e">無法說出任何用藥資訊，對自己的用藥狀況完全不了解，完全由工作人員管理</text>
   <text x="100" y="318" font-size="16" fill="#57534e">需制定個別化訓練計畫，設定階段性目標逐步提升能力</text>
   <rect x="620" y="266" width="136" height="50" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="281" font-size="15" fill="#a8a29e" text-anchor="middle">不計入</text>
-  <text x="688" y="301" font-size="15" fill="#a8a29e" text-anchor="middle">需加強訓練</text>
+  <text x="688" y="286" font-size="15" fill="#a8a29e" text-anchor="middle">不計入</text>
+  <text x="688" y="306" font-size="15" fill="#a8a29e" text-anchor="middle">需加強訓練</text>
 
   <!-- 計算範例 -->
   <rect x="28" y="336" width="744" height="86" rx="10" fill="#fef3c7"/>

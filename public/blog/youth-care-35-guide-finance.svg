@@ -18,23 +18,23 @@
 
   <!-- 查核1 -->
   <rect x="48" y="165" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="180" font-size="17" fill="#16a34a" font-weight="700">1 衛福部社家署 109 年</text>
-  <text x="68" y="200" font-size="15" fill="#57534e">全國性財務查核</text>
+  <text x="68" y="186" font-size="17" fill="#16a34a" font-weight="700">1 衛福部社家署 109 年</text>
+  <text x="68" y="206" font-size="15" fill="#57534e">全國性財務查核</text>
 
   <!-- 查核2 -->
   <rect x="48" y="225" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="240" font-size="17" fill="#16a34a" font-weight="700">2 地方主管機關 110 年</text>
-  <text x="68" y="260" font-size="15" fill="#57534e">年度財務查核</text>
+  <text x="68" y="246" font-size="17" fill="#16a34a" font-weight="700">2 地方主管機關 110 年</text>
+  <text x="68" y="266" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 查核3 -->
   <rect x="48" y="285" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="300" font-size="17" fill="#16a34a" font-weight="700">3 地方主管機關 111 年</text>
-  <text x="68" y="320" font-size="15" fill="#57534e">年度財務查核</text>
+  <text x="68" y="306" font-size="17" fill="#16a34a" font-weight="700">3 地方主管機關 111 年</text>
+  <text x="68" y="326" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 查核4 -->
   <rect x="48" y="345" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="360" font-size="17" fill="#16a34a" font-weight="700">4 地方主管機關 112 年</text>
-  <text x="68" y="380" font-size="15" fill="#57534e">年度財務查核</text>
+  <text x="68" y="366" font-size="17" fill="#16a34a" font-weight="700">4 地方主管機關 112 年</text>
+  <text x="68" y="386" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 右側：計分說明 -->
   <rect x="408" y="108" width="360" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -46,23 +46,23 @@
 
   <!-- 計分情境1 -->
   <rect x="428" y="165" width="320" height="50" rx="8" fill="#fef3c7"/>
-  <text x="448" y="180" font-size="17" fill="#d97706" font-weight="700">每次合格（無需補件）</text>
-  <text x="448" y="200" font-size="15" fill="#57534e">共 4 次 × 不扣分 = 滿分 20 分</text>
+  <text x="448" y="186" font-size="17" fill="#d97706" font-weight="700">每次合格（無需補件）</text>
+  <text x="448" y="206" font-size="15" fill="#57534e">共 4 次 × 不扣分 = 滿分 20 分</text>
 
   <!-- 計分情境2 -->
   <rect x="428" y="225" width="320" height="50" rx="8" fill="#fef3c7"/>
-  <text x="448" y="240" font-size="17" fill="#d97706" font-weight="700">1 次函文補件後合格</text>
-  <text x="448" y="260" font-size="15" fill="#57534e">20 分 - 2 分 = 18 分</text>
+  <text x="448" y="246" font-size="17" fill="#d97706" font-weight="700">1 次函文補件後合格</text>
+  <text x="448" y="266" font-size="15" fill="#57534e">20 分 - 2 分 = 18 分</text>
 
   <!-- 計分情境3 -->
   <rect x="428" y="285" width="320" height="50" rx="8" fill="#fef3c7"/>
-  <text x="448" y="300" font-size="17" fill="#d97706" font-weight="700">2 次函文補件後合格</text>
-  <text x="448" y="320" font-size="15" fill="#57534e">20 分 - 4 分 = 16 分</text>
+  <text x="448" y="306" font-size="17" fill="#d97706" font-weight="700">2 次函文補件後合格</text>
+  <text x="448" y="326" font-size="15" fill="#57534e">20 分 - 4 分 = 16 分</text>
 
   <!-- 計分情境4 -->
   <rect x="428" y="345" width="320" height="50" rx="8" fill="#fef3c7"/>
-  <text x="448" y="360" font-size="17" fill="#d97706" font-weight="700">4 次皆函文補件</text>
-  <text x="448" y="380" font-size="15" fill="#57534e">20 分 - 8 分 = 12 分（最低）</text>
+  <text x="448" y="366" font-size="17" fill="#d97706" font-weight="700">4 次皆函文補件</text>
+  <text x="448" y="386" font-size="15" fill="#57534e">20 分 - 8 分 = 12 分（最低）</text>
 
   <!-- 底部提醒 -->
   <rect x="28" y="422" width="744" height="40" rx="10" fill="#fef3c7"/>

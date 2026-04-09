@@ -8,8 +8,8 @@
   <rect x="40" y="112" width="228" height="310" rx="12" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
   <rect x="40" y="112" width="228" height="48" rx="12" fill="#7c3aed"/>
   <rect x="40" y="136" width="228" height="24" fill="#7c3aed"/>
-  <text x="154" y="124" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D1 創新配合政策</text>
-  <text x="154" y="153" font-size="14" fill="#e9d5ff" text-anchor="middle">加分項 · 等第提升關鍵</text>
+  <text x="154" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D1 創新配合政策</text>
+  <text x="154" y="157" font-size="14" fill="#e9d5ff" text-anchor="middle">加分項 · 等第提升關鍵</text>
   <text x="56" y="190" font-size="14" fill="#57534e" font-weight="600">小機構適合的加分方向：</text>
   <text x="56" y="212" font-size="14" fill="#57534e">• 建立電子化照護記錄</text>
   <text x="56" y="232" font-size="14" fill="#57534e">• 參與衛生局品質促進計畫</text>
@@ -24,8 +24,8 @@
   <rect x="286" y="112" width="228" height="310" rx="12" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
   <rect x="286" y="112" width="228" height="48" rx="12" fill="#7c3aed"/>
   <rect x="286" y="136" width="228" height="24" fill="#7c3aed"/>
-  <text x="400" y="124" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D2 口腔健康照護</text>
-  <text x="400" y="153" font-size="14" fill="#e9d5ff" text-anchor="middle">115年新增 · 系統性要求</text>
+  <text x="400" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D2 口腔健康照護</text>
+  <text x="400" y="157" font-size="14" fill="#e9d5ff" text-anchor="middle">115年新增 · 系統性要求</text>
   <text x="302" y="190" font-size="14" fill="#57534e" font-weight="600">四項必備：</text>
   <text x="302" y="212" font-size="14" fill="#57534e">1 定期口腔健康評估</text>
   <text x="302" y="232" font-size="14" fill="#57534e">2 工作人員口腔照護訓練</text>
@@ -39,8 +39,8 @@
   <rect x="532" y="112" width="228" height="310" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
   <rect x="532" y="112" width="228" height="48" rx="12" fill="#dc2626"/>
   <rect x="532" y="136" width="228" height="24" fill="#dc2626"/>
-  <text x="646" y="124" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D3 重大異常情事</text>
-  <text x="646" y="153" font-size="14" fill="#fee2e2" text-anchor="middle">試評扣分 · 紅線勿碰</text>
+  <text x="646" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D3 重大異常情事</text>
+  <text x="646" y="157" font-size="14" fill="#fee2e2" text-anchor="middle">試評扣分 · 紅線勿碰</text>
   <text x="548" y="190" font-size="14" fill="#57534e" font-weight="600">四大紅線：</text>
   <text x="548" y="212" font-size="14" fill="#57534e">1 重大醫療事故未通報</text>
   <text x="548" y="232" font-size="14" fill="#57534e">2 違法（超收費/違規廣告）</text>

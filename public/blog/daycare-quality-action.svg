@@ -19,8 +19,8 @@
   <text x="100" y="119" font-size="18" fill="#1e293b" font-weight="700">確認並書面訂定指標</text>
   <text x="100" y="139" font-size="16" fill="#57534e">選定至少 2 項指標，訂定目標值與責任人員，製作指標訂定書</text>
   <rect x="620" y="103" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="114" font-size="16" fill="#d97706" text-anchor="middle">第 1 步</text>
-  <text x="688" y="130" font-size="16" fill="#d97706" text-anchor="middle">書面訂定</text>
+  <text x="688" y="120" font-size="16" fill="#d97706" text-anchor="middle">第 1 步</text>
+  <text x="688" y="136" font-size="16" fill="#d97706" text-anchor="middle">書面訂定</text>
 
   <!-- ===== Row 2（y=159）#78716c 建立追蹤表 ===== -->
   <rect x="28" y="159" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -30,8 +30,8 @@
   <text x="100" y="183" font-size="18" fill="#1e293b" font-weight="700">建立月度追蹤表格</text>
   <text x="100" y="203" font-size="16" fill="#57534e">設計含指標名稱、目標值、實際值、逐案分析欄位的追蹤表</text>
   <rect x="620" y="167" width="136" height="38" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="178" font-size="16" fill="#78716c" text-anchor="middle">第 2 步</text>
-  <text x="688" y="194" font-size="16" fill="#78716c" text-anchor="middle">建立工具</text>
+  <text x="688" y="184" font-size="16" fill="#78716c" text-anchor="middle">第 2 步</text>
+  <text x="688" y="200" font-size="16" fill="#78716c" text-anchor="middle">建立工具</text>
 
   <!-- ===== Row 3（y=223）#57534e 月度統計 ===== -->
   <rect x="28" y="223" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -41,8 +41,8 @@
   <text x="100" y="247" font-size="18" fill="#1e293b" font-weight="700">每月定期統計數據</text>
   <text x="100" y="267" font-size="16" fill="#57534e">每月底彙整當月指標數值，填入追蹤表，與目標值比較</text>
   <rect x="620" y="231" width="136" height="38" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="242" font-size="16" fill="#57534e" text-anchor="middle">第 3 步</text>
-  <text x="688" y="258" font-size="16" fill="#57534e" text-anchor="middle">月度統計</text>
+  <text x="688" y="248" font-size="16" fill="#57534e" text-anchor="middle">第 3 步</text>
+  <text x="688" y="264" font-size="16" fill="#57534e" text-anchor="middle">月度統計</text>
 
   <!-- ===== Row 4（y=287）#a8a29e 逐案分析 ===== -->
   <rect x="28" y="287" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -52,8 +52,8 @@
   <text x="100" y="311" font-size="18" fill="#1e293b" font-weight="700">異常時進行逐案分析</text>
   <text x="100" y="331" font-size="16" fill="#57534e">針對每件異常個案，記錄發生經過、分析原因、採取措施</text>
   <rect x="620" y="295" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="306" font-size="16" fill="#a8a29e" text-anchor="middle">第 4 步</text>
-  <text x="688" y="322" font-size="16" fill="#a8a29e" text-anchor="middle">逐案分析</text>
+  <text x="688" y="312" font-size="16" fill="#a8a29e" text-anchor="middle">第 4 步</text>
+  <text x="688" y="328" font-size="16" fill="#a8a29e" text-anchor="middle">逐案分析</text>
 
   <!-- ===== Row 5（y=351）#94a3b8 擬改善方案 ===== -->
   <rect x="28" y="351" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -63,8 +63,8 @@
   <text x="100" y="375" font-size="18" fill="#1e293b" font-weight="700">擬定具體改善方案</text>
   <text x="100" y="395" font-size="16" fill="#57534e">列出可執行的改善對策、負責人員與完成期限，書面記錄</text>
   <rect x="620" y="359" width="136" height="38" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="370" font-size="16" fill="#94a3b8" text-anchor="middle">第 5 步</text>
-  <text x="688" y="386" font-size="16" fill="#94a3b8" text-anchor="middle">改善方案</text>
+  <text x="688" y="376" font-size="16" fill="#94a3b8" text-anchor="middle">第 5 步</text>
+  <text x="688" y="392" font-size="16" fill="#94a3b8" text-anchor="middle">改善方案</text>
 
   <!-- ===== Row 6（y=415）#6b7280 追蹤成效 ===== -->
   <rect x="28" y="415" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -74,8 +74,8 @@
   <text x="100" y="439" font-size="18" fill="#1e293b" font-weight="700">追蹤成效進入下一循環</text>
   <text x="100" y="459" font-size="16" fill="#57534e">下月統計時確認改善成效，持續循環 PDCA，累積改善紀錄</text>
   <rect x="620" y="423" width="136" height="38" rx="8" fill="#6b7280" opacity="0.12"/>
-  <text x="688" y="434" font-size="16" fill="#6b7280" text-anchor="middle">第 6 步</text>
-  <text x="688" y="450" font-size="16" fill="#6b7280" text-anchor="middle">追蹤成效</text>
+  <text x="688" y="440" font-size="16" fill="#6b7280" text-anchor="middle">第 6 步</text>
+  <text x="688" y="456" font-size="16" fill="#6b7280" text-anchor="middle">追蹤成效</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

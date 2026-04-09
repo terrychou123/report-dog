@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">行政組負責</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">A1工作手冊、A2入出機構辦法、A3業務計畫、A4缺失改善表、A5住民保護、A6危機管理</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="122"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">9 項</text>
-  <text x="624" y="140"  font-size="14" fill="#92400e" text-anchor="middle">A1–A6+訓練</text>
+  <text x="624" y="127"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">9 項</text>
+  <text x="624" y="145"  font-size="14" fill="#92400e" text-anchor="middle">A1–A6+訓練</text>
 
   <!-- Row 2: 社工組 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">社工組負責</text>
   <text x="118" y="223"  font-size="16" fill="#57534e">A8 社工人員名冊與資格文件、兼任社工報備同意書及合約</text>
   <rect x="556" y="183" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="197"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">1 項</text>
-  <text x="624" y="215"  font-size="14" fill="#57534e" text-anchor="middle">A8</text>
+  <text x="624" y="202"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">1 項</text>
+  <text x="624" y="220"  font-size="14" fill="#57534e" text-anchor="middle">A8</text>
 
   <!-- Row 3: 護理組 -->
   <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="118" y="275"  font-size="20" fill="#1e293b" font-weight="700">護理組負責</text>
   <text x="118" y="298"  font-size="16" fill="#57534e">A9 護理排班表與執業登錄文件、A10 特約專業人員到勤紀錄</text>
   <rect x="556" y="258" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="272"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">2 項</text>
-  <text x="624" y="290"  font-size="14" fill="#57534e" text-anchor="middle">A9–A10</text>
+  <text x="624" y="277"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">2 項</text>
+  <text x="624" y="295"  font-size="14" fill="#57534e" text-anchor="middle">A9–A10</text>
 
   <!-- Row 4: 照服組 -->
   <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
@@ -50,8 +50,8 @@
   <text x="118" y="350"  font-size="20" fill="#1e293b" font-weight="700">照服組負責</text>
   <text x="118" y="373"  font-size="16" fill="#57534e">A11 照服員名冊、外籍/本國籍比例計算表、隨時在班確認紀錄</text>
   <rect x="556" y="333" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="347"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">1 項</text>
-  <text x="624" y="365"  font-size="14" fill="#57534e" text-anchor="middle">A11</text>
+  <text x="624" y="352"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">1 項</text>
+  <text x="624" y="370"  font-size="14" fill="#57534e" text-anchor="middle">A11</text>
 
   <!-- 底部說明 -->
   <rect x="50" y="404" width="700" height="52" rx="8" fill="#1e293b" opacity="0.9"/>

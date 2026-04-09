@@ -19,11 +19,11 @@
   <text x="688" y="152"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">全年輔導查核</text>
   <!-- Flow indicator: 人員流動率 -->
   <rect x="28" y="191" width="360" height="52" rx="10" fill="#ffffff"/>
-  <text x="48" y="207"  font-size="14" font-weight="700" fill="#1e293b">流動率計算</text>
-  <text x="48" y="227"  font-size="14" fill="#57534e">年度離職人數 / 年初在職人數</text>
+  <text x="48" y="212"  font-size="14" font-weight="700" fill="#1e293b">流動率計算</text>
+  <text x="48" y="232"  font-size="14" fill="#57534e">年度離職人數 / 年初在職人數</text>
   <rect x="398" y="191" width="374" height="52" rx="10" fill="#ffffff"/>
-  <text x="418" y="207"  font-size="14" font-weight="700" fill="#1e293b">久任獎勵形式</text>
-  <text x="418" y="227"  font-size="14" fill="#57534e">年資加薪、特休、進修補助、表揚制度</text>
+  <text x="418" y="212"  font-size="14" font-weight="700" fill="#1e293b">久任獎勵形式</text>
+  <text x="418" y="232"  font-size="14" fill="#57534e">年資加薪、特休、進修補助、表揚制度</text>
   <!-- Row 2: 項目 5 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="#fff7ed"/>
   <rect x="28" y="264" width="6" height="60" rx="2" fill="#78716c"/>

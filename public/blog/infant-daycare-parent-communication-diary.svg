@@ -15,8 +15,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">飲食紀錄（必要）</text>
   <text x="100" y="166" font-size="16" fill="#57534e">各餐次喝奶量（cc）或食物攝取情況，需具體記錄（「午奶 120cc」而非「進食良好」）</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">基礎項目</text>
-  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">必備</text>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">基礎項目</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">必備</text>
 
   <!-- Row 1（y=191）#78716c -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">睡眠與生活照顧</text>
   <text x="100" y="239" font-size="16" fill="#57534e">午睡時間、尿布更換次數或狀況，簡短記錄即可，讓家長了解孩子作息</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">生活紀錄</text>
-  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">必備</text>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">生活紀錄</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">必備</text>
 
   <!-- Row 2（y=264）#57534e -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">個別化發展觀察（核心）</text>
   <text x="100" y="312" font-size="16" fill="#57534e">記錄該名幼兒當天在動作、語言、認知或社會互動的具體表現，各孩子的內容要有差異</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">評鑑核心</text>
-  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">最重要</text>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">評鑑核心</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">最重要</text>
 
   <!-- Row 3（y=337）#a8a29e -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">情緒與社會互動</text>
   <text x="100" y="385" font-size="16" fill="#57534e">今日情緒狀態（穩定/哭鬧原因）和與同儕或照顧者的互動觀察，展現個別照顧深度</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="357" font-size="16" fill="#1e293b" text-anchor="middle">情緒觀察</text>
-  <text x="688" y="377" font-size="16" fill="#1e293b" text-anchor="middle">加分項目</text>
+  <text x="688" y="363" font-size="16" fill="#1e293b" text-anchor="middle">情緒觀察</text>
+  <text x="688" y="383" font-size="16" fill="#1e293b" text-anchor="middle">加分項目</text>
 
   <!-- Row 4（y=410）#94a3b8 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">親師提醒（視需要）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">有特別事項才寫（如輕微紅疹、換奶粉），每天強制填寫反而降低品質，重要事項不能遺漏</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="430" font-size="16" fill="#1e293b" text-anchor="middle">視需要填</text>
-  <text x="688" y="450" font-size="16" fill="#1e293b" text-anchor="middle">異常必填</text>
+  <text x="688" y="436" font-size="16" fill="#1e293b" text-anchor="middle">視需要填</text>
+  <text x="688" y="456" font-size="16" fill="#1e293b" text-anchor="middle">異常必填</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

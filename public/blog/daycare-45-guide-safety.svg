@@ -20,8 +20,8 @@
   <text x="100" y="119" font-size="18" fill="#1e293b" font-weight="700">第 38 條　高齡友善環境</text>
   <text x="100" y="138" font-size="16" fill="#57534e">空間配置合理、標示清楚（字體夠大）、桌椅高度適合長者</text>
   <rect x="620" y="103" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="112" font-size="16" fill="#d97706" text-anchor="middle">實地</text>
-  <text x="688" y="132" font-size="16" fill="#d97706" text-anchor="middle">查看</text>
+  <text x="688" y="118" font-size="16" fill="#d97706" text-anchor="middle">實地</text>
+  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">查看</text>
 
   <!-- Row 2 y=159, H=54, #78716c 暖灰 — 第39條 盥洗衛生設備 -->
   <rect x="28" y="159" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -31,8 +31,8 @@
   <text x="100" y="183" font-size="18" fill="#1e293b" font-weight="700">第 39 條　盥洗衛生設備</text>
   <text x="100" y="202" font-size="16" fill="#57534e">衛浴淨寬 80 公分、防滑扶手、緊急呼叫系統、輪椅空間</text>
   <rect x="620" y="167" width="136" height="38" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="176" font-size="16" fill="#78716c" text-anchor="middle">實地</text>
-  <text x="688" y="196" font-size="16" fill="#78716c" text-anchor="middle">查看</text>
+  <text x="688" y="182" font-size="16" fill="#78716c" text-anchor="middle">實地</text>
+  <text x="688" y="202" font-size="16" fill="#78716c" text-anchor="middle">查看</text>
 
   <!-- Row 3 y=223, H=54, #57534e 深棕 — 第40條 休息場所 -->
   <rect x="28" y="223" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -42,8 +42,8 @@
   <text x="100" y="247" font-size="18" fill="#1e293b" font-weight="700">第 40 條　休息場所</text>
   <text x="100" y="266" font-size="16" fill="#57534e">依服務對象需求安排適當休息場所，注意個別隱私</text>
   <rect x="620" y="231" width="136" height="38" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="240" font-size="16" fill="#57534e" text-anchor="middle">環境</text>
-  <text x="688" y="260" font-size="16" fill="#57534e" text-anchor="middle">整備</text>
+  <text x="688" y="246" font-size="16" fill="#57534e" text-anchor="middle">環境</text>
+  <text x="688" y="266" font-size="16" fill="#57534e" text-anchor="middle">整備</text>
 
   <!-- Row 4 y=287, H=54, #a8a29e 淺灰 — 第41條 飲用水 -->
   <rect x="28" y="287" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -53,8 +53,8 @@
   <text x="100" y="311" font-size="18" fill="#1e293b" font-weight="700">第 41 條　飲用水</text>
   <text x="100" y="330" font-size="16" fill="#57534e">每 3 個月檢測大腸桿菌群；水塔每半年清洗並留記錄</text>
   <rect x="620" y="295" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="304" font-size="16" fill="#a8a29e" text-anchor="middle">文件</text>
-  <text x="688" y="324" font-size="16" fill="#a8a29e" text-anchor="middle">查驗</text>
+  <text x="688" y="310" font-size="16" fill="#a8a29e" text-anchor="middle">文件</text>
+  <text x="688" y="330" font-size="16" fill="#a8a29e" text-anchor="middle">查驗</text>
 
   <!-- Row 5 y=351, H=54, #94a3b8 藍灰 — 第42條 廚房衛生 -->
   <rect x="28" y="351" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -64,8 +64,8 @@
   <text x="100" y="375" font-size="18" fill="#1e293b" font-weight="700">第 42 條　廚房衛生</text>
   <text x="100" y="394" font-size="16" fill="#57534e">食物留存 125g 冷藏 48 小時，廚房作業規範、生熟食分開</text>
   <rect x="620" y="359" width="136" height="38" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="368" font-size="16" fill="#94a3b8" text-anchor="middle">現場</text>
-  <text x="688" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">查看</text>
+  <text x="688" y="374" font-size="16" fill="#94a3b8" text-anchor="middle">現場</text>
+  <text x="688" y="394" font-size="16" fill="#94a3b8" text-anchor="middle">查看</text>
 
   <!-- Row 6 y=415, H=54, #6b7280 中灰 — 第43條 環境清潔 -->
   <rect x="28" y="415" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -75,8 +75,8 @@
   <text x="100" y="439" font-size="18" fill="#1e293b" font-weight="700">第 43 條　環境清潔與病媒防治</text>
   <text x="100" y="458" font-size="16" fill="#57534e">每 3 個月消毒並留記錄，委外病媒防治需有合約佐證</text>
   <rect x="620" y="423" width="136" height="38" rx="8" fill="#6b7280" opacity="0.12"/>
-  <text x="688" y="432" font-size="16" fill="#6b7280" text-anchor="middle">定期</text>
-  <text x="688" y="452" font-size="16" fill="#6b7280" text-anchor="middle">紀錄</text>
+  <text x="688" y="438" font-size="16" fill="#6b7280" text-anchor="middle">定期</text>
+  <text x="688" y="458" font-size="16" fill="#6b7280" text-anchor="middle">紀錄</text>
 
   <!-- 浮水印 -->
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

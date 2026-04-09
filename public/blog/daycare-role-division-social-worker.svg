@@ -10,8 +10,8 @@
 <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">第2條 服務契約</text>
 <text x="100" y="165" font-size="16" fill="#57534e">個案服務契約書，含服務項目與費用說明</text>
 <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-<text x="688" y="138" font-size="15" fill="#d97706" text-anchor="middle">書面契約</text>
-<text x="688" y="158" font-size="15" fill="#d97706" text-anchor="middle">確認簽名</text>
+<text x="688" y="143" font-size="15" fill="#d97706" text-anchor="middle">書面契約</text>
+<text x="688" y="163" font-size="15" fill="#d97706" text-anchor="middle">確認簽名</text>
 <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
 <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
@@ -19,8 +19,8 @@
 <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">第5-7條 照顧計畫</text>
 <text x="100" y="238" font-size="16" fill="#57534e">入住評估、照顧計畫、追蹤評值全流程</text>
 <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-<text x="688" y="211" font-size="15" fill="#78716c" text-anchor="middle">主責執行</text>
-<text x="688" y="231" font-size="15" fill="#78716c" text-anchor="middle">全程記錄</text>
+<text x="688" y="216" font-size="15" fill="#78716c" text-anchor="middle">主責執行</text>
+<text x="688" y="236" font-size="15" fill="#78716c" text-anchor="middle">全程記錄</text>
 <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
 <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
@@ -28,8 +28,8 @@
 <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">第8條 個案研討</text>
 <text x="100" y="311" font-size="16" fill="#57534e">每月召開跨職類個案研討會議並記錄</text>
 <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-<text x="688" y="284" font-size="15" fill="#57534e" text-anchor="middle">月度召開</text>
-<text x="688" y="304" font-size="15" fill="#57534e" text-anchor="middle">會議紀錄</text>
+<text x="688" y="289" font-size="15" fill="#57534e" text-anchor="middle">月度召開</text>
+<text x="688" y="309" font-size="15" fill="#57534e" text-anchor="middle">會議紀錄</text>
 <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
 <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
@@ -37,8 +37,8 @@
 <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">第9-10條 家屬聯繫</text>
 <text x="100" y="384" font-size="16" fill="#57534e">定期家屬聯繫、緊急聯絡及通知機制</text>
 <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-<text x="688" y="357" font-size="15" fill="#a8a29e" text-anchor="middle">聯繫記錄</text>
-<text x="688" y="377" font-size="15" fill="#a8a29e" text-anchor="middle">家屬簽名</text>
+<text x="688" y="362" font-size="15" fill="#a8a29e" text-anchor="middle">聯繫記錄</text>
+<text x="688" y="382" font-size="15" fill="#a8a29e" text-anchor="middle">家屬簽名</text>
 <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
 <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
 <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
@@ -46,7 +46,7 @@
 <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">第13、18-19條</text>
 <text x="100" y="457" font-size="16" fill="#57534e">活動計畫、投訴處理、服務對象管理</text>
 <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-<text x="688" y="430" font-size="15" fill="#94a3b8" text-anchor="middle">多項主責</text>
-<text x="688" y="450" font-size="15" fill="#94a3b8" text-anchor="middle">各自文件</text>
+<text x="688" y="435" font-size="15" fill="#94a3b8" text-anchor="middle">多項主責</text>
+<text x="688" y="455" font-size="15" fill="#94a3b8" text-anchor="middle">各自文件</text>
 <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

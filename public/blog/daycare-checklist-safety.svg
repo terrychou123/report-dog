@@ -16,8 +16,8 @@
   <text x="100" y="119" font-size="18" fill="#1e293b" font-weight="700">消防安全（第 38 條）</text>
   <text x="100" y="138" font-size="16" fill="#57534e">滅火器・灑水系統・逃生路線定期演練紀錄完整</text>
   <rect x="620" y="103" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="112" font-size="16" fill="#d97706" text-anchor="middle">消防</text>
-  <text x="688" y="132" font-size="16" fill="#d97706" text-anchor="middle">演練</text>
+  <text x="688" y="118" font-size="16" fill="#d97706" text-anchor="middle">消防</text>
+  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">演練</text>
 
   <!-- Row 2 (y=159) #78716c 環境清潔 -->
   <rect x="28" y="159" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -27,8 +27,8 @@
   <text x="100" y="183" font-size="18" fill="#1e293b" font-weight="700">環境清潔（第 39 條）</text>
   <text x="100" y="202" font-size="16" fill="#57534e">清潔消毒紀錄與感控措施是否落實執行</text>
   <rect x="620" y="167" width="136" height="38" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="176" font-size="16" fill="#78716c" text-anchor="middle">清潔</text>
-  <text x="688" y="196" font-size="16" fill="#78716c" text-anchor="middle">消毒</text>
+  <text x="688" y="182" font-size="16" fill="#78716c" text-anchor="middle">清潔</text>
+  <text x="688" y="202" font-size="16" fill="#78716c" text-anchor="middle">消毒</text>
 
   <!-- Row 3 (y=223) #57534e 無障礙設施 -->
   <rect x="28" y="223" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -38,8 +38,8 @@
   <text x="100" y="247" font-size="18" fill="#1e293b" font-weight="700">無障礙設施（第 40 條）</text>
   <text x="100" y="266" font-size="16" fill="#57534e">輪椅通道・扶手・無障礙廁所設置符合規定</text>
   <rect x="620" y="231" width="136" height="38" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="240" font-size="16" fill="#57534e" text-anchor="middle">無障礙</text>
-  <text x="688" y="260" font-size="16" fill="#57534e" text-anchor="middle">設施</text>
+  <text x="688" y="246" font-size="16" fill="#57534e" text-anchor="middle">無障礙</text>
+  <text x="688" y="266" font-size="16" fill="#57534e" text-anchor="middle">設施</text>
 
   <!-- Row 4 (y=287) #a8a29e 設備維護 -->
   <rect x="28" y="287" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -49,8 +49,8 @@
   <text x="100" y="311" font-size="18" fill="#1e293b" font-weight="700">設備維護（第 41 條）</text>
   <text x="100" y="330" font-size="16" fill="#57534e">醫療輔具・輪椅・床組定期保養紀錄有跡可循</text>
   <rect x="620" y="295" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="304" font-size="16" fill="#a8a29e" text-anchor="middle">設備</text>
-  <text x="688" y="324" font-size="16" fill="#a8a29e" text-anchor="middle">保養</text>
+  <text x="688" y="310" font-size="16" fill="#a8a29e" text-anchor="middle">設備</text>
+  <text x="688" y="330" font-size="16" fill="#a8a29e" text-anchor="middle">保養</text>
 
   <!-- Row 5 (y=351) #94a3b8 緊急照明 -->
   <rect x="28" y="351" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -60,8 +60,8 @@
   <text x="100" y="375" font-size="18" fill="#1e293b" font-weight="700">緊急照明（第 42 條）</text>
   <text x="100" y="394" font-size="16" fill="#57534e">緊急照明設備電力備援測試紀錄完整</text>
   <rect x="620" y="359" width="136" height="38" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="368" font-size="16" fill="#94a3b8" text-anchor="middle">緊急</text>
-  <text x="688" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">照明</text>
+  <text x="688" y="374" font-size="16" fill="#94a3b8" text-anchor="middle">緊急</text>
+  <text x="688" y="394" font-size="16" fill="#94a3b8" text-anchor="middle">照明</text>
 
   <!-- Row 6 (y=415) #6b7280 空間品質 -->
   <rect x="28" y="415" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -71,8 +71,8 @@
   <text x="100" y="439" font-size="18" fill="#1e293b" font-weight="700">空間品質（第 43 條）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">採光通風與噪音控制是否符合生活品質標準</text>
   <rect x="620" y="423" width="136" height="38" rx="8" fill="#6b7280" opacity="0.12"/>
-  <text x="688" y="432" font-size="16" fill="#6b7280" text-anchor="middle">空間</text>
-  <text x="688" y="452" font-size="16" fill="#6b7280" text-anchor="middle">品質</text>
+  <text x="688" y="438" font-size="16" fill="#6b7280" text-anchor="middle">空間</text>
+  <text x="688" y="458" font-size="16" fill="#6b7280" text-anchor="middle">品質</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -7,48 +7,48 @@
   <text x="56" y="124"  font-size="15" font-weight="700" fill="#d97706">B29 菜單類</text>
   <rect x="40" y="132" width="350" height="36" rx="5" fill="#ffffff"/>
   <rect x="40" y="132" width="4" height="36" rx="2" fill="#d97706"/>
-  <text x="56" y="143"  font-size="14" fill="#1e293b">合格營養師簽名確認菜單</text>
-  <text x="56" y="157"  font-size="14" fill="#78716c">含 A10 支援報備文件</text>
+  <text x="56" y="148"  font-size="14" fill="#1e293b">合格營養師簽名確認菜單</text>
+  <text x="56" y="162"  font-size="14" fill="#78716c">含 A10 支援報備文件</text>
   <rect x="40" y="174" width="350" height="36" rx="5" fill="#f8f7f5"/>
   <rect x="40" y="174" width="4" height="36" rx="2" fill="#d97706"/>
-  <text x="56" y="185"  font-size="14" fill="#1e293b">至少 2 週循環菜單且與實際相符</text>
-  <text x="56" y="199"  font-size="14" fill="#78716c">評鑑當天可比對菜單與供餐</text>
+  <text x="56" y="190"  font-size="14" fill="#1e293b">至少 2 週循環菜單且與實際相符</text>
+  <text x="56" y="204"  font-size="14" fill="#78716c">評鑑當天可比對菜單與供餐</text>
   <rect x="40" y="216" width="350" height="36" rx="5" fill="#ffffff"/>
   <rect x="40" y="216" width="4" height="36" rx="2" fill="#d97706"/>
-  <text x="56" y="227"  font-size="14" fill="#1e293b">每週快樂餐紀錄留存</text>
-  <text x="56" y="241"  font-size="14" fill="#78716c">含住民選擇記錄或活動照片</text>
+  <text x="56" y="232"  font-size="14" fill="#1e293b">每週快樂餐紀錄留存</text>
+  <text x="56" y="246"  font-size="14" fill="#78716c">含住民選擇記錄或活動照片</text>
   <text x="430" y="124"  font-size="15" font-weight="700" fill="#78716c">B30 個別化飲食類</text>
   <rect x="414" y="132" width="346" height="36" rx="5" fill="#ffffff"/>
   <rect x="414" y="132" width="4" height="36" rx="2" fill="#78716c"/>
-  <text x="430" y="143"  font-size="14" fill="#1e293b">各住民疾病飲食設計記錄完整</text>
-  <text x="430" y="157"  font-size="14" fill="#78716c">糖尿病、腎病、心臟病等分別設計</text>
+  <text x="430" y="148"  font-size="14" fill="#1e293b">各住民疾病飲食設計記錄完整</text>
+  <text x="430" y="162"  font-size="14" fill="#78716c">糖尿病、腎病、心臟病等分別設計</text>
   <rect x="414" y="174" width="346" height="36" rx="5" fill="#f8f7f5"/>
   <rect x="414" y="174" width="4" height="36" rx="2" fill="#78716c"/>
-  <text x="430" y="185"  font-size="14" fill="#1e293b">每半年膳食滿意度調查留存</text>
-  <text x="430" y="199"  font-size="14" fill="#78716c">含分析報告與改善措施</text>
+  <text x="430" y="190"  font-size="14" fill="#1e293b">每半年膳食滿意度調查留存</text>
+  <text x="430" y="204"  font-size="14" fill="#78716c">含分析報告與改善措施</text>
   <rect x="414" y="216" width="346" height="36" rx="5" fill="#ffffff"/>
   <rect x="414" y="216" width="4" height="36" rx="2" fill="#78716c"/>
-  <text x="430" y="227"  font-size="14" fill="#1e293b">宗教與個人偏好已在入住時確認</text>
-  <text x="430" y="241"  font-size="14" fill="#78716c">素食、禁忌食物均有記錄並落實</text>
+  <text x="430" y="232"  font-size="14" fill="#1e293b">宗教與個人偏好已在入住時確認</text>
+  <text x="430" y="246"  font-size="14" fill="#78716c">素食、禁忌食物均有記錄並落實</text>
   <!-- 下方 B31 B32 -->
   <text x="56" y="276"  font-size="15" font-weight="700" fill="#57534e">B31 餐具類</text>
   <rect x="40" y="284" width="350" height="36" rx="5" fill="#ffffff"/>
   <rect x="40" y="284" width="4" height="36" rx="2" fill="#57534e"/>
-  <text x="56" y="295"  font-size="14" fill="#1e293b">輔助餐具（缺口杯等）備有且落實使用</text>
-  <text x="56" y="309"  font-size="14" fill="#78716c">非全為免洗餐具</text>
+  <text x="56" y="300"  font-size="14" fill="#1e293b">輔助餐具（缺口杯等）備有且落實使用</text>
+  <text x="56" y="314"  font-size="14" fill="#78716c">非全為免洗餐具</text>
   <rect x="40" y="326" width="350" height="36" rx="5" fill="#f8f7f5"/>
   <rect x="40" y="326" width="4" height="36" rx="2" fill="#57534e"/>
-  <text x="56" y="337"  font-size="14" fill="#1e293b">每位住民有私人餐具且有明確標示</text>
-  <text x="56" y="351"  font-size="14" fill="#78716c">個人化水杯餐具，避免交叉使用</text>
+  <text x="56" y="342"  font-size="14" fill="#1e293b">每位住民有私人餐具且有明確標示</text>
+  <text x="56" y="356"  font-size="14" fill="#78716c">個人化水杯餐具，避免交叉使用</text>
   <text x="430" y="276"  font-size="15" font-weight="700" fill="#94a3b8">B32 管灌類</text>
   <rect x="414" y="284" width="346" height="36" rx="5" fill="#ffffff"/>
   <rect x="414" y="284" width="4" height="36" rx="2" fill="#94a3b8"/>
-  <text x="430" y="295"  font-size="14" fill="#1e293b">每日至少 1 次天然食材灌食記錄</text>
-  <text x="430" y="309"  font-size="14" fill="#78716c">非商業包裝稀釋果汁</text>
+  <text x="430" y="300"  font-size="14" fill="#1e293b">每日至少 1 次天然食材灌食記錄</text>
+  <text x="430" y="314"  font-size="14" fill="#78716c">非商業包裝稀釋果汁</text>
   <rect x="414" y="326" width="346" height="36" rx="5" fill="#f8f7f5"/>
   <rect x="414" y="326" width="4" height="36" rx="2" fill="#94a3b8"/>
-  <text x="430" y="337"  font-size="14" fill="#1e293b">護理人員可現場示範灌食技術</text>
-  <text x="430" y="351"  font-size="14" fill="#78716c">不可使用灌食筒或灌食袋</text>
+  <text x="430" y="342"  font-size="14" fill="#1e293b">護理人員可現場示範灌食技術</text>
+  <text x="430" y="356"  font-size="14" fill="#78716c">不可使用灌食筒或灌食袋</text>
   <!-- 底部提示 -->
   <rect x="40" y="378" width="720" height="44" rx="8" fill="#d97706" opacity="0.15"/>
   <text x="400" y="400"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">B29-B32 的查核方式均包含「現場訪談」和「實地察看」</text>

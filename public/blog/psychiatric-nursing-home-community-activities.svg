@@ -11,8 +11,8 @@
 
   <!-- 步驟1 -->
   <rect x="40" y="130" width="155" height="110" rx="12" fill="#d97706"/>
-  <text x="117" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
-  <text x="117" y="198" font-size="18" fill="white" text-anchor="middle" >資源盤點</text>
+  <text x="117" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 1</text>
+  <text x="117" y="206" font-size="18" fill="white" text-anchor="middle" >資源盤點</text>
   <text x="117" y="310" font-size="14" fill="#57534e" text-anchor="middle" >由社工師盤點</text>
   <text x="117" y="330" font-size="14" fill="#57534e" text-anchor="middle" >社區資源，</text>
   <text x="117" y="350" font-size="14" fill="#57534e" text-anchor="middle" >建立資源清冊</text>
@@ -23,8 +23,8 @@
 
   <!-- 步驟2 -->
   <rect x="235" y="130" width="155" height="110" rx="12" fill="#78716c"/>
-  <text x="312" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
-  <text x="312" y="198" font-size="18" fill="white" text-anchor="middle" >建立連結</text>
+  <text x="312" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 2</text>
+  <text x="312" y="206" font-size="18" fill="white" text-anchor="middle" >建立連結</text>
   <text x="312" y="310" font-size="14" fill="#57534e" text-anchor="middle" >與至少3處</text>
   <text x="312" y="330" font-size="14" fill="#57534e" text-anchor="middle" >（目標5處）</text>
   <text x="312" y="350" font-size="14" fill="#57534e" text-anchor="middle" >正式連結</text>
@@ -35,8 +35,8 @@
 
   <!-- 步驟3 -->
   <rect x="430" y="130" width="155" height="110" rx="12" fill="#57534e"/>
-  <text x="507" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
-  <text x="507" y="198" font-size="18" fill="white" text-anchor="middle" >推動參與</text>
+  <text x="507" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 3</text>
+  <text x="507" y="206" font-size="18" fill="white" text-anchor="middle" >推動參與</text>
   <text x="507" y="310" font-size="14" fill="#57534e" text-anchor="middle" >鼓勵住民</text>
   <text x="507" y="330" font-size="14" fill="#57534e" text-anchor="middle" >參與社區活動</text>
   <text x="507" y="350" font-size="14" fill="#57534e" text-anchor="middle" >記錄簽到照片</text>
@@ -47,8 +47,8 @@
 
   <!-- 步驟4 -->
   <rect x="625" y="130" width="135" height="110" rx="12" fill="#a8a29e"/>
-  <text x="692" y="170" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
-  <text x="692" y="198" font-size="18" fill="white" text-anchor="middle" >成效評值</text>
+  <text x="692" y="178" font-size="20" fill="white" text-anchor="middle"  font-weight="bold">STEP 4</text>
+  <text x="692" y="206" font-size="18" fill="white" text-anchor="middle" >成效評值</text>
   <text x="692" y="310" font-size="14" fill="#57534e" text-anchor="middle" >各項活動</text>
   <text x="692" y="330" font-size="14" fill="#57534e" text-anchor="middle" >有評值紀錄</text>
   <text x="692" y="350" font-size="14" fill="#57534e" text-anchor="middle" >依評值修訂</text>

@@ -669,7 +669,8 @@ S 標籤文字色             = 該列主色（circle fill 的同色），不得
 7. **不放頂部類別 tag**：不需要「經營管理」「管理指南」等分類標籤
 8. **pill/卡片文字上下置中**：右側裝飾區 pill 或白底卡片內的文字，須在容器高度內垂直置中。計算公式：
    - 單行：`text_y = rect_y + rect_h/2 + font_size × 0.35`
-   - 雙行（標題+副文字，baseline 間距 = gap）：`title_y = rect_y + rect_h/2 - gap/2 + (title_font - subtitle_font) × 0.175`，`subtitle_y = title_y + gap`
+   - 雙行（標題+副文字，baseline 間距 = gap）：`title_y = rect_y + rect_h/2 - gap/2 + title_font × 0.35`，`subtitle_y = title_y + gap`
+   - ⚠️ **必須精確計算，不可估算**。生成後用 `npm run svg:validate -- --fix <file>` 自動修正並驗證。
 
 ### 骨架 XML（以 2×2 資訊卡片為例）
 

@@ -14,8 +14,8 @@
   <text x="100" y="162" font-size="22" fill="#1e293b" font-weight="700">社會工作人員（社工師）</text>
   <text x="100" y="185" font-size="16" fill="#57534e">服務對象每滿 80 人配置 1 名，依三年平均月均服務人數計算</text>
   <rect x="620" y="145" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">服務對象</text>
-  <text x="688" y="178" font-size="16" fill="#d97706" text-anchor="middle">每80人配1名</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">服務對象</text>
+  <text x="688" y="184" font-size="16" fill="#d97706" text-anchor="middle">每80人配1名</text>
 
   <!-- Row 2: 護理師 #78716c -->
   <rect x="28" y="212" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -25,8 +25,8 @@
   <text x="100" y="237" font-size="22" fill="#1e293b" font-weight="700">護理人員（護理師／護士）</text>
   <text x="100" y="260" font-size="16" fill="#57534e">依服務人數設置，有住宿者每日均需有護理人員值班</text>
   <rect x="620" y="220" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="233" font-size="16" fill="#78716c" text-anchor="middle">住宿型</text>
-  <text x="688" y="253" font-size="16" fill="#78716c" text-anchor="middle">全日班配置</text>
+  <text x="688" y="239" font-size="16" fill="#78716c" text-anchor="middle">住宿型</text>
+  <text x="688" y="259" font-size="16" fill="#78716c" text-anchor="middle">全日班配置</text>
 
   <!-- Row 3: 教保員 #57534e -->
   <rect x="28" y="287" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -36,8 +36,8 @@
   <text x="100" y="312" font-size="22" fill="#1e293b" font-weight="700">教保員（生活服務員）</text>
   <text x="100" y="335" font-size="16" fill="#57534e">日間：每8人配置1名直接服務人員；夜間：依規定比例配置</text>
   <rect x="620" y="295" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">日間</text>
-  <text x="688" y="328" font-size="16" fill="#57534e" text-anchor="middle">每8人配1名</text>
+  <text x="688" y="314" font-size="16" fill="#57534e" text-anchor="middle">日間</text>
+  <text x="688" y="334" font-size="16" fill="#57534e" text-anchor="middle">每8人配1名</text>
 
   <!-- Row 4: 物理/職能治療師 #a8a29e -->
   <rect x="28" y="362" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -47,8 +47,8 @@
   <text x="100" y="387" font-size="22" fill="#1e293b" font-weight="700">物理治療師／職能治療師</text>
   <text x="100" y="410" font-size="16" fill="#57534e">依機構服務性質設置，部分時數可由合約方式達標</text>
   <rect x="620" y="370" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="383" font-size="16" fill="#a8a29e" text-anchor="middle">視機構</text>
-  <text x="688" y="403" font-size="16" fill="#a8a29e" text-anchor="middle">性質設置</text>
+  <text x="688" y="389" font-size="16" fill="#a8a29e" text-anchor="middle">視機構</text>
+  <text x="688" y="409" font-size="16" fill="#a8a29e" text-anchor="middle">性質設置</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

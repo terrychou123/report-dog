@@ -21,8 +21,8 @@
   <text x="100" y="142" font-size="20" fill="#1e293b" font-weight="700">年度感染管制計畫</text>
   <text x="100" y="164" font-size="16" fill="#57534e">含計畫目標、負責人員、年度重點工作，須有年度審閱日期與主管簽名</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="139" font-size="16" fill="#d97706" text-anchor="middle">每年更新</text>
-  <text x="688" y="157" font-size="16" fill="#d97706" text-anchor="middle">審閱記錄必備</text>
+  <text x="688" y="145" font-size="16" fill="#d97706" text-anchor="middle">每年更新</text>
+  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">審閱記錄必備</text>
 
   <!-- Row 2：洗手規範（y=191） -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -32,8 +32,8 @@
   <text x="100" y="215" font-size="20" fill="#1e293b" font-weight="700">洗手規範與手部衛生政策</text>
   <text x="100" y="237" font-size="16" fill="#57534e">五時機洗手、酒精乾洗手使用規定、洗手稽核記錄</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="212" font-size="16" fill="#78716c" text-anchor="middle">標準防護</text>
-  <text x="688" y="230" font-size="16" fill="#78716c" text-anchor="middle">基礎項目</text>
+  <text x="688" y="218" font-size="16" fill="#78716c" text-anchor="middle">標準防護</text>
+  <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">基礎項目</text>
 
   <!-- Row 3：標準防護（y=264） -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -43,8 +43,8 @@
   <text x="100" y="288" font-size="20" fill="#1e293b" font-weight="700">標準防護措施規範</text>
   <text x="100" y="310" font-size="16" fill="#57534e">個人防護裝備（PPE）使用規定、血液體液暴露處理流程</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="285" font-size="16" fill="#57534e" text-anchor="middle">PPE 規定</text>
-  <text x="688" y="303" font-size="16" fill="#57534e" text-anchor="middle">暴露處理流程</text>
+  <text x="688" y="291" font-size="16" fill="#57534e" text-anchor="middle">PPE 規定</text>
+  <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">暴露處理流程</text>
 
   <!-- Row 4：隔離措施（y=337） -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -54,8 +54,8 @@
   <text x="100" y="361" font-size="20" fill="#1e293b" font-weight="700">隔離措施及傳染病通報</text>
   <text x="100" y="383" font-size="16" fill="#57534e">接觸隔離、飛沫隔離、空氣隔離的啟動條件與執行程序</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="358" font-size="16" fill="#1e293b" text-anchor="middle">隔離種類</text>
-  <text x="688" y="376" font-size="16" fill="#1e293b" text-anchor="middle">通報 SOP</text>
+  <text x="688" y="364" font-size="16" fill="#1e293b" text-anchor="middle">隔離種類</text>
+  <text x="688" y="382" font-size="16" fill="#1e293b" text-anchor="middle">通報 SOP</text>
 
   <!-- Row 5：教育訓練與監測（y=410） -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -65,8 +65,8 @@
   <text x="100" y="434" font-size="20" fill="#1e293b" font-weight="700">教育訓練與監測追蹤計畫</text>
   <text x="100" y="456" font-size="16" fill="#57534e">年度 6 小時感控訓練計畫、住民與工作人員傳染病監測機制</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="688" y="431" font-size="16" fill="#16a34a" text-anchor="middle">每年 6 小時</text>
-  <text x="688" y="449" font-size="16" fill="#16a34a" text-anchor="middle">監測+追蹤</text>
+  <text x="688" y="437" font-size="16" fill="#16a34a" text-anchor="middle">每年 6 小時</text>
+  <text x="688" y="455" font-size="16" fill="#16a34a" text-anchor="middle">監測+追蹤</text>
 
   <!-- 浮水印 -->
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -17,8 +17,8 @@
   <text x="100" y="170" font-size="16" font-weight="700" fill="#1e293b" >AI 文書助理</text>
   <text x="100" y="193" font-size="16" fill="#57534e" >基於 77 項評鑑指標設計，生成符合格式的文件初稿</text>
   <rect x="620" y="161" width="136" height="36" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="171" font-size="14" font-weight="700" fill="#d97706"  text-anchor="middle">個案計畫</text>
-  <text x="688" y="188" font-size="14" fill="#d97706"  text-anchor="middle">PDCA 報告</text>
+  <text x="688" y="175" font-size="14" font-weight="700" fill="#d97706"  text-anchor="middle">個案計畫</text>
+  <text x="688" y="192" font-size="14" fill="#d97706"  text-anchor="middle">PDCA 報告</text>
 
   <!-- Row 2 -->
   <rect x="29" y="223" width="742" height="62" rx="6" fill="#ffffff"/>
@@ -28,8 +28,8 @@
   <text x="100" y="245" font-size="16" font-weight="700" fill="#1e293b" >批量自我查核掃描</text>
   <text x="100" y="268" font-size="16" fill="#57534e" >77 項逐條比對，依優先等級排序改善建議清單</text>
   <rect x="620" y="236" width="136" height="36" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="246" font-size="14" font-weight="700" fill="#78716c"  text-anchor="middle">二級加強</text>
-  <text x="688" y="263" font-size="14" fill="#78716c"  text-anchor="middle">優先標示</text>
+  <text x="688" y="250" font-size="14" font-weight="700" fill="#78716c"  text-anchor="middle">二級加強</text>
+  <text x="688" y="267" font-size="14" fill="#78716c"  text-anchor="middle">優先標示</text>
 
   <!-- Row 3 -->
   <rect x="29" y="298" width="742" height="62" rx="6" fill="#ffffff"/>
@@ -39,8 +39,8 @@
   <text x="100" y="320" font-size="16" font-weight="700" fill="#1e293b" >多人協作編輯</text>
   <text x="100" y="343" font-size="16" fill="#57534e" >社工、護理師、行政各自編輯，主管即時查看進度</text>
   <rect x="620" y="311" width="136" height="36" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="321" font-size="14" font-weight="700" fill="#57534e"  text-anchor="middle">職類分工</text>
-  <text x="688" y="338" font-size="14" fill="#57534e"  text-anchor="middle">A–F 區分配</text>
+  <text x="688" y="325" font-size="14" font-weight="700" fill="#57534e"  text-anchor="middle">職類分工</text>
+  <text x="688" y="342" font-size="14" fill="#57534e"  text-anchor="middle">A–F 區分配</text>
 
   <!-- Row 4 -->
   <rect x="29" y="373" width="742" height="62" rx="6" fill="#ffffff"/>
@@ -50,8 +50,8 @@
   <text x="100" y="395" font-size="16" font-weight="700" fill="#1e293b" >歷史版本追蹤</text>
   <text x="100" y="418" font-size="16" fill="#57534e" >每次修訂自動存檔，佐證 A1 工作手冊修訂紀錄</text>
   <rect x="620" y="386" width="136" height="36" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="396" font-size="14" font-weight="700" fill="#a8a29e"  text-anchor="middle">修訂歷程</text>
-  <text x="688" y="413" font-size="14" fill="#a8a29e"  text-anchor="middle">完整留存</text>
+  <text x="688" y="400" font-size="14" font-weight="700" fill="#a8a29e"  text-anchor="middle">修訂歷程</text>
+  <text x="688" y="417" font-size="14" fill="#a8a29e"  text-anchor="middle">完整留存</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

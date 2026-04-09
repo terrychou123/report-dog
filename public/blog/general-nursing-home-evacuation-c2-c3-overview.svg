@@ -18,24 +18,24 @@
   <text x="44" y="196" font-size="14" fill="#44403c" font-weight="700">評鑑委員實地確認項目：</text>
   <!-- 項目1 -->
   <rect x="44" y="206" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="60" y="219" font-size="14" fill="#1e40af" font-weight="700">疏散通道暢通無障礙物</text>
-  <text x="60" y="237" font-size="14" fill="#78716c">輪椅、推車、雜物、紙箱不可放置通道</text>
+  <text x="60" y="224" font-size="14" fill="#1e40af" font-weight="700">疏散通道暢通無障礙物</text>
+  <text x="60" y="242" font-size="14" fill="#78716c">輪椅、推車、雜物、紙箱不可放置通道</text>
   <!-- 項目2 -->
   <rect x="44" y="258" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="60" y="271" font-size="14" fill="#1e40af" font-weight="700">等待救援空間設置完整</text>
-  <text x="60" y="289" font-size="14" fill="#78716c">防火門正常、標示清晰、位置圖張貼</text>
+  <text x="60" y="276" font-size="14" fill="#1e40af" font-weight="700">等待救援空間設置完整</text>
+  <text x="60" y="294" font-size="14" fill="#78716c">防火門正常、標示清晰、位置圖張貼</text>
   <!-- 項目3 -->
   <rect x="44" y="310" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="60" y="323" font-size="14" fill="#1e40af" font-weight="700">緊急照明設備功能正常</text>
-  <text x="60" y="341" font-size="14" fill="#78716c">委員可能測試停電反應，需有測試記錄</text>
+  <text x="60" y="328" font-size="14" fill="#1e40af" font-weight="700">緊急照明設備功能正常</text>
+  <text x="60" y="346" font-size="14" fill="#78716c">委員可能測試停電反應，需有測試記錄</text>
   <!-- 項目4 -->
   <rect x="44" y="362" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="60" y="375" font-size="14" fill="#1e40af" font-weight="700">疏散指示標誌清晰可見</text>
-  <text x="60" y="393" font-size="14" fill="#78716c">不被遮蔽、高度適當、覆蓋各疏散方向</text>
+  <text x="60" y="380" font-size="14" fill="#1e40af" font-weight="700">疏散指示標誌清晰可見</text>
+  <text x="60" y="398" font-size="14" fill="#78716c">不被遮蔽、高度適當、覆蓋各疏散方向</text>
   <!-- 項目5 -->
   <rect x="44" y="414" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="60" y="427" font-size="14" fill="#1e40af" font-weight="700">床位配置利於緊急疏散</text>
-  <text x="60" y="445" font-size="14" fill="#78716c">床與床之間的通道足夠輪椅或擔架通行</text>
+  <text x="60" y="432" font-size="14" fill="#1e40af" font-weight="700">床位配置利於緊急疏散</text>
+  <text x="60" y="450" font-size="14" fill="#78716c">床與床之間的通道足夠輪椅或擔架通行</text>
   <!-- 中間分隔 -->
   <rect x="396" y="86" width="8" height="388" rx="4" fill="#d97706" opacity="0.3"/>
   <!-- C3 右欄 -->
@@ -50,16 +50,16 @@
   <text x="428" y="196" font-size="14" fill="#44403c" font-weight="700">評鑑委員查核項目：</text>
   <!-- 項目1 -->
   <rect x="428" y="206" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="444" y="219" font-size="14" fill="#d97706" font-weight="700">個別化疏散名冊（文件審閱）</text>
-  <text x="444" y="237" font-size="14" fill="#78716c">每位住民有失能分級與對應疏散方式</text>
+  <text x="444" y="224" font-size="14" fill="#d97706" font-weight="700">個別化疏散名冊（文件審閱）</text>
+  <text x="444" y="242" font-size="14" fill="#78716c">每位住民有失能分級與對應疏散方式</text>
   <!-- 項目2 -->
   <rect x="428" y="258" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="444" y="271" font-size="14" fill="#d97706" font-weight="700">疏散後持續照顧 SOP（文件）</text>
-  <text x="444" y="289" font-size="14" fill="#78716c">用藥、特殊醫療需求、家屬聯繫流程</text>
+  <text x="444" y="276" font-size="14" fill="#d97706" font-weight="700">疏散後持續照顧 SOP（文件）</text>
+  <text x="444" y="294" font-size="14" fill="#78716c">用藥、特殊醫療需求、家屬聯繫流程</text>
   <!-- 項目3 -->
   <rect x="428" y="310" width="328" height="44" rx="8" fill="#ffffff" opacity="0.85"/>
-  <text x="444" y="323" font-size="14" fill="#d97706" font-weight="700">工作人員訓練記錄（文件）</text>
-  <text x="444" y="341" font-size="14" fill="#78716c">各班均有參與疏散策略訓練的記錄</text>
+  <text x="444" y="328" font-size="14" fill="#d97706" font-weight="700">工作人員訓練記錄（文件）</text>
+  <text x="444" y="346" font-size="14" fill="#78716c">各班均有參與疏散策略訓練的記錄</text>
   <!-- 項目4 -->
   <rect x="428" y="362" width="328" height="60" rx="8" fill="#fef3c7" opacity="0.95"/>
   <text x="444" y="380" font-size="14" fill="#d97706" font-weight="700">(!) 實地抽測（最關鍵！）</text>

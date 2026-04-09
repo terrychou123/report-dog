@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">每月追蹤</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">各職類在職人數、外籍/本國籍照服員比例、護理三班排班覆蓋</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="122"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">每月 1 次</text>
-  <text x="624" y="140"  font-size="14" fill="#92400e" text-anchor="middle">比例盤點</text>
+  <text x="624" y="127"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">每月 1 次</text>
+  <text x="624" y="145"  font-size="14" fill="#92400e" text-anchor="middle">比例盤點</text>
 
   <!-- Row 2: 每季追蹤 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">每季追蹤</text>
   <text x="118" y="223"  font-size="16" fill="#57534e">兼任/特約人員合約與報備有效期；各人員在職訓練累計時數</text>
   <rect x="556" y="183" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="197"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">每季 1 次</text>
-  <text x="624" y="215"  font-size="14" fill="#57534e" text-anchor="middle">文件審查</text>
+  <text x="624" y="202"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">每季 1 次</text>
+  <text x="624" y="220"  font-size="14" fill="#57534e" text-anchor="middle">文件審查</text>
 
   <!-- Row 3: 每年追蹤 -->
   <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="118" y="275"  font-size="20" fill="#1e293b" font-weight="700">每年追蹤</text>
   <text x="118" y="298"  font-size="16" fill="#57534e">全體在職訓練達 20H確認、急救訓練更新、廚工執照與 8H 外訓</text>
   <rect x="556" y="258" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="624" y="272"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">年底確認</text>
-  <text x="624" y="290"  font-size="14" fill="#57534e" text-anchor="middle">全員時數</text>
+  <text x="624" y="277"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">年底確認</text>
+  <text x="624" y="295"  font-size="14" fill="#57534e" text-anchor="middle">全員時數</text>
 
   <!-- Row 4: 事件觸發 -->
   <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
@@ -50,8 +50,8 @@
   <text x="118" y="350"  font-size="20" fill="#1e293b" font-weight="700">事件觸發追蹤</text>
   <text x="118" y="373"  font-size="16" fill="#57534e">人員異動-立即重算外籍比例；新進人員-1個月內完成職前訓練16H</text>
   <rect x="556" y="333" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="624" y="347"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">即時觸發</text>
-  <text x="624" y="365"  font-size="14" fill="#dc2626" text-anchor="middle">立即處理</text>
+  <text x="624" y="352"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">即時觸發</text>
+  <text x="624" y="370"  font-size="14" fill="#dc2626" text-anchor="middle">立即處理</text>
 
   <!-- 底部說明 -->
   <rect x="50" y="404" width="700" height="52" rx="8" fill="#1e293b" opacity="0.9"/>

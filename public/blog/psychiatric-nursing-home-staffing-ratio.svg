@@ -18,20 +18,20 @@
   <!-- 行2 照顧服務員 -->
   <rect x="30" y="202" width="6" height="80" rx="2" fill="#78716c"/>
   <rect x="44" y="202" width="716" height="80" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="227" font-size="20" font-weight="bold" fill="#78716c" >照顧服務員</text>
-  <text x="66" y="259" font-size="15" fill="#57534e" >依床數按比例配置，資格需符合規定（訓練課程結訓）</text>
+  <text x="66" y="233" font-size="20" font-weight="bold" fill="#78716c" >照顧服務員</text>
+  <text x="66" y="265" font-size="15" fill="#57534e" >依床數按比例配置，資格需符合規定（訓練課程結訓）</text>
 
   <!-- 行3 職能治療師 -->
   <rect x="30" y="294" width="6" height="80" rx="2" fill="#57534e"/>
   <rect x="44" y="294" width="716" height="80" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="319" font-size="20" font-weight="bold" fill="#57534e" >職能治療師</text>
-  <text x="66" y="351" font-size="15" fill="#57534e" >200床以下每20床4小時/週；200床以上每200床1人</text>
+  <text x="66" y="325" font-size="20" font-weight="bold" fill="#57534e" >職能治療師</text>
+  <text x="66" y="357" font-size="15" fill="#57534e" >200床以下每20床4小時/週；200床以上每200床1人</text>
 
   <!-- 行4 臨床心理師 -->
   <rect x="30" y="386" width="6" height="80" rx="2" fill="#a8a29e"/>
   <rect x="44" y="386" width="716" height="80" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="411" font-size="20" font-weight="bold" fill="#a8a29e" >臨床心理師</text>
-  <text x="66" y="443" font-size="15" fill="#57534e" >200床以下每20床4小時/週；200床以上每200床1人</text>
+  <text x="66" y="417" font-size="20" font-weight="bold" fill="#a8a29e" >臨床心理師</text>
+  <text x="66" y="449" font-size="15" fill="#57534e" >200床以下每20床4小時/週；200床以上每200床1人</text>
 
   <!-- 品牌浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>

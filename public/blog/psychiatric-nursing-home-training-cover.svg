@@ -30,20 +30,20 @@
 
   <!-- 右側 2×2 卡片 -->
   <rect x="760" y="320" width="180" height="70" rx="8" fill="white"/>
-  <text x="850" y="343" font-size="16" fill="#d97706" text-anchor="middle"  font-weight="700">職前訓練</text>
-  <text x="850" y="367" font-size="14" fill="#57534e" text-anchor="middle" >16小時/月</text>
+  <text x="850" y="349" font-size="16" fill="#d97706" text-anchor="middle"  font-weight="700">職前訓練</text>
+  <text x="850" y="373" font-size="14" fill="#57534e" text-anchor="middle" >16小時/月</text>
 
   <rect x="960" y="320" width="180" height="70" rx="8" fill="white"/>
-  <text x="1050" y="343" font-size="16" fill="#78716c" text-anchor="middle"  font-weight="700">在職訓練</text>
-  <text x="1050" y="376" font-size="14" fill="#57534e" text-anchor="middle" >20小時/年</text>
+  <text x="1050" y="344" font-size="16" fill="#78716c" text-anchor="middle"  font-weight="700">在職訓練</text>
+  <text x="1050" y="377" font-size="14" fill="#57534e" text-anchor="middle" >20小時/年</text>
 
   <rect x="760" y="404" width="180" height="70" rx="8" fill="white"/>
-  <text x="850" y="427" font-size="16" fill="#57534e" text-anchor="middle"  font-weight="700">感控課程</text>
-  <text x="850" y="451" font-size="14" fill="#57534e" text-anchor="middle" >含4小時</text>
+  <text x="850" y="433" font-size="16" fill="#57534e" text-anchor="middle"  font-weight="700">感控課程</text>
+  <text x="850" y="457" font-size="14" fill="#57534e" text-anchor="middle" >含4小時</text>
 
   <rect x="960" y="404" width="180" height="70" rx="8" fill="white"/>
-  <text x="1050" y="427" font-size="16" fill="#a8a29e" text-anchor="middle"  font-weight="700">BLS</text>
-  <text x="1050" y="460" font-size="14" fill="#57534e" text-anchor="middle" >50%護理師</text>
+  <text x="1050" y="428" font-size="16" fill="#a8a29e" text-anchor="middle"  font-weight="700">BLS</text>
+  <text x="1050" y="461" font-size="14" fill="#57534e" text-anchor="middle" >50%護理師</text>
 
   <!-- 品牌浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>

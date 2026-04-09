@@ -19,8 +19,8 @@
   <text x="110" y="174"  font-size="16" fill="#57534e">依老人福利機構設置標準按床數比例配置社工人員</text>
   <text x="110" y="196"  font-size="16" fill="#57534e">評鑑檢視近 5 年，短期人數不足也可能被記錄</text>
   <rect x="598" y="130" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="666" y="144"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">床數比例</text>
-  <text x="666" y="162"  font-size="14" fill="#92400e" text-anchor="middle">近5年檢視</text>
+  <text x="666" y="149"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">床數比例</text>
+  <text x="666" y="167"  font-size="14" fill="#92400e" text-anchor="middle">近5年檢視</text>
 
   <!-- Row 2: 兼任社工合規管理 -->
   <rect x="38" y="221" width="724" height="90" rx="8" fill="white"/>
@@ -31,8 +31,8 @@
   <text x="110" y="277"  font-size="16" fill="#57534e">原任職單位報備同意書、機構合約書、到勤紀錄（三件齊備）</text>
   <text x="110" y="299"  font-size="16" fill="#57534e">兼任社工須於機構投保勞保；個人兼任亦同</text>
   <rect x="598" y="233" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="666" y="247"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">3件文件</text>
-  <text x="666" y="265"  font-size="14" fill="#dc2626" text-anchor="middle">缺一不可</text>
+  <text x="666" y="252"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">3件文件</text>
+  <text x="666" y="270"  font-size="14" fill="#dc2626" text-anchor="middle">缺一不可</text>
 
   <!-- Row 3: 資格文件齊備 -->
   <rect x="38" y="324" width="724" height="90" rx="8" fill="white"/>
@@ -43,8 +43,8 @@
   <text x="110" y="380"  font-size="16" fill="#57534e">社工師：執照正本；社工員：相關科系畢業證明</text>
   <text x="110" y="402"  font-size="16" fill="#57534e">社工師離職前應立即啟動招募，避免資格空窗期</text>
   <rect x="598" y="336" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="666" y="350"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">執照</text>
-  <text x="666" y="368"  font-size="14" fill="#57534e" text-anchor="middle">一一對應</text>
+  <text x="666" y="355"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">執照</text>
+  <text x="666" y="373"  font-size="14" fill="#57534e" text-anchor="middle">一一對應</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

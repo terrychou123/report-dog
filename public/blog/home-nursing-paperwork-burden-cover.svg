@@ -10,12 +10,12 @@
 
   <!-- 右側直列標籤 -->
   <rect x="840" y="283" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="301" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">14,423 人</text>
-  <text x="1000" y="335" font-size="20" fill="#a8a29e" text-anchor="middle">2026 年護理人力缺口</text>
+  <text x="1000" y="302" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">14,423 人</text>
+  <text x="1000" y="336" font-size="20" fill="#a8a29e" text-anchor="middle">2026 年護理人力缺口</text>
 
   <rect x="840" y="351" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="369" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">護理師心聲</text>
-  <text x="1000" y="403" font-size="20" fill="#a8a29e" text-anchor="middle">文書時間超過照護時間</text>
+  <text x="1000" y="370" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">護理師心聲</text>
+  <text x="1000" y="404" font-size="20" fill="#a8a29e" text-anchor="middle">文書時間超過照護時間</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="421" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>

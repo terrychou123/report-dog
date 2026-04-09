@@ -11,32 +11,32 @@
   <!-- 行1 -->
   <rect x="30" y="110" width="6" height="60" rx="2" fill="#d97706"/>
   <rect x="44" y="110" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="130" font-size="18" font-weight="bold" fill="#d97706" >住民基本資料</text>
-  <text x="66" y="152" font-size="15" fill="#57534e" >姓名、入住日期、約束開始日期</text>
+  <text x="66" y="135" font-size="18" font-weight="bold" fill="#d97706" >住民基本資料</text>
+  <text x="66" y="157" font-size="15" fill="#57534e" >姓名、入住日期、約束開始日期</text>
 
   <!-- 行2 -->
   <rect x="30" y="182" width="6" height="60" rx="2" fill="#78716c"/>
   <rect x="44" y="182" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="202" font-size="18" font-weight="bold" fill="#78716c" >約束必要性評估</text>
-  <text x="66" y="224" font-size="15" fill="#57534e" >使用理由、替代措施評估結果</text>
+  <text x="66" y="207" font-size="18" font-weight="bold" fill="#78716c" >約束必要性評估</text>
+  <text x="66" y="229" font-size="15" fill="#57534e" >使用理由、替代措施評估結果</text>
 
   <!-- 行3 -->
   <rect x="30" y="254" width="6" height="60" rx="2" fill="#57534e"/>
   <rect x="44" y="254" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="274" font-size="18" font-weight="bold" fill="#57534e" >知情同意紀錄</text>
-  <text x="66" y="296" font-size="15" fill="#57534e" >住民/家屬簽名，說明日期與說明人員</text>
+  <text x="66" y="279" font-size="18" font-weight="bold" fill="#57534e" >知情同意紀錄</text>
+  <text x="66" y="301" font-size="15" fill="#57534e" >住民/家屬簽名，說明日期與說明人員</text>
 
   <!-- 行4 -->
   <rect x="30" y="326" width="6" height="60" rx="2" fill="#a8a29e"/>
   <rect x="44" y="326" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="346" font-size="18" font-weight="bold" fill="#a8a29e" >執行情形</text>
-  <text x="66" y="368" font-size="15" fill="#57534e" >每次使用時間、護理人員簽名、觀察頻率</text>
+  <text x="66" y="351" font-size="18" font-weight="bold" fill="#a8a29e" >執行情形</text>
+  <text x="66" y="373" font-size="15" fill="#57534e" >每次使用時間、護理人員簽名、觀察頻率</text>
 
   <!-- 行5 -->
   <rect x="30" y="398" width="6" height="60" rx="2" fill="#94a3b8"/>
   <rect x="44" y="398" width="716" height="60" rx="6" fill="white" opacity="0.7"/>
-  <text x="66" y="418" font-size="18" font-weight="bold" fill="#94a3b8" >解除及後續</text>
-  <text x="66" y="440" font-size="15" fill="#57534e" >解除日期、解除後健康評估記錄</text>
+  <text x="66" y="423" font-size="18" font-weight="bold" fill="#94a3b8" >解除及後續</text>
+  <text x="66" y="445" font-size="15" fill="#57534e" >解除日期、解除後健康評估記錄</text>
 
   <!-- 品牌浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>

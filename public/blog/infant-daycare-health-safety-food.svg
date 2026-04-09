@@ -16,8 +16,8 @@
   <text x="100" y="226" font-size="16" fill="#57534e">每日菜單須留存，包含食材名稱、份量、烹調方式；依月份整理存檔</text>
   <text x="100" y="246" font-size="14" fill="#d97706">委員查核：抽查過去3個月菜單是否完整，是否與採購紀錄相符</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">每日留存</text>
-  <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">3個月備查</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">每日留存</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">3個月備查</text>
 
   <!-- Row 1：食物留樣 y=269 -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="329" font-size="16" fill="#57534e">每餐每道食物留樣，7°C 以下冷藏保存 48 小時；留樣容器標示日期、時間、品名</text>
   <text x="100" y="349" font-size="14" fill="#78716c">委員必查：打開冰箱確認留樣容器標示，並查留樣記錄表是否每日填寫</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">7°C以下</text>
-  <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">保存48小時</text>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">7°C以下</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">保存48小時</text>
 
   <!-- Row 2：冰箱溫度 y=372 -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -40,8 +40,8 @@
   <text x="100" y="432" font-size="16" fill="#57534e">冰箱須配置溫度計，冷藏保持 0-7°C，每日記錄一次並簽名確認</text>
   <text x="100" y="452" font-size="16" fill="#57534e">委員查核：實地查看溫度計是否存在，查近30天溫度記錄表是否每日填寫</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">0-7°C</text>
-  <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">每日記錄</text>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">0-7°C</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">每日記錄</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

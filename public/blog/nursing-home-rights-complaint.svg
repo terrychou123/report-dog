@@ -17,8 +17,8 @@
   <text x="105" y="142" font-size="14" fill="#1e293b" font-weight="600">申訴管道資訊張貼於明顯處</text>
   <text x="105" y="162" font-size="14" fill="#57534e">大廳公告欄、每間寢室門口均須張貼，住民與家屬可輕易看到</text>
   <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="140" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">設置</text>
-  <text x="688" y="158" font-size="14" fill="#78716c" text-anchor="middle">明顯可見</text>
+  <text x="688" y="145" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">設置</text>
+  <text x="688" y="163" font-size="14" fill="#78716c" text-anchor="middle">明顯可見</text>
 
   <!-- 要點 2 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="105" y="215" font-size="14" fill="#1e293b" font-weight="600">有專人負責受理申訴</text>
   <text x="105" y="235" font-size="14" fill="#57534e">不得只設意見箱而無人跟進；須指定專責人員，並公告聯絡方式</text>
   <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="213" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">受理</text>
-  <text x="688" y="231" font-size="14" fill="#78716c" text-anchor="middle">有人跟進</text>
+  <text x="688" y="218" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">受理</text>
+  <text x="688" y="236" font-size="14" fill="#78716c" text-anchor="middle">有人跟進</text>
 
   <!-- 要點 3 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="105" y="288" font-size="14" fill="#1e293b" font-weight="600">每年對申訴案件進行統計分析</text>
   <text x="105" y="308" font-size="14" fill="#57534e">分析申訴類型、數量、處理結果，製作年度申訴分析報告</text>
   <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="286" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">分析</text>
-  <text x="688" y="304" font-size="14" fill="#78716c" text-anchor="middle">每年1次</text>
+  <text x="688" y="291" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">分析</text>
+  <text x="688" y="309" font-size="14" fill="#78716c" text-anchor="middle">每年1次</text>
 
   <!-- 要點 4 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="105" y="361" font-size="14" fill="#1e293b" font-weight="600">根據分析結果提出改善措施</text>
   <text x="105" y="381" font-size="14" fill="#57534e">申訴分析結果須有對應改善方案，並追蹤改善成效</text>
   <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="359" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">改善</text>
-  <text x="688" y="377" font-size="14" fill="#78716c" text-anchor="middle">追蹤成效</text>
+  <text x="688" y="364" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">改善</text>
+  <text x="688" y="382" font-size="14" fill="#78716c" text-anchor="middle">追蹤成效</text>
 
   <!-- 底部提示 -->
   <rect x="28" y="415" width="744" height="45" rx="8" fill="#d97706" opacity="0.08"/>

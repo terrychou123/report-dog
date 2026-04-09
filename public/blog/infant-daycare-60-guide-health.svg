@@ -15,8 +15,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">健康管理（第37-39項）</text>
   <text x="100" y="166" font-size="16" fill="#57534e">體位測量（1歲以下每月，1歲以上每兩個月）、發展篩檢100%、完整健康紀錄</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">第37-39項</text>
-  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">托育人員</text>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">第37-39項</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">托育人員</text>
 
   <!-- Row 1：健康安全飲食（y=191）#78716c -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">健康安全飲食（第40-44項）</text>
   <text x="100" y="239" font-size="16" fill="#57534e">副食品設計公告、食材新鮮存放、食物樣品冷藏7°C以下保存48小時</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">第40-44項</text>
-  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">廚工行政</text>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">第40-44項</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">廚工行政</text>
 
   <!-- Row 2：環境與衛生設備（y=264）#57534e -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">環境與衛生設備（第45-51項）</text>
   <text x="100" y="312" font-size="16" fill="#57534e">廚房設備、冰箱溫度（冷藏0-7°C）、奶瓶消毒、寢具每週清洗、環境消毒紀錄</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">第45-51項</text>
-  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">廚工行政</text>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">第45-51項</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">廚工行政</text>
 
   <!-- Row 3：環境與設備安全（y=337）#a8a29e -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">環境與設備安全（第52-57項）</text>
   <text x="100" y="385" font-size="16" fill="#57534e">防墜防夾防燙防窒息防中毒、遊戲設備每月檢核、1歲以內仰睡不用枕頭</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="357" font-size="16" fill="#1e293b" text-anchor="middle">第52-57項</text>
-  <text x="688" y="377" font-size="16" fill="#1e293b" text-anchor="middle">托育人員</text>
+  <text x="688" y="363" font-size="16" fill="#1e293b" text-anchor="middle">第52-57項</text>
+  <text x="688" y="383" font-size="16" fill="#1e293b" text-anchor="middle">托育人員</text>
 
   <!-- Row 4：健康與安全照護（y=410）#94a3b8 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">健康與安全照護（第58-60項）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">保健用品8項以上未過期、委託給藥五對原則、感染管制手冊最新版本</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="430" font-size="16" fill="#1e293b" text-anchor="middle">第58-60項</text>
-  <text x="688" y="450" font-size="16" fill="#1e293b" text-anchor="middle">負責人主管</text>
+  <text x="688" y="436" font-size="16" fill="#1e293b" text-anchor="middle">第58-60項</text>
+  <text x="688" y="456" font-size="16" fill="#1e293b" text-anchor="middle">負責人主管</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

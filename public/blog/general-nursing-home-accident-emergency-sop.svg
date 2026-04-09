@@ -23,8 +23,8 @@
   <!-- 流程縱向 -->
   <!-- 步驟1 -->
   <rect x="265" y="70" width="150" height="55" fill="#fee2e2" rx="8" stroke="#e11d48" stroke-width="2"/>
-  <text x="340" y="89" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">1 立即評估</text>
-  <text x="340" y="107" font-size="14" fill="#78350f" text-anchor="middle">ABCD 初步評估</text>
+  <text x="340" y="93" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">1 立即評估</text>
+  <text x="340" y="111" font-size="14" fill="#78350f" text-anchor="middle">ABCD 初步評估</text>
 
   <!-- 下箭頭 -->
   <polygon points="340,130 333,142 347,142" fill="#e11d48"/>
@@ -32,8 +32,8 @@
 
   <!-- 步驟2 -->
   <rect x="265" y="146" width="150" height="55" fill="#fee2e2" rx="8" stroke="#e11d48" stroke-width="2"/>
-  <text x="340" y="165" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">2 啟動急救</text>
-  <text x="340" y="183" font-size="14" fill="#78350f" text-anchor="middle">CPR / AED</text>
+  <text x="340" y="169" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">2 啟動急救</text>
+  <text x="340" y="187" font-size="14" fill="#78350f" text-anchor="middle">CPR / AED</text>
 
   <!-- 下箭頭 -->
   <polygon points="340,206 333,218 347,218" fill="#e11d48"/>
@@ -41,8 +41,8 @@
 
   <!-- 步驟3 -->
   <rect x="265" y="222" width="150" height="55" fill="#fca5a5" rx="8" stroke="#dc2626" stroke-width="2"/>
-  <text x="340" y="241" font-size="14" fill="white" font-weight="bold" text-anchor="middle">3 叫救護車</text>
-  <text x="340" y="259" font-size="14" fill="white" text-anchor="middle">撥打 119</text>
+  <text x="340" y="245" font-size="14" fill="white" font-weight="bold" text-anchor="middle">3 叫救護車</text>
+  <text x="340" y="263" font-size="14" fill="white" text-anchor="middle">撥打 119</text>
 
   <!-- 下箭頭 -->
   <polygon points="340,282 333,294 347,294" fill="#e11d48"/>
@@ -50,8 +50,8 @@
 
   <!-- 步驟4 -->
   <rect x="265" y="298" width="150" height="55" fill="#fee2e2" rx="8" stroke="#e11d48" stroke-width="2"/>
-  <text x="340" y="317" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">4 通知家屬</text>
-  <text x="340" y="335" font-size="14" fill="#78350f" text-anchor="middle">醫師/主管知情</text>
+  <text x="340" y="321" font-size="14" fill="#9f1239" font-weight="bold" text-anchor="middle">4 通知家屬</text>
+  <text x="340" y="339" font-size="14" fill="#78350f" text-anchor="middle">醫師/主管知情</text>
 
   <!-- 下箭頭 -->
   <polygon points="340,358 333,370 347,370" fill="#e11d48"/>
@@ -59,8 +59,8 @@
 
   <!-- 步驟5 -->
   <rect x="265" y="374" width="150" height="55" fill="#166534" rx="8"/>
-  <text x="340" y="393" font-size="14" fill="white" font-weight="bold" text-anchor="middle">5 陪同就醫</text>
-  <text x="340" y="411" font-size="14" fill="#86efac" text-anchor="middle">帶病歷資料</text>
+  <text x="340" y="397" font-size="14" fill="white" font-weight="bold" text-anchor="middle">5 陪同就醫</text>
+  <text x="340" y="415" font-size="14" fill="#86efac" text-anchor="middle">帶病歷資料</text>
 
   <!-- 右側記錄要求 -->
   <rect x="440" y="65" width="340" height="200" fill="white" rx="10" stroke="#d97706" stroke-width="1.5"/>

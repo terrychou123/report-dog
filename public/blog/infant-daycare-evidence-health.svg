@@ -15,8 +15,8 @@
   <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">健康管理（指標 37-39）</text>
   <text x="100" y="166" font-size="16" fill="#57534e">必備文件：幼兒健康紀錄、用藥委託單（含五對原則核對）、傳染病防治措施記錄</text>
   <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="138" font-size="16" fill="#d97706" text-anchor="middle">委託給藥</text>
-  <text x="688" y="158" font-size="16" fill="#d97706" text-anchor="middle">需五對核對</text>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">委託給藥</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">需五對核對</text>
 
   <!-- Row 1（y=191）#78716c 暖灰 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -26,8 +26,8 @@
   <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">健康安全飲食（指標 40-44）</text>
   <text x="100" y="239" font-size="16" fill="#57534e">必備文件：菜單與食材採購紀錄、食物留樣記錄（7°C以下，48hr），冰箱溫度日誌（0-7°C）</text>
   <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="211" font-size="16" fill="#78716c" text-anchor="middle">每日溫度</text>
-  <text x="688" y="231" font-size="16" fill="#78716c" text-anchor="middle">記錄不可缺</text>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">每日溫度</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">記錄不可缺</text>
 
   <!-- Row 2（y=264）#57534e 深棕 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -37,8 +37,8 @@
   <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">環境與衛生設備（指標 45-51）</text>
   <text x="100" y="312" font-size="16" fill="#57534e">必備文件：環境衛生清潔紀錄（含廚房、廁所、遊戲區）、消毒記錄、設備維護檢查表</text>
   <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="284" font-size="16" fill="#57534e" text-anchor="middle">清潔頻率</text>
-  <text x="688" y="304" font-size="16" fill="#57534e" text-anchor="middle">需量化說明</text>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">清潔頻率</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">需量化說明</text>
 
   <!-- Row 3（y=337）#a8a29e 淺灰 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -48,8 +48,8 @@
   <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">環境與設備安全（指標 52-57）</text>
   <text x="100" y="385" font-size="16" fill="#57534e">必備文件：逃生演練紀錄（含日期與參與人員）、安全設施檢查表、玩具安全標章</text>
   <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="357" font-size="16" fill="#1e293b" text-anchor="middle">嬰兒禁枕</text>
-  <text x="688" y="377" font-size="16" fill="#1e293b" text-anchor="middle">1歲以下規定</text>
+  <text x="688" y="363" font-size="16" fill="#1e293b" text-anchor="middle">嬰兒禁枕</text>
+  <text x="688" y="383" font-size="16" fill="#1e293b" text-anchor="middle">1歲以下規定</text>
 
   <!-- Row 4（y=410）#94a3b8 藍灰 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -59,8 +59,8 @@
   <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">健康與安全照護（指標 58-60）</text>
   <text x="100" y="458" font-size="16" fill="#57534e">必備文件：急救設備清單與維護紀錄、感染管制手冊（疾管署最新版）、事故傷害處理紀錄</text>
   <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="430" font-size="16" fill="#1e293b" text-anchor="middle">手冊版本</text>
-  <text x="688" y="450" font-size="16" fill="#1e293b" text-anchor="middle">需最新修訂</text>
+  <text x="688" y="436" font-size="16" fill="#1e293b" text-anchor="middle">手冊版本</text>
+  <text x="688" y="456" font-size="16" fill="#1e293b" text-anchor="middle">需最新修訂</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

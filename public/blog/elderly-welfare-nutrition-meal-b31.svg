@@ -15,8 +15,8 @@
   <text x="100" y="133" font-size="16" font-weight="700" fill="#1e293b" >個別灌食空針（最常見缺失）</text>
   <text x="100" y="156" font-size="16" fill="#57534e" >每位管灌住民有專屬空針，標示姓名，不可多人共用；每日消毒、定期更換</text>
   <rect x="596" y="119" width="136" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="664" y="133" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600" >(!) 高頻缺失</text>
-  <text x="664" y="152" font-size="14" fill="#dc2626" text-anchor="middle" >床邊即查</text>
+  <text x="664" y="137" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600" >(!) 高頻缺失</text>
+  <text x="664" y="156" font-size="14" fill="#dc2626" text-anchor="middle" >床邊即查</text>
 
   <!-- Row 2 (y=235) -->
   <rect x="40" y="185" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -26,8 +26,8 @@
   <text x="100" y="208" font-size="16" font-weight="700" fill="#1e293b" >非全商業配方：至少管灌一次天然食材</text>
   <text x="100" y="231" font-size="16" fill="#57534e" >需有紀錄佐證定期提供天然食材（如果泥、米漿），並確保熱量足夠</text>
   <rect x="596" y="194" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="664" y="208" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >熱量記錄</text>
-  <text x="664" y="227" font-size="14" fill="#78716c" text-anchor="middle" >天然食材</text>
+  <text x="664" y="212" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >熱量記錄</text>
+  <text x="664" y="231" font-size="14" fill="#78716c" text-anchor="middle" >天然食材</text>
 
   <!-- Row 3 (y=310) -->
   <rect x="40" y="260" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -37,8 +37,8 @@
   <text x="100" y="283" font-size="16" font-weight="700" fill="#1e293b" >灌食技術四項正確</text>
   <text x="100" y="306" font-size="16" fill="#57534e" >1管路位置確認 2回抽（確認胃殘餘量）3高度正確 4流速適當，四項缺一不可</text>
   <rect x="596" y="269" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="664" y="283" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" >現場抽測</text>
-  <text x="664" y="302" font-size="14" fill="#57534e" text-anchor="middle" >技術操作</text>
+  <text x="664" y="287" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" >現場抽測</text>
+  <text x="664" y="306" font-size="14" fill="#57534e" text-anchor="middle" >技術操作</text>
 
   <!-- Row 4 (y=385) -->
   <rect x="40" y="335" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -48,8 +48,8 @@
   <text x="100" y="358" font-size="16" font-weight="700" fill="#1e293b" >灌食後頭頸抬高 30-45 度維持</text>
   <text x="100" y="381" font-size="16" fill="#57534e" >灌食後維持頭頸部抬高 30-45 度，直至規定時間（60 分鐘以內）；灌食前需打招呼</text>
   <rect x="596" y="344" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="664" y="358" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >時間記錄</text>
-  <text x="664" y="377" font-size="14" fill="#78716c" text-anchor="middle" >姿勢確認</text>
+  <text x="664" y="362" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >時間記錄</text>
+  <text x="664" y="381" font-size="14" fill="#78716c" text-anchor="middle" >姿勢確認</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

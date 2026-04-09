@@ -22,9 +22,9 @@
 <line x1="60" y1="432" x2="780" y2="432" stroke="#dedad3" stroke-width="2"/>
 <text x="60" y="478" font-size="36" fill="#57534e" font-weight="400">整合多年度日照中心評鑑扣分紀錄，歸納出最容易被委員抓到的 1</text>
 <rect x="60" y="532" width="120" height="50" rx="10" fill="#fef3c7"/>
-<text x="120" y="560" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">日照評鑑</text>
+<text x="120" y="569" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">日照評鑑</text>
 <rect x="194" y="532" width="144" height="50" rx="10" fill="#f5f5f4"/>
 <text x="266" y="564" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">115年度</text>
-<text x="60" y="554" font-size="26" fill="#94a3b8">適用：日間照顧評鑑準備團隊</text>
+<text x="60" y="563" font-size="26" fill="#94a3b8">適用：日間照顧評鑑準備團隊</text>
 <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

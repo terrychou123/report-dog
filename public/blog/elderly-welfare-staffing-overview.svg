@@ -17,8 +17,8 @@
   <text x="100" y="112"  font-size="20" fill="#1e293b" font-weight="700">業務負責人（院長）</text>
   <text x="100" y="134"  font-size="16" fill="#57534e">專任投保勞健保；資格符合老人福利服務專業人員資格訓練辦法；有行政參與佐證</text>
   <rect x="620" y="95" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="109"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">專任</text>
-  <text x="688" y="127"  font-size="14" fill="#92400e" text-anchor="middle">投保勞健保</text>
+  <text x="688" y="114"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">專任</text>
+  <text x="688" y="132"  font-size="14" fill="#92400e" text-anchor="middle">投保勞健保</text>
 
   <!-- Row 2: A8 社工 -->
   <rect x="29" y="161" width="742" height="60" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="100" y="185"  font-size="20" fill="#1e293b" font-weight="700">社會工作人員</text>
   <text x="100" y="207"  font-size="16" fill="#57534e">依床數標準人數設置；兼任需報備+同意書+勞保；檢視近 5 年</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="182"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">床數比例</text>
-  <text x="688" y="200"  font-size="14" fill="#57534e" text-anchor="middle">5年檢視</text>
+  <text x="688" y="187"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">床數比例</text>
+  <text x="688" y="205"  font-size="14" fill="#57534e" text-anchor="middle">5年檢視</text>
 
   <!-- Row 3: A9 護理 -->
   <rect x="29" y="234" width="742" height="60" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="100" y="258"  font-size="20" fill="#1e293b" font-weight="700">護理人員</text>
   <text x="100" y="280"  font-size="16" fill="#57534e">全日24小時均有護理人員；完成執業登錄；近5年無違規聘用</text>
   <rect x="620" y="241" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="255"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">24H 排班</text>
-  <text x="688" y="273"  font-size="14" fill="#dc2626" text-anchor="middle">高頻扣分</text>
+  <text x="688" y="260"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">24H 排班</text>
+  <text x="688" y="278"  font-size="14" fill="#dc2626" text-anchor="middle">高頻扣分</text>
 
   <!-- Row 4: A10 特約 -->
   <rect x="29" y="307" width="742" height="60" rx="8" fill="white"/>
@@ -50,8 +50,8 @@
   <text x="100" y="331"  font-size="20" fill="#1e293b" font-weight="700">特約專業人員</text>
   <text x="100" y="353"  font-size="16" fill="#57534e">含營養師、物理/職能治療師（生）、醫師；完成支援報備；有到勤紀錄</text>
   <rect x="620" y="314" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="328"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">支援報備</text>
-  <text x="688" y="346"  font-size="14" fill="#57534e" text-anchor="middle">到勤紀錄</text>
+  <text x="688" y="333"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">支援報備</text>
+  <text x="688" y="351"  font-size="14" fill="#57534e" text-anchor="middle">到勤紀錄</text>
 
   <!-- Row 5: A11 照服員 -->
   <rect x="29" y="380" width="742" height="60" rx="8" fill="white"/>

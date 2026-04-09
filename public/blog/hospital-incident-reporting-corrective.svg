@@ -60,13 +60,13 @@
 
   <!-- 左欄 Row 4：評鑑結果 -->
   <rect x="28" y="390" width="358" height="52" rx="8" fill="#fee2e2"/>
-  <text x="207" y="408" text-anchor="middle" font-size="18" fill="#dc2626" font-weight="700">評鑑委員評定：不符合</text>
-  <text x="207" y="425" text-anchor="middle" font-size="14" fill="#dc2626">RCA做了，但品質不足</text>
+  <text x="207" y="414" text-anchor="middle" font-size="18" fill="#dc2626" font-weight="700">評鑑委員評定：不符合</text>
+  <text x="207" y="431" text-anchor="middle" font-size="14" fill="#dc2626">RCA做了，但品質不足</text>
 
   <!-- 右欄 Row 4：評鑑結果 -->
   <rect x="414" y="390" width="358" height="52" rx="8" fill="#dcfce7"/>
-  <text x="593" y="408" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">評鑑委員評定：符合</text>
-  <text x="593" y="425" text-anchor="middle" font-size="14" fill="#16a34a">根本原因挖到系統，改善可驗證</text>
+  <text x="593" y="414" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">評鑑委員評定：符合</text>
+  <text x="593" y="431" text-anchor="middle" font-size="14" fill="#16a34a">根本原因挖到系統，改善可驗證</text>
 
   <!-- 浮水印 -->
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

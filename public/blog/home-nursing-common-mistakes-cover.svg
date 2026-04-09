@@ -10,12 +10,12 @@
 
   <!-- 右側直列 pill 標籤（代表缺失分布） -->
   <rect x="840" y="303" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="321" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">A 構面 · 6 個高頻缺失</text>
-  <text x="1000" y="355" font-size="20" fill="#a8a29e" text-anchor="middle">感染管制 · 品質指標 · 訪視安全</text>
+  <text x="1000" y="322" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">A 構面 · 6 個高頻缺失</text>
+  <text x="1000" y="356" font-size="20" fill="#a8a29e" text-anchor="middle">感染管制 · 品質指標 · 訪視安全</text>
 
   <rect x="840" y="371" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="389" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">B 構面 · 4 個高頻缺失</text>
-  <text x="1000" y="423" font-size="20" fill="#a8a29e" text-anchor="middle">B1 協議缺失 · B2 評估不完整</text>
+  <text x="1000" y="390" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">B 構面 · 4 個高頻缺失</text>
+  <text x="1000" y="424" font-size="20" fill="#a8a29e" text-anchor="middle">B1 協議缺失 · B2 評估不完整</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="441" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>

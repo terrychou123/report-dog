@@ -17,8 +17,8 @@
   <text x="100" y="141" font-size="20" fill="#1e293b" font-weight="700">人員（People）</text>
   <text x="100" y="165" font-size="16" fill="#57534e">人力不足、工作負荷過重、訓練不足、知識技能缺口、當班疲勞</text>
   <rect x="620" y="126" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="137" font-size="16" fill="#d97706" text-anchor="middle">系統因素</text>
-  <text x="688" y="153" font-size="16" fill="#d97706" text-anchor="middle">非個人疏失</text>
+  <text x="688" y="143" font-size="16" fill="#d97706" text-anchor="middle">系統因素</text>
+  <text x="688" y="159" font-size="16" fill="#d97706" text-anchor="middle">非個人疏失</text>
 
   <!-- ===== Row 2（y=191）流程方法 #78716c ===== -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="214" font-size="20" fill="#1e293b" font-weight="700">流程方法（Process）</text>
   <text x="100" y="238" font-size="16" fill="#57534e">SOP不清楚、步驟設計有失誤空間、缺乏雙重查核、資訊傳遞有缺口</text>
   <rect x="620" y="199" width="136" height="38" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="210" font-size="16" fill="#78716c" text-anchor="middle">流程重新</text>
-  <text x="688" y="226" font-size="16" fill="#78716c" text-anchor="middle">設計防呆</text>
+  <text x="688" y="216" font-size="16" fill="#78716c" text-anchor="middle">流程重新</text>
+  <text x="688" y="232" font-size="16" fill="#78716c" text-anchor="middle">設計防呆</text>
 
   <!-- ===== Row 3（y=264）設備環境 #57534e ===== -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="287" font-size="20" fill="#1e293b" font-weight="700">設備環境（Equipment）</text>
   <text x="100" y="311" font-size="16" fill="#57534e">儀器設計易混淆（外觀相似藥品）、標示不清楚、環境光線不足、儀器故障</text>
   <rect x="620" y="272" width="136" height="38" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="283" font-size="16" fill="#57534e" text-anchor="middle">改善設計</text>
-  <text x="688" y="299" font-size="16" fill="#57534e" text-anchor="middle">降低誤用機率</text>
+  <text x="688" y="289" font-size="16" fill="#57534e" text-anchor="middle">改善設計</text>
+  <text x="688" y="305" font-size="16" fill="#57534e" text-anchor="middle">降低誤用機率</text>
 
   <!-- ===== Row 4（y=337）管理制度 #a8a29e ===== -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="100" y="360" font-size="20" fill="#1e293b" font-weight="700">管理制度（Management）</text>
   <text x="100" y="384" font-size="16" fill="#57534e">督導機制不足、溝通交接流程有缺口、政策規定不明確、授權不清晰</text>
   <rect x="620" y="345" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="356" font-size="16" fill="#a8a29e" text-anchor="middle">制度面</text>
-  <text x="688" y="372" font-size="16" fill="#a8a29e" text-anchor="middle">結構性改善</text>
+  <text x="688" y="362" font-size="16" fill="#a8a29e" text-anchor="middle">制度面</text>
+  <text x="688" y="378" font-size="16" fill="#a8a29e" text-anchor="middle">結構性改善</text>
 
   <!-- ===== Row 5（y=410）溝通文化 #94a3b8 ===== -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -61,8 +61,8 @@
   <text x="100" y="433" font-size="20" fill="#1e293b" font-weight="700">溝通文化（Communication）</text>
   <text x="100" y="457" font-size="16" fill="#57534e">跨科溝通障礙、交班不完整、資訊不對稱、病人辨識確認流程不足</text>
   <rect x="620" y="418" width="136" height="38" rx="8" fill="#6b7280" opacity="0.12"/>
-  <text x="688" y="429" font-size="16" fill="#6b7280" text-anchor="middle">溝通標準化</text>
-  <text x="688" y="445" font-size="16" fill="#6b7280" text-anchor="middle">（如SBAR）</text>
+  <text x="688" y="435" font-size="16" fill="#6b7280" text-anchor="middle">溝通標準化</text>
+  <text x="688" y="451" font-size="16" fill="#6b7280" text-anchor="middle">（如SBAR）</text>
 
   <!-- 浮水印 -->
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

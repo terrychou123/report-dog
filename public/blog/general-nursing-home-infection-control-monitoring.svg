@@ -21,8 +21,8 @@
   <text x="100" y="200" font-size="22" fill="#1e293b" font-weight="700">住民感染事件記錄</text>
   <text x="100" y="224" font-size="16" fill="#57534e">發現日期、感染類型、受影響住民名單、隔離措施啟動時間、症狀消退日期</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">每件事件</text>
-  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">一份記錄</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">每件事件</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">一份記錄</text>
 
   <!-- Row 2：工作人員監測（y=269, H=90） -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -32,8 +32,8 @@
   <text x="100" y="303" font-size="22" fill="#1e293b" font-weight="700">工作人員傳染病監測</text>
   <text x="100" y="327" font-size="16" fill="#57534e">工作人員感染通報記錄、返回工作條件確認、疫苗接種狀況建檔</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">含疫苗接種</text>
-  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">建檔記錄</text>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">含疫苗接種</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">建檔記錄</text>
 
   <!-- Row 3：追蹤改善記錄（y=372, H=90） -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -43,8 +43,8 @@
   <text x="100" y="406" font-size="22" fill="#1e293b" font-weight="700">追蹤改善機制（最常空白！）</text>
   <text x="100" y="430" font-size="16" fill="#57534e">感染事件分析-改善措施-執行確認-成效追蹤，四步驟缺一不可</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="688" y="411" font-size="16" fill="#16a34a" text-anchor="middle">改善措施</text>
-  <text x="688" y="431" font-size="16" fill="#16a34a" text-anchor="middle">追蹤不得空白</text>
+  <text x="688" y="413" font-size="16" fill="#16a34a" text-anchor="middle">改善措施</text>
+  <text x="688" y="433" font-size="16" fill="#16a34a" text-anchor="middle">追蹤不得空白</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

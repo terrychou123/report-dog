@@ -16,8 +16,8 @@
   <text x="100" y="224" font-size="16" fill="#57534e">缺失：日誌有中斷、內容僅記錄「今日一切正常」、未含個別發展表現</text>
   <text x="100" y="244" font-size="16" fill="#d97706" font-weight="600">正確：每日與嬰幼兒家庭保持聯繫，內容含個別嬰幼兒成長與發展表現</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="201" font-size="16" fill="#dc2626" text-anchor="middle">文書缺失</text>
-  <text x="688" y="221" font-size="16" fill="#dc2626" text-anchor="middle">第35項</text>
+  <text x="688" y="207" font-size="16" fill="#dc2626" text-anchor="middle">文書缺失</text>
+  <text x="688" y="227" font-size="16" fill="#dc2626" text-anchor="middle">第35項</text>
 
   <!-- Row 1：睡眠床距不足（y=269）#78716c -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="327" font-size="16" fill="#57534e">缺失：睡眠區床位間距不足，嬰幼兒可能相互干擾或有安全疑慮</text>
   <text x="100" y="347" font-size="16" fill="#78716c" font-weight="600">正確：床位間距30公分以上，或以隔板區隔，符合安全舒適原則</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="688" y="304" font-size="16" fill="#dc2626" text-anchor="middle">環境缺失</text>
-  <text x="688" y="324" font-size="16" fill="#dc2626" text-anchor="middle">第15項</text>
+  <text x="688" y="310" font-size="16" fill="#dc2626" text-anchor="middle">環境缺失</text>
+  <text x="688" y="330" font-size="16" fill="#dc2626" text-anchor="middle">第15項</text>
 
   <!-- 托育活動提示 -->
   <rect x="28" y="376" width="744" height="88" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>

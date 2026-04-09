@@ -16,8 +16,8 @@
   <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" >膳食菜單擬定（B28）</text>
   <text x="108" y="182" font-size="16" fill="#57534e" >由專任或特約營養師擬定，至少 2 星期循環菜單，每週提供 1 次快樂餐</text>
   <rect x="620" y="143" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="157" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">營養師</text>
-  <text x="688" y="176" font-size="14" fill="#d97706" text-anchor="middle" >2 週循環</text>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">營養師</text>
+  <text x="688" y="180" font-size="14" fill="#d97706" text-anchor="middle" >2 週循環</text>
 
   <!-- 列 2：B29 個別化飲食 -->
   <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
@@ -27,8 +27,8 @@
   <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" >個別化飲食設計（B29）</text>
   <text x="108" y="257" font-size="16" fill="#57534e" >依疾病/宗教/生理需求設計，食物質地區分一般/細碎/軟質/流質/管灌等</text>
   <rect x="620" y="218" width="136" height="46" rx="8" fill="#dcfce7" opacity="0.12"/>
-  <text x="688" y="232" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">個別設計</text>
-  <text x="688" y="251" font-size="14" fill="#16a34a" text-anchor="middle" >半年滿意調查</text>
+  <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">個別設計</text>
+  <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" >半年滿意調查</text>
 
   <!-- 列 3：B30 適宜餐具 -->
   <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
@@ -38,8 +38,8 @@
   <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" >個別化餐具供應（B30）</text>
   <text x="108" y="332" font-size="16" fill="#57534e" >備有缺口杯、易握湯匙、高邊盤等，每位住民有私人餐具並有明確標示</text>
   <rect x="620" y="293" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="307" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">私人餐具</text>
-  <text x="688" y="326" font-size="14" fill="#78716c" text-anchor="middle" >明確標示</text>
+  <text x="688" y="311" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">私人餐具</text>
+  <text x="688" y="330" font-size="14" fill="#78716c" text-anchor="middle" >明確標示</text>
 
   <!-- 列 4：B31 腸道管灌 -->
   <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
@@ -49,8 +49,8 @@
   <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" >腸道管灌餵食照護（B31）</text>
   <text x="108" y="407" font-size="16" fill="#57534e" >個別灌食空針、至少一次自然食材、灌食後頭頸抬高 30-45 度維持 60 分鐘內</text>
   <rect x="620" y="368" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="382" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">頭部抬高</text>
-  <text x="688" y="401" font-size="14" fill="#57534e" text-anchor="middle" >30-45 度</text>
+  <text x="688" y="386" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">頭部抬高</text>
+  <text x="688" y="405" font-size="14" fill="#57534e" text-anchor="middle" >30-45 度</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

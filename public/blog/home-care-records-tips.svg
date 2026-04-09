@@ -17,8 +17,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700" >用事實取代感受</text>
   <text x="100" y="208" font-size="16" fill="#57534e" >寫「個案主訴腰痛」而非「感覺很不舒服」</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >客觀紀錄</text>
-  <text x="688" y="201" font-size="16" text-anchor="middle" fill="#d97706" >評委要求</text>
+  <text x="688" y="187" font-size="16" text-anchor="middle" fill="#d97706" font-weight="700" >客觀紀錄</text>
+  <text x="688" y="207" font-size="16" text-anchor="middle" fill="#d97706" >評委要求</text>
 
   <!-- Row 2 (y=235, color=#78716c) -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700" >當下立即填寫</text>
   <text x="100" y="283" font-size="16" fill="#57534e" >服務完成後立即記錄，勿事後回憶補寫</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >即時原則</text>
-  <text x="688" y="276" font-size="16" text-anchor="middle" fill="#78716c" >品質保證</text>
+  <text x="688" y="262" font-size="16" text-anchor="middle" fill="#78716c" font-weight="700" >即時原則</text>
+  <text x="688" y="282" font-size="16" text-anchor="middle" fill="#78716c" >品質保證</text>
 
   <!-- Row 3 (y=310, color=#57534e) -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700" >異常立即通報</text>
   <text x="100" y="358" font-size="16" fill="#57534e" >發現異常即時記錄並通報督導主管</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >通報機制</text>
-  <text x="688" y="351" font-size="16" text-anchor="middle" fill="#57534e" >法規要求</text>
+  <text x="688" y="337" font-size="16" text-anchor="middle" fill="#57534e" font-weight="700" >通報機制</text>
+  <text x="688" y="357" font-size="16" text-anchor="middle" fill="#57534e" >法規要求</text>
 
   <!-- Row 4 (y=385, color=#a8a29e) -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700" >統一格式維護</text>
   <text x="100" y="433" font-size="16" fill="#57534e" >使用機構標準格式，欄位完整不留空</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >格式規範</text>
-  <text x="688" y="426" font-size="16" text-anchor="middle" fill="#a8a29e" >一致呈現</text>
+  <text x="688" y="412" font-size="16" text-anchor="middle" fill="#a8a29e" font-weight="700" >格式規範</text>
+  <text x="688" y="432" font-size="16" text-anchor="middle" fill="#a8a29e" >一致呈現</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" >報告汪 reportwang.com</text>

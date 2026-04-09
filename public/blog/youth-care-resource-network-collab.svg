@@ -25,8 +25,8 @@
   <text x="68" y="330" font-size="14" fill="#57534e">法律扶助人員</text>
   <text x="68" y="354" font-size="14" fill="#57534e">其他專業人員</text>
   <rect x="62" y="370" width="166" height="62" rx="8" fill="#fef3c7"/>
-  <text x="145" y="391" font-size="14" fill="#78716c" text-anchor="middle">建議：整理合作</text>
-  <text x="145" y="411" font-size="14" fill="#78716c" text-anchor="middle">協議書 (MOU)</text>
+  <text x="145" y="396" font-size="14" fill="#78716c" text-anchor="middle">建議：整理合作</text>
+  <text x="145" y="416" font-size="14" fill="#78716c" text-anchor="middle">協議書 (MOU)</text>
 
   <!-- Arrow 1→2 -->
   <text x="268" y="290" font-size="32" fill="#d97706" text-anchor="middle">-</text>
@@ -44,8 +44,8 @@
   <text x="313" y="330" font-size="14" fill="#57534e">後續行動確認</text>
   <text x="313" y="354" font-size="14" fill="#57534e">聯繫方式（電話/面談）</text>
   <rect x="307" y="370" width="166" height="62" rx="8" fill="#fef3c7"/>
-  <text x="390" y="391" font-size="14" fill="#78716c" text-anchor="middle">電話諮詢需於</text>
-  <text x="390" y="411" font-size="14" fill="#78716c" text-anchor="middle">24小時內書面記錄</text>
+  <text x="390" y="396" font-size="14" fill="#78716c" text-anchor="middle">電話諮詢需於</text>
+  <text x="390" y="416" font-size="14" fill="#78716c" text-anchor="middle">24小時內書面記錄</text>
 
   <!-- Arrow 2→3 -->
   <text x="513" y="290" font-size="32" fill="#d97706" text-anchor="middle">-</text>
@@ -63,8 +63,8 @@
   <text x="558" y="330" font-size="14" fill="#57534e">年度合作回顧</text>
   <text x="558" y="354" font-size="14" fill="#57534e">新資源開發需求</text>
   <rect x="552" y="370" width="166" height="62" rx="8" fill="#fef3c7"/>
-  <text x="635" y="391" font-size="14" fill="#78716c" text-anchor="middle">形成系統性</text>
-  <text x="635" y="411" font-size="14" fill="#78716c" text-anchor="middle">而非臨時性合作</text>
+  <text x="635" y="396" font-size="14" fill="#78716c" text-anchor="middle">形成系統性</text>
+  <text x="635" y="416" font-size="14" fill="#78716c" text-anchor="middle">而非臨時性合作</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>

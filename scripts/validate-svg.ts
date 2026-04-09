@@ -81,7 +81,8 @@ function parseContainers(svg: string, svgW: number): ContainerRect[] {
     // 排除：背景大色塊、色條、裝飾線、Row 主框
     // h <= 28 排除所有裝飾性色條（h=8 頂部色條、h=20 填充延伸條等）
     if (w >= svgW * 0.9 || w <= 10 || h <= 28) continue;
-    if (attr(el, "stroke") === "#e8e6de") continue;
+    // 排除寬 Row 主框（w >= svgW*0.6），但保留封面右側窄卡片（w=155~320）
+    if (attr(el, "stroke") === "#e8e6de" && w >= svgW * 0.6) continue;
     // 排除：無 rx 的裝飾性填充延伸條
     const rx = attr(el, "rx");
     if (!rx || rx === "0") continue;
@@ -121,9 +122,13 @@ function vcY1(ry: number, rh: number, fs: number): number {
   return Math.round(ry + rh / 2 + fs * 0.35);
 }
 
-/** 雙行垂直置中預期 title_y（保留既有 gap，整組置中） */
+/** 雙行垂直置中預期 title_y（保留既有 gap，整組置中）
+ *  公式：rect 中心 - gap/2 + title_fs*0.35（title baseline 偏移）
+ */
 function vcY2(ry: number, rh: number, tfs: number, sfs: number, gap: number): number {
-  return Math.round(ry + rh / 2 - gap / 2 + (tfs - sfs) * 0.175);
+  // sfs 參數保留供呼叫端傳入，但計算只需 tfs（title baseline 決定整體置中）
+  void sfs;
+  return Math.round(ry + rh / 2 - gap / 2 + tfs * 0.35);
 }
 
 // ─── 自動修正函式 ────────────────────────────────────────────────────────────

@@ -14,8 +14,8 @@
   <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700">就業準備度評估（連結 2.1 復健評估）</text>
   <text x="100" y="207" font-size="16" fill="#57534e">每位在案服務對象的工作能力、興趣評估，以及目前屬於三類分流中的哪一類</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="15" fill="#d97706" text-anchor="middle">入案評估</text>
-  <text x="688" y="201" font-size="15" fill="#d97706" text-anchor="middle">定期更新</text>
+  <text x="688" y="186" font-size="15" fill="#d97706" text-anchor="middle">入案評估</text>
+  <text x="688" y="206" font-size="15" fill="#d97706" text-anchor="middle">定期更新</text>
 
   <!-- Row 2: 工作性活動設計說明 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -25,8 +25,8 @@
   <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">工作性活動設計說明書</text>
   <text x="100" y="282" font-size="16" fill="#57534e">每項活動說明「訓練什麼工作技能」「對應哪個就業目標」，體現活動有職業復健目的</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="15" fill="#78716c" text-anchor="middle">有目標</text>
-  <text x="688" y="276" font-size="15" fill="#78716c" text-anchor="middle">非安置手段</text>
+  <text x="688" y="261" font-size="15" fill="#78716c" text-anchor="middle">有目標</text>
+  <text x="688" y="281" font-size="15" fill="#78716c" text-anchor="middle">非安置手段</text>
 
   <!-- Row 3: 轉介與追蹤紀錄 -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -36,8 +36,8 @@
   <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700">外部資源轉介紀錄</text>
   <text x="100" y="357" font-size="16" fill="#57534e">轉介職業重建、庇護工場、就業服務站的申請書、聯繫紀錄、轉介結果（含失敗原因）</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="15" fill="#57534e" text-anchor="middle">每次轉介</text>
-  <text x="688" y="351" font-size="15" fill="#57534e" text-anchor="middle">書面為憑</text>
+  <text x="688" y="336" font-size="15" fill="#57534e" text-anchor="middle">每次轉介</text>
+  <text x="688" y="356" font-size="15" fill="#57534e" text-anchor="middle">書面為憑</text>
 
   <!-- Row 4: 就業後追蹤 -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -47,8 +47,8 @@
   <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700">就業後追蹤紀錄（結案後仍需保留）</text>
   <text x="100" y="432" font-size="16" fill="#57534e">就業後第 1 週、1 個月、3 個月、6 個月的追蹤聯繫紀錄，顯示機構持續關心就業穩定</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="15" fill="#a8a29e" text-anchor="middle">結案後</text>
-  <text x="688" y="426" font-size="15" fill="#a8a29e" text-anchor="middle">繼續追蹤</text>
+  <text x="688" y="411" font-size="15" fill="#a8a29e" text-anchor="middle">結案後</text>
+  <text x="688" y="431" font-size="15" fill="#a8a29e" text-anchor="middle">繼續追蹤</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

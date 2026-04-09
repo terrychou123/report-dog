@@ -60,8 +60,8 @@
   <!-- 高風險族群說明 -->
   <rect x="45" y="295" width="710" height="60" rx="10" fill="#fff7ed"/>
   <rect x="45" y="295" width="4" height="60" rx="2" fill="#f97316"/>
-  <text x="65" y="314" font-size="14" font-weight="700" fill="#7c2d12">高風險族群——需加強評估頻率</text>
-  <text x="65" y="336" font-size="14" fill="#475569"> 鼻胃管住民　 氣切住民　 認知障礙（失智）住民　 長期使用抗生素住民　 免疫功能低下住民</text>
+  <text x="65" y="319" font-size="14" font-weight="700" fill="#7c2d12">高風險族群——需加強評估頻率</text>
+  <text x="65" y="341" font-size="14" fill="#475569"> 鼻胃管住民　 氣切住民　 認知障礙（失智）住民　 長期使用抗生素住民　 免疫功能低下住民</text>
 
   <!-- OHSS 工具說明 -->
   <rect x="45" y="375" width="710" height="90" rx="10" fill="#f0fdf4"/>

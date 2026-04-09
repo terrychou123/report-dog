@@ -15,8 +15,8 @@
   <text x="100" y="133" font-size="16" font-weight="700" fill="#1e293b" >逐項指標掃描：77 項全面比對</text>
   <text x="100" y="156" font-size="16" fill="#57534e" >針對所有指標（含一級必要、二級加強、加分項），標記「完整」「部分符合」「缺失」</text>
   <rect x="596" y="119" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="664" y="133" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" >備戰進度</text>
-  <text x="664" y="152" font-size="14" fill="#d97706" text-anchor="middle" >一覽掌握</text>
+  <text x="664" y="137" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" >備戰進度</text>
+  <text x="664" y="156" font-size="14" fill="#d97706" text-anchor="middle" >一覽掌握</text>
 
   <!-- Row 2 (y=235) -->
   <rect x="40" y="185" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -26,8 +26,8 @@
   <text x="100" y="208" font-size="16" font-weight="700" fill="#1e293b" >文件一致性分析：跨文件矛盾提前揪出</text>
   <text x="100" y="231" font-size="16" fill="#57534e" >比對個案計畫、護理紀錄、統計報告，發現「文件說一套、紀錄寫另一套」的問題</text>
   <rect x="596" y="194" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="664" y="208" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >交叉比對</text>
-  <text x="664" y="227" font-size="14" fill="#78716c" text-anchor="middle" >矛盾即標記</text>
+  <text x="664" y="212" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600" >交叉比對</text>
+  <text x="664" y="231" font-size="14" fill="#78716c" text-anchor="middle" >矛盾即標記</text>
 
   <!-- Row 3 (y=310) -->
   <rect x="40" y="260" width="720" height="62" rx="6" fill="#ffffff"/>
@@ -37,8 +37,8 @@
   <text x="100" y="283" font-size="16" font-weight="700" fill="#1e293b" >統計分析品質評估：B13-B19 七項全檢</text>
   <text x="100" y="306" font-size="16" fill="#57534e" >確認是否有每季分析與具體改善方案，而非流水帳紀錄，讓B區統計分數最大化</text>
   <rect x="596" y="269" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="664" y="283" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" >分析品質</text>
-  <text x="664" y="302" font-size="14" fill="#57534e" text-anchor="middle" >逐項評估</text>
+  <text x="664" y="287" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600" >分析品質</text>
+  <text x="664" y="306" font-size="14" fill="#57534e" text-anchor="middle" >逐項評估</text>
 
   <!-- Row 4 (y=385) -->
   <rect x="40" y="335" width="720" height="62" rx="6" fill="#16a34a" opacity="0.06"/>
@@ -48,8 +48,8 @@
   <text x="100" y="358" font-size="16" font-weight="700" fill="#1e293b" >優先改善排序：有限時間用在最值得的地方</text>
   <text x="100" y="381" font-size="16" fill="#57534e" >依失分風險與改善難易度排序，讓機構把資源集中在最有效益的改善項目上</text>
   <rect x="596" y="344" width="136" height="46" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="664" y="358" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="600" >評鑑前3月</text>
-  <text x="664" y="377" font-size="14" fill="#16a34a" text-anchor="middle" >第一次查核</text>
+  <text x="664" y="362" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="600" >評鑑前3月</text>
+  <text x="664" y="381" font-size="14" fill="#16a34a" text-anchor="middle" >第一次查核</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

@@ -9,18 +9,18 @@
   <!-- Row 1 -->
   <rect x="60" y="130" width="680" height="90" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
   <rect x="60" y="130" width="10" height="90" rx="4" fill="#d97706"/>
-  <text x="100" y="163" font-size="20" fill="#d97706"  font-weight="700">行動一：建立數位日誌系統</text>
-  <text x="100" y="193" font-size="16" fill="#57534e" >導入電子化日誌工具，讓指標 35 每日觀察記錄更易執行與查核，減少紙本遺失風險</text>
+  <text x="100" y="167" font-size="20" fill="#d97706"  font-weight="700">行動一：建立數位日誌系統</text>
+  <text x="100" y="197" font-size="16" fill="#57534e" >導入電子化日誌工具，讓指標 35 每日觀察記錄更易執行與查核，減少紙本遺失風險</text>
   <!-- Row 2 -->
   <rect x="60" y="257" width="680" height="90" rx="10" fill="white" stroke="#78716c" stroke-width="2"/>
   <rect x="60" y="257" width="10" height="90" rx="4" fill="#78716c"/>
-  <text x="100" y="290" font-size="20" fill="#78716c"  font-weight="700">行動二：強化個別化照顧計畫品質</text>
-  <text x="100" y="320" font-size="16" fill="#57534e" >從表格填寫升級為真正指導日常照護的計畫，評量結果與照顧策略直接連結</text>
+  <text x="100" y="294" font-size="20" fill="#78716c"  font-weight="700">行動二：強化個別化照顧計畫品質</text>
+  <text x="100" y="324" font-size="16" fill="#57534e" >從表格填寫升級為真正指導日常照護的計畫，評量結果與照顧策略直接連結</text>
   <!-- Row 3 -->
   <rect x="60" y="384" width="680" height="90" rx="10" fill="white" stroke="#57534e" stroke-width="2"/>
   <rect x="60" y="384" width="10" height="90" rx="4" fill="#57534e"/>
-  <text x="100" y="417" font-size="20" fill="#57534e"  font-weight="700">行動三：活化改善追蹤機制</text>
-  <text x="100" y="447" font-size="16" fill="#57534e" >建立月度自評與改善追蹤，不等評鑑才發現問題，感染管制手冊定期更新至最新版</text>
+  <text x="100" y="421" font-size="20" fill="#57534e"  font-weight="700">行動三：活化改善追蹤機制</text>
+  <text x="100" y="451" font-size="16" fill="#57534e" >建立月度自評與改善追蹤，不等評鑑才發現問題，感染管制手冊定期更新至最新版</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

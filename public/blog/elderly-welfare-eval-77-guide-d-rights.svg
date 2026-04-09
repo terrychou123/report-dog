@@ -17,8 +17,8 @@
   <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">個案資料管理與保密（二級加強）</text>
   <text x="100" y="208" font-size="16" fill="#57534e">系統有明確使用者權限；訂有含肖像權同意書管理辦法；統計分析上傳衛福部</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="181" font-size="16" fill="#d97706" text-anchor="middle">現場操作</text>
-  <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">二級加強</text>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">現場操作</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">二級加強</text>
 
   <!-- Row 2: D2 契約 + D4 申訴 -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -28,8 +28,8 @@
   <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">入住契約 ／ D4 申訴意見管道</text>
   <text x="100" y="283" font-size="16" fill="#57534e">契約給予 5 天審閱期；意見申訴流程張貼於明顯處；年度統計分析案件</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">文件+訪談</text>
-  <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">服務對象</text>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">文件+訪談</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">服務對象</text>
 
   <!-- Row 3: D6 住民隱私（二級加強） -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -39,8 +39,8 @@
   <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">住民隱私及居家布置（二級加強）</text>
   <text x="100" y="358" font-size="16" fill="#57534e">監視器不得設置於寢室及浴廁；床與床之間設有圍簾；尊重個人物品擺置</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">現場察看</text>
-  <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">二級加強</text>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">現場察看</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">二級加強</text>
 
   <!-- Row 4: D8 緩和醫療 DNR -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -50,8 +50,8 @@
   <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">緩和醫療與臨終照護（6 基準項）</text>
   <text x="100" y="433" font-size="16" fill="#57534e">護理與社工完成安寧療護訓練；建立 DNR 作業流程；有實際案例佐證</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="406" font-size="16" fill="#a8a29e" text-anchor="middle">案例文件</text>
-  <text x="688" y="426" font-size="16" fill="#a8a29e" text-anchor="middle">護理+社工</text>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">案例文件</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">護理+社工</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

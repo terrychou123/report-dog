@@ -17,8 +17,8 @@
   <text x="518" y="107" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 3 週</text>
   <text x="518" y="127" font-size="14" text-anchor="middle" fill="#fef3c7">Day 15–21</text>
   <rect x="624" y="84" width="152" height="54" rx="10" fill="#1e40af"/>
-  <text x="700" y="102" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 4 週</text>
-  <text x="700" y="122" font-size="14" text-anchor="middle" fill="#bfdbfe">Day 22–30</text>
+  <text x="700" y="107" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 4 週</text>
+  <text x="700" y="127" font-size="14" text-anchor="middle" fill="#bfdbfe">Day 22–30</text>
   <!-- 箭頭 -->
   <text x="213" y="116" font-size="16" fill="#d97706" text-anchor="middle">›</text>
   <text x="413" y="116" font-size="16" fill="#d97706" text-anchor="middle">›</text>
