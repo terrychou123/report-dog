@@ -3,8 +3,8 @@
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header (N=5 outer_gap=29, Header y=29, h=76) -->
   <rect x="29" y="29" width="742" height="76" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="400" y="68" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" >B10 防疫機制 5 大基準</text>
-  <text x="400" y="92" font-size="15" fill="#57534e" text-anchor="middle" >二級加強指標，後疫情時代評鑑委員嚴格審查</text>
+  <text x="400" y="63" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" >B10 防疫機制 5 大基準</text>
+  <text x="400" y="87" font-size="15" fill="#57534e" text-anchor="middle" >二級加強指標，後疫情時代評鑑委員嚴格審查</text>
 
   <!-- Row 1 -->
   <rect x="29" y="118" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -14,8 +14,8 @@
   <text x="100" y="140" font-size="16" fill="#1e293b" font-weight="700" >SOP 文件完整性</text>
   <text x="100" y="160" font-size="16" fill="#57534e" >感染管制手冊訂定完整，每年至少更新 1 次，需有修訂日期及主管簽核</text>
   <rect x="620" y="125" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="140" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle" >每年更新</text>
-  <text x="688" y="156" font-size="14" fill="#d97706" text-anchor="middle" >主管簽核</text>
+  <text x="688" y="145" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle" >每年更新</text>
+  <text x="688" y="161" font-size="14" fill="#d97706" text-anchor="middle" >主管簽核</text>
 
   <!-- Row 2 -->
   <rect x="29" y="191" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -25,8 +25,8 @@
   <text x="100" y="213" font-size="16" fill="#1e293b" font-weight="700" >訓練記錄（職前 4 小時感染管制）</text>
   <text x="100" y="233" font-size="16" fill="#57534e" >新進工作人員職前須完成至少 4 小時感控訓練；在職人員每年至少 8 小時</text>
   <rect x="620" y="198" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="213" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle" >4H職前</text>
-  <text x="688" y="229" font-size="14" fill="#78716c" text-anchor="middle" >8H在職</text>
+  <text x="688" y="218" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle" >4H職前</text>
+  <text x="688" y="234" font-size="14" fill="#78716c" text-anchor="middle" >8H在職</text>
 
   <!-- Row 3 -->
   <rect x="29" y="264" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -36,8 +36,8 @@
   <text x="100" y="286" font-size="16" fill="#1e293b" font-weight="700" >監測與通報機制</text>
   <text x="100" y="306" font-size="16" fill="#57534e" >每日量測體溫並完整記錄，按時登載人口密集機構傳染病監視作業平台</text>
   <rect x="620" y="271" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="286" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle" >每日監測</text>
-  <text x="688" y="302" font-size="14" fill="#57534e" text-anchor="middle" >定時通報</text>
+  <text x="688" y="291" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle" >每日監測</text>
+  <text x="688" y="307" font-size="14" fill="#57534e" text-anchor="middle" >定時通報</text>
 
   <!-- Row 4 -->
   <rect x="29" y="337" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -47,8 +47,8 @@
   <text x="100" y="359" font-size="16" fill="#1e293b" font-weight="700" >隔離措施</text>
   <text x="100" y="379" font-size="16" fill="#57534e" >設有隔離空間（含獨立空調/衛浴/緊急呼叫），訂有各類隔離 SOP 並確實執行</text>
   <rect x="620" y="344" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="359" font-size="14" fill="#a8a29e" font-weight="700" text-anchor="middle" >隔離空間</text>
-  <text x="688" y="375" font-size="14" fill="#a8a29e" text-anchor="middle" >SOP完整</text>
+  <text x="688" y="364" font-size="14" fill="#a8a29e" font-weight="700" text-anchor="middle" >隔離空間</text>
+  <text x="688" y="380" font-size="14" fill="#a8a29e" text-anchor="middle" >SOP完整</text>
 
   <!-- Row 5 -->
   <rect x="29" y="410" width="742" height="60" rx="8" fill="#ffffff"/>
@@ -58,8 +58,8 @@
   <text x="100" y="432" font-size="16" fill="#1e293b" font-weight="700" >後疫情時代維持機制</text>
   <text x="100" y="452" font-size="16" fill="#57534e" >防護裝備（口罩/手套）適當儲備，定期檢視有效期限，儲放環境符合規定</text>
   <rect x="620" y="417" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="432" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle" >物資儲備</text>
-  <text x="688" y="448" font-size="14" fill="#94a3b8" text-anchor="middle" >定期盤點</text>
+  <text x="688" y="437" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle" >物資儲備</text>
+  <text x="688" y="453" font-size="14" fill="#94a3b8" text-anchor="middle" >定期盤點</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
