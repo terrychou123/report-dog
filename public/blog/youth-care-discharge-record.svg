@@ -32,7 +32,7 @@
   <text x="688" y="298"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">困難回應</text>
   <!-- Row 4 -->
   <rect x="28" y="337" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="367" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="373"  font-size="14" font-weight="700" fill="white" text-anchor="middle">04</text>
   <text x="100" y="361"  font-size="17" font-weight="600" fill="#1e293b">無法聯繫個案的處理紀錄</text>
@@ -41,7 +41,7 @@
   <text x="688" y="371"  font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">失聯處置</text>
   <!-- Row 5 -->
   <rect x="28" y="410" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="410" width="6" height="60" rx="2" fill="#d97706"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="440" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="446"  font-size="14" font-weight="700" fill="white" text-anchor="middle">05</text>
   <text x="100" y="434"  font-size="17" font-weight="600" fill="#1e293b">追蹤結束或結案說明</text>

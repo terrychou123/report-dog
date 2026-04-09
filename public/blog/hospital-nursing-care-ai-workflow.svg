@@ -1,24 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9" />
   <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
 
   <!-- 標題 -->
   <text x="400" y="38"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">AI 輔助護理文書工作流程</text>
-  <text x="400" y="58"  font-size="12" fill="#a8a29e" text-anchor="middle">從評估到照護計畫，AI 協助生成標準格式初稿</text>
+  <text x="400" y="58"  font-size="14" fill="#a8a29e" text-anchor="middle">從評估到照護計畫，AI 協助生成標準格式初稿</text>
 
   <!-- 步驟1 -->
   <rect x="30" y="90" width="164" height="330" rx="12" fill="#fffbeb" />
   <rect x="30" y="90" width="164" height="8" rx="4" fill="#d97706" />
   <circle cx="112" cy="148" r="28" fill="#d97706"  opacity="0.15"/>
-  <text x="112" y="141"  font-size="10" fill="#d97706" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="112" y="141"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">STEP</text>
   <text x="112" y="158"  font-size="18" fill="#ffffff" text-anchor="middle" font-weight="900">01</text>
   <text x="112" y="200"  font-size="15" font-weight="700" fill="#92400e" text-anchor="middle">輸入病人資訊</text>
-  <text x="112" y="228"  font-size="13" fill="#57534e" text-anchor="middle">基本資料</text>
-  <text x="112" y="248"  font-size="13" fill="#57534e" text-anchor="middle">診斷與入院原因</text>
-  <text x="112" y="268"  font-size="13" fill="#57534e" text-anchor="middle">主訴與用藥史</text>
+  <text x="112" y="228"  font-size="14" fill="#57534e" text-anchor="middle">基本資料</text>
+  <text x="112" y="248"  font-size="14" fill="#57534e" text-anchor="middle">診斷與入院原因</text>
+  <text x="112" y="268"  font-size="14" fill="#57534e" text-anchor="middle">主訴與用藥史</text>
   <rect x="52" y="382" width="120" height="28" rx="14" fill="#d97706" />
-  <text x="112" y="401"  font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">2 分鐘</text>
+  <text x="112" y="401"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">2 分鐘</text>
 
   <!-- 箭頭 -->
   <text x="206" y="260"  font-size="26" fill="#d6d3d1" text-anchor="middle">&#8250;</text>
@@ -27,14 +28,14 @@
   <rect x="214" y="90" width="164" height="330" rx="12" fill="#f5f5f4" />
   <rect x="214" y="90" width="164" height="8" rx="4" fill="#78716c" />
   <circle cx="296" cy="148" r="28" fill="#78716c"  opacity="0.15"/>
-  <text x="296" y="141"  font-size="10" fill="#78716c" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="296" y="141"  font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">STEP</text>
   <text x="296" y="158"  font-size="18" fill="#ffffff" text-anchor="middle" font-weight="900">02</text>
   <text x="296" y="200"  font-size="15" font-weight="700" fill="#44403c" text-anchor="middle">AI 生成評估初稿</text>
-  <text x="296" y="228"  font-size="13" fill="#57534e" text-anchor="middle">標準格式生成</text>
-  <text x="296" y="248"  font-size="13" fill="#57534e" text-anchor="middle">4 面向評估草稿</text>
-  <text x="296" y="268"  font-size="13" fill="#57534e" text-anchor="middle">關鍵風險自動標注</text>
+  <text x="296" y="228"  font-size="14" fill="#57534e" text-anchor="middle">標準格式生成</text>
+  <text x="296" y="248"  font-size="14" fill="#57534e" text-anchor="middle">4 面向評估草稿</text>
+  <text x="296" y="268"  font-size="14" fill="#57534e" text-anchor="middle">關鍵風險自動標注</text>
   <rect x="236" y="382" width="120" height="28" rx="14" fill="#78716c" />
-  <text x="296" y="401"  font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">AI 生成</text>
+  <text x="296" y="401"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">AI 生成</text>
 
   <!-- 箭頭 -->
   <text x="390" y="260"  font-size="26" fill="#d6d3d1" text-anchor="middle">&#8250;</text>
@@ -43,14 +44,14 @@
   <rect x="398" y="90" width="164" height="330" rx="12" fill="#f5f5f4" />
   <rect x="398" y="90" width="164" height="8" rx="4" fill="#57534e" />
   <circle cx="480" cy="148" r="28" fill="#57534e"  opacity="0.15"/>
-  <text x="480" y="141"  font-size="10" fill="#57534e" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="480" y="141"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">STEP</text>
   <text x="480" y="158"  font-size="18" fill="#ffffff" text-anchor="middle" font-weight="900">03</text>
   <text x="480" y="200"  font-size="15" font-weight="700" fill="#44403c" text-anchor="middle">護理師校閱修訂</text>
-  <text x="480" y="228"  font-size="13" fill="#57534e" text-anchor="middle">確認臨床符合性</text>
-  <text x="480" y="248"  font-size="13" fill="#57534e" text-anchor="middle">補充個別化細節</text>
-  <text x="480" y="268"  font-size="13" fill="#57534e" text-anchor="middle">護理師簽名確認</text>
+  <text x="480" y="228"  font-size="14" fill="#57534e" text-anchor="middle">確認臨床符合性</text>
+  <text x="480" y="248"  font-size="14" fill="#57534e" text-anchor="middle">補充個別化細節</text>
+  <text x="480" y="268"  font-size="14" fill="#57534e" text-anchor="middle">護理師簽名確認</text>
   <rect x="420" y="382" width="120" height="28" rx="14" fill="#57534e" />
-  <text x="480" y="401"  font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">專業把關</text>
+  <text x="480" y="401"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">專業把關</text>
 
   <!-- 箭頭 -->
   <text x="574" y="260"  font-size="26" fill="#d6d3d1" text-anchor="middle">&#8250;</text>
@@ -59,15 +60,15 @@
   <rect x="582" y="90" width="188" height="330" rx="12" fill="#f5f5f4" />
   <rect x="582" y="90" width="188" height="8" rx="4" fill="#a8a29e" />
   <circle cx="676" cy="148" r="28" fill="#a8a29e"  opacity="0.15"/>
-  <text x="676" y="141"  font-size="10" fill="#a8a29e" text-anchor="middle" font-weight="600">STEP</text>
+  <text x="676" y="141"  font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="600">STEP</text>
   <text x="676" y="158"  font-size="18" fill="#ffffff" text-anchor="middle" font-weight="900">04</text>
   <text x="676" y="200"  font-size="15" font-weight="700" fill="#44403c" text-anchor="middle">照護計畫產出</text>
-  <text x="676" y="228"  font-size="13" fill="#57534e" text-anchor="middle">評估自動連結</text>
-  <text x="676" y="248"  font-size="13" fill="#57534e" text-anchor="middle">照護問題與目標</text>
-  <text x="676" y="268"  font-size="13" fill="#57534e" text-anchor="middle">完整留存備查</text>
+  <text x="676" y="228"  font-size="14" fill="#57534e" text-anchor="middle">評估自動連結</text>
+  <text x="676" y="248"  font-size="14" fill="#57534e" text-anchor="middle">照護問題與目標</text>
+  <text x="676" y="268"  font-size="14" fill="#57534e" text-anchor="middle">完整留存備查</text>
   <rect x="616" y="382" width="120" height="28" rx="14" fill="#a8a29e" />
-  <text x="676" y="401"  font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">完整留存</text>
+  <text x="676" y="401"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">完整留存</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480"  font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="14" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

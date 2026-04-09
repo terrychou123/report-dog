@@ -12,7 +12,7 @@
   <rect x="28" y="100" width="234" height="48" rx="12" fill="#d97706"/>
   <rect x="28" y="124" width="234" height="24" fill="#d97706"/>
   <!-- 標頭文字 -->
-  <text x="145" y="143" text-anchor="middle" font-size="20" fill="white" font-weight="700">資料查核</text>
+  <text x="145" y="131" text-anchor="middle" font-size="20" fill="white" font-weight="700">資料查核</text>
   <!-- 副標 -->
   <text x="145" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常從文件中發現：</text>
   <!-- 項目 1-5 -->
@@ -45,7 +45,7 @@
   <rect x="283" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="283" y="100" width="234" height="48" rx="12" fill="#78716c"/>
   <rect x="283" y="124" width="234" height="24" fill="#78716c"/>
-  <text x="400" y="143" text-anchor="middle" font-size="20" fill="white" font-weight="700">訪談查核</text>
+  <text x="400" y="131" text-anchor="middle" font-size="20" fill="white" font-weight="700">訪談查核</text>
   <text x="400" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常從訪談中發現：</text>
 
   <rect x="303" y="183" width="6" height="6" rx="2" fill="#78716c"/>
@@ -76,7 +76,7 @@
   <rect x="538" y="100" width="234" height="388" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="538" y="100" width="234" height="48" rx="12" fill="#dc2626"/>
   <rect x="538" y="124" width="234" height="24" fill="#dc2626"/>
-  <text x="655" y="143" text-anchor="middle" font-size="20" fill="white" font-weight="700">實地查核</text>
+  <text x="655" y="131" text-anchor="middle" font-size="20" fill="white" font-weight="700">實地查核</text>
   <text x="655" y="168" text-anchor="middle" font-size="14" fill="#57534e">最常現場直接發現：</text>
 
   <rect x="558" y="183" width="6" height="6" rx="1" fill="#dc2626"/>

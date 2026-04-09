@@ -1,40 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">AI 自動查核缺失功能</text>
-  <text x="40" y="76" font-size="22" fill="#57534e">上傳文件→AI 分析→秒出缺失報告，不用逐條比對</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">上傳文件-AI 分析-秒出缺失報告，不用逐條比對</text>
   <line x1="40" y1="92" x2="760" y2="92" stroke="#d97706" stroke-width="2"/>
 
   <!-- 上傳文件 -->
   <rect x="40" y="112" width="200" height="150" rx="10" fill="white" stroke="#2563eb" stroke-width="2"/>
   <rect x="40" y="112" width="200" height="40" rx="10" fill="#2563eb"/>
   <rect x="40" y="130" width="200" height="22" fill="#2563eb"/>
-  <text x="140" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">① 上傳備審文件</text>
+  <text x="140" y="137" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">1 上傳備審文件</text>
   <text x="56" y="172" font-size="14" fill="#57534e">• 感控計畫書</text>
   <text x="56" y="192" font-size="14" fill="#57534e">• 照護計畫表</text>
   <text x="56" y="212" font-size="14" fill="#57534e">• 演練紀錄</text>
   <text x="56" y="232" font-size="14" fill="#57534e">• 教育訓練記錄</text>
 
   <!-- 箭頭 -->
-  <text x="268" y="195" font-size="26" fill="#d97706" text-anchor="middle">→</text>
+  <text x="268" y="195" font-size="26" fill="#d97706" text-anchor="middle">-</text>
 
   <!-- AI 分析引擎 -->
   <rect x="290" y="112" width="220" height="150" rx="10" fill="#1e293b" stroke="#d97706" stroke-width="2"/>
   <rect x="290" y="112" width="220" height="40" rx="10" fill="#d97706"/>
   <rect x="290" y="130" width="220" height="22" fill="#d97706"/>
-  <text x="400" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">② AI 比對評鑑基準</text>
+  <text x="400" y="137" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">2 AI 比對評鑑基準</text>
   <text x="306" y="168" font-size="14" fill="#94a3b8">比對 115 年度 15 項基準</text>
   <text x="306" y="186" font-size="14" fill="#94a3b8">逐條檢查必備要素</text>
   <text x="306" y="204" font-size="14" fill="#94a3b8">• 文件完整性</text>
   <text x="306" y="222" font-size="14" fill="#94a3b8">• 日期時效性</text>
 
   <!-- 箭頭 -->
-  <text x="534" y="195" font-size="26" fill="#d97706" text-anchor="middle">→</text>
+  <text x="534" y="195" font-size="26" fill="#d97706" text-anchor="middle">-</text>
 
   <!-- 缺失報告 -->
   <rect x="556" y="112" width="204" height="150" rx="10" fill="white" stroke="#dc2626" stroke-width="2"/>
   <rect x="556" y="112" width="204" height="40" rx="10" fill="#dc2626"/>
   <rect x="556" y="130" width="204" height="22" fill="#dc2626"/>
-  <text x="658" y="146" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">③ 秒出缺失報告</text>
+  <text x="658" y="137" font-size="14" fill="#fff" font-weight="700" text-anchor="middle">3 秒出缺失報告</text>
   <text x="572" y="166" font-size="14" fill="#dc2626" font-weight="600">高風險缺失（立即補）：</text>
   <text x="572" y="184" font-size="14" fill="#57534e">• C4 情境演練記錄缺失</text>
   <text x="572" y="204" font-size="14" fill="#d97706" font-weight="600">中風險待補項目：</text>
@@ -54,8 +54,8 @@
 
   <!-- 提示 -->
   <rect x="40" y="394" width="720" height="46" rx="8" fill="#fef9c3" stroke="#d97706" stroke-width="1"/>
-  <text x="400" y="414" font-size="13" fill="#92400e" text-anchor="middle" font-weight="600">報告汪 AI 自我查核功能已整合一般護理之家 115 年度評鑑基準，</text>
-  <text x="400" y="432" font-size="13" fill="#92400e" text-anchor="middle">缺失報告可一鍵匯出 Excel，分派給各負責人員補強</text>
+  <text x="400" y="414" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">報告汪 AI 自我查核功能已整合一般護理之家 115 年度評鑑基準，</text>
+  <text x="400" y="432" font-size="14" fill="#92400e" text-anchor="middle">缺失報告可一鍵匯出 Excel，分派給各負責人員補強</text>
 
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -13,7 +13,7 @@
   <text x="60" y="188" font-size="14" fill="#57534e">（如圍簾）—— 保護住民隱私</text>
   <text x="60" y="210" font-size="14" fill="#57534e">• 監視器不得設置於寢室及浴廁</text>
   <text x="60" y="232" font-size="14" fill="#57534e">• 床位旁有床頭櫃可放私人物品</text>
-  <text x="60" y="258" font-size="13" fill="#d97706" font-weight="600">★ 二級加強，委員特別查核</text>
+  <text x="60" y="258" font-size="14" fill="#d97706" font-weight="600">* 二級加強，委員特別查核</text>
 
   <!-- 上排右 - 活動空間 -->
   <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
@@ -23,7 +23,7 @@
   <text x="440" y="188" font-size="14" fill="#57534e">• 每週至少一次清潔並有紀錄</text>
   <text x="440" y="210" font-size="14" fill="#57534e">• 餐廳動線滿足服務對象需求</text>
   <text x="440" y="232" font-size="14" fill="#57534e">• 設有足夠交誼設施設備</text>
-  <text x="440" y="258" font-size="13" fill="#78716c" font-weight="600">★ 失智住民需要安全可辨識環境</text>
+  <text x="440" y="258" font-size="14" fill="#78716c" font-weight="600">* 失智住民需要安全可辨識環境</text>
 
   <!-- 下排左 - 輔具設備 -->
   <rect x="40" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
@@ -33,7 +33,7 @@
   <text x="60" y="370" font-size="14" fill="#57534e">• 有電視、音響等適當康樂設備</text>
   <text x="60" y="392" font-size="14" fill="#57534e">• 書報類、棋奕類、美勞類設備</text>
   <text x="60" y="414" font-size="14" fill="#57534e">• 落實使用並有相關紀錄（B28）</text>
-  <text x="60" y="440" font-size="13" fill="#d97706" font-weight="600">★ 「有設備但無使用紀錄」是常見缺失</text>
+  <text x="60" y="440" font-size="14" fill="#d97706" font-weight="600">* 「有設備但無使用紀錄」是常見缺失</text>
 
   <!-- 下排右 - 個人化空間 -->
   <rect x="420" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
@@ -43,7 +43,7 @@
   <text x="440" y="370" font-size="14" fill="#57534e">• 尊重個人裝扮（髮型、衣物）</text>
   <text x="440" y="392" font-size="14" fill="#57534e">• 熟悉物品有助降低失智焦慮</text>
   <text x="440" y="414" font-size="14" fill="#57534e">• 私人物品保管辦法（D7）</text>
-  <text x="440" y="440" font-size="13" fill="#78716c" font-weight="600">★ 居家情境設計提升住民安全感</text>
+  <text x="440" y="440" font-size="14" fill="#78716c" font-weight="600">* 居家情境設計提升住民安全感</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

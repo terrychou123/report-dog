@@ -9,7 +9,7 @@
 
   <!-- Row 1（y=166）色系 #d97706 H=90, inner_gap=13, outer_gap=38 -->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="218" font-size="20" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="203" font-size="22" fill="#1e293b" font-weight="700">AI 初稿必須人工審閱後才送出</text>
@@ -21,7 +21,7 @@
 
   <!-- Row 2（y=269）色系 #78716c -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="321" font-size="20" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="306" font-size="22" fill="#1e293b" font-weight="700">建立機構專屬提示語庫</text>
@@ -33,7 +33,7 @@
 
   <!-- Row 3（y=372）色系 #57534e -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="424" font-size="20" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="409" font-size="22" fill="#1e293b" font-weight="700">用 AI 查核缺失，不只是生成文件</text>

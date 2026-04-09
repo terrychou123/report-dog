@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">品質獎勵 × 評鑑雙向查核表</text>
@@ -8,51 +8,51 @@
   <!-- 項目 1 -->
   <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
+  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">[v]</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">品質會議紀錄格式含「品質獎勵計畫指標進度」欄位</text>
-  <text x="82" y="152" font-size="12" fill="#78716c">B1 評鑑要求：每 3 個月召開；品質獎：持續改善核心活動</text>
+  <text x="82" y="152" font-size="14" fill="#78716c">B1 評鑑要求：每 3 個月召開；品質獎：持續改善核心活動</text>
   <rect x="640" y="120" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">B1 雙向</text>
+  <text x="695" y="139" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">B1 雙向</text>
 
   <!-- 項目 2 -->
   <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
+  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">[v]</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">個案照護計畫範本同時滿足 B2 格式要求與品質獎個案記錄標準</text>
-  <text x="82" y="214" font-size="12" fill="#78716c">B2 評鑑：72hr 初評、每季評值、跌倒/壓損/營養/三高風險</text>
+  <text x="82" y="214" font-size="14" fill="#78716c">B2 評鑑：72hr 初評、每季評值、跌倒/壓損/營養/三高風險</text>
   <rect x="640" y="182" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">B2 雙向</text>
+  <text x="695" y="201" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">B2 雙向</text>
 
   <!-- 項目 3 -->
   <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
-  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">✓</text>
+  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">[v]</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">A6 危機管理分析報告納入品質會議討論，形成 PDCA 改善循環</text>
-  <text x="82" y="276" font-size="12" fill="#78716c">A6 評鑑：3 個以上風險，每半年分析；品質獎：風險管理指標</text>
+  <text x="82" y="276" font-size="14" fill="#78716c">A6 評鑑：3 個以上風險，每半年分析；品質獎：風險管理指標</text>
   <rect x="640" y="244" width="110" height="28" rx="14" fill="#78716c" opacity="0.12"/>
-  <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">A6 雙向</text>
+  <text x="695" y="263" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">A6 雙向</text>
 
   <!-- 項目 4 -->
   <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
-  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">✓</text>
+  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">[v]</text>
   <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">E2 創新措施報告同時作為品質獎勵計畫的創新亮點申報材料</text>
-  <text x="82" y="338" font-size="12" fill="#78716c">E2 評鑑：至少1項；品質獎：創新服務方案（問題→方案→成效）</text>
+  <text x="82" y="338" font-size="14" fill="#78716c">E2 評鑑：至少1項；品質獎：創新服務方案（問題-方案-成效）</text>
   <rect x="640" y="306" width="110" height="28" rx="14" fill="#57534e" opacity="0.12"/>
-  <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">E2 雙向</text>
+  <text x="695" y="325" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">E2 雙向</text>
 
   <!-- 項目 5 -->
   <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
-  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">✓</text>
+  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">[v]</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">D9 年度滿意度調查結果用於品質獎勵計畫的住民滿意度指標申報</text>
-  <text x="82" y="400" font-size="12" fill="#78716c">D9 評鑑：每年1次不具名；品質獎：服務滿意度追蹤改善</text>
+  <text x="82" y="400" font-size="14" fill="#78716c">D9 評鑑：每年1次不具名；品質獎：服務滿意度追蹤改善</text>
   <rect x="640" y="368" width="110" height="28" rx="14" fill="#94a3b8" opacity="0.2"/>
-  <text x="695" y="387" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">D9 雙向</text>
+  <text x="695" y="387" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">D9 雙向</text>
 
   <!-- 底部提示 -->
   <rect x="28" y="422" width="744" height="38" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="446" font-size="13" fill="#78716c" text-anchor="middle">重點：讓日常工作流程產出可雙向使用的文件，避免重工</text>
+  <text x="400" y="446" font-size="14" fill="#78716c" text-anchor="middle">重點：讓日常工作流程產出可雙向使用的文件，避免重工</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

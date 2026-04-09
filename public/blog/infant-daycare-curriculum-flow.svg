@@ -5,51 +5,51 @@
   <rect x="0" y="0" width="800" height="90" fill="white"/>
   <rect x="0" y="0" width="6" height="90" fill="#78716c" rx="2"/>
   <text x="28" y="45" font-size="30" fill="#1e293b" font-weight="700">課程設計三步驟流程</text>
-  <text x="28" y="73" font-size="18" fill="#78716c">觀察幼兒 → 計畫課程 → 記錄成果（評鑑委員最在乎的循環）</text>
+  <text x="28" y="73" font-size="18" fill="#78716c">觀察幼兒 - 計畫課程 - 記錄成果（評鑑委員最在乎的循環）</text>
 
   <!-- Step 1: 觀察幼兒 -->
   <rect x="28" y="120" width="228" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="28" y="120" width="228" height="10" rx="7" fill="#d97706"/>
-  <text x="142" y="175" font-size="50" fill="#d97706" text-anchor="middle">👁</text>
+  <text x="142" y="175" font-size="50" fill="#d97706" text-anchor="middle"></text>
   <text x="142" y="220" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">Step 1</text>
   <text x="142" y="250" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">觀察幼兒</text>
   <line x1="48" y1="270" x2="236" y2="270" stroke="#e8e6de" stroke-width="1"/>
   <text x="142" y="295" font-size="15" fill="#57534e" text-anchor="middle">記錄個別發展現況</text>
   <text x="142" y="318" font-size="15" fill="#57534e" text-anchor="middle">發現興趣與需求</text>
   <text x="142" y="341" font-size="15" fill="#57534e" text-anchor="middle">評估發展里程碑</text>
-  <text x="142" y="368" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">→ 每週觀察記錄</text>
+  <text x="142" y="368" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">- 每週觀察記錄</text>
   <text x="142" y="396" font-size="14" fill="#a8a29e" text-anchor="middle">佐證：觀察記錄表</text>
 
   <!-- Arrow 1 -->
-  <text x="291" y="278" font-size="36" fill="#a8a29e" text-anchor="middle">→</text>
+  <text x="291" y="278" font-size="36" fill="#a8a29e" text-anchor="middle">-</text>
 
   <!-- Step 2: 計畫課程 -->
   <rect x="314" y="120" width="228" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="314" y="120" width="228" height="10" rx="7" fill="#78716c"/>
-  <text x="428" y="175" font-size="50" fill="#78716c" text-anchor="middle">📋</text>
+  <text x="428" y="175" font-size="50" fill="#78716c" text-anchor="middle"></text>
   <text x="428" y="220" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">Step 2</text>
   <text x="428" y="250" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">計畫課程</text>
   <line x1="334" y1="270" x2="522" y2="270" stroke="#e8e6de" stroke-width="1"/>
   <text x="428" y="295" font-size="15" fill="#57534e" text-anchor="middle">設計適齡活動</text>
   <text x="428" y="318" font-size="15" fill="#57534e" text-anchor="middle">標示發展領域</text>
   <text x="428" y="341" font-size="15" fill="#57534e" text-anchor="middle">個別化調整說明</text>
-  <text x="428" y="368" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">→ 每月課程計畫表</text>
+  <text x="428" y="368" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">- 每月課程計畫表</text>
   <text x="428" y="396" font-size="14" fill="#a8a29e" text-anchor="middle">佐證：課程計畫表</text>
 
   <!-- Arrow 2 -->
-  <text x="577" y="278" font-size="36" fill="#a8a29e" text-anchor="middle">→</text>
+  <text x="577" y="278" font-size="36" fill="#a8a29e" text-anchor="middle">-</text>
 
   <!-- Step 3: 記錄成果 -->
   <rect x="600" y="120" width="172" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="600" y="120" width="172" height="10" rx="7" fill="#57534e"/>
-  <text x="686" y="175" font-size="50" fill="#57534e" text-anchor="middle">📝</text>
+  <text x="686" y="175" font-size="50" fill="#57534e" text-anchor="middle"></text>
   <text x="686" y="220" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">Step 3</text>
   <text x="686" y="250" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">記錄成果</text>
   <line x1="620" y1="270" x2="752" y2="270" stroke="#e8e6de" stroke-width="1"/>
   <text x="686" y="295" font-size="15" fill="#57534e" text-anchor="middle">活動實施記錄</text>
   <text x="686" y="318" font-size="15" fill="#57534e" text-anchor="middle">幼兒反應觀察</text>
   <text x="686" y="341" font-size="15" fill="#57534e" text-anchor="middle">下次調整方向</text>
-  <text x="686" y="368" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">→ 回饋觀察Step 1</text>
+  <text x="686" y="368" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">- 回饋觀察Step 1</text>
   <text x="686" y="396" font-size="14" fill="#a8a29e" text-anchor="middle">佐證：活動紀錄</text>
 
   <!-- 底部說明 -->

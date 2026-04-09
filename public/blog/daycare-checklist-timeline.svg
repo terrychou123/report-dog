@@ -5,7 +5,7 @@
 
   <!-- 標題區 -->
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">評鑑前 3 個月準備時程</text>
-  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">下載自評表→逐項填寫→複核備審，步步到位</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">下載自評表-逐項填寫-複核備審，步步到位</text>
   <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 箭頭 (arrow_y=279) -->

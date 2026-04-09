@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">D 區塊住民權益自查清單</text>
@@ -8,51 +8,51 @@
   <!-- 項目 1 -->
   <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
+  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">[v]</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">D2｜契約範本（含5天審閱期說明＋家屬簽收記錄）</text>
-  <text x="82" y="152" font-size="12" fill="#78716c">確認：契約簽署日期距給予日至少5天，不得同日簽約</text>
+  <text x="82" y="152" font-size="14" fill="#78716c">確認：契約簽署日期距給予日至少5天，不得同日簽約</text>
   <rect x="640" y="120" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">D2 契約</text>
+  <text x="695" y="139" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">D2 契約</text>
 
   <!-- 項目 2 -->
   <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
+  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">[v]</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">D4｜申訴機制告示（明顯張貼）＋年度申訴統計分析報告</text>
-  <text x="82" y="214" font-size="12" fill="#78716c">確認：告示有專責聯絡人電話；分析報告有類型統計與改善措施</text>
+  <text x="82" y="214" font-size="14" fill="#78716c">確認：告示有專責聯絡人電話；分析報告有類型統計與改善措施</text>
   <rect x="640" y="182" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">D4 申訴</text>
+  <text x="695" y="201" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">D4 申訴</text>
 
   <!-- 項目 3 -->
   <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
-  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">✓</text>
+  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">[v]</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">D6｜寢室照片（圍簾、床頭櫃）＋確認無監視器於寢室浴廁</text>
-  <text x="82" y="276" font-size="12" fill="#78716c">確認：每床位間有圍簾可遮蔽，走廊攝影機角度未拍入寢室</text>
+  <text x="82" y="276" font-size="14" fill="#78716c">確認：每床位間有圍簾可遮蔽，走廊攝影機角度未拍入寢室</text>
   <rect x="640" y="244" width="110" height="28" rx="14" fill="#78716c" opacity="0.12"/>
-  <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">D6 隱私</text>
+  <text x="695" y="263" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">D6 隱私</text>
 
   <!-- 項目 4 -->
   <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
-  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">✓</text>
+  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">[v]</text>
   <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">D8｜緩和醫療資訊（DNR 告知紀錄）＋臨終照護手冊留存</text>
-  <text x="82" y="338" font-size="12" fill="#78716c">確認：每位住民均有 DNR 選擇說明記錄，手冊提供給家屬</text>
+  <text x="82" y="338" font-size="14" fill="#78716c">確認：每位住民均有 DNR 選擇說明記錄，手冊提供給家屬</text>
   <rect x="640" y="306" width="110" height="28" rx="14" fill="#57534e" opacity="0.12"/>
-  <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">D8 緩和</text>
+  <text x="695" y="325" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">D8 緩和</text>
 
   <!-- 項目 5 -->
   <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
-  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">✓</text>
+  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">[v]</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">D9｜年度不具名滿意度調查問卷＋統計分析＋改善措施追蹤</text>
-  <text x="82" y="400" font-size="12" fill="#78716c">確認：問卷無識別資訊，分析報告有改善措施與完成驗證</text>
+  <text x="82" y="400" font-size="14" fill="#78716c">確認：問卷無識別資訊，分析報告有改善措施與完成驗證</text>
   <rect x="640" y="368" width="110" height="28" rx="14" fill="#94a3b8" opacity="0.2"/>
-  <text x="695" y="387" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">D9 滿意度</text>
+  <text x="695" y="387" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">D9 滿意度</text>
 
   <!-- 底部提示 -->
   <rect x="28" y="422" width="744" height="38" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="446" font-size="13" fill="#78716c" text-anchor="middle">D5 靈性關懷服務紀錄：確認有個別化的靈性關懷訪談紀錄，頻率合理</text>
+  <text x="400" y="446" font-size="14" fill="#78716c" text-anchor="middle">D5 靈性關懷服務紀錄：確認有個別化的靈性關懷訪談紀錄，頻率合理</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

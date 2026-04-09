@@ -35,9 +35,9 @@
   <rect x="46" y="362" width="322" height="76" rx="8" fill="#fef2f2"/>
   <!-- 警告符號 -->
   <polygon points="78,385 88,369 98,385" fill="none" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="88" y="382" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="700">!</text>
+  <text x="88" y="382" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">!</text>
   <text x="208" y="392" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">評鑑當場即被認定違規</text>
-  <text x="208" y="414" font-size="13" fill="#57534e" text-anchor="middle">物理設施改造需提早規劃</text>
+  <text x="208" y="414" font-size="14" fill="#57534e" text-anchor="middle">物理設施改造需提早規劃</text>
 
   <!-- 右側：軟性限制 -->
   <rect x="412" y="64" width="360" height="400" rx="12" fill="white"/>
@@ -51,7 +51,7 @@
   <circle cx="442" cy="168" r="14" fill="#d97706" opacity="0.15"/>
   <text x="442" y="174" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">1</text>
   <text x="468" y="164" font-size="17" fill="#1e293b" font-weight="700">外出審核制度</text>
-  <text x="468" y="184" font-size="14" fill="#57534e">填表→組長→主任逐級簽核</text>
+  <text x="468" y="184" font-size="14" fill="#57534e">填表-組長-主任逐級簽核</text>
 
   <!-- 軟性限制 2 -->
   <circle cx="442" cy="232" r="14" fill="#d97706" opacity="0.15"/>
@@ -68,7 +68,7 @@
   <!-- 底部說明框 -->
   <rect x="430" y="362" width="322" height="76" rx="8" fill="#fff7ed"/>
   <text x="592" y="389" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">訪談住民時立即暴露</text>
-  <text x="592" y="411" font-size="13" fill="#57534e" text-anchor="middle">制度調整可在評鑑前快速完成</text>
+  <text x="592" y="411" font-size="14" fill="#57534e" text-anchor="middle">制度調整可在評鑑前快速完成</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

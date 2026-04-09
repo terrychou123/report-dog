@@ -12,7 +12,7 @@
   <!-- 步驟 1 -->
   <rect x="50" y="120" width="160" height="130" rx="12" fill="#dbeafe"/>
   <rect x="50" y="120" width="160" height="8" rx="4" fill="#3b82f6"/>
-  <text x="130" y="168" font-size="28" font-weight="900" fill="#3b82f6" text-anchor="middle">①</text>
+  <text x="130" y="168" font-size="28" font-weight="900" fill="#3b82f6" text-anchor="middle">1</text>
   <text x="130" y="200" font-size="15" font-weight="700" fill="#1e3a5f" text-anchor="middle">護理之家</text>
   <text x="130" y="222" font-size="15" font-weight="700" fill="#1e3a5f" text-anchor="middle">提供資訊</text>
   <text x="130" y="242" font-size="14" fill="#475569" text-anchor="middle">入住時說明安寧</text>
@@ -23,7 +23,7 @@
   <!-- 步驟 2 -->
   <rect x="255" y="120" width="160" height="130" rx="12" fill="#d1fae5"/>
   <rect x="255" y="120" width="160" height="8" rx="4" fill="#10b981"/>
-  <text x="335" y="168" font-size="28" font-weight="900" fill="#10b981" text-anchor="middle">②</text>
+  <text x="335" y="168" font-size="28" font-weight="900" fill="#10b981" text-anchor="middle">2</text>
   <text x="335" y="200" font-size="15" font-weight="700" fill="#065f46" text-anchor="middle">住民表達</text>
   <text x="335" y="222" font-size="15" font-weight="700" fill="#065f46" text-anchor="middle">意願</text>
   <text x="335" y="242" font-size="14" fill="#475569" text-anchor="middle">記錄知情意願</text>
@@ -34,7 +34,7 @@
   <!-- 步驟 3 -->
   <rect x="460" y="120" width="160" height="130" rx="12" fill="#ede9fe"/>
   <rect x="460" y="120" width="160" height="8" rx="4" fill="#8b5cf6"/>
-  <text x="540" y="168" font-size="28" font-weight="900" fill="#8b5cf6" text-anchor="middle">③</text>
+  <text x="540" y="168" font-size="28" font-weight="900" fill="#8b5cf6" text-anchor="middle">3</text>
   <text x="540" y="200" font-size="15" font-weight="700" fill="#3b0764" text-anchor="middle">轉介辦理</text>
   <text x="540" y="222" font-size="14" fill="#475569" text-anchor="middle">衛生所 / 醫院</text>
   <text x="540" y="242" font-size="14" fill="#475569" text-anchor="middle">諮詢預約</text>
@@ -45,7 +45,7 @@
   <!-- 步驟 4 -->
   <rect x="590" y="120" width="160" height="130" rx="12" fill="#fef3c7"/>
   <rect x="590" y="120" width="160" height="8" rx="4" fill="#f59e0b"/>
-  <text x="670" y="168" font-size="28" font-weight="900" fill="#f59e0b" text-anchor="middle">④</text>
+  <text x="670" y="168" font-size="28" font-weight="900" fill="#f59e0b" text-anchor="middle">4</text>
   <text x="670" y="200" font-size="15" font-weight="700" fill="#78350f" text-anchor="middle">記錄存檔</text>
   <text x="670" y="222" font-size="14" fill="#475569" text-anchor="middle">AD 完成記錄</text>
   <text x="670" y="242" font-size="14" fill="#475569" text-anchor="middle">納入個案資料</text>
@@ -54,9 +54,9 @@
   <rect x="50" y="285" width="700" height="155" rx="12" fill="#f8fafc"/>
   <rect x="50" y="285" width="4" height="155" rx="2" fill="#3b82f6"/>
   <text x="70" y="315" font-size="15" font-weight="700" fill="#1e3a5f">記錄要點說明</text>
-  <text x="70" y="342" font-size="14" fill="#475569">• 是否已提供安寧療護相關資訊：□ 是  □ 否（原因：___）</text>
-  <text x="70" y="366" font-size="14" fill="#475569">• 住民意願：□ 有意願辦理 AD  □ 暫無意願  □ 無決策能力（由家屬代為決定）</text>
-  <text x="70" y="390" font-size="14" fill="#475569">• 有意願者：□ 已轉介衛生所  □ 已轉介醫院  □ 已完成 AD 簽署（附影本）</text>
+  <text x="70" y="342" font-size="14" fill="#475569">• 是否已提供安寧療護相關資訊：[ ] 是 [ ] 否（原因：___）</text>
+  <text x="70" y="366" font-size="14" fill="#475569">• 住民意願：[ ] 有意願辦理 AD [ ] 暫無意願 [ ] 無決策能力（由家屬代為決定）</text>
+  <text x="70" y="390" font-size="14" fill="#475569">• 有意願者：[ ] 已轉介衛生所 [ ] 已轉介醫院 [ ] 已完成 AD 簽署（附影本）</text>
   <text x="70" y="414" font-size="14" fill="#475569">• 說明日期：____ 年 __ 月 __ 日　說明人員：___________</text>
 
   <!-- 浮水印 -->

@@ -9,7 +9,7 @@
   <text x="130" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">資格確認</text>
   <text x="130" y="268"  font-size="14" fill="#fff3cd" text-anchor="middle">勞健保投保</text>
   <text x="130" y="288"  font-size="14" fill="#fff3cd" text-anchor="middle">資格文件更新</text>
-  <text x="130" y="308"  font-size="13" fill="#fff3cd" text-anchor="middle">A7 一級必要</text>
+  <text x="130" y="308"  font-size="14" fill="#fff3cd" text-anchor="middle">A7 一級必要</text>
   <!-- 箭頭 -->
   <polygon points="215,235 230,245 215,255" fill="#78716c"/>
   <line x1="200" y1="245" x2="228" y2="245" stroke="#78716c" stroke-width="2"/>
@@ -19,7 +19,7 @@
   <text x="310" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">現況盤點</text>
   <text x="310" y="268"  font-size="14" fill="#d4ccc8" text-anchor="middle">前次評鑑報告</text>
   <text x="310" y="288"  font-size="14" fill="#d4ccc8" text-anchor="middle">核心文件地圖</text>
-  <text x="310" y="308"  font-size="13" fill="#d4ccc8" text-anchor="middle">A4 查核記錄</text>
+  <text x="310" y="308"  font-size="14" fill="#d4ccc8" text-anchor="middle">A4 查核記錄</text>
   <!-- 箭頭 -->
   <polygon points="395,235 410,245 395,255" fill="#57534e"/>
   <line x1="380" y1="245" x2="408" y2="245" stroke="#57534e" stroke-width="2"/>
@@ -29,7 +29,7 @@
   <text x="490" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">介入管理</text>
   <text x="490" y="268"  font-size="14" fill="#d4ccc8" text-anchor="middle">品質會議主持</text>
   <text x="490" y="288"  font-size="14" fill="#d4ccc8" text-anchor="middle">人力配置查核</text>
-  <text x="490" y="308"  font-size="13" fill="#d4ccc8" text-anchor="middle">危機計畫確認</text>
+  <text x="490" y="308"  font-size="14" fill="#d4ccc8" text-anchor="middle">危機計畫確認</text>
   <!-- 箭頭 -->
   <polygon points="575,235 590,245 575,255" fill="#94a3b8"/>
   <line x1="560" y1="245" x2="588" y2="245" stroke="#94a3b8" stroke-width="2"/>
@@ -39,7 +39,7 @@
   <text x="670" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">模擬評鑑</text>
   <text x="670" y="268"  font-size="14" fill="#e2e8f0" text-anchor="middle">75 條自查</text>
   <text x="670" y="288"  font-size="14" fill="#e2e8f0" text-anchor="middle">訪談預演</text>
-  <text x="670" y="308"  font-size="13" fill="#e2e8f0" text-anchor="middle">分工確認完成</text>
+  <text x="670" y="308"  font-size="14" fill="#e2e8f0" text-anchor="middle">分工確認完成</text>
   <!-- 底部說明 -->
   <text x="400" y="390"  font-size="16" fill="#57534e" text-anchor="middle">交接完成 = 資格文件已到位 + 現況已掌握 + 實際參與已留存</text>
   <!-- 浮水印 -->

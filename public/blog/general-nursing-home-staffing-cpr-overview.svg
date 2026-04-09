@@ -11,45 +11,45 @@
   <!-- 卡片1 護理主管 -->
   <rect x="45" y="105" width="330" height="160" rx="14" fill="#fee2e2"/>
   <rect x="45" y="105" width="330" height="10" rx="5" fill="#dc2626"/>
-  <text x="55" y="138" font-size="36" font-weight="900" fill="#dc2626">①</text>
+  <text x="55" y="138" font-size="36" font-weight="900" fill="#dc2626">1</text>
   <text x="105" y="138" font-size="18" font-weight="700" fill="#7f1d1d">護理主管（護理長）資格</text>
   <line x1="60" y1="150" x2="360" y2="150" stroke="#fca5a5" stroke-width="1"/>
-  <text x="60" y="172" font-size="14" fill="#334155">✦ 具護理師執照</text>
-  <text x="60" y="194" font-size="14" fill="#334155">✦ 護理行政工作 3 年以上經驗</text>
-  <text x="60" y="216" font-size="14" fill="#334155">✦ 需有代理護理長名單備查</text>
+  <text x="60" y="172" font-size="14" fill="#334155">* 具護理師執照</text>
+  <text x="60" y="194" font-size="14" fill="#334155">* 護理行政工作 3 年以上經驗</text>
+  <text x="60" y="216" font-size="14" fill="#334155">* 需有代理護理長名單備查</text>
   <text x="60" y="238" font-size="14" fill="#dc2626" font-weight="700">查核：聘用文件 + 執照正本/影本</text>
 
   <!-- 卡片2 急救訓練 -->
   <rect x="420" y="105" width="330" height="160" rx="14" fill="#fff7ed"/>
   <rect x="420" y="105" width="330" height="10" rx="5" fill="#f97316"/>
-  <text x="430" y="138" font-size="36" font-weight="900" fill="#f97316">②</text>
+  <text x="430" y="138" font-size="36" font-weight="900" fill="#f97316">2</text>
   <text x="480" y="138" font-size="18" font-weight="700" fill="#7c2d12">護理人員急救訓練</text>
   <line x1="435" y1="150" x2="735" y2="150" stroke="#fed7aa" stroke-width="1"/>
-  <text x="435" y="172" font-size="14" fill="#334155">✦ 每 <tspan font-weight="900" fill="#f97316">2年</tspan> 至少 1 次</text>
-  <text x="435" y="194" font-size="14" fill="#334155">✦ 每次 <tspan font-weight="900" fill="#f97316">8 小時</tspan> 以上</text>
-  <text x="435" y="216" font-size="14" fill="#334155">✦ 必須含 BLS + AED 操作訓練</text>
+  <text x="435" y="172" font-size="14" fill="#334155">* 每 <tspan font-weight="900" fill="#f97316">2年</tspan> 至少 1 次</text>
+  <text x="435" y="194" font-size="14" fill="#334155">* 每次 <tspan font-weight="900" fill="#f97316">8 小時</tspan> 以上</text>
+  <text x="435" y="216" font-size="14" fill="#334155">* 必須含 BLS + AED 操作訓練</text>
   <text x="435" y="238" font-size="14" fill="#f97316" font-weight="700">查核：訓練證書（效期確認）</text>
 
   <!-- 卡片3 新進訓練 -->
   <rect x="45" y="285" width="330" height="155" rx="14" fill="#fef3c7"/>
   <rect x="45" y="285" width="330" height="10" rx="5" fill="#d97706"/>
-  <text x="55" y="318" font-size="36" font-weight="900" fill="#d97706">③</text>
+  <text x="55" y="318" font-size="36" font-weight="900" fill="#d97706">3</text>
   <text x="105" y="318" font-size="18" font-weight="700" fill="#78350f">新進護理人員訓練</text>
   <line x1="60" y1="330" x2="360" y2="330" stroke="#fde68a" stroke-width="1"/>
-  <text x="60" y="352" font-size="14" fill="#334155">✦ 需有年度訓練計畫書</text>
-  <text x="60" y="374" font-size="14" fill="#334155">✦ 訓練記錄含考核評量</text>
-  <text x="60" y="396" font-size="14" fill="#334155">✦ 新進人員到職 1 個月內完成</text>
+  <text x="60" y="352" font-size="14" fill="#334155">* 需有年度訓練計畫書</text>
+  <text x="60" y="374" font-size="14" fill="#334155">* 訓練記錄含考核評量</text>
+  <text x="60" y="396" font-size="14" fill="#334155">* 新進人員到職 1 個月內完成</text>
   <text x="60" y="418" font-size="14" fill="#d97706" font-weight="700">查核：訓練計畫 + 個別訓練記錄</text>
 
   <!-- 卡片4 照服員 -->
   <rect x="420" y="285" width="330" height="155" rx="14" fill="#d1fae5"/>
   <rect x="420" y="285" width="330" height="10" rx="5" fill="#16a34a"/>
-  <text x="430" y="318" font-size="36" font-weight="900" fill="#16a34a">④</text>
+  <text x="430" y="318" font-size="36" font-weight="900" fill="#16a34a">4</text>
   <text x="480" y="318" font-size="18" font-weight="700" fill="#14532d">照服員配置與持證</text>
   <line x1="435" y1="330" x2="735" y2="330" stroke="#a7f3d0" stroke-width="1"/>
-  <text x="435" y="352" font-size="14" fill="#334155">✦ 依規定照服員人數配置</text>
-  <text x="435" y="374" font-size="14" fill="#334155">✦ 持有照顧服務員訓練結業證書</text>
-  <text x="435" y="396" font-size="14" fill="#334155">✦ 新進照服員 3 個月內完成訓練</text>
+  <text x="435" y="352" font-size="14" fill="#334155">* 依規定照服員人數配置</text>
+  <text x="435" y="374" font-size="14" fill="#334155">* 持有照顧服務員訓練結業證書</text>
+  <text x="435" y="396" font-size="14" fill="#334155">* 新進照服員 3 個月內完成訓練</text>
   <text x="435" y="418" font-size="14" fill="#16a34a" font-weight="700">查核：花名冊 + 結業證書影本</text>
 
   <!-- 浮水印 -->

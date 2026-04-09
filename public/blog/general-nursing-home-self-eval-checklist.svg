@@ -8,9 +8,9 @@
   <rect x="40" y="112" width="220" height="260" rx="10" fill="white" stroke="#16a34a" stroke-width="2"/>
   <rect x="40" y="112" width="220" height="44" rx="10" fill="#16a34a"/>
   <rect x="40" y="132" width="220" height="24" fill="#16a34a"/>
-  <text x="150" y="126" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">✓ 達成</text>
-  <text x="150" y="144" font-size="13" fill="#bbf7d0" text-anchor="middle">全部具備，無缺漏</text>
-  <text x="56" y="184" font-size="13" fill="#1e293b" font-weight="600">判斷標準：</text>
+  <text x="150" y="126" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">[v] 達成</text>
+  <text x="150" y="149" font-size="14" fill="#bbf7d0" text-anchor="middle">全部具備，無缺漏</text>
+  <text x="56" y="184" font-size="14" fill="#1e293b" font-weight="600">判斷標準：</text>
   <text x="56" y="204" font-size="14" fill="#57534e">• 書面文件完整存在</text>
   <text x="56" y="224" font-size="14" fill="#57534e">• 執行記錄符合頻率</text>
   <text x="56" y="244" font-size="14" fill="#57534e">• 人員均已接受訓練</text>
@@ -23,9 +23,9 @@
   <rect x="280" y="112" width="240" height="260" rx="10" fill="white" stroke="#d97706" stroke-width="2"/>
   <rect x="280" y="112" width="240" height="44" rx="10" fill="#d97706"/>
   <rect x="280" y="132" width="240" height="24" fill="#d97706"/>
-  <text x="400" y="126" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">△ 部分達成</text>
-  <text x="400" y="144" font-size="13" fill="#fef9c3" text-anchor="middle">有做但不完整</text>
-  <text x="296" y="184" font-size="13" fill="#1e293b" font-weight="600">常見情況：</text>
+  <text x="400" y="126" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">^ 部分達成</text>
+  <text x="400" y="149" font-size="14" fill="#fef9c3" text-anchor="middle">有做但不完整</text>
+  <text x="296" y="184" font-size="14" fill="#1e293b" font-weight="600">常見情況：</text>
   <text x="296" y="204" font-size="14" fill="#57534e">• 文件存在但日期過期</text>
   <text x="296" y="224" font-size="14" fill="#57534e">• 部分人員未完成訓練</text>
   <text x="296" y="244" font-size="14" fill="#57534e">• 記錄頻率不足規定</text>
@@ -38,8 +38,8 @@
   <rect x="540" y="112" width="220" height="260" rx="10" fill="white" stroke="#dc2626" stroke-width="2"/>
   <rect x="540" y="112" width="220" height="44" rx="10" fill="#dc2626"/>
   <rect x="540" y="132" width="220" height="24" fill="#dc2626"/>
-  <text x="650" y="126" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">✗ 未達成</text>
-  <text x="650" y="144" font-size="14" fill="#fee2e2" text-anchor="middle">根本未執行或無文件</text>
+  <text x="650" y="126" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">[x] 未達成</text>
+  <text x="650" y="149" font-size="14" fill="#fee2e2" text-anchor="middle">根本未執行或無文件</text>
   <text x="556" y="184" font-size="14" fill="#1e293b" font-weight="600">常見情況：</text>
   <text x="556" y="204" font-size="14" fill="#57534e">• 從未辦理此項訓練</text>
   <text x="556" y="224" font-size="14" fill="#57534e">• 文件完全不存在</text>
@@ -51,8 +51,8 @@
 
   <!-- 提醒 -->
   <rect x="40" y="396" width="720" height="46" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="400" y="416" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">⚠️ 自評時要誠實面對現況，不要把「有辦過但沒記錄」評為「達成」</text>
-  <text x="400" y="434" font-size="13" fill="#57534e" text-anchor="middle">評鑑委員看的是書面文件，沒有記錄等於沒有做</text>
+  <text x="400" y="416" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">(!)️ 自評時要誠實面對現況，不要把「有辦過但沒記錄」評為「達成」</text>
+  <text x="400" y="434" font-size="14" fill="#57534e" text-anchor="middle">評鑑委員看的是書面文件，沒有記錄等於沒有做</text>
 
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

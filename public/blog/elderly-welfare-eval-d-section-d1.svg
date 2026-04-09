@@ -14,8 +14,8 @@
   <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
   <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700" >系統權限分層管理</text>
   <text x="100" y="225" font-size="16" fill="#57534e" >每位使用者設定不同存取權限，確保個案資料不外洩；須有密碼系統與登入紀錄</text>
-  <rect x="620" y="174" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
-  <text x="688" y="202" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >現場操作驗證</text>
+  <rect x="620" y="188" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <text x="688" y="216" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >現場操作驗證</text>
 
   <!-- Row 2 (y=269) -->
   <rect x="30" y="269" width="740" height="90" rx="8" fill="#ffffff"/>
@@ -24,8 +24,8 @@
   <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
   <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" >管理辦法含肖像權與借調規範</text>
   <text x="100" y="328" font-size="16" fill="#57534e" >依個人資料保護法訂有管理辦法，包含肖像權同意書、資料借用標準及流程</text>
-  <rect x="620" y="277" width="136" height="46" rx="8" fill="#fef9c3" opacity="0.12"/>
-  <text x="688" y="305" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" >文件備審要點</text>
+  <rect x="620" y="291" width="136" height="46" rx="8" fill="#fef9c3" opacity="0.12"/>
+  <text x="688" y="319" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" >文件備審要點</text>
 
   <!-- Row 3 (y=372) -->
   <rect x="30" y="372" width="740" height="90" rx="8" fill="#ffffff"/>
@@ -34,8 +34,8 @@
   <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700" >3</text>
   <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700" >統計分析結果轉化為改善措施</text>
   <text x="100" y="431" font-size="16" fill="#57534e" >定期對個案資料進行統計分析，配合衛福部政策上傳照顧資料，並有具體因應措施</text>
-  <rect x="620" y="380" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
-  <text x="688" y="408" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" >品質改善連結</text>
+  <rect x="620" y="394" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
+  <text x="688" y="422" font-size="15" fill="#57534e" text-anchor="middle" font-weight="600" >品質改善連結</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

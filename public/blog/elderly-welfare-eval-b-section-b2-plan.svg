@@ -43,7 +43,7 @@
 
   <!-- 列 4 -->
   <rect x="29" y="312" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="312" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <rect x="29" y="312" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="53" cy="342" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="53" y="347" font-size="14" fill="white" text-anchor="middle"  font-weight="700">4</text>
   <text x="87" y="334" font-size="18" font-weight="700" fill="#1e293b" >完整個案資料建檔與保存</text>
@@ -54,7 +54,7 @@
 
   <!-- 列 5 -->
   <rect x="29" y="385" width="742" height="60" rx="8" fill="white"/>
-  <rect x="29" y="385" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <rect x="29" y="385" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="53" cy="415" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="53" y="420" font-size="14" fill="white" text-anchor="middle"  font-weight="700">5</text>
   <text x="87" y="407" font-size="18" font-weight="700" fill="#1e293b" >抽查 5 位個案備查文件</text>

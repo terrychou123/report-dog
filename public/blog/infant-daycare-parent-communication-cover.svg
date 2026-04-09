@@ -10,16 +10,16 @@
 
   <!-- 右側卡片 -->
   <rect x="840" y="316" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="340" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">第 34 條</text>
-  <text x="1000" y="372" font-size="22" fill="#a8a29e" text-anchor="middle">親師互動建立信任</text>
+  <text x="1000" y="345" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">第 34 條</text>
+  <text x="1000" y="376" font-size="22" fill="#a8a29e" text-anchor="middle">親師互動建立信任</text>
 
   <rect x="840" y="394" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="418" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">第 35 條</text>
-  <text x="1000" y="450" font-size="22" fill="#a8a29e" text-anchor="middle">每日個別化日誌</text>
+  <text x="1000" y="423" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">第 35 條</text>
+  <text x="1000" y="454" font-size="22" fill="#a8a29e" text-anchor="middle">每日個別化日誌</text>
 
   <rect x="840" y="472" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="496" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">第 36 條</text>
-  <text x="1000" y="528" font-size="22" fill="#a8a29e" text-anchor="middle">家長參與機制</text>
+  <text x="1000" y="501" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">第 36 條</text>
+  <text x="1000" y="532" font-size="22" fill="#a8a29e" text-anchor="middle">家長參與機制</text>
 
   <!-- 左側主內容 -->
   <text x="60" y="188" font-size="100" font-weight="900" fill="#1e293b">親師溝通</text>

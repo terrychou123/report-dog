@@ -28,7 +28,7 @@
   <text x="640" y="309"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
   <!-- 安養型 -->
   <rect x="40" y="336" width="720" height="50" rx="4" fill="#f8f7f5"/>
-  <rect x="40" y="336" width="6" height="50" rx="2" fill="#94a3b8"/>
+  <rect x="40" y="336" width="6" height="50" rx="2" fill="#a8a29e"/>
   <text x="200" y="367"  font-size="18" font-weight="700" fill="#94a3b8" text-anchor="middle">安養型</text>
   <text x="420" y="367"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:15</text>
   <text x="640" y="367"  font-size="24" font-weight="700" fill="#1e293b" text-anchor="middle">1:35</text>
@@ -37,7 +37,7 @@
   <text x="60" y="424"  font-size="15" font-weight="700" fill="#d97706">失智型日班最嚴格：</text>
   <text x="200" y="424"  font-size="15" fill="#57534e">每 3 位住民就需要 1 位照服員，60 床失智型日班需 20 位照服員</text>
   <text x="60" y="444"  font-size="15" font-weight="700" fill="#78716c">各班均需：</text>
-  <text x="140" y="444"  font-size="15" fill="#57534e">至少 1 位本國籍照服員，外籍照服員 ≤ 本國籍照服員 + 護理人員總數</text>
+  <text x="140" y="444"  font-size="15" fill="#57534e">至少 1 位本國籍照服員，外籍照服員 <= 本國籍照服員 + 護理人員總數</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

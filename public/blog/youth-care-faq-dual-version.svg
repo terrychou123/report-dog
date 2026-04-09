@@ -62,7 +62,7 @@
 
   <!-- 底部說明 -->
   <rect x="28" y="396" width="744" height="36" rx="8" fill="#fef3c7"/>
-  <text x="400" y="419" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">同時安置兩年齡層 → 兩版本都評，取平均分數計入總分</text>
+  <text x="400" y="419" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">同時安置兩年齡層 - 兩版本都評，取平均分數計入總分</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

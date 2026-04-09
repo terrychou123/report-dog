@@ -8,9 +8,9 @@
 <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
 <text x="66" y="218" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
 <text x="100" y="209" font-size="28" fill="#1e293b" font-weight="700">第13條 團體活動年度計畫缺乏…</text>
-<text x="100" y="234" font-size="18" fill="#57534e">活動計畫的缺失通常不是「沒辦活動」，而是計畫和紀錄出了問</text>
-<rect x="620" y="174" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
-<text x="688" y="191" font-size="18" fill="#d97706" text-anchor="middle">第13條</text>
-<text x="688" y="209" font-size="18" fill="#d97706" text-anchor="middle">社工 / 照服員</text>
+<text x="100" y="234" font-size="16" fill="#57534e">活動計畫的缺失通常不是「沒辦活動」，而是計畫和紀錄出了問</text>
+<rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+<text x="688" y="205" font-size="18" fill="#d97706" text-anchor="middle">第13條</text>
+<text x="688" y="225" font-size="18" fill="#d97706" text-anchor="middle">社工 / 照服員</text>
 <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>

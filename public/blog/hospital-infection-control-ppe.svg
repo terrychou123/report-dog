@@ -68,7 +68,7 @@
   <rect x="414" y="398" width="358" height="50" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
   <rect x="414" y="398" width="5" height="50" rx="3" fill="#dc2626"/>
   <text x="436" y="413" font-size="16" fill="#dc2626" font-weight="700">步驟 5</text>
-  <text x="436" y="433" font-size="16" fill="#57534e">脫口罩 → 再次洗手</text>
+  <text x="436" y="433" font-size="16" fill="#57534e">脫口罩 - 再次洗手</text>
 
   <!-- 浮水印 -->
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

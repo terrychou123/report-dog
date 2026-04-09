@@ -34,7 +34,7 @@
   <!-- 達標說明 -->
   <rect x="46" y="360" width="322" height="76" rx="8" fill="#eff6ff"/>
   <text x="208" y="388" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="700">達標：能說出至少一種申訴管道</text>
-  <text x="208" y="410" font-size="13" fill="#57534e" text-anchor="middle">如：向工作人員反映、申訴箱、衛生局電話</text>
+  <text x="208" y="410" font-size="14" fill="#57534e" text-anchor="middle">如：向工作人員反映、申訴箱、衛生局電話</text>
 
   <!-- 右側：文件查核 -->
   <rect x="412" y="64" width="360" height="400" rx="12" fill="white"/>
@@ -65,7 +65,7 @@
   <!-- 達標說明 -->
   <rect x="430" y="360" width="322" height="76" rx="8" fill="#fff7ed"/>
   <text x="592" y="388" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">重點：申訴機制存在≠服務對象知道</text>
-  <text x="592" y="410" font-size="13" fill="#57534e" text-anchor="middle">兩者必須同時確認，才能通過 PFM 查核</text>
+  <text x="592" y="410" font-size="14" fill="#57534e" text-anchor="middle">兩者必須同時確認，才能通過 PFM 查核</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

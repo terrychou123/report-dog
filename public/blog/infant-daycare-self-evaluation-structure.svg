@@ -8,7 +8,7 @@
 
   <!-- Row 0：行政管理（y=166）-->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
   <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">行政管理（20分）</text>
@@ -20,7 +20,7 @@
 
   <!-- Row 1：托育活動（y=269）-->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">B</text>
   <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">托育活動（40分）</text>
@@ -32,12 +32,12 @@
 
   <!-- Row 2：健康安全（y=372）-->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
   <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">健康安全（40分）</text>
   <text x="100" y="430" font-size="16" fill="#57534e">自評重點：量化標準最多，自評需逐項確認具體數值（溫度、頻率、數量）</text>
-  <text x="100" y="450" font-size="14" fill="#57534e">子類：健康管理（37-39）、飲食安全（40-44）、環境衛生（45-51）、設備安全（52-57）、照護（58-60）</text>
+  <text x="100" y="450" font-size="16" fill="#57534e">子類：健康管理（37-39）、飲食安全（40-44）、環境衛生（45-51）、設備安全（52-57）、照護（58-60）</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">5個子類</text>
   <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">24項指標</text>

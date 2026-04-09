@@ -4,29 +4,29 @@
 <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
 <text x="28" y="97" font-size="32" fill="#1e293b" font-weight="700">評鑑文書準備三大痛點</text>
 <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+<rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
 <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
 <text x="66" y="218" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
 <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">文件量龐大</text>
-<text x="100" y="234" font-size="18" fill="#57534e">43條基準對應大量備審文件，手工整理耗時</text>
+<text x="100" y="234" font-size="16" fill="#57534e">43條基準對應大量備審文件，手工整理耗時</text>
 <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
 <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">準備負擔重</text>
 <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">時間壓力大</text>
 <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+<rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
 <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
 <text x="66" y="321" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
 <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">格式要求嚴格</text>
-<text x="100" y="337" font-size="18" fill="#57534e">評鑑委員查核格式規範，錯一處全條失分</text>
+<text x="100" y="337" font-size="16" fill="#57534e">評鑑委員查核格式規範，錯一處全條失分</text>
 <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
 <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">格式嚴謹</text>
 <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">容易失分</text>
 <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+<rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
 <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
 <text x="66" y="424" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
 <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">多人協作困難</text>
-<text x="100" y="440" font-size="18" fill="#57534e">社工師、護理師、行政各做各的，難以整合</text>
+<text x="100" y="440" font-size="16" fill="#57534e">社工師、護理師、行政各做各的，難以整合</text>
 <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
 <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">協作障礙</text>
 <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">進度不明</text>

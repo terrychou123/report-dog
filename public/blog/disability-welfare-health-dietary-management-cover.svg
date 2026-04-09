@@ -8,16 +8,16 @@
   <text x="1000" y="329" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">合計16分重點指標群</text>
   <rect x="840" y="360" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="390" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">健康管理</text>
-  <text x="914" y="416" font-size="18" fill="#a8a29e" text-anchor="middle">4301-4302</text>
+  <text x="914" y="419" font-size="18" fill="#a8a29e" text-anchor="middle">4301-4302</text>
   <rect x="1000" y="360" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="390" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">膳食服務</text>
-  <text x="1074" y="416" font-size="18" fill="#a8a29e" text-anchor="middle">4303</text>
+  <text x="1074" y="419" font-size="18" fill="#a8a29e" text-anchor="middle">4303</text>
   <rect x="840" y="444" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="474" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">輔具服務</text>
-  <text x="914" y="500" font-size="18" fill="#a8a29e" text-anchor="middle">4304</text>
+  <text x="914" y="503" font-size="18" fill="#a8a29e" text-anchor="middle">4304</text>
   <rect x="1000" y="444" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="474" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="700">15天菜單</text>
-  <text x="1074" y="500" font-size="18" fill="#a8a29e" text-anchor="middle">不重複要求</text>
+  <text x="1074" y="503" font-size="18" fill="#a8a29e" text-anchor="middle">不重複要求</text>
   <text x="60" y="195" font-size="90" font-weight="900" fill="#1e293b">健康管理</text>
   <text x="60" y="315" font-size="90" font-weight="900" fill="#d97706">膳食服務</text>
   <line x1="60" y1="343" x2="780" y2="343" stroke="#dedad3" stroke-width="2"/>

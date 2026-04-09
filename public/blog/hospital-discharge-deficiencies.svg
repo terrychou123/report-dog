@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
@@ -11,49 +12,49 @@
   <rect x="38" y="128" width="724" height="80" rx="10" fill="#fef2f2"/>
   <rect x="38" y="128" width="6" height="80" rx="3" fill="#dc2626"/>
   <circle cx="80" cy="168" r="20" fill="#dc2626"/>
-  <text x="80" y="163"  font-size="10" font-weight="700" fill="#dc2626" text-anchor="middle">失分</text>
-  <text x="80" y="177"  font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="80" y="163"  font-size="14" font-weight="700" fill="#dc2626" text-anchor="middle">失分</text>
+  <text x="80" y="177"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="116" y="153"  font-size="15" font-weight="700" fill="#dc2626">出院計畫出院當天才啟動</text>
-  <text x="116" y="175"  font-size="12" fill="#78716c">評鑑委員翻病歷發現出院護理紀錄只有最後一天，社工轉銜評估與出院同日</text>
-  <text x="116" y="198"  font-size="11" fill="#a8a29e">違反「早期啟動」要求，2.3.10最常見缺失類型</text>
+  <text x="116" y="175"  font-size="14" fill="#78716c">評鑑委員翻病歷發現出院護理紀錄只有最後一天，社工轉銜評估與出院同日</text>
+  <text x="116" y="198"  font-size="14" fill="#a8a29e">違反「早期啟動」要求，2.3.10最常見缺失類型</text>
   <rect x="624" y="147" width="114" height="26" rx="13" fill="#dc2626"/>
-  <text x="681" y="165"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">早期啟動</text>
+  <text x="681" y="165"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">早期啟動</text>
 
   <!-- 列 2 (y=228) -->
   <rect x="38" y="228" width="724" height="80" rx="10" fill="#fffbeb"/>
   <rect x="38" y="228" width="6" height="80" rx="2" fill="#d97706"/>
   <circle cx="80" cy="268" r="20" fill="#d97706" opacity="0.15"/>
-  <text x="80" y="263"  font-size="10" font-weight="700" fill="#d97706" text-anchor="middle">失分</text>
-  <text x="80" y="277"  font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="80" y="263"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">失分</text>
+  <text x="80" y="277"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="116" y="253"  font-size="15" font-weight="700" fill="#92400e">出院教育未留文書紀錄</text>
-  <text x="116" y="275"  font-size="12" fill="#78716c">護理師確實做了衛教，但沒有出院護理指導單，家屬簽名缺漏</text>
-  <text x="116" y="298"  font-size="11" fill="#a8a29e">評鑑委員訪談護理師說法與病歷不符，口說有做但無書面證明</text>
+  <text x="116" y="275"  font-size="14" fill="#78716c">護理師確實做了衛教，但沒有出院護理指導單，家屬簽名缺漏</text>
+  <text x="116" y="298"  font-size="14" fill="#a8a29e">評鑑委員訪談護理師說法與病歷不符，口說有做但無書面證明</text>
   <rect x="624" y="247" width="114" height="26" rx="13" fill="#d97706"/>
-  <text x="681" y="265"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">文書留存</text>
+  <text x="681" y="265"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">文書留存</text>
 
   <!-- 列 3 (y=328) -->
   <rect x="38" y="328" width="724" height="80" rx="10" fill="#f5f5f4"/>
   <rect x="38" y="328" width="6" height="80" rx="2" fill="#78716c"/>
   <circle cx="80" cy="368" r="20" fill="#78716c" opacity="0.15"/>
-  <text x="80" y="363"  font-size="10" font-weight="700" fill="#78716c" text-anchor="middle">失分</text>
-  <text x="80" y="377"  font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="80" y="363"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">失分</text>
+  <text x="80" y="377"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="116" y="353"  font-size="15" font-weight="700" fill="#44403c">長照銜接流於形式</text>
-  <text x="116" y="375"  font-size="12" fill="#78716c">社工只寫「已告知長照」，無轉銜評估單，無聯繫記錄，無服務啟動確認</text>
-  <text x="116" y="398"  font-size="11" fill="#a8a29e">評鑑委員要求看轉銜評估單及聯繫紀錄，空白即為缺失</text>
+  <text x="116" y="375"  font-size="14" fill="#78716c">社工只寫「已告知長照」，無轉銜評估單，無聯繫記錄，無服務啟動確認</text>
+  <text x="116" y="398"  font-size="14" fill="#a8a29e">評鑑委員要求看轉銜評估單及聯繫紀錄，空白即為缺失</text>
   <rect x="624" y="347" width="114" height="26" rx="13" fill="#78716c"/>
-  <text x="681" y="365"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">完整紀錄</text>
+  <text x="681" y="365"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">完整紀錄</text>
 
   <!-- 列 4 (y=428) -->
   <rect x="38" y="428" width="724" height="52" rx="10" fill="#f5f5f4"/>
   <rect x="38" y="428" width="6" height="52" rx="2" fill="#57534e"/>
   <circle cx="80" cy="454" r="20" fill="#57534e" opacity="0.15"/>
-  <text x="80" y="449"  font-size="10" font-weight="700" fill="#57534e" text-anchor="middle">失分</text>
-  <text x="80" y="463"  font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="80" y="449"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">失分</text>
+  <text x="80" y="463"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
   <text x="116" y="449"  font-size="15" font-weight="700" fill="#44403c">出院病摘逾時完成</text>
-  <text x="116" y="471"  font-size="12" fill="#78716c">醫師出院病摘延遲超過規定時限，或病摘內容缺漏出院醫囑</text>
+  <text x="116" y="471"  font-size="14" fill="#78716c">醫師出院病摘延遲超過規定時限，或病摘內容缺漏出院醫囑</text>
   <rect x="624" y="441" width="114" height="26" rx="13" fill="#57534e"/>
-  <text x="681" y="459"  font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">時限管控</text>
+  <text x="681" y="459"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">時限管控</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="494"  font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="494"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

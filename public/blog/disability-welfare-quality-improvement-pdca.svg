@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" font-size="34" fill="#1e293b" font-weight="700" text-anchor="middle">PDCA 持續改善循環</text>
-  <text x="400" y="78" font-size="20" fill="#57534e" text-anchor="middle">計畫→執行→查核→行動：身心障礙機構評鑑品質管理核心工具</text>
+  <text x="400" y="78" font-size="20" fill="#57534e" text-anchor="middle">計畫-執行-查核-行動：身心障礙機構評鑑品質管理核心工具</text>
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- N=4: card_w=174, cx=115/305/495/685 -->

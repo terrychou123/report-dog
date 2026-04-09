@@ -10,7 +10,7 @@
 
   <!-- 住民資訊列 -->
   <rect x="40" y="100" width="720" height="35" rx="6" fill="#f1f5f9"/>
-  <text x="55" y="122" font-size="14" fill="#334155">住民姓名：________________________　床號：______　照護計畫日期：____ 年 __ 月　本月高風險標記：□ 鼻胃管　□ 氣切　□ 認知障礙</text>
+  <text x="55" y="122" font-size="14" fill="#334155">住民姓名：________________________　床號：______　照護計畫日期：____ 年 __ 月　本月高風險標記：[ ] 鼻胃管　[ ] 氣切　[ ] 認知障礙</text>
 
   <!-- 表格標題列 -->
   <rect x="40" y="145" width="720" height="32" rx="4" fill="#0ea5e9"/>
@@ -31,9 +31,9 @@
   <line x1="40" y1="217" x2="760" y2="217" stroke="#e2e8f0" stroke-width="1"/>
   <text x="70" y="202" font-size="14" fill="#334155" text-anchor="middle">1/1</text>
   <text x="150" y="202" font-size="14" fill="#334155" text-anchor="middle">早</text>
-  <text x="280" y="197" font-size="14" fill="#334155" text-anchor="middle">☑ 刷牙　☐ 義齒清潔</text>
-  <text x="280" y="212" font-size="14" fill="#334155" text-anchor="middle">☑ 口腔濕潤　☐ 特殊清潔</text>
-  <text x="440" y="202" font-size="14" fill="#475569" text-anchor="middle">王○○　(簽名)</text>
+  <text x="280" y="197" font-size="14" fill="#334155" text-anchor="middle">[v] 刷牙　[ ] 義齒清潔</text>
+  <text x="280" y="212" font-size="14" fill="#334155" text-anchor="middle">[v] 口腔濕潤　[ ] 特殊清潔</text>
+  <text x="440" y="202" font-size="14" fill="#475569" text-anchor="middle">王　(簽名)</text>
   <text x="580" y="202" font-size="14" fill="#334155" text-anchor="middle">配合良好</text>
   <text x="690" y="202" font-size="14" fill="#16a34a" text-anchor="middle">—</text>
 
@@ -42,10 +42,10 @@
   <line x1="40" y1="257" x2="760" y2="257" stroke="#e2e8f0" stroke-width="1"/>
   <text x="70" y="242" font-size="14" fill="#334155" text-anchor="middle">1/1</text>
   <text x="150" y="242" font-size="14" fill="#334155" text-anchor="middle">晚</text>
-  <text x="280" y="237" font-size="14" fill="#334155" text-anchor="middle">☑ 刷牙　☑ 義齒清潔</text>
-  <text x="280" y="252" font-size="14" fill="#334155" text-anchor="middle">☑ 口腔濕潤　☐ 特殊清潔</text>
-  <text x="440" y="242" font-size="14" fill="#475569" text-anchor="middle">陳○○　(簽名)</text>
-  <text x="580" y="242" font-size="14" fill="#334155" text-anchor="middle">輕微抗拒→輕柔安撫</text>
+  <text x="280" y="237" font-size="14" fill="#334155" text-anchor="middle">[v] 刷牙　[v] 義齒清潔</text>
+  <text x="280" y="252" font-size="14" fill="#334155" text-anchor="middle">[v] 口腔濕潤　[ ] 特殊清潔</text>
+  <text x="440" y="242" font-size="14" fill="#475569" text-anchor="middle">陳　(簽名)</text>
+  <text x="580" y="242" font-size="14" fill="#334155" text-anchor="middle">輕微抗拒-輕柔安撫</text>
   <text x="690" y="242" font-size="14" fill="#16a34a" text-anchor="middle">—</text>
 
   <!-- 資料列3（異常示範） -->
@@ -53,11 +53,11 @@
   <line x1="40" y1="297" x2="760" y2="297" stroke="#e2e8f0" stroke-width="1"/>
   <text x="70" y="282" font-size="14" fill="#334155" text-anchor="middle">1/2</text>
   <text x="150" y="282" font-size="14" fill="#334155" text-anchor="middle">早</text>
-  <text x="280" y="277" font-size="14" fill="#334155" text-anchor="middle">☑ 刷牙　☑ 義齒清潔</text>
-  <text x="280" y="292" font-size="14" fill="#334155" text-anchor="middle">☑ 口腔濕潤　☐ 特殊清潔</text>
-  <text x="440" y="282" font-size="14" fill="#475569" text-anchor="middle">李○○　(簽名)</text>
+  <text x="280" y="277" font-size="14" fill="#334155" text-anchor="middle">[v] 刷牙　[v] 義齒清潔</text>
+  <text x="280" y="292" font-size="14" fill="#334155" text-anchor="middle">[v] 口腔濕潤　[ ] 特殊清潔</text>
+  <text x="440" y="282" font-size="14" fill="#475569" text-anchor="middle">李　(簽名)</text>
   <text x="580" y="282" font-size="14" fill="#dc2626" text-anchor="middle">口腔黏膜發紅，疑潰瘍</text>
-  <text x="690" y="282" font-size="14" fill="#dc2626" text-anchor="middle">★</text>
+  <text x="690" y="282" font-size="14" fill="#dc2626" text-anchor="middle">*</text>
 
   <!-- 資料列4（空白） -->
   <rect x="40" y="297" width="720" height="40" rx="2" fill="#f8fafc"/>
@@ -69,8 +69,8 @@
   <rect x="40" y="390" width="720" height="60" rx="8" fill="#eff6ff"/>
   <rect x="40" y="390" width="4" height="60" rx="2" fill="#3b82f6"/>
   <text x="60" y="413" font-size="14" font-weight="700" fill="#1e3a5f">常見記錄不完整問題</text>
-  <text x="60" y="433" font-size="14" fill="#475569">① 只寫「已執行」，未記錄具體執行項目　② 執行人員欄空白　③ 住民有異常但未標記★也未通報護理師</text>
-  <text x="60" y="450" font-size="14" fill="#475569">④ 有執行義齒清潔但未記錄住民是否佩戴義齒　⑤ 月底批次補記（筆跡一致、無當日時間感）</text>
+  <text x="60" y="433" font-size="14" fill="#475569">1 只寫「已執行」，未記錄具體執行項目　2 執行人員欄空白　3 住民有異常但未標記*也未通報護理師</text>
+  <text x="60" y="450" font-size="14" fill="#475569">4 有執行義齒清潔但未記錄住民是否佩戴義齒　5 月底批次補記（筆跡一致、無當日時間感）</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

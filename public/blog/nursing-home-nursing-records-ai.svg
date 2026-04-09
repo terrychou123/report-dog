@@ -43,8 +43,8 @@
   <!-- 底部功能說明 -->
   <rect x="40" y="355" width="720" height="100" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <text x="400" y="380" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">報告汪 AI 護理紀錄功能還包含：</text>
-  <text x="100" y="405" font-size="14" fill="#57534e">自動提醒 B2 評值到期日</text>
-  <text x="100" y="427" font-size="14" fill="#57534e">B16 同意書更新到期提醒</text>
+  <text x="100" y="405" font-size="16" fill="#57534e">自動提醒 B2 評值到期日</text>
+  <text x="100" y="427" font-size="16" fill="#57534e">B16 同意書更新到期提醒</text>
   <text x="430" y="405" font-size="14" fill="#57534e">半年分析報告數據自動彙整</text>
   <text x="430" y="427" font-size="14" fill="#57534e">B19 體重變化預警通知</text>
 

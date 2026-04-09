@@ -14,7 +14,7 @@
   <rect x="40" y="204" width="64" height="72" rx="8" fill="#78716c"/>
   <text x="72" y="246"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">B13</text>
   <text x="125" y="230"  font-size="15" font-weight="700" fill="#78716c">Q：住民發生跌倒時，你們的處理流程是什麼？</text>
-  <text x="125" y="256"  font-size="14" fill="#57534e">答：立即評估傷勢→通知護理師→聯繫家屬→逐案分析→每半年定期分析改善</text>
+  <text x="125" y="256"  font-size="14" fill="#57534e">答：立即評估傷勢-通知護理師-聯繫家屬-逐案分析-每半年定期分析改善</text>
   <!-- Q3 -->
   <rect x="40" y="290" width="720" height="72" rx="8" fill="#ffffff" stroke="#57534e" stroke-width="1.5"/>
   <rect x="40" y="290" width="64" height="72" rx="8" fill="#57534e"/>

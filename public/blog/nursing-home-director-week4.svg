@@ -28,7 +28,7 @@
   <text x="116" y="366"  font-size="15" fill="#57534e">護理長、社工師、行政各自清楚負責的評鑑面向與對應文件</text>
   <!-- 項目4 -->
   <rect x="40" y="396" width="720" height="64" rx="8" fill="#ffffff"/>
-  <rect x="40" y="396" width="6" height="64" rx="2" fill="#94a3b8"/>
+  <rect x="40" y="396" width="6" height="64" rx="2" fill="#a8a29e"/>
   <circle cx="80" cy="428" r="18" fill="#94a3b8" opacity="0.15"/>
   <text x="80" y="434"  font-size="16" font-weight="700" fill="#94a3b8" text-anchor="middle">4</text>
   <text x="116" y="420"  font-size="17" font-weight="700" fill="#1e293b">使用多人協作工具追蹤各項目完成狀態</text>

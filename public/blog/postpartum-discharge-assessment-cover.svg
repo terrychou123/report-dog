@@ -10,24 +10,24 @@
 
   <!-- 右側 5 個評鑑條件卡片 -->
   <rect x="840" y="265" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="289" font-size="20" fill="#16a34a" font-weight="700">① 產婦出院評估</text>
-  <text x="1025" y="289" font-size="18" fill="#57534e">傷口・子宮・乳房・情緒</text>
+  <text x="858" y="281" font-size="20" fill="#16a34a" font-weight="700">1 產婦出院評估</text>
+  <text x="1025" y="312" font-size="18" fill="#57534e">傷口・子宮・乳房・情緒</text>
 
   <rect x="840" y="319" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="343" font-size="20" fill="#16a34a" font-weight="700">② 嬰兒出院評估</text>
-  <text x="1025" y="343" font-size="18" fill="#57534e">體重・黃疸・餵食</text>
+  <text x="858" y="335" font-size="20" fill="#16a34a" font-weight="700">2 嬰兒出院評估</text>
+  <text x="1025" y="366" font-size="18" fill="#57534e">體重・黃疸・餵食</text>
 
   <rect x="840" y="373" width="320" height="48" rx="10" fill="#16a34a" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="397" font-size="20" fill="#16a34a" font-weight="700">③ 書面出院指導</text>
-  <text x="1025" y="397" font-size="18" fill="#57534e">家屬簽名必要</text>
+  <text x="858" y="389" font-size="20" fill="#16a34a" font-weight="700">3 書面出院指導</text>
+  <text x="1025" y="420" font-size="18" fill="#57534e">家屬簽名必要</text>
 
   <rect x="840" y="427" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="451" font-size="20" fill="#78716c" font-weight="700">④ 社區資源轉介</text>
-  <text x="1025" y="451" font-size="18" fill="#57534e">衛生所・哺乳資源</text>
+  <text x="858" y="443" font-size="20" fill="#78716c" font-weight="700">4 社區資源轉介</text>
+  <text x="1025" y="474" font-size="18" fill="#57534e">衛生所・哺乳資源</text>
 
   <rect x="840" y="481" width="320" height="48" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="505" font-size="20" fill="#78716c" font-weight="700">⑤ 出院後追蹤</text>
-  <text x="1025" y="505" font-size="18" fill="#57534e">3–7 天電話關懷</text>
+  <text x="858" y="497" font-size="20" fill="#78716c" font-weight="700">5 出院後追蹤</text>
+  <text x="1025" y="528" font-size="18" fill="#57534e">3–7 天電話關懷</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="539" width="320" height="46" rx="10" fill="#16a34a" opacity="0.10"/>

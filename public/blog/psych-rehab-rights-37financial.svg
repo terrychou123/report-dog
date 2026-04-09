@@ -3,7 +3,7 @@
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 主標題 -->
   <text x="400" y="48" font-size="28" fill="#1e293b" text-anchor="middle" font-weight="700">住宿型 3.7 財物自主管理合規設計</text>
-  <text x="400" y="76" font-size="20" fill="#57534e" text-anchor="middle">個別評估能力 → 制定計畫 → 定期重新評估</text>
+  <text x="400" y="76" font-size="20" fill="#57534e" text-anchor="middle">個別評估能力 - 制定計畫 - 定期重新評估</text>
   <line x1="129" y1="93" x2="671" y2="93" stroke="#dedad3" stroke-width="1"/>
 
   <!-- ===== STEP01 個別評估 (cx=214) ===== -->
@@ -27,8 +27,8 @@
   <text x="400" y="183" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
   <text x="400" y="211" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
   <text x="400" y="297" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">制定計畫</text>
-  <text x="400" y="318" font-size="15" fill="#57534e" text-anchor="middle">強→完全自管</text>
-  <text x="400" y="338" font-size="15" fill="#57534e" text-anchor="middle">弱→支持性自管</text>
+  <text x="400" y="318" font-size="15" fill="#57534e" text-anchor="middle">強-完全自管</text>
+  <text x="400" y="338" font-size="15" fill="#57534e" text-anchor="middle">弱-支持性自管</text>
   <rect x="333" y="381" width="134" height="36" rx="18" fill="#f5f5f4"/>
   <text x="400" y="405" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">個別化計畫</text>
 

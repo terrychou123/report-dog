@@ -13,48 +13,49 @@
   <rect x="50" y="108" width="200" height="290" rx="12" fill="#ffffff"/>
   <rect x="50" y="108" width="200" height="48" rx="12" fill="#d97706"/>
   <rect x="50" y="132" width="200" height="24" fill="#d97706"/>
-  <text x="150" y="149"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑前 3 個月</text>
-  <text x="150" y="160"  font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">系統整理期</text>
-  <text x="70" y="186"  font-size="13" fill="#57534e">全面盤點現有文件</text>
-  <text x="70" y="206"  font-size="13" fill="#57534e">找出連續性空白段</text>
-  <text x="70" y="226"  font-size="13" fill="#57534e">補強優先順序：</text>
-  <text x="70" y="246"  font-size="12" fill="#78716c">1. 輔導目標追蹤表</text>
-  <text x="70" y="264"  font-size="12" fill="#78716c">2. 個案服務記錄</text>
-  <text x="70" y="282"  font-size="12" fill="#78716c">3. 督導記錄</text>
-  <text x="70" y="300"  font-size="12" fill="#78716c">4. 行政會議紀錄</text>
+  <text x="150" y="137"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑前 3 個月</text>
+  <text x="150" y="160"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">系統整理期</text>
+  <text x="70" y="186"  font-size="14" fill="#57534e">全面盤點現有文件</text>
+  <text x="70" y="206"  font-size="14" fill="#57534e">找出連續性空白段</text>
+  <text x="70" y="226"  font-size="14" fill="#57534e">補強優先順序：</text>
+  <text x="70" y="246"  font-size="14" fill="#78716c">1. 輔導目標追蹤表</text>
+  <text x="70" y="264"  font-size="14" fill="#78716c">2. 個案服務記錄</text>
+  <text x="70" y="282"  font-size="14" fill="#78716c">3. 督導記錄</text>
+  <text x="70" y="300"  font-size="14" fill="#78716c">4. 行政會議紀錄</text>
   <!-- Arrow 1 -->
   <polygon points="270,242 296,260 270,278" fill="#d97706" opacity="0.7"/>
   <!-- Card 2: 評鑑前 1 個月 -->
   <rect x="306" y="108" width="200" height="290" rx="12" fill="#ffffff"/>
   <rect x="306" y="108" width="200" height="48" rx="12" fill="#78716c"/>
   <rect x="306" y="132" width="200" height="24" fill="#78716c"/>
-  <text x="406" y="149"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑前 1 個月</text>
-  <text x="406" y="160"  font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">品質提升期</text>
-  <text x="326" y="186"  font-size="13" fill="#57534e">逐項比對評鑑指標</text>
-  <text x="326" y="206"  font-size="13" fill="#57534e">確認每子項有文件</text>
-  <text x="326" y="226"  font-size="13" fill="#57534e">全機構環境安全查</text>
-  <text x="326" y="246"  font-size="13" fill="#57534e">修繕待處理項目</text>
-  <text x="326" y="266"  font-size="13" fill="#57534e">工作人員訪談演練</text>
-  <text x="326" y="286"  font-size="12" fill="#78716c">重點：情境演練</text>
-  <text x="326" y="304"  font-size="12" fill="#78716c">而非背誦條文</text>
+  <text x="406" y="137"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑前 1 個月</text>
+  <text x="406" y="160"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">品質提升期</text>
+  <text x="326" y="186"  font-size="14" fill="#57534e">逐項比對評鑑指標</text>
+  <text x="326" y="206"  font-size="14" fill="#57534e">確認每子項有文件</text>
+  <text x="326" y="226"  font-size="14" fill="#57534e">全機構環境安全查</text>
+  <text x="326" y="246"  font-size="14" fill="#57534e">修繕待處理項目</text>
+  <text x="326" y="266"  font-size="14" fill="#57534e">工作人員訪談演練</text>
+  <text x="326" y="286"  font-size="14" fill="#78716c">重點：情境演練</text>
+  <text x="326" y="304"  font-size="14" fill="#78716c">而非背誦條文</text>
   <!-- Arrow 2 -->
   <polygon points="526,242 552,260 526,278" fill="#d97706" opacity="0.7"/>
   <!-- Card 3: 評鑑前 1 週 -->
   <rect x="562" y="108" width="200" height="290" rx="12" fill="#ffffff"/>
   <rect x="562" y="108" width="200" height="48" rx="12" fill="#1e293b"/>
   <rect x="562" y="132" width="200" height="24" fill="#1e293b"/>
-  <text x="662" y="149"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑前 1 週</text>
-  <text x="662" y="160"  font-size="13" font-weight="700" fill="#94a3b8" text-anchor="middle">最終確認期</text>
-  <text x="582" y="186"  font-size="13" fill="#57534e">整理備審資料夾</text>
-  <text x="582" y="206"  font-size="13" fill="#57534e">確認排列邏輯清楚</text>
-  <text x="582" y="226"  font-size="13" fill="#57534e">安置系統與紙本對比</text>
-  <text x="582" y="246"  font-size="13" fill="#57534e">消防安全最終檢查</text>
-  <text x="582" y="266"  font-size="13" fill="#57534e">兒少訪談前置說明</text>
-  <text x="582" y="286"  font-size="12" fill="#78716c">重點：讓兒少自在</text>
-  <text x="582" y="304"  font-size="12" fill="#78716c">表達真實感受</text>
+  <text x="662" y="137"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑前 1 週</text>
+  <text x="662" y="160"  font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle">最終確認期</text>
+  <text x="582" y="186"  font-size="14" fill="#57534e">整理備審資料夾</text>
+  <text x="582" y="206"  font-size="14" fill="#57534e">確認排列邏輯清楚</text>
+  <text x="582" y="226"  font-size="14" fill="#57534e">安置系統與紙本對比</text>
+  <text x="582" y="246"  font-size="14" fill="#57534e">消防安全最終檢查</text>
+  <text x="582" y="266"  font-size="14" fill="#57534e">兒少訪談前置說明</text>
+  <text x="582" y="286"  font-size="14" fill="#78716c">重點：讓兒少自在</text>
+  <text x="582" y="304"  font-size="14" fill="#78716c">表達真實感受</text>
   <!-- Bottom note -->
   <rect x="28" y="414" width="744" height="48" rx="12" fill="#fef3c7"/>
   <text x="400" y="443"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">核心原則：文件說的和實際做的，一不一樣？</text>
   <!-- Watermark -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

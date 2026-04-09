@@ -10,21 +10,21 @@
 
   <!-- 右側查核項目卡片 -->
   <rect x="840" y="260" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="288" font-size="22" fill="#16a34a" font-weight="700">肌膚接觸指導</text>
-  <text x="1025" y="288" font-size="20" fill="#57534e">含產婦選擇記錄</text>
+  <text x="858" y="280" font-size="22" fill="#16a34a" font-weight="700">肌膚接觸指導</text>
+  <text x="1025" y="311" font-size="20" fill="#57534e">含產婦選擇記錄</text>
 
   <rect x="840" y="322" width="320" height="56" rx="10" fill="#16a34a" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="350" font-size="22" fill="#16a34a" font-weight="700">家屬參與嬰兒照護</text>
-  <text x="1055" y="350" font-size="20" fill="#57534e">技能指導</text>
+  <text x="858" y="342" font-size="22" fill="#16a34a" font-weight="700">家屬參與嬰兒照護</text>
+  <text x="1055" y="373" font-size="20" fill="#57534e">技能指導</text>
 
   <rect x="840" y="384" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="412" font-size="22" fill="#d97706" font-weight="700">回覆示教</text>
-  <text x="960" y="412" font-size="20" fill="#57534e">每位 2–3 項必填</text>
+  <text x="858" y="404" font-size="22" fill="#d97706" font-weight="700">回覆示教</text>
+  <text x="960" y="435" font-size="20" fill="#57534e">每位 2–3 項必填</text>
 
   <!-- 右側趨勢說明 -->
   <rect x="840" y="450" width="320" height="58" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="468" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">同室率 37.4% → 21.1%</text>
-  <text x="1000" y="492" font-size="19" fill="#78716c" text-anchor="middle">下滑趨勢是現實，記錄才是關鍵</text>
+  <text x="1000" y="471" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">同室率 37.4% - 21.1%</text>
+  <text x="1000" y="502" font-size="19" fill="#78716c" text-anchor="middle">下滑趨勢是現實，記錄才是關鍵</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="518" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>

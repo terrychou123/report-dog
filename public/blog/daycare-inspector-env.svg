@@ -10,33 +10,33 @@
 
   <!-- Row 1 (y=166) #d97706 高齡友善設施 -->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">高齡友善設施（第 38 條）</text>
-  <text x="100" y="234" font-size="18" fill="#57534e">扶手・防滑地面・出口標示・採光・輪椅通道是否合規</text>
+  <text x="100" y="234" font-size="16" fill="#57534e">扶手・防滑地面・出口標示・採光・輪椅通道是否合規</text>
   <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="688" y="201" font-size="16" fill="#d97706" text-anchor="middle">安全</text>
   <text x="688" y="221" font-size="16" fill="#d97706" text-anchor="middle">設施</text>
 
   <!-- Row 2 (y=269) #78716c 廚房衛生 -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">廚房衛生（第 42 條）</text>
-  <text x="100" y="337" font-size="18" fill="#57534e">食物留樣 125g・7℃冷藏 48 小時・洗菜洗碗槽分開</text>
+  <text x="100" y="337" font-size="16" fill="#57534e">食物留樣 125g・7℃冷藏 48 小時・洗菜洗碗槽分開</text>
   <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="688" y="304" font-size="16" fill="#78716c" text-anchor="middle">留樣</text>
   <text x="688" y="324" font-size="16" fill="#78716c" text-anchor="middle">紀錄</text>
 
   <!-- Row 3 (y=372) #57534e 急救物品 -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">急救物品（第 36 條）</text>
-  <text x="100" y="440" font-size="18" fill="#57534e">位置公告全員知悉・物品完整・有效期限內・當場可說明</text>
+  <text x="100" y="440" font-size="16" fill="#57534e">位置公告全員知悉・物品完整・有效期限內・當場可說明</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">完整</text>
   <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">備存</text>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">消防安全評鑑自查清單</text>
@@ -9,51 +9,51 @@
   <!-- 項目 1 -->
   <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">✓</text>
+  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">[v]</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">C9｜消防設備師半年檢修報告（近 2 份）</text>
-  <text x="82" y="152" font-size="12" fill="#78716c">佐證：申報書正本或電子檔，標示申報日期</text>
+  <text x="82" y="152" font-size="14" fill="#78716c">佐證：申報書正本或電子檔，標示申報日期</text>
   <rect x="640" y="120" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">C9 消防</text>
+  <text x="695" y="139" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">C9 消防</text>
 
   <!-- 項目 2 -->
   <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">✓</text>
+  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">[v]</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">C9｜每月用電安全自主檢查表（近 12 個月）</text>
-  <text x="82" y="214" font-size="12" fill="#78716c">佐證：逐月書面紀錄，有簽名、日期、無回溯跡象</text>
+  <text x="82" y="214" font-size="14" fill="#78716c">佐證：逐月書面紀錄，有簽名、日期、無回溯跡象</text>
   <rect x="640" y="182" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">C9 消防</text>
+  <text x="695" y="201" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">C9 消防</text>
 
   <!-- 項目 3 -->
   <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
-  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">✓</text>
+  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">[v]</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">C9｜防火管理人資格證書（非社工/醫事/照服員）</text>
-  <text x="82" y="276" font-size="12" fill="#78716c">佐證：消防局核准證書影本，確認擔任者職稱</text>
+  <text x="82" y="276" font-size="14" fill="#78716c">佐證：消防局核准證書影本，確認擔任者職稱</text>
   <rect x="640" y="244" width="110" height="28" rx="14" fill="#78716c" opacity="0.12"/>
-  <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">C9 人員</text>
+  <text x="695" y="263" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">C9 人員</text>
 
   <!-- 項目 4 -->
   <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
-  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">✓</text>
+  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">[v]</text>
   <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">C11｜EOP 年度 2 次演練紀錄（含複合型＋夜間）</text>
-  <text x="82" y="338" font-size="12" fill="#78716c">佐證：演練通知、簽到表、照片、書面檢討報告各一份</text>
+  <text x="82" y="338" font-size="14" fill="#78716c">佐證：演練通知、簽到表、照片、書面檢討報告各一份</text>
   <rect x="640" y="306" width="110" height="28" rx="14" fill="#57534e" opacity="0.12"/>
-  <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">C11 演練</text>
+  <text x="695" y="325" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">C11 演練</text>
 
   <!-- 項目 5 -->
   <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
-  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="700">✓</text>
+  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="700">[v]</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">C12/C10｜各樓層 A3 避難圖張貼＋雙向疏散路徑暢通</text>
-  <text x="82" y="400" font-size="12" fill="#78716c">佐證：實地確認走道無堆物、防火門可關閉，避難圖有更新日期</text>
+  <text x="82" y="400" font-size="14" fill="#78716c">佐證：實地確認走道無堆物、防火門可關閉，避難圖有更新日期</text>
   <rect x="640" y="368" width="110" height="28" rx="14" fill="#94a3b8" opacity="0.2"/>
-  <text x="695" y="387" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">C10/C12</text>
+  <text x="695" y="387" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">C10/C12</text>
 
   <!-- 底部提示 -->
   <rect x="28" y="422" width="744" height="38" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="446" font-size="13" fill="#78716c" text-anchor="middle">C15 護理站：每層確認有 AED 與急救設備，設備在效期內</text>
+  <text x="400" y="446" font-size="14" fill="#78716c" text-anchor="middle">C15 護理站：每層確認有 AED 與急救設備，設備在效期內</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

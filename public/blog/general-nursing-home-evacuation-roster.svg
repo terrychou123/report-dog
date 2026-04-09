@@ -7,7 +7,7 @@
   <text x="400" y="40" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">住民個別化疏散名冊格式（評鑑委員查核版）</text>
   <!-- 名冊標題區 -->
   <rect x="24" y="78" width="752" height="36" rx="8" fill="#1e3a8a"/>
-  <text x="400" y="101" font-size="14" font-weight="900" text-anchor="middle" fill="#ffffff">○○護理之家  住民個別化疏散名冊  （最後更新：115年○月○日  版本：v3  製作人：護理長○○）</text>
+  <text x="400" y="101" font-size="14" font-weight="900" text-anchor="middle" fill="#ffffff">護理之家 住民個別化疏散名冊 （最後更新：115年月日 版本：v3 製作人：護理長）</text>
   <!-- 表頭 -->
   <rect x="24" y="118" width="752" height="34" fill="#dbeafe"/>
   <!-- 欄位線 -->
@@ -25,7 +25,7 @@
   <rect x="24" y="152" width="752" height="40" fill="#ffffff" opacity="0.85"/>
   <line x1="24" y1="192" x2="776" y2="192" stroke="#e2e8f0" stroke-width="1"/>
   <text x="52" y="177" font-size="14" fill="#1c1917">101</text>
-  <text x="100" y="177" font-size="14" fill="#1c1917">王○○</text>
+  <text x="100" y="177" font-size="14" fill="#1c1917">王</text>
   <rect x="175" y="161" width="70" height="22" rx="11" fill="#d1fae5"/>
   <text x="210" y="176" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">第一級</text>
   <text x="270" y="177" font-size="14" fill="#44403c">步行疏散</text>
@@ -36,7 +36,7 @@
   <rect x="24" y="192" width="752" height="40" fill="#f8fafc" opacity="0.85"/>
   <line x1="24" y1="232" x2="776" y2="232" stroke="#e2e8f0" stroke-width="1"/>
   <text x="52" y="217" font-size="14" fill="#1c1917">102</text>
-  <text x="100" y="217" font-size="14" fill="#1c1917">李○○</text>
+  <text x="100" y="217" font-size="14" fill="#1c1917">李</text>
   <rect x="175" y="201" width="70" height="22" rx="11" fill="#fef3c7"/>
   <text x="210" y="216" font-size="14" text-anchor="middle" fill="#92400e" font-weight="700">第二級</text>
   <text x="270" y="217" font-size="14" fill="#44403c">輪椅疏散</text>
@@ -47,7 +47,7 @@
   <rect x="24" y="232" width="752" height="40" fill="#ffffff" opacity="0.85"/>
   <line x1="24" y1="272" x2="776" y2="272" stroke="#e2e8f0" stroke-width="1"/>
   <text x="52" y="257" font-size="14" fill="#1c1917">103</text>
-  <text x="100" y="257" font-size="14" fill="#1c1917">陳○○</text>
+  <text x="100" y="257" font-size="14" fill="#1c1917">陳</text>
   <rect x="175" y="241" width="70" height="22" rx="11" fill="#fee2e2"/>
   <text x="210" y="256" font-size="14" text-anchor="middle" fill="#991b1b" font-weight="700">第三級</text>
   <text x="270" y="257" font-size="14" fill="#44403c">擔架搬運</text>
@@ -58,7 +58,7 @@
   <rect x="24" y="272" width="752" height="40" fill="#f8fafc" opacity="0.85"/>
   <line x1="24" y1="312" x2="776" y2="312" stroke="#e2e8f0" stroke-width="1"/>
   <text x="52" y="297" font-size="14" fill="#1c1917">201</text>
-  <text x="100" y="297" font-size="14" fill="#1c1917">張○○</text>
+  <text x="100" y="297" font-size="14" fill="#1c1917">張</text>
   <rect x="175" y="281" width="70" height="22" rx="11" fill="#fee2e2"/>
   <text x="210" y="296" font-size="14" text-anchor="middle" fill="#991b1b" font-weight="700">第三級</text>
   <text x="270" y="297" font-size="14" fill="#44403c">擔架搬運</text>
@@ -77,7 +77,7 @@
   <rect x="530" y="354" width="56" height="20" rx="10" fill="#fee2e2"/>
   <text x="558" y="368" font-size="14" text-anchor="middle" fill="#991b1b" font-weight="700">第三級</text>
   <text x="596" y="368" font-size="14" fill="#44403c">需擔架搬運（臥床/特殊設備）</text>
-  <text x="44" y="393" font-size="14" fill="#d97706" font-weight="700">⚠ 名冊更新：住民狀況改變時立即更新，每季複查一次</text>
+  <text x="44" y="393" font-size="14" fill="#d97706" font-weight="700">(!) 名冊更新：住民狀況改變時立即更新，每季複查一次</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

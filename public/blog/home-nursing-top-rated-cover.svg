@@ -10,24 +10,24 @@
 
   <!-- 右側 5 個特徵 pill 列表 -->
   <rect x="840" y="279" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="860" y="302" font-size="22" fill="#d97706" font-weight="700">01</text>
-  <text x="900" y="302" font-size="22" fill="#78716c">品質指標是管理工具</text>
+  <text x="860" y="294" font-size="22" fill="#d97706" font-weight="700">01</text>
+  <text x="900" y="325" font-size="22" fill="#78716c">品質指標是管理工具</text>
 
   <rect x="840" y="337" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="860" y="360" font-size="22" fill="#d97706" font-weight="700">02</text>
-  <text x="900" y="360" font-size="22" fill="#78716c">文件管理有系統</text>
+  <text x="860" y="352" font-size="22" fill="#d97706" font-weight="700">02</text>
+  <text x="900" y="383" font-size="22" fill="#78716c">文件管理有系統</text>
 
   <rect x="840" y="395" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="860" y="418" font-size="22" fill="#d97706" font-weight="700">03</text>
-  <text x="900" y="418" font-size="22" fill="#78716c">PDCA 真實運轉</text>
+  <text x="860" y="410" font-size="22" fill="#d97706" font-weight="700">03</text>
+  <text x="900" y="441" font-size="22" fill="#78716c">PDCA 真實運轉</text>
 
   <rect x="840" y="453" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="860" y="476" font-size="22" fill="#d97706" font-weight="700">04</text>
-  <text x="900" y="476" font-size="22" fill="#78716c">跨專業合作落實</text>
+  <text x="860" y="468" font-size="22" fill="#d97706" font-weight="700">04</text>
+  <text x="900" y="499" font-size="22" fill="#78716c">跨專業合作落實</text>
 
   <rect x="840" y="511" width="320" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="860" y="534" font-size="22" fill="#d97706" font-weight="700">05</text>
-  <text x="900" y="534" font-size="22" fill="#d97706" font-weight="600">全員了解評鑑基準</text>
+  <text x="860" y="526" font-size="22" fill="#d97706" font-weight="700">05</text>
+  <text x="900" y="557" font-size="22" fill="#d97706" font-weight="600">全員了解評鑑基準</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

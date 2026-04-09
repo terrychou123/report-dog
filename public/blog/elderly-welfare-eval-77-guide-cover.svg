@@ -11,29 +11,29 @@
   <!-- 右側 6 區塊卡片 (3 rows × 2 cols) -->
   <!-- Row 1: A管 + B專 -->
   <rect x="840" y="282" width="148" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="914" y="316" font-size="22" fill="#ea580c" text-anchor="middle" font-weight="700">A 管理</text>
+  <text x="914" y="309" font-size="22" fill="#ea580c" text-anchor="middle" font-weight="700">A 管理</text>
   <text x="914" y="340" font-size="17" fill="#a8a29e" text-anchor="middle">15 項 · 20%</text>
 
   <rect x="1002" y="282" width="148" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1076" y="316" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="700">B 照護</text>
+  <text x="1076" y="309" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="700">B 照護</text>
   <text x="1076" y="340" font-size="17" fill="#a8a29e" text-anchor="middle">31 項 · 40%</text>
 
   <!-- Row 2: C安 + D權 -->
   <rect x="840" y="362" width="148" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="914" y="396" font-size="22" fill="#0d9488" text-anchor="middle" font-weight="700">C 安全</text>
+  <text x="914" y="389" font-size="22" fill="#0d9488" text-anchor="middle" font-weight="700">C 安全</text>
   <text x="914" y="420" font-size="17" fill="#a8a29e" text-anchor="middle">16 項 · 25%</text>
 
   <rect x="1002" y="362" width="148" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1076" y="396" font-size="22" fill="#2563eb" text-anchor="middle" font-weight="700">D 權益</text>
+  <text x="1076" y="389" font-size="22" fill="#2563eb" text-anchor="middle" font-weight="700">D 權益</text>
   <text x="1076" y="420" font-size="17" fill="#a8a29e" text-anchor="middle">9 項 · 13%</text>
 
   <!-- Row 3: E創 + F加 -->
   <rect x="840" y="442" width="148" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="914" y="476" font-size="22" fill="#4f46e5" text-anchor="middle" font-weight="700">E 創新</text>
+  <text x="914" y="469" font-size="22" fill="#4f46e5" text-anchor="middle" font-weight="700">E 創新</text>
   <text x="914" y="500" font-size="17" fill="#a8a29e" text-anchor="middle">3 項 · 2%</text>
 
   <rect x="1002" y="442" width="148" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1076" y="476" font-size="22" fill="#9333ea" text-anchor="middle" font-weight="700">F 加分</text>
+  <text x="1076" y="469" font-size="22" fill="#9333ea" text-anchor="middle" font-weight="700">F 加分</text>
   <text x="1076" y="500" font-size="17" fill="#a8a29e" text-anchor="middle">3 項 · +2 分</text>
 
   <!-- 左側主內容區 -->

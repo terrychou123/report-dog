@@ -10,7 +10,7 @@
   <rect x="30" y="70" width="740" height="88" fill="#fbbf24" rx="10" stroke="#b45309" stroke-width="2"/>
   <rect x="30" y="70" width="140" height="88" fill="#b45309" rx="10"/>
   <rect x="140" y="70" width="30" height="88" fill="#b45309"/>
-  <text x="100" y="101" font-size="22" fill="white" font-weight="900" text-anchor="middle">★</text>
+  <text x="100" y="101" font-size="22" fill="white" font-weight="900" text-anchor="middle">*</text>
   <text x="100" y="128" font-size="18" fill="white" font-weight="bold" text-anchor="middle">優等</text>
   <text x="460" y="100" font-size="14" fill="#78350f" font-weight="bold" text-anchor="middle">全部評鑑項目達成（無缺失）＋ D1 創新加分項獲分</text>
   <text x="460" y="122" font-size="14" fill="#78350f" text-anchor="middle">B 區照護品質全數達標、B2 跨專業會議有實質記錄</text>

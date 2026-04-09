@@ -12,12 +12,12 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：只有數字，無逐案分析</text>
-  <text x="60" y="170" font-size="14" fill="#57534e">X  每月跌倒統計表只有件數欄位</text>
-  <text x="60" y="190" font-size="14" fill="#57534e">X  無法說明哪位個案、原因為何</text>
+  <text x="213" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：只有數字，無逐案分析</text>
+  <text x="60" y="170" font-size="14" fill="#57534e">X 每月跌倒統計表只有件數欄位</text>
+  <text x="60" y="190" font-size="14" fill="#57534e">X 無法說明哪位個案、原因為何</text>
   <line x1="56" y1="204" x2="370" y2="204" stroke="#dedad3" stroke-width="1"/>
-  <text x="60" y="222" font-size="14" fill="#d97706" font-weight="600">OK  逐案記錄姓名、發生經過、</text>
-  <text x="60" y="240" font-size="14" fill="#d97706" font-weight="600">        採取措施與改善追蹤</text>
+  <text x="60" y="222" font-size="14" fill="#d97706" font-weight="600">OK 逐案記錄姓名、發生經過、</text>
+  <text x="60" y="240" font-size="14" fill="#d97706" font-weight="600"> 採取措施與改善追蹤</text>
   <rect x="56" y="248" width="80" height="20" rx="10" fill="#fef3c7"/>
   <text x="96" y="262" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">逐案分析</text>
 
@@ -25,12 +25,12 @@
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無改善方案或流於形式</text>
-  <text x="434" y="170" font-size="14" fill="#57534e">X  改善措施欄填「加強注意」</text>
-  <text x="434" y="190" font-size="14" fill="#57534e">X  無具體行動項目與期限</text>
+  <text x="587" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無改善方案或流於形式</text>
+  <text x="434" y="170" font-size="14" fill="#57534e">X 改善措施欄填「加強注意」</text>
+  <text x="434" y="190" font-size="14" fill="#57534e">X 無具體行動項目與期限</text>
   <line x1="430" y1="204" x2="744" y2="204" stroke="#dedad3" stroke-width="1"/>
-  <text x="434" y="222" font-size="14" fill="#78716c" font-weight="600">OK  具體寫出：調整環境照明、</text>
-  <text x="434" y="240" font-size="14" fill="#78716c" font-weight="600">        增加巡視頻率至每 2 小時</text>
+  <text x="434" y="222" font-size="14" fill="#78716c" font-weight="600">OK 具體寫出：調整環境照明、</text>
+  <text x="434" y="240" font-size="14" fill="#78716c" font-weight="600"> 增加巡視頻率至每 2 小時</text>
   <rect x="430" y="248" width="80" height="20" rx="10" fill="#f5f5f4"/>
   <text x="470" y="262" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">具體行動</text>
 
@@ -38,12 +38,12 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無法說明指標意義</text>
-  <text x="60" y="355" font-size="14" fill="#57534e">X  被委員詢問「這個指標追蹤什麼」</text>
-  <text x="60" y="375" font-size="14" fill="#57534e">X  工作人員答不出來或說「不清楚」</text>
+  <text x="213" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無法說明指標意義</text>
+  <text x="60" y="355" font-size="14" fill="#57534e">X 被委員詢問「這個指標追蹤什麼」</text>
+  <text x="60" y="375" font-size="14" fill="#57534e">X 工作人員答不出來或說「不清楚」</text>
   <line x1="56" y1="389" x2="370" y2="389" stroke="#dedad3" stroke-width="1"/>
-  <text x="60" y="407" font-size="14" fill="#57534e" font-weight="600">OK  全員了解指標定義、目標</text>
-  <text x="60" y="425" font-size="14" fill="#57534e" font-weight="600">        值與自己的追蹤責任</text>
+  <text x="60" y="407" font-size="14" fill="#57534e" font-weight="600">OK 全員了解指標定義、目標</text>
+  <text x="60" y="425" font-size="14" fill="#57534e" font-weight="600"> 值與自己的追蹤責任</text>
   <rect x="56" y="432" width="80" height="20" rx="10" fill="#f5f0eb"/>
   <text x="96" y="446" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">全員知悉</text>
 
@@ -51,12 +51,12 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
   <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
-  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無連續 3 個月記錄</text>
-  <text x="434" y="355" font-size="14" fill="#57534e">X  評鑑月才臨時補做 3 個月記錄</text>
-  <text x="434" y="375" font-size="14" fill="#57534e">X  數據格式前後不一致</text>
+  <text x="587" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG：無連續 3 個月記錄</text>
+  <text x="434" y="355" font-size="14" fill="#57534e">X 評鑑月才臨時補做 3 個月記錄</text>
+  <text x="434" y="375" font-size="14" fill="#57534e">X 數據格式前後不一致</text>
   <line x1="430" y1="389" x2="744" y2="389" stroke="#dedad3" stroke-width="1"/>
-  <text x="434" y="407" font-size="14" fill="#a8a29e" font-weight="600">OK  每月如實記錄，累積 3 個</text>
-  <text x="434" y="425" font-size="14" fill="#a8a29e" font-weight="600">        月以上連續完整數據</text>
+  <text x="434" y="407" font-size="14" fill="#a8a29e" font-weight="600">OK 每月如實記錄，累積 3 個</text>
+  <text x="434" y="425" font-size="14" fill="#a8a29e" font-weight="600"> 月以上連續完整數據</text>
   <rect x="430" y="432" width="80" height="20" rx="10" fill="#f5f5f4"/>
   <text x="470" y="446" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">持續記錄</text>
 

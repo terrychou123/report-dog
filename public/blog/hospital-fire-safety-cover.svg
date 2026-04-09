@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#fafaf9"/>
 
@@ -15,26 +16,26 @@
   <rect x="858" y="278" width="300" height="72" rx="10" fill="#ffffff"/>
   <rect x="858" y="278" width="6" height="72" rx="3" fill="#dc2626"/>
   <text x="876" y="302"  font-size="14" font-weight="700" fill="#7f1d1d">消防設備維護</text>
-  <text x="876" y="322"  font-size="12" fill="#92400e">設備完善 ▸ 定期檢查 ▸ 有紀錄</text>
-  <text x="876" y="340"  font-size="11" fill="#a8a29e">偵測器、滅火器、灑水系統、出口標示燈</text>
+  <text x="876" y="334"  font-size="14" fill="#92400e">設備完善 > 定期檢查 > 有紀錄</text>
+  <text x="876" y="340"  font-size="14" fill="#a8a29e">偵測器、滅火器、灑水系統、出口標示燈</text>
 
   <!-- 右側卡片 2：疏散演練紀錄 -->
   <rect x="858" y="362" width="300" height="72" rx="10" fill="#ffffff"/>
   <rect x="858" y="362" width="6" height="72" rx="2" fill="#d97706"/>
   <text x="876" y="386"  font-size="14" font-weight="700" fill="#44403c">疏散演練紀錄</text>
-  <text x="876" y="406"  font-size="12" fill="#57534e">年度2次 ▸ 含夜間演練 ▸ 完整紀錄</text>
-  <text x="876" y="424"  font-size="11" fill="#a8a29e">時間計測、問題清單、改善追蹤、主管簽核</text>
+  <text x="876" y="418"  font-size="14" fill="#57534e">年度2次 > 含夜間演練 > 完整紀錄</text>
+  <text x="876" y="424"  font-size="14" fill="#a8a29e">時間計測、問題清單、改善追蹤、主管簽核</text>
 
   <!-- 右側卡片 3：臥床病人疏散計畫 -->
   <rect x="858" y="446" width="300" height="72" rx="10" fill="#ffffff"/>
   <rect x="858" y="446" width="6" height="72" rx="2" fill="#78716c"/>
   <text x="876" y="470"  font-size="14" font-weight="700" fill="#44403c">臥床病人疏散計畫</text>
-  <text x="876" y="490"  font-size="12" fill="#57534e">疏散計畫 ▸ 路線圖 ▸ 可執行</text>
-  <text x="876" y="508"  font-size="11" fill="#a8a29e">滑板輔具、人員分工、行動不便病人應變</text>
+  <text x="876" y="502"  font-size="14" fill="#57534e">疏散計畫 > 路線圖 > 可執行</text>
+  <text x="876" y="508"  font-size="14" fill="#a8a29e">滑板輔具、人員分工、行動不便病人應變</text>
 
   <!-- 左側頂部標籤 -->
   <rect x="60" y="60" width="116" height="32" rx="16" fill="#dc2626"/>
-  <text x="118" y="81"  font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">必要條文</text>
+  <text x="118" y="81"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">必要條文</text>
 
   <!-- 左側主標題 -->
   <text x="60" y="170"  font-size="72" font-weight="900" fill="#1c1917">醫院消防安全</text>
@@ -48,19 +49,19 @@
 
   <!-- 特色標籤列 -->
   <rect x="60" y="354" width="88" height="30" rx="15" fill="#fee2e2"/>
-  <text x="104" y="374"  font-size="13" fill="#dc2626" text-anchor="middle">必要條文</text>
+  <text x="104" y="374"  font-size="14" fill="#dc2626" text-anchor="middle">必要條文</text>
 
   <rect x="158" y="354" width="88" height="30" rx="15" fill="#fef3c7"/>
-  <text x="202" y="374"  font-size="13" fill="#92400e" text-anchor="middle">夜間演練</text>
+  <text x="202" y="374"  font-size="14" fill="#92400e" text-anchor="middle">夜間演練</text>
 
   <rect x="256" y="354" width="88" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="300" y="374"  font-size="13" fill="#44403c" text-anchor="middle">疏散計畫</text>
+  <text x="300" y="374"  font-size="14" fill="#44403c" text-anchor="middle">疏散計畫</text>
 
   <rect x="354" y="354" width="88" height="30" rx="15" fill="#f0fdf4"/>
-  <text x="398" y="374"  font-size="13" fill="#15803d" text-anchor="middle">定期追蹤</text>
+  <text x="398" y="374"  font-size="14" fill="#15803d" text-anchor="middle">定期追蹤</text>
 
   <rect x="452" y="354" width="88" height="30" rx="15" fill="#ffe4e6"/>
-  <text x="496" y="374"  font-size="13" fill="#be123c" text-anchor="middle">實地查核</text>
+  <text x="496" y="374"  font-size="14" fill="#be123c" text-anchor="middle">實地查核</text>
 
   <!-- 底部說明文字 -->
   <text x="60" y="440"  font-size="16" fill="#57534e">評鑑委員資料查核＋實地查核雙管齊下，</text>
@@ -71,5 +72,5 @@
   <circle cx="760" cy="480" r="35" fill="#d97706" opacity="0.08"/>
 
   <!-- 浮水印 -->
-  <text x="600" y="612"  font-size="13" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
+  <text x="600" y="612"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.7">報告汪 reportwang.com</text>
 </svg>

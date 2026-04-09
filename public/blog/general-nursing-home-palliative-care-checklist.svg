@@ -24,7 +24,7 @@
   <text x="350" y="163" font-size="14" fill="#334155">• 入住說明書（含安寧療護說明）</text>
   <text x="350" y="183" font-size="14" fill="#334155">• 安寧療護衛教資料（書面/影片）</text>
   <text x="350" y="203" font-size="14" fill="#334155">• 住民/家屬簽收紀錄</text>
-  <text x="690" y="178" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="900">✓</text>
+  <text x="690" y="178" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="900">[v]</text>
 
   <!-- 第2類 -->
   <rect x="40" y="215" width="720" height="70" rx="4" fill="#f0fdf4"/>
@@ -34,7 +34,7 @@
   <text x="350" y="238" font-size="14" fill="#334155">• 住民意願記錄表（每位住民）</text>
   <text x="350" y="258" font-size="14" fill="#334155">• 轉介記錄（有意願者的轉介過程）</text>
   <text x="350" y="278" font-size="14" fill="#334155">• AD 完成影本（完成者附）</text>
-  <text x="690" y="253" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="900">✓</text>
+  <text x="690" y="253" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="900">[v]</text>
 
   <!-- 第3類 -->
   <rect x="40" y="290" width="720" height="70" rx="4" fill="#fdf4ff"/>
@@ -44,7 +44,7 @@
   <text x="350" y="313" font-size="14" fill="#334155">• 安寧療護訓練計畫書（年度）</text>
   <text x="350" y="333" font-size="14" fill="#334155">• 訓練出席記錄（含簽到表）</text>
   <text x="350" y="353" font-size="14" fill="#334155">• 訓練教材/課程表</text>
-  <text x="690" y="328" font-size="20" fill="#d97706" text-anchor="middle" font-weight="900">△</text>
+  <text x="690" y="328" font-size="20" fill="#d97706" text-anchor="middle" font-weight="900">^</text>
 
   <!-- 第4類 -->
   <rect x="40" y="365" width="720" height="70" rx="4" fill="#fffbeb"/>
@@ -54,10 +54,10 @@
   <text x="350" y="388" font-size="14" fill="#334155">• 轉介流程書面化文件（SOP）</text>
   <text x="350" y="408" font-size="14" fill="#334155">• 合作醫療機構聯絡名單（含合約）</text>
   <text x="350" y="428" font-size="14" fill="#334155">• 轉介個案追蹤記錄</text>
-  <text x="690" y="403" font-size="20" fill="#dc2626" text-anchor="middle" font-weight="900">✗</text>
+  <text x="690" y="403" font-size="20" fill="#dc2626" text-anchor="middle" font-weight="900">[x]</text>
 
   <!-- 圖例 -->
-  <text x="500" y="460" font-size="14" fill="#475569">✓ 已備齊　△ 部分備齊　✗ 尚未備齊</text>
+  <text x="500" y="460" font-size="14" fill="#475569">[v] 已備齊　^ 部分備齊　[x] 尚未備齊</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

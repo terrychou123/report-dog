@@ -7,16 +7,16 @@
   <!-- 右側卡片 -->
   <rect x="840" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="335" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">ISP紀錄</text>
-  <text x="918" y="362" font-size="20" fill="#a8a29e" text-anchor="middle">每2週必填</text>
+  <text x="918" y="367" font-size="20" fill="#a8a29e" text-anchor="middle">每2週必填</text>
   <rect x="1005" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="335" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">消防安全</text>
-  <text x="1083" y="362" font-size="20" fill="#a8a29e" text-anchor="middle">核心指標</text>
+  <text x="1083" y="367" font-size="20" fill="#a8a29e" text-anchor="middle">核心指標</text>
   <rect x="840" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="918" y="431" font-size="26" fill="#57534e" text-anchor="middle" font-weight="700">人力計算</text>
-  <text x="918" y="458" font-size="20" fill="#a8a29e" text-anchor="middle">月均值規定</text>
+  <text x="918" y="463" font-size="20" fill="#a8a29e" text-anchor="middle">月均值規定</text>
   <rect x="1005" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1083" y="431" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">平台填報</text>
-  <text x="1083" y="458" font-size="20" fill="#a8a29e" text-anchor="middle">定期更新</text>
+  <text x="1083" y="463" font-size="20" fill="#a8a29e" text-anchor="middle">定期更新</text>
   <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="524" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">對照109年度評鑑指標</text>
   <!-- 左側 -->

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">品質持續改善 PDCA 循環</text>
@@ -15,10 +15,10 @@
   <rect x="60" y="130" width="220" height="120" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="60" y="130" width="220" height="44" rx="12" fill="#d97706"/>
   <rect x="60" y="154" width="220" height="20" fill="#d97706"/>
-  <text x="170" y="171" text-anchor="middle" font-size="20" fill="white" font-weight="700">P — 計畫</text>
-  <text x="80" y="195" font-size="13" fill="#57534e">• A3 業務計畫訂定</text>
-  <text x="80" y="213" font-size="13" fill="#57534e">• A6 危機管理分析</text>
-  <text x="80" y="231" font-size="13" fill="#57534e">• B2 個案計畫初評</text>
+  <text x="170" y="159" text-anchor="middle" font-size="20" fill="white" font-weight="700">P — 計畫</text>
+  <text x="80" y="195" font-size="14" fill="#57534e">• A3 業務計畫訂定</text>
+  <text x="80" y="213" font-size="14" fill="#57534e">• A6 危機管理分析</text>
+  <text x="80" y="231" font-size="14" fill="#57534e">• B2 個案計畫初評</text>
 
   <!-- 箭頭 P→D -->
   <path d="M 280 190 Q 340 180 370 240" stroke="#d97706" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
@@ -28,10 +28,10 @@
   <rect x="520" y="130" width="220" height="120" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="520" y="130" width="220" height="44" rx="12" fill="#78716c"/>
   <rect x="520" y="154" width="220" height="20" fill="#78716c"/>
-  <text x="630" y="171" text-anchor="middle" font-size="20" fill="white" font-weight="700">D — 執行</text>
-  <text x="540" y="195" font-size="13" fill="#57534e">• B1 品質會議運作</text>
-  <text x="540" y="213" font-size="13" fill="#57534e">• B5 跨專業聯繫會</text>
-  <text x="540" y="231" font-size="13" fill="#57534e">• 各項照護實際落實</text>
+  <text x="630" y="159" text-anchor="middle" font-size="20" fill="white" font-weight="700">D — 執行</text>
+  <text x="540" y="195" font-size="14" fill="#57534e">• B1 品質會議運作</text>
+  <text x="540" y="213" font-size="14" fill="#57534e">• B5 跨專業聯繫會</text>
+  <text x="540" y="231" font-size="14" fill="#57534e">• 各項照護實際落實</text>
 
   <!-- 箭頭 D→C -->
   <path d="M 520 260 Q 460 280 430 310" stroke="#78716c" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
@@ -41,9 +41,9 @@
   <rect x="520" y="360" width="220" height="110" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="520" y="360" width="220" height="44" rx="12" fill="#57534e"/>
   <rect x="520" y="384" width="220" height="20" fill="#57534e"/>
-  <text x="630" y="401" text-anchor="middle" font-size="20" fill="white" font-weight="700">C — 查核</text>
-  <text x="540" y="423" font-size="13" fill="#57534e">• B13/B14/B17 逐案分析</text>
-  <text x="540" y="441" font-size="13" fill="#57534e">• E1 前次建議改善追蹤</text>
+  <text x="630" y="389" text-anchor="middle" font-size="20" fill="white" font-weight="700">C — 查核</text>
+  <text x="540" y="423" font-size="14" fill="#57534e">• B13/B14/B17 逐案分析</text>
+  <text x="540" y="441" font-size="14" fill="#57534e">• E1 前次建議改善追蹤</text>
 
   <!-- 箭頭 C→A -->
   <path d="M 520 410 Q 460 420 430 370" stroke="#57534e" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
@@ -53,9 +53,9 @@
   <rect x="60" y="360" width="220" height="110" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="60" y="360" width="220" height="44" rx="12" fill="#94a3b8"/>
   <rect x="60" y="384" width="220" height="20" fill="#94a3b8"/>
-  <text x="170" y="401" text-anchor="middle" font-size="20" fill="white" font-weight="700">A — 改善</text>
-  <text x="80" y="423" font-size="13" fill="#57534e">• A4 缺失改善 100%</text>
-  <text x="80" y="441" font-size="13" fill="#57534e">• E2 創新措施推動</text>
+  <text x="170" y="389" text-anchor="middle" font-size="20" fill="white" font-weight="700">A — 改善</text>
+  <text x="80" y="423" font-size="14" fill="#57534e">• A4 缺失改善 100%</text>
+  <text x="80" y="441" font-size="14" fill="#57534e">• E2 創新措施推動</text>
 
   <!-- 箭頭 A→P -->
   <path d="M 170 360 Q 170 290 220 220" stroke="#94a3b8" stroke-width="2" fill="none" stroke-dasharray="5,3"/>

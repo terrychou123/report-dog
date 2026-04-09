@@ -3,13 +3,13 @@
 
   <!-- Header -->
   <rect x="0" y="38" width="800" height="90" fill="white"/>
-  <rect x="0" y="38" width="6" height="90" fill="#57534e" rx="2"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
   <text x="28" y="90" font-size="32" fill="#1e293b" font-weight="700">感染管制三要點（指標58-60）</text>
   <text x="28" y="118" font-size="17" fill="#78716c">手冊須為疾管署最新版本（指標60）</text>
 
   <!-- Row 0：手部衛生 y=166 -->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">手部衛生（指標58）</text>
@@ -21,7 +21,7 @@
 
   <!-- Row 1：隔離程序 y=269 -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">隔離程序（指標59）</text>
@@ -33,12 +33,12 @@
 
   <!-- Row 2：手冊最新版本 y=372 -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">感染管制手冊（指標60）</text>
   <text x="100" y="432" font-size="16" fill="#57534e">感染管制手冊須依疾管署最新版本更新，封面標示版本日期，定期確認是否有新版</text>
-  <text x="100" y="452" font-size="14" fill="#57534e">委員查核：查閱手冊版本頁，確認與疾管署現行版一致；過期版本為扣分項</text>
+  <text x="100" y="452" font-size="16" fill="#57534e">委員查核：查閱手冊版本頁，確認與疾管署現行版一致；過期版本為扣分項</text>
   <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="407" font-size="16" fill="#57534e" text-anchor="middle">疾管署</text>
   <text x="688" y="427" font-size="16" fill="#57534e" text-anchor="middle">最新版本</text>

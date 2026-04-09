@@ -4,7 +4,7 @@
   <rect width="800" height="6" fill="#7c3aed"/>
 
   <!-- 標題 -->
-  <text x="400" y="42" font-size="21" fill="#6d28d9" font-weight="bold" text-anchor="middle">年度在職訓練計畫表範例（每年≥16小時）</text>
+  <text x="400" y="42" font-size="21" fill="#6d28d9" font-weight="bold" text-anchor="middle">年度在職訓練計畫表範例（每年>=16小時）</text>
 
   <!-- 表頭 -->
   <rect x="20" y="58" width="760" height="36" fill="#7c3aed" rx="6"/>

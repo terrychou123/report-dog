@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
@@ -10,38 +11,38 @@
   <!-- 列1：114-115年 建立基礎 -->
   <rect x="38" y="122" width="724" height="82" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="122" width="10" height="82" rx="5" fill="#d97706"/>
-  <text x="68" y="153" font-size="17" font-weight="700" fill="#d97706">114-115年  建立基礎</text>
+  <text x="68" y="153" font-size="17" font-weight="700" fill="#d97706">114-115年 建立基礎</text>
   <text x="68" y="175" font-size="14" fill="#1c1917">建立月度品管例行作業、導入AI輔助工具、確認必要條文全部符合</text>
-  <text x="68" y="195" font-size="13" fill="#78716c">打穩6年品管的制度地基，讓月例會與自我查核成為習慣</text>
+  <text x="68" y="195" font-size="14" fill="#78716c">打穩6年品管的制度地基，讓月例會與自我查核成為習慣</text>
   <rect x="634" y="140" width="92" height="30" rx="15" fill="#fef3c7"/>
-  <text x="680" y="160" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">打穩基礎</text>
+  <text x="680" y="160" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">打穩基礎</text>
 
   <!-- 列2：115-116年 優化系統 -->
   <rect x="38" y="215" width="724" height="82" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="215" width="10" height="82" rx="5" fill="#78716c"/>
-  <text x="68" y="246" font-size="17" font-weight="700" fill="#78716c">115-116年  優化系統</text>
+  <text x="68" y="246" font-size="17" font-weight="700" fill="#78716c">115-116年 優化系統</text>
   <text x="68" y="268" font-size="14" fill="#1c1917">月度品質報告標準化、跨部門品管協作機制成熟、AI自我查核定期化</text>
-  <text x="68" y="288" font-size="13" fill="#78716c">從試行走向標準化，各單位品管工作整合協調</text>
+  <text x="68" y="288" font-size="14" fill="#78716c">從試行走向標準化，各單位品管工作整合協調</text>
   <rect x="634" y="233" width="92" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="680" y="253" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">系統優化</text>
+  <text x="680" y="253" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">系統優化</text>
 
   <!-- 列3：116-117年 深化品質 -->
   <rect x="38" y="308" width="724" height="82" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="308" width="10" height="82" rx="5" fill="#57534e"/>
-  <text x="68" y="339" font-size="17" font-weight="700" fill="#57534e">116-117年  深化品質</text>
+  <text x="68" y="339" font-size="17" font-weight="700" fill="#57534e">116-117年 深化品質</text>
   <text x="68" y="361" font-size="14" fill="#1c1917">品質指標長趨勢分析、品管文化全院扎根、重點改善計畫完成追蹤</text>
-  <text x="68" y="381" font-size="13" fill="#78716c">3年品管軌跡已形成，開始展現持續改善的具體成果</text>
+  <text x="68" y="381" font-size="14" fill="#78716c">3年品管軌跡已形成，開始展現持續改善的具體成果</text>
   <rect x="634" y="326" width="92" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="680" y="346" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">深化品質</text>
+  <text x="680" y="346" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">深化品質</text>
 
   <!-- 列4：117-118年 評鑑準備 -->
   <rect x="38" y="401" width="724" height="72" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="401" width="10" height="72" rx="5" fill="#a8a29e"/>
-  <text x="68" y="428" font-size="17" font-weight="700" fill="#a8a29e">117-118年  評鑑準備</text>
+  <text x="68" y="428" font-size="17" font-weight="700" fill="#a8a29e">117-118年 評鑑準備</text>
   <text x="68" y="450" font-size="14" fill="#1c1917">評鑑前全面自我查核、確認6年來的品管軌跡文書完整、最後衝刺備審</text>
   <rect x="634" y="415" width="92" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="680" y="435" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="700">完整備審</text>
+  <text x="680" y="435" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">完整備審</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480" text-anchor="middle" font-size="14" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

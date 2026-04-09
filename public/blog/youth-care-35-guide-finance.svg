@@ -18,22 +18,22 @@
 
   <!-- 查核1 -->
   <rect x="48" y="165" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="180" font-size="17" fill="#16a34a" font-weight="700">① 衛福部社家署 109 年</text>
+  <text x="68" y="180" font-size="17" fill="#16a34a" font-weight="700">1 衛福部社家署 109 年</text>
   <text x="68" y="200" font-size="15" fill="#57534e">全國性財務查核</text>
 
   <!-- 查核2 -->
   <rect x="48" y="225" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="240" font-size="17" fill="#16a34a" font-weight="700">② 地方主管機關 110 年</text>
+  <text x="68" y="240" font-size="17" fill="#16a34a" font-weight="700">2 地方主管機關 110 年</text>
   <text x="68" y="260" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 查核3 -->
   <rect x="48" y="285" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="300" font-size="17" fill="#16a34a" font-weight="700">③ 地方主管機關 111 年</text>
+  <text x="68" y="300" font-size="17" fill="#16a34a" font-weight="700">3 地方主管機關 111 年</text>
   <text x="68" y="320" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 查核4 -->
   <rect x="48" y="345" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="360" font-size="17" fill="#16a34a" font-weight="700">④ 地方主管機關 112 年</text>
+  <text x="68" y="360" font-size="17" fill="#16a34a" font-weight="700">4 地方主管機關 112 年</text>
   <text x="68" y="380" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 右側：計分說明 -->

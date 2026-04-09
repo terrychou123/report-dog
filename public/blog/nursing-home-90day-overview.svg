@@ -10,8 +10,8 @@
   <rect x="40" y="116" width="220" height="300" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
   <rect x="40" y="116" width="220" height="52" rx="12" fill="#d97706"/>
   <rect x="40" y="148" width="220" height="20" fill="#d97706"/>
-  <text x="150" y="134" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">第一個月</text>
-  <text x="150" y="152" font-size="14" fill="#fff8e7" text-anchor="middle">D-90 到 D-60</text>
+  <text x="150" y="125" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">第一個月</text>
+  <text x="150" y="160" font-size="14" fill="#fff8e7" text-anchor="middle">D-90 到 D-60</text>
   <text x="60" y="198" font-size="15" fill="#57534e" font-weight="700">打好地基</text>
   <text x="60" y="222" font-size="14" fill="#57534e">A 構面文件盤點</text>
   <text x="60" y="244" font-size="14" fill="#57534e">A1/A3/A5/A6</text>
@@ -26,8 +26,8 @@
   <rect x="290" y="116" width="220" height="300" rx="12" fill="#f0fdf4" stroke="#78716c" stroke-width="2"/>
   <rect x="290" y="116" width="220" height="52" rx="12" fill="#78716c"/>
   <rect x="290" y="148" width="220" height="20" fill="#78716c"/>
-  <text x="400" y="134" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">第二個月</text>
-  <text x="400" y="152" font-size="14" fill="#e2e8f0" text-anchor="middle">D-60 到 D-30</text>
+  <text x="400" y="125" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">第二個月</text>
+  <text x="400" y="160" font-size="14" fill="#e2e8f0" text-anchor="middle">D-60 到 D-30</text>
   <text x="310" y="198" font-size="15" fill="#57534e" font-weight="700">補強核心文件</text>
   <text x="310" y="222" font-size="14" fill="#57534e">個案服務計畫核對</text>
   <text x="310" y="244" font-size="14" fill="#57534e">B2 全部住民逐案查</text>
@@ -42,8 +42,8 @@
   <rect x="540" y="116" width="220" height="300" rx="12" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
   <rect x="540" y="116" width="220" height="52" rx="12" fill="#57534e"/>
   <rect x="540" y="148" width="220" height="20" fill="#57534e"/>
-  <text x="650" y="134" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">最後一個月</text>
-  <text x="650" y="152" font-size="14" fill="#e2e8f0" text-anchor="middle">D-30 到評鑑日</text>
+  <text x="650" y="125" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">最後一個月</text>
+  <text x="650" y="160" font-size="14" fill="#e2e8f0" text-anchor="middle">D-30 到評鑑日</text>
   <text x="560" y="198" font-size="15" fill="#57534e" font-weight="700">查漏補缺衝刺</text>
   <text x="560" y="222" font-size="14" fill="#57534e">契約審閱期確認</text>
   <text x="560" y="244" font-size="14" fill="#57534e">D2 五天審閱期</text>

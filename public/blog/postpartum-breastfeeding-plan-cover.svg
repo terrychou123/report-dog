@@ -10,24 +10,24 @@
 
   <!-- 右側 5 個基準清單 -->
   <rect x="840" y="279" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="301" font-size="20" fill="#16a34a" font-weight="700">① </text>
-  <text x="882" y="301" font-size="20" fill="#57534e">哺乳意願評估 + 個別化計畫</text>
+  <text x="858" y="293" font-size="20" fill="#16a34a" font-weight="700">1 </text>
+  <text x="882" y="324" font-size="20" fill="#57534e">哺乳意願評估 + 個別化計畫</text>
 
   <rect x="840" y="329" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="351" font-size="20" fill="#16a34a" font-weight="700">② </text>
-  <text x="882" y="351" font-size="20" fill="#57534e">含乳姿勢 + 哺乳頻率指導</text>
+  <text x="858" y="343" font-size="20" fill="#16a34a" font-weight="700">2 </text>
+  <text x="882" y="374" font-size="20" fill="#57534e">含乳姿勢 + 哺乳頻率指導</text>
 
   <rect x="840" y="379" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="401" font-size="20" fill="#16a34a" font-weight="700">③ </text>
-  <text x="882" y="401" font-size="20" fill="#57534e">嬰兒哺乳 + 體重追蹤記錄</text>
+  <text x="858" y="393" font-size="20" fill="#16a34a" font-weight="700">3 </text>
+  <text x="882" y="424" font-size="20" fill="#57534e">嬰兒哺乳 + 體重追蹤記錄</text>
 
   <rect x="840" y="429" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="451" font-size="20" fill="#16a34a" font-weight="700">④ </text>
-  <text x="882" y="451" font-size="20" fill="#57534e">配方奶沖泡保存 SOP</text>
+  <text x="858" y="443" font-size="20" fill="#16a34a" font-weight="700">4 </text>
+  <text x="882" y="474" font-size="20" fill="#57534e">配方奶沖泡保存 SOP</text>
 
   <rect x="840" y="479" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="501" font-size="20" fill="#16a34a" font-weight="700">⑤ </text>
-  <text x="882" y="501" font-size="20" fill="#57534e">純母乳哺育率統計（每季）</text>
+  <text x="858" y="493" font-size="20" fill="#16a34a" font-weight="700">5 </text>
+  <text x="882" y="524" font-size="20" fill="#57534e">純母乳哺育率統計（每季）</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="533" width="320" height="52" rx="10" fill="#16a34a" opacity="0.10"/>

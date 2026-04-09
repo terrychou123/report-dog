@@ -25,7 +25,7 @@
 
   <rect x="420" y="170" width="340" height="56" rx="8" fill="white" stroke="#d97706" stroke-width="1"/>
   <text x="440" y="188" font-size="18" fill="#d97706" font-weight="700">AI 生成初稿</text>
-  <text x="440" y="208" font-size="16" fill="#57534e">輸入評估→初稿 5 分鐘，修改 5 分鐘</text>
+  <text x="440" y="208" font-size="16" fill="#57534e">輸入評估-初稿 5 分鐘，修改 5 分鐘</text>
 
   <!-- 項目 2：訓練記錄 -->
   <rect x="40" y="238" width="340" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -52,7 +52,7 @@
 
   <rect x="420" y="374" width="340" height="56" rx="8" fill="white" stroke="#d97706" stroke-width="1"/>
   <text x="440" y="392" font-size="18" fill="#d97706" font-weight="700">AI 自動比對缺失</text>
-  <text x="440" y="412" font-size="16" fill="#57534e">上傳文件→秒出缺失清單</text>
+  <text x="440" y="412" font-size="16" fill="#57534e">上傳文件-秒出缺失清單</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

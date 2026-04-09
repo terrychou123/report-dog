@@ -20,7 +20,7 @@
   <text x="810" y="239"  font-size="24" fill="#a8a29e" text-anchor="middle">散落、費時</text>
   <text x="960" y="220"  font-size="48" fill="#d97706" text-anchor="middle">&#8594;</text>
   <rect x="1000" y="150" width="160" height="120" rx="14" fill="#d97706"/>
-  <text x="1080" y="183"  font-size="32" fill="#ffffff" text-anchor="middle">雲端</text>
+  <text x="1080" y="206"  font-size="32" fill="#ffffff" text-anchor="middle">雲端</text>
   <text x="1080" y="239"  font-size="24" fill="#fff3cd" text-anchor="middle">即找即用</text>
   <!-- 下方文字 -->
   <text x="860" y="340"  font-size="22" fill="#57534e" text-anchor="middle">評鑑前夕不再慌亂</text>

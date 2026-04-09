@@ -15,34 +15,34 @@
   <rect x="40" y="160" width="720" height="62" rx="4" fill="#fff"/>
   <rect x="40" y="160" width="4" height="62" fill="#d97706"/>
   <text x="56" y="185" font-size="15" fill="#1e293b" font-weight="600">每日下床 2 次</text>
-  <text x="56" y="207" font-size="13" fill="#57534e">協助可移動服務對象，每天至少 2 次，有安全評估</text>
-  <text x="420" y="185" font-size="13" fill="#57534e">下床時間紀錄</text>
-  <text x="420" y="207" font-size="13" fill="#57534e">輔具使用記載</text>
-  <text x="630" y="197" font-size="13" fill="#57534e">可移動住民</text>
+  <text x="56" y="207" font-size="14" fill="#57534e">協助可移動服務對象，每天至少 2 次，有安全評估</text>
+  <text x="420" y="185" font-size="14" fill="#57534e">下床時間紀錄</text>
+  <text x="420" y="207" font-size="14" fill="#57534e">輔具使用記載</text>
+  <text x="630" y="197" font-size="14" fill="#57534e">可移動住民</text>
 
   <!-- 第2行 -->
   <rect x="40" y="235" width="720" height="62" rx="4" fill="#fafaf8"/>
   <rect x="40" y="235" width="4" height="62" fill="#78716c"/>
   <text x="56" y="260" font-size="15" fill="#1e293b" font-weight="600">意識不清者每日下床 1 次</text>
-  <text x="56" y="282" font-size="13" fill="#57534e">意識不清或昏迷住民，每天至少下床 1 次</text>
-  <text x="420" y="272" font-size="13" fill="#57534e">下床紀錄含狀態觀察</text>
-  <text x="630" y="272" font-size="13" fill="#57534e">意識不清住民</text>
+  <text x="56" y="282" font-size="14" fill="#57534e">意識不清或昏迷住民，每天至少下床 1 次</text>
+  <text x="420" y="272" font-size="14" fill="#57534e">下床紀錄含狀態觀察</text>
+  <text x="630" y="272" font-size="14" fill="#57534e">意識不清住民</text>
 
   <!-- 第3行 -->
   <rect x="40" y="310" width="720" height="62" rx="4" fill="#fff"/>
   <rect x="40" y="310" width="4" height="62" fill="#d97706"/>
   <text x="56" y="335" font-size="15" fill="#1e293b" font-weight="600">被動式肢體活動（重度失能）</text>
-  <text x="56" y="357" font-size="13" fill="#57534e">ADL60分以下或CMS7級以上，每日被動肢體活動（依PT/OT評估）</text>
-  <text x="420" y="347" font-size="13" fill="#57534e">活動執行紀錄</text>
-  <text x="630" y="347" font-size="13" fill="#57534e">重度失能住民</text>
+  <text x="56" y="357" font-size="14" fill="#57534e">ADL60分以下或CMS7級以上，每日被動肢體活動（依PT/OT評估）</text>
+  <text x="420" y="347" font-size="14" fill="#57534e">活動執行紀錄</text>
+  <text x="630" y="347" font-size="14" fill="#57534e">重度失能住民</text>
 
   <!-- 第4行 -->
   <rect x="40" y="385" width="720" height="62" rx="4" fill="#fafaf8"/>
   <rect x="40" y="385" width="4" height="62" fill="#78716c"/>
   <text x="56" y="410" font-size="15" fill="#1e293b" font-weight="600">感官刺激與認知訓練</text>
-  <text x="56" y="432" font-size="13" fill="#57534e">依重度失能住民需求，提供規律感官刺激、認知功能訓練（安養不適用）</text>
-  <text x="420" y="422" font-size="13" fill="#57534e">計畫性訓練紀錄</text>
-  <text x="630" y="422" font-size="13" fill="#57534e">重度失能住民</text>
+  <text x="56" y="432" font-size="14" fill="#57534e">依重度失能住民需求，提供規律感官刺激、認知功能訓練（安養不適用）</text>
+  <text x="420" y="422" font-size="14" fill="#57534e">計畫性訓練紀錄</text>
+  <text x="630" y="422" font-size="14" fill="#57534e">重度失能住民</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

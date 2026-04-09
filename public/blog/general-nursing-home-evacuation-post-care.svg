@@ -19,7 +19,7 @@
   <text x="95" y="278" font-size="14" text-anchor="middle" fill="#93c5fd">空曠安全</text>
   <text x="95" y="296" font-size="14" text-anchor="middle" fill="#93c5fd">遠離火源</text>
   <!-- 箭頭 -->
-  <text x="175" y="274" font-size="28" fill="#d97706" text-anchor="middle">→</text>
+  <text x="175" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 2 -->
   <rect x="188" y="84" width="142" height="370" rx="12" fill="#d97706" opacity="0.85"/>
   <circle cx="259" cy="118" r="26" fill="#ffffff"/>
@@ -33,7 +33,7 @@
   <text x="259" y="278" font-size="14" text-anchor="middle" fill="#fde68a">非計總人數</text>
   <text x="259" y="296" font-size="14" text-anchor="middle" fill="#fde68a">缺漏立即回報</text>
   <!-- 箭頭 -->
-  <text x="338" y="274" font-size="28" fill="#d97706" text-anchor="middle">→</text>
+  <text x="338" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 3 -->
   <rect x="352" y="84" width="142" height="370" rx="12" fill="#1e40af" opacity="0.85"/>
   <circle cx="423" cy="118" r="26" fill="#ffffff"/>
@@ -48,7 +48,7 @@
   <text x="423" y="296" font-size="14" text-anchor="middle" fill="#93c5fd">胰島素</text>
   <text x="423" y="314" font-size="14" text-anchor="middle" fill="#93c5fd">不可中斷藥物</text>
   <!-- 箭頭 -->
-  <text x="503" y="274" font-size="28" fill="#d97706" text-anchor="middle">→</text>
+  <text x="503" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 4 -->
   <rect x="516" y="84" width="142" height="370" rx="12" fill="#d97706" opacity="0.85"/>
   <circle cx="587" cy="118" r="26" fill="#ffffff"/>
@@ -62,7 +62,7 @@
   <text x="587" y="296" font-size="14" text-anchor="middle" fill="#fde68a">可攜式氧氣</text>
   <text x="587" y="314" font-size="14" text-anchor="middle" fill="#fde68a">必要時緊急送醫</text>
   <!-- 箭頭 -->
-  <text x="667" y="274" font-size="28" fill="#d97706" text-anchor="middle">→</text>
+  <text x="667" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 5 -->
   <rect x="680" y="84" width="96" height="370" rx="12" fill="#1e40af" opacity="0.85"/>
   <circle cx="728" cy="118" r="26" fill="#ffffff"/>

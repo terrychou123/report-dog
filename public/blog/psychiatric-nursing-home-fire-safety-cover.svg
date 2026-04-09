@@ -32,20 +32,20 @@
   <!-- 2×2 卡片 -->
   <!-- 卡片1 -->
   <rect x="820" y="275" width="170" height="80" rx="10" fill="white"/>
-  <text x="905" y="301" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" >C1.1 避難系統</text>
-  <text x="905" y="329" font-size="16" fill="#1e293b" text-anchor="middle" >試扣分</text>
+  <text x="905" y="305" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" >C1.1 避難系統</text>
+  <text x="905" y="336" font-size="16" fill="#1e293b" text-anchor="middle" >試扣分</text>
   <!-- 卡片2 -->
   <rect x="1005" y="275" width="170" height="80" rx="10" fill="white"/>
-  <text x="1090" y="301" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" >C1.2</text>
-  <text x="1090" y="329" font-size="16" fill="#1e293b" text-anchor="middle" >火災應變</text>
+  <text x="1090" y="305" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" >C1.2</text>
+  <text x="1090" y="336" font-size="16" fill="#1e293b" text-anchor="middle" >火災應變</text>
   <!-- 卡片3 -->
   <rect x="820" y="368" width="170" height="80" rx="10" fill="white"/>
-  <text x="905" y="394" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" >C1.3</text>
-  <text x="905" y="422" font-size="16" fill="#1e293b" text-anchor="middle" >夜間演練</text>
+  <text x="905" y="398" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700" >C1.3</text>
+  <text x="905" y="429" font-size="16" fill="#1e293b" text-anchor="middle" >夜間演練</text>
   <!-- 卡片4 -->
   <rect x="1005" y="368" width="170" height="80" rx="10" fill="white"/>
-  <text x="1090" y="393" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" >等待救接空間</text>
-  <text x="1090" y="421" font-size="16" fill="#1e293b" text-anchor="middle" >各樓層2處</text>
+  <text x="1090" y="398" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700" >等待救接空間</text>
+  <text x="1090" y="429" font-size="16" fill="#1e293b" text-anchor="middle" >各樓層2處</text>
 
   <!-- 底部說明 -->
   <text x="1000" y="510" font-size="20" fill="#57534e" text-anchor="middle" >C面向不符合即試扣分</text>

@@ -13,51 +13,51 @@
   <rect x="30" y="100" width="740" height="60" rx="6" fill="white"/>
   <rect x="30" y="100" width="6" height="60" rx="2" fill="#d97706"/>
   <circle cx="66" cy="130" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="135" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >1</text>
+  <text x="66" y="135" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >1</text>
   <text x="100" y="123" font-size="17" font-weight="bold" fill="#1e293b" >消防安全設備申報紀錄（C9）</text>
-  <text x="100" y="145" font-size="13" fill="#57534e" >確認近5年申報紀錄完整；最近一次半年檢修報告書已備查；建築公安申報合格</text>
+  <text x="100" y="145" font-size="16" fill="#57534e" >確認近5年申報紀錄完整；最近一次半年檢修報告書已備查；建築公安申報合格</text>
   <rect x="620" y="111" width="136" height="38" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="135" font-size="13" fill="#dc2626" text-anchor="middle" >優先確認</text>
+  <text x="688" y="135" font-size="14" fill="#dc2626" text-anchor="middle" >優先確認</text>
 
   <!-- Row 2 -->
   <rect x="30" y="173" width="740" height="60" rx="6" fill="white"/>
   <rect x="30" y="173" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="66" cy="203" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="208" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >2</text>
+  <text x="66" y="208" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >2</text>
   <text x="100" y="196" font-size="17" font-weight="bold" fill="#1e293b" >疏散避難系統實地確認（C10）</text>
-  <text x="100" y="218" font-size="13" fill="#57534e" >走道/防火門無雜物；雙向逃生路徑暢通；排煙設備連動測試正常；防火門可雙向開</text>
+  <text x="100" y="218" font-size="16" fill="#57534e" >走道/防火門無雜物；雙向逃生路徑暢通；排煙設備連動測試正常；防火門可雙向開</text>
   <rect x="620" y="184" width="136" height="38" rx="8" fill="#fffbeb" opacity="0.12"/>
-  <text x="688" y="208" font-size="13" fill="#d97706" text-anchor="middle" >現場巡查</text>
+  <text x="688" y="208" font-size="14" fill="#d97706" text-anchor="middle" >現場巡查</text>
 
   <!-- Row 3 -->
   <rect x="30" y="246" width="740" height="60" rx="6" fill="white"/>
   <rect x="30" y="246" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="66" cy="276" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="281" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >3</text>
+  <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >3</text>
   <text x="100" y="269" font-size="17" font-weight="bold" fill="#1e293b" >年度演練計畫與記錄（C11）</text>
-  <text x="100" y="291" font-size="13" fill="#57534e" >複合型演練＋夜間演練各1次紀錄；演練後檢討會議記錄；修正版應變計畫</text>
+  <text x="100" y="291" font-size="16" fill="#57534e" >複合型演練＋夜間演練各1次紀錄；演練後檢討會議記錄；修正版應變計畫</text>
   <rect x="620" y="257" width="136" height="38" rx="8" fill="#f0fdf4" opacity="0.12"/>
-  <text x="688" y="281" font-size="13" fill="#0d9488" text-anchor="middle" >文件備齊</text>
+  <text x="688" y="281" font-size="14" fill="#0d9488" text-anchor="middle" >文件備齊</text>
 
   <!-- Row 4 -->
   <rect x="30" y="319" width="740" height="60" rx="6" fill="white"/>
   <rect x="30" y="319" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="349" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="354" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >4</text>
+  <text x="66" y="354" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >4</text>
   <text x="100" y="342" font-size="17" font-weight="bold" fill="#1e293b" >逃生圖與外籍人員訓練（C12）</text>
-  <text x="100" y="364" font-size="13" fill="#57534e" >各樓層A3以上逃生圖更新至最新版；外籍看護工防災訓練紀錄有簽到表</text>
+  <text x="100" y="364" font-size="16" fill="#57534e" >各樓層A3以上逃生圖更新至最新版；外籍看護工防災訓練紀錄有簽到表</text>
   <rect x="620" y="330" width="136" height="38" rx="8" fill="#fafaf9" opacity="0.12"/>
-  <text x="688" y="354" font-size="13" fill="#78716c" text-anchor="middle" >實地貼查</text>
+  <text x="688" y="354" font-size="14" fill="#78716c" text-anchor="middle" >實地貼查</text>
 
   <!-- Row 5 -->
   <rect x="30" y="392" width="740" height="60" rx="6" fill="white"/>
   <rect x="30" y="392" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="422" r="16" fill="#94a3b8" opacity="0.15"/>
-  <text x="66" y="427" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >5</text>
+  <text x="66" y="427" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >5</text>
   <text x="100" y="415" font-size="17" font-weight="bold" fill="#1e293b" >緊急呼叫與護理站全面測試（C4、C15）</text>
-  <text x="100" y="437" font-size="13" fill="#57534e" >測試每間寢室及浴廁呼叫鈴；護理站氧氣瓶有效期；急救設備功能正常有紀錄</text>
+  <text x="100" y="437" font-size="16" fill="#57534e" >測試每間寢室及浴廁呼叫鈴；護理站氧氣瓶有效期；急救設備功能正常有紀錄</text>
   <rect x="620" y="403" width="136" height="38" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="427" font-size="13" fill="#dc2626" text-anchor="middle" >現場測試</text>
+  <text x="688" y="427" font-size="14" fill="#dc2626" text-anchor="middle" >現場測試</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

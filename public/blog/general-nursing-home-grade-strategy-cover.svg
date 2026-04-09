@@ -32,7 +32,7 @@
 
   <!-- 優等 -->
   <rect x="640" y="245" width="260" height="55" fill="#fbbf24" rx="8" stroke="#b45309" stroke-width="2"/>
-  <text x="770" y="280" font-size="20" fill="#78350f" font-weight="bold" text-anchor="middle">★ 優等</text>
+  <text x="770" y="280" font-size="20" fill="#78350f" font-weight="bold" text-anchor="middle">* 優等</text>
   <!-- 箭頭 -->
   <polygon points="770,240 758,248 782,248" fill="#b45309"/>
 

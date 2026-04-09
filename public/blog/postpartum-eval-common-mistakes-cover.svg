@@ -10,24 +10,24 @@
 
   <!-- 右側失分點清單卡片 -->
   <rect x="840" y="302" width="320" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="328" font-size="22" fill="#dc2626" font-weight="700">① </text>
-  <text x="882" y="328" font-size="22" fill="#57534e" font-weight="500">品質指標季報缺漏</text>
+  <text x="858" y="320" font-size="22" fill="#dc2626" font-weight="700">1 </text>
+  <text x="882" y="351" font-size="22" fill="#57534e" font-weight="500">品質指標季報缺漏</text>
 
   <rect x="840" y="362" width="320" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="388" font-size="22" fill="#dc2626" font-weight="700">② </text>
-  <text x="882" y="388" font-size="22" fill="#57534e" font-weight="500">NRP／BLS 效期失管</text>
+  <text x="858" y="380" font-size="22" fill="#dc2626" font-weight="700">2 </text>
+  <text x="882" y="411" font-size="22" fill="#57534e" font-weight="500">NRP／BLS 效期失管</text>
 
   <rect x="840" y="422" width="320" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="448" font-size="22" fill="#dc2626" font-weight="700">③ </text>
-  <text x="882" y="448" font-size="22" fill="#57534e" font-weight="500">流感疫苗接種率不足</text>
+  <text x="858" y="440" font-size="22" fill="#dc2626" font-weight="700">3 </text>
+  <text x="882" y="471" font-size="22" fill="#57534e" font-weight="500">流感疫苗接種率不足</text>
 
   <rect x="840" y="482" width="320" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="508" font-size="22" fill="#dc2626" font-weight="700">④ </text>
-  <text x="882" y="508" font-size="22" fill="#57534e" font-weight="500">哺乳計畫未個別化</text>
+  <text x="858" y="500" font-size="22" fill="#dc2626" font-weight="700">4 </text>
+  <text x="882" y="531" font-size="22" fill="#57534e" font-weight="500">哺乳計畫未個別化</text>
 
   <rect x="840" y="542" width="320" height="52" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="568" font-size="22" fill="#dc2626" font-weight="700">⑤ </text>
-  <text x="882" y="568" font-size="22" fill="#57534e" font-weight="500">護理記錄有空白</text>
+  <text x="858" y="560" font-size="22" fill="#dc2626" font-weight="700">5 </text>
+  <text x="882" y="591" font-size="22" fill="#57534e" font-weight="500">護理記錄有空白</text>
 
   <!-- 左側主標題 -->
   <text x="60" y="194" font-size="100" font-weight="900" fill="#1e293b">評鑑最常失分的</text>

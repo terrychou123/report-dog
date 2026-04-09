@@ -10,7 +10,7 @@
   <rect x="40" y="104" width="226" height="168" rx="12" fill="white"/>
   <rect x="40" y="104" width="226" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="226" height="20" fill="#d97706"/>
-  <text x="153" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">A、經營管理效能</text>
+  <text x="153" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">A、經營管理效能</text>
   <text x="60" y="170" font-size="14" fill="#57534e">- A1-A6 制度訂定與執行</text>
   <text x="60" y="190" font-size="14" fill="#57534e">- A7-A11 人力配置（含3個一級必要）</text>
   <text x="60" y="210" font-size="14" fill="#57534e">- A12-A15 勞動條件與訓練</text>
@@ -21,7 +21,7 @@
   <rect x="280" y="104" width="240" height="168" rx="12" fill="white"/>
   <rect x="280" y="104" width="240" height="44" rx="12" fill="#78716c"/>
   <rect x="280" y="128" width="240" height="20" fill="#78716c"/>
-  <text x="400" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">B、專業照護品質</text>
+  <text x="400" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">B、專業照護品質</text>
   <text x="300" y="170" font-size="14" fill="#57534e">- B1-B9 照護管理與社會服務</text>
   <text x="300" y="190" font-size="14" fill="#57534e">- B10-B17 感染防疫與安全管理</text>
   <text x="300" y="210" font-size="14" fill="#57534e">- B18-B32 照護品質細項</text>
@@ -32,7 +32,7 @@
   <rect x="534" y="104" width="226" height="168" rx="12" fill="white"/>
   <rect x="534" y="104" width="226" height="44" rx="12" fill="#57534e"/>
   <rect x="534" y="128" width="226" height="20" fill="#57534e"/>
-  <text x="647" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">C、安全環境設備</text>
+  <text x="647" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">C、安全環境設備</text>
   <text x="554" y="170" font-size="14" fill="#57534e">- C1-C3 環境空間設施</text>
   <text x="554" y="190" font-size="14" fill="#57534e">- C4-C8 安全設備（含1個一級）</text>
   <text x="554" y="210" font-size="14" fill="#57534e">- C9-C15 消防疏散（含5個一級）</text>
@@ -44,7 +44,7 @@
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#a8a29e"/>
   <rect x="40" y="312" width="346" height="20" fill="#a8a29e"/>
-  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">D、個案權益保障</text>
+  <text x="213" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">D、個案權益保障</text>
   <text x="60" y="354" font-size="14" fill="#57534e">- D1-D4 資料管理、契約、生活注意事項、申訴</text>
   <text x="60" y="374" font-size="14" fill="#57534e">- D5-D9 信仰尊重、居家情境、財物、緩和醫療</text>
   <text x="60" y="394" font-size="14" fill="#57534e">- 含 2 個二級加強項目（D1、D6）</text>
@@ -55,7 +55,7 @@
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#94a3b8"/>
   <rect x="414" y="312" width="346" height="20" fill="#94a3b8"/>
-  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">E、服務改進創新</text>
+  <text x="587" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">E、服務改進創新</text>
   <text x="434" y="354" font-size="14" fill="#57534e">- E1 前次評鑑建議改善（達 80% 以上）</text>
   <text x="434" y="374" font-size="14" fill="#57534e">- E2 創新或配合政策措施（至少 1 項）</text>
   <text x="434" y="394" font-size="14" fill="#57534e">- E3 違規及重大負面事件（扣分項目）</text>

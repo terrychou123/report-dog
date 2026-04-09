@@ -16,9 +16,9 @@
   <text x="130" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" >監測</text>
   <rect x="50" y="258" width="160" height="100" rx="8" fill="white"/>
   <text x="130" y="282" font-size="17" font-weight="700" fill="#d97706" text-anchor="middle" >健康監測</text>
-  <text x="130" y="304" font-size="13" fill="#57534e" text-anchor="middle" >住民每日體溫記錄</text>
-  <text x="130" y="322" font-size="13" fill="#57534e" text-anchor="middle" >工作人員每週體溫</text>
-  <text x="130" y="340" font-size="13" fill="#57534e" text-anchor="middle" >線上登載系統</text>
+  <text x="130" y="304" font-size="14" fill="#57534e" text-anchor="middle" >住民每日體溫記錄</text>
+  <text x="130" y="322" font-size="14" fill="#57534e" text-anchor="middle" >工作人員每週體溫</text>
+  <text x="130" y="340" font-size="14" fill="#57534e" text-anchor="middle" >線上登載系統</text>
 
   <!-- 步驟2 -->
   <circle cx="330" cy="200" r="38" fill="#78716c" opacity="0.15"/>
@@ -26,9 +26,9 @@
   <text x="330" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" >執行</text>
   <rect x="250" y="258" width="160" height="100" rx="8" fill="white"/>
   <text x="330" y="282" font-size="17" font-weight="700" fill="#78716c" text-anchor="middle" >計畫執行</text>
-  <text x="330" y="304" font-size="13" fill="#57534e" text-anchor="middle" >感染管制計畫</text>
-  <text x="330" y="322" font-size="13" fill="#57534e" text-anchor="middle" >5類涵蓋完整</text>
-  <text x="330" y="340" font-size="13" fill="#57534e" text-anchor="middle" >每年更新一次</text>
+  <text x="330" y="304" font-size="14" fill="#57534e" text-anchor="middle" >感染管制計畫</text>
+  <text x="330" y="322" font-size="14" fill="#57534e" text-anchor="middle" >5類涵蓋完整</text>
+  <text x="330" y="340" font-size="14" fill="#57534e" text-anchor="middle" >每年更新一次</text>
 
   <!-- 步驟3 -->
   <circle cx="530" cy="200" r="38" fill="#57534e" opacity="0.15"/>
@@ -36,9 +36,9 @@
   <text x="530" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" >防護</text>
   <rect x="450" y="258" width="160" height="100" rx="8" fill="white"/>
   <text x="530" y="282" font-size="17" font-weight="700" fill="#57534e" text-anchor="middle" >環境防護</text>
-  <text x="530" y="304" font-size="13" fill="#57534e" text-anchor="middle" >洗手設施配置</text>
-  <text x="530" y="322" font-size="13" fill="#57534e" text-anchor="middle" >防疫物資1週儲備</text>
-  <text x="530" y="340" font-size="13" fill="#57534e" text-anchor="middle" >定期環境清潔</text>
+  <text x="530" y="304" font-size="14" fill="#57534e" text-anchor="middle" >洗手設施配置</text>
+  <text x="530" y="322" font-size="14" fill="#57534e" text-anchor="middle" >防疫物資1週儲備</text>
+  <text x="530" y="340" font-size="14" fill="#57534e" text-anchor="middle" >定期環境清潔</text>
 
   <!-- 步驟4 -->
   <circle cx="670" cy="200" r="38" fill="#a8a29e" opacity="0.15"/>
@@ -46,9 +46,9 @@
   <text x="670" y="218" font-size="20" font-weight="700" fill="white" text-anchor="middle" >應變</text>
   <rect x="590" y="258" width="160" height="100" rx="8" fill="white"/>
   <text x="670" y="282" font-size="17" font-weight="700" fill="#a8a29e" text-anchor="middle" >隔離應變</text>
-  <text x="670" y="304" font-size="13" fill="#57534e" text-anchor="middle" >隔離空間規劃</text>
-  <text x="670" y="322" font-size="13" fill="#57534e" text-anchor="middle" >群聚感染應急動線</text>
-  <text x="670" y="340" font-size="13" fill="#57534e" text-anchor="middle" >通報機制啟動</text>
+  <text x="670" y="304" font-size="14" fill="#57534e" text-anchor="middle" >隔離空間規劃</text>
+  <text x="670" y="322" font-size="14" fill="#57534e" text-anchor="middle" >群聚感染應急動線</text>
+  <text x="670" y="340" font-size="14" fill="#57534e" text-anchor="middle" >通報機制啟動</text>
 
   <!-- 提示文字 -->
   <rect x="40" y="390" width="720" height="48" rx="8" fill="#d97706" fill-opacity="0.12"/>

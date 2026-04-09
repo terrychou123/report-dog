@@ -9,7 +9,7 @@
 
   <!-- Row 0：廚工體檢週期（y=166）#d97706 -->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="200" font-size="26" fill="#1e293b" font-weight="700">廚工體檢週期搞錯（第1項）</text>
@@ -21,7 +21,7 @@
 
   <!-- Row 1：在職訓練未達標（y=269）#78716c -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="303" font-size="26" fill="#1e293b" font-weight="700">在職訓練時數不足（第2項）</text>
@@ -33,7 +33,7 @@
 
   <!-- Row 2：監視器無保養紀錄（y=372）#57534e -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="406" font-size="26" fill="#1e293b" font-weight="700">監視器無保養紀錄（第1項）</text>

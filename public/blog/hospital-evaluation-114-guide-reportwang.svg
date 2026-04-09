@@ -16,7 +16,7 @@
   <!-- 圖示 -->
   <rect x="52" y="115" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
   <path d="M 56,124 L 60,129 L 68,116" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="209" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">AI 輔助自我查核</text>
+  <text x="209" y="132" text-anchor="middle" font-size="18" fill="white" font-weight="700">AI 輔助自我查核</text>
   <text x="48" y="172" font-size="15" fill="#57534e">• 對照 124 條基準逐條產生查核清單</text>
   <text x="48" y="194" font-size="15" fill="#57534e">• 自動標記 20 項必要條文缺口</text>
   <text x="48" y="216" font-size="15" fill="#57534e">• 優先顯示最高風險條文狀態</text>
@@ -33,7 +33,7 @@
   <rect x="434" y="113" width="14" height="18" rx="2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
   <line x1="437" y1="120" x2="445" y2="120" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
   <line x1="437" y1="124" x2="445" y2="124" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-  <text x="591" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">AI 輔助報告撰寫</text>
+  <text x="591" y="132" text-anchor="middle" font-size="18" fill="white" font-weight="700">AI 輔助報告撰寫</text>
   <text x="430" y="172" font-size="15" fill="#57534e">• 協助撰寫 RCA 根本原因分析報告</text>
   <text x="430" y="194" font-size="15" fill="#57534e">• 生成感控年度計畫書初稿</text>
   <text x="430" y="216" font-size="15" fill="#57534e">• 品質改善計畫文件快速建立</text>
@@ -51,7 +51,7 @@
   <path d="M 46,318 Q 55,312 64,318" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
   <circle cx="67" cy="302" r="7" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
   <path d="M 58,318 Q 67,312 76,318" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
-  <text x="209" y="326" text-anchor="middle" font-size="18" fill="white" font-weight="700">多人協作</text>
+  <text x="209" y="314" text-anchor="middle" font-size="18" fill="white" font-weight="700">多人協作</text>
   <text x="48" y="354" font-size="15" fill="#57534e">• 品管、護理、感控、藥劑同步準備</text>
   <text x="48" y="376" font-size="15" fill="#57534e">• 各科備審進度透明可追蹤</text>
   <text x="48" y="398" font-size="15" fill="#57534e">• 文件版本統一，杜絕資訊落差</text>
@@ -66,7 +66,7 @@
   <circle cx="437" cy="302" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
   <line x1="437" y1="296" x2="437" y2="302" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/>
   <line x1="437" y1="302" x2="441" y2="306" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/>
-  <text x="591" y="326" text-anchor="middle" font-size="18" fill="white" font-weight="700">定期追蹤</text>
+  <text x="591" y="314" text-anchor="middle" font-size="18" fill="white" font-weight="700">定期追蹤</text>
   <text x="430" y="354" font-size="15" fill="#57534e">• 設定感控委員會季報更新提醒</text>
   <text x="430" y="376" font-size="15" fill="#57534e">• 品質指標月報自動化追蹤</text>
   <text x="430" y="398" font-size="15" fill="#57534e">• 消防演練年度計畫提前通知</text>

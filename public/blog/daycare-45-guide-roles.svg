@@ -19,7 +19,7 @@
   <!-- 圖示：小圓圈（人） -->
   <circle cx="70" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="70" cy="126" r="3" fill="white"/>
-  <text x="200" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">社工師</text>
+  <text x="200" y="132" text-anchor="middle" font-size="18" fill="white" font-weight="700">社工師</text>
   <!-- 負責條文 -->
   <text x="60" y="170" font-size="14" fill="#57534e">負責：第 2、5–10、13、18–19 條</text>
   <text x="60" y="192" font-size="14" fill="#57534e">• 個案評估、照顧計畫、追蹤評值</text>
@@ -27,7 +27,7 @@
   <text x="60" y="232" font-size="14" fill="#57534e">• 家屬支持活動、社區服務記錄</text>
   <!-- 底部標籤 -->
   <rect x="56" y="248" width="80" height="20" rx="10" fill="#fef3c7"/>
-  <text x="96" y="261" text-anchor="middle" font-size="13" fill="#d97706" font-weight="600">文件類</text>
+  <text x="96" y="261" text-anchor="middle" font-size="14" fill="#d97706" font-weight="600">文件類</text>
 
   <!-- 卡片 2: 護理師 (stone #78716c), 右上 x=414 y=104 w=346 h=168 -->
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
@@ -35,13 +35,13 @@
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
   <circle cx="444" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="444" cy="126" r="3" fill="white"/>
-  <text x="574" y="144" text-anchor="middle" font-size="18" fill="white" font-weight="700">護理師</text>
+  <text x="574" y="132" text-anchor="middle" font-size="18" fill="white" font-weight="700">護理師</text>
   <text x="434" y="170" font-size="14" fill="#57534e">負責：第 12、20–21、32–33、36 條</text>
   <text x="434" y="192" font-size="14" fill="#57534e">• 協助服藥紀錄、藥袋留存佐證</text>
   <text x="434" y="212" font-size="14" fill="#57534e">• 健康檢查、防疫體溫紀錄</text>
   <text x="434" y="232" font-size="14" fill="#57534e">• 急救箱盤點、疫苗施打統計</text>
   <rect x="430" y="248" width="80" height="20" rx="10" fill="#f5f5f4"/>
-  <text x="470" y="261" text-anchor="middle" font-size="13" fill="#78716c" font-weight="600">健康類</text>
+  <text x="470" y="261" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">健康類</text>
 
   <!-- 卡片 3: 照服員/行政 (dark stone #57534e), 左下 x=40 y=288 w=346 h=162 -->
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
@@ -49,12 +49,12 @@
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
   <circle cx="70" cy="310" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="70" cy="310" r="3" fill="white"/>
-  <text x="200" y="328" text-anchor="middle" font-size="18" fill="white" font-weight="700">照服員 / 行政</text>
+  <text x="200" y="316" text-anchor="middle" font-size="18" fill="white" font-weight="700">照服員 / 行政</text>
   <text x="60" y="354" font-size="14" fill="#57534e">負責：第 1、3–4、11、14–17、38–43 條</text>
   <text x="60" y="374" font-size="14" fill="#57534e">• 工作手冊、器材維護、環境整備</text>
   <text x="60" y="394" font-size="14" fill="#57534e">• 廚房衛生紀錄、飲用水檢測報告</text>
   <rect x="56" y="426" width="80" height="20" rx="10" fill="#f5f0eb"/>
-  <text x="96" y="439" text-anchor="middle" font-size="13" fill="#57534e" font-weight="600">環境類</text>
+  <text x="96" y="439" text-anchor="middle" font-size="14" fill="#57534e" font-weight="600">環境類</text>
 
   <!-- 卡片 4: 業務負責人 (light stone #a8a29e), 右下 x=414 y=288 w=346 h=162 -->
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
@@ -62,12 +62,12 @@
   <rect x="414" y="312" width="346" height="20" fill="#a8a29e"/>
   <circle cx="444" cy="310" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="444" cy="310" r="3" fill="white"/>
-  <text x="574" y="328" text-anchor="middle" font-size="18" fill="white" font-weight="700">業務負責人</text>
+  <text x="574" y="316" text-anchor="middle" font-size="18" fill="white" font-weight="700">業務負責人</text>
   <text x="434" y="354" font-size="14" fill="#57534e">負責：第 9、22–27、30–31、34–37 條</text>
   <text x="434" y="374" font-size="14" fill="#57534e">• 年度業務計畫、品管指標自訂</text>
   <text x="434" y="394" font-size="14" fill="#57534e">• 行政會議記錄、性騷擾防治辦法</text>
   <rect x="430" y="426" width="80" height="20" rx="10" fill="#f5f5f4"/>
-  <text x="470" y="439" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="600">管理類</text>
+  <text x="470" y="439" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="600">管理類</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

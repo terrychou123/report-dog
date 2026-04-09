@@ -10,8 +10,8 @@
   <circle cx="66" cy="144" r="18" fill="#d97706" opacity="0.15"/>
   <text x="66" y="150" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">2.8</text>
   <text x="100" y="133" font-size="18" fill="#1e293b" font-weight="700">藥物自我管理</text>
-  <text x="100" y="154" font-size="15" fill="#57534e">常見缺失：機構統一保管，學員不知道藥是自己的；60%以上需自行保管</text>
-  <text x="100" y="172" font-size="15" fill="#d97706">改善：讓學員練習說「我的藥我自己保管，早上○顆、晚上○顆」</text>
+  <text x="100" y="154" font-size="16" fill="#57534e">常見缺失：機構統一保管，學員不知道藥是自己的；60%以上需自行保管</text>
+  <text x="100" y="172" font-size="15" fill="#d97706">改善：讓學員練習說「我的藥我自己保管，早上顆、晚上顆」</text>
   <rect x="616" y="120" width="140" height="48" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="686" y="135" font-size="15" fill="#d97706" text-anchor="middle">60%以上</text>
   <text x="686" y="154" font-size="15" fill="#d97706" text-anchor="middle">自行保管</text>
@@ -22,8 +22,8 @@
   <circle cx="66" cy="226" r="18" fill="#78716c" opacity="0.15"/>
   <text x="66" y="232" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2.12</text>
   <text x="100" y="215" font-size="18" fill="#1e293b" font-weight="700">社區融合</text>
-  <text x="100" y="236" font-size="15" fill="#57534e">常見缺失：有辦活動但學員說不出活動名稱、地點、參加頻率</text>
-  <text x="100" y="254" font-size="15" fill="#78716c">改善：讓學員記住「我們每X個月去○○○參加社區活動」</text>
+  <text x="100" y="236" font-size="16" fill="#57534e">常見缺失：有辦活動但學員說不出活動名稱、地點、參加頻率</text>
+  <text x="100" y="254" font-size="15" fill="#78716c">改善：讓學員記住「我們每X個月去參加社區活動」</text>
   <rect x="616" y="202" width="140" height="48" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="686" y="217" font-size="15" fill="#78716c" text-anchor="middle">每半年</text>
   <text x="686" y="236" font-size="15" fill="#78716c" text-anchor="middle">至少1次</text>
@@ -34,20 +34,20 @@
   <circle cx="66" cy="308" r="18" fill="#57534e" opacity="0.15"/>
   <text x="66" y="314" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3.6</text>
   <text x="100" y="297" font-size="18" fill="#1e293b" font-weight="700">學員/住民權益維護</text>
-  <text x="100" y="318" font-size="15" fill="#57534e">常見缺失：學員不知道申訴管道在哪、不知道有申訴電話</text>
-  <text x="100" y="336" font-size="15" fill="#57534e">改善：在機構明顯處張貼申訴電話，並讓學員知道「有問題可以打電話申訴」</text>
+  <text x="100" y="318" font-size="16" fill="#57534e">常見缺失：學員不知道申訴管道在哪、不知道有申訴電話</text>
+  <text x="100" y="336" font-size="16" fill="#57534e">改善：在機構明顯處張貼申訴電話，並讓學員知道「有問題可以打電話申訴」</text>
   <rect x="616" y="284" width="140" height="48" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="686" y="299" font-size="15" fill="#57534e" text-anchor="middle">申訴管道</text>
   <text x="686" y="318" font-size="15" fill="#57534e" text-anchor="middle">學員知悉</text>
 
   <!-- Row 4: 住宿型重點 -->
   <rect x="28" y="354" width="744" height="72" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <rect x="28" y="354" width="6" height="72" rx="2" fill="#dc2626"/>
+  <rect x="28" y="354" width="6" height="72" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="390" r="18" fill="#dc2626"/>
   <text x="66" y="395" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="900">重3.11</text>
   <text x="100" y="379" font-size="18" fill="#1e293b" font-weight="700">維護住民出入自由（住宿型重點項目）</text>
   <text x="100" y="400" font-size="15" fill="#dc2626">常見缺失：住民說「需要簽退才能外出」或「晚上門會鎖」= 直接不合格</text>
-  <text x="100" y="418" font-size="15" fill="#57534e">改善：住民能說「我可以自由進出」，且機構採開放式管理</text>
+  <text x="100" y="418" font-size="16" fill="#57534e">改善：住民能說「我可以自由進出」，且機構採開放式管理</text>
   <rect x="616" y="366" width="140" height="48" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="686" y="381" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">未達C</text>
   <text x="686" y="400" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">即不合格</text>

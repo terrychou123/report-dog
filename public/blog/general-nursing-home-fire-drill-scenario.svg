@@ -4,7 +4,7 @@
 
   <!-- 標題區 -->
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">情境演練流程（C4 實地查核）</text>
-  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">委員指定起火點→工作人員現場執行→評分</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">委員指定起火點-工作人員現場執行-評分</text>
   <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- N=3 流程圖，card_w=170, margin=129 -->

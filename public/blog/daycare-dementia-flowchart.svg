@@ -5,7 +5,7 @@
 
   <!-- 標題區 -->
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">發現想回家的應對 4 步驟</text>
-  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">情緒→轉移→評估→追蹤，四階段有序回應</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">情緒-轉移-評估-追蹤，四階段有序回應</text>
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 箭頭 (arrow_y=279) -->

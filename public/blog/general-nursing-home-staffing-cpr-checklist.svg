@@ -17,42 +17,42 @@
   <rect x="40" y="143" width="355" height="140" rx="10" fill="#fff1f2"/>
   <rect x="40" y="143" width="355" height="8" rx="4" fill="#dc2626"/>
   <text x="60" y="168" font-size="14" font-weight="700" fill="#9f1239">護理主管（護理長）</text>
-  <text x="60" y="192" font-size="14" fill="#334155">☐  護理師執照（有效，未過期）</text>
-  <text x="60" y="212" font-size="14" fill="#334155">☐  護理行政工作年資證明文件</text>
-  <text x="60" y="232" font-size="14" fill="#334155">☐  代理護理長名單已更新</text>
-  <text x="60" y="252" font-size="14" fill="#334155">☐  聘用合約或任命書備查</text>
-  <text x="60" y="270" font-size="14" fill="#dc2626">★ 代理護理長需符合相同資格要求</text>
+  <text x="60" y="192" font-size="14" fill="#334155">[ ] 護理師執照（有效，未過期）</text>
+  <text x="60" y="212" font-size="14" fill="#334155">[ ] 護理行政工作年資證明文件</text>
+  <text x="60" y="232" font-size="14" fill="#334155">[ ] 代理護理長名單已更新</text>
+  <text x="60" y="252" font-size="14" fill="#334155">[ ] 聘用合約或任命書備查</text>
+  <text x="60" y="270" font-size="14" fill="#dc2626">* 代理護理長需符合相同資格要求</text>
 
   <!-- 急救訓練區塊 -->
   <rect x="405" y="143" width="355" height="140" rx="10" fill="#fff7ed"/>
   <rect x="405" y="143" width="355" height="8" rx="4" fill="#f97316"/>
   <text x="425" y="168" font-size="14" font-weight="700" fill="#7c2d12">護理人員急救訓練</text>
-  <text x="425" y="192" font-size="14" fill="#334155">☐  製作全員效期追蹤表</text>
-  <text x="425" y="212" font-size="14" fill="#334155">☐  確認無已到期或即將到期人員</text>
-  <text x="425" y="232" font-size="14" fill="#334155">☐  訓練含 BLS + AED（非僅筆試）</text>
-  <text x="425" y="252" font-size="14" fill="#334155">☐  訓練機構為認可單位</text>
-  <text x="425" y="270" font-size="14" fill="#f97316">★ 到期人員需先補訓才可評鑑當日值班</text>
+  <text x="425" y="192" font-size="14" fill="#334155">[ ] 製作全員效期追蹤表</text>
+  <text x="425" y="212" font-size="14" fill="#334155">[ ] 確認無已到期或即將到期人員</text>
+  <text x="425" y="232" font-size="14" fill="#334155">[ ] 訓練含 BLS + AED（非僅筆試）</text>
+  <text x="425" y="252" font-size="14" fill="#334155">[ ] 訓練機構為認可單位</text>
+  <text x="425" y="270" font-size="14" fill="#f97316">* 到期人員需先補訓才可評鑑當日值班</text>
 
   <!-- 右下欄：新進訓練 + 照服員 -->
   <!-- 新進訓練區塊 -->
   <rect x="40" y="298" width="355" height="140" rx="10" fill="#fffbeb"/>
   <rect x="40" y="298" width="355" height="8" rx="4" fill="#d97706"/>
   <text x="60" y="323" font-size="14" font-weight="700" fill="#78350f">新進護理人員訓練</text>
-  <text x="60" y="347" font-size="14" fill="#334155">☐  年度訓練計畫書已完成</text>
-  <text x="60" y="367" font-size="14" fill="#334155">☐  所有新進人員均有個別訓練記錄</text>
-  <text x="60" y="387" font-size="14" fill="#334155">☐  訓練含考核評量（非僅出席）</text>
-  <text x="60" y="407" font-size="14" fill="#334155">☐  到職 1 個月內完成基礎訓練</text>
-  <text x="60" y="425" font-size="14" fill="#d97706">★ 訓練計畫書需含目標、內容、考核方式</text>
+  <text x="60" y="347" font-size="14" fill="#334155">[ ] 年度訓練計畫書已完成</text>
+  <text x="60" y="367" font-size="14" fill="#334155">[ ] 所有新進人員均有個別訓練記錄</text>
+  <text x="60" y="387" font-size="14" fill="#334155">[ ] 訓練含考核評量（非僅出席）</text>
+  <text x="60" y="407" font-size="14" fill="#334155">[ ] 到職 1 個月內完成基礎訓練</text>
+  <text x="60" y="425" font-size="14" fill="#d97706">* 訓練計畫書需含目標、內容、考核方式</text>
 
   <!-- 照服員區塊 -->
   <rect x="405" y="298" width="355" height="140" rx="10" fill="#f0fdf4"/>
   <rect x="405" y="298" width="355" height="8" rx="4" fill="#16a34a"/>
   <text x="425" y="323" font-size="14" font-weight="700" fill="#14532d">照服員配置與持證</text>
-  <text x="425" y="347" font-size="14" fill="#334155">☐  計算住民床數/現有照服員人數比例</text>
-  <text x="425" y="367" font-size="14" fill="#334155">☐  所有照服員均有結業證書影本</text>
-  <text x="425" y="387" font-size="14" fill="#334155">☐  新進照服員 3 個月內完成訓練</text>
-  <text x="425" y="407" font-size="14" fill="#334155">☐  人員花名冊與證書對應確認</text>
-  <text x="425" y="425" font-size="14" fill="#16a34a">★ 評鑑當日確認值班照服員人數符合規定</text>
+  <text x="425" y="347" font-size="14" fill="#334155">[ ] 計算住民床數/現有照服員人數比例</text>
+  <text x="425" y="367" font-size="14" fill="#334155">[ ] 所有照服員均有結業證書影本</text>
+  <text x="425" y="387" font-size="14" fill="#334155">[ ] 新進照服員 3 個月內完成訓練</text>
+  <text x="425" y="407" font-size="14" fill="#334155">[ ] 人員花名冊與證書對應確認</text>
+  <text x="425" y="425" font-size="14" fill="#16a34a">* 評鑑當日確認值班照服員人數符合規定</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

@@ -9,7 +9,7 @@
   <rect x="40" y="115" width="340" height="320" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
   <rect x="40" y="115" width="340" height="46" rx="12" fill="#d97706"/>
   <rect x="40" y="141" width="340" height="20" fill="#d97706"/>
-  <text x="210" y="157" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">高頻查核護理紀錄項目</text>
+  <text x="210" y="144" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">高頻查核護理紀錄項目</text>
 
   <text x="60" y="182" font-size="14" fill="#57534e">B2 個案服務計畫 — 初評/評值/修正</text>
   <text x="60" y="204" font-size="14" fill="#57534e">B13 跌倒預防 — 逐案分析+半年整體</text>
@@ -28,21 +28,21 @@
   <rect x="420" y="115" width="340" height="320" rx="12" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
   <rect x="420" y="115" width="340" height="46" rx="12" fill="#78716c"/>
   <rect x="420" y="141" width="340" height="20" fill="#78716c"/>
-  <text x="590" y="157" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">各項紀錄關鍵要求</text>
+  <text x="590" y="144" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">各項紀錄關鍵要求</text>
 
   <text x="440" y="178" font-size="14" fill="#d97706" font-weight="700">B13/B14 — 逐案分析三要素：</text>
-  <text x="440" y="198" font-size="13" fill="#57534e">事件描述 + 原因分析 + 改善措施</text>
+  <text x="440" y="198" font-size="14" fill="#57534e">事件描述 + 原因分析 + 改善措施</text>
   <text x="440" y="220" font-size="14" fill="#d97706" font-weight="700">B16 — 同意書關鍵：</text>
-  <text x="440" y="240" font-size="13" fill="#57534e">每3個月必須更新，不可逾期</text>
+  <text x="440" y="240" font-size="14" fill="#57534e">每3個月必須更新，不可逾期</text>
   <text x="440" y="260" font-size="14" fill="#d97706" font-weight="700">B9 — 巡診紀錄必要內容：</text>
-  <text x="440" y="280" font-size="13" fill="#57534e">巡診日期/醫師姓名/診察結果/簽名</text>
+  <text x="440" y="280" font-size="14" fill="#57534e">巡診日期/醫師姓名/診察結果/簽名</text>
   <text x="440" y="300" font-size="14" fill="#d97706" font-weight="700">B17 — 感染事件記錄五要素：</text>
-  <text x="440" y="320" font-size="13" fill="#57534e">通報紀錄 + 隔離措施 + 接觸者</text>
-  <text x="440" y="340" font-size="13" fill="#57534e">追蹤 + 改善措施 + 整體分析</text>
+  <text x="440" y="320" font-size="14" fill="#57534e">通報紀錄 + 隔離措施 + 接觸者</text>
+  <text x="440" y="340" font-size="14" fill="#57534e">追蹤 + 改善措施 + 整體分析</text>
   <text x="440" y="364" font-size="14" fill="#d97706" font-weight="700">B19 — 體重變化預警：</text>
-  <text x="440" y="384" font-size="13" fill="#57534e">30天內 ±5% 觸發逐案分析</text>
-  <text x="440" y="406" font-size="13" fill="#57534e">每月測量記錄+護理師評估</text>
-  <text x="440" y="428" font-size="13" fill="#57534e">必要時轉介營養師介入</text>
+  <text x="440" y="384" font-size="14" fill="#57534e">30天內 ±5% 觸發逐案分析</text>
+  <text x="440" y="406" font-size="14" fill="#57534e">每月測量記錄+護理師評估</text>
+  <text x="440" y="428" font-size="14" fill="#57534e">必要時轉介營養師介入</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

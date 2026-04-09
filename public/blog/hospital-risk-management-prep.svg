@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 頂部標題區 -->
   <rect width="800" height="90" fill="#1c1917"/>
   <text x="400" y="42"  font-size="22" font-weight="700" fill="#fff" text-anchor="middle">評鑑前風險管理文書整備四步驟</text>
-  <text x="400" y="70"  font-size="13" fill="#a8a29e" text-anchor="middle">評鑑前30天，確認1.7章文書完整可查核</text>
+  <text x="400" y="70"  font-size="14" fill="#a8a29e" text-anchor="middle">評鑑前30天，確認1.7章文書完整可查核</text>
 
   <!-- 步驟連接線 -->
   <line x1="128" y1="148" x2="128" y2="458" stroke="#e7e5e4" stroke-width="2" stroke-dasharray="4,4"/>
@@ -14,42 +15,42 @@
   <rect x="32" y="108" width="736" height="78" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
   <rect x="32" y="108" width="8" height="78" rx="4" fill="#d97706"/>
   <rect x="48" y="118" width="80" height="22" rx="4" fill="#d97706"/>
-  <text x="88" y="132"  font-size="11" font-weight="700" fill="#fff" text-anchor="middle">STEP 01</text>
+  <text x="88" y="132"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">STEP 01</text>
   <text x="144" y="132"  font-size="16" font-weight="700" fill="#1c1917">清點委員會紀錄</text>
-  <text x="48" y="160"  font-size="12" fill="#57534e">確認近1年風險管理委員會會議紀錄完整，含議題、決議、追蹤狀態</text>
+  <text x="48" y="160"  font-size="14" fill="#57534e">確認近1年風險管理委員會會議紀錄完整，含議題、決議、追蹤狀態</text>
   <rect x="668" y="118" width="84" height="26" rx="13" fill="#d97706"/>
-  <text x="710" y="135"  font-size="12" font-weight="600" fill="#fff" text-anchor="middle">第1週</text>
+  <text x="710" y="135"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">第1週</text>
 
   <!-- 步驟2：確認RCA文件 -->
   <rect x="32" y="198" width="736" height="78" rx="10" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
   <rect x="32" y="198" width="8" height="78" rx="4" fill="#78716c"/>
   <rect x="48" y="208" width="80" height="22" rx="4" fill="#78716c"/>
-  <text x="88" y="222"  font-size="11" font-weight="700" fill="#fff" text-anchor="middle">STEP 02</text>
+  <text x="88" y="222"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">STEP 02</text>
   <text x="144" y="222"  font-size="16" font-weight="700" fill="#1c1917">確認RCA文件</text>
-  <text x="48" y="250"  font-size="12" fill="#57534e">近1-2年醫療事故RCA報告完整，根本原因分析具體，改善追蹤有結果</text>
+  <text x="48" y="250"  font-size="14" fill="#57534e">近1-2年醫療事故RCA報告完整，根本原因分析具體，改善追蹤有結果</text>
   <rect x="660" y="208" width="92" height="26" rx="13" fill="#78716c"/>
-  <text x="706" y="225"  font-size="12" font-weight="600" fill="#fff" text-anchor="middle">第2週</text>
+  <text x="706" y="225"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">第2週</text>
 
   <!-- 步驟3：查核MCI計畫 -->
   <rect x="32" y="288" width="736" height="78" rx="10" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
   <rect x="32" y="288" width="8" height="78" rx="4" fill="#57534e"/>
   <rect x="48" y="298" width="80" height="22" rx="4" fill="#57534e"/>
-  <text x="88" y="312"  font-size="11" font-weight="700" fill="#fff" text-anchor="middle">STEP 03</text>
+  <text x="88" y="312"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">STEP 03</text>
   <text x="144" y="312"  font-size="16" font-weight="700" fill="#1c1917">查核MCI計畫</text>
-  <text x="48" y="340"  font-size="12" fill="#57534e">確認MCI應變計畫版本是最新，演練紀錄完整，各部門職責書面清楚</text>
+  <text x="48" y="340"  font-size="14" fill="#57534e">確認MCI應變計畫版本是最新，演練紀錄完整，各部門職責書面清楚</text>
   <rect x="660" y="298" width="92" height="26" rx="13" fill="#57534e"/>
-  <text x="706" y="315"  font-size="12" font-weight="600" fill="#fff" text-anchor="middle">第3週</text>
+  <text x="706" y="315"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">第3週</text>
 
   <!-- 步驟4：AI生成摘要 -->
   <rect x="32" y="378" width="736" height="78" rx="10" fill="#fafaf9" stroke="#a8a29e" stroke-width="1.5"/>
   <rect x="32" y="378" width="8" height="78" rx="4" fill="#a8a29e"/>
   <rect x="48" y="388" width="80" height="22" rx="4" fill="#a8a29e"/>
-  <text x="88" y="402"  font-size="11" font-weight="700" fill="#fff" text-anchor="middle">STEP 04</text>
+  <text x="88" y="402"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">STEP 04</text>
   <text x="144" y="402"  font-size="16" font-weight="700" fill="#1c1917">AI生成摘要</text>
-  <text x="48" y="430"  font-size="12" fill="#57534e">使用AI工具生成風險管理執行摘要，供評鑑訪談快速參考</text>
+  <text x="48" y="430"  font-size="14" fill="#57534e">使用AI工具生成風險管理執行摘要，供評鑑訪談快速參考</text>
   <rect x="660" y="388" width="92" height="26" rx="13" fill="#a8a29e"/>
-  <text x="706" y="405"  font-size="12" font-weight="600" fill="#fff" text-anchor="middle">評鑑前</text>
+  <text x="706" y="405"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">評鑑前</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480"  font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

@@ -13,7 +13,7 @@
   <!-- 填充條 width=135 -->
   <rect x="40" y="128" width="135" height="40" rx="6" fill="#2563eb"/>
   <!-- 條內文字 -->
-  <text x="90" y="148" font-size="14" fill="white" font-weight="700" text-anchor="middle">4 項</text>
+  <text x="90" y="153" font-size="14" fill="white" font-weight="700" text-anchor="middle">4 項</text>
   <!-- 百分比標籤 -->
   <text x="183" y="148" font-size="14" fill="#2563eb" font-weight="600">11.8%</text>
   <!-- 項目範圍 -->
@@ -24,7 +24,7 @@
   <rect x="40" y="218" width="580" height="40" rx="6" fill="#e8e4dc"/>
   <!-- 填充條 width=340 -->
   <rect x="40" y="218" width="340" height="40" rx="6" fill="#16a34a"/>
-  <text x="190" y="238" font-size="14" fill="white" font-weight="700" text-anchor="middle">10 項</text>
+  <text x="190" y="243" font-size="14" fill="white" font-weight="700" text-anchor="middle">10 項</text>
   <text x="388" y="238" font-size="14" fill="#16a34a" font-weight="600">29.4%</text>
   <text x="700" y="243" font-size="14" fill="#64748b" text-anchor="middle">項 5–14</text>
 
@@ -33,7 +33,7 @@
   <rect x="40" y="308" width="580" height="40" rx="6" fill="#e8e4dc"/>
   <!-- 填充條 width=543 -->
   <rect x="40" y="308" width="543" height="40" rx="6" fill="#ea580c"/>
-  <text x="311" y="328" font-size="14" fill="white" font-weight="700" text-anchor="middle">16 項</text>
+  <text x="311" y="333" font-size="14" fill="white" font-weight="700" text-anchor="middle">16 項</text>
   <text x="591" y="328" font-size="14" fill="#ea580c" font-weight="600">47.1%</text>
   <text x="700" y="333" font-size="14" fill="#64748b" text-anchor="middle">項 15–30</text>
 

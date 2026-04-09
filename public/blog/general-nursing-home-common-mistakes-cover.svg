@@ -10,16 +10,16 @@
 
   <!-- 右側缺失分類卡片 -->
   <rect x="840" y="296" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="860" y="317" font-size="24" fill="#dc2626" font-weight="700">文書記錄不完整</text>
-  <text x="860" y="341" font-size="20" fill="#a8a29e">最常見 · A1/B1/B3 失分主因</text>
+  <text x="860" y="321" font-size="24" fill="#dc2626" font-weight="700">文書記錄不完整</text>
+  <text x="860" y="352" font-size="20" fill="#a8a29e">最常見 · A1/B1/B3 失分主因</text>
 
   <rect x="840" y="370" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="860" y="391" font-size="24" fill="#d97706" font-weight="700">消防演練不達標</text>
-  <text x="860" y="415" font-size="20" fill="#a8a29e">缺夜間演練 · 情境計畫不足</text>
+  <text x="860" y="395" font-size="24" fill="#d97706" font-weight="700">消防演練不達標</text>
+  <text x="860" y="426" font-size="20" fill="#a8a29e">缺夜間演練 · 情境計畫不足</text>
 
   <rect x="840" y="444" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="860" y="465" font-size="24" fill="#2563eb" font-weight="700">照護計畫評值空白</text>
-  <text x="860" y="489" font-size="20" fill="#a8a29e">B1 最常扣分點</text>
+  <text x="860" y="469" font-size="24" fill="#2563eb" font-weight="700">照護計畫評值空白</text>
+  <text x="860" y="500" font-size="20" fill="#a8a29e">B1 最常扣分點</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="524" width="320" height="50" rx="10" fill="#dc2626" opacity="0.12"/>

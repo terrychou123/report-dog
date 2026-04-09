@@ -23,28 +23,28 @@
 
   <!-- 右側卡片 -->
   <rect x="620" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="640" y="115" font-size="36">👴</text>
+  <text x="640" y="115" font-size="36"></text>
   <text x="720" y="122" font-size="20" fill="#1e293b" font-weight="700">B26 日常活動</text>
   <text x="720" y="148" font-size="14" fill="#57534e">每日下床 2 次</text>
   <text x="720" y="168" font-size="14" fill="#57534e">被動式肢體活動</text>
   <text x="720" y="188" font-size="14" fill="#57534e">感官刺激訓練</text>
 
   <rect x="880" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="900" y="115" font-size="36">🎮</text>
+  <text x="900" y="115" font-size="36"></text>
   <text x="980" y="122" font-size="20" fill="#1e293b" font-weight="700">B6 團體活動</text>
   <text x="980" y="148" font-size="14" fill="#57534e">每月至少 1 次</text>
   <text x="980" y="168" font-size="14" fill="#57534e">含動靜態活動</text>
   <text x="980" y="188" font-size="14" fill="#57534e">有活動評值紀錄</text>
 
   <rect x="620" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="640" y="265" font-size="36">🏠</text>
+  <text x="640" y="265" font-size="36"></text>
   <text x="720" y="272" font-size="20" fill="#1e293b" font-weight="700">D6 居家情境</text>
   <text x="720" y="298" font-size="14" fill="#57534e">床間圍簾隔私</text>
   <text x="720" y="318" font-size="14" fill="#57534e">二級加強項目</text>
   <text x="720" y="338" font-size="14" fill="#57534e">禁監視器於寢室</text>
 
   <rect x="880" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="900" y="265" font-size="36">🛠️</text>
+  <text x="900" y="265" font-size="36">️</text>
   <text x="980" y="272" font-size="20" fill="#1e293b" font-weight="700">B28 輔具促進</text>
   <text x="980" y="298" font-size="14" fill="#57534e">個別化輔具計畫</text>
   <text x="980" y="318" font-size="14" fill="#57534e">康樂設備落實</text>
@@ -53,10 +53,10 @@
   <!-- 底部 -->
   <rect x="620" y="390" width="500" height="160" rx="12" fill="#fef3c7"/>
   <text x="870" y="430" text-anchor="middle" font-size="18" fill="#92400e" font-weight="700">失智照護評鑑 4 大面向</text>
-  <text x="640" y="465" font-size="15" fill="#78716c">✓ 人力配置：日 1:3 夜 1:15（一級必要）</text>
-  <text x="640" y="492" font-size="15" fill="#78716c">✓ 活動記錄：B26 每日下床、B6 每月活動</text>
-  <text x="640" y="519" font-size="15" fill="#78716c">✓ 環境品質：D6 圍簾、無監視器於寢室</text>
-  <text x="640" y="546" font-size="15" fill="#78716c">✓ 輔具照護：B28 個別化輔具計畫</text>
+  <text x="640" y="465" font-size="15" fill="#78716c">[v] 人力配置：日 1:3 夜 1:15（一級必要）</text>
+  <text x="640" y="492" font-size="15" fill="#78716c">[v] 活動記錄：B26 每日下床、B6 每月活動</text>
+  <text x="640" y="519" font-size="15" fill="#78716c">[v] 環境品質：D6 圍簾、無監視器於寢室</text>
+  <text x="640" y="546" font-size="15" fill="#78716c">[v] 輔具照護：B28 個別化輔具計畫</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -6,12 +6,12 @@
 
   <!-- Header（y=50, h=76） -->
   <rect x="0" y="50" width="800" height="76" fill="white"/>
-  <rect x="0" y="50" width="6" height="76" fill="#78716c" rx="2"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
   <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">HAI監測四大項目（標準化計算）</text>
 
   <!-- ===== Row 1（y=160）CLABSI #d97706 ===== -->
   <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">CLABSI</text>
   <text x="100" y="184" font-size="20" fill="#1e293b" font-weight="700">中央靜脈導管相關血流感染</text>
@@ -22,29 +22,29 @@
 
   <!-- ===== Row 2（y=235）VAP #78716c ===== -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="272" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">VAP</text>
   <text x="100" y="259" font-size="20" fill="#1e293b" font-weight="700">呼吸器相關肺炎</text>
-  <text x="100" y="283" font-size="16" fill="#57534e">分母：呼吸器使用天數（ventilator days）；分子：置放呼吸器≥48小時後符合診斷標準的肺炎</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">分母：呼吸器使用天數（ventilator days）；分子：置放呼吸器>=48小時後符合診斷標準的肺炎</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="688" y="256" font-size="16" fill="#78716c" text-anchor="middle">每千呼吸器</text>
   <text x="688" y="276" font-size="16" fill="#78716c" text-anchor="middle">日感染率</text>
 
   <!-- ===== Row 3（y=310）CAUTI #57534e ===== -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="347" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">CAUTI</text>
   <text x="100" y="334" font-size="20" fill="#1e293b" font-weight="700">導尿管相關泌尿道感染</text>
-  <text x="100" y="358" font-size="16" fill="#57534e">分母：導尿管置放天數（catheter days）；分子：置管≥48小時後符合診斷標準的泌尿道感染</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">分母：導尿管置放天數（catheter days）；分子：置管>=48小時後符合診斷標準的泌尿道感染</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">每千導尿管</text>
   <text x="688" y="351" font-size="16" fill="#57534e" text-anchor="middle">日感染率</text>
 
   <!-- ===== Row 4（y=385）SSI #a8a29e ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">SSI</text>
   <text x="100" y="409" font-size="20" fill="#1e293b" font-weight="700">手術部位感染</text>

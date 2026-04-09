@@ -19,18 +19,18 @@
   <text x="680" y="148" font-size="24" text-anchor="middle" fill="#bfdbfe" font-weight="700">疏散避難系統</text>
   <text x="680" y="175" font-size="20" text-anchor="middle" fill="#e0f2fe">實地查核</text>
   <rect x="564" y="190" width="232" height="1" fill="#ffffff" opacity="0.3"/>
-  <text x="680" y="214" font-size="20" text-anchor="middle" fill="#bfdbfe">✓ 通道暢通無障礙物</text>
-  <text x="680" y="234" font-size="20" text-anchor="middle" fill="#bfdbfe">✓ 等待救援空間設置</text>
-  <text x="680" y="254" font-size="20" text-anchor="middle" fill="#bfdbfe">✓ 緊急照明設備正常</text>
+  <text x="680" y="214" font-size="20" text-anchor="middle" fill="#bfdbfe">[v] 通道暢通無障礙物</text>
+  <text x="680" y="234" font-size="20" text-anchor="middle" fill="#bfdbfe">[v] 等待救援空間設置</text>
+  <text x="680" y="254" font-size="20" text-anchor="middle" fill="#bfdbfe">[v] 緊急照明設備正常</text>
   <!-- C3 卡片 -->
   <rect x="840" y="70" width="280" height="220" rx="14" fill="#d97706" opacity="0.85"/>
   <text x="980" y="115" font-size="52" font-weight="900" text-anchor="middle" fill="#ffffff">C3</text>
   <text x="980" y="148" font-size="24" text-anchor="middle" fill="#fef3c7" font-weight="700">個別化疏散策略</text>
   <text x="980" y="175" font-size="20" text-anchor="middle" fill="#fde68a">資料查核＋實地抽測</text>
   <rect x="864" y="190" width="232" height="1" fill="#ffffff" opacity="0.3"/>
-  <text x="980" y="214" font-size="20" text-anchor="middle" fill="#fef3c7">✓ 步行 / 輪椅 / 擔架分級</text>
-  <text x="980" y="234" font-size="20" text-anchor="middle" fill="#fef3c7">✓ 疏散後持續照顧 SOP</text>
-  <text x="980" y="254" font-size="20" text-anchor="middle" fill="#fef3c7">✓ 工作人員抽測能力</text>
+  <text x="980" y="214" font-size="20" text-anchor="middle" fill="#fef3c7">[v] 步行 / 輪椅 / 擔架分級</text>
+  <text x="980" y="234" font-size="20" text-anchor="middle" fill="#fef3c7">[v] 疏散後持續照顧 SOP</text>
+  <text x="980" y="254" font-size="20" text-anchor="middle" fill="#fef3c7">[v] 工作人員抽測能力</text>
   <!-- 底部資訊區 -->
   <rect x="540" y="320" width="580" height="120" rx="12" fill="#ffffff" opacity="0.75"/>
   <text x="570" y="355" font-size="24" font-weight="700" fill="#1e40af">評鑑查核方式對比</text>

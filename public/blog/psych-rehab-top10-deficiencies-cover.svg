@@ -8,16 +8,16 @@
 
   <!-- 右側卡片 -->
   <rect x="840" y="280" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="308" font-size="24" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型3.11</text>
-  <text x="1000" y="328" font-size="18" fill="#a8a29e" text-anchor="middle">出入自由 = 重點項目</text>
+  <text x="1000" y="301" font-size="24" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型3.11</text>
+  <text x="1000" y="332" font-size="18" fill="#a8a29e" text-anchor="middle">出入自由 = 重點項目</text>
 
   <rect x="840" y="348" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="376" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">PFM訪談</text>
-  <text x="1000" y="396" font-size="18" fill="#a8a29e" text-anchor="middle">學員說不出=直接失分</text>
+  <text x="1000" y="369" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">PFM訪談</text>
+  <text x="1000" y="400" font-size="18" fill="#a8a29e" text-anchor="middle">學員說不出=直接失分</text>
 
   <rect x="840" y="416" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="444" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">結案回歸社區</text>
-  <text x="1000" y="464" font-size="18" fill="#a8a29e" text-anchor="middle">4年內需達15%</text>
+  <text x="1000" y="437" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">結案回歸社區</text>
+  <text x="1000" y="468" font-size="18" fill="#a8a29e" text-anchor="middle">4年內需達15%</text>
 
   <rect x="840" y="492" width="320" height="50" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="523" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">精準補強 高效備審</text>

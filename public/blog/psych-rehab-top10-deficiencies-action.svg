@@ -57,7 +57,7 @@
   <circle cx="66" cy="429" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="435" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
   <text x="100" y="425" font-size="18" fill="#1e293b" font-weight="700">清查年度訓練記錄</text>
-  <text x="100" y="443" font-size="15" fill="#57534e">確認CRPD、CEDAW、性騷擾防治課程均已執行，簽到表與內容摘要齊備</text>
+  <text x="100" y="443" font-size="16" fill="#57534e">確認CRPD、CEDAW、性騷擾防治課程均已執行，簽到表與內容摘要齊備</text>
   <rect x="620" y="416" width="136" height="28" rx="8" fill="#94a3b8" opacity="0.12"/>
   <text x="688" y="433" font-size="15" fill="#94a3b8" text-anchor="middle">補辦紀錄</text>
 

@@ -9,11 +9,11 @@
   <text x="1010" y="320" font-size="24" fill="#57534e" text-anchor="middle">住宿型 PFM 項目數</text>
   <!-- 日間/住宿對比 -->
   <rect x="858" y="360" width="130" height="54" rx="8" fill="#0ea5e9" opacity="0.12"/>
-  <text x="923" y="375" font-size="20" fill="#0ea5e9" text-anchor="middle" font-weight="700">日間型</text>
-  <text x="923" y="398" font-size="22" fill="#0ea5e9" text-anchor="middle" font-weight="700">5 項</text>
+  <text x="923" y="379" font-size="20" fill="#0ea5e9" text-anchor="middle" font-weight="700">日間型</text>
+  <text x="923" y="410" font-size="22" fill="#0ea5e9" text-anchor="middle" font-weight="700">5 項</text>
   <rect x="1002" y="360" width="150" height="54" rx="8" fill="#7c3aed" opacity="0.12"/>
-  <text x="1077" y="375" font-size="20" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型</text>
-  <text x="1077" y="398" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">7 項</text>
+  <text x="1077" y="379" font-size="20" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型</text>
+  <text x="1077" y="410" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">7 項</text>
   <text x="1010" y="475" font-size="20" fill="#57534e" text-anchor="middle">評鑑委員直接訪談</text>
   <text x="1010" y="500" font-size="20" fill="#57534e" text-anchor="middle">學員 ‧ 住民</text>
   <!-- 左側主要內容 -->

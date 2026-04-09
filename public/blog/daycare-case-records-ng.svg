@@ -14,7 +14,7 @@
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
   <circle cx="68" cy="126" r="9" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="68" cy="126" r="3" fill="white"/>
-  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 1：內容主觀空泛</text>
+  <text x="213" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 1：內容主觀空泛</text>
   <text x="60" y="172" font-size="14" fill="#57534e">• 只寫「狀況穩定」「情緒尚好」</text>
   <text x="60" y="192" font-size="14" fill="#57534e">• 無具體行為或量化觀察描述</text>
   <text x="60" y="212" font-size="14" fill="#57534e">• 讓評鑑委員無從核實紀錄真實性</text>
@@ -28,7 +28,7 @@
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
   <rect x="438" y="117" width="18" height="18" rx="3" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <line x1="441" y1="126" x2="453" y2="126" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
-  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 2：時間記錄不完整</text>
+  <text x="587" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 2：時間記錄不完整</text>
   <text x="434" y="172" font-size="14" fill="#57534e">• 未標記記錄時間或書寫日期</text>
   <text x="434" y="192" font-size="14" fill="#57534e">• 工作人員未簽名確認</text>
   <text x="434" y="212" font-size="14" fill="#57534e">• 無法證明記錄的即時性</text>
@@ -42,7 +42,7 @@
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
   <line x1="60" y1="309" x2="68" y2="317" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
   <line x1="68" y1="317" x2="84" y2="301" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
-  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 3：照顧計畫未動態更新</text>
+  <text x="213" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 3：照顧計畫未動態更新</text>
   <text x="60" y="356" font-size="14" fill="#57534e">• 開案後計畫就沒有再修改</text>
   <text x="60" y="376" font-size="14" fill="#57534e">• 不反映個案身心狀況的變化</text>
   <text x="60" y="396" font-size="14" fill="#57534e">• 評鑑標準要求計畫動態調整</text>
@@ -57,7 +57,7 @@
   <circle cx="440" cy="310" r="8" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <line x1="440" y1="302" x2="440" y2="307" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
   <circle cx="440" cy="314" r="2" fill="rgba(255,255,255,0.7)"/>
-  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 4：特殊事件未書面化</text>
+  <text x="587" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">NG 4：特殊事件未書面化</text>
   <text x="434" y="356" font-size="14" fill="#57534e">• 跌倒、拒服務僅口頭告知</text>
   <text x="434" y="376" font-size="14" fill="#57534e">• 未書面記錄留存備查</text>
   <text x="434" y="396" font-size="14" fill="#57534e">• 發生糾紛時無文件保護機構</text>

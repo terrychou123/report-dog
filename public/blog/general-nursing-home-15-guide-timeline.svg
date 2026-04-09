@@ -8,8 +8,8 @@
   <rect x="40" y="112" width="224" height="296" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
   <rect x="40" y="112" width="224" height="50" rx="12" fill="#d97706"/>
   <rect x="40" y="138" width="224" height="24" fill="#d97706"/>
-  <text x="152" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第一個月</text>
-  <text x="152" y="148" font-size="14" fill="#fef9c3" text-anchor="middle">評鑑前 3 個月</text>
+  <text x="152" y="124" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第一個月</text>
+  <text x="152" y="155" font-size="14" fill="#fef9c3" text-anchor="middle">評鑑前 3 個月</text>
   <text x="56" y="192" font-size="14" fill="#57534e" font-weight="600">全面盤點缺口</text>
   <text x="56" y="214" font-size="14" fill="#57534e">• A 區文件效期核查</text>
   <text x="56" y="234" font-size="14" fill="#57534e">• 抽查 B 區照護計畫</text>
@@ -21,14 +21,14 @@
   <text x="56" y="362" font-size="14" fill="#57534e">夜間演練排程</text>
 
   <!-- 箭頭 -->
-  <text x="289" y="265" font-size="30" fill="#d97706" text-anchor="middle">→</text>
+  <text x="289" y="265" font-size="30" fill="#d97706" text-anchor="middle">-</text>
 
   <!-- 階段二 -->
   <rect x="298" y="112" width="224" height="296" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
   <rect x="298" y="112" width="224" height="50" rx="12" fill="#16a34a"/>
   <rect x="298" y="138" width="224" height="24" fill="#16a34a"/>
-  <text x="410" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
-  <text x="410" y="148" font-size="14" fill="#bbf7d0" text-anchor="middle">評鑑前 2 個月</text>
+  <text x="410" y="124" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
+  <text x="410" y="155" font-size="14" fill="#bbf7d0" text-anchor="middle">評鑑前 2 個月</text>
   <text x="314" y="192" font-size="14" fill="#57534e" font-weight="600">核心項目補強</text>
   <text x="314" y="214" font-size="14" fill="#57534e">• B1 照護計畫補評值</text>
   <text x="314" y="234" font-size="14" fill="#57534e">• 更新感控計畫</text>
@@ -40,14 +40,14 @@
   <text x="314" y="362" font-size="14" fill="#57534e">品質季報完成</text>
 
   <!-- 箭頭 -->
-  <text x="547" y="265" font-size="30" fill="#d97706" text-anchor="middle">→</text>
+  <text x="547" y="265" font-size="30" fill="#d97706" text-anchor="middle">-</text>
 
   <!-- 階段三 -->
   <rect x="556" y="112" width="204" height="296" rx="12" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
   <rect x="556" y="112" width="204" height="50" rx="12" fill="#57534e"/>
   <rect x="556" y="138" width="204" height="24" fill="#57534e"/>
-  <text x="658" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第三個月</text>
-  <text x="658" y="148" font-size="14" fill="#e2e8f0" text-anchor="middle">評鑑前 1 個月</text>
+  <text x="658" y="124" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第三個月</text>
+  <text x="658" y="155" font-size="14" fill="#e2e8f0" text-anchor="middle">評鑑前 1 個月</text>
   <text x="572" y="192" font-size="14" fill="#57534e" font-weight="600">演練與最終查核</text>
   <text x="572" y="214" font-size="14" fill="#57534e">• C4 情境演練各班次</text>
   <text x="572" y="234" font-size="14" fill="#57534e">• 文件整理分類</text>

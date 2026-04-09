@@ -11,19 +11,19 @@
   <!-- 右側 4 大功能 -->
   <rect x="840" y="270" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="270" width="6" height="46" rx="2" fill="#d97706"/>
-  <text x="860" y="299" font-size="22" fill="#78716c">AI 報告撰寫 → 季報 80% 更快</text>
+  <text x="860" y="299" font-size="22" fill="#78716c">AI 報告撰寫 - 季報 80% 更快</text>
 
   <rect x="840" y="328" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="328" width="6" height="46" rx="2" fill="#78716c"/>
-  <text x="860" y="357" font-size="22" fill="#78716c">AI 自我查核 → 盤點 70% 更快</text>
+  <text x="860" y="357" font-size="22" fill="#78716c">AI 自我查核 - 盤點 70% 更快</text>
 
   <rect x="840" y="386" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="386" width="6" height="44" rx="2" fill="#57534e"/>
-  <text x="860" y="415" font-size="22" fill="#78716c">多人協作 → 分工不亂</text>
+  <text x="860" y="415" font-size="22" fill="#78716c">多人協作 - 分工不亂</text>
 
   <rect x="840" y="444" width="320" height="46" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="444" width="6" height="46" rx="2" fill="#a8a29e"/>
-  <text x="860" y="473" font-size="22" fill="#78716c">定期追蹤 → 平常就在做</text>
+  <text x="860" y="473" font-size="22" fill="#78716c">定期追蹤 - 平常就在做</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="504" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>

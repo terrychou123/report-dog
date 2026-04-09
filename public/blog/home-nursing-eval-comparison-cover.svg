@@ -11,17 +11,17 @@
   <!-- 右側比較卡片 -->
   <rect x="840" y="250" width="320" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="1000" y="282" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">居家護理所</text>
-  <text x="1000" y="310" font-size="22" fill="#78716c" text-anchor="middle">8 項基準 · 資料查核為主</text>
+  <text x="1000" y="315" font-size="22" fill="#78716c" text-anchor="middle">8 項基準 · 資料查核為主</text>
   <text x="1000" y="328" font-size="18" fill="#a8a29e" text-anchor="middle">文件品質是關鍵</text>
 
   <rect x="840" y="342" width="320" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="1000" y="374" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">住宿型機構</text>
-  <text x="1000" y="402" font-size="22" fill="#78716c" text-anchor="middle">75 項以上 · 現場觀察</text>
+  <text x="1000" y="407" font-size="22" fill="#78716c" text-anchor="middle">75 項以上 · 現場觀察</text>
   <text x="1000" y="420" font-size="18" fill="#a8a29e" text-anchor="middle">環境設施也被查核</text>
 
   <rect x="840" y="434" width="320" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="1000" y="466" font-size="26" fill="#57534e" text-anchor="middle" font-weight="700">日照中心</text>
-  <text x="1000" y="494" font-size="22" fill="#78716c" text-anchor="middle">40–45 項 · 活動觀察</text>
+  <text x="1000" y="499" font-size="22" fill="#78716c" text-anchor="middle">40–45 項 · 活動觀察</text>
   <text x="1000" y="512" font-size="18" fill="#a8a29e" text-anchor="middle">集中式照護評核</text>
 
   <!-- 浮水印 -->

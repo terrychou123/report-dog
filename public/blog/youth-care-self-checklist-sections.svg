@@ -23,7 +23,7 @@
   <text x="688" y="225"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">10 分</text>
   <!-- Row 3 -->
   <rect x="28" y="264" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="264" width="6" height="60" rx="2" fill="#d97706"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="66" cy="294" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="300"  font-size="16" font-weight="700" fill="white" text-anchor="middle">參</text>
   <text x="100" y="290"  font-size="18" font-weight="600" fill="#1e293b">專業服務（最大區塊）</text>
@@ -32,7 +32,7 @@
   <text x="688" y="298"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">60 分</text>
   <!-- Row 4 -->
   <rect x="28" y="337" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="367" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="373"  font-size="16" font-weight="700" fill="white" text-anchor="middle">肆</text>
   <text x="100" y="363"  font-size="18" font-weight="600" fill="#1e293b">財務管理</text>
@@ -41,7 +41,7 @@
   <text x="688" y="371"  font-size="16" font-weight="700" fill="#94a3b8" text-anchor="middle">20 分</text>
   <!-- Row 5 -->
   <rect x="28" y="410" width="744" height="60" rx="8" fill="white"/>
-  <rect x="28" y="410" width="6" height="60" rx="2" fill="#57534e"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="440" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="446"  font-size="16" font-weight="700" fill="white" text-anchor="middle">伍</text>
   <text x="100" y="436"  font-size="18" font-weight="600" fill="#1e293b">特殊事項或措施</text>

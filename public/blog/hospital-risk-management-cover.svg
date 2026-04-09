@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#fafaf9"/>
@@ -23,28 +24,28 @@
   <!-- 右側3張卡片 -->
   <!-- 卡片1 -->
   <rect x="845" y="300" width="310" height="68" rx="8" fill="#dc2626"/>
-  <text x="865" y="325"  font-size="13" font-weight="700" fill="#fff">1.7.1 風險管理委員會</text>
+  <text x="865" y="325"  font-size="14" font-weight="700" fill="#fff">1.7.1 風險管理委員會</text>
   <rect x="865" y="333" width="50" height="16" rx="8" fill="#fff" opacity="0.25"/>
-  <text x="869" y="344"  font-size="10" fill="#fff">重點條文</text>
-  <text x="865" y="360"  font-size="11" fill="#fecaca">資料查核 + 訪談</text>
+  <text x="869" y="354"  font-size="14" fill="#fff">重點條文</text>
+  <text x="865" y="360"  font-size="14" fill="#fecaca">資料查核 + 訪談</text>
 
   <!-- 卡片2 -->
   <rect x="845" y="378" width="310" height="68" rx="8" fill="#d97706"/>
-  <text x="865" y="403"  font-size="13" font-weight="700" fill="#fff">1.7.2 醫療事故 RCA</text>
+  <text x="865" y="403"  font-size="14" font-weight="700" fill="#fff">1.7.2 醫療事故 RCA</text>
   <rect x="865" y="411" width="50" height="16" rx="8" fill="#fff" opacity="0.25"/>
-  <text x="869" y="422"  font-size="10" fill="#fff">重點條文</text>
-  <text x="865" y="438"  font-size="11" fill="#fef3c7">資料查核</text>
+  <text x="869" y="432"  font-size="14" fill="#fff">重點條文</text>
+  <text x="865" y="438"  font-size="14" fill="#fef3c7">資料查核</text>
 
   <!-- 卡片3 -->
   <rect x="845" y="456" width="310" height="68" rx="8" fill="#78716c"/>
-  <text x="865" y="481"  font-size="13" font-weight="700" fill="#fff">1.7.4 大量傷患應變</text>
+  <text x="865" y="481"  font-size="14" font-weight="700" fill="#fff">1.7.4 大量傷患應變</text>
   <rect x="865" y="489" width="50" height="16" rx="8" fill="#fff" opacity="0.25"/>
-  <text x="869" y="500"  font-size="10" fill="#fff">重點條文</text>
-  <text x="865" y="516"  font-size="11" fill="#e7e5e4">資料查核</text>
+  <text x="869" y="510"  font-size="14" fill="#fff">重點條文</text>
+  <text x="865" y="516"  font-size="14" fill="#e7e5e4">資料查核</text>
 
   <!-- 左側頂部標籤 -->
   <rect x="60" y="55" width="120" height="28" rx="14" fill="#dc2626"/>
-  <text x="120" y="73"  font-size="12" fill="#fff" text-anchor="middle">醫院評鑑 1.7章</text>
+  <text x="120" y="73"  font-size="14" fill="#fff" text-anchor="middle">醫院評鑑 1.7章</text>
 
   <!-- 主標題 -->
   <text x="60" y="160"  font-size="52" font-weight="900" fill="#1c1917">醫院風險管理</text>
@@ -59,23 +60,23 @@
   <!-- 特色標籤群 -->
   <!-- 標籤1 -->
   <rect x="60" y="315" width="120" height="30" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="120" y="334"  font-size="12" fill="#dc2626" text-anchor="middle">風險管理委員會</text>
+  <text x="120" y="334"  font-size="14" fill="#dc2626" text-anchor="middle">風險管理委員會</text>
 
   <!-- 標籤2 -->
   <rect x="192" y="315" width="110" height="30" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="247" y="334"  font-size="12" fill="#d97706" text-anchor="middle">醫療事故 RCA</text>
+  <text x="247" y="334"  font-size="14" fill="#d97706" text-anchor="middle">醫療事故 RCA</text>
 
   <!-- 標籤3 -->
   <rect x="314" y="315" width="110" height="30" rx="6" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
-  <text x="369" y="334"  font-size="12" fill="#78716c" text-anchor="middle">大量傷患 MCI</text>
+  <text x="369" y="334"  font-size="14" fill="#78716c" text-anchor="middle">大量傷患 MCI</text>
 
   <!-- 標籤4 -->
   <rect x="60" y="355" width="90" height="30" rx="6" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
-  <text x="105" y="374"  font-size="12" fill="#57534e" text-anchor="middle">危機溝通</text>
+  <text x="105" y="374"  font-size="14" fill="#57534e" text-anchor="middle">危機溝通</text>
 
   <!-- 標籤5 -->
   <rect x="162" y="355" width="110" height="30" rx="6" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
-  <text x="217" y="374"  font-size="12" fill="#78716c" text-anchor="middle">AI 報告撰寫</text>
+  <text x="217" y="374"  font-size="14" fill="#78716c" text-anchor="middle">AI 報告撰寫</text>
 
   <!-- 底部說明 -->
   <text x="60" y="430"  font-size="14" fill="#78716c">114年度評鑑基準 | 重點條文逐條解析</text>
@@ -86,5 +87,5 @@
   <text x="160" y="520"  font-size="18" font-weight="700" fill="#fff" text-anchor="middle">報告汪</text>
 
   <!-- 浮水印 -->
-  <text x="600" y="612"  font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="600" y="612"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

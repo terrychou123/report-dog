@@ -44,7 +44,7 @@
   <line x1="62" y1="360" x2="74" y2="372" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
   <line x1="74" y1="360" x2="62" y2="372" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/>
   <text x="90" y="362" font-size="17" fill="#1e293b" font-weight="700">外出需申請：填表後等待主管審核批准</text>
-  <text x="90" y="382" font-size="14" fill="#57534e">「申請→審核→批准」流程構成實質限制</text>
+  <text x="90" y="382" font-size="14" fill="#57534e">「申請-審核-批准」流程構成實質限制</text>
 
   <!-- 不可以做 2 -->
   <circle cx="68" cy="428" r="14" fill="#dc2626" opacity="0.12"/>

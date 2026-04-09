@@ -11,11 +11,11 @@
 
   <!-- ===== Row 1（y=166）2.7.1 感控組織 #dc2626 ===== -->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#dc2626"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
   <circle cx="66" cy="211" r="20" fill="#dc2626"/>
   <text x="66" y="218" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="900">2.7.1</text>
   <text x="100" y="196" font-size="26" fill="#1e293b" font-weight="700">感染管制組織與運作（必要）</text>
-  <text x="100" y="222" font-size="18" fill="#57534e">感控委員會定期開會有記錄、感控醫師護理師人力符合規定、年度計畫有追蹤報告</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">感控委員會定期開會有記錄、感控醫師護理師人力符合規定、年度計畫有追蹤報告</text>
   <text x="100" y="246" font-size="16" fill="#57534e">查核方式：資料查核</text>
   <rect x="600" y="174" width="156" height="52" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="678" y="190" font-size="16" fill="#dc2626" text-anchor="middle">人力+會議</text>
@@ -23,11 +23,11 @@
 
   <!-- ===== Row 2（y=269）2.7.2 標準防護 #d97706 ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="314" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="321" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">2.7.2</text>
   <text x="100" y="299" font-size="26" fill="#1e293b" font-weight="700">標準防護措施與接觸隔離（必要）</text>
-  <text x="100" y="325" font-size="18" fill="#57534e">手部衛生稽核執行率達標、隔離措施正確、PPE使用正確（訓練有記錄）</text>
+  <text x="100" y="325" font-size="16" fill="#57534e">手部衛生稽核執行率達標、隔離措施正確、PPE使用正確（訓練有記錄）</text>
   <text x="100" y="349" font-size="16" fill="#d97706" font-weight="600">查核方式：資料查核＋訪談＋實地查核（三重，最嚴格）</text>
   <rect x="600" y="277" width="156" height="52" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="678" y="293" font-size="16" fill="#d97706" text-anchor="middle">現場當場</text>
@@ -35,11 +35,11 @@
 
   <!-- ===== Row 3（y=372）2.7.3 HAI監測 #78716c ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="417" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="424" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2.7.3</text>
   <text x="100" y="402" font-size="26" fill="#1e293b" font-weight="700">醫療照護相關感染監測（必要）</text>
-  <text x="100" y="428" font-size="18" fill="#57534e">HAI定期監測、計算方法標準化（符合感控學會定義）、感染率異常即時調查</text>
+  <text x="100" y="428" font-size="16" fill="#57534e">HAI定期監測、計算方法標準化（符合感控學會定義）、感染率異常即時調查</text>
   <text x="100" y="452" font-size="16" fill="#57534e">查核方式：資料查核（需有外部基準比較）</text>
   <rect x="600" y="380" width="156" height="52" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="678" y="396" font-size="16" fill="#78716c" text-anchor="middle">標準計算</text>

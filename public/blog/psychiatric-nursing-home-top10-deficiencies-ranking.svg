@@ -29,7 +29,7 @@
   <rect x="44" y="254" width="44" height="60" rx="6" fill="#57534e"/>
   <text x="66" y="291" font-size="20" font-weight="bold" fill="white" text-anchor="middle" >3</text>
   <text x="105" y="279" font-size="17" font-weight="bold" fill="#57534e" >約束記錄不完整</text>
-  <text x="105" y="302" font-size="14" fill="#57534e" >評估→同意→執行→解除後追蹤缺一</text>
+  <text x="105" y="302" font-size="14" fill="#57534e" >評估-同意-執行-解除後追蹤缺一</text>
 
   <!-- 行4 -->
   <rect x="30" y="326" width="6" height="60" rx="2" fill="#a8a29e"/>

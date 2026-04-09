@@ -10,16 +10,16 @@
 
   <!-- 右側三階段卡片 -->
   <rect x="840" y="280" width="320" height="68" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-  <text x="860" y="302" font-size="24" fill="#d97706" font-weight="700">第一個月 D-90 至 D-60</text>
-  <text x="860" y="328" font-size="20" fill="#57534e">全面盤點 · 找出文件缺口</text>
+  <text x="860" y="307" font-size="24" fill="#d97706" font-weight="700">第一個月 D-90 至 D-60</text>
+  <text x="860" y="338" font-size="20" fill="#57534e">全面盤點 · 找出文件缺口</text>
 
   <rect x="840" y="358" width="320" height="68" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
-  <text x="860" y="380" font-size="24" fill="#16a34a" font-weight="700">第二個月 D-60 至 D-30</text>
-  <text x="860" y="406" font-size="20" fill="#57534e">核心項目補強 · 安排演練</text>
+  <text x="860" y="385" font-size="24" fill="#16a34a" font-weight="700">第二個月 D-60 至 D-30</text>
+  <text x="860" y="416" font-size="20" fill="#57534e">核心項目補強 · 安排演練</text>
 
   <rect x="840" y="436" width="320" height="68" rx="10" fill="#fff7ed" stroke="#57534e" stroke-width="2"/>
-  <text x="860" y="458" font-size="24" fill="#57534e" font-weight="700">第三個月 D-30 至評鑑日</text>
-  <text x="860" y="484" font-size="20" fill="#57534e">情境演練 · 模擬查核</text>
+  <text x="860" y="463" font-size="24" fill="#57534e" font-weight="700">第三個月 D-30 至評鑑日</text>
+  <text x="860" y="494" font-size="20" fill="#57534e">情境演練 · 模擬查核</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="520" width="320" height="50" rx="10" fill="#d97706" opacity="0.12"/>

@@ -18,14 +18,14 @@
   <!-- 左欄項目1 確認 -->
   <rect x="40" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="182" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="95" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：有轉介照會機制</text>
   <text x="95" y="215" font-size="14" fill="#78716c" >跨專業轉介流程已書面化</text>
 
   <!-- 左欄項目2 確認 -->
   <rect x="40" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="257" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="95" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：有聯繫會議辦法</text>
   <text x="95" y="290" font-size="14" fill="#78716c" >跨專業會議規則已制定</text>
 
@@ -39,14 +39,14 @@
   <!-- 右欄項目1 確認 -->
   <rect x="420" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="182" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="475" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：會議紀錄有討論內容</text>
   <text x="475" y="215" font-size="14" fill="#78716c" >紀錄內容完整，各專業意見齊全</text>
 
   <!-- 右欄項目2 確認 -->
   <rect x="420" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="257" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="475" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：照護建議落實於計畫</text>
   <text x="475" y="290" font-size="14" fill="#78716c" >會議決議反映在照護計畫中</text>
 

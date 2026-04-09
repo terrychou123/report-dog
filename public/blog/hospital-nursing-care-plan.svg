@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9" />
   <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
 
   <!-- 標題 -->
   <text x="400" y="40"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">個別化照護計畫三大核心要素</text>
-  <text x="400" y="58"  font-size="12" fill="#a8a29e" text-anchor="middle">2.3.2 重點條文｜資料查核＋訪談</text>
+  <text x="400" y="58"  font-size="14" fill="#a8a29e" text-anchor="middle">2.3.2 重點條文｜資料查核＋訪談</text>
 
   <!-- 列1 -->
   <rect x="30" y="82" width="740" height="100" rx="10" fill="#fffbeb" />
@@ -43,5 +44,5 @@
   <text x="691" y="357"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">以人為中心</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480"  font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="14" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

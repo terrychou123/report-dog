@@ -54,8 +54,8 @@
   <text x="639" y="328" text-anchor="middle" font-size="14" fill="#57534e">目標可追蹤可評估</text>
   <rect x="548" y="358" width="182" height="80" rx="8" fill="#f5f0eb"/>
   <text x="639" y="378" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">範例目標：</text>
-  <text x="639" y="396" text-anchor="middle" font-size="13" fill="#57534e">「3個月後能</text>
-  <text x="639" y="414" text-anchor="middle" font-size="13" fill="#57534e">自己搭公車買菜」</text>
+  <text x="639" y="396" text-anchor="middle" font-size="14" fill="#57534e">「3個月後能</text>
+  <text x="639" y="414" text-anchor="middle" font-size="14" fill="#57534e">自己搭公車買菜」</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

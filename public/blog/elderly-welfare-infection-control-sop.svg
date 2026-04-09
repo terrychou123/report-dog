@@ -15,7 +15,7 @@
   <text x="120" y="202" font-size="14" fill="#57534e" >呼吸道、腸道、不明原因發燒及群聚感染事件的通報辦法，含通報時限</text>
   <rect x="620" y="167" width="115" height="46" rx="6" fill="#d97706" opacity="0.12"/>
   <text x="677" y="182" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle" >通報時限</text>
-  <text x="677" y="198" font-size="13" fill="#d97706" text-anchor="middle" >必備項目</text>
+  <text x="677" y="198" font-size="14" fill="#d97706" text-anchor="middle" >必備項目</text>
 
   <!-- Row 2 -->
   <rect x="50" y="235" width="700" height="62" rx="8" fill="#ffffff"/>
@@ -26,7 +26,7 @@
   <text x="120" y="277" font-size="14" fill="#57534e" >洗手設施配置規定、標準洗手步驟（六步驟）圖示張貼位置與稽核頻率</text>
   <rect x="620" y="242" width="115" height="46" rx="6" fill="#78716c" opacity="0.12"/>
   <text x="677" y="257" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle" >洗手規範</text>
-  <text x="677" y="273" font-size="13" fill="#78716c" text-anchor="middle" >稽核制度</text>
+  <text x="677" y="273" font-size="14" fill="#78716c" text-anchor="middle" >稽核制度</text>
 
   <!-- Row 3 -->
   <rect x="50" y="310" width="700" height="62" rx="8" fill="#ffffff"/>
@@ -37,7 +37,7 @@
   <text x="120" y="352" font-size="14" fill="#57534e" >呼吸道/腸胃道/皮膚性感染/住民轉換清消等各類隔離技術標準作業流程</text>
   <rect x="620" y="317" width="115" height="46" rx="6" fill="#57534e" opacity="0.12"/>
   <text x="677" y="332" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle" >分類隔離</text>
-  <text x="677" y="348" font-size="13" fill="#57534e" text-anchor="middle" >各類SOP</text>
+  <text x="677" y="348" font-size="14" fill="#57534e" text-anchor="middle" >各類SOP</text>
 
   <!-- Row 4 -->
   <rect x="50" y="385" width="700" height="62" rx="8" fill="#ffffff"/>
@@ -48,7 +48,7 @@
   <text x="120" y="427" font-size="14" fill="#57534e" >日常清潔頻率、感染事件後加強消毒流程、污物處理動線符合感控原則</text>
   <rect x="620" y="392" width="115" height="46" rx="6" fill="#a8a29e" opacity="0.12"/>
   <text x="677" y="407" font-size="14" fill="#a8a29e" font-weight="700" text-anchor="middle" >清潔消毒</text>
-  <text x="677" y="423" font-size="13" fill="#a8a29e" text-anchor="middle" >動線規範</text>
+  <text x="677" y="423" font-size="14" fill="#a8a29e" text-anchor="middle" >動線規範</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

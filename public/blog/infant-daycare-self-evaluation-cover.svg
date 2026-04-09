@@ -10,16 +10,16 @@
 
   <!-- 右側卡片 -->
   <rect x="840" y="326" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="350" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">撰寫教學</text>
-  <text x="1000" y="382" font-size="22" fill="#a8a29e" text-anchor="middle">從格式到範例</text>
+  <text x="1000" y="355" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">撰寫教學</text>
+  <text x="1000" y="386" font-size="22" fill="#a8a29e" text-anchor="middle">從格式到範例</text>
 
   <rect x="840" y="404" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="428" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">三大區塊</text>
-  <text x="1000" y="460" font-size="22" fill="#a8a29e" text-anchor="middle">行政・托育・健康安全</text>
+  <text x="1000" y="433" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">三大區塊</text>
+  <text x="1000" y="464" font-size="22" fill="#a8a29e" text-anchor="middle">行政・托育・健康安全</text>
 
   <rect x="840" y="482" width="320" height="70" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="506" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">Before / After</text>
-  <text x="1000" y="538" font-size="22" fill="#a8a29e" text-anchor="middle">優劣範例對照</text>
+  <text x="1000" y="511" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">Before / After</text>
+  <text x="1000" y="542" font-size="22" fill="#a8a29e" text-anchor="middle">優劣範例對照</text>
 
   <!-- 左側主內容 -->
   <text x="60" y="196" font-size="110" font-weight="900" fill="#1e293b">自評表</text>

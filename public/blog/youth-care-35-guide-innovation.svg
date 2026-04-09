@@ -12,7 +12,7 @@
   <text x="42" y="125" font-size="20" fill="#dc2626" font-weight="700">扣分項目（最高 -10 分）</text>
 
   <rect x="28" y="138" width="744" height="68" rx="10" fill="white" stroke="#dc2626" stroke-width="1"/>
-  <rect x="28" y="138" width="6" height="68" rx="2" fill="#dc2626"/>
+  <rect x="28" y="138" width="6" height="68" rx="2" fill="#d97706"/>
   <text x="50" y="158" font-size="18" fill="#1e293b" font-weight="700">項目 30：違反兒少法相關情事（以發生案件數計）</text>
   <text x="50" y="180" font-size="15" fill="#57534e">違反兒少法（不當對待、未通報）、公益勸募條例（未申請許可、未公開徵信）</text>
   <text x="50" y="198" font-size="15" fill="#57534e">或未建立兒少零用金管理制度，每案件扣分，最高扣 10 分</text>
@@ -23,26 +23,26 @@
 
   <!-- 加分1 -->
   <rect x="28" y="252" width="744" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="252" width="6" height="52" rx="2" fill="#d97706"/>
-  <text x="50" y="272" font-size="17" fill="#1e293b" font-weight="700">項目 31：收容個案樣態多元  最高 +4 分</text>
+  <rect x="28" y="252" width="6" height="52" rx="2" fill="#78716c"/>
+  <text x="50" y="272" font-size="17" fill="#1e293b" font-weight="700">項目 31：收容個案樣態多元 最高 +4 分</text>
   <text x="50" y="293" font-size="15" fill="#57534e">安置特殊需求兒少 5名以上 +3分 ｜ 有為特殊兒少開發資源及服務 +1分</text>
 
   <!-- 加分2 -->
   <rect x="28" y="314" width="360" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="314" width="6" height="52" rx="2" fill="#78716c"/>
-  <text x="50" y="334" font-size="17" fill="#1e293b" font-weight="700">項目 32：推動服務學習  最高 +1 分</text>
+  <rect x="28" y="314" width="6" height="52" rx="2" fill="#57534e"/>
+  <text x="50" y="334" font-size="17" fill="#1e293b" font-weight="700">項目 32：推動服務學習 最高 +1 分</text>
   <text x="50" y="355" font-size="15" fill="#57534e">兒少參與社區/世代融合服務學習</text>
 
   <!-- 加分3 -->
   <rect x="408" y="314" width="364" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="408" y="314" width="6" height="52" rx="2" fill="#57534e"/>
-  <text x="430" y="334" font-size="17" fill="#1e293b" font-weight="700">項目 33：社工薪資達標  最高 +1 分</text>
+  <rect x="408" y="314" width="6" height="52" rx="2" fill="#a8a29e"/>
+  <text x="430" y="334" font-size="17" fill="#1e293b" font-weight="700">項目 33：社工薪資達標 最高 +1 分</text>
   <text x="430" y="355" font-size="15" fill="#57534e">符合衛福部108年社工薪資標準</text>
 
   <!-- 加分4 -->
   <rect x="28" y="376" width="744" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="376" width="6" height="52" rx="2" fill="#a8a29e"/>
-  <text x="50" y="396" font-size="17" fill="#1e293b" font-weight="700">項目 34：COVID-19 防疫措施  最高 +3 分</text>
+  <rect x="28" y="376" width="6" height="52" rx="2" fill="#94a3b8"/>
+  <text x="50" y="396" font-size="17" fill="#1e293b" font-weight="700">項目 34：COVID-19 防疫措施 最高 +3 分</text>
   <text x="50" y="417" font-size="15" fill="#57534e">防疫應變計畫 +1分 ｜ 返工計畫 +1分 ｜ 兒少/工作人員疫苗施打達門檻 +1分</text>
 
   <!-- 底部備注 -->

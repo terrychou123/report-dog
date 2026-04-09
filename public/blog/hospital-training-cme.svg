@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
@@ -7,23 +8,23 @@
   <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="900" fill="#1c1917">醫師護理繼續教育學分追蹤流程</text>
   <text x="400" y="82" text-anchor="middle" font-size="14" fill="#78716c">確保執照更新所需學分按時完成</text>
   <rect x="316" y="90" width="56" height="20" rx="10" fill="#f5f5f4"/>
-  <text x="344" y="105" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">1.3.7</text>
+  <text x="344" y="105" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">1.3.7</text>
   <rect x="380" y="90" width="56" height="20" rx="10" fill="#f5f5f4"/>
-  <text x="408" y="105" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">1.3.8</text>
+  <text x="408" y="105" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">1.3.8</text>
   <rect x="444" y="90" width="56" height="20" rx="10" fill="#f5f5f4"/>
-  <text x="472" y="105" text-anchor="middle" font-size="12" fill="#78716c" font-weight="600">一般條文</text>
+  <text x="472" y="105" text-anchor="middle" font-size="14" fill="#78716c" font-weight="600">一般條文</text>
 
   <!-- 步驟1：建立學分清冊 -->
   <rect x="38" y="122" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="122" width="8" height="76" rx="4" fill="#d97706"/>
   <!-- STEP標籤 -->
   <rect x="54" y="138" width="82" height="22" rx="11" fill="#fef3c7"/>
-  <text x="95" y="154" text-anchor="middle" font-size="12" fill="#d97706" font-weight="700">STEP 01</text>
+  <text x="95" y="154" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP 01</text>
   <text x="152" y="154" font-size="16" font-weight="700" fill="#1c1917">建立學分清冊</text>
-  <text x="54" y="182" font-size="13" fill="#78716c">列出所有醫師/護理師姓名、執照效期、當期應完成學分數</text>
+  <text x="54" y="182" font-size="14" fill="#78716c">列出所有醫師/護理師姓名、執照效期、當期應完成學分數</text>
   <!-- Pill -->
   <rect x="628" y="140" width="88" height="28" rx="14" fill="#fef3c7"/>
-  <text x="672" y="159" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">年初建立</text>
+  <text x="672" y="159" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">年初建立</text>
 
   <!-- 連接箭頭 -->
   <line x1="400" y1="198" x2="400" y2="210" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4,3"/>
@@ -33,11 +34,11 @@
   <rect x="38" y="216" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="216" width="8" height="76" rx="4" fill="#78716c"/>
   <rect x="54" y="232" width="82" height="22" rx="11" fill="#f5f5f4"/>
-  <text x="95" y="248" text-anchor="middle" font-size="12" fill="#78716c" font-weight="700">STEP 02</text>
+  <text x="95" y="248" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">STEP 02</text>
   <text x="152" y="248" font-size="16" font-weight="700" fill="#1c1917">定期提醒追蹤</text>
-  <text x="54" y="276" font-size="13" fill="#78716c">每季更新學分完成狀況，距效期6個月前發出提醒</text>
+  <text x="54" y="276" font-size="14" fill="#78716c">每季更新學分完成狀況，距效期6個月前發出提醒</text>
   <rect x="628" y="234" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="672" y="253" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">季度追蹤</text>
+  <text x="672" y="253" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">季度追蹤</text>
 
   <!-- 連接箭頭 -->
   <line x1="400" y1="292" x2="400" y2="304" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4,3"/>
@@ -47,11 +48,11 @@
   <rect x="38" y="310" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="310" width="8" height="76" rx="4" fill="#57534e"/>
   <rect x="54" y="326" width="82" height="22" rx="11" fill="#f5f5f4"/>
-  <text x="95" y="342" text-anchor="middle" font-size="12" fill="#57534e" font-weight="700">STEP 03</text>
+  <text x="95" y="342" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">STEP 03</text>
   <text x="152" y="342" font-size="16" font-weight="700" fill="#1c1917">支持進修機會</text>
-  <text x="54" y="370" font-size="13" fill="#78716c">醫院提供院內CME課程、補助外部研討會，有支持措施紀錄</text>
+  <text x="54" y="370" font-size="14" fill="#78716c">醫院提供院內CME課程、補助外部研討會，有支持措施紀錄</text>
   <rect x="628" y="328" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="672" y="347" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">機會支持</text>
+  <text x="672" y="347" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">機會支持</text>
 
   <!-- 連接箭頭 -->
   <line x1="400" y1="386" x2="400" y2="398" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4,3"/>
@@ -61,12 +62,12 @@
   <rect x="38" y="404" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="404" width="8" height="76" rx="4" fill="#a8a29e"/>
   <rect x="54" y="420" width="82" height="22" rx="11" fill="#f5f5f4"/>
-  <text x="95" y="436" text-anchor="middle" font-size="12" fill="#a8a29e" font-weight="700">STEP 04</text>
+  <text x="95" y="436" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">STEP 04</text>
   <text x="152" y="436" font-size="16" font-weight="700" fill="#1c1917">完成確認歸檔</text>
-  <text x="54" y="464" font-size="13" fill="#78716c">執照更新前確認學分達標，將繼續教育紀錄歸入人員檔案</text>
+  <text x="54" y="464" font-size="14" fill="#78716c">執照更新前確認學分達標，將繼續教育紀錄歸入人員檔案</text>
   <rect x="618" y="422" width="108" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="672" y="441" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="700">換照前確認</text>
+  <text x="672" y="441" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">換照前確認</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="497" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="497" text-anchor="middle" font-size="14" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

@@ -10,20 +10,20 @@
 
   <!-- 分數區間卡片 -->
   <rect x="840" y="265" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="291" font-size="22" fill="#16a34a" font-weight="700">0–9 分</text>
-  <text x="960" y="291" font-size="21" fill="#57534e">無明顯憂鬱症狀</text>
+  <text x="858" y="283" font-size="22" fill="#16a34a" font-weight="700">0–9 分</text>
+  <text x="960" y="314" font-size="21" fill="#57534e">無明顯憂鬱症狀</text>
 
   <rect x="840" y="323" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="349" font-size="22" fill="#d97706" font-weight="700">10–12 分</text>
-  <text x="980" y="349" font-size="21" fill="#57534e">輕度傾向需追蹤</text>
+  <text x="858" y="341" font-size="22" fill="#d97706" font-weight="700">10–12 分</text>
+  <text x="980" y="372" font-size="21" fill="#57534e">輕度傾向需追蹤</text>
 
   <rect x="840" y="381" width="320" height="52" rx="10" fill="#7c3aed" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="407" font-size="22" fill="#7c3aed" font-weight="700">≥ 13 分</text>
-  <text x="952" y="407" font-size="21" fill="#57534e">建議轉介心理健康服務</text>
+  <text x="858" y="399" font-size="22" fill="#7c3aed" font-weight="700">>= 13 分</text>
+  <text x="952" y="430" font-size="21" fill="#57534e">建議轉介心理健康服務</text>
 
   <rect x="840" y="439" width="320" height="52" rx="10" fill="#dc2626" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="465" font-size="19" fill="#dc2626" font-weight="700">第 10 題 ≥ 1 分</text>
-  <text x="1010" y="465" font-size="19" fill="#57534e">立即評估安全</text>
+  <text x="858" y="456" font-size="19" fill="#dc2626" font-weight="700">第 10 題 >= 1 分</text>
+  <text x="1010" y="487" font-size="19" fill="#57534e">立即評估安全</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="501" width="320" height="52" rx="10" fill="#7c3aed" opacity="0.10"/>

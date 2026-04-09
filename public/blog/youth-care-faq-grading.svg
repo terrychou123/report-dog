@@ -46,7 +46,7 @@
 
   <!-- 乙等 -->
   <rect x="28" y="260" width="744" height="56" fill="white"/>
-  <rect x="28" y="260" width="6" height="56" fill="#a8a29e" rx="2"/>
+  <rect x="28" y="260" width="6" height="56" fill="#57534e" rx="2"/>
   <text x="114" y="294" font-size="24" fill="#a8a29e" text-anchor="middle" font-weight="900">乙等</text>
   <text x="240" y="294" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">70–79 分</text>
   <text x="360" y="294" font-size="18" fill="#57534e" text-anchor="middle">—</text>
@@ -57,7 +57,7 @@
 
   <!-- 丙等 -->
   <rect x="28" y="316" width="744" height="56" fill="#fafaf8"/>
-  <rect x="28" y="316" width="6" height="56" fill="#94a3b8" rx="2"/>
+  <rect x="28" y="316" width="6" height="56" fill="#a8a29e" rx="2"/>
   <text x="114" y="350" font-size="24" fill="#94a3b8" text-anchor="middle" font-weight="900">丙等</text>
   <text x="240" y="350" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">60–69 分</text>
   <text x="360" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>

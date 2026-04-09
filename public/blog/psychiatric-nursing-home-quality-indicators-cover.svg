@@ -37,27 +37,27 @@
   <!-- 右側 2x2 資訊卡片 -->
   <!-- 卡片1 -->
   <rect x="825" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="375" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >跌倒</text>
-  <text x="907" y="400" font-size="15" fill="#57534e" text-anchor="middle" >月監測</text>
-  <text x="907" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" >發生率計算</text>
+  <text x="907" y="380" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >跌倒</text>
+  <text x="907" y="411" font-size="15" fill="#57534e" text-anchor="middle" >月監測</text>
+  <text x="907" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >發生率計算</text>
 
   <!-- 卡片2 -->
   <rect x="1005" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="375" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >壓力性損傷</text>
-  <text x="1087" y="400" font-size="15" fill="#57534e" text-anchor="middle" >盛行率</text>
-  <text x="1087" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" >點盛行率調查</text>
+  <text x="1087" y="380" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >壓力性損傷</text>
+  <text x="1087" y="411" font-size="15" fill="#57534e" text-anchor="middle" >盛行率</text>
+  <text x="1087" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >點盛行率調查</text>
 
   <!-- 卡片3 -->
   <rect x="825" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="490" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >約束</text>
-  <text x="907" y="515" font-size="15" fill="#57534e" text-anchor="middle" >最小化</text>
-  <text x="907" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" >約束率監測</text>
+  <text x="907" y="495" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >約束</text>
+  <text x="907" y="526" font-size="15" fill="#57534e" text-anchor="middle" >最小化</text>
+  <text x="907" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >約束率監測</text>
 
   <!-- 卡片4 -->
   <rect x="1005" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="490" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >感染</text>
-  <text x="1087" y="515" font-size="15" fill="#57534e" text-anchor="middle" >密度計算</text>
-  <text x="1087" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" >感染密度追蹤</text>
+  <text x="1087" y="495" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >感染</text>
+  <text x="1087" y="526" font-size="15" fill="#57534e" text-anchor="middle" >密度計算</text>
+  <text x="1087" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >感染密度追蹤</text>
 
   <!-- 品牌浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>

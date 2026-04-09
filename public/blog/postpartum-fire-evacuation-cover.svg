@@ -10,20 +10,20 @@
 
   <!-- 右側資訊卡片 -->
   <rect x="840" y="260" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="288" font-size="22" fill="#2563eb" font-weight="700">每年 2 次</text>
-  <text x="970" y="288" font-size="21" fill="#57534e">消防演練（含嬰兒）</text>
+  <text x="858" y="280" font-size="22" fill="#2563eb" font-weight="700">每年 2 次</text>
+  <text x="970" y="311" font-size="21" fill="#57534e">消防演練（含嬰兒）</text>
 
   <rect x="840" y="322" width="320" height="56" rx="10" fill="#2563eb" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="350" font-size="22" fill="#2563eb" font-weight="700">人員分工表</text>
-  <text x="982" y="350" font-size="21" fill="#57534e">書面 SOP 必備</text>
+  <text x="858" y="342" font-size="22" fill="#2563eb" font-weight="700">人員分工表</text>
+  <text x="982" y="373" font-size="21" fill="#57534e">書面 SOP 必備</text>
 
   <rect x="840" y="384" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="412" font-size="22" fill="#d97706" font-weight="700">24–26°C</text>
-  <text x="970" y="412" font-size="21" fill="#57534e">嬰兒室溫度監測</text>
+  <text x="858" y="404" font-size="22" fill="#d97706" font-weight="700">24–26°C</text>
+  <text x="970" y="435" font-size="21" fill="#57534e">嬰兒室溫度監測</text>
 
   <rect x="840" y="446" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="474" font-size="22" fill="#78716c" font-weight="700">天災應變計畫</text>
-  <text x="982" y="474" font-size="21" fill="#57534e">颱風 + 地震 + 停電</text>
+  <text x="858" y="466" font-size="22" fill="#78716c" font-weight="700">天災應變計畫</text>
+  <text x="982" y="497" font-size="21" fill="#57534e">颱風 + 地震 + 停電</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="512" width="320" height="52" rx="10" fill="#2563eb" opacity="0.10"/>

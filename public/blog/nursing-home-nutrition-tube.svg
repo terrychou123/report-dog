@@ -26,7 +26,7 @@
   <text x="120" y="334"  font-size="15" fill="#57534e">灌食時向住民說明或打招呼，尊重住民尊嚴</text>
   <!-- 項目4 -->
   <rect x="40" y="370" width="720" height="72" rx="8" fill="#f8f7f5"/>
-  <rect x="40" y="370" width="6" height="72" rx="2" fill="#94a3b8"/>
+  <rect x="40" y="370" width="6" height="72" rx="2" fill="#a8a29e"/>
   <circle cx="80" cy="406" r="20" fill="#94a3b8" opacity="0.15"/>
   <text x="80" y="412"  font-size="18" font-weight="700" fill="#94a3b8" text-anchor="middle">4</text>
   <text x="120" y="394"  font-size="17" font-weight="700" fill="#1e293b">個別空針，使用過程符合衛生清潔</text>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">業務計畫書 5 大撰寫訣竅</text>
@@ -11,33 +11,33 @@
 
   <!-- 訣竅 1 -->
   <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="70" cy="148" r="16" fill="#d97706" opacity="0.15"/>
   <text x="70" y="154" font-size="20" fill="white" text-anchor="middle" font-weight="700">1</text>
   <text x="105" y="142" font-size="14" fill="#1e293b" font-weight="600">目標 SMART 化：每個年度目標要有明確數字與期限</text>
   <text x="105" y="162" font-size="14" fill="#57534e">例：「提升住民跌倒通報率至 100%」優於「加強跌倒預防」</text>
   <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="154" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">具體量化</text>
+  <text x="688" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">具體量化</text>
 
   <!-- 訣竅 2 -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="70" cy="221" r="16" fill="#78716c" opacity="0.15"/>
   <text x="70" y="227" font-size="20" fill="white" text-anchor="middle" font-weight="700">2</text>
   <text x="105" y="215" font-size="14" fill="#1e293b" font-weight="600">對應評鑑指標：計畫項目與 A-E 指標編號對照</text>
   <text x="105" y="235" font-size="14" fill="#57534e">讓評鑑委員一目了然計畫如何回應評鑑要求</text>
   <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="227" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">指標對應</text>
+  <text x="688" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">指標對應</text>
 
   <!-- 訣竅 3 -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="70" cy="294" r="16" fill="#57534e" opacity="0.15"/>
   <text x="70" y="300" font-size="20" fill="white" text-anchor="middle" font-weight="700">3</text>
   <text x="105" y="288" font-size="14" fill="#1e293b" font-weight="600">中長程計畫與年度計畫串連：年度計畫是中長程的年度切片</text>
-  <text x="105" y="308" font-size="14" fill="#57534e">呈現「3年目標→年度子目標→季度執行項目」的邏輯層次</text>
+  <text x="105" y="308" font-size="14" fill="#57534e">呈現「3年目標-年度子目標-季度執行項目」的邏輯層次</text>
   <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="300" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">邏輯一致</text>
+  <text x="688" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">邏輯一致</text>
 
   <!-- 訣竅 4 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
@@ -47,17 +47,17 @@
   <text x="105" y="361" font-size="14" fill="#1e293b" font-weight="600">創新措施（E2）嵌入計畫書：把 E2 亮點寫進年度計畫重點項目</text>
   <text x="105" y="381" font-size="14" fill="#57534e">讓委員在翻閱計畫書時就先看到創新亮點，增加印象分</text>
   <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
-  <text x="688" y="373" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">E2 加分</text>
+  <text x="688" y="373" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">E2 加分</text>
 
   <!-- 訣竅 5 -->
   <rect x="28" y="410" width="744" height="55" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="410" width="6" height="55" rx="2" fill="#a8a29e"/>
+  <rect x="28" y="410" width="6" height="55" rx="2" fill="#6b7280"/>
   <circle cx="70" cy="437" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="70" y="443" font-size="20" fill="white" text-anchor="middle" font-weight="700">5</text>
   <text x="105" y="431" font-size="14" fill="#1e293b" font-weight="600">附上執行成果照片索引：讓委員可快速找到對應的佐證資料</text>
   <text x="105" y="451" font-size="14" fill="#57534e">計畫書最後頁附「佐證文件索引表」，標示每項目對應資料位置</text>
   <rect x="620" y="418" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="441" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">查找效率</text>
+  <text x="688" y="441" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">查找效率</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -4,7 +4,7 @@
 <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
 <text x="28" y="70" font-size="28" fill="#1e293b" font-weight="700">評鑑準備分工五大要點</text>
 <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+<rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
 <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
 <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
 <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">文件分頭收集</text>
@@ -13,7 +13,7 @@
 <text x="688" y="138" font-size="15" fill="#d97706" text-anchor="middle">責任制度</text>
 <text x="688" y="158" font-size="15" fill="#d97706" text-anchor="middle">個別負責</text>
 <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+<rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
 <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
 <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
 <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">格式統一確認</text>
@@ -22,7 +22,7 @@
 <text x="688" y="211" font-size="15" fill="#78716c" text-anchor="middle">品質把關</text>
 <text x="688" y="231" font-size="15" fill="#78716c" text-anchor="middle">主任審核</text>
 <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+<rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
 <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
 <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
 <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">進度定期追蹤</text>
@@ -31,7 +31,7 @@
 <text x="688" y="284" font-size="15" fill="#57534e" text-anchor="middle">週度追蹤</text>
 <text x="688" y="304" font-size="15" fill="#57534e" text-anchor="middle">進度報告</text>
 <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+<rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
 <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
 <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
 <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">跨職類模擬演練</text>
@@ -40,7 +40,7 @@
 <text x="688" y="357" font-size="15" fill="#a8a29e" text-anchor="middle">實戰演練</text>
 <text x="688" y="377" font-size="15" fill="#a8a29e" text-anchor="middle">評鑑前2週</text>
 <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-<rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+<rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
 <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
 <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
 <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">當日最終確認</text>

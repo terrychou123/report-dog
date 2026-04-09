@@ -14,7 +14,7 @@
   <text x="214" y="295" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">正向結案</text>
   <text x="214" y="318" font-size="17" fill="#57534e" text-anchor="middle">目標達成</text>
   <text x="214" y="340" font-size="14" fill="#57534e" text-anchor="middle">功能顯著提升</text>
-  <text x="214" y="360" font-size="13" fill="#57534e" text-anchor="middle">可獨立生活就業</text>
+  <text x="214" y="360" font-size="14" fill="#57534e" text-anchor="middle">可獨立生活就業</text>
   <rect x="147" y="381" width="134" height="36" rx="18" fill="#f0fdf4"/>
   <text x="214" y="405" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="600">服務目標達成</text>
 
@@ -30,7 +30,7 @@
   <text x="400" y="295" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">機構轉換</text>
   <text x="400" y="318" font-size="17" fill="#57534e" text-anchor="middle">需求轉銜</text>
   <text x="400" y="340" font-size="14" fill="#57534e" text-anchor="middle">轉介其他機構</text>
-  <text x="400" y="360" font-size="13" fill="#57534e" text-anchor="middle">急性病房 / 長照</text>
+  <text x="400" y="360" font-size="14" fill="#57534e" text-anchor="middle">急性病房 / 長照</text>
   <rect x="333" y="381" width="134" height="36" rx="18" fill="#fff7ed"/>
   <text x="400" y="405" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600">資源轉介連結</text>
 
@@ -46,7 +46,7 @@
   <text x="586" y="295" font-size="25" fill="#1e293b" text-anchor="middle" font-weight="700">非自願結案</text>
   <text x="586" y="318" font-size="17" fill="#57534e" text-anchor="middle">關係終止</text>
   <text x="586" y="340" font-size="14" fill="#57534e" text-anchor="middle">長期失聯 / 違規</text>
-  <text x="586" y="360" font-size="13" fill="#57534e" text-anchor="middle">申訴權利保障</text>
+  <text x="586" y="360" font-size="14" fill="#57534e" text-anchor="middle">申訴權利保障</text>
   <rect x="519" y="381" width="134" height="36" rx="18" fill="#fef2f2"/>
   <text x="586" y="405" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="600">程序保障</text>
 

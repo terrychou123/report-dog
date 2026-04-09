@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">每 3 個月修訂流程</text>
-  <text x="40" y="76" font-size="22" fill="#57534e">評值→調整→新目標——完整的照護循環</text>
+  <text x="40" y="76" font-size="22" fill="#57534e">評值-調整-新目標——完整的照護循環</text>
   <line x1="40" y1="92" x2="760" y2="92" stroke="#d97706" stroke-width="2"/>
 
   <!-- 觸發修訂的兩種情況 -->
   <rect x="40" y="112" width="340" height="120" rx="10" fill="white" stroke="#16a34a" stroke-width="2"/>
   <rect x="40" y="112" width="340" height="40" rx="10" fill="#16a34a"/>
   <rect x="40" y="132" width="340" height="20" fill="#16a34a"/>
-  <text x="210" y="148" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">定期修訂（每3個月）</text>
+  <text x="210" y="138" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">定期修訂（每3個月）</text>
   <text x="56" y="170" font-size="14" fill="#57534e">每3個月定期評值上期計畫，調整下期照護目標</text>
   <text x="56" y="192" font-size="14" fill="#57534e">即使住民狀況穩定，也需有「確認維持現有計畫」記錄</text>
 
   <rect x="400" y="112" width="360" height="120" rx="10" fill="white" stroke="#dc2626" stroke-width="2"/>
   <rect x="400" y="112" width="360" height="40" rx="10" fill="#dc2626"/>
   <rect x="400" y="132" width="360" height="20" fill="#dc2626"/>
-  <text x="580" y="148" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">即時修訂（狀況變化時）</text>
+  <text x="580" y="138" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">即時修訂（狀況變化時）</text>
   <text x="416" y="170" font-size="14" fill="#57534e">發生跌倒骨折、新增壓傷、認知功能急速退步</text>
   <text x="416" y="192" font-size="14" fill="#57534e">不必等到下次定期修訂，當下即修訂並標注原因</text>
 
@@ -24,31 +24,31 @@
 
   <!-- 步驟流 -->
   <rect x="40" y="274" width="144" height="120" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
-  <text x="112" y="300" font-size="14" fill="#16a34a" font-weight="700" text-anchor="middle">① 評值</text>
+  <text x="112" y="300" font-size="14" fill="#16a34a" font-weight="700" text-anchor="middle">1 評值</text>
   <text x="56" y="322" font-size="14" fill="#57534e">達成/未達成</text>
   <text x="56" y="340" font-size="14" fill="#57534e">具體數據說明</text>
   <text x="56" y="358" font-size="14" fill="#57534e">原因分析</text>
 
-  <text x="206" y="338" font-size="24" fill="#d97706" text-anchor="middle">→</text>
+  <text x="206" y="338" font-size="24" fill="#d97706" text-anchor="middle">-</text>
 
   <rect x="224" y="274" width="144" height="120" rx="8" fill="#fff7ed" stroke="#d97706" stroke-width="1.5"/>
-  <text x="296" y="300" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">② 調整</text>
+  <text x="296" y="300" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">2 調整</text>
   <text x="240" y="322" font-size="14" fill="#57534e">照護問題更新</text>
   <text x="240" y="340" font-size="14" fill="#57534e">目標修訂</text>
   <text x="240" y="358" font-size="14" fill="#57534e">措施調整</text>
 
-  <text x="390" y="338" font-size="24" fill="#d97706" text-anchor="middle">→</text>
+  <text x="390" y="338" font-size="24" fill="#d97706" text-anchor="middle">-</text>
 
   <rect x="408" y="274" width="144" height="120" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-  <text x="480" y="300" font-size="14" fill="#2563eb" font-weight="700" text-anchor="middle">③ 下期計畫</text>
+  <text x="480" y="300" font-size="14" fill="#2563eb" font-weight="700" text-anchor="middle">3 下期計畫</text>
   <text x="424" y="322" font-size="14" fill="#57534e">新照護目標</text>
   <text x="424" y="340" font-size="14" fill="#57534e">具體措施</text>
   <text x="424" y="358" font-size="14" fill="#57534e">下次修訂日</text>
 
-  <text x="574" y="338" font-size="24" fill="#d97706" text-anchor="middle">→</text>
+  <text x="574" y="338" font-size="24" fill="#d97706" text-anchor="middle">-</text>
 
   <rect x="592" y="274" width="168" height="120" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <text x="676" y="300" font-size="14" fill="#dc2626" font-weight="700" text-anchor="middle">④ 簽名確認</text>
+  <text x="676" y="300" font-size="14" fill="#dc2626" font-weight="700" text-anchor="middle">4 簽名確認</text>
   <text x="608" y="322" font-size="14" fill="#57534e">責任護理師簽名</text>
   <text x="608" y="340" font-size="14" fill="#57534e">跨專業人員確認</text>
   <text x="608" y="358" font-size="14" fill="#57534e">標注修訂日期</text>

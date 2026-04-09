@@ -10,28 +10,28 @@
 
   <!-- 右側指標清單卡片 -->
   <rect x="840" y="302" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="324" font-size="20" fill="#16a34a" font-weight="700">① </text>
-  <text x="882" y="324" font-size="20" fill="#57534e">嬰兒紅臀發生率</text>
+  <text x="858" y="316" font-size="20" fill="#16a34a" font-weight="700">1 </text>
+  <text x="882" y="347" font-size="20" fill="#57534e">嬰兒紅臀發生率</text>
 
   <rect x="840" y="352" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="374" font-size="20" fill="#16a34a" font-weight="700">② </text>
-  <text x="882" y="374" font-size="20" fill="#57534e">產婦乳腺炎發生率</text>
+  <text x="858" y="366" font-size="20" fill="#16a34a" font-weight="700">2 </text>
+  <text x="882" y="397" font-size="20" fill="#57534e">產婦乳腺炎發生率</text>
 
   <rect x="840" y="402" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="424" font-size="20" fill="#16a34a" font-weight="700">③ </text>
-  <text x="882" y="424" font-size="20" fill="#57534e">純母乳哺育率</text>
+  <text x="858" y="416" font-size="20" fill="#16a34a" font-weight="700">3 </text>
+  <text x="882" y="447" font-size="20" fill="#57534e">純母乳哺育率</text>
 
   <rect x="840" y="452" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="474" font-size="20" fill="#16a34a" font-weight="700">④ </text>
-  <text x="882" y="474" font-size="20" fill="#57534e">嬰兒體重回升達出生體重率</text>
+  <text x="858" y="466" font-size="20" fill="#16a34a" font-weight="700">4 </text>
+  <text x="882" y="497" font-size="20" fill="#57534e">嬰兒體重回升達出生體重率</text>
 
   <rect x="840" y="502" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="524" font-size="20" fill="#16a34a" font-weight="700">⑤ </text>
-  <text x="882" y="524" font-size="20" fill="#57534e">嬰兒黃疸需照光發生率</text>
+  <text x="858" y="516" font-size="20" fill="#16a34a" font-weight="700">5 </text>
+  <text x="882" y="547" font-size="20" fill="#57534e">嬰兒黃疸需照光發生率</text>
 
   <rect x="840" y="552" width="320" height="44" rx="8" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="574" font-size="20" fill="#16a34a" font-weight="700">⑥ </text>
-  <text x="882" y="574" font-size="20" fill="#57534e">服務對象滿意度</text>
+  <text x="858" y="566" font-size="20" fill="#16a34a" font-weight="700">6 </text>
+  <text x="882" y="597" font-size="20" fill="#57534e">服務對象滿意度</text>
 
   <!-- 左側主標題 -->
   <text x="60" y="174" font-size="100" font-weight="900" fill="#1e293b">產後護理之家</text>

@@ -32,21 +32,21 @@
   <text x="555" y="183" font-size="17" fill="#57534e">確認評鑑重點文件清單</text>
 
   <!-- 右下說明 Do -->
-  <rect x="545" y="365" width="6" height="24" rx="2" fill="#78716c"/>
+  <rect x="545" y="365" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="559" y="383" font-size="20" fill="#1e293b" font-weight="700">D 執行（每月）</text>
   <line x1="555" y1="390" x2="755" y2="390" stroke="#78716c" stroke-width="1" stroke-dasharray="4,3"/>
   <text x="555" y="409" font-size="17" fill="#57534e">工作人員持續填寫紀錄</text>
   <text x="555" y="430" font-size="17" fill="#57534e">月底確認各類文件完整</text>
 
   <!-- 左下說明 Check -->
-  <rect x="36" y="365" width="6" height="24" rx="2" fill="#57534e"/>
+  <rect x="36" y="365" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="50" y="383" font-size="20" fill="#1e293b" font-weight="700">C 查核（每月）</text>
   <line x1="46" y1="390" x2="246" y2="390" stroke="#57534e" stroke-width="1" stroke-dasharray="4,3"/>
   <text x="46" y="409" font-size="17" fill="#57534e">月底文件健康度評分</text>
   <text x="46" y="430" font-size="17" fill="#57534e">找出弱項並記錄</text>
 
   <!-- 左上說明 Act -->
-  <rect x="36" y="118" width="6" height="24" rx="2" fill="#a8a29e"/>
+  <rect x="36" y="118" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="50" y="136" font-size="20" fill="#1e293b" font-weight="700">A 改善（每季）</text>
   <line x1="46" y1="143" x2="246" y2="143" stroke="#a8a29e" stroke-width="1" stroke-dasharray="4,3"/>
   <text x="46" y="162" font-size="17" fill="#57534e">針對弱項改善格式或流程</text>

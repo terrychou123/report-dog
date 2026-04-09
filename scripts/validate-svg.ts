@@ -71,7 +71,7 @@ function replaceAt(str: string, idx: number, oldStr: string, newStr: string): st
   return str.slice(0, idx) + newStr + str.slice(idx + oldStr.length);
 }
 
-/** 解析容器 rect（排除背景、色條、Row 主框） */
+/** 解析容器 rect（排除背景、色條、Row 主框、無圓角填充延伸條） */
 function parseContainers(svg: string, svgW: number): ContainerRect[] {
   const out: ContainerRect[] = [];
   for (const m of svg.matchAll(/<rect([^>]*)>/g)) {
@@ -79,8 +79,12 @@ function parseContainers(svg: string, svgW: number): ContainerRect[] {
     const w = parseFloat(attr(el, "width") ?? "0");
     const h = parseFloat(attr(el, "height") ?? "0");
     // 排除：背景大色塊、色條、裝飾線、Row 主框
-    if (w >= svgW * 0.9 || w <= 10 || h <= 6) continue;
+    // h <= 28 排除所有裝飾性色條（h=8 頂部色條、h=20 填充延伸條等）
+    if (w >= svgW * 0.9 || w <= 10 || h <= 28) continue;
     if (attr(el, "stroke") === "#e8e6de") continue;
+    // 排除：無 rx 的裝飾性填充延伸條
+    const rx = attr(el, "rx");
+    if (!rx || rx === "0") continue;
     out.push({
       x: parseFloat(attr(el, "x") ?? "0"),
       y: parseFloat(attr(el, "y") ?? "0"),
@@ -289,6 +293,202 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
   for (const p of pending) {
     out = replaceAt(out, p.idx, p.old, p.next);
     if (p.msg) fixes.push(p.msg);
+  }
+
+  // ── 8. 補 width / height（從 viewBox 提取）─────────────────────────────────
+  {
+    const rootNow = svgRootAttrs(out);
+    const vb = attr(rootNow, "viewBox");
+    const hasW = attr(rootNow, "width") !== null;
+    const hasH = attr(rootNow, "height") !== null;
+    if (vb && (!hasW || !hasH)) {
+      const parts = vb.trim().split(/\s+/);
+      if (parts.length === 4) {
+        const [,, vbW, vbH] = parts;
+        out = out.replace(/<svg([^>]*)>/, (match, attrs) => {
+          let a = attrs;
+          if (!hasW) a += ` width="${vbW}"`;
+          if (!hasH) a += ` height="${vbH}"`;
+          return `<svg${a}>`;
+        });
+        fixes.push(`補上 width="${vbW}" height="${vbH}"（來自 viewBox）`);
+      }
+    }
+  }
+
+  // ── 9. 補背景 rect fill="#f0efe8" ──────────────────────────────────────────
+  if (!/<rect[^>]*fill="#f0efe8"/.test(out) && !/<rect[^>]*fill='#f0efe8'/.test(out)) {
+    const rootNow2 = svgRootAttrs(out);
+    const bgW = attr(rootNow2, "width") ?? "800";
+    const bgH = attr(rootNow2, "height") ?? "500";
+    out = out.replace(/(<svg[^>]*>)/, `$1\n  <rect width="${bgW}" height="${bgH}" fill="#f0efe8"/>`);
+    fixes.push("補上背景 rect fill=\"#f0efe8\"");
+  }
+
+  // ── 10. 補浮水印 ─────────────────────────────────────────────────────────────
+  if (!/報告汪[^<]*reportwang/.test(out)) {
+    const rootNow3 = svgRootAttrs(out);
+    const isCoverNow = attr(rootNow3, "width") === "1200";
+    const wmX = isCoverNow ? 1140 : 760;
+    const wmY = isCoverNow ? 590 : 480;
+    const wmFs = isCoverNow ? 24 : 16;
+    const wmColor = isCoverNow ? "#c4bfb8" : "#d97706";
+    const wmLine = `  <text x="${wmX}" y="${wmY}" font-size="${wmFs}" fill="${wmColor}" text-anchor="end">報告汪 reportwang.com</text>\n`;
+    out = out.replace(/<\/svg>/, `${wmLine}</svg>`);
+    fixes.push("補上品牌浮水印「報告汪 reportwang.com」");
+  }
+
+  // ── 11. 字級 < 14px → 14px ──────────────────────────────────────────────────
+  {
+    let smallFontFixed = false;
+    out = out.replace(/font-size="(\d+(?:\.\d+)?)"/g, (match, size) => {
+      if (parseFloat(size) < 14) {
+        smallFontFixed = true;
+        return 'font-size="14"';
+      }
+      return match;
+    });
+    if (smallFontFixed) fixes.push("字級 < 14px 改為 14px");
+  }
+
+  // ── 12. R 說明文（x=100 fill=#57534e）font-size → 16px ──────────────────────
+  {
+    let rFontFixed = false;
+    // 處理 x="100" 在 fill="#57534e" 之前的情況
+    out = out.replace(/<text([^>]*)x="100"([^>]*)fill="#57534e"([^>]*)>/g, (match) => {
+      if (/font-weight="700"/.test(match)) return match; // Q 標題不改
+      const fs = attr(match, "font-size");
+      if (fs && fs !== "16") {
+        rFontFixed = true;
+        return setAttr(match, "font-size", "16");
+      }
+      return match;
+    });
+    // 處理 fill="#57534e" 在 x="100" 之前的情況
+    out = out.replace(/<text([^>]*)fill="#57534e"([^>]*)x="100"([^>]*)>/g, (match) => {
+      if (/font-weight="700"/.test(match)) return match;
+      const fs = attr(match, "font-size");
+      if (fs && fs !== "16") {
+        rFontFixed = true;
+        return setAttr(match, "font-size", "16");
+      }
+      return match;
+    });
+    if (rFontFixed) fixes.push("R 說明文 font-size → 16px");
+  }
+
+  // ── 13. Emoji / Unicode 符號替換（僅替換 <text> 內容）──────────────────────
+  {
+    let emojiFixed = false;
+    out = out.replace(/(<text[^>]*>)([\s\S]*?)(<\/text>)/g, (match, open, content, close) => {
+      // 只跳過真正的浮水印元素（同時包含「報告汪」和「reportwang.com」）
+      if (content.includes("reportwang.com")) return match;
+      let fixed2 = content;
+      // 常見箭頭與方向符號
+      fixed2 = fixed2.replace(/\u2192/g, "-");  // → (U+2192)
+      fixed2 = fixed2.replace(/\u2190/g, "-");  // ← (U+2190)
+      fixed2 = fixed2.replace(/\u2193/g, "|");  // ↓ (U+2193)
+      fixed2 = fixed2.replace(/\u21B3/g, "|_"); // ↳ (U+21B3)
+      fixed2 = fixed2.replace(/→/g, "-");
+      fixed2 = fixed2.replace(/←/g, "-");
+      fixed2 = fixed2.replace(/↓/g, "|");
+      fixed2 = fixed2.replace(/↳/g, "|_");
+      // 方框與勾選
+      fixed2 = fixed2.replace(/\u25A1/g, "[ ]"); // □ (U+25A1 White Square)
+      fixed2 = fixed2.replace(/\u2610/g, "[ ]"); // ☐ (U+2610 Ballot Box)
+      fixed2 = fixed2.replace(/[□☐]/g, "[ ]");
+      fixed2 = fixed2.replace(/\u2713/g, "[v]"); // ✓ (U+2713)
+      fixed2 = fixed2.replace(/\u2714/g, "[v]"); // ✔ (U+2714)
+      fixed2 = fixed2.replace(/\u2611/g, "[v]"); // ☑ (U+2611)
+      fixed2 = fixed2.replace(/[✓✔☑]/g, "[v]");
+      fixed2 = fixed2.replace(/[✗✘❌]/g, "[x]");
+      fixed2 = fixed2.replace(/[✅]/g, "[v]");
+      fixed2 = fixed2.replace(/[○●◎]/g, "");
+      fixed2 = fixed2.replace(/[▶▸►]/g, ">");
+      fixed2 = fixed2.replace(/[◆◇]/g, "*");
+      fixed2 = fixed2.replace(/[★☆✦]/g, "*");
+      fixed2 = fixed2.replace(/[▼▽]/g, "v");
+      fixed2 = fixed2.replace(/[△▲]/g, "^");
+      fixed2 = fixed2.replace(/[▪▫]/g, "-");
+      fixed2 = fixed2.replace(/⚠/g, "(!)");
+      fixed2 = fixed2.replace(/[①②③④⑤⑥⑦⑧⑨⑩]/g, (c) => {
+        const n = "①②③④⑤⑥⑦⑧⑨⑩".indexOf(c) + 1;
+        return String(n);
+      });
+      fixed2 = fixed2.replace(/≤/g, "<=");
+      fixed2 = fixed2.replace(/≥/g, ">=");
+      fixed2 = fixed2.replace(/─/g, "-");
+      // Miscellaneous Technical（U+2300~U+23FF）
+      fixed2 = fixed2.replace(/[\u2300-\u23FF]/g, "");
+      // Miscellaneous Symbols（U+2600~U+26FF）
+      fixed2 = fixed2.replace(/[\u2600-\u26FF]/g, "");
+      // Dingbats（U+2700~U+27BF）
+      fixed2 = fixed2.replace(/[\u2700-\u27BF]/g, "");
+      // Emoji（U+1F000~U+1FFFF）
+      fixed2 = fixed2.replace(/[\u{1F000}-\u{1FFFF}]/gu, "");
+      // 清理連續空白
+      fixed2 = fixed2.replace(/  +/g, " ").trim();
+      if (fixed2 !== content.replace(/  +/g, " ").trim()) {
+        emojiFixed = true;
+        return `${open}${fixed2}${close}`;
+      }
+      return match;
+    });
+    if (emojiFixed) fixes.push("Emoji/Unicode 符號替換為純文字");
+  }
+
+  // ── 14. Row rect fill 錯誤修正（stroke=#e8e6de 應為 fill=white）────────────
+  {
+    let rowFillFixed = false;
+    out = out.replace(/<rect([^>]+)stroke="#e8e6de"([^>]*)>/g, (match) => {
+      const fill = attr(match, "fill");
+      if (fill && fill !== "white" && fill !== "#ffffff") {
+        rowFillFixed = true;
+        return setAttr(match, "fill", "white");
+      }
+      return match;
+    });
+    if (rowFillFixed) fixes.push("Row rect fill → white");
+  }
+
+  // ── 15. 色彩順序修正（左色條依 y 排序後重新指定 ROW_COLORS）──────────────────
+  {
+    // 語義色：不強制換色（這些是故意用於特定分類的顏色）
+    const SEMANTIC_COLORS = ["#2563eb", "#16a34a", "#ea580c", "#9333ea", "#0d9488", "#4f46e5"];
+
+    // 收集所有左色條（width=6, rx=2）的位置與顏色
+    // 用 attr() 檢查而非 regex 屬性順序，避免因工具輸出順序不同而漏掉
+    const allBarMatches: { idx: number; el: string; y: number; fill: string }[] = [];
+    for (const m of out.matchAll(/<rect([^>]*)>/g)) {
+      const el = m[0];
+      if (attr(el, "width") !== "6" || attr(el, "rx") !== "2") continue;
+      const fill = attr(el, "fill") ?? "";
+      if (!fill) continue;
+      // 遇到語義色（醫院/精神科等刻意用色）→ 跳過整個 SVG 的色彩重排
+      if (SEMANTIC_COLORS.includes(fill)) { allBarMatches.length = 0; break; }
+      const y = parseFloat(attr(el, "y") ?? "0");
+      allBarMatches.push({ idx: m.index!, el, y, fill });
+    }
+    allBarMatches.sort((a, b) => a.y - b.y);
+    const N = allBarMatches.length;
+
+    if (N >= 3 && N <= 6) {
+      // list template 左色條一律使用大地色系順序
+      const expectedColors = ROW_COLORS.slice(0, N);
+      const wrongOrder = allBarMatches.some((b, i) => b.fill !== expectedColors[i]);
+      if (wrongOrder) {
+        const reversed = [...allBarMatches].reverse();
+        for (let i = 0; i < reversed.length; i++) {
+          const b = reversed[i];
+          const correctIdx = N - 1 - i;
+          const newEl = setAttr(b.el, "fill", expectedColors[correctIdx]);
+          if (newEl !== b.el) {
+            out = replaceAt(out, b.idx, b.el, newEl);
+          }
+        }
+        fixes.push(`色彩順序修正（${N} 個左色條 → 大地色系）`);
+      }
+    }
   }
 
   // 去重 fixes 訊息

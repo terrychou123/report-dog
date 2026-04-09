@@ -24,7 +24,7 @@
   <!-- 右側圖示區 -->
   <!-- 防疫卡片 -->
   <rect x="620" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="640" y="115" font-size="38">🦠</text>
+  <text x="640" y="115" font-size="38"></text>
   <text x="720" y="122" font-size="20" fill="#1e293b" font-weight="700">B10 防疫</text>
   <text x="720" y="148" font-size="14" fill="#57534e">住民每日量體溫</text>
   <text x="720" y="168" font-size="14" fill="#57534e">員工每週量體溫</text>
@@ -32,7 +32,7 @@
 
   <!-- 感染防治卡片 -->
   <rect x="880" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="900" y="115" font-size="38">🔬</text>
+  <text x="900" y="115" font-size="38"></text>
   <text x="980" y="122" font-size="20" fill="#1e293b" font-weight="700">B17 感染</text>
   <text x="980" y="148" font-size="14" fill="#57534e">逐案分析處置</text>
   <text x="980" y="168" font-size="14" fill="#57534e">每半年定期分析</text>
@@ -40,7 +40,7 @@
 
   <!-- 疫苗卡片 -->
   <rect x="620" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="640" y="265" font-size="38">💉</text>
+  <text x="640" y="265" font-size="38"></text>
   <text x="720" y="272" font-size="20" fill="#1e293b" font-weight="700">B25 疫苗</text>
   <text x="720" y="298" font-size="14" fill="#57534e">流感疫苗接種名冊</text>
   <text x="720" y="318" font-size="14" fill="#57534e">二級加強項目</text>
@@ -48,7 +48,7 @@
 
   <!-- 隔離空間卡片 -->
   <rect x="880" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
-  <text x="900" y="265" font-size="38">🏥</text>
+  <text x="900" y="265" font-size="38"></text>
   <text x="980" y="272" font-size="20" fill="#1e293b" font-weight="700">C13 隔離</text>
   <text x="980" y="298" font-size="14" fill="#57534e">獨立空調衛浴</text>
   <text x="980" y="318" font-size="14" fill="#57534e">緊急呼叫設備</text>
@@ -57,10 +57,10 @@
   <!-- 底部區塊 -->
   <rect x="620" y="390" width="500" height="160" rx="12" fill="#fef3c7"/>
   <text x="870" y="430" text-anchor="middle" font-size="18" fill="#92400e" font-weight="700">感染管制 4 大面向</text>
-  <text x="640" y="465" font-size="15" fill="#78716c">✓ 體溫監測與通報機制（B10）</text>
-  <text x="640" y="492" font-size="15" fill="#78716c">✓ 4類感染逐案分析（B17）</text>
-  <text x="640" y="519" font-size="15" fill="#78716c">✓ 流感疫苗接種名冊（B25）</text>
-  <text x="640" y="546" font-size="15" fill="#78716c">✓ 隔離空間設備（C13）</text>
+  <text x="640" y="465" font-size="15" fill="#78716c">[v] 體溫監測與通報機制（B10）</text>
+  <text x="640" y="492" font-size="15" fill="#78716c">[v] 4類感染逐案分析（B17）</text>
+  <text x="640" y="519" font-size="15" fill="#78716c">[v] 流感疫苗接種名冊（B25）</text>
+  <text x="640" y="546" font-size="15" fill="#78716c">[v] 隔離空間設備（C13）</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

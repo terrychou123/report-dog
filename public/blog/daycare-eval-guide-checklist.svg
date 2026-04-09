@@ -30,7 +30,7 @@
   <text x="94" y="253" font-size="18" fill="#1e293b">緊急呼叫系統正常運作</text>
 
   <!-- 左欄：服務品質（暖灰） -->
-  <rect x="60" y="275" width="6" height="24" rx="2" fill="#78716c"/>
+  <rect x="60" y="275" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="74" y="293" font-size="20" fill="#1e293b" font-weight="700">服務品質</text>
 
   <rect x="64" y="311" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
@@ -52,7 +52,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄：文件管理（深棕） -->
-  <rect x="416" y="111" width="6" height="24" rx="2" fill="#57534e"/>
+  <rect x="416" y="111" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="430" y="129" font-size="20" fill="#1e293b" font-weight="700">文件管理</text>
 
   <rect x="420" y="147" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>

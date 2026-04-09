@@ -16,11 +16,11 @@
   <!-- 標題與說明 -->
   <text x="126" y="160" font-size="20" font-weight="700" fill="#1e293b" >優等</text>
   <text x="126" y="182" font-size="15" fill="#57534e" >總分 90 分（含）以上，且一級必要指標＋二級加強指標全部達規定標準</text>
-  <text x="126" y="204" font-size="14" fill="#16a34a" >✦ 獲主管機關公開表揚，補助申請享優先資格</text>
+  <text x="126" y="204" font-size="14" fill="#16a34a" >* 獲主管機關公開表揚，補助申請享優先資格</text>
   <!-- 右側標籤 -->
   <rect x="596" y="145" width="136" height="46" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="664" y="159" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="600" >≥ 90 分</text>
-  <text x="664" y="178" font-size="13" fill="#16a34a" text-anchor="middle" >一＋二級達標</text>
+  <text x="664" y="159" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="600" >>= 90 分</text>
+  <text x="664" y="178" font-size="14" fill="#16a34a" text-anchor="middle" >一＋二級達標</text>
 
   <!-- Row 2: 合格 (y=269) -->
   <rect x="40" y="231" width="720" height="90" rx="8" fill="#ffffff"/>
@@ -29,10 +29,10 @@
   <text x="90" y="282" font-size="20" font-weight="700" fill="#d97706" text-anchor="middle" >合</text>
   <text x="126" y="263" font-size="20" font-weight="700" fill="#1e293b" >合格</text>
   <text x="126" y="285" font-size="15" fill="#57534e" >總分 70 分（含）以上，且六項一級必要指標全部達規定評分標準</text>
-  <text x="126" y="307" font-size="14" fill="#d97706" >✦ 符合基本照護品質，可繼續正常營運</text>
+  <text x="126" y="307" font-size="14" fill="#d97706" >* 符合基本照護品質，可繼續正常營運</text>
   <rect x="596" y="248" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="664" y="262" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" >≥ 70 分</text>
-  <text x="664" y="281" font-size="13" fill="#d97706" text-anchor="middle" >一級達標</text>
+  <text x="664" y="262" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600" >>= 70 分</text>
+  <text x="664" y="281" font-size="14" fill="#d97706" text-anchor="middle" >一級達標</text>
 
   <!-- Row 3: 不合格 (y=372) -->
   <rect x="40" y="334" width="720" height="90" rx="8" fill="#ffffff"/>
@@ -41,10 +41,10 @@
   <text x="90" y="385" font-size="20" font-weight="700" fill="#dc2626" text-anchor="middle" >否</text>
   <text x="126" y="366" font-size="20" font-weight="700" fill="#1e293b" >不合格</text>
   <text x="126" y="388" font-size="15" fill="#57534e" >總分未達 70 分，或一級必要指標（C4/C9-C12/C15）任一項未達標</text>
-  <text x="126" y="410" font-size="14" fill="#dc2626" >⚠ 面臨限期改善乃至停業處分</text>
+  <text x="126" y="410" font-size="14" fill="#dc2626" >(!) 面臨限期改善乃至停業處分</text>
   <rect x="596" y="351" width="136" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="664" y="365" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600" >＜ 70 分</text>
-  <text x="664" y="384" font-size="13" fill="#dc2626" text-anchor="middle" >或一級未過</text>
+  <text x="664" y="384" font-size="14" fill="#dc2626" text-anchor="middle" >或一級未過</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

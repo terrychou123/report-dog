@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
@@ -6,9 +7,9 @@
   <rect x="0" y="0" width="800" height="110" fill="#f5f5f4"/>
   <text x="400" y="50" text-anchor="middle" font-size="24" font-weight="900" fill="#1c1917">新進人員職前訓練四大要件</text>
   <rect x="340" y="62" width="56" height="22" rx="11" fill="#dcfce7"/>
-  <text x="368" y="78" text-anchor="middle" font-size="13" fill="#16a34a" font-weight="700">1.3.5</text>
+  <text x="368" y="78" text-anchor="middle" font-size="14" fill="#16a34a" font-weight="700">1.3.5</text>
   <rect x="404" y="62" width="56" height="22" rx="11" fill="#fef9c3"/>
-  <text x="432" y="78" text-anchor="middle" font-size="13" fill="#ca8a04" font-weight="700">重點條文</text>
+  <text x="432" y="78" text-anchor="middle" font-size="14" fill="#ca8a04" font-weight="700">重點條文</text>
   <text x="400" y="98" text-anchor="middle" font-size="14" fill="#78716c">評鑑委員資料查核重點：計畫完整、100%完成率、效果評估留存</text>
 
   <!-- 列1：訓練計畫書 -->
@@ -16,37 +17,37 @@
   <rect x="38" y="120" width="8" height="76" rx="4" fill="#d97706"/>
   <text x="62" y="152" font-size="16" font-weight="700" fill="#d97706">01</text>
   <text x="88" y="152" font-size="16" font-weight="700" fill="#1c1917">訓練計畫書</text>
-  <text x="88" y="174" font-size="13" fill="#78716c">醫院訂有職前訓練計畫，明確列出訓練主題（院內政策/病安/感控/緊急應變）、時數、負責人</text>
+  <text x="88" y="174" font-size="14" fill="#78716c">醫院訂有職前訓練計畫，明確列出訓練主題（院內政策/病安/感控/緊急應變）、時數、負責人</text>
   <rect x="628" y="138" width="88" height="28" rx="14" fill="#fef3c7"/>
-  <text x="672" y="157" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">計畫完整</text>
+  <text x="672" y="157" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">計畫完整</text>
 
   <!-- 列2：100%完成率 -->
   <rect x="38" y="206" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="206" width="8" height="76" rx="4" fill="#78716c"/>
   <text x="62" y="238" font-size="16" font-weight="700" fill="#78716c">02</text>
   <text x="88" y="238" font-size="16" font-weight="700" fill="#1c1917">100%完成率</text>
-  <text x="88" y="260" font-size="13" fill="#78716c">每位新進人員均完成職前訓練，有個別出席紀錄，無遺漏</text>
+  <text x="88" y="260" font-size="14" fill="#78716c">每位新進人員均完成職前訓練，有個別出席紀錄，無遺漏</text>
   <rect x="628" y="224" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="672" y="243" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">全員完成</text>
+  <text x="672" y="243" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">全員完成</text>
 
   <!-- 列3：效果評估記錄 -->
   <rect x="38" y="292" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="292" width="8" height="76" rx="4" fill="#57534e"/>
   <text x="62" y="324" font-size="16" font-weight="700" fill="#57534e">03</text>
   <text x="88" y="324" font-size="16" font-weight="700" fill="#1c1917">效果評估記錄</text>
-  <text x="88" y="346" font-size="13" fill="#78716c">訓練後有評估（測驗/實作），評估結果有書面紀錄，不合格者有補訓機制</text>
+  <text x="88" y="346" font-size="14" fill="#78716c">訓練後有評估（測驗/實作），評估結果有書面紀錄，不合格者有補訓機制</text>
   <rect x="628" y="310" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="672" y="329" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">評估留存</text>
+  <text x="672" y="329" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">評估留存</text>
 
   <!-- 列4：歸檔可查核 -->
   <rect x="38" y="378" width="724" height="76" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
   <rect x="38" y="378" width="8" height="76" rx="4" fill="#a8a29e"/>
   <text x="62" y="410" font-size="16" font-weight="700" fill="#a8a29e">04</text>
   <text x="88" y="410" font-size="16" font-weight="700" fill="#1c1917">歸檔可查核</text>
-  <text x="88" y="432" font-size="13" fill="#78716c">訓練計畫書、出席紀錄、評估結果均歸檔，評鑑時可快速調閱</text>
+  <text x="88" y="432" font-size="14" fill="#78716c">訓練計畫書、出席紀錄、評估結果均歸檔，評鑑時可快速調閱</text>
   <rect x="628" y="396" width="88" height="28" rx="14" fill="#f5f5f4"/>
-  <text x="672" y="415" text-anchor="middle" font-size="13" fill="#a8a29e" font-weight="700">調閱便利</text>
+  <text x="672" y="415" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">調閱便利</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480" text-anchor="middle" font-size="14" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

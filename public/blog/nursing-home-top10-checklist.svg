@@ -21,7 +21,7 @@
   <rect x="48" y="190" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
   <text x="78" y="206" font-size="17" fill="#1e293b">夜班照服員比例符合各型別標準</text>
 
-  <rect x="40" y="225" width="6" height="24" rx="2" fill="#78716c"/>
+  <rect x="40" y="225" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="56" y="242" font-size="18" fill="#1e293b" font-weight="700">個案計畫（B2）</text>
 
   <rect x="48" y="255" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>
@@ -38,7 +38,7 @@
   <line x1="400" y1="98" x2="400" y2="432" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 右欄 -->
-  <rect x="416" y="104" width="6" height="24" rx="2" fill="#57534e"/>
+  <rect x="416" y="104" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="432" y="121" font-size="18" fill="#1e293b" font-weight="700">感染分析（B13、B17）</text>
 
   <rect x="424" y="134" width="20" height="20" rx="3" fill="#f0efe8" stroke="#a8a29e" stroke-width="1"/>

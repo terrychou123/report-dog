@@ -8,13 +8,13 @@
   <rect x="40" y="110" width="166" height="320" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
   <rect x="40" y="110" width="166" height="46" rx="10" fill="#2563eb"/>
   <rect x="40" y="134" width="166" height="22" fill="#2563eb"/>
-  <text x="123" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C1 緊急應變計畫</text>
-  <text x="123" y="143" font-size="14" fill="#bfdbfe" text-anchor="middle">資料+實地查核</text>
+  <text x="123" y="121" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C1 緊急應變計畫</text>
+  <text x="123" y="150" font-size="14" fill="#bfdbfe" text-anchor="middle">資料+實地查核</text>
   <text x="52" y="184" font-size="14" fill="#57534e">• 涵蓋火、震、颱</text>
   <text x="52" y="204" font-size="14" fill="#57534e">• 每年2次演練</text>
   <text x="52" y="224" font-size="14" fill="#57534e">• 含1次夜間演練</text>
   <text x="52" y="244" font-size="14" fill="#57534e">• 消防設備維護記錄</text>
-  <text x="52" y="278" font-size="14" fill="#dc2626" font-weight="600">⚠ 常見缺失：</text>
+  <text x="52" y="278" font-size="14" fill="#dc2626" font-weight="600">(!) 常見缺失：</text>
   <text x="52" y="298" font-size="14" fill="#dc2626">缺夜間演練</text>
   <text x="52" y="318" font-size="14" fill="#dc2626">演練無改善記錄</text>
 
@@ -22,13 +22,13 @@
   <rect x="220" y="110" width="166" height="320" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
   <rect x="220" y="110" width="166" height="46" rx="10" fill="#2563eb"/>
   <rect x="220" y="134" width="166" height="22" fill="#2563eb"/>
-  <text x="303" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C2 疏散避難系統</text>
-  <text x="303" y="143" font-size="14" fill="#bfdbfe" text-anchor="middle">實地查核為主</text>
+  <text x="303" y="121" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C2 疏散避難系統</text>
+  <text x="303" y="150" font-size="14" fill="#bfdbfe" text-anchor="middle">實地查核為主</text>
   <text x="232" y="184" font-size="14" fill="#57534e">• 疏散通道無障礙物</text>
   <text x="232" y="204" font-size="14" fill="#57534e">• 防火區劃有標示</text>
   <text x="232" y="224" font-size="14" fill="#57534e">• 疏散指示標誌清晰</text>
   <text x="232" y="244" font-size="14" fill="#57534e">• 緊急照明正常</text>
-  <text x="232" y="278" font-size="14" fill="#16a34a" font-weight="600">✓ 評鑑前走查：</text>
+  <text x="232" y="278" font-size="14" fill="#16a34a" font-weight="600">[v] 評鑑前走查：</text>
   <text x="232" y="298" font-size="14" fill="#57534e">逐條實地確認</text>
   <text x="232" y="318" font-size="14" fill="#57534e">清除所有雜物</text>
 
@@ -36,14 +36,14 @@
   <rect x="400" y="110" width="166" height="320" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
   <rect x="400" y="110" width="166" height="46" rx="10" fill="#2563eb"/>
   <rect x="400" y="134" width="166" height="22" fill="#2563eb"/>
-  <text x="483" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C3 疏散策略教育</text>
-  <text x="483" y="143" font-size="14" fill="#bfdbfe" text-anchor="middle">資料+實地查核</text>
+  <text x="483" y="121" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C3 疏散策略教育</text>
+  <text x="483" y="150" font-size="14" fill="#bfdbfe" text-anchor="middle">資料+實地查核</text>
   <text x="412" y="184" font-size="14" fill="#57534e">• 住民個別化疏散方式</text>
-  <text x="412" y="204" font-size="14" fill="#57534e">  行走/輪椅/擔架</text>
+  <text x="412" y="204" font-size="14" fill="#57534e"> 行走/輪椅/擔架</text>
   <text x="412" y="224" font-size="14" fill="#57534e">• 疏散後持續照顧程序</text>
-  <text x="412" y="244" font-size="14" fill="#57534e">  含醫療用藥飲食</text>
+  <text x="412" y="244" font-size="14" fill="#57534e"> 含醫療用藥飲食</text>
   <text x="412" y="264" font-size="14" fill="#57534e">• 工作人員教育訓練</text>
-  <text x="412" y="296" font-size="14" fill="#dc2626" font-weight="600">⚠ 常見缺失：</text>
+  <text x="412" y="296" font-size="14" fill="#dc2626" font-weight="600">(!) 常見缺失：</text>
   <text x="412" y="316" font-size="14" fill="#dc2626">住民疏散名冊與</text>
   <text x="412" y="336" font-size="14" fill="#dc2626">現況不符</text>
 
@@ -51,14 +51,14 @@
   <rect x="580" y="110" width="180" height="320" rx="10" fill="#fef3c7" stroke="#dc2626" stroke-width="2"/>
   <rect x="580" y="110" width="180" height="46" rx="10" fill="#dc2626"/>
   <rect x="580" y="134" width="180" height="22" fill="#dc2626"/>
-  <text x="670" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C4 情境演練抽測</text>
-  <text x="670" y="143" font-size="14" fill="#fee2e2" text-anchor="middle">實地查核 · 最難準備</text>
+  <text x="670" y="121" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C4 情境演練抽測</text>
+  <text x="670" y="150" font-size="14" fill="#fee2e2" text-anchor="middle">實地查核 · 最難準備</text>
   <text x="592" y="184" font-size="14" fill="#57534e">• 不同起火位置情境</text>
-  <text x="592" y="204" font-size="14" fill="#57534e">  至少3種情境計畫</text>
+  <text x="592" y="204" font-size="14" fill="#57534e"> 至少3種情境計畫</text>
   <text x="592" y="224" font-size="14" fill="#57534e">• 委員當場指定情境</text>
   <text x="592" y="244" font-size="14" fill="#57534e">• 工作人員自行操作</text>
-  <text x="592" y="264" font-size="14" fill="#57534e">  消防設備（非外包）</text>
-  <text x="592" y="296" font-size="14" fill="#dc2626" font-weight="600">⚠ 唯一無法補救：</text>
+  <text x="592" y="264" font-size="14" fill="#57534e"> 消防設備（非外包）</text>
+  <text x="592" y="296" font-size="14" fill="#dc2626" font-weight="600">(!) 唯一無法補救：</text>
   <text x="592" y="316" font-size="14" fill="#dc2626">只能靠平時演練</text>
   <text x="592" y="336" font-size="14" fill="#dc2626">各班次都要練</text>
 

@@ -24,10 +24,10 @@
   <text x="100" y="304" font-size="20" fill="#78716c">等第判定（優等/甲等/乙等）</text>
   <rect x="100" y="316" width="340" height="1" fill="#e5e7eb"/>
   <text x="100" y="336" font-size="24" fill="#44403c" font-weight="700">強制性</text>
-  <text x="100" y="356" font-size="20" fill="#d97706" font-weight="700">強制參與  不通過有行政處分</text>
+  <text x="100" y="356" font-size="20" fill="#d97706" font-weight="700">強制參與 不通過有行政處分</text>
   <!-- 評鑑標籤 -->
   <rect x="80" y="412" width="200" height="40" rx="20" fill="#d97706"/>
-  <text x="180" y="437" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">強制性  等第公開</text>
+  <text x="180" y="437" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">強制性 等第公開</text>
   <!-- 右側 - 品質獎勵計畫 -->
   <text x="920" y="120" font-size="44" font-weight="900" text-anchor="middle" fill="#1e40af">品質獎勵計畫</text>
   <rect x="720" y="148" width="400" height="240" rx="14" fill="#ffffff" opacity="0.85"/>
@@ -42,17 +42,17 @@
   <text x="740" y="304" font-size="20" fill="#78716c">獎勵金發放（依指標達標程度）</text>
   <rect x="740" y="316" width="340" height="1" fill="#e5e7eb"/>
   <text x="740" y="336" font-size="24" fill="#44403c" font-weight="700">強制性</text>
-  <text x="740" y="356" font-size="20" fill="#1e40af" font-weight="700">自願申請  不申請無處罰</text>
+  <text x="740" y="356" font-size="20" fill="#1e40af" font-weight="700">自願申請 不申請無處罰</text>
   <!-- 品質計畫標籤 -->
   <rect x="720" y="412" width="220" height="40" rx="20" fill="#1e40af"/>
-  <text x="830" y="437" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">自願  獎勵金制度</text>
+  <text x="830" y="437" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">自願 獎勵金制度</text>
   <!-- 底部共用說明 -->
   <rect x="80" y="478" width="1040" height="86" rx="12" fill="#ffffff" opacity="0.7"/>
   <text x="600" y="510" font-size="24" font-weight="700" text-anchor="middle" fill="#1c1917">文件重疊（準備一份兩邊都用）</text>
   <text x="300" y="538" font-size="20" text-anchor="middle" fill="#44403c">品質指標追蹤（跌倒/壓傷/感染）</text>
   <text x="600" y="538" font-size="20" text-anchor="middle" fill="#44403c">照護計畫文件</text>
   <text x="900" y="538" font-size="20" text-anchor="middle" fill="#44403c">工作人員訓練記錄</text>
-  <text x="600" y="558" font-size="20" text-anchor="middle" fill="#78716c">先完成評鑑準備 → 直接用於品質計畫申請</text>
+  <text x="600" y="558" font-size="20" text-anchor="middle" fill="#78716c">先完成評鑑準備 - 直接用於品質計畫申請</text>
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

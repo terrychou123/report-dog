@@ -6,26 +6,26 @@
   <text x="1010" y="155" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">日間型 vs 住宿型</text>
 
   <rect x="840" y="170" width="155" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="205" font-size="32" fill="#0284c7" text-anchor="middle" font-weight="900">36條</text>
-  <text x="918" y="232" font-size="20" fill="#a8a29e" text-anchor="middle">日間型</text>
+  <text x="918" y="211" font-size="32" fill="#0284c7" text-anchor="middle" font-weight="900">36條</text>
+  <text x="918" y="242" font-size="20" fill="#a8a29e" text-anchor="middle">日間型</text>
   <text x="918" y="251" font-size="16" fill="#a8a29e" text-anchor="middle">學員</text>
 
   <rect x="1005" y="170" width="155" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="205" font-size="32" fill="#7c3aed" text-anchor="middle" font-weight="900">40條</text>
-  <text x="1083" y="232" font-size="20" fill="#a8a29e" text-anchor="middle">住宿型</text>
+  <text x="1083" y="211" font-size="32" fill="#7c3aed" text-anchor="middle" font-weight="900">40條</text>
+  <text x="1083" y="242" font-size="20" fill="#a8a29e" text-anchor="middle">住宿型</text>
   <text x="1083" y="251" font-size="16" fill="#a8a29e" text-anchor="middle">住民</text>
 
   <rect x="840" y="275" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="303" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">住宿型多4條</text>
-  <text x="1000" y="323" font-size="18" fill="#a8a29e" text-anchor="middle">第一章+2、第三章+2</text>
+  <text x="1000" y="295" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">住宿型多4條</text>
+  <text x="1000" y="326" font-size="18" fill="#a8a29e" text-anchor="middle">第一章+2、第三章+2</text>
 
   <rect x="840" y="344" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1000" y="372" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">PFM：5項→7項</text>
-  <text x="1000" y="392" font-size="18" fill="#a8a29e" text-anchor="middle">住宿型多3.7、3.11</text>
+  <text x="1000" y="364" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">PFM：5項-7項</text>
+  <text x="1000" y="395" font-size="18" fill="#a8a29e" text-anchor="middle">住宿型多3.7、3.11</text>
 
   <rect x="840" y="413" width="320" height="64" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
   <text x="1000" y="437" font-size="22" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型重點項目</text>
-  <text x="1000" y="458" font-size="16" fill="#dc2626" text-anchor="middle">3.11出入自由</text>
+  <text x="1000" y="468" font-size="16" fill="#dc2626" text-anchor="middle">3.11出入自由</text>
   <text x="1000" y="474" font-size="16" fill="#dc2626" text-anchor="middle">未達C即不合格</text>
 
   <!-- 左側主標題 -->

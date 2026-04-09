@@ -24,7 +24,7 @@
   <text x="648" y="182" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">日 1:5 ／ 夜 1:15</text>
 
   <!-- Row 2: 養護型 y=212-272 -->
-  <rect x="40" y="212" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="212" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1" rx="12"/>
   <rect x="40" y="212" width="6" height="60" fill="#78716c" rx="2"/>
   <text x="152" y="246" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">養護型</text>
   <line x1="264" y1="212" x2="264" y2="272" stroke="#dedad3" stroke-width="1"/>
@@ -44,7 +44,7 @@
   <text x="648" y="302" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">日 1:3 ／ 夜 1:15</text>
 
   <!-- Row 4: 安養型 y=332-392 -->
-  <rect x="40" y="332" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="332" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1" rx="12"/>
   <rect x="40" y="332" width="6" height="60" fill="#a8a29e" rx="2"/>
   <text x="152" y="366" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">安養型</text>
   <line x1="264" y1="332" x2="264" y2="392" stroke="#dedad3" stroke-width="1"/>

@@ -10,25 +10,25 @@
 
   <!-- 右側資訊卡片 -->
   <rect x="840" y="260" width="320" height="54" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="287" font-size="21" fill="#dc2626" font-weight="700">產婦緊急 SOP</text>
-  <text x="980" y="287" font-size="20" fill="#57534e">大出血・休克・癲癇</text>
+  <text x="858" y="279" font-size="21" fill="#dc2626" font-weight="700">產婦緊急 SOP</text>
+  <text x="980" y="310" font-size="20" fill="#57534e">大出血・休克・癲癇</text>
 
   <rect x="840" y="320" width="320" height="54" rx="10" fill="#dc2626" opacity="0.08" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="347" font-size="21" fill="#dc2626" font-weight="700">嬰兒緊急 SOP</text>
-  <text x="980" y="347" font-size="20" fill="#57534e">呼吸窘迫・NRP</text>
+  <text x="858" y="339" font-size="21" fill="#dc2626" font-weight="700">嬰兒緊急 SOP</text>
+  <text x="980" y="370" font-size="20" fill="#57534e">呼吸窘迫・NRP</text>
 
   <rect x="840" y="380" width="320" height="54" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="407" font-size="21" fill="#d97706" font-weight="700">急救演練記錄</text>
-  <text x="980" y="407" font-size="20" fill="#57534e">每年至少 1–2 次</text>
+  <text x="858" y="399" font-size="21" fill="#d97706" font-weight="700">急救演練記錄</text>
+  <text x="980" y="430" font-size="20" fill="#57534e">每年至少 1–2 次</text>
 
   <rect x="840" y="440" width="320" height="54" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="467" font-size="21" fill="#78716c" font-weight="700">醫療合作協議</text>
-  <text x="980" y="467" font-size="20" fill="#57534e">每年更新確認</text>
+  <text x="858" y="459" font-size="21" fill="#78716c" font-weight="700">醫療合作協議</text>
+  <text x="980" y="490" font-size="20" fill="#57534e">每年更新確認</text>
 
   <!-- 右側 SOP 格式提示 -->
   <rect x="840" y="503" width="320" height="56" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="520" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">識別→處置→通報→記錄</text>
-  <text x="1000" y="542" font-size="18" fill="#78716c" text-anchor="middle">SOP 標準格式</text>
+  <text x="1000" y="520" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">識別-處置-通報-記錄</text>
+  <text x="1000" y="554" font-size="18" fill="#78716c" text-anchor="middle">SOP 標準格式</text>
 
   <rect x="840" y="566" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="1000" y="595" font-size="20" fill="#57534e" text-anchor="middle">含緊急聯絡電話張貼</text>

@@ -32,7 +32,7 @@
   <rect x="60" y="346" width="680" height="100" rx="10" fill="white"/>
   <rect x="60" y="346" width="6" height="100" rx="2" fill="#57534e"/>
   <circle cx="94" cy="396" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="94" y="402" font-size="12" fill="#57534e" text-anchor="middle" font-weight="700" >A13/14</text>
+  <text x="94" y="402" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700" >A13/14</text>
   <text x="125" y="381" font-size="20" font-weight="700" fill="#1e293b" >A13-A14 訓練時數不足</text>
   <text x="125" y="405" font-size="15" fill="#57534e" >A13 新進人員：到職 1 個月內完成 16 小時職前訓練（含感控 4H、勞安 2H）</text>
   <text x="125" y="425" font-size="15" fill="#57534e" >A14 在職訓練：每人每年 20 小時；護理及照服員須有急救訓練有效證明</text>

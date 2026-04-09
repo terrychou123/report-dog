@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9" />
   <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
 
   <!-- 標題 -->
   <text x="400" y="38"  font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">跌倒壓傷雙預防評鑑查核重點</text>
-  <text x="400" y="58"  font-size="12" fill="#a8a29e" text-anchor="middle">2.3.6 跌倒預防 × 2.3.7 壓傷預防｜資料查核＋實地查核</text>
+  <text x="400" y="58"  font-size="14" fill="#a8a29e" text-anchor="middle">2.3.6 跌倒預防 × 2.3.7 壓傷預防｜資料查核＋實地查核</text>
 
   <!-- 列1 -->
   <rect x="30" y="82" width="740" height="110" rx="10" fill="#fffbeb" />
@@ -41,5 +42,5 @@
   <text x="694" y="377"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">通報追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480"  font-size="13" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="14" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

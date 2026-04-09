@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">D 區塊住民權益指標分類</text>
@@ -9,49 +9,49 @@
   <rect x="40" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="104" width="346" height="44" rx="12" fill="#d97706"/>
   <rect x="40" y="128" width="346" height="20" fill="#d97706"/>
-  <text x="213" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">入住行政與資訊揭露</text>
+  <text x="213" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">入住行政與資訊揭露</text>
   <text x="60" y="172" font-size="14" fill="#57534e">D2 契約 5 天審閱期</text>
   <text x="60" y="192" font-size="14" fill="#57534e">D3 生活注意事項明顯公告</text>
   <text x="60" y="212" font-size="14" fill="#57534e">D1 個案資料管理（二級加強）</text>
-  <text x="60" y="232" font-size="14" fill="#57534e">   明確權限，定期上傳衛福部</text>
+  <text x="60" y="232" font-size="14" fill="#57534e"> 明確權限，定期上傳衛福部</text>
   <rect x="60" y="248" width="150" height="20" rx="10" fill="#d97706" opacity="0.15"/>
-  <text x="135" y="262" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">入住前必辦</text>
+  <text x="135" y="262" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">入住前必辦</text>
 
   <!-- 卡片 2：溝通申訴 -->
   <rect x="414" y="104" width="346" height="168" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="104" width="346" height="44" rx="12" fill="#78716c"/>
   <rect x="414" y="128" width="346" height="20" fill="#78716c"/>
-  <text x="587" y="143" text-anchor="middle" font-size="15" fill="white" font-weight="700">溝通申訴與滿意度</text>
+  <text x="587" y="131" text-anchor="middle" font-size="15" fill="white" font-weight="700">溝通申訴與滿意度</text>
   <text x="434" y="172" font-size="14" fill="#57534e">D4 申訴機制（明顯處張貼）</text>
-  <text x="434" y="192" font-size="14" fill="#57534e">   有專人，每年統計分析</text>
+  <text x="434" y="192" font-size="14" fill="#57534e"> 有專人，每年統計分析</text>
   <text x="434" y="212" font-size="14" fill="#57534e">D9 不具名滿意度調查每年</text>
-  <text x="434" y="232" font-size="14" fill="#57534e">   1次，有改善措施</text>
+  <text x="434" y="232" font-size="14" fill="#57534e"> 1次，有改善措施</text>
   <rect x="434" y="248" width="150" height="20" rx="10" fill="#78716c" opacity="0.15"/>
-  <text x="509" y="262" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">年度必辦</text>
+  <text x="509" y="262" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">年度必辦</text>
 
   <!-- 卡片 3：隱私尊嚴 -->
   <rect x="40" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="288" width="346" height="44" rx="12" fill="#57534e"/>
   <rect x="40" y="312" width="346" height="20" fill="#57534e"/>
-  <text x="213" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">隱私與居家情境</text>
+  <text x="213" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">隱私與居家情境</text>
   <text x="60" y="358" font-size="14" fill="#57534e">D6 床間圍簾（二級加強）</text>
-  <text x="60" y="378" font-size="14" fill="#57534e">   寢室浴廁無監視器</text>
-  <text x="60" y="398" font-size="14" fill="#57534e">   每位住民有床頭櫃</text>
+  <text x="60" y="378" font-size="14" fill="#57534e"> 寢室浴廁無監視器</text>
+  <text x="60" y="398" font-size="14" fill="#57534e"> 每位住民有床頭櫃</text>
   <text x="60" y="418" font-size="14" fill="#57534e">D5 靈性關懷服務紀錄</text>
   <rect x="60" y="420" width="150" height="20" rx="10" fill="#57534e" opacity="0.15"/>
-  <text x="135" y="434" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">二級加強</text>
+  <text x="135" y="434" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">二級加強</text>
 
   <!-- 卡片 4：臨終關懷 -->
   <rect x="414" y="288" width="346" height="162" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="288" width="346" height="44" rx="12" fill="#94a3b8"/>
   <rect x="414" y="312" width="346" height="20" fill="#94a3b8"/>
-  <text x="587" y="327" text-anchor="middle" font-size="15" fill="white" font-weight="700">緩和醫療與生命末期</text>
+  <text x="587" y="315" text-anchor="middle" font-size="15" fill="white" font-weight="700">緩和醫療與生命末期</text>
   <text x="434" y="358" font-size="14" fill="#57534e">D8 提供 DNR 相關資訊</text>
-  <text x="434" y="378" font-size="14" fill="#57534e">   提供臨終照護手冊</text>
-  <text x="434" y="398" font-size="14" fill="#57534e">   協助住民了解 AD 選擇權</text>
-  <text x="434" y="418" font-size="14" fill="#57534e">   有臨終照護服務記錄</text>
+  <text x="434" y="378" font-size="14" fill="#57534e"> 提供臨終照護手冊</text>
+  <text x="434" y="398" font-size="14" fill="#57534e"> 協助住民了解 AD 選擇權</text>
+  <text x="434" y="418" font-size="14" fill="#57534e"> 有臨終照護服務記錄</text>
   <rect x="434" y="420" width="150" height="20" rx="10" fill="#94a3b8" opacity="0.2"/>
-  <text x="509" y="434" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">尊嚴善終</text>
+  <text x="509" y="434" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">尊嚴善終</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

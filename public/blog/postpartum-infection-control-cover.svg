@@ -10,20 +10,20 @@
 
   <!-- 右側 2×2 資訊卡片 -->
   <rect x="840" y="279" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="307" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">手部衛生</text>
-  <text x="918" y="338" font-size="21" fill="#a8a29e" text-anchor="middle">五時機稽核</text>
+  <text x="918" y="316" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">手部衛生</text>
+  <text x="918" y="347" font-size="21" fill="#a8a29e" text-anchor="middle">五時機稽核</text>
 
   <rect x="1005" y="279" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="307" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">訪客管制</text>
-  <text x="1083" y="338" font-size="21" fill="#a8a29e" text-anchor="middle">登記記錄</text>
+  <text x="1083" y="316" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">訪客管制</text>
+  <text x="1083" y="347" font-size="21" fill="#a8a29e" text-anchor="middle">登記記錄</text>
 
   <rect x="840" y="375" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="403" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">感染管制</text>
-  <text x="918" y="434" font-size="21" fill="#a8a29e" text-anchor="middle">計畫書</text>
+  <text x="918" y="412" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">感染管制</text>
+  <text x="918" y="443" font-size="21" fill="#a8a29e" text-anchor="middle">計畫書</text>
 
   <rect x="1005" y="375" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="403" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">傳染病</text>
-  <text x="1083" y="434" font-size="21" fill="#a8a29e" text-anchor="middle">應變演練</text>
+  <text x="1083" y="412" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">傳染病</text>
+  <text x="1083" y="443" font-size="21" fill="#a8a29e" text-anchor="middle">應變演練</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="471" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>

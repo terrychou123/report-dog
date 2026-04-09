@@ -8,7 +8,7 @@
   <rect x="40" y="108" width="346" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="108" width="346" height="40" rx="12" fill="#0284c7"/>
   <rect x="40" y="128" width="346" height="20" fill="#0284c7"/>
-  <text x="213" y="145" text-anchor="middle" font-size="20" fill="white" font-weight="700">日間型（10條 / 34分）</text>
+  <text x="213" y="135" text-anchor="middle" font-size="20" fill="white" font-weight="700">日間型（10條 / 34分）</text>
   <text x="60" y="170" font-size="17" fill="#1e293b" font-weight="700">1.4 工作人員健康檢查（3分）</text>
   <text x="60" y="190" font-size="15" fill="#57534e">全體工作人員每年健康檢查</text>
   <line x1="60" y1="202" x2="366" y2="202" stroke="#f0efe8" stroke-width="1"/>
@@ -28,7 +28,7 @@
   <rect x="414" y="108" width="346" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="414" y="108" width="346" height="40" rx="12" fill="#7c3aed"/>
   <rect x="414" y="128" width="346" height="20" fill="#7c3aed"/>
-  <text x="587" y="145" text-anchor="middle" font-size="20" fill="white" font-weight="700">住宿型（12條 / 33分）</text>
+  <text x="587" y="135" text-anchor="middle" font-size="20" fill="white" font-weight="700">住宿型（12條 / 33分）</text>
   <text x="434" y="165" font-size="17" fill="#1e293b" font-weight="700">1.4 日夜間人力配置（2分）</text>
   <text x="434" y="183" font-size="14" fill="#dc2626">24小時均需負責人/專任管理人員/專業人員在場</text>
   <line x1="434" y1="195" x2="740" y2="195" stroke="#f0efe8" stroke-width="1"/>

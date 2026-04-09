@@ -7,16 +7,16 @@
   <text x="1000" y="281" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">後疫情時代全新要求</text>
   <rect x="840" y="312" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="342" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">體溫監測</text>
-  <text x="914" y="368" font-size="18" fill="#a8a29e" text-anchor="middle">每日紀錄（新）</text>
+  <text x="914" y="371" font-size="18" fill="#a8a29e" text-anchor="middle">每日紀錄（新）</text>
   <rect x="1000" y="312" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="342" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">手部衛生</text>
-  <text x="1074" y="368" font-size="18" fill="#a8a29e" text-anchor="middle">稽核計畫</text>
+  <text x="1074" y="371" font-size="18" fill="#a8a29e" text-anchor="middle">稽核計畫</text>
   <rect x="840" y="396" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="426" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">傳染病</text>
-  <text x="914" y="452" font-size="18" fill="#a8a29e" text-anchor="middle">教育訓練</text>
+  <text x="914" y="455" font-size="18" fill="#a8a29e" text-anchor="middle">教育訓練</text>
   <rect x="1000" y="396" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="426" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="700">群聚處理</text>
-  <text x="1074" y="452" font-size="18" fill="#a8a29e" text-anchor="middle">通報機制</text>
+  <text x="1074" y="455" font-size="18" fill="#a8a29e" text-anchor="middle">通報機制</text>
   <rect x="840" y="480" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="513" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">3分指標・備審重點說明</text>
   <text x="60" y="195" font-size="90" font-weight="900" fill="#1e293b">感染管制</text>

@@ -9,20 +9,20 @@
   <text x="1010" y="222" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">持續改善循環</text>
 
   <rect x="840" y="242" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="917" y="273" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
-  <text x="917" y="300" font-size="22" fill="#78716c" text-anchor="middle">計畫目標</text>
+  <text x="917" y="281" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
+  <text x="917" y="312" font-size="22" fill="#78716c" text-anchor="middle">計畫目標</text>
 
   <rect x="1006" y="242" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="273" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">D</text>
-  <text x="1083" y="300" font-size="22" fill="#78716c" text-anchor="middle">執行 SOP</text>
+  <text x="1083" y="281" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">D</text>
+  <text x="1083" y="312" font-size="22" fill="#78716c" text-anchor="middle">執行 SOP</text>
 
   <rect x="840" y="340" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="917" y="371" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">C</text>
-  <text x="917" y="398" font-size="22" fill="#78716c" text-anchor="middle">季報查核</text>
+  <text x="917" y="379" font-size="32" fill="#78716c" text-anchor="middle" font-weight="900">C</text>
+  <text x="917" y="410" font-size="22" fill="#78716c" text-anchor="middle">季報查核</text>
 
   <rect x="1006" y="340" width="154" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="371" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
-  <text x="1083" y="398" font-size="22" fill="#78716c" text-anchor="middle">改善追蹤</text>
+  <text x="1083" y="379" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
+  <text x="1083" y="410" font-size="22" fill="#78716c" text-anchor="middle">改善追蹤</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="440" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>

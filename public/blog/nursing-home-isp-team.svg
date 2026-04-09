@@ -9,61 +9,61 @@
   <rect x="40" y="118" width="160" height="320" rx="10" fill="#d97706"/>
   <text x="120" y="152" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">護理師</text>
   <line x1="60" y1="162" x2="180" y2="162" stroke="#fff8e7" stroke-width="1"/>
-  <text x="120" y="185" font-size="13" fill="#fff8e7" text-anchor="middle">主導 ISP 撰寫</text>
-  <text x="120" y="207" font-size="13" fill="#fff8e7" text-anchor="middle">72小時初評</text>
-  <text x="120" y="229" font-size="13" fill="#fff8e7" text-anchor="middle">護理問題評估</text>
-  <text x="120" y="251" font-size="13" fill="#fff8e7" text-anchor="middle">跌倒/壓損/感染</text>
-  <text x="120" y="273" font-size="13" fill="#fff8e7" text-anchor="middle">疼痛/用藥管理</text>
-  <text x="120" y="295" font-size="13" fill="#fff8e7" text-anchor="middle">侵入性照護 SOP</text>
-  <text x="120" y="317" font-size="13" fill="#fff8e7" text-anchor="middle">體重監測預警</text>
-  <text x="120" y="339" font-size="13" fill="#fff8e7" text-anchor="middle">每季整體分析</text>
-  <text x="120" y="361" font-size="13" fill="#fff8e7" text-anchor="middle">巡診紀錄管理</text>
-  <text x="120" y="383" font-size="13" fill="#fff8e7" text-anchor="middle">跨專業會議主持</text>
-  <text x="120" y="405" font-size="13" fill="#fff8e7" text-anchor="middle">計畫執行追蹤</text>
-  <text x="120" y="427" font-size="13" fill="#fff8e7" text-anchor="middle">家屬溝通協調</text>
+  <text x="120" y="185" font-size="14" fill="#fff8e7" text-anchor="middle">主導 ISP 撰寫</text>
+  <text x="120" y="207" font-size="14" fill="#fff8e7" text-anchor="middle">72小時初評</text>
+  <text x="120" y="229" font-size="14" fill="#fff8e7" text-anchor="middle">護理問題評估</text>
+  <text x="120" y="251" font-size="14" fill="#fff8e7" text-anchor="middle">跌倒/壓損/感染</text>
+  <text x="120" y="273" font-size="14" fill="#fff8e7" text-anchor="middle">疼痛/用藥管理</text>
+  <text x="120" y="295" font-size="14" fill="#fff8e7" text-anchor="middle">侵入性照護 SOP</text>
+  <text x="120" y="317" font-size="14" fill="#fff8e7" text-anchor="middle">體重監測預警</text>
+  <text x="120" y="339" font-size="14" fill="#fff8e7" text-anchor="middle">每季整體分析</text>
+  <text x="120" y="361" font-size="14" fill="#fff8e7" text-anchor="middle">巡診紀錄管理</text>
+  <text x="120" y="383" font-size="14" fill="#fff8e7" text-anchor="middle">跨專業會議主持</text>
+  <text x="120" y="405" font-size="14" fill="#fff8e7" text-anchor="middle">計畫執行追蹤</text>
+  <text x="120" y="427" font-size="14" fill="#fff8e7" text-anchor="middle">家屬溝通協調</text>
 
   <!-- 社工師 -->
   <rect x="220" y="118" width="160" height="320" rx="10" fill="#78716c"/>
   <text x="300" y="152" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">社工師</text>
   <line x1="240" y1="162" x2="360" y2="162" stroke="#e7e5e4" stroke-width="1"/>
-  <text x="300" y="185" font-size="13" fill="#e7e5e4" text-anchor="middle">心理社會評估</text>
-  <text x="300" y="207" font-size="13" fill="#e7e5e4" text-anchor="middle">適應輔導支持</text>
-  <text x="300" y="229" font-size="13" fill="#e7e5e4" text-anchor="middle">家屬聯繫溝通</text>
-  <text x="300" y="251" font-size="13" fill="#e7e5e4" text-anchor="middle">資源連結轉介</text>
-  <text x="300" y="273" font-size="13" fill="#e7e5e4" text-anchor="middle">個案資料管理</text>
-  <text x="300" y="295" font-size="13" fill="#e7e5e4" text-anchor="middle">活動計畫規劃</text>
-  <text x="300" y="317" font-size="13" fill="#e7e5e4" text-anchor="middle">住民自我照顧</text>
-  <text x="300" y="339" font-size="13" fill="#e7e5e4" text-anchor="middle">每季家屬電訪</text>
-  <text x="300" y="361" font-size="13" fill="#e7e5e4" text-anchor="middle">滿意度調查</text>
-  <text x="300" y="383" font-size="13" fill="#e7e5e4" text-anchor="middle">社區資源盤點</text>
-  <text x="300" y="405" font-size="13" fill="#e7e5e4" text-anchor="middle">入出機構管理</text>
-  <text x="300" y="427" font-size="13" fill="#e7e5e4" text-anchor="middle">照顧計畫協調</text>
+  <text x="300" y="185" font-size="14" fill="#e7e5e4" text-anchor="middle">心理社會評估</text>
+  <text x="300" y="207" font-size="14" fill="#e7e5e4" text-anchor="middle">適應輔導支持</text>
+  <text x="300" y="229" font-size="14" fill="#e7e5e4" text-anchor="middle">家屬聯繫溝通</text>
+  <text x="300" y="251" font-size="14" fill="#e7e5e4" text-anchor="middle">資源連結轉介</text>
+  <text x="300" y="273" font-size="14" fill="#e7e5e4" text-anchor="middle">個案資料管理</text>
+  <text x="300" y="295" font-size="14" fill="#e7e5e4" text-anchor="middle">活動計畫規劃</text>
+  <text x="300" y="317" font-size="14" fill="#e7e5e4" text-anchor="middle">住民自我照顧</text>
+  <text x="300" y="339" font-size="14" fill="#e7e5e4" text-anchor="middle">每季家屬電訪</text>
+  <text x="300" y="361" font-size="14" fill="#e7e5e4" text-anchor="middle">滿意度調查</text>
+  <text x="300" y="383" font-size="14" fill="#e7e5e4" text-anchor="middle">社區資源盤點</text>
+  <text x="300" y="405" font-size="14" fill="#e7e5e4" text-anchor="middle">入出機構管理</text>
+  <text x="300" y="427" font-size="14" fill="#e7e5e4" text-anchor="middle">照顧計畫協調</text>
 
   <!-- 物理/職能治療師 -->
   <rect x="400" y="118" width="160" height="320" rx="10" fill="#57534e"/>
   <text x="480" y="145" font-size="15" fill="#ffffff" font-weight="700" text-anchor="middle">物/職能治療師</text>
   <line x1="420" y1="162" x2="540" y2="162" stroke="#e7e5e4" stroke-width="1"/>
-  <text x="480" y="185" font-size="13" fill="#e7e5e4" text-anchor="middle">功能評估</text>
-  <text x="480" y="207" font-size="13" fill="#e7e5e4" text-anchor="middle">ADL 訓練計畫</text>
-  <text x="480" y="229" font-size="13" fill="#e7e5e4" text-anchor="middle">輔具評估建議</text>
-  <text x="480" y="251" font-size="13" fill="#e7e5e4" text-anchor="middle">肢體活動指導</text>
-  <text x="480" y="273" font-size="13" fill="#e7e5e4" text-anchor="middle">認知訓練（B26）</text>
-  <text x="480" y="295" font-size="13" fill="#e7e5e4" text-anchor="middle">環境無障礙評估</text>
-  <text x="480" y="317" font-size="13" fill="#e7e5e4" text-anchor="middle">跌倒預防訓練</text>
-  <text x="480" y="339" font-size="13" fill="#e7e5e4" text-anchor="middle">到勤紀錄保存</text>
+  <text x="480" y="185" font-size="14" fill="#e7e5e4" text-anchor="middle">功能評估</text>
+  <text x="480" y="207" font-size="14" fill="#e7e5e4" text-anchor="middle">ADL 訓練計畫</text>
+  <text x="480" y="229" font-size="14" fill="#e7e5e4" text-anchor="middle">輔具評估建議</text>
+  <text x="480" y="251" font-size="14" fill="#e7e5e4" text-anchor="middle">肢體活動指導</text>
+  <text x="480" y="273" font-size="14" fill="#e7e5e4" text-anchor="middle">認知訓練（B26）</text>
+  <text x="480" y="295" font-size="14" fill="#e7e5e4" text-anchor="middle">環境無障礙評估</text>
+  <text x="480" y="317" font-size="14" fill="#e7e5e4" text-anchor="middle">跌倒預防訓練</text>
+  <text x="480" y="339" font-size="14" fill="#e7e5e4" text-anchor="middle">到勤紀錄保存</text>
 
   <!-- 營養師 -->
   <rect x="580" y="118" width="180" height="320" rx="10" fill="#94a3b8"/>
   <text x="670" y="152" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">營養師</text>
   <line x1="600" y1="162" x2="740" y2="162" stroke="#f0efe8" stroke-width="1"/>
-  <text x="670" y="185" font-size="13" fill="#1e293b" text-anchor="middle">菜單設計審核</text>
-  <text x="670" y="207" font-size="13" fill="#1e293b" text-anchor="middle">個別化飲食計畫</text>
-  <text x="670" y="229" font-size="13" fill="#1e293b" text-anchor="middle">營養評估異常</text>
-  <text x="670" y="251" font-size="13" fill="#1e293b" text-anchor="middle">介入與追蹤</text>
-  <text x="670" y="273" font-size="13" fill="#1e293b" text-anchor="middle">管灌配方評估</text>
-  <text x="670" y="295" font-size="13" fill="#1e293b" text-anchor="middle">膳食滿意度調查</text>
-  <text x="670" y="317" font-size="13" fill="#1e293b" text-anchor="middle">菜單定期更新</text>
-  <text x="670" y="339" font-size="13" fill="#1e293b" text-anchor="middle">特殊飲食建議</text>
+  <text x="670" y="185" font-size="14" fill="#1e293b" text-anchor="middle">菜單設計審核</text>
+  <text x="670" y="207" font-size="14" fill="#1e293b" text-anchor="middle">個別化飲食計畫</text>
+  <text x="670" y="229" font-size="14" fill="#1e293b" text-anchor="middle">營養評估異常</text>
+  <text x="670" y="251" font-size="14" fill="#1e293b" text-anchor="middle">介入與追蹤</text>
+  <text x="670" y="273" font-size="14" fill="#1e293b" text-anchor="middle">管灌配方評估</text>
+  <text x="670" y="295" font-size="14" fill="#1e293b" text-anchor="middle">膳食滿意度調查</text>
+  <text x="670" y="317" font-size="14" fill="#1e293b" text-anchor="middle">菜單定期更新</text>
+  <text x="670" y="339" font-size="14" fill="#1e293b" text-anchor="middle">特殊飲食建議</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

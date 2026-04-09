@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
@@ -16,7 +17,7 @@
   <text x="220" y="190" font-size="14" fill="#78716c">有效果評估紀錄</text>
   <!-- 右側標籤 -->
   <rect x="638" y="152" width="88" height="30" rx="15" fill="#fef3c7"/>
-  <text x="682" y="172" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">到職完成</text>
+  <text x="682" y="172" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">到職完成</text>
 
   <!-- 列2：在職訓練軌 y=269 -->
   <rect x="38" y="235" width="724" height="90" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
@@ -27,7 +28,7 @@
   <text x="220" y="293" font-size="14" fill="#78716c">年度成效評估與計畫修訂</text>
   <!-- 右側標籤 -->
   <rect x="638" y="255" width="88" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="682" y="275" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">年度計畫</text>
+  <text x="682" y="275" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">年度計畫</text>
 
   <!-- 列3：繼續教育軌 y=372 -->
   <rect x="38" y="338" width="724" height="90" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
@@ -38,8 +39,8 @@
   <text x="260" y="396" font-size="14" fill="#78716c">醫院追蹤並有紀錄</text>
   <!-- 右側標籤 -->
   <rect x="638" y="358" width="88" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="682" y="378" text-anchor="middle" font-size="13" fill="#57534e" font-weight="700">學分追蹤</text>
+  <text x="682" y="378" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">學分追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480" text-anchor="middle" font-size="14" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

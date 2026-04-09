@@ -49,7 +49,7 @@
   <rect x="28" y="304" width="5" height="72" rx="3" fill="#dc2626"/>
   <text x="46" y="328" font-size="16" fill="#dc2626" font-weight="700">3個月追蹤：</text>
   <text x="46" y="350" font-size="16" fill="#57534e">（空白，無追蹤文件）</text>
-  <text x="46" y="368" font-size="14" fill="#a8a29e">評鑑委員抽查→此項必定失分</text>
+  <text x="46" y="368" font-size="14" fill="#a8a29e">評鑑委員抽查-此項必定失分</text>
 
   <!-- 右欄 Row 3 -->
   <rect x="414" y="304" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>

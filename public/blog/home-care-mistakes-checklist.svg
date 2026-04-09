@@ -38,7 +38,7 @@
   <text x="94" y="253" font-size="18" fill="#1e293b" >紀錄已依法規定期保存</text>
 
   <!-- 左欄 Category: 人員管理 (y=275) -->
-  <rect x="64" y="275" width="6" height="24" rx="2" fill="#78716c"/>
+  <rect x="64" y="275" width="6" height="24" rx="2" fill="#57534e"/>
   <text x="78" y="293" font-size="20" fill="#1e293b" font-weight="700" >人員管理</text>
 
   <!-- Checkbox 1 y=311 (checked) -->
@@ -63,7 +63,7 @@
   <!-- ====== 右欄 ====== -->
 
   <!-- 右欄 Category: 個別服務計畫 (y=111) -->
-  <rect x="420" y="111" width="6" height="24" rx="2" fill="#57534e"/>
+  <rect x="420" y="111" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="434" y="129" font-size="20" fill="#1e293b" font-weight="700" >個別服務計畫</text>
 
   <!-- Checkbox 1 y=147 (checked) -->

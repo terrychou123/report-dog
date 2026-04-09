@@ -8,7 +8,7 @@
   <rect x="40" y="110" width="220" height="300" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
   <rect x="40" y="110" width="220" height="42" rx="10" fill="#dc2626"/>
   <rect x="40" y="132" width="220" height="20" fill="#dc2626"/>
-  <text x="150" y="148" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">有做但沒記錄</text>
+  <text x="150" y="137" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">有做但沒記錄</text>
   <text x="56" y="170" font-size="14" fill="#57534e">缺失 1：負責人查看無書面</text>
   <text x="56" y="192" font-size="14" fill="#57534e">缺失 4：感控計畫多年未更</text>
   <text x="56" y="214" font-size="14" fill="#57534e">缺失 10：口腔清潔無記錄</text>
@@ -20,7 +20,7 @@
   <rect x="280" y="110" width="220" height="300" rx="10" fill="#fef9c3" stroke="#d97706" stroke-width="2"/>
   <rect x="280" y="110" width="220" height="42" rx="10" fill="#d97706"/>
   <rect x="280" y="132" width="220" height="20" fill="#d97706"/>
-  <text x="390" y="148" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">記錄格式不完整</text>
+  <text x="390" y="137" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">記錄格式不完整</text>
   <text x="296" y="170" font-size="14" fill="#57534e">缺失 2：BLS記錄未含AED</text>
   <text x="296" y="192" font-size="14" fill="#57534e">缺失 3：改善措施空白</text>
   <text x="296" y="214" font-size="14" fill="#57534e">缺失 5：跨專業人員不足</text>
@@ -34,14 +34,14 @@
   <rect x="520" y="110" width="220" height="300" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
   <rect x="520" y="110" width="220" height="42" rx="10" fill="#2563eb"/>
   <rect x="520" y="132" width="220" height="20" fill="#2563eb"/>
-  <text x="630" y="148" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">演練執行不足</text>
+  <text x="630" y="137" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">演練執行不足</text>
   <text x="536" y="170" font-size="14" fill="#57534e">缺失 8：缺夜間演練</text>
   <text x="536" y="192" font-size="14" fill="#57534e">缺失 9：只熟悉主動線</text>
   <text x="536" y="226" font-size="14" fill="#2563eb" font-weight="600">佔缺失總數 ~20%</text>
   <text x="536" y="248" font-size="14" fill="#57534e">根本原因：</text>
   <text x="536" y="268" font-size="14" fill="#57534e">擔心影響住民</text>
   <text x="536" y="288" font-size="14" fill="#57534e">導致演練一再延後</text>
-  <text x="536" y="316" font-size="14" fill="#dc2626" font-weight="600">⚠ 最難補救的缺失</text>
+  <text x="536" y="316" font-size="14" fill="#dc2626" font-weight="600">(!) 最難補救的缺失</text>
   <text x="536" y="336" font-size="14" fill="#dc2626">評鑑前必須實際執行</text>
 
   <!-- 底部提示 -->

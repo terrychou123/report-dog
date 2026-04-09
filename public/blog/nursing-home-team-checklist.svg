@@ -13,7 +13,7 @@
   <line x1="400" y1="100" x2="400" y2="430" stroke="#dedad3" stroke-width="1" stroke-dasharray="4,4"/>
 
   <!-- 左欄：行政/主任 -->
-  <rect x="60" y="108" width="6" height="24" rx="2" fill="#d97706"/>
+  <rect x="60" y="108" width="6" height="24" rx="2" fill="#78716c"/>
   <text x="76" y="126" font-size="18" font-weight="700" fill="#d97706">行政 / 主任</text>
 
   <!-- 勾選項目 -->
@@ -30,7 +30,7 @@
   <text x="94" y="218" font-size="18" fill="#1e293b">年度訓練計畫與時數紀錄</text>
 
   <!-- 左欄：社工師 -->
-  <rect x="60" y="240" width="6" height="24" rx="2" fill="#78716c"/>
+  <rect x="60" y="240" width="6" height="24" rx="2" fill="#a8a29e"/>
   <text x="76" y="258" font-size="18" font-weight="700" fill="#78716c">社工師</text>
 
   <rect x="60" y="275" width="20" height="20" rx="3" fill="white" stroke="#78716c" stroke-width="1.5"/>

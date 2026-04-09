@@ -13,7 +13,7 @@
   <rect x="260" y="80" width="14" height="14" rx="3" fill="#fee2e2"/>
   <text x="280" y="93" font-size="14" fill="#44403c">無（需建立）</text>
   <rect x="400" y="80" width="14" height="14" rx="3" fill="#fef9c3"/>
-  <text x="420" y="93" font-size="14" fill="#44403c">⚠ 高風險（P1）</text>
+  <text x="420" y="93" font-size="14" fill="#44403c">(!) 高風險（P1）</text>
   <!-- A 類基準 -->
   <text x="24" y="120" font-size="14" font-weight="700" fill="#1e40af">A 類：人員與設備</text>
   <!-- A1 -->
@@ -46,7 +46,7 @@
   <text x="24" y="240" font-size="14" font-weight="700" fill="#1e40af">C 類：安全管理</text>
   <!-- C1 -->
   <rect x="24" y="246" width="180" height="32" rx="6" fill="#fef9c3" stroke="#d97706" stroke-width="1.5"/>
-  <text x="44" y="267" font-size="14" fill="#92400e" font-weight="700">⚠ C1 急救訓練效期</text>
+  <text x="44" y="267" font-size="14" fill="#92400e" font-weight="700">(!) C1 急救訓練效期</text>
   <!-- C2 -->
   <rect x="216" y="246" width="160" height="32" rx="6" fill="#fef3c7"/>
   <text x="236" y="267" font-size="14" fill="#92400e">C2 疏散通道查核</text>
@@ -55,7 +55,7 @@
   <text x="408" y="267" font-size="14" fill="#991b1b">C3 疏散名冊</text>
   <!-- C4 -->
   <rect x="580" y="246" width="196" height="32" rx="6" fill="#fef9c3" stroke="#d97706" stroke-width="1.5"/>
-  <text x="600" y="267" font-size="14" fill="#92400e" font-weight="700">⚠ C4 情境演練記錄</text>
+  <text x="600" y="267" font-size="14" fill="#92400e" font-weight="700">(!) C4 情境演練記錄</text>
   <!-- D 類基準 -->
   <text x="24" y="300" font-size="14" font-weight="700" fill="#1e40af">D 類：創新加分</text>
   <rect x="24" y="306" width="180" height="32" rx="6" fill="#fee2e2"/>

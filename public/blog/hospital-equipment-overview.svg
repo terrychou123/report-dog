@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9" />
 
@@ -17,10 +18,10 @@
   <!-- 標題 -->
   <text x="100" y="160" font-size="17" font-weight="700" fill="#1c1917">設備清冊管理</text>
   <!-- 說明 -->
-  <text x="100" y="183" font-size="13" fill="#57534e">所有醫療設備建立清冊，資訊包含設備名稱、序號、位置、維護週期，定期更新</text>
+  <text x="100" y="183" font-size="16" fill="#57534e">所有醫療設備建立清冊，資訊包含設備名稱、序號、位置、維護週期，定期更新</text>
   <!-- 右側標籤 -->
   <rect x="650" y="152" width="90" height="28" rx="6" fill="#fef3c7" />
-  <text x="695" y="171" font-size="12" fill="#92400e" text-anchor="middle" font-weight="600">清冊完整</text>
+  <text x="695" y="171" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">清冊完整</text>
 
   <!-- 列2：定期預防性維護（y=269，H=90） -->
   <rect x="30" y="233" width="740" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
@@ -28,9 +29,9 @@
   <circle cx="68" cy="278" r="20" fill="#78716c"  opacity="0.15"/>
   <text x="68" y="284" font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
   <text x="100" y="263" font-size="17" font-weight="700" fill="#1c1917">定期預防性維護</text>
-  <text x="100" y="286" font-size="13" fill="#57534e">依廠商建議或院內規定執行定期維護，每次維護有執行紀錄和技術員簽名</text>
+  <text x="100" y="286" font-size="16" fill="#57534e">依廠商建議或院內規定執行定期維護，每次維護有執行紀錄和技術員簽名</text>
   <rect x="650" y="255" width="90" height="28" rx="6" fill="#f5f5f4" />
-  <text x="695" y="274" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">維護紀錄</text>
+  <text x="695" y="274" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">維護紀錄</text>
 
   <!-- 列3：人員訓練與使用查核（y=372，H=90） -->
   <rect x="30" y="336" width="740" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
@@ -38,10 +39,10 @@
   <circle cx="68" cy="381" r="20" fill="#57534e"  opacity="0.15"/>
   <text x="68" y="387" font-size="16" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
   <text x="100" y="366" font-size="17" font-weight="700" fill="#1c1917">人員訓練與使用查核</text>
-  <text x="100" y="389" font-size="13" fill="#57534e">使用設備人員接受訓練有紀錄，高風險設備使用前有安全查核流程</text>
+  <text x="100" y="389" font-size="16" fill="#57534e">使用設備人員接受訓練有紀錄，高風險設備使用前有安全查核流程</text>
   <rect x="650" y="358" width="90" height="28" rx="6" fill="#f5f5f4" />
-  <text x="695" y="377" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">人員訓練</text>
+  <text x="695" y="377" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">人員訓練</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" font-size="12" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480" font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

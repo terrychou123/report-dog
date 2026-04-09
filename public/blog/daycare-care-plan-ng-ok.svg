@@ -6,7 +6,7 @@
 <rect x="40" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="40" y="104" width="346" height="40" rx="12" fill="#dc2626"/>
 <rect x="40" y="124" width="346" height="20" fill="#dc2626"/>
-<text x="213" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">NG 寫法（不合格）</text>
+<text x="213" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">NG 寫法（不合格）</text>
 <text x="56" y="166" font-size="15" fill="#57534e">• 「依個案需求提供服務」（過於籠統）</text>
 <text x="56" y="190" font-size="15" fill="#57534e">• 「每日協助洗澡」（缺乏評估依據）</text>
 <text x="56" y="214" font-size="15" fill="#57534e">• 目標無法量化，評鑑委員無從查核</text>
@@ -15,7 +15,7 @@
 <rect x="414" y="104" width="346" height="168" rx="12" fill="white"/>
 <rect x="414" y="104" width="346" height="40" rx="12" fill="#16a34a"/>
 <rect x="414" y="124" width="346" height="20" fill="#16a34a"/>
-<text x="587" y="140" text-anchor="middle" font-size="16" fill="white" font-weight="700">OK 寫法（合格）</text>
+<text x="587" y="130" text-anchor="middle" font-size="16" fill="white" font-weight="700">OK 寫法（合格）</text>
 <text x="430" y="166" font-size="15" fill="#57534e">• 「依ADL評估，每週三次協助沐浴」</text>
 <text x="430" y="190" font-size="15" fill="#57534e">• 「每日協助30分鐘步行復健訓練」</text>
 <text x="430" y="214" font-size="15" fill="#57534e">• 目標具體可量化，含執行頻率與方式</text>
@@ -24,7 +24,7 @@
 <rect x="40" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="40" y="288" width="346" height="40" rx="12" fill="#dc2626"/>
 <rect x="40" y="308" width="346" height="20" fill="#dc2626"/>
-<text x="213" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">NG 追蹤評值（不合格）</text>
+<text x="213" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">NG 追蹤評值（不合格）</text>
 <text x="56" y="350" font-size="15" fill="#57534e">• 「狀況穩定，繼續原計畫」（未評值）</text>
 <text x="56" y="374" font-size="15" fill="#57534e">• 3個月僅簽名未記錄評值結果</text>
 <text x="56" y="398" font-size="15" fill="#57534e">• 未通知家屬，缺少家屬確認簽名</text>
@@ -33,7 +33,7 @@
 <rect x="414" y="288" width="346" height="162" rx="12" fill="white"/>
 <rect x="414" y="288" width="346" height="40" rx="12" fill="#16a34a"/>
 <rect x="414" y="308" width="346" height="20" fill="#16a34a"/>
-<text x="587" y="324" text-anchor="middle" font-size="16" fill="white" font-weight="700">OK 追蹤評值（合格）</text>
+<text x="587" y="314" text-anchor="middle" font-size="16" fill="white" font-weight="700">OK 追蹤評值（合格）</text>
 <text x="430" y="350" font-size="15" fill="#57534e">• 記載具體評值結果與改變說明</text>
 <text x="430" y="374" font-size="15" fill="#57534e">• 每3個月有完整評值記錄含日期</text>
 <text x="430" y="398" font-size="15" fill="#57534e">• 家屬已知情並完成確認簽名</text>

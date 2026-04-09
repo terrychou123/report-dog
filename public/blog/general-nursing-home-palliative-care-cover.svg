@@ -22,29 +22,29 @@
   <!-- 卡片1 -->
   <rect x="540" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
   <rect x="540" y="310" width="8" height="110" rx="4" fill="#3b82f6"/>
-  <text x="562" y="350" font-size="24" font-weight="700" fill="#1e3a5f">① 住民與家屬資訊提供</text>
+  <text x="562" y="350" font-size="24" font-weight="700" fill="#1e3a5f">1 住民與家屬資訊提供</text>
   <text x="562" y="375" font-size="20" fill="#475569">入住說明 · 衛教資料</text>
   <text x="562" y="398" font-size="20" fill="#475569">安寧療護諮詢管道</text>
 
   <!-- 卡片2 -->
   <rect x="850" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
   <rect x="850" y="310" width="8" height="110" rx="4" fill="#10b981"/>
-  <text x="872" y="350" font-size="24" font-weight="700" fill="#1e3a5f">② AD 預立醫療決定</text>
-  <text x="872" y="375" font-size="20" fill="#475569">住民意願尊重</text>
+  <text x="872" y="358" font-size="24" font-weight="700" fill="#1e3a5f">2 AD 預立醫療決定</text>
+  <text x="872" y="389" font-size="20" fill="#475569">住民意願尊重</text>
   <text x="872" y="398" font-size="20" fill="#475569">辦理協助與轉介</text>
 
   <!-- 卡片3 -->
   <rect x="540" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
   <rect x="540" y="440" width="8" height="110" rx="4" fill="#8b5cf6"/>
-  <text x="562" y="480" font-size="24" font-weight="700" fill="#1e3a5f">③ 工作人員教育訓練</text>
+  <text x="562" y="480" font-size="24" font-weight="700" fill="#1e3a5f">3 工作人員教育訓練</text>
   <text x="562" y="505" font-size="20" fill="#475569">安寧理念 · 症狀控制</text>
   <text x="562" y="528" font-size="20" fill="#475569">溝通技巧 · 家屬支持</text>
 
   <!-- 卡片4 -->
   <rect x="850" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
   <rect x="850" y="440" width="8" height="110" rx="4" fill="#f59e0b"/>
-  <text x="872" y="480" font-size="24" font-weight="700" fill="#1e3a5f">④ 安寧療護轉介機制</text>
-  <text x="872" y="505" font-size="20" fill="#475569">轉介流程書面化</text>
+  <text x="872" y="488" font-size="24" font-weight="700" fill="#1e3a5f">4 安寧療護轉介機制</text>
+  <text x="872" y="519" font-size="20" fill="#475569">轉介流程書面化</text>
   <text x="872" y="528" font-size="20" fill="#475569">合作醫療機構聯絡</text>
 
   <!-- 浮水印 -->

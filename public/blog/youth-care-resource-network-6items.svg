@@ -17,7 +17,7 @@
   <circle cx="66" cy="122" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle" dominant-baseline="central" y="122">1</text>
   <text x="96" y="116" font-size="16" font-weight="700" fill="#1e293b">與主管機關之聯繫與合作</text>
-  <text x="96" y="136" font-size="13" fill="#57534e">個案研討、緊短家園、安置機構聯繫會議——呈現主動性</text>
+  <text x="96" y="136" font-size="14" fill="#57534e">個案研討、緊短家園、安置機構聯繫會議——呈現主動性</text>
   <rect x="660" y="106" width="100" height="38" rx="8" fill="#fef3c7"/>
   <text x="710" y="129" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
 
@@ -27,7 +27,7 @@
   <circle cx="66" cy="186" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle" dominant-baseline="central" y="186">2</text>
   <text x="96" y="180" font-size="16" font-weight="700" fill="#1e293b">與其他專業人員之協調合作機制</text>
-  <text x="96" y="200" font-size="13" fill="#57534e">心理師、學校輔導、醫療、法律——需有系統性合作機制</text>
+  <text x="96" y="200" font-size="14" fill="#57534e">心理師、學校輔導、醫療、法律——需有系統性合作機制</text>
   <rect x="660" y="170" width="100" height="38" rx="8" fill="#fef3c7"/>
   <text x="710" y="193" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
 
@@ -37,7 +37,7 @@
   <circle cx="66" cy="250" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle" dominant-baseline="central" y="250">3</text>
   <text x="96" y="244" font-size="16" font-weight="700" fill="#1e293b">建立兒少轉介諮詢或其他資源檔案</text>
-  <text x="96" y="264" font-size="13" fill="#57534e">資源清冊需多元、資訊完整、定期更新（標注最後更新日）</text>
+  <text x="96" y="264" font-size="14" fill="#57534e">資源清冊需多元、資訊完整、定期更新（標注最後更新日）</text>
   <rect x="660" y="234" width="100" height="38" rx="8" fill="#fef3c7"/>
   <text x="710" y="257" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
 
@@ -47,7 +47,7 @@
   <circle cx="66" cy="314" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle" dominant-baseline="central" y="314">4</text>
   <text x="96" y="308" font-size="16" font-weight="700" fill="#1e293b">結合並運用社區正式及非正式資源</text>
-  <text x="96" y="328" font-size="13" fill="#57534e">政府機構（正式）＋社區鄰里、宗教團體（非正式）雙軌記錄</text>
+  <text x="96" y="328" font-size="14" fill="#57534e">政府機構（正式）＋社區鄰里、宗教團體（非正式）雙軌記錄</text>
   <rect x="660" y="298" width="100" height="38" rx="8" fill="#fef3c7"/>
   <text x="710" y="321" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
 
@@ -57,7 +57,7 @@
   <circle cx="66" cy="378" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" font-size="14" font-weight="700" fill="#94a3b8" text-anchor="middle" dominant-baseline="central" y="378">5</text>
   <text x="96" y="372" font-size="16" font-weight="700" fill="#1e293b">兒少的轉介或諮詢</text>
-  <text x="96" y="392" font-size="13" fill="#57534e">轉介紀錄表（轉介機構、原因、追蹤）；諮詢記錄補充呈現積極性</text>
+  <text x="96" y="392" font-size="14" fill="#57534e">轉介紀錄表（轉介機構、原因、追蹤）；諮詢記錄補充呈現積極性</text>
   <rect x="660" y="362" width="100" height="38" rx="8" fill="#fef3c7"/>
   <text x="710" y="385" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
 
@@ -67,10 +67,11 @@
   <circle cx="66" cy="442" r="16" fill="#6b7280" opacity="0.15"/>
   <text x="66" font-size="14" font-weight="700" fill="#6b7280" text-anchor="middle" dominant-baseline="central" y="442">6</text>
   <text x="96" y="436" font-size="16" font-weight="700" fill="#1e293b">志工人力資源運用</text>
-  <text x="96" y="456" font-size="13" fill="#57534e">招募/訓練/服務/考核/退場完整制度，重制度品質非人數多寡</text>
+  <text x="96" y="456" font-size="14" fill="#57534e">招募/訓練/服務/考核/退場完整制度，重制度品質非人數多寡</text>
   <rect x="660" y="426" width="100" height="38" rx="8" fill="#fef3c7"/>
   <text x="710" y="449" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">1 分</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

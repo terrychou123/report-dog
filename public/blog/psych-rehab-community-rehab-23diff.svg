@@ -8,7 +8,7 @@
   <rect x="40" y="108" width="340" height="350" rx="12" fill="white" stroke="#0284c7" stroke-width="2"/>
   <rect x="40" y="108" width="340" height="40" rx="12" fill="#0284c7"/>
   <rect x="40" y="128" width="340" height="20" fill="#0284c7"/>
-  <text x="210" y="145" text-anchor="middle" font-size="19" fill="white" font-weight="700">日間型 2.3（4分）</text>
+  <text x="210" y="135" text-anchor="middle" font-size="19" fill="white" font-weight="700">日間型 2.3（4分）</text>
 
   <text x="210" y="172" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">社區生活化多元復健服務</text>
 
@@ -31,7 +31,7 @@
   <rect x="420" y="108" width="340" height="350" rx="12" fill="white" stroke="#7c3aed" stroke-width="2"/>
   <rect x="420" y="108" width="340" height="40" rx="12" fill="#7c3aed"/>
   <rect x="420" y="128" width="340" height="20" fill="#7c3aed"/>
-  <text x="590" y="145" text-anchor="middle" font-size="19" fill="white" font-weight="700">住宿型 2.3（6分，最高）</text>
+  <text x="590" y="135" text-anchor="middle" font-size="19" fill="white" font-weight="700">住宿型 2.3（6分，最高）</text>
 
   <text x="590" y="172" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">個別化獨立生活功能訓練</text>
 
@@ -47,7 +47,7 @@
   <text x="460" y="348" font-size="15" fill="#7c3aed" font-weight="700">備審重點：每位住民個別化計畫</text>
 
   <text x="440" y="380" font-size="15" fill="#57534e">ADL/IADL 訓練紀錄（每人獨立）</text>
-  <text x="440" y="400" font-size="15" fill="#57534e">功能進步追蹤表（基準→目前→目標）</text>
+  <text x="440" y="400" font-size="15" fill="#57534e">功能進步追蹤表（基準-目前-目標）</text>
   <text x="440" y="420" font-size="15" fill="#57534e">連結 2.2 復健計畫的獨立生活目標</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

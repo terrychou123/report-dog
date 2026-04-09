@@ -18,14 +18,14 @@
   <!-- 左欄項目1 確認 -->
   <rect x="40" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="182" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="95" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：每人有訓練時數統計表</text>
   <text x="95" y="215" font-size="14" fill="#78716c" >個人訓練紀錄可供查核</text>
 
   <!-- 左欄項目2 確認 -->
   <rect x="40" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="257" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="95" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：感控4小時已達標</text>
   <text x="95" y="290" font-size="14" fill="#78716c" >感控訓練時數有記錄</text>
 
@@ -39,14 +39,14 @@
   <!-- 右欄項目1 確認 -->
   <rect x="420" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="182" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="475" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：BLS護理師達50%</text>
   <text x="475" y="215" font-size="14" fill="#78716c" >持有效BLS證照護理師比率</text>
 
   <!-- 右欄項目2 確認 -->
   <rect x="420" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="257" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="475" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：各訓練有簽到紀錄</text>
   <text x="475" y="290" font-size="14" fill="#78716c" >出席名單完整存檔</text>
 

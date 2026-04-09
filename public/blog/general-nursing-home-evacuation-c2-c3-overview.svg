@@ -9,7 +9,7 @@
   <rect x="24" y="78" width="368" height="398" rx="12" fill="#1e40af" opacity="0.08"/>
   <rect x="24" y="78" width="368" height="52" rx="12" fill="#1e40af"/>
   <rect x="24" y="114" width="368" height="16" fill="#1e40af"/>
-  <text x="208" y="111" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C2  疏散避難系統</text>
+  <text x="208" y="111" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C2 疏散避難系統</text>
   <!-- C2 查核方式標籤 -->
   <rect x="44" y="142" width="130" height="28" rx="14" fill="#1e40af"/>
   <text x="109" y="161" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">實地查核</text>
@@ -42,7 +42,7 @@
   <rect x="408" y="78" width="368" height="398" rx="12" fill="#d97706" opacity="0.07"/>
   <rect x="408" y="78" width="368" height="52" rx="12" fill="#d97706"/>
   <rect x="408" y="114" width="368" height="16" fill="#d97706"/>
-  <text x="592" y="111" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C3  個別化疏散策略</text>
+  <text x="592" y="111" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">C3 個別化疏散策略</text>
   <!-- C3 查核方式標籤 -->
   <rect x="428" y="142" width="160" height="28" rx="14" fill="#d97706"/>
   <text x="508" y="161" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">資料查核＋實地抽測</text>
@@ -62,8 +62,8 @@
   <text x="444" y="341" font-size="14" fill="#78716c">各班均有參與疏散策略訓練的記錄</text>
   <!-- 項目4 -->
   <rect x="428" y="362" width="328" height="60" rx="8" fill="#fef3c7" opacity="0.95"/>
-  <text x="444" y="380" font-size="14" fill="#d97706" font-weight="700">⚠ 實地抽測（最關鍵！）</text>
-  <text x="444" y="398" font-size="14" fill="#78716c">委員問：「101室王○○用什麼疏散？」</text>
+  <text x="444" y="380" font-size="14" fill="#d97706" font-weight="700">(!) 實地抽測（最關鍵！）</text>
+  <text x="444" y="398" font-size="14" fill="#78716c">委員問：「101室王用什麼疏散？」</text>
   <text x="444" y="416" font-size="14" fill="#78716c">工作人員必須能當場正確回答</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

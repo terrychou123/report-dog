@@ -23,42 +23,42 @@
   <rect x="28" y="162" width="6" height="80" rx="2" fill="#dc2626"/>
   <text x="46" y="183" font-size="14" fill="#a8a29e" font-weight="600">第 35 條：寶寶日誌</text>
   <text x="46" y="205" font-size="16" fill="#57534e">「有每日記錄寶寶狀況。」</text>
-  <text x="46" y="228" font-size="14" fill="#dc2626">×  缺乏具體做法，不知道誰負責、如何記錄</text>
+  <text x="46" y="228" font-size="14" fill="#dc2626">× 缺乏具體做法，不知道誰負責、如何記錄</text>
 
   <rect x="416" y="162" width="356" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="416" y="162" width="6" height="80" rx="2" fill="#16a34a"/>
   <text x="434" y="183" font-size="14" fill="#a8a29e" font-weight="600">第 35 條：寶寶日誌</text>
   <text x="434" y="203" font-size="15" fill="#57534e">「由帶班托育人員每日填寫個別寶寶</text>
   <text x="434" y="221" font-size="15" fill="#57534e">飲食、活動、發展觀察，每日由主任複核。」</text>
-  <text x="434" y="238" font-size="14" fill="#16a34a">✓  說明執行者、頻率、內容與覆核機制</text>
+  <text x="434" y="238" font-size="14" fill="#16a34a">[v] 說明執行者、頻率、內容與覆核機制</text>
 
   <!-- 範例 2 -->
   <rect x="28" y="258" width="356" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="258" width="6" height="80" rx="2" fill="#dc2626"/>
   <text x="46" y="279" font-size="14" fill="#a8a29e" font-weight="600">第 46 條：冰箱溫度</text>
   <text x="46" y="301" font-size="16" fill="#57534e">「冰箱有保持適當溫度。」</text>
-  <text x="46" y="324" font-size="14" fill="#dc2626">×  模糊描述，未引用官方數值標準</text>
+  <text x="46" y="324" font-size="14" fill="#dc2626">× 模糊描述，未引用官方數值標準</text>
 
   <rect x="416" y="258" width="356" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="416" y="258" width="6" height="80" rx="2" fill="#16a34a"/>
   <text x="434" y="279" font-size="14" fill="#a8a29e" font-weight="600">第 46 條：冰箱溫度</text>
   <text x="434" y="299" font-size="15" fill="#57534e">「設有溫度計，每日早午各量一次，</text>
   <text x="434" y="317" font-size="15" fill="#57534e">冷藏維持 0-7°C，紀錄存於護理站。」</text>
-  <text x="434" y="334" font-size="14" fill="#16a34a">✓  引用指標數值，說明頻率與佐證地點</text>
+  <text x="434" y="334" font-size="14" fill="#16a34a">[v] 引用指標數值，說明頻率與佐證地點</text>
 
   <!-- 範例 3 -->
   <rect x="28" y="354" width="356" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="354" width="6" height="80" rx="2" fill="#dc2626"/>
   <text x="46" y="375" font-size="14" fill="#a8a29e" font-weight="600">第 2 條：在職訓練</text>
   <text x="46" y="397" font-size="16" fill="#57534e">「人員均有參加訓練。」</text>
-  <text x="46" y="420" font-size="14" fill="#dc2626">×  未說明時數、紀錄方式與佐證文件</text>
+  <text x="46" y="420" font-size="14" fill="#dc2626">× 未說明時數、紀錄方式與佐證文件</text>
 
   <rect x="416" y="354" width="356" height="80" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="416" y="354" width="6" height="80" rx="2" fill="#16a34a"/>
   <text x="434" y="375" font-size="14" fill="#a8a29e" font-weight="600">第 2 條：在職訓練</text>
   <text x="434" y="395" font-size="15" fill="#57534e">「托育人員每年達 18 小時，廚工 4 小時，</text>
   <text x="434" y="413" font-size="15" fill="#57534e">出席紀錄詳見附件 2-訓練出席簽到表。」</text>
-  <text x="434" y="430" font-size="14" fill="#16a34a">✓  符合官方時數規定，附佐證文件編號</text>
+  <text x="434" y="430" font-size="14" fill="#16a34a">[v] 符合官方時數規定，附佐證文件編號</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

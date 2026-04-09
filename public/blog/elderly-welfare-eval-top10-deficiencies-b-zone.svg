@@ -32,7 +32,7 @@
   <rect x="60" y="284" width="680" height="75" rx="10" fill="white"/>
   <rect x="60" y="284" width="6" height="75" rx="2" fill="#57534e"/>
   <circle cx="94" cy="321" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="94" y="327" font-size="12" fill="#57534e" text-anchor="middle" font-weight="700" >B13-19</text>
+  <text x="94" y="327" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700" >B13-19</text>
   <text x="125" y="311" font-size="20" font-weight="700" fill="#1e293b" >B13-B19 七大監測指標未落實 PDCA</text>
   <text x="125" y="335" font-size="15" fill="#57534e" >跌倒 / 壓傷 / 疼痛 / 約束 / 感染 / 非計畫住院 / 體重變化，每季分析改善</text>
   <text x="125" y="351" font-size="14" fill="#dc2626" >缺失：有發生案件但無逐案分析、缺改善方案追蹤紀錄</text>
@@ -43,7 +43,7 @@
   <rect x="60" y="376" width="680" height="75" rx="10" fill="white"/>
   <rect x="60" y="376" width="6" height="75" rx="2" fill="#a8a29e"/>
   <circle cx="94" cy="413" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="94" y="419" font-size="12" fill="#78716c" text-anchor="middle" font-weight="700" >B25-27</text>
+  <text x="94" y="419" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >B25-27</text>
   <text x="125" y="403" font-size="20" font-weight="700" fill="#1e293b" >B25-B27 照護記錄缺失</text>
   <text x="125" y="427" font-size="15" fill="#57534e" >每 2 小時翻身拍背記錄；可移動住民每日下床 2 次；自我照顧能力促進記錄</text>
   <text x="125" y="443" font-size="14" fill="#dc2626" >缺失：翻身記錄與實際不符、下床活動次數記錄不完整</text>

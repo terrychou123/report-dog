@@ -19,7 +19,7 @@
   <text x="96" y="184" font-size="18" font-weight="700" fill="#1e293b">出席名單（Attendance）</text>
   <text x="96" y="207" font-size="14" fill="#57534e">姓名＋職稱＋親筆簽名，附研討日期、時間、地點</text>
   <rect x="660" y="171" width="100" height="38" rx="8" fill="#fef3c7"/>
-  <text x="710" y="194" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">高失分風險</text>
+  <text x="710" y="194" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">高失分風險</text>
 
   <!-- Row 2 y=235 h=62 -->
   <rect x="28" y="235" width="744" height="62" rx="10" fill="#ffffff"/>
@@ -39,7 +39,7 @@
   <text x="96" y="334" font-size="18" font-weight="700" fill="#1e293b">討論內容摘要（Summary）</text>
   <text x="96" y="357" font-size="14" fill="#57534e">問題描述、各方觀點、討論重點，建議 200–400 字</text>
   <rect x="660" y="321" width="100" height="38" rx="8" fill="#fef3c7"/>
-  <text x="710" y="344" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">高失分風險</text>
+  <text x="710" y="344" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">高失分風險</text>
 
   <!-- Row 4 y=385 h=62 -->
   <rect x="28" y="385" width="744" height="62" rx="10" fill="#ffffff"/>
@@ -49,8 +49,9 @@
   <text x="96" y="409" font-size="18" font-weight="700" fill="#1e293b">結論與行動建議（Action Items）</text>
   <text x="96" y="432" font-size="14" fill="#57534e">2–3 項具體行動＋負責人＋時程，下次需追蹤執行情形</text>
   <rect x="660" y="396" width="100" height="38" rx="8" fill="#fef3c7"/>
-  <text x="710" y="419" font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">高失分風險</text>
+  <text x="710" y="419" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">高失分風險</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

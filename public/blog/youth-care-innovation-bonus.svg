@@ -14,7 +14,7 @@
   <circle cx="66" cy="148" r="16" fill="#dcfce7"/>
   <text x="66" y="153"  font-size="14" font-weight="700" fill="#16a34a" text-anchor="middle">T1</text>
   <text x="100" y="140"  font-size="15" font-weight="700" fill="#1e293b">安置特殊需求兒少 2 名以下</text>
-  <text x="100" y="162"  font-size="13" fill="#57534e">身心障礙、重大傷病、藥物濫用、問題行為等，需有書面認定文件</text>
+  <text x="100" y="162"  font-size="16" fill="#57534e">身心障礙、重大傷病、藥物濫用、問題行為等，需有書面認定文件</text>
   <rect x="620" y="129" width="136" height="38" rx="8" fill="#86efac" opacity="0.12"/>
   <text x="688" y="152"  font-size="16" font-weight="700" fill="#15803d" text-anchor="middle">+1 分</text>
   <!-- Tier 2 -->
@@ -23,7 +23,7 @@
   <circle cx="66" cy="221" r="16" fill="#bbf7d0"/>
   <text x="66" y="226"  font-size="14" font-weight="700" fill="#16a34a" text-anchor="middle">T2</text>
   <text x="100" y="213"  font-size="15" font-weight="700" fill="#1e293b">安置特殊需求兒少 3 名以上</text>
-  <text x="100" y="235"  font-size="13" fill="#57534e">達到 3 名的門檻即可升至此級，紀錄完整性為關鍵</text>
+  <text x="100" y="235"  font-size="16" fill="#57534e">達到 3 名的門檻即可升至此級，紀錄完整性為關鍵</text>
   <rect x="620" y="202" width="136" height="38" rx="8" fill="#4ade80" opacity="0.12"/>
   <text x="688" y="225"  font-size="16" font-weight="700" fill="#15803d" text-anchor="middle">+2 分</text>
   <!-- Tier 3 -->
@@ -32,7 +32,7 @@
   <circle cx="66" cy="294" r="16" fill="#86efac"/>
   <text x="66" y="299"  font-size="14" font-weight="700" fill="#15803d" text-anchor="middle">T3</text>
   <text x="100" y="286"  font-size="15" font-weight="700" fill="#1e293b">安置特殊需求兒少 5 名以上</text>
-  <text x="100" y="308"  font-size="13" fill="#57534e">最高階，每位個案需有特殊需求類型說明與服務紀錄</text>
+  <text x="100" y="308"  font-size="16" fill="#57534e">最高階，每位個案需有特殊需求類型說明與服務紀錄</text>
   <rect x="620" y="275" width="136" height="38" rx="8" fill="#22c55e" opacity="0.12"/>
   <text x="688" y="298"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+3 分</text>
   <!-- Resource development -->
@@ -41,7 +41,7 @@
   <circle cx="66" cy="367" r="16" fill="#fde68a"/>
   <text x="66" y="372"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">+</text>
   <text x="100" y="357"  font-size="15" font-weight="700" fill="#1e293b">開發資源及服務（加分）</text>
-  <text x="100" y="379"  font-size="13" fill="#57534e">針對特殊需求兒少主動連結外部資源，有實際運用紀錄</text>
+  <text x="100" y="379"  font-size="16" fill="#57534e">針對特殊需求兒少主動連結外部資源，有實際運用紀錄</text>
   <rect x="620" y="348" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="688" y="371"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">+1 分</text>
   <!-- Summary bar -->
@@ -49,4 +49,5 @@
   <text x="400" y="441"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">最佳策略：5名以上特殊需求個案（+3）+ 資源開發紀錄（+1）= 滿分 4 分</text>
   <!-- Watermark -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

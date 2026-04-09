@@ -17,7 +17,7 @@
   <rect x="44" y="108" width="222" height="8" rx="8" fill="#d97706"/>
   <text x="155" y="160" font-size="38" font-weight="900" fill="#d97706" text-anchor="middle">P</text>
   <text x="155" y="196" font-size="20" font-weight="700" fill="#1e293b" text-anchor="middle">督導計畫</text>
-  <text x="155" y="222" font-size="13" fill="#a8a29e" text-anchor="middle">Plan</text>
+  <text x="155" y="222" font-size="14" fill="#a8a29e" text-anchor="middle">Plan</text>
   <line x1="68" y1="238" x2="242" y2="238" stroke="#e8e6de" stroke-width="1"/>
   <text x="68" y="264" font-size="14" fill="#57534e">設定督導頻率</text>
   <text x="68" y="290" font-size="14" fill="#57534e">訂定督導目標</text>
@@ -26,14 +26,14 @@
   <text x="68" y="368" font-size="14" fill="#57534e">安排督導時程</text>
 
   <!-- Arrow 1→2 -->
-  <text x="280" y="286" font-size="36" fill="#d97706" text-anchor="middle">→</text>
+  <text x="280" y="286" font-size="36" fill="#d97706" text-anchor="middle">-</text>
 
   <!-- Card 2: Do -->
   <rect x="289" y="108" width="222" height="342" rx="14" fill="#ffffff"/>
   <rect x="289" y="108" width="222" height="8" rx="8" fill="#78716c"/>
   <text x="400" y="160" font-size="38" font-weight="900" fill="#78716c" text-anchor="middle">D</text>
   <text x="400" y="196" font-size="20" font-weight="700" fill="#1e293b" text-anchor="middle">督導執行</text>
-  <text x="400" y="222" font-size="13" fill="#a8a29e" text-anchor="middle">Do</text>
+  <text x="400" y="222" font-size="14" fill="#a8a29e" text-anchor="middle">Do</text>
   <line x1="313" y1="238" x2="487" y2="238" stroke="#e8e6de" stroke-width="1"/>
   <text x="313" y="264" font-size="14" fill="#57534e">定期督導進行</text>
   <text x="313" y="290" font-size="14" fill="#57534e">記錄討論主題</text>
@@ -42,14 +42,14 @@
   <text x="313" y="368" font-size="14" fill="#57534e">督導人員簽名</text>
 
   <!-- Arrow 2→3 -->
-  <text x="525" y="286" font-size="36" fill="#d97706" text-anchor="middle">→</text>
+  <text x="525" y="286" font-size="36" fill="#d97706" text-anchor="middle">-</text>
 
   <!-- Card 3: Check + Act -->
   <rect x="534" y="108" width="222" height="342" rx="14" fill="#ffffff"/>
   <rect x="534" y="108" width="222" height="8" rx="8" fill="#57534e"/>
   <text x="645" y="160" font-size="38" font-weight="900" fill="#57534e" text-anchor="middle">C/A</text>
   <text x="645" y="196" font-size="20" font-weight="700" fill="#1e293b" text-anchor="middle">查核與改善</text>
-  <text x="645" y="222" font-size="13" fill="#a8a29e" text-anchor="middle">Check / Act</text>
+  <text x="645" y="222" font-size="14" fill="#a8a29e" text-anchor="middle">Check / Act</text>
   <line x1="558" y1="238" x2="732" y2="238" stroke="#e8e6de" stroke-width="1"/>
   <text x="558" y="264" font-size="14" fill="#57534e">追蹤行動執行</text>
   <text x="558" y="290" font-size="14" fill="#57534e">個案紀錄對照</text>
@@ -59,4 +59,5 @@
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

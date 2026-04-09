@@ -3,7 +3,7 @@
 
   <!-- 標題 -->
   <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">2.2章三大必要條文的持續改善關係</text>
-  <text x="400" y="76" text-anchor="middle" font-size="20" fill="#57534e">品質指標→病安文化→通報分析，形成閉環管理</text>
+  <text x="400" y="76" text-anchor="middle" font-size="20" fill="#57534e">品質指標-病安文化-通報分析，形成閉環管理</text>
   <line x1="129" y1="92" x2="671" y2="92" stroke="#dedad3" stroke-width="1"/>
 
   <!-- N=3 flow，card_w=170, margin=129 -->

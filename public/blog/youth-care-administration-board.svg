@@ -14,39 +14,40 @@
   <circle cx="66" cy="141" r="16" fill="#fef3c7"/>
   <text x="66" y="146"  font-size="18" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
   <text x="100" y="136"  font-size="15" font-weight="700" fill="#1e293b">審議決算與預算</text>
-  <text x="100" y="158"  font-size="13" fill="#57534e">每年至少一次，會議紀錄需顯示實質討論，非形式通過</text>
+  <text x="100" y="158"  font-size="16" fill="#57534e">每年至少一次，會議紀錄需顯示實質討論，非形式通過</text>
   <rect x="620" y="121" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="145"  font-size="13" font-weight="700" fill="#d97706" text-anchor="middle">近三年紀錄</text>
+  <text x="688" y="145"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">近三年紀錄</text>
   <!-- Row 2 -->
   <rect x="28" y="185" width="744" height="62" rx="12" fill="#ffffff"/>
   <rect x="28" y="185" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="216" r="16" fill="#f5f5f4"/>
   <text x="66" y="221"  font-size="18" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
   <text x="100" y="211"  font-size="15" font-weight="700" fill="#1e293b">董事改選符合規定</text>
-  <text x="100" y="233"  font-size="13" fill="#57534e">任期如期辦理改選，相關公文報備完整，無逾期</text>
+  <text x="100" y="233"  font-size="16" fill="#57534e">任期如期辦理改選，相關公文報備完整，無逾期</text>
   <rect x="620" y="196" width="136" height="40" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="220"  font-size="13" font-weight="700" fill="#78716c" text-anchor="middle">改選公文存查</text>
+  <text x="688" y="220"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">改選公文存查</text>
   <!-- Row 3 -->
   <rect x="28" y="260" width="744" height="62" rx="12" fill="#ffffff"/>
   <rect x="28" y="260" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="291" r="16" fill="#f5f5f4"/>
   <text x="66" y="296"  font-size="18" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
   <text x="100" y="286"  font-size="15" font-weight="700" fill="#1e293b">權責劃分清楚</text>
-  <text x="100" y="308"  font-size="13" fill="#57534e">董事會與行政執行層面有明確分工，章程能反映</text>
+  <text x="100" y="308"  font-size="16" fill="#57534e">董事會與行政執行層面有明確分工，章程能反映</text>
   <rect x="620" y="271" width="136" height="40" rx="8" fill="#f5f5f4" opacity="0.12"/>
-  <text x="688" y="295"  font-size="13" font-weight="700" fill="#57534e" text-anchor="middle">組織章程</text>
+  <text x="688" y="295"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">組織章程</text>
   <!-- Row 4 -->
   <rect x="28" y="335" width="744" height="62" rx="12" fill="#ffffff"/>
   <rect x="28" y="335" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="366" r="16" fill="#e7e5e4"/>
   <text x="66" y="371"  font-size="18" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
   <text x="100" y="361"  font-size="15" font-weight="700" fill="#1e293b">董事對機構的了解與支持</text>
-  <text x="100" y="383"  font-size="13" fill="#57534e">定期關心營運、兒少狀況，若有實地拜訪紀錄更佳</text>
+  <text x="100" y="383"  font-size="16" fill="#57534e">定期關心營運、兒少狀況，若有實地拜訪紀錄更佳</text>
   <rect x="620" y="346" width="136" height="40" rx="8" fill="#e7e5e4" opacity="0.12"/>
-  <text x="688" y="370"  font-size="13" font-weight="700" fill="#a8a29e" text-anchor="middle">拜訪或會議紀錄</text>
+  <text x="688" y="370"  font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">拜訪或會議紀錄</text>
   <!-- Summary bar -->
   <rect x="28" y="420" width="744" height="48" rx="12" fill="#fef3c7"/>
   <text x="400" y="450"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">準備重點：近三年紀錄完整性 + 決議實質性 + 預算決算比較表</text>
   <!-- Watermark -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

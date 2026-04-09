@@ -14,9 +14,9 @@
   <rect x="30" y="108" width="140" height="8" rx="4" fill="#d97706"/>
   <rect x="30" y="112" width="140" height="4" fill="#d97706"/>
   <text x="100" y="141" text-anchor="middle" font-size="16" fill="#1e293b" font-weight="700">評鑑前3個月</text>
-  <text x="100" y="161" text-anchor="middle" font-size="14" fill="#57534e">確認機構類型</text>
-  <text x="100" y="179" text-anchor="middle" font-size="14" fill="#57534e">逐條自評差距</text>
-  <text x="100" y="197" text-anchor="middle" font-size="14" fill="#57534e">成立備審小組</text>
+  <text x="100" y="161" text-anchor="middle" font-size="16" fill="#57534e">確認機構類型</text>
+  <text x="100" y="179" text-anchor="middle" font-size="16" fill="#57534e">逐條自評差距</text>
+  <text x="100" y="197" text-anchor="middle" font-size="16" fill="#57534e">成立備審小組</text>
   <line x1="100" y1="208" x2="100" y2="248" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
   <circle cx="100" cy="272" r="24" fill="#d97706" opacity="0.15"/>
   <text x="100" y="280" text-anchor="middle" font-size="20" fill="white" font-weight="700">1</text>

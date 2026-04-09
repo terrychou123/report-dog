@@ -10,18 +10,18 @@
 
   <!-- 右側 3 個數位化步驟 -->
   <rect x="840" y="270" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="868" y="300" font-size="24" fill="#d97706" font-weight="700">STEP 1</text>
-  <text x="960" y="300" font-size="22" fill="#78716c">雲端文件管理</text>
+  <text x="868" y="291" font-size="24" fill="#d97706" font-weight="700">STEP 1</text>
+  <text x="960" y="322" font-size="22" fill="#78716c">雲端文件管理</text>
   <text x="960" y="318" font-size="18" fill="#a8a29e">依基準建立資料夾</text>
 
   <rect x="840" y="338" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="868" y="368" font-size="24" fill="#d97706" font-weight="700">STEP 2</text>
-  <text x="960" y="368" font-size="22" fill="#78716c">AI 輔助撰寫報告</text>
+  <text x="868" y="359" font-size="24" fill="#d97706" font-weight="700">STEP 2</text>
+  <text x="960" y="390" font-size="22" fill="#78716c">AI 輔助撰寫報告</text>
   <text x="960" y="386" font-size="18" fill="#a8a29e">評鑑初稿快速完成</text>
 
   <rect x="840" y="406" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="868" y="436" font-size="24" fill="#d97706" font-weight="700">STEP 3</text>
-  <text x="960" y="436" font-size="22" fill="#78716c">品質指標定期追蹤</text>
+  <text x="868" y="427" font-size="24" fill="#d97706" font-weight="700">STEP 3</text>
+  <text x="960" y="458" font-size="22" fill="#78716c">品質指標定期追蹤</text>
   <text x="960" y="454" font-size="18" fill="#a8a29e">提醒不漏追</text>
 
   <!-- 右側底部標籤 -->
@@ -29,7 +29,7 @@
   <text x="1000" y="512" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">從報告文書開始轉型</text>
 
   <rect x="840" y="540" width="320" height="52" rx="10" fill="#78716c" opacity="0.10"/>
-  <text x="1000" y="576" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">人力短缺的解方</text>
+  <text x="1000" y="559" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">人力短缺的解方</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -16,21 +16,21 @@
   <!-- 三張卡片 -->
   <!-- 跌倒卡片 -->
   <rect x="100" y="440" width="280" height="130" fill="#fef3c7" rx="12" stroke="#d97706" stroke-width="2"/>
-  <text x="240" y="478" font-size="32" fill="#d97706" font-weight="bold" text-anchor="middle">🚶</text>
+  <text x="240" y="478" font-size="32" fill="#d97706" font-weight="bold" text-anchor="middle"></text>
   <text x="240" y="512" font-size="24" fill="#92400e" font-weight="bold" text-anchor="middle">跌倒事件</text>
   <text x="240" y="538" font-size="20" fill="#78716c" text-anchor="middle">24小時內通報</text>
   <text x="240" y="558" font-size="20" fill="#78716c" text-anchor="middle">追蹤改善措施</text>
 
   <!-- 壓傷卡片 -->
   <rect x="420" y="440" width="280" height="130" fill="#fee2e2" rx="12" stroke="#dc2626" stroke-width="2"/>
-  <text x="560" y="478" font-size="32" fill="#dc2626" font-weight="bold" text-anchor="middle">🩹</text>
+  <text x="560" y="478" font-size="32" fill="#dc2626" font-weight="bold" text-anchor="middle"></text>
   <text x="560" y="512" font-size="24" fill="#991b1b" font-weight="bold" text-anchor="middle">壓傷事件</text>
   <text x="560" y="538" font-size="20" fill="#78716c" text-anchor="middle">Stage 1–4 分級</text>
   <text x="560" y="558" font-size="20" fill="#78716c" text-anchor="middle">護理措施記錄</text>
 
   <!-- 緊急醫療卡片 -->
   <rect x="740" y="440" width="280" height="130" fill="#ffe4e6" rx="12" stroke="#e11d48" stroke-width="2"/>
-  <text x="880" y="478" font-size="32" fill="#e11d48" font-weight="bold" text-anchor="middle">🚑</text>
+  <text x="880" y="478" font-size="32" fill="#e11d48" font-weight="bold" text-anchor="middle"></text>
   <text x="880" y="512" font-size="24" fill="#9f1239" font-weight="bold" text-anchor="middle">緊急醫療</text>
   <text x="880" y="538" font-size="20" fill="#78716c" text-anchor="middle">急救流程</text>
   <text x="880" y="558" font-size="20" fill="#78716c" text-anchor="middle">呼叫救護車</text>

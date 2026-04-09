@@ -10,27 +10,27 @@
 
   <!-- 右側 2×2 資訊卡片 -->
   <rect x="840" y="279" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="308" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">再住院率</text>
-  <text x="918" y="339" font-size="22" fill="#a8a29e" text-anchor="middle">≤ 5%</text>
+  <text x="918" y="316" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">再住院率</text>
+  <text x="918" y="347" font-size="22" fill="#a8a29e" text-anchor="middle"><= 5%</text>
 
   <rect x="1005" y="279" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="308" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">傷口癒合率</text>
-  <text x="1083" y="339" font-size="22" fill="#a8a29e" text-anchor="middle">≥ 85%</text>
+  <text x="1083" y="316" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">傷口癒合率</text>
+  <text x="1083" y="347" font-size="22" fill="#a8a29e" text-anchor="middle">>= 85%</text>
 
   <rect x="840" y="375" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="918" y="404" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">滿意度</text>
-  <text x="918" y="435" font-size="22" fill="#a8a29e" text-anchor="middle">≥ 90%</text>
+  <text x="918" y="412" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">滿意度</text>
+  <text x="918" y="443" font-size="22" fill="#a8a29e" text-anchor="middle">>= 90%</text>
 
   <rect x="1005" y="375" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="404" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">準時訪視率</text>
-  <text x="1083" y="435" font-size="22" fill="#a8a29e" text-anchor="middle">≥ 90%</text>
+  <text x="1083" y="412" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">準時訪視率</text>
+  <text x="1083" y="443" font-size="22" fill="#a8a29e" text-anchor="middle">>= 90%</text>
 
   <!-- 右側底部標籤 -->
   <rect x="840" y="471" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="1000" y="507" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">每季統計分析 · 持續改善</text>
 
   <rect x="840" y="535" width="320" height="52" rx="10" fill="#78716c" opacity="0.10"/>
-  <text x="1000" y="571" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">閾值設定 · 改善計畫追蹤</text>
+  <text x="1000" y="554" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">閾值設定 · 改善計畫追蹤</text>
 
   <!-- 左側主內容區 -->
   <text x="60" y="200" font-size="110" font-weight="900" fill="#1e293b">居家護理所</text>
@@ -57,5 +57,5 @@
   <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：居家護理所負責人 · 護理長 · 品管人員</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+  <text x="1140" y="585" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

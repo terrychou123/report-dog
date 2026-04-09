@@ -10,24 +10,24 @@
 
   <!-- 右側 7 類清單 -->
   <rect x="840" y="279" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="298" font-size="19" fill="#d97706" font-weight="700">① 跌倒</text>
-  <text x="940" y="298" font-size="19" fill="#57534e">  ② 燙傷</text>
+  <text x="858" y="289" font-size="19" fill="#d97706" font-weight="700">1 跌倒</text>
+  <text x="940" y="320" font-size="19" fill="#57534e"> 2 燙傷</text>
 
   <rect x="840" y="323" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="342" font-size="19" fill="#d97706" font-weight="700">③ 嬰兒抱錯</text>
-  <text x="1000" y="342" font-size="19" fill="#57534e">④ 嬰兒誘拐</text>
+  <text x="858" y="333" font-size="19" fill="#d97706" font-weight="700">3 嬰兒抱錯</text>
+  <text x="1000" y="364" font-size="19" fill="#57534e">4 嬰兒誘拐</text>
 
   <rect x="840" y="367" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="386" font-size="19" fill="#d97706" font-weight="700">⑤ 藥物錯誤</text>
-  <text x="1000" y="386" font-size="19" fill="#57534e">⑥ 設備故障</text>
+  <text x="858" y="377" font-size="19" fill="#d97706" font-weight="700">5 藥物錯誤</text>
+  <text x="1000" y="408" font-size="19" fill="#57534e">6 設備故障</text>
 
   <rect x="840" y="411" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="436" font-size="19" fill="#d97706" font-weight="700">⑦ 其他重大事故</text>
+  <text x="858" y="436" font-size="19" fill="#d97706" font-weight="700">7 其他重大事故</text>
 
   <!-- 24小時通報強調 -->
   <rect x="840" y="459" width="320" height="60" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="479" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">24 小時</text>
-  <text x="1000" y="503" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600">通報時限（自發現時起算）</text>
+  <text x="1000" y="485" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">24 小時</text>
+  <text x="1000" y="516" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600">通報時限（自發現時起算）</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="529" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>

@@ -19,7 +19,7 @@
   <rect x="620" y="127" width="136" height="64" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="152" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">下床頻率</text>
   <text x="688" y="172" font-size="14" fill="#d97706" text-anchor="middle" >每日 2 次</text>
-  <text x="688" y="184" font-size="13" fill="#d97706" text-anchor="middle" >（意識不清 1 次）</text>
+  <text x="688" y="184" font-size="14" fill="#d97706" text-anchor="middle" >（意識不清 1 次）</text>
 
   <!-- 列 2：B26 清潔翻身 -->
   <rect x="50" y="225" width="700" height="88" rx="8" fill="white"/>
@@ -32,7 +32,7 @@
   <rect x="620" y="237" width="136" height="64" rx="8" fill="#dcfce7" opacity="0.12"/>
   <text x="688" y="262" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">翻身頻率</text>
   <text x="688" y="282" font-size="14" fill="#16a34a" text-anchor="middle" >每 2 小時</text>
-  <text x="688" y="294" font-size="13" fill="#16a34a" text-anchor="middle" >擺位記錄</text>
+  <text x="688" y="294" font-size="14" fill="#16a34a" text-anchor="middle" >擺位記錄</text>
 
   <!-- 列 3：B27 自我照顧能力 -->
   <rect x="50" y="335" width="700" height="88" rx="8" fill="white"/>
@@ -45,7 +45,7 @@
   <rect x="620" y="347" width="136" height="64" rx="8" fill="#f5f5f4" opacity="0.12"/>
   <text x="688" y="372" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">最少協助</text>
   <text x="688" y="392" font-size="14" fill="#78716c" text-anchor="middle" >輔具配對</text>
-  <text x="688" y="404" font-size="13" fill="#78716c" text-anchor="middle" >個別適用</text>
+  <text x="688" y="404" font-size="14" fill="#78716c" text-anchor="middle" >個別適用</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

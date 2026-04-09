@@ -10,20 +10,20 @@
 
   <!-- 右側資訊卡片 -->
   <rect x="840" y="264" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="292" font-size="22" fill="#d97706" font-weight="700">手部衛生 5 時機</text>
-  <text x="1060" y="292" font-size="21" fill="#57534e">WHO 標準</text>
+  <text x="858" y="284" font-size="22" fill="#d97706" font-weight="700">手部衛生 5 時機</text>
+  <text x="1060" y="315" font-size="21" fill="#57534e">WHO 標準</text>
 
   <rect x="840" y="326" width="320" height="56" rx="10" fill="#d97706" opacity="0.12" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="354" font-size="22" fill="#d97706" font-weight="700">每季稽核</text>
-  <text x="958" y="354" font-size="21" fill="#57534e">遵從率統計記錄</text>
+  <text x="858" y="346" font-size="22" fill="#d97706" font-weight="700">每季稽核</text>
+  <text x="958" y="377" font-size="21" fill="#57534e">遵從率統計記錄</text>
 
   <rect x="840" y="388" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="416" font-size="22" fill="#16a34a" font-weight="700">嬰兒床消毒</text>
-  <text x="968" y="416" font-size="21" fill="#57534e">每次出院後記錄</text>
+  <text x="858" y="408" font-size="22" fill="#16a34a" font-weight="700">嬰兒床消毒</text>
+  <text x="968" y="439" font-size="21" fill="#57534e">每次出院後記錄</text>
 
   <rect x="840" y="450" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="478" font-size="22" fill="#78716c" font-weight="700">訪客管理</text>
-  <text x="950" y="478" font-size="21" fill="#57534e">進入嬰兒室規範</text>
+  <text x="858" y="470" font-size="22" fill="#78716c" font-weight="700">訪客管理</text>
+  <text x="950" y="501" font-size="21" fill="#57534e">進入嬰兒室規範</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="515" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>

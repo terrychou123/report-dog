@@ -32,12 +32,12 @@
   <text x="1010" y="293"  font-size="14" fill="#d97706" text-anchor="middle">15分 高配分</text>
 
   <circle cx="920" cy="420" r="40" fill="none" stroke="#78716c" stroke-width="2"/>
-  <text x="920" y="415"  font-size="13" fill="#57534e" text-anchor="middle">項目 22</text>
-  <text x="920" y="432"  font-size="13" fill="#57534e" text-anchor="middle">15分</text>
+  <text x="920" y="415"  font-size="14" fill="#57534e" text-anchor="middle">項目 22</text>
+  <text x="920" y="432"  font-size="14" fill="#57534e" text-anchor="middle">15分</text>
 
   <circle cx="1095" cy="420" r="40" fill="none" stroke="#78716c" stroke-width="2"/>
-  <text x="1095" y="415"  font-size="13" fill="#57534e" text-anchor="middle">項目 29</text>
-  <text x="1095" y="432"  font-size="13" fill="#57534e" text-anchor="middle">20分</text>
+  <text x="1095" y="415"  font-size="14" fill="#57534e" text-anchor="middle">項目 29</text>
+  <text x="1095" y="432"  font-size="14" fill="#57534e" text-anchor="middle">20分</text>
 
   <!-- Watermark -->
   <text x="1140" y="600"  font-size="24" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>

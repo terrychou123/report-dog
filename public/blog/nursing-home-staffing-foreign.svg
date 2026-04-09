@@ -6,7 +6,7 @@
   <!-- 公式區 -->
   <rect x="40" y="118" width="720" height="90" rx="12" fill="#d97706"/>
   <text x="400" y="152"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">外籍照服員人數</text>
-  <text x="400" y="182"  font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 本國籍照服員人數 + 護理人員人數</text>
+  <text x="400" y="182"  font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle"><= 本國籍照服員人數 + 護理人員人數</text>
   <!-- 範例 -->
   <rect x="40" y="226" width="350" height="120" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <text x="215" y="258"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">範例（達標）</text>
@@ -17,7 +17,7 @@
   <text x="585" y="258"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">範例（不達標）</text>
   <text x="585" y="284"  font-size="15" fill="#57534e" text-anchor="middle">本國籍照服員 8 人</text>
   <text x="585" y="306"  font-size="15" fill="#57534e" text-anchor="middle">護理人員 3 人</text>
-  <text x="585" y="332"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">外籍 12 人 → 超出 1 人</text>
+  <text x="585" y="332"  font-size="16" font-weight="700" fill="#78716c" text-anchor="middle">外籍 12 人 - 超出 1 人</text>
   <!-- 三大要點 -->
   <rect x="40" y="364" width="225" height="80" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <text x="152" y="394"  font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">外籍比例計算</text>

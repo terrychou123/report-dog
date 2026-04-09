@@ -37,27 +37,27 @@
   <!-- 右側 2x2 資訊卡片 -->
   <!-- 卡片1 -->
   <rect x="825" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="375" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >護理人員</text>
-  <text x="907" y="400" font-size="15" fill="#57534e" text-anchor="middle" >24小時在班</text>
-  <text x="907" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" >不可電話on-call</text>
+  <text x="907" y="380" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >護理人員</text>
+  <text x="907" y="411" font-size="15" fill="#57534e" text-anchor="middle" >24小時在班</text>
+  <text x="907" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >不可電話on-call</text>
 
   <!-- 卡片2 -->
   <rect x="1005" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="375" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >照顧服務員</text>
-  <text x="1087" y="400" font-size="15" fill="#57534e" text-anchor="middle" >依床數配置</text>
-  <text x="1087" y="424" font-size="13" fill="#a8a29e" text-anchor="middle" >資格需符合規定</text>
+  <text x="1087" y="380" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >照顧服務員</text>
+  <text x="1087" y="411" font-size="15" fill="#57534e" text-anchor="middle" >依床數配置</text>
+  <text x="1087" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >資格需符合規定</text>
 
   <!-- 卡片3 -->
   <rect x="825" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="490" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >職能治療</text>
-  <text x="907" y="515" font-size="15" fill="#57534e" text-anchor="middle" >4hr/週</text>
-  <text x="907" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" >200床為分界</text>
+  <text x="907" y="495" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >職能治療</text>
+  <text x="907" y="526" font-size="15" fill="#57534e" text-anchor="middle" >4hr/週</text>
+  <text x="907" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >200床為分界</text>
 
   <!-- 卡片4 -->
   <rect x="1005" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="490" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >心理師</text>
-  <text x="1087" y="515" font-size="15" fill="#57534e" text-anchor="middle" >配置合規</text>
-  <text x="1087" y="539" font-size="13" fill="#a8a29e" text-anchor="middle" >同職能治療</text>
+  <text x="1087" y="495" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >心理師</text>
+  <text x="1087" y="526" font-size="15" fill="#57534e" text-anchor="middle" >配置合規</text>
+  <text x="1087" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >同職能治療</text>
 
   <!-- 品牌浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>

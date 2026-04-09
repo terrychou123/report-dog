@@ -27,7 +27,7 @@
   <text x="355" y="132" font-size="14" fill="#78716c" text-anchor="middle">查看住民狀況、環境整潔、護理措施執行</text>
   <text x="637" y="124" font-size="14" fill="#44403c" text-anchor="middle">查核紀錄表</text>
   <rect x="730" y="108" width="28" height="28" fill="white" stroke="#d97706" stroke-width="2" rx="4"/>
-  <text x="744" y="127" font-size="16" fill="#d97706" text-anchor="middle">□</text>
+  <text x="744" y="127" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
 
   <!-- 列2 -->
   <rect x="20" y="142" width="760" height="44" fill="#f9fafb"/>
@@ -35,10 +35,10 @@
   <text x="90" y="159" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">人力配置</text>
   <text x="90" y="176" font-size="14" fill="#44403c" text-anchor="middle">護理人員比</text>
   <text x="355" y="159" font-size="14" fill="#44403c" text-anchor="middle">確認各班次護理人員與住民比符合規定</text>
-  <text x="355" y="176" font-size="14" fill="#78716c" text-anchor="middle">日班≤9人、夜班≤15人</text>
+  <text x="355" y="176" font-size="14" fill="#78716c" text-anchor="middle">日班<=9人、夜班<=15人</text>
   <text x="637" y="168" font-size="14" fill="#44403c" text-anchor="middle">排班表</text>
   <rect x="730" y="152" width="28" height="28" fill="#f9fafb" stroke="#d97706" stroke-width="2" rx="4"/>
-  <text x="744" y="171" font-size="16" fill="#d97706" text-anchor="middle">□</text>
+  <text x="744" y="171" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
 
   <!-- 列3 -->
   <rect x="20" y="186" width="760" height="44" fill="white"/>
@@ -49,7 +49,7 @@
   <text x="355" y="220" font-size="14" fill="#78716c" text-anchor="middle">執照未過期、執業機構與雇用機構相符</text>
   <text x="637" y="212" font-size="14" fill="#44403c" text-anchor="middle">執照影本</text>
   <rect x="730" y="196" width="28" height="28" fill="white" stroke="#d97706" stroke-width="2" rx="4"/>
-  <text x="744" y="215" font-size="16" fill="#d97706" text-anchor="middle">□</text>
+  <text x="744" y="215" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
 
   <!-- 列4 -->
   <rect x="20" y="230" width="760" height="44" fill="#f9fafb"/>
@@ -60,7 +60,7 @@
   <text x="355" y="264" font-size="14" fill="#78716c" text-anchor="middle">簽到表、訓練教材、完成時數</text>
   <text x="637" y="256" font-size="14" fill="#44403c" text-anchor="middle">訓練記錄</text>
   <rect x="730" y="240" width="28" height="28" fill="#f9fafb" stroke="#d97706" stroke-width="2" rx="4"/>
-  <text x="744" y="259" font-size="16" fill="#d97706" text-anchor="middle">□</text>
+  <text x="744" y="259" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
 
   <!-- 列5 -->
   <rect x="20" y="274" width="760" height="44" fill="white"/>
@@ -71,7 +71,7 @@
   <text x="355" y="308" font-size="14" fill="#78716c" text-anchor="middle">跌倒、壓傷事件的追蹤成效</text>
   <text x="637" y="300" font-size="14" fill="#44403c" text-anchor="middle">意外事件表</text>
   <rect x="730" y="284" width="28" height="28" fill="white" stroke="#d97706" stroke-width="2" rx="4"/>
-  <text x="744" y="303" font-size="16" fill="#d97706" text-anchor="middle">□</text>
+  <text x="744" y="303" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
 
   <!-- 列6 -->
   <rect x="20" y="318" width="760" height="44" fill="#f9fafb"/>
@@ -82,7 +82,7 @@
   <text x="355" y="352" font-size="14" fill="#78716c" text-anchor="middle">走廊無障礙、床欄完好、防跌措施</text>
   <text x="637" y="344" font-size="14" fill="#44403c" text-anchor="middle">環境查核表</text>
   <rect x="730" y="328" width="28" height="28" fill="#f9fafb" stroke="#d97706" stroke-width="2" rx="4"/>
-  <text x="744" y="347" font-size="16" fill="#d97706" text-anchor="middle">□</text>
+  <text x="744" y="347" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
 
   <!-- 底部簽名欄 -->
   <rect x="20" y="365" width="760" height="60" fill="#dbeafe" rx="8"/>

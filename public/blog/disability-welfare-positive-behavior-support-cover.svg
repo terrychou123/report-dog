@@ -4,19 +4,19 @@
   <text x="1010" y="175" font-size="40" fill="#d97706" text-anchor="middle" font-weight="900">正向行為支持</text>
   <text x="1010" y="225" font-size="30" fill="#78716c" text-anchor="middle" font-weight="600">PBS 實務應用</text>
   <rect x="840" y="256" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="289" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">觀察→分析→策略</text>
+  <text x="1000" y="289" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">觀察-分析-策略</text>
   <rect x="840" y="320" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="350" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">行為觀察</text>
-  <text x="914" y="376" font-size="18" fill="#a8a29e" text-anchor="middle">前事分析</text>
+  <text x="914" y="379" font-size="18" fill="#a8a29e" text-anchor="middle">前事分析</text>
   <rect x="1000" y="320" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="350" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">功能評估</text>
-  <text x="1074" y="376" font-size="18" fill="#a8a29e" text-anchor="middle">行為功能</text>
+  <text x="1074" y="379" font-size="18" fill="#a8a29e" text-anchor="middle">行為功能</text>
   <rect x="840" y="404" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="914" y="434" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">介入策略</text>
-  <text x="914" y="460" font-size="18" fill="#a8a29e" text-anchor="middle">環境調整</text>
+  <text x="914" y="463" font-size="18" fill="#a8a29e" text-anchor="middle">環境調整</text>
   <rect x="1000" y="404" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <text x="1074" y="434" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="700">評估記錄</text>
-  <text x="1074" y="460" font-size="18" fill="#a8a29e" text-anchor="middle">符合4203</text>
+  <text x="1074" y="463" font-size="18" fill="#a8a29e" text-anchor="middle">符合4203</text>
   <text x="60" y="185" font-size="90" font-weight="900" fill="#1e293b">正向行為</text>
   <text x="60" y="305" font-size="90" font-weight="900" fill="#d97706">支持實務</text>
   <line x1="60" y1="333" x2="780" y2="333" stroke="#dedad3" stroke-width="2"/>

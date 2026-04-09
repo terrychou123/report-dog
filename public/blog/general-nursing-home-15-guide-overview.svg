@@ -8,8 +8,8 @@
   <rect x="40" y="112" width="164" height="320" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
   <rect x="40" y="112" width="164" height="46" rx="10" fill="#d97706"/>
   <rect x="40" y="138" width="164" height="20" fill="#d97706"/>
-  <text x="122" y="127" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">A 區 · 5 項</text>
-  <text x="122" y="145" font-size="14" fill="#fef9c3" text-anchor="middle">行政管理</text>
+  <text x="122" y="123" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">A 區 · 5 項</text>
+  <text x="122" y="153" font-size="14" fill="#fef9c3" text-anchor="middle">行政管理</text>
   <text x="56" y="188" font-size="14" fill="#57534e">A1.1 負責人管理查核</text>
   <text x="56" y="210" font-size="14" fill="#57534e">A1.2 人員配置急救訓練</text>
   <text x="56" y="232" font-size="14" fill="#57534e">A1.3 意外緊急事件處理</text>
@@ -23,38 +23,38 @@
   <rect x="218" y="112" width="164" height="320" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
   <rect x="218" y="112" width="164" height="46" rx="10" fill="#16a34a"/>
   <rect x="218" y="138" width="164" height="20" fill="#16a34a"/>
-  <text x="300" y="127" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">B 區 · 3 項</text>
-  <text x="300" y="145" font-size="14" fill="#bbf7d0" text-anchor="middle">專業服務</text>
+  <text x="300" y="123" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">B 區 · 3 項</text>
+  <text x="300" y="153" font-size="14" fill="#bbf7d0" text-anchor="middle">專業服務</text>
   <text x="234" y="188" font-size="14" fill="#57534e">B1 個別化照護計畫</text>
   <text x="234" y="210" font-size="14" fill="#57534e">B2 跨專業整合照顧</text>
   <text x="234" y="232" font-size="14" fill="#57534e">B3 品質監測指標</text>
   <text x="234" y="268" font-size="14" fill="#16a34a" font-weight="600">查核：資料查核</text>
   <text x="234" y="288" font-size="14" fill="#78716c">負責：護理長</text>
   <text x="234" y="308" font-size="14" fill="#78716c">品管護理師</text>
-  <text x="234" y="336" font-size="14" fill="#dc2626" font-weight="600">⚠ 文件量最重</text>
+  <text x="234" y="336" font-size="14" fill="#dc2626" font-weight="600">(!) 文件量最重</text>
   <text x="234" y="358" font-size="14" fill="#dc2626">個案記錄必查</text>
 
   <!-- C 區 -->
   <rect x="396" y="112" width="164" height="320" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
   <rect x="396" y="112" width="164" height="46" rx="10" fill="#2563eb"/>
   <rect x="396" y="138" width="164" height="20" fill="#2563eb"/>
-  <text x="478" y="127" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">C 區 · 4 項</text>
-  <text x="478" y="145" font-size="14" fill="#bfdbfe" text-anchor="middle">消防安全</text>
+  <text x="478" y="123" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">C 區 · 4 項</text>
+  <text x="478" y="153" font-size="14" fill="#bfdbfe" text-anchor="middle">消防安全</text>
   <text x="412" y="188" font-size="14" fill="#57534e">C1 災害緊急應變演練</text>
   <text x="412" y="210" font-size="14" fill="#57534e">C2 疏散避難系統</text>
   <text x="412" y="232" font-size="14" fill="#57534e">C3 個別化疏散策略</text>
   <text x="412" y="254" font-size="14" fill="#57534e">C4 情境式演練抽測</text>
   <text x="412" y="288" font-size="14" fill="#2563eb" font-weight="600">查核：資料+實地</text>
   <text x="412" y="308" font-size="14" fill="#78716c">負責：防火管理人</text>
-  <text x="412" y="328" font-size="14" fill="#dc2626" font-weight="600">⚠ 含實地演練</text>
+  <text x="412" y="328" font-size="14" fill="#dc2626" font-weight="600">(!) 含實地演練</text>
   <text x="412" y="350" font-size="14" fill="#dc2626">情境抽測無法補救</text>
 
   <!-- D 區 -->
   <rect x="574" y="112" width="164" height="320" rx="10" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
   <rect x="574" y="112" width="164" height="46" rx="10" fill="#7c3aed"/>
   <rect x="574" y="138" width="164" height="20" fill="#7c3aed"/>
-  <text x="656" y="127" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">D 區 · 3 項</text>
-  <text x="656" y="145" font-size="14" fill="#e9d5ff" text-anchor="middle">特別事項</text>
+  <text x="656" y="123" font-size="22" fill="#fff" font-weight="700" text-anchor="middle">D 區 · 3 項</text>
+  <text x="656" y="153" font-size="14" fill="#e9d5ff" text-anchor="middle">特別事項</text>
   <text x="590" y="188" font-size="14" fill="#57534e">D1 創新配合政策（加分）</text>
   <text x="590" y="210" font-size="14" fill="#57534e">D2 口腔健康照護</text>
   <text x="590" y="232" font-size="14" fill="#57534e">D3 重大異常（試評扣）</text>

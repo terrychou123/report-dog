@@ -5,7 +5,7 @@
 
   <!-- 標題區 -->
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">參、經營管理效能（第 23–37 條）</text>
-  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">行政制度 → 人員管理 → 財務管理 → 緊急應變</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">行政制度 - 人員管理 - 財務管理 - 緊急應變</text>
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 箭頭 N=4, arrow_y=279 -->

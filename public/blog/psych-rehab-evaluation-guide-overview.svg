@@ -10,7 +10,7 @@
   <!-- 日間型標頭 -->
   <rect x="40" y="108" width="346" height="44" rx="12" fill="#0284c7"/>
   <rect x="40" y="128" width="346" height="24" fill="#0284c7"/>
-  <text x="213" y="148" text-anchor="middle" font-size="22" fill="white" font-weight="700">日間型機構</text>
+  <text x="213" y="138" text-anchor="middle" font-size="22" fill="white" font-weight="700">日間型機構</text>
   <!-- 日間型內容 -->
   <text x="213" y="185" text-anchor="middle" font-size="40" fill="#0284c7" font-weight="900">36條</text>
   <text x="213" y="215" text-anchor="middle" font-size="18" fill="#57534e">服務對象稱謂：學員</text>
@@ -35,7 +35,7 @@
   <!-- 住宿型標頭 -->
   <rect x="414" y="108" width="346" height="44" rx="12" fill="#7c3aed"/>
   <rect x="414" y="128" width="346" height="24" fill="#7c3aed"/>
-  <text x="587" y="148" text-anchor="middle" font-size="22" fill="white" font-weight="700">住宿型機構</text>
+  <text x="587" y="138" text-anchor="middle" font-size="22" fill="white" font-weight="700">住宿型機構</text>
   <!-- 住宿型內容 -->
   <text x="587" y="185" text-anchor="middle" font-size="40" fill="#7c3aed" font-weight="900">40條</text>
   <text x="587" y="215" text-anchor="middle" font-size="18" fill="#57534e">服務對象稱謂：住民</text>

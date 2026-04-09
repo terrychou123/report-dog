@@ -11,18 +11,18 @@
   <!-- 右側時程條（3 條，各 80px） -->
   <rect x="840" y="282" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="282" width="7" height="80" rx="3" fill="#d97706"/>
-  <text x="862" y="309" font-size="28" fill="#d97706" font-weight="700">制度篇 Q1–Q5</text>
-  <text x="862" y="337" font-size="22" fill="#78716c">評鑑制度 · 通知時間 · 流程</text>
+  <text x="862" y="316" font-size="28" fill="#d97706" font-weight="700">制度篇 Q1–Q5</text>
+  <text x="862" y="347" font-size="22" fill="#78716c">評鑑制度 · 通知時間 · 流程</text>
 
   <rect x="840" y="370" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="370" width="7" height="80" rx="3" fill="#78716c"/>
-  <text x="862" y="397" font-size="28" fill="#78716c" font-weight="700">文件篇 Q6–Q10</text>
-  <text x="862" y="425" font-size="22" fill="#78716c">備審文件 · 核心紀錄重點</text>
+  <text x="862" y="404" font-size="28" fill="#78716c" font-weight="700">文件篇 Q6–Q10</text>
+  <text x="862" y="435" font-size="22" fill="#78716c">備審文件 · 核心紀錄重點</text>
 
   <rect x="840" y="458" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <rect x="840" y="458" width="7" height="80" rx="3" fill="#a8a29e"/>
-  <text x="862" y="485" font-size="28" fill="#a8a29e" font-weight="700">現場篇 Q11–Q15</text>
-  <text x="862" y="513" font-size="22" fill="#78716c">評鑑當天 · 注意事項</text>
+  <text x="862" y="492" font-size="28" fill="#a8a29e" font-weight="700">現場篇 Q11–Q15</text>
+  <text x="862" y="523" font-size="22" fill="#78716c">評鑑當天 · 注意事項</text>
 
   <!-- 左側主內容區 -->
   <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">評鑑常見</text>

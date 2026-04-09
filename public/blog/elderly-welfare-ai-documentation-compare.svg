@@ -19,9 +19,9 @@
   <rect x="29" y="148" width="742" height="62" rx="6" fill="#ffffff"/>
   <rect x="29" y="148" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="179" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="184" font-size="13" font-weight="700" fill="#d97706"  text-anchor="middle">B2</text>
+  <text x="66" y="184" font-size="14" font-weight="700" fill="#d97706"  text-anchor="middle">B2</text>
   <text x="100" y="170" font-size="15" font-weight="700" fill="#1e293b" >個案服務計畫（50人份）</text>
-  <text x="100" y="193" font-size="13" fill="#57534e" >社工逐份撰寫初稿與督導審閱</text>
+  <text x="100" y="193" font-size="16" fill="#57534e" >社工逐份撰寫初稿與督導審閱</text>
   <text x="440" y="184" font-size="18" font-weight="700" fill="#78716c"  text-anchor="middle">100–150h</text>
   <text x="620" y="184" font-size="18" font-weight="700" fill="#d97706"  text-anchor="middle">40–60h</text>
 
@@ -29,9 +29,9 @@
   <rect x="29" y="223" width="742" height="62" rx="6" fill="#ffffff"/>
   <rect x="29" y="223" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="254" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="259" font-size="13" font-weight="700" fill="#78716c"  text-anchor="middle">B13</text>
+  <text x="66" y="259" font-size="14" font-weight="700" fill="#78716c"  text-anchor="middle">B13</text>
   <text x="100" y="245" font-size="15" font-weight="700" fill="#1e293b" >七大監測 PDCA（全年 28 份）</text>
-  <text x="100" y="268" font-size="13" fill="#57534e" >護理師逐季撰寫 7 項分析報告</text>
+  <text x="100" y="268" font-size="16" fill="#57534e" >護理師逐季撰寫 7 項分析報告</text>
   <text x="440" y="259" font-size="18" font-weight="700" fill="#78716c"  text-anchor="middle">28–56h</text>
   <text x="620" y="259" font-size="18" font-weight="700" fill="#d97706"  text-anchor="middle">8–17h</text>
 
@@ -39,9 +39,9 @@
   <rect x="29" y="298" width="742" height="62" rx="6" fill="#ffffff"/>
   <rect x="29" y="298" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="329" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="334" font-size="13" font-weight="700" fill="#57534e"  text-anchor="middle">77項</text>
+  <text x="66" y="334" font-size="14" font-weight="700" fill="#57534e"  text-anchor="middle">77項</text>
   <text x="100" y="320" font-size="15" font-weight="700" fill="#1e293b" >自我查核報告（全指標掃描）</text>
-  <text x="100" y="343" font-size="13" fill="#57534e" >主管帶領各部門逐頁核對指標</text>
+  <text x="100" y="343" font-size="16" fill="#57534e" >主管帶領各部門逐頁核對指標</text>
   <text x="440" y="334" font-size="18" font-weight="700" fill="#78716c"  text-anchor="middle">15–20h</text>
   <text x="620" y="334" font-size="18" font-weight="700" fill="#d97706"  text-anchor="middle">7–10h</text>
 
@@ -49,9 +49,9 @@
   <rect x="29" y="373" width="742" height="62" rx="6" fill="#ffffff"/>
   <rect x="29" y="373" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="404" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="409" font-size="13" font-weight="700" fill="#a8a29e"  text-anchor="middle">D區</text>
+  <text x="66" y="409" font-size="14" font-weight="700" fill="#a8a29e"  text-anchor="middle">D區</text>
   <text x="100" y="395" font-size="15" font-weight="700" fill="#1e293b" >個案權益文件完整度核對</text>
-  <text x="100" y="418" font-size="13" fill="#57534e" >社工逐案核對 9 項 D 區文件</text>
+  <text x="100" y="418" font-size="16" fill="#57534e" >社工逐案核對 9 項 D 區文件</text>
   <text x="440" y="409" font-size="18" font-weight="700" fill="#78716c"  text-anchor="middle">10–15h</text>
   <text x="620" y="409" font-size="18" font-weight="700" fill="#d97706"  text-anchor="middle">5–7h</text>
 

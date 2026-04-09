@@ -4,12 +4,12 @@
 
   <!-- Header（y=29, h=60） -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="60" fill="#57534e" rx="2"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706" rx="2"/>
   <text x="28" y="68" font-size="36" fill="#1e293b" font-weight="700">健康安全 5 個抽象指標白話解讀</text>
 
   <!-- Row 0（y=118）#d97706 -->
   <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
   <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">6</text>
   <text x="100" y="145" font-size="19" fill="#1e293b" font-weight="700">「符合衛生規範之食物保存」（指標 44）</text>
@@ -20,7 +20,7 @@
 
   <!-- Row 1（y=191）#78716c -->
   <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
   <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">7</text>
   <text x="100" y="218" font-size="19" fill="#1e293b" font-weight="700">「落實感染管制措施」（指標 60）</text>
@@ -31,7 +31,7 @@
 
   <!-- Row 2（y=264）#57534e -->
   <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">8</text>
   <text x="100" y="291" font-size="19" fill="#1e293b" font-weight="700">「嬰幼兒睡眠安全環境」（指標 55）</text>
@@ -42,7 +42,7 @@
 
   <!-- Row 3（y=337）#a8a29e -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">9</text>
   <text x="100" y="364" font-size="19" fill="#1e293b" font-weight="700">「依委託給藥五對原則執行」（指標 59）</text>
@@ -53,7 +53,7 @@
 
   <!-- Row 4（y=410）#94a3b8 -->
   <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
   <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">10</text>
   <text x="100" y="437" font-size="19" fill="#1e293b" font-weight="700">「落實環境衛生清潔消毒工作」（指標 45-51）</text>

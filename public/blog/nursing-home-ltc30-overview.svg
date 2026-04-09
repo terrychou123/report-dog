@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">長照 3.0 對住宿型評鑑 3 大影響</text>
@@ -9,38 +9,38 @@
   <!-- 影響 1：以人為中心 -->
   <rect x="40" y="115" width="720" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="115" width="8" height="90" rx="4" fill="#d97706"/>
-  <text x="75" y="148" font-size="26" fill="#d97706" font-weight="700">①</text>
+  <text x="75" y="148" font-size="26" fill="#d97706" font-weight="700">1</text>
   <text x="115" y="148" font-size="18" fill="#1e293b" font-weight="700">更強調以人為中心（Person-Centered Care）</text>
   <text x="115" y="173" font-size="14" fill="#57534e">B2 個案計畫的「個別化程度」審查將更嚴格；服務需反映住民個人偏好、</text>
   <text x="115" y="191" font-size="14" fill="#57534e">文化背景與生命故事，而非只是制式化的風險評估勾選</text>
   <rect x="660" y="130" width="80" height="60" rx="8" fill="#d97706" opacity="0.1"/>
-  <text x="700" y="151" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">B2</text>
-  <text x="700" y="169" font-size="13" fill="#d97706" text-anchor="middle" font-weight="600">個案計畫</text>
+  <text x="700" y="151" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">B2</text>
+  <text x="700" y="169" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">個案計畫</text>
 
   <!-- 影響 2：數位化 -->
   <rect x="40" y="220" width="720" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="220" width="8" height="90" rx="4" fill="#78716c"/>
-  <text x="75" y="253" font-size="26" fill="#78716c" font-weight="700">②</text>
+  <text x="75" y="253" font-size="26" fill="#78716c" font-weight="700">2</text>
   <text x="115" y="253" font-size="18" fill="#1e293b" font-weight="700">數位化資料管理能力的評核期待提升</text>
   <text x="115" y="278" font-size="14" fill="#57534e">D1 個案資料管理與數位上傳的重要性提升；機構仍以紙本管理者</text>
   <text x="115" y="296" font-size="14" fill="#57534e">在展現管理能力方面將逐漸失去競爭優勢</text>
   <rect x="660" y="235" width="80" height="60" rx="8" fill="#78716c" opacity="0.1"/>
-  <text x="700" y="256" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">D1</text>
-  <text x="700" y="274" font-size="13" fill="#78716c" text-anchor="middle" font-weight="600">資料管理</text>
+  <text x="700" y="256" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">D1</text>
+  <text x="700" y="274" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">資料管理</text>
 
   <!-- 影響 3：品質可視化 -->
   <rect x="40" y="325" width="720" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="325" width="8" height="90" rx="4" fill="#57534e"/>
-  <text x="75" y="358" font-size="26" fill="#57534e" font-weight="700">③</text>
+  <text x="75" y="358" font-size="26" fill="#57534e" font-weight="700">3</text>
   <text x="115" y="358" font-size="18" fill="#1e293b" font-weight="700">品質數據分析深度要求提升</text>
   <text x="115" y="383" font-size="14" fill="#57534e">B1 品質會議、B13 跌倒分析、B14 壓損分析、B17 感染分析等指標，</text>
   <text x="115" y="401" font-size="14" fill="#57534e">重點從「有無執行」轉向「分析是否深入、改善是否有效」</text>
   <rect x="660" y="340" width="80" height="60" rx="8" fill="#57534e" opacity="0.1"/>
-  <text x="700" y="361" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">B1/B13</text>
-  <text x="700" y="379" font-size="13" fill="#57534e" text-anchor="middle" font-weight="600">B14/B17</text>
+  <text x="700" y="361" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">B1/B13</text>
+  <text x="700" y="379" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">B14/B17</text>
 
   <!-- 底部說明 -->
-  <text x="400" y="445" font-size="13" fill="#78716c" text-anchor="middle">注意：長照 3.0 評鑑指標修訂細則由衛福部公告，以官方最新版本為準</text>
+  <text x="400" y="445" font-size="14" fill="#78716c" text-anchor="middle">注意：長照 3.0 評鑑指標修訂細則由衛福部公告，以官方最新版本為準</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -9,44 +9,44 @@
 
   <!-- ===== Row 1 (y=160) 適用對象說明 #d97706 ===== -->
   <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="185" font-size="22" fill="#1e293b" font-weight="700">適用對象說明</text>
-  <text x="100" y="207" font-size="15" fill="#57534e">服務哪些診斷類別、功能程度、年齡範圍的精神障礙者</text>
+  <text x="100" y="207" font-size="16" fill="#57534e">服務哪些診斷類別、功能程度、年齡範圍的精神障礙者</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="688" y="182" font-size="15" fill="#d97706" text-anchor="middle">對象界定</text>
   <text x="688" y="201" font-size="14" fill="#d97706" text-anchor="middle">基本門檻</text>
 
   <!-- ===== Row 2 (y=235) 收案評估項目 #78716c ===== -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="260" font-size="22" fill="#1e293b" font-weight="700">收案評估項目</text>
-  <text x="100" y="282" font-size="15" fill="#57534e">復元目標、功能優勢、家庭支持——須有「復元潛力」正向視角</text>
+  <text x="100" y="282" font-size="16" fill="#57534e">復元目標、功能優勢、家庭支持——須有「復元潛力」正向視角</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="688" y="257" font-size="15" fill="#78716c" text-anchor="middle">正向評估</text>
   <text x="688" y="276" font-size="14" fill="#78716c" text-anchor="middle">PFM關鍵</text>
 
   <!-- ===== Row 3 (y=310) 排除條件說明 #57534e ===== -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="335" font-size="22" fill="#1e293b" font-weight="700">排除條件說明</text>
-  <text x="100" y="357" font-size="15" fill="#57534e">哪些情況不適合（如需急性住院）及提供轉介資源建議</text>
+  <text x="100" y="357" font-size="16" fill="#57534e">哪些情況不適合（如需急性住院）及提供轉介資源建議</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="332" font-size="15" fill="#57534e" text-anchor="middle">轉介機制</text>
   <text x="688" y="351" font-size="14" fill="#57534e" text-anchor="middle">說明理由</text>
 
   <!-- ===== Row 4 (y=385) 收案執行流程 #a8a29e ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
   <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
   <text x="100" y="410" font-size="22" fill="#1e293b" font-weight="700">收案執行流程</text>
-  <text x="100" y="432" font-size="15" fill="#57534e">從轉介申請→評估期安排→正式收案的完整步驟說明</text>
+  <text x="100" y="432" font-size="16" fill="#57534e">從轉介申請-評估期安排-正式收案的完整步驟說明</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
   <text x="688" y="407" font-size="15" fill="#a8a29e" text-anchor="middle">收案流程</text>
   <text x="688" y="426" font-size="14" fill="#a8a29e" text-anchor="middle">書面化</text>

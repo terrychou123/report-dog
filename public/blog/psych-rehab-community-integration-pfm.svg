@@ -15,19 +15,19 @@
 
   <!-- Q1 -->
   <circle cx="58" cy="165" r="14" fill="#16a34a" opacity="0.12"/>
-  <text x="58" y="170" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">Q1</text>
+  <text x="58" y="170" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">Q1</text>
   <text x="82" y="161" font-size="16" fill="#1e293b" font-weight="700">最近一次外出去哪裡？</text>
   <text x="82" y="179" font-size="14" fill="#57534e">確認學員有真實、定期的外出活動</text>
 
   <!-- Q2 -->
   <circle cx="58" cy="224" r="14" fill="#16a34a" opacity="0.12"/>
-  <text x="58" y="229" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">Q2</text>
+  <text x="58" y="229" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">Q2</text>
   <text x="82" y="220" font-size="16" fill="#1e293b" font-weight="700">外出是誰提議安排的？</text>
   <text x="82" y="238" font-size="14" fill="#57534e">確認活動由學員意願主導，非強制</text>
 
   <!-- Q3 -->
   <circle cx="58" cy="283" r="14" fill="#16a34a" opacity="0.12"/>
-  <text x="58" y="288" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700">Q3</text>
+  <text x="58" y="288" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">Q3</text>
   <text x="82" y="279" font-size="16" fill="#1e293b" font-weight="700">有沒有想去但還沒去的地方？</text>
   <text x="82" y="297" font-size="14" fill="#57534e">評估機構是否積極了解外出需求</text>
 

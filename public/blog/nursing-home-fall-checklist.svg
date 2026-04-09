@@ -12,57 +12,57 @@
   <!-- 左欄 B13 -->
   <rect x="40" y="132" width="350" height="36" rx="6" fill="#fff"/>
   <rect x="40" y="132" width="6" height="36" rx="2" fill="#d97706"/>
-  <text x="58" y="156" font-size="14" fill="#57534e">□ 跌倒預防 SOP 已更新，含評估措施</text>
+  <text x="58" y="156" font-size="14" fill="#57534e">[ ] 跌倒預防 SOP 已更新，含評估措施</text>
 
   <rect x="40" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
   <rect x="40" y="176" width="6" height="36" rx="2" fill="#d97706"/>
-  <text x="58" y="200" font-size="14" fill="#57534e">□ 近期跌倒案件均有逐案分析表單</text>
+  <text x="58" y="200" font-size="14" fill="#57534e">[ ] 近期跌倒案件均有逐案分析表單</text>
 
   <rect x="40" y="220" width="350" height="36" rx="6" fill="#fff"/>
   <rect x="40" y="220" width="6" height="36" rx="2" fill="#d97706"/>
-  <text x="58" y="244" font-size="14" fill="#57534e">□ 跌倒監測追蹤紀錄無中斷</text>
+  <text x="58" y="244" font-size="14" fill="#57534e">[ ] 跌倒監測追蹤紀錄無中斷</text>
 
   <rect x="40" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
   <rect x="40" y="264" width="6" height="36" rx="2" fill="#d97706"/>
-  <text x="58" y="288" font-size="14" fill="#57534e">□ 近半年已完成統計分析報告</text>
+  <text x="58" y="288" font-size="14" fill="#57534e">[ ] 近半年已完成統計分析報告</text>
 
   <rect x="40" y="308" width="350" height="36" rx="6" fill="#fff"/>
   <rect x="40" y="308" width="6" height="36" rx="2" fill="#d97706"/>
-  <text x="58" y="332" font-size="14" fill="#57534e">□ 半年報告含具體改善行動方案</text>
+  <text x="58" y="332" font-size="14" fill="#57534e">[ ] 半年報告含具體改善行動方案</text>
 
   <rect x="40" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
   <rect x="40" y="352" width="6" height="36" rx="2" fill="#d97706"/>
-  <text x="58" y="376" font-size="14" fill="#57534e">□ 入住 72 小時評估含跌倒高風險評估</text>
+  <text x="58" y="376" font-size="14" fill="#57534e">[ ] 入住 72 小時評估含跌倒高風險評估</text>
 
   <!-- 右欄 B14/B16 -->
   <rect x="410" y="132" width="350" height="36" rx="6" fill="#fff"/>
   <rect x="410" y="132" width="6" height="36" rx="2" fill="#78716c"/>
-  <text x="428" y="156" font-size="14" fill="#57534e">□ 壓損預防 SOP 已更新，含評估措施</text>
+  <text x="428" y="156" font-size="14" fill="#57534e">[ ] 壓損預防 SOP 已更新，含評估措施</text>
 
   <rect x="410" y="176" width="350" height="36" rx="6" fill="#fafaf8"/>
   <rect x="410" y="176" width="6" height="36" rx="2" fill="#78716c"/>
-  <text x="428" y="200" font-size="14" fill="#57534e">□ 壓損案件逐案分析表單完整</text>
+  <text x="428" y="200" font-size="14" fill="#57534e">[ ] 壓損案件逐案分析表單完整</text>
 
   <rect x="410" y="220" width="350" height="36" rx="6" fill="#fff"/>
   <rect x="410" y="220" width="6" height="36" rx="2" fill="#78716c"/>
-  <text x="428" y="244" font-size="14" fill="#57534e">□ 近季已完成壓損統計分析報告（B14）</text>
+  <text x="428" y="244" font-size="14" fill="#57534e">[ ] 近季已完成壓損統計分析報告（B14）</text>
 
   <rect x="410" y="264" width="350" height="36" rx="6" fill="#fafaf8"/>
   <rect x="410" y="264" width="6" height="36" rx="2" fill="#78716c"/>
-  <text x="428" y="288" font-size="14" fill="#57534e">□ 約束個案均有醫師診斷或護理專判</text>
+  <text x="428" y="288" font-size="14" fill="#57534e">[ ] 約束個案均有醫師診斷或護理專判</text>
 
   <rect x="410" y="308" width="350" height="36" rx="6" fill="#fff"/>
   <rect x="410" y="308" width="6" height="36" rx="2" fill="#78716c"/>
-  <text x="428" y="332" font-size="14" fill="#57534e">□ 約束同意書均在 3 個月有效期內</text>
+  <text x="428" y="332" font-size="14" fill="#57534e">[ ] 約束同意書均在 3 個月有效期內</text>
 
   <rect x="410" y="352" width="350" height="36" rx="6" fill="#fafaf8"/>
   <rect x="410" y="352" width="6" height="36" rx="2" fill="#78716c"/>
-  <text x="428" y="376" font-size="14" fill="#57534e">□ 約束過程監測紀錄完整</text>
+  <text x="428" y="376" font-size="14" fill="#57534e">[ ] 約束過程監測紀錄完整</text>
 
   <!-- 底部提示 -->
   <rect x="40" y="408" width="720" height="48" rx="8" fill="#fef3c7"/>
   <text x="400" y="429" text-anchor="middle" font-size="14" fill="#92400e" font-weight="700">B14 壓損分析週期為「每季」（比B13每半年更頻繁），安養機構B14和B16不適用</text>
-  <text x="400" y="450" text-anchor="middle" font-size="13" fill="#78716c">A6 危機管理：另需確認風險管理計畫含至少 3 個風險，且每半年進行分析</text>
+  <text x="400" y="450" text-anchor="middle" font-size="14" fill="#78716c">A6 危機管理：另需確認風險管理計畫含至少 3 個風險，且每半年進行分析</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif" width="800" height="500">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 標題 -->
   <text x="400" y="48" font-size="32" fill="#1e293b" text-anchor="middle" font-weight="700">A3/A4/E1/E2 自查清單</text>
@@ -8,51 +8,51 @@
   <!-- 項目 1 -->
   <rect x="28" y="110" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="122" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
+  <text x="53" y="140" font-size="16" fill="#d97706" text-anchor="middle">[v]</text>
   <text x="82" y="136" font-size="14" fill="#1e293b" font-weight="600">A3｜年度業務計畫（前一年訂定，有核定日期與核定人簽名）</text>
-  <text x="82" y="152" font-size="12" fill="#78716c">佐證：計畫書封面顯示核定日期，附董事會或負責人核准紀錄</text>
+  <text x="82" y="152" font-size="14" fill="#78716c">佐證：計畫書封面顯示核定日期，附董事會或負責人核准紀錄</text>
   <rect x="640" y="120" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="139" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">A3 行政</text>
+  <text x="695" y="139" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">A3 行政</text>
 
   <!-- 項目 2 -->
   <rect x="28" y="172" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="184" width="26" height="26" rx="6" fill="#d97706" opacity="0.15" stroke="#d97706" stroke-width="1.5"/>
-  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">✓</text>
+  <text x="53" y="202" font-size="16" fill="#d97706" text-anchor="middle">[v]</text>
   <text x="82" y="198" font-size="14" fill="#1e293b" font-weight="600">A3｜中長程計畫（3年以上，含願景/人力/設施/財務 4 面向）</text>
-  <text x="82" y="214" font-size="12" fill="#78716c">佐證：中長程計畫書，標示年度期程（如114-116年）</text>
+  <text x="82" y="214" font-size="14" fill="#78716c">佐證：中長程計畫書，標示年度期程（如114-116年）</text>
   <rect x="640" y="182" width="110" height="28" rx="14" fill="#d97706" opacity="0.12"/>
-  <text x="695" y="201" font-size="12" fill="#d97706" text-anchor="middle" font-weight="600">A3 行政</text>
+  <text x="695" y="201" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">A3 行政</text>
 
   <!-- 項目 3 -->
   <rect x="28" y="234" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="246" width="26" height="26" rx="6" fill="#78716c" opacity="0.15" stroke="#78716c" stroke-width="1.5"/>
-  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">✓</text>
+  <text x="53" y="264" font-size="16" fill="#78716c" text-anchor="middle">[v]</text>
   <text x="82" y="260" font-size="14" fill="#1e293b" font-weight="600">A4｜查核缺失改善彙整表（每項含負責人/期限/佐證/驗證）</text>
-  <text x="82" y="276" font-size="12" fill="#78716c">佐證：缺失改善追蹤表，改善率欄位標示 100%</text>
+  <text x="82" y="276" font-size="14" fill="#78716c">佐證：缺失改善追蹤表，改善率欄位標示 100%</text>
   <rect x="640" y="244" width="110" height="28" rx="14" fill="#78716c" opacity="0.12"/>
-  <text x="695" y="263" font-size="12" fill="#78716c" text-anchor="middle" font-weight="600">A4 改善</text>
+  <text x="695" y="263" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">A4 改善</text>
 
   <!-- 項目 4 -->
   <rect x="28" y="296" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="308" width="26" height="26" rx="6" fill="#57534e" opacity="0.15" stroke="#57534e" stroke-width="1.5"/>
-  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">✓</text>
-  <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">E1｜前次評鑑建議改善對照表（改善率 ≥80%，逐條說明）</text>
-  <text x="82" y="338" font-size="12" fill="#78716c">佐證：前次評鑑報告＋本次對照改善說明表，計算改善比率</text>
+  <text x="53" y="326" font-size="16" fill="#57534e" text-anchor="middle">[v]</text>
+  <text x="82" y="322" font-size="14" fill="#1e293b" font-weight="600">E1｜前次評鑑建議改善對照表（改善率 >=80%，逐條說明）</text>
+  <text x="82" y="338" font-size="14" fill="#78716c">佐證：前次評鑑報告＋本次對照改善說明表，計算改善比率</text>
   <rect x="640" y="306" width="110" height="28" rx="14" fill="#57534e" opacity="0.12"/>
-  <text x="695" y="325" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">E1 改善</text>
+  <text x="695" y="325" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">E1 改善</text>
 
   <!-- 項目 5 -->
   <rect x="28" y="358" width="744" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="40" y="370" width="26" height="26" rx="6" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
-  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">✓</text>
+  <text x="53" y="388" font-size="16" fill="#94a3b8" text-anchor="middle">[v]</text>
   <text x="82" y="384" font-size="14" fill="#1e293b" font-weight="600">E2｜創新措施報告（至少1項，含背景/措施/量化成效）</text>
-  <text x="82" y="400" font-size="12" fill="#78716c">佐證：創新措施說明書，附成效數據或住民家屬回饋意見</text>
+  <text x="82" y="400" font-size="14" fill="#78716c">佐證：創新措施說明書，附成效數據或住民家屬回饋意見</text>
   <rect x="640" y="368" width="110" height="28" rx="14" fill="#94a3b8" opacity="0.2"/>
-  <text x="695" y="387" font-size="12" fill="#57534e" text-anchor="middle" font-weight="600">E2 創新</text>
+  <text x="695" y="387" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">E2 創新</text>
 
   <!-- 底部提示 -->
   <rect x="28" y="422" width="744" height="38" rx="8" fill="#d97706" opacity="0.08"/>
-  <text x="400" y="446" font-size="13" fill="#78716c" text-anchor="middle">計畫書執行進度追蹤紀錄：每季品質會議紀錄中呈現，避免「有計畫、無執行」失分</text>
+  <text x="400" y="446" font-size="14" fill="#78716c" text-anchor="middle">計畫書執行進度追蹤紀錄：每季品質會議紀錄中呈現，避免「有計畫、無執行」失分</text>
 
   <!-- 水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

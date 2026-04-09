@@ -29,44 +29,44 @@
   <rect x="50" y="148" width="155" height="210" rx="10" fill="#dbeafe"/>
   <text x="128" y="178" font-size="14" font-weight="700" fill="#1e3a5f" text-anchor="middle">安寧療護基本概念</text>
   <line x1="65" y1="190" x2="190" y2="190" stroke="#bfdbfe" stroke-width="1"/>
-  <text x="65" y="212" font-size="14" fill="#334155">✦ 安寧療護理念</text>
-  <text x="65" y="232" font-size="14" fill="#334155">✦ 適用對象說明</text>
-  <text x="65" y="252" font-size="14" fill="#334155">✦ 家屬溝通技巧</text>
-  <text x="65" y="272" font-size="14" fill="#334155">✦ 病人自主權利法</text>
-  <text x="65" y="292" font-size="14" fill="#334155">✦ AD 預立醫療決定</text>
+  <text x="65" y="212" font-size="14" fill="#334155">* 安寧療護理念</text>
+  <text x="65" y="232" font-size="14" fill="#334155">* 適用對象說明</text>
+  <text x="65" y="252" font-size="14" fill="#334155">* 家屬溝通技巧</text>
+  <text x="65" y="272" font-size="14" fill="#334155">* 病人自主權利法</text>
+  <text x="65" y="292" font-size="14" fill="#334155">* AD 預立醫療決定</text>
   <text x="128" y="340" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- Q2 -->
   <rect x="220" y="148" width="155" height="210" rx="10" fill="#d1fae5"/>
   <text x="298" y="178" font-size="14" font-weight="700" fill="#065f46" text-anchor="middle">疼痛與症狀管理</text>
   <line x1="235" y1="190" x2="360" y2="190" stroke="#a7f3d0" stroke-width="1"/>
-  <text x="235" y="212" font-size="14" fill="#334155">✦ 疼痛評估工具</text>
-  <text x="235" y="232" font-size="14" fill="#334155">✦ 非藥物舒適照護</text>
-  <text x="235" y="252" font-size="14" fill="#334155">✦ 口腔濕潤照護</text>
-  <text x="235" y="272" font-size="14" fill="#334155">✦ 翻身/擺位技巧</text>
-  <text x="235" y="292" font-size="14" fill="#334155">✦ 壓傷預防</text>
+  <text x="235" y="212" font-size="14" fill="#334155">* 疼痛評估工具</text>
+  <text x="235" y="232" font-size="14" fill="#334155">* 非藥物舒適照護</text>
+  <text x="235" y="252" font-size="14" fill="#334155">* 口腔濕潤照護</text>
+  <text x="235" y="272" font-size="14" fill="#334155">* 翻身/擺位技巧</text>
+  <text x="235" y="292" font-size="14" fill="#334155">* 壓傷預防</text>
   <text x="298" y="340" font-size="14" fill="#10b981" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- Q3 -->
   <rect x="390" y="148" width="155" height="210" rx="10" fill="#ede9fe"/>
   <text x="468" y="178" font-size="14" font-weight="700" fill="#3b0764" text-anchor="middle">心理靈性支持</text>
   <line x1="405" y1="190" x2="530" y2="190" stroke="#ddd6fe" stroke-width="1"/>
-  <text x="405" y="212" font-size="14" fill="#334155">✦ 末期情緒支持</text>
-  <text x="405" y="232" font-size="14" fill="#334155">✦ 悲傷輔導基礎</text>
-  <text x="405" y="252" font-size="14" fill="#334155">✦ 家屬哀傷關懷</text>
-  <text x="405" y="272" font-size="14" fill="#334155">✦ 宗教/靈性需求</text>
-  <text x="405" y="292" font-size="14" fill="#334155">✦ 工作人員自我照顧</text>
+  <text x="405" y="212" font-size="14" fill="#334155">* 末期情緒支持</text>
+  <text x="405" y="232" font-size="14" fill="#334155">* 悲傷輔導基礎</text>
+  <text x="405" y="252" font-size="14" fill="#334155">* 家屬哀傷關懷</text>
+  <text x="405" y="272" font-size="14" fill="#334155">* 宗教/靈性需求</text>
+  <text x="405" y="292" font-size="14" fill="#334155">* 工作人員自我照顧</text>
   <text x="468" y="340" font-size="14" fill="#8b5cf6" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- Q4 -->
   <rect x="560" y="148" width="190" height="210" rx="10" fill="#fef3c7"/>
   <text x="655" y="178" font-size="14" font-weight="700" fill="#78350f" text-anchor="middle">實務演練與年度回顧</text>
   <line x1="575" y1="190" x2="735" y2="190" stroke="#fde68a" stroke-width="1"/>
-  <text x="575" y="212" font-size="14" fill="#334155">✦ 轉介流程演練</text>
-  <text x="575" y="232" font-size="14" fill="#334155">✦ 案例研討討論</text>
-  <text x="575" y="252" font-size="14" fill="#334155">✦ 年度訓練成效評估</text>
-  <text x="575" y="272" font-size="14" fill="#334155">✦ 訓練需求調查</text>
-  <text x="575" y="292" font-size="14" fill="#334155">✦ 次年計畫訂定</text>
+  <text x="575" y="212" font-size="14" fill="#334155">* 轉介流程演練</text>
+  <text x="575" y="232" font-size="14" fill="#334155">* 案例研討討論</text>
+  <text x="575" y="252" font-size="14" fill="#334155">* 年度訓練成效評估</text>
+  <text x="575" y="272" font-size="14" fill="#334155">* 訓練需求調查</text>
+  <text x="575" y="292" font-size="14" fill="#334155">* 次年計畫訂定</text>
   <text x="655" y="340" font-size="14" fill="#f59e0b" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- 年度總結 -->

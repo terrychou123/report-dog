@@ -10,18 +10,18 @@
 
   <!-- 右側 3 步驟 -->
   <rect x="840" y="283" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="868" y="313" font-size="24" fill="#d97706" font-weight="700">STEP 1</text>
-  <text x="960" y="313" font-size="22" fill="#78716c">先盤點</text>
+  <text x="868" y="304" font-size="24" fill="#d97706" font-weight="700">STEP 1</text>
+  <text x="960" y="335" font-size="22" fill="#78716c">先盤點</text>
   <text x="960" y="331" font-size="18" fill="#a8a29e">不要先寫</text>
 
   <rect x="840" y="351" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="868" y="381" font-size="24" fill="#d97706" font-weight="700">STEP 2</text>
-  <text x="960" y="381" font-size="22" fill="#78716c">依優先分工</text>
+  <text x="868" y="372" font-size="24" fill="#d97706" font-weight="700">STEP 2</text>
+  <text x="960" y="403" font-size="22" fill="#78716c">依優先分工</text>
   <text x="960" y="399" font-size="18" fill="#a8a29e">每人負責一塊</text>
 
   <rect x="840" y="419" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="868" y="449" font-size="24" fill="#d97706" font-weight="700">STEP 3</text>
-  <text x="960" y="449" font-size="22" fill="#78716c">設定截止日</text>
+  <text x="868" y="440" font-size="24" fill="#d97706" font-weight="700">STEP 3</text>
+  <text x="960" y="471" font-size="22" fill="#78716c">設定截止日</text>
   <text x="960" y="467" font-size="18" fill="#a8a29e">提前 12 週啟動</text>
 
   <!-- 右側底部標籤 -->
@@ -29,7 +29,7 @@
   <text x="1000" y="525" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">多人協作 · 分工不亂</text>
 
   <rect x="840" y="553" width="320" height="52" rx="10" fill="#78716c" opacity="0.10"/>
-  <text x="1000" y="589" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">小機構也能系統準備評鑑</text>
+  <text x="1000" y="572" font-size="24" fill="#78716c" text-anchor="middle" font-weight="600">小機構也能系統準備評鑑</text>
 
   <!-- 左側主內容區 -->
   <text x="60" y="185" font-size="100" font-weight="900" fill="#1e293b">3 人居家護理所</text>
@@ -56,5 +56,5 @@
   <text x="60" y="540" font-size="28" fill="#94a3b8">適用對象：小型居家護理所負責人 · 護理長</text>
 
   <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+  <text x="1140" y="603" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

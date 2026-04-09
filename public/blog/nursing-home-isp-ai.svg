@@ -9,8 +9,8 @@
   <rect x="60" y="135" width="200" height="230" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
   <rect x="60" y="135" width="200" height="56" rx="12" fill="#d97706"/>
   <rect x="60" y="171" width="200" height="20" fill="#d97706"/>
-  <text x="160" y="154" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">步驟 1</text>
-  <text x="160" y="174" font-size="15" fill="#fff8e7" text-anchor="middle">輸入評估資料</text>
+  <text x="160" y="145" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">步驟 1</text>
+  <text x="160" y="183" font-size="15" fill="#fff8e7" text-anchor="middle">輸入評估資料</text>
   <text x="160" y="216" font-size="14" fill="#57534e" text-anchor="middle">填入住民基本資料</text>
   <text x="160" y="240" font-size="14" fill="#57534e" text-anchor="middle">上傳評估量表分數</text>
   <text x="160" y="264" font-size="14" fill="#57534e" text-anchor="middle">選擇照護問題類型</text>
@@ -25,8 +25,8 @@
   <rect x="320" y="135" width="200" height="230" rx="12" fill="#ffffff" stroke="#78716c" stroke-width="2"/>
   <rect x="320" y="135" width="200" height="56" rx="12" fill="#78716c"/>
   <rect x="320" y="171" width="200" height="20" fill="#78716c"/>
-  <text x="420" y="154" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">步驟 2</text>
-  <text x="420" y="174" font-size="15" fill="#e7e5e4" text-anchor="middle">AI 生成 ISP 初稿</text>
+  <text x="420" y="145" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">步驟 2</text>
+  <text x="420" y="183" font-size="15" fill="#e7e5e4" text-anchor="middle">AI 生成 ISP 初稿</text>
   <text x="420" y="216" font-size="14" fill="#57534e" text-anchor="middle">自動套用 B2 格式</text>
   <text x="420" y="240" font-size="14" fill="#57534e" text-anchor="middle">生成護理問題清單</text>
   <text x="420" y="264" font-size="14" fill="#57534e" text-anchor="middle">提供目標設定建議</text>
@@ -41,8 +41,8 @@
   <rect x="580" y="135" width="180" height="230" rx="12" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
   <rect x="580" y="135" width="180" height="56" rx="12" fill="#57534e"/>
   <rect x="580" y="171" width="180" height="20" fill="#57534e"/>
-  <text x="670" y="154" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">步驟 3</text>
-  <text x="670" y="174" font-size="15" fill="#e7e5e4" text-anchor="middle">確認並管理進度</text>
+  <text x="670" y="145" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">步驟 3</text>
+  <text x="670" y="183" font-size="15" fill="#e7e5e4" text-anchor="middle">確認並管理進度</text>
   <text x="670" y="216" font-size="14" fill="#57534e" text-anchor="middle">護理師核對補充</text>
   <text x="670" y="240" font-size="14" fill="#57534e" text-anchor="middle">跨專業共同編輯</text>
   <text x="670" y="264" font-size="14" fill="#57534e" text-anchor="middle">評值到期日提醒</text>

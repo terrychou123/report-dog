@@ -10,16 +10,16 @@
 
   <!-- 右側痛點卡片 -->
   <rect x="840" y="256" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="271" font-size="18" fill="#a8a29e" font-weight="500">痛點 1</text>
-  <text x="858" y="295" font-size="22" fill="#d97706" font-weight="700">1.4 倍人力計算疏漏</text>
+  <text x="858" y="275" font-size="18" fill="#a8a29e" font-weight="500">痛點 1</text>
+  <text x="858" y="306" font-size="22" fill="#d97706" font-weight="700">1.4 倍人力計算疏漏</text>
 
   <rect x="840" y="318" width="320" height="56" rx="10" fill="#d97706" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="333" font-size="18" fill="#a8a29e" font-weight="500">痛點 2</text>
-  <text x="858" y="357" font-size="22" fill="#d97706" font-weight="700">品質指標樣本數不足</text>
+  <text x="858" y="337" font-size="18" fill="#a8a29e" font-weight="500">痛點 2</text>
+  <text x="858" y="368" font-size="22" fill="#d97706" font-weight="700">品質指標樣本數不足</text>
 
   <rect x="840" y="380" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="395" font-size="18" fill="#a8a29e" font-weight="500">痛點 3</text>
-  <text x="858" y="419" font-size="22" fill="#d97706" font-weight="700">兼任多職記錄混亂</text>
+  <text x="858" y="399" font-size="18" fill="#a8a29e" font-weight="500">痛點 3</text>
+  <text x="858" y="430" font-size="22" fill="#d97706" font-weight="700">兼任多職記錄混亂</text>
 
   <!-- 右側解法 -->
   <rect x="840" y="446" width="320" height="56" rx="10" fill="#16a34a" opacity="0.10"/>

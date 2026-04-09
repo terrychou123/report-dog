@@ -13,7 +13,7 @@
   <circle cx="66" cy="122" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="128" font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">A</text>
   <text x="100" y="119" font-size="18" font-weight="700" fill="#1e293b">A 區：經營管理效能</text>
-  <text x="100" y="138" font-size="14" fill="#57534e">工作手冊、業務計畫、人事資料、查核改善、訓練記錄</text>
+  <text x="100" y="138" font-size="16" fill="#57534e">工作手冊、業務計畫、人事資料、查核改善、訓練記錄</text>
   <rect x="620" y="103" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="688" y="127" font-size="16" fill="#d97706" text-anchor="middle">15 項指標</text>
 
@@ -23,7 +23,7 @@
   <circle cx="66" cy="186" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="192" font-size="16" font-weight="900" fill="#78716c" text-anchor="middle">B</text>
   <text x="100" y="183" font-size="18" font-weight="700" fill="#1e293b">B 區：專業照護品質</text>
-  <text x="100" y="202" font-size="14" fill="#57534e">個案服務計畫、防疫SOP、藥品管理、七大監測PDCA、照護記錄</text>
+  <text x="100" y="202" font-size="16" fill="#57534e">個案服務計畫、防疫SOP、藥品管理、七大監測PDCA、照護記錄</text>
   <rect x="620" y="167" width="136" height="38" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="688" y="191" font-size="16" fill="#78716c" text-anchor="middle">24 項指標</text>
 
@@ -33,7 +33,7 @@
   <circle cx="66" cy="250" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="256" font-size="16" font-weight="900" fill="#57534e" text-anchor="middle">C</text>
   <text x="100" y="247" font-size="18" font-weight="700" fill="#1e293b">C 區：安全環境設備</text>
-  <text x="100" y="266" font-size="14" fill="#57534e">消防申報（5年）、緊急演練紀錄、逃生圖、護理站設備效期</text>
+  <text x="100" y="266" font-size="16" fill="#57534e">消防申報（5年）、緊急演練紀錄、逃生圖、護理站設備效期</text>
   <rect x="620" y="231" width="136" height="38" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="255" font-size="16" fill="#57534e" text-anchor="middle">16 項指標</text>
 
@@ -43,7 +43,7 @@
   <circle cx="66" cy="314" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="320" font-size="16" font-weight="900" fill="#a8a29e" text-anchor="middle">D</text>
   <text x="100" y="311" font-size="18" font-weight="700" fill="#1e293b">D 區：個案權益保障</text>
-  <text x="100" y="330" font-size="14" fill="#57534e">個資系統權限、入住契約（5天審閱）、申訴統計、DNR流程</text>
+  <text x="100" y="330" font-size="16" fill="#57534e">個資系統權限、入住契約（5天審閱）、申訴統計、DNR流程</text>
   <rect x="620" y="295" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
   <text x="688" y="319" font-size="16" fill="#a8a29e" text-anchor="middle">11 項指標</text>
 
@@ -53,7 +53,7 @@
   <circle cx="66" cy="378" r="16" fill="#94a3b8" opacity="0.15"/>
   <text x="66" y="384" font-size="16" font-weight="900" fill="#94a3b8" text-anchor="middle">E</text>
   <text x="100" y="375" font-size="18" font-weight="700" fill="#1e293b">E 區：服務創新（加分）</text>
-  <text x="100" y="394" font-size="14" fill="#57534e">品質改善PDCA成果、創新服務報告（最多加2分）</text>
+  <text x="100" y="394" font-size="16" fill="#57534e">品質改善PDCA成果、創新服務報告（最多加2分）</text>
   <rect x="620" y="359" width="136" height="38" rx="8" fill="#94a3b8" opacity="0.12"/>
   <text x="688" y="383" font-size="16" fill="#94a3b8" text-anchor="middle">加分最多+2</text>
 
@@ -63,7 +63,7 @@
   <circle cx="66" cy="442" r="16" fill="#6b7280" opacity="0.15"/>
   <text x="66" y="448" font-size="16" font-weight="900" fill="#6b7280" text-anchor="middle">F</text>
   <text x="100" y="439" font-size="18" font-weight="700" fill="#1e293b">F 區：加分項目</text>
-  <text x="100" y="458" font-size="14" fill="#57534e">人才培育、智慧照護導入、在地安老服務（各0.5分～1分）</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">人才培育、智慧照護導入、在地安老服務（各0.5分～1分）</text>
   <rect x="620" y="423" width="136" height="38" rx="8" fill="#6b7280" opacity="0.12"/>
   <text x="688" y="447" font-size="16" fill="#6b7280" text-anchor="middle">加分最多+2</text>
 

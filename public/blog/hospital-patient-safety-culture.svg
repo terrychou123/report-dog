@@ -11,7 +11,7 @@
   <rect x="28" y="100" width="364" height="8" rx="4" fill="#d97706"/>
   <rect x="28" y="104" width="364" height="4" fill="#d97706"/>
   <circle cx="72" cy="165" r="26" fill="#fef3c7"/>
-  <text x="72" y="159" text-anchor="middle" font-size="12" fill="#d97706" font-weight="700">要素</text>
+  <text x="72" y="159" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">要素</text>
   <text x="72" y="178" text-anchor="middle" font-size="20" fill="#d97706" font-weight="700">01</text>
   <text x="108" y="155" font-size="22" fill="#1e293b" font-weight="700">不責罰通報環境</text>
   <text x="108" y="181" font-size="16" fill="#57534e">鼓勵主動通報錯誤及不安全情境</text>
@@ -24,7 +24,7 @@
   <rect x="408" y="100" width="364" height="8" rx="4" fill="#78716c"/>
   <rect x="408" y="104" width="364" height="4" fill="#78716c"/>
   <circle cx="452" cy="165" r="26" fill="#f5f5f4"/>
-  <text x="452" y="159" text-anchor="middle" font-size="12" fill="#78716c" font-weight="700">要素</text>
+  <text x="452" y="159" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">要素</text>
   <text x="452" y="178" text-anchor="middle" font-size="20" fill="#78716c" font-weight="700">02</text>
   <text x="488" y="155" font-size="22" fill="#1e293b" font-weight="700">病安教育訓練</text>
   <text x="488" y="181" font-size="16" fill="#57534e">定期辦理，全體員工參與</text>
@@ -37,7 +37,7 @@
   <rect x="28" y="296" width="364" height="8" rx="4" fill="#57534e"/>
   <rect x="28" y="300" width="364" height="4" fill="#57534e"/>
   <circle cx="72" cy="361" r="26" fill="#f5f0eb"/>
-  <text x="72" y="355" text-anchor="middle" font-size="12" fill="#57534e" font-weight="700">要素</text>
+  <text x="72" y="355" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">要素</text>
   <text x="72" y="374" text-anchor="middle" font-size="20" fill="#57534e" font-weight="700">03</text>
   <text x="108" y="351" font-size="22" fill="#1e293b" font-weight="700">衛福部病安目標</text>
   <text x="108" y="377" font-size="16" fill="#57534e">對應年度衛福部公告目標</text>
@@ -50,7 +50,7 @@
   <rect x="408" y="296" width="364" height="8" rx="4" fill="#a8a29e"/>
   <rect x="408" y="300" width="364" height="4" fill="#a8a29e"/>
   <circle cx="452" cy="361" r="26" fill="#f5f5f4"/>
-  <text x="452" y="355" text-anchor="middle" font-size="12" fill="#a8a29e" font-weight="700">要素</text>
+  <text x="452" y="355" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">要素</text>
   <text x="452" y="374" text-anchor="middle" font-size="20" fill="#a8a29e" font-weight="700">04</text>
   <text x="488" y="351" font-size="22" fill="#1e293b" font-weight="700">病安委員會運作</text>
   <text x="488" y="377" font-size="16" fill="#57534e">定期召開會議並有記錄</text>

@@ -15,11 +15,11 @@
   <circle cx="66" cy="173" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="178" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >1</text>
   <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" >建築物防火避難設施安全檢查申報</text>
-  <text x="100" y="183" font-size="14" fill="#57534e" >建物現況需與使用執照登載用途相符；依建築物公共安全檢查申報期間</text>
-  <text x="100" y="202" font-size="14" fill="#57534e" >規定辦理；現場須備有檢查報告書及地方政府機關審查合格證明文件</text>
+  <text x="100" y="183" font-size="16" fill="#57534e" >建物現況需與使用執照登載用途相符；依建築物公共安全檢查申報期間</text>
+  <text x="100" y="202" font-size="16" fill="#57534e" >規定辦理；現場須備有檢查報告書及地方政府機關審查合格證明文件</text>
   <rect x="620" y="151" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
   <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle" >每年申報</text>
-  <text x="688" y="184" font-size="13" fill="#d97706" text-anchor="middle" >文件備查</text>
+  <text x="688" y="184" font-size="14" fill="#d97706" text-anchor="middle" >文件備查</text>
 
   <!-- Row 2: 半年消防設備檢修 -->
   <rect x="30" y="231" width="740" height="90" rx="8" fill="white"/>
@@ -27,11 +27,11 @@
   <circle cx="66" cy="276" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="281" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >2</text>
   <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" >每半年委託消防設備師（士）定期檢修</text>
-  <text x="100" y="286" font-size="14" fill="#57534e" >每半年辦理一次消防安全設備檢修；結果依限報請當地消防機關備查；</text>
-  <text x="100" y="305" font-size="14" fill="#57534e" >委託對象需為合格消防設備師或消防設備士，並留存委託合約</text>
+  <text x="100" y="286" font-size="16" fill="#57534e" >每半年辦理一次消防安全設備檢修；結果依限報請當地消防機關備查；</text>
+  <text x="100" y="305" font-size="16" fill="#57534e" >委託對象需為合格消防設備師或消防設備士，並留存委託合約</text>
   <rect x="620" y="254" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
   <text x="688" y="268" font-size="14" fill="#dc2626" text-anchor="middle" >半年一次</text>
-  <text x="688" y="287" font-size="13" fill="#dc2626" text-anchor="middle" >備查必要</text>
+  <text x="688" y="287" font-size="14" fill="#dc2626" text-anchor="middle" >備查必要</text>
 
   <!-- Row 3: 5年完整紀錄 -->
   <rect x="30" y="334" width="740" height="90" rx="8" fill="white"/>
@@ -39,11 +39,11 @@
   <circle cx="66" cy="379" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="384" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >3</text>
   <text x="100" y="366" font-size="18" font-weight="bold" fill="#1e293b" >備有近 5 年完整申報紀錄</text>
-  <text x="100" y="389" font-size="14" fill="#57534e" >5 年紀錄需連續完整，中斷一次即不符合；建議依年度分資料夾整理，</text>
-  <text x="100" y="408" font-size="14" fill="#57534e" >每份紀錄含申報表、委託合約、消防機關備查回函，共三件套為一組</text>
+  <text x="100" y="389" font-size="16" fill="#57534e" >5 年紀錄需連續完整，中斷一次即不符合；建議依年度分資料夾整理，</text>
+  <text x="100" y="408" font-size="16" fill="#57534e" >每份紀錄含申報表、委託合約、消防機關備查回函，共三件套為一組</text>
   <rect x="620" y="357" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
   <text x="688" y="371" font-size="14" fill="#dc2626" text-anchor="middle" >5 年完整</text>
-  <text x="688" y="390" font-size="13" fill="#dc2626" text-anchor="middle" >不可中斷</text>
+  <text x="688" y="390" font-size="14" fill="#dc2626" text-anchor="middle" >不可中斷</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

@@ -13,7 +13,7 @@
   <text x="60" y="193" font-size="14" fill="#57534e">• 員工體溫：每週至少測量 1 次</text>
   <text x="60" y="216" font-size="14" fill="#57534e">• 每間寢室備洗手設施與消毒液</text>
   <text x="60" y="239" font-size="14" fill="#57534e">• 制定感染管制手冊並定期更新</text>
-  <text x="60" y="262" font-size="13" fill="#d97706" font-weight="600">★ 屬二級加強，評鑑委員重點查核</text>
+  <text x="60" y="262" font-size="14" fill="#d97706" font-weight="600">* 屬二級加強，評鑑委員重點查核</text>
 
   <!-- 上排右卡 - B17 感染 -->
   <rect x="420" y="104" width="340" height="168" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
@@ -23,7 +23,7 @@
   <text x="440" y="193" font-size="14" fill="#57534e">• 不明原因發燒及群聚感染通報</text>
   <text x="440" y="216" font-size="14" fill="#57534e">• 感染案件逐案分析、處置</text>
   <text x="440" y="239" font-size="14" fill="#57534e">• 至少每半年定期分析檢討</text>
-  <text x="440" y="262" font-size="13" fill="#78716c" font-weight="600">★ 含疥瘡為最常見查核重點</text>
+  <text x="440" y="262" font-size="14" fill="#78716c" font-weight="600">* 含疥瘡為最常見查核重點</text>
 
   <!-- 下排左卡 - B25 疫苗 -->
   <rect x="40" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
@@ -33,7 +33,7 @@
   <text x="60" y="375" font-size="14" fill="#57534e">• 名冊應註明施打日期及施打與否</text>
   <text x="60" y="398" font-size="14" fill="#57534e">• 未施打者原因應留有紀錄</text>
   <text x="60" y="421" font-size="14" fill="#57534e">• 具備鼓勵接種之策略</text>
-  <text x="60" y="444" font-size="13" fill="#d97706" font-weight="600">★ 名冊格式與原因記錄是常見缺失</text>
+  <text x="60" y="444" font-size="14" fill="#d97706" font-weight="600">* 名冊格式與原因記錄是常見缺失</text>
 
   <!-- 下排右卡 - C13 隔離 -->
   <rect x="420" y="288" width="340" height="162" rx="10" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
@@ -43,7 +43,7 @@
   <text x="440" y="375" font-size="14" fill="#57534e">• 設有緊急呼叫系統</text>
   <text x="440" y="398" font-size="14" fill="#57534e">• 動線符合感染管制原則</text>
   <text x="440" y="421" font-size="14" fill="#57534e">• 設備定期維護並有使用紀錄</text>
-  <text x="440" y="444" font-size="13" fill="#78716c" font-weight="600">★ 中小型機構常見設備不足問題</text>
+  <text x="440" y="444" font-size="14" fill="#78716c" font-weight="600">* 中小型機構常見設備不足問題</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

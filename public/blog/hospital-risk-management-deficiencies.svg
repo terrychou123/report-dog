@@ -1,60 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
   <!-- 頂部標題區 -->
   <rect width="800" height="90" fill="#1c1917"/>
   <text x="400" y="42"  font-size="22" font-weight="700" fill="#fff" text-anchor="middle">風險管理評鑑常見失分場景</text>
-  <text x="400" y="70"  font-size="13" fill="#a8a29e" text-anchor="middle">4大失分情境 | 提前了解 提前預防</text>
+  <text x="400" y="70"  font-size="14" fill="#a8a29e" text-anchor="middle">4大失分情境 | 提前了解 提前預防</text>
 
   <!-- 列1：失分1 -->
   <rect x="32" y="108" width="736" height="78" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
   <rect x="32" y="108" width="8" height="78" rx="4" fill="#dc2626"/>
   <circle cx="76" cy="147" r="20" fill="#dc2626"/>
-  <text x="76" y="141"  font-size="9" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
-  <text x="76" y="155"  font-size="12" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+  <text x="76" y="141"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
+  <text x="76" y="155"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
   <text x="112" y="133"  font-size="14" font-weight="700" fill="#dc2626">風險管理報告未向管理層報告</text>
-  <text x="112" y="153"  font-size="11" fill="#57534e">有做風險評估，但報告只停在品管部門，未提交管理委員會</text>
-  <text x="112" y="170"  font-size="11" fill="#57534e">委員訪談院長時不知道風險評估結果</text>
+  <text x="112" y="153"  font-size="14" fill="#57534e">有做風險評估，但報告只停在品管部門，未提交管理委員會</text>
+  <text x="112" y="170"  font-size="14" fill="#57534e">委員訪談院長時不知道風險評估結果</text>
   <rect x="660" y="128" width="90" height="26" rx="13" fill="#dc2626"/>
-  <text x="705" y="145"  font-size="11" font-weight="600" fill="#fff" text-anchor="middle">向上報告</text>
+  <text x="705" y="145"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">向上報告</text>
 
   <!-- 列2：失分2 -->
   <rect x="32" y="198" width="736" height="78" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
   <rect x="32" y="198" width="8" height="78" rx="4" fill="#d97706"/>
   <circle cx="76" cy="237" r="20" fill="#d97706" opacity="0.15"/>
-  <text x="76" y="231"  font-size="9" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
-  <text x="76" y="245"  font-size="12" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+  <text x="76" y="231"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
+  <text x="76" y="245"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
   <text x="112" y="223"  font-size="14" font-weight="700" fill="#d97706">RCA只找個人原因</text>
-  <text x="112" y="243"  font-size="11" fill="#57534e">RCA報告寫「護理師疏忽」「醫師判斷失誤」等個人歸咎</text>
-  <text x="112" y="260"  font-size="11" fill="#57534e">缺乏系統性根本原因分析，不符合評鑑要求</text>
+  <text x="112" y="243"  font-size="14" fill="#57534e">RCA報告寫「護理師疏忽」「醫師判斷失誤」等個人歸咎</text>
+  <text x="112" y="260"  font-size="14" fill="#57534e">缺乏系統性根本原因分析，不符合評鑑要求</text>
   <rect x="660" y="218" width="90" height="26" rx="13" fill="#d97706"/>
-  <text x="705" y="235"  font-size="11" font-weight="600" fill="#fff" text-anchor="middle">系統分析</text>
+  <text x="705" y="235"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">系統分析</text>
 
   <!-- 列3：失分3 -->
   <rect x="32" y="288" width="736" height="78" rx="10" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
   <rect x="32" y="288" width="8" height="78" rx="4" fill="#78716c"/>
   <circle cx="76" cy="327" r="20" fill="#78716c" opacity="0.15"/>
-  <text x="76" y="321"  font-size="9" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
-  <text x="76" y="335"  font-size="12" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+  <text x="76" y="321"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
+  <text x="76" y="335"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
   <text x="112" y="313"  font-size="14" font-weight="700" fill="#78716c">MCI計畫未演練</text>
-  <text x="112" y="333"  font-size="11" fill="#57534e">有書面計畫但從未演練，或演練後無改善追蹤</text>
-  <text x="112" y="350"  font-size="11" fill="#57534e">評鑑委員詢問護理師MCI啟動流程時回答模糊</text>
+  <text x="112" y="333"  font-size="14" fill="#57534e">有書面計畫但從未演練，或演練後無改善追蹤</text>
+  <text x="112" y="350"  font-size="14" fill="#57534e">評鑑委員詢問護理師MCI啟動流程時回答模糊</text>
   <rect x="660" y="308" width="90" height="26" rx="13" fill="#78716c"/>
-  <text x="705" y="325"  font-size="11" font-weight="600" fill="#fff" text-anchor="middle">實際演練</text>
+  <text x="705" y="325"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">實際演練</text>
 
   <!-- 列4：失分4 -->
   <rect x="32" y="378" width="736" height="78" rx="10" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
   <rect x="32" y="378" width="8" height="78" rx="4" fill="#57534e"/>
   <circle cx="76" cy="417" r="20" fill="#57534e" opacity="0.15"/>
-  <text x="76" y="411"  font-size="9" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
-  <text x="76" y="425"  font-size="12" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+  <text x="76" y="411"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
+  <text x="76" y="425"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
   <text x="112" y="403"  font-size="14" font-weight="700" fill="#57534e">危機溝通無授權發言人</text>
-  <text x="112" y="423"  font-size="11" fill="#57534e">危機溝通計畫中未明確指定授權發言人</text>
-  <text x="112" y="440"  font-size="11" fill="#57534e">或被指定的人員不知道自己有此職責</text>
+  <text x="112" y="423"  font-size="14" fill="#57534e">危機溝通計畫中未明確指定授權發言人</text>
+  <text x="112" y="440"  font-size="14" fill="#57534e">或被指定的人員不知道自己有此職責</text>
   <rect x="660" y="398" width="90" height="26" rx="13" fill="#57534e"/>
-  <text x="705" y="415"  font-size="11" font-weight="600" fill="#fff" text-anchor="middle">授權明確</text>
+  <text x="705" y="415"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">授權明確</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480"  font-size="11" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

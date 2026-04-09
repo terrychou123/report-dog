@@ -7,51 +7,51 @@
   <rect x="40" y="118" width="156" height="290" rx="12" fill="#d97706"/>
   <text x="118" y="178"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="118" y="210"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">確認底線</text>
-  <text x="118" y="242"  font-size="13" fill="#fff3cd" text-anchor="middle">逐一確認</text>
-  <text x="118" y="260"  font-size="13" fill="#fff3cd" text-anchor="middle">9 項一級</text>
-  <text x="118" y="278"  font-size="13" fill="#fff3cd" text-anchor="middle">必要項全部</text>
-  <text x="118" y="296"  font-size="13" fill="#fff3cd" text-anchor="middle">達標</text>
-  <text x="118" y="330"  font-size="12" fill="#fef3c7" text-anchor="middle">評鑑前</text>
-  <text x="118" y="346"  font-size="12" fill="#fef3c7" text-anchor="middle">6 個月</text>
+  <text x="118" y="242"  font-size="14" fill="#fff3cd" text-anchor="middle">逐一確認</text>
+  <text x="118" y="260"  font-size="14" fill="#fff3cd" text-anchor="middle">9 項一級</text>
+  <text x="118" y="278"  font-size="14" fill="#fff3cd" text-anchor="middle">必要項全部</text>
+  <text x="118" y="296"  font-size="14" fill="#fff3cd" text-anchor="middle">達標</text>
+  <text x="118" y="330"  font-size="14" fill="#fef3c7" text-anchor="middle">評鑑前</text>
+  <text x="118" y="346"  font-size="14" fill="#fef3c7" text-anchor="middle">6 個月</text>
   <!-- 箭頭1 -->
   <text x="210" y="268"  font-size="28" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 步驟2 -->
   <rect x="218" y="118" width="156" height="290" rx="12" fill="#78716c"/>
   <text x="296" y="178"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="296" y="210"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">取得前次報告</text>
-  <text x="296" y="242"  font-size="13" fill="#d4ccc8" text-anchor="middle">取得前次評鑑</text>
-  <text x="296" y="260"  font-size="13" fill="#d4ccc8" text-anchor="middle">報告書，逐項</text>
-  <text x="296" y="278"  font-size="13" fill="#d4ccc8" text-anchor="middle">列出建議事項</text>
-  <text x="296" y="296"  font-size="13" fill="#d4ccc8" text-anchor="middle">，制定 E1</text>
-  <text x="296" y="314"  font-size="13" fill="#d4ccc8" text-anchor="middle">改善計畫</text>
-  <text x="296" y="348"  font-size="12" fill="#e7e5e4" text-anchor="middle">評鑑前</text>
-  <text x="296" y="364"  font-size="12" fill="#e7e5e4" text-anchor="middle">5 個月</text>
+  <text x="296" y="242"  font-size="14" fill="#d4ccc8" text-anchor="middle">取得前次評鑑</text>
+  <text x="296" y="260"  font-size="14" fill="#d4ccc8" text-anchor="middle">報告書，逐項</text>
+  <text x="296" y="278"  font-size="14" fill="#d4ccc8" text-anchor="middle">列出建議事項</text>
+  <text x="296" y="296"  font-size="14" fill="#d4ccc8" text-anchor="middle">，制定 E1</text>
+  <text x="296" y="314"  font-size="14" fill="#d4ccc8" text-anchor="middle">改善計畫</text>
+  <text x="296" y="348"  font-size="14" fill="#e7e5e4" text-anchor="middle">評鑑前</text>
+  <text x="296" y="364"  font-size="14" fill="#e7e5e4" text-anchor="middle">5 個月</text>
   <!-- 箭頭2 -->
   <text x="388" y="268"  font-size="28" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 步驟3 -->
   <rect x="396" y="118" width="156" height="290" rx="12" fill="#57534e"/>
   <text x="474" y="178"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="474" y="210"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">衝刺加分</text>
-  <text x="474" y="242"  font-size="13" fill="#d4ccc8" text-anchor="middle">確認 E2 可計</text>
-  <text x="474" y="260"  font-size="13" fill="#d4ccc8" text-anchor="middle">分項目，備齊</text>
-  <text x="474" y="278"  font-size="13" fill="#d4ccc8" text-anchor="middle">佐證文件，</text>
-  <text x="474" y="296"  font-size="13" fill="#d4ccc8" text-anchor="middle">追加演練次數</text>
-  <text x="474" y="314"  font-size="13" fill="#d4ccc8" text-anchor="middle">達 4 次</text>
-  <text x="474" y="348"  font-size="12" fill="#e7e5e4" text-anchor="middle">評鑑前</text>
-  <text x="474" y="364"  font-size="12" fill="#e7e5e4" text-anchor="middle">3 個月</text>
+  <text x="474" y="242"  font-size="14" fill="#d4ccc8" text-anchor="middle">確認 E2 可計</text>
+  <text x="474" y="260"  font-size="14" fill="#d4ccc8" text-anchor="middle">分項目，備齊</text>
+  <text x="474" y="278"  font-size="14" fill="#d4ccc8" text-anchor="middle">佐證文件，</text>
+  <text x="474" y="296"  font-size="14" fill="#d4ccc8" text-anchor="middle">追加演練次數</text>
+  <text x="474" y="314"  font-size="14" fill="#d4ccc8" text-anchor="middle">達 4 次</text>
+  <text x="474" y="348"  font-size="14" fill="#e7e5e4" text-anchor="middle">評鑑前</text>
+  <text x="474" y="364"  font-size="14" fill="#e7e5e4" text-anchor="middle">3 個月</text>
   <!-- 箭頭3 -->
   <text x="566" y="268"  font-size="28" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 步驟4 -->
   <rect x="574" y="118" width="186" height="290" rx="12" fill="#94a3b8"/>
   <text x="667" y="178"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
   <text x="667" y="210"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">模擬驗收</text>
-  <text x="667" y="242"  font-size="13" fill="#e2e8f0" text-anchor="middle">完整模擬委員</text>
-  <text x="667" y="260"  font-size="13" fill="#e2e8f0" text-anchor="middle">訪查動線，確</text>
-  <text x="667" y="278"  font-size="13" fill="#e2e8f0" text-anchor="middle">認文件備齊，</text>
-  <text x="667" y="296"  font-size="13" fill="#e2e8f0" text-anchor="middle">訓練人員應對</text>
-  <text x="667" y="314"  font-size="13" fill="#e2e8f0" text-anchor="middle">訪談技巧</text>
-  <text x="667" y="348"  font-size="12" fill="#f1f5f9" text-anchor="middle">評鑑前</text>
-  <text x="667" y="364"  font-size="12" fill="#f1f5f9" text-anchor="middle">1 個月</text>
+  <text x="667" y="242"  font-size="14" fill="#e2e8f0" text-anchor="middle">完整模擬委員</text>
+  <text x="667" y="260"  font-size="14" fill="#e2e8f0" text-anchor="middle">訪查動線，確</text>
+  <text x="667" y="278"  font-size="14" fill="#e2e8f0" text-anchor="middle">認文件備齊，</text>
+  <text x="667" y="296"  font-size="14" fill="#e2e8f0" text-anchor="middle">訓練人員應對</text>
+  <text x="667" y="314"  font-size="14" fill="#e2e8f0" text-anchor="middle">訪談技巧</text>
+  <text x="667" y="348"  font-size="14" fill="#f1f5f9" text-anchor="middle">評鑑前</text>
+  <text x="667" y="364"  font-size="14" fill="#f1f5f9" text-anchor="middle">1 個月</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

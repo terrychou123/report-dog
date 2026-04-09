@@ -11,16 +11,16 @@
   <rect x="129" y="108" width="170" height="8" rx="7" fill="#d97706"/>
   <text x="214" y="150"  font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">會議前準備</text>
   <line x1="149" y1="165" x2="279" y2="165" stroke="#e2e0d8" stroke-width="1"/>
-  <text x="214" y="190"  font-size="12" fill="#57534e" text-anchor="middle">確認出席名單</text>
-  <text x="214" y="210"  font-size="12" fill="#57534e" text-anchor="middle">（兒少、家長、社工）</text>
-  <text x="214" y="240"  font-size="12" fill="#57534e" text-anchor="middle">準備議程表</text>
-  <text x="214" y="260"  font-size="12" fill="#57534e" text-anchor="middle">含兒少意見欄位</text>
-  <text x="214" y="290"  font-size="12" fill="#57534e" text-anchor="middle">通知家長</text>
-  <text x="214" y="310"  font-size="12" fill="#57534e" text-anchor="middle">（保留通知紀錄）</text>
-  <text x="214" y="340"  font-size="12" fill="#57534e" text-anchor="middle">備妥上次</text>
-  <text x="214" y="360"  font-size="12" fill="#57534e" text-anchor="middle">決議追蹤事項</text>
-  <text x="214" y="400"  font-size="11" fill="#d97706" text-anchor="middle">每月月初進行</text>
-  <text x="214" y="420"  font-size="11" fill="#d97706" text-anchor="middle">準備工作</text>
+  <text x="214" y="190"  font-size="14" fill="#57534e" text-anchor="middle">確認出席名單</text>
+  <text x="214" y="210"  font-size="14" fill="#57534e" text-anchor="middle">（兒少、家長、社工）</text>
+  <text x="214" y="240"  font-size="14" fill="#57534e" text-anchor="middle">準備議程表</text>
+  <text x="214" y="260"  font-size="14" fill="#57534e" text-anchor="middle">含兒少意見欄位</text>
+  <text x="214" y="290"  font-size="14" fill="#57534e" text-anchor="middle">通知家長</text>
+  <text x="214" y="310"  font-size="14" fill="#57534e" text-anchor="middle">（保留通知紀錄）</text>
+  <text x="214" y="340"  font-size="14" fill="#57534e" text-anchor="middle">備妥上次</text>
+  <text x="214" y="360"  font-size="14" fill="#57534e" text-anchor="middle">決議追蹤事項</text>
+  <text x="214" y="400"  font-size="14" fill="#d97706" text-anchor="middle">每月月初進行</text>
+  <text x="214" y="420"  font-size="14" fill="#d97706" text-anchor="middle">準備工作</text>
 
   <!-- Arrow 1 -->
   <polygon points="303,279 316,272 316,286" fill="#d97706"/>
@@ -31,16 +31,16 @@
   <rect x="315" y="108" width="170" height="8" rx="7" fill="#78716c"/>
   <text x="400" y="150"  font-size="15" fill="#78716c" text-anchor="middle" font-weight="700">會議進行</text>
   <line x1="335" y1="165" x2="465" y2="165" stroke="#e2e0d8" stroke-width="1"/>
-  <text x="400" y="190"  font-size="12" fill="#57534e" text-anchor="middle">讓兒少有發言</text>
-  <text x="400" y="210"  font-size="12" fill="#57534e" text-anchor="middle">機會並記錄</text>
-  <text x="400" y="240"  font-size="12" fill="#57534e" text-anchor="middle">討論申訴管道</text>
-  <text x="400" y="260"  font-size="12" fill="#57534e" text-anchor="middle">告知兒少如何使用</text>
-  <text x="400" y="290"  font-size="12" fill="#57534e" text-anchor="middle">確認零用金</text>
-  <text x="400" y="310"  font-size="12" fill="#57534e" text-anchor="middle">收付無異議</text>
-  <text x="400" y="340"  font-size="12" fill="#57534e" text-anchor="middle">紀錄討論結果</text>
-  <text x="400" y="360"  font-size="12" fill="#57534e" text-anchor="middle">與行動決議</text>
-  <text x="400" y="400"  font-size="11" fill="#78716c" text-anchor="middle">兒少為主體</text>
-  <text x="400" y="420"  font-size="11" fill="#78716c" text-anchor="middle">全程記錄</text>
+  <text x="400" y="190"  font-size="14" fill="#57534e" text-anchor="middle">讓兒少有發言</text>
+  <text x="400" y="210"  font-size="14" fill="#57534e" text-anchor="middle">機會並記錄</text>
+  <text x="400" y="240"  font-size="14" fill="#57534e" text-anchor="middle">討論申訴管道</text>
+  <text x="400" y="260"  font-size="14" fill="#57534e" text-anchor="middle">告知兒少如何使用</text>
+  <text x="400" y="290"  font-size="14" fill="#57534e" text-anchor="middle">確認零用金</text>
+  <text x="400" y="310"  font-size="14" fill="#57534e" text-anchor="middle">收付無異議</text>
+  <text x="400" y="340"  font-size="14" fill="#57534e" text-anchor="middle">紀錄討論結果</text>
+  <text x="400" y="360"  font-size="14" fill="#57534e" text-anchor="middle">與行動決議</text>
+  <text x="400" y="400"  font-size="14" fill="#78716c" text-anchor="middle">兒少為主體</text>
+  <text x="400" y="420"  font-size="14" fill="#78716c" text-anchor="middle">全程記錄</text>
 
   <!-- Arrow 2 -->
   <polygon points="489,279 502,272 502,286" fill="#78716c"/>
@@ -51,16 +51,16 @@
   <rect x="501" y="108" width="170" height="8" rx="7" fill="#94a3b8"/>
   <text x="586" y="150"  font-size="15" fill="#94a3b8" text-anchor="middle" font-weight="700">會議後追蹤</text>
   <line x1="521" y1="165" x2="651" y2="165" stroke="#e2e0d8" stroke-width="1"/>
-  <text x="586" y="190"  font-size="12" fill="#57534e" text-anchor="middle">完成會議紀錄</text>
-  <text x="586" y="210"  font-size="12" fill="#57534e" text-anchor="middle">含出席人員簽名</text>
-  <text x="586" y="240"  font-size="12" fill="#57534e" text-anchor="middle">追蹤決議事項</text>
-  <text x="586" y="260"  font-size="12" fill="#57534e" text-anchor="middle">下次會議前回報</text>
-  <text x="586" y="290"  font-size="12" fill="#57534e" text-anchor="middle">文件歸檔保存</text>
-  <text x="586" y="310"  font-size="12" fill="#57534e" text-anchor="middle">評鑑備查用</text>
-  <text x="586" y="340"  font-size="12" fill="#57534e" text-anchor="middle">上傳報告汪</text>
-  <text x="586" y="360"  font-size="12" fill="#57534e" text-anchor="middle">雲端備份存取</text>
-  <text x="586" y="400"  font-size="11" fill="#94a3b8" text-anchor="middle">紀錄保存</text>
-  <text x="586" y="420"  font-size="11" fill="#94a3b8" text-anchor="middle">至少 3 年</text>
+  <text x="586" y="190"  font-size="14" fill="#57534e" text-anchor="middle">完成會議紀錄</text>
+  <text x="586" y="210"  font-size="14" fill="#57534e" text-anchor="middle">含出席人員簽名</text>
+  <text x="586" y="240"  font-size="14" fill="#57534e" text-anchor="middle">追蹤決議事項</text>
+  <text x="586" y="260"  font-size="14" fill="#57534e" text-anchor="middle">下次會議前回報</text>
+  <text x="586" y="290"  font-size="14" fill="#57534e" text-anchor="middle">文件歸檔保存</text>
+  <text x="586" y="310"  font-size="14" fill="#57534e" text-anchor="middle">評鑑備查用</text>
+  <text x="586" y="340"  font-size="14" fill="#57534e" text-anchor="middle">上傳報告汪</text>
+  <text x="586" y="360"  font-size="14" fill="#57534e" text-anchor="middle">雲端備份存取</text>
+  <text x="586" y="400"  font-size="14" fill="#94a3b8" text-anchor="middle">紀錄保存</text>
+  <text x="586" y="420"  font-size="14" fill="#94a3b8" text-anchor="middle">至少 3 年</text>
 
   <!-- Watermark -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

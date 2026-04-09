@@ -11,7 +11,7 @@
 
   <!-- ===== Row 1（y=160）稽核率偏低 #dc2626 ===== -->
   <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="160" width="6" height="62" rx="2" fill="#dc2626"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="191" r="16" fill="#dc2626"/>
   <text x="66" y="197" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="900">失分1</text>
   <text x="100" y="184" font-size="20" fill="#1e293b" font-weight="700">稽核執行率長期偏低（未達目標且無改善計畫）</text>
@@ -22,7 +22,7 @@
 
   <!-- ===== Row 2（y=235）五大時機不熟 #d97706 ===== -->
   <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="235" width="6" height="62" rx="2" fill="#d97706"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="266" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="272" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">失分2</text>
   <text x="100" y="259" font-size="20" fill="#1e293b" font-weight="700">護理師當場答不出五大時機</text>
@@ -33,7 +33,7 @@
 
   <!-- ===== Row 3（y=310）PPE備品不足 #78716c ===== -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="310" width="6" height="62" rx="2" fill="#78716c"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="341" r="16" fill="#78716c" opacity="0.15"/>
   <text x="66" y="347" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">失分3</text>
   <text x="100" y="334" font-size="20" fill="#1e293b" font-weight="700">隔離病房外PPE備品不足或未放置</text>
@@ -44,7 +44,7 @@
 
   <!-- ===== Row 4（y=385）現場觀察失誤 #57534e ===== -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="385" width="6" height="62" rx="2" fill="#57534e"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="416" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="422" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">失分4</text>
   <text x="100" y="409" font-size="20" fill="#1e293b" font-weight="700">評鑑委員在場時護理師未執行手部衛生</text>

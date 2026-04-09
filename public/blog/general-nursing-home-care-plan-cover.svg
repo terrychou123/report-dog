@@ -10,20 +10,20 @@
 
   <!-- 右側四時序卡片 -->
   <rect x="840" y="248" width="320" height="60" rx="8" fill="white" stroke="#16a34a" stroke-width="1.5"/>
-  <text x="856" y="267" font-size="24" fill="#16a34a" font-weight="700">⏱ 24 小時內</text>
-  <text x="856" y="291" font-size="20" fill="#57534e">完成初步護理評估</text>
+  <text x="856" y="271" font-size="24" fill="#16a34a" font-weight="700">24 小時內</text>
+  <text x="856" y="302" font-size="20" fill="#57534e">完成初步護理評估</text>
 
   <rect x="840" y="318" width="320" height="60" rx="8" fill="white" stroke="#16a34a" stroke-width="1.5"/>
-  <text x="856" y="337" font-size="24" fill="#16a34a" font-weight="700">📋 72 小時內</text>
-  <text x="856" y="361" font-size="20" fill="#57534e">完成完整四面向評估</text>
+  <text x="856" y="341" font-size="24" fill="#16a34a" font-weight="700"> 72 小時內</text>
+  <text x="856" y="372" font-size="20" fill="#57534e">完成完整四面向評估</text>
 
   <rect x="840" y="388" width="320" height="60" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
-  <text x="856" y="407" font-size="24" fill="#d97706" font-weight="700">✍ 個別化計畫</text>
-  <text x="856" y="431" font-size="20" fill="#57534e">跨專業簽名 · 四要素齊全</text>
+  <text x="856" y="411" font-size="24" fill="#d97706" font-weight="700">個別化計畫</text>
+  <text x="856" y="442" font-size="20" fill="#57534e">跨專業簽名 · 四要素齊全</text>
 
   <rect x="840" y="458" width="320" height="60" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
-  <text x="856" y="477" font-size="24" fill="#d97706" font-weight="700">🔄 每 3 個月修訂</text>
-  <text x="856" y="501" font-size="20" fill="#57534e">評值記錄不空白</text>
+  <text x="856" y="481" font-size="24" fill="#d97706" font-weight="700"> 每 3 個月修訂</text>
+  <text x="856" y="512" font-size="20" fill="#57534e">評值記錄不空白</text>
 
   <!-- 右側底部 -->
   <rect x="840" y="530" width="320" height="50" rx="10" fill="#16a34a" opacity="0.12"/>

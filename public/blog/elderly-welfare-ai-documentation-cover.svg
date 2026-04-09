@@ -39,7 +39,7 @@
   <line x1="80" y1="475" x2="760" y2="475" stroke="#d97706" stroke-width="2" opacity="0.3"/>
 
   <!-- 底部說明 -->
-  <text x="80" y="520" font-size="26" fill="#78716c" >115年度老人福利機構評鑑 ✦ B2 個案計畫 ✦ B13–B19 七大監測</text>
+  <text x="80" y="520" font-size="26" fill="#78716c" >115年度老人福利機構評鑑 * B2 個案計畫 * B13–B19 七大監測</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

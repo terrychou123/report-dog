@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
   <rect width="800" height="500" fill="#fafaf9"/>
 
@@ -12,35 +13,35 @@
   <rect x="38" y="132" width="10" height="90" rx="5" fill="#dc2626"/>
   <!-- 警示標籤 -->
   <rect x="64" y="148" width="20" height="20" rx="10" fill="#fee2e2"/>
-  <text x="74" y="163" text-anchor="middle" font-size="12" fill="#dc2626" font-weight="900">!</text>
+  <text x="74" y="163" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="900">!</text>
   <text x="92" y="163" font-size="17" font-weight="700" fill="#dc2626">職前訓練無效果評估記錄</text>
   <text x="64" y="195" font-size="14" fill="#78716c">有辦訓練、有簽到表，但訓練效果評估紀錄缺漏，</text>
   <text x="64" y="213" font-size="14" fill="#78716c">或所有人評估結果都是滿分（形式化）</text>
   <rect x="618" y="152" width="108" height="30" rx="15" fill="#fee2e2"/>
-  <text x="672" y="172" text-anchor="middle" font-size="13" fill="#dc2626" font-weight="700">評估真實</text>
+  <text x="672" y="172" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="700">評估真實</text>
 
   <!-- 列2：在職訓練特定職類缺漏 y=269 -->
   <rect x="38" y="235" width="724" height="90" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="2"/>
   <rect x="38" y="235" width="10" height="90" rx="5" fill="#d97706"/>
   <rect x="64" y="251" width="20" height="20" rx="10" fill="#fef3c7"/>
-  <text x="74" y="266" text-anchor="middle" font-size="12" fill="#d97706" font-weight="900">!</text>
+  <text x="74" y="266" text-anchor="middle" font-size="14" fill="#d97706" font-weight="900">!</text>
   <text x="92" y="266" font-size="17" font-weight="700" fill="#d97706">在職訓練特定職類缺漏</text>
   <text x="64" y="298" font-size="14" fill="#78716c">訓練計畫涵蓋護理師、醫師，但遺漏行政人員、志工</text>
   <text x="64" y="316" font-size="14" fill="#78716c">或某特定科別，評鑑查核時被發現</text>
   <rect x="638" y="255" width="88" height="30" rx="15" fill="#fef3c7"/>
-  <text x="682" y="275" text-anchor="middle" font-size="13" fill="#d97706" font-weight="700">全職類</text>
+  <text x="682" y="275" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">全職類</text>
 
   <!-- 列3：CME學分追蹤沒有管理 y=372 -->
   <rect x="38" y="338" width="724" height="90" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
   <rect x="38" y="338" width="10" height="90" rx="5" fill="#78716c"/>
   <rect x="64" y="354" width="20" height="20" rx="10" fill="#f5f5f4"/>
-  <text x="74" y="369" text-anchor="middle" font-size="12" fill="#78716c" font-weight="900">!</text>
+  <text x="74" y="369" text-anchor="middle" font-size="14" fill="#78716c" font-weight="900">!</text>
   <text x="92" y="369" font-size="17" font-weight="700" fill="#78716c">CME學分追蹤沒有管理</text>
   <text x="64" y="401" font-size="14" fill="#78716c">醫院沒有系統性追蹤醫師CME學分，評鑑委員要求提供</text>
   <text x="64" y="419" font-size="14" fill="#78716c">所有醫師學分完成紀錄時，無法即時提供</text>
   <rect x="628" y="358" width="88" height="30" rx="15" fill="#f5f5f4"/>
-  <text x="672" y="378" text-anchor="middle" font-size="13" fill="#78716c" font-weight="700">系統追蹤</text>
+  <text x="672" y="378" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">系統追蹤</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480" text-anchor="middle" font-size="12" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
+  <text x="400" y="480" text-anchor="middle" font-size="14" fill="#a8a29e" opacity="0.6">報告汪 reportwang.com</text>
 </svg>

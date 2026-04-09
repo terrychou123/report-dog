@@ -23,7 +23,7 @@
   <text x="676" y="186" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">15 分鐘（省 67%）</text>
 
   <!-- Row 2: A6 危機管理 y=212-272 -->
-  <rect x="40" y="212" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="212" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1" rx="12"/>
   <rect x="40" y="212" width="6" height="60" fill="#78716c" rx="2"/>
   <text x="200" y="246" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">A6 危機管理計畫</text>
   <line x1="360" y1="212" x2="360" y2="272" stroke="#dedad3" stroke-width="1"/>
@@ -41,7 +41,7 @@
   <text x="676" y="306" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">30 分鐘（省 75%）</text>
 
   <!-- Row 4: A3 年度業務計畫 y=332-392 -->
-  <rect x="40" y="332" width="720" height="60" fill="#fafaf8" stroke="#e8e6de" stroke-width="1" rx="12"/>
+  <rect x="40" y="332" width="720" height="60" fill="white" stroke="#e8e6de" stroke-width="1" rx="12"/>
   <rect x="40" y="332" width="6" height="60" fill="#a8a29e" rx="2"/>
   <text x="200" y="366" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">A3 年度業務計畫</text>
   <line x1="360" y1="332" x2="360" y2="392" stroke="#dedad3" stroke-width="1"/>

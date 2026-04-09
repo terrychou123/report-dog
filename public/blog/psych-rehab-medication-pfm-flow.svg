@@ -8,7 +8,7 @@
   <rect x="28" y="108" width="352" height="340" rx="12" fill="white" stroke="#d97706" stroke-width="2"/>
   <rect x="28" y="108" width="352" height="40" rx="12" fill="#d97706"/>
   <rect x="28" y="128" width="352" height="20" fill="#d97706"/>
-  <text x="204" y="145" text-anchor="middle" font-size="19" fill="white" font-weight="700">訪談學員（PFM 直問）</text>
+  <text x="204" y="135" text-anchor="middle" font-size="19" fill="white" font-weight="700">訪談學員（PFM 直問）</text>
 
   <text x="48" y="172" font-size="16" fill="#d97706" font-weight="700">委員提問方向：</text>
 
@@ -32,7 +32,7 @@
   <rect x="420" y="108" width="352" height="340" rx="12" fill="white" stroke="#78716c" stroke-width="2"/>
   <rect x="420" y="108" width="352" height="40" rx="12" fill="#78716c"/>
   <rect x="420" y="128" width="352" height="20" fill="#78716c"/>
-  <text x="596" y="145" text-anchor="middle" font-size="19" fill="white" font-weight="700">審查文件（機構備審）</text>
+  <text x="596" y="135" text-anchor="middle" font-size="19" fill="white" font-weight="700">審查文件（機構備審）</text>
 
   <text x="440" y="172" font-size="16" fill="#78716c" font-weight="700">委員查核文件：</text>
 

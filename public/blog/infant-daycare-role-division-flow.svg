@@ -10,16 +10,16 @@
   <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#d97706" stroke-width="2"/>
   <circle cx="214" cy="108" r="43" fill="#d97706" opacity="0.15"/>
   <text x="214" y="100" font-size="28" fill="white" text-anchor="middle"  font-weight="900">01</text>
-  <text x="214" y="125" font-size="13" fill="white" text-anchor="middle" >STEP</text>
+  <text x="214" y="125" font-size="14" fill="white" text-anchor="middle" >STEP</text>
   <text x="214" y="190" font-size="20" fill="#d97706" text-anchor="middle"  font-weight="700">分工啟動</text>
-  <text x="214" y="225" font-size="13" fill="#57534e" text-anchor="middle" >負責人召集會議</text>
-  <text x="214" y="248" font-size="13" fill="#57534e" text-anchor="middle" >說明評鑑範圍</text>
-  <text x="214" y="280" font-size="13" fill="#78716c" text-anchor="middle" >分配各角色</text>
-  <text x="214" y="303" font-size="13" fill="#78716c" text-anchor="middle" >負責指標區塊</text>
-  <text x="214" y="345" font-size="12" fill="#a8a29e" text-anchor="middle" >收到評鑑通知</text>
-  <text x="214" y="366" font-size="12" fill="#a8a29e" text-anchor="middle" >後 1 週內完成</text>
-  <text x="214" y="400" font-size="12" fill="#d97706" text-anchor="middle"  font-weight="700">啟動清單</text>
-  <text x="214" y="420" font-size="12" fill="#d97706" text-anchor="middle"  font-weight="700">分工表格</text>
+  <text x="214" y="225" font-size="14" fill="#57534e" text-anchor="middle" >負責人召集會議</text>
+  <text x="214" y="248" font-size="14" fill="#57534e" text-anchor="middle" >說明評鑑範圍</text>
+  <text x="214" y="280" font-size="14" fill="#78716c" text-anchor="middle" >分配各角色</text>
+  <text x="214" y="303" font-size="14" fill="#78716c" text-anchor="middle" >負責指標區塊</text>
+  <text x="214" y="345" font-size="14" fill="#a8a29e" text-anchor="middle" >收到評鑑通知</text>
+  <text x="214" y="366" font-size="14" fill="#a8a29e" text-anchor="middle" >後 1 週內完成</text>
+  <text x="214" y="400" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">啟動清單</text>
+  <text x="214" y="420" font-size="14" fill="#d97706" text-anchor="middle"  font-weight="700">分工表格</text>
   <!-- 箭頭 1 -->
   <polygon points="303,258 325,270 303,282" fill="#d97706"/>
   <line x1="299" y1="270" x2="315" y2="270" stroke="#d97706" stroke-width="2"/>
@@ -27,16 +27,16 @@
   <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#78716c" stroke-width="2"/>
   <circle cx="400" cy="108" r="43" fill="#78716c" opacity="0.15"/>
   <text x="400" y="100" font-size="28" fill="white" text-anchor="middle"  font-weight="900">02</text>
-  <text x="400" y="125" font-size="13" fill="white" text-anchor="middle" >STEP</text>
+  <text x="400" y="125" font-size="14" fill="white" text-anchor="middle" >STEP</text>
   <text x="400" y="190" font-size="20" fill="#78716c" text-anchor="middle"  font-weight="700">各自準備</text>
-  <text x="400" y="225" font-size="13" fill="#57534e" text-anchor="middle" >各角色依清單</text>
-  <text x="400" y="248" font-size="13" fill="#57534e" text-anchor="middle" >準備負責文件</text>
-  <text x="400" y="280" font-size="13" fill="#78716c" text-anchor="middle" >每週進度回報</text>
-  <text x="400" y="303" font-size="13" fill="#78716c" text-anchor="middle" >遇問題及時提出</text>
-  <text x="400" y="345" font-size="12" fill="#a8a29e" text-anchor="middle" >評鑑前</text>
-  <text x="400" y="366" font-size="12" fill="#a8a29e" text-anchor="middle" >4-6 週執行期</text>
-  <text x="400" y="400" font-size="12" fill="#78716c" text-anchor="middle"  font-weight="700">各角色文件</text>
-  <text x="400" y="420" font-size="12" fill="#78716c" text-anchor="middle"  font-weight="700">獨立備妥</text>
+  <text x="400" y="225" font-size="14" fill="#57534e" text-anchor="middle" >各角色依清單</text>
+  <text x="400" y="248" font-size="14" fill="#57534e" text-anchor="middle" >準備負責文件</text>
+  <text x="400" y="280" font-size="14" fill="#78716c" text-anchor="middle" >每週進度回報</text>
+  <text x="400" y="303" font-size="14" fill="#78716c" text-anchor="middle" >遇問題及時提出</text>
+  <text x="400" y="345" font-size="14" fill="#a8a29e" text-anchor="middle" >評鑑前</text>
+  <text x="400" y="366" font-size="14" fill="#a8a29e" text-anchor="middle" >4-6 週執行期</text>
+  <text x="400" y="400" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">各角色文件</text>
+  <text x="400" y="420" font-size="14" fill="#78716c" text-anchor="middle"  font-weight="700">獨立備妥</text>
   <!-- 箭頭 2 -->
   <polygon points="489,258 511,270 489,282" fill="#78716c"/>
   <line x1="485" y1="270" x2="501" y2="270" stroke="#78716c" stroke-width="2"/>
@@ -44,16 +44,16 @@
   <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#57534e" stroke-width="2"/>
   <circle cx="586" cy="108" r="43" fill="#57534e" opacity="0.15"/>
   <text x="586" y="100" font-size="28" fill="white" text-anchor="middle"  font-weight="900">03</text>
-  <text x="586" y="125" font-size="13" fill="white" text-anchor="middle" >STEP</text>
+  <text x="586" y="125" font-size="14" fill="white" text-anchor="middle" >STEP</text>
   <text x="586" y="190" font-size="20" fill="#57534e" text-anchor="middle"  font-weight="700">統一彙整</text>
-  <text x="586" y="225" font-size="13" fill="#57534e" text-anchor="middle" >負責人統整</text>
-  <text x="586" y="248" font-size="13" fill="#57534e" text-anchor="middle" >所有文件資料</text>
-  <text x="586" y="280" font-size="13" fill="#78716c" text-anchor="middle" >模擬訪談演練</text>
-  <text x="586" y="303" font-size="13" fill="#78716c" text-anchor="middle" >最終確認無缺漏</text>
-  <text x="586" y="345" font-size="12" fill="#a8a29e" text-anchor="middle" >評鑑前</text>
-  <text x="586" y="366" font-size="12" fill="#a8a29e" text-anchor="middle" >1-2 週前完成</text>
-  <text x="586" y="400" font-size="12" fill="#57534e" text-anchor="middle"  font-weight="700">完整文件夾</text>
-  <text x="586" y="420" font-size="12" fill="#57534e" text-anchor="middle"  font-weight="700">備妥迎接評鑑</text>
+  <text x="586" y="225" font-size="14" fill="#57534e" text-anchor="middle" >負責人統整</text>
+  <text x="586" y="248" font-size="14" fill="#57534e" text-anchor="middle" >所有文件資料</text>
+  <text x="586" y="280" font-size="14" fill="#78716c" text-anchor="middle" >模擬訪談演練</text>
+  <text x="586" y="303" font-size="14" fill="#78716c" text-anchor="middle" >最終確認無缺漏</text>
+  <text x="586" y="345" font-size="14" fill="#a8a29e" text-anchor="middle" >評鑑前</text>
+  <text x="586" y="366" font-size="14" fill="#a8a29e" text-anchor="middle" >1-2 週前完成</text>
+  <text x="586" y="400" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">完整文件夾</text>
+  <text x="586" y="420" font-size="14" fill="#57534e" text-anchor="middle"  font-weight="700">備妥迎接評鑑</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

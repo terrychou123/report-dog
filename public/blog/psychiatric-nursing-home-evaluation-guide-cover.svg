@@ -41,26 +41,26 @@
   <!-- 右側 2x2 資訊卡片 -->
   <!-- 卡片1 -->
   <rect x="825" y="330" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="370" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" >A面向</text>
-  <text x="907" y="398" font-size="18" fill="#1e293b" text-anchor="middle" >9項</text>
+  <text x="907" y="377" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle" >A面向</text>
+  <text x="907" y="408" font-size="18" fill="#1e293b" text-anchor="middle" >9項</text>
   <text x="907" y="424" font-size="14" fill="#57534e" text-anchor="middle" >經營管理效能</text>
 
   <!-- 卡片2 -->
   <rect x="1005" y="330" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="370" font-size="20" font-weight="bold" fill="#78716c" text-anchor="middle" >B面向</text>
-  <text x="1087" y="398" font-size="18" fill="#1e293b" text-anchor="middle" >21項</text>
+  <text x="1087" y="377" font-size="20" font-weight="bold" fill="#78716c" text-anchor="middle" >B面向</text>
+  <text x="1087" y="408" font-size="18" fill="#1e293b" text-anchor="middle" >21項</text>
   <text x="1087" y="424" font-size="14" fill="#57534e" text-anchor="middle" >專業照護品質</text>
 
   <!-- 卡片3 -->
   <rect x="825" y="455" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="495" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" >C面向</text>
-  <text x="907" y="523" font-size="18" fill="#1e293b" text-anchor="middle" >3項</text>
+  <text x="907" y="502" font-size="20" font-weight="bold" fill="#57534e" text-anchor="middle" >C面向</text>
+  <text x="907" y="533" font-size="18" fill="#1e293b" text-anchor="middle" >3項</text>
   <text x="907" y="549" font-size="14" fill="#57534e" text-anchor="middle" >安全維護設施</text>
 
   <!-- 卡片4 -->
   <rect x="1005" y="455" width="165" height="110" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="495" font-size="20" font-weight="bold" fill="#a8a29e" text-anchor="middle" >D/E面向</text>
-  <text x="1087" y="523" font-size="18" fill="#1e293b" text-anchor="middle" >3項</text>
+  <text x="1087" y="502" font-size="20" font-weight="bold" fill="#a8a29e" text-anchor="middle" >D/E面向</text>
+  <text x="1087" y="533" font-size="18" fill="#1e293b" text-anchor="middle" >3項</text>
   <text x="1087" y="549" font-size="14" fill="#57534e" text-anchor="middle" >住民權益+創新</text>
 
   <!-- 品牌浮水印 -->

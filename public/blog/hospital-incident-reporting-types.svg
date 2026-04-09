@@ -11,36 +11,36 @@
 
   <!-- ===== Row 1（y=166）警示事件 #d97706 ===== -->
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
   <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
   <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
   <text x="100" y="198" font-size="28" fill="#1e293b" font-weight="700">警示事件（Sentinel Events）</text>
-  <text x="100" y="226" font-size="18" fill="#57534e">結果嚴重且可預防：手術部位錯誤、輸錯血型、保留異物、住院期間自殺</text>
-  <text x="100" y="248" font-size="18" fill="#57534e">—— 全部必須進行完整RCA，45天內完成</text>
+  <text x="100" y="226" font-size="16" fill="#57534e">結果嚴重且可預防：手術部位錯誤、輸錯血型、保留異物、住院期間自殺</text>
+  <text x="100" y="248" font-size="16" fill="#57534e">—— 全部必須進行完整RCA，45天內完成</text>
   <rect x="600" y="174" width="156" height="52" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="678" y="189" font-size="18" fill="#d97706" text-anchor="middle">完整RCA</text>
   <text x="678" y="211" font-size="18" fill="#d97706" text-anchor="middle">45天內提交</text>
 
   <!-- ===== Row 2（y=269）不良事件 #78716c ===== -->
   <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
   <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
   <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
   <text x="100" y="301" font-size="28" fill="#1e293b" font-weight="700">不良事件（Adverse Events）</text>
-  <text x="100" y="329" font-size="18" fill="#57534e">病人因醫療介入（非原有疾病）遭受傷害：跌倒、用藥錯誤、手術併發症</text>
-  <text x="100" y="351" font-size="18" fill="#57534e">—— 重大者：完整RCA；一般者：簡化分析（ACA）</text>
+  <text x="100" y="329" font-size="16" fill="#57534e">病人因醫療介入（非原有疾病）遭受傷害：跌倒、用藥錯誤、手術併發症</text>
+  <text x="100" y="351" font-size="16" fill="#57534e">—— 重大者：完整RCA；一般者：簡化分析（ACA）</text>
   <rect x="600" y="277" width="156" height="52" rx="8" fill="#78716c" opacity="0.12"/>
   <text x="678" y="292" font-size="18" fill="#78716c" text-anchor="middle">ACA或RCA</text>
   <text x="678" y="314" font-size="18" fill="#78716c" text-anchor="middle">依嚴重度決定</text>
 
   <!-- ===== Row 3（y=372）未遂事件 #57534e ===== -->
   <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
   <text x="100" y="404" font-size="28" fill="#1e293b" font-weight="700">未遂事件（Near Miss）</text>
-  <text x="100" y="432" font-size="18" fill="#57534e">差點發生但被及時攔截，無傷害：發現錯誤藥品尚未給藥、開錯手術部位尚未切</text>
-  <text x="100" y="454" font-size="18" fill="#57534e">—— 通報率高是文化健全的表現，簡化分析即可</text>
+  <text x="100" y="432" font-size="16" fill="#57534e">差點發生但被及時攔截，無傷害：發現錯誤藥品尚未給藥、開錯手術部位尚未切</text>
+  <text x="100" y="454" font-size="16" fill="#57534e">—— 通報率高是文化健全的表現，簡化分析即可</text>
   <rect x="600" y="380" width="156" height="52" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="678" y="395" font-size="18" fill="#57534e" text-anchor="middle">簡化分析</text>
   <text x="678" y="417" font-size="18" fill="#57534e" text-anchor="middle">鼓勵多通報</text>

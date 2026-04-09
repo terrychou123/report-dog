@@ -15,33 +15,33 @@
   <rect x="40" y="160" width="720" height="62" rx="4" fill="#fff"/>
   <rect x="40" y="160" width="4" height="62" fill="#d97706"/>
   <text x="56" y="185" font-size="15" fill="#1e293b" font-weight="600">預防評估措施與流程</text>
-  <text x="56" y="207" font-size="13" fill="#57534e">訂有預防措施及處理辦法</text>
-  <text x="400" y="197" font-size="13" fill="#57534e">跌倒預防 SOP 文件</text>
-  <text x="600" y="197" font-size="13" fill="#d97706">SOP 未定期更新</text>
+  <text x="56" y="207" font-size="14" fill="#57534e">訂有預防措施及處理辦法</text>
+  <text x="400" y="197" font-size="14" fill="#57534e">跌倒預防 SOP 文件</text>
+  <text x="600" y="197" font-size="14" fill="#d97706">SOP 未定期更新</text>
 
   <!-- 第2行 -->
   <rect x="40" y="235" width="720" height="62" rx="4" fill="#fafaf8"/>
   <rect x="40" y="235" width="4" height="62" fill="#78716c"/>
   <text x="56" y="260" font-size="15" fill="#1e293b" font-weight="600">逐案分析處置</text>
-  <text x="56" y="282" font-size="13" fill="#57534e">每件跌倒案件均有個別分析</text>
-  <text x="400" y="272" font-size="13" fill="#57534e">個案跌倒分析表單</text>
-  <text x="600" y="272" font-size="13" fill="#d97706">多案共用一份分析</text>
+  <text x="56" y="282" font-size="14" fill="#57534e">每件跌倒案件均有個別分析</text>
+  <text x="400" y="272" font-size="14" fill="#57534e">個案跌倒分析表單</text>
+  <text x="600" y="272" font-size="14" fill="#d97706">多案共用一份分析</text>
 
   <!-- 第3行 -->
   <rect x="40" y="310" width="720" height="62" rx="4" fill="#fff"/>
   <rect x="40" y="310" width="4" height="62" fill="#d97706"/>
   <text x="56" y="335" font-size="15" fill="#1e293b" font-weight="600">監測紀錄完整</text>
-  <text x="56" y="357" font-size="13" fill="#57534e">持續追蹤且紀錄不中斷</text>
-  <text x="400" y="347" font-size="13" fill="#57534e">跌倒監測追蹤表</text>
-  <text x="600" y="347" font-size="13" fill="#d97706">紀錄有空白或缺漏</text>
+  <text x="56" y="357" font-size="14" fill="#57534e">持續追蹤且紀錄不中斷</text>
+  <text x="400" y="347" font-size="14" fill="#57534e">跌倒監測追蹤表</text>
+  <text x="600" y="347" font-size="14" fill="#d97706">紀錄有空白或缺漏</text>
 
   <!-- 第4行 -->
   <rect x="40" y="385" width="720" height="62" rx="4" fill="#fafaf8"/>
   <rect x="40" y="385" width="4" height="62" fill="#78716c"/>
   <text x="56" y="410" font-size="15" fill="#1e293b" font-weight="600">定期分析與改善方案</text>
-  <text x="56" y="432" font-size="13" fill="#57534e">至少每半年進行統計分析，含改善方案</text>
-  <text x="400" y="422" font-size="13" fill="#57534e">半年分析報告（含改善SOP）</text>
-  <text x="600" y="422" font-size="13" fill="#d97706">報告無具體改善行動</text>
+  <text x="56" y="432" font-size="14" fill="#57534e">至少每半年進行統計分析，含改善方案</text>
+  <text x="400" y="422" font-size="14" fill="#57534e">半年分析報告（含改善SOP）</text>
+  <text x="600" y="422" font-size="14" fill="#d97706">報告無具體改善行動</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

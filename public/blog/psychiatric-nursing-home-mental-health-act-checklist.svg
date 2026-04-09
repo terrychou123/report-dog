@@ -18,14 +18,14 @@
   <!-- 左欄項目1 確認 -->
   <rect x="40" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="182" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="67" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="95" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：擅離院SOP含法律依據</text>
   <text x="95" y="215" font-size="14" fill="#78716c" >引用新法第52條規定</text>
 
   <!-- 左欄項目2 確認 -->
   <rect x="40" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="55" y="257" width="24" height="24" rx="4" fill="#d97706"/>
-  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="67" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="95" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：強制住院相關流程更新</text>
   <text x="95" y="290" font-size="14" fill="#78716c" >配合7日安置上限修訂</text>
 
@@ -39,14 +39,14 @@
   <!-- 右欄項目1 確認 -->
   <rect x="420" y="165" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="182" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="447" y="199" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="475" y="193" font-size="16" fill="#1e293b"  font-weight="700">確認：住民自主權利紀錄</text>
   <text x="475" y="215" font-size="14" fill="#78716c" >預立醫療決定推動有記錄</text>
 
   <!-- 右欄項目2 確認 -->
   <rect x="420" y="240" width="340" height="64" rx="8" fill="white"/>
   <rect x="435" y="257" width="24" height="24" rx="4" fill="#78716c"/>
-  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">✓</text>
+  <text x="447" y="274" font-size="16" fill="white" text-anchor="middle"  font-weight="700">[v]</text>
   <text x="475" y="268" font-size="16" fill="#1e293b"  font-weight="700">確認：安寧療護推動記錄</text>
   <text x="475" y="290" font-size="14" fill="#78716c" >相關活動有書面紀錄</text>
 

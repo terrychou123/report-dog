@@ -19,8 +19,8 @@
   <text x="180" y="148" font-size="16" fill="#d97706" text-anchor="middle"  font-weight="700">入住第1個月</text>
   <line x1="100" y1="158" x2="260" y2="158" stroke="#dedad3" stroke-width="1"/>
   <text x="180" y="178" font-size="14" fill="#57534e" text-anchor="middle" >72小時評估</text>
-  <text x="180" y="198" font-size="14" fill="#57534e" text-anchor="middle" >→照護計畫</text>
-  <text x="180" y="218" font-size="14" fill="#57534e" text-anchor="middle" >→適應輔導</text>
+  <text x="180" y="198" font-size="14" fill="#57534e" text-anchor="middle" >-照護計畫</text>
+  <text x="180" y="218" font-size="14" fill="#57534e" text-anchor="middle" >-適應輔導</text>
   <text x="180" y="238" font-size="14" fill="#57534e" text-anchor="middle" >（1週內）</text>
   <!-- 連線 -->
   <line x1="180" y1="250" x2="180" y2="260" stroke="#d97706" stroke-width="2" stroke-dasharray="4,2"/>

@@ -13,41 +13,41 @@
   <rect x="30" y="110" width="740" height="62" rx="8" fill="white"/>
   <rect x="30" y="110" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="141" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="146" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C9</text>
+  <text x="66" y="146" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >C9</text>
   <text x="100" y="134" font-size="17" font-weight="bold" fill="#1e293b" >消防安全設備申報與檢修</text>
-  <text x="100" y="156" font-size="13" fill="#57534e" >每年建築公安申報、每半年消防設備檢修申報；備有近5年完整紀錄；建立防火管理制度</text>
+  <text x="100" y="156" font-size="16" fill="#57534e" >每年建築公安申報、每半年消防設備檢修申報；備有近5年完整紀錄；建立防火管理制度</text>
   <rect x="620" y="121" width="136" height="40" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="146" font-size="13" fill="#dc2626" text-anchor="middle" >一級必要</text>
+  <text x="688" y="146" font-size="14" fill="#dc2626" text-anchor="middle" >一級必要</text>
 
   <!-- Row 2: C10 -->
   <rect x="30" y="185" width="740" height="62" rx="8" fill="white"/>
   <rect x="30" y="185" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="216" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="221" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C10</text>
+  <text x="66" y="221" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >C10</text>
   <text x="100" y="209" font-size="17" font-weight="bold" fill="#1e293b" >疏散避難系統及等待救接空間</text>
-  <text x="100" y="231" font-size="13" fill="#57534e" >雙向逃生路徑；防火門暢通；設等待救接空間含排煙設計；空調與火警連動</text>
+  <text x="100" y="231" font-size="16" fill="#57534e" >雙向逃生路徑；防火門暢通；設等待救接空間含排煙設計；空調與火警連動</text>
   <rect x="620" y="196" width="136" height="40" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="221" font-size="13" fill="#dc2626" text-anchor="middle" >一級必要</text>
+  <text x="688" y="221" font-size="14" fill="#dc2626" text-anchor="middle" >一級必要</text>
 
   <!-- Row 3: C11 -->
   <rect x="30" y="260" width="740" height="62" rx="8" fill="white"/>
   <rect x="30" y="260" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="291" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="296" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C11</text>
+  <text x="66" y="296" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >C11</text>
   <text x="100" y="284" font-size="17" font-weight="bold" fill="#1e293b" >緊急災害應變計畫</text>
-  <text x="100" y="306" font-size="13" fill="#57534e" >每年複合型演練＋夜間演練各1次；每月自主檢查用電設備；每半年委外定期檢驗</text>
+  <text x="100" y="306" font-size="16" fill="#57534e" >每年複合型演練＋夜間演練各1次；每月自主檢查用電設備；每半年委外定期檢驗</text>
   <rect x="620" y="271" width="136" height="40" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="296" font-size="13" fill="#dc2626" text-anchor="middle" >一級必要</text>
+  <text x="688" y="296" font-size="14" fill="#dc2626" text-anchor="middle" >一級必要</text>
 
   <!-- Row 4: C12 -->
   <rect x="30" y="335" width="740" height="62" rx="8" fill="white"/>
   <rect x="30" y="335" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="366" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="371" font-size="13" font-weight="bold" fill="white" text-anchor="middle" >C12</text>
+  <text x="66" y="371" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >C12</text>
   <text x="100" y="359" font-size="17" font-weight="bold" fill="#1e293b" >疏散策略及照顧人力應變能力</text>
-  <text x="100" y="381" font-size="13" fill="#57534e" >各樓層A3以上逃生圖；含外籍看護工在內的各類人員參與防災訓練；有訓練紀錄</text>
+  <text x="100" y="381" font-size="16" fill="#57534e" >各樓層A3以上逃生圖；含外籍看護工在內的各類人員參與防災訓練；有訓練紀錄</text>
   <rect x="620" y="346" width="136" height="40" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="371" font-size="13" fill="#dc2626" text-anchor="middle" >一級必要</text>
+  <text x="688" y="371" font-size="14" fill="#dc2626" text-anchor="middle" >一級必要</text>
 
   <!-- 底部說明 -->
   <text x="30" y="440" font-size="14" fill="#78716c" >四項全部一級必要，建議分配專責人員各負責一項，避免疏漏</text>

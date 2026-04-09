@@ -4,7 +4,7 @@
 
   <!-- 標題區 -->
   <text x="400" y="45" font-size="22" font-weight="700" fill="#1e293b" text-anchor="middle" >B13–B19 七大品質監測指標總覽</text>
-  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" >每項指標須有流程辦法 → 逐案分析 → 監測紀錄 → 每季檢討改善</text>
+  <text x="400" y="70" font-size="15" fill="#57534e" text-anchor="middle" >每項指標須有流程辦法 - 逐案分析 - 監測紀錄 - 每季檢討改善</text>
 
   <!-- N=4 版型 -->
 
@@ -12,7 +12,7 @@
   <rect x="50" y="135" width="700" height="62" rx="8" fill="white"/>
   <rect x="50" y="135" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="74" cy="166" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="74" y="171" font-size="12" fill="white" text-anchor="middle"  font-weight="700">B13</text>
+  <text x="74" y="171" font-size="14" fill="white" text-anchor="middle"  font-weight="700">B13</text>
   <text x="108" y="158" font-size="20" font-weight="700" fill="#1e293b" >B13 跌倒 + B14 壓力性損傷</text>
   <text x="108" y="182" font-size="16" fill="#57534e" >訂定預防評估措施與處理流程，逐案分析，每季統計分析並提出改善方案</text>
   <rect x="620" y="143" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
@@ -23,7 +23,7 @@
   <rect x="50" y="210" width="700" height="62" rx="8" fill="white"/>
   <rect x="50" y="210" width="6" height="62" rx="3" fill="#16a34a"/>
   <circle cx="74" cy="241" r="16" fill="#16a34a"/>
-  <text x="74" y="246" font-size="12" fill="white" text-anchor="middle"  font-weight="700">B15</text>
+  <text x="74" y="246" font-size="14" fill="white" text-anchor="middle"  font-weight="700">B15</text>
   <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" >B15 疼痛偵測 + B16 約束管理</text>
   <text x="108" y="257" font-size="16" fill="#57534e" >疼痛含時間/位置/嚴重度評估；約束前須有醫師診斷、家屬同意書（3 個月有效）</text>
   <rect x="620" y="218" width="136" height="46" rx="8" fill="#dcfce7" opacity="0.12"/>
@@ -34,7 +34,7 @@
   <rect x="50" y="285" width="700" height="62" rx="8" fill="white"/>
   <rect x="50" y="285" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="74" cy="316" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="74" y="321" font-size="12" fill="white" text-anchor="middle"  font-weight="700">B17</text>
+  <text x="74" y="321" font-size="14" fill="white" text-anchor="middle"  font-weight="700">B17</text>
   <text x="108" y="308" font-size="20" font-weight="700" fill="#1e293b" >B17 感染監測 + B18 非計畫性住院</text>
   <text x="108" y="332" font-size="16" fill="#57534e" >感染含疥瘡、呼吸道、腸道等；非計畫住院逐案分析，每季追蹤改善</text>
   <rect x="620" y="293" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>
@@ -45,7 +45,7 @@
   <rect x="50" y="360" width="700" height="62" rx="8" fill="white"/>
   <rect x="50" y="360" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="74" cy="391" r="16" fill="#57534e" opacity="0.15"/>
-  <text x="74" y="396" font-size="12" fill="white" text-anchor="middle"  font-weight="700">B19</text>
+  <text x="74" y="396" font-size="14" fill="white" text-anchor="middle"  font-weight="700">B19</text>
   <text x="108" y="383" font-size="20" font-weight="700" fill="#1e293b" >B19 非計畫性體重改變監測</text>
   <text x="108" y="407" font-size="16" fill="#57534e" >30 天內體重改變 ±5% 視為異常，每月量測 1 次，異常逐案分析每季改善</text>
   <rect x="620" y="368" width="136" height="46" rx="8" fill="#f5f5f4" opacity="0.12"/>

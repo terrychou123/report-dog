@@ -10,71 +10,71 @@
   <rect x="28" y="58" width="360" height="48" rx="0" fill="#0ea5e9" opacity="0.12"/>
   <rect x="28" y="58" width="360" height="48" rx="12" fill="none" stroke="none"/>
   <rect x="28" y="82" width="360" height="24" fill="#0ea5e9" opacity="0.12"/>
-  <text x="208" y="74" font-size="20" fill="#0ea5e9" text-anchor="middle" font-weight="700">日間型（5 個 PFM 項目）</text>
-  <text x="208" y="92" font-size="14" fill="#57534e" text-anchor="middle">學員直接受訪</text>
+  <text x="208" y="71" font-size="20" fill="#0ea5e9" text-anchor="middle" font-weight="700">日間型（5 個 PFM 項目）</text>
+  <text x="208" y="99" font-size="14" fill="#57534e" text-anchor="middle">學員直接受訪</text>
   <!-- 日間型 PFM 1 -->
   <rect x="36" y="112" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="36" y="112" width="4" height="46" rx="2" fill="#d97706"/>
   <text x="50" y="127" font-size="15" fill="#1e293b" font-weight="700">2.8 藥物自我管理</text>
-  <text x="50" y="144" font-size="13" fill="#57534e">「你在吃什麼藥？有什麼作用？」</text>
+  <text x="50" y="144" font-size="14" fill="#57534e">「你在吃什麼藥？有什麼作用？」</text>
   <!-- 日間型 PFM 2 -->
   <rect x="36" y="164" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="36" y="164" width="4" height="46" rx="2" fill="#78716c"/>
   <text x="50" y="179" font-size="15" fill="#1e293b" font-weight="700">2.12 社區融合</text>
-  <text x="50" y="196" font-size="13" fill="#57534e">「上個月你去社區做了什麼？」</text>
+  <text x="50" y="196" font-size="14" fill="#57534e">「上個月你去社區做了什麼？」</text>
   <!-- 日間型 PFM 3 -->
   <rect x="36" y="216" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="36" y="216" width="4" height="46" rx="2" fill="#57534e"/>
   <text x="50" y="231" font-size="15" fill="#1e293b" font-weight="700">3.2 收案標準（含了解收案目的）</text>
-  <text x="50" y="248" font-size="13" fill="#57534e">「你是怎麼來到這裡的？」</text>
+  <text x="50" y="248" font-size="14" fill="#57534e">「你是怎麼來到這裡的？」</text>
   <!-- 日間型 PFM 4 -->
   <rect x="36" y="268" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="36" y="268" width="4" height="46" rx="2" fill="#a8a29e"/>
   <text x="50" y="283" font-size="15" fill="#1e293b" font-weight="700">3.5 復健基金管理</text>
-  <text x="50" y="300" font-size="13" fill="#57534e">「你知道工作獎勵金怎麼計算嗎？」</text>
+  <text x="50" y="300" font-size="14" fill="#57534e">「你知道工作獎勵金怎麼計算嗎？」</text>
   <!-- 日間型 PFM 5 -->
   <rect x="36" y="320" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="36" y="320" width="4" height="46" rx="2" fill="#16a34a"/>
   <text x="50" y="335" font-size="15" fill="#1e293b" font-weight="700">3.6 學員權益維護</text>
-  <text x="50" y="352" font-size="13" fill="#57534e">「如果覺得不公平，你會怎麼做？」</text>
+  <text x="50" y="352" font-size="14" fill="#57534e">「如果覺得不公平，你會怎麼做？」</text>
   <!-- 統計 -->
   <rect x="36" y="386" width="344" height="66" rx="8" fill="#e0f2fe"/>
   <text x="208" y="408" font-size="18" fill="#0ea5e9" text-anchor="middle" font-weight="700">共 5 個 PFM 項目</text>
-  <text x="208" y="432" font-size="14" fill="#57534e" text-anchor="middle">任一項無法訪談 → 評為未符合 C 等級</text>
+  <text x="208" y="432" font-size="14" fill="#57534e" text-anchor="middle">任一項無法訪談 - 評為未符合 C 等級</text>
 
   <!-- 右側：住宿型 -->
   <rect x="412" y="58" width="360" height="410" rx="12" fill="white"/>
   <rect x="412" y="58" width="360" height="48" rx="0" fill="#7c3aed" opacity="0.12"/>
   <rect x="412" y="82" width="360" height="24" fill="#7c3aed" opacity="0.12"/>
-  <text x="592" y="74" font-size="20" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型（7 個 PFM 項目）</text>
-  <text x="592" y="92" font-size="14" fill="#57534e" text-anchor="middle">住民直接受訪</text>
+  <text x="592" y="71" font-size="20" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型（7 個 PFM 項目）</text>
+  <text x="592" y="99" font-size="14" fill="#57534e" text-anchor="middle">住民直接受訪</text>
   <!-- 住宿型 PFM 1-5（同日間型） -->
   <rect x="420" y="112" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="420" y="112" width="4" height="46" rx="2" fill="#d97706"/>
   <text x="434" y="127" font-size="15" fill="#1e293b" font-weight="700">2.8 藥物自我管理（同日間型）</text>
-  <text x="434" y="144" font-size="13" fill="#57534e">達標比率：60% 以上住民能回答</text>
+  <text x="434" y="144" font-size="14" fill="#57534e">達標比率：60% 以上住民能回答</text>
   <rect x="420" y="164" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="420" y="164" width="4" height="46" rx="2" fill="#78716c"/>
   <text x="434" y="179" font-size="15" fill="#1e293b" font-weight="700">2.12 社區融合（同日間型）</text>
-  <text x="434" y="196" font-size="13" fill="#57534e">需有真實社區外出紀錄佐證</text>
+  <text x="434" y="196" font-size="14" fill="#57534e">需有真實社區外出紀錄佐證</text>
   <rect x="420" y="216" width="344" height="46" rx="8" fill="#f0efe8"/>
   <rect x="420" y="216" width="4" height="46" rx="2" fill="#57534e"/>
   <text x="434" y="231" font-size="15" fill="#1e293b" font-weight="700">3.2、可3.5、3.6（同日間型）</text>
-  <text x="434" y="248" font-size="13" fill="#57534e">收案標準、復健基金、住民權益</text>
+  <text x="434" y="248" font-size="14" fill="#57534e">收案標準、復健基金、住民權益</text>
   <!-- 住宿型特有 3.7 -->
   <rect x="420" y="268" width="344" height="46" rx="8" fill="#f5f0ff"/>
   <rect x="420" y="268" width="4" height="46" rx="2" fill="#7c3aed"/>
-  <text x="434" y="283" font-size="15" fill="#1e293b" font-weight="700">3.7 財物自主管理 ← 住宿型特有</text>
-  <text x="434" y="300" font-size="13" fill="#57534e">「你的錢放在哪？需要用時可以自取嗎？」</text>
+  <text x="434" y="283" font-size="15" fill="#1e293b" font-weight="700">3.7 財物自主管理 - 住宿型特有</text>
+  <text x="434" y="300" font-size="14" fill="#57534e">「你的錢放在哪？需要用時可以自取嗎？」</text>
   <!-- 住宿型重點 重3.11 -->
   <rect x="420" y="320" width="344" height="46" rx="8" fill="#fef2f2"/>
   <rect x="420" y="320" width="4" height="46" rx="2" fill="#dc2626"/>
-  <text x="434" y="334" font-size="15" fill="#dc2626" font-weight="700">重3.11 出入自由 ← 唯一重點項目</text>
-  <text x="434" y="353" font-size="13" fill="#dc2626">「你想出去，可以自由外出嗎？」</text>
+  <text x="434" y="334" font-size="15" fill="#dc2626" font-weight="700">重3.11 出入自由 - 唯一重點項目</text>
+  <text x="434" y="353" font-size="14" fill="#dc2626">「你想出去，可以自由外出嗎？」</text>
   <!-- 統計 -->
   <rect x="420" y="386" width="344" height="66" rx="8" fill="#faf5ff"/>
   <text x="592" y="410" font-size="18" fill="#7c3aed" text-anchor="middle" font-weight="700">共 7 個 PFM 項目</text>
-  <text x="592" y="434" font-size="14" fill="#dc2626" text-anchor="middle">重3.11 未達C → 整場評鑑不合格</text>
+  <text x="592" y="434" font-size="14" fill="#dc2626" text-anchor="middle">重3.11 未達C - 整場評鑑不合格</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

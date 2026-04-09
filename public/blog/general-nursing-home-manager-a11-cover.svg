@@ -18,25 +18,25 @@
   <text x="200" y="465" font-size="24" fill="#1e40af" font-weight="bold" text-anchor="middle">每月查核</text>
   <text x="200" y="488" font-size="20" fill="#1e3a5f" text-anchor="middle">至少1次到機構</text>
   <text x="200" y="508" font-size="20" fill="#1e3a5f" text-anchor="middle">留書面紀錄</text>
-  <text x="200" y="528" font-size="20" fill="#3b82f6" text-anchor="middle">✓ 書面記錄</text>
+  <text x="200" y="528" font-size="20" fill="#3b82f6" text-anchor="middle">[v] 書面記錄</text>
 
   <rect x="320" y="430" width="200" height="110" fill="#dcfce7" rx="10" stroke="#16a34a" stroke-width="2"/>
   <text x="420" y="465" font-size="24" fill="#15803d" font-weight="bold" text-anchor="middle">護理執照</text>
   <text x="420" y="488" font-size="20" fill="#166534" text-anchor="middle">有效執照執業</text>
   <text x="420" y="508" font-size="20" fill="#166534" text-anchor="middle">執業機構相符</text>
-  <text x="420" y="528" font-size="20" fill="#16a34a" text-anchor="middle">✓ 資料查核</text>
+  <text x="420" y="528" font-size="20" fill="#16a34a" text-anchor="middle">[v] 資料查核</text>
 
   <rect x="540" y="430" width="200" height="110" fill="#fef3c7" rx="10" stroke="#d97706" stroke-width="2"/>
-  <text x="640" y="465" font-size="24" fill="#92400e" font-weight="bold" text-anchor="middle">照護比例</text>
-  <text x="640" y="488" font-size="20" fill="#92400e" text-anchor="middle">日班 ≤ 9人</text>
-  <text x="640" y="508" font-size="20" fill="#92400e" text-anchor="middle">夜班 ≤ 15人</text>
-  <text x="640" y="528" font-size="20" fill="#d97706" text-anchor="middle">✓ 排班記錄</text>
+  <text x="640" y="454" font-size="24" fill="#92400e" font-weight="bold" text-anchor="middle">照護比例</text>
+  <text x="640" y="488" font-size="20" fill="#92400e" text-anchor="middle">日班 <= 9人</text>
+  <text x="640" y="508" font-size="20" fill="#92400e" text-anchor="middle">夜班 <= 15人</text>
+  <text x="640" y="517" font-size="20" fill="#d97706" text-anchor="middle">[v] 排班記錄</text>
 
   <rect x="760" y="430" width="200" height="110" fill="#f3e8ff" rx="10" stroke="#7c3aed" stroke-width="2"/>
   <text x="860" y="465" font-size="24" fill="#6d28d9" font-weight="bold" text-anchor="middle">在職訓練</text>
-  <text x="860" y="488" font-size="20" fill="#6d28d9" text-anchor="middle">每年≥ 16小時</text>
+  <text x="860" y="488" font-size="20" fill="#6d28d9" text-anchor="middle">每年>= 16小時</text>
   <text x="860" y="508" font-size="20" fill="#6d28d9" text-anchor="middle">計畫並執行</text>
-  <text x="860" y="528" font-size="20" fill="#7c3aed" text-anchor="middle">✓ 訓練計畫</text>
+  <text x="860" y="528" font-size="20" fill="#7c3aed" text-anchor="middle">[v] 訓練計畫</text>
 
   <!-- 右側視覺裝飾 -->
   <circle cx="1020" cy="220" r="130" fill="#dbeafe"/>

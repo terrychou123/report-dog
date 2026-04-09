@@ -46,7 +46,7 @@
   <!-- 階梯4：優等 -->
   <rect x="590" y="120" width="165" height="300" fill="#fbbf24" rx="8" stroke="#b45309" stroke-width="3"/>
   <!-- 星星 -->
-  <text x="672" y="158" font-size="28" fill="#b45309" text-anchor="middle">★</text>
+  <text x="672" y="158" font-size="28" fill="#b45309" text-anchor="middle">*</text>
   <text x="672" y="190" font-size="22" fill="#78350f" font-weight="bold" text-anchor="middle">優等</text>
   <text x="672" y="218" font-size="14" fill="#78350f" text-anchor="middle">全部項目達成</text>
   <text x="672" y="238" font-size="14" fill="#78350f" text-anchor="middle">無任何缺失</text>

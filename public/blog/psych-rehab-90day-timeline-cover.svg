@@ -7,7 +7,7 @@
   <text x="1010" y="230" text-anchor="middle" font-size="190" fill="#d97706" opacity="0.85" font-weight="900">90</text>
   <text x="1010" y="286" text-anchor="middle" font-size="28" fill="#57534e">天備評時間軸</text>
   <line x1="880" y1="314" x2="1140" y2="314" stroke="#dedad3" stroke-width="1"/>
-  <text x="1010" y="352" text-anchor="middle" font-size="20" fill="#57534e">盤點 → 整備 → 演練</text>
+  <text x="1010" y="352" text-anchor="middle" font-size="20" fill="#57534e">盤點 - 整備 - 演練</text>
   <text x="1010" y="384" text-anchor="middle" font-size="20" fill="#57534e">三階段完整攻略</text>
   <text x="1010" y="440" text-anchor="middle" font-size="18" fill="#78716c">日間型 36 條</text>
   <text x="1010" y="468" text-anchor="middle" font-size="18" fill="#78716c">住宿型 40 條</text>
