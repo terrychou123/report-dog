@@ -28,8 +28,8 @@
 
   <rect x="540" y="430" width="200" height="110" fill="#fef3c7" rx="10" stroke="#d97706" stroke-width="2"/>
   <text x="640" y="462" font-size="24" fill="#92400e" font-weight="bold" text-anchor="middle">照護比例</text>
-  <text x="640" y="488" font-size="20" fill="#92400e" text-anchor="middle">日班 <= 9人</text>
-  <text x="640" y="508" font-size="20" fill="#92400e" text-anchor="middle">夜班 <= 15人</text>
+  <text x="640" y="488" font-size="20" fill="#92400e" text-anchor="middle">日班 ≤ 9人</text>
+  <text x="640" y="508" font-size="20" fill="#92400e" text-anchor="middle">夜班 ≤ 15人</text>
   <text x="640" y="525" font-size="20" fill="#d97706" text-anchor="middle">[v] 排班記錄</text>
 
   <rect x="760" y="430" width="200" height="110" fill="#f3e8ff" rx="10" stroke="#7c3aed" stroke-width="2"/>

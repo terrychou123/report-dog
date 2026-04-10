@@ -21,7 +21,7 @@
   <rect x="54" y="228" width="24" height="24" rx="4" fill="#78716c" opacity="0.15"/>
   <text x="56" y="244"  font-size="18" fill="#78716c">&#10003;</text>
   <text x="90" y="236"  font-size="15" font-weight="700" fill="#1e293b">外籍照服員人數不超過（本國籍照服員 + 護理人員）總數</text>
-  <text x="90" y="254"  font-size="14" fill="#78716c">計算公式：外籍 <= 本國籍照服員 + 護理人員</text>
+  <text x="90" y="254"  font-size="14" fill="#78716c">計算公式：外籍 ≤ 本國籍照服員 + 護理人員</text>
   <rect x="40" y="270" width="720" height="44" rx="6" fill="#f8f7f5"/>
   <rect x="40" y="270" width="4" height="44" rx="2" fill="#78716c"/>
   <rect x="54" y="280" width="24" height="24" rx="4" fill="#78716c" opacity="0.15"/>

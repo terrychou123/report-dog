@@ -37,7 +37,7 @@
   <text x="60" y="424"  font-size="15" font-weight="700" fill="#d97706">失智型日班最嚴格：</text>
   <text x="200" y="424"  font-size="15" fill="#57534e">每 3 位住民就需要 1 位照服員，60 床失智型日班需 20 位照服員</text>
   <text x="60" y="444"  font-size="15" font-weight="700" fill="#78716c">各班均需：</text>
-  <text x="140" y="444"  font-size="15" fill="#57534e">至少 1 位本國籍照服員，外籍照服員 <= 本國籍照服員 + 護理人員總數</text>
+  <text x="140" y="444"  font-size="15" fill="#57534e">至少 1 位本國籍照服員，外籍照服員 ≤ 本國籍照服員 + 護理人員總數</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

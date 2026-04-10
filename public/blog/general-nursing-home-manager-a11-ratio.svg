@@ -11,7 +11,7 @@
   <rect x="30" y="70" width="360" height="48" fill="#1e3a5f" rx="12"/>
   <rect x="30" y="100" width="360" height="18" fill="#1e3a5f"/>
   <text x="210" y="101" font-size="18" fill="white" font-weight="bold" text-anchor="middle">日班（07:00–19:00）</text>
-  <text x="210" y="158" font-size="52" fill="#1e3a5f" font-weight="900" text-anchor="middle"><= 9</text>
+  <text x="210" y="158" font-size="52" fill="#1e3a5f" font-weight="900" text-anchor="middle">≤ 9</text>
   <text x="210" y="190" font-size="16" fill="#44403c" text-anchor="middle">每位護理師照顧住民數</text>
   <text x="210" y="215" font-size="14" fill="#78716c" text-anchor="middle">（含主護護理師、助理護理師）</text>
   <text x="210" y="240" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">住民30人 ÷ 9 = 至少需 4 位護理師</text>
@@ -22,7 +22,7 @@
   <rect x="410" y="70" width="360" height="48" fill="#334155" rx="12"/>
   <rect x="410" y="100" width="360" height="18" fill="#334155"/>
   <text x="590" y="101" font-size="18" fill="white" font-weight="bold" text-anchor="middle">夜班（19:00–07:00）</text>
-  <text x="590" y="158" font-size="52" fill="#334155" font-weight="900" text-anchor="middle"><= 15</text>
+  <text x="590" y="158" font-size="52" fill="#334155" font-weight="900" text-anchor="middle">≤ 15</text>
   <text x="590" y="190" font-size="16" fill="#44403c" text-anchor="middle">每位護理師照顧住民數</text>
   <text x="590" y="215" font-size="14" fill="#78716c" text-anchor="middle">（含主護護理師、助理護理師）</text>
   <text x="590" y="240" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">住民30人 ÷ 15 = 至少需 2 位護理師</text>

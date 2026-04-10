@@ -28,7 +28,7 @@
   <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">外籍看護工不超全數照服員 1/2</text>
   <text x="118" y="223"  font-size="16" fill="#57534e">範例：10人中外籍4人（40%）合規；外籍6人（60%）超標</text>
   <rect x="556" y="183" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="624" y="197"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700"><= 50%</text>
+  <text x="624" y="197"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">≤ 50%</text>
   <text x="624" y="211"  font-size="14" fill="#dc2626" text-anchor="middle">人員異動即算</text>
 
   <!-- Row 3: 隨時有本國籍在班 -->

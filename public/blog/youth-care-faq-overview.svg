@@ -57,7 +57,7 @@
 
   <!-- 提示條 -->
   <rect x="28" y="422" width="744" height="36" rx="8" fill="#e8e6de"/>
-  <text x="400" y="445" font-size="16" fill="#57534e" text-anchor="middle">本文 Q&A 內容依據衛生福利部 112 年度兒童及少年安置機構評鑑指標</text>
+  <text x="400" y="445" font-size="16" fill="#57534e" text-anchor="middle">本文 Q&amp;A 內容依據衛生福利部 112 年度兒童及少年安置機構評鑑指標</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

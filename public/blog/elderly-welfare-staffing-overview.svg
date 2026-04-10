@@ -61,7 +61,7 @@
   <text x="100" y="404"  font-size="20" fill="#1e293b" font-weight="700">照顧服務員</text>
   <text x="100" y="426"  font-size="16" fill="#57534e">外籍不超全數照服員1/2；隨時有本國籍在班；近5年配置檢視</text>
   <rect x="620" y="387" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="401"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">外籍<=1/2</text>
+  <text x="688" y="401"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">外籍≤1/2</text>
   <text x="688" y="415"  font-size="14" fill="#dc2626" text-anchor="middle">高頻超標</text>
 
   <!-- 浮水印 -->

@@ -148,6 +148,15 @@ function isTimeline(svg: string): boolean {
 }
 
 function fixSvg(svg: string): { result: string; fixes: string[] } {
+  // 若 XML 不 well-formed，拒絕自動修正（破損結構不安全改寫）
+  const wfCheck = checkWellFormed(svg);
+  if (wfCheck.some(r => r.level === "FAIL")) {
+    return {
+      result: svg,
+      fixes: ["⚠ 跳過自動修正：SVG XML 不 well-formed，請先手動修復標籤/屬性"],
+    };
+  }
+
   let out = svg;
   const fixes: string[] = [];
   const timeline = isTimeline(out);
@@ -502,6 +511,252 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
   return { result: out, fixes: uniqueFixes };
 }
 
+// ─── XML Well-formedness 檢查 ────────────────────────────────────────────────
+
+/** 取得字串 idx 位置的行號（用於錯誤訊息） */
+function svgLineOf(svg: string, idx: number): number {
+  return svg.slice(0, idx).split("\n").length;
+}
+
+/** 找出標籤 <...> 的結束 > 位置，正確跳過屬性中的引號 */
+function findTagEnd(svg: string, start: number): number {
+  let i = start + 1;
+  while (i < svg.length) {
+    const c = svg[i];
+    if (c === '"' || c === "'") {
+      const q = c; i++;
+      while (i < svg.length && svg[i] !== q) i++;
+      if (i < svg.length) i++;
+    } else if (c === ">") {
+      return i;
+    } else {
+      i++;
+    }
+  }
+  return -1;
+}
+
+/** 屬性字串解析：檢查屬性值必須加引號、不得重複 */
+function checkXmlAttributes(attrStr: string, tag: string, line: number, out: CheckResult[]): void {
+  const s = attrStr.trim();
+  if (!s) return;
+
+  const seen = new Set<string>();
+  let i = 0;
+
+  while (i < s.length) {
+    // 跳過空白
+    while (i < s.length && /\s/.test(s[i])) i++;
+    if (i >= s.length) break;
+
+    // 讀屬性名稱（到 = / > / 空白為止）
+    const nameStart = i;
+    while (i < s.length && !/[\s=/>]/.test(s[i])) i++;
+    const attrName = s.slice(nameStart, i);
+    if (!attrName) { i++; continue; }
+
+    // 跳過空白
+    while (i < s.length && /\s/.test(s[i])) i++;
+
+    if (i >= s.length || s[i] !== "=") {
+      // XML 不允許無值的布林屬性
+      out.push(fail(`<${tag}> 屬性 "${attrName}" 缺少值（XML 要求所有屬性必須有值）（行 ${line}）`));
+      continue;
+    }
+
+    i++; // 跳過 '='
+    while (i < s.length && /\s/.test(s[i])) i++;
+
+    if (i >= s.length) {
+      out.push(fail(`<${tag}> 屬性 "${attrName}" 缺少值（行 ${line}）`));
+      break;
+    }
+
+    const q = s[i];
+    if (q !== '"' && q !== "'") {
+      // 屬性值未加引號
+      out.push(fail(`<${tag}> 屬性 "${attrName}" 的值未加引號（XML 要求用 " 或 ' 包覆）（行 ${line}）`));
+      // 跳到空白或結尾
+      while (i < s.length && !/\s/.test(s[i])) i++;
+    } else {
+      i++; // 跳過開頭引號
+      while (i < s.length && s[i] !== q) i++;
+      if (i >= s.length) {
+        out.push(fail(`<${tag}> 屬性 "${attrName}" 的引號未閉合（行 ${line}）`));
+        break;
+      }
+      i++; // 跳過結尾引號
+    }
+
+    // 重複屬性
+    if (seen.has(attrName)) {
+      out.push(fail(`<${tag}> 重複屬性 "${attrName}"（行 ${line}）`));
+    }
+    seen.add(attrName);
+  }
+}
+
+/** 文字節點：偵測未跳脫的裸 & */
+function checkXmlTextEntities(text: string, line: number, out: CheckResult[]): void {
+  // 合法實體：&amp; &lt; &gt; &quot; &apos; &#NNN; &#xHH;
+  const bareAmp = /&(?!amp;|lt;|gt;|quot;|apos;|#[0-9]+;|#x[0-9A-Fa-f]+;)/g;
+  const m = bareAmp.exec(text);
+  if (m) {
+    const preview = text.slice(m.index, m.index + 20).replace(/\n/g, "\\n");
+    out.push(fail(`文字內容含未跳脫的 "&"，應改為 "&amp;"（行 ${line}）：「${preview}」`));
+  }
+}
+
+/** 主要 XML well-formedness 驗證 */
+function checkWellFormed(svg: string): CheckResult[] {
+  const out: CheckResult[] = [];
+  const stack: { name: string; line: number }[] = [];
+  let pos = 0;
+  let rootSeen = false;
+
+  while (pos < svg.length) {
+    // ── 非 < 開頭：文字節點 ──────────────────────────────────────────────────
+    if (svg[pos] !== "<") {
+      const next = svg.indexOf("<", pos);
+      const end = next >= 0 ? next : svg.length;
+      checkXmlTextEntities(svg.slice(pos, end), svgLineOf(svg, pos), out);
+      pos = end;
+      continue;
+    }
+
+    const ln = svgLineOf(svg, pos);
+
+    // ── XML 宣告 / 處理指令 <?...?> ──────────────────────────────────────────
+    if (svg.startsWith("<?", pos)) {
+      const end = svg.indexOf("?>", pos + 2);
+      if (end < 0) {
+        out.push(fail(`未閉合的 XML 處理指令 <?（行 ${ln}）`));
+        break;
+      }
+      const piContent = svg.slice(pos + 2, end);
+      if (/^xml\b/i.test(piContent.trim()) && svg.slice(0, pos).trim().length > 0) {
+        out.push(fail(`<?xml?> 宣告必須位於檔案最前段（行 ${ln}）`));
+      }
+      pos = end + 2;
+      continue;
+    }
+
+    // ── 註解 <!--...-->(─────────────────────────────────────────────────────
+    if (svg.startsWith("<!--", pos)) {
+      const end = svg.indexOf("-->", pos + 4);
+      if (end < 0) {
+        out.push(fail(`未閉合的 XML 註解 <!--（行 ${ln}）`));
+        break;
+      }
+      const content = svg.slice(pos + 4, end);
+      if (content.includes("--")) {
+        out.push(fail(`XML 註解內容含 "--"，違反 XML 規範（行 ${ln}）`));
+      }
+      pos = end + 3;
+      continue;
+    }
+
+    // ── CDATA <![CDATA[...]]> ─────────────────────────────────────────────────
+    if (svg.startsWith("<![CDATA[", pos)) {
+      const end = svg.indexOf("]]>", pos + 9);
+      if (end < 0) {
+        out.push(fail(`未閉合的 CDATA 區塊（行 ${ln}）`));
+        break;
+      }
+      pos = end + 3;
+      continue;
+    }
+
+    // ── DOCTYPE 或其他 <!...> 宣告（跳過不報錯）────────────────────────────
+    if (svg.startsWith("<!", pos)) {
+      const end = svg.indexOf(">", pos);
+      if (end < 0) {
+        out.push(fail(`未閉合的標記宣告 <!（行 ${ln}）`));
+        break;
+      }
+      pos = end + 1;
+      continue;
+    }
+
+    // ── 結束標籤 </tag> ──────────────────────────────────────────────────────
+    if (svg.startsWith("</", pos)) {
+      const end = svg.indexOf(">", pos);
+      if (end < 0) {
+        out.push(fail(`未閉合的結束標籤（行 ${ln}）`));
+        break;
+      }
+      const inner = svg.slice(pos + 2, end).trim();
+      const nameMatch = inner.match(/^([A-Za-z_:][\w.\-:]*)\s*$/);
+      if (!nameMatch) {
+        out.push(fail(`結束標籤語法無效：</${inner}>（行 ${ln}）`));
+      } else {
+        const name = nameMatch[1];
+        const top = stack.pop();
+        if (!top) {
+          out.push(fail(`</${name}> 沒有對應的開始標籤（行 ${ln}）`));
+        } else if (top.name !== name) {
+          out.push(fail(`</${name}>（行 ${ln}）與 <${top.name}>（行 ${top.line}）不匹配，標籤嵌套錯誤`));
+        }
+      }
+      pos = end + 1;
+      continue;
+    }
+
+    // ── 開始標籤或自閉合標籤 <tag .../> ─────────────────────────────────────
+    {
+      const end = findTagEnd(svg, pos);
+      if (end < 0) {
+        out.push(fail(`未閉合的開始標籤（行 ${ln}）`));
+        break;
+      }
+      const tagFull = svg.slice(pos, end + 1);
+      const selfClose = svg[end - 1] === "/";
+
+      const nameMatch = tagFull.match(/^<([A-Za-z_:][\w.\-:]*)/);
+      if (!nameMatch) {
+        out.push(fail(`無效的標籤語法（行 ${ln}）：${tagFull.slice(0, 40)}`));
+        pos = end + 1;
+        continue;
+      }
+      const name = nameMatch[1];
+
+      // 提取屬性字串（去除 < tagName 前綴與 > 或 /> 後綴）
+      const attrStr = selfClose
+        ? tagFull.slice(nameMatch[0].length, -2)
+        : tagFull.slice(nameMatch[0].length, -1);
+
+      checkXmlAttributes(attrStr, name, ln, out);
+
+      // 根元素必須是 <svg>
+      if (!rootSeen) {
+        if (name !== "svg") {
+          out.push(fail(`根元素應為 <svg>，實際為 <${name}>（行 ${ln}）`));
+        }
+        rootSeen = true;
+      } else if (stack.length === 0 && !selfClose) {
+        // 頂層已有 root，又出現非自閉合頂層元素
+        out.push(fail(`偵測到第二個根元素 <${name}>（行 ${ln}）`));
+      }
+
+      if (!selfClose) {
+        stack.push({ name, line: ln });
+      }
+
+      pos = end + 1;
+    }
+  }
+
+  // 結束時 stack 必須清空（所有開始標籤都要有對應結束標籤）
+  for (const open of stack) {
+    out.push(fail(`未閉合標籤 <${open.name}>（行 ${open.line}）`));
+  }
+
+  if (out.length === 0) {
+    out.push(pass("XML well-formed"));
+  }
+  return out;
+}
+
 // ─── 驗證函式 ────────────────────────────────────────────────────────────────
 
 function validateSvg(filePath: string): { file: string; results: CheckResult[] } {
@@ -514,6 +769,10 @@ function validateSvg(filePath: string): { file: string; results: CheckResult[] }
     results.push(warn("@frozen 標記，跳過驗證"));
     return { file: filePath, results };
   }
+
+  // ── 0.5. XML well-formedness（破損 XML 先攔下） ────────────────────────────
+  results.push(...checkWellFormed(svg));
+  // 不 early return：仍跑後續風格檢查，讓使用者一次看到所有問題
 
   // ── 1. 基本結構 ────────────────────────────────────────────────────────────
 

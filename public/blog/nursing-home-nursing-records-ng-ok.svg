@@ -10,7 +10,7 @@
   <text x="210" y="142" font-size="22" fill="#ffffff" font-weight="700" text-anchor="middle">NG — 委員不認可的寫法</text>
 
   <!-- NG 內容 -->
-  <rect x="40" y="158" width="340" height="185" rx="0" rx="10" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="40" y="158" width="340" height="185" rx="10" fill="#fff5f5" stroke="#ef4444" stroke-width="1.5"/>
   <text x="58" y="182" font-size="14" fill="#374151" font-style="italic">「2024/11/15 09:30</text>
   <text x="58" y="204" font-size="14" fill="#374151" font-style="italic">住民王於走廊跌倒，</text>
   <text x="58" y="226" font-size="14" fill="#374151" font-style="italic">右膝擦傷，無骨折。</text>

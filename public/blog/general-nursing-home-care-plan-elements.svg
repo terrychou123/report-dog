@@ -28,7 +28,7 @@
   <text x="238" y="202" font-size="14" fill="#57534e">• 有時間框架</text>
   <text x="238" y="222" font-size="14" fill="#57534e"> 「3個月內」</text>
   <text x="238" y="242" font-size="14" fill="#57534e">• 有具體數值</text>
-  <text x="238" y="262" font-size="14" fill="#57534e"> 「跌倒次數<=1次」</text>
+  <text x="238" y="262" font-size="14" fill="#57534e"> 「跌倒次數≤1次」</text>
   <text x="238" y="312" font-size="14" fill="#dc2626">[x] 不好示範：</text>
   <text x="238" y="332" font-size="14" fill="#dc2626">「維持安全」（無法評值）</text>
 

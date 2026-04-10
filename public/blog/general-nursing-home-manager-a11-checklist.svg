@@ -35,7 +35,7 @@
   <text x="90" y="159" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">人力配置</text>
   <text x="90" y="176" font-size="14" fill="#44403c" text-anchor="middle">護理人員比</text>
   <text x="355" y="159" font-size="14" fill="#44403c" text-anchor="middle">確認各班次護理人員與住民比符合規定</text>
-  <text x="355" y="176" font-size="14" fill="#78716c" text-anchor="middle">日班<=9人、夜班<=15人</text>
+  <text x="355" y="176" font-size="14" fill="#78716c" text-anchor="middle">日班≤9人、夜班≤15人</text>
   <text x="637" y="168" font-size="14" fill="#44403c" text-anchor="middle">排班表</text>
   <rect x="730" y="152" width="28" height="28" fill="#f9fafb" stroke="#d97706" stroke-width="2" rx="4"/>
   <text x="744" y="171" font-size="16" fill="#d97706" text-anchor="middle">[ ]</text>
