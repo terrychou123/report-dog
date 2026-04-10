@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: card-3 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">自評三輪審查時間建議</text>
   <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">逐步縮小問題範圍，確保評鑑當日零驚嚇</text>
@@ -9,7 +10,7 @@
   <!-- card_y=108, card_bottom=450, arrow_y=279 -->
 
   <!-- Card 0: 評鑑前3個月 (x=129, cx=214) -->
-  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
   <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
   <!-- STEP circle: cy=116+35+86/2+35=116+35+43+35=229 → 使用公式：usable_top=116, gap=35, r=43, cy=116+35+43=194 -->
@@ -31,7 +32,7 @@
   <polygon points="315,279 309,275 309,283" fill="#dedad3"/>
 
   <!-- Card 1: 評鑑前1個月 (x=315, cx=400) -->
-  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
   <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
   <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
@@ -48,7 +49,7 @@
   <polygon points="501,279 495,275 495,283" fill="#dedad3"/>
 
   <!-- Card 2: 評鑑前1週 (x=501, cx=586) -->
-  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
   <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
   <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>

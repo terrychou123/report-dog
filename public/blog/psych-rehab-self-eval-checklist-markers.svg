@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-4 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header (y=50, h=62) -->
   <rect x="0" y="50" width="800" height="62" fill="white"/>
-  <rect x="0" y="50" width="6" height="62" fill="#d97706" rx="2"/>
+  <rect x="0" y="50" width="4" height="62" fill="#d97706" rx="2"/>
   <text x="28" y="93" font-size="36" fill="#1e293b" font-weight="700">檢核表標記符號說明</text>
 
   <!-- Row 1（y=160）PFM #d97706 -->
   <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="160" width="6" height="62" rx="2" fill="#78716c"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
   <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
-  <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700">PFM 以病人為焦點之查證</text>
+  <text x="100" y="183" font-size="22" fill="#1e293b" font-weight="700">PFM 以病人為焦點之查證</text>
   <text x="100" y="207" font-size="16" fill="#57534e">評鑑委員直接訪談學員／住民；無法回答即評為未符合 C 等級</text>
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
   <text x="688" y="186" font-size="15" fill="#d97706" text-anchor="middle">日間型 5 項</text>
   <text x="688" y="206" font-size="15" fill="#d97706" text-anchor="middle">住宿型 7 項</text>
 
-  <!-- Row 2（y=235）重點項目 #dc2626 -->
-  <rect x="28" y="235" width="744" height="62" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
+  <!-- Row 2（y=235）重點項目（特殊警示）#78716c -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
   <circle cx="66" cy="266" r="16" fill="#dc2626"/>
-  <polygon points="66,254 60,274 72,274" fill="none" stroke="#dc2626" stroke-width="2"/>
-  <text x="66" y="271" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="700">!</text>
-  <text x="100" y="258" font-size="20" fill="#1e293b" font-weight="700">重點項目（住宿型 重3.11）</text>
+  <text x="66" y="271" font-size="14" fill="white" text-anchor="middle" font-weight="700">!</text>
+  <text x="100" y="258" font-size="22" fill="#1e293b" font-weight="700">重點項目（住宿型 重3.11）</text>
   <text x="100" y="282" font-size="16" fill="#dc2626">未達 C 級即視為整場評鑑不合格！住宿型獨有，日間型無此限制</text>
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#dc2626" opacity="0.12"/>
   <text x="688" y="261" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型唯一</text>
@@ -31,10 +31,10 @@
 
   <!-- Row 3（y=310）可選 #57534e -->
   <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
   <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
   <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">可</text>
-  <text x="100" y="333" font-size="20" fill="#1e293b" font-weight="700">可選項目（可免評）</text>
+  <text x="100" y="333" font-size="22" fill="#1e293b" font-weight="700">可選項目（可免評）</text>
   <text x="100" y="357" font-size="16" fill="#57534e">新設機構、前次無建議者可申請免評；日間型：1.2、1.9；住宿型：1.2、1.11、3.5</text>
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
   <text x="688" y="336" font-size="15" fill="#57534e" text-anchor="middle">日間 2 項</text>
@@ -42,10 +42,10 @@
 
   <!-- Row 4（y=385）試評 #a8a29e -->
   <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
   <text x="66" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">試</text>
-  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700">試評項目（成績不納入計算）</text>
+  <text x="100" y="408" font-size="22" fill="#1e293b" font-weight="700">試評項目（成績不納入計算）</text>
   <text x="100" y="432" font-size="16" fill="#57534e">2.13 社會參與、2.14 同儕支持（兩種類型共有）；住宿型另有 3.14 訪客管理</text>
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
   <text x="688" y="411" font-size="15" fill="#a8a29e" text-anchor="middle">建議準備</text>

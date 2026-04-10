@@ -1,64 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-4 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">日間型 vs 住宿型 基本差異</text>
   <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">用語、條目、服務核心三大面向對照</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- N=4 列表圖 (H=62, inner_gap=13, outer_gap=50) -->
+  <!-- Row 1 (y=160, S_rectH=46): 用語 -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <!-- Q text_y = 160 + 46/2 + 22*0.35 = 160+23+7.7 = 190.7 ≈ 191 -->
+  <text x="66" y="191" font-size="22" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="182" font-size="18" fill="#1e293b" font-weight="700">服務對象稱謂</text>
+  <text x="100" y="204" font-size="16" fill="#57534e">日間型：學員（Trainee）每天往返機構，不住宿</text>
+  <rect x="440" y="168" width="155" height="38" rx="8" fill="#0284c7" opacity="0.12"/>
+  <text x="518" y="192" font-size="16" fill="#0284c7" text-anchor="middle" font-weight="700">日間型 = 學員</text>
+  <rect x="604" y="168" width="155" height="38" rx="8" fill="#7c3aed" opacity="0.12"/>
+  <text x="682" y="192" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型 = 住民</text>
 
-  <!-- Header -->
-  <rect x="28" y="50" width="744" height="50" rx="0" fill="white"/>
-  <rect x="28" y="50" width="6" height="50" rx="2" fill="#d97706"/>
-  <text x="100" y="83" font-size="26" fill="#1e293b" font-weight="700">兩種類型 核心對照表</text>
+  <!-- Row 2 (y=235, S_rectH=46): 條目數 -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <!-- Q text_y = 235 + 46/2 + 22*0.35 = 235+23+7.7 = 265.7 ≈ 266 -->
+  <text x="66" y="266" font-size="22" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="257" font-size="18" fill="#1e293b" font-weight="700">評鑑條目數量</text>
+  <text x="100" y="279" font-size="16" fill="#57534e">日間型36條（Ch1:10條、Ch2:14條、Ch3:12條）</text>
+  <rect x="440" y="243" width="155" height="38" rx="8" fill="#0284c7" opacity="0.12"/>
+  <text x="518" y="267" font-size="16" fill="#0284c7" text-anchor="middle" font-weight="700">日間型 36條</text>
+  <rect x="604" y="243" width="155" height="38" rx="8" fill="#7c3aed" opacity="0.12"/>
+  <text x="682" y="267" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型 40條</text>
 
-  <!-- Row 1 (y=108): 用語 -->
-  <rect x="28" y="108" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="108" width="6" height="62" rx="2" fill="#78716c"/>
-  <circle cx="66" cy="139" r="16" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="145" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
-  <text x="100" y="130" font-size="18" fill="#1e293b" font-weight="700">服務對象稱謂</text>
-  <text x="100" y="152" font-size="16" fill="#57534e">日間型：學員（Trainee）每天往返機構，不住宿</text>
-  <rect x="440" y="116" width="155" height="38" rx="8" fill="#0284c7" opacity="0.12"/>
-  <text x="518" y="140" font-size="16" fill="#0284c7" text-anchor="middle" font-weight="700">日間型 = 學員</text>
-  <rect x="604" y="116" width="155" height="38" rx="8" fill="#7c3aed" opacity="0.12"/>
-  <text x="682" y="140" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型 = 住民</text>
+  <!-- Row 3 (y=310, S_rectH=46): 重點項目 -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="341" r="16" fill="#dc2626"/>
+  <polygon points="66,331 60,349 72,349" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <!-- Q text_y = 310 + 46/2 + 22*0.35 = 310+23+7.7 = 340.7 ≈ 341 -->
+  <text x="66" y="341" font-size="22" fill="white" text-anchor="middle" font-weight="900">!</text>
+  <text x="100" y="332" font-size="18" fill="#1e293b" font-weight="700">重點項目（住宿型獨有）</text>
+  <text x="100" y="354" font-size="16" fill="#dc2626">日間型無重點項目；住宿型3.11維護住民出入自由未達C即不合格</text>
+  <rect x="440" y="318" width="155" height="38" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="518" y="342" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">日間型 無</text>
+  <rect x="604" y="318" width="155" height="38" rx="8" fill="#dc2626" opacity="0.12"/>
+  <text x="682" y="342" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型 3.11</text>
 
-  <!-- Row 2 (y=183): 條目數 -->
-  <rect x="28" y="183" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="183" width="6" height="62" rx="2" fill="#57534e"/>
-  <circle cx="66" cy="214" r="16" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="220" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
-  <text x="100" y="205" font-size="18" fill="#1e293b" font-weight="700">評鑑條目數量</text>
-  <text x="100" y="227" font-size="16" fill="#57534e">日間型36條（Ch1:10條、Ch2:14條、Ch3:12條）</text>
-  <rect x="440" y="191" width="155" height="38" rx="8" fill="#0284c7" opacity="0.12"/>
-  <text x="518" y="215" font-size="16" fill="#0284c7" text-anchor="middle" font-weight="700">日間型 36條</text>
-  <rect x="604" y="191" width="155" height="38" rx="8" fill="#7c3aed" opacity="0.12"/>
-  <text x="682" y="215" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型 40條</text>
-
-  <!-- Row 3 (y=258): 重點項目 -->
-  <rect x="28" y="258" width="744" height="62" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-  <rect x="28" y="258" width="6" height="62" rx="2" fill="#a8a29e"/>
-  <circle cx="66" cy="289" r="16" fill="#dc2626"/>
-  <polygon points="66,279 60,297 72,297" fill="none" stroke="#dc2626" stroke-width="2"/>
-  <text x="66" y="295" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="900">!</text>
-  <text x="100" y="280" font-size="18" fill="#1e293b" font-weight="700">重點項目（住宿型獨有）</text>
-  <text x="100" y="302" font-size="16" fill="#dc2626">日間型無重點項目；住宿型3.11維護住民出入自由未達C即不合格</text>
-  <rect x="440" y="266" width="155" height="38" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="518" y="290" font-size="16" fill="#57534e" text-anchor="middle" font-weight="700">日間型 無</text>
-  <rect x="604" y="266" width="155" height="38" rx="8" fill="#dc2626" opacity="0.12"/>
-  <text x="682" y="290" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型 3.11</text>
-
-  <!-- Row 4 (y=333): PFM -->
-  <rect x="28" y="333" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="333" width="6" height="62" rx="2" fill="#94a3b8"/>
-  <circle cx="66" cy="364" r="16" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="370" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
-  <text x="100" y="355" font-size="18" fill="#1e293b" font-weight="700">PFM以病人為焦點查證</text>
-  <text x="100" y="377" font-size="16" fill="#57534e">日間型5項（2.8/2.12/3.2/3.5/3.6），住宿型7項（另加3.7/重3.11）</text>
-  <rect x="440" y="341" width="155" height="38" rx="8" fill="#0284c7" opacity="0.12"/>
-  <text x="518" y="365" font-size="16" fill="#0284c7" text-anchor="middle" font-weight="700">日間型 5項</text>
-  <rect x="604" y="341" width="155" height="38" rx="8" fill="#7c3aed" opacity="0.12"/>
-  <text x="682" y="365" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型 7項</text>
+  <!-- Row 4 (y=385, S_rectH=46): PFM -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <!-- Q text_y = 385 + 46/2 + 22*0.35 = 385+23+7.7 = 415.7 ≈ 416 -->
+  <text x="66" y="416" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="407" font-size="18" fill="#1e293b" font-weight="700">PFM以病人為焦點查證</text>
+  <text x="100" y="429" font-size="16" fill="#57534e">日間型5項（2.8/2.12/3.2/3.5/3.6），住宿型7項（另加3.7/重3.11）</text>
+  <rect x="440" y="393" width="155" height="38" rx="8" fill="#0284c7" opacity="0.12"/>
+  <text x="518" y="417" font-size="16" fill="#0284c7" text-anchor="middle" font-weight="700">日間型 5項</text>
+  <rect x="604" y="393" width="155" height="38" rx="8" fill="#7c3aed" opacity="0.12"/>
+  <text x="682" y="417" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型 7項</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

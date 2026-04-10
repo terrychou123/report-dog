@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: cover -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
@@ -7,15 +8,15 @@
   <text x="1010" y="258" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">大常見缺失</text>
 
   <!-- 右側卡片 -->
-  <rect x="840" y="280" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="280" width="320" height="56" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <text x="1000" y="301" font-size="24" fill="#dc2626" text-anchor="middle" font-weight="700">住宿型3.11</text>
   <text x="1000" y="332" font-size="18" fill="#a8a29e" text-anchor="middle">出入自由 = 重點項目</text>
 
-  <rect x="840" y="348" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="348" width="320" height="56" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <text x="1000" y="369" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">PFM訪談</text>
   <text x="1000" y="400" font-size="18" fill="#a8a29e" text-anchor="middle">學員說不出=直接失分</text>
 
-  <rect x="840" y="416" width="320" height="56" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="840" y="416" width="320" height="56" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <text x="1000" y="437" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">結案回歸社區</text>
   <text x="1000" y="468" font-size="18" fill="#a8a29e" text-anchor="middle">4年內需達15%</text>
 

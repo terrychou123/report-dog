@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: custom -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 主標題 -->
@@ -11,7 +12,7 @@
   <rect x="28" y="64" width="744" height="8" rx="4" fill="#16a34a"/>
   <rect x="28" y="68" width="744" height="4" fill="#16a34a"/>
   <!-- 標頭 -->
-  <rect x="28" y="64" width="6" height="190" rx="2" fill="#16a34a"/>
+  <rect x="28" y="64" width="6" height="190" rx="2" fill="#d97706"/>
   <text x="64" y="104" font-size="20" fill="#16a34a" font-weight="700">可以要求</text>
   <text x="64" y="126" font-size="15" fill="#57534e">以下是合規的管理安排，不構成限制出入自由</text>
 

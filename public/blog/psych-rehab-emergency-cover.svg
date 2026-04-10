@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: cover -->
   <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 右側裝飾區塊 -->
@@ -36,5 +37,5 @@
   <rect x="462" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
   <text x="536" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
   <!-- 浮水印 -->
-  <text x="1140" y="610" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

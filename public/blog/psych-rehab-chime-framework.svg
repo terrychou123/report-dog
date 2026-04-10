@@ -1,64 +1,75 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-5 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">CHIME 個人復元五大面向</text>
   <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">精神復健機構評鑑核心精神，體現於 PFM 訪談與文件審查</text>
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
-  <!-- Row 1 C: Connectedness -->
-  <rect x="28" y="110" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="110" width="6" height="60" rx="2" fill="#d97706"/>
-  <circle cx="66" cy="140" r="18" fill="#d97706" opacity="0.15"/>
-  <text x="66" y="146" font-size="17" fill="#d97706" text-anchor="middle" font-weight="900">C</text>
-  <text x="100" y="132" font-size="18" fill="#1e293b" font-weight="700">Connectedness 連結感</text>
-  <text x="100" y="155" font-size="16" fill="#57534e">與家人、朋友、社區建立真實連結 - 對應 2.12 社區融合（PFM）、2.9 社區復健討論</text>
-  <rect x="620" y="118" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="688" y="136" font-size="15" fill="#d97706" text-anchor="middle">社區融合</text>
-  <text x="688" y="154" font-size="15" fill="#d97706" text-anchor="middle">2.12 PFM</text>
+  <!-- Row 1 C: Connectedness (rowY=118, H=60) -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="18" fill="#d97706" opacity="0.15"/>
+  <!-- text_y = 118 + 60/2 + 21*0.35 = 118+30+7.35 = 155.35 ≈ 155 -->
+  <text x="66" y="155" font-size="21" fill="#d97706" text-anchor="middle" font-weight="900">C</text>
+  <text x="100" y="139" font-size="21" fill="#1e293b" font-weight="700">Connectedness 連結感</text>
+  <text x="100" y="163" font-size="16" fill="#57534e">與家人、朋友、社區建立真實連結 - 對應 2.12 社區融合（PFM）、2.9 社區復健討論</text>
+  <!-- S-box: rectH=44, y=118+(60-44)/2=118+8=126 -->
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <!-- S text_y = 126+44/2+15*0.35 = 126+22+5.25=153.25≈153 -->
+  <text x="688" y="143" font-size="15" fill="#d97706" text-anchor="middle">社區融合</text>
+  <text x="688" y="161" font-size="15" fill="#d97706" text-anchor="middle">2.12 PFM</text>
 
-  <!-- Row 2 H: Hope -->
-  <rect x="28" y="178" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="178" width="6" height="60" rx="2" fill="#78716c"/>
-  <circle cx="66" cy="208" r="18" fill="#78716c" opacity="0.15"/>
-  <text x="66" y="214" font-size="17" fill="#78716c" text-anchor="middle" font-weight="900">H</text>
-  <text x="100" y="200" font-size="18" fill="#1e293b" font-weight="700">Hope 希望感</text>
-  <text x="100" y="223" font-size="16" fill="#57534e">相信自己有復元的可能，由當事人參與設定目標 - 對應 2.2 復健目標及計畫（三方參與）</text>
-  <rect x="620" y="186" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="688" y="204" font-size="15" fill="#78716c" text-anchor="middle">復健計畫</text>
-  <text x="688" y="222" font-size="15" fill="#78716c" text-anchor="middle">2.2</text>
+  <!-- Row 2 H: Hope (rowY=191, H=60) -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="18" fill="#78716c" opacity="0.15"/>
+  <!-- text_y = 191+30+7.35=228.35≈228 -->
+  <text x="66" y="228" font-size="21" fill="#78716c" text-anchor="middle" font-weight="900">H</text>
+  <text x="100" y="212" font-size="21" fill="#1e293b" font-weight="700">Hope 希望感</text>
+  <text x="100" y="236" font-size="16" fill="#57534e">相信自己有復元的可能，由當事人參與設定目標 - 對應 2.2 復健目標及計畫（三方參與）</text>
+  <!-- S-box: y=191+8=199 -->
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="216" font-size="15" fill="#78716c" text-anchor="middle">復健計畫</text>
+  <text x="688" y="234" font-size="15" fill="#78716c" text-anchor="middle">2.2</text>
 
-  <!-- Row 3 I: Identity -->
-  <rect x="28" y="246" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="246" width="6" height="60" rx="2" fill="#57534e"/>
-  <circle cx="66" cy="276" r="18" fill="#57534e" opacity="0.15"/>
-  <text x="66" y="282" font-size="17" fill="#57534e" text-anchor="middle" font-weight="900">I</text>
-  <text x="100" y="268" font-size="18" fill="#1e293b" font-weight="700">Identity 身份認同</text>
-  <text x="100" y="291" font-size="16" fill="#57534e">不只是「病人」，有正向的自我認同 - 對應 3.2 收案標準（PFM）、3.6 權益維護</text>
-  <rect x="620" y="254" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="688" y="272" font-size="15" fill="#57534e" text-anchor="middle">收案標準</text>
-  <text x="688" y="290" font-size="15" fill="#57534e" text-anchor="middle">3.2 PFM</text>
+  <!-- Row 3 I: Identity (rowY=264, H=60) -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="18" fill="#57534e" opacity="0.15"/>
+  <!-- text_y = 264+30+7.35=301.35≈301 -->
+  <text x="66" y="301" font-size="21" fill="#57534e" text-anchor="middle" font-weight="900">I</text>
+  <text x="100" y="285" font-size="21" fill="#1e293b" font-weight="700">Identity 身份認同</text>
+  <text x="100" y="309" font-size="16" fill="#57534e">不只是「病人」，有正向的自我認同 - 對應 3.2 收案標準（PFM）、3.6 權益維護</text>
+  <!-- S-box: y=264+8=272 -->
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="289" font-size="15" fill="#57534e" text-anchor="middle">收案標準</text>
+  <text x="688" y="307" font-size="15" fill="#57534e" text-anchor="middle">3.2 PFM</text>
 
-  <!-- Row 4 M: Meaning -->
-  <rect x="28" y="314" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="314" width="6" height="60" rx="2" fill="#a8a29e"/>
-  <circle cx="66" cy="344" r="18" fill="#a8a29e" opacity="0.15"/>
-  <text x="66" y="350" font-size="17" fill="#a8a29e" text-anchor="middle" font-weight="900">M</text>
-  <text x="100" y="336" font-size="18" fill="#1e293b" font-weight="700">Meaning 生命意義</text>
-  <text x="100" y="359" font-size="16" fill="#57534e">參與有意義的活動和角色 - 對應 2.3 多元復健、2.6 工作復健、3.5 復健基金（PFM）</text>
-  <rect x="620" y="322" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="688" y="340" font-size="15" fill="#a8a29e" text-anchor="middle">工作復健</text>
-  <text x="688" y="358" font-size="15" fill="#a8a29e" text-anchor="middle">2.6 / 3.5 PFM</text>
+  <!-- Row 4 M: Meaning (rowY=337, H=60) -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="18" fill="#a8a29e" opacity="0.15"/>
+  <!-- text_y = 337+30+7.35=374.35≈374 -->
+  <text x="66" y="374" font-size="21" fill="#a8a29e" text-anchor="middle" font-weight="900">M</text>
+  <text x="100" y="358" font-size="21" fill="#1e293b" font-weight="700">Meaning 生命意義</text>
+  <text x="100" y="382" font-size="16" fill="#57534e">參與有意義的活動和角色 - 對應 2.3 多元復健、2.6 工作復健、3.5 復健基金（PFM）</text>
+  <!-- S-box: y=337+8=345 -->
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="362" font-size="15" fill="#a8a29e" text-anchor="middle">工作復健</text>
+  <text x="688" y="380" font-size="15" fill="#a8a29e" text-anchor="middle">2.6 / 3.5 PFM</text>
 
-  <!-- Row 5 E: Empowerment -->
-  <rect x="28" y="382" width="744" height="64" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="382" width="6" height="64" rx="2" fill="#94a3b8"/>
-  <circle cx="66" cy="414" r="18" fill="#2563eb"/>
-  <text x="66" y="420" font-size="17" fill="#2563eb" text-anchor="middle" font-weight="900">E</text>
-  <text x="100" y="402" font-size="18" fill="#1e293b" font-weight="700">Empowerment 增能</text>
-  <text x="100" y="424" font-size="16" fill="#57534e">有能力做出選擇並掌控生活 - 2.8 藥物自管（PFM）、3.6 權益（PFM）</text>
-  <text x="100" y="440" font-size="16" fill="#57534e">住宿型：3.7 財物自主（PFM）、重3.11 出入自由（PFM，未達C不合格）</text>
-  <rect x="620" y="390" width="136" height="48" rx="8" fill="#2563eb" opacity="0.12"/>
-  <text x="688" y="410" font-size="14" fill="#2563eb" text-anchor="middle">最多PFM項目</text>
-  <text x="688" y="428" font-size="14" fill="#2563eb" text-anchor="middle">5條對應E</text>
+  <!-- Row 5 E: Empowerment (rowY=410, H=60) -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="18" fill="#94a3b8" opacity="0.15"/>
+  <!-- text_y = 410+30+7.35=447.35≈447 -->
+  <text x="66" y="447" font-size="21" fill="#94a3b8" text-anchor="middle" font-weight="900">E</text>
+  <text x="100" y="431" font-size="21" fill="#1e293b" font-weight="700">Empowerment 增能</text>
+  <text x="100" y="455" font-size="16" fill="#57534e">有能力做出選擇並掌控生活 - 2.8 藥物自管（PFM）、3.6 權益（PFM）、3.7 財物自主、重3.11 出入自由</text>
+  <!-- S-box: y=410+8=418 -->
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="435" font-size="15" fill="#94a3b8" text-anchor="middle">最多PFM項目</text>
+  <text x="688" y="453" font-size="15" fill="#94a3b8" text-anchor="middle">5條對應E</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

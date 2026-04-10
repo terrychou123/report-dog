@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: custom -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="30" fill="#1e293b" font-weight="700">復健計畫目標撰寫：良好 vs 需改善</text>
   <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">個別化、具體、可追蹤的目標才符合復元導向精神</text>

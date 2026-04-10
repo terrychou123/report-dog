@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: custom -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">10大常見缺失 風險分類</text>
   <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">依失分嚴重程度排列，優先補強高風險項目</text>
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄：高風險（紅色） -->
-  <rect x="40" y="108" width="220" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="108" width="220" height="330" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <rect x="40" y="108" width="220" height="40" rx="12" fill="#dc2626"/>
   <rect x="40" y="128" width="220" height="20" fill="#dc2626"/>
   <text x="150" y="134" text-anchor="middle" font-size="18" fill="white" font-weight="700">高風險（可不合格）</text>
@@ -22,7 +23,7 @@
   <text x="60" y="360" font-size="14" fill="#dc2626">- 長期累積指標</text>
 
   <!-- 中欄：中高風險（橘色） -->
-  <rect x="290" y="108" width="220" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="290" y="108" width="220" height="330" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <rect x="290" y="108" width="220" height="40" rx="12" fill="#ea580c"/>
   <rect x="290" y="128" width="220" height="20" fill="#ea580c"/>
   <text x="400" y="134" text-anchor="middle" font-size="18" fill="white" font-weight="700">中高風險（常失分）</text>
@@ -36,7 +37,7 @@
   <text x="310" y="310" font-size="15" fill="#57534e">1.3 CRPD/CEDAW</text>
 
   <!-- 右欄：中風險（琥珀色） -->
-  <rect x="540" y="108" width="220" height="330" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="540" y="108" width="220" height="330" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
   <rect x="540" y="108" width="220" height="40" rx="12" fill="#d97706"/>
   <rect x="540" y="128" width="220" height="20" fill="#d97706"/>
   <text x="650" y="134" text-anchor="middle" font-size="18" fill="white" font-weight="700">中風險（易忽略）</text>

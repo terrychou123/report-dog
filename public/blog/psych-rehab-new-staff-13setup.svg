@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: custom -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 主標題 -->
@@ -9,7 +10,7 @@
   <rect x="28" y="64" width="360" height="400" rx="12" fill="white"/>
   <rect x="28" y="64" width="360" height="8" rx="4" fill="#2563eb"/>
   <rect x="28" y="68" width="360" height="4" fill="#2563eb"/>
-  <rect x="28" y="64" width="6" height="400" rx="2" fill="#2563eb"/>
+  <rect x="28" y="64" width="6" height="400" rx="2" fill="#d97706"/>
   <text x="208" y="104" font-size="22" fill="#2563eb" text-anchor="middle" font-weight="700">文件查核</text>
   <text x="208" y="126" font-size="15" fill="#57534e" text-anchor="middle">評鑑委員翻閱紙本或電子文件</text>
 
