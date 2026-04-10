@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-5 -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
@@ -60,21 +61,21 @@
   <rect x="28" y="316" width="6" height="56" fill="#a8a29e" rx="2"/>
   <text x="114" y="350" font-size="24" fill="#94a3b8" text-anchor="middle" font-weight="900">丙等</text>
   <text x="240" y="350" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">60–69 分</text>
-  <text x="360" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
-  <text x="460" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
-  <text x="568" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
-  <text x="672" y="344" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="360" y="344" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
+  <text x="460" y="344" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
+  <text x="568" y="344" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
+  <text x="672" y="344" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
   <line x1="28" y1="372" x2="772" y2="372" stroke="#e8e6de" stroke-width="1"/>
 
   <!-- 丁等 -->
   <rect x="28" y="372" width="744" height="56" fill="white"/>
-  <rect x="28" y="372" width="6" height="56" fill="#dc2626"/>
-  <text x="114" y="406" font-size="24" fill="#dc2626" text-anchor="middle" font-weight="900">丁等</text>
+  <rect x="28" y="372" width="6" height="56" fill="#94a3b8" rx="2"/>
+  <text x="114" y="406" font-size="24" fill="#94a3b8" text-anchor="middle" font-weight="900">丁等</text>
   <text x="240" y="406" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">60 分以下</text>
-  <text x="360" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
-  <text x="460" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
-  <text x="568" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
-  <text x="672" y="400" font-size="16" fill="#dc2626" text-anchor="middle">辦理複評</text>
+  <text x="360" y="400" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
+  <text x="460" y="400" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
+  <text x="568" y="400" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
+  <text x="672" y="400" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">辦理複評</text>
 
   <!-- 底部說明 -->
   <rect x="28" y="440" width="744" height="26" rx="6" fill="#fef3c7"/>

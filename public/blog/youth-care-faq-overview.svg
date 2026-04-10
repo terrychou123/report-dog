@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: categories -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
@@ -25,24 +26,24 @@
 
   <!-- 左中：文件準備 -->
   <rect x="28" y="212" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="212" width="364" height="10" rx="4" fill="#2563eb"/>
-  <rect x="28" y="217" width="364" height="5" fill="#2563eb"/>
+  <rect x="28" y="212" width="364" height="10" rx="4" fill="#57534e"/>
+  <rect x="28" y="217" width="364" height="5" fill="#57534e"/>
   <text x="210" y="244" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">文件準備（Q7–Q9）</text>
   <text x="48" y="268" font-size="16" fill="#57534e">最重要的文件是哪些？</text>
   <text x="48" y="289" font-size="16" fill="#57534e">委員訪談兒少？準備幾年份文件？</text>
 
   <!-- 右中：等第計分 -->
   <rect x="408" y="212" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="408" y="212" width="364" height="10" rx="4" fill="#16a34a"/>
-  <rect x="408" y="217" width="364" height="5" fill="#16a34a"/>
+  <rect x="408" y="212" width="364" height="10" rx="4" fill="#a8a29e"/>
+  <rect x="408" y="217" width="364" height="5" fill="#a8a29e"/>
   <text x="590" y="244" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">等第與計分（Q10–Q12）</text>
   <text x="428" y="268" font-size="16" fill="#57534e">優等的確切條件？丙丁等怎麼辦？</text>
   <text x="428" y="289" font-size="16" fill="#57534e">加分項目值得準備嗎？</text>
 
   <!-- 左下：機構實務 -->
   <rect x="28" y="316" width="364" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="316" width="364" height="10" rx="4" fill="#9333ea"/>
-  <rect x="28" y="321" width="364" height="5" fill="#9333ea"/>
+  <rect x="28" y="316" width="364" height="10" rx="4" fill="#94a3b8"/>
+  <rect x="28" y="321" width="364" height="5" fill="#94a3b8"/>
   <text x="210" y="348" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">機構實務（Q13–Q15）</text>
   <text x="48" y="372" font-size="16" fill="#57534e">小機構分工策略？</text>
   <text x="48" y="393" font-size="16" fill="#57534e">能臨時補寫個案紀錄嗎？</text>

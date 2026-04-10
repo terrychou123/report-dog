@@ -1,42 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-4 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
-  <rect x="28" y="28" width="744" height="62" rx="10" fill="#16a34a"/>
+  <rect x="28" y="28" width="744" height="62" rx="10" fill="#d97706"/>
   <text x="400" y="53" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">財務查核計分機制（項目 29）</text>
-  <text x="400" y="78" font-size="15" fill="#bbf7d0" text-anchor="middle">共 4 次查核，最終取平均分</text>
+  <text x="400" y="78" font-size="15" fill="#c4bfb8" text-anchor="middle">共 4 次查核，最終取平均分</text>
   <!-- Row 1 -->
   <rect x="28" y="108" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="108" width="6" height="62" rx="3" fill="#16a34a"/>
-  <circle cx="66" cy="121" r="16" fill="#16a34a"/>
-  <text x="66" y="127" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">109</text>
+  <rect x="28" y="108" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="121" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="127" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">109</text>
   <text x="94" y="126" font-size="16" fill="#1e293b" font-weight="600">社家署 109 年財務查核</text>
   <text x="94" y="150" font-size="14" fill="#57534e">衛生福利部社會及家庭署執行，全國統一標準查核</text>
-  <rect x="540" y="116" width="224" height="46" rx="8" fill="#dcfce7"/>
-  <text x="652" y="135" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="153" font-size="14" fill="#166534" text-anchor="middle">函文補件：扣 2 分</text>
+  <rect x="540" y="116" width="224" height="46" rx="8" fill="#fef3c7"/>
+  <text x="652" y="135" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="153" font-size="14" fill="#d97706" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Row 2 -->
   <rect x="28" y="183" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="183" width="6" height="62" rx="3" fill="#2563eb"/>
-  <circle cx="66" cy="196" r="16" fill="#2563eb"/>
-  <text x="66" y="202" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="700">110</text>
+  <rect x="28" y="183" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="196" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="202" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">110</text>
   <text x="94" y="201" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 110 年查核</text>
   <text x="94" y="225" font-size="14" fill="#57534e">直轄市或縣市政府執行，依地方標準查核</text>
-  <rect x="540" y="191" width="224" height="46" rx="8" fill="#dbeafe"/>
-  <text x="652" y="210" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="228" font-size="14" fill="#1d4ed8" text-anchor="middle">函文補件：扣 2 分</text>
+  <rect x="540" y="191" width="224" height="46" rx="8" fill="#f5f5f4"/>
+  <text x="652" y="210" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="228" font-size="14" fill="#78716c" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Row 3 -->
   <rect x="28" y="258" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="258" width="6" height="62" rx="3" fill="#9333ea"/>
-  <circle cx="66" cy="271" r="16" fill="#9333ea"/>
-  <text x="66" y="277" font-size="14" fill="#9333ea" text-anchor="middle" font-weight="700">111</text>
+  <rect x="28" y="258" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="271" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="277" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">111</text>
   <text x="94" y="276" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 111 年查核</text>
   <text x="94" y="300" font-size="14" fill="#57534e">直轄市或縣市政府執行，依地方標準查核</text>
-  <rect x="540" y="266" width="224" height="46" rx="8" fill="#f3e8ff"/>
-  <text x="652" y="285" font-size="14" fill="#7e22ce" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="303" font-size="14" fill="#7e22ce" text-anchor="middle">函文補件：扣 2 分</text>
+  <rect x="540" y="266" width="224" height="46" rx="8" fill="#f5f0eb"/>
+  <text x="652" y="285" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="303" font-size="14" fill="#57534e" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Row 4 -->
   <rect x="28" y="333" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="333" width="6" height="62" rx="2" fill="#d97706"/>
+  <rect x="28" y="333" width="6" height="62" rx="2" fill="#a8a29e"/>
   <circle cx="66" cy="346" r="16" fill="#d97706" opacity="0.15"/>
   <text x="66" y="352" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">112</text>
   <text x="94" y="351" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 112 年查核</text>

@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: categories -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
@@ -8,55 +9,55 @@
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄標題 -->
-  <rect x="28" y="108" width="360" height="44" rx="10" fill="#4f46e5" opacity="0.15"/>
-  <text x="208" y="138" font-size="22" fill="#4f46e5" text-anchor="middle" font-weight="700">2 歲以下嬰幼兒</text>
+  <rect x="28" y="108" width="360" height="44" rx="10" fill="#d97706" opacity="0.15"/>
+  <text x="208" y="138" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">2 歲以下嬰幼兒</text>
 
   <!-- 右欄標題 -->
-  <rect x="412" y="108" width="360" height="44" rx="10" fill="#7c3aed" opacity="0.15"/>
-  <text x="592" y="138" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">2 歲以上兒童及少年</text>
+  <rect x="412" y="108" width="360" height="44" rx="10" fill="#78716c" opacity="0.15"/>
+  <text x="592" y="138" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">2 歲以上兒童及少年</text>
 
   <!-- 中間分隔線 -->
   <line x1="400" y1="108" x2="400" y2="440" stroke="#dedad3" stroke-width="1" stroke-dasharray="6,4"/>
 
   <!-- 左欄重點 -->
   <rect x="28" y="162" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="162" width="6" height="48" rx="2" fill="#4f46e5"/>
+  <rect x="28" y="162" width="6" height="48" rx="2" fill="#d97706"/>
   <text x="48" y="182" font-size="17" fill="#1e293b" font-weight="700">依附關係建立</text>
   <text x="48" y="201" font-size="15" fill="#57534e">情緒發展與良好依附環境</text>
 
   <rect x="28" y="220" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="220" width="6" height="48" rx="2" fill="#4f46e5"/>
+  <rect x="28" y="220" width="6" height="48" rx="2" fill="#d97706"/>
   <text x="48" y="240" font-size="17" fill="#1e293b" font-weight="700">感覺統合刺激</text>
   <text x="48" y="259" font-size="15" fill="#57534e">個別差異與適當刺激</text>
 
   <rect x="28" y="278" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="278" width="6" height="48" rx="2" fill="#4f46e5"/>
+  <rect x="28" y="278" width="6" height="48" rx="2" fill="#d97706"/>
   <text x="48" y="298" font-size="17" fill="#1e293b" font-weight="700">嬰幼兒個案處遇計畫</text>
   <text x="48" y="317" font-size="15" fill="#57534e">處遇計畫、嬰兒生活紀錄</text>
 
   <rect x="28" y="336" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="336" width="6" height="48" rx="2" fill="#4f46e5"/>
+  <rect x="28" y="336" width="6" height="48" rx="2" fill="#d97706"/>
   <text x="48" y="356" font-size="17" fill="#1e293b" font-weight="700">與原生家庭重聚</text>
   <text x="48" y="375" font-size="15" fill="#57534e">重聚準備、離院轉銜追蹤</text>
 
   <!-- 右欄重點 -->
   <rect x="412" y="162" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="412" y="162" width="6" height="48" rx="2" fill="#7c3aed"/>
+  <rect x="412" y="162" width="6" height="48" rx="2" fill="#78716c"/>
   <text x="432" y="182" font-size="17" fill="#1e293b" font-weight="700">人身安全與個別化教養</text>
   <text x="432" y="201" font-size="15" fill="#57534e">管理規範、隱私權、生活自主</text>
 
   <rect x="412" y="220" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="412" y="220" width="6" height="48" rx="2" fill="#7c3aed"/>
+  <rect x="412" y="220" width="6" height="48" rx="2" fill="#78716c"/>
   <text x="432" y="240" font-size="17" fill="#1e293b" font-weight="700">生活自理與財務管理</text>
   <text x="432" y="259" font-size="15" fill="#57534e">零用金管理、自理能力培養</text>
 
   <rect x="412" y="278" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="412" y="278" width="6" height="48" rx="2" fill="#7c3aed"/>
+  <rect x="412" y="278" width="6" height="48" rx="2" fill="#78716c"/>
   <text x="432" y="298" font-size="17" fill="#1e293b" font-weight="700">性侵害/霸凌防治</text>
   <text x="432" y="317" font-size="15" fill="#57534e">訓練紀錄、倡導兒少應有權益</text>
 
   <rect x="412" y="336" width="360" height="48" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="412" y="336" width="6" height="48" rx="2" fill="#7c3aed"/>
+  <rect x="412" y="336" width="6" height="48" rx="2" fill="#78716c"/>
   <text x="432" y="356" font-size="17" fill="#1e293b" font-weight="700">獨立生活與就業準備</text>
   <text x="432" y="375" font-size="15" fill="#57534e">生涯輔導、獨立生活技巧訓練</text>
 

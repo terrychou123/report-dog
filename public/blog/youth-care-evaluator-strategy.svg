@@ -1,8 +1,6 @@
 <svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
-  <defs>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;display=swap');</style>
-  </defs>
-  <!-- Background -->
+  <!-- @template: categories -->
+<!-- Background -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="29" width="744" height="60" rx="12" fill="#1e293b"/>

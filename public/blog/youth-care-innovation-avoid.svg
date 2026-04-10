@@ -1,7 +1,5 @@
 <svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
-  <defs>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;display=swap');</style>
-  </defs>
+  <!-- @template: list-3 -->
   <!-- Background -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
@@ -9,32 +7,32 @@
   <text x="400" y="53"  font-size="14" fill="#94a3b8" text-anchor="middle">項目 30 — 違規扣分預防</text>
   <text x="400" y="75"  font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">三大扣分來源與預防策略</text>
   <!-- Row 1 -->
-  <rect x="28" y="118" width="744" height="60" rx="12" fill="#fef2f2"/>
-  <rect x="28" y="118" width="6" height="60" rx="3" fill="#b91c1c"/>
-  <circle cx="66" cy="148" r="16" fill="#fee2e2"/>
-  <text x="66" y="153"  font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">A</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="#f5f5f4"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#fef3c7"/>
+  <text x="66" y="153"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">A</text>
   <text x="100" y="136"  font-size="15" font-weight="700" fill="#1e293b">兒少法違規</text>
   <text x="100" y="158"  font-size="16" fill="#57534e">不當管教、未依規提報疑似兒少虐待、安置通報未落實</text>
-  <rect x="620" y="129" width="136" height="38" rx="8" fill="#fee2e2" opacity="0.12"/>
-  <text x="688" y="152"  font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">全員法規培訓</text>
+  <rect x="620" y="129" width="136" height="38" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="152"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">全員法規培訓</text>
   <!-- Row 2 -->
-  <rect x="28" y="191" width="744" height="60" rx="12" fill="#fef2f2"/>
-  <rect x="28" y="191" width="6" height="60" rx="3" fill="#dc2626"/>
-  <circle cx="66" cy="221" r="16" fill="#fee2e2"/>
-  <text x="66" y="226"  font-size="14" font-weight="700" fill="#dc2626" text-anchor="middle">B</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="#f5f5f4"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#fef3c7"/>
+  <text x="66" y="226"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">B</text>
   <text x="100" y="213"  font-size="15" font-weight="700" fill="#1e293b">公益勸募條例違規</text>
   <text x="100" y="235"  font-size="16" fill="#57534e">勸募未申請核准、所得未依計畫使用、財務報告未公開</text>
-  <rect x="620" y="202" width="136" height="38" rx="8" fill="#fee2e2" opacity="0.12"/>
-  <text x="688" y="225"  font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">財務透明化</text>
+  <rect x="620" y="202" width="136" height="38" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="225"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">財務透明化</text>
   <!-- Row 3 -->
-  <rect x="28" y="264" width="744" height="60" rx="12" fill="#fef2f2"/>
-  <rect x="28" y="264" width="6" height="60" rx="3" fill="#ef4444"/>
-  <circle cx="66" cy="294" r="16" fill="#fee2e2"/>
-  <text x="66" y="299"  font-size="14" font-weight="700" fill="#ef4444" text-anchor="middle">C</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="#f5f5f4"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#fef3c7"/>
+  <text x="66" y="299"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">C</text>
   <text x="100" y="286"  font-size="15" font-weight="700" fill="#1e293b">個資保護違規</text>
   <text x="100" y="308"  font-size="16" fill="#57534e">個案資料外洩、不當使用個人資料、未依規存管</text>
-  <rect x="620" y="275" width="136" height="38" rx="8" fill="#fee2e2" opacity="0.12"/>
-  <text x="688" y="298"  font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">資料保管 SOP</text>
+  <rect x="620" y="275" width="136" height="38" rx="8" fill="#fef3c7" opacity="0.12"/>
+  <text x="688" y="298"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">資料保管 SOP</text>
   <!-- Prevention actions -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="#fff7ed"/>
   <text x="400" y="360"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">三大預防行動</text>
@@ -44,9 +42,8 @@
   <line x1="560" y1="348" x2="560" y2="390" stroke="#d97706" stroke-width="1" opacity="0.4"/>
   <text x="690" y="382"  font-size="14" fill="#57534e" text-anchor="middle">監控法規修訂動態</text>
   <!-- Summary bar -->
-  <rect x="28" y="412" width="744" height="48" rx="12" fill="#b91c1c"/>
+  <rect x="28" y="412" width="744" height="48" rx="12" fill="#d97706"/>
   <text x="400" y="441"  font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">最高扣 10 分，任何加分都抵不過連續違規，防守第一優先</text>
-  <!-- Watermark -->
-  <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

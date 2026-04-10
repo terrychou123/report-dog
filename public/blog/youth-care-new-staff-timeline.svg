@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: timeline -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Title -->
   <text x="400" y="52" font-size="22" fill="#1e293b" text-anchor="middle" font-weight="700">新進生輔員三個月評鑑準備時程</text>
@@ -33,8 +34,8 @@
   <text x="408" y="316" font-size="14" fill="#57534e" text-anchor="middle">生活輔導紀錄</text>
   <text x="408" y="336" font-size="14" fill="#57534e" text-anchor="middle">了解個案處遇計畫</text>
   <text x="408" y="356" font-size="14" fill="#57534e" text-anchor="middle">參與個案研討會</text>
-  <text x="408" y="390" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="600">重點：在院輔導</text>
-  <text x="408" y="408" font-size="14" fill="#1d4ed8" text-anchor="middle">項目 22 / 18</text>
+  <text x="408" y="390" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">重點：在院輔導</text>
+  <text x="408" y="408" font-size="14" fill="#78716c" text-anchor="middle">項目 22 / 18</text>
   <!-- Card 3: Month 3 -->
   <rect x="501" y="108" width="186" height="342" rx="12" fill="#ffffff"/>
   <!-- STEP circle -->
@@ -46,8 +47,8 @@
   <text x="594" y="316" font-size="14" fill="#57534e" text-anchor="middle">補齊缺漏文件</text>
   <text x="594" y="336" font-size="14" fill="#57534e" text-anchor="middle">了解委員訪視流程</text>
   <text x="594" y="356" font-size="14" fill="#57534e" text-anchor="middle">模擬委員問答</text>
-  <text x="594" y="390" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">重點：全面備齊</text>
-  <text x="594" y="408" font-size="14" fill="#166534" text-anchor="middle">各項目文件</text>
+  <text x="594" y="390" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">重點：全面備齊</text>
+  <text x="594" y="408" font-size="14" fill="#57534e" text-anchor="middle">各項目文件</text>
   <!-- Watermark -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

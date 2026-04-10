@@ -1,10 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
-  <defs>
-    <style>
-      text { font-family: 'Noto Sans TC', sans-serif; }
-    </style>
-  </defs>
-  <!-- 背景 -->
+  <!-- @template: list-4 -->
+<!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題列 N=4 Header y=50 h=62 -->

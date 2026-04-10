@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-3 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">輔導目標達成（項目 16）— 15 分三面向</text>
   <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">每個面向各 5 分，缺一不可</text>

@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-6 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- Header (y=31, h=54) -->
   <rect x="0" y="31" width="800" height="54" fill="white"/>
-  <rect x="0" y="31" width="6" height="54" fill="#16a34a"/>
+  <rect x="0" y="31" width="6" height="54" fill="#d97706" rx="2"/>
   <text x="28" y="68" font-size="30" fill="#1e293b" font-weight="700">資源結合與運用（項目 26）— 六面向各 1 分</text>
 
   <!-- Row 1 (y=95) #d97706 -->

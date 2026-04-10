@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: categories -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
@@ -8,12 +9,12 @@
   <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左欄標題：2歲以下 -->
-  <rect x="40" y="108" width="340" height="44" rx="10" fill="#4f46e5" opacity="0.12"/>
-  <text x="210" y="135" font-size="20" fill="#4f46e5" text-anchor="middle" font-weight="700">2 歲以下兒童（項目 17–20）</text>
+  <rect x="40" y="108" width="340" height="44" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="210" y="135" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700">2 歲以下兒童（項目 17–20）</text>
 
   <!-- 右欄標題：2歲以上 -->
-  <rect x="420" y="108" width="340" height="44" rx="10" fill="#7c3aed" opacity="0.12"/>
-  <text x="590" y="135" font-size="20" fill="#7c3aed" text-anchor="middle" font-weight="700">2 歲以上 18 歲以下（項目 21–24）</text>
+  <rect x="420" y="108" width="340" height="44" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="590" y="135" font-size="20" fill="#78716c" text-anchor="middle" font-weight="700">2 歲以上 18 歲以下（項目 21–24）</text>
 
   <!-- 中間分隔線 -->
   <line x1="400" y1="108" x2="400" y2="440" stroke="#dedad3" stroke-width="1" stroke-dasharray="6,4"/>
@@ -21,14 +22,14 @@
   <!-- 左欄四項 -->
   <!-- 17 入院協助 -->
   <rect x="40" y="162" width="340" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="162" width="6" height="60" rx="2" fill="#4f46e5"/>
+  <rect x="40" y="162" width="6" height="60" rx="2" fill="#d97706"/>
   <text x="60" y="180" font-size="18" fill="#1e293b" font-weight="700">項目 17：入院協助與適應 4 分</text>
   <text x="60" y="200" font-size="15" fill="#57534e">了解嬰幼兒身心、陪伴安撫</text>
   <text x="60" y="216" font-size="15" fill="#57534e">協助正常生活作息適應</text>
 
   <!-- 18 在院生活 -->
   <rect x="40" y="232" width="340" height="88" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="232" width="6" height="88" rx="2" fill="#4f46e5"/>
+  <rect x="40" y="232" width="6" height="88" rx="2" fill="#d97706"/>
   <text x="60" y="250" font-size="18" fill="#1e293b" font-weight="700">項目 18：在院生活輔導 16 分</text>
   <text x="60" y="270" font-size="15" fill="#57534e">人身安全、家庭式生活空間</text>
   <text x="60" y="286" font-size="15" fill="#57534e">飲食營養、健康情況、情緒依附</text>
@@ -36,27 +37,27 @@
 
   <!-- 19 離院協助 -->
   <rect x="40" y="330" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="330" width="6" height="50" rx="2" fill="#4f46e5"/>
+  <rect x="40" y="330" width="6" height="50" rx="2" fill="#d97706"/>
   <text x="60" y="351" font-size="18" fill="#1e293b" font-weight="700">項目 19：離院協助與準備 2 分</text>
   <text x="60" y="371" font-size="15" fill="#57534e">協助嬰幼兒離院準備（轉銜協助）</text>
 
   <!-- 20 直接服務 -->
   <rect x="40" y="390" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="40" y="390" width="6" height="50" rx="2" fill="#4f46e5"/>
+  <rect x="40" y="390" width="6" height="50" rx="2" fill="#d97706"/>
   <text x="60" y="411" font-size="18" fill="#1e293b" font-weight="700">項目 20：直接服務 10 分</text>
   <text x="60" y="431" font-size="15" fill="#57534e">處遇計畫、生活紀錄、重聚處置</text>
 
   <!-- 右欄四項 -->
   <!-- 21 入院協助 -->
   <rect x="420" y="162" width="340" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="420" y="162" width="6" height="60" rx="2" fill="#7c3aed"/>
+  <rect x="420" y="162" width="6" height="60" rx="2" fill="#78716c"/>
   <text x="440" y="180" font-size="18" fill="#1e293b" font-weight="700">項目 21：入院協助與適應 4 分</text>
   <text x="440" y="200" font-size="15" fill="#57534e">了解兒少身心、陪伴安撫</text>
   <text x="440" y="216" font-size="15" fill="#57534e">協助了解機構、適應機構生活</text>
 
   <!-- 22 在院生活 -->
   <rect x="420" y="232" width="340" height="88" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="420" y="232" width="6" height="88" rx="2" fill="#7c3aed"/>
+  <rect x="420" y="232" width="6" height="88" rx="2" fill="#78716c"/>
   <text x="440" y="250" font-size="18" fill="#1e293b" font-weight="700">項目 22：在院生活輔導 15 分</text>
   <text x="440" y="270" font-size="15" fill="#57534e">人身安全、個別差異、管理規範</text>
   <text x="440" y="286" font-size="15" fill="#57534e">隱私權、自理能力、財務管理</text>
@@ -64,13 +65,13 @@
 
   <!-- 23 離院協助 -->
   <rect x="420" y="330" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="420" y="330" width="6" height="50" rx="2" fill="#7c3aed"/>
+  <rect x="420" y="330" width="6" height="50" rx="2" fill="#78716c"/>
   <text x="440" y="351" font-size="18" fill="#1e293b" font-weight="700">項目 23：離院協助與準備 4 分</text>
   <text x="440" y="371" font-size="15" fill="#57534e">離院準備 2分＋獨立生活技巧訓練 2分</text>
 
   <!-- 24 直接服務 -->
   <rect x="420" y="390" width="340" height="50" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="420" y="390" width="6" height="50" rx="2" fill="#7c3aed"/>
+  <rect x="420" y="390" width="6" height="50" rx="2" fill="#78716c"/>
   <text x="440" y="411" font-size="18" fill="#1e293b" font-weight="700">項目 24：直接服務 9 分</text>
   <text x="440" y="431" font-size="15" fill="#57534e">處遇計畫、心理諮商、就學輔導</text>
 

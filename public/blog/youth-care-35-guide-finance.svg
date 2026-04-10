@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: categories -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
@@ -10,30 +11,30 @@
   <!-- 主說明區 -->
   <!-- 左側：4次查核說明 -->
   <rect x="28" y="108" width="360" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <rect x="28" y="108" width="360" height="10" rx="4" fill="#16a34a"/>
-  <rect x="28" y="112" width="360" height="6" fill="#16a34a"/>
+  <rect x="28" y="108" width="360" height="10" rx="4" fill="#78716c"/>
+  <rect x="28" y="112" width="360" height="6" fill="#78716c"/>
 
   <text x="208" y="143" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">4 次財務查核</text>
   <line x1="48" y1="155" x2="368" y2="155" stroke="#e8e6de" stroke-width="1"/>
 
   <!-- 查核1 -->
-  <rect x="48" y="165" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="186" font-size="17" fill="#16a34a" font-weight="700">1 衛福部社家署 109 年</text>
+  <rect x="48" y="165" width="320" height="50" rx="8" fill="#f5f5f4"/>
+  <text x="68" y="186" font-size="17" fill="#78716c" font-weight="700">1 衛福部社家署 109 年</text>
   <text x="68" y="206" font-size="15" fill="#57534e">全國性財務查核</text>
 
   <!-- 查核2 -->
-  <rect x="48" y="225" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="246" font-size="17" fill="#16a34a" font-weight="700">2 地方主管機關 110 年</text>
+  <rect x="48" y="225" width="320" height="50" rx="8" fill="#f5f5f4"/>
+  <text x="68" y="246" font-size="17" fill="#78716c" font-weight="700">2 地方主管機關 110 年</text>
   <text x="68" y="266" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 查核3 -->
-  <rect x="48" y="285" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="306" font-size="17" fill="#16a34a" font-weight="700">3 地方主管機關 111 年</text>
+  <rect x="48" y="285" width="320" height="50" rx="8" fill="#f5f5f4"/>
+  <text x="68" y="306" font-size="17" fill="#78716c" font-weight="700">3 地方主管機關 111 年</text>
   <text x="68" y="326" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 查核4 -->
-  <rect x="48" y="345" width="320" height="50" rx="8" fill="#f0fdf4"/>
-  <text x="68" y="366" font-size="17" fill="#16a34a" font-weight="700">4 地方主管機關 112 年</text>
+  <rect x="48" y="345" width="320" height="50" rx="8" fill="#f5f5f4"/>
+  <text x="68" y="366" font-size="17" fill="#78716c" font-weight="700">4 地方主管機關 112 年</text>
   <text x="68" y="386" font-size="15" fill="#57534e">年度財務查核</text>
 
   <!-- 右側：計分說明 -->

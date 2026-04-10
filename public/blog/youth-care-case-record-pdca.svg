@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: pdca -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">文書品質 PDCA 持續改善循環</text>
   <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">日常維護文書，讓評鑑只是確認而非衝刺</text>

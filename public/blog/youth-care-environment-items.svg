@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
-  <defs>
-    <style>
-      text { font-family: 'Noto Sans TC', sans-serif; }
-    </style>
-  </defs>
+  <!-- @template: list-5 -->
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
 
@@ -28,8 +24,8 @@
   <text x="66" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle" dominant-baseline="central" y="221">8</text>
   <text x="96" y="214" font-size="17" font-weight="700" fill="#1e293b">機構環境配置（設置標準第21條）</text>
   <text x="96" y="235" font-size="14" fill="#57534e">人均面積、功能空間設置、逃生動線——最嚴格</text>
-  <rect x="660" y="202" width="100" height="38" rx="8" fill="#fee2e2"/>
-  <text x="710" y="225" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">2 分</text>
+  <rect x="660" y="202" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="225" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">2 分</text>
 
   <!-- Row 3 y=264 h=60 -->
   <rect x="28" y="264" width="744" height="60" rx="10" fill="#ffffff"/>
@@ -48,8 +44,8 @@
   <text x="66" font-size="15" font-weight="700" fill="#57534e" text-anchor="middle" dominant-baseline="central" y="367">12</text>
   <text x="96" y="360" font-size="17" font-weight="700" fill="#1e293b">危機事故預防及處理</text>
   <text x="96" y="381" font-size="14" fill="#57534e">分析、改進措施、教育訓練、事故記錄——最複雜</text>
-  <rect x="660" y="348" width="100" height="38" rx="8" fill="#fee2e2"/>
-  <text x="710" y="371" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">2 分</text>
+  <rect x="660" y="348" width="100" height="38" rx="8" fill="#fef3c7"/>
+  <text x="710" y="371" font-size="15" font-weight="700" fill="#d97706" text-anchor="middle">2 分</text>
 
   <!-- Row 5 y=410 h=60 -->
   <rect x="28" y="410" width="744" height="60" rx="10" fill="#ffffff"/>
@@ -62,6 +58,5 @@
   <text x="710" y="444" font-size="15" font-weight="700" fill="#78716c" text-anchor="middle">各 1 分</text>
 
   <!-- 浮水印 -->
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">reportwang.com</text>
-  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

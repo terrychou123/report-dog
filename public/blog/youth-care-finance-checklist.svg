@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-5 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- Header -->
   <rect x="28" y="28" width="744" height="62" rx="10" fill="#d97706"/>
@@ -15,31 +16,31 @@
   <text x="692" y="144" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">核心文件</text>
   <!-- Row 2 -->
   <rect x="28" y="183" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="183" width="6" height="62" rx="3" fill="#16a34a"/>
-  <circle cx="66" cy="196" r="16" fill="#16a34a"/>
-  <text x="66" y="202" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">02</text>
+  <rect x="28" y="183" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="196" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="202" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
   <text x="94" y="201" font-size="16" fill="#1e293b" font-weight="600">捐款收入徵信公開記錄</text>
   <text x="94" y="225" font-size="14" fill="#57534e">捐款芳名錄、捐款指物領用清冊，公益勸募申請文件</text>
-  <rect x="620" y="191" width="144" height="46" rx="8" fill="#dcfce7"/>
-  <text x="692" y="219" font-size="14" fill="#166534" text-anchor="middle" font-weight="600">透明公開</text>
+  <rect x="620" y="191" width="144" height="46" rx="8" fill="#f5f5f4"/>
+  <text x="692" y="219" font-size="14" fill="#78716c" text-anchor="middle" font-weight="600">透明公開</text>
   <!-- Row 3 -->
   <rect x="28" y="258" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="258" width="6" height="62" rx="3" fill="#2563eb"/>
-  <circle cx="66" cy="271" r="16" fill="#2563eb"/>
-  <text x="66" y="277" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="700">03</text>
+  <rect x="28" y="258" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="271" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="277" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
   <text x="94" y="276" font-size="16" fill="#1e293b" font-weight="600">財務會計制度與執行紀錄</text>
   <text x="94" y="300" font-size="14" fill="#57534e">會計憑證、現金日記帳、銀行對帳單，資產負債表</text>
-  <rect x="620" y="266" width="144" height="46" rx="8" fill="#dbeafe"/>
-  <text x="692" y="294" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="600">合規核對</text>
+  <rect x="620" y="266" width="144" height="46" rx="8" fill="#f5f5f4"/>
+  <text x="692" y="294" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">合規核對</text>
   <!-- Row 4 -->
   <rect x="28" y="333" width="744" height="62" rx="8" fill="#ffffff"/>
-  <rect x="28" y="333" width="6" height="62" rx="3" fill="#9333ea"/>
-  <circle cx="66" cy="346" r="16" fill="#9333ea"/>
-  <text x="66" y="352" font-size="14" fill="#9333ea" text-anchor="middle" font-weight="700">04</text>
+  <rect x="28" y="333" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="346" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="352" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="700">04</text>
   <text x="94" y="351" font-size="16" fill="#1e293b" font-weight="600">補件改善記錄（如曾函文）</text>
   <text x="94" y="375" font-size="14" fill="#57534e">若曾收補件通知，應保存改善後的回覆文件與佐證資料</text>
-  <rect x="620" y="341" width="144" height="46" rx="8" fill="#f3e8ff"/>
-  <text x="692" y="369" font-size="14" fill="#7e22ce" text-anchor="middle" font-weight="600">補救機會</text>
+  <rect x="620" y="341" width="144" height="46" rx="8" fill="#f5f5f4"/>
+  <text x="692" y="369" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="600">補救機會</text>
   <!-- Watermark -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

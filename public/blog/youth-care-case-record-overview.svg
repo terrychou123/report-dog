@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: list-4 -->
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">各評鑑項目對應文書類型</text>
   <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">了解哪些文件最影響評鑑得分</text>
@@ -27,22 +28,22 @@
   <!-- Row 3 (y=258) -->
   <rect x="28" y="258" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="258" width="6" height="62" rx="2" fill="#57534e"/>
-  <circle cx="66" cy="289" r="16" fill="#2563eb"/>
-  <text x="66" y="295" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="900">26</text>
+  <circle cx="66" cy="289" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="295" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">26</text>
   <text x="100" y="281" font-size="19" fill="#1e293b" font-weight="700">資源結合與運用（6 分）</text>
   <text x="100" y="305" font-size="16" fill="#57534e">資源網絡清冊、資源連結運用記錄、志工管理紀錄</text>
-  <rect x="660" y="266" width="100" height="38" rx="8" fill="#2563eb" opacity="0.12"/>
-  <text x="710" y="290" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="700">6 分</text>
+  <rect x="660" y="266" width="100" height="38" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="710" y="290" font-size="20" fill="#57534e" text-anchor="middle" font-weight="700">6 分</text>
 
   <!-- Row 4 (y=333) -->
   <rect x="28" y="333" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="333" width="6" height="62" rx="2" fill="#a8a29e"/>
-  <circle cx="66" cy="364" r="16" fill="#16a34a"/>
-  <text x="66" y="370" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="900">28</text>
+  <circle cx="66" cy="364" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="370" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="900">28</text>
   <text x="100" y="356" font-size="19" fill="#1e293b" font-weight="700">專業成長（2 分）</text>
   <text x="100" y="380" font-size="16" fill="#57534e">個案研討會記錄（出席名單、討論內容）、督導會議紀錄</text>
-  <rect x="660" y="341" width="100" height="38" rx="8" fill="#16a34a" opacity="0.12"/>
-  <text x="710" y="365" font-size="20" fill="#16a34a" text-anchor="middle" font-weight="700">2 分</text>
+  <rect x="660" y="341" width="100" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="710" y="365" font-size="20" fill="#a8a29e" text-anchor="middle" font-weight="700">2 分</text>
 
   <!-- Row 5 (y=408) -->
   <rect x="28" y="408" width="744" height="30" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
