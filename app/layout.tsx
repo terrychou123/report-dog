@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Noto_Serif_TC } from "next/font/google";
+import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
@@ -61,13 +62,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-TW" suppressHydrationWarning>
-      <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4360751609946942"
-          crossOrigin="anonymous"
-        />
-      </head>
+      {/* Google Analytics (GA4) */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-HVVZ9LQR8F"
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-HVVZ9LQR8F');
+        `}
+      </Script>
+      {/* Google AdSense */}
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4360751609946942"
+        strategy="afterInteractive"
+        crossOrigin="anonymous"
+      />
       <body className={`${geistSans.className} ${notoSerifTC.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
