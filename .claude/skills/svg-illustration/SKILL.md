@@ -27,6 +27,15 @@ allowed-tools:
 1. **確定版型與 N 值** → 直列清單（N=3~6）? 流程圖? 封面?
 2. **Read 對應模板檔案** → `public/blog/template-list-{N}.svg`（或其他版型的模板）
 3. **複製全部 XML 骨架** → 僅替換 `<text>` 內的中文字串，不改任何座標或屬性
+
+   > **封面模板特別提醒（6 個 `template-cover*.svg`）**：
+   > - 文字為起點式座標 + 左對齊（無 `text-anchor="middle"`），複製時**不要**把 x 改成 rect 中心。
+   > - `font-family` 在每個 `<text>` 上，執行 `--fix` 後會自動搬到 `<svg>` 根元素並補上 `sans-serif` fallback，無需手動搬移。
+   > - **`<clipPath id="clip0_1_XXX">` 需改為唯一 id**（例如 `clip-{article-slug}`），同時更新 `<g clip-path="url(#...)">` 對應的 id，避免多張封面在同一頁面 id 碰撞。
+   > - 浮水印為 `fill="#D97706"`、`y=593.964`（vs 模板為 `y=591.592`），**非**舊版的 `#c4bfb8 y=590 text-anchor=end`。
+   > - `template-cover-quote.svg` 頂部「人物訪談」pill 為**硬編碼**，若需改為「機構故事／過來人分享／專家觀點」等，直接替換文字即可。
+   > - `template-cover-chart.svg` 的 5 個百分比（85/70/50/35/20）是範例資料，與柱高綁定；修改數值時必須同步用 `bar_h = round(percent/100 × 400), top_y = 506 - bar_h, label_y = top_y - 10` 重算每根柱的 `y/height` 與數值標籤的 `y`。
+
 4. **依字數調整 font-size** → 用本文件的自適應公式（Q_font 等），只改需要縮小的部分
 5. **驗證並修正** → 執行下方指令，確認全部 PASS
 
@@ -597,7 +606,10 @@ S 標籤文字色             = 該列主色（circle fill 的同色），不得
 
 ### 封面圖（右下角浮水印）
 ```xml
-<text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
+<!-- 標準封面（cover/chart/checklist/timeline/quote）：y=593.964 font-size=24 fill=#D97706 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">報告汪 reportwang.com</tspan></text>
+<!-- vs 模板專用：y=591.592 font-size=22 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="879.924" y="591.592">報告汪 reportwang.com</tspan></text>
 ```
 
 ---
@@ -606,147 +618,311 @@ S 標籤文字色             = 該列主色（circle fill 的同色），不得
 
 **用途**：OG Image / 社群分享卡 / 文章列表縮圖（1200×630）
 
-### 基本規格
+### 元素速查表
 
-| 項目 | 規格 |
-|------|------|
-| 尺寸 | `width="1200" height="630"` |
-| viewBox | `0 0 1200 630` |
-| 背景 | `#f0efe8`（米黃暖色） |
-| 字型 | `font-family="'Noto Sans TC', sans-serif"` |
+| 元素 | x | y | w | h | 規格 |
+|------|---|---|---|---|------|
+| 背景 | 0 | 0 | 1200 | 630 | fill `#F0EFE8` |
+| 右側面板 | 820 | 0 | 380 | 630 | fill `#E8E6DE` |
+| 右側大數字 `{數字}` | 816.59 | 212.54 | — | — | font=140 bold fill=`#D97706`（起點式左對齊） |
+| 數字說明 `{數字說明}` | 943.418 | 278.708 | — | — | font=28 bold fill=`#78716C` |
+| 卡片 r1c1 rect | 846 | 300 | 155 | 86 | rx=10 fill=white stroke=`#E8E6DE` |
+| 卡片 r1c1 title | 845.002 | 342.708 | — | — | font=28 bold fill=`#D97706` |
+| 卡片 r1c1 subtitle | 874.005 | 372.592 | — | — | font=22 fill=`#A8A29E` |
+| 卡片 r1c2 rect | 1011 | 300 | 155 | 86 | rx=10 fill=white stroke=`#E8E6DE` |
+| 卡片 r1c2 title | 1010 | 342.708 | — | — | font=28 bold fill=`#78716C` |
+| 卡片 r1c2 subtitle | 1039 | 372.592 | — | — | font=22 fill=`#A8A29E` |
+| 卡片 r2c1 rect | 846 | 399 | 155 | 86 | rx=10 fill=white stroke=`#E8E6DE` |
+| 卡片 r2c1 title | 845.002 | 441.708 | — | — | font=28 bold fill=`#78716C` |
+| 卡片 r2c1 subtitle | 874.005 | 471.592 | — | — | font=22 fill=`#A8A29E` |
+| 卡片 r2c2 rect | 1011 | 399 | 155 | 86 | rx=10 fill=white stroke=`#E8E6DE` |
+| 卡片 r2c2 title | 1010 | 441.708 | — | — | font=28 bold fill=`#D97706` |
+| 卡片 r2c2 subtitle | 1039 | 471.592 | — | — | font=22 fill=`#A8A29E` |
+| 右側底部 pill | 846 | 498 | 320 | 52 | rx=10 fill=`#D97706` opacity=0.12 |
+| 底部 pill 文字 | 939.418 | 536.708 | — | — | font=28 bold fill=`#D97706` |
+| 左主標題 L1 | 60 | 219.32 | — | — | font=120 bold fill=`#1E293B` |
+| 左主標題 L2 | 60 | 357.32 | — | — | font=120 bold fill=`#D97706` |
+| 分隔線 | 57.5→822 | 384 | — | — | stroke=`#DEDAD3` sw=2 |
+| 副標題 | 60 | 434.068 | — | — | font=38 fill=`#57534E` |
+| pill 1 rect | 60 | 454 | 148 | 54 | rx=10 fill=`#D97706` opacity=0.12 |
+| pill 1 text | 84.002 | 493.708 | — | — | font=28 bold fill=`#D97706` |
+| pill 2 rect | 220 | 454 | 148 | 54 | rx=10 fill=`#78716C` opacity=0.12 |
+| pill 2 text | 244.002 | 493.708 | — | — | font=28 bold fill=`#78716C` |
+| pill 3 rect | 380 | 454 | 148 | 54 | rx=10 fill=`#57534E` opacity=0.12 |
+| pill 3 text | 404.002 | 493.708 | — | — | font=28 bold fill=`#57534E` |
+| 適用對象 | 60 | 549.708 | — | — | font=28 fill=`#94A3B8` |
+| 浮水印 | 879.008 | 593.964 | — | — | font=24 fill=`#D97706` |
 
-### 佈局結構（左右分割）
+### 骨架 XML
 
-```
-┌─────────────────────────────────┬──────────────┐
-│ 左側主內容區 (x:60~780)         │ 右側裝飾區塊  │
-│                                 │ (x:820~1200) │
-│ 主標題第 1 行 100–130px #1e293b │ fill=#e8e6de  │
-│ 主標題第 2 行 100–130px #d97706 │              │
-│                                 │ 裝飾大數字    │
-│ ── 分隔線 #dedad3               │ 140~220px    │
-│ 副標題 38–40px #57534e          │ fill=#d97706  │
-│                                 │ opacity=0.85  │
-│ 特色標籤列 4~5 個 pill 28–30px  │              │
-│                                 │ 說明文字      │
-│ 適用對象/資料來源 28–30px        │ 28–30px      │
-│                                 │              │
-│ 浮水印（右下角）24–28px ───────→│              │
-└─────────────────────────────────┴──────────────┘
-```
-
-### 左側主內容區元素
-
-| 元素 | 字級 | 字重 | 顏色 |
-|------|------|------|------|
-| 主標題第 1 行 | 100–130px | 900 | `#1e293b` |
-| 主標題第 2 行 | 100–130px | 900 | `#d97706`（琥珀強調） |
-| 分隔線 | — | — | `#dedad3` stroke-width=1.5~2 |
-| 副標題 | 38–40px | 400 | `#57534e` |
-| 特色標籤列 | 28–30px | 600~700 | 各標籤色，`rx=8~10` |
-| 適用對象/來源 | 28–30px | 400 | `#94a3b8` / `#a8a29e` |
-| 浮水印 | 24–28px | 400 | `#c4bfb8` |
-
-### 右側裝飾區塊
-
-| 元素 | 規格 |
-|------|------|
-| 背景色 | `#e8e6de`（x=820, w=380, h=630） |
-| 裝飾大數字 | `font-size="140~220"` `font-weight="900"` `fill="#d97706"` `opacity="0.85"` `text-anchor="middle"` |
-| 數字說明 | `font-size="28~30"` `fill="#78716c"` `font-weight="600"` |
-| 裝飾標籤/卡片標題 | `font-size="28~30"` |
-| 卡片副文字/時程說明 | `font-size="22~28"`（可縮小以符合高度平衡） |
-| 單行 pill 標籤 | `font-size="28~30"`（維持大字） |
-
-### 重點設計原則
-
-1. **數字必須醒目**：右側裝飾大數字用 `#d97706`（琥珀色），不能用淺灰
-2. **右側高度對齊**：右側裝飾內容（不含浮水印）總高度 ≤ 左側主內容區總高度；裝飾大數字頂部 ≥ 左側主標題頂部（≈y=104）；底部卡片/標籤 ≤ 左側適用對象文字底部（≈y=565）。超出時先縮小裝飾大數字（下限 140px），再縮小副文字（下限 22px）
-3. **字要夠大**：主標題 100–130px，副標 38–40px，標籤/適用對象 28–30px，浮水印 24–28px，右側卡片副文字最小 22px
-4. **減少空白**：標籤列、卡片、說明文字填滿，不留大片空白
-5. **琥珀色 `#d97706` 是核心強調色**：主標題第 2 行、裝飾數字、主要特色標籤
-6. **不放品牌文字在左側**：只保留右下角浮水印，不放左下角膠囊標籤
-7. **不放頂部類別 tag**：不需要「經營管理」「管理指南」等分類標籤
-8. **pill/卡片文字上下置中**：右側裝飾區 pill 或白底卡片內的文字，須在容器高度內垂直置中。計算公式：
-   - 單行：`text_y = rect_y + rect_h/2 + font_size × 0.35`
-   - 雙行（標題+副文字，baseline 間距 = gap）：`title_y = rect_y + rect_h/2 - gap/2 + title_font × 0.35`，`subtitle_y = title_y + gap`
-   - ⚠️ **必須精確計算，不可估算**。生成後用 `npm run svg:validate -- --fix <file>` 自動修正並驗證。
-
-### 骨架 XML（以 2×2 資訊卡片為例）
+> ⚠️ 複製後必須把 `clip0_1_238` 改為 `clip-{article-slug}` 以避免同頁多張封面 id 碰撞。
 
 ```xml
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
-  <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!--
-    右側高度計算（以裝飾數字 "45" 為例）：
-    · 大數字 font-size=180, baseline=y=239, 頂部≈y=104（與左側主標題頂部對齊）
-    · 最後卡片底部 ≤ 左側適用對象 y=558 ✓
-  -->
-
-  <!-- 右側裝飾大數字（頂部對齊左側主標題） -->
-  <text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">{數字}</text>
-  <text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">{數字說明}</text>
-
-  <!-- 右側 2×2 資訊卡片（row1 y=299, row2 y=395, h=86）
-       垂直置中：title_y = rect_y + 43 - 31/2 + 28×0.35 ≈ rect_y + 37
-                sub_y   = title_y + 31（固定行距）
-  -->
-  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{卡片標題 1}</text>
-  <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 1}</text>
-
-  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">{卡片標題 2}</text>
-  <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 2}</text>
-
-  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">{卡片標題 3}</text>
-  <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 3}</text>
-
-  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{卡片標題 4}</text>
-  <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 4}</text>
-
-  <!-- 右側底部標籤（底部 ≤ y=558）
-       單行置中：y = 491 + 52/2 + 28×0.35 ≈ 527
-  -->
-  <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="527" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{底部標籤}</text>
-
-  <!-- 左側主內容區（主標題頂部≈y=104） -->
-  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">{主標題第 1 行}</text>
-  <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">{主標題第 2 行}</text>
-
-  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">{副標題}</text>
-
-  <!-- 特色標籤列（pill 高 54px，28px 文字） -->
-  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">{標籤 1}</text>
-
-  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">{標籤 2}</text>
-
-  <!-- 適用對象說明（y=558，底部≈y=565） -->
-  <text x="60" y="558" font-size="28" fill="#94a3b8">{適用對象說明}</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip-{slug})">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="816.59" y="212.54">{數字}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="943.418" y="278.708">{數字說明}</tspan></text>
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="845.002" y="342.708">{卡片標題 1}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="874.005" y="372.592">{副文字 1}</tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1010" y="342.708">{卡片標題 2}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="1039" y="372.592">{副文字 2}</tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="845.002" y="441.708">{卡片標題 3}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="874.005" y="471.592">{副文字 3}</tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1010" y="441.708">{卡片標題 4}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="1039" y="471.592">{副文字 4}</tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="939.418" y="536.708">{底部標籤}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="219.32">{主標題第 1 行}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="357.32">{主標題第 2 行}</tspan></text>
+<path d="M57.5 384H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="38" letter-spacing="0em"><tspan x="60" y="434.068">{副標題}</tspan></text>
+<path opacity="0.12" d="M198 454H70C64.4772 454 60 458.477 60 464V498C60 503.523 64.4772 508 70 508H198C203.523 508 208 503.523 208 498V464C208 458.477 203.523 454 198 454Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="493.708">{標籤 1}</tspan></text>
+<path opacity="0.12" d="M358 454H230C224.477 454 220 458.477 220 464V498C220 503.523 224.477 508 230 508H358C363.523 508 368 503.523 368 498V464C368 458.477 363.523 454 358 454Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="493.708">{標籤 2}</tspan></text>
+<path opacity="0.12" d="M518 454H390C384.477 454 380 458.477 380 464V498C380 503.523 384.477 508 390 508H518C523.523 508 528 503.523 528 498V464C528 458.477 523.523 454 518 454Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="493.708">{標籤 3}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" letter-spacing="0em"><tspan x="60" y="549.708">{適用對象說明}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-{slug}">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>
 ```
 
-### 右側裝飾變體
+---
 
-| 版型 | 適用情境 | 說明 |
-|------|---------|------|
-| 2×2 資訊卡片 | 統計數字、面向分類 | 4 個白底卡片 `rx=10`，含標題 28px + 副文字 22px |
-| 直列 pill 標籤 | 技巧/要點列表 | 3~4 個橫向 pill，各 `height=56`，文字 28px |
-| 時程條 | 月份/時程呈現 | 3 條 `height=80`，左側 7px 色條，標題 28px + 說明 22px |
+## 封面圖模板：適用情境對照表
+
+> 每次製作文章封面，先查此表選擇最適合的模板，再 Read 對應模板 XML 複製骨架。
+
+| 模板檔案 | 適用文章標題模式 | 右側版型 |
+|---------|---------------|---------|
+| `template-cover.svg` | 「N 項全攻略／逐條拆解」「重點指南」「分析解析」 | 2×2 白底卡片 + 琥珀大數字（左對齊）+ 底部寬 pill |
+| `template-cover-chart.svg` | 「常見 N 大缺失／TOP 10」「佔比 X%」「數據比較」 | 5 根垂直長條圖（漸色，85/70/50/35/20%） |
+| `template-cover-quote.svg` | 「訪談」「過來人」「引言」「觀點」 | 受訪者頭像（r=135 外框 + 2 圓剪影）+ 機構/姓名/職稱 + 2 pill |
+| `template-cover-timeline.svg` | **「N 天倒數」「N 天上手」「準備時程表」「三階段」** | **大字時程標題（font=80）+** 3 節點（r=25，漸深配色）+ 底部 pill |
+| `template-cover-checklist.svg` | **「自我檢核表」「逐條檢核清單」「N 項清單」「FAQ」** | 6 列檢核清單（**圓角方形** checkbox，2✓+4空）+ 底部寬 pill |
+| `template-cover-vs.svg` | **「A vs B」「日間 vs 住宿」「NG vs OK」「前後比較」** | **全幅**（無右側面板）雙卡 495×252 + 挖空 VS 圓 |
+
+---
+
+## 封面圖模板（template-cover-timeline.svg）
+
+**用途**：倒數計畫、準備時程、N 天上手、三階段攻略類文章封面（1200×630）
+
+### 關鍵規格重點
+
+- 右側時程標題 **font=80 bold**（非 26），位置 `tspan x=820.266 y=154.88` fill=`#57534E`（起點式左對齊）
+- 3 節點 **r=25**（非 r=20），cx=**873**/1012/1147，cy=**269**（非 268）
+- 節點配色漸深：**`#D97706` / `#78716C` / `#57534E`**
+- 節點內數字 **font=40 bold fill=white**，tspan x=`861.223/1000.22/1135.22` y=`286.44`
+- 連接線 `M892 269H987` / `M1027 269H1122` sw=4 linecap=round
+- 右側面板 x=**821**（非 820，Figma 匯出偏移 1px）
+- 左側 pills y=**450**（非 454），其餘左側結構與 template-cover.svg 相同
+
+### 骨架 XML
+
+> ⚠️ 複製後必須把 `clip0_1_135` 改為 `clip-{article-slug}`。
+
+```xml
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip-{slug})">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1201 0H821V630H1201V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="820.266" y="154.88">{時程標題}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="832.319" y="234.848">{第 1 階段}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="811.224" y="321.592">{階段 1 名稱}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="829.14" y="346.912">{說明文字 1}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="969.319" y="234.848">{第 2 階段}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="948.224" y="321.592">{階段 2 名稱}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="964.14" y="346.912">{說明文字 2}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1106.32" y="234.848">{第 3 階段}</tspan></text>
+<path d="M892 269H987" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M1027 269H1122" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M873 294C886.807 294 898 282.807 898 269C898 255.193 886.807 244 873 244C859.193 244 848 255.193 848 269C848 282.807 859.193 294 873 294Z" fill="#D97706"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="861.223" y="286.44">1</tspan></text>
+<path d="M1012 294C1025.81 294 1037 282.807 1037 269C1037 255.193 1025.81 244 1012 244C998.193 244 987 255.193 987 269C987 282.807 998.193 294 1012 294Z" fill="#78716C"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1000.22" y="286.44">2</tspan></text>
+<path d="M1147 294C1160.81 294 1172 282.807 1172 269C1172 255.193 1160.81 244 1147 244C1133.19 244 1122 255.193 1122 269C1122 282.807 1133.19 294 1147 294Z" fill="#57534E"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1135.22" y="286.44">3</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1085.22" y="321.592">{階段 3 名稱}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="1099.14" y="346.912">{說明文字 3}</tspan></text>
+<path opacity="0.12" d="M1155 500H865C859.477 500 855 504.477 855 510V538C855 543.523 859.477 548 865 548H1155C1160.52 548 1165 543.523 1165 538V510C1165 504.477 1160.52 500 1155 500Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="948.174" y="535.336">{底部標籤}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="219.32">{主標題第 1 行}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="357.32">{主標題第 2 行}</tspan></text>
+<path d="M60 384.005L821 383" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="38" letter-spacing="0em"><tspan x="60" y="433.068">{副標題}</tspan></text>
+<path opacity="0.12" d="M198 450H70C64.4772 450 60 454.477 60 460V494C60 499.523 64.4772 504 70 504H198C203.523 504 208 499.523 208 494V460C208 454.477 203.523 450 198 450Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="489.708">{標籤 1}</tspan></text>
+<path opacity="0.12" d="M358 450H230C224.477 450 220 454.477 220 460V494C220 499.523 224.477 504 230 504H358C363.523 504 368 499.523 368 494V460C368 454.477 363.523 450 358 450Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="489.708">{標籤 2}</tspan></text>
+<path opacity="0.12" d="M518 450H390C384.477 450 380 454.477 380 460V494C380 499.523 384.477 504 390 504H518C523.523 504 528 499.523 528 494V460C528 454.477 523.523 450 518 450Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="489.708">{標籤 3}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" letter-spacing="0em"><tspan x="60" y="542.708">{適用對象說明}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-{slug}">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+```
+
+---
+
+## 封面圖模板（template-cover-checklist.svg）
+
+**用途**：自評檢核表、逐條清單、文件準備清單、FAQ 類文章封面（1200×630）
+
+### 關鍵規格重點
+
+- Checkbox 為**圓角方形 rect（30×30, rx=2.5）**，非圓形；stroke=`#A8A29E` sw=1.5
+- 僅 Row 1–2 有勾選 path（`M860 {y+22} L869.286 {y+32} L886 {y+12}`），Row 3–6 **無**勾選（空白 checkbox）
+- Row y 起始：**119/181/243/305/367/429**（整體上移；row h=54 不變）
+- Rows 1–4 opacity=0.7 / Rows 5–6 opacity=0.5
+- Label x=**892**（非 882），font=20 bold；Rows 1–4 fill=`#1E293B`，Rows 5–6 fill=`#57534E`
+- 底部 pill：x=**843** w=**334** y=501（非 x=855 w=310 y=518）；text tspan(921.348, 535.964) font=24
+- 左側主標題 y=**220.32/358.32**（與 cover 差 1px，Figma artifact）
+- 左側 pills y=**450**，副標題 y=429.068
+
+### 骨架 XML
+
+> ⚠️ 複製後必須把 `clip0_1_74` 改為 `clip-{article-slug}`。
+
+```xml
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip-{slug})">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="922.174" y="92.336">{檢核清單標題}</tspan></text>
+<!-- 列 1（y=119）已完成，有勾選 -->
+<path opacity="0.7" d="M1169 119H851C846.582 119 843 122.582 843 127V165C843 169.418 846.582 173 851 173H1169C1173.42 173 1177 169.418 1177 165V127C1177 122.582 1173.42 119 1169 119Z" fill="white"/>
+<path d="M878.5 131H857.5C855.015 131 853 133.015 853 135.5V156.5C853 158.985 855.015 161 857.5 161H878.5C880.985 161 883 158.985 883 156.5V135.5C883 133.015 880.985 131 878.5 131Z" stroke="#A8A29E" stroke-width="1.5"/>
+<path d="M860 141L869.286 151L886 131" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="154.22">{檢核項目 1}</tspan></text>
+<!-- 列 2（y=181）已完成，有勾選 -->
+<path opacity="0.7" d="M1169 181H851C846.582 181 843 184.582 843 189V227C843 231.418 846.582 235 851 235H1169C1173.42 235 1177 231.418 1177 227V189C1177 184.582 1173.42 181 1169 181Z" fill="white"/>
+<path d="M860 206L869.286 216L886 196" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M878.5 193H857.5C855.015 193 853 195.015 853 197.5V218.5C853 220.985 855.015 223 857.5 223H878.5C880.985 223 883 220.985 883 218.5V197.5C883 195.015 880.985 193 878.5 193Z" stroke="#A8A29E" stroke-width="1.5"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="216.22">{檢核項目 2}</tspan></text>
+<!-- 列 3（y=243）無勾選 -->
+<path opacity="0.7" d="M1169 243H851C846.582 243 843 246.582 843 251V289C843 293.418 846.582 297 851 297H1169C1173.42 297 1177 293.418 1177 289V251C1177 246.582 1173.42 243 1169 243Z" fill="white"/>
+<path d="M878.5 255H857.5C855.015 255 853 257.015 853 259.5V280.5C853 282.985 855.015 285 857.5 285H878.5C880.985 285 883 282.985 883 280.5V259.5C883 257.015 880.985 255 878.5 255Z" stroke="#A8A29E" stroke-width="1.5"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="278.22">{檢核項目 3}</tspan></text>
+<!-- 列 4（y=305）無勾選 -->
+<path opacity="0.7" d="M1169 305H851C846.582 305 843 308.582 843 313V351C843 355.418 846.582 359 851 359H1169C1173.42 359 1177 355.418 1177 351V313C1177 308.582 1173.42 305 1169 305Z" fill="white"/>
+<path d="M878.5 317H857.5C855.015 317 853 319.015 853 321.5V342.5C853 344.985 855.015 347 857.5 347H878.5C880.985 347 883 344.985 883 342.5V321.5C883 319.015 880.985 317 878.5 317Z" stroke="#A8A29E" stroke-width="1.5"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="341.22">{檢核項目 4}</tspan></text>
+<!-- 列 5（y=367）待辦 opacity=0.5 -->
+<path opacity="0.5" d="M1169 367H851C846.582 367 843 370.582 843 375V413C843 417.418 846.582 421 851 421H1169C1173.42 421 1177 417.418 1177 413V375C1177 370.582 1173.42 367 1169 367Z" fill="white"/>
+<path d="M878.5 379H857.5C855.015 379 853 381.015 853 383.5V404.5C853 406.985 855.015 409 857.5 409H878.5C880.985 409 883 406.985 883 404.5V383.5C883 381.015 880.985 379 878.5 379Z" stroke="#A8A29E" stroke-width="1.5"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="403.22">{檢核項目 5}</tspan></text>
+<!-- 列 6（y=429）待辦 opacity=0.5 -->
+<path opacity="0.5" d="M1169 429H851C846.582 429 843 432.582 843 437V475C843 479.418 846.582 483 851 483H1169C1173.42 483 1177 479.418 1177 475V437C1177 432.582 1173.42 429 1169 429Z" fill="white"/>
+<path d="M878.5 441H857.5C855.015 441 853 443.015 853 445.5V466.5C853 468.985 855.015 471 857.5 471H878.5C880.985 471 883 468.985 883 466.5V445.5C883 443.015 880.985 441 878.5 441Z" stroke="#A8A29E" stroke-width="1.5"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="465.22">{檢核項目 6}</tspan></text>
+<!-- 底部進度 pill -->
+<path opacity="0.12" d="M1166.23 501H853.774C847.824 501 843 505.477 843 511V539C843 544.523 847.824 549 853.774 549H1166.23C1172.18 549 1177 544.523 1177 539V511C1177 505.477 1172.18 501 1166.23 501Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="921.348" y="535.964">已完成 {N} / 6 項</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="220.32">{主標題第 1 行}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="358.32">{主標題第 2 行}</tspan></text>
+<path d="M60 385L820 383.953" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="38" letter-spacing="0em"><tspan x="60" y="429.068">{副標題}</tspan></text>
+<path opacity="0.12" d="M198 450H70C64.4772 450 60 454.477 60 460V494C60 499.523 64.4772 504 70 504H198C203.523 504 208 499.523 208 494V460C208 454.477 203.523 450 198 450Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="489.708">{標籤 1}</tspan></text>
+<path opacity="0.12" d="M358 450H230C224.477 450 220 454.477 220 460V494C220 499.523 224.477 504 230 504H358C363.523 504 368 499.523 368 494V460C368 454.477 363.523 450 358 450Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="489.708">{標籤 2}</tspan></text>
+<path opacity="0.12" d="M518 450H390C384.477 450 380 454.477 380 460V494C380 499.523 384.477 504 390 504H518C523.523 504 528 499.523 528 494V460C528 454.477 523.523 450 518 450Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="489.708">{標籤 3}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" letter-spacing="0em"><tspan x="60" y="540.708">{適用對象說明}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-{slug}">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+```
+
+---
+
+## 封面圖模板（template-cover-vs.svg）
+
+**用途**：A vs B 對比、日間 vs 住宿、NG vs OK、前後比較類文章封面（1200×630）
+
+### 關鍵規格重點
+
+- **全幅單色背景**（無右側灰底面板），僅 `fill="#F0EFE8"`
+- 主標題 **font=80**（非 90），**起點式**左對齊 tspan(328.086, 102.88/194.88)，**非** `text-anchor="middle"`
+- 分隔線 y=**218**（非 224）：`M40 218H1160`
+- 3 色 pills y=236 h=42，x=**374/530/686**（非 364/520/676），labels tspan(401.145/557.145/713.145, 266.964) font=24
+- 左卡 `(40, 297, 495, 252)` rx≈15.23，**非** `(40, 282, 520, 290, rx=16)`；stroke=`#D97706` sw=3
+- 右卡 `(665, 297, 495, 252)` rx≈15.23；stroke=`#78716C` sw=3
+- **卡內無側邊色條**（舊版 `rect x=40 w=8 fill=#d97706` 已移除）
+- 標頭 pill opacity=**0.15**（非 0.12）；左 tspan(75.6543, 341.592)，右 tspan(696.214, 341.592)
+- VS 圓 cx=600 cy=**416**（非 427），**fill=`#F0EFE8`**（與背景同色，挖空效果）
+- 浮水印 tspan(879.924, **591.592**) font=**22**（此模板特有，其他封面均為 y=593.964 font=24）
+
+### 骨架 XML
+
+> ⚠️ 複製後必須把 `clip0_1_168` 改為 `clip-{article-slug}`。
+
+```xml
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip-{slug})">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="328.086" y="102.88">{主標題第 1 行}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="328.086" y="194.88">{主標題第 2 行}</tspan></text>
+<path d="M40 218H1160" stroke="#DEDAD3" stroke-width="2"/>
+<path opacity="0.12" d="M504 236H384C378.477 236 374 240.477 374 246V268C374 273.523 378.477 278 384 278H504C509.523 278 514 273.523 514 268V246C514 240.477 509.523 236 504 236Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="401.145" y="266.964">{標籤 1}</tspan></text>
+<path opacity="0.12" d="M660 236H540C534.477 236 530 240.477 530 246V268C530 273.523 534.477 278 540 278H660C665.523 278 670 273.523 670 268V246C670 240.477 665.523 236 660 236Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="557.145" y="266.964">{標籤 2}</tspan></text>
+<path opacity="0.12" d="M816 236H696C690.477 236 686 240.477 686 246V268C686 273.523 690.477 278 696 278H816C821.523 278 826 273.523 826 268V246C826 240.477 821.523 236 816 236Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="713.145" y="266.964">{標籤 3}</tspan></text>
+<!-- 左卡 (40, 297, 495, 252, rx≈15.23) -->
+<path d="M519.769 297H55.2308C46.819 297 40 303.225 40 310.903V535.097C40 542.775 46.819 549 55.2308 549H519.769C528.181 549 535 542.775 535 535.097V310.903C535 303.225 528.181 297 519.769 297Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75.6543" y="341.592">{選項 A 名稱}</tspan></text>
+<path d="M65 360H535" stroke="#E8E6DE"/>
+<path opacity="0.15" d="M205 314H75C69.4772 314 65 318.477 65 324V340C65 345.523 69.4772 350 75 350H205C210.523 350 215 345.523 215 340V324C215 318.477 210.523 314 205 314Z" fill="#D97706"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="398.592">{比較重點 1}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="434.592">{比較重點 2}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="470.592">{比較重點 3}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="75" y="512.912">{補充說明}</tspan></text>
+<!-- 右卡 (665, 297, 495, 252, rx≈15.23) -->
+<path d="M1144.77 297H680.231C671.819 297 665 303.225 665 310.903V535.097C665 542.775 671.819 549 680.231 549H1144.77C1153.18 549 1160 542.775 1160 535.097V310.903C1160 303.225 1153.18 297 1144.77 297Z" fill="white" stroke="#78716C" stroke-width="3"/>
+<path d="M665 360H1135" stroke="#E8E6DE"/>
+<path opacity="0.15" d="M826 314H696C690.477 314 686 318.477 686 324V340C686 345.523 690.477 350 696 350H826C831.523 350 836 345.523 836 340V324C836 318.477 831.523 314 826 314Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696.214" y="341.592">{選項 B 名稱}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="398.592">{比較重點 1}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="434.592">{比較重點 2}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="470.592">{比較重點 3}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="696" y="512.912">{補充說明}</tspan></text>
+<!-- VS 圓（fill=#F0EFE8 與背景同色，挖空效果） -->
+<path d="M600 456C622.091 456 640 438.091 640 416C640 393.909 622.091 376 600 376C577.909 376 560 393.909 560 416C560 438.091 577.909 456 600 456Z" fill="#F0EFE8" stroke="#D97706" stroke-width="3"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="580.312" y="429.952">VS</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="879.924" y="591.592">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-{slug}">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+```
 
 ---
 
@@ -1075,6 +1251,503 @@ S 標籤文字色             = 該列主色（circle fill 的同色），不得
 
 ---
 
+## 量化圖表模板（Tier 1 擴充，2026-04）
+
+> **適用情境**：文章含有可量化數據時（百分比、排行、時程、比例分佈），優先使用量化圖表版型取代純文字清單，視覺說服力更強。
+
+### 版型對照（麥肯錫五分類）
+
+| McKinsey 類型 | 模板檔案 | 適合主題範例 |
+|---|---|---|
+| 項類對比（量化） | `template-bar-h.svg` | 缺失出現頻率、各班照護比、達標率排行 |
+| 成分對比（part-to-whole） | `template-donut.svg` | 評鑑等級分佈、經費來源占比、通過率 |
+| 相關性（矩陣分類） | `template-quadrant.svg` | 急迫性 × 重要性、人力 × 品質決策矩陣 |
+| 時間序列（量化甘特） | `template-gantt.svg` | 90 天準備計畫、各週任務並行與工時 |
+| 封面替代版型 | `template-cover-chart.svg` | 右側以直條圖取代 2×2 卡片（打破同質化） |
+
+---
+
+### template-bar-h.svg（水平長條圖）
+
+**尺寸**：800×500
+
+**版型結構**：
+- Header（y=50, h=76）：白底 + 左 6px 琥珀色條 + 主標題
+- 5 個水平長條列（y=155/215/275/335/395，各 h=44）
+- 每列結構：編號圓圈（cx=55）+ 標籤（x=80）+ 軌道（x=220, w=500）+ 填色條 + 數值（x=724）
+- 長條最大寬度 500px 代表 100%，按比例縮放
+
+**使用方式**：
+```
+1. Read template-bar-h.svg
+2. 替換 Header 主標題（≤16 字 36px / ≤20 字 28px）
+3. 替換每列的：標籤文字 / 百分比數值 / 填色條 width（= 數值/100 × 500）
+4. 最多 5 列，不足 5 列時移除多餘 Row 並調整 y 間距
+5. 顏色順序固定：#d97706 / #78716c / #57534e / #a8a29e / #94a3b8
+```
+
+**bar_w 快速計算**：
+```
+bar_w = round(百分比 / 100 × 500)
+範例：72% → 360px，43% → 215px
+```
+
+---
+
+### template-donut.svg（環形圖）
+
+**尺寸**：800×500
+
+**版型結構**：
+- Header（y=50, h=76）
+- 環形圖：圓心 (270, 290)，外徑 145，內徑 85，從 12 點鐘順時針切割
+- 中心文字：說明（y=272, 18px）+ 總數（y=302, 36px）
+- 右側圖例（x=490）：4 個卡片列（y=155/225/295/365，h=62）含迷你長條
+
+**切片弧形路徑說明（4 切片，必須與角度對應）**：
+
+| 切片 | 角度 | 顏色 | 範例路徑（40%，-90° to 54°） |
+|------|------|------|------|
+| S1 | -90° → end | #d97706 | `M 270 205 L 270 145 A 145 145 0 0 1 {x2} {y2} L {ix2} {iy2} A 85 85 0 0 0 270 205 Z` |
+
+**新弧路徑計算**（改變切片比例時）：
+```
+end_angle = start_angle + slice_percent / 100 × 360°
+outer_x = 270 + 145 × cos(angle_rad)
+outer_y = 290 + 145 × sin(angle_rad)
+inner_x = 270 + 85 × cos(angle_rad)
+inner_y = 290 + 85 × sin(angle_rad)
+large_arc = 1 if slice_percent > 50 else 0
+```
+
+**中心白圓（必須保留，確保環孔清晰）**：
+```xml
+<circle cx="270" cy="290" r="83" fill="#f0efe8"/>
+```
+
+---
+
+### template-quadrant.svg（2×2 四象限矩陣）
+
+**尺寸**：800×500
+
+**版型結構**：
+- Header（y=50, h=76）：標題格式「{X 軸} × {Y 軸} {圖表類型}」
+- 格線區（x=28, y=145, w=744, h=300, fill=white）
+- 垂直軸：x=400（虛線）/ 水平軸：y=295（虛線）
+- 4 個象限卡片（各 w=348, h=128, rx=12）
+  - 左上 (x=40, y=155) / 右上 (x=412, y=155)
+  - 左下 (x=40, y=307) / 右下 (x=412, y=307)
+
+**象限標準配色**（依重要性遞減）：
+```
+右上（最優先）: #d97706
+左上（計畫中）: #78716c
+右下（委派）:   #57534e
+左下（暫緩）:   #a8a29e
+```
+
+**卡片文字座標（h=128, gap=24）**：
+```
+title_y = card_y + 53   (font-size=18, font-weight=700)
+desc_y  = card_y + 77   (font-size=14, fill=#57534e)
+text_x  = card_x + 18
+```
+
+---
+
+### template-gantt.svg（甘特圖）
+
+**尺寸**：800×500
+
+**版型結構**：
+- Header（y=50, h=76）
+- 時間軸表頭（y=140, h=30）：左欄名稱（x=28~213）+ 週次（x=220~772）
+- 週列寬度：552px / 8 週 = **每週 69px**
+- 週中心 x = 220 + n×69 + 34（n=0..7）→ W1=254, W2=323, ..., W8=737
+- 5 個任務列（y=176/232/288/344/400，h=48）
+- 甘特條：bar_y = row_y+10, bar_h=28, rx=6
+
+**甘特條 x 座標快算**：
+```
+bar_x = 220 + (start_week - 1) × 69
+bar_w = duration_weeks × 69 - 2   (留 2px 邊距)
+```
+
+**最多 8 週 / 5 行**；超過 8 週請改用 12 週版型（每週寬改為 46px）：
+```
+12週: bar_x = 220 + (start_week - 1) × 46
+```
+
+---
+
+### template-cover-chart.svg（封面圖表版型）
+
+**尺寸**：1200×630
+
+**關鍵規格重點**：
+- 圖表標題 **font=36**（非 26），tspan(924.395, 103.696) fill=`#57534E`
+- 基準線為 **path rect** `x=841 y=506 w=340 h=2 fill=#A8A29E`（非 `<line>`）
+- 柱底 y=**506**（非 545），最高柱 h=400（代表 100%）
+- 柱 x=855/920/985/1050/1115，w=44，rx=6，opacity=0.9
+- 數值標籤 tspan x=`851.312/916.312/981.312/1046.31/1111.31`（起點式偏左）
+- 類別標籤 `{A}-{E}` y=534.22 font=20 fill=`#57534E`（不是 572）
+- 左側副標題 y=425.068，pills y=450，適用對象 y=550.708
+
+**柱高快算公式（新版，以 y=506 為基準線）**：
+```
+bar_h   = round(percent / 100 × 400)
+top_y   = 506 - bar_h
+label_y = top_y - 10
+category_label_y = 534 (固定)
+
+範例（模板預設值）：
+  85% → bar_h=340, top_y=166, label_y=156 ✓
+  70% → bar_h=280, top_y=226, label_y=216 ✓
+  50% → bar_h=200, top_y=306, label_y=296 ✓
+  35% → bar_h=140, top_y=366, label_y=356 ✓
+  20% → bar_h= 80, top_y=426, label_y=416 ✓
+```
+
+> ⚠️ 複製後必須把 `clip0_1_75` 改為 `clip-{article-slug}`。
+
+```xml
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip-{slug})">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="924.395" y="103.696">{圖表標題}</tspan></text>
+<!-- 基準線 -->
+<path d="M1179 506H841C840.448 506 840 506.448 840 507C840 507.552 840.448 508 841 508H1179C1179.55 508 1180 507.552 1180 507C1180 506.448 1179.55 506 1179 506Z" fill="#A8A29E"/>
+<!-- 柱 A 85% (top_y=166, h=340) -->
+<path opacity="0.9" d="M893 166H861C857.686 166 855 168.686 855 172V500C855 503.314 857.686 506 861 506H893C896.314 506 899 503.314 899 500V172C899 168.686 896.314 166 893 166Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
+<!-- 柱 B 70% (top_y=226, h=280) -->
+<path opacity="0.9" d="M958 226H926C922.686 226 920 228.686 920 232V500C920 503.314 922.686 506 926 506H958C961.314 506 964 503.314 964 500V232C964 228.686 961.314 226 958 226Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
+<!-- 柱 C 50% (top_y=306, h=200) -->
+<path opacity="0.9" d="M1023 306H991C987.686 306 985 308.686 985 312V500C985 503.314 987.686 506 991 506H1023C1026.31 506 1029 503.314 1029 500V312C1029 308.686 1026.31 306 1023 306Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
+<!-- 柱 D 35% (top_y=366, h=140) -->
+<path opacity="0.9" d="M1088 366H1056C1052.69 366 1050 368.686 1050 372V500C1050 503.314 1052.69 506 1056 506H1088C1091.31 506 1094 503.314 1094 500V372C1094 368.686 1091.31 366 1088 366Z" fill="#A8A29E"/>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
+<!-- 柱 E 20% (top_y=426, h=80) -->
+<path opacity="0.9" d="M1153 426H1121C1117.69 426 1115 428.686 1115 432V500C1115 503.314 1117.69 506 1121 506H1153C1156.31 506 1159 503.314 1159 500V432C1159 428.686 1156.31 426 1153 426Z" fill="#94A3B8"/>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
+<!-- 類別標籤 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">{A}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">{B}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">{C}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">{D}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">{E}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="219.32">{主標題第 1 行}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="357.32">{主標題第 2 行}</tspan></text>
+<path d="M60 384H820" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="38" letter-spacing="0em"><tspan x="60" y="425.068">{副標題}</tspan></text>
+<path opacity="0.12" d="M198 450H70C64.4772 450 60 454.477 60 460V494C60 499.523 64.4772 504 70 504H198C203.523 504 208 499.523 208 494V460C208 454.477 203.523 450 198 450Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="489.708">{標籤 1}</tspan></text>
+<path opacity="0.12" d="M358 450H230C224.477 450 220 454.477 220 460V494C220 499.523 224.477 504 230 504H358C363.523 504 368 499.523 368 494V460C368 454.477 363.523 450 358 450Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="489.708">{標籤 2}</tspan></text>
+<path opacity="0.12" d="M518 450H390C384.477 450 380 454.477 380 460V494C380 499.523 384.477 504 390 504H518C523.523 504 528 499.523 528 494V460C528 454.477 523.523 450 518 450Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="489.708">{標籤 3}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" letter-spacing="0em"><tspan x="60" y="550.708">{適用對象說明}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-{slug}">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+```
+
+**使用時機**：文章封面需突顯多項目比較（如各機構達標率、各面向得分），以圖表代替數字卡，增強差異感。
+
+---
+
+## 量化圖表模板 Tier 2（2026-04 擴充）
+
+> **與 Tier 1 相同規範**：土色系、背景 #f0efe8、Noto Sans TC、浮水印 y=480。
+
+### 版型對照
+
+| McKinsey 類型 | 模板檔案 | 適合主題範例 |
+|---|---|---|
+| 成分（年度堆疊） | `template-stacked-bar.svg` | 各年評鑑等級分佈變化、各項目占比演變 |
+| 項類（A/B 對照） | `template-vs-compare.svg` | 自主備評 vs 委外、兩種照護模式比較 |
+| 時間序列（垂直柱） | `template-column.svg` | 年度通過率、各年度缺失數量柱狀比較 |
+| 時間序列（折線） | `template-line.svg` | 達標率趨勢、各季缺失數折線追蹤 |
+
+---
+
+### template-stacked-bar.svg（100% 堆疊水平長條）
+
+**尺寸**：800×500
+
+**版型結構**：
+- Header（y=50, h=76）
+- 垂直刻度線（x=345/470/595 代表 25%/50%/75%）+ 刻度標籤（y=161）
+- 3 個年度列（y=175/265/355，bar_h=44，間距 90px）
+- 圖例（y=416，4 色塊 + 標籤）
+
+**每列畫法（順序不可顛倒）**：
+```xml
+<!-- 1. 白底（rx=12）先畫，提供外圓角 -->
+<rect x="220" y="{bar_y}" width="500" height="44" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<!-- 2. 色段（rx=0）疊上，填色至白底中間 -->
+<rect x="220" y="{bar_y}" width="{w1}" height="44" fill="#d97706"/>
+<rect x="{220+w1}" y="{bar_y}" width="{w2}" height="44" fill="#78716c"/>
+<!-- ... 以此類推 -->
+<!-- 3. 百分比文字（白色或深色）-->
+<text ...>XX%</text>
+```
+
+**色段寬度快算（bar 總寬 500px = 100%）**：
+```
+segment_w = round(percent / 100 × 500)
+```
+
+**text_y（色段內百分比標籤）**：
+```
+text_y = bar_y + 44/2 + 14×0.35 = bar_y + 22 + 4.9 = bar_y + 27
+```
+
+**小字色選擇**：#a8a29e（淡石色）段使用 `fill="#1e293b"`；其餘深色段使用 `fill="white"`。
+
+---
+
+### template-vs-compare.svg（A/B 側邊對照表）
+
+**尺寸**：800×500
+
+**版型結構**：
+- Header（y=50, h=76）：標題格式「{選項A名} vs {選項B名} 比較」
+- 欄標題（y=136, h=48）：面向（#1e293b）/ A（#d97706）/ B（#78716c）
+- 4 個比較列（y=192/248/304/360，h=50，間距 56）
+
+**欄位 x 座標**：
+```
+面向欄: x=28,  w=180  → 中心 x=118
+A 欄:   x=209, w=282  → 文字起始 x=220
+B 欄:   x=492, w=280  → 文字起始 x=503
+```
+
+**text_y（每列）**：`row_y + 31`（公式：row_y + 25 + 16×0.35）
+
+**勝出標示（SVG 勾選路徑，置於勝出欄右側）**：
+```xml
+<!-- A 欄勝出: cx=471 -->
+<path d="M 466,{cy} L 470,{cy+5} L 477,{cy-4}" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- B 欄勝出: cx=752 -->
+<path d="M 747,{cy} L 751,{cy+5} L 758,{cy-4}" fill="none" stroke="#78716c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+```
+
+**勝出欄淡底色（opacity=0.08）**：A 勝出用 `fill="#d97706"`，B 勝出用 `fill="#78716c"`，繪製在對應欄 rect 之後。
+
+---
+
+### template-column.svg（垂直柱狀圖）
+
+**尺寸**：800×500
+
+**圖表座標（與 template-line.svg 共享）**：
+```
+圖表區: x=90~760, y=140~410 (h=270, 代表 0%~100%)
+Y軸線: x=90, 基線: y=410
+水平格線(虛線): y=208/275/343 (75%/50%/25%)
+Y軸標籤: text-anchor=end, x=82
+5 根柱子: w=80, x=135/260/385/510/635
+          中心: 175/300/425/550/675
+柱高計算: bar_h = round(value/100 × 270)
+         top_y = 410 - bar_h
+年份標籤: y=428, text-anchor=middle
+數值標籤: text_y = top_y - 10
+```
+
+**配色規則**：最新一年用 `#d97706`（強調），過去年份用 `#a8a29e` 或 `#78716c`。
+
+**柱高快算表（270px = 100%）**：
+```
+100%=270  90%=243  80%=216  70%=189  60%=162  50%=135  40%=108  30%=81
+```
+
+---
+
+### template-line.svg（折線趨勢圖）
+
+**尺寸**：800×500
+
+**圖表座標**：同 `template-column.svg`（共享 x/y 軸範圍與格線）
+
+**5 個資料點（x 與 column 柱中心相同）**：
+```
+x: 175/300/425/550/675
+y = 410 - round(value/100 × 270)
+```
+
+**元素畫法（順序不可顛倒）**：
+```xml
+<!-- 1. 格線（最底層） -->
+<polyline> <!-- 2. 格線後畫面積填色 -->
+<path d="M x1 y1 L ... L xN yN L xN 410 L x1 410 Z" fill="#d97706" opacity="0.08"/>
+<!-- 3. 折線 -->
+<polyline points="x1,y1 x2,y2 ..." fill="none" stroke="#d97706" stroke-width="3"/>
+<!-- 4. 過去年圓圈 (r=6, fill=white, stroke=#a8a29e) -->
+<!-- 5. 最新年圓圈 (r=10, fill=#d97706, stroke=white) -->
+<!-- 6. 數值標籤（圓圈上方） -->
+```
+
+**數值標籤 y 座標**：
+```
+過去年（r=6）: text_y = point_y - 6 - 12 = point_y - 18
+最新年（r=10）: text_y = point_y - 10 - 12 = point_y - 22
+```
+
+---
+
+## 量化圖表模板 Tier 3（2026-04 擴充）
+
+### McKinsey 五分類對應
+
+| 模板檔名 | 圖表類型 | McKinsey 分類 | 適用情境 |
+|----------|---------|--------------|---------|
+| `template-histogram.svg` | 頻率直方圖 | 頻率分佈對比 | 機構得分分佈、人力配置分佈 |
+| `template-scatter.svg` | 散佈圖（含趨勢線） | 相關性對比 | 床位數 vs 評鑑分數、人力 vs 缺失數 |
+| `template-cover-quote.svg` | 引言封面 | 封面替代版型 | 訪談型文章、專家觀點、機構故事 |
+
+---
+
+### template-histogram.svg — 頻率分佈直方圖
+
+**特徵：相鄰柱無間隔（直方圖），白色分隔線**
+
+**圖表區：** x=90~756（Y 軸 x=90），y=140~410（h=270）
+
+**6 個相鄰色柱（w=111px，無間隔）：**
+
+| 柱 | 起始 x | 中心 x | 得分區間 | 顏色 |
+|----|-------|-------|---------|-----|
+| 1 | 90 | 145 | 60-69 | `#c4bfb8`（最淡） |
+| 2 | 201 | 256 | 70-74 | `#a8a29e` |
+| 3 | 312 | 367 | 75-79 | `#78716c` |
+| 4 | 423 | 478 | 80-84 | `#d97706`（峰值強調） |
+| 5 | 534 | 589 | 85-89 | `#78716c` |
+| 6 | 645 | 700 | 90分+ | `#a8a29e` |
+
+**高度公式：** `bar_h = round(n / max_n × 270)`，`top_y = 410 - bar_h`
+
+**Y 軸刻度：** 0/10/20/30 → y=410/333/256/179（每格 77px = 10家）
+
+**格線：** y=333/256/179（虛線 `stroke-dasharray="4,3"`）
+
+**白色分隔線（直方圖邊界）：** 在 x=201/312/423/534/645 畫 `stroke="white" stroke-width="2"`
+
+**峰值 callout pill（強調最高柱）：**
+```xml
+<rect x="{peak_x}" y="148" width="112" height="26" rx="10" fill="#d97706" opacity="0.12"/>
+<text x="{peak_cx}" y="166" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">最多集中</text>
+```
+
+---
+
+### template-scatter.svg — 散佈圖
+
+**特徵：15 資料點、虛線趨勢線、三色群集、左上角圖例**
+
+**圖表區：** Y 軸 x=100，baseline y=410；x=100~760，y=140~410（h=270）
+
+**座標公式（模板範例）：**
+- X 軸：床位數 20~100，`x_scale = (760-100)/(100-20) = 8.25 px/unit`
+  `x = 100 + (beds - 20) × 8.25`
+- Y 軸：評鑑分數 60~100，`y_scale = 270/40 = 6.75 px/unit`
+  `y = 410 - (score - 60) × 6.75`
+
+**三色群集：**
+
+| 群集 | 顏色 | r | 說明 |
+|------|-----|---|-----|
+| 得分 90+（最優） | `#d97706` | 9 | 稍大圓，突顯優秀群 |
+| 得分 80-89 | `#78716c` | 7 | 標準圓 |
+| 得分 < 80 | `#a8a29e` | 7 | 標準圓 |
+
+**趨勢線（虛線琥珀色，半透明）：**
+```xml
+<line x1="{x_start}" y1="{y_start}" x2="{x_end}" y2="{y_end}"
+      stroke="#d97706" stroke-width="2" stroke-dasharray="8,5" opacity="0.5"/>
+```
+
+**趨勢標籤 pill（右上角）：**
+```xml
+<rect x="490" y="150" width="120" height="26" rx="10" fill="#d97706" opacity="0.12"/>
+<text x="550" y="168" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">正相關趨勢</text>
+```
+
+**圖例（左上角，y=148~216 無資料點安全區）：**
+- 每列：circle r=6 at x=114，text x=128，cy 間距 23px
+- 確保圖例在 y=148~220 區域，避免與資料點重疊
+
+---
+
+### template-cover-quote.svg — 訪談引言封面
+
+**尺寸：1200×630（封面比例）**
+
+### 關鍵規格重點
+
+- **頂部「人物訪談」pill 為硬編碼**（非 placeholder），需改類型時直接替換文字
+- 右側頭像外圈 **r=135**（非 r=92），cx=1010 cy=**205**
+- 肩部為**圓形** path（非 ellipse），cx=1010 cy=276.902 r≈44
+- 引言 y 基線：**189.556 / 253.556 / 317.556**（非 182/246/310）
+- 受訪者姓名 y=**398.44** font=40（非 398）
+- 職稱 y=**439.336** font=26（非 442）
+- **此版型沒有主標題（L1/L2）、沒有副標題、沒有左側 pills、沒有適用對象**
+
+### 骨架 XML
+
+> ⚠️ 複製後必須把 `clip0_1_99` 改為 `clip-{article-slug}`。
+
+```xml
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip-{slug})">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 頂部類別 pill（硬編碼「人物訪談」，需改類型時替換文字） -->
+<path opacity="0.12" d="M182 56H70C64.4772 56 60 60.4772 60 66V86C60 91.5228 64.4772 96 70 96H182C187.523 96 192 91.5228 192 86V66C192 60.4772 187.523 56 182 56Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="78" y="87.964">人物訪談</tspan></text>
+<!-- 琥珀縱向強調線 (x=60, y=116, w=8, h=330) -->
+<path d="M68 116H60V446H68V116Z" fill="#D97706"/>
+<!-- 引言（3 行，行距 64px） -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="46" font-weight="bold" letter-spacing="0em"><tspan x="90" y="189.556">{引言第一行文字}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="46" font-weight="bold" letter-spacing="0em"><tspan x="90" y="253.556">{引言第二行文字}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="46" font-weight="bold" letter-spacing="0em"><tspan x="90" y="317.556">{引言第三行（結語或繼續）}</tspan></text>
+<path d="M60 345H760" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="398.44">{受訪者姓名}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="26" letter-spacing="0em"><tspan x="90" y="439.336">{職稱・所屬機構}</tspan></text>
+<!-- 右側頭像剪影（外圈 r=135，頭 cy=160.978，身 cy=276.902） -->
+<path d="M1010 340C1084.56 340 1145 279.558 1145 205C1145 130.442 1084.56 70 1010 70C935.442 70 875 130.442 875 205C875 279.558 935.442 340 1010 340Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M1010 205C1034.31 205 1054.02 185.291 1054.02 160.978C1054.02 136.666 1034.31 116.957 1010 116.957C985.687 116.957 965.978 136.666 965.978 160.978C965.978 185.291 985.687 205 1010 205Z" fill="#C4BFB8"/>
+<path d="M1010 317.989C1058.63 317.989 1098.04 299.594 1098.04 276.902C1098.04 254.21 1058.63 235.815 1010 235.815C961.375 235.815 921.957 254.21 921.957 276.902C921.957 299.594 961.375 317.989 1010 317.989Z" fill="#C4BFB8"/>
+<!-- 右側文字資訊 -->
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="963.242" y="373.22">{機構名稱}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="968.662" y="410.58">{姓名}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="980.566" y="439.592">{職稱}</tspan></text>
+<!-- 右側標籤 pills（兩列） -->
+<path opacity="0.12" d="M1000 460H880C874.477 460 870 464.477 870 470V486C870 491.523 874.477 496 880 496H1000C1005.52 496 1010 491.523 1010 486V470C1010 464.477 1005.52 460 1000 460Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="898.686" y="487.592">{標籤一}</tspan></text>
+<path opacity="0.12" d="M1000 506H880C874.477 506 870 510.477 870 516V532C870 537.523 874.477 542 880 542H1000C1005.52 542 1010 537.523 1010 532V516C1010 510.477 1005.52 506 1000 506Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="898.686" y="533.592">{標籤二}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-{slug}">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+```
+
+---
+
 ## 凍結保護機制
 
 部分 SVG 已定稿，**禁止修改**。凍結的 SVG 第一行會有以下標記：
@@ -1116,7 +1789,9 @@ npm run svg:validate -- public/blog/{filename}.svg --verbose
 - [ ] **文字色只用 `#1e293b`（標題）或 `#57534e`（內容）**
 - [ ] 單張圖項目數未超過密度上限
 - [ ] 所有顏色來自本文件定義的色彩系統
-- [ ] 包含「報告汪 reportwang.com」品牌浮水印（內文 y=480 / 封面 y=590）
+- [ ] 包含「報告汪 reportwang.com」品牌浮水印（內文 y=480 / **封面 y=593.964**，vs 模板 y=591.592）
+- [ ] **封面類 SVG 浮水印 fill=`#D97706`**（琥珀色）；內文類為 `#d97706`（同色）
+- [ ] **封面類 clip-path id 不得使用原模板 `clip0_1_XXX`**，必須改為 article-unique，例如 `clip-{article-slug}`，避免多張 SVG 同頁面碰撞
 - [ ] 檔案命名符合 `{機構}-{主題}-{類型}.svg` 格式
 - [ ] SVG 自包含（無外部圖片引用、無 JavaScript）
 - [ ] 中文文字正確顯示（用繁體中文）

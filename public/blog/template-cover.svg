@@ -1,66 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
-  <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!--
-    右側高度計算：
-    · 大數字 font-size=180, baseline=y=239, 頂部≈y=104（與左側主標題頂部對齊）
-    · 最後卡片底部 ≤ 左側適用對象 y=558 ✓
-  -->
-
-  <!-- 右側裝飾大數字（頂部對齊左側主標題） -->
-  <text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">{數字}</text>
-  <text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">{數字說明}</text>
-
-  <!-- 右側 2×2 資訊卡片（row1 y=299, row2 y=395, h=86）
-       垂直置中：title_y = rect_y + 43 - 31/2 + 28×0.35 ≈ rect_y + 37
-                sub_y   = title_y + 31（固定行距）
-  -->
-  <rect x="840" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{卡片標題 1}</text>
-  <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 1}</text>
-
-  <rect x="1005" y="299" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">{卡片標題 2}</text>
-  <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 2}</text>
-
-  <rect x="840" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">{卡片標題 3}</text>
-  <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 3}</text>
-
-  <rect x="1005" y="395" width="155" height="86" rx="10" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{卡片標題 4}</text>
-  <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">{副文字 4}</text>
-
-  <!-- 右側底部標籤（底部 ≤ y=558）
-       單行置中：y = 491 + 52/2 + 28×0.35 ≈ 527
-  -->
-  <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="527" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">{底部標籤}</text>
-
-  <!-- 左側主內容區（主標題頂部≈y=104） -->
-  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">{主標題第 1 行}</text>
-  <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">{主標題第 2 行}</text>
-
-  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">{副標題}</text>
-
-  <!-- 特色標籤列（pill 高 54px，28px 文字） -->
-  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="483" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">{標籤 1}</text>
-
-  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="483" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">{標籤 2}</text>
-
-  <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="454" y="483" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">{標籤 3}</text>
-
-  <!-- 適用對象說明（y=558，底部≈y=565） -->
-  <text x="60" y="558" font-size="28" fill="#94a3b8">{適用對象說明}</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_238)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="816.59" y="212.54">{&#x6578;&#x5b57;}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="943.418" y="278.708">{&#x6578;&#x5b57;&#x8aaa;&#x660e;}</tspan></text>
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="845.002" y="342.708">{&#x5361;&#x7247;&#x6a19;&#x984c; 1}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="874.005" y="372.592">{&#x526f;&#x6587;&#x5b57; 1}</tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1010" y="342.708">{&#x5361;&#x7247;&#x6a19;&#x984c; 2}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="1039" y="372.592">{&#x526f;&#x6587;&#x5b57; 2}</tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="845.002" y="441.708">{&#x5361;&#x7247;&#x6a19;&#x984c; 3}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="874.005" y="471.592">{&#x526f;&#x6587;&#x5b57; 3}</tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1010" y="441.708">{&#x5361;&#x7247;&#x6a19;&#x984c; 4}</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="1039" y="471.592">{&#x526f;&#x6587;&#x5b57; 4}</tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="939.418" y="536.708">{&#x5e95;&#x90e8;&#x6a19;&#x7c64;}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="219.32">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 1 &#x884c;}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="357.32">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 2 &#x884c;}</tspan></text>
+<path d="M57.5 384H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="38" letter-spacing="0em"><tspan x="60" y="434.068">{&#x526f;&#x6a19;&#x984c;}</tspan></text>
+<path opacity="0.12" d="M198 454H70C64.4772 454 60 458.477 60 464V498C60 503.523 64.4772 508 70 508H198C203.523 508 208 503.523 208 498V464C208 458.477 203.523 454 198 454Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="493.708">{&#x6a19;&#x7c64; 1}</tspan></text>
+<path opacity="0.12" d="M358 454H230C224.477 454 220 458.477 220 464V498C220 503.523 224.477 508 230 508H358C363.523 508 368 503.523 368 498V464C368 458.477 363.523 454 358 454Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="493.708">{&#x6a19;&#x7c64; 2}</tspan></text>
+<path opacity="0.12" d="M518 454H390C384.477 454 380 458.477 380 464V498C380 503.523 384.477 508 390 508H518C523.523 508 528 503.523 528 498V464C528 458.477 523.523 454 518 454Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="493.708">{&#x6a19;&#x7c64; 3}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" letter-spacing="0em"><tspan x="60" y="549.708">{&#x9069;&#x7528;&#x5c0d;&#x8c61;&#x8aaa;&#x660e;}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">&#x5831;&#x544a;&#x6c6a; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_1_238">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

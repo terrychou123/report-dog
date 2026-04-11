@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_99)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<path opacity="0.12" d="M182 56H70C64.4772 56 60 60.4772 60 66V86C60 91.5228 64.4772 96 70 96H182C187.523 96 192 91.5228 192 86V66C192 60.4772 187.523 56 182 56Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="78" y="87.964">&#x4eba;&#x7269;&#x8a2a;&#x8ac7;</tspan></text>
+<path d="M68 116H60V446H68V116Z" fill="#D97706"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="46" font-weight="bold" letter-spacing="0em"><tspan x="90" y="189.556">{&#x5f15;&#x8a00;&#x7b2c;&#x4e00;&#x884c;&#x6587;&#x5b57;}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="46" font-weight="bold" letter-spacing="0em"><tspan x="90" y="253.556">{&#x5f15;&#x8a00;&#x7b2c;&#x4e8c;&#x884c;&#x6587;&#x5b57;}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="46" font-weight="bold" letter-spacing="0em"><tspan x="90" y="317.556">{&#x5f15;&#x8a00;&#x7b2c;&#x4e09;&#x884c;&#xff08;&#x7d50;&#x8a9e;&#x6216;&#x7e7c;&#x7e8c;&#xff09;}</tspan></text>
+<path d="M60 345H760" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="398.44">{&#x53d7;&#x8a2a;&#x8005;&#x59d3;&#x540d;}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="26" letter-spacing="0em"><tspan x="90" y="439.336">{&#x8077;&#x7a31;&#x30fb;&#x6240;&#x5c6c;&#x6a5f;&#x69cb;}</tspan></text>
+<path d="M1010 340C1084.56 340 1145 279.558 1145 205C1145 130.442 1084.56 70 1010 70C935.442 70 875 130.442 875 205C875 279.558 935.442 340 1010 340Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M1010 205C1034.31 205 1054.02 185.291 1054.02 160.978C1054.02 136.666 1034.31 116.957 1010 116.957C985.687 116.957 965.978 136.666 965.978 160.978C965.978 185.291 985.687 205 1010 205Z" fill="#C4BFB8"/>
+<path d="M1010 317.989C1058.63 317.989 1098.04 299.594 1098.04 276.902C1098.04 254.21 1058.63 235.815 1010 235.815C961.375 235.815 921.957 254.21 921.957 276.902C921.957 299.594 961.375 317.989 1010 317.989Z" fill="#C4BFB8"/>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="963.242" y="373.22">{&#x6a5f;&#x69cb;&#x540d;&#x7a31;}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="30" font-weight="bold" letter-spacing="0em"><tspan x="968.662" y="410.58">{&#x59d3;&#x540d;}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="980.566" y="439.592">{&#x8077;&#x7a31;}</tspan></text>
+<path opacity="0.12" d="M1000 460H880C874.477 460 870 464.477 870 470V486C870 491.523 874.477 496 880 496H1000C1005.52 496 1010 491.523 1010 486V470C1010 464.477 1005.52 460 1000 460Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="898.686" y="487.592">{&#x6a19;&#x7c64;&#x4e00;}</tspan></text>
+<path opacity="0.12" d="M1000 506H880C874.477 506 870 510.477 870 516V532C870 537.523 874.477 542 880 542H1000C1005.52 542 1010 537.523 1010 532V516C1010 510.477 1005.52 506 1000 506Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="898.686" y="533.592">{&#x6a19;&#x7c64;&#x4e8c;}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">&#x5831;&#x544a;&#x6c6a; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_1_99">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>

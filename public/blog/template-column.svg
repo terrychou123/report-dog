@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="40" fill="#1e293b" font-weight="700">各年度整體通過率趨勢</text>
+
+  <!--
+    垂直柱狀圖（Column Chart / 年度對比）
+    圖表區: x=90~760（w=670），y=140~410（h=270）
+    基線 y=410，最大值 y=140（代表 100%）
+    5 根柱子（2021~2025）: w=80, gap=45, margin=45
+    x 座標: 135/260/385/510/635（中心: 175/300/425/550/675）
+    柱高計算: bar_h = round(value% / 100 × 270)，top_y = 410 - bar_h
+    Y 軸刻度: 25%/50%/75%/100% 對應 y=343/275/208/140
+    水平格線（虛線）於 y=208/275/343
+    最新一年（2025）用 #d97706 琥珀色，過去年份用 #a8a29e
+  -->
+
+  <!-- Y 軸線 & 基線 -->
+  <line x1="90" y1="140" x2="90" y2="415" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="90" y1="410" x2="760" y2="410" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 水平格線（虛線）-->
+  <line x1="90" y1="343" x2="760" y2="343" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="90" y1="275" x2="760" y2="275" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="90" y1="208" x2="760" y2="208" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="90" y1="140" x2="760" y2="140" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+
+  <!-- Y 軸刻度標籤（text-anchor=end, font-size=14）
+       text_y = scale_y + 14×0.35 = scale_y + 5 -->
+  <text x="82" y="415" font-size="14" fill="#a8a29e" text-anchor="end">0%</text>
+  <text x="82" y="348" font-size="14" fill="#a8a29e" text-anchor="end">25%</text>
+  <text x="82" y="280" font-size="14" fill="#a8a29e" text-anchor="end">50%</text>
+  <text x="82" y="213" font-size="14" fill="#a8a29e" text-anchor="end">75%</text>
+  <text x="82" y="145" font-size="14" fill="#a8a29e" text-anchor="end">100%</text>
+
+  <!--
+    柱 1（2021, 68%）: bar_h=184, top_y=226, fill=#a8a29e
+    柱 2（2022, 72%）: bar_h=194, top_y=216, fill=#a8a29e
+    柱 3（2023, 75%）: bar_h=203, top_y=207, fill=#78716c
+    柱 4（2024, 79%）: bar_h=213, top_y=197, fill=#78716c
+    柱 5（2025, 82%）: bar_h=221, top_y=189, fill=#d97706（強調）
+  -->
+
+  <!-- 柱 1（x=135, 2021, 68%） -->
+  <rect x="135" y="226" width="80" height="184" rx="4" fill="#a8a29e"/>
+  <!-- 數值標籤: text_y = top_y - 10 = 216 -->
+  <text x="175" y="216" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700">68%</text>
+  <!-- 年份標籤: y=428 -->
+  <text x="175" y="428" font-size="16" fill="#57534e" text-anchor="middle">2021</text>
+
+  <!-- 柱 2（x=260, 2022, 72%） -->
+  <rect x="260" y="216" width="80" height="194" rx="4" fill="#a8a29e"/>
+  <text x="300" y="206" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700">72%</text>
+  <text x="300" y="428" font-size="16" fill="#57534e" text-anchor="middle">2022</text>
+
+  <!-- 柱 3（x=385, 2023, 75%） -->
+  <rect x="385" y="207" width="80" height="203" rx="4" fill="#78716c"/>
+  <text x="425" y="197" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">75%</text>
+  <text x="425" y="428" font-size="16" fill="#57534e" text-anchor="middle">2023</text>
+
+  <!-- 柱 4（x=510, 2024, 79%） -->
+  <rect x="510" y="197" width="80" height="213" rx="4" fill="#78716c"/>
+  <text x="550" y="187" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">79%</text>
+  <text x="550" y="428" font-size="16" fill="#57534e" text-anchor="middle">2024</text>
+
+  <!-- 柱 5（x=635, 2025, 82%，琥珀強調）-->
+  <rect x="635" y="189" width="80" height="221" rx="4" fill="#d97706"/>
+  <text x="675" y="179" font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">82%</text>
+  <text x="675" y="428" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">2025</text>
+
+  <!-- 最新年強調標籤（右上） -->
+  <rect x="632" y="148" width="120" height="28" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="692" y="167" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">最新數據</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

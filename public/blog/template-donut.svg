@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="44" fill="#1e293b" font-weight="700">評鑑等級分佈</text>
+
+  <!--
+    環形圖（Donut Chart）版型
+    圓心 cx=270, cy=290，外徑 R=145，內徑 r=85
+    4 個切片：40%（#d97706）/ 30%（#78716c）/ 20%（#57534e）/ 10%（#a8a29e）
+    角度從 12 點鐘（-90°）順時針起算
+
+    弧形路徑計算說明:
+    M inner_start → L outer_start → A outer_arc CW → L inner_end → A inner_arc CCW → Z
+
+    角度關鍵點（cos, sin）:
+    -90°: (0, -1)  → outer=(270,145) inner=(270,205)
+     54°: (0.5878, 0.8090) → outer=(355,407) inner=(320,359)
+    162°: (-0.9511, 0.3090) → outer=(132,335) inner=(189,316)
+    234°: (-0.5878, -0.8090) → outer=(185,173) inner=(220,221)
+  -->
+
+  <!-- Slice 1: 40%，#d97706，-90° to 54° -->
+  <path d="M 270 205 L 270 145 A 145 145 0 0 1 355 407 L 320 359 A 85 85 0 0 0 270 205 Z"
+        fill="#d97706" stroke="white" stroke-width="3"/>
+
+  <!-- Slice 2: 30%，#78716c，54° to 162° -->
+  <path d="M 320 359 L 355 407 A 145 145 0 0 1 132 335 L 189 316 A 85 85 0 0 0 320 359 Z"
+        fill="#78716c" stroke="white" stroke-width="3"/>
+
+  <!-- Slice 3: 20%，#57534e，162° to 234° -->
+  <path d="M 189 316 L 132 335 A 145 145 0 0 1 185 173 L 220 221 A 85 85 0 0 0 189 316 Z"
+        fill="#57534e" stroke="white" stroke-width="3"/>
+
+  <!-- Slice 4: 10%，#a8a29e，234° to 270°(-90°) -->
+  <path d="M 220 221 L 185 173 A 145 145 0 0 1 270 145 L 270 205 A 85 85 0 0 0 220 221 Z"
+        fill="#a8a29e" stroke="white" stroke-width="3"/>
+
+  <!-- 中心填色（確保圓孔乾淨） -->
+  <circle cx="270" cy="290" r="83" fill="#f0efe8"/>
+
+  <!-- 中心文字（雙行置中公式: gap=30）
+       line1_y = 290 - 15 + (18-36)×0.175 = 272
+       line2_y = 272 + 30 = 302 -->
+  <text x="270" y="272" font-size="18" fill="#a8a29e" text-anchor="middle">總計</text>
+  <text x="270" y="302" font-size="36" fill="#1e293b" text-anchor="middle" font-weight="700">100</text>
+
+  <!--
+    右側圖例（x=490~762，4 列，h=62，間距 70）
+    Row 結構: 白色卡片 + 左色條 + 類別名稱 + 百分比 + 迷你長條
+    text_y = row_y + 62/2 + 18×0.35 = row_y + 37
+    mini_bar_y = row_y + 43
+  -->
+
+  <!-- 圖例 Row 1 y=155：A 優等 40%，#d97706 -->
+  <rect x="490" y="155" width="272" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="490" y="155" width="6" height="62" rx="2" fill="#d97706"/>
+  <text x="510" y="192" font-size="18" fill="#1e293b" font-weight="700">A 優等</text>
+  <text x="752" y="192" font-size="18" fill="#d97706" text-anchor="end" font-weight="700">40%</text>
+  <!-- 迷你長條 -->
+  <rect x="510" y="200" width="230" height="8" rx="4" fill="#e8e6de"/>
+  <rect x="510" y="200" width="92" height="8" rx="4" fill="#d97706" opacity="0.7"/>
+
+  <!-- 圖例 Row 2 y=225：B 佳等 30%，#78716c -->
+  <rect x="490" y="225" width="272" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="490" y="225" width="6" height="62" rx="2" fill="#78716c"/>
+  <text x="510" y="262" font-size="18" fill="#1e293b" font-weight="700">B 佳等</text>
+  <text x="752" y="262" font-size="18" fill="#78716c" text-anchor="end" font-weight="700">30%</text>
+  <rect x="510" y="270" width="230" height="8" rx="4" fill="#e8e6de"/>
+  <rect x="510" y="270" width="69" height="8" rx="4" fill="#78716c" opacity="0.7"/>
+
+  <!-- 圖例 Row 3 y=295：C 合格 20%，#57534e -->
+  <rect x="490" y="295" width="272" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="490" y="295" width="6" height="62" rx="2" fill="#57534e"/>
+  <text x="510" y="332" font-size="18" fill="#1e293b" font-weight="700">C 合格</text>
+  <text x="752" y="332" font-size="18" fill="#57534e" text-anchor="end" font-weight="700">20%</text>
+  <rect x="510" y="340" width="230" height="8" rx="4" fill="#e8e6de"/>
+  <rect x="510" y="340" width="46" height="8" rx="4" fill="#57534e" opacity="0.7"/>
+
+  <!-- 圖例 Row 4 y=365：D 待改善 10%，#a8a29e -->
+  <rect x="490" y="365" width="272" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="490" y="365" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <text x="510" y="402" font-size="18" fill="#1e293b" font-weight="700">D 待改善</text>
+  <text x="752" y="402" font-size="18" fill="#a8a29e" text-anchor="end" font-weight="700">10%</text>
+  <rect x="510" y="410" width="230" height="8" rx="4" fill="#e8e6de"/>
+  <rect x="510" y="410" width="23" height="8" rx="4" fill="#a8a29e" opacity="0.7"/>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

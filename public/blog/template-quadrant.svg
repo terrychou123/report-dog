@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="40" fill="#1e293b" font-weight="700">急迫性 × 重要性 決策矩陣</text>
+
+  <!--
+    四象限版型（2×2 Quadrant）
+    格線: 垂直 x=400, 水平 y=295
+    格線範圍: x=28~772, y=145~445
+    四個象限卡片各 w=348, h=128
+    卡片間距 12px（格線兩側各 12px）
+    text_y 雙行: title_y = card_y+53, desc_y = card_y+77（gap=24, title 18px, desc 14px）
+  -->
+
+  <!-- 格線背景邊框 -->
+  <rect x="28" y="145" width="744" height="300" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 垂直分隔線（Y 軸） -->
+  <line x1="400" y1="145" x2="400" y2="445" stroke="#c4bfb8" stroke-dasharray="6,4" stroke-width="1.5"/>
+
+  <!-- 水平分隔線（X 軸） -->
+  <line x1="28" y1="295" x2="772" y2="295" stroke="#c4bfb8" stroke-dasharray="6,4" stroke-width="1.5"/>
+
+  <!-- 方向標籤 -->
+  <text x="400" y="152" font-size="14" fill="#a8a29e" text-anchor="middle">高</text>
+  <text x="400" y="443" font-size="14" fill="#a8a29e" text-anchor="middle">低</text>
+  <text x="33" y="293" font-size="14" fill="#a8a29e">低</text>
+  <text x="767" y="293" font-size="14" fill="#a8a29e" text-anchor="end">高</text>
+
+  <!-- 軸名稱小標 -->
+  <text x="196" y="461" font-size="14" fill="#a8a29e" text-anchor="middle">（急迫性：低至高）</text>
+  <text x="590" y="461" font-size="14" fill="#a8a29e" text-anchor="middle">（急迫性：低至高）</text>
+
+  <!--
+    Q2（右上）: 高重要 × 高急迫 → 立即行動（最優先）#d97706
+    card: x=412, y=155, w=348, h=128
+  -->
+  <rect x="412" y="155" width="348" height="128" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="412" y="155" width="6" height="128" rx="2" fill="#d97706"/>
+  <!-- 右上角標籤 pill -->
+  <rect x="702" y="163" width="50" height="22" rx="6" fill="#d97706" opacity="0.12"/>
+  <text x="727" y="178" font-size="14" fill="#d97706" text-anchor="middle">優先</text>
+  <!-- 標題: title_y = 155+53=208, desc_y=232 -->
+  <text x="430" y="208" font-size="18" fill="#1e293b" font-weight="700">立即行動</text>
+  <text x="430" y="232" font-size="14" fill="#57534e">最高優先，本週內必須完成</text>
+
+  <!--
+    Q1（左上）: 高重要 × 低急迫 → 計畫推進 #78716c
+    card: x=40, y=155, w=348, h=128
+  -->
+  <rect x="40" y="155" width="348" height="128" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="155" width="6" height="128" rx="2" fill="#78716c"/>
+  <rect x="330" y="163" width="50" height="22" rx="6" fill="#78716c" opacity="0.12"/>
+  <text x="355" y="178" font-size="14" fill="#78716c" text-anchor="middle">計畫</text>
+  <!-- title_y=208, desc_y=232 -->
+  <text x="58" y="208" font-size="18" fill="#1e293b" font-weight="700">計畫推進</text>
+  <text x="58" y="232" font-size="14" fill="#57534e">重要但非緊急，排入中期計畫</text>
+
+  <!--
+    Q4（右下）: 低重要 × 高急迫 → 委派處理 #57534e
+    card: x=412, y=307, w=348, h=128
+  -->
+  <rect x="412" y="307" width="348" height="128" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="412" y="307" width="6" height="128" rx="2" fill="#57534e"/>
+  <rect x="702" y="315" width="50" height="22" rx="6" fill="#57534e" opacity="0.12"/>
+  <text x="727" y="330" font-size="14" fill="#57534e" text-anchor="middle">委派</text>
+  <!-- title_y = 307+53=360, desc_y=384 -->
+  <text x="430" y="360" font-size="18" fill="#1e293b" font-weight="700">委派處理</text>
+  <text x="430" y="384" font-size="14" fill="#57534e">緊急但重要性低，可授權他人</text>
+
+  <!--
+    Q3（左下）: 低重要 × 低急迫 → 暫緩評估 #a8a29e
+    card: x=40, y=307, w=348, h=128
+  -->
+  <rect x="40" y="307" width="348" height="128" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="40" y="307" width="6" height="128" rx="2" fill="#a8a29e"/>
+  <rect x="330" y="315" width="50" height="22" rx="6" fill="#a8a29e" opacity="0.12"/>
+  <text x="355" y="330" font-size="14" fill="#a8a29e" text-anchor="middle">暫緩</text>
+  <!-- title_y=360, desc_y=384 -->
+  <text x="58" y="360" font-size="18" fill="#1e293b" font-weight="700">暫緩評估</text>
+  <text x="58" y="384" font-size="14" fill="#57534e">影響較小，可延後或取消</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_168)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="328.086" y="102.88">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 1 &#x884c;}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="328.086" y="194.88">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 2 &#x884c;}</tspan></text>
+<path d="M40 218H1160" stroke="#DEDAD3" stroke-width="2"/>
+<path opacity="0.12" d="M504 236H384C378.477 236 374 240.477 374 246V268C374 273.523 378.477 278 384 278H504C509.523 278 514 273.523 514 268V246C514 240.477 509.523 236 504 236Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="401.145" y="266.964">{&#x6a19;&#x7c64; 1}</tspan></text>
+<path opacity="0.12" d="M660 236H540C534.477 236 530 240.477 530 246V268C530 273.523 534.477 278 540 278H660C665.523 278 670 273.523 670 268V246C670 240.477 665.523 236 660 236Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="557.145" y="266.964">{&#x6a19;&#x7c64; 2}</tspan></text>
+<path opacity="0.12" d="M816 236H696C690.477 236 686 240.477 686 246V268C686 273.523 690.477 278 696 278H816C821.523 278 826 273.523 826 268V246C826 240.477 821.523 236 816 236Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="713.145" y="266.964">{&#x6a19;&#x7c64; 3}</tspan></text>
+<path d="M519.769 297H55.2308C46.819 297 40 303.225 40 310.903V535.097C40 542.775 46.819 549 55.2308 549H519.769C528.181 549 535 542.775 535 535.097V310.903C535 303.225 528.181 297 519.769 297Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75.6543" y="341.592">{&#x9078;&#x9805; A &#x540d;&#x7a31;}</tspan></text>
+<path d="M65 360H535" stroke="#E8E6DE"/>
+<path opacity="0.15" d="M205 314H75C69.4772 314 65 318.477 65 324V340C65 345.523 69.4772 350 75 350H205C210.523 350 215 345.523 215 340V324C215 318.477 210.523 314 205 314Z" fill="#D97706"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="398.592">{&#x6bd4;&#x8f03;&#x91cd;&#x9ede; 1}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="434.592">{&#x6bd4;&#x8f03;&#x91cd;&#x9ede; 2}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="470.592">{&#x6bd4;&#x8f03;&#x91cd;&#x9ede; 3}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="75" y="512.912">{&#x88dc;&#x5145;&#x8aaa;&#x660e;&#x6216;&#x95dc;&#x9375;&#x5dee;&#x7570;}</tspan></text>
+<path d="M1144.77 297H680.231C671.819 297 665 303.225 665 310.903V535.097C665 542.775 671.819 549 680.231 549H1144.77C1153.18 549 1160 542.775 1160 535.097V310.903C1160 303.225 1153.18 297 1144.77 297Z" fill="white" stroke="#78716C" stroke-width="3"/>
+<path d="M665 360H1135" stroke="#E8E6DE"/>
+<path opacity="0.15" d="M826 314H696C690.477 314 686 318.477 686 324V340C686 345.523 690.477 350 696 350H826C831.523 350 836 345.523 836 340V324C836 318.477 831.523 314 826 314Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696.214" y="341.592">{&#x9078;&#x9805; B &#x540d;&#x7a31;}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="398.592">{&#x6bd4;&#x8f03;&#x91cd;&#x9ede; 1}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="434.592">{&#x6bd4;&#x8f03;&#x91cd;&#x9ede; 2}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="470.592">{&#x6bd4;&#x8f03;&#x91cd;&#x9ede; 3}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="17" letter-spacing="0em"><tspan x="696" y="512.912">{&#x88dc;&#x5145;&#x8aaa;&#x660e;&#x6216;&#x95dc;&#x9375;&#x5dee;&#x7570;}</tspan></text>
+<path d="M600 456C622.091 456 640 438.091 640 416C640 393.909 622.091 376 600 376C577.909 376 560 393.909 560 416C560 438.091 577.909 456 600 456Z" fill="#F0EFE8" stroke="#D97706" stroke-width="3"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="580.312" y="429.952">VS</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="22" letter-spacing="0em"><tspan x="879.924" y="591.592">&#x5831;&#x544a;&#x6c6a; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_1_168">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>

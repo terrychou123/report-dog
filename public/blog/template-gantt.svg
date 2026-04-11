@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="40" fill="#1e293b" font-weight="700">評鑑準備甘特圖（8 週計畫）</text>
+
+  <!--
+    甘特圖（Gantt Chart）版型
+    左欄（x=28~210）: 準備工作名稱（w=185）
+    右欄（x=220~772）: 時間軸（w=552，共 8 週，每週 69px）
+    週次中心: x = 220 + n×69 + 34.5（n=0..7）
+    W1 center=254, W2=323, W3=392, W4=461, W5=530, W6=599, W7=668, W8=737
+    格線 x: 220, 289, 358, 427, 496, 565, 634, 703, 772
+    Row 高 h=48，間距 56，共 5 列
+    bar_y = row_y+10, bar_h=28
+    text_y = row_y + 24 + 16×0.35 = row_y+30
+  -->
+
+  <!-- 時間軸表頭（y=140, h=30） -->
+  <!-- 表頭背景 -->
+  <rect x="28" y="140" width="185" height="30" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="220" y="140" width="552" height="30" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 表頭文字: text_y = 140+15+14×0.35 = 159.9 ≈ 160 -->
+  <text x="36" y="160" font-size="14" fill="#57534e" font-weight="700">準備工作</text>
+  <!-- 週次標籤（font-size=14, text-anchor=middle） -->
+  <text x="254" y="160" font-size="14" fill="#57534e" text-anchor="middle">W1</text>
+  <text x="323" y="160" font-size="14" fill="#57534e" text-anchor="middle">W2</text>
+  <text x="392" y="160" font-size="14" fill="#57534e" text-anchor="middle">W3</text>
+  <text x="461" y="160" font-size="14" fill="#57534e" text-anchor="middle">W4</text>
+  <text x="530" y="160" font-size="14" fill="#57534e" text-anchor="middle">W5</text>
+  <text x="599" y="160" font-size="14" fill="#57534e" text-anchor="middle">W6</text>
+  <text x="668" y="160" font-size="14" fill="#57534e" text-anchor="middle">W7</text>
+  <text x="737" y="160" font-size="14" fill="#57534e" text-anchor="middle">W8</text>
+
+  <!-- 垂直格線（y=140~448） -->
+  <line x1="220" y1="140" x2="220" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="289" y1="140" x2="289" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="358" y1="140" x2="358" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="427" y1="140" x2="427" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="496" y1="140" x2="496" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="565" y1="140" x2="565" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="634" y1="140" x2="634" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="703" y1="140" x2="703" y2="448" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="772" y1="140" x2="772" y2="448" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- Row 1（y=176）: 文件清查整備，#d97706，W1-W3 → x=220, w=3×69=207 -->
+  <rect x="28" y="176" width="185" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="213" y="176" width="559" height="48" fill="#f0efe8" stroke="#e8e6de" stroke-width="1"/>
+  <text x="36" y="206" font-size="15" fill="#1e293b" font-weight="700">文件清查整備</text>
+  <!-- 甘特條 bar_y=row_y+10=186, bar_h=28 -->
+  <rect x="221" y="186" width="205" height="28" rx="6" fill="#d97706" opacity="0.85"/>
+  <text x="324" y="205" font-size="14" fill="white" text-anchor="middle" font-weight="600">W1–W3</text>
+
+  <!-- Row 2（y=232）: 人員教育訓練，#78716c，W2-W6 → x=289, w=5×69=345 -->
+  <rect x="28" y="232" width="185" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="213" y="232" width="559" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="36" y="262" font-size="15" fill="#1e293b" font-weight="700">人員教育訓練</text>
+  <rect x="290" y="242" width="343" height="28" rx="6" fill="#78716c" opacity="0.85"/>
+  <text x="462" y="261" font-size="14" fill="white" text-anchor="middle" font-weight="600">W2–W6</text>
+
+  <!-- Row 3（y=288）: 環境硬體改善，#57534e，W3-W5 → x=358, w=3×69=207 -->
+  <rect x="28" y="288" width="185" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="213" y="288" width="559" height="48" fill="#f0efe8" stroke="#e8e6de" stroke-width="1"/>
+  <text x="36" y="318" font-size="15" fill="#1e293b" font-weight="700">環境硬體改善</text>
+  <rect x="359" y="298" width="205" height="28" rx="6" fill="#57534e" opacity="0.85"/>
+  <text x="461" y="317" font-size="14" fill="white" text-anchor="middle" font-weight="600">W3–W5</text>
+
+  <!-- Row 4（y=344）: 模擬評鑑演練，#a8a29e，W6-W7 → x=565, w=2×69=138 -->
+  <rect x="28" y="344" width="185" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="213" y="344" width="559" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="36" y="374" font-size="15" fill="#1e293b" font-weight="700">模擬評鑑演練</text>
+  <rect x="566" y="354" width="136" height="28" rx="6" fill="#a8a29e" opacity="0.85"/>
+  <text x="634" y="373" font-size="14" fill="white" text-anchor="middle" font-weight="600">W6–W7</text>
+
+  <!-- Row 5（y=400）: 正式評鑑，#94a3b8，W8 → x=703, w=69 -->
+  <rect x="28" y="400" width="185" height="48" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="213" y="400" width="559" height="48" fill="#f0efe8" stroke="#e8e6de" stroke-width="1"/>
+  <text x="36" y="430" font-size="15" fill="#1e293b" font-weight="700">正式評鑑</text>
+  <rect x="704" y="410" width="67" height="28" rx="6" fill="#94a3b8" opacity="0.85"/>
+  <text x="737" y="429" font-size="14" fill="white" text-anchor="middle" font-weight="600">W8</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

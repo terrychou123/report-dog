@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">床位數 vs 評鑑分數 相關性分析</text>
+
+  <!--
+    散佈圖（Scatter Plot）
+    圖表區: x=100~760（Y 軸 x=100），y=140~410（h=270）
+    X 軸: 床位數 20~100 → x_scale = (760-100)/(100-20) = 8.25 px/unit
+          x = 100 + (beds-20) × 8.25
+    Y 軸: 評鑑分數 60~100 → y_scale = 270/40 = 6.75 px/unit
+          y = 410 - (score-60) × 6.75
+    15 個資料點（機構樣本）
+    顏色分群: 得分 90+=#d97706 / 80-89=#78716c / <80=#a8a29e
+    虛線趨勢線: (141,329) → (719,187)，正相關趨勢
+    格線: 水平 y=343/275/208，垂直 x=265/430/595
+    圖例: 左上角（x=108，y=148~210 區域，無資料點）
+  -->
+
+  <!-- Y 軸線 & 基線 -->
+  <line x1="100" y1="140" x2="100" y2="415" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="100" y1="410" x2="760" y2="410" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 水平格線（y=343/275/208 對應 70/80/90 分）-->
+  <line x1="100" y1="343" x2="760" y2="343" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="100" y1="275" x2="760" y2="275" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="100" y1="208" x2="760" y2="208" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="100" y1="140" x2="760" y2="140" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+
+  <!-- 垂直格線（x=265/430/595 對應床位 40/60/80）-->
+  <line x1="265" y1="140" x2="265" y2="410" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="430" y1="140" x2="430" y2="410" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="595" y1="140" x2="595" y2="410" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+
+  <!-- Y 軸刻度標籤（text-anchor=end, x=92，text_y = scale_y+5） -->
+  <text x="92" y="415" font-size="14" fill="#a8a29e" text-anchor="end">60</text>
+  <text x="92" y="348" font-size="14" fill="#a8a29e" text-anchor="end">70</text>
+  <text x="92" y="280" font-size="14" fill="#a8a29e" text-anchor="end">80</text>
+  <text x="92" y="213" font-size="14" fill="#a8a29e" text-anchor="end">90</text>
+  <text x="92" y="145" font-size="14" fill="#a8a29e" text-anchor="end">100</text>
+  <!-- Y 軸標題 -->
+  <text x="28" y="137" font-size="14" fill="#a8a29e">評鑑分數</text>
+
+  <!-- X 軸刻度標籤（y=428） -->
+  <text x="100" y="428" font-size="14" fill="#a8a29e" text-anchor="middle">20</text>
+  <text x="265" y="428" font-size="14" fill="#a8a29e" text-anchor="middle">40</text>
+  <text x="430" y="428" font-size="14" fill="#a8a29e" text-anchor="middle">60</text>
+  <text x="595" y="428" font-size="14" fill="#a8a29e" text-anchor="middle">80</text>
+  <text x="760" y="428" font-size="14" fill="#a8a29e" text-anchor="middle">100</text>
+  <!-- X 軸標題 -->
+  <text x="430" y="455" font-size="14" fill="#a8a29e" text-anchor="middle">床位數（人）</text>
+
+  <!--
+    趨勢線（正相關，虛線，琥珀色淡化）
+    從 (141,329) 到 (719,187)，代表床位越多分數越高的趨勢
+  -->
+  <line x1="141" y1="329" x2="719" y2="187"
+        stroke="#d97706" stroke-width="2" stroke-dasharray="8,5" opacity="0.5"/>
+
+  <!-- 趨勢標籤 pill -->
+  <rect x="490" y="150" width="120" height="26" rx="10" fill="#d97706" opacity="0.12"/>
+  <!-- text_y = 150+13+14×0.35 = 167.9 ≈ 168 -->
+  <text x="550" y="168" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">正相關趨勢</text>
+
+  <!--
+    15 個資料點（r=7，依評鑑分數分色）
+    x = 100 + (beds-20) × 8.25
+    y = 410 - (score-60) × 6.75
+
+    #a8a29e（得分 <80）: 點 1,2,3,6
+    #78716c（得分 80-89）: 點 4,5,7,8,9,10,12,14
+    #d97706（得分 90+）: 點 11,13,15
+  -->
+
+  <!-- 得分 <80（灰石色）-->
+  <circle cx="141" cy="329" r="7" fill="#a8a29e"/>  <!-- beds=25, score=72 -->
+  <circle cx="183" cy="289" r="7" fill="#a8a29e"/>  <!-- beds=30, score=78 -->
+  <circle cx="224" cy="309" r="7" fill="#a8a29e"/>  <!-- beds=35, score=75 -->
+  <circle cx="347" cy="282" r="7" fill="#a8a29e"/>  <!-- beds=50, score=79 -->
+
+  <!-- 得分 80-89（暖灰色）-->
+  <circle cx="265" cy="275" r="7" fill="#78716c"/>  <!-- beds=40, score=80 -->
+  <circle cx="306" cy="262" r="7" fill="#78716c"/>  <!-- beds=45, score=82 -->
+  <circle cx="389" cy="241" r="7" fill="#78716c"/>  <!-- beds=55, score=85 -->
+  <circle cx="430" cy="255" r="7" fill="#78716c"/>  <!-- beds=60, score=83 -->
+  <circle cx="471" cy="221" r="7" fill="#78716c"/>  <!-- beds=65, score=88 -->
+  <circle cx="512" cy="235" r="7" fill="#78716c"/>  <!-- beds=70, score=86 -->
+  <circle cx="595" cy="214" r="7" fill="#78716c"/>  <!-- beds=80, score=89 -->
+  <circle cx="677" cy="228" r="7" fill="#78716c"/>  <!-- beds=90, score=87 -->
+
+  <!-- 得分 90+（琥珀色，最優群集）-->
+  <circle cx="554" cy="208" r="9" fill="#d97706"/>  <!-- beds=75, score=90 -->
+  <circle cx="636" cy="201" r="9" fill="#d97706"/>  <!-- beds=85, score=91 -->
+  <circle cx="719" cy="187" r="9" fill="#d97706"/>  <!-- beds=95, score=93 -->
+
+  <!--
+    圖例（左上角，上方無資料，y=148~216 安全區域）
+    circle r=6，text 起始 x=128，text_y = cy+5
+  -->
+  <circle cx="114" cy="158" r="6" fill="#d97706"/>
+  <text x="128" y="163" font-size="14" fill="#57534e">得分 90 分以上</text>
+
+  <circle cx="114" cy="181" r="6" fill="#78716c"/>
+  <text x="128" y="186" font-size="14" fill="#57534e">得分 80-89 分</text>
+
+  <circle cx="114" cy="204" r="6" fill="#a8a29e"/>
+  <text x="128" y="209" font-size="14" fill="#57534e">得分 80 分以下</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

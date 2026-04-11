@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">自主備評 vs 委外協助 方案比較</text>
+
+  <!--
+    A/B 側邊對照表（VS Compare Table）
+    欄位配置（x=28~772，total w=744）:
+    ‧ 面向欄（x=28, w=180）: 比較維度標籤
+    ‧ A 欄（x=209, w=282）: 方案 A（琥珀 #d97706）
+    ‧ B 欄（x=492, w=280）: 方案 B（暖灰 #78716c）
+    欄標題: y=136, h=48
+    4 列: y=192/248/304/360（h=50, 間距 56）
+    text_y 單行: row_y + 25 + 16×0.35 = row_y + 31
+  -->
+
+  <!-- 欄標題（y=136, h=48） -->
+  <!-- 面向欄（深色） -->
+  <rect x="28" y="136" width="180" height="48" fill="#1e293b" rx="0"/>
+  <!-- text_y = 136+24+18×0.35 = 136+24+6.3 = 166 -->
+  <text x="118" y="166" font-size="18" fill="white" text-anchor="middle" font-weight="700">比較面向</text>
+
+  <!-- A 欄（琥珀） -->
+  <rect x="209" y="136" width="282" height="48" fill="#d97706" rx="0"/>
+  <text x="350" y="166" font-size="18" fill="white" text-anchor="middle" font-weight="700">方案 A　自主備評</text>
+
+  <!-- B 欄（暖灰） -->
+  <rect x="492" y="136" width="280" height="48" fill="#78716c" rx="0"/>
+  <text x="632" y="166" font-size="18" fill="white" text-anchor="middle" font-weight="700">方案 B　委外協助</text>
+
+  <!-- ─── Row 1（y=192）: 準備時間，B 略優（速度快）─── -->
+  <rect x="28"  y="192" width="180" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="209" y="192" width="282" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="492" y="192" width="280" height="50" fill="#78716c" opacity="0.08" stroke="#e8e6de" stroke-width="1"/>
+  <!-- text_y = 192+31=223 -->
+  <text x="118" y="223" font-size="16" fill="#1e293b" font-weight="700" text-anchor="middle">準備時間</text>
+  <text x="220" y="223" font-size="16" fill="#57534e">8–12 週（自主主導）</text>
+  <text x="503" y="223" font-size="16" fill="#57534e">4–6 週（委外協助）</text>
+  <!-- B 欄勝出勾選（SVG 路徑，cx=752, cy=217） -->
+  <path d="M 747,217 L 751,222 L 758,213" fill="none" stroke="#78716c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ─── Row 2（y=248）: 成本費用，A 優 ─── -->
+  <rect x="28"  y="248" width="180" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="209" y="248" width="282" height="50" fill="#d97706" opacity="0.08" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="492" y="248" width="280" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- text_y = 248+31=279 -->
+  <text x="118" y="279" font-size="16" fill="#1e293b" font-weight="700" text-anchor="middle">成本費用</text>
+  <text x="220" y="279" font-size="16" fill="#57534e">低，以人力投入為主</text>
+  <text x="503" y="279" font-size="16" fill="#57534e">較高，需支付外部費</text>
+  <!-- A 欄勝出勾選（cx=471, cy=273） -->
+  <path d="M 466,273 L 470,278 L 477,269" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ─── Row 3（y=304）: 制度理解，A 優 ─── -->
+  <rect x="28"  y="304" width="180" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="209" y="304" width="282" height="50" fill="#d97706" opacity="0.08" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="492" y="304" width="280" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- text_y = 304+31=335 -->
+  <text x="118" y="335" font-size="16" fill="#1e293b" font-weight="700" text-anchor="middle">制度理解</text>
+  <text x="220" y="335" font-size="16" fill="#57534e">深入理解評鑑脈絡</text>
+  <text x="503" y="335" font-size="16" fill="#57534e">流程快速，理解較淺</text>
+  <path d="M 466,329 L 470,334 L 477,325" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ─── Row 4（y=360）: 永續效益，A 優 ─── -->
+  <rect x="28"  y="360" width="180" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="209" y="360" width="282" height="50" fill="#d97706" opacity="0.08" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="492" y="360" width="280" height="50" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- text_y = 360+31=391 -->
+  <text x="118" y="391" font-size="16" fill="#1e293b" font-weight="700" text-anchor="middle">永續效益</text>
+  <text x="220" y="391" font-size="16" fill="#57534e">制度完整，長期受益</text>
+  <text x="503" y="391" font-size="16" fill="#57534e">短期達標，下次仍需</text>
+  <path d="M 466,385 L 470,390 L 477,381" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 底部說明（圖例）-->
+  <rect x="28" y="424" width="14" height="14" rx="3" fill="#d97706" opacity="0.6"/>
+  <text x="48" y="436" font-size="14" fill="#57534e">底色：該列較優方案</text>
+  <path d="M 190,430 L 194,435 L 201,426" fill="none" stroke="#57534e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="209" y="436" font-size="14" fill="#57534e">勾選：建議優先選用</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

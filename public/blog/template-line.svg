@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76）底色白 -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706"/>
+  <text x="28" y="104" font-size="40" fill="#1e293b" font-weight="700">評鑑達標率逐年提升趨勢</text>
+
+  <!--
+    折線趨勢圖（Line Chart）
+    圖表區: x=90~760（w=670），y=140~410（h=270）
+    5 個資料點: x=175/300/425/550/675（與 template-column 相同中心座標）
+    數值: 65%/70%/73%/78%/82%
+    y 座標: value/100 × 270 → top_y = 410 - bar_h
+    ‧ 65%: y=235  ‧ 70%: y=221  ‧ 73%: y=213  ‧ 78%: y=199  ‧ 82%: y=189
+
+    元素順序（由下至上，避免遮蓋）:
+    1. 格線（虛線）
+    2. 面積填色（area fill，淡琥珀）
+    3. 折線（line path）
+    4. 資料點圓圈
+    5. 數值標籤
+  -->
+
+  <!-- Y 軸線 & 基線 -->
+  <line x1="90" y1="140" x2="90" y2="415" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="90" y1="410" x2="760" y2="410" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 水平格線（虛線）-->
+  <line x1="90" y1="343" x2="760" y2="343" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="90" y1="275" x2="760" y2="275" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="90" y1="208" x2="760" y2="208" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+  <line x1="90" y1="140" x2="760" y2="140" stroke="#e8e6de" stroke-dasharray="4,3" stroke-width="1"/>
+
+  <!-- Y 軸刻度標籤 -->
+  <text x="82" y="415" font-size="14" fill="#a8a29e" text-anchor="end">0%</text>
+  <text x="82" y="348" font-size="14" fill="#a8a29e" text-anchor="end">25%</text>
+  <text x="82" y="280" font-size="14" fill="#a8a29e" text-anchor="end">50%</text>
+  <text x="82" y="213" font-size="14" fill="#a8a29e" text-anchor="end">75%</text>
+  <text x="82" y="145" font-size="14" fill="#a8a29e" text-anchor="end">100%</text>
+
+  <!-- 面積填色（area fill，折線下方淡琥珀色）-->
+  <path d="M 175 235 L 300 221 L 425 213 L 550 199 L 675 189 L 675 410 L 175 410 Z"
+        fill="#d97706" opacity="0.08"/>
+
+  <!-- 折線（line path, stroke=#d97706, width=3）-->
+  <polyline points="175,235 300,221 425,213 550,199 675,189"
+            fill="none" stroke="#d97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 資料點（過去 4 年: 小圓圈，最新: 大圓強調）-->
+  <!-- 2021: x=175, y=235 -->
+  <circle cx="175" cy="235" r="6" fill="white" stroke="#a8a29e" stroke-width="2"/>
+  <!-- 2022: x=300, y=221 -->
+  <circle cx="300" cy="221" r="6" fill="white" stroke="#a8a29e" stroke-width="2"/>
+  <!-- 2023: x=425, y=213 -->
+  <circle cx="425" cy="213" r="6" fill="white" stroke="#78716c" stroke-width="2"/>
+  <!-- 2024: x=550, y=199 -->
+  <circle cx="550" cy="199" r="6" fill="white" stroke="#78716c" stroke-width="2"/>
+  <!-- 2025: x=675, y=189（最新，大圓琥珀色）-->
+  <circle cx="675" cy="189" r="10" fill="#d97706" stroke="white" stroke-width="2"/>
+
+  <!--
+    數值標籤（r=6: text_y=point_y-18; r=10: text_y=point_y-22）
+    font-size=16, text-anchor=middle
+  -->
+  <text x="175" y="217" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700">65%</text>
+  <text x="300" y="203" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="700">70%</text>
+  <text x="425" y="195" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">73%</text>
+  <text x="550" y="181" font-size="16" fill="#78716c" text-anchor="middle" font-weight="700">78%</text>
+  <!-- 2025 數值標籤（大圓上方）-->
+  <text x="675" y="167" font-size="18" fill="#d97706" text-anchor="middle" font-weight="700">82%</text>
+
+  <!-- X 軸年份標籤（y=428）-->
+  <text x="175" y="428" font-size="16" fill="#57534e" text-anchor="middle">2021</text>
+  <text x="300" y="428" font-size="16" fill="#57534e" text-anchor="middle">2022</text>
+  <text x="425" y="428" font-size="16" fill="#57534e" text-anchor="middle">2023</text>
+  <text x="550" y="428" font-size="16" fill="#57534e" text-anchor="middle">2024</text>
+  <text x="675" y="428" font-size="16" fill="#1e293b" text-anchor="middle" font-weight="700">2025</text>
+
+  <!-- 趨勢說明標籤（右上角 pill）-->
+  <rect x="614" y="148" width="138" height="28" rx="10" fill="#d97706" opacity="0.12"/>
+  <!-- text_y = 148+14+14×0.35 = 148+14+4.9 = 166.9 ≈ 167 -->
+  <text x="683" y="167" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">逐年穩定提升</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
