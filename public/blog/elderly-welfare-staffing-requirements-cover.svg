@@ -1,62 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 左側裝飾色塊 -->
-  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
-
-  <!-- 頂部裝飾線 -->
-  <rect x="60" y="60" width="480" height="6" fill="#d97706" rx="3"/>
-
-  <!-- 主標題第1行 -->
-  <text x="60" y="180"  font-size="100" font-weight="900" fill="#1e293b">老人福利機構</text>
-
-  <!-- 主標題第2行（琥珀色） -->
-  <text x="60" y="300"  font-size="100" font-weight="900" fill="#d97706">人力配置全解析</text>
-
-  <!-- 副標題 -->
-  <text x="60" y="370"  font-size="38" font-weight="500" fill="#57534e">五大職類法定標準，常見違規預防指南</text>
-
-  <!-- Pill 標籤 -->
-  <!-- Pill 1: A7-A11五職類 -->
-  <rect x="60" y="420" width="220" height="44" rx="22" fill="#d97706"/>
-  <text x="170" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">A7-A11五職類</text>
-
-  <!-- Pill 2: 法定比例 -->
-  <rect x="296" y="420" width="130" height="44" rx="22" fill="#78716c"/>
-  <text x="361" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">法定比例</text>
-
-  <!-- Pill 3: 常見違規 -->
-  <rect x="442" y="420" width="130" height="44" rx="22" fill="#57534e"/>
-  <text x="507" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">常見違規</text>
-
-  <!-- Pill 4: 定期追蹤 -->
-  <rect x="588" y="420" width="130" height="44" rx="22" fill="#a8a29e"/>
-  <text x="653" y="448"  font-size="20" font-weight="600" fill="white" text-anchor="middle">定期追蹤</text>
-
-  <!-- 右側裝飾區塊 -->
-  <rect x="840" y="100" width="300" height="320" rx="24" fill="white" opacity="0.7"/>
-
-  <!-- 五大職類清單 -->
-  <text x="990" y="155"  font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">五大職類</text>
-  <line x1="870" y1="170" x2="1110" y2="170" stroke="#e7e5e4" stroke-width="2"/>
-  <text x="870" y="208"  font-size="22" fill="#d97706" font-weight="600">A7</text>
-  <text x="910" y="208"  font-size="22" fill="#57534e">業務負責人</text>
-  <text x="870" y="248"  font-size="22" fill="#78716c" font-weight="600">A8</text>
-  <text x="910" y="248"  font-size="22" fill="#57534e">社工人員</text>
-  <text x="870" y="288"  font-size="22" fill="#57534e" font-weight="600">A9</text>
-  <text x="910" y="288"  font-size="22" fill="#57534e">護理人員</text>
-  <text x="870" y="328"  font-size="22" fill="#a8a29e" font-weight="600">A10</text>
-  <text x="916" y="328"  font-size="22" fill="#57534e">特約專業人員</text>
-  <text x="870" y="368"  font-size="22" fill="#94a3b8" font-weight="600">A11</text>
-  <text x="916" y="368"  font-size="22" fill="#57534e">照顧服務員</text>
-
-  <!-- 底部裝飾線 -->
-  <rect x="60" y="540" width="700" height="4" fill="#e7e5e4" rx="2"/>
-
-  <!-- 年度標示 -->
-  <text x="60" y="575"  font-size="26" fill="#a8a29e" font-weight="400">115年度老人福利機構評鑑</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
+<g clip-path="url(#clip-elderly-welfare-staffing-requirements)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">&#26989;&#21209;&#36000;&#36012;&#20154;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">&#35703;&#29702;&#20154;&#21729;</tspan></text>
+<!-- 右側白底卡片 -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">A10</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">A11</tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708"></tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">&#20154;&#21147;&#37197;&#32622;&#20840;&#35299;&#26512;</tspan></text>
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">A7-A11&#20116;&#32887;&#39006;</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#32769;&#20154;&#31119;&#21033;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#20154;&#21147;&#37197;&#32622;</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#35703;&#29702;&#20154;&#21729;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#20027;&#31649;&#33287;&#31038;&#24037;&#24107;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-elderly-welfare-staffing-requirements">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

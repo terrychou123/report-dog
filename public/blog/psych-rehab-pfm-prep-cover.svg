@@ -1,43 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- @template: cover -->
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
-  <!-- 右側大數字 7 -->
-  <text x="1010" y="260" font-size="200" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">7</text>
-  <!-- 項目說明 -->
-  <text x="1010" y="320" font-size="24" fill="#57534e" text-anchor="middle">住宿型 PFM 項目數</text>
-  <!-- 日間/住宿對比 -->
-  <rect x="858" y="360" width="130" height="54" rx="8" fill="#0ea5e9" opacity="0.12"/>
-  <text x="923" y="379" font-size="20" fill="#0ea5e9" text-anchor="middle" font-weight="700">日間型</text>
-  <text x="923" y="410" font-size="22" fill="#0ea5e9" text-anchor="middle" font-weight="700">5 項</text>
-  <rect x="1002" y="360" width="150" height="54" rx="8" fill="#7c3aed" opacity="0.12"/>
-  <text x="1077" y="379" font-size="20" fill="#7c3aed" text-anchor="middle" font-weight="700">住宿型</text>
-  <text x="1077" y="410" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="700">7 項</text>
-  <text x="1010" y="475" font-size="20" fill="#57534e" text-anchor="middle">評鑑委員直接訪談</text>
-  <text x="1010" y="500" font-size="20" fill="#57534e" text-anchor="middle">學員 ‧ 住民</text>
-  <!-- 左側主要內容 -->
-  <!-- 類別標籤 -->
-  <rect x="60" y="60" width="196" height="38" rx="19" fill="#d97706" opacity="0.12"/>
-  <text x="158" y="85" font-size="18" fill="#d97706" text-anchor="middle" font-weight="700">以病人為焦點查證</text>
-  <!-- 主標題 -->
-  <text x="60" y="180" font-size="78" fill="#1e293b" font-weight="700">PFM</text>
-  <text x="60" y="275" font-size="78" fill="#d97706" font-weight="700">訪談全攻略</text>
-  <!-- 分隔線 -->
-  <line x1="60" y1="305" x2="760" y2="305" stroke="#dedad3" stroke-width="2"/>
-  <!-- 副標題 -->
-  <text x="60" y="350" font-size="28" fill="#57534e">從評鑑委員視角逐一解析</text>
-  <text x="60" y="390" font-size="26" fill="#57534e">每項提問邏輯與達標判斷標準</text>
-  <!-- 標籤 Pills -->
-  <rect x="60" y="440" width="148" height="36" rx="18" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">日間型5項</text>
-  <rect x="222" y="440" width="148" height="36" rx="18" fill="#7c3aed" opacity="0.12"/>
-  <text x="296" y="463" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="600">住宿型7項</text>
-  <rect x="384" y="440" width="130" height="36" rx="18" fill="#d97706" opacity="0.12"/>
-  <text x="449" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">60天準備</text>
-  <rect x="528" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
-  <text x="602" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-psych-rehab-pfm-prep)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 頂部視角標籤 pill -->
+<path opacity="0.12" d="M234 90H70C64.4772 90 60 94.4772 60 100V155C60 160.523 64.4772 165 70 165H234C239.523 165 244 160.523 244 155V100C244 94.4772 239.523 90 234 90Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="78" y="139.44">&#31934;&#31070;&#24489;&#20581;&#27231;&#27083;&#35413;&#37969;</tspan></text>
+<!-- 左側垂直色條 -->
+<path d="M68 175H60V539H68V175Z" fill="#D97706"/>
+<!-- 引言三行 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="245.404">PFM&#65288;Patient Foc</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="316.404">&#35413;&#37969;&#22996;&#21729;&#30452;&#25509;&#35370;&#35527;&#23416;&#21729;&#25110;&#20303;&#27665;&#12290;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="387.404"></tspan></text>
+<!-- 分隔線 -->
+<path d="M82 412H782" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 受訪者資訊 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="463.88">&#31934;&#31070;&#24489;&#20581;&#27231;&#27083;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="40" letter-spacing="0em"><tspan x="90" y="518.776">&#31934;&#24489;&#35413;&#37969; &#183; &#29694;&#22580;&#35264;&#23519;</tspan></text>
+<!-- 右側頭像圓框 -->
+<path d="M1010 320C1079.04 320 1135 264.035 1135 195C1135 125.965 1079.04 70 1010 70C940.965 70 885 125.965 885 195C885 264.035 940.965 320 1010 320Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M1010 195C1032.51 195 1050.76 176.751 1050.76 154.239C1050.76 131.728 1032.51 113.479 1010 113.479C987.488 113.479 969.239 131.728 969.239 154.239C969.239 176.751 987.488 195 1010 195Z" fill="#C4BFB8"/>
+<path d="M1010 299.619C1055.03 299.619 1091.52 282.587 1091.52 261.576C1091.52 240.565 1055.03 223.532 1010 223.532C964.977 223.532 928.479 240.565 928.479 261.576C928.479 282.587 964.977 299.619 1010 299.619Z" fill="#C4BFB8"/>
+<!-- 機構名/組織 -->
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="938" y="363.964">&#31934;&#24489;&#27231;&#27083;&#35413;&#37969;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="930" y="408.44">&#35413;&#37969;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="962" y="438.964">&#29694;&#22580;&#26597;&#26680;</tspan></text>
+<!-- 右下 2 pills -->
+<path opacity="0.12" d="M1006 463H866C860.477 463 856 467.477 856 473V499C856 504.523 860.477 509 866 509H1006C1011.52 509 1016 504.523 1016 499V473C1016 467.477 1011.52 463 1006 463Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="888" y="491.964">&#26085;&#38291;&#22411;5&#38917;</tspan></text>
+<path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">&#20303;&#23487;&#22411;7&#38917;</tspan></text>
+<!-- 浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-psych-rehab-pfm-prep">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

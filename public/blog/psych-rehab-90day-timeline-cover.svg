@@ -1,50 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- @template: cover -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-  <!-- 大型裝飾數字 90 -->
-  <text x="1010" y="230" text-anchor="middle" font-size="190" fill="#d97706" opacity="0.85" font-weight="900">90</text>
-  <text x="1010" y="286" text-anchor="middle" font-size="28" fill="#57534e">天備評時間軸</text>
-  <line x1="880" y1="314" x2="1140" y2="314" stroke="#dedad3" stroke-width="1"/>
-  <text x="1010" y="352" text-anchor="middle" font-size="20" fill="#57534e">盤點 - 整備 - 演練</text>
-  <text x="1010" y="384" text-anchor="middle" font-size="20" fill="#57534e">三階段完整攻略</text>
-  <text x="1010" y="440" text-anchor="middle" font-size="18" fill="#78716c">日間型 36 條</text>
-  <text x="1010" y="468" text-anchor="middle" font-size="18" fill="#78716c">住宿型 40 條</text>
-  <text x="1010" y="496" text-anchor="middle" font-size="18" fill="#78716c">通用版</text>
-
-  <!-- 左側主要內容 -->
-  <rect x="60" y="56" width="220" height="36" rx="18" fill="#d97706" opacity="0.15"/>
-  <text x="170" y="79" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">115年度 精神復健機構</text>
-
-  <!-- 主標題 -->
-  <text x="60" y="190" font-size="80" fill="#1e293b" font-weight="900">評鑑前 90 天</text>
-  <text x="60" y="298" font-size="92" fill="#d97706" font-weight="900">準備時間軸</text>
-
-  <!-- 分隔線 -->
-  <line x1="60" y1="324" x2="760" y2="324" stroke="#dedad3" stroke-width="2"/>
-
-  <!-- 副標題 -->
-  <text x="60" y="372" font-size="32" fill="#57534e">從缺口盤點到 PFM 演練，每個環節都在對的時間點完成</text>
-
-  <!-- 三個階段標籤 -->
-  <rect x="60" y="410" width="200" height="40" rx="20" fill="#fef3c7"/>
-  <text x="160" y="435" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">D-90~60 盤點期</text>
-
-  <rect x="276" y="410" width="200" height="40" rx="20" fill="#f5f5f4"/>
-  <text x="376" y="435" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">D-60~30 整備期</text>
-
-  <rect x="492" y="410" width="200" height="40" rx="20" fill="#f5f0eb"/>
-  <text x="592" y="435" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">D-30~7 演練期</text>
-
-  <!-- PFM tag -->
-  <rect x="60" y="466" width="180" height="36" rx="18" fill="#eff6ff"/>
-  <text x="150" y="489" text-anchor="middle" font-size="16" fill="#2563eb" font-weight="600">PFM 訓練計畫</text>
-
-  <rect x="254" y="466" width="204" height="36" rx="18" fill="#fef2f2"/>
-  <text x="356" y="489" text-anchor="middle" font-size="16" fill="#dc2626" font-weight="600">住宿型 3.11 特別處理</text>
-
-  <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-psych-rehab-90day-timeline)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1201 0H821V630H1201V0Z" fill="#E8E6DE"/>
+<!-- 右側裝飾英雄數字（Pattern B: digit=160, CJK=60） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="899" y="232.76">90</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="60" font-weight="bold" letter-spacing="0em"><tspan x="1145" y="230.66">&#22825;</tspan></text>
+<!-- 右側階段標籤 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="844" y="279.848">&#31532; 1 &#38542;&#27573;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="971" y="279.848">&#31532; 2 &#38542;&#27573;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1101" y="279.848">&#31532; 3 &#38542;&#27573;</tspan></text>
+<!-- 連接線 -->
+<path d="M893 312H988" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M1028 312H1123" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<!-- 節點圓 -->
+<path d="M880 340C893.807 340 905 328.807 905 315C905 301.193 893.807 290 880 290C866.193 290 855 301.193 855 315C855 328.807 866.193 340 880 340Z" fill="#D97706"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="868" y="332.44">1</tspan></text>
+<path d="M1008 337C1021.81 337 1033 325.807 1033 312C1033 298.193 1021.81 287 1008 287C994.193 287 983 298.193 983 312C983 325.807 994.193 337 1008 337Z" fill="#78716C"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="996" y="329.44">2</tspan></text>
+<path d="M1138 337C1151.81 337 1163 325.807 1163 312C1163 298.193 1151.81 287 1138 287C1124.19 287 1113 298.193 1113 312C1113 325.807 1124.19 337 1138 337Z" fill="#57534E"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1126" y="329.44">3</tspan></text>
+<!-- 階段名稱與說明 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="834" y="367.592">&#22825;&#20633;&#35413;&#26178;&#38291;&#36600;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="840" y="391.912">&#30436;&#40670; - &#25972;&#20633; - &#28436;&#32244;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="964" y="367.592">&#19977;&#38542;&#27573;&#23436;&#25972;&#25915;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="963" y="391.912">&#26085;&#38291;&#22411; 36 &#26781;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1094" y="367.592">&#20303;&#23487;&#22411; 40</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="1093" y="391.912">&#36890;&#29992;&#29256;</tspan></text>
+<!-- 右側底部寬 pill -->
+<path opacity="0.12" d="M1155 500H865C859.477 500 855 504.477 855 510V538C855 543.523 859.477 548 865 548H1155C1160.52 548 1165 543.523 1165 538V510C1165 504.477 1160.52 500 1155 500Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="906.000" y="535.336">&#28310;&#20633;&#26178;&#38291;&#36600;&#28310;&#20633;&#35336;</tspan></text>
+<!-- 左側 L1（Pattern A） -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="60" y="232.2">90 </tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="361" y="221.76">&#22825;</tspan></text>
+<!-- 左側 L2 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="366.98">&#28310;&#20633;&#26178;&#38291;&#36600;</tspan></text>
+<path d="M60 397L821 397" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="450.816">D-90~60 &#30436;&#40670;&#26399;</tspan></text>
+<path opacity="0.12" d="M198 475.68H70C64.4772 475.68 60 480.157 60 485.68V511.68C60 517.203 64.4772 521.68 70 521.68H198C203.523 521.68 208 517.203 208 511.68V485.68C208 480.157 203.523 475.68 198 475.68Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="510.388">&#31934;&#31070;&#24489;&#20581;</tspan></text>
+<path opacity="0.12" d="M358 475.68H230C224.477 475.68 220 480.157 220 485.68V511.68C220 517.203 224.477 521.68 230 521.68H358C363.523 521.68 368 517.203 368 511.68V485.68C368 480.157 363.523 475.68 358 475.68Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="510.388">&#35413;&#37969;&#28310;&#20633;</tspan></text>
+<path opacity="0.12" d="M518 475.68H390C384.477 475.68 380 480.157 380 485.68V511.68C380 517.203 384.477 521.68 390 521.68H518C523.523 521.68 528 517.203 528 511.68V485.68C528 480.157 523.523 475.68 518 475.68Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="510.388">115&#24180;&#24230;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="568.388">&#36969;&#21512;&#31934;&#31070;&#24489;&#20581;&#27231;&#27083;&#20027;&#31649;&#21450;&#24037;&#20316;&#20154;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="601.892">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-psych-rehab-90day-timeline">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

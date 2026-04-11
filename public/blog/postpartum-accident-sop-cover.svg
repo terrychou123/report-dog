@@ -1,63 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!-- 右側大數字（7 類意外事件） -->
-  <text x="1010" y="215" font-size="148" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.88">7</text>
-  <text x="1010" y="257" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">類意外事件 SOP</text>
-
-  <!-- 右側 7 類清單 -->
-  <rect x="840" y="279" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="305" font-size="19" fill="#d97706" font-weight="700">1 跌倒</text>
-  <text x="940" y="320" font-size="19" fill="#57534e"> 2 燙傷</text>
-
-  <rect x="840" y="323" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="349" font-size="19" fill="#d97706" font-weight="700">3 嬰兒抱錯</text>
-  <text x="1000" y="364" font-size="19" fill="#57534e">4 嬰兒誘拐</text>
-
-  <rect x="840" y="367" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="393" font-size="19" fill="#d97706" font-weight="700">5 藥物錯誤</text>
-  <text x="1000" y="408" font-size="19" fill="#57534e">6 設備故障</text>
-
-  <rect x="840" y="411" width="320" height="38" rx="7" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="436" font-size="19" fill="#d97706" font-weight="700">7 其他重大事故</text>
-
-  <!-- 24小時通報強調 -->
-  <rect x="840" y="459" width="320" height="60" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="485" font-size="32" fill="#d97706" text-anchor="middle" font-weight="900">24 小時</text>
-  <text x="1000" y="516" font-size="20" fill="#d97706" text-anchor="middle" font-weight="600">通報時限（自發現時起算）</text>
-
-  <!-- 右側底部 -->
-  <rect x="840" y="529" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="562" font-size="21" fill="#57534e" text-anchor="middle">含 A2.2 評鑑前自我檢核清單</text>
-
-  <!-- 左側主標題 -->
-  <text x="60" y="178" font-size="96" font-weight="900" fill="#1e293b">意外事件 SOP</text>
-  <text x="60" y="284" font-size="96" font-weight="900" fill="#d97706">怎麼寫？</text>
-
-  <line x1="60" y1="316" x2="780" y2="316" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="362" font-size="36" fill="#57534e" font-weight="400">A2.2 · 7 類通報流程 × 追蹤改善範本</text>
-
-  <!-- 特色標籤列 -->
-  <rect x="60" y="390" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="149" y="425" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">SOP 框架</text>
-
-  <rect x="250" y="390" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="339" y="425" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">通報機制</text>
-
-  <rect x="440" y="390" width="178" height="52" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="529" y="425" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">演練記錄</text>
-
-  <!-- 適用對象 -->
-  <text x="60" y="472" font-size="28" fill="#94a3b8">護理主管 · 機構負責人 · 當班護理師</text>
-
-  <!-- 底部說明 -->
-  <text x="60" y="520" font-size="30" fill="#57534e" font-weight="500">評鑑委員可能現場詢問您的處理流程</text>
-  <text x="60" y="556" font-size="26" fill="#a8a29e">讓每位工作人員都知道自己在緊急時刻的崗位</text>
-
-  <!-- 浮水印 -->
-  <text x="780" y="600" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-postpartum-accident-sop)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">7</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416"></tspan></text>
+<!-- 右側白底卡片 -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">1 &#36300;&#20498;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">5 &#34277;&#29289;&#37679;&#35492;</tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">7 &#20854;&#20182;&#37325;&#22823;&#20107;&#25925;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#36890;&#22577;&#26178;&#38480;&#65288;&#33258;&#30332;&#29694;&#26178;&#36215;&#31639;&#65289;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#24847;&#22806;&#20107;&#20214; SOP</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">A2.2 &#183; 7 &#39006;&#36890;&#22577;&#27969;&#31243; &#215; &#36861;&#36452;&#25913;&#21892;&#31684;&#26412;</tspan></text>
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">SOP &#26694;&#26550;</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#29986;&#24460;&#35703;&#29702;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#23344;&#20818;&#35480;&#25296;</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#36300;&#20498;&#36890;&#22577;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#29986;&#24460;&#35703;&#29702;&#27231;&#27083;&#36000;&#36012;&#20154;&#33287;&#35703;&#29702;&#38263;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-postpartum-accident-sop">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

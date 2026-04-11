@@ -1,35 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- @template: cover -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-  <!-- 條號裝飾 -->
-  <text x="1010" y="236" text-anchor="middle" font-size="180" fill="#d97706" opacity="0.85" font-weight="900">2.6</text>
-  <line x1="880" y1="266" x2="1140" y2="266" stroke="#dedad3" stroke-width="1"/>
-  <text x="1010" y="308" text-anchor="middle" font-size="20" fill="#57534e">日間型：工作復健訓練</text>
-  <text x="1010" y="338" text-anchor="middle" font-size="20" fill="#57534e">及轉銜服務</text>
-  <line x1="880" y1="358" x2="1140" y2="358" stroke="#dedad3" stroke-width="1"/>
-  <text x="1010" y="398" text-anchor="middle" font-size="20" fill="#57534e">住宿型：職前準備</text>
-  <text x="1010" y="428" text-anchor="middle" font-size="20" fill="#57534e">工作轉介或就業輔導</text>
-
-  <rect x="60" y="56" width="230" height="36" rx="18" fill="#d97706" opacity="0.15"/>
-  <text x="175" y="79" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">115年度 精神復健機構</text>
-
-  <text x="60" y="188" font-size="76" fill="#1e293b" font-weight="900">工作復健訓練</text>
-  <text x="60" y="294" font-size="76" fill="#d97706" font-weight="900">評鑑準備攻略</text>
-
-  <line x1="60" y1="318" x2="760" y2="318" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="366" font-size="30" fill="#57534e">三類服務對象分流策略與必備轉銜紀錄</text>
-
-  <rect x="60" y="404" width="172" height="36" rx="18" fill="#fef3c7"/>
-  <text x="146" y="427" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">三類分流策略</text>
-
-  <rect x="246" y="404" width="172" height="36" rx="18" fill="#f5f5f4"/>
-  <text x="332" y="427" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">轉銜紀錄要點</text>
-
-  <rect x="432" y="404" width="196" height="36" rx="18" fill="#f0fdf4"/>
-  <text x="530" y="427" text-anchor="middle" font-size="16" fill="#16a34a" font-weight="600">日間型 vs 住宿型差異</text>
-
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-psych-rehab-work-rehab)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">2.6</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">&#26085;&#38291;&#22411;&#65306;&#24037;&#20316;&#24489;&#20581;&#35347;&#32244;</tspan></text>
+<!-- 右側白底卡片 -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708">&#26085;&#38291;&#22411;&#65306;&#24037;&#20316;&#24489;&#20581;&#35347;&#32244;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">&#20303;&#23487;&#22411;&#65306;&#32887;&#21069;&#28310;&#20633;</tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">&#24037;&#20316;&#36681;&#20171;&#25110;&#23601;&#26989;&#36628;&#23566;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708"></tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#24037;&#20316;&#24489;&#20581;&#35347;&#32244;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">&#19977;&#39006;&#26381;&#21209;&#23565;&#35937;&#20998;&#27969;&#31574;&#30053;&#33287;&#24517;&#20633;&#36681;&#37532;&#32000;&#37636;</tspan></text>
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#19977;&#39006;&#20998;&#27969;&#31574;&#30053;</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#31934;&#31070;&#24489;&#20581;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#24037;&#20316;&#24489;&#20581;</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#23601;&#26989;&#36681;&#37532;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#31934;&#31070;&#24489;&#20581;&#27231;&#27083;&#20027;&#31649;&#21450;&#24037;&#20316;&#20154;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-psych-rehab-work-rehab">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

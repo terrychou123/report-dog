@@ -1,62 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!-- 右側大數字 EPDS -->
-  <text x="1010" y="200" font-size="96" font-weight="900" fill="#7c3aed" text-anchor="middle" opacity="0.85">EPDS</text>
-  <text x="1010" y="242" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">愛丁堡產後憂鬱量表</text>
-
-  <!-- 分數區間卡片 -->
-  <rect x="840" y="265" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="283" font-size="22" fill="#16a34a" font-weight="700">0–9 分</text>
-  <text x="960" y="314" font-size="21" fill="#57534e">無明顯憂鬱症狀</text>
-
-  <rect x="840" y="323" width="320" height="52" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="341" font-size="22" fill="#d97706" font-weight="700">10–12 分</text>
-  <text x="980" y="372" font-size="21" fill="#57534e">輕度傾向需追蹤</text>
-
-  <rect x="840" y="381" width="320" height="52" rx="10" fill="#7c3aed" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="399" font-size="22" fill="#7c3aed" font-weight="700">>= 13 分</text>
-  <text x="952" y="430" font-size="21" fill="#57534e">建議轉介心理健康服務</text>
-
-  <rect x="840" y="439" width="320" height="52" rx="10" fill="#dc2626" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="456" font-size="19" fill="#dc2626" font-weight="700">第 10 題 >= 1 分</text>
-  <text x="1010" y="487" font-size="19" fill="#57534e">立即評估安全</text>
-
-  <!-- 右側底部 -->
-  <rect x="840" y="501" width="320" height="52" rx="10" fill="#7c3aed" opacity="0.10"/>
-  <text x="1000" y="537" font-size="24" fill="#7c3aed" text-anchor="middle" font-weight="700">10 題 · 0–30 分</text>
-
-  <rect x="840" y="559" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1000" y="588" font-size="20" fill="#57534e" text-anchor="middle">含護理記錄撰寫範例</text>
-
-  <!-- 左側主標題 -->
-  <text x="60" y="160" font-size="88" font-weight="900" fill="#1e293b">產後憂鬱</text>
-  <text x="60" y="254" font-size="88" font-weight="900" fill="#7c3aed">不只是心情不好</text>
-
-  <line x1="60" y1="286" x2="780" y2="286" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="332" font-size="34" fill="#57534e" font-weight="400">B1.1 · EPDS 篩檢流程 + 評鑑紀錄撰寫指南</text>
-
-  <!-- 特色標籤列 -->
-  <rect x="60" y="360" width="178" height="52" rx="10" fill="#7c3aed" opacity="0.10"/>
-  <text x="149" y="395" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="600">EPDS 判讀</text>
-
-  <rect x="250" y="360" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="339" y="395" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">施測時機</text>
-
-  <rect x="440" y="360" width="178" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="529" y="395" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">轉介流程</text>
-
-  <!-- 適用對象 -->
-  <text x="60" y="442" font-size="28" fill="#94a3b8">護產人員 · 護理主管 · 月子中心負責人</text>
-
-  <!-- 底部說明 -->
-  <text x="60" y="490" font-size="30" fill="#57534e" font-weight="500">有施測不夠，要有判讀記錄 + 後續追蹤</text>
-  <text x="60" y="528" font-size="26" fill="#a8a29e">讓每份 EPDS 量表都成為完整的評鑑依據</text>
-
-  <!-- 浮水印 -->
-  <text x="780" y="580" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-postpartum-depression-epds)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">EPDS</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416"></tspan></text>
+<!-- 右側白底卡片 -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">&#28961;&#26126;&#39023;&#24962;&#39729;&#30151;&#29376;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">>= 13 &#20998;</tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#24314;&#35696;&#36681;&#20171;&#24515;&#29702;&#20581;&#24247;&#26381;&#21209;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">&#31532; 10 &#38988; >= 1 &#20998;</tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">&#31435;&#21363;&#35413;&#20272;&#23433;&#20840;</tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">10 &#38988; &#183; 0&#8211;30 &#20998;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#29986;&#24460;&#24962;&#39729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">B1.1 &#183; EPDS &#31721;&#27298;&#27969;&#31243; + &#35413;&#37969;&#32000;&#37636;&#25776;&#23531;&#25351;&#21335;</tspan></text>
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">EPDS &#21028;&#35712;</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#29986;&#24460;&#24962;&#39729;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">EPDS</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#24859;&#19969;&#22561;&#29986;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#29986;&#24460;&#35703;&#29702;&#27231;&#27083;&#36000;&#36012;&#20154;&#33287;&#35703;&#29702;&#38263;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-postpartum-depression-epds">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

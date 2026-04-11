@@ -1,73 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 左色塊 -->
-  <rect x="0" y="0" width="500" height="630" fill="#d97706" opacity="0.07"/>
-  <rect x="60" y="60" width="6" height="510" fill="#d97706" opacity="0.5" rx="2"/>
-  <!-- 大數字裝飾 -->
-  <text x="80" y="400" font-size="320" font-weight="900" fill="#d97706" opacity="0.10">30</text>
-  <!-- 主標題 -->
-  <text x="90" y="155" font-size="50" font-weight="900" fill="#1c1917">護理之家</text>
-  <text x="90" y="218" font-size="50" font-weight="900" fill="#d97706">新任護理長</text>
-  <text x="90" y="280" font-size="44" font-weight="900" fill="#1c1917">30 天上手指南</text>
-  <!-- 副標題 -->
-  <text x="90" y="336" font-size="38" fill="#78716c">從接手到備戰評鑑的生存攻略</text>
-  <rect x="90" y="358" width="120" height="4" fill="#d97706" rx="2"/>
-  <!-- 4週計畫卡片 -->
-  <!-- 第1週 -->
-  <rect x="540" y="60" width="148" height="130" rx="12" fill="#ffffff" opacity="0.9"/>
-  <rect x="540" y="60" width="148" height="40" rx="12" fill="#d97706"/>
-  <rect x="540" y="88" width="148" height="12" fill="#d97706"/>
-  <text x="614" y="87" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="900">第 1 週</text>
-  <text x="614" y="118" font-size="24" text-anchor="middle" fill="#d97706" font-weight="700">盤點現況</text>
-  <text x="614" y="138" font-size="20" text-anchor="middle" fill="#78716c">索取評鑑報告</text>
-  <text x="614" y="156" font-size="20" text-anchor="middle" fill="#78716c">文件現況盤點</text>
-  <text x="614" y="174" font-size="20" text-anchor="middle" fill="#78716c">交接清單確認</text>
-  <!-- 第2週 -->
-  <rect x="708" y="60" width="148" height="130" rx="12" fill="#ffffff" opacity="0.9"/>
-  <rect x="708" y="60" width="148" height="40" rx="12" fill="#44403c"/>
-  <rect x="708" y="88" width="148" height="12" fill="#44403c"/>
-  <text x="782" y="87" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="900">第 2 週</text>
-  <text x="782" y="118" font-size="24" text-anchor="middle" fill="#44403c" font-weight="700">識別缺口</text>
-  <text x="782" y="138" font-size="20" text-anchor="middle" fill="#78716c">高風險項目</text>
-  <text x="782" y="156" font-size="20" text-anchor="middle" fill="#78716c">優先級分類</text>
-  <text x="782" y="174" font-size="20" text-anchor="middle" fill="#78716c">缺口清單製作</text>
-  <!-- 第3週 -->
-  <rect x="876" y="60" width="148" height="130" rx="12" fill="#ffffff" opacity="0.9"/>
-  <rect x="876" y="60" width="148" height="40" rx="12" fill="#d97706"/>
-  <rect x="876" y="88" width="148" height="12" fill="#d97706"/>
-  <text x="950" y="87" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="900">第 3 週</text>
-  <text x="950" y="118" font-size="24" text-anchor="middle" fill="#d97706" font-weight="700">建立分工</text>
-  <text x="950" y="138" font-size="20" text-anchor="middle" fill="#78716c">15項基準分配</text>
-  <text x="950" y="156" font-size="20" text-anchor="middle" fill="#78716c">負責人指定</text>
-  <text x="950" y="174" font-size="20" text-anchor="middle" fill="#78716c">週進度追蹤</text>
-  <!-- 第4週 -->
-  <rect x="1044" y="60" width="148" height="130" rx="12" fill="#ffffff" opacity="0.9"/>
-  <rect x="1044" y="60" width="148" height="40" rx="12" fill="#44403c"/>
-  <rect x="1044" y="88" width="148" height="12" fill="#44403c"/>
-  <text x="1118" y="87" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="900">第 4 週</text>
-  <text x="1118" y="118" font-size="24" text-anchor="middle" fill="#44403c" font-weight="700">系統化管理</text>
-  <text x="1118" y="138" font-size="20" text-anchor="middle" fill="#78716c">文件系統建立</text>
-  <text x="1118" y="156" font-size="20" text-anchor="middle" fill="#78716c">AI查核啟動</text>
-  <text x="1118" y="174" font-size="20" text-anchor="middle" fill="#78716c">自評時程設定</text>
-  <!-- 箭頭連接 -->
-  <text x="697" y="128" font-size="20" fill="#d97706" text-anchor="middle">-</text>
-  <text x="866" y="128" font-size="20" fill="#d97706" text-anchor="middle">-</text>
-  <text x="1034" y="128" font-size="20" fill="#d97706" text-anchor="middle">-</text>
-  <!-- 要點區 -->
-  <rect x="540" y="220" width="652" height="170" rx="12" fill="#ffffff" opacity="0.75"/>
-  <text x="570" y="254" font-size="24" font-weight="700" fill="#d97706">新任護理長最常犯的錯誤（要避免！）</text>
-  <text x="570" y="280" font-size="20" fill="#44403c">[x] 急著改變前任所有文件格式</text>
-  <text x="570" y="302" font-size="20" fill="#44403c">[x] 把 15 項基準的文書全部攬在自己身上</text>
-  <text x="570" y="324" font-size="20" fill="#44403c">[x] 只準備文件，忽略工作人員實際執行能力</text>
-  <text x="570" y="346" font-size="20" fill="#44403c">[x] 不追蹤上次評鑑缺失改善進度</text>
-  <!-- 底部裝飾 -->
-  <circle cx="1100" cy="560" r="160" fill="#d97706" opacity="0.05"/>
-  <!-- 標籤 -->
-  <rect x="90" y="390" width="140" height="36" rx="18" fill="#d97706"/>
-  <text x="160" y="413" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">115年度評鑑</text>
-  <rect x="250" y="390" width="160" height="36" rx="18" fill="#44403c"/>
-  <text x="330" y="413" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">護理長上手攻略</text>
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-general-nursing-home-new-director)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+
+<!-- 右側白底卡片 -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708"></tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#26032;&#20219;&#35703;&#29702;&#38263;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">&#24478;&#25509;&#25163;&#21040;&#20633;&#25136;&#35413;&#37969;&#30340;&#29983;&#23384;&#25915;&#30053;</tspan></text>
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">30</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#19968;&#33324;&#35703;&#29702;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#26032;&#20219;&#35703;&#29702;&#38263;</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#35703;&#29702;&#38263;&#19978;&#25163;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24037;&#20316;&#20154;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-general-nursing-home-new-director">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

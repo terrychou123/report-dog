@@ -1,55 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+<g clip-path="url(#clip-home-care-selfeval)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1010.000" y="92.336"></tspan></text>
+<path opacity="0.7" d="M1169 119H851C846.582 119 843 122.582 843 127V165C843 169.418 846.582 173 851 173H1169C1173.42 173 1177 169.418 1177 165V127C1177 122.582 1173.42 119 1169 119Z" fill="white"/>
+<path d="M878.5 131H857.5C855.015 131 853 133.015 853 135.5V156.5C853 158.985 855.015 161 857.5 161H878.5C880.985 161 883 158.985 883 156.5V135.5C883 133.015 880.985 131 878.5 131Z" stroke="#A8A29E" stroke-width="1.5"/>
+<path d="M860 141L869.286 151L886 131" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="154.22">&#35413;&#37969;&#38917;&#30446;</tspan></text>
+<path opacity="0.7" d="M1169 181H851C846.582 181 843 184.582 843 189V227C843 231.418 846.582 235 851 235H1169C1173.42 235 1177 231.418 1177 227V189C1177 184.582 1173.42 181 1169 181Z" fill="white"/>
+<path d="M878.5 193H857.5C855.015 193 853 195.015 853 197.5V218.5C853 220.985 855.015 223 857.5 223H878.5C880.985 223 883 220.985 883 218.5V197.5C883 195.015 880.985 193 878.5 193Z" stroke="#A8A29E" stroke-width="1.5"/>
+<path d="M860 203L869.286 213L886 193" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="216.22">&#33258;&#35413;&#22577;&#21578;</tspan></text>
+<path opacity="0.5" d="M1169 243H851C846.582 243 843 246.582 843 251V289C843 293.418 846.582 297 851 297H1169C1173.42 297 1177 293.418 1177 289V251C1177 246.582 1173.42 243 1169 243Z" fill="white"/>
+<path d="M878.5 255H857.5C855.015 255 853 257.015 853 259.5V280.5C853 282.985 855.015 285 857.5 285H878.5C880.985 285 883 282.985 883 280.5V259.5C883 257.015 880.985 255 878.5 255Z" stroke="#A8A29E" stroke-width="1.5"/>
 
-  <!-- 右側裝飾大數字 -->
-  <text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">30</text>
-  <text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">評鑑項目</text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="278.22">&#25913;&#21892;&#35336;&#30059;</tspan></text>
+<path opacity="0.5" d="M1169 305H851C846.582 305 843 308.582 843 313V351C843 355.418 846.582 359 851 359H1169C1173.42 359 1177 355.418 1177 351V313C1177 308.582 1173.42 305 1169 305Z" fill="white"/>
+<path d="M878.5 317H857.5C855.015 317 853 319.015 853 321.5V342.5C853 344.985 855.015 347 857.5 347H878.5C880.985 347 883 344.985 883 342.5V321.5C883 319.015 880.985 317 878.5 317Z" stroke="#A8A29E" stroke-width="1.5"/>
 
-  <!-- 右側 2×2 資訊卡片 -->
-  <rect x="840" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="336" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">自評報告</text>
-  <text x="918" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">項目30必做</text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="340.22">&#38917;&#30446;30&#24517;&#20570;</tspan></text>
+<path opacity="0.5" d="M1169 367H851C846.582 367 843 370.582 843 375V413C843 417.418 846.582 421 851 421H1169C1173.42 421 1177 417.418 1177 413V375C1177 370.582 1173.42 367 1169 367Z" fill="white"/>
+<path d="M878.5 379H857.5C855.015 379 853 381.015 853 383.5V404.5C853 406.985 855.015 409 857.5 409H878.5C880.985 409 883 406.985 883 404.5V383.5C883 381.015 880.985 379 878.5 379Z" stroke="#A8A29E" stroke-width="1.5"/>
 
-  <rect x="1005" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="336" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">改善計畫</text>
-  <text x="1083" y="367" font-size="22" fill="#a8a29e" text-anchor="middle">項目27-28</text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="402.22">&#38917;&#30446;27-28</tspan></text>
+<path opacity="0.5" d="M1169 429H851C846.582 429 843 432.582 843 437V475C843 479.418 846.582 483 851 483H1169C1173.42 483 1177 479.418 1177 475V437C1177 432.582 1173.42 429 1169 429Z" fill="white"/>
+<path d="M878.5 441H857.5C855.015 441 853 443.015 853 445.5V466.5C853 468.985 855.015 471 857.5 471H878.5C880.985 471 883 468.985 883 466.5V445.5C883 443.015 880.985 441 878.5 441Z" stroke="#A8A29E" stroke-width="1.5"/>
 
-  <rect x="840" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="918" y="432" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">品質迴路</text>
-  <text x="918" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">品質完整閉環</text>
-
-  <rect x="1005" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="1083" y="432" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">PDCA</text>
-  <text x="1083" y="463" font-size="22" fill="#a8a29e" text-anchor="middle">計畫執行查核</text>
-
-  <!-- 右側底部標籤 -->
-  <rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="527" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">機構自評正確做法</text>
-
-  <!-- 左側主內容區 -->
-  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">品質自評</text>
-  <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">檢核指南</text>
-
-  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">項目30機構自評的正確做法</text>
-
-  <!-- 特色標籤列 -->
-  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="487" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">機構自評</text>
-
-  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="487" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">品質管理</text>
-
-  <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="454" y="487" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">評鑑準備</text>
-
-  <!-- 適用對象說明 -->
-  <text x="60" y="558" font-size="28" fill="#94a3b8">適用：居家服務機構主管・品管人員</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="464.22">&#21697;&#36074;&#36852;&#36335;</tspan></text>
+<path opacity="0.12" d="M1166.23 501H853.774C847.824 501 843 505.477 843 511V539C843 544.523 847.824 549 853.774 549H1166.23C1172.18 549 1177 544.523 1177 539V511C1177 505.477 1172.18 501 1166.23 501Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="921.000" y="535.964">&#24050;&#23436;&#25104; 2 / 6 &#38917;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="211.32">&#21697;&#36074;&#33258;&#35413;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="361.76">&#27298;&#26680;&#25351;&#21335;</tspan></text>
+<path d="M60 388L820 388" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="436.068">&#38917;&#30446;30&#27231;&#27083;&#33258;&#35413;&#30340;&#27491;&#30906;&#20570;&#27861;</tspan></text>
+<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">&#23621;&#26381;&#21697;&#36074;</tspan></text>
+<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">&#33258;&#25105;&#27298;&#26680;</tspan></text>
+<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">&#27231;&#27083;&#33258;&#35413;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#23621;&#23478;&#26381;&#21209;&#27231;&#27083;&#36000;&#36012;&#20154;&#21450;&#30563;&#23566;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-home-care-selfeval">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

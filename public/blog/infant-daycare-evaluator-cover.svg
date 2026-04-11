@@ -1,24 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-  <rect x="60" y="60" width="140" height="36" rx="18" fill="#d97706"/>
-  <text x="130" y="83" font-size="16" fill="white" text-anchor="middle"  font-weight="700">實務技巧</text>
-  <text x="60" y="175" font-size="52" fill="#1e293b"  font-weight="900">委員視角</text>
-  <text x="60" y="245" font-size="52" fill="#d97706"  font-weight="900">評分邏輯拆解</text>
-  <text x="60" y="315" font-size="26" fill="#57534e"  font-weight="500">文件 / 實地 / 訪談三種查核方式</text>
-  <line x1="60" y1="350" x2="480" y2="350" stroke="#d97706" stroke-width="3"/>
-  <text x="60" y="395" font-size="20" fill="#78716c" >讓委員留下好印象的 4 大技巧</text>
-  <text x="60" y="428" font-size="20" fill="#78716c" >臺北市 114-116 年度托嬰中心評鑑</text>
-  <rect x="60" y="468" width="140" height="32" rx="16" fill="#f5f0e8" stroke="#d97706" stroke-width="1.5"/>
-  <text x="130" y="489" font-size="14" fill="#d97706" text-anchor="middle" >評鑑委員</text>
-  <rect x="212" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
-  <text x="272" y="489" font-size="14" fill="#78716c" text-anchor="middle" >評分邏輯</text>
-  <rect x="344" y="468" width="140" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
-  <text x="414" y="489" font-size="14" fill="#78716c" text-anchor="middle" >評鑑準備</text>
-  <!-- 右側大數字 -->
-  <text x="1010" y="290" font-size="150" fill="#d97706" text-anchor="middle"  font-weight="900" opacity="0.12">3</text>
-  <text x="1010" y="270" font-size="120" fill="#d97706" text-anchor="middle"  font-weight="900">3</text>
-  <text x="1010" y="350" font-size="28" fill="#78716c" text-anchor="middle" >大查核方式</text>
-  <text x="1010" y="398" font-size="22" fill="#a8a29e" text-anchor="middle" >文件 / 實地 / 訪談</text>
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
+<g clip-path="url(#clip-infant-daycare-evaluator)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 頂部視角標籤 pill -->
+<path opacity="0.12" d="M234 90H70C64.4772 90 60 94.4772 60 100V155C60 160.523 64.4772 165 70 165H234C239.523 165 244 160.523 244 155V100C244 94.4772 239.523 90 234 90Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="78" y="139.44">&#25176;&#23344;&#20013;&#24515;&#35413;&#37969;</tspan></text>
+<!-- 左側垂直色條 -->
+<path d="M68 175H60V539H68V175Z" fill="#D97706"/>
+<!-- 引言三行 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="245.404">&#30693;&#36947;&#35413;&#37969;&#22996;&#21729;&#30340;&#35413;&#20998;&#37007;&#36655;&#65292;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="316.404">&#28310;&#20633;&#26041;&#21521;&#23601;&#26371;&#23436;&#20840;&#19981;&#21516;&#12290;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="387.404"></tspan></text>
+<!-- 分隔線 -->
+<path d="M82 412H782" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 受訪者資訊 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="463.88">&#25176;&#23344;&#35413;&#37969;&#36039;&#28145;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="40" letter-spacing="0em"><tspan x="90" y="518.776">&#25176;&#23344;&#35413;&#37969; &#183; &#22996;&#21729;&#35264;&#23519;&#23526;&#37636;</tspan></text>
+<!-- 右側頭像圓框 -->
+<path d="M1010 320C1079.04 320 1135 264.035 1135 195C1135 125.965 1079.04 70 1010 70C940.965 70 885 125.965 885 195C885 264.035 940.965 320 1010 320Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M1010 195C1032.51 195 1050.76 176.751 1050.76 154.239C1050.76 131.728 1032.51 113.479 1010 113.479C987.488 113.479 969.239 131.728 969.239 154.239C969.239 176.751 987.488 195 1010 195Z" fill="#C4BFB8"/>
+<path d="M1010 299.619C1055.03 299.619 1091.52 282.587 1091.52 261.576C1091.52 240.565 1055.03 223.532 1010 223.532C964.977 223.532 928.479 240.565 928.479 261.576C928.479 282.587 964.977 299.619 1010 299.619Z" fill="#C4BFB8"/>
+<!-- 機構名/組織 -->
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="938" y="363.964">&#25176;&#23344;&#20013;&#24515;&#35413;&#37969;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="930" y="408.44">&#35413;&#37969;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="962" y="438.964">&#29694;&#22580;&#26597;&#26680;</tspan></text>
+<!-- 右下 2 pills -->
+<path opacity="0.12" d="M1006 463H866C860.477 463 856 467.477 856 473V499C856 504.523 860.477 509 866 509H1006C1011.52 509 1016 504.523 1016 499V473C1016 467.477 1011.52 463 1006 463Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="888" y="491.964">&#35413;&#37969;&#22996;&#21729;</tspan></text>
+<path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">&#35413;&#20998;&#37007;&#36655;</tspan></text>
+<!-- 浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-infant-daycare-evaluator">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

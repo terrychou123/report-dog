@@ -1,64 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 右側裝飾區 -->
-  <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
-
-  <!-- 主標題第1行 -->
-  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" >6大品質</text>
-  <!-- 主標題第2行 -->
-  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" >監測指標</text>
-
-  <!-- 分隔線 -->
-  <line x1="60" y1="322" x2="760" y2="322" stroke="#dedad3" stroke-width="2"/>
-
-  <!-- 副標題 -->
-  <text x="60" y="366" font-size="36" fill="#57534e" >跌倒、壓傷、約束、感染等完整解析</text>
-
-  <!-- 特色標籤列 -->
-  <rect x="60" y="396" width="100" height="40" rx="20" fill="#d97706"/>
-  <text x="110" y="421" font-size="20" fill="white" text-anchor="middle" >B1.7</text>
-
-  <rect x="176" y="396" width="140" height="40" rx="20" fill="#78716c"/>
-  <text x="246" y="421" font-size="20" fill="white" text-anchor="middle" >月報追蹤</text>
-
-  <rect x="332" y="396" width="160" height="40" rx="20" fill="#57534e"/>
-  <text x="412" y="421" font-size="20" fill="white" text-anchor="middle" >PDCA改善</text>
-
-  <!-- 適用對象說明 -->
-  <text x="60" y="476" font-size="26" fill="#57534e" >適用對象：品質管理負責人、護理長</text>
-
-  <!-- 右側裝飾大數字 -->
-  <text x="900" y="260" font-size="200" font-weight="bold" fill="#d97706"  opacity="0.9">6</text>
-  <!-- 右側說明文字 -->
-  <text x="990" y="305" font-size="26" fill="#57534e" text-anchor="middle" >品質監測指標</text>
-
-  <!-- 右側 2x2 資訊卡片 -->
-  <!-- 卡片1 -->
-  <rect x="825" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="380" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >跌倒</text>
-  <text x="907" y="411" font-size="15" fill="#57534e" text-anchor="middle" >月監測</text>
-  <text x="907" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >發生率計算</text>
-
-  <!-- 卡片2 -->
-  <rect x="1005" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="380" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >壓力性損傷</text>
-  <text x="1087" y="411" font-size="15" fill="#57534e" text-anchor="middle" >盛行率</text>
-  <text x="1087" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >點盛行率調查</text>
-
-  <!-- 卡片3 -->
-  <rect x="825" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="907" y="495" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >約束</text>
-  <text x="907" y="526" font-size="15" fill="#57534e" text-anchor="middle" >最小化</text>
-  <text x="907" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >約束率監測</text>
-
-  <!-- 卡片4 -->
-  <rect x="1005" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
-  <text x="1087" y="495" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >感染</text>
-  <text x="1087" y="526" font-size="15" fill="#57534e" text-anchor="middle" >密度計算</text>
-  <text x="1087" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >感染密度追蹤</text>
-
-  <!-- 品牌浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
+<g clip-path="url(#clip-psychiatric-nursing-home-quality-indicators)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="1010.000" y="103.696"></tspan></text>
+<path d="M1179 506H841C840.448 506 840 506.448 840 507C840 507.552 840.448 508 841 508H1179C1179.55 508 1180 507.552 1180 507C1180 506.448 1179.55 506 1179 506Z" fill="#A8A29E"/>
+<path opacity="0.9" d="M893 166H861C857.686 166 855 168.686 855 172V500C855 503.314 857.686 506 861 506H893C896.314 506 899 503.314 899 500V172C899 168.686 896.314 166 893 166Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
+<path opacity="0.9" d="M958 226H926C922.686 226 920 228.686 920 232V500C920 503.314 922.686 506 926 506H958C961.314 506 964 503.314 964 500V232C964 228.686 961.314 226 958 226Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
+<path opacity="0.9" d="M1023 306H991C987.686 306 985 308.686 985 312V500C985 503.314 987.686 506 991 506H1023C1026.31 506 1029 503.314 1029 500V312C1029 308.686 1026.31 306 1023 306Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
+<path opacity="0.9" d="M1088 366H1056C1052.69 366 1050 368.686 1050 372V500C1050 503.314 1052.69 506 1056 506H1088C1091.31 506 1094 503.314 1094 500V372C1094 368.686 1091.31 366 1088 366Z" fill="#A8A29E"/>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
+<path opacity="0.9" d="M1153 426H1121C1117.69 426 1115 428.686 1115 432V500C1115 503.314 1117.69 506 1121 506H1153C1156.31 506 1159 503.314 1159 500V432C1159 428.686 1156.31 426 1153 426Z" fill="#94A3B8"/>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">&#21697;&#36074;&#30435;&#28204;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">&#36300;&#20498;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">&#22739;&#21147;&#24615;&#25613;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">&#26376;&#30435;&#28204;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">&#30427;&#34892;&#29575;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="211.32">6&#22823;&#21697;&#36074;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="361.76">&#30435;&#28204;&#25351;&#27161;</tspan></text>
+<path d="M60 388H820" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="436.068">B1.7</tspan></text>
+<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">&#31934;&#31070;&#35703;&#29702;</tspan></text>
+<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">115&#24180;&#24230;</tspan></text>
+<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">&#21697;&#36074;&#30435;&#28204;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#31934;&#31070;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24107;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-psychiatric-nursing-home-quality-indicators">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

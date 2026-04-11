@@ -1,57 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!-- 右側裝飾大數字 -->
-  <text x="1010" y="219" font-size="150" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">12</text>
-  <text x="1010" y="261" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">週倒數計畫</text>
-
-  <!-- 右側 3 個階段時程條 -->
-  <rect x="840" y="283" width="320" height="70" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="840" y="283" width="7" height="70" rx="2" fill="#d97706"/>
-  <text x="862" y="311" font-size="24" fill="#d97706" font-weight="700">第 1–4 週</text>
-  <text x="862" y="342" font-size="20" fill="#78716c">差距盤點 · 補強急迫缺口</text>
-
-  <rect x="840" y="367" width="320" height="70" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="840" y="367" width="7" height="70" rx="2" fill="#78716c"/>
-  <text x="862" y="395" font-size="24" fill="#78716c" font-weight="700">第 5–8 週</text>
-  <text x="862" y="426" font-size="20" fill="#78716c">文件補強 · 系統整理</text>
-
-  <rect x="840" y="451" width="320" height="70" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="840" y="451" width="7" height="70" rx="2" fill="#57534e"/>
-  <text x="862" y="479" font-size="24" fill="#57534e" font-weight="700">第 9–12 週</text>
-  <text x="862" y="510" font-size="20" fill="#78716c">自評確認 · 模擬演練</text>
-
-  <!-- 右側底部標籤 -->
-  <rect x="840" y="535" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="570" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">每週明確任務 · 準備不慌亂</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="586" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
-
-  <!-- 左側主內容區 -->
-  <text x="60" y="190" font-size="110" font-weight="900" fill="#1e293b">評鑑前 90 天</text>
-  <text x="60" y="318" font-size="110" font-weight="900" fill="#d97706">倒數計畫</text>
-
-  <line x1="60" y1="348" x2="780" y2="348" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="400" font-size="36" fill="#57534e" font-weight="400">12 週工作清單 · 每週該完成什麼？</text>
-
-  <!-- 特色標籤列 -->
-  <rect x="60" y="434" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="471" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">12 週計畫</text>
-
-  <rect x="220" y="434" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="471" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">差距盤點</text>
-
-  <rect x="380" y="434" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="454" y="471" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">模擬演練</text>
-
-  <rect x="540" y="434" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
-  <text x="614" y="471" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">115 年度</text>
-
-  <!-- 適用對象 -->
-  <text x="60" y="540" font-size="28" fill="#94a3b8">適用對象：居家護理所負責人 · 護理長</text>
+<g clip-path="url(#clip-home-nursing-90day-countdown)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1201 0H821V630H1201V0Z" fill="#E8E6DE"/>
+<!-- 右側裝飾英雄數字（Pattern B: digit=160, CJK=60） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="899" y="232.76">12</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="60" font-weight="bold" letter-spacing="0em"><tspan x="1145" y="230.66">&#22825;</tspan></text>
+<!-- 右側階段標籤 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="844" y="279.848">&#31532; 1 &#38542;&#27573;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="971" y="279.848">&#31532; 2 &#38542;&#27573;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1101" y="279.848">&#31532; 3 &#38542;&#27573;</tspan></text>
+<!-- 連接線 -->
+<path d="M893 312H988" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M1028 312H1123" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<!-- 節點圓 -->
+<path d="M880 340C893.807 340 905 328.807 905 315C905 301.193 893.807 290 880 290C866.193 290 855 301.193 855 315C855 328.807 866.193 340 880 340Z" fill="#D97706"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="868" y="332.44">1</tspan></text>
+<path d="M1008 337C1021.81 337 1033 325.807 1033 312C1033 298.193 1021.81 287 1008 287C994.193 287 983 298.193 983 312C983 325.807 994.193 337 1008 337Z" fill="#78716C"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="996" y="329.44">2</tspan></text>
+<path d="M1138 337C1151.81 337 1163 325.807 1163 312C1163 298.193 1151.81 287 1138 287C1124.19 287 1113 298.193 1113 312C1113 325.807 1124.19 337 1138 337Z" fill="#57534E"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1126" y="329.44">3</tspan></text>
+<!-- 階段名稱與說明 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="834" y="367.592">&#31532; 1&#8211;4 </tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="840" y="391.912">&#24046;&#36317;&#30436;&#40670; &#183; &#35036;&#24375;&#24613;&#36843;&#32570;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="964" y="367.592">&#31532; 5&#8211;8 </tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="963" y="391.912">&#25991;&#20214;&#35036;&#24375; &#183; &#31995;&#32113;&#25972;&#29702;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1094" y="367.592">&#31532; 9&#8211;12</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="1093" y="391.912">&#33258;&#35413;&#30906;&#35469; &#183; &#27169;&#25836;&#28436;&#32244;</tspan></text>
+<!-- 右側底部寬 pill -->
+<path opacity="0.12" d="M1155 500H865C859.477 500 855 504.477 855 510V538C855 543.523 859.477 548 865 548H1155C1160.52 548 1165 543.523 1165 538V510C1165 504.477 1160.52 500 1155 500Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="958.000" y="535.336">&#20498;&#25976;&#35336;&#30059;</tspan></text>
+<!-- 左側 L1（Pattern A） -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="60" y="232.2">12 </tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="361" y="221.76">&#22825;</tspan></text>
+<!-- 左側 L2 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="366.98">&#20498;&#25976;&#35336;&#30059;</tspan></text>
+<path d="M60 397L821 397" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="450.816">12 &#36913;&#24037;&#20316;&#28165;&#21934; &#183; &#27599;&#36913;&#35442;&#23436;&#25104;&#20160;&#40636;&#65311;</tspan></text>
+<path opacity="0.12" d="M198 475.68H70C64.4772 475.68 60 480.157 60 485.68V511.68C60 517.203 64.4772 521.68 70 521.68H198C203.523 521.68 208 517.203 208 511.68V485.68C208 480.157 203.523 475.68 198 475.68Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="510.388">&#23621;&#23478;&#35703;&#29702;</tspan></text>
+<path opacity="0.12" d="M358 475.68H230C224.477 475.68 220 480.157 220 485.68V511.68C220 517.203 224.477 521.68 230 521.68H358C363.523 521.68 368 517.203 368 511.68V485.68C368 480.157 363.523 475.68 358 475.68Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="510.388">&#35413;&#37969;&#28310;&#20633;</tspan></text>
+<path opacity="0.12" d="M518 475.68H390C384.477 475.68 380 480.157 380 485.68V511.68C380 517.203 384.477 521.68 390 521.68H518C523.523 521.68 528 517.203 528 511.68V485.68C528 480.157 523.523 475.68 518 475.68Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="510.388">&#35413;&#37969;&#20498;&#25976;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="568.388">&#36969;&#21512;&#23621;&#23478;&#35703;&#29702;&#25152;&#20027;&#20219;&#21450;&#35703;&#29702;&#20154;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="601.892">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-home-nursing-90day-countdown">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

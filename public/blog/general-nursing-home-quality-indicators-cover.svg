@@ -1,52 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!-- 右側裝飾大字「B3」 -->
-  <text x="1010" y="250" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">B3</text>
-  <text x="1010" y="290" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">品質監測評鑑基準</text>
-
-  <!-- 右側 5 大指標卡片（y=310~540，每個 h=42，間距 10） -->
-  <rect x="840" y="310" width="320" height="42" rx="8" fill="#d97706" opacity="0.15"/>
-  <text x="1000" y="337" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">跌倒發生率（件/千人日）</text>
-
-  <rect x="840" y="362" width="320" height="42" rx="8" fill="#78716c" opacity="0.12"/>
-  <text x="1000" y="389" font-size="24" fill="#78716c" text-anchor="middle" font-weight="700">壓傷發生率（院內新發生）</text>
-
-  <rect x="840" y="414" width="320" height="42" rx="8" fill="#57534e" opacity="0.12"/>
-  <text x="1000" y="441" font-size="24" fill="#57534e" text-anchor="middle" font-weight="700">導管相關感染率（CAUTI）</text>
-
-  <rect x="840" y="466" width="320" height="42" rx="8" fill="#a8a29e" opacity="0.12"/>
-  <text x="1000" y="493" font-size="24" fill="#1e293b" text-anchor="middle" font-weight="700">約束使用率</text>
-
-  <rect x="840" y="518" width="320" height="42" rx="8" fill="#d97706" opacity="0.12"/>
-  <text x="1000" y="545" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">非計畫性住院率</text>
-
-  <!-- 左側主內容區 -->
-  <text x="60" y="195" font-size="110" font-weight="900" fill="#1e293b">品質指標</text>
-  <text x="60" y="330" font-size="110" font-weight="900" fill="#d97706">PDCA 追蹤</text>
-
-  <!-- 分隔線 -->
-  <line x1="60" y1="358" x2="780" y2="358" stroke="#dedad3" stroke-width="2"/>
-
-  <!-- 副標題 -->
-  <text x="60" y="408" font-size="38" fill="#57534e" font-weight="400">跌倒、壓傷、感染 — 每季分析實戰教學</text>
-
-  <!-- 特色標籤列 -->
-  <rect x="60" y="444" width="150" height="52" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="135" y="479" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">評鑑準備</text>
-
-  <rect x="224" y="444" width="140" height="52" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="479" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">B3 基準</text>
-
-  <rect x="378" y="444" width="150" height="52" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="453" y="479" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">115 年度</text>
-
-  <!-- 適用對象說明 -->
-  <text x="60" y="558" font-size="28" fill="#94a3b8">適用：護理長、品管負責人、護理師</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-general-nursing-home-quality-indicators)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="1010.000" y="103.696"></tspan></text>
+<path d="M1179 506H841C840.448 506 840 506.448 840 507C840 507.552 840.448 508 841 508H1179C1179.55 508 1180 507.552 1180 507C1180 506.448 1179.55 506 1179 506Z" fill="#A8A29E"/>
+<path opacity="0.9" d="M893 166H861C857.686 166 855 168.686 855 172V500C855 503.314 857.686 506 861 506H893C896.314 506 899 503.314 899 500V172C899 168.686 896.314 166 893 166Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
+<path opacity="0.9" d="M958 226H926C922.686 226 920 228.686 920 232V500C920 503.314 922.686 506 926 506H958C961.314 506 964 503.314 964 500V232C964 228.686 961.314 226 958 226Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
+<path opacity="0.9" d="M1023 306H991C987.686 306 985 308.686 985 312V500C985 503.314 987.686 506 991 506H1023C1026.31 506 1029 503.314 1029 500V312C1029 308.686 1026.31 306 1023 306Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
+<path opacity="0.9" d="M1088 366H1056C1052.69 366 1050 368.686 1050 372V500C1050 503.314 1052.69 506 1056 506H1088C1091.31 506 1094 503.314 1094 500V372C1094 368.686 1091.31 366 1088 366Z" fill="#A8A29E"/>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
+<path opacity="0.9" d="M1153 426H1121C1117.69 426 1115 428.686 1115 432V500C1115 503.314 1117.69 506 1121 506H1153C1156.31 506 1159 503.314 1159 500V432C1159 428.686 1156.31 426 1153 426Z" fill="#94A3B8"/>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">&#21697;&#36074;&#30435;&#28204;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">&#32004;&#26463;&#20351;&#29992;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">&#38750;&#35336;&#30059;&#24615;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">&#20154;&#21147;&#37197;&#32622;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">&#20491;&#26696;&#32000;&#37636;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="219.32">&#21697;&#36074;&#25351;&#27161;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="357.32">PDCA &#36861;&#36452;</tspan></text>
+<path d="M60 384H820" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="432.068">&#36300;&#20498;&#12289;&#22739;&#20663;&#12289;&#24863;&#26579; &#8212; &#27599;&#23395;&#20998;&#26512;&#23526;&#25136;&#25945;&#23416;</tspan></text>
+<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">&#19968;&#33324;&#35703;&#29702;</tspan></text>
+<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">&#21697;&#36074;&#25351;&#27161;</tspan></text>
+<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">PDCA</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24037;&#20316;&#20154;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-general-nursing-home-quality-indicators">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

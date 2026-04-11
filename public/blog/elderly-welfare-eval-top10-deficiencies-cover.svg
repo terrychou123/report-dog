@@ -1,49 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 右側裝飾區塊 -->
-  <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
-
-  <!-- 右側大數字裝飾 -->
-  <text x="870" y="320" font-size="220" font-weight="900" fill="#d97706" opacity="0.85" >10</text>
-  <text x="870" y="390" font-size="36" fill="#57534e"  font-weight="600">常見缺失</text>
-  <text x="870" y="435" font-size="28" fill="#78716c" >評鑑委員最在意</text>
-  <text x="870" y="475" font-size="28" fill="#78716c" >的審查重點</text>
-
-  <!-- 左側主內容區 -->
-  <!-- 頂部類別標籤 -->
-  <rect x="60" y="48" width="180" height="38" rx="19" fill="#d97706"/>
-  <text x="150" y="72" font-size="18" fill="white" text-anchor="middle"  font-weight="600">老人福利機構</text>
-
-  <!-- 主標題第1行 -->
-  <text x="60" y="185" font-size="100" font-weight="900" fill="#1e293b" >老人福利機構</text>
-
-  <!-- 主標題第2行 -->
-  <text x="60" y="295" font-size="100" font-weight="900" fill="#d97706" >評鑑 10 大缺失</text>
-
-  <!-- 分隔線 -->
-  <line x1="60" y1="320" x2="740" y2="320" stroke="#d97706" stroke-width="3" opacity="0.6"/>
-
-  <!-- 副標題 -->
-  <text x="60" y="368" font-size="38" fill="#57534e" >過來人親歷分享．補救策略完整指南</text>
-
-  <!-- Pill 標籤群 -->
-  <rect x="60" y="408" width="164" height="42" rx="21" fill="#1e293b"/>
-  <text x="142" y="434" font-size="18" fill="white" text-anchor="middle" >常見缺失分析</text>
-
-  <rect x="238" y="408" width="156" height="42" rx="21" fill="#78716c"/>
-  <text x="316" y="434" font-size="18" fill="white" text-anchor="middle" >補救行動清單</text>
-
-  <rect x="408" y="408" width="112" height="42" rx="21" fill="#57534e"/>
-  <text x="464" y="434" font-size="18" fill="white" text-anchor="middle" >預防策略</text>
-
-  <rect x="534" y="408" width="156" height="42" rx="21" fill="#d97706"/>
-  <text x="612" y="434" font-size="18" fill="white" text-anchor="middle" >AI 自我查核</text>
-
-  <!-- 年度標示 -->
-  <text x="60" y="510" font-size="28" fill="#a8a29e" >115年度評鑑適用</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
+<g clip-path="url(#clip-elderly-welfare-eval-top10-deficiencies)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="1010.000" y="103.696"></tspan></text>
+<path d="M1179 506H841C840.448 506 840 506.448 840 507C840 507.552 840.448 508 841 508H1179C1179.55 508 1180 507.552 1180 507C1180 506.448 1179.55 506 1179 506Z" fill="#A8A29E"/>
+<path opacity="0.9" d="M893 166H861C857.686 166 855 168.686 855 172V500C855 503.314 857.686 506 861 506H893C896.314 506 899 503.314 899 500V172C899 168.686 896.314 166 893 166Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
+<path opacity="0.9" d="M958 226H926C922.686 226 920 228.686 920 232V500C920 503.314 922.686 506 926 506H958C961.314 506 964 503.314 964 500V232C964 228.686 961.314 226 958 226Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
+<path opacity="0.9" d="M1023 306H991C987.686 306 985 308.686 985 312V500C985 503.314 987.686 506 991 506H1023C1026.31 506 1029 503.314 1029 500V312C1029 308.686 1026.31 306 1023 306Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
+<path opacity="0.9" d="M1088 366H1056C1052.69 366 1050 368.686 1050 372V500C1050 503.314 1052.69 506 1056 506H1088C1091.31 506 1094 503.314 1094 500V372C1094 368.686 1091.31 366 1088 366Z" fill="#A8A29E"/>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
+<path opacity="0.9" d="M1153 426H1121C1117.69 426 1115 428.686 1115 432V500C1115 503.314 1117.69 506 1121 506H1153C1156.31 506 1159 503.314 1159 500V432C1159 428.686 1156.31 426 1153 426Z" fill="#94A3B8"/>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">&#24120;&#35211;&#32570;&#22833;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">&#35413;&#37969;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">&#30340;&#23529;&#26597;&#37325;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">&#20154;&#21147;&#37197;&#32622;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">&#20491;&#26696;&#32000;&#37636;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="60" y="225.0">&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="60" y="348.0">&#35413;&#37969; 10 &#22823;&#32570;&#22833;</tspan></text>
+<path d="M60 378H820" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#24120;&#35211;&#32570;&#22833;&#20998;&#26512;</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#32769;&#20154;&#31119;&#21033;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#35413;&#37969;&#32570;&#22833;</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#35036;&#25937;&#25351;&#21335;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#20027;&#31649;&#33287;&#31038;&#24037;&#24107;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-elderly-welfare-eval-top10-deficiencies">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

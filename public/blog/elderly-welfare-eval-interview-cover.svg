@@ -1,48 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 左側裝飾色塊 -->
-  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
-
-  <!-- 主標題第1行：黑色 -->
-  <text x="80" y="175" font-size="100" font-weight="900" fill="#1e293b" >評鑑委員會</text>
-
-  <!-- 主標題第2行：琥珀色 -->
-  <text x="80" y="290" font-size="100" font-weight="900" fill="#d97706" >問什麼？</text>
-
-  <!-- 副標題 -->
-  <text x="80" y="360" font-size="38" fill="#57534e" >6 大區塊常見訪談問題，人員分工備答不慌張</text>
-
-  <!-- Pills 標籤列 -->
-  <!-- pill 1 -->
-  <rect x="80" y="400" width="188" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="174" y="428" font-size="20" fill="#d97706" font-weight="700"  text-anchor="middle">A-F區訪談題</text>
-
-  <!-- pill 2 -->
-  <rect x="282" y="400" width="148" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="356" y="428" font-size="20" fill="#d97706" font-weight="700"  text-anchor="middle">現場應對</text>
-
-  <!-- pill 3 -->
-  <rect x="444" y="400" width="148" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="518" y="428" font-size="20" fill="#d97706" font-weight="700"  text-anchor="middle">應答技巧</text>
-
-  <!-- pill 4 -->
-  <rect x="606" y="400" width="120" height="44" rx="22" fill="#d97706" opacity="0.15"/>
-  <text x="666" y="428" font-size="20" fill="#d97706" font-weight="700"  text-anchor="middle">多人協作</text>
-
-  <!-- 右側區塊標示裝飾 -->
-  <text x="920" y="195" font-size="52" font-weight="900" fill="#d97706"  text-anchor="middle">A B C</text>
-  <text x="920" y="270" font-size="52" font-weight="900" fill="#78716c"  text-anchor="middle">D E F</text>
-  <text x="920" y="335" font-size="30" fill="#57534e"  text-anchor="middle">六大區塊</text>
-  <text x="920" y="375" font-size="30" fill="#57534e"  text-anchor="middle">全面備答</text>
-
-  <!-- 裝飾線條 -->
-  <line x1="80" y1="475" x2="760" y2="475" stroke="#d97706" stroke-width="2" opacity="0.3"/>
-
-  <!-- 底部說明 -->
-  <text x="80" y="520" font-size="26" fill="#78716c" >115年度老人福利機構評鑑 * 主管訪談 * 工作人員訪談 * 服務對象訪談</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
+<g clip-path="url(#clip-elderly-welfare-eval-interview)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 頂部視角標籤 pill -->
+<path opacity="0.12" d="M234 90H70C64.4772 90 60 94.4772 60 100V155C60 160.523 64.4772 165 70 165H234C239.523 165 244 160.523 244 155V100C244 94.4772 239.523 90 234 90Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="78" y="139.44">&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#35413;&#37969;</tspan></text>
+<!-- 左側垂直色條 -->
+<path d="M68 175H60V539H68V175Z" fill="#D97706"/>
+<!-- 引言三行 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="245.404">&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#35413;&#37969;&#22996;&#21729;&#65292;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="316.404">&#26371;&#21839;&#20160;&#40636;&#65311;6 &#22823;&#21312;&#22602;&#12290;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="387.404"></tspan></text>
+<!-- 分隔線 -->
+<path d="M82 412H782" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 受訪者資訊 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="463.88">&#32769;&#20154;&#31119;&#21033;&#35413;&#37969;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="40" letter-spacing="0em"><tspan x="90" y="518.776">&#32769;&#31119;&#35413;&#37969; &#183; &#29694;&#22580;&#23526;&#37636;</tspan></text>
+<!-- 右側頭像圓框 -->
+<path d="M1010 320C1079.04 320 1135 264.035 1135 195C1135 125.965 1079.04 70 1010 70C940.965 70 885 125.965 885 195C885 264.035 940.965 320 1010 320Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M1010 195C1032.51 195 1050.76 176.751 1050.76 154.239C1050.76 131.728 1032.51 113.479 1010 113.479C987.488 113.479 969.239 131.728 969.239 154.239C969.239 176.751 987.488 195 1010 195Z" fill="#C4BFB8"/>
+<path d="M1010 299.619C1055.03 299.619 1091.52 282.587 1091.52 261.576C1091.52 240.565 1055.03 223.532 1010 223.532C964.977 223.532 928.479 240.565 928.479 261.576C928.479 282.587 964.977 299.619 1010 299.619Z" fill="#C4BFB8"/>
+<!-- 機構名/組織 -->
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="938" y="363.964">&#32769;&#31119;&#27231;&#27083;&#35413;&#37969;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="930" y="408.44">&#35413;&#37969;&#22996;&#21729;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="962" y="438.964">&#29694;&#22580;&#26597;&#26680;</tspan></text>
+<!-- 右下 2 pills -->
+<path opacity="0.12" d="M1006 463H866C860.477 463 856 467.477 856 473V499C856 504.523 860.477 509 866 509H1006C1011.52 509 1016 504.523 1016 499V473C1016 467.477 1011.52 463 1006 463Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="888" y="491.964">115&#24180;&#24230;&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#35413;&#37969; * &#20027;&#31649;&#35370;&#35527; * &#24037;&#20316;&#20154;&#21729;&#35370;&#35527; * &#26381;&#21209;&#23565;&#35937;&#35370;&#35527;</tspan></text>
+<path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">&#29694;&#22580;&#35264;&#23519;</tspan></text>
+<!-- 浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-elderly-welfare-eval-interview">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

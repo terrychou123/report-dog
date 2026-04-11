@@ -1,49 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-
-  <!-- 右側裝飾區塊 -->
-  <rect x="780" y="0" width="420" height="630" fill="#e8e6de"/>
-
-  <!-- 右側大數字 90 -->
-  <text x="870" y="320" font-size="220" font-weight="900" fill="#d97706" text-anchor="middle"  opacity="0.85">90</text>
-  <!-- 右側說明文字 -->
-  <text x="870" y="390" font-size="36" font-weight="700" fill="#57534e" text-anchor="middle" >天倒數計畫</text>
-  <!-- 右側小字 -->
-  <text x="870" y="440" font-size="22" fill="#78716c" text-anchor="middle" >老人福利機構評鑑</text>
-  <text x="870" y="470" font-size="22" fill="#78716c" text-anchor="middle" >115 年度準備指南</text>
-
-  <!-- 左側主標題 -->
-  <text x="60" y="140" font-size="100" font-weight="900" fill="#1e293b" >老人福利機構</text>
-  <text x="60" y="250" font-size="100" font-weight="900" fill="#d97706" >評鑑 90 天倒數</text>
-
-  <!-- 副標題 -->
-  <text x="60" y="320" font-size="38" fill="#57534e" >分週任務清單，從容應對評鑑</text>
-
-  <!-- 分隔線 -->
-  <rect x="60" y="348" width="680" height="4" fill="#d97706" rx="2"/>
-
-  <!-- pill 標籤群 -->
-  <!-- pill 1 -->
-  <rect x="60" y="370" width="158" height="40" rx="20" fill="#d97706"/>
-  <text x="139" y="396" font-size="18" fill="#ffffff" text-anchor="middle"  font-weight="700">週計畫清單</text>
-
-  <!-- pill 2 -->
-  <rect x="230" y="370" width="158" height="40" rx="20" fill="#78716c"/>
-  <text x="309" y="396" font-size="18" fill="#ffffff" text-anchor="middle"  font-weight="700">三階段備審</text>
-
-  <!-- pill 3 -->
-  <rect x="400" y="370" width="138" height="40" rx="20" fill="#57534e"/>
-  <text x="469" y="396" font-size="18" fill="#ffffff" text-anchor="middle"  font-weight="700">定期追蹤</text>
-
-  <!-- pill 4 -->
-  <rect x="550" y="370" width="158" height="40" rx="20" fill="#a8a29e"/>
-  <text x="629" y="396" font-size="18" fill="#ffffff" text-anchor="middle"  font-weight="700">報告汪輔助</text>
-
-  <!-- 底部說明 -->
-  <text x="60" y="490" font-size="26" fill="#78716c" >第一個月：基礎盤點</text>
-  <text x="60" y="525" font-size="26" fill="#78716c" >第二個月：文件補強　第三個月：模擬衝刺</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
+<g clip-path="url(#clip-elderly-welfare-eval-90day-plan)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1201 0H821V630H1201V0Z" fill="#E8E6DE"/>
+<!-- 右側裝飾英雄數字（Pattern B: digit=160, CJK=60） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="899" y="232.76">90</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="60" font-weight="bold" letter-spacing="0em"><tspan x="1145" y="230.66">&#22825;</tspan></text>
+<!-- 右側階段標籤 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="844" y="279.848">&#31532; 1 &#38542;&#27573;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="971" y="279.848">&#31532; 2 &#38542;&#27573;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1101" y="279.848">&#31532; 3 &#38542;&#27573;</tspan></text>
+<!-- 連接線 -->
+<path d="M893 312H988" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M1028 312H1123" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<!-- 節點圓 -->
+<path d="M880 340C893.807 340 905 328.807 905 315C905 301.193 893.807 290 880 290C866.193 290 855 301.193 855 315C855 328.807 866.193 340 880 340Z" fill="#D97706"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="868" y="332.44">1</tspan></text>
+<path d="M1008 337C1021.81 337 1033 325.807 1033 312C1033 298.193 1021.81 287 1008 287C994.193 287 983 298.193 983 312C983 325.807 994.193 337 1008 337Z" fill="#78716C"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="996" y="329.44">2</tspan></text>
+<path d="M1138 337C1151.81 337 1163 325.807 1163 312C1163 298.193 1151.81 287 1138 287C1124.19 287 1113 298.193 1113 312C1113 325.807 1124.19 337 1138 337Z" fill="#57534E"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1126" y="329.44">3</tspan></text>
+<!-- 階段名稱與說明 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="834" y="367.592">&#22825;&#20498;&#25976;&#35336;&#30059;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="840" y="391.912">&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#35413;&#37969;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="964" y="367.592">115 &#24180;&#24230;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="963" y="391.912"></tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1094" y="367.592">&#27169;&#25836;&#34909;&#21050;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="1093" y="391.912">&#31532; 61&#8211;90 &#22825;</tspan></text>
+<!-- 右側底部寬 pill -->
+<path opacity="0.12" d="M1155 500H865C859.477 500 855 504.477 855 510V538C855 543.523 859.477 548 865 548H1155C1160.52 548 1165 543.523 1165 538V510C1165 504.477 1160.52 500 1155 500Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="906.000" y="535.336">&#20998;&#36913;&#20219;&#21209;&#28165;&#21934;&#65292;&#24478;</tspan></text>
+<!-- 左側 L1（Pattern A） -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="60" y="232.2">90 </tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="361" y="221.76">&#22825;</tspan></text>
+<!-- 左側 L2 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="366.98">&#20998;&#36913;&#20219;&#21209;&#28165;&#21934;&#65292;&#24478;&#23481;&#25033;&#23565;&#35413;&#37969;</tspan></text>
+<path d="M60 397L821 397" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="450.816">&#36913;&#35336;&#30059;&#28165;&#21934;</tspan></text>
+<path opacity="0.12" d="M198 475.68H70C64.4772 475.68 60 480.157 60 485.68V511.68C60 517.203 64.4772 521.68 70 521.68H198C203.523 521.68 208 517.203 208 511.68V485.68C208 480.157 203.523 475.68 198 475.68Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="510.388">&#32769;&#20154;&#31119;&#21033;</tspan></text>
+<path opacity="0.12" d="M358 475.68H230C224.477 475.68 220 480.157 220 485.68V511.68C220 517.203 224.477 521.68 230 521.68H358C363.523 521.68 368 517.203 368 511.68V485.68C368 480.157 363.523 475.68 358 475.68Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="510.388">90&#22825;&#20498;&#25976;</tspan></text>
+<path opacity="0.12" d="M518 475.68H390C384.477 475.68 380 480.157 380 485.68V511.68C380 517.203 384.477 521.68 390 521.68H518C523.523 521.68 528 517.203 528 511.68V485.68C528 480.157 523.523 475.68 518 475.68Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="510.388">&#35413;&#37969;&#28310;&#20633;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="568.388">&#36969;&#21512;&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#20027;&#31649;&#33287;&#31038;&#24037;&#24107;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="601.892">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-elderly-welfare-eval-90day-plan">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

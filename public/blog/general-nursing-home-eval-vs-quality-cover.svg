@@ -1,58 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 左半橙色 -->
-  <rect x="0" y="0" width="580" height="630" fill="#d97706" opacity="0.07"/>
-  <!-- 右半藍色 -->
-  <rect x="620" y="0" width="580" height="630" fill="#1e40af" opacity="0.07"/>
-  <!-- 中間分隔 -->
-  <rect x="590" y="0" width="20" height="630" fill="#f0efe8"/>
-  <!-- VS 標誌 -->
-  <circle cx="600" cy="315" r="52" fill="#1c1917"/>
-  <text x="600" y="328" font-size="28" font-weight="900" text-anchor="middle" fill="#1c1917">VS</text>
-  <!-- 左側 - 評鑑 -->
-  <text x="280" y="120" font-size="44" font-weight="900" text-anchor="middle" fill="#d97706">定期評鑑</text>
-  <rect x="80" y="148" width="400" height="240" rx="14" fill="#ffffff" opacity="0.85"/>
-  <!-- 評鑑特色 -->
-  <text x="100" y="180" font-size="24" fill="#44403c" font-weight="700">辦理單位</text>
-  <text x="100" y="200" font-size="20" fill="#78716c">衛福部護理及健康照護司</text>
-  <rect x="100" y="212" width="340" height="1" fill="#e5e7eb"/>
-  <text x="100" y="232" font-size="24" fill="#44403c" font-weight="700">頻率</text>
-  <text x="100" y="252" font-size="20" fill="#78716c">定期辦理（每 3–4 年一次）</text>
-  <rect x="100" y="264" width="340" height="1" fill="#e5e7eb"/>
-  <text x="100" y="284" font-size="24" fill="#44403c" font-weight="700">結果形式</text>
-  <text x="100" y="304" font-size="20" fill="#78716c">等第判定（優等/甲等/乙等）</text>
-  <rect x="100" y="316" width="340" height="1" fill="#e5e7eb"/>
-  <text x="100" y="336" font-size="24" fill="#44403c" font-weight="700">強制性</text>
-  <text x="100" y="356" font-size="20" fill="#d97706" font-weight="700">強制參與 不通過有行政處分</text>
-  <!-- 評鑑標籤 -->
-  <rect x="80" y="412" width="200" height="40" rx="20" fill="#d97706"/>
-  <text x="180" y="437" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">強制性 等第公開</text>
-  <!-- 右側 - 品質獎勵計畫 -->
-  <text x="920" y="120" font-size="44" font-weight="900" text-anchor="middle" fill="#1e40af">品質獎勵計畫</text>
-  <rect x="720" y="148" width="400" height="240" rx="14" fill="#ffffff" opacity="0.85"/>
-  <!-- 品質計畫特色 -->
-  <text x="740" y="180" font-size="24" fill="#44403c" font-weight="700">辦理單位</text>
-  <text x="740" y="200" font-size="20" fill="#78716c">衛生福利部（縣市執行）</text>
-  <rect x="740" y="212" width="340" height="1" fill="#e5e7eb"/>
-  <text x="740" y="232" font-size="24" fill="#44403c" font-weight="700">頻率</text>
-  <text x="740" y="252" font-size="20" fill="#78716c">每年申請一次，年度計畫</text>
-  <rect x="740" y="264" width="340" height="1" fill="#e5e7eb"/>
-  <text x="740" y="284" font-size="24" fill="#44403c" font-weight="700">結果形式</text>
-  <text x="740" y="304" font-size="20" fill="#78716c">獎勵金發放（依指標達標程度）</text>
-  <rect x="740" y="316" width="340" height="1" fill="#e5e7eb"/>
-  <text x="740" y="336" font-size="24" fill="#44403c" font-weight="700">強制性</text>
-  <text x="740" y="356" font-size="20" fill="#1e40af" font-weight="700">自願申請 不申請無處罰</text>
-  <!-- 品質計畫標籤 -->
-  <rect x="720" y="412" width="220" height="40" rx="20" fill="#1e40af"/>
-  <text x="830" y="437" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">自願 獎勵金制度</text>
-  <!-- 底部共用說明 -->
-  <rect x="80" y="478" width="1040" height="86" rx="12" fill="#ffffff" opacity="0.7"/>
-  <text x="600" y="510" font-size="24" font-weight="700" text-anchor="middle" fill="#1c1917">文件重疊（準備一份兩邊都用）</text>
-  <text x="300" y="538" font-size="20" text-anchor="middle" fill="#44403c">品質指標追蹤（跌倒/壓傷/感染）</text>
-  <text x="600" y="538" font-size="20" text-anchor="middle" fill="#44403c">照護計畫文件</text>
-  <text x="900" y="538" font-size="20" text-anchor="middle" fill="#44403c">工作人員訓練記錄</text>
-  <text x="600" y="558" font-size="20" text-anchor="middle" fill="#78716c">先完成評鑑準備 - 直接用於品質計畫申請</text>
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-general-nursing-home-eval-vs-quality)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="68" font-weight="bold" letter-spacing="0em"><tspan x="328.086" y="102.88">&#19968;&#33324;&#35703;&#29702;&#20043;&#23478;&#35413;&#37969;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="68" font-weight="bold" letter-spacing="0em"><tspan x="328.086" y="181.08">vs</tspan></text>
+<path d="M40 218H1160" stroke="#DEDAD3" stroke-width="2"/>
+<path opacity="0.12" d="M504 236H384C378.477 236 374 240.477 374 246V268C374 273.523 378.477 278 384 278H504C509.523 278 514 273.523 514 268V246C514 240.477 509.523 236 504 236Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="401.145" y="266.964">&#19968;&#33324;&#35703;&#29702;</tspan></text>
+<path opacity="0.12" d="M660 236H540C534.477 236 530 240.477 530 246V268C530 273.523 534.477 278 540 278H660C665.523 278 670 273.523 670 268V246C670 240.477 665.523 236 660 236Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="557.145" y="266.964">&#21697;&#36074;&#29518;&#21237;</tspan></text>
+<path opacity="0.12" d="M816 236H696C690.477 236 686 240.477 686 246V268C686 273.523 690.477 278 696 278H816C821.523 278 826 273.523 826 268V246C826 240.477 821.523 236 816 236Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="713.145" y="266.964">&#35413;&#37969;vs</tspan></text>
+<!-- 左側卡片（A） -->
+<path d="M519.769 297H55.2308C46.819 297 40 303.225 40 310.903V535.097C40 542.775 46.819 549 55.2308 549H519.769C528.181 549 535 542.775 535 535.097V310.903C535 303.225 528.181 297 519.769 297Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M65 360H535" stroke="#E8E6DE"/>
+<path opacity="0.15" d="M205 314H75C69.4772 314 65 318.477 65 324V340C65 345.523 69.4772 350 75 350H205C210.523 350 215 345.523 215 340V324C215 318.477 210.523 314 205 314Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75.6543" y="341.592">&#19968;&#33324;&#35703;&#29702;&#20043;&#23478;&#35413;&#37969;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="398.592">&#21697;&#36074;&#29518;&#21237;&#37325;&#40670;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="434.592">&#25351;&#27161;&#33258;&#35330;&#31354;&#38291;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="75" y="470.592">&#27599;&#23395;&#36861;&#36452;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="75" y="512.912">&#24392;&#24615;&#36611;&#39640;&#65292;&#21487;&#33258;&#35330;&#25351;&#27161;</tspan></text>
+<!-- 右側卡片（B） -->
+<path d="M1144.77 297H680.231C671.819 297 665 303.225 665 310.903V535.097C665 542.775 671.819 549 680.231 549H1144.77C1153.18 549 1160 542.775 1160 535.097V310.903C1160 303.225 1153.18 297 1144.77 297Z" fill="white" stroke="#78716C" stroke-width="3"/>
+<path d="M665 360H1135" stroke="#E8E6DE"/>
+<path opacity="0.15" d="M826 314H696C690.477 314 686 318.477 686 324V340C686 345.523 690.477 350 696 350H826C831.523 350 836 345.523 836 340V324C836 318.477 831.523 314 826 314Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696.6543" y="341.592">&#21697;&#36074;&#29518;&#21237;&#35336;&#30059;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="398.592">&#35413;&#37969;&#24517;&#35201;&#26781;&#25991;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="434.592">&#36880;&#38917;&#26360;&#38754;&#20304;&#35657;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="696" y="470.592">&#19977;/&#22235;&#24180;&#36913;&#26399;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="696" y="512.912">&#22196;&#35641;&#35215;&#31684;&#65292;&#24517;&#35201;&#26781;&#25991;&#20778;&#20808;</tspan></text>
+<!-- VS 圓徽章 -->
+<path d="M600 456C622.091 456 640 438.091 640 416C640 393.909 622.091 376 600 376C577.909 376 560 393.909 560 416C560 438.091 577.909 456 600 456Z" fill="#F0EFE8" stroke="#D97706" stroke-width="3"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="580.312" y="429.952">VS</tspan></text>
+<!-- 浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-general-nursing-home-eval-vs-quality">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

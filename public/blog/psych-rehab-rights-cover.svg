@@ -1,38 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- @template: cover -->
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
-  <!-- 右側大數字 3.6 + 3.7 -->
-  <text x="1010" y="195" font-size="120" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">3.6</text>
-  <line x1="860" y1="225" x2="1160" y2="225" stroke="#dedad3" stroke-width="1.5"/>
-  <text x="1010" y="340" font-size="120" fill="#78716c" text-anchor="middle" font-weight="700" opacity="0.75">3.7</text>
-  <!-- PFM 標籤 -->
-  <rect x="880" y="380" width="260" height="46" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="1010" y="410" font-size="24" fill="#d97706" text-anchor="middle" font-weight="700">PFM 訪談項目</text>
-  <text x="1010" y="465" font-size="20" fill="#57534e" text-anchor="middle">日間型 + 住宿型</text>
-  <!-- 左側主要內容 -->
-  <!-- 類別標籤 -->
-  <rect x="60" y="60" width="160" height="38" rx="19" fill="#ea580c" opacity="0.12"/>
-  <text x="140" y="85" font-size="18" fill="#ea580c" text-anchor="middle" font-weight="700">服務品質</text>
-  <!-- 主標題 -->
-  <text x="60" y="185" font-size="76" fill="#1e293b" font-weight="700">學員‧住民</text>
-  <text x="60" y="275" font-size="76" fill="#d97706" font-weight="700">權益維護</text>
-  <!-- 分隔線 -->
-  <line x1="60" y1="304" x2="760" y2="304" stroke="#dedad3" stroke-width="2"/>
-  <!-- 副標題 -->
-  <text x="60" y="350" font-size="28" fill="#57534e">3.6 申訴機制設計與執行</text>
-  <text x="60" y="390" font-size="26" fill="#57534e">住宿型 3.7 財物自主管理合規做法</text>
-  <!-- 標籤 Pills -->
-  <rect x="60" y="440" width="128" height="36" rx="18" fill="#d97706" opacity="0.12"/>
-  <text x="124" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">申訴機制</text>
-  <rect x="202" y="440" width="128" height="36" rx="18" fill="#d97706" opacity="0.12"/>
-  <text x="266" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">財物自主</text>
-  <rect x="344" y="440" width="120" height="36" rx="18" fill="#16a34a" opacity="0.12"/>
-  <text x="404" y="463" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">PFM訪談</text>
-  <rect x="478" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
-  <text x="552" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-psych-rehab-rights)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+
+<!-- 右側白底卡片 -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708">3.7</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">PFM &#35370;&#35527;&#38917;&#30446;</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">&#26085;&#38291;&#22411; + &#20303;&#23487;&#22411;</tspan></text>
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708"></tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#23416;&#21729;&#8231;&#20303;&#27665;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">3.6 &#30003;&#35380;&#27231;&#21046;&#35373;&#35336;&#33287;&#22519;&#34892;</tspan></text>
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#20303;&#23487;&#22411; 3.7 &#36001;&#29289;&#33258;&#20027;&#31649;&#29702;&#21512;&#35215;&#20570;&#27861;</tspan></text>
+<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#31934;&#31070;&#24489;&#20581;</tspan></text>
+<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#27402;&#30410;&#32173;&#35703;</tspan></text>
+<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#36001;&#29289;&#33258;&#20027;</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#31934;&#31070;&#24489;&#20581;&#27231;&#27083;&#20027;&#31649;&#21450;&#24037;&#20316;&#20154;&#21729;</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-psych-rehab-rights">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>
