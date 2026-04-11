@@ -1,42 +1,32 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-disability-welfare-isp-multi-need-assessment)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">ISP &#35413;&#20272;</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">&#24037;&#20855;&#36984;&#29992;&#25351;&#21335;</tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">&#35413;&#20272;&#38754;&#21521;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">&#24037;&#20855;&#36984;&#29992;</tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#20845;&#22823;&#38656;&#27714;&#22495;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">&#20381;&#38556;&#21029;&#36969;&#37197;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#21512;&#35336; 12 &#20998;&#37325;&#40670;&#25351;&#27161;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="58" y="211.32">&#22810;&#37325;&#38656;&#27714;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="58" y="361.76">ISP&#35413;&#20272;</tspan></text>
-<path d="M57.5 388H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="436.068">&#36328;&#38556;&#21029;&#35413;&#20272;&#24037;&#20855;&#36984;&#29992;&#12539;&#20845;&#22823;&#38656;&#27714;&#38754;&#21521;&#20840;&#35206;&#33995;</tspan></text>
-<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">ISP&#22810;</tspan></text>
-<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">&#36523;&#24515;&#38556;&#31001;</tspan></text>
-<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">&#20491;&#21029;&#21270;&#26381;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#36523;&#38556;&#27231;&#27083;&#36000;&#36012;&#20154;&#21450;&#31038;&#24037;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-disability-welfare-isp-multi-need-assessment">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <text x="1010" y="185" font-size="38" fill="#d97706" text-anchor="middle" font-weight="900">多重需求</text>
+  <text x="1010" y="240" font-size="34" fill="#78716c" text-anchor="middle" font-weight="600">ISP 評估</text>
+  <text x="1010" y="280" font-size="26" fill="#57534e" text-anchor="middle">工具選用指南</text>
+  <rect x="840" y="306" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="339" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">跨障別評估方法</text>
+  <rect x="840" y="370" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="914" y="399" font-size="22" fill="#d97706" text-anchor="middle" font-weight="700">評估面向</text>
+  <text x="914" y="428" font-size="18" fill="#a8a29e" text-anchor="middle">六大需求域</text>
+  <rect x="1000" y="370" width="148" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1074" y="399" font-size="22" fill="#78716c" text-anchor="middle" font-weight="700">工具選用</text>
+  <text x="1074" y="428" font-size="18" fill="#a8a29e" text-anchor="middle">依障別適配</text>
+  <rect x="840" y="454" width="320" height="72" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="482" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">ISP 4101+4102+4103</text>
+  <text x="1000" y="513" font-size="18" fill="#a8a29e" text-anchor="middle">合計 12 分重點指標</text>
+  <text x="60" y="195" font-size="100" font-weight="900" fill="#1e293b">多重需求</text>
+  <text x="60" y="315" font-size="100" font-weight="900" fill="#d97706">ISP評估</text>
+  <line x1="60" y1="343" x2="780" y2="343" stroke="#dedad3" stroke-width="2"/>
+  <text x="60" y="390" font-size="34" fill="#57534e" font-weight="400">跨障別評估工具選用・六大需求面向全覆蓋</text>
+  <rect x="60" y="425" width="148" height="50" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="459" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">肢體障礙</text>
+  <rect x="220" y="425" width="148" height="50" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="459" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">智能障礙</text>
+  <rect x="380" y="425" width="148" height="50" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="454" y="459" font-size="26" fill="#57534e" text-anchor="middle" font-weight="600">多重障礙</text>
+  <rect x="540" y="425" width="148" height="50" rx="10" fill="#a8a29e" opacity="0.12"/>
+  <text x="614" y="459" font-size="26" fill="#a8a29e" text-anchor="middle" font-weight="600">自閉症</text>
+  <text x="60" y="540" font-size="28" fill="#94a3b8">適用：社工師・ISP 計畫撰寫人員・個管員</text>
+  <text x="1140" y="592" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

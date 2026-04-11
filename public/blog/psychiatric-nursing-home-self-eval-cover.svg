@@ -1,51 +1,59 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-psychiatric-nursing-home-self-eval)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1010.000" y="92.336"></tspan></text>
-<path opacity="0.7" d="M1169 119H851C846.582 119 843 122.582 843 127V165C843 169.418 846.582 173 851 173H1169C1173.42 173 1177 169.418 1177 165V127C1177 122.582 1173.42 119 1169 119Z" fill="white"/>
-<path d="M878.5 131H857.5C855.015 131 853 133.015 853 135.5V156.5C853 158.985 855.015 161 857.5 161H878.5C880.985 161 883 158.985 883 156.5V135.5C883 133.015 880.985 131 878.5 131Z" stroke="#A8A29E" stroke-width="1.5"/>
-<path d="M860 141L869.286 151L886 131" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="154.22">A&#38754;&#21521;</tspan></text>
-<path opacity="0.7" d="M1169 181H851C846.582 181 843 184.582 843 189V227C843 231.418 846.582 235 851 235H1169C1173.42 235 1177 231.418 1177 227V189C1177 184.582 1173.42 181 1169 181Z" fill="white"/>
-<path d="M878.5 193H857.5C855.015 193 853 195.015 853 197.5V218.5C853 220.985 855.015 223 857.5 223H878.5C880.985 223 883 220.985 883 218.5V197.5C883 195.015 880.985 193 878.5 193Z" stroke="#A8A29E" stroke-width="1.5"/>
-<path d="M860 203L869.286 213L886 193" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="216.22">B&#38754;&#21521;</tspan></text>
-<path opacity="0.5" d="M1169 243H851C846.582 243 843 246.582 843 251V289C843 293.418 846.582 297 851 297H1169C1173.42 297 1177 293.418 1177 289V251C1177 246.582 1173.42 243 1169 243Z" fill="white"/>
-<path d="M878.5 255H857.5C855.015 255 853 257.015 853 259.5V280.5C853 282.985 855.015 285 857.5 285H878.5C880.985 285 883 282.985 883 280.5V259.5C883 257.015 880.985 255 878.5 255Z" stroke="#A8A29E" stroke-width="1.5"/>
+  <!-- 右側裝飾區 -->
+  <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
 
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="278.22">21&#38917;</tspan></text>
-<path opacity="0.5" d="M1169 305H851C846.582 305 843 308.582 843 313V351C843 355.418 846.582 359 851 359H1169C1173.42 359 1177 355.418 1177 351V313C1177 308.582 1173.42 305 1169 305Z" fill="white"/>
-<path d="M878.5 317H857.5C855.015 317 853 319.015 853 321.5V342.5C853 344.985 855.015 347 857.5 347H878.5C880.985 347 883 344.985 883 342.5V321.5C883 319.015 880.985 317 878.5 317Z" stroke="#A8A29E" stroke-width="1.5"/>
+  <!-- 左側內容區 -->
+  <!-- 主標題第1行 -->
+  <text x="60" y="160" font-size="120" font-weight="900" fill="#1e293b" >36項自評</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="290" font-size="120" font-weight="900" fill="#d97706" >檢核清單</text>
+  <!-- 副標題 -->
+  <text x="60" y="360" font-size="38" fill="#57534e" >115年度精神護理之家評鑑完整自評工具</text>
 
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="340.22">C/D/E</tspan></text>
-<path opacity="0.5" d="M1169 367H851C846.582 367 843 370.582 843 375V413C843 417.418 846.582 421 851 421H1169C1173.42 421 1177 417.418 1177 413V375C1177 370.582 1173.42 367 1169 367Z" fill="white"/>
-<path d="M878.5 379H857.5C855.015 379 853 381.015 853 383.5V404.5C853 406.985 855.015 409 857.5 409H878.5C880.985 409 883 406.985 883 404.5V383.5C883 381.015 880.985 379 878.5 379Z" stroke="#A8A29E" stroke-width="1.5"/>
+  <!-- 特色標籤 -->
+  <!-- 115年度 -->
+  <rect x="60" y="400" width="140" height="44" rx="22" fill="#d97706"/>
+  <text x="130" y="428" font-size="22" fill="white" text-anchor="middle" >115年度</text>
+  <!-- 自評工具 -->
+  <rect x="216" y="400" width="140" height="44" rx="22" fill="#78716c"/>
+  <text x="286" y="428" font-size="22" fill="white" text-anchor="middle" >自評工具</text>
+  <!-- 評鑑準備 -->
+  <rect x="372" y="400" width="140" height="44" rx="22" fill="#57534e"/>
+  <text x="442" y="428" font-size="22" fill="white" text-anchor="middle" >評鑑準備</text>
 
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="402.22">&#37325;&#40670;&#38917;&#30446;</tspan></text>
-<path opacity="0.5" d="M1169 429H851C846.582 429 843 432.582 843 437V475C843 479.418 846.582 483 851 483H1169C1173.42 483 1177 479.418 1177 475V437C1177 432.582 1173.42 429 1169 429Z" fill="white"/>
-<path d="M878.5 441H857.5C855.015 441 853 443.015 853 445.5V466.5C853 468.985 855.015 471 857.5 471H878.5C880.985 471 883 468.985 883 466.5V445.5C883 443.015 880.985 441 878.5 441Z" stroke="#A8A29E" stroke-width="1.5"/>
+  <!-- 適用對象說明 -->
+  <text x="60" y="500" font-size="28" fill="#78716c" >適用：精神護理之家評鑑準備負責人員</text>
+  <text x="60" y="540" font-size="28" fill="#78716c" >115年度評鑑基準 A/B/C/D/E 面向完整覆蓋</text>
 
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="892" y="464.22">&#33258;&#35413;&#38917;&#30446;&#35206;&#33995;&#29575; 100%</tspan></text>
-<path opacity="0.12" d="M1166.23 501H853.774C847.824 501 843 505.477 843 511V539C843 544.523 847.824 549 853.774 549H1166.23C1172.18 549 1177 544.523 1177 539V511C1177 505.477 1172.18 501 1166.23 501Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="921.000" y="535.964">&#24050;&#23436;&#25104; 2 / 6 &#38917;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="60" y="225.0">36&#38917;&#33258;&#35413;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="60" y="348.0">115&#24180;&#24230;&#31934;&#31070;&#35703;&#29702;&#20043;&#23478;&#35413;&#37969;&#23436;&#25972;&#33258;&#35413;&#24037;&#20855;</tspan></text>
-<path d="M60 378L820 378" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">115&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#31934;&#31070;&#35703;&#29702;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">115&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#33258;&#35413;&#27298;&#26680;&#34920;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#31934;&#31070;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-psychiatric-nursing-home-self-eval">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾 -->
+  <!-- 大數字 -->
+  <text x="1000" y="200" font-size="200" font-weight="900" fill="#d97706" text-anchor="middle" >36</text>
+  <text x="1000" y="250" font-size="28" fill="#78716c" text-anchor="middle" >評鑑基準</text>
+
+  <!-- 2×2 卡片 -->
+  <!-- 卡片1 -->
+  <rect x="820" y="280" width="170" height="80" rx="10" fill="white"/>
+  <text x="905" y="312" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700" >A面向</text>
+  <text x="905" y="343" font-size="20" fill="#1e293b" text-anchor="middle" >9項</text>
+  <!-- 卡片2 -->
+  <rect x="1005" y="280" width="170" height="80" rx="10" fill="white"/>
+  <text x="1090" y="312" font-size="20" fill="#d97706" text-anchor="middle" font-weight="700" >B面向</text>
+  <text x="1090" y="343" font-size="20" fill="#1e293b" text-anchor="middle" >21項</text>
+  <!-- 卡片3 -->
+  <rect x="820" y="375" width="170" height="80" rx="10" fill="white"/>
+  <text x="905" y="406" font-size="18" fill="#d97706" text-anchor="middle" font-weight="700" >C/D/E</text>
+  <text x="905" y="437" font-size="18" fill="#1e293b" text-anchor="middle" >6項</text>
+  <!-- 卡片4 -->
+  <rect x="1005" y="375" width="170" height="80" rx="10" fill="white"/>
+  <text x="1090" y="406" font-size="18" fill="#d97706" text-anchor="middle" font-weight="700" >重點項目</text>
+  <text x="1090" y="437" font-size="18" fill="#1e293b" text-anchor="middle" >2項</text>
+
+  <!-- 底部描述 -->
+  <text x="1000" y="510" font-size="22" fill="#57534e" text-anchor="middle" >自評項目覆蓋率 100%</text>
+  <text x="1000" y="548" font-size="20" fill="#a8a29e" text-anchor="middle" >試扣分項目優先確認</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -1,42 +1,41 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: cover -->
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-psych-rehab-emergency)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">+</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416"></tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708">3.9</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#32202;&#24613;&#37291;&#30274;&#24863;&#26579;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">&#32202;&#24613;&#25033;&#35722;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">&#26085;&#38291;&#22411; 3.8/3.9</tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#20303;&#23487;&#22411; 3.9/3.10</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#32202;&#24613;&#20107;&#20214;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">&#26360;&#38754;&#21270;&#27969;&#31243;&#12289;&#28436;&#32244;&#32000;&#37636;</tspan></text>
-<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#20107;&#20214;&#34389;&#29702;&#23436;&#25972;&#24615;&#19977;&#22823;&#26597;&#26680;&#37325;&#40670;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#31934;&#31070;&#24489;&#20581;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#32202;&#24613;&#20107;&#20214;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#24863;&#26579;&#31649;&#25511;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#31934;&#31070;&#24489;&#20581;&#27231;&#27083;&#20027;&#31649;&#21450;&#24037;&#20316;&#20154;&#21729;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-psych-rehab-emergency">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6dc"/>
+  <!-- 右側大數字 3.8 + 3.9 -->
+  <text x="1010" y="195" font-size="120" fill="#d97706" text-anchor="middle" font-weight="700" opacity="0.85">3.8</text>
+  <text x="1010" y="230" font-size="36" fill="#57534e" text-anchor="middle">+</text>
+  <text x="1010" y="340" font-size="120" fill="#78716c" text-anchor="middle" font-weight="700" opacity="0.75">3.9</text>
+  <!-- 說明標籤 -->
+  <rect x="856" y="378" width="166" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="939" y="405" font-size="18" fill="#d97706" text-anchor="middle" font-weight="700">緊急醫療感染</text>
+  <rect x="1032" y="378" width="140" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="1102" y="405" font-size="18" fill="#78716c" text-anchor="middle" font-weight="700">緊急應變</text>
+  <text x="1010" y="465" font-size="20" fill="#57534e" text-anchor="middle">日間型 3.8/3.9</text>
+  <text x="1010" y="490" font-size="20" fill="#57534e" text-anchor="middle">住宿型 3.9/3.10</text>
+  <!-- 左側主要內容 -->
+  <!-- 類別標籤 -->
+  <rect x="60" y="60" width="160" height="38" rx="19" fill="#ea580c" opacity="0.12"/>
+  <text x="140" y="85" font-size="18" fill="#ea580c" text-anchor="middle" font-weight="700">服務品質</text>
+  <!-- 主標題 -->
+  <text x="60" y="185" font-size="80" fill="#1e293b" font-weight="700">緊急事件</text>
+  <text x="60" y="278" font-size="80" fill="#d97706" font-weight="700">感染管控</text>
+  <!-- 分隔線 -->
+  <line x1="60" y1="306" x2="760" y2="306" stroke="#dedad3" stroke-width="2"/>
+  <!-- 副標題 -->
+  <text x="60" y="352" font-size="28" fill="#57534e">書面化流程、演練紀錄</text>
+  <text x="60" y="392" font-size="26" fill="#57534e">事件處理完整性三大查核重點</text>
+  <!-- 標籤 Pills -->
+  <rect x="60" y="440" width="120" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="120" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">緊急醫療</text>
+  <rect x="194" y="440" width="120" height="36" rx="18" fill="#d97706" opacity="0.12"/>
+  <text x="254" y="463" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">群聚感染</text>
+  <rect x="328" y="440" width="120" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="388" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">消防演練</text>
+  <rect x="462" y="440" width="148" height="36" rx="18" fill="#78716c" opacity="0.12"/>
+  <text x="536" y="463" font-size="16" fill="#78716c" text-anchor="middle" font-weight="600">115年度評鑑</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -1,42 +1,46 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-psychiatric-nursing-home-mental-health-act)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">112</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">&#24180;12&#26376;&#27491;&#24335;&#26045;&#34892;</tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">&#24375;&#21046;&#23433;&#32622;7&#26085;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#37969;&#23450;3&#26085;&#20839;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">&#31038;&#21312;&#25903;&#25345;&#20837;&#27861;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#31038;&#21312;&#25903;&#25345;&#20837;&#27861;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="58" y="219.32">&#31934;&#31070;&#34907;&#29983;&#27861;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="58" y="357.32">&#20462;&#27861;&#22240;&#25033;</tspan></text>
-<path d="M57.5 384H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="432.068">&#20462;&#27861;&#23565;&#35703;&#29702;&#20043;&#23478;&#35413;&#37969;&#30340;&#24433;&#38911;&#33287;&#20303;&#27665;&#27402;&#30410;&#20445;&#38556;</tspan></text>
-<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">&#31934;&#31070;&#35703;&#29702;</tspan></text>
-<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">115&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">&#31934;&#31070;&#34907;&#29983;&#27861;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#31934;&#31070;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-psychiatric-nursing-home-mental-health-act">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾區 -->
+  <rect x="700" y="0" width="500" height="630" fill="#e8e6de"/>
+
+  <!-- 特色標籤 -->
+  <rect x="60" y="60" width="130" height="32" rx="16" fill="#d97706"/>
+  <text x="125" y="81" font-size="16" fill="white" text-anchor="middle" >精神衛生法</text>
+  <rect x="202" y="60" width="80" height="32" rx="16" fill="#78716c"/>
+  <text x="242" y="81" font-size="16" fill="white" text-anchor="middle" >D1.1</text>
+  <rect x="294" y="60" width="80" height="32" rx="16" fill="#57534e"/>
+  <text x="334" y="81" font-size="16" fill="white" text-anchor="middle" >B1.10</text>
+
+  <!-- 主標題第1行 -->
+  <text x="60" y="210" font-size="120" fill="#1e293b"  font-weight="700">精神衛生法</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="350" font-size="110" fill="#d97706"  font-weight="700">修法因應</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="420" font-size="34" fill="#57534e" >修法對護理之家評鑑的影響與住民權益保障</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="450" x2="640" y2="450" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 右側大數字 -->
+  <text x="950" y="240" font-size="180" fill="#d97706" text-anchor="middle"  font-weight="700" opacity="0.12">112</text>
+  <text x="950" y="240" font-size="160" fill="#d97706" text-anchor="middle"  font-weight="700">112</text>
+  <text x="950" y="290" font-size="26" fill="#78716c" text-anchor="middle" >年12月正式施行</text>
+
+  <!-- 右側 pill 標籤 -->
+  <rect x="770" y="360" width="185" height="40" rx="20" fill="#d97706"/>
+  <text x="862" y="386" font-size="17" fill="white" text-anchor="middle" >強制安置7日</text>
+
+  <rect x="770" y="412" width="185" height="40" rx="20" fill="#78716c"/>
+  <text x="862" y="438" font-size="17" fill="white" text-anchor="middle" >鑑定3日內</text>
+
+  <rect x="770" y="464" width="185" height="40" rx="20" fill="#57534e"/>
+  <text x="862" y="490" font-size="17" fill="white" text-anchor="middle" >社區支持入法</text>
+
+  <rect x="770" y="516" width="185" height="40" rx="20" fill="#a8a29e"/>
+  <text x="862" y="542" font-size="17" fill="white" text-anchor="middle" >合理調整</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

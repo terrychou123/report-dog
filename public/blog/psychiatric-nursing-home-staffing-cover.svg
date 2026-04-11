@@ -1,40 +1,64 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-psychiatric-nursing-home-staffing)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
 
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">&#35703;&#29702;&#20154;&#21729;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">&#29031;&#39015;&#26381;&#21209;&#21729;</tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">24&#23567;&#26178;&#22312;&#29677;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">&#32887;&#33021;&#27835;&#30274;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">&#20381;&#24202;&#25976;&#37197;&#32622;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">&#24515;&#29702;&#24107;</tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#32887;&#33021;&#27835;&#30274;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="58" y="211.32">&#20154;&#21147;&#37197;&#32622;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="58" y="361.76">&#23436;&#25972;&#35299;&#26512;</tspan></text>
-<path d="M57.5 388H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="436.068">A2.2&#35430;&#25187;&#20998;</tspan></text>
-<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">&#31934;&#31070;&#35703;&#29702;</tspan></text>
-<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">115&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">&#20154;&#21147;&#37197;&#32622;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#31934;&#31070;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-psychiatric-nursing-home-staffing">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾區 -->
+  <rect x="800" y="0" width="400" height="630" fill="#e8e6de"/>
+
+  <!-- 主標題第1行 -->
+  <text x="60" y="175" font-size="115" font-weight="bold" fill="#1e293b" >人力配置</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="295" font-size="115" font-weight="bold" fill="#d97706" >完整解析</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="322" x2="760" y2="322" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 副標題 -->
+  <text x="60" y="366" font-size="36" fill="#57534e" >24小時護理在班與專業人員設置全指南</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="396" width="180" height="40" rx="20" fill="#d97706"/>
+  <text x="150" y="421" font-size="20" fill="white" text-anchor="middle" >A2.2試扣分</text>
+
+  <rect x="256" y="396" width="140" height="40" rx="20" fill="#78716c"/>
+  <text x="326" y="421" font-size="20" fill="white" text-anchor="middle" >24小時</text>
+
+  <rect x="412" y="396" width="160" height="40" rx="20" fill="#57534e"/>
+  <text x="492" y="421" font-size="20" fill="white" text-anchor="middle" >200床分界</text>
+
+  <!-- 適用對象說明 -->
+  <text x="60" y="476" font-size="26" fill="#57534e" >適用對象：人事主管、護理長、機構負責人</text>
+
+  <!-- 右側裝飾大數字 -->
+  <text x="830" y="270" font-size="200" font-weight="bold" fill="#d97706"  opacity="0.9">24</text>
+  <!-- 右側說明文字 -->
+  <text x="990" y="315" font-size="26" fill="#57534e" text-anchor="middle" >小時護理在班</text>
+
+  <!-- 右側 2x2 資訊卡片 -->
+  <!-- 卡片1 -->
+  <rect x="825" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="907" y="380" font-size="17" font-weight="bold" fill="#d97706" text-anchor="middle" >護理人員</text>
+  <text x="907" y="411" font-size="15" fill="#57534e" text-anchor="middle" >24小時在班</text>
+  <text x="907" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >不可電話on-call</text>
+
+  <!-- 卡片2 -->
+  <rect x="1005" y="340" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="1087" y="380" font-size="17" font-weight="bold" fill="#78716c" text-anchor="middle" >照顧服務員</text>
+  <text x="1087" y="411" font-size="15" fill="#57534e" text-anchor="middle" >依床數配置</text>
+  <text x="1087" y="424" font-size="14" fill="#a8a29e" text-anchor="middle" >資格需符合規定</text>
+
+  <!-- 卡片3 -->
+  <rect x="825" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="907" y="495" font-size="17" font-weight="bold" fill="#57534e" text-anchor="middle" >職能治療</text>
+  <text x="907" y="526" font-size="15" fill="#57534e" text-anchor="middle" >4hr/週</text>
+  <text x="907" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >200床為分界</text>
+
+  <!-- 卡片4 -->
+  <rect x="1005" y="455" width="165" height="100" rx="10" fill="white" opacity="0.85"/>
+  <text x="1087" y="495" font-size="17" font-weight="bold" fill="#a8a29e" text-anchor="middle" >心理師</text>
+  <text x="1087" y="526" font-size="15" fill="#57534e" text-anchor="middle" >配置合規</text>
+  <text x="1087" y="539" font-size="14" fill="#a8a29e" text-anchor="middle" >同職能治療</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -1,42 +1,48 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-psychiatric-nursing-home-care-plan)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">72</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">&#23567;&#26178;&#20839;&#23436;&#25104;&#35413;&#20272;</tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">&#23567;&#26178;&#20839;&#23436;&#25104;&#35413;&#20272;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">&#36523;&#24515;&#31038;&#35469;&#30693;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#27963;&#21205;&#21151;&#33021;&#35413;&#20272;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">&#29151;&#39178;&#35413;&#20272;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#29151;&#39178;&#35413;&#20272;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="104" font-weight="bold" letter-spacing="0em"><tspan x="58" y="222.0">&#29031;&#35703;&#35336;&#30059;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="104" font-weight="bold" letter-spacing="0em"><tspan x="58" y="352.0">72&#23567;&#26178;&#23436;&#25104;</tspan></text>
-<path d="M57.5 380H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="430.0">B1.1&#20491;&#21029;&#21270;&#29031;&#35703;&#35336;&#30059;&#35413;&#37969;&#22522;&#28310;&#33287;&#20837;&#20303;&#35413;&#20272;&#23526;&#21209;</tspan></text>
-<path opacity="0.12" d="M198 458.00H70C64.4772 458.00 60 462.477 60 468.00V494.00C60 499.523 64.4772 504.00 70 504.00H198C203.523 504.00 208 499.523 208 494.00V468.00C208 462.477 203.523 458.00 198 458.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="497.000">&#31934;&#31070;&#35703;&#29702;</tspan></text>
-<path opacity="0.12" d="M358 458.00H230C224.477 458.00 220 462.477 220 468.00V494.00C220 499.523 224.477 504.00 230 504.00H358C363.523 504.00 368 499.523 368 494.00V468.00C368 462.477 363.523 458.00 358 458.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="497.000">115&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M518 458.00H390C384.477 458.00 380 462.477 380 468.00V494.00C380 499.523 384.477 504.00 390 504.00H518C523.523 504.00 528 499.523 528 494.00V468.00C528 462.477 523.523 458.00 518 458.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="497.000">&#20491;&#21029;&#21270;&#29031;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="552.0">&#36969;&#21512;&#31934;&#31070;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-psychiatric-nursing-home-care-plan">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾區 -->
+  <rect x="700" y="0" width="500" height="630" fill="#e8e6de"/>
+
+  <!-- 左側內容區 -->
+  <!-- 特色標籤 -->
+  <rect x="60" y="60" width="80" height="32" rx="16" fill="#d97706"/>
+  <text x="100" y="81" font-size="16" fill="white" text-anchor="middle" >B1.1</text>
+  <rect x="152" y="60" width="100" height="32" rx="16" fill="#78716c"/>
+  <text x="202" y="81" font-size="16" fill="white" text-anchor="middle" >入住評估</text>
+  <rect x="264" y="60" width="100" height="32" rx="16" fill="#57534e"/>
+  <text x="314" y="81" font-size="16" fill="white" text-anchor="middle" >照護計畫</text>
+
+  <!-- 主標題第1行 -->
+  <text x="60" y="220" font-size="120" fill="#1e293b"  font-weight="700">照護計畫</text>
+  <!-- 主標題第2行 -->
+  <text x="60" y="360" font-size="110" fill="#d97706"  font-weight="700">72小時完成</text>
+
+  <!-- 副標題 -->
+  <text x="60" y="430" font-size="38" fill="#57534e" >B1.1個別化照護計畫評鑑基準與入住評估實務</text>
+
+  <!-- 分隔線 -->
+  <line x1="60" y1="460" x2="620" y2="460" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 右側裝飾區內容 -->
+  <!-- 大數字 -->
+  <text x="950" y="260" font-size="200" fill="#d97706" text-anchor="middle"  font-weight="700" opacity="0.15">72</text>
+  <text x="950" y="260" font-size="180" fill="#d97706" text-anchor="middle"  font-weight="700">72</text>
+  <text x="950" y="310" font-size="28" fill="#78716c" text-anchor="middle" >小時內完成評估</text>
+
+  <!-- 右側 pill 標籤 -->
+  <rect x="780" y="370" width="170" height="40" rx="20" fill="#d97706"/>
+  <text x="865" y="396" font-size="18" fill="white" text-anchor="middle" >身心社認知</text>
+
+  <rect x="780" y="422" width="170" height="40" rx="20" fill="#78716c"/>
+  <text x="865" y="448" font-size="18" fill="white" text-anchor="middle" >活動功能評估</text>
+
+  <rect x="780" y="474" width="170" height="40" rx="20" fill="#57534e"/>
+  <text x="865" y="500" font-size="18" fill="white" text-anchor="middle" >營養評估</text>
+
+  <rect x="780" y="526" width="170" height="40" rx="20" fill="#a8a29e"/>
+  <text x="865" y="552" font-size="18" fill="white" text-anchor="middle" >每半年修訂</text>
+
+  <!-- 品牌浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" >報告汪 reportwang.com</text>
 </svg>

@@ -1,40 +1,33 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: cover -->
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans TC', sans-serif; }
+    </style>
+  </defs>
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-youth-care-supervision)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">2</tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#38917;&#30446; 28</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#33287;&#20491;&#26696;&#30740;&#35342;&#26371;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">&#35413;&#37969;&#38917;&#30446; 28 &#30340;&#28310;&#20633;&#25915;&#30053;</tspan></text>
-<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#20986;&#24109;&#21517;&#21934;&#12289;&#35342;&#35542;&#25688;&#35201;&#12289;&#30563;&#23566;&#24847;&#35211;&#12289;&#33853;&#23526;&#35657;&#26126;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#20818;&#23569;&#23433;&#32622;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#30563;&#23566;&#32000;&#37636;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#20491;&#26696;&#30740;&#35342;&#26371;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#20818;&#23569;&#27231;&#27083;&#20027;&#20219;&#21450;&#31038;&#24037;&#20154;&#21729;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-youth-care-supervision">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側面板 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- 右側大數字 -->
+  <text x="1010" y="400" font-size="280" font-weight="900" fill="#d97706" opacity="0.18" text-anchor="middle">2</text>
+  <text x="1010" y="560" font-size="36" font-weight="700" fill="#78716c" text-anchor="middle">項目 28</text>
+  <text x="1010" y="600" font-size="22" font-weight="400" fill="#a8a29e" text-anchor="middle">專業成長</text>
+  <!-- 左側主標題區 -->
+  <text x="72" y="148" font-size="52" font-weight="900" fill="#1e293b">督導紀錄</text>
+  <text x="72" y="218" font-size="52" font-weight="900" fill="#1e293b">與個案研討會</text>
+  <text x="72" y="300" font-size="30" font-weight="600" fill="#d97706">評鑑項目 28 的準備攻略</text>
+  <!-- 分隔線 -->
+  <rect x="72" y="328" width="80" height="4" rx="2" fill="#d97706"/>
+  <!-- 副說明文字 -->
+  <text x="72" y="376" font-size="22" fill="#57534e">個案研討會 1分 ＋ 督導制度 1分</text>
+  <text x="72" y="412" font-size="22" fill="#57534e">出席名單、討論摘要、督導意見、落實證明</text>
+  <!-- 標籤 -->
+  <rect x="72" y="460" width="148" height="44" rx="22" fill="#d97706"/>
+  <text x="146" y="488" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">112年度評鑑</text>
+  <rect x="234" y="460" width="168" height="44" rx="22" fill="#78716c"/>
+  <text x="318" y="488" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">兒少安置機構</text>
+  <!-- 浮水印 -->
+  <text x="1140" y="600" font-size="24" fill="#c4bfb8" text-anchor="end">reportwang.com</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

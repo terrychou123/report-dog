@@ -1,42 +1,55 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-general-nursing-home-care-plan)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">&#35413;&#37969;&#26680;&#24515;&#22522;&#28310;</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416"></tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">72 &#23567;&#26178;&#20839;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">&#23436;&#25104;&#23436;&#25972;&#22235;&#38754;&#21521;&#35413;&#20272;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#20491;&#21029;&#21270;&#35336;&#30059;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">&#27599; 3 &#20491;&#26376;&#20462;&#35330;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#35413;&#20540;&#35352;&#37636;&#19981;&#31354;&#30333;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#35703;&#29702;&#20043;&#23478;&#29031;&#35703;&#35336;&#30059;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">&#24590;&#40636;&#23531;&#25165;&#23565;&#65311;</tspan></text>
-<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#22235;&#35201;&#32032;&#26550;&#27083;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#35703;&#29702;&#20043;&#23478;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#20491;&#21029;&#21270;&#29031;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">B1&#35413;&#37969;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24037;&#20316;&#20154;&#21729;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-general-nursing-home-care-plan">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側裝飾圖示 - B1 評鑑基準重點 -->
+  <text x="1010" y="190" font-size="84" font-weight="900" fill="#16a34a" text-anchor="middle" opacity="0.85">B1</text>
+  <text x="1010" y="226" font-size="22" fill="#78716c" text-anchor="middle" font-weight="600">評鑑核心基準</text>
+
+  <!-- 右側四時序卡片 -->
+  <rect x="840" y="248" width="320" height="60" rx="8" fill="white" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="856" y="271" font-size="24" fill="#16a34a" font-weight="700">24 小時內</text>
+  <text x="856" y="302" font-size="20" fill="#57534e">完成初步護理評估</text>
+
+  <rect x="840" y="318" width="320" height="60" rx="8" fill="white" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="856" y="341" font-size="24" fill="#16a34a" font-weight="700"> 72 小時內</text>
+  <text x="856" y="372" font-size="20" fill="#57534e">完成完整四面向評估</text>
+
+  <rect x="840" y="388" width="320" height="60" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <text x="856" y="411" font-size="24" fill="#d97706" font-weight="700">個別化計畫</text>
+  <text x="856" y="442" font-size="20" fill="#57534e">跨專業簽名 · 四要素齊全</text>
+
+  <rect x="840" y="458" width="320" height="60" rx="8" fill="white" stroke="#d97706" stroke-width="1.5"/>
+  <text x="856" y="481" font-size="24" fill="#d97706" font-weight="700"> 每 3 個月修訂</text>
+  <text x="856" y="512" font-size="20" fill="#57534e">評值記錄不空白</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="530" width="320" height="50" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="1000" y="561" font-size="24" fill="#16a34a" text-anchor="middle" font-weight="700">附完整撰寫範例</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="190" font-size="92" font-weight="900" fill="#1e293b">護理之家照護計畫</text>
+  <text x="60" y="300" font-size="80" font-weight="900" fill="#16a34a">怎麼寫才對？</text>
+
+  <line x1="60" y1="330" x2="790" y2="330" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="378" font-size="34" fill="#57534e" font-weight="400">B1 個別化照護計畫 · 撰寫範例 · AI 輔助技巧</text>
+
+  <!-- 特色標籤 -->
+  <rect x="60" y="410" width="190" height="52" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="155" y="446" font-size="28" fill="#16a34a" text-anchor="middle" font-weight="600">四要素架構</text>
+
+  <rect x="260" y="410" width="190" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="355" y="446" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">跨專業簽名</text>
+
+  <rect x="460" y="410" width="190" height="52" rx="10" fill="#2563eb" opacity="0.12"/>
+  <text x="555" y="446" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="600">AI 輔助初稿</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="544" font-size="26" fill="#94a3b8">適用對象：護理師 · 護理長 · 評鑑文書負責人</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

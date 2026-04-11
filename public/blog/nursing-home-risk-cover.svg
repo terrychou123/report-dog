@@ -1,40 +1,64 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-nursing-home-risk)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+  <!-- 左側色塊 -->
+  <rect x="0" y="0" width="580" height="630" fill="#57534e"/>
+  <!-- 右側 -->
+  <rect x="580" y="0" width="620" height="630" fill="#faf9f5"/>
 
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">A6 &#21361;&#27231;&#31649;&#29702; 4 &#22823;&#24517;&#20633;&#35201;&#32032;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708"></tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#24590;&#40636;&#23531;&#65311;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">A6 &#35413;&#37969;&#22522;&#28310;&#35299;&#26512;</tspan></text>
-<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#26368;&#23569;&#39080;&#38570;&#38917;&#30446;&#25976;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#20303;&#23487;&#22411;&#35413;&#37969;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">114&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">&#21361;&#27231;&#31649;&#29702;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#20303;&#23487;&#22411;&#27231;&#27083;&#20027;&#31649;&#33287;&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-nursing-home-risk">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 左側標題 -->
+  <text x="60" y="120" font-size="48" fill="#fff" font-weight="700">危機管理計畫</text>
+  <text x="60" y="180" font-size="48" fill="#fff" font-weight="700">怎麼寫？</text>
+  <text x="60" y="250" font-size="28" fill="#fde68a" font-weight="400">A6 風險管理 4 個必備要素</text>
+
+  <!-- 標籤 -->
+  <rect x="60" y="290" width="220" height="40" rx="20" fill="#44403c"/>
+  <text x="170" y="316" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">A6 評鑑基準解析</text>
+
+  <!-- 重點數字 -->
+  <rect x="60" y="360" width="460" height="120" rx="12" fill="#44403c" opacity="0.8"/>
+  <text x="90" y="398" font-size="16" fill="#fde68a">最少風險項目數</text>
+  <text x="90" y="440" font-size="64" fill="#d97706" font-weight="700">3</text>
+  <text x="180" y="440" font-size="28" fill="#fff" font-weight="400">個（含）以上</text>
+  <text x="90" y="468" font-size="16" fill="#a8a29e">每半年定期分析一次</text>
+
+  <!-- 右側卡片 -->
+  <rect x="620" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="640" y="115" font-size="36"></text>
+  <text x="720" y="122" font-size="20" fill="#1e293b" font-weight="700">風險計畫</text>
+  <text x="720" y="148" font-size="14" fill="#57534e">3項以上風險</text>
+  <text x="720" y="168" font-size="14" fill="#57534e">明確處理程序</text>
+  <text x="720" y="188" font-size="14" fill="#57534e">每半年分析</text>
+
+  <rect x="880" y="80" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="900" y="115" font-size="36"></text>
+  <text x="980" y="122" font-size="20" fill="#1e293b" font-weight="700">A4 查核缺失</text>
+  <text x="980" y="148" font-size="14" fill="#57534e">改善達 100%</text>
+  <text x="980" y="168" font-size="14" fill="#57534e">過去 4 年查核</text>
+  <text x="980" y="188" font-size="14" fill="#57534e">全面改善要求</text>
+
+  <rect x="620" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="640" y="265" font-size="36"></text>
+  <text x="720" y="272" font-size="20" fill="#1e293b" font-weight="700">PDCA 循環</text>
+  <text x="720" y="298" font-size="14" fill="#57534e">計畫-執行</text>
+  <text x="720" y="318" font-size="14" fill="#57534e">查核-行動</text>
+  <text x="720" y="338" font-size="14" fill="#57534e">持續改善</text>
+
+  <rect x="880" y="230" width="240" height="130" rx="12" fill="#fff" stroke="#e5e3dc" stroke-width="1"/>
+  <text x="900" y="265" font-size="36"></text>
+  <text x="980" y="272" font-size="20" fill="#1e293b" font-weight="700">E1 前次改善</text>
+  <text x="980" y="298" font-size="14" fill="#57534e">建議改善>=80%</text>
+  <text x="980" y="318" font-size="14" fill="#57534e">具體執行佐證</text>
+  <text x="980" y="338" font-size="14" fill="#57534e">完整改善紀錄</text>
+
+  <!-- 底部 -->
+  <rect x="620" y="390" width="500" height="160" rx="12" fill="#fef3c7"/>
+  <text x="870" y="430" text-anchor="middle" font-size="18" fill="#92400e" font-weight="700">A6 危機管理 4 大必備要素</text>
+  <text x="640" y="465" font-size="15" fill="#78716c">[v] 選擇 3 個以上風險訂定計畫</text>
+  <text x="640" y="492" font-size="15" fill="#78716c">[v] 明確具體處理程序與措施</text>
+  <text x="640" y="519" font-size="15" fill="#78716c">[v] 事件發生時依計畫執行有紀錄</text>
+  <text x="640" y="546" font-size="15" fill="#78716c">[v] 每半年定期分析報告含追蹤</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -1,41 +1,63 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-hospital-quality-indicators)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="1010.000" y="103.696"></tspan></text>
-<path d="M1179 506H841C840.448 506 840 506.448 840 507C840 507.552 840.448 508 841 508H1179C1179.55 508 1180 507.552 1180 507C1180 506.448 1179.55 506 1179 506Z" fill="#A8A29E"/>
-<path opacity="0.9" d="M893 166H861C857.686 166 855 168.686 855 172V500C855 503.314 857.686 506 861 506H893C896.314 506 899 503.314 899 500V172C899 168.686 896.314 166 893 166Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
-<path opacity="0.9" d="M958 226H926C922.686 226 920 228.686 920 232V500C920 503.314 922.686 506 926 506H958C961.314 506 964 503.314 964 500V232C964 228.686 961.314 226 958 226Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
-<path opacity="0.9" d="M1023 306H991C987.686 306 985 308.686 985 312V500C985 503.314 987.686 506 991 506H1023C1026.31 506 1029 503.314 1029 500V312C1029 308.686 1026.31 306 1023 306Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
-<path opacity="0.9" d="M1088 366H1056C1052.69 366 1050 368.686 1050 372V500C1050 503.314 1052.69 506 1056 506H1088C1091.31 506 1094 503.314 1094 500V372C1094 368.686 1091.31 366 1088 366Z" fill="#A8A29E"/>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
-<path opacity="0.9" d="M1153 426H1121C1117.69 426 1115 428.686 1115 432V500C1115 503.314 1117.69 506 1121 506H1153C1156.31 506 1159 503.314 1159 500V432C1159 428.686 1156.31 426 1153 426Z" fill="#94A3B8"/>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">&#29031;&#35703;&#21697;&#36074;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">&#34892;&#25919;&#31649;&#29702;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">&#29872;&#22659;&#35373;&#26045;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">&#20154;&#21147;&#37197;&#32622;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">&#20491;&#26696;&#32000;&#37636;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="60" y="225.0">&#21697;&#36074;&#25351;&#27161;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="60" y="348.0">&#22914;&#20309;&#36984;&#12289;&#22914;&#20309;&#36861;&#65311;</tspan></text>
-<path d="M60 378H820" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">2.2.1 &#24517;&#35201;&#26781;&#25991; &#215; PDCA&#25345;&#32396;&#25913;&#21892;&#31649;&#29702;&#23436;&#25972;&#25915;&#30053;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#37291;&#38498;&#35413;&#37969;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">PDCA</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">2.2.</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#37291;&#38498;&#35413;&#37969;&#28310;&#20633;&#20027;&#31649;&#21450;&#37291;&#35703;&#20154;&#21729;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-hospital-quality-indicators">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大數字 4 -->
+  <text x="1010" y="270" text-anchor="middle" font-size="200" fill="#d97706" font-weight="900" opacity="0.85">4</text>
+  <text x="1010" y="318" text-anchor="middle" font-size="24" fill="#78716c" font-weight="600">品質指標選定四大標準</text>
+
+  <!-- 右側資訊卡片 -->
+  <rect x="840" y="346" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="379" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">臨床意義 · 可測量性</text>
+
+  <rect x="840" y="408" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="441" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">改善可行性 · 三面向</text>
+
+  <rect x="840" y="470" width="320" height="52" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="1000" y="503" text-anchor="middle" font-size="24" fill="#57534e" font-weight="700">臨床 × 效率 × 安全</text>
+
+  <!-- 右側底部標籤 -->
+  <rect x="840" y="532" width="320" height="46" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="1000" y="562" text-anchor="middle" font-size="24" fill="#d97706" font-weight="700">資料查核 ＋ 訪談</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="200" font-size="108" fill="#1e293b" font-weight="900">品質指標</text>
+  <text x="60" y="318" font-size="96" fill="#d97706" font-weight="900">如何選、如何追？</text>
+
+  <!-- 左側分隔線 -->
+  <line x1="60" y1="348" x2="780" y2="348" stroke="#dedad3" stroke-width="2"/>
+
+  <!-- 左側副標題 -->
+  <text x="60" y="390" font-size="32" fill="#57534e">2.2.1 必要條文 × PDCA持續改善管理完整攻略</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="420" width="148" height="48" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="134" y="452" text-anchor="middle" font-size="24" fill="#d97706" font-weight="600">指標選定依據</text>
+
+  <rect x="220" y="420" width="148" height="48" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="294" y="452" text-anchor="middle" font-size="24" fill="#78716c" font-weight="600">目標值設定</text>
+
+  <rect x="380" y="420" width="148" height="48" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="454" y="452" text-anchor="middle" font-size="24" fill="#57534e" font-weight="600">PDCA追蹤</text>
+
+  <rect x="540" y="420" width="148" height="48" rx="10" fill="#0d9488" opacity="0.12"/>
+  <text x="614" y="452" text-anchor="middle" font-size="24" fill="#0d9488" font-weight="600">委員訪談準備</text>
+
+  <!-- 第二排標籤 -->
+  <rect x="60" y="480" width="148" height="48" rx="10" fill="#16a34a" opacity="0.12"/>
+  <text x="134" y="512" text-anchor="middle" font-size="24" fill="#16a34a" font-weight="600">全國基準值</text>
+
+  <rect x="220" y="480" width="148" height="48" rx="10" fill="#4f46e5" opacity="0.12"/>
+  <text x="294" y="512" text-anchor="middle" font-size="24" fill="#4f46e5" font-weight="600">品管月報</text>
+
+  <rect x="380" y="480" width="148" height="48" rx="10" fill="#9333ea" opacity="0.12"/>
+  <text x="454" y="512" text-anchor="middle" font-size="24" fill="#9333ea" font-weight="600">改善計畫追蹤</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="562" font-size="24" fill="#a8a29e">適用：醫院品管人員、護理主管、評鑑協調人員</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="612" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

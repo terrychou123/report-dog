@@ -1,42 +1,62 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-postpartum-fire-evacuation)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">&#30095;&#25955;&#36991;&#38627; + &#28797;&#23475;&#25033;&#35722;</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416"></tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">&#28040;&#38450;&#28436;&#32244;&#65288;&#21547;&#23344;&#20818;&#65289;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#23344;&#20818;&#23460;&#28331;&#24230;&#30435;&#28204;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">&#22825;&#28797;&#25033;&#35722;&#35336;&#30059;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#39089;&#39080; + &#22320;&#38663; + &#20572;&#38651;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#23344;&#20818;&#30095;&#25955;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">C1 + C2 &#183; &#29986;&#24460;&#35703;&#29702;&#20043;&#23478;&#28040;&#38450;&#23433;&#20840;&#35413;&#37969;&#20840;&#25915;&#30053;</tspan></text>
-<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">&#30095;&#25955; SOP</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#23344;&#20818;&#30095;&#25955;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#29986;&#24460;&#35703;&#29702;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">C1&#35413;&#37969;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#29986;&#24460;&#35703;&#29702;&#27231;&#27083;&#36000;&#36012;&#20154;&#33287;&#35703;&#29702;&#38263;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-postpartum-fire-evacuation">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 右側裝飾區塊 -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+
+  <!-- 右側大文字（C1+C2） -->
+  <text x="1010" y="195" font-size="106" font-weight="900" fill="#2563eb" text-anchor="middle" opacity="0.85">C1+C2</text>
+  <text x="1010" y="237" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">疏散避難 + 災害應變</text>
+
+  <!-- 右側資訊卡片 -->
+  <rect x="840" y="260" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="280" font-size="22" fill="#2563eb" font-weight="700">每年 2 次</text>
+  <text x="970" y="311" font-size="21" fill="#57534e">消防演練（含嬰兒）</text>
+
+  <rect x="840" y="322" width="320" height="56" rx="10" fill="#2563eb" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="342" font-size="22" fill="#2563eb" font-weight="700">人員分工表</text>
+  <text x="982" y="373" font-size="21" fill="#57534e">書面 SOP 必備</text>
+
+  <rect x="840" y="384" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="404" font-size="22" fill="#d97706" font-weight="700">24–26°C</text>
+  <text x="970" y="435" font-size="21" fill="#57534e">嬰兒室溫度監測</text>
+
+  <rect x="840" y="446" width="320" height="56" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="466" font-size="22" fill="#78716c" font-weight="700">天災應變計畫</text>
+  <text x="982" y="497" font-size="21" fill="#57534e">颱風 + 地震 + 停電</text>
+
+  <!-- 右側底部 -->
+  <rect x="840" y="512" width="320" height="52" rx="10" fill="#2563eb" opacity="0.10"/>
+  <text x="1000" y="548" font-size="24" fill="#2563eb" text-anchor="middle" font-weight="700">現場觀察 + 資料查核</text>
+
+  <rect x="840" y="570" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1000" y="599" font-size="20" fill="#57534e" text-anchor="middle">含嬰兒疏散工具確認</text>
+
+  <!-- 左側主標題 -->
+  <text x="60" y="160" font-size="96" font-weight="900" fill="#1e293b">嬰兒疏散</text>
+  <text x="60" y="266" font-size="96" font-weight="900" fill="#2563eb">演練怎麼做？</text>
+
+  <line x1="60" y1="298" x2="780" y2="298" stroke="#dedad3" stroke-width="2"/>
+
+  <text x="60" y="344" font-size="34" fill="#57534e" font-weight="400">C1 + C2 · 產後護理之家消防安全評鑑全攻略</text>
+
+  <!-- 特色標籤列 -->
+  <rect x="60" y="372" width="188" height="52" rx="10" fill="#2563eb" opacity="0.10"/>
+  <text x="154" y="407" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="600">疏散 SOP</text>
+
+  <rect x="260" y="372" width="188" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="354" y="407" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">演練紀錄</text>
+
+  <rect x="460" y="372" width="188" height="52" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="554" y="407" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">溫度管理</text>
+
+  <!-- 適用對象 -->
+  <text x="60" y="460" font-size="28" fill="#94a3b8">防火管理人 · 護理主管 · 機構負責人</text>
+
+  <!-- 底部說明 -->
+  <text x="60" y="508" font-size="30" fill="#57534e" font-weight="500">嬰兒疏散 SOP 必須有人員分工，不能只是一張流程圖</text>
+  <text x="60" y="546" font-size="26" fill="#a8a29e">演練紀錄 + 溫度記錄，是 C 區通過評鑑的兩大關鍵</text>
+
+  <!-- 浮水印 -->
+  <text x="780" y="592" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

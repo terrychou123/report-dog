@@ -2,6 +2,11 @@
 """
 Phase 4: 批次重生成 249 篇部落格封面 SVG
 策略：讀取現有舊格式 SVG → 提取內容 → 套用新模板結構
+
+⚠️  警告：此腳本以舊版 SVG bbox 刮取為資料來源，覆蓋可靠度有限。
+    請勿再對 public/blog/ 做全量批次覆寫，僅針對單篇重跑並人工核對。
+    background: fa8533f Phase 4 曾造成 100+ 張封面爆框 / 空格，
+    已由 git 回滾至手工版本（2026-04-12）。
 """
 
 import re
@@ -804,38 +809,74 @@ def gen_standard_svg(clip_id: str, fields: dict, article: dict) -> str:
             f'<tspan x="58" y="{c["l2_y"]}">{ent(l2)}</tspan></text>'
         )
 
+    # 驗證 hero_num 必須為純數字（含最多一個小數點），否則略過大數字區塊以免爆框
+    hero_num = (hero_num or '').strip()
+    _is_numeric_hero = bool(re.fullmatch(r'\d{1,4}(?:[.,]\d+)?', hero_num))
+    if not _is_numeric_hero:
+        hero_num = ''  # 非數字一律不 emit（中文 / 代碼 / 符號皆會在 font-200 爆框）
+
+    # 依位數自適應字級，使用 text-anchor="middle" 置中於右側面板中心 x=1010
+    if hero_num:
+        _n_digits = len(re.sub(r'[^0-9]', '', hero_num))
+        if _n_digits <= 2:
+            _hero_font, _hero_x = 200, 1010
+        elif _n_digits == 3:
+            _hero_font, _hero_x = 160, 1010
+        else:
+            _hero_font, _hero_x = 128, 1010
+
     hero_svg = ''
     if hero_num:
         hero_svg = (
             f'<!-- 右側大數字 -->\n'
             f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  '
-            f'font-size="200" font-weight="bold" letter-spacing="0em">'
-            f'<tspan x="890" y="232.2">{ent(hero_num)}</tspan></text>\n'
+            f'font-size="{_hero_font}" font-weight="bold" letter-spacing="0em" text-anchor="middle">'
+            f'<tspan x="{_hero_x}" y="232.2">{ent(hero_num)}</tspan></text>\n'
             f'<text fill="#78716C" style="white-space: pre" xml:space="preserve"  '
-            f'font-size="28" font-weight="bold" letter-spacing="0em">'
-            f'<tspan x="957" y="274.416">{ent(hero_desc)}</tspan></text>'
+            f'font-size="28" font-weight="bold" letter-spacing="0em" text-anchor="middle">'
+            f'<tspan x="1010" y="274.416">{ent(hero_desc)}</tspan></text>'
         )
 
-    cards_svg = (
-        f'<!-- 右側白底卡片 -->\n'
-        f'<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>\n'
-        f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">{ent(card1_title)}</tspan></text>\n'
-        f'<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">{ent(card1_sub)}</tspan></text>\n'
-        f'<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>\n'
-        f'<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708">{ent(card2_title)}</tspan></text>\n'
-        f'<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">{ent(card2_sub)}</tspan></text>\n'
-        f'<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>\n'
-        f'<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">{ent(card3_title)}</tspan></text>\n'
-        f'<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">{ent(card3_sub)}</tspan></text>\n'
-        f'<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>\n'
-        f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">{ent(card4_title)}</tspan></text>\n'
-        f'<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">{ent(card4_sub)}</tspan></text>'
-    )
+    # 卡片輔助函式：content 若皆為空則略過整個卡片（避免只有空框沒有文字）
+    def _card(path_d: str, t1_color: str, t1_x: int, t1_y: str, title: str,
+              t2_x: int, t2_y: str, sub: str) -> str:
+        if not (title or sub):
+            return ''  # 空卡片完全不 emit
+        return (
+            f'<path d="{path_d}" fill="white" stroke="#E8E6DE"/>\n'
+            f'<text fill="{t1_color}" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="{t1_x}" y="{t1_y}">{ent(title)}</tspan></text>\n'
+            f'<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="{t2_x}" y="{t2_y}">{ent(sub)}</tspan></text>'
+        )
 
-    bottom_pill_svg = (
-        f'<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>\n'
-        f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">{ent(bottom_pill)}</tspan></text>'
-    )
+    cards_svg = '<!-- 右側白底卡片 -->\n' + '\n'.join(filter(None, [
+        _card("M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z",
+              "#D97706", 868, "341.708", card1_title, 868, "370.476", card1_sub),
+        _card("M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z",
+              "#78716C", 1033, "341.708", card2_title, 1033, "370.476", card2_sub),
+        _card("M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z",
+              "#78716C", 868, "440.708", card3_title, 868, "469.476", card3_sub),
+        _card("M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z",
+              "#D97706", 1033, "440.708", card4_title, 1033, "469.476", card4_sub),
+    ]))
+
+    # bottom_pill 長度自適應字級 + 置中，空值則不 emit
+    bottom_pill = (bottom_pill or '').strip()
+    if bottom_pill:
+        _pill_len = len(bottom_pill)
+        if _pill_len <= 11:
+            _pill_font = 28
+        elif _pill_len <= 14:
+            _pill_font = 24
+        else:
+            _pill_font = 20
+        bottom_pill_svg = (
+            f'<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>\n'
+            f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  '
+            f'font-size="{_pill_font}" font-weight="bold" letter-spacing="0em" text-anchor="middle">'
+            f'<tspan x="1006" y="530.708">{ent(bottom_pill)}</tspan></text>'
+        )
+    else:
+        bottom_pill_svg = ''  # 空值略過底部標籤與背景框
 
     sep_y = c["sep_y"]
     sub_y = c["sub_y"]

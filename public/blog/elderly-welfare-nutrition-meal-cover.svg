@@ -1,42 +1,57 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-elderly-welfare-nutrition-meal)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">B29</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416"></tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">B30</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476"></tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">B31</tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476"></tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">&#31649;&#28748;&#35703;&#29702;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708"></tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="225.0">&#33203;&#39135;&#31649;&#29702;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="92" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">B28-B31 &#25915;&#30053;</tspan></text>
-<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="428.0">B28-B31&#25351;&#27161;</tspan></text>
-<path opacity="0.12" d="M198 456.00H70C64.4772 456.00 60 460.477 60 466.00V492.00C60 497.523 64.4772 502.00 70 502.00H198C203.523 502.00 208 497.523 208 492.00V466.00C208 460.477 203.523 456.00 198 456.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="495.000">&#32769;&#20154;&#31119;&#21033;</tspan></text>
-<path opacity="0.12" d="M358 456.00H230C224.477 456.00 220 460.477 220 466.00V492.00C220 497.523 224.477 502.00 230 502.00H358C363.523 502.00 368 497.523 368 492.00V466.00C368 460.477 363.523 456.00 358 456.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="495.000">&#33203;&#39135;&#31649;&#29702;</tspan></text>
-<path opacity="0.12" d="M518 456.00H390C384.477 456.00 380 460.477 380 466.00V492.00C380 497.523 384.477 502.00 390 502.00H518C523.523 502.00 528 497.523 528 492.00V466.00C528 460.477 523.523 456.00 518 456.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="495.000">B28-B31</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.0">&#36969;&#21512;&#32769;&#20154;&#31119;&#21033;&#27231;&#27083;&#20027;&#31649;&#33287;&#31038;&#24037;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-elderly-welfare-nutrition-meal">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+
+  <!-- 左側主標題區 -->
+  <!-- 主標題第1行（黑色） -->
+  <text x="80" y="180" font-size="100" font-weight="700" fill="#1e293b" >膳食管理</text>
+  <!-- 主標題第2行（琥珀色） -->
+  <text x="80" y="295" font-size="100" font-weight="700" fill="#d97706" >B28-B31 攻略</text>
+
+  <!-- 副標題 -->
+  <text x="80" y="360" font-size="36" fill="#57534e" >營養師菜單、個別化飲食、管灌護理，評鑑不扣分</text>
+
+  <!-- Pill 標籤 -->
+  <!-- pill 1: B28-B31指標 -->
+  <rect x="80" y="400" width="192" height="44" rx="22" fill="#d97706" opacity="0.15"/>
+  <text x="176" y="428" font-size="21" fill="#d97706" text-anchor="middle" font-weight="600" >B28-B31指標</text>
+
+  <!-- pill 2: 菜單設計 -->
+  <rect x="288" y="400" width="156" height="44" rx="22" fill="#78716c" opacity="0.15"/>
+  <text x="366" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" >菜單設計</text>
+
+  <!-- pill 3: 個別化飲食 -->
+  <rect x="460" y="400" width="192" height="44" rx="22" fill="#57534e" opacity="0.15"/>
+  <text x="556" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" >個別化飲食</text>
+
+  <!-- pill 4: 管灌技術 -->
+  <rect x="668" y="400" width="156" height="44" rx="22" fill="#78716c" opacity="0.15"/>
+  <text x="746" y="428" font-size="21" fill="#57534e" text-anchor="middle" font-weight="600" >管灌技術</text>
+
+  <!-- 右側裝飾：4個指標圓圈 -->
+  <!-- B28 圓 -->
+  <circle cx="980" cy="160" r="70" fill="#d97706" opacity="0.12"/>
+  <text x="980" y="150" font-size="28" font-weight="700" fill="#d97706" text-anchor="middle" >B28</text>
+  <text x="980" y="182" font-size="18" fill="#57534e" text-anchor="middle" >膳食管理</text>
+
+  <!-- B29 圓 -->
+  <circle cx="1110" cy="220" r="70" fill="#78716c" opacity="0.12"/>
+  <text x="1110" y="210" font-size="28" font-weight="700" fill="#78716c" text-anchor="middle" >B29</text>
+  <text x="1110" y="242" font-size="18" fill="#57534e" text-anchor="middle" >個別化飲食</text>
+
+  <!-- B30 圓 -->
+  <circle cx="950" cy="330" r="60" fill="#57534e" opacity="0.1"/>
+  <text x="950" y="320" font-size="26" font-weight="700" fill="#57534e" text-anchor="middle" >B30</text>
+  <text x="950" y="348" font-size="16" fill="#57534e" text-anchor="middle" >點心供應</text>
+
+  <!-- B31 圓 -->
+  <circle cx="1090" cy="390" r="65" fill="#a8a29e" opacity="0.15"/>
+  <text x="1090" y="380" font-size="26" font-weight="700" fill="#78716c" text-anchor="middle" >B31</text>
+  <text x="1090" y="405" font-size="16" fill="#57534e" text-anchor="middle" >管灌護理</text>
+
+  <!-- 底部裝飾線 -->
+  <rect x="80" y="490" width="480" height="4" rx="2" fill="#d97706" opacity="0.4"/>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

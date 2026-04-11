@@ -1,40 +1,54 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-general-nursing-home-staffing-cpr)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
 
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">2 &#24613;&#25937;&#35347;&#32244;&#25928;&#26399;&#31649;&#29702;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">2 &#24613;&#25937;&#35347;&#32244;&#25928;&#26399;&#31649;&#29702;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476"></tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">4 &#29031;&#26381;&#21729;&#37197;&#32622;&#33287;&#25345;&#35657;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708"></tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476"></tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">&#27604;&#20363;&#31526;&#21512;&#35215;&#23450;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="58" y="203.76">A1.2</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="58" y="361.76">A1.2</tspan></text>
-<path d="M57.5 391H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="442.136">&#20154;&#21147;&#37197;&#32622;&#33287;&#24613;&#25937;&#35347;&#32244;</tspan></text>
-<path opacity="0.12" d="M198 461.00H70C64.4772 461.00 60 465.477 60 471.00V497.00C60 502.523 64.4772 507.00 70 507.00H198C203.523 507.00 208 502.523 208 497.00V471.00C208 465.477 203.523 461.00 198 461.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">&#19968;&#33324;&#35703;&#29702;</tspan></text>
-<path opacity="0.12" d="M358 461.00H230C224.477 461.00 220 465.477 220 471.00V497.00C220 502.523 224.477 507.00 230 507.00H358C363.523 507.00 368 502.523 368 497.00V471.00C368 465.477 363.523 461.00 358 461.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">&#20154;&#21147;&#37197;&#32622;</tspan></text>
-<path opacity="0.12" d="M518 461.00H390C384.477 461.00 380 465.477 380 471.00V497.00C380 502.523 384.477 507.00 390 507.00H518C523.523 507.00 528 502.523 528 497.00V471.00C528 465.477 523.523 461.00 518 461.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">&#24613;&#25937;&#35347;&#32244;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">&#36969;&#21512;&#35703;&#29702;&#20043;&#23478;&#20027;&#31649;&#21450;&#35703;&#29702;&#24037;&#20316;&#20154;&#21729;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-general-nursing-home-staffing-cpr">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- 左側色塊 -->
+  <rect x="0" y="0" width="480" height="630" fill="#dc2626" rx="0"/>
+  <rect x="460" y="0" width="40" height="630" fill="#f87171" rx="0"/>
+
+  <!-- 大字 A1.2 -->
+  <text x="60" y="200" font-size="140" font-weight="900" fill="white" opacity="0.15">A1.2</text>
+  <text x="60" y="320" font-size="80" font-weight="900" fill="white">A1.2</text>
+  <text x="60" y="390" font-size="28" fill="#fecaca">人力配置與急救訓練</text>
+  <text x="60" y="440" font-size="22" fill="#fecaca">Staffing &amp; CPR Training</text>
+
+  <!-- 右側標題 -->
+  <text x="540" y="120" font-size="38" font-weight="900" fill="#7f1d1d">護理之家</text>
+  <text x="540" y="175" font-size="35" font-weight="900" fill="#7f1d1d">人力配置與急救訓練</text>
+  <text x="540" y="230" font-size="24" fill="#dc2626">A1.2 評鑑基準 · BLS/AED 訓練</text>
+  <text x="540" y="270" font-size="20" fill="#64748b">115 年度評鑑基準完整解析</text>
+
+  <!-- 4項要素卡片 -->
+  <rect x="540" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
+  <rect x="540" y="310" width="8" height="110" rx="4" fill="#dc2626"/>
+  <text x="562" y="350" font-size="24" font-weight="700" fill="#7f1d1d">1 護理主管資格</text>
+  <text x="562" y="375" font-size="20" fill="#475569">護理師執照</text>
+  <text x="562" y="398" font-size="20" fill="#475569">護理行政 3 年經驗</text>
+
+  <rect x="850" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
+  <rect x="850" y="310" width="8" height="110" rx="4" fill="#f97316"/>
+  <text x="872" y="358" font-size="24" font-weight="700" fill="#7f1d1d">2 急救訓練效期管理</text>
+  <text x="872" y="389" font-size="20" fill="#475569">每 2 年 1 次 · 8 小時以上</text>
+  <text x="872" y="398" font-size="20" fill="#475569">含 BLS + AED 操作</text>
+
+  <rect x="540" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
+  <rect x="540" y="440" width="8" height="110" rx="4" fill="#d97706"/>
+  <text x="562" y="480" font-size="24" font-weight="700" fill="#7f1d1d">3 新進護理人員訓練</text>
+  <text x="562" y="505" font-size="20" fill="#475569">訓練計畫書</text>
+  <text x="562" y="528" font-size="20" fill="#475569">訓練記錄 + 考核</text>
+
+  <rect x="850" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
+  <rect x="850" y="440" width="8" height="110" rx="4" fill="#16a34a"/>
+  <text x="872" y="488" font-size="24" font-weight="700" fill="#7f1d1d">4 照服員配置與持證</text>
+  <text x="872" y="519" font-size="20" fill="#475569">比例符合規定</text>
+  <text x="872" y="528" font-size="20" fill="#475569">訓練結業證明書管理</text>
+
+  <!-- 浮水印 -->
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0003"/>
+    </filter>
+  </defs>
 </svg>

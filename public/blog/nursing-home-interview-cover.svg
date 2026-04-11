@@ -1,41 +1,26 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-nursing-home-interview)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 頂部視角標籤 pill -->
-<path opacity="0.12" d="M234 90H70C64.4772 90 60 94.4772 60 100V155C60 160.523 64.4772 165 70 165H234C239.523 165 244 160.523 244 155V100C244 94.4772 239.523 90 234 90Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="78" y="139.44">&#20303;&#23487;&#22411;&#35413;&#37969;</tspan></text>
-<!-- 左側垂直色條 -->
-<path d="M68 175H60V539H68V175Z" fill="#D97706"/>
-<!-- 引言三行 -->
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="245.404">&#20303;&#23487;&#22411;&#27231;&#27083;&#35413;&#37969;&#20013;&#65292;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="316.404">&#29694;&#22580;&#35370;&#35527;&#26159;&#22996;&#21729;&#26368;&#37325;&#35201;&#30340;&#26597;&#26680;&#26041;&#24335;</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="387.404"></tspan></text>
-<!-- 分隔線 -->
-<path d="M82 412H782" stroke="#DEDAD3" stroke-width="2"/>
-<!-- 受訪者資訊 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="463.88">&#35703;&#29702;&#20043;&#23478;&#35703;&#29702;&#38263;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="40" letter-spacing="0em"><tspan x="90" y="518.776">&#20303;&#23487;&#22411;&#35413;&#37969; &#183; &#29694;&#22580;&#35264;&#23519;&#32000;&#37636;</tspan></text>
-<!-- 右側頭像圓框 -->
-<path d="M1010 320C1079.04 320 1135 264.035 1135 195C1135 125.965 1079.04 70 1010 70C940.965 70 885 125.965 885 195C885 264.035 940.965 320 1010 320Z" fill="white" stroke="#D97706" stroke-width="3"/>
-<path d="M1010 195C1032.51 195 1050.76 176.751 1050.76 154.239C1050.76 131.728 1032.51 113.479 1010 113.479C987.488 113.479 969.239 131.728 969.239 154.239C969.239 176.751 987.488 195 1010 195Z" fill="#C4BFB8"/>
-<path d="M1010 299.619C1055.03 299.619 1091.52 282.587 1091.52 261.576C1091.52 240.565 1055.03 223.532 1010 223.532C964.977 223.532 928.479 240.565 928.479 261.576C928.479 282.587 964.977 299.619 1010 299.619Z" fill="#C4BFB8"/>
-<!-- 機構名/組織 -->
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="938" y="363.964">&#20303;&#23487;&#22411;&#35413;&#37969;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="930" y="408.44">&#35413;&#37969;&#22996;&#21729;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="962" y="438.964">&#29694;&#22580;&#26597;&#26680;</tspan></text>
-<!-- 右下 2 pills -->
-<path opacity="0.12" d="M1006 463H866C860.477 463 856 467.477 856 473V499C856 504.523 860.477 509 866 509H1006C1011.52 509 1016 504.523 1016 499V473C1016 467.477 1011.52 463 1006 463Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="888" y="491.964">&#35413;&#37969;&#22996;&#21729;</tspan></text>
-<path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">&#29694;&#22580;&#35264;&#23519;</tspan></text>
-<!-- 浮水印 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-nursing-home-interview">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
+  <rect x="60" y="60" width="480" height="4" fill="#d97706"/>
+  <text x="60" y="148"  font-size="52" font-weight="700" fill="#1e293b">評鑑現場模擬</text>
+  <text x="60" y="216"  font-size="48" font-weight="700" fill="#d97706">委員會問什麼？教你怎麼答</text>
+  <text x="60" y="280"  font-size="26" fill="#57534e">A7 管理 × B2 照護 × D1 權益 × C9 安全</text>
+  <rect x="60" y="308" width="600" height="2" fill="#a8a29e"/>
+  <!-- 四大主題標籤 -->
+  <rect x="60" y="334" width="130" height="44" rx="22" fill="#d97706"/>
+  <text x="125" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">管理類訪談</text>
+  <rect x="206" y="334" width="130" height="44" rx="22" fill="#78716c"/>
+  <text x="271" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">照護類訪談</text>
+  <rect x="352" y="334" width="130" height="44" rx="22" fill="#57534e"/>
+  <text x="417" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">權益類訪談</text>
+  <rect x="498" y="334" width="130" height="44" rx="22" fill="#94a3b8"/>
+  <text x="563" y="362"  font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">安全類訪談</text>
+  <!-- 右側裝飾圖 -->
+  <rect x="720" y="120" width="420" height="380" rx="20" fill="#ffffff" opacity="0.5"/>
+  <text x="930" y="210"  font-size="80" fill="#d97706" opacity="0.2" text-anchor="middle">Q</text>
+  <text x="930" y="310"  font-size="26" fill="#57534e" text-anchor="middle">「請說明機構今年</text>
+  <text x="930" y="350"  font-size="26" fill="#57534e" text-anchor="middle">的業務計畫重點。」</text>
+  <text x="930" y="400"  font-size="22" fill="#d97706" text-anchor="middle">A3 條核心訪談題</text>
+  <text x="60" y="430"  font-size="22" fill="#78716c">住宿型照顧機構評鑑準備系列</text>
+  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

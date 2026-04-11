@@ -1,41 +1,49 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <!-- @template: cover -->
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&amp;display=swap');</style>
+  </defs>
+  <!-- Background -->
   <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-youth-care-evaluator)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 頂部視角標籤 pill -->
-<path opacity="0.12" d="M234 90H70C64.4772 90 60 94.4772 60 100V155C60 160.523 64.4772 165 70 165H234C239.523 165 244 160.523 244 155V100C244 94.4772 239.523 90 234 90Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="78" y="139.44">&#20818;&#23569;&#23433;&#32622;&#27231;&#27083;&#35413;&#37969;</tspan></text>
-<!-- 左側垂直色條 -->
-<path d="M68 175H60V539H68V175Z" fill="#D97706"/>
-<!-- 引言三行 -->
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="245.404">&#35413;&#37969;&#22996;&#21729;&#22312;&#27231;&#27083;&#20572;&#30041; 4&#8211;6 &#23567;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="316.404">&#20182;&#20497;&#30495;&#27491;&#22312;&#24847;&#30340;&#26159;&#20160;&#40636;&#12290;</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="387.404"></tspan></text>
-<!-- 分隔線 -->
-<path d="M82 412H782" stroke="#DEDAD3" stroke-width="2"/>
-<!-- 受訪者資訊 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="463.88">&#20818;&#23569;&#27231;&#27083;&#35413;&#37969;&#22996;&#21729;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="40" letter-spacing="0em"><tspan x="90" y="518.776">&#20818;&#23569;&#35413;&#37969; &#183; &#29694;&#22580;&#23529;&#26597;&#32000;&#37636;</tspan></text>
-<!-- 右側頭像圓框 -->
-<path d="M1010 320C1079.04 320 1135 264.035 1135 195C1135 125.965 1079.04 70 1010 70C940.965 70 885 125.965 885 195C885 264.035 940.965 320 1010 320Z" fill="white" stroke="#D97706" stroke-width="3"/>
-<path d="M1010 195C1032.51 195 1050.76 176.751 1050.76 154.239C1050.76 131.728 1032.51 113.479 1010 113.479C987.488 113.479 969.239 131.728 969.239 154.239C969.239 176.751 987.488 195 1010 195Z" fill="#C4BFB8"/>
-<path d="M1010 299.619C1055.03 299.619 1091.52 282.587 1091.52 261.576C1091.52 240.565 1055.03 223.532 1010 223.532C964.977 223.532 928.479 240.565 928.479 261.576C928.479 282.587 964.977 299.619 1010 299.619Z" fill="#C4BFB8"/>
-<!-- 機構名/組織 -->
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="938" y="363.964">&#20818;&#23569;&#27231;&#27083;&#35413;&#37969;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="930" y="408.44">&#35413;&#37969;&#22996;&#21729;</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="962" y="438.964">&#29694;&#22580;&#26597;&#26680;</tspan></text>
-<!-- 右下 2 pills -->
-<path opacity="0.12" d="M1006 463H866C860.477 463 856 467.477 856 473V499C856 504.523 860.477 509 866 509H1006C1011.52 509 1016 504.523 1016 499V473C1016 467.477 1011.52 463 1006 463Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="888" y="491.964">&#35413;&#37969;&#22996;&#21729;</tspan></text>
-<path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">&#23526;&#22320;&#35370;&#35222;</tspan></text>
-<!-- 浮水印 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-youth-care-evaluator">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+  <!-- Right panel -->
+  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+  <!-- Category badge -->
+  <rect x="60" y="60" width="140" height="38" rx="19" fill="#d97706"/>
+  <text x="130" y="84"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑準備</text>
+  <!-- Main title -->
+  <text x="60" y="165"  font-size="48" font-weight="900" fill="#1e293b">評鑑委員</text>
+  <text x="60" y="225"  font-size="48" font-weight="900" fill="#1e293b">在看什麼？</text>
+  <!-- Subtitle -->
+  <text x="60" y="285"  font-size="22" font-weight="500" fill="#57534e">從審查角度拆解安置機構評鑑關鍵</text>
+  <!-- Divider line -->
+  <rect x="60" y="315" width="80" height="4" rx="2" fill="#d97706"/>
+  <!-- Description -->
+  <text x="60" y="360"  font-size="18" fill="#78716c">文件查核、實地訪視、工作人員訪談</text>
+  <text x="60" y="390"  font-size="18" fill="#78716c">兒少訪談四大環節完整解析</text>
+  <!-- Tags row -->
+  <rect x="60" y="440" width="116" height="36" rx="18" fill="#fef3c7"/>
+  <text x="118" y="462"  font-size="14" fill="#d97706" text-anchor="middle">評鑑委員</text>
+  <rect x="188" y="440" width="116" height="36" rx="18" fill="#fef3c7"/>
+  <text x="246" y="462"  font-size="14" fill="#d97706" text-anchor="middle">實地訪視</text>
+  <rect x="316" y="440" width="116" height="36" rx="18" fill="#fef3c7"/>
+  <text x="374" y="462"  font-size="14" fill="#d97706" text-anchor="middle">審查重點</text>
+  <!-- Brand -->
+  <text x="60" y="560"  font-size="18" font-weight="700" fill="#a8a29e">報告汪 reportwang.com</text>
+  <!-- Right panel: visual element -->
+  <!-- Large eye/magnifying glass icon using basic shapes -->
+  <circle cx="1010" cy="260" r="90" fill="none" stroke="#d97706" stroke-width="6" opacity="0.25"/>
+  <circle cx="1010" cy="260" r="55" fill="#d97706" opacity="0.12"/>
+  <circle cx="1010" cy="260" r="28" fill="#d97706" opacity="0.22"/>
+  <!-- Search handle -->
+  <line x1="1055" y1="305" x2="1090" y2="340" stroke="#d97706" stroke-width="10" stroke-linecap="round" opacity="0.3"/>
+  <text x="1010" y="270"  font-size="36" font-weight="900" fill="#1e293b" text-anchor="middle" opacity="0.7">視角</text>
+  <text x="1010" y="385"  font-size="20" fill="#57534e" text-anchor="middle">委員審查視角</text>
+  <text x="1010" y="415"  font-size="20" fill="#57534e" text-anchor="middle">深度解析</text>
+  <!-- Right panel items -->
+  <rect x="880" y="460" width="260" height="52" rx="12" fill="#ffffff" opacity="0.6"/>
+  <text x="1010" y="491"  font-size="16" fill="#1e293b" text-anchor="middle">一致性與連續性</text>
+  <rect x="880" y="524" width="260" height="52" rx="12" fill="#ffffff" opacity="0.6"/>
+  <text x="1010" y="555"  font-size="16" fill="#1e293b" text-anchor="middle">兒少安置機構 112年度</text>
+  <!-- Watermark -->
+  <text x="1140" y="600"  font-size="24" fill="#c4bfb8" text-anchor="end" opacity="0.8">報告汪</text>
 </svg>

@@ -1,42 +1,30 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
-  <rect width="1200" height="630" fill="#f0efe8"/>
-<g clip-path="url(#clip-daycare-staffing)">
-<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
-<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<!-- 右側大數字 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">1:10</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">&#29031;&#26381;&#20154;&#21147;&#27604;</tspan></text>
-<!-- 右側白底卡片 -->
-<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">&#20027;&#20219;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">1&#21517;&#20197;&#19978;</tspan></text>
-<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708">&#31038;&#24037;&#24107;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">1&#21517;&#20197;&#19978;</tspan></text>
-<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">1&#21517;&#20197;&#19978;</tspan></text>
-<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">&#29031;&#26381;&#21729;</tspan></text>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">&#27599;10&#20154;&#37197;1&#21517;</tspan></text>
-<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">AI &#36628;&#21161;&#25776;&#23531; &#215; &#22577;&#21578;&#27754;</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="104" font-weight="bold" letter-spacing="0em"><tspan x="58" y="222.0">&#20154;&#21147;&#37197;&#32622;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="104" font-weight="bold" letter-spacing="0em"><tspan x="58" y="352.0">&#24590;&#40636;&#31639;&#25165;&#21512;&#35215;</tspan></text>
-<path d="M57.5 380H822" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="430.0">&#31532;28-33&#26781;&#23436;&#25972;&#35299;&#26512;</tspan></text>
-<path opacity="0.12" d="M198 458.00H70C64.4772 458.00 60 462.477 60 468.00V494.00C60 499.523 64.4772 504.00 70 504.00H198C203.523 504.00 208 499.523 208 494.00V468.00C208 462.477 203.523 458.00 198 458.00Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="497.000">&#26085;&#29031;&#35413;&#37969;</tspan></text>
-<path opacity="0.12" d="M358 458.00H230C224.477 458.00 220 462.477 220 468.00V494.00C220 499.523 224.477 504.00 230 504.00H358C363.523 504.00 368 499.523 368 494.00V468.00C368 462.477 363.523 458.00 358 458.00Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="497.000">115&#24180;&#24230;</tspan></text>
-<path opacity="0.12" d="M518 458.00H390C384.477 458.00 380 462.477 380 468.00V494.00C380 499.523 384.477 504.00 390 504.00H518C523.523 504.00 528 499.523 528 494.00V468.00C528 462.477 523.523 458.00 518 458.00Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="497.000">&#20154;&#21147;&#37197;&#32622;</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="552.0">&#36969;&#21512;&#26085;&#29031;&#20013;&#24515;&#20027;&#20219;&#12289;&#31038;&#24037;&#24107;&#12289;&#35703;&#29702;&#24107;</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#22577;&#21578;&#27754; reportwang.com</tspan></text>
-</g>
-<defs>
-<clipPath id="clip-daycare-staffing">
-<rect width="1200" height="630" fill="white"/>
-</clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
+<rect width="1200" height="630" fill="#f0efe8"/>
+<rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
+<text x="1010" y="239" font-size="180" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">1:10</text>
+<text x="1010" y="281" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">照服人力比</text>
+<rect x="840" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="917" y="336" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">主任</text>
+<text x="917" y="367" font-size="20" fill="#a8a29e" text-anchor="middle">1名以上</text>
+<rect x="1005" y="299" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="1082" y="336" font-size="26" fill="#78716c" text-anchor="middle" font-weight="700">社工師</text>
+<text x="1082" y="367" font-size="20" fill="#a8a29e" text-anchor="middle">1名以上</text>
+<rect x="840" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="917" y="432" font-size="26" fill="#57534e" text-anchor="middle" font-weight="700">護理師</text>
+<text x="917" y="463" font-size="20" fill="#a8a29e" text-anchor="middle">1名以上</text>
+<rect x="1005" y="395" width="155" height="86" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+<text x="1082" y="432" font-size="26" fill="#a8a29e" text-anchor="middle" font-weight="700">照服員</text>
+<text x="1082" y="463" font-size="20" fill="#a8a29e" text-anchor="middle">每10人配1名</text>
+<rect x="840" y="491" width="320" height="52" rx="10" fill="#d97706" opacity="0.12"/>
+<text x="1000" y="527" font-size="26" fill="#d97706" text-anchor="middle" font-weight="700">AI 輔助撰寫 × 報告汪</text>
+<text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">人力配置</text>
+<text x="60" y="338" font-size="104" font-weight="900" fill="#d97706">怎麼算才合規</text>
+<line x1="60" y1="456" x2="780" y2="456" stroke="#dedad3" stroke-width="2"/>
+<text x="60" y="502" font-size="36" fill="#57534e" font-weight="400">第28-33條完整解析</text>
+<rect x="60" y="556" width="192" height="50" rx="10" fill="#fef3c7"/>
+<text x="156" y="588" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">第28-33條</text>
+<rect x="266" y="556" width="120" height="50" rx="10" fill="#f5f5f4"/>
+<text x="326" y="588" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">定期追蹤</text>
+<text x="60" y="558" font-size="26" fill="#94a3b8">適用：日照中心主任、行政人員</text>
+<text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400" font-family="'Noto Sans TC', sans-serif">報告汪 reportwang.com</text>
 </svg>
