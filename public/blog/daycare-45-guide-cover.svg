@@ -25,8 +25,10 @@
 <!-- 右側底部寬 pill -->
 <path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
 <text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="950" y="530.708">五大面向</tspan></text>
-<!-- 左側主標題：N=3字 → font=160 -->
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="58" y="203.76">45 題</tspan></text>
+<!-- 左側 L1：「45 題」Pattern A 中標題（digit=160, CJK=128, 比值=1.25） -->
+<!-- digit_y=203.76, cjk_y=203.76-(160-128)×0.26=195.44, cjk_x=58+160×2×0.55+160×0.28+25=304 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="58" y="203.76">45 </tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="128" font-weight="bold" letter-spacing="0em"><tspan x="304" y="195.44">&#x984c;</tspan></text>
 <text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="58" y="361.76">全攻略</tspan></text>
 <!-- 分隔線 y=391（配合 font=160 L2 下移） -->
 <path d="M57.5 391H822" stroke="#DEDAD3" stroke-width="2"/>
