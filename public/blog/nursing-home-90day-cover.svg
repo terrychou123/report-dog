@@ -3,38 +3,66 @@
 <g clip-path="url(#clip-nursing-home-90day)">
 <path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
 <path d="M1201 0H821V630H1201V0Z" fill="#E8E6DE"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="820.266" y="154.88">90 天</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="832.319" y="234.848">第 1 階段</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="811.224" y="321.592">盤點清查</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="829.14" y="346.912">第 1–30 天</tspan></text>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="969.319" y="234.848">第 2 階段</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="948.224" y="321.592">補強改善</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="964.14" y="346.912">第 31–60 天</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1106.32" y="234.848">第 3 階段</tspan></text>
-<path d="M892 269H987" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
-<path d="M1027 269H1122" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
-<path d="M873 294C886.807 294 898 282.807 898 269C898 255.193 886.807 244 873 244C859.193 244 848 255.193 848 269C848 282.807 859.193 294 873 294Z" fill="#D97706"/>
-<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="861.223" y="286.44">1</tspan></text>
-<path d="M1012 294C1025.81 294 1037 282.807 1037 269C1037 255.193 1025.81 244 1012 244C998.193 244 987 255.193 987 269C987 282.807 998.193 294 1012 294Z" fill="#78716C"/>
-<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1000.22" y="286.44">2</tspan></text>
-<path d="M1147 294C1160.81 294 1172 282.807 1172 269C1172 255.193 1160.81 244 1147 244C1133.19 244 1122 255.193 1122 269C1122 282.807 1133.19 294 1147 294Z" fill="#57534E"/>
-<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1135.22" y="286.44">3</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1085.22" y="321.592">模擬衝刺</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="1099.14" y="346.912">第 61–90 天</tspan></text>
+
+<!-- 右側裝飾英雄數字（Pattern B: digit=160 fill=#D97706, CJK=60 fill=#78716C） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="899" y="232.76">90</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="60" font-weight="bold" letter-spacing="0em"><tspan x="1088" y="230.66">&#x5929;</tspan></text>
+
+<!-- 右側階段標籤 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="844" y="279.848">&#x7b2c; 1 &#x968e;&#x6bb5;</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="971" y="279.848">&#x7b2c; 2 &#x968e;&#x6bb5;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1101" y="279.848">&#x7b2c; 3 &#x968e;&#x6bb5;</tspan></text>
+
+<!-- 連接線 -->
+<path d="M893 312H988" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M1028 312H1123" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+
+<!-- 節點圓 -->
+<path d="M880 340C893.807 340 905 328.807 905 315C905 301.193 893.807 290 880 290C866.193 290 855 301.193 855 315C855 328.807 866.193 340 880 340Z" fill="#D97706"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="868" y="332.44">1</tspan></text>
+<path d="M1008 337C1021.81 337 1033 325.807 1033 312C1033 298.193 1021.81 287 1008 287C994.193 287 983 298.193 983 312C983 325.807 994.193 337 1008 337Z" fill="#78716C"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="996" y="329.44">2</tspan></text>
+<path d="M1138 337C1151.81 337 1163 325.807 1163 312C1163 298.193 1151.81 287 1138 287C1124.19 287 1113 298.193 1113 312C1113 325.807 1124.19 337 1138 337Z" fill="#57534E"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1126" y="329.44">3</tspan></text>
+
+<!-- 階段名稱與說明 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="834" y="367.592">&#x76e4;&#x9ede;&#x6e05;&#x67e5;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="840" y="391.912">&#x7b2c; 1&#x2013;30 &#x5929;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="964" y="367.592">&#x88dc;&#x5f37;&#x6539;&#x5584;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="963" y="391.912">&#x7b2c; 31&#x2013;60 &#x5929;</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1094" y="367.592">&#x6a21;&#x64ec;&#x885d;&#x523a;</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="1093" y="391.912">&#x7b2c; 61&#x2013;90 &#x5929;</tspan></text>
+
+<!-- 右側底部寬 pill -->
 <path opacity="0.12" d="M1155 500H865C859.477 500 855 504.477 855 510V538C855 543.523 859.477 548 865 548H1155C1160.52 548 1165 543.523 1165 538V510C1165 504.477 1160.52 500 1155 500Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="948.174" y="535.336">三階段備考計畫</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="211.32">90 天</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="361.76">倒數計畫</tspan></text>
-<path d="M60 388L821 388" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="436.068">住宿型機構分月分工備審攻略</tspan></text>
-<path opacity="0.12" d="M198 461H70C64.4772 461 60 465.477 60 471V497C60 502.523 64.4772 507 70 507H198C203.523 507 208 502.523 208 497V471C208 465.477 203.523 461 198 461Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">住宿評鑑</tspan></text>
-<path opacity="0.12" d="M358 461H230C224.477 461 220 465.477 220 471V497C220 502.523 224.477 507 230 507H358C363.523 507 368 502.523 368 497V471C368 465.477 363.523 461 358 461Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">90天計畫</tspan></text>
-<path opacity="0.12" d="M518 461H390C384.477 461 380 465.477 380 471V497C380 502.523 384.477 507 390 507H518C523.523 507 528 502.523 528 497V471C528 465.477 523.523 461 518 461Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">準備攻略</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">適合住宿型機構主管與護理師</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="919" y="535.336">&#x4e09;&#x968e;&#x6bb5;&#x5099;&#x8003;&#x8a08;&#x756b;</tspan></text>
+
+<!-- 左側 L1: "90 天"（Pattern A: digit=200, CJK=160） -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="60" y="232.2">90 </tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="160" font-weight="bold" letter-spacing="0em"><tspan x="301" y="221.76">&#x5929;</tspan></text>
+
+<!-- 左側 L2: "倒數計畫"（純 CJK N=4, font=140） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="366.98">&#x5012;&#x6578;&#x8a08;&#x756b;</tspan></text>
+
+<!-- 分隔線 -->
+<path d="M60 397L821 397" stroke="#DEDAD3" stroke-width="2"/>
+
+<!-- 副標題 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="450.816">&#x4f4f;&#x5bbf;&#x578b;&#x6a5f;&#x69cb;&#x5206;&#x6708;&#x5206;&#x5de5;&#x5099;&#x5be9;&#x653b;&#x7565;</tspan></text>
+
+<!-- 標籤 pill（pill 2 x=235 配合「90天計畫」字寬） -->
+<path opacity="0.12" d="M198 475.68H70C64.4772 475.68 60 480.157 60 485.68V511.68C60 517.203 64.4772 521.68 70 521.68H198C203.523 521.68 208 517.203 208 511.68V485.68C208 480.157 203.523 475.68 198 475.68Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="510.388">&#x4f4f;&#x5bbf;&#x8a55;&#x9451;</tspan></text>
+<path opacity="0.12" d="M358 475.68H230C224.477 475.68 220 480.157 220 485.68V511.68C220 517.203 224.477 521.68 230 521.68H358C363.523 521.68 368 517.203 368 511.68V485.68C368 480.157 363.523 475.68 358 475.68Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="235" y="510.388">90&#x5929;&#x8a08;&#x756b;</tspan></text>
+<path opacity="0.12" d="M518 475.68H390C384.477 475.68 380 480.157 380 485.68V511.68C380 517.203 384.477 521.68 390 521.68H518C523.523 521.68 528 517.203 528 511.68V485.68C528 480.157 523.523 475.68 518 475.68Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="510.388">&#x6e96;&#x5099;&#x653b;&#x7565;</tspan></text>
+
+<!-- 適用對象 -->
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="568.388">&#x9069;&#x5408;&#x4f4f;&#x5bbf;&#x578b;&#x6a5f;&#x69cb;&#x4e3b;&#x7ba1;&#x8207;&#x8b77;&#x7406;&#x5e2b;</tspan></text>
+
+<!-- 浮水印（Pattern A cascade: y=601.892） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="601.892">&#x5831;&#x544a;&#x6c6a; reportwang.com</tspan></text>
 </g>
 <defs>
 <clipPath id="clip-nursing-home-90day">

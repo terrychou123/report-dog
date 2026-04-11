@@ -32,7 +32,7 @@ allowed-tools:
    > - 文字為起點式座標 + 左對齊（無 `text-anchor="middle"`），複製時**不要**把 x 改成 rect 中心。
    > - `font-family` 在每個 `<text>` 上，執行 `--fix` 後會自動搬到 `<svg>` 根元素並補上 `sans-serif` fallback，無需手動搬移。
    > - **`<clipPath id="clip0_1_XXX">` 需改為唯一 id**（例如 `clip-{article-slug}`），同時更新 `<g clip-path="url(#...)">` 對應的 id，避免多張封面在同一頁面 id 碰撞。
-   > - 浮水印統一為 `fill="#D97706"`、`y=597.928`（6 款模板全部相同），**非**舊版的 `#c4bfb8 y=590 text-anchor=end`。
+   > - 浮水印基準：`fill="#D97706"` `y=597.928`（5 款模板：cover/chart/checklist/quote/vs）；套用 §6 Pattern A 短標題的 timeline 封面改為 `y=601.892`（cascade 結果）。均**非**舊版 `#c4bfb8 y=590 text-anchor=end`。
    > - `template-cover-quote.svg` 頂部「{視角標籤}」pill 為**硬編碼**（如「委員視角」「人物訪談」），直接替換文字即可；pill 寬度依字數估算：4 字=174px，已在模板中設好。
    > - `template-cover-chart.svg` 的 5 個百分比（85/70/50/35/20）是範例資料，與柱高綁定；修改數值時必須同步用 `bar_h = round(percent/100 × 400), top_y = 506 - bar_h, label_y = top_y - 10` 重算每根柱的 `y/height` 與數值標籤的 `y`。
 
@@ -53,6 +53,31 @@ allowed-tools:
    > **置中公式（封面色塊內文字）**：
    > - 垂直（單行）：`text_y = rect_y + rect_h/2 + font_size × 0.35`
    > - 水平（起點式，左 padding）：`text_x = rect_x + 8`（標籤 pill）或 `rect_x + 22`（卡片標題）
+
+   > **§6 數字與中文混排字級規則**（封面 L1 與右側裝飾區專用）：
+   >
+   > 同一行出現「阿拉伯數字 + CJK 字元」時，**必須拆成兩個 `<text>` 元素**（不可用同一 font-size）：
+   >
+   > **Pattern A — Balanced Mix（左側 L1 主標題）**：數字 ≈ 中文 × 1.25
+   >
+   > | L1 基準情境 | 數字 font | 中文 font | digit_y | cjk_y 公式 | cjk_x 公式 |
+   > |---|---|---|---|---|---|
+   > | 短標題（< 5 字元） | **200** | **160** | 232.2 | `digit_y − (200−160)×0.26` = 221.76 | `60 + digit_font×digit_chars×0.55 + digit_font×0.28 + 25` |
+   > | 中標題（5–7 字元） | **160** | **128** | 215.0 | `digit_y − (160−128)×0.26` = 206.68 | 同上公式，font 換 160 |
+   > | 長標題（8+ 字元） | **128** | **100** | 204.0 | `digit_y − (128−100)×0.26` = 196.72 | 同上公式，font 換 128 |
+   >
+   > Pattern A 短標題觸發左欄 cascade（因 L1 下緣擴大）：L2 y=366.98、分隔線 y=397、副標題 y=450.816、Pills rect y=475.68、Pills text y=510.388、適用對象 y=568.388、浮水印 y=**601.892**（僅 Pattern A 短標題適用，其他情況仍用 597.928）
+   >
+   > **Pattern B — Hero Decoration（右側裝飾區）**：數字 ≈ 中文 × 2.67
+   >
+   > | 裝飾區情境 | 數字 font | 中文 font | digit_y | cjk_y | digit_x | cjk_x |
+   > |---|---|---|---|---|---|---|
+   > | 標準 hero（1–2 位） | **160** | **60** | 232.76 | `232.76 − (160−60)×0.021` = 230.66 | 899 | 1088 |
+   > | 中型 hero（3 位） | **128** | **48** | 226.0 | `226 − (128−48)×0.021` = 224.32 | 880 | 1040 |
+   >
+   > Pattern B 色彩：數字用 `fill="#D97706"`（琥珀），CJK 用 `fill="#78716C"`（暖灰）。**不觸發 cascade**。
+   >
+   > **優先級**：L1 有數字+中文 → 優先走 §6 Pattern A（而非 §1 純字數表）；右側裝飾有數字+中文 → 優先走 §6 Pattern B（而非 §2 純數字表）
 
 4. **依字數調整 font-size** → 查上方「主標題字級自適應」表，只改需要調整的欄位
 5. **驗證並修正** → 執行下方指令，確認全部 PASS
