@@ -1,35 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 裝飾色塊 -->
-  <rect x="0" y="0" width="8" height="630" fill="#d97706"/>
-  <rect x="0" y="0" width="1200" height="8" fill="#d97706"/>
-  <!-- 左側大數字裝飾 -->
-  <text x="80" y="420" font-size="320" fill="#e8e5dc" font-weight="700" opacity="0.6">90</text>
-  <!-- 主標題 -->
-  <text x="80" y="180" font-size="58" fill="#1e293b" font-weight="700">評鑑前 90 天準備時程表</text>
-  <!-- 副標題 -->
-  <text x="80" y="248" font-size="32" fill="#d97706" font-weight="600">從手忙腳亂到從容應對</text>
-  <!-- 說明文字 -->
-  <text x="80" y="310" font-size="22" fill="#57534e">住宿型照顧機構評鑑 A/B/C/D 四大構面</text>
-  <text x="80" y="342" font-size="22" fill="#57534e">按月分配任務，對應 75 項評鑑基準</text>
-  <!-- 三階段標籤 -->
-  <rect x="80" y="390" width="200" height="56" rx="8" fill="#d97706"/>
-  <text x="180" y="415" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">第1個月</text>
-  <text x="180" y="435" font-size="16" fill="#ffffff" text-anchor="middle">D-90~D-60</text>
-  <rect x="300" y="390" width="200" height="56" rx="8" fill="#78716c"/>
-  <text x="400" y="415" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">第2個月</text>
-  <text x="400" y="435" font-size="16" fill="#ffffff" text-anchor="middle">D-60~D-30</text>
-  <rect x="520" y="390" width="200" height="56" rx="8" fill="#57534e"/>
-  <text x="620" y="415" font-size="20" fill="#ffffff" font-weight="700" text-anchor="middle">最後一個月</text>
-  <text x="620" y="435" font-size="16" fill="#ffffff" text-anchor="middle">D-30~評鑑日</text>
-  <!-- 分類標籤 -->
-  <rect x="80" y="490" width="100" height="32" rx="16" fill="#fef3c7"/>
-  <text x="130" y="511" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">評鑑準備</text>
-  <rect x="196" y="490" width="160" height="32" rx="16" fill="#fef3c7"/>
-  <text x="276" y="511" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">住宿型照顧機構</text>
-  <rect x="372" y="490" width="120" height="32" rx="16" fill="#fef3c7"/>
-  <text x="432" y="511" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">114年度評鑑</text>
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-nursing-home-90day)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1201 0H821V630H1201V0Z" fill="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="80" font-weight="bold" letter-spacing="0em"><tspan x="820.266" y="154.88">90 天</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="832.319" y="234.848">第 1 階段</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="811.224" y="321.592">盤點清查</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="829.14" y="346.912">第 1–30 天</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="969.319" y="234.848">第 2 階段</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="948.224" y="321.592">補強改善</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="964.14" y="346.912">第 31–60 天</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="1106.32" y="234.848">第 3 階段</tspan></text>
+<path d="M892 269H987" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M1027 269H1122" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+<path d="M873 294C886.807 294 898 282.807 898 269C898 255.193 886.807 244 873 244C859.193 244 848 255.193 848 269C848 282.807 859.193 294 873 294Z" fill="#D97706"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="861.223" y="286.44">1</tspan></text>
+<path d="M1012 294C1025.81 294 1037 282.807 1037 269C1037 255.193 1025.81 244 1012 244C998.193 244 987 255.193 987 269C987 282.807 998.193 294 1012 294Z" fill="#78716C"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1000.22" y="286.44">2</tspan></text>
+<path d="M1147 294C1160.81 294 1172 282.807 1172 269C1172 255.193 1160.81 244 1147 244C1133.19 244 1122 255.193 1122 269C1122 282.807 1133.19 294 1147 294Z" fill="#57534E"/>
+<text fill="white" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="1135.22" y="286.44">3</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="22" font-weight="bold" letter-spacing="0em"><tspan x="1085.22" y="321.592">模擬衝刺</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="17" letter-spacing="0em"><tspan x="1099.14" y="346.912">第 61–90 天</tspan></text>
+<path opacity="0.12" d="M1155 500H865C859.477 500 855 504.477 855 510V538C855 543.523 859.477 548 865 548H1155C1160.52 548 1165 543.523 1165 538V510C1165 504.477 1160.52 500 1155 500Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="948.174" y="535.336">三階段備考計畫</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="211.32">90 天</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="361.76">倒數計畫</tspan></text>
+<path d="M60 388L821 388" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="436.068">住宿型機構分月分工備審攻略</tspan></text>
+<path opacity="0.12" d="M198 461H70C64.4772 461 60 465.477 60 471V497C60 502.523 64.4772 507 70 507H198C203.523 507 208 502.523 208 497V471C208 465.477 203.523 461 198 461Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">住宿評鑑</tspan></text>
+<path opacity="0.12" d="M358 461H230C224.477 461 220 465.477 220 471V497C220 502.523 224.477 507 230 507H358C363.523 507 368 502.523 368 497V471C368 465.477 363.523 461 358 461Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="499.708">90天計畫</tspan></text>
+<path opacity="0.12" d="M518 461H390C384.477 461 380 465.477 380 471V497C380 502.523 384.477 507 390 507H518C523.523 507 528 502.523 528 497V471C528 465.477 523.523 461 518 461Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="499.708">準備攻略</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">適合住宿型機構主管與護理師</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-nursing-home-90day">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

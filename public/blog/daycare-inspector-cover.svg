@@ -1,53 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Noto Sans TC', sans-serif">
-  <!-- 背景 -->
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
-  <!-- 右側裝飾區塊 -->
-  <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
-
-  <!-- 右側裝飾大數字（150px，頂部≈y=104） -->
-  <text x="1010" y="224" font-size="150" font-weight="900" fill="#d97706" text-anchor="middle" opacity="0.85">3</text>
-  <text x="1010" y="262" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">大審查方式</text>
-
-  <!-- 右側時程條（3 條，各 80px，底部 y=538） -->
-  <rect x="840" y="282" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="840" y="282" width="7" height="80" rx="3" fill="#d97706"/>
-  <text x="862" y="316" font-size="28" fill="#d97706" font-weight="700">文件審閱</text>
-  <text x="862" y="347" font-size="22" fill="#78716c">照顧計畫 · 督導紀錄 · 品管指標</text>
-
-  <rect x="840" y="370" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="840" y="370" width="7" height="80" rx="3" fill="#78716c"/>
-  <text x="862" y="404" font-size="28" fill="#78716c" font-weight="700">現場訪談</text>
-  <text x="862" y="435" font-size="22" fill="#78716c">服務對象 · 家屬 · 工作人員</text>
-
-  <rect x="840" y="458" width="330" height="80" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <rect x="840" y="458" width="7" height="80" rx="3" fill="#a8a29e"/>
-  <text x="862" y="492" font-size="28" fill="#a8a29e" font-weight="700">環境查看</text>
-  <text x="862" y="523" font-size="22" fill="#78716c">高齡友善 · 廚房衛生 · 急救設備</text>
-
-  <!-- 左側主內容區 -->
-  <text x="60" y="200" font-size="120" font-weight="900" fill="#1e293b">評鑑委員</text>
-  <text x="60" y="338" font-size="120" font-weight="900" fill="#d97706">怎麼看你？</text>
-
-  <line x1="60" y1="365" x2="780" y2="365" stroke="#dedad3" stroke-width="2"/>
-
-  <text x="60" y="416" font-size="38" fill="#57534e" font-weight="400">文件 · 訪談 · 環境 · 現場視角大公開</text>
-
-  <!-- 特色標籤列（pill 高 54px） -->
-  <rect x="60" y="450" width="148" height="54" rx="10" fill="#d97706" opacity="0.12"/>
-  <text x="134" y="487" font-size="28" fill="#d97706" text-anchor="middle" font-weight="600">文件審閱</text>
-
-  <rect x="220" y="450" width="148" height="54" rx="10" fill="#78716c" opacity="0.12"/>
-  <text x="294" y="487" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">現場訪談</text>
-
-  <rect x="380" y="450" width="148" height="54" rx="10" fill="#57534e" opacity="0.12"/>
-  <text x="454" y="487" font-size="28" fill="#57534e" text-anchor="middle" font-weight="600">環境查看</text>
-
-  <rect x="540" y="450" width="148" height="54" rx="10" fill="#a8a29e" opacity="0.18"/>
-  <text x="614" y="487" font-size="28" fill="#78716c" text-anchor="middle" font-weight="600">評分邏輯</text>
-
-  <!-- 適用對象 -->
-  <text x="60" y="558" font-size="28" fill="#94a3b8">適用對象：日照主任 · 照服員 · 社工 · 評鑑準備</text>
-
-  <!-- 浮水印 -->
-  <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+<g clip-path="url(#clip-daycare-inspector)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 頂部視角標籤 pill：大版 rect 60,90 w=174 h=65 font=40 -->
+<path opacity="0.12" d="M234 90H70C64.4772 90 60 94.4772 60 100V155C60 160.523 64.4772 165 70 165H234C239.523 165 244 160.523 244 155V100C244 94.4772 239.523 90 234 90Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="78" y="139.44">委員視角</tspan></text>
+<!-- 左側垂直色條：y=175 到 y=539 -->
+<path d="M68 175H60V539H68V175Z" fill="#D97706"/>
+<!-- 引言三行：N=10字 → font=64 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="245.404">文件齊了，現場對了，</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="316.404">委員才看得見你的用心。</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="64" font-weight="bold" letter-spacing="0em"><tspan x="92" y="387.404">別等缺失才知道要改。</tspan></text>
+<!-- 分隔線 y=412 x=82~782 -->
+<path d="M82 412H782" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 受訪者姓名 font=40 y=463.88 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="90" y="463.88">資深評鑑委員</tspan></text>
+<!-- 職稱 font=40 y=518.776 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="40" letter-spacing="0em"><tspan x="90" y="518.776">日照評鑑 · 現場查核實錄</tspan></text>
+<!-- 右側頭像圓框：r=125 cy=195（縮小版） -->
+<path d="M1010 320C1079.04 320 1135 264.035 1135 195C1135 125.965 1079.04 70 1010 70C940.965 70 885 125.965 885 195C885 264.035 940.965 320 1010 320Z" fill="white" stroke="#D97706" stroke-width="3"/>
+<path d="M1010 195C1032.51 195 1050.76 176.751 1050.76 154.239C1050.76 131.728 1032.51 113.479 1010 113.479C987.488 113.479 969.239 131.728 969.239 154.239C969.239 176.751 987.488 195 1010 195Z" fill="#C4BFB8"/>
+<path d="M1010 299.619C1055.03 299.619 1091.52 282.587 1091.52 261.576C1091.52 240.565 1055.03 223.532 1010 223.532C964.977 223.532 928.479 240.565 928.479 261.576C928.479 282.587 964.977 299.619 1010 299.619Z" fill="#C4BFB8"/>
+<!-- 機構名 font=24 y=363.964 -->
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="938" y="363.964">日照評鑑現場</tspan></text>
+<!-- 受訪者角色 font=40 y=408.44 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="40" font-weight="bold" letter-spacing="0em"><tspan x="930" y="408.44">評鑑委員</tspan></text>
+<!-- 查核重點說明 font=24 y=438.964 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="962" y="438.964">現場查核</tspan></text>
+<!-- 右下 2 pills：font=24，y=463 h=36，統一高度 -->
+<path opacity="0.12" d="M1006 463H866C860.477 463 856 467.477 856 473V499C856 504.523 860.477 509 866 509H1006C1011.52 509 1016 504.523 1016 499V473C1016 467.477 1011.52 463 1006 463Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="888" y="491.964">查核重點</tspan></text>
+<path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">日照評鑑</tspan></text>
+<!-- 浮水印：統一規格 y=597.928 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-daycare-inspector">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
 </svg>

@@ -1,36 +1,37 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
 <g clip-path="url(#clip0_1_75)">
 <path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
 <path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="924.395" y="103.696">{&#x5716;&#x8868;&#x6a19;&#x984c;}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="36" font-weight="bold" letter-spacing="0em"><tspan x="924.395" y="103.696">{&#x5716;&#x8868;&#x6a19;&#x984c;}</tspan></text>
 <path d="M1179 506H841C840.448 506 840 506.448 840 507C840 507.552 840.448 508 841 508H1179C1179.55 508 1180 507.552 1180 507C1180 506.448 1179.55 506 1179 506Z" fill="#A8A29E"/>
 <path opacity="0.9" d="M893 166H861C857.686 166 855 168.686 855 172V500C855 503.314 857.686 506 861 506H893C896.314 506 899 503.314 899 500V172C899 168.686 896.314 166 893 166Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="851.312" y="155.964">85%</tspan></text>
 <path opacity="0.9" d="M958 226H926C922.686 226 920 228.686 920 232V500C920 503.314 922.686 506 926 506H958C961.314 506 964 503.314 964 500V232C964 228.686 961.314 226 958 226Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="916.312" y="215.964">70%</tspan></text>
 <path opacity="0.9" d="M1023 306H991C987.686 306 985 308.686 985 312V500C985 503.314 987.686 506 991 506H1023C1026.31 506 1029 503.314 1029 500V312C1029 308.686 1026.31 306 1023 306Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="981.312" y="295.964">50%</tspan></text>
 <path opacity="0.9" d="M1088 366H1056C1052.69 366 1050 368.686 1050 372V500C1050 503.314 1052.69 506 1056 506H1088C1091.31 506 1094 503.314 1094 500V372C1094 368.686 1091.31 366 1088 366Z" fill="#A8A29E"/>
-<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1046.31" y="355.964">35%</tspan></text>
 <path opacity="0.9" d="M1153 426H1121C1117.69 426 1115 428.686 1115 432V500C1115 503.314 1117.69 506 1121 506H1153C1156.31 506 1159 503.314 1159 500V432C1159 428.686 1156.31 426 1153 426Z" fill="#94A3B8"/>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">{B}</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">{C}</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">{D}</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">{A}</tspan></text>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">{E}</tspan></text>
-<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="219.32">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 1 &#x884c;}</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="60" y="357.32">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 2 &#x884c;}</tspan></text>
-<path d="M60 384H820" stroke="#DEDAD3" stroke-width="2"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="38" letter-spacing="0em"><tspan x="60" y="425.068">{&#x526f;&#x6a19;&#x984c;}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1111.31" y="415.964">20%</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="929.17" y="534.22">{B}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="994.365" y="534.22">{C}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1058.38" y="534.22">{D}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="864.168" y="534.22">{A}</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="20" letter-spacing="0em"><tspan x="1124.36" y="534.22">{E}</tspan></text>
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="211.32">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 1 &#x884c;}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="361.76">{&#x4e3b;&#x6a19;&#x984c;&#x7b2c; 2 &#x884c;}</tspan></text>
+<path d="M60 388H820" stroke="#DEDAD3" stroke-width="2"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="432.068">{&#x526f;&#x6a19;&#x984c;}</tspan></text>
 <path opacity="0.12" d="M198 450H70C64.4772 450 60 454.477 60 460V494C60 499.523 64.4772 504 70 504H198C203.523 504 208 499.523 208 494V460C208 454.477 203.523 450 198 450Z" fill="#D97706"/>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="489.708">{&#x6a19;&#x7c64; 1}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="84.002" y="489.708">{&#x6a19;&#x7c64; 1}</tspan></text>
 <path opacity="0.12" d="M358 450H230C224.477 450 220 454.477 220 460V494C220 499.523 224.477 504 230 504H358C363.523 504 368 499.523 368 494V460C368 454.477 363.523 450 358 450Z" fill="#78716C"/>
-<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="489.708">{&#x6a19;&#x7c64; 2}</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="244.002" y="489.708">{&#x6a19;&#x7c64; 2}</tspan></text>
 <path opacity="0.12" d="M518 450H390C384.477 450 380 454.477 380 460V494C380 499.523 384.477 504 390 504H518C523.523 504 528 499.523 528 494V460C528 454.477 523.523 450 518 450Z" fill="#57534E"/>
-<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="489.708">{&#x6a19;&#x7c64; 3}</tspan></text>
-<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="28" letter-spacing="0em"><tspan x="60" y="550.708">{&#x9069;&#x7528;&#x5c0d;&#x8c61;&#x8aaa;&#x660e;}</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-family="Noto Sans TC" font-size="24" letter-spacing="0em"><tspan x="879.008" y="593.964">&#x5831;&#x544a;&#x6c6a; reportwang.com</tspan></text>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="404.002" y="489.708">{&#x6a19;&#x7c64; 3}</tspan></text>
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="550.708">{&#x9069;&#x7528;&#x5c0d;&#x8c61;&#x8aaa;&#x660e;}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">&#x5831;&#x544a;&#x6c6a; reportwang.com</tspan></text>
 </g>
 <defs>
 <clipPath id="clip0_1_75">
