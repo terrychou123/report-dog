@@ -1,0 +1,134 @@
+diff --git a/node_modules/@fortune-sheet/react/dist/index.esm.js b/node_modules/@fortune-sheet/react/dist/index.esm.js
+index c4486a2..93b6748 100644
+--- a/node_modules/@fortune-sheet/react/dist/index.esm.js
++++ b/node_modules/@fortune-sheet/react/dist/index.esm.js
+@@ -1811,7 +1811,7 @@ var LinkEditCard = function LinkEditCard(_ref) {
+       if (e.target.value === "cellrange") setRangeModalVisible(true);
+       setLinkType(e.target.value);
+     }
+-  }, linkTypeList.map(function (type) {
++  }, (linkTypeList || []).map(function (type) {
+     return /*#__PURE__*/React.createElement("option", {
+       key: type.value,
+       value: type.value
+@@ -1853,7 +1853,7 @@ var LinkEditCard = function LinkEditCard(_ref) {
+       setLinkAddress(e.target.value);
+     },
+     value: linkAddress
+-  }, context.luckysheetfile.map(function (sheet) {
++  }, (context.luckysheetfile || []).map(function (sheet) {
+     return /*#__PURE__*/React.createElement("option", {
+       key: sheet.id,
+       value: sheet.name
+@@ -3637,7 +3637,7 @@ var SheetOverlay = function SheetOverlay() {
+     className: "fortune-selection-copy-left fortune-copy"
+   }), /*#__PURE__*/React.createElement("div", {
+     className: "fortune-selection-copy-hc"
+-  }))), context.formulaRangeHighlight.map(function (v) {
++  }))), (context.formulaRangeHighlight || []).map(function (v) {
+     var rangeIndex = v.rangeIndex,
+       backgroundColor = v.backgroundColor;
+     return /*#__PURE__*/React.createElement("div", {
+@@ -3698,7 +3698,7 @@ var SheetOverlay = function SheetOverlay() {
+     }
+   }), ((_context$luckysheet_s6 = (_context$luckysheet_s7 = context.luckysheet_selection_range) === null || _context$luckysheet_s7 === void 0 ? void 0 : _context$luckysheet_s7.length) !== null && _context$luckysheet_s6 !== void 0 ? _context$luckysheet_s6 : 0) > 0 && (/*#__PURE__*/React.createElement("div", {
+     id: "fortune-selection-copy"
+-  }, context.luckysheet_selection_range.map(function (range) {
++  }, (context.luckysheet_selection_range || []).map(function (range) {
+     var r1 = range.row[0];
+     var r2 = range.row[1];
+     var c1 = range.column[0];
+@@ -3739,7 +3739,7 @@ var SheetOverlay = function SheetOverlay() {
+     }
+   }), ((_context$luckysheet_s8 = (_context$luckysheet_s9 = context.luckysheet_select_save) === null || _context$luckysheet_s9 === void 0 ? void 0 : _context$luckysheet_s9.length) !== null && _context$luckysheet_s8 !== void 0 ? _context$luckysheet_s8 : 0) > 0 && (/*#__PURE__*/React.createElement("div", {
+     id: "luckysheet-cell-selected-boxs"
+-  }, context.luckysheet_select_save.map(function (selection, index) {
++  }, (context.luckysheet_select_save || []).map(function (selection, index) {
+     var _refs$globalCache$fre3, _refs$globalCache$fre4;
+     return /*#__PURE__*/React.createElement("div", {
+       key: index,
+@@ -10886,7 +10886,7 @@ var Workbook = /*#__PURE__*/React.forwardRef(function (_ref, ref) {
+     }
+   }, [onOp]);
+   function reduceUndoList(ctx, ctxBefore) {
+-    var sheetsId = ctx.luckysheetfile.map(function (sheet) {
++    var sheetsId = (ctx.luckysheetfile || []).map(function (sheet) {
+       return sheet.id;
+     });
+     var sheetDeletedByMe = globalCache.current.undoList.filter(function (undo) {
+@@ -10902,7 +10902,7 @@ var Workbook = /*#__PURE__*/React.forwardRef(function (_ref, ref) {
+     });
+     if (ctxBefore.luckysheetfile.length > ctx.luckysheetfile.length) {
+       var sheetDeleted = ctxBefore.luckysheetfile.filter(function (oneSheet) {
+-        return _.indexOf(ctx.luckysheetfile.map(function (item) {
++        return _.indexOf((ctx.luckysheetfile || []).map(function (item) {
+           return item.id;
+         }), oneSheet.id) === -1;
+       }).map(function (item) {
+diff --git a/node_modules/@fortune-sheet/react/dist/index.js b/node_modules/@fortune-sheet/react/dist/index.js
+index e404551..cb5ff1f 100644
+--- a/node_modules/@fortune-sheet/react/dist/index.js
++++ b/node_modules/@fortune-sheet/react/dist/index.js
+@@ -1822,7 +1822,7 @@ var LinkEditCard = function LinkEditCard(_ref) {
+       if (e.target.value === "cellrange") setRangeModalVisible(true);
+       setLinkType(e.target.value);
+     }
+-  }, linkTypeList.map(function (type) {
++  }, (linkTypeList || []).map(function (type) {
+     return /*#__PURE__*/React__default['default'].createElement("option", {
+       key: type.value,
+       value: type.value
+@@ -1864,7 +1864,7 @@ var LinkEditCard = function LinkEditCard(_ref) {
+       setLinkAddress(e.target.value);
+     },
+     value: linkAddress
+-  }, context.luckysheetfile.map(function (sheet) {
++  }, (context.luckysheetfile || []).map(function (sheet) {
+     return /*#__PURE__*/React__default['default'].createElement("option", {
+       key: sheet.id,
+       value: sheet.name
+@@ -3648,7 +3648,7 @@ var SheetOverlay = function SheetOverlay() {
+     className: "fortune-selection-copy-left fortune-copy"
+   }), /*#__PURE__*/React__default['default'].createElement("div", {
+     className: "fortune-selection-copy-hc"
+-  }))), context.formulaRangeHighlight.map(function (v) {
++  }))), (context.formulaRangeHighlight || []).map(function (v) {
+     var rangeIndex = v.rangeIndex,
+       backgroundColor = v.backgroundColor;
+     return /*#__PURE__*/React__default['default'].createElement("div", {
+@@ -3709,7 +3709,7 @@ var SheetOverlay = function SheetOverlay() {
+     }
+   }), ((_context$luckysheet_s6 = (_context$luckysheet_s7 = context.luckysheet_selection_range) === null || _context$luckysheet_s7 === void 0 ? void 0 : _context$luckysheet_s7.length) !== null && _context$luckysheet_s6 !== void 0 ? _context$luckysheet_s6 : 0) > 0 && (/*#__PURE__*/React__default['default'].createElement("div", {
+     id: "fortune-selection-copy"
+-  }, context.luckysheet_selection_range.map(function (range) {
++  }, (context.luckysheet_selection_range || []).map(function (range) {
+     var r1 = range.row[0];
+     var r2 = range.row[1];
+     var c1 = range.column[0];
+@@ -3750,7 +3750,7 @@ var SheetOverlay = function SheetOverlay() {
+     }
+   }), ((_context$luckysheet_s8 = (_context$luckysheet_s9 = context.luckysheet_select_save) === null || _context$luckysheet_s9 === void 0 ? void 0 : _context$luckysheet_s9.length) !== null && _context$luckysheet_s8 !== void 0 ? _context$luckysheet_s8 : 0) > 0 && (/*#__PURE__*/React__default['default'].createElement("div", {
+     id: "luckysheet-cell-selected-boxs"
+-  }, context.luckysheet_select_save.map(function (selection, index) {
++  }, (context.luckysheet_select_save || []).map(function (selection, index) {
+     var _refs$globalCache$fre3, _refs$globalCache$fre4;
+     return /*#__PURE__*/React__default['default'].createElement("div", {
+       key: index,
+@@ -10897,7 +10897,7 @@ var Workbook = /*#__PURE__*/React__default['default'].forwardRef(function (_ref,
+     }
+   }, [onOp]);
+   function reduceUndoList(ctx, ctxBefore) {
+-    var sheetsId = ctx.luckysheetfile.map(function (sheet) {
++    var sheetsId = (ctx.luckysheetfile || []).map(function (sheet) {
+       return sheet.id;
+     });
+     var sheetDeletedByMe = globalCache.current.undoList.filter(function (undo) {
+@@ -10913,7 +10913,7 @@ var Workbook = /*#__PURE__*/React__default['default'].forwardRef(function (_ref,
+     });
+     if (ctxBefore.luckysheetfile.length > ctx.luckysheetfile.length) {
+       var sheetDeleted = ctxBefore.luckysheetfile.filter(function (oneSheet) {
+-        return ___default['default'].indexOf(ctx.luckysheetfile.map(function (item) {
++        return ___default['default'].indexOf((ctx.luckysheetfile || []).map(function (item) {
+           return item.id;
+         }), oneSheet.id) === -1;
+       }).map(function (item) {

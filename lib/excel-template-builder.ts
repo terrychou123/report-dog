@@ -26,6 +26,8 @@ export type EvaluationItem = {
   responsible: string;
   criteria: string[];
   reviewMethod: string;
+  /** 可選附件提示，會填入「佐證資料」欄位 */
+  attachments?: string[];
 };
 
 // Column widths in pixels (matching excel-checklist-builder.ts ratios)
@@ -61,7 +63,11 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
 
   // Row 2: data row — criteria joined by newlines in column C
   const criteriaText = item.criteria.map((c, i) => `${i + 1}. ${c}`).join("\n");
-  const dataRow = [String(item.id), item.title, criteriaText, "", "", "", ""];
+  // 若有附件提示，填入「佐證資料」欄位（column 4）
+  const attachmentText = item.attachments?.length
+    ? item.attachments.map((a, i) => `${i + 1}. ${a}`).join("\n")
+    : "";
+  const dataRow = [String(item.id), item.title, criteriaText, "", attachmentText, "", ""];
 
   // Row 3: review method subheader
   const reviewRow = [`審查方式：${item.reviewMethod}`, "", "", "", "", "", ""];

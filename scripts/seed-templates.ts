@@ -3,7 +3,9 @@
  * Tags are grouped by RESPONSIBLE PERSON (item.responsible), not by evaluation section.
  * Templates are stored as FortuneSheet Excel JSON (fileType='excel').
  *
- * Run with: npx dotenv-cli -e .env.local -- tsx scripts/seed-templates.ts
+ * Run with:
+ *   npx dotenv-cli -e .env.local -- tsx scripts/seed-templates.ts              # 全部機構
+ *   npx dotenv-cli -e .env.local -- tsx scripts/seed-templates.ts --facility daycare  # 單一機構
  */
 
 import { drizzle } from 'drizzle-orm/postgres-js';
@@ -55,6 +57,7 @@ type ProfileItem = {
   responsible: string;
   criteria: string[];
   reviewMethod: string;
+  attachments?: string[];
 };
 
 async function main() {
@@ -63,15 +66,30 @@ async function main() {
     process.exit(1);
   }
 
+  // 解析 --facility 參數，支援只更新單一機構
+  const facilityFlag = process.argv.indexOf('--facility');
+  const facilityFilter = facilityFlag !== -1 ? process.argv[facilityFlag + 1] : null;
+
+  if (facilityFilter && !profiles.some((p) => p.id === facilityFilter)) {
+    console.error(`❌ 找不到機構類型 "${facilityFilter}"。可用的值：`);
+    console.error(`   ${profiles.map((p) => p.id).join(', ')}`);
+    process.exit(1);
+  }
+
+  const targetProfiles = facilityFilter
+    ? profiles.filter((p) => p.id === facilityFilter)
+    : profiles;
+
   const client = postgres(getDbUrl(), { prepare: false });
   const db = drizzle(client);
 
-  console.log('🌱 Seeding template data (grouped by responsible person)...\n');
+  const scope = facilityFilter ? `單一機構: ${facilityFilter}` : '全部機構';
+  console.log(`🌱 Seeding template data (${scope})...\n`);
 
   let totalTags = 0;
   let totalReports = 0;
 
-  for (const profile of profiles) {
+  for (const profile of targetProfiles) {
     if (profile.sections.length === 0) {
       console.log(`  ⏭  ${profile.label} — no sections, skipping`);
       continue;
@@ -99,6 +117,7 @@ async function main() {
           responsible: item.responsible,
           criteria: item.criteria,
           reviewMethod: item.reviewMethod,
+          attachments: item.attachments,
         });
       }
     }

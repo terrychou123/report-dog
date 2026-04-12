@@ -76,6 +76,9 @@ export const daycareProfile = {
             "至少每6個月評估一次或依服務對象需要評估",
             "具體執行並有完整評估紀錄",
           ],
+          attachments: [
+            "📎 新型照顧管理評估量表（ADL/IADL/MMSE）下載：/downloads/care-management-assessment-106.pdf",
+          ],
           reviewMethod: "文件檢閱、現場訪談",
         },
         {

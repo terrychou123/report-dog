@@ -364,6 +364,21 @@ export default function FortuneEditorInner({
             data={sheetsRef.current}
             onChange={handleChange}
             lang="zh-TW"
+            toolbarItems={[
+              "undo", "redo", "clear-format", "|",
+              "format", "|",
+              "font", "|", "font-size", "|",
+              "bold", "italic", "strike-through", "underline", "|",
+              "font-color", "background", "border", "merge-cell", "|",
+              "horizontal-align", "vertical-align", "text-wrap", "|",
+              "search",
+            ]}
+            cellContextMenu={[
+              "copy", "paste", "|",
+              "insert-row", "insert-column", "delete-row", "delete-column", "delete-cell",
+              "hide-row", "hide-column", "set-row-height", "set-column-width", "|",
+              "clear", "sort", "orderAZ", "orderZA", "filter", "chart", "image", "data", "cell-format",
+            ]}
           />
         )}
         {!mounted && (
