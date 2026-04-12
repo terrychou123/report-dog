@@ -344,9 +344,9 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
   if (!/reportwang\.com/.test(out)) {
     const rootNow3 = svgRootAttrs(out);
     const isCoverNow = attr(rootNow3, "width") === "1200";
-    const wmX = isCoverNow ? 760 : 760;
-    const wmY = isCoverNow ? 480 : 480;
-    const wmFs = isCoverNow ? 16 : 16;
+    const wmX = isCoverNow ? 879 : 760;
+    const wmY = isCoverNow ? 597.928 : 480;
+    const wmFs = isCoverNow ? 24 : 16;
     const wmColor = "#d97706";
     const wmLine = `  <text x="${wmX}" y="${wmY}" font-size="${wmFs}" fill="${wmColor}" text-anchor="end">報告汪 reportwang.com</text>\n`;
     out = out.replace(/<\/svg>/, `${wmLine}</svg>`);
@@ -808,9 +808,10 @@ function validateSvg(filePath: string): { file: string; results: CheckResult[] }
   // 判斷是否為封面圖（1200×630）
   const isCover = w === "1200" && h === "630";
 
-  // 浮水印：偵測 reportwang.com（不受 HTML entity 編碼影響）
+  // 浮水印：偵測 reportwang.com 必須在 text/tspan 元素內（非 SVG comment 或屬性）
   // 支援 tspan 包裹格式（Figma export）與純文字格式（手寫 SVG）
-  const hasWatermark = /reportwang\.com/.test(svg);
+  const hasWatermark =
+    /<(?:text|tspan)[^>]*>[^<]*reportwang\.com[^<]*<\/(?:text|tspan)>/.test(svg);
   if (hasWatermark) {
     results.push(pass("包含品牌浮水印「報告汪 reportwang.com」"));
     // 優先在 tspan 中找 y（Figma export 封面格式）

@@ -15,7 +15,7 @@ import sys
 import subprocess
 from pathlib import Path
 
-BASE = Path('/Users/happinessmed/supabase-demo/with-supabase-app')
+BASE = Path(__file__).resolve().parent.parent
 PUBLIC = BASE / 'public/blog'
 POSTS_DIR = BASE / 'scripts/blog-posts'
 
@@ -34,10 +34,13 @@ ALREADY_UPDATED = {
 # ============================================================
 
 def ent(text: str) -> str:
-    """CJK 字元轉 HTML entity（匹配現有新格式 SVG 風格）"""
+    """CJK 字元轉 HTML entity，並 escape XML 特殊字符（避免文章標題含 & < > 導致 SVG 格式錯誤）"""
+    _XML_ESCAPE = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}
     r = ''
     for c in text:
-        if ord(c) > 127:
+        if c in _XML_ESCAPE:
+            r += _XML_ESCAPE[c]
+        elif ord(c) > 127:
             r += f'&#{ord(c)};'
         else:
             r += c
@@ -118,8 +121,9 @@ def detect_pattern_a(text: str):
         return None, None
     digit_str = m.group(1)
     cjk_str = m.group(2).strip()
-    # CJK 部分必須全為中文/非 ASCII
-    if all(ord(c) > 127 or c in ' ・' for c in cjk_str):
+    # CJK 部分必須全為中文/非 ASCII，且最多 4 字元（超過會在 font-128 下溢出面板右邊界）
+    cjk_chars = [c for c in cjk_str if c not in ' ・']
+    if all(ord(c) > 127 or c in ' ・' for c in cjk_str) and len(cjk_chars) <= 4:
         return digit_str, cjk_str
     return None, None
 
@@ -157,15 +161,20 @@ def extract_old_svg_texts(svg_content: str) -> list:
             continue
         texts.append({'x': x, 'y': y, 'text': content})
 
-    # 新格式：<text ...><tspan x="..." y="...">content</tspan></text>
-    pat2 = r'<text[^>]*>\s*<tspan\s+x="([^"]+)"\s+y="([^"]+)"[^>]*>([^<]*)</tspan>'
+    # 新格式：<text ...><tspan ...>content</tspan></text>（屬性順序不定）
+    pat2 = r'<text[^>]*>\s*(<tspan\s[^>]*>)([^<]*)</tspan>'
     for m in re.finditer(pat2, svg_content):
+        tspan_tag = m.group(1)
+        content = m.group(2).strip()
+        x_m = re.search(r'\bx="([^"]+)"', tspan_tag)
+        y_m = re.search(r'\by="([^"]+)"', tspan_tag)
+        if not x_m or not y_m:
+            continue
         try:
-            x = float(m.group(1))
-            y = float(m.group(2))
+            x = float(x_m.group(1))
+            y = float(y_m.group(1))
         except ValueError:
             continue
-        content = m.group(3).strip()
         if not content:
             continue
         texts.append({'x': x, 'y': y, 'text': content})
@@ -193,10 +202,10 @@ def extract_standard_fields(svg_content: str) -> dict:
     texts = extract_old_svg_texts(svg_content)
 
     # 左側（x 在 0–800 範圍，text-anchor 通常是 start，x≈60）
-    l1 = find_text(texts, 0, 200, 160, 230)
-    l2 = find_text(texts, 0, 200, 295, 375)
+    l1 = find_text(texts, 0, 200, 80, 250)
+    l2 = find_text(texts, 0, 200, 230, 390)
     # 副標題：舊格式位置不一（y=385~520），擴大範圍確保捕捉
-    subtitle = find_text(texts, 0, 200, 385, 520)
+    subtitle = find_text(texts, 0, 200, 390, 530)
 
     # pills 改由 article JSON tags 提供，不從舊 SVG 提取
     pill1 = ''
@@ -242,9 +251,9 @@ def extract_chart_fields(svg_content: str) -> dict:
     texts = extract_old_svg_texts(svg_content)
 
     # 左側
-    l1 = find_text(texts, 0, 200, 160, 230)
-    l2 = find_text(texts, 0, 200, 295, 375)
-    subtitle = find_text(texts, 0, 200, 385, 520)
+    l1 = find_text(texts, 0, 200, 80, 250)
+    l2 = find_text(texts, 0, 200, 230, 390)
+    subtitle = find_text(texts, 0, 200, 390, 530)
     pill1 = ''
     pill2 = ''
     pill3 = ''
@@ -288,9 +297,9 @@ def extract_checklist_fields(svg_content: str) -> dict:
     texts = extract_old_svg_texts(svg_content)
 
     # 左側
-    l1 = find_text(texts, 0, 200, 160, 230)
-    l2 = find_text(texts, 0, 200, 295, 375)
-    subtitle = find_text(texts, 0, 200, 385, 520)
+    l1 = find_text(texts, 0, 200, 80, 250)
+    l2 = find_text(texts, 0, 200, 230, 390)
+    subtitle = find_text(texts, 0, 200, 390, 530)
     pill1 = ''
     pill2 = ''
     pill3 = ''
@@ -323,9 +332,9 @@ def extract_timeline_fields(svg_content: str) -> dict:
     texts = extract_old_svg_texts(svg_content)
 
     # 左側
-    l1 = find_text(texts, 0, 200, 160, 230)
-    l2 = find_text(texts, 0, 200, 295, 375)
-    subtitle = find_text(texts, 0, 200, 385, 520)
+    l1 = find_text(texts, 0, 200, 80, 250)
+    l2 = find_text(texts, 0, 200, 230, 390)
+    subtitle = find_text(texts, 0, 200, 390, 530)
     pill1 = ''
     pill2 = ''
     pill3 = ''
@@ -361,15 +370,15 @@ def extract_quote_fields(svg_content: str, article: dict) -> dict:
     texts = extract_old_svg_texts(svg_content)
 
     # 左側
-    l1 = find_text(texts, 0, 200, 160, 230)
-    l2 = find_text(texts, 0, 200, 295, 375)
+    l1 = find_text(texts, 0, 200, 80, 250)
+    l2 = find_text(texts, 0, 200, 230, 390)
     pill1 = find_text(texts, 60, 220, 455, 535)
     pill2 = find_text(texts, 220, 400, 455, 535)
     audience = find_text(texts, 0, 200, 530, 595)
 
     # 從 excerpt 衍生 3 行引言
     excerpt = article.get('excerpt', '')
-    lines = derive_quote_lines(excerpt, article['title'])
+    lines = derive_quote_lines(excerpt, article.get('title', ''))
 
     # 受訪者資訊
     person_name, person_role, person_org = derive_person_info(article)
@@ -395,7 +404,7 @@ def extract_vs_fields(svg_content: str, article: dict) -> dict:
     pill3 = find_text(texts, 380, 560, 455, 535)
 
     # 從標題提取 VS 兩側
-    title = article['title']
+    title = article.get('title', '')
     a_name, b_name, points_a, points_b, sub_a, sub_b = derive_vs_content(title, article)
 
     # 頂部標題行
@@ -709,8 +718,7 @@ def parse_timeline_stages(stage_items: list, title: str) -> list:
 # SVG 生成：各模板
 # ============================================================
 
-WATERMARK = '<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="{wm_y}">{wm_text}</tspan></text>'
-
+WM_X = '879.008'
 WM_TEXT = ent('報告汪 reportwang.com')
 
 def pill_svg(idx: int, text: str, colors=('#D97706', '#78716C', '#57534E'),
@@ -731,12 +739,6 @@ def pill_svg(idx: int, text: str, colors=('#D97706', '#78716C', '#57534E'),
     right = rights[i]
     tx = tx_starts[i]
     h = 36
-
-    rect = (f'<path opacity="0.12" d="M{right} {rx_y}H{left}C{left-5.523:.3f} {rx_y} {left-10:.0f} {rx_y+4.477:.3f} '
-            f'{left-10:.0f} {rx_y+10:.0f}V{rx_y+h}C{left-10:.0f} {rx_y+h+5.523:.3f} {left-5.523:.3f} {rx_y+h+10:.0f} '
-            f'{left} {rx_y+h+10:.0f}H{right}C{right+5.523:.3f} {rx_y+h+10:.0f} {right+10:.0f} {rx_y+h+5.523:.3f} '
-            f'{right+10:.0f} {rx_y+h:.0f}V{rx_y+10:.0f}C{right+10:.0f} {rx_y+4.477:.3f} {right+5.523:.3f} {rx_y} '
-            f'{right} {rx_y}Z" fill="{color}"/>')
 
     # 使用模板中的正確路徑
     # pill 外框高度 46px（內框 26px），底部各點需 +46（外底）/+36（內底）/+41.523（底曲線控制點）
@@ -901,7 +903,7 @@ def gen_standard_svg(clip_id: str, fields: dict, article: dict) -> str:
 {pill_svg(2, pill2, rx_y=pill_ry, tx_y=pill_ty)}
 {pill_svg(3, pill3, rx_y=pill_ry, tx_y=pill_ty)}
 <text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="{aud_y}">{ent(audience)}</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="{wm_y}">{WM_TEXT}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="{WM_X}" y="{wm_y}">{WM_TEXT}</tspan></text>
 </g>
 <defs>
 <clipPath id="{clip_id}">
@@ -966,7 +968,7 @@ def gen_chart_svg(clip_id: str, fields: dict, article: dict) -> str:
 {pill_svg(2, pill2, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 {pill_svg(3, pill3, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 <text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="{c['aud_y']}">{ent(audience)}</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="{c['wm_y']}">{WM_TEXT}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="{WM_X}" y="{c['wm_y']}">{WM_TEXT}</tspan></text>
 </g>
 <defs>
 <clipPath id="{clip_id}">
@@ -1005,7 +1007,6 @@ def gen_checklist_svg(clip_id: str, fields: dict, article: dict) -> str:
         ys = [119, 181, 243, 305, 367, 429]
         y = ys[i]
         opacity = '0.7' if checked else '0.5'
-        row_fill = 'fill="white"' if True else ''
         check_mark = (f'<path d="M860 {y+22}L869.286 {y+32}L886 {y+12}" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'
                       if checked else '')
         item_color = '#1E293B' if checked else '#57534E'
@@ -1036,7 +1037,7 @@ def gen_checklist_svg(clip_id: str, fields: dict, article: dict) -> str:
 {pill_svg(2, pill2, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 {pill_svg(3, pill3, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 <text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="{c['aud_y']}">{ent(audience)}</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="{c['wm_y']}">{WM_TEXT}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="{WM_X}" y="{c['wm_y']}">{WM_TEXT}</tspan></text>
 </g>
 <defs>
 <clipPath id="{clip_id}">
@@ -1084,6 +1085,9 @@ def gen_timeline_svg(clip_id: str, fields: dict, article: dict, title: str) -> s
 
     c = pa  # 用 Pattern A 座標
 
+    # L2 字級自適應（與其他模板一致，避免長標題爆框）
+    l2_font = get_l1_font(max(cjk_width(l2), 1))
+
     # 階段名稱 label x 值
     stage_label_xs = [844, 971, 1101]
     stage_name_xs = [834, 964, 1094]
@@ -1125,14 +1129,14 @@ def gen_timeline_svg(clip_id: str, fields: dict, article: dict, title: str) -> s
 <text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="{pa['digit_font']}" font-weight="bold" letter-spacing="0em"><tspan x="60" y="{pa['digit_y']}">{ent(digit)} </tspan></text>
 <text fill="#1E293B" style="white-space: pre" xml:space="preserve"  font-size="{pa['cjk_font']}" font-weight="bold" letter-spacing="0em"><tspan x="{cjk_x_l1}" y="{pa['cjk_y']}">{ent(unit)}</tspan></text>
 <!-- 左側 L2 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="60" y="{c['l2_y']}">{ent(l2)}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="{l2_font}" font-weight="bold" letter-spacing="0em"><tspan x="60" y="{c['l2_y']}">{ent(l2)}</tspan></text>
 <path d="M60 {c['sep_y']}L821 {c['sep_y']}" stroke="#DEDAD3" stroke-width="2"/>
 <text fill="#57534E" style="white-space: pre" xml:space="preserve"  font-size="38" letter-spacing="0em"><tspan x="60" y="{c['sub_y']}">{ent(subtitle)}</tspan></text>
 {pill_svg(1, pill1, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 {pill_svg(2, pill2, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 {pill_svg(3, pill3, rx_y=c['pill_ry'], tx_y=c['pill_ty'])}
 <text fill="#94A3B8" style="white-space: pre" xml:space="preserve"  font-size="28" letter-spacing="0em"><tspan x="60" y="{c['aud_y']}">{ent(audience)}</tspan></text>
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="{c['wm_y']}">{WM_TEXT}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="{WM_X}" y="{c['wm_y']}">{WM_TEXT}</tspan></text>
 </g>
 <defs>
 <clipPath id="{clip_id}">
@@ -1190,7 +1194,7 @@ def gen_quote_svg(clip_id: str, fields: dict, article: dict) -> str:
 <path opacity="0.12" d="M1154 463H1024C1018.48 463 1014 467.477 1014 473V499C1014 504.523 1018.48 509 1024 509H1154C1159.52 509 1164 504.523 1164 499V473C1164 467.477 1159.52 463 1154 463Z" fill="#78716C"/>
 <text fill="#78716C" style="white-space: pre" xml:space="preserve"  font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="1036" y="491.964">{ent(pill_r2)}</tspan></text>
 <!-- 浮水印 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">{WM_TEXT}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="{WM_X}" y="597.928">{WM_TEXT}</tspan></text>
 </g>
 <defs>
 <clipPath id="{clip_id}">
@@ -1202,7 +1206,7 @@ def gen_quote_svg(clip_id: str, fields: dict, article: dict) -> str:
 
 def gen_vs_svg(clip_id: str, fields: dict, article: dict) -> str:
     """生成 VS 對比模板 SVG"""
-    top_l1 = fields.get('top_l1', article['title'][:6])
+    top_l1 = fields.get('top_l1', article.get('title', '')[:6])
     top_l2 = fields.get('top_l2', '對比分析')
     pill1 = fields.get('pill1', '') or (article['tags'][0] if article.get('tags') else '')
     pill2 = fields.get('pill2', '') or (article['tags'][1] if len(article.get('tags', [])) > 1 else '')
@@ -1256,7 +1260,7 @@ def gen_vs_svg(clip_id: str, fields: dict, article: dict) -> str:
 <path d="M600 456C622.091 456 640 438.091 640 416C640 393.909 622.091 376 600 376C577.909 376 560 393.909 560 416C560 438.091 577.909 456 600 456Z" fill="#F0EFE8" stroke="#D97706" stroke-width="3"/>
 <text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="580.312" y="429.952">VS</tspan></text>
 <!-- 浮水印 -->
-<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">{WM_TEXT}</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve"  font-size="24" letter-spacing="0em"><tspan x="{WM_X}" y="597.928">{WM_TEXT}</tspan></text>
 </g>
 <defs>
 <clipPath id="{clip_id}">
@@ -1301,24 +1305,44 @@ def parse_mapping(mapping_path: Path) -> dict:
                 m = re.search(r'`([^`]+)`', cover_cell)
                 if m:
                     cover = m.group(1)
-                    mapping[cover] = current_type
+                    # 防止路徑穿越：只允許單純的 SVG 檔名（無目錄分隔符）
+                    if re.match(r'^[\w-]+\.svg$', cover):
+                        mapping[cover] = current_type
 
     return mapping
 
 
-def load_article_by_cover(cover: str) -> dict:
-    """依封面 SVG 檔名找對應的 JSON"""
+def _build_article_index() -> dict:
+    """預先建立封面 → 文章 JSON 的 dict（避免主迴圈中 O(n²) 逐一掃描）"""
+    index: dict = {}
     for f in sorted(POSTS_DIR.glob('article-*.json')):
-        d = json.loads(f.read_text(encoding='utf-8'))
+        try:
+            d = json.loads(f.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError) as e:
+            print(f'  [WARN] 跳過損毀 JSON: {f.name}: {e}')
+            continue
         cover_url = d.get('coverImageUrl', '')
-        if cover_url.endswith(cover):
-            return d
-    return {}
+        if cover_url:
+            key = cover_url.rsplit('/', 1)[-1]
+            index[key] = d
+    return index
+
+_ARTICLE_INDEX: dict | None = None
+
+def load_article_by_cover(cover: str) -> dict:
+    """依封面 SVG 檔名找對應的 JSON（使用快取索引）"""
+    global _ARTICLE_INDEX
+    if _ARTICLE_INDEX is None:
+        _ARTICLE_INDEX = _build_article_index()
+    return _ARTICLE_INDEX.get(cover, {})
 
 
 def is_old_format(svg_content: str) -> bool:
-    """判斷是否為舊格式 SVG（含舊浮水印或無 clipPath 結構）"""
-    return '#c4bfb8' in svg_content or 'text-anchor="end"' in svg_content
+    """判斷是否為舊格式 SVG（含舊浮水印色或無 clipPath 結構）
+    注意：只比對 fill/stroke 屬性中的顏色，避免 HTML 注解誤判"""
+    has_old_color = bool(re.search(r'(?:fill|stroke)="#c4bfb8"', svg_content))
+    has_old_watermark_anchor = 'text-anchor="end"' in svg_content
+    return has_old_color or has_old_watermark_anchor
 
 
 def process_article(cover: str, template_type: str, dry_run: bool = False) -> bool:
@@ -1368,7 +1392,7 @@ def process_article(cover: str, template_type: str, dry_run: bool = False) -> bo
         print(f'  [ERROR] 生成失敗 {cover}: {e}')
         import traceback
         traceback.print_exc()
-        return False
+        return None  # None 表示錯誤（False 表示正常跳過）
 
     if dry_run:
         print(f'  [DRY] 模擬生成: {cover} ({template_type})')
@@ -1380,11 +1404,16 @@ def process_article(cover: str, template_type: str, dry_run: bool = False) -> bo
 
 
 def main():
-    dry_run = '--dry-run' in sys.argv
+    # 預設 dry-run，需明確傳入 --execute 才真正寫入（避免重演 fa8533f 全量覆寫事故）
+    dry_run = '--execute' not in sys.argv
     limit = None
     for arg in sys.argv[1:]:
         if arg.startswith('--limit='):
-            limit = int(arg.split('=')[1])
+            try:
+                limit = int(arg.split('=')[1])
+            except ValueError:
+                print(f'[ERROR] --limit 必須為整數，例如 --limit=10')
+                sys.exit(1)
     filter_type = None
     for arg in sys.argv[1:]:
         if arg.startswith('--type='):
@@ -1415,9 +1444,11 @@ def main():
 
         print(f'處理: {cover} [{ttype}]')
         ok = process_article(cover, ttype, dry_run=dry_run)
-        if ok:
+        if ok is True:
             stats['ok'] += 1
             generated_files.append(f'public/blog/{cover}')
+        elif ok is None:
+            stats['error'] += 1
         else:
             stats['skip'] += 1
         count += 1
@@ -1428,6 +1459,7 @@ def main():
         print('\n執行 svg:validate --fix...')
         # 每批最多 50 個檔案，避免命令列過長
         batch_size = 50
+        validate_errors = 0
         for i in range(0, len(generated_files), batch_size):
             batch = generated_files[i:i+batch_size]
             result = subprocess.run(
@@ -1437,6 +1469,9 @@ def main():
             print(result.stdout[-2000:] if len(result.stdout) > 2000 else result.stdout)
             if result.returncode != 0:
                 print(result.stderr[-500:])
+                validate_errors += 1
+        if validate_errors:
+            print(f'\n[WARN] svg:validate 共 {validate_errors} 批次回傳錯誤，請手動檢查生成結果')
 
 
 if __name__ == '__main__':
