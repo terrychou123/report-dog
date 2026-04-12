@@ -21,7 +21,7 @@ type SheetData = {
     merge?: Record<string, { r: number; c: number; rs: number; cs: number }>;
     borderInfo?: unknown[];
   };
-  cellStyles?: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }>;
+  cellStyles?: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number }>;
 };
 
 function normalizeInitialData(raw: unknown): SheetData[] {
@@ -75,22 +75,25 @@ function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
           const bg = style?.bg;
           const ht = style?.ht;
           const vt = style?.vt;
-          return { r, c, v: { v: val, m: String(val), ...(mc ? { mc } : {}), ...(fc ? { fc } : {}), ...(bg ? { bg } : {}), ...(ht != null ? { ht } : {}), ...(vt != null ? { vt } : {}) } };
+          const tb = style?.tb;
+          // FortuneSheet 的 CellStyle 型別將 tb 定義為 string，但實際值為數字（0/1/2），需 cast
+          return { r, c, v: { v: val, m: String(val), ...(mc ? { mc } : {}), ...(fc ? { fc } : {}), ...(bg ? { bg } : {}), ...(ht != null ? { ht } : {}), ...(vt != null ? { vt } : {}), ...(tb != null ? { tb: tb as unknown as string } : {}) } };
         })
       ),
     };
   });
 }
 
-type FsCell = { m?: unknown; v?: unknown; fc?: string; bg?: string; ht?: number; vt?: number } | null | undefined;
+type FsCell = { m?: unknown; v?: unknown; fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } | null | undefined;
 
-function extractCellStyles(cell: FsCell): { fc?: string; bg?: string; ht?: number; vt?: number } | null {
+function extractCellStyles(cell: FsCell): { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } | null {
   if (!cell) return null;
-  const s: { fc?: string; bg?: string; ht?: number; vt?: number } = {};
+  const s: { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } = {};
   if (cell.fc) s.fc = cell.fc;
   if (cell.bg) s.bg = cell.bg;
   if (cell.ht != null) s.ht = cell.ht;
   if (cell.vt != null) s.vt = cell.vt;
+  if (cell.tb != null) s.tb = cell.tb;
   return Object.keys(s).length ? s : null;
 }
 
@@ -100,7 +103,7 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
     if (sheet.data && sheet.data.length > 0) {
       const rows = sheet.data as Array<Array<FsCell>>;
       const grid: string[][] = rows.map((row) => (row ?? []).map((cell) => String(cell?.m ?? cell?.v ?? "")));
-      const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
+      const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number }> = {};
       rows.forEach((row, r) => {
         (row ?? []).forEach((cell, c) => {
           const s = extractCellStyles(cell);

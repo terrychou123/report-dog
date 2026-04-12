@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.1 病人及家屬權責（項目 43–46）｜醫院評鑑小教室",
@@ -34,18 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  44: {
-    content:
-      "知情同意是三項必要條文之一，評鑑委員會逐份抽查病歷確認。常見缺失是：同意書已簽但說明紀錄缺乏（如未記載說明醫師、說明時間）。建議在同意書格式中明確記載說明醫師姓名、說明日期、病人或代理人簽字，並可附加說明重點摘要。",
-    variant: "warning",
-  },
-  46: {
-    content:
-      "病人申訴機制需「公告周知」：建議在病房護理站、門診大廳張貼申訴流程海報，並確保住院說明書中包含申訴管道說明。申訴案件的「回覆時效」要有書面規範，並保存每件案例的完整紀錄。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

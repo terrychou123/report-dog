@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.3 醫療照護之執行與評估（項目 50–65）｜醫院評鑑小教室",
@@ -36,18 +37,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  52: {
-    content:
-      "SBAR（狀況、背景、評估、建議）交班格式是評鑑委員實地訪談護理人員的常見考題。建議統一各病房交班表格格式，並在訓練紀錄中保存 SBAR 教育訓練課程。若有錄音或錄影交班紀錄更佳，可直接展示標準化程度。",
-    variant: "info",
-  },
-  59: {
-    content:
-      "出院計畫「早期啟動」是評鑑重點，委員會查核出院計畫開始日期是否在入院後 24–48 小時內。建議在護理評估表中加入「出院計畫啟動」欄位，並確保長照轉介案件有社工介入紀錄及轉介聯繫紀錄。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

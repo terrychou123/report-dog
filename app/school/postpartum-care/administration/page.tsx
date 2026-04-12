@@ -5,6 +5,7 @@ import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { babycareTips } from "@/lib/evaluation-tips/babycare";
 
 export const metadata: Metadata = {
   title: "行政組織、經營管理與服務對象權益保障（A1.1–A2.3）｜產後護理之家評鑑",
@@ -32,33 +33,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  1: {
-    content:
-      "護產人員配置比例（1.4倍）是最常被查核的項目之一。建議製作清楚的人員配置一覽表，對照床位數與護產人員人數，確認每班次均符合規定。NRP 及 BLS 訓練證書應影印存檔並建立效期追蹤表，提前安排複訓，避免效期過期。",
-    variant: "warning",
-  },
-  2: {
-    content:
-      "母乳哺育教育訓練 8 小時及機構外研習 8 小時是兩項獨立要求，建議分別建立訓練記錄表格並附研習證明。新進人員職前訓練應在正式上崗前完成，並有簽名確認記錄。評鑑委員可能抽查訓練記錄的完整性與真實性。",
-    variant: "info",
-  },
-  3: {
-    content:
-      "流感疫苗接種率達 80% 是具體數字要求，建議製作接種名冊並計算接種率。感染管制計畫應定期更新並有版本控制。手部衛生查核建議使用稽核表，記錄查核日期、地點及不符合情形，顯示機構持續監測的努力。",
-    variant: "warning",
-  },
-  4: {
-    content:
-      "7 類意外事件的 SOP 建議整合成冊，方便工作人員查閱。意外事件報告的 24 小時通報時限非常嚴格，建議建立電子通報提醒機制。定期演練（至少每年 1 次）的記錄應包含參與人員名冊、演練日期、演練情境及檢討報告。",
-    variant: "warning",
-  },
-  5: {
-    content:
-      "6 項品質指標的監測資料建議以圖表方式呈現，顯示趨勢變化。品管會議記錄應包含討論主題、決議事項及追蹤責任人。滿意度調查建議在服務結束後 1 週內進行，有助於回憶度及真實性，回收率最好達 70% 以上。",
-    variant: "info",
-  },
-};
+const tips = babycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

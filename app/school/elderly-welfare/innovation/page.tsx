@@ -5,6 +5,7 @@ import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welf
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { elderlyWelfareTips } from "@/lib/evaluation-tips/elderly-welfare";
 
 export const metadata: Metadata = {
   title: "E、服務改進創新（項目 72–74）｜老人福利機構評鑑",
@@ -26,23 +27,7 @@ export const metadata: Metadata = {
 
 const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "創")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  72: {
-    content:
-      "前次評鑑缺失改善需有具體的改善計畫、執行記錄及佐證資料，而非僅說明「已改善」。建議製作缺失改善對照表，清楚呈現改善前後的差異，讓評鑑委員一目了然。若無前次評鑑，以第一次評鑑計。",
-    variant: "warning",
-  },
-  73: {
-    content:
-      "創新服務方案需提供具體的實施時間、受益對象、執行成效等佐證資料，而非僅有構想說明。成效可以量化呈現（如住民滿意度提升、員工流動率降低等），增加說服力。",
-    variant: "info",
-  },
-  74: {
-    content:
-      "違規事件（含主管機關裁罰、法院判決等）需備有完整的改善計畫及執行記錄。若近 4 年無違規事件，建議主動向主管機關索取書面確認文件，作為佐證資料。",
-    variant: "warning",
-  },
-};
+const tips = elderlyWelfareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

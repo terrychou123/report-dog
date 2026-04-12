@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "1.7 風險與危機管理（項目 38–42）｜醫院評鑑小教室",
@@ -34,18 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  39: {
-    content:
-      "醫療事故處理最常見缺失是「有通報、無分析」。評鑑委員會特別查核 RCA（根本原因分析）是否確實執行，改善措施是否具體且可追蹤。建議每季彙整至少 1–2 件事故 RCA，並在品質管理委員會存有討論紀錄及後續追蹤。",
-    variant: "warning",
-  },
-  41: {
-    content:
-      "大量傷患（MCI）應變計畫需定期演練，且演練紀錄需包含：啟動時間、各部門回應時間、問題點及改善建議。建議與鄰近消防局、衛生局保持年度溝通機制，並在評鑑前確認聯繫窗口資訊仍為最新。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

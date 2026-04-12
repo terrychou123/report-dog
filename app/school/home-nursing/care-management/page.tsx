@@ -5,6 +5,7 @@ import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { homeNursingTips } from "@/lib/evaluation-tips/home-nursing";
 
 export const metadata: Metadata = {
   title: "B、照護管理（項目 6–8）｜居家護理所評鑑",
@@ -28,23 +29,7 @@ export const metadata: Metadata = {
 
 const section = homeNursingProfile.sections.find((s) => s.shortCode === "B")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  6: {
-    content:
-      "B1 須同時符合 5 個標準才算通過：服務項目公開、服務區域標示、24 小時緊急聯繫、訪視安全權益告知、跨域合作機制。建議製作「機構資訊公告核對清單」，逐項確認現場揭示內容與書面文件是否一致。",
-    variant: "warning",
-  },
-  7: {
-    content:
-      "個案數計算包含未結案（現正服務）及結案個案，合計須達 10 位以上。全人評估需在收案時及每 6 個月執行一次，評估內容需涵蓋生理、心理、社會及功能狀況四個面向。照護計畫須依評估結果個別化訂定，並有目標、措施與評值記錄。",
-    variant: "warning",
-  },
-  8: {
-    content:
-      "B3 為加分項目，非必要評鑑標準，但有佐證資料者可爭取額外加分。建議事先整理近期機構榮譽、論文發表、國際交流等記錄，並備妥相關證明文件，於評鑑日主動提供。",
-    variant: "neutral",
-  },
-};
+const tips = homeNursingTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

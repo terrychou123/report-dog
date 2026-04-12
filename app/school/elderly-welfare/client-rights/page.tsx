@@ -5,6 +5,7 @@ import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welf
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { elderlyWelfareTips } from "@/lib/evaluation-tips/elderly-welfare";
 
 export const metadata: Metadata = {
   title: "D、個案權益保障（項目 63–71）｜老人福利機構評鑑",
@@ -27,38 +28,7 @@ export const metadata: Metadata = {
 
 const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "權")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  63: {
-    content:
-      "服務資訊公開項目需涵蓋立案核准文件、收費標準、服務項目說明及評鑑結果等，並確認公開方式（機構官網、公告欄）資訊為最新版本，避免顯示過期費率或已變更的服務內容。",
-    variant: "info",
-  },
-  64: {
-    content:
-      "服務契約須於住民入住前簽訂，並由住民本人或法定代理人簽章。契約內容需清楚說明服務項目、收費方式、終止條件及住民權利，且需每年審閱是否需要更新。",
-    variant: "warning",
-  },
-  65: {
-    content:
-      "個人資料保護措施需包含資料蒐集同意書、資料存取權限管控及資料銷毀程序。電子檔案需有密碼保護，紙本資料需上鎖保存，並確認工作人員了解個資保護相關規定。",
-    variant: "info",
-  },
-  66: {
-    content:
-      "申訴管道需多元（書面、口頭、電話），且須有獨立第三方受理機制，不能只由機構內部人員處理。每件申訴均需有受理記錄、處理過程及結果通知，並追蹤申訴人後續滿意度。",
-    variant: "warning",
-  },
-  67: {
-    content:
-      "住民滿意度調查每年至少執行 1 次，採用匿名方式，確保住民能自由表達意見。調查結果需彙整分析，並訂定改善措施，以書面呈現改善成效，讓住民看見機構的進步。",
-    variant: "info",
-  },
-  68: {
-    content:
-      "住民自主決策的記錄（如餐食選擇、活動參與意願、外出許可等）需有書面紀錄佐證。機構應確保住民的生活自主空間，避免過度保護或不必要的限制，並尊重住民個人的生活習慣。",
-    variant: "neutral",
-  },
-};
+const tips = elderlyWelfareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

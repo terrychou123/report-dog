@@ -5,6 +5,7 @@ import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycar
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { infantDaycareTips } from "@/lib/evaluation-tips/infant-daycare";
 
 export const metadata: Metadata = {
   title: "行政管理（項目 1–11）｜托嬰中心評鑑 114-116年度",
@@ -33,48 +34,7 @@ export const metadata: Metadata = {
 const adminSections = infantDaycareProfile.sections.slice(0, 5);
 const allItems = adminSections.flatMap((s) => s.items);
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  1: {
-    content:
-      "廚工體檢週期為每年1次，與其他工作人員（每2年1次）不同，是常見扣分陷阱。另外監視器設備須留有定期保養記錄，評鑑委員會要求查驗，無記錄即無法得分。性騷擾防治辦法需確認有公告並發送給員工。",
-    variant: "warning",
-  },
-  2: {
-    content:
-      "主管人員及托育人員每年需完成18小時以上在職訓練，線上課程須備有完課截圖及平台證明。評鑑委員現場會核對實際訓練時數紀錄，只有課程表但無出席簽名或完課紀錄將無法得高分。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "接送管理需有完整的授權委託書，授權接送人員需事先登記。出缺席紀錄對缺席嬰幼兒須有追蹤聯繫記錄（如聯絡家長的電話紀錄），只填寫缺席但無追蹤記錄視為不完整。",
-    variant: "info",
-  },
-  4: {
-    content:
-      "每位托育人員須清楚自己照顧哪些嬰幼兒及分工交接方式，評鑑委員會訪談現場托育人員確認。差假辦法需依勞動基準法訂定，評鑑員會核對請假紀錄是否與規定一致。",
-    variant: "neutral",
-  },
-  5: {
-    content:
-      "任職一年以上托育人員須至少占全體托育人員的2/3，需備有人員名冊及到職日期佐證。專職托育人員第一年投保薪資須達每月30,300元以上，低於此標準將扣分。",
-    variant: "warning",
-  },
-  7: {
-    content:
-      "會議記錄應含每次會議的出席人員、討論事項及決議內容，並有主持人及記錄人員署名。評鑑委員會比對會議紀錄與實際執行情形，只有書面記錄但無執行證據將扣分。",
-    variant: "neutral",
-  },
-  8: {
-    content:
-      "財務管理需分項記錄主管機關核定收費項目，收費收據須序號連貫。若有退費案件需留有退費申請書及退費記錄。公共意外責任險及火險的保單須在效期內且保額符合規定。",
-    variant: "info",
-  },
-  11: {
-    content:
-      "兒童緊急保護或安置通報須有完整的通報紀錄及後續追蹤記錄。服務使用者申訴機制需公告且有申訴信箱或管道，評鑑委員會核查是否有實際運作紀錄。",
-    variant: "info",
-  },
-};
+const tips = infantDaycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

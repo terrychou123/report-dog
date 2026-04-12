@@ -5,6 +5,7 @@ import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycar
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { infantDaycareTips } from "@/lib/evaluation-tips/infant-daycare";
 
 export const metadata: Metadata = {
   title: "托育活動（項目 12–36）｜托嬰中心評鑑 114-116年度",
@@ -35,38 +36,7 @@ export const metadata: Metadata = {
 const activitySections = infantDaycareProfile.sections.slice(5, 9);
 const allItems = activitySections.flatMap((s) => s.items);
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  12: {
-    content:
-      "評鑑委員重點觀察托育人員與嬰幼兒的互動方式，包含是否有積極回應嬰幼兒需求、語言表達是否正面溫和。現場訪談托育人員時，需能說明個別嬰幼兒的氣質特徵及發展現況。",
-    variant: "info",
-  },
-  15: {
-    content:
-      "睡眠區是評鑑重點，評鑑委員會特別注意：1歲以內嬰兒不得使用枕頭（預防窒息），睡床間距需保持30公分以上，嬰兒熟睡後須採仰臥姿勢。床單、棉被等寢具需有個人專用標示，並定期清洗。",
-    variant: "warning",
-  },
-  24: {
-    content:
-      "活動規劃需依嬰幼兒年齡分組設計，須備有月活動計畫表或課程計畫。評鑑委員會核查計畫是否有實際執行記錄，建議保存活動照片並對應到計畫表，證明計畫確實執行。",
-    variant: "info",
-  },
-  28: {
-    content:
-      "寶寶日誌需每日記錄個別嬰幼兒的發展表現、飲食狀況及健康情形，不可多人共用同一份紀錄。評鑑委員會抽查日誌是否有空白日或記錄不完整，尤其注意是否有觀察記錄而非僅勾選欄位。",
-    variant: "warning",
-  },
-  34: {
-    content:
-      "親師交流記錄需保存，包含聯絡本、簡訊或通訊軟體紀錄截圖。評鑑委員關注親師溝通是否雙向，不只是機構單方面通知，家長回饋及討論記錄更能加分。",
-    variant: "neutral",
-  },
-  36: {
-    content:
-      "家長滿意度調查須每年至少執行一次，並保存填寫結果及分析改善記錄。評鑑委員會核查是否真正針對調查結果進行改善，只發問卷但無分析或改善行動者不能得高分。",
-    variant: "info",
-  },
-};
+const tips = infantDaycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

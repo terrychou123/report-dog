@@ -5,6 +5,7 @@ import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { generalNursingHomeTips } from "@/lib/evaluation-tips/general-nursing-home";
 
 export const metadata: Metadata = {
   title: "專業服務與生活照顧（B1–B3）｜一般護理之家評鑑",
@@ -32,23 +33,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  6: {
-    content:
-      "入住24小時內初步評估與72小時完整評估時限須嚴格遵守，建議在入住流程中設置提醒機制。個別化照護計畫需有跨專業團隊（護理、醫療、復健、營養等）成員簽名確認，每3個月定期修訂並留有版次記錄。",
-    variant: "warning",
-  },
-  7: {
-    content:
-      "跨專業照護計畫會議每3個月至少召開1次，會議紀錄須包含出席人員、討論內容及決議事項。住民或家屬參與討論的紀錄也應留存。建議製作整合性照顧追蹤表，涵蓋醫療、護理、復健、營養各面向執行情形。",
-    variant: "info",
-  },
-  8: {
-    content:
-      "品質監測指標至少應涵蓋跌倒率、壓傷發生率、導管相關感染率等關鍵指標，每季彙整分析並與前期比較。品質改善措施須有明確負責人、執行期限與追蹤結果，教育訓練記錄應與指標監測結果相連結。",
-    variant: "info",
-  },
-};
+const tips = generalNursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

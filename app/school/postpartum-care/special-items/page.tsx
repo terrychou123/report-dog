@@ -5,6 +5,7 @@ import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { babycareTips } from "@/lib/evaluation-tips/babycare";
 
 export const metadata: Metadata = {
   title: "特別事項（D1–D2）｜產後護理之家評鑑",
@@ -32,18 +33,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  16: {
-    content:
-      "D1 加分項目建議事先整理機構近期具體成效，備妥書面紀錄與成效評估報告。申請母嬰親善醫療院所認證需準備認證文件及執行數據（如純母乳哺育率）。參與衛生主管機關計畫應保存參與函文、執行紀錄及成果報告，並準備簡報方便評鑑時說明。",
-    variant: "neutral",
-  },
-  17: {
-    content:
-      "D2 為試評扣分項，任何重大醫療事故未依規定通報、違法情事或嬰兒安全事件都將直接扣分，影響整體評鑑結果。建議定期進行內部自我稽核，確認所有照護紀錄真實完整。評鑑期間務必主動配合委員查核，提供完整資料，切勿隱匿或拖延。",
-    variant: "warning",
-  },
-};
+const tips = babycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

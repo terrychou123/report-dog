@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.6 麻醉與手術（項目 99–107）｜醫院評鑑小教室",
@@ -34,53 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  99: {
-    content:
-      "手術安全查核為必要條文，是手術照護最關鍵的查核項目。評鑑委員通常要求查閱手術查核表紀錄，並訪談手術室人員。確認 Time Out 由所有在場人員共同執行，且執行過程有書面記錄。",
-    variant: "warning",
-  },
-  100: {
-    content:
-      "麻醉前評估為必要條文。擇期手術病人的麻醉前評估紀錄必須在手術前完成，確認 ASA 分級紀錄清楚，高風險病人有特殊說明，知情同意書由麻醉科醫師親自取得。",
-    variant: "warning",
-  },
-  101: {
-    content:
-      "麻醉作業管理為必要條文。評鑑重點包含麻醉機定期保養校正紀錄、困難插管推車內容物清單及定期查核紀錄，確保緊急應變設備隨時可用。",
-    variant: "warning",
-  },
-  102: {
-    content:
-      "手術室安全管理為重點條文。器械及海棉針計點需有書面紀錄，計點結果不符時需有標準化處理流程。手術室潔淨度監測紀錄應定期保存備查。",
-    variant: "info",
-  },
-  103: {
-    content:
-      "術後照護作業為重點條文。恢復室的護病比與設備（如脈搏血氧計、心電監測）需符合規定，病人轉出標準（Aldrete score 或等效評估工具）需書面化，並有執行紀錄。",
-    variant: "info",
-  },
-  104: {
-    content:
-      "術後疼痛管理為一般條文。雖非重點，建議建立標準化術後疼痛評估流程，評估結果及用藥調整有書面記錄，可展現照護品質的主動管理態度。",
-    variant: "info",
-  },
-  105: {
-    content:
-      "日間手術管理為一般條文。若有日間手術服務，確認病人選擇標準有書面規定，出院指示單內容完整（含緊急聯絡方式），並有病人確認簽收紀錄。",
-    variant: "info",
-  },
-  106: {
-    content:
-      "緊急手術應變為一般條文。建議訂定緊急手術啟動 SOP，並定期進行演練，「到刀時間」等品質指標的監測數據可作為持續改善的依據。",
-    variant: "info",
-  },
-  107: {
-    content:
-      "手術器械及耗材管理為重點條文。植入物批號追蹤紀錄是評鑑常見查核項目，確認系統化追蹤機制完善。消毒供應中心的滅菌監測（生物指標、化學指標）紀錄需完整保存。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

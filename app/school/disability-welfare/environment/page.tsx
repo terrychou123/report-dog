@@ -5,6 +5,7 @@ import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disabilit
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { disabilityWelfareTips } from "@/lib/evaluation-tips/disability-welfare";
 
 export const metadata: Metadata = {
   title:
@@ -41,83 +42,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  12: {
-    content:
-      "浴廁比例（1:6）是硬性規定，務必提前計算確認。注意隱密性要求：廁所及浴室都需有隔間或門簾，且需有男女之分。重度失能機構另需注意臥床者專用洗澡設備。",
-    variant: "warning",
-  },
-  13: {
-    content:
-      "無障礙浴廁以108年新公告設計規範為依據。既有建物如無法符合現行標準，可向建築機關提出替代改善計畫。輪椅使用者每滿6人需增設一處廁所。",
-    variant: "info",
-  },
-  14: {
-    content:
-      "緊急呼叫設備需涵蓋無障礙廁所、寢室、一般廁所等空間。重點注意設備功能正常且可在工作站或走廊顯示。日間型機構若無寢室，第2項不適評。",
-    variant: "warning",
-  },
-  15: {
-    content:
-      "避難逃生路徑需雙向（兩個以上逃生出口），防火門須能隨時關閉或與火警系統連動。等待救援空間需具通排煙及防火區劃功能。二層樓以上建築才需設置。",
-    variant: "warning",
-  },
-  16: {
-    content:
-      "本項為核心指標，影響評鑑等第。公安申報需現場置有報告書及合格證明；消防檢修每半年1次，需備3年完整紀錄；防火管理人需有效證書；每月需自主檢查用電設備安全。",
-    variant: "warning",
-  },
-  17: {
-    content:
-      "緊急災害應變演練每年至少2次（含夜間演練1次）。演練需有完整腳本、過程紀錄、檢討會議及修正方案。夜間演練以大夜班為準，日間型機構夜間演練不適用。",
-    variant: "warning",
-  },
-  18: {
-    content:
-      "本項為新增指標，重點在疏散策略的具體可行性。緊急避難平面圖需符合實際方位且標示所在位置。演練紀錄需包含不同屬性服務對象（輪椅、臥床、插管等）的全程紀錄及照片。",
-    variant: "info",
-  },
-  19: {
-    content:
-      "寢室面積標準：每人7平方公尺（小型住宿機構5平方公尺）。評分以符合比例分級：50-75%為1級分，75-100%為2級分，100%為3級分。每間寢室都需有採光及通風。",
-    variant: "info",
-  },
-  20: {
-    content:
-      "機具使用安全分兩類評估：(1)服務對象使用的機具需有警示標誌及防護設備；(2)工作人員使用的儀器設備需有操作維護規定及定期校正紀錄。重度失能機構僅評第3、4項。",
-    variant: "info",
-  },
-  21: {
-    content:
-      "護理空間僅重度失能機構適評。護理站需有護理紀錄櫃、藥品存放櫃、護理工作車，且準備空間應為獨立隔間以符合感染管控。每棟層均需設有護理站或簡易工作站。",
-    variant: "info",
-  },
-  22: {
-    content:
-      "環境清潔需每3個月全面消毒1次並有紀錄。廢棄物需依規定分類處理，事業廢棄物或感染性廢棄物需與廠商簽約。非重度失能機構適用前3項標準，重度失能機構適用全部。",
-    variant: "info",
-  },
-  23: {
-    content:
-      "污物處理需有書面辦法、流程圖及處理紀錄。注意不同屬性污物（如尿布、嘔吐物及糞便等）需分別訂定處理辦法。污物動線需符合感染管控原則。",
-    variant: "info",
-  },
-  24: {
-    content:
-      "餐廳廚房衛生重點：需有配膳作業標準、定期清潔消毒紀錄、防蟲害措施。供膳外包需有合約及衛生合格證明。餐具需有消毒設備，有傳染管理需求者需有專屬餐具。",
-    variant: "info",
-  },
-  25: {
-    content:
-      "食物儲存重點：冷藏溫度需7°C以下、蔬菜與肉類分開、定期檢查有效日期、專屬空間不放非食品。這四項都是現場實查重點。",
-    variant: "info",
-  },
-  26: {
-    content:
-      "儲藏設施為新增指標。易燃可燃物品需集中管理且上鎖，儲存物品需有分類標示及進冊盤點紀錄。化學物品及氣氧鋼瓶需獨立管制。",
-    variant: "info",
-  },
-};
+const tips = disabilityWelfareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

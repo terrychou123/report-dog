@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.8 檢驗、病理與放射作業（項目 111–124）｜醫院評鑑小教室",
@@ -34,78 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  111: {
-    content:
-      "檢驗品質管理為重點條文。確認內部品管（QC）每日執行有紀錄，且定期參加外部能力試驗（如 PT/EQA）並有成績紀錄。危急值通報流程須書面化，並有實際通報案例的追蹤紀錄。",
-    variant: "warning",
-  },
-  112: {
-    content:
-      "緊急檢驗作業為一般條文。建議統計近期緊急檢驗報告時效（TAT）達成率，若有未達標情形，應有改善計畫。全天候服務的人力排班紀錄需備妥。",
-    variant: "info",
-  },
-  113: {
-    content:
-      "血液銀行作業為重點條文。血品儲存溫度需持續監控並有溫度記錄曲線，警示設備（如溫度異常警報）需實際可用。廢棄血品的處理紀錄及委外銷毀單據需完整保存。",
-    variant: "warning",
-  },
-  114: {
-    content:
-      "微生物檢驗為一般條文。多重抗藥性菌（如 MRSA、CRE）的及時通報流程是查核重點，確認與感染管制單位的通報連結機制清楚，並有通報紀錄可查。",
-    variant: "info",
-  },
-  115: {
-    content:
-      "病理組織檢查為重點條文。病理標本的採集、容器標示及運送規範需書面化，確認緊急術中冷凍切片的報告時效符合規定，報告格式符合相關學會規範。",
-    variant: "warning",
-  },
-  116: {
-    content:
-      "細胞病理學為一般條文。子宮頸抹片等細胞學檢查的品管機制（如陽性率監測、判讀一致性評核）需有紀錄，使用標準分類系統（如 Bethesda System）有助於展現品質管理水準。",
-    variant: "info",
-  },
-  117: {
-    content:
-      "解剖病理作業為可免評條文。若有執行屍體解剖，確認符合相關法規（如須有家屬同意）及醫學倫理規範，解剖結果有書面記錄。",
-    variant: "info",
-  },
-  118: {
-    content:
-      "一般放射作業為重點條文。放射師執照與執業登記的有效性是基本要求。工作人員個人劑量計（TLD）佩戴紀錄及年度輻射劑量報告需完整，X 光室鉛板屏蔽的定期檢驗紀錄需備查。",
-    variant: "warning",
-  },
-  119: {
-    content:
-      "電腦斷層作業為重點條文。CT 顯影劑過敏反應的緊急應變車（含腎上腺素等急救藥品）需配備完整，使用前腎功能篩選紀錄需可查核。輻射劑量最適化（如 ALARA 原則）的執行紀錄建議保存。",
-    variant: "warning",
-  },
-  120: {
-    content:
-      "磁振造影作業為重點條文。MRI 安全篩選問卷的確實執行是必要的，特別注意植入心臟節律器或金屬植入物的病人。磁場緊急停機（quench）的應變程序需書面化，且工作人員熟知。",
-    variant: "warning",
-  },
-  121: {
-    content:
-      "超音波作業為一般條文。超音波操作人員訓練紀錄及相關認證（如有）需備妥，設備定期保養校正紀錄有助於展現品質管理。",
-    variant: "info",
-  },
-  122: {
-    content:
-      "血管攝影作業為可免評條文。若有提供介入性放射服務，手術安全查核（包含病人確認、手術部位確認）及輻射防護措施的落實記錄是查核重點。",
-    variant: "info",
-  },
-  123: {
-    content:
-      "放射治療品質管理為可免評條文。若有提供放射治療，設備日校正、月校正及年校正紀錄，以及治療計畫的獨立驗證紀錄，是評鑑委員的重點查核項目。",
-    variant: "info",
-  },
-  124: {
-    content:
-      "醫學影像資訊管理為重點條文。PACS 系統的備份機制及還原測試紀錄需定期執行，影像保存年限符合法規規定（門診 7 年、住院 10 年），存取管控記錄完整。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

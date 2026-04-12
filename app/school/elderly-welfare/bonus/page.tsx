@@ -5,6 +5,7 @@ import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welf
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
+import { elderlyWelfareTips } from "@/lib/evaluation-tips/elderly-welfare";
 
 export const metadata: Metadata = {
   title: "F、加分題（項目 75–77）｜老人福利機構評鑑",
@@ -27,23 +28,7 @@ export const metadata: Metadata = {
 
 const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "加")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  75: {
-    content:
-      "人才培育計畫需有具體的薪資結構說明、晉升制度及留才措施。若機構有提供額外福利（如住宿補貼、學費補助、員工認股等），需有書面制度並有實際執行佐證，以展現機構對長期人才投資的重視。",
-    variant: "info",
-  },
-  76: {
-    content:
-      "智慧照護應用需有具體的導入成效說明，而非僅展示設備存在。建議準備使用前後的比較數據（如護理工作效率提升、住民安全事件減少等），說明科技如何真實改善照護品質。",
-    variant: "info",
-  },
-  77: {
-    content:
-      "在地安老服務需有具體的社區服務紀錄，包含服務人次、服務類型及服務範圍，展現機構如何將資源延伸至社區。與其他機構或醫療院所的合作協議書可作為重要佐證。",
-    variant: "neutral",
-  },
-};
+const tips = elderlyWelfareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

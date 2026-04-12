@@ -5,6 +5,7 @@ import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { generalNursingHomeTips } from "@/lib/evaluation-tips/general-nursing-home";
 
 export const metadata: Metadata = {
   title: "環境設施與安全維護（C1–C4）｜一般護理之家評鑑",
@@ -32,28 +33,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  9: {
-    content:
-      "災害應變計畫須依機構所在地特性涵蓋火災、地震、颱風等情境，並明確分工。每年2次消防演練（含夜間1次）的執行紀錄需包含演練計畫、出席名冊、演練照片及檢討改善報告。消防設備維護保養應有合格廠商簽署的維護記錄。",
-    variant: "info",
-  },
-  10: {
-    content:
-      "疏散避難通道須定期實地確認暢通無阻，特別注意倉儲區域及服務出入口是否有雜物堆放。等待救援空間（防火區劃）的位置標示須清晰，緊急照明設備應定期測試並留有測試紀錄。",
-    variant: "info",
-  },
-  11: {
-    content:
-      "個別化疏散策略須依住民失能程度分類（可步行、需輪椅、需擔架），並指定對應工作人員協助。疏散後持續照顧程序應涵蓋醫療用藥銜接、特殊飲食需求及緊急聯絡機制。工作人員教育訓練紀錄須保存完整。",
-    variant: "info",
-  },
-  12: {
-    content:
-      "C4 為實地情境演練查核，評鑑委員可能依不同起火位置現場抽測工作人員反應。建議定期進行情境式演練，確保工作人員熟悉各種起火點的疏散路線及住民搬移技巧。情境演練紀錄應包含演練情境描述、執行過程及改善事項。",
-    variant: "warning",
-  },
-};
+const tips = generalNursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

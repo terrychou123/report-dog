@@ -5,6 +5,7 @@ import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { homeCareTips } from "@/lib/evaluation-tips/home-care";
 
 export const metadata: Metadata = {
   title: "壹、個案權益保障（項目 1–4）",
@@ -27,28 +28,7 @@ export const metadata: Metadata = {
 
 const section = homeCareProfile.sections[0]; // 壹、個案權益保障
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  1: {
-    content:
-      "網路平台可以是機構官方網站、LINE 官方帳號、Facebook 粉絲頁或長照機構資訊平台頁面。評鑑委員會實際查看網址，確保連結有效、資訊是最新的。",
-    variant: "info",
-  },
-  2: {
-    content:
-      "「個案權益聲明書」需在入案時當場說明並簽署，而非只是放在資料夾中備查。評鑑時會抽查個案書面資料，確認是否有簽署紀錄。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "個人資料保護法要求「蒐集、處理、利用」個人資料都需有書面同意。照片拍攝須另外取得書面授權，不可只用口頭同意。",
-    variant: "warning",
-  },
-  4: {
-    content:
-      "申訴信箱、電話或書面管道需讓個案及家屬「知悉」，建議在服務合約或入案說明書中列明，並在每次服務結束時提醒。",
-    variant: "info",
-  },
-};
+const tips = homeCareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

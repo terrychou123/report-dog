@@ -5,6 +5,7 @@ import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { youthCareTips } from "@/lib/evaluation-tips/youth-care";
 
 export const metadata: Metadata = {
   title: "建築物環境及設施設備（項目 7–14）｜兒少安置機構評鑑",
@@ -28,40 +29,7 @@ export const metadata: Metadata = {
 
 const section = youthCareProfile.sections[1];
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  7: {
-    content: "整體環境衛生由主管機關依輔導查核情形評分。機構應配合輔導查核，若有缺失應於主管機關規定期限內確實改善並留存改善記錄，以避免列計缺失扣分。",
-    variant: "info",
-  },
-  8: {
-    content: "機構環境配置分4個配分項目，各0.5分。重要法規依據：兒少福利機構設置標準第21條，含室內樓地板面積（不得少於120㎡）、室外活動空間（每人不少於3㎡）、2歲以下兒童活動空間（≥10㎡）、2歲以上（≥15㎡）、寢室床位限制等。樓梯走道需有扶手欄杆及防滑設施。",
-    variant: "warning",
-  },
-  9: {
-    content: "醫療保健設施依輔導查核表-專業服務第六項目「健康服務」(一)評分，需每年均符合規定。確認急救設備（AED、急救箱等）配置齊全，並留存相關查核紀錄。",
-    variant: "neutral",
-  },
-  10: {
-    content: "食物冷凍(藏)設備及儲存空間需依輔導查核表-建築物及設施設備第七項目，每年均符合規定。確認冷藏冷凍設備功能正常、溫度記錄完整，食材分類儲存符合衛生法規。",
-    variant: "neutral",
-  },
-  11: {
-    content: "公共安全由主管機關依建築物及設施設備第三至六項目評分，需每年均符合規定。建築物安全檢查簽證及消防安全設備檢查申報文件需齊備，有缺失應優先處理並書面記錄改善過程。",
-    variant: "warning",
-  },
-  12: {
-    content: "危機事故預防及處理是本區塊中最複雜的項目（2分），共4個子項各0.5分。重點是「分析」和「改進措施」，不只是有處理記錄。建議建立標準化的危機事故處理流程，包含：即時處理→分析→改進→教育訓練四個環節，並保存完整文件。",
-    variant: "warning",
-  },
-  13: {
-    content: "飲食及環境衛生同時涵蓋建築物設施（第八項目「飲用水」）及專業服務（第五項目「膳食管理」）。確認廚房設備、食材管理、餐點製備及供應符合衛生法規，飲用水定期水質檢驗，並留存輔導查核相關紀錄。",
-    variant: "neutral",
-  },
-  14: {
-    content: "健康與醫療涵蓋輔導查核表-專業服務第六項目「健康服務」(二)-(十)，不含(一)（醫療保健設施，已列為項目9單獨計分）。健康檢查、就醫協助、用藥管理等需每年均符合規定。",
-    variant: "neutral",
-  },
-};
+const tips = youthCareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

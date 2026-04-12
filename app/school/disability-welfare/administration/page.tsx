@@ -5,6 +5,7 @@ import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disabilit
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { disabilityWelfareTips } from "@/lib/evaluation-tips/disability-welfare";
 
 export const metadata: Metadata = {
   title:
@@ -41,63 +42,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  1: {
-    content:
-      "董（理）事會運作是法人治理的基礎。建議確認捐助章程與實際運作一致，會議紀錄需完整記錄出席人數、議案及決議，並保留函報主管機關之公文副本。法人附設機構可以法人運作狀況評分。",
-    variant: "info",
-  },
-  2: {
-    content:
-      "機構管理制度涵蓋面向廣泛（4項標準）。建議：(1)會議紀錄需包含追蹤管考欄位；(2)工作手冊至少涵蓋組織架構、業務執掌、入出機構辦法等；(3)員工權益制度需含差假、薪資、申訴等規定；(4)入出機構管理辦法須涵蓋5項以上內容。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "機構配合情形重點在於系統登打與人員配置。務必定期更新「全國身心障礙福利資訊整合平台」資料，且確認員工良民證或性侵害犯罪查閱紀錄齊全。實際服務人數需達核定人數80%。",
-    variant: "warning",
-  },
-  4: {
-    content:
-      "員工健檢需注意不同職類的檢查項目差異：一般員工每2年、新進人員到職前（需含糞便檢查）、廚工及夜間人員每年。健檢報告以3個月內為有效，106-108年度資料需完整保留。",
-    variant: "info",
-  },
-  5: {
-    content:
-      "訓練時數要求明確：新進人員3個月內需滿24小時職前訓練；急救訓練內部參加率需達80%；直接服務人員每年至少20小時在職訓練（含4小時應急管制＋2小時口腔照護）。所有訓練需有效益評量紀錄。",
-    variant: "warning",
-  },
-  6: {
-    content:
-      "專業服務人力（8分）是本區塊最高分項目，涵蓋社工、護理、教保/訓練、生活服務4類人力比。計算採106-108年歷月平均值。注意各機構類型適用不同比例，夜間人力不符規定會酌扣0.5分。",
-    variant: "warning",
-  },
-  7: {
-    content:
-      "法定通報為新增指標，需將性侵害犯罪防治法第8條及身心障礙者權益保障法第76條的通報機制納入內部流程，並辦理相關訓練。建議製作通報流程圖並張貼於工作站。",
-    variant: "info",
-  },
-  8: {
-    content:
-      "會計制度需有日記帳及總分類帳。重點注意：各項支出需有合法憑據、營運擔保金及補助款需設專戶專款專用。公立機構標準3不適評。",
-    variant: "info",
-  },
-  9: {
-    content:
-      "財務報表需經董事會議決議並函報主管機關。3年度平均業務支出占支出合計需≧75%，建議提前計算確認。標準1為新增標準。",
-    variant: "info",
-  },
-  10: {
-    content:
-      "財物管理重點：1萬元以上經費需以支票或金融機構撥付；印鑑需分別保管；財產每年至少盤點1次；政府補助財產需編列清冊並黏貼財產標示。",
-    variant: "info",
-  },
-  11: {
-    content:
-      "捐贈財物管理需建立完整徵信制度。注意指定用途捐款得集中一個專戶但需足額儲存，且需公開徵信（網站、刊物或電子媒體）。法人附設機構可以法人運作狀況評分。",
-    variant: "info",
-  },
-};
+const tips = disabilityWelfareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

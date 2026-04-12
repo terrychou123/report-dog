@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "1.1 醫院經營策略（項目 1–5）｜醫院評鑑小教室",
@@ -34,33 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  1: {
-    content:
-      "院務發展計畫是評鑑委員了解醫院治理品質的第一道關卡。計畫書須包含使命、願景及中長期目標，並有最高決策單位（院長或董事會）核定的書面紀錄。建議將最近一次計畫檢視會議紀錄及執行成效報告一併備妥，以備委員詢問。",
-    variant: "info",
-  },
-  2: {
-    content:
-      "組織架構文件需保持最新狀態。最常見的缺失是組織圖與實際職掌不一致，或職務代理規定僅存於文件中而未實際落實。評鑑前建議全面核對組織圖、職掌說明書及代理人名單，確保三者一致且員工知悉。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "品質管理機制是「重點」項目，委員查核相對嚴格。品質委員會的會議紀錄需清楚呈現討論內容、決議事項及後續追蹤，不能只是出席簽名。品質指標需有選定理由、監測頻率記錄及趨勢分析，建議準備近 12 個月的指標數據圖表，並能說明異常指標的改善措施。",
-    variant: "warning",
-  },
-  4: {
-    content:
-      "績效評估制度需有完整的書面規定及執行紀錄。評鑑委員通常會關注績效考核是否真正落實（非流於形式），以及員工是否有實際可使用的申訴管道。建議將近兩年的績效考核紀錄及申訴案件處理記錄整理備查。",
-    variant: "info",
-  },
-  5: {
-    content:
-      "社會責任項目雖為「一般」類別，但具體的社區活動紀錄（含照片、出席紀錄、衛教材料）能展現醫院積極面向。建議彙整近一年的社區衛教、免費篩檢或公益活動執行成果報告，並說明如何與政府預防保健政策接軌。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

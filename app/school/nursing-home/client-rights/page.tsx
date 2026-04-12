@@ -5,6 +5,7 @@ import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
   title: "D、個案權益保障（項目 64–72）｜住宿型照顧機構評鑑",
@@ -28,53 +29,7 @@ export const metadata: Metadata = {
 
 const section = nursingHomeProfile.sections.find((s) => s.shortCode === "權")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  64: {
-    content:
-      "個案資料管理系統為二級加強項目。需明確訂定各使用者的系統存取權限，並有書面管理辦法（含個人資料保護法依據、肖像權同意書）。統計分析結果需有具體改善措施，評鑑委員可能要求現場操作系統展示帳號及權限管控機制。",
-    variant: "info",
-  },
-  65: {
-    content:
-      "服務契約需給予住民至少 5 天審閱期（需有書面記錄），契約內容需完備（服務項目、收費標準、雙方權利義務、申訴管道）且不得低於定型化契約，不得有「不得記載事項」。當法規或服務條件變更時需更換契約，評鑑委員會查核契約是否核章完整。",
-    variant: "warning",
-  },
-  66: {
-    content:
-      "生活注意事項需張貼於明顯處並以書面告知住民及家屬（需有簽名記錄），且須允許住民可自由和外界溝通（不得限制通訊自由）。若有住民違反注意事項，需有具體的處理或調整記錄，評鑑委員可能直接詢問住民是否了解相關規定。",
-    variant: "info",
-  },
-  67: {
-    content:
-      "申訴管道需張貼於機構明顯處，並清楚告知住民及家屬（含口頭告知記錄）。申訴案件需有專人處理，處理結果需書面回覆申訴者並留存記錄，每年分析申訴案件並有追蹤記錄。評鑑委員可能詢問住民是否清楚申訴流程。",
-    variant: "info",
-  },
-  68: {
-    content:
-      "靈性關懷服務需有個別服務記錄（非僅列於年度計畫），簡易宗教設施（如佛堂、禱告室）需實際提供住民使用，並有使用記錄。確認每位住民均有自行決定參與宗教活動的機會，評鑑委員可能現場觀察設施及訪談住民。",
-    variant: "neutral",
-  },
-  69: {
-    content:
-      "居家情境佈置為二級加強項目。確認：床與床之間有隔離視線的屏障物（如圍簾）、監視器未設置於寢室及浴廁內、每個床位旁有擺放私人物品的空間、允許住民攜帶個人物品佈置環境。評鑑委員會現場察看個人空間的隱私性。",
-    variant: "info",
-  },
-  70: {
-    content:
-      "財物管理辦法需涵蓋退休金代墊、零用金管理、重要財物保管及死亡遺產處理等，並有書面告知住民及家屬的記錄（需有簽名）。財產管理需由專人負責並留有明細記錄，評鑑委員可能現場訪談住民是否了解相關規定。",
-    variant: "neutral",
-  },
-  71: {
-    content:
-      "安寧緩和醫療資訊提供需有書面記錄，DNR 處理作業流程（含已簽訂及未簽訂者的不同處理程序）需書面化並有實際案例。確認有鼓勵住民或家屬針對 DNR 共同討論的機制，並提供臨終照護關懷流程手冊，記錄協助家屬處理喪葬事宜的過程。",
-    variant: "info",
-  },
-  72: {
-    content:
-      "每年至少辦理 1 次不具名滿意度調查（採密封回收或線上表單確保匿名性），調查內容需含服務內容、服務人員態度、設施設備等項目。需有調查分析報告，且依結果提出具體改善措施，評鑑委員會核查調查問卷及改善方案的完整性。",
-    variant: "info",
-  },
-};
+const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

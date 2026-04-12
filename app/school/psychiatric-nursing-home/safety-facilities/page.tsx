@@ -5,6 +5,7 @@ import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psyc
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { psychiatricNursingHomeTips } from "@/lib/evaluation-tips/psychiatric-nursing-home";
 
 export const metadata: Metadata = {
   title: "C、安全維護及設施設備（C1.1–C1.3）｜精神護理之家評鑑",
@@ -25,23 +26,7 @@ const section = psychiatricNursingHomeProfile.sections.find(
   (s) => s.shortCode === "C"
 )!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  31: {
-    content:
-      "【重點項目】：各樓層須有2個以上不同避難方向之等待救接空間，且須有一定防火性能及足夠防煙能力。逃生路徑須為雙向（含1座以上安全梯及2個以上不同方向之避難途徑）。防火門應維持關閉，或能連動火警探測器自動釋放開閉，且不需鑰匙可雙向開啟。",
-    variant: "warning",
-  },
-  32: {
-    content:
-      "火災應變計畫須符合機構住民特性（精神障礙者），包含住民疏散協助流程。演練需有紀錄，且針對演練結果進行檢討改善。",
-    variant: "info",
-  },
-  33: {
-    content:
-      "夜間演練應符合機構特性，考量夜間人員配置較少之情況下的疏散能力。演練需有完整紀錄及檢討改善資料。",
-    variant: "info",
-  },
-};
+const tips = psychiatricNursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

@@ -5,6 +5,7 @@ import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { youthCareTips } from "@/lib/evaluation-tips/youth-care";
 
 export const metadata: Metadata = {
   title: "行政組織與經營管理（項目 1–6）｜兒少安置機構評鑑",
@@ -28,32 +29,7 @@ export const metadata: Metadata = {
 
 const section = youthCareProfile.sections[0];
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  1: {
-    content: "董(理)事會議紀錄是最重要的佐證文件。依財團法人法第43條規定，每次召開董事會應有完整議事紀錄。評鑑委員特別注意：(1)年度決算書、業務執行書是否確實提董事會審議；(2)董事改選或改聘是否函報主管機關並取得備查公文；(3)非財團法人機構（如公立機構）不適用本項部分基準。",
-    variant: "warning",
-  },
-  2: {
-    content: "資訊系統填報是112年度新增的重點（配分1分）。確認機構已建置衛福部社會及家庭署「全國兒少安置及追蹤管理系統」，且院生名冊與系統資料一致。各項報表（院童動態表、季報表、年度業務報告等）需於主管機關規定時數內完成填報，建議建立內部填報時程表。",
-    variant: "warning",
-  },
-  3: {
-    content: "員工手冊及人事制度共5個子項各0.4分，每項均需有制度並確實執行。特別注意：(1)差勤管理及代理人制度需有「落實工作交接」的執行紀錄；(2)員工申訴制度需涵蓋性騷擾、性侵害防治及性別工作平等保障措施；(3)薪資管理制度需有薪資給付相關紀錄。",
-    variant: "neutral",
-  },
-  4: {
-    content: "本項由主管機關依輔導查核情形評分。機構需特別注意人員流動率的計算與控管：流動率20%以下為「優」、21%-30%為「可」、超過31%為「待加強」。建議建立久任獎勵制度（如年資獎金、訓練補助等）以爭取0.5加分。專任人員切結書需確實簽署。",
-    variant: "info",
-  },
-  5: {
-    content: "訓練進修由主管機關依輔導查核情形評分。重點確認：(1)所有專業人員每年均完成「兒童及少年福利機構專業人員資格及訓練辦法」規定之訓練時數；(2)主管、社工、生輔員、保育員、托育員、心輔員等全員每年完成性侵害防治相關課程，需保存參加人員及課程清冊。",
-    variant: "info",
-  },
-  6: {
-    content: "勞動條件由主管機關依輔導查核情形評分。本項涵蓋107年至112年的累積查核，每年均需符合規定。確認機構無違反勞動基準法、性別工作平等法、勞退條例等勞動法規的裁罰紀錄。如曾有缺失應確實改善並保存改善紀錄。",
-    variant: "neutral",
-  },
-};
+const tips = youthCareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "1.4 病歷、資訊與溝通管理（項目 23–26）｜醫院評鑑小教室",
@@ -34,28 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  23: {
-    content:
-      "病歷書寫管理是「必要」項目，委員通常會抽查實際病歷。常見缺失包括：醫療人員未及時書寫、簽名不完整、電子病歷中存在大量複製貼上（Copy-Paste）導致內容不符實況。建議事前進行病歷品質稽核，特別關注手術紀錄、出院摘要及知情同意書的完整性。電子病歷若採用，需確認符合電子病歷相關法規（如電子簽章）。",
-    variant: "warning",
-  },
-  24: {
-    content:
-      "資訊安全管理是「重點」項目，近年因資安事件頻傳，委員查核更為嚴格。重點準備：(1) 資安政策文件（含使用者帳號管理、密碼規定）；(2) 最近一次資料備份還原測試紀錄；(3) 系統存取權限審查紀錄（確認離職人員帳號已停用）；(4) 若曾發生資安事件，需有完整的通報及改善紀錄。",
-    variant: "warning",
-  },
-  25: {
-    content:
-      "醫療資訊系統穩定性是日常運作的基礎。建議準備：(1) 系統維護及升級計畫（含年度維護合約）；(2) 近一年系統故障紀錄及緊急應變執行狀況（如紙本備援機制）；(3) 系統資料完整性定期查核紀錄（如帳務稽核、病歷完整性統計）。委員通常關注系統故障時業務是否能持續不中斷。",
-    variant: "info",
-  },
-  26: {
-    content:
-      "溝通機制項目需呈現「有效溝通」而非僅有會議召開。重點備妥：院務會議、部門主管會議及各委員會的近一年會議紀錄，並能呈現決議追蹤機制。對病人及家屬的資訊提供（看診時間、費用、醫療說明等）需有多種管道（書面、網路、現場）的具體說明。緊急事件對外溝通授權規定（如媒體發言授權）需明確書面化。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

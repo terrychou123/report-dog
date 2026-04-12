@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "1.6 病人導向之服務與管理（項目 34–37）｜醫院評鑑小教室",
@@ -34,18 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  34: {
-    content:
-      "就醫資訊多元化是評鑑委員關注重點。建議確認官網、現場看板、書面說明單張三種管道資訊一致且更新，並備有外語或手語翻譯服務清單及聯絡方式，不需實際配置通譯人員，但需有明確可及的協助管道。",
-    variant: "info",
-  },
-  36: {
-    content:
-      "病人滿意度調查需有「閉環管理」：調查→分析→改善計畫→追蹤成效→下次調查。建議在品質管理委員會會議紀錄中呈現完整循環，並保存至少兩年的連續資料，讓委員看出持續改善的脈絡。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

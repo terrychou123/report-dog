@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.7 感染管制（項目 108–110）｜醫院評鑑小教室",
@@ -34,23 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  108: {
-    content:
-      "感染管制委員會的運作是必要條文查核起點。確認委員會會議紀錄完整（含出席委員、討論事項、決議追蹤），感染管制醫師及護理師人力符合規定，年度感染管制計畫執行成效有書面追蹤報告。",
-    variant: "warning",
-  },
-  109: {
-    content:
-      "標準防護措施為必要條文，且評鑑委員可能進行實地觀察。手部衛生稽核執行率需達標（建議備有近期稽核數據），PPE 存放位置清楚，安全針具設備（如針頭毀形桶）配置正確。隔離病人的標誌張貼需清晰可見。",
-    variant: "warning",
-  },
-  110: {
-    content:
-      "醫療照護相關感染監測為必要條文。確認 CLABSI、VAP 等感染率計算方法標準化，與同類醫院的比較分析有紀錄，感染率異常時的調查報告及改善措施有書面追蹤。建議準備近 1 年的監測趨勢圖。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

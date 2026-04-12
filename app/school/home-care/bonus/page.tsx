@@ -5,6 +5,7 @@ import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
+import { homeCareTips } from "@/lib/evaluation-tips/home-care";
 
 export const metadata: Metadata = {
   title: "加分題（項目 31–32）",
@@ -27,18 +28,7 @@ export const metadata: Metadata = {
 
 const section = homeCareProfile.sections[3]; // 加分題
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  31: {
-    content:
-      "「創新」不必是高科技，社區巡迴服務、跨機構合作轉介、與里辦公室合作推廣長照知識都算。重點是有「具體成果記錄」：合作方案書、服務人數統計、參與單位清單等。",
-    variant: "info",
-  },
-  32: {
-    content:
-      "照顧者支持服務可以與社區資源合作（如與家庭照顧者關懷協會）共同辦理，不必全部由機構自行執行。課程或團體需有報名表、簽到表、滿意度回饋等完整記錄。",
-    variant: "info",
-  },
-};
+const tips = homeCareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

@@ -5,6 +5,7 @@ import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psyc
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { psychiatricNursingHomeTips } from "@/lib/evaluation-tips/psychiatric-nursing-home";
 
 export const metadata: Metadata = {
   title: "D、住民權益保障（D1.1–D1.2）｜精神護理之家評鑑",
@@ -25,18 +26,7 @@ const section = psychiatricNursingHomeProfile.sections.find(
   (s) => s.shortCode === "D"
 )!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  34: {
-    content:
-      "需有宗教活動相關設施或空間，工作人員需接受尊重住民宗教信仰之教育訓練。提供精神照護及心靈關懷服務，需有相關紀錄。",
-    variant: "info",
-  },
-  35: {
-    content:
-      "推動安寧緩和療護需訂有工作計畫或流程，並有執行紀錄。若無住民需要安寧療護，需說明未能提供之原因。病人自主權利相關事宜包含預立醫療決定等。",
-    variant: "info",
-  },
-};
+const tips = psychiatricNursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

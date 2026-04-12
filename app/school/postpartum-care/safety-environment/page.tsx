@@ -5,6 +5,7 @@ import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { babycareTips } from "@/lib/evaluation-tips/babycare";
 
 export const metadata: Metadata = {
   title: "環境設施與安全維護（C1–C2）｜產後護理之家評鑑",
@@ -32,18 +33,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  14: {
-    content:
-      "嬰兒疏散 SOP 是產後護理之家特有且評鑑委員重點關注的項目。SOP 中應明確規範嬰兒疏散的人員分工（誰抱哪幾位嬰兒）、疏散路線及集合地點。消防演練必須模擬嬰兒疏散情境，並記錄演練時間、參與人員及改善建議。消防設施合格證明應於評鑑前更新。",
-    variant: "warning",
-  },
-  15: {
-    content:
-      "嬰兒室溫度記錄應每日 2 次以上，建議使用溫濕度記錄表，並標注標準範圍（24～26°C），異常時有處置記錄。照護設備的校正記錄（嬰兒秤、黃疸儀等）應完整，建議每年至少校正 1 次並保存合格證明。天災應變計畫應包含颱風、地震等常見災害，定期演練並留有記錄。",
-    variant: "info",
-  },
-};
+const tips = babycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

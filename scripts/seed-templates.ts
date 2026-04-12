@@ -15,6 +15,7 @@ import { eq } from 'drizzle-orm';
 import { getDbUrl } from '../db/index';
 import { buildItemMultiSheetData, serializeSheetData } from '../lib/excel-template-builder';
 import { getSupplementaryDefs } from '../lib/supplementary-sheets/index';
+import { getEvaluationTip } from '../lib/evaluation-tips/index';
 
 // Import all profiles directly (no path alias needed)
 import { daycareProfile } from '../lib/ai/evaluation-profiles/daycare';
@@ -161,7 +162,10 @@ async function main() {
         for (const item of items) {
           // Build FortuneSheet-compatible Excel content (checklist + supplementary sheets)
           const supplementaryDefs = getSupplementaryDefs(profile.id, item.id);
-          const sheets = buildItemMultiSheetData(item, supplementaryDefs);
+          // 注入準備要訣（從 school 頁面提取的共用資料）
+          const tip = getEvaluationTip(profile.id, item.id);
+          const itemWithTip = tip ? { ...item, tip: tip.content } : item;
+          const sheets = buildItemMultiSheetData(itemWithTip, supplementaryDefs);
           const content = serializeSheetData(sheets);
 
           const [newReport] = await tx

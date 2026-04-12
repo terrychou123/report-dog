@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "1.5 安全的環境與設備（項目 27–33）｜醫院評鑑小教室",
@@ -34,43 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  27: {
-    content:
-      "建築物安全是「重點」項目，合法使用執照及無障礙設施是基本門檻。評鑑前需確認使用執照有效且與實際用途相符（如加蓋或變更用途需有相應核准文件）。無障礙設施（坡道、廁所、電梯）需符合現行法規標準，且實際可正常使用。緊急備用電源（UPS 及緊急發電機）的定期測試紀錄需完整保存。",
-    variant: "warning",
-  },
-  28: {
-    content:
-      "消防安全是「必要」項目，委員必定實地查核。重點準備：(1) 消防設備檢查維護紀錄（含每半年定期檢查報告）；(2) 近一年至少 2 次消防疏散演練紀錄（含 1 次夜間演練），需有照片及人員出席紀錄；(3) 各病房張貼最新逃生路線圖；(4) 臥床及行動不便病人疏散計畫（含輪椅、擔架及人力分配）。委員可能當場詢問員工疏散程序，需確保全員熟知。",
-    variant: "warning",
-  },
-  29: {
-    content:
-      "醫療設備管理是「重點」項目。設備清冊需與實際設備一致（含序號、保固及維護狀態）。預防性維護計畫需呈現各類設備的維護週期及實際執行紀錄。高風險設備（呼吸器、電刀、除顫器等）的使用前安全查核表（Checklist）需有填寫紀錄。設備使用訓練紀錄需與設備清冊對應，確認所有操作人員均受過訓練。",
-    variant: "warning",
-  },
-  30: {
-    content:
-      "危險物品管理是「重點」項目，委員通常會實地查看儲存區域。常見缺失：化學品標示不完整（缺中文標示或安全資料表）、壓縮氣體鋼瓶未固定、儲存區域未加鎖。建議事前完成危險物品清冊盤點，確認儲存條件符合規定，並將緊急應變程序（含洩漏、火災處置）以明顯圖表張貼於儲存區域旁。",
-    variant: "warning",
-  },
-  31: {
-    content:
-      "緊急應變計畫是「重點」項目，需涵蓋各類災害情境（火災、地震、停電、大量傷患等）。計畫不能只是書面文件，需有定期演練紀錄並說明演練後的改善追蹤。指揮系統圖（含代理人）需張貼於明顯位置，讓員工隨時可查閱。與外部緊急救護體系（消防局、急救責任醫院）的聯繫機制需有書面協議或聯絡名冊。",
-    variant: "warning",
-  },
-  32: {
-    content:
-      "環境清潔管理需呈現系統化執行而非一次性整理。各區域清潔頻率及清潔方法需有書面規定（如加護病房與一般走廊的清潔頻率不同）。清潔人員（含外包廠商）的感染管制訓練紀錄需完整。環境清潔稽核結果（含不合格項目）及改善追蹤紀錄是委員評估管理成效的重要依據。",
-    variant: "info",
-  },
-  33: {
-    content:
-      "廢棄物管理是「重點」項目，委員通常實地查核廢棄物暫存區。常見缺失：醫療廢棄物與一般廢棄物混置、廢棄物暫存區未加鎖或未標示、委外處理廠商的合格證明過期。建議事前確認委外廠商的廢棄物清除許可仍有效，轉運聯單保存完整（至少 3 年），且暫存區域的廢棄物標示、分類容器及儲存條件符合規定。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

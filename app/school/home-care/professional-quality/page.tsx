@@ -5,6 +5,7 @@ import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { homeCareTips } from "@/lib/evaluation-tips/home-care";
 
 export const metadata: Metadata = {
   title: "貳、專業照護品質（項目 5–14）",
@@ -27,58 +28,7 @@ export const metadata: Metadata = {
 
 const section = homeCareProfile.sections[1]; // 貳、專業照護品質
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  5: {
-    content:
-      "評估工具需標準化，建議使用 ADL（日常生活活動功能量表）或 IADL（工具性日常生活活動功能量表）。每年至少重新評估一次，如個案狀況明顯改變應即時重評。",
-    variant: "info",
-  },
-  6: {
-    content:
-      "服務計畫需有個案或家屬親筆簽名同意，單純「口頭告知」不符合標準。電子簽名需符合電子簽章法規定，否則仍需紙本備查。",
-    variant: "warning",
-  },
-  7: {
-    content:
-      "評值不等於填表，要有「依評值結果調整計畫」的書面記錄。若評值後計畫未調整，需記載理由（如「個案狀況穩定，計畫維持不變」）。",
-    variant: "info",
-  },
-  8: {
-    content:
-      "照服員入戶服務前後的安全確認（防跌評估、環境危險因子）也是評鑑重點。建議在服務紀錄中加入一欄「安全狀況確認」。",
-    variant: "neutral",
-  },
-  9: {
-    content:
-      "「家務協助不超越服務範疇」是常見缺失。長照 2.0 規定家務服務不包含全家人的清潔、非個案使用的空間，照服員應清楚知道服務範圍的界線。",
-    variant: "warning",
-  },
-  10: {
-    content:
-      "緊急事件處理 SOP 要具體到「誰負責打電話給誰」，不能只寫「通報主管」。建議每季做一次桌上演練並留下記錄。",
-    variant: "info",
-  },
-  11: {
-    content:
-      "家屬溝通記錄建議使用統一格式，包含「溝通日期、溝通對象、討論重點、達成共識、後續追蹤事項」五個欄位，便於評鑑委員快速核閱。",
-    variant: "neutral",
-  },
-  12: {
-    content:
-      "電訪與入戶訪視的比例要符合機構規定。常見缺失是電訪記錄過於簡略（如只記「狀況良好」），建議記載至少三個面向：身體狀況、服務滿意度、近期特殊事項。",
-    variant: "warning",
-  },
-  13: {
-    content:
-      "電子服務紀錄系統需有照服員本人登入（不可讓別人代填），若使用紙本，照服員當日服務結束後應即時填寫並親筆簽名。保存年限通常為 3 年，請確認機構規定。",
-    variant: "info",
-  },
-  14: {
-    content:
-      "結案後 30 天內仍應有追蹤記錄，確認個案是否已轉介至其他服務或安置妥當。若個案家屬拒絕追蹤，需書面記載並保存。",
-    variant: "neutral",
-  },
-};
+const tips = homeCareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

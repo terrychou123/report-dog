@@ -5,6 +5,7 @@ import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { homeNursingTips } from "@/lib/evaluation-tips/home-nursing";
 
 export const metadata: Metadata = {
   title: "A、經營管理（項目 1–5）｜居家護理所評鑑",
@@ -28,33 +29,7 @@ export const metadata: Metadata = {
 
 const section = homeNursingProfile.sections.find((s) => s.shortCode === "A")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  1: {
-    content:
-      "社區資源清單建議以表格形式整理，涵蓋醫療院所、社福機構、長照資源等類別，並記錄聯繫窗口與電話。轉介記錄需包含轉介原因、轉介對象、轉介結果與後續追蹤，缺一不可。",
-    variant: "info",
-  },
-  2: {
-    content:
-      "本項第 2 個標準為「試評項目」，工作人員流感疫苗接種率須達 80% 以上。接種記錄建議以人員名冊搭配接種證明整理，試評期間若未達標，需備有改善計畫。醫療廢棄物處理合約與清除記錄需妥善保存。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "訪視人員安全管理辦法須涵蓋車禍事故、人身安全、動物咬傷及扎刺傷等四類情境，各有獨立應變程序。建議定期（每季）演練並留有演練記錄，安全事件改善措施需有具體執行佐證。",
-    variant: "info",
-  },
-  4: {
-    content:
-      "個案緊急事件辦法需涵蓋常見狀況（生命徵象惡化、跌倒、管路異常、造廔口異常等），並有明確通報流程與負責人。發生事件時的處置記錄需包含發生時間、處置內容、通報對象與追蹤結果，建議使用標準化表單。",
-    variant: "warning",
-  },
-  5: {
-    content:
-      "品質指標須至少 5 項，每項需有明確計算公式與閾值，且閾值應依監測結果適時修訂。統計分析報告至少每季一次，建議以圖表呈現趨勢，改善計畫需記載執行進度與追蹤結果。",
-    variant: "info",
-  },
-};
+const tips = homeNursingTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

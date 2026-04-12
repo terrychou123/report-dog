@@ -5,6 +5,7 @@ import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
+import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
   title: "E、服務改進創新（項目 73–75）｜住宿型照顧機構評鑑",
@@ -28,23 +29,7 @@ export const metadata: Metadata = {
 
 const section = nursingHomeProfile.sections.find((s) => s.shortCode === "創")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  73: {
-    content:
-      "前次評鑑建議改善達 80% 以上為達標門檻。建議製作改善追蹤表，清楚列出每項建議事項的改善措施、執行時間及成效佐證。若無法達成改善目標，需備有說明文件說明未能改善的原因。第一次接受衛福部評鑑者，以最近一次地方政府評鑑建議改善事項為主。",
-    variant: "info",
-  },
-  74: {
-    content:
-      "創新措施每項 0.5 分，最多加總 3 分。可主動規劃加分項目，如：加入防災社區計畫、每年舉辦 4 次緊急災害應變演練、收治照護愛滋感染者、外籍照服員每年在職訓練達 6 小時以上（70% 以上）、協助緊急安置弱勢個案等。建議事先整理創新措施的具體實蹟文件，供評鑑委員參閱。",
-    variant: "info",
-  },
-  75: {
-    content:
-      "本項為扣分項目，並非一般計分項目。評鑑期間若有違規事項（如未經許可收容、對住民不當對待）或重大負面事件（如機構內性侵害、工作人員對住民施暴、公共安全意外），將依「臺北市老人安養暨長期照顧機構評鑑計分方式及評等原則」在總分外扣分。維持機構日常運作的合法性與住民安全是最根本的預防措施。",
-    variant: "warning",
-  },
-};
+const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

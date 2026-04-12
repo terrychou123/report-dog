@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.4 特殊照護服務（項目 66–89）｜醫院評鑑小教室",
@@ -34,58 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  66: {
-    content:
-      "血液透析屬可免評條文，但若醫院有提供透析服務，務必確認水質監測紀錄齊全，並準備透析室設備維護及人員訓練記錄。",
-    variant: "info",
-  },
-  67: {
-    content:
-      "化療調配需在生物安全操作台進行，評鑑時委員重點查核調配環境是否符合規定，以及廢棄物處理的合規性。此為可免評條文。",
-    variant: "info",
-  },
-  68: {
-    content:
-      "放射治療作業屬可免評，若有提供服務，設備校正紀錄與治療計畫驗證文件是查核重點，確保輻射防護符合原能會規定。",
-    variant: "info",
-  },
-  69: {
-    content:
-      "輸血作業安全為重點條文，務必確認血型確認與交叉試驗的雙重查核流程落實，輸血不良反應通報案例需有完整處理紀錄。",
-    variant: "warning",
-  },
-  70: {
-    content:
-      "內視鏡設備的清洗消毒流程是評鑑重點，即使為可免評條文，若有提供服務，洗消紀錄、藥液濃度監測及人員訓練記錄均須備齊。",
-    variant: "info",
-  },
-  71: {
-    content:
-      "心導管室為可免評條文。提供心導管服務的醫院須確認術前評估表、手術安全查核及緊急應變設備（如電擊器）的完備性。",
-    variant: "info",
-  },
-  74: {
-    content:
-      "精神科照護為可免評，但若有精神科病房，強制隔離約束的書面紀錄與法定程序格外重要，且病人申訴管道需公告周知。",
-    variant: "warning",
-  },
-  75: {
-    content:
-      "婦產科照護為可免評。重點在生產安全查核清單的確實使用，以及新生兒安全防護措施（如防嬰兒失竊手環）是否完備。",
-    variant: "info",
-  },
-  85: {
-    content:
-      "器官移植照護為可免評條文。若有執行移植手術，需確認符合人體器官移植條例規定，並備有跨科整合照護的完整紀錄。",
-    variant: "info",
-  },
-  89: {
-    content:
-      "長期照護銜接服務為一般條文，需評估。建議建立出院準備服務啟動的標準流程，確認高風險病人的社工介入紀錄完整。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

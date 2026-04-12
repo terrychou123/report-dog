@@ -5,6 +5,7 @@ import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welf
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { elderlyWelfareTips } from "@/lib/evaluation-tips/elderly-welfare";
 
 export const metadata: Metadata = {
   title: "A、經營管理效能（項目 1–15）｜老人福利機構評鑑",
@@ -27,83 +28,7 @@ export const metadata: Metadata = {
 
 const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "管")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  1: {
-    content:
-      "工作手冊應按章節索引整理，建議製作目錄並標注頁碼，方便評鑑委員快速查找。工作手冊須記載緊急事件求助與通報聯繫窗口、電話，並確認至少每年修訂一次並留有修訂紀錄。",
-    variant: "info",
-  },
-  2: {
-    content:
-      "確認現場實際服務人數未超過許可床數，且收案類型與立案相符。近 4 年違規收容紀錄建議主動向主管機關索取書面確認，勿等評鑑委員查詢時才臨時確認。機構收費標準須公開於網站上。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "年度業務計畫需在前一年度訂定（非評鑑前才補製），短、中長程計畫須涵蓋 3 年以上且具可行性。建議將計畫執行進度以量化指標呈現，並定期追蹤記錄，以利評鑑委員核查績效。",
-    variant: "info",
-  },
-  4: {
-    content:
-      "建立缺失改善追蹤表，清楚列出改善項目、預定完成日期、實際完成日期及改善佐證。查核對象包含衛福、消防、建管、勞工等各主管機關的查核紀錄，過去 4 年內改善情形達 100% 才能得 A。",
-    variant: "warning",
-  },
-  5: {
-    content:
-      "辦法中需清楚區分住民保護、性騷擾及性侵害三類事件，各有獨立的預防措施與處理流程（含申訴及再申訴）。若機構有聘用外籍工作人員，辦法需備有該國語言版本。",
-    variant: "warning",
-  },
-  6: {
-    content:
-      "風險管理計畫至少涵蓋 3 個以上的風險類別，每類需有明確處理程序。每半年需有書面分析報告，若有事件發生，應有逐案處置記錄。",
-    variant: "info",
-  },
-  7: {
-    content:
-      "業務負責人（主任/院長）需確認：資格符合法規、專任且在機構投保勞健保並提撥勞退金。評鑑委員通常會現場訪談，確認業務負責人確實參與行政與照護品質管理，而非掛名。",
-    variant: "warning",
-  },
-  8: {
-    content:
-      "社工人員比例依收案類型計算（長照/養護/失智 1:100；安養 1:80）。若有兼任社工，需備有原任職單位同意證明書，且已向該單位報備。注意：服務簽到紀錄需與個案紀錄相符。",
-    variant: "info",
-  },
-  9: {
-    content:
-      "護理人員為一級必要項目。聘任人數需符合設置標準，且全日均應有護理人員上班（含夜班）。確認執業登錄有效，近 4 年無違規聘用紀錄。",
-    variant: "warning",
-  },
-  10: {
-    content:
-      "兼任（特約）專業人員（營養師、物理/職能治療師、醫師等）需完成支援報備程序，持有主管機關核定的公文或合約，並有實際到勤簽到紀錄。到勤紀錄與服務紀錄需能相互對應。",
-    variant: "info",
-  },
-  11: {
-    content:
-      "照服員為一級必要項目，且設置比例分日班與夜班計算，不可混用。注意：外籍照服員人數不得超過本國籍照服員及護理人員的總人數，且全日各班需有我國籍照服員上班。",
-    variant: "warning",
-  },
-  12: {
-    content:
-      "近 4 年勞動條件違規紀錄（勞基法、性別工作平等法、勞工退休金條例）向主管機關確認時建議取得書面文件。評鑑委員通常也會現場訪談工作人員，確認薪資、排班等實際情形。",
-    variant: "neutral",
-  },
-  13: {
-    content:
-      "職前訓練需於到職後 1 個月內完成（至少 16 小時），訓練內容需包含感染管制（至少 4 小時）、勞工安全衛生（至少 3 小時）。建議製作新進訓練完成追蹤清單，並留有適任性考核記錄。",
-    variant: "info",
-  },
-  14: {
-    content:
-      "每位工作人員每年至少 20 小時在職訓練，其中感染管制至少 4 小時，且急救訓練需在有效期限內（通常 3 年）。建議以人員為單位建立訓練記錄表，清楚列出各課程時數及完訓證明。",
-    variant: "info",
-  },
-  15: {
-    content:
-      "感染管制委員會或防護計畫需有明確組織架構及運作記錄，包含定期消毒記錄、手部衛生稽核、感染病例監測報告等，並確認工作人員已完成年度感控教育訓練。",
-    variant: "info",
-  },
-};
+const tips = elderlyWelfareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

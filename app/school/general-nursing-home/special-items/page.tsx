@@ -5,6 +5,7 @@ import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { generalNursingHomeTips } from "@/lib/evaluation-tips/general-nursing-home";
 
 export const metadata: Metadata = {
   title: "特別事項（D1–D3）｜一般護理之家評鑑",
@@ -32,23 +33,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  13: {
-    content:
-      "創新服務或配合政策執行建議事先整理近期機構具體成效，備妥書面紀錄與成效評估報告。參與衛生主管機關計畫應保存參與函文、執行紀錄及成果報告。鼓勵工作人員提案創新服務，建立內部提案機制並留有紀錄。",
-    variant: "neutral",
-  },
-  14: {
-    content:
-      "口腔健康評估建議使用標準化評估表，定期（至少每3個月）評估住民口腔狀況。工作人員口腔照護技能訓練記錄需完整，每日口腔清潔執行紀錄應納入護理記錄或照顧日誌中。與牙科診所簽訂轉介合作協議是完善轉介機制的重要佐證。",
-    variant: "info",
-  },
-  15: {
-    content:
-      "D3 為試評扣分項，任何重大醫療事故未依規定通報、違法情事或住民人權侵害事件都將直接扣分，影響整體評鑑結果。建議定期自我檢核是否符合相關法規要求，確保評鑑期間各項資料均正確完整，並主動配合評鑑作業。",
-    variant: "warning",
-  },
-};
+const tips = generalNursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

@@ -17,7 +17,7 @@ export type SheetData = {
     rowlen?: Record<string, number>;
     merge?: Record<string, { r: number; c: number; rs: number; cs: number }>;
   };
-  cellStyles?: Record<string, { fc?: string; bg?: string; bold?: boolean; ht?: number; vt?: number }>;
+  cellStyles?: Record<string, { fc?: string; bg?: string; bold?: boolean; ht?: number; vt?: number; tb?: number }>;
 };
 
 export type EvaluationItem = {
@@ -28,6 +28,8 @@ export type EvaluationItem = {
   reviewMethod: string;
   /** 可選附件提示，會填入「佐證資料」欄位 */
   attachments?: string[];
+  /** 準備要訣，由種子腳本從 lib/evaluation-tips 注入 */
+  tip?: string;
 };
 
 // Column widths in pixels (matching excel-checklist-builder.ts ratios)
@@ -43,25 +45,32 @@ const COL_WIDTHS: Record<string, number> = {
 
 // 取消底色：不設定底色常數（預設白底）
 // 取消特殊字色：不設定字色（預設黑色）
-const TITLE_ROW_HEIGHT = 34;
 const HEADER_ROW_HEIGHT = 26;
 const DATA_ROW_BASE_HEIGHT = 30;
 const CRITERIA_LINE_HEIGHT = 18;
 
+// 準備要訣列每行估計字元數（依總欄寬 ~1106px，每中文字約 14px，含內距）
+const TIP_CHARS_PER_LINE = 50;
+// 準備要訣列最小高度
+const TIP_ROW_MIN_HEIGHT = 36;
+
 /**
  * Builds a single SheetData representing one evaluation template item.
- * Layout: [Title row (merged A-G)] [Header row] [Criteria rows...] [Review method row]
+ * Layout: [Header row] [Data row] [Review method row] [準備要訣 row (optional)]
+ *
+ * 對齊規則：
+ * - Header 全部置中（ht:0）
+ * - Data 大部分置中，但 col 2（基準說明）靠左（ht:1）
+ * - 審查方式列：靠左（ht:1），合併 7 欄
+ * - 準備要訣列：靠左（ht:1），淺綠底，自動換行（tb:2），合併 7 欄（有 tip 時才加入）
  */
 export function buildItemSheetData(item: EvaluationItem): SheetData {
   const COLS = 7;
 
-  // Row 0: title (merged across all columns)
-  const titleText = item.title;
-
-  // Row 1: column headers
+  // Row 0: 表頭列
   const headers = ["代碼", "基準", "基準說明（符合項目）", "自評結果", "佐證資料", "改善計畫", "備註"];
 
-  // Row 2: data row — criteria joined by newlines in column C
+  // Row 1: 資料列 — 基準說明以換行分隔各評鑑項目
   const criteriaText = item.criteria.map((c, i) => `${i + 1}. ${c}`).join("\n");
   // 若有附件提示，填入「佐證資料」欄位（column 4）
   const attachmentText = item.attachments?.length
@@ -69,40 +78,52 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
     : "";
   const dataRow = [String(item.id), item.title, criteriaText, "", attachmentText, "", ""];
 
-  // Row 3: review method subheader
+  // Row 2: 審查方式列（合併 7 欄）
   const reviewRow = [`審查方式：${item.reviewMethod}`, "", "", "", "", "", ""];
 
-  const data: string[][] = [
-    Array(COLS).fill("").map((_, i) => (i === 0 ? titleText : "")),
-    headers,
-    dataRow,
-    reviewRow,
-  ];
+  const data: string[][] = [headers, dataRow, reviewRow];
 
-  const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
+  const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number }> = {};
 
-  // Title row: 置中（無底色）
-  cellStyles["0_0"] = { ht: 0, vt: 0 };
-
-  // Header row: 置中，黑色字（無底色）
+  // 表頭列：全部置中
   for (let c = 0; c < COLS; c++) {
-    cellStyles[`1_${c}`] = { ht: 0, vt: 0 };
+    cellStyles[`0_${c}`] = { ht: 0, vt: 0 };
   }
 
-  // Data row: 上下置中
+  // 資料列：大部分置中，基準說明（col 2）靠左
   for (let c = 0; c < COLS; c++) {
-    cellStyles[`2_${c}`] = { vt: 0 };
+    cellStyles[`1_${c}`] = c === 2
+      ? { ht: 1, vt: 0 }   // 基準說明靠左
+      : { ht: 0, vt: 0 };  // 其他欄位置中
   }
 
-  // Review row: 上下置中（無底色）
-  cellStyles["3_0"] = { vt: 0 };
+  // 審查方式列：靠左
+  cellStyles["2_0"] = { ht: 1, vt: 0 };
+
+  const mergeConfig: Record<string, { r: number; c: number; rs: number; cs: number }> = {
+    "2_0": { r: 2, c: 0, rs: 1, cs: COLS },
+  };
 
   const rowlen: Record<string, number> = {
-    "0": TITLE_ROW_HEIGHT,
-    "1": HEADER_ROW_HEIGHT,
-    "2": Math.max(DATA_ROW_BASE_HEIGHT, item.criteria.length * CRITERIA_LINE_HEIGHT),
-    "3": HEADER_ROW_HEIGHT,
+    "0": HEADER_ROW_HEIGHT,
+    "1": Math.max(DATA_ROW_BASE_HEIGHT, item.criteria.length * CRITERIA_LINE_HEIGHT),
+    "2": HEADER_ROW_HEIGHT,
   };
+
+  // 準備要訣列（條件性）：有 tip 時才加入 Row 3
+  if (item.tip) {
+    const tipText = `準備要訣：${item.tip}`;
+    data.push([tipText, "", "", "", "", "", ""]);
+
+    // 靠左、淺綠底、自動換行（tb:2）
+    cellStyles["3_0"] = { ht: 1, vt: 0, bg: "#e8f5e9", tb: 2 };
+
+    mergeConfig["3_0"] = { r: 3, c: 0, rs: 1, cs: COLS };
+
+    // 依文字長度動態計算列高
+    const estimatedLines = Math.ceil(tipText.length / TIP_CHARS_PER_LINE);
+    rowlen["3"] = Math.max(TIP_ROW_MIN_HEIGHT, estimatedLines * CRITERIA_LINE_HEIGHT);
+  }
 
   return {
     name: "檢核表",
@@ -110,10 +131,7 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
     config: {
       columnlen: COL_WIDTHS,
       rowlen,
-      merge: {
-        "0_0": { r: 0, c: 0, rs: 1, cs: COLS },
-        "3_0": { r: 3, c: 0, rs: 1, cs: COLS },
-      },
+      merge: mergeConfig,
     },
     cellStyles,
   };
@@ -175,7 +193,7 @@ export function buildSupplementarySheetData(
 
   const data: string[][] = [titleRow, headerRow, ...dataRows];
 
-  const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; bold?: boolean }> = {};
+  const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; bold?: boolean; tb?: number }> = {};
 
   // Title row: 置中（無底色）
   cellStyles["0_0"] = { ht: 0, vt: 0 };
@@ -192,7 +210,7 @@ export function buildSupplementarySheetData(
   });
 
   const rowlen: Record<string, number> = {
-    "0": TITLE_ROW_HEIGHT,
+    "0": HEADER_ROW_HEIGHT,
     "1": HEADER_ROW_HEIGHT,
   };
   for (let r = 0; r < prefillRows; r++) {

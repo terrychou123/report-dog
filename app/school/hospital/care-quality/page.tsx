@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.2 醫療照護品質與安全管理（項目 47–49）｜醫院評鑑小教室",
@@ -33,18 +34,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  47: {
-    content:
-      "品質指標的「意義性」是評鑑重點：委員會問的不是「有無指標」，而是「為何選這些指標、如何詮釋異常」。建議每項指標附有說明文件，包含指標定義、資料來源、目標值設定依據（如對標全國平均）及歷史趨勢圖。",
-    variant: "info",
-  },
-  49: {
-    content:
-      "異常事件通報系統常見問題是「通報量過低」，這反而是評鑑扣分警訊——代表院內通報文化不足。建議定期統計各部門通報率，對通報率低的部門進行主動說明與鼓勵，並確認系統中有不良事件、警示事件、Near Miss 三類均有案例。",
-    variant: "warning",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

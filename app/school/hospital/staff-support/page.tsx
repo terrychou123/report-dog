@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "1.2 員工管理與支持制度（項目 6–12）｜醫院評鑑小教室",
@@ -34,43 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  6: {
-    content:
-      "員工協助方案（EAP）需有實際可用的管道，不能僅停留在規定書面。建議確認心理諮商轉介流程、聯絡窗口及資源清單均已公告於工作站或院內網路，並能提供至少 1 件實際運用案例（去識別化）作為佐證。職場暴力處理流程需員工能實際說明，而非僅紙上規定。",
-    variant: "info",
-  },
-  7: {
-    content:
-      "員工申訴機制最常見的缺失是「有制度、無執行」。評鑑委員可能直接詢問員工是否知道申訴管道，因此申訴流程需透過多管道宣導（海報、院內公告、職前訓練等）。申訴案件若有紀錄，需確保有後續處理及追蹤紀錄，且申訴人保護規定明確。",
-    variant: "warning",
-  },
-  8: {
-    content:
-      "職業安全衛生管理是「重點」項目，委員通常會實地查看工作環境及詢問職安人員。重點準備：(1) 職安管理計畫含年度目標與執行追蹤；(2) 危害識別及風險評估紀錄（需涵蓋主要作業區域）；(3) 近兩年職安事故通報及改善紀錄；(4) 員工職安訓練時數及紀錄。",
-    variant: "warning",
-  },
-  9: {
-    content:
-      "針扎及血液暴露事件是醫療院所最常見的職業傷害，需有標準化處理流程（SOP）並確保員工熟知。建議將針扎處理流程卡張貼於護理站、手術室等高風險區域，並定期模擬演練。投保記錄及職業傷害後追蹤管理文件需整理備查。",
-    variant: "info",
-  },
-  10: {
-    content:
-      "員工健康管理重點在於「有做有記錄」。新進員工健康檢查報告需建檔，具傳染性疾病的處理決定需有書面依據。在職健康檢查結果若發現異常，需有後續追蹤及工作調整紀錄（如需異動）。健康促進方案（戒菸、運動、體重管理等）的辦理紀錄也需備妥。",
-    variant: "info",
-  },
-  11: {
-    content:
-      "勞動條件保障雖屬「一般」類別，但若發現違法情事（如違規超時工作），影響將較嚴重。建議事前確認工時記錄、排班表、薪資發放紀錄均完整，並確認值班醫師及護理人員的連續工時符合規定。如有特殊排班情形，需有員工同意書及相關說明。",
-    variant: "warning",
-  },
-  12: {
-    content:
-      "員工服務守則及倫理規範需落實於日常管理，而非僅存在於人事規章中。建議確認員工到職時有簽收守則的書面紀錄，倫理教育訓練每年辦理並有出席紀錄。若有員工違規懲處案件，需有完整的調查及處理紀錄（去識別化備查）。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

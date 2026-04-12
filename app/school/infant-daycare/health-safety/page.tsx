@@ -5,6 +5,7 @@ import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycar
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { infantDaycareTips } from "@/lib/evaluation-tips/infant-daycare";
 
 export const metadata: Metadata = {
   title: "健康安全（項目 37–60）｜托嬰中心評鑑 114-116年度",
@@ -34,48 +35,7 @@ export const metadata: Metadata = {
 const healthSections = infantDaycareProfile.sections.slice(9, 14);
 const allItems = healthSections.flatMap((s) => s.items);
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  37: {
-    content:
-      "嬰幼兒健康檢查紀錄需入托前取得，並定期更新。評鑑委員會核查每位嬰幼兒是否有完整的健康記錄，包含疫苗接種紀錄。托育人員需了解每位照顧嬰幼兒的健康狀況及特殊需求。",
-    variant: "info",
-  },
-  38: {
-    content:
-      "嬰幼兒傷病及意外事件記錄需即時填寫，並通知家長。評鑑委員會抽查意外事件記錄是否完整，包含事件經過、處理方式及後續追蹤。只有通知家長但無書面記錄者將扣分。",
-    variant: "warning",
-  },
-  40: {
-    content:
-      "食物樣品須依法留存48小時以上，冷藏保存（0-7°C）且需標示日期、餐別及食材名稱。評鑑員會開冰箱抽查，無樣品、無標示、或冰箱無溫度計均為扣分項。建議張貼樣品留存SOP於廚房顯眼處。",
-    variant: "warning",
-  },
-  43: {
-    content:
-      "嬰幼兒給藥需有家長親筆填寫並簽名的委託給藥單，不可僅憑口頭授權。給藥時需核對五對原則：姓名、藥名、劑量、時間、給藥途徑，並留有給藥記錄。自行購買的成藥不得未經委託單即給藥。",
-    variant: "warning",
-  },
-  45: {
-    content:
-      "冰箱內須設置溫度計，冷藏溫度需維持在0-7°C，冷凍在-18°C以下。建議每日記錄冰箱溫度並保存記錄，評鑑委員會核查溫度記錄。分類存放生食與熟食，避免交叉污染。",
-    variant: "warning",
-  },
-  50: {
-    content:
-      "感染管制手冊需依衛生主管機關最新版本定期修訂，並確認工作人員已閱讀並簽名。評鑑委員會核查手冊版本是否為現行版本，舊版手冊未更新視為扣分。手部衛生執行情形及口罩使用記錄也是觀察重點。",
-    variant: "warning",
-  },
-  52: {
-    content:
-      "嬰兒床及遊戲區需符合安全標準，床欄間距不可過寬（嬰兒頭部卡入風險），地墊需固定不鬆動。玩具需定期消毒並記錄，有缺損的玩具應立即移除。安全設施的維護記錄需保存。",
-    variant: "info",
-  },
-  58: {
-    content:
-      "托育人員需具備急救訓練證書（CPR及哈姆立克法），且在有效期限內。評鑑委員會核查急救訓練記錄並現場詢問急救程序。機構需備有急救箱且定期補充，藥品需在效期內。",
-    variant: "warning",
-  },
-};
+const tips = infantDaycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

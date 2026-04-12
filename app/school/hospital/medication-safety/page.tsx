@@ -5,6 +5,7 @@ import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { hospitalTips } from "@/lib/evaluation-tips/hospital";
 
 export const metadata: Metadata = {
   title: "2.5 用藥安全（項目 90–98）｜醫院評鑑小教室",
@@ -34,53 +35,7 @@ const section = (() => {
   return s;
 })();
 
-const tips: Record<number, { content: string; variant?: DocsTipVariant }> = {
-  90: {
-    content:
-      "藥品管理制度為重點條文。評鑑委員常實地查核儲藥區溫濕度監測紀錄及有效期限管理。建議定期執行藥品盤點，並保留紀錄備查。",
-    variant: "info",
-  },
-  91: {
-    content:
-      "處方開立管理重點在電子簽核流程的完整性。若有仿單外使用案例，務必確認有醫師說明紀錄及病人同意書存檔。",
-    variant: "info",
-  },
-  92: {
-    content:
-      "靜脈注射藥品調配環境是實地查核重點。確認層流操作台定期維護校正，並有調配紀錄可供查核。",
-    variant: "warning",
-  },
-  93: {
-    content:
-      "給藥安全為必要條文，評鑑委員可能實地觀察或訪談護理人員。確保「五對」查核（病人、藥品、劑量、途徑、時間）已成為日常作業習慣，且有書面紀錄。",
-    variant: "warning",
-  },
-  94: {
-    content:
-      "高警訊藥品管理為必要條文。建議製作高警訊藥品清單並張貼於儲藥區，確認濃縮電解質（如 KCl 注射液）有特別標示與獨立儲存，雙重查核簽名紀錄完整。",
-    variant: "warning",
-  },
-  95: {
-    content:
-      "藥品不良反應監測為重點條文。確認院內有通報系統（如連結全國藥物不良反應通報系統），嚴重不良反應已依規定通報，且資訊記錄於病歷中有過敏警示。",
-    variant: "info",
-  },
-  96: {
-    content:
-      "抗生素合理使用管理為重點條文。須確認抗生素管理小組定期開會並有紀錄，限制性抗生素有審核流程，抗藥性監測結果有定期分析報告。",
-    variant: "info",
-  },
-  97: {
-    content:
-      "管制藥品管理為必要條文，查核嚴格。清點紀錄需逐班完整，浪費量需雙人簽名，儲存設備（如雙重上鎖）需符合法規規定，任何短缺都必須立即通報處理。",
-    variant: "warning",
-  },
-  98: {
-    content:
-      "出院藥物衛教為重點條文。建議使用標準化衛教單張，衛教後以回覆示教（teach-back）方式確認病人理解，並留存衛教簽名紀錄。",
-    variant: "info",
-  },
-};
+const tips = hospitalTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

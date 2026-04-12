@@ -5,6 +5,7 @@ import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { youthCareTips } from "@/lib/evaluation-tips/youth-care";
 import { AgeQualityTabs } from "./_age-quality-tabs";
 
 export const metadata: Metadata = {
@@ -34,32 +35,7 @@ const generalItems = section.items.filter((item) => !("ageGroup" in item && item
 const caseRecordItem = generalItems.find((item) => item.id === 15);
 const guidanceItem = generalItems.find((item) => item.id === 16);
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  15: {
-    content: "個案紀錄及交班紀錄由主管機關依輔導查核表-專業服務第一至二項目評分。確保個案紀錄完整性及交班紀錄的規範性，養成每班確實記錄的習慣，並保存查核相關紀錄。",
-    variant: "info",
-  },
-  16: {
-    content: "輔導目標達成是本區塊配分最高的單項（15分），且為主動評估性指標。評鑑委員透過審閱文件及訪談評分，關鍵是：(1)每位個案需有明確的年度輔導服務目標；(2)需定期檢視目標執行情形並有記錄；(3)需有目標達成情形的評估。目標設定要具體、可衡量，避免過於籠統。",
-    variant: "warning",
-  },
-  25: {
-    content: "申訴制度與權益保障由主管機關依輔導查核表-權益保障第一至七項目評分。重點：(1)必須建立內外兩套申訴制度（院生與家屬各一）；(2)每月需召開家庭會議且有完整紀錄；(3)零用金管理制度需有簽收或匯款紀錄；(4)機構絕對不得有任何形式的虐待或不當對待情事。",
-    variant: "warning",
-  },
-  26: {
-    content: "資源結合與運用共6個子項各1分（6分）。需注意：(1)資源檔案需定期更新，不可只有建立沒有維護；(2)志工管理需有完整的招募、訓練、服務紀錄；(3)與主管機關的聯繫合作需有具體的共同個案研討、緊短家園討論等互動資料。",
-    variant: "info",
-  },
-  27: {
-    content: "服務評估需要呈現方案及服務績效評估資料，不只是辦理紀錄。評估應聚焦在「提供兒少發展與成長之需求是否滿足」，建議使用量化指標（參與率、目標達成率）搭配質化評估（個案回饋、行為改變觀察）。",
-    variant: "neutral",
-  },
-  28: {
-    content: "專業成長包含個案研討會（1分）及專業督導制度（1分）。個案研討會需有完整的討論紀錄；督導制度需有固定頻率（建議每月至少1次）並有督導紀錄，記錄需涵蓋督導內容、討論結論及追蹤事項。",
-    variant: "info",
-  },
-};
+const tips = youthCareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",

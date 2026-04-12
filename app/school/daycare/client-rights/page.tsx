@@ -5,6 +5,7 @@ import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { daycareTips } from "@/lib/evaluation-tips/daycare";
 
 export const metadata: Metadata = {
   title: "壹、個案權益保障（項目 1–4）｜日間照顧機構評鑑",
@@ -28,28 +29,7 @@ export const metadata: Metadata = {
 
 const section = daycareProfile.sections.find((s) => s.shortCode === "權")!;
 
-const tips: Record<number, { content: string; variant?: "neutral" | "info" | "warning" }> = {
-  1: {
-    content:
-      "服務資訊需在機構顯眼處公告，並同步更新網路平台（官方網站、LINE 官方帳號或長照資訊平台均可）。評鑑委員會確認網站資訊是否與實際服務內容一致，包含費用、服務項目、人員配置及聯絡方式，過期資訊可能影響評分。",
-    variant: "info",
-  },
-  2: {
-    content:
-      "申訴辦法需有書面版本，並定期向服務對象及家屬說明管道（可於入案說明、服務合約及公告欄中呈現）。115 年度特別要求每季進行申訴意見彙整分析，即使無申訴案件也需保留定期查看的書面記錄，顯示機構確實運作此機制。",
-    variant: "warning",
-  },
-  3: {
-    content:
-      "服務契約必須使用社會局核定的標準版本，不得自行刪減主要條款。個案或家屬需有至少 3 天的契約審閱期，並有書面確認。評鑑時會抽查契約樣本，確認簽署日期、版本是否符合規定，以及是否已完整告知服務內容與費用。",
-    variant: "warning",
-  },
-  4: {
-    content:
-      "個案資料應依個人資料保護法分類建檔，紙本需上鎖存放，電子檔須設定存取權限（避免非相關人員查閱）。拍攝個案活動照片或影片須有書面肖像權同意書，入案時簽署並說明使用範圍（如社媒宣傳、評鑑報告等），未取得同意即使用可能面臨違規。",
-    variant: "info",
-  },
-};
+const tips = daycareTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
