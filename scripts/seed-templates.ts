@@ -140,7 +140,7 @@ async function main() {
           .insert(reportTemplates)
           .values({
             facilityType: profile.id,
-            title: item.title,
+            title: `${item.id} ${item.title}`,
             content,
             fileType: 'excel',
             responsible: item.responsible,

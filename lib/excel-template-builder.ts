@@ -39,9 +39,8 @@ const COL_WIDTHS: Record<string, number> = {
   "6": 126,  // 備註 (18 chars)
 };
 
-const HEADER_BG = "#4472C4";
-const HEADER_FC = "#FFFFFF";
-const SUBHEADER_BG = "#FCE4D6";
+// 取消底色：不設定底色常數（預設白底）
+// 取消特殊字色：不設定字色（預設黑色）
 const TITLE_ROW_HEIGHT = 34;
 const HEADER_ROW_HEIGHT = 26;
 const DATA_ROW_BASE_HEIGHT = 30;
@@ -76,16 +75,21 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
 
   const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
 
-  // Title row: merged, centered, bold bg
-  cellStyles["0_0"] = { bg: SUBHEADER_BG, ht: 0, vt: 1 };
+  // Title row: 置中（無底色）
+  cellStyles["0_0"] = { ht: 0, vt: 0 };
 
-  // Header row: blue bg, white text, centered
+  // Header row: 置中，黑色字（無底色）
   for (let c = 0; c < COLS; c++) {
-    cellStyles[`1_${c}`] = { bg: HEADER_BG, fc: HEADER_FC, ht: 0, vt: 1 };
+    cellStyles[`1_${c}`] = { ht: 0, vt: 0 };
   }
 
-  // Review row: peach bg, spanning
-  cellStyles["3_0"] = { bg: SUBHEADER_BG, vt: 1 };
+  // Data row: 上下置中
+  for (let c = 0; c < COLS; c++) {
+    cellStyles[`2_${c}`] = { vt: 0 };
+  }
+
+  // Review row: 上下置中（無底色）
+  cellStyles["3_0"] = { vt: 0 };
 
   const rowlen: Record<string, number> = {
     "0": TITLE_ROW_HEIGHT,
@@ -167,12 +171,12 @@ export function buildSupplementarySheetData(
 
   const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; bold?: boolean }> = {};
 
-  // Title row: merged, peach bg, centred
-  cellStyles["0_0"] = { bg: SUBHEADER_BG, ht: 0, vt: 1 };
+  // Title row: 置中（無底色）
+  cellStyles["0_0"] = { ht: 0, vt: 0 };
 
-  // Header row: blue bg, white text, centred
+  // Header row: 置中，黑色字（無底色）
   for (let c = 0; c < numCols; c++) {
-    cellStyles[`1_${c}`] = { bg: HEADER_BG, fc: HEADER_FC, ht: 0, vt: 1 };
+    cellStyles[`1_${c}`] = { ht: 0, vt: 0 };
   }
 
   const defaultColWidth = ARCHETYPE_DEFAULT_COL_WIDTH[def.archetype] ?? 120;
