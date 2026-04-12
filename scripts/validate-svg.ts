@@ -331,7 +331,7 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
   }
 
   // ── 9. 補背景 rect fill="#f0efe8" ──────────────────────────────────────────
-  if (!/<rect[^>]*fill="#f0efe8"/.test(out) && !/<rect[^>]*fill='#f0efe8'/.test(out)) {
+  if (!/<rect[^>]*fill="#f0efe8"/i.test(out) && !/<rect[^>]*fill='#f0efe8'/i.test(out)) {
     const rootNow2 = svgRootAttrs(out);
     const bgW = attr(rootNow2, "width") ?? "800";
     const bgH = attr(rootNow2, "height") ?? "500";

@@ -207,11 +207,6 @@ def extract_standard_fields(svg_content: str) -> dict:
     # 副標題：舊格式位置不一（y=385~520），擴大範圍確保捕捉
     subtitle = find_text(texts, 0, 200, 390, 530)
 
-    # pills 改由 article JSON tags 提供，不從舊 SVG 提取
-    pill1 = ''
-    pill2 = ''
-    pill3 = ''
-
     # 適用對象（x≈60, y≈530-595，過濾掉「適用：」前綴）
     audience_raw = find_text(texts, 0, 200, 530, 595)
     # 移除舊格式「適用：」前綴，統一為「適合…」格式
@@ -254,9 +249,6 @@ def extract_chart_fields(svg_content: str) -> dict:
     l1 = find_text(texts, 0, 200, 80, 250)
     l2 = find_text(texts, 0, 200, 230, 390)
     subtitle = find_text(texts, 0, 200, 390, 530)
-    pill1 = ''
-    pill2 = ''
-    pill3 = ''
     audience_raw = find_text(texts, 0, 200, 530, 595)
     audience = re.sub(r'^適[用合][\s：:]*', '', audience_raw).strip() if audience_raw else ''
 
@@ -300,9 +292,6 @@ def extract_checklist_fields(svg_content: str) -> dict:
     l1 = find_text(texts, 0, 200, 80, 250)
     l2 = find_text(texts, 0, 200, 230, 390)
     subtitle = find_text(texts, 0, 200, 390, 530)
-    pill1 = ''
-    pill2 = ''
-    pill3 = ''
     audience_raw = find_text(texts, 0, 200, 530, 595)
     audience = re.sub(r'^適[用合][\s：:]*', '', audience_raw).strip() if audience_raw else ''
 
@@ -335,9 +324,6 @@ def extract_timeline_fields(svg_content: str) -> dict:
     l1 = find_text(texts, 0, 200, 80, 250)
     l2 = find_text(texts, 0, 200, 230, 390)
     subtitle = find_text(texts, 0, 200, 390, 530)
-    pill1 = ''
-    pill2 = ''
-    pill3 = ''
     audience_raw = find_text(texts, 0, 200, 530, 595)
     audience = re.sub(r'^適[用合][\s：:]*', '', audience_raw).strip() if audience_raw else ''
 
@@ -679,10 +665,6 @@ def parse_timeline_number(l1: str, l2: str, hero_num: str, hero_desc: str,
         is_short = int_n <= 99
         return n, unit, is_short
 
-    m = re.search(r'(\d+)\s*個月', title)
-    if m:
-        return m.group(1), '個月', True
-
     return '90', '天', True
 
 
@@ -760,7 +742,7 @@ def gen_standard_svg(clip_id: str, fields: dict, article: dict) -> str:
     subtitle = fields.get('subtitle', '')
     # pills 一律從 article tags 衍生，忽略舊 SVG 提取值（因舊格式座標不一致）
     pill1, pill2, pill3 = derive_pills_from_tags(article)
-    # audience 優先用舊 SVG 提取值（去掉「適用：」後），否則從 slug 衍生
+    # audience 一律從 slug 衍生（舊 SVG 提取值座標不一致，棄用）
     audience = derive_audience_from_slug(article)
     hero_num = fields.get('hero_num', '')
     hero_desc = fields.get('hero_desc', '')
@@ -799,15 +781,16 @@ def gen_standard_svg(clip_id: str, fields: dict, article: dict) -> str:
             f'<tspan x="58" y="{c["l1_y"]}">{ent(l1)}</tspan></text>'
         )
 
-    l2_svg = (
-        f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  '
-        f'font-size="{font if not digit else pa["digit_font"]}" font-weight="bold" letter-spacing="0em">'
-        f'<tspan x="58" y="{c["l2_y"]}">{ent(l2)}</tspan></text>'
-    )
     if digit:
         l2_svg = (
             f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  '
             f'font-size="{pa["digit_font"]}" font-weight="bold" letter-spacing="0em">'
+            f'<tspan x="58" y="{c["l2_y"]}">{ent(l2)}</tspan></text>'
+        )
+    else:
+        l2_svg = (
+            f'<text fill="#D97706" style="white-space: pre" xml:space="preserve"  '
+            f'font-size="{font}" font-weight="bold" letter-spacing="0em">'
             f'<tspan x="58" y="{c["l2_y"]}">{ent(l2)}</tspan></text>'
         )
 
@@ -1398,7 +1381,10 @@ def process_article(cover: str, template_type: str, dry_run: bool = False) -> bo
         print(f'  [DRY] 模擬生成: {cover} ({template_type})')
         return True
 
-    svg_path.write_text(new_svg, encoding='utf-8')
+    # 使用 atomic write（寫入暫存檔後 rename），避免 SIGINT/磁碟滿時產生半截 SVG
+    tmp_path = svg_path.with_suffix('.tmp')
+    tmp_path.write_text(new_svg, encoding='utf-8')
+    tmp_path.rename(svg_path)
     print(f'  [OK] {cover} ({template_type})')
     return True
 
