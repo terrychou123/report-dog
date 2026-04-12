@@ -68,6 +68,11 @@ async function main() {
 
   // 解析 --facility 參數，支援只更新單一機構
   const facilityFlag = process.argv.indexOf('--facility');
+  // 若 --facility 是最後一個參數且後面沒有值，facilityFilter 會是 undefined，需明確攔截
+  if (facilityFlag !== -1 && facilityFlag + 1 >= process.argv.length) {
+    console.error('❌ --facility 需要提供機構類型值，例如：--facility daycare');
+    process.exit(1);
+  }
   const facilityFilter = facilityFlag !== -1 ? process.argv[facilityFlag + 1] : null;
 
   if (facilityFilter && !profiles.some((p) => p.id === facilityFilter)) {
@@ -97,17 +102,7 @@ async function main() {
 
     console.log(`📋 ${profile.label} (${profile.id})`);
 
-    // Clear existing data — FK onDelete:cascade on templateTagReports handles join rows automatically
-    await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, profile.id));
-    await db.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
-
-    // Clean up legacy ID if this profile was renamed (e.g. 'disability' → 'disability-welfare')
-    if (profile.id === 'disability-welfare') {
-      await db.delete(reportTemplates).where(eq(reportTemplates.facilityType, 'disability'));
-      await db.delete(templateTags).where(eq(templateTags.facilityType, 'disability'));
-    }
-
-    // Collect all items across all sections, preserving order
+    // Collect all items across all sections, preserving order（在 transaction 外計算，不涉及 DB）
     const allItems: ProfileItem[] = [];
     for (const section of profile.sections) {
       for (const item of section.items) {
@@ -134,52 +129,71 @@ async function main() {
 
     console.log(`  → ${responsibleGroups.size} 個負責人員群組，${allItems.length} 個項目`);
 
-    // Insert one template_tag per responsible group, then one report_template per item
-    let tagOrder = 0;
-    for (const [responsible, items] of responsibleGroups) {
-      const [newTag] = await db
-        .insert(templateTags)
-        .values({
-          facilityType: profile.id,
-          name: responsible,
-          sortOrder: tagOrder++,
-        })
-        .returning();
+    // 用 transaction 包住 delete + insert，確保中途失敗可自動 rollback
+    const { tagCount, reportCount } = await db.transaction(async (tx) => {
+      // Clear existing data — FK onDelete:cascade on templateTagReports handles join rows automatically
+      await tx.delete(reportTemplates).where(eq(reportTemplates.facilityType, profile.id));
+      await tx.delete(templateTags).where(eq(templateTags.facilityType, profile.id));
 
-      console.log(`  📁 ${responsible} (${items.length} 項)`);
+      // Clean up legacy ID if this profile was renamed (e.g. 'disability' → 'disability-welfare')
+      if (profile.id === 'disability-welfare') {
+        await tx.delete(reportTemplates).where(eq(reportTemplates.facilityType, 'disability'));
+        await tx.delete(templateTags).where(eq(templateTags.facilityType, 'disability'));
+      }
 
-      let reportOrder = 0;
-      for (const item of items) {
-        // Build FortuneSheet-compatible Excel content (checklist + supplementary sheets)
-        const supplementaryDefs = getSupplementaryDefs(profile.id, item.id);
-        const sheets = buildItemMultiSheetData(item, supplementaryDefs);
-        const content = serializeSheetData(sheets);
-
-        const [newReport] = await db
-          .insert(reportTemplates)
+      // Insert one template_tag per responsible group, then one report_template per item
+      let tagOrder = 0;
+      let txTags = 0;
+      let txReports = 0;
+      for (const [responsible, items] of responsibleGroups) {
+        const [newTag] = await tx
+          .insert(templateTags)
           .values({
             facilityType: profile.id,
-            title: `${item.id} ${item.title}`,
-            content,
-            fileType: 'excel',
-            responsible: item.responsible,
-            sortOrder: reportOrder++,
+            name: responsible,
+            sortOrder: tagOrder++,
           })
           .returning();
 
-        await db
-          .insert(templateTagReports)
-          .values({
-            templateTagId: newTag.id,
-            reportTemplateId: newReport.id,
-            sortOrder: reportOrder - 1,
-          })
-          .onConflictDoNothing();
+        console.log(`  📁 ${responsible} (${items.length} 項)`);
 
-        totalReports++;
+        let reportOrder = 0;
+        for (const item of items) {
+          // Build FortuneSheet-compatible Excel content (checklist + supplementary sheets)
+          const supplementaryDefs = getSupplementaryDefs(profile.id, item.id);
+          const sheets = buildItemMultiSheetData(item, supplementaryDefs);
+          const content = serializeSheetData(sheets);
+
+          const [newReport] = await tx
+            .insert(reportTemplates)
+            .values({
+              facilityType: profile.id,
+              title: `${item.id} ${item.title}`,
+              content,
+              fileType: 'excel',
+              responsible: item.responsible,
+              sortOrder: reportOrder++,
+            })
+            .returning();
+
+          await tx
+            .insert(templateTagReports)
+            .values({
+              templateTagId: newTag.id,
+              reportTemplateId: newReport.id,
+              sortOrder: reportOrder - 1,
+            })
+            .onConflictDoNothing();
+
+          txReports++;
+        }
+        txTags++;
       }
-      totalTags++;
-    }
+      return { tagCount: txTags, reportCount: txReports };
+    });
+
+    totalTags += tagCount;
+    totalReports += reportCount;
 
     console.log();
   }

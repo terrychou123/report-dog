@@ -3,6 +3,9 @@ import { db } from "@/db";
 import { reportTemplates } from "@/db/schema";
 import { eq, asc } from "drizzle-orm";
 import { requireAdminApi } from "@/lib/admin";
+import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
+
+const VALID_FACILITY_TYPES = new Set(getAllProfiles().map((p) => p.id));
 
 export async function GET(request: NextRequest) {
   const auth = await requireAdminApi();
@@ -12,11 +15,16 @@ export async function GET(request: NextRequest) {
   const facilityType = searchParams.get("facilityType");
   if (!facilityType) return NextResponse.json({ error: "facilityType required" }, { status: 400 });
 
-  const templates = await db
+  const templatesRaw = await db
     .select()
     .from(reportTemplates)
     .where(eq(reportTemplates.facilityType, facilityType))
-    .orderBy(asc(reportTemplates.sortOrder));
+    .orderBy(asc(reportTemplates.title));
+
+  // 以 title 自然數字排序（1, 2, 3, ... 10, 11...）；明確指定 'zh-TW' locale 確保跨環境一致
+  const templates = [...templatesRaw].sort((a, b) =>
+    a.title.localeCompare(b.title, 'zh-TW', { numeric: true })
+  );
 
   return NextResponse.json(templates);
 }
@@ -30,13 +38,9 @@ export async function POST(request: NextRequest) {
   if (!facilityType || !title) {
     return NextResponse.json({ error: "facilityType and title required" }, { status: 400 });
   }
-
-  const existing = await db
-    .select({ sortOrder: reportTemplates.sortOrder })
-    .from(reportTemplates)
-    .where(eq(reportTemplates.facilityType, facilityType))
-    .orderBy(asc(reportTemplates.sortOrder));
-  const maxOrder = existing.length > 0 ? existing[existing.length - 1].sortOrder : -1;
+  if (!VALID_FACILITY_TYPES.has(facilityType)) {
+    return NextResponse.json({ error: `Invalid facilityType: ${facilityType}` }, { status: 400 });
+  }
 
   const [newTemplate] = await db
     .insert(reportTemplates)
@@ -46,7 +50,6 @@ export async function POST(request: NextRequest) {
       content: content ?? null,
       fileType: fileType === "docx" ? "docx" : "excel",
       responsible: responsible ?? null,
-      sortOrder: maxOrder + 1,
     })
     .returning();
 

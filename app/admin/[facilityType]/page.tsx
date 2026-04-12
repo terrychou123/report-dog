@@ -16,10 +16,14 @@ export default async function AdminFacilityPage({
 
   if (!VALID_FACILITY_TYPES.has(facilityType)) notFound();
 
-  const [tags, templates] = await Promise.all([
+  const [tags, templatesRaw] = await Promise.all([
     db.select().from(templateTags).where(eq(templateTags.facilityType, facilityType)).orderBy(asc(templateTags.sortOrder)),
-    db.select().from(reportTemplates).where(eq(reportTemplates.facilityType, facilityType)).orderBy(asc(reportTemplates.sortOrder)),
+    db.select().from(reportTemplates).where(eq(reportTemplates.facilityType, facilityType)).orderBy(asc(reportTemplates.title)),
   ]);
+  // 以 title 自然數字排序（1, 2, 3, ... 10, 11...）；明確指定 'zh-TW' locale 確保跨環境一致
+  const templates = [...templatesRaw].sort((a, b) =>
+    a.title.localeCompare(b.title, 'zh-TW', { numeric: true })
+  );
   const tagIds = tags.map((t) => t.id);
   const links = tagIds.length > 0
     ? await db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds))

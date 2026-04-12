@@ -451,7 +451,7 @@ export default function ReportEditorPage() {
 
   if (loading) {
     return (
-      <div className="p-8 max-w-4xl space-y-4">
+      <div className="p-8 space-y-4">
         <Skeleton className="h-8 w-64" />
         <Skeleton className="h-4 w-48" />
         <Skeleton className="h-96 w-full" />
@@ -462,7 +462,7 @@ export default function ReportEditorPage() {
   if (!report) return null;
 
   return (
-    <div className="p-4 md:p-8 max-w-4xl">
+    <div className="p-4 md:p-8 w-full">
       <button
         onClick={() => {
           if (isDirtyRef.current) {

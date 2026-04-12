@@ -133,7 +133,7 @@ export default function AdminTemplateEditPage() {
 
   if (loading) {
     return (
-      <div className="p-8 max-w-4xl space-y-4">
+      <div className="p-8 space-y-4">
         <Skeleton className="h-8 w-64" />
         <Skeleton className="h-96 w-full" />
       </div>
@@ -145,7 +145,7 @@ export default function AdminTemplateEditPage() {
   const isExcel = template.fileType === "excel";
 
   return (
-    <div className="p-4 md:p-8 max-w-4xl">
+    <div className="p-4 md:p-8 w-full">
       <button
         onClick={() => router.push(`/admin/${params.facilityType}`)}
         className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
