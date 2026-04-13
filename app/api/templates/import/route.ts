@@ -5,9 +5,11 @@ import {
   clients,
   reports,
   clientReports,
+  reportLinks,
   templateTags,
   reportTemplates,
   templateTagReports,
+  templateLinks,
 } from "@/db/schema";
 import { eq, min, inArray } from "drizzle-orm";
 import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
@@ -44,7 +46,14 @@ export async function POST(request: NextRequest) {
 
   // Load template links outside the transaction (system data, never changes during user ops)
   const tagIds = tags.map((t) => t.id);
-  const links = await db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds));
+  const tmplIds = tmplReports.map((r) => r.id);
+
+  const [links, tmplLinks] = await Promise.all([
+    db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds)),
+    tmplIds.length > 0
+      ? db.select().from(templateLinks).where(inArray(templateLinks.templateId, tmplIds))
+      : Promise.resolve([]),
+  ]);
 
   const result = await db.transaction(async (tx) => {
     // Read min sort orders inside the transaction to prevent sortOrder collisions
@@ -95,6 +104,16 @@ export async function POST(request: NextRequest) {
 
     if (clientReportValues.length > 0) {
       await tx.insert(clientReports).values(clientReportValues).onConflictDoNothing();
+    }
+
+    // 複製範本連結 → 報告連結
+    const reportLinkValues = tmplLinks.flatMap((link) => {
+      const reportId = reportMap.get(link.templateId);
+      if (!reportId) return [];
+      return [{ reportId, name: link.name, url: link.url, sortOrder: link.sortOrder }];
+    });
+    if (reportLinkValues.length > 0) {
+      await tx.insert(reportLinks).values(reportLinkValues);
     }
 
     return { tagCount: newClients.length, reportCount: newReports.length };

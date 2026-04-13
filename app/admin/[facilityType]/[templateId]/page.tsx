@@ -7,9 +7,12 @@ import StarterKit from "@tiptap/starter-kit";
 import { Table, TableRow, TableCell, TableHeader } from "@tiptap/extension-table";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { Skeleton } from "@/components/ui/skeleton";
-import { ArrowLeftIcon, SaveIcon, BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon } from "lucide-react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
+import { ArrowLeftIcon, SaveIcon, BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon, LinkIcon, PlusIcon, XIcon } from "lucide-react";
 import { toast } from "sonner";
+import { isValidUrl } from "@/lib/utils";
 import { FortuneEditor } from "@/components/fortune-editor";
 import type { Editor } from "@tiptap/core";
 
@@ -21,6 +24,8 @@ type Template = {
   fileType: string | null;
   responsible: string | null;
 };
+
+type TemplateLink = { id: string; name: string; url: string };
 
 function EditorToolbar({ editor }: { editor: Editor | null }) {
   if (!editor) return null;
@@ -65,6 +70,12 @@ export default function AdminTemplateEditPage() {
   const [title, setTitle] = useState("");
   const [initialContent, setInitialContent] = useState("");
 
+  const [links, setLinks] = useState<TemplateLink[]>([]);
+  const [addLinkOpen, setAddLinkOpen] = useState(false);
+  const [linkName, setLinkName] = useState("");
+  const [linkUrl, setLinkUrl] = useState("");
+  const [linkSaving, setLinkSaving] = useState(false);
+
   // Excel triggers
   const [excelSaving, setExcelSaving] = useState(false);
   const [excelSaveTrigger, setExcelSaveTrigger] = useState(0);
@@ -87,12 +98,16 @@ export default function AdminTemplateEditPage() {
 
   useEffect(() => {
     async function load() {
-      const res = await fetch(`/api/admin/templates/${params.templateId}`);
+      const [res, linksRes] = await Promise.all([
+        fetch(`/api/admin/templates/${params.templateId}`),
+        fetch(`/api/admin/templates/${params.templateId}/links`),
+      ]);
       if (!res.ok) { router.push(`/admin/${params.facilityType}`); return; }
       const data: Template = await res.json();
       setTemplate(data);
       setTitle(data.title);
       setInitialContent(data.content ?? "");
+      if (linksRes.ok) setLinks(await linksRes.json());
       setLoading(false);
     }
     load();
@@ -109,6 +124,44 @@ export default function AdminTemplateEditPage() {
       editor.commands.setContent(html);
     }
   }, [editor, loading, initialContent, template?.fileType]);
+
+  async function handleAddLink() {
+    if (!template || !linkName.trim() || !linkUrl.trim()) return;
+    setLinkSaving(true);
+    try {
+      const res = await fetch(`/api/admin/templates/${template.id}/links`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: linkName.trim(), url: linkUrl.trim() }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        toast.error(err.error || "新增連結失敗");
+        return;
+      }
+      const link: TemplateLink = await res.json();
+      setLinks((prev) => [...prev, link]);
+      setAddLinkOpen(false);
+      setLinkName("");
+      setLinkUrl("");
+      toast.success("已新增連結");
+    } catch {
+      toast.error("新增連結失敗");
+    } finally {
+      setLinkSaving(false);
+    }
+  }
+
+  async function handleDeleteLink(linkId: string) {
+    if (!template) return;
+    try {
+      const res = await fetch(`/api/admin/templates/${template.id}/links/${linkId}`, { method: "DELETE" });
+      if (!res.ok) { toast.error("刪除連結失敗"); return; }
+      setLinks((prev) => prev.filter((l) => l.id !== linkId));
+    } catch {
+      toast.error("刪除連結失敗");
+    }
+  }
 
   async function handleSave() {
     if (!template) return;
@@ -162,9 +215,30 @@ export default function AdminTemplateEditPage() {
             className="text-xl md:text-2xl font-bold border-none shadow-none px-0 h-auto focus-visible:ring-0 text-foreground"
             placeholder="範本標題"
           />
-          <p className="text-muted-foreground text-sm mt-1">
-            {isExcel ? "Excel 範本" : "Word 範本"}{template.responsible ? ` · ${template.responsible}` : ""}
-          </p>
+          <div className="flex items-center gap-2 mt-1 flex-wrap">
+            <p className="text-muted-foreground text-sm">
+              {isExcel ? "Excel 範本" : "Word 範本"}{template.responsible ? ` · ${template.responsible}` : ""}
+            </p>
+            {links.map((link) => (
+              <span key={link.id}
+                className="flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-muted text-xs font-medium whitespace-nowrap">
+                <LinkIcon className="h-3 w-3 text-muted-foreground" />
+                <a href={link.url} target="_blank" rel="noopener noreferrer"
+                  className="hover:underline">
+                  {link.name}
+                </a>
+                <button onClick={() => handleDeleteLink(link.id)}
+                  className="ml-0.5 text-muted-foreground hover:text-foreground transition-colors">
+                  <XIcon className="h-3 w-3" />
+                </button>
+              </span>
+            ))}
+            <button onClick={() => setAddLinkOpen(true)}
+              className="flex items-center gap-1 px-2.5 py-0.5 rounded-full border border-dashed text-xs text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+              <PlusIcon className="h-3 w-3" />
+              連結
+            </button>
+          </div>
         </div>
         <div className="flex gap-2 shrink-0 self-end sm:self-auto">
           {isExcel ? (
@@ -197,6 +271,53 @@ export default function AdminTemplateEditPage() {
           <EditorContent editor={editor} />
         </div>
       )}
+
+      {/* 新增連結 Dialog */}
+      <Dialog open={addLinkOpen} onOpenChange={(open) => {
+        setAddLinkOpen(open);
+        if (!open) { setLinkName(""); setLinkUrl(""); }
+      }}>
+        <DialogContent className="max-w-md">
+          <DialogHeader>
+            <DialogTitle>新增連結</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4 py-2">
+            <div className="space-y-2">
+              <Label htmlFor="link-name">名稱</Label>
+              <Input
+                id="link-name"
+                value={linkName}
+                onChange={(e) => setLinkName(e.target.value)}
+                placeholder="例：相關法規"
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="link-url">網址</Label>
+              <Input
+                id="link-url"
+                value={linkUrl}
+                onChange={(e) => setLinkUrl(e.target.value)}
+                placeholder="https://..."
+              />
+              {/* 輸入有內容但格式不合時才顯示提示 */}
+              {linkUrl.trim() && !isValidUrl(linkUrl) && (
+                <p className="text-xs text-destructive">網址須以 http:// 或 https:// 開頭</p>
+              )}
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setAddLinkOpen(false)} disabled={linkSaving}>
+              取消
+            </Button>
+            <Button
+              onClick={handleAddLink}
+              disabled={linkSaving || !linkName.trim() || !linkUrl.trim() || !isValidUrl(linkUrl)}
+            >
+              {linkSaving ? "儲存中..." : "新增"}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

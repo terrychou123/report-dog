@@ -17,6 +17,7 @@ import {
   RefreshCwIcon, Trash2Icon, DownloadIcon,
   BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon,
   PlusIcon, XIcon, TagIcon, HistoryIcon, EyeIcon, BellRingIcon, BellOffIcon, ChevronDownIcon,
+  LinkIcon,
 } from "lucide-react";
 import { toast } from "sonner";
 import { FortuneEditor } from "@/components/fortune-editor";
@@ -31,11 +32,13 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { FREQUENCY_LABELS, FREQUENCY_ORDER, type Frequency } from "@/lib/follow-utils";
+import { isValidUrl } from "@/lib/utils";
 
 type Report = { id: string; title: string; content: string | null; fileType: string | null; fileUrl: string | null; canEdit?: boolean; isOwner?: boolean };
 type Message = { role: "user" | "assistant"; content: string; reasoning_details?: unknown };
 type TagAssociation = { relationId: string; clientId: string; nickname: string; description: string | null };
 type TagOption = { id: string; nickname: string; description: string | null };
+type ReportLink = { id: string; name: string; url: string };
 
 function escapeHtml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -131,6 +134,12 @@ export default function ReportEditorPage() {
   // 版本歷史
   const [historyOpen, setHistoryOpen] = useState(false);
 
+  const [reportLinks, setReportLinks] = useState<ReportLink[]>([]);
+  const [addLinkOpen, setAddLinkOpen] = useState(false);
+  const [linkName, setLinkName] = useState("");
+  const [linkUrl, setLinkUrl] = useState("");
+  const [linkSaving, setLinkSaving] = useState(false);
+
   // 追蹤狀態
   const [followStatus, setFollowStatus] = useState<{ followId: string; frequency: Frequency } | null>(null);
   const [followLoading, setFollowLoading] = useState(false);
@@ -171,10 +180,11 @@ export default function ReportEditorPage() {
   // 從 API 載入報告
   useEffect(() => {
     async function load() {
-      const [reportRes, assocRes, followRes] = await Promise.all([
+      const [reportRes, assocRes, followRes, linksRes] = await Promise.all([
         fetch(`/api/reports/${params.id}`),
         fetch(`/api/tag-reports?reportId=${params.id}`),
         fetch(`/api/follows/report/${params.id}`),
+        fetch(`/api/reports/${params.id}/links`),
       ]);
       if (!reportRes.ok) { router.push("/report"); return; }
       const data: Report = await reportRes.json();
@@ -186,6 +196,7 @@ export default function ReportEditorPage() {
         const followData = await followRes.json();
         if (followData) setFollowStatus({ followId: followData.followId, frequency: followData.frequency as Frequency });
       }
+      if (linksRes.ok) setReportLinks(await linksRes.json());
       setLoading(false);
     }
     load();
@@ -286,6 +297,44 @@ export default function ReportEditorPage() {
     setInstruction("");
     setConfirmingIdx(null);
     setTimeout(() => inputRef.current?.focus(), 50);
+  }
+
+  async function handleAddLink() {
+    if (!params.id || !linkName.trim() || !linkUrl.trim()) return;
+    setLinkSaving(true);
+    try {
+      const res = await fetch(`/api/reports/${params.id}/links`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: linkName.trim(), url: linkUrl.trim() }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        toast.error(err.error || "新增連結失敗");
+        return;
+      }
+      const link: ReportLink = await res.json();
+      setReportLinks((prev) => [...prev, link]);
+      setAddLinkOpen(false);
+      setLinkName("");
+      setLinkUrl("");
+      toast.success("已新增連結");
+    } catch {
+      toast.error("新增連結失敗");
+    } finally {
+      setLinkSaving(false);
+    }
+  }
+
+  async function handleDeleteLink(linkId: string) {
+    if (!params.id) return;
+    try {
+      const res = await fetch(`/api/reports/${params.id}/links/${linkId}`, { method: "DELETE" });
+      if (!res.ok) { toast.error("刪除連結失敗"); return; }
+      setReportLinks((prev) => prev.filter((l) => l.id !== linkId));
+    } catch {
+      toast.error("刪除連結失敗");
+    }
   }
 
   // 追蹤 handlers
@@ -523,6 +572,29 @@ export default function ReportEditorPage() {
               標籤
             </button>
           </div>
+          {/* 連結 */}
+          <div className="flex items-center gap-2 mt-2 flex-wrap">
+            {reportLinks.map((link) => (
+              <span key={link.id}
+                className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-muted text-xs font-medium whitespace-nowrap">
+                <LinkIcon className="h-3 w-3 text-muted-foreground" />
+                <a href={link.url} target="_blank" rel="noopener noreferrer"
+                  className="hover:underline"
+                  onClick={(e) => e.stopPropagation()}>
+                  {link.name}
+                </a>
+                <button onClick={() => handleDeleteLink(link.id)}
+                  className="ml-0.5 text-muted-foreground hover:text-foreground transition-colors">
+                  <XIcon className="h-3 w-3" />
+                </button>
+              </span>
+            ))}
+            <button onClick={() => setAddLinkOpen(true)}
+              className="flex items-center gap-1 px-2.5 py-1 rounded-full border border-dashed text-xs text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+              <PlusIcon className="h-3 w-3" />
+              連結
+            </button>
+          </div>
           {/* 追蹤狀態 */}
           <div className="flex items-center gap-2 mt-2">
             {followStatus ? (
@@ -700,6 +772,53 @@ export default function ReportEditorPage() {
             </Button>
             <Button onClick={handleAddTags} disabled={addingTags || selectedTags.size === 0}>
               {addingTags ? "關聯中..." : `關聯${selectedTags.size > 0 ? ` (${selectedTags.size})` : ""}`}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      {/* 新增連結 Dialog */}
+      <Dialog open={addLinkOpen} onOpenChange={(open) => {
+        setAddLinkOpen(open);
+        if (!open) { setLinkName(""); setLinkUrl(""); }
+      }}>
+        <DialogContent className="max-w-md">
+          <DialogHeader>
+            <DialogTitle>新增連結</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4 py-2">
+            <div className="space-y-2">
+              <Label htmlFor="link-name">名稱</Label>
+              <Input
+                id="link-name"
+                value={linkName}
+                onChange={(e) => setLinkName(e.target.value)}
+                placeholder="例：相關法規"
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="link-url">網址</Label>
+              <Input
+                id="link-url"
+                value={linkUrl}
+                onChange={(e) => setLinkUrl(e.target.value)}
+                placeholder="https://..."
+              />
+              {/* 輸入有內容但格式不合時才顯示提示 */}
+              {linkUrl.trim() && !isValidUrl(linkUrl) && (
+                <p className="text-xs text-destructive">網址須以 http:// 或 https:// 開頭</p>
+              )}
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setAddLinkOpen(false)} disabled={linkSaving}>
+              取消
+            </Button>
+            <Button
+              onClick={handleAddLink}
+              disabled={linkSaving || !linkName.trim() || !linkUrl.trim() || !isValidUrl(linkUrl)}
+            >
+              {linkSaving ? "儲存中..." : "新增"}
             </Button>
           </DialogFooter>
         </DialogContent>

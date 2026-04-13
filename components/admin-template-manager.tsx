@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState, useTransition, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { toast } from "sonner";
@@ -55,11 +55,20 @@ type TagReport = {
   sortOrder: number;
 };
 
+type TemplateLink = {
+  id: string;
+  templateId: string;
+  name: string;
+  url: string;
+  sortOrder: number;
+};
+
 type Props = {
   facilityType: string;
   initialTags: TemplateTag[];
   initialTemplates: ReportTemplate[];
   initialLinks: TagReport[];
+  initialTemplateLinks: TemplateLink[];
 };
 
 // ─── Tag Dialog ───────────────────────────────────────────────────────────────
@@ -256,7 +265,7 @@ function DeleteConfirm({
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 
-export function AdminTemplateManager({ facilityType, initialTags, initialTemplates, initialLinks }: Props) {
+export function AdminTemplateManager({ facilityType, initialTags, initialTemplates, initialLinks, initialTemplateLinks }: Props) {
   const router = useRouter();
   const [, startTransition] = useTransition();
 
@@ -409,6 +418,15 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
     return new Set(links.filter((l) => l.templateTagId === tagId).map((l) => l.reportTemplateId));
   }
 
+  const templateLinksMap = useMemo(() => {
+    const map = new Map<string, TemplateLink[]>();
+    for (const l of initialTemplateLinks) {
+      if (!map.has(l.templateId)) map.set(l.templateId, []);
+      map.get(l.templateId)!.push(l);
+    }
+    return map;
+  }, [initialTemplateLinks]);
+
   return (
     <>
       <Tabs defaultValue="tags">
@@ -521,6 +539,7 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
             )}
             {templates.map((tmpl) => {
               const linkedTags = templateLinkedTags(tmpl.id);
+              const tmplLinks = templateLinksMap.get(tmpl.id) ?? [];
               return (
                 <div key={tmpl.id} className="flex items-start gap-3 rounded-lg border px-4 py-3 bg-card">
                   <div className="flex-1 min-w-0">
@@ -534,6 +553,14 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
                             <span className="text-xs text-muted-foreground">{tmpl.responsible}</span>
                           )
                       }
+                      {tmplLinks.map((link) => (
+                        <button key={link.id} type="button"
+                          className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                          onClick={() => window.open(link.url, "_blank", "noopener,noreferrer")}>
+                          <LinkIcon className="h-3 w-3 shrink-0" />
+                          {link.name}
+                        </button>
+                      ))}
                     </div>
                   </div>
                   <div className="flex gap-1 shrink-0">

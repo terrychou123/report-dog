@@ -182,6 +182,24 @@ export const templateImports = pgTable('template_imports', {
   importedAt: timestamp('imported_at', { withTimezone: true }).defaultNow().notNull(),
 });
 
+export const templateLinks = pgTable('template_links', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  templateId: uuid('template_id').references(() => reportTemplates.id, { onDelete: 'cascade' }).notNull(),
+  name: varchar('name', { length: 255 }).notNull(),
+  url: text('url').notNull(),
+  sortOrder: integer('sort_order').default(0).notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+});
+
+export const reportLinks = pgTable('report_links', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  reportId: uuid('report_id').references(() => reports.id, { onDelete: 'cascade' }).notNull(),
+  name: varchar('name', { length: 255 }).notNull(),
+  url: text('url').notNull(),
+  sortOrder: integer('sort_order').default(0).notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+});
+
 export const reportFollows = pgTable('report_follows', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: text('user_id').notNull(),

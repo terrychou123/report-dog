@@ -1,4 +1,4 @@
-import { TagIcon } from "lucide-react";
+import { TagIcon, LinkIcon } from "lucide-react";
 import { FileTypeIcon } from "@/components/file-type-icon";
 
 interface ReportCardContentProps {
@@ -6,9 +6,10 @@ interface ReportCardContentProps {
   fileType: string | null;
   formattedDate: string;
   tags: string[];
+  links?: { name: string; url: string }[];
 }
 
-export function ReportCardContent({ title, fileType, formattedDate, tags }: ReportCardContentProps) {
+export function ReportCardContent({ title, fileType, formattedDate, tags, links }: ReportCardContentProps) {
   return (
     <>
       <div className="flex items-center justify-between gap-2">
@@ -20,18 +21,44 @@ export function ReportCardContent({ title, fileType, formattedDate, tags }: Repo
           {formattedDate}
         </span>
       </div>
-      {tags.length > 0 && (
-        <div className="hidden md:flex items-center gap-1 text-xs font-normal text-muted-foreground mt-1 ml-6">
-          <TagIcon className="h-3 w-3 shrink-0" />
-          <span>{tags.join("、")}</span>
+      {/* 桌面版：標籤 + 連結 */}
+      {(tags.length > 0 || (links && links.length > 0)) && (
+        <div className="hidden md:flex items-center gap-2 text-xs font-normal text-muted-foreground mt-1 ml-6 flex-wrap">
+          {tags.length > 0 && (
+            <span className="flex items-center gap-1">
+              <TagIcon className="h-3 w-3 shrink-0" />
+              <span>{tags.join("、")}</span>
+            </span>
+          )}
+          {links && links.map((link) => (
+            <button key={link.url} type="button"
+              className="inline-flex items-center gap-1 text-primary hover:underline"
+              onClick={(e) => { e.preventDefault(); e.stopPropagation(); window.open(link.url, "_blank", "noopener,noreferrer"); }}>
+              <LinkIcon className="h-3 w-3 shrink-0" />
+              {link.name}
+            </button>
+          ))}
         </div>
       )}
+      {/* 手機版：日期 + 標籤 + 連結 */}
       <div className="md:hidden text-xs font-normal text-muted-foreground mt-1 ml-6">
         <p>{formattedDate}</p>
         {tags.length > 0 && (
           <div className="flex items-center gap-1 mt-0.5">
             <TagIcon className="h-3 w-3 shrink-0" />
             <span className="break-words">{tags.join("、")}</span>
+          </div>
+        )}
+        {links && links.length > 0 && (
+          <div className="flex items-center gap-2 mt-0.5 flex-wrap">
+            {links.map((link) => (
+              <button key={link.url} type="button"
+                className="inline-flex items-center gap-1 text-primary hover:underline"
+                onClick={(e) => { e.preventDefault(); e.stopPropagation(); window.open(link.url, "_blank", "noopener,noreferrer"); }}>
+                <LinkIcon className="h-3 w-3 shrink-0" />
+                {link.name}
+              </button>
+            ))}
           </div>
         )}
       </div>

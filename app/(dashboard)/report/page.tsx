@@ -3,8 +3,8 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { reports, clients, clientReports } from "@/db/schema";
-import { eq, desc, inArray, ilike, and } from "drizzle-orm";
+import { reports, clients, clientReports, reportLinks } from "@/db/schema";
+import { eq, desc, inArray, ilike, and, asc } from "drizzle-orm";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { FileTextIcon } from "lucide-react";
@@ -65,16 +65,37 @@ async function SearchReportsList({ query }: { query: string }) {
     .orderBy(desc(reports.createdAt));
 
   const reportIds = reportList.map((r) => r.id);
-  const tagAssociations = await db
-    .select({ reportId: clientReports.reportId, nickname: clients.nickname })
-    .from(clientReports)
-    .innerJoin(clients, eq(clientReports.clientId, clients.id))
-    .where(inArray(clientReports.reportId, reportIds));
+  if (reportIds.length === 0) {
+    return (
+      <div className="text-center py-20 text-muted-foreground">
+        <FileTextIcon className="h-12 w-12 mx-auto mb-4 opacity-30" />
+        <p className="text-lg mb-2">找不到相關報告</p>
+        <p className="text-sm">請嘗試其他關鍵字</p>
+      </div>
+    );
+  }
+
+  const [tagAssociations, linkRows] = await Promise.all([
+    db.select({ reportId: clientReports.reportId, nickname: clients.nickname })
+      .from(clientReports)
+      .innerJoin(clients, eq(clientReports.clientId, clients.id))
+      .where(inArray(clientReports.reportId, reportIds)),
+    db.select({ reportId: reportLinks.reportId, name: reportLinks.name, url: reportLinks.url })
+      .from(reportLinks)
+      .where(inArray(reportLinks.reportId, reportIds))
+      .orderBy(asc(reportLinks.sortOrder), asc(reportLinks.createdAt)),
+  ]);
 
   const tagMap = new Map<string, string[]>();
   for (const a of tagAssociations) {
     if (!tagMap.has(a.reportId)) tagMap.set(a.reportId, []);
     tagMap.get(a.reportId)!.push(a.nickname);
+  }
+
+  const linkMap = new Map<string, { name: string; url: string }[]>();
+  for (const l of linkRows) {
+    if (!linkMap.has(l.reportId)) linkMap.set(l.reportId, []);
+    linkMap.get(l.reportId)!.push({ name: l.name, url: l.url });
   }
 
   return (
@@ -93,6 +114,7 @@ async function SearchReportsList({ query }: { query: string }) {
                       fileType={report.fileType}
                       formattedDate={formattedDate}
                       tags={tagNames}
+                      links={linkMap.get(report.id) ?? []}
                     />
                   </CardTitle>
                 </CardHeader>

@@ -36,6 +36,7 @@ type Report = {
   sortOrder: number;
   createdAt: string;
   tags: string[];
+  links: { name: string; url: string }[];
 };
 
 function ReportCard({
@@ -69,6 +70,7 @@ function ReportCard({
                   fileType={report.fileType}
                   formattedDate={formatZhTWDate(report.createdAt)}
                   tags={report.tags}
+                  links={report.links}
                 />
               </Link>
             </div>

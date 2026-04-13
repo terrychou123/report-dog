@@ -1,5 +1,5 @@
 import { db } from "@/db";
-import { templateTags, reportTemplates, templateTagReports } from "@/db/schema";
+import { templateTags, reportTemplates, templateTagReports, templateLinks } from "@/db/schema";
 import { eq, asc, inArray } from "drizzle-orm";
 import { AdminTemplateManager } from "@/components/admin-template-manager";
 import { notFound } from "next/navigation";
@@ -25,9 +25,23 @@ export default async function AdminFacilityPage({
     a.title.localeCompare(b.title, 'zh-TW', { numeric: true })
   );
   const tagIds = tags.map((t) => t.id);
-  const links = tagIds.length > 0
-    ? await db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds))
-    : [];
+  const templateIds = templates.map((t) => t.id);
+
+  const [links, tmplLinks] = await Promise.all([
+    tagIds.length > 0
+      ? db.select().from(templateTagReports).where(inArray(templateTagReports.templateTagId, tagIds))
+      : Promise.resolve([]),
+    templateIds.length > 0
+      ? db.select({
+          id: templateLinks.id,
+          templateId: templateLinks.templateId,
+          name: templateLinks.name,
+          url: templateLinks.url,
+          sortOrder: templateLinks.sortOrder,
+        }).from(templateLinks).where(inArray(templateLinks.templateId, templateIds))
+          .orderBy(asc(templateLinks.sortOrder), asc(templateLinks.createdAt))
+      : Promise.resolve([]),
+  ]);
 
   const displayLabel = getProfile(facilityType)?.label ?? facilityType;
 
@@ -42,6 +56,7 @@ export default async function AdminFacilityPage({
         initialTags={tags}
         initialTemplates={templates}
         initialLinks={links}
+        initialTemplateLinks={tmplLinks}
       />
     </div>
   );

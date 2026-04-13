@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
-import { reports, clients, clientReports } from "@/db/schema";
-import { eq, inArray, max, min, desc, or, sql } from "drizzle-orm";
+import { reports, clients, clientReports, reportLinks } from "@/db/schema";
+import { eq, inArray, max, min, desc, or, sql, asc } from "drizzle-orm";
 
 export async function GET() {
   const supabase = await createClient();
@@ -64,11 +64,17 @@ export async function GET() {
   if (reportList.length === 0) return NextResponse.json([]);
 
   const reportIds = reportList.map((r) => r.id);
-  const tagAssociations = await db
-    .select({ reportId: clientReports.reportId, nickname: clients.nickname })
-    .from(clientReports)
-    .innerJoin(clients, eq(clientReports.clientId, clients.id))
-    .where(inArray(clientReports.reportId, reportIds));
+
+  const [tagAssociations, linkRows] = await Promise.all([
+    db.select({ reportId: clientReports.reportId, nickname: clients.nickname })
+      .from(clientReports)
+      .innerJoin(clients, eq(clientReports.clientId, clients.id))
+      .where(inArray(clientReports.reportId, reportIds)),
+    db.select({ reportId: reportLinks.reportId, name: reportLinks.name, url: reportLinks.url })
+      .from(reportLinks)
+      .where(inArray(reportLinks.reportId, reportIds))
+      .orderBy(asc(reportLinks.sortOrder), asc(reportLinks.createdAt)),
+  ]);
 
   const tagMap = new Map<string, string[]>();
   for (const a of tagAssociations) {
@@ -76,7 +82,17 @@ export async function GET() {
     tagMap.get(a.reportId)!.push(a.nickname);
   }
 
-  return NextResponse.json(reportList.map((r) => ({ ...r, tags: tagMap.get(r.id) ?? [] })));
+  const linkMap = new Map<string, { name: string; url: string }[]>();
+  for (const l of linkRows) {
+    if (!linkMap.has(l.reportId)) linkMap.set(l.reportId, []);
+    linkMap.get(l.reportId)!.push({ name: l.name, url: l.url });
+  }
+
+  return NextResponse.json(reportList.map((r) => ({
+    ...r,
+    tags: tagMap.get(r.id) ?? [],
+    links: linkMap.get(r.id) ?? [],
+  })));
 }
 
 export async function POST(req: NextRequest) {

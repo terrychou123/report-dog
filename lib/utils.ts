@@ -7,6 +7,11 @@ export function cn(...inputs: ClassValue[]) {
 
 export const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+export const URL_HTTPS_REGEX = /^https?:\/\//i;
+export function isValidUrl(url: string): boolean {
+  return URL_HTTPS_REGEX.test(url.trim());
+}
+
 export function formatZhTWDate(date: string | Date): string {
   return new Date(date).toLocaleDateString("zh-TW", {
     year: "numeric",
