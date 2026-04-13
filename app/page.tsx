@@ -18,6 +18,8 @@ import {
   ChevronDownIcon,
   DownloadIcon,
   BellRingIcon,
+  Link2Icon,
+  TableIcon,
   // 長照產業解決方案卡片 icon
   Home as HomeIcon,
   Sun as SunIcon,
@@ -146,6 +148,16 @@ export default function Home() {
                 icon: <BellRingIcon className="h-6 w-6" />,
                 title: "追蹤報告更新",
                 desc: "設定報告追蹤頻率（每日到每年），系統自動判斷是否逾期未更新。打開追蹤頁面，紅色標示告訴你哪份報告該催繳，督導追蹤一目了然。",
+              },
+              {
+                icon: <Link2Icon className="h-6 w-6" />,
+                title: "報告連結",
+                desc: "在報告或範本中附加任意數量的超連結——法規文件、評鑑基準 PDF、雲端相簿、SOP 影片一鍵串連。敏感資料留在機構自有雲端硬碟，不經過報告汪，降低外洩風險。",
+              },
+              {
+                icon: <TableIcon className="h-6 w-6" />,
+                title: "Excel 表格編輯",
+                desc: "內嵌 Excel 式試算表編輯器，支援公式、儲存格格式、凍結欄位，並可匯出 .xlsx。評鑑自我檢核表、品質指標月報，直接在報告汪完成，不再在系統與 Excel 之間來回切換。",
               },
             ].map((f) => (
               <Card key={f.title} className="group hover:shadow-md transition-shadow">
@@ -520,6 +532,7 @@ export default function Home() {
                 "一鍵複製舊報告",
                 "一鍵匯入評鑑範本",
                 "追蹤報告逾期提醒",
+                "報告連結",
                 "全文搜尋",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm">

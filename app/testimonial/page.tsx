@@ -36,9 +36,9 @@ function SectionHeading({ icon: Icon, children }: { icon: LucideIcon; children: 
 }
 
 export const metadata: Metadata = {
-  title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
+  title: "用戶評價｜45+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
   description:
-    "42+ 位居家服務、日照中心、醫院、住宿型機構、身障機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心從業人員的真實評價。報告汪平均評分 4.9 顆星，追蹤功能、逾期提醒、AI 文書輔助廣獲 12 種機構類型長照與社福從業人員推薦。",
+    "45+ 位居家服務、日照中心、醫院、住宿型機構、身障機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心從業人員的真實評價。報告汪平均評分 4.9 顆星，追蹤功能、逾期提醒、AI 文書輔助廣獲 12 種機構類型長照與社福從業人員推薦。",
   keywords: [
     "報告汪評價",
     "長照文書管理推薦",
@@ -53,15 +53,15 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/testimonial" },
   openGraph: {
-    title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
+    title: "用戶評價｜45+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
     description:
-      "42+ 位長照與社福從業人員的真實評價，涵蓋 12 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
+      "45+ 位長照與社福從業人員的真實評價，涵蓋 12 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
     url: "https://reportwang.com/testimonial",
   },
   twitter: {
-    title: "用戶評價｜42+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
+    title: "用戶評價｜45+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
     description:
-      "42+ 位長照與社福從業人員的真實評價，涵蓋 12 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
+      "45+ 位長照與社福從業人員的真實評價，涵蓋 12 種機構類型。報告汪平均評分 4.9 顆星，追蹤功能逾期提醒廣受好評。",
   },
 };
 
@@ -77,7 +77,7 @@ const appJsonLd = JSON.stringify({
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "42",
+    reviewCount: "45",
     bestRating: "5",
     worstRating: "1",
   },
@@ -124,6 +124,9 @@ const appJsonLd = JSON.stringify({
     { "@type": "Review", author: { "@type": "Person", "name": "林主任（托嬰）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "托嬰中心60項評鑑基準，行政管理、托育活動、健康安全三大區塊各建標籤後，每份文件都有對應評鑑項目，給藥委託單、食物樣品記錄、寶寶日誌通通管理好，評鑑委員那天文件零補件。" },
     { "@type": "Review", author: { "@type": "Person", "name": "吳托育人員" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "每天要記錄每位嬰幼兒的寶寶日誌，以前用紙本很花時間，現在用報告汪AI輔助，輸入觀察要點後AI自動整理格式，記錄時間省了將近一半，督導說紀錄品質比以前更完整。" },
     { "@type": "Review", author: { "@type": "Person", "name": "鄭行政人員（托嬰）" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "托嬰中心的行政文書包含體檢紀錄、在職訓練時數、接送授權書等，以前每次評鑑前都要翻遍資料夾。現在用報告汪標籤分類，AI分析直接告知哪項文件不完整，評鑑準備時間少了超過三分之一。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "賴督導" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "以前交辦下屬要一直傳 LINE 說『去找某某範例參考』，現在直接在範本裡加連結，新人打開範本就能跳到對應的優良案例。個案個資也不用上傳進系統，留在自己的 Google Drive 加連結就好，主管機關稽查都說我們資料安全做得很好。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "蔡社工" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "每次評鑑備審最怕的就是要去找衛福部公告和評鑑基準 PDF，現在直接在範本附上連結，整個中心的人打開報告就能查閱，不用再問我。教育訓練的影片連結也放在這裡，新進人員第一天就能自學。" },
+    { "@type": "Review", author: { "@type": "Person", "name": "楊護理長" }, reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, reviewBody: "我們機構多職類協作，會議紀錄、環境照片相簿、跨職類溝通記錄都分散在各處。現在用報告連結把這些全部串起來，報告一打開就能跳到 Google Docs 的會議紀錄或 Photos 的活動相簿，委員說是她今年巡訪中文件關聯做得最好的機構。" },
   ],
 });
 
@@ -136,7 +139,7 @@ const faqJsonLd = JSON.stringify({
       name: "報告汪的用戶評價如何？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "報告汪目前收集了 42 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心等 12 種機構類型。追蹤功能的逾期提醒廣受督導與主任好評。",
+        text: "報告汪目前收集了 45 則真實用戶評價，平均評分 4.9 顆星（滿分 5 顆星），涵蓋居家服務機構、日照中心、醫院、住宿型長照機構、身心障礙福利機構、產後護理之家、居家護理所、一般護理之家、兒少教養機構、老人福利機構、精神護理之家、托嬰中心等 12 種機構類型。追蹤功能的逾期提醒廣受督導與主任好評。",
       },
     },
     {
@@ -187,7 +190,7 @@ export default function TestimonialPage() {
         <section className="flex flex-col items-center text-center py-20 px-6 bg-gradient-to-b from-background to-muted/30">
           <Badge variant="outline" className="mb-5 px-4 py-1.5 text-sm">用戶評價</Badge>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-            42+ 位長照從業人員<br className="hidden md:block" />
+            45+ 位長照從業人員<br className="hidden md:block" />
             <span className="text-primary">真實推薦報告汪</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mb-10">
@@ -196,7 +199,7 @@ export default function TestimonialPage() {
           </p>
           <div className="grid grid-cols-3 gap-8 max-w-md">
             {[
-              { value: "42+", label: "則用戶評價" },
+              { value: "45+", label: "則用戶評價" },
               { value: "4.9", label: "平均評分（滿分 5）" },
               { value: "12", label: "種機構類型" },
             ].map((s) => (
@@ -333,6 +336,30 @@ export default function TestimonialPage() {
                 </CardContent>
               </Card>
 
+              {/* 賴督導 — 報告連結 */}
+              <Card className="md:col-span-2">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200 shrink-0">賴</div>
+                    <div>
+                      <div className="text-sm font-medium">賴督導</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">桃園市居家服務中心・督導</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    以前交辦下屬要一直傳 LINE 說「去找某某範例參考」，現在直接在範本裡加<span className="text-foreground font-medium">連結</span>，新人打開範本就能跳到對應的優良案例，交辦內容有跡可循，不怕口頭說完就忘。
+                    <br /><br />
+                    個案個資也不用上傳進系統，留在我們自己的 Google Drive 加連結就好。主管機關稽查時問我們怎麼做資料安全管理，我說敏感資料留在機構雲端、報告系統只放連結，稽查員說這個做法很值得推廣。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["報告連結", "交辦事項", "敏感資料保護", "居服機構資安"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
               {/* 劉督導 — 追蹤功能 */}
               <Card className="md:col-span-3">
                 <CardContent className="pt-6">
@@ -439,6 +466,30 @@ export default function TestimonialPage() {
                   </p>
                   <div className="flex flex-wrap gap-1 mt-3">
                     {["健康紀錄管理", "多職類協作", "日照護理文書", "用藥紀錄"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* 蔡社工 — 報告連結 */}
+              <Card className="md:col-span-2">
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200 shrink-0">蔡</div>
+                    <div>
+                      <div className="text-sm font-medium">蔡社工</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">台中市日照中心・社工師</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    每次評鑑備審最怕的就是要臨時去找衛福部公告和評鑑基準 PDF，現在直接在評鑑範本附上<span className="text-foreground font-medium">連結</span>，整個中心的人打開報告就能查閱，不用再問我「那個基準在哪裡」。
+                    <br /><br />
+                    教育訓練的影片連結也放在這裡，新進人員第一天就能自學 SOP，督導不用每次都要口頭解釋一遍，<span className="text-foreground font-medium">訓練時間省了將近三分之一</span>。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["報告連結", "法規參考", "教育訓練資料", "日照評鑑備審"].map((tag) => (
                       <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
                     ))}
                   </div>
@@ -687,6 +738,30 @@ export default function TestimonialPage() {
                   </p>
                   <div className="flex flex-wrap gap-1 mt-3">
                     {["照服員工作日誌", "夜班照護紀錄", "語音轉文字報告", "行動端長照紀錄"].map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* 楊護理長 — 報告連結 */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium bg-cyan-100 text-cyan-800 dark:bg-cyan-900 dark:text-cyan-200 shrink-0">楊</div>
+                    <div>
+                      <div className="text-sm font-medium">楊護理長</div>
+                      <div className="text-xs text-muted-foreground mt-0.5">台中市住宿型長照機構・護理長</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-500 text-sm mt-3">★★★★★</div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    我們機構護理、社工、照服員、活動組都要開會，會議紀錄、環境照片相簿、跨職類溝通截圖分散在各處，找起來很費時。
+                    <br /><br />
+                    現在用<span className="text-foreground font-medium">報告連結</span>把這些全部串起來，報告一打開就能跳到 Google Docs 的會議紀錄或 Photos 的活動相簿，不用再問「上次的照片在哪個資料夾」。評鑑委員說是她今年巡訪中<span className="text-foreground font-medium">文件關聯做得最好的機構</span>。
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {["報告連結", "會議紀錄", "雲端相簿", "多職類協作"].map((tag) => (
                       <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full border text-muted-foreground">{tag}</span>
                     ))}
                   </div>
