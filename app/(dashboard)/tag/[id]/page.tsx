@@ -438,7 +438,7 @@ export default function TagDetailPage() {
                       <FileTypeIcon fileType={r.fileType} />
                       {r.title}
                       <span className="ml-auto text-xs text-muted-foreground font-normal">
-                        {new Date(r.updatedAt || r.createdAt).toLocaleDateString("zh-TW")}
+                        {new Date(r.updatedAt || r.createdAt).toLocaleDateString("zh-TW", { timeZone: "Asia/Taipei" })}
                       </span>
                     </CardTitle>
                   </CardHeader>

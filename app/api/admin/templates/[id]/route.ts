@@ -29,8 +29,9 @@ export async function PUT(
   const { title, content, responsible } = body;
   if (!title) return NextResponse.json({ error: "title required" }, { status: 400 });
 
-  // 在 transaction 中：快照舊版 → 更新範本 → 修剪超過上限的舊版本
-  // 用 transaction 確保快照與更新的原子性，unique constraint 會自動防止並發重複版本號
+  // 在 transaction 中：先更新範本 → 再以新內容建立快照 → 修剪超過上限的舊版本
+  // 這樣「版本 #N」對應的內容 = 使用者這次實際儲存的成果
+  // unique constraint 會自動防止並發重複版本號
   const MAX_REVISIONS = 5;
 
   const [updated] = await db.transaction(async (tx) => {
@@ -44,7 +45,14 @@ export async function PUT(
     const newContent = content !== undefined ? content : current?.content;
     const hasChanges = current && (newTitle !== current.title || newContent !== current.content);
 
-    if (hasChanges) {
+    // 先執行 UPDATE，取得更新後的 row
+    const [updatedRow] = await tx
+      .update(reportTemplates)
+      .set({ title: newTitle, content: newContent ?? null, responsible: responsible ?? null, updatedAt: new Date() })
+      .where(eq(reportTemplates.id, id))
+      .returning();
+
+    if (hasChanges && updatedRow) {
       // 一次查詢取得所有既有版本（降冪），同時推導下一個版本號與需刪除的舊版本
       const existingRevisions = await tx
         .select({ id: templateRevisions.id, versionNumber: templateRevisions.versionNumber })
@@ -53,13 +61,13 @@ export async function PUT(
         .orderBy(desc(templateRevisions.versionNumber));
 
       const nextVersion = (existingRevisions[0]?.versionNumber ?? 0) + 1;
-      // unique constraint 確保並發時只有一個成功，另一個會拋出衝突錯誤
+      // 以更新後（新）的內容建立快照；unique constraint 確保並發時只有一個成功
       await tx.insert(templateRevisions).values({
         templateId: id,
         userId: auth.userId,
-        title: current.title,
-        content: current.content,
-        fileType: current.fileType ?? "excel",
+        title: updatedRow.title,
+        content: updatedRow.content,
+        fileType: updatedRow.fileType ?? "excel",
         versionNumber: nextVersion,
       });
 
@@ -70,11 +78,7 @@ export async function PUT(
       }
     }
 
-    return tx
-      .update(reportTemplates)
-      .set({ title: newTitle, content: newContent ?? null, responsible: responsible ?? null, updatedAt: new Date() })
-      .where(eq(reportTemplates.id, id))
-      .returning();
+    return [updatedRow];
   });
 
   if (!updated) return NextResponse.json({ error: "Not found" }, { status: 404 });

@@ -43,7 +43,8 @@ export function DocumentCard({ doc }: { doc: Document }) {
     }
   }
 
-  const updatedAt = new Date(doc.updatedAt).toLocaleDateString('en-US', {
+  const updatedAt = new Date(doc.updatedAt).toLocaleDateString('zh-TW', {
+    timeZone: 'Asia/Taipei', // 固定台灣時區
     year: 'numeric',
     month: 'short',
     day: 'numeric',

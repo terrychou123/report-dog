@@ -85,7 +85,7 @@ function SortableReportItem({ report }: { report: TagReport }) {
         <div className="flex-1 min-w-0">
           <div className="truncate">{report.title}</div>
           <div className="text-xs text-muted-foreground">
-            {new Date(report.updatedAt || report.createdAt).toLocaleDateString("zh-TW")}
+            {new Date(report.updatedAt || report.createdAt).toLocaleDateString("zh-TW", { timeZone: "Asia/Taipei" })}
           </div>
         </div>
       </a>

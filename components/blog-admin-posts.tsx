@@ -111,7 +111,7 @@ export default function BlogAdminPosts({ initialPosts }: BlogAdminPostsProps) {
                   <span className="font-mono">/blog/{post.slug}</span>
                   {post.publishedAt && (
                     <span className="ml-3">
-                      發佈於 {new Date(post.publishedAt).toLocaleDateString("zh-TW")}
+                      發佈於 {new Date(post.publishedAt).toLocaleDateString("zh-TW", { timeZone: "Asia/Taipei" })}
                     </span>
                   )}
                 </div>

@@ -171,6 +171,7 @@ export function NotificationBell({ collapsed }: NotificationBellProps) {
                     )}
                     <p className="text-xs text-muted-foreground mt-1">
                       {new Date(n.createdAt).toLocaleDateString("zh-TW", {
+                        timeZone: "Asia/Taipei", // 固定台灣時區
                         month: "short",
                         day: "numeric",
                         hour: "2-digit",

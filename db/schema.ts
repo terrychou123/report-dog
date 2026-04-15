@@ -96,7 +96,7 @@ export const reportRevisions = pgTable('report_revisions', {
   content: text('content'),
   fileType: varchar('file_type', { length: 10 }),
   versionNumber: integer('version_number').notNull(),
-  createdAt: timestamp('created_at').defaultNow().notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 });
 
 export const notifications = pgTable('notifications', {

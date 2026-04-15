@@ -224,7 +224,7 @@ export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
                     dateTime={featuredPost.publishedAt}
                     className="text-sm text-muted-foreground"
                   >
-                    {new Date(featuredPost.publishedAt).toLocaleDateString("zh-TW")}
+                    {new Date(featuredPost.publishedAt).toLocaleDateString("zh-TW", { timeZone: "Asia/Taipei" })}
                   </time>
                 )}
               </div>
@@ -283,7 +283,7 @@ export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
                         dateTime={post.publishedAt}
                         className="text-xs text-muted-foreground"
                       >
-                        {new Date(post.publishedAt).toLocaleDateString("zh-TW")}
+                        {new Date(post.publishedAt).toLocaleDateString("zh-TW", { timeZone: "Asia/Taipei" })}
                       </time>
                     )}
                   </div>

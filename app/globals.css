@@ -125,3 +125,9 @@
 .tiptap-blog .ProseMirror pre { background: hsl(var(--muted)); padding: 0.75rem; border-radius: 0.5rem; margin: 0.75rem 0; }
 .tiptap-blog .ProseMirror hr { border: none; border-top: 1px solid hsl(var(--border)); margin: 1.5rem 0; }
 .tiptap-blog .ProseMirror p.is-empty::before { content: attr(data-placeholder); color: hsl(var(--muted-foreground)); float: left; height: 0; pointer-events: none; }
+
+/* FortuneSheet 底部頁籤 bar：擴大頁籤顯示區，縮放控制只占自身需要的寬度 */
+.luckysheet-sheet-area #luckysheet-sheet-content { flex: 1 1 auto !important; }
+.luckysheet-sheet-area #luckysheet-bottom-pager { flex: 0 0 auto !important; width: auto !important; }
+/* 解除套件寫死的 54% 上限，讓頁籤容器真的延伸到 pager 之前 */
+.luckysheet-sheet-area .fortune-sheettab-container { max-width: 100% !important; }

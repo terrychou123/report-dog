@@ -74,6 +74,7 @@ function SharedReportCard({
           <div className="pl-6 flex flex-col gap-0.5 md:flex-row md:items-center md:justify-between md:gap-2">
             <p className="text-xs text-muted-foreground">
               {new Date(report.updatedAt || report.createdAt).toLocaleDateString("zh-TW", {
+                timeZone: "Asia/Taipei", // 固定台灣時區
                 year: "numeric",
                 month: "long",
                 day: "numeric",

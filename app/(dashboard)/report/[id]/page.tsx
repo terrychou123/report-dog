@@ -428,8 +428,15 @@ export default function ReportEditorPage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML() }),
     });
-    if (res.ok) { toast.success("已儲存", { description: "免費用戶僅保存最新的五筆歷史版本" }); isDirtyRef.current = false; }
-    else toast.error("儲存失敗，請重試");
+    if (res.ok) {
+      toast.success("已儲存", { description: "免費用戶僅保存最新的五筆歷史版本" });
+      isDirtyRef.current = false;
+      // 不呼叫 router.refresh()：會觸發 Server Component 重渲染，
+      // 導致 FortuneSheet Workbook 內部 DOM ref 失效（scrollLeft null error）。
+      // 版本歷史 dialog 在每次開啟時會自動重新 fetch，無須手動 refresh。
+    } else {
+      toast.error("儲存失敗，請重試");
+    }
     setSaving(false);
   }
 

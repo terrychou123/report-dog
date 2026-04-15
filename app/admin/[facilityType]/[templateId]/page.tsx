@@ -191,6 +191,9 @@ export default function AdminTemplateEditPage() {
     if (res.ok) {
       toast.success("已儲存");
       isDirtyRef.current = false;
+      // 不呼叫 router.refresh()：會觸發 Server Component 重渲染，
+      // 導致 FortuneSheet Workbook 內部 DOM ref 失效（scrollLeft null error）。
+      // 版本歷史 dialog 在每次開啟時會自動重新 fetch，無須手動 refresh。
     } else {
       toast.error("儲存失敗");
     }

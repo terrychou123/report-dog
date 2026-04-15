@@ -166,6 +166,7 @@ export default async function BlogPostPage({ params }: Props) {
             <p className="text-sm text-muted-foreground mb-10">
               <time dateTime={post.publishedAt.toISOString()}>
                 {new Date(post.publishedAt).toLocaleDateString("zh-TW", {
+                  timeZone: "Asia/Taipei", // 固定台灣時區
                   year: "numeric",
                   month: "long",
                   day: "numeric",

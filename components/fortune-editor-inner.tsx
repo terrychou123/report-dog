@@ -479,7 +479,7 @@ export default function FortuneEditorInner({
     <div className="flex flex-col gap-2">
       {/* FortuneSheet Workbook */}
       <div
-        style={{ height: "calc(100vh - 280px)", minHeight: 600 }}
+        style={{ height: "calc(100dvh - 180px)", minHeight: 600 }}
         onDoubleClick={handleWorkbookMouseUp}
         onPasteCapture={handleFormattedPaste}
       >
@@ -489,6 +489,9 @@ export default function FortuneEditorInner({
             data={sheetsRef.current}
             onChange={handleChange}
             lang="zh-TW"
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-expect-error: statisticBarHeight 存在於 runtime 設定但未宣告在型別中
+            statisticBarHeight={0}
             toolbarItems={[
               "undo", "redo", "clear-format", "|",
               "format", "|",

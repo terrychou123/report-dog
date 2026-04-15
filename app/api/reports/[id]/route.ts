@@ -99,54 +99,58 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
   const body = await req.json();
   const { title, content } = body;
 
-  // 儲存前先建立版本快照（內容有變更時才建立）
-  const [current] = await db
-    .select({ title: reports.title, content: reports.content, fileType: reports.fileType })
-    .from(reports)
-    .where(eq(reports.id, id));
-  const newTitle = title?.trim() ?? current?.title;
-  const newContent = content !== undefined ? content : current?.content;
-  const hasChanges = current && (newTitle !== current.title || newContent !== current.content);
-  if (hasChanges) {
-    const [lastRevision] = await db
-      .select({ versionNumber: reportRevisions.versionNumber })
-      .from(reportRevisions)
-      .where(eq(reportRevisions.reportId, id))
-      .orderBy(desc(reportRevisions.versionNumber))
-      .limit(1);
-    const nextVersion = (lastRevision?.versionNumber ?? 0) + 1;
-    await db.insert(reportRevisions).values({
-      reportId: id,
-      userId,
-      title: current.title,
-      content: current.content,
-      fileType: current.fileType,
-      versionNumber: nextVersion,
-    });
+  // 用 transaction 確保 UPDATE + 版本快照 + 修剪的原子性
+  const MAX_REVISIONS = 5;
+  const [updated] = await db.transaction(async (tx) => {
+    const [current] = await tx
+      .select({ title: reports.title, content: reports.content, fileType: reports.fileType })
+      .from(reports)
+      .where(eq(reports.id, id));
 
-    // 刪除超過 5 筆的舊版本
-    const MAX_REVISIONS = 5;
-    const allRevisions = await db
-      .select({ id: reportRevisions.id })
-      .from(reportRevisions)
-      .where(eq(reportRevisions.reportId, id))
-      .orderBy(desc(reportRevisions.versionNumber));
-    if (allRevisions.length > MAX_REVISIONS) {
-      const idsToDelete = allRevisions.slice(MAX_REVISIONS).map((r) => r.id);
-      await db.delete(reportRevisions).where(inArray(reportRevisions.id, idsToDelete));
+    const newTitle = title?.trim() ?? current?.title;
+    const newContent = content !== undefined ? content : current?.content;
+    const hasChanges = current && (newTitle !== current.title || newContent !== current.content);
+
+    // 先執行 UPDATE，再以更新後的內容建立版本快照
+    // 這樣「版本 #N」對應的內容 = 使用者這次實際儲存的成果
+    const [updatedRow] = await tx
+      .update(reports)
+      .set({
+        ...(title && { title: title.trim() }),
+        ...(content !== undefined && { content }),
+        lastEditedByUserId: userId,
+        updatedAt: new Date(),
+      })
+      .where(eq(reports.id, id))
+      .returning();
+
+    if (hasChanges && updatedRow) {
+      // 一次查詢取得所有既有版本（降冪），同時推導下一個版本號與需刪除的舊版本
+      const existingRevisions = await tx
+        .select({ id: reportRevisions.id, versionNumber: reportRevisions.versionNumber })
+        .from(reportRevisions)
+        .where(eq(reportRevisions.reportId, id))
+        .orderBy(desc(reportRevisions.versionNumber));
+
+      const nextVersion = (existingRevisions[0]?.versionNumber ?? 0) + 1;
+      await tx.insert(reportRevisions).values({
+        reportId: id,
+        userId,
+        title: updatedRow.title,
+        content: updatedRow.content,
+        fileType: updatedRow.fileType,
+        versionNumber: nextVersion,
+      });
+
+      // 插入後共 existingRevisions.length + 1 筆，超出上限的刪除
+      if (existingRevisions.length + 1 > MAX_REVISIONS) {
+        const idsToDelete = existingRevisions.slice(MAX_REVISIONS - 1).map((r) => r.id);
+        await tx.delete(reportRevisions).where(inArray(reportRevisions.id, idsToDelete));
+      }
     }
-  }
 
-  const [updated] = await db
-    .update(reports)
-    .set({
-      ...(title && { title: title.trim() }),
-      ...(content !== undefined && { content }),
-      lastEditedByUserId: userId,
-      updatedAt: new Date(),
-    })
-    .where(eq(reports.id, id))
-    .returning();
+    return [updatedRow];
+  });
 
   if (!updated) return NextResponse.json({ error: "Not found" }, { status: 404 });
   return NextResponse.json(updated);

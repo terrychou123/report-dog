@@ -14,6 +14,7 @@ export function isValidUrl(url: string): boolean {
 
 export function formatZhTWDate(date: string | Date): string {
   return new Date(date).toLocaleDateString("zh-TW", {
+    timeZone: "Asia/Taipei", // 固定台灣時區，避免跨日凌晨日期偏移
     year: "numeric",
     month: "long",
     day: "numeric",
