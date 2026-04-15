@@ -865,8 +865,9 @@ export default function ReportEditorPage() {
 
       {/* 版本歷史 Panel */}
       <ReportHistoryPanel
-        reportId={params.id}
+        endpoint={`/api/reports/${params.id}/revisions`}
         canRestore={report.isOwner === true}
+        hint="免費用戶僅保存最新的五筆資料"
         open={historyOpen}
         onOpenChange={setHistoryOpen}
         onRestored={(content, title) => {

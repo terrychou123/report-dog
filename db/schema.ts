@@ -182,6 +182,23 @@ export const templateImports = pgTable('template_imports', {
   importedAt: timestamp('imported_at', { withTimezone: true }).defaultNow().notNull(),
 });
 
+// 評鑑範本歷史版本（最多保留 5 筆）
+export const templateRevisions = pgTable('template_revisions', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  templateId: uuid('template_id').references(() => reportTemplates.id, { onDelete: 'cascade' }).notNull(),
+  userId: text('user_id').notNull(),
+  title: varchar('title', { length: 255 }).notNull(),
+  content: text('content'),
+  fileType: varchar('file_type', { length: 10 }).notNull().default('excel'),
+  versionNumber: integer('version_number').notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => ({
+  // 加速以 templateId 查詢版本
+  templateIdIdx: index('template_revisions_template_id_idx').on(t.templateId),
+  // 防止並發儲存產生重複版本號
+  templateIdVersionUnique: uniqueIndex('template_revisions_template_id_version_number_unique').on(t.templateId, t.versionNumber),
+}));
+
 export const templateLinks = pgTable('template_links', {
   id: uuid('id').defaultRandom().primaryKey(),
   templateId: uuid('template_id').references(() => reportTemplates.id, { onDelete: 'cascade' }).notNull(),

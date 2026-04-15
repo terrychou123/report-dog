@@ -16,14 +16,15 @@ type Revision = {
 };
 
 type Props = {
-  reportId: string;
+  endpoint: string;
   canRestore: boolean;
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onRestored: (content: string | null, title: string) => void;
+  hint?: string;
 };
 
-export function ReportHistoryPanel({ reportId, canRestore, open, onOpenChange, onRestored }: Props) {
+export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, onRestored, hint }: Props) {
   const [revisions, setRevisions] = useState<Revision[]>([]);
   const [loading, setLoading] = useState(false);
   const [restoringId, setRestoringId] = useState<string | null>(null);
@@ -32,18 +33,18 @@ export function ReportHistoryPanel({ reportId, canRestore, open, onOpenChange, o
     if (!open) return;
     const controller = new AbortController();
     setLoading(true);
-    fetch(`/api/reports/${reportId}/revisions`, { signal: controller.signal })
+    fetch(endpoint, { signal: controller.signal })
       .then((r) => r.json())
       .then((data) => setRevisions(Array.isArray(data) ? data : []))
       .catch((err) => { if (err.name !== "AbortError") toast.error("無法載入版本歷史"); })
       .finally(() => setLoading(false));
     return () => controller.abort();
-  }, [open, reportId]);
+  }, [open, endpoint]);
 
   async function handleRestore(revision: Revision) {
     setRestoringId(revision.id);
     try {
-      const res = await fetch(`/api/reports/${reportId}/revisions`, {
+      const res = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ versionId: revision.id }),
@@ -69,9 +70,9 @@ export function ReportHistoryPanel({ reportId, canRestore, open, onOpenChange, o
           </DialogTitle>
         </DialogHeader>
 
-        <p className="text-xs text-muted-foreground px-1">
-          免費用戶僅保存最新的五筆資料
-        </p>
+        {hint && (
+          <p className="text-xs text-muted-foreground px-1">{hint}</p>
+        )}
 
         <div className="flex-1 overflow-y-auto mt-2 space-y-2">
           {loading ? (

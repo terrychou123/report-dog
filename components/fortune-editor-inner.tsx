@@ -86,6 +86,53 @@ function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
 
 type FsCell = { m?: unknown; v?: unknown; fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } | null | undefined;
 
+// --- 照格式貼上輔助函式 ---
+
+/** CSS 顏色（rgb/rgba/具名色/#hex）→ #rrggbb；透明或無法辨識則回傳 undefined */
+function cssColorToHex(css: string): string | undefined {
+  if (!css || css === "transparent" || css.startsWith("rgba(0, 0, 0, 0)")) return undefined;
+  if (/^#[0-9a-f]{3,8}$/i.test(css)) {
+    // #rgb → #rrggbb
+    if (css.length === 4) return `#${css[1]}${css[1]}${css[2]}${css[2]}${css[3]}${css[3]}`;
+    return css.toLowerCase();
+  }
+  const m = css.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+  if (m) {
+    const hex = (n: string) => parseInt(n).toString(16).padStart(2, "0");
+    return `#${hex(m[1])}${hex(m[2])}${hex(m[3])}`;
+  }
+  return undefined;
+}
+
+/** CSS text-align → FortuneSheet ht（0=置中, 1=靠左, 2=靠右） */
+function mapHAlign(align: string): number | undefined {
+  if (align === "left") return 1;
+  if (align === "center") return 0;
+  if (align === "right") return 2;
+  return undefined;
+}
+
+/** CSS vertical-align → FortuneSheet vt（0=置中, 1=靠上, 2=靠下） */
+function mapVAlign(valign: string): number | undefined {
+  if (valign === "top") return 1;
+  if (valign === "middle") return 0;
+  if (valign === "bottom") return 2;
+  return undefined;
+}
+
+/**
+ * 判斷剪貼簿 HTML 是否來自外部試算表（Excel / Google Sheets）。
+ * FortuneSheet 內部複製不會帶有這些特徵標記，因此回傳 false，讓原生行為處理。
+ */
+function isExternalSpreadsheetHtml(html: string): boolean {
+  return (
+    html.includes("schemas-microsoft-com:office:excel") ||
+    html.includes('ProgId="Excel.Sheet"') ||
+    html.includes("<google-sheets-html-origin>") ||
+    html.includes("data-sheets-value")
+  );
+}
+
 function extractCellStyles(cell: FsCell): { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } | null {
   if (!cell) return null;
   const s: { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } = {};
@@ -173,6 +220,80 @@ export default function FortuneEditorInner({
     sheetsRef.current = data;
     onChanged?.();
   }, [onChanged]);
+
+  /**
+   * 照格式貼上：攔截來自外部 Excel / Google Sheets 的 paste 事件，
+   * 解析剪貼簿 HTML 表格並保留字色、背景、對齊格式。
+   * 純文字或 FortuneSheet 內部複製貼上不受影響（交由 FortuneSheet 原生處理）。
+   */
+  const handleFormattedPaste = useCallback((e: React.ClipboardEvent<HTMLDivElement>) => {
+    const html = e.clipboardData?.getData("text/html") ?? "";
+    // 非外部試算表來源，放行讓 FortuneSheet 原生處理
+    if (!html || !isExternalSpreadsheetHtml(html)) return;
+
+    const wb = workbookRef.current;
+    if (!wb) return;
+    const selection = wb.getSelection();
+    if (!selection || selection.length === 0) return;
+
+    // 阻止 FortuneSheet 預設貼上，改由此函式負責
+    e.preventDefault();
+    e.nativeEvent.stopImmediatePropagation();
+
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    const table = doc.querySelector("table");
+    if (!table) return;
+
+    const anchorRow = selection[0].row[0];
+    const anchorCol = selection[0].column[0];
+
+    // skip set：追蹤因 rowSpan/colSpan 而被主格覆蓋的位置，避免重複寫入
+    const skipMap = new Set<string>();
+
+    let gridR = 0;
+    for (const tr of table.querySelectorAll("tr")) {
+      let gridC = 0;
+      for (const td of tr.querySelectorAll("td, th")) {
+        // 跳過已被合併格佔用的欄位
+        while (skipMap.has(`${gridR}_${gridC}`)) gridC++;
+
+        const el = td as HTMLTableCellElement;
+        const rowSpan = Math.max(1, el.rowSpan ?? 1);
+        const colSpan = Math.max(1, el.colSpan ?? 1);
+        const text = (el.innerText ?? el.textContent ?? "").trim();
+
+        // 讀取 inline style 並轉換為 FortuneSheet 樣式格式
+        const fc = cssColorToHex(el.style.color);
+        const bg = cssColorToHex(el.style.backgroundColor);
+        const ht = mapHAlign(el.style.textAlign);
+        const vt = mapVAlign(el.style.verticalAlign);
+        // whiteSpace normal/pre-wrap 對應 FortuneSheet tb=2（自動換行）
+        const tb = (el.style.whiteSpace === "normal" || el.style.whiteSpace === "pre-wrap") ? 2 : undefined;
+
+        const cellValue: Record<string, unknown> = { v: text, m: text };
+        if (fc) cellValue.fc = fc;
+        if (bg) cellValue.bg = bg;
+        if (ht != null) cellValue.ht = ht;
+        if (vt != null) cellValue.vt = vt;
+        if (tb != null) cellValue.tb = tb;
+
+        wb.setCellValue(anchorRow + gridR, anchorCol + gridC, cellValue);
+
+        // 標記此合併格覆蓋的其他位置（跳過主格本身）
+        for (let dr = 0; dr < rowSpan; dr++) {
+          for (let dc = 0; dc < colSpan; dc++) {
+            if (dr === 0 && dc === 0) continue;
+            skipMap.add(`${gridR + dr}_${gridC + dc}`);
+          }
+        }
+
+        gridC += colSpan;
+      }
+      gridR++;
+    }
+
+    toast.success("已照格式貼上");
+  }, []);
 
   const handleWorkbookMouseUp = useCallback(() => {
     const wb = workbookRef.current;
@@ -360,6 +481,7 @@ export default function FortuneEditorInner({
       <div
         style={{ height: "calc(100vh - 280px)", minHeight: 600 }}
         onDoubleClick={handleWorkbookMouseUp}
+        onPasteCapture={handleFormattedPaste}
       >
         {mounted && (
           <Workbook

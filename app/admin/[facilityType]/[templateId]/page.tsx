@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
@@ -10,10 +10,12 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
-import { ArrowLeftIcon, SaveIcon, BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon, LinkIcon, PlusIcon, XIcon } from "lucide-react";
+import { ArrowLeftIcon, SaveIcon, HistoryIcon, BoldIcon, ItalicIcon, ListIcon, ListOrderedIcon, LinkIcon, PlusIcon, XIcon } from "lucide-react";
 import { toast } from "sonner";
+import sanitizeHtml from "sanitize-html";
 import { isValidUrl } from "@/lib/utils";
 import { FortuneEditor } from "@/components/fortune-editor";
+import { ReportHistoryPanel } from "@/components/report-history-panel";
 import type { Editor } from "@tiptap/core";
 
 type Template = {
@@ -79,6 +81,17 @@ export default function AdminTemplateEditPage() {
   // Excel triggers
   const [excelSaving, setExcelSaving] = useState(false);
   const [excelSaveTrigger, setExcelSaveTrigger] = useState(0);
+  // Excel 還原時用 key 強制重掛載 FortuneEditor
+  const [excelRestoreKey, setExcelRestoreKey] = useState(0);
+  const [excelRestoredData, setExcelRestoredData] = useState<object[] | null>(null);
+
+  // 歷史版本 dialog
+  const [historyOpen, setHistoryOpen] = useState(false);
+
+  // 解析 Excel 初始資料，避免在 JSX 中每次 render 都重新 JSON.parse
+  const parsedTemplateData = useMemo<object[]>(() => {
+    try { return JSON.parse(template?.content || "[]"); } catch { return []; }
+  }, [template?.content]);
 
   const isDirtyRef = useRef(false);
 
@@ -184,6 +197,31 @@ export default function AdminTemplateEditPage() {
     setSaving(false);
   }
 
+  // 還原版本：套用內容到編輯器，讓管理員確認後再按儲存
+  function handleRestore(content: string | null, restoredTitle: string) {
+    setTitle(restoredTitle);
+    isDirtyRef.current = true;
+    if (template?.fileType === "excel") {
+      // Excel：重置 FortuneEditor 資料並強制重掛載
+      try {
+        const parsed = JSON.parse(content ?? "[]");
+        setExcelRestoredData(parsed);
+      } catch {
+        setExcelRestoredData([]);
+      }
+      setExcelRestoreKey((k) => k + 1);
+    } else {
+      // TipTap：先 sanitize 再套用，防止 stored HTML 帶入 script / 事件處理器
+      const safeContent = sanitizeHtml(content ?? "", {
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["table", "thead", "tbody", "tr", "th", "td", "colgroup", "col"]),
+        allowedAttributes: { ...sanitizeHtml.defaults.allowedAttributes, "*": ["style", "class"] },
+        allowProtocolRelative: false,
+      });
+      editor?.commands.setContent(safeContent);
+    }
+    toast.success("已套用版本，請點擊儲存以保留變更");
+  }
+
   if (loading) {
     return (
       <div className="p-8 space-y-4">
@@ -241,6 +279,11 @@ export default function AdminTemplateEditPage() {
           </div>
         </div>
         <div className="flex gap-2 shrink-0 self-end sm:self-auto">
+          {/* 歷史版本回朔按鈕 */}
+          <Button size="sm" variant="outline" onClick={() => setHistoryOpen(true)}>
+            <HistoryIcon className="h-4 w-4 mr-2" />
+            歷史
+          </Button>
           {isExcel ? (
             <Button size="sm" onClick={() => setExcelSaveTrigger(t => t + 1)} disabled={excelSaving}>
               <SaveIcon className="h-4 w-4 mr-2" />
@@ -256,9 +299,11 @@ export default function AdminTemplateEditPage() {
       </div>
 
       {isExcel ? (
+        // key 變動時強制重掛載，用於還原版本後套用新資料
         <FortuneEditor
+          key={excelRestoreKey}
           reportId={template.id}
-          initialData={(() => { try { return JSON.parse(template.content || "[]"); } catch { return []; } })()}
+          initialData={excelRestoredData ?? parsedTemplateData}
           title={title}
           saveTrigger={excelSaveTrigger}
           onSavingChange={setExcelSaving}
@@ -318,6 +363,16 @@ export default function AdminTemplateEditPage() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
+
+      {/* 歷史版本 Dialog */}
+      <ReportHistoryPanel
+        endpoint={`/api/admin/templates/${template.id}/revisions`}
+        canRestore={true}
+        hint="最多保留最新 5 筆版本"
+        open={historyOpen}
+        onOpenChange={setHistoryOpen}
+        onRestored={handleRestore}
+      />
     </div>
   );
 }
