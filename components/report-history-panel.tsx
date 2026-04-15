@@ -92,6 +92,8 @@ export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, o
                   </span>
                   <span className="text-xs text-muted-foreground">
                     {new Date(rev.createdAt).toLocaleString("zh-TW", {
+                      timeZone: "Asia/Taipei", // 固定台灣時區，避免顯示 UTC 時間
+                      year: "numeric",
                       month: "2-digit",
                       day: "2-digit",
                       hour: "2-digit",

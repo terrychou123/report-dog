@@ -57,7 +57,15 @@ export function RevisionList({ revisions, docId }: RevisionListProps) {
     <div className="space-y-3">
       {revisions.map((rev) => {
         const isOpen = expanded === rev.id;
-        const date = new Date(rev.createdAt).toLocaleString();
+        // 固定台灣時區，避免顯示 UTC 時間
+        const date = new Date(rev.createdAt).toLocaleString("zh-TW", {
+          timeZone: "Asia/Taipei",
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+        });
         return (
           <div key={rev.id} className="border rounded-lg overflow-hidden">
             <div className="flex items-center justify-between px-4 py-3 bg-muted/30">

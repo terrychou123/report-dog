@@ -494,6 +494,35 @@ export const daycareDefs: SupplementaryDefsMap = {
         { header: '量測人員', width: 100 },
       ],
     },
+    {
+      // 新入案體檢把關：供護理師審核開案體檢文件，確認傳染病篩檢與慢性病初始數值
+      sheetName: '新入案體檢文件審核與異常追蹤表',
+      archetype: 'inspection-checklist',
+      criteriaIndex: 0,
+      prefillRows: 6, // 預留列：體檢日期 / 胸部X光 / 傳染病篩檢 / 慢性病數值 / 護理總評 + 備用列
+      columns: [
+        { header: '審核項目', width: 140 },
+        { header: '體檢內容說明', width: 220 },
+        { header: '審核結果', width: 110 },
+        { header: '異常值追蹤與處置說明', width: 260 },
+      ],
+    },
+    {
+      // 日常健康管理：強調「異常後的處置」，為評鑑委員重點翻閱欄位
+      sheetName: '日常健康管理與異常處置紀錄表',
+      archetype: 'daily-record',
+      criteriaIndex: 1,
+      prefillRows: 8,
+      columns: [
+        { header: '日期', width: 90 },
+        { header: '個案姓名', width: 110 },
+        { header: '監測項目', width: 120 },
+        { header: '測量數值', width: 110 },
+        { header: '數值判斷', width: 100 },
+        { header: '異常處置與追蹤', width: 260 },
+        { header: '執行人員', width: 110 },
+      ],
+    },
   ],
 
   /** 21. 防疫機制建置情形 */
