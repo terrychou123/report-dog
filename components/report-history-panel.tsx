@@ -7,11 +7,16 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { HistoryIcon, RotateCcwIcon } from "lucide-react";
 import { toast } from "sonner";
 
+type RevisionLink = { name: string; url: string; sortOrder: number };
+
 type Revision = {
   id: string;
   versionNumber: number;
   title: string;
   userId: string;
+  responsible: string | null;
+  links: string | null;   // JSON string: RevisionLink[]
+  tags: string | null;    // JSON string: string[]
   createdAt: string;
 };
 
@@ -20,7 +25,7 @@ type Props = {
   canRestore: boolean;
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  onRestored: (content: string | null, title: string) => void;
+  onRestored: (content: string | null, title: string, responsible?: string | null, links?: RevisionLink[] | null, tags?: string[] | null) => void;
   hint?: string;
 };
 
@@ -50,8 +55,10 @@ export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, o
         body: JSON.stringify({ versionId: revision.id }),
       });
       if (!res.ok) throw new Error();
-      const { content, title } = await res.json();
-      onRestored(content, title);
+      const { content, title, responsible, links, tags } = await res.json();
+      const parsedLinks: RevisionLink[] | null = links ? JSON.parse(links) : null;
+      const parsedTags: string[] | null = tags ? JSON.parse(tags) : null;
+      onRestored(content, title, responsible ?? null, parsedLinks, parsedTags);
       onOpenChange(false);
     } catch {
       toast.error("還原失敗，請稍後再試");
@@ -102,6 +109,24 @@ export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, o
                   </span>
                 </div>
                 <p className="text-sm font-medium truncate">{rev.title}</p>
+                {/* 快照摘要：負責人 / 標籤 / 連結數量 */}
+                <div className="flex flex-wrap gap-x-3 gap-y-0.5">
+                  {rev.responsible && (
+                    <span className="text-xs text-muted-foreground">👤 {rev.responsible}</span>
+                  )}
+                  {rev.tags && (() => {
+                    try {
+                      const t: string[] = JSON.parse(rev.tags);
+                      return t.length > 0 ? <span className="text-xs text-muted-foreground">🏷 {t.join('、')}</span> : null;
+                    } catch { return null; }
+                  })()}
+                  {rev.links && (() => {
+                    try {
+                      const l: RevisionLink[] = JSON.parse(rev.links);
+                      return l.length > 0 ? <span className="text-xs text-muted-foreground">🔗 {l.length} 個連結</span> : null;
+                    } catch { return null; }
+                  })()}
+                </div>
                 {canRestore && (
                   <Button
                     size="sm"

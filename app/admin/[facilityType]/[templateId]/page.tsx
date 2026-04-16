@@ -201,9 +201,47 @@ export default function AdminTemplateEditPage() {
   }
 
   // 還原版本：套用內容到編輯器，讓管理員確認後再按儲存
-  function handleRestore(content: string | null, restoredTitle: string) {
+  async function handleRestore(
+    content: string | null,
+    restoredTitle: string,
+    responsible?: string | null,
+    restoredLinks?: { name: string; url: string; sortOrder: number }[] | null,
+    _restoredTags?: string[] | null,  // tags 為唯讀資訊，不直接還原（由 seed script 管理）
+  ) {
+    if (!template) return;
     setTitle(restoredTitle);
     isDirtyRef.current = true;
+
+    // 還原負責人
+    if (responsible !== undefined) {
+      setTemplate((prev) => prev ? { ...prev, responsible: responsible ?? null } : prev);
+    }
+
+    // 還原連結：刪除現有連結，再批次新增快照中的連結
+    if (restoredLinks !== undefined && restoredLinks !== null) {
+      try {
+        // 刪除所有現有連結
+        await Promise.all(
+          links.map((l) =>
+            fetch(`/api/admin/templates/${template.id}/links/${l.id}`, { method: "DELETE" })
+          )
+        );
+        // 新增快照連結
+        const newLinks: TemplateLink[] = [];
+        for (const lk of restoredLinks) {
+          const res = await fetch(`/api/admin/templates/${template.id}/links`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ name: lk.name, url: lk.url }),
+          });
+          if (res.ok) newLinks.push(await res.json());
+        }
+        setLinks(newLinks);
+      } catch {
+        toast.error("連結還原失敗，其他內容已套用");
+      }
+    }
+
     if (template?.fileType === "excel") {
       // Excel：重置 FortuneEditor 資料並強制重掛載
       try {

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
-import { reportTemplates, templateRevisions } from "@/db/schema";
-import { eq, desc, inArray } from "drizzle-orm";
+import { reportTemplates, templateRevisions, templateLinks, templateTags, templateTagReports } from "@/db/schema";
+import { eq, desc, inArray, asc } from "drizzle-orm";
 import { requireAdminApi } from "@/lib/admin";
 
 export async function GET(
@@ -53,6 +53,19 @@ export async function PUT(
       .returning();
 
     if (hasChanges && updatedRow) {
+      // 查詢連結和標籤快照（與內容一同儲存在版本歷史中）
+      const snapshotLinks = await tx
+        .select({ name: templateLinks.name, url: templateLinks.url, sortOrder: templateLinks.sortOrder })
+        .from(templateLinks)
+        .where(eq(templateLinks.templateId, id))
+        .orderBy(asc(templateLinks.sortOrder));
+
+      const snapshotTagRows = await tx
+        .select({ name: templateTags.name })
+        .from(templateTagReports)
+        .innerJoin(templateTags, eq(templateTagReports.templateTagId, templateTags.id))
+        .where(eq(templateTagReports.reportTemplateId, id));
+
       // 一次查詢取得所有既有版本（降冪），同時推導下一個版本號與需刪除的舊版本
       const existingRevisions = await tx
         .select({ id: templateRevisions.id, versionNumber: templateRevisions.versionNumber })
@@ -68,6 +81,9 @@ export async function PUT(
         title: updatedRow.title,
         content: updatedRow.content,
         fileType: updatedRow.fileType ?? "excel",
+        responsible: updatedRow.responsible ?? null,
+        links: JSON.stringify(snapshotLinks),
+        tags: JSON.stringify(snapshotTagRows.map((r) => r.name)),
         versionNumber: nextVersion,
       });
 

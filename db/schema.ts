@@ -190,6 +190,9 @@ export const templateRevisions = pgTable('template_revisions', {
   title: varchar('title', { length: 255 }).notNull(),
   content: text('content'),
   fileType: varchar('file_type', { length: 10 }).notNull().default('excel'),
+  responsible: varchar('responsible', { length: 100 }),
+  links: text('links'),   // JSON: [{ name, url, sortOrder }]
+  tags: text('tags'),     // JSON: ["標籤名稱1", "標籤名稱2"]
   versionNumber: integer('version_number').notNull(),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 }, (t) => ({

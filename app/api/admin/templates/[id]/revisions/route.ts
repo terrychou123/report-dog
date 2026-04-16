@@ -20,6 +20,9 @@ export async function GET(
       versionNumber: templateRevisions.versionNumber,
       title: templateRevisions.title,
       userId: templateRevisions.userId,
+      responsible: templateRevisions.responsible,
+      links: templateRevisions.links,
+      tags: templateRevisions.tags,
       createdAt: templateRevisions.createdAt,
     })
     .from(templateRevisions)
@@ -57,5 +60,11 @@ export async function POST(
 
   if (!revision) return NextResponse.json({ error: "Revision not found" }, { status: 404 });
 
-  return NextResponse.json({ title: revision.title, content: revision.content });
+  return NextResponse.json({
+    title: revision.title,
+    content: revision.content,
+    responsible: revision.responsible ?? null,
+    links: revision.links ?? null,
+    tags: revision.tags ?? null,
+  });
 }
