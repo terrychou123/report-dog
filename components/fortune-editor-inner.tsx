@@ -86,6 +86,31 @@ function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
 
 type FsCell = { m?: unknown; v?: unknown; fc?: string; bg?: string; ht?: number; vt?: number; tb?: number } | null | undefined;
 
+type FsInlineSegment = { v?: unknown };
+type FsCtLike = { t?: string; s?: unknown };
+type FsCellFull = {
+  m?: unknown; v?: unknown; ct?: FsCtLike;
+  fc?: string; bg?: string; ht?: number; vt?: number; tb?: number;
+} | null | undefined;
+
+// FortuneSheet 多行輸入（Alt+Enter）時切換 inlineStr 模式，把 \n 存進 ct.s[] 並刪除 v/m
+// 優先序：(1) ct.s[] 串接（inlineStr）  (2) raw v  (3) fallback m
+function extractCellText(cell: FsCellFull): string {
+  if (!cell) return "";
+  const ct = cell.ct;
+  if (ct && ct.t === "inlineStr" && Array.isArray(ct.s) && ct.s.length > 0) {
+    let out = "";
+    for (const seg of ct.s as FsInlineSegment[]) {
+      if (seg && seg.v != null) out += String(seg.v);
+    }
+    // FortuneSheet 內部把 \n 轉成 \r\n，序列化前統一回 \n
+    return out.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  }
+  if (cell.v != null) return String(cell.v);
+  if (cell.m != null) return String(cell.m);
+  return "";
+}
+
 // --- 照格式貼上輔助函式 ---
 
 /** CSS 顏色（rgb/rgba/具名色/#hex）→ #rrggbb；透明或無法辨識則回傳 undefined */
@@ -149,7 +174,7 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
     // FortuneSheet 內部使用 sheet.data（2D 陣列），onChange 回傳時 celldata 為空
     if (sheet.data && sheet.data.length > 0) {
       const rows = sheet.data as Array<Array<FsCell>>;
-      const grid: string[][] = rows.map((row) => (row ?? []).map((cell) => String(cell?.m ?? cell?.v ?? "")));
+      const grid: string[][] = rows.map((row) => (row ?? []).map((cell) => extractCellText(cell as FsCellFull)));
       const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number }> = {};
       rows.forEach((row, r) => {
         (row ?? []).forEach((cell, c) => {
@@ -172,7 +197,7 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
     const grid: string[][] = Array.from({ length: maxR + 1 }, () => Array(maxC + 1).fill(""));
     const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
     for (const cell of celldata) {
-      grid[cell.r][cell.c] = String(cell.v?.m ?? cell.v?.v ?? "");
+      grid[cell.r][cell.c] = extractCellText(cell.v as FsCellFull);
       const s = extractCellStyles(cell.v as FsCell);
       if (s) cellStyles[`${cell.r}_${cell.c}`] = s;
     }
