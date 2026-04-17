@@ -76,8 +76,16 @@ function sheetsDataToFortuneSheets(sheetsData: SheetData[]): Sheet[] {
           const ht = style?.ht;
           const vt = style?.vt;
           const tb = style?.tb;
+          // 正規化換行符
+          const normalizedVal = typeof val === "string" ? val.replace(/\r\n/g, "\n").replace(/\r/g, "\n") : String(val ?? "");
+          const isMultiLine = normalizedVal.includes("\n");
+          // 多行文字補 ct（inlineStr）讓 FortuneSheet 正確渲染分行；tb:2 確保自動換行
+          const ct = isMultiLine
+            ? { fa: "General", t: "inlineStr", s: [{ v: normalizedVal.replace(/\n/g, "\r\n") }] }
+            : undefined;
+          const effectiveTb = tb ?? (isMultiLine ? 2 : undefined);
           // FortuneSheet 的 CellStyle 型別將 tb 定義為 string，但實際值為數字（0/1/2），需 cast
-          return { r, c, v: { v: val, m: String(val), ...(mc ? { mc } : {}), ...(fc ? { fc } : {}), ...(bg ? { bg } : {}), ...(ht != null ? { ht } : {}), ...(vt != null ? { vt } : {}), ...(tb != null ? { tb: tb as unknown as string } : {}) } };
+          return { r, c, v: { v: normalizedVal, m: normalizedVal, ...(ct ? { ct } : {}), ...(mc ? { mc } : {}), ...(fc ? { fc } : {}), ...(bg ? { bg } : {}), ...(ht != null ? { ht } : {}), ...(vt != null ? { vt } : {}), ...(effectiveTb != null ? { tb: effectiveTb as unknown as string } : {}) } };
         })
       ),
     };
@@ -178,8 +186,15 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
       const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number }> = {};
       rows.forEach((row, r) => {
         (row ?? []).forEach((cell, c) => {
+          const text = extractCellText(cell as FsCellFull);
           const s = extractCellStyles(cell);
-          if (s) cellStyles[`${r}_${c}`] = s;
+          const needsWrap = text.includes("\n");
+          if (s || needsWrap) {
+            const styles = s ?? {};
+            // 多行文字確保 tb:2 持久化，避免儲存後重新載入塌回一行
+            if (needsWrap && styles.tb == null) styles.tb = 2;
+            if (Object.keys(styles).length) cellStyles[`${r}_${c}`] = styles;
+          }
         });
       });
       return {
@@ -197,9 +212,15 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
     const grid: string[][] = Array.from({ length: maxR + 1 }, () => Array(maxC + 1).fill(""));
     const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number }> = {};
     for (const cell of celldata) {
-      grid[cell.r][cell.c] = extractCellText(cell.v as FsCellFull);
+      const text = extractCellText(cell.v as FsCellFull);
+      grid[cell.r][cell.c] = text;
       const s = extractCellStyles(cell.v as FsCell);
-      if (s) cellStyles[`${cell.r}_${cell.c}`] = s;
+      const needsWrap = text.includes("\n");
+      if (s || needsWrap) {
+        const styles = s ?? {};
+        if (needsWrap && styles.tb == null) styles.tb = 2;
+        if (Object.keys(styles).length) cellStyles[`${cell.r}_${cell.c}`] = styles;
+      }
     }
     return {
       name: sheet.name ?? "Sheet1",

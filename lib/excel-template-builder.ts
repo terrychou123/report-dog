@@ -93,8 +93,8 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
   // 資料列：大部分置中，基準說明（col 2）靠左
   for (let c = 0; c < COLS; c++) {
     cellStyles[`1_${c}`] = c === 2
-      ? { ht: 1, vt: 0 }   // 基準說明靠左
-      : { ht: 0, vt: 0 };  // 其他欄位置中
+      ? { ht: 1, vt: 0, tb: 2 }   // 基準說明靠左、自動換行
+      : { ht: 0, vt: 0 };          // 其他欄位置中
   }
 
   // 審查方式列：靠左
