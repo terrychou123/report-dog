@@ -182,11 +182,13 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
     // FortuneSheet 內部使用 sheet.data（2D 陣列），onChange 回傳時 celldata 為空
     if (sheet.data && sheet.data.length > 0) {
       const rows = sheet.data as Array<Array<FsCell>>;
-      const grid: string[][] = rows.map((row) => (row ?? []).map((cell) => extractCellText(cell as FsCellFull)));
+      const grid: string[][] = [];
       const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; tb?: number }> = {};
       rows.forEach((row, r) => {
+        const gridRow: string[] = [];
         (row ?? []).forEach((cell, c) => {
           const text = extractCellText(cell as FsCellFull);
+          gridRow.push(text);
           const s = extractCellStyles(cell);
           const needsWrap = text.includes("\n");
           if (s || needsWrap) {
@@ -196,6 +198,7 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
             if (Object.keys(styles).length) cellStyles[`${r}_${c}`] = styles;
           }
         });
+        grid.push(gridRow);
       });
       return {
         name: sheet.name ?? "Sheet1",

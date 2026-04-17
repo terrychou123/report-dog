@@ -4,10 +4,15 @@ import { useEffect, useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { HistoryIcon, RotateCcwIcon } from "lucide-react";
+import { HistoryIcon, RotateCcwIcon, UserIcon, TagIcon, LinkIcon } from "lucide-react";
 import { toast } from "sonner";
 
 type RevisionLink = { name: string; url: string; sortOrder: number };
+
+function safeParse<T>(s: string | null): T | null {
+  if (!s) return null;
+  try { return JSON.parse(s) as T; } catch { return null; }
+}
 
 type Revision = {
   id: string;
@@ -112,19 +117,25 @@ export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, o
                 {/* 快照摘要：負責人 / 標籤 / 連結數量 */}
                 <div className="flex flex-wrap gap-x-3 gap-y-0.5">
                   {rev.responsible && (
-                    <span className="text-xs text-muted-foreground">👤 {rev.responsible}</span>
+                    <span className="text-xs text-muted-foreground flex items-center gap-0.5">
+                      <UserIcon className="h-3 w-3" />{rev.responsible}
+                    </span>
                   )}
-                  {rev.tags && (() => {
-                    try {
-                      const t: string[] = JSON.parse(rev.tags);
-                      return t.length > 0 ? <span className="text-xs text-muted-foreground">🏷 {t.join('、')}</span> : null;
-                    } catch { return null; }
+                  {(() => {
+                    const t = safeParse<string[]>(rev.tags);
+                    return t && t.length > 0 ? (
+                      <span className="text-xs text-muted-foreground flex items-center gap-0.5">
+                        <TagIcon className="h-3 w-3" />{t.join('、')}
+                      </span>
+                    ) : null;
                   })()}
-                  {rev.links && (() => {
-                    try {
-                      const l: RevisionLink[] = JSON.parse(rev.links);
-                      return l.length > 0 ? <span className="text-xs text-muted-foreground">🔗 {l.length} 個連結</span> : null;
-                    } catch { return null; }
+                  {(() => {
+                    const l = safeParse<RevisionLink[]>(rev.links);
+                    return l && l.length > 0 ? (
+                      <span className="text-xs text-muted-foreground flex items-center gap-0.5">
+                        <LinkIcon className="h-3 w-3" />{l.length} 個連結
+                      </span>
+                    ) : null;
                   })()}
                 </div>
                 {canRestore && (

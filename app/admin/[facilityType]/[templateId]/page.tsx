@@ -220,13 +220,7 @@ export default function AdminTemplateEditPage() {
     // 還原連結：刪除現有連結，再批次新增快照中的連結
     if (restoredLinks !== undefined && restoredLinks !== null) {
       try {
-        // 刪除所有現有連結
-        await Promise.all(
-          links.map((l) =>
-            fetch(`/api/admin/templates/${template.id}/links/${l.id}`, { method: "DELETE" })
-          )
-        );
-        // 新增快照連結
+        // 先新增快照連結（POST 失敗時舊連結完全不受影響，避免資料遺失）
         const newLinks: TemplateLink[] = [];
         for (const lk of restoredLinks) {
           const res = await fetch(`/api/admin/templates/${template.id}/links`, {
@@ -234,8 +228,16 @@ export default function AdminTemplateEditPage() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name: lk.name, url: lk.url }),
           });
-          if (res.ok) newLinks.push(await res.json());
+          if (!res.ok) throw new Error(`新增連結失敗`);
+          newLinks.push(await res.json());
         }
+        // POST 全部成功後再刪除舊連結
+        await Promise.all(
+          links.map(async (l) => {
+            const res = await fetch(`/api/admin/templates/${template.id}/links/${l.id}`, { method: "DELETE" });
+            if (!res.ok) throw new Error(`刪除連結失敗: ${l.id}`);
+          })
+        );
         setLinks(newLinks);
       } catch {
         toast.error("連結還原失敗，其他內容已套用");
