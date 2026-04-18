@@ -121,6 +121,13 @@ export const schoolNavSections: SchoolNavSection[] = [
         icon: ShieldIcon,
         desc: "高齡友善環境、盥洗衛生設備、休息場所、飲用水、廚房衛生、病媒防治",
       },
+      {
+        href: "/school/daycare/bonus",
+        label: "伍、加分題",
+        title: "加分題評鑑基準（項目 44–45）",
+        icon: StarIcon,
+        desc: "原住民族文化敏感度、監視錄影設備，最多加 3 分",
+      },
     ],
   },
   {

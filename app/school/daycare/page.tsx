@@ -100,6 +100,10 @@ const jsonLd = educationalContentJsonLd({
       name: "肆、安全環境設備（項目 38–43）",
       url: "https://reportwang.com/school/daycare/safety-environment",
     },
+    {
+      name: "伍、加分題（項目 44–45）",
+      url: "https://reportwang.com/school/daycare/bonus",
+    },
   ],
 });
 
@@ -217,16 +221,17 @@ export default function DaycarePage() {
           </p>
           <div className="space-y-1">
             {bonusSection.items.map((item) => (
-              <div
+              <Link
                 key={item.id}
-                className="flex items-center gap-3 rounded-lg px-3 py-2 bg-background/50"
+                href={`/school/daycare/bonus#item-${item.id}`}
+                className="flex items-center gap-3 rounded-lg px-3 py-2 bg-background/50 hover:bg-yellow-500/10 transition-colors group"
               >
                 <StarIcon className="shrink-0 h-4 w-4 text-yellow-500" />
-                <span className="text-sm">{item.title}</span>
+                <span className="text-sm group-hover:text-yellow-700 dark:group-hover:text-yellow-300 transition-colors">{item.title}</span>
                 <Badge variant="outline" className="ml-auto text-xs shrink-0">
                   {item.responsible}
                 </Badge>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
