@@ -15,7 +15,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { reportTemplates } from '../db/schema';
 import { getDbUrl } from '../db/index';
-import type { SheetData } from '../lib/excel-template-builder';
+import { truncateSheetName, type SheetData } from '../lib/excel-template-builder';
 
 // ── 中間 JSON 格式型別 ────────────────────────────────────────────────────────
 
@@ -97,12 +97,6 @@ function buildCellStyles(
 
 // ── 轉換為 SheetData 格式 ─────────────────────────────────────────────────────
 
-const MAX_SHEET_NAME_LENGTH = 20;
-
-function truncateSheetName(name: string): string {
-  return name.length > MAX_SHEET_NAME_LENGTH ? name.slice(0, MAX_SHEET_NAME_LENGTH) : name;
-}
-
 function toSheetData(extracted: ExtractedSheet): SheetData {
   const name = truncateSheetName(extracted.sheetName);
 
@@ -176,9 +170,7 @@ async function main() {
     let totalSkipped = 0;
     let totalNotFound = 0;
 
-    // 先計算所有待更新項目（不含 DB 寫入），用於 transaction 內批次執行
-    type PendingUpdate = { templateId: string; updatedSheets: SheetData[] };
-    const pendingUpdates: PendingUpdate[] = [];
+    const pendingUpdates: { templateId: string; updatedSheets: SheetData[] }[] = [];
 
     for (const [templateNumber, sheetsToAdd] of sheetsByTemplate) {
       // 比對範本標題（title 格式："{number} {name}"）
@@ -233,7 +225,6 @@ async function main() {
       });
     }
 
-    // 所有更新包在單一 transaction，確保原子性（全部成功或全部回滾）
     if (!dryRun && pendingUpdates.length > 0) {
       await db.transaction(async (tx) => {
         for (const { templateId, updatedSheets } of pendingUpdates) {

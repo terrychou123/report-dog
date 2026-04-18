@@ -9,6 +9,11 @@
  */
 import type { SupplementarySheetDef } from './supplementary-sheet-types';
 
+const MAX_SHEET_NAME_LENGTH = 20;
+export function truncateSheetName(name: string): string {
+  return name.length > MAX_SHEET_NAME_LENGTH ? name.slice(0, MAX_SHEET_NAME_LENGTH) : name;
+}
+
 export type SheetData = {
   name: string;
   data: string[][];
@@ -218,7 +223,7 @@ export function buildSupplementarySheetData(
   }
 
   return {
-    name: def.sheetName.length > 20 ? def.sheetName.slice(0, 20) : def.sheetName,
+    name: truncateSheetName(def.sheetName),
     data,
     config: {
       columnlen,
