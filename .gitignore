@@ -47,3 +47,6 @@ next-env.d.ts
 
 # python cache
 __pycache__/
+
+# scripts: 中間產出資料（可由 extract-numbers-to-json.py 重新產生）
+scripts/numbers-extracted-*.json

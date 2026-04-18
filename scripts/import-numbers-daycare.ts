@@ -97,11 +97,14 @@ function buildCellStyles(
 
 // ── 轉換為 SheetData 格式 ─────────────────────────────────────────────────────
 
+const MAX_SHEET_NAME_LENGTH = 20;
+
+function truncateSheetName(name: string): string {
+  return name.length > MAX_SHEET_NAME_LENGTH ? name.slice(0, MAX_SHEET_NAME_LENGTH) : name;
+}
+
 function toSheetData(extracted: ExtractedSheet): SheetData {
-  // 分頁名稱超過 20 字截斷（與現有邏輯一致）
-  const name = extracted.sheetName.length > 20
-    ? extracted.sheetName.slice(0, 20)
-    : extracted.sheetName;
+  const name = truncateSheetName(extracted.sheetName);
 
   return {
     name,
@@ -173,6 +176,10 @@ async function main() {
     let totalSkipped = 0;
     let totalNotFound = 0;
 
+    // 先計算所有待更新項目（不含 DB 寫入），用於 transaction 內批次執行
+    type PendingUpdate = { templateId: string; updatedSheets: SheetData[] };
+    const pendingUpdates: PendingUpdate[] = [];
+
     for (const [templateNumber, sheetsToAdd] of sheetsByTemplate) {
       // 比對範本標題（title 格式："{number} {name}"）
       const template = templates.find((t) =>
@@ -188,7 +195,13 @@ async function main() {
       // 解析既有 content
       let existingSheets: SheetData[] = [];
       try {
-        existingSheets = JSON.parse(template.content ?? '[]');
+        const parsed = JSON.parse(template.content ?? '[]');
+        if (!Array.isArray(parsed)) {
+          console.warn(`  ⚠️  範本 #${templateNumber}「${template.title}」的 content 非陣列格式，跳過`);
+          totalNotFound += sheetsToAdd.length;
+          continue;
+        }
+        existingSheets = parsed;
       } catch {
         console.warn(`  ⚠️  範本 #${templateNumber}「${template.title}」的 content 解析失敗，跳過`);
         totalNotFound += sheetsToAdd.length;
@@ -199,9 +212,7 @@ async function main() {
       const newSheets: SheetData[] = [];
 
       for (const extracted of sheetsToAdd) {
-        const sheetName = extracted.sheetName.length > 20
-          ? extracted.sheetName.slice(0, 20)
-          : extracted.sheetName;
+        const sheetName = truncateSheetName(extracted.sheetName);
 
         if (existingNames.has(sheetName)) {
           console.log(`  ⏭️  項目 #${templateNumber} 「${sheetName}」已存在，跳過`);
@@ -216,17 +227,25 @@ async function main() {
 
       if (newSheets.length === 0) continue;
 
-      const updatedSheets = [...existingSheets, ...newSheets];
+      pendingUpdates.push({
+        templateId: template.id,
+        updatedSheets: [...existingSheets, ...newSheets],
+      });
+    }
 
-      if (!dryRun) {
-        await db
-          .update(reportTemplates)
-          .set({
-            content: JSON.stringify(updatedSheets),
-            updatedAt: new Date(),
-          })
-          .where(eq(reportTemplates.id, template.id));
-      }
+    // 所有更新包在單一 transaction，確保原子性（全部成功或全部回滾）
+    if (!dryRun && pendingUpdates.length > 0) {
+      await db.transaction(async (tx) => {
+        for (const { templateId, updatedSheets } of pendingUpdates) {
+          await tx
+            .update(reportTemplates)
+            .set({
+              content: JSON.stringify(updatedSheets),
+              updatedAt: new Date(),
+            })
+            .where(eq(reportTemplates.id, templateId));
+        }
+      });
     }
 
     console.log('\n📋 匯入結果：');

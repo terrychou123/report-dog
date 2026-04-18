@@ -11,6 +11,12 @@ const TITLE_ROW_HEIGHT = 30;
 const DATA_ROW_BASE_HEIGHT = 30;
 const NOTE_ROW_HEIGHT = 22;
 const POLICY_SECTION_HEIGHT = 54;
+const PIXELS_PER_BULLET_LINE = 24;
+const SECTION_ROW_PADDING = 16;
+
+function sectionRowHeight(numBullets: number): number {
+  return Math.max(POLICY_SECTION_HEIGHT, numBullets * PIXELS_PER_BULLET_LINE + SECTION_ROW_PADDING);
+}
 
 type CellStyleMap = Record<
   string,
@@ -127,7 +133,7 @@ function buildPolicySheet(): SheetData {
     cellStyles[`${row}_0`] = { ht: 1, vt: 1, bold: true, tb: 2 };
     // Col 1（內容）：靠左、上對齊、自動換行
     cellStyles[`${row}_1`] = { ht: 1, vt: 1, tb: 2 };
-    rowlen[String(row)] = Math.max(POLICY_SECTION_HEIGHT, s.bullets.length * 24 + 16);
+    rowlen[String(row)] = sectionRowHeight(s.bullets.length);
   });
 
   return {
@@ -357,7 +363,7 @@ function buildSOPSheet(): SheetData {
     data.push([s.step, bulletText]);
     cellStyles[`${row}_0`] = { ht: 0, vt: 1, bold: true };
     cellStyles[`${row}_1`] = { ht: 1, vt: 1, tb: 2 };
-    rowlen[String(row)] = Math.max(POLICY_SECTION_HEIGHT, s.bullets.length * 24 + 16);
+    rowlen[String(row)] = sectionRowHeight(s.bullets.length);
   });
 
   return {

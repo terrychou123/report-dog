@@ -31,8 +31,6 @@ export const metadata: Metadata = {
 
 const section = daycareProfile.sections.find((s) => s.shortCode === "加")!;
 
-const tips = daycareTips;
-
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
   name: "伍、加分題（日間照顧機構評鑑基準項目 44–45）",
@@ -110,9 +108,9 @@ export default function DaycareBonusPage() {
               </ol>
             </div>
 
-            {tips[item.id] && (
-              <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
-                {tips[item.id].content}
+            {daycareTips[item.id] && (
+              <DocsTip variant={daycareTips[item.id].variant ?? "neutral"} title="準備要訣">
+                {daycareTips[item.id].content}
               </DocsTip>
             )}
           </section>

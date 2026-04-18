@@ -69,17 +69,24 @@ def parse_merge_range(range_str: str):
     start_row = int(match.group(2)) - 1  # 轉 0-based
     end_col = col_letter_to_index(match.group(3))
     end_row = int(match.group(4)) - 1
+    rs = end_row - start_row + 1
+    cs = end_col - start_col + 1
+    if rs < 1 or cs < 1:
+        return None  # 反向範圍，忽略
     return {
         "r": start_row,
         "c": start_col,
-        "rs": end_row - start_row + 1,
-        "cs": end_col - start_col + 1,
+        "rs": rs,
+        "cs": cs,
     }
 
 
 def extract_sheet(sheet, template_number: int, sheet_name: str) -> dict:
     """提取單一工作分頁的資料為字典格式。"""
-    table = list(sheet.tables)[0]  # 每個工作分頁只有一個表格
+    tables = list(sheet.tables)
+    if not tables:
+        raise ValueError(f"工作分頁「{sheet_name}」沒有表格，無法提取資料")
+    table = tables[0]
 
     num_rows = table.num_rows
     num_cols = table.num_cols
