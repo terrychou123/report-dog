@@ -22,6 +22,7 @@ import { eq, desc, inArray, asc } from 'drizzle-orm';
 import { getDbUrl } from '../db/index';
 import { buildItemMultiSheetData, serializeSheetData } from '../lib/excel-template-builder';
 import { getSupplementaryDefs } from '../lib/supplementary-sheets/index';
+import { getCustomSheets } from '../lib/supplementary-sheets/custom-sheet-builders';
 import { getEvaluationTip } from '../lib/evaluation-tips/index';
 
 // Import all profiles directly (no path alias needed)
@@ -264,9 +265,13 @@ async function main() {
           const title = `${item.id} ${item.title}`;
           // 產生自動內容，用於與 DB 現有內容比對
           const supplementaryDefs = getSupplementaryDefs(profile.id, item.id);
+          const customSheets = getCustomSheets(profile.id, item.id);
           const tip = getEvaluationTip(profile.id, item.id);
           const itemWithTip = tip ? { ...item, tip: tip.content } : item;
-          const sheets = buildItemMultiSheetData(itemWithTip, supplementaryDefs);
+          const sheets = [
+            ...buildItemMultiSheetData(itemWithTip, supplementaryDefs),
+            ...customSheets,
+          ];
           const generatedContent = serializeSheetData(sheets);
 
           const existing = templateMap.get(title);
