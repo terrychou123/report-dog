@@ -6,6 +6,7 @@
  * `buildItemMultiSheetData` 的結果後方，串接該項目的客製分頁。
  */
 import type { SheetData } from "../excel-template-builder";
+import { buildDaycareItem24CustomSheets } from "./daycare-item-24-custom";
 import { buildDaycareItem45CustomSheets } from "./daycare-item-45-custom";
 
 type CustomSheetBuilder = () => SheetData[];
@@ -15,6 +16,7 @@ type CustomSheetBuilder = () => SheetData[];
  */
 const CUSTOM_SHEET_BUILDERS: Record<string, Record<number, CustomSheetBuilder>> = {
   daycare: {
+    24: buildDaycareItem24CustomSheets,
     45: buildDaycareItem45CustomSheets,
   },
 };
