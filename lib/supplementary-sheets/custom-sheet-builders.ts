@@ -6,7 +6,10 @@
  * `buildItemMultiSheetData` 的結果後方，串接該項目的客製分頁。
  */
 import type { SheetData } from "../excel-template-builder";
+import { buildDaycareItem3CustomSheets } from "./daycare-item-3-custom";
+import { buildDaycareItem4CustomSheets } from "./daycare-item-4-custom";
 import { buildDaycareItem24CustomSheets } from "./daycare-item-24-custom";
+import { buildDaycareItem35CustomSheets } from "./daycare-item-35-custom";
 import { buildDaycareItem45CustomSheets } from "./daycare-item-45-custom";
 
 type CustomSheetBuilder = () => SheetData[];
@@ -16,7 +19,10 @@ type CustomSheetBuilder = () => SheetData[];
  */
 const CUSTOM_SHEET_BUILDERS: Record<string, Record<number, CustomSheetBuilder>> = {
   daycare: {
+    3:  buildDaycareItem3CustomSheets,
+    4:  buildDaycareItem4CustomSheets,
     24: buildDaycareItem24CustomSheets,
+    35: buildDaycareItem35CustomSheets,
     45: buildDaycareItem45CustomSheets,
   },
 };
