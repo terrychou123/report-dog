@@ -21,7 +21,7 @@ const WIKI_BASE = path.join(process.cwd(), 'knowledge', 'wiki');
 // 外部法規資料目錄
 const REGULATIONS_BASE = path.join(process.cwd(), 'knowledge', 'sources', 'external', 'regulations');
 
-// 法規注入的字元預算（4000 總預算內保留 2000 給法規）
+// 法規注入的字元預算（與 wiki 的 DEFAULT_BUDGET 各自獨立，最多額外增加 2000 字元）
 const REGULATION_BUDGET = 2000;
 
 /** 預設 context budget（字元數），約 ~1000 tokens */

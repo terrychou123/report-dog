@@ -32,12 +32,17 @@ const MAX_REVISIONS = 5;
 
 const args = process.argv.slice(2);
 const isDryRun = !args.includes("--no-dry-run");
-const idsArg = args.find((a) => a.startsWith("--ids=")) ?? args[args.indexOf("--ids") + 1];
+const idsArg = (() => {
+  const flagIndex = args.indexOf("--ids");
+  if (flagIndex !== -1 && args[flagIndex + 1]) return args[flagIndex + 1];
+  const eqFlag = args.find((a) => a.startsWith("--ids="));
+  return eqFlag ? eqFlag.slice("--ids=".length) : null;
+})();
 if (!idsArg) {
   console.error("❌ 必須傳入 --ids <comma-list-of-templateId>");
   process.exit(1);
 }
-const targetIds = idsArg.replace(/^--ids=/, "").split(",").map((s) => s.trim()).filter(Boolean);
+const targetIds = idsArg.split(",").map((s) => s.trim()).filter(Boolean);
 if (targetIds.length === 0) {
   console.error("❌ --ids 清單為空");
   process.exit(1);

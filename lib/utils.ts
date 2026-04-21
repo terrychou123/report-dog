@@ -21,6 +21,13 @@ export function formatZhTWDate(date: string | Date): string {
   });
 }
 
+/** 讀取必要環境變數；未設定時拋出明確錯誤，避免靜默失敗 */
+export function requireEnv(key: string): string {
+  const val = process.env[key];
+  if (!val) throw new Error(`${key} is not set`);
+  return val;
+}
+
 export function hasEnvVars() {
   return !!(
     process.env.NEXT_PUBLIC_SUPABASE_URL &&
