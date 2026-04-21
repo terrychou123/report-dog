@@ -3,8 +3,8 @@ import { createClient } from "@/lib/supabase/server";
 import { requireEnv } from "@/lib/utils";
 
 export async function requireBlogAdmin(): Promise<void> {
-  const blogAdminEmail = requireEnv("BLOG_ADMIN_EMAIL");
   const supabase = await createClient();
+  const blogAdminEmail = requireEnv("BLOG_ADMIN_EMAIL");
   await supabase.auth.getClaims();
   const { data: { user }, error } = await supabase.auth.getUser();
   if (error || !user?.email || user.email !== blogAdminEmail) {
@@ -13,9 +13,9 @@ export async function requireBlogAdmin(): Promise<void> {
 }
 
 export async function isBlogAdmin(): Promise<boolean> {
-  const blogAdminEmail = requireEnv("BLOG_ADMIN_EMAIL");
   try {
     const supabase = await createClient();
+    const blogAdminEmail = requireEnv("BLOG_ADMIN_EMAIL");
     await supabase.auth.getClaims();
     const { data: { user }, error } = await supabase.auth.getUser();
     if (error || !user?.email) return false;
