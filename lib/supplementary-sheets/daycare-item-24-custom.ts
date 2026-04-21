@@ -765,6 +765,228 @@ function buildIncidentSOPSheet(): SheetData {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
+// [補] 工作手冊缺失節（依法規第 24 項 criteria 2 補齊）
+// 法規明文要求工作手冊應包含：個資保護、員工申訴相關流程、緊急事件求助與通報聯繫窗口
+// ─────────────────────────────────────────────────────────────────────────────
+
+/** [補] 個資保護政策 */
+function build補_個資保護政策Sheet(): SheetData {
+  const numCols = 2;
+  const cellStyles: CellStyleMap = {};
+  const merge: MergeMap = {};
+  const rowlen: Record<string, number> = {};
+  let rowIdx = 0;
+
+  const data: string[][] = [];
+
+  // 標題列
+  data.push(['[補] 個人資料保護政策', '']);
+  setTitleRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = TITLE_ROW_HEIGHT;
+  rowIdx++;
+
+  // 法規依據說明
+  data.push(['依個人資料保護法及長期照顧服務法相關規定，本機構訂定以下個資保護規範。\n本文件為工作手冊第三章「個人資料保護」，至少每年審閱一次。', '']);
+  setNoteRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = 60;
+  rowIdx++;
+
+  const sections = [
+    {
+      title: '一、個資蒐集目的',
+      content: '1. 蒐集目的：提供長期照顧服務、機構管理、政府申報及評鑑所需\n2. 蒐集項目：個案姓名、身分證號、聯絡資訊、健康狀況、照顧計畫及相關評估紀錄\n3. 非必要資料不得蒐集；蒐集前應取得當事人或法定代理人書面同意',
+    },
+    {
+      title: '二、個資利用範圍',
+      content: '1. 限本機構服務提供所需範圍內利用\n2. 不得將個資提供予無關第三方；委外時需簽訂保密協定\n3. 員工離職後應繼續遵守保密義務',
+    },
+    {
+      title: '三、個資保存期限',
+      content: '1. 長照服務紀錄依長照服務法第 38 條規定保存 7 年\n2. 超過保存期限之資料，以確保無法還原之方式銷毀（紙本碎紙、電子永久刪除）',
+    },
+    {
+      title: '四、當事人權利（個資法第 3 條）',
+      content: '當事人得就其個人資料行使下列權利：\n1. 查詢或請求閱覽\n2. 請求製給複製本\n3. 請求補充或更正\n4. 請求停止蒐集、處理或利用\n5. 請求刪除（若無保存義務衝突）\n申請方式：填寫「個案資料借閱申請表」，經主管核准後執行',
+    },
+    {
+      title: '五、資安保護措施',
+      content: '1. 紙本個案資料鎖存於專用文件櫃，非授權人員不得取閱\n2. 電子系統設有帳號密碼管控，每人一帳號，定期更換密碼\n3. 辦公電腦設置螢幕自動鎖定（閒置 5 分鐘）\n4. 機密文件列印後不得遺忘於印表機',
+    },
+    {
+      title: '六、個資外洩通報流程',
+      content: '1. 發現個資外洩或疑似外洩時，立即通報主管\n2. 主管評估影響範圍，若屬重大外洩，24 小時內通報主管機關\n3. 通知受影響當事人，說明事件及因應措施\n4. 紀錄外洩事件處理情形並追蹤改善',
+    },
+    {
+      title: '七、本政策審閱紀錄',
+      content: '審閱日期：___________　審閱人：___________　版次：___________',
+    },
+  ];
+
+  for (const section of sections) {
+    // 節標題列
+    data.push([section.title, '']);
+    cellStyles[`${rowIdx}_0`] = { bold: true, ht: 1, vt: 0 };
+    merge[`${rowIdx}_0`] = { r: rowIdx, c: 0, rs: 1, cs: numCols };
+    rowlen[String(rowIdx)] = HEADER_ROW_HEIGHT;
+    rowIdx++;
+
+    // 內容列
+    const lines = section.content.split('\n').length;
+    data.push(['', section.content]);
+    setDataRow(cellStyles, rowIdx, numCols);
+    rowlen[String(rowIdx)] = sectionRowHeight(lines);
+    rowIdx++;
+  }
+
+  return {
+    name: '[補] 個資保護政策',
+    data,
+    config: {
+      columnlen: { '0': 160, '1': 620 },
+      rowlen,
+      merge,
+    },
+    cellStyles,
+  };
+}
+
+/** [補] 員工申訴流程 */
+function build補_員工申訴流程Sheet(): SheetData {
+  const numCols = 2;
+  const cellStyles: CellStyleMap = {};
+  const merge: MergeMap = {};
+  const rowlen: Record<string, number> = {};
+  let rowIdx = 0;
+
+  const data: string[][] = [];
+
+  data.push(['[補] 員工申訴流程', '']);
+  setTitleRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = TITLE_ROW_HEIGHT;
+  rowIdx++;
+
+  data.push(['依性別工作平等法、勞動基準法及本機構工作規則訂定，適用全體員工（含工作人員間、工作人員與個案/家屬間）。\n本文件為工作手冊第四章「員工申訴」，至少每年審閱一次。', '']);
+  setNoteRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = 60;
+  rowIdx++;
+
+  const sections = [
+    {
+      title: '一、申訴管道',
+      content: '1. 書面申訴：填寫「員工申訴表」，投入機構申訴箱（設於___________）\n2. 電子申訴：發送郵件至申訴信箱 ___________（由主管機關指定）\n3. 電話申訴：聯絡業務負責人/督導 ___________\n4. 外部管道：臺北市政府社會局 ___________、勞動局 ___________',
+    },
+    {
+      title: '二、受理流程',
+      content: '1. 收到申訴後 3 個工作日內確認受理，並通知申訴人\n2. 指定申訴調查委員（需迴避與事件相關人員）\n3. 調查期間不超過 30 日（複雜案件得延長 30 日）\n4. 調查結果書面通知申訴人，並說明處理結果及後續追蹤計畫',
+    },
+    {
+      title: '三、處理時限',
+      content: '1. 受理確認：3 個工作日\n2. 初步調查：10 個工作日\n3. 最終結論通知：30 個工作日（自受理日起）\n4. 若無法在時限內完成，需向申訴人說明原因',
+    },
+    {
+      title: '四、保密原則',
+      content: '1. 申訴案件相關資訊限參與處理人員知悉\n2. 調查紀錄存放於申訴專用文件櫃，非授權人員不得取閱\n3. 申訴人身分及申訴內容除法規要求外，不得對外揭露',
+    },
+    {
+      title: '五、不利對待禁止',
+      content: '1. 機構不得因員工提出申訴而給予解僱、降調、減薪、不當調職等不利處分\n2. 如受到不利對待，員工得向臺北市政府勞動局或社會局提出申訴\n3. 任何阻礙申訴或報復申訴人之行為，依法追究責任',
+    },
+    {
+      title: '六、本流程審閱紀錄',
+      content: '審閱日期：___________　審閱人：___________　版次：___________',
+    },
+  ];
+
+  for (const section of sections) {
+    data.push([section.title, '']);
+    cellStyles[`${rowIdx}_0`] = { bold: true, ht: 1, vt: 0 };
+    merge[`${rowIdx}_0`] = { r: rowIdx, c: 0, rs: 1, cs: numCols };
+    rowlen[String(rowIdx)] = HEADER_ROW_HEIGHT;
+    rowIdx++;
+
+    const lines = section.content.split('\n').length;
+    data.push(['', section.content]);
+    setDataRow(cellStyles, rowIdx, numCols);
+    rowlen[String(rowIdx)] = sectionRowHeight(lines);
+    rowIdx++;
+  }
+
+  return {
+    name: '[補] 員工申訴流程',
+    data,
+    config: {
+      columnlen: { '0': 160, '1': 620 },
+      rowlen,
+      merge,
+    },
+    cellStyles,
+  };
+}
+
+/** [補] 緊急事件聯繫窗口（含職安法 8hr 通報、長照法 24hr 通報等法定時限） */
+function build補_緊急聯繫窗口Sheet(): SheetData {
+  const numCols = 4;
+  const cellStyles: CellStyleMap = {};
+  const merge: MergeMap = {};
+  const rowlen: Record<string, number> = {};
+  let rowIdx = 0;
+
+  const data: string[][] = [];
+
+  data.push(['[補] 緊急事件聯繫窗口', '', '', '']);
+  setTitleRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = TITLE_ROW_HEIGHT;
+  rowIdx++;
+
+  data.push(['依長期照顧服務法第 19 條、職業安全衛生法第 37 條及長期照顧服務機構設立許可及管理辦法第 36 條，本機構訂定緊急事件通報聯繫窗口。\n法定通報時限：嚴重職業災害 8hr 內通報勞動部；服務對象事故 24hr 內通知地方主管機關；重大服務事故 2hr 內通報主管機關。', '', '', '']);
+  setNoteRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = 80;
+  rowIdx++;
+
+  // 欄頭列
+  data.push(['聯繫對象', '聯繫電話', '通報時限', '備註']);
+  setHeaderRow(cellStyles, rowIdx, numCols);
+  rowlen[String(rowIdx)] = HEADER_ROW_HEIGHT;
+  rowIdx++;
+
+  const contacts = [
+    ['【機構內部】業務負責人', '___________', '立即', '24 小時聯絡'],
+    ['【機構內部】值班督導/護理師', '___________', '立即', ''],
+    ['【醫療】119 急救', '119', '立即', '情況危急時先撥 119'],
+    ['【警察】110', '110', '立即', '犯罪/暴力事件'],
+    ['【主管機關】臺北市政府社會局', '(02)27208889', '24hr 內', '服務對象事故；重大事故 2hr 內'],
+    ['【主管機關】臺北市政府勞動局', '1999 轉 2', '8hr 內（嚴重職災）', '職業災害通報'],
+    ['【中央】勞動部職安署', '0800-085-151', '8hr 內（嚴重職災）', '致死或重傷職災'],
+    ['【衛生】疾管署疫情通報', '1922', '依疾病通報時限', '法定傳染病、群聚感染'],
+    ['【家屬聯絡】個案緊急聯絡人', '___________', '事件發生後盡速', '見個案照顧計畫'],
+  ];
+
+  for (const contact of contacts) {
+    data.push(contact);
+    setDataRow(cellStyles, rowIdx, numCols);
+    rowlen[String(rowIdx)] = DATA_ROW_BASE_HEIGHT;
+    rowIdx++;
+  }
+
+  // 備注列
+  data.push(['注意事項：通報後應留存通報紀錄（時間、受理人、通報內容），並於事後進行事件檢討分析（見意外事件報告表及事件檢討分析報告表）。', '', '', '']);
+  setNoteRow(cellStyles, merge, rowIdx, numCols);
+  rowlen[String(rowIdx)] = NOTE_ROW_HEIGHT * 2;
+  rowIdx++;
+
+  return {
+    name: '[補] 緊急事件聯繫窗口',
+    data,
+    config: {
+      columnlen: { '0': 240, '1': 160, '2': 180, '3': 200 },
+      rowlen,
+      merge,
+    },
+    cellStyles,
+  };
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 export function buildDaycareItem24CustomSheets(): SheetData[] {
   return [
@@ -775,5 +997,9 @@ export function buildDaycareItem24CustomSheets(): SheetData[] {
     buildAttendanceSheet(),
     buildPerformanceSheet(),
     buildIncidentSOPSheet(),
+    // [補] 法規第 24 項缺漏的 3 節：個資保護、員工申訴、緊急聯繫窗口
+    build補_個資保護政策Sheet(),
+    build補_員工申訴流程Sheet(),
+    build補_緊急聯繫窗口Sheet(),
   ];
 }

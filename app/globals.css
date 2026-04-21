@@ -126,8 +126,32 @@
 .tiptap-blog .ProseMirror hr { border: none; border-top: 1px solid hsl(var(--border)); margin: 1.5rem 0; }
 .tiptap-blog .ProseMirror p.is-empty::before { content: attr(data-placeholder); color: hsl(var(--muted-foreground)); float: left; height: 0; pointer-events: none; }
 
-/* FortuneSheet 底部頁籤 bar：擴大頁籤顯示區，縮放控制只占自身需要的寬度 */
-.luckysheet-sheet-area #luckysheet-sheet-content { flex: 1 1 auto !important; }
-.luckysheet-sheet-area #luckysheet-bottom-pager { flex: 0 0 auto !important; width: auto !important; }
-/* 解除套件寫死的 54% 上限，讓頁籤容器真的延伸到 pager 之前 */
-.luckysheet-sheet-area .fortune-sheettab-container { max-width: 100% !important; }
+/* FortuneSheet 底部頁籤 bar：
+   1. 保證右側縮放控制區有固定寬度可用
+   2. 讓左側頁籤區佔用剩餘空間並可橫向捲動，而非撐滿把 pager 擠出去 */
+.luckysheet-sheet-area #luckysheet-sheet-content {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+}
+.luckysheet-sheet-area #luckysheet-bottom-pager {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  min-width: 160px !important;
+}
+.luckysheet-sheet-area .fortune-sheettab-container {
+  max-width: 100% !important;
+  display: block !important;
+}
+.luckysheet-sheet-area .fortune-sheettab-container .fortune-sheettab-container-c {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scrollbar-width: thin !important;
+}
+.luckysheet-sheet-area .fortune-sheettab-container .fortune-sheettab-container-c::-webkit-scrollbar {
+  height: 6px;
+}
+.luckysheet-sheet-area .fortune-sheettab-container .fortune-sheettab-container-c::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}

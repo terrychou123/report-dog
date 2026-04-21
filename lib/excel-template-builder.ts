@@ -196,6 +196,15 @@ export function buildSupplementarySheetData(
     Array(numCols).fill("")
   );
 
+  // Apply prefillCells into data rows
+  if (def.prefillCells) {
+    for (const cell of def.prefillCells) {
+      if (cell.row < dataRows.length && cell.col < numCols) {
+        dataRows[cell.row][cell.col] = cell.value;
+      }
+    }
+  }
+
   const data: string[][] = [titleRow, headerRow, ...dataRows];
 
   const cellStyles: Record<string, { fc?: string; bg?: string; ht?: number; vt?: number; bold?: boolean; tb?: number }> = {};

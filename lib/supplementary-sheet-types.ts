@@ -31,6 +31,14 @@ export type ColumnDef = {
   width?: number;
 };
 
+export type PrefillCell = {
+  /** 0-based row index within the data rows (row 0 = first data row after headers) */
+  row: number;
+  /** 0-based column index */
+  col: number;
+  value: string;
+};
+
 export type SupplementarySheetDef = {
   /** Tab name shown in the workbook, e.g. "每日飲食紀錄表" */
   sheetName: string;
@@ -43,6 +51,12 @@ export type SupplementarySheetDef = {
   criteriaIndex?: number;
   /** How many pre-filled empty data rows to create. Defaults to 5. */
   prefillRows?: number;
+  /**
+   * Optional pre-filled values for specific data cells.
+   * row/col are 0-based within the data rows (row 0 = first data row).
+   * Used to pre-populate lookup tables such as legal checklists.
+   */
+  prefillCells?: PrefillCell[];
 };
 
 /**
