@@ -5,68 +5,18 @@
  * 等異質版型組成。共產生 6 個獨立工作分頁。
  */
 import type { SheetData } from "../excel-template-builder";
-
-const HEADER_ROW_HEIGHT = 26;
-const TITLE_ROW_HEIGHT = 30;
-const DATA_ROW_BASE_HEIGHT = 30;
-const NOTE_ROW_HEIGHT = 22;
-const POLICY_SECTION_HEIGHT = 54;
-const PIXELS_PER_BULLET_LINE = 24;
-const SECTION_ROW_PADDING = 16;
-
-function sectionRowHeight(numBullets: number): number {
-  return Math.max(POLICY_SECTION_HEIGHT, numBullets * PIXELS_PER_BULLET_LINE + SECTION_ROW_PADDING);
-}
-
-type CellStyleMap = Record<
-  string,
-  { fc?: string; bg?: string; bold?: boolean; ht?: number; vt?: number; tb?: number }
->;
-type MergeMap = Record<string, { r: number; c: number; rs: number; cs: number }>;
-
-/**
- * 工具：產生「主標題列」樣式（合併整列、置中、粗體）
- */
-function setTitleRow(
-  cellStyles: CellStyleMap,
-  merge: MergeMap,
-  rowIndex: number,
-  numCols: number,
-) {
-  cellStyles[`${rowIndex}_0`] = { ht: 0, vt: 0, bold: true };
-  merge[`${rowIndex}_0`] = { r: rowIndex, c: 0, rs: 1, cs: numCols };
-}
-
-/**
- * 工具：產生「說明列」樣式（合併整列、靠左、灰字）
- */
-function setNoteRow(
-  cellStyles: CellStyleMap,
-  merge: MergeMap,
-  rowIndex: number,
-  numCols: number,
-) {
-  cellStyles[`${rowIndex}_0`] = { ht: 1, vt: 0, fc: "#666666", tb: 2 };
-  merge[`${rowIndex}_0`] = { r: rowIndex, c: 0, rs: 1, cs: numCols };
-}
-
-/**
- * 工具：產生「表頭列」樣式（置中、粗體）
- */
-function setHeaderRow(cellStyles: CellStyleMap, rowIndex: number, numCols: number) {
-  for (let c = 0; c < numCols; c++) {
-    cellStyles[`${rowIndex}_${c}`] = { ht: 0, vt: 0, bold: true };
-  }
-}
-
-/**
- * 工具：產生「資料列」樣式（靠左、上對齊、自動換行）
- */
-function setDataRow(cellStyles: CellStyleMap, rowIndex: number, numCols: number) {
-  for (let c = 0; c < numCols; c++) {
-    cellStyles[`${rowIndex}_${c}`] = { ht: 1, vt: 1, tb: 2 };
-  }
-}
+import {
+  type CellStyleMap,
+  type MergeMap,
+  DATA_ROW_BASE_HEIGHT,
+  HEADER_ROW_HEIGHT,
+  TITLE_ROW_HEIGHT,
+  buildTableSheet,
+  sectionRowHeight,
+  setDataRow,
+  setHeaderRow,
+  setTitleRow,
+} from "./sheet-style-kit";
 
 // ─── Sheet 1: 監視錄影設置辦法 ─────────────────────────────────────────
 function buildPolicySheet(): SheetData {
@@ -144,67 +94,6 @@ function buildPolicySheet(): SheetData {
       rowlen,
       merge,
     },
-    cellStyles,
-  };
-}
-
-// ─── 共用：表格分頁（title + note + header + samples + blanks） ─────
-function buildTableSheet(params: {
-  sheetName: string;
-  title: string;
-  note: string;
-  headers: string[];
-  samples: string[][];
-  blankRows: number;
-  blankTemplate?: string[]; // 空白列預填文字（如 "□正常"）
-  columnWidths: number[];
-}): SheetData {
-  const numCols = params.headers.length;
-  const data: string[][] = [];
-  const cellStyles: CellStyleMap = {};
-  const merge: MergeMap = {};
-  const rowlen: Record<string, number> = {};
-
-  // Row 0: 主標題
-  data.push([params.title, ...Array(numCols - 1).fill("")]);
-  setTitleRow(cellStyles, merge, 0, numCols);
-  rowlen["0"] = TITLE_ROW_HEIGHT;
-
-  // Row 1: 說明列
-  data.push([params.note, ...Array(numCols - 1).fill("")]);
-  setNoteRow(cellStyles, merge, 1, numCols);
-  rowlen["1"] = NOTE_ROW_HEIGHT;
-
-  // Row 2: 表頭
-  data.push(params.headers);
-  setHeaderRow(cellStyles, 2, numCols);
-  rowlen["2"] = HEADER_ROW_HEIGHT;
-
-  // 示範列 + 空白列
-  let rowIdx = 3;
-  params.samples.forEach((sample) => {
-    data.push(sample);
-    setDataRow(cellStyles, rowIdx, numCols);
-    rowlen[String(rowIdx)] = DATA_ROW_BASE_HEIGHT;
-    rowIdx++;
-  });
-  const blank = params.blankTemplate ?? Array(numCols).fill("");
-  for (let i = 0; i < params.blankRows; i++) {
-    data.push([...blank]);
-    setDataRow(cellStyles, rowIdx, numCols);
-    rowlen[String(rowIdx)] = DATA_ROW_BASE_HEIGHT;
-    rowIdx++;
-  }
-
-  const columnlen: Record<string, number> = {};
-  params.columnWidths.forEach((w, i) => {
-    columnlen[String(i)] = w;
-  });
-
-  return {
-    name: params.sheetName,
-    data,
-    config: { columnlen, rowlen, merge },
     cellStyles,
   };
 }

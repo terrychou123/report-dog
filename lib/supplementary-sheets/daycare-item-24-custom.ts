@@ -6,155 +6,22 @@
  * 共產生 7 個獨立工作分頁。
  */
 import type { SheetData } from "../excel-template-builder";
-
-const HEADER_ROW_HEIGHT = 26;
-const TITLE_ROW_HEIGHT = 30;
-const DATA_ROW_BASE_HEIGHT = 30;
-const NOTE_ROW_HEIGHT = 22;
-const POLICY_SECTION_HEIGHT = 54;
-const PIXELS_PER_BULLET_LINE = 24;
-const SECTION_ROW_PADDING = 16;
-
-function sectionRowHeight(numBullets: number): number {
-  return Math.max(POLICY_SECTION_HEIGHT, numBullets * PIXELS_PER_BULLET_LINE + SECTION_ROW_PADDING);
-}
-
-type CellStyleMap = Record<
-  string,
-  { fc?: string; bg?: string; bold?: boolean; ht?: number; vt?: number; tb?: number }
->;
-type MergeMap = Record<string, { r: number; c: number; rs: number; cs: number }>;
-
-function setTitleRow(cellStyles: CellStyleMap, merge: MergeMap, rowIndex: number, numCols: number) {
-  cellStyles[`${rowIndex}_0`] = { ht: 0, vt: 0, bold: true };
-  merge[`${rowIndex}_0`] = { r: rowIndex, c: 0, rs: 1, cs: numCols };
-}
-
-function setNoteRow(cellStyles: CellStyleMap, merge: MergeMap, rowIndex: number, numCols: number) {
-  cellStyles[`${rowIndex}_0`] = { ht: 1, vt: 0, fc: "#666666", tb: 2 };
-  merge[`${rowIndex}_0`] = { r: rowIndex, c: 0, rs: 1, cs: numCols };
-}
-
-function setHeaderRow(cellStyles: CellStyleMap, rowIndex: number, numCols: number) {
-  for (let c = 0; c < numCols; c++) {
-    cellStyles[`${rowIndex}_${c}`] = { ht: 0, vt: 0, bold: true };
-  }
-}
-
-function setDataRow(cellStyles: CellStyleMap, rowIndex: number, numCols: number) {
-  for (let c = 0; c < numCols; c++) {
-    cellStyles[`${rowIndex}_${c}`] = { ht: 1, vt: 1, tb: 2 };
-  }
-}
-
-/** 政策條文列：col 0 粗體標籤，col 1 起合併為內容區（適用複合型分頁） */
-function setPolicyRow(
-  cellStyles: CellStyleMap,
-  merge: MergeMap,
-  rowIndex: number,
-  numCols: number,
-) {
-  cellStyles[`${rowIndex}_0`] = { ht: 1, vt: 1, bold: true, tb: 2 };
-  cellStyles[`${rowIndex}_1`] = { ht: 1, vt: 1, tb: 2 };
-  if (numCols > 2) {
-    merge[`${rowIndex}_1`] = { r: rowIndex, c: 1, rs: 1, cs: numCols - 1 };
-  }
-}
-
-// ─── 共用：表格型分頁（title + note + header + samples + blanks） ─────────
-function buildTableSheet(params: {
-  sheetName: string;
-  title: string;
-  note: string;
-  headers: string[];
-  samples: string[][];
-  blankRows: number;
-  blankTemplate?: string[];
-  columnWidths: number[];
-}): SheetData {
-  const numCols = params.headers.length;
-  const data: string[][] = [];
-  const cellStyles: CellStyleMap = {};
-  const merge: MergeMap = {};
-  const rowlen: Record<string, number> = {};
-
-  data.push([params.title, ...Array(numCols - 1).fill("")]);
-  setTitleRow(cellStyles, merge, 0, numCols);
-  rowlen["0"] = TITLE_ROW_HEIGHT;
-
-  data.push([params.note, ...Array(numCols - 1).fill("")]);
-  setNoteRow(cellStyles, merge, 1, numCols);
-  rowlen["1"] = NOTE_ROW_HEIGHT;
-
-  data.push(params.headers);
-  setHeaderRow(cellStyles, 2, numCols);
-  rowlen["2"] = HEADER_ROW_HEIGHT;
-
-  let rowIdx = 3;
-  for (const sample of params.samples) {
-    data.push(sample);
-    setDataRow(cellStyles, rowIdx, numCols);
-    rowlen[String(rowIdx)] = DATA_ROW_BASE_HEIGHT;
-    rowIdx++;
-  }
-  const blank = params.blankTemplate ?? Array(numCols).fill("");
-  for (let i = 0; i < params.blankRows; i++) {
-    data.push([...blank]);
-    setDataRow(cellStyles, rowIdx, numCols);
-    rowlen[String(rowIdx)] = DATA_ROW_BASE_HEIGHT;
-    rowIdx++;
-  }
-
-  const columnlen: Record<string, number> = {};
-  params.columnWidths.forEach((w, i) => {
-    columnlen[String(i)] = w;
-  });
-
-  return { name: params.sheetName, data, config: { columnlen, rowlen, merge }, cellStyles };
-}
-
-// ─── 共用：純政策條文分頁（2 欄：規定事項 / 規定內容） ───────────────────
-function buildPolicyOnlySheet(params: {
-  sheetName: string;
-  title: string;
-  note: string;
-  sections: Array<{ label: string; bullets: string[] }>;
-}): SheetData {
-  const numCols = 2;
-  const data: string[][] = [];
-  const cellStyles: CellStyleMap = {};
-  const merge: MergeMap = {};
-  const rowlen: Record<string, number> = {};
-
-  data.push([params.title, ""]);
-  setTitleRow(cellStyles, merge, 0, numCols);
-  rowlen["0"] = TITLE_ROW_HEIGHT;
-
-  data.push([params.note, ""]);
-  setNoteRow(cellStyles, merge, 1, numCols);
-  rowlen["1"] = NOTE_ROW_HEIGHT;
-
-  data.push(["規定事項", "規定內容"]);
-  setHeaderRow(cellStyles, 2, numCols);
-  rowlen["2"] = HEADER_ROW_HEIGHT;
-
-  let rowIdx = 3;
-  for (const s of params.sections) {
-    const bulletText = s.bullets.map((b) => `• ${b}`).join("\n");
-    data.push([s.label, bulletText]);
-    cellStyles[`${rowIdx}_0`] = { ht: 1, vt: 1, bold: true, tb: 2 };
-    cellStyles[`${rowIdx}_1`] = { ht: 1, vt: 1, tb: 2 };
-    rowlen[String(rowIdx)] = sectionRowHeight(s.bullets.length);
-    rowIdx++;
-  }
-
-  return {
-    name: params.sheetName,
-    data,
-    config: { columnlen: { "0": 160, "1": 620 }, rowlen, merge },
-    cellStyles,
-  };
-}
+import {
+  type CellStyleMap,
+  type MergeMap,
+  DATA_ROW_BASE_HEIGHT,
+  HEADER_ROW_HEIGHT,
+  NOTE_ROW_HEIGHT,
+  TITLE_ROW_HEIGHT,
+  buildPolicyOnlySheet,
+  buildTableSheet,
+  sectionRowHeight,
+  setDataRow,
+  setHeaderRow,
+  setNoteRow,
+  setPolicyRow,
+  setTitleRow,
+} from "./sheet-style-kit";
 
 // ═════════════════════════════════════════════════════════════════════════════
 // 第一章：組織概況

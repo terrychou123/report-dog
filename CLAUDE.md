@@ -219,3 +219,4 @@ Key routing rules:
 - Architecture review → invoke plan-eng-review
 - Save progress, checkpoint, resume → invoke checkpoint
 - Code quality, health check → invoke health
+- 修改或產生評鑑範本/評鑑設定（`lib/supplementary-sheets/*`, `lib/ai/evaluation-profiles/*`, `lib/evaluation-tips/*`）→ 先 invoke 對應 facility 的 `*-evaluation` skill（daycare → daycare-evaluation、nursing-home → nursing-home-evaluation、babycare → postpartum-care-evaluation 等），以 skill 所載法規條號/審查方法/附件清單為 SSOT，不得自行編造標準

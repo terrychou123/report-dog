@@ -429,7 +429,7 @@ export function AdminTemplateManager({ facilityType, initialTags, initialTemplat
 
   return (
     <>
-      <Tabs defaultValue="tags">
+      <Tabs defaultValue="templates">
         <TabsList className="mb-6">
           <TabsTrigger value="tags">標籤管理（{tags.length}）</TabsTrigger>
           <TabsTrigger value="templates">範本管理（{templates.length}）</TabsTrigger>
