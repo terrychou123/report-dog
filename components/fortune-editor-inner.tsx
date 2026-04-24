@@ -12,6 +12,25 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "
 import { toast } from "sonner";
 import type { FortuneEditorProps } from "@/components/fortune-editor";
 
+// 固定在 module 層級，讓每次 render 傳給 <Workbook> 的 props 身份穩定，
+// 避免 library 內部 mergedSettings useMemo 失效 → 觸發 setState-in-render 警告
+const FORTUNE_TOOLBAR_ITEMS = [
+  "undo", "redo", "clear-format", "|",
+  "format", "|",
+  "font", "|", "font-size", "|",
+  "bold", "italic", "strike-through", "underline", "|",
+  "font-color", "background", "border", "merge-cell", "|",
+  "horizontal-align", "vertical-align", "text-wrap", "|",
+  "search",
+];
+
+const FORTUNE_CELL_CONTEXT_MENU = [
+  "copy", "paste", "|",
+  "insert-row", "insert-column", "delete-row", "delete-column", "delete-cell",
+  "hide-row", "hide-column", "set-row-height", "set-column-width", "|",
+  "clear", "sort", "orderAZ", "orderZA", "filter", "chart", "image", "data", "cell-format",
+];
+
 type SheetData = {
   name: string;
   data: string[][];
@@ -239,9 +258,10 @@ export default function FortuneEditorInner({
   saveTrigger = 0, downloadTrigger = 0,
   onSavingChange, onDownloadingChange, onChanged, saveUrl,
 }: FortuneEditorProps) {
-  const sheetsRef = useRef<Sheet[]>(
-    sheetsDataToFortuneSheets(normalizeInitialData(initialData))
-  );
+  const sheetsRef = useRef<Sheet[] | null>(null);
+  if (sheetsRef.current === null) {
+    sheetsRef.current = sheetsDataToFortuneSheets(normalizeInitialData(initialData));
+  }
   const workbookRef = useRef<React.ElementRef<typeof Workbook>>(null);
 
   const [mounted, setMounted] = useState(false);
@@ -265,10 +285,15 @@ export default function FortuneEditorInner({
 
   useEffect(() => { setMounted(true); }, []);
 
+  // 用 ref 捕獲 onChanged，讓 handleChange 身份永遠穩定（deps: []），
+  // 避免 inline arrow 造成 <Workbook onChange> 每次 render 換新 reference
+  const onChangedRef = useRef(onChanged);
+  useEffect(() => { onChangedRef.current = onChanged; });
+
   const handleChange = useCallback((data: Sheet[]) => {
     sheetsRef.current = data;
-    onChanged?.();
-  }, [onChanged]);
+    onChangedRef.current?.();
+  }, []);
 
   /**
    * 照格式貼上：攔截來自外部 Excel / Google Sheets 的 paste 事件，
@@ -535,27 +560,14 @@ export default function FortuneEditorInner({
         {mounted && (
           <Workbook
             ref={workbookRef}
-            data={sheetsRef.current}
+            data={sheetsRef.current!}
             onChange={handleChange}
             lang="zh-TW"
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-expect-error: statisticBarHeight 存在於 runtime 設定但未宣告在型別中
             statisticBarHeight={0}
-            toolbarItems={[
-              "undo", "redo", "clear-format", "|",
-              "format", "|",
-              "font", "|", "font-size", "|",
-              "bold", "italic", "strike-through", "underline", "|",
-              "font-color", "background", "border", "merge-cell", "|",
-              "horizontal-align", "vertical-align", "text-wrap", "|",
-              "search",
-            ]}
-            cellContextMenu={[
-              "copy", "paste", "|",
-              "insert-row", "insert-column", "delete-row", "delete-column", "delete-cell",
-              "hide-row", "hide-column", "set-row-height", "set-column-width", "|",
-              "clear", "sort", "orderAZ", "orderZA", "filter", "chart", "image", "data", "cell-format",
-            ]}
+            toolbarItems={FORTUNE_TOOLBAR_ITEMS}
+            cellContextMenu={FORTUNE_CELL_CONTEXT_MENU}
           />
         )}
         {!mounted && (

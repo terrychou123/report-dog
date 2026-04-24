@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useEditor, EditorContent } from "@tiptap/react";
 import type { Editor } from "@tiptap/core";
@@ -98,6 +98,7 @@ export default function ReportEditorPage() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const isDirtyRef = useRef(false);
+  const handleExcelChanged = useCallback(() => { isDirtyRef.current = true; }, []);
   const [leaveDialogOpen, setLeaveDialogOpen] = useState(false);
   const pendingNavRef = useRef<(() => void) | null>(null);
 
@@ -106,6 +107,11 @@ export default function ReportEditorPage() {
   const [excelDownloading, setExcelDownloading] = useState(false);
   const [excelSaveTrigger, setExcelSaveTrigger] = useState(0);
   const [excelDownloadTrigger, setExcelDownloadTrigger] = useState(0);
+
+  // 避免 JSX 中每次 render 都重新 JSON.parse，穩定 initialData 的 reference
+  const parsedReportData = useMemo<object[]>(() => {
+    try { return JSON.parse(report?.content || "[]"); } catch { return []; }
+  }, [report?.content]);
 
   const [reportTitle, setReportTitle] = useState("");
   const [initialContent, setInitialContent] = useState("");
@@ -715,15 +721,13 @@ export default function ReportEditorPage() {
       {report.fileType === "excel" ? (
         <FortuneEditor
           reportId={report.id}
-          initialData={(() => {
-            try { return JSON.parse(report.content || "[]"); } catch { return []; }
-          })()}
+          initialData={parsedReportData}
           title={reportTitle}
           saveTrigger={excelSaveTrigger}
           downloadTrigger={excelDownloadTrigger}
           onSavingChange={setExcelSaving}
           onDownloadingChange={setExcelDownloading}
-          onChanged={() => { isDirtyRef.current = true; }}
+          onChanged={handleExcelChanged}
         />
       ) : (
         <div className="border rounded-lg overflow-hidden report-editor" onMouseUp={handleEditorMouseUp}>

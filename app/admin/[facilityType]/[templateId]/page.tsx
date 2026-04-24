@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useMemo } from "react";
+import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
@@ -94,6 +94,12 @@ export default function AdminTemplateEditPage() {
   }, [template?.content]);
 
   const isDirtyRef = useRef(false);
+
+  const handleExcelChanged = useCallback(() => { isDirtyRef.current = true; }, []);
+  const adminSaveUrl = useMemo(
+    () => (template ? `/api/admin/templates/${template.id}` : ""),
+    [template]
+  );
 
   const editor = useEditor({
     immediatelyRender: false,
@@ -350,8 +356,8 @@ export default function AdminTemplateEditPage() {
           title={title}
           saveTrigger={excelSaveTrigger}
           onSavingChange={setExcelSaving}
-          onChanged={() => { isDirtyRef.current = true; }}
-          saveUrl={`/api/admin/templates/${template.id}`}
+          onChanged={handleExcelChanged}
+          saveUrl={adminSaveUrl}
         />
       ) : (
         <div className="border rounded-lg overflow-hidden">

@@ -6,6 +6,8 @@
  * Each item produces:
  *   Sheet 0: "檢核表" — the self-assessment checklist (original format)
  *   Sheet 1+: supplementary document templates derived from criteria descriptions
+ *
+ * @see ./supplementary-sheets/README.md — 兩條產線、版面常數、cellStyles 欄位語意完整說明
  */
 import type { SupplementarySheetDef } from './supplementary-sheet-types';
 

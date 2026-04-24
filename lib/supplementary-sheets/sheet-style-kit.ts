@@ -5,6 +5,8 @@
  * 適用於與 item-24 / item-45 風格一致的分頁（title + note + header + 資料列
  * 或政策條文列）。item-3 的定型化契約因使用不同版面（section-header 底色、
  * rowH 行高公式）保留各自的 local helper，不使用本模組。
+ *
+ * @see ./README.md — 兩條產線、兩種風格族群、cellStyles 欄位語意完整說明
  */
 import type { SheetData } from "../excel-template-builder";
 
