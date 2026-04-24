@@ -121,8 +121,7 @@ function buildRefundPolicySheet(): SheetData {
   setSectionHeader(cs, merge, r - 1, NC);
 
   push(["第十條\n（告知義務）",
-    "本退費規定應於服務契約中載明，並於個案入案時口頭說明，確保個案及家屬充分知悉退費權利。本規定全文應張貼於機構明顯處供查閱。",
-    rowH(3)]);
+    "本退費規定應於服務契約中載明，並於個案入案時口頭說明，確保個案及家屬充分知悉退費權利。本規定全文應張貼於機構明顯處供查閱。"], rowH(3));
   cs[`${r - 1}_0`] = { ht: 0, vt: 0, bold: true, tb: 2 };
   cs[`${r - 1}_1`] = { ht: 0, vt: 0, tb: 2 };
 
@@ -130,8 +129,7 @@ function buildRefundPolicySheet(): SheetData {
   setSectionHeader(cs, merge, r - 1, NC);
 
   push(["第十一條\n（修訂）",
-    "本規定由機構負責人核定後實施，修訂時亦同。",
-    rowH(2)]);
+    "本規定由機構負責人核定後實施，修訂時亦同。"], rowH(2));
   cs[`${r - 1}_0`] = { ht: 0, vt: 0, bold: true, tb: 2 };
   cs[`${r - 1}_1`] = { ht: 0, vt: 0, tb: 2 };
 

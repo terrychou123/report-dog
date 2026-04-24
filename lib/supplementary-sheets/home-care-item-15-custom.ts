@@ -130,8 +130,7 @@ function buildOrganizationCharterSheet(): SheetData {
   setSectionHeader(cs, merge, r - 1, NC);
 
   push(["第十一條\n（修訂）",
-    "本章程由業務負責人核定後實施，修訂時向主管機關報備。",
-    rowH(2)]);
+    "本章程由業務負責人核定後實施，修訂時向主管機關報備。"], rowH(2));
   cs[`${r - 1}_0`] = { ht: 0, vt: 0, bold: true, tb: 2 };
   cs[`${r - 1}_1`] = { ht: 0, vt: 0, tb: 2 };
 
@@ -225,8 +224,7 @@ function buildAdminRulesSheet(): SheetData {
   setSectionHeader(cs, merge, r - 1, NC);
 
   push(["4-1\n（修訂）",
-    "本規定由機構負責人核定後實施，修訂時亦同。",
-    rowH(2)]);
+    "本規定由機構負責人核定後實施，修訂時亦同。"], rowH(2));
   cs[`${r - 1}_0`] = { ht: 0, vt: 0, bold: true, tb: 2 };
   cs[`${r - 1}_1`] = { ht: 0, vt: 0, tb: 2 };
 

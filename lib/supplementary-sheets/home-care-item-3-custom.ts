@@ -142,8 +142,7 @@ function buildPrivacyPolicySheet(): SheetData {
   setSectionHeader(cs, merge, r - 1, NC);
 
   push(["第十二條\n（資料外洩通報）",
-    "如發生個人資料外洩、竊取、竄改或其他侵害事件，應立即通報主管，主管應於確認後二十四小時內通報主管機關，並以適當方式（電話、書面）通知受影響之個案或其家屬。",
-    rowH(4)]);
+    "如發生個人資料外洩、竊取、竄改或其他侵害事件，應立即通報主管，主管應於確認後二十四小時內通報主管機關，並以適當方式（電話、書面）通知受影響之個案或其家屬。"], rowH(4));
   cs[`${r - 1}_0`] = { ht: 0, vt: 0, bold: true, tb: 2 };
   cs[`${r - 1}_1`] = { ht: 0, vt: 0, tb: 2 };
 
@@ -151,8 +150,7 @@ function buildPrivacyPolicySheet(): SheetData {
   setSectionHeader(cs, merge, r - 1, NC);
 
   push(["第十三條\n（修訂）",
-    "本規定由機構負責人核定後實施，依法令修訂時亦同。",
-    rowH(2)]);
+    "本規定由機構負責人核定後實施，依法令修訂時亦同。"], rowH(2));
   cs[`${r - 1}_0`] = { ht: 0, vt: 0, bold: true, tb: 2 };
   cs[`${r - 1}_1`] = { ht: 0, vt: 0, tb: 2 };
 
