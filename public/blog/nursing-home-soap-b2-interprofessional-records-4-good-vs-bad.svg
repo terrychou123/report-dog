@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">跨專業 SOAP 合格 vs 不合格對照</text>
+
+  <!-- Row 1 amber -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900"></text>
+  <text x="100" y="185" font-size="22" fill="#1e293b" font-weight="700">不合格：各專業各寫各的</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">護理記錄、社工記錄分開存放，無共同問題清單，計畫間無銜接</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">整合</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">不足</text>
+
+  <!-- Row 2 stone-500 -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">[v]</text>
+  <text x="100" y="260" font-size="22" fill="#1e293b" font-weight="700">合格：共同 SOAP 問題清單</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">A 段整合護理、社工、PT 意見，統一 Problem List 並標明執行分工</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">A 段</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">整合評估</text>
+
+  <!-- Row 3 stone-600 -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900"></text>
+  <text x="100" y="335" font-size="22" fill="#1e293b" font-weight="700">不合格：P 段無分工說明</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">「協助翻身、復健、社工關懷。」- 未標明由哪個專業執行、頻率</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">P 段</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">分工缺失</text>
+
+  <!-- Row 4 stone-400 -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">[v]</text>
+  <text x="100" y="410" font-size="22" fill="#1e293b" font-weight="700">合格：明確分工+跨專業簽名</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">「PT 每週 3 次復健（PT 執行）；每月體重測量（護理師）。」</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">P 段</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">明確分工</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">居家護理訪視頻率與 SOAP 時程</text>
+
+  <!-- Row 1 amber — 收案時 -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="185" font-size="22" fill="#1e293b" font-weight="700">收案時：全人評估 + 初始 SOAP</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">收案當次完成生理、心理、社會、功能四面向評估，建立初始 SOAP</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">收案</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">D0</text>
+
+  <!-- Row 2 stone-500 — 每次訪視 -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="260" font-size="22" fill="#1e293b" font-weight="700">每次訪視：當次 SOAP 紀錄</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">每次到宅訪視均需完成 S/O/A/P 四段，為 B2 評鑑最基本要求</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">每次</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">必須記錄</text>
+
+  <!-- Row 3 stone-600 — 每6月 -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="335" font-size="22" fill="#1e293b" font-weight="700">每 6 個月：全人評估 + SOAPIE</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">重新執行完整量表評估，以 SOAPIE 完整記錄本期目標達成率與修訂</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">每 6 月</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">B2 要求</text>
+
+  <!-- Row 4 stone-400 — 結案 -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="410" font-size="22" fill="#1e293b" font-weight="700">結案：評值總結 + E 段</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">結案時完成最終 SOAPIE 紀錄，E 段總結整體目標達成情形</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">結案</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">E 段總結</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

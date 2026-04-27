@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="48" font-size="32" fill="#1e293b" font-weight="700" text-anchor="middle">精神科 DAR 書寫三步驟</text>
+  <text x="400" y="78" font-size="20" fill="#57534e" text-anchor="middle">精神護理之家個案紀錄 — 行為觀察導向書寫格式</text>
+  <line x1="129" y1="94" x2="671" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- N=3 置中佈局: margin=129, card_w=170, arrow_gap=16 -->
+  <!-- Card 1: D資料/Data (amber) x=129 cx=214 -->
+  <rect x="129" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="108" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="112" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="194" r="43" fill="#fef3c7"/>
+  <text x="214" y="183" font-size="17" fill="#d97706" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="214" y="211" font-size="28" fill="#d97706" text-anchor="middle" font-weight="700">01</text>
+  <text x="214" y="298" font-size="35" fill="#1e293b" text-anchor="middle" font-weight="700">D 資料</text>
+  <text x="214" y="326" font-size="16" fill="#57534e" text-anchor="middle">行為觀察記錄</text>
+  <text x="214" y="348" font-size="16" fill="#57534e" text-anchor="middle">Data / 客觀事實</text>
+  <rect x="42" y="382" width="148" height="36" rx="10" fill="#d97706" opacity="0.12"/>
+  <text x="214" y="406" font-size="18" fill="#d97706" text-anchor="middle" font-weight="600">行為觀察</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="299" y1="279" x2="315" y2="279" stroke="#d97706" stroke-width="2"/>
+  <polygon points="315,274 325,279 315,284" fill="#d97706"/>
+
+  <!-- Card 2: A行動/Action (stone-500) x=315 cx=400 -->
+  <rect x="315" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="108" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="112" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="194" r="43" fill="#f5f5f4"/>
+  <text x="400" y="183" font-size="17" fill="#78716c" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="400" y="211" font-size="28" fill="#78716c" text-anchor="middle" font-weight="700">02</text>
+  <text x="400" y="298" font-size="35" fill="#1e293b" text-anchor="middle" font-weight="700">A 行動</text>
+  <text x="400" y="326" font-size="16" fill="#57534e" text-anchor="middle">護理介入措施</text>
+  <text x="400" y="348" font-size="16" fill="#57534e" text-anchor="middle">Action / 執行內容</text>
+  <rect x="326" y="382" width="148" height="36" rx="10" fill="#78716c" opacity="0.12"/>
+  <text x="400" y="406" font-size="18" fill="#78716c" text-anchor="middle" font-weight="600">護理介入</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="485" y1="279" x2="501" y2="279" stroke="#78716c" stroke-width="2"/>
+  <polygon points="501,274 511,279 501,284" fill="#78716c"/>
+
+  <!-- Card 3: R反應/Response (stone-600) x=501 cx=586 -->
+  <rect x="501" y="108" width="170" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="108" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="112" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="194" r="43" fill="#f5f0eb"/>
+  <text x="586" y="183" font-size="17" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
+  <text x="586" y="211" font-size="28" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
+  <text x="586" y="298" font-size="35" fill="#1e293b" text-anchor="middle" font-weight="700">R 反應</text>
+  <text x="586" y="326" font-size="16" fill="#57534e" text-anchor="middle">個案行為反應</text>
+  <text x="586" y="348" font-size="16" fill="#57534e" text-anchor="middle">Response / 成效</text>
+  <rect x="512" y="382" width="148" height="36" rx="10" fill="#57534e" opacity="0.12"/>
+  <text x="586" y="406" font-size="18" fill="#57534e" text-anchor="middle" font-weight="600">個案反應</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
