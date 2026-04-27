@@ -457,16 +457,24 @@ export default function FortuneEditorInner({
           if (seenMasters.has(masterKey)) continue;
           seenMasters.add(masterKey);
           const [mr, mc] = masterKey.split("_").map(Number);
+          if (isNaN(mr) || isNaN(mc)) continue;
           masterCells.push({ r: mr, c: mc });
         }
       }
     }
 
+    // 套用前先讓 FortuneSheet 取消儲存格編輯模式（Escape = cancelNormalSelected，不 commit 舊內容）
+    // 避免 dialog 關閉時 cellInput 把舊值 commit 回儲存格，蓋掉 setCellValue 寫入的新值
+    document
+      .getElementById("luckysheet-rich-text-editor")
+      ?.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true, cancelable: true }));
+
     // 單一可寫入儲存格（含 1×1 與合併成一格）→ 整段文字直接寫入該格
-    // 同時設定 v（原始值）與 m（顯示值），並啟用自動換行（tb: 2），確保多行內容正確渲染
+    // 多行內容（SOAP）需要 tb: 2 自動換行；一般單行內容不改變原有換行設定
     if (masterCells.length === 1) {
       const target = masterCells[0];
-      wb.setCellValue(target.r, target.c, { v: text, m: text, tb: 2 });
+      const needsWrap = text.includes("\n");
+      wb.setCellValue(target.r, target.c, { v: text, m: text, ...(needsWrap ? { tb: 2 } : {}) });
       setAiDialogOpen(false);
       toast.success("已套用修改");
       return;
@@ -587,12 +595,7 @@ export default function FortuneEditorInner({
       {/* FortuneSheet Workbook */}
       <div
         style={{ height: "calc(100dvh - 180px)", minHeight: 600 }}
-        onDoubleClickCapture={(e) => {
-          // 必須在捕獲階段攔下，阻止 FortuneSheet 內部 dblclick handler 進入儲存格編輯模式（luckysheetCellUpdate）。
-          // 否則 AI dialog 關閉時，cellInput 會 commit 舊內容，覆蓋掉 wb.setCellValue 寫入的新值。
-          e.stopPropagation();
-          handleWorkbookMouseUp();
-        }}
+        onDoubleClick={handleWorkbookMouseUp}
         onPasteCapture={handleFormattedPaste}
       >
         {mounted && (

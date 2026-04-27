@@ -25,6 +25,9 @@ export async function POST(req: NextRequest) {
   if (!paragraph || (!instruction && !soap)) {
     return NextResponse.json({ error: "paragraph and instruction are required" }, { status: 400 });
   }
+  if (typeof paragraph !== "string" || paragraph.length > 10000) {
+    return NextResponse.json({ error: "paragraph too long or invalid" }, { status: 400 });
+  }
 
   let systemContent =
     "你是一位專業的報告編輯助手，專門協助社工、心理師和顧問修改個案報告。請根據使用者的指令修改提供的段落。只回傳修改後的段落文字，不要加任何前言或解釋。保持繁體中文書寫。";
