@@ -288,6 +288,13 @@ const POST_FILES = [
   "article-247-elderly-welfare-nutrition-meal-management.json",
   "article-248-elderly-welfare-palliative-end-of-life.json",
   "article-249-elderly-welfare-eval-innovation-bonus.json",
+  // SOAP 系列（6 篇，跨機構別 SOAP 個案紀錄教學）
+  "article-250-home-nursing-soap-b2-evaluation-records.json",
+  "article-251-general-nursing-home-soap-b1-care-plan.json",
+  "article-252-nursing-home-soap-b2-interprofessional-records.json",
+  "article-253-psychiatric-nursing-home-soap-dar-records.json",
+  "article-254-hospital-soap-interprofessional-care-plan.json",
+  "article-255-home-care-simplified-soap-service-records.json",
 ];
 
 const INITIAL_STATUS = "draft" as const; // 初始為草稿，確認後再於 /blog-admin 發布

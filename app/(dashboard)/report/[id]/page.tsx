@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Skeleton } from "@/components/ui/skeleton";
 import {
   ArrowLeftIcon, SaveIcon, SparklesIcon, CheckIcon,
@@ -132,6 +133,7 @@ export default function ReportEditorPage() {
   // 暫存歷史 AI 建議
   const [storedProposals, setStoredProposals] = useState<string[]>([]);
   const [confirmingIdx, setConfirmingIdx] = useState<number | null>(null);
+  const [soapEnabled, setSoapEnabled] = useState(false);
 
   // 刪除報告
   const [deleteReportOpen, setDeleteReportOpen] = useState(false);
@@ -243,6 +245,7 @@ export default function ReportEditorPage() {
     setHistory([]);
     setStoredProposals([]);
     setConfirmingIdx(null);
+    setSoapEnabled(false);
     setDialogOpen(true);
     setTimeout(() => inputRef.current?.focus(), 100);
   }
@@ -259,9 +262,9 @@ export default function ReportEditorPage() {
   }
 
   async function handleAiSubmit() {
-    if (!instruction.trim()) return;
+    if (!soapEnabled && !instruction.trim()) return;
     setAiLoading(true);
-    const userMsg = instruction.trim();
+    const userMsg = instruction.trim() || "請以 SOAP 格式改寫此段落";
     const newHistory: Message[] = [...history, { role: "user", content: userMsg }];
     setHistory(newHistory);
     setInstruction("");
@@ -270,7 +273,7 @@ export default function ReportEditorPage() {
       const res = await fetch(`/api/reports/${params.id}/ai`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ paragraph: selectedText, instruction: userMsg, history }),
+        body: JSON.stringify({ paragraph: selectedText, instruction: userMsg, history, soap: soapEnabled }),
       });
 
       if (!res.ok) {
@@ -892,7 +895,7 @@ export default function ReportEditorPage() {
       {/* AI 修改助手 Dialog */}
       <Dialog open={dialogOpen} onOpenChange={(open) => {
         setDialogOpen(open);
-        if (!open) { setStoredProposals([]); setConfirmingIdx(null); }
+        if (!open) { setStoredProposals([]); setConfirmingIdx(null); setSoapEnabled(false); }
       }}>
         <DialogContent className="max-w-xl max-h-[85vh] overflow-y-auto">
           <DialogHeader>
@@ -967,11 +970,22 @@ export default function ReportEditorPage() {
             {/* 4. 修改指令輸入（Enter 不送出） */}
             {!aiProposal && (
               <div className="space-y-2">
-                <Label htmlFor="instruction">修改指令</Label>
+                <div className="flex items-center justify-between">
+                  <Label htmlFor="instruction">修改指令</Label>
+                  <div className="flex items-center gap-1.5">
+                    <Checkbox
+                      id="soap-mode"
+                      checked={soapEnabled}
+                      onCheckedChange={(v) => setSoapEnabled(!!v)}
+                      disabled={aiLoading}
+                    />
+                    <Label htmlFor="soap-mode" className="text-sm font-medium cursor-pointer select-none">SOAP</Label>
+                  </div>
+                </div>
                 <Textarea
                   ref={inputRef}
                   id="instruction"
-                  placeholder="請輸入您的修改要求，例如：改得更正式一些、精簡這段、加強說明個案的情況..."
+                  placeholder={soapEnabled ? "可選：補充其他要求（例：精簡、加入具體數值範例）" : "請輸入您的修改要求，例如：改得更正式一些、精簡這段、加強說明個案的情況..."}
                   value={instruction}
                   onChange={(e) => setInstruction(e.target.value)}
                   rows={3}
@@ -984,7 +998,7 @@ export default function ReportEditorPage() {
           {!aiProposal && (
             <DialogFooter>
               <Button variant="outline" onClick={() => setDialogOpen(false)}>取消</Button>
-              <Button onClick={handleAiSubmit} disabled={aiLoading || !instruction.trim()}>
+              <Button onClick={handleAiSubmit} disabled={aiLoading || (!soapEnabled && !instruction.trim())}>
                 {aiLoading ? (
                   <><RefreshCwIcon className="h-4 w-4 mr-2 animate-spin" />AI 思考中...</>
                 ) : (

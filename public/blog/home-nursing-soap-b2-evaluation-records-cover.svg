@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <rect x="0" y="0" width="10" height="630" fill="#06b6d4"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#06b6d4"/>
+
+  <!-- 右側裝飾圓形 -->
+  <circle cx="980" cy="200" r="180" fill="#06b6d4" opacity="0.08"/>
+  <circle cx="1080" cy="420" r="100" fill="#06b6d4" opacity="0.06"/>
+
+  <!-- 分類標籤 -->
+  <rect x="80" y="100" width="240" height="42" rx="21" fill="#06b6d4" opacity="0.15"/>
+  <text x="200" y="127" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="22" fill="#06b6d4" font-weight="600">居家護理所</text>
+
+  <!-- 主標題 SOAP -->
+  <text x="80" y="270" font-family="system-ui,-apple-system,sans-serif" font-size="100" fill="#f8fafc" font-weight="800" letter-spacing="-2">SOAP</text>
+  <text x="80" y="370" font-family="system-ui,-apple-system,sans-serif" font-size="56" fill="#f8fafc" font-weight="700">個案紀錄寫法</text>
+
+  <!-- 評鑑指標 -->
+  <text x="80" y="450" font-family="system-ui,-apple-system,sans-serif" font-size="30" fill="#06b6d4" font-weight="700">評鑑指標 B2｜問題 × 目標 × 措施 × 評值</text>
+
+  <!-- 底部 -->
+  <rect x="0" y="590" width="1200" height="40" fill="#06b6d4" opacity="0.1"/>
+  <text x="80" y="614" font-family="system-ui,-apple-system,sans-serif" font-size="22" fill="#64748b">報告汪 reportwang.com　｜　長照評鑑文書智慧平台</text>
+</svg>

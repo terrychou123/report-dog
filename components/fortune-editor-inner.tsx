@@ -7,6 +7,7 @@ import "@fortune-sheet/react/dist/index.css";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import { SparklesIcon, CheckIcon, RefreshCwIcon } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { toast } from "sonner";
@@ -282,6 +283,7 @@ export default function FortuneEditorInner({
   // 保留使用者尚未同意的 AI 建議
   const [savedProposals, setSavedProposals] = useState<string[]>([]);
   const [confirmingIdx, setConfirmingIdx] = useState<number | null>(null);
+  const [soapEnabled, setSoapEnabled] = useState(false);
 
   useEffect(() => { setMounted(true); }, []);
 
@@ -425,7 +427,10 @@ export default function FortuneEditorInner({
   }, []);
 
   function applyProposal(text: string) {
-    if (!selectedRange || !workbookRef.current) return;
+    if (!selectedRange || !workbookRef.current) {
+      toast.error("找不到原始選取範圍，請重新圈選後再試");
+      return;
+    }
     const wb = workbookRef.current;
 
     // 取得合併儲存格資訊（與 handleWorkbookMouseUp 相同邏輯）
@@ -441,6 +446,33 @@ export default function FortuneEditorInner({
       }
     }
 
+    // 計算選取範圍中「實際可寫入的主格」清單（合併區域只算一次主格）
+    const masterCells: { r: number; c: number }[] = [];
+    const seenMasters = new Set<string>();
+    for (const range of selectedRange) {
+      for (let r = range.row[0]; r <= range.row[1]; r++) {
+        for (let c = range.column[0]; c <= range.column[1]; c++) {
+          const cellKey = `${r}_${c}`;
+          const masterKey = cellToMasterKey.get(cellKey) ?? cellKey;
+          if (seenMasters.has(masterKey)) continue;
+          seenMasters.add(masterKey);
+          const [mr, mc] = masterKey.split("_").map(Number);
+          masterCells.push({ r: mr, c: mc });
+        }
+      }
+    }
+
+    // 單一可寫入儲存格（含 1×1 與合併成一格）→ 整段文字直接寫入該格
+    // 同時設定 v（原始值）與 m（顯示值），並啟用自動換行（tb: 2），確保多行內容正確渲染
+    if (masterCells.length === 1) {
+      const target = masterCells[0];
+      wb.setCellValue(target.r, target.c, { v: text, m: text, tb: 2 });
+      setAiDialogOpen(false);
+      toast.success("已套用修改");
+      return;
+    }
+
+    // 多儲存格情境：沿用原本「每行對應一列、tab 分欄」的分行配對邏輯
     const lines = text.split("\n");
     let lineIdx = 0;
     const seenMasterKeys = new Set<string>();
@@ -518,9 +550,9 @@ export default function FortuneEditorInner({
   useEffect(() => { if (downloadTrigger > 0) handleDownload(); }, [downloadTrigger, handleDownload]);
 
   async function handleAiSubmit() {
-    if (!aiInstruction.trim()) return;
+    if (!soapEnabled && !aiInstruction.trim()) return;
     setAiLoading(true);
-    const userMsg = aiInstruction.trim();
+    const userMsg = aiInstruction.trim() || "請以 SOAP 格式改寫此段落";
     const newHistory = [...aiHistory, { role: "user" as const, content: userMsg }];
     setAiHistory(newHistory);
     setAiInstruction("");
@@ -532,6 +564,7 @@ export default function FortuneEditorInner({
           paragraph: aiSelectedText,
           instruction: userMsg,
           history: aiHistory,
+          soap: soapEnabled,
         }),
       });
       if (res.ok) {
@@ -554,7 +587,12 @@ export default function FortuneEditorInner({
       {/* FortuneSheet Workbook */}
       <div
         style={{ height: "calc(100dvh - 180px)", minHeight: 600 }}
-        onDoubleClick={handleWorkbookMouseUp}
+        onDoubleClickCapture={(e) => {
+          // 必須在捕獲階段攔下，阻止 FortuneSheet 內部 dblclick handler 進入儲存格編輯模式（luckysheetCellUpdate）。
+          // 否則 AI dialog 關閉時，cellInput 會 commit 舊內容，覆蓋掉 wb.setCellValue 寫入的新值。
+          e.stopPropagation();
+          handleWorkbookMouseUp();
+        }}
         onPasteCapture={handleFormattedPaste}
       >
         {mounted && (
@@ -580,7 +618,7 @@ export default function FortuneEditorInner({
       {/* AI Dialog */}
       <Dialog open={aiDialogOpen} onOpenChange={(open) => {
         setAiDialogOpen(open);
-        if (!open) { setSavedProposals([]); setConfirmingIdx(null); }
+        if (!open) { setSavedProposals([]); setConfirmingIdx(null); setSoapEnabled(false); }
       }}>
         <DialogContent className="max-w-xl max-h-[85vh] overflow-y-auto">
           <DialogHeader>
@@ -661,11 +699,22 @@ export default function FortuneEditorInner({
             {/* 4. 修改指令輸入（有建議時隱藏） */}
             {!aiProposal && (
               <div className="space-y-2">
-                <Label htmlFor="ai-instruction">修改指令</Label>
+                <div className="flex items-center justify-between">
+                  <Label htmlFor="ai-instruction">修改指令</Label>
+                  <div className="flex items-center gap-1.5">
+                    <Checkbox
+                      id="soap-mode"
+                      checked={soapEnabled}
+                      onCheckedChange={(v) => setSoapEnabled(!!v)}
+                      disabled={aiLoading}
+                    />
+                    <Label htmlFor="soap-mode" className="text-sm font-medium cursor-pointer select-none">SOAP</Label>
+                  </div>
+                </div>
                 <Textarea
                   ref={aiInputRef}
                   id="ai-instruction"
-                  placeholder="請輸入您的修改要求，例如：改得更正式一些、精簡這段..."
+                  placeholder={soapEnabled ? "可選：補充其他要求（例：精簡、加入具體數值範例）" : "請輸入您的修改要求，例如：改得更正式一些、精簡這段..."}
                   value={aiInstruction}
                   onChange={(e) => setAiInstruction(e.target.value)}
                   rows={3}
@@ -678,7 +727,7 @@ export default function FortuneEditorInner({
           {!aiProposal && (
             <DialogFooter>
               <Button variant="outline" onClick={() => setAiDialogOpen(false)}>取消</Button>
-              <Button onClick={handleAiSubmit} disabled={aiLoading || !aiInstruction.trim()}>
+              <Button onClick={handleAiSubmit} disabled={aiLoading || (!soapEnabled && !aiInstruction.trim())}>
                 {aiLoading ? (
                   <><RefreshCwIcon className="h-4 w-4 mr-2 animate-spin" />AI 思考中...</>
                 ) : (

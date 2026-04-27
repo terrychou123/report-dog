@@ -13,6 +13,7 @@ import {
   HelpCircleIcon,
   DownloadIcon,
   BellRingIcon,
+  ClipboardListIcon,
 } from "lucide-react";
 
 export interface DocsNavItem {
@@ -57,6 +58,13 @@ export const docsNavSections: DocsNavSection[] = [
         title: "使用 AI 修改報告段落",
         icon: SparklesIcon,
         desc: "點擊段落下指令，AI 即時產出修改版本",
+      },
+      {
+        href: "/docs/soap-writing",
+        label: "SOAP 寫法 AI 改寫",
+        title: "SOAP 寫法 AI 改寫教學",
+        icon: ClipboardListIcon,
+        desc: "勾選 SOAP checkbox，AI 自動將個案紀錄改寫為四段式專業格式",
       },
       {
         href: "/docs/tags-and-search",

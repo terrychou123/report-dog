@@ -84,6 +84,7 @@ export default function AiEditingPage() {
 
       <h2>相關教學</h2>
       <ul>
+        <li><Link href="/docs/soap-writing">SOAP 寫法 AI 改寫：一鍵將個案紀錄改寫為四段式專業格式</Link></li>
         <li><Link href="/docs/version-history">版本歷史：查看與還原 AI 修改前的版本</Link></li>
         <li><Link href="/docs/copy-and-templates">複製報告：複製上期報告再用 AI 更新差異</Link></li>
         <li><Link href="/docs/evaluation">AI 評鑑分析：用 AI 分析整份報告的評鑑合規度</Link></li>

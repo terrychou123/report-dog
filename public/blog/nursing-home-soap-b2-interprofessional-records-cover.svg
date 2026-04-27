@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <rect x="0" y="0" width="10" height="630" fill="#8b5cf6"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#8b5cf6"/>
+
+  <circle cx="960" cy="190" r="190" fill="#8b5cf6" opacity="0.08"/>
+  <circle cx="1100" cy="460" r="110" fill="#8b5cf6" opacity="0.05"/>
+
+  <rect x="80" y="100" width="260" height="42" rx="21" fill="#8b5cf6" opacity="0.15"/>
+  <text x="210" y="127" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="22" fill="#8b5cf6" font-weight="600">住宿型長照機構</text>
+
+  <text x="80" y="270" font-family="system-ui,-apple-system,sans-serif" font-size="100" fill="#f8fafc" font-weight="800" letter-spacing="-2">SOAP</text>
+  <text x="80" y="370" font-family="system-ui,-apple-system,sans-serif" font-size="56" fill="#f8fafc" font-weight="700">跨專業紀錄</text>
+
+  <text x="80" y="450" font-family="system-ui,-apple-system,sans-serif" font-size="28" fill="#8b5cf6" font-weight="700">評鑑指標 B2 二級加強｜72hr × 3 月評值 × 跌倒壓傷營養高風險</text>
+
+  <rect x="0" y="590" width="1200" height="40" fill="#8b5cf6" opacity="0.1"/>
+  <text x="80" y="614" font-family="system-ui,-apple-system,sans-serif" font-size="22" fill="#64748b">報告汪 reportwang.com　｜　長照評鑑文書智慧平台</text>
+</svg>
