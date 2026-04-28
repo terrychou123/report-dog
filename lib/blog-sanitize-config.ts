@@ -24,6 +24,9 @@ export const blogSanitizeOptions: sanitizeHtml.IOptions = {
     img: ["src", "alt", "style", "width", "height"],
     figure: ["style"],
     figcaption: ["style"],
+    // 允許標題帶 id（供文章內錨點連結使用）
+    h2: ["id"],
+    h3: ["id"],
     // SVG 屬性白名單
     svg: ["viewBox", "xmlns", "width", "height", "preserveAspectRatio", "style", "class", "id"],
     path: ["d", "fill", "stroke", "stroke-width", "opacity", "transform", "clip-path", "fill-opacity", "stroke-opacity", "stroke-linecap", "stroke-linejoin", "stroke-dasharray", "filter", "mask", "id", "class"],
