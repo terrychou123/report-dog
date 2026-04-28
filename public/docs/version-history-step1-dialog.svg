@@ -9,7 +9,7 @@
   <rect x="254" y="40" width="304" height="424" rx="14" fill="white"/>
 
   <!-- Dialog Header -->
-  <!-- History icon 示意 -->
+  <!-- History icon 示意（時鐘外框 + 指針） -->
   <circle cx="274" cy="68" r="10" fill="none" stroke="#1e293b" stroke-width="1.5"/>
   <polyline points="274,62 274,68 279,72" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 264,64 L 260,60" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
@@ -18,60 +18,57 @@
   <text x="540" y="73" text-anchor="middle" font-size="20" fill="#78716c">×</text>
   <line x1="254" y1="82" x2="558" y2="82" stroke="#e8e6de" stroke-width="1"/>
 
-  <!-- 副標 -->
-  <text x="274" y="104" font-size="12" fill="#78716c">2025年3月 個案A 服務計畫</text>
-  <line x1="254" y1="114" x2="558" y2="114" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 副標：實際 panel hint -->
+  <text x="270" y="104" font-size="11" fill="#78716c">免費用戶僅保存最新的五筆資料</text>
 
-  <!-- 版本 3（最新） -->
-  <rect x="274" y="124" width="264" height="80" rx="8" fill="#edf7fa" stroke="#b8dde8" stroke-width="1"/>
-  <text x="286" y="146" font-size="11" font-weight="700" fill="#3a8fa8">版本 #3</text>
-  <rect x="386" y="135" width="36" height="18" rx="9" fill="#3a8fa8"/>
-  <text x="404" y="148" text-anchor="middle" font-size="10" fill="white">最新</text>
-  <text x="286" y="164" font-size="11" fill="#78716c">2025/03/31  14:22</text>
-  <text x="286" y="182" font-size="12" fill="#1e293b">新增個案意見反映機制說明</text>
-  <!-- 還原按鈕（灰色，最新版不可還原） -->
-  <rect x="458" y="172" width="60" height="24" rx="6" fill="#f5f5f4" stroke="#e8e6de" stroke-width="1"/>
-  <text x="488" y="188" text-anchor="middle" font-size="11" fill="#a8a29e">還原</text>
-
-  <!-- 版本 2 -->
-  <rect x="274" y="214" width="264" height="80" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="286" y="236" font-size="11" font-weight="700" fill="#57534e">版本 #2</text>
-  <text x="286" y="254" font-size="11" fill="#78716c">2025/03/28  09:15</text>
-  <text x="286" y="272" font-size="12" fill="#1e293b">修改服務流程描述段落</text>
-  <!-- 還原按鈕（可點擊） -->
-  <rect x="454" y="262" width="68" height="24" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
+  <!-- 版本 #3（最新） -->
+  <rect x="270" y="120" width="272" height="92" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="282" y="140" font-size="11" font-weight="700" fill="#57534e">版本 #3</text>
+  <text x="530" y="140" text-anchor="end" font-size="11" fill="#78716c">2025/03/31  14:22</text>
+  <text x="282" y="162" font-size="13" fill="#1e293b">新增個案意見反映機制說明</text>
+  <!-- 還原按鈕（全寬，藍色外框） -->
+  <rect x="282" y="174" width="248" height="26" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
   <!-- RotateCcw icon -->
-  <path d="M 462,270 Q 462,274 466,276" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M 462,270 L 460,266 L 464,267" fill="#3a8fa8" stroke="none"/>
-  <text x="500" y="278" text-anchor="middle" font-size="11" fill="#3a8fa8">還原</text>
+  <path d="M 372,184 Q 372,190 378,192" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 372,184 L 369,180 L 374,180" fill="#3a8fa8" stroke="none"/>
+  <text x="406" y="192" text-anchor="start" font-size="12" fill="#3a8fa8">還原此版本</text>
 
-  <!-- 版本 1 -->
-  <rect x="274" y="304" width="264" height="80" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
-  <text x="286" y="326" font-size="11" font-weight="700" fill="#57534e">版本 #1</text>
-  <text x="286" y="344" font-size="11" fill="#78716c">2025/03/25  16:08</text>
-  <text x="286" y="362" font-size="12" fill="#1e293b">初始建立</text>
-  <rect x="454" y="352" width="68" height="24" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
-  <path d="M 462,360 Q 462,364 466,366" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M 462,360 L 460,356 L 464,357" fill="#3a8fa8" stroke="none"/>
-  <text x="500" y="368" text-anchor="middle" font-size="11" fill="#3a8fa8">還原</text>
+  <!-- 版本 #2 -->
+  <rect x="270" y="220" width="272" height="92" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="282" y="240" font-size="11" font-weight="700" fill="#57534e">版本 #2</text>
+  <text x="530" y="240" text-anchor="end" font-size="11" fill="#78716c">2025/03/28  09:15</text>
+  <text x="282" y="262" font-size="13" fill="#1e293b">修改服務流程描述段落</text>
+  <rect x="282" y="274" width="248" height="26" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
+  <path d="M 372,284 Q 372,290 378,292" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 372,284 L 369,280 L 374,280" fill="#3a8fa8" stroke="none"/>
+  <text x="406" y="292" text-anchor="start" font-size="12" fill="#3a8fa8">還原此版本</text>
 
-  <!-- Dialog 底部說明 -->
-  <line x1="254" y1="398" x2="558" y2="398" stroke="#e8e6de" stroke-width="1"/>
-  <text x="406" y="422" text-anchor="middle" font-size="11" fill="#a8a29e">點擊「還原」可回到任意版本</text>
-  <text x="406" y="440" text-anchor="middle" font-size="11" fill="#a8a29e">系統會自動儲存當前版本</text>
+  <!-- 版本 #1 -->
+  <rect x="270" y="320" width="272" height="92" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="282" y="340" font-size="11" font-weight="700" fill="#57534e">版本 #1</text>
+  <text x="530" y="340" text-anchor="end" font-size="11" fill="#78716c">2025/03/25  16:08</text>
+  <text x="282" y="362" font-size="13" fill="#a8a29e" font-style="italic">（未填寫摘要）</text>
+  <rect x="282" y="374" width="248" height="26" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
+  <path d="M 372,384 Q 372,390 378,392" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 372,384 L 369,380 L 374,380" fill="#3a8fa8" stroke="none"/>
+  <text x="406" y="392" text-anchor="start" font-size="12" fill="#3a8fa8">還原此版本</text>
 
-  <!-- 標註① 版本列表 -->
-  <rect x="98" y="214" width="144" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <text x="170" y="235" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 版本紀錄</text>
-  <text x="170" y="253" text-anchor="middle" font-size="11" fill="#92400e">自動儲存時間</text>
-  <text x="170" y="269" text-anchor="middle" font-size="11" fill="#92400e">與修改摘要</text>
-  <line x1="242" y1="254" x2="272" y2="254" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrVH1)"/>
+  <!-- Dialog 底部說明（簡化） -->
+  <line x1="254" y1="426" x2="558" y2="426" stroke="#e8e6de" stroke-width="1"/>
+  <text x="406" y="448" text-anchor="middle" font-size="11" fill="#a8a29e">點擊「還原此版本」可回到任意版本</text>
+
+  <!-- 標註① 版本卡片內容 -->
+  <rect x="86" y="232" width="160" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="166" y="253" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 版本號 + 時間</text>
+  <text x="166" y="271" text-anchor="middle" font-size="11" fill="#92400e">與儲存時填寫的</text>
+  <text x="166" y="287" text-anchor="middle" font-size="11" fill="#92400e">修改摘要</text>
+  <line x1="246" y1="266" x2="270" y2="262" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrVH1)"/>
 
   <!-- 標註② 還原按鈕 -->
-  <rect x="562" y="262" width="144" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <text x="634" y="283" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 點擊還原</text>
-  <text x="634" y="301" text-anchor="middle" font-size="11" fill="#92400e">回到指定版本</text>
-  <line x1="562" y1="274" x2="524" y2="274" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrVH1left)"/>
+  <rect x="566" y="270" width="160" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="646" y="291" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 點擊還原此版本</text>
+  <text x="646" y="309" text-anchor="middle" font-size="11" fill="#92400e">回到指定版本</text>
+  <line x1="566" y1="288" x2="530" y2="288" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrVH1left)"/>
 
   <defs>
     <marker id="arrVH1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">

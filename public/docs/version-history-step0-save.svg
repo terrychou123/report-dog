@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 + 暗色遮罩 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="500" fill="#1e293b" opacity="0.4"/>
+
+  <!-- Dialog 陰影 -->
+  <rect x="234" y="124" width="336" height="240" rx="14" fill="#0f172a" opacity="0.25"/>
+  <!-- Dialog 主卡片（max-w-sm 比例） -->
+  <rect x="230" y="120" width="336" height="240" rx="14" fill="white"/>
+
+  <!-- Dialog Header：磁碟圖示 + 「儲存版本」 -->
+  <!-- SaveIcon 簡化（磁碟外框 + 內方塊） -->
+  <rect x="248" y="142" width="16" height="16" rx="2" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="252" y="142" width="8" height="6" fill="#1e293b"/>
+  <rect x="252" y="152" width="8" height="6" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <text x="272" y="156" font-size="16" font-weight="700" fill="#1e293b">儲存版本</text>
+  <text x="546" y="155" text-anchor="middle" font-size="20" fill="#78716c">×</text>
+  <line x1="230" y1="172" x2="566" y2="172" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- DialogDescription -->
+  <text x="248" y="194" font-size="12" fill="#78716c">簡述本次修改重點，方便日後辨認版本（選填）</text>
+
+  <!-- Input 框 -->
+  <rect x="248" y="212" width="300" height="36" rx="6" fill="white" stroke="#d6d3d1" stroke-width="1"/>
+  <text x="260" y="234" font-size="12" fill="#a8a29e" font-style="italic">例：新增個案意見反映機制說明</text>
+  <!-- 游標模擬（閃爍游標的視覺暗示） -->
+  <line x1="256" y1="222" x2="256" y2="238" stroke="#1e293b" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 字數計數提示 -->
+  <text x="546" y="262" text-anchor="end" font-size="10" fill="#a8a29e">0 / 200</text>
+
+  <!-- Dialog Footer 按鈕 -->
+  <!-- 取消（outline） -->
+  <rect x="386" y="312" width="72" height="32" rx="6" fill="white" stroke="#d6d3d1" stroke-width="1"/>
+  <text x="422" y="332" text-anchor="middle" font-size="13" fill="#1e293b">取消</text>
+  <!-- 儲存（primary 暗藍/暖系深色） -->
+  <rect x="470" y="312" width="78" height="32" rx="6" fill="#1e293b"/>
+  <text x="509" y="332" text-anchor="middle" font-size="13" fill="white" font-weight="600">儲存</text>
+
+  <!-- 標註① 摘要選填 -->
+  <rect x="56" y="186" width="160" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="136" y="208" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 一句話描述重點</text>
+  <text x="136" y="226" text-anchor="middle" font-size="11" fill="#92400e">可留白，建議寫</text>
+  <text x="136" y="242" text-anchor="middle" font-size="11" fill="#92400e">「改了什麼」</text>
+  <line x1="216" y1="220" x2="248" y2="228" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrSV0)"/>
+
+  <!-- 標註② 摘要會出現在版本歷史 -->
+  <rect x="580" y="200" width="160" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="660" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 摘要會顯示在</text>
+  <text x="660" y="240" text-anchor="middle" font-size="11" fill="#92400e">版本歷史卡片</text>
+  <text x="660" y="256" text-anchor="middle" font-size="11" fill="#92400e">日後辨認用</text>
+  <line x1="580" y1="232" x2="548" y2="228" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrSV0left)"/>
+
+  <!-- 標註③ 按 Enter 等同送出（指向儲存按鈕） -->
+  <rect x="580" y="328" width="160" height="48" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="660" y="350" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">③ 按 Enter</text>
+  <text x="660" y="366" text-anchor="middle" font-size="11" fill="#92400e">等同點擊「儲存」</text>
+  <line x1="580" y1="340" x2="548" y2="328" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrSV0left)"/>
+
+  <defs>
+    <marker id="arrSV0" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+    <marker id="arrSV0left" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <polygon points="8 0, 0 3, 8 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

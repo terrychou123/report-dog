@@ -1007,7 +1007,7 @@ export default function ReportEditorPage() {
                 <Textarea
                   ref={inputRef}
                   id="instruction"
-                  placeholder={soapEnabled ? "可選：補充其他要求（例：精簡、加入具體數值範例）" : "請輸入您的修改要求，例如：改得更正式一些、精簡這段、加強說明個案的情況..."}
+                  placeholder={soapEnabled ? "改寫成：主觀S、客觀O、評估A、計畫P四段結構。若還有其他需求，可在此對話框說明(例：精簡用字、加入具體數值範圍等等)" : "請輸入您的修改要求，例如：改得更正式一些、精簡這段、加強說明個案的情況..."}
                   value={instruction}
                   onChange={(e) => setInstruction(e.target.value)}
                   rows={3}

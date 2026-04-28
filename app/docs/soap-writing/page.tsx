@@ -114,7 +114,7 @@ export default function SoapWritingPage() {
       <figure className="my-6 not-prose">
         <Image
           src="/docs/soap-writing-step1-dialog.svg"
-          alt="報告汪 AI 修改助手對話框示意圖：SOAP 模式已勾選（藍色勾選框），下方出現 S/O/A/P 四段預覽說明（淺藍底），右下角「送出 SOAP 改寫」按鈕以橘色虛線框高亮"
+          alt="報告汪 AI 修改助手對話框示意圖：「修改指令」標題右側的 SOAP 勾選框已勾選（藍色勾選），輸入框 placeholder 顯示「改寫成：主觀S、客觀O、評估A、計畫P 四段結構…」，右下角「送出」按鈕以橘色虛線框高亮"
           width={800}
           height={500}
           className="w-full h-auto rounded-lg border border-border"
@@ -133,8 +133,9 @@ export default function SoapWritingPage() {
 
       <h2>進階：SOAP + 自由指令疊加</h2>
       <p>
-        SOAP checkbox 可與自由指令同時使用。勾選後輸入框 placeholder 會提示「可選：補充其他要求」，
-        代表這次的指令是「先套 SOAP 結構，再按你說的調整」。
+        SOAP checkbox 可與自由指令同時使用。勾選後輸入框 placeholder 會直接帶入
+        「改寫成：主觀S、客觀O、評估A、計畫P 四段結構。若還有其他需求，可在此對話框說明…」，
+        代表這次的指令是「先套 SOAP 結構，再按你補充的需求調整」。
       </p>
       <ul>
         <li>「勾 SOAP + 輸入：加入具體量表數值範例」→ AI 在 O 段補充建議的量表格式</li>

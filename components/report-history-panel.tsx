@@ -114,7 +114,6 @@ export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, o
                     })}
                   </span>
                 </div>
-                <p className="text-sm font-medium truncate">{rev.title}</p>
                 <p className={`text-sm ${rev.changeSummary ? 'text-foreground' : 'text-muted-foreground italic'}`}>
                   {rev.changeSummary ?? '（未填寫摘要）'}
                 </p>

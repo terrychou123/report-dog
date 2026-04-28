@@ -24,40 +24,63 @@ export default function VersionHistoryPage() {
       <Badge variant="outline" className="mb-4 not-prose">核心功能</Badge>
       <h1>版本歷史與共享</h1>
       <p className="lead">
-        每次儲存與 AI 修改都會自動記錄版本。你可以隨時查看過去的任何版本，或還原到特定時間點。
+        每次手動儲存與 AI 修改都會記錄一個版本。儲存時可選填一句修改摘要，方便日後在版本歷史中快速辨認每個版本的差異，並隨時還原到特定時間點。
         同時支援產生唯讀分享連結，讓主管或同事快速查閱報告。
       </p>
 
-      <h2>查看版本歷史</h2>
+      <h2>儲存版本（填寫修改摘要）</h2>
       <figure className="my-6 not-prose">
         <Image
-          src="/docs/version-history-step1-dialog.svg"
-          alt="報告汪「版本歷史」對話框示意圖：標題列顯示時鐘圖示與「版本歷史」文字，列出版本 #3（最新，淺藍底，「最新」Badge）、版本 #2、版本 #1，每個版本顯示時間戳記與修改摘要，版本 #2 與 #1 各有「還原」按鈕（藍色外框）"
+          src="/docs/version-history-step0-save.svg"
+          alt="報告汪「儲存版本」對話框示意圖：標題列顯示磁碟圖示與「儲存版本」文字，下方說明「簡述本次修改重點，方便日後辨認版本（選填）」，輸入框 placeholder「例：新增個案意見反映機制說明」，底部「取消」與「儲存」按鈕"
           width={800}
           height={500}
           className="w-full h-auto rounded-lg border border-border"
         />
         <figcaption className="mt-2 text-sm text-muted-foreground text-center">
-          版本歷史對話框依時間倒序列出所有版本，點擊「還原」即可回到任意版本
+          儲存時可選填一句修改摘要，會顯示在版本歷史卡片，幫你回想每個版本改了什麼
+        </figcaption>
+      </figure>
+      <ol>
+        <li>編輯報告後，點擊編輯器右上角的「<strong>儲存</strong>」按鈕</li>
+        <li>對話框彈出「儲存版本」，於輸入框填寫一句修改重點（200 字內），例如「新增個案意見反映機制說明」</li>
+        <li>按 Enter 或點擊「<strong>儲存</strong>」即完成；摘要留白也可以儲存（卡片會顯示「（未填寫摘要）」）</li>
+      </ol>
+
+      <DocsTip variant="info" title="💡 摘要寫什麼最好？" className="my-6">
+        建議用一句話描述「這次主要動了什麼」，例如「修正服務人次數據」、「依督導意見補充活動辦理情形」。
+        日後翻歷史版本時，光看摘要就能找到要還原的時點，不必逐版開啟比對。
+      </DocsTip>
+
+      <h2>查看版本歷史</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/version-history-step1-dialog.svg"
+          alt="報告汪「版本歷史」對話框示意圖：標題列顯示時鐘圖示與「版本歷史」文字，副標「免費用戶僅保存最新的五筆資料」，列出版本 #3、版本 #2、版本 #1 三張卡片，每張顯示版本號與時間（同一行）、修改摘要與「還原此版本」按鈕（藍色外框）"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          版本歷史依時間倒序列出，每張卡片顯示版本號、儲存時間與修改摘要
         </figcaption>
       </figure>
       <ol>
         <li>開啟任一報告</li>
         <li>點擊右上角時鐘圖示（版本歷史）</li>
-        <li>對話框彈出，顯示所有版本的時間戳記與修改摘要</li>
+        <li>對話框彈出，每張卡片由上而下顯示：版本號＋儲存時間 → 修改摘要 → 還原此版本按鈕</li>
         <li>版本列表依時間倒序排列（最新在上）</li>
       </ol>
 
       <h2>還原版本</h2>
       <ol>
-        <li>在版本歷史面板中找到要還原的版本</li>
-        <li>點擊該版本的「還原」按鈕</li>
-        <li>確認還原操作（目前版本會先自動儲存為新版本，以防誤操作）</li>
-        <li>報告內容還原至選取的歷史版本</li>
+        <li>在版本歷史面板中找到要還原的版本（依摘要文字辨識）</li>
+        <li>點擊該版本的「<strong>還原此版本</strong>」按鈕</li>
+        <li>報告內容立即還原至選取的歷史版本，記得隨即點「儲存」並填寫摘要（例如「還原至 03/28 版本」）以保留還原紀錄</li>
       </ol>
 
       <DocsTip variant="info" title="💡 免費版版本保留說明" className="my-6">
-        免費版本保留最近 10 個版本。如需更長的版本歷史，請升級至付費方案。
+        免費版本僅保留最新 5 個版本，較舊的版本會自動清除。如需更長的版本歷史，請升級至付費方案。
         詳見 <Link href="/pricing" className="underline hover:text-primary">價格方案</Link>。
       </DocsTip>
 
