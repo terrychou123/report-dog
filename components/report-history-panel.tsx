@@ -22,6 +22,7 @@ type Revision = {
   responsible: string | null;
   links: string | null;   // JSON string: RevisionLink[]
   tags: string | null;    // JSON string: string[]
+  changeSummary: string | null;
   createdAt: string;
 };
 
@@ -114,6 +115,9 @@ export function ReportHistoryPanel({ endpoint, canRestore, open, onOpenChange, o
                   </span>
                 </div>
                 <p className="text-sm font-medium truncate">{rev.title}</p>
+                <p className={`text-sm ${rev.changeSummary ? 'text-foreground' : 'text-muted-foreground italic'}`}>
+                  {rev.changeSummary ?? '（未填寫摘要）'}
+                </p>
                 {/* 快照摘要：負責人 / 標籤 / 連結數量 */}
                 <div className="flex flex-wrap gap-x-3 gap-y-0.5">
                   {rev.responsible && (

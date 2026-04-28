@@ -257,7 +257,7 @@ function fortuneSheetsToData(sheets: Sheet[]): SheetData[] {
 export default function FortuneEditorInner({
   reportId, initialData, title,
   saveTrigger = 0, downloadTrigger = 0,
-  onSavingChange, onDownloadingChange, onChanged, saveUrl,
+  onSavingChange, onDownloadingChange, onChanged, saveUrl, changeSummary,
 }: FortuneEditorProps) {
   const sheetsRef = useRef<Sheet[] | null>(null);
   if (sheetsRef.current === null) {
@@ -514,7 +514,11 @@ export default function FortuneEditorInner({
       const res = await fetch(saveUrl ?? `/api/reports/${reportId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title, content: JSON.stringify(fortuneSheetsToData(sheetsRef.current ?? [])) }),
+        body: JSON.stringify({
+          title,
+          content: JSON.stringify(fortuneSheetsToData(sheetsRef.current ?? [])),
+          changeSummary: changeSummary ?? null,
+        }),
       });
       if (res.ok) toast.success("報告已儲存");
       else toast.error("儲存失敗，請重試");
@@ -524,7 +528,7 @@ export default function FortuneEditorInner({
       setSaving(false);
       onSavingChange?.(false);
     }
-  }, [reportId, saveUrl, title, onSavingChange]);
+  }, [reportId, saveUrl, title, changeSummary, onSavingChange]);
 
   const handleDownload = useCallback(async () => {
     setDownloading(true);

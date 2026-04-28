@@ -46,6 +46,7 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ id:
       versionNumber: reportRevisions.versionNumber,
       title: reportRevisions.title,
       userId: reportRevisions.userId,
+      changeSummary: reportRevisions.changeSummary,
       createdAt: reportRevisions.createdAt,
     })
     .from(reportRevisions)

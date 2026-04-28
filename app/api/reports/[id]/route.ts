@@ -97,7 +97,7 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
   if (!canEdit) return NextResponse.json({ error: "Not found or forbidden" }, { status: 404 });
 
   const body = await req.json();
-  const { title, content } = body;
+  const { title, content, changeSummary } = body;
 
   // 用 transaction 確保 UPDATE + 版本快照 + 修剪的原子性
   const MAX_REVISIONS = 5;
@@ -140,6 +140,9 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: 
         content: updatedRow.content,
         fileType: updatedRow.fileType,
         versionNumber: nextVersion,
+        changeSummary: typeof changeSummary === 'string'
+          ? (changeSummary.trim().slice(0, 200) || null)
+          : null,
       });
 
       // 插入後共 existingRevisions.length + 1 筆，超出上限的刪除

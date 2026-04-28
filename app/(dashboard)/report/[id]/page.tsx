@@ -23,6 +23,7 @@ import {
 import { toast } from "sonner";
 import { FortuneEditor } from "@/components/fortune-editor";
 import { ReportHistoryPanel } from "@/components/report-history-panel";
+import { SaveReportDialog } from "@/components/save-report-dialog";
 import { Badge } from "@/components/ui/badge";
 import {
   DropdownMenu,
@@ -98,6 +99,9 @@ export default function ReportEditorPage() {
   const canEdit = report?.canEdit !== false;
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [saveDialogOpen, setSaveDialogOpen] = useState(false);
+  const [excelSaveDialogOpen, setExcelSaveDialogOpen] = useState(false);
+  const [pendingExcelSummary, setPendingExcelSummary] = useState<string | null>(null);
   const isDirtyRef = useRef(false);
   const handleExcelChanged = useCallback(() => { isDirtyRef.current = true; }, []);
   const [leaveDialogOpen, setLeaveDialogOpen] = useState(false);
@@ -429,13 +433,13 @@ export default function ReportEditorPage() {
     toast.success("已新增關聯標籤");
   }
 
-  async function handleSave() {
+  async function handleSave(changeSummary: string | null) {
     if (!report || !editor) return;
     setSaving(true);
     const res = await fetch(`/api/reports/${report.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML() }),
+      body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML(), changeSummary }),
     });
     if (res.ok) {
       toast.success("已儲存", { description: "免費用戶僅保存最新的五筆歷史版本" });
@@ -696,7 +700,7 @@ export default function ReportEditorPage() {
               </Button>
               {canEdit && (
                 <Button size="sm"
-                  onClick={() => setExcelSaveTrigger(t => t + 1)}
+                  onClick={() => setExcelSaveDialogOpen(true)}
                   disabled={excelSaving}>
                   <SaveIcon className="h-4 w-4 mr-2" />
                   {excelSaving ? "儲存中..." : "儲存"}
@@ -710,7 +714,7 @@ export default function ReportEditorPage() {
                 下載
               </Button>
               {canEdit && (
-                <Button onClick={handleSave} disabled={saving} size="sm">
+                <Button onClick={() => setSaveDialogOpen(true)} disabled={saving} size="sm">
                   <SaveIcon className="h-4 w-4 mr-2" />
                   {saving ? "儲存中..." : "儲存"}
                 </Button>
@@ -731,6 +735,7 @@ export default function ReportEditorPage() {
           onSavingChange={setExcelSaving}
           onDownloadingChange={setExcelDownloading}
           onChanged={handleExcelChanged}
+          changeSummary={pendingExcelSummary}
         />
       ) : (
         <div className="border rounded-lg overflow-hidden report-editor" onMouseUp={handleEditorMouseUp}>
@@ -889,6 +894,23 @@ export default function ReportEditorPage() {
           editor?.commands.setContent(content || "");
           isDirtyRef.current = true;
           toast.success("已還原版本，請儲存以確認");
+        }}
+      />
+
+      {/* 儲存版本 Dialog（TipTap） */}
+      <SaveReportDialog
+        open={saveDialogOpen}
+        onOpenChange={setSaveDialogOpen}
+        onConfirm={handleSave}
+      />
+
+      {/* 儲存版本 Dialog（Excel/FortuneSheet） */}
+      <SaveReportDialog
+        open={excelSaveDialogOpen}
+        onOpenChange={setExcelSaveDialogOpen}
+        onConfirm={async (summary) => {
+          setPendingExcelSummary(summary);
+          setExcelSaveTrigger(t => t + 1);
         }}
       />
 

@@ -24,6 +24,7 @@ export interface FortuneEditorProps {
   onChanged?: () => void;
   /** Override the save endpoint. Defaults to /api/reports/${reportId} */
   saveUrl?: string;
+  changeSummary?: string | null;
 }
 
 export function FortuneEditor(props: FortuneEditorProps) {
