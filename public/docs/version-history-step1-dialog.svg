@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 + 暗色遮罩 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="500" fill="#1e293b" opacity="0.4"/>
+
+  <!-- Dialog 陰影 -->
+  <rect x="258" y="44" width="304" height="424" rx="14" fill="#0f172a" opacity="0.25"/>
+  <!-- Dialog 主卡片 -->
+  <rect x="254" y="40" width="304" height="424" rx="14" fill="white"/>
+
+  <!-- Dialog Header -->
+  <!-- History icon 示意 -->
+  <circle cx="274" cy="68" r="10" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <polyline points="274,62 274,68 279,72" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 264,64 L 260,60" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 260,60 L 258,65" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="292" y="73" font-size="15" font-weight="700" fill="#1e293b">版本歷史</text>
+  <text x="540" y="73" text-anchor="middle" font-size="20" fill="#78716c">×</text>
+  <line x1="254" y1="82" x2="558" y2="82" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 副標 -->
+  <text x="274" y="104" font-size="12" fill="#78716c">2025年3月 個案A 服務計畫</text>
+  <line x1="254" y1="114" x2="558" y2="114" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 版本 3（最新） -->
+  <rect x="274" y="124" width="264" height="80" rx="8" fill="#edf7fa" stroke="#b8dde8" stroke-width="1"/>
+  <text x="286" y="146" font-size="11" font-weight="700" fill="#3a8fa8">版本 #3</text>
+  <rect x="386" y="135" width="36" height="18" rx="9" fill="#3a8fa8"/>
+  <text x="404" y="148" text-anchor="middle" font-size="10" fill="white">最新</text>
+  <text x="286" y="164" font-size="11" fill="#78716c">2025/03/31  14:22</text>
+  <text x="286" y="182" font-size="12" fill="#1e293b">新增個案意見反映機制說明</text>
+  <!-- 還原按鈕（灰色，最新版不可還原） -->
+  <rect x="458" y="172" width="60" height="24" rx="6" fill="#f5f5f4" stroke="#e8e6de" stroke-width="1"/>
+  <text x="488" y="188" text-anchor="middle" font-size="11" fill="#a8a29e">還原</text>
+
+  <!-- 版本 2 -->
+  <rect x="274" y="214" width="264" height="80" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="286" y="236" font-size="11" font-weight="700" fill="#57534e">版本 #2</text>
+  <text x="286" y="254" font-size="11" fill="#78716c">2025/03/28  09:15</text>
+  <text x="286" y="272" font-size="12" fill="#1e293b">修改服務流程描述段落</text>
+  <!-- 還原按鈕（可點擊） -->
+  <rect x="454" y="262" width="68" height="24" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
+  <!-- RotateCcw icon -->
+  <path d="M 462,270 Q 462,274 466,276" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 462,270 L 460,266 L 464,267" fill="#3a8fa8" stroke="none"/>
+  <text x="500" y="278" text-anchor="middle" font-size="11" fill="#3a8fa8">還原</text>
+
+  <!-- 版本 1 -->
+  <rect x="274" y="304" width="264" height="80" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="286" y="326" font-size="11" font-weight="700" fill="#57534e">版本 #1</text>
+  <text x="286" y="344" font-size="11" fill="#78716c">2025/03/25  16:08</text>
+  <text x="286" y="362" font-size="12" fill="#1e293b">初始建立</text>
+  <rect x="454" y="352" width="68" height="24" rx="6" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
+  <path d="M 462,360 Q 462,364 466,366" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 462,360 L 460,356 L 464,357" fill="#3a8fa8" stroke="none"/>
+  <text x="500" y="368" text-anchor="middle" font-size="11" fill="#3a8fa8">還原</text>
+
+  <!-- Dialog 底部說明 -->
+  <line x1="254" y1="398" x2="558" y2="398" stroke="#e8e6de" stroke-width="1"/>
+  <text x="406" y="422" text-anchor="middle" font-size="11" fill="#a8a29e">點擊「還原」可回到任意版本</text>
+  <text x="406" y="440" text-anchor="middle" font-size="11" fill="#a8a29e">系統會自動儲存當前版本</text>
+
+  <!-- 標註① 版本列表 -->
+  <rect x="98" y="214" width="144" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="170" y="235" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 版本紀錄</text>
+  <text x="170" y="253" text-anchor="middle" font-size="11" fill="#92400e">自動儲存時間</text>
+  <text x="170" y="269" text-anchor="middle" font-size="11" fill="#92400e">與修改摘要</text>
+  <line x1="242" y1="254" x2="272" y2="254" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrVH1)"/>
+
+  <!-- 標註② 還原按鈕 -->
+  <rect x="562" y="262" width="144" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="634" y="283" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 點擊還原</text>
+  <text x="634" y="301" text-anchor="middle" font-size="11" fill="#92400e">回到指定版本</text>
+  <line x1="562" y1="274" x2="524" y2="274" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrVH1left)"/>
+
+  <defs>
+    <marker id="arrVH1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+    <marker id="arrVH1left" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <polygon points="8 0, 0 3, 8 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

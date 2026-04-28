@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 + 暗色遮罩 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="500" fill="#1e293b" opacity="0.4"/>
+
+  <!-- Dialog 卡片陰影 -->
+  <rect x="152" y="34" width="504" height="440" rx="14" fill="#0f172a" opacity="0.25"/>
+  <!-- Dialog 主卡片 -->
+  <rect x="148" y="30" width="504" height="440" rx="14" fill="white"/>
+
+  <!-- Dialog Header -->
+  <!-- Sparkle icon 替代（星形） -->
+  <text x="172" y="68" font-size="16" fill="#3a8fa8">✦</text>
+  <text x="192" y="68" font-size="17" font-weight="700" fill="#1e293b">AI 修改助手</text>
+  <text x="630" y="68" text-anchor="middle" font-size="20" fill="#78716c">×</text>
+
+  <!-- 分隔線 -->
+  <line x1="148" y1="78" x2="652" y2="78" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 圈選段落 label -->
+  <text x="172" y="106" font-size="12" fill="#78716c">圈選段落</text>
+  <!-- 圈選段落內容框（muted bg） -->
+  <rect x="172" y="114" width="456" height="68" rx="6" fill="#f5f5f4"/>
+  <text x="186" y="134" font-size="12" fill="#57534e">本月共提供服務 22 次，每次 6 小時，累計 132 小時。</text>
+  <text x="186" y="152" font-size="12" fill="#57534e">個案參與團體活動出席率達 85%，較上月提升 10%。</text>
+  <text x="186" y="170" font-size="12" fill="#a8a29e">（已選取的段落文字）</text>
+
+  <!-- 修改指令 label -->
+  <text x="172" y="210" font-size="12" font-weight="600" fill="#57534e">修改指令</text>
+  <!-- SOAP checkbox 右側 -->
+  <rect x="574" y="199" width="12" height="12" rx="2" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="590" y="210" font-size="12" fill="#57534e">SOAP</text>
+
+  <!-- 修改指令 textarea -->
+  <rect x="172" y="218" width="456" height="80" rx="6" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="186" y="240" font-size="12" fill="#a8a29e">請輸入您的修改要求，例如：改得更正式一些、精簡這段、</text>
+  <text x="186" y="258" font-size="12" fill="#a8a29e">加強說明個案的情況...</text>
+
+  <!-- Footer：取消 + 送出 -->
+  <rect x="452" y="428" width="76" height="36" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="490" y="451" text-anchor="middle" font-size="13" fill="#57534e">取消</text>
+  <rect x="536" y="428" width="100" height="36" rx="8" fill="#3a8fa8"/>
+  <text x="554" y="447" font-size="12" fill="white">✦</text>
+  <text x="568" y="451" font-size="13" font-weight="600" fill="white">送出</text>
+  <!-- 虛線高亮框 -->
+  <rect x="532" y="424" width="108" height="44" rx="10" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <!-- 標註① 確認圈選段落 -->
+  <rect x="6" y="106" width="138" height="56" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="75" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 確認段落</text>
+  <text x="75" y="145" text-anchor="middle" font-size="11" fill="#92400e">確認選取內容</text>
+  <line x1="144" y1="132" x2="170" y2="145" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrI1)"/>
+
+  <!-- 標註② 填入指令 -->
+  <rect x="6" y="218" width="138" height="56" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="75" y="239" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 填入指令</text>
+  <text x="75" y="257" text-anchor="middle" font-size="11" fill="#92400e">用自然語言說明</text>
+  <line x1="144" y1="244" x2="170" y2="255" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrI1)"/>
+
+  <!-- 標註③ 送出 -->
+  <rect x="658" y="420" width="134" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="725" y="441" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">③ 點擊送出</text>
+  <text x="725" y="459" text-anchor="middle" font-size="11" fill="#92400e">等待 AI 回應</text>
+  <line x1="658" y1="447" x2="642" y2="447" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrI1)"/>
+
+  <defs>
+    <marker id="arrI1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

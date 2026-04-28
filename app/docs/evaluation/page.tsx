@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -49,12 +50,24 @@ export default function EvaluationPage() {
       </p>
 
       <h2>如何使用</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/evaluation-step1-panel.svg"
+          alt="報告汪「報告 AI 分析」對話框示意圖：頂部橘色警告橫幅（AI 分析僅供參考），下方顯示已選取的報告標籤（3 份），機構類型下拉選單選取「日間照顧機構」，底部「開始分析」按鈕以橘色虛線框高亮，下方串流輸出分析結果"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          從報告列表點擊「報告分析」開啟分析對話框，選擇機構類型後 AI 即時串流輸出結果
+        </figcaption>
+      </figure>
       <ol>
-        <li>進入「評鑑分析」功能頁面</li>
-        <li>選擇機構類型（居服、日照、住宿型長照機構、醫院）</li>
-        <li>上傳或選擇要分析的報告（支援單份或批次分析）</li>
-        <li>點擊「開始分析」，AI 在 30-60 秒內完成分析</li>
-        <li>查看五維度分析結果與改善建議</li>
+        <li>在「報告」列表頁點擊右側「報告分析」按鈕，開啟 AI 分析對話框</li>
+        <li>在對話框中選擇要分析的報告（支援選取多份）</li>
+        <li>選擇機構類型（居服、日照、住宿型長照機構、醫院等），套用對應評鑑準則</li>
+        <li>點擊「開始分析」，AI 以串流方式即時輸出分析結果</li>
+        <li>查看分析建議，找出需要補強的文件項目</li>
         <li>依建議回到報告編輯，使用 AI 修改改善弱項</li>
       </ol>
 

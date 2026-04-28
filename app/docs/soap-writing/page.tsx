@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -110,6 +111,18 @@ export default function SoapWritingPage() {
       </div>
 
       <h2>如何在報告汪用 AI 一鍵套用 SOAP</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/soap-writing-step1-dialog.svg"
+          alt="報告汪 AI 修改助手對話框示意圖：SOAP 模式已勾選（藍色勾選框），下方出現 S/O/A/P 四段預覽說明（淺藍底），右下角「送出 SOAP 改寫」按鈕以橘色虛線框高亮"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          勾選 SOAP 模式後，AI 自動將段落改寫為四段式專業格式
+        </figcaption>
+      </figure>
       <ol>
         <li>開啟報告並選取（圈選）一段個案紀錄文字</li>
         <li>點擊「AI 修改助手」開啟對話框</li>

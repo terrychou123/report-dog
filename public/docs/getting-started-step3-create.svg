@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景（米色，模擬 dashboard 底層） -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Modal 遮罩（半透明深色） -->
+  <rect width="800" height="500" fill="#1e293b" opacity="0.4"/>
+
+  <!-- Modal 卡片陰影 -->
+  <rect x="148" y="44" width="512" height="420" rx="14" fill="#0f172a" opacity="0.25"/>
+  <!-- Modal 主卡片 -->
+  <rect x="144" y="40" width="512" height="420" rx="14" fill="white"/>
+
+  <!-- Modal Header -->
+  <text x="168" y="78" font-size="18" font-weight="700" fill="#1e293b">上傳報告</text>
+  <!-- × 關閉 -->
+  <text x="628" y="78" text-anchor="middle" font-size="20" fill="#78716c">×</text>
+
+  <!-- 隱私法律提示 -->
+  <text x="168" y="104" font-size="11" fill="#78716c">因應個人資料保護法，請勿涉及個人敏感資料，本平台不負任何法律責任。</text>
+
+  <!-- Tabs 列 -->
+  <rect x="168" y="124" width="464" height="38" rx="8" fill="#f5f5f4"/>
+  <!-- Tab1（active）：上傳檔案 -->
+  <rect x="170" y="126" width="229" height="34" rx="6" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="284" y="149" text-anchor="middle" font-size="13" font-weight="700" fill="#3a8fa8">上傳檔案</text>
+  <!-- Tab2（inactive）：手動輸入 -->
+  <text x="515" y="149" text-anchor="middle" font-size="13" fill="#78716c">手動輸入</text>
+
+  <!-- 上傳區（虛線框） -->
+  <rect x="168" y="178" width="464" height="180" rx="8" fill="#fafaf8" stroke="#a8a29e" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- Upload icon（雲端上傳） -->
+  <g stroke="#a8a29e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- 雲朵 -->
+    <path d="M 380 232 Q 380 220 392 220 Q 396 210 408 212 Q 422 212 422 226 Q 432 226 432 236 Q 432 246 422 246 L 388 246 Q 376 246 380 232 Z"/>
+    <!-- 上箭頭 -->
+    <path d="M 406 256 L 406 274"/>
+    <path d="M 398 264 L 406 256 L 414 264"/>
+  </g>
+
+  <!-- 上傳區文字 -->
+  <text x="400" y="304" text-anchor="middle" font-size="13" fill="#57534e">點擊或拖曳檔案至此（可多選）</text>
+  <text x="400" y="324" text-anchor="middle" font-size="11" fill="#78716c">支援 .doc / .docx（Word）及 .xlsx / .xls（Excel）</text>
+
+  <!-- Footer：取消 + 上傳並建立報告 -->
+  <!-- 取消 button (outline) -->
+  <rect x="424" y="402" width="76" height="38" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="462" y="426" text-anchor="middle" font-size="13" fill="#57534e">取消</text>
+  <!-- 上傳並建立報告 button (primary, HIGHLIGHTED) -->
+  <rect x="508" y="402" width="124" height="38" rx="8" fill="#3a8fa8"/>
+  <text x="570" y="426" text-anchor="middle" font-size="12" font-weight="600" fill="white">上傳並建立報告</text>
+  <!-- 虛線高亮框 -->
+  <rect x="504" y="398" width="132" height="46" rx="10" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <!-- 左側標註① 選擇 Tab -->
+  <rect x="6" y="120" width="128" height="46" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="70" y="138" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 選擇方式</text>
+  <text x="70" y="156" text-anchor="middle" font-size="11" fill="#92400e">上傳/手動</text>
+  <line x1="134" y1="143" x2="166" y2="144" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr3)"/>
+
+  <!-- 左側標註② 拖曳上傳 -->
+  <rect x="6" y="240" width="128" height="58" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="70" y="259" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 拖曳檔案</text>
+  <text x="70" y="277" text-anchor="middle" font-size="11" fill="#92400e">支援 Word/Excel</text>
+  <text x="70" y="291" text-anchor="middle" font-size="11" fill="#92400e">可多檔同時</text>
+  <line x1="134" y1="266" x2="166" y2="266" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr3)"/>
+
+  <!-- 右側標註③ 完成 -->
+  <rect x="666" y="394" width="124" height="56" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="728" y="413" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">③ 點擊建立</text>
+  <text x="728" y="431" text-anchor="middle" font-size="11" fill="#92400e">完成上傳</text>
+  <text x="728" y="445" text-anchor="middle" font-size="11" fill="#92400e">並建立報告</text>
+  <line x1="666" y1="421" x2="638" y2="421" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr3)"/>
+
+  <defs>
+    <marker id="arr3" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#f0efe8" opacity="0.8">示意圖｜實際介面以登入後為準</text>
+</svg>

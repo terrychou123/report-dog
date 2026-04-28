@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 + 暗色遮罩 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect width="800" height="500" fill="#1e293b" opacity="0.4"/>
+
+  <!-- Dialog 卡片陰影 -->
+  <rect x="152" y="24" width="504" height="460" rx="14" fill="#0f172a" opacity="0.25"/>
+  <!-- Dialog 主卡片 -->
+  <rect x="148" y="20" width="504" height="460" rx="14" fill="white"/>
+
+  <!-- Dialog Header -->
+  <text x="172" y="56" font-size="16" fill="#3a8fa8">✦</text>
+  <text x="192" y="56" font-size="17" font-weight="700" fill="#1e293b">AI 修改助手</text>
+  <text x="630" y="56" text-anchor="middle" font-size="20" fill="#78716c">×</text>
+  <line x1="148" y1="66" x2="652" y2="66" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 圈選段落 label -->
+  <text x="172" y="92" font-size="12" fill="#78716c">圈選段落</text>
+  <!-- 圈選段落框（muted，較小） -->
+  <rect x="172" y="100" width="456" height="52" rx="6" fill="#f5f5f4"/>
+  <text x="186" y="120" font-size="12" fill="#57534e">本月共提供服務 22 次，每次 6 小時，累計 132 小時。</text>
+  <text x="186" y="140" font-size="12" fill="#57534e">個案參與團體活動出席率達 85%，較上月提升 10%。</text>
+
+  <!-- AI 建議修改 label -->
+  <text x="172" y="178" font-size="12" font-weight="600" fill="#57534e">AI 建議修改</text>
+
+  <!-- AI 建議框（淺青底，對應 bg-primary/5 border-primary/20） -->
+  <rect x="172" y="186" width="456" height="130" rx="6" fill="#edf7fa" stroke="#b8dde8" stroke-width="1.5"/>
+  <text x="186" y="208" font-size="12" fill="#1e293b">本月服務紀要：共提供日照服務 22 次，每次 6 小時，</text>
+  <text x="186" y="228" font-size="12" fill="#1e293b">合計服務時數 132 小時，達成本月服務計畫目標。</text>
+  <text x="186" y="252" font-size="12" fill="#1e293b">個案本月團體活動出席率為 85%，較上月提升 10 個</text>
+  <text x="186" y="272" font-size="12" fill="#1e293b">百分點，顯示個案社會參與度及適應能力持續改善。</text>
+  <text x="186" y="300" font-size="11" fill="#78716c">（AI 改寫版本，語氣更正式、結構更清晰）</text>
+
+  <!-- 套用 / 繼續調整 按鈕列 -->
+  <rect x="172" y="336" width="220" height="38" rx="8" fill="#3a8fa8"/>
+  <text x="200" y="355" font-size="13" fill="white">✓</text>
+  <text x="218" y="359" font-size="13" font-weight="600" fill="white">套用修改</text>
+  <!-- 虛線高亮框 -->
+  <rect x="168" y="332" width="228" height="46" rx="10" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <rect x="404" y="336" width="224" height="38" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="430" y="355" font-size="13" fill="#57534e">↺</text>
+  <text x="448" y="359" font-size="13" fill="#57534e">繼續調整</text>
+
+  <!-- 標註① AI 建議區 -->
+  <rect x="6" y="178" width="142" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="77" y="199" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① AI 建議</text>
+  <text x="77" y="217" text-anchor="middle" font-size="11" fill="#92400e">查看改寫結果</text>
+  <text x="77" y="233" text-anchor="middle" font-size="11" fill="#92400e">（淺青底）</text>
+  <line x1="148" y1="213" x2="170" y2="240" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrA1)"/>
+
+  <!-- 標註② 套用 -->
+  <rect x="658" y="326" width="134" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="725" y="348" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 套用修改</text>
+  <text x="725" y="366" text-anchor="middle" font-size="11" fill="#92400e">覆蓋原段落</text>
+  <text x="725" y="382" text-anchor="middle" font-size="11" fill="#92400e">原版存歷史</text>
+  <line x1="658" y1="358" x2="402" y2="358" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrA1)"/>
+
+  <!-- 標註③ 繼續調整 -->
+  <rect x="658" y="408" width="134" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="725" y="429" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">③ 繼續調整</text>
+  <text x="725" y="447" text-anchor="middle" font-size="11" fill="#92400e">重新輸入指令</text>
+  <line x1="658" y1="435" x2="630" y2="355" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrA1)"/>
+
+  <defs>
+    <marker id="arrA1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

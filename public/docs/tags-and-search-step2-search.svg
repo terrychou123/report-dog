@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 報告（active） -->
+  <rect x="8" y="62" width="124" height="28" rx="6" fill="#e0f0f5"/>
+  <path d="M 56 66 L 56 82 L 70 82 L 70 72 L 66 66 Z" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 66 66 L 66 72 L 70 72" fill="none" stroke="#3a8fa8" stroke-width="1.5"/>
+  <text x="82" y="80" font-size="12" font-weight="600" fill="#3a8fa8">報告</text>
+  <!-- 標籤 -->
+  <text x="82" y="116" font-size="12" fill="#57534e">標籤</text>
+  <!-- 追蹤 -->
+  <text x="82" y="148" font-size="12" fill="#57534e">追蹤</text>
+
+  <!-- 主內容區 -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+
+  <!-- Header -->
+  <text x="168" y="88" font-size="22" font-weight="700" fill="#1e293b">我的報告</text>
+  <text x="168" y="108" font-size="12" fill="#78716c">所有已上傳的報告</text>
+  <rect x="556" y="72" width="138" height="34" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="625" y="94" text-anchor="middle" font-size="12" fill="#57534e">↓ 匯入評鑑範本</text>
+  <rect x="702" y="72" width="100" height="34" rx="8" fill="#3a8fa8"/>
+  <text x="752" y="94" text-anchor="middle" font-size="12" font-weight="600" fill="white">+ 上傳報告</text>
+
+  <!-- 搜尋列（有輸入「週報」） -->
+  <rect x="168" y="126" width="604" height="36" rx="8" fill="white" stroke="#3a8fa8" stroke-width="2"/>
+  <text x="190" y="149" font-size="13" fill="#a8a29e">🔍</text>
+  <text x="212" y="149" font-size="13" fill="#1e293b">週報</text>
+  <!-- cursor -->
+  <line x1="242" y1="136" x2="242" y2="156" stroke="#3a8fa8" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- 搜尋結果提示 -->
+  <text x="168" y="184" font-size="12" fill="#78716c">找到 3 份相關報告</text>
+
+  <!-- 搜尋結果卡片 1 -->
+  <rect x="168" y="196" width="604" height="58" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="188" y="218" font-size="13" font-weight="600" fill="#1e293b">2025年3月 <tspan fill="#d97706" font-weight="700">週報</tspan> — 日照中心服務紀要</text>
+  <rect x="188" y="226" width="34" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="205" y="238" text-anchor="middle" font-size="10" fill="#3a8fa8">週報</text>
+  <rect x="228" y="226" width="34" height="18" rx="9" fill="#f5f5f4"/>
+  <text x="245" y="238" text-anchor="middle" font-size="10" fill="#57534e">日照</text>
+  <text x="740" y="218" text-anchor="end" font-size="11" fill="#a8a29e">2025/03/31</text>
+
+  <!-- 搜尋結果卡片 2 -->
+  <rect x="168" y="262" width="604" height="58" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="188" y="284" font-size="13" font-weight="600" fill="#1e293b">2025年2月 <tspan fill="#d97706" font-weight="700">週報</tspan> — 日照中心服務紀要</text>
+  <rect x="188" y="292" width="34" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="205" y="304" text-anchor="middle" font-size="10" fill="#3a8fa8">週報</text>
+  <text x="740" y="284" text-anchor="end" font-size="11" fill="#a8a29e">2025/02/28</text>
+
+  <!-- 搜尋結果卡片 3 -->
+  <rect x="168" y="328" width="604" height="58" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="188" y="350" font-size="13" font-weight="600" fill="#1e293b">2025年1月 <tspan fill="#d97706" font-weight="700">週報</tspan> — 居服督導記錄</text>
+  <rect x="188" y="358" width="34" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="205" y="370" text-anchor="middle" font-size="10" fill="#3a8fa8">週報</text>
+  <rect x="228" y="358" width="44" height="18" rx="9" fill="#f5f5f4"/>
+  <text x="250" y="370" text-anchor="middle" font-size="10" fill="#57534e">居家服務</text>
+  <text x="740" y="350" text-anchor="end" font-size="11" fill="#a8a29e">2025/01/31</text>
+
+  <!-- 標註① 搜尋列 -->
+  <rect x="6" y="118" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="139" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 輸入關鍵字</text>
+  <text x="80" y="157" text-anchor="middle" font-size="11" fill="#92400e">標題或標籤名稱</text>
+  <line x1="154" y1="143" x2="166" y2="143" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrSR1)"/>
+
+  <!-- 標註② 搜尋結果 -->
+  <rect x="6" y="282" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="303" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 搜尋結果</text>
+  <text x="80" y="321" text-anchor="middle" font-size="11" fill="#92400e">即時過濾顯示</text>
+  <line x1="154" y1="307" x2="166" y2="291" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrSR1)"/>
+
+  <defs>
+    <marker id="arrSR1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

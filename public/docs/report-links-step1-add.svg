@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色（報告編輯頁） -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="8" y="62" width="124" height="28" rx="6" fill="#e0f0f5"/>
+  <text x="82" y="80" font-size="12" font-weight="600" fill="#3a8fa8">報告</text>
+  <text x="82" y="116" font-size="12" fill="#57534e">標籤</text>
+  <text x="82" y="148" font-size="12" fill="#57534e">追蹤</text>
+
+  <!-- 主內容區（暗色遮罩） -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+  <rect x="140" y="44" width="660" height="456" fill="#1e293b" opacity="0.35"/>
+
+  <!-- 報告頁首（模糊背景示意） -->
+  <text x="168" y="82" font-size="16" font-weight="700" fill="#78716c" opacity="0.5">2025年3月 日照中心 評鑑備審文件</text>
+  <!-- 標籤列 -->
+  <rect x="168" y="90" width="60" height="20" rx="10" fill="#c8d8dc" opacity="0.4"/>
+  <rect x="234" y="90" width="60" height="20" rx="10" fill="#c8d8dc" opacity="0.4"/>
+  <!-- 連結列（背景） -->
+  <rect x="168" y="116" width="80" height="20" rx="10" fill="#b0c4ca" opacity="0.4"/>
+  <rect x="254" y="116" width="90" height="20" rx="10" fill="#b0c4ca" opacity="0.4"/>
+  <rect x="350" y="116" width="72" height="20" rx="10" fill="#dedad3" opacity="0.3" stroke="#a8a29e" stroke-width="1" stroke-dasharray="3 2"/>
+
+  <!-- Dialog 陰影 -->
+  <rect x="258" y="174" width="304" height="256" rx="14" fill="#0f172a" opacity="0.25"/>
+  <!-- Dialog 主卡片 -->
+  <rect x="254" y="170" width="304" height="256" rx="14" fill="white"/>
+
+  <!-- Dialog Header -->
+  <!-- Link icon -->
+  <path d="M 274,196 L 280,196 L 280,202 L 274,202 Z M 278,192 L 284,192 L 284,198 L 278,198 Z" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <line x1="276" y1="198" x2="282" y2="194" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="292" y="200" font-size="15" font-weight="700" fill="#1e293b">新增連結</text>
+  <text x="540" y="200" text-anchor="middle" font-size="20" fill="#78716c">×</text>
+  <line x1="254" y1="210" x2="558" y2="210" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- 名稱欄 -->
+  <text x="274" y="234" font-size="12" font-weight="600" fill="#57534e">名稱</text>
+  <rect x="274" y="242" width="264" height="36" rx="6" fill="white" stroke="#3a8fa8" stroke-width="2"/>
+  <text x="286" y="264" font-size="13" fill="#1e293b">衛福部評鑑基準公告</text>
+
+  <!-- 網址欄 -->
+  <text x="274" y="296" font-size="12" font-weight="600" fill="#57534e">網址</text>
+  <rect x="274" y="304" width="264" height="36" rx="6" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <text x="286" y="326" font-size="12" fill="#57534e">https://www.mohw.gov.tw/...</text>
+
+  <!-- 提示文字 -->
+  <text x="274" y="356" font-size="11" fill="#a8a29e">須以 https:// 或 http:// 開頭</text>
+
+  <!-- Footer 按鈕 -->
+  <rect x="274" y="368" width="80" height="36" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="314" y="391" text-anchor="middle" font-size="13" fill="#57534e">取消</text>
+  <rect x="362" y="368" width="176" height="36" rx="8" fill="#3a8fa8"/>
+  <rect x="358" y="364" width="184" height="44" rx="10" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="450" y="391" text-anchor="middle" font-size="13" font-weight="600" fill="white">新增</text>
+
+  <!-- 標註① + 連結按鈕（在背景連結列） -->
+  <rect x="6" y="108" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="129" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 點擊「+ 連結」</text>
+  <text x="80" y="147" text-anchor="middle" font-size="11" fill="#92400e">虛線按鈕</text>
+  <line x1="154" y1="126" x2="348" y2="126" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrL1)"/>
+
+  <!-- 標註② 填入資訊後點新增 -->
+  <rect x="562" y="368" width="144" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="634" y="389" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 填名稱 + 網址</text>
+  <text x="634" y="407" text-anchor="middle" font-size="11" fill="#92400e">點「新增」完成</text>
+  <line x1="562" y1="386" x2="548" y2="386" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrL1left)"/>
+
+  <defs>
+    <marker id="arrL1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+    <marker id="arrL1left" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <polygon points="8 0, 0 3, 8 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

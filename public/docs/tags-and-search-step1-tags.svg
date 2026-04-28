@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 報告 -->
+  <path d="M 56 72 L 56 88 L 70 88 L 70 78 L 66 72 Z" fill="none" stroke="#57534e" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 66 72 L 66 78 L 70 78" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <text x="82" y="84" font-size="12" fill="#57534e">報告</text>
+  <!-- 標籤（active） -->
+  <rect x="8" y="98" width="124" height="28" rx="6" fill="#e0f0f5"/>
+  <path d="M 56 102 L 64 102 L 70 108 L 64 114 L 56 108 Z" fill="none" stroke="#3a8fa8" stroke-width="1.5"/>
+  <circle cx="59" cy="105" r="1.5" fill="#3a8fa8" stroke="none"/>
+  <text x="82" y="115" font-size="12" font-weight="600" fill="#3a8fa8">標籤</text>
+  <!-- 追蹤 -->
+  <text x="82" y="148" font-size="12" fill="#57534e">追蹤</text>
+  <!-- 與我分享 -->
+  <text x="82" y="178" font-size="12" fill="#57534e">與我分享</text>
+
+  <!-- 主內容區 -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+
+  <!-- Header -->
+  <text x="168" y="88" font-size="22" font-weight="700" fill="#1e293b">標籤</text>
+  <text x="168" y="108" font-size="12" fill="#78716c">管理您的標籤</text>
+
+  <!-- 右上按鈕 -->
+  <rect x="580" y="72" width="100" height="34" rx="8" fill="#3a8fa8"/>
+  <text x="630" y="94" text-anchor="middle" font-size="12" font-weight="600" fill="white">+ 新建標籤</text>
+
+  <!-- 搜尋列 -->
+  <rect x="168" y="126" width="604" height="34" rx="8" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <text x="186" y="148" font-size="12" fill="#a8a29e">🔍  搜尋標籤...</text>
+
+  <!-- 標籤卡片 1：週報（collapsed） -->
+  <rect x="168" y="174" width="604" height="44" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <g fill="none" stroke="#3a8fa8" stroke-width="1.5">
+    <path d="M 186 188 L 194 188 L 200 194 L 194 200 L 186 194 Z"/>
+    <circle cx="188" cy="191" r="1.5" fill="#3a8fa8" stroke="none"/>
+  </g>
+  <text x="210" y="200" font-size="13" font-weight="600" fill="#1e293b">週報</text>
+  <rect x="686" y="183" width="48" height="22" rx="11" fill="#e0f0f5"/>
+  <text x="710" y="198" text-anchor="middle" font-size="11" fill="#3a8fa8">📄 8</text>
+  <text x="744" y="200" font-size="14" fill="#a8a29e">⋮⋮</text>
+
+  <!-- 標籤卡片 2：個案A（expanded，展開報告清單） -->
+  <rect x="168" y="226" width="604" height="44" rx="8" fill="white" stroke="#3a8fa8" stroke-width="1.5"/>
+  <g fill="none" stroke="#3a8fa8" stroke-width="1.5">
+    <path d="M 186 240 L 194 240 L 200 246 L 194 252 L 186 246 Z"/>
+    <circle cx="188" cy="243" r="1.5" fill="#3a8fa8" stroke="none"/>
+  </g>
+  <text x="210" y="252" font-size="13" font-weight="600" fill="#1e293b">個案A</text>
+  <!-- expanded count badge（clicked） -->
+  <rect x="686" y="235" width="48" height="22" rx="11" fill="#3a8fa8"/>
+  <text x="710" y="250" text-anchor="middle" font-size="11" fill="white">📄 5</text>
+  <text x="744" y="252" font-size="14" fill="#a8a29e">⋮⋮</text>
+
+  <!-- 展開的報告清單（border-l-2 border-primary/20） -->
+  <line x1="184" y1="278" x2="184" y2="360" stroke="#3a8fa8" stroke-width="2" opacity="0.3"/>
+  <!-- report items -->
+  <text x="200" y="298" font-size="12" fill="#57534e">📄  2025年3月 個案A 服務計畫</text>
+  <text x="200" y="318" font-size="12" fill="#57534e">📄  2025年2月 個案A 追蹤紀錄</text>
+  <text x="200" y="338" font-size="12" fill="#57534e">📄  2025年1月 個案A 初始評估</text>
+  <text x="200" y="358" font-size="11" fill="#a8a29e">⋮  還有 2 份...</text>
+
+  <!-- 標籤卡片 3：日照評鑑（collapsed） -->
+  <rect x="168" y="374" width="604" height="44" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <g fill="none" stroke="#3a8fa8" stroke-width="1.5">
+    <path d="M 186 388 L 194 388 L 200 394 L 194 400 L 186 394 Z"/>
+    <circle cx="188" cy="391" r="1.5" fill="#3a8fa8" stroke="none"/>
+  </g>
+  <text x="210" y="400" font-size="13" font-weight="600" fill="#1e293b">日照評鑑</text>
+  <rect x="686" y="383" width="48" height="22" rx="11" fill="#e0f0f5"/>
+  <text x="710" y="398" text-anchor="middle" font-size="11" fill="#3a8fa8">📄 43</text>
+  <text x="744" y="400" font-size="14" fill="#a8a29e">⋮⋮</text>
+
+  <!-- 標註① 點擊標籤展開 -->
+  <rect x="6" y="226" width="148" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="247" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 點擊數字</text>
+  <text x="80" y="265" text-anchor="middle" font-size="11" fill="#92400e">展開報告清單</text>
+  <text x="80" y="281" text-anchor="middle" font-size="11" fill="#92400e">（即時載入）</text>
+  <line x1="154" y1="248" x2="166" y2="248" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrTS1)"/>
+
+  <!-- 標註② 點擊卡片進詳情 -->
+  <rect x="6" y="394" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="415" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 點擊卡片</text>
+  <text x="80" y="433" text-anchor="middle" font-size="11" fill="#92400e">進入標籤詳情頁</text>
+  <line x1="154" y1="420" x2="166" y2="396" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrTS1)"/>
+
+  <defs>
+    <marker id="arrTS1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

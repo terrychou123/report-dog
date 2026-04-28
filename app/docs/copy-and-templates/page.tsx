@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { techArticleJsonLd } from "@/lib/jsonld";
@@ -27,11 +28,22 @@ export default function CopyAndTemplatesPage() {
       </p>
 
       <h2>一鍵複製上期報告</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/copy-and-templates-step1-copy.svg"
+          alt="報告汪報告列表示意圖：「2025年3月 居服月報」卡片右側的複製圖示按鈕以橘色虛線框高亮，下方出現「2025年3月 居服月報（副本）」藍色虛線卡片，顯示「✓ 複製完成，可修改標題與內容」"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          點擊報告卡片右側的複製圖示，系統立即建立一份內容相同的副本
+        </figcaption>
+      </figure>
       <ol>
         <li>在報告列表找到上期報告（可用標籤篩選快速定位）</li>
-        <li>點擊報告右側「⋯」選單 → 選擇「複製報告」</li>
-        <li>輸入新報告標題（例如：「4月份居服月報」）</li>
-        <li>點擊確認，系統建立一份內容相同的新報告</li>
+        <li>點擊報告卡片右側的複製圖示按鈕（📋），系統立即建立一份相同內容的副本</li>
+        <li>開啟副本，修改報告標題（例如：「4月份居服月報」）</li>
         <li>為新報告加上對應月份的標籤</li>
       </ol>
 

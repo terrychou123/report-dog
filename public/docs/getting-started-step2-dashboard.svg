@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <!-- Logo -->
+  <rect x="20" y="8" width="28" height="28" rx="6" fill="#3a8fa8"/>
+  <text x="34" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="56" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+  <!-- Nav 項目（8 項） -->
+  <text x="120" y="27" font-size="11" fill="#78716c">首頁</text>
+  <text x="158" y="27" font-size="11" fill="#3a8fa8" font-weight="600">我的報告</text>
+  <text x="220" y="27" font-size="11" fill="#78716c">部落格</text>
+  <text x="266" y="27" font-size="11" fill="#78716c">評鑑小教室</text>
+  <text x="338" y="27" font-size="11" fill="#78716c">免費資源</text>
+  <text x="402" y="27" font-size="11" fill="#78716c">操作手冊</text>
+  <text x="466" y="27" font-size="11" fill="#78716c">用戶評價</text>
+  <text x="530" y="27" font-size="11" fill="#78716c">付費計畫</text>
+
+  <!-- 左側 Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- Sidebar 項目1：通知 -->
+  <rect x="18" y="68" width="20" height="14" rx="2" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <path d="M 18 70 L 28 78 L 38 70" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <text x="48" y="80" font-size="13" fill="#57534e">通知</text>
+
+  <!-- Sidebar 項目2：報告（active） -->
+  <rect x="6" y="98" width="128" height="32" rx="6" fill="#e0f0f5"/>
+  <path d="M 18 106 L 18 124 L 36 124 L 36 110 L 32 106 Z" fill="none" stroke="#3a8fa8" stroke-width="1.5"/>
+  <path d="M 32 106 L 32 110 L 36 110" fill="none" stroke="#3a8fa8" stroke-width="1.5"/>
+  <line x1="22" y1="114" x2="32" y2="114" stroke="#3a8fa8" stroke-width="1"/>
+  <line x1="22" y1="118" x2="30" y2="118" stroke="#3a8fa8" stroke-width="1"/>
+  <text x="48" y="118" font-size="13" font-weight="600" fill="#3a8fa8">報告</text>
+
+  <!-- Sidebar 項目3：標籤 -->
+  <path d="M 18 142 L 28 142 L 38 152 L 30 160 L 18 152 Z" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <circle cx="22" cy="146" r="1.5" fill="#57534e"/>
+  <text x="48" y="156" font-size="13" fill="#57534e">標籤</text>
+
+  <!-- Sidebar 項目4：追蹤 -->
+  <path d="M 22 184 Q 22 178 28 178 Q 34 178 34 184 L 34 190 L 38 196 L 18 196 L 22 190 Z" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <circle cx="28" cy="200" r="1.5" fill="#57534e"/>
+  <text x="48" y="194" font-size="13" fill="#57534e">追蹤</text>
+
+  <!-- Sidebar 項目5：與我分享 -->
+  <circle cx="20" cy="218" r="3" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <circle cx="34" cy="214" r="3" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <circle cx="34" cy="226" r="3" fill="none" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="22" y1="216" x2="31" y2="215" stroke="#57534e" stroke-width="1"/>
+  <line x1="22" y1="220" x2="31" y2="225" stroke="#57534e" stroke-width="1"/>
+  <text x="48" y="224" font-size="13" fill="#57534e">與我分享</text>
+
+  <!-- 主內容區底色 -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+
+  <!-- Header：我的報告 -->
+  <text x="172" y="92" font-size="22" font-weight="700" fill="#1e293b">我的報告</text>
+  <text x="172" y="112" font-size="12" fill="#78716c">所有已上傳的報告</text>
+
+  <!-- 匯入評鑑範本 outline button -->
+  <rect x="510" y="76" width="138" height="36" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="579" y="99" text-anchor="middle" font-size="12" fill="#57534e">↓ 匯入評鑑範本</text>
+
+  <!-- + 上傳報告 primary button（高亮） -->
+  <rect x="660" y="76" width="116" height="36" rx="8" fill="#3a8fa8"/>
+  <text x="718" y="99" text-anchor="middle" font-size="12" font-weight="600" fill="white">+ 上傳報告</text>
+  <!-- 虛線高亮框 -->
+  <rect x="656" y="72" width="124" height="44" rx="10" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <!-- 搜尋列（全寬） -->
+  <rect x="172" y="138" width="604" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <text x="194" y="161" font-size="12" fill="#a8a29e">🔍  搜尋標題和標籤</text>
+
+  <!-- 空狀態：File icon 大圖 -->
+  <g opacity="0.28">
+    <path d="M 460 220 L 460 296 L 524 296 L 524 240 L 504 220 Z" fill="none" stroke="#78716c" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 504 220 L 504 240 L 524 240" fill="none" stroke="#78716c" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="472" y1="256" x2="512" y2="256" stroke="#78716c" stroke-width="1.5"/>
+    <line x1="472" y1="270" x2="512" y2="270" stroke="#78716c" stroke-width="1.5"/>
+    <line x1="472" y1="284" x2="500" y2="284" stroke="#78716c" stroke-width="1.5"/>
+  </g>
+  <text x="492" y="324" text-anchor="middle" font-size="18" font-weight="700" fill="#1e293b">尚無報告</text>
+  <text x="492" y="347" text-anchor="middle" font-size="12" fill="#78716c">點擊右上角「上傳報告」建立第一份報告，或匯入評鑑範本快速開始</text>
+
+  <!-- 中央 匯入評鑑範本 button -->
+  <rect x="408" y="368" width="168" height="36" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="492" y="391" text-anchor="middle" font-size="12" fill="#57534e">↓ 匯入評鑑範本</text>
+
+  <!-- 底部標註說明 -->
+  <rect x="172" y="430" width="604" height="34" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="474" y="451" text-anchor="middle" font-size="12" fill="#92400e" font-weight="600">① 點擊右上「+ 上傳報告」新增，或先點「匯入評鑑範本」快速建立模板</text>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

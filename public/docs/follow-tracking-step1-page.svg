@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 報告 -->
+  <text x="82" y="84" font-size="12" fill="#57534e">報告</text>
+  <!-- 標籤 -->
+  <text x="82" y="116" font-size="12" fill="#57534e">標籤</text>
+  <!-- 追蹤（active） -->
+  <rect x="8" y="130" width="124" height="28" rx="6" fill="#e0f0f5"/>
+  <!-- BellRing icon -->
+  <path d="M 56 140 Q 56 135 62 135 Q 68 135 68 140 L 68 145 L 70 150 L 54 150 L 56 145 Z" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 59 150 Q 59 153 62 153 Q 65 153 65 150" fill="none" stroke="#3a8fa8" stroke-width="1.5"/>
+  <line x1="54" y1="136" x2="52" y2="134" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="70" y1="136" x2="72" y2="134" stroke="#3a8fa8" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="82" y="148" font-size="12" font-weight="600" fill="#3a8fa8">追蹤</text>
+  <!-- 與我分享 -->
+  <text x="82" y="180" font-size="12" fill="#57534e">與我分享</text>
+
+  <!-- 主內容區 -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+
+  <!-- Header -->
+  <text x="168" y="88" font-size="22" font-weight="700" fill="#1e293b">追蹤報告</text>
+  <text x="168" y="108" font-size="12" fill="#78716c">設定追蹤提醒，定期回顧重要報告</text>
+  <!-- 新增追蹤按鈕 -->
+  <rect x="664" y="72" width="108" height="34" rx="8" fill="#3a8fa8"/>
+  <text x="718" y="94" text-anchor="middle" font-size="12" font-weight="600" fill="white">+ 新增追蹤</text>
+
+  <!-- 每週追蹤 section -->
+  <text x="168" y="138" font-size="14" font-weight="700" fill="#1e293b">每週追蹤</text>
+  <text x="168" y="154" font-size="11" fill="#78716c">共 3 份</text>
+
+  <!-- 卡片 1（逾期，紅色左邊框） -->
+  <rect x="168" y="162" width="604" height="68" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 紅色左邊框 -->
+  <rect x="168" y="162" width="4" height="68" rx="2" fill="#ef4444"/>
+  <!-- 逾期 badge -->
+  <rect x="188" y="170" width="36" height="20" rx="10" fill="#fef2f2"/>
+  <text x="206" y="184" text-anchor="middle" font-size="10" font-weight="600" fill="#dc2626">逾期</text>
+  <text x="234" y="184" font-size="13" font-weight="600" fill="#1e293b">2025年3月 個案A 服務計畫</text>
+  <text x="188" y="204" font-size="11" fill="#a8a29e">下次追蹤：2025/03/28（已逾 3 天）</text>
+  <!-- 標籤 pill -->
+  <rect x="472" y="196" width="44" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="494" y="209" text-anchor="middle" font-size="10" fill="#3a8fa8">個案A</text>
+  <!-- 頻率 dropdown -->
+  <rect x="524" y="194" width="72" height="22" rx="6" fill="#f8f7f4" stroke="#e8e6de" stroke-width="1"/>
+  <text x="558" y="209" text-anchor="middle" font-size="11" fill="#57534e">每週 ▾</text>
+  <!-- X 解除追蹤 -->
+  <text x="748" y="192" font-size="16" fill="#a8a29e">×</text>
+
+  <!-- 卡片 2（正常） -->
+  <rect x="168" y="238" width="604" height="68" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="188" y="262" font-size="13" font-weight="600" fill="#1e293b">2025年3月 週報 — 日照中心服務紀要</text>
+  <text x="188" y="280" font-size="11" fill="#a8a29e">下次追蹤：2025/04/04</text>
+  <rect x="472" y="272" width="34" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="489" y="285" text-anchor="middle" font-size="10" fill="#3a8fa8">週報</text>
+  <rect x="514" y="270" width="72" height="22" rx="6" fill="#f8f7f4" stroke="#e8e6de" stroke-width="1"/>
+  <text x="550" y="285" text-anchor="middle" font-size="11" fill="#57534e">每週 ▾</text>
+  <text x="748" y="260" font-size="16" fill="#a8a29e">×</text>
+
+  <!-- 每月追蹤 section -->
+  <text x="168" y="328" font-size="14" font-weight="700" fill="#1e293b">每月追蹤</text>
+  <text x="168" y="344" font-size="11" fill="#78716c">共 2 份</text>
+
+  <!-- 卡片 3（正常） -->
+  <rect x="168" y="352" width="604" height="68" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="188" y="376" font-size="13" font-weight="600" fill="#1e293b">日照中心 設施設備定期檢查表</text>
+  <text x="188" y="394" font-size="11" fill="#a8a29e">下次追蹤：2025/04/15</text>
+  <rect x="472" y="386" width="44" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="494" y="399" text-anchor="middle" font-size="10" fill="#3a8fa8">設備</text>
+  <rect x="524" y="384" width="72" height="22" rx="6" fill="#f8f7f4" stroke="#e8e6de" stroke-width="1"/>
+  <text x="560" y="399" text-anchor="middle" font-size="11" fill="#57534e">每月 ▾</text>
+  <text x="748" y="374" font-size="16" fill="#a8a29e">×</text>
+
+  <!-- 標註① 逾期提示 -->
+  <rect x="6" y="160" width="148" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="181" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 逾期提示</text>
+  <text x="80" y="199" text-anchor="middle" font-size="11" fill="#92400e">紅色左邊框</text>
+  <text x="80" y="215" text-anchor="middle" font-size="11" fill="#92400e">＋「逾期」標籤</text>
+  <line x1="154" y1="196" x2="166" y2="196" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrF1)"/>
+
+  <!-- 標註② 頻率切換 -->
+  <rect x="6" y="384" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="405" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 調整頻率</text>
+  <text x="80" y="423" text-anchor="middle" font-size="11" fill="#92400e">下拉選單即時切換</text>
+  <line x1="154" y1="410" x2="522" y2="399" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrF1)"/>
+
+  <defs>
+    <marker id="arrF1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

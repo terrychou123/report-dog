@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -35,13 +36,63 @@ export default function AiEditingPage() {
         報告汪讓你用自然語言下指令，AI 即時修改報告中的任意段落。不需要學習特殊語法，用說話的方式就能完成文書修改。
       </p>
 
-      <h2>啟動 AI 修改</h2>
+      <h2>步驟一：圈選段落</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/ai-editing-step1-select.svg"
+          alt="報告汪報告編輯頁示意圖：TipTap 編輯器中一段文字被選取（藍色高亮），標題下方提示文字「圈選文字段落，使用 AI 修改」"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          步驟一：在編輯器中拖曳選取要修改的段落文字，自動開啟 AI 修改視窗
+        </figcaption>
+      </figure>
       <ol>
-        <li>開啟一份已建立的報告</li>
-        <li>點擊任意段落文字</li>
-        <li>段落右側或下方出現「AI 修改」按鈕，點擊開啟對話框</li>
-        <li>在輸入框輸入修改指令，按 Enter 或點擊「送出」</li>
-        <li>AI 在幾秒內產出修改版本，顯示在右側預覽區</li>
+        <li>開啟一份已建立的報告（進入報告編輯頁）</li>
+        <li>在編輯器中<strong>拖曳選取</strong>要修改的段落文字（可選一句或整段）</li>
+        <li>選取後「<strong>AI 修改助手</strong>」對話框自動彈出</li>
+      </ol>
+
+      <h2>步驟二：輸入修改指令</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/ai-editing-step2-input.svg"
+          alt="報告汪「AI 修改助手」對話框示意圖：上方顯示圈選段落內容，下方「修改指令」文字區，右下角有 SOAP 模式勾選框與「送出」按鈕"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          步驟二：確認圈選段落，填入修改指令，點擊「送出」
+        </figcaption>
+      </figure>
+      <ol>
+        <li>對話框上方顯示你選取的原始段落，確認無誤</li>
+        <li>在「<strong>修改指令</strong>」欄輸入需求（見下方範例）</li>
+        <li>如需改寫為 SOAP 格式，勾選右側「<strong>SOAP</strong>」選項</li>
+        <li>點擊「<strong>送出</strong>」，AI 在幾秒內產出修改版本</li>
+      </ol>
+
+      <h2>步驟三：套用或繼續調整</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/ai-editing-step3-apply.svg"
+          alt="報告汪「AI 修改助手」對話框示意圖：AI 建議修改區塊（淺青底）顯示改寫結果，下方有「套用修改」與「繼續調整」兩個按鈕"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          步驟三：查看 AI 建議，點擊「套用修改」套用，或「繼續調整」重新輸入指令
+        </figcaption>
+      </figure>
+      <ol>
+        <li>查看「<strong>AI 建議修改</strong>」區塊的改寫結果</li>
+        <li>滿意時點擊「<strong>套用修改</strong>」，AI 版本覆蓋原始段落，原版存入版本歷史</li>
+        <li>不滿意時點擊「<strong>繼續調整</strong>」，回到指令輸入再微調（例如：「再短一點」、「語氣改更柔和」）</li>
+        <li>點擊「取消」或關閉對話框，原始內容保持不變</li>
       </ol>
 
       <h2>有效指令寫法範例</h2>
@@ -55,24 +106,6 @@ export default function AiEditingPage() {
           </Card>
         ))}
       </div>
-
-      <h2>多輪對話修改</h2>
-      <p>
-        AI 修改支援多輪對話，每次修改都在上一版的基礎上調整，不需要重新描述整個需求：
-      </p>
-      <ol>
-        <li>第一輪：輸入主要修改方向</li>
-        <li>查看 AI 產出的修改版本</li>
-        <li>如不滿意，繼續輸入微調指令（例如：「再短一點」、「語氣改更柔和」）</li>
-        <li>滿意後點擊「套用」，修改版本覆蓋原始段落</li>
-      </ol>
-
-      <h2>套用或捨棄修改</h2>
-      <ul>
-        <li><strong>套用</strong>：點擊「套用」按鈕，AI 修改版本取代原始段落，原版本存入版本歷史</li>
-        <li><strong>捨棄</strong>：點擊「取消」或關閉對話框，原始內容保持不變</li>
-        <li><strong>版本還原</strong>：套用後後悔了？可至 <Link href="/docs/version-history">版本歷史</Link> 還原</li>
-      </ul>
 
       <h2>使用技巧</h2>
       <ul>

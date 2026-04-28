@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { techArticleJsonLd } from "@/lib/jsonld";
@@ -25,6 +26,19 @@ export default function ExcelEditingPage() {
       <p className="lead">
         報告汪支援在文字報告中嵌入表格，操作方式類似 Excel，適合需要呈現統計數據、個案清單或服務紀錄表的長照文書。
       </p>
+
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/excel-editing-step1-grid.svg"
+          alt="報告汪試算表編輯器示意圖：工具列含 B/I/U 格式按鈕與公式列（顯示 =SUM(B2:B13)），表格有月份、服務人次、出席率三欄，合計列儲存格已選取（藍色高亮），右上角「匯出 .xlsx」按鈕"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          試算表編輯器支援公式計算，編輯完成後可一鍵匯出 .xlsx
+        </figcaption>
+      </figure>
 
       <h2>插入表格</h2>
       <ol>

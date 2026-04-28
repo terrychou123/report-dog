@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -49,37 +50,57 @@ export default function TagsAndSearchPage() {
         標籤是報告汪的核心整理工具。透過標籤分類，你可以在幾百份報告中瞬間找到目標文件，不再需要記憶檔名或翻找資料夾。
       </p>
 
-      <h2>建立標籤</h2>
+      <h2>標籤頁面</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/tags-and-search-step1-tags.svg"
+          alt="報告汪標籤頁面示意圖：左側 Sidebar 標籤項目為 active，主區顯示標籤卡片列表，每張卡片有 TagIcon、標籤名稱、報告數量徽章，展開後顯示屬於該標籤的報告清單"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          標籤頁面：點擊左側「標籤」進入，可新建標籤或展開查看各標籤下的報告
+        </figcaption>
+      </figure>
+
+      <h3>建立標籤</h3>
       <ol>
-        <li>點擊左側「標籤管理」或頂部標籤圖示</li>
-        <li>點擊「新增標籤」輸入標籤名稱（例如：「週報」、「A個案」）</li>
-        <li>選擇標籤顏色（可選，方便視覺區分）</li>
+        <li>點擊左側 Sidebar「<strong>標籤</strong>」進入標籤管理頁</li>
+        <li>點擊右上角「<strong>+ 新建標籤</strong>」，輸入標籤名稱（例如：「週報」、「個案A」）</li>
         <li>點擊確認完成建立</li>
       </ol>
 
-      <h2>為報告加標籤</h2>
+      <h3>為報告加標籤</h3>
       <ol>
-        <li>開啟任一報告</li>
-        <li>點擊報告標題旁的「標籤」按鈕或右側標籤區域</li>
-        <li>從下拉清單選擇已有標籤，或輸入新標籤名稱</li>
+        <li>開啟任一報告，點擊標題下方的「<strong>+ 標籤</strong>」pill</li>
+        <li>從清單選擇已有標籤，關聯即時儲存</li>
         <li>一份報告可加多個標籤</li>
-        <li>標籤即時儲存，無需額外點擊儲存</li>
       </ol>
 
-      <h2>篩選報告</h2>
+      <h3>查看標籤下的報告</h3>
       <ol>
-        <li>在報告列表頁，點擊左側標籤名稱</li>
-        <li>系統顯示所有含該標籤的報告</li>
-        <li>可同時選擇多個標籤進行交集篩選</li>
-        <li>點擊「清除篩選」返回全部報告</li>
+        <li>在標籤頁點擊任一標籤卡片右側的數字徽章，展開該標籤下的所有報告</li>
+        <li>或點擊標籤卡片本身進入標籤詳情頁，查看完整報告清單</li>
       </ol>
 
-      <h2>全文搜尋</h2>
+      <h2>搜尋報告</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/tags-and-search-step2-search.svg"
+          alt="報告汪報告頁面搜尋示意圖：搜尋框輸入「週報」，下方顯示含有「週報」關鍵字的報告卡片列表，每張卡片顯示標題、標籤與日期"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          搜尋框支援報告標題與標籤名稱關鍵字搜尋
+        </figcaption>
+      </figure>
       <ol>
-        <li>點擊頂部搜尋欄（或按 Ctrl+K / Cmd+K）</li>
-        <li>輸入關鍵字，系統即時搜尋所有報告的標題與內文</li>
-        <li>搜尋結果以相關度排序，關鍵字高亮顯示</li>
-        <li>可結合標籤篩選進一步縮小範圍</li>
+        <li>前往「<strong>報告</strong>」頁面，點擊頁面頂部搜尋列</li>
+        <li>輸入關鍵字，系統即時搜尋所有報告的<strong>標題</strong>與<strong>標籤名稱</strong></li>
+        <li>清空搜尋列返回全部報告</li>
       </ol>
 
       <h2>各機構標籤策略建議</h2>

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="8" y="62" width="124" height="28" rx="6" fill="#e0f0f5"/>
+  <text x="82" y="80" font-size="12" font-weight="600" fill="#3a8fa8">報告</text>
+  <text x="82" y="116" font-size="12" fill="#57534e">標籤</text>
+  <text x="82" y="148" font-size="12" fill="#57534e">追蹤</text>
+
+  <!-- 主內容區 -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+
+  <!-- 報告標題區 -->
+  <text x="168" y="82" font-size="18" font-weight="700" fill="#1e293b">2025年第一季 服務統計表</text>
+  <text x="168" y="100" font-size="12" fill="#78716c">試算表報告</text>
+
+  <!-- 試算表工具列 -->
+  <rect x="160" y="112" width="624" height="34" rx="6" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 工具列按鈕 -->
+  <rect x="168" y="118" width="28" height="22" rx="4" fill="#f8f7f4"/>
+  <text x="182" y="133" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">B</text>
+  <rect x="200" y="118" width="28" height="22" rx="4" fill="#f8f7f4"/>
+  <text x="214" y="133" text-anchor="middle" font-size="11" font-style="italic" fill="#1e293b">I</text>
+  <rect x="232" y="118" width="28" height="22" rx="4" fill="#f8f7f4"/>
+  <text x="246" y="133" text-anchor="middle" font-size="11" text-decoration="underline" fill="#1e293b">U</text>
+  <line x1="268" y1="118" x2="268" y2="140" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 公式列 -->
+  <text x="278" y="133" font-size="11" fill="#a8a29e">fx</text>
+  <rect x="298" y="119" width="240" height="20" rx="3" fill="#f8f7f4" stroke="#e8e6de" stroke-width="1"/>
+  <text x="306" y="133" font-size="11" fill="#3a8fa8">=SUM(B2:B13)</text>
+  <!-- 匯出按鈕 -->
+  <rect x="650" y="118" width="120" height="22" rx="5" fill="#3a8fa8"/>
+  <text x="710" y="133" text-anchor="middle" font-size="11" font-weight="600" fill="white">↓ 匯出 .xlsx</text>
+
+  <!-- 試算表欄位標題 (A, B, C, D) -->
+  <rect x="160" y="154" width="624" height="24" rx="0" fill="#f1f5f9"/>
+  <line x1="160" y1="154" x2="784" y2="154" stroke="#e8e6de" stroke-width="1"/>
+  <line x1="160" y1="178" x2="784" y2="178" stroke="#e8e6de" stroke-width="1"/>
+  <!-- 行號欄 -->
+  <rect x="160" y="154" width="36" height="24" fill="#f1f5f9"/>
+  <line x1="196" y1="154" x2="196" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <!-- A欄 -->
+  <text x="320" y="170" text-anchor="middle" font-size="12" fill="#64748b">A</text>
+  <line x1="444" y1="154" x2="444" y2="470" stroke="#e8e6de" stroke-width="1"/>
+  <!-- B欄 -->
+  <text x="512" y="170" text-anchor="middle" font-size="12" fill="#64748b">B</text>
+  <line x1="580" y1="154" x2="580" y2="470" stroke="#e8e6de" stroke-width="1"/>
+  <!-- C欄 -->
+  <text x="632" y="170" text-anchor="middle" font-size="12" fill="#64748b">C</text>
+  <line x1="684" y1="154" x2="684" y2="470" stroke="#e8e6de" stroke-width="1"/>
+  <!-- D欄 -->
+  <text x="736" y="170" text-anchor="middle" font-size="12" fill="#64748b">D</text>
+
+  <!-- 資料列 1（標頭） -->
+  <rect x="160" y="178" width="624" height="26" fill="#edf7fa"/>
+  <line x1="160" y1="204" x2="784" y2="204" stroke="#e8e6de" stroke-width="1"/>
+  <text x="178" y="195" font-size="11" fill="#64748b">1</text>
+  <text x="210" y="195" font-size="12" font-weight="700" fill="#1e293b">月份</text>
+  <text x="456" y="195" font-size="12" font-weight="700" fill="#1e293b">服務人次</text>
+  <text x="592" y="195" font-size="12" font-weight="700" fill="#1e293b">出席率</text>
+  <text x="696" y="195" font-size="12" font-weight="700" fill="#1e293b">備註</text>
+
+  <!-- 資料列 2 -->
+  <rect x="160" y="204" width="624" height="26" fill="white"/>
+  <line x1="160" y1="230" x2="784" y2="230" stroke="#e8e6de" stroke-width="1"/>
+  <text x="178" y="221" font-size="11" fill="#64748b">2</text>
+  <text x="210" y="221" font-size="12" fill="#1e293b">1月</text>
+  <text x="456" y="221" font-size="12" fill="#1e293b">248</text>
+  <text x="592" y="221" font-size="12" fill="#1e293b">92%</text>
+
+  <!-- 資料列 3 -->
+  <rect x="160" y="230" width="624" height="26" fill="#f8f7f4"/>
+  <line x1="160" y1="256" x2="784" y2="256" stroke="#e8e6de" stroke-width="1"/>
+  <text x="178" y="247" font-size="11" fill="#64748b">3</text>
+  <text x="210" y="247" font-size="12" fill="#1e293b">2月</text>
+  <text x="456" y="247" font-size="12" fill="#1e293b">231</text>
+  <text x="592" y="247" font-size="12" fill="#1e293b">88%</text>
+
+  <!-- 資料列 4 -->
+  <rect x="160" y="256" width="624" height="26" fill="white"/>
+  <line x1="160" y1="282" x2="784" y2="282" stroke="#e8e6de" stroke-width="1"/>
+  <text x="178" y="273" font-size="11" fill="#64748b">4</text>
+  <text x="210" y="273" font-size="12" fill="#1e293b">3月</text>
+  <text x="456" y="273" font-size="12" fill="#1e293b">262</text>
+  <text x="592" y="273" font-size="12" fill="#1e293b">95%</text>
+
+  <!-- 合計列（選取中，藍色高亮） -->
+  <rect x="160" y="282" width="624" height="26" fill="#dbeafe"/>
+  <rect x="444" y="282" width="136" height="26" fill="#bfdbfe"/>
+  <line x1="160" y1="308" x2="784" y2="308" stroke="#93c5fd" stroke-width="1"/>
+  <text x="178" y="299" font-size="11" fill="#64748b">5</text>
+  <text x="210" y="299" font-size="12" font-weight="700" fill="#1e293b">合計</text>
+  <text x="456" y="299" font-size="12" font-weight="700" fill="#1e293b">741</text>
+  <text x="592" y="299" font-size="12" fill="#64748b">=SUM(C2:C4)</text>
+
+  <!-- 更多列省略 -->
+  <rect x="160" y="308" width="624" height="26" fill="white"/>
+  <line x1="160" y1="334" x2="784" y2="334" stroke="#e8e6de" stroke-width="1"/>
+  <text x="178" y="325" font-size="11" fill="#a8a29e">6</text>
+  <rect x="160" y="334" width="624" height="26" fill="#f8f7f4"/>
+  <line x1="160" y1="360" x2="784" y2="360" stroke="#e8e6de" stroke-width="1"/>
+  <text x="178" y="351" font-size="11" fill="#a8a29e">7</text>
+
+  <!-- 欄位選取藍色框線 -->
+  <rect x="444" y="282" width="136" height="26" fill="none" stroke="#3b82f6" stroke-width="2"/>
+
+  <!-- 標註① 儲存格輸入 -->
+  <rect x="6" y="282" width="144" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="78" y="303" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 點擊儲存格</text>
+  <text x="78" y="321" text-anchor="middle" font-size="11" fill="#92400e">直接輸入數值</text>
+  <text x="78" y="337" text-anchor="middle" font-size="11" fill="#92400e">或公式</text>
+  <line x1="150" y1="296" x2="158" y2="296" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrE1)"/>
+
+  <!-- 標註② 匯出按鈕 -->
+  <rect x="646" y="108" width="144" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="718" y="129" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 匯出 .xlsx</text>
+  <text x="718" y="147" text-anchor="middle" font-size="11" fill="#92400e">下載 Excel 檔案</text>
+  <line x1="646" y1="129" x2="772" y2="129" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrE1)"/>
+
+  <defs>
+    <marker id="arrE1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

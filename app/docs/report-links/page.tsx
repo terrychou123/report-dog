@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { DocsTip } from "@/components/docs/docs-tip";
@@ -36,6 +37,18 @@ export default function ReportLinksDocsPage() {
       </p>
 
       <h2>如何新增連結？</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/report-links-step1-add.svg"
+          alt="報告汪「新增連結」對話框示意圖：名稱欄填入「衛福部評鑑基準公告」（藍色邊框，已選取），網址欄填入 https://www.mohw.gov.tw/...，右下角「新增」按鈕以橘色虛線框高亮；背景可見報告標題列下方已有連結 Pill 與虛線「+ 連結」按鈕"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          填入連結名稱與網址後點擊「新增」，連結即出現在報告標題列下方
+        </figcaption>
+      </figure>
       <ol>
         <li>開啟任一報告，進入編輯頁面。</li>
         <li>在報告標題下方，找到帶有虛線外框的「<strong>＋ 連結</strong>」按鈕，點擊它。</li>

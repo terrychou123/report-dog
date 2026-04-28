@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { techArticleJsonLd } from "@/lib/jsonld";
@@ -81,6 +82,18 @@ export default function ImportTemplatesPage() {
       </table>
 
       <h2>如何匯入</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/import-templates-step1-dialog.svg"
+          alt="報告汪「匯入評鑑範本」對話框示意圖：2 欄網格顯示 8 種機構類型選項，日間照顧機構已被選取（藍色外框＋勾選），下方顯示「將為您建立 4 個標籤、43 份報告範本」，右下角「確認匯入」按鈕"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          選擇機構類型後，點擊「確認匯入」即自動建立對應標籤與報告範本
+        </figcaption>
+      </figure>
       <p>有兩種方式可以匯入評鑑範本：</p>
 
       <h3>方式一：新用戶 Onboarding（推薦）</h3>
@@ -100,6 +113,18 @@ export default function ImportTemplatesPage() {
       </ol>
 
       <h2>匯入後的內容</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/import-templates-step2-result.svg"
+          alt="報告汪標籤頁面示意圖：匯入日間照顧範本後，自動建立「個案權益保障」「專業照護品質」「活動品質管理」「環境設備管理」四個標籤卡片，每張卡片顯示報告數量"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          匯入後自動建立評鑑分類標籤（左側 Sidebar「標籤」頁查看）
+        </figcaption>
+      </figure>
       <p>匯入完成後，系統會自動建立以下內容：</p>
       <ul>
         <li><strong>標籤</strong>：依評鑑區塊建立分類標籤（例如：個案權益保障、專業照護品質、經營管理效能），可在「標籤」頁面查看與管理</li>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -85,6 +86,19 @@ export default function FollowTrackingPage() {
         <li><strong>紅色提醒</strong>：逾期報告以紅色左邊框 + 紅色「逾期」標籤醒目標示</li>
         <li><strong>不定期例外</strong>：設為「不定期追蹤」的報告不計算逾期，僅作分類用途</li>
       </ul>
+
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/follow-tracking-step1-page.svg"
+          alt="報告汪追蹤頁面示意圖：左側 Sidebar「追蹤」項目為 Active 狀態（鈴鐺圖示），主內容區顯示「每週追蹤」分組，第一張卡片有紅色左邊框與「逾期」Badge（已超過 3 天），第二張卡片正常；下方「每月追蹤」分組各有下拉頻率選單"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          追蹤頁面依頻率分組顯示，逾期報告以紅色左邊框醒目標示
+        </figcaption>
+      </figure>
 
       <h2>從報告編輯頁追蹤</h2>
       <p>最快速的追蹤方式，在查看或編輯報告時直接設定：</p>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { techArticleJsonLd } from "@/lib/jsonld";
@@ -28,11 +29,22 @@ export default function VersionHistoryPage() {
       </p>
 
       <h2>查看版本歷史</h2>
+      <figure className="my-6 not-prose">
+        <Image
+          src="/docs/version-history-step1-dialog.svg"
+          alt="報告汪「版本歷史」對話框示意圖：標題列顯示時鐘圖示與「版本歷史」文字，列出版本 #3（最新，淺藍底，「最新」Badge）、版本 #2、版本 #1，每個版本顯示時間戳記與修改摘要，版本 #2 與 #1 各有「還原」按鈕（藍色外框）"
+          width={800}
+          height={500}
+          className="w-full h-auto rounded-lg border border-border"
+        />
+        <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+          版本歷史對話框依時間倒序列出所有版本，點擊「還原」即可回到任意版本
+        </figcaption>
+      </figure>
       <ol>
         <li>開啟任一報告</li>
-        <li>點擊右上角「版本歷史」或時鐘圖示</li>
-        <li>右側滑出版本列表，顯示每個版本的時間戳記與修改摘要</li>
-        <li>點擊任一版本可預覽該版本的完整內容</li>
+        <li>點擊右上角時鐘圖示（版本歷史）</li>
+        <li>對話框彈出，顯示所有版本的時間戳記與修改摘要</li>
         <li>版本列表依時間倒序排列（最新在上）</li>
       </ol>
 

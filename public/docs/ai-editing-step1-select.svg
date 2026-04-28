@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+  <text x="110" y="27" font-size="11" fill="#78716c">我的報告</text>
+
+  <!-- 主卡片（白底編輯器） -->
+  <rect x="40" y="56" width="720" height="428" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+
+  <!-- ← 返回 -->
+  <text x="64" y="88" font-size="12" fill="#78716c">← 返回報告列表</text>
+
+  <!-- 報告標題 -->
+  <text x="64" y="120" font-size="22" font-weight="700" fill="#1e293b">2025年3月 個案A 服務計畫</text>
+
+  <!-- 提示文字（含 Sparkle icon 替代） -->
+  <text x="64" y="143" font-size="12" fill="#78716c">✦ 圈選文字段落，使用 AI 修改</text>
+
+  <!-- 標籤 pills -->
+  <rect x="64" y="154" width="44" height="22" rx="11" fill="#f5f5f4"/>
+  <text x="86" y="169" text-anchor="middle" font-size="11" fill="#57534e">日照</text>
+  <rect x="116" y="154" width="52" height="22" rx="11" fill="#f5f5f4"/>
+  <text x="142" y="169" text-anchor="middle" font-size="11" fill="#57534e">個案A</text>
+
+  <!-- 工具列 -->
+  <rect x="64" y="186" width="672" height="34" rx="6" fill="#f8f7f4" stroke="#e8e6de" stroke-width="1"/>
+  <text x="82" y="208" font-size="12" font-weight="700" fill="#57534e">B</text>
+  <text x="102" y="207" font-size="12" font-style="italic" fill="#57534e">I</text>
+  <line x1="118" y1="196" x2="118" y2="212" stroke="#dedad3" stroke-width="1"/>
+  <text x="131" y="208" font-size="11" fill="#57534e">H1</text>
+  <text x="152" y="208" font-size="11" fill="#57534e">H2</text>
+  <line x1="170" y1="196" x2="170" y2="212" stroke="#dedad3" stroke-width="1"/>
+  <text x="183" y="208" font-size="11" fill="#57534e">≡</text>
+  <text x="200" y="208" font-size="11" fill="#57534e">1.</text>
+
+  <!-- 編輯器內容區 -->
+  <!-- 第一段落（未選取） -->
+  <text x="64" y="246" font-size="13" fill="#57534e">個案A，男性，78歲，獨居，目前接受本中心日照服務。</text>
+  <text x="64" y="266" font-size="13" fill="#57534e">本月服務重點如下，詳細紀錄請見附件。</text>
+
+  <!-- 第二段落（選取中，藍色高亮） -->
+  <rect x="62" y="282" width="600" height="46" rx="4" fill="#3a8fa8" opacity="0.18"/>
+  <text x="64" y="300" font-size="13" fill="#1e293b">本月共提供服務 22 次，每次 6 小時，累計 132 小時。個案參與</text>
+  <text x="64" y="320" font-size="13" fill="#1e293b">團體活動出席率達 85%，較上月提升 10%。</text>
+
+  <!-- 第三段落（未選取） -->
+  <text x="64" y="352" font-size="13" fill="#a8a29e">家屬反映個案情緒穩定，日常生活功能維持良好，建議繼續維持</text>
+  <text x="64" y="370" font-size="13" fill="#a8a29e">現行服務頻率，下月進行功能評估。</text>
+
+  <!-- 標註① 圈選段落 -->
+  <rect x="6" y="272" width="144" height="68" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="78" y="293" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 拖曳選取</text>
+  <text x="78" y="311" text-anchor="middle" font-size="11" fill="#92400e">要修改的段落</text>
+  <text x="78" y="327" text-anchor="middle" font-size="11" fill="#92400e">（藍色高亮）</text>
+  <line x1="150" y1="302" x2="196" y2="302" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrS1)"/>
+
+  <!-- 標註② 自動彈出 -->
+  <rect x="660" y="272" width="132" height="56" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="726" y="292" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 選取後</text>
+  <text x="726" y="310" text-anchor="middle" font-size="11" fill="#92400e">AI 修改視窗</text>
+  <text x="726" y="326" text-anchor="middle" font-size="11" fill="#92400e">自動彈出</text>
+  <line x1="660" y1="300" x2="664" y2="300" stroke="#d97706" stroke-width="1.5"/>
+  <line x1="664" y1="300" x2="664" y2="305" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrS1)"/>
+
+  <!-- 游標示意（選取中） -->
+  <line x1="664" y1="295" x2="664" y2="328" stroke="#3a8fa8" stroke-width="2" opacity="0.7"/>
+
+  <defs>
+    <marker id="arrS1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

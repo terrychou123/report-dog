@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景米色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Navbar -->
+  <rect width="800" height="44" fill="white"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="20" y="9" width="26" height="26" rx="6" fill="#3a8fa8"/>
+  <text x="33" y="27" text-anchor="middle" font-size="13" font-weight="700" fill="white">汪</text>
+  <text x="54" y="27" font-size="14" font-weight="700" fill="#1e293b">報告汪</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="140" height="456" fill="white"/>
+  <line x1="140" y1="44" x2="140" y2="500" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="8" y="62" width="124" height="28" rx="6" fill="#e0f0f5"/>
+  <path d="M 56 66 L 56 82 L 70 82 L 70 72 L 66 66 Z" fill="none" stroke="#3a8fa8" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 66 66 L 66 72 L 70 72" fill="none" stroke="#3a8fa8" stroke-width="1.5"/>
+  <text x="82" y="80" font-size="12" font-weight="600" fill="#3a8fa8">報告</text>
+  <text x="82" y="116" font-size="12" fill="#57534e">標籤</text>
+  <text x="82" y="148" font-size="12" fill="#57534e">追蹤</text>
+
+  <!-- 主內容區 -->
+  <rect x="140" y="44" width="660" height="456" fill="#f8f7f4"/>
+
+  <!-- Header -->
+  <text x="168" y="88" font-size="22" font-weight="700" fill="#1e293b">我的報告</text>
+  <text x="168" y="108" font-size="12" fill="#78716c">所有已上傳的報告</text>
+  <rect x="556" y="72" width="138" height="34" rx="8" fill="white" stroke="#dedad3" stroke-width="1.5"/>
+  <text x="625" y="94" text-anchor="middle" font-size="12" fill="#57534e">↓ 匯入評鑑範本</text>
+  <rect x="702" y="72" width="100" height="34" rx="8" fill="#3a8fa8"/>
+  <text x="752" y="94" text-anchor="middle" font-size="12" font-weight="600" fill="white">+ 上傳報告</text>
+
+  <!-- 搜尋列 -->
+  <rect x="168" y="120" width="604" height="36" rx="8" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <text x="190" y="143" font-size="13" fill="#a8a29e">🔍  搜尋報告...</text>
+
+  <!-- 報告卡片 1 -->
+  <rect x="168" y="170" width="604" height="60" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="190" y="194" font-size="13" font-weight="600" fill="#1e293b">2025年3月 個案A 服務計畫</text>
+  <rect x="190" y="200" width="34" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="207" y="212" text-anchor="middle" font-size="10" fill="#3a8fa8">個案A</text>
+  <text x="735" y="194" text-anchor="end" font-size="11" fill="#a8a29e">2025/03/31</text>
+  <!-- 複製按鈕 -->
+  <g transform="translate(748, 193)">
+    <rect x="0" y="0" width="22" height="22" rx="5" fill="#f8f7f4"/>
+    <!-- CopyIcon -->
+    <rect x="4" y="6" width="10" height="12" rx="1" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+    <rect x="7" y="3" width="10" height="12" rx="1" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  </g>
+
+  <!-- 報告卡片 2（上月月報，可複製的目標） -->
+  <rect x="168" y="240" width="604" height="60" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="190" y="264" font-size="13" font-weight="600" fill="#1e293b">2025年3月 居服月報</text>
+  <rect x="190" y="270" width="44" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="212" y="282" text-anchor="middle" font-size="10" fill="#3a8fa8">居家服務</text>
+  <text x="735" y="264" text-anchor="end" font-size="11" fill="#a8a29e">2025/03/28</text>
+  <!-- 複製按鈕（高亮） -->
+  <g transform="translate(748, 263)">
+    <rect x="-4" y="-4" width="30" height="30" rx="8" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="4 3"/>
+    <rect x="0" y="0" width="22" height="22" rx="5" fill="#fef3c7"/>
+    <!-- CopyIcon - active state -->
+    <rect x="4" y="6" width="10" height="12" rx="1" fill="none" stroke="#d97706" stroke-width="1.5"/>
+    <rect x="7" y="3" width="10" height="12" rx="1" fill="none" stroke="#d97706" stroke-width="1.5"/>
+  </g>
+
+  <!-- 報告卡片 3 -->
+  <rect x="168" y="310" width="604" height="60" rx="8" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <text x="190" y="334" font-size="13" font-weight="600" fill="#1e293b">2025年3月 週報 — 日照中心服務紀要</text>
+  <rect x="190" y="340" width="34" height="18" rx="9" fill="#e0f0f5"/>
+  <text x="207" y="352" text-anchor="middle" font-size="10" fill="#3a8fa8">週報</text>
+  <text x="735" y="334" text-anchor="end" font-size="11" fill="#a8a29e">2025/03/31</text>
+  <g transform="translate(748, 333)">
+    <rect x="0" y="0" width="22" height="22" rx="5" fill="#f8f7f4"/>
+    <rect x="4" y="6" width="10" height="12" rx="1" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+    <rect x="7" y="3" width="10" height="12" rx="1" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  </g>
+
+  <!-- 複製後新增的卡片（淡色邊框示意新建） -->
+  <rect x="168" y="388" width="604" height="60" rx="8" fill="#edf7fa" stroke="#b8dde8" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="190" y="412" font-size="13" font-weight="600" fill="#3a8fa8">2025年3月 居服月報（副本）</text>
+  <text x="190" y="430" font-size="11" fill="#78716c">✓ 複製完成，可修改標題與內容</text>
+
+  <!-- 標註① 點擊複製按鈕 -->
+  <rect x="6" y="256" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="277" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">① 點擊複製圖示</text>
+  <text x="80" y="295" text-anchor="middle" font-size="11" fill="#92400e">卡片右側按鈕</text>
+  <line x1="154" y1="276" x2="744" y2="276" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrC1)"/>
+
+  <!-- 標註② 副本出現 -->
+  <rect x="6" y="396" width="148" height="52" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="80" y="417" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">② 副本建立</text>
+  <text x="80" y="435" text-anchor="middle" font-size="11" fill="#92400e">修改標題即可使用</text>
+  <line x1="154" y1="418" x2="166" y2="418" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrC1)"/>
+
+  <defs>
+    <marker id="arrC1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <text x="795" y="494" text-anchor="end" font-size="10" fill="#a8a29e">示意圖｜實際介面以登入後為準</text>
+</svg>

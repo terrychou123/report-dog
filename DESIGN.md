@@ -129,6 +129,119 @@
 - **Duration:** micro(50-100ms) short(150-250ms) medium(250-400ms)
 - **不使用 scroll-driven animations 或 entrance animations**
 
+## Docs Illustration
+
+### 目的與適用範圍
+
+- 用在 `/docs/*` 教學頁，以步驟操作示意圖輔助文字說明
+- **一條原則：示意圖補充說明，不取代文字步驟**（SEO `<ol>/<ul>` 文字必須完整保留）
+- Blog SVG（`public/blog/`）走另一套風格，不適用此規範
+- 行銷頁面優先用真實截圖，不用示意圖
+
+| 情境 | 建議 |
+|---|---|
+| 步驟教學（點 X、選 Y、填 Z） | SVG mockup（UI 改版時只改 SVG，成本低） |
+| 真實資料展示（圖表結果、AI 回應範例） | 真實截圖 PNG（去識別化） |
+| 概念說明（什麼是標籤、權限如何運作） | Flow / diagram SVG（白底、結構為主） |
+| 純概念無視覺操作 | 不放圖，文字 + DocsTip 即可 |
+
+---
+
+### 檔案規格
+
+```
+位置:        public/docs/<page-slug>-step<n>-<verb>.svg
+範例:        public/docs/create-report-step1-modal.svg
+viewBox:     800 × 500（無例外）
+字型:        font-family="'Noto Sans TC', sans-serif"
+檔案大小:    目標 < 30KB（PoC 三張為 3.5 / 6.0 / 4.8 KB）
+```
+
+---
+
+### 色票（凍結自 PoC getting-started）
+
+| 用途 | Hex |
+|---|---|
+| 畫布背景 | `#f0efe8` |
+| 主卡片底 | `#ffffff` |
+| 卡片描邊 | `#e8e6de` |
+| 分隔線 | `#dedad3` |
+| 主標題色 | `#1e293b` |
+| 內文 | `#57534e` |
+| 次要文字 | `#78716c` |
+| 中性灰（placeholder / icon） | `#a8a29e` |
+| Active / 連結 / 主按鈕 | `#3a8fa8`（對應 UI `--primary`） |
+| 高亮虛線框、箭頭 | `#d97706`（對應 UI `--accent` 的 SVG 變體） |
+| 標註淡底 | `#fef3c7` |
+| 標註文字 | `#92400e` |
+| Modal 遮罩 | `#1e293b` opacity 0.4 |
+
+---
+
+### 字級 & 圓角
+
+**字級（font-size）：** 主標 22 / 副標 14 / 內文 13 / 標籤 12 / 浮水印 10
+
+**圓角（rx）：**
+- 卡片 / Modal：`rx=12–14`
+- Button：`rx=8`
+- Pill / Badge / Tab active：`rx=6–8`
+- Tabs 容器：`rx=8`
+
+---
+
+### 標註（callout）規格
+
+- **配置原則：** ①② 放左側（準備動作），③ 放右側（最後點擊 / CTA）
+- **樣式：** `fill="#fef3c7"` `stroke="#d97706"` `stroke-width="1.5"` `rx=8` 文字 `fill="#92400e"`
+- **箭頭：** `<marker>` polygon `fill="#d97706"`，連線 `stroke-width="1.5"`
+
+### 必備元素
+
+- **右下角浮水印：** `示意圖｜實際介面以登入後為準`（10px，`fill="#a8a29e"`）
+- **主要 CTA 按鈕：** 套虛線高亮框 `fill="none"` `stroke="#d97706"` `stroke-dasharray="5 3"`
+
+---
+
+### Workflow checklist（製作前必須依序完成）
+
+> ⚠️ PoC 曾因跳過第 1 步（只看 code 未截真實 UI）導致整張重畫，**第 1 步不可省略**。
+
+1. **截真實 UI 圖**：登入本機或 staging，桌機 + 375px 手機各截一張。**不可只看原始碼推測畫面。**
+2. **校對 docs 文字 vs 真實 UI**：核對 button 文案、tab 名稱、檔案格式說明、頁面結構。若有偏差，**先改 docs 文字**再畫圖。
+3. **依截圖畫 SVG**，套用上方色票 / 字級 / 圓角規格。
+4. **撰寫 `alt` 文字**：把畫面主要元件的文字寫進去（SEO + a11y 雙贏）。
+5. **撰寫 `figcaption`**：一句話描述步驟重點。
+6. **本機驗證：** `npm run dev`，雙視窗並排（一邊 docs 一邊真實 UI）比對版位。
+7. **響應式：** DevTools 切 375px，確認圖片縮放後仍清楚。
+8. **暗色模式：** 切 dark mode 確認米色背景不過刺眼。
+9. **檔案大小：** 確認 < 30KB。
+
+---
+
+### 整合方式（page.tsx 範本）
+
+```tsx
+<figure className="my-6 not-prose">
+  <Image
+    src="/docs/<page-slug>-step<n>-<verb>.svg"
+    alt="<畫面主要元件的文字描述>"
+    width={800}
+    height={500}
+    className="w-full h-auto rounded-lg border border-border"
+  />
+  <figcaption className="mt-2 text-sm text-muted-foreground text-center">
+    步驟 N：<一句話重點>
+  </figcaption>
+</figure>
+```
+
+- 插在對應 `<h2>` 步驟與 `<ol>/<ul>` 之間
+- `not-prose` 避免 Tailwind Typography 覆蓋 `<figure>` 樣式
+
+---
+
 ## Decisions Log
 | Date | Decision | Rationale |
 |------|----------|-----------|
