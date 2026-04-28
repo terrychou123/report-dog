@@ -32,7 +32,7 @@ const facilityInfo: Record<
   },
   "disability-welfare": {
     name: "身心障礙福利機構",
-    blogHref: "/blog/disability-welfare-soap-case-records-2024",
+    blogHref: "/blog/disability-welfare-soap-case-records-2026",
   },
 };
 

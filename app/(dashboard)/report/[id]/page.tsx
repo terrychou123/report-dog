@@ -101,7 +101,7 @@ export default function ReportEditorPage() {
   const [saving, setSaving] = useState(false);
   const [saveDialogOpen, setSaveDialogOpen] = useState(false);
   const [excelSaveDialogOpen, setExcelSaveDialogOpen] = useState(false);
-  const [pendingExcelSummary, setPendingExcelSummary] = useState<string | null>(null);
+  const pendingExcelSummaryRef = useRef<string | null>(null);
   const isDirtyRef = useRef(false);
   const handleExcelChanged = useCallback(() => { isDirtyRef.current = true; }, []);
   const [leaveDialogOpen, setLeaveDialogOpen] = useState(false);
@@ -436,21 +436,26 @@ export default function ReportEditorPage() {
   async function handleSave(changeSummary: string | null) {
     if (!report || !editor) return;
     setSaving(true);
-    const res = await fetch(`/api/reports/${report.id}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML(), changeSummary }),
-    });
-    if (res.ok) {
-      toast.success("已儲存", { description: "免費用戶僅保存最新的五筆歷史版本" });
-      isDirtyRef.current = false;
-      // 不呼叫 router.refresh()：會觸發 Server Component 重渲染，
-      // 導致 FortuneSheet Workbook 內部 DOM ref 失效（scrollLeft null error）。
-      // 版本歷史 dialog 在每次開啟時會自動重新 fetch，無須手動 refresh。
-    } else {
-      toast.error("儲存失敗，請重試");
+    try {
+      const res = await fetch(`/api/reports/${report.id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title: reportTitle.trim(), content: editor.getHTML(), changeSummary }),
+      });
+      if (res.ok) {
+        toast.success("已儲存", { description: "免費用戶僅保存最新的五筆歷史版本" });
+        isDirtyRef.current = false;
+        // 不呼叫 router.refresh()：會觸發 Server Component 重渲染，
+        // 導致 FortuneSheet Workbook 內部 DOM ref 失效（scrollLeft null error）。
+        // 版本歷史 dialog 在每次開啟時會自動重新 fetch，無須手動 refresh。
+      } else {
+        toast.error("儲存失敗，請重試");
+      }
+    } catch {
+      toast.error("儲存失敗，請確認網路連線");
+    } finally {
+      setSaving(false);
     }
-    setSaving(false);
   }
 
   async function handleDownload() {
@@ -735,7 +740,7 @@ export default function ReportEditorPage() {
           onSavingChange={setExcelSaving}
           onDownloadingChange={setExcelDownloading}
           onChanged={handleExcelChanged}
-          changeSummary={pendingExcelSummary}
+          changeSummary={pendingExcelSummaryRef.current}
         />
       ) : (
         <div className="border rounded-lg overflow-hidden report-editor" onMouseUp={handleEditorMouseUp}>
@@ -909,7 +914,7 @@ export default function ReportEditorPage() {
         open={excelSaveDialogOpen}
         onOpenChange={setExcelSaveDialogOpen}
         onConfirm={async (summary) => {
-          setPendingExcelSummary(summary);
+          pendingExcelSummaryRef.current = summary;
           setExcelSaveTrigger(t => t + 1);
         }}
       />

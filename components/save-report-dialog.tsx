@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { toast } from "sonner";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogDescription } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -19,10 +20,7 @@ export function SaveReportDialog({ open, onOpenChange, onConfirm }: Props) {
 
   // 每次開啟時清空摘要輸入框
   useEffect(() => {
-    if (open) {
-      setSummary("");
-      setTimeout(() => inputRef.current?.focus(), 50);
-    }
+    if (open) setSummary("");
   }, [open]);
 
   async function handleConfirm() {
@@ -30,6 +28,8 @@ export function SaveReportDialog({ open, onOpenChange, onConfirm }: Props) {
     try {
       await onConfirm(summary.trim() || null);
       onOpenChange(false);
+    } catch {
+      toast.error("儲存失敗，請重試");
     } finally {
       setSaving(false);
     }
@@ -41,7 +41,7 @@ export function SaveReportDialog({ open, onOpenChange, onConfirm }: Props) {
 
   return (
     <Dialog open={open} onOpenChange={saving ? undefined : onOpenChange}>
-      <DialogContent className="max-w-sm">
+      <DialogContent className="max-w-sm" onOpenAutoFocus={(e) => { e.preventDefault(); inputRef.current?.focus(); }}>
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <SaveIcon className="h-4 w-4" />
