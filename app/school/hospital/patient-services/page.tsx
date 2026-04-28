@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { educationalContentJsonLd } from "@/lib/jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { hospitalTips } from "@/lib/evaluation-tips/hospital";
@@ -131,6 +132,7 @@ export default function HospitalPatientServicesPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+            {tips[item.id]?.soap && <SoapCta facility="hospital" />}
           </section>
         ))}
       </div>

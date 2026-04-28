@@ -34,11 +34,13 @@ export const generalNursingHomeTips: EvaluationTipsMap = {
     content:
       "入住評估需使用標準化工具（如 Barthel Index、MMSE），評估表需有評估人員資格及簽名。定期重新評估需有提醒機制，評估結果若有重大變化需連動照顧計畫調整。",
     variant: "info",
+    soap: true,
   },
   7: {
     content:
       "照顧計畫（ICP）必須根據評估結果個別訂定，不可使用制式模板套用所有住民。跨專業討論需有會議記錄，家屬同意需有書面簽署。計畫需包含住民及家屬意見。",
     variant: "warning",
+    soap: true,
   },
   8: {
     content:

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { educationalContentJsonLd } from "@/lib/jsonld";
 import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { disabilityWelfareTips } from "@/lib/evaluation-tips/disability-welfare";
@@ -167,6 +168,7 @@ export default function DisabilityWelfareProfessionalPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+            {tips[item.id]?.soap && <SoapCta facility="disability-welfare" />}
           </section>
         ))}
       </div>

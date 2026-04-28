@@ -54,6 +54,7 @@ export const psychiatricNursingHomeTips: EvaluationTipsMap = {
     content:
       "新進住民 72 小時內完成個別化評估，需包含身體、心理、社會、認知、活動功能及營養評估。體重每月至少測量一次並記錄，有異常需有營養師介入。",
     variant: "info",
+    soap: true,
   },
   11: {
     content:

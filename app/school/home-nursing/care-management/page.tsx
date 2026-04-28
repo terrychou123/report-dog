@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { educationalContentJsonLd } from "@/lib/jsonld";
 import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
+import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { homeNursingTips } from "@/lib/evaluation-tips/home-nursing";
@@ -113,6 +114,7 @@ export default function HomeNursingCareManagementPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+            {tips[item.id]?.soap && <SoapCta facility="home-nursing" />}
           </section>
         ))}
       </div>

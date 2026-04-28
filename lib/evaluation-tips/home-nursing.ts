@@ -22,6 +22,7 @@ export const homeNursingTips: EvaluationTipsMap = {
     content:
       "護理記錄需依規定格式書寫，並在訪視後 24 小時內完成。記錄需反映個案實際狀況及護理措施，不可只記錄「病情穩定、繼續護理」。評鑑委員會抽查護理記錄的完整性及即時性。",
     variant: "warning",
+    soap: true,
   },
   5: {
     content:
@@ -34,11 +35,13 @@ export const homeNursingTips: EvaluationTipsMap = {
     content:
       "初次訪視評估需使用標準化工具（如 ADL、MMSE、Braden Scale），評估表需有評估護理師的資格及簽名。評估結果需連動個別化護理計畫（ICP），評鑑委員會抽查評估紀錄是否與護理計畫前後呼應。",
     variant: "info",
+    soap: true,
   },
   7: {
     content:
       "個別化護理計畫（ICP）必須根據評估結果訂定，不可使用制式模板套用所有個案。護理目標需具體可評量（如「2週內壓瘡面積縮小 50%」），並有定期追蹤評值記錄。家屬需有書面同意並參與計畫訂定。",
     variant: "warning",
+    soap: true,
   },
   8: {
     content:

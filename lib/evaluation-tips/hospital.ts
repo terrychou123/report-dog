@@ -182,11 +182,13 @@ export const hospitalTips: EvaluationTipsMap = {
     content:
       "病人入院評估需使用標準化工具，並在規定時間內完成（住院病患通常 24 小時內）。評估結果需連動照護計畫，評鑑委員會抽查評估紀錄是否與照護計畫前後呼應。",
     variant: "info",
+    soap: true,
   },
   36: {
     content:
       "出院計畫需提前開始規劃（建議入院即開始），並有多專科團隊共同參與。出院指導需有書面資料，並確認病人及家屬已了解。後續門診或居家照護轉介需有完整記錄。",
     variant: "info",
+    soap: true,
   },
 
   // 七、風險管理

@@ -29,6 +29,7 @@ export const homeCareTips: EvaluationTipsMap = {
     content:
       "入案前需完成居家需求評估，使用標準化工具（如 ADL、IADL），涵蓋身體功能、日常生活能力、居家環境等面向，評估表需有評估人員資格及簽名。定期重新評估（至少每年）需有提醒機制，評估結果若有重大變化需連動服務計畫調整。評鑑委員會抽查個案評估紀錄是否與服務計畫前後呼應。",
     variant: "info",
+    soap: true,
   },
   6: {
     content:
@@ -39,6 +40,7 @@ export const homeCareTips: EvaluationTipsMap = {
     content:
       "追蹤評值需具體對應服務計畫的目標，紀錄需說明目標達成程度及原因，不可只寫「服務完成」。若目標未達成需說明原因及調整方向，計畫變更需有書面記錄並通知個案及家屬。評鑑委員會比對評估、計畫與追蹤紀錄的一致性，確認三者相互呼應。",
     variant: "info",
+    soap: true,
   },
   8: {
     content:
@@ -69,6 +71,7 @@ export const homeCareTips: EvaluationTipsMap = {
     content:
       "服務紀錄需格式統一，包含服務日期、時間（起訖）、服務項目、實際執行情形，由照服員當日親自填寫並簽名。評鑑委員會抽查個案紀錄，確認填寫即時性、完整性，以及異常狀況（如個案拒絕服務、狀況改變）是否有特別記載及通報記錄。電子或書面紀錄需依規定保存年限（通常至少 5 年），並確保查閱方便但權限受控。",
     variant: "warning",
+    soap: true,
   },
   14: {
     content:
