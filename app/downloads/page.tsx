@@ -29,7 +29,7 @@ const DOWNLOADS: DownloadItem[] = [
   {
     slug: "residential",
     name: "住宿型長照機構",
-    description: "住宿型長照機構評鑑自我檢核，涵蓋護理品質與環境安全查核項目。",
+    description: "115 年度衛福部全國版住宿式長照機構評鑑自我檢核表，A–D 共 63 項 + 加減分 3 項。",
     file: "residential.xlsx",
   },
   {
