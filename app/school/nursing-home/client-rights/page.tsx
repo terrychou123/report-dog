@@ -130,7 +130,7 @@ export default function NursingHomeClientRightsPage() {
           href="/school/nursing-home/innovation"
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
-          E、服務改進創新
+          加減分項目
           <ArrowRightIcon className="h-4 w-4" />
         </Link>
       </div>

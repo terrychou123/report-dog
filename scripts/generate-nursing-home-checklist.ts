@@ -40,30 +40,30 @@ async function main() {
   workbook.created = new Date();
 
   for (const section of nursingHomeProfile.sections) {
-    const sheetName = SHEET_NAMES[section.name] ?? section.name;
+    const sheetName = SHEET_NAMES[section.name]!;
 
-    const groups: ItemGroup[] = section.items.map((item) => {
-      const { code, name } = splitCode(item.title);
+    const groups: ItemGroup[] = [
+      {
+        groupTitle: section.name,
+        items: section.items.map((item) => {
+          const { code, name } = splitCode(item.title);
 
-      // 加減分項目：在 title 加註分數
-      let displayName = name;
-      if ("bonusPoints" in item && typeof item.bonusPoints === "number") {
-        displayName = `${name}（+${item.bonusPoints} 分）`;
-      } else if ("deductionPoints" in item && typeof item.deductionPoints === "number") {
-        displayName = `${name}（−${item.deductionPoints} 分）`;
-      }
+          // 加減分項目：在 title 加註分數
+          let displayName = name;
+          if ("bonusPoints" in item && typeof item.bonusPoints === "number") {
+            displayName = `${name}（+${item.bonusPoints} 分）`;
+          } else if ("deductionPoints" in item && typeof item.deductionPoints === "number") {
+            displayName = `${name}（−${item.deductionPoints} 分）`;
+          }
 
-      return {
-        groupTitle: item.title,
-        items: [
-          {
+          return {
             id: code,
             title: displayName,
             criteria: item.criteria,
-          },
-        ],
-      };
-    });
+          };
+        }),
+      },
+    ];
 
     addSheet(workbook, sheetName, TITLE, groups);
   }
