@@ -26,7 +26,7 @@ import { buildHomeCareItem26CustomSheets } from "./home-care-item-26-custom";
 import { buildHomeCareItem27CustomSheets } from "./home-care-item-27-custom";
 import { buildHomeCareItem29CustomSheets } from "./home-care-item-29-custom";
 import { buildHomeCareItem30CustomSheets } from "./home-care-item-30-custom";
-import { buildNursingHomeItem65CustomSheets } from "./nursing-home-item-65-custom";
+import { buildNursingHomeItem56CustomSheets } from "./nursing-home-item-56-custom";
 
 type CustomSheetBuilder = () => SheetData[];
 
@@ -59,7 +59,7 @@ const CUSTOM_SHEET_BUILDERS: Record<string, Record<number, CustomSheetBuilder>> 
     30: buildHomeCareItem30CustomSheets,
   },
   "nursing-home": {
-    56: buildNursingHomeItem65CustomSheets,
+    56: buildNursingHomeItem56CustomSheets,
   },
 };
 

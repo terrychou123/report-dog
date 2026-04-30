@@ -1,5 +1,5 @@
 /**
- * 住宿型照顧機構評鑑項目 65「D2. 與入住委託人訂立契約情形」自訂補充分頁
+ * 住宿型照顧機構評鑑項目 56「D2. 與入住委託人訂立契約情形」自訂補充分頁
  *
  * 依衛生福利部公告「機構住宿式服務類長期照顧服務機構定型化契約應記載及不得記載事項」
  * 及「定型化契約範本」製作，共產生 10 個工作分頁：
@@ -933,8 +933,8 @@ function buildAnnex6EmergencySheet(): SheetData {
   };
 }
 
-/** 產生項目 65「D2. 與入住委託人訂立契約情形」的 10 個自訂補充分頁 */
-export function buildNursingHomeItem65CustomSheets(): SheetData[] {
+/** 產生項目 56「D2. 與入住委託人訂立契約情形」的 10 個自訂補充分頁 */
+export function buildNursingHomeItem56CustomSheets(): SheetData[] {
   return [
     buildMandatoryItemsSheet(),
     buildProhibitedItemsSheet(),

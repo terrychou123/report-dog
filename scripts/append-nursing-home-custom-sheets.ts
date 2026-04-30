@@ -13,7 +13,7 @@
  *   npx dotenv-cli -e .env.local -- tsx scripts/append-nursing-home-custom-sheets.ts --apply
  *
  * Run specific items only:
- *   npx dotenv-cli -e .env.local -- tsx scripts/append-nursing-home-custom-sheets.ts --apply --ids 65
+ *   npx dotenv-cli -e .env.local -- tsx scripts/append-nursing-home-custom-sheets.ts --apply --ids 56
  */
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
