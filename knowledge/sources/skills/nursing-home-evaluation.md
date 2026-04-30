@@ -66,7 +66,7 @@ allowed-tools:
 | B、專業照護品質 | `bg-green-500/10 text-green-600 dark:text-green-400` | `bg-green-500/10 text-green-600 dark:text-green-400` |
 | C、安全環境設備 | `bg-teal-500/10 text-teal-600 dark:text-teal-400` | `bg-teal-500/10 text-teal-600 dark:text-teal-400` |
 | D、個案權益保障 | `bg-blue-500/10 text-blue-600 dark:text-blue-400` | `bg-blue-500/10 text-blue-600 dark:text-blue-400` |
-| E、服務改進創新 | `bg-purple-500/10 text-purple-600 dark:text-purple-400` | `bg-purple-500/10 text-purple-600 dark:text-purple-400` |
+| 加減分項目 | `bg-purple-500/10 text-purple-600 dark:text-purple-400` | `bg-purple-500/10 text-purple-600 dark:text-purple-400` |
 
 ---
 
@@ -126,7 +126,7 @@ const jsonLd = educationalContentJsonLd({
 2. **Anchor links** (`#item-{id}`) 支援深連結
 3. **DocsTip** 提供準備要訣 — 複用 `components/docs/docs-tip.tsx`
 4. **JSON-LD** 使用 `educationalContentJsonLd()` from `lib/jsonld.ts`
-5. **顏色語義** — purple 代表 E 服務改進創新（最後區塊）
+5. **顏色語義** — purple 代表加減分項目（最後區塊，路徑沿用 `/innovation`）
 6. **上下頁導航** — 最後一頁（innovation）的 next 改為返回總覽
 7. **評鑑 Profile 資料分離** — 教學內容在頁面中，評鑑標準在 `lib/ai/evaluation-profiles/nursing-home.ts`
 8. **B 區塊 29 項較多** — TOC 使用 `grid grid-cols-1 sm:grid-cols-2` 排版
