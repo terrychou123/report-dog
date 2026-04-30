@@ -8,21 +8,21 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
-  title: "A、經營管理效能（項目 1–15）｜住宿型照顧機構評鑑",
+  title: "A、經營管理效能（項目 1–9）｜住宿型照顧機構評鑑",
   description:
-    "住宿型照顧機構評鑑「經營管理效能」15 項評鑑基準詳細說明：工作手冊、入出機構管理、業務計畫、缺失改善、人員保護、危機管理、人員設置資格與教育訓練，含準備要訣。",
+    "住宿型照顧機構評鑑「經營管理效能」9 項評鑑基準詳細說明（115年度全國版）：工作手冊、入出機構管理、業務計畫、前次評鑑改善、人員保護、危機管理、人員設置資格與教育訓練，含準備要訣。",
   keywords: [
     "住宿型長照評鑑經營管理",
     "安養機構人員配置評鑑",
     "長照機構工作手冊評鑑",
     "護理人員設置評鑑",
-    "114年度住宿型長照評鑑",
-    "臺北市安養機構評鑑",
+    "115年度住宿型長照評鑑",
+    "住宿式長照機構評鑑",
   ],
   alternates: { canonical: "https://reportwang.com/school/nursing-home/management" },
   openGraph: {
-    title: "A、經營管理效能（項目 1–15）｜住宿型照顧機構評鑑｜報告汪",
-    description: "住宿型照顧機構評鑑經營管理效能 15 項基準詳細說明與準備要訣。",
+    title: "A、經營管理效能（項目 1–9）｜住宿型照顧機構評鑑｜報告汪",
+    description: "住宿型照顧機構評鑑經營管理效能 9 項基準詳細說明與準備要訣（115年度全國版）。",
     url: "https://reportwang.com/school/nursing-home/management",
   },
 };
@@ -33,9 +33,9 @@ const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
-  name: "A、經營管理效能（住宿型照顧機構評鑑基準項目 1–15）",
+  name: "A、經營管理效能（住宿型照顧機構評鑑基準項目 1–9）",
   description:
-    "住宿型照顧機構評鑑基準「經營管理效能」15 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "住宿型照顧機構評鑑基準「經營管理效能」9 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
   path: "/school/nursing-home/management",
 });
 
@@ -52,10 +52,10 @@ export default function NursingHomeManagementPage() {
         <Badge className="mb-3 bg-orange-500/10 text-orange-600 dark:text-orange-400 border-0 hover:bg-orange-500/20">
           A、經營管理效能
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">經營管理效能（項目 1–15）</h1>
+        <h1 className="text-2xl font-bold mb-3">經營管理效能（項目 1–9）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 15 個評鑑項目，涵蓋住宿型機構的整體管理能力，從行政制度、人員設置資格、教育訓練到危機風險管理。
-          負責人的資格與實際參與程度是評鑑委員關注的核心重點。
+          本區塊共 9 個評鑑項目（115年度全國版），涵蓋住宿型機構的整體管理能力，從行政制度、人員設置資格、教育訓練到危機風險管理。
+          115年度將人員設置（A8）及教育訓練（A9）各自合併為單一項目，並新增「前次評鑑缺失改善」（A4）。
         </p>
       </div>
 

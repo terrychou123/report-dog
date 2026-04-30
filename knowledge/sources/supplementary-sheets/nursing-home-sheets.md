@@ -2,12 +2,22 @@
 type: source
 source_type: supplementary-sheets
 facility_type: nursing-home
-extracted_at: 2026-04-08
+extracted_at: 2026-04-30
+year: 115
 ---
 
-# 住宿型照顧機構 附件表單定義
+# 住宿型照顧機構 附件表單定義（115年度全國版）
 
 > 從 lib/supplementary-sheets/nursing-home.ts 萃取
+> 115年度評鑑共 63 項（A1–A9 = id 1–9；B1–B29 = id 10–38；C1–C16 = id 39–54；D1–D9 = id 55–63）+ 加減分 3 項（id 64–66）
+>
+> **115年度關鍵編號變更**：
+> - 指標 8（A8）＝ 聘用工作人員設置（合併舊 A8+A9+A10+A11）
+> - 指標 9（A9）＝ 工作人員教育訓練（合併舊 A13+A14+A15）
+> - 指標 28（B19）＝ 管路移除（合併鼻胃管＋導尿管）
+> - 指標 35（B26）＝ 失禁定時如廁（115年度新增）
+> - 指標 37（B28）＝ 膳食及個別化飲食（合併舊 B29+B30+B31）
+> - 指標 56（D2）＝ 入住契約（含 D2 入住契約自訂分頁，criteriaIndex: 56）
 
 ## 指標 1
 

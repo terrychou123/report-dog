@@ -9,21 +9,21 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
-  title: "B、專業照護品質（項目 16–47）｜住宿型照顧機構評鑑",
+  title: "B、專業照護品質（項目 10–38）｜住宿型照顧機構評鑑",
   description:
-    "住宿型照顧機構評鑑「專業照護品質」32 項評鑑基準詳細說明：服務計畫、醫療服務、防疫機制、藥品管理、跌倒壓傷預防、膳食服務、管灌照護等，含準備要訣。",
+    "住宿型照顧機構評鑑「專業照護品質」29 項評鑑基準詳細說明（115年度全國版）：服務計畫、醫療服務、防疫機制、藥品管理、跌倒壓傷預防、失禁定時如廁、膳食服務、管灌照護等，含準備要訣。",
   keywords: [
     "住宿型長照評鑑專業照護",
     "安養機構照護品質評鑑",
     "長照機構護理品質評鑑",
     "住民服務計畫評鑑",
-    "114年度住宿型長照評鑑",
-    "臺北市安養機構評鑑",
+    "115年度住宿型長照評鑑",
+    "住宿式長照機構失禁照護",
   ],
   alternates: { canonical: "https://reportwang.com/school/nursing-home/professional-quality" },
   openGraph: {
-    title: "B、專業照護品質（項目 16–47）｜住宿型照顧機構評鑑｜報告汪",
-    description: "住宿型照顧機構評鑑專業照護品質 32 項基準詳細說明與準備要訣。",
+    title: "B、專業照護品質（項目 10–38）｜住宿型照顧機構評鑑｜報告汪",
+    description: "住宿型照顧機構評鑑專業照護品質 29 項基準詳細說明與準備要訣（115年度全國版）。",
     url: "https://reportwang.com/school/nursing-home/professional-quality",
   },
 };
@@ -34,9 +34,9 @@ const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
-  name: "B、專業照護品質（住宿型照顧機構評鑑基準項目 16–47）",
+  name: "B、專業照護品質（住宿型照顧機構評鑑基準項目 10–38）",
   description:
-    "住宿型照顧機構評鑑基準「專業照護品質」32 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "住宿型照顧機構評鑑基準「專業照護品質」29 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
   path: "/school/nursing-home/professional-quality",
 });
 
@@ -53,10 +53,10 @@ export default function NursingHomeProfessionalQualityPage() {
         <Badge className="mb-3 bg-green-500/10 text-green-600 dark:text-green-400 border-0 hover:bg-green-500/20">
           B、專業照護品質
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">專業照護品質（項目 16–47）</h1>
+        <h1 className="text-2xl font-bold mb-3">專業照護品質（項目 10–38）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 32 個評鑑項目，是住宿型機構評鑑中項目最多的區塊，涵蓋從服務計畫、醫療照護、感染防疫、膳食管理到日常生活照護的完整照護品質體系。
-          護理與社工人員的備戰程度直接決定本區塊的得分。
+          本區塊共 29 個評鑑項目（115年度全國版），是住宿型機構評鑑中項目最多的區塊，涵蓋從服務計畫、醫療照護、感染防疫、膳食管理到日常生活照護的完整照護品質體系。
+          115年度新增「失禁服務對象定時如廁計畫」（B26），護理與社工人員的備戰程度直接決定本區塊的得分。
         </p>
       </div>
 

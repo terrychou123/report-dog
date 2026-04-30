@@ -8,21 +8,21 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
-  title: "C、安全環境設備（項目 48–63）｜住宿型照顧機構評鑑",
+  title: "C、安全環境設備（項目 39–54）｜住宿型照顧機構評鑑",
   description:
-    "住宿型照顧機構評鑑「安全環境設備」16 項評鑑基準詳細說明：採光通風、無障礙設施、消防安全、緊急疏散、廚房衛生、隔離空間、飲用水安全等，含準備要訣。",
+    "住宿型照顧機構評鑑「安全環境設備」16 項評鑑基準詳細說明（115年度全國版）：採光通風、無障礙設施、消防安全、等待救援空間、EOP演練、緊急疏散、廚房衛生、飲用水安全等，含準備要訣。",
   keywords: [
     "住宿型長照評鑑安全環境",
     "安養機構消防安全評鑑",
     "長照機構無障礙設施評鑑",
     "護理之家疏散演練評鑑",
-    "114年度住宿型長照評鑑",
-    "臺北市安養機構環境評鑑",
+    "115年度住宿型長照評鑑",
+    "住宿式長照機構EOP演練",
   ],
   alternates: { canonical: "https://reportwang.com/school/nursing-home/safety-environment" },
   openGraph: {
-    title: "C、安全環境設備（項目 48–63）｜住宿型照顧機構評鑑｜報告汪",
-    description: "住宿型照顧機構評鑑安全環境設備 16 項基準詳細說明與準備要訣。",
+    title: "C、安全環境設備（項目 39–54）｜住宿型照顧機構評鑑｜報告汪",
+    description: "住宿型照顧機構評鑑安全環境設備 16 項基準詳細說明與準備要訣（115年度全國版）。",
     url: "https://reportwang.com/school/nursing-home/safety-environment",
   },
 };
@@ -33,9 +33,9 @@ const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
-  name: "C、安全環境設備（住宿型照顧機構評鑑基準項目 48–63）",
+  name: "C、安全環境設備（住宿型照顧機構評鑑基準項目 39–54）",
   description:
-    "住宿型照顧機構評鑑基準「安全環境設備」16 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "住宿型照顧機構評鑑基準「安全環境設備」16 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
   path: "/school/nursing-home/safety-environment",
 });
 
@@ -52,10 +52,9 @@ export default function NursingHomeSafetyEnvironmentPage() {
         <Badge className="mb-3 bg-teal-500/10 text-teal-600 dark:text-teal-400 border-0 hover:bg-teal-500/20">
           C、安全環境設備
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">安全環境設備（項目 48–63）</h1>
+        <h1 className="text-2xl font-bold mb-3">安全環境設備（項目 39–54）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 16 個評鑑項目，著重在機構實體環境的安全性與無障礙可及性。評鑑委員通常以現場觀察及設備測試為主要審查方式，
-          包含多個「一級必要」項目，不達標將直接影響評鑑等級。
+          本區塊共 16 個評鑑項目（115年度全國版），著重在機構實體環境的安全性與無障礙可及性。115年度強化用電安全管理（C9）、等待救援空間三項構造要求（C10）、EOP演練每年 4 次（C11），評鑑委員通常以現場觀察及設備測試為主要審查方式。
         </p>
       </div>
 

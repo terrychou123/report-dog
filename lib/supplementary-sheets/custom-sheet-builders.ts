@@ -59,7 +59,7 @@ const CUSTOM_SHEET_BUILDERS: Record<string, Record<number, CustomSheetBuilder>> 
     30: buildHomeCareItem30CustomSheets,
   },
   "nursing-home": {
-    65: buildNursingHomeItem65CustomSheets,
+    56: buildNursingHomeItem65CustomSheets,
   },
 };
 

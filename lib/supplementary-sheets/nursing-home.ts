@@ -1,43 +1,44 @@
 /**
  * 住宿型照顧機構評鑑補充文件定義
- * 114年度臺北市老人安養暨長期照顧機構評鑑指標（75項）
+ * 115年度住宿式長期照顧服務機構績效考核指標（63項）
  */
 import type { SupplementaryDefsMap } from '../supplementary-sheet-types';
 
 export const nursingHomeDefs: SupplementaryDefsMap = {
 
-  /** 1. A1 工作人員權益相關制度訂定及執行情形 */
+  /** 1. A1 工作人員權益保障 */
   1: [
     {
-      sheetName: '工作手冊制度文件清冊',
+      sheetName: '工作人員勞健保投保清冊',
       archetype: 'inventory-list',
       criteriaIndex: 0,
-      prefillRows: 10,
+      prefillRows: 15,
       columns: [
-        { header: '文件名稱', width: 180 },
-        { header: '版本', width: 80 },
-        { header: '訂定日期', width: 110 },
-        { header: '最近修訂日期', width: 130 },
-        { header: '負責單位', width: 130 },
+        { header: '姓名', width: 110 },
+        { header: '到職日期', width: 110 },
+        { header: '勞保投保日', width: 120 },
+        { header: '健保加保日', width: 120 },
+        { header: '退休金提繳', width: 120 },
         { header: '備註', width: 130 },
       ],
     },
     {
-      sheetName: '制度執行佐證紀錄表',
-      archetype: 'daily-record',
-      criteriaIndex: 2,
+      sheetName: '工作人員申訴紀錄表',
+      archetype: 'incident-log',
+      criteriaIndex: 1,
       columns: [
-        { header: '執行日期', width: 100 },
-        { header: '制度名稱', width: 160 },
-        { header: '執行內容', width: 220 },
-        { header: '執行人員', width: 110 },
-        { header: '主管核閱', width: 100 },
-        { header: '備註', width: 130 },
+        { header: '受理日期', width: 100 },
+        { header: '申訴人員', width: 110 },
+        { header: '申訴內容', width: 220 },
+        { header: '處理經過', width: 200 },
+        { header: '處理結果', width: 180 },
+        { header: '回覆日期', width: 110 },
+        { header: '處理人員', width: 100 },
       ],
     },
   ],
 
-  /** 2. A2 入出機構之管理 */
+  /** 2. A2 服務對象入出機構作業 */
   2: [
     {
       sheetName: '入出機構辦理紀錄表',
@@ -47,6 +48,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '辦理日期', width: 100 },
         { header: '服務對象姓名', width: 120 },
         { header: '類別(入/出)', width: 110 },
+        { header: '辦理原因', width: 160 },
         { header: '辦理人員', width: 110 },
         { header: '評估摘要', width: 200 },
         { header: '主管核閱', width: 100 },
@@ -55,32 +57,51 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 3. A3 業務計畫及營運方針之擬訂與執行情形 */
+  /** 3. A3 業務計畫訂定與執行 */
   3: [
     {
-      sheetName: '業務計畫執行紀錄表',
+      sheetName: '業務計畫執行進度追蹤表',
       archetype: 'daily-record',
       criteriaIndex: 1,
       columns: [
-        { header: '執行日期', width: 100 },
+        { header: '追蹤日期', width: 100 },
         { header: '計畫項目', width: 180 },
-        { header: '執行內容', width: 220 },
-        { header: '執行人員', width: 110 },
-        { header: '績效說明', width: 180 },
+        { header: '預定完成日', width: 120 },
+        { header: '執行進度', width: 120 },
+        { header: '執行內容摘要', width: 220 },
+        { header: '負責人員', width: 110 },
         { header: '主管核閱', width: 100 },
       ],
     },
   ],
 
-  /** 5. A5 機構內住民保護、性侵害及性騷擾事件防治機制建置情形 */
+  /** 4. A4 前次評鑑（查核）缺失改善情形 */
+  4: [
+    {
+      sheetName: '評鑑缺失改善追蹤表',
+      archetype: 'daily-record',
+      criteriaIndex: 0,
+      prefillRows: 10,
+      columns: [
+        { header: '缺失項目', width: 200 },
+        { header: '改善措施', width: 220 },
+        { header: '負責人員', width: 110 },
+        { header: '預定完成日', width: 120 },
+        { header: '完成日期', width: 110 },
+        { header: '佐證文件', width: 160 },
+        { header: '主管確認', width: 100 },
+      ],
+    },
+  ],
+
+  /** 5. A5 機構內性騷擾及性侵害事件防治機制 */
   5: [
     {
-      sheetName: '住民保護事件處理紀錄表',
+      sheetName: '性騷擾性侵害事件處理紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 0,
+      criteriaIndex: 3,
       columns: [
         { header: '事件日期', width: 100 },
-        { header: '事件時間', width: 100 },
         { header: '當事人', width: 110 },
         { header: '事件類型', width: 150 },
         { header: '事件描述', width: 240 },
@@ -92,12 +113,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 6. A6 危機或緊急事件風險管理情形 */
+  /** 6. A6 危機事件及緊急應變處理機制 */
   6: [
     {
-      sheetName: '緊急事件處理紀錄表',
+      sheetName: '危機緊急事件處理紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       columns: [
         { header: '事件日期', width: 100 },
         { header: '事件類型', width: 150 },
@@ -109,7 +130,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
       ],
     },
     {
-      sheetName: '風險事件半年分析報告表',
+      sheetName: '緊急事件半年分析報告表',
       archetype: 'meeting-minutes',
       criteriaIndex: 3,
       prefillRows: 4,
@@ -125,77 +146,41 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 8. A8 社會工作人員設置情形 */
+  /** 8. A8 聘用工作人員（含專任、兼任）設置情形 */
   8: [
     {
-      sheetName: '社工人員名冊',
+      sheetName: '工作人員名冊（各職類）',
       archetype: 'inventory-list',
       criteriaIndex: 0,
-      prefillRows: 5,
+      prefillRows: 20,
       columns: [
         { header: '姓名', width: 110 },
+        { header: '職稱/職類', width: 130 },
         { header: '資格證書字號', width: 160 },
-        { header: '任用類別', width: 110 },
-        { header: '服務起始日', width: 120 },
-        { header: '負責個案數', width: 110 },
-        { header: '兼任報備情形', width: 160 },
+        { header: '任用類別(專/兼)', width: 130 },
+        { header: '到職日期', width: 110 },
+        { header: '執業登錄機構', width: 160 },
         { header: '備註', width: 130 },
       ],
     },
     {
-      sheetName: '社工服務簽到紀錄表',
+      sheetName: '護理人員排班及護病比記錄表',
       archetype: 'daily-record',
       criteriaIndex: 1,
       columns: [
-        { header: '服務日期', width: 100 },
-        { header: '人員姓名', width: 110 },
-        { header: '到勤時間', width: 110 },
-        { header: '離勤時間', width: 110 },
-        { header: '服務內容摘要', width: 220 },
+        { header: '班別日期', width: 110 },
+        { header: '班別(日/小/大)', width: 130 },
+        { header: '護理人員姓名', width: 130 },
+        { header: '照護床數', width: 100 },
+        { header: '護病比', width: 90 },
+        { header: '符合規定', width: 100 },
         { header: '主管確認', width: 100 },
-      ],
-    },
-  ],
-
-  /** 9. A9 護理人員設置情形 */
-  9: [
-    {
-      sheetName: '護理人員名冊',
-      archetype: 'inventory-list',
-      criteriaIndex: 0,
-      prefillRows: 10,
-      columns: [
-        { header: '姓名', width: 110 },
-        { header: '執業執照字號', width: 160 },
-        { header: '執業登錄機構', width: 160 },
-        { header: '任用日期', width: 110 },
-        { header: '班別', width: 80 },
-        { header: '負責床數', width: 100 },
-        { header: '備註', width: 130 },
-      ],
-    },
-  ],
-
-  /** 10. A10 兼任（特約）專業人員設置情形 */
-  10: [
-    {
-      sheetName: '兼任專業人員名冊',
-      archetype: 'inventory-list',
-      criteriaIndex: 0,
-      prefillRows: 8,
-      columns: [
-        { header: '姓名', width: 110 },
-        { header: '專業別', width: 120 },
-        { header: '資格證書字號', width: 160 },
-        { header: '支援報備文號', width: 160 },
-        { header: '合約起迄日', width: 130 },
-        { header: '備註', width: 130 },
       ],
     },
     {
       sheetName: '兼任專業人員到勤紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 1,
+      criteriaIndex: 2,
       columns: [
         { header: '服務日期', width: 100 },
         { header: '人員姓名', width: 110 },
@@ -209,46 +194,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 13. A13 新進工作人員職前訓練情形 */
-  13: [
-    {
-      sheetName: '職前訓練紀錄表',
-      archetype: 'training-record',
-      criteriaIndex: 0,
-      columns: [
-        { header: '訓練日期', width: 100 },
-        { header: '受訓人員', width: 110 },
-        { header: '到職日期', width: 110 },
-        { header: '訓練主題', width: 180 },
-        { header: '訓練時數', width: 100 },
-        { header: '講師', width: 110 },
-        { header: '訓練方式', width: 120 },
-        { header: '測驗成績', width: 100 },
-      ],
-    },
-    {
-      sheetName: '職前訓練適任性考核表',
-      archetype: 'case-assessment',
-      criteriaIndex: 2,
-      prefillRows: 5,
-      columns: [
-        { header: '受訓人員', width: 110 },
-        { header: '到職日期', width: 110 },
-        { header: '考核日期', width: 110 },
-        { header: '考核項目', width: 180 },
-        { header: '考核結果', width: 120 },
-        { header: '意見回饋', width: 200 },
-        { header: '考核人員', width: 100 },
-      ],
-    },
-  ],
-
-  /** 14. A14 在職教育訓練計畫訂定及辦理情形 */
-  14: [
+  /** 9. A9 工作人員教育訓練計畫訂定及辦理情形 */
+  9: [
     {
       sheetName: '在職教育訓練紀錄表',
       archetype: 'training-record',
-      criteriaIndex: 1,
+      criteriaIndex: 2,
       columns: [
         { header: '訓練日期', width: 100 },
         { header: '訓練主題', width: 180 },
@@ -261,28 +212,23 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
       ],
     },
     {
-      sheetName: '機構外訓練心得報告表',
-      archetype: 'training-record',
-      criteriaIndex: 6,
-      prefillRows: 5,
-      columns: [
-        { header: '訓練日期', width: 100 },
-        { header: '人員姓名', width: 110 },
-        { header: '訓練機構/課程', width: 200 },
-        { header: '訓練時數', width: 100 },
-        { header: '心得摘要', width: 260 },
-        { header: '應用計畫', width: 180 },
-        { header: '主管核閱', width: 100 },
-      ],
-    },
-  ],
-
-  /** 15. A15 廚工及供膳人員領照及接受教育訓練情形 */
-  15: [
-    {
-      sheetName: '廚工教育訓練紀錄表',
+      sheetName: '職前訓練紀錄表',
       archetype: 'training-record',
       criteriaIndex: 1,
+      columns: [
+        { header: '訓練日期', width: 100 },
+        { header: '受訓人員', width: 110 },
+        { header: '到職日期', width: 110 },
+        { header: '訓練主題', width: 180 },
+        { header: '訓練時數', width: 100 },
+        { header: '講師', width: 110 },
+        { header: '測驗成績', width: 100 },
+      ],
+    },
+    {
+      sheetName: '廚工食品衛生訓練紀錄表',
+      archetype: 'training-record',
+      criteriaIndex: 3,
       columns: [
         { header: '訓練日期', width: 100 },
         { header: '人員姓名', width: 110 },
@@ -295,16 +241,16 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 16. B1 定期召開服務品質會議及其辦理情形 */
-  16: [
+  /** 10. B1 服務品質改善會議及檢討機制 */
+  10: [
     {
-      sheetName: '服務品質會議紀錄表',
+      sheetName: '服務品質改善會議紀錄表',
       archetype: 'meeting-minutes',
       criteriaIndex: 0,
       columns: [
         { header: '會議日期', width: 100 },
-        { header: '會議名稱', width: 160 },
-        { header: '出席人員', width: 180 },
+        { header: '出席人員', width: 200 },
+        { header: '品質指標數據', width: 200 },
         { header: '討論議題', width: 220 },
         { header: '決議事項', width: 220 },
         { header: '執行期限', width: 110 },
@@ -314,36 +260,22 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 17. B2 個案服務計畫與評值及管理情形 */
-  17: [
+  /** 11. B2 個案服務計畫評值（含社工及護理共同評值） */
+  11: [
     {
-      sheetName: '個案入住評估表',
-      archetype: 'case-assessment',
-      criteriaIndex: 0,
-      prefillRows: 3,
-      columns: [
-        { header: '個案姓名', width: 110 },
-        { header: '入住日期', width: 110 },
-        { header: '評估日期', width: 110 },
-        { header: '身體評估摘要', width: 180 },
-        { header: '心理評估摘要', width: 160 },
-        { header: '社會評估摘要', width: 160 },
-        { header: '高風險評估', width: 160 },
-        { header: '評估人員', width: 100 },
-      ],
-    },
-    {
-      sheetName: '個別化照顧計畫書',
+      sheetName: '個案服務計畫書',
       archetype: 'care-plan',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       prefillRows: 4,
       columns: [
         { header: '個案姓名', width: 110 },
+        { header: '入住日期', width: 110 },
         { header: '計畫日期', width: 110 },
         { header: '照護問題', width: 180 },
         { header: '照護目標', width: 180 },
         { header: '照護措施', width: 200 },
-        { header: '負責人員', width: 100 },
+        { header: '社工評估', width: 160 },
+        { header: '護理評估', width: 160 },
         { header: '評值日期', width: 110 },
         { header: '評值結果', width: 160 },
       ],
@@ -365,12 +297,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 19. B4 服務對象適應輔導或支持措施 */
-  19: [
+  /** 12. B3 新入住服務對象適應輔導 */
+  12: [
     {
-      sheetName: '適應輔導關懷紀錄表',
+      sheetName: '入住適應輔導紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 1,
+      criteriaIndex: 0,
       columns: [
         { header: '服務日期', width: 100 },
         { header: '個案姓名', width: 110 },
@@ -383,12 +315,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 20. B5 跨專業整合照護執行情形 */
-  20: [
+  /** 13. B4 跨專業整合照護服務 */
+  13: [
     {
-      sheetName: '專業聯繫會議紀錄表',
+      sheetName: '跨專業照護計畫討論紀錄表',
       archetype: 'meeting-minutes',
-      criteriaIndex: 1,
+      criteriaIndex: 0,
       columns: [
         { header: '會議日期', width: 100 },
         { header: '個案姓名', width: 110 },
@@ -402,7 +334,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     {
       sheetName: '轉介照會紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 3,
       columns: [
         { header: '轉介/照會日期', width: 130 },
         { header: '個案姓名', width: 110 },
@@ -416,12 +348,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 21. B6 服務對象團體或社區活動辦理情形 */
-  21: [
+  /** 14. B5 辦理團體活動及社區參與 */
+  14: [
     {
       sheetName: '團體社區活動辦理紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       columns: [
         { header: '活動日期', width: 100 },
         { header: '活動名稱', width: 160 },
@@ -434,12 +366,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 22. B7 社區資源聯結及運用情形 */
-  22: [
+  /** 15. B6 結合社區資源提供服務 */
+  15: [
     {
       sheetName: '社區資源名冊',
       archetype: 'inventory-list',
-      criteriaIndex: 3,
+      criteriaIndex: 0,
       prefillRows: 10,
       columns: [
         { header: '資源類別', width: 120 },
@@ -451,46 +383,46 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
       ],
     },
     {
-      sheetName: '社區交流活動紀錄表',
+      sheetName: '社區資源轉介紀錄表',
       archetype: 'daily-record',
       criteriaIndex: 2,
       columns: [
-        { header: '活動日期', width: 100 },
-        { header: '活動名稱', width: 160 },
-        { header: '參與社區單位', width: 160 },
-        { header: '參加成員', width: 150 },
-        { header: '活動內容', width: 220 },
-        { header: '評值成果', width: 180 },
-        { header: '負責人員', width: 100 },
+        { header: '轉介日期', width: 100 },
+        { header: '個案姓名', width: 110 },
+        { header: '轉介資源名稱', width: 180 },
+        { header: '轉介原因', width: 180 },
+        { header: '追蹤日期', width: 110 },
+        { header: '追蹤結果', width: 160 },
+        { header: '轉介人員', width: 100 },
       ],
     },
   ],
 
-  /** 23. B8 與家屬互動及提供服務情形 */
-  23: [
+  /** 16. B7 促進服務對象與家屬互動 */
+  16: [
     {
       sheetName: '家屬電訪及會談紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 3,
+      criteriaIndex: 0,
       columns: [
         { header: '聯繫日期', width: 100 },
         { header: '個案姓名', width: 110 },
         { header: '家屬姓名', width: 110 },
         { header: '聯繫方式', width: 110 },
         { header: '主要需求', width: 180 },
-        { header: '提供支持內容', width: 200 },
+        { header: '提供服務/資訊', width: 200 },
         { header: '後續追蹤', width: 150 },
         { header: '紀錄人員', width: 100 },
       ],
     },
   ],
 
-  /** 24. B9 提供服務對象例行及必要之醫療服務情形 */
-  24: [
+  /** 17. B8 例行醫療照護及就醫安排 */
+  17: [
     {
       sheetName: '醫師巡診診察紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       columns: [
         { header: '診察日期', width: 100 },
         { header: '個案姓名', width: 110 },
@@ -503,12 +435,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 25. B10 防疫機制建置情形 */
-  25: [
+  /** 18. B9 傳染病防治及感染管制 */
+  18: [
     {
-      sheetName: '服務對象體溫紀錄表',
+      sheetName: '服務對象體溫監測紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 0,
+      criteriaIndex: 2,
       columns: [
         { header: '量測日期', width: 100 },
         { header: '個案姓名', width: 110 },
@@ -523,26 +455,26 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     {
       sheetName: '傳染病通報紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 1,
+      criteriaIndex: 2,
       columns: [
         { header: '通報日期', width: 100 },
         { header: '個案姓名', width: 110 },
         { header: '疑似疾病類別', width: 150 },
         { header: '症狀描述', width: 200 },
         { header: '通報機關', width: 130 },
-        { header: '處置措施', width: 180 },
+        { header: '隔離措施', width: 160 },
         { header: '追蹤結果', width: 160 },
         { header: '通報人員', width: 100 },
       ],
     },
   ],
 
-  /** 26. B11 服務對象處方藥品安全管理情形 */
-  26: [
+  /** 19. B10 處方藥品管理 */
+  19: [
     {
       sheetName: '藥品用藥紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 1,
+      criteriaIndex: 2,
       columns: [
         { header: '日期', width: 90 },
         { header: '個案姓名', width: 110 },
@@ -554,7 +486,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
       ],
     },
     {
-      sheetName: '管制藥品回收銷毀紀錄表',
+      sheetName: '管制藥品使用及回收銷毀紀錄表',
       archetype: 'inventory-list',
       criteriaIndex: 3,
       prefillRows: 5,
@@ -571,40 +503,26 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 27. B12 提供服務對象藥事服務情形 */
-  27: [
+  /** 20. B11 藥事照護服務 */
+  20: [
     {
-      sheetName: '藥師藥事諮詢服務紀錄表',
+      sheetName: '藥師藥事照護服務紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       columns: [
         { header: '服務日期', width: 100 },
         { header: '個案姓名', width: 110 },
         { header: '藥師姓名', width: 110 },
-        { header: '諮詢/指導內容', width: 220 },
+        { header: '評估/指導內容', width: 220 },
+        { header: '多重用藥評估', width: 160 },
         { header: '建議事項', width: 200 },
         { header: '護理人員確認', width: 130 },
       ],
     },
-    {
-      sheetName: '用藥反應追蹤紀錄表',
-      archetype: 'daily-record',
-      criteriaIndex: 3,
-      columns: [
-        { header: '觀察日期', width: 100 },
-        { header: '個案姓名', width: 110 },
-        { header: '藥品名稱', width: 160 },
-        { header: '觀察反應', width: 180 },
-        { header: '交互作用疑慮', width: 160 },
-        { header: '諮詢醫師/藥師', width: 140 },
-        { header: '追蹤結果', width: 160 },
-        { header: '紀錄人員', width: 100 },
-      ],
-    },
   ],
 
-  /** 28. B13 服務對象跌倒預防、處理及監測情形 */
-  28: [
+  /** 21. B12 跌倒預防及處理 */
+  21: [
     {
       sheetName: '跌倒事件監測紀錄表',
       archetype: 'incident-log',
@@ -619,12 +537,13 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '傷害程度', width: 110 },
         { header: '家屬通知', width: 110 },
         { header: '後續追蹤', width: 160 },
+        { header: '改善措施', width: 180 },
       ],
     },
   ],
 
-  /** 29. B14 服務對象壓力性損傷預防、處理及監測情形 */
-  29: [
+  /** 22. B13 壓力性損傷預防及處理 */
+  22: [
     {
       sheetName: '壓力性損傷監測紀錄表',
       archetype: 'incident-log',
@@ -642,53 +561,51 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 30. B15 服務對象疼痛偵測與處置情形 */
-  30: [
+  /** 23. B14 疼痛評估及處理 */
+  23: [
     {
       sheetName: '疼痛評估與處置紀錄表',
       archetype: 'case-assessment',
-      criteriaIndex: 1,
+      criteriaIndex: 0,
       columns: [
         { header: '評估日期', width: 100 },
         { header: '個案姓名', width: 110 },
         { header: '疼痛分數(0-10)', width: 140 },
         { header: '疼痛部位', width: 130 },
-        { header: '開始時間', width: 110 },
-        { header: '持續時間', width: 110 },
         { header: '加重/緩解因素', width: 160 },
         { header: '處置措施', width: 180 },
-        { header: '處置反應', width: 160 },
+        { header: '處置後分數', width: 120 },
         { header: '評估人員', width: 100 },
       ],
     },
   ],
 
-  /** 31. B16 服務對象約束處理及監測情形 */
-  31: [
+  /** 24. B15 身體約束使用管理 */
+  24: [
     {
       sheetName: '約束個案監測紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 3,
+      criteriaIndex: 2,
       columns: [
         { header: '監測日期', width: 100 },
         { header: '監測時間', width: 100 },
         { header: '個案姓名', width: 110 },
         { header: '約束部位', width: 130 },
         { header: '約束原因', width: 180 },
+        { header: '替代措施評估', width: 160 },
         { header: '皮膚狀況', width: 130 },
-        { header: '肢體循環', width: 120 },
         { header: '個案反應', width: 160 },
         { header: '監測人員', width: 100 },
       ],
     },
   ],
 
-  /** 32. B17 服務對象感染預防、處理及監測情形 */
-  32: [
+  /** 25. B16 感染事件預防及處理 */
+  25: [
     {
       sheetName: '感染事件監測紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       columns: [
         { header: '監測日期', width: 100 },
         { header: '個案姓名', width: 110 },
@@ -703,18 +620,19 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 33. B18 服務對象非計畫性住院處理及監測情形 */
-  33: [
+  /** 26. B17 非計畫性住院管理 */
+  26: [
     {
       sheetName: '非計畫性住院監測紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       columns: [
         { header: '住院日期', width: 100 },
         { header: '個案姓名', width: 110 },
         { header: '住院原因', width: 180 },
         { header: '住院醫院', width: 150 },
-        { header: '處置摘要', width: 200 },
+        { header: '原因分析', width: 200 },
+        { header: '改善措施', width: 200 },
         { header: '返回機構日期', width: 130 },
         { header: '後續追蹤', width: 160 },
         { header: '紀錄人員', width: 100 },
@@ -722,12 +640,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 34. B19 服務對象非計畫性體重改變處理及監測情形 */
-  34: [
+  /** 27. B18 非計畫性體重變化管理 */
+  27: [
     {
       sheetName: '體重監測追蹤紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       columns: [
         { header: '量測日期', width: 100 },
         { header: '個案姓名', width: 110 },
@@ -736,38 +654,39 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '變化量', width: 90 },
         { header: '變化百分比', width: 110 },
         { header: '異常說明', width: 180 },
-        { header: '處置措施', width: 180 },
+        { header: '介入措施', width: 180 },
         { header: '量測人員', width: 100 },
       ],
     },
   ],
 
-  /** 35. B20 提供移除鼻胃管之增進照護計畫及執行情形 */
-  35: [
+  /** 28. B19 管路移除（鼻胃管及導尿管） */
+  28: [
     {
-      sheetName: '移除鼻胃管照護計畫書',
+      sheetName: '管路移除照護計畫書',
       archetype: 'care-plan',
-      criteriaIndex: 0,
+      criteriaIndex: 1,
       prefillRows: 3,
       columns: [
         { header: '個案姓名', width: 110 },
         { header: '計畫日期', width: 110 },
+        { header: '管路類型', width: 130 },
         { header: '目前狀態評估', width: 180 },
         { header: '照護目標', width: 180 },
         { header: '執行措施', width: 200 },
-        { header: '評值方法', width: 160 },
         { header: '執行人員', width: 100 },
         { header: '評值日期', width: 110 },
         { header: '評值結果', width: 160 },
       ],
     },
     {
-      sheetName: '移除鼻胃管逐案服務紀錄',
+      sheetName: '管路移除逐案服務紀錄',
       archetype: 'daily-record',
-      criteriaIndex: 1,
+      criteriaIndex: 2,
       columns: [
         { header: '服務日期', width: 100 },
         { header: '個案姓名', width: 110 },
+        { header: '管路類型', width: 130 },
         { header: '執行項目', width: 180 },
         { header: '執行情形', width: 200 },
         { header: '個案反應', width: 160 },
@@ -776,66 +695,32 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 36. B21 提供移除導尿管機能增進的照護計畫及執行情形 */
-  36: [
-    {
-      sheetName: '移除導尿管照護計畫書',
-      archetype: 'care-plan',
-      criteriaIndex: 0,
-      prefillRows: 3,
-      columns: [
-        { header: '個案姓名', width: 110 },
-        { header: '計畫日期', width: 110 },
-        { header: '評估結果', width: 180 },
-        { header: '照護目標', width: 180 },
-        { header: '膀胱訓練措施', width: 200 },
-        { header: '評值方法', width: 160 },
-        { header: '執行人員', width: 100 },
-        { header: '評值日期', width: 110 },
-        { header: '評值結果', width: 160 },
-      ],
-    },
-    {
-      sheetName: '移除導尿管逐案服務紀錄',
-      archetype: 'daily-record',
-      criteriaIndex: 1,
-      columns: [
-        { header: '服務日期', width: 100 },
-        { header: '個案姓名', width: 110 },
-        { header: '執行項目', width: 180 },
-        { header: '執行情形', width: 200 },
-        { header: '個案反應', width: 160 },
-        { header: '執行人員', width: 100 },
-      ],
-    },
-  ],
-
-  /** 37. B22 工作人員及服務對象定期健康檢查及健康管理情形 */
-  37: [
+  /** 29. B20 服務對象健康檢查 */
+  29: [
     {
       sheetName: '健康檢查紀錄管理表',
       archetype: 'inventory-list',
-      criteriaIndex: 1,
-      prefillRows: 10,
+      criteriaIndex: 0,
+      prefillRows: 15,
       columns: [
         { header: '姓名', width: 110 },
-        { header: '類別(員工/住民)', width: 140 },
         { header: '檢查日期', width: 110 },
-        { header: '胸部X光', width: 100 },
+        { header: '血壓/心跳', width: 120 },
         { header: '血液常規', width: 100 },
-        { header: '尿液檢查', width: 100 },
+        { header: '血糖', width: 90 },
         { header: '異常項目', width: 160 },
-        { header: '追蹤處理', width: 180 },
+        { header: '後續追蹤', width: 180 },
+        { header: '醫師確認', width: 100 },
       ],
     },
   ],
 
-  /** 38. B23 侵入性照護之執行情形 */
-  38: [
+  /** 30. B21 侵入性照護技術管理 */
+  30: [
     {
       sheetName: '侵入性照護技術稽核表',
       archetype: 'inspection-checklist',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       columns: [
         { header: '稽核日期', width: 100 },
         { header: '稽核人員', width: 110 },
@@ -850,8 +735,8 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 39. B24 提供緊急送醫服務情形 */
-  39: [
+  /** 31. B22 緊急送醫作業 */
+  31: [
     {
       sheetName: '緊急送醫服務紀錄表',
       archetype: 'incident-log',
@@ -870,13 +755,13 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 40. B25 服務對象及工作人員接受疫苗注射情形 */
-  40: [
+  /** 32. B23 疫苗注射服務 */
+  32: [
     {
       sheetName: '疫苗接種清冊',
       archetype: 'inventory-list',
       criteriaIndex: 0,
-      prefillRows: 15,
+      prefillRows: 20,
       columns: [
         { header: '姓名', width: 110 },
         { header: '類別(住民/員工)', width: 140 },
@@ -889,8 +774,8 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 41. B26 提供服務對象日常活動情形 */
-  41: [
+  /** 33. B24 促進日常活動及下床 */
+  33: [
     {
       sheetName: '服務對象下床活動紀錄表',
       archetype: 'daily-record',
@@ -899,32 +784,17 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '日期', width: 90 },
         { header: '個案姓名', width: 110 },
         { header: '下床次數', width: 100 },
-        { header: '下床時間', width: 100 },
+        { header: '下床時間(分鐘)', width: 130 },
         { header: '活動內容', width: 180 },
         { header: '使用輔具', width: 130 },
         { header: '個案反應', width: 150 },
         { header: '照顧人員', width: 100 },
       ],
     },
-    {
-      sheetName: '重度失能肢體活動紀錄表',
-      archetype: 'daily-record',
-      criteriaIndex: 2,
-      columns: [
-        { header: '日期', width: 90 },
-        { header: '個案姓名', width: 110 },
-        { header: 'ADL分數', width: 100 },
-        { header: '活動部位', width: 130 },
-        { header: '執行次數', width: 100 },
-        { header: '執行時間', width: 100 },
-        { header: '個案狀況', width: 160 },
-        { header: '執行人員', width: 100 },
-      ],
-    },
   ],
 
-  /** 42. B27 提供服務對象清潔及翻身拍背服務情形 */
-  42: [
+  /** 34. B25 身體清潔及翻身照護 */
+  34: [
     {
       sheetName: '翻身拍背護理紀錄表',
       archetype: 'daily-record',
@@ -941,8 +811,43 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 43. B28 提升服務對象自我照顧能力之促進及相關輔具運用情形 */
-  43: [
+  /** 35. B26 失禁服務對象定時如廁計畫 */
+  35: [
+    {
+      sheetName: '定時如廁計畫書',
+      archetype: 'care-plan',
+      criteriaIndex: 0,
+      prefillRows: 4,
+      columns: [
+        { header: '個案姓名', width: 110 },
+        { header: '計畫日期', width: 110 },
+        { header: '失禁類型評估', width: 160 },
+        { header: '如廁頻率', width: 120 },
+        { header: '如廁時間安排', width: 160 },
+        { header: '輔助方式', width: 150 },
+        { header: '評值日期', width: 110 },
+        { header: '計畫調整', width: 160 },
+        { header: '負責人員', width: 100 },
+      ],
+    },
+    {
+      sheetName: '定時如廁執行紀錄表',
+      archetype: 'daily-record',
+      criteriaIndex: 1,
+      columns: [
+        { header: '日期', width: 90 },
+        { header: '個案姓名', width: 110 },
+        { header: '如廁時間', width: 110 },
+        { header: '協助方式', width: 130 },
+        { header: '如廁結果', width: 130 },
+        { header: '個案反應', width: 150 },
+        { header: '執行人員', width: 100 },
+      ],
+    },
+  ],
+
+  /** 36. B27 自我照顧能力維持及輔具使用 */
+  36: [
     {
       sheetName: '自我照顧能力促進計畫書',
       archetype: 'care-plan',
@@ -951,7 +856,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
       columns: [
         { header: '個案姓名', width: 110 },
         { header: '計畫日期', width: 110 },
-        { header: '能力評估結果', width: 180 },
+        { header: 'ADL評估結果', width: 160 },
         { header: '照護目標', width: 180 },
         { header: '促進措施', width: 200 },
         { header: '輔具提供', width: 150 },
@@ -962,12 +867,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 44. B29 服務對象膳食及菜單擬定情形 */
-  44: [
+  /** 37. B28 膳食及個別化飲食照護 */
+  37: [
     {
       sheetName: '循環菜單一覽表',
       archetype: 'inventory-list',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       prefillRows: 14,
       columns: [
         { header: '星期/週次', width: 110 },
@@ -979,14 +884,10 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '審核日期', width: 110 },
       ],
     },
-  ],
-
-  /** 45. B30 提供個別化飲食情形 */
-  45: [
     {
       sheetName: '個別化飲食照護計畫書',
       archetype: 'care-plan',
-      criteriaIndex: 1,
+      criteriaIndex: 0,
       prefillRows: 4,
       columns: [
         { header: '個案姓名', width: 110 },
@@ -994,7 +895,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '疾病/生理狀況', width: 180 },
         { header: '飲食類型', width: 130 },
         { header: '個別化措施', width: 200 },
-        { header: '目標', width: 160 },
+        { header: '適宜餐具說明', width: 160 },
         { header: '評值日期', width: 110 },
         { header: '評值結果', width: 160 },
         { header: '負責營養師', width: 120 },
@@ -1002,46 +903,28 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 49. C2 儲藏設施設置情形 */
-  49: [
+  /** 38. B29 管灌飲食照護 */
+  38: [
     {
-      sheetName: '儲藏設施定期盤點紀錄表',
-      archetype: 'inventory-list',
-      criteriaIndex: 3,
-      prefillRows: 8,
+      sheetName: '管灌飲食計畫及執行紀錄表',
+      archetype: 'care-plan',
+      criteriaIndex: 0,
+      prefillRows: 3,
       columns: [
-        { header: '盤點日期', width: 100 },
-        { header: '儲藏位置', width: 150 },
-        { header: '物品類別', width: 130 },
-        { header: '物品名稱', width: 160 },
-        { header: '數量', width: 80 },
-        { header: '狀況說明', width: 180 },
-        { header: '盤點人員', width: 100 },
+        { header: '個案姓名', width: 110 },
+        { header: '計畫日期', width: 110 },
+        { header: '配方種類', width: 150 },
+        { header: '灌食量(ml)', width: 120 },
+        { header: '灌食頻率', width: 120 },
+        { header: '管路位置確認', width: 140 },
+        { header: '個案反應', width: 160 },
+        { header: '執行人員', width: 100 },
       ],
     },
   ],
 
-  /** 50. C3 日常活動空間及設施設備設置情形 */
-  50: [
-    {
-      sheetName: '日常活動空間清潔紀錄表',
-      archetype: 'inspection-checklist',
-      criteriaIndex: 1,
-      columns: [
-        { header: '清潔日期', width: 100 },
-        { header: '清潔區域', width: 150 },
-        { header: '清潔項目', width: 200 },
-        { header: '符合', width: 70 },
-        { header: '不符合', width: 80 },
-        { header: '缺失說明', width: 160 },
-        { header: '清潔人員', width: 100 },
-        { header: '主管確認', width: 100 },
-      ],
-    },
-  ],
-
-  /** 54. C7 餐廳、廚房之設施設備與環境清潔衛生情形 */
-  54: [
+  /** 42. C4 餐廳及廚房衛生管理 */
+  42: [
     {
       sheetName: '廚房環境衛生日常查核表',
       archetype: 'inspection-checklist',
@@ -1059,7 +942,7 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     {
       sheetName: '食材進貨及儲存檢查紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       columns: [
         { header: '進貨日期', width: 100 },
         { header: '食材名稱', width: 150 },
@@ -1073,17 +956,18 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 55. C8 污物、事業廢棄物處理及環境病媒、蟲害防治情形 */
-  55: [
+  /** 43. C5 污物及廢棄物處理 */
+  43: [
     {
-      sheetName: '環境消毒紀錄表',
+      sheetName: '環境消毒及廢棄物處理紀錄表',
       archetype: 'inspection-checklist',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       columns: [
-        { header: '消毒日期', width: 100 },
-        { header: '消毒區域', width: 150 },
-        { header: '消毒方式', width: 150 },
-        { header: '消毒藥劑', width: 150 },
+        { header: '處理日期', width: 100 },
+        { header: '區域/項目', width: 150 },
+        { header: '廢棄物類別', width: 130 },
+        { header: '處理方式', width: 150 },
+        { header: '清運廠商', width: 130 },
         { header: '執行人員', width: 110 },
         { header: '主管確認', width: 100 },
         { header: '備註', width: 130 },
@@ -1091,12 +975,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 56. C9 建築物公共安全檢查及消防安全設備情形 */
-  56: [
+  /** 47. C9 用電安全及消防管理 */
+  47: [
     {
-      sheetName: '每月用電設備自主檢查表',
+      sheetName: '每月用電設備自主安全檢查表',
       archetype: 'inspection-checklist',
-      criteriaIndex: 4,
+      criteriaIndex: 0,
       columns: [
         { header: '檢查日期', width: 100 },
         { header: '檢查區域', width: 140 },
@@ -1110,15 +994,16 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 58. C11 緊急災害應變計畫及作業程序並落實演練 */
-  58: [
+  /** 49. C11 緊急應變（EOP）演練 */
+  49: [
     {
-      sheetName: '災害應變演練紀錄表',
+      sheetName: '緊急應變演練計畫及紀錄表',
       archetype: 'training-record',
-      criteriaIndex: 3,
+      criteriaIndex: 0,
       columns: [
         { header: '演練日期', width: 100 },
-        { header: '演練類型', width: 150 },
+        { header: '演練類型(實地/桌上)', width: 160 },
+        { header: '演練情境', width: 180 },
         { header: '演練場地', width: 130 },
         { header: '參與人員', width: 180 },
         { header: '演練過程摘要', width: 220 },
@@ -1127,117 +1012,70 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
         { header: '負責人員', width: 100 },
       ],
     },
-    {
-      sheetName: '防火避難自主檢核紀錄表',
-      archetype: 'inspection-checklist',
-      criteriaIndex: 2,
-      columns: [
-        { header: '檢核日期', width: 100 },
-        { header: '檢核區域', width: 140 },
-        { header: '檢核項目', width: 200 },
-        { header: '符合', width: 70 },
-        { header: '不符合', width: 80 },
-        { header: '缺失說明', width: 180 },
-        { header: '改善措施', width: 180 },
-        { header: '檢核人員', width: 100 },
-      ],
-    },
   ],
 
-  /** 61. C14 設備、儀器維護及辦理人員操作訓練情形 */
-  61: [
+  /** 54. C16 輔具與移位設備安全管理 */
+  54: [
     {
-      sheetName: '設備儀器維護校正紀錄表',
+      sheetName: '輔具設備維護保養紀錄表',
       archetype: 'inventory-list',
-      criteriaIndex: 1,
+      criteriaIndex: 0,
       prefillRows: 10,
       columns: [
         { header: '設備名稱', width: 160 },
         { header: '型號/序號', width: 140 },
-        { header: '維護/校正日期', width: 130 },
+        { header: '維護日期', width: 120 },
         { header: '維護廠商', width: 150 },
         { header: '維護結果', width: 150 },
         { header: '下次維護日期', width: 130 },
         { header: '負責人員', width: 100 },
       ],
     },
+  ],
+
+  /** 55. D1 服務對象人身安全及尊嚴維護 */
+  55: [
     {
-      sheetName: '設備操作訓練紀錄表',
-      archetype: 'training-record',
+      sheetName: '不當對待事件處理紀錄表',
+      archetype: 'incident-log',
       criteriaIndex: 2,
       columns: [
-        { header: '訓練日期', width: 100 },
-        { header: '訓練設備', width: 160 },
-        { header: '受訓人員', width: 150 },
-        { header: '訓練內容', width: 200 },
-        { header: '操作查核結果', width: 150 },
-        { header: '講師', width: 110 },
-        { header: '備註', width: 130 },
+        { header: '事件日期', width: 100 },
+        { header: '當事人', width: 110 },
+        { header: '事件類型', width: 150 },
+        { header: '事件描述', width: 240 },
+        { header: '緊急處置', width: 180 },
+        { header: '通報狀況', width: 150 },
+        { header: '後續追蹤', width: 160 },
+        { header: '改善措施', width: 180 },
       ],
     },
   ],
 
-  /** 63. C16 機構飲用供水設備安全及清潔情形 */
-  63: [
+  /** 57. D3 服務對象隱私及個人資料保護 */
+  57: [
     {
-      sheetName: '水塔飲水設備清潔紀錄表',
-      archetype: 'inspection-checklist',
-      criteriaIndex: 0,
-      columns: [
-        { header: '檢查/清潔日期', width: 130 },
-        { header: '設備項目', width: 160 },
-        { header: '清潔方式', width: 150 },
-        { header: '檢查結果', width: 150 },
-        { header: '水質檢驗報告', width: 150 },
-        { header: '執行廠商', width: 130 },
-        { header: '負責人員', width: 100 },
-      ],
-    },
-  ],
-
-  /** 64. D1 服務對象個案資料管理、統計分析與應用及保密情形 */
-  64: [
-    {
-      sheetName: '個案資料統計分析報告表',
-      archetype: 'daily-record',
-      criteriaIndex: 2,
-      prefillRows: 4,
-      columns: [
-        { header: '分析期別', width: 110 },
-        { header: '統計項目', width: 180 },
-        { header: '本期數值', width: 110 },
-        { header: '上期數值', width: 110 },
-        { header: '趨勢分析', width: 180 },
-        { header: '因應措施', width: 200 },
-        { header: '填報人員', width: 100 },
-      ],
-    },
-  ],
-
-  /** 66. D3 服務對象生活注意事項及家屬來訪注意事項訂定情形 */
-  66: [
-    {
-      sheetName: '注意事項告知簽收紀錄表',
+      sheetName: '個人資料同意及調閱紀錄表',
       archetype: 'daily-record',
       criteriaIndex: 1,
       columns: [
-        { header: '告知日期', width: 100 },
+        { header: '同意/調閱日期', width: 130 },
         { header: '服務對象姓名', width: 130 },
-        { header: '告知對象', width: 120 },
-        { header: '告知方式', width: 120 },
-        { header: '告知內容摘要', width: 200 },
-        { header: '簽收確認', width: 110 },
-        { header: '告知人員', width: 100 },
+        { header: '資料類型', width: 140 },
+        { header: '使用目的', width: 180 },
+        { header: '當事人/家屬同意', width: 140 },
+        { header: '調閱人員', width: 110 },
+        { header: '核准人員', width: 100 },
       ],
     },
   ],
 
-  /** 67. D4 服務對象或家屬申訴意見反應辦理情形 */
-  67: [
+  /** 58. D4 服務對象申訴及意見處理機制 */
+  58: [
     {
       sheetName: '申訴意見反應處理紀錄表',
       archetype: 'incident-log',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       columns: [
         { header: '受理日期', width: 100 },
         { header: '申訴人', width: 110 },
@@ -1252,30 +1090,12 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 68. D5 尊重服務對象信仰情形 */
-  68: [
-    {
-      sheetName: '靈性關懷服務紀錄表',
-      archetype: 'daily-record',
-      criteriaIndex: 2,
-      columns: [
-        { header: '服務日期', width: 100 },
-        { header: '個案姓名', width: 110 },
-        { header: '宗教信仰', width: 110 },
-        { header: '服務內容', width: 220 },
-        { header: '個案反應', width: 180 },
-        { header: '後續安排', width: 160 },
-        { header: '服務人員', width: 100 },
-      ],
-    },
-  ],
-
-  /** 70. D7 服務對象財物管理及死亡遺產處理情形 */
-  70: [
+  /** 61. D7 服務對象財物及遺物管理 */
+  61: [
     {
       sheetName: '服務對象財物管理紀錄表',
       archetype: 'inventory-list',
-      criteriaIndex: 2,
+      criteriaIndex: 0,
       prefillRows: 8,
       columns: [
         { header: '處理日期', width: 100 },
@@ -1290,39 +1110,39 @@ export const nursingHomeDefs: SupplementaryDefsMap = {
     },
   ],
 
-  /** 71. D8 提供緩和醫療及臨終照護措施 */
-  71: [
+  /** 62. D8 安寧緩和醫療及病人自主權利 */
+  62: [
     {
-      sheetName: '緩和醫療及臨終照護紀錄表',
+      sheetName: '安寧緩和及病主法服務紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
+      criteriaIndex: 1,
       columns: [
         { header: '紀錄日期', width: 100 },
         { header: '個案姓名', width: 110 },
-        { header: 'DNR狀態', width: 110 },
-        { header: '照護措施', width: 220 },
+        { header: 'AD/DNR狀態', width: 120 },
+        { header: '提供資訊/諮詢內容', width: 220 },
         { header: '家屬溝通內容', width: 200 },
+        { header: '轉介機構', width: 150 },
         { header: '相關人員', width: 150 },
         { header: '備註', width: 130 },
       ],
     },
   ],
 
-  /** 72. D9 辦理服務滿意度調查情形 */
-  72: [
+  /** 63. D9 服務對象宗教信仰及文化需求 */
+  63: [
     {
-      sheetName: '服務滿意度調查分析報告表',
+      sheetName: '靈性關懷及文化照護紀錄表',
       archetype: 'daily-record',
-      criteriaIndex: 2,
-      prefillRows: 5,
+      criteriaIndex: 0,
       columns: [
-        { header: '調查期別', width: 110 },
-        { header: '調查項目', width: 180 },
-        { header: '滿意度評分', width: 120 },
-        { header: '主要反映意見', width: 220 },
-        { header: '改善措施', width: 220 },
-        { header: '改善期限', width: 110 },
-        { header: '填報人員', width: 100 },
+        { header: '服務日期', width: 100 },
+        { header: '個案姓名', width: 110 },
+        { header: '宗教信仰', width: 110 },
+        { header: '服務內容', width: 220 },
+        { header: '個案反應', width: 180 },
+        { header: '後續安排', width: 160 },
+        { header: '服務人員', width: 100 },
       ],
     },
   ],

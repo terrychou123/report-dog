@@ -8,21 +8,21 @@ import { ArrowLeftIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
-  title: "E、服務改進創新（項目 73–75）｜住宿型照顧機構評鑑",
+  title: "加減分項目（項目 64–66）｜住宿型照顧機構評鑑",
   description:
-    "住宿型照顧機構評鑑「服務改進創新」3 項評鑑基準詳細說明：前次評鑑建議改善、創新或配合政策措施執行、評鑑期間違規及重大負面事件，含準備要訣。",
+    "住宿型照顧機構評鑑「加減分項目」3 項詳細說明（115年度全國版）：創新或配合政策執行（最多 +2 分）、機構內空氣品質 CO₂<1000ppm（最多 +1 分）、評鑑期間違規及重大負面事件（最多 -2 分），含準備要訣。",
   keywords: [
-    "住宿型長照評鑑服務改進",
+    "住宿型長照評鑑加分項目",
     "安養機構創新服務評鑑",
-    "長照機構評鑑改善情形",
+    "長照機構空氣品質評鑑",
     "住宿型機構違規紀錄評鑑",
-    "114年度住宿型長照評鑑",
-    "臺北市安養機構評鑑創新",
+    "115年度住宿型長照評鑑",
+    "住宿式長照加減分",
   ],
   alternates: { canonical: "https://reportwang.com/school/nursing-home/innovation" },
   openGraph: {
-    title: "E、服務改進創新（項目 73–75）｜住宿型照顧機構評鑑｜報告汪",
-    description: "住宿型照顧機構評鑑服務改進創新 3 項基準詳細說明與準備要訣。",
+    title: "加減分項目（項目 64–66）｜住宿型照顧機構評鑑｜報告汪",
+    description: "住宿型照顧機構評鑑加減分項目 3 項詳細說明與準備要訣（115年度全國版）。",
     url: "https://reportwang.com/school/nursing-home/innovation",
   },
 };
@@ -33,9 +33,9 @@ const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
-  name: "E、服務改進創新（住宿型照顧機構評鑑基準項目 73–75）",
+  name: "加減分項目（住宿型照顧機構評鑑基準項目 64–66）",
   description:
-    "住宿型照顧機構評鑑基準「服務改進創新」3 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "住宿型照顧機構評鑑基準「加減分項目」3 個項目詳細說明、準備要訣與實用提示（115年度全國版）。",
   path: "/school/nursing-home/innovation",
 });
 
@@ -50,12 +50,12 @@ export default function NursingHomeInnovationPage() {
       {/* Header */}
       <div className="mb-6">
         <Badge className="mb-3 bg-purple-500/10 text-purple-600 dark:text-purple-400 border-0 hover:bg-purple-500/20">
-          E、服務改進創新
+          加減分項目
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">服務改進創新（項目 73–75）</h1>
+        <h1 className="text-2xl font-bold mb-3">加減分項目（項目 64–66）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 3 個評鑑項目，是住宿型機構評鑑的最後一個區塊。前次評鑑改善與創新服務項目是加分機會，
-          而違規及重大負面事件則為扣分項目，需特別謹慎維護機構的合法運作與住民安全。
+          115年度共 3 個加減分項目。創新或配合政策執行最多 +2 分；115年度新增「機構內空氣品質 CO₂&lt;1000ppm」最多 +1 分；
+          評鑑期間違規及重大負面事件最多扣 2 分，需特別謹慎維護機構合法運作與住民安全。
         </p>
       </div>
 

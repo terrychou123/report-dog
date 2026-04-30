@@ -8,21 +8,21 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
 
 export const metadata: Metadata = {
-  title: "D、個案權益保障（項目 64–72）｜住宿型照顧機構評鑑",
+  title: "D、個案權益保障（項目 55–63）｜住宿型照顧機構評鑑",
   description:
-    "住宿型照顧機構評鑑「個案權益保障」9 項評鑑基準詳細說明：個案資料管理、服務契約、生活注意事項、申訴機制、宗教信仰、居家情境、財物管理、臨終照護、滿意度調查，含準備要訣。",
+    "住宿型照顧機構評鑑「個案權益保障」9 項評鑑基準詳細說明（115年度全國版）：個案資料管理、入住契約（審閱期 5 天）、生活注意事項、申訴機制、宗教信仰、居家情境、財物管理、緩和醫療（病主法）、滿意度調查，含準備要訣。",
   keywords: [
     "住宿型長照評鑑個案權益",
     "安養機構服務契約評鑑",
     "長照機構申訴機制評鑑",
     "住民財物管理評鑑",
-    "114年度住宿型長照評鑑",
-    "臺北市安養機構個案權益",
+    "115年度住宿型長照評鑑",
+    "病人自主權利法長照",
   ],
   alternates: { canonical: "https://reportwang.com/school/nursing-home/client-rights" },
   openGraph: {
-    title: "D、個案權益保障（項目 64–72）｜住宿型照顧機構評鑑｜報告汪",
-    description: "住宿型照顧機構評鑑個案權益保障 9 項基準詳細說明與準備要訣。",
+    title: "D、個案權益保障（項目 55–63）｜住宿型照顧機構評鑑｜報告汪",
+    description: "住宿型照顧機構評鑑個案權益保障 9 項基準詳細說明與準備要訣（115年度全國版）。",
     url: "https://reportwang.com/school/nursing-home/client-rights",
   },
 };
@@ -33,9 +33,9 @@ const tips = nursingHomeTips;
 
 const jsonLd = educationalContentJsonLd({
   type: "LearningResource",
-  name: "D、個案權益保障（住宿型照顧機構評鑑基準項目 64–72）",
+  name: "D、個案權益保障（住宿型照顧機構評鑑基準項目 55–63）",
   description:
-    "住宿型照顧機構評鑑基準「個案權益保障」9 個評鑑項目詳細說明、準備要訣與實用提示。",
+    "住宿型照顧機構評鑑基準「個案權益保障」9 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
   path: "/school/nursing-home/client-rights",
 });
 
@@ -52,9 +52,9 @@ export default function NursingHomeClientRightsPage() {
         <Badge className="mb-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 border-0 hover:bg-blue-500/20">
           D、個案權益保障
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">個案權益保障（項目 64–72）</h1>
+        <h1 className="text-2xl font-bold mb-3">個案權益保障（項目 55–63）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 9 個評鑑項目，著重保障住民在機構中的基本權益，從個資保護、服務契約、申訴機制到臨終照護的完整權益體系。
+          本區塊共 9 個評鑑項目（115年度全國版），著重保障住民在機構中的基本權益。115年度新增入住契約審閱期明訂 5 天（D2）、無家屬服務對象遺物管理規定（D7）、病人自主權利法相關要求（D8）。
           社工人員是本區塊的主要負責角色，需確保住民的聲音被聽見並有回應機制。
         </p>
       </div>

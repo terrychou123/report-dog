@@ -16,20 +16,20 @@ import {
 export const metadata: Metadata = {
   title: "住宿型照顧機構評鑑基準總覽",
   description:
-    "114 年度臺北市老人安養暨長期照顧機構評鑑指標完整說明，共 75 項目、5 大區塊：經營管理效能、專業照護品質、安全環境設備、個案權益保障與服務改進創新。",
+    "115 年度住宿式長期照顧服務機構績效考核指標完整說明，共 63 項目、4 大區塊：經營管理效能、專業照護品質、安全環境設備、個案權益保障，另有加減分項目 3 項。",
   keywords: [
     "住宿型長照評鑑",
     "安養機構評鑑",
     "長照機構評鑑基準",
-    "114年度評鑑",
+    "115年度評鑑",
     "老人安養評鑑",
-    "臺北市長照機構評鑑",
+    "住宿式長期照顧評鑑",
     "住宿型照顧機構評鑑指標",
   ],
   alternates: { canonical: "https://reportwang.com/school/nursing-home" },
   openGraph: {
     title: "住宿型照顧機構評鑑基準總覽｜評鑑小教室｜報告汪",
-    description: "75 項住宿型照顧機構評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    description: "63 項住宿型照顧機構評鑑基準完整解說（115年度全國版），掌握評鑑重點，提升評鑑通過率。",
     url: "https://reportwang.com/school/nursing-home",
   },
 };
@@ -40,7 +40,7 @@ const sectionMeta = [
     icon: SettingsIcon,
     name: "A、經營管理效能",
     shortCode: "管",
-    itemRange: "項目 1–15",
+    itemRange: "項目 1–9（9項）",
     bgClass: "bg-orange-500/10",
     textClass: "text-orange-600 dark:text-orange-400",
   },
@@ -49,7 +49,7 @@ const sectionMeta = [
     icon: HeartPulseIcon,
     name: "B、專業照護品質",
     shortCode: "專",
-    itemRange: "項目 16–47",
+    itemRange: "項目 10–38（29項）",
     bgClass: "bg-green-500/10",
     textClass: "text-green-600 dark:text-green-400",
   },
@@ -58,7 +58,7 @@ const sectionMeta = [
     icon: ShieldIcon,
     name: "C、安全環境設備",
     shortCode: "安",
-    itemRange: "項目 48–63",
+    itemRange: "項目 39–54（16項）",
     bgClass: "bg-teal-500/10",
     textClass: "text-teal-600 dark:text-teal-400",
   },
@@ -67,16 +67,16 @@ const sectionMeta = [
     icon: ShieldCheckIcon,
     name: "D、個案權益保障",
     shortCode: "權",
-    itemRange: "項目 64–72",
+    itemRange: "項目 55–63（9項）",
     bgClass: "bg-blue-500/10",
     textClass: "text-blue-600 dark:text-blue-400",
   },
   {
     href: "/school/nursing-home/innovation",
     icon: StarIcon,
-    name: "E、服務改進創新",
+    name: "加減分項目",
     shortCode: "創",
-    itemRange: "項目 73–75",
+    itemRange: "項目 64–66（3項）",
     bgClass: "bg-purple-500/10",
     textClass: "text-purple-600 dark:text-purple-400",
   },
@@ -86,27 +86,27 @@ const jsonLd = educationalContentJsonLd({
   type: "Course",
   name: "住宿型照顧機構評鑑基準",
   description:
-    "114 年度臺北市老人安養暨長期照顧機構評鑑指標，共 75 項目、5 大區塊完整解說。",
+    "115 年度住宿式長期照顧服務機構績效考核指標，共 63 項目 + 加減分 3 項，4 大區塊完整解說。",
   path: "/school/nursing-home",
   hasPart: [
     {
-      name: "A、經營管理效能（項目 1–15）",
+      name: "A、經營管理效能（項目 1–9）",
       url: "https://reportwang.com/school/nursing-home/management",
     },
     {
-      name: "B、專業照護品質（項目 16–47）",
+      name: "B、專業照護品質（項目 10–38）",
       url: "https://reportwang.com/school/nursing-home/professional-quality",
     },
     {
-      name: "C、安全環境設備（項目 48–63）",
+      name: "C、安全環境設備（項目 39–54）",
       url: "https://reportwang.com/school/nursing-home/safety-environment",
     },
     {
-      name: "D、個案權益保障（項目 64–72）",
+      name: "D、個案權益保障（項目 55–63）",
       url: "https://reportwang.com/school/nursing-home/client-rights",
     },
     {
-      name: "E、服務改進創新（項目 73–75）",
+      name: "加減分項目（項目 64–66）",
       url: "https://reportwang.com/school/nursing-home/innovation",
     },
   ],
@@ -125,7 +125,7 @@ export default function NursingHomePage() {
         <Badge variant="secondary" className="mb-3">住宿型照顧機構</Badge>
         <h1 className="text-2xl font-bold mb-3">住宿型照顧機構評鑑基準總覽</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          以下為 114 年度臺北市老人安養暨長期照顧機構評鑑指標，共 75 個評鑑項目，分為 5 大區塊。
+          以下為 115 年度住宿式長期照顧服務機構績效考核指標（衛生福利部全國版），共 63 個評鑑項目 + 加減分 3 項，分為 4 大區塊。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
       </div>
@@ -175,7 +175,7 @@ export default function NursingHomePage() {
 
       {/* Full item list */}
       <div>
-        <h2 className="text-lg font-semibold mb-4">全部 75 項評鑑項目</h2>
+        <h2 className="text-lg font-semibold mb-4">全部 63 項評鑑項目 + 加減分</h2>
         <div className="space-y-6">
           {nursingHomeProfile.sections.map((section) => {
             const slug = sectionMeta.find((s) => s.shortCode === section.shortCode)?.href.split("/").at(-1);
@@ -230,7 +230,7 @@ export default function NursingHomePage() {
       <div className="mt-10 rounded-xl bg-primary/5 border border-primary/20 p-5">
         <p className="text-sm font-semibold mb-1">看完評鑑基準了嗎？</p>
         <p className="text-sm text-muted-foreground mb-3">
-          到報告汪一鍵匯入「住宿型照顧機構」評鑑範本，包含 5 個標籤和 75 份報告範本，省去手動建立的時間。
+          到報告汪一鍵匯入「住宿型照顧機構」評鑑範本，包含 4 個標籤和 63 份報告範本，省去手動建立的時間。
         </p>
         <Link
           href="/docs/import-templates"
