@@ -10,9 +10,10 @@ import { addSheet, type ItemGroup } from "./lib/excel-checklist-builder";
 
 // 從 "A1 工作人員權益保障" 拆成 { code: "A1", name: "工作人員權益保障" }
 function splitCode(title: string): { code: string; name: string } {
-  const spaceIdx = title.indexOf(" ");
-  if (spaceIdx === -1) return { code: title, name: title };
-  return { code: title.slice(0, spaceIdx), name: title.slice(spaceIdx + 1) };
+  const t = title.trim();
+  const spaceIdx = t.indexOf(" ");
+  if (spaceIdx === -1) return { code: t, name: t };
+  return { code: t.slice(0, spaceIdx), name: t.slice(spaceIdx + 1) };
 }
 
 // 各 section 對映的 sheet 名稱
@@ -27,6 +28,13 @@ const SHEET_NAMES: Record<string, string> = {
 const TITLE = "115 年度住宿式長期照顧服務機構績效考核指標自我檢核表";
 
 async function main() {
+  // 確保 SHEET_NAMES 涵蓋 profile 所有 section，避免靜默 fallback 導致工作表名稱跑掉
+  for (const section of nursingHomeProfile.sections) {
+    if (!(section.name in SHEET_NAMES)) {
+      throw new Error(`SHEET_NAMES 缺少 section「${section.name}」的對映，請更新 SHEET_NAMES`);
+    }
+  }
+
   const workbook = new ExcelJS.Workbook();
   workbook.creator = "報告汪";
   workbook.created = new Date();
@@ -62,10 +70,12 @@ async function main() {
 
   const outputPath = path.join(process.cwd(), "public", "downloads", "residential.xlsx");
   await workbook.xlsx.writeFile(outputPath);
+  const bonusSection = nursingHomeProfile.sections.find((s) => s.name === "加減分項目");
+  const bonusCount = bonusSection?.items.length ?? 0;
+  const total = nursingHomeProfile.sections.reduce((acc, s) => acc + s.items.length, 0);
+  const baseCount = total - bonusCount;
   console.log(`✅ 已更新：${outputPath}`);
-  console.log(
-    `   共 ${nursingHomeProfile.sections.reduce((acc, s) => acc + s.items.length, 0)} 條（63 基本項 + 加減分 3 項）`
-  );
+  console.log(`   共 ${total} 條（${baseCount} 基本項 + 加減分 ${bonusCount} 項）`);
 }
 
 main().catch((err) => {
