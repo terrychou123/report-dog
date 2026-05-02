@@ -41,7 +41,7 @@ const DOWNLOADS: DownloadItem[] = [
   {
     slug: "home-nursing",
     name: "居家護理所",
-    description: "居家護理所評鑑自我檢核，適用居家訪視紀錄與品質管控。",
+    description: "115 年度居家護理所評鑑自我檢核，2 大區塊（A 經營管理、B 照護管理）共 8 項指標含 1 項加分。",
     file: "home-nursing.xlsx",
   },
   {

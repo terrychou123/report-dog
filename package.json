@@ -9,6 +9,7 @@
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
+    "generate:home-nursing-checklist": "tsx scripts/generate-home-nursing-checklist.ts",
     "generate:nursing-home-checklist": "tsx scripts/generate-nursing-home-checklist.ts",
     "generate:psychiatric-nursing-home-checklist": "tsx scripts/generate-psychiatric-nursing-home-checklist.ts",
     "generate:youth-care-checklist": "tsx scripts/generate-youth-care-checklist.ts",

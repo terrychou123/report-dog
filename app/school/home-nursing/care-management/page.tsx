@@ -11,14 +11,16 @@ import { homeNursingTips } from "@/lib/evaluation-tips/home-nursing";
 export const metadata: Metadata = {
   title: "B、照護管理（項目 6–8）｜居家護理所評鑑",
   description:
-    "居家護理所評鑑「照護管理」3 項評鑑基準詳細說明：機構資訊管理（5 項公開揭示）、個案照護管理（10 位以上個案、全人評估、照護計畫）、加分項目（創新照護、競賽獲獎、國際交流等），含準備要訣。",
+    "居家護理所評鑑「照護管理」3 項評鑑基準詳細說明：機構資訊管理（衛福部指定填報 5 項）、個案照護管理（10 位以上個案、全人評估、照護計畫）、加分項目（創新照護、競賽獲獎、國際交流等），含準備要訣。本區塊佔總分 55%。",
   keywords: [
     "居家護理所評鑑照護管理",
     "居家護理個案照護評鑑",
-    "居家護理機構資訊揭示",
+    "居家護理機構資訊填報",
     "居家護理評鑑加分項目",
     "115年度居家護理所評鑑",
     "護理所評鑑準備",
+    "B2個案照護管理",
+    "衛福部指定填報",
   ],
   alternates: { canonical: "https://reportwang.com/school/home-nursing/care-management" },
   openGraph: {
@@ -55,8 +57,9 @@ export default function HomeNursingCareManagementPage() {
         </Badge>
         <h1 className="text-2xl font-bold mb-3">照護管理（項目 6–8）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 3 個評鑑項目，涵蓋機構資訊揭示管理、個案照護品質（全人評估與個別化照護計畫），
-          以及鼓勵機構持續創新的加分項目。
+          本區塊共 3 個評鑑項目，佔總分 <strong>55%</strong>（B3 加分 5% 為額外加分，不計入 100%）。
+          涵蓋機構資訊向衛福部指定系統填報（5 項全符合）、個案全人評估與個別化照護計畫，
+          以及鼓勵機構創新的加分項目（任一項目具佐證即可得分）。
         </p>
       </div>
 

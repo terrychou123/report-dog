@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "居家護理所評鑑基準總覽",
   description:
-    "115 年度居家護理所評鑑基準完整說明，共 8 項目、2 大區塊：A 經營管理（社區資源、感染管制、訪視安全、緊急事件、品質監測）與 B 照護管理（機構資訊、個案照護、加分項目）。",
+    "115 年度居家護理所評鑑基準完整說明，共 8 項目、2 大區塊：A 經營管理（45%，社區資源、感染管制、訪視安全、緊急事件、品質監測）與 B 照護管理（55%，機構資訊、個案照護、加分項目）。B2 個案照護管理單項佔 45%，B3 加分另計 5%，整體配分結構為 105%。",
   keywords: [
     "居家護理所評鑑",
     "居家護理評鑑基準",
@@ -38,6 +38,7 @@ const sectionMeta = [
     name: "A、經營管理",
     shortCode: "A",
     itemRange: "項目 1–5",
+    weight: "45%",
     bgClass: "bg-orange-500/10",
     textClass: "text-orange-600 dark:text-orange-400",
   },
@@ -47,6 +48,7 @@ const sectionMeta = [
     name: "B、照護管理",
     shortCode: "B",
     itemRange: "項目 6–8",
+    weight: "55%",
     bgClass: "bg-green-500/10",
     textClass: "text-green-600 dark:text-green-400",
   },
@@ -83,7 +85,8 @@ export default function HomeNursingPage() {
         <Badge variant="secondary" className="mb-3">居家護理所</Badge>
         <h1 className="text-2xl font-bold mb-3">居家護理所評鑑基準總覽</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          以下為 115 年度居家護理所評鑑基準，共 8 個評鑑項目，分為 2 大區塊。
+          以下為 115 年度居家護理所評鑑基準，共 8 個評鑑項目，分為 A 經營管理（佔 45%）與 B 照護管理（佔 55%）兩大區塊。
+          其中 B2 個案照護管理單項即佔 45%，為最高權重項目；B3 加分項目另計 5%，整體配分結構為 105%。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
       </div>
@@ -107,7 +110,7 @@ export default function HomeNursingPage() {
                   <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
                   </h2>
-                  <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
+                  <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}・佔 <span className="font-semibold">{sec.weight}</span></p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (
                       <span
@@ -144,23 +147,33 @@ export default function HomeNursingPage() {
                   {section.name}
                 </h3>
                 <div className="space-y-1">
-                  {section.items.map((item) => (
-                    <Link
-                      key={item.id}
-                      href={`/school/home-nursing/${slug}#item-${item.id}`}
-                      className="flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors group"
-                    >
-                      <span className="shrink-0 w-7 h-7 rounded-full bg-muted flex items-center justify-center text-xs font-mono font-semibold text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
-                        {item.id}
-                      </span>
-                      <span className="text-sm group-hover:text-primary transition-colors">
-                        {item.title}
-                      </span>
-                      <Badge variant="outline" className="ml-auto text-xs shrink-0">
-                        {item.responsible}
-                      </Badge>
-                    </Link>
-                  ))}
+                  {section.items.map((item) => {
+                    const weightMatch = item.title.match(/\(([0-9.]+%)\)$/);
+                    const weight = weightMatch?.[1];
+                    const titleDisplay = item.title.replace(/\s*\([0-9.]+%\)$/, "");
+                    return (
+                      <Link
+                        key={item.id}
+                        href={`/school/home-nursing/${slug}#item-${item.id}`}
+                        className="flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted transition-colors group"
+                      >
+                        <span className="shrink-0 w-7 h-7 rounded-full bg-muted flex items-center justify-center text-xs font-mono font-semibold text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                          {item.id}
+                        </span>
+                        <span className="text-sm group-hover:text-primary transition-colors flex-1 min-w-0">
+                          {titleDisplay}
+                        </span>
+                        {weight && (
+                          <Badge variant="secondary" className="text-xs font-mono shrink-0">
+                            {weight}
+                          </Badge>
+                        )}
+                        <Badge variant="outline" className="text-xs shrink-0">
+                          {item.responsible}
+                        </Badge>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             );

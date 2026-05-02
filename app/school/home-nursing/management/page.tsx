@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     "居家護理評鑑指標",
     "115年度居家護理所評鑑",
     "護理所評鑑準備",
+    "五項固定指標",
+    "平均個案管理人數",
+    "皮膚損傷發生率",
+    "護理人員離職率",
   ],
   alternates: { canonical: "https://reportwang.com/school/home-nursing/management" },
   openGraph: {
@@ -55,8 +59,8 @@ export default function HomeNursingManagementPage() {
         </Badge>
         <h1 className="text-2xl font-bold mb-3">經營管理（項目 1–5）</h1>
         <p className="text-muted-foreground text-sm leading-relaxed">
-          本區塊共 5 個評鑑項目，涵蓋居家護理所的整體經營管理能力，從社區資源運用、感染管制、
-          訪視人員安全到品質監測指標，是評鑑委員審核機構管理制度的核心依據。
+          本區塊共 5 個評鑑項目，佔總分 <strong>45%</strong>，涵蓋居家護理所的整體經營管理能力，
+          從社區資源運用、感染管制、訪視人員安全，到 5 項固定品質指標監測（A5 佔 15%，為本區塊最高權重）。
         </p>
       </div>
 
@@ -94,6 +98,13 @@ export default function HomeNursingManagementPage() {
               <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
               <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
             </div>
+
+            {item.criteria.some((c) => c.startsWith("【試評")) && (
+              <div className="flex items-start gap-2 mb-3 px-3 py-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-sm">
+                <span className="text-amber-600 dark:text-amber-400 font-semibold shrink-0">⚠ 試評注意</span>
+                <span className="text-amber-700 dark:text-amber-400">本項目含試評基準，本年度不計分，但建議仍備妥相關記錄，以利日後正式計分時使用。</span>
+              </div>
+            )}
 
             <div className="mb-4">
               <h3 className="text-sm font-semibold mb-2">評鑑標準</h3>
