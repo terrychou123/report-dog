@@ -83,14 +83,14 @@ export function getCareCombination(code: string): LtcCareCombination | undefined
 /** 取得某分類全部代碼，按 code 自然排序 */
 export function getCareCombinationsByCategory(
   category: LtcCareCategory,
-): LtcCareCombination[] {
+): ReadonlyArray<LtcCareCombination> {
   return allCombinations
     .filter((c) => c.category === category)
     .sort((a, b) => a.code.localeCompare(b.code));
 }
 
 /** 取得全部代碼（按 code 自然排序） */
-export function getAllCareCombinations(): LtcCareCombination[] {
+export function getAllCareCombinations(): ReadonlyArray<LtcCareCombination> {
   return [...allCombinations].sort((a, b) => a.code.localeCompare(b.code));
 }
 
@@ -103,7 +103,7 @@ export function getCategoryLabel(category: LtcCareCategory): string {
  * 關鍵字搜尋，在 code、name、rules.text 中做 case-insensitive substring。
  * 供公開查詢頁與後台搜尋使用。
  */
-export function searchCareCombinations(keyword: string): LtcCareCombination[] {
+export function searchCareCombinations(keyword: string): ReadonlyArray<LtcCareCombination> {
   const k = keyword.trim().toLowerCase();
   if (!k) return [];
   return allCombinations.filter((c) => {
