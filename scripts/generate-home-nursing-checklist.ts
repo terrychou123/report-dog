@@ -8,6 +8,7 @@ function sectionToGroups(
 ): ItemGroup[] {
   return section.items.map((item) => {
     const match = item.title.match(/^([A-Z]\d+)\s+(.+?)\s+\(([0-9.]+%)\)$/);
+    if (!match) console.warn(`⚠️  標題格式不符 regex，改用數字代碼：「${item.title}」`);
     const code = match?.[1] ?? String(item.id);
     const titleNoCode = match?.[2] ?? item.title;
     const weight = match?.[3] ?? "";
