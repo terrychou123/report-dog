@@ -1,0 +1,30 @@
+# --- Mirrored from .gitignore (graphify 不會自動讀 .gitignore) ---
+*.tsbuildinfo
+next-env.d.ts
+scripts/numbers-extracted-*.json
+
+# --- 專案大型靜態資產（無語意價值，xlsx 還會觸發昂貴的 markdown 轉換）---
+public/downloads/
+public/blog/
+public/docs/
+public/og-image.png
+fonts/
+patches/
+
+# --- 大量生成的 JSON 內容（hundreds of article-*.json）---
+scripts/blog-posts/
+scripts/carousel-data/
+
+# --- DB migration 雜訊（保留 *.sql，丟掉 journal）---
+db/migrations/meta/
+
+# --- 預覽 HTML scratch ---
+preview-templates.html
+preview-theme.html
+
+# --- 未追蹤的外部法規來源 ---
+knowledge/sources/external/
+
+# --- 微型 shim ---
+html-to-docx.d.ts
+proxy.ts

@@ -220,3 +220,13 @@ Key routing rules:
 - Save progress, checkpoint, resume → invoke checkpoint
 - Code quality, health check → invoke health
 - 修改或產生評鑑範本/評鑑設定（`lib/supplementary-sheets/*`, `lib/ai/evaluation-profiles/*`, `lib/evaluation-tips/*`）→ 先 invoke 對應 facility 的 `*-evaluation` skill（daycare → daycare-evaluation、nursing-home → nursing-home-evaluation、babycare → postpartum-care-evaluation 等），以 skill 所載法規條號/審查方法/附件清單為 SSOT，不得自行編造標準
+
+## graphify
+
+This project has a graphify knowledge graph at graphify-out/.
+
+Rules:
+- Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
+- If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
+- For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
+- After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)

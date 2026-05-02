@@ -37,6 +37,9 @@ yarn-error.log*
 # claude code local settings (may contain credentials)
 .claude/settings.local.json
 
+# MCP project-scope config (may contain SA key paths)
+.mcp.json
+
 # vercel
 .vercel
 
