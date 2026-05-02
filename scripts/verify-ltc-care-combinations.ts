@@ -16,6 +16,7 @@ import {
   getCareCombination,
   getCareCombinationsByCategory,
   formatCareCombinationForPrompt,
+  type LtcCareCategory,
 } from "../lib/ltc-care-combinations";
 
 const EXPECTED_BY_CATEGORY: Record<string, number> = {
@@ -59,7 +60,7 @@ if (all.length === EXPECTED_TOTAL) {
 // 2. 每分類數量
 console.log("\n[每分類數量]");
 for (const [cat, expected] of Object.entries(EXPECTED_BY_CATEGORY)) {
-  const got = getCareCombinationsByCategory(cat as never).length;
+  const got = getCareCombinationsByCategory(cat as LtcCareCategory).length;
   if (got === expected) {
     ok(`${cat}：${got} 筆`);
   } else {

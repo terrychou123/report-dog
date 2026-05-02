@@ -1,14 +1,18 @@
 /**
  * 一次性清除腳本：刪除 nursing-home 的 113/114 舊版孤兒範本。
  *
- * 執行：
+ * 預設為 dry-run（只列出，不刪除）。加 --execute 才實際寫入 DB。
+ *
+ * 執行（預覽）：
  *   npx dotenv-cli -e .env.local -- tsx scripts/cleanup-nursing-home-orphans.ts
+ * 執行（實際刪除）：
+ *   npx dotenv-cli -e .env.local -- tsx scripts/cleanup-nursing-home-orphans.ts --execute
  */
 
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
 import { reportTemplates, templateTags, templateTagReports } from '../db/schema';
-import { eq, inArray, notInArray } from 'drizzle-orm';
+import { eq, inArray } from 'drizzle-orm';
 import { getDbUrl } from '../db/index';
 import { nursingHomeProfile } from '../lib/ai/evaluation-profiles/nursing-home';
 
@@ -25,6 +29,11 @@ const expectedResponsibles = [
 ];
 
 async function main() {
+  const dryRun = !process.argv.includes('--execute');
+  if (dryRun) {
+    console.log('🔍 DRY RUN 模式（加 --execute 才實際刪除）\n');
+  }
+
   if (!process.env.DATABASE_URL) {
     console.error('❌ DATABASE_URL not set.');
     process.exit(1);
@@ -56,10 +65,15 @@ async function main() {
     }
 
     // 逐一列出確認
-    console.log('\n舊版報告範本（即將刪除）：');
+    console.log('\n舊版報告範本（將被刪除）：');
     for (const r of orphanReports) console.log(`  ${r.title}`);
-    console.log('\n舊版標籤（即將刪除）：');
+    console.log('\n舊版標籤（將被刪除）：');
     for (const t of orphanTags) console.log(`  ${t.name}`);
+
+    if (dryRun) {
+      console.log('\n🔍 DRY RUN 完成。加 --execute 以實際刪除上列資料。');
+      return;
+    }
 
     const orphanReportIds = orphanReports.map((r) => r.id);
     const orphanTagIds = orphanTags.map((t) => t.id);
@@ -67,7 +81,7 @@ async function main() {
     await db.transaction(async (tx) => {
       // 1. 刪除 join rows（FK 先清）
       if (orphanTagIds.length > 0) {
-        const deleted = await tx
+        await tx
           .delete(templateTagReports)
           .where(inArray(templateTagReports.templateTagId, orphanTagIds));
         console.log(`\n✅ 刪除 templateTagReports（舊標籤連結）`);
@@ -76,6 +90,7 @@ async function main() {
         await tx
           .delete(templateTagReports)
           .where(inArray(templateTagReports.reportTemplateId, orphanReportIds));
+        console.log(`✅ 刪除 templateTagReports（舊報告連結）`);
       }
 
       // 2. 刪除孤兒報告

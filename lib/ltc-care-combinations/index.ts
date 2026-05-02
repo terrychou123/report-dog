@@ -125,9 +125,9 @@ export function formatCareCombinationForPrompt(code: string): string {
   const c = codeMap[code];
   if (!c) return "";
 
-  const formatRule = (r: LtcCareCombination["rules"][number], indent = ""): string => {
-    const children = r.children?.length
-      ? "\n" + r.children.map((ch) => formatRule(ch, indent + "  ")).join("\n")
+  const formatRule = (r: LtcCareCombination["rules"][number], indent = "", depth = 0): string => {
+    const children = r.children?.length && depth < 5
+      ? "\n" + r.children.map((ch) => formatRule(ch, indent + "  ", depth + 1)).join("\n")
       : "";
     return `${indent}${r.label} ${r.text}${children}`;
   };
