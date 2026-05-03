@@ -1,66 +1,121 @@
-// Blog 目錄元件（伺服器元件，使用原生 <details> 無需 JS）
+"use client";
+
+import { useEffect, useState } from "react";
 import type { TocNode } from "@/lib/blog-html-postprocess";
+import { cn } from "@/lib/utils";
 
-export function BlogToc({ toc }: { toc: TocNode[] }) {
-  if (!toc.length) return null;
+/** 攤平 TocNode 樹為線性清單，保留 level 資訊供縮排 */
+interface FlatItem {
+  id: string;
+  text: string;
+  level: 2 | 3;
+}
 
-  // 計算總節數（h2 + h3）
-  const totalSections = toc.reduce(
-    (sum, node) => sum + 1 + (node.children?.length ?? 0),
-    0,
-  );
+function flatten(toc: TocNode[]): FlatItem[] {
+  const result: FlatItem[] = [];
+  for (const node of toc) {
+    result.push({ id: node.id, text: node.text, level: 2 });
+    for (const child of node.children ?? []) {
+      result.push({ id: child.id, text: child.text, level: 3 });
+    }
+  }
+  return result;
+}
+
+/** 單一目錄項目：圓點 + 文字 */
+function TocItem({
+  id,
+  text,
+  level,
+  active,
+}: FlatItem & { active: boolean }) {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (!id) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   return (
-    <details
-      open
-      className="mb-10 rounded-xl border border-border bg-muted/30 text-sm group"
-    >
-      {/* 點擊區 */}
-      <summary className="flex cursor-pointer select-none list-none items-center gap-2 px-5 py-3.5 font-medium hover:bg-muted/50 transition-colors rounded-xl [&::-webkit-details-marker]:hidden">
-        {/* 折疊指示箭頭 */}
-        <svg
-          className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-open:rotate-90"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={2}
-          viewBox="0 0 24 24"
+    <li className={level === 3 ? "pl-5" : ""}>
+      <a
+        href={id ? `#${id}` : "#"}
+        onClick={handleClick}
+        className="flex items-center gap-3 py-1.5 group"
+      >
+        {/* 圓點：active = 實心 primary，inactive = 空心灰 */}
+        <span
+          className={cn(
+            "shrink-0 rounded-full transition-all duration-200",
+            active
+              ? "w-3 h-3 bg-primary"
+              : "w-2.5 h-2.5 border-2 border-muted-foreground/40 bg-background group-hover:border-primary/60",
+          )}
+        />
+        {/* 文字 */}
+        <span
+          className={cn(
+            "text-sm line-clamp-1 transition-colors duration-200",
+            active
+              ? "font-semibold text-foreground"
+              : "text-muted-foreground group-hover:text-foreground",
+          )}
         >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-        </svg>
-        <span>目錄</span>
-        <span className="ml-auto text-xs text-muted-foreground font-normal">
-          {totalSections} 個章節
+          {text}
         </span>
-      </summary>
+      </a>
+    </li>
+  );
+}
 
-      {/* TOC 連結列表 */}
-      <ul className="px-5 pb-4 pt-1 space-y-1">
-        {toc.map((node) => (
-          <li key={node.id}>
-            <a
-              href={`#${node.id}`}
-              className="block overflow-hidden py-0.5 text-muted-foreground hover:text-foreground transition-colors line-clamp-1"
-            >
-              {node.text}
-            </a>
-            {/* h3 子節點 */}
-            {node.children && node.children.length > 0 && (
-              <ul className="mt-1 space-y-1">
-                {node.children.map((child) => (
-                  <li key={child.id}>
-                    <a
-                      href={`#${child.id}`}
-                      className="block overflow-hidden py-0.5 pl-5 text-muted-foreground hover:text-foreground transition-colors line-clamp-1 border-l border-border/50"
-                    >
-                      {child.text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
-      </ul>
-    </details>
+/** Blog 文章目錄（Timeline 樣式，含 IntersectionObserver 章節高亮） */
+export function BlogToc({ toc }: { toc: TocNode[] }) {
+  // 初始 activeId 為 "" 代表「頁首」
+  const [activeId, setActiveId] = useState<string>("");
+
+  const items = flatten(toc);
+  if (!items.length) return null;
+
+  // IntersectionObserver：heading 進入視窗頂部 25% 時設為 active
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveId(entry.target.id);
+        });
+      },
+      { rootMargin: "-80px 0px -75% 0px" },
+    );
+
+    items.forEach(({ id }) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+    // items 的 id 清單變動時才重建 observer
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [items.map((i) => i.id).join(",")]);
+
+  return (
+    <nav aria-label="文章目錄" className="mb-10">
+      {/* 標題 */}
+      <p className="text-lg font-bold mb-3">文章目錄</p>
+      <hr className="mb-4 border-border" />
+
+      {/* Timeline 容器 */}
+      <div className="relative pl-5">
+        {/* 垂直引導線 */}
+        <div className="absolute left-[7px] top-2 bottom-2 w-px bg-border" />
+
+        <ul className="space-y-0">
+          {/* 固定第一項：頁首（捲回頂端） */}
+          <TocItem id="" text="頁首" level={2} active={activeId === ""} />
+          {items.map((item) => (
+            <TocItem key={item.id} {...item} active={activeId === item.id} />
+          ))}
+        </ul>
+      </div>
+    </nav>
   );
 }
