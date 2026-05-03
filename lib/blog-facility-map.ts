@@ -157,20 +157,28 @@ const KEYWORD_MAP: Record<string, string> = {
   老人福利: "elderly-welfare",
   老人安養: "elderly-welfare",
   住宿型: "nursing-home",
-  護理之家: "nursing-home",
+  // 精確詞須排在子字串之前（如「一般護理之家」含「護理之家」，必須先比對長詞）
   一般護理之家: "general-nursing-home",
+  精神護理之家: "psychiatric-nursing-home",
+  産後護理之家: "postpartum-care",
+  護理之家: "nursing-home",
   產後護理: "postpartum-care",
   月子中心: "postpartum-care",
   坐月子: "postpartum-care",
-  醫院: "hospital",
   醫院評鑑: "hospital",
-  托嬰: "infant-daycare",
+  醫院: "hospital",
   托嬰中心: "infant-daycare",
+  托嬰: "infant-daycare",
   身心障礙: "disability-welfare",
   兒少: "youth-care",
   兒童: "youth-care",
   精神護理: "psychiatric-nursing-home",
 };
+
+// 長詞優先排序，確保子字串不會搶先比對（e.g. 「護理之家」不搶「一般護理之家」）
+const SORTED_KEYWORD_ENTRIES = Object.entries(KEYWORD_MAP).sort(
+  (a, b) => b[0].length - a[0].length
+);
 
 export function getFacilityInfoFromPost(
   category?: string | null,
@@ -182,18 +190,18 @@ export function getFacilityInfoFromPost(
     const direct = FACILITY_MAP[category];
     if (direct) return direct;
 
-    // 2. 從 category 文字找關鍵字
-    for (const [kw, key] of Object.entries(KEYWORD_MAP)) {
+    // 2. 從 category 文字找關鍵字（長詞優先，避免短詞搶先）
+    for (const [kw, key] of SORTED_KEYWORD_ENTRIES) {
       if (category.includes(kw)) {
         return FACILITY_MAP[key] ?? null;
       }
     }
   }
 
-  // 3. 從 tags 找關鍵字
+  // 3. 從 tags 找關鍵字（長詞優先）
   if (tags) {
     for (const tag of tags) {
-      for (const [kw, key] of Object.entries(KEYWORD_MAP)) {
+      for (const [kw, key] of SORTED_KEYWORD_ENTRIES) {
         if (tag.includes(kw)) {
           return FACILITY_MAP[key] ?? null;
         }
@@ -201,15 +209,16 @@ export function getFacilityInfoFromPost(
     }
   }
 
-  // 4. 從 slug 找 facility key
+  // 4. 從 slug 找 facility key（長 key 優先，避免 nursing-home 搶先 general-nursing-home）
   if (slug) {
-    for (const key of Object.keys(FACILITY_MAP)) {
+    const sortedFacilityKeys = Object.keys(FACILITY_MAP).sort((a, b) => b.length - a.length);
+    for (const key of sortedFacilityKeys) {
       if (slug.startsWith(key)) {
         return FACILITY_MAP[key];
       }
     }
     // 再嘗試關鍵字
-    for (const [kw, key] of Object.entries(KEYWORD_MAP)) {
+    for (const [kw, key] of SORTED_KEYWORD_ENTRIES) {
       const kwSlug = kw.toLowerCase().replace(/\s+/g, "-");
       if (slug.includes(kwSlug) || slug.includes(key)) {
         return FACILITY_MAP[key] ?? null;
