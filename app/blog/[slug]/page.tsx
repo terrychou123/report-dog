@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
+import { cacheTag } from "next/cache";
 import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
 import { blogPostingJsonLd } from "@/lib/jsonld";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
@@ -28,6 +29,7 @@ function isValidImageUrl(url: string | null): url is string {
 
 async function getPost(slug: string) {
   "use cache";
+  cacheTag("blog-post", `blog-post-${slug}`);
   const [post] = await db.select().from(blogPosts).where(eq(blogPosts.slug, slug));
   if (!post) return undefined;
   // 在快取邊界內執行 HTML 清理，避免 Server Component 預渲染時的 Math.random() 限制
@@ -54,7 +56,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = await getPost(slug);
-  if (!post) return { title: "文章不存在 | 報告汪" };
+  if (!post || post.status !== "published") return { title: "文章不存在 | 報告汪" };
 
   return {
     title: post.seoTitle || post.title,

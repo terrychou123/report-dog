@@ -24,12 +24,21 @@ export async function GET(req: NextRequest) {
   return NextResponse.json(posts);
 }
 
+const SLUG_RE = /^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$/;
+
 export async function POST(req: NextRequest) {
   const isAdmin = await isBlogAdmin();
   if (!isAdmin) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
 
   const body = await req.json();
   const slug = body.slug || `draft-${Date.now()}`;
+
+  if (!SLUG_RE.test(slug)) {
+    return NextResponse.json(
+      { error: "slug 只能包含小寫英數字與連字號，且不可以連字號開頭或結尾" },
+      { status: 400 }
+    );
+  }
 
   const [post] = await db
     .insert(blogPosts)

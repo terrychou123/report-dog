@@ -2,7 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq } from "drizzle-orm";
+import { revalidateTag } from "next/cache";
 import { isBlogAdmin } from "@/lib/blog-admin";
+
+const SLUG_RE = /^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$/;
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -41,6 +44,12 @@ export async function PUT(req: NextRequest, { params }: Params) {
   };
 
   if (body.slug && body.slug !== slug) {
+    if (!SLUG_RE.test(body.slug)) {
+      return NextResponse.json(
+        { error: "slug 只能包含小寫英數字與連字號，且不可以連字號開頭或結尾" },
+        { status: 400 }
+      );
+    }
     updateData.slug = body.slug;
   }
 
@@ -59,6 +68,9 @@ export async function PUT(req: NextRequest, { params }: Params) {
 
   if (!updated) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
+  // 清除該文章的快取，確保 unpublish / 內容更新即時生效
+  revalidateTag(`blog-post-${slug}`, { expire: 0 });
+
   return NextResponse.json(updated);
 }
 
@@ -68,6 +80,8 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
 
   const { slug } = await params;
   await db.delete(blogPosts).where(eq(blogPosts.slug, slug));
+
+  revalidateTag(`blog-post-${slug}`, { expire: 0 });
 
   return NextResponse.json({ success: true });
 }
