@@ -1,6 +1,7 @@
 "use client";
 
 import { createClient } from "@/lib/supabase/client";
+import { trackEvent } from "@/lib/analytics";
 import { type EmailOtpType } from "@supabase/supabase-js";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
@@ -35,6 +36,10 @@ function ConfirmPageInner() {
       if (code) {
         const { error } = await supabase.auth.exchangeCodeForSession(code);
         if (!error) {
+          // next === "/onboarding" 是註冊表單專屬導向，可區分密碼重設等其他 flow
+          if (next === "/onboarding") {
+            trackEvent("sign_up_complete", { method: "email" });
+          }
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);

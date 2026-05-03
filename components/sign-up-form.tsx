@@ -15,6 +15,7 @@ import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 export function SignUpForm({
   className,
@@ -44,10 +45,12 @@ export function SignUpForm({
         email,
         password,
         options: {
+          // next=/onboarding 是 sign_up_complete GA4 事件的觸發依據，異動前請一併更新 confirm/page.tsx
           emailRedirectTo: `${window.location.origin}/auth/confirm?next=/onboarding`,
         },
       });
       if (error) throw error;
+      trackEvent("sign_up", { method: "email" });
       router.push("/auth/sign-up-success");
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : "發生錯誤，請稍後再試");
