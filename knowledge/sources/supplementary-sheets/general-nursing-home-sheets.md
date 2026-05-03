@@ -2,7 +2,7 @@
 type: source
 source_type: supplementary-sheets
 facility_type: general-nursing-home
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 一般護理之家 附件表單定義

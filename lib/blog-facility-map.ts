@@ -26,8 +26,11 @@ const FACILITY_MAP: Record<string, FacilityInfo> = {
     downloadPath: "/downloads/home-nursing.xlsx",
     downloadName: "居家護理所評鑑自評表",
     subPages: [
-      { href: "/school/home-nursing/management", label: "行政管理" },
-      { href: "/school/home-nursing/care-management", label: "照護管理" },
+      { href: "/school/home-nursing/management", label: "A、經營管理" },
+      { href: "/school/home-nursing/care-management", label: "B、照護管理" },
+      { href: "/school/home-nursing/infection-control", label: "感染管制與器材維護" },
+      { href: "/school/home-nursing/quality-indicators", label: "品質指標監測（A5）" },
+      { href: "/school/home-nursing/bonus", label: "加分項目" },
     ],
   },
   "home-care": {
@@ -74,6 +77,7 @@ const FACILITY_MAP: Record<string, FacilityInfo> = {
       { href: "/school/general-nursing-home/administration", label: "行政管理" },
       { href: "/school/general-nursing-home/professional-care", label: "專業照護" },
       { href: "/school/general-nursing-home/safety-environment", label: "安全環境" },
+      { href: "/school/general-nursing-home/special-items", label: "特別事項" },
     ],
   },
   "postpartum-care": {
@@ -116,9 +120,11 @@ const FACILITY_MAP: Record<string, FacilityInfo> = {
     downloadPath: "/downloads/disability-welfare.xlsx",
     downloadName: "身心障礙機構評鑑自評表",
     subPages: [
-      { href: "/school/disability-welfare/administration", label: "行政管理" },
+      { href: "/school/disability-welfare/administration", label: "行政組織及經營管理" },
+      { href: "/school/disability-welfare/environment", label: "環境設施及安全維護" },
       { href: "/school/disability-welfare/professional", label: "專業服務" },
-      { href: "/school/disability-welfare/environment", label: "環境設施" },
+      { href: "/school/disability-welfare/individual-care", label: "個別化服務計畫" },
+      { href: "/school/disability-welfare/health-management", label: "健康管理與安全" },
     ],
   },
   "youth-care": {
@@ -143,6 +149,17 @@ const FACILITY_MAP: Record<string, FacilityInfo> = {
       { href: "/school/psychiatric-nursing-home/resident-rights", label: "住民權益" },
     ],
   },
+  "psychiatric-rehabilitation-institution": {
+    schoolPath: "/school/psychiatric-rehabilitation-institution",
+    schoolName: "精神復健機構評鑑小教室",
+    downloadPath: "/downloads/psychiatric-rehabilitation-institution.xlsx",
+    downloadName: "精神復健機構評鑑自評表",
+    subPages: [
+      { href: "/school/psychiatric-rehabilitation-institution/management", label: "行政管理" },
+      { href: "/school/psychiatric-rehabilitation-institution/rehabilitation", label: "復健服務" },
+      { href: "/school/psychiatric-rehabilitation-institution/service-quality", label: "服務品質" },
+    ],
+  },
 };
 
 // 關鍵字 → facility key 對照表
@@ -158,6 +175,8 @@ const KEYWORD_MAP: Record<string, string> = {
   老人安養: "elderly-welfare",
   住宿型: "nursing-home",
   // 精確詞須排在子字串之前（如「一般護理之家」含「護理之家」，必須先比對長詞）
+  精神復健機構: "psychiatric-rehabilitation-institution",
+  精神復健: "psychiatric-rehabilitation-institution",
   一般護理之家: "general-nursing-home",
   精神護理之家: "psychiatric-nursing-home",
   産後護理之家: "postpartum-care",
