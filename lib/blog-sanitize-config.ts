@@ -21,7 +21,7 @@ export const blogSanitizeOptions: sanitizeHtml.IOptions = {
   ]),
   allowedAttributes: {
     ...sanitizeHtml.defaults.allowedAttributes,
-    img: ["src", "alt", "style", "width", "height"],
+    img: ["src", "alt", "style", "width", "height", "loading", "decoding"],
     figure: ["style"],
     figcaption: ["style"],
     // 允許標題帶 id（供文章內錨點連結使用）

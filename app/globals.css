@@ -111,6 +111,8 @@
 .blog-content em { font-style: italic; }
 .blog-content a { color: hsl(var(--primary)); text-decoration: underline; }
 .blog-content img { max-width: 100%; border-radius: 0.5rem; margin: 1rem 0; }
+/* 錨點跳轉偏移，避免標題被 sticky navbar (4rem) 遮住 */
+.blog-content :is(h2, h3) { scroll-margin-top: 5rem; }
 
 /* Tiptap editor blog styles */
 .tiptap-blog .ProseMirror { outline: none; }

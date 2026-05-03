@@ -12,6 +12,9 @@ import { blogPostingJsonLd, howToJsonLd, faqPageJsonLd, mergeJsonLdGraph } from 
 import { extractBlogJsonLdData } from "@/lib/blog-jsonld-extract";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
 import { BookOpenIcon, DownloadIcon } from "lucide-react";
+import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, type TocNode } from "@/lib/blog-html-postprocess";
+import { BlogToc } from "@/components/blog/blog-toc";
+import { BlogTldr } from "@/components/blog/blog-tldr";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -33,15 +36,28 @@ async function getPost(slug: string) {
   cacheTag("blog-post", `blog-post-${slug}`);
   const [post] = await db.select().from(blogPosts).where(eq(blogPosts.slug, slug));
   if (!post) return undefined;
-  // 在快取邊界內執行 HTML 清理，避免 Server Component 預渲染時的 Math.random() 限制
+
+  // 1. sanitize — 清理不安全的 HTML 標籤與屬性
   const sanitized = post.content
     ? sanitizeHtml(post.content, blogSanitizeOptions)
     : post.content;
-  // render-time 萃取 HowTo/FAQ schema 資料，同時為 h2 注入 anchor id
-  const { contentWithIds, howtoSteps, faqItems } = sanitized
-    ? extractBlogJsonLdData(sanitized, slug)
-    : { contentWithIds: sanitized, howtoSteps: undefined, faqItems: undefined };
-  return { ...post, content: contentWithIds, howtoSteps, faqItems };
+
+  // 2. 注入 h2/h3 id 並萃取 TOC 樹；無內容時回傳空 toc
+  const { html: withIds, toc } = sanitized
+    ? injectHeadingIdsAndExtractToc(sanitized)
+    : { html: sanitized, toc: [] as TocNode[] };
+
+  // 3. 為 <img> 注入 lazy-load；首張用 eager 作為 LCP 保險
+  const withLazyImg = withIds
+    ? injectImageLoadingAttrs(withIds, { firstImageEager: true })
+    : withIds;
+
+  // 4. 從已注入 id 的 HTML 萃取 HowTo/FAQ JSON-LD（純讀，不再修改 HTML）
+  const { contentWithIds, howtoSteps, faqItems } = withLazyImg
+    ? extractBlogJsonLdData(withLazyImg, slug)
+    : { contentWithIds: withLazyImg, howtoSteps: undefined, faqItems: undefined };
+
+  return { ...post, content: contentWithIds, toc, howtoSteps, faqItems };
 }
 
 export async function generateStaticParams() {
@@ -189,12 +205,13 @@ export default async function BlogPostPage({ params }: Props) {
             </p>
           )}
 
-          {/* 文章摘要 — 引用樣式 */}
-          {post.excerpt && (
-            <p className="text-lg text-muted-foreground border-l-4 border-primary/40 pl-4 mb-10 italic leading-relaxed">
-              {post.excerpt}
-            </p>
-          )}
+          {/* TL;DR 摘要卡片 — 取代原斜體 blockquote */}
+          <BlogTldr text={post.excerpt ?? ""} />
+
+          {/* 文章目錄 — 折疊面板，手機與桌機皆顯示；?? [] 防快取跨版本 undefined */}
+          <div className="max-w-3xl">
+            <BlogToc toc={post.toc ?? []} />
+          </div>
 
           {/* 文章內容 — 限制閱讀寬度，HTML 已在 getPost 快取內清理完畢 */}
           {post.content && (

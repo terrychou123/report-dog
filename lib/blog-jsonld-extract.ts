@@ -1,64 +1,37 @@
 // render-time 從已清理的 blog HTML 萃取 HowTo / FAQPage schema 資料
-// - HowTo：找所有 <h2>，同時為無 id 的 h2 注入 anchor id（輔助導覽）
+// - HowTo：讀取 injectHeadingIdsAndExtractToc 已注入的 h2 id，組 step.url
 // - FAQPage：找連續 <h3>Q/問…</h3><p>A/答…</p> 配對
+// slugify 已移至 lib/blog-html-postprocess.ts 統一管理
 
 export interface ExtractResult {
-  /** 注入了 h2 id 的修改版 HTML（與原 sanitized HTML 同等安全） */
+  /** 與傳入的 HTML 相同（id 已由 injectHeadingIdsAndExtractToc 注入） */
   contentWithIds: string;
   howtoSteps?: Array<{ name: string; url: string }>;
   faqItems?: Array<{ question: string; answer: string }>;
 }
 
-/** 將文字 slugify 為合法 anchor id（中文直接保留，移除危險字元） */
-function slugify(text: string, index: number): string {
-  const cleaned = text
-    .replace(/<[^>]+>/g, "") // 去 HTML 標籤
-    .trim()
-    .toLowerCase()
-    .replace(/[^\w一-鿿㐀-䶿-]/g, "-")
-    .replace(/-{2,}/g, "-")
-    .replace(/^-|-$/g, "");
-  return cleaned || `section-${index + 1}`;
-}
-
-/** 從 HTML 萃取 h2 text list，同時為無 id 的 h2 注入 id */
-function extractH2Steps(
+/** 讀取 h2 的既有 id（由 injectHeadingIdsAndExtractToc 注入），組 HowTo step.url */
+function readH2Steps(
   html: string,
-  slug: string
-): { modified: string; steps: Array<{ name: string; url: string }> } {
+  slug: string,
+): Array<{ name: string; url: string }> {
   const steps: Array<{ name: string; url: string }> = [];
-  let index = 0;
-  // 追蹤已用 id，防止相同文字產生重複 anchor（如兩個「注意事項」）
-  const usedIds = new Set<string>();
 
-  const modified = html.replace(
-    /<h2([^>]*)>([\s\S]*?)<\/h2>/gi,
-    (match, attrs: string, inner: string) => {
-      const text = inner.replace(/<[^>]+>/g, "").trim();
-      if (!text) return match;
+  const re = /<h2([^>]*)>([\s\S]*?)<\/h2>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(html)) !== null) {
+    const attrs = m[1];
+    const inner = m[2];
+    const text = inner.replace(/<[^>]+>/g, "").trim();
+    if (!text) continue;
 
-      // 若已有 id 則直接用
-      const existingId = /\bid="([^"]+)"/.exec(attrs)?.[1];
-      let id = existingId ?? slugify(text, index);
-      index++;
+    const id = /\bid="([^"]+)"/.exec(attrs)?.[1];
+    if (!id) continue; // id 應已由前置步驟注入，無 id 則略過
 
-      // 處理重複 id：在末尾加 -2、-3 …
-      if (!existingId) {
-        let suffix = 2;
-        while (usedIds.has(id)) {
-          id = `${slugify(text, index - 1)}-${suffix++}`;
-        }
-      }
-      usedIds.add(id);
+    steps.push({ name: text, url: `https://reportwang.com/blog/${slug}#${id}` });
+  }
 
-      steps.push({ name: text, url: `https://reportwang.com/blog/${slug}#${id}` });
-
-      if (existingId) return match;
-      return `<h2${attrs} id="${id}">${inner}</h2>`;
-    }
-  );
-
-  return { modified, steps };
+  return steps;
 }
 
 // 支援的 Q/A 前綴模式（中英文）
@@ -69,7 +42,6 @@ const A_PREFIX = /^(?:A[：:]\s*|答[：:]\s*)/i;
 function extractFaqPairs(html: string): Array<{ question: string; answer: string }> {
   const pairs: Array<{ question: string; answer: string }> = [];
 
-  // 找所有 <h3>...<\/h3>\s*<p>...<\/p> 配對
   const re = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
   let m: RegExpExecArray | null;
   while ((m = re.exec(html)) !== null) {
@@ -86,16 +58,16 @@ function extractFaqPairs(html: string): Array<{ question: string; answer: string
 }
 
 /**
- * 從已 sanitized 的 blog HTML 萃取 JSON-LD 資料。
+ * 從已處理（h2/h3 id 已注入）的 blog HTML 萃取 JSON-LD 資料。
  * ≥3 個 h2 → HowTo；≥2 個 Q/A 配對 → FAQPage。
- * 同時為 h2 注入 anchor id（輔助 HowTo step.url）。
+ * HTML 本身不再修改，直接回傳。
  */
 export function extractBlogJsonLdData(html: string, slug: string): ExtractResult {
-  const { modified, steps } = extractH2Steps(html, slug);
-  const faqItems = extractFaqPairs(modified);
+  const steps = readH2Steps(html, slug);
+  const faqItems = extractFaqPairs(html);
 
   return {
-    contentWithIds: modified,
+    contentWithIds: html,
     howtoSteps: steps.length >= 3 ? steps : undefined,
     faqItems: faqItems.length >= 2 ? faqItems : undefined,
   };

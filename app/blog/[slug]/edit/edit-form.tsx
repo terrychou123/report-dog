@@ -208,14 +208,28 @@ export default function BlogEditForm({ post }: BlogEditFormProps) {
             </div>
 
             <div>
-              <Label htmlFor="excerpt">摘要</Label>
+              <div className="flex items-center justify-between">
+                <Label htmlFor="excerpt">摘要（TL;DR）</Label>
+                {/* 字數計數：超過 150 顯示警示色 */}
+                <span
+                  className={cn(
+                    "text-xs tabular-nums",
+                    form.excerpt.length >= 150
+                      ? "text-destructive"
+                      : "text-muted-foreground",
+                  )}
+                >
+                  {form.excerpt.length}/150
+                </span>
+              </div>
               <Textarea
                 id="excerpt"
                 value={form.excerpt}
                 onChange={(e) => handleChange("excerpt", e.target.value)}
-                placeholder="簡短描述文章內容（用作 meta description，建議 120–155 字）"
+                placeholder="簡短描述文章內容，將顯示為文章頭部 TL;DR 摘要與 meta description（最多 150 字）"
                 className="mt-1 resize-none"
                 rows={3}
+                maxLength={150}
               />
             </div>
 

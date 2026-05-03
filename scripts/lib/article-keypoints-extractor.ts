@@ -141,16 +141,18 @@ export interface ArticleJson {
 export function extractKeypoints(article: ArticleJson): ArticleKeypoints {
   const $ = cheerio.load(article.content);
 
-  // ── 1. 摘要：找第一個非「基準說明」型 blockquote（評鑑基準文章常以基準 blockquote 開頭）
-  let summary = "";
-  $("blockquote").each((_, el) => {
-    if (summary) return; // 已找到，停止遍歷
-    const text = $(el).text().trim();
-    // 跳過評鑑基準說明型的 blockquote（以「第X條基準說明」開頭）
-    if (!text.match(/^第\s*\d+\s*條基準說明/)) {
-      summary = truncate(text.replace(/^重點摘要[：:]\s*/, ""), 200);
-    }
-  });
+  // ── 1. 摘要：優先使用 article.excerpt（TL;DR 卡同源），fallback 至 body 第一個非「基準說明」blockquote
+  // 註：自 2026-05 後文章 body 不再放 重點摘要 blockquote，summary 由 excerpt 承擔
+  let summary = truncate(article.excerpt?.trim() ?? "", 200);
+  if (!summary) {
+    $("blockquote").each((_, el) => {
+      if (summary) return;
+      const text = $(el).text().trim();
+      if (!text.match(/^第\s*\d+\s*條基準說明/)) {
+        summary = truncate(text.replace(/^重點摘要[：:]\s*/, ""), 200);
+      }
+    });
+  }
 
   // ── 2. FAQ：從「常見問題 FAQ」H2 後的 H3+P 配對抓取 ─────────────────────────
   const faqs: { question: string; answer: string }[] = [];
