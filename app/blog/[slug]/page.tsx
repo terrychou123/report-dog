@@ -7,6 +7,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
 import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
+import { blogPostingJsonLd } from "@/lib/jsonld";
+import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
+import { BookOpenIcon, DownloadIcon } from "lucide-react";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -76,32 +79,23 @@ export default async function BlogPostPage({ params }: Props) {
 
   if (!post || post.status !== "published") notFound();
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    image: post.coverImageUrl || undefined,
-    datePublished: post.publishedAt?.toISOString(),
-    dateModified: post.updatedAt?.toISOString(),
-    author: {
-      "@type": "Organization",
-      name: "報告汪",
-      url: "https://reportwang.com",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "報告汪",
-      url: "https://reportwang.com",
-    },
+  const structuredData = blogPostingJsonLd({
+    title: post.title,
     description: post.seoDescription || post.excerpt || undefined,
-    url: `https://reportwang.com/blog/${post.slug}`,
-  };
+    slug: post.slug,
+    publishedAt: post.publishedAt?.toISOString(),
+    updatedAt: post.updatedAt?.toISOString(),
+    coverImageUrl: post.coverImageUrl || undefined,
+    category: post.category || undefined,
+  });
+
+  const facilityInfo = getFacilityInfoFromPost(post.category, post.tags, post.slug);
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: structuredData }}
       />
 
       <article className="min-h-screen bg-background">
@@ -205,6 +199,43 @@ export default async function BlogPostPage({ params }: Props) {
               免費試用 14 天
             </Link>
           </div>
+
+          {/* 延伸閱讀：相關評鑑章節 + 下載 */}
+          {facilityInfo && (
+            <div className="mt-10 rounded-xl border border-border bg-muted/30 p-6">
+              <h2 className="text-base font-semibold mb-4 flex items-center gap-2">
+                <BookOpenIcon className="h-4 w-4 text-primary" />
+                延伸閱讀：評鑑基準小教室
+              </h2>
+              <div className="grid gap-2 sm:grid-cols-2 mb-5">
+                {facilityInfo.subPages.map((page) => (
+                  <Link
+                    key={page.href}
+                    href={page.href}
+                    className="flex items-center gap-2 rounded-lg border bg-background px-4 py-2.5 text-sm hover:border-primary/50 hover:text-primary transition-colors"
+                  >
+                    <span className="h-1.5 w-1.5 rounded-full bg-primary/60 shrink-0" />
+                    {page.label}
+                  </Link>
+                ))}
+                <Link
+                  href={facilityInfo.schoolPath}
+                  className="flex items-center gap-2 rounded-lg border bg-background px-4 py-2.5 text-sm font-medium hover:border-primary/50 hover:text-primary transition-colors sm:col-span-2"
+                >
+                  <span className="h-1.5 w-1.5 rounded-full bg-primary/60 shrink-0" />
+                  {facilityInfo.schoolName} — 查看全部評鑑項目
+                </Link>
+              </div>
+              <a
+                href={facilityInfo.downloadPath}
+                download
+                className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+              >
+                <DownloadIcon className="h-4 w-4" />
+                免費下載 {facilityInfo.downloadName}（Excel）
+              </a>
+            </div>
+          )}
         </div>
       </article>
     </>

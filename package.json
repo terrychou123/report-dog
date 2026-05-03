@@ -19,6 +19,7 @@
     "generate:daycare-checklist": "tsx scripts/generate-daycare-checklist.ts",
     "generate:psychiatric-rehabilitation-institution-checklist": "tsx scripts/generate-psychiatric-rehabilitation-institution-checklist.ts",
     "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts",
+    "db:seed-blog-posts": "dotenv -e .env.local -- tsx scripts/seed-blog-posts.ts",
     "generate:carousel": "tsx scripts/generate-carousel.ts",
     "extract:keypoints": "tsx scripts/extract-article-keypoints.ts",
     "svg:validate": "tsx scripts/validate-svg.ts",

@@ -1,0 +1,221 @@
+// 從 blog post 的 category / tags 推導出對應的 /school 路徑與 Excel 下載
+export interface FacilityInfo {
+  schoolPath: string;
+  schoolName: string;
+  downloadPath: string;
+  downloadName: string;
+  subPages: Array<{ href: string; label: string }>;
+}
+
+const FACILITY_MAP: Record<string, FacilityInfo> = {
+  daycare: {
+    schoolPath: "/school/daycare",
+    schoolName: "日間照顧機構評鑑小教室",
+    downloadPath: "/downloads/day-care.xlsx",
+    downloadName: "日照中心評鑑自評表",
+    subPages: [
+      { href: "/school/daycare/client-rights", label: "個案權益保障" },
+      { href: "/school/daycare/professional-quality", label: "專業照護品質" },
+      { href: "/school/daycare/management", label: "經營管理效能" },
+      { href: "/school/daycare/safety-environment", label: "安全環境設備" },
+    ],
+  },
+  "home-nursing": {
+    schoolPath: "/school/home-nursing",
+    schoolName: "居家護理所評鑑小教室",
+    downloadPath: "/downloads/home-nursing.xlsx",
+    downloadName: "居家護理所評鑑自評表",
+    subPages: [
+      { href: "/school/home-nursing/management", label: "行政管理" },
+      { href: "/school/home-nursing/care-management", label: "照護管理" },
+    ],
+  },
+  "home-care": {
+    schoolPath: "/school/home-care",
+    schoolName: "居家服務機構評鑑小教室",
+    downloadPath: "/downloads/home-care.xlsx",
+    downloadName: "居家長照評鑑自評表",
+    subPages: [
+      { href: "/school/home-care/client-rights", label: "服務對象權益" },
+      { href: "/school/home-care/professional-quality", label: "專業照護品質" },
+      { href: "/school/home-care/management", label: "經營管理" },
+    ],
+  },
+  "elderly-welfare": {
+    schoolPath: "/school/elderly-welfare",
+    schoolName: "老人福利機構評鑑小教室",
+    downloadPath: "/downloads/elderly-welfare.xlsx",
+    downloadName: "老人福利機構評鑑自評表",
+    subPages: [
+      { href: "/school/elderly-welfare/client-rights", label: "服務對象權益" },
+      { href: "/school/elderly-welfare/professional-quality", label: "專業照護品質" },
+      { href: "/school/elderly-welfare/management", label: "經營管理" },
+      { href: "/school/elderly-welfare/safety-environment", label: "安全環境設備" },
+    ],
+  },
+  "nursing-home": {
+    schoolPath: "/school/nursing-home",
+    schoolName: "住宿型長照機構評鑑小教室",
+    downloadPath: "/downloads/residential.xlsx",
+    downloadName: "住宿型機構評鑑自評表",
+    subPages: [
+      { href: "/school/nursing-home/client-rights", label: "服務對象權益" },
+      { href: "/school/nursing-home/professional-quality", label: "專業照護品質" },
+      { href: "/school/nursing-home/management", label: "經營管理" },
+      { href: "/school/nursing-home/safety-environment", label: "安全環境設備" },
+    ],
+  },
+  "general-nursing-home": {
+    schoolPath: "/school/general-nursing-home",
+    schoolName: "一般護理之家評鑑小教室",
+    downloadPath: "/downloads/general-nursing-home.xlsx",
+    downloadName: "一般護理之家評鑑自評表",
+    subPages: [
+      { href: "/school/general-nursing-home/administration", label: "行政管理" },
+      { href: "/school/general-nursing-home/professional-care", label: "專業照護" },
+      { href: "/school/general-nursing-home/safety-environment", label: "安全環境" },
+    ],
+  },
+  "postpartum-care": {
+    schoolPath: "/school/postpartum-care",
+    schoolName: "產後護理之家評鑑小教室",
+    downloadPath: "/downloads/babycare.xlsx",
+    downloadName: "產後護理之家評鑑自評表",
+    subPages: [
+      { href: "/school/postpartum-care/administration", label: "行政組織管理" },
+      { href: "/school/postpartum-care/professional-care", label: "專業服務與照顧" },
+      { href: "/school/postpartum-care/safety-environment", label: "環境設施安全" },
+    ],
+  },
+  hospital: {
+    schoolPath: "/school/hospital",
+    schoolName: "醫院評鑑小教室",
+    downloadPath: "/downloads/hospital.xlsx",
+    downloadName: "醫院評鑑自評表",
+    subPages: [
+      { href: "/school/hospital/patient-rights", label: "病人權益" },
+      { href: "/school/hospital/care-quality", label: "照護品質" },
+      { href: "/school/hospital/infection-control", label: "感染管控" },
+      { href: "/school/hospital/medication-safety", label: "用藥安全" },
+    ],
+  },
+  "infant-daycare": {
+    schoolPath: "/school/infant-daycare",
+    schoolName: "托嬰中心評鑑小教室",
+    downloadPath: "/downloads/infant-daycare.xlsx",
+    downloadName: "托嬰中心評鑑自評表",
+    subPages: [
+      { href: "/school/infant-daycare/administration", label: "行政管理" },
+      { href: "/school/infant-daycare/childcare-activities", label: "保育活動" },
+      { href: "/school/infant-daycare/health-safety", label: "健康安全" },
+    ],
+  },
+  "disability-welfare": {
+    schoolPath: "/school/disability-welfare",
+    schoolName: "身心障礙福利機構評鑑小教室",
+    downloadPath: "/downloads/disability-welfare.xlsx",
+    downloadName: "身心障礙機構評鑑自評表",
+    subPages: [
+      { href: "/school/disability-welfare/administration", label: "行政管理" },
+      { href: "/school/disability-welfare/professional", label: "專業服務" },
+      { href: "/school/disability-welfare/environment", label: "環境設施" },
+    ],
+  },
+  "youth-care": {
+    schoolPath: "/school/youth-care",
+    schoolName: "兒少教養機構評鑑小教室",
+    downloadPath: "/downloads/youth-care.xlsx",
+    downloadName: "兒少教養機構評鑑自評表",
+    subPages: [
+      { href: "/school/youth-care/administration", label: "行政管理" },
+      { href: "/school/youth-care/professional", label: "專業服務" },
+      { href: "/school/youth-care/environment", label: "環境設施" },
+    ],
+  },
+  "psychiatric-nursing-home": {
+    schoolPath: "/school/psychiatric-nursing-home",
+    schoolName: "精神護理之家評鑑小教室",
+    downloadPath: "/downloads/psychiatric-nursing-home.xlsx",
+    downloadName: "精神護理之家評鑑自評表",
+    subPages: [
+      { href: "/school/psychiatric-nursing-home/management", label: "行政管理" },
+      { href: "/school/psychiatric-nursing-home/professional-care", label: "專業照護" },
+      { href: "/school/psychiatric-nursing-home/resident-rights", label: "住民權益" },
+    ],
+  },
+};
+
+// 關鍵字 → facility key 對照表
+const KEYWORD_MAP: Record<string, string> = {
+  日照: "daycare",
+  日間照顧: "daycare",
+  日間照護: "daycare",
+  居家護理: "home-nursing",
+  居家護理所: "home-nursing",
+  居家長照: "home-care",
+  居家服務: "home-care",
+  老人福利: "elderly-welfare",
+  老人安養: "elderly-welfare",
+  住宿型: "nursing-home",
+  護理之家: "nursing-home",
+  一般護理之家: "general-nursing-home",
+  產後護理: "postpartum-care",
+  月子中心: "postpartum-care",
+  坐月子: "postpartum-care",
+  醫院: "hospital",
+  醫院評鑑: "hospital",
+  托嬰: "infant-daycare",
+  托嬰中心: "infant-daycare",
+  身心障礙: "disability-welfare",
+  兒少: "youth-care",
+  兒童: "youth-care",
+  精神護理: "psychiatric-nursing-home",
+};
+
+export function getFacilityInfoFromPost(
+  category?: string | null,
+  tags?: string[] | null,
+  slug?: string
+): FacilityInfo | null {
+  // 1. 從 category 直接比對 facility key
+  if (category) {
+    const direct = FACILITY_MAP[category];
+    if (direct) return direct;
+
+    // 2. 從 category 文字找關鍵字
+    for (const [kw, key] of Object.entries(KEYWORD_MAP)) {
+      if (category.includes(kw)) {
+        return FACILITY_MAP[key] ?? null;
+      }
+    }
+  }
+
+  // 3. 從 tags 找關鍵字
+  if (tags) {
+    for (const tag of tags) {
+      for (const [kw, key] of Object.entries(KEYWORD_MAP)) {
+        if (tag.includes(kw)) {
+          return FACILITY_MAP[key] ?? null;
+        }
+      }
+    }
+  }
+
+  // 4. 從 slug 找 facility key
+  if (slug) {
+    for (const key of Object.keys(FACILITY_MAP)) {
+      if (slug.startsWith(key)) {
+        return FACILITY_MAP[key];
+      }
+    }
+    // 再嘗試關鍵字
+    for (const [kw, key] of Object.entries(KEYWORD_MAP)) {
+      const kwSlug = kw.toLowerCase().replace(/\s+/g, "-");
+      if (slug.includes(kwSlug) || slug.includes(key)) {
+        return FACILITY_MAP[key] ?? null;
+      }
+    }
+  }
+
+  return null;
+}

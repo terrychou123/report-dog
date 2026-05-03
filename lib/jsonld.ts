@@ -1,3 +1,52 @@
+export function faqPageJsonLd(
+  items: Array<{ question: string; answer: string }>,
+  path: string
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    url: `https://reportwang.com${path}`,
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  });
+}
+
+export function blogPostingJsonLd(opts: {
+  title: string;
+  description?: string;
+  slug: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  coverImageUrl?: string;
+  category?: string;
+}): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: opts.title,
+    description: opts.description,
+    url: `https://reportwang.com/blog/${opts.slug}`,
+    datePublished: opts.publishedAt,
+    dateModified: opts.updatedAt,
+    image: opts.coverImageUrl,
+    inLanguage: "zh-TW",
+    author: { "@type": "Organization", name: "報告汪", url: "https://reportwang.com" },
+    publisher: {
+      "@type": "Organization",
+      name: "報告汪",
+      url: "https://reportwang.com",
+      logo: { "@type": "ImageObject", url: "https://reportwang.com/logo.png" },
+    },
+    articleSection: opts.category,
+  });
+}
+
 export function techArticleJsonLd(
   headline: string,
   description: string,

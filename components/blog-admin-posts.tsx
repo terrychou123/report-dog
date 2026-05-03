@@ -1,11 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { InferSelectModel } from "drizzle-orm";
 import { blogPosts } from "@/db/schema";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
   Dialog,
   DialogContent,
@@ -28,6 +36,23 @@ export default function BlogAdminPosts({ initialPosts }: BlogAdminPostsProps) {
   const [deleteTarget, setDeleteTarget] = useState<BlogPost | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+
+  const categories = useMemo(() => {
+    const set = new Set<string>();
+    posts.forEach((p) => p.category && set.add(p.category));
+    return Array.from(set).sort();
+  }, [posts]);
+
+  const filteredPosts = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return posts.filter((p) => {
+      if (selectedCategory !== "all" && p.category !== selectedCategory) return false;
+      if (!q) return true;
+      return p.slug.toLowerCase().includes(q) || p.title.toLowerCase().includes(q);
+    });
+  }, [posts, searchQuery, selectedCategory]);
 
   async function handleNewPost() {
     setIsCreating(true);
@@ -81,7 +106,7 @@ export default function BlogAdminPosts({ initialPosts }: BlogAdminPostsProps) {
 
   return (
     <>
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-4">
         <h1 className="text-2xl font-bold">Blog 管理</h1>
         <Button onClick={handleNewPost} disabled={isCreating}>
           <PlusCircle className="w-4 h-4 mr-2" />
@@ -89,13 +114,43 @@ export default function BlogAdminPosts({ initialPosts }: BlogAdminPostsProps) {
         </Button>
       </div>
 
-      {posts.length === 0 ? (
+      {/* 搜尋 + 分類篩選 */}
+      <div className="flex flex-col sm:flex-row gap-2 mb-4">
+        <Input
+          placeholder="搜尋 slug 或標題…"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="sm:max-w-sm"
+        />
+        <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+          <SelectTrigger className="sm:w-56">
+            <SelectValue placeholder="所有分類" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">所有分類（{posts.length} 篇）</SelectItem>
+            {categories.map((c) => (
+              <SelectItem key={c} value={c}>
+                {c}（{posts.filter((p) => p.category === c).length} 篇）
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+        {(searchQuery || selectedCategory !== "all") && (
+          <span className="text-sm text-muted-foreground self-center">
+            顯示 {filteredPosts.length} / {posts.length} 篇
+          </span>
+        )}
+      </div>
+
+      {filteredPosts.length === 0 ? (
         <div className="text-center py-16 text-muted-foreground">
-          還沒有文章，點擊「新增文章」開始寫作
+          {posts.length === 0
+            ? "還沒有文章，點擊「新增文章」開始寫作"
+            : "沒有符合條件的文章"}
         </div>
       ) : (
         <div className="border rounded-lg divide-y">
-          {posts.map((post) => (
+          {filteredPosts.map((post) => (
             <div key={post.id} className="flex items-center gap-4 px-4 py-3">
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">

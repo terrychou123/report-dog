@@ -23,7 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  const staticDate = new Date("2026-03-24");
+  const staticDate = new Date("2026-05-03");
 
   return [
     // Home
@@ -62,6 +62,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/docs/excel-editing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/scenarios", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/faq", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/docs/soap-writing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/docs/report-links", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     // School — 評鑑小教室
     { url: "https://reportwang.com/school", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
