@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -36,12 +36,23 @@ const allItems = adminSections.flatMap((s) => s.items);
 
 const tips = infantDaycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "infant-daycare",
+  subpage: "administration",
+  section: adminSections,
   name: "托嬰中心評鑑：一、行政管理",
   description:
     "臺北市114-116年度托嬰中心評鑑一、行政管理11項基準完整解說，涵蓋立案行政、員工在職訓練、人事管理、文書檔案、財務安全及兒童權益保障。",
-  path: "/school/infant-daycare/administration",
+  extraFaq: [
+    {
+      question: "托嬰中心評鑑行政管理包含哪些子項目？",
+      answer: "共 5 個子區塊：（1）立案行政與業務管理（項目 1–3）、（2）人事領導與管理（項目 4–5）、（3）文書與檔案管理（項目 6–7）、（4）財務、總務與安全管理（項目 8–10）、（5）兒童權益保障（項目 11），共 11 項基準佔行政管理 20 分。",
+    },
+    {
+      question: "托育人員在職訓練每年最少需幾小時？",
+      answer: "主管人員及托育人員每年須完成 18 小時以上在職訓練；其他工作人員每人每年至少 4 小時相關在職訓練（依臺北市 114–116 年度評鑑基準）。",
+    },
+  ],
 });
 
 export default function InfantDaycareAdministrationPage() {

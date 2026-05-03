@@ -4,7 +4,7 @@ source_type: profile
 facility_type: psychiatric-rehabilitation-day
 label: 精神復健機構（日間型）
 description: 115年度精神復健機構評鑑基準－日間型機構
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 精神復健機構（日間型） 評鑑基準

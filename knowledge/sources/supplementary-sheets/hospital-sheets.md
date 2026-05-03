@@ -2,7 +2,7 @@
 type: source
 source_type: supplementary-sheets
 facility_type: hospital
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 醫院評鑑 附件表單定義

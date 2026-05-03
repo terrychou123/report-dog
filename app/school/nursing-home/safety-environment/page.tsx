@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -27,16 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = nursingHomeProfile.sections.find((s) => s.shortCode === "安")!;
+const section = requireSection(nursingHomeProfile.sections, "安");
 
 const tips = nursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "nursing-home",
+  subpage: "safety-environment",
+  section,
   name: "C、安全環境設備（住宿型照顧機構評鑑基準項目 39–54）",
   description:
     "住宿型照顧機構評鑑基準「安全環境設備」16 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
-  path: "/school/nursing-home/safety-environment",
 });
 
 export default function NursingHomeSafetyEnvironmentPage() {

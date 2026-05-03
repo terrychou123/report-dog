@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -26,16 +26,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "加")!;
+const section = requireSection(elderlyWelfareProfile.sections, "加");
 
 const tips = elderlyWelfareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "elderly-welfare",
+  subpage: "bonus",
+  section,
   name: "F、加分題（老人福利機構評鑑基準項目 75–77）",
   description:
     "老人福利機構評鑑基準「加分題」3 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/elderly-welfare/bonus",
 });
 
 export default function ElderlyWelfareBonusPage() {

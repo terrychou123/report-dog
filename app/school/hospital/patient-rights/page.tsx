@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "patient-rights",
+  section,
   name: "2.1 病人及家屬權責（醫院評鑑基準項目 43–46）",
   description:
     "醫院評鑑基準「病人及家屬權責」4 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/patient-rights",
 });
 
 export default function HospitalPatientRightsPage() {

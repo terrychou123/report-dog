@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -39,12 +39,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "care-execution",
+  section,
   name: "2.3 醫療照護之執行與評估（醫院評鑑基準項目 50–65）",
   description:
     "醫院評鑑基準「醫療照護之執行與評估」16 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/care-execution",
 });
 
 export default function HospitalCareExecutionPage() {

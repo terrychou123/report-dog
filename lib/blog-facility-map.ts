@@ -123,6 +123,7 @@ const FACILITY_MAP: Record<string, FacilityInfo> = {
       { href: "/school/disability-welfare/administration", label: "行政組織及經營管理" },
       { href: "/school/disability-welfare/environment", label: "環境設施及安全維護" },
       { href: "/school/disability-welfare/professional", label: "專業服務" },
+      { href: "/school/disability-welfare/finance", label: "財務管理" },
       { href: "/school/disability-welfare/individual-care", label: "個別化服務計畫" },
       { href: "/school/disability-welfare/health-management", label: "健康管理與安全" },
     ],

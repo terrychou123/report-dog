@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -25,16 +25,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "創")!;
+const section = requireSection(elderlyWelfareProfile.sections, "創");
 
 const tips = elderlyWelfareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "elderly-welfare",
+  subpage: "innovation",
+  section,
   name: "E、服務改進創新（老人福利機構評鑑基準項目 72–74）",
   description:
     "老人福利機構評鑑基準「服務改進創新」3 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/elderly-welfare/innovation",
 });
 
 export default function ElderlyWelfareInnovationPage() {

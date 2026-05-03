@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -27,16 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = nursingHomeProfile.sections.find((s) => s.shortCode === "管")!;
+const section = requireSection(nursingHomeProfile.sections, "管");
 
 const tips = nursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "nursing-home",
+  subpage: "management",
+  section,
   name: "A、經營管理效能（住宿型照顧機構評鑑基準項目 1–9）",
   description:
     "住宿型照顧機構評鑑基準「經營管理效能」9 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
-  path: "/school/nursing-home/management",
 });
 
 export default function NursingHomeManagementPage() {

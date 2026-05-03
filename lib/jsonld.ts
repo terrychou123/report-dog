@@ -62,6 +62,43 @@ export function techArticleJsonLd(
   });
 }
 
+export function howToJsonLd(opts: {
+  name: string;
+  description: string;
+  path: string;
+  steps: Array<{ name: string; text?: string; url?: string }>;
+  totalTime?: string;
+}): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: opts.name,
+    description: opts.description,
+    url: `https://reportwang.com${opts.path}`,
+    inLanguage: "zh-TW",
+    ...(opts.totalTime ? { totalTime: opts.totalTime } : {}),
+    step: opts.steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      ...(s.text ? { text: s.text } : {}),
+      ...(s.url ? { url: s.url } : {}),
+    })),
+  });
+}
+
+// 將多個 JSON-LD 字串合併為單一 @graph（過濾掉 undefined/null）
+export function mergeJsonLdGraph(...schemas: (string | undefined | null | false)[]): string {
+  const parsed = schemas
+    .filter((s): s is string => typeof s === "string")
+    .map((s) => JSON.parse(s));
+  if (parsed.length === 0) return "";
+  if (parsed.length === 1) return JSON.stringify(parsed[0]);
+  // 提取所有 @context 後合併為 @graph
+  const graphItems = parsed.map(({ "@context": _ctx, ...rest }) => rest);
+  return JSON.stringify({ "@context": "https://schema.org", "@graph": graphItems });
+}
+
 export function educationalContentJsonLd(opts: {
   type: "LearningResource" | "Course" | "ItemList";
   name: string;

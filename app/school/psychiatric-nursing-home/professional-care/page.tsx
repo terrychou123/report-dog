@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
@@ -29,11 +29,12 @@ const section = psychiatricNursingHomeProfile.sections.find(
 
 const tips = psychiatricNursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "psychiatric-nursing-home",
+  subpage: "professional-care",
+  section,
   name: "精神護理之家評鑑 B、專業照護品質",
   description: "115年度精神護理之家評鑑基準 B 面向 21 條指標完整解說。",
-  path: "/school/psychiatric-nursing-home/professional-care",
 });
 
 export default function ProfessionalCarePage() {

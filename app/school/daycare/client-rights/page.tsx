@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -27,16 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = daycareProfile.sections.find((s) => s.shortCode === "權")!;
+const section = requireSection(daycareProfile.sections, "權");
 
 const tips = daycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "daycare",
+  subpage: "client-rights",
+  section,
   name: "壹、個案權益保障（日間照顧機構評鑑基準項目 1–4）",
   description:
     "115 年度日間照顧機構評鑑基準「個案權益保障」4 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/daycare/client-rights",
 });
 
 export default function DaycareClientRightsPage() {

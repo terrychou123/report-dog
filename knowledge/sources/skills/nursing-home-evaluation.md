@@ -3,7 +3,7 @@ name: nursing-home-evaluation
 description: |
   住宿型機構評鑑大師：協助建立和維護 /school/nursing-home 評鑑小教室的內容。
   當使用者要新增或修改住宿型照顧機構評鑑相關教學頁面時觸發。
-  包含 115 年度衛生福利部全國版評鑑基準知識（63 項 + 3 加減分）、頁面模板與 SEO 指引。
+  包含 115 年度衛生福利部全國版評鑑基準知識（63 項 + 加減分 3 項）、頁面模板與 SEO 指引。
 metadata:
   filePattern:
     - "app/school/nursing-home/**"
@@ -30,11 +30,11 @@ allowed-tools:
 
 | 區塊 | shortCode | 項目 id 範圍 | 頁面路徑 | 主色 |
 |------|-----------|-------------|---------|------|
-| A、經營管理效能 | 管 | 1–9（9項） | /school/nursing-home/management | orange-500 |
-| B、專業照護品質 | 專 | 10–38（29項） | /school/nursing-home/professional-quality | green-500 |
-| C、安全環境設備 | 安 | 39–54（16項） | /school/nursing-home/safety-environment | teal-500 |
-| D、個案權益保障 | 權 | 55–63（9項） | /school/nursing-home/client-rights | blue-500 |
-| 加減分項目 | 創 | 64–66（3項） | /school/nursing-home/innovation | purple-500 |
+| A、經營管理效能 | 管 | 1–9（9 項） | /school/nursing-home/management | orange-500 |
+| B、專業照護品質 | 專 | 10–38（29 項） | /school/nursing-home/professional-quality | green-500 |
+| C、安全環境設備 | 安 | 39–54（16 項） | /school/nursing-home/safety-environment | teal-500 |
+| D、個案權益保障 | 權 | 55–63（9 項） | /school/nursing-home/client-rights | blue-500 |
+| 加減分項目 | 創 | 64–66（3 項） | /school/nursing-home/innovation | purple-500 |
 
 **sections 陣列索引：**
 - `sections[0]` — A、經營管理效能（shortCode: "管"）
@@ -43,18 +43,25 @@ allowed-tools:
 - `sections[3]` — D、個案權益保障（shortCode: "權"）
 - `sections[4]` — 加減分項目（shortCode: "創"）
 
-**115年度關鍵新增/變更：**
-- A8：合併「社工/護理/兼任/照服員設置」（舊版 A8+A9+A10+A11）
-- A9：合併「新進/在職/廚工教育訓練」（舊版 A13+A14+A15）
+**115 年度關鍵新增/變更（相對 114 年度臺北市版）：**
+- 大類由 5 類（A–E，75 項）→ 4 類 + 加減分（A–D 63 項 + 加減分 3 項）
+- A1：合併「工作人員權益 + 勞動條件」（舊版 A1+A12）
+- A8：合併「社工/護理/兼任/照服員/廚工 設置」（舊版 A8+A9+A10+A11+A15）
+- A9：合併「新進職前訓練 + 在職教育」（舊版 A13+A14）
+- B 類刪除「機構資訊化建置」（舊版 B3）
 - B19（id 28）：合併「鼻胃管及導尿管移除」（舊版 B20+B21）
 - B26（id 35）：**新增**「失禁服務對象定時如廁計畫」
 - B28（id 37）：合併「膳食菜單 + 個別化飲食 + 適宜餐具」（舊版 B29+B30+B31）
 - C9（id 47）：用電安全擴充 + 防火管理人禁由社工/醫事人員/照服員兼任
-- C10（id 48）：等待救援空間需符合不燃材料/防火門/防排煙三項構造要求
-- C11（id 49）：EOP 每年 4 次（含複合式 1 次 + 夜間 1 次）
+- C10（id 48）：等待救援空間需符合不燃材料 / 防火門（甲種） / 防排煙三項構造要求
+- C11（id 49）：EOP 每年至少 4 次（含複合式 1 次 + 夜間 1 次）
+- C13/C15/C16 重新詮釋（情境式火災風險、物理環境/無障礙、輔具與移位設備）
 - D2（id 56）：入住契約審閱期明訂至少 5 天
+- D5/D6/D9 重新詮釋（自主選擇、居家情境＋監視設備整合、宗教信仰及文化需求）
 - D8（id 62）：新增病人自主權利法（病主法）相關要求
-- 加分②（id 65）：**新增**「機構內空氣品質 CO₂ < 1000ppm」加分項
+- 加分①（id 64）：創新或配合政策執行（+2 分）
+- 加分②（id 65）：**新增**「機構內空氣品質 CO₂ < 1000ppm」（+1 分）
+- 扣分③（id 66）：評鑑期間之違規及重大負面事件（−2 分）
 
 ---
 

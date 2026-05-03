@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
@@ -43,11 +43,22 @@ const dayTips = psychiatricRehabilitationDayTips;
 
 const residentialTips = psychiatricRehabilitationResidentialTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "psychiatric-rehabilitation-institution",
+  subpage: "management",
+  section: daySection,
   name: "精神復健機構評鑑 第1章、經營管理",
   description: "115年度精神復健機構評鑑基準第1章經營管理，日間型10條/住宿型12條完整解說。",
-  path: "/school/psychiatric-rehabilitation-institution/management",
+  extraFaq: [
+    {
+      question: "精神復健機構評鑑第1章「經營管理」的配分如何？",
+      answer: "日間型機構共 10 個項目（配分 34 分），住宿型共 12 個項目（配分 33 分）。涵蓋負責人經營理念、人力穩定性、督導訓練制度、健康檢查、社區便利性及復健資源開發。",
+    },
+    {
+      question: "負責人上任有何資格與時間限制？",
+      answer: "依評鑑基準 1.1，負責人上任至評鑑當年 7 月 1 日前須滿 1 年，且需具備個人復元及社區支持理念，並能提出短中長程計畫。",
+    },
+  ],
 });
 
 export default function ManagementPage() {

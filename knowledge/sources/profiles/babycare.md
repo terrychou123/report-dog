@@ -4,7 +4,7 @@ source_type: profile
 facility_type: babycare
 label: 產後護理之家
 description: 115年度產後護理之家評鑑基準
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 產後護理之家 評鑑基準

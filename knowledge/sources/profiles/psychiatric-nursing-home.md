@@ -4,7 +4,7 @@ source_type: profile
 facility_type: psychiatric-nursing-home
 label: 精神護理之家
 description: 115年度精神護理之家評鑑基準
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 精神護理之家 評鑑基準

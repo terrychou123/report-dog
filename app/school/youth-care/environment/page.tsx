@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -31,11 +31,12 @@ const section = youthCareProfile.sections[1];
 
 const tips = youthCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "youth-care",
+  subpage: "environment",
+  section,
   name: "兒少安置機構評鑑：貳、建築物環境及設施設備",
   description: "112年度兒少安置機構評鑑建築物環境及設施設備8項基準完整解說，包含整體環境衛生、機構環境配置、公共安全、危機事故預防及處理等，評委可依現場狀況±2分。",
-  path: "/school/youth-care/environment",
 });
 
 export default function YouthCareEnvironmentPage() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -27,11 +27,12 @@ export const metadata: Metadata = {
 
 const section = youthCareProfile.sections[3];
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "youth-care",
+  subpage: "finance",
+  section,
   name: "兒少安置機構評鑑：肆、財務管理",
   description: "112年度兒少安置機構評鑑財務管理說明，依衛福部社家署及地方政府財務查核結果計分，共4次查核，20分。",
-  path: "/school/youth-care/finance",
 });
 
 export default function YouthCareFinancePage() {

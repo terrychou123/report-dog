@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-nursing-home";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -35,12 +35,13 @@ const section = (() => {
 
 const tips = generalNursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "general-nursing-home",
+  subpage: "administration",
+  section,
   name: "A、行政組織、經營管理與服務對象權益保障（一般護理之家評鑑基準項目 1–5）",
   description:
     "一般護理之家評鑑基準「行政組織、經營管理與服務對象權益保障」5 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/general-nursing-home/administration",
 });
 
 export default function GeneralNursingHomeAdministrationPage() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "medical-records",
+  section,
   name: "1.4 病歷、資訊與溝通管理（醫院評鑑項目 23–26）",
   description:
     "醫院評鑑「病歷、資訊與溝通管理」4 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/medical-records",
 });
 
 export default function HospitalMedicalRecordsPage() {

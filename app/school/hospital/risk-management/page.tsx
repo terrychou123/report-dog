@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "risk-management",
+  section,
   name: "1.7 風險與危機管理（醫院評鑑基準項目 38–42）",
   description:
     "醫院評鑑基準「風險與危機管理」5 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/risk-management",
 });
 
 export default function HospitalRiskManagementPage() {

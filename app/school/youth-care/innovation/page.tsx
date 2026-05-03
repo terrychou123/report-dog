@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -31,11 +31,12 @@ const section = youthCareProfile.sections[4];
 
 const tips = youthCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "youth-care",
+  subpage: "innovation",
+  section,
   name: "兒少安置機構評鑑：伍、特殊事項或措施（含創新服務方案）",
   description: "112年度兒少安置機構評鑑特殊事項或措施說明，含違規扣分及多項加分機制，最高可影響分數達±10分。",
-  path: "/school/youth-care/innovation",
 });
 
 export default function YouthCareInnovationPage() {

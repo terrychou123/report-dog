@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -38,12 +38,13 @@ const allItems = activitySections.flatMap((s) => s.items);
 
 const tips = infantDaycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "infant-daycare",
+  subpage: "childcare-activities",
+  section: activitySections,
   name: "托嬰中心評鑑：二、托育活動",
   description:
     "臺北市114-116年度托嬰中心評鑑二、托育活動25項基準完整解說，涵蓋關係建立、環境規劃、活動設計及親師交流。",
-  path: "/school/infant-daycare/childcare-activities",
 });
 
 export default function InfantDaycareChildcareActivitiesPage() {

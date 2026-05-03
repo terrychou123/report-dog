@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
@@ -45,11 +45,12 @@ const dayTips = psychiatricRehabilitationDayTips;
 
 const residentialTips = psychiatricRehabilitationResidentialTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "psychiatric-rehabilitation-institution",
+  subpage: "rehabilitation",
+  section: daySection,
   name: "精神復健機構評鑑 第2章、復健服務",
   description: "115年度精神復健機構評鑑基準第2章復健服務，日間型14條/住宿型14條完整解說。",
-  path: "/school/psychiatric-rehabilitation-institution/rehabilitation",
 });
 
 export default function RehabilitationPage() {

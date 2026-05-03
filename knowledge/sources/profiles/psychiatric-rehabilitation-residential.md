@@ -4,7 +4,7 @@ source_type: profile
 facility_type: psychiatric-rehabilitation-residential
 label: 精神復健機構（住宿型）
 description: 115年度精神復健機構評鑑基準－住宿型機構
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 精神復健機構（住宿型） 評鑑基準

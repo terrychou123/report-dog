@@ -2,7 +2,7 @@
 type: source
 source_type: supplementary-sheets
 facility_type: home-nursing
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 居家護理所 附件表單定義
@@ -65,7 +65,7 @@ extracted_at: 2026-04-08
 
 - **文件類型**：daily-record
 - **對應基準**：第 2 條
-- **欄位**：監測季別、品質指標名稱、計算方式、本期數值、閾值、達標(是/否)、改善計畫、填報人員
+- **欄位**：監測期別、品質指標名稱（官方固定 5 項）、計算方式、本期數值、閾值、達標(是/否)、改善計畫、填報人員
 
 ## 指標 7
 

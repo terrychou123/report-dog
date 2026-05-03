@@ -70,6 +70,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // 日照中心
     { url: "https://reportwang.com/school/daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/daycare/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/daycare/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/daycare/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/daycare/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
@@ -113,6 +114,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/disability-welfare/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/disability-welfare/environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/disability-welfare/professional", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/finance", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/individual-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/health-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     // 產後護理之家
     { url: "https://reportwang.com/school/postpartum-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
@@ -123,8 +127,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // 居家護理所
     { url: "https://reportwang.com/school/home-nursing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/home-nursing/care-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/home-nursing/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/care-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/infection-control", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/quality-indicators", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     // 一般護理之家
     { url: "https://reportwang.com/school/general-nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
@@ -164,6 +171,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/infant-daycare/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/infant-daycare/childcare-activities", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/infant-daycare/health-safety", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+
+    // 精神復健機構
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/rehabilitation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/service-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     ...blogEntries,
   ];

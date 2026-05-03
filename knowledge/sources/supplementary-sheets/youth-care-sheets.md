@@ -2,7 +2,7 @@
 type: source
 source_type: supplementary-sheets
 facility_type: youth-care
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 兒少安置機構 附件表單定義

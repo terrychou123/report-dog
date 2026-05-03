@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -27,16 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = nursingHomeProfile.sections.find((s) => s.shortCode === "創")!;
+const section = requireSection(nursingHomeProfile.sections, "創");
 
 const tips = nursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "nursing-home",
+  subpage: "innovation",
+  section,
   name: "加減分項目（住宿型照顧機構評鑑基準項目 64–66）",
   description:
     "住宿型照顧機構評鑑基準「加減分項目」3 個項目詳細說明、準備要訣與實用提示（115年度全國版）。",
-  path: "/school/nursing-home/innovation",
 });
 
 export default function NursingHomeInnovationPage() {

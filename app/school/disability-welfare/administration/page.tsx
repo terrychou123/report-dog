@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -44,12 +44,23 @@ const section = (() => {
 
 const tips = disabilityWelfareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "disability-welfare",
+  subpage: "administration",
+  section,
   name: "一、行政組織及經營管理（109年度身心障礙福利機構評鑑指標項目 1–11）",
   description:
     "109年度身心障礙福利機構評鑑指標「行政組織及經營管理」11 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/disability-welfare/administration",
+  extraFaq: [
+    {
+      question: "身心障礙機構評鑑「行政組織及經營管理」包含哪兩個子區塊？",
+      answer: "本區塊分為兩部分：（一）行政組織及經營管理（指標 1101–1107，共 7 項），涵蓋董事會運作、機構管理制度、員工健康檢查、訓練及法定通報；（二）會計及財務管理（指標 2101–2104，共 4 項），涵蓋會計制度、財務報告、財物管理及捐贈徵信。",
+    },
+    {
+      question: "員工健康檢查有哪些頻率規定？",
+      answer: "一般員工每 2 年一次（血液、尿液、胸部 X 光）；廚工及夜間工作人員每年一次（加 A 肝、傷寒、異物檢查）；新進人員於到職前完成健檢（含糞便檢查，以 3 個月內報告為有效）。",
+    },
+  ],
 });
 
 export default function DisabilityWelfareAdministrationPage() {

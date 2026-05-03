@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -35,12 +35,13 @@ const section = (() => {
 
 const tips = babycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "postpartum-care",
+  subpage: "professional-care",
+  section,
   name: "B、專業服務與生活照顧（產後護理之家評鑑基準項目 6–13）",
   description:
     "產後護理之家評鑑基準「專業服務與生活照顧」8 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/postpartum-care/professional-care",
 });
 
 export default function PostpartumCareProfessionalCarePage() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -31,11 +31,12 @@ const section = youthCareProfile.sections[0];
 
 const tips = youthCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "youth-care",
+  subpage: "administration",
+  section,
   name: "兒少安置機構評鑑：壹、行政組織與經營管理",
   description: "112年度兒少安置機構評鑑行政組織與經營管理6項基準完整解說，包含董事會功能、行政組織運作、員工手冊、人員資格、訓練進修及勞動條件。",
-  path: "/school/youth-care/administration",
 });
 
 export default function YouthCareAdministrationPage() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
 };
 
-const section = daycareProfile.sections.find((s) => s.shortCode === "管")!;
+const section = requireSection(daycareProfile.sections, "管");
 
 // 子分類定義（對應 115 年度基準書結構）
 const subCategories = [
@@ -40,12 +40,13 @@ const subCategories = [
 
 const tips = daycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "daycare",
+  subpage: "management",
+  section,
   name: "參、經營管理效能（日間照顧機構評鑑基準項目 23–37）",
   description:
     "115 年度日間照顧機構評鑑基準「經營管理效能」15 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/daycare/management",
 });
 
 export default function DaycareManagementPage() {

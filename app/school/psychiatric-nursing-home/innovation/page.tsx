@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -25,11 +25,12 @@ const section = psychiatricNursingHomeProfile.sections.find(
   (s) => s.shortCode === "E"
 )!;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "psychiatric-nursing-home",
+  subpage: "innovation",
+  section,
   name: "精神護理之家評鑑 E、創新及改革",
   description: "115年度精神護理之家評鑑基準 E 面向 1 條指標完整解說。",
-  path: "/school/psychiatric-nursing-home/innovation",
 });
 
 export default function InnovationPage() {

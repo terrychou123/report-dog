@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
@@ -32,16 +32,27 @@ export const metadata: Metadata = {
   },
 };
 
-const section = homeNursingProfile.sections.find((s) => s.shortCode === "A")!;
+const section = requireSection(homeNursingProfile.sections, "A");
 
 const tips = homeNursingTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "home-nursing",
+  subpage: "management",
+  section,
   name: "A、經營管理（居家護理所評鑑基準項目 1–5）",
   description:
     "居家護理所評鑑基準「經營管理」5 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/home-nursing/management",
+  extraFaq: [
+    {
+      question: "居家護理所評鑑「經營管理」區塊佔幾分？",
+      answer: "「經營管理」區塊（A1–A5）佔總評分 45%，其中 A5 機構經營指標監測獨佔 15%，是本區塊最高權重的單一項目。",
+    },
+    {
+      question: "A5 必須監測哪五項機構經營指標？",
+      answer: "依 115 年度評鑑基準，五項固定指標為：（1）平均個案管理人數、（2）護理人員離職率、（3）個案非計畫性住院率、（4）個案急診使用率、（5）皮膚損傷發生率。機構須定期統計分析並對超過閾值的指標提出改善措施。",
+    },
+  ],
 });
 
 export default function HomeNursingManagementPage() {

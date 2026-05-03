@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "strategy",
+  section,
   name: "1.1 醫院經營策略（醫院評鑑項目 1–5）",
   description:
     "醫院評鑑「醫院經營策略」5 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/strategy",
 });
 
 export default function HospitalStrategyPage() {

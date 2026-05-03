@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -26,16 +26,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "安")!;
+const section = requireSection(elderlyWelfareProfile.sections, "安");
 
 const tips = elderlyWelfareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "elderly-welfare",
+  subpage: "safety-environment",
+  section,
   name: "C、安全環境設備（老人福利機構評鑑基準項目 47–62）",
   description:
     "老人福利機構評鑑基準「安全環境設備」16 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/elderly-welfare/safety-environment",
 });
 
 export default function ElderlyWelfareSafetyEnvironmentPage() {

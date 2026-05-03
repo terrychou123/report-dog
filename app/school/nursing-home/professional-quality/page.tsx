@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
@@ -28,16 +28,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = nursingHomeProfile.sections.find((s) => s.shortCode === "專")!;
+const section = requireSection(nursingHomeProfile.sections, "專");
 
 const tips = nursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "nursing-home",
+  subpage: "professional-quality",
+  section,
   name: "B、專業照護品質（住宿型照顧機構評鑑基準項目 10–38）",
   description:
     "住宿型照顧機構評鑑基準「專業照護品質」29 個評鑑項目詳細說明、準備要訣與實用提示（115年度全國版）。",
-  path: "/school/nursing-home/professional-quality",
 });
 
 export default function NursingHomeProfessionalQualityPage() {

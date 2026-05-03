@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -30,12 +30,13 @@ const section = homeCareProfile.sections[0]; // 壹、個案權益保障
 
 const tips = homeCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "home-care",
+  subpage: "client-rights",
+  section,
   name: "壹、個案權益保障（居家服務機構評鑑基準項目 1–4）",
   description:
     "居家服務機構評鑑基準「個案權益保障」4 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/home-care/client-rights",
 });
 
 export default function ClientRightsPage() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
 };
 
-const section = daycareProfile.sections.find((s) => s.shortCode === "專")!;
+const section = requireSection(daycareProfile.sections, "專");
 
 // 子分類定義（對應 115 年度基準書結構）
 const subCategories = [
@@ -39,12 +39,13 @@ const subCategories = [
 
 const tips = daycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "daycare",
+  subpage: "professional-quality",
+  section,
   name: "貳、專業照護品質（日間照顧機構評鑑基準項目 5–22）",
   description:
     "115 年度日間照顧機構評鑑基準「專業照護品質」18 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/daycare/professional-quality",
 });
 
 export default function DaycareProfessionalQualityPage() {

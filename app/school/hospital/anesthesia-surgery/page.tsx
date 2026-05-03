@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "anesthesia-surgery",
+  section,
   name: "2.6 麻醉與手術（醫院評鑑基準項目 99–107）",
   description:
     "醫院評鑑基準「麻醉與手術」9 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/anesthesia-surgery",
 });
 
 export default function HospitalAnesthesiaSurgeryPage() {

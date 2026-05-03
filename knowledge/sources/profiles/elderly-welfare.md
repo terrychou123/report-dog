@@ -4,7 +4,7 @@ source_type: profile
 facility_type: elderly-welfare
 label: 老人福利機構
 description: 115年度老人福利機構評鑑指標
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 老人福利機構 評鑑基準

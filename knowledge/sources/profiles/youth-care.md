@@ -4,7 +4,7 @@ source_type: profile
 facility_type: youth-care
 label: 兒少安置機構
 description: 112年度兒童及少年安置機構評鑑指標
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 兒少安置機構 評鑑基準

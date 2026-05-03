@@ -132,4 +132,5 @@ export default function PageName() {
 - DocsTip variant: `"warning"` 用於必須注意的扣分風險，`"info"` 用於操作建議，`"neutral"` 用於補充說明
 - B1 是「全符合 5 項」類型，需在 tip 特別說明
 - B3 是加分項目，tip 說明非必要但建議備妥佐證
-- A2 有【試評】項目，tip 需特別說明試評意義
+- A2 有【試評，本年度不計分】項目，tip 需說明試評意義、排除禁忌症、仍建議備妥記錄
+- A5 的 5 項指標為官方**固定名稱**，不可自行替換，SSOT 見 `lib/ai/evaluation-profiles/home-nursing.ts`

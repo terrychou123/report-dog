@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const allItems = healthSections.flatMap((s) => s.items);
 
 const tips = infantDaycareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "infant-daycare",
+  subpage: "health-safety",
+  section: healthSections,
   name: "托嬰中心評鑑：三、健康安全",
   description:
     "臺北市114-116年度托嬰中心評鑑三、健康安全24項基準完整解說，涵蓋健康管理、飲食衛生、給藥管理、環境設備安全及感染管制。",
-  path: "/school/infant-daycare/health-safety",
 });
 
 export default function InfantDaycareHealthSafetyPage() {

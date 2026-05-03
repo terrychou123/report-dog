@@ -2,7 +2,7 @@
 type: source
 source_type: supplementary-sheets
 facility_type: elderly-welfare
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 老人福利機構 附件表單定義

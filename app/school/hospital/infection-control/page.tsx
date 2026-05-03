@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "infection-control",
+  section,
   name: "2.7 感染管制（醫院評鑑基準項目 108–110）",
   description:
     "醫院評鑑基準「感染管制」3 個必要評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/infection-control",
 });
 
 export default function HospitalInfectionControlPage() {

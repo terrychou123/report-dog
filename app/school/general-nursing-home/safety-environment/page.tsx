@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-nursing-home";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -35,12 +35,13 @@ const section = (() => {
 
 const tips = generalNursingHomeTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "general-nursing-home",
+  subpage: "safety-environment",
+  section,
   name: "C、環境設施與安全維護（一般護理之家評鑑基準項目 9–12）",
   description:
     "一般護理之家評鑑基準「環境設施與安全維護」4 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/general-nursing-home/safety-environment",
 });
 
 export default function GeneralNursingHomeSafetyEnvironmentPage() {

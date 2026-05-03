@@ -4,7 +4,7 @@ source_type: profile
 facility_type: infant-daycare
 label: 托嬰中心
 description: 臺北市114-116年度托嬰中心評鑑指標
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 托嬰中心 評鑑基準

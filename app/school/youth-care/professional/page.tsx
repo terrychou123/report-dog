@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,11 +37,12 @@ const guidanceItem = generalItems.find((item) => item.id === 16);
 
 const tips = youthCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "youth-care",
+  subpage: "professional",
+  section,
   name: "兒少安置機構評鑑：參、專業服務",
   description: "112年度兒少安置機構評鑑專業服務14項基準完整解說，包含個案紀錄、輔導目標、專業服務品質（2歲以下及2歲以上兩版本）、權益保障、資源結合及專業訓練。",
-  path: "/school/youth-care/professional",
 });
 
 export default function YouthCareProfessionalPage() {

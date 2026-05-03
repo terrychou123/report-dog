@@ -4,7 +4,7 @@ source_type: profile
 facility_type: home-care
 label: 居家服務機構
 description: 115年度臺北市政府社會局居家服務機構評鑑基準
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 居家服務機構 評鑑基準

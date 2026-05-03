@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -37,12 +37,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "staff-support",
+  section,
   name: "1.2 員工管理與支持制度（醫院評鑑項目 6–12）",
   description:
     "醫院評鑑「員工管理與支持制度」7 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/staff-support",
 });
 
 export default function HospitalStaffSupportPage() {

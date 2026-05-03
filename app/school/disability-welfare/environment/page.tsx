@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -44,12 +44,13 @@ const section = (() => {
 
 const tips = disabilityWelfareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "disability-welfare",
+  subpage: "environment",
+  section,
   name: "二、環境設施及安全維護（109年度身心障礙福利機構評鑑指標項目 12–31）",
   description:
     "109年度身心障礙福利機構評鑑指標「環境設施及安全維護」20 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/disability-welfare/environment",
 });
 
 export default function DisabilityWelfareEnvironmentPage() {

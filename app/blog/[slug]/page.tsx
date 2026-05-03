@@ -8,7 +8,8 @@ import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
 import { cacheTag } from "next/cache";
 import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
-import { blogPostingJsonLd } from "@/lib/jsonld";
+import { blogPostingJsonLd, howToJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
+import { extractBlogJsonLdData } from "@/lib/blog-jsonld-extract";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
 import { BookOpenIcon, DownloadIcon } from "lucide-react";
 
@@ -33,12 +34,14 @@ async function getPost(slug: string) {
   const [post] = await db.select().from(blogPosts).where(eq(blogPosts.slug, slug));
   if (!post) return undefined;
   // 在快取邊界內執行 HTML 清理，避免 Server Component 預渲染時的 Math.random() 限制
-  return {
-    ...post,
-    content: post.content
-      ? sanitizeHtml(post.content, blogSanitizeOptions)
-      : post.content,
-  };
+  const sanitized = post.content
+    ? sanitizeHtml(post.content, blogSanitizeOptions)
+    : post.content;
+  // render-time 萃取 HowTo/FAQ schema 資料，同時為 h2 注入 anchor id
+  const { contentWithIds, howtoSteps, faqItems } = sanitized
+    ? extractBlogJsonLdData(sanitized, slug)
+    : { contentWithIds: sanitized, howtoSteps: undefined, faqItems: undefined };
+  return { ...post, content: contentWithIds, howtoSteps, faqItems };
 }
 
 export async function generateStaticParams() {
@@ -81,7 +84,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   if (!post || post.status !== "published") notFound();
 
-  const structuredData = blogPostingJsonLd({
+  const blogPosting = blogPostingJsonLd({
     title: post.title,
     description: post.seoDescription || post.excerpt || undefined,
     slug: post.slug,
@@ -90,6 +93,21 @@ export default async function BlogPostPage({ params }: Props) {
     coverImageUrl: post.coverImageUrl || undefined,
     category: post.category || undefined,
   });
+
+  const howto = post.howtoSteps
+    ? howToJsonLd({
+        name: post.title,
+        description: post.seoDescription || post.excerpt || post.title,
+        path: `/blog/${post.slug}`,
+        steps: post.howtoSteps,
+      })
+    : undefined;
+
+  const faq = post.faqItems
+    ? faqPageJsonLd(post.faqItems, `/blog/${post.slug}`)
+    : undefined;
+
+  const structuredData = mergeJsonLdGraph(blogPosting, howto, faq);
 
   const facilityInfo = getFacilityInfoFromPost(post.category, post.tags, post.slug);
 

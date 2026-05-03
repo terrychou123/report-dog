@@ -26,6 +26,9 @@ import { buildHomeCareItem26CustomSheets } from "./home-care-item-26-custom";
 import { buildHomeCareItem27CustomSheets } from "./home-care-item-27-custom";
 import { buildHomeCareItem29CustomSheets } from "./home-care-item-29-custom";
 import { buildHomeCareItem30CustomSheets } from "./home-care-item-30-custom";
+import { buildHomeNursingItem2CustomSheets } from "./home-nursing-item-2-custom";
+import { buildHomeNursingItem3CustomSheets } from "./home-nursing-item-3-custom";
+import { buildHomeNursingItem4CustomSheets } from "./home-nursing-item-4-custom";
 import { buildNursingHomeItem1CustomSheets } from "./nursing-home-item-1-custom";
 import { buildNursingHomeItem2CustomSheets } from "./nursing-home-item-2-custom";
 import { buildNursingHomeItem3CustomSheets } from "./nursing-home-item-3-custom";
@@ -105,6 +108,11 @@ const CUSTOM_SHEET_BUILDERS: Record<string, Record<number, CustomSheetBuilder>> 
     24: buildDaycareItem24CustomSheets,
     35: buildDaycareItem35CustomSheets,
     45: buildDaycareItem45CustomSheets,
+  },
+  "home-nursing": {
+    2: buildHomeNursingItem2CustomSheets,
+    3: buildHomeNursingItem3CustomSheets,
+    4: buildHomeNursingItem4CustomSheets,
   },
   "home-care": {
     2:  buildHomeCareItem2CustomSheets,

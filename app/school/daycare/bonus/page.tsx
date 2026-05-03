@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -29,14 +29,15 @@ export const metadata: Metadata = {
   },
 };
 
-const section = daycareProfile.sections.find((s) => s.shortCode === "加")!;
+const section = requireSection(daycareProfile.sections, "加");
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "daycare",
+  subpage: "bonus",
+  section,
   name: "伍、加分題（日間照顧機構評鑑基準項目 44–45）",
   description:
     "115 年度日間照顧機構評鑑 2 項加分題詳細說明、準備要訣與法規依據。",
-  path: "/school/daycare/bonus",
 });
 
 export default function DaycareBonusPage() {

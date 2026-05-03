@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
@@ -31,12 +31,13 @@ const section = homeCareProfile.sections[1]; // 貳、專業照護品質
 
 const tips = homeCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "home-care",
+  subpage: "professional-quality",
+  section,
   name: "貳、專業照護品質（居家服務機構評鑑基準項目 5–14）",
   description:
     "居家服務機構評鑑基準「專業照護品質」10 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/home-care/professional-quality",
 });
 
 export default function ProfessionalQualityPage() {

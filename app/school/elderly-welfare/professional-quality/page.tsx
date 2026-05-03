@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -26,16 +26,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = elderlyWelfareProfile.sections.find((s) => s.shortCode === "專")!;
+const section = requireSection(elderlyWelfareProfile.sections, "專");
 
 const tips = elderlyWelfareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "elderly-welfare",
+  subpage: "professional-quality",
+  section,
   name: "B、專業照護品質（老人福利機構評鑑基準項目 16–46）",
   description:
     "老人福利機構評鑑基準「專業照護品質」31 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/elderly-welfare/professional-quality",
 });
 
 export default function ElderlyWelfareProfessionalQualityPage() {

@@ -4,7 +4,7 @@ source_type: profile
 facility_type: disability-welfare
 label: 身心障礙福利機構
 description: 109年度身心障礙福利機構評鑑指標，涵蓋行政組織及經營管理、環境設施及安全維護、專業服務三大面向。
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 身心障礙福利機構 評鑑基準

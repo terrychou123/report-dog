@@ -4,7 +4,7 @@ source_type: profile
 facility_type: hospital
 label: 醫院評鑑
 description: 114 年度衛生福利部醫院評鑑基準（區域醫院、地區醫院適用）
-extracted_at: 2026-04-08
+extracted_at: 2026-05-03
 ---
 
 # 醫院評鑑 評鑑基準

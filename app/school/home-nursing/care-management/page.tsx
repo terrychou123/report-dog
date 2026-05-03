@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
 import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
@@ -30,16 +30,17 @@ export const metadata: Metadata = {
   },
 };
 
-const section = homeNursingProfile.sections.find((s) => s.shortCode === "B")!;
+const section = requireSection(homeNursingProfile.sections, "B");
 
 const tips = homeNursingTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "home-nursing",
+  subpage: "care-management",
+  section,
   name: "B、照護管理（居家護理所評鑑基準項目 6–8）",
   description:
     "居家護理所評鑑基準「照護管理」3 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/home-nursing/care-management",
 });
 
 export default function HomeNursingCareManagementPage() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
@@ -30,12 +30,13 @@ const section = homeCareProfile.sections[3]; // 加分題
 
 const tips = homeCareTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "home-care",
+  subpage: "bonus",
+  section,
   name: "加分題（居家服務機構評鑑基準項目 31–32）",
   description:
     "居家服務機構評鑑基準加分題 2 個項目詳細說明：創新服務或社區資源連結、照顧者支持服務。",
-  path: "/school/home-care/bonus",
 });
 
 export default function BonusPage() {

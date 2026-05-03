@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
@@ -38,12 +38,13 @@ const section = (() => {
 
 const tips = hospitalTips;
 
-const jsonLd = educationalContentJsonLd({
-  type: "LearningResource",
+const jsonLd = schoolSubpageJsonLd({
+  type: "hospital",
+  subpage: "patient-services",
+  section,
   name: "1.6 病人導向之服務與管理（醫院評鑑基準項目 34–37）",
   description:
     "醫院評鑑基準「病人導向之服務與管理」4 個評鑑項目詳細說明、準備要訣與實用提示。",
-  path: "/school/hospital/patient-services",
 });
 
 export default function HospitalPatientServicesPage() {
