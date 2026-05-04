@@ -64,6 +64,13 @@
       "when": 1776265749901,
       "tag": "0008_cool_lizard",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1777872135994,
+      "tag": "0009_smart_frightful_four",
+      "breakpoints": true
     }
   ]
 }

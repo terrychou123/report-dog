@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { techArticleJsonLd } from "@/lib/jsonld";
+import { SoapDemo } from "@/components/demo/soap-demo";
 
 export const metadata: Metadata = {
   title: "SOAP 寫法 AI 改寫",
@@ -90,6 +91,11 @@ export default function SoapWritingPage() {
         長照實務常用進階版本 <strong>SOAPIE</strong>（多加 Implementation 執行、Evaluation 評值）或 <strong>SOAPIER</strong>（再加 Revision 修訂），
         適合評鑑週期長（每 3∼6 個月一評）的住宿型與居家服務情境。
       </p>
+
+      {/* 互動 demo：讓讀者在繼續閱讀前直接體驗 */}
+      <div className="not-prose my-8">
+        <SoapDemo variant="hero" defaultExampleId="home-nursing" />
+      </div>
 
       <h2>哪些機構評鑑指標適合用 SOAP？</h2>
       <p>以下機構的評鑑指標要求「個案評估 + 照護計畫 + 定期評值」，天然符合 SOAP 四段迴圈：</p>

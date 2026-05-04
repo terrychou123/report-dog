@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
+import { SoapDemo } from "@/components/demo/soap-demo";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
@@ -312,6 +313,20 @@ export default function Home() {
               查看完整教學 →
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* SOAP AI Demo — 公開體驗，無需登入 */}
+      <section className="border-y bg-gradient-to-b from-background to-muted/20 py-20 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-8">
+            <Badge variant="outline" className="mb-3">免費體驗 · 無需註冊</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">親手試試 AI 轉 SOAP</h2>
+            <p className="text-muted-foreground max-w-xl mx-auto">
+              把雜亂的護理記錄貼上，AI 立刻幫你拆成 S／O／A／P 四段式
+            </p>
+          </div>
+          <SoapDemo variant="hero" />
         </div>
       </section>
 

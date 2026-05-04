@@ -126,6 +126,20 @@ export const aiUsage = pgTable('ai_usage', {
   userDateBucketUniq: uniqueIndex('ai_usage_user_id_date_bucket_idx').on(t.userId, t.dateBucket),
 }));
 
+// 公開 demo AI 用量限流（不需登入，以 IP hash 為 key）
+export const publicAiUsage = pgTable('public_ai_usage', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  ipHash: varchar('ip_hash', { length: 64 }).notNull(), // sha256 hex
+  route: varchar('route', { length: 100 }).notNull(),   // 'demo-soap'
+  dateBucket: varchar('date_bucket', { length: 10 }).notNull(),
+  count: integer('count').default(1).notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => ({
+  // 同一 IP 同一路由同一 UTC 日只有一筆，透過 ON CONFLICT UPDATE 遞增 count
+  ipDateRouteUniq: uniqueIndex('public_ai_usage_ip_date_route_idx').on(t.ipHash, t.dateBucket, t.route),
+}));
+
 export const blogPosts = pgTable('blog_posts', {
   id: uuid('id').defaultRandom().primaryKey(),
   slug: text('slug').notNull().unique(),
