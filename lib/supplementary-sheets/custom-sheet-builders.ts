@@ -95,6 +95,16 @@ import { buildNursingHomeItem63CustomSheets } from "./nursing-home-item-63-custo
 import { buildNursingHomeItem64CustomSheets } from "./nursing-home-item-64-custom";
 import { buildNursingHomeItem65CustomSheets } from "./nursing-home-item-65-custom";
 import { buildNursingHomeItem66CustomSheets } from "./nursing-home-item-66-custom";
+import { buildGeneralNursingHomeItem2CustomSheets } from "./general-nursing-home-item-2-custom";
+import { buildGeneralNursingHomeItem3CustomSheets } from "./general-nursing-home-item-3-custom";
+import { buildGeneralNursingHomeItem4CustomSheets } from "./general-nursing-home-item-4-custom";
+import { buildGeneralNursingHomeItem5CustomSheets } from "./general-nursing-home-item-5-custom";
+import { buildGeneralNursingHomeItem6CustomSheets } from "./general-nursing-home-item-6-custom";
+import { buildGeneralNursingHomeItem7CustomSheets } from "./general-nursing-home-item-7-custom";
+import { buildGeneralNursingHomeItem8CustomSheets } from "./general-nursing-home-item-8-custom";
+import { buildGeneralNursingHomeItem9CustomSheets } from "./general-nursing-home-item-9-custom";
+import { buildGeneralNursingHomeItem11CustomSheets } from "./general-nursing-home-item-11-custom";
+import { buildGeneralNursingHomeItem12CustomSheets } from "./general-nursing-home-item-12-custom";
 
 type CustomSheetBuilder = () => SheetData[];
 
@@ -130,6 +140,18 @@ const CUSTOM_SHEET_BUILDERS: Record<string, Record<number, CustomSheetBuilder>> 
     27: buildHomeCareItem27CustomSheets,
     29: buildHomeCareItem29CustomSheets,
     30: buildHomeCareItem30CustomSheets,
+  },
+  "general-nursing-home": {
+    2:  buildGeneralNursingHomeItem2CustomSheets,
+    3:  buildGeneralNursingHomeItem3CustomSheets,
+    4:  buildGeneralNursingHomeItem4CustomSheets,
+    5:  buildGeneralNursingHomeItem5CustomSheets,
+    6:  buildGeneralNursingHomeItem6CustomSheets,
+    7:  buildGeneralNursingHomeItem7CustomSheets,
+    8:  buildGeneralNursingHomeItem8CustomSheets,
+    9:  buildGeneralNursingHomeItem9CustomSheets,
+    11: buildGeneralNursingHomeItem11CustomSheets,
+    12: buildGeneralNursingHomeItem12CustomSheets,
   },
   "nursing-home": {
     1:  buildNursingHomeItem1CustomSheets,
