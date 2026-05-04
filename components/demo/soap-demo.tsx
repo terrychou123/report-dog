@@ -5,8 +5,10 @@ import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Label } from '@/components/ui/label';
+import { Checkbox } from '@/components/ui/checkbox';
 import { toast } from 'sonner';
-import { SparklesIcon, SquareIcon, ChevronRightIcon } from 'lucide-react';
+import { SparklesIcon, Loader2Icon, ChevronRightIcon } from 'lucide-react';
 import { SOAP_DEMO_EXAMPLES, SOAP_DEMO_DAILY_LIMIT, SOAP_DEMO_MAX_NOTE_LENGTH } from '@/lib/ai/soap-demo-examples';
 import { TrialButton } from '@/components/trial-button';
 import Link from 'next/link';
@@ -14,7 +16,6 @@ import Link from 'next/link';
 // 從串流文字中解析 S/O/A/P 四個段落
 function parseSoap(text: string): Record<string, string> {
   const sections: Record<string, string> = { S: '', O: '', A: '', P: '' };
-  // 匹配「S（主觀資料 Subjective）：」等開頭
   const pattern = /([SOAP])（[^）]+）：\s*([\s\S]*?)(?=(?:[SOAP]（[^）]+）：)|$)/g;
   let match;
   while ((match = pattern.exec(text)) !== null) {
@@ -42,13 +43,13 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
   const defaultEx = SOAP_DEMO_EXAMPLES.find(e => e.id === defaultExampleId) ?? SOAP_DEMO_EXAMPLES[0];
   const [exampleId, setExampleId] = useState(defaultEx.id);
   const [rawNote, setRawNote] = useState(defaultEx.rawNote);
+  const [instruction, setInstruction] = useState('');
   const [output, setOutput] = useState('');
   const [loading, setLoading] = useState(false);
   const [remaining, setRemaining] = useState<number | null>(null);
   const [limitReached, setLimitReached] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
 
-  // 切換範例時更新 textarea（若使用者已手動修改則不自動覆蓋以外的情境）
   const handleExampleChange = (id: string) => {
     const ex = SOAP_DEMO_EXAMPLES.find(e => e.id === id);
     if (!ex) return;
@@ -58,12 +59,17 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
     setLimitReached(false);
   };
 
+  const handleCancel = () => {
+    abortRef.current?.abort();
+    setLoading(false);
+    setOutput('');
+    setInstruction('');
+    const ex = SOAP_DEMO_EXAMPLES.find(e => e.id === exampleId);
+    if (ex) setRawNote(ex.rawNote);
+    setLimitReached(false);
+  };
+
   const handleConvert = async () => {
-    if (loading) {
-      abortRef.current?.abort();
-      setLoading(false);
-      return;
-    }
     if (!rawNote.trim()) {
       toast.error('請輸入護理記錄內容');
       return;
@@ -79,7 +85,10 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
       const res = await fetch('/api/demo/soap', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ rawNote }),
+        body: JSON.stringify({
+          rawNote,
+          ...(instruction.trim() ? { instruction: instruction.trim() } : {}),
+        }),
         signal: controller.signal,
       });
 
@@ -95,7 +104,6 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
         return;
       }
 
-      // 讀取剩餘次數 header
       const rem = res.headers.get('X-Demo-Remaining');
       if (rem !== null) setRemaining(parseInt(rem, 10));
 
@@ -131,12 +139,12 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
         <div>
           <div className="flex items-center gap-2 flex-wrap">
             <h3 className={`font-semibold text-foreground ${isInline ? 'text-base' : 'text-lg'}`}>
-              親自體驗：AI 一秒把護理記錄轉成 SOAP
+              AI 修改助手
             </h3>
-            <Badge variant="secondary" className="text-xs">免費體驗 · 無需註冊</Badge>
+            <Badge variant="secondary" className="text-xs">體驗版 · 免費體驗 · 無需註冊</Badge>
           </div>
           <p className="text-sm text-muted-foreground mt-0.5">
-            選一個情境，或把自己的記錄貼上來，看看 AI 怎麼整理成 S/O/A/P 四段式
+            選一個情境，立即體驗 AI 如何將護理記錄改寫成 SOAP
           </p>
         </div>
       </div>
@@ -152,75 +160,102 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
         </TabsList>
       </Tabs>
 
-      {/* 主體：輸入 + 輸出 */}
-      <div className={`grid gap-4 ${isInline ? 'grid-cols-1 lg:grid-cols-2' : 'grid-cols-1 md:grid-cols-2'}`}>
-        {/* 左側：原文輸入 */}
-        <div className="flex flex-col gap-2">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">護理記錄原文</span>
-            <span className={`text-xs ${rawNote.length > SOAP_DEMO_MAX_NOTE_LENGTH - 50 ? 'text-destructive' : 'text-muted-foreground'}`}>
-              {rawNote.length} / {SOAP_DEMO_MAX_NOTE_LENGTH}
-            </span>
-          </div>
+      <div className="space-y-4">
+        {/* 1. 選取儲存格 */}
+        <div>
+          <Label className="text-xs text-muted-foreground mb-1.5 block">選取儲存格</Label>
           <Textarea
             value={rawNote}
             onChange={e => setRawNote(e.target.value)}
             maxLength={SOAP_DEMO_MAX_NOTE_LENGTH}
             placeholder="把護理記錄貼到這裡…"
-            className={`resize-none font-sans text-sm leading-relaxed ${isInline ? 'min-h-[180px]' : 'min-h-[220px]'}`}
+            disabled={loading}
+            className={`resize-none font-sans text-sm leading-relaxed bg-muted border-0 focus-visible:ring-1 ${isInline ? 'min-h-[140px]' : 'min-h-[160px]'}`}
           />
+          <div className="flex justify-end mt-1">
+            <span className={`text-xs ${rawNote.length > SOAP_DEMO_MAX_NOTE_LENGTH - 50 ? 'text-destructive' : 'text-muted-foreground'}`}>
+              {rawNote.length} / {SOAP_DEMO_MAX_NOTE_LENGTH}
+            </span>
+          </div>
+        </div>
+
+        {/* 2. 修改指令 + SOAP Checkbox（鎖定勾選）*/}
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <Label htmlFor="demo-instruction">修改指令</Label>
+            <div className="flex items-center gap-1.5">
+              <Checkbox
+                id="demo-soap-mode"
+                checked
+                disabled
+                className="opacity-70"
+              />
+              <Label htmlFor="demo-soap-mode" className="text-sm font-medium cursor-default select-none">SOAP</Label>
+            </div>
+          </div>
+          <Textarea
+            id="demo-instruction"
+            placeholder="改寫成：主觀S、客觀O、評估A、計畫P四段結構。若還有其他需求，可在此說明（例：精簡用字、加入具體數值範圍等等）"
+            value={instruction}
+            onChange={e => setInstruction(e.target.value)}
+            rows={3}
+            disabled={loading}
+            className="resize-none text-sm"
+          />
+          <p className="text-xs text-muted-foreground">體驗版固定為 SOAP 模式，正式版可自由切換</p>
+        </div>
+
+        {/* 3. 按鈕列 */}
+        <div className="flex justify-end gap-2">
+          <Button variant="outline" onClick={handleCancel}>
+            取消
+          </Button>
           <Button
             onClick={handleConvert}
-            disabled={limitReached || remaining === 0}
-            variant={loading ? 'outline' : 'accent'}
-            className="w-full gap-2"
+            disabled={loading || limitReached || remaining === 0}
+            className="gap-2"
           >
             {loading ? (
               <>
-                <SquareIcon className="w-4 h-4" strokeWidth={1.8} />
-                停止
+                <Loader2Icon className="w-4 h-4 animate-spin" />
+                AI 思考中…
               </>
             ) : (
               <>
                 <SparklesIcon className="w-4 h-4" strokeWidth={1.8} />
-                AI 轉成 SOAP
+                送出
               </>
             )}
           </Button>
         </div>
 
-        {/* 右側：SOAP 輸出 */}
-        <div className="flex flex-col gap-2">
-          <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">SOAP 格式輸出</span>
-          {limitReached ? (
-            <div className="flex-1 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/20 p-4 flex flex-col items-center justify-center gap-3 text-center min-h-[180px]">
-              <SparklesIcon className="w-8 h-8 text-amber-500" strokeWidth={1.5} />
-              <div>
-                <p className="text-sm font-semibold text-amber-800 dark:text-amber-200">今日免費體驗次數已用完</p>
-                <p className="text-xs text-amber-700 dark:text-amber-300 mt-1">明天 UTC 00:00 自動重置，或立即免費註冊解鎖無限次使用</p>
-              </div>
-              <TrialButton>免費試用（無需註冊）</TrialButton>
-            </div>
-          ) : !hasOutput ? (
-            <div className={`flex-1 rounded-xl border border-dashed border-muted-foreground/25 bg-muted/30 flex items-center justify-center text-center p-4 ${isInline ? 'min-h-[180px]' : 'min-h-[220px]'}`}>
-              <div className="text-muted-foreground/50">
-                <p className="text-sm">按下「AI 轉成 SOAP」後</p>
-                <p className="text-sm">這裡會出現四段式結果</p>
-              </div>
-            </div>
-          ) : (
-            <div className={`flex-1 flex flex-col gap-2 ${isInline ? 'min-h-[180px]' : 'min-h-[220px]'}`}>
-              {SECTION_META.map(({ key, label, color }) => (
-                <div key={key} className={`rounded-lg border p-3 flex-1 ${color}`}>
-                  <p className="text-xs font-bold text-foreground/70 mb-1">{label}</p>
-                  <p className="text-sm leading-relaxed whitespace-pre-wrap text-foreground">
-                    {parsed[key] || (loading ? <span className="opacity-40">生成中…</span> : '')}
-                  </p>
+        {/* 4. AI 建議修改（載入中或有輸出時顯示）*/}
+        {(hasOutput || limitReached || loading) && (
+          <div>
+            <Label className="text-xs text-muted-foreground mb-1.5 block">AI 建議修改</Label>
+            {limitReached ? (
+              <div className="rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/20 p-4 flex flex-col items-center justify-center gap-3 text-center min-h-[140px]">
+                <SparklesIcon className="w-8 h-8 text-amber-500" strokeWidth={1.5} />
+                <div>
+                  <p className="text-sm font-semibold text-amber-800 dark:text-amber-200">今日免費體驗次數已用完</p>
+                  <p className="text-xs text-amber-700 dark:text-amber-300 mt-1">明天 UTC 00:00 自動重置，或立即免費註冊解鎖無限次使用</p>
                 </div>
-              ))}
-            </div>
-          )}
-        </div>
+                <TrialButton>免費試用（無需註冊）</TrialButton>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-2">
+                {SECTION_META.map(({ key, label, color }) => (
+                  <div key={key} className={`rounded-lg border p-3 ${color}`}>
+                    <p className="text-xs font-bold text-foreground/70 mb-1">{label}</p>
+                    <p className="text-sm leading-relaxed whitespace-pre-wrap text-foreground">
+                      {parsed[key] || (loading ? <span className="opacity-40">生成中…</span> : '')}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {/* 底部資訊列 + CTA */}

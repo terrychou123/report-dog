@@ -38,9 +38,11 @@ P（計畫 Plan）：
 export async function POST(req: NextRequest) {
   // 1. 解析請求
   let rawNote: string;
+  let instruction: string | undefined;
   try {
     const body = await req.json();
     rawNote = body?.rawNote;
+    instruction = body?.instruction;
   } catch {
     return NextResponse.json({ error: '無效的請求格式' }, { status: 400 });
   }
@@ -51,6 +53,15 @@ export async function POST(req: NextRequest) {
 
   if (rawNote.length > SOAP_DEMO_MAX_NOTE_LENGTH) {
     return NextResponse.json({ error: `護理記錄內容不得超過 ${SOAP_DEMO_MAX_NOTE_LENGTH} 字` }, { status: 400 });
+  }
+
+  if (instruction !== undefined) {
+    if (typeof instruction !== 'string') {
+      return NextResponse.json({ error: '指令格式錯誤' }, { status: 400 });
+    }
+    if (instruction.length > 200) {
+      return NextResponse.json({ error: '修改指令不得超過 200 字' }, { status: 400 });
+    }
   }
 
   // 2. IP 限流（PUBLIC_DEMO_SALT 缺值時會 throw → 500）
@@ -78,16 +89,24 @@ export async function POST(req: NextRequest) {
 
   // 3. 呼叫 AI 並串流回傳
   const openai = createOpenRouterClient();
+  const messages: { role: 'system' | 'user'; content: string }[] = [
+    { role: 'system', content: SOAP_SYSTEM_PROMPT },
+    { role: 'user', content: rawNote },
+  ];
+  if (instruction?.trim()) {
+    messages.push({
+      role: 'user',
+      content: `補充指令：${instruction.trim()}\n（請在保持 SOAP 四段式結構的前提下融入此調整）`,
+    });
+  }
+
   let stream: Awaited<ReturnType<typeof openai.chat.completions.create>>;
   try {
     stream = await openai.chat.completions.create({
       model: 'anthropic/claude-sonnet-4.6',
       stream: true,
       max_tokens: 800,
-      messages: [
-        { role: 'system', content: SOAP_SYSTEM_PROMPT },
-        { role: 'user', content: rawNote },
-      ],
+      messages,
     }, { signal: req.signal });
   } catch (e) {
     console.error('OpenRouter call failed:', e);
