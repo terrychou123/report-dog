@@ -21,7 +21,7 @@ export function getClientIpHash(req: NextRequest): string {
   // x-real-ip：Vercel 注入的真實 IP（第二優先）
   // x-forwarded-for 最右側：取最後一個 hop（CDN 或 Vercel 注入），避免客戶端偽造最左側
   const ip =
-    req.ip ??
+    (req as NextRequest & { ip?: string }).ip ??
     req.headers.get('x-real-ip') ??
     req.headers.get('x-forwarded-for')?.split(',').pop()?.trim() ??
     'unknown';
