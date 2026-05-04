@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { toast } from 'sonner';
 import { SparklesIcon, SquareIcon, ChevronRightIcon } from 'lucide-react';
-import { SOAP_DEMO_EXAMPLES } from '@/lib/ai/soap-demo-examples';
+import { SOAP_DEMO_EXAMPLES, SOAP_DEMO_DAILY_LIMIT, SOAP_DEMO_MAX_NOTE_LENGTH } from '@/lib/ai/soap-demo-examples';
 import { TrialButton } from '@/components/trial-button';
 import Link from 'next/link';
 
@@ -158,20 +158,20 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-between">
             <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">護理記錄原文</span>
-            <span className={`text-xs ${rawNote.length > 550 ? 'text-destructive' : 'text-muted-foreground'}`}>
-              {rawNote.length} / 600
+            <span className={`text-xs ${rawNote.length > SOAP_DEMO_MAX_NOTE_LENGTH - 50 ? 'text-destructive' : 'text-muted-foreground'}`}>
+              {rawNote.length} / {SOAP_DEMO_MAX_NOTE_LENGTH}
             </span>
           </div>
           <Textarea
             value={rawNote}
             onChange={e => setRawNote(e.target.value)}
-            maxLength={600}
+            maxLength={SOAP_DEMO_MAX_NOTE_LENGTH}
             placeholder="把護理記錄貼到這裡…"
             className={`resize-none font-sans text-sm leading-relaxed ${isInline ? 'min-h-[180px]' : 'min-h-[220px]'}`}
           />
           <Button
             onClick={handleConvert}
-            disabled={limitReached}
+            disabled={limitReached || remaining === 0}
             variant={loading ? 'outline' : 'accent'}
             className="w-full gap-2"
           >
@@ -229,7 +229,7 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
           {remaining !== null && !limitReached ? (
             <span>今日剩餘免費體驗：<strong className="text-foreground">{remaining}</strong> 次</span>
           ) : !limitReached ? (
-            <span>每個 IP 每日 {3} 次免費體驗</span>
+            <span>每個 IP 每日 {SOAP_DEMO_DAILY_LIMIT} 次免費體驗</span>
           ) : null}
         </div>
         <div className="flex items-center gap-2 flex-wrap">

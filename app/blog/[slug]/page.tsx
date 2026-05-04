@@ -19,17 +19,6 @@ import { SoapDemo } from "@/components/demo/soap-demo";
 
 type Props = { params: Promise<{ slug: string }> };
 
-// SOAP 相關文章清單：在這些文章頂部插入互動 AI demo
-const SOAP_SLUGS = new Set([
-  'home-nursing-soap-b2-evaluation-records',
-  'general-nursing-home-soap-b1-care-plan',
-  'nursing-home-soap-b2-interprofessional-records',
-  'psychiatric-nursing-home-soap-dar-records',
-  'hospital-soap-interprofessional-care-plan',
-  'home-care-simplified-soap-service-records',
-  'disability-welfare-soap-case-records-2026',
-]);
-
 // 每篇文章預設帶入最相關的範例情境（對應 soap-demo-examples.ts 的 id）
 const SOAP_SLUG_TO_EXAMPLE: Record<string, string> = {
   'home-nursing-soap-b2-evaluation-records': 'home-nursing',
@@ -40,6 +29,8 @@ const SOAP_SLUG_TO_EXAMPLE: Record<string, string> = {
   'home-care-simplified-soap-service-records': 'home-nursing',
   'disability-welfare-soap-case-records-2026': 'daycare',
 };
+
+const SOAP_SLUGS = new Set(Object.keys(SOAP_SLUG_TO_EXAMPLE));
 
 // 驗證圖片 URL 是否為合法的外部 https 連結或本地路徑
 function isValidImageUrl(url: string | null): url is string {

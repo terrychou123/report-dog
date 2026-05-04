@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import { NextRequest } from 'next/server';
 import { db } from '@/db';
 import { publicAiUsage } from '@/db/schema';
-import { and, eq, sql } from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
 
 function getUtcDateBucket(): string {
   const now = new Date();
@@ -17,10 +17,14 @@ export function getClientIpHash(req: NextRequest): string {
   const salt = process.env.PUBLIC_DEMO_SALT;
   if (!salt) throw new Error('PUBLIC_DEMO_SALT 環境變數未設定');
 
-  const forwarded = req.headers.get('x-forwarded-for');
-  const realIp = req.headers.get('x-real-ip');
-  // x-forwarded-for 可能是逗號分隔清單，取最左邊一筆（最接近客戶端）
-  const ip = (forwarded ? forwarded.split(',')[0].trim() : realIp) ?? 'unknown';
+  // req.ip：Vercel 直接注入，無法被客戶端偽造（最可靠）
+  // x-real-ip：Vercel 注入的真實 IP（第二優先）
+  // x-forwarded-for 最右側：取最後一個 hop（CDN 或 Vercel 注入），避免客戶端偽造最左側
+  const ip =
+    req.ip ??
+    req.headers.get('x-real-ip') ??
+    req.headers.get('x-forwarded-for')?.split(',').pop()?.trim() ??
+    'unknown';
 
   return crypto.createHmac('sha256', salt).update(ip).digest('hex');
 }
@@ -66,21 +70,3 @@ export async function checkAndRecordPublicUsage(
   };
 }
 
-/** 僅查詢不寫入，供前端顯示剩餘次數 */
-export async function getPublicUsageToday(
-  ipHash: string,
-  route: string,
-  limit: number,
-): Promise<PublicUsageResult> {
-  const dateBucket = getUtcDateBucket();
-  const [row] = await db
-    .select({ count: publicAiUsage.count })
-    .from(publicAiUsage)
-    .where(and(
-      eq(publicAiUsage.ipHash, ipHash),
-      eq(publicAiUsage.dateBucket, dateBucket),
-      eq(publicAiUsage.route, route),
-    ));
-  const used = row?.count ?? 0;
-  return { allowed: used < limit, used, limit, remaining: Math.max(0, limit - used) };
-}

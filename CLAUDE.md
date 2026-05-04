@@ -50,6 +50,7 @@ SUPABASE_SERVICE_ROLE_KEY=   # Admin operations (invite users, cron cleanup, res
 ADMIN_EMAIL=                 # Gate for /admin template management
 BLOG_ADMIN_EMAIL=            # Gate for /blog-admin
 CRON_SECRET=                 # Bearer token for Vercel cron job auth
+PUBLIC_DEMO_SALT=            # HMAC-SHA256 salt for IP hashing in public SOAP demo rate limiting (required — missing causes 500 on all demo requests)
 ```
 
 ## Architecture

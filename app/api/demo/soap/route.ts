@@ -1,8 +1,20 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createOpenRouterClient } from '@/lib/ai/openrouter-client';
 import { getClientIpHash, checkAndRecordPublicUsage } from '@/lib/ai/public-usage-limit';
+import { SOAP_DEMO_DAILY_LIMIT, SOAP_DEMO_MAX_NOTE_LENGTH } from '@/lib/ai/soap-demo-examples';
 
-const DEMO_LIMIT = 3; // 每個 IP 每 UTC 日最多 3 次
+const ALLOWED_ORIGIN = 'https://reportwang.com';
+
+export async function OPTIONS() {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
+      'Access-Control-Allow-Methods': 'POST',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    },
+  });
+}
 
 const SOAP_SYSTEM_PROMPT = `你是一位長照護理紀錄專家。請將使用者提供的護理紀錄改寫為標準 SOAP 格式，並嚴格按照以下格式輸出（不得有多餘說明或開頭語）：
 
@@ -37,8 +49,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: '請提供護理記錄內容' }, { status: 400 });
   }
 
-  if (rawNote.length > 600) {
-    return NextResponse.json({ error: '護理記錄內容不得超過 600 字' }, { status: 400 });
+  if (rawNote.length > SOAP_DEMO_MAX_NOTE_LENGTH) {
+    return NextResponse.json({ error: `護理記錄內容不得超過 ${SOAP_DEMO_MAX_NOTE_LENGTH} 字` }, { status: 400 });
   }
 
   // 2. IP 限流（PUBLIC_DEMO_SALT 缺值時會 throw → 500）
@@ -50,7 +62,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: '服務暫時無法使用' }, { status: 500 });
   }
 
-  const usage = await checkAndRecordPublicUsage(ipHash, 'demo-soap', DEMO_LIMIT);
+  const usage = await checkAndRecordPublicUsage(ipHash, 'demo-soap', SOAP_DEMO_DAILY_LIMIT);
   if (!usage.allowed) {
     return NextResponse.json(
       {
@@ -76,10 +88,10 @@ export async function POST(req: NextRequest) {
         { role: 'system', content: SOAP_SYSTEM_PROMPT },
         { role: 'user', content: rawNote },
       ],
-    });
+    }, { signal: req.signal });
   } catch (e) {
-    const message = e instanceof Error ? e.message : 'AI 服務暫時無法使用';
-    return NextResponse.json({ error: `AI 轉換失敗：${message}` }, { status: 502 });
+    console.error('OpenRouter call failed:', e);
+    return NextResponse.json({ error: 'AI 服務暫時無法使用' }, { status: 502 });
   }
 
   const readable = new ReadableStream({
@@ -99,7 +111,7 @@ export async function POST(req: NextRequest) {
   return new Response(readable, {
     headers: {
       'Content-Type': 'text/plain; charset=utf-8',
-      // 回傳剩餘次數供前端顯示（已用過這次，所以 remaining 已減）
+      'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
       'X-Demo-Remaining': String(usage.remaining),
       'X-Demo-Limit': String(usage.limit),
     },

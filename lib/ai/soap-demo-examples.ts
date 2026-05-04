@@ -1,3 +1,6 @@
+export const SOAP_DEMO_DAILY_LIMIT = 3;
+export const SOAP_DEMO_MAX_NOTE_LENGTH = 600;
+
 export interface SoapDemoExample {
   id: string;
   label: string;

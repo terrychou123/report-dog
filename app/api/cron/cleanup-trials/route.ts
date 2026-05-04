@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient as createAdminClient } from "@supabase/supabase-js";
 import { db } from "@/db";
-import { clients, kinds, reports } from "@/db/schema";
-import { notInArray } from "drizzle-orm";
+import { clients, kinds, reports, publicAiUsage } from "@/db/schema";
+import { notInArray, lt } from "drizzle-orm";
 
 export async function GET(req: NextRequest) {
   const auth = req.headers.get("authorization");
@@ -59,12 +59,22 @@ export async function GET(req: NextRequest) {
     .where(notInArray(reports.userId, existingUserIds))
     .returning({ id: reports.id });
 
+  // 清除 7 天前的公開 demo 限流記錄（避免資料表無限成長）
+  const cutoff = new Date();
+  cutoff.setUTCDate(cutoff.getUTCDate() - 7);
+  const cutoffBucket = cutoff.toISOString().slice(0, 10);
+  const deletedDemoUsage = await db
+    .delete(publicAiUsage)
+    .where(lt(publicAiUsage.dateBucket, cutoffBucket))
+    .returning({ id: publicAiUsage.id });
+
   return NextResponse.json({
     ok: true,
     deleted: {
       clients: deletedClients.length,
       kinds: deletedKinds.length,
       reports: deletedReports.length,
+      demoUsage: deletedDemoUsage.length,
     },
   });
 }
