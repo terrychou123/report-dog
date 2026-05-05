@@ -27,20 +27,35 @@ async function doUnsubscribe(token: string): Promise<"ok" | "invalid" | "not_fou
   return "ok";
 }
 
-// GET：瀏覽器點退訂連結 → 執行退訂 → redirect 確認頁
+// GET：瀏覽器點退訂連結 → redirect 確認頁（不直接退訂，防止 email 掃描器誤觸）
 export async function GET(req: NextRequest) {
   const token = req.nextUrl.searchParams.get("token") ?? "";
-  const status = await doUnsubscribe(token);
-  const dest = status === "ok"
-    ? "/newsletter/unsubscribed?ok=1"
-    : "/newsletter/unsubscribed?ok=0";
-  return NextResponse.redirect(new URL(dest, req.url));
+  if (!token) {
+    return NextResponse.redirect(new URL("/newsletter/unsubscribed?ok=0", req.url));
+  }
+  return NextResponse.redirect(
+    new URL(`/newsletter/unsubscribe?token=${encodeURIComponent(token)}`, req.url)
+  );
 }
 
-// POST：Gmail/Apple Mail List-Unsubscribe-Post 一鍵退訂
+// POST：
+// - RFC 8058 List-Unsubscribe-Post（body = "List-Unsubscribe=One-Click"）→ 回 JSON
+// - 確認頁表單提交 → 執行退訂 → redirect
 export async function POST(req: NextRequest) {
   const token = req.nextUrl.searchParams.get("token") ?? "";
+
+  let body = "";
+  try { body = await req.text(); } catch { /* ignore */ }
+  const isOneClick = body.trim() === "List-Unsubscribe=One-Click";
+
   const status = await doUnsubscribe(token);
-  if (status === "invalid") return NextResponse.json({ error: "invalid token" }, { status: 400 });
-  return NextResponse.json({ ok: true });
+
+  if (isOneClick) {
+    if (status === "invalid") return NextResponse.json({ error: "invalid token" }, { status: 400 });
+    return NextResponse.json({ ok: true });
+  }
+
+  // 表單提交走 redirect
+  const dest = status === "ok" ? "/newsletter/unsubscribed?ok=1" : "/newsletter/unsubscribed?ok=0";
+  return NextResponse.redirect(new URL(dest, req.url), 303);
 }

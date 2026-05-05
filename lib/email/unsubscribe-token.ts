@@ -35,7 +35,7 @@ export function verifyUnsubscribeToken(token: string): { email: string; source: 
   const sig = sigParts.join(".");
 
   const exp = parseInt(expStr, 10);
-  if (isNaN(exp)) return null;
+  if (isNaN(exp) || !isFinite(exp)) return null;
 
   if (exp < Math.floor(Date.now() / 1000)) return null; // 已過期
 
@@ -47,16 +47,16 @@ export function verifyUnsubscribeToken(token: string): { email: string; source: 
   }
 
   const payload = `${exp}|${email}|${source}`;
-  const expected = sign(payload);
+  const expectedBytes = createHmac("sha256", getSecret()).update(payload).digest();
 
+  let actualBytes: Buffer;
   try {
-    const expBuf = Buffer.from(expected, "utf8");
-    const actBuf = Buffer.from(sig.padEnd(expected.length, " "), "utf8");
-    if (expBuf.length !== actBuf.length) return null;
-    if (!timingSafeEqual(expBuf, actBuf)) return null;
+    actualBytes = Buffer.from(sig.replace(/-/g, "+").replace(/_/g, "/"), "base64");
   } catch {
     return null;
   }
+  if (expectedBytes.length !== actualBytes.length) return null;
+  if (!timingSafeEqual(expectedBytes, actualBytes)) return null;
 
   return { email, source };
 }

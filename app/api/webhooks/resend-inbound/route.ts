@@ -26,20 +26,26 @@ function parseEmailAddress(from: string): string {
   return (match ? match[1] : from).toLowerCase().trim();
 }
 
-async function fetchEmailContent(emailId: string): Promise<ReceivedEmailContent> {
+async function fetchEmailContent(emailId: string): Promise<ReceivedEmailContent | null> {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) throw new Error("RESEND_API_KEY 未設定");
 
-  const res = await fetch(`https://api.resend.com/emails/receiving/${emailId}`, {
-    headers: { Authorization: `Bearer ${apiKey}` },
-  });
+  try {
+    const res = await fetch(`https://api.resend.com/emails/receiving/${emailId}`, {
+      headers: { Authorization: `Bearer ${apiKey}` },
+      signal: AbortSignal.timeout(5000),
+    });
 
-  if (!res.ok) {
-    console.error("[resend-inbound] 取信內容失敗：", res.status, await res.text());
-    return {};
+    if (!res.ok) {
+      console.error("[resend-inbound] 取信內容失敗：", res.status, await res.text());
+      return null;
+    }
+
+    return res.json() as Promise<ReceivedEmailContent>;
+  } catch (err) {
+    console.error("[resend-inbound] 取信內容逾時或失敗：", err);
+    return null;
   }
-
-  return res.json() as Promise<ReceivedEmailContent>;
 }
 
 export async function POST(req: NextRequest) {
@@ -70,6 +76,11 @@ export async function POST(req: NextRequest) {
 
   // 取完整信件內容（webhook 只帶 metadata）
   const content = await fetchEmailContent(event.data.email_id);
+  if (content === null) {
+    // 取信失敗時跳過（不以主旨單獨判斷，避免 false positive）
+    console.warn("[resend-inbound] 無法取得信件內容，略過退訂判斷", { emailId: event.data.email_id });
+    return NextResponse.json({ ok: true, action: "skipped_fetch_error" });
+  }
 
   const fromEmail = parseEmailAddress(event.data.from);
 
@@ -86,7 +97,7 @@ export async function POST(req: NextRequest) {
       unsubscribeSource: "reply",
       unsubscribeMessageId: event.data.email_id,
     })
-    .where(and(eq(leads.email, fromEmail), isNull(leads.unsubscribedAt)));
+    .where(and(eq(leads.email, fromEmail), eq(leads.source, "newsletter"), isNull(leads.unsubscribedAt)));
 
   console.log("[resend-inbound] 退訂完成", { fromEmail });
   return NextResponse.json({ ok: true, action: "unsubscribed" });
