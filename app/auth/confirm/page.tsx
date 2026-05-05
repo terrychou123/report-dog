@@ -32,9 +32,9 @@ function ConfirmPageInner() {
     const supabase = createClient();
 
     // next=/onboarding 是註冊表單專屬導向（forgot-password 用 /auth/update-password）
-    // type=signup/email 為保險，避免 next 被改寫時漏觸；type=recovery 不觸發
+    // type=recovery 與 type=email（magic link 登入）不觸發，避免既有用戶誤計入新增
     const fireSignUpCompleteIfApplicable = () => {
-      const isSignupType = type === "signup" || type === "email";
+      const isSignupType = type === "signup";
       if (next === "/onboarding" || isSignupType) {
         trackEvent("sign_up_complete", { method: "email" });
       }

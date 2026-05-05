@@ -3,10 +3,16 @@ import { db } from "@/db";
 import { leads } from "@/db/schema";
 import { getClientIpHash } from "@/lib/ai/public-usage-limit";
 import { sendNewsletterWelcome } from "@/lib/email/resend";
+import { isRateLimited, getClientIp } from "@/lib/rate-limit";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function POST(req: NextRequest) {
+  // 每個 IP 每 5 分鐘最多 1 次訂閱（防止同一 IP 刷 Resend 配額）
+  if (isRateLimited(`newsletter:${getClientIp(req)}`, 1, 5 * 60_000)) {
+    return NextResponse.json({ error: "請求過於頻繁，請稍後再試" }, { status: 429 });
+  }
+
   let body: unknown;
   try {
     body = await req.json();
