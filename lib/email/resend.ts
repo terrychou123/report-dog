@@ -53,7 +53,7 @@ export async function sendNewsletterWelcome(email: string): Promise<void> {
 <div style="font-family:sans-serif;max-width:480px;margin:0 auto;padding:24px;color:#374151">
   <h1 style="font-size:20px;font-weight:700;margin-bottom:8px">感謝訂閱報告汪電子報 🐶</h1>
   <p style="color:#6b7280;line-height:1.6">
-    您已成功訂閱。我們會定期分享長照評鑑準備技巧、法規更新與實用範本，幫助您在評鑑上事半功倍。
+    您已成功訂閱。我們會不定期分享長照評鑑準備技巧、法規更新與實用範本，幫助您在評鑑上事半功倍。
   </p>
   <div style="margin:24px 0">
     <a href="https://reportwang.com/downloads"
@@ -69,6 +69,6 @@ export async function sendNewsletterWelcome(email: string): Promise<void> {
   </p>
 </div>
     `.trim(),
-    text: `感謝訂閱報告汪電子報！\n\n我們會定期分享長照評鑑準備技巧、法規更新與實用範本。\n\n如不再希望收到此電子報，請至以下連結退訂：\n${unsubscribeUrl}\n\n或直接回覆本信告知退訂。`,
+    text: `感謝訂閱報告汪電子報！\n\n我們會不定期分享長照評鑑準備技巧、法規更新與實用範本。\n\n如不再希望收到此電子報，請至以下連結退訂：\n${unsubscribeUrl}\n\n或直接回覆本信告知退訂。`,
   });
 }

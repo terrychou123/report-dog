@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="border-t py-8 px-6 flex flex-col gap-6 text-sm text-muted-foreground">
       {/* 電子報訂閱 */}
       <div className="w-full max-w-md mx-auto text-center">
-        <p className="text-xs mb-2">訂閱長照評鑑電子報，每月收到評鑑準備提醒</p>
+        <p className="text-xs mb-2">訂閱長照評鑑電子報，不定期收到評鑑準備提醒</p>
         <NewsletterForm />
       </div>
 
