@@ -30,6 +30,15 @@ npm run generate:disability-welfare-checklist  # Generate disability-welfare che
 npm run generate:infant-daycare-checklist      # Generate infant-daycare checklist Excel
 npm run generate:youth-care-checklist          # Generate youth-care checklist Excel
 npm run generate:elderly-welfare-checklist     # Generate elderly-welfare checklist Excel
+
+# Google Search Console（讓 Claude Code 讀 GSC 數據）
+npx tsx scripts/gsc.ts --report=top-queries --days=28 --limit=20   # 最熱 query
+npx tsx scripts/gsc.ts --report=top-pages   --days=28 --limit=20   # 最多點擊頁面
+npx tsx scripts/gsc.ts --report=low-ctr     --days=28 --limit=20   # 高曝光低 CTR（優化金礦）
+npx tsx scripts/gsc.ts --report=by-page --page="https://reportwang.com/blog/foo" --days=90
+npx tsx scripts/gsc.ts --report=sitemap-status                      # sitemap 索引狀態
+# 認證走 OAuth Desktop（GSC UI 拒絕 Service Account email），首次跑會開瀏覽器
+# Refresh token 快取於 ~/.config/gcloud/reportwang-gsc-token.json，之後免互動
 ```
 
 No test framework is configured in this project.
