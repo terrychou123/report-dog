@@ -109,10 +109,20 @@ export default function PostpartumCarePage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">產後護理之家</Badge>
         <h1 className="text-2xl font-bold mb-3">產後護理之家評鑑基準總覽</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
-          以下為 115 年度產後護理之家評鑑基準，共 17 個評鑑項目，分為 4 大區塊。
-          點擊各區塊可查看詳細說明、準備要訣與實用提示。
-        </p>
+        <div className="space-y-3">
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            115 年度產後護理之家評鑑依衛生福利部《護理人員法》及《產後護理機構設置標準》辦理，針對全台提供坐月子照護服務的產後護理之家（月子中心）進行定期品質考核。評鑑效期 4 年，是機構申請各類認證補助、強化市場信譽的重要依據。評鑑委員採資料查核、現場觀察、個案紀錄查閱三管齊下的方式進行，共設 17 個評鑑項目，分為 A 行政組織、B 專業服務、C 環境設施、D 特別事項 4 大區塊。
+          </p>
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            <strong className="text-foreground font-semibold">A 行政組織、經營管理與服務對象權益保障（項目 1–5）</strong>審查護產人員日班照護比例不超過 1.4 倍、NRP 新生兒急救及 BLS 基本救命術訓練資格、每年母乳哺育教育訓練 8 小時及機構外研習 8 小時，以及流感疫苗接種率達 80%。另須訂定 7 類意外事件標準作業程序，並建立品質管理委員會，每季彙整分析 6 項品質指標：嬰兒紅臀發生率、產婦乳腺炎發生率、純母乳哺育率、嬰兒體重回升達出生體重比率、嬰兒黃疸（需照光）發生率及服務對象滿意度；指標異常時須提出改善計畫並持續追蹤。
+          </p>
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            <strong className="text-foreground font-semibold">B 專業服務與生活照顧（項目 6–13）</strong>涵蓋產婦傷口護理、子宮復原評估、乳房護理與產後憂鬱篩查，嬰兒體重監測、黃疸評估與手腳環身分辨識，以及母嬰肌膚接觸指導、個別化哺乳計畫、母乳收集與貯存標準作業程序。<strong className="text-foreground font-semibold">C 環境設施與安全維護（項目 14–15）</strong>包含消防疏散系統、嬰兒室溫度維持 24–26°C、照護設備定期校正及天災緊急應變計畫。<strong className="text-foreground font-semibold">D 特別事項（項目 16–17）</strong>中，D1 加分項目獎勵積極推動母嬰親善認證及導入電子化照護記錄等創新服務，D2 試評扣分項目針對重大違規或照護疏失。
+          </p>
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            評鑑準備建議從三面向切入：（一）<strong className="text-foreground font-semibold">資料查核</strong>——護理人員執照效期與訓練紀錄、6 項品質指標季報、意外事件書面報告；（二）<strong className="text-foreground font-semibold">現場觀察</strong>——手部衛生五時機落實、嬰兒室溫濕度記錄、訪客管制登記、嬰兒手腳環身分辨識；（三）<strong className="text-foreground font-semibold">個案紀錄查閱</strong>——產婦護理評估紀錄、嬰兒餵食與體重紀錄、衛教回覆示教簽名。點擊下方各區塊可查看每項評鑑基準的詳細說明與準備要訣。
+          </p>
+        </div>
       </div>
 
       {/* Section cards */}
