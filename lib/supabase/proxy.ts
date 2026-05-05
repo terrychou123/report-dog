@@ -22,6 +22,10 @@ const PUBLIC_PREFIXES = [
   "/general-nursing-home",
   "/psychiatric",
   "/infant-daycare",
+  // Lead capture APIs（漏斗修補）：訪客留 email 即可呼叫
+  "/api/leads",
+  "/api/newsletter",
+  "/api/downloads",
 ];
 
 function isPublicPath(pathname: string): boolean {

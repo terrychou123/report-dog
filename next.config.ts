@@ -17,11 +17,11 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     '/blog/[slug]/opengraph-image': ['./fonts/**'],
     '/api/reports/evaluation': ['./knowledge/wiki/**'],
+    '/api/downloads/[file]': ['./private/downloads/**/*'],
   },
   async redirects() {
     return [
       { source: '/disability', destination: '/disability-welfare', permanent: true },
-      { source: '/downloads/disability.xlsx', destination: '/downloads/disability-welfare.xlsx', permanent: true },
     ];
   },
   async headers() {

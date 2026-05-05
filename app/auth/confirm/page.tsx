@@ -31,15 +31,21 @@ function ConfirmPageInner() {
 
     const supabase = createClient();
 
+    // next=/onboarding 是註冊表單專屬導向（forgot-password 用 /auth/update-password）
+    // type=signup/email 為保險，避免 next 被改寫時漏觸；type=recovery 不觸發
+    const fireSignUpCompleteIfApplicable = () => {
+      const isSignupType = type === "signup" || type === "email";
+      if (next === "/onboarding" || isSignupType) {
+        trackEvent("sign_up_complete", { method: "email" });
+      }
+    };
+
     const handleAuth = async () => {
       // PKCE flow: exchange code using browser client (has access to localStorage code_verifier)
       if (code) {
         const { error } = await supabase.auth.exchangeCodeForSession(code);
         if (!error) {
-          // next === "/onboarding" 是註冊表單專屬導向，可區分密碼重設等其他 flow
-          if (next === "/onboarding") {
-            trackEvent("sign_up_complete", { method: "email" });
-          }
+          fireSignUpCompleteIfApplicable();
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
@@ -54,6 +60,7 @@ function ConfirmPageInner() {
           refresh_token,
         });
         if (!error) {
+          fireSignUpCompleteIfApplicable();
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
@@ -65,6 +72,7 @@ function ConfirmPageInner() {
       if (token_hash && type) {
         const { error } = await supabase.auth.verifyOtp({ type, token_hash });
         if (!error) {
+          fireSignUpCompleteIfApplicable();
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error?.message ?? "驗證失敗")}`);

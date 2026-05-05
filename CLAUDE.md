@@ -60,7 +60,22 @@ ADMIN_EMAIL=                 # Gate for /admin template management
 BLOG_ADMIN_EMAIL=            # Gate for /blog-admin
 CRON_SECRET=                 # Bearer token for Vercel cron job auth
 PUBLIC_DEMO_SALT=            # HMAC-SHA256 salt for IP hashing in public SOAP demo rate limiting (required — missing causes 500 on all demo requests)
+RESEND_API_KEY=              # Resend API key for newsletter welcome email (lib/email/resend.ts)
+FROM_EMAIL=                  # Verified Resend sender address (defaults to "報告汪 <noreply@reportwang.com>")
+DOWNLOAD_TOKEN_SECRET=       # 32+ byte random secret for HMAC download tokens (lib/downloads/token.ts)
 ```
+
+### Funnel Events (GA4 via lib/analytics.ts)
+- `sign_up` — Supabase 內建（sign-up form 送出）
+- `sign_up_complete` — Email 驗證完成（app/auth/confirm/page.tsx，三條分支均觸發）
+- `lead_capture` — 下載 gate Email 收集成功（components/downloads/download-gate-dialog.tsx）
+- `newsletter_subscribe` — Footer 電子報訂閱成功（components/newsletter-form.tsx）
+
+### Lead Capture DB
+`leads` table（db/schema.ts）— 下載 gate 與電子報訂閱共用，`source` 欄位('download'|'newsletter')區分來源，同(email, source)唯一。相關 API：
+- `POST /api/leads` — download gate（回傳 HMAC 簽名下載 URL，TTL 15 分鐘）
+- `POST /api/newsletter` — 電子報訂閱
+- `GET /api/downloads/[file]` — 驗 token 後串流 private/downloads/*.xlsx
 
 ## Architecture
 

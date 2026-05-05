@@ -245,3 +245,26 @@ export const reportFollows = pgTable('report_follows', {
   uniqueUserReport: uniqueIndex('report_follows_user_id_report_id_idx').on(t.userId, t.reportId),
   userFrequencyIdx: index('report_follows_user_id_frequency_idx').on(t.userId, t.frequency),
 }));
+
+// ─── Leads / Email Capture ────────────────────────────────────────────────────
+// 下載 gate 與電子報訂閱共用；source 欄位區分來源
+
+export const leads = pgTable('leads', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  email: varchar('email', { length: 320 }).notNull(),
+  source: varchar('source', { length: 32 }).notNull(),        // 'download' | 'newsletter'
+  sourceMetadata: jsonb('source_metadata').$type<{
+    file?: string;      // download：xlsx 檔名
+    fileName?: string;  // download：顯示名
+    referrer?: string;
+  }>(),
+  confirmed: boolean('confirmed').default(false).notNull(),    // 保留給未來 double opt-in
+  confirmedAt: timestamp('confirmed_at', { withTimezone: true }),
+  ipHash: varchar('ip_hash', { length: 64 }),
+  userAgent: text('user_agent'),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => ({
+  // 同 email 可同時是 download lead 和 newsletter 訂閱者，但同 source 不重複
+  emailSourceUniq: uniqueIndex('leads_email_source_idx').on(t.email, t.source),
+  sourceCreatedIdx: index('leads_source_created_at_idx').on(t.source, t.createdAt),
+}));
