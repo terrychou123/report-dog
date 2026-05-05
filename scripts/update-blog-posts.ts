@@ -14,40 +14,15 @@ import { eq } from "drizzle-orm";
 import { blogPosts } from "../db/schema";
 import { getDbUrl } from "../db/index";
 
+// Phase 5：8 大功能 blog 置入（163 篇）—— 詳見 ~/.claude/plans/blog-lazy-hellman.md
 const POST_FILES = [
-  "article-1-daycare-45-guide.json",
-  "article-2-daycare-common-mistakes.json",
-  "article-3-daycare-checklist-download.json",
-  "article-4-daycare-inspector-perspective.json",
-  "article-5-daycare-faq-15.json",
-  "article-6-daycare-3month-timeline.json",
-  "article-7-daycare-quality-indicator.json",
-  "article-8-daycare-post-evaluation.json",
-  "article-9-daycare-new-director.json",
-  "article-10-daycare-dementia-home.json",
-  "article-11-daycare-case-records.json",
-  "article-12-daycare-retention.json",
-  // 托嬰中心系列（20 篇）
-  "article-110-infant-daycare-60-guide.json",
-  "article-111-infant-daycare-top10-deficiencies.json",
-  "article-112-infant-daycare-self-evaluation.json",
-  "article-113-infant-daycare-evidence.json",
-  "article-114-infant-daycare-prep-timeline.json",
-  "article-115-infant-daycare-baby-diary-ai.json",
-  "article-116-infant-daycare-plain-language.json",
-  "article-117-infant-daycare-small-center.json",
-  "article-118-infant-daycare-environment-safety.json",
-  "article-119-infant-daycare-pdca.json",
-  "article-120-infant-daycare-health-safety.json",
-  "article-121-infant-daycare-curriculum.json",
-  "article-122-infant-daycare-care-plan.json",
-  "article-123-infant-daycare-parent-communication.json",
-  "article-124-infant-daycare-administration.json",
-  "article-125-infant-daycare-faq.json",
-  "article-126-infant-daycare-evaluator-perspective.json",
-  "article-127-infant-daycare-role-division.json",
-  "article-128-infant-daycare-trends.json",
-  "article-129-infant-daycare-post-evaluation.json",
+  // Phase 5 補完：最後 6 篇零 CTA 補齊
+  "article-37-nursing-home-fire-safety-emergency.json",
+  "article-38-nursing-home-business-plan-example.json",
+  "article-39-nursing-home-quality-reward-vs-eval.json",
+  "article-40-nursing-home-resident-rights-guide.json",
+  "article-41-nursing-home-ltc30-eval-impact.json",
+  "article-235-elderly-welfare-eval-b-section-professional-care.json",
 ];
 
 async function main() {
