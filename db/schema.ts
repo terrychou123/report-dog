@@ -263,6 +263,10 @@ export const leads = pgTable('leads', {
   ipHash: varchar('ip_hash', { length: 64 }),
   userAgent: text('user_agent'),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  // 退訂相關
+  unsubscribedAt: timestamp('unsubscribed_at', { withTimezone: true }),
+  unsubscribeSource: varchar('unsubscribe_source', { length: 32 }), // 'reply' | 'one_click' | 'manual'
+  unsubscribeMessageId: varchar('unsubscribe_message_id', { length: 128 }), // Resend email_id（回信退訂時記錄）
 }, (t) => ({
   // 同 email 可同時是 download lead 和 newsletter 訂閱者，但同 source 不重複
   emailSourceUniq: uniqueIndex('leads_email_source_idx').on(t.email, t.source),

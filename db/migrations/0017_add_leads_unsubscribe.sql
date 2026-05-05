@@ -1,0 +1,4 @@
+ALTER TABLE "leads"
+  ADD COLUMN IF NOT EXISTS "unsubscribed_at" TIMESTAMP WITH TIME ZONE,
+  ADD COLUMN IF NOT EXISTS "unsubscribe_source" VARCHAR(32),
+  ADD COLUMN IF NOT EXISTS "unsubscribe_message_id" VARCHAR(128);

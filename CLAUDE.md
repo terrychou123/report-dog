@@ -63,6 +63,10 @@ PUBLIC_DEMO_SALT=            # HMAC-SHA256 salt for IP hashing in public SOAP de
 RESEND_API_KEY=              # Resend API key for newsletter welcome email (lib/email/resend.ts)
 FROM_EMAIL=                  # Verified Resend sender address (defaults to "報告汪 <noreply@reportwang.com>")
 DOWNLOAD_TOKEN_SECRET=       # 32+ byte random secret for HMAC download tokens (lib/downloads/token.ts)
+RESEND_WEBHOOK_SECRET=       # Resend webhook signing secret (svix format, whsec_xxx) — from Resend Dashboard → Webhooks
+UNSUBSCRIBE_TOKEN_SECRET=    # 32+ byte random secret for HMAC unsubscribe tokens (lib/email/unsubscribe-token.ts); generate with: openssl rand -hex 32
+UNSUBSCRIBE_REPLY_TO=        # Reply-To header for newsletter (e.g. "報告汪退訂 <unsubscribe@xxx.resend.app>") — Resend built-in inbox address
+UNSUBSCRIBE_INBOX_ADDRESS=   # Plain email for List-Unsubscribe mailto header (e.g. unsubscribe@xxx.resend.app)
 ```
 
 ### Funnel Events (GA4 via lib/analytics.ts)
@@ -72,10 +76,20 @@ DOWNLOAD_TOKEN_SECRET=       # 32+ byte random secret for HMAC download tokens (
 - `newsletter_subscribe` — Footer 電子報訂閱成功（components/newsletter-form.tsx）
 
 ### Lead Capture DB
-`leads` table（db/schema.ts）— 下載 gate 與電子報訂閱共用，`source` 欄位('download'|'newsletter')區分來源，同(email, source)唯一。相關 API：
+`leads` table（db/schema.ts）— 下載 gate 與電子報訂閱共用，`source` 欄位('download'|'newsletter')區分來源，同(email, source)唯一。退訂欄位：`unsubscribed_at`（時間戳）、`unsubscribe_source`（'reply'|'one_click'|'manual'）、`unsubscribe_message_id`（Resend email_id）。相關 API：
 - `POST /api/leads` — download gate（回傳 HMAC 簽名下載 URL，TTL 15 分鐘）
-- `POST /api/newsletter` — 電子報訂閱
-- `GET /api/downloads/[file]` — 驗 token 後串流 private/downloads/*.xlsx
+- `POST /api/newsletter` — 電子報訂閱（已退訂者直接回傳 ok，不更新 DB）
+- `GET  /api/newsletter/unsubscribe?token=` — 一鍵退訂（redirect 確認頁）
+- `POST /api/newsletter/unsubscribe?token=` — List-Unsubscribe-Post 一鍵退訂（JSON）
+- `POST /api/webhooks/resend-inbound` — Resend Inbound webhook（回信退訂，svix 簽章驗證）
+- `GET  /api/downloads/[file]` — 驗 token 後串流 private/downloads/*.xlsx
+
+### Newsletter 退訂機制
+- 寄件使用 `Reply-To: UNSUBSCRIBE_REPLY_TO`、`List-Unsubscribe`、`List-Unsubscribe-Post: List-Unsubscribe=One-Click` header
+- 回信退訂：任何寄到退訂信箱的信，主旨或內文含關鍵字（「退訂」「unsubscribe」「stop」等）才觸發，其他只 log（lib/email/unsubscribe-keywords.ts）
+- 一鍵退訂 token：HMAC-SHA256，90 天有效，格式 `<exp>.<b64email>.<source>.<sig>`（lib/email/unsubscribe-token.ts）
+- 退訂確認頁：`/newsletter/unsubscribed?ok=1`（成功）or `?ok=0`（失敗/token 無效）
+- DB migration：`db/migrations/0017_add_leads_unsubscribe.sql`（需手動套用至 Supabase）
 
 ## Architecture
 
