@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -71,7 +71,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "產後護理之家評鑑基準",
   description:
@@ -96,6 +96,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "產後護理之家評鑑分幾大區塊、共幾項？", answer: "4 大區塊（行政管理、專業護理照護、安全環境設施、特別事項）共 17 項評鑑基準。" },
+  { question: "產後護理之家評鑑中最重視的文件是哪些？", answer: "母嬰評估紀錄（含 APGAR 評分、黃疸監測、哺乳評估）、護理人員資格與執照文件、感染管制措施記錄，以及緊急醫療轉送計畫。" },
+  { question: "母嬰照護紀錄如何符合評鑑標準？", answer: "依母親與嬰兒分別建立個案標籤，護理師入住時完成初次評估並建檔，每日照護紀錄持續更新。AI 輔助確認紀錄格式符合評鑑基準要求。" },
+  { question: "如何用報告汪管理產後護理之家文書？", answer: "匯入產後護理之家評鑑範本，依 4 大區塊建立標籤，評鑑前 AI 直接標示哪項基準的文件不足，不再臨時補件。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/postpartum-care"));
 
 export default function PostpartumCarePage() {
   return (
@@ -233,6 +242,23 @@ export default function PostpartumCarePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

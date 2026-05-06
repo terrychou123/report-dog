@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -82,7 +82,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "兒少安置機構評鑑基準",
   description:
@@ -94,6 +94,15 @@ const jsonLd = educationalContentJsonLd({
     description: s.itemRange,
   })),
 });
+
+const FAQ_ITEMS = [
+  { question: "兒少教養機構評鑑分幾大區塊、共幾項？", answer: "5 大區塊（行政管理、環境設施、個別化服務計畫、服務品質、財務管理）共 35 項評鑑項目。" },
+  { question: "個別化服務計畫（ISP）在評鑑中如何準備？", answer: "ISP 需包含個案背景評估、輔導目標（短中長期）、服務措施與評估結果，並須有家長/監護人參與確認記錄，每年至少更新一次。" },
+  { question: "資源連結與社區融合的文件如何整理？", answer: "依資源類型（教育、職訓、心理、醫療）建立標籤，記錄轉介日期、服務機構、個案參與情形，評鑑前篩選對應標籤提供佐證。" },
+  { question: "如何用報告汪管理兒少機構的個案紀錄與評鑑文書？", answer: "匯入兒少安置機構評鑑範本，依 5 大區塊分標籤，AI 輔助個案輔導記錄撰寫，評鑑前直接篩選備審文件，省去手動彙整的時間。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/youth-care"));
 
 export default function YouthCareSchoolPage() {
   return (
@@ -232,6 +241,23 @@ export default function YouthCareSchoolPage() {
               學完評鑑基準後，到報告汪一鍵匯入兒少安置機構的標籤與報告範本（含個案輔導目標、服務品質、資源結合等評鑑項目），AI 協助填寫內容，省去手動建立的時間。
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
         </div>
       </div>
     </>

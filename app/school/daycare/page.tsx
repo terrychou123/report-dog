@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -77,7 +77,7 @@ const sectionMeta = [
 // 取得加分題區塊
 const bonusSection = daycareProfile.sections.find((s) => s.shortCode === "加");
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "日間照顧機構評鑑基準",
   description:
@@ -106,6 +106,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "日間照顧機構評鑑分哪幾大區塊、共幾項？", answer: "4 大區塊（壹、個案權益保障；貳、專業照護品質；參、經營管理效能；肆、安全環境設備）共 43 項正式評鑑項目，另有 2 項加分題。" },
+  { question: "日照機構評鑑最常見的缺失是哪些？", answer: "常見缺失集中在貳區的個別服務計畫文件不完整（項目 5–7）、服務紀錄與 ICP 目標脫節，以及參區的人員資格證書未定期更新。建議提前 3 個月逐項自我檢核。" },
+  { question: "評鑑前需要準備哪些核心文件？", answer: "主要包括：個案 IOA 評估表與 ICP 個別服務計畫、照服員及社工師資格證書、建築消防安全檢查記錄、品質管理會議紀錄，以及每季照護品質指標統計分析。" },
+  { question: "如何用報告汪準備日照中心評鑑文書？", answer: "匯入日照評鑑範本後，依 4 大區塊建立標籤，AI 輔助逐項分析文件是否符合 115 年度評鑑基準。評鑑前直接篩選對應標籤備齊備審文件，不再臨時找不到資料。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/daycare"));
 
 export default function DaycarePage() {
   return (
@@ -265,6 +274,23 @@ export default function DaycarePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

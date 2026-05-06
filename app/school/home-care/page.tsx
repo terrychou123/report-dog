@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -70,7 +70,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "居家服務機構評鑑基準",
   description:
@@ -95,6 +95,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "居家服務機構評鑑分幾大區塊、共幾項？", answer: "4 大區塊（個案服務品質、督導管理、行政管理、安全管理）共 32 項正式評鑑項目，另有加分題。" },
+  { question: "居服機構評鑑最常見的缺失是什麼？", answer: "常見缺失為督導記錄不完整（督導未按規定頻率進行）、居服員訓練時數文件缺漏，以及緊急應變計畫未每年更新。建議提前逐項自我檢核。" },
+  { question: "居服員的服務紀錄如何符合評鑑要求？", answer: "服務紀錄需包含日期、服務項目、時數及居服員簽名，並須與個案 ICP 目標相對應。建議依個案建立標籤集中管理，評鑑前 AI 分析對應情形。" },
+  { question: "如何用報告汪管理居服督導日誌與個案紀錄？", answer: "依個案建立標籤，居服員完成服務後直接上傳紀錄，督導篩選個案標籤一次掌握所有服務紀錄，AI 輔助確認紀錄格式符合評鑑基準要求。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/home-care"));
 
 export default function HomeCarePage() {
   return (
@@ -229,6 +238,23 @@ export default function HomeCarePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

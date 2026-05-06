@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -65,7 +65,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "109年度身心障礙福利機構評鑑指標",
   description:
@@ -86,6 +86,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "身心障礙福利機構評鑑分幾大區塊、共幾項？", answer: "6 大區塊（行政組織管理、個別化服務計畫、專業服務品質、財務管理、環境設施、健康管理）共 35 項評鑑項目。" },
+  { question: "ISP 個別化服務計畫最常見的缺失是什麼？", answer: "常見缺失為 ISP 目標與實際服務紀錄脫節、跨專業團隊會議記錄不完整、家屬參與紀錄缺漏，以及每年定期評估更新未落實。" },
+  { question: "跨專業團隊的文件如何集中管理？", answer: "依職類（社工師、職能治療師、物理治療師、心理師）建立獨立標籤，各自管理對應的評估與紀錄文件，主任可跨標籤彙整備審資料。" },
+  { question: "如何用報告汪準備身心障礙機構評鑑？", answer: "匯入身心障礙福利機構評鑑範本，依 6 大區塊建立標籤，AI 逐項分析文件是否符合基準，評鑑前直接篩選標籤確認備審文件完整。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/disability-welfare"));
 
 export default function DisabilityWelfarePage() {
   return (
@@ -241,6 +250,23 @@ export default function DisabilityWelfarePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

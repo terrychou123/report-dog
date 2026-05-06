@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -67,7 +67,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "托嬰中心評鑑基準",
   description:
@@ -79,6 +79,15 @@ const jsonLd = educationalContentJsonLd({
     description: `${s.itemRange}，配分 ${s.score}`,
   })),
 });
+
+const FAQ_ITEMS = [
+  { question: "托嬰中心評鑑分幾大區塊、共幾項？", answer: "3 大區塊（行政管理、托育活動及環境、健康安全管理）共 60 項評鑑基準，是評鑑項目數較多的類型之一。" },
+  { question: "健康安全管理的評鑑重點是什麼？", answer: "給藥委託書管理（含家長簽名、藥品保存）、食物樣品保留（留樣 48 小時）、傳染病通報記錄、意外事件及危機處理記錄，以及定期環境消毒紀錄。" },
+  { question: "嬰幼兒日常照護紀錄如何符合評鑑標準？", answer: "每位嬰幼兒每日需記錄飲食（哺乳/配方奶次數）、睡眠、排泄、健康狀況。建議依嬰幼兒建立個人標籤，保育員每日更新，方便評鑑委員查閱。" },
+  { question: "如何用報告汪準備托嬰中心評鑑文書？", answer: "匯入托嬰中心評鑑範本（60 項基準），AI 逐項對應三大區塊，自動標示哪些文件不足，評鑑前確認每項基準均有完整紀錄。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/infant-daycare"));
 
 // Color mapping by section index
 function getSectionColor(idx: number) {
@@ -209,6 +218,23 @@ export default function InfantDaycareSchoolPage() {
               學完評鑑基準後，到報告汪一鍵匯入托嬰中心的標籤與報告範本（60 個評鑑項目，含寶寶日誌、健康紀錄、給藥委託單、食物樣品管理表等），AI 協助填寫內容，省去手動建立的時間。
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
         </div>
       </div>
     </>

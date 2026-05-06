@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
@@ -87,13 +87,22 @@ const colorMap: Record<string, string> = {
   orange: "bg-orange-500/10 text-orange-600 dark:text-orange-400 border-orange-200 dark:border-orange-800",
 };
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "精神復健機構評鑑小教室",
   description:
     "115年度精神復健機構評鑑基準完整解說，含日間型36條與住宿型40條。",
   path: "/school/psychiatric-rehabilitation-institution",
 });
+
+const FAQ_ITEMS = [
+  { question: "精神復健機構評鑑分哪幾大面向？", answer: "分為行政管理、專業服務品質、住民/個案權益保障三大面向，日間型與住宿型各有對應評鑑基準，條文數各有不同。" },
+  { question: "職能復健服務計畫如何準備評鑑文件？", answer: "個別化復健計畫（IRHP）需包含功能評估、復健目標、介入措施與定期評值，職能治療師需記錄每次治療的出席狀況與功能進展。" },
+  { question: "精神復健機構如何管理跨專業團隊的服務記錄？", answer: "依精神科醫師、護理師、職能治療師、社工師建立職類標籤，各自管理服務紀錄，個案管理師跨標籤彙整，評鑑前篩選個案備審文件。" },
+  { question: "如何用報告汪準備精神復健機構評鑑？", answer: "匯入精神復健機構評鑑範本，AI 對應各項基準分析文件完整性，跨專業團隊同一平台協作，評鑑前直接標示缺漏項目。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/psychiatric-rehabilitation-institution"));
 
 export default function PsychiatricRehabilitationInstitutionPage() {
   const dayProfile = psychiatricRehabilitationDayProfile;
@@ -311,6 +320,23 @@ export default function PsychiatricRehabilitationInstitutionPage() {
             了解如何匯入範本
           </Link>
         </Button>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

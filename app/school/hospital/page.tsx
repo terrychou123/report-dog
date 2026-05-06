@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
@@ -184,7 +184,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "114 年度醫院評鑑基準",
   description:
@@ -195,6 +195,15 @@ const jsonLd = educationalContentJsonLd({
     url: `https://reportwang.com${s.href}`,
   })),
 });
+
+const FAQ_ITEMS = [
+  { question: "醫院評鑑涵蓋哪幾大面向？", answer: "醫院評鑑涵蓋策略管理、病人服務、人力資源、安全環境、感染管制、藥物安全、醫療紀錄等 15 大面向，共 124 條評鑑基準。" },
+  { question: "護理部在醫院評鑑中的主要職責是什麼？", answer: "護理部主要負責照護品質面向的評核，包括護理評估、護理計畫、護理紀錄完整性，以及跌倒、壓傷、約束等品質指標的持續監測記錄。" },
+  { question: "如何有效整理評鑑備審的護理文書？", answer: "建立班別標籤（白班、小夜、大夜）及「評鑑備審」標籤群組，日常文書貼上對應標籤，評鑑前篩選即可全數到位，達到零補件目標。" },
+  { question: "感染管制文件應如何準備評鑑？", answer: "感控文件包含手部衛生稽核記錄、多重抗藥菌監測、侵入性治療感染率統計，建議依基準建立獨立標籤，每月定期歸檔，避免評鑑前臨時補件。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/hospital"));
 
 function SectionGrid({
   sections,
@@ -358,6 +367,23 @@ export default function HospitalPage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

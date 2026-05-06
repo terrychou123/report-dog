@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -92,7 +92,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "老人福利機構評鑑基準",
   description:
@@ -125,6 +125,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "老人福利機構評鑑分幾大區塊、共幾項？", answer: "6 大區塊（個案服務、專業照護品質、人力資源、行政管理、安全環境設施、創新服務）共 77 項評鑑項目，另有加分題。" },
+  { question: "個案服務區塊的評鑑重點是什麼？", answer: "入住評估（CGA 老年綜合評估）完整性、個別照顧計畫（ICP）是否每季更新、服務紀錄與 ICP 目標的對應性，以及家屬溝通紀錄。" },
+  { question: "老人福利機構如何管理多職類評鑑文件？", answer: "依護理師、照服員、社工師、營養師建立職類標籤，各自管理對應文件，機構主任跨標籤彙整月報，評鑑前篩選備審標籤一次到位。" },
+  { question: "如何用報告汪準備老人福利機構評鑑？", answer: "匯入老人福利機構評鑑範本，依 77 項基準分類建檔，AI 評鑑分析直接標示哪個區塊缺件，大幅減少評鑑前補件壓力。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/elderly-welfare"));
 
 export default function ElderlyWelfarePage() {
   return (
@@ -252,6 +261,23 @@ export default function ElderlyWelfarePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

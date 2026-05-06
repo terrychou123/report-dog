@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -54,7 +54,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "居家護理所評鑑基準",
   description:
@@ -71,6 +71,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "居家護理所評鑑分幾大區塊、共幾項？", answer: "2 大區塊（A 經營管理、B 照護管理）共 8 項，其中含 1 項加分題。是所有長照機構評鑑中項目數最少、準備門檻較低的類型。" },
+  { question: "居家護理所評鑑中最常被要求補件的是什麼？", answer: "常見補件為護理人員執照更新記錄、個案訪視紀錄（含訪視頻率符合規定）、感染管制措施記錄，以及緊急應變演練記錄。" },
+  { question: "個案訪視紀錄如何管理才符合評鑑要求？", answer: "依個案建立標籤，每次訪視後立即上傳評估紀錄，包含個案狀況、護理措施及衛教內容，確保訪視頻率符合 B1 基準要求。" },
+  { question: "如何用報告汪準備居家護理所評鑑文書？", answer: "匯入居家護理所評鑑範本，AI 自動對應 A 經營管理與 B 照護管理 8 項基準，直接標示哪位個案的訪視紀錄或護理計畫文件不足。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/home-nursing"));
 
 export default function HomeNursingPage() {
   return (
@@ -209,6 +218,23 @@ export default function HomeNursingPage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

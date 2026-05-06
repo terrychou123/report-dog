@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -100,13 +100,22 @@ const colorMap: Record<string, string> = {
   rose: "bg-rose-500/10 text-rose-600 dark:text-rose-400 border-rose-200 dark:border-rose-800",
 };
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "精神護理之家評鑑小教室",
   description:
     "115年度精神護理之家評鑑基準完整解說，共5大面向36條指標。",
   path: "/school/psychiatric-nursing-home",
 });
+
+const FAQ_ITEMS = [
+  { question: "精神護理之家評鑑分幾大面向、共幾條？", answer: "5 大面向（A 經營管理、B 專業照護、C 安全設施、D 住民權益、E 創新改革）共 36 條評鑑基準。" },
+  { question: "B 區專業照護最重視哪些文件？", answer: "住民服務計畫（含精神狀態評估、職能復健目標）、跨專業團隊會議記錄（護理師、職能治療師、社工師參與）、危機介入記錄與約束使用評估文件。" },
+  { question: "精神護理之家如何管理住民服務計畫？", answer: "依住民建立個人標籤，護理師、職能治療師各自在對應標籤撰寫評估與計畫。評鑑前 AI 分析哪位住民的計畫文件不完整或未按期更新。" },
+  { question: "如何用報告汪準備精神護理之家評鑑？", answer: "匯入精神護理之家評鑑範本，AI 自動對應 36 條基準，標示哪個面向的文件缺漏，讓護理長與職能治療師分工補件效率提升。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/psychiatric-nursing-home"));
 
 export default function PsychiatricNursingHomePage() {
   return (
@@ -224,6 +233,23 @@ export default function PsychiatricNursingHomePage() {
             了解如何匯入範本
           </Link>
         </Button>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );

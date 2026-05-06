@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -82,7 +82,7 @@ const sectionMeta = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const courseJsonLd = educationalContentJsonLd({
   type: "Course",
   name: "住宿型照顧機構評鑑基準",
   description:
@@ -111,6 +111,15 @@ const jsonLd = educationalContentJsonLd({
     },
   ],
 });
+
+const FAQ_ITEMS = [
+  { question: "住宿型照顧機構評鑑分哪幾大區塊、共幾項？", answer: "5 大區塊（個案服務計畫與紀錄、品質管理、人力資源管理、安全與環境設施、機構行政管理）共 75 項正式評鑑項目，另有加分題。" },
+  { question: "住宿型機構評鑑中最需要注意的文件是哪些？", answer: "個別照顧計畫（ICP）的完整性與每季更新頻率、品質指標（跌倒、壓瘡、感染）統計分析記錄，以及護理師、照服員、社工師的人員訓練時數佐證文件。" },
+  { question: "多職類協作下，評鑑文件如何分工管理？", answer: "依護理師、照服員、社工師、營養師分別建立標籤，各職類文件自動歸位，機構主任可跨標籤彙整。評鑑前篩選「評鑑備審」標籤，避免文件散落找不到。" },
+  { question: "如何用報告汪準備住宿型機構評鑑備審？", answer: "一鍵匯入住宿型評鑑範本後，AI 逐項對應 75 項基準分析文件缺漏，直接標示哪個區塊需要補件，大幅減少評鑑前的臨時補件壓力。" },
+];
+
+const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/nursing-home"));
 
 export default function NursingHomePage() {
   return (
@@ -238,6 +247,23 @@ export default function NursingHomePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* 常見問題 */}
+      <div className="mt-8">
+        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
+        <div className="space-y-3">
+          {FAQ_ITEMS.map((item) => (
+            <details key={item.question} className="group border rounded-lg bg-background">
+              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
+                {item.question}
+              </summary>
+              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
+                {item.answer}
+              </div>
+            </details>
+          ))}
+        </div>
       </div>
     </>
   );
