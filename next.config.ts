@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
   // 確保字型檔案與知識庫包含在 Vercel 部署 bundle 中（readFileSync 路徑無法被靜態追蹤）
   outputFileTracingIncludes: {
     '/blog/[slug]/opengraph-image': ['./fonts/**'],
+    '/babycare/opengraph-image': ['./fonts/**'],
+    '/disability-welfare/opengraph-image': ['./fonts/**'],
+    '/home-nursing/opengraph-image': ['./fonts/**'],
+    '/general-nursing-home/opengraph-image': ['./fonts/**'],
+    '/psychiatric/opengraph-image': ['./fonts/**'],
+    '/infant-daycare/opengraph-image': ['./fonts/**'],
     '/api/reports/evaluation': ['./knowledge/wiki/**'],
     '/api/downloads/[file]': ['./private/downloads/**/*'],
   },
