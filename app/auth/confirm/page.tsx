@@ -37,9 +37,12 @@ function ConfirmPageInner() {
       const isSignupType = type === "signup";
       if (next === "/onboarding" || isSignupType) {
         trackEvent("sign_up_complete", { method: "email" });
-        // 電子報訂閱：email 驗證後 server-side 寫入 leads，失敗不阻斷
+        // 電子報訂閱：email 驗證後 server-side 寫入 leads，失敗或超時不阻斷
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), 8000);
         try {
-          const res = await fetch("/api/auth/post-signup", { method: "POST" });
+          const res = await fetch("/api/auth/post-signup", { method: "POST", signal: ctrl.signal });
+          clearTimeout(timer);
           if (res.ok) {
             const data = await res.json();
             if (!data.skipped) {
@@ -47,6 +50,7 @@ function ConfirmPageInner() {
             }
           }
         } catch {
+          clearTimeout(timer);
           // 不阻斷導向
         }
       }

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { db } from "@/db";
 import { leads } from "@/db/schema";
-import { and, eq, isNotNull } from "drizzle-orm";
+import { sql } from "drizzle-orm";
 import { getClientIpHash } from "@/lib/ai/public-usage-limit";
 import { sendNewsletterWelcome } from "@/lib/email/resend";
 
@@ -22,16 +22,6 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
   const normalizedEmail = user.email.toLowerCase().trim();
 
-  // 已退訂者不重新訂閱
-  const [unsubscribed] = await db
-    .select({ id: leads.id })
-    .from(leads)
-    .where(and(eq(leads.email, normalizedEmail), eq(leads.source, "newsletter"), isNotNull(leads.unsubscribedAt)))
-    .limit(1);
-  if (unsubscribed) {
-    return NextResponse.json({ ok: true, skipped: true });
-  }
-
   let ipHash: string | null = null;
   try {
     ipHash = getClientIpHash(req);
@@ -39,8 +29,9 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     // PUBLIC_DEMO_SALT 未設時 fallback
   }
 
-  // 寫入 leads，衝突時升級為已驗證狀態（footer 先訂的也一併更新）
-  await db
+  // Atomic upsert：僅在「未 confirmed」或「已退訂」時才 UPDATE，RETURNING 有 row 才寄歡迎信
+  // setWhere 不命中（已 confirmed 且未退訂）時不 UPDATE 也不 RETURNING，避免重複寄信的 race
+  const result = await db
     .insert(leads)
     .values({
       email: normalizedEmail,
@@ -54,17 +45,26 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       target: [leads.email, leads.source],
       set: {
         confirmed: true,
-        confirmedAt: new Date(),
+        // 保留首次驗證時間，若不存在才寫入
+        confirmedAt: sql`COALESCE(${leads.confirmedAt}, NOW())`,
         ipHash,
         userAgent: req.headers.get("user-agent") ?? undefined,
+        // 已退訂者透過 Email 驗證重新訂閱時清空退訂欄位
+        unsubscribedAt: null,
+        unsubscribeSource: null,
+        unsubscribeMessageId: null,
       },
-    });
+      setWhere: sql`${leads.confirmed} = false OR ${leads.unsubscribedAt} IS NOT NULL`,
+    })
+    .returning({ id: leads.id });
 
-  // 寄送歡迎信（失敗不阻斷，DB 記錄已寫入）
-  try {
-    await sendNewsletterWelcome(normalizedEmail);
-  } catch (err) {
-    console.error("[post-signup] 歡迎信寄送失敗：", err);
+  // 只有 INSERT 或 setWhere 命中（未 confirmed 或已退訂者）才寄歡迎信
+  if (result.length > 0) {
+    try {
+      await sendNewsletterWelcome(normalizedEmail);
+    } catch (err) {
+      console.error("[post-signup] 歡迎信寄送失敗：", err);
+    }
   }
 
   return NextResponse.json({ ok: true });

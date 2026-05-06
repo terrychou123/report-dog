@@ -43,7 +43,7 @@ export function SignUpForm({
     }
 
     try {
-      const { error } = await supabase.auth.signUp({
+      const { data, error } = await supabase.auth.signUp({
         email,
         password,
         options: {
@@ -53,6 +53,12 @@ export function SignUpForm({
         },
       });
       if (error) throw error;
+      // Supabase 對已存在 email 不回 error，而是回 identities: []（防 user enumeration）
+      if (data.user && data.user.identities && data.user.identities.length === 0) {
+        setError("此 Email 已被註冊，請改用登入或重設密碼");
+        setIsLoading(false);
+        return;
+      }
       trackEvent("sign_up", { method: "email" });
       router.push("/auth/sign-up-success");
     } catch (error: unknown) {

@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { leads } from "@/db/schema";
-import { and, eq, isNotNull } from "drizzle-orm";
 import { getClientIpHash } from "@/lib/ai/public-usage-limit";
 import { sendNewsletterWelcome } from "@/lib/email/resend";
 import { isRateLimited, getClientIp } from "@/lib/rate-limit";
@@ -36,14 +35,6 @@ export async function POST(req: NextRequest) {
 
   const normalizedEmail = email.toLowerCase().trim();
 
-  // 已退訂者不重新寫入，直接回成功（不洩漏訂閱狀態）
-  const [unsubscribed] = await db
-    .select({ id: leads.id })
-    .from(leads)
-    .where(and(eq(leads.email, normalizedEmail), eq(leads.source, "newsletter"), isNotNull(leads.unsubscribedAt)))
-    .limit(1);
-  if (unsubscribed) return NextResponse.json({ ok: true });
-
   await db
     .insert(leads)
     .values({
@@ -57,6 +48,10 @@ export async function POST(req: NextRequest) {
       set: {
         ipHash,
         userAgent: req.headers.get("user-agent") ?? undefined,
+        // 已退訂者主動重新訂閱時清空退訂欄位（視為明確再訂閱意願）
+        unsubscribedAt: null,
+        unsubscribeSource: null,
+        unsubscribeMessageId: null,
       },
     });
 
