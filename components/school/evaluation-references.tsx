@@ -108,7 +108,7 @@ export function EvaluationReferences({ references }: EvaluationReferencesProps) 
               <span className="font-medium text-foreground">{ref.title}</span>
               <span className="block text-xs text-muted-foreground mt-0.5">{ref.summary}</span>
             </div>
-            <span className="shrink-0 mt-1 text-muted-foreground group-open:rotate-180 transition-transform text-base leading-none">
+            <span aria-hidden="true" className="shrink-0 mt-1 text-muted-foreground group-open:rotate-180 transition-transform text-base leading-none">
               ▾
             </span>
           </summary>

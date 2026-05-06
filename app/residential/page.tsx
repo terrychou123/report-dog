@@ -356,6 +356,18 @@ export default function ResidentialPage() {
         </div>
       </section>
 
+      {/* 評鑑基準互連 */}
+      <section className="py-8 px-6 border-t">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-sm text-muted-foreground">
+            想深入了解 115 年度住宿型機構評鑑基準？{" "}
+            <Link href="/school/nursing-home" className="text-primary hover:underline font-medium">
+              前往住宿型照顧機構評鑑小教室 →
+            </Link>
+          </p>
+        </div>
+      </section>
+
       {/* Related Solutions */}
       <section className="py-14 px-6 bg-muted/20">
         <div className="max-w-5xl mx-auto">

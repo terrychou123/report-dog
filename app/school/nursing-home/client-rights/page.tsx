@@ -9,6 +9,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { nursingHomeReferences } from "@/lib/evaluation-references/nursing-home";
 
 export const metadata: Metadata = {
   title: "D、個案權益保障（項目 55–63）｜住宿型照顧機構評鑑",
@@ -126,6 +128,8 @@ export default function NursingHomeClientRightsPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+
+            <EvaluationReferences references={nursingHomeReferences[item.id]} />
           </section>
         ))}
       </div>

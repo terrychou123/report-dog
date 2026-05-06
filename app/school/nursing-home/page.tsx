@@ -115,11 +115,30 @@ const courseJsonLd = educationalContentJsonLd({
   ],
 });
 
+const regularItemCount = nursingHomeProfile.sections
+  .filter((s) => s.shortCode !== "創")
+  .flatMap((s) => s.items).length;
+const bonusItemCount = nursingHomeProfile.sections
+  .filter((s) => s.shortCode === "創")
+  .flatMap((s) => s.items).length;
+
 const FAQ_ITEMS = [
-  { question: "住宿型照顧機構評鑑分哪幾大區塊、共幾項？", answer: "5 大區塊（個案服務計畫與紀錄、品質管理、人力資源管理、安全與環境設施、機構行政管理）共 75 項正式評鑑項目，另有加分題。" },
-  { question: "住宿型機構評鑑中最需要注意的文件是哪些？", answer: "個別照顧計畫（ICP）的完整性與每季更新頻率、品質指標（跌倒、壓瘡、感染）統計分析記錄，以及護理師、照服員、社工師的人員訓練時數佐證文件。" },
-  { question: "多職類協作下，評鑑文件如何分工管理？", answer: "依護理師、照服員、社工師、營養師分別建立標籤，各職類文件自動歸位，機構主任可跨標籤彙整。評鑑前篩選「評鑑備審」標籤，避免文件散落找不到。" },
-  { question: "如何用報告汪準備住宿型機構評鑑備審？", answer: "一鍵匯入住宿型評鑑範本後，AI 逐項對應 75 項基準分析文件缺漏，直接標示哪個區塊需要補件，大幅減少評鑑前的臨時補件壓力。" },
+  {
+    question: "住宿型照顧機構評鑑分哪幾大區塊、共幾項？",
+    answer: `分 4 大區塊（A 經營管理效能、B 專業照護品質、C 安全環境設備、D 個案權益保障）共 ${regularItemCount} 項正式評鑑項目，另有加減分 3 項（加分 2 項、扣分 1 項）。適用 115 年度衛生福利部全國版基準，相對 114 年度大幅精簡合併。`,
+  },
+  {
+    question: "住宿型機構評鑑中最需要注意的文件是哪些？",
+    answer: "重點文件包括：工作手冊與員工申訴辦法（A1/A2）、業務計畫書及前次評鑑缺失改善記錄（A3/A4）、護理師及照服員設置資格佐證（A8）、在職教育訓練出席記錄（A9）；護理照護及用藥安全紀錄（B 區塊）；消防設備檢修報告及 EOP 演練記錄（C9/C11）；入住契約（審閱期至少 5 天，D2）及申訴機制紀錄（D4）。",
+  },
+  {
+    question: "多職類協作下，評鑑文件如何分工管理？",
+    answer: "依護理師、照服員、社工師、營養師分別建立標籤，各職類文件自動歸位，機構主任可跨標籤彙整。評鑑前篩選「評鑑備審」標籤，避免文件散落找不到。",
+  },
+  {
+    question: "如何用報告汪準備住宿型機構評鑑備審？",
+    answer: `一鍵匯入住宿型評鑑範本後，可按 A/B/C/D 四大區塊分標籤管理，AI 逐項對應 ${regularItemCount} 項基準分析文件缺漏，直接標示哪個區塊需要補件，大幅減少評鑑前的臨時補件壓力。`,
+  },
 ];
 
 const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/nursing-home"));
@@ -140,7 +159,7 @@ export default function NursingHomePage() {
           items={[
             { label: "適用年度", value: `${nursingHomeMeta.year} 年度` },
             { label: "主管機關", value: nursingHomeMeta.agency },
-            { label: "評鑑項目", value: "共 63 正式項 + 加減分 3 項" },
+            { label: "評鑑項目", value: `共 ${regularItemCount} 正式項 + 加減分 ${bonusItemCount} 項` },
             { label: "評鑑區塊", value: "4 大區塊" },
           ]}
         />
@@ -196,7 +215,7 @@ export default function NursingHomePage() {
 
       {/* Full item list */}
       <div>
-        <h2 className="text-lg font-semibold mb-4">全部 63 項評鑑項目 + 加減分</h2>
+        <h2 className="text-lg font-semibold mb-4">全部 {regularItemCount} 項評鑑項目 + 加減分</h2>
         <div className="space-y-6">
           {nursingHomeProfile.sections.map((section) => {
             const slug = sectionMeta.find((s) => s.shortCode === section.shortCode)?.href.split("/").at(-1);
@@ -251,7 +270,7 @@ export default function NursingHomePage() {
       <div className="mt-10 rounded-xl bg-primary/5 border border-primary/20 p-5">
         <p className="text-sm font-semibold mb-1">看完評鑑基準了嗎？</p>
         <p className="text-sm text-muted-foreground mb-3">
-          到報告汪一鍵匯入「住宿型照顧機構」評鑑範本，包含 4 個標籤和 63 份報告範本，省去手動建立的時間。
+          到報告汪一鍵匯入「住宿型照顧機構」評鑑範本，包含 4 個標籤和 {regularItemCount} 份報告範本，省去手動建立的時間。
         </p>
         <Link
           href="/docs/import-templates"
@@ -260,6 +279,14 @@ export default function NursingHomePage() {
           了解如何匯入評鑑範本 →
         </Link>
       </div>
+
+      {/* /residential 互連 */}
+      <p className="mt-6 text-center text-sm text-muted-foreground">
+        想了解住宿型長照機構的文書管理系統？{" "}
+        <Link href="/residential" className="text-primary hover:underline font-medium">
+          前往住宿型機構服務介紹 →
+        </Link>
+      </p>
 
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
