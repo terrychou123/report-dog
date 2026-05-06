@@ -33,10 +33,22 @@ function ConfirmPageInner() {
 
     // next=/onboarding 是註冊表單專屬導向（forgot-password 用 /auth/update-password）
     // type=recovery 與 type=email（magic link 登入）不觸發，避免既有用戶誤計入新增
-    const fireSignUpCompleteIfApplicable = () => {
+    const fireSignUpSideEffects = async () => {
       const isSignupType = type === "signup";
       if (next === "/onboarding" || isSignupType) {
         trackEvent("sign_up_complete", { method: "email" });
+        // 電子報訂閱：email 驗證後 server-side 寫入 leads，失敗不阻斷
+        try {
+          const res = await fetch("/api/auth/post-signup", { method: "POST" });
+          if (res.ok) {
+            const data = await res.json();
+            if (!data.skipped) {
+              trackEvent("newsletter_subscribe", { method: "signup" });
+            }
+          }
+        } catch {
+          // 不阻斷導向
+        }
       }
     };
 
@@ -45,7 +57,7 @@ function ConfirmPageInner() {
       if (code) {
         const { error } = await supabase.auth.exchangeCodeForSession(code);
         if (!error) {
-          fireSignUpCompleteIfApplicable();
+          await fireSignUpSideEffects();
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
@@ -60,7 +72,7 @@ function ConfirmPageInner() {
           refresh_token,
         });
         if (!error) {
-          fireSignUpCompleteIfApplicable();
+          await fireSignUpSideEffects();
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error.message)}`);
@@ -72,7 +84,7 @@ function ConfirmPageInner() {
       if (token_hash && type) {
         const { error } = await supabase.auth.verifyOtp({ type, token_hash });
         if (!error) {
-          fireSignUpCompleteIfApplicable();
+          await fireSignUpSideEffects();
           router.replace(next);
         } else {
           router.replace(`/auth/error?error=${encodeURIComponent(error?.message ?? "驗證失敗")}`);

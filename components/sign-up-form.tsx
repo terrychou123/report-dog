@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
@@ -24,6 +25,7 @@ export function SignUpForm({
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [repeatPassword, setRepeatPassword] = useState("");
+  const [subscribeNewsletter, setSubscribeNewsletter] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
@@ -47,6 +49,7 @@ export function SignUpForm({
         options: {
           // next=/onboarding 是 sign_up_complete GA4 事件的觸發依據，異動前請一併更新 confirm/page.tsx
           emailRedirectTo: `${window.location.origin}/auth/confirm?next=/onboarding`,
+          data: { newsletter_opt_in: subscribeNewsletter },
         },
       });
       if (error) throw error;
@@ -103,6 +106,17 @@ export function SignUpForm({
                   value={repeatPassword}
                   onChange={(e) => setRepeatPassword(e.target.value)}
                 />
+              </div>
+              <div className="flex items-start gap-2">
+                <Checkbox
+                  id="subscribe-newsletter"
+                  checked={subscribeNewsletter}
+                  onCheckedChange={(checked) => setSubscribeNewsletter(checked === true)}
+                  className="mt-0.5"
+                />
+                <Label htmlFor="subscribe-newsletter" className="font-normal text-sm leading-snug cursor-pointer">
+                  訂閱報告汪評鑑電子報（不定期，可隨時退訂）
+                </Label>
               </div>
               {error && <p className="text-sm text-red-500">{error}</p>}
               <Button type="submit" className="w-full" disabled={isLoading}>
