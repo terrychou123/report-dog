@@ -12,11 +12,45 @@ export const metadata: Metadata = {
   title: "各類長照機構評鑑自我檢查表免費下載 | 報告汪",
   description:
     "免費下載各長照機構評鑑 Excel 自我檢核表，包含日間照顧中心、住宿型長照機構、居家護理所、產後護理之家等多種機構類型。",
+  alternates: { canonical: "/downloads" },
+};
+
+const SCHOOL_LINKS: Record<string, string> = {
+  "day-care": "/school/daycare",
+  "residential": "/school/nursing-home",
+  "general-nursing-home": "/school/general-nursing-home",
+  "home-nursing": "/school/home-nursing",
+  "home-care": "/school/home-care",
+  "babycare": "/school/postpartum-care",
+  "hospital": "/school/hospital",
+  "psychiatric-nursing-home": "/school/psychiatric-nursing-home",
+  "youth-care": "/school/youth-care",
+  "elderly-welfare": "/school/elderly-welfare",
+  "disability-welfare": "/school/disability-welfare",
+  "infant-daycare": "/school/infant-daycare",
+  "psychiatric-rehabilitation-institution": "/school/psychiatric-rehabilitation-institution",
 };
 
 export default function DownloadsPage() {
+  const itemListJsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "長照機構評鑑自我檢查表下載清單",
+    description: "各類長照機構評鑑 Excel 自我檢核表免費下載",
+    url: "https://reportwang.com/downloads",
+    numberOfItems: DOWNLOADS.length,
+    itemListElement: DOWNLOADS.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `${item.name}評鑑自我檢核表`,
+      description: item.description,
+      url: `https://reportwang.com/downloads`,
+    })),
+  });
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: itemListJsonLd }} />
       <Navbar />
       <main className="min-h-screen py-20 px-6">
       <div className="max-w-5xl mx-auto">
@@ -52,6 +86,15 @@ export default function DownloadsPage() {
                 <p className="text-sm text-muted-foreground flex-1">
                   {item.description}
                 </p>
+                {SCHOOL_LINKS[item.slug] && (
+                  <Link
+                    href={SCHOOL_LINKS[item.slug]}
+                    className="text-xs text-primary hover:underline"
+                    title={`${item.name}評鑑基準完整教學`}
+                  >
+                    → {item.name}評鑑基準教學
+                  </Link>
+                )}
                 <DownloadGateDialog
                   file={item}
                   trigger={

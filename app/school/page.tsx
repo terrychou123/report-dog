@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description:
     "報告汪評鑑小教室：提供長照機構及醫院評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項、產後護理之家 17 項、身心障礙福利機構 35 項、兒少安置機構 35 項、醫院評鑑 124 條、老人福利機構 77 項、精神護理之家 36 條、托嬰中心 60 項、精神復健機構（日間型）36 條、精神復健機構（住宿型）40 條評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
   keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "居家護理所評鑑", "一般護理之家評鑑", "產後護理之家評鑑", "月子中心評鑑", "身心障礙福利機構評鑑", "身心障礙機構", "兒少安置機構評鑑", "兒童及少年安置機構", "長照評鑑基準", "醫院評鑑", "區域醫院評鑑", "地區醫院評鑑", "精神護理之家評鑑", "精神護理機構", "托嬰中心評鑑", "114年托嬰中心評鑑", "精神復健機構評鑑", "精神復健機構", "日間型精神復健", "住宿型精神復健"],
-  alternates: { canonical: "https://reportwang.com/school" },
+  alternates: { canonical: "/school" },
   openGraph: {
     title: "評鑑小教室｜長照機構評鑑準備教學｜報告汪",
     description: "居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項、產後護理之家 17 項、身心障礙福利機構 35 項、兒少安置機構 35 項、醫院評鑑 124 條、老人福利機構 77 項、精神護理之家 36 條、托嬰中心 60 項、精神復健機構（日間型）36 條、精神復健機構（住宿型）40 條評鑑基準完整解說，快速掌握評鑑重點。",
@@ -162,9 +162,19 @@ export default function SchoolPage() {
       />
 
       <div className="prose prose-sm dark:prose-invert max-w-none mb-10">
-        <h1 className="text-2xl font-bold mb-2">評鑑小教室</h1>
+        <h1 className="text-2xl font-bold mb-2">長照機構評鑑小教室｜13 類機構評鑑基準完整教學</h1>
+        <p className="text-muted-foreground mb-3">
+          長照機構評鑑不再陌生。我們整理 13 類長照機構的評鑑基準，逐項說明評鑑標準、準備要訣與實用提醒，幫助機構人員有條不紊地備戰評鑑。
+        </p>
+        <p className="text-muted-foreground mb-3">
+          從居家服務機構、日間照顧中心、住宿型長照機構、護理之家，到醫院護理部、身心障礙福利機構、托嬰中心，每類機構均有獨立教學頁面，依評鑑基準條號逐項解析審查方法、常見缺失與準備技巧。
+        </p>
         <p className="text-muted-foreground">
-          長照機構評鑑不再陌生。我們整理各類型長照機構的評鑑基準，逐項說明評鑑標準、準備要訣與實用提醒，幫助機構人員有條不紊地備戰評鑑。
+          所有內容免費閱覽，並可搭配{" "}
+          <a href="/downloads" className="text-primary underline underline-offset-4">免費評鑑自我檢核表下載</a>
+          {" "}與{" "}
+          <a href="/docs/import-templates" className="text-primary underline underline-offset-4">一鍵匯入評鑑範本</a>
+          {" "}功能，讓評鑑準備更有效率。
         </p>
       </div>
 

@@ -89,9 +89,19 @@ export default function BlogListPage() {
         {/* 靜態標題區（立即渲染，不被 DB 查詢阻塞） */}
         <div className="mb-10">
           <h1 className="text-5xl font-bold tracking-tight mb-4">長照經營知識庫</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl">
+          <p className="text-xl text-muted-foreground max-w-2xl mb-4">
             評鑑準備、實務技巧、經營管理——長照機構的第一手實戰指南
           </p>
+          <div className="space-y-2 text-muted-foreground max-w-2xl">
+            <p>
+              報告汪知識庫彙整長照評鑑實戰經驗，涵蓋居家服務、日照中心、護理之家、醫院護理部等 12 類機構的評鑑準備攻略、文書效率技巧與 AI 輔助工具應用，協助社工、護理師與行政人員在評鑑季前從容備戰。
+            </p>
+            <p>
+              每篇文章均由長照從業者審閱，引用官方評鑑基準條號，並附上可直接套用的準備清單。想深入了解特定機構類型，可前往
+              {" "}<a href="/school" className="text-primary underline underline-offset-4">評鑑小教室</a>{" "}
+              查閱逐項基準解析。
+            </p>
+          </div>
         </div>
 
         {/* 資料抓取 + 互動篩選區（Suspense 串流） */}

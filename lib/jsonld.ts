@@ -1,3 +1,92 @@
+export function breadcrumbListJsonLd(
+  items: Array<{ name: string; url: string }>
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  });
+}
+
+export function organizationJsonLd(): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "報告汪",
+    url: "https://reportwang.com",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://reportwang.com/logo.png",
+      width: 512,
+      height: 512,
+    },
+    description:
+      "報告汪是專為長照與社福機構設計的 AI 文書管理系統，協助社工、護理師、照服員快速完成定期報告與評鑑備審文件。",
+    areaServed: { "@type": "Country", name: "Taiwan" },
+    inLanguage: "zh-TW",
+  });
+}
+
+export function websiteWithSearchJsonLd(): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "報告汪",
+    url: "https://reportwang.com",
+    inLanguage: "zh-TW",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://reportwang.com/blog?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  });
+}
+
+export function reviewJsonLd(opts: {
+  itemName: string;
+  itemUrl: string;
+  reviews: Array<{
+    author: string;
+    reviewBody: string;
+    ratingValue: number;
+  }>;
+  ratingValue: number;
+  reviewCount: number;
+}): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: opts.itemName,
+    url: opts.itemUrl,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: opts.ratingValue,
+      reviewCount: opts.reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    review: opts.reviews.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.author },
+      reviewBody: r.reviewBody,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: r.ratingValue,
+        bestRating: 5,
+        worstRating: 1,
+      },
+    })),
+  });
+}
+
 export function faqPageJsonLd(
   items: Array<{ question: string; answer: string }>,
   path: string

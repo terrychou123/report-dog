@@ -3,6 +3,7 @@ import { Geist, Noto_Serif_TC } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
+import { organizationJsonLd, websiteWithSearchJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -62,6 +63,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-TW" suppressHydrationWarning>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: mergeJsonLdGraph(organizationJsonLd(), websiteWithSearchJsonLd()),
+        }}
+      />
       {/* Google Analytics (GA4) */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-HVVZ9LQR8F"

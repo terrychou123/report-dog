@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { DocsSidebar } from "@/components/docs/docs-sidebar";
 import { DocsMobileNav } from "@/components/docs/docs-mobile-nav";
 import { Footer } from "@/components/footer";
+import { breadcrumbListJsonLd } from "@/lib/jsonld";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,8 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
+  const breadcrumb = breadcrumbListJsonLd([
+    { name: "首頁", url: "https://reportwang.com" },
+    { name: "使用教學", url: "https://reportwang.com/docs" },
+  ]);
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumb }} />
       <Navbar />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex gap-0">
         {/* Desktop Sidebar */}

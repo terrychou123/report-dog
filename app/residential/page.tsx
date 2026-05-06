@@ -4,6 +4,7 @@ import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -37,52 +38,50 @@ export default function ResidentialPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "報告汪適合住宿型長照機構哪些職類使用？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "護理師、照服員、社工師、營養師都適用。各職類在同一平台各自的標籤分區撰寫文件，互不干擾；機構主任則可跨標籤彙整月報，一次掌握所有職類文件。",
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "報告汪適合住宿型長照機構哪些職類使用？",
+                  acceptedAnswer: { "@type": "Answer", text: "護理師、照服員、社工師、營養師都適用。各職類在同一平台各自的標籤分區撰寫文件，互不干擾；機構主任則可跨標籤彙整月報，一次掌握所有職類文件。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "多職種的文件如何在同一平台不互相干擾？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "依撰寫者職類建立獨立標籤（例如：護理師報告、照服員日誌、社工紀錄、營養評估），各職類文件自動歸入對應標籤。主任需要彙整時，透過跨標籤篩選一次取得所有職類的最新文件，不再需要逐一收集。",
+                {
+                  "@type": "Question",
+                  name: "多職種的文件如何在同一平台不互相干擾？",
+                  acceptedAnswer: { "@type": "Answer", text: "依撰寫者職類建立獨立標籤（例如：護理師報告、照服員日誌、社工紀錄、營養評估），各職類文件自動歸入對應標籤。主任需要彙整時，透過跨標籤篩選一次取得所有職類的最新文件，不再需要逐一收集。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "住宿型長照機構的評鑑文書如何準備？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "提前建立「評鑑備審」標籤，並依撰寫頻率設定「每班執行」、「每日一次」、「每週」三層標籤。日常文書直接貼上對應標籤，評鑑前篩選「評鑑備審」即可全數到位，不再漏件。",
+                {
+                  "@type": "Question",
+                  name: "住宿型長照機構的評鑑文書如何準備？",
+                  acceptedAnswer: { "@type": "Answer", text: "提前建立「評鑑備審」標籤，並依撰寫頻率設定「每班執行」、「每日一次」、「每週」三層標籤。日常文書直接貼上對應標籤，評鑑前篩選「評鑑備審」即可全數到位，不再漏件。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "照服員夜班如何用手機快速完成紀錄？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "使用報告汪手機版，巡房時以語音輸入照護觀察，AI 自動整理成符合機構格式的照護紀錄，照服員只需確認後提交即可。實測夜班文書時間可從 40 分鐘縮短至不到 15 分鐘。",
+                {
+                  "@type": "Question",
+                  name: "照服員夜班如何用手機快速完成紀錄？",
+                  acceptedAnswer: { "@type": "Answer", text: "使用報告汪手機版，巡房時以語音輸入照護觀察，AI 自動整理成符合機構格式的照護紀錄，照服員只需確認後提交即可。實測夜班文書時間可從 40 分鐘縮短至不到 15 分鐘。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "目前收費嗎？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。",
+                {
+                  "@type": "Question",
+                  name: "目前收費嗎？",
+                  acceptedAnswer: { "@type": "Answer", text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。" },
                 },
-              },
-            ],
-          }),
+              ],
+            }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/residential",
+              ratingValue: 5.0,
+              reviewCount: 3,
+              reviews: [
+                { author: "方護理長", ratingValue: 5, reviewBody: "依撰寫頻率設三層標籤後，護理師交班後不再遺漏壓瘡翻身記錄或夜班血壓量測。評鑑委員說我們是今年巡訪中文書最完整的住宿型長照機構。" },
+                { author: "廖主任", ratingValue: 5, reviewBody: "依職類分標籤後，護理師報告歸護理師，社工個案紀錄歸社工，主任月報跨標籤彙整一次到位。每月行政時間少了將近三分之一。" },
+                { author: "游社工師", ratingValue: 5, reviewBody: "同一份入住評估表可同時掛入住流程和社工紀錄兩個標籤。遇到申訴案件，AI 幫我整理成符合主管機關格式的通報文字，讓我有更多時間陪伴住民家屬。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { SchoolSidebar } from "@/components/school/school-sidebar";
 import { SchoolMobileNav } from "@/components/school/school-mobile-nav";
 import { Footer } from "@/components/footer";
+import { breadcrumbListJsonLd } from "@/lib/jsonld";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,8 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default function SchoolLayout({ children }: { children: React.ReactNode }) {
+  const breadcrumb = breadcrumbListJsonLd([
+    { name: "首頁", url: "https://reportwang.com" },
+    { name: "評鑑小教室", url: "https://reportwang.com/school" },
+  ]);
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumb }} />
       <Navbar />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex gap-0">
         {/* Desktop Sidebar */}

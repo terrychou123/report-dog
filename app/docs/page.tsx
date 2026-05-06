@@ -41,9 +41,21 @@ export default function DocsPage() {
 
       <Badge variant="outline" className="mb-4">使用教學</Badge>
       <h1 className="text-3xl md:text-4xl font-bold mb-4">報告汪使用教學</h1>
-      <p className="text-muted-foreground text-lg mb-10 max-w-2xl">
-        報告汪是專為長照機構設計的 AI 文書管理系統。這份教學帶你從零開始，掌握每個功能，大幅減少行政文書時間。
-      </p>
+      <div className="space-y-3 text-muted-foreground text-lg mb-10 max-w-2xl">
+        <p>
+          報告汪是專為長照機構設計的 AI 文書管理系統。這份教學帶你從零開始，掌握每個功能，大幅減少行政文書時間。
+        </p>
+        <p>
+          不論你是剛開始試用的居服督導、正在準備評鑑的護理長，或是需要管理多個個案報告的社工師，都能在這裡找到對應的操作指南。每篇教學附有截圖說明，10 分鐘內即可上手。
+        </p>
+        <p>
+          若你正在準備機構評鑑，也可搭配{" "}
+          <a href="/school" className="text-primary underline underline-offset-4">評鑑小教室</a>{" "}
+          與{" "}
+          <a href="/docs/import-templates" className="text-primary underline underline-offset-4">一鍵匯入評鑑範本教學</a>
+          {" "}一起使用，效率更高。
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
         {allDocsItems.map(({ href, icon: Icon, label, desc }) => (

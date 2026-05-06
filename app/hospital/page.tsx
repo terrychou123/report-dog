@@ -4,6 +4,7 @@ import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -43,52 +44,50 @@ export default function HospitalNursingPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "報告汪適合護理部哪些角色使用？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "護理師、護理長、副護理長都適用。護理師用班別標籤確認當班文書、AI 輔助撰寫護理紀錄；護理長用標籤追蹤各班文件完成狀況；副護理長則用評鑑備審標籤群組統一備齊評鑑文件。",
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "報告汪適合護理部哪些角色使用？",
+                  acceptedAnswer: { "@type": "Answer", text: "護理師、護理長、副護理長都適用。護理師用班別標籤確認當班文書、AI 輔助撰寫護理紀錄；護理長用標籤追蹤各班文件完成狀況；副護理長則用評鑑備審標籤群組統一備齊評鑑文件。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "如何用班別標籤管理交接班文書？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "建立「白班」、「小夜」、「大夜」獨立標籤，並搭配頻率標籤（每班必做、每日一次、每週）做雙重分類。護理師交接完畢後篩選當班標籤，即可一眼看出本班應完成哪些文書，並可拖曳調整執行順序。",
+                {
+                  "@type": "Question",
+                  name: "如何用班別標籤管理交接班文書？",
+                  acceptedAnswer: { "@type": "Answer", text: "建立「白班」、「小夜」、「大夜」獨立標籤，並搭配頻率標籤（每班必做、每日一次、每週）做雙重分類。護理師交接完畢後篩選當班標籤，即可一眼看出本班應完成哪些文書，並可拖曳調整執行順序。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "同一份文件需要跨多個標籤分類怎麼辦？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "報告汪支援多標籤功能，同一份文件可同時貼上「感控必備」、「設備維護」、「個案追蹤」等多個標籤，不需搬移或複製文件。各部門或需求篩選對應標籤，30 秒內確認文件狀態。",
+                {
+                  "@type": "Question",
+                  name: "同一份文件需要跨多個標籤分類怎麼辦？",
+                  acceptedAnswer: { "@type": "Answer", text: "報告汪支援多標籤功能，同一份文件可同時貼上「感控必備」、「設備維護」、「個案追蹤」等多個標籤，不需搬移或複製文件。各部門或需求篩選對應標籤，30 秒內確認文件狀態。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "如何準備醫院評鑑的護理文書？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "提前建立「評鑑備審」標籤群組，日常產出的護理品質指標報告、病房文件直接貼上此標籤。評鑑前只需篩選該標籤，所有文件全部到位，無需重新整理，達到零補件目標。",
+                {
+                  "@type": "Question",
+                  name: "如何準備醫院評鑑的護理文書？",
+                  acceptedAnswer: { "@type": "Answer", text: "提前建立「評鑑備審」標籤群組，日常產出的護理品質指標報告、病房文件直接貼上此標籤。評鑑前只需篩選該標籤，所有文件全部到位，無需重新整理，達到零補件目標。" },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "目前收費嗎？",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。",
+                {
+                  "@type": "Question",
+                  name: "目前收費嗎？",
+                  acceptedAnswer: { "@type": "Answer", text: "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中，歡迎現在免費試用並提供意見。" },
                 },
-              },
-            ],
-          }),
+              ],
+            }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/hospital",
+              ratingValue: 4.7,
+              reviewCount: 3,
+              reviews: [
+                { author: "蔡護理長", ratingValue: 5, reviewBody: "導入報告汪後，文件依班別標籤做雙重分類，護理師交接完就能拖曳調整當班執行順序。護理部主任說這是她看過最有條理的護理文書管理系統，已推薦給其他病房。" },
+                { author: "羅護理師", ratingValue: 5, reviewBody: "用分類標籤把感控必備、設備維護、個案追蹤分開，交接班只要篩當下標籤，30 秒內確認所有文件狀態，大幅減少 ICU 的文書焦慮。" },
+                { author: "鄭副護理長", ratingValue: 4, reviewBody: "提前三個月建好評鑑備審標籤，評鑑前夕篩一個標籤就全部到位。評審委員說這間病房的文件是整個醫院最整齊的。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

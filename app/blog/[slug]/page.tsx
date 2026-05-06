@@ -8,7 +8,7 @@ import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
 import { cacheTag } from "next/cache";
 import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
-import { blogPostingJsonLd, howToJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
+import { blogPostingJsonLd, howToJsonLd, faqPageJsonLd, mergeJsonLdGraph, breadcrumbListJsonLd } from "@/lib/jsonld";
 import { extractBlogJsonLdData } from "@/lib/blog-jsonld-extract";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
 import { BookOpenIcon, DownloadIcon } from "lucide-react";
@@ -137,7 +137,19 @@ export default async function BlogPostPage({ params }: Props) {
     ? faqPageJsonLd(post.faqItems, `/blog/${post.slug}`)
     : undefined;
 
-  const structuredData = mergeJsonLdGraph(blogPosting, howto, faq);
+  const breadcrumb = breadcrumbListJsonLd([
+    { name: "首頁", url: "https://reportwang.com" },
+    { name: "Blog", url: "https://reportwang.com/blog" },
+    ...(post.category ? [{ name: post.category, url: "https://reportwang.com/blog" }] : []),
+    { name: post.title, url: `https://reportwang.com/blog/${post.slug}` },
+  ]);
+
+  const structuredData = mergeJsonLdGraph(blogPosting, howto, faq, breadcrumb);
+
+  // 中文閱讀速度約每分鐘 300 字
+  const readingMinutes = post.content
+    ? Math.max(1, Math.ceil(post.content.replace(/<[^>]+>/g, "").length / 300))
+    : undefined;
 
   const facilityInfo = getFacilityInfoFromPost(post.category, post.tags, post.slug);
 
@@ -207,19 +219,42 @@ export default async function BlogPostPage({ params }: Props) {
             {post.title}
           </h1>
 
-          {/* 發佈日期 */}
-          {post.publishedAt && (
-            <p className="text-sm text-muted-foreground mb-10">
+          {/* 發佈日期、更新日期、閱讀時間 */}
+          <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground mb-10">
+            {post.publishedAt && (
               <time dateTime={post.publishedAt.toISOString()}>
                 {new Date(post.publishedAt).toLocaleDateString("zh-TW", {
-                  timeZone: "Asia/Taipei", // 固定台灣時區
+                  timeZone: "Asia/Taipei",
                   year: "numeric",
                   month: "long",
                   day: "numeric",
                 })}
               </time>
-            </p>
-          )}
+            )}
+            {post.updatedAt && post.publishedAt &&
+              post.updatedAt.getTime() - post.publishedAt.getTime() > 86400000 && (
+              <>
+                <span className="text-muted-foreground/40">·</span>
+                <span>
+                  最後更新：
+                  <time dateTime={post.updatedAt.toISOString()}>
+                    {new Date(post.updatedAt).toLocaleDateString("zh-TW", {
+                      timeZone: "Asia/Taipei",
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                </span>
+              </>
+            )}
+            {readingMinutes && (
+              <>
+                <span className="text-muted-foreground/40">·</span>
+                <span>約 {readingMinutes} 分鐘閱讀</span>
+              </>
+            )}
+          </div>
         </div>
 
         {/* 主內容區 — 桌機展寬為 max-w-6xl，2 欄 Grid 放入左側 sticky TOC */}
