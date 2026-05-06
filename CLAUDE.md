@@ -260,6 +260,25 @@ Key routing rules:
 - Code quality, health check → invoke health
 - 修改或產生評鑑範本/評鑑設定（`lib/supplementary-sheets/*`, `lib/ai/evaluation-profiles/*`, `lib/evaluation-tips/*`）→ 先 invoke 對應 facility 的 `*-evaluation` skill（daycare → daycare-evaluation、nursing-home → nursing-home-evaluation、babycare → postpartum-care-evaluation 等），以 skill 所載法規條號/審查方法/附件清單為 SSOT，不得自行編造標準
 
+### 評鑑 SSOT 同步工作流
+
+當你修改下列任一檔案，session 結束前**必須**完成同步（Stop hook 會自動跑 drift check 並注入結果）：
+
+| 層級 | 路徑 | 說明 |
+|---|---|---|
+| 程式 SSOT | `lib/ai/evaluation-profiles/{facility}.ts` | AI prompt + school 頁共用基準 |
+| 補充工作表 | `lib/supplementary-sheets/{facility}.ts` | itemId 必須對應 profile.items[].id |
+| 教學要訣 | `lib/evaluation-tips/{facility}.ts` | key 為 itemId，增刪項目時同步 |
+| 人類版 SSOT | `.claude/skills/{facility}-evaluation/SKILL.md` | 年度、區塊表、項目數 |
+
+**強制步驟：**
+1. 跑 `npm run check:evaluation-drift -- --facility=<f>` 確認 profile ↔ supplementary 對齊（drift → exit 1）
+2. 跑 `npm run evaluation:sync <facility>` 重生 `public/downloads/*.xlsx`（自動跑 drift check + generate-checklist）
+3. **絕對不要**自動執行 `npm run db:seed-templates --force`（會覆蓋手動編輯的 system 範本，請與使用者確認後再跑）
+4. 人工審核：`app/school/{facility}/**/page.tsx`、`app/{facility}/page.tsx` landing、`app/sitemap.ts`、`lib/jsonld.ts`，以及 `app/blog/[slug]` 內提及該年度的文章
+
+機構對照表（facility slug → npm script）維護於 `scripts/_evaluation-facilities.ts`，新增機構時更新此檔。
+
 ## graphify
 
 This project has a graphify knowledge graph at graphify-out/.
