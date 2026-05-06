@@ -101,7 +101,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 export const metadata: Metadata = {
   title: "區塊名稱（項目 X–Y）｜日間照顧機構評鑑",
   description: "...",
-  keywords: ["日照中心...評鑑", "臺北市日照評鑑", "113年度日間照顧評鑑"],
+  keywords: ["日照中心...評鑑", "臺北市日照評鑑", "115年度日間照顧評鑑"],
   alternates: { canonical: "https://reportwang.com/school/daycare/SLUG" },
   openGraph: { ... },
 };

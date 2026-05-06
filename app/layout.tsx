@@ -63,32 +63,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-TW" suppressHydrationWarning>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: mergeJsonLdGraph(organizationJsonLd(), websiteWithSearchJsonLd()),
-        }}
-      />
-      {/* Google Analytics (GA4) */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-HVVZ9LQR8F"
-        strategy="afterInteractive"
-      />
-      <Script id="gtag-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-HVVZ9LQR8F');
-        `}
-      </Script>
-      {/* Google AdSense */}
-      <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4360751609946942"
-        strategy="afterInteractive"
-        crossOrigin="anonymous"
-      />
       <body className={`${geistSans.className} ${notoSerifTC.variable} antialiased`}>
+        {/* JSON-LD 結構化資料 — 放 body 內符合 HTML 規範，Google 爬蟲仍可讀取 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: mergeJsonLdGraph(organizationJsonLd(), websiteWithSearchJsonLd()),
+          }}
+        />
+        {/* Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HVVZ9LQR8F"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HVVZ9LQR8F');
+          `}
+        </Script>
+        {/* Google AdSense */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4360751609946942"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

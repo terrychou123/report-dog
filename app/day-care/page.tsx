@@ -18,17 +18,17 @@ import {
 export const metadata: Metadata = {
   title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
   description:
-    "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。社工、照服員、護理師、職能治療師在同一平台協作，文件不再散落，評鑑前不再手忙腳亂。立即免費試用。",
+    "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（43 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。",
   alternates: { canonical: "/day-care" },
   openGraph: {
     title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
     description:
-      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。社工、照服員、護理師、職能治療師在同一平台協作，文件不再散落，評鑑前不再手忙腳亂。立即免費試用。",
+      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（43 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。",
   },
   twitter: {
     title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
     description:
-      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。社工、照服員、護理師、職能治療師在同一平台協作，文件不再散落，評鑑前不再手忙腳亂。立即免費試用。",
+      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（43 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。",
   },
 };
 
@@ -110,14 +110,18 @@ export default function DayCarePage() {
       {/* Hero */}
       <section className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">
         <Badge variant="outline" className="mb-6 px-4 py-1.5 text-sm">
-          日照中心專用
+          日照中心專用 ・ 115 年度評鑑基準
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
           日照中心文書管理系統｜<span className="text-primary">AI報告生成・標籤分類</span>
         </h1>
-        <p className="text-xl text-muted-foreground max-w-2xl mb-10">
+        <p className="text-xl text-muted-foreground max-w-2xl mb-4">
           活動紀錄 AI 輔助撰寫、個案服務計畫標籤管理、評鑑備審一鍵彙整——
           讓社工、照服員、護理師在同一平台協作，評鑑前不再手忙腳亂。
+        </p>
+        <p className="text-sm text-muted-foreground mb-10">
+          對應 115 年度臺北市日間照顧機構評鑑基準（4 大區塊 43 項 + 2 加分題）。
+          <Link href="/school/daycare" className="text-primary hover:underline ml-1">查看評鑑小教室 →</Link>
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <StartButton>立即開始 — 免費</StartButton>
