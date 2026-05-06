@@ -9,6 +9,7 @@
 import path from 'path';
 import fs from 'fs';
 import { PROFILE_SUPP_PAIRS, FACILITIES } from './_evaluation-facilities';
+import { getProfileMeta } from '../lib/ai/evaluation-profiles/index';
 
 // ── 評鑑 profiles ──────────────────────────────────────────────────────────
 import { daycareProfile } from '../lib/ai/evaluation-profiles/daycare';
@@ -86,7 +87,12 @@ const SUPP_MAP: Record<string, Record<number, unknown>> = {
 
 function getProfileItemIds(profileId: string): Set<number> {
   const profile = PROFILE_MAP[profileId];
-  if (!profile) return new Set();
+  if (!profile) {
+    throw new Error(
+      `PROFILE_MAP に profileId '${profileId}' が存在しません。` +
+      `check-evaluation-drift.ts の import と PROFILE_MAP を _evaluation-facilities.ts と同期してください。`,
+    );
+  }
   return new Set(profile.sections.flatMap(s => s.items.map(i => i.id)));
 }
 
@@ -156,6 +162,15 @@ if (pairs.length === 0) {
 const results: PairResult[] = pairs.map(({ facilitySlug, profileId, suppKey }) => {
   const profileItemIds = getProfileItemIds(profileId);
   const suppItemIds = getSuppItemIds(suppKey);
+
+  // meta.totalItems 驗證：手動維護的數字 vs profile 實際 item 數
+  const profileMeta = getProfileMeta(profileId);
+  if (profileMeta && profileMeta.totalItems !== profileItemIds.size) {
+    const label = `[${facilitySlug}/${profileId}]`;
+    process.stderr.write(
+      `${label} WARN: meta.totalItems=${profileMeta.totalItems} 但 profile 實際有 ${profileItemIds.size} 項，請同步修正。\n`,
+    );
+  }
 
   const orphanInSupp = [...suppItemIds].filter(id => !profileItemIds.has(id)).sort((a, b) => a - b);
   const missingInSupp = [...profileItemIds].filter(id => !suppItemIds.has(id)).sort((a, b) => a - b);

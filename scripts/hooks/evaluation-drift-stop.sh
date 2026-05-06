@@ -10,8 +10,8 @@ CHANGED=$(git status --porcelain 2>/dev/null \
 
 [ -z "$CHANGED" ] && exit 0
 
-# 跑 drift check（--json 輸出）
-RESULT=$(npx tsx scripts/check-evaluation-drift.ts --json 2>&1 || echo '{"error":"drift check 執行失敗，請手動跑 npm run check:evaluation-drift"}')
+# 跑 drift check（--json 輸出，60 秒 timeout 避免卡住 session 結束）
+RESULT=$(timeout 60 npx tsx scripts/check-evaluation-drift.ts --json 2>&1 || echo '{"error":"drift check 執行失敗或逾時，請手動跑 npm run check:evaluation-drift"}')
 
 DRIFT_RESULT="$RESULT" python3 -c "
 import json, os, sys

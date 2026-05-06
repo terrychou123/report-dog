@@ -16,6 +16,7 @@ export function KeyTakeaways({
   items,
   className,
 }: KeyTakeawaysProps) {
+  if (!items.length) return null;
   return (
     <div
       className={cn(
@@ -25,8 +26,8 @@ export function KeyTakeaways({
     >
       <p className="text-sm font-semibold text-foreground mb-2">{title}</p>
       <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5">
-        {items.map(({ label, value }) => (
-          <div key={label} className="flex gap-1.5 text-sm">
+        {items.map(({ label, value }, i) => (
+          <div key={`${i}-${label}`} className="flex gap-1.5 text-sm">
             <dt className="text-muted-foreground shrink-0">{label}：</dt>
             <dd className="text-foreground font-medium">{value}</dd>
           </div>

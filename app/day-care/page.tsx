@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
 import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
@@ -18,17 +19,17 @@ import {
 export const metadata: Metadata = {
   title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
   description:
-    "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（43 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。",
+    `報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（${daycareMeta.totalItems - 2} 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。`,
   alternates: { canonical: "/day-care" },
   openGraph: {
     title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
     description:
-      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（43 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。",
+      `報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（${daycareMeta.totalItems - 2} 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。`,
   },
   twitter: {
     title: "日照中心 AI 文書管理系統｜活動紀錄 AI 撰寫・評鑑備審一鍵彙整・多職類協作",
     description:
-      "報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（43 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。",
+      `報告汪專為日照中心打造：AI 輔助活動紀錄撰寫、個案服務計畫即時更新、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市日間照顧機構評鑑基準（${daycareMeta.totalItems - 2} 項 + 2 加分題），社工、照服員、護理師、職能治療師在同一平台協作。立即免費試用。`,
   },
 };
 
@@ -120,7 +121,7 @@ export default function DayCarePage() {
           讓社工、照服員、護理師在同一平台協作，評鑑前不再手忙腳亂。
         </p>
         <p className="text-sm text-muted-foreground mb-10">
-          對應 115 年度臺北市日間照顧機構評鑑基準（4 大區塊 43 項 + 2 加分題）。
+          對應 115 年度臺北市日間照顧機構評鑑基準（4 大區塊 {daycareMeta.totalItems - 2} 項 + 2 加分題）。
           <Link href="/school/daycare" className="text-primary hover:underline ml-1">查看評鑑小教室 →</Link>
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">

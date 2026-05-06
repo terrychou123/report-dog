@@ -22,9 +22,9 @@ export function SchoolFaqSection({
     <section className={cn("not-prose mt-8", className)}>
       <h2 className="text-base font-semibold text-foreground mb-3">{title}</h2>
       <div className="space-y-2">
-        {items.map(({ question, answer }) => (
+        {items.map(({ question, answer }, i) => (
           <details
-            key={question}
+            key={`${i}-${question}`}
             className="group rounded-lg border bg-muted/30 px-4 py-3 text-sm open:bg-muted/50 transition-colors"
           >
             <summary className="cursor-pointer font-medium text-foreground list-none flex items-center justify-between gap-2 select-none">

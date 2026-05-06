@@ -67,7 +67,7 @@ for (const slug of targets) {
   // ── Step 2: generate checklist ──────────────────────────────────────────
   console.log('\n[2/3] 重生 Excel checklist...');
   if (!meta.generateScript) {
-    console.log(`  ⚠️  ${slug} 目前無 generate-checklist script（home-care / hospital 尚未建立）`);
+    console.log(`  ⚠️  ${slug} 目前無 generate-checklist script（generateScript: null）`);
     console.log('     xlsx 需手動維護或另行建立 generate 腳本。');
   } else {
     const gen = spawnSync('npm', ['run', meta.generateScript], {
@@ -102,19 +102,18 @@ for (const slug of targets) {
   console.log('  3. 以下 school 頁面年度字串請人工審核：');
 
   // 列出 school 頁面中出現的年度字串（僅供參考，不驗證語意）
-  try {
-    const schoolDir = `app/school/${slug}`;
-    const grepResult = execSync(
-      `grep -rn --include="*.tsx" "年度" "${schoolDir}" 2>/dev/null | head -15`,
-      { encoding: 'utf8', shell: true },
-    );
-    if (grepResult.trim()) {
-      console.log(grepResult.trimEnd().split('\n').map(l => '    ' + l).join('\n'));
-    } else {
-      console.log(`    （${schoolDir} 無年度字串，或目錄不存在）`);
-    }
-  } catch {
-    // 忽略 grep 錯誤
+  const schoolDir = `app/school/${slug}`;
+  const grepResult = spawnSync(
+    'grep',
+    ['-rn', '--include=*.tsx', '年度', schoolDir],
+    { encoding: 'utf8' },
+  );
+  const grepOut = (grepResult.stdout ?? '').trim();
+  if (grepOut) {
+    const lines = grepOut.split('\n').slice(0, 15);
+    console.log(lines.map(l => '    ' + l).join('\n'));
+  } else {
+    console.log(`    （${schoolDir} 無年度字串，或目錄不存在）`);
   }
 }
 
