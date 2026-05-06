@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { elderlyWelfareProfile, meta as elderlyWelfareMeta } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function ElderlyWelfareSafetyEnvironmentPage() {
           C、安全環境設備
         </Badge>
         <h1 className="text-2xl font-bold mb-3">安全環境設備（項目 47–62）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },
+            { label: "主管機關", value: elderlyWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={elderlyWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 16 個評鑑項目（占分 25%），涵蓋老人福利機構的硬體設施安全，從建築結構、消防設備、無障礙設施到廚房衛生管理。
           評鑑委員通常會進行現場實地查核，確認設施維護狀況是否符合規定。
@@ -117,6 +129,8 @@ export default function ElderlyWelfareSafetyEnvironmentPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/elderly-welfare/professional-quality"

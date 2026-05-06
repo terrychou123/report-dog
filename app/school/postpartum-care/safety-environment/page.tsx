@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { babycareProfile, meta as babycareMeta } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -58,6 +61,15 @@ export default function PostpartumCareSafetyEnvironmentPage() {
           C、環境設施與安全維護
         </Badge>
         <h1 className="text-2xl font-bold mb-3">環境設施與安全維護（項目 14–15）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${babycareMeta.year} 年度` },
+            { label: "主管機關", value: babycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={babycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 2 個評鑑項目，涵蓋產後護理之家的環境安全管理，包含消防疏散避難系統（特別是嬰兒疏散 SOP）
           及天災緊急應變計畫，以及機構整體環境設施的維護管理，確保母嬰在安全的環境中接受照護。
@@ -123,6 +135,8 @@ export default function PostpartumCareSafetyEnvironmentPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/postpartum-care/professional-care"

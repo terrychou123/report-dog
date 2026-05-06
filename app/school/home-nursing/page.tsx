@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { homeNursingProfile, meta as homeNursingMeta } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   SettingsIcon,
   HeartPulseIcon,
@@ -93,7 +96,16 @@ export default function HomeNursingPage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">居家護理所</Badge>
         <h1 className="text-2xl font-bold mb-3">居家護理所評鑑基準總覽</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeNursingMeta.year} 年度` },
+            { label: "主管機關", value: homeNursingMeta.agency },
+            { label: "評鑑項目", value: `共 ${homeNursingMeta.totalItems} 項` },
+            { label: "評鑑區塊", value: "A 經營管理（45%）+ B 照護管理（55%）" },
+          ]}
+        />
+        <SourceCallout meta={homeNursingMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           以下為 115 年度居家護理所評鑑基準，共 8 個評鑑項目，分為 A 經營管理（佔 45%）與 B 照護管理（佔 55%）兩大區塊。
           其中 B2 個案照護管理單項即佔 45%，為最高權重項目；B3 加分項目另計 5%，整體配分結構為 105%。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
@@ -220,22 +232,7 @@ export default function HomeNursingPage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

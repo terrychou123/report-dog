@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { generalNursingHomeProfile, meta as generalNursingHomeMeta } from "@/lib/ai/evaluation-profiles/general-nursing-home";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -58,6 +61,15 @@ export default function GeneralNursingHomeAdministrationPage() {
           A、行政組織、經營管理與服務對象權益保障
         </Badge>
         <h1 className="text-2xl font-bold mb-3">行政組織、經營管理與服務對象權益保障（項目 1–5）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${generalNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: generalNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={generalNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 5 個評鑑項目，涵蓋護理之家的行政管理核心，包含負責人管理責任、人員配置與急救訓練、
           緊急事件處理流程、防疫機制，以及安寧緩和療護與醫療自主權推動，是評鑑委員審核機構管理制度的重要依據。
@@ -123,6 +135,8 @@ export default function GeneralNursingHomeAdministrationPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/general-nursing-home"

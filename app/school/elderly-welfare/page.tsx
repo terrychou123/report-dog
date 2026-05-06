@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { elderlyWelfareProfile, meta as elderlyWelfareMeta } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   ShieldCheckIcon,
   HeartPulseIcon,
@@ -147,7 +150,16 @@ export default function ElderlyWelfarePage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">老人福利機構</Badge>
         <h1 className="text-2xl font-bold mb-3">老人福利機構評鑑基準總覽</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },
+            { label: "主管機關", value: elderlyWelfareMeta.agency },
+            { label: "評鑑項目", value: `共 ${elderlyWelfareMeta.totalItems} 項` },
+            { label: "評鑑區塊", value: "6 大區塊（含加分題）" },
+          ]}
+        />
+        <SourceCallout meta={elderlyWelfareMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           以下為 115 年度老人福利機構評鑑指標，共 77 個評鑑項目，分為 6 大區塊（含加分題）。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
@@ -263,22 +275,7 @@ export default function ElderlyWelfarePage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

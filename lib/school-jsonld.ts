@@ -54,6 +54,15 @@ function cleanTitle(title: string): string {
 }
 
 /** 從 review method/basis 自動生成基礎 FAQ */
+export function buildSchoolSubpageFaqItems(opts: {
+  section: ProfileSection | ProfileSection[];
+  extraFaq?: Array<{ question: string; answer: string }>;
+}): Array<{ question: string; answer: string }> {
+  const sections = Array.isArray(opts.section) ? opts.section : [opts.section];
+  const allItems = sections.flatMap((s) => s.items);
+  return [...autoFaq(allItems), ...(opts.extraFaq ?? [])];
+}
+
 function autoFaq(items: ProfileItem[]): Array<{ question: string; answer: string }> {
   const pairs: Array<{ question: string; answer: string }> = [];
 
@@ -115,9 +124,8 @@ export function schoolSubpageJsonLd(opts: SchoolSubpageJsonLdOpts): string {
         })
       : undefined;
 
-  // FAQ：自動 + 手動 extraFaq
-  const autoFaqItems = autoFaq(allItems);
-  const allFaqItems = [...autoFaqItems, ...(opts.extraFaq ?? [])];
+  // FAQ：自動 + 手動 extraFaq（共用 buildSchoolSubpageFaqItems）
+  const allFaqItems = buildSchoolSubpageFaqItems({ section: opts.section, extraFaq: opts.extraFaq });
   const faq =
     allFaqItems.length >= 2
       ? faqPageJsonLd(allFaqItems, path)

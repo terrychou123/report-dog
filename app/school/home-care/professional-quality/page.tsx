@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeCareProfile, meta as homeCareMeta } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -54,6 +57,15 @@ export default function ProfessionalQualityPage() {
           貳、專業照護品質
         </Badge>
         <h1 className="text-2xl font-bold mb-3">專業照護品質（項目 5–14）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeCareMeta.year} 年度` },
+            { label: "主管機關", value: homeCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 10 個評鑑項目，是評鑑分量最重的核心區塊，檢視機構從個案入案到結案的完整照護流程，
           包括評估、計畫擬定、服務執行品質、緊急應變能力與督導機制。
@@ -121,6 +133,8 @@ export default function ProfessionalQualityPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-care/client-rights"

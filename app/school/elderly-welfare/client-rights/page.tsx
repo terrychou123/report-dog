@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { elderlyWelfareProfile, meta as elderlyWelfareMeta } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function ElderlyWelfareClientRightsPage() {
           D、個案權益保障
         </Badge>
         <h1 className="text-2xl font-bold mb-3">個案權益保障（項目 63–71）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },
+            { label: "主管機關", value: elderlyWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={elderlyWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 9 個評鑑項目（占分 13%），關注老人福利機構是否落實住民的基本權益保障，從資訊透明、契約保障、隱私保護到申訴機制與滿意度調查的執行情形。
         </p>
@@ -116,6 +128,8 @@ export default function ElderlyWelfareClientRightsPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/elderly-welfare/safety-environment"

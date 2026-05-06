@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { psychiatricNursingHomeProfile, meta as psychiatricNursingHomeMeta } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -50,6 +53,15 @@ export default function SafetyFacilitiesPage() {
         <h1 className="text-2xl font-bold mb-3">
           C、安全維護及設施設備（C1.1–C1.3）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本面向共 3 條指標，包含 1 項重點項目（C1.1 疏散避難系統）。精神護理之家因住民具有精神障礙特性，疏散避難的規劃與演練尤為重要，各樓層須設置符合規定之等待救接空間。
         </p>
@@ -98,6 +110,8 @@ export default function SafetyFacilitiesPage() {
           </div>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link

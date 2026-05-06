@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
+import { psychiatricNursingHomeProfile, meta as psychiatricNursingHomeMeta } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import { Button } from "@/components/ui/button";
 import {
   SettingsIcon,
@@ -129,7 +132,16 @@ export default function PsychiatricNursingHomePage() {
           精神護理之家
         </Badge>
         <h1 className="text-2xl font-bold mb-3">精神護理之家評鑑小教室</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "評鑑項目", value: `共 ${psychiatricNursingHomeMeta.totalItems} 條` },
+            { label: "評鑑面向", value: "5 大面向" },
+          ]}
+        />
+        <SourceCallout meta={psychiatricNursingHomeMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           115年度精神護理之家評鑑基準共分為 5 大面向 36 條指標，包含一般項目 32 條、可選項目 2 條（B1.9 侵入性照護、B3.2 管灌）及重點項目 2 條（A2.2 人員設置、C1.1 疏散避難）。依據衛生福利部公告之評鑑基準及精神衛生法規範辦理。
         </p>
       </div>
@@ -235,22 +247,7 @@ export default function PsychiatricNursingHomePage() {
         </Button>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

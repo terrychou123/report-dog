@@ -1,6 +1,13 @@
 // 112年度兒童及少年安置機構評鑑指標
 // 資料來源：112年度兒童及少年安置機構評鑑表（機構版）
 
+export const meta = {
+  year: "112",
+  agency: "衛生福利部",
+  facilityName: "兒童及少年安置機構",
+  totalItems: 35,
+};
+
 export const youthCareProfile = {
   id: "youth-care",
   label: "兒少安置機構",

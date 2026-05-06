@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { infantDaycareProfile, meta as infantDaycareMeta } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -72,6 +75,15 @@ export default function InfantDaycareAdministrationPage() {
           <span className="text-sm text-muted-foreground">項目 1–11 ／ 20 分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">一、行政管理</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${infantDaycareMeta.year} 年度` },
+            { label: "主管機關", value: infantDaycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${allItems.length} 項` },
+            { label: "區塊名稱", value: "一、行政管理" },
+          ]}
+        />
+        <SourceCallout meta={infantDaycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共11項基準（20分），涵蓋立案行政與業務管理、人事領導與管理、文書與檔案管理、財務總務與安全管理，以及兒童權益保障五大面向。
           負責人／主管人員、行政人員及托育人員各有不同評鑑側重，評鑑委員會進行實地觀察、訪談及文件查閱。
@@ -146,6 +158,8 @@ export default function InfantDaycareAdministrationPage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section: adminSections })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/infant-daycare"

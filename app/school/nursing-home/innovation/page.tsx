@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { nursingHomeProfile, meta as nursingHomeMeta } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
@@ -54,6 +57,15 @@ export default function NursingHomeInnovationPage() {
           加減分項目
         </Badge>
         <h1 className="text-2xl font-bold mb-3">加減分項目（項目 64–66）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${nursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: nursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={nursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           115年度共 3 個加減分項目。創新或配合政策執行最多 +2 分；115年度新增「機構內空氣品質 CO₂&lt;1000ppm」最多 +1 分；
           評鑑期間違規及重大負面事件最多扣 2 分，需特別謹慎維護機構合法運作與住民安全。
@@ -119,6 +131,8 @@ export default function NursingHomeInnovationPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/nursing-home/client-rights"

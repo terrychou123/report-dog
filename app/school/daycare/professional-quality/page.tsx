@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { daycareProfile, meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -62,6 +65,15 @@ export default function DaycareProfessionalQualityPage() {
           貳、專業照護品質
         </Badge>
         <h1 className="text-2xl font-bold mb-3">專業照護品質（項目 5–22）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${daycareMeta.year} 年度` },
+            { label: "主管機關", value: daycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={daycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 18 個評鑑項目，是日照評鑑的核心區塊，分為三個子分類：評估與處遇、健康生活照顧、品質監測。
           涵蓋從入案評估、照顧計畫到各類日常照護服務，護理師、社工與照服員的跨團隊合作程度
@@ -147,6 +159,8 @@ export default function DaycareProfessionalQualityPage() {
           </div>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       {/* 上下頁導航 */}
       <div className="mt-12 flex items-center justify-between border-t pt-6">

@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { babycareProfile, meta as babycareMeta } from "@/lib/ai/evaluation-profiles/babycare";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   SettingsIcon,
   HeartPulseIcon,
@@ -118,7 +121,16 @@ export default function PostpartumCarePage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">產後護理之家</Badge>
         <h1 className="text-2xl font-bold mb-3">產後護理之家評鑑基準總覽</h1>
-        <div className="space-y-3">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${babycareMeta.year} 年度` },
+            { label: "主管機關", value: babycareMeta.agency },
+            { label: "評鑑項目", value: `共 ${babycareMeta.totalItems} 項` },
+            { label: "評鑑區塊", value: "4 大區塊（A–D）" },
+          ]}
+        />
+        <SourceCallout meta={babycareMeta} />
+        <div className="space-y-3 mt-2">
           <p className="text-muted-foreground text-sm leading-relaxed">
             115 年度產後護理之家評鑑依衛生福利部《護理人員法》及《產後護理機構設置標準》辦理，針對全台提供坐月子照護服務的產後護理之家（月子中心）進行定期品質考核。評鑑效期 4 年，是機構申請各類認證補助、強化市場信譽的重要依據。評鑑委員採資料查核、現場觀察、個案紀錄查閱三管齊下的方式進行，共設 17 個評鑑項目，分為 A 行政組織、B 專業服務、C 環境設施、D 特別事項 4 大區塊。
           </p>
@@ -244,22 +256,7 @@ export default function PostpartumCarePage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

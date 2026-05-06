@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { disabilityWelfareProfile, meta as disabilityWelfareMeta } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -78,6 +81,15 @@ export default function DisabilityWelfareHealthManagementPage() {
         <h1 className="text-2xl font-bold mb-3">
           健康管理與安全（指標 4301–4306）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${disabilityWelfareMeta.year} 年度` },
+            { label: "主管機關", value: disabilityWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={disabilityWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 6 項指標（項目 42–47），為「三、專業服務」的第三子區塊，涵蓋服務對象的健康維護、
           緊急事件應對、安全保護措施及膳食管理。護理人員配置與緊急處理機制是查核重點。
@@ -147,6 +159,8 @@ export default function DisabilityWelfareHealthManagementPage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link href="/school/disability-welfare/individual-care" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
           <ArrowLeftIcon className="h-4 w-4" />

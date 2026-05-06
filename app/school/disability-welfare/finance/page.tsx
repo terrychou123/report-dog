@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { disabilityWelfareProfile, meta as disabilityWelfareMeta } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -78,6 +81,15 @@ export default function DisabilityWelfareFinancePage() {
         <h1 className="text-2xl font-bold mb-3">
           （二）會計及財務管理（指標 2101–2104）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${disabilityWelfareMeta.year} 年度` },
+            { label: "主管機關", value: disabilityWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={disabilityWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊為「行政組織及經營管理」的第二子區塊，共 4 項指標（項目 8–11），合計 12 分，
           涵蓋機構的會計制度建立、財務報告函報、財物盤點管理及捐贈財物徵信。
@@ -164,6 +176,8 @@ export default function DisabilityWelfareFinancePage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/disability-welfare/administration"

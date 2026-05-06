@@ -1,4 +1,13 @@
 // 來源：115年度居家護理所評鑑基準（114.11.24 公告）
+
+export const meta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "居家護理所",
+  totalItems: 8,
+  publishedDate: "2025-11-24",
+};
+
 export const homeNursingProfile = {
   id: "home-nursing",
   label: "居家護理所",

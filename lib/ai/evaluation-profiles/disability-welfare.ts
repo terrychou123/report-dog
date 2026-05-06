@@ -1,5 +1,13 @@
 // 109年度身心障礙福利機構評鑑指標
 // 資料來源：衛福部社家署「109年度身心障礙福利機構評鑑指標」
+
+export const meta = {
+  year: "109",
+  agency: "衛生福利部社家署",
+  facilityName: "身心障礙福利機構",
+  totalItems: 49,
+};
+
 export const disabilityWelfareProfile = {
   id: "disability-welfare",
   label: "身心障礙福利機構",

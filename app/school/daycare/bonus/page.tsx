@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { daycareProfile, meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
@@ -54,6 +57,15 @@ export default function DaycareBonusPage() {
           伍、加分題
         </Badge>
         <h1 className="text-2xl font-bold mb-3">加分題（項目 44–45）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${daycareMeta.year} 年度` },
+            { label: "主管機關", value: daycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={daycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 2 個加分題項目，不計入正式 43 項評鑑項次，由評鑑委員共議給分，總計最多加 3 分（項目 44 最多加 2 分、項目 45 最多加 1 分）。
           加分題著重在機構是否展現對多元族群的文化敏感度，以及是否落實監視錄影設備的合規管理。
@@ -117,6 +129,8 @@ export default function DaycareBonusPage() {
           </section>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       {/* 上下頁導航 */}
       <div className="mt-12 flex items-center justify-between border-t pt-6">

@@ -1,9 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
+import { hospitalProfile, meta as hospitalMeta } from "@/lib/ai/evaluation-profiles/hospital";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   SettingsIcon,
   UsersIcon,
@@ -269,7 +272,16 @@ export default function HospitalPage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">醫院評鑑</Badge>
         <h1 className="text-2xl font-bold mb-3">醫院評鑑基準總覽</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${hospitalMeta.year} 年度` },
+            { label: "主管機關", value: hospitalMeta.agency },
+            { label: "評鑑項目", value: `共 ${hospitalMeta.totalItems} 條` },
+            { label: "法源依據", value: hospitalMeta.legalBasis ?? "" },
+          ]}
+        />
+        <SourceCallout meta={hospitalMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           以下為衛生福利部依醫療法第 28 條辦理之「114 年度醫院評鑑基準及評量項目」，
           共 2 篇、15 章、124 條，適用區域醫院及地區醫院。
           點擊各章節可查看詳細說明、準備要訣與實用提示。
@@ -369,22 +381,7 @@ export default function HospitalPage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

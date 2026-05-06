@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeCareProfile, meta as homeCareMeta } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function BonusPage() {
           加分題
         </Badge>
         <h1 className="text-2xl font-bold mb-3">加分題（項目 31–32）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeCareMeta.year} 年度` },
+            { label: "主管機關", value: homeCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           加分題共 2 個項目，不在正式評鑑基準分數內，但可以展現機構的創新能力與對家庭照顧者的關懷。
           評鑑委員通常會對這兩個項目印象深刻，是提升整體評鑑形象的好機會。
@@ -133,6 +145,8 @@ export default function BonusPage() {
       </div>
 
       {/* Prev navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-8 flex items-center border-t pt-6">
         <Link
           href="/school/home-care/management"

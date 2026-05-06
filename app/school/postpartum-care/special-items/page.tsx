@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { babycareProfile, meta as babycareMeta } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -58,6 +61,15 @@ export default function PostpartumCareSpecialItemsPage() {
           D、特別事項
         </Badge>
         <h1 className="text-2xl font-bold mb-3">特別事項（項目 16–17）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${babycareMeta.year} 年度` },
+            { label: "主管機關", value: babycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={babycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 2 個評鑑項目，包含配合政策執行的加分機會（如母嬰親善認證、創新服務推廣），
           以及重大異常情事的試評扣分項。其中 D2 為試評扣分項，任何重大違規情事將直接影響整體評鑑結果，需特別留意。
@@ -126,6 +138,8 @@ export default function PostpartumCareSpecialItemsPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/postpartum-care/safety-environment"

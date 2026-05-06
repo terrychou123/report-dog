@@ -1,3 +1,10 @@
+export const meta = {
+  year: "115",
+  agency: "臺北市政府社會局",
+  facilityName: "居家服務機構",
+  totalItems: 33,
+};
+
 export const homeCareProfile = {
   id: "home-care",
   label: "居家服務機構",

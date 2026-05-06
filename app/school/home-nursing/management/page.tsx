@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeNursingProfile, meta as homeNursingMeta } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -69,6 +72,15 @@ export default function HomeNursingManagementPage() {
           A、經營管理
         </Badge>
         <h1 className="text-2xl font-bold mb-3">經營管理（項目 1–5）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeNursingMeta.year} 年度` },
+            { label: "主管機關", value: homeNursingMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeNursingMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 5 個評鑑項目，佔總分 <strong>45%</strong>，涵蓋居家護理所的整體經營管理能力，
           從社區資源運用、感染管制、訪視人員安全，到 5 項固定品質指標監測（A5 佔 15%，為本區塊最高權重）。
@@ -142,6 +154,8 @@ export default function HomeNursingManagementPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-nursing"

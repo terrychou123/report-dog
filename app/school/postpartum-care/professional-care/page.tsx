@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { babycareProfile, meta as babycareMeta } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -58,6 +61,15 @@ export default function PostpartumCareProfessionalCarePage() {
           B、專業服務與生活照顧
         </Badge>
         <h1 className="text-2xl font-bold mb-3">專業服務與生活照顧（項目 6–13）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${babycareMeta.year} 年度` },
+            { label: "主管機關", value: babycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={babycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 8 個評鑑項目，是產後護理之家評鑑的核心，涵蓋產婦照護、嬰兒照護、親子關係促進、
           團體衛教課程、出住院評估、緊急狀況處理、哺乳及餵食計畫，以及母乳收集與貯存管理，
@@ -124,6 +136,8 @@ export default function PostpartumCareProfessionalCarePage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/postpartum-care/administration"

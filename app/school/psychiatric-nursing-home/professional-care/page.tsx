@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { psychiatricNursingHomeProfile, meta as psychiatricNursingHomeMeta } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -51,6 +54,15 @@ export default function ProfessionalCarePage() {
         <h1 className="text-2xl font-bold mb-3">
           B、專業照護品質（B1.1–B3.2）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本面向共 21 條指標，是評鑑比重最大的面向。涵蓋住民服務計畫與評估（含營養評估）、適應輔導、防疫機制、跨專業整合照護、醫療服務、藥品管理、照護品質監測、健康檢查、緊急事件處理、活動規劃、社區資源、家屬互動、復健作業及膳食服務等。其中 B1.9（侵入性照護）及 B3.2（管灌）為可選項目。
         </p>
@@ -124,6 +136,8 @@ export default function ProfessionalCarePage() {
       </div>
 
       {/* Prev/Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link
           href="/school/psychiatric-nursing-home/management"

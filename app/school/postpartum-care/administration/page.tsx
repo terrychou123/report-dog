@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { babycareProfile } from "@/lib/ai/evaluation-profiles/babycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { babycareProfile, meta as babycareMeta } from "@/lib/ai/evaluation-profiles/babycare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -58,6 +61,15 @@ export default function PostpartumCareAdministrationPage() {
           A、行政組織、經營管理與服務對象權益保障
         </Badge>
         <h1 className="text-2xl font-bold mb-3">行政組織、經營管理與服務對象權益保障（項目 1–5）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${babycareMeta.year} 年度` },
+            { label: "主管機關", value: babycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={babycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 5 個評鑑項目，涵蓋產後護理之家的行政管理核心，包含護產人員配置比例與急救資格、
           教育訓練規定、母嬰安全與感染管制、意外事件預防處理，以及品質管理機制與指標監測，
@@ -124,6 +136,8 @@ export default function PostpartumCareAdministrationPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/postpartum-care"

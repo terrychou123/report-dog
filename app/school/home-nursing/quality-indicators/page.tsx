@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeNursingProfile, meta as homeNursingMeta } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -111,6 +114,15 @@ export default function HomeNursingQualityIndicatorsPage() {
           A、經營管理
         </Badge>
         <h1 className="text-2xl font-bold mb-3">A5 機構經營指標監測與持續改善（15%）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeNursingMeta.year} 年度` },
+            { label: "主管機關", value: homeNursingMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeNursingMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           A5 是居家護理所評鑑中<strong>單一項目最高權重（15%）</strong>，要求機構建立 5 項固定品質指標的監測機制，
           並能展示「訂定閾值 → 定期分析 → 超閾值改善 → 追蹤成效」的完整品管迴路。
@@ -172,6 +184,8 @@ export default function HomeNursingQualityIndicatorsPage() {
       )}
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-nursing/management"

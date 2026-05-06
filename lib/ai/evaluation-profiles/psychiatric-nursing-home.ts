@@ -1,3 +1,11 @@
+export const meta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "精神護理之家",
+  totalItems: 36,
+  publishedDate: "2025-03-12",
+};
+
 export const psychiatricNursingHomeProfile = {
   id: "psychiatric-nursing-home",
   label: "精神護理之家",

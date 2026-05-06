@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { daycareProfile, meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -54,6 +57,15 @@ export default function DaycareClientRightsPage() {
           壹、個案權益保障
         </Badge>
         <h1 className="text-2xl font-bold mb-3">個案權益保障（項目 1–4）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${daycareMeta.year} 年度` },
+            { label: "主管機關", value: daycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={daycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 4 個評鑑項目，著重在日照中心如何保障服務對象的基本權利，
           包括資訊公開、申訴機制、服務契約與個人資料保護。這是評鑑委員第一個審查的區塊，
@@ -118,6 +130,8 @@ export default function DaycareClientRightsPage() {
           </section>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       {/* 上下頁導航 */}
       <div className="mt-12 flex items-center justify-between border-t pt-6">

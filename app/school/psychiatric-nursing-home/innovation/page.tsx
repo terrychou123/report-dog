@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { psychiatricNursingHomeProfile, meta as psychiatricNursingHomeMeta } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -47,6 +50,15 @@ export default function InnovationPage() {
         <h1 className="text-2xl font-bold mb-3">
           E、創新及改革（E1.1）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本面向共 1 條指標，鼓勵機構發展具有創新性或特色之服務措施，並將成效公開分享。創新措施係指以服務模式、策略、資源整合等方式，促進住民生活品質提升及社區融合。
         </p>
@@ -88,6 +100,8 @@ export default function InnovationPage() {
           </div>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeCareProfile, meta as homeCareMeta } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function ManagementPage() {
           參、經營管理效能
         </Badge>
         <h1 className="text-2xl font-bold mb-3">經營管理效能（項目 15–30）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeCareMeta.year} 年度` },
+            { label: "主管機關", value: homeCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 16 個評鑑項目，是三大核心區塊中項目最多的，涵蓋機構整體管理能力，
           從行政制度、人員管理、財務紀律到品質監測體系。
@@ -119,6 +131,8 @@ export default function ManagementPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-care/professional-quality"

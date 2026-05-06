@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { nursingHomeProfile, meta as nursingHomeMeta } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -55,6 +58,15 @@ export default function NursingHomeProfessionalQualityPage() {
           B、專業照護品質
         </Badge>
         <h1 className="text-2xl font-bold mb-3">專業照護品質（項目 10–38）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${nursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: nursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={nursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 29 個評鑑項目（115年度全國版），是住宿型機構評鑑中項目最多的區塊，涵蓋從服務計畫、醫療照護、感染防疫、膳食管理到日常生活照護的完整照護品質體系。
           115年度新增「失禁服務對象定時如廁計畫」（B26），護理與社工人員的備戰程度直接決定本區塊的得分。
@@ -121,6 +133,8 @@ export default function NursingHomeProfessionalQualityPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/nursing-home/management"

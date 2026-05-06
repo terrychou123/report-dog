@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
+import { daycareProfile, meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   ShieldCheckIcon,
   HeartPulseIcon,
@@ -128,10 +131,19 @@ export default function DaycarePage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">日間照顧機構</Badge>
         <h1 className="text-2xl font-bold mb-3">日間照顧機構評鑑基準總覽</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${daycareMeta.year} 年度` },
+            { label: "主管機關", value: daycareMeta.agency },
+            { label: "評鑑項目", value: `共 ${daycareMeta.totalItems} 項（43 正式 + 2 加分題）` },
+            { label: "評鑑區塊", value: "4 大區塊" },
+          ]}
+        />
         <p className="text-muted-foreground text-sm leading-relaxed">
           以下為 115 年度臺北市政府社會局日間照顧機構法定評鑑基準，共 43 個評鑑項目，分為 4 大區塊，另含 2 項加分題。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
+        <SourceCallout meta={daycareMeta} />
       </div>
 
       {/* 四大區塊卡片 */}
@@ -276,22 +288,7 @@ export default function DaycarePage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

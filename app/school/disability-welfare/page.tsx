@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
+import { disabilityWelfareProfile, meta as disabilityWelfareMeta } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   SettingsIcon,
   ShieldCheckIcon,
@@ -112,7 +115,16 @@ export default function DisabilityWelfarePage() {
         <h1 className="text-2xl font-bold mb-3">
           身心障礙福利機構評鑑指標總覽
         </h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${disabilityWelfareMeta.year} 年度` },
+            { label: "主管機關", value: disabilityWelfareMeta.agency },
+            { label: "評鑑項目", value: `共 ${disabilityWelfareMeta.totalItems} 項` },
+            { label: "評鑑區塊", value: "3 大區塊" },
+          ]}
+        />
+        <SourceCallout meta={disabilityWelfareMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           以下為衛福部社家署「109年度身心障礙福利機構評鑑指標」，共 49
           個評鑑項目（含 5 項不計分新增指標），分為 3
           大區塊。點擊各區塊可查看詳細說明、準備要訣與實用提示。
@@ -252,22 +264,7 @@ export default function DisabilityWelfarePage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

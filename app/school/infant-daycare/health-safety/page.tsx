@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { infantDaycareProfile, meta as infantDaycareMeta } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -63,6 +66,15 @@ export default function InfantDaycareHealthSafetyPage() {
           <span className="text-sm text-muted-foreground">項目 37–60 ／ 40 分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">三、健康安全</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${infantDaycareMeta.year} 年度` },
+            { label: "主管機關", value: infantDaycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${allItems.length} 項` },
+            { label: "區塊名稱", value: "三、健康安全" },
+          ]}
+        />
+        <SourceCallout meta={infantDaycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共24項基準（40分），涵蓋健康管理、健康安全飲食、環境與衛生設備、環境與設備安全及健康與安全照護五大面向。
           評鑑委員會進行實地觀察並查驗相關記錄，其中食物樣品留存、給藥委託單、感染管制手冊版本為最常見扣分陷阱。
@@ -137,6 +149,8 @@ export default function InfantDaycareHealthSafetyPage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section: healthSections })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/infant-daycare/childcare-activities"

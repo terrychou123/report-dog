@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { disabilityWelfareProfile, meta as disabilityWelfareMeta } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -69,6 +72,15 @@ export default function DisabilityWelfareEnvironmentPage() {
         <h1 className="text-2xl font-bold mb-3">
           環境設施及安全維護（項目 12–31）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${disabilityWelfareMeta.year} 年度` },
+            { label: "主管機關", value: disabilityWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={disabilityWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 20 個評鑑項目（含 5 項不計分新增指標），涵蓋浴廁設施、無障礙設備、消防安全、
           緊急災害應變、寢室面積、機具維護、環境衛生及食品安全等面向。其中項目
@@ -180,6 +192,8 @@ export default function DisabilityWelfareEnvironmentPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/disability-welfare/administration"

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { homeCareProfile } from "@/lib/ai/evaluation-profiles/home-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeCareProfile, meta as homeCareMeta } from "@/lib/ai/evaluation-profiles/home-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function ClientRightsPage() {
           壹、個案權益保障
         </Badge>
         <h1 className="text-2xl font-bold mb-3">個案權益保障（項目 1–4）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeCareMeta.year} 年度` },
+            { label: "主管機關", value: homeCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 4 個評鑑項目，著重在機構如何保障服務對象（個案）的基本權利，
           包括資訊公開、個案尊嚴、隱私保護及申訴管道。這是評鑑委員第一個審查的區塊，
@@ -119,6 +131,8 @@ export default function ClientRightsPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-care"

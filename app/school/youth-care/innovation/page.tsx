@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { youthCareProfile, meta as youthCareMeta } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
@@ -60,6 +63,15 @@ export default function YouthCareInnovationPage() {
           <span className="text-sm text-muted-foreground">項目 30–35・±10分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">{section.name}</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${youthCareMeta.year} 年度` },
+            { label: "主管機關", value: youthCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={youthCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊由扣分項（最高扣10分）及加分項（最高加10分）組成。違規事件將影響整體評等，而多項加分機制可提升機構得分，充分準備可爭取±10分的分數差距。
         </p>
@@ -216,6 +228,8 @@ export default function YouthCareInnovationPage() {
       </div>
 
       {/* Prev */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center border-t pt-6">
         <Link
           href="/school/youth-care/finance"

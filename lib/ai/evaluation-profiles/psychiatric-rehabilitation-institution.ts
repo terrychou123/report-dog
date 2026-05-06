@@ -1,6 +1,20 @@
 // 115年度精神復健機構評鑑基準（含日間型及住宿型機構）
 // 資料來源：115年度精神復健機構評鑑基準（公告版）
 
+export const meta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "精神復健機構（日間型）",
+  totalItems: 36,
+};
+
+export const residentialMeta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "精神復健機構（住宿型）",
+  totalItems: 40,
+};
+
 // 日間型機構評鑑基準（36條）
 export const psychiatricRehabilitationDayProfile = {
   id: "psychiatric-rehabilitation-day",

@@ -1,9 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
+  meta as psychiatricRehabDayMeta,
 } from "@/lib/ai/evaluation-profiles/psychiatric-rehabilitation-institution";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -67,6 +71,15 @@ export default function ServiceQualityPage() {
         <h1 className="text-2xl font-bold mb-3">
           第3章、服務品質
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricRehabDayMeta.agency },
+            { label: "本區塊項目", value: `共 ${daySection.items.length} 條` },
+            { label: "區塊名稱", value: daySection.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricRehabDayMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           復健服務品質的精進應深植於每日復健的常規中，依 PDCA 原則檢討機構的功能與復健績效。日間型共 12 條（配分 29 分），住宿型共 14 條（配分 30 分，含唯一重點項目 3.11 維護住民出入自由）。住宿型的管理方式有別於醫院，重點在秉持復元理念與優勢觀點，於最少限制的環境中，與住民一起協作，逐步擺脫疾病限制。
         </p>
@@ -81,6 +94,8 @@ export default function ServiceQualityPage() {
       />
 
       {/* Prev/Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section: daySection })} />
+
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link
           href="/school/psychiatric-rehabilitation-institution/rehabilitation"

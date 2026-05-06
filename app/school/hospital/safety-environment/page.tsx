@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { hospitalProfile, meta as hospitalMeta } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -60,6 +63,15 @@ export default function HospitalSafetyEnvironmentPage() {
           1.5 安全的環境與設備
         </Badge>
         <h1 className="text-2xl font-bold mb-3">安全的環境與設備（項目 27–33）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${hospitalMeta.year} 年度` },
+            { label: "主管機關", value: hospitalMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={hospitalMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本章共 7 個評鑑項目，涵蓋建築安全、消防管理、醫療設備、危險物品、緊急應變、環境清潔及廢棄物管理。
         </p>
@@ -137,6 +149,8 @@ export default function HospitalSafetyEnvironmentPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/hospital/medical-records"

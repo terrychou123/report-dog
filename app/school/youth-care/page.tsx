@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
+import { youthCareProfile, meta as youthCareMeta } from "@/lib/ai/evaluation-profiles/youth-care";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   SettingsIcon,
   BuildingIcon,
@@ -114,7 +117,16 @@ export default function YouthCareSchoolPage() {
 
       <div className="prose prose-sm dark:prose-invert max-w-none mb-8">
         <h1 className="text-2xl font-bold mb-2">兒少安置機構評鑑基準</h1>
-        <p className="text-muted-foreground">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${youthCareMeta.year} 年度` },
+            { label: "主管機關", value: youthCareMeta.agency },
+            { label: "評鑑項目", value: `共 ${youthCareMeta.totalItems} 項` },
+            { label: "評鑑區塊", value: "5 大區塊" },
+          ]}
+        />
+        <SourceCallout meta={youthCareMeta} />
+        <p className="text-muted-foreground mt-2">
           112年度兒童及少年安置機構評鑑指標，共 35 項目、5 大區塊。專業服務配分最重（60分），另含財務管理（20分）及特殊事項加減分（±10分），幫助機構人員系統性準備評鑑。
         </p>
       </div>
@@ -244,22 +256,7 @@ export default function YouthCareSchoolPage() {
         </div>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

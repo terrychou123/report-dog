@@ -1,3 +1,10 @@
+export const meta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "一般護理之家",
+  totalItems: 15,
+};
+
 export const generalNursingHomeProfile = {
   id: "general-nursing-home",
   label: "一般護理之家",

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { hospitalProfile, meta as hospitalMeta } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -61,6 +64,15 @@ export default function HospitalPatientServicesPage() {
           1.6 病人導向之服務與管理
         </Badge>
         <h1 className="text-2xl font-bold mb-3">病人導向之服務與管理（項目 34–37）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${hospitalMeta.year} 年度` },
+            { label: "主管機關", value: hospitalMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={hospitalMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本章共 4 個評鑑項目，涵蓋病人服務資訊提供、就醫流程管理、病人滿意度管理及社區健康促進。
         </p>
@@ -139,6 +151,8 @@ export default function HospitalPatientServicesPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/hospital/safety-environment"

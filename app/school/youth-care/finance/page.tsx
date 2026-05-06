@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { youthCareProfile, meta as youthCareMeta } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -52,6 +55,15 @@ export default function YouthCareFinancePage() {
           <span className="text-sm text-muted-foreground">項目 29・20分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">{section.name}</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${youthCareMeta.year} 年度` },
+            { label: "主管機關", value: youthCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={youthCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共1項基準（20分），依衛生福利部社會及家庭署及地方政府財務查核結果計分。
           不同於其他區塊由評鑑委員實地評分，財務管理分數由歷年財務查核成績直接決定。
@@ -158,6 +170,8 @@ export default function YouthCareFinancePage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/youth-care/professional"

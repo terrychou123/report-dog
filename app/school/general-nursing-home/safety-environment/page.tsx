@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { generalNursingHomeProfile, meta as generalNursingHomeMeta } from "@/lib/ai/evaluation-profiles/general-nursing-home";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -58,6 +61,15 @@ export default function GeneralNursingHomeSafetyEnvironmentPage() {
           C、環境設施與安全維護
         </Badge>
         <h1 className="text-2xl font-bold mb-3">環境設施與安全維護（項目 9–12）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${generalNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: generalNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={generalNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 4 個評鑑項目，涵蓋災害緊急應變計畫的建立與演練、疏散避難系統的實地查核，
           以及針對住民失能程度的個別化疏散策略，特別包含情境式火災風險辨識的實地抽測，是本次評鑑的重點查核區塊。
@@ -123,6 +135,8 @@ export default function GeneralNursingHomeSafetyEnvironmentPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/general-nursing-home/professional-care"

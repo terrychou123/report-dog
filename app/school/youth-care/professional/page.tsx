@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { youthCareProfile } from "@/lib/ai/evaluation-profiles/youth-care";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { youthCareProfile, meta as youthCareMeta } from "@/lib/ai/evaluation-profiles/youth-care";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -62,6 +65,15 @@ export default function YouthCareProfessionalPage() {
           <span className="text-sm text-muted-foreground">項目 15–28・60分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">{section.name}</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${youthCareMeta.year} 年度` },
+            { label: "主管機關", value: youthCareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={youthCareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共14項基準（60分），是整個評鑑配分最重的區塊。評鑑委員透過審閱文件、實地訪談等方式綜合評分。
           「三、兒童少年專業服務品質」依安置兒少年齡分為2歲以下及2歲以上18歲以下兩個版本。
@@ -230,6 +242,8 @@ export default function YouthCareProfessionalPage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/youth-care/environment"

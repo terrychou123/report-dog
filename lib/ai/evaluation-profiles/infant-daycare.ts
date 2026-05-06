@@ -1,3 +1,10 @@
+export const meta = {
+  year: "114-116",
+  agency: "臺北市政府社會局",
+  facilityName: "托嬰中心",
+  totalItems: 60,
+};
+
 export const infantDaycareProfile = {
   id: "infant-daycare",
   label: "托嬰中心",

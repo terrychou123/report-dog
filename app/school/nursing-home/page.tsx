@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
-import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
+import { nursingHomeProfile, meta as nursingHomeMeta } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   ShieldCheckIcon,
   HeartPulseIcon,
@@ -133,7 +136,16 @@ export default function NursingHomePage() {
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">住宿型照顧機構</Badge>
         <h1 className="text-2xl font-bold mb-3">住宿型照顧機構評鑑基準總覽</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${nursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: nursingHomeMeta.agency },
+            { label: "評鑑項目", value: "共 63 正式項 + 加減分 3 項" },
+            { label: "評鑑區塊", value: "4 大區塊" },
+          ]}
+        />
+        <SourceCallout meta={nursingHomeMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           以下為 115 年度住宿式長期照顧服務機構績效考核指標（衛生福利部全國版），共 63 個評鑑項目 + 加減分 3 項，分為 4 大區塊。
           點擊各區塊可查看詳細說明、準備要訣與實用提示。
         </p>
@@ -249,22 +261,7 @@ export default function NursingHomePage() {
         </Link>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

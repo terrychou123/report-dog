@@ -1,3 +1,10 @@
+export const meta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "產後護理之家",
+  totalItems: 17,
+};
+
 export const babycareProfile = {
   id: "babycare",
   label: "產後護理之家",

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { infantDaycareProfile } from "@/lib/ai/evaluation-profiles/infant-daycare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { infantDaycareProfile, meta as infantDaycareMeta } from "@/lib/ai/evaluation-profiles/infant-daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -64,6 +67,15 @@ export default function InfantDaycareChildcareActivitiesPage() {
           <span className="text-sm text-muted-foreground">項目 12–36 ／ 40 分</span>
         </div>
         <h1 className="text-2xl font-bold mb-2">二、托育活動</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${infantDaycareMeta.year} 年度` },
+            { label: "主管機關", value: infantDaycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${allItems.length} 項` },
+            { label: "區塊名稱", value: "二、托育活動" },
+          ]}
+        />
+        <SourceCallout meta={infantDaycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共25項基準（40分），涵蓋關係建立與互動、環境規劃與使用、活動規劃與實施、親師交流與合作四大面向。
           評鑑委員會進行現場實地觀察，重點關注托育人員與嬰幼兒的互動品質、環境安全及個別化活動設計。
@@ -138,6 +150,8 @@ export default function InfantDaycareChildcareActivitiesPage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section: activitySections })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/infant-daycare/administration"

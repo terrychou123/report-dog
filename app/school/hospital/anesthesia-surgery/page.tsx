@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { hospitalProfile } from "@/lib/ai/evaluation-profiles/hospital";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { hospitalProfile, meta as hospitalMeta } from "@/lib/ai/evaluation-profiles/hospital";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -60,6 +63,15 @@ export default function HospitalAnesthesiaSurgeryPage() {
           2.6 麻醉與手術
         </Badge>
         <h1 className="text-2xl font-bold mb-3">麻醉與手術（項目 99–107）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${hospitalMeta.year} 年度` },
+            { label: "主管機關", value: hospitalMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={hospitalMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本章共 9 個評鑑項目，涵蓋手術安全查核、麻醉前評估、麻醉作業管理、手術室安全、術後照護、術後疼痛管理及手術器械管理。
         </p>
@@ -137,6 +149,8 @@ export default function HospitalAnesthesiaSurgeryPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/hospital/medication-safety"

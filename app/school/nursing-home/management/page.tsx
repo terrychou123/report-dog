@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { nursingHomeProfile } from "@/lib/ai/evaluation-profiles/nursing-home";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { nursingHomeProfile, meta as nursingHomeMeta } from "@/lib/ai/evaluation-profiles/nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -54,6 +57,15 @@ export default function NursingHomeManagementPage() {
           A、經營管理效能
         </Badge>
         <h1 className="text-2xl font-bold mb-3">經營管理效能（項目 1–9）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${nursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: nursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={nursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 9 個評鑑項目（115年度全國版），涵蓋住宿型機構的整體管理能力，從行政制度、人員設置資格、教育訓練到危機風險管理。
           115年度將人員設置（A8）及教育訓練（A9）各自合併為單一項目，並新增「前次評鑑缺失改善」（A4）。
@@ -119,6 +131,8 @@ export default function NursingHomeManagementPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/nursing-home"

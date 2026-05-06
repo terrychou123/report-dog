@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { disabilityWelfareProfile } from "@/lib/ai/evaluation-profiles/disability-welfare";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { disabilityWelfareProfile, meta as disabilityWelfareMeta } from "@/lib/ai/evaluation-profiles/disability-welfare";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -70,6 +73,15 @@ export default function DisabilityWelfareProfessionalPage() {
         <h1 className="text-2xl font-bold mb-3">
           專業服務（項目 32–49）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${disabilityWelfareMeta.year} 年度` },
+            { label: "主管機關", value: disabilityWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={disabilityWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 18 個評鑑項目，涵蓋個別化服務/支持計畫（ISP）擬訂與執行、專業團隊服務、
           輔具器材、體能休閒活動、健康管理、膳食服務、用藥安全、傳染病防治、社區資源運用及家庭訪視等面向。
@@ -175,6 +187,8 @@ export default function DisabilityWelfareProfessionalPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/disability-welfare/environment"

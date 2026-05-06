@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { elderlyWelfareProfile, meta as elderlyWelfareMeta } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function ElderlyWelfareProfessionalQualityPage() {
           B、專業照護品質
         </Badge>
         <h1 className="text-2xl font-bold mb-3">專業照護品質（項目 16–46）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },
+            { label: "主管機關", value: elderlyWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={elderlyWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 31 個評鑑項目，為老人福利機構評鑑占分最高的區塊（40%），涵蓋社工服務、護理照護、生活照顧、用藥管理、膳食服務、復能活動至品質監測指標。
           個別化照護計畫的多專業整合程度是評鑑重要關鍵。
@@ -117,6 +129,8 @@ export default function ElderlyWelfareProfessionalQualityPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/elderly-welfare/management"

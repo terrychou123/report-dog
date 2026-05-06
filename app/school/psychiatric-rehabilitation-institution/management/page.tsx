@@ -1,9 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
+  meta as psychiatricRehabDayMeta,
 } from "@/lib/ai/evaluation-profiles/psychiatric-rehabilitation-institution";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -75,6 +79,15 @@ export default function ManagementPage() {
         <h1 className="text-2xl font-bold mb-3">
           第1章、經營管理
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricRehabDayMeta.agency },
+            { label: "本區塊項目", value: `共 ${daySection.items.length} 條` },
+            { label: "區塊名稱", value: daySection.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricRehabDayMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本章主要在評量機構負責人經營管理的妥適性，為影響服務品質最基本之要素，包括人力資源、財務管理、復健理念、復健績效與整體發展方向之規劃等。日間型共 10 條（配分 34 分），住宿型共 12 條（配分 33 分）。
         </p>
@@ -89,6 +102,8 @@ export default function ManagementPage() {
       />
 
       {/* Prev/Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section: daySection })} />
+
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link
           href="/school/psychiatric-rehabilitation-institution"

@@ -1,9 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
+  meta as psychiatricRehabDayMeta,
 } from "@/lib/ai/evaluation-profiles/psychiatric-rehabilitation-institution";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -67,6 +71,15 @@ export default function RehabilitationPage() {
         <h1 className="text-2xl font-bold mb-3">
           第2章、復健服務
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricRehabDayMeta.agency },
+            { label: "本區塊項目", value: `共 ${daySection.items.length} 條` },
+            { label: "區塊名稱", value: daySection.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricRehabDayMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           機構主要任務是協助學員/住民逐步適應社會生活，透過專業團隊的全人評估，與學員/住民共同決定具體可行之復健目標與計畫，運用「有目的的活動」做為復元媒介，結合社區資源，進行真實的社區生活復健。日間型與住宿型均為 14 條（配分 37 分）。
         </p>
@@ -81,6 +94,8 @@ export default function RehabilitationPage() {
       />
 
       {/* Prev/Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section: daySection })} />
+
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link
           href="/school/psychiatric-rehabilitation-institution/management"

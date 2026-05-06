@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { elderlyWelfareProfile } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { elderlyWelfareProfile, meta as elderlyWelfareMeta } from "@/lib/ai/evaluation-profiles/elderly-welfare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
@@ -53,6 +56,15 @@ export default function ElderlyWelfareBonusPage() {
           F、加分題
         </Badge>
         <h1 className="text-2xl font-bold mb-3">加分題（項目 75–77）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },
+            { label: "主管機關", value: elderlyWelfareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={elderlyWelfareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           加分題共 3 個項目（最高加 2 分），評鑑機構在人才培育、智慧照護與在地安老服務上的卓越表現。
           加分題雖非必要項目，但能有效提升機構整體評鑑成績，展現機構的前瞻視野。
@@ -117,6 +129,8 @@ export default function ElderlyWelfareBonusPage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-start border-t pt-6">
         <Link
           href="/school/elderly-welfare/innovation"

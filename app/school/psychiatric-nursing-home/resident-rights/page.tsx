@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { psychiatricNursingHomeProfile } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { psychiatricNursingHomeProfile, meta as psychiatricNursingHomeMeta } from "@/lib/ai/evaluation-profiles/psychiatric-nursing-home";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -50,6 +53,15 @@ export default function ResidentRightsPage() {
         <h1 className="text-2xl font-bold mb-3">
           D、住民權益保障（D1.1–D1.2）
         </h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={psychiatricNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本面向共 2 條指標，涵蓋尊重住民宗教信仰及推動安寧緩和療護與病人自主權利。精神護理之家應尊重住民的精神、靈性需求，並積極推動病人自主權利法相關事宜。
         </p>
@@ -93,6 +105,8 @@ export default function ResidentRightsPage() {
           </div>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link

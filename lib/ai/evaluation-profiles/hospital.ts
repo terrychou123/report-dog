@@ -1,3 +1,11 @@
+export const meta = {
+  year: "114",
+  agency: "衛生福利部",
+  facilityName: "醫院",
+  totalItems: 124,
+  legalBasis: "醫療法第28條",
+};
+
 export type HospitalEvaluationCategory = "一般" | "必要" | "重點" | "試評" | "可免評";
 
 type HospitalItem = {

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeNursingProfile, meta as homeNursingMeta } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -81,6 +84,15 @@ export default function HomeNursingInfectionControlPage() {
           A、經營管理
         </Badge>
         <h1 className="text-2xl font-bold mb-3">A2 感染管制作業與器材維護管理（8%）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeNursingMeta.year} 年度` },
+            { label: "主管機關", value: homeNursingMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeNursingMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           居家護理的感染管制比機構照護更複雜，因為訪視地點分散、環境不可控。A2 要求機構建立完整的感控作業手冊，並落實醫材維護管理，是評鑑中最容易因「手冊內容不完整」或「紀錄缺失」而失分的項目之一。
         </p>
@@ -165,6 +177,8 @@ export default function HomeNursingInfectionControlPage() {
       )}
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-nursing/management"

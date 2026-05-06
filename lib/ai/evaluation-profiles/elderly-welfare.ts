@@ -1,3 +1,10 @@
+export const meta = {
+  year: "115",
+  agency: "衛生福利部",
+  facilityName: "老人福利機構",
+  totalItems: 77,
+};
+
 export const elderlyWelfareProfile = {
   id: "elderly-welfare",
   label: "老人福利機構",

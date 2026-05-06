@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { homeNursingProfile } from "@/lib/ai/evaluation-profiles/home-nursing";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { homeNursingProfile, meta as homeNursingMeta } from "@/lib/ai/evaluation-profiles/home-nursing";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
@@ -69,6 +72,15 @@ export default function HomeNursingBonusPage() {
           B、照護管理
         </Badge>
         <h1 className="text-2xl font-bold mb-3">B3、加分項目（5%）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${homeNursingMeta.year} 年度` },
+            { label: "主管機關", value: homeNursingMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={homeNursingMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           B3 為加分項目，佔 B 區塊照護管理的 <strong>5%</strong>，符合以下任一項目即可獲得加分。
           雖非必要，但對爭取優等或特優機構認定具關鍵影響，建議積極備妥相關佐證資料。
@@ -149,6 +161,8 @@ export default function HomeNursingBonusPage() {
       </div>
 
       {/* Prev / Next */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/home-nursing"

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd, requireSection } from "@/lib/school-jsonld";
-import { daycareProfile } from "@/lib/ai/evaluation-profiles/daycare";
+import { schoolSubpageJsonLd, requireSection , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { daycareProfile, meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
 import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -55,6 +58,15 @@ export default function DaycareSafetyEnvironmentPage() {
           肆、安全環境設備
         </Badge>
         <h1 className="text-2xl font-bold mb-3">安全環境設備（項目 38–43）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${daycareMeta.year} 年度` },
+            { label: "主管機關", value: daycareMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={daycareMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 6 個評鑑項目，是日照評鑑的最後一個區塊，著重在機構實體環境的安全性與高齡友善程度。
           115 年度將子分類調整為「（一）硬體環境設施」，評鑑委員以現場觀察為主要審查方式，
@@ -126,6 +138,8 @@ export default function DaycareSafetyEnvironmentPage() {
           </section>
         ))}
       </div>
+
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
 
       {/* 上下頁導航 */}
       <div className="mt-12 flex items-center justify-between border-t pt-6">

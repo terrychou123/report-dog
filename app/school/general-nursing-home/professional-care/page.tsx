@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd } from "@/lib/school-jsonld";
-import { generalNursingHomeProfile } from "@/lib/ai/evaluation-profiles/general-nursing-home";
+import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { generalNursingHomeProfile, meta as generalNursingHomeMeta } from "@/lib/ai/evaluation-profiles/general-nursing-home";
 import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
@@ -59,6 +62,15 @@ export default function GeneralNursingHomeProfessionalCarePage() {
           B、專業服務與生活照顧
         </Badge>
         <h1 className="text-2xl font-bold mb-3">專業服務與生活照顧（項目 6–8）</h1>
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${generalNursingHomeMeta.year} 年度` },
+            { label: "主管機關", value: generalNursingHomeMeta.agency },
+            { label: "本區塊項目", value: `共 ${section.items.length} 項` },
+            { label: "區塊名稱", value: section.name },
+          ]}
+        />
+        <SourceCallout meta={generalNursingHomeMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed">
           本區塊共 3 個評鑑項目，涵蓋住民個別化照護需求評估與計畫執行、跨專業整合性照顧，
           以及照護品質監測指標的建立與持續改善，是評鑑委員衡量機構照護品質的核心依據。
@@ -125,6 +137,8 @@ export default function GeneralNursingHomeProfessionalCarePage() {
       </div>
 
       {/* Prev / Next navigation */}
+      <SchoolFaqSection items={buildSchoolSubpageFaqItems({ section })} />
+
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
           href="/school/general-nursing-home/administration"

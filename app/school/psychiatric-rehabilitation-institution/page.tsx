@@ -4,8 +4,12 @@ import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib
 import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
+  meta as psychiatricRehabDayMeta,
 } from "@/lib/ai/evaluation-profiles/psychiatric-rehabilitation-institution";
 import { Badge } from "@/components/ui/badge";
+import { KeyTakeaways } from "@/components/school/key-takeaways";
+import { SourceCallout } from "@/components/school/source-callout";
+import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import { Button } from "@/components/ui/button";
 import {
   SettingsIcon,
@@ -119,7 +123,16 @@ export default function PsychiatricRehabilitationInstitutionPage() {
           精神復健機構
         </Badge>
         <h1 className="text-2xl font-bold mb-3">精神復健機構評鑑小教室</h1>
-        <p className="text-muted-foreground text-sm leading-relaxed">
+        <KeyTakeaways
+          items={[
+            { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
+            { label: "主管機關", value: psychiatricRehabDayMeta.agency },
+            { label: "日間型項目", value: `共 ${psychiatricRehabDayMeta.totalItems} 條` },
+            { label: "住宿型項目", value: "共 40 條" },
+          ]}
+        />
+        <SourceCallout meta={psychiatricRehabDayMeta} />
+        <p className="text-muted-foreground text-sm leading-relaxed mt-2">
           115年度精神復健機構評鑑基準包含兩種機構類型：<strong>日間型</strong>（3章36條）與<strong>住宿型</strong>（3章40條）。日間型機構服務對象為「學員」，住宿型機構服務對象為「住民」。評鑑採五級（A、B、C、D、E）及三級（A、C、E）評量方式。住宿型唯一重點項目為 3.11 維護住民出入自由。
         </p>
       </div>
@@ -322,22 +335,7 @@ export default function PsychiatricRehabilitationInstitutionPage() {
         </Button>
       </div>
 
-      {/* 常見問題 */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">常見問題</h2>
-        <div className="space-y-3">
-          {FAQ_ITEMS.map((item) => (
-            <details key={item.question} className="group border rounded-lg bg-background">
-              <summary className="px-5 py-4 cursor-pointer font-medium text-sm list-none hover:text-primary transition-colors">
-                {item.question}
-              </summary>
-              <div className="px-5 pb-4 text-muted-foreground text-sm border-t pt-3">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </div>
+      <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
 }

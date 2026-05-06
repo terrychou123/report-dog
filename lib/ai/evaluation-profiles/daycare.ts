@@ -1,5 +1,13 @@
 // 115年度臺北市政府社會局日間照顧機構法定評鑑基準
 // 4 大區塊 43 正式項目 + 伍、加分題 2 項
+
+export const meta = {
+  year: "115",
+  agency: "臺北市政府社會局",
+  facilityName: "日間照顧機構",
+  totalItems: 45,
+};
+
 export const daycareProfile = {
   id: "daycare",
   label: "日間照顧中心",
