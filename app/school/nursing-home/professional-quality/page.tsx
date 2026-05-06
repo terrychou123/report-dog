@@ -10,6 +10,8 @@ import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { nursingHomeTips } from "@/lib/evaluation-tips/nursing-home";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { nursingHomeReferences } from "@/lib/evaluation-references/nursing-home";
 
 export const metadata: Metadata = {
   title: "B、專業照護品質（項目 10–38）｜住宿型照顧機構評鑑",
@@ -128,6 +130,7 @@ export default function NursingHomeProfessionalQualityPage() {
               </DocsTip>
             )}
             {tips[item.id]?.soap && <SoapCta facility="nursing-home" />}
+            <EvaluationReferences references={nursingHomeReferences[item.id]} />
           </section>
         ))}
       </div>
