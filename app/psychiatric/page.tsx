@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "精神護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・跨專業照護管理平台",
   description:
     "報告汪專為精神護理之家設計：115年度評鑑基準 A 經營管理（9條）、B 專業照護（21條）、C 安全設施（3條）、D 住民權益（2條）、E 創新改革（1條）共 36 條 AI 逐項分析，住民服務計畫集中管理，護理師、職能治療師與負責人同平台協作。精神護理之家文書管理首選。立即免費試用。",
-  alternates: { canonical: "https://reportwang.com/psychiatric" },
+  alternates: { canonical: "/psychiatric" },
   openGraph: {
     title: "精神護理之家 AI 文書管理系統｜115年度評鑑備審・住民照護計畫・跨專業照護管理平台",
     description:

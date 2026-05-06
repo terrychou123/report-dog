@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
-import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -15,17 +15,17 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
+  title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審｜報告汪",
   description:
     "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
   alternates: { canonical: "/hospital" },
   openGraph: {
-    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
+    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審｜報告汪",
     description:
       "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
   },
   twitter: {
-    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審護理長首選工具",
+    title: "醫院護理部 AI 文書管理｜病房報告整合・交接班標籤・評鑑備審｜報告汪",
     description:
       "報告汪專為醫院護理部設計：班別標籤交接班、多標籤文件分類、評鑑備審一鍵備齊，護理師、護理長、副護理長同平台管理，病房報告不再散落、交班不再遺漏。支援護理師行動記錄，大量文件快速彙整，JCI、SNQ 評鑑準備更從容。立即免費試用。",
   },
@@ -409,19 +409,7 @@ export default function HospitalNursingPage() {
         <StartButton>免費開始使用</StartButton>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t py-8 px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-        <div className="flex items-center gap-2 font-semibold text-foreground">
-          <BotIcon className="h-4 w-4 text-primary" />
-          報告汪
-        </div>
-        <div className="flex items-center gap-6">
-          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" title="免費試用報告汪醫院護理部方案" className="hover:text-primary transition-colors">註冊</Link>
-        </div>
-        <ThemeSwitcher />
-      </footer>
+      <Footer />
     </main>
   );
 }

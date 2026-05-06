@@ -23,7 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  const staticDate = new Date("2026-05-03");
+  const staticDate = new Date();
 
   return [
     // Home

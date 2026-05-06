@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
 import { SoapDemo } from "@/components/demo/soap-demo";
@@ -58,17 +59,49 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "SoftwareApplication",
-            name: "報告汪",
-            url: "https://reportwang.com",
-            applicationCategory: "BusinessApplication",
-            operatingSystem: "Web",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "TWD" },
-            description:
-              "複製上期報告當模板，讓 AI 修改差異段落，追蹤報告更新頻率自動提醒逾期，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手。",
-          }),
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              name: "報告汪",
+              url: "https://reportwang.com",
+              applicationCategory: "BusinessApplication",
+              operatingSystem: "Web",
+              offers: { "@type": "Offer", price: "0", priceCurrency: "TWD" },
+              description:
+                "複製上期報告當模板，讓 AI 修改差異段落，追蹤報告更新頻率自動提醒逾期，再用標籤與搜尋管理所有報告。社工、個管師、行政人員的定期報告幫手。",
+            }),
+            faqPageJsonLd(
+              [
+                {
+                  question: "報告汪適合哪些行政工作使用？",
+                  answer:
+                    "適合需要定期產出報告的行政人員，例如：撰寫日報、週報、月報、專案進度報告、會議紀錄等重複性高的文書工作。",
+                },
+                {
+                  question: "如何快速產出每週 / 每月的定期報告？",
+                  answer:
+                    "複製上一期的報告作為模板，針對有異動的段落輸入 AI 修改指令（例如：「更新本週進度數字」），AI 立即產出修改版本，確認後套用，全程不需重新排版。",
+                },
+                {
+                  question: "AI 修改報告是如何運作的？",
+                  answer:
+                    "點擊報告中的任意段落，進入 AI 對話模式，以自然語言下指令（例如：「這段改得更簡潔」、「加入本週新增的事項」），AI 提供修改版本，不滿意可繼續調整。",
+                },
+                {
+                  question: "標籤功能怎麼用？",
+                  answer:
+                    "建立標籤後（例如：週報、A 專案、財務部），將報告關聯至對應標籤。之後可透過標籤篩選或全文搜尋快速找到特定報告，不再需要在資料夾中翻找。",
+                },
+                {
+                  question: "目前收費嗎？",
+                  answer:
+                    "系統目前處於測試階段，完全免費使用。正式版本的定價方案尚在規劃中。",
+                },
+              ],
+              "/"
+            )
+          ),
         }}
       />
       <Navbar />
@@ -80,8 +113,8 @@ export default function Home() {
           行政效率工具
         </Badge>
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
-          長照機構文書管理系統<br className="hidden md:block" />
-          <span className="text-primary">AI報告生成・標籤分類・評鑑備審</span>
+          長照機構文書管理系統
+          <span className="block text-primary">AI報告生成・標籤分類・評鑑備審</span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mb-10">
           複製上期報告當模板，AI 幫你修改差異段落，再用標籤與搜尋輕鬆管理所有報告。

@@ -2,12 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
-import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
-  BotIcon,
   TagIcon,
   UsersIcon,
   SmartphoneIcon,
@@ -16,17 +15,17 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "住宿型長照機構 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作平台",
+  title: "住宿型長照機構 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作｜報告汪",
   description:
     "報告汪專為住宿型長照機構設計：護理師、照服員、社工師、營養師在同一平台協作，依職類標籤分區管理、AI 輔助照護紀錄，24 小時住民照護文件不遺漏。評鑑備審文件自動彙整，多職種分工清晰，提升整體照護品質。立即免費試用。",
   alternates: { canonical: "/residential" },
   openGraph: {
-    title: "住宿型長照機構 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作平台",
+    title: "住宿型長照機構 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作｜報告汪",
     description:
       "報告汪專為住宿型長照機構設計：護理師、照服員、社工師、營養師在同一平台協作，依職類標籤分區管理、AI 輔助照護紀錄，24 小時住民照護文件不遺漏。評鑑備審文件自動彙整，多職種分工清晰，提升整體照護品質。立即免費試用。",
   },
   twitter: {
-    title: "住宿型長照機構 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作平台",
+    title: "住宿型長照機構 AI 文書管理系統｜護理師・照服員・社工・營養師多職種協作｜報告汪",
     description:
       "報告汪專為住宿型長照機構設計：護理師、照服員、社工師、營養師在同一平台協作，依職類標籤分區管理、AI 輔助照護紀錄，24 小時住民照護文件不遺漏。評鑑備審文件自動彙整，多職種分工清晰，提升整體照護品質。立即免費試用。",
   },
@@ -441,19 +440,7 @@ export default function ResidentialPage() {
         <StartButton>免費開始使用</StartButton>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t py-8 px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-        <div className="flex items-center gap-2 font-semibold text-foreground">
-          <BotIcon className="h-4 w-4 text-primary" />
-          報告汪
-        </div>
-        <div className="flex items-center gap-6">
-          <Link href="/pricing" title="查看報告汪各方案價格" className="hover:text-primary transition-colors">價格</Link>
-          <Link href="/auth/login" title="登入報告汪帳戶" className="hover:text-primary transition-colors">登入</Link>
-          <Link href="/auth/sign-up" title="免費試用報告汪住宿型長照機構方案" className="hover:text-primary transition-colors">註冊</Link>
-        </div>
-        <ThemeSwitcher />
-      </footer>
+      <Footer />
     </main>
   );
 }
