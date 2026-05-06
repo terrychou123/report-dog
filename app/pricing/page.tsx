@@ -28,6 +28,22 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <main className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Offer",
+            name: "報告汪測試方案",
+            price: "0",
+            priceCurrency: "TWD",
+            availability: "https://schema.org/InStock",
+            url: "https://reportwang.com/pricing",
+            seller: { "@type": "Organization", name: "報告汪" },
+            description: "報告汪目前處於公開測試階段，所有功能完全免費。",
+          }),
+        }}
+      />
       <Navbar />
 
       {/* Pricing Content */}

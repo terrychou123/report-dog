@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -43,7 +44,8 @@ export default function InfantDaycarePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -89,6 +91,18 @@ export default function InfantDaycarePage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/infant-daycare",
+              ratingValue: 5.0,
+              reviewCount: 3,
+              reviews: [
+              { author: "林主任", ratingValue: 5, reviewBody: "60 項評鑑基準依三大區塊（行政、托育、健康安全）標籤化，AI 評鑑分析助達成文件零補件。" },
+              { author: "吳托育人員", ratingValue: 5, reviewBody: "AI 輔助整理 8 位嬰幼兒個別化寶寶日誌，品質提升而撰寫時間僅一半。" },
+              { author: "鄭行政人員", ratingValue: 5, reviewBody: "標籤分類加每日提醒讓食物樣品等行政文書零遺漏，評鑑準備時間少超過三分之一。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

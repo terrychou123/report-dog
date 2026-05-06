@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -38,7 +39,8 @@ export default function BabycarePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -84,6 +86,18 @@ export default function BabycarePage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/babycare",
+              ratingValue: 5.0,
+              reviewCount: 3,
+              reviews: [
+              { author: "王護理師", ratingValue: 5, reviewBody: "報告汪解決母嬰照護紀錄分散問題，B 區評鑑分析自動找出文件不足，評鑑準備時間省了超過一半。" },
+              { author: "陳負責人", ratingValue: 5, reviewBody: "依評鑑構面分區標籤後，A/B/C 區文件即時歸位，評鑑前再也不用臨時補件。" },
+              { author: "林護產人員", ratingValue: 5, reviewBody: "B1.7 品質指標（紅臀率、乳腺炎率、純母乳率）標籤化加 AI 趨勢分析，評鑑紀錄完整可追。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

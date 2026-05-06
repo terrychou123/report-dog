@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -43,7 +44,8 @@ export default function HomeCarePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -89,6 +91,18 @@ export default function HomeCarePage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/home-care",
+              ratingValue: 4.7,
+              reviewCount: 3,
+              reviews: [
+              { author: "吳督導", ratingValue: 5, reviewBody: "標籤依撰寫者與頻率分類，30 位居服員的日誌缺繳一目了然，督導追蹤每天省一小時。" },
+              { author: "黃主任", ratingValue: 5, reviewBody: "送審必備文件用標籤群組與拖曳排序，衛生局查核首度做到文件零補件。" },
+              { author: "許居服員", ratingValue: 4, reviewBody: "AI 輔助生成服務日誌，行動端就能完成，撰寫時間僅以前一半。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

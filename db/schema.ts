@@ -147,6 +147,8 @@ export const blogPosts = pgTable('blog_posts', {
   excerpt: text('excerpt'),
   content: text('content'),
   coverImageUrl: text('cover_image_url'),
+  coverImageAlt: text('cover_image_alt'),
+  author: text('author'),
   category: text('category'),
   tags: text('tags').array(),
   status: text('status').notNull().default('draft'),

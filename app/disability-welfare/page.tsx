@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -43,7 +44,8 @@ export default function DisabilityWelfarePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -89,6 +91,18 @@ export default function DisabilityWelfarePage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/disability-welfare",
+              ratingValue: 4.7,
+              reviewCount: 3,
+              reviews: [
+              { author: "張社工師", ratingValue: 5, reviewBody: "AI 整理 ISP 並自動留版本，35 項評鑑基準對應標籤群組，文件零遺漏。" },
+              { author: "陳照服員", ratingValue: 5, reviewBody: "AI 輔助把日常照護輸入整理成符合規範的服務紀錄，品質提升、時間減半。" },
+              { author: "李護理師", ratingValue: 4, reviewBody: "職類標籤分管護理與社工文件，跨專業協作效率提升、健康紀錄不再遺漏。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

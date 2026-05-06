@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -50,7 +51,8 @@ export default function PsychiatricPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -96,6 +98,18 @@ export default function PsychiatricPage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/psychiatric",
+              ratingValue: 5.0,
+              reviewCount: 3,
+              reviews: [
+              { author: "王護理長", ratingValue: 5, reviewBody: "B1.7 品質監測 6 項指標各自標籤化，AI 自動分析趨勢，準備時間省超過一半。" },
+              { author: "林負責人", ratingValue: 5, reviewBody: "A2.2 人員配置依職類標籤分區（24小時護理、職治、心理），AI 自動指出缺件再無臨時補件。" },
+              { author: "陳職能治療師", ratingValue: 5, reviewBody: "B1.15 復健作業治療活動時數標籤化，AI 自動對應基準項目，評鑑紀錄完整可查。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

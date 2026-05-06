@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -38,7 +39,8 @@ export default function GeneralNursingHomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -84,6 +86,18 @@ export default function GeneralNursingHomePage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/general-nursing-home",
+              ratingValue: 5.0,
+              reviewCount: 3,
+              reviews: [
+              { author: "林護理長", ratingValue: 5, reviewBody: "依住民建立標籤整合 A2.1 服務對象管理文件，AI 評鑑分析自動指出再評估缺漏，準備時間省超過一半。" },
+              { author: "黃負責人", ratingValue: 5, reviewBody: "C 區四基準（C1～C4）標籤化管理消防、感染管制、災害應變，評鑑前再無臨時補件。" },
+              { author: "陳照服員", ratingValue: 5, reviewBody: "B2 生活照顧紀錄（沐浴、飲食、巡房）標籤化，AI 自動對應基準，每位住民紀錄完整可查。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

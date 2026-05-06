@@ -183,7 +183,7 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="relative aspect-[2/1] rounded-xl overflow-hidden bg-muted mb-10">
               <Image
                 src={post.coverImageUrl}
-                alt={post.title}
+                alt={post.coverImageAlt || post.title}
                 fill
                 sizes="(max-width: 896px) 100vw, 896px"
                 className="object-cover"
@@ -221,6 +221,9 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* 發佈日期、更新日期、閱讀時間 */}
           <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground mb-10">
+            {post.author && (
+              <span className="font-medium text-foreground">{post.author}</span>
+            )}
             {post.publishedAt && (
               <time dateTime={post.publishedAt.toISOString()}>
                 {new Date(post.publishedAt).toLocaleDateString("zh-TW", {

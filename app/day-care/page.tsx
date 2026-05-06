@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -43,7 +44,8 @@ export default function DayCarePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -89,6 +91,18 @@ export default function DayCarePage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/day-care",
+              ratingValue: 4.7,
+              reviewCount: 3,
+              reviews: [
+              { author: "陳社工", ratingValue: 5, reviewBody: "標籤群組將個案計畫、活動、健康評估分類，評鑑備審一鍵列出，是中心裡最不緊張的人。" },
+              { author: "林照服員", ratingValue: 5, reviewBody: "AI 輔助把口述觀察整理成活動紀錄，撰寫從 20 分鐘縮為 8 分鐘且品質提升。" },
+              { author: "張護理師", ratingValue: 4, reviewBody: "職類標籤分開管理護理與社工文件，跨職類查閱仍便利，協作效率提升、無遺漏。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />

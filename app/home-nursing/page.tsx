@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { reviewJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import Link from "next/link";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
@@ -38,7 +39,8 @@ export default function HomeNursingPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: mergeJsonLdGraph(
+            JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -84,6 +86,18 @@ export default function HomeNursingPage() {
               },
             ],
           }),
+            reviewJsonLd({
+              itemName: "報告汪",
+              itemUrl: "https://reportwang.com/home-nursing",
+              ratingValue: 5.0,
+              reviewCount: 3,
+              reviews: [
+              { author: "張護理師", ratingValue: 5, reviewBody: "依個案標籤化收案、全人評估、照護計畫，B2 個案照護管理 AI 評鑑分析省時近一半。" },
+              { author: "李負責人", ratingValue: 5, reviewBody: "依評鑑構面分區標籤管理感染管制與經營指標等文件，再不用臨時補件。" },
+              { author: "陳訪視人員", ratingValue: 5, reviewBody: "A3 訪視人員安全管理事件記錄與改善追蹤標籤化，AI 自動檢核完整度。" },
+              ],
+            })
+          ),
         }}
       />
       <Navbar />
