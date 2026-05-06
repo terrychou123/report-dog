@@ -6,10 +6,10 @@ import { eq } from "drizzle-orm";
 export const revalidate = 86400;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  let publishedPosts: { slug: string; updatedAt: Date | null }[] = [];
+  let publishedPosts: { slug: string; updatedAt: Date | null; category: string | null; tags: string[] | null }[] = [];
   try {
     publishedPosts = await db
-      .select({ slug: blogPosts.slug, updatedAt: blogPosts.updatedAt })
+      .select({ slug: blogPosts.slug, updatedAt: blogPosts.updatedAt, category: blogPosts.category, tags: blogPosts.tags })
       .from(blogPosts)
       .where(eq(blogPosts.status, "published"));
   } catch {
@@ -21,6 +21,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: post.updatedAt ?? new Date(),
     changeFrequency: "weekly",
     priority: 0.6,
+  }));
+
+  // Blog 分類 archive
+  const uniqueCategories = Array.from(
+    new Set(publishedPosts.map((p) => p.category).filter(Boolean) as string[])
+  );
+  const categoryEntries: MetadataRoute.Sitemap = uniqueCategories.map((cat) => ({
+    url: `https://reportwang.com/blog/category/${encodeURIComponent(cat)}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.5,
+  }));
+
+  // Blog 標籤 archive
+  const uniqueTags = Array.from(
+    new Set(publishedPosts.flatMap((p) => p.tags ?? []).filter(Boolean))
+  );
+  const tagEntries: MetadataRoute.Sitemap = uniqueTags.map((tag) => ({
+    url: `https://reportwang.com/blog/tag/${encodeURIComponent(tag)}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.4,
   }));
 
   const staticDate = new Date();
@@ -179,5 +201,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/service-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
     ...blogEntries,
+    ...categoryEntries,
+    ...tagEntries,
   ];
 }

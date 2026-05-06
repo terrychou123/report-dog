@@ -1,6 +1,11 @@
+import type { Metadata } from "next";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Suspense } from "react";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
 
 async function Content({ searchParams }: { searchParams: Promise<{ ok?: string }> }) {
   const { ok } = await searchParams;

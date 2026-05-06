@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { faqPageJsonLd } from "@/lib/jsonld";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
@@ -102,17 +103,12 @@ export default function FaqPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: faqGroups.flatMap(({ items }) =>
-              items.map(({ q, a }) => ({
-                "@type": "Question",
-                name: q,
-                acceptedAnswer: { "@type": "Answer", text: a },
-              }))
+          __html: faqPageJsonLd(
+            faqGroups.flatMap(({ items }) =>
+              items.map(({ q, a }) => ({ question: q, answer: a }))
             ),
-          }),
+            "/docs/faq"
+          ),
         }}
       />
 
