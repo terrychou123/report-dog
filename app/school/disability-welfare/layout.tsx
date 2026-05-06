@@ -1,10 +1,13 @@
+import { Suspense } from "react";
 import { SchoolRelatedPosts } from "@/components/school/school-related-posts";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       {children}
-      <SchoolRelatedPosts facilityKey="disability-welfare" />
+      <Suspense fallback={null}>
+        <SchoolRelatedPosts facilityKey="disability-welfare" />
+      </Suspense>
     </>
   );
 }
