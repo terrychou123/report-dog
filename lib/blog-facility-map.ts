@@ -7,7 +7,7 @@ export interface FacilityInfo {
   subPages: Array<{ href: string; label: string }>;
 }
 
-const FACILITY_MAP: Record<string, FacilityInfo> = {
+export const FACILITY_MAP: Record<string, FacilityInfo> = {
   daycare: {
     schoolPath: "/school/daycare",
     schoolName: "日間照顧機構評鑑小教室",
