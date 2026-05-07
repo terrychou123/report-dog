@@ -9,6 +9,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { homeCareTips } from "@/lib/evaluation-tips/home-care";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { homeCareReferences } from "@/lib/evaluation-references/home-care";
 
 export const metadata: Metadata = {
   title: "參、經營管理效能（項目 15–30）",
@@ -126,6 +128,7 @@ export default function ManagementPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+            <EvaluationReferences references={homeCareReferences[item.id]} />
           </section>
         ))}
       </div>

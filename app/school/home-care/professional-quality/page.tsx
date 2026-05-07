@@ -10,6 +10,8 @@ import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { homeCareTips } from "@/lib/evaluation-tips/home-care";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { homeCareReferences } from "@/lib/evaluation-references/home-care";
 
 export const metadata: Metadata = {
   title: "貳、專業照護品質（項目 5–14）",
@@ -128,6 +130,7 @@ export default function ProfessionalQualityPage() {
               </DocsTip>
             )}
             {tips[item.id]?.soap && <SoapCta facility="home-care" />}
+            <EvaluationReferences references={homeCareReferences[item.id]} />
           </section>
         ))}
       </div>

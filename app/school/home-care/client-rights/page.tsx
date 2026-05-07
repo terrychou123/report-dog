@@ -9,6 +9,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { homeCareTips } from "@/lib/evaluation-tips/home-care";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { homeCareReferences } from "@/lib/evaluation-references/home-care";
 
 export const metadata: Metadata = {
   title: "壹、個案權益保障（項目 1–4）",
@@ -126,6 +128,7 @@ export default function ClientRightsPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+            <EvaluationReferences references={homeCareReferences[item.id]} />
           </section>
         ))}
       </div>
