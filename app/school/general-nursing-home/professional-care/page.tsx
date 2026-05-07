@@ -10,6 +10,8 @@ import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { generalNursingHomeTips } from "@/lib/evaluation-tips/general-nursing-home";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { generalNursingHomeReferences } from "@/lib/evaluation-references/general-nursing-home";
 
 export const metadata: Metadata = {
   title: "專業服務與生活照顧（B1–B3）｜一般護理之家評鑑",
@@ -126,6 +128,9 @@ export default function GeneralNursingHomeProfessionalCarePage() {
               </ol>
             </div>
 
+            {generalNursingHomeReferences[item.id] && (
+              <EvaluationReferences references={generalNursingHomeReferences[item.id]!} />
+            )}
             {tips[item.id] && (
               <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
                 {tips[item.id].content}
