@@ -10,6 +10,8 @@ import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { homeNursingTips } from "@/lib/evaluation-tips/home-nursing";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { homeNursingReferences } from "@/lib/evaluation-references/home-nursing";
 
 export const metadata: Metadata = {
   title: "B、照護管理（項目 6–8）｜居家護理所評鑑",
@@ -131,6 +133,7 @@ export default function HomeNursingCareManagementPage() {
               </DocsTip>
             )}
             {tips[item.id]?.soap && <SoapCta facility="home-nursing" />}
+            <EvaluationReferences references={homeNursingReferences[item.id]} />
           </section>
         ))}
       </div>
