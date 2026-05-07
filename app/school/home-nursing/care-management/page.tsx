@@ -132,8 +132,8 @@ export default function HomeNursingCareManagementPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
-            {tips[item.id]?.soap && <SoapCta facility="home-nursing" />}
             <EvaluationReferences references={homeNursingReferences[item.id]} />
+            {tips[item.id]?.soap && <SoapCta facility="home-nursing" />}
           </section>
         ))}
       </div>

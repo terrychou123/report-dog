@@ -5,7 +5,7 @@ import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import { generalNursingHomeProfile, meta as generalNursingHomeMeta } from "@/lib/ai/evaluation-profiles/general-nursing-home";
-import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { DocsTip } from "@/components/docs/docs-tip";
 import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -128,9 +128,7 @@ export default function GeneralNursingHomeProfessionalCarePage() {
               </ol>
             </div>
 
-            {generalNursingHomeReferences[item.id] && (
-              <EvaluationReferences references={generalNursingHomeReferences[item.id]!} />
-            )}
+            <EvaluationReferences references={generalNursingHomeReferences[item.id]} />
             {tips[item.id] && (
               <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
                 {tips[item.id].content}

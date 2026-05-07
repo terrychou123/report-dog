@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { schoolSubpageJsonLd, requireSection, buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
 import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
 };
 
-const section = homeCareProfile.sections[2]; // 參、經營管理效能
+const section = requireSection(homeCareProfile.sections, "管"); // 參、經營管理效能
 
 const tips = homeCareTips;
 

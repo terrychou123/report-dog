@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { schoolSubpageJsonLd , buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
+import { schoolSubpageJsonLd, requireSection, buildSchoolSubpageFaqItems } from "@/lib/school-jsonld";
 import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
 };
 
-const section = homeCareProfile.sections[1]; // 貳、專業照護品質
+const section = requireSection(homeCareProfile.sections, "專"); // 貳、專業照護品質
 
 const tips = homeCareTips;
 
@@ -129,8 +129,8 @@ export default function ProfessionalQualityPage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
-            {tips[item.id]?.soap && <SoapCta facility="home-care" />}
             <EvaluationReferences references={homeCareReferences[item.id]} />
+            {tips[item.id]?.soap && <SoapCta facility="home-care" />}
           </section>
         ))}
       </div>
