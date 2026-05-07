@@ -9,6 +9,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { infantDaycareTips } from "@/lib/evaluation-tips/infant-daycare";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { infantDaycareReferences } from "@/lib/evaluation-references/infant-daycare";
 
 export const metadata: Metadata = {
   title: "行政管理（項目 1–11）｜托嬰中心評鑑 114-116年度",
@@ -149,6 +151,7 @@ export default function InfantDaycareAdministrationPage() {
                         {tips[item.id].content}
                       </DocsTip>
                     )}
+                    <EvaluationReferences references={infantDaycareReferences[item.id]} />
                   </div>
                 </div>
               ))}
