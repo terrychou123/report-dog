@@ -9,6 +9,8 @@ import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { babycareTips } from "@/lib/evaluation-tips/babycare";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { postpartumCareReferences } from "@/lib/evaluation-references/postpartum-care";
 
 export const metadata: Metadata = {
   title: "專業服務與生活照顧（B1.1–B1.8）｜產後護理之家評鑑",
@@ -131,6 +133,7 @@ export default function PostpartumCareProfessionalCarePage() {
                 {tips[item.id].content}
               </DocsTip>
             )}
+            <EvaluationReferences references={postpartumCareReferences[item.id]} />
           </section>
         ))}
       </div>
