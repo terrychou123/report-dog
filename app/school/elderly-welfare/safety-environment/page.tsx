@@ -9,6 +9,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { elderlyWelfareTips } from "@/lib/evaluation-tips/elderly-welfare";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { elderlyWelfareReferences } from "@/lib/evaluation-references/elderly-welfare";
 
 export const metadata: Metadata = {
   title: "C、安全環境設備（項目 47–62）｜老人福利機構評鑑",
@@ -119,6 +121,7 @@ export default function ElderlyWelfareSafetyEnvironmentPage() {
               </ol>
             </div>
 
+            <EvaluationReferences references={elderlyWelfareReferences[item.id]} />
             {tips[item.id] && (
               <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
                 {tips[item.id].content}
