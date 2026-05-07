@@ -9,6 +9,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { psychiatricNursingHomeTips } from "@/lib/evaluation-tips/psychiatric-nursing-home";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { psychiatricNursingHomeReferences } from "@/lib/evaluation-references/psychiatric-nursing-home";
 
 export const metadata: Metadata = {
   title: "C、安全維護及設施設備（C1.1–C1.3）｜精神護理之家評鑑",
@@ -101,6 +103,7 @@ export default function SafetyFacilitiesPage() {
               </ul>
               <p className="text-xs font-medium text-muted-foreground mb-1">評核方式</p>
               <p className="text-sm text-muted-foreground mb-3">{item.reviewMethod}</p>
+              <EvaluationReferences references={psychiatricNursingHomeReferences[item.id]} />
               {tips[item.id] && (
                 <DocsTip variant={tips[item.id].variant}>
                   {tips[item.id].content}

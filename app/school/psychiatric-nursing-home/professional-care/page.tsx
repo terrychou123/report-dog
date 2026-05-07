@@ -10,6 +10,8 @@ import { SoapCta } from "@/components/school/soap-cta";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { psychiatricNursingHomeTips } from "@/lib/evaluation-tips/psychiatric-nursing-home";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { psychiatricNursingHomeReferences } from "@/lib/evaluation-references/psychiatric-nursing-home";
 
 export const metadata: Metadata = {
   title: "B、專業照護品質（B1.1–B3.2）｜精神護理之家評鑑",
@@ -123,6 +125,7 @@ export default function ProfessionalCarePage() {
 
               <p className="text-xs font-medium text-muted-foreground mb-1">評核方式</p>
               <p className="text-sm text-muted-foreground mb-3">{item.reviewMethod}</p>
+              <EvaluationReferences references={psychiatricNursingHomeReferences[item.id]} />
 
               {tips[item.id] && (
                 <DocsTip variant={tips[item.id].variant}>
