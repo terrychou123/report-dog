@@ -12,6 +12,7 @@ export default function robots(): MetadataRoute.Robots {
           "/api/",
           "/admin/",
           "/blog-admin/",
+          "/newsletter/",
           "/follow",
           "/share",
           "/tag",
