@@ -96,7 +96,7 @@ export function EvaluationReferences({ references }: EvaluationReferencesProps) 
   return (
     <div className="not-prose mt-4 space-y-2">
       <p className="text-xs font-medium text-muted-foreground">
-        參考資料（{references.length} 份）
+        以下為報告汪撰寫的補充資料，非官方文件（{references.length} 份）
       </p>
       {references.map((ref) => (
         <details
