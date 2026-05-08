@@ -3,6 +3,8 @@
 import { useState, useMemo } from "react";
 import { Badge } from "@/components/ui/badge";
 import { DocsTip } from "@/components/docs/docs-tip";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import type { ReferenceDoc } from "@/lib/evaluation-references/types";
 
 type Item = {
   id: number;
@@ -24,6 +26,8 @@ interface FacilityTypeTabsProps {
   residentialItems: Item[];
   dayTips?: TipRecord;
   residentialTips?: TipRecord;
+  dayReferences?: Partial<Record<number, ReferenceDoc[]>>;
+  residentialReferences?: Partial<Record<number, ReferenceDoc[]>>;
   colorClass: string; // 例如 "blue"、"green"、"orange"
 }
 
@@ -53,6 +57,8 @@ export function FacilityTypeTabs({
   residentialItems,
   dayTips = {},
   residentialTips = {},
+  dayReferences,
+  residentialReferences,
   colorClass,
 }: FacilityTypeTabsProps) {
   const [facilityType, setFacilityType] = useState<"day" | "residential">("day");
@@ -63,6 +69,7 @@ export function FacilityTypeTabs({
   );
 
   const activeTips = facilityType === "day" ? dayTips : residentialTips;
+  const activeReferences = facilityType === "day" ? dayReferences : residentialReferences;
   const colors = colorConfig[colorClass] ?? colorConfig.blue;
 
   return (
@@ -169,6 +176,7 @@ export function FacilityTypeTabs({
                   {activeTips[item.id].content}
                 </DocsTip>
               )}
+              <EvaluationReferences references={activeReferences?.[item.id]} />
             </div>
           </div>
         ))}

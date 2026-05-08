@@ -14,11 +14,15 @@ import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { psychiatricRehabilitationDayTips } from "@/lib/evaluation-tips/psychiatric-rehabilitation-day";
 import { psychiatricRehabilitationResidentialTips } from "@/lib/evaluation-tips/psychiatric-rehabilitation-residential";
 import { FacilityTypeTabs } from "../_facility-type-tabs";
+import {
+  psychiatricRehabilitationDayReferences,
+  psychiatricRehabilitationResidentialReferences,
+} from "@/lib/evaluation-references/psychiatric-rehabilitation-institution";
 
 export const metadata: Metadata = {
   title: "第3章、服務品質（3.1–3.14）｜精神復健機構評鑑",
   description:
-    "115年度精神復健機構評鑑基準第3章服務品質完整解說。日間型12條（配分29）、住宿型14條（配分30），涵蓋工作手冊、收結案標準、紀錄管理、復健基金、權益維護、健康維護、緊急應變、出入自由（住宿型重點項目）。",
+    "115年度精神復健機構評鑑基準第3章服務品質完整解說。日間型12條（配分29）、住宿型14條（配分30），涵蓋緊急應變計畫範本、群聚感染 SOP、出入自由開放式管理規範（住宿型重點項目）、演練排程與檢討表欄位說明等附件。",
   keywords: [
     "精神復健機構評鑑",
     "服務品質",
@@ -33,7 +37,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "第3章、服務品質（3.1–3.14）｜精神復健機構評鑑",
-    description: "115年度精神復健機構評鑑第3章服務品質，日間型12條/住宿型14條完整解說。",
+    description: "115年度精神復健機構評鑑第3章服務品質，日間型12條/住宿型14條完整解說，附緊急應變計畫範本與演練檢討表欄位說明。",
     url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/service-quality",
   },
 };
@@ -90,6 +94,8 @@ export default function ServiceQualityPage() {
         residentialItems={residentialSection.items}
         dayTips={dayTips}
         residentialTips={residentialTips}
+        dayReferences={psychiatricRehabilitationDayReferences}
+        residentialReferences={psychiatricRehabilitationResidentialReferences}
         colorClass="orange"
       />
 
