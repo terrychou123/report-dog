@@ -70,7 +70,7 @@ export default function InfantDaycareChildcareActivitiesPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${infantDaycareMeta.year} 年度` },
-            { label: "主管機關", value: infantDaycareMeta.agency },
+            { label: "資料來源", value: infantDaycareMeta.agency },
             { label: "本區塊項目", value: `共 ${allItems.length} 項` },
             { label: "區塊名稱", value: "二、托育活動" },
           ]}

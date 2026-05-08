@@ -136,7 +136,7 @@ export default function PsychiatricNursingHomePage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
-            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "資料來源", value: psychiatricNursingHomeMeta.agency },
             { label: "評鑑項目", value: `共 ${psychiatricNursingHomeMeta.totalItems} 條` },
             { label: "評鑑面向", value: "5 大面向" },
           ]}

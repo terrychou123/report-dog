@@ -284,7 +284,7 @@ export default function HospitalPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${hospitalMeta.year} 年度` },
-            { label: "主管機關", value: hospitalMeta.agency },
+            { label: "資料來源", value: hospitalMeta.agency },
             { label: "評鑑項目", value: `共 ${hospitalMeta.totalItems} 條` },
             { label: "法源依據", value: hospitalMeta.legalBasis ?? "" },
           ]}

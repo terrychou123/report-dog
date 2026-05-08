@@ -119,7 +119,7 @@ export default function InfantDaycareSchoolPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${infantDaycareMeta.year} 年度` },
-            { label: "主管機關", value: infantDaycareMeta.agency },
+            { label: "資料來源", value: infantDaycareMeta.agency },
             { label: "評鑑項目", value: `共 ${infantDaycareMeta.totalItems} 項` },
             { label: "評鑑區塊", value: "3 大區塊" },
           ]}

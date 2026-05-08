@@ -160,7 +160,7 @@ export default function MultiFunctionCarePage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${multiFunctionCareMeta.year} 年度` },
-            { label: "主管機關", value: multiFunctionCareMeta.agency },
+            { label: "資料來源", value: multiFunctionCareMeta.agency },
             { label: "評鑑項目", value: "共 45 正式項目 + 2 加分題" },
             { label: "服務類型", value: "日照 + 居服 + 夜宿三合一" },
           ]}

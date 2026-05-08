@@ -100,7 +100,7 @@ export default function HomeNursingPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${homeNursingMeta.year} 年度` },
-            { label: "主管機關", value: homeNursingMeta.agency },
+            { label: "資料來源", value: homeNursingMeta.agency },
             { label: "評鑑項目", value: `共 ${homeNursingMeta.totalItems} 項` },
             { label: "評鑑區塊", value: "A 經營管理（45%）+ B 照護管理（55%）" },
           ]}

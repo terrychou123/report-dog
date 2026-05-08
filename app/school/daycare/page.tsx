@@ -135,7 +135,7 @@ export default function DaycarePage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${daycareMeta.year} 年度` },
-            { label: "主管機關", value: daycareMeta.agency },
+            { label: "資料來源", value: daycareMeta.agency },
             { label: "評鑑項目", value: `共 ${daycareMeta.totalItems} 項（43 正式 + 2 加分題）` },
             { label: "評鑑區塊", value: "4 大區塊" },
           ]}

@@ -121,7 +121,7 @@ export default function YouthCareSchoolPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${youthCareMeta.year} 年度` },
-            { label: "主管機關", value: youthCareMeta.agency },
+            { label: "資料來源", value: youthCareMeta.agency },
             { label: "評鑑項目", value: `共 ${youthCareMeta.totalItems} 項` },
             { label: "評鑑區塊", value: "5 大區塊" },
           ]}

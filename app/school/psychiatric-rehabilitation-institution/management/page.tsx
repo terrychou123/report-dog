@@ -82,7 +82,7 @@ export default function ManagementPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
-            { label: "主管機關", value: psychiatricRehabDayMeta.agency },
+            { label: "資料來源", value: psychiatricRehabDayMeta.agency },
             { label: "本區塊項目", value: `共 ${daySection.items.length} 條` },
             { label: "區塊名稱", value: daySection.name },
           ]}

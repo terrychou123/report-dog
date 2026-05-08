@@ -55,7 +55,7 @@ export default function MultiFunctionCareSafetyPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${multiFunctionCareMeta.year} 年度` },
-            { label: "主管機關", value: multiFunctionCareMeta.agency },
+            { label: "資料來源", value: multiFunctionCareMeta.agency },
             { label: "本區塊項目", value: `共 ${section.items.length} 項` },
             { label: "區塊名稱", value: section.name },
           ]}

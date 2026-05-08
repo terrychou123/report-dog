@@ -56,7 +56,7 @@ export default function ResidentRightsPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },
-            { label: "主管機關", value: psychiatricNursingHomeMeta.agency },
+            { label: "資料來源", value: psychiatricNursingHomeMeta.agency },
             { label: "本區塊項目", value: `共 ${section.items.length} 項` },
             { label: "區塊名稱", value: section.name },
           ]}

@@ -127,7 +127,7 @@ export default function PsychiatricRehabilitationInstitutionPage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
-            { label: "主管機關", value: psychiatricRehabDayMeta.agency },
+            { label: "資料來源", value: psychiatricRehabDayMeta.agency },
             { label: "日間型項目", value: `共 ${psychiatricRehabDayMeta.totalItems} 條` },
             { label: "住宿型項目", value: "共 40 條" },
           ]}

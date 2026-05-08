@@ -119,7 +119,7 @@ export default function DisabilityWelfarePage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${disabilityWelfareMeta.year} 年度` },
-            { label: "主管機關", value: disabilityWelfareMeta.agency },
+            { label: "資料來源", value: disabilityWelfareMeta.agency },
             { label: "評鑑項目", value: `共 ${disabilityWelfareMeta.totalItems} 項` },
             { label: "評鑑區塊", value: "3 大區塊" },
           ]}

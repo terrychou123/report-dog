@@ -125,7 +125,7 @@ export default function PostpartumCarePage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${babycareMeta.year} 年度` },
-            { label: "主管機關", value: babycareMeta.agency },
+            { label: "資料來源", value: babycareMeta.agency },
             { label: "評鑑項目", value: `共 ${babycareMeta.totalItems} 項` },
             { label: "評鑑區塊", value: "4 大區塊（A–D）" },
           ]}

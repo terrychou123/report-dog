@@ -154,7 +154,7 @@ export default function ElderlyWelfarePage() {
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },
-            { label: "主管機關", value: elderlyWelfareMeta.agency },
+            { label: "資料來源", value: elderlyWelfareMeta.agency },
             { label: "評鑑項目", value: `共 ${elderlyWelfareMeta.totalItems} 項` },
             { label: "評鑑區塊", value: "6 大區塊（含加分題）" },
           ]}

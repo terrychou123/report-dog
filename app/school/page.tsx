@@ -212,7 +212,7 @@ export default function SchoolPage() {
               <th className="py-2 px-4 text-left font-medium">機構類型</th>
               <th className="py-2 px-4 text-center font-medium whitespace-nowrap">評鑑年度</th>
               <th className="py-2 px-4 text-center font-medium whitespace-nowrap">基準數</th>
-              <th className="py-2 px-4 text-left font-medium">主管機關</th>
+              <th className="py-2 px-4 text-left font-medium">資料來源</th>
             </tr>
           </thead>
           <tbody className="divide-y">
