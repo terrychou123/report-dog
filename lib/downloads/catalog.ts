@@ -45,7 +45,7 @@ export const DOWNLOADS: DownloadItem[] = [
   {
     slug: "hospital",
     name: "醫院評鑑",
-    description: "醫院評鑑自我檢核表，涵蓋醫療品質與病人安全查核項目。",
+    description: "115 年度醫院評鑑自我檢核表，涵蓋醫療品質與病人安全查核項目。",
     file: "hospital.xlsx",
   },
   {

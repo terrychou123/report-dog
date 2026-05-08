@@ -93,7 +93,7 @@ const courses = [
     href: "/school/hospital",
     icon: HospitalIcon,
     title: "醫院評鑑基準",
-    desc: "114 年度衛生福利部醫院評鑑基準（區域醫院、地區醫院適用），共 124 條、15 章完整解說。",
+    desc: "115 年度衛生福利部醫院評鑑基準（區域醫院、地區醫院適用），共 124 條、15 章完整解說。",
     count: "124 條評鑑基準",
     available: true,
   },

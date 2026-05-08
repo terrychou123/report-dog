@@ -28,14 +28,14 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "醫院評鑑小教室｜114年度醫院評鑑基準（區域醫院、地區醫院）｜報告汪",
+  title: "醫院評鑑小教室｜115年度醫院評鑑基準（區域醫院、地區醫院）｜報告汪",
   description:
-    "114 年度衛生福利部醫院評鑑基準完整解說，共 2 篇、15 章、124 條，適用區域醫院及地區醫院。含必要、重點、試評、可免評條文分類說明，幫助醫院管理人員快速掌握評鑑重點。",
+    "115 年度衛生福利部醫院評鑑基準完整解說，共 2 篇、15 章、124 條，適用區域醫院及地區醫院。含必要、重點、試評、可免評條文分類說明，幫助醫院管理人員快速掌握評鑑重點。",
   keywords: [
     "醫院評鑑",
     "區域醫院評鑑",
     "地區醫院評鑑",
-    "114年度醫院評鑑基準",
+    "115年度醫院評鑑基準",
     "醫院評鑑基準及評量項目",
     "衛生福利部醫院評鑑",
     "評鑑小教室",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/hospital" },
   openGraph: {
-    title: "醫院評鑑小教室｜114年度醫院評鑑基準｜報告汪",
+    title: "醫院評鑑小教室｜115年度醫院評鑑基準｜報告汪",
     description: "124 條醫院評鑑基準完整解說（區域醫院、地區醫院適用），掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/hospital",
   },
@@ -189,9 +189,9 @@ const sectionMeta = [
 
 const courseJsonLd = educationalContentJsonLd({
   type: "Course",
-  name: "114 年度醫院評鑑基準",
+  name: "115 年度醫院評鑑基準",
   description:
-    "衛生福利部 114 年度醫院評鑑基準及評量項目（區域醫院、地區醫院適用），共 124 條、15 章完整解說。",
+    "衛生福利部 115 年度醫院評鑑基準及評量項目（區域醫院、地區醫院適用），共 124 條、15 章完整解說。",
   path: "/school/hospital",
   hasPart: sectionMeta.map((s) => ({
     name: `${s.name}（${s.itemRange}）`,
@@ -282,7 +282,7 @@ export default function HospitalPage() {
         />
         <SourceCallout meta={hospitalMeta} />
         <p className="text-muted-foreground text-sm leading-relaxed mt-2">
-          以下為衛生福利部依醫療法第 28 條辦理之「114 年度醫院評鑑基準及評量項目」，
+          以下為衛生福利部依醫療法第 28 條辦理之「115 年度醫院評鑑基準及評量項目」，
           共 2 篇、15 章、124 條，適用區域醫院及地區醫院。
           點擊各章節可查看詳細說明、準備要訣與實用提示。
         </p>

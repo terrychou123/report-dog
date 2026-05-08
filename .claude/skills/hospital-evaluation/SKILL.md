@@ -1,6 +1,6 @@
 ---
 name: hospital-evaluation
-description: 醫院評鑑大師：協助建立和維護 /school/hospital 評鑑小教室的內容。當使用者要新增或修改醫院評鑑相關教學頁面時觸發。包含 114 年度醫院評鑑基準知識（124 條 / 15 章）、頁面模板與 SEO 規範。
+description: 醫院評鑑大師：協助建立和維護 /school/hospital 評鑑小教室的內容。當使用者要新增或修改醫院評鑑相關教學頁面時觸發。包含 115 年度醫院評鑑基準知識（124 條 / 15 章）、頁面模板與 SEO 規範。
 metadata:
   filePattern: "**/school/hospital/**"
 priority: 90
@@ -17,7 +17,7 @@ allowed-tools:
 
 ## 文件基礎資訊
 
-- **評鑑名稱**：114 年度醫院評鑑基準及評量項目
+- **評鑑名稱**：115 年度醫院評鑑基準及評量項目
 - **主管機關**：衛生福利部（依醫療法第 28 條辦理）
 - **適用範圍**：區域醫院、地區醫院
 - **條文總數**：124 條
@@ -89,6 +89,6 @@ allowed-tools:
 ## SEO 規範
 
 - canonical: `https://reportwang.com/school/hospital/...`
-- keywords 必含：「醫院評鑑」「區域醫院評鑑」「地區醫院評鑑」「114年度醫院評鑑基準」
+- keywords 必含：「醫院評鑑」「區域醫院評鑑」「地區醫院評鑑」「115年度醫院評鑑基準」
 - JSON-LD: 總覽 `"Course"`, 章節頁 `"LearningResource"`
 - `areaServed: Taiwan`, `inLanguage: zh-TW`
