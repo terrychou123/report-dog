@@ -5,7 +5,7 @@ export const schoolReviewDates: Record<string, string> = {
   "home-care":                              "2026-05-08", // 115年度
   "daycare":                                "2026-05-08", // 115年度
   "multi-function-care":                    "2026-05-08", // 115年度
-  "nursing-home":                           "2026-05-08", // 115年度
+  "nursing-home":                           "2026-05-08", // 114年度
   "home-nursing":                           "2026-05-08", // 115年度
   "postpartum-care":                        "2026-05-08", // 115年度
   "general-nursing-home":                   "2026-05-08", // 115年度
@@ -23,7 +23,7 @@ export const schoolReviewerMap: Record<string, { name: string; url: string }> = 
   "home-care":                              { name: "臺北市政府社會局",             url: "https://dosw.gov.taipei" },
   "daycare":                                { name: "臺北市政府社會局",             url: "https://dosw.gov.taipei" },
   "multi-function-care":                    { name: "臺北市政府社會局",             url: "https://dosw.gov.taipei" },
-  "nursing-home":                           { name: "衛生福利部社會及家庭署",       url: "https://www.sfaa.gov.tw" },
+  "nursing-home":                           { name: "臺北市政府社會局",             url: "https://dosw.gov.taipei" },
   "home-nursing":                           { name: "衛生福利部護理及健康照護司",   url: "https://dep.mohw.gov.tw/DOHN" },
   "postpartum-care":                        { name: "衛生福利部護理及健康照護司",   url: "https://dep.mohw.gov.tw/DOHN" },
   "general-nursing-home":                   { name: "衛生福利部護理及健康照護司",   url: "https://dep.mohw.gov.tw/DOHN" },

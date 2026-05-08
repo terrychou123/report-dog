@@ -22,7 +22,7 @@ const nextConfig: NextConfig = {
     '/general-nursing-home/opengraph-image': ['./fonts/**'],
     '/psychiatric/opengraph-image': ['./fonts/**'],
     '/infant-daycare/opengraph-image': ['./fonts/**'],
-    '/school/[facility]/opengraph-image': ['./fonts/**'],
+    '/school/*/opengraph-image': ['./fonts/**'],
     '/api/reports/evaluation': ['./knowledge/wiki/**'],
     '/api/downloads/[file]': ['./private/downloads/**/*'],
   },
