@@ -40,8 +40,6 @@ interface CheckResult {
 function pass(msg: string): CheckResult { return { level: "PASS", msg }; }
 function warn(msg: string): CheckResult { return { level: "WARN", msg }; }
 function fail(msg: string): CheckResult { return { level: "FAIL", msg }; }
-function fixed(msg: string): CheckResult { return { level: "FIXED", msg }; }
-
 /** 從 SVG 屬性字串取出指定屬性值 */
 function attr(xml: string, attrName: string): string | null {
   const m = xml.match(new RegExp(`${attrName}="([^"]*)"`, "i"));
@@ -249,7 +247,7 @@ function fixSvg(svg: string): { result: string; fixes: string[] } {
   });
 
   // ── 5. 左色條：rx → 2 ────────────────────────────────────────────────────
-  out = out.replace(/<rect([^>]+)width="6"([^>]+)height="\d+"([^>]*)>/g, (match, p1, p2, p3) => {
+  out = out.replace(/<rect([^>]+)width="6"([^>]+)height="\d+"([^>]*)>/g, (match) => {
     const full = match;
     const currentRx = attr(full, "rx");
     // 只修改有 fill 且為 ROW_COLORS 之一的左色條
@@ -874,9 +872,6 @@ function validateSvg(filePath: string): { file: string; results: CheckResult[] }
   // ── 2. 偵測版型（直列清單） ─────────────────────────────────────────────────
 
   // 計算主要 Row rect 數（x=28 width=744 的 rect）
-  const rowRects = [...svg.matchAll(/<rect[^>]+x="28"[^>]+width="744"/g)];
-  const N = rowRects.length - 1; // 減去 Header rect（若 Header 也是 x=28 w=744）
-
   // 更精確：計算有 stroke="#e8e6de" 的 row rect（主框）
   const rowMainRects = [...svg.matchAll(/<rect[^>]+stroke="#e8e6de"[^>]*>/g)];
   const detectedN = rowMainRects.length;
@@ -935,7 +930,7 @@ function validateListType(svg: string, N: number, results: CheckResult[]) {
   const spec = LIST_SPEC[N];
   if (!spec) return;
 
-  const { H, rowY, S_rectH } = spec;
+  const { H, rowY } = spec;
   const expectedQ = expectedQFont(H);
 
   // ── Row rect 規格（rx=12, fill=white, stroke=#e8e6de）────────────────────

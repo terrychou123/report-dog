@@ -47,11 +47,6 @@ export interface ArticleKeypoints {
 
 // ─── 字數工具函式 ──────────────────────────────────────────────────────────────
 
-/** 計算中文字元數（含英數字） */
-function countChars(text: string): number {
-  return text.replace(/\s+/g, "").length;
-}
-
 /** 截斷到指定字元數，超出加 … */
 function truncate(text: string, maxLen: number): string {
   const cleaned = text.replace(/\s+/g, " ").trim();

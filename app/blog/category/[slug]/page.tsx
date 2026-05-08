@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
@@ -82,7 +83,7 @@ export default async function BlogCategoryPage({ params }: Props) {
       <div className="max-w-6xl mx-auto px-4 pt-16 pb-20">
         <div className="mb-10">
           <p className="text-sm text-muted-foreground mb-2">
-            <a href="/blog" className="hover:underline">Blog</a> › 分類
+            <Link href="/blog" className="hover:underline">Blog</Link> › 分類
           </p>
           <h1 className="text-4xl font-bold tracking-tight mb-4">{category}</h1>
           <p className="text-muted-foreground">「{category}」分類下的所有文章</p>

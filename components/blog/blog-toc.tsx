@@ -74,10 +74,11 @@ export function BlogToc({ toc }: { toc: TocNode[] }) {
   const [activeId, setActiveId] = useState<string>("");
 
   const items = flatten(toc);
-  if (!items.length) return null;
+  const itemKey = items.map((i) => i.id).join(",");
 
   // IntersectionObserver：heading 進入視窗頂部 25% 時設為 active
   useEffect(() => {
+    if (!items.length) return;
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -93,9 +94,10 @@ export function BlogToc({ toc }: { toc: TocNode[] }) {
     });
 
     return () => observer.disconnect();
-    // items 的 id 清單變動時才重建 observer
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [items.map((i) => i.id).join(",")]);
+  }, [itemKey]);
+
+  if (!items.length) return null;
 
   return (
     <nav aria-label="文章目錄" className="mb-10">

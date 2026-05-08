@@ -94,9 +94,9 @@ async function authorize(): Promise<OAuth2Client> {
 
   // 首次：跑 Desktop OAuth flow（開瀏覽器、本地伺服器接 callback）
   return new Promise<OAuth2Client>((resolve, reject) => {
-    let timer: ReturnType<typeof setTimeout>;
     const done = (val: OAuth2Client) => { clearTimeout(timer); resolve(val); };
     const fail = (e: unknown) => { clearTimeout(timer); reject(e); };
+    const timer: ReturnType<typeof setTimeout> = setTimeout(() => fail(new Error("OAuth 流程逾時（5 分鐘）")), 5 * 60 * 1000);
 
     const server = http.createServer(async (req, res) => {
       try {
@@ -135,7 +135,6 @@ async function authorize(): Promise<OAuth2Client> {
       console.error(authUrl);
       console.error("\n等待 Google 重導回 localhost...\n");
     });
-    timer = setTimeout(() => fail(new Error("OAuth 流程逾時（5 分鐘）")), 5 * 60 * 1000);
   });
 }
 

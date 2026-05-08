@@ -13,6 +13,8 @@
 import * as fs from "fs";
 import * as path from "path";
 
+type WikiItem = { id: number; title: string };
+
 const ROOT = path.resolve(__dirname, "..");
 const WIKI_BASE = path.join(ROOT, "knowledge", "wiki");
 
@@ -86,10 +88,10 @@ async function main() {
     let facilityCovered = 0;
     let facilityTips = 0;
     let facilitySheets = 0;
-    let facilityNoTip: number[] = [];
+    const facilityNoTip: number[] = [];
 
     for (const section of profile.sections) {
-      for (const item of section.items as any[]) {
+      for (const item of section.items as WikiItem[]) {
         totalItems++;
         facilityTotal++;
 

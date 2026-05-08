@@ -13,6 +13,11 @@
 import * as fs from "fs";
 import * as path from "path";
 import { ensureDir, today } from "./lib/fs-utils";
+import type { SupplementarySheetDef } from "../lib/supplementary-sheet-types";
+
+type ProfileItem = { id: number; title: string; responsible: string; reviewMethod: string; criteria: string[] };
+type ProfileSection = { name: string; shortCode: string; items: ProfileItem[] };
+type AnyProfile = { id: string; label: string; description: string; sections: ProfileSection[] };
 
 const ROOT = path.resolve(__dirname, "..");
 const OUT_BASE = path.join(ROOT, "knowledge", "sources");
@@ -37,7 +42,7 @@ async function extractProfiles() {
   const allMeta = getAllProfiles();
 
   for (const meta of allMeta) {
-    const profile = getProfile(meta.id);
+    const profile = getProfile(meta.id) as AnyProfile | null;
     if (!profile) continue;
 
     let md = `---
@@ -58,7 +63,7 @@ extracted_at: ${today()}
     for (const section of profile.sections) {
       md += `## ${section.name}（${section.shortCode}）\n\n`;
 
-      for (const item of section.items as any[]) {
+      for (const item of section.items) {
         md += `### ${section.shortCode}${item.id}. ${item.title}\n\n`;
         md += `- **負責職務**：${item.responsible}\n`;
         md += `- **審查方式**：${item.reviewMethod}\n\n`;
@@ -262,12 +267,12 @@ async function extractSupplementarySheets() {
     // 收集所有 item id
     const allItemIds: number[] = [];
     for (const section of profile.sections) {
-      for (const item of section.items as any[]) {
+      for (const item of section.items) {
         allItemIds.push(item.id);
       }
     }
 
-    const entries: { id: number; sheets: any[] }[] = [];
+    const entries: { id: number; sheets: SupplementarySheetDef[] }[] = [];
     for (const id of allItemIds) {
       const defs = getSupplementaryDefs(facilityType, id);
       if (defs && defs.length > 0) {
@@ -298,7 +303,7 @@ extracted_at: ${today()}
         if (sheet.criteriaIndex !== undefined) {
           md += `- **對應基準**：第 ${sheet.criteriaIndex + 1} 條\n`;
         }
-        md += `- **欄位**：${sheet.columns.map((c: any) => c.header).join("、")}\n\n`;
+        md += `- **欄位**：${sheet.columns.map((c) => c.header).join("、")}\n\n`;
       }
     }
 

@@ -1,7 +1,7 @@
 // 文章重點 → SVG 插圖計畫生成器
 // 根據 ArticleKeypoints 產出 SVG 生成建議，供 svg-illustration skill 或 gen-article-svgs.py 使用
 
-import type { ArticleKeypoints, ArticleSection } from "./article-keypoints-extractor";
+import type { ArticleKeypoints } from "./article-keypoints-extractor";
 
 // ─── 輸出介面 ──────────────────────────────────────────────────────────────────
 

@@ -13,7 +13,6 @@ import {
   TITLE_ROW_HEIGHT,
   buildTableSheet,
   sectionRowHeight,
-  setDataRow,
   setHeaderRow,
   setTitleRow,
 } from "./sheet-style-kit";

@@ -48,7 +48,6 @@ import { psychiatricRehabilitationResidentialDefs } from '../lib/supplementary-s
 import { multiFunctionCareDefs } from '../lib/supplementary-sheets/multi-function-care';
 
 // ── Lookup maps ─────────────────────────────────────────────────────────────
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type AnyProfile = { sections: { items: { id: number }[] }[] };
 
 const PROFILE_MAP: Record<string, AnyProfile> = {
@@ -200,7 +199,7 @@ if (jsonMode) {
 
 // ── 人類可讀輸出 ─────────────────────────────────────────────────────────────
 
-let printed = new Set<string>();
+const printed = new Set<string>();
 for (const r of results) {
   const label = r.facilitySlug === r.profileId
     ? `[${r.facilitySlug}]`

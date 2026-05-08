@@ -16,7 +16,7 @@
 
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
-import { reportTemplates, templateTags, templateTagReports } from '../db/schema';
+import { reportTemplates, templateTags } from '../db/schema';
 import { eq } from 'drizzle-orm';
 import { getDbUrl } from '../db/index';
 import { buildItemMultiSheetData, serializeSheetData } from '../lib/excel-template-builder';

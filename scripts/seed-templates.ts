@@ -150,7 +150,7 @@ async function main() {
     console.log(`  → ${responsibleGroups.size} 個負責人員群組，${allItems.length} 個項目`);
 
     // 用 transaction 包住所有操作，確保中途失敗可自動 rollback
-    const { tagCount, insertCount, metaCount: _metaCount, overwrittenCount, skippedCount } = await db.transaction(async (tx) => {
+    const { tagCount, insertCount, overwrittenCount, skippedCount } = await db.transaction(async (tx) => {
       // Legacy cleanup：只在 --force 模式下清除舊 ID（避免在安全模式下執行破壞性刪除）
       if (forceFlag && profile.id === 'disability-welfare') {
         await tx.delete(reportTemplates).where(eq(reportTemplates.facilityType, 'disability'));

@@ -5,7 +5,7 @@ import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import { disabilityWelfareProfile, meta as disabilityWelfareMeta } from "@/lib/ai/evaluation-profiles/disability-welfare";
-import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { disabilityWelfareTips } from "@/lib/evaluation-tips/disability-welfare";

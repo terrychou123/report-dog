@@ -14,6 +14,10 @@ import * as fs from "fs";
 import * as path from "path";
 import { ensureDir, today } from "./lib/fs-utils";
 
+type WikiItem = { id: number; title: string; responsible: string; reviewMethod: string; criteria: string[] };
+type WikiSection = { name: string; shortCode: string; items: WikiItem[] };
+type WikiProfile = { id: string; label: string; description: string; sections: WikiSection[] };
+
 const ROOT = path.resolve(__dirname, "..");
 const WIKI_BASE = path.join(ROOT, "knowledge", "wiki");
 const SOURCES_BASE = path.join(ROOT, "knowledge", "sources");
@@ -142,9 +146,9 @@ function loadSheets(facilityType: string): Record<number, SheetEntry[]> {
 
 // ─── 生成機構概覽頁 ───────────────────────────────────────────────────────────
 
-function generateOverview(profile: any): string {
+function generateOverview(profile: WikiProfile): string {
   const totalItems = profile.sections.reduce(
-    (sum: number, s: any) => sum + s.items.length,
+    (sum: number, s: WikiSection) => sum + s.items.length,
     0
   );
 
@@ -203,9 +207,9 @@ last_updated: ${today()}
 // ─── 生成指標頁面 ────────────────────────────────────────────────────────────
 
 function generateItemPage(
-  profile: any,
-  section: any,
-  item: any,
+  profile: WikiProfile,
+  section: WikiSection,
+  item: WikiItem,
   tip: TipEntry | undefined,
   itemSheets: SheetEntry[]
 ): string {
@@ -322,20 +326,6 @@ ${entries.join("\n")}
 `;
 }
 
-// ─── 生成 log.md ─────────────────────────────────────────────────────────────
-
-function generateLog(summary: { facilityTypes: number; items: number; overviews: number }): string {
-  return `# 操作紀錄
-
-## [${today()}] generate | 初版生成
-
-- 生成工具：generate-wiki.ts
-- 涵蓋機構：${summary.facilityTypes} 種
-- 指標頁面：${summary.items} 頁
-- 概覽頁面：${summary.overviews} 頁
-`;
-}
-
 // ─── 主程式 ──────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -351,7 +341,7 @@ async function main() {
   let totalOverviews = 0;
 
   for (const meta of allMeta) {
-    const profile = getProfile(meta.id);
+    const profile = getProfile(meta.id) as WikiProfile | null;
     if (!profile || profile.sections.length === 0) continue;
 
     console.log(`\n🏥 ${profile.label}（${profile.id}）`);
@@ -376,7 +366,7 @@ async function main() {
     // 生成各指標頁
     let sectionItemCount = 0;
     for (const section of profile.sections) {
-      for (const item of section.items as any[]) {
+      for (const item of section.items) {
         const tip = tips[item.id];
         const itemSheets = sheets[item.id] ?? [];
         const itemMd = generateItemPage(profile, section, item, tip, itemSheets);

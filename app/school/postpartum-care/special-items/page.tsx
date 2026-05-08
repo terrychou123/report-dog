@@ -5,7 +5,7 @@ import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
 import { babycareProfile, meta as babycareMeta } from "@/lib/ai/evaluation-profiles/babycare";
-import { DocsTip, type DocsTipVariant } from "@/components/docs/docs-tip";
+import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { babycareTips } from "@/lib/evaluation-tips/babycare";

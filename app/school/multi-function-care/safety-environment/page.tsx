@@ -8,6 +8,8 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { multiFunctionCareTips } from "@/lib/evaluation-tips/multi-function-care";
+import { EvaluationReferences } from "@/components/school/evaluation-references";
+import { multiFunctionCareReferences } from "@/lib/evaluation-references/multi-function-care";
 
 export const metadata: Metadata = {
   title: "肆、安全環境設備（項目 40–45）｜小規機評鑑基準",
@@ -119,6 +121,7 @@ export default function MultiFunctionCareSafetyPage() {
                 </p>
               )}
               {tips[item.id] && <DocsTip variant={tips[item.id]!.variant}>{tips[item.id]!.content}</DocsTip>}
+              <EvaluationReferences references={multiFunctionCareReferences[item.id]} />
             </div>
           </div>
         ))}

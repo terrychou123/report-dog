@@ -354,16 +354,6 @@ export default function MultiFunctionCarePage() {
                 <td className="py-2 pr-4">機構內場景</td>
                 <td className="py-2">需涵蓋到府服務及夜宿場景</td>
               </tr>
-              <tr>
-                <td className="py-2 pr-4 text-muted-foreground">自評表統計</td>
-                <td className="py-2 pr-4">日照人日數</td>
-                <td className="py-2 font-medium">三類分開統計（日照/居服/夜宿）</td>
-              </tr>
-              <tr>
-                <td className="py-2 pr-4 text-muted-foreground">服務契約</td>
-                <td className="py-2 pr-4">社會局核定版</td>
-                <td className="py-2">衛福部 113 年社區式定型化契約</td>
-              </tr>
             </tbody>
           </table>
         </div>

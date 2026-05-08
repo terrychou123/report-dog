@@ -184,7 +184,11 @@ export function mergeJsonLdGraph(...schemas: (string | undefined | null | false)
   if (parsed.length === 0) return "";
   if (parsed.length === 1) return JSON.stringify(parsed[0]);
   // 提取所有 @context 後合併為 @graph
-  const graphItems = parsed.map(({ "@context": _ctx, ...rest }) => rest);
+  const graphItems = parsed.map((item: Record<string, unknown>) => {
+    const result = { ...item };
+    delete result["@context"];
+    return result;
+  });
   return JSON.stringify({ "@context": "https://schema.org", "@graph": graphItems });
 }
 

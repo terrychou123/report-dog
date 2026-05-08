@@ -214,6 +214,7 @@ export default function AdminTemplateEditPage() {
     restoredLinks?: { name: string; url: string; sortOrder: number }[] | null,
     _restoredTags?: string[] | null,  // tags 為唯讀資訊，不直接還原（由 seed script 管理）
   ) {
+    void _restoredTags;
     if (!template) return;
     setTitle(restoredTitle);
     isDirtyRef.current = true;

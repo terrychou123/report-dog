@@ -608,7 +608,6 @@ export default function FortuneEditorInner({
             data={sheetsRef.current!}
             onChange={handleChange}
             lang="zh-TW"
-            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-expect-error: statisticBarHeight 存在於 runtime 設定但未宣告在型別中
             statisticBarHeight={0}
             toolbarItems={FORTUNE_TOOLBAR_ITEMS}
