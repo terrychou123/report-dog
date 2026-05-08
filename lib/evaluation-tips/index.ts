@@ -24,6 +24,7 @@ import { psychiatricNursingHomeTips } from "./psychiatric-nursing-home";
 import { infantDaycareTips } from "./infant-daycare";
 import { psychiatricRehabilitationDayTips } from "./psychiatric-rehabilitation-day";
 import { psychiatricRehabilitationResidentialTips } from "./psychiatric-rehabilitation-residential";
+import { multiFunctionCareTips } from "./multi-function-care";
 
 export type { EvaluationTip, EvaluationTipsMap };
 
@@ -43,6 +44,7 @@ const registry: Record<string, EvaluationTipsMap> = {
   "infant-daycare": infantDaycareTips,
   "psychiatric-rehabilitation-day": psychiatricRehabilitationDayTips,
   "psychiatric-rehabilitation-residential": psychiatricRehabilitationResidentialTips,
+  "multi-function-care": multiFunctionCareTips,
 };
 
 /**

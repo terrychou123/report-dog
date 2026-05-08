@@ -16,6 +16,7 @@ import {
   meta as psychiatricRehabilitationDayMeta,
   residentialMeta as psychiatricRehabilitationResidentialMeta,
 } from "./psychiatric-rehabilitation-institution";
+import { multiFunctionCareProfile, meta as multiFunctionCareMeta } from "./multi-function-care";
 
 export type EvaluationProfileMeta = {
   year: string;
@@ -42,6 +43,7 @@ const profiles = [
   infantDaycareProfile,
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
+  multiFunctionCareProfile,
 ];
 const profileMap = new Map(profiles.map((p) => [p.id, p]));
 const allProfilesMeta = profiles.map(({ id, label, description, sections }) => ({
@@ -63,6 +65,7 @@ const metaMap = new Map<string, EvaluationProfileMeta>([
   ["infant-daycare", infantDaycareMeta],
   ["psychiatric-rehabilitation-day", psychiatricRehabilitationDayMeta],
   ["psychiatric-rehabilitation-residential", psychiatricRehabilitationResidentialMeta],
+  ["multi-function-care", multiFunctionCareMeta],
 ]);
 
 export function getProfile(id: string) {

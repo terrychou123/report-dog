@@ -288,6 +288,21 @@ export default function DaycarePage() {
         </Link>
       </div>
 
+      {/* 小規機交叉導引 */}
+      <div className="mt-6 rounded-xl border border-dashed p-5">
+        <p className="text-sm font-semibold mb-1">🏠 提供居家服務或夜宿服務？</p>
+        <p className="text-sm text-muted-foreground mb-3">
+          若您的機構在日照基礎上擴充「到府居家服務」或「臨時住宿（夜宿）」功能，屬於小規模多機能機構（小規機），
+          評鑑基準另有 2 項獨有項目。
+        </p>
+        <Link
+          href="/school/multi-function-care"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+        >
+          查看小規機評鑑基準（含居服+夜宿獨有項目）→
+        </Link>
+      </div>
+
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

@@ -85,6 +85,13 @@ export const FACILITIES: Record<string, FacilityMeta> = {
     generateScript: 'generate:infant-daycare-checklist',
     skillSlug: 'infant-daycare',
   },
+  // 小規模多機能機構（小規機）：日照 + 居服 + 夜宿三合一
+  'multi-function-care': {
+    profileIds: ['multi-function-care'],
+    suppKeys: ['multi-function-care'],
+    generateScript: null, // 待第二階段新增 generate-multi-function-care-checklist.ts
+    skillSlug: 'multi-function-care',
+  },
   // 精神復健有兩個 profile（日間/住宿），共用一個 generate script
   'psychiatric-rehabilitation-institution': {
     profileIds: ['psychiatric-rehabilitation-day', 'psychiatric-rehabilitation-residential'],

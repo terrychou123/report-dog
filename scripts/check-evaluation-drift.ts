@@ -28,6 +28,7 @@ import {
   psychiatricRehabilitationDayProfile,
   psychiatricRehabilitationResidentialProfile,
 } from '../lib/ai/evaluation-profiles/psychiatric-rehabilitation-institution';
+import { multiFunctionCareProfile } from '../lib/ai/evaluation-profiles/multi-function-care';
 
 // ── 補充工作表 defs ─────────────────────────────────────────────────────────
 import { daycareDefs } from '../lib/supplementary-sheets/daycare';
@@ -44,6 +45,7 @@ import { psychiatricNursingHomeDefs } from '../lib/supplementary-sheets/psychiat
 import { infantDaycareDefs } from '../lib/supplementary-sheets/infant-daycare';
 import { psychiatricRehabilitationDayDefs } from '../lib/supplementary-sheets/psychiatric-rehabilitation-day';
 import { psychiatricRehabilitationResidentialDefs } from '../lib/supplementary-sheets/psychiatric-rehabilitation-residential';
+import { multiFunctionCareDefs } from '../lib/supplementary-sheets/multi-function-care';
 
 // ── Lookup maps ─────────────────────────────────────────────────────────────
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -64,6 +66,7 @@ const PROFILE_MAP: Record<string, AnyProfile> = {
   'infant-daycare': infantDaycareProfile,
   'psychiatric-rehabilitation-day': psychiatricRehabilitationDayProfile,
   'psychiatric-rehabilitation-residential': psychiatricRehabilitationResidentialProfile,
+  'multi-function-care': multiFunctionCareProfile,
 };
 
 const SUPP_MAP: Record<string, Record<number, unknown>> = {
@@ -81,6 +84,7 @@ const SUPP_MAP: Record<string, Record<number, unknown>> = {
   'infant-daycare': infantDaycareDefs,
   'psychiatric-rehabilitation-day': psychiatricRehabilitationDayDefs,
   'psychiatric-rehabilitation-residential': psychiatricRehabilitationResidentialDefs,
+  'multi-function-care': multiFunctionCareDefs,
 };
 
 // ── 輔助函式 ─────────────────────────────────────────────────────────────────

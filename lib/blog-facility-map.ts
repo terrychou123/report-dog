@@ -20,6 +20,18 @@ export const FACILITY_MAP: Record<string, FacilityInfo> = {
       { href: "/school/daycare/safety-environment", label: "安全環境設備" },
     ],
   },
+  "multi-function-care": {
+    schoolPath: "/school/multi-function-care",
+    schoolName: "小規模多機能機構評鑑小教室",
+    downloadPath: "/downloads/multi-function-care.xlsx",
+    downloadName: "小規機評鑑自評表",
+    subPages: [
+      { href: "/school/multi-function-care/client-rights", label: "個案權益保障" },
+      { href: "/school/multi-function-care/professional-quality", label: "專業照護品質" },
+      { href: "/school/multi-function-care/management", label: "經營管理效能" },
+      { href: "/school/multi-function-care/safety-environment", label: "安全環境設備" },
+    ],
+  },
   "home-nursing": {
     schoolPath: "/school/home-nursing",
     schoolName: "居家護理所評鑑小教室",

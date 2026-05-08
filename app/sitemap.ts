@@ -98,6 +98,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/daycare/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/daycare/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
 
+    // 小規模多機能機構
+    { url: "https://reportwang.com/multi-function-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/multi-function-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/multi-function-care/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+
     // 住宿型機構
     { url: "https://reportwang.com/school/nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/school/nursing-home/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },

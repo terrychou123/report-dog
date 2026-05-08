@@ -131,6 +131,53 @@ export const schoolNavSections: SchoolNavSection[] = [
     ],
   },
   {
+    group: "小規模多機能機構",
+    items: [
+      {
+        href: "/school/multi-function-care",
+        label: "評鑑基準總覽",
+        title: "小規模多機能機構評鑑基準總覽",
+        icon: SunIcon,
+        desc: "115 年度 45 項評鑑基準完整說明（日照+居服+夜宿三合一）",
+      },
+      {
+        href: "/school/multi-function-care/client-rights",
+        label: "壹、個案權益保障",
+        title: "個案權益保障評鑑基準（項目 1–4）",
+        icon: ShieldCheckIcon,
+        desc: "服務資訊公開、意見反應申訴機制、服務契約簽訂、個人資料管理",
+      },
+      {
+        href: "/school/multi-function-care/professional-quality",
+        label: "貳、專業照護品質",
+        title: "專業照護品質評鑑基準（項目 5–23）",
+        icon: HeartPulseIcon,
+        desc: "服務對象評估、照顧計畫、居服照服員執行（第11項）、協助服藥、健康管理、防疫",
+      },
+      {
+        href: "/school/multi-function-care/management",
+        label: "參、經營管理效能",
+        title: "經營管理效能評鑑基準（項目 24–39）",
+        icon: SettingsIcon,
+        desc: "業務計畫、工作手冊、人力設置、訓練、留任率、寢室管理（第29項）、財務、緊急事件",
+      },
+      {
+        href: "/school/multi-function-care/safety-environment",
+        label: "肆、安全環境設備",
+        title: "安全環境設備評鑑基準（項目 40–45）",
+        icon: ShieldIcon,
+        desc: "高齡友善環境、盥洗衛生設備、休息場所、飲用水、廚房衛生、病媒防治",
+      },
+      {
+        href: "/school/multi-function-care/bonus",
+        label: "伍、加分題",
+        title: "加分題評鑑基準（項目 46–47）",
+        icon: StarIcon,
+        desc: "原住民族文化敏感度、監視錄影設備，最多加 3 分",
+      },
+    ],
+  },
+  {
     group: "住宿型照顧機構",
     items: [
       {
