@@ -58,7 +58,7 @@ const sectionMeta = [
     textClass: "text-green-600 dark:text-green-400",
   },
   {
-    href: "/school/disability-welfare/professional",
+    href: "/school/disability-welfare/professional-quality",
     icon: HeartPulseIcon,
     name: "三、專業服務",
     shortCode: "專",
@@ -85,7 +85,7 @@ const courseJsonLd = educationalContentJsonLd({
     },
     {
       name: "三、專業服務（項目 32–49）",
-      url: "https://reportwang.com/school/disability-welfare/professional",
+      url: "https://reportwang.com/school/disability-welfare/professional-quality",
     },
   ],
 });

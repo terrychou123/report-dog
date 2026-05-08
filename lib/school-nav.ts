@@ -268,7 +268,7 @@ export const schoolNavSections: SchoolNavSection[] = [
         desc: "人員配置、教育訓練、感染管制、意外事件、品質管理",
       },
       {
-        href: "/school/postpartum-care/professional-care",
+        href: "/school/postpartum-care/professional-quality",
         label: "B、專業服務與生活照顧",
         title: "專業服務與生活照顧（項目 6–13）",
         icon: HeartPulseIcon,
@@ -308,7 +308,7 @@ export const schoolNavSections: SchoolNavSection[] = [
         desc: "負責人管理、人員配置、緊急事件、防疫機制、安寧療護",
       },
       {
-        href: "/school/general-nursing-home/professional-care",
+        href: "/school/general-nursing-home/professional-quality",
         label: "B、專業服務與生活照顧",
         title: "專業服務與生活照顧（項目 6–8）",
         icon: HeartPulseIcon,
@@ -472,7 +472,7 @@ export const schoolNavSections: SchoolNavSection[] = [
         desc: "整體環境衛生、機構配置、醫療保健、食物冷凍設備、公共安全、危機事故、飲食衛生、健康醫療",
       },
       {
-        href: "/school/youth-care/professional",
+        href: "/school/youth-care/professional-quality",
         label: "參、專業服務",
         title: "專業服務評鑑基準（項目 15–28）",
         icon: HeartPulseIcon,
@@ -573,7 +573,7 @@ export const schoolNavSections: SchoolNavSection[] = [
         desc: "浴廁設施、無障礙、消防安全、緊急應變、環境衛生",
       },
       {
-        href: "/school/disability-welfare/professional",
+        href: "/school/disability-welfare/professional-quality",
         label: "三、專業服務",
         title: "專業服務（項目 32–49）",
         icon: HeartPulseIcon,
@@ -632,7 +632,7 @@ export const schoolNavSections: SchoolNavSection[] = [
         desc: "業務計畫、人員配置、工作人員權益、教育訓練、資料管理，共9條",
       },
       {
-        href: "/school/psychiatric-nursing-home/professional-care",
+        href: "/school/psychiatric-nursing-home/professional-quality",
         label: "B 專業照護品質",
         title: "B、專業照護品質（B1.1–B3.2）",
         icon: HeartPulseIcon,

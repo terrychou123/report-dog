@@ -58,7 +58,7 @@ const sectionMeta = [
     label: "B、專業照護品質",
     icon: HeartPulseIcon,
     color: "green",
-    href: "/school/psychiatric-nursing-home/professional-care",
+    href: "/school/psychiatric-nursing-home/professional-quality",
     range: "B1.1–B3.2",
     count: 21,
     desc: "住民服務計畫、防疫機制、跨專業照護、藥品管理、品質監測、膳食服務",

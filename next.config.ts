@@ -29,6 +29,12 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: '/disability', destination: '/disability-welfare', permanent: true },
+      // P2.2：子頁命名統一（professional / professional-care → professional-quality）
+      { source: '/school/disability-welfare/professional',            destination: '/school/disability-welfare/professional-quality',            permanent: true },
+      { source: '/school/youth-care/professional',                    destination: '/school/youth-care/professional-quality',                    permanent: true },
+      { source: '/school/postpartum-care/professional-care',          destination: '/school/postpartum-care/professional-quality',               permanent: true },
+      { source: '/school/general-nursing-home/professional-care',     destination: '/school/general-nursing-home/professional-quality',          permanent: true },
+      { source: '/school/psychiatric-nursing-home/professional-care', destination: '/school/psychiatric-nursing-home/professional-quality',      permanent: true },
     ];
   },
   async headers() {

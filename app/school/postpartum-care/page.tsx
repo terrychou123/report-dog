@@ -46,7 +46,7 @@ const sectionMeta = [
     textClass: "text-orange-600 dark:text-orange-400",
   },
   {
-    href: "/school/postpartum-care/professional-care",
+    href: "/school/postpartum-care/professional-quality",
     icon: HeartPulseIcon,
     name: "B、專業服務與生活照顧",
     shortCode: "B",
@@ -87,7 +87,7 @@ const courseJsonLd = educationalContentJsonLd({
     },
     {
       name: "B、專業服務與生活照顧（項目 6–13）",
-      url: "https://reportwang.com/school/postpartum-care/professional-care",
+      url: "https://reportwang.com/school/postpartum-care/professional-quality",
     },
     {
       name: "C、環境設施與安全維護（項目 14–15）",

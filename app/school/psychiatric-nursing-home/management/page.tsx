@@ -142,7 +142,7 @@ export default function ManagementPage() {
           評鑑總覽
         </Link>
         <Link
-          href="/school/psychiatric-nursing-home/professional-care"
+          href="/school/psychiatric-nursing-home/professional-quality"
           className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           B、專業照護品質

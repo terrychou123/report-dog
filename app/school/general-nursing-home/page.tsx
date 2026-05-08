@@ -45,7 +45,7 @@ const sectionMeta = [
     textClass: "text-orange-600 dark:text-orange-400",
   },
   {
-    href: "/school/general-nursing-home/professional-care",
+    href: "/school/general-nursing-home/professional-quality",
     icon: HeartPulseIcon,
     name: "B、專業服務與生活照顧",
     shortCode: "B",
@@ -86,7 +86,7 @@ const courseJsonLd = educationalContentJsonLd({
     },
     {
       name: "B、專業服務與生活照顧（項目 6–8）",
-      url: "https://reportwang.com/school/general-nursing-home/professional-care",
+      url: "https://reportwang.com/school/general-nursing-home/professional-quality",
     },
     {
       name: "C、環境設施與安全維護（項目 9–12）",

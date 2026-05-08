@@ -146,7 +146,7 @@ export default function GeneralNursingHomeAdministrationPage() {
           返回總覽
         </Link>
         <Link
-          href="/school/general-nursing-home/professional-care"
+          href="/school/general-nursing-home/professional-quality"
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           B、專業服務

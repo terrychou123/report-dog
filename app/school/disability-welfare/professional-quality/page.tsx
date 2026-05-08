@@ -26,14 +26,14 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical:
-      "https://reportwang.com/school/disability-welfare/professional",
+      "https://reportwang.com/school/disability-welfare/professional-quality",
   },
   openGraph: {
     title:
       "三、專業服務（項目 32–49）｜身心障礙福利機構評鑑｜報告汪",
     description:
       "109年度身心障礙福利機構評鑑專業服務區塊 18 項指標詳細說明與準備要訣。",
-    url: "https://reportwang.com/school/disability-welfare/professional",
+    url: "https://reportwang.com/school/disability-welfare/professional-quality",
   },
 };
 

@@ -150,7 +150,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/disability-welfare", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/school/disability-welfare/administration", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/disability-welfare/environment", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/professional", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/professional-quality", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/disability-welfare/finance", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/disability-welfare/individual-care", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/disability-welfare/health-management", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
@@ -158,7 +158,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 產後護理之家
     { url: "https://reportwang.com/school/postpartum-care", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/school/postpartum-care/administration", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/postpartum-care/professional-care", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/postpartum-care/professional-quality", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/postpartum-care/safety-environment", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/postpartum-care/special-items", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
 
@@ -173,7 +173,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 一般護理之家
     { url: "https://reportwang.com/school/general-nursing-home", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/school/general-nursing-home/administration", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/general-nursing-home/professional-care", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/general-nursing-home/professional-quality", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/general-nursing-home/safety-environment", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/general-nursing-home/special-items", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
 
@@ -181,7 +181,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/psychiatric-nursing-home", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.8 },
     { url: "https://reportwang.com/school/psychiatric-nursing-home/innovation", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/psychiatric-nursing-home/management", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-nursing-home/professional-care", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home/professional-quality", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/psychiatric-nursing-home/resident-rights", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/psychiatric-nursing-home/safety-facilities", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
 
@@ -199,7 +199,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school/youth-care/administration", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/environment", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/innovation", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/youth-care/professional", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care/professional-quality", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/school/youth-care/finance", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
 
     // 托嬰中心

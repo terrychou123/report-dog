@@ -174,7 +174,7 @@ export default function YouthCareFinancePage() {
 
       <div className="mt-12 flex items-center justify-between border-t pt-6">
         <Link
-          href="/school/youth-care/professional"
+          href="/school/youth-care/professional-quality"
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           <ArrowLeftIcon className="h-4 w-4" />

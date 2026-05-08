@@ -57,7 +57,7 @@ const sectionMeta = [
     textClass: "text-teal-600 dark:text-teal-400",
   },
   {
-    href: "/school/youth-care/professional",
+    href: "/school/youth-care/professional-quality",
     icon: HeartPulseIcon,
     name: "參、專業服務",
     shortCode: "專",

@@ -166,7 +166,7 @@ export default function YouthCareEnvironmentPage() {
           壹、行政組織與經營管理
         </Link>
         <Link
-          href="/school/youth-care/professional"
+          href="/school/youth-care/professional-quality"
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           參、專業服務

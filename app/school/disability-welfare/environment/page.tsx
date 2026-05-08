@@ -203,7 +203,7 @@ export default function DisabilityWelfareEnvironmentPage() {
           一、行政組織及經營管理
         </Link>
         <Link
-          href="/school/disability-welfare/professional"
+          href="/school/disability-welfare/professional-quality"
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           三、專業服務

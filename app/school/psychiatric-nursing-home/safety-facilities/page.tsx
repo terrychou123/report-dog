@@ -118,7 +118,7 @@ export default function SafetyFacilitiesPage() {
 
       <div className="flex justify-between mt-10 pt-6 border-t">
         <Link
-          href="/school/psychiatric-nursing-home/professional-care"
+          href="/school/psychiatric-nursing-home/professional-quality"
           className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           <ArrowLeftIcon className="h-4 w-4" />

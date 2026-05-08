@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     "115年度精神護理之家評鑑基準 B 面向：專業照護品質，共 21 條指標。含住民服務計畫、防疫機制、跨專業整合照護、藥品管理、品質監測、緊急事件處理、社區資源、膳食服務等完整說明。",
   keywords: ["精神護理之家評鑑", "115年度評鑑", "專業照護品質", "住民服務計畫", "防疫機制", "品質監測"],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-nursing-home/professional-care",
+    canonical: "https://reportwang.com/school/psychiatric-nursing-home/professional-quality",
   },
   openGraph: {
     title: "B、專業照護品質（B1.1–B3.2）｜精神護理之家評鑑",
     description: "115年度精神護理之家評鑑 B 面向 21 條指標完整解說。",
-    url: "https://reportwang.com/school/psychiatric-nursing-home/professional-care",
+    url: "https://reportwang.com/school/psychiatric-nursing-home/professional-quality",
   },
 };
 
@@ -36,7 +36,7 @@ const tips = psychiatricNursingHomeTips;
 
 const jsonLd = schoolSubpageJsonLd({
   type: "psychiatric-nursing-home",
-  subpage: "professional-care",
+  subpage: "professional-quality",
   section,
   name: "精神護理之家評鑑 B、專業照護品質",
   description: "115年度精神護理之家評鑑基準 B 面向 21 條指標完整解說。",
