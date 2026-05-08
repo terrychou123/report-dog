@@ -232,7 +232,7 @@ function buildDisasterPlanDoc(term: ServiceTerm, includeNightDrill: boolean): Re
         }
       : {
           closing: [
-            "日間型服務時段外若仍有相關人員在場（如延遲返家之學員），依第九條擅自離開 SOP 處理。",
+            "日間型服務時段外若仍有相關人員在場（如延遲返家之學員），依第十條擅自離開 SOP 處理。",
           ],
         };
 
@@ -319,6 +319,7 @@ function buildDisasterPlanDoc(term: ServiceTerm, includeNightDrill: boolean): Re
         listType: "ordered",
       },
       { divider: true, heading: "第三章　其他天然災害應變" },
+      ...stopSections,
       {
         heading: "第六條　地震應變",
         list: [
@@ -341,7 +342,6 @@ function buildDisasterPlanDoc(term: ServiceTerm, includeNightDrill: boolean): Re
         ],
         listType: "ordered",
       },
-      ...stopSections,
       { divider: true, heading: "第四章　精神特化緊急情境" },
       {
         heading: "第八條　暴力或攻擊事件",

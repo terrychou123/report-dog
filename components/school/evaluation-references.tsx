@@ -98,12 +98,12 @@ export function EvaluationReferences({ references }: EvaluationReferencesProps) 
       <p className="text-xs font-medium text-muted-foreground">
         參考資料（{references.length} 份）
       </p>
-      {references.map((ref, i) => (
+      {references.map((ref) => (
         <details
-          key={i}
+          key={ref.title}
           className="group rounded-lg border bg-muted/30 text-sm open:bg-muted/50 transition-colors"
         >
-          <summary className="cursor-pointer px-4 py-3 list-none flex items-start justify-between gap-2 select-none">
+          <summary className="cursor-pointer px-4 py-3 list-none [&::-webkit-details-marker]:hidden flex items-start justify-between gap-2 select-none">
             <div>
               <span className="font-medium text-foreground">{ref.title}</span>
               <span className="block text-xs text-muted-foreground mt-0.5">{ref.summary}</span>

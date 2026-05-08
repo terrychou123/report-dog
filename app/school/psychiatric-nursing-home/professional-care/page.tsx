@@ -125,14 +125,13 @@ export default function ProfessionalCarePage() {
 
               <p className="text-xs font-medium text-muted-foreground mb-1">評核方式</p>
               <p className="text-sm text-muted-foreground mb-3">{item.reviewMethod}</p>
-              <EvaluationReferences references={psychiatricNursingHomeReferences[item.id]} />
-
               {tips[item.id] && (
-                <DocsTip variant={tips[item.id].variant}>
+                <DocsTip variant={tips[item.id].variant ?? "neutral"}>
                   {tips[item.id].content}
                 </DocsTip>
               )}
               {tips[item.id]?.soap && <SoapCta facility="psychiatric-nursing-home" />}
+              <EvaluationReferences references={psychiatricNursingHomeReferences[item.id]} />
             </div>
           </div>
         ))}

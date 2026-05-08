@@ -21,14 +21,16 @@ type Item = {
 
 type TipRecord = Record<number, { content: string; variant?: "neutral" | "info" | "warning" }>;
 
+type ReferencesMap = Partial<Record<number, ReferenceDoc[]>>;
+
 interface FacilityTypeTabsProps {
   dayItems: Item[];
   residentialItems: Item[];
   dayTips?: TipRecord;
   residentialTips?: TipRecord;
-  dayReferences?: Partial<Record<number, ReferenceDoc[]>>;
-  residentialReferences?: Partial<Record<number, ReferenceDoc[]>>;
-  colorClass: string; // 例如 "blue"、"green"、"orange"
+  dayReferences?: ReferencesMap;
+  residentialReferences?: ReferencesMap;
+  colorClass: keyof typeof colorConfig;
 }
 
 const colorConfig: Record<string, { bg: string; text: string; circle: string; toc: string }> = {
@@ -70,7 +72,7 @@ export function FacilityTypeTabs({
 
   const activeTips = facilityType === "day" ? dayTips : residentialTips;
   const activeReferences = facilityType === "day" ? dayReferences : residentialReferences;
-  const colors = colorConfig[colorClass] ?? colorConfig.blue;
+  const colors = colorConfig[colorClass];
 
   return (
     <div>
@@ -124,7 +126,7 @@ export function FacilityTypeTabs({
       {/* 條目列表 */}
       <div className="space-y-8">
         {activeItems.map((item) => (
-          <div key={item.id} id={`item-${item.id}`} className="scroll-mt-16">
+          <div key={`${facilityType}-${item.id}`} id={`item-${item.id}`} className="scroll-mt-16">
             <div className="flex items-start gap-3 mb-3">
               <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${colors.circle}`}>
                 {item.id}

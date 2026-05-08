@@ -128,13 +128,13 @@ export default function GeneralNursingHomeProfessionalCarePage() {
               </ol>
             </div>
 
-            <EvaluationReferences references={generalNursingHomeReferences[item.id]} />
             {tips[item.id] && (
               <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
                 {tips[item.id].content}
               </DocsTip>
             )}
             {tips[item.id]?.soap && <SoapCta facility="general-nursing-home" />}
+            <EvaluationReferences references={generalNursingHomeReferences[item.id]} />
           </section>
         ))}
       </div>

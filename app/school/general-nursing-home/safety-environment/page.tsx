@@ -127,12 +127,12 @@ export default function GeneralNursingHomeSafetyEnvironmentPage() {
               </ol>
             </div>
 
-            <EvaluationReferences references={generalNursingHomeReferences[item.id]} />
             {tips[item.id] && (
               <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
                 {tips[item.id].content}
               </DocsTip>
             )}
+            <EvaluationReferences references={generalNursingHomeReferences[item.id]} />
           </section>
         ))}
       </div>

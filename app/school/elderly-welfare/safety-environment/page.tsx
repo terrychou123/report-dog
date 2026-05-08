@@ -121,12 +121,12 @@ export default function ElderlyWelfareSafetyEnvironmentPage() {
               </ol>
             </div>
 
-            <EvaluationReferences references={elderlyWelfareReferences[item.id]} />
             {tips[item.id] && (
               <DocsTip variant={tips[item.id].variant ?? "neutral"} title="準備要訣">
                 {tips[item.id].content}
               </DocsTip>
             )}
+            <EvaluationReferences references={elderlyWelfareReferences[item.id]} />
           </section>
         ))}
       </div>
