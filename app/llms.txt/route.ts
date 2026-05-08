@@ -1,9 +1,6 @@
 import { NextResponse } from "next/server";
 import { schoolNavSections } from "@/lib/school-nav";
 
-export const dynamic = "force-static";
-export const revalidate = 86400;
-
 export function GET() {
   const base = "https://reportwang.com";
 

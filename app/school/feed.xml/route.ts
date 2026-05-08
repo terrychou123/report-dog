@@ -2,9 +2,6 @@ import { NextResponse } from "next/server";
 import { schoolNavSections } from "@/lib/school-nav";
 import { schoolReviewDates } from "@/lib/school-review-dates";
 
-export const dynamic = "force-static";
-export const revalidate = 86400;
-
 const BASE = "https://reportwang.com";
 
 function rfc822(dateStr: string): string {
