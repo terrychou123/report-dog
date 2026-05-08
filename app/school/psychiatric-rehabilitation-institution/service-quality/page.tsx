@@ -18,6 +18,7 @@ import {
   psychiatricRehabilitationDayReferences,
   psychiatricRehabilitationResidentialReferences,
 } from "@/lib/evaluation-references/psychiatric-rehabilitation-institution";
+import type { EvaluationReferences } from "@/lib/evaluation-references/types";
 
 export const metadata: Metadata = {
   title: "第3章、服務品質（3.1–3.14）｜精神復健機構評鑑",
@@ -52,6 +53,16 @@ const residentialSection = psychiatricRehabilitationResidentialProfile.sections.
 const dayTips = psychiatricRehabilitationDayTips;
 
 const residentialTips = psychiatricRehabilitationResidentialTips;
+
+// 只傳入本章節 item IDs 對應的參考資料，避免將整份跨章 map 序列化進 RSC payload
+const dayItemIds = new Set(daySection.items.map((i) => i.id));
+const residentialItemIds = new Set(residentialSection.items.map((i) => i.id));
+const dayRefsSlice = Object.fromEntries(
+  Object.entries(psychiatricRehabilitationDayReferences).filter(([k]) => dayItemIds.has(Number(k)))
+) as EvaluationReferences;
+const residentialRefsSlice = Object.fromEntries(
+  Object.entries(psychiatricRehabilitationResidentialReferences).filter(([k]) => residentialItemIds.has(Number(k)))
+) as EvaluationReferences;
 
 const jsonLd = schoolSubpageJsonLd({
   type: "psychiatric-rehabilitation-institution",
@@ -94,8 +105,8 @@ export default function ServiceQualityPage() {
         residentialItems={residentialSection.items}
         dayTips={dayTips}
         residentialTips={residentialTips}
-        dayReferences={psychiatricRehabilitationDayReferences}
-        residentialReferences={psychiatricRehabilitationResidentialReferences}
+        dayReferences={dayRefsSlice}
+        residentialReferences={residentialRefsSlice}
         colorClass="orange"
       />
 

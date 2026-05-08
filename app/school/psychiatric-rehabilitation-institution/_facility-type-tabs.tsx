@@ -33,7 +33,7 @@ interface FacilityTypeTabsProps {
   colorClass: keyof typeof colorConfig;
 }
 
-const colorConfig: Record<string, { bg: string; text: string; circle: string; toc: string }> = {
+const colorConfig = {
   blue: {
     bg: "bg-blue-500/10",
     text: "text-blue-600 dark:text-blue-400",
@@ -70,9 +70,15 @@ export function FacilityTypeTabs({
     [facilityType, dayItems, residentialItems]
   );
 
-  const activeTips = facilityType === "day" ? dayTips : residentialTips;
-  const activeReferences = facilityType === "day" ? dayReferences : residentialReferences;
-  const colors = colorConfig[colorClass];
+  const activeTips = useMemo(
+    () => (facilityType === "day" ? dayTips : residentialTips),
+    [facilityType, dayTips, residentialTips]
+  );
+  const activeReferences = useMemo(
+    () => (facilityType === "day" ? dayReferences : residentialReferences),
+    [facilityType, dayReferences, residentialReferences]
+  );
+  const colors = colorConfig[colorClass] ?? colorConfig.blue;
 
   return (
     <div>

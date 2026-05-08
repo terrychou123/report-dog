@@ -114,7 +114,7 @@ export function EvaluationReferences({ references }: EvaluationReferencesProps) 
           </summary>
           <div className="px-4 pb-4 pt-3 space-y-3 border-t border-border/40">
             {ref.sections.map((section, j) => (
-              <ReferenceSectionView key={j} section={section} />
+              <ReferenceSectionView key={section.heading ?? j} section={section} />
             ))}
           </div>
         </details>
