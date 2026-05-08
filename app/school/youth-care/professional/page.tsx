@@ -133,7 +133,7 @@ export default function YouthCareProfessionalPage() {
                   {caseRecordItem.id}
                 </span>
                 <div className="flex-1">
-                  <h2 className="text-lg font-semibold leading-snug">{caseRecordItem.title}</h2>
+                  <h3 className="text-lg font-semibold leading-snug">{caseRecordItem.title}</h3>
                   <div className="flex flex-wrap gap-1.5 mt-1.5">
                     <Badge variant="outline" className="text-xs">{caseRecordItem.responsible}</Badge>
                     {caseRecordItem.score !== undefined && <Badge variant="secondary" className="text-xs">{caseRecordItem.score}分</Badge>}
@@ -169,7 +169,7 @@ export default function YouthCareProfessionalPage() {
                   {guidanceItem.id}
                 </span>
                 <div className="flex-1">
-                  <h2 className="text-lg font-semibold leading-snug">{guidanceItem.title}</h2>
+                  <h3 className="text-lg font-semibold leading-snug">{guidanceItem.title}</h3>
                   <div className="flex flex-wrap gap-1.5 mt-1.5">
                     <Badge variant="outline" className="text-xs">{guidanceItem.responsible}</Badge>
                     {guidanceItem.score !== undefined && <Badge variant="secondary" className="text-xs">{guidanceItem.score}分</Badge>}
@@ -214,7 +214,7 @@ export default function YouthCareProfessionalPage() {
                     {item.id}
                   </span>
                   <div className="flex-1">
-                    <h2 className="text-lg font-semibold leading-snug">{item.title}</h2>
+                    <h3 className="text-lg font-semibold leading-snug">{item.title}</h3>
                     <div className="flex flex-wrap gap-1.5 mt-1.5">
                       <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
                       {item.score !== undefined && <Badge variant="secondary" className="text-xs">{item.score}分</Badge>}

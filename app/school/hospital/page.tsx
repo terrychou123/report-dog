@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
+import { SchoolToc } from "@/components/school/school-toc";
 import {
   SettingsIcon,
   UsersIcon,
@@ -208,6 +209,13 @@ const FAQ_ITEMS = [
 
 const jsonLd = mergeJsonLdGraph(courseJsonLd, faqPageJsonLd(FAQ_ITEMS, "/school/hospital"));
 
+// 15 章 TOC 項目（對應全部評鑑項目區塊的 id）
+const tocItems = sectionMeta.map((s) => ({
+  id: `chapter-${s.shortCode.replace(".", "-")}`,
+  text: s.name,
+  number: s.shortCode,
+}));
+
 function SectionGrid({
   sections,
   className,
@@ -294,6 +302,111 @@ export default function HospitalPage() {
         </div>
       </div>
 
+      {/* 15 章條號對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度醫院評鑑 2 篇 15 章條號分佈
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">篇章</th>
+              <th className="py-2 px-4 text-left font-medium">章節名稱</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">條號範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">條數</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground whitespace-nowrap" rowSpan={7}>第一篇<br/>組織管理</td>
+              <td className="py-2 px-4 font-medium">1.1 醫院經營策略</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–5</td>
+              <td className="py-2 px-4 text-center">5</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 font-medium">1.2 員工管理與支持制度</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">6–12</td>
+              <td className="py-2 px-4 text-center">7</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 font-medium">1.3 人力資源管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">13–22</td>
+              <td className="py-2 px-4 text-center">10</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 font-medium">1.4 病歷、資訊與溝通管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">23–26</td>
+              <td className="py-2 px-4 text-center">4</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 font-medium">1.5 安全的環境與設備</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">27–33</td>
+              <td className="py-2 px-4 text-center">7</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 font-medium">1.6 病人導向之服務與管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">34–37</td>
+              <td className="py-2 px-4 text-center">4</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 font-medium">1.7 風險與危機管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">38–42</td>
+              <td className="py-2 px-4 text-center">5</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 text-muted-foreground whitespace-nowrap" rowSpan={8}>第二篇<br/>照護品質</td>
+              <td className="py-2 px-4 font-medium">2.1 病人及家屬權責</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">43–46</td>
+              <td className="py-2 px-4 text-center">4</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.2 醫療照護品質與安全管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">47–49</td>
+              <td className="py-2 px-4 text-center">3</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.3 醫療照護之執行與評估</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">50–65</td>
+              <td className="py-2 px-4 text-center">16</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.4 特殊照護服務</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">66–89</td>
+              <td className="py-2 px-4 text-center">24</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.5 用藥安全</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">90–98</td>
+              <td className="py-2 px-4 text-center">9</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.6 麻醉與手術</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">99–107</td>
+              <td className="py-2 px-4 text-center">9</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.7 感染管制</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">108–110</td>
+              <td className="py-2 px-4 text-center">3</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">2.8 檢驗、病理與放射作業</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">111–124</td>
+              <td className="py-2 px-4 text-center">14</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4">2 篇 15 章</td>
+              <td className="py-2 px-4 text-center">1–124</td>
+              <td className="py-2 px-4 text-center">124 條</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      {/* 15 章目錄（含 IntersectionObserver 捲動追蹤） */}
+      <SchoolToc items={tocItems} title="15 章快速導覽" columns={2} className="mb-6" />
+
       {/* Part 1 */}
       <h2 className="text-base font-semibold text-muted-foreground uppercase tracking-wider mb-3">
         第一篇 經營管理（7 章）
@@ -315,7 +428,10 @@ export default function HospitalPage() {
             if (!slug) return null;
             return (
               <div key={section.shortCode}>
-                <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+                <h3
+                  id={`chapter-${section.shortCode.replace(".", "-")}`}
+                  className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2 scroll-mt-20"
+                >
                   {section.name}
                 </h3>
                 <div className="space-y-1">

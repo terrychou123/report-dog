@@ -131,6 +131,49 @@ export default function DisabilityWelfarePage() {
         </p>
       </div>
 
+      {/* 各區塊項目數對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            109 年度身心障礙福利機構評鑑各區塊概覽
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">一、行政組織及經營管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–11</td>
+              <td className="py-2 px-4 text-center">11 項</td>
+              <td className="py-2 px-4 text-muted-foreground">董事會運作、機構管理、員工管理、專業人力、財務</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">二、環境設施及安全維護</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">12–31</td>
+              <td className="py-2 px-4 text-center">20 項</td>
+              <td className="py-2 px-4 text-muted-foreground">浴廁設施、無障礙、消防安全、緊急應變、環境衛生（含 5 項不計分新增指標）</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">三、專業服務</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">32–49</td>
+              <td className="py-2 px-4 text-center">18 項</td>
+              <td className="py-2 px-4 text-muted-foreground">個別支持計畫（ISP）、專業團隊、輔具、健康管理、膳食、社區及家庭</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–49</td>
+              <td className="py-2 px-4 text-center">49 項</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">二、環境設施項目最多（20 項，含 5 項不計分）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-10">
         {sectionMeta.map((sec) => {
@@ -149,9 +192,9 @@ export default function DisabilityWelfarePage() {
                   <Icon className={`h-5 w-5 ${sec.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">
                     {sec.itemRange}
                   </p>

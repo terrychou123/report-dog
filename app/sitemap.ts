@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq } from "drizzle-orm";
+import { schoolReviewDates } from "@/lib/school-review-dates";
 
 export const revalidate = 86400;
 
@@ -46,6 +47,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   const staticDate = new Date();
+  const schoolDate = (slug: string): Date => {
+    const d = schoolReviewDates[slug];
+    return d ? new Date(d) : staticDate;
+  };
 
   return [
     // Home
@@ -92,123 +97,123 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/school", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
 
     // 日照中心
-    { url: "https://reportwang.com/school/daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/daycare/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/daycare/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/daycare/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/daycare/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/daycare/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/daycare", lastModified: schoolDate("daycare"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/daycare/bonus", lastModified: schoolDate("daycare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/daycare/client-rights", lastModified: schoolDate("daycare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/daycare/management", lastModified: schoolDate("daycare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/daycare/professional-quality", lastModified: schoolDate("daycare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/daycare/safety-environment", lastModified: schoolDate("daycare"), changeFrequency: "monthly", priority: 0.7 },
 
     // 小規模多機能機構
     { url: "https://reportwang.com/multi-function-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/multi-function-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/multi-function-care/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/multi-function-care/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/multi-function-care/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/multi-function-care/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/multi-function-care/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care", lastModified: schoolDate("multi-function-care"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/multi-function-care/client-rights", lastModified: schoolDate("multi-function-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/professional-quality", lastModified: schoolDate("multi-function-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/management", lastModified: schoolDate("multi-function-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/safety-environment", lastModified: schoolDate("multi-function-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/multi-function-care/bonus", lastModified: schoolDate("multi-function-care"), changeFrequency: "monthly", priority: 0.7 },
 
     // 住宿型機構
-    { url: "https://reportwang.com/school/nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/nursing-home/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/nursing-home/innovation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/nursing-home/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/nursing-home/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/nursing-home/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/nursing-home", lastModified: schoolDate("nursing-home"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/nursing-home/client-rights", lastModified: schoolDate("nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/nursing-home/innovation", lastModified: schoolDate("nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/nursing-home/management", lastModified: schoolDate("nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/nursing-home/professional-quality", lastModified: schoolDate("nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/nursing-home/safety-environment", lastModified: schoolDate("nursing-home"), changeFrequency: "monthly", priority: 0.7 },
 
     // 居家長照
-    { url: "https://reportwang.com/school/home-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/home-care/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-care/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-care/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-care/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-care", lastModified: schoolDate("home-care"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/home-care/bonus", lastModified: schoolDate("home-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-care/client-rights", lastModified: schoolDate("home-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-care/management", lastModified: schoolDate("home-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-care/professional-quality", lastModified: schoolDate("home-care"), changeFrequency: "monthly", priority: 0.7 },
 
     // 醫院
-    { url: "https://reportwang.com/school/hospital", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/hospital/anesthesia-surgery", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/care-execution", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/care-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/human-resources", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/infection-control", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/lab-pathology", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/medical-records", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/medication-safety", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/patient-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/patient-services", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/risk-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/special-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/staff-support", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/hospital/strategy", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/hospital/anesthesia-surgery", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/care-execution", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/care-quality", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/human-resources", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/infection-control", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/lab-pathology", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/medical-records", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/medication-safety", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/patient-rights", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/patient-services", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/risk-management", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/safety-environment", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/special-care", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/staff-support", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/hospital/strategy", lastModified: schoolDate("hospital"), changeFrequency: "monthly", priority: 0.7 },
 
     // 身心障礙福利機構（109年度）
-    { url: "https://reportwang.com/school/disability-welfare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/disability-welfare/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/professional", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/finance", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/individual-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/disability-welfare/health-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/disability-welfare/administration", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/environment", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/professional", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/finance", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/individual-care", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/disability-welfare/health-management", lastModified: schoolDate("disability-welfare"), changeFrequency: "monthly", priority: 0.7 },
 
     // 產後護理之家
-    { url: "https://reportwang.com/school/postpartum-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/postpartum-care/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/postpartum-care/professional-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/postpartum-care/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/postpartum-care/special-items", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/postpartum-care", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/postpartum-care/administration", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/postpartum-care/professional-care", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/postpartum-care/safety-environment", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/postpartum-care/special-items", lastModified: schoolDate("postpartum-care"), changeFrequency: "monthly", priority: 0.7 },
 
     // 居家護理所
-    { url: "https://reportwang.com/school/home-nursing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/home-nursing/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-nursing/care-management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-nursing/infection-control", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-nursing/quality-indicators", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/home-nursing/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing", lastModified: schoolDate("home-nursing"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/home-nursing/management", lastModified: schoolDate("home-nursing"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/care-management", lastModified: schoolDate("home-nursing"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/infection-control", lastModified: schoolDate("home-nursing"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/quality-indicators", lastModified: schoolDate("home-nursing"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/home-nursing/bonus", lastModified: schoolDate("home-nursing"), changeFrequency: "monthly", priority: 0.7 },
 
     // 一般護理之家
-    { url: "https://reportwang.com/school/general-nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/general-nursing-home/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/general-nursing-home/professional-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/general-nursing-home/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/general-nursing-home/special-items", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/general-nursing-home", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/general-nursing-home/administration", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/general-nursing-home/professional-care", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/general-nursing-home/safety-environment", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/general-nursing-home/special-items", lastModified: schoolDate("general-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
 
     // 精神護理之家
-    { url: "https://reportwang.com/school/psychiatric-nursing-home", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/psychiatric-nursing-home/innovation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-nursing-home/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-nursing-home/professional-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-nursing-home/resident-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-nursing-home/safety-facilities", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home/innovation", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home/management", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home/professional-care", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home/resident-rights", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-nursing-home/safety-facilities", lastModified: schoolDate("psychiatric-nursing-home"), changeFrequency: "monthly", priority: 0.7 },
 
     // 老人福利機構
-    { url: "https://reportwang.com/school/elderly-welfare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/elderly-welfare/bonus", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/elderly-welfare/client-rights", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/elderly-welfare/innovation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/elderly-welfare/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/elderly-welfare/professional-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/elderly-welfare/safety-environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/elderly-welfare", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/elderly-welfare/bonus", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/elderly-welfare/client-rights", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/elderly-welfare/innovation", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/elderly-welfare/management", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/elderly-welfare/professional-quality", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/elderly-welfare/safety-environment", lastModified: schoolDate("elderly-welfare"), changeFrequency: "monthly", priority: 0.7 },
 
     // 兒少教養機構
-    { url: "https://reportwang.com/school/youth-care", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/youth-care/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/youth-care/environment", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/youth-care/innovation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/youth-care/professional", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/youth-care/finance", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/youth-care/administration", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care/environment", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care/innovation", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care/professional", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/youth-care/finance", lastModified: schoolDate("youth-care"), changeFrequency: "monthly", priority: 0.7 },
 
     // 托嬰中心
     { url: "https://reportwang.com/infant-daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/infant-daycare", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/infant-daycare/administration", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/infant-daycare/childcare-activities", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/infant-daycare/health-safety", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/infant-daycare", lastModified: schoolDate("infant-daycare"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/infant-daycare/administration", lastModified: schoolDate("infant-daycare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/infant-daycare/childcare-activities", lastModified: schoolDate("infant-daycare"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/infant-daycare/health-safety", lastModified: schoolDate("infant-daycare"), changeFrequency: "monthly", priority: 0.7 },
 
     // 精神復健機構
-    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
-    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/management", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/rehabilitation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/service-quality", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution", lastModified: schoolDate("psychiatric-rehabilitation-institution"), changeFrequency: "monthly", priority: 0.8 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/management", lastModified: schoolDate("psychiatric-rehabilitation-institution"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/rehabilitation", lastModified: schoolDate("psychiatric-rehabilitation-institution"), changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/school/psychiatric-rehabilitation-institution/service-quality", lastModified: schoolDate("psychiatric-rehabilitation-institution"), changeFrequency: "monthly", priority: 0.7 },
 
     ...blogEntries,
     ...categoryEntries,

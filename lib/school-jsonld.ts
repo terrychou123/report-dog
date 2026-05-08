@@ -1,5 +1,6 @@
 // 從 evaluation profile section 動態生成 school subpage 的 JSON-LD
 // 涵蓋 LearningResource + HowTo + FAQPage，合併為單一 @graph
+import { schoolReviewDates, schoolReviewerMap } from "@/lib/school-review-dates";
 
 /**
  * 安全取得 profile section，找不到時拋出明確錯誤（避免 ! non-null assertion 在 build time 無聲崩潰）。
@@ -105,6 +106,9 @@ export function schoolSubpageJsonLd(opts: SchoolSubpageJsonLdOpts): string {
     name: opts.name,
     description: opts.description,
     path,
+    dateModified: schoolReviewDates[opts.type],
+    dateCreated: schoolReviewDates[opts.type],
+    citation: schoolReviewerMap[opts.type],
   });
 
   // HowTo steps：每個 item 為一個步驟

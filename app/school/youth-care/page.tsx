@@ -150,6 +150,68 @@ export default function YouthCareSchoolPage() {
         </div>
       </div>
 
+      {/* 各區塊配分對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            112 年度兒少安置機構評鑑各區塊配分對照
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">配分</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">壹、行政組織與經營管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–6</td>
+              <td className="py-2 px-4 text-center">6 項</td>
+              <td className="py-2 px-4 text-center font-medium">10 分</td>
+              <td className="py-2 px-4 text-muted-foreground">董事會功能、組織運作、人員資格、訓練進修、勞動條件</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">貳、建築物環境及設施設備</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">7–14</td>
+              <td className="py-2 px-4 text-center">8 項</td>
+              <td className="py-2 px-4 text-center font-medium">10 分</td>
+              <td className="py-2 px-4 text-muted-foreground">整體環境衛生、公共安全、飲食衛生、健康醫療設備</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">參、專業服務</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">15–28</td>
+              <td className="py-2 px-4 text-center">14 項</td>
+              <td className="py-2 px-4 text-center font-bold text-primary">60 分</td>
+              <td className="py-2 px-4 text-muted-foreground">個案紀錄、輔導目標、服務品質（2歲以下/以上）、權益保障</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">肆、財務管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">29</td>
+              <td className="py-2 px-4 text-center">1 項</td>
+              <td className="py-2 px-4 text-center font-medium">20 分</td>
+              <td className="py-2 px-4 text-muted-foreground">財務查核結果計分（4次查核，每次 5 分）</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground">伍、特殊事項或措施</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">30–35</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">6 項</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">±10 分</td>
+              <td className="py-2 px-4 text-muted-foreground">違規扣分、服務學習、社工薪資、創新服務方案</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–35</td>
+              <td className="py-2 px-4 text-center">35 項</td>
+              <td className="py-2 px-4 text-center">100 分 ±10</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">參、專業服務配分最重（60 分）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-2">
         {sectionMeta.map((section) => {
@@ -168,9 +230,9 @@ export default function YouthCareSchoolPage() {
                   <Icon className={`h-5 w-5 ${section.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {section.name}
-                  </h2>
+                  </h3>
                   <p className="text-sm text-muted-foreground mb-3">
                     {section.itemRange}
                   </p>

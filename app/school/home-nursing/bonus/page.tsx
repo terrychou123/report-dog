@@ -90,7 +90,7 @@ export default function HomeNursingBonusPage() {
       {/* 五項加分方向 */}
       <div className="space-y-6">
         <div>
-          <h2 className="text-lg font-bold mb-4">B3 加分評鑑標準（符合任一即可）</h2>
+          <h3 className="text-lg font-bold mb-4">B3 加分評鑑標準（符合任一即可）</h3>
           <ol className="space-y-3">
             {bonusItem.criteria.map((criterion, i) => (
               <li key={i} className="flex gap-3 text-sm">

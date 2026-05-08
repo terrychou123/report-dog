@@ -99,7 +99,7 @@ export default function ElderlyWelfareInnovationPage() {
               <span className="w-8 h-8 rounded-full bg-indigo-500/10 flex items-center justify-center text-sm font-bold text-indigo-600 dark:text-indigo-400 font-mono">
                 {item.id}
               </span>
-              <h2 className="text-lg font-bold">{item.title}</h2>
+              <h3 className="text-lg font-bold">{item.title}</h3>
               <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
             </div>
 

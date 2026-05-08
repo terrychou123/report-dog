@@ -146,6 +146,55 @@ export default function PostpartumCarePage() {
         </div>
       </div>
 
+      {/* 各區塊項目數對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度產後護理之家評鑑各區塊概覽
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">A、行政組織、經營管理與服務對象權益保障</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–5</td>
+              <td className="py-2 px-4 text-center">5 項</td>
+              <td className="py-2 px-4 text-muted-foreground">人員配置、教育訓練、感染管制、意外事件、品質管理</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">B、專業服務與生活照顧</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">6–13</td>
+              <td className="py-2 px-4 text-center">8 項</td>
+              <td className="py-2 px-4 text-muted-foreground">產婦照護、嬰兒照護、哺乳、出住院評估、親子關係、緊急應變</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">C、環境設施與安全維護</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">14–15</td>
+              <td className="py-2 px-4 text-center">2 項</td>
+              <td className="py-2 px-4 text-muted-foreground">疏散避難系統、嬰兒疏散 SOP、天災緊急應變</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground">D、特別事項</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">16–17</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">2 項</td>
+              <td className="py-2 px-4 text-muted-foreground">配合政策加分、重大異常情事試評扣分</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–17</td>
+              <td className="py-2 px-4 text-center">17 項</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">B、專業服務與生活照顧項目最多（8 項）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-2 mb-10">
         {sectionMeta.map((sec) => {
@@ -162,9 +211,9 @@ export default function PostpartumCarePage() {
                   <Icon className={`h-5 w-5 ${sec.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (

@@ -197,9 +197,9 @@ export default function MultiFunctionCarePage() {
                   <Icon className={`h-5 w-5 ${sec.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (
@@ -274,9 +274,9 @@ export default function MultiFunctionCarePage() {
         <div className="mb-8 rounded-xl border border-yellow-500/30 bg-yellow-500/5 p-5">
           <div className="flex items-center gap-2 mb-3">
             <StarIcon className="h-4 w-4 text-yellow-600 dark:text-yellow-400" />
-            <h2 className="text-base font-semibold text-yellow-600 dark:text-yellow-400">
+            <h3 className="text-base font-semibold text-yellow-600 dark:text-yellow-400">
               伍、加分題（2 項）
-            </h2>
+            </h3>
           </div>
           <p className="text-xs text-muted-foreground mb-3">
             加分題不計入正式 45 項評鑑項次，由評鑑委員共議給分，總計最多加分 3 分。

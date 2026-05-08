@@ -75,7 +75,7 @@ export default function ResidentRightsPage() {
                 {item.id}
               </span>
               <div>
-                <h2 className="font-semibold text-base">{item.title}</h2>
+                <h3 className="font-semibold text-base">{item.title}</h3>
                 <p className="text-xs text-muted-foreground mt-0.5">
                   負責人：{item.responsible}
                 </p>

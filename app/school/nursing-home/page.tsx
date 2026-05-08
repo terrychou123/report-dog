@@ -170,6 +170,61 @@ export default function NursingHomePage() {
         </p>
       </div>
 
+      {/* 各區塊項目數對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            住宿型照顧機構評鑑各區塊概覽
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">A、經營管理效能</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–9</td>
+              <td className="py-2 px-4 text-center">9 項</td>
+              <td className="py-2 px-4 text-muted-foreground">人員配置、工作手冊、訓練計畫、勞動條件</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">B、專業照護品質</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">10–38</td>
+              <td className="py-2 px-4 text-center">29 項</td>
+              <td className="py-2 px-4 text-muted-foreground">照護計畫、醫療服務、感染管制、膳食復健</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">C、安全環境設備</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">39–54</td>
+              <td className="py-2 px-4 text-center">16 項</td>
+              <td className="py-2 px-4 text-muted-foreground">空間設備、消防安全、無障礙設施、緊急應變</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">D、個案權益保障</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">55–63</td>
+              <td className="py-2 px-4 text-center">9 項</td>
+              <td className="py-2 px-4 text-muted-foreground">服務契約、申訴機制、臨終照護</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground">加減分項目</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">64–66</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">3 項</td>
+              <td className="py-2 px-4 text-muted-foreground">創新服務（＋）、空氣品質（＋）、違規及重大負面事件（－）</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–66</td>
+              <td className="py-2 px-4 text-center">63 項 ＋ 3 加減分</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">B、專業照護品質條文最多（29 項）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-2 mb-10">
         {sectionMeta.map((sec) => {
@@ -186,9 +241,9 @@ export default function NursingHomePage() {
                   <Icon className={`h-5 w-5 ${sec.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (

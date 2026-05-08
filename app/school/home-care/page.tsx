@@ -135,6 +135,55 @@ export default function HomeCarePage() {
         </p>
       </div>
 
+      {/* 各區塊項目數對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度居家服務機構評鑑各區塊概覽
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">壹、個案權益保障</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–4</td>
+              <td className="py-2 px-4 text-center">4 項</td>
+              <td className="py-2 px-4 text-muted-foreground">服務資訊公開、申訴機制、服務契約、個資保護</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">貳、專業照護品質</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">5–14</td>
+              <td className="py-2 px-4 text-center">10 項</td>
+              <td className="py-2 px-4 text-muted-foreground">入案評估、服務計畫、緊急處理、督導訪視</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">參、經營管理效能</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">15–30</td>
+              <td className="py-2 px-4 text-center">16 項</td>
+              <td className="py-2 px-4 text-muted-foreground">行政管理、人員配置、財務管理、品質改善</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground">加分題</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">31–32</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">2 項</td>
+              <td className="py-2 px-4 text-muted-foreground">創新服務、照顧者支持</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–32</td>
+              <td className="py-2 px-4 text-center">32 項</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">參、經營管理效能項目最多（16 項）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-2 mb-10">
         {sectionMeta.map((sec) => {
@@ -151,9 +200,9 @@ export default function HomeCarePage() {
                   <Icon className={`h-5 w-5 ${sec.iconColor}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (

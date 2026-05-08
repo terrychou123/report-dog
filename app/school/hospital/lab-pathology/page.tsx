@@ -108,7 +108,7 @@ export default function HospitalLabPathologyPage() {
                 {item.id}
               </span>
               <span className="text-xs text-muted-foreground font-mono">{item.articleNumber}</span>
-              <h2 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h2>
+              <h3 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h3>
               <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
               <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
               {item.category === "必要" && (

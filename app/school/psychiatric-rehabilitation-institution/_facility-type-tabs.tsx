@@ -139,7 +139,7 @@ export function FacilityTypeTabs({
               </span>
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <h2 className="font-semibold text-base">{item.title}</h2>
+                  <h3 className="font-semibold text-base">{item.title}</h3>
                   {item.isTrialDeduction && (
                     <Badge variant="destructive" className="text-xs">重點項目</Badge>
                   )}

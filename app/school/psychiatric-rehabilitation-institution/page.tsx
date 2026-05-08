@@ -161,6 +161,49 @@ export default function PsychiatricRehabilitationInstitutionPage() {
         </div>
       </div>
 
+      {/* 章節條數對照：日間型 vs 住宿型 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度精神復健機構評鑑 3 章條數：日間型 vs 住宿型
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">章節</th>
+              <th className="py-2 px-4 text-left font-medium">主要評鑑主題</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">日間型</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">住宿型</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium whitespace-nowrap">第 1 章</td>
+              <td className="py-2 px-4 text-muted-foreground">經營管理：負責人管理、人力穩定性、督導訓練、環境設施</td>
+              <td className="py-2 px-4 text-center">10 條</td>
+              <td className="py-2 px-4 text-center">12 條</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium whitespace-nowrap">第 2 章</td>
+              <td className="py-2 px-4 text-muted-foreground">復健服務：復健評估、社區生活訓練、就業輔導、社區融合</td>
+              <td className="py-2 px-4 text-center">14 條</td>
+              <td className="py-2 px-4 text-center">14 條</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium whitespace-nowrap">第 3 章</td>
+              <td className="py-2 px-4 text-muted-foreground">服務品質：工作手冊、收結案標準、權益維護、緊急應變</td>
+              <td className="py-2 px-4 text-center">12 條</td>
+              <td className="py-2 px-4 text-center">14 條（含重點項目 1 條）</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-muted-foreground text-xs font-normal">評量採五級（A–E）或三級（A/C/E）方式</td>
+              <td className="py-2 px-4 text-center">36 條</td>
+              <td className="py-2 px-4 text-center">40 條</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* 章節卡片 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         {sectionMeta.map((section) => {

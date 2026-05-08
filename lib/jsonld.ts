@@ -197,17 +197,25 @@ export function educationalContentJsonLd(opts: {
   name: string;
   description: string;
   path: string;
+  dateModified?: string;
+  dateCreated?: string;
+  /** 引用來源（主管機關）— 用於 E-E-A-T 可信度訊號 */
+  citation?: { name: string; url?: string };
   hasPart?: Array<{ name: string; url: string }>;
   itemListElement?: Array<{ name: string; url: string; description?: string }>;
 }): string {
-  const base = {
+  const base: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": opts.type,
     name: opts.name,
     description: opts.description,
     url: `https://reportwang.com${opts.path}`,
     inLanguage: "zh-TW",
-    author: { "@type": "Organization", name: "報告汪" },
+    author: {
+      "@type": "Organization",
+      name: "報告汪",
+      url: "https://reportwang.com",
+    },
     audience: {
       "@type": "Audience",
       audienceType: "長照機構管理人員",
@@ -217,6 +225,16 @@ export function educationalContentJsonLd(opts: {
       name: "Taiwan",
     },
   };
+
+  if (opts.dateModified) base.dateModified = opts.dateModified;
+  if (opts.dateCreated) base.dateCreated = opts.dateCreated;
+  if (opts.citation) {
+    base.citation = {
+      "@type": "GovernmentOrganization",
+      name: opts.citation.name,
+      ...(opts.citation.url ? { url: opts.citation.url } : {}),
+    };
+  }
 
   if (opts.type === "Course" && opts.hasPart) {
     return JSON.stringify({

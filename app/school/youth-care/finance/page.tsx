@@ -116,7 +116,7 @@ export default function YouthCareFinancePage() {
                 {item.id}
               </span>
               <div className="flex-1">
-                <h2 className="text-lg font-semibold leading-snug">{item.title}</h2>
+                <h3 className="text-lg font-semibold leading-snug">{item.title}</h3>
                 <div className="flex flex-wrap gap-1.5 mt-1.5">
                   <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
                   {"score" in item && (

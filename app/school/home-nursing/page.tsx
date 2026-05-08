@@ -112,6 +112,47 @@ export default function HomeNursingPage() {
         </p>
       </div>
 
+      {/* 各區塊配分對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度居家護理所評鑑區塊與配分比重
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">配分比重</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">A、經營管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–5</td>
+              <td className="py-2 px-4 text-center">5 項</td>
+              <td className="py-2 px-4 text-center font-medium">45%</td>
+              <td className="py-2 px-4 text-muted-foreground">社區資源連結、感染管制、人員安全、緊急事件、品質監測</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">B、照護管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">6–8</td>
+              <td className="py-2 px-4 text-center">3 項</td>
+              <td className="py-2 px-4 text-center font-medium">55%</td>
+              <td className="py-2 px-4 text-muted-foreground">機構資訊管理（5%）、個案照護管理（45%）、加分項目（5%）</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–8</td>
+              <td className="py-2 px-4 text-center">8 項</td>
+              <td className="py-2 px-4 text-center">100%（含加分 105%）</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">B2 個案照護管理為最高權重單項（45%）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-2 mb-10">
         {sectionMeta.map((sec) => {
@@ -128,9 +169,9 @@ export default function HomeNursingPage() {
                   <Icon className={`h-5 w-5 ${sec.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}・佔 <span className="font-semibold">{sec.weight}</span></p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (

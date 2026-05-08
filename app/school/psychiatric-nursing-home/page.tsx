@@ -146,6 +146,61 @@ export default function PsychiatricNursingHomePage() {
         </p>
       </div>
 
+      {/* 各面向條數對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度精神護理之家評鑑 5 大面向概覽
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑面向</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">指標範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">條數</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">A、經營管理效能</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">A1.1–A5.1</td>
+              <td className="py-2 px-4 text-center">9 條</td>
+              <td className="py-2 px-4 text-muted-foreground">業務計畫、人員設置（重點）、工作人員權益、教育訓練、資料管理</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">B、專業照護品質</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">B1.1–B3.2</td>
+              <td className="py-2 px-4 text-center">21 條</td>
+              <td className="py-2 px-4 text-muted-foreground">住民服務計畫、防疫機制、跨專業照護、品質監測、膳食服務（含可選 2 條）</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">C、安全維護及設施設備</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">C1.1–C1.3</td>
+              <td className="py-2 px-4 text-center">3 條</td>
+              <td className="py-2 px-4 text-muted-foreground">疏散避難系統（重點）、火災應變計畫、夜間演練</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">D、住民權益保障</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">D1.1–D1.2</td>
+              <td className="py-2 px-4 text-center">2 條</td>
+              <td className="py-2 px-4 text-muted-foreground">尊重住民信仰、推動安寧緩和療護及病人自主權利</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground">E、創新及改革</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">E1.1</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1 條</td>
+              <td className="py-2 px-4 text-muted-foreground">創新或特色措施具有成效並公開分享</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">A–E</td>
+              <td className="py-2 px-4 text-center">36 條</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">一般 32 條、可選 2 條（B1.9/B3.2）、重點 2 條（A2.2/C1.1）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         {sectionMeta.map((section) => {

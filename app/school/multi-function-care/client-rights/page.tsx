@@ -97,7 +97,7 @@ export default function MultiFunctionCareClientRightsPage() {
                 {item.id}
               </span>
               <div>
-                <h2 className="text-base font-semibold">{item.title}</h2>
+                <h3 className="text-base font-semibold">{item.title}</h3>
                 <p className="text-xs text-muted-foreground">負責人員：{item.responsible}</p>
               </div>
             </div>

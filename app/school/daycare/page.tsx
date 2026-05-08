@@ -146,6 +146,61 @@ export default function DaycarePage() {
         <SourceCallout meta={daycareMeta} />
       </div>
 
+      {/* 各區塊項目數對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            115 年度日間照顧機構評鑑各區塊概覽
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">壹、個案權益保障</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–4</td>
+              <td className="py-2 px-4 text-center">4 項</td>
+              <td className="py-2 px-4 text-muted-foreground">服務資訊公開、申訴機制、服務契約、個資保護</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">貳、專業照護品質</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">5–22</td>
+              <td className="py-2 px-4 text-center">18 項</td>
+              <td className="py-2 px-4 text-muted-foreground">服務評估、照顧計畫、活動辦理、協助服藥、健康管理</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">參、經營管理效能</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">23–37</td>
+              <td className="py-2 px-4 text-center">15 項</td>
+              <td className="py-2 px-4 text-muted-foreground">業務計畫、人力配置、訓練留任率、財務管理、緊急事件</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">肆、安全環境設備</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">38–43</td>
+              <td className="py-2 px-4 text-center">6 項</td>
+              <td className="py-2 px-4 text-muted-foreground">高齡友善環境、盥洗衛生、飲用水、廚房衛生、病媒防治</td>
+            </tr>
+            <tr className="bg-muted/10">
+              <td className="py-2 px-4 text-muted-foreground">加分題</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">44–45</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">2 項</td>
+              <td className="py-2 px-4 text-muted-foreground">原住民族文化敏感度、監視錄影設備（最多加 3 分）</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–43</td>
+              <td className="py-2 px-4 text-center">43 項 ＋ 2 加分</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">貳、專業照護品質項目最多（18 項）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* 四大區塊卡片 */}
       <div className="grid gap-4 sm:grid-cols-2 mb-10">
         {sectionMeta.map((sec) => {
@@ -162,9 +217,9 @@ export default function DaycarePage() {
                   <Icon className={`h-5 w-5 ${sec.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {sec.name}
-                  </h2>
+                  </h3>
                   <p className="text-xs text-muted-foreground mb-3">{sec.itemRange}</p>
                   <div className="flex flex-wrap gap-1 mb-3">
                     {section?.items.slice(0, 4).map((item) => (
@@ -233,9 +288,9 @@ export default function DaycarePage() {
         <div className="mb-8 rounded-xl border border-yellow-500/30 bg-yellow-500/5 p-5">
           <div className="flex items-center gap-2 mb-3">
             <StarIcon className="h-4 w-4 text-yellow-600 dark:text-yellow-400" />
-            <h2 className="text-base font-semibold text-yellow-600 dark:text-yellow-400">
+            <h3 className="text-base font-semibold text-yellow-600 dark:text-yellow-400">
               伍、加分題（2 項）
-            </h2>
+            </h3>
           </div>
           <p className="text-xs text-muted-foreground mb-3">
             加分題不計入正式評鑑項次，由評鑑委員共議給分，總計最多加分 3 分。

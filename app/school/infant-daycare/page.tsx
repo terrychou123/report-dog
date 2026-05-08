@@ -129,6 +129,54 @@ export default function InfantDaycareSchoolPage() {
         </p>
       </div>
 
+      {/* 各區塊配分對照 */}
+      <div className="not-prose mb-6 overflow-x-auto rounded-xl border">
+        <table className="w-full text-sm">
+          <caption className="py-2.5 px-4 text-left font-semibold text-foreground border-b bg-muted/30">
+            114–116 年度托嬰中心評鑑各區塊配分對照
+          </caption>
+          <thead>
+            <tr className="border-b bg-muted/20 text-muted-foreground">
+              <th className="py-2 px-4 text-left font-medium">評鑑區塊</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目範圍</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">項目數</th>
+              <th className="py-2 px-4 text-center font-medium whitespace-nowrap">配分</th>
+              <th className="py-2 px-4 text-left font-medium">主要查核重點</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            <tr>
+              <td className="py-2 px-4 font-medium">一、行政管理</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">1–11</td>
+              <td className="py-2 px-4 text-center">11 項</td>
+              <td className="py-2 px-4 text-center font-medium">20 分</td>
+              <td className="py-2 px-4 text-muted-foreground">立案行政、員工訓練、人事管理、財務安全、兒童權益保障</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">二、托育活動</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">12–36</td>
+              <td className="py-2 px-4 text-center">25 項</td>
+              <td className="py-2 px-4 text-center font-bold text-primary">40 分</td>
+              <td className="py-2 px-4 text-muted-foreground">關係建立與互動、環境規劃、活動設計、寶寶日誌、親師交流</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4 font-medium">三、健康安全</td>
+              <td className="py-2 px-4 text-center text-muted-foreground">37–60</td>
+              <td className="py-2 px-4 text-center">24 項</td>
+              <td className="py-2 px-4 text-center font-bold text-primary">40 分</td>
+              <td className="py-2 px-4 text-muted-foreground">健康管理、飲食衛生、給藥委託、衛生設備、感染管制</td>
+            </tr>
+            <tr className="border-t bg-muted/20 font-semibold">
+              <td className="py-2 px-4">合計</td>
+              <td className="py-2 px-4 text-center">1–60</td>
+              <td className="py-2 px-4 text-center">60 項</td>
+              <td className="py-2 px-4 text-center">100 分</td>
+              <td className="py-2 px-4 text-xs text-muted-foreground font-normal">二、托育活動與三、健康安全各佔 40 分</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       {/* Section cards */}
       <div className="grid gap-4 sm:grid-cols-3">
         {sectionMeta.map((section) => {
@@ -147,9 +195,9 @@ export default function InfantDaycareSchoolPage() {
                   <Icon className={`h-5 w-5 ${section.textClass}`} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="text-base font-semibold mb-1 group-hover:text-primary transition-colors">
                     {section.name}
-                  </h2>
+                  </h3>
                   <p className="text-sm text-muted-foreground mb-3">
                     {section.itemRange}
                   </p>

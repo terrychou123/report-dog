@@ -107,7 +107,7 @@ export default function HospitalStaffSupportPage() {
               <span className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center text-sm font-bold text-green-600 dark:text-green-400 font-mono">
                 {item.id}
               </span>
-              <h2 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h2>
+              <h3 id={`heading-${item.id}`} className="text-lg font-bold">{item.title}</h3>
               <span className="text-xs text-muted-foreground font-mono">{item.articleNumber}</span>
               {item.category === "必要" && (
                 <Badge className="text-xs bg-red-500/10 text-red-600 dark:text-red-400 border-0">必要</Badge>

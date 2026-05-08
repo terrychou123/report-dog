@@ -104,7 +104,7 @@ export default function NursingHomeInnovationPage() {
               <span className="w-8 h-8 rounded-full bg-purple-500/10 flex items-center justify-center text-sm font-bold text-purple-600 dark:text-purple-400 font-mono">
                 {item.id}
               </span>
-              <h2 className="text-lg font-bold">{item.title}</h2>
+              <h3 className="text-lg font-bold">{item.title}</h3>
               <Badge variant="outline" className="text-xs">{item.responsible}</Badge>
               <Badge variant="secondary" className="text-xs">{item.reviewMethod}</Badge>
             </div>
