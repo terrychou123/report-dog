@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { multiFunctionCareProfile, meta as multiFunctionCareMeta } from "@/lib/ai/evaluation-profiles/multi-function-care";
@@ -378,6 +379,18 @@ export default function MultiFunctionCarePage() {
       </div>
 
       
+      {/* 評鑑準備流程圖 */}
+      <div className="not-prose my-6">
+        <Image
+          src="/school/multi-function-care-prep-flow.svg"
+          alt="小規模多機能機構評鑑準備 4 大步驟：自評診斷、文件整備、模擬預演、正式評鑑"
+          className="w-full rounded-xl"
+          width={800}
+          height={500}
+          loading="lazy"
+        />
+      </div>
+
       {/* 評鑑常見缺失案例 */}
       <div className="not-prose my-8 space-y-4">
         <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>

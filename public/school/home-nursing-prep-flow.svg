@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"
+     font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題區 -->
+  <text x="400" y="48" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">居家護理所評鑑準備 4 步驟</text>
+  <text x="400" y="78" text-anchor="middle" font-size="20" fill="#57534e">115 年度 8 項基準｜A 經營管理＋B 照護管理</text>
+  <line x1="28" y1="94" x2="772" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭 (arrow_y=279) -->
+  <polygon points="202,273 218,279 202,285" fill="#c4bfb8"/>
+  <line x1="202" y1="279" x2="218" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,273 408,279 392,285" fill="#c4bfb8"/>
+  <line x1="392" y1="279" x2="408" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,273 598,279 582,285" fill="#c4bfb8"/>
+  <line x1="582" y1="279" x2="598" y2="279" stroke="#c4bfb8" stroke-width="2"/>
+
+  <!-- Step 1：自評診斷 (#d97706) x=28 cx=115 -->
+  <rect x="28" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="112" width="174" height="4" fill="#d97706"/>
+  <circle cx="115" cy="194" r="44" fill="#fef3c7"/>
+  <text x="115" y="183" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="212" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <text x="115" y="298" text-anchor="middle" font-size="34" fill="#1e293b" font-weight="700">自評診斷</text>
+  <text x="115" y="326" text-anchor="middle" font-size="17" fill="#57534e">下載自評表逐項勾選</text>
+  <text x="115" y="348" text-anchor="middle" font-size="17" fill="#57534e">找出現況缺口弱點</text>
+  <rect x="41" y="382" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="406" text-anchor="middle" font-size="17" fill="#d97706" font-weight="600">評鑑前 3 月</text>
+
+  <!-- Step 2：文件整備 (#78716c) x=218 cx=305 -->
+  <rect x="218" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="108" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="112" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="305" y="183" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="212" text-anchor="middle" font-size="29" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="298" text-anchor="middle" font-size="34" fill="#1e293b" font-weight="700">文件整備</text>
+  <text x="305" y="326" text-anchor="middle" font-size="17" fill="#57534e">依條號彙整佐證文件</text>
+  <text x="305" y="348" text-anchor="middle" font-size="17" fill="#57534e">建立分類標籤系統</text>
+  <rect x="231" y="382" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="406" text-anchor="middle" font-size="17" fill="#78716c" font-weight="600">評鑑前 2 月</text>
+
+  <!-- Step 3：模擬預演 (#57534e) x=408 cx=495 -->
+  <rect x="408" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="108" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="112" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="194" r="44" fill="#f5f0eb"/>
+  <text x="495" y="183" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="212" text-anchor="middle" font-size="29" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="298" text-anchor="middle" font-size="34" fill="#1e293b" font-weight="700">模擬預演</text>
+  <text x="495" y="326" text-anchor="middle" font-size="17" fill="#57534e">內部模擬委員查核</text>
+  <text x="495" y="348" text-anchor="middle" font-size="17" fill="#57534e">重點改善缺失項目</text>
+  <rect x="421" y="382" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="406" text-anchor="middle" font-size="17" fill="#57534e" font-weight="600">評鑑前 1 月</text>
+
+  <!-- Step 4：正式評鑑 (#a8a29e) x=598 cx=685 -->
+  <rect x="598" y="108" width="174" height="342" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="108" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="112" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="194" r="44" fill="#f5f5f4"/>
+  <text x="685" y="183" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="212" text-anchor="middle" font-size="29" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="298" text-anchor="middle" font-size="34" fill="#1e293b" font-weight="700">正式評鑑</text>
+  <text x="685" y="326" text-anchor="middle" font-size="17" fill="#57534e">接待委員信心作答</text>
+  <text x="685" y="348" text-anchor="middle" font-size="17" fill="#57534e">後續追蹤持續改善</text>
+  <rect x="611" y="382" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="406" text-anchor="middle" font-size="17" fill="#a8a29e" font-weight="600">評鑑當日</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

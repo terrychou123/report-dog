@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { daycareProfile, meta as daycareMeta } from "@/lib/ai/evaluation-profiles/daycare";
@@ -356,6 +357,18 @@ export default function DaycarePage() {
         >
           查看小規機評鑑基準（含居服+夜宿獨有項目）→
         </Link>
+      </div>
+
+      {/* 評鑑準備流程圖 */}
+      <div className="not-prose my-6">
+        <Image
+          src="/school/daycare-prep-flow.svg"
+          alt="日間照顧機構評鑑準備 4 大步驟：自評診斷、文件整備、模擬預演、正式評鑑"
+          className="w-full rounded-xl"
+          width={800}
+          height={500}
+          loading="lazy"
+        />
       </div>
 
       {/* 評鑑常見缺失案例 */}
