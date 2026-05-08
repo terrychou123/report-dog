@@ -378,6 +378,43 @@ export default function PsychiatricRehabilitationInstitutionPage() {
         </Button>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">第 2 章・復健服務（復健目標設定記錄）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱日間型學員的復健計畫，發現社區生活訓練目標過於籠統（「提升社區適應能力」），未訂定可量測的短期目標；就業輔導記錄缺少「學員工作能力評估」與「雇主反映記錄」。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            採用個別化復健計畫格式，以 SMART 原則訂定復健目標（含頻次/達成標準/評估日期），就業輔導記錄加入「職場適應評估表」，社區督導每月完成紀錄並由督導簽章確認。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">第 3 章・服務品質（收結案文件與住民自由）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱結案記錄，發現部分個案提前結案時缺少「結案評估報告」及「後續追蹤計畫」；住宿型唯一重點項目（3.11 維護住民出入自由）的相關政策未公告給住民知悉。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立結案標準三件套（結案評估報告/後續追蹤計畫/家屬確認書），住宿型機構將「住民出入自由政策」製作公告並張貼入口處，入住時向住民及家屬說明並簽名確認留存。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

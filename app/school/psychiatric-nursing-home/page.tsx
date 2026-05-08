@@ -302,6 +302,43 @@ export default function PsychiatricNursingHomePage() {
         </Button>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">B、專業照護品質・住民服務計畫整合（B1.1–B1.5）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱住民服務計畫，發現精神狀態評估工具僅入住時施測一次，未按季度重新評估；護理師、職能治療師、社工師雖各有紀錄，但分散存放，未整合為統一的跨專業計畫書。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立「住民服務計畫年曆」（標記每季評估時間），設計跨專業整合計畫書格式（三專業人員同頁簽章），每季召開跨專業個案研討並留存會議記錄，由護理長督導執行率。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">C1・疏散避難系統（重點項目）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查察疏散設備，發現緊急照明燈電池長期未維護、實際亮度不足；且演練記錄顯示精神科病房的個別化疏散方案未涵蓋「拒絕疏散之個案的處置程序」，夜間演練缺失。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立緊急照明設備月度點檢制度，訂定精神科病房特殊疏散 SOP（含拒絕疏散個案的二人協助流程），每年辦理 1 次夜間演練並留存影像記錄，演練後召開缺失改善會議。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

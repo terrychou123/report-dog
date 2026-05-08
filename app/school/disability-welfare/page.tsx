@@ -307,6 +307,43 @@ export default function DisabilityWelfarePage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">三、專業服務・ISP 個別支持計畫</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱 ISP 計畫書，發現缺少跨專業團隊會議記錄，目標設定過於籠統（如「提升社區參與」），未具體化為可量測的短中長期目標，且未記錄個案本人及家屬對計畫的意見。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立 ISP 跨專業會議記錄表（各專業人員簽章），採 SMART 原則重新設計目標格式（含頻次/達成標準/評估日期），加入「個案/家屬意見確認欄位」，每年至少召開 2 次正式跨專業會議。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">二、環境設施・消防安全演練（身障使用者）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱演練紀錄，發現演練僅包含一般人員疏散，未針對行動不便的身障服務使用者制訂「個別化緊急應變計畫」，演練頻率也未達每半年一次的規定。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            為每位行動能力受限的服務使用者建立「個人緊急應變卡」（含輔助方式/疏散路線/所需輔具），每半年辦理含身障者的實際疏散演練，記錄各個案疏散所需時間並設定改善目標。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

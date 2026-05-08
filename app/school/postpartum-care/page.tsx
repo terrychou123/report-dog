@@ -305,6 +305,43 @@ export default function PostpartumCarePage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 B5・母乳哺育及母乳貯存</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱母乳貯存記錄，發現母乳標籤僅記錄姓名與日期，缺少「擠奶時間」及「使用期限」；冷凍保存的母乳超過建議保存期限未予丟棄，無定期清查記錄。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            統一採用標準化母乳標籤（含：姓名/日期/擠奶時間/使用期限），建立母乳清查週記錄表，護理師每週盤點冷凍母乳，標籤超期前一日主動提醒產婦並記錄處置結果。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 C1・疏散避難（含嬰兒疏散 SOP）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱緊急疏散計畫，發現疏散路線圖未標示「嬰兒室疏散路線」，且演練記錄顯示嬰兒疏散僅使用空床模擬，未以嬰兒模型測試實際搬運效率，演練完成時間超過安全目標。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            更新疏散路線圖（分別標示產婦路線與嬰兒室路線），採用嬰兒模型每季演練嬰兒疏散流程，記錄完成時間並訂定改善目標（每嬰兒 ≤30 秒完成疏散），逐次提升達標率。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

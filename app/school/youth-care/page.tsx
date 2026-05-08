@@ -318,6 +318,43 @@ export default function YouthCareSchoolPage() {
         </div>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">參、專業服務・個案輔導目標（雙版本）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱個案輔導計畫，發現輔導目標缺乏依年齡（2 歲以下/2 歲以上）分版本的評估工具記錄，且長期目標超過一年未更新，未反映個案近期發展狀況變化。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            採用分版本評估工具（2 歲以下用嬰兒期評量、2 歲以上用兒童發展評量），每半年召開個案評估會議，更新輔導目標並記錄個案具體進步指標，生輔員與社工師共同簽章確認。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">肆、財務管理・帳務分類與查核</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員進行財務查核時，發現機構營運費用與個案生活費混帳，零用金管理未設立雙重授權機制，每月結算記錄不完整，導致財務查核 4 次中有 2 次扣分。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委託會計師事務所進行帳務重整，設立「營運費用」與「個案生活費」獨立帳冊，零用金設立雙重授權制（社工主任＋財務主任），每月完成收支報表並存檔，每季報主管審閱簽核。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

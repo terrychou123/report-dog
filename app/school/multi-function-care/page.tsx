@@ -377,6 +377,43 @@ export default function MultiFunctionCarePage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 11・居服照服員服務執行（小規機獨有）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱居服服務記錄，發現到宅服務的起訖時間記錄與 GPS 打卡紀錄有落差，且居服與日照服務記錄混用同一格式，無法清楚區分兩類服務的提供時間與內容。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            分開建立「居服服務記錄表」與「日照服務記錄表」，居服記錄加入 GPS 打卡截圖欄位，每週督導抽查對照，確保記錄與實際服務一致，每月統計居服執行率並與督導目標對比。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 29・夜宿寢室管理（小規機獨有）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱夜宿服務記錄，發現夜宿人員名冊未即時更新，日夜班照顧者無交接記錄，且夜宿區域的每班次環境巡查表缺失，無法確認夜間安全巡視是否確實執行。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立夜宿專用「夜間交接班紀錄表」（含個案狀況、特殊事項、環境巡查欄位），設計夜宿人員每日名冊確認流程，夜宿區域每班次進行環境巡查並簽名記錄，月底由主管彙整查核。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

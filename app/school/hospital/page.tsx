@@ -497,6 +497,43 @@ export default function HospitalPage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">第 2.5 章・用藥安全（條 90–98）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查察藥局及護理站時，發現高警訊藥品（濃縮氯化鉀注射液）未與一般藥品分開儲存，警示標籤僅有文字、缺少紅色邊框；護理站備藥無雙人核對記錄，屬必要條文缺失。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            設置獨立高警訊藥品儲存空間（紅色警示標示），統一標準化警示標籤（紅框＋黑字），建立雙人核對給藥 SOP，每月由藥師進行高警訊藥品稽核並留存稽核記錄表。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">第 1.3 章・護病比（必要條文）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員審閱護理排班記錄，發現部分月份夜班護病比超過規定上限，且記錄方式採「月平均」計算，未逐日記錄，無法確認每班次的實際護病比，評量結果為「E」（必要）。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立逐日逐班護病比電子記錄系統，設定預警值超標即自動通知護理部主任，護理主任每週審閱並簽核；超標班次由護理長填寫「超標說明及補救措施單」存檔備查。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

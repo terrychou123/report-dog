@@ -301,6 +301,43 @@ export default function HomeCarePage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 6・照服員服務執行記錄</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員抽查到宅服務記錄，發現部分照服員的服務時間記錄與個案家屬描述不符，且未記錄每次服務的起訖時間；督導訪視記錄缺少個案 ADL 變化的量化評估，僅有文字描述。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            導入電子打卡系統（到宅服務起訖時間自動記錄），設計標準服務記錄表（含 ADL 評估欄位），督導每月抽查 5% 服務記錄並簽章確認，異常情形須於 3 日內說明原因。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 26–28・在職訓練計畫</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱年度在職訓練計畫，發現訓練課程未涵蓋法定「緊急事件處理」及「個案權益保障」兩類，且部分照服員的繼續教育學分未達規定時數，訓練台帳記錄不完整。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            預先訂定含法定六大類課程的年度訓練計畫並公告，每次訓練後建立「課程大綱＋簽到表＋考核記錄」三件套，年底完成個人訓練台帳彙整，督導每季核對學分達成狀況。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

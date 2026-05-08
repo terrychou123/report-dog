@@ -343,6 +343,43 @@ export default function NursingHomePage() {
         </Link>
       </p>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 C11・緊急應變演練（EOP）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱演練紀錄，發現機構全年僅辦理 2 次疏散演練且均為白天一般火災情境，未包含複合式災害及夜間演練，不符合 115 年度新增「每年至少 4 次（含複合式 1 次＋夜間 1 次）」規定，評量結果為「E」。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            訂定年度演練計畫書（Q1 日間、Q2 夜間、Q3 複合式、Q4 日間），每場留存「演練照片＋人員簽到表＋檢討記錄」，次月完成改善追蹤，並納入年度品質指標監控。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 D2（id 56）・入住契約審閱期</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員審閱入住契約範本，發現「審閱期」欄位填寫「3 日」，不符合 115 年度 D2 新增的「至少 5 天」規定；部分個案簽約記錄顯示當日完成簽約，缺少審閱期確認機制，被認定為「B」缺失。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            修訂契約範本，將審閱期改為「不少於 5 個工作日」，新增「個案/家屬已審閱確認」簽名欄（含日期），入住流程標準化為「寄送契約→5 日後回簽」，並留存快遞/通訊紀錄備查。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

@@ -294,6 +294,43 @@ export default function GeneralNursingHomePage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 B1・照護需求評估（72 小時整合性評估）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱入住個案評估記錄，發現 72 小時內完成整合性評估的比率僅 73%，且部分評估表缺少「個人偏好」及「文化需求」欄位的完整填寫，無法支撐個別化照護計畫。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            設置入住評估提醒系統（入住後 48 小時發送提醒），修訂評估表增加「個人偏好/習慣/文化需求」欄位，督導每月抽查 10 份評估記錄確認完整性，並追蹤 72 小時內完成率目標達 95%。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 C3・情境演練（含個別化疏散策略）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱演練記錄，發現全年僅辦理 1 次白天演練，缺少「行動不便個案的個人疏散計畫」文件，且未包含夜間演練，不符合 C3 要求的情境式演練規範。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            訂定年度 2 次演練計畫（含 1 次夜間），為每位行動不便個案建立「個人疏散輔助計畫」（含輔助人數/路線/輔具需求），演練時依計畫執行並記錄各個案疏散所需時間，逐次改善。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

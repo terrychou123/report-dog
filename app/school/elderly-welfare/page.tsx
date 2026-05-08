@@ -336,6 +336,43 @@ export default function ElderlyWelfarePage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 B9–B24・護理照護（壓傷評估）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱高壓傷風險個案記錄，發現 Braden 評分僅入住時評估一次，未依規定每兩週重新評估；已有皮膚損傷的個案傷口記錄缺少尺寸測量數據及照片，評量結果定為「B」。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立壓傷風險評估週期提醒（Braden ≤16 分者每兩週自動提醒），設計標準傷口記錄表（含圖示、尺寸、處置方式及週期追蹤），由傷口護理師每月查核並在月報留存統計數字。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 A4・查核缺失改善（二級加強）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱前次評鑑缺失改善記錄，發現機構僅填寫「已改善」，缺少具體佐證文件（改善前後對比照片、修訂後表單、人員知悉記錄），被認定改善不完整，計為本次評鑑缺失。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立「缺失改善追蹤三件套」：①改善前後對比照片、②修訂後的作業程序書或表單、③相關人員知悉確認簽名；每項缺失設獨立資料夾歸檔，由主管每季複查並在追蹤表上簽章。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

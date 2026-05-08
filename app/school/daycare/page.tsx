@@ -358,6 +358,43 @@ export default function DaycarePage() {
         </Link>
       </div>
 
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 8・照顧計畫書、追蹤及評值</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱個案照顧計畫書時，發現多位個案的計畫超過六個月未更新，服務目標與最新 ADL 功能評估結果明顯不符，且計畫書無督導審閱簽章，評量結果定為「E」。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立每季照顧計畫定期回顧清單，列明各個案最後更新日與下次回顧期限；督導於計畫書封面簽章確認，並將「計畫更新率」納入項目 22 品質監測指標，每月統計一次。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 36・緊急事件與危機處理</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱緊急事件記錄時，發現某月份的跌倒事件缺少家屬通知時間戳記、後續醫療處置結果，且未依規定於事件發生後 24 小時內通報主管機關，記錄表格僅填寫事發經過即歸檔。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            重新設計緊急事件紀錄表，加入「家屬聯繫時間」「醫療處置結果」「主管機關通報截圖」三個必填欄位；訂定 SOP 明確規範 24 小時通報期限，並在月報中統計事件處理達成率。
+          </p>
+        </div>
+      </div>
+
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

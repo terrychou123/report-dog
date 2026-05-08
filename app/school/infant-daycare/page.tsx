@@ -281,6 +281,43 @@ export default function InfantDaycareSchoolPage() {
         </div>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">二、托育活動・寶寶日誌記錄完整性</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱寶寶日誌，發現部分嬰幼兒的每日記錄缺少「哺乳/配方奶次數及奶量」「如廁次數」等量化資料，且日誌以批次填寫為主，無法反映即時照護狀況，家長確認欄空白。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            建立電子化寶寶日誌系統（含哺乳/睡眠/如廁/活動四大即時記錄欄位），每日結束後發送電子版給家長確認，紙本存檔至學年末；保育員每日完成率列入月考核指標。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">三、健康安全・給藥委託書管理</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱給藥記錄，發現部分給藥委託書缺少「藥品完整名稱」「劑量」「給藥頻次」等必填欄位，且藥品保存未依冷藏/常溫分類，退藥記錄不完整，無家長簽收。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            重新設計給藥委託書（含藥品名稱/劑量/頻次/保存方式/委託期限等欄位），設置冷藏/常溫獨立藥品區，每日雙人核對給藥記錄，退藥時完成退藥記錄表並請家長當場簽收。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

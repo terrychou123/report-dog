@@ -273,6 +273,43 @@ export default function HomeNursingPage() {
         </Link>
       </div>
 
+      
+      {/* 評鑑常見缺失案例 */}
+      <div className="not-prose my-8 space-y-4">
+        <h2 className="text-base font-semibold text-foreground">評鑑常見缺失案例</h2>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 B2・個案照護管理（45% 配分）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱個案護理記錄，發現訪視記錄格式不一致，部分記錄缺少「問題清單」與「護理措施」的對應連結；高危個案的追蹤訪視頻率未依評估結果調整，仍維持固定月訪一次。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            統一採用 SOAP 格式撰寫訪視記錄，建立個案問題清單對照護理措施的標準表單，高危個案每月至少訪視 2 次，每次記錄風險指標數值（如傷口尺寸、血壓趨勢）並觸發跨專業通報機制。
+          </p>
+        </div>
+
+        <div className="rounded-xl border overflow-hidden text-sm">
+          <div className="flex items-center gap-2 bg-amber-500/10 border-b px-4 py-2.5">
+            <span className="font-semibold text-amber-700 dark:text-amber-400">缺失情境</span>
+            <span className="text-muted-foreground">項目 A2・感染管制（8%）</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            委員查閱感染管制手冊，發現手冊未更新至最新版本，「肺結核接觸者追蹤」及「手部衛生執行監測」等法定章節付之闕如，且醫療廢棄物處理 SOP 未含圖示說明。
+          </p>
+          <div className="flex items-center gap-2 bg-green-500/10 border-t px-4 py-2.5">
+            <span className="font-semibold text-green-700 dark:text-green-400">改善後做法</span>
+          </div>
+          <p className="px-4 py-3 text-muted-foreground leading-relaxed">
+            每年 1 月完成手冊年度修訂，加入法定四大感染管制章節（傳染病/肺結核/疥瘡/手部衛生），廢棄物處理 SOP 配合現場照片，新進人員到職後一週內完成感控教育訓練並簽名確認。
+          </p>
+        </div>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );
