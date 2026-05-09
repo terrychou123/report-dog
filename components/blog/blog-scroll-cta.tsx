@@ -9,11 +9,13 @@ const SESSION_KEY = "blog-cta-dismissed";
 
 export function BlogScrollCta({ slug }: { slug: string }) {
   const [visible, setVisible] = useState(false);
-  const [dismissed, setDismissed] = useState(false);
+  const [dismissed, setDismissed] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return !!sessionStorage.getItem(SESSION_KEY);
+  });
 
   useEffect(() => {
-    // 同 session 已關閉則不顯示
-    if (sessionStorage.getItem(SESSION_KEY)) return;
+    if (dismissed) return;
 
     const handleScroll = () => {
       const el = document.documentElement;
@@ -21,12 +23,13 @@ export function BlogScrollCta({ slug }: { slug: string }) {
       const total = el.scrollHeight - el.clientHeight;
       if (total > 0 && scrolled / total >= 0.5) {
         setVisible(true);
+        window.removeEventListener("scroll", handleScroll);
       }
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [dismissed]);
 
   const handleDismiss = () => {
     sessionStorage.setItem(SESSION_KEY, "1");
@@ -46,7 +49,7 @@ export function BlogScrollCta({ slug }: { slug: string }) {
         </p>
         <div className="flex items-center gap-2 shrink-0">
           <Link
-            href={`/auth/sign-up?source=blog-cta&slug=${slug}`}
+            href={`/auth/sign-up?source=blog-cta&slug=${encodeURIComponent(slug)}`}
             onClick={() => trackEvent("cta_click", { source: "blog-mid-cta", slug })}
             className="inline-flex items-center justify-center rounded-full bg-accent text-accent-foreground px-4 py-1.5 text-sm font-medium hover:bg-accent/90 transition-colors whitespace-nowrap"
           >

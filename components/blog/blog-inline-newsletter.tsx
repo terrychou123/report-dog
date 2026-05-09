@@ -48,7 +48,7 @@ export function BlogInlineNewsletter({ slug }: { slug: string }) {
             喜歡這篇文章？訂閱評鑑電子報
           </h3>
           <p className="text-sm text-muted-foreground mb-4">
-            每週收到 1 篇實戰文書範例（PDCA、SOAP、評鑑常見缺失），可隨時退訂。
+            不定期收到評鑑相關知識（PDCA、SOAP、評鑑常見缺失），可隨時退訂。
           </p>
 
           {done ? (
