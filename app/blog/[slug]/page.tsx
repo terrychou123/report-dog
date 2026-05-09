@@ -16,6 +16,7 @@ import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, type TocNode } 
 import { BlogToc } from "@/components/blog/blog-toc";
 import { BlogTldr } from "@/components/blog/blog-tldr";
 import { BlogScrollCta } from "@/components/blog/blog-scroll-cta";
+import { BlogInlineNewsletter } from "@/components/blog/blog-inline-newsletter";
 import { SoapDemo } from "@/components/demo/soap-demo";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -300,6 +301,9 @@ export default async function BlogPostPage({ params }: Props) {
                   dangerouslySetInnerHTML={{ __html: post.content }}
                 />
               )}
+
+              {/* 行內電子報訂閱 */}
+              <BlogInlineNewsletter slug={post.slug} />
 
               {/* CTA 卡片 */}
               <div className="mt-16 rounded-xl border bg-primary/5 p-8 md:p-10 text-center">
