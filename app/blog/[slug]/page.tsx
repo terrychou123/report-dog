@@ -15,6 +15,7 @@ import { BookOpenIcon, DownloadIcon } from "lucide-react";
 import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, type TocNode } from "@/lib/blog-html-postprocess";
 import { BlogToc } from "@/components/blog/blog-toc";
 import { BlogTldr } from "@/components/blog/blog-tldr";
+import { BlogScrollCta } from "@/components/blog/blog-scroll-cta";
 import { SoapDemo } from "@/components/demo/soap-demo";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -354,6 +355,9 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           </div>
         </div>
+
+        <BlogScrollCta slug={post.slug} />
+
       </article>
     </>
   );

@@ -86,7 +86,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/docs/copy-and-templates", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/import-templates", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/evaluation", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://reportwang.com/docs/version-history", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/excel-editing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/scenarios", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/faq", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },

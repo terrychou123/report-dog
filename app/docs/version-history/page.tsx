@@ -8,6 +8,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "版本歷史與共享",
   description: "報告汪版本歷史與報告共享教學：查看歷史版本、還原版本、產生唯讀分享連結與成員管理。",
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://reportwang.com/docs/version-history" },
   openGraph: {
     title: "版本歷史與共享｜報告汪教學",

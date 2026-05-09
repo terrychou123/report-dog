@@ -14,7 +14,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 
@@ -29,6 +29,9 @@ export function SignUpForm({
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const signupSource = searchParams.get("source");
+  const signupSlug = searchParams.get("slug");
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -49,7 +52,11 @@ export function SignUpForm({
         options: {
           // next=/onboarding 是 sign_up_complete GA4 事件的觸發依據，異動前請一併更新 confirm/page.tsx
           emailRedirectTo: `${window.location.origin}/auth/confirm?next=/onboarding`,
-          data: { newsletter_opt_in: subscribeNewsletter },
+          data: {
+            newsletter_opt_in: subscribeNewsletter,
+            signup_source: signupSource ?? null,
+            signup_source_slug: signupSlug ?? null,
+          },
         },
       });
       if (error) throw error;
@@ -59,7 +66,7 @@ export function SignUpForm({
         setIsLoading(false);
         return;
       }
-      trackEvent("sign_up", { method: "email" });
+      trackEvent("sign_up", { method: "email", source: signupSource ?? "direct" });
       router.push("/auth/sign-up-success");
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : "發生錯誤，請稍後再試");
