@@ -4,9 +4,6 @@ import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq, desc } from "drizzle-orm";
 
-// 每小時更新一次（避免每次請求打 DB，同時保持文章清單新鮮）
-export const revalidate = 3600;
-
 export async function GET() {
   const base = "https://reportwang.com";
 

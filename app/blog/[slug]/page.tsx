@@ -22,6 +22,9 @@ import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
 type Props = { params: Promise<{ slug: string }> };
 
+// 模組層級常數：避免每次 request 重新編譯 regex
+const HOWTO_SLUG_RE = /\b(guide|prep|plan|30day|90day|timeline|checklist|how-to|steps)\b/i;
+
 // 每篇文章預設帶入最相關的範例情境（對應 soap-demo-examples.ts 的 id）
 const SOAP_SLUG_TO_EXAMPLE: Record<string, string> = {
   'home-nursing-soap-b2-evaluation-records': 'home-nursing',
@@ -130,7 +133,6 @@ export default async function BlogPostPage({ params }: Props) {
 
   // HowTo schema：slug 含步驟型關鍵字時從 H2 標題自動推導，不需 DB 欄位
   // 至少 3 步才注入，避免 Google 標 schema spam
-  const HOWTO_SLUG_RE = /\b(guide|prep|plan|30day|90day|timeline|checklist|how-to|steps)\b/i;
   const derivedHowtoSteps =
     HOWTO_SLUG_RE.test(post.slug) && post.content
       ? [...post.content.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi)]
