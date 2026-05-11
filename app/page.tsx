@@ -3,6 +3,7 @@ import Link from "next/link";
 import { faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { StartButton } from "@/components/start-button";
 import { TrialButton } from "@/components/trial-button";
+import { TrackedCtaLink } from "@/components/tracked-cta-link";
 import { SoapDemo } from "@/components/demo/soap-demo";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
@@ -121,8 +122,8 @@ export default function Home() {
           每天例行報告，1 分鐘完成。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <StartButton>立即開始 — 免費</StartButton>
-          <TrialButton>免費試用（無需註冊）</TrialButton>
+          <StartButton source="home-hero">立即開始 — 免費</StartButton>
+          <TrialButton source="home-hero">免費試用（無需註冊）</TrialButton>
         </div>
       </section>
 
@@ -264,7 +265,7 @@ export default function Home() {
                 報告汪使用 Anthropic Claude 模型，理解繁體中文語境，提供符合台灣行政用語的修改建議。
               </p>
               <div className="mt-auto">
-                <StartButton>免費體驗</StartButton>
+                <StartButton source="home-bento">免費體驗</StartButton>
               </div>
             </Card>
           </div>
@@ -281,12 +282,13 @@ export default function Home() {
             居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・精神護理之家・產後護理之家・身心障礙福利機構・醫院・兒少教養機構・老人福利機構・托嬰中心
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
+            <TrackedCtaLink
               href="/protected"
+              source="home-eval-season"
               className="inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground hover:bg-accent/90 transition-colors px-6 py-3 rounded-lg font-semibold text-sm"
             >
               免費開始使用
-            </Link>
+            </TrackedCtaLink>
             <Link
               href="/docs/import-templates"
               className="inline-flex items-center justify-center gap-2 border border-primary-foreground/40 hover:bg-primary-foreground/10 transition-colors px-6 py-3 rounded-lg font-medium text-sm"
@@ -545,13 +547,14 @@ export default function Home() {
                     ))}
                   </ul>
                   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
-                    <Link
+                    <TrackedCtaLink
                       href="/downloads"
+                      source="home-downloads"
                       className="inline-flex items-center gap-2 bg-accent text-accent-foreground hover:bg-accent/90 transition-colors px-5 py-2.5 rounded-lg font-medium text-sm"
                     >
                       <DownloadIcon className="h-4 w-4" />
                       前往下載頁面 →
-                    </Link>
+                    </TrackedCtaLink>
                     <span className="text-xs text-muted-foreground">各機構類型 Excel 自我檢核表，免費下載使用</span>
                   </div>
                 </div>
@@ -589,7 +592,7 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <StartButton>立即免費開始</StartButton>
+            <StartButton source="home-pricing">立即免費開始</StartButton>
           </Card>
           <p className="mt-4 text-sm text-muted-foreground">
             <Link href="/pricing" title="查看報告汪各方案價格" className="underline hover:text-primary">查看完整價格說明</Link>
@@ -644,7 +647,7 @@ export default function Home() {
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
           加入報告汪，讓 AI 幫你搞定定期報告，把時間還給真正重要的事。
         </p>
-        <StartButton>免費開始使用</StartButton>
+        <StartButton source="home-final">免費開始使用</StartButton>
       </section>
 
       <Footer />

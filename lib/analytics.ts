@@ -9,14 +9,23 @@ declare global {
   }
 }
 
-/** 送出 GA4 自訂事件；SSR、gtag 未載入（廣告攔截器）或 gtag 拋例外時皆為 no-op */
+// 已知 bot / uptime monitor UA 片段；facebookexternalhit 是 OG 預覽爬蟲，不計入自訂事件
+const BOT_UA_RE =
+  /bot|crawler|spider|headlesschrome|phantomjs|slurp|wget|curl|pingdom|uptimerobot|statuscake|facebookexternalhit/i;
+
+function isLikelyBot(): boolean {
+  if (typeof navigator === "undefined") return true;
+  if (navigator.webdriver) return true; // headless selenium / puppeteer
+  return BOT_UA_RE.test(navigator.userAgent ?? "");
+}
+
+/** 送出 GA4 自訂事件；SSR、bot UA、gtag 未載入或拋例外時皆為 no-op */
 export function trackEvent(
   eventName: string,
   params?: Record<string, unknown>,
 ): void {
-  if (typeof window === "undefined" || typeof window.gtag !== "function") {
-    return;
-  }
+  if (typeof window === "undefined" || isLikelyBot()) return;
+  if (typeof window.gtag !== "function") return;
   try {
     window.gtag("event", eventName, params);
   } catch {

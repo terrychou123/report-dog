@@ -4,12 +4,14 @@ import { createClient } from "@/lib/supabase/client";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
-export function TrialButton({ children = "免費試用" }: { children?: React.ReactNode }) {
+export function TrialButton({ children = "免費試用", source }: { children?: React.ReactNode; source?: string }) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
 
   const handleTrial = async () => {
+    trackEvent("cta_click", { source: source ?? "trial-button" });
     setLoading(true);
     const supabase = createClient();
 

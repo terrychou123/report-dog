@@ -8,16 +8,17 @@ import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
 import { cacheTag } from "next/cache";
 import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
-import { blogPostingJsonLd, howToJsonLd, faqPageJsonLd, mergeJsonLdGraph, breadcrumbListJsonLd } from "@/lib/jsonld";
+import { blogPostingJsonLd, howToJsonLd, mergeJsonLdGraph, breadcrumbListJsonLd } from "@/lib/jsonld";
 import { extractBlogJsonLdData } from "@/lib/blog-jsonld-extract";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
 import { BookOpenIcon, DownloadIcon } from "lucide-react";
-import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, type TocNode } from "@/lib/blog-html-postprocess";
+import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, splitHtmlForMidNewsletter, type TocNode } from "@/lib/blog-html-postprocess";
 import { BlogToc } from "@/components/blog/blog-toc";
 import { BlogTldr } from "@/components/blog/blog-tldr";
 import { BlogScrollCta } from "@/components/blog/blog-scroll-cta";
 import { BlogInlineNewsletter } from "@/components/blog/blog-inline-newsletter";
 import { SoapDemo } from "@/components/demo/soap-demo";
+import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -124,20 +125,32 @@ export default async function BlogPostPage({ params }: Props) {
     updatedAt: post.updatedAt?.toISOString(),
     coverImageUrl: post.coverImageUrl || undefined,
     category: post.category || undefined,
+    tags: post.tags ?? undefined,
   });
 
-  const howto = post.howtoSteps
-    ? howToJsonLd({
-        name: post.title,
-        description: post.seoDescription || post.excerpt || post.title,
-        path: `/blog/${post.slug}`,
-        steps: post.howtoSteps,
-      })
-    : undefined;
+  // HowTo schema：slug 含步驟型關鍵字時從 H2 標題自動推導，不需 DB 欄位
+  // 至少 3 步才注入，避免 Google 標 schema spam
+  const HOWTO_SLUG_RE = /\b(guide|prep|plan|30day|90day|timeline|checklist|how-to|steps)\b/i;
+  const derivedHowtoSteps =
+    HOWTO_SLUG_RE.test(post.slug) && post.content
+      ? [...post.content.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi)]
+          .map((m) => ({ name: m[1].replace(/<[^>]+>/g, "").trim() }))
+          .filter((s) => s.name.length > 0)
+          .slice(0, 10)
+      : [];
 
-  const faq = post.faqItems
-    ? faqPageJsonLd(post.faqItems, `/blog/${post.slug}`)
-    : undefined;
+  const howto =
+    derivedHowtoSteps.length >= 3
+      ? howToJsonLd({
+          name: post.title,
+          description: post.seoDescription || post.excerpt || post.title,
+          path: `/blog/${post.slug}`,
+          steps: derivedHowtoSteps,
+        })
+      : undefined;
+
+  // faqItems 欄位目前 DB 無此欄位，保留條件讓日後擴充時自動生效
+  const faq = undefined;
 
   const breadcrumb = breadcrumbListJsonLd([
     { name: "首頁", url: "https://reportwang.com" },
@@ -154,6 +167,11 @@ export default async function BlogPostPage({ params }: Props) {
     : undefined;
 
   const facilityInfo = getFacilityInfoFromPost(post.category, post.tags, post.slug);
+
+  // 在第二個 H2 之前切分，於中段插入電子報訂閱框（短文 < 2 個 H2 時 afterHtml 為空，自動 fallback 只用文末版本）
+  const [beforeMidHtml, afterMidHtml] = post.content
+    ? splitHtmlForMidNewsletter(post.content)
+    : ["", ""];
 
   return (
     <>
@@ -294,16 +312,27 @@ export default async function BlogPostPage({ params }: Props) {
                 <BlogToc toc={post.toc ?? []} />
               </div>
 
-              {/* 文章內容 — HTML 已在 getPost 快取內清理完畢 */}
-              {post.content && (
+              {/* 文章內容 — 切成兩段，中間插入電子報訂閱框（短文自動 fallback） */}
+              {beforeMidHtml && (
                 <div
                   className="blog-content"
-                  dangerouslySetInnerHTML={{ __html: post.content }}
+                  dangerouslySetInnerHTML={{ __html: beforeMidHtml }}
                 />
               )}
 
-              {/* 行內電子報訂閱 */}
-              <BlogInlineNewsletter slug={post.slug} />
+              {/* 中段電子報（第一章結束後，約閱讀 25%）— 只在 H2 >= 2 的文章顯示 */}
+              {afterMidHtml && (
+                <>
+                  <BlogInlineNewsletter slug={post.slug} placement="mid" />
+                  <div
+                    className="blog-content"
+                    dangerouslySetInnerHTML={{ __html: afterMidHtml }}
+                  />
+                </>
+              )}
+
+              {/* 文末電子報訂閱 */}
+              <BlogInlineNewsletter slug={post.slug} placement="end" />
 
               {/* CTA 卡片 */}
               <div className="mt-16 rounded-xl border bg-primary/5 p-8 md:p-10 text-center">
@@ -311,12 +340,13 @@ export default async function BlogPostPage({ params }: Props) {
                 <p className="text-muted-foreground mb-6">
                   讓 AI 幫你寫日誌、護理紀錄、評鑑備審文件，省下 50% 文書時間
                 </p>
-                <Link
+                <TrackedCtaLink
                   href="/auth/sign-up"
+                  source="blog-end-cta"
                   className="inline-flex items-center justify-center rounded-full bg-accent text-accent-foreground px-6 py-2.5 font-medium hover:bg-accent/90 transition-colors"
                 >
                   免費試用 14 天
-                </Link>
+                </TrackedCtaLink>
               </div>
 
               {/* 延伸閱讀：相關評鑑章節 + 下載 */}

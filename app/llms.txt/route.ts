@@ -1,7 +1,13 @@
 import { NextResponse } from "next/server";
 import { schoolNavSections } from "@/lib/school-nav";
+import { db } from "@/db";
+import { blogPosts } from "@/db/schema";
+import { eq, desc } from "drizzle-orm";
 
-export function GET() {
+// 每小時更新一次（避免每次請求打 DB，同時保持文章清單新鮮）
+export const revalidate = 3600;
+
+export async function GET() {
   const base = "https://reportwang.com";
 
   const lines: string[] = [
@@ -22,11 +28,39 @@ export function GET() {
     }
   }
 
+  // 最新 30 篇已發布文章（LLM 引用用）
+  let topPosts: Array<{ slug: string; title: string; excerpt: string | null; category: string | null }> = [];
+  try {
+    topPosts = await db
+      .select({
+        slug: blogPosts.slug,
+        title: blogPosts.title,
+        excerpt: blogPosts.excerpt,
+        category: blogPosts.category,
+      })
+      .from(blogPosts)
+      .where(eq(blogPosts.status, "published"))
+      .orderBy(desc(blogPosts.publishedAt))
+      .limit(30);
+  } catch {
+    // DB 錯誤不阻斷整個 llms.txt 輸出
+  }
+
   lines.push(
     "",
-    "## 部落格（/blog）",
+    "## 部落格精選文章（/blog）",
     "",
     `- [長照評鑑部落格](${base}/blog) — 評鑑準備技巧、最新評鑑資訊、機構管理實務`,
+  );
+
+  for (const post of topPosts) {
+    const desc = post.excerpt
+      ? post.excerpt.slice(0, 80).replace(/\n/g, " ")
+      : post.category ?? "長照評鑑";
+    lines.push(`  - [${post.title}](${base}/blog/${post.slug}) — ${desc}`);
+  }
+
+  lines.push(
     "",
     "## 自評表下載（/downloads）",
     "",

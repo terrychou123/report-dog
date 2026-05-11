@@ -16,6 +16,7 @@ import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
+import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 
 export function SignUpForm({
@@ -25,6 +26,7 @@ export function SignUpForm({
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [repeatPassword, setRepeatPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [subscribeNewsletter, setSubscribeNewsletter] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -66,7 +68,7 @@ export function SignUpForm({
         setIsLoading(false);
         return;
       }
-      trackEvent("sign_up", { method: "email", source: signupSource ?? "direct" });
+      trackEvent("sign_up", { method: "email", source: signupSource ?? "direct", slug: signupSlug ?? undefined });
       router.push("/auth/sign-up-success");
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : "發生錯誤，請稍後再試");
@@ -90,6 +92,10 @@ export function SignUpForm({
                 <Input
                   id="email"
                   type="email"
+                  inputMode="email"
+                  autoComplete="email"
+                  autoCapitalize="off"
+                  autoCorrect="off"
                   placeholder="m@example.com"
                   required
                   value={email}
@@ -97,12 +103,29 @@ export function SignUpForm({
                 />
               </div>
               <div className="grid gap-2">
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                   <Label htmlFor="password">密碼</Label>
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword((v) => !v)}
+                    className="text-xs text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+                    aria-label={showPassword ? "隱藏密碼" : "顯示密碼"}
+                  >
+                    {showPassword ? (
+                      <>
+                        <EyeOffIcon className="h-3.5 w-3.5" />隱藏
+                      </>
+                    ) : (
+                      <>
+                        <EyeIcon className="h-3.5 w-3.5" />顯示
+                      </>
+                    )}
+                  </button>
                 </div>
                 <Input
                   id="password"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
+                  autoComplete="new-password"
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -114,7 +137,8 @@ export function SignUpForm({
                 </div>
                 <Input
                   id="repeat-password"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
+                  autoComplete="new-password"
                   required
                   value={repeatPassword}
                   onChange={(e) => setRepeatPassword(e.target.value)}

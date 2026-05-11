@@ -114,25 +114,35 @@ export function blogPostingJsonLd(opts: {
   updatedAt?: string;
   coverImageUrl?: string;
   category?: string;
+  tags?: string[];
 }): string {
+  const url = `https://reportwang.com/blog/${opts.slug}`;
   return JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: opts.title,
     description: opts.description,
-    url: `https://reportwang.com/blog/${opts.slug}`,
+    url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
     datePublished: opts.publishedAt,
     dateModified: opts.updatedAt,
     image: opts.coverImageUrl,
     inLanguage: "zh-TW",
-    author: { "@type": "Organization", name: "報告汪", url: "https://reportwang.com" },
+    // Person 優於 Organization — Google EEAT 偏好有具名作者
+    author: { "@type": "Person", name: "報告汪編輯團隊", url: "https://reportwang.com" },
     publisher: {
       "@type": "Organization",
       name: "報告汪",
       url: "https://reportwang.com",
-      logo: { "@type": "ImageObject", url: "https://reportwang.com/logo.png" },
+      logo: {
+        "@type": "ImageObject",
+        url: "https://reportwang.com/logo.png",
+        width: 512,
+        height: 512,
+      },
     },
     articleSection: opts.category,
+    keywords: opts.tags?.length ? opts.tags.join(", ") : undefined,
   });
 }
 

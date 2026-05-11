@@ -91,6 +91,19 @@ export function injectHeadingIdsAndExtractToc(
 }
 
 /**
+ * 在第二個 H2 之前切分 HTML，回傳 [before, after]。
+ * 用於部落格中段電子報訂閱框：閱讀第一章後立即出現，提早 CTA 曝光。
+ * 文章 H2 少於 2 個（極短文）時 after 為空字串，呼叫端應跳過中段注入。
+ */
+export function splitHtmlForMidNewsletter(html: string): [string, string] {
+  const matches = [...html.matchAll(/<h2\b/gi)];
+  if (matches.length < 2) return [html, ""];
+  const secondH2 = matches[1];
+  if (secondH2.index === undefined) return [html, ""];
+  return [html.slice(0, secondH2.index), html.slice(secondH2.index)];
+}
+
+/**
  * 為缺少 loading 屬性的 <img> 注入 loading/decoding。
  * firstImageEager: 第一張用 eager（通常在折頁附近），其餘 lazy。
  */
