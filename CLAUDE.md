@@ -17,6 +17,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm run dev      # Start development server
 npm run build    # Build for production
 npm run lint     # Run ESLint
+npm run lint:dead-code  # 偵測未使用的 exports、檔案、依賴（knip）
 npm start        # Start production server
 
 # Database (Drizzle ORM)
@@ -288,3 +289,9 @@ Rules:
 - If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
 - For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
 - After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
+
+## Health Stack
+
+- typecheck: `npx tsc --noEmit`
+- lint: `npm run lint`
+- deadcode: `npm run lint:dead-code`

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "entry": [
+    "scripts/**/*.ts"
+  ],
+  "project": [
+    "**/*.{ts,tsx}",
+    "!**/*.d.ts",
+    "!node_modules/**",
+    "!.next/**",
+    "!graphify-out/**",
+    "!public/**",
+    "!db/migrations/**"
+  ],
+  "ignore": [
+    "components/ui/**",
+    "lib/ai/evaluation-profiles/**",
+    "lib/supplementary-sheets/**",
+    "lib/evaluation-tips/**"
+  ],
+  "ignoreDependencies": [
+    "postcss-load-config"
+  ]
+}
