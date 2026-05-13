@@ -13,19 +13,6 @@ export async function requireAdmin(): Promise<void> {
   }
 }
 
-async function isAdmin(): Promise<boolean> {
-  try {
-    const supabase = await createClient();
-    const adminEmail = requireEnv("ADMIN_EMAIL");
-    await supabase.auth.getClaims();
-    const { data: { user }, error } = await supabase.auth.getUser();
-    if (error || !user?.email) return false;
-    return user.email === adminEmail;
-  } catch {
-    return false;
-  }
-}
-
 /** For use in API route handlers — returns userId or a 403 JSON response */
 export async function requireAdminApi(): Promise<{ userId: string } | NextResponse> {
   const supabase = await createClient();

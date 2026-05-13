@@ -60,17 +60,3 @@ export interface LtcCareCombination {
 
 /** 以 code 為 key 的完整 registry */
 export type LtcCareCombinationMap = Record<string, LtcCareCombination>;
-
-/** 分類顯示名稱字串聯合型別 */
-type LtcCareCategoryLabel =
-  | "照顧管理服務及政策鼓勵服務"
-  | "照顧及專業服務"
-  | "日間照顧"
-  | "家庭托顧"
-  | "社區式服務"
-  | "專業服務"
-  | "專業照護"
-  | "居家無障礙環境改善"
-  | "居家護理"
-  | "交通接送"
-  | "喘息服務";

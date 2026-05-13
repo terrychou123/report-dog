@@ -90,29 +90,6 @@ export function getAllCareCombinations(): ReadonlyArray<LtcCareCombination> {
   return [...allCombinations].sort((a, b) => a.code.localeCompare(b.code));
 }
 
-/** 取得分類顯示名稱 */
-function getCategoryLabel(category: LtcCareCategory): string {
-  return categoryLabels[category];
-}
-
-/**
- * 關鍵字搜尋，在 code、name、rules.text 中做 case-insensitive substring。
- * 供公開查詢頁與後台搜尋使用。
- */
-function searchCareCombinations(keyword: string): ReadonlyArray<LtcCareCombination> {
-  const k = keyword.trim().toLowerCase();
-  if (!k) return [];
-  return allCombinations.filter((c) => {
-    if (c.code.toLowerCase().includes(k)) return true;
-    if (c.name.toLowerCase().includes(k)) return true;
-    return c.rules.some(
-      (r) =>
-        r.text.toLowerCase().includes(k) ||
-        r.children?.some((child) => child.text.toLowerCase().includes(k)),
-    );
-  });
-}
-
 /**
  * 將代碼格式化為 AI prompt 可注入的純文字段落。
  * 供 app/api/reports/evaluation/route.ts 等 AI 路由使用。

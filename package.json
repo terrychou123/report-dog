@@ -91,6 +91,7 @@
     "cheerio": "^1.2.0",
     "dotenv-cli": "^11.0.0",
     "eslint": "^9",
+    "eslint-config-next": "^16.2.6",
     "google-auth-library": "^10.6.2",
     "googleapis": "^171.4.0",
     "knip": "^6.13.1",
