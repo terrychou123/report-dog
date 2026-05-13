@@ -21,13 +21,13 @@ export type LtcCareCategory =
   | "GA"; // 喘息服務
 
 /** 給付價格，discriminated union 處理多種法規表達 */
-export type LtcPaymentAmount =
+type LtcPaymentAmount =
   | { kind: "fixed"; nt: number }               // 固定金額（新臺幣/元）
   | { kind: "local-government"; note?: string } // 由地方主管機關訂定公告（如 DA01）
   | { kind: "not-applicable"; reason: string }; // 法規明示不另計
 
 /** 一條規則，對應原文「一、二、三、…」每分項，含子項「（一）（二）」或數字「1. 2.」 */
-export interface LtcCareCombinationRule {
+interface LtcCareCombinationRule {
   /** 編號標籤，如「一、」「（一）」「1.」 */
   label: string;
   /** 該規則或子項正文，逐字保留 PDF 原文 */
@@ -62,7 +62,7 @@ export interface LtcCareCombination {
 export type LtcCareCombinationMap = Record<string, LtcCareCombination>;
 
 /** 分類顯示名稱字串聯合型別 */
-export type LtcCareCategoryLabel =
+type LtcCareCategoryLabel =
   | "照顧管理服務及政策鼓勵服務"
   | "照顧及專業服務"
   | "日間照顧"

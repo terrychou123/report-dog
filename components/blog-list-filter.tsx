@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/pagination";
 import { cn } from "@/lib/utils";
 
-export interface SerializedBlogPost {
+interface SerializedBlogPost {
   id: string;
   slug: string;
   title: string;

@@ -28,7 +28,7 @@ import {
   ClipboardCheckIcon,
 } from "lucide-react";
 
-export interface SchoolNavItem {
+interface SchoolNavItem {
   href: string;
   label: string;
   title: string;

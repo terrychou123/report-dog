@@ -1,4 +1,4 @@
-export interface ReferenceTable {
+interface ReferenceTable {
   headers: string[];
   rows: string[][];
 }

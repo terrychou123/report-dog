@@ -15,7 +15,7 @@
  * inventory-list:      Asset or resource roster (藥物清冊, 設備清單, 人員名冊)
  * care-plan:           Structured care plan (照顧計畫, 復健計畫, 出院計畫)
  */
-export type SheetArchetype =
+type SheetArchetype =
   | 'daily-record'
   | 'case-assessment'
   | 'inspection-checklist'
@@ -25,13 +25,13 @@ export type SheetArchetype =
   | 'inventory-list'
   | 'care-plan';
 
-export type ColumnDef = {
+type ColumnDef = {
   header: string;
   /** Width in pixels. Default varies by archetype. */
   width?: number;
 };
 
-export type PrefillCell = {
+type PrefillCell = {
   /** 0-based row index within the data rows (row 0 = first data row after headers) */
   row: number;
   /** 0-based column index */

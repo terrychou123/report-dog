@@ -19,7 +19,6 @@ import type {
   LtcCareCombination,
   LtcCareCategory,
   LtcCareCombinationMap,
-  LtcCareCategoryLabel,
 } from "./types";
 
 import { aaCodes } from "./codes-aa";
@@ -37,8 +36,6 @@ import { gaCodes } from "./codes-ga";
 export type {
   LtcCareCombination,
   LtcCareCategory,
-  LtcCareCombinationMap,
-  LtcCareCategoryLabel,
 };
 
 const allCombinations: LtcCareCombination[] = [
