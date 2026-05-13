@@ -32,23 +32,28 @@ function OAuthSuccessInner() {
       trackEvent("sign_up_complete", { method });
     }
 
-    // 觸發 newsletter 訂閱副作用：post-signup route 會檢查 session 與 metadata
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 8000);
-    fetch("/api/auth/post-signup", { method: "POST", signal: ctrl.signal })
-      .then(async (res) => {
-        clearTimeout(timer);
-        if (res.ok) {
-          const data = await res.json();
-          if (!data.skipped) {
-            trackEvent("newsletter_subscribe", { method: "signup" });
+    if (isNew) {
+      // 新使用者才呼叫 post-signup：既有使用者跳過，避免誤觸 upsert 的 setWhere 條件
+      // 而清空 unsubscribedAt，把已退訂者靜默重新訂閱（違反退訂意願）
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 8000);
+      fetch("/api/auth/post-signup", { method: "POST", signal: ctrl.signal })
+        .then(async (res) => {
+          clearTimeout(timer);
+          if (res.ok) {
+            const data = await res.json();
+            if (!data.skipped) {
+              trackEvent("newsletter_subscribe", { method: "signup" });
+            }
           }
-        }
-      })
-      .catch(() => clearTimeout(timer))
-      .finally(() => {
-        router.replace(next);
-      });
+        })
+        .catch(() => clearTimeout(timer))
+        .finally(() => {
+          router.replace(next);
+        });
+    } else {
+      router.replace(next);
+    }
   }, [router, searchParams]);
 
   return (

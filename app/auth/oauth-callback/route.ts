@@ -40,12 +40,14 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
   }
 
   // 判斷新使用者：created_at 與 last_sign_in_at 差距 < 60s
+  // last_sign_in_at 在第一次 OAuth 登入時可能尚未寫入（null）；
+  // fallback 用 createdAt 使 delta = 0，確保新使用者被正確識別，避免誤送到 /report
   const createdAt = data.user.created_at
     ? new Date(data.user.created_at).getTime()
     : 0;
   const lastSignIn = data.user.last_sign_in_at
     ? new Date(data.user.last_sign_in_at).getTime()
-    : Date.now();
+    : createdAt;
   const isNew = Math.abs(lastSignIn - createdAt) < 60_000;
 
   const provider = data.user.app_metadata?.provider ?? "google";
