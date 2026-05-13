@@ -20,8 +20,6 @@ import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 import { GoogleAuthButton } from "@/components/auth/google-auth-button";
 
-const GOOGLE_OAUTH_ENABLED = process.env.NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED === "true";
-
 export function SignUpForm({
   className,
   ...props
@@ -88,16 +86,14 @@ export function SignUpForm({
           <CardDescription>建立新帳號</CardDescription>
         </CardHeader>
         <CardContent>
-          {GOOGLE_OAUTH_ENABLED && (
-            <div className="mb-6 flex flex-col gap-3">
-              {/* Google OAuth 主要 CTA — 行動使用者主訴求；email 註冊保留為次要選項 */}
-              <GoogleAuthButton mode="sign-up" source={signupSource} slug={signupSlug} />
-              <div className="relative flex items-center justify-center text-xs text-muted-foreground">
-                <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
-                <span className="bg-card px-3">或使用 Email 註冊</span>
-              </div>
+          <div className="mb-6 flex flex-col gap-3">
+            {/* Google OAuth 主要 CTA — 行動使用者主訴求；email 註冊保留為次要選項 */}
+            <GoogleAuthButton mode="sign-up" source={signupSource} slug={signupSlug} />
+            <div className="relative flex items-center justify-center text-xs text-muted-foreground">
+              <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
+              <span className="bg-card px-3">或使用 Email 註冊</span>
             </div>
-          )}
+          </div>
           <form onSubmit={handleSignUp}>
             <div className="flex flex-col gap-6">
               <div className="grid gap-2">
