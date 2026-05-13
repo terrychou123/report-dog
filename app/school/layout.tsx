@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { SchoolSidebar } from "@/components/school/school-sidebar";
 import { SchoolMobileNav } from "@/components/school/school-mobile-nav";
 import { SchoolBreadcrumb } from "@/components/school/school-breadcrumb";
+import { InlineNewsletterCard } from "@/components/seo/inline-newsletter-card";
 import { Footer } from "@/components/footer";
 import type { Metadata } from "next";
 
@@ -40,6 +41,7 @@ export default function SchoolLayout({ children }: { children: React.ReactNode }
           {/* 動態麵包屑（含 BreadcrumbList JSON-LD） */}
           <SchoolBreadcrumb />
           {children}
+          <InlineNewsletterCard source="school" />
         </main>
       </div>
 

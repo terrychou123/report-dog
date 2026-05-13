@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { DocsSidebar } from "@/components/docs/docs-sidebar";
 import { DocsMobileNav } from "@/components/docs/docs-mobile-nav";
+import { InlineNewsletterCard } from "@/components/seo/inline-newsletter-card";
 import { Footer } from "@/components/footer";
 import { breadcrumbListJsonLd } from "@/lib/jsonld";
 import type { Metadata } from "next";
@@ -37,6 +38,7 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
             <span className="text-sm text-muted-foreground">教學目錄</span>
           </div>
           {children}
+          <InlineNewsletterCard source="docs" />
         </main>
       </div>
 
