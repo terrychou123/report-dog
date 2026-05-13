@@ -91,6 +91,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/docs/faq", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/soap-writing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/docs/report-links", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
+    { url: "https://reportwang.com/docs/version-history", lastModified: staticDate, changeFrequency: "monthly", priority: 0.5 },
 
     // School — 評鑑小教室
     { url: "https://reportwang.com/school", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
