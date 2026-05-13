@@ -3,6 +3,7 @@ import { Geist, Noto_Serif_TC } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
+import { FbWebviewBanner } from "@/components/fb-webview-banner";
 import { organizationJsonLd, websiteWithSearchJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import "./globals.css";
 
@@ -96,6 +97,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <FbWebviewBanner />
           {children}
           <Toaster richColors />
         </ThemeProvider>
