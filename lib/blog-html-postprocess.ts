@@ -3,7 +3,7 @@
 // 2. 為 <img> 注入 loading/decoding 以啟用延遲載入
 
 /** 將文字 slugify 為合法 anchor id（中文直接保留，移除危險字元） */
-export function slugify(text: string, index: number): string {
+function slugify(text: string, index: number): string {
   const cleaned = text
     .replace(/<[^>]+>/g, "") // 去 HTML 標籤
     .trim()

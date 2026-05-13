@@ -13,7 +13,7 @@ export async function requireAdmin(): Promise<void> {
   }
 }
 
-export async function isAdmin(): Promise<boolean> {
+async function isAdmin(): Promise<boolean> {
   try {
     const supabase = await createClient();
     const adminEmail = requireEnv("ADMIN_EMAIL");

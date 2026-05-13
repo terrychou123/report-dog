@@ -145,14 +145,6 @@ export function buildItemSheetData(item: EvaluationItem): SheetData {
 }
 
 /**
- * Builds SheetData[] for a group of items under the same responsible person.
- * Each item gets its own sheet tab.
- */
-export function buildResponsibleGroupSheetData(items: EvaluationItem[]): SheetData[] {
-  return items.map((item) => buildItemSheetData(item));
-}
-
-/**
  * Serializes SheetData[] to JSON string for storage in report_templates.content
  */
 export function serializeSheetData(sheets: SheetData[]): string {

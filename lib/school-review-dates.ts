@@ -37,7 +37,7 @@ export const schoolReviewerMap: Record<string, { name: string; url: string }> = 
 };
 
 /** 從 /school/{facility}/{sub} 路徑取出 facility slug */
-export function getFacilitySlug(pathname: string): string {
+function getFacilitySlug(pathname: string): string {
   const segments = pathname.split("/").filter(Boolean);
   // segments[0] = "school", segments[1] = facility slug
   return segments[1] ?? "";

@@ -40,7 +40,6 @@ export type {
   LtcCareCombinationMap,
   LtcCareCategoryLabel,
 };
-export { metadata } from "./metadata";
 
 const allCombinations: LtcCareCombination[] = [
   ...aaCodes,
@@ -61,7 +60,7 @@ const codeMap: LtcCareCombinationMap = Object.fromEntries(
 );
 
 /** 分類顯示名稱 */
-export const categoryLabels: Record<LtcCareCategory, string> = {
+const categoryLabels: Record<LtcCareCategory, string> = {
   AA: "照顧管理服務及政策鼓勵服務",
   BA: "照顧及專業服務",
   BB: "日間照顧",
@@ -95,7 +94,7 @@ export function getAllCareCombinations(): ReadonlyArray<LtcCareCombination> {
 }
 
 /** 取得分類顯示名稱 */
-export function getCategoryLabel(category: LtcCareCategory): string {
+function getCategoryLabel(category: LtcCareCategory): string {
   return categoryLabels[category];
 }
 
@@ -103,7 +102,7 @@ export function getCategoryLabel(category: LtcCareCategory): string {
  * 關鍵字搜尋，在 code、name、rules.text 中做 case-insensitive substring。
  * 供公開查詢頁與後台搜尋使用。
  */
-export function searchCareCombinations(keyword: string): ReadonlyArray<LtcCareCombination> {
+function searchCareCombinations(keyword: string): ReadonlyArray<LtcCareCombination> {
   const k = keyword.trim().toLowerCase();
   if (!k) return [];
   return allCombinations.filter((c) => {

@@ -1,8 +1,8 @@
-export function stripHtml(html: string): string {
+function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-export function excelJsonToText(jsonStr: string): string {
+function excelJsonToText(jsonStr: string): string {
   try {
     const data = JSON.parse(jsonStr);
     if (Array.isArray(data)) {
