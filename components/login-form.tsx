@@ -15,6 +15,9 @@ import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { GoogleAuthButton } from "@/components/auth/google-auth-button";
+
+const GOOGLE_OAUTH_ENABLED = process.env.NEXT_PUBLIC_GOOGLE_OAUTH_ENABLED === "true";
 
 export function LoginForm({
   className,
@@ -57,6 +60,15 @@ export function LoginForm({
           </CardDescription>
         </CardHeader>
         <CardContent>
+          {GOOGLE_OAUTH_ENABLED && (
+            <div className="mb-6 flex flex-col gap-3">
+              <GoogleAuthButton mode="login" />
+              <div className="relative flex items-center justify-center text-xs text-muted-foreground">
+                <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
+                <span className="bg-card px-3">或使用 Email 登入</span>
+              </div>
+            </div>
+          )}
           <form onSubmit={handleLogin}>
             <div className="flex flex-col gap-6">
               <div className="grid gap-2">

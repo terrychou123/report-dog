@@ -42,6 +42,7 @@ function ConfirmPageInner() {
   const [manualError, setManualError] = useState<string | null>(null);
 
   // 驗證成功後共用副作用：sign_up_complete + 電子報訂閱
+  // 註：OAuth code 不再經過這頁（改走 /auth/oauth-callback server handler），這裡只處理 email 驗證流程
   const fireSignUpSideEffects = async () => {
     // next=/onboarding 是註冊表單專屬導向；type=recovery 與 type=email 不觸發
     if (params.next === "/onboarding" || params.isSignupType) {
@@ -95,6 +96,7 @@ function ConfirmPageInner() {
 
     const run = async () => {
       // PKCE flow: exchange code using browser client（需要 localStorage code_verifier）
+      // 註：Google OAuth 已改走 /auth/oauth-callback server handler，此分支只剩 email PKCE confirmation
       if (params.code) {
         const { error } = await supabase.auth.exchangeCodeForSession(params.code);
         if (!error) {
