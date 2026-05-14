@@ -16,6 +16,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { GoogleAuthButton } from "@/components/auth/google-auth-button";
+import { trackEvent } from "@/lib/analytics";
 
 export function LoginForm({
   className,
@@ -39,7 +40,7 @@ export function LoginForm({
         password,
       });
       if (error) throw error;
-      // Update this route to redirect to an authenticated route. The user already has an active session.
+      trackEvent("login", { method: "email" });
       router.push("/report");
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : "發生錯誤，請稍後再試");

@@ -120,8 +120,8 @@ export default function InfantDaycarePage() {
           讓負責人、托育人員、行政人員不再各做各的，評鑑前從容應對。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <StartButton>立即開始 — 免費</StartButton>
-          <TrialButton>免費試用（無需註冊）</TrialButton>
+          <StartButton source="infant-daycare-hero">立即開始 — 免費</StartButton>
+          <TrialButton source="infant-daycare-hero">免費試用（無需註冊）</TrialButton>
         </div>
       </section>
 
@@ -420,7 +420,7 @@ export default function InfantDaycarePage() {
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
           加入報告汪，寶寶日誌撰寫時間減少 50%，60 項評鑑基準全覆蓋，負責人・托育人員・行政人員同平台協作。
         </p>
-        <StartButton>免費開始使用</StartButton>
+        <StartButton source="infant-daycare-bottom">免費開始使用</StartButton>
       </section>
 
       {/* Footer */}

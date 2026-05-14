@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Separator } from '@/components/ui/separator';
 import { toast } from 'sonner';
 import { Sparkles, CopyCheck, BookMarked } from 'lucide-react';
+import { trackEvent } from '@/lib/analytics';
 
 const AI_ACTIONS = [
   { value: 'analyze', label: 'Analyze', description: 'Get insights and improvement suggestions' },
@@ -60,6 +61,7 @@ export function AIPanel({ docId, onApply }: AIPanelProps) {
         text += decoder.decode(value, { stream: true });
         setResponse(text);
       }
+      trackEvent('ai_use', { action });
     } catch (err) {
       if ((err as Error).name !== 'AbortError') toast.error('Request failed');
     } finally {

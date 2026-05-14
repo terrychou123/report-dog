@@ -211,8 +211,8 @@ export default function TestimonialPage() {
           </div>
           {/* CTA 按鈕 */}
           <div className="mt-10 flex flex-col sm:flex-row gap-3">
-            <StartButton>免費開始使用</StartButton>
-            <TrialButton>免費試用（無需註冊）</TrialButton>
+            <StartButton source="testimonial-cta">免費開始使用</StartButton>
+            <TrialButton source="testimonial-cta">免費試用（無需註冊）</TrialButton>
           </div>
         </section>
 
@@ -1597,8 +1597,8 @@ export default function TestimonialPage() {
               免費開始使用報告汪，加入 42+ 位長照從業人員的行列。
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <StartButton>免費開始使用</StartButton>
-              <TrialButton>免費試用（無需註冊）</TrialButton>
+              <StartButton source="testimonial-cta">免費開始使用</StartButton>
+              <TrialButton source="testimonial-cta">免費試用（無需註冊）</TrialButton>
             </div>
           </div>
         </section>

@@ -15,9 +15,9 @@ import {
   UsersIcon,
   SparklesIcon,
   ArrowRightIcon,
-  DownloadIcon,
   FileTextIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "115年度精神護理之家評鑑基準｜36條完整教學｜精神護理機構評鑑準備",
@@ -282,12 +282,7 @@ export default function PsychiatricNursingHomePage() {
         <p className="text-xs text-muted-foreground mb-3">
           下載精神護理之家評鑑自我檢核表（Excel），逐項確認評鑑準備進度。
         </p>
-        <Button variant="outline" size="sm" asChild>
-          <a href="/downloads/psychiatric-nursing-home.xlsx" download>
-            <DownloadIcon className="h-3.5 w-3.5 mr-1.5" />
-            下載 Excel 檢核表
-          </a>
-        </Button>
+        <SchoolDownloadButton catalogSlug="psychiatric-nursing-home" variant="outline" />
       </div>
 
       <div className="border rounded-lg p-4 bg-muted/30">

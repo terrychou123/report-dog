@@ -13,9 +13,9 @@ import {
   SettingsIcon,
   ShieldIcon,
   ArrowRightIcon,
-  DownloadIcon,
   StarIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "115年度日照中心評鑑基準｜43項+2加分題完整解析｜日間照顧機構評鑑準備",
@@ -320,14 +320,7 @@ export default function DaycarePage() {
         <p className="text-sm text-muted-foreground mb-3">
           下載「日間照顧中心」評鑑自我檢查表（Excel），對照 115 年度評鑑基準逐項自我檢核。
         </p>
-        <a
-          href="/downloads/day-care.xlsx"
-          download
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-        >
-          <DownloadIcon className="h-4 w-4" />
-          免費下載 Excel 檢查表 →
-        </a>
+        <SchoolDownloadButton catalogSlug="day-care" />
       </div>
 
       {/* 匯入 CTA */}

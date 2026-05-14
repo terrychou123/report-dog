@@ -105,8 +105,8 @@ export default function HospitalNursingPage() {
           讓護理長省下追文件的時間，把心力還給病房照護品質。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <StartButton>立即開始 — 免費</StartButton>
-          <TrialButton>免費試用（無需註冊）</TrialButton>
+          <StartButton source="hospital-hero">立即開始 — 免費</StartButton>
+          <TrialButton source="hospital-hero">免費試用（無需註冊）</TrialButton>
         </div>
       </section>
 
@@ -405,7 +405,7 @@ export default function HospitalNursingPage() {
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
           加入報告汪，護理文書交接時間減少 60%，評鑑零補件。
         </p>
-        <StartButton>免費開始使用</StartButton>
+        <StartButton source="hospital-bottom">免費開始使用</StartButton>
       </section>
 
       <Footer />

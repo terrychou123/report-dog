@@ -78,7 +78,7 @@ export default function PricingPage() {
                 </li>
               ))}
             </ul>
-            <StartButton>免費開始使用</StartButton>
+            <StartButton source="pricing-cta">免費開始使用</StartButton>
           </Card>
         </div>
 

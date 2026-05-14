@@ -19,6 +19,7 @@ import { marked } from "marked";
 import { getAllProfiles } from "@/lib/ai/evaluation-profiles";
 import { useAiUsage } from "@/lib/hooks/use-ai-usage";
 import { AiLimitDialog } from "@/components/ai/ai-limit-dialog";
+import { trackEvent } from "@/lib/analytics";
 
 const PROFILES = getAllProfiles();
 
@@ -88,6 +89,7 @@ export function EvaluationPanel({ open, onOpenChange, reportIds, reportTitles, o
           if (value) setResult((prev) => prev + decoder.decode(value, { stream: !done }));
         }
         refreshUsage();
+        trackEvent("ai_use", { action: "evaluate", facility_type: profileId });
       } catch (e) {
         if ((e as Error).name !== "AbortError") {
           setResult("評鑑分析失敗，請稍後再試。");

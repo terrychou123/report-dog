@@ -17,9 +17,9 @@ import {
   HeartHandshakeIcon,
   ClipboardCheckIcon,
   ArrowRightIcon,
-  DownloadIcon,
   FileTextIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "115年度精神復健機構評鑑基準｜日間型36條/住宿型40條完整解析",
@@ -357,12 +357,7 @@ export default function PsychiatricRehabilitationInstitutionPage() {
         <p className="text-xs text-muted-foreground mb-3">
           下載精神復健機構評鑑自我檢核表（Excel），含日間型與住宿型共 6 個工作表，逐項確認評鑑準備進度。
         </p>
-        <Button variant="outline" size="sm" asChild>
-          <a href="/downloads/psychiatric-rehabilitation-institution.xlsx" download>
-            <DownloadIcon className="h-3.5 w-3.5 mr-1.5" />
-            下載 Excel 檢核表
-          </a>
-        </Button>
+        <SchoolDownloadButton catalogSlug="psychiatric-rehabilitation-institution" variant="outline" />
       </div>
 
       {/* CTA */}

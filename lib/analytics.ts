@@ -19,12 +19,14 @@ function isLikelyBot(): boolean {
   return BOT_UA_RE.test(navigator.userAgent ?? "");
 }
 
-/** 送出 GA4 自訂事件；SSR、bot UA、gtag 未載入或拋例外時皆為 no-op */
+/** 送出 GA4 自訂事件；SSR、bot UA、localhost、gtag 未載入或拋例外時皆為 no-op */
 export function trackEvent(
   eventName: string,
   params?: Record<string, unknown>,
 ): void {
   if (typeof window === "undefined" || isLikelyBot()) return;
+  // localhost 事件不送 prod GA，避免汙染報表
+  if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") return;
   if (typeof window.gtag !== "function") return;
   try {
     window.gtag("event", eventName, params);

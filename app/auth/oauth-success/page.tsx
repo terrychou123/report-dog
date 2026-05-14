@@ -42,9 +42,7 @@ function OAuthSuccessInner() {
           clearTimeout(timer);
           if (res.ok) {
             const data = await res.json();
-            if (!data.skipped) {
-              trackEvent("newsletter_subscribe", { method: "signup" });
-            }
+            // newsletter_subscribe 事件僅由使用者主動訂閱觸發（footer/blog-inline），signup 自動訂閱不計入
           }
         })
         .catch(() => clearTimeout(timer))
@@ -52,6 +50,8 @@ function OAuthSuccessInner() {
           router.replace(next);
         });
     } else {
+      // 既有使用者 OAuth 登入
+      trackEvent("login", { method: `oauth_${provider}` });
       router.replace(next);
     }
   }, [router, searchParams]);

@@ -12,6 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Loader2Icon, CheckIcon, DownloadIcon } from "lucide-react";
 import { toast } from "sonner";
+import { trackEvent } from "@/lib/analytics";
 import type { FacilityTemplate } from "@/lib/types/templates";
 
 export function TemplateImportDialog() {
@@ -56,6 +57,7 @@ export function TemplateImportDialog() {
       });
       if (!res.ok) throw new Error();
       const data = await res.json();
+      trackEvent("template_import", { facility_type: selected });
       toast.success(`匯入完成！已建立 ${data.tagCount} 個標籤、${data.reportCount} 份報告`);
       window.dispatchEvent(new Event("reports-updated"));
       setOpen(false);

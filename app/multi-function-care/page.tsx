@@ -109,8 +109,8 @@ export default function MultiFunctionCareLandingPage() {
           對應 115 年度評鑑基準 {multiFunctionCareMeta.totalItems - 2} 項，評鑑備審一鍵彙整。
         </p>
         <div className="flex gap-3 flex-wrap justify-center mb-10">
-          <StartButton />
-          <TrialButton />
+          <StartButton source="multi-function-care-cta" />
+          <TrialButton source="multi-function-care-cta" />
         </div>
         <div className="grid grid-cols-3 gap-8 text-center">
           {STATS.map((s) => (
@@ -263,8 +263,8 @@ export default function MultiFunctionCareLandingPage() {
           不需信用卡，即刻開始整理小規機文書
         </p>
         <div className="flex gap-3 justify-center">
-          <StartButton />
-          <TrialButton />
+          <StartButton source="multi-function-care-cta" />
+          <TrialButton source="multi-function-care-cta" />
         </div>
       </section>
     </main>

@@ -115,8 +115,8 @@ export default function GeneralNursingHomePage() {
           住民照護計畫集中管理，評鑑準備效率大幅提升。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <StartButton>立即開始 — 免費</StartButton>
-          <TrialButton>免費試用（無需註冊）</TrialButton>
+          <StartButton source="general-nursing-home-hero">立即開始 — 免費</StartButton>
+          <TrialButton source="general-nursing-home-hero">免費試用（無需註冊）</TrialButton>
         </div>
       </section>
 
@@ -426,7 +426,7 @@ export default function GeneralNursingHomePage() {
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
           加入報告汪，評鑑 AI 分析、住民照護計畫集中管理、環境安全文件持續建檔。
         </p>
-        <StartButton>免費開始使用</StartButton>
+        <StartButton source="general-nursing-home-bottom">免費開始使用</StartButton>
       </section>
 
       {/* Footer */}

@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { SparklesIcon, CheckIcon, RefreshCwIcon } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { toast } from "sonner";
 import type { FortuneEditorProps } from "@/components/fortune-editor";
@@ -584,6 +585,7 @@ export default function FortuneEditorInner({
         const reply = data.revised ?? "";
         setAiProposal(reply);
         setAiHistory([...newHistory, { role: "assistant", content: reply }]);
+        trackEvent("ai_use", { action: "edit" });
       } else {
         toast.error("AI 回應失敗");
       }

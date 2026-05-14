@@ -54,9 +54,7 @@ function ConfirmPageInner() {
         clearTimeout(timer);
         if (res.ok) {
           const data = await res.json();
-          if (!data.skipped) {
-            trackEvent("newsletter_subscribe", { method: "signup" });
-          }
+          // newsletter_subscribe 事件僅由使用者主動訂閱觸發（footer/blog-inline），signup 自動訂閱不計入
         }
       } catch {
         clearTimeout(timer);

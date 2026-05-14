@@ -68,14 +68,26 @@ RESEND_WEBHOOK_SECRET=       # Resend webhook signing secret (svix format, whsec
 UNSUBSCRIBE_TOKEN_SECRET=    # 32+ byte random secret for HMAC unsubscribe tokens (lib/email/unsubscribe-token.ts); generate with: openssl rand -hex 32
 UNSUBSCRIBE_REPLY_TO=        # Reply-To header for newsletter (e.g. "報告汪退訂 <unsubscribe@xxx.resend.app>") — Resend built-in inbox address
 UNSUBSCRIBE_INBOX_ADDRESS=   # Plain email for List-Unsubscribe mailto header (e.g. unsubscribe@xxx.resend.app)
+NEXT_PUBLIC_GA_ID=           # GA4 Measurement ID（留空則不載入 GA script，dev 建議不設值）
 ```
 
 ### Funnel Events (GA4 via lib/analytics.ts)
-- `sign_up` — Supabase 內建（sign-up form 送出）
-- `sign_up_complete` — Email 驗證完成（app/auth/confirm/page.tsx，三條分支均觸發）
+**Acquisition**
+- `cta_click` — CTA 按鈕點擊（source: `{page}-hero|bottom|blog-mid-cta|…`）
+- `sign_up` — 註冊 form 送出（components/sign-up-form.tsx）
+- `oauth_start` / `oauth_complete` — Google OAuth 流程（components/auth/google-auth-button.tsx / app/auth/oauth-success/page.tsx）
+- `sign_up_complete` — Email 驗證完成（app/auth/confirm/page.tsx）
+- `login` — 登入成功，含 email 與 OAuth（components/login-form.tsx / app/auth/oauth-success/page.tsx）
+
+**Lead capture**
 - `lead_capture` — 下載 gate Email 收集成功（components/downloads/download-gate-dialog.tsx）
-- `download_dialog_complete` — 下載 gate dialog 完成一次完整轉換（與 lead_capture 並排觸發，可單獨追蹤 dialog 完成率）
-- `newsletter_subscribe` — Footer 電子報訂閱成功（components/newsletter-form.tsx）
+- `newsletter_subscribe` — 使用者主動訂閱電子報（footer / blog-inline；signup 自動訂閱不送此事件）
+
+**Activation**
+- `report_create` — 報告建立成功（source: "manual"|"upload"，components/upload-report-button.tsx）
+- `document_upload` — 檔案上傳成功（ext: "word"|"excel"，components/upload-report-button.tsx）
+- `template_import` — 評鑑範本匯入成功（facility_type，components/template-import-dialog.tsx）
+- `ai_use` — AI 功能使用成功（action: "edit"|"evaluate"|"analyze"|"improve"|"summarize"|"extract-data"，多元件）
 
 ### Lead Capture DB
 `leads` table（db/schema.ts）— 下載 gate 與電子報訂閱共用，`source` 欄位('download'|'newsletter')區分來源，同(email, source)唯一。退訂欄位：`unsubscribed_at`（時間戳）、`unsubscribe_source`（'reply'|'one_click'|'manual'）、`unsubscribe_message_id`（Resend email_id）。相關 API：

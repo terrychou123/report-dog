@@ -11,8 +11,8 @@ import {
   SettingsIcon,
   HeartPulseIcon,
   ArrowRightIcon,
-  DownloadIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "115年度居家護理所評鑑基準｜8項評鑑教學｜居家護理評鑑準備",
@@ -250,14 +250,7 @@ export default function HomeNursingPage() {
         <p className="text-sm text-muted-foreground mb-3">
           下載「居家護理所」評鑑自我檢查表（Excel），對照評鑑基準逐項自我檢核。
         </p>
-        <a
-          href="/downloads/home-nursing.xlsx"
-          download
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-        >
-          <DownloadIcon className="h-4 w-4" />
-          免費下載 Excel 檢查表 →
-        </a>
+        <SchoolDownloadButton catalogSlug="home-nursing" />
       </div>
 
       {/* Import CTA */}

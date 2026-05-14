@@ -9,6 +9,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon } from "lucide-react";
 import { SoapCta } from "@/components/school/soap-cta";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "B3、加分項目（5%）｜居家護理所評鑑",
@@ -171,13 +172,7 @@ export default function HomeNursingBonusPage() {
           <ArrowLeftIcon className="h-4 w-4" />
           返回總覽
         </Link>
-        <Link
-          href="/downloads/home-nursing.xlsx"
-          download
-          className="text-sm text-muted-foreground hover:text-primary transition-colors"
-        >
-          下載居家護理所評鑑自評表 →
-        </Link>
+        <SchoolDownloadButton catalogSlug="home-nursing" />
       </div>
     </>
   );

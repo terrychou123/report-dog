@@ -26,8 +26,8 @@ import {
   BugIcon,
   FlaskConicalIcon,
   ArrowRightIcon,
-  DownloadIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "醫院評鑑小教室｜115年度醫院評鑑基準（區域醫院、地區醫院）｜報告汪",
@@ -474,14 +474,7 @@ export default function HospitalPage() {
         <p className="text-sm text-muted-foreground mb-3">
           下載「醫院評鑑」自我檢查表（Excel），對照評鑑基準逐項自我檢核。
         </p>
-        <a
-          href="/downloads/hospital.xlsx"
-          download
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-        >
-          <DownloadIcon className="h-4 w-4" />
-          免費下載 Excel 檢查表 →
-        </a>
+        <SchoolDownloadButton catalogSlug="hospital" />
       </div>
 
       {/* Import CTA */}

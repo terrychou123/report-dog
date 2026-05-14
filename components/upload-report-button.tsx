@@ -10,6 +10,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PlusIcon, UploadIcon, CheckCircle2Icon, XCircleIcon, LoaderIcon, FileIcon } from "lucide-react";
 import { toast } from "sonner";
+import { trackEvent } from "@/lib/analytics";
 
 type FileStatus = "pending" | "uploading" | "success" | "error";
 
@@ -77,6 +78,7 @@ export function UploadReportButton() {
         body: JSON.stringify({ title: reportTitle.trim(), content: reportContent, insertAtTop: true }),
       });
       if (res.ok) {
+        trackEvent("report_create", { source: "manual" });
         toast.success("報告已建立");
         onSuccess();
       } else {
@@ -139,6 +141,7 @@ export function UploadReportButton() {
         } else if (type === "excel") {
           await uploadExcelFile(entry.file);
         }
+        trackEvent("document_upload", { ext: type });
         successCount++;
         setFileEntries((prev) =>
           prev.map((e, idx) => (idx === i ? { ...e, status: "success" } : e))
@@ -157,6 +160,7 @@ export function UploadReportButton() {
 
     // 副作用在 setState 外執行（避免 React 渲染中觸發 Router 更新）
     if (successCount > 0 && errorCount === 0) {
+      trackEvent("report_create", { source: "upload", count: successCount });
       toast.success(`成功建立 ${successCount} 份報告`);
       onSuccess();
     } else if (successCount > 0 && errorCount > 0) {

@@ -120,8 +120,8 @@ export default function HomeCarePage() {
           讓督導省下追文件的時間，把心力還給服務品質。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <StartButton>立即開始 — 免費</StartButton>
-          <TrialButton>免費試用（無需註冊）</TrialButton>
+          <StartButton source="home-care-hero">立即開始 — 免費</StartButton>
+          <TrialButton source="home-care-hero">免費試用（無需註冊）</TrialButton>
         </div>
       </section>
 
@@ -420,7 +420,7 @@ export default function HomeCarePage() {
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
           加入報告汪，督導追蹤效率提升 4 倍，查核零補件。
         </p>
-        <StartButton>免費開始使用</StartButton>
+        <StartButton source="home-care-bottom">免費開始使用</StartButton>
       </section>
 
       {/* Footer */}

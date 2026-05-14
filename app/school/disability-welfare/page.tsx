@@ -12,8 +12,8 @@ import {
   ShieldCheckIcon,
   HeartPulseIcon,
   ArrowRightIcon,
-  DownloadIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "109年度身心障礙福利機構評鑑指標｜49項完整教學｜身障機構評鑑準備",
@@ -283,14 +283,7 @@ export default function DisabilityWelfarePage() {
           下載「身心障礙福利機構」評鑑自我檢查表（Excel），對照 109
           年度評鑑指標逐項自我檢核。
         </p>
-        <a
-          href="/downloads/disability-welfare.xlsx"
-          download
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-        >
-          <DownloadIcon className="h-4 w-4" />
-          免費下載 Excel 檢查表 →
-        </a>
+        <SchoolDownloadButton catalogSlug="disability-welfare" />
       </div>
 
       {/* Import CTA */}

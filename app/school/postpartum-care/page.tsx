@@ -13,8 +13,8 @@ import {
   ShieldIcon,
   StarIcon,
   ArrowRightIcon,
-  DownloadIcon,
 } from "lucide-react";
+import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
   title: "115年度產後護理之家評鑑基準｜17項完整教學｜月子中心評鑑準備",
@@ -282,14 +282,7 @@ export default function PostpartumCarePage() {
         <p className="text-sm text-muted-foreground mb-3">
           下載「產後護理之家」評鑑自我檢查表（Excel），對照評鑑基準逐項自我檢核。
         </p>
-        <a
-          href="/downloads/babycare.xlsx"
-          download
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-        >
-          <DownloadIcon className="h-4 w-4" />
-          免費下載 Excel 檢查表 →
-        </a>
+        <SchoolDownloadButton catalogSlug="babycare" />
       </div>
 
       {/* Import CTA */}
