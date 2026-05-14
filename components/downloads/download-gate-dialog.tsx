@@ -39,6 +39,7 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
       }
 
       trackEvent("lead_capture", { source: "download", file: file.slug });
+      trackEvent("download_dialog_complete", { source: "download", file: file.slug, name: file.name });
 
       // 用隱藏 <a> 觸發下載，保留瀏覽器建議的檔名
       if (anchorRef.current && data.downloadUrl) {

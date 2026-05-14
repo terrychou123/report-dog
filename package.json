@@ -22,6 +22,7 @@
     "generate:babycare-checklist": "tsx scripts/generate-babycare-checklist.ts",
     "generate:general-nursing-home-checklist": "tsx scripts/generate-general-nursing-home-checklist.ts",
     "check:evaluation-drift": "tsx scripts/check-evaluation-drift.ts",
+    "check:blog-facility-coverage": "tsx scripts/check-blog-facility-coverage.ts",
     "evaluation:sync": "tsx scripts/evaluation-sync.ts",
     "db:seed-templates": "dotenv -e .env.local -- tsx scripts/seed-templates.ts",
     "db:seed-blog-posts": "dotenv -e .env.local -- tsx scripts/seed-blog-posts.ts",

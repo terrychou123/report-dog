@@ -74,6 +74,7 @@ UNSUBSCRIBE_INBOX_ADDRESS=   # Plain email for List-Unsubscribe mailto header (e
 - `sign_up` — Supabase 內建（sign-up form 送出）
 - `sign_up_complete` — Email 驗證完成（app/auth/confirm/page.tsx，三條分支均觸發）
 - `lead_capture` — 下載 gate Email 收集成功（components/downloads/download-gate-dialog.tsx）
+- `download_dialog_complete` — 下載 gate dialog 完成一次完整轉換（與 lead_capture 並排觸發，可單獨追蹤 dialog 完成率）
 - `newsletter_subscribe` — Footer 電子報訂閱成功（components/newsletter-form.tsx）
 
 ### Lead Capture DB
