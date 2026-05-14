@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+<g clip-path="url(#clip-home-care-grade-strategy)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 8 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">8</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">個分水嶺</tspan></text>
+<!-- r1c1：個別服務計畫 (#D97706) -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="339.708">服務計畫</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="368.476">反映居家實況</tspan></text>
+<!-- r1c2：督導與訪視 (#78716C) -->
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="339.708">督導訪視</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="368.476">發現改善閉環</tspan></text>
+<!-- r2c1：品質改善機制 (#57534E) -->
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="438.708">品質改善</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="467.476">滿意度-行動</tspan></text>
+<!-- r2c2：機構自評 (#D97706) -->
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="438.708">機構自評</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="467.476">誠實即加分</tspan></text>
+<!-- 底部 pill -->
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="940" y="536.708">乙等 - 甲等 - 優等</tspan></text>
+<!-- 左側主標題 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="58" y="219.32">居服評鑑</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="120" font-weight="bold" letter-spacing="0em"><tspan x="58" y="357.32">甲等策略</tspan></text>
+<!-- 分隔線 -->
+<path d="M57.5 384H822" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 副標題 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="38" letter-spacing="0em"><tspan x="60" y="442.136">做了但沒被看見，差在這 8 件事</tspan></text>
+<!-- 左側 pills -->
+<path opacity="0.12" d="M228 461H70C64.4772 461 60 465.477 60 471V505C60 510.523 64.4772 515 70 515H228C233.523 515 238 510.523 238 505V471C238 465.477 233.523 461 228 461Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="499.708">居家服務機構</tspan></text>
+<path opacity="0.12" d="M388 461H250C244.477 461 240 465.477 240 471V505C240 510.523 244.477 515 250 515H388C393.523 515 398 510.523 398 505V471C398 465.477 393.523 461 388 461Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="258" y="499.708">主任必看</tspan></text>
+<path opacity="0.12" d="M548 461H410C404.477 461 400 465.477 400 471V505C400 510.523 404.477 515 410 515H548C553.523 515 558 510.523 558 505V471C558 465.477 553.523 461 548 461Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="418" y="499.708">評鑑策略</tspan></text>
+<!-- 適用對象 -->
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">臺北市居家服務機構評鑑 32 條</tspan></text>
+<!-- 品牌浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-home-care-grade-strategy">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>

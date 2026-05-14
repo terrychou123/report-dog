@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+<g clip-path="url(#clip-home-nursing-grade-strategy)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 45（B2 的 45%，2位數） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="858" y="232.2">45</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="870" y="274.416">% B2 個案照護管理</tspan></text>
+<!-- r1c1：B2 全人評估 (#D97706) -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="339.708">全人評估</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="368.476">每6月＋狀況改變</tspan></text>
+<!-- r1c2：A5 五項指標 (#78716C) -->
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="339.708">A5 五指標</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="368.476">閾值＋改善行動</tspan></text>
+<!-- r2c1：B1 系統填報 (#57534E) -->
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="438.708">B1 填報</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="467.476">衛福部 5 項全完成</tspan></text>
+<!-- r2c2：B3 加分 (#D97706) -->
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="438.708">B3 加分</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="467.476">+5% 優等關鍵</tspan></text>
+<!-- 底部 pill -->
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="940" y="536.708">2 大區塊 8 項目</tspan></text>
+<!-- 左側主標題 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-size="104" font-weight="bold" letter-spacing="0em"><tspan x="58" y="222.0">居家護理</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="104" font-weight="bold" letter-spacing="0em"><tspan x="58" y="348.0">甲等策略</tspan></text>
+<!-- 分隔線（N=6+ → y=378） -->
+<path d="M57.5 378H822" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 副標題 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="36" letter-spacing="0em"><tspan x="60" y="435.0">B2 占 45%，這條決定你的等級</tspan></text>
+<!-- 左側 pills -->
+<path opacity="0.12" d="M198 454H70C64.4772 454 60 458.477 60 464V498C60 503.523 64.4772 508 70 508H198C203.523 508 208 503.523 208 498V464C208 458.477 203.523 454 198 454Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="492.708">居家護理所</tspan></text>
+<path opacity="0.12" d="M358 454H230C224.477 454 220 458.477 220 464V498C220 503.523 224.477 508 230 508H358C363.523 508 368 503.523 368 498V464C368 458.477 363.523 454 358 454Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="241" y="492.708">主任必看</tspan></text>
+<path opacity="0.12" d="M518 454H390C384.477 454 380 458.477 380 464V498C380 503.523 384.477 508 390 508H518C523.523 508 528 503.523 528 498V464C528 458.477 523.523 454 518 454Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="398" y="492.708">評鑑策略</tspan></text>
+<!-- 適用對象 -->
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-size="26" letter-spacing="0em"><tspan x="60" y="548.708">115 年度居家護理機構評鑑基準</tspan></text>
+<!-- 品牌浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-home-nursing-grade-strategy">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>

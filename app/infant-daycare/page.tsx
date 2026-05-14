@@ -340,6 +340,66 @@ export default function InfantDaycarePage() {
         </div>
       </section>
 
+      {/* 延伸閱讀：托嬰評鑑相關文章 */}
+      <section className="py-14 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">托嬰中心評鑑深度文章</h2>
+            <p className="text-muted-foreground text-sm">從準備到拿優等，完整備審知識庫</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              {
+                href: "/blog/infant-daycare-eval-grade-strategy-2026",
+                label: "評鑑策略",
+                title: "托嬰評鑑想拿優等？8 個分水嶺分析",
+                desc: "托育活動與健康安全各 40 分，安全是最高優先，從細節差異拿高分。",
+              },
+              {
+                href: "/blog/infant-daycare-evaluation-60-guide-2026",
+                label: "完整攻略",
+                title: "托嬰中心 60 項評鑑完整準備攻略",
+                desc: "行政管理、托育活動、健康安全三大類逐條解析，一次掌握所有備審重點。",
+              },
+              {
+                href: "/blog/infant-daycare-self-evaluation-guide-2026",
+                label: "自評工具",
+                title: "托嬰中心評鑑自評完整指南",
+                desc: "評鑑前 2 個月用這份自評清單，逐項確認文件備妥狀況。",
+              },
+              {
+                href: "/blog/infant-daycare-health-safety-guide-2026",
+                label: "健康安全",
+                title: "托嬰中心健康安全 24 條查核重點",
+                desc: "食物留樣、給藥五對原則、睡眠安全——委員必查的現場項目全解析。",
+              },
+              {
+                href: "/blog/infant-daycare-baby-diary-ai-time-saving-2026",
+                label: "AI 工具",
+                title: "寶寶日誌用 AI 寫，照服員省一半時間",
+                desc: "從打勾清單到發展觀察記錄，AI 輔助讓每日日誌更快、更有品質。",
+              },
+              {
+                href: "/school/infant-daycare",
+                label: "評鑑小教室",
+                title: "托嬰中心評鑑小教室",
+                desc: "60 項評鑑基準逐條解析，行政管理、托育活動、健康安全完整說明。",
+              },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="block group">
+                <Card className="h-full hover:shadow-md transition-shadow group-hover:border-primary/40">
+                  <CardContent className="pt-5 pb-5">
+                    <Badge variant="secondary" className="text-xs mb-3">{item.label}</Badge>
+                    <h3 className="font-semibold text-sm mb-2 group-hover:text-primary transition-colors">{item.title}</h3>
+                    <p className="text-xs text-muted-foreground">{item.desc}</p>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Solutions */}
       <section className="py-14 px-6 bg-muted/20">
         <div className="max-w-5xl mx-auto">

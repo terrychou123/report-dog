@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+<g clip-path="url(#clip-disability-welfare-system)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 5（5大功能需求） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">5</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">大功能需求</tspan></text>
+<!-- r1c1：ISP多專業協同 (#D97706) -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="339.708">ISP協同</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="368.476">多專業即時編輯</tspan></text>
+<!-- r1c2：評鑑文件彙整 (#78716C) -->
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="339.708">評鑑彙整</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="368.476">49項自動對應</tspan></text>
+<!-- r2c1：品質指標監測 (#57534E) -->
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="438.708">品質監測</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="467.476">閾值警示自動化</tspan></text>
+<!-- r2c2：PBS記錄 (#D97706) -->
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="438.708">PBS 記錄</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="467.476">行為趨勢圖表</tspan></text>
+<!-- 底部 pill -->
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="930" y="534.708">採購前必讀 5 個評估問題</tspan></text>
+<!-- 左側主標題 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-size="100" font-weight="bold" letter-spacing="0em"><tspan x="58" y="213.0">身障機構</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="100" font-weight="bold" letter-spacing="0em"><tspan x="58" y="340.0">管理系統</tspan></text>
+<!-- 分隔線 -->
+<path d="M57.5 368H822" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 副標題 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="36" letter-spacing="0em"><tspan x="60" y="424.0">ISP 記錄｜評鑑文件｜品質監測</tspan></text>
+<!-- 左側 pills -->
+<path opacity="0.12" d="M228 444H70C64.4772 444 60 448.477 60 454V488C60 493.523 64.4772 498 70 498H228C233.523 498 238 493.523 238 488V454C238 448.477 233.523 444 228 444Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="482.708">身障福利機構</tspan></text>
+<path opacity="0.12" d="M388 444H250C244.477 444 240 448.477 240 454V488C240 493.523 244.477 498 250 498H388C393.523 498 398 493.523 398 488V454C398 448.477 393.523 444 388 444Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="258" y="482.708">主任必看</tspan></text>
+<path opacity="0.12" d="M548 444H410C404.477 444 400 448.477 400 454V488C400 493.523 404.477 498 410 498H548C553.523 498 558 493.523 558 488V454C558 448.477 553.523 444 548 444Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="418" y="482.708">採購指南</tspan></text>
+<!-- 適用對象 -->
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-size="26" letter-spacing="0em"><tspan x="60" y="538.708">109年度身障機構評鑑 3大區塊 49項</tspan></text>
+<!-- 品牌浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-disability-welfare-system">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>

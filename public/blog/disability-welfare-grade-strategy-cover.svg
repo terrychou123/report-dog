@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+<g clip-path="url(#clip-disability-welfare-grade)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+<!-- 右側大數字 8（8個分水嶺） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">8</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">個關鍵差異</tspan></text>
+<!-- r1c1：ISP 三部曲 (#D97706) -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="339.708">ISP 三部曲</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="368.476">自我決策為核心</tspan></text>
+<!-- r1c2：正向行為支持 (#78716C) -->
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="339.708">正向行為</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="368.476">PBS 支持計畫</tspan></text>
+<!-- r2c1：社區融合 (#57534E) -->
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="864" y="438.708">社區融合</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="864" y="467.476">功能性技能學習</tspan></text>
+<!-- r2c2：家庭支持 (#D97706) -->
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="1029" y="438.708">家庭需求</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="20" letter-spacing="0em"><tspan x="1029" y="467.476">系統性評估</tspan></text>
+<!-- 底部 pill -->
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="26" font-weight="bold" letter-spacing="0em"><tspan x="930" y="534.708">核心指標 16 公安不失分</tspan></text>
+<!-- 左側主標題 -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-size="100" font-weight="bold" letter-spacing="0em"><tspan x="58" y="213.0">身障機構</tspan></text>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="100" font-weight="bold" letter-spacing="0em"><tspan x="58" y="340.0">優等策略</tspan></text>
+<!-- 分隔線 -->
+<path d="M57.5 368H822" stroke="#DEDAD3" stroke-width="2"/>
+<!-- 副標題 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="36" letter-spacing="0em"><tspan x="60" y="422.0">自我決策｜社區融合｜正向支持</tspan></text>
+<!-- 左側 pills -->
+<path opacity="0.12" d="M228 442H70C64.4772 442 60 446.477 60 452V486C60 491.523 64.4772 496 70 496H228C233.523 496 238 491.523 238 486V452C238 446.477 233.523 442 228 442Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="78" y="480.708">身障福利機構</tspan></text>
+<path opacity="0.12" d="M388 442H250C244.477 442 240 446.477 240 452V486C240 491.523 244.477 496 250 496H388C393.523 496 398 491.523 398 486V452C398 446.477 393.523 442 388 442Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="258" y="480.708">主任必看</tspan></text>
+<path opacity="0.12" d="M548 442H410C404.477 442 400 446.477 400 452V486C400 491.523 404.477 496 410 496H548C553.523 496 558 491.523 558 486V452C558 446.477 553.523 442 548 442Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="418" y="480.708">評鑑策略</tspan></text>
+<!-- 適用對象 -->
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-size="26" letter-spacing="0em"><tspan x="60" y="536.708">衛福部社家署 身障機構評鑑指標</tspan></text>
+<!-- 品牌浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-disability-welfare-grade">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
