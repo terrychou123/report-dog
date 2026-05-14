@@ -132,6 +132,7 @@ const PDCA_ARTICLES: Array<{
 ];
 
 const EXTENDED_READING_TEMPLATE = (currentSlug: string, relatedSlugs: string[]) => `
+<!-- pdca-extended-reading-injected -->
 <h2>延伸閱讀</h2>
 <ul>
 <li><a href="/blog/pdca">護理 PDCA 範例與寫法總覽 — 8 篇實戰教學</a></li>
@@ -172,16 +173,20 @@ async function main() {
         continue;
       }
 
-      const hasExistingFaq = post.content?.includes("<h2>常見問題</h2>");
-      const hasExistingExtended = post.content?.includes("延伸閱讀");
+      // 用唯一 marker 判斷是否已注入，避免誤判編輯者自行撰寫的「常見問題」標題
+      const hasExistingFaq = post.content?.includes("<!-- pdca-faq-injected -->");
+      const hasExistingExtended = post.content?.includes("<!-- pdca-extended-reading-injected -->");
 
       if (hasExistingFaq && hasExistingExtended) {
         console.log(`⏭️  已有 FAQ + 延伸閱讀，跳過：${article.slug}`);
         continue;
       }
 
+      const faqSection = !hasExistingFaq
+        ? `\n<!-- pdca-faq-injected -->${article.faqHtml}`
+        : "";
       const suffix =
-        (!hasExistingFaq ? article.faqHtml : "") +
+        faqSection +
         (!hasExistingExtended ? EXTENDED_READING_TEMPLATE(article.slug, article.relatedSlugs) : "");
 
       const newContent = (post.content ?? "") + suffix;

@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
-import { desc, eq } from "drizzle-orm";
+import { desc, eq, or, like, and } from "drizzle-orm";
 import type { Metadata } from "next";
 import { BlogListFilter } from "@/components/blog-list-filter";
 import { breadcrumbListJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
@@ -65,18 +65,29 @@ function isValidImageUrl(url: string | null): url is string {
 }
 
 async function PdcaArticleList() {
-  const allPosts = await db
-    .select()
+  // server-side filter：僅取 PDCA 相關文章，且不載入 content 欄位（節省資料傳輸）
+  const filtered = await db
+    .select({
+      id: blogPosts.id,
+      slug: blogPosts.slug,
+      title: blogPosts.title,
+      excerpt: blogPosts.excerpt,
+      coverImageUrl: blogPosts.coverImageUrl,
+      category: blogPosts.category,
+      tags: blogPosts.tags,
+      publishedAt: blogPosts.publishedAt,
+    })
     .from(blogPosts)
-    .where(eq(blogPosts.status, "published"))
+    .where(
+      and(
+        eq(blogPosts.status, "published"),
+        or(
+          like(blogPosts.slug, "%pdca%"),
+          like(blogPosts.slug, "%continuous-improvement%")
+        )
+      )
+    )
     .orderBy(desc(blogPosts.publishedAt));
-
-  // PDCA cluster：slug 含 pdca/continuous-improvement，或 tag 含 PDCA 相關詞
-  const filtered = allPosts.filter(
-    (p) =>
-      /pdca|continuous.improvement/i.test(p.slug) ||
-      p.tags?.some((t) => /pdca|品質改善|持續改善/i.test(t))
-  );
 
   if (filtered.length === 0) return null;
 

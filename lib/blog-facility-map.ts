@@ -208,7 +208,7 @@ const KEYWORD_MAP: Record<string, string> = {
   精神復健: "psychiatric-rehabilitation-institution",
   一般護理之家: "general-nursing-home",
   精神護理之家: "psychiatric-nursing-home",
-  産後護理之家: "postpartum-care",
+  產後護理之家: "postpartum-care",
   護理之家: "nursing-home",
   產後護理: "postpartum-care",
   月子中心: "postpartum-care",
