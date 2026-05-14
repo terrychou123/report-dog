@@ -18,9 +18,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "日間照顧機構評鑑基準總覽",
+  title: "115年度日照中心評鑑基準｜43項+2加分題完整解析｜日間照顧機構評鑑準備",
   description:
-    "115 年度臺北市政府社會局日間照顧機構法定評鑑基準完整說明，共 43 正式項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與安全環境設備，另含 2 項加分題。",
+    "115 年度臺北市政府社會局日間照顧機構（日照中心）法定評鑑基準完整說明，共 43 正式項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與安全環境設備，另含 2 項加分題。最後更新：2026 年 5 月。",
   keywords: [
     "日間照顧機構評鑑基準",
     "日照中心評鑑",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/daycare" },
   openGraph: {
-    title: "日間照顧機構評鑑基準總覽｜評鑑小教室｜報告汪",
-    description: "43 項日間照顧機構法定評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "115年度日照中心評鑑基準｜43項完整解析｜評鑑小教室｜報告汪",
+    description: "115年度日照中心 43 項法定評鑑基準完整解說，含 4 大區塊與 2 加分題，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/daycare",
   },
 };

@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "產後護理之家評鑑基準總覽",
+  title: "115年度產後護理之家評鑑基準｜17項完整教學｜月子中心評鑑準備",
   description:
-    "115年度產後護理之家評鑑基準完整解說，共4大區塊17項目，幫助月子中心、產後護理之家管理人員掌握評鑑重點、提升評鑑通過率。",
+    "115年度產後護理之家（月子中心）評鑑基準完整解說，共 4 大區塊 17 項目：行政組織管理、專業服務與照顧、環境設施安全，幫助管理人員掌握評鑑重點。最後更新：2026 年 5 月。",
   keywords: [
     "產後護理之家評鑑",
     "月子中心評鑑",
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/postpartum-care" },
   openGraph: {
-    title: "產後護理之家評鑑小教室｜評鑑小教室｜報告汪",
-    description: "17 項產後護理之家評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "115年度產後護理之家評鑑基準｜17項完整教學｜月子中心評鑑｜報告汪",
+    description: "115年度產後護理之家（月子中心）17項評鑑基準完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/postpartum-care",
   },
 };

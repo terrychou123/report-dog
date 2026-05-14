@@ -20,9 +20,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "精神護理之家評鑑小教室｜報告汪",
+  title: "115年度精神護理之家評鑑基準｜36條完整教學｜精神護理機構評鑑準備",
   description:
-    "115年度精神護理之家評鑑基準完整解說，共5大面向36條指標。涵蓋經營管理效能（9條）、專業照護品質（21條）、安全維護及設施設備（3條）、住民權益保障（2條）及創新及改革（1條）。",
+    "115年度精神護理之家評鑑基準完整解說，共5大面向36條指標：經營管理效能（9條）、專業照護品質（21條）、安全維護及設施設備（3條）、住民權益保障（2條）及創新及改革（1條）。最後更新：2026 年 5 月。",
   keywords: [
     "精神護理之家評鑑",
     "115年度評鑑",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     canonical: "https://reportwang.com/school/psychiatric-nursing-home",
   },
   openGraph: {
-    title: "精神護理之家評鑑小教室｜報告汪",
+    title: "115年度精神護理之家評鑑基準｜36條完整教學｜報告汪",
     description:
-      "115年度精神護理之家評鑑基準完整解說，共5大面向36條指標。",
+      "115年度精神護理之家 36條評鑑指標完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/psychiatric-nursing-home",
   },
 };

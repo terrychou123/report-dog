@@ -15,9 +15,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "居家護理所評鑑基準總覽",
+  title: "115年度居家護理所評鑑基準｜8項評鑑教學｜居家護理評鑑準備",
   description:
-    "115 年度居家護理所評鑑基準完整說明，共 8 項目、2 大區塊：A 經營管理（45%，社區資源、感染管制、訪視安全、緊急事件、品質監測）與 B 照護管理（55%，機構資訊、個案照護、加分項目）。B2 個案照護管理單項佔 45%，B3 加分另計 5%，整體配分結構為 105%。",
+    "115 年度居家護理所評鑑基準完整說明，共 8 項目、2 大區塊：A 經營管理（45%，含社區資源、感染管制、品質監測 A5 PDCA）與 B 照護管理（55%，含個案照護管理 B2 佔 45%）。適用居家護理所評鑑準備。最後更新：2026 年 5 月。",
   keywords: [
     "居家護理所評鑑",
     "居家護理評鑑基準",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/home-nursing" },
   openGraph: {
-    title: "居家護理所評鑑基準總覽｜評鑑小教室｜報告汪",
-    description: "8 項居家護理所評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "115年度居家護理所評鑑基準｜8項完整教學｜評鑑小教室｜報告汪",
+    description: "115年度居家護理所 8 項評鑑基準完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/home-nursing",
   },
 };

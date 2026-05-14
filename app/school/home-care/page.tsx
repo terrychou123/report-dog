@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "居家服務機構評鑑基準總覽",
+  title: "115年度居家服務機構評鑑基準｜32項完整教學｜居家長照評鑑準備",
   description:
-    "115 年度臺北市政府社會局居家服務機構評鑑基準完整說明，共 32 項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與加分題。",
+    "115 年度臺北市政府社會局居家服務機構（居家長照）評鑑基準完整說明，共 32 項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與加分題。最後更新：2026 年 5 月。",
   keywords: [
     "居家服務機構評鑑基準",
     "居服評鑑項目",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/home-care" },
   openGraph: {
-    title: "居家服務機構評鑑基準總覽｜評鑑小教室｜報告汪",
-    description: "32 項居家服務機構評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "115年度居家服務機構評鑑基準｜32項完整教學｜評鑑小教室｜報告汪",
+    description: "115年度居家服務機構 32項評鑑基準完整解說，幫助居家長照機構掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/home-care",
   },
 };

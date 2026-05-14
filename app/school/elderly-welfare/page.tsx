@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "老人福利機構評鑑基準總覽｜115年度老人福利機構評鑑指標",
+  title: "115年度老人福利機構評鑑基準｜77項完整解析｜老福機構評鑑準備",
   description:
     "115 年度老人福利機構評鑑指標完整說明，共 77 項目、6 大區塊：經營管理效能、專業照護品質、安全環境設備、個案權益保障、服務改進創新與加分題。",
   keywords: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/elderly-welfare" },
   openGraph: {
-    title: "老人福利機構評鑑基準總覽｜評鑑小教室｜報告汪",
+    title: "115年度老人福利機構評鑑基準｜77項完整解析｜報告汪",
     description: "77 項老人福利機構評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
     url: "https://reportwang.com/school/elderly-welfare",
   },

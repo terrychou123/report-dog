@@ -8,11 +8,13 @@ import Link from "next/link";
 import sanitizeHtml from "sanitize-html";
 import { cacheTag } from "next/cache";
 import { blogSanitizeOptions } from "@/lib/blog-sanitize-config";
-import { blogPostingJsonLd, howToJsonLd, mergeJsonLdGraph, breadcrumbListJsonLd } from "@/lib/jsonld";
+import { blogPostingJsonLd, howToJsonLd, mergeJsonLdGraph, breadcrumbListJsonLd, faqPageJsonLd } from "@/lib/jsonld";
 import { extractBlogJsonLdData } from "@/lib/blog-jsonld-extract";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
-import { BookOpenIcon, DownloadIcon } from "lucide-react";
+import { BlogFacilityDownloadCard } from "@/components/blog/blog-facility-download-card";
+import { BookOpenIcon } from "lucide-react";
 import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, splitHtmlForMidNewsletter, type TocNode } from "@/lib/blog-html-postprocess";
+import { injectFacilityInlineLinks } from "@/lib/blog-inline-linker";
 import { BlogToc } from "@/components/blog/blog-toc";
 import { BlogTldr } from "@/components/blog/blog-tldr";
 import { BlogScrollCta } from "@/components/blog/blog-scroll-cta";
@@ -77,7 +79,12 @@ async function getPost(slug: string) {
     ? extractBlogJsonLdData(withLazyImg, slug)
     : { contentWithIds: withLazyImg, howtoSteps: undefined, faqItems: undefined };
 
-  return { ...post, content: contentWithIds, toc, howtoSteps, faqItems };
+  // 5. 首次提及機構名時注入 /school 內連結（每個 facility 最多一次）
+  const withInlineLinks = contentWithIds
+    ? injectFacilityInlineLinks(contentWithIds, slug)
+    : contentWithIds;
+
+  return { ...post, content: withInlineLinks, toc, howtoSteps, faqItems };
 }
 
 export async function generateStaticParams() {
@@ -107,6 +114,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // og:image 由同目錄的 opengraph-image.tsx 動態產生 PNG（避免 SVG 字型在社群平台顯示亂碼）
       publishedTime: post.publishedAt?.toISOString(),
       modifiedTime: post.updatedAt?.toISOString(),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.seoTitle || post.title,
+      description: post.seoDescription || post.excerpt || undefined,
     },
     alternates: {
       canonical: `https://reportwang.com/blog/${post.slug}`,
@@ -151,8 +163,10 @@ export default async function BlogPostPage({ params }: Props) {
         })
       : undefined;
 
-  // faqItems 欄位目前 DB 無此欄位，保留條件讓日後擴充時自動生效
-  const faq = undefined;
+  // 從 getPost 萃取的 faqItems（≥2 組 Q/A 配對）注入 FAQPage schema
+  const faq = post.faqItems && post.faqItems.length >= 2
+    ? faqPageJsonLd(post.faqItems, `/blog/${post.slug}`)
+    : undefined;
 
   const breadcrumb = breadcrumbListJsonLd([
     { name: "首頁", url: "https://reportwang.com" },
@@ -377,14 +391,7 @@ export default async function BlogPostPage({ params }: Props) {
                       {facilityInfo.schoolName} — 查看全部評鑑項目
                     </Link>
                   </div>
-                  <a
-                    href={facilityInfo.downloadPath}
-                    download
-                    className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    <DownloadIcon className="h-4 w-4" />
-                    免費下載 {facilityInfo.downloadName}（Excel）
-                  </a>
+                  <BlogFacilityDownloadCard catalogSlug={facilityInfo.catalogSlug} />
                 </div>
               )}
 

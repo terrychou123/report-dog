@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "一般護理之家評鑑小教室｜報告汪",
+  title: "115年度一般護理之家評鑑基準｜15項完整解析｜護理之家評鑑準備",
   description:
-    "115年度一般護理之家評鑑基準完整解說，共4大區塊15項目，幫助護理之家管理人員掌握評鑑重點。",
+    "115年度一般護理之家評鑑基準完整解說，共 4 大區塊 15 項目：行政管理、專業照護、安全環境、特別事項，幫助護理之家管理人員掌握評鑑重點、提升評鑑通過率。最後更新：2026 年 5 月。",
   keywords: [
     "一般護理之家評鑑",
     "115年度評鑑",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/general-nursing-home" },
   openGraph: {
-    title: "一般護理之家評鑑小教室｜評鑑小教室｜報告汪",
-    description: "15 項一般護理之家評鑑基準完整解說，掌握評鑑重點，提升評鑑通過率。",
+    title: "115年度一般護理之家評鑑基準｜15項完整解析｜評鑑小教室｜報告汪",
+    description: "115年度一般護理之家 15項評鑑基準完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/general-nursing-home",
   },
 };

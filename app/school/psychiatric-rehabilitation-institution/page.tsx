@@ -22,9 +22,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "精神復健機構評鑑小教室｜報告汪",
+  title: "115年度精神復健機構評鑑基準｜日間型36條/住宿型40條完整解析",
   description:
-    "115年度精神復健機構評鑑基準完整解說，含日間型（3章36條）與住宿型（3章40條）。涵蓋經營管理、復健服務、服務品質三大章節，協助機構做好評鑑準備。",
+    "115年度精神復健機構評鑑基準完整解說，含日間型（3章36條）與住宿型（3章40條）。涵蓋經營管理、復健服務、服務品質三大章節，協助精神復健機構掌握評鑑重點，提升評鑑通過率。最後更新：2026 年 5 月。",
   keywords: [
     "精神復健機構評鑑",
     "日間型精神復健機構",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     canonical: "https://reportwang.com/school/psychiatric-rehabilitation-institution",
   },
   openGraph: {
-    title: "精神復健機構評鑑小教室｜報告汪",
+    title: "115年度精神復健機構評鑑基準｜日間型36條/住宿型40條｜報告汪",
     description:
-      "115年度精神復健機構評鑑基準完整解說，含日間型36條與住宿型40條。",
+      "115年度精神復健機構評鑑基準：日間型36條/住宿型40條完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/psychiatric-rehabilitation-institution",
   },
 };

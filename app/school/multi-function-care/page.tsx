@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "小規模多機能機構評鑑基準總覽｜115年度小規機評鑑",
+  title: "115年度小規模多機能機構評鑑基準｜45項+2加分題完整解析",
   description:
     "115 年度臺北市政府社會局小規模多機能機構法定評鑑基準完整說明，共 45 正式項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能、安全環境設備，另含 2 項加分題。涵蓋日間照顧、居家服務（到府）、臨時住宿（夜宿）三合一服務評鑑重點。",
   keywords: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/multi-function-care" },
   openGraph: {
-    title: "小規模多機能機構評鑑基準總覽｜評鑑小教室｜報告汪",
+    title: "115年度小規機評鑑基準｜45項+2加分題完整解析｜報告汪",
     description: "45 項小規模多機能機構法定評鑑基準完整解說，掌握日照+居服+夜宿三合一評鑑重點。",
     url: "https://reportwang.com/school/multi-function-care",
   },

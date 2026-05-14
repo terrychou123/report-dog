@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "兒少安置機構評鑑基準總覽｜112年度評鑑完整說明",
+  title: "112年度兒少安置機構評鑑指標｜35項完整解說｜兒少評鑑準備",
   description:
     "112年度兒童及少年安置機構評鑑指標完整說明，共35項目、5大區塊：行政組織與經營管理（10分）、建築物環境及設施設備（10分）、專業服務（60分）、財務管理（20分）及特殊事項或措施（±10分）。幫助機構社工、生輔人員、行政主管快速掌握評鑑重點。",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/youth-care" },
   openGraph: {
-    title: "兒少安置機構評鑑基準總覽｜評鑑小教室｜報告汪",
+    title: "112年度兒少安置機構評鑑指標｜35項完整解說｜報告汪",
     description: "112年度兒少安置機構評鑑基準完整解說，掌握5大區塊評鑑重點，提升評鑑通過率。",
     url: "https://reportwang.com/school/youth-care",
   },

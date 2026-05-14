@@ -16,9 +16,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "身心障礙福利機構評鑑小教室｜109年度｜報告汪",
+  title: "109年度身心障礙福利機構評鑑指標｜49項完整教學｜身障機構評鑑準備",
   description:
-    "109年度身心障礙福利機構評鑑指標完整解說，共3大區塊49項目，涵蓋行政組織及經營管理、環境設施及安全維護、專業服務，幫助身心障礙機構管理人員掌握評鑑重點。",
+    "109年度身心障礙福利機構評鑑指標完整解說，共 3 大區塊 49 項目：行政組織及經營管理、環境設施及安全維護、專業服務（個別化計畫、健康管理）。幫助身心障礙機構管理人員掌握評鑑重點。最後更新：2026 年 5 月。",
   keywords: [
     "身心障礙福利機構評鑑",
     "身心障礙機構評鑑基準",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/disability-welfare" },
   openGraph: {
-    title: "身心障礙福利機構評鑑小教室｜109年度｜報告汪",
+    title: "109年度身心障礙福利機構評鑑指標｜49項完整教學｜報告汪",
     description:
-      "49 項身心障礙福利機構評鑑指標完整解說，掌握評鑑重點，提升評鑑通過率。",
+      "109年度身心障礙福利機構 49項評鑑指標完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/disability-welfare",
   },
 };

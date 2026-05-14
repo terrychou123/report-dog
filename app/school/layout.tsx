@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     authors: ["https://reportwang.com"],
     section: "長照機構評鑑",
   },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function SchoolLayout({ children }: { children: React.ReactNode }) {

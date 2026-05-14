@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { educationalContentJsonLd } from "@/lib/jsonld";
+import { educationalContentJsonLd, breadcrumbListJsonLd, organizationJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import {
   HomeIcon,
   SunIcon,
@@ -23,13 +23,13 @@ import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
 
 export const metadata: Metadata = {
-  title: "評鑑小教室｜長照機構暨醫院評鑑準備教學",
+  title: "14類長照機構評鑑基準完整教學｜115/114/112年度最新",
   description:
     "報告汪評鑑小教室：提供長照機構及醫院評鑑準備教學，涵蓋居家服務機構 32 項、日間照顧機構 43 項、小規模多機能機構 45 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項、產後護理之家 17 項、身心障礙福利機構 35 項、兒少安置機構 35 項、醫院評鑑 124 條、老人福利機構 77 項、精神護理之家 36 條、托嬰中心 60 項、精神復健機構（日間型）36 條、精神復健機構（住宿型）40 條評鑑基準完整解說。幫助機構管理人員快速掌握評鑑重點。",
   keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "居家護理所評鑑", "一般護理之家評鑑", "產後護理之家評鑑", "月子中心評鑑", "身心障礙福利機構評鑑", "身心障礙機構", "兒少安置機構評鑑", "兒童及少年安置機構", "長照評鑑基準", "醫院評鑑", "區域醫院評鑑", "地區醫院評鑑", "精神護理之家評鑑", "精神護理機構", "托嬰中心評鑑", "114年托嬰中心評鑑", "精神復健機構評鑑", "精神復健機構", "日間型精神復健", "住宿型精神復健"],
   alternates: { canonical: "/school" },
   openGraph: {
-    title: "評鑑小教室｜長照機構評鑑準備教學｜報告汪",
+    title: "14類長照機構評鑑基準完整教學｜報告汪評鑑小教室",
     description: "居家服務機構 32 項、日間照顧機構 43 項、住宿型照顧機構 75 項、居家護理所 8 項、一般護理之家 15 項、產後護理之家 17 項、身心障礙福利機構 35 項、兒少安置機構 35 項、醫院評鑑 124 條、老人福利機構 77 項、精神護理之家 36 條、托嬰中心 60 項、精神復健機構（日間型）36 條、精神復健機構（住宿型）40 條評鑑基準完整解說，快速掌握評鑑重點。",
     url: "https://reportwang.com/school",
   },
@@ -150,10 +150,10 @@ const courses = [
   },
 ];
 
-const jsonLd = educationalContentJsonLd({
+const itemList = educationalContentJsonLd({
   type: "ItemList",
   name: "長照機構評鑑小教室",
-  description: "報告汪評鑑小教室：長照機構及醫院評鑑準備教學系列，涵蓋居家服務、日照、住宿型、護理之家、醫院等機構類型。",
+  description: "報告汪評鑑小教室：長照機構及醫院評鑑準備教學系列，涵蓋居家服務、日照、住宿型、護理之家、醫院等 14 類機構。",
   path: "/school",
   itemListElement: courses
     .filter((c) => c.available)
@@ -163,6 +163,15 @@ const jsonLd = educationalContentJsonLd({
       description: c.desc,
     })),
 });
+
+const breadcrumb = breadcrumbListJsonLd([
+  { name: "首頁", url: "https://reportwang.com" },
+  { name: "評鑑小教室", url: "https://reportwang.com/school" },
+]);
+
+const org = organizationJsonLd();
+
+const jsonLd = mergeJsonLdGraph(itemList, breadcrumb, org);
 
 export default function SchoolPage() {
   return (
