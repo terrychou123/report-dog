@@ -85,7 +85,7 @@ function ConfirmPageInner() {
     }
   };
 
-  // 其他流程（PKCE code、hash session）維持 auto-verify
+  // hash session 流程（recovery / magic link implicit flow）auto-verify
   useEffect(() => {
     // token_hash flow 改為手動點擊，不在此自動驗證
     if (params.token_hash && params.type) return;
@@ -93,22 +93,8 @@ function ConfirmPageInner() {
     const supabase = createClient();
 
     const run = async () => {
-      // PKCE flow: exchange code using browser client（需要 localStorage code_verifier）
-      // 註：Google OAuth 已改走 /auth/oauth-callback server handler，此分支只剩 email PKCE confirmation
-      if (params.code) {
-        const { error } = await supabase.auth.exchangeCodeForSession(params.code);
-        if (!error) {
-          await fireSignUpSideEffects();
-          router.replace(params.next);
-        } else {
-          trackEvent("verify_error", {
-            flow: params.flowParam ? "signup" : "other",
-            reason: error.message,
-          });
-          router.replace(`/auth/error?error=${encodeURIComponent(error.message)}${params.flowParam}`);
-        }
-        return;
-      }
+      // 註：PKCE code 流程已移至 /auth/callback server route handler，
+      // 此頁面不再處理 code 參數，避免 localStorage code_verifier 跨裝置失效問題。
 
       // Session via hash fragments（recovery / magic link implicit flow）
       if (params.access_token && params.refresh_token) {
