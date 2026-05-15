@@ -31,7 +31,8 @@ const RULES: Rule[] = [
   // High：典型編造詞彙
   { pattern: /AI\s*自動生成\s*(ISP|計畫書|評估報告|報告書|個別化服務計畫)/, severity: "high", reason: "AI 從零生成（不存在）" },
   { pattern: /(快速)?起稿\s*(ISP|計畫|個別化)/, severity: "high", reason: "AI 起稿（不存在）" },
-  { pattern: /(從零|空白頁)\s*(撰寫|生成|產生|開始)/, severity: "high", reason: "從零生成（不存在）" },
+  // 僅在 AI 上下文才視為可疑（「從零開始手寫」「需要從零建立」等人工語境不計）
+  { pattern: /AI[^。]{0,50}(從零|空白頁)\s*(生成|產生|起草|撰寫)/, severity: "high", reason: "AI 從零生成（不存在）" },
   { pattern: /AI\s*(會|可)?(自動)?(生成|產生|撰寫|起草)\s*(?:符合|完整|整份|一份)?\s*(計畫|報告|評估|文件|表單)/, severity: "high", reason: "AI 從零生成文件" },
   { pattern: /(多元)?障別\s*(適配|分流|對應)/, severity: "high", reason: "障別分流（不存在）" },
   { pattern: /針對\s*(智能障礙|自閉症|肢體障礙|多重障礙)[^，。]*?(框架|範本|模板)/, severity: "high", reason: "障別客製框架（不存在）" },
