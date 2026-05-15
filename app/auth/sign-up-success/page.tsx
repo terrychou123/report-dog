@@ -41,7 +41,7 @@ function SignUpSuccessInner() {
       type: "signup",
       email,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/confirm?next=/onboarding`,
+        emailRedirectTo: `${window.location.origin}/auth/email-callback?next=/onboarding`,
       },
     });
 
