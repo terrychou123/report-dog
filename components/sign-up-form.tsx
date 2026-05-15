@@ -70,7 +70,7 @@ export function SignUpForm({
         return;
       }
       trackEvent("sign_up", { method: "email", source: signupSource ?? "direct", slug: signupSlug ?? undefined });
-      router.push("/auth/sign-up-success");
+      router.push(`/auth/sign-up-success?email=${encodeURIComponent(email)}`);
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : "發生錯誤，請稍後再試");
     } finally {
