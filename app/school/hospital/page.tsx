@@ -30,14 +30,14 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "醫院評鑑小教室｜115年度醫院評鑑基準（區域醫院、地區醫院）｜報告汪",
+  title: "115年度醫院評鑑基準｜124條完整解析（區域、地區醫院）｜報告汪",
   description:
-    "115 年度衛生福利部醫院評鑑基準完整解說，共 2 篇、15 章、124 條，適用區域醫院及地區醫院。含必要、重點、試評、可免評條文分類說明，幫助醫院管理人員快速掌握評鑑重點。",
+    "115 年度衛福部醫院評鑑基準完整解析，共 2 篇 15 章 124 條，適用區域醫院及地區醫院。標示必要、重點、試評、可免評條文分類，附免費備評資料下載，協助醫院管理人員掌握評鑑重點。",
   keywords: [
     "醫院評鑑",
+    "115年度醫院評鑑基準",
     "區域醫院評鑑",
     "地區醫院評鑑",
-    "115年度醫院評鑑基準",
     "醫院評鑑基準及評量項目",
     "衛生福利部醫院評鑑",
     "評鑑小教室",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://reportwang.com/school/hospital" },
   openGraph: {
-    title: "醫院評鑑小教室｜115年度醫院評鑑基準｜報告汪",
-    description: "124 條醫院評鑑基準完整解說（區域醫院、地區醫院適用），掌握評鑑重點，提升通過率。",
+    title: "115年度醫院評鑑基準｜124條完整解析（區域、地區醫院）｜報告汪",
+    description: "124 條醫院評鑑基準完整解說（區域醫院、地區醫院適用），附免費備評資料下載。",
     url: "https://reportwang.com/school/hospital",
   },
 };
