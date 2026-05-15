@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { eq, desc } from "drizzle-orm";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -88,12 +88,14 @@ async function getPost(slug: string) {
 }
 
 export async function generateStaticParams() {
+  // 只預渲染最近 20 篇：避免 build 時同時開啟 200+ DB 連線造成 USE_CACHE_TIMEOUT。
+  // 其餘文章首次請求時由 "use cache" 快取，效能等同靜態預渲染。
   const posts = await db
     .select({ slug: blogPosts.slug })
     .from(blogPosts)
-    .where(eq(blogPosts.status, "published"));
-  // Cache Components 要求至少一個項目；build 時 DB 若無資料則提供佔位符
-  // 佔位符路徑會觸發 notFound()，Next.js 會正確生成 404 頁
+    .where(eq(blogPosts.status, "published"))
+    .orderBy(desc(blogPosts.publishedAt))
+    .limit(20);
   if (posts.length === 0) return [{ slug: "_placeholder" }];
   return posts.map((p) => ({ slug: p.slug }));
 }

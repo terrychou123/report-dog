@@ -54,7 +54,7 @@ export function SignUpForm({
         password,
         options: {
           // next=/onboarding 是 sign_up_complete GA4 事件的觸發依據，異動前請一併更新 confirm/page.tsx
-          emailRedirectTo: `${window.location.origin}/auth/callback?next=/onboarding`,
+          emailRedirectTo: `${window.location.origin}/auth/email-callback?next=/onboarding`,
           data: {
             newsletter_opt_in: subscribeNewsletter,
             signup_source: signupSource ?? null,

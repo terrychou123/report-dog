@@ -9,8 +9,8 @@ import { createClient } from "@/lib/supabase/server";
 // 找不到 code_verifier 而失敗。Server route 使用 cookie-based session，不依賴 localStorage。
 //
 // 流程：
-//   PKCE (code)    → exchangeCodeForSession server-side → /auth/email-success
-//   OTP (token_hash) → pass-through to /auth/confirm (手動點擊，防 email scanner)
+//   PKCE (code)      → exchangeCodeForSession server-side → /auth/email-success
+//   OTP (token_hash) → pass-through to /auth/confirm（手動點擊，防 email scanner）
 export async function GET(req: NextRequest): Promise<NextResponse> {
   const url = new URL(req.url);
   const code = url.searchParams.get("code");
