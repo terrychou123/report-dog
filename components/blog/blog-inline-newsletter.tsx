@@ -7,30 +7,14 @@ import { toast } from "sonner";
 import { MailIcon } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 
-type Placement = "mid" | "end";
+const HEADING = "想拿到下一份評鑑範本？";
+const SUB =
+  "免費訂閱電子報，不定期收到 PDCA、SOAP 寫作範例、評鑑基準更新與範本下載連結（可隨時退訂）。";
 
-const COPY: Record<Placement, { heading: string; sub: string }> = {
-  mid: {
-    heading: "想拿到下一份評鑑範本？",
-    sub: "免費訂閱電子報，每週收到 PDCA、SOAP 寫作範例、評鑑基準更新與範本下載連結（可隨時退訂）。",
-  },
-  end: {
-    heading: "喜歡這篇文章？訂閱評鑑實戰電子報",
-    sub: "每週收到評鑑常見缺失分析、PDCA／SOAP 寫作範例與最新範本通知（可隨時退訂）。",
-  },
-};
-
-export function BlogInlineNewsletter({
-  slug,
-  placement = "end",
-}: {
-  slug: string;
-  placement?: Placement;
-}) {
+export function BlogInlineNewsletter({ slug }: { slug: string }) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
-  const copy = COPY[placement];
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -47,7 +31,7 @@ export function BlogInlineNewsletter({
         toast.error(data.error ?? "發生錯誤，請稍後再試");
         return;
       }
-      trackEvent("newsletter_subscribe", { method: "blog-inline", placement, slug });
+      trackEvent("newsletter_subscribe", { method: "blog-inline", slug });
       setDone(true);
       setEmail("");
     } catch {
@@ -58,22 +42,14 @@ export function BlogInlineNewsletter({
   };
 
   return (
-    <aside
-      className={
-        placement === "mid"
-          ? "my-12 rounded-xl border-2 border-primary/30 bg-primary/5 p-6 md:p-8"
-          : "mt-12 rounded-xl border bg-muted/40 p-6 md:p-8"
-      }
-    >
+    <aside className="my-12 rounded-xl border-2 border-primary/30 bg-primary/5 p-6 md:p-8">
       <div className="flex items-start gap-4">
         <div className="hidden sm:flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
           <MailIcon className="h-5 w-5 text-primary" />
         </div>
         <div className="flex-1 min-w-0">
-          <h3 className="text-base md:text-lg font-semibold mb-1">
-            {copy.heading}
-          </h3>
-          <p className="text-sm text-muted-foreground mb-4">{copy.sub}</p>
+          <h3 className="text-base md:text-lg font-semibold mb-1">{HEADING}</h3>
+          <p className="text-sm text-muted-foreground mb-4">{SUB}</p>
 
           {done ? (
             <p className="text-sm font-medium text-primary">

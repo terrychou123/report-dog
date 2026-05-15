@@ -12,11 +12,11 @@ type Source = "school" | "docs";
 const COPY: Record<Source, { heading: string; sub: string }> = {
   school: {
     heading: "想掌握最新評鑑動態？",
-    sub: "免費訂閱電子報，每週收到評鑑基準更新、常見缺失分析與備審實戰技巧（可隨時退訂）。",
+    sub: "免費訂閱電子報，不定期收到評鑑基準更新、常見缺失分析與備審實戰技巧（可隨時退訂）。",
   },
   docs: {
     heading: "學到實用技巧？訂閱繼續深化",
-    sub: "每週收到評鑑實戰技巧、PDCA 範例與最新功能通知（可隨時退訂）。",
+    sub: "不定期收到評鑑實戰技巧、PDCA 範例與最新功能通知（可隨時退訂）。",
   },
 };
 

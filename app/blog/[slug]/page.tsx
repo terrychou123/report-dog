@@ -339,16 +339,13 @@ export default async function BlogPostPage({ params }: Props) {
               {/* 中段電子報（第一章結束後，約閱讀 25%）— 只在 H2 >= 2 的文章顯示 */}
               {afterMidHtml && (
                 <>
-                  <BlogInlineNewsletter slug={post.slug} placement="mid" />
+                  <BlogInlineNewsletter slug={post.slug} />
                   <div
                     className="blog-content"
                     dangerouslySetInnerHTML={{ __html: afterMidHtml }}
                   />
                 </>
               )}
-
-              {/* 文末電子報訂閱 */}
-              <BlogInlineNewsletter slug={post.slug} placement="end" />
 
               {/* CTA 卡片 */}
               <div className="mt-16 rounded-xl border bg-primary/5 p-8 md:p-10 text-center">
