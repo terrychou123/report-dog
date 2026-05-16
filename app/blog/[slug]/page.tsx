@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
-import { eq, desc } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -55,6 +55,8 @@ function isValidImageUrl(url: string | null): url is string {
 
 async function getPost(slug: string) {
   "use cache";
+  // "_placeholder" 是 generateStaticParams 的佔位符，不需查 DB
+  if (slug === "_placeholder") return undefined;
   cacheTag("blog-post", `blog-post-${slug}`);
   const [post] = await db.select().from(blogPosts).where(eq(blogPosts.slug, slug));
   if (!post) return undefined;
@@ -87,17 +89,11 @@ async function getPost(slug: string) {
   return { ...post, content: withInlineLinks, toc, howtoSteps, faqItems };
 }
 
+// Cache Components 要求 generateStaticParams 至少回傳一筆，
+// 但真實 blog 文章不在 build 時預渲染（首次 request 由 "use cache" 快取，效能等同靜態）。
+// "_placeholder" 預渲染為 404 頁面，不需查 DB。
 export async function generateStaticParams() {
-  // 只預渲染最近 20 篇：避免 build 時同時開啟 200+ DB 連線造成 USE_CACHE_TIMEOUT。
-  // 其餘文章首次請求時由 "use cache" 快取，效能等同靜態預渲染。
-  const posts = await db
-    .select({ slug: blogPosts.slug })
-    .from(blogPosts)
-    .where(eq(blogPosts.status, "published"))
-    .orderBy(desc(blogPosts.publishedAt))
-    .limit(20);
-  if (posts.length === 0) return [{ slug: "_placeholder" }];
-  return posts.map((p) => ({ slug: p.slug }));
+  return [{ slug: "_placeholder" }];
 }
 
 
