@@ -34,7 +34,8 @@
     "wiki:lint": "tsx scripts/wiki-lint.ts",
     "verify:ltc-codes": "tsx scripts/verify-ltc-care-combinations.ts",
     "append:general-nursing-home-custom": "dotenv-cli -e .env.local -- tsx scripts/append-general-nursing-home-custom-sheets.ts",
-    "audit:blog": "tsx --env-file=.env.local scripts/audit-blog-toc-tldr.ts"
+    "audit:blog": "tsx --env-file=.env.local scripts/audit-blog-toc-tldr.ts",
+    "update-blog-seo": "tsx --env-file=.env.local scripts/update-blog-seo.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
