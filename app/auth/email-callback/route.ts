@@ -35,6 +35,20 @@ function mapSupabaseAuthError(errorCode: string, errorDescription?: string | nul
   }
 }
 
+// PKCE exchangeCodeForSession 回傳的 JS Error 物件，錯誤訊息比對
+function mapExchangeError(message: string): string {
+  const lower = message.toLowerCase();
+  // 跨裝置/瀏覽器開啟驗證信導致 code_verifier 遺失
+  if (lower.includes("pkce") || lower.includes("code verifier") || lower.includes("code_verifier")) {
+    return "此驗證連結需在原本的瀏覽器（電腦）開啟。請回到電腦點擊信件中的連結，或點下方「重寄驗證信」重新申請。";
+  }
+  // token / code 已過期或被消耗
+  if (lower.includes("expired") || lower.includes("invalid") || lower.includes("already been used")) {
+    return "驗證連結已失效或被使用過，請重新申請";
+  }
+  return message;
+}
+
 export async function GET(req: NextRequest): Promise<NextResponse> {
   const url = new URL(req.url);
   const code = url.searchParams.get("code");
@@ -78,8 +92,9 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
     const { error } = await supabase.auth.exchangeCodeForSession(code);
 
     if (error) {
+      const friendly = mapExchangeError(error.message);
       return NextResponse.redirect(
-        `${origin}/auth/error?error=${encodeURIComponent(error.message)}&flow=signup`,
+        `${origin}/auth/error?error=${encodeURIComponent(friendly)}&flow=signup`,
       );
     }
 
