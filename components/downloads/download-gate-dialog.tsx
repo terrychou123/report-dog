@@ -19,6 +19,22 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const anchorRef = useRef<HTMLAnchorElement>(null);
+  // 用 ref 追蹤是否已成功送出，判斷關閉時是否為放棄行為
+  const submittedRef = useRef(false);
+
+  const handleOpen = () => {
+    submittedRef.current = false;
+    setOpen(true);
+    trackEvent("download_dialog_open", { file: file.slug });
+  };
+
+  const handleOpenChange = (next: boolean) => {
+    if (!next && !submittedRef.current) {
+      trackEvent("download_dialog_close_without_submit", { file: file.slug });
+    }
+    setOpen(next);
+    if (!next) submittedRef.current = false;
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -35,9 +51,11 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
 
       if (!res.ok) {
         toast.error(data.error ?? "發生錯誤，請稍後再試");
+        trackEvent("download_dialog_submit_error", { file: file.slug, status: res.status });
         return;
       }
 
+      submittedRef.current = true;
       trackEvent("lead_capture", { source: "download", file: file.slug });
 
       // 用隱藏 <a> 觸發下載，保留瀏覽器建議的檔名
@@ -51,6 +69,7 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
       setEmail("");
     } catch {
       toast.error("網路錯誤，請稍後再試");
+      trackEvent("download_dialog_submit_error", { file: file.slug, status: 0 });
     } finally {
       setLoading(false);
     }
@@ -62,16 +81,16 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
       <a ref={anchorRef} className="hidden" aria-hidden="true" />
 
       <span
-        onClick={() => setOpen(true)}
+        onClick={handleOpen}
         role="button"
         tabIndex={0}
-        onKeyDown={(e) => e.key === "Enter" && setOpen(true)}
+        onKeyDown={(e) => e.key === "Enter" && handleOpen()}
         className="contents"
       >
         {trigger}
       </span>
 
-      <Dialog open={open} onOpenChange={setOpen}>
+      <Dialog open={open} onOpenChange={handleOpenChange}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle>免費下載：{file.name}</DialogTitle>

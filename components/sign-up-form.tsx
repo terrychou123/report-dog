@@ -66,13 +66,16 @@ export function SignUpForm({
       // Supabase 對已存在 email 不回 error，而是回 identities: []（防 user enumeration）
       if (data.user && data.user.identities && data.user.identities.length === 0) {
         setError("此 Email 已被註冊，請改用登入或重設密碼");
+        trackEvent("sign_up_error", { reason: "email_already_registered" });
         setIsLoading(false);
         return;
       }
       trackEvent("sign_up", { method: "email", source: signupSource ?? "direct", slug: signupSlug ?? undefined });
       router.push(`/auth/sign-up-success?email=${encodeURIComponent(email)}`);
     } catch (error: unknown) {
+      const reason = error instanceof Error ? error.message : "unknown";
       setError(error instanceof Error ? error.message : "發生錯誤，請稍後再試");
+      trackEvent("sign_up_error", { reason, method: "email" });
     } finally {
       setIsLoading(false);
     }

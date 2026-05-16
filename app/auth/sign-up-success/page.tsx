@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useState, useEffect } from "react";
+import { Suspense, useState, useEffect, useRef } from "react";
 import { MailCheckIcon } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 
@@ -24,6 +24,13 @@ function SignUpSuccessInner() {
   const [resendState, setResendState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [cooldown, setCooldown] = useState(0);
+  const sentEventRef = useRef(false);
+
+  useEffect(() => {
+    if (sentEventRef.current) return;
+    sentEventRef.current = true;
+    trackEvent("verification_email_sent", { email_domain: email.split("@")[1] ?? "unknown" });
+  }, [email]);
 
   useEffect(() => {
     if (cooldown <= 0) return;
@@ -55,12 +62,13 @@ function SignUpSuccessInner() {
         error.message.toLowerCase().includes("security purposes") ||
         error.message.toLowerCase().includes("60 seconds") ||
         error.status === 429;
-      setErrorMsg(isRateLimit ? "請稍候 60 秒後再重寄" : error.message);
-      trackEvent("cta_click", { source: "resend-verification-error" });
+      const errMsg = isRateLimit ? "請稍候 60 秒後再重寄" : error.message;
+      setErrorMsg(errMsg);
+      trackEvent("verification_resend_click", { status: "error", reason: isRateLimit ? "rate_limit" : error.message });
     } else {
       setResendState("sent");
       setCooldown(RESEND_COOLDOWN);
-      trackEvent("cta_click", { source: "resend-verification" });
+      trackEvent("verification_resend_click", { status: "success" });
     }
   };
 

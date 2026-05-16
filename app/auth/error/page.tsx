@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Suspense } from "react";
+import { VerifyErrorTracker } from "@/components/auth/verify-error-tracker";
 
 async function ErrorContent({
   searchParams,
@@ -65,6 +66,7 @@ export default function Page({
             <CardContent>
               <Suspense>
                 <ErrorContent searchParams={searchParams} />
+                <VerifyErrorTracker />
               </Suspense>
             </CardContent>
           </Card>

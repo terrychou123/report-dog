@@ -84,7 +84,10 @@ export default function RootLayout({
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+                var _gaPath = window.location.pathname;
+                var _gaInternal = ['/admin','/protected','/blog-admin'].some(function(p){ return _gaPath.startsWith(p); });
+                if (_gaInternal) { gtag('set', { traffic_type: 'internal' }); }
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', { send_page_view: !_gaInternal });
               `}
             </Script>
           </>

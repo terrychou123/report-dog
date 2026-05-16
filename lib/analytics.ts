@@ -13,13 +13,22 @@ declare global {
 const BOT_UA_RE =
   /bot|crawler|spider|headlesschrome|phantomjs|slurp|wget|curl|pingdom|uptimerobot|statuscake|facebookexternalhit/i;
 
+// 內部後台路徑：這些頁面的活動不應計入 GA 報表
+const INTERNAL_PATH_PREFIXES = ["/admin", "/protected", "/blog-admin"];
+
 function isLikelyBot(): boolean {
   if (typeof navigator === "undefined") return true;
   if (navigator.webdriver) return true; // headless selenium / puppeteer
   return BOT_UA_RE.test(navigator.userAgent ?? "");
 }
 
-/** 送出 GA4 自訂事件；SSR、bot UA、localhost、gtag 未載入或拋例外時皆為 no-op */
+function isInternalPath(): boolean {
+  if (typeof window === "undefined") return false;
+  const path = window.location.pathname;
+  return INTERNAL_PATH_PREFIXES.some((prefix) => path.startsWith(prefix));
+}
+
+/** 送出 GA4 自訂事件；SSR、bot UA、localhost、內部路徑、gtag 未載入或拋例外時皆為 no-op */
 export function trackEvent(
   eventName: string,
   params?: Record<string, unknown>,
@@ -27,6 +36,8 @@ export function trackEvent(
   if (typeof window === "undefined" || isLikelyBot()) return;
   // localhost 事件不送 prod GA，避免汙染報表
   if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") return;
+  // 後台路徑不送 GA，避免內部運營活動汙染分析數據
+  if (isInternalPath()) return;
   if (typeof window.gtag !== "function") return;
   try {
     window.gtag("event", eventName, params);

@@ -93,8 +93,12 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
 
     if (error) {
       const friendly = mapExchangeError(error.message);
+      const lower = error.message.toLowerCase();
+      const reason = lower.includes("pkce") || lower.includes("code verifier") ? "pkce_mismatch"
+        : lower.includes("expired") || lower.includes("already been used") ? "expired"
+        : "exchange_failed";
       return NextResponse.redirect(
-        `${origin}/auth/error?error=${encodeURIComponent(friendly)}&flow=signup`,
+        `${origin}/auth/error?error=${encodeURIComponent(friendly)}&flow=signup&reason=${reason}`,
       );
     }
 
