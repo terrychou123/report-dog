@@ -5,7 +5,7 @@ import { Suspense } from "react";
 async function ErrorContent({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; flow?: string }>;
+  searchParams: Promise<{ error?: string; flow?: string; reason?: string }>;
 }) {
   const params = await searchParams;
   const isSignupFlow = params?.flow === "signup";
@@ -15,38 +15,36 @@ async function ErrorContent({
       <p className="text-sm text-muted-foreground">
         {params?.error ?? "發生未知錯誤，請稍後再試。"}
       </p>
-      <p className="mt-4 text-sm text-muted-foreground">
-        {isSignupFlow ? (
-          <>
-            驗證連結可能已被使用或過期。請{" "}
+      {isSignupFlow ? (
+        <div className="mt-4 flex flex-col gap-3">
+          <Link
+            href="/auth/sign-up"
+            className="inline-flex w-full items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm hover:bg-accent hover:text-accent-foreground"
+          >
+            重寄驗證信
+          </Link>
+          <p className="text-sm text-muted-foreground">
+            已驗證完成？{" "}
             <Link
               href="/auth/login"
               className="underline underline-offset-4 hover:text-foreground"
             >
-              嘗試直接登入
+              直接登入
             </Link>
-            （若驗證已完成），或{" "}
-            <Link
-              href="/auth/sign-up"
-              className="underline underline-offset-4 hover:text-foreground"
-            >
-              重新註冊
-            </Link>
-            。
-          </>
-        ) : (
-          <>
-            請{" "}
-            <Link
-              href="/auth/forgot-password"
-              className="underline underline-offset-4 hover:text-foreground"
-            >
-              重新申請密碼重設連結
-            </Link>
-            ，連結僅在 1 小時內有效。
-          </>
-        )}
-      </p>
+          </p>
+        </div>
+      ) : (
+        <p className="mt-4 text-sm text-muted-foreground">
+          請{" "}
+          <Link
+            href="/auth/forgot-password"
+            className="underline underline-offset-4 hover:text-foreground"
+          >
+            重新申請密碼重設連結
+          </Link>
+          ，連結僅在 1 小時內有效。
+        </p>
+      )}
     </>
   );
 }
@@ -54,7 +52,7 @@ async function ErrorContent({
 export default function Page({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string; flow?: string }>;
+  searchParams: Promise<{ error?: string; flow?: string; reason?: string }>;
 }) {
   return (
     <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">

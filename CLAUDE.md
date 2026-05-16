@@ -76,7 +76,7 @@ NEXT_PUBLIC_GA_ID=           # GA4 Measurement ID（留空則不載入 GA script
 - `cta_click` — CTA 按鈕點擊（source: `{page}-hero|bottom|blog-mid-cta|…`）
 - `sign_up` — 註冊 form 送出（components/sign-up-form.tsx）
 - `oauth_start` / `oauth_complete` — Google OAuth 流程（components/auth/google-auth-button.tsx / app/auth/oauth-success/page.tsx）
-- `sign_up_complete` — Email 驗證完成（app/auth/confirm/page.tsx）
+- `sign_up_complete` — Email 驗證完成（app/auth/email-success/page.tsx）
 - `login` — 登入成功，含 email 與 OAuth（components/login-form.tsx / app/auth/oauth-success/page.tsx）
 
 **Lead capture**
@@ -159,7 +159,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 - `/school/*` — Evaluation learning content for 12 facility types with sub-pages each
 - Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`
 
-**Auth pages:** `/auth/login`, `/auth/sign-up`, `/auth/forgot-password`, `/auth/update-password`, `/auth/callback`, `/auth/confirm`, `/auth/error`
+**Auth pages:** `/auth/login`, `/auth/sign-up`, `/auth/sign-up-success`, `/auth/forgot-password`, `/auth/update-password`, `/auth/callback`, `/auth/confirm`, `/auth/email-callback` (server route — email 驗證 PKCE/OTP 進入點), `/auth/email-success`, `/auth/oauth-callback`, `/auth/oauth-success`, `/auth/error`
 
 **Authenticated (`/(dashboard)/*`):**
 - `/report`, `/report/[id]` — Report list and detail
