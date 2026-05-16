@@ -72,11 +72,11 @@ export default function RootLayout({
             __html: mergeJsonLdGraph(organizationJsonLd(), websiteWithSearchJsonLd()),
           }}
         />
-        {/* Google Analytics (GA4) — 僅在設定 NEXT_PUBLIC_GA_ID 時載入（dev 不設值可避免汙染報表） */}
-        {process.env.NEXT_PUBLIC_GA_ID && (
+        {/* Google Analytics (GA4) — production only；GA ID 是公開值，與 AdSense 同理可寫死 */}
+        {process.env.NODE_ENV === "production" && (
           <>
             <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              src="https://www.googletagmanager.com/gtag/js?id=G-HVVZ9LQR8F"
               strategy="afterInteractive"
             />
             <Script id="gtag-init" strategy="afterInteractive">
@@ -87,7 +87,7 @@ export default function RootLayout({
                 var _gaPath = window.location.pathname;
                 var _gaInternal = ['/admin','/protected','/blog-admin'].some(function(p){ return _gaPath.startsWith(p); });
                 if (_gaInternal) { gtag('set', { traffic_type: 'internal' }); }
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', { send_page_view: !_gaInternal });
+                gtag('config', 'G-HVVZ9LQR8F', { send_page_view: !_gaInternal });
               `}
             </Script>
           </>
