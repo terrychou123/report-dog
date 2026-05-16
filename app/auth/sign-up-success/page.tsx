@@ -37,7 +37,7 @@ function SignUpSuccessInner() {
     setErrorMsg(null);
 
     const supabase = createClient();
-    const { error } = await supabase.auth.resend({
+    const { data, error } = await supabase.auth.resend({
       type: "signup",
       email,
       options: {
@@ -45,9 +45,17 @@ function SignUpSuccessInner() {
       },
     });
 
+    // 診斷 log：確認 Supabase 回應（在 browser devtools 可見）
+    console.log("[resend-verification]", { data, error, email });
+
     if (error) {
       setResendState("error");
-      setErrorMsg(error.message);
+      // 常見情況：Supabase 每分鐘僅允許寄一封；rate limit 訊息翻譯為友善中文
+      const isRateLimit =
+        error.message.toLowerCase().includes("security purposes") ||
+        error.message.toLowerCase().includes("60 seconds") ||
+        error.status === 429;
+      setErrorMsg(isRateLimit ? "請稍候 60 秒後再重寄" : error.message);
       trackEvent("cta_click", { source: "resend-verification-error" });
     } else {
       setResendState("sent");
@@ -88,9 +96,14 @@ function SignUpSuccessInner() {
 
               <div className="border-t pt-4 flex flex-col gap-3">
                 {resendState === "sent" ? (
-                  <p className="text-sm text-center text-green-600 font-medium">
-                    ✓ 驗證信已重寄{cooldown > 0 ? `（${cooldown} 秒後可再次重寄）` : ""}
-                  </p>
+                  <div className="flex flex-col gap-1.5 text-center">
+                    <p className="text-sm text-green-600 font-medium">
+                      ✓ 驗證信已重寄{cooldown > 0 ? `（${cooldown} 秒後可再次重寄）` : ""}
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      請等 1-2 分鐘並查看<strong>垃圾郵件</strong>或<strong>促銷</strong>資料夾
+                    </p>
+                  </div>
                 ) : (
                   <Button
                     variant="outline"
