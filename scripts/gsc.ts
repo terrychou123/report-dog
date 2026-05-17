@@ -23,7 +23,6 @@ import http from "http";
 import type { AddressInfo } from "net";
 
 // ── 設定 ──────────────────────────────────────────────────────────────────
-const SITE = "sc-domain:reportwang.com"; // Domain property
 const OAUTH_CLIENT_PATH = path.join(os.homedir(), ".config", "gcloud", "reportwang-oauth-desktop.json");
 const TOKEN_CACHE_PATH = path.join(os.homedir(), ".config", "gcloud", "reportwang-gsc-token.json");
 const SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"];
@@ -39,6 +38,8 @@ const args = Object.fromEntries(
     })
 );
 
+// --site 優先，其次 GSC_SITE env，最後預設 Domain property
+const SITE = (args.site as string) ?? process.env.GSC_SITE ?? "sc-domain:reportwang.com";
 const report = (args.report as string) ?? "top-queries";
 const days = parseInt((args.days as string) ?? "28", 10);
 const limit = parseInt((args.limit as string) ?? "25", 10);
