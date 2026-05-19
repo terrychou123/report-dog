@@ -14,7 +14,8 @@ const BOT_UA_RE =
   /bot|crawler|spider|headlesschrome|phantomjs|slurp|wget|curl|pingdom|uptimerobot|statuscake|facebookexternalhit/i;
 
 // 內部後台路徑：這些頁面的活動不應計入 GA 報表
-const INTERNAL_PATH_PREFIXES = ["/admin", "/protected", "/blog-admin"];
+// /protected/* 是付費用戶的 dashboard，必須計入分析；只過濾管理員後台
+const INTERNAL_PATH_PREFIXES = ["/admin", "/blog-admin"];
 
 function isLikelyBot(): boolean {
   if (typeof navigator === "undefined") return true;
