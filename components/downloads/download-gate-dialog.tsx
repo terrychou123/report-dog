@@ -105,6 +105,8 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
               <Input
                 id="gate-email"
                 type="email"
+                inputMode="email"
+                autoComplete="email"
                 placeholder="you@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
