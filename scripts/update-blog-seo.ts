@@ -19,11 +19,13 @@ const updates = [
   },
 ];
 
-const baseUrl = process.env.SITE_URL || "https://reportwang.com";
+const baseUrl = process.env.SITE_URL;
+if (!baseUrl) throw new Error("SITE_URL 未設定（避免誤擊 production）。本機跑法：SITE_URL=http://localhost:3000 npx tsx scripts/update-blog-seo.ts");
 const cronSecret = process.env.CRON_SECRET;
 if (!cronSecret) throw new Error("CRON_SECRET 未設定，請先 vercel env pull 或在 .env.local 加上 CRON_SECRET");
 
 async function main() {
+  let anyFailed = false;
   for (const u of updates) {
     const [updated] = await db
       .update(blogPosts)
@@ -37,17 +39,24 @@ async function main() {
 
     if (!updated) {
       console.error(`✗ slug 不存在於 DB：${u.slug}`);
+      anyFailed = true;
       continue;
     }
     console.log(`✓ DB 已更新：${u.slug}`);
 
-    const res = await fetch(`${baseUrl}/api/revalidate-blog?slug=${u.slug}`, {
+    const res = await fetch(`${baseUrl}/api/revalidate-blog?slug=${encodeURIComponent(u.slug)}`, {
       method: "POST",
       headers: { Authorization: `Bearer ${cronSecret}` },
     });
     const body = await res.text();
-    console.log(`  快取失效：${res.status === 200 ? "✓" : `✗ HTTP ${res.status} ${body}`}`);
+    if (res.status === 200) {
+      console.log(`  快取失效：✓`);
+    } else {
+      console.error(`  快取失效：✗ HTTP ${res.status} ${body}`);
+      anyFailed = true;
+    }
   }
+  if (anyFailed) process.exit(1);
 }
 
 main()

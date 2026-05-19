@@ -10,10 +10,10 @@ export async function POST(request: NextRequest) {
   }
 
   const slug = request.nextUrl.searchParams.get("slug");
-  if (!slug) {
-    return NextResponse.json({ error: "Missing slug" }, { status: 400 });
+  if (!slug || !/^[a-z0-9][a-z0-9-]{0,199}$/.test(slug)) {
+    return NextResponse.json({ error: "Missing or invalid slug" }, { status: 400 });
   }
 
-  revalidateTag(`blog-post-${slug}`, { expire: 0 });
+  revalidateTag(`blog-post-${slug}`, { expire: 0 }); // expire:0 = 立即失效（Next.js CacheLifeConfig）
   return NextResponse.json({ ok: true, slug });
 }

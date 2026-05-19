@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 
 // 把 Supabase verifyOtp 的錯誤訊息翻成繁中 + 判斷是否為「過期/已使用」型錯誤
@@ -125,7 +126,7 @@ function ConfirmPageInner() {
       type: "signup",
       email: resendEmail,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/email-callback?next=/onboarding`,
+        emailRedirectTo: `${window.location.origin}/auth/email-callback?next=${encodeURIComponent(params.next)}`,
       },
     });
 
@@ -135,10 +136,12 @@ function ConfirmPageInner() {
         error.message.toLowerCase().includes("security purposes") ||
         error.message.toLowerCase().includes("60 seconds") ||
         error.status === 429;
-      setResendErrorMsg(isRateLimit ? "請稍候 60 秒後再重寄" : error.message);
+      // 非 rate-limit 錯誤統一顯示泛用訊息，避免 Supabase 原始 error.message 洩漏 email 是否存在
+      setResendErrorMsg(isRateLimit ? "請稍候 60 秒後再重寄" : "無法重寄驗證信，請確認 Email 是否正確");
+      setResendCooldown(RESEND_COOLDOWN); // 錯誤也啟動冷卻，防止快速重試探測
       trackEvent("verification_resend_click", {
         status: "error",
-        reason: isRateLimit ? "rate_limit" : error.message,
+        reason: isRateLimit ? "rate_limit" : "resend_failed",
         from: "confirm_error",
       });
     } else {
@@ -266,8 +269,8 @@ function ConfirmPageInner() {
 
               {errorExpired && resendState === "sent" && (
                 <div className="flex flex-col gap-2 text-center">
-                  <p className="text-sm text-green-600 font-medium">
-                    ✓ 新的驗證信已寄出
+                  <p className="text-sm text-green-600 font-medium flex items-center justify-center gap-1">
+                    <CheckCircle2 className="h-4 w-4" />新的驗證信已寄出
                   </p>
                   <p className="text-xs text-muted-foreground">
                     請前往 <span className="font-mono break-all">{resendEmail}</span> 查看，包含<strong>垃圾郵件</strong>與<strong>促銷</strong>資料夾。

@@ -100,7 +100,7 @@ export function SignUpForm({
                 <button
                   type="button"
                   onClick={() => setShowEmailForm(true)}
-                  className="inline-flex items-center justify-center gap-1 text-sm text-muted-foreground hover:text-foreground"
+                  className="inline-flex items-center justify-center gap-1 text-sm text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded"
                 >
                   使用 Email 註冊
                   <ChevronDownIcon className="h-3.5 w-3.5" />

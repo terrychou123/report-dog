@@ -35,8 +35,8 @@ export function trackEvent(
   params?: Record<string, unknown>,
 ): void {
   if (typeof window === "undefined" || isLikelyBot()) return;
-  // localhost 事件不送 prod GA，避免汙染報表
-  if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") return;
+  // 非正式網域（localhost / Vercel preview）不送 prod GA，避免汙染報表
+  if (!window.location.hostname.endsWith("reportwang.com")) return;
   // 後台路徑不送 GA，避免內部運營活動汙染分析數據
   if (isInternalPath()) return;
   if (typeof window.gtag !== "function") return;
