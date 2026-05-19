@@ -26,11 +26,13 @@ npm run db:generate          # Generate migration files
 npm run db:studio            # Open Drizzle Studio
 npm run db:seed-templates    # Seed evaluation templates
 
-# Scripts
-npm run generate:disability-welfare-checklist  # Generate disability-welfare checklist Excel
-npm run generate:infant-daycare-checklist      # Generate infant-daycare checklist Excel
-npm run generate:youth-care-checklist          # Generate youth-care checklist Excel
-npm run generate:elderly-welfare-checklist     # Generate elderly-welfare checklist Excel
+# Scripts（完整清單見 package.json scripts）
+npm run generate:<facility>-checklist          # 產生指定機構的 Excel 自我評量表（disability-welfare / infant-daycare / youth-care / elderly-welfare / daycare / nursing-home / home-nursing / psychiatric-rehabilitation-institution / babycare / general-nursing-home）
+npm run check:evaluation-drift -- --facility=<f>  # 確認 profile ↔ supplementary itemId 對齊（drift → exit 1）
+npm run evaluation:sync <facility>             # drift check + 重生 public/downloads/*.xlsx
+npm run gsc:health                            # GSC sitemap 索引狀態快查
+npm run ga:health                             # GA4 連線狀態快查
+npm run audit:blog                            # 審核 blog 文章 TOC/TLDR 完整性
 
 # Google Search Console（讓 Claude Code 讀 GSC 數據）
 npx tsx scripts/gsc.ts --report=top-queries --days=28 --limit=20   # 最熱 query
@@ -127,7 +129,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 - `db/schema.ts` — Full schema definition
 - `db/index.ts` — DB connection (uses `postgres` driver + `DATABASE_URL`)
-- `db/migrations/` — SQL migration files (11 migrations, 0000–0010)
+- `db/migrations/` — SQL migration files（最新編號見目錄，勿在此維護計數）
 - `drizzle.config.ts` — Drizzle Kit config
 
 **Key tables:** `clients` (tags/folders), `reports`, `documents`, `revisions`, `report_revisions`, `ai_sessions`, `ai_usage`, `notifications`, `report_follows`, `blog_posts`, `template_tags`, `report_templates`, `template_tag_reports`, `template_imports`
@@ -142,7 +144,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 - `lib/ai/openrouter-client.ts` — OpenAI SDK client via OpenRouter (`anthropic/claude-sonnet-4.6`)
 - `lib/ai/usage-limit.ts` — Free tier: 1 AI call per user per UTC day (enforced via `ai_usage` table)
-- `lib/ai/evaluation-profiles/` — 12 facility-type profiles with structured evaluation criteria for AI system prompts: `daycare`, `home-care`, `nursing-home`, `hospital`, `disability-welfare`, `babycare`, `home-nursing`, `general-nursing-home`, `youth-care`, `elderly-welfare`, `psychiatric-nursing-home`, `infant-daycare`
+- `lib/ai/evaluation-profiles/` — 14 facility-type profiles with structured evaluation criteria for AI system prompts: `daycare`, `home-care`, `nursing-home`, `hospital`, `disability-welfare`, `babycare`, `home-nursing`, `general-nursing-home`, `youth-care`, `elderly-welfare`, `psychiatric-nursing-home`, `infant-daycare`, `multi-function-care`, `psychiatric-rehabilitation-institution`
 
 **Three AI endpoints:**
 1. `/api/reports/[id]/ai` — Report paragraph editing with extended thinking (streaming)
@@ -157,7 +159,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 - `/blog`, `/blog/[slug]`, `/blog/[slug]/edit`, `/blog-admin`
 - `/docs/*` — Help center (12 pages: getting-started, create-report, ai-editing, etc.)
 - `/school/*` — Evaluation learning content for 12 facility types with sub-pages each
-- Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`
+- Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`, `/multi-function-care`, `/psychiatric`
 
 **Auth pages:** `/auth/login`, `/auth/sign-up`, `/auth/sign-up-success`, `/auth/forgot-password`, `/auth/update-password`, `/auth/callback`, `/auth/confirm`, `/auth/email-callback` (server route — email 驗證 PKCE/OTP 進入點), `/auth/email-success`, `/auth/oauth-callback`, `/auth/oauth-success`, `/auth/error`
 
@@ -180,7 +182,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 ### API Routes
 
-All data mutations use Route Handlers (no server actions for data). 18 API route groups:
+All data mutations use Route Handlers (no server actions for data). API route groups:
 - Reports: `/api/reports`, `/api/reports/[id]`, `/api/reports/[id]/ai`, `/api/reports/[id]/revisions`, `/api/reports/[id]/copy`, `/api/reports/evaluation`, `/api/reports/reorder`, `/api/reports/shared`
 - Documents: `/api/documents`, `/api/documents/[id]`, `/api/documents/[id]/ai`, `/api/documents/[id]/revisions`
 - Tags: `/api/tags`, `/api/tags/[id]`, `/api/tag-reports`, `/api/tag-reports/[id]`, `/api/tags/reorder`, `/api/tag-reports/reorder`
@@ -190,9 +192,14 @@ All data mutations use Route Handlers (no server actions for data). 18 API route
 - Templates: `/api/templates`, `/api/templates/import`
 - Admin: `/api/admin/tags`, `/api/admin/tags/[id]`, `/api/admin/templates`, `/api/admin/templates/[id]`, `/api/admin/tag-reports`
 - Blog: `/api/blog`, `/api/blog/[slug]`
-- Files: `/api/convert-docx`, `/api/parse-doc`, `/api/excel/parse`, `/api/excel/export`
+- Files: `/api/convert-docx`, `/api/parse-doc`, `/api/upload-pdf`, `/api/excel/parse`, `/api/excel/export`
 - AI: `/api/ai-usage`
 - Cron: `/api/cron/cleanup-trials`
+- Leads & Newsletter: `/api/leads`, `/api/newsletter`, `/api/newsletter/unsubscribe`
+- Downloads: `/api/downloads/[file]`
+- Webhooks: `/api/webhooks/resend-inbound`
+- Auth: `/api/auth/*`
+- Misc: `/api/demo`, `/api/trial`, `/api/revalidate-blog`
 
 ### Component Conventions
 
@@ -259,6 +266,8 @@ When the user's request matches an available skill, ALWAYS invoke it using the S
 tool as your FIRST action. Do NOT answer directly, do NOT use other tools first.
 The skill has specialized workflows that produce better results than ad-hoc answers.
 
+> **Plan mode 例外**：plan mode 啟動時，以 plan workflow 為主（Phase 1 Explore agent 優先）。skill 在離開 plan mode 後的實作階段再觸發。
+
 Key routing rules:
 - Product ideas, "is this worth building", brainstorming → invoke office-hours
 - Bugs, errors, "why is this broken", 500 errors → invoke investigate
@@ -292,6 +301,8 @@ Key routing rules:
 4. 人工審核：`app/school/{facility}/**/page.tsx`、`app/{facility}/page.tsx` landing、`app/sitemap.ts`、`lib/jsonld.ts`，以及 `app/blog/[slug]` 內提及該年度的文章
 
 機構對照表（facility slug → npm script）維護於 `scripts/_evaluation-facilities.ts`，新增機構時更新此檔。
+
+> **注意**：`psychiatric-rehabilitation-institution` profile 同時涵蓋日間型（36 條）與住宿型（40 條）兩種基準；但 `supplementary-sheets/` 與 `evaluation-tips/` 分拆為 `psychiatric-rehabilitation-day.ts` + `psychiatric-rehabilitation-residential.ts` 兩檔，drift check 時須同時比對兩檔。
 
 ## graphify
 
