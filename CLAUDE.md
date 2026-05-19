@@ -297,9 +297,18 @@ Defined in `vercel.json`. One job: `/api/cron/cleanup-trials` runs daily at 3:00
 - `app/robots.ts` — robots.txt generation
 - `app/sitemap.ts` — sitemap generation
 - `lib/jsonld.ts` — JSON-LD structured data helpers
+- `app/llms.txt/route.ts` — 動態 llms.txt（school 導覽 + 最新 30 篇文章）
 - OpenGraph images in multiple route directories
 - `public/ads.txt` — Ad monetization
 - `public/downloads/` — 8 pre-built Excel template downloads for facility types
+
+**`/llms.txt` 決策（2026-05-19）**
+Google 官方明示「llms.txt 對 SEO 沒幫助」（reportwang-audit-checklist.md G3），但本專案**保留**此檔，理由：
+- 屬於主動引用策略，非作弊行為——把 school 導覽與最新文章用 LLM 友善格式集中暴露，讓 ChatGPT/Claude/Perplexity 抓取時更容易理解站內結構
+- 動態產生（非靜態 SEO 操作），與一般 SEO sitemap 屬於不同層級
+- 維護成本低（route handler 直接從 DB + `lib/school-nav-data.ts` 生成）
+- 不影響 robots/sitemap/Google 索引，純粹是 LLM-only 補充入口
+未來若 Google/AI 廠商明確表態 llms.txt 反而扣分，再評估移除
 
 ### Styling
 
