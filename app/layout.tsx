@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Geist, Noto_Serif_TC } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
@@ -104,7 +105,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <FbWebviewBanner />
+          <Suspense fallback={null}>
+            <FbWebviewBanner />
+          </Suspense>
           {children}
           <Toaster richColors />
         </ThemeProvider>
