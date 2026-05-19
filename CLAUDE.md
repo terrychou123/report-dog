@@ -218,7 +218,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 - `/pricing`, `/testimonial`, `/downloads`, `/onboarding`
 - `/blog`, `/blog/[slug]`, `/blog/[slug]/edit`, `/blog-admin`
 - `/docs/*` — Help center (12 pages: getting-started, create-report, ai-editing, etc.)
-- `/school/*` — Evaluation learning content for 12 facility types with sub-pages each
+- `/school/*` — Evaluation learning content for 14 facility types with sub-pages each
 - Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`, `/multi-function-care`, `/psychiatric`
 
 **Auth pages:** `/auth/login`, `/auth/sign-up`, `/auth/sign-up-success`, `/auth/forgot-password`, `/auth/update-password`, `/auth/callback`, `/auth/confirm`, `/auth/email-callback` (server route — email 驗證 PKCE/OTP 進入點), `/auth/email-success`, `/auth/oauth-callback`, `/auth/oauth-success`, `/auth/error`
@@ -300,7 +300,12 @@ Defined in `vercel.json`. One job: `/api/cron/cleanup-trials` runs daily at 3:00
 - `app/llms.txt/route.ts` — 動態 llms.txt（school 導覽 + 最新 30 篇文章）
 - OpenGraph images in multiple route directories
 - `public/ads.txt` — Ad monetization
-- `public/downloads/` — 8 pre-built Excel template downloads for facility types
+- `public/downloads/` — Pre-built Excel template downloads；由 `npm run evaluation:sync <facility>` 產生，非靜態 commit
+
+**Metadata 長度規範**（SERP 截斷防止）
+- `title`：25–30 字（繁體中文）
+- `description`：70–80 字（繁體中文）
+- 所有 `app/*/page.tsx` 的 `generateMetadata` 須遵守此限
 
 **`/llms.txt` 決策（2026-05-19）**
 Google 官方明示「llms.txt 對 SEO 沒幫助」（reportwang-audit-checklist.md G3），但本專案**保留**此檔，理由：
