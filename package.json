@@ -37,6 +37,7 @@
     "audit:blog": "tsx --env-file=.env.local scripts/audit-blog-toc-tldr.ts",
     "update-blog-seo": "tsx --env-file=.env.local scripts/update-blog-seo.ts",
     "gsc:health": "tsx scripts/gsc.ts --report=sitemap-status",
+    "gsc:inspect": "tsx scripts/gsc.ts --report=url-inspection",
     "ga:health": "tsx scripts/ga-health.ts"
   },
   "dependencies": {

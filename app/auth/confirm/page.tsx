@@ -13,10 +13,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { CheckCircle2 } from "lucide-react";
-import Link from "next/link";
+import { ResendVerificationForm } from "@/components/auth/resend-verification-form";
 
 // 把 Supabase verifyOtp 的錯誤訊息翻成繁中 + 判斷是否為「過期/已使用」型錯誤
 function classifyVerifyError(message: string): { friendly: string; expired: boolean } {
@@ -26,8 +23,6 @@ function classifyVerifyError(message: string): { friendly: string; expired: bool
   }
   return { friendly: message, expired: false };
 }
-
-const RESEND_COOLDOWN = 60;
 
 function ConfirmPageInner() {
   const router = useRouter();
@@ -50,23 +45,16 @@ function ConfirmPageInner() {
     const isSignupType = type === "signup";
     const flowParam = (next === "/onboarding" || isSignupType) ? "&flow=signup" : "";
 
-    return { code, next, token_hash, type, access_token, refresh_token, isSignupType, flowParam };
+    // 過期連結直接落地的 error 參數（Supabase 重導後附在 query 上）
+    const errorCode = searchParams.get("error_code") ?? null;
+    const errorDescription = searchParams.get("error_description") ?? null;
+
+    return { code, next, token_hash, type, access_token, refresh_token, isSignupType, flowParam, errorCode, errorDescription };
   }, [searchParams]);
 
   const [isVerifying, setIsVerifying] = useState(false);
   const [manualError, setManualError] = useState<string | null>(null);
   const [errorExpired, setErrorExpired] = useState(false);
-  // 重寄驗證信狀態（confirm page 沒有 email 資訊，需要使用者重新輸入）
-  const [resendEmail, setResendEmail] = useState("");
-  const [resendState, setResendState] = useState<"idle" | "sending" | "sent" | "error">("idle");
-  const [resendErrorMsg, setResendErrorMsg] = useState<string | null>(null);
-  const [resendCooldown, setResendCooldown] = useState(0);
-
-  useEffect(() => {
-    if (resendCooldown <= 0) return;
-    const timer = setTimeout(() => setResendCooldown((c) => c - 1), 1000);
-    return () => clearTimeout(timer);
-  }, [resendCooldown]);
 
   // 驗證成功後共用副作用：sign_up_complete + 電子報訂閱
   // 註：OAuth code 不再經過這頁（改走 /auth/oauth-callback server handler），這裡只處理 email 驗證流程
@@ -114,45 +102,19 @@ function ConfirmPageInner() {
     }
   };
 
-  // 重寄驗證信：使用者輸入 email 後呼叫 supabase.auth.resend
-  const handleResend = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!resendEmail || resendCooldown > 0) return;
-    setResendState("sending");
-    setResendErrorMsg(null);
-
-    const supabase = createClient();
-    const { error } = await supabase.auth.resend({
-      type: "signup",
-      email: resendEmail,
-      options: {
-        emailRedirectTo: `${window.location.origin}/auth/email-callback?next=${encodeURIComponent(params.next)}`,
-      },
-    });
-
-    if (error) {
-      setResendState("error");
-      const isRateLimit =
-        error.message.toLowerCase().includes("security purposes") ||
-        error.message.toLowerCase().includes("60 seconds") ||
-        error.status === 429;
-      // 非 rate-limit 錯誤統一顯示泛用訊息，避免 Supabase 原始 error.message 洩漏 email 是否存在
-      setResendErrorMsg(isRateLimit ? "請稍候 60 秒後再重寄" : "無法重寄驗證信，請確認 Email 是否正確");
-      setResendCooldown(RESEND_COOLDOWN); // 錯誤也啟動冷卻，防止快速重試探測
-      trackEvent("verification_resend_click", {
-        status: "error",
-        reason: isRateLimit ? "rate_limit" : "resend_failed",
-        from: "confirm_error",
-      });
-    } else {
-      setResendState("sent");
-      setResendCooldown(RESEND_COOLDOWN);
-      trackEvent("verification_resend_click", { status: "success", from: "confirm_error" });
-    }
-  };
-
   // hash session 流程（recovery / magic link implicit flow）auto-verify
   useEffect(() => {
+    // 過期連結直接落地：Supabase 把 error_code 附在 query，直接顯示重寄表單不跳轉
+    if (params.errorCode) {
+      setErrorExpired(true);
+      setManualError(params.errorDescription ?? "驗證連結已失效，請重新申請新的驗證信");
+      trackEvent("verify_error", {
+        flow: params.flowParam ? "signup" : "other",
+        reason: params.errorCode,
+      });
+      return;
+    }
+
     // token_hash flow 改為手動點擊，不在此自動驗證
     if (params.token_hash && params.type) return;
 
@@ -189,6 +151,26 @@ function ConfirmPageInner() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params, router]);
 
+  // error_code 直接落地流程（如 otp_expired）：跳過驗證，直接顯示重寄表單
+  if (params.errorCode && errorExpired) {
+    return (
+      <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+        <div className="w-full max-w-sm">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">連結已失效</CardTitle>
+              <CardDescription>輸入註冊時的 Email，我們會立刻寄出新的驗證信。</CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-4">
+              {manualError && <p className="text-sm text-red-500">{manualError}</p>}
+              <ResendVerificationForm source="confirm_error" next={params.next} />
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
   // token_hash flow：顯示手動確認按鈕（防 email scanner 預先消耗 token）
   if (params.token_hash && params.type) {
     return (
@@ -224,58 +206,11 @@ function ConfirmPageInner() {
                 </>
               )}
 
-              {errorExpired && resendState !== "sent" && (
+              {errorExpired && (
                 <>
                   <p className="text-sm text-red-500">{manualError}</p>
-                  <form onSubmit={handleResend} className="flex flex-col gap-3">
-                    <div className="grid gap-2">
-                      <Label htmlFor="resend-email">註冊時使用的 Email</Label>
-                      <Input
-                        id="resend-email"
-                        type="email"
-                        inputMode="email"
-                        autoComplete="email"
-                        autoCapitalize="off"
-                        autoCorrect="off"
-                        placeholder="m@example.com"
-                        required
-                        value={resendEmail}
-                        onChange={(e) => setResendEmail(e.target.value)}
-                      />
-                    </div>
-                    <Button
-                      type="submit"
-                      disabled={resendState === "sending" || resendCooldown > 0 || !resendEmail}
-                      className="w-full"
-                    >
-                      {resendState === "sending"
-                        ? "寄送中…"
-                        : resendCooldown > 0
-                        ? `重寄驗證信（${resendCooldown}s）`
-                        : "重寄驗證信"}
-                    </Button>
-                    {resendErrorMsg && (
-                      <p className="text-xs text-red-500">{resendErrorMsg}</p>
-                    )}
-                  </form>
-                  <div className="text-center text-xs text-muted-foreground">
-                    或{" "}
-                    <Link href="/auth/sign-up" className="underline underline-offset-4 hover:text-foreground">
-                      使用不同 Email 重新註冊
-                    </Link>
-                  </div>
+                  <ResendVerificationForm source="confirm_error" next={params.next} />
                 </>
-              )}
-
-              {errorExpired && resendState === "sent" && (
-                <div className="flex flex-col gap-2 text-center">
-                  <p className="text-sm text-green-600 font-medium flex items-center justify-center gap-1">
-                    <CheckCircle2 className="h-4 w-4" />新的驗證信已寄出
-                  </p>
-                  <p className="text-xs text-muted-foreground">
-                    請前往 <span className="font-mono break-all">{resendEmail}</span> 查看，包含<strong>垃圾郵件</strong>與<strong>促銷</strong>資料夾。
-                  </p>
-                </div>
               )}
             </CardContent>
           </Card>

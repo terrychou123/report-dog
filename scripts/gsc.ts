@@ -290,6 +290,66 @@ async function sitemapStatus(sc: ReturnType<typeof google.searchconsole>) {
   };
 }
 
+// ── 報表：url-inspection ──────────────────────────────────────────────────
+const INSPECT_URLS_DEFAULT = [
+  "https://reportwang.com/",
+  "https://reportwang.com/blog",
+  "https://reportwang.com/blog/home-care-case-records-guide-2026",
+  "https://reportwang.com/blog/elderly-welfare-eval-grade-strategy",
+  "https://reportwang.com/school",
+  "https://reportwang.com/school/elderly-welfare",
+  "https://reportwang.com/school/nursing-home",
+  "https://reportwang.com/school/hospital",
+  "https://reportwang.com/pricing",
+  "https://reportwang.com/downloads",
+];
+
+async function urlInspection(sc: ReturnType<typeof google.searchconsole>) {
+  const urls = (args.urls as string)
+    ? (args.urls as string).split(",").map((u) => u.trim()).filter(Boolean)
+    : INSPECT_URLS_DEFAULT;
+
+  const results: unknown[] = [];
+  for (const url of urls) {
+    try {
+      const res = await sc.urlInspection.index.inspect({
+        requestBody: { inspectionUrl: url, siteUrl: SITE, languageCode: "zh-TW" },
+      });
+      const index = res.data.inspectionResult?.indexStatusResult;
+      results.push({
+        url,
+        verdict: index?.verdict,
+        coverageState: index?.coverageState,
+        robotsTxtState: index?.robotsTxtState,
+        indexingState: index?.indexingState,
+        lastCrawlTime: index?.lastCrawlTime,
+        googleCanonical: index?.googleCanonical,
+        userCanonical: index?.userCanonical,
+        sitemap: index?.sitemap,
+        pageFetchState: index?.pageFetchState,
+      });
+    } catch (e) {
+      const err = e as { code?: number; message?: string };
+      results.push({ url, error: err?.message, code: err?.code });
+    }
+  }
+
+  const passed = results.filter((r) => (r as { verdict?: string }).verdict === "PASS").length;
+  return {
+    report: "url-inspection",
+    siteUrl: SITE,
+    inspected: results.length,
+    indexedPass: passed,
+    conclusion:
+      passed === results.length
+        ? "All sampled URLs PASS → sitemap-status indexed=0 is likely a GSC API artifact"
+        : passed === 0
+        ? "All sampled URLs FAIL → real indexing problem, check robots/canonical/coverage"
+        : `${passed}/${results.length} indexed → partial issue, inspect failed rows`,
+    results,
+  };
+}
+
 // ── 主程式 ────────────────────────────────────────────────────────────────
 async function main() {
   let auth: OAuth2Client;
@@ -310,10 +370,11 @@ async function main() {
       case "low-ctr":        result = await lowCtr(sc); break;
       case "by-page":        result = await byPage(sc); break;
       case "sitemap-status": result = await sitemapStatus(sc); break;
+      case "url-inspection": result = await urlInspection(sc); break;
       default:
         result = {
           error: `未知 report 類型: ${report}`,
-          available: ["top-queries", "top-pages", "low-ctr", "by-page", "sitemap-status"],
+          available: ["top-queries", "top-pages", "low-ctr", "by-page", "sitemap-status", "url-inspection"],
         };
     }
   } catch (e: unknown) {

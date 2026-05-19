@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Suspense } from "react";
 import { VerifyErrorTracker } from "@/components/auth/verify-error-tracker";
+import { ResendVerificationForm } from "@/components/auth/resend-verification-form";
 
 async function ErrorContent({
   searchParams,
@@ -18,12 +19,7 @@ async function ErrorContent({
       </p>
       {isSignupFlow ? (
         <div className="mt-4 flex flex-col gap-3">
-          <Link
-            href="/auth/sign-up"
-            className="inline-flex w-full items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm hover:bg-accent hover:text-accent-foreground"
-          >
-            重寄驗證信
-          </Link>
+          <ResendVerificationForm source="auth_error_page" />
           <p className="text-sm text-muted-foreground">
             已驗證完成？{" "}
             <Link
