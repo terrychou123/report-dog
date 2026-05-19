@@ -56,6 +56,9 @@ export function DownloadGateDialog({ file, trigger }: DownloadGateDialogProps) {
       }
 
       submittedRef.current = true;
+      // download_dialog_complete：對齊 dialog 內部漏斗（_open → _complete / _close_without_submit / _submit_error）
+      trackEvent("download_dialog_complete", { file: file.slug });
+      // lead_capture：跨來源 lead 統計（newsletter / download 都會打）
       trackEvent("lead_capture", { source: "download", file: file.slug });
 
       // 用隱藏 <a> 觸發下載，保留瀏覽器建議的檔名
