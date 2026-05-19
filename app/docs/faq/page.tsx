@@ -6,7 +6,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "常見問題",
   description: "報告汪常見問題解答：帳號與費用、報告編輯、AI 功能、資料安全，長照機構行政人員最常詢問的問題。",
-  alternates: { canonical: "https://reportwang.com/docs/faq" },
+  alternates: { canonical: "/docs/faq" },
   openGraph: {
     title: "常見問題｜報告汪教學",
     description: "報告汪 FAQ：帳號費用、AI 修改、標籤功能、資料安全一次解答。",

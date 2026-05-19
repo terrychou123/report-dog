@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "115年度一般護理之家評鑑",
     "護理之家評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/general-nursing-home/administration" },
+  alternates: { canonical: "/school/general-nursing-home/administration" },
   openGraph: {
     title: "行政組織與服務對象權益保障（A1.1–A2.2）｜一般護理之家評鑑｜報告汪",
     description: "一般護理之家評鑑行政組織區塊 5 項基準詳細說明與準備要訣。",

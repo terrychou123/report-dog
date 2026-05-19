@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/human-resources" },
+  alternates: { canonical: "/school/hospital/human-resources" },
   openGraph: {
     title: "1.3 人力資源管理（項目 13–22）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑「人力資源管理」10 項評鑑項目詳細說明與準備要訣。",

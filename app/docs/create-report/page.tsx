@@ -8,7 +8,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "建立報告",
   description: "報告汪建立報告教學：上傳 Word／Excel 檔案或手動輸入兩種方式，適合長照機構各類行政文書。",
-  alternates: { canonical: "https://reportwang.com/docs/create-report" },
+  alternates: { canonical: "/docs/create-report" },
   openGraph: {
     title: "建立報告｜報告汪教學",
     description: "兩種方式建立長照文書報告：上傳 Word／Excel 檔，或手動填寫標題與內容。",

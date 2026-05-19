@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度住宿型長照評鑑",
     "住宿式長照機構EOP演練",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home/safety-environment" },
+  alternates: { canonical: "/school/nursing-home/safety-environment" },
   openGraph: {
     title: "C、安全環境設備（項目 39–54）｜住宿型照顧機構評鑑｜報告汪",
     description: "住宿型照顧機構評鑑安全環境設備 16 項基準詳細說明與準備要訣（115年度全國版）。",

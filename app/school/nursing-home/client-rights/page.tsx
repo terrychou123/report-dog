@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度住宿型長照評鑑",
     "病人自主權利法長照",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home/client-rights" },
+  alternates: { canonical: "/school/nursing-home/client-rights" },
   openGraph: {
     title: "D、個案權益保障（項目 55–63）｜住宿型照顧機構評鑑｜報告汪",
     description: "住宿型照顧機構評鑑個案權益保障 9 項基準詳細說明與準備要訣（115年度全國版）。",

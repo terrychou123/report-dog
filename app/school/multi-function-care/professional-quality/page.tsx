@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "臺北市小規機評鑑",
     "115年度小規機評鑑基準",
   ],
-  alternates: { canonical: "https://reportwang.com/school/multi-function-care/professional-quality" },
+  alternates: { canonical: "/school/multi-function-care/professional-quality" },
   openGraph: {
     title: "貳、專業照護品質（項目 5–23）｜小規機評鑑｜報告汪",
     description: "115 年度小規機評鑑「專業照護品質」19 項基準詳細說明與準備要訣，含居服獨有第 11 項。",

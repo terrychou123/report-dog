@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "115年度老人福利機構評鑑",
     "老人照顧機構設施評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/safety-environment" },
+  alternates: { canonical: "/school/elderly-welfare/safety-environment" },
   openGraph: {
     title: "C、安全環境設備（項目 47–62）｜老人福利機構評鑑｜報告汪",
     description: "老人福利機構評鑑安全環境設備 16 項基準詳細說明與準備要訣。",

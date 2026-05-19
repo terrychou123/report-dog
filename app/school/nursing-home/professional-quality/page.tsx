@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "115年度住宿型長照評鑑",
     "住宿式長照機構失禁照護",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home/professional-quality" },
+  alternates: { canonical: "/school/nursing-home/professional-quality" },
   openGraph: {
     title: "B、專業照護品質（項目 10–38）｜住宿型照顧機構評鑑｜報告汪",
     description: "住宿型照顧機構評鑑專業照護品質 29 項基準詳細說明與準備要訣（115年度全國版）。",

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "居家護理評鑑準備",
     "居家護理評鑑指標",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-nursing" },
+  alternates: { canonical: "/school/home-nursing" },
   openGraph: {
     title: "115年度居家護理所評鑑基準｜8項完整教學｜評鑑小教室｜報告汪",
     description: "115年度居家護理所 8 項評鑑基準完整解說，掌握評鑑重點，提升通過率。",

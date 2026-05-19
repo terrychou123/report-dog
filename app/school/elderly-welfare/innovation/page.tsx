@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "115年度老人福利機構評鑑",
     "老人照顧機構服務改進",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/innovation" },
+  alternates: { canonical: "/school/elderly-welfare/innovation" },
   openGraph: {
     title: "E、服務改進創新（項目 72–74）｜老人福利機構評鑑｜報告汪",
     description: "老人福利機構評鑑服務改進創新 3 項基準詳細說明與準備要訣。",

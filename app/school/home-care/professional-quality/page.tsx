@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "居家服務入案評估",
     "居家督導訪視",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-care/professional-quality" },
+  alternates: { canonical: "/school/home-care/professional-quality" },
   openGraph: {
     title: "貳、專業照護品質（項目 5–14）｜居家服務評鑑｜報告汪",
     description: "居家服務機構評鑑專業照護品質 10 項基準詳細說明與準備要訣。",

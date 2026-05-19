@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "住宿型精神復健機構",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-rehabilitation-institution/management",
+    canonical: "/school/psychiatric-rehabilitation-institution/management",
   },
   openGraph: {
     title: "第1章、經營管理（1.1–1.12）｜精神復健機構評鑑",

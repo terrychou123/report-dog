@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "兒少機構違規扣分",
     "社工薪資標準加分",
   ],
-  alternates: { canonical: "https://reportwang.com/school/youth-care/innovation" },
+  alternates: { canonical: "/school/youth-care/innovation" },
   openGraph: {
     title: "特殊事項或措施（項目 30–35）｜兒少安置機構評鑑｜報告汪",
     description: "兒少安置機構評鑑伍、特殊事項或措施（±10分）完整說明，涵蓋違規扣分項目及多項加分機制，掌握評鑑加分關鍵。",

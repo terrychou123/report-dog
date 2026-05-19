@@ -8,7 +8,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "快速開始",
   description: "三步驟完成報告汪帳號設定並建立第一份報告，適合長照機構社工、護理師、照服員快速上手。",
-  alternates: { canonical: "https://reportwang.com/docs/getting-started" },
+  alternates: { canonical: "/docs/getting-started" },
   openGraph: {
     title: "快速開始｜報告汪教學",
     description: "三步驟完成報告汪設定，10 分鐘內建立第一份 AI 文書。",

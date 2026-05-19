@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/safety-environment" },
+  alternates: { canonical: "/school/hospital/safety-environment" },
   openGraph: {
     title: "1.5 安全的環境與設備（項目 27–33）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑「安全的環境與設備」7 項評鑑項目詳細說明與準備要訣。",

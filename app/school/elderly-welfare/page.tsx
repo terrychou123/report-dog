@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "老人照顧機構評鑑",
     "評鑑檢核表",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare" },
+  alternates: { canonical: "/school/elderly-welfare" },
   openGraph: {
     title: "115年老人福利機構評鑑指標完整版｜77 項基準＋免費 Excel 檢核表",
     description: "77 項老人福利機構評鑑指標完整解說，附免費 Excel 檢核表，掌握評鑑重點。",

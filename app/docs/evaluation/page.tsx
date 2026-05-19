@@ -9,7 +9,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "AI 評鑑分析",
   description: "報告汪 AI 評鑑分析教學：上傳長照報告資料，AI 五維度評鑑分析，協助居服、日照、住宿型長照機構評鑑備審。",
-  alternates: { canonical: "https://reportwang.com/docs/evaluation" },
+  alternates: { canonical: "/docs/evaluation" },
   openGraph: {
     title: "AI 評鑑分析｜報告汪教學",
     description: "AI 自動分析長照評鑑報告五大維度，評鑑季備審更有把握。",

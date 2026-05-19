@@ -8,7 +8,7 @@ import { techArticleJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "AI 段落修改",
   description: "報告汪 AI 段落修改教學：點擊段落輸入自然語言指令，AI 即時產出修改版本，適合長照文書行政人員。",
-  alternates: { canonical: "https://reportwang.com/docs/ai-editing" },
+  alternates: { canonical: "/docs/ai-editing" },
   openGraph: {
     title: "AI 段落修改｜報告汪教學",
     description: "一句話指令讓 AI 修改長照報告段落，支援多輪對話調整直到滿意為止。",

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/special-care" },
+  alternates: { canonical: "/school/hospital/special-care" },
   openGraph: {
     title: "2.4 特殊照護服務（項目 66–89）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑特殊照護服務區塊 24 項評鑑項目詳細說明與準備要訣。",

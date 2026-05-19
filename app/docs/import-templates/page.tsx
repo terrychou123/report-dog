@@ -8,7 +8,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "一鍵匯入評鑑範本",
   description: "報告汪一鍵匯入評鑑範本教學：支援 8 種機構類型，自動建立評鑑標籤與報告範本，省去手動建立的時間。",
-  alternates: { canonical: "https://reportwang.com/docs/import-templates" },
+  alternates: { canonical: "/docs/import-templates" },
   openGraph: {
     title: "一鍵匯入評鑑範本｜報告汪教學",
     description: "支援居服、日照、護理之家、醫院等 8 種機構類型，一鍵匯入對應評鑑標籤與報告範本。",

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "居家護理機構經營指標",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/home-nursing/quality-indicators",
+    canonical: "/school/home-nursing/quality-indicators",
   },
   openGraph: {
     title: "A5 機構經營指標監測（15%）｜居家護理所評鑑｜報告汪",

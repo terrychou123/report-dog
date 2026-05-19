@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "精神障礙者照護",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-nursing-home",
+    canonical: "/school/psychiatric-nursing-home",
   },
   openGraph: {
     title: "115年度精神護理之家評鑑基準｜36條完整教學｜報告汪",

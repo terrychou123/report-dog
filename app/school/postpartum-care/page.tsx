@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "長照機構評鑑",
     "月子中心檢核表",
   ],
-  alternates: { canonical: "https://reportwang.com/school/postpartum-care" },
+  alternates: { canonical: "/school/postpartum-care" },
   openGraph: {
     title: "115年產後護理之家評鑑基準｜17項解析＋月子中心檢核表｜報告汪",
     description: "17 項產後護理之家評鑑基準完整解說，附免費 Excel 檢核表，協助月子中心備評。",

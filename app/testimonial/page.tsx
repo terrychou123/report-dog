@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     "追蹤報告逾期提醒",
     "定期報告管理",
   ],
-  alternates: { canonical: "https://reportwang.com/testimonial" },
+  alternates: { canonical: "/testimonial" },
   openGraph: {
     title: "用戶評價｜45+ 位長照從業人員推薦報告汪｜居服・日照・護理之家・兒少教養・老人福利機構・托嬰中心",
     description:

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "老人福利機構在地安老",
     "115年度老人福利機構評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/bonus" },
+  alternates: { canonical: "/school/elderly-welfare/bonus" },
   openGraph: {
     title: "F、加分題（項目 75–77）｜老人福利機構評鑑｜報告汪",
     description: "老人福利機構評鑑加分題 3 項基準詳細說明與準備要訣。",

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "臺北市居家服務評鑑",
     "115年度評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-care" },
+  alternates: { canonical: "/school/home-care" },
   openGraph: {
     title: "115年度居家服務機構評鑑基準｜32項完整教學｜評鑑小教室｜報告汪",
     description: "115年度居家服務機構 32項評鑑基準完整解說，幫助居家長照機構掌握評鑑重點，提升通過率。",

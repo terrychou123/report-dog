@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "115年度一般護理之家評鑑",
     "護理之家評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/general-nursing-home/professional-quality" },
+  alternates: { canonical: "/school/general-nursing-home/professional-quality" },
   openGraph: {
     title: "專業服務與生活照顧（B1–B3）｜一般護理之家評鑑｜報告汪",
     description: "一般護理之家評鑑專業服務區塊 3 項基準詳細說明與準備要訣。",

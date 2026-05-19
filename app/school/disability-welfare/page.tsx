@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "社家署評鑑",
     "評鑑檢核表",
   ],
-  alternates: { canonical: "https://reportwang.com/school/disability-welfare" },
+  alternates: { canonical: "/school/disability-welfare" },
   openGraph: {
     title: "身心障礙福利機構評鑑指標｜49項基準＋免費檢核表｜報告汪",
     description: "49 項身心障礙福利機構評鑑指標完整解說，附免費 Excel 檢核表，協助身障機構備評。",

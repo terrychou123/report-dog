@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "115年度精神護理之家評鑑基準 D 面向：住民權益保障，共 2 條指標。含尊重住民信仰及推動安寧緩和療護及病人自主權利。",
   keywords: ["精神護理之家評鑑", "115年度評鑑", "住民權益", "安寧緩和療護", "病人自主"],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-nursing-home/resident-rights",
+    canonical: "/school/psychiatric-nursing-home/resident-rights",
   },
   openGraph: {
     title: "D、住民權益保障（D1.1–D1.2）｜精神護理之家評鑑",

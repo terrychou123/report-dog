@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度產後護理之家評鑑",
     "月子中心評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/postpartum-care/safety-environment" },
+  alternates: { canonical: "/school/postpartum-care/safety-environment" },
   openGraph: {
     title: "環境設施與安全維護（C1–C2）｜產後護理之家評鑑｜報告汪",
     description: "產後護理之家評鑑環境設施區塊 2 項基準詳細說明與準備要訣。",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "報告連結｜在報告中附加超連結｜報告汪操作手冊",
   description:
     "了解如何在報告汪中為報告和範本附加超連結，串連參考資料、法規文件、雲端相簿，敏感資料不進系統更安全。",
-  alternates: { canonical: "https://reportwang.com/docs/report-links" },
+  alternates: { canonical: "/docs/report-links" },
 };
 
 export default function ReportLinksDocsPage() {

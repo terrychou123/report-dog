@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "老人福利機構品質監測",
     "115年度老人福利機構評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/professional-quality" },
+  alternates: { canonical: "/school/elderly-welfare/professional-quality" },
   openGraph: {
     title: "B、專業照護品質（項目 16–46）｜老人福利機構評鑑｜報告汪",
     description: "老人福利機構評鑑專業照護品質 31 項基準詳細說明與準備要訣。",

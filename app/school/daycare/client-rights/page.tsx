@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "日間照顧服務契約評鑑",
     "115年度日間照顧評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/daycare/client-rights" },
+  alternates: { canonical: "/school/daycare/client-rights" },
   openGraph: {
     title: "壹、個案權益保障（項目 1–4）｜日間照顧評鑑｜報告汪",
     description: "115 年度日間照顧機構評鑑個案權益保障 4 項基準詳細說明與準備要訣。",

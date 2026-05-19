@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "臺北市小規機評鑑",
     "115年度小規機評鑑基準",
   ],
-  alternates: { canonical: "https://reportwang.com/school/multi-function-care/safety-environment" },
+  alternates: { canonical: "/school/multi-function-care/safety-environment" },
   openGraph: {
     title: "肆、安全環境設備（項目 40–45）｜小規機評鑑｜報告汪",
     description: "115 年度小規機評鑑「安全環境設備」6 項基準詳細說明與準備要訣。",

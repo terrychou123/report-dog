@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/strategy" },
+  alternates: { canonical: "/school/hospital/strategy" },
   openGraph: {
     title: "1.1 醫院經營策略（項目 1–5）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑「醫院經營策略」5 項評鑑項目詳細說明與準備要訣。",

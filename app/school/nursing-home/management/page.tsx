@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度住宿型長照評鑑",
     "住宿式長照機構評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home/management" },
+  alternates: { canonical: "/school/nursing-home/management" },
   openGraph: {
     title: "A、經營管理效能（項目 1–9）｜住宿型照顧機構評鑑｜報告汪",
     description: "住宿型照顧機構評鑑經營管理效能 9 項基準詳細說明與準備要訣（115年度全國版）。",

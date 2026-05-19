@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "身心障礙福利機構評鑑財務",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/disability-welfare/finance",
+    canonical: "/school/disability-welfare/finance",
   },
   openGraph: {
     title: "會計及財務管理（2101–2104）｜身心障礙福利機構評鑑｜報告汪",

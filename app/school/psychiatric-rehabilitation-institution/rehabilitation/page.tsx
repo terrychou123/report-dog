@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "PFM",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-rehabilitation-institution/rehabilitation",
+    canonical: "/school/psychiatric-rehabilitation-institution/rehabilitation",
   },
   openGraph: {
     title: "第2章、復健服務（2.1–2.14）｜精神復健機構評鑑",

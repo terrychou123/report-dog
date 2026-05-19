@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "115年度產後護理之家評鑑",
     "月子中心評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/postpartum-care/special-items" },
+  alternates: { canonical: "/school/postpartum-care/special-items" },
   openGraph: {
     title: "特別事項（D1–D2）｜產後護理之家評鑑｜報告汪",
     description: "產後護理之家評鑑特別事項區塊 2 項基準詳細說明與準備要訣。",

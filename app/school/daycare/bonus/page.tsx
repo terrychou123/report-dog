@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "日間照顧中心評鑑基準",
     "115年度評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/daycare/bonus" },
+  alternates: { canonical: "/school/daycare/bonus" },
   openGraph: {
     title: "伍、加分題（項目 44–45）｜日間照顧評鑑｜報告汪",
     description:

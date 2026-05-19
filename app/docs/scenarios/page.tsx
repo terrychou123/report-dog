@@ -7,7 +7,7 @@ import { techArticleJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "四大機構實戰情境",
   description: "報告汪在居服機構、日照中心、住宿型長照機構、醫院護理部的實際使用情境，含具體成效數據。",
-  alternates: { canonical: "https://reportwang.com/docs/scenarios" },
+  alternates: { canonical: "/docs/scenarios" },
   openGraph: {
     title: "四大機構實戰情境｜報告汪教學",
     description: "六個真實情境說明長照機構如何用報告汪解決文書問題。",

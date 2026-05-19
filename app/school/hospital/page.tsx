@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     "評鑑小教室",
     "醫療法第28條",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital" },
+  alternates: { canonical: "/school/hospital" },
   openGraph: {
     title: "115年度醫院評鑑基準 124 條完整解析｜區域、地區醫院適用＋備評檢核表",
     description: "124 條醫院評鑑基準完整解說（區域醫院、地區醫院適用），附免費備評檢核表下載。",

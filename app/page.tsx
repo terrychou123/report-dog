@@ -108,7 +108,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <section className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">
+      <section aria-label="產品主視覺" className="flex flex-col items-center text-center py-24 px-6 bg-gradient-to-b from-background to-muted/30">
         <Badge variant="outline" className="mb-6 px-4 py-1.5 text-sm">
           <SparklesIcon className="h-3.5 w-3.5 mr-1.5" />
           行政效率工具
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="border-y bg-muted/20 py-14 px-6">
+      <section aria-label="平台數據亮點" className="border-y bg-muted/20 py-14 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           {[
             { value: "1 分鐘", label: "定期報告產出時間" },
@@ -144,10 +144,10 @@ export default function Home() {
       </section>
 
       {/* Features */}
-      <section className="py-24 px-6">
+      <section aria-labelledby="section-features" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">長照定期報告生成工具：複製上期・AI修改差異・評鑑一鍵備審</h2>
+            <h2 id="section-features" className="text-3xl md:text-4xl font-bold mb-4">長照定期報告生成工具：複製上期・AI修改差異・評鑑一鍵備審</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
               從複製舊報告到 AI 修改、標籤分類到全文搜尋，每一個功能都以行政效率為中心。
             </p>
@@ -214,10 +214,10 @@ export default function Home() {
       </section>
 
       {/* Bento Grids */}
-      <section className="py-20 px-6 bg-muted/20">
+      <section aria-labelledby="section-steps" className="py-20 px-6 bg-muted/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">三步驟完成長照定期報告</h2>
+            <h2 id="section-steps" className="text-3xl md:text-4xl font-bold mb-4">三步驟完成長照定期報告</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <Card className="md:col-span-2 p-6 flex flex-col gap-4 border-primary/20">
@@ -273,10 +273,10 @@ export default function Home() {
       </section>
 
       {/* Evaluation Season Banner */}
-      <section className="py-16 px-6 bg-primary text-primary-foreground">
+      <section aria-labelledby="section-template" className="py-16 px-6 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
           <Badge variant="secondary" className="mb-4 bg-primary-foreground/20 text-primary-foreground border-0">評鑑季特別功能</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">評鑑季到了？一鍵匯入評鑑範本</h2>
+          <h2 id="section-template" className="text-3xl md:text-4xl font-bold mb-4">評鑑季到了？一鍵匯入評鑑範本</h2>
           <p className="text-lg opacity-80 mb-3">12 種機構類型完整覆蓋，省去手動建立的時間</p>
           <p className="text-sm opacity-60 mb-8">
             居家服務・日間照顧・住宿型照顧・居家護理所・一般護理之家・精神護理之家・產後護理之家・身心障礙福利機構・醫院・兒少教養機構・老人福利機構・托嬰中心
@@ -300,11 +300,11 @@ export default function Home() {
       </section>
 
       {/* Tutorial Section */}
-      <section className="py-20 px-6 bg-muted/30">
+      <section aria-labelledby="section-guide" className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <Badge variant="outline" className="mb-4">使用教學</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold">從零開始，輕鬆上手報告汪</h2>
+            <h2 id="section-guide" className="text-3xl md:text-4xl font-bold">從零開始，輕鬆上手報告汪</h2>
             <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
               圖文教學帶你快速掌握每個功能，從建立第一份報告到 AI 評鑑分析。
             </p>
@@ -352,11 +352,11 @@ export default function Home() {
       </section>
 
       {/* SOAP AI Demo — 公開體驗，無需登入 */}
-      <section className="border-y bg-gradient-to-b from-background to-muted/20 py-20 px-4">
+      <section aria-labelledby="section-demo" className="border-y bg-gradient-to-b from-background to-muted/20 py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
             <Badge variant="outline" className="mb-3">免費體驗 · 無需註冊</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">親手試試 AI 轉 SOAP</h2>
+            <h2 id="section-demo" className="text-3xl md:text-4xl font-bold mb-3">親手試試 AI 轉 SOAP</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
               把雜亂的護理記錄貼上，AI 立刻幫你拆成 S／O／A／P 四段式
             </p>
@@ -366,11 +366,11 @@ export default function Home() {
       </section>
 
       {/* Long-term Care Industry Solutions */}
-      <section className="py-20 px-6">
+      <section aria-labelledby="section-testimonials" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <Badge variant="outline" className="mb-4">長照產業解決方案</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold">居服、日照、護理、社工各職類都說好</h2>
+            <h2 id="section-testimonials" className="text-3xl md:text-4xl font-bold">居服、日照、護理、社工各職類都說好</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -513,11 +513,11 @@ export default function Home() {
       </section>
 
       {/* Free Download — 日照機構備審文件 */}
-      <section className="py-20 px-6 bg-muted/20">
+      <section aria-labelledby="section-downloads" className="py-20 px-6 bg-muted/20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <Badge variant="outline" className="mb-4">免費資源下載</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold">日照機構備審文件 &amp; 工作記錄表｜免費模板下載</h2>
+            <h2 id="section-downloads" className="text-3xl md:text-4xl font-bold">日照機構備審文件 &amp; 工作記錄表｜免費模板下載</h2>
           </div>
           <Card className="border-dashed border-2 border-primary/30 bg-background">
             <CardContent className="pt-8 pb-8 px-8">
@@ -565,10 +565,10 @@ export default function Home() {
       </section>
 
       {/* Pricing Preview */}
-      <section className="py-20 px-6" id="pricing">
+      <section aria-labelledby="section-pricing" className="py-20 px-6" id="pricing">
         <div className="max-w-3xl mx-auto text-center">
           <Badge variant="secondary" className="mb-4">價格</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">現在完全免費</h2>
+          <h2 id="section-pricing" className="text-3xl md:text-4xl font-bold mb-4">現在完全免費</h2>
           <p className="text-muted-foreground text-lg mb-8">
             系統目前處於測試階段，所有功能完全免費開放。
           </p>
@@ -642,8 +642,8 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">準備好告別重複文書工作了嗎？</h2>
+      <section aria-labelledby="section-final-cta" className="py-24 px-6 text-center">
+        <h2 id="section-final-cta" className="text-3xl md:text-4xl font-bold mb-4">準備好告別重複文書工作了嗎？</h2>
         <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
           加入報告汪，讓 AI 幫你搞定定期報告，把時間還給真正重要的事。
         </p>

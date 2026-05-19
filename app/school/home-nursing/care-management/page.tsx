@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "B2個案照護管理",
     "衛福部指定填報",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-nursing/care-management" },
+  alternates: { canonical: "/school/home-nursing/care-management" },
   openGraph: {
     title: "B、照護管理（項目 6–8）｜居家護理所評鑑｜報告汪",
     description: "居家護理所評鑑照護管理 3 項基準詳細說明與準備要訣。",

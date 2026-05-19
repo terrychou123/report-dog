@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "住宿式長期照顧評鑑",
     "住宿型照顧機構評鑑指標",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home" },
+  alternates: { canonical: "/school/nursing-home" },
   openGraph: {
     title: "115年度住宿型長照機構評鑑基準｜63 項＋加減分 3 項完整解說（養護／安養）",
     description: "住宿型長照（養護／安養）63 項評鑑基準完整解說，4 大區塊重點整理，附免費備評檢核表下載。",

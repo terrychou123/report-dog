@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "身心障礙機構專業服務",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/disability-welfare/individual-care",
+    canonical: "/school/disability-welfare/individual-care",
   },
   openGraph: {
     title: "個別化服務計畫（4101–4103）｜身心障礙福利機構評鑑｜報告汪",

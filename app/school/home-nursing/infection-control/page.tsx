@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "感染性醫療廢棄物處理",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/home-nursing/infection-control",
+    canonical: "/school/home-nursing/infection-control",
   },
   openGraph: {
     title: "A2 感染管制與器材維護（8%）｜居家護理所評鑑｜報告汪",

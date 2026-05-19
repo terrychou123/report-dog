@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "危機溝通",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/risk-management" },
+  alternates: { canonical: "/school/hospital/risk-management" },
   openGraph: {
     title: "1.7 風險與危機管理（項目 38–42）｜醫院評鑑｜報告汪",
     description: "醫院評鑑「風險與危機管理」5 項評鑑項目詳細說明與準備要訣。",

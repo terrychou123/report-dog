@@ -33,14 +33,21 @@ export default function PricingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Offer",
-            name: "報告汪測試方案",
-            price: "0",
-            priceCurrency: "TWD",
-            availability: "https://schema.org/InStock",
-            url: "https://reportwang.com/pricing",
-            seller: { "@type": "Organization", name: "報告汪" },
-            description: "報告汪目前處於公開測試階段，所有功能完全免費。",
+            "@type": "SoftwareApplication",
+            name: "報告汪",
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web",
+            description: "長照機構 AI 文書管理與評鑑備審系統",
+            offers: {
+              "@type": "Offer",
+              name: "報告汪測試方案",
+              price: "0",
+              priceCurrency: "TWD",
+              availability: "https://schema.org/InStock",
+              url: "https://reportwang.com/pricing",
+              seller: { "@type": "Organization", name: "報告汪" },
+              description: "報告汪目前處於公開測試階段，所有功能完全免費。",
+            },
           }),
         }}
       />

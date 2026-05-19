@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "115年度精神護理之家評鑑基準 A 面向：經營管理效能，共 9 條指標。包含業務計畫、查核缺失改善、性騷擾防治機制、人員配置（重點項目）、工作人員權益、教育訓練及資料管理。",
   keywords: ["精神護理之家評鑑", "115年度評鑑", "經營管理效能", "人員配置", "重點項目"],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-nursing-home/management",
+    canonical: "/school/psychiatric-nursing-home/management",
   },
   openGraph: {
     title: "A、經營管理效能（A1.1–A5.1）｜精神護理之家評鑑",

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "兒少機構人力資源評鑑",
     "安置機構勞動條件評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/youth-care/administration" },
+  alternates: { canonical: "/school/youth-care/administration" },
   openGraph: {
     title: "行政組織與經營管理（項目 1–6）｜兒少安置機構評鑑｜報告汪",
     description: "兒少安置機構評鑑壹、行政組織與經營管理6項基準完整解說，掌握董事會功能、人力資源、勞動條件評鑑要點。",

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "社區健康促進",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/patient-services" },
+  alternates: { canonical: "/school/hospital/patient-services" },
   openGraph: {
     title: "1.6 病人導向之服務與管理（項目 34–37）｜醫院評鑑｜報告汪",
     description: "醫院評鑑「病人導向之服務與管理」4 項評鑑項目詳細說明與準備要訣。",

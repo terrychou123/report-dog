@@ -8,7 +8,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "複製報告與模板",
   description: "報告汪複製報告與模板教學：一鍵複製上期報告、修改差異段落工作流程、建立個人模板庫。",
-  alternates: { canonical: "https://reportwang.com/docs/copy-and-templates" },
+  alternates: { canonical: "/docs/copy-and-templates" },
   openGraph: {
     title: "複製報告與模板｜報告汪教學",
     description: "複製上期報告再用 AI 更新差異，長照月報從 2 小時縮短到 15 分鐘。",

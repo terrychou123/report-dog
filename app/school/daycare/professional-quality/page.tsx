@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "臺北市日間照顧評鑑基準",
     "115年度日照評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/daycare/professional-quality" },
+  alternates: { canonical: "/school/daycare/professional-quality" },
   openGraph: {
     title: "貳、專業照護品質（項目 5–22）｜日間照顧評鑑｜報告汪",
     description: "115 年度日間照顧機構評鑑專業照護品質 18 項基準詳細說明與準備要訣。",

@@ -8,7 +8,7 @@ import { DocsTip } from "@/components/docs/docs-tip";
 export const metadata: Metadata = {
   title: "Excel 表格編輯",
   description: "報告汪 Excel 式表格編輯教學：在報告中插入表格、欄列操作、公式計算，並匯出 .xlsx 檔案。",
-  alternates: { canonical: "https://reportwang.com/docs/excel-editing" },
+  alternates: { canonical: "/docs/excel-editing" },
   openGraph: {
     title: "Excel 表格編輯｜報告汪教學",
     description: "在長照報告中插入 Excel 式表格，支援公式計算與 .xlsx 匯出。",

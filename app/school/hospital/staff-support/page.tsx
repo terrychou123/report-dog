@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/staff-support" },
+  alternates: { canonical: "/school/hospital/staff-support" },
   openGraph: {
     title: "1.2 員工管理與支持制度（項目 6–12）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑「員工管理與支持制度」7 項評鑑項目詳細說明與準備要訣。",

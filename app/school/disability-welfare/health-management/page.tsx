@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "身心障礙機構膳食服務",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/disability-welfare/health-management",
+    canonical: "/school/disability-welfare/health-management",
   },
   openGraph: {
     title: "健康管理與安全（4301–4306）｜身心障礙福利機構評鑑｜報告汪",

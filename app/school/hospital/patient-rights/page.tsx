@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "病人申訴",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/patient-rights" },
+  alternates: { canonical: "/school/hospital/patient-rights" },
   openGraph: {
     title: "2.1 病人及家屬權責（項目 43–46）｜醫院評鑑｜報告汪",
     description: "醫院評鑑「病人及家屬權責」4 項評鑑項目詳細說明與準備要訣。",
