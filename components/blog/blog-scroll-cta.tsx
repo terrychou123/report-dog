@@ -37,7 +37,7 @@ export function BlogScrollCta({ slug }: { slug: string }) {
       const el = document.documentElement;
       const scrolled = el.scrollTop || document.body.scrollTop;
       const total = el.scrollHeight - el.clientHeight;
-      if (total > 0 && scrolled / total >= 0.5) {
+      if (total > 0 && scrolled / total >= 0.3) {
         setVisible(true);
         window.removeEventListener("scroll", handleScroll);
       }

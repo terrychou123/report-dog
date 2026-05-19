@@ -5,6 +5,7 @@ import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import { FbWebviewBanner } from "@/components/fb-webview-banner";
+import { StripTrackingParams } from "@/components/strip-tracking-params";
 import { organizationJsonLd, websiteWithSearchJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import "./globals.css";
 
@@ -108,6 +109,7 @@ export default function RootLayout({
           <Suspense fallback={null}>
             <FbWebviewBanner />
           </Suspense>
+          <StripTrackingParams />
           {children}
           <Toaster richColors />
         </ThemeProvider>
