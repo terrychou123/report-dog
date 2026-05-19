@@ -73,7 +73,9 @@ export function FbWebviewBanner() {
     }
   };
 
-  const steps = isIOS(navigator.userAgent)
+  // client component 在 SSR/prerender 仍執行 render，navigator 不存在時需 guard
+  const ua = typeof navigator !== "undefined" ? navigator.userAgent : "";
+  const steps = isIOS(ua)
     ? "點右上角 ⋯ → 在 Safari 中開啟"
     : "點右上角 ⋮ → 以其他應用程式開啟 → Chrome";
 
