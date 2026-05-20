@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "115年度老人福利機構評鑑",
     "老人照顧機構評鑑基準",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/management" },
+  alternates: { canonical: "/school/elderly-welfare/management" },
   openGraph: {
     title: "A、經營管理效能（項目 1–15）｜老人福利機構評鑑｜報告汪",
     description: "老人福利機構評鑑經營管理效能 15 項基準詳細說明與準備要訣。",

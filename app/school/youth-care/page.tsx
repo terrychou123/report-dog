@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "兒少評鑑準備",
     "安置機構評鑑指標",
   ],
-  alternates: { canonical: "https://reportwang.com/school/youth-care" },
+  alternates: { canonical: "/school/youth-care" },
   openGraph: {
     title: "112年度兒少安置機構評鑑指標｜35項完整解說｜報告汪",
     description: "112年度兒少安置機構評鑑基準完整解說，掌握5大區塊評鑑重點，提升評鑑通過率。",

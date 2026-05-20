@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { PanelLeftClose, PanelLeftOpen, BuildingIcon, NewspaperIcon } from "lucide-react";
+import { PanelLeftClose, PanelLeftOpen, BuildingIcon, NewspaperIcon, GraduationCap } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -18,6 +18,7 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   { href: "/admin/blog",               label: "部落格管理",   short: "部落", icon: NewspaperIcon },
+  { href: "/admin/class",              label: "課程管理",     short: "課程", icon: GraduationCap },
   { href: "/admin/home-care",           label: "居家長照機構", short: "居家", icon: BuildingIcon },
   { href: "/admin/daycare",             label: "日間照顧中心", short: "日間", icon: BuildingIcon },
   { href: "/admin/nursing-home",        label: "住宿型照顧機構", short: "住宿", icon: BuildingIcon },

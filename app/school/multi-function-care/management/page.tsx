@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "臺北市小規機評鑑",
     "115年度小規機評鑑基準",
   ],
-  alternates: { canonical: "https://reportwang.com/school/multi-function-care/management" },
+  alternates: { canonical: "/school/multi-function-care/management" },
   openGraph: {
     title: "參、經營管理效能（項目 24–39）｜小規機評鑑｜報告汪",
     description: "115 年度小規機評鑑「經營管理效能」16 項基準詳細說明與準備要訣，含夜宿獨有第 29 項。",

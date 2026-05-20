@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "托嬰中心文書管理",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/infant-daycare/administration",
+    canonical: "/school/infant-daycare/administration",
   },
   openGraph: {
     title: "行政管理（項目 1–11）｜托嬰中心評鑑｜報告汪",

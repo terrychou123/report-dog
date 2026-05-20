@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "嬰幼兒照護評鑑",
     "托育評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/infant-daycare" },
+  alternates: { canonical: "/school/infant-daycare" },
   openGraph: {
     title: "托嬰中心評鑑準備指南｜114-116年度 60 項評鑑基準｜報告汪",
     description:

@@ -16,7 +16,7 @@ import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
-import { EyeIcon, EyeOffIcon } from "lucide-react";
+import { EyeIcon, EyeOffIcon, ChevronDownIcon } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 import { GoogleAuthButton } from "@/components/auth/google-auth-button";
 
@@ -31,6 +31,8 @@ export function SignUpForm({
   const [subscribeNewsletter, setSubscribeNewsletter] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+  // 折疊 email 表單，預設只露 Google OAuth；email 完成率僅 OAuth 一半，需降低 email 視覺權重
+  const [showEmailForm, setShowEmailForm] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
   const signupSource = searchParams.get("source");
@@ -89,96 +91,120 @@ export function SignUpForm({
           <CardDescription>建立新帳號</CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="mb-6 flex flex-col gap-3">
-            {/* Google OAuth 主要 CTA — 行動使用者主訴求；email 註冊保留為次要選項 */}
+          <div className="flex flex-col gap-4">
+            {/* Google OAuth 為主要 CTA — email 完成率僅 OAuth 一半，預設只露 OAuth */}
             <GoogleAuthButton mode="sign-up" source={signupSource} slug={signupSlug} />
-            <div className="relative flex items-center justify-center text-xs text-muted-foreground">
-              <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
-              <span className="bg-card px-3">或使用 Email 註冊</span>
-            </div>
+
+            {!showEmailForm && (
+              <>
+                <button
+                  type="button"
+                  onClick={() => setShowEmailForm(true)}
+                  className="inline-flex items-center justify-center gap-1 text-sm text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded"
+                >
+                  使用 Email 註冊
+                  <ChevronDownIcon className="h-3.5 w-3.5" />
+                </button>
+                <div className="text-center text-sm">
+                  已有帳號？{" "}
+                  <Link href="/auth/login" className="underline underline-offset-4">
+                    登入
+                  </Link>
+                </div>
+              </>
+            )}
+
+            {showEmailForm && (
+              <>
+                <div className="relative flex items-center justify-center text-xs text-muted-foreground">
+                  <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
+                  <span className="bg-card px-3">或使用 Email 註冊</span>
+                </div>
+                <form onSubmit={handleSignUp}>
+                  <div className="flex flex-col gap-6">
+                    <div className="grid gap-2">
+                      <Label htmlFor="email">電子郵件</Label>
+                      <Input
+                        id="email"
+                        type="email"
+                        inputMode="email"
+                        autoComplete="email"
+                        autoCapitalize="off"
+                        autoCorrect="off"
+                        placeholder="m@example.com"
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
+                    </div>
+                    <div className="grid gap-2">
+                      <div className="flex items-center justify-between">
+                        <Label htmlFor="password">密碼</Label>
+                        <button
+                          type="button"
+                          onClick={() => setShowPassword((v) => !v)}
+                          className="text-xs text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+                          aria-label={showPassword ? "隱藏密碼" : "顯示密碼"}
+                        >
+                          {showPassword ? (
+                            <>
+                              <EyeOffIcon className="h-3.5 w-3.5" />隱藏
+                            </>
+                          ) : (
+                            <>
+                              <EyeIcon className="h-3.5 w-3.5" />顯示
+                            </>
+                          )}
+                        </button>
+                      </div>
+                      <Input
+                        id="password"
+                        type={showPassword ? "text" : "password"}
+                        autoComplete="new-password"
+                        required
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                      />
+                    </div>
+                    <div className="grid gap-2">
+                      <div className="flex items-center">
+                        <Label htmlFor="repeat-password">再次輸入密碼</Label>
+                      </div>
+                      <Input
+                        id="repeat-password"
+                        type={showPassword ? "text" : "password"}
+                        autoComplete="new-password"
+                        required
+                        value={repeatPassword}
+                        onChange={(e) => setRepeatPassword(e.target.value)}
+                      />
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Checkbox
+                        id="subscribe-newsletter"
+                        checked={subscribeNewsletter}
+                        onCheckedChange={(checked) => setSubscribeNewsletter(checked === true)}
+                        className="mt-0.5"
+                      />
+                      <Label htmlFor="subscribe-newsletter" className="font-normal text-sm leading-snug cursor-pointer">
+                        訂閱報告汪評鑑電子報（不定期，可隨時退訂）
+                      </Label>
+                    </div>
+                    {error && <p className="text-sm text-red-500">{error}</p>}
+                    <Button type="submit" className="w-full" disabled={isLoading}>
+                      {isLoading ? "註冊中..." : "註冊"}
+                    </Button>
+                  </div>
+                  <div className="mt-4 text-center text-sm">
+                    已有帳號？{" "}
+                    <Link href="/auth/login" className="underline underline-offset-4">
+                      登入
+                    </Link>
+                  </div>
+                </form>
+              </>
+            )}
           </div>
-          <form onSubmit={handleSignUp}>
-            <div className="flex flex-col gap-6">
-              <div className="grid gap-2">
-                <Label htmlFor="email">電子郵件</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  inputMode="email"
-                  autoComplete="email"
-                  autoCapitalize="off"
-                  autoCorrect="off"
-                  placeholder="m@example.com"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div className="grid gap-2">
-                <div className="flex items-center justify-between">
-                  <Label htmlFor="password">密碼</Label>
-                  <button
-                    type="button"
-                    onClick={() => setShowPassword((v) => !v)}
-                    className="text-xs text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
-                    aria-label={showPassword ? "隱藏密碼" : "顯示密碼"}
-                  >
-                    {showPassword ? (
-                      <>
-                        <EyeOffIcon className="h-3.5 w-3.5" />隱藏
-                      </>
-                    ) : (
-                      <>
-                        <EyeIcon className="h-3.5 w-3.5" />顯示
-                      </>
-                    )}
-                  </button>
-                </div>
-                <Input
-                  id="password"
-                  type={showPassword ? "text" : "password"}
-                  autoComplete="new-password"
-                  required
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-              <div className="grid gap-2">
-                <div className="flex items-center">
-                  <Label htmlFor="repeat-password">再次輸入密碼</Label>
-                </div>
-                <Input
-                  id="repeat-password"
-                  type={showPassword ? "text" : "password"}
-                  autoComplete="new-password"
-                  required
-                  value={repeatPassword}
-                  onChange={(e) => setRepeatPassword(e.target.value)}
-                />
-              </div>
-              <div className="flex items-start gap-2">
-                <Checkbox
-                  id="subscribe-newsletter"
-                  checked={subscribeNewsletter}
-                  onCheckedChange={(checked) => setSubscribeNewsletter(checked === true)}
-                  className="mt-0.5"
-                />
-                <Label htmlFor="subscribe-newsletter" className="font-normal text-sm leading-snug cursor-pointer">
-                  訂閱報告汪評鑑電子報（不定期，可隨時退訂）
-                </Label>
-              </div>
-              {error && <p className="text-sm text-red-500">{error}</p>}
-              <Button type="submit" className="w-full" disabled={isLoading}>
-                {isLoading ? "註冊中..." : "註冊"}
-              </Button>
-            </div>
-            <div className="mt-4 text-center text-sm">
-              已有帳號？{" "}
-              <Link href="/auth/login" className="underline underline-offset-4">
-                登入
-              </Link>
-            </div>
-          </form>
         </CardContent>
       </Card>
     </div>

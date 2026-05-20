@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "臺北市日照評鑑管理效能",
     "115年度日間照顧評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/daycare/management" },
+  alternates: { canonical: "/school/daycare/management" },
   openGraph: {
     title: "參、經營管理效能（項目 23–37）｜日間照顧評鑑｜報告汪",
     description: "115 年度日間照顧機構評鑑經營管理效能 15 項基準詳細說明與準備要訣。",

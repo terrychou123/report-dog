@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "申訴機制評鑑",
     "居家服務評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-care/client-rights" },
+  alternates: { canonical: "/school/home-care/client-rights" },
   openGraph: {
     title: "壹、個案權益保障（項目 1–4）｜居家服務評鑑｜報告汪",
     description: "居家服務機構評鑑個案權益保障 4 項基準詳細說明與準備要訣。",

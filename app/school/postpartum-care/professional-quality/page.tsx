@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度產後護理之家評鑑",
     "月子中心評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/postpartum-care/professional-quality" },
+  alternates: { canonical: "/school/postpartum-care/professional-quality" },
   openGraph: {
     title: "專業服務與生活照顧（B1.1–B1.8）｜產後護理之家評鑑｜報告汪",
     description: "產後護理之家評鑑專業服務區塊 8 項基準詳細說明與準備要訣。",

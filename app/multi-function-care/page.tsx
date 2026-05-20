@@ -19,13 +19,18 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "小規機 AI 文書管理系統｜日照+居服+夜宿三合一・評鑑備審一鍵彙整・多職類協作",
+  title: "小規機 AI 文書管理｜三合一服務・評鑑備審｜報告汪",
   description:
-    `報告汪專為小規模多機能機構打造：AI 輔助服務紀錄撰寫、日照/居服/夜宿三類個案文件統一管理、評鑑備審標籤群組一鍵彙整。對應 115 年度臺北市小規模多機能機構評鑑基準（${multiFunctionCareMeta.totalItems - 2} 項正式 + 2 加分題），社工、照服員、護理師在同一平台協作。立即免費試用。`,
+    `報告汪專為小規機打造，AI 輔助服務紀錄撰寫、日照/居服/夜宿三類文件統一管理，對應 ${multiFunctionCareMeta.totalItems - 2} 項 115 年度臺北市評鑑基準。社工・照服員・護理師同平台協作，評鑑備審一鍵彙整。立即免費試用。`,
   alternates: { canonical: "/multi-function-care" },
   openGraph: {
-    title: "小規機 AI 文書管理系統｜日照+居服+夜宿三合一・評鑑備審一鍵彙整",
-    description: "報告汪專為小規機打造：三類服務文件統一管理，評鑑備審一鍵彙整。對應 115 年度評鑑基準。",
+    title: "小規機 AI 文書管理｜三合一服務・評鑑備審｜報告汪",
+    description: `報告汪專為小規機打造，AI 輔助服務紀錄撰寫、日照/居服/夜宿三類文件統一管理，對應 ${multiFunctionCareMeta.totalItems - 2} 項 115 年度臺北市評鑑基準。社工・照服員・護理師同平台協作，評鑑備審一鍵彙整。立即免費試用。`,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "小規機 AI 文書管理｜三合一服務・評鑑備審｜報告汪",
+    description: `報告汪專為小規機打造，AI 輔助服務紀錄撰寫、日照/居服/夜宿三類文件統一管理，對應 ${multiFunctionCareMeta.totalItems - 2} 項 115 年度臺北市評鑑基準。社工・照服員・護理師同平台協作，評鑑備審一鍵彙整。立即免費試用。`,
   },
 };
 

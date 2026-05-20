@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "115年度精神護理之家評鑑基準 E 面向：創新及改革，共 1 條指標。說明創新或特色措施具有成效並公開分享之評核要求。",
   keywords: ["精神護理之家評鑑", "115年度評鑑", "創新及改革", "特色措施"],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-nursing-home/innovation",
+    canonical: "/school/psychiatric-nursing-home/innovation",
   },
   openGraph: {
     title: "E、創新及改革（E1.1）｜精神護理之家評鑑",

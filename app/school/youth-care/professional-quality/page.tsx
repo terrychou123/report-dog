@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "兒少安置機構社工評鑑",
     "資源結合運用評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/youth-care/professional-quality" },
+  alternates: { canonical: "/school/youth-care/professional-quality" },
   openGraph: {
     title: "專業服務（項目 15–28）｜兒少安置機構評鑑｜報告汪",
     description: "兒少安置機構評鑑參、專業服務14項基準完整解說，涵蓋個案紀錄、輔導目標、服務品質（含2歲以下/以上雙版本）、資源結合等核心服務評鑑要點。",

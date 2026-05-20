@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "評鑑小教室",
     "長照機構評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/general-nursing-home" },
+  alternates: { canonical: "/school/general-nursing-home" },
   openGraph: {
     title: "115年度一般護理之家評鑑基準｜15項完整解析｜評鑑小教室｜報告汪",
     description: "115年度一般護理之家 15項評鑑基準完整解說，掌握評鑑重點，提升通過率。",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "115年度精神護理之家評鑑基準 C 面向：安全維護及設施設備，共 3 條指標。含疏散避難系統（重點項目）、火災應變計畫及夜間演練。",
   keywords: ["精神護理之家評鑑", "115年度評鑑", "安全維護", "疏散避難", "火災應變", "重點項目"],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-nursing-home/safety-facilities",
+    canonical: "/school/psychiatric-nursing-home/safety-facilities",
   },
   openGraph: {
     title: "C、安全維護及設施設備（C1.1–C1.3）｜精神護理之家評鑑",

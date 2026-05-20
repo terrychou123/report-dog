@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "精神復健",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-rehabilitation-institution",
+    canonical: "/school/psychiatric-rehabilitation-institution",
   },
   openGraph: {
     title: "115年度精神復健機構評鑑基準｜日間型36條/住宿型40條｜報告汪",

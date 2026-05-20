@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "115年度一般護理之家評鑑",
     "護理之家評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/general-nursing-home/special-items" },
+  alternates: { canonical: "/school/general-nursing-home/special-items" },
   openGraph: {
     title: "特別事項（D1–D3）｜一般護理之家評鑑｜報告汪",
     description: "一般護理之家評鑑特別事項區塊 3 項基準詳細說明與準備要訣。",

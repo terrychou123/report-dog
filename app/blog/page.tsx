@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "255 篇長照評鑑實戰文章：評鑑準備、文書技巧、PDCA 品質改善完整教學。",
   },
   alternates: {
-    canonical: "https://reportwang.com/blog",
+    canonical: "/blog",
   },
 };
 

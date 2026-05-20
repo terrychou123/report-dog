@@ -347,7 +347,7 @@ export default async function BlogPostPage({ params }: Props) {
 
               {/* CTA 卡片 */}
               <div className="mt-16 rounded-xl border bg-primary/5 p-8 md:p-10 text-center">
-                <h2 className="text-xl font-bold mb-2">報告汪 — AI 長照文書助理</h2>
+                <p className="text-xl font-bold mb-2">報告汪 — AI 長照文書助理</p>
                 <p className="text-muted-foreground mb-6">
                   讓 AI 幫你寫日誌、護理紀錄、評鑑備審文件，省下 50% 文書時間
                 </p>
@@ -363,10 +363,10 @@ export default async function BlogPostPage({ params }: Props) {
               {/* 延伸閱讀：相關評鑑章節 + 下載 */}
               {facilityInfo && (
                 <div className="mt-10 rounded-xl border border-border bg-muted/30 p-6">
-                  <h2 className="text-base font-semibold mb-4 flex items-center gap-2">
+                  <p className="text-base font-semibold mb-4 flex items-center gap-2">
                     <BookOpenIcon className="h-4 w-4 text-primary" />
                     延伸閱讀：評鑑基準小教室
-                  </h2>
+                  </p>
                   <div className="grid gap-2 sm:grid-cols-2 mb-5">
                     {facilityInfo.subPages.map((page) => (
                       <Link

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "臺北市日照評鑑安全設備",
     "115年度日間照顧評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/daycare/safety-environment" },
+  alternates: { canonical: "/school/daycare/safety-environment" },
   openGraph: {
     title: "肆、安全環境設備（項目 38–43）｜日間照顧評鑑｜報告汪",
     description: "115 年度日間照顧機構評鑑安全環境設備 6 項基準詳細說明與準備要訣。",

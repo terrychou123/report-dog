@@ -7,6 +7,66 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 回答用繁體中文
 - 程式碼加上中文註解
 
+## Engineering Rules
+
+### Rule 1 — Think Before Coding
+State assumptions explicitly. If uncertain, ask rather than guess.
+Present multiple interpretations when ambiguity exists.
+Push back when a simpler approach exists.
+Stop when confused. Name what's unclear.
+
+### Rule 2 — Simplicity First
+Minimum code that solves the problem. Nothing speculative.
+No features beyond what was asked. No abstractions for single-use code.
+Test: would a senior engineer say this is overcomplicated? If yes, simplify.
+
+### Rule 3 — Surgical Changes
+Touch only what you must. Clean up only your own mess.
+Don't "improve" adjacent code, comments, or formatting.
+Don't refactor what isn't broken. Match existing style.
+
+### Rule 4 — Goal-Driven Execution
+Define success criteria. Loop until verified.
+Don't follow steps. Define success and iterate.
+Strong success criteria let you loop independently.
+
+### Rule 5 — Use the model only for judgment calls
+Use me for: classification, drafting, summarization, extraction.
+Do NOT use me for: routing, retries, deterministic transforms.
+If code can answer, code answers.
+
+### Rule 6 — Token budgets are not advisory
+Per-task: 4,000 tokens. Per-session: 30,000 tokens.
+If approaching budget, summarize and start fresh.
+Surface the breach. Do not silently overrun.
+
+### Rule 7 — Surface conflicts, don't average them
+If two patterns contradict, pick one (more recent / more tested).
+Explain why. Flag the other for cleanup.
+Don't blend conflicting patterns.
+
+### Rule 8 — Read before you write
+Before adding code, read exports, immediate callers, shared utilities.
+"Looks orthogonal" is dangerous. If unsure why code is structured a way, ask.
+
+### Rule 9 — Tests verify intent, not just behavior
+Tests must encode WHY behavior matters, not just WHAT it does.
+A test that can't fail when business logic changes is wrong.
+
+### Rule 10 — Checkpoint after every significant step
+Summarize what was done, what's verified, what's left.
+Don't continue from a state you can't describe back.
+If you lose track, stop and restate.
+
+### Rule 11 — Match the codebase's conventions, even if you disagree
+Conformance > taste inside the codebase.
+If you genuinely think a convention is harmful, surface it. Don't fork silently.
+
+### Rule 12 — Fail loud
+"Completed" is wrong if anything was skipped silently.
+"Tests pass" is wrong if any were skipped.
+Default to surfacing uncertainty, not hiding it.
+
 ## Product
 
 **報告汪 (reportwang.com)** — An AI-powered evaluation report management platform for long-term care (LTC) and social welfare institutions in Taiwan. Core features: report/document management with rich editing, AI-assisted analysis, tag-based collaboration/sharing, and follow/tracking.
@@ -26,11 +86,13 @@ npm run db:generate          # Generate migration files
 npm run db:studio            # Open Drizzle Studio
 npm run db:seed-templates    # Seed evaluation templates
 
-# Scripts
-npm run generate:disability-welfare-checklist  # Generate disability-welfare checklist Excel
-npm run generate:infant-daycare-checklist      # Generate infant-daycare checklist Excel
-npm run generate:youth-care-checklist          # Generate youth-care checklist Excel
-npm run generate:elderly-welfare-checklist     # Generate elderly-welfare checklist Excel
+# Scripts（完整清單見 package.json scripts）
+npm run generate:<facility>-checklist          # 產生指定機構的 Excel 自我評量表（disability-welfare / infant-daycare / youth-care / elderly-welfare / daycare / nursing-home / home-nursing / psychiatric-rehabilitation-institution / babycare / general-nursing-home）
+npm run check:evaluation-drift -- --facility=<f>  # 確認 profile ↔ supplementary itemId 對齊（drift → exit 1）
+npm run evaluation:sync <facility>             # drift check + 重生 public/downloads/*.xlsx
+npm run gsc:health                            # GSC sitemap 索引狀態快查
+npm run ga:health                             # GA4 連線狀態快查
+npm run audit:blog                            # 審核 blog 文章 TOC/TLDR 完整性
 
 # Google Search Console（讓 Claude Code 讀 GSC 數據）
 npx tsx scripts/gsc.ts --report=top-queries --days=28 --limit=20   # 最熱 query
@@ -127,7 +189,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 - `db/schema.ts` — Full schema definition
 - `db/index.ts` — DB connection (uses `postgres` driver + `DATABASE_URL`)
-- `db/migrations/` — SQL migration files (11 migrations, 0000–0010)
+- `db/migrations/` — SQL migration files（最新編號見目錄，勿在此維護計數）
 - `drizzle.config.ts` — Drizzle Kit config
 
 **Key tables:** `clients` (tags/folders), `reports`, `documents`, `revisions`, `report_revisions`, `ai_sessions`, `ai_usage`, `notifications`, `report_follows`, `blog_posts`, `template_tags`, `report_templates`, `template_tag_reports`, `template_imports`
@@ -142,7 +204,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 - `lib/ai/openrouter-client.ts` — OpenAI SDK client via OpenRouter (`anthropic/claude-sonnet-4.6`)
 - `lib/ai/usage-limit.ts` — Free tier: 1 AI call per user per UTC day (enforced via `ai_usage` table)
-- `lib/ai/evaluation-profiles/` — 12 facility-type profiles with structured evaluation criteria for AI system prompts: `daycare`, `home-care`, `nursing-home`, `hospital`, `disability-welfare`, `babycare`, `home-nursing`, `general-nursing-home`, `youth-care`, `elderly-welfare`, `psychiatric-nursing-home`, `infant-daycare`
+- `lib/ai/evaluation-profiles/` — 14 facility-type profiles with structured evaluation criteria for AI system prompts: `daycare`, `home-care`, `nursing-home`, `hospital`, `disability-welfare`, `babycare`, `home-nursing`, `general-nursing-home`, `youth-care`, `elderly-welfare`, `psychiatric-nursing-home`, `infant-daycare`, `multi-function-care`, `psychiatric-rehabilitation-institution`
 
 **Three AI endpoints:**
 1. `/api/reports/[id]/ai` — Report paragraph editing with extended thinking (streaming)
@@ -156,8 +218,8 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 - `/pricing`, `/testimonial`, `/downloads`, `/onboarding`
 - `/blog`, `/blog/[slug]`, `/blog/[slug]/edit`, `/blog-admin`
 - `/docs/*` — Help center (12 pages: getting-started, create-report, ai-editing, etc.)
-- `/school/*` — Evaluation learning content for 12 facility types with sub-pages each
-- Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`
+- `/school/*` — Evaluation learning content for 14 facility types with sub-pages each
+- Facility-type landing pages: `/hospital`, `/residential`, `/home-care`, `/day-care`, `/home-nursing`, `/disability-welfare`, `/babycare`, `/general-nursing-home`, `/infant-daycare`, `/multi-function-care`, `/psychiatric`
 
 **Auth pages:** `/auth/login`, `/auth/sign-up`, `/auth/sign-up-success`, `/auth/forgot-password`, `/auth/update-password`, `/auth/callback`, `/auth/confirm`, `/auth/email-callback` (server route — email 驗證 PKCE/OTP 進入點), `/auth/email-success`, `/auth/oauth-callback`, `/auth/oauth-success`, `/auth/error`
 
@@ -180,7 +242,7 @@ All data access goes through Drizzle ORM, not the Supabase client. Supabase is u
 
 ### API Routes
 
-All data mutations use Route Handlers (no server actions for data). 18 API route groups:
+All data mutations use Route Handlers (no server actions for data). API route groups:
 - Reports: `/api/reports`, `/api/reports/[id]`, `/api/reports/[id]/ai`, `/api/reports/[id]/revisions`, `/api/reports/[id]/copy`, `/api/reports/evaluation`, `/api/reports/reorder`, `/api/reports/shared`
 - Documents: `/api/documents`, `/api/documents/[id]`, `/api/documents/[id]/ai`, `/api/documents/[id]/revisions`
 - Tags: `/api/tags`, `/api/tags/[id]`, `/api/tag-reports`, `/api/tag-reports/[id]`, `/api/tags/reorder`, `/api/tag-reports/reorder`
@@ -190,9 +252,14 @@ All data mutations use Route Handlers (no server actions for data). 18 API route
 - Templates: `/api/templates`, `/api/templates/import`
 - Admin: `/api/admin/tags`, `/api/admin/tags/[id]`, `/api/admin/templates`, `/api/admin/templates/[id]`, `/api/admin/tag-reports`
 - Blog: `/api/blog`, `/api/blog/[slug]`
-- Files: `/api/convert-docx`, `/api/parse-doc`, `/api/excel/parse`, `/api/excel/export`
+- Files: `/api/convert-docx`, `/api/parse-doc`, `/api/upload-pdf`, `/api/excel/parse`, `/api/excel/export`
 - AI: `/api/ai-usage`
 - Cron: `/api/cron/cleanup-trials`
+- Leads & Newsletter: `/api/leads`, `/api/newsletter`, `/api/newsletter/unsubscribe`
+- Downloads: `/api/downloads/[file]`
+- Webhooks: `/api/webhooks/resend-inbound`
+- Auth: `/api/auth/*`
+- Misc: `/api/demo`, `/api/trial`, `/api/revalidate-blog`
 
 ### Component Conventions
 
@@ -230,9 +297,23 @@ Defined in `vercel.json`. One job: `/api/cron/cleanup-trials` runs daily at 3:00
 - `app/robots.ts` — robots.txt generation
 - `app/sitemap.ts` — sitemap generation
 - `lib/jsonld.ts` — JSON-LD structured data helpers
+- `app/llms.txt/route.ts` — 動態 llms.txt（school 導覽 + 最新 30 篇文章）
 - OpenGraph images in multiple route directories
 - `public/ads.txt` — Ad monetization
-- `public/downloads/` — 8 pre-built Excel template downloads for facility types
+- `public/downloads/` — Pre-built Excel template downloads；由 `npm run evaluation:sync <facility>` 產生，非靜態 commit
+
+**Metadata 長度規範**（SERP 截斷防止）
+- `title`：25–30 字（繁體中文）
+- `description`：70–80 字（繁體中文）
+- 所有 `app/*/page.tsx` 的 `generateMetadata` 須遵守此限
+
+**`/llms.txt` 決策（2026-05-19）**
+Google 官方明示「llms.txt 對 SEO 沒幫助」（reportwang-audit-checklist.md G3），但本專案**保留**此檔，理由：
+- 屬於主動引用策略，非作弊行為——把 school 導覽與最新文章用 LLM 友善格式集中暴露，讓 ChatGPT/Claude/Perplexity 抓取時更容易理解站內結構
+- 動態產生（非靜態 SEO 操作），與一般 SEO sitemap 屬於不同層級
+- 維護成本低（route handler 直接從 DB + `lib/school-nav-data.ts` 生成）
+- 不影響 robots/sitemap/Google 索引，純粹是 LLM-only 補充入口
+未來若 Google/AI 廠商明確表態 llms.txt 反而扣分，再評估移除
 
 ### Styling
 
@@ -258,6 +339,8 @@ In QA mode, flag any code that doesn't match DESIGN.md.
 When the user's request matches an available skill, ALWAYS invoke it using the Skill
 tool as your FIRST action. Do NOT answer directly, do NOT use other tools first.
 The skill has specialized workflows that produce better results than ad-hoc answers.
+
+> **Plan mode 例外**：plan mode 啟動時，以 plan workflow 為主（Phase 1 Explore agent 優先）。skill 在離開 plan mode 後的實作階段再觸發。
 
 Key routing rules:
 - Product ideas, "is this worth building", brainstorming → invoke office-hours
@@ -292,6 +375,8 @@ Key routing rules:
 4. 人工審核：`app/school/{facility}/**/page.tsx`、`app/{facility}/page.tsx` landing、`app/sitemap.ts`、`lib/jsonld.ts`，以及 `app/blog/[slug]` 內提及該年度的文章
 
 機構對照表（facility slug → npm script）維護於 `scripts/_evaluation-facilities.ts`，新增機構時更新此檔。
+
+> **注意**：`psychiatric-rehabilitation-institution` profile 同時涵蓋日間型（36 條）與住宿型（40 條）兩種基準；但 `supplementary-sheets/` 與 `evaluation-tips/` 分拆為 `psychiatric-rehabilitation-day.ts` + `psychiatric-rehabilitation-residential.ts` 兩檔，drift check 時須同時比對兩檔。
 
 ## graphify
 

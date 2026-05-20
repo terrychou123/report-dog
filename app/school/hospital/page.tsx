@@ -30,9 +30,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度醫院評鑑基準｜124條完整解析（區域、地區醫院）｜報告汪",
+  title: "115年度醫院評鑑基準｜124 條解析＋備評檢核表",
   description:
-    "115 年度衛福部醫院評鑑基準完整解析，共 2 篇 15 章 124 條，適用區域醫院及地區醫院。標示必要、重點、試評、可免評條文分類，附免費備評資料下載，協助醫院管理人員掌握評鑑重點。",
+    "115 年度衛福部醫院評鑑 2 篇 15 章 124 條完整解析，區域、地區醫院適用，標示必要／重點／試評條文＋免費備評檢核表下載。",
   keywords: [
     "醫院評鑑",
     "115年度醫院評鑑基準",
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
     "評鑑小教室",
     "醫療法第28條",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital" },
+  alternates: { canonical: "/school/hospital" },
   openGraph: {
-    title: "115年度醫院評鑑基準｜124條完整解析（區域、地區醫院）｜報告汪",
-    description: "124 條醫院評鑑基準完整解說（區域醫院、地區醫院適用），附免費備評資料下載。",
+    title: "115年度醫院評鑑基準｜124 條解析＋備評檢核表",
+    description: "115 年度醫院評鑑 2 篇 15 章 124 條解析（區域、地區醫院適用），附免費備評檢核表下載。",
     url: "https://reportwang.com/school/hospital",
   },
 };

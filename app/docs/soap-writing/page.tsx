@@ -9,7 +9,7 @@ import { SoapDemo } from "@/components/demo/soap-demo";
 export const metadata: Metadata = {
   title: "SOAP 寫法 AI 改寫",
   description: "報告汪 SOAP 模式教學：勾選 SOAP checkbox，AI 自動將個案紀錄改寫為主觀、客觀、評估、計畫四段式專業格式，適合護理、居服、長照機構評鑑備審。",
-  alternates: { canonical: "https://reportwang.com/docs/soap-writing" },
+  alternates: { canonical: "/docs/soap-writing" },
   openGraph: {
     title: "SOAP 寫法 AI 改寫｜報告汪教學",
     description: "一鍵將個案紀錄改寫成 SOAP 四段式格式，加速長照評鑑備審。",

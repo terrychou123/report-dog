@@ -18,9 +18,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度住宿型長照機構評鑑基準｜63項+加減分3項完整解說",
+  title: "115年住宿型長照機構評鑑｜63 項基準＋免費檢核表",
   description:
-    "115 年度住宿式長期照顧服務機構（養護機構/安養機構）績效考核指標完整說明，共 63 正式項目、4 大區塊：經營管理效能、專業照護品質、安全環境設備、個案權益保障，另有加減分項目 3 項。最後更新：2026 年 5 月。",
+    "115 年住宿型長照機構（養護／安養）評鑑 63 項基準怎麼準備？4 大區塊重點＋加減分 3 項解析＋免費備評檢核表下載。",
   keywords: [
     "住宿型長照評鑑",
     "安養機構評鑑",
@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     "住宿式長期照顧評鑑",
     "住宿型照顧機構評鑑指標",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home" },
+  alternates: { canonical: "/school/nursing-home" },
   openGraph: {
-    title: "115年度住宿型長照機構評鑑基準｜63項完整解說｜評鑑小教室｜報告汪",
-    description: "115年度住宿型長照機構（養護機構）63項評鑑基準完整解說，掌握評鑑重點，提升通過率。",
+    title: "115年住宿型長照機構評鑑｜63 項基準＋免費檢核表",
+    description: "115 年住宿型長照（養護／安養）63 項評鑑基準 4 大區塊重點，附免費備評檢核表下載。",
     url: "https://reportwang.com/school/nursing-home",
   },
 };

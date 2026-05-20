@@ -7,7 +7,7 @@ import { docsNavSections } from "@/lib/docs-nav";
 export const metadata: Metadata = {
   title: "使用教學",
   description: "報告汪完整使用教學：從建立第一份報告到 AI 評鑑分析，圖文步驟帶你快速掌握每個功能。",
-  alternates: { canonical: "https://reportwang.com/docs" },
+  alternates: { canonical: "/docs" },
   openGraph: {
     title: "使用教學｜報告汪",
     description: "長照機構 AI 文書管理系統完整教學，從入門到進階一頁看懂。",

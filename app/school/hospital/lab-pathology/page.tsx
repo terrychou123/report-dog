@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/lab-pathology" },
+  alternates: { canonical: "/school/hospital/lab-pathology" },
   openGraph: {
     title: "2.8 檢驗、病理與放射作業（項目 111–124）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑檢驗、病理與放射作業區塊 14 項評鑑項目詳細說明與準備要訣。",

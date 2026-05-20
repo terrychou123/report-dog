@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { db } from "@/db";
-import { blogPosts } from "@/db/schema";
+import { blogPosts, classes } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { schoolReviewDates } from "@/lib/school-review-dates";
 
@@ -15,6 +15,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .where(eq(blogPosts.status, "published"));
   } catch {
     // DB unavailable — omit blog entries from sitemap
+  }
+
+  let publishedClasses: { slug: string; updatedAt: Date | null; category: string | null; tags: string[] | null }[] = [];
+  try {
+    publishedClasses = await db
+      .select({ slug: classes.slug, updatedAt: classes.updatedAt, category: classes.category, tags: classes.tags })
+      .from(classes)
+      .where(eq(classes.status, "published"));
+  } catch {
+    // DB unavailable — omit class entries from sitemap
   }
 
   const blogEntries: MetadataRoute.Sitemap = publishedPosts.map((post) => ({
@@ -46,6 +56,36 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.4,
   }));
 
+  // Class 文章
+  const classEntries: MetadataRoute.Sitemap = publishedClasses.map((post) => ({
+    url: `https://reportwang.com/class/${post.slug}`,
+    lastModified: post.updatedAt ?? new Date(),
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
+  // Class 分類 archive
+  const uniqueClassCategories = Array.from(
+    new Set(publishedClasses.map((p) => p.category).filter(Boolean) as string[])
+  );
+  const classCategoryEntries: MetadataRoute.Sitemap = uniqueClassCategories.map((cat) => ({
+    url: `https://reportwang.com/class/category/${encodeURIComponent(cat)}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.5,
+  }));
+
+  // Class 標籤 archive
+  const uniqueClassTags = Array.from(
+    new Set(publishedClasses.flatMap((p) => p.tags ?? []).filter(Boolean))
+  );
+  const classTagEntries: MetadataRoute.Sitemap = uniqueClassTags.map((tag) => ({
+    url: `https://reportwang.com/class/tag/${encodeURIComponent(tag)}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.4,
+  }));
+
   const staticDate = new Date();
   const schoolDate = (slug: string): Date => {
     const d = schoolReviewDates[slug];
@@ -71,10 +111,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/pricing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/testimonial", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/downloads", lastModified: staticDate, changeFrequency: "monthly", priority: 0.6 },
-    { url: "https://reportwang.com/onboarding", lastModified: staticDate, changeFrequency: "monthly", priority: 0.6 },
-
     // Blog
     { url: "https://reportwang.com/blog", lastModified: staticDate, changeFrequency: "weekly", priority: 0.7 },
+    // Class
+    { url: "https://reportwang.com/class", lastModified: staticDate, changeFrequency: "weekly", priority: 0.7 },
     { url: "https://reportwang.com/blog/pdca", lastModified: staticDate, changeFrequency: "monthly", priority: 0.8 },
 
     // Docs
@@ -219,5 +259,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...blogEntries,
     ...categoryEntries,
     ...tagEntries,
+    ...classEntries,
+    ...classCategoryEntries,
+    ...classTagEntries,
   ];
 }

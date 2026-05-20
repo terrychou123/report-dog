@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "老人福利機構住民滿意度",
     "115年度老人福利機構評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/elderly-welfare/client-rights" },
+  alternates: { canonical: "/school/elderly-welfare/client-rights" },
   openGraph: {
     title: "D、個案權益保障（項目 63–71）｜老人福利機構評鑑｜報告汪",
     description: "老人福利機構評鑑個案權益保障 9 項基準詳細說明與準備要訣。",

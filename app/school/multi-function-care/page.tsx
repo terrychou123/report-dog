@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "小規模多機能機構評鑑指標",
     "社區式長照評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/multi-function-care" },
+  alternates: { canonical: "/school/multi-function-care" },
   openGraph: {
     title: "115年度小規機評鑑基準｜45項+2加分題完整解析｜報告汪",
     description: "45 項小規模多機能機構法定評鑑基準完整解說，掌握日照+居服+夜宿三合一評鑑重點。",

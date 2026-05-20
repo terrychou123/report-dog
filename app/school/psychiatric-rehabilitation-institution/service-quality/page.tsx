@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "復健基金管理",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/psychiatric-rehabilitation-institution/service-quality",
+    canonical: "/school/psychiatric-rehabilitation-institution/service-quality",
   },
   openGraph: {
     title: "第3章、服務品質（3.1–3.14）｜精神復健機構評鑑",

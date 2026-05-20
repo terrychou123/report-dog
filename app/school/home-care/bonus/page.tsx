@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "居家服務社區資源",
     "長照創新",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-care/bonus" },
+  alternates: { canonical: "/school/home-care/bonus" },
   openGraph: {
     title: "加分題（項目 31–32）｜居家服務評鑑｜報告汪",
     description: "居家服務機構評鑑加分題 2 項：創新服務與照顧者支持服務詳細說明。",

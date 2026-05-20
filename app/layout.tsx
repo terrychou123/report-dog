@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Geist, Noto_Serif_TC } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import { FbWebviewBanner } from "@/components/fb-webview-banner";
+import { StripTrackingParams } from "@/components/strip-tracking-params";
 import { organizationJsonLd, websiteWithSearchJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import "./globals.css";
 
@@ -104,7 +106,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <FbWebviewBanner />
+          <Suspense fallback={null}>
+            <FbWebviewBanner />
+          </Suspense>
+          <StripTrackingParams />
           {children}
           <Toaster richColors />
         </ThemeProvider>

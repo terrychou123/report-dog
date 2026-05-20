@@ -28,7 +28,7 @@ export function SchoolDownloadButton({
         {label ?? "下載 Excel 檢核表"}
       </Button>
     ) : (
-      <button className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline">
+      <button type="button" className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded">
         <DownloadIcon className="h-4 w-4" />
         {label ?? "免費下載 Excel 檢查表 →"}
       </button>

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "嬰幼兒安全環境評鑑",
   ],
   alternates: {
-    canonical: "https://reportwang.com/school/infant-daycare/health-safety",
+    canonical: "/school/infant-daycare/health-safety",
   },
   openGraph: {
     title: "健康安全（項目 37–60）｜托嬰中心評鑑｜報告汪",

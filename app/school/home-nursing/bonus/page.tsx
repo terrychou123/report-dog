@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "居家護理評鑑準備",
     "居家護理評鑑加分項目",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-nursing/bonus" },
+  alternates: { canonical: "/school/home-nursing/bonus" },
   openGraph: {
     title: "B3、加分項目（5%）｜居家護理所評鑑｜報告汪",
     description: "115年度居家護理所評鑑 B3 加分項目五項方向完整說明與準備策略。",

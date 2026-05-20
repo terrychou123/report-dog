@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/anesthesia-surgery" },
+  alternates: { canonical: "/school/hospital/anesthesia-surgery" },
   openGraph: {
     title: "2.6 麻醉與手術（項目 99–107）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑麻醉與手術區塊 9 項評鑑項目詳細說明與準備要訣。",

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "安寧照護",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/care-execution" },
+  alternates: { canonical: "/school/hospital/care-execution" },
   openGraph: {
     title: "2.3 醫療照護之執行與評估（項目 50–65）｜醫院評鑑｜報告汪",
     description: "醫院評鑑「醫療照護之執行與評估」16 項評鑑項目詳細說明與準備要訣。",

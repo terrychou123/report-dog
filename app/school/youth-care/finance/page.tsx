@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "兒少機構財務查核",
     "安置機構財務評鑑基準",
   ],
-  alternates: { canonical: "https://reportwang.com/school/youth-care/finance" },
+  alternates: { canonical: "/school/youth-care/finance" },
   openGraph: {
     title: "財務管理（項目 29）｜兒少安置機構評鑑｜報告汪",
     description: "兒少安置機構評鑑肆、財務管理（20分）完整說明，依4次財務查核結果計分，掌握財務查核重點提升得分。",

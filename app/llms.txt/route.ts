@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { schoolNavSections } from "@/lib/school-nav";
 import { db } from "@/db";
-import { blogPosts } from "@/db/schema";
+import { blogPosts, classes } from "@/db/schema";
 import { eq, desc } from "drizzle-orm";
 
 export async function GET() {
@@ -43,6 +43,24 @@ export async function GET() {
     // DB 錯誤不阻斷整個 llms.txt 輸出
   }
 
+  // 最新 30 個已發布課程
+  let topClasses: Array<{ slug: string; title: string; excerpt: string | null; category: string | null }> = [];
+  try {
+    topClasses = await db
+      .select({
+        slug: classes.slug,
+        title: classes.title,
+        excerpt: classes.excerpt,
+        category: classes.category,
+      })
+      .from(classes)
+      .where(eq(classes.status, "published"))
+      .orderBy(desc(classes.publishedAt))
+      .limit(30);
+  } catch {
+    // DB 錯誤不阻斷整個 llms.txt 輸出
+  }
+
   lines.push(
     "",
     "## 部落格精選文章（/blog）",
@@ -55,6 +73,20 @@ export async function GET() {
       ? post.excerpt.slice(0, 80).replace(/\n/g, " ")
       : post.category ?? "長照評鑑";
     lines.push(`  - [${post.title}](${base}/blog/${post.slug}) — ${desc}`);
+  }
+
+  lines.push(
+    "",
+    "## 課程精選（/class）",
+    "",
+    `- [長照評鑑課程專區](${base}/class) — 系統化課程：評鑑文書技巧、機構管理實務、PDCA 品質改善`,
+  );
+
+  for (const cls of topClasses) {
+    const clsDesc = cls.excerpt
+      ? cls.excerpt.slice(0, 80).replace(/\n/g, " ")
+      : cls.category ?? "長照課程";
+    lines.push(`  - [${cls.title}](${base}/class/${cls.slug}) — ${clsDesc}`);
   }
 
   lines.push(

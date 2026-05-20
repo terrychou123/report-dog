@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "兒少機構衛生管理",
     "安置機構建築物評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/youth-care/environment" },
+  alternates: { canonical: "/school/youth-care/environment" },
   openGraph: {
     title: "建築物環境及設施設備（項目 7–14）｜兒少安置機構評鑑｜報告汪",
     description: "兒少安置機構評鑑貳、建築物環境及設施設備8項基準完整解說，全部由主管機關依輔導查核情形評分，評委可依現場狀況±2分。",

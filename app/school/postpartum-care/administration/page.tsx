@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度產後護理之家評鑑",
     "月子中心評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/postpartum-care/administration" },
+  alternates: { canonical: "/school/postpartum-care/administration" },
   openGraph: {
     title: "行政組織與服務對象權益保障（A1.1–A2.3）｜產後護理之家評鑑｜報告汪",
     description: "產後護理之家評鑑行政組織區塊 5 項基準詳細說明與準備要訣。",

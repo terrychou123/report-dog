@@ -8,7 +8,7 @@ import { techArticleJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "追蹤報告更新",
   description: "報告汪追蹤功能教學：設定 7 種追蹤頻率（每日到每年），系統自動判斷報告是否逾期未更新，紅色標示提醒督導催繳。居服、日照、醫院、住宿型機構追蹤策略建議。",
-  alternates: { canonical: "https://reportwang.com/docs/follow-tracking" },
+  alternates: { canonical: "/docs/follow-tracking" },
   openGraph: {
     title: "追蹤報告更新｜報告汪教學",
     description: "設定追蹤頻率，系統自動判斷報告是否逾期，紅色標示一目了然。7 種頻率支援各機構定期報告管理需求。",

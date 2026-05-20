@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/infection-control" },
+  alternates: { canonical: "/school/hospital/infection-control" },
   openGraph: {
     title: "2.7 感染管制（項目 108–110）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑感染管制區塊 3 項必要評鑑項目詳細說明與準備要訣。",

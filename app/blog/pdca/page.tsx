@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "護理 PDCA 怎麼寫？8 篇實戰教學含報告範例與 4 步驟模板。",
   },
   alternates: {
-    canonical: "https://reportwang.com/blog/pdca",
+    canonical: "/blog/pdca",
   },
 };
 

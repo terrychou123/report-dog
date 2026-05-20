@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "居家服務財務管理",
     "服務品質改善評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-care/management" },
+  alternates: { canonical: "/school/home-care/management" },
   openGraph: {
     title: "參、經營管理效能（項目 15–30）｜居家服務評鑑｜報告汪",
     description: "居家服務機構評鑑經營管理效能 16 項基準詳細說明與準備要訣。",

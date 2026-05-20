@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "小規機監視錄影設備",
     "115年度小規機評鑑",
   ],
-  alternates: { canonical: "https://reportwang.com/school/multi-function-care/bonus" },
+  alternates: { canonical: "/school/multi-function-care/bonus" },
   openGraph: {
     title: "伍、加分題（項目 46–47）｜小規機評鑑｜報告汪",
     description: "115 年度小規機評鑑 2 項加分題完整說明與準備要訣，總計最多加 3 分。",

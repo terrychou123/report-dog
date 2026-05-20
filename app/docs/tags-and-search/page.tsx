@@ -8,7 +8,7 @@ import { techArticleJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "標籤分類與搜尋",
   description: "報告汪標籤分類與全文搜尋教學：建立標籤、為報告加標籤、篩選搜尋，各長照機構標籤策略建議。",
-  alternates: { canonical: "https://reportwang.com/docs/tags-and-search" },
+  alternates: { canonical: "/docs/tags-and-search" },
   openGraph: {
     title: "標籤分類與搜尋｜報告汪教學",
     description: "用標籤管理長照報告，篩選、搜尋一秒找到目標報告。",

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "臺北市小規機評鑑",
     "115年度小規機評鑑基準",
   ],
-  alternates: { canonical: "https://reportwang.com/school/multi-function-care/client-rights" },
+  alternates: { canonical: "/school/multi-function-care/client-rights" },
   openGraph: {
     title: "壹、個案權益保障（項目 1–4）｜小規機評鑑｜報告汪",
     description: "115 年度小規機評鑑「個案權益保障」4 項基準詳細說明與準備要訣。",

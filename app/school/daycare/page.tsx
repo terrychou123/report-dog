@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "115年度評鑑",
     "日照評鑑指標",
   ],
-  alternates: { canonical: "https://reportwang.com/school/daycare" },
+  alternates: { canonical: "/school/daycare" },
   openGraph: {
     title: "115年度日照中心評鑑基準｜43項完整解析｜評鑑小教室｜報告汪",
     description: "115年度日照中心 43 項法定評鑑基準完整解說，含 4 大區塊與 2 加分題，掌握評鑑重點，提升通過率。",

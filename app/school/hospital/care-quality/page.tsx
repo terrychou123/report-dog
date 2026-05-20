@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "異常事件通報",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/care-quality" },
+  alternates: { canonical: "/school/hospital/care-quality" },
   openGraph: {
     title: "2.2 醫療照護品質與安全管理（項目 47–49）｜醫院評鑑｜報告汪",
     description: "醫院評鑑「醫療照護品質與安全管理」3 項必要條文詳細說明與準備要訣。",

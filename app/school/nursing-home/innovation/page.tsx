@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "115年度住宿型長照評鑑",
     "住宿式長照加減分",
   ],
-  alternates: { canonical: "https://reportwang.com/school/nursing-home/innovation" },
+  alternates: { canonical: "/school/nursing-home/innovation" },
   openGraph: {
     title: "加減分項目（項目 64–66）｜住宿型照顧機構評鑑｜報告汪",
     description: "住宿型照顧機構評鑑加減分項目 3 項詳細說明與準備要訣（115年度全國版）。",

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "地區醫院評鑑",
     "評鑑準備",
   ],
-  alternates: { canonical: "https://reportwang.com/school/hospital/medical-records" },
+  alternates: { canonical: "/school/hospital/medical-records" },
   openGraph: {
     title: "1.4 病歷、資訊與溝通管理（項目 23–26）｜醫院評鑑小教室｜報告汪",
     description: "醫院評鑑「病歷、資訊與溝通管理」4 項評鑑項目詳細說明與準備要訣。",

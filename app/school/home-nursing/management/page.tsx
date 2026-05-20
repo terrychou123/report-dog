@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "皮膚損傷發生率",
     "護理人員離職率",
   ],
-  alternates: { canonical: "https://reportwang.com/school/home-nursing/management" },
+  alternates: { canonical: "/school/home-nursing/management" },
   openGraph: {
     title: "A、經營管理（項目 1–5）｜居家護理所評鑑｜報告汪",
     description: "居家護理所評鑑經營管理 5 項基準詳細說明與準備要訣。",
