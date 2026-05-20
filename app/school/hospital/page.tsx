@@ -30,9 +30,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度醫院評鑑基準｜124 條解析＋備評檢核表",
+  title: "115年度醫院評鑑基準及評量項目｜124 條完整解析",
   description:
-    "115 年度衛福部醫院評鑑 2 篇 15 章 124 條完整解析，區域、地區醫院適用，標示必要／重點／試評條文＋免費備評檢核表下載。",
+    "115 年度衛福部醫院評鑑指標 2 篇 15 章 124 條完整解析，區域、地區醫院適用，標示必要／重點／試評條文，附免費備評檢核表下載。",
   keywords: [
     "醫院評鑑",
     "115年度醫院評鑑基準",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/hospital" },
   openGraph: {
-    title: "115年度醫院評鑑基準｜124 條解析＋備評檢核表",
-    description: "115 年度醫院評鑑 2 篇 15 章 124 條解析（區域、地區醫院適用），附免費備評檢核表下載。",
+    title: "115年度醫院評鑑基準及評量項目｜124 條完整解析",
+    description: "115 年度醫院評鑑指標 2 篇 15 章 124 條解析（區域、地區醫院適用），附免費備評檢核表下載。",
     url: "https://reportwang.com/school/hospital",
   },
 };
@@ -280,7 +280,7 @@ export default function HospitalPage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">醫院評鑑</Badge>
-        <h1 className="text-2xl font-bold mb-3">醫院評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度醫院評鑑基準及評量項目總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${hospitalMeta.year} 年度` },
