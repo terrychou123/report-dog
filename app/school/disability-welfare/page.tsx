@@ -16,9 +16,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "身心障礙福利機構評鑑指標｜49項基準＋免費檢核表｜報告汪",
+  title: "109年身心障礙福利機構評鑑指標｜49項基準＋檢核表",
   description:
-    "109 年社家署身心障礙福利機構評鑑指標完整解析，49 項涵蓋行政組織、環境設施、專業服務（個別化計畫、健康管理）三大區塊。附免費 Excel 檢核表，協助身障機構掌握評鑑重點、快速備評。",
+    "109 年社家署身心障礙福利機構評鑑指標 49 項，涵蓋行政組織、環境設施、專業服務三大區塊（ISP 個別化計畫＋健康管理），附免費 Excel 備評檢核表。",
   keywords: [
     "身心障礙福利機構評鑑",
     "身心障礙福利機構評鑑指標",
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/disability-welfare" },
   openGraph: {
-    title: "身心障礙福利機構評鑑指標｜49項基準＋免費檢核表｜報告汪",
-    description: "49 項身心障礙福利機構評鑑指標完整解說，附免費 Excel 檢核表，協助身障機構備評。",
+    title: "109年身心障礙福利機構評鑑指標｜49項基準＋檢核表",
+    description: "109 年身心障礙福利機構評鑑指標 49 項解說（ISP 個別化計畫＋健康管理），附免費 Excel 檢核表。",
     url: "https://reportwang.com/school/disability-welfare",
   },
 };
@@ -115,7 +115,7 @@ export default function DisabilityWelfarePage() {
           身心障礙福利機構｜109年度
         </Badge>
         <h1 className="text-2xl font-bold mb-3">
-          身心障礙福利機構評鑑指標總覽
+          109 年身心障礙福利機構評鑑指標總覽
         </h1>
         <KeyTakeaways
           items={[

@@ -15,9 +15,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度居家護理所評鑑基準｜8項評鑑教學｜居家護理評鑑準備",
+  title: "115年度居家護理所評鑑指標｜8項基準＋PDCA解析",
   description:
-    "115 年度居家護理所評鑑基準完整說明，共 8 項目、2 大區塊：A 經營管理（45%，含社區資源、感染管制、品質監測 A5 PDCA）與 B 照護管理（55%，含個案照護管理 B2 佔 45%）。適用居家護理所評鑑準備。最後更新：2026 年 5 月。",
+    "115 年度居家護理所評鑑指標 8 項，A 經營管理（45%）含 PDCA 品質監測，B 照護管理（55%）含個案照護管理 B2，附免費備評檢核表。",
   keywords: [
     "居家護理所評鑑",
     "居家護理評鑑基準",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/home-nursing" },
   openGraph: {
-    title: "115年度居家護理所評鑑基準｜8項完整教學｜評鑑小教室｜報告汪",
-    description: "115年度居家護理所 8 項評鑑基準完整解說，掌握評鑑重點，提升通過率。",
+    title: "115年度居家護理所評鑑指標｜8項基準＋PDCA解析",
+    description: "115 年度居家護理所評鑑指標 8 項解說，PDCA 品質監測與個案照護管理重點，附免費備評檢核表。",
     url: "https://reportwang.com/school/home-nursing",
   },
 };
@@ -96,7 +96,7 @@ export default function HomeNursingPage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">居家護理所</Badge>
-        <h1 className="text-2xl font-bold mb-3">居家護理所評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度居家護理所評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${homeNursingMeta.year} 年度` },

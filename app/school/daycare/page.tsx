@@ -18,9 +18,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度日照中心評鑑基準｜43項+2加分題完整解析｜日間照顧機構評鑑準備",
+  title: "115年度日照中心評鑑指標｜43項＋2加分題",
   description:
-    "115 年度臺北市政府社會局日間照顧機構（日照中心）法定評鑑基準完整說明，共 43 正式項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與安全環境設備，另含 2 項加分題。最後更新：2026 年 5 月。",
+    "臺北市 115 年度日間照顧機構（日照中心）評鑑指標 43 正式項目＋2 加分題，4 大區塊：個案權益、專業照護、經營管理、安全環境完整解析。",
   keywords: [
     "日間照顧機構評鑑基準",
     "日照中心評鑑",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/daycare" },
   openGraph: {
-    title: "115年度日照中心評鑑基準｜43項完整解析｜評鑑小教室｜報告汪",
-    description: "115年度日照中心 43 項法定評鑑基準完整解說，含 4 大區塊與 2 加分題，掌握評鑑重點，提升通過率。",
+    title: "115年度日照中心評鑑指標｜43項＋2加分題",
+    description: "臺北市 115 年度日照中心評鑑指標 43 項＋2 加分題，4 大區塊重點解析，掌握評鑑要點。",
     url: "https://reportwang.com/school/daycare",
   },
 };
@@ -131,7 +131,7 @@ export default function DaycarePage() {
       {/* 頁首 */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">日間照顧機構</Badge>
-        <h1 className="text-2xl font-bold mb-3">日間照顧機構評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度日間照顧機構評鑑指標總覽（臺北市）</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${daycareMeta.year} 年度` },

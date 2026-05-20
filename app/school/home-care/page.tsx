@@ -17,9 +17,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度居家服務機構評鑑基準｜32項完整教學｜居家長照評鑑準備",
+  title: "115年度居家服務機構評鑑指標｜32項臺北市基準",
   description:
-    "115 年度臺北市政府社會局居家服務機構（居家長照）評鑑基準完整說明，共 32 項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能與加分題。最後更新：2026 年 5 月。",
+    "臺北市政府社會局 115 年度居家服務機構（居家長照）評鑑指標 32 項，4 大區塊：個案權益、專業照護、經營管理與加分題完整說明。",
   keywords: [
     "居家服務機構評鑑基準",
     "居服評鑑項目",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/home-care" },
   openGraph: {
-    title: "115年度居家服務機構評鑑基準｜32項完整教學｜評鑑小教室｜報告汪",
-    description: "115年度居家服務機構 32項評鑑基準完整解說，幫助居家長照機構掌握評鑑重點，提升通過率。",
+    title: "115年度居家服務機構評鑑指標｜32項臺北市基準",
+    description: "臺北市 115 年度居家服務機構評鑑指標 32 項，4 大區塊重點解析，附免費備評檢核表。",
     url: "https://reportwang.com/school/home-care",
   },
 };
@@ -120,7 +120,7 @@ export default function HomeCarePage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">居家服務機構</Badge>
-        <h1 className="text-2xl font-bold mb-3">居家服務機構評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度居家服務機構評鑑指標總覽（臺北市）</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${homeCareMeta.year} 年度` },
