@@ -16,9 +16,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "托嬰中心評鑑準備指南｜114-116年度 60 項評鑑基準完整說明",
+  title: "114-116年度托嬰中心評鑑指標｜60項基準完整說明",
   description:
-    "臺北市114-116年度托嬰中心評鑑指標完整說明，共60項目、3大區塊：行政管理（20分）、托育活動（40分）、健康安全（40分）。幫助托嬰中心負責人、托育人員及行政人員快速掌握評鑑重點，提升評鑑準備效率。",
+    "臺北市 114-116 年度托嬰中心評鑑指標 60 項，3 大區塊：行政管理（20分）、托育活動（40分）、健康安全（40分），附免費自評表下載。",
   keywords: [
     "托嬰中心評鑑",
     "臺北市托嬰中心評鑑",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/infant-daycare" },
   openGraph: {
-    title: "托嬰中心評鑑準備指南｜114-116年度 60 項評鑑基準｜報告汪",
+    title: "114-116年度托嬰中心評鑑指標｜60項基準完整說明",
     description:
       "臺北市114-116年度托嬰中心評鑑指標60項完整解說，行政管理、托育活動、健康安全三大區塊，快速掌握評鑑重點。",
     url: "https://reportwang.com/school/infant-daycare",
@@ -115,7 +115,7 @@ export default function InfantDaycareSchoolPage() {
       />
 
       <div className="prose prose-sm dark:prose-invert max-w-none mb-8">
-        <h1 className="text-2xl font-bold mb-2">托嬰中心評鑑基準</h1>
+        <h1 className="text-2xl font-bold mb-2">114-116 年度托嬰中心評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${infantDaycareMeta.year} 年度` },

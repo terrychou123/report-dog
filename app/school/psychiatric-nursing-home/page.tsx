@@ -20,9 +20,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度精神護理之家評鑑基準｜36條完整教學｜精神護理機構評鑑準備",
+  title: "115年度精神護理之家評鑑指標｜36條基準解析",
   description:
-    "115年度精神護理之家評鑑基準完整解說，共5大面向36條指標：經營管理效能（9條）、專業照護品質（21條）、安全維護及設施設備（3條）、住民權益保障（2條）及創新及改革（1條）。最後更新：2026 年 5 月。",
+    "115 年度精神護理之家評鑑指標 36 條，5 大面向：經營管理（9條）、專業照護（21條）、安全設施（3條）、住民權益（2條）、創新改革（1條）。",
   keywords: [
     "精神護理之家評鑑",
     "115年度評鑑",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     canonical: "/school/psychiatric-nursing-home",
   },
   openGraph: {
-    title: "115年度精神護理之家評鑑基準｜36條完整教學｜報告汪",
+    title: "115年度精神護理之家評鑑指標｜36條基準解析",
     description:
       "115年度精神護理之家 36條評鑑指標完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/psychiatric-nursing-home",
@@ -132,7 +132,7 @@ export default function PsychiatricNursingHomePage() {
         <Badge className="mb-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 border-0 hover:bg-blue-500/20">
           精神護理之家
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">精神護理之家評鑑小教室</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度精神護理之家評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${psychiatricNursingHomeMeta.year} 年度` },

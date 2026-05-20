@@ -21,9 +21,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "115年度小規模多機能機構評鑑基準｜45項+2加分題完整解析",
+  title: "115年度小規模多機能機構評鑑指標｜45項＋2加分題",
   description:
-    "115 年度臺北市政府社會局小規模多機能機構法定評鑑基準完整說明，共 45 正式項目、4 大區塊：個案權益保障、專業照護品質、經營管理效能、安全環境設備，另含 2 項加分題。涵蓋日間照顧、居家服務（到府）、臨時住宿（夜宿）三合一服務評鑑重點。",
+    "臺北市 115 年度小規模多機能機構評鑑指標 45 項＋2 加分題，涵蓋日照、居服、夜宿三合一服務，4 大區塊：個案權益、專業照護、經營管理、安全環境。",
   keywords: [
     "小規模多機能機構評鑑",
     "小規機評鑑基準",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/multi-function-care" },
   openGraph: {
-    title: "115年度小規機評鑑基準｜45項+2加分題完整解析｜報告汪",
-    description: "45 項小規模多機能機構法定評鑑基準完整解說，掌握日照+居服+夜宿三合一評鑑重點。",
+    title: "115年度小規模多機能機構評鑑指標｜45項＋2加分題",
+    description: "45 項小規模多機能機構評鑑指標完整解說，涵蓋日照、居服、夜宿三合一評鑑重點。",
     url: "https://reportwang.com/school/multi-function-care",
   },
 };
@@ -156,7 +156,7 @@ export default function MultiFunctionCarePage() {
       {/* 頁首 */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">小規模多機能機構</Badge>
-        <h1 className="text-2xl font-bold mb-3">小規模多機能機構評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度小規模多機能機構評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${multiFunctionCareMeta.year} 年度` },

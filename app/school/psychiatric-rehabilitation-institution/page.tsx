@@ -22,9 +22,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度精神復健機構評鑑基準｜日間型36條/住宿型40條完整解析",
+  title: "115年度精神復健機構評鑑指標｜日間36條住宿40條",
   description:
-    "115年度精神復健機構評鑑基準完整解說，含日間型（3章36條）與住宿型（3章40條）。涵蓋經營管理、復健服務、服務品質三大章節，協助精神復健機構掌握評鑑重點，提升評鑑通過率。最後更新：2026 年 5 月。",
+    "115 年度精神復健機構評鑑指標完整解說，日間型（3章36條）與住宿型（3章40條），涵蓋經營管理、復健服務、服務品質三大章節。",
   keywords: [
     "精神復健機構評鑑",
     "日間型精神復健機構",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     canonical: "/school/psychiatric-rehabilitation-institution",
   },
   openGraph: {
-    title: "115年度精神復健機構評鑑基準｜日間型36條/住宿型40條｜報告汪",
+    title: "115年度精神復健機構評鑑指標｜日間36條住宿40條",
     description:
-      "115年度精神復健機構評鑑基準：日間型36條/住宿型40條完整解說，掌握評鑑重點，提升通過率。",
+      "115年度精神復健機構評鑑指標：日間型36條/住宿型40條完整解說，涵蓋經營管理、復健服務、服務品質。",
     url: "https://reportwang.com/school/psychiatric-rehabilitation-institution",
   },
 };
@@ -123,7 +123,7 @@ export default function PsychiatricRehabilitationInstitutionPage() {
         <Badge className="mb-3 bg-teal-500/10 text-teal-600 dark:text-teal-400 border-0 hover:bg-teal-500/20">
           精神復健機構
         </Badge>
-        <h1 className="text-2xl font-bold mb-3">精神復健機構評鑑小教室</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年度精神復健機構評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${psychiatricRehabDayMeta.year} 年度` },
