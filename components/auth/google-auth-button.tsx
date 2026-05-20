@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { Button } from "@/components/ui/button";
 import { trackEvent } from "@/lib/analytics";
+import { isFacebookWebview } from "@/lib/ua";
 
 // Google 官方 G logo SVG（無需引入新 dep）
 function GoogleGLogo({ className }: { className?: string }) {
@@ -42,6 +43,11 @@ export interface GoogleAuthButtonProps {
 export function GoogleAuthButton({ mode, source, slug, className }: GoogleAuthButtonProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isFbWebview, setIsFbWebview] = useState(false);
+
+  useEffect(() => {
+    setIsFbWebview(isFacebookWebview(navigator.userAgent));
+  }, []);
 
   const handleClick = async () => {
     setError(null);
@@ -80,6 +86,21 @@ export function GoogleAuthButton({ mode, source, slug, className }: GoogleAuthBu
       setIsLoading(false);
     }
   };
+
+  // FB in-app webview 封鎖 Google OAuth（disallowed_useragent），直接 disable 避免用戶卡在 Google 錯誤頁
+  if (isFbWebview) {
+    return (
+      <div className={className}>
+        <Button type="button" variant="outline" className="w-full h-11" disabled>
+          <GoogleGLogo className="h-5 w-5" />
+          <span className="ml-2 text-muted-foreground">使用 Google 登入（需外部瀏覽器）</span>
+        </Button>
+        <p className="mt-2 text-xs text-amber-700 dark:text-amber-400">
+          請點上方橙色橫幅的「複製連結」，在 Chrome 或 Safari 中開啟後再登入。
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className={className}>

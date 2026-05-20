@@ -24,6 +24,7 @@ import {
   LoaderIcon,
 } from "lucide-react";
 import { TemplateImportDialog } from "@/components/template-import-dialog";
+import { UploadReportButton } from "@/components/upload-report-button";
 import { ReportCardContent } from "@/components/report-card-content";
 import { EvaluationPanel } from "@/components/evaluation-panel";
 import { formatZhTWDate } from "@/lib/utils";
@@ -220,11 +221,16 @@ export function DraggableReportsList() {
 
   if (reportList.length === 0) {
     return (
-      <div className="text-center py-20 text-muted-foreground">
-        <FileTextIcon className="h-12 w-12 mx-auto mb-4 opacity-30" />
-        <p className="text-lg mb-2 font-medium text-foreground">尚無報告</p>
-        <p className="text-sm mb-5">點擊右上角「上傳報告」建立第一份報告，或匯入評鑑範本快速開始</p>
-        <TemplateImportDialog />
+      <div className="text-center py-16 text-muted-foreground">
+        <FileTextIcon className="h-14 w-14 mx-auto mb-4 opacity-20" />
+        <p className="text-xl mb-2 font-semibold text-foreground">建立你的第一份報告</p>
+        <p className="text-sm mb-8 max-w-xs mx-auto leading-relaxed">
+          匯入評鑑範本立即開始，或上傳現有報告檔案，30 秒完成建立。
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <TemplateImportDialog />
+          <UploadReportButton />
+        </div>
       </div>
     );
   }
