@@ -21,18 +21,22 @@ function isValidImageUrl(url: string | null): url is string {
 }
 
 export async function generateStaticParams() {
-  const posts = await db
-    .select({ tags: classes.tags })
-    .from(classes)
-    .where(eq(classes.status, "published"));
+  try {
+    const posts = await db
+      .select({ tags: classes.tags })
+      .from(classes)
+      .where(eq(classes.status, "published"));
 
-  const allTags = Array.from(
-    new Set(posts.flatMap((p) => p.tags ?? []).filter(Boolean))
-  );
+    const allTags = Array.from(
+      new Set(posts.flatMap((p) => p.tags ?? []).filter(Boolean))
+    );
 
-  return allTags.map((tag) => ({
-    slug: encodeURIComponent(tag),
-  }));
+    const params = allTags.map((tag) => ({ slug: encodeURIComponent(tag) }));
+    // Cache Components 要求至少一筆；無課程時用佔位符，頁面元件查詢空結果後會 notFound()
+    return params.length > 0 ? params : [{ slug: "_placeholder" }];
+  } catch {
+    return [{ slug: "_placeholder" }];
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
