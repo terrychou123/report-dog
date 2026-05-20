@@ -139,6 +139,7 @@ export default async function BlogPostPage({ params }: Props) {
     coverImageUrl: post.coverImageUrl || undefined,
     category: post.category || undefined,
     tags: post.tags ?? undefined,
+    author: post.author ?? undefined,
   });
 
   // HowTo schema：slug 含步驟型關鍵字時從 H2 標題自動推導，不需 DB 欄位

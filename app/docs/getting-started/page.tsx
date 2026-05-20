@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { techArticleJsonLd } from "@/lib/jsonld";
+import { techArticleJsonLd, howToJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { DocsTip } from "@/components/docs/docs-tip";
 
 export const metadata: Metadata = {
@@ -17,9 +17,18 @@ export const metadata: Metadata = {
 };
 
 export default function GettingStartedPage() {
+  const steps = [
+    { name: "步驟一：註冊帳號", text: "前往報告汪註冊頁，填入電子郵件與密碼後點擊「註冊」，至信箱點擊驗證連結完成帳號啟用。" },
+    { name: "步驟二：認識操作介面", text: "登入後，熟悉左側功能列（通知、報告、標籤、追蹤）與右上角工具列；「＋上傳報告」與「匯入評鑑範本」為最常用按鈕。" },
+    { name: "步驟三：建立第一份報告", text: "點擊「＋上傳報告」，選擇上傳 Word／Excel 檔案或手動輸入內容，完成後系統自動跳轉至報告編輯頁。" },
+  ];
+  const jsonLd = mergeJsonLdGraph(
+    techArticleJsonLd("快速開始｜報告汪教學", "三步驟完成報告汪帳號設定並建立第一份報告", "/docs/getting-started"),
+    howToJsonLd({ name: "如何快速開始使用報告汪", description: "三步驟完成帳號設定並建立第一份 AI 文書報告", path: "/docs/getting-started", steps }),
+  );
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: techArticleJsonLd("快速開始｜報告汪教學", "三步驟完成報告汪帳號設定並建立第一份報告", "/docs/getting-started") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       <Badge variant="outline" className="mb-4 not-prose">入門</Badge>
       <h1>快速開始</h1>

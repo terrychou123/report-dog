@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { techArticleJsonLd } from "@/lib/jsonld";
+import { techArticleJsonLd, howToJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { DocsTip } from "@/components/docs/docs-tip";
 
 export const metadata: Metadata = {
@@ -17,9 +17,19 @@ export const metadata: Metadata = {
 };
 
 export default function ExcelEditingPage() {
+  const steps = [
+    { name: "插入表格", text: "在報告編輯器中，將游標移至要插入表格的位置，點擊工具列「插入表格」按鈕，選擇初始行列數後表格自動插入。" },
+    { name: "編輯表格內容", text: "點擊儲存格開始輸入，可用右鍵新增或刪除欄列、合併儲存格，Tab 鍵移至下一格，Enter 鍵移至下一列。" },
+    { name: "使用公式計算", text: "在儲存格輸入 = 開頭的公式（如 =SUM(A1:A10)）自動計算統計數據，支援 SUM、COUNT、AVERAGE 等常用函式。" },
+    { name: "匯出 .xlsx", text: "編輯完成後，點擊右上角「匯出」→「下載 Excel (.xlsx)」，下載的檔案可直接在 Microsoft Excel 或 Google Sheets 開啟。" },
+  ];
+  const jsonLd = mergeJsonLdGraph(
+    techArticleJsonLd("Excel 表格編輯｜報告汪教學", "報告汪內嵌 Excel 式表格編輯功能的完整使用教學", "/docs/excel-editing"),
+    howToJsonLd({ name: "如何在報告汪使用 Excel 表格編輯功能", description: "四步驟完成 Excel 式表格操作：插入表格、編輯內容、使用公式、匯出 .xlsx", path: "/docs/excel-editing", steps }),
+  );
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: techArticleJsonLd("Excel 表格編輯｜報告汪教學", "報告汪內嵌 Excel 式表格編輯功能的完整使用教學", "/docs/excel-editing") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       <Badge variant="outline" className="mb-4 not-prose">核心功能</Badge>
       <h1>Excel 表格編輯</h1>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { techArticleJsonLd } from "@/lib/jsonld";
+import { techArticleJsonLd, howToJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { DocsTip } from "@/components/docs/docs-tip";
 
 export const metadata: Metadata = {
@@ -17,9 +17,18 @@ export const metadata: Metadata = {
 };
 
 export default function CopyAndTemplatesPage() {
+  const steps = [
+    { name: "複製上期報告", text: "在報告列表找到上期報告，點擊報告卡片右側的複製圖示按鈕，系統立即建立一份內容相同的副本。" },
+    { name: "修改差異段落", text: "開啟副本，找到有變動的段落（例如本月服務人次），點擊段落啟動 AI 修改，輸入具體指令更新數據後套用。" },
+    { name: "建立個人模板庫", text: "建立一份填好通用內容的報告，加上「模板」標籤；每次定期報告時複製此模板，再用 AI 替換佔位文字即可。" },
+  ];
+  const jsonLd = mergeJsonLdGraph(
+    techArticleJsonLd("複製報告與模板｜報告汪教學", "一鍵複製長照報告並用 AI 更新差異段落的完整工作流程", "/docs/copy-and-templates"),
+    howToJsonLd({ name: "如何複製報告並用 AI 更新差異段落", description: "定期報告工作流程：複製上期報告、AI 修改差異、建立模板庫", path: "/docs/copy-and-templates", steps }),
+  );
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: techArticleJsonLd("複製報告與模板｜報告汪教學", "一鍵複製長照報告並用 AI 更新差異段落的完整工作流程", "/docs/copy-and-templates") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       <Badge variant="outline" className="mb-4 not-prose">核心功能</Badge>
       <h1>複製報告與模板</h1>

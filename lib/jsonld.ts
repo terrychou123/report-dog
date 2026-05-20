@@ -1,3 +1,30 @@
+// 報告汪機構基礎資料 — 在 Organization schema 與 BlogPosting publisher 共用，不對外 export
+const ORG_BASE = {
+  "@type": "Organization" as const,
+  name: "報告汪",
+  url: "https://reportwang.com",
+  logo: { "@type": "ImageObject" as const, url: "https://reportwang.com/logo.png", width: 512, height: 512 },
+};
+
+// 報告汪服務的 14 類機構領域 — Knowledge Graph knowsAbout 訊號
+// 來源與 app/school/page.tsx courses[].title 同步，新增機構時更新此常數
+const ORG_KNOWS_ABOUT = [
+  "居家服務機構評鑑基準",
+  "日間照顧機構評鑑基準",
+  "小規模多機能機構評鑑基準",
+  "住宿型照顧機構評鑑基準",
+  "居家護理所評鑑基準",
+  "一般護理之家評鑑基準",
+  "產後護理之家評鑑基準",
+  "身心障礙福利機構評鑑基準",
+  "醫院評鑑基準",
+  "兒少安置機構評鑑基準",
+  "老人福利機構評鑑基準",
+  "托嬰中心評鑑基準",
+  "精神護理之家評鑑",
+  "精神復健機構評鑑基準",
+] as const;
+
 export function breadcrumbListJsonLd(
   items: Array<{ name: string; url: string }>
 ): string {
@@ -16,19 +43,13 @@ export function breadcrumbListJsonLd(
 export function organizationJsonLd(): string {
   return JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "報告汪",
-    url: "https://reportwang.com",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://reportwang.com/logo.png",
-      width: 512,
-      height: 512,
-    },
+    ...ORG_BASE,
     description:
       "報告汪是專為長照與社福機構設計的 AI 文書管理系統，協助社工、護理師、照服員快速完成定期報告與評鑑備審文件。",
+    slogan: "長照與社福機構的 AI 文書管理系統",
     areaServed: { "@type": "Country", name: "Taiwan" },
     inLanguage: "zh-TW",
+    knowsAbout: ORG_KNOWS_ABOUT,
   });
 }
 
@@ -115,8 +136,12 @@ export function blogPostingJsonLd(opts: {
   coverImageUrl?: string;
   category?: string;
   tags?: string[];
+  /** 文章作者姓名；空值 fallback 至「報告汪編輯團隊」 */
+  author?: string;
 }): string {
   const url = `https://reportwang.com/blog/${opts.slug}`;
+  // Person 優於 Organization — Google EEAT 偏好有具名作者
+  const authorName = (opts.author || "").trim() || "報告汪編輯團隊";
   return JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -128,19 +153,8 @@ export function blogPostingJsonLd(opts: {
     dateModified: opts.updatedAt,
     image: opts.coverImageUrl,
     inLanguage: "zh-TW",
-    // Person 優於 Organization — Google EEAT 偏好有具名作者
-    author: { "@type": "Person", name: "報告汪編輯團隊", url: "https://reportwang.com" },
-    publisher: {
-      "@type": "Organization",
-      name: "報告汪",
-      url: "https://reportwang.com",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://reportwang.com/logo.png",
-        width: 512,
-        height: 512,
-      },
-    },
+    author: { "@type": "Person", name: authorName, url: "https://reportwang.com" },
+    publisher: ORG_BASE,
     articleSection: opts.category,
     keywords: opts.tags?.length ? opts.tags.join(", ") : undefined,
   });

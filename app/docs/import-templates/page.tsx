@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { techArticleJsonLd } from "@/lib/jsonld";
+import { techArticleJsonLd, howToJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { DocsTip } from "@/components/docs/docs-tip";
 
 export const metadata: Metadata = {
@@ -17,9 +17,18 @@ export const metadata: Metadata = {
 };
 
 export default function ImportTemplatesPage() {
+  const steps = [
+    { name: "選擇機構類型", text: "在 Onboarding 流程或標籤／報告頁面，點擊「匯入評鑑範本」按鈕，在對話框中選擇對應的機構類型（可多選）。" },
+    { name: "確認匯入", text: "點擊「確認匯入」，系統自動建立對應的評鑑標籤與報告範本；已匯入過的機構類型不會重複建立。" },
+    { name: "搭配 AI 填寫準備內容", text: "用標籤篩選評鑑區塊，逐一開啟報告範本，點擊「準備內容」段落後輸入 AI 指令，描述機構實際情況，AI 即時產出評鑑格式說明。" },
+  ];
+  const jsonLd = mergeJsonLdGraph(
+    techArticleJsonLd("一鍵匯入評鑑範本｜報告汪教學", "支援 8 種長照機構類型，一鍵匯入對應的評鑑標籤與報告範本，省去手動建立的時間。", "/docs/import-templates"),
+    howToJsonLd({ name: "如何匯入評鑑範本並開始準備評鑑", description: "三步驟完成評鑑範本匯入：選擇機構類型、確認匯入、搭配 AI 填寫準備內容", path: "/docs/import-templates", steps }),
+  );
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: techArticleJsonLd("一鍵匯入評鑑範本｜報告汪教學", "支援 8 種長照機構類型，一鍵匯入對應的評鑑標籤與報告範本，省去手動建立的時間。", "/docs/import-templates") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       <Badge variant="outline" className="mb-4 not-prose">核心功能</Badge>
       <h1>一鍵匯入評鑑範本</h1>

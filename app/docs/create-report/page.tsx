@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { techArticleJsonLd } from "@/lib/jsonld";
+import { techArticleJsonLd, howToJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { DocsTip } from "@/components/docs/docs-tip";
 
 export const metadata: Metadata = {
@@ -17,9 +17,17 @@ export const metadata: Metadata = {
 };
 
 export default function CreateReportPage() {
+  const steps = [
+    { name: "方式一：上傳檔案", text: "點擊右上角「＋上傳報告」，選擇「上傳檔案」分頁，拖曳或點擊上傳 .doc/.docx（Word）或 .xlsx/.xls（Excel）檔案，點擊「上傳並建立報告」完成。" },
+    { name: "方式二：手動輸入", text: "點擊「＋上傳報告」後切換至「手動輸入」分頁，填寫報告標題與內容（可貼上現有文字），點擊「儲存報告」完成建立。" },
+  ];
+  const jsonLd = mergeJsonLdGraph(
+    techArticleJsonLd("建立報告｜報告汪教學", "報告汪建立報告兩種方式詳細說明", "/docs/create-report"),
+    howToJsonLd({ name: "如何在報告汪建立報告", description: "報告汪建立長照文書報告兩種方式：上傳 Word／Excel 檔或手動輸入", path: "/docs/create-report", steps }),
+  );
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: techArticleJsonLd("建立報告｜報告汪教學", "報告汪建立報告兩種方式詳細說明", "/docs/create-report") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       <Badge variant="outline" className="mb-4 not-prose">入門</Badge>
       <h1>建立報告</h1>

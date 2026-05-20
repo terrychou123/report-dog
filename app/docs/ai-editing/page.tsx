@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { techArticleJsonLd } from "@/lib/jsonld";
+import { techArticleJsonLd, howToJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "AI 段落修改",
@@ -26,9 +26,18 @@ const exampleInstructions = [
 ];
 
 export default function AiEditingPage() {
+  const steps = [
+    { name: "步驟一：圈選段落", text: "在報告編輯頁，拖曳選取要修改的段落文字（可選一句或整段），選取後「AI 修改助手」對話框自動彈出。" },
+    { name: "步驟二：輸入修改指令", text: "在修改指令欄以自然語言描述需求（例如：「服務人次從 18 改成 21」），如需改為 SOAP 格式可勾選 SOAP 選項，點擊「送出」。" },
+    { name: "步驟三：套用或繼續調整", text: "查看 AI 建議結果，滿意時點擊「套用修改」覆蓋原段落，不滿意時點擊「繼續調整」再輸入補充指令（例如：「再短一點」）。" },
+  ];
+  const jsonLd = mergeJsonLdGraph(
+    techArticleJsonLd("AI 段落修改｜報告汪教學", "使用自然語言指令讓 AI 修改長照報告段落的完整教學", "/docs/ai-editing"),
+    howToJsonLd({ name: "如何使用 AI 段落修改功能", description: "三步驟用自然語言讓 AI 修改長照報告段落：圈選、下指令、套用", path: "/docs/ai-editing", steps }),
+  );
   return (
     <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: techArticleJsonLd("AI 段落修改｜報告汪教學", "使用自然語言指令讓 AI 修改長照報告段落的完整教學", "/docs/ai-editing") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       <Badge variant="outline" className="mb-4 not-prose">核心功能</Badge>
       <h1>AI 段落修改</h1>
