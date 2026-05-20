@@ -36,7 +36,9 @@ export function trackEvent(
 ): void {
   if (typeof window === "undefined" || isLikelyBot()) return;
   // 非正式網域（localhost / Vercel preview）不送 prod GA，避免汙染報表
-  if (!window.location.hostname.endsWith("reportwang.com")) return;
+  // 注意：用 === 或 .endsWith(".reportwang.com")，避免 evilreportwang.com 誤判通過
+  const { hostname } = window.location;
+  if (hostname !== "reportwang.com" && !hostname.endsWith(".reportwang.com")) return;
   // 後台路徑不送 GA，避免內部運營活動汙染分析數據
   if (isInternalPath()) return;
   if (typeof window.gtag !== "function") return;

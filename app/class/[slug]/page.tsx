@@ -24,6 +24,8 @@ import { TrackedCtaLink } from "@/components/tracked-cta-link";
 type Props = { params: Promise<{ slug: string }> };
 
 const HOWTO_SLUG_RE = /\b(guide|prep|plan|30day|90day|timeline|checklist|how-to|steps)\b/i;
+const CHARS_PER_MINUTE = 300; // 中文閱讀速度（字/分鐘）
+const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 
 function isValidImageUrl(url: string | null): url is string {
   if (!url) return false;
@@ -159,7 +161,7 @@ export default async function ClassPostPage({ params }: Props) {
   const structuredData = mergeJsonLdGraph(articleSchema, howto, faq, breadcrumb);
 
   const readingMinutes = post.content
-    ? Math.max(1, Math.ceil(post.content.replace(/<[^>]+>/g, "").length / 300))
+    ? Math.max(1, Math.ceil(post.content.replace(/<[^>]+>/g, "").length / CHARS_PER_MINUTE))
     : undefined;
 
   const facilityInfo = getFacilityInfoFromPost(post.category, post.tags, post.slug);
@@ -244,7 +246,7 @@ export default async function ClassPostPage({ params }: Props) {
               </time>
             )}
             {post.updatedAt && post.publishedAt &&
-              post.updatedAt.getTime() - post.publishedAt.getTime() > 86400000 && (
+              post.updatedAt.getTime() - post.publishedAt.getTime() > ONE_DAY_MS && (
               <>
                 <span className="text-muted-foreground/40">·</span>
                 <span>

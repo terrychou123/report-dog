@@ -10,7 +10,9 @@ import { Button } from "@/components/ui/button";
 const STORAGE_KEY = "fb-webview-dismissed-at";
 const TTL_MS = 24 * 60 * 60 * 1000; // 24 小時
 const COPY_FEEDBACK_MS = 2000;
+const COPY_DISMISS_MS = 5000; // 複製成功後自動折疊的延遲（ms）
 // auth 路徑（登入/註冊/驗證）強制顯示，不允許 dismiss — 驗證信在 webview 無法完成
+// 使用精確比對，避免 /auth/sign-up-success 也被誤判為 forceShow
 const FORCE_SHOW_PATHS = ["/auth/sign-up", "/auth/login", "/auth/confirm"];
 
 function isDismissed(): boolean {
@@ -34,7 +36,7 @@ export function FbWebviewBanner() {
   const [copied, setCopied] = useState(false);
   const [copyFailed, setCopyFailed] = useState(false);
   const pathname = usePathname();
-  const forceShow = FORCE_SHOW_PATHS.some((p) => pathname.startsWith(p));
+  const forceShow = FORCE_SHOW_PATHS.some((p) => pathname === p);
 
   useEffect(() => {
     if (!isFacebookWebview(navigator.userAgent)) return;
@@ -67,7 +69,7 @@ export function FbWebviewBanner() {
     if (success) {
       setCopied(true);
       // 複製成功後 5 秒自動折疊 banner（forceShow 路徑也適用）
-      setTimeout(() => { setCopied(false); setShow(false); }, COPY_FEEDBACK_MS * 2.5);
+      setTimeout(() => { setCopied(false); setShow(false); }, COPY_DISMISS_MS);
     } else {
       setCopyFailed(true); // 顯示 URL 文字供手動複製
     }

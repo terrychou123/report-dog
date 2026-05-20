@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     const { error: bucketError } = await adminClient.storage.createBucket(BUCKET, {
       public: true,
       fileSizeLimit: MAX_SIZE,
-      allowedMimeTypes: ["image/jpeg", "image/png", "image/gif", "image/webp", "image/svg+xml"],
+      allowedMimeTypes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
     });
     if (bucketError && !bucketError.message.includes("already exists")) {
       console.error("[class/upload-image] bucket error:", bucketError);
