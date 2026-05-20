@@ -159,6 +159,25 @@ export const blogPosts = pgTable('blog_posts', {
   updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow(),
 });
 
+export const classes = pgTable('classes', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  slug: text('slug').notNull().unique(),
+  title: text('title').notNull(),
+  excerpt: text('excerpt'),
+  content: text('content'),
+  coverImageUrl: text('cover_image_url'),
+  coverImageAlt: text('cover_image_alt'),
+  author: text('author'),
+  category: text('category'),
+  tags: text('tags').array(),
+  status: text('status').notNull().default('draft'),
+  seoTitle: text('seo_title'),
+  seoDescription: text('seo_description'),
+  publishedAt: timestamp('published_at', { withTimezone: true }),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow(),
+});
+
 // ─── Template System ──────────────────────────────────────────────────────────
 
 export const templateTags = pgTable('template_tags', {
