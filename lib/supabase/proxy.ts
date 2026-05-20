@@ -13,6 +13,7 @@ const PUBLIC_PREFIXES = [
   "/auth",
   // 以下為公開內容頁，不需要登入
   "/school",
+  "/class",       // /class/[slug]/edit 由 requireAdmin() 自行擋
   "/downloads",
   "/docs",
   "/testimonial",
