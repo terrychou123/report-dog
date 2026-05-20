@@ -23,14 +23,14 @@ import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SchoolFaqSection } from "@/components/school/school-faq-section";
 
 export const metadata: Metadata = {
-  title: "14類長照機構評鑑基準完整教學｜115/114/112年度最新",
+  title: "14類長照機構評鑑指標總覽｜115年度完整教學",
   description:
-    "報告汪評鑑小教室：涵蓋居服、日照、住宿型、護理之家、身障機構、醫院等 14 類機構評鑑基準逐項解說，115 年度最新版本，幫助機構管理人員快速掌握評鑑重點。",
+    "報告汪評鑑小教室：涵蓋居服、日照、住宿型、護理之家、身障機構、醫院等 14 類機構評鑑指標逐項解說，115 年度最新版本，幫助機構管理人員快速掌握評鑑重點。",
   keywords: ["長照機構評鑑", "評鑑準備", "評鑑小教室", "居家服務評鑑", "日間照顧評鑑", "住宿型長照評鑑", "居家護理所評鑑", "一般護理之家評鑑", "產後護理之家評鑑", "月子中心評鑑", "身心障礙福利機構評鑑", "身心障礙機構", "兒少安置機構評鑑", "兒童及少年安置機構", "長照評鑑基準", "醫院評鑑", "區域醫院評鑑", "地區醫院評鑑", "精神護理之家評鑑", "精神護理機構", "托嬰中心評鑑", "114年托嬰中心評鑑", "精神復健機構評鑑", "精神復健機構", "日間型精神復健", "住宿型精神復健"],
   alternates: { canonical: "/school" },
   openGraph: {
-    title: "14類長照機構評鑑基準完整教學｜報告汪評鑑小教室",
-    description: "涵蓋居服、日照、住宿型、護理之家、身障機構、醫院等 14 類機構評鑑基準逐項解說，115 年度最新版本，幫助機構管理人員快速掌握評鑑重點。",
+    title: "14類長照機構評鑑指標總覽｜報告汪評鑑小教室",
+    description: "涵蓋居服、日照、住宿型、護理之家、身障機構、醫院等 14 類機構評鑑指標逐項解說，115 年度最新版本，幫助機構管理人員快速掌握評鑑重點。",
     url: "https://reportwang.com/school",
   },
 };
@@ -182,7 +182,7 @@ export default function SchoolPage() {
       />
 
       <div className="prose prose-sm dark:prose-invert max-w-none mb-10">
-        <h1 className="text-2xl font-bold mb-2">長照機構評鑑小教室｜14 類機構評鑑基準完整教學</h1>
+        <h1 className="text-2xl font-bold mb-2">長照機構評鑑小教室｜14 類機構評鑑指標完整教學</h1>
         <p className="text-muted-foreground mb-3">
           長照機構評鑑不再陌生。我們整理 14 類長照機構的評鑑基準，逐項說明評鑑標準、準備要訣與實用提醒，幫助機構人員有條不紊地備戰評鑑。
         </p>
