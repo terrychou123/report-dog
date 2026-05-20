@@ -151,7 +151,7 @@ export default function ElderlyWelfarePage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">老人福利機構</Badge>
-        <h1 className="text-2xl font-bold mb-3">老人福利機構評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年老人福利機構評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${elderlyWelfareMeta.year} 年度` },

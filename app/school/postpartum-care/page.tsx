@@ -17,9 +17,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年產後護理之家評鑑基準｜17項解析＋月子中心檢核表｜報告汪",
+  title: "115年產後護理之家評鑑指標｜17項月子中心檢核",
   description:
-    "115 年度產後護理之家（月子中心）評鑑基準完整解析，17 項涵蓋行政組織、專業照顧、環境設施三大區塊。附免費 Excel 檢核表，協助月子中心一次通過評鑑、提升服務品質。",
+    "115 年度產後護理之家（月子中心）評鑑指標 17 項完整解析，涵蓋行政組織、專業照顧、環境設施三大區塊，附免費 Excel 備評檢核表。",
   keywords: [
     "產後護理之家評鑑",
     "115年產後護理之家評鑑基準",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/postpartum-care" },
   openGraph: {
-    title: "115年產後護理之家評鑑基準｜17項解析＋月子中心檢核表｜報告汪",
-    description: "17 項產後護理之家評鑑基準完整解說，附免費 Excel 檢核表，協助月子中心備評。",
+    title: "115年產後護理之家評鑑指標｜17項月子中心檢核",
+    description: "17 項產後護理之家評鑑指標完整解說，附免費 Excel 檢核表，協助月子中心備評。",
     url: "https://reportwang.com/school/postpartum-care",
   },
 };
@@ -123,7 +123,7 @@ export default function PostpartumCarePage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">產後護理之家</Badge>
-        <h1 className="text-2xl font-bold mb-3">產後護理之家評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115年產後護理之家評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${babycareMeta.year} 年度` },

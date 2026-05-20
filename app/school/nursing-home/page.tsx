@@ -18,9 +18,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年住宿型長照機構評鑑｜63 項基準＋免費檢核表",
+  title: "115年住宿式長照機構評鑑指標｜63 項基準＋檢核表",
   description:
-    "115 年住宿型長照機構（養護／安養）評鑑 63 項基準怎麼準備？4 大區塊重點＋加減分 3 項解析＋免費備評檢核表下載。",
+    "115 年衛福部住宿式長期照顧服務機構評鑑指標 63 項，4 大區塊＋加減分 3 項完整解析，附免費備評檢核表下載。",
   keywords: [
     "住宿型長照評鑑",
     "安養機構評鑑",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/nursing-home" },
   openGraph: {
-    title: "115年住宿型長照機構評鑑｜63 項基準＋免費檢核表",
-    description: "115 年住宿型長照（養護／安養）63 項評鑑基準 4 大區塊重點，附免費備評檢核表下載。",
+    title: "115年住宿式長照機構評鑑指標｜63 項基準＋檢核表",
+    description: "115 年住宿式長照（養護／安養）63 項評鑑指標 4 大區塊重點＋加減分 3 項，附免費備評檢核表下載。",
     url: "https://reportwang.com/school/nursing-home",
   },
 };
@@ -155,7 +155,7 @@ export default function NursingHomePage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">住宿型照顧機構</Badge>
-        <h1 className="text-2xl font-bold mb-3">住宿型照顧機構評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115 年住宿式長期照顧服務機構評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${nursingHomeMeta.year} 年度` },

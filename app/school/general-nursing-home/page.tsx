@@ -17,9 +17,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年度一般護理之家評鑑基準｜15項完整解析｜護理之家評鑑準備",
+  title: "115年度一般護理之家評鑑指標｜15項基準解析",
   description:
-    "115年度一般護理之家評鑑基準完整解說，共 4 大區塊 15 項目：行政管理、專業照護、安全環境、特別事項，幫助護理之家管理人員掌握評鑑重點、提升評鑑通過率。最後更新：2026 年 5 月。",
+    "115 年度一般護理之家評鑑指標 15 項，4 大區塊：行政管理、專業照護、安全環境、特別事項，附免費備評檢核表幫你掌握評鑑重點。",
   keywords: [
     "一般護理之家評鑑",
     "115年度評鑑",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/general-nursing-home" },
   openGraph: {
-    title: "115年度一般護理之家評鑑基準｜15項完整解析｜評鑑小教室｜報告汪",
-    description: "115年度一般護理之家 15項評鑑基準完整解說，掌握評鑑重點，提升通過率。",
+    title: "115年度一般護理之家評鑑指標｜15項基準解析",
+    description: "115年度一般護理之家 15項評鑑指標完整解說，掌握評鑑重點，提升通過率。",
     url: "https://reportwang.com/school/general-nursing-home",
   },
 };
@@ -120,7 +120,7 @@ export default function GeneralNursingHomePage() {
       {/* Header */}
       <div className="mb-8">
         <Badge variant="secondary" className="mb-3">一般護理之家</Badge>
-        <h1 className="text-2xl font-bold mb-3">一般護理之家評鑑基準總覽</h1>
+        <h1 className="text-2xl font-bold mb-3">115年度一般護理之家評鑑指標總覽</h1>
         <KeyTakeaways
           items={[
             { label: "適用年度", value: `${generalNursingHomeMeta.year} 年度` },
