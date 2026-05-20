@@ -132,10 +132,17 @@ export default function ClassListPage() {
               報告汪課程彙整長照評鑑實戰知識，涵蓋居家服務、日照中心、護理之家、醫院護理部等 14 類機構的評鑑準備攻略、文書效率技巧與 AI 輔助工具應用，協助社工、護理師與行政人員在評鑑季前建立系統化學習路徑。
             </p>
             <p>
-              每門課程均引用官方評鑑基準條號，並附可直接套用的準備清單。想深入了解特定機構，可前往{" "}
+              想深入了解特定機構，可前往{" "}
               <Link href="/school" className="text-primary underline underline-offset-4">評鑑小教室</Link>{" "}
               查閱逐項基準解析；想了解最新評鑑實務，可前往{" "}
               <Link href="/blog" className="text-primary underline underline-offset-4">部落格知識庫</Link>。
+            </p>
+          </div>
+
+          {/* 課程內容免責聲明 */}
+          <div className="mt-6 max-w-2xl rounded-lg border-l-4 border-amber-500 bg-amber-50 dark:bg-amber-950/30 px-4 py-3">
+            <p className="text-sm font-medium text-amber-900 dark:text-amber-200">
+              ⚠️ 以下課程為 AI 蒐集網路既有內容，課程品質及聯絡事宜由各自的開課單位負責，與本站無關。
             </p>
           </div>
         </div>
