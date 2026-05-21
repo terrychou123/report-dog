@@ -35,7 +35,8 @@ export async function POST(req: NextRequest) {
       throw new Error(`Bucket 建立失敗：${bucketError.message}`);
     }
 
-    const ext = file.name.split(".").pop() ?? "jpg";
+    const EXT_MAP: Record<string, string> = { "image/jpeg": "jpg", "image/png": "png", "image/gif": "gif", "image/webp": "webp" };
+    const ext = EXT_MAP[file.type] ?? "jpg";
     const filename = `${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
     const buffer = Buffer.from(await file.arrayBuffer());
 

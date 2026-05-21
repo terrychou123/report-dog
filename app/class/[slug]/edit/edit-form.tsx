@@ -66,21 +66,23 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
     },
   });
 
+  async function uploadImage(file: File): Promise<string> {
+    const formData = new FormData();
+    formData.append("file", file);
+    const res = await fetch("/api/class/upload-image", { method: "POST", body: formData });
+    if (!res.ok) {
+      const { error } = await res.json().catch(() => ({}));
+      throw new Error(error ?? "Upload failed");
+    }
+    const { url } = await res.json();
+    return url as string;
+  }
+
   async function handleImageUpload(file: File) {
     if (!editor) return;
     setIsUploading(true);
     try {
-      const formData = new FormData();
-      formData.append("file", file);
-      const res = await fetch("/api/class/upload-image", {
-        method: "POST",
-        body: formData,
-      });
-      if (!res.ok) {
-        const { error } = await res.json().catch(() => ({}));
-        throw new Error(error ?? "Upload failed");
-      }
-      const { url } = await res.json();
+      const url = await uploadImage(file);
       editor.chain().focus().setImage({ src: url }).scrollIntoView().run();
       toast.success("圖片已上傳");
     } catch (err) {
@@ -93,17 +95,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
   async function handleCoverUpload(file: File) {
     setIsCoverUploading(true);
     try {
-      const formData = new FormData();
-      formData.append("file", file);
-      const res = await fetch("/api/class/upload-image", {
-        method: "POST",
-        body: formData,
-      });
-      if (!res.ok) {
-        const { error } = await res.json().catch(() => ({}));
-        throw new Error(error ?? "Upload failed");
-      }
-      const { url } = await res.json();
+      const url = await uploadImage(file);
       setForm((prev) => ({ ...prev, coverImageUrl: url }));
       toast.success("封面圖片已上傳");
     } catch (err) {
@@ -441,7 +433,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
                   <div className="mt-1 space-y-2">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={form.coverImageUrl}
+                      src={form.coverImageUrl.startsWith("https://") || form.coverImageUrl.startsWith("/") ? form.coverImageUrl : ""}
                       alt="封面預覽"
                       className="w-full h-32 object-cover rounded border bg-muted"
                     />
@@ -454,7 +446,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
                         disabled={isCoverUploading}
                       >
                         {isCoverUploading ? (
-                          <><Loader2 className="w-3 h-3 animate-spin mr-1" />上傳中</>
+                          <><Loader2 className="w-4 h-4 animate-spin mr-1" />上傳中</>
                         ) : (
                           "重新上傳"
                         )}
