@@ -79,7 +79,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
         throw new Error(error ?? "Upload failed");
       }
       const { url } = await res.json();
-      editor.chain().focus().setImage({ src: url }).run();
+      editor.chain().focus().setImage({ src: url }).scrollIntoView().run();
       toast.success("圖片已上傳");
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "圖片上傳失敗");

@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
       allowedMimeTypes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
     });
     if (bucketError && !bucketError.message.includes("already exists")) {
-      console.error("[class/upload-image] bucket error:", bucketError);
+      throw new Error(`Bucket 建立失敗：${bucketError.message}`);
     }
 
     const ext = file.name.split(".").pop() ?? "jpg";
