@@ -29,6 +29,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
   const [isSaving, setIsSaving] = useState(false);
   const [slugChanged, setSlugChanged] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
+  const [isCoverUploading, setIsCoverUploading] = useState(false);
   const [htmlMode, setHtmlMode] = useState(false);
   const [htmlContent, setHtmlContent] = useState(post.content ?? "");
   const [showPreview, setShowPreview] = useState(true);
@@ -37,6 +38,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
     [htmlContent]
   );
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const coverInputRef = useRef<HTMLInputElement>(null);
 
   const [form, setForm] = useState({
     slug: post.slug,
@@ -85,6 +87,29 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
       toast.error(err instanceof Error ? err.message : "圖片上傳失敗");
     } finally {
       setIsUploading(false);
+    }
+  }
+
+  async function handleCoverUpload(file: File) {
+    setIsCoverUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      const res = await fetch("/api/class/upload-image", {
+        method: "POST",
+        body: formData,
+      });
+      if (!res.ok) {
+        const { error } = await res.json().catch(() => ({}));
+        throw new Error(error ?? "Upload failed");
+      }
+      const { url } = await res.json();
+      setForm((prev) => ({ ...prev, coverImageUrl: url }));
+      toast.success("封面圖片已上傳");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "封面圖片上傳失敗");
+    } finally {
+      setIsCoverUploading(false);
     }
   }
 
@@ -411,13 +436,66 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
               </div>
 
               <div>
-                <Label htmlFor="coverImageUrl">封面圖片 URL</Label>
-                <Input
-                  id="coverImageUrl"
-                  value={form.coverImageUrl}
-                  onChange={(e) => handleChange("coverImageUrl", e.target.value)}
-                  placeholder="https://..."
-                  className="mt-1"
+                <Label>封面圖片</Label>
+                {form.coverImageUrl ? (
+                  <div className="mt-1 space-y-2">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={form.coverImageUrl}
+                      alt="封面預覽"
+                      className="w-full h-32 object-cover rounded border bg-muted"
+                    />
+                    <div className="flex gap-2">
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={() => coverInputRef.current?.click()}
+                        disabled={isCoverUploading}
+                      >
+                        {isCoverUploading ? (
+                          <><Loader2 className="w-3 h-3 animate-spin mr-1" />上傳中</>
+                        ) : (
+                          "重新上傳"
+                        )}
+                      </Button>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handleChange("coverImageUrl", "")}
+                        disabled={isCoverUploading}
+                      >
+                        移除
+                      </Button>
+                    </div>
+                  </div>
+                ) : (
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    onClick={() => coverInputRef.current?.click()}
+                    disabled={isCoverUploading}
+                    className="mt-1 w-full"
+                  >
+                    {isCoverUploading ? (
+                      <><Loader2 className="w-4 h-4 animate-spin mr-1" />上傳中</>
+                    ) : (
+                      <><ImageIcon className="w-4 h-4 mr-1" />上傳封面圖片</>
+                    )}
+                  </Button>
+                )}
+                <input
+                  ref={coverInputRef}
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (file) handleCoverUpload(file);
+                    e.target.value = "";
+                  }}
                 />
               </div>
             </div>
