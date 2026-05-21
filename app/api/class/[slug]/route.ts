@@ -4,8 +4,8 @@ import { classes } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { revalidateTag } from "next/cache";
 import { requireAdminApi } from "@/lib/admin";
-
-const SLUG_RE = /^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$/;
+import { SLUG_RE, SLUG_ERROR } from "@/lib/class/slug";
+import { isUniqueViolation } from "@/lib/db-errors";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -45,10 +45,7 @@ export async function PUT(req: NextRequest, { params }: Params) {
 
   if (body.slug && body.slug !== slug) {
     if (!SLUG_RE.test(body.slug)) {
-      return NextResponse.json(
-        { error: "slug 只能包含小寫英數字與連字號，且不可以連字號開頭或結尾" },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: SLUG_ERROR }, { status: 400 });
     }
     updateData.slug = body.slug;
   }
@@ -60,17 +57,28 @@ export async function PUT(req: NextRequest, { params }: Params) {
     }
   }
 
-  const [updated] = await db
-    .update(classes)
-    .set(updateData)
-    .where(eq(classes.slug, slug))
-    .returning();
+  try {
+    const [updated] = await db
+      .update(classes)
+      .set(updateData)
+      .where(eq(classes.slug, slug))
+      .returning();
 
-  if (!updated) return NextResponse.json({ error: "Not found" }, { status: 404 });
+    if (!updated) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
-  revalidateTag(`class-post-${slug}`, { expire: 0 });
+    revalidateTag(`class-post-${slug}`, { expire: 0 });
 
-  return NextResponse.json(updated);
+    return NextResponse.json(updated);
+  } catch (err) {
+    if (isUniqueViolation(err)) {
+      const newSlug = body.slug ?? slug;
+      return NextResponse.json(
+        { error: `網址 "${newSlug}" 已被其他課程使用，請換一個`, code: "SLUG_TAKEN" },
+        { status: 409 }
+      );
+    }
+    throw err;
+  }
 }
 
 export async function DELETE(_req: NextRequest, { params }: Params) {

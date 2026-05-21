@@ -28,6 +28,7 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
   const router = useRouter();
   const [isSaving, setIsSaving] = useState(false);
   const [slugChanged, setSlugChanged] = useState(false);
+  const [isTranslatingSlug, setIsTranslatingSlug] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [isCoverUploading, setIsCoverUploading] = useState(false);
   const [htmlMode, setHtmlMode] = useState(false);
@@ -116,6 +117,29 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
     [post.slug]
   );
 
+  async function generateSlug() {
+    if (!form.title.trim() || isTranslatingSlug) return;
+    setIsTranslatingSlug(true);
+    try {
+      const res = await fetch("/api/admin/translate-slug", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title: form.title }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        toast.error(data.error || "無法產生 slug，請手動輸入");
+        return;
+      }
+      handleChange("slug", data.slug);
+      toast.success("已從標題產生 slug");
+    } catch {
+      toast.error("無法產生 slug，請手動輸入");
+    } finally {
+      setIsTranslatingSlug(false);
+    }
+  }
+
   function toggleHtmlMode() {
     if (!htmlMode) {
       setHtmlContent(editor?.getHTML() ?? "");
@@ -154,7 +178,16 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
         body: JSON.stringify(body),
       });
 
-      if (!res.ok) throw new Error("Save failed");
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        if (data.code === "SLUG_TAKEN") {
+          toast.error(data.error);
+          document.getElementById("slug")?.focus();
+        } else {
+          toast.error(data.error || "儲存失敗");
+        }
+        return;
+      }
       const updated: ClassRow = await res.json();
 
       toast.success(status === "published" ? "已發佈" : "草稿已儲存");
@@ -391,7 +424,23 @@ export default function ClassEditForm({ post }: ClassEditFormProps) {
               <h3 className="font-semibold text-sm">課程設定</h3>
 
               <div>
-                <Label htmlFor="slug">Slug（URL）</Label>
+                <div className="flex items-center justify-between">
+                  <Label htmlFor="slug">Slug（URL）</Label>
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    className="h-auto py-0 px-1 text-xs text-muted-foreground hover:text-foreground"
+                    disabled={!form.title.trim() || isTranslatingSlug}
+                    onClick={generateSlug}
+                  >
+                    {isTranslatingSlug ? (
+                      <><Loader2 className="w-3 h-3 animate-spin mr-1" />產生中</>
+                    ) : (
+                      "從標題產生"
+                    )}
+                  </Button>
+                </div>
                 <Input
                   id="slug"
                   value={form.slug}
