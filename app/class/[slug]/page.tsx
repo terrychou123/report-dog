@@ -271,16 +271,8 @@ export default async function ClassPostPage({ params }: Props) {
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-4 pb-20 lg:max-w-6xl">
-          <div className="lg:grid lg:grid-cols-[240px_minmax(0,768px)] lg:gap-12">
-
-            <aside className="hidden lg:block">
-              <div className="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto pr-2">
-                <BlogToc toc={post.toc ?? []} />
-              </div>
-            </aside>
-
-            <div>
+        <div className="max-w-4xl mx-auto px-4 pb-20">
+          <div>
               <BlogTldr text={post.excerpt ?? ""} />
 
               <div className="lg:hidden">
@@ -346,7 +338,6 @@ export default async function ClassPostPage({ params }: Props) {
                   <BlogFacilityDownloadCard catalogSlug={facilityInfo.catalogSlug} />
                 </div>
               )}
-            </div>
           </div>
         </div>
 
