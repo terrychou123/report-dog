@@ -91,16 +91,24 @@ export function injectHeadingIdsAndExtractToc(
 }
 
 /**
+ * 在第 n 個 H2 之前切分 HTML，回傳 [before, after]。
+ * H2 數量 < n 時 after 為空字串，呼叫端應跳過注入。
+ */
+export function splitHtmlAtNthH2(html: string, n: number): [string, string] {
+  const matches = [...html.matchAll(/<h2\b/gi)];
+  if (matches.length < n) return [html, ""];
+  const target = matches[n - 1];
+  if (target.index === undefined) return [html, ""];
+  return [html.slice(0, target.index), html.slice(target.index)];
+}
+
+/**
  * 在第二個 H2 之前切分 HTML，回傳 [before, after]。
  * 用於部落格中段電子報訂閱框：閱讀第一章後立即出現，提早 CTA 曝光。
  * 文章 H2 少於 2 個（極短文）時 after 為空字串，呼叫端應跳過中段注入。
  */
 export function splitHtmlForMidNewsletter(html: string): [string, string] {
-  const matches = [...html.matchAll(/<h2\b/gi)];
-  if (matches.length < 2) return [html, ""];
-  const secondH2 = matches[1];
-  if (secondH2.index === undefined) return [html, ""];
-  return [html.slice(0, secondH2.index), html.slice(secondH2.index)];
+  return splitHtmlAtNthH2(html, 2);
 }
 
 /**

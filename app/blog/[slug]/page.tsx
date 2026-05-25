@@ -13,12 +13,13 @@ import { extractBlogJsonLdData } from "@/lib/blog-jsonld-extract";
 import { getFacilityInfoFromPost } from "@/lib/blog-facility-map";
 import { BlogFacilityDownloadCard } from "@/components/blog/blog-facility-download-card";
 import { BookOpenIcon } from "lucide-react";
-import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, splitHtmlForMidNewsletter, type TocNode } from "@/lib/blog-html-postprocess";
+import { injectHeadingIdsAndExtractToc, injectImageLoadingAttrs, splitHtmlForMidNewsletter, splitHtmlAtNthH2, type TocNode } from "@/lib/blog-html-postprocess";
 import { injectFacilityInlineLinks } from "@/lib/blog-inline-linker";
 import { BlogToc } from "@/components/blog/blog-toc";
 import { BlogTldr } from "@/components/blog/blog-tldr";
 import { BlogScrollCta } from "@/components/blog/blog-scroll-cta";
 import { BlogInlineNewsletter } from "@/components/blog/blog-inline-newsletter";
+import { BlogInlineTrialCard } from "@/components/blog/blog-inline-trial-card";
 import { SoapDemo } from "@/components/demo/soap-demo";
 import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
@@ -188,6 +189,12 @@ export default async function BlogPostPage({ params }: Props) {
     ? splitHtmlForMidNewsletter(post.content)
     : ["", ""];
 
+  // 在 afterMidHtml 的第二個 H2 前再切分（= 全文第三個 H2），插入試用 CTA
+  // 短文（全文 < 3 個 H2）時 afterTrialHtml 為空，自動跳過試用卡
+  const [beforeTrialHtml, afterTrialHtml] = afterMidHtml
+    ? splitHtmlAtNthH2(afterMidHtml, 2)
+    : ["", ""];
+
   return (
     <>
       <script
@@ -341,8 +348,18 @@ export default async function BlogPostPage({ params }: Props) {
                   <BlogInlineNewsletter slug={post.slug} />
                   <div
                     className="blog-content"
-                    dangerouslySetInnerHTML={{ __html: afterMidHtml }}
+                    dangerouslySetInnerHTML={{ __html: beforeTrialHtml }}
                   />
+                  {/* 中段試用 CTA（第 3 個 H2 前，約閱讀 50%）— 只在 H2 >= 3 的文章顯示 */}
+                  {afterTrialHtml && (
+                    <>
+                      <BlogInlineTrialCard slug={post.slug} />
+                      <div
+                        className="blog-content"
+                        dangerouslySetInnerHTML={{ __html: afterTrialHtml }}
+                      />
+                    </>
+                  )}
                 </>
               )}
 
