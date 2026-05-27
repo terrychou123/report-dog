@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
+import { isInAppBrowser } from "@/lib/ua";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -15,7 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { EyeIcon, EyeOffIcon, ChevronDownIcon } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 import { GoogleAuthButton } from "@/components/auth/google-auth-button";
@@ -31,12 +32,22 @@ export function SignUpForm({
   const [subscribeNewsletter, setSubscribeNewsletter] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
-  // 折疊 email 表單，預設只露 Google OAuth；email 完成率僅 OAuth 一半，需降低 email 視覺權重
+  // 預設折疊 email 表單，只露 Google OAuth；webview 偵測到時自動展開（OAuth 在 webview 內會失敗）
   const [showEmailForm, setShowEmailForm] = useState(false);
+  const [isWebview, setIsWebview] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
   const signupSource = searchParams.get("source");
   const signupSlug = searchParams.get("slug");
+
+  // webview 偵測：自動展開 email 表單，因 Google OAuth 在 FB/IG webview 內無法完成
+  useEffect(() => {
+    const { detected } = isInAppBrowser(navigator.userAgent);
+    if (detected) {
+      setIsWebview(true);
+      setShowEmailForm(true);
+    }
+  }, []);
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -116,10 +127,16 @@ export function SignUpForm({
 
             {showEmailForm && (
               <>
-                <div className="relative flex items-center justify-center text-xs text-muted-foreground">
-                  <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
-                  <span className="bg-card px-3">或使用 Email 註冊</span>
-                </div>
+                {isWebview ? (
+                  <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded px-3 py-2 leading-snug">
+                    ⚠️ 應用程式內建瀏覽器不支援 Google 登入，請使用 Email 註冊
+                  </p>
+                ) : (
+                  <div className="relative flex items-center justify-center text-xs text-muted-foreground">
+                    <span className="absolute inset-x-0 top-1/2 -z-10 h-px bg-border" />
+                    <span className="bg-card px-3">或使用 Email 註冊</span>
+                  </div>
+                )}
                 <form onSubmit={handleSignUp}>
                   <div className="flex flex-col gap-6">
                     <div className="grid gap-2">

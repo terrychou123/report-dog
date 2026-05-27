@@ -1,4 +1,4 @@
-import { pgTable, uuid, text, boolean, integer, timestamp, jsonb, varchar, uniqueIndex, index } from 'drizzle-orm/pg-core';
+import { pgTable, uuid, text, boolean, integer, smallint, timestamp, jsonb, varchar, uniqueIndex, index } from 'drizzle-orm/pg-core';
 
 // ─── Core Tables ─────────────────────────────────────────────────────────────
 
@@ -288,6 +288,9 @@ export const leads = pgTable('leads', {
   unsubscribedAt: timestamp('unsubscribed_at', { withTimezone: true }),
   unsubscribeSource: varchar('unsubscribe_source', { length: 32 }), // 'reply' | 'one_click' | 'manual'
   unsubscribeMessageId: varchar('unsubscribe_message_id', { length: 128 }), // Resend email_id（回信退訂時記錄）
+  // nurture 序列（0=未開始, 1=Email1已送, 2=Email2已送, 3=序列完成）
+  nurtureStage: smallint('nurture_stage').default(0).notNull(),
+  nurtureSentAt: timestamp('nurture_sent_at', { withTimezone: true }), // 最近一封 nurture 信寄出時間
 }, (t) => ({
   // 同 email 可同時是 download lead 和 newsletter 訂閱者，但同 source 不重複
   emailSourceUniq: uniqueIndex('leads_email_source_idx').on(t.email, t.source),

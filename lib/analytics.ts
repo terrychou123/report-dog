@@ -48,3 +48,17 @@ export function trackEvent(
     // analytics 失敗不應中斷任何使用者流程
   }
 }
+
+// 命名事件 helpers — 統一字串常數，避免分散在各元件造成拼字錯誤
+
+export function trackOnboardingStep(step: string, params?: Record<string, unknown>) {
+  trackEvent("onboarding_step", { step, ...params });
+}
+
+export function trackFirstReportCreate(source: "template" | "upload" | "manual") {
+  trackEvent("first_report_create", { source });
+}
+
+export function trackEmptyStateCTA(target: "template_import" | "upload" | "sample") {
+  trackEvent("empty_state_cta", { target });
+}

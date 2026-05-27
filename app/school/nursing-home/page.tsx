@@ -18,22 +18,22 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年住宿式長照機構評鑑指標｜63 項衛福部基準＋檢核表",
+  title: "住宿式長照機構評鑑 63 項完整攻略｜115 年基準＋免費檢核表",
   description:
-    "115 年衛福部住宿式長期照顧服務機構評鑑指標 63 項，4 大區塊（經營管理、專業照護、安全環境、創新精進）＋加減分 3 項逐條解析，附免費備評 Excel 檢核表下載。",
+    "機構主任必看！115 年衛福部住宿式長照評鑑 63 項基準＋加減分 3 項逐條解析，A 至 D 四大區塊完整備評策略、地雷項目提醒，免費 Excel 檢核表一鍵下載，30 分鐘掌握評鑑重點。",
   keywords: [
+    "住宿式長照機構評鑑",
     "住宿型長照評鑑",
-    "安養機構評鑑",
+    "115年住宿式長照機構評鑑指標",
     "長照機構評鑑基準",
-    "115年度評鑑",
-    "老人安養評鑑",
     "住宿式長期照顧評鑑",
-    "住宿型照顧機構評鑑指標",
+    "安養機構評鑑",
+    "老人安養評鑑",
   ],
   alternates: { canonical: "/school/nursing-home" },
   openGraph: {
-    title: "115年住宿式長照機構評鑑指標｜63 項衛福部基準＋檢核表",
-    description: "115 年衛福部住宿式長照（養護／安養）63 項評鑑指標 4 大區塊逐條重點＋加減分 3 項，附免費 Excel 備評檢核表下載。",
+    title: "住宿式長照機構評鑑 63 項完整攻略｜115 年基準＋免費檢核表",
+    description: "115 年衛福部住宿式長照評鑑 63 項基準逐條解析，四大區塊備評策略＋地雷提醒，免費 Excel 備評檢核表一鍵下載。",
     url: "https://reportwang.com/school/nursing-home",
   },
 };

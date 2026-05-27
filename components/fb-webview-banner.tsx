@@ -8,11 +8,24 @@ import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 
 const STORAGE_KEY = "fb-webview-dismissed-at";
+const VARIANT_KEY = "fb-cta-variant-v1"; // A/B test：CTA 文案，session 內固定
 const TTL_MS = 24 * 60 * 60 * 1000; // 24 小時
 const COPY_DISMISS_MS = 5000; // 複製成功後自動折疊的延遲（ms）
 // auth 路徑（登入/註冊/驗證）強制顯示，不允許 dismiss — 驗證信在 webview 無法完成
 // 使用精確比對，避免 /auth/sign-up-success 也被誤判為 forceShow
 const FORCE_SHOW_PATHS = ["/auth/sign-up", "/auth/login", "/auth/confirm"];
+
+function getOrAssignVariant(): "A" | "B" {
+  try {
+    const stored = sessionStorage.getItem(VARIANT_KEY);
+    if (stored === "A" || stored === "B") return stored;
+    const v: "A" | "B" = Math.random() < 0.5 ? "A" : "B";
+    sessionStorage.setItem(VARIANT_KEY, v);
+    return v;
+  } catch {
+    return "A";
+  }
+}
 
 function isDismissed(): boolean {
   try {
@@ -40,6 +53,7 @@ export function FbWebviewBanner() {
   const [copied, setCopied] = useState(false);
   const [copyFailed, setCopyFailed] = useState(false);
   const [browserType, setBrowserType] = useState("");
+  const [ctaVariant, setCtaVariant] = useState<"A" | "B">("A");
   const pathname = usePathname();
   const forceShow = FORCE_SHOW_PATHS.some((p) => pathname === p);
 
@@ -47,8 +61,10 @@ export function FbWebviewBanner() {
     const { detected, browser } = isInAppBrowser(navigator.userAgent);
     if (!detected) return;
     setBrowserType(browser);
+    const variant = getOrAssignVariant();
+    setCtaVariant(variant);
     // 偵測到就打點，與是否已 dismiss 無關（量化應用內 webview 流量）
-    trackEvent("fb_webview_detected", { path: location.pathname, browser });
+    trackEvent("fb_webview_detected", { path: location.pathname, browser, variant });
     if (forceShow || !isDismissed()) setShow(true);
   }, [forceShow]);
 
@@ -104,11 +120,18 @@ export function FbWebviewBanner() {
       method: ios ? "safari" : "intent",
       path: pathname,
       browser: browserType,
+      variant: ctaVariant,
     });
   };
 
+  // A/B：Variant A = 功能導向，Variant B = 問題導向（強調「才能登入」）
+  const externalBtnText =
+    ctaVariant === "B"
+      ? `用 ${ios ? "Safari" : "Chrome"} 開啟才能登入`
+      : "在外部瀏覽器開啟";
+
   return (
-    <div className="sticky top-0 z-50 w-full border-b bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:bg-amber-950/40 dark:text-amber-100">
+    <div className="sticky bottom-0 z-50 w-full border-t bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:bg-amber-950/40 dark:text-amber-100">
       <div className="mx-auto flex max-w-5xl flex-col gap-2 sm:flex-row sm:items-center sm:gap-3">
         <span className="flex-1 leading-snug">
           {forceShow && <AlertTriangle className="mr-1 inline h-4 w-4 shrink-0" />}
@@ -124,7 +147,7 @@ export function FbWebviewBanner() {
               <Button size="sm" variant="default" asChild>
                 <a href={externalUrl} onClick={handleOpenExternal}>
                   <ExternalLink className="mr-1 h-3.5 w-3.5" />
-                  在外部瀏覽器開啟
+                  {externalBtnText}
                 </a>
               </Button>
             )}

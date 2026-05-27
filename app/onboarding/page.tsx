@@ -39,7 +39,7 @@ export default function OnboardingPage() {
   async function handleImport() {
     const types = Array.from(selected);
     if (types.length === 0) {
-      router.push("/tag");
+      router.push("/report");
       return;
     }
     setImporting(true);
@@ -76,11 +76,11 @@ export default function OnboardingPage() {
       } else if (failed > 0) {
         toast.warning(`${failed} 個機構類型匯入失敗，其餘已成功匯入`);
         if (typeof window !== "undefined") localStorage.setItem("onboarding_completed", "true");
-        router.push("/tag");
+        router.push("/report");
       } else {
         toast.success(`匯入完成！已建立 ${totalTags} 個標籤、${totalReports} 份報告`);
         if (typeof window !== "undefined") localStorage.setItem("onboarding_completed", "true");
-        router.push("/tag");
+        router.push("/report");
       }
     } finally {
       setImporting(false);

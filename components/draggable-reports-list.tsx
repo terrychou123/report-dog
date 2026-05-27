@@ -22,7 +22,10 @@ import {
   TrashIcon,
   CopyIcon,
   LoaderIcon,
+  SparklesIcon,
+  UploadIcon,
 } from "lucide-react";
+import { trackEmptyStateCTA } from "@/lib/analytics";
 import { TemplateImportDialog } from "@/components/template-import-dialog";
 import { UploadReportButton } from "@/components/upload-report-button";
 import { ReportCardContent } from "@/components/report-card-content";
@@ -221,15 +224,49 @@ export function DraggableReportsList() {
 
   if (reportList.length === 0) {
     return (
-      <div className="text-center py-16 text-muted-foreground">
-        <FileTextIcon className="h-14 w-14 mx-auto mb-4 opacity-20" />
-        <p className="text-xl mb-2 font-semibold text-foreground">建立你的第一份報告</p>
-        <p className="text-sm mb-8 max-w-xs mx-auto leading-relaxed">
-          匯入評鑑範本立即開始，或上傳現有報告檔案，30 秒完成建立。
-        </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-          <TemplateImportDialog />
-          <UploadReportButton />
+      <div className="py-12 max-w-md mx-auto">
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
+            <FileTextIcon className="h-7 w-7 text-primary" />
+          </div>
+          <p className="text-xl font-semibold text-foreground mb-2">建立你的第一份評鑑報告</p>
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            選擇最適合你的方式，30 秒內完成建立
+          </p>
+        </div>
+
+        <div className="space-y-3 mb-6">
+          <div
+            className="flex items-start gap-3 rounded-lg border p-4 bg-card hover:border-primary/50 hover:shadow-sm transition-all cursor-pointer"
+            onClick={() => trackEmptyStateCTA("template_import")}
+          >
+            <div className="shrink-0 w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mt-0.5">
+              <SparklesIcon className="h-4 w-4 text-primary" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-medium text-sm text-foreground">套用 115 年評鑑範本</p>
+              <p className="text-xs text-muted-foreground mt-0.5">選機構類型，自動帶入所有評鑑項目</p>
+            </div>
+            <div className="shrink-0">
+              <TemplateImportDialog />
+            </div>
+          </div>
+
+          <div
+            className="flex items-start gap-3 rounded-lg border p-4 bg-card hover:border-primary/50 hover:shadow-sm transition-all cursor-pointer"
+            onClick={() => trackEmptyStateCTA("upload")}
+          >
+            <div className="shrink-0 w-8 h-8 rounded-full bg-muted flex items-center justify-center mt-0.5">
+              <UploadIcon className="h-4 w-4 text-muted-foreground" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-medium text-sm text-foreground">上傳現有報告</p>
+              <p className="text-xs text-muted-foreground mt-0.5">Word / Excel 檔案直接匯入</p>
+            </div>
+            <div className="shrink-0">
+              <UploadReportButton />
+            </div>
+          </div>
         </div>
       </div>
     );

@@ -19,23 +19,22 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "115年老人福利機構評鑑指標｜77 項 6 大區塊＋免費檢核表",
+  title: "老人福利機構評鑑 77 項完整攻略｜115 年指標＋免費檢核表",
   description:
-    "115 年老人福利機構評鑑 77 項基準怎麼準備？6 大區塊（經營管理、專業照護、安全環境、住民權益等）重點整理＋免費 Excel 檢核表下載，3 步驟備評不踩雷。",
+    "115 年老人福利機構評鑑 77 項基準全解析！6 大區塊（經營管理、專業照護、住民權益等）優先準備順序、地雷項目提醒，搶拿優等分級關鍵策略，免費 Excel 備評表下載，備評不踩雷。",
   keywords: [
     "老人福利機構評鑑",
     "老人福利機構評鑑指標",
-    "115年度老人福利機構",
     "115年老人福利機構評鑑指標",
+    "115年度老人福利機構",
     "長照機構評鑑基準",
     "老人安養機構評鑑",
     "老人照顧機構評鑑",
-    "評鑑檢核表",
   ],
   alternates: { canonical: "/school/elderly-welfare" },
   openGraph: {
-    title: "115年老人福利機構評鑑指標｜77 項 6 大區塊＋免費檢核表",
-    description: "115 年老人福利機構評鑑 77 項基準，6 大區塊（經營管理、專業照護、安全環境、住民權益等）重點整理，附免費 Excel 檢核表下載。",
+    title: "老人福利機構評鑑 77 項完整攻略｜115 年指標＋免費檢核表",
+    description: "115 年老人福利機構評鑑 77 項基準，6 大區塊優先策略＋地雷提醒，搶拿優等評級，免費 Excel 備評表立即下載。",
     url: "https://reportwang.com/school/elderly-welfare",
   },
 };
