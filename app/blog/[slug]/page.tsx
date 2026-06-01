@@ -22,6 +22,7 @@ import { BlogInlineNewsletter } from "@/components/blog/blog-inline-newsletter";
 import { BlogInlineTrialCard } from "@/components/blog/blog-inline-trial-card";
 import { SoapDemo } from "@/components/demo/soap-demo";
 import { TrackedCtaLink } from "@/components/tracked-cta-link";
+import { BlogRelatedPosts } from "@/components/blog/blog-related-posts";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -407,6 +408,13 @@ export default async function BlogPostPage({ params }: Props) {
                   <BlogFacilityDownloadCard catalogSlug={facilityInfo.catalogSlug} />
                 </div>
               )}
+
+              {/* 同主題推薦文章 */}
+              <BlogRelatedPosts
+                currentSlug={post.slug}
+                category={post.category}
+                tags={post.tags}
+              />
 
             </div>
           </div>

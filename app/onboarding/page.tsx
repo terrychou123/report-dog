@@ -157,12 +157,12 @@ export default function OnboardingPage() {
               variant="ghost"
               size="sm"
               className="text-muted-foreground"
-              onClick={() => router.push("/tag")}
+              onClick={() => router.push("/report")}
             >
               跳過，稍後再說
             </Button>
             <Button
-              onClick={() => (selected.size > 0 ? setStep(2) : router.push("/tag"))}
+              onClick={() => (selected.size > 0 ? setStep(2) : router.push("/report"))}
               disabled={selected.size === 0}
             >
               下一步
