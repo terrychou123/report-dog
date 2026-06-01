@@ -18,9 +18,9 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 
 export const metadata: Metadata = {
-  title: "住宿式長照機構評鑑 63 項完整攻略｜115 年基準＋免費檢核表",
+  title: "住宿式長照機構 115 年評鑑指標｜63 項基準＋加分題完整解析",
   description:
-    "機構主任必看！115 年衛福部住宿式長照評鑑 63 項基準＋加減分 3 項逐條解析，A 至 D 四大區塊完整備評策略、地雷項目提醒，免費 Excel 檢核表一鍵下載，30 分鐘掌握評鑑重點。",
+    "115 年衛福部住宿式長照機構評鑑指標 63 項＋加減分 3 題逐條解析，涵蓋行政管理、專業照護品質、安全環境設備、個案權益保障四大區塊，地雷項目特別標示，免費 Excel 自評表下載。",
   keywords: [
     "住宿式長照機構評鑑",
     "住宿型長照評鑑",
