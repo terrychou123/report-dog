@@ -27,6 +27,9 @@ const PUBLIC_PREFIXES = [
   "/api/leads",
   "/api/newsletter",
   "/api/downloads",
+  // Cron / admin APIs：有 CRON_SECRET Bearer token 保護，不需 Supabase session
+  "/api/revalidate-blog",
+  "/api/cron",
 ];
 
 function isPublicPath(pathname: string): boolean {
