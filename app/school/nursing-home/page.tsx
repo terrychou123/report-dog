@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { nursingHomeProfile, meta as nursingHomeMeta } from "@/lib/ai/evaluation-profiles/nursing-home";
+import { getReviewYear } from "@/lib/school-review-dates";
 import { Badge } from "@/components/ui/badge";
 import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
@@ -18,15 +19,16 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
+const year = getReviewYear("nursing-home"); // 年度集中管理，更新時只改 school-review-dates.ts
+
 export const metadata: Metadata = {
-  title: "住宿式長照機構 115 年評鑑指標｜63 項基準＋加分題完整解析",
-  // 強化 action 詞、備評前置感，改善高曝光低 CTR（313 曝光 / 2.24%）
+  title: `住宿式長照機構 ${year} 年評鑑指標｜63 項基準＋加分題完整解析`,
   description:
-    "115年住宿式長照機構評鑑63項指標全解析，行政管理、專業照護品質、安全環境設備、個案權益保障四大區塊備評策略＋高頻地雷項目提醒，評鑑前必讀，免費 Excel 自評表下載。",
+    `${year}年住宿式長照機構評鑑63項指標全解析，行政管理、專業照護品質、安全環境設備、個案權益保障四大區塊備評策略＋高頻地雷項目提醒，評鑑前必讀，免費 Excel 自評表下載。`,
   keywords: [
     "住宿式長照機構評鑑",
     "住宿型長照評鑑",
-    "115年住宿式長照機構評鑑指標",
+    `${year}年住宿式長照機構評鑑指標`,
     "長照機構評鑑基準",
     "住宿式長期照顧評鑑",
     "安養機構評鑑",
@@ -34,8 +36,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/nursing-home" },
   openGraph: {
-    title: "住宿式長照機構評鑑 63 項完整攻略｜115 年基準＋免費檢核表",
-    description: "115 年衛福部住宿式長照評鑑 63 項基準逐條解析，四大區塊備評策略＋地雷提醒，免費 Excel 備評檢核表一鍵下載。",
+    title: `住宿式長照機構評鑑 63 項完整攻略｜${year} 年基準＋免費檢核表`,
+    description: `${year} 年衛福部住宿式長照評鑑 63 項基準逐條解析，四大區塊備評策略＋地雷提醒，免費 Excel 備評檢核表一鍵下載。`,
     url: "https://reportwang.com/school/nursing-home",
   },
 };

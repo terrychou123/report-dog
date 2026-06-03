@@ -36,6 +36,33 @@ export const schoolReviewerMap: Record<string, { name: string; url: string }> = 
   "psychiatric-rehabilitation-institution": { name: "衛生福利部心理及口腔健康司",   url: "https://dep.mohw.gov.tw/DOMHAOH" },
 };
 
+/** 各機構評鑑年度（民國年）—— SSOT，metadata title 與 sitemap lastModified 共用此值 */
+export const schoolReviewYears: Record<string, number> = {
+  "home-care":                              115,
+  "daycare":                                115,
+  "multi-function-care":                    115,
+  "nursing-home":                           114,
+  "home-nursing":                           115,
+  "postpartum-care":                        115,
+  "general-nursing-home":                   115,
+  "hospital":                               115,
+  "elderly-welfare":                        115,
+  "psychiatric-nursing-home":               115,
+  "psychiatric-rehabilitation-institution": 115,
+  "infant-daycare":                         114,
+  "disability-welfare":                     109,
+  "youth-care":                             112,
+};
+
+/**
+ * 回傳機構的評鑑民國年度。
+ * 用於 school page metadata title，避免年度更新時各頁 title 失同步。
+ * @param facilityKey  "nursing-home" | "elderly-welfare" | ...
+ */
+export function getReviewYear(facilityKey: string): number {
+  return schoolReviewYears[facilityKey] ?? 115;
+}
+
 /** 從 /school/{facility}/{sub} 路徑取出 facility slug */
 function getFacilitySlug(pathname: string): string {
   const segments = pathname.split("/").filter(Boolean);

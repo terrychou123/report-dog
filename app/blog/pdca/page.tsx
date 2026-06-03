@@ -7,19 +7,20 @@ import type { Metadata } from "next";
 import { BlogListFilter } from "@/components/blog-list-filter";
 import { breadcrumbListJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 
+// A2：精準命中「pdca報告範例」「護理pdca報告範例」（pos 7.7–11 / 118–35 曝光）
 export const metadata: Metadata = {
-  title: "護理 PDCA 範例與寫法 — 8 篇實戰教學 | 報告汪",
+  title: "PDCA 報告範例｜護理長照品質改善計畫完整寫法 2026",
   description:
-    "護理 PDCA 怎麼寫？Plan 設定可量化目標、Do 執行照護 SOP、Check 評值指標、Act 追蹤改善。8 篇實戰教學涵蓋日照、護理之家、居家護理、醫院等機構，附護理 PDCA 報告範例與 4 步驟模板，直接套用於評鑑文件。",
+    "PDCA 報告範例完整教學：Plan 設定可量化目標、Do 執行照護 SOP、Check 評值指標、Act 追蹤改善，涵蓋護理之家、日照、居家護理等機構，直接套用評鑑文件，附 AI 輔助改寫工具。",
   openGraph: {
     type: "website",
-    title: "護理 PDCA 範例與寫法 — 8 篇實戰教學 | 報告汪",
-    description: "護理 PDCA 怎麼寫？8 篇實戰教學含報告範例與 4 步驟模板，涵蓋日照、護理之家、居家護理、醫院等機構。",
+    title: "PDCA 報告範例｜護理長照品質改善計畫完整寫法 2026",
+    description: "PDCA 報告範例教學：護理之家、日照、居家護理等機構品質改善計畫四步驟寫法，直接套用評鑑文件。",
   },
   twitter: {
     card: "summary_large_image",
-    title: "護理 PDCA 範例與寫法 — 8 篇實戰教學 | 報告汪",
-    description: "護理 PDCA 怎麼寫？8 篇實戰教學含報告範例與 4 步驟模板。",
+    title: "PDCA 報告範例｜護理長照品質改善計畫完整寫法 2026",
+    description: "PDCA 報告範例教學：護理長照機構品質改善計畫四步驟寫法，直接套用評鑑文件。",
   },
   alternates: {
     canonical: "/blog/pdca",

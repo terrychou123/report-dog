@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { educationalContentJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
 import { elderlyWelfareProfile, meta as elderlyWelfareMeta } from "@/lib/ai/evaluation-profiles/elderly-welfare";
+import { getReviewYear } from "@/lib/school-review-dates";
 import { Badge } from "@/components/ui/badge";
 import { KeyTakeaways } from "@/components/school/key-takeaways";
 import { SourceCallout } from "@/components/school/source-callout";
@@ -19,11 +20,12 @@ import {
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
 import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
+const year = getReviewYear("elderly-welfare"); // 年度集中管理，更新時只改 school-review-dates.ts
+
 export const metadata: Metadata = {
-  // 前置年度關鍵字，精準命中「115年老人福利機構評鑑指標」高曝光搜尋意圖
-  title: "115年老人福利機構評鑑指標｜77項全解析＋備評攻略",
+  title: `${year}年老人福利機構評鑑指標｜77項全解析＋備評攻略`,
   description:
-    "115年老人福利機構評鑑77項基準逐條解析，6大區塊優先準備順序＋高頻地雷項目提醒，掌握搶拿優等評鑑分級關鍵策略，備評不踩雷，免費 Excel 自評表立即下載。",
+    `${year}年老人福利機構評鑑77項基準逐條解析，6大區塊優先準備順序＋高頻地雷項目提醒，掌握搶拿優等評鑑分級關鍵策略，備評不踩雷，免費 Excel 自評表立即下載。`,
   keywords: [
     "115年老人福利機構評鑑指標",
     "老人福利機構評鑑",
@@ -35,8 +37,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/elderly-welfare" },
   openGraph: {
-    title: "115年老人福利機構評鑑指標｜77項全解析＋備評攻略",
-    description: "115年老人福利機構評鑑77項基準，6大區塊備評策略＋地雷項目提醒，搶拿優等評鑑分級，免費 Excel 自評表立即下載。",
+    title: `${year}年老人福利機構評鑑指標｜77項全解析＋備評攻略`,
+    description: `${year}年老人福利機構評鑑77項基準，6大區塊備評策略＋地雷項目提醒，搶拿優等評鑑分級，免費 Excel 自評表立即下載。`,
     url: "https://reportwang.com/school/elderly-welfare",
   },
 };
