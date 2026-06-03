@@ -17,15 +17,17 @@ import {
   ArrowRightIcon,
 } from "lucide-react";
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
+import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
 export const metadata: Metadata = {
-  title: "老人福利機構評鑑 77 項完整攻略｜115 年指標＋免費檢核表",
+  // 前置年度關鍵字，精準命中「115年老人福利機構評鑑指標」高曝光搜尋意圖
+  title: "115年老人福利機構評鑑指標｜77項全解析＋備評攻略",
   description:
-    "115 年老人福利機構評鑑 77 項基準全解析！6 大區塊（經營管理、專業照護、住民權益等）優先準備順序、地雷項目提醒，搶拿優等分級關鍵策略，免費 Excel 備評表下載，備評不踩雷。",
+    "115年老人福利機構評鑑77項基準逐條解析，6大區塊優先準備順序＋高頻地雷項目提醒，掌握搶拿優等評鑑分級關鍵策略，備評不踩雷，免費 Excel 自評表立即下載。",
   keywords: [
+    "115年老人福利機構評鑑指標",
     "老人福利機構評鑑",
     "老人福利機構評鑑指標",
-    "115年老人福利機構評鑑指標",
     "115年度老人福利機構",
     "長照機構評鑑基準",
     "老人安養機構評鑑",
@@ -33,8 +35,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/school/elderly-welfare" },
   openGraph: {
-    title: "老人福利機構評鑑 77 項完整攻略｜115 年指標＋免費檢核表",
-    description: "115 年老人福利機構評鑑 77 項基準，6 大區塊優先策略＋地雷提醒，搶拿優等評級，免費 Excel 備評表立即下載。",
+    title: "115年老人福利機構評鑑指標｜77項全解析＋備評攻略",
+    description: "115年老人福利機構評鑑77項基準，6大區塊備評策略＋地雷項目提醒，搶拿優等評鑑分級，免費 Excel 自評表立即下載。",
     url: "https://reportwang.com/school/elderly-welfare",
   },
 };
@@ -330,7 +332,22 @@ export default function ElderlyWelfarePage() {
         </Link>
       </div>
 
-      
+      {/* AI 試用 CTA — 把高品質 organic 流量導入轉換（B1）*/}
+      <div className="mt-6 rounded-xl border border-primary/25 bg-gradient-to-br from-primary/5 to-violet-500/5 p-5">
+        <p className="text-sm font-semibold mb-1">✨ 用 AI 加速評鑑文件撰寫</p>
+        <p className="text-sm text-muted-foreground mb-3">
+          報告汪 AI 助手一鍵將個案記錄改寫成 SOAP 格式，老人福利機構評鑑文件快速合規。免費試用 14 天，無需信用卡。
+        </p>
+        <TrackedCtaLink
+          href="/auth/sign-up?source=school-elderly-welfare"
+          source="school-end-cta"
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
+        >
+          免費試用 14 天
+          <ArrowRightIcon className="h-3.5 w-3.5" />
+        </TrackedCtaLink>
+      </div>
+
       {/* 評鑑準備流程圖 */}
       <div className="not-prose my-6">
         <Image

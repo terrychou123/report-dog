@@ -12,6 +12,7 @@ import { SparklesIcon, Loader2Icon, ChevronRightIcon } from 'lucide-react';
 import { SOAP_DEMO_EXAMPLES, SOAP_DEMO_DAILY_LIMIT, SOAP_DEMO_MAX_NOTE_LENGTH } from '@/lib/ai/soap-demo-examples';
 import { TrialButton } from '@/components/trial-button';
 import Link from 'next/link';
+import { trackEvent } from '@/lib/analytics';
 
 // 從串流文字中解析 S/O/A/P 四個段落
 function parseSoap(text: string): Record<string, string> {
@@ -115,6 +116,10 @@ export function SoapDemo({ defaultExampleId, variant = 'hero' }: SoapDemoProps) 
         if (done) break;
         text += decoder.decode(value, { stream: true });
         setOutput(text);
+      }
+      // 串流完成 — 追蹤 demo 轉換事件（供 GA4 漏斗分析 demo→註冊）
+      if (text.trim()) {
+        trackEvent('demo_complete', { example_id: exampleId });
       }
     } catch (err) {
       if ((err as Error).name !== 'AbortError') {

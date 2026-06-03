@@ -16,11 +16,13 @@ import {
   ArrowRightIcon,
 } from "lucide-react";
 import { SchoolDownloadButton } from "@/components/school/school-download-button";
+import { TrackedCtaLink } from "@/components/tracked-cta-link";
 
 export const metadata: Metadata = {
   title: "住宿式長照機構 115 年評鑑指標｜63 項基準＋加分題完整解析",
+  // 強化 action 詞、備評前置感，改善高曝光低 CTR（313 曝光 / 2.24%）
   description:
-    "115 年衛福部住宿式長照機構評鑑指標 63 項＋加減分 3 題逐條解析，涵蓋行政管理、專業照護品質、安全環境設備、個案權益保障四大區塊，地雷項目特別標示，免費 Excel 自評表下載。",
+    "115年住宿式長照機構評鑑63項指標全解析，行政管理、專業照護品質、安全環境設備、個案權益保障四大區塊備評策略＋高頻地雷項目提醒，評鑑前必讀，免費 Excel 自評表下載。",
   keywords: [
     "住宿式長照機構評鑑",
     "住宿型長照評鑑",
@@ -327,6 +329,22 @@ export default function NursingHomePage() {
         >
           了解如何匯入評鑑範本 →
         </Link>
+      </div>
+
+      {/* AI 試用 CTA — 把高品質 organic 流量導入轉換（B1）*/}
+      <div className="mt-6 rounded-xl border border-primary/25 bg-gradient-to-br from-primary/5 to-violet-500/5 p-5">
+        <p className="text-sm font-semibold mb-1">✨ 用 AI 加速評鑑文件撰寫</p>
+        <p className="text-sm text-muted-foreground mb-3">
+          報告汪 AI 助手一鍵將護理記錄改寫成 SOAP 格式，評鑑備審文件快速合規。免費試用 14 天，無需信用卡。
+        </p>
+        <TrackedCtaLink
+          href="/auth/sign-up?source=school-nursing-home"
+          source="school-end-cta"
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
+        >
+          免費試用 14 天
+          <ArrowRightIcon className="w-3.5 h-3.5" />
+        </TrackedCtaLink>
       </div>
 
       {/* /residential 互連 */}

@@ -111,6 +111,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: "https://reportwang.com/pricing", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/testimonial", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://reportwang.com/downloads", lastModified: staticDate, changeFrequency: "monthly", priority: 0.6 },
+    // 獨立 AI demo 體驗頁（可分享、可被 SEO 索引）
+    { url: "https://reportwang.com/demo", lastModified: staticDate, changeFrequency: "monthly", priority: 0.7 },
     // Blog
     { url: "https://reportwang.com/blog", lastModified: staticDate, changeFrequency: "weekly", priority: 0.7 },
     // Class

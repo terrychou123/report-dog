@@ -10,19 +10,21 @@ interface Props {
 }
 
 /**
- * 按同 category 取最多 3 篇相關文章（排除本文）
- * 用於 blog/[slug]/page.tsx 文末延伸閱讀
+ * 按同 category 取相關文章（排除本文），以 tag 交集數加權排序後取前 3 篇
+ * tag 越多相符，排序越前——降低跳出、提升 pages/session
  */
-export async function BlogRelatedPosts({ currentSlug, category }: Props) {
+export async function BlogRelatedPosts({ currentSlug, category, tags }: Props) {
   if (!category) return null;
 
-  let posts: Array<{ slug: string; title: string; excerpt: string | null }> = [];
+  // 多取幾篇讓 tag 加權排序有足夠樣本
+  let candidates: Array<{ slug: string; title: string; excerpt: string | null; tags: string[] | null }> = [];
   try {
-    posts = await db
+    candidates = await db
       .select({
         slug: blogPosts.slug,
         title: blogPosts.title,
         excerpt: blogPosts.excerpt,
+        tags: blogPosts.tags,
       })
       .from(blogPosts)
       .where(
@@ -32,12 +34,24 @@ export async function BlogRelatedPosts({ currentSlug, category }: Props) {
           ne(blogPosts.slug, currentSlug)
         )
       )
-      .limit(3);
+      .limit(12);
   } catch {
     return null;
   }
 
-  if (posts.length === 0) return null;
+  if (candidates.length === 0) return null;
+
+  // 計算 tag 交集數，交集越多排越前（相關度加權）
+  const currentTags = new Set(tags ?? []);
+  const scored = candidates
+    .map((p) => ({
+      ...p,
+      score: currentTags.size > 0 ? (p.tags ?? []).filter((t) => currentTags.has(t)).length : 0,
+    }))
+    .sort((a, b) => b.score - a.score);
+
+  // 取前 3 篇
+  const posts = scored.slice(0, 3);
 
   return (
     <div className="mt-10 border-t pt-8">
