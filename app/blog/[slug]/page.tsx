@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Image from "next/image";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
@@ -409,12 +410,14 @@ export default async function BlogPostPage({ params }: Props) {
                 </div>
               )}
 
-              {/* 同主題推薦文章 */}
-              <BlogRelatedPosts
-                currentSlug={post.slug}
-                category={post.category}
-                tags={post.tags}
-              />
+              {/* 同主題推薦文章 — Suspense 隔離未快取的 DB 讀取，避免 Cache Components 500 */}
+              <Suspense fallback={<div className="mt-10 border-t pt-8 text-sm text-muted-foreground">載入相關文章…</div>}>
+                <BlogRelatedPosts
+                  currentSlug={post.slug}
+                  category={post.category}
+                  tags={post.tags}
+                />
+              </Suspense>
 
             </div>
           </div>
