@@ -5,7 +5,6 @@ import { classes } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 import type { Metadata } from "next";
 import { ClassListFilter } from "@/components/class-list-filter";
-import { FACILITY_MAP } from "@/lib/blog-facility-map";
 import { breadcrumbListJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
@@ -38,22 +37,6 @@ function isValidImageUrl(url: string | null): url is string {
   }
 }
 
-const FACILITY_HUB_ENTRIES = [
-  { key: "home-care",    label: "居家服務機構", emoji: "🏠" },
-  { key: "daycare",      label: "日間照顧機構", emoji: "☀️" },
-  { key: "nursing-home", label: "住宿型長照機構", emoji: "🏥" },
-  { key: "home-nursing", label: "居家護理所",   emoji: "💉" },
-  { key: "general-nursing-home", label: "一般護理之家", emoji: "🏨" },
-  { key: "hospital",     label: "醫院評鑑",     emoji: "🏦" },
-  { key: "postpartum-care", label: "產後護理之家", emoji: "👶" },
-  { key: "infant-daycare",  label: "托嬰中心",   emoji: "🍼" },
-  { key: "elderly-welfare", label: "老人福利機構", emoji: "👴" },
-  { key: "disability-welfare", label: "身心障礙機構", emoji: "♿" },
-  { key: "psychiatric-nursing-home", label: "精神護理之家", emoji: "🧠" },
-  { key: "psychiatric-rehabilitation-institution", label: "精神復健機構", emoji: "🌱" },
-  { key: "youth-care",   label: "兒少安置機構", emoji: "🧒" },
-  { key: "multi-function-care", label: "小規模多機能", emoji: "🔧" },
-] as const;
 
 async function ClassContent() {
   const posts = await db
@@ -147,26 +130,6 @@ export default function ClassListPage() {
           </div>
         </div>
 
-        {/* 機構類型入口 hub */}
-        <div className="mb-12">
-          <h2 className="text-lg font-semibold mb-4 text-foreground">依機構類型瀏覽評鑑教學</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-            {FACILITY_HUB_ENTRIES.map(({ key, label, emoji }) => {
-              const info = FACILITY_MAP[key];
-              if (!info) return null;
-              return (
-                <Link
-                  key={key}
-                  href={info.schoolPath}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-border bg-muted/30 hover:bg-muted/60 hover:border-primary/30 transition-colors text-sm text-muted-foreground hover:text-foreground"
-                >
-                  <span aria-hidden="true">{emoji}</span>
-                  <span className="truncate">{label}</span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
 
         <Suspense fallback={<div className="py-20 text-center text-muted-foreground">載入中...</div>}>
           <ClassContent />
