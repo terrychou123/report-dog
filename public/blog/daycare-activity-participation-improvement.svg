@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76） -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
+  <text x="28" y="95" font-size="28" fill="#1e293b" font-weight="700">日間活動參與率改善前後（第22條 品質指標）</text>
+  <text x="28" y="118" font-size="16" fill="#57534e">上季 68% - 下季 78%，朝目標 80% 持續改善</text>
+
+  <!-- Row 1（y=155）色系 #d97706 改善前 68%；bar_w=round(68/100×500)=340 -->
+  <circle cx="55" cy="177" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="55" y="182" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="80" y="183" font-size="16" fill="#1e293b" font-weight="700">改善前（上季）</text>
+  <rect x="220" y="165" width="500" height="24" rx="12" fill="#e8e6de"/>
+  <rect x="220" y="165" width="340" height="24" rx="12" fill="#d97706"/>
+  <text x="724" y="183" font-size="16" fill="#d97706" font-weight="700">68%</text>
+
+  <!-- Row 2（y=275）色系 #57534e 改善後 78%；bar_w=round(78/100×500)=390 -->
+  <circle cx="55" cy="297" r="14" fill="#57534e" opacity="0.15"/>
+  <text x="55" y="302" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">2</text>
+  <text x="80" y="303" font-size="16" fill="#1e293b" font-weight="700">改善後（下季）</text>
+  <rect x="220" y="285" width="500" height="24" rx="12" fill="#e8e6de"/>
+  <rect x="220" y="285" width="390" height="24" rx="12" fill="#57534e"/>
+  <text x="724" y="303" font-size="16" fill="#57534e" font-weight="700">78%</text>
+
+  <!-- Row 3（y=395）色系 #a8a29e 目標 80%；bar_w=round(80/100×500)=400 -->
+  <circle cx="55" cy="417" r="14" fill="#a8a29e" opacity="0.15"/>
+  <text x="55" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">3</text>
+  <text x="80" y="423" font-size="16" fill="#1e293b" font-weight="700">目標值（>=80%）</text>
+  <rect x="220" y="405" width="500" height="24" rx="12" fill="#e8e6de"/>
+  <rect x="220" y="405" width="400" height="24" rx="12" fill="#a8a29e" opacity="0.6"/>
+  <line x1="620" y1="398" x2="620" y2="436" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="724" y="423" font-size="16" fill="#a8a29e" font-weight="700">80%</text>
+
+  <!-- 持續追蹤 pill -->
+  <rect x="220" y="445" width="220" height="28" rx="14" fill="#d97706" opacity="0.12"/>
+  <text x="330" y="464" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">下季目標調整為 80%</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

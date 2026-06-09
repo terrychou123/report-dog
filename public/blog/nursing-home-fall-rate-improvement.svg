@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=50, h=76） -->
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
+  <text x="28" y="95" font-size="28" fill="#1e293b" font-weight="700">住民跌倒發生率改善前後（B1 服務品質）</text>
+  <text x="28" y="118" font-size="16" fill="#57534e">第一季 8.3% - 第二季 2.8%，達成目標閾值 4%</text>
+
+  <!-- Row 1（y=155）色系 #d97706 改善前 8.3%；bar_w=round(8.3/10×500)=415 -->
+  <circle cx="55" cy="177" r="14" fill="#d97706" opacity="0.15"/>
+  <text x="55" y="182" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="80" y="183" font-size="16" fill="#1e293b" font-weight="700">改善前（第一季）</text>
+  <rect x="220" y="165" width="500" height="24" rx="12" fill="#e8e6de"/>
+  <rect x="220" y="165" width="415" height="24" rx="12" fill="#d97706"/>
+  <text x="724" y="183" font-size="16" fill="#d97706" font-weight="700">8.3%</text>
+
+  <!-- Row 2（y=275）色系 #57534e 改善後 2.8%；bar_w=round(2.8/10×500)=140 -->
+  <circle cx="55" cy="297" r="14" fill="#57534e" opacity="0.15"/>
+  <text x="55" y="302" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">2</text>
+  <text x="80" y="303" font-size="16" fill="#1e293b" font-weight="700">改善後（第二季）</text>
+  <rect x="220" y="285" width="500" height="24" rx="12" fill="#e8e6de"/>
+  <rect x="220" y="285" width="140" height="24" rx="12" fill="#57534e"/>
+  <text x="724" y="303" font-size="16" fill="#57534e" font-weight="700">2.8%</text>
+
+  <!-- Row 3（y=395）色系 #a8a29e 目標閾值 4%；bar_w=round(4/10×500)=200；虛線表示參考值 -->
+  <circle cx="55" cy="417" r="14" fill="#a8a29e" opacity="0.15"/>
+  <text x="55" y="422" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">3</text>
+  <text x="80" y="423" font-size="16" fill="#1e293b" font-weight="700">目標閾值</text>
+  <rect x="220" y="405" width="500" height="24" rx="12" fill="#e8e6de"/>
+  <!-- 虛線樣式的目標條（用半透明填充表示目標） -->
+  <rect x="220" y="405" width="200" height="24" rx="12" fill="#a8a29e" opacity="0.6"/>
+  <!-- 目標旗標 -->
+  <line x1="420" y1="398" x2="420" y2="436" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="724" y="423" font-size="16" fill="#a8a29e" font-weight="700">4%</text>
+
+  <!-- 達成說明 pill -->
+  <rect x="220" y="445" width="200" height="28" rx="14" fill="#57534e" opacity="0.12"/>
+  <text x="320" y="464" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">達成目標，優於閾值</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- A. 主標題 40px -->
+  <text x="400" y="72" text-anchor="middle" font-size="40" fill="#1e293b" font-weight="700">PDCA 四階段循環</text>
+  <!-- B. 副標題 18px -->
+  <text x="400" y="108" text-anchor="middle" font-size="18" fill="#57534e">各步驟缺一不可，形成完整的品質改善循環</text>
+  <!-- 分隔線 x1=28, x2=772 -->
+  <line x1="28" y1="124" x2="772" y2="124" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭（arrow_y=293） -->
+  <line x1="202" y1="293" x2="218" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="202,287 218,293 202,299" fill="#c4bfb8"/>
+  <line x1="392" y1="293" x2="408" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="392,287 408,293 392,299" fill="#c4bfb8"/>
+  <line x1="582" y1="293" x2="598" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="582,287 598,293 582,299" fill="#c4bfb8"/>
+
+  <!-- Step 1：計畫（#d97706 琥珀）card x=28 cx=115 -->
+  <rect x="28" y="133" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="133" width="174" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="137" width="174" height="4" fill="#d97706"/>
+  <!-- STEP 圓圈 r=44, cy=213 -->
+  <circle cx="115" cy="213" r="44" fill="#fef3c7"/>
+  <text x="115" y="202" text-anchor="middle" font-size="18" fill="#d97706" font-weight="700">STEP</text>
+  <text x="115" y="231" text-anchor="middle" font-size="29" fill="#d97706" font-weight="700">01</text>
+  <!-- H 36px, J 16px -->
+  <text x="115" y="311" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">計畫</text>
+  <text x="115" y="339" text-anchor="middle" font-size="16" fill="#57534e">設定改善目標</text>
+  <text x="115" y="359" text-anchor="middle" font-size="16" fill="#57534e">擬定執行措施</text>
+  <!-- Pill -->
+  <rect x="41" y="389" width="148" height="36" rx="18" fill="#fef3c7"/>
+  <text x="115" y="413" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">Plan</text>
+
+  <!-- Step 2：執行（#78716c 暖灰）card x=218 cx=305 -->
+  <rect x="218" y="133" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="218" y="133" width="174" height="8" rx="4" fill="#78716c"/>
+  <rect x="218" y="137" width="174" height="4" fill="#78716c"/>
+  <circle cx="305" cy="213" r="44" fill="#f5f5f4"/>
+  <text x="305" y="202" text-anchor="middle" font-size="18" fill="#78716c" font-weight="700">STEP</text>
+  <text x="305" y="231" text-anchor="middle" font-size="29" fill="#78716c" font-weight="700">02</text>
+  <text x="305" y="311" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">執行</text>
+  <text x="305" y="339" text-anchor="middle" font-size="16" fill="#57534e">依計畫執行</text>
+  <text x="305" y="359" text-anchor="middle" font-size="16" fill="#57534e">留存稽核紀錄</text>
+  <rect x="231" y="389" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="305" y="413" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">Do</text>
+
+  <!-- Step 3：查核（#57534e 深棕）card x=408 cx=495 -->
+  <rect x="408" y="133" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="408" y="133" width="174" height="8" rx="4" fill="#57534e"/>
+  <rect x="408" y="137" width="174" height="4" fill="#57534e"/>
+  <circle cx="495" cy="213" r="44" fill="#f5f0eb"/>
+  <text x="495" y="202" text-anchor="middle" font-size="18" fill="#57534e" font-weight="700">STEP</text>
+  <text x="495" y="231" text-anchor="middle" font-size="29" fill="#57534e" font-weight="700">03</text>
+  <text x="495" y="311" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">查核</text>
+  <text x="495" y="339" text-anchor="middle" font-size="16" fill="#57534e">比對指標數據</text>
+  <text x="495" y="359" text-anchor="middle" font-size="16" fill="#57534e">與目標值差距</text>
+  <rect x="421" y="389" width="148" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="495" y="413" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">Check</text>
+
+  <!-- Step 4：行動（#a8a29e 淺灰）card x=598 cx=685 -->
+  <rect x="598" y="133" width="174" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="598" y="133" width="174" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="598" y="137" width="174" height="4" fill="#a8a29e"/>
+  <circle cx="685" cy="213" r="44" fill="#f5f5f4"/>
+  <text x="685" y="202" text-anchor="middle" font-size="18" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="685" y="231" text-anchor="middle" font-size="29" fill="#a8a29e" font-weight="700">04</text>
+  <text x="685" y="311" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">行動</text>
+  <text x="685" y="339" text-anchor="middle" font-size="16" fill="#57534e">修訂標準作業</text>
+  <text x="685" y="359" text-anchor="middle" font-size="16" fill="#57534e">循環追蹤成效</text>
+  <rect x="611" y="389" width="148" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="685" y="413" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">Act</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
