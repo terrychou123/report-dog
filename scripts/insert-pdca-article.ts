@@ -128,7 +128,7 @@ async function main() {
     tags,
     seoTitle,
     seoDescription,
-    status: "draft",
+    status: "published",
     authorName: "報告汪編輯團隊",
   });
 
