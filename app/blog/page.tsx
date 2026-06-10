@@ -3,7 +3,6 @@ import Link from "next/link";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
-import { cacheTag } from "next/cache";
 import type { Metadata } from "next";
 import { BlogListFilter } from "@/components/blog-list-filter";
 import { breadcrumbListJsonLd } from "@/lib/jsonld";
@@ -40,8 +39,6 @@ function isValidImageUrl(url: string | null): url is string {
 
 
 async function BlogContent() {
-  "use cache";
-  cacheTag("blog-list"); // 失效：POST /api/revalidate-blog 同步呼叫 revalidateTag("blog-list")
   const posts = await db
     .select()
     .from(blogPosts)
