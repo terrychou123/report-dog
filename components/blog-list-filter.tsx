@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -31,11 +31,17 @@ interface SerializedBlogPost {
 }
 
 interface BlogListFilterProps {
+  // 伺服器已按條件查詢、分頁切好的文章（最多 11 筆）
   posts: SerializedBlogPost[];
   categories: string[];
+  // 目前生效的 URL 參數（由 server 解析後傳入，確保初始態與 URL 同步）
+  // 設為 optional：/blog 以外的頁面（category / tag / pdca）不使用分頁，可省略
+  activeCategory?: string | null;
+  initialQuery?: string;
+  currentPage?: number;
+  totalPages?: number;
+  totalCount?: number;
 }
-
-const PAGE_SIZE = 11;
 
 function buildPageUrl(currentParams: URLSearchParams, page: number): string {
   const params = new URLSearchParams(currentParams.toString());
@@ -62,73 +68,66 @@ function buildPageNumbers(current: number, total: number): (number | "...")[] {
   return pages;
 }
 
-export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
+export function BlogListFilter({
+  posts,
+  categories,
+  activeCategory = null,
+  initialQuery = "",
+  currentPage = 1,
+  totalPages = 1,
+  totalCount = posts.length,
+}: BlogListFilterProps) {
   const router = useRouter();
+  // useSearchParams 保留給 buildPageUrl 使用（保留 category/q 的同時只切換 page）
   const searchParams = useSearchParams();
 
-  // 直接從 URL 讀取，確保瀏覽器上一頁/下一頁時 UI 與 URL 同步
-  const activeCategory = searchParams.get("category");
-  const currentPage = Math.max(1, parseInt(searchParams.get("page") ?? "1", 10) || 1);
+  // 本地輸入框狀態：初始化自 initialQuery prop（Suspense key 變化時元件重新掛載，自動同步）
+  // 只有送出 form 才觸發伺服器查詢，避免逐字打字時每次往返 DB
+  const [searchInput, setSearchInput] = useState(initialQuery);
 
-  const [searchQuery, setSearchQuery] = useState("");
+  // 目前是否有主動篩選（category 或 q 有值）
+  const isFiltering = !!activeCategory || !!initialQuery;
 
-  const filtered = useMemo(() => {
-    let result = posts;
-    if (activeCategory) {
-      result = result.filter((p) => p.category === activeCategory);
-    }
-    const q = searchQuery.trim().toLowerCase();
-    if (q) {
-      result = result.filter(
-        (p) =>
-          p.title.toLowerCase().includes(q) ||
-          (p.excerpt?.toLowerCase().includes(q) ?? false) ||
-          (p.tags?.some((tag) => tag.toLowerCase().includes(q)) ?? false)
-      );
-    }
-    return result;
-  }, [posts, activeCategory, searchQuery]);
-
-  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  const safePage = Math.min(currentPage, Math.max(1, totalPages));
-  const pageStart = (safePage - 1) * PAGE_SIZE;
-  const paginatedPosts = filtered.slice(pageStart, pageStart + PAGE_SIZE);
+  const featuredPost = posts[0];
+  const remainingPosts = posts.slice(1);
 
   function handleCategoryChange(cat: string | null) {
     const params = new URLSearchParams();
     if (cat) params.set("category", cat);
+    // 切換分類時保留搜尋詞（如有）
+    const currentQ = searchParams.get("q");
+    if (currentQ) params.set("q", currentQ);
     const qs = params.toString();
     router.push(qs ? `/blog?${qs}` : "/blog", { scroll: false });
   }
 
-  function handleSearchChange(value: string) {
-    setSearchQuery(value);
-    if (currentPage !== 1) {
-      const params = new URLSearchParams(searchParams.toString());
-      params.delete("page");
-      const qs = params.toString();
-      router.push(qs ? `/blog?${qs}` : "/blog", { scroll: false });
-    }
+  function handleSearchSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    const params = new URLSearchParams();
+    // 保留目前分類（如有）
+    const currentCategory = searchParams.get("category");
+    if (currentCategory) params.set("category", currentCategory);
+    const trimmed = searchInput.trim();
+    if (trimmed) params.set("q", trimmed);
+    const qs = params.toString();
+    router.push(qs ? `/blog?${qs}` : "/blog", { scroll: false });
   }
-
-  const isFiltering = !!searchQuery.trim() || !!activeCategory;
-  const featuredPost = paginatedPosts[0];
-  const remainingPosts = paginatedPosts.slice(1);
 
   return (
     <div className="group/posts">
       {categories.length > 0 && (
         <div className="border-b pb-6 mb-12 space-y-4">
-          <div className="relative max-w-md">
+          {/* 搜尋框：送出 form 才導航，不逐字打字觸發查詢 */}
+          <form onSubmit={handleSearchSubmit} className="relative max-w-md">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
             <Input
               type="search"
               placeholder="搜尋文章標題或摘要..."
-              value={searchQuery}
-              onChange={(e) => handleSearchChange(e.target.value)}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
               className="pl-10"
             />
-          </div>
+          </form>
 
           <div className="flex flex-wrap gap-2">
             <button
@@ -160,13 +159,13 @@ export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
 
           {isFiltering && (
             <p className="text-sm text-muted-foreground">
-              找到 {filtered.length} 篇文章
+              找到 {totalCount} 篇文章
             </p>
           )}
         </div>
       )}
 
-      {filtered.length === 0 ? (
+      {posts.length === 0 ? (
         <div className="text-center py-20 text-muted-foreground">
           {isFiltering
             ? "找不到符合條件的文章，請調整搜尋或篩選條件"
@@ -298,13 +297,13 @@ export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
                 <PaginationContent>
                   <PaginationItem>
                     <PaginationPrevious
-                      href={buildPageUrl(searchParams, safePage - 1)}
-                      aria-disabled={safePage <= 1}
-                      className={cn(safePage <= 1 && "pointer-events-none opacity-50")}
+                      href={buildPageUrl(searchParams, currentPage - 1)}
+                      aria-disabled={currentPage <= 1}
+                      className={cn(currentPage <= 1 && "pointer-events-none opacity-50")}
                     />
                   </PaginationItem>
 
-                  {buildPageNumbers(safePage, totalPages).map((p, i) =>
+                  {buildPageNumbers(currentPage, totalPages).map((p, i) =>
                     p === "..." ? (
                       <PaginationItem key={`ellipsis-${i}`}>
                         <PaginationEllipsis />
@@ -313,7 +312,7 @@ export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
                       <PaginationItem key={p}>
                         <PaginationLink
                           href={buildPageUrl(searchParams, p)}
-                          isActive={p === safePage}
+                          isActive={p === currentPage}
                         >
                           {p}
                         </PaginationLink>
@@ -323,15 +322,15 @@ export function BlogListFilter({ posts, categories }: BlogListFilterProps) {
 
                   <PaginationItem>
                     <PaginationNext
-                      href={buildPageUrl(searchParams, safePage + 1)}
-                      aria-disabled={safePage >= totalPages}
-                      className={cn(safePage >= totalPages && "pointer-events-none opacity-50")}
+                      href={buildPageUrl(searchParams, currentPage + 1)}
+                      aria-disabled={currentPage >= totalPages}
+                      className={cn(currentPage >= totalPages && "pointer-events-none opacity-50")}
                     />
                   </PaginationItem>
                 </PaginationContent>
               </Pagination>
               <p className="text-center text-sm text-muted-foreground mt-3">
-                第 {safePage} / {totalPages} 頁，共 {filtered.length} 篇文章
+                第 {currentPage} / {totalPages} 頁，共 {totalCount} 篇文章
               </p>
             </div>
           )}
