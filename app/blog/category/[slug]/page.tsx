@@ -1,11 +1,13 @@
 import { Suspense } from "react";
 import Link from "next/link";
-import { db } from "@/db";
-import { blogPosts } from "@/db/schema";
-import { desc, eq } from "drizzle-orm";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { db } from "@/db";
+import { blogPosts } from "@/db/schema";
+import { eq } from "drizzle-orm";
+import { connection } from "next/server";
 import { BlogListFilter } from "@/components/blog-list-filter";
+import { getPublishedListItems } from "@/lib/blog/queries";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -56,23 +58,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function CategoryContent({ category }: { category: string }) {
-  // 只取渲染所需欄位——絕不撈 content（避免 12MB 撐爆 Supabase pooler）
-  const posts = await db
-    .select({
-      id: blogPosts.id,
-      slug: blogPosts.slug,
-      title: blogPosts.title,
-      excerpt: blogPosts.excerpt,
-      coverImageUrl: blogPosts.coverImageUrl,
-      category: blogPosts.category,
-      tags: blogPosts.tags,
-      publishedAt: blogPosts.publishedAt,
-    })
-    .from(blogPosts)
-    .where(eq(blogPosts.status, "published"))
-    .orderBy(desc(blogPosts.publishedAt));
-
-  const filtered = posts.filter((p) => p.category === category);
+  // connection()：標記 runtime-dynamic，讓 build 不預渲染、不在 build 填快取
+  // 快取改在 runtime 首次請求填（同 /blog/page.tsx BlogContent 的模式）
+  await connection();
+  // 使用共用快取查詢（"use cache" + cacheTag("blog-list")），避免每請求打 pooler
+  // notFound() 必須留在快取函式外，此處在 JS 篩選後呼叫
+  const all = await getPublishedListItems();
+  const filtered = all.filter((p) => p.category === category);
   if (filtered.length === 0) notFound();
 
   const serialized = filtered.map((p) => ({

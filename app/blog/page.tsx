@@ -3,7 +3,7 @@ import Link from "next/link";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { and, desc, eq, ilike, or, sql } from "drizzle-orm";
-import { cacheTag } from "next/cache";
+import { cacheLife, cacheTag } from "next/cache";
 import { connection } from "next/server";
 import type { Metadata } from "next";
 import { BlogListFilter } from "@/components/blog-list-filter";
@@ -70,6 +70,7 @@ function buildConditions(category: string | null, q: string | null) {
 async function getPosts(category: string | null, q: string | null, page: number) {
   "use cache";
   cacheTag("blog-list");
+  cacheLife("days"); // 背景重驗每日一次，平時靠 revalidateTag 失效
   return db
     .select({
       id: blogPosts.id,
@@ -92,6 +93,7 @@ async function getPosts(category: string | null, q: string | null, page: number)
 async function getPostsCount(category: string | null, q: string | null) {
   "use cache";
   cacheTag("blog-list");
+  cacheLife("days"); // 背景重驗每日一次，平時靠 revalidateTag 失效
   const result = await db
     .select({ count: sql<number>`count(*)::int` })
     .from(blogPosts)
@@ -103,6 +105,7 @@ async function getPostsCount(category: string | null, q: string | null) {
 async function getCategories() {
   "use cache";
   cacheTag("blog-list");
+  cacheLife("days"); // 背景重驗每日一次，平時靠 revalidateTag 失效
   const rows = await db
     .selectDistinct({ category: blogPosts.category })
     .from(blogPosts)

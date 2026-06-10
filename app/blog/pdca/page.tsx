@@ -1,11 +1,10 @@
 import { Suspense } from "react";
 import Link from "next/link";
-import { db } from "@/db";
-import { blogPosts } from "@/db/schema";
-import { desc, eq, or, like, and } from "drizzle-orm";
 import type { Metadata } from "next";
+import { connection } from "next/server";
 import { BlogListFilter } from "@/components/blog-list-filter";
 import { breadcrumbListJsonLd, faqPageJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
+import { getPublishedListItems } from "@/lib/blog/queries";
 
 // A2：精準命中「pdca報告範例」「護理pdca報告範例」（pos 7.7–11 / 118–35 曝光）
 export const metadata: Metadata = {
@@ -66,29 +65,15 @@ function isValidImageUrl(url: string | null): url is string {
 }
 
 async function PdcaArticleList() {
-  // server-side filter：僅取 PDCA 相關文章，且不載入 content 欄位（節省資料傳輸）
-  const filtered = await db
-    .select({
-      id: blogPosts.id,
-      slug: blogPosts.slug,
-      title: blogPosts.title,
-      excerpt: blogPosts.excerpt,
-      coverImageUrl: blogPosts.coverImageUrl,
-      category: blogPosts.category,
-      tags: blogPosts.tags,
-      publishedAt: blogPosts.publishedAt,
-    })
-    .from(blogPosts)
-    .where(
-      and(
-        eq(blogPosts.status, "published"),
-        or(
-          like(blogPosts.slug, "%pdca%"),
-          like(blogPosts.slug, "%continuous-improvement%")
-        )
-      )
-    )
-    .orderBy(desc(blogPosts.publishedAt));
+  // connection()：標記 runtime-dynamic，讓 build 不預渲染、不在 build 填快取
+  // 快取改在 runtime 首次請求填（同 /blog/page.tsx BlogContent 的模式）
+  await connection();
+  // 使用共用快取查詢，在 JS 篩選 PDCA 相關文章，避免另開 DB 查詢打 pooler
+  // （文章數量有限，JS 篩選成本可忽略；共用 "use cache" 減少冷撈）
+  const all = await getPublishedListItems();
+  const filtered = all.filter(
+    (p) => p.slug.includes("pdca") || p.slug.includes("continuous-improvement")
+  );
 
   if (filtered.length === 0) return null;
 

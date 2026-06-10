@@ -2,11 +2,39 @@ import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq, ne, and } from "drizzle-orm";
 import Link from "next/link";
+import { cacheLife, cacheTag } from "next/cache";
 
 interface Props {
   currentSlug: string;
   category: string | null;
   tags?: string[] | null;
+}
+
+// 快取：同 category 相關候選文章（排除本文），以 category+currentSlug 為 key
+// cacheTag("blog-list") 讓文章更新時自動失效；cacheLife("days") 減少背景重驗打 pooler
+async function getRelatedCandidates(
+  category: string,
+  currentSlug: string
+): Promise<Array<{ slug: string; title: string; excerpt: string | null; tags: string[] | null }>> {
+  "use cache";
+  cacheTag("blog-list");
+  cacheLife("days");
+  return db
+    .select({
+      slug: blogPosts.slug,
+      title: blogPosts.title,
+      excerpt: blogPosts.excerpt,
+      tags: blogPosts.tags,
+    })
+    .from(blogPosts)
+    .where(
+      and(
+        eq(blogPosts.status, "published"),
+        eq(blogPosts.category, category),
+        ne(blogPosts.slug, currentSlug)
+      )
+    )
+    .limit(12);
 }
 
 /**
@@ -16,25 +44,10 @@ interface Props {
 export async function BlogRelatedPosts({ currentSlug, category, tags }: Props) {
   if (!category) return null;
 
-  // 多取幾篇讓 tag 加權排序有足夠樣本
+  // 多取幾篇讓 tag 加權排序有足夠樣本；try/catch：DB error 時不炸文章頁
   let candidates: Array<{ slug: string; title: string; excerpt: string | null; tags: string[] | null }> = [];
   try {
-    candidates = await db
-      .select({
-        slug: blogPosts.slug,
-        title: blogPosts.title,
-        excerpt: blogPosts.excerpt,
-        tags: blogPosts.tags,
-      })
-      .from(blogPosts)
-      .where(
-        and(
-          eq(blogPosts.status, "published"),
-          eq(blogPosts.category, category),
-          ne(blogPosts.slug, currentSlug)
-        )
-      )
-      .limit(12);
+    candidates = await getRelatedCandidates(category, currentSlug);
   } catch {
     return null;
   }
