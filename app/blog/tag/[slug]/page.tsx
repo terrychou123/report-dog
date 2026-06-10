@@ -51,8 +51,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function TagContent({ tag }: { tag: string }) {
+  // 只取渲染所需欄位——絕不撈 content（避免 12MB 撐爆 Supabase pooler）
   const posts = await db
-    .select()
+    .select({
+      id: blogPosts.id,
+      slug: blogPosts.slug,
+      title: blogPosts.title,
+      excerpt: blogPosts.excerpt,
+      coverImageUrl: blogPosts.coverImageUrl,
+      category: blogPosts.category,
+      tags: blogPosts.tags,
+      publishedAt: blogPosts.publishedAt,
+    })
     .from(blogPosts)
     .where(eq(blogPosts.status, "published"))
     .orderBy(desc(blogPosts.publishedAt));

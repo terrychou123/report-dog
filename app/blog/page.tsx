@@ -3,6 +3,8 @@ import Link from "next/link";
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
+import { cacheTag } from "next/cache";
+import { connection } from "next/server";
 import type { Metadata } from "next";
 import { BlogListFilter } from "@/components/blog-list-filter";
 import { breadcrumbListJsonLd } from "@/lib/jsonld";
@@ -38,12 +40,13 @@ function isValidImageUrl(url: string | null): url is string {
 }
 
 
-async function BlogContent() {
-  // 不加 "use cache"：build 時 9 workers × max:1 連線競爭 Supabase pooler，
-  // 填快取會撞 USE_CACHE_TIMEOUT（見 commit 8e2fccc）。改靠 Suspense 串流 + 下方輕量查詢。
-  // 只 select 列表需要的欄位——絕不撈 content（巨大 HTML），
-  // 否則 255 篇 × ~50KB ≈ 12MB 會撐爆 Supabase pooler（EDB_HANDLER_EXITED / XX000，digest 4093916120）
-  const posts = await db
+// 已發布文章列表（快取版）。只 select 列表需要的 8 欄位——絕不撈 content（巨大 HTML），
+// 否則 255 篇 × ~50KB ≈ 12MB 會撐爆 Supabase pooler（EDB_HANDLER_EXITED / XX000）。
+// "use cache" 讓列表只在「首次請求/失效後」打一次 DB，避免每請求都打 → 解 ECHECKOUTTIMEOUT。
+async function getPublishedPosts() {
+  "use cache";
+  cacheTag("blog-list"); // 由 /api/revalidate-blog 在文章發布/更新時失效
+  return db
     .select({
       id: blogPosts.id,
       slug: blogPosts.slug,
@@ -57,6 +60,14 @@ async function BlogContent() {
     .from(blogPosts)
     .where(eq(blogPosts.status, "published"))
     .orderBy(desc(blogPosts.publishedAt));
+}
+
+async function BlogContent() {
+  // connection()：標記為 runtime-dynamic，讓 build 不預渲染 /blog、不在 build 填快取
+  // （/blog 無 generateStaticParams，否則會像之前一樣撞 USE_CACHE_TIMEOUT）。
+  // 快取改在 runtime 首次請求填，比照 /blog/[slug] 的 runtime-fill 模式。
+  await connection();
+  const posts = await getPublishedPosts();
 
   const categories = Array.from(
     new Set(posts.map((p) => p.category).filter(Boolean) as string[])
