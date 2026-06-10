@@ -9,13 +9,13 @@
   <rect x="40" y="128" width="155" height="280" rx="10" fill="#d97706"/>
   <text x="118" y="168" font-size="36" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
   <text x="118" y="196" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">啟動分工</text>
-  <text x="118" y="220" font-size="14" fill="#fff8e7" text-anchor="middle">主管召開</text>
-  <text x="118" y="240" font-size="14" fill="#fff8e7" text-anchor="middle">評鑑動員會</text>
-  <text x="118" y="260" font-size="14" fill="#fff8e7" text-anchor="middle">說明評鑑基準</text>
-  <text x="118" y="280" font-size="14" fill="#fff8e7" text-anchor="middle">指定各職種</text>
-  <text x="118" y="300" font-size="14" fill="#fff8e7" text-anchor="middle">負責評鑑項目</text>
-  <text x="118" y="320" font-size="14" fill="#fff8e7" text-anchor="middle">建立追蹤看板</text>
-  <text x="118" y="340" font-size="14" fill="#fff8e7" text-anchor="middle">設定截止日期</text>
+  <text x="118" y="220" font-size="14" fill="#fef3c7" text-anchor="middle">主管召開</text>
+  <text x="118" y="240" font-size="14" fill="#fef3c7" text-anchor="middle">評鑑動員會</text>
+  <text x="118" y="260" font-size="14" fill="#fef3c7" text-anchor="middle">說明評鑑基準</text>
+  <text x="118" y="280" font-size="14" fill="#fef3c7" text-anchor="middle">指定各職種</text>
+  <text x="118" y="300" font-size="14" fill="#fef3c7" text-anchor="middle">負責評鑑項目</text>
+  <text x="118" y="320" font-size="14" fill="#fef3c7" text-anchor="middle">建立追蹤看板</text>
+  <text x="118" y="340" font-size="14" fill="#fef3c7" text-anchor="middle">設定截止日期</text>
   <text x="118" y="360" font-size="14" fill="#fef3c7" text-anchor="middle" font-weight="700">D-90 第一週</text>
 
   <!-- 箭頭 1 -->
@@ -26,13 +26,13 @@
   <rect x="226" y="128" width="155" height="280" rx="10" fill="#78716c"/>
   <text x="304" y="168" font-size="36" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
   <text x="304" y="196" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">各自執行</text>
-  <text x="304" y="220" font-size="14" fill="#e7e5e4" text-anchor="middle">護理師</text>
-  <text x="304" y="240" font-size="14" fill="#e7e5e4" text-anchor="middle">個案計畫核對</text>
-  <text x="304" y="264" font-size="14" fill="#e7e5e4" text-anchor="middle">社工師</text>
-  <text x="304" y="284" font-size="14" fill="#e7e5e4" text-anchor="middle">家屬聯繫確認</text>
-  <text x="304" y="308" font-size="14" fill="#e7e5e4" text-anchor="middle">照服員</text>
-  <text x="304" y="328" font-size="14" fill="#e7e5e4" text-anchor="middle">訪談準備演練</text>
-  <text x="304" y="352" font-size="14" fill="#e7e5e4" text-anchor="middle">隨時更新進度</text>
+  <text x="304" y="220" font-size="14" fill="#e8e6de" text-anchor="middle">護理師</text>
+  <text x="304" y="240" font-size="14" fill="#e8e6de" text-anchor="middle">個案計畫核對</text>
+  <text x="304" y="264" font-size="14" fill="#e8e6de" text-anchor="middle">社工師</text>
+  <text x="304" y="284" font-size="14" fill="#e8e6de" text-anchor="middle">家屬聯繫確認</text>
+  <text x="304" y="308" font-size="14" fill="#e8e6de" text-anchor="middle">照服員</text>
+  <text x="304" y="328" font-size="14" fill="#e8e6de" text-anchor="middle">訪談準備演練</text>
+  <text x="304" y="352" font-size="14" fill="#e8e6de" text-anchor="middle">隨時更新進度</text>
   <text x="304" y="370" font-size="14" fill="#fef3c7" text-anchor="middle" font-weight="700">D-90 至 D-30</text>
 
   <!-- 箭頭 2 -->
@@ -43,13 +43,13 @@
   <rect x="412" y="128" width="155" height="280" rx="10" fill="#57534e"/>
   <text x="490" y="168" font-size="36" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
   <text x="490" y="196" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">聯合查核</text>
-  <text x="490" y="220" font-size="14" fill="#e7e5e4" text-anchor="middle">跨職種互核</text>
-  <text x="490" y="240" font-size="14" fill="#e7e5e4" text-anchor="middle">文件補漏</text>
-  <text x="490" y="264" font-size="14" fill="#e7e5e4" text-anchor="middle">模擬委員查核</text>
-  <text x="490" y="284" font-size="14" fill="#e7e5e4" text-anchor="middle">計時找文件演練</text>
-  <text x="490" y="308" font-size="14" fill="#e7e5e4" text-anchor="middle">訪談問答演練</text>
-  <text x="490" y="328" font-size="14" fill="#e7e5e4" text-anchor="middle">各職種答題訓練</text>
-  <text x="490" y="352" font-size="14" fill="#e7e5e4" text-anchor="middle">環境問題確認</text>
+  <text x="490" y="220" font-size="14" fill="#e8e6de" text-anchor="middle">跨職種互核</text>
+  <text x="490" y="240" font-size="14" fill="#e8e6de" text-anchor="middle">文件補漏</text>
+  <text x="490" y="264" font-size="14" fill="#e8e6de" text-anchor="middle">模擬委員查核</text>
+  <text x="490" y="284" font-size="14" fill="#e8e6de" text-anchor="middle">計時找文件演練</text>
+  <text x="490" y="308" font-size="14" fill="#e8e6de" text-anchor="middle">訪談問答演練</text>
+  <text x="490" y="328" font-size="14" fill="#e8e6de" text-anchor="middle">各職種答題訓練</text>
+  <text x="490" y="352" font-size="14" fill="#e8e6de" text-anchor="middle">環境問題確認</text>
   <text x="490" y="370" font-size="14" fill="#fef3c7" text-anchor="middle" font-weight="700">D-30 至 D-7</text>
 
   <!-- 箭頭 3 -->
@@ -71,7 +71,7 @@
 
   <!-- 底部說明 -->
   <rect x="40" y="430" width="720" height="40" rx="8" fill="#fef3c7"/>
-  <text x="400" y="455" font-size="14" fill="#92400e" text-anchor="middle" font-weight="700">B5 跨專業整合照護：每3個月召開聯繫會，至少3種不同領域人員參與，並有紀錄及追蹤</text>
+  <text x="400" y="455" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">B5 跨專業整合照護：每3個月召開聯繫會，至少3種不同領域人員參與，並有紀錄及追蹤</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -6,15 +6,15 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
 
   <!-- 左側：日間型 -->
-  <rect x="40" y="108" width="340" height="350" rx="12" fill="white" stroke="#0284c7" stroke-width="2"/>
-  <rect x="40" y="108" width="340" height="40" rx="12" fill="#0284c7"/>
-  <rect x="40" y="128" width="340" height="20" fill="#0284c7"/>
+  <rect x="40" y="108" width="340" height="350" rx="12" fill="white" stroke="#2563eb" stroke-width="2"/>
+  <rect x="40" y="108" width="340" height="40" rx="12" fill="#2563eb"/>
+  <rect x="40" y="128" width="340" height="20" fill="#2563eb"/>
   <text x="210" y="135" text-anchor="middle" font-size="19" fill="white" font-weight="700">日間型 2.3（4分）</text>
 
   <text x="210" y="172" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">社區生活化多元復健服務</text>
 
   <rect x="60" y="186" width="300" height="34" rx="8" fill="#eff6ff"/>
-  <text x="80" y="208" font-size="15" fill="#0284c7" font-weight="700">核心：真實的社區連結體驗</text>
+  <text x="80" y="208" font-size="15" fill="#2563eb" font-weight="700">核心：真實的社區連結體驗</text>
 
   <text x="60" y="244" font-size="15" fill="#57534e">強調外出社區（市場、圖書館、社區中心）</text>
   <text x="60" y="264" font-size="15" fill="#57534e">與社區資源建立連結（就業、就學等）</text>
@@ -22,30 +22,30 @@
   <text x="60" y="304" font-size="15" fill="#57534e">防疫期間可使用視訊替代</text>
 
   <rect x="60" y="326" width="300" height="34" rx="8" fill="#eff6ff"/>
-  <text x="80" y="348" font-size="15" fill="#0284c7" font-weight="700">備審重點：每月社區外出紀錄</text>
+  <text x="80" y="348" font-size="15" fill="#2563eb" font-weight="700">備審重點：每月社區外出紀錄</text>
 
   <text x="60" y="380" font-size="15" fill="#57534e">資源連結清單（連結了哪些社區機構）</text>
   <text x="60" y="400" font-size="15" fill="#57534e">多元課程計畫書（不同類型活動）</text>
   <text x="60" y="420" font-size="15" fill="#57534e">個別化服務計畫連結說明</text>
 
   <!-- 右側：住宿型 -->
-  <rect x="420" y="108" width="340" height="350" rx="12" fill="white" stroke="#7c3aed" stroke-width="2"/>
-  <rect x="420" y="108" width="340" height="40" rx="12" fill="#7c3aed"/>
-  <rect x="420" y="128" width="340" height="20" fill="#7c3aed"/>
+  <rect x="420" y="108" width="340" height="350" rx="12" fill="white" stroke="#9333ea" stroke-width="2"/>
+  <rect x="420" y="108" width="340" height="40" rx="12" fill="#9333ea"/>
+  <rect x="420" y="128" width="340" height="20" fill="#9333ea"/>
   <text x="590" y="135" text-anchor="middle" font-size="19" fill="white" font-weight="700">住宿型 2.3（6分，最高）</text>
 
   <text x="590" y="172" text-anchor="middle" font-size="18" fill="#1e293b" font-weight="700">個別化獨立生活功能訓練</text>
 
   <rect x="440" y="186" width="300" height="34" rx="8" fill="#f5f3ff"/>
-  <text x="460" y="208" font-size="15" fill="#7c3aed" font-weight="700">核心：個別化 ADL/IADL 訓練</text>
+  <text x="460" y="208" font-size="15" fill="#9333ea" font-weight="700">核心：個別化 ADL/IADL 訓練</text>
 
   <text x="440" y="244" font-size="15" fill="#57534e">日常生活技能（盥洗、穿衣、飲食）</text>
   <text x="440" y="264" font-size="15" fill="#57534e">工具性技能（烹飪、購物、交通）</text>
   <text x="440" y="284" font-size="15" fill="#57534e">個別化課程設計，非團體活動為主</text>
-  <text x="440" y="304" font-size="15" fill="#7c3aed" font-weight="700">全評鑑配分最高單一條目！</text>
+  <text x="440" y="304" font-size="15" fill="#9333ea" font-weight="700">全評鑑配分最高單一條目！</text>
 
   <rect x="440" y="326" width="300" height="34" rx="8" fill="#f5f3ff"/>
-  <text x="460" y="348" font-size="15" fill="#7c3aed" font-weight="700">備審重點：每位住民個別化計畫</text>
+  <text x="460" y="348" font-size="15" fill="#9333ea" font-weight="700">備審重點：每位住民個別化計畫</text>
 
   <text x="440" y="380" font-size="15" fill="#57534e">ADL/IADL 訓練紀錄（每人獨立）</text>
   <text x="440" y="400" font-size="15" fill="#57534e">功能進步追蹤表（基準-目前-目標）</text>

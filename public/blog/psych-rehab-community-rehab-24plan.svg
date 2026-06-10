@@ -11,7 +11,7 @@
   <circle cx="66" cy="191" r="18" fill="#d97706" opacity="0.15"/>
   <!-- text_y = 160+31+22*0.35=198.7≈199 -->
   <text x="66" y="199" font-size="22" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
-  <text x="100" y="180" font-size="22" fill="#1e293b" font-weight="700">PLAN 規劃 ─ 月度計畫書事前準備</text>
+  <text x="100" y="180" font-size="22" fill="#1e293b" font-weight="700">PLAN 規劃 - 月度計畫書事前準備</text>
   <text x="100" y="204" font-size="16" fill="#57534e">活動前完成月度計畫書，載明活動目標、分工、所需資源，才算「妥善規劃」</text>
   <!-- S-box: y=160+8=168, rectH=46 -->
   <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
@@ -24,7 +24,7 @@
   <circle cx="66" cy="266" r="18" fill="#78716c" opacity="0.15"/>
   <!-- text_y = 235+31+7.7=273.7≈274 -->
   <text x="66" y="274" font-size="22" fill="#78716c" text-anchor="middle" font-weight="900">D</text>
-  <text x="100" y="255" font-size="22" fill="#1e293b" font-weight="700">DO 執行 ─ 依計畫辦理並記錄參與</text>
+  <text x="100" y="255" font-size="22" fill="#1e293b" font-weight="700">DO 執行 - 依計畫辦理並記錄參與</text>
   <text x="100" y="279" font-size="16" fill="#57534e">依計畫書執行活動，同步記錄出席人數、參與情形，留存活動照片或出席紀錄</text>
   <!-- S-box: y=235+8=243 -->
   <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
@@ -37,7 +37,7 @@
   <circle cx="66" cy="341" r="18" fill="#57534e" opacity="0.15"/>
   <!-- text_y = 310+31+7.7=348.7≈349 -->
   <text x="66" y="349" font-size="22" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
-  <text x="100" y="330" font-size="22" fill="#1e293b" font-weight="700">CHECK 查核 ─ 月底收集服務對象回饋</text>
+  <text x="100" y="330" font-size="22" fill="#1e293b" font-weight="700">CHECK 查核 - 月底收集服務對象回饋</text>
   <text x="100" y="354" font-size="16" fill="#57534e">月底辦理滿意度調查，收集服務對象回饋，確認活動是否達成原定目標</text>
   <!-- S-box: y=310+8=318 -->
   <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
@@ -50,7 +50,7 @@
   <circle cx="66" cy="416" r="18" fill="#a8a29e" opacity="0.15"/>
   <!-- text_y = 385+31+7.7=423.7≈424 -->
   <text x="66" y="424" font-size="22" fill="#a8a29e" text-anchor="middle" font-weight="900">A</text>
-  <text x="100" y="405" font-size="22" fill="#1e293b" font-weight="700">ACT 修正 ─ 依回饋調整下月計畫書</text>
+  <text x="100" y="405" font-size="22" fill="#1e293b" font-weight="700">ACT 修正 - 依回饋調整下月計畫書</text>
   <text x="100" y="429" font-size="16" fill="#57534e">依回饋修正下月計畫書，並在計畫書中載明修正原因，體現「定期修正」的 PDCA 精神</text>
   <!-- S-box: y=385+8=393 -->
   <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>

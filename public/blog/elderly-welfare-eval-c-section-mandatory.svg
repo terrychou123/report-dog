@@ -5,7 +5,7 @@
   <!-- 標題區 -->
   <rect x="0" y="0" width="800" height="90" fill="#dc2626"/>
   <text x="400" y="38" font-size="22" font-weight="bold" fill="white" text-anchor="middle" >C 區 6 項一級必要指標：一票否決不能失守</text>
-  <text x="400" y="68" font-size="16" fill="#fecaca" text-anchor="middle" >任一項不符合即評鑑不通過 ｜ 115年度老人福利機構評鑑</text>
+  <text x="400" y="68" font-size="16" fill="#fef2f2" text-anchor="middle" >任一項不符合即評鑑不通過 ｜ 115年度老人福利機構評鑑</text>
 
   <!-- N=6 版型：H=54, inner_gap=10, pad=31, Header y=31, Row y: 95/159/223/287/351/415 -->
 

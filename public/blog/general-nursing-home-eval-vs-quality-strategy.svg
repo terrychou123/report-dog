@@ -13,29 +13,29 @@
   <text x="135" y="158" font-size="34" font-weight="900" text-anchor="middle" fill="#d97706">1</text>
   <text x="135" y="202" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">先完成</text>
   <text x="135" y="226" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">定期評鑑</text>
-  <line x1="60" y1="244" x2="210" y2="244" stroke="#fde68a" stroke-width="1"/>
+  <line x1="60" y1="244" x2="210" y2="244" stroke="#fef3c7" stroke-width="1"/>
   <text x="44" y="268" font-size="14" fill="#fef3c7">[ ] 15 項基準逐一備齊</text>
   <text x="44" y="290" font-size="14" fill="#fef3c7">[ ] 實地查核準備完整</text>
   <text x="44" y="312" font-size="14" fill="#fef3c7">[ ] 文件格式符合規定</text>
   <text x="44" y="334" font-size="14" fill="#fef3c7">[ ] 工作人員能力確認</text>
-  <text x="44" y="356" font-size="14" fill="#fde68a">評鑑是強制性的，</text>
-  <text x="44" y="374" font-size="14" fill="#fde68a">優先完成不可跳過</text>
+  <text x="44" y="356" font-size="14" fill="#fef3c7">評鑑是強制性的，</text>
+  <text x="44" y="374" font-size="14" fill="#fef3c7">優先完成不可跳過</text>
   <rect x="44" y="390" width="182" height="30" rx="8" fill="#ffffff" opacity="0.2"/>
   <text x="135" y="410" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">完成評鑑 - 進入 Step 2</text>
   <!-- 箭頭 -->
   <text x="255" y="274" font-size="40" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 2 -->
-  <rect x="286" y="86" width="222" height="360" rx="14" fill="#44403c" opacity="0.88"/>
+  <rect x="286" y="86" width="222" height="360" rx="14" fill="#57534e" opacity="0.88"/>
   <circle cx="397" cy="140" r="44" fill="#ffffff"/>
-  <text x="397" y="130" font-size="14" font-weight="700" text-anchor="middle" fill="#44403c">Step</text>
-  <text x="397" y="158" font-size="34" font-weight="900" text-anchor="middle" fill="#44403c">2</text>
+  <text x="397" y="130" font-size="14" font-weight="700" text-anchor="middle" fill="#57534e">Step</text>
+  <text x="397" y="158" font-size="34" font-weight="900" text-anchor="middle" fill="#57534e">2</text>
   <text x="397" y="202" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">識別</text>
   <text x="397" y="226" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">重疊文件</text>
   <line x1="306" y1="244" x2="498" y2="244" stroke="#a8a29e" stroke-width="1"/>
-  <text x="306" y="268" font-size="14" fill="#d4d4d4">[ ] 品質指標月報 [v] 可直用</text>
-  <text x="306" y="290" font-size="14" fill="#d4d4d4">[ ] 照護計畫文件 [v] 可直用</text>
-  <text x="306" y="312" font-size="14" fill="#d4d4d4">[ ] 訓練記錄 [v] 可直用</text>
-  <text x="306" y="334" font-size="14" fill="#d4d4d4">[ ] 確認指標計算方式</text>
+  <text x="306" y="268" font-size="14" fill="#dedad3">[ ] 品質指標月報 [v] 可直用</text>
+  <text x="306" y="290" font-size="14" fill="#dedad3">[ ] 照護計畫文件 [v] 可直用</text>
+  <text x="306" y="312" font-size="14" fill="#dedad3">[ ] 訓練記錄 [v] 可直用</text>
+  <text x="306" y="334" font-size="14" fill="#dedad3">[ ] 確認指標計算方式</text>
   <text x="306" y="356" font-size="14" fill="#a8a29e">對照品質計畫申請</text>
   <text x="306" y="374" font-size="14" fill="#a8a29e">要求，標記可直用項</text>
   <rect x="306" y="390" width="182" height="30" rx="8" fill="#ffffff" opacity="0.15"/>
@@ -43,24 +43,24 @@
   <!-- 箭頭 -->
   <text x="517" y="274" font-size="40" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 3 -->
-  <rect x="549" y="86" width="227" height="360" rx="14" fill="#1e40af" opacity="0.88"/>
+  <rect x="549" y="86" width="227" height="360" rx="14" fill="#2563eb" opacity="0.88"/>
   <circle cx="663" cy="140" r="44" fill="#ffffff"/>
-  <text x="663" y="130" font-size="14" font-weight="700" text-anchor="middle" fill="#1e40af">Step</text>
-  <text x="663" y="158" font-size="34" font-weight="900" text-anchor="middle" fill="#1e40af">3</text>
+  <text x="663" y="130" font-size="14" font-weight="700" text-anchor="middle" fill="#2563eb">Step</text>
+  <text x="663" y="158" font-size="34" font-weight="900" text-anchor="middle" fill="#2563eb">3</text>
   <text x="663" y="202" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">追加品質</text>
   <text x="663" y="226" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">計畫準備</text>
-  <line x1="569" y1="244" x2="757" y2="244" stroke="#93c5fd" stroke-width="1"/>
-  <text x="569" y="268" font-size="14" fill="#bfdbfe">[ ] 整理年度趨勢圖表</text>
-  <text x="569" y="290" font-size="14" fill="#bfdbfe">[ ] 撰寫品質改善說明</text>
-  <text x="569" y="312" font-size="14" fill="#bfdbfe">[ ] 確認申請資格</text>
-  <text x="569" y="334" font-size="14" fill="#bfdbfe">[ ] 填寫申請表格</text>
-  <text x="569" y="356" font-size="14" fill="#93c5fd">額外工時：</text>
-  <text x="569" y="374" font-size="14" fill="#93c5fd">約 4–8 小時</text>
+  <line x1="569" y1="244" x2="757" y2="244" stroke="#eff6ff" stroke-width="1"/>
+  <text x="569" y="268" font-size="14" fill="#eff6ff">[ ] 整理年度趨勢圖表</text>
+  <text x="569" y="290" font-size="14" fill="#eff6ff">[ ] 撰寫品質改善說明</text>
+  <text x="569" y="312" font-size="14" fill="#eff6ff">[ ] 確認申請資格</text>
+  <text x="569" y="334" font-size="14" fill="#eff6ff">[ ] 填寫申請表格</text>
+  <text x="569" y="356" font-size="14" fill="#eff6ff">額外工時：</text>
+  <text x="569" y="374" font-size="14" fill="#eff6ff">約 4–8 小時</text>
   <rect x="569" y="390" width="187" height="30" rx="8" fill="#ffffff" opacity="0.2"/>
   <text x="663" y="410" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">申請送出 - 等待審核</text>
   <!-- 底部說明 -->
   <rect x="24" y="460" width="752" height="24" rx="8" fill="#ffffff" opacity="0.6"/>
-  <text x="400" y="477" font-size="14" text-anchor="middle" fill="#44403c">核心邏輯：評鑑準備好了，品質計畫只需追加 4–8 小時，就能換取數十萬元獎勵金</text>
+  <text x="400" y="477" font-size="14" text-anchor="middle" fill="#57534e">核心邏輯：評鑑準備好了，品質計畫只需追加 4–8 小時，就能換取數十萬元獎勵金</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

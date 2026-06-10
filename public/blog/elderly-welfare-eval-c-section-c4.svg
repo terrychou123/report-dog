@@ -29,7 +29,7 @@
   <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" >功能測試要求</text>
   <text x="100" y="286" font-size="16" fill="#57534e" >評鑑委員會現場測試設備功能；呼叫系統應正常運作，</text>
   <text x="100" y="305" font-size="16" fill="#57534e" >無故障、無中斷、鈴聲清楚可辨識；定期維護有紀錄</text>
-  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="272" font-size="14" fill="#d97706" text-anchor="middle" >現場測試</text>
   <text x="688" y="291" font-size="14" fill="#d97706" text-anchor="middle" >不能失效</text>
 

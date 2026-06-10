@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
-  <rect x="0" y="0" width="800" height="80" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="80" fill="#1e293b"/>
   <text x="400" y="35"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Time Out程序四大確認要件（2.6.1核心）</text>
   <text x="400" y="60"  font-size="14" fill="#a8a29e" text-anchor="middle">評鑑委員透過訪談手術室護理師確認執行情況</text>
 
@@ -13,7 +13,7 @@
   <rect x="40" y="100" width="6" height="75" rx="2" fill="#d97706"/>
   <circle cx="80" cy="137" r="20" fill="#fef3c7"/>
   <text x="80" y="142"  font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
-  <text x="115" y="125"  font-size="15" font-weight="700" fill="#1c1917">全員暫停確認</text>
+  <text x="115" y="125"  font-size="15" font-weight="700" fill="#1e293b">全員暫停確認</text>
   <text x="115" y="147"  font-size="14" fill="#57534e">主刀、麻醉、器械護、流護全部停下確認，不得只由護理師單方宣讀</text>
   <text x="115" y="163"  font-size="14" fill="#78716c">評鑑常見問題：主刀醫師不在場或只喊「好了」，其他人員未確認</text>
   <!-- 右側標籤 -->
@@ -25,7 +25,7 @@
   <rect x="40" y="190" width="6" height="75" rx="2" fill="#78716c"/>
   <circle cx="80" cy="227" r="20" fill="#f5f5f4"/>
   <text x="80" y="232"  font-size="16" font-weight="900" fill="#78716c" text-anchor="middle">2</text>
-  <text x="115" y="215"  font-size="15" font-weight="700" fill="#1c1917">病人身分與手術確認</text>
+  <text x="115" y="215"  font-size="15" font-weight="700" fill="#1e293b">病人身分與手術確認</text>
   <text x="115" y="237"  font-size="14" fill="#57534e">確認病人姓名、出生年月日、手術名稱、預期手術結果</text>
   <text x="115" y="253"  font-size="14" fill="#78716c">需使用至少兩種識別方式（如姓名＋出生年月日），對應手術同意書內容</text>
   <!-- 右側標籤 -->
@@ -37,7 +37,7 @@
   <rect x="40" y="280" width="6" height="75" rx="2" fill="#57534e"/>
   <circle cx="80" cy="317" r="20" fill="#f5f5f4"/>
   <text x="80" y="322"  font-size="16" font-weight="900" fill="#57534e" text-anchor="middle">3</text>
-  <text x="115" y="305"  font-size="15" font-weight="700" fill="#1c1917">手術部位標示</text>
+  <text x="115" y="305"  font-size="15" font-weight="700" fill="#1e293b">手術部位標示</text>
   <text x="115" y="327"  font-size="14" fill="#57534e">由執刀醫師親自標示，Time Out時再次目視確認標示位置</text>
   <text x="115" y="343"  font-size="14" fill="#78716c">不可由住院醫師或護理師代為標示，涉及右左側或多處時尤需謹慎</text>
   <!-- 右側標籤 -->
@@ -47,13 +47,13 @@
   <!-- 列4：抗生素與備血確認 -->
   <rect x="40" y="370" width="720" height="75" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="40" y="370" width="6" height="75" rx="2" fill="#a8a29e"/>
-  <circle cx="80" cy="407" r="20" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1"/>
+  <circle cx="80" cy="407" r="20" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
   <text x="80" y="412"  font-size="16" font-weight="900" fill="#a8a29e" text-anchor="middle">4</text>
-  <text x="115" y="395"  font-size="15" font-weight="700" fill="#1c1917">抗生素與備血確認</text>
+  <text x="115" y="395"  font-size="15" font-weight="700" fill="#1e293b">抗生素與備血確認</text>
   <text x="115" y="417"  font-size="14" fill="#57534e">預防性抗生素是否在規定時間內給予、備血是否準備完成</text>
   <text x="115" y="433"  font-size="14" fill="#78716c">切皮前60分鐘內給予抗生素為標準，查核表需記錄給藥時間</text>
   <!-- 右側標籤 -->
-  <rect x="670" y="388" width="72" height="26" rx="6" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1"/>
+  <rect x="670" y="388" width="72" height="26" rx="6" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
   <text x="706" y="405"  font-size="14" fill="#a8a29e" text-anchor="middle">治療準備</text>
 
   <!-- 浮水印 -->

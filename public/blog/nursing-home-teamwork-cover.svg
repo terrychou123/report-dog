@@ -8,15 +8,15 @@
   <!-- 護理師角色方塊 -->
   <rect x="840" y="95" width="300" height="90" rx="8" fill="#d97706" opacity="0.9"/>
   <text x="990" y="129" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">護理師</text>
-  <text x="990" y="163" font-size="14" fill="#fff8e7" text-anchor="middle">個案計畫｜護理紀錄｜用藥管理</text>
+  <text x="990" y="163" font-size="14" fill="#fef3c7" text-anchor="middle">個案計畫｜護理紀錄｜用藥管理</text>
   <!-- 社工師角色方塊 -->
   <rect x="840" y="205" width="300" height="90" rx="8" fill="#78716c" opacity="0.9"/>
   <text x="990" y="239" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">社工師</text>
-  <text x="990" y="273" font-size="14" fill="#e7e5e4" text-anchor="middle">心理評估｜家屬溝通｜資源連結</text>
+  <text x="990" y="273" font-size="14" fill="#e8e6de" text-anchor="middle">心理評估｜家屬溝通｜資源連結</text>
   <!-- 照服員角色方塊 -->
   <rect x="840" y="315" width="300" height="90" rx="8" fill="#57534e" opacity="0.9"/>
   <text x="990" y="349" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">照服員</text>
-  <text x="990" y="383" font-size="14" fill="#e7e5e4" text-anchor="middle">日常照護｜翻身清潔｜活動協助</text>
+  <text x="990" y="383" font-size="14" fill="#e8e6de" text-anchor="middle">日常照護｜翻身清潔｜活動協助</text>
   <!-- 協作工具方塊 -->
   <rect x="840" y="425" width="300" height="90" rx="8" fill="#94a3b8" opacity="0.9"/>
   <text x="990" y="476" font-size="18" fill="#1e293b" font-weight="700" text-anchor="middle">協作工具</text>

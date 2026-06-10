@@ -46,7 +46,7 @@
   <text x="402" y="180" font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">STEP</text>
   <text x="402" y="203" font-size="22" fill="#57534e" text-anchor="middle" font-weight="700">03</text>
   <text x="402" y="288" font-size="26" fill="#1e293b" text-anchor="middle" font-weight="700">坡道設計</text>
-  <text x="402" y="316" font-size="16" fill="#57534e" text-anchor="middle">坡度≤1:12</text>
+  <text x="402" y="316" font-size="16" fill="#57534e" text-anchor="middle">坡度&lt;=1:12</text>
   <text x="402" y="338" font-size="16" fill="#57534e" text-anchor="middle">防滑加扶手</text>
   <rect x="345" y="376" width="114" height="36" rx="10" fill="#57534e" opacity="0.12"/>
   <text x="402" y="400" font-size="16" fill="#57534e" text-anchor="middle" font-weight="600">3117</text>

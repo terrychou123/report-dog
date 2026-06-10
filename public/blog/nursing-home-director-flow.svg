@@ -7,9 +7,9 @@
   <rect x="60" y="140" width="140" height="200" rx="14" fill="#d97706"/>
   <text x="130" y="204"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="130" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">資格確認</text>
-  <text x="130" y="268"  font-size="14" fill="#fff3cd" text-anchor="middle">勞健保投保</text>
-  <text x="130" y="288"  font-size="14" fill="#fff3cd" text-anchor="middle">資格文件更新</text>
-  <text x="130" y="308"  font-size="14" fill="#fff3cd" text-anchor="middle">A7 一級必要</text>
+  <text x="130" y="268"  font-size="14" fill="#fef3c7" text-anchor="middle">勞健保投保</text>
+  <text x="130" y="288"  font-size="14" fill="#fef3c7" text-anchor="middle">資格文件更新</text>
+  <text x="130" y="308"  font-size="14" fill="#fef3c7" text-anchor="middle">A7 一級必要</text>
   <!-- 箭頭 -->
   <polygon points="215,235 230,245 215,255" fill="#78716c"/>
   <line x1="200" y1="245" x2="228" y2="245" stroke="#78716c" stroke-width="2"/>
@@ -17,9 +17,9 @@
   <rect x="240" y="140" width="140" height="200" rx="14" fill="#78716c"/>
   <text x="310" y="204"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="310" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">現況盤點</text>
-  <text x="310" y="268"  font-size="14" fill="#d4ccc8" text-anchor="middle">前次評鑑報告</text>
-  <text x="310" y="288"  font-size="14" fill="#d4ccc8" text-anchor="middle">核心文件地圖</text>
-  <text x="310" y="308"  font-size="14" fill="#d4ccc8" text-anchor="middle">A4 查核記錄</text>
+  <text x="310" y="268"  font-size="14" fill="#dedad3" text-anchor="middle">前次評鑑報告</text>
+  <text x="310" y="288"  font-size="14" fill="#dedad3" text-anchor="middle">核心文件地圖</text>
+  <text x="310" y="308"  font-size="14" fill="#dedad3" text-anchor="middle">A4 查核記錄</text>
   <!-- 箭頭 -->
   <polygon points="395,235 410,245 395,255" fill="#57534e"/>
   <line x1="380" y1="245" x2="408" y2="245" stroke="#57534e" stroke-width="2"/>
@@ -27,9 +27,9 @@
   <rect x="420" y="140" width="140" height="200" rx="14" fill="#57534e"/>
   <text x="490" y="204"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="490" y="242"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">介入管理</text>
-  <text x="490" y="268"  font-size="14" fill="#d4ccc8" text-anchor="middle">品質會議主持</text>
-  <text x="490" y="288"  font-size="14" fill="#d4ccc8" text-anchor="middle">人力配置查核</text>
-  <text x="490" y="308"  font-size="14" fill="#d4ccc8" text-anchor="middle">危機計畫確認</text>
+  <text x="490" y="268"  font-size="14" fill="#dedad3" text-anchor="middle">品質會議主持</text>
+  <text x="490" y="288"  font-size="14" fill="#dedad3" text-anchor="middle">人力配置查核</text>
+  <text x="490" y="308"  font-size="14" fill="#dedad3" text-anchor="middle">危機計畫確認</text>
   <!-- 箭頭 -->
   <polygon points="575,235 590,245 575,255" fill="#94a3b8"/>
   <line x1="560" y1="245" x2="588" y2="245" stroke="#94a3b8" stroke-width="2"/>

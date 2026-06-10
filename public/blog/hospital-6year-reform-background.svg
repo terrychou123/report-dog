@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 (Header y=29, h=90) -->
   <rect x="0" y="0" width="800" height="110" fill="#f5f5f4"/>
-  <text x="400" y="52" text-anchor="middle" font-size="26" font-weight="900" fill="#1c1917">醫院評鑑週期改革三大背景</text>
+  <text x="400" y="52" text-anchor="middle" font-size="26" font-weight="900" fill="#1e293b">醫院評鑑週期改革三大背景</text>
   <text x="400" y="84" text-anchor="middle" font-size="15" fill="#78716c">國際趨勢 · 行政負擔 · 品質改善——三大驅動力促成6年週期改革</text>
 
   <!-- 列1：國際趨勢驅動 y=166, H=90 -->
-  <rect x="38" y="132" width="724" height="90" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="132" width="724" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="38" y="132" width="10" height="90" rx="5" fill="#d97706"/>
   <text x="68" y="168" font-size="17" font-weight="700" fill="#d97706">國際趨勢驅動</text>
-  <text x="68" y="192" font-size="15" fill="#1c1917">JCI等國際醫院評鑑已採用持續性監測機制，評鑑不再是週期性事件，</text>
+  <text x="68" y="192" font-size="15" fill="#1e293b">JCI等國際醫院評鑑已採用持續性監測機制，評鑑不再是週期性事件，</text>
   <text x="68" y="210" font-size="15" fill="#78716c">而是隨時可審查的狀態</text>
   <!-- 右側標籤 -->
   <rect x="634" y="152" width="92" height="30" rx="15" fill="#fef3c7"/>
   <text x="680" y="172" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">國際標準</text>
 
   <!-- 列2：行政負擔過重 y=269, H=90 -->
-  <rect x="38" y="235" width="724" height="90" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="235" width="724" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="38" y="235" width="10" height="90" rx="5" fill="#78716c"/>
   <text x="68" y="271" font-size="17" font-weight="700" fill="#78716c">行政負擔過重</text>
-  <text x="68" y="295" font-size="15" fill="#1c1917">評鑑年護理師與行政人員大量超時工作備審，品管文書品質反而因趕製</text>
+  <text x="68" y="295" font-size="15" fill="#1e293b">評鑑年護理師與行政人員大量超時工作備審，品管文書品質反而因趕製</text>
   <text x="68" y="313" font-size="15" fill="#78716c">而降低，改革目標是降低這種無效負擔</text>
   <!-- 右側標籤 -->
   <rect x="634" y="255" width="92" height="30" rx="15" fill="#f5f5f4"/>
   <text x="680" y="275" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">減輕負擔</text>
 
   <!-- 列3：促進真正品質改善 y=372, H=90 -->
-  <rect x="38" y="338" width="724" height="90" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="38" y="338" width="724" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="38" y="338" width="10" height="90" rx="5" fill="#57534e"/>
   <text x="68" y="374" font-size="17" font-weight="700" fill="#57534e">促進真正品質改善</text>
-  <text x="68" y="398" font-size="15" fill="#1c1917">希望醫院從「應付評鑑」轉為「真正品質提升」，6年週期搭配持續性監</text>
+  <text x="68" y="398" font-size="15" fill="#1e293b">希望醫院從「應付評鑑」轉為「真正品質提升」，6年週期搭配持續性監</text>
   <text x="68" y="416" font-size="15" fill="#78716c">測機制是這個轉型的制度設計</text>
   <!-- 右側標籤 -->
   <rect x="634" y="358" width="92" height="30" rx="15" fill="#f5f5f4"/>

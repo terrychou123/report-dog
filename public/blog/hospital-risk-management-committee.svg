@@ -1,53 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 頂部標題區 -->
-  <rect width="800" height="90" fill="#1c1917"/>
+  <rect width="800" height="90" fill="#1e293b"/>
   <text x="400" y="42"  font-size="22" font-weight="700" fill="#fff" text-anchor="middle">風險管理機制四大要件（1.7.1）</text>
   <text x="400" y="70"  font-size="14" fill="#a8a29e" text-anchor="middle">重點條文 | 資料查核 + 訪談 | 委員會組成與運作是核心</text>
 
   <!-- 列1：風險管理委員會 -->
-  <rect x="32" y="108" width="736" height="78" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="32" y="108" width="736" height="78" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
   <!-- 左側色塊 -->
   <rect x="32" y="108" width="8" height="78" rx="4" fill="#d97706"/>
   <!-- 序號圓圈 -->
   <circle cx="76" cy="147" r="20" fill="#d97706" opacity="0.15"/>
   <text x="76" y="152"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
   <!-- 內容 -->
-  <text x="112" y="135"  font-size="15" font-weight="700" fill="#1c1917">風險管理委員會</text>
+  <text x="112" y="135"  font-size="15" font-weight="700" fill="#1e293b">風險管理委員會</text>
   <text x="112" y="155"  font-size="14" fill="#57534e">設有委員會或相應組織，院長/副院長主導，定期開會有紀錄，成員包含各部門主管</text>
   <!-- 右側標籤 -->
   <rect x="660" y="128" width="90" height="26" rx="13" fill="#d97706"/>
   <text x="705" y="145"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">組織完整</text>
 
   <!-- 列2：全院風險評估 -->
-  <rect x="32" y="198" width="736" height="78" rx="10" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="32" y="198" width="736" height="78" rx="10" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <rect x="32" y="198" width="8" height="78" rx="4" fill="#78716c"/>
   <circle cx="76" cy="237" r="20" fill="#78716c" opacity="0.15"/>
   <text x="76" y="242"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
-  <text x="112" y="225"  font-size="15" font-weight="700" fill="#1c1917">全院風險評估</text>
+  <text x="112" y="225"  font-size="15" font-weight="700" fill="#1e293b">全院風險評估</text>
   <text x="112" y="245"  font-size="14" fill="#57534e">定期執行全院風險評估（可用FMEA/風險矩陣），識別高風險流程，有評估報告</text>
   <rect x="660" y="218" width="90" height="26" rx="13" fill="#78716c"/>
   <text x="705" y="235"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">定期評估</text>
 
   <!-- 列3：管理層報告 -->
-  <rect x="32" y="288" width="736" height="78" rx="10" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="32" y="288" width="736" height="78" rx="10" fill="#f0efe8" stroke="#57534e" stroke-width="1.5"/>
   <rect x="32" y="288" width="8" height="78" rx="4" fill="#57534e"/>
   <circle cx="76" cy="327" r="20" fill="#57534e" opacity="0.15"/>
   <text x="76" y="332"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
-  <text x="112" y="315"  font-size="15" font-weight="700" fill="#1c1917">管理層報告</text>
+  <text x="112" y="315"  font-size="15" font-weight="700" fill="#1e293b">管理層報告</text>
   <text x="112" y="335"  font-size="14" fill="#57534e">風險管理報告定期向院長/管理委員會提交，有書面報告，管理層確認知悉</text>
   <rect x="660" y="308" width="90" height="26" rx="13" fill="#57534e"/>
   <text x="705" y="325"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">向上報告</text>
 
   <!-- 列4：改善追蹤機制 -->
-  <rect x="32" y="378" width="736" height="78" rx="10" fill="#fafaf9" stroke="#a8a29e" stroke-width="1.5"/>
+  <rect x="32" y="378" width="736" height="78" rx="10" fill="#f0efe8" stroke="#a8a29e" stroke-width="1.5"/>
   <rect x="32" y="378" width="8" height="78" rx="4" fill="#a8a29e"/>
   <circle cx="76" cy="417" r="20" fill="#a8a29e" opacity="0.15"/>
   <text x="76" y="422"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
-  <text x="112" y="405"  font-size="15" font-weight="700" fill="#1c1917">改善追蹤機制</text>
+  <text x="112" y="405"  font-size="15" font-weight="700" fill="#1e293b">改善追蹤機制</text>
   <text x="112" y="425"  font-size="14" fill="#57534e">識別的風險問題有改善計畫，追蹤完成狀態，閉環管理</text>
   <rect x="660" y="398" width="90" height="26" rx="13" fill="#a8a29e"/>
   <text x="705" y="415"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">閉環追蹤</text>

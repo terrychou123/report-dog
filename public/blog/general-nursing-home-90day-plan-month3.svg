@@ -23,7 +23,7 @@
   <rect x="220" y="112" width="168" height="40" rx="10" fill="#16a34a"/>
   <rect x="220" y="132" width="168" height="20" fill="#16a34a"/>
   <text x="304" y="124" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">第2週</text>
-  <text x="304" y="150" font-size="14" fill="#bbf7d0" text-anchor="middle">B 區抽查</text>
+  <text x="304" y="150" font-size="14" fill="#f0fdf4" text-anchor="middle">B 區抽查</text>
   <text x="232" y="178" font-size="14" fill="#57534e">抽查5-10份個案紀錄</text>
   <text x="232" y="198" font-size="14" fill="#57534e">24hr/72hr初評確認</text>
   <text x="232" y="218" font-size="14" fill="#57534e">照護計畫四要素查核</text>
@@ -37,7 +37,7 @@
   <rect x="400" y="112" width="168" height="40" rx="10" fill="#2563eb"/>
   <rect x="400" y="132" width="168" height="20" fill="#2563eb"/>
   <text x="484" y="124" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">第3週</text>
-  <text x="484" y="150" font-size="14" fill="#bfdbfe" text-anchor="middle">C 區現場盤點</text>
+  <text x="484" y="150" font-size="14" fill="#eff6ff" text-anchor="middle">C 區現場盤點</text>
   <text x="412" y="178" font-size="14" fill="#57534e">今年演練次數確認</text>
   <text x="412" y="198" font-size="14" fill="#57534e">夜間演練是否辦理</text>
   <text x="412" y="218" font-size="14" fill="#57534e">疏散通道現場走查</text>
@@ -47,17 +47,17 @@
   <text x="412" y="326" font-size="14" fill="#78716c">C 區缺口清單</text>
 
   <!-- 第4週 -->
-  <rect x="580" y="112" width="180" height="310" rx="10" fill="white" stroke="#7c3aed" stroke-width="2"/>
-  <rect x="580" y="112" width="180" height="40" rx="10" fill="#7c3aed"/>
-  <rect x="580" y="132" width="180" height="20" fill="#7c3aed"/>
+  <rect x="580" y="112" width="180" height="310" rx="10" fill="white" stroke="#9333ea" stroke-width="2"/>
+  <rect x="580" y="112" width="180" height="40" rx="10" fill="#9333ea"/>
+  <rect x="580" y="132" width="180" height="20" fill="#9333ea"/>
   <text x="670" y="124" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">第4週</text>
-  <text x="670" y="150" font-size="14" fill="#e9d5ff" text-anchor="middle">D 區 + 彙整</text>
+  <text x="670" y="150" font-size="14" fill="#faf5ff" text-anchor="middle">D 區 + 彙整</text>
   <text x="592" y="178" font-size="14" fill="#57534e">D1 創新成效記錄</text>
   <text x="592" y="198" font-size="14" fill="#57534e">D2 口腔照護確認</text>
   <text x="592" y="218" font-size="14" fill="#57534e">D3 近期違規確認</text>
   <text x="592" y="248" font-size="14" fill="#57534e">四區缺口彙整統計</text>
   <text x="592" y="268" font-size="14" fill="#57534e">分工補強任務清單</text>
-  <text x="592" y="316" font-size="14" fill="#7c3aed" font-weight="600">交付物：</text>
+  <text x="592" y="316" font-size="14" fill="#9333ea" font-weight="600">交付物：</text>
   <text x="592" y="334" font-size="14" fill="#78716c">完整缺口清單</text>
   <text x="592" y="352" font-size="14" fill="#78716c">第二個月行動計畫</text>
 

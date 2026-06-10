@@ -5,7 +5,7 @@
   <line x1="40" y1="92" x2="760" y2="92" stroke="#dc2626" stroke-width="2"/>
 
   <!-- 問題一 -->
-  <rect x="40" y="112" width="350" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="40" y="112" width="350" height="95" rx="8" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <rect x="40" y="112" width="350" height="36" rx="8" fill="#dc2626"/>
   <rect x="40" y="128" width="350" height="20" fill="#dc2626"/>
   <text x="215" y="136" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題1：負責人查看記錄內容空洞</text>
@@ -13,7 +13,7 @@
   <text x="56" y="184" font-size="14" fill="#57534e"> 已交代護理師 4/3 前完成調整，4/5 追蹤確認」</text>
 
   <!-- 問題二 -->
-  <rect x="40" y="218" width="350" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="40" y="218" width="350" height="95" rx="8" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <rect x="40" y="218" width="350" height="36" rx="8" fill="#dc2626"/>
   <rect x="40" y="234" width="350" height="20" fill="#dc2626"/>
   <text x="215" y="242" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題2：急救訓練記錄未標示AED</text>
@@ -21,7 +21,7 @@
   <text x="56" y="290" font-size="14" fill="#57534e">[v] 確認記錄上明確標示「含 BLS 及 AED 操作實習」</text>
 
   <!-- 問題三 -->
-  <rect x="40" y="324" width="350" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="40" y="324" width="350" height="95" rx="8" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <rect x="40" y="324" width="350" height="36" rx="8" fill="#dc2626"/>
   <rect x="40" y="340" width="350" height="20" fill="#dc2626"/>
   <text x="215" y="348" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題3：意外事件無追蹤改善措施</text>
@@ -30,7 +30,7 @@
   <text x="56" y="414" font-size="14" fill="#57534e"> 加強巡視頻率（每2hr），4/10 追蹤無再發生」</text>
 
   <!-- 問題四 -->
-  <rect x="412" y="112" width="348" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="412" y="112" width="348" height="95" rx="8" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <rect x="412" y="112" width="348" height="36" rx="8" fill="#d97706"/>
   <rect x="412" y="128" width="348" height="20" fill="#d97706"/>
   <text x="586" y="136" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題4：品質季報只有數字表格</text>
@@ -39,7 +39,7 @@
   <text x="428" y="200" font-size="14" fill="#57534e"> 已加強跌倒評估頻率，預計Q3回降」</text>
 
   <!-- 問題五 -->
-  <rect x="412" y="218" width="348" height="95" rx="8" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="412" y="218" width="348" height="95" rx="8" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <rect x="412" y="218" width="348" height="36" rx="8" fill="#d97706"/>
   <rect x="412" y="234" width="348" height="20" fill="#d97706"/>
   <text x="586" y="242" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">問題5：感控計畫版本日期過舊</text>

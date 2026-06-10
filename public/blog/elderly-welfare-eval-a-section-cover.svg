@@ -44,7 +44,7 @@
   <text x="990" y="351"  font-size="36" font-weight="500" fill="#57534e" text-anchor="middle">配分佔比</text>
 
   <!-- 底部裝飾線 -->
-  <rect x="60" y="540" width="700" height="4" fill="#e7e5e4" rx="2"/>
+  <rect x="60" y="540" width="700" height="4" fill="#e8e6de" rx="2"/>
 
   <!-- 年度標示 -->
   <text x="60" y="575"  font-size="26" fill="#a8a29e" font-weight="400">115年度老人福利機構評鑑</text>

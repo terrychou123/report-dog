@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="108" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="108" fill="#1e293b"/>
   <text x="400" y="52"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">病人基本權利三大要件（2.1.1）</text>
   <text x="400" y="82"  font-size="14" fill="#a8a29e" text-anchor="middle">必要條文 — 資料查核＋訪談，評鑑委員最可能詢問第一線護理師</text>
 
   <!-- 列1（y=130，h=90）-->
-  <rect x="28" y="130" width="744" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="130" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="130" width="6" height="90" rx="2" fill="#d97706"/>
   <text x="52" y="157"  font-size="14" font-weight="700" fill="#d97706">病人權利書入院告知</text>
   <text x="52" y="178"  font-size="14" fill="#57534e">入院時提供病人權利書，說明各項權利內容，取得病人或家屬簽收紀錄，簽收頁存入病歷備查</text>
@@ -18,7 +18,7 @@
   <text x="704" y="170"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">入院告知</text>
 
   <!-- 列2（y=233，h=90）-->
-  <rect x="28" y="233" width="744" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="233" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="233" width="6" height="90" rx="2" fill="#78716c"/>
   <text x="52" y="260"  font-size="14" font-weight="700" fill="#78716c">宗教文化個人隱私尊重</text>
   <text x="52" y="281"  font-size="14" fill="#57534e">尊重不同宗教的飲食限制與儀式需求，個人文化習俗有因應機制，護理操作全程維護病人尊嚴</text>
@@ -27,7 +27,7 @@
   <text x="704" y="273"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">個別尊重</text>
 
   <!-- 列3（y=336，h=90）-->
-  <rect x="28" y="336" width="744" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="336" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="336" width="6" height="90" rx="2" fill="#57534e"/>
   <text x="52" y="363"  font-size="14" font-weight="700" fill="#57534e">拒絕治療的處理程序</text>
   <text x="52" y="384"  font-size="14" fill="#57534e">病人有權拒絕治療，拒絕時醫師充分說明後果後留有書面紀錄，並告知病人可隨時改變決定</text>

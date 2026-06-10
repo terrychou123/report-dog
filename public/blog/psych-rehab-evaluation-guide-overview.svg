@@ -9,17 +9,17 @@
   <!-- 左側：日間型 -->
   <rect x="40" y="108" width="346" height="338" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <!-- 日間型標頭 -->
-  <rect x="40" y="108" width="346" height="44" rx="12" fill="#0284c7"/>
-  <rect x="40" y="128" width="346" height="24" fill="#0284c7"/>
+  <rect x="40" y="108" width="346" height="44" rx="12" fill="#2563eb"/>
+  <rect x="40" y="128" width="346" height="24" fill="#2563eb"/>
   <text x="213" y="138" text-anchor="middle" font-size="22" fill="white" font-weight="700">日間型機構</text>
   <!-- 日間型內容 -->
-  <text x="213" y="185" text-anchor="middle" font-size="40" fill="#0284c7" font-weight="900">36條</text>
+  <text x="213" y="185" text-anchor="middle" font-size="40" fill="#2563eb" font-weight="900">36條</text>
   <text x="213" y="215" text-anchor="middle" font-size="18" fill="#57534e">服務對象稱謂：學員</text>
   <line x1="60" y1="228" x2="366" y2="228" stroke="#e8e6de" stroke-width="1"/>
   <!-- 章節分佈 -->
   <rect x="60" y="240" width="306" height="36" rx="8" fill="#eff6ff"/>
   <text x="80" y="264" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
-  <text x="346" y="264" text-anchor="end" font-size="17" fill="#0284c7" font-weight="700">34分 / 10條</text>
+  <text x="346" y="264" text-anchor="end" font-size="17" fill="#2563eb" font-weight="700">34分 / 10條</text>
   <rect x="60" y="284" width="306" height="36" rx="8" fill="#f0fdf4"/>
   <text x="80" y="308" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
   <text x="346" y="308" text-anchor="end" font-size="17" fill="#16a34a" font-weight="700">37分 / 14條</text>
@@ -34,17 +34,17 @@
   <!-- 右側：住宿型 -->
   <rect x="414" y="108" width="346" height="338" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <!-- 住宿型標頭 -->
-  <rect x="414" y="108" width="346" height="44" rx="12" fill="#7c3aed"/>
-  <rect x="414" y="128" width="346" height="24" fill="#7c3aed"/>
+  <rect x="414" y="108" width="346" height="44" rx="12" fill="#9333ea"/>
+  <rect x="414" y="128" width="346" height="24" fill="#9333ea"/>
   <text x="587" y="138" text-anchor="middle" font-size="22" fill="white" font-weight="700">住宿型機構</text>
   <!-- 住宿型內容 -->
-  <text x="587" y="185" text-anchor="middle" font-size="40" fill="#7c3aed" font-weight="900">40條</text>
+  <text x="587" y="185" text-anchor="middle" font-size="40" fill="#9333ea" font-weight="900">40條</text>
   <text x="587" y="215" text-anchor="middle" font-size="18" fill="#57534e">服務對象稱謂：住民</text>
   <line x1="434" y1="228" x2="740" y2="228" stroke="#e8e6de" stroke-width="1"/>
   <!-- 章節分佈 -->
   <rect x="434" y="240" width="306" height="36" rx="8" fill="#eff6ff"/>
   <text x="454" y="264" font-size="17" fill="#1e293b" font-weight="700">第1章 經營管理</text>
-  <text x="720" y="264" text-anchor="end" font-size="17" fill="#0284c7" font-weight="700">33分 / 12條</text>
+  <text x="720" y="264" text-anchor="end" font-size="17" fill="#2563eb" font-weight="700">33分 / 12條</text>
   <rect x="434" y="284" width="306" height="36" rx="8" fill="#f0fdf4"/>
   <text x="454" y="308" font-size="17" fill="#1e293b" font-weight="700">第2章 復健服務</text>
   <text x="720" y="308" text-anchor="end" font-size="17" fill="#16a34a" font-weight="700">37分 / 14條</text>

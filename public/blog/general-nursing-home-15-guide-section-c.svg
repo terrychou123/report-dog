@@ -9,7 +9,7 @@
   <rect x="40" y="110" width="166" height="46" rx="10" fill="#2563eb"/>
   <rect x="40" y="134" width="166" height="22" fill="#2563eb"/>
   <text x="123" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C1 緊急應變計畫</text>
-  <text x="123" y="154" font-size="14" fill="#bfdbfe" text-anchor="middle">資料+實地查核</text>
+  <text x="123" y="154" font-size="14" fill="#eff6ff" text-anchor="middle">資料+實地查核</text>
   <text x="52" y="184" font-size="14" fill="#57534e">• 涵蓋火、震、颱</text>
   <text x="52" y="204" font-size="14" fill="#57534e">• 每年2次演練</text>
   <text x="52" y="224" font-size="14" fill="#57534e">• 含1次夜間演練</text>
@@ -23,7 +23,7 @@
   <rect x="220" y="110" width="166" height="46" rx="10" fill="#2563eb"/>
   <rect x="220" y="134" width="166" height="22" fill="#2563eb"/>
   <text x="303" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C2 疏散避難系統</text>
-  <text x="303" y="154" font-size="14" fill="#bfdbfe" text-anchor="middle">實地查核為主</text>
+  <text x="303" y="154" font-size="14" fill="#eff6ff" text-anchor="middle">實地查核為主</text>
   <text x="232" y="184" font-size="14" fill="#57534e">• 疏散通道無障礙物</text>
   <text x="232" y="204" font-size="14" fill="#57534e">• 防火區劃有標示</text>
   <text x="232" y="224" font-size="14" fill="#57534e">• 疏散指示標誌清晰</text>
@@ -37,7 +37,7 @@
   <rect x="400" y="110" width="166" height="46" rx="10" fill="#2563eb"/>
   <rect x="400" y="134" width="166" height="22" fill="#2563eb"/>
   <text x="483" y="125" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">C3 疏散策略教育</text>
-  <text x="483" y="154" font-size="14" fill="#bfdbfe" text-anchor="middle">資料+實地查核</text>
+  <text x="483" y="154" font-size="14" fill="#eff6ff" text-anchor="middle">資料+實地查核</text>
   <text x="412" y="184" font-size="14" fill="#57534e">• 住民個別化疏散方式</text>
   <text x="412" y="204" font-size="14" fill="#57534e"> 行走/輪椅/擔架</text>
   <text x="412" y="224" font-size="14" fill="#57534e">• 疏散後持續照顧程序</text>

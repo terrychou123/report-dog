@@ -10,25 +10,25 @@
   <rect x="80" y="130" width="280" height="140" rx="12" fill="#d97706" opacity="0.9"/>
   <text x="220" y="175" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">P</text>
   <text x="220" y="200" font-size="18" fill="#ffffff" font-weight="600" text-anchor="middle">Plan 規劃</text>
-  <text x="220" y="224" font-size="14" fill="#fff8e7" text-anchor="middle">制定年度評鑑準備計畫</text>
-  <text x="220" y="244" font-size="14" fill="#fff8e7" text-anchor="middle">分配各構面負責人</text>
-  <text x="220" y="262" font-size="14" fill="#fff8e7" text-anchor="middle">設定關鍵時間節點</text>
+  <text x="220" y="224" font-size="14" fill="#fef3c7" text-anchor="middle">制定年度評鑑準備計畫</text>
+  <text x="220" y="244" font-size="14" fill="#fef3c7" text-anchor="middle">分配各構面負責人</text>
+  <text x="220" y="262" font-size="14" fill="#fef3c7" text-anchor="middle">設定關鍵時間節點</text>
 
   <!-- D - Do -->
   <rect x="440" y="130" width="280" height="140" rx="12" fill="#78716c" opacity="0.9"/>
   <text x="580" y="175" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">D</text>
   <text x="580" y="200" font-size="18" fill="#ffffff" font-weight="600" text-anchor="middle">Do 執行</text>
-  <text x="580" y="224" font-size="14" fill="#e7e5e4" text-anchor="middle">按時程完成各月任務</text>
-  <text x="580" y="244" font-size="14" fill="#e7e5e4" text-anchor="middle">文件整理與紀錄補齊</text>
-  <text x="580" y="262" font-size="14" fill="#e7e5e4" text-anchor="middle">人員訓練與演練落實</text>
+  <text x="580" y="224" font-size="14" fill="#e8e6de" text-anchor="middle">按時程完成各月任務</text>
+  <text x="580" y="244" font-size="14" fill="#e8e6de" text-anchor="middle">文件整理與紀錄補齊</text>
+  <text x="580" y="262" font-size="14" fill="#e8e6de" text-anchor="middle">人員訓練與演練落實</text>
 
   <!-- C - Check -->
   <rect x="80" y="294" width="280" height="140" rx="12" fill="#57534e" opacity="0.9"/>
   <text x="220" y="339" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">C</text>
   <text x="220" y="364" font-size="18" fill="#ffffff" font-weight="600" text-anchor="middle">Check 查核</text>
-  <text x="220" y="388" font-size="14" fill="#e7e5e4" text-anchor="middle">定期追蹤進度完成率</text>
-  <text x="220" y="408" font-size="14" fill="#e7e5e4" text-anchor="middle">評鑑後委員回饋整理</text>
-  <text x="220" y="428" font-size="14" fill="#e7e5e4" text-anchor="middle">對照基準逐項自評</text>
+  <text x="220" y="388" font-size="14" fill="#e8e6de" text-anchor="middle">定期追蹤進度完成率</text>
+  <text x="220" y="408" font-size="14" fill="#e8e6de" text-anchor="middle">評鑑後委員回饋整理</text>
+  <text x="220" y="428" font-size="14" fill="#e8e6de" text-anchor="middle">對照基準逐項自評</text>
 
   <!-- A - Act -->
   <rect x="440" y="294" width="280" height="140" rx="12" fill="#94a3b8" opacity="0.9"/>

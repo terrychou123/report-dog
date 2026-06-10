@@ -10,49 +10,49 @@
   <text x="207" y="101" text-anchor="middle" font-size="22" fill="#dc2626" font-weight="700">常見缺失寫法（不合格）</text>
 
   <!-- 右欄標題：合格 -->
-  <rect x="414" y="70" width="358" height="48" rx="8" fill="#dcfce7"/>
+  <rect x="414" y="70" width="358" height="48" rx="8" fill="#f0fdf4"/>
   <text x="593" y="101" text-anchor="middle" font-size="22" fill="#16a34a" font-weight="700">符合評鑑標準（合格）</text>
 
   <!-- 中間分隔線 -->
   <line x1="400" y1="70" x2="400" y2="465" stroke="#dedad3" stroke-width="1" stroke-dasharray="4,4"/>
 
   <!-- 左欄 Row 1 -->
-  <rect x="28" y="132" width="358" height="72" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <rect x="28" y="132" width="358" height="72" rx="8" fill="white" stroke="#fef2f2" stroke-width="1"/>
   <rect x="28" y="132" width="5" height="72" rx="3" fill="#dc2626"/>
   <text x="46" y="156" font-size="16" fill="#dc2626" font-weight="700">根本原因：</text>
   <text x="46" y="178" font-size="16" fill="#57534e">護理師疏失，未確認藥品劑量</text>
   <text x="46" y="196" font-size="14" fill="#a8a29e">（個人歸咎，非系統分析）</text>
 
   <!-- 右欄 Row 1 -->
-  <rect x="414" y="132" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <rect x="414" y="132" width="358" height="72" rx="8" fill="white" stroke="#f0fdf4" stroke-width="1"/>
   <rect x="414" y="132" width="5" height="72" rx="3" fill="#16a34a"/>
   <text x="432" y="156" font-size="16" fill="#16a34a" font-weight="700">根本原因：</text>
   <text x="432" y="178" font-size="16" fill="#57534e">電子系統無強制雙重查核機制</text>
   <text x="432" y="196" font-size="14" fill="#57534e">（系統設計缺陷，可防呆改善）</text>
 
   <!-- 左欄 Row 2 -->
-  <rect x="28" y="218" width="358" height="72" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <rect x="28" y="218" width="358" height="72" rx="8" fill="white" stroke="#fef2f2" stroke-width="1"/>
   <rect x="28" y="218" width="5" height="72" rx="3" fill="#dc2626"/>
   <text x="46" y="242" font-size="16" fill="#dc2626" font-weight="700">改善措施：</text>
   <text x="46" y="264" font-size="16" fill="#57534e">加強教育訓練，提醒護理師注意</text>
   <text x="46" y="282" font-size="14" fill="#a8a29e">（無負責人、無完成日期、無驗證）</text>
 
   <!-- 右欄 Row 2 -->
-  <rect x="414" y="218" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <rect x="414" y="218" width="358" height="72" rx="8" fill="white" stroke="#f0fdf4" stroke-width="1"/>
   <rect x="414" y="218" width="5" height="72" rx="3" fill="#16a34a"/>
   <text x="432" y="242" font-size="16" fill="#16a34a" font-weight="700">改善措施：</text>
   <text x="432" y="264" font-size="16" fill="#57534e">資訊室於電子系統新增強制雙簽欄</text>
   <text x="432" y="282" font-size="14" fill="#57534e">位（資訊主任，2024/12/31前完成）</text>
 
   <!-- 左欄 Row 3 -->
-  <rect x="28" y="304" width="358" height="72" rx="8" fill="white" stroke="#fca5a5" stroke-width="1"/>
+  <rect x="28" y="304" width="358" height="72" rx="8" fill="white" stroke="#fef2f2" stroke-width="1"/>
   <rect x="28" y="304" width="5" height="72" rx="3" fill="#dc2626"/>
   <text x="46" y="328" font-size="16" fill="#dc2626" font-weight="700">3個月追蹤：</text>
   <text x="46" y="350" font-size="16" fill="#57534e">（空白，無追蹤文件）</text>
   <text x="46" y="368" font-size="14" fill="#a8a29e">評鑑委員抽查-此項必定失分</text>
 
   <!-- 右欄 Row 3 -->
-  <rect x="414" y="304" width="358" height="72" rx="8" fill="white" stroke="#86efac" stroke-width="1"/>
+  <rect x="414" y="304" width="358" height="72" rx="8" fill="white" stroke="#f0fdf4" stroke-width="1"/>
   <rect x="414" y="304" width="5" height="72" rx="3" fill="#16a34a"/>
   <text x="432" y="328" font-size="16" fill="#16a34a" font-weight="700">3個月追蹤：</text>
   <text x="432" y="350" font-size="16" fill="#57534e">系統已上線，感控稽查執行率98%</text>
@@ -64,7 +64,7 @@
   <text x="207" y="431" text-anchor="middle" font-size="14" fill="#dc2626">RCA做了，但品質不足</text>
 
   <!-- 右欄 Row 4：評鑑結果 -->
-  <rect x="414" y="390" width="358" height="52" rx="8" fill="#dcfce7"/>
+  <rect x="414" y="390" width="358" height="52" rx="8" fill="#f0fdf4"/>
   <text x="593" y="414" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">評鑑委員評定：符合</text>
   <text x="593" y="431" text-anchor="middle" font-size="14" fill="#16a34a">根本原因挖到系統，改善可驗證</text>
 

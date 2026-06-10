@@ -13,7 +13,7 @@
   <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
   <text x="100" y="140" font-size="20" fill="#1e293b" font-weight="700" >D1 資料保密</text>
   <text x="100" y="162" font-size="16" fill="#57534e" >系統權限設定完成、個資管理辦法含肖像權同意書、統計分析有改善紀錄</text>
-  <rect x="620" y="126" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="154" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >二級加強</text>
 
   <!-- Row 2 (y=191) -->
@@ -43,7 +43,7 @@
   <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700" >4</text>
   <text x="100" y="359" font-size="20" fill="#1e293b" font-weight="700" >D6 隱私布置</text>
   <text x="100" y="381" font-size="16" fill="#57534e" >寢室無監視器、圍簾完整可用、允許個人物品布置、服務時拉起圍簾</text>
-  <rect x="620" y="345" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="373" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >二級加強</text>
 
   <!-- Row 5 (y=410) -->

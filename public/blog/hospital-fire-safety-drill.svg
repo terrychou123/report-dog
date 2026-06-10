@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 頂部標題區塊 -->
-  <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="108" rx="0" fill="#1e293b"/>
   <text x="400" y="48"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">年度消防疏散演練四步驟</text>
   <text x="400" y="76"  font-size="14" fill="#a8a29e" text-anchor="middle">2次演練（含1次夜間）確保評鑑合規</text>
 
   <!-- 步驟 1 (y=128)：計畫訂定 -->
-  <rect x="38" y="128" width="724" height="82" rx="10" fill="#fffbeb"/>
+  <rect x="38" y="128" width="724" height="82" rx="10" fill="#fef3c7"/>
   <rect x="38" y="128" width="6" height="82" rx="2" fill="#d97706"/>
   <!-- 步驟編號 -->
   <rect x="50" y="140" width="72" height="26" rx="13" fill="#d97706"/>
   <text x="86" y="158"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 01</text>
   <!-- 標題 -->
-  <text x="138" y="156"  font-size="15" font-weight="700" fill="#78350f">計畫訂定</text>
+  <text x="138" y="156"  font-size="15" font-weight="700" fill="#d97706">計畫訂定</text>
   <!-- 說明 -->
   <text x="138" y="177"  font-size="14" fill="#78716c">年初訂定全年演練計畫，確認1次日間＋1次夜間，場地與情境設定</text>
   <text x="138" y="197"  font-size="14" fill="#a8a29e">需含演練情境（如電氣火災、廚房起火）、疏散路線、各部門分工</text>
@@ -28,7 +28,7 @@
   <rect x="38" y="228" width="6" height="82" rx="2" fill="#78716c"/>
   <rect x="50" y="240" width="72" height="26" rx="13" fill="#78716c"/>
   <text x="86" y="258"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 02</text>
-  <text x="138" y="256"  font-size="15" font-weight="700" fill="#44403c">演練前準備</text>
+  <text x="138" y="256"  font-size="15" font-weight="700" fill="#57534e">演練前準備</text>
   <text x="138" y="277"  font-size="14" fill="#78716c">通知相關人員（但不告知確切時間），備妥疏散設備，確認逃生路線暢通</text>
   <text x="138" y="297"  font-size="14" fill="#a8a29e">確認滑板、輪椅就定位，清除逃生通道障礙物，通知值班保全配合</text>
   <rect x="624" y="244" width="116" height="26" rx="13" fill="#78716c"/>
@@ -39,7 +39,7 @@
   <rect x="38" y="328" width="6" height="82" rx="2" fill="#57534e"/>
   <rect x="50" y="340" width="72" height="26" rx="13" fill="#57534e"/>
   <text x="86" y="358"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 03</text>
-  <text x="138" y="356"  font-size="15" font-weight="700" fill="#44403c">執行演練</text>
+  <text x="138" y="356"  font-size="15" font-weight="700" fill="#57534e">執行演練</text>
   <text x="138" y="377"  font-size="14" fill="#78716c">模擬火災情境，啟動疏散程序，計時疏散完成時間，記錄問題點</text>
   <text x="138" y="397"  font-size="14" fill="#a8a29e">現場觀察員負責記錄各環節時間，計時從警報啟動到全員抵達集合點</text>
   <rect x="624" y="344" width="116" height="26" rx="13" fill="#57534e"/>
@@ -50,7 +50,7 @@
   <rect x="38" y="420" width="6" height="58" rx="2" fill="#a8a29e"/>
   <rect x="50" y="430" width="72" height="26" rx="13" fill="#a8a29e"/>
   <text x="86" y="448"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 04</text>
-  <text x="138" y="446"  font-size="15" font-weight="700" fill="#44403c">紀錄改善</text>
+  <text x="138" y="446"  font-size="15" font-weight="700" fill="#57534e">紀錄改善</text>
   <text x="138" y="465"  font-size="14" fill="#78716c">填寫演練紀錄表，列出改善事項，追蹤改善完成，主管簽核歸檔備查</text>
   <rect x="624" y="434" width="116" height="26" rx="13" fill="#a8a29e"/>
   <text x="682" y="452"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">閉環追蹤</text>

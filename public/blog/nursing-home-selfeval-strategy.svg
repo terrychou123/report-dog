@@ -19,7 +19,7 @@
   <!-- 第2策略 -->
   <rect x="40" y="191" width="720" height="60" rx="4" fill="#fafaf8"/>
   <rect x="40" y="191" width="4" height="60" fill="#78716c"/>
-  <rect x="44" y="191" width="60" height="60" fill="#f5f4f0"/>
+  <rect x="44" y="191" width="60" height="60" fill="#f0efe8"/>
   <text x="74" y="227" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">2</text>
   <text x="125" y="216" font-size="15" fill="#1e293b" font-weight="600">用數字說話，不用模糊描述</text>
   <text x="125" y="238" font-size="14" fill="#57534e">「每 3 個月召開品質會議，近 4 次會議均如期召開」比「定期召開品質會議」更有說服力</text>
@@ -35,7 +35,7 @@
   <!-- 第4策略 -->
   <rect x="40" y="337" width="720" height="60" rx="4" fill="#fafaf8"/>
   <rect x="40" y="337" width="4" height="60" fill="#78716c"/>
-  <rect x="44" y="337" width="60" height="60" fill="#f5f4f0"/>
+  <rect x="44" y="337" width="60" height="60" fill="#f0efe8"/>
   <text x="74" y="373" text-anchor="middle" font-size="24" fill="#78716c" font-weight="700">4</text>
   <text x="125" y="362" font-size="15" fill="#1e293b" font-weight="600">對二級加強項目加強佐證</text>
   <text x="125" y="384" font-size="14" fill="#57534e">B2/B10/B25/D1/D6 等 8 個二級加強項目，建議準備 2 倍以上的佐證文件，體現重視程度</text>

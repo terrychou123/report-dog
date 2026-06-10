@@ -26,7 +26,7 @@
   <text cx="66" cy="234" x="66" y="239" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >2</text>
   <text x="100" y="227" font-size="18" font-weight="bold" fill="#1e293b" >無障礙與餐廚衛生（C5-C8）</text>
   <text x="100" y="249" font-size="16" fill="#57534e" >電梯、無障礙浴廁、廚房衛生、污物處理（均為二級加強）</text>
-  <rect x="620" y="214" width="136" height="40" rx="8" fill="#fafaf9" opacity="0.12"/>
+  <rect x="620" y="214" width="136" height="40" rx="8" fill="#f0efe8" opacity="0.12"/>
   <text x="688" y="239" font-size="14" fill="#78716c" text-anchor="middle" >4 項｜0 項必要</text>
 
   <!-- Row 3：消防疏散（C9-C12） -->

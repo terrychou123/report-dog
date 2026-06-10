@@ -28,7 +28,7 @@
   <rect x="298" y="112" width="224" height="50" rx="12" fill="#16a34a"/>
   <rect x="298" y="138" width="224" height="24" fill="#16a34a"/>
   <text x="410" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
-  <text x="410" y="159" font-size="14" fill="#bbf7d0" text-anchor="middle">評鑑前 2 個月</text>
+  <text x="410" y="159" font-size="14" fill="#f0fdf4" text-anchor="middle">評鑑前 2 個月</text>
   <text x="314" y="192" font-size="14" fill="#57534e" font-weight="600">核心項目補強</text>
   <text x="314" y="214" font-size="14" fill="#57534e">• B1 照護計畫補評值</text>
   <text x="314" y="234" font-size="14" fill="#57534e">• 更新感控計畫</text>

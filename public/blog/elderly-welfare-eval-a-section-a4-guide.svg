@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">衛生主管機關查核</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">感染管制、醫療廢棄物、藥物管理、食品衛生等相關缺失改善</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="127"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">改善率</text>
-  <text x="624" y="145"  font-size="14" fill="#92400e" text-anchor="middle">須達 100%</text>
+  <text x="624" y="127"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">改善率</text>
+  <text x="624" y="145"  font-size="14" fill="#d97706" text-anchor="middle">須達 100%</text>
 
   <!-- Row 2: 消防主管機關 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>
@@ -28,8 +28,8 @@
   <text x="118" y="200"  font-size="20" fill="#1e293b" font-weight="700">消防主管機關查核</text>
   <text x="118" y="223"  font-size="16" fill="#57534e">消防設備、逃生動線、防火區劃、避難演練等缺失改善</text>
   <rect x="556" y="183" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="202"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">改善率</text>
-  <text x="624" y="220"  font-size="14" fill="#92400e" text-anchor="middle">須達 100%</text>
+  <text x="624" y="202"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">改善率</text>
+  <text x="624" y="220"  font-size="14" fill="#d97706" text-anchor="middle">須達 100%</text>
 
   <!-- Row 3: 建管主管機關 -->
   <rect x="50" y="250" width="700" height="62" rx="8" fill="white"/>
@@ -39,8 +39,8 @@
   <text x="118" y="275"  font-size="20" fill="#1e293b" font-weight="700">建管主管機關查核</text>
   <text x="118" y="298"  font-size="16" fill="#57534e">建築使用執照、無障礙設施、結構安全等缺失改善</text>
   <rect x="556" y="258" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="277"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">改善率</text>
-  <text x="624" y="295"  font-size="14" fill="#92400e" text-anchor="middle">須達 100%</text>
+  <text x="624" y="277"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">改善率</text>
+  <text x="624" y="295"  font-size="14" fill="#d97706" text-anchor="middle">須達 100%</text>
 
   <!-- Row 4: 勞工主管機關 -->
   <rect x="50" y="325" width="700" height="62" rx="8" fill="white"/>
@@ -50,13 +50,13 @@
   <text x="118" y="350"  font-size="20" fill="#1e293b" font-weight="700">勞工主管機關查核</text>
   <text x="118" y="373"  font-size="16" fill="#57534e">勞動基準法、職業安全衛生法規等違規缺失改善</text>
   <rect x="556" y="333" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="352"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">改善率</text>
-  <text x="624" y="370"  font-size="14" fill="#92400e" text-anchor="middle">須達 100%</text>
+  <text x="624" y="352"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">改善率</text>
+  <text x="624" y="370"  font-size="14" fill="#d97706" text-anchor="middle">須達 100%</text>
 
   <!-- 提示說明 -->
   <rect x="50" y="404" width="700" height="52" rx="8" fill="#fef3c7" opacity="0.8"/>
-  <text x="400" y="425"  font-size="16" fill="#92400e" text-anchor="middle" font-weight="700">過去 4 年查核均無缺失者，本項以「A（符合）」計分，視同滿分</text>
-  <text x="400" y="446"  font-size="15" fill="#92400e" text-anchor="middle">建議備妥各主管機關查核公文影本與缺失改善追蹤表</text>
+  <text x="400" y="425"  font-size="16" fill="#d97706" text-anchor="middle" font-weight="700">過去 4 年查核均無缺失者，本項以「A（符合）」計分，視同滿分</text>
+  <text x="400" y="446"  font-size="15" fill="#d97706" text-anchor="middle">建議備妥各主管機關查核公文影本與缺失改善追蹤表</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

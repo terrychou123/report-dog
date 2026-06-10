@@ -43,7 +43,7 @@
   <rect x="550" y="120" width="210" height="44" rx="10" fill="#16a34a"/>
   <rect x="550" y="140" width="210" height="24" fill="#16a34a"/>
   <text x="655" y="147" font-size="15" fill="#fff" font-weight="700" text-anchor="middle">階段三：AI 全自動</text>
-  <text x="655" y="168" font-size="14" fill="#bbf7d0" text-anchor="middle">報告汪智慧評鑑系統</text>
+  <text x="655" y="168" font-size="14" fill="#f0fdf4" text-anchor="middle">報告汪智慧評鑑系統</text>
   <text x="566" y="190" font-size="14" fill="#57534e">• AI 自動比對 15 項基準</text>
   <text x="566" y="210" font-size="14" fill="#57534e">• 即時缺失警示</text>
   <text x="566" y="230" font-size="14" fill="#57534e">• 多人協作同步追蹤</text>

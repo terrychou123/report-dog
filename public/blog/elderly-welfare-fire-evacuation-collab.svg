@@ -16,7 +16,7 @@
   <text x="66" y="146" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >1</text>
   <text x="100" y="134" font-size="17" font-weight="bold" fill="#1e293b" >行政人員負責：C9 消防申報紀錄整理</text>
   <text x="100" y="156" font-size="16" fill="#57534e" >整理5年申報紀錄；確認建築公安申報合格；追蹤下次半年檢修申報日期</text>
-  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="146" font-size="14" fill="#d97706" text-anchor="middle" >行政主管</text>
 
   <!-- Row 2 -->
@@ -46,7 +46,7 @@
   <text x="66" y="371" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >4</text>
   <text x="100" y="359" font-size="17" font-weight="bold" fill="#1e293b" >社工負責：C12 外籍人員訓練協調</text>
   <text x="100" y="381" font-size="16" fill="#57534e" >協調外籍看護工訓練時間；準備多語言教材；收集簽到表；更新各樓層逃生圖</text>
-  <rect x="620" y="346" width="136" height="40" rx="8" fill="#fafaf9" opacity="0.12"/>
+  <rect x="620" y="346" width="136" height="40" rx="8" fill="#f0efe8" opacity="0.12"/>
   <text x="688" y="371" font-size="14" fill="#78716c" text-anchor="middle" >社工</text>
 
   <!-- 底部說明 -->

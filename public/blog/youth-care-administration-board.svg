@@ -36,11 +36,11 @@
   <!-- Row 4 -->
   <rect x="28" y="335" width="744" height="62" rx="12" fill="#ffffff"/>
   <rect x="28" y="335" width="6" height="62" rx="2" fill="#a8a29e"/>
-  <circle cx="66" cy="366" r="16" fill="#e7e5e4"/>
+  <circle cx="66" cy="366" r="16" fill="#e8e6de"/>
   <text x="66" y="371"  font-size="18" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
   <text x="100" y="361"  font-size="15" font-weight="700" fill="#1e293b">董事對機構的了解與支持</text>
   <text x="100" y="383"  font-size="16" fill="#57534e">定期關心營運、兒少狀況，若有實地拜訪紀錄更佳</text>
-  <rect x="620" y="346" width="136" height="40" rx="8" fill="#e7e5e4" opacity="0.12"/>
+  <rect x="620" y="346" width="136" height="40" rx="8" fill="#e8e6de" opacity="0.12"/>
   <text x="688" y="370"  font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">拜訪或會議紀錄</text>
   <!-- Summary bar -->
   <rect x="28" y="420" width="744" height="48" rx="12" fill="#fef3c7"/>

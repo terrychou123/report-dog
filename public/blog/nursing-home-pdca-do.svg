@@ -8,7 +8,7 @@
   <text x="120" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="120" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">指定</text>
   <text x="120" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">負責人</text>
-  <text x="120" y="258"  font-size="14" fill="#fff3cd" text-anchor="middle">每項缺失專人</text>
+  <text x="120" y="258"  font-size="14" fill="#fef3c7" text-anchor="middle">每項缺失專人</text>
   <!-- 箭頭 -->
   <text x="222" y="206"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 流程卡片 2 -->
@@ -16,7 +16,7 @@
   <text x="320" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="320" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">設立</text>
   <text x="320" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">里程碑</text>
-  <text x="320" y="258"  font-size="14" fill="#d4ccc8" text-anchor="middle">拆分可追蹤步驟</text>
+  <text x="320" y="258"  font-size="14" fill="#dedad3" text-anchor="middle">拆分可追蹤步驟</text>
   <!-- 箭頭 -->
   <text x="422" y="206"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 流程卡片 3 -->
@@ -24,7 +24,7 @@
   <text x="520" y="170"  font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="520" y="204"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">拍照</text>
   <text x="520" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">佐證</text>
-  <text x="520" y="258"  font-size="14" fill="#d4ccc8" text-anchor="middle">改善前後對比照</text>
+  <text x="520" y="258"  font-size="14" fill="#dedad3" text-anchor="middle">改善前後對比照</text>
   <!-- 箭頭 -->
   <text x="622" y="206"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 流程卡片 4 -->

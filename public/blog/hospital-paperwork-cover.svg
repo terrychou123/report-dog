@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="1200" height="630" fill="#fafaf9"/>
+  <rect width="1200" height="630" fill="#fafaf8"/>
 
   <!-- 右側裝飾區塊 -->
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
   <!-- 左側主標題區 -->
   <!-- 標題第1行 -->
-  <text x="60" y="120"  font-size="62" font-weight="900" fill="#1c1917">評鑑文書地獄</text>
+  <text x="60" y="120"  font-size="62" font-weight="900" fill="#1e293b">評鑑文書地獄</text>
   <!-- 標題第2行（橘色） -->
   <text x="60" y="195"  font-size="62" font-weight="900" fill="#ea580c">如何突破</text>
 
@@ -50,25 +50,25 @@
   <text x="910" y="205"  font-size="18" fill="#78716c">護理師行政時間占比</text>
 
   <!-- 右側分隔線 -->
-  <rect x="848" y="230" width="310" height="2" fill="#c7c3bd"/>
+  <rect x="848" y="230" width="310" height="2" fill="#c4bfb8"/>
 
   <!-- 右側卡片：解方列表 -->
   <!-- 解方1 -->
   <rect x="848" y="248" width="310" height="72" rx="8" fill="#ffffff" opacity="0.7"/>
   <rect x="848" y="248" width="6" height="72" rx="3" fill="#ea580c"/>
-  <text x="866" y="274"  font-size="17" font-weight="700" fill="#1c1917">AI 輔助文書</text>
+  <text x="866" y="274"  font-size="17" font-weight="700" fill="#1e293b">AI 輔助文書</text>
   <text x="866" y="306"  font-size="14" fill="#78716c">初稿生成節省70%撰寫時間</text>
 
   <!-- 解方2 -->
   <rect x="848" y="332" width="310" height="72" rx="8" fill="#ffffff" opacity="0.7"/>
   <rect x="848" y="332" width="6" height="72" rx="2" fill="#78716c"/>
-  <text x="866" y="358"  font-size="17" font-weight="700" fill="#1c1917">日常化品管</text>
+  <text x="866" y="358"  font-size="17" font-weight="700" fill="#1e293b">日常化品管</text>
   <text x="866" y="390"  font-size="14" fill="#78716c">月度例行作業取代評鑑前衝刺</text>
 
   <!-- 解方3 -->
   <rect x="848" y="416" width="310" height="72" rx="8" fill="#ffffff" opacity="0.7"/>
   <rect x="848" y="416" width="6" height="72" rx="2" fill="#57534e"/>
-  <text x="866" y="442"  font-size="17" font-weight="700" fill="#1c1917">定期追蹤系統</text>
+  <text x="866" y="442"  font-size="17" font-weight="700" fill="#1e293b">定期追蹤系統</text>
   <text x="866" y="474"  font-size="14" fill="#78716c">跨部門可視化，每季自我查核</text>
 
   <!-- 浮水印 -->

@@ -60,7 +60,7 @@
 
   <!-- 底部 -->
   <rect x="40" y="408" width="720" height="48" rx="8" fill="#fef3c7"/>
-  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#92400e" font-weight="700">D6 屬二級加強：床間圍簾和無寢室監視器是最常被查核的實地察看項目</text>
+  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">D6 屬二級加強：床間圍簾和無寢室監視器是最常被查核的實地察看項目</text>
   <text x="400" y="450" text-anchor="middle" font-size="14" fill="#78716c">重度失能住民（ADL 60分以下）需有 PT/OT 評估紀錄，才能提供適當被動肢體活動</text>
 
   <!-- 浮水印 -->

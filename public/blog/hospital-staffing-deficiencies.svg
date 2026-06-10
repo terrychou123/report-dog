@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
-  <rect x="0" y="0" width="800" height="110" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="110" fill="#1e293b"/>
   <text x="400" y="52"  font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">人力配置評鑑三大常見缺失</text>
   <text x="400" y="84"  font-size="14" fill="#a8a29e" text-anchor="middle">了解失分模式，提前修正，避免必要條文被列重大缺失</text>
 
   <!-- 列1：護病比計算錯誤 -->
-  <rect x="38" y="128" width="724" height="90" rx="10" fill="#fff1f2"/>
+  <rect x="38" y="128" width="724" height="90" rx="10" fill="#fef2f2"/>
   <rect x="38" y="128" width="8" height="90" rx="4" fill="#dc2626"/>
   <text x="62" y="160"  font-size="15" font-weight="800" fill="#dc2626">護病比計算錯誤</text>
   <text x="62" y="181"  font-size="14" fill="#57534e">常見：將所有班次護理師總數除以總病人數（應按班次分別計算）</text>
@@ -19,7 +19,7 @@
   <text x="679" y="171"  font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">計算方式</text>
 
   <!-- 列2：執照過期未更新 -->
-  <rect x="38" y="231" width="724" height="90" rx="10" fill="#fffbeb"/>
+  <rect x="38" y="231" width="724" height="90" rx="10" fill="#fef3c7"/>
   <rect x="38" y="231" width="8" height="90" rx="4" fill="#d97706"/>
   <text x="62" y="263"  font-size="15" font-weight="800" fill="#d97706">執照過期未更新</text>
   <text x="62" y="284"  font-size="14" fill="#57534e">醫事人員執照有 6 年效期，部分醫院未建立預警機制</text>
@@ -29,7 +29,7 @@
   <text x="681" y="274"  font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">效期管控</text>
 
   <!-- 列3：夜班配置不符規定 -->
-  <rect x="38" y="334" width="724" height="90" rx="10" fill="#fafaf9" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="38" y="334" width="724" height="90" rx="12" fill="#f0efe8" stroke="#e8e6de" stroke-width="1"/>
   <rect x="38" y="334" width="8" height="90" rx="4" fill="#78716c"/>
   <text x="62" y="366"  font-size="15" font-weight="800" fill="#78716c">夜班配置不符規定</text>
   <text x="62" y="387"  font-size="14" fill="#57534e">部分單位以「備勤」代替值班，或夜班紀錄未詳細記錄護病比</text>

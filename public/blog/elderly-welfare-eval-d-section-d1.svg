@@ -5,7 +5,7 @@
   <!-- 標題列 -->
   <rect x="30" y="38" width="740" height="90" rx="10" fill="#2563eb"/>
   <text x="400" y="80" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" >D1 個案資料保密機制（二級加強）</text>
-  <text x="400" y="112" font-size="17" fill="#bfdbfe" text-anchor="middle" >管理系統權限控管 × 統計分析應用 × 個資保護法遵</text>
+  <text x="400" y="112" font-size="17" fill="#eff6ff" text-anchor="middle" >管理系統權限控管 × 統計分析應用 × 個資保護法遵</text>
 
   <!-- Row 1 (N=3: y=166) -->
   <rect x="30" y="166" width="740" height="90" rx="8" fill="#ffffff"/>
@@ -14,7 +14,7 @@
   <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
   <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700" >系統權限分層管理</text>
   <text x="100" y="225" font-size="16" fill="#57534e" >每位使用者設定不同存取權限，確保個案資料不外洩；須有密碼系統與登入紀錄</text>
-  <rect x="620" y="188" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="188" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="216" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >現場操作驗證</text>
 
   <!-- Row 2 (y=269) -->

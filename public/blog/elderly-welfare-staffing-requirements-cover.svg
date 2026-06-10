@@ -39,7 +39,7 @@
 
   <!-- 五大職類清單 -->
   <text x="990" y="155"  font-size="28" font-weight="700" fill="#1e293b" text-anchor="middle">五大職類</text>
-  <line x1="870" y1="170" x2="1110" y2="170" stroke="#e7e5e4" stroke-width="2"/>
+  <line x1="870" y1="170" x2="1110" y2="170" stroke="#e8e6de" stroke-width="2"/>
   <text x="870" y="208"  font-size="22" fill="#d97706" font-weight="600">A7</text>
   <text x="910" y="208"  font-size="22" fill="#57534e">業務負責人</text>
   <text x="870" y="248"  font-size="22" fill="#78716c" font-weight="600">A8</text>
@@ -52,7 +52,7 @@
   <text x="916" y="368"  font-size="22" fill="#57534e">照顧服務員</text>
 
   <!-- 底部裝飾線 -->
-  <rect x="60" y="540" width="700" height="4" fill="#e7e5e4" rx="2"/>
+  <rect x="60" y="540" width="700" height="4" fill="#e8e6de" rx="2"/>
 
   <!-- 年度標示 -->
   <text x="60" y="575"  font-size="26" fill="#a8a29e" font-weight="400">115年度老人福利機構評鑑</text>

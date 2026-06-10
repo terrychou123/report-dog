@@ -9,10 +9,10 @@
   <rect x="40" y="130" width="200" height="200" rx="12" fill="#d97706"/>
   <text x="140" y="172" font-size="48" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
   <text x="140" y="208" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">輸入事件</text>
-  <text x="140" y="234" font-size="14" fill="#fff8e7" text-anchor="middle">護理師填入</text>
-  <text x="140" y="256" font-size="14" fill="#fff8e7" text-anchor="middle">事件基本描述</text>
-  <text x="140" y="278" font-size="14" fill="#fff8e7" text-anchor="middle">時間/地點/狀況</text>
-  <text x="140" y="300" font-size="14" fill="#fff8e7" text-anchor="middle">初步處置</text>
+  <text x="140" y="234" font-size="14" fill="#fef3c7" text-anchor="middle">護理師填入</text>
+  <text x="140" y="256" font-size="14" fill="#fef3c7" text-anchor="middle">事件基本描述</text>
+  <text x="140" y="278" font-size="14" fill="#fef3c7" text-anchor="middle">時間/地點/狀況</text>
+  <text x="140" y="300" font-size="14" fill="#fef3c7" text-anchor="middle">初步處置</text>
 
   <!-- 箭頭 1 -->
   <path d="M 260 230 L 310 230" stroke="#d97706" stroke-width="3" fill="none"/>
@@ -22,10 +22,10 @@
   <rect x="320" y="130" width="200" height="200" rx="12" fill="#78716c"/>
   <text x="420" y="172" font-size="48" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
   <text x="420" y="208" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">AI 生成初稿</text>
-  <text x="420" y="234" font-size="14" fill="#e7e5e4" text-anchor="middle">自動套用 SOAP</text>
-  <text x="420" y="256" font-size="14" fill="#e7e5e4" text-anchor="middle">格式組織紀錄</text>
-  <text x="420" y="278" font-size="14" fill="#e7e5e4" text-anchor="middle">提示可能原因</text>
-  <text x="420" y="300" font-size="14" fill="#e7e5e4" text-anchor="middle">建議改善方向</text>
+  <text x="420" y="234" font-size="14" fill="#e8e6de" text-anchor="middle">自動套用 SOAP</text>
+  <text x="420" y="256" font-size="14" fill="#e8e6de" text-anchor="middle">格式組織紀錄</text>
+  <text x="420" y="278" font-size="14" fill="#e8e6de" text-anchor="middle">提示可能原因</text>
+  <text x="420" y="300" font-size="14" fill="#e8e6de" text-anchor="middle">建議改善方向</text>
 
   <!-- 箭頭 2 -->
   <path d="M 540 230 L 590 230" stroke="#78716c" stroke-width="3" fill="none"/>
@@ -35,10 +35,10 @@
   <rect x="600" y="130" width="160" height="200" rx="12" fill="#57534e"/>
   <text x="680" y="172" font-size="48" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
   <text x="680" y="208" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">確認儲存</text>
-  <text x="680" y="234" font-size="14" fill="#e7e5e4" text-anchor="middle">護理師核對</text>
-  <text x="680" y="256" font-size="14" fill="#e7e5e4" text-anchor="middle">補充細節</text>
-  <text x="680" y="278" font-size="14" fill="#e7e5e4" text-anchor="middle">一鍵儲存</text>
-  <text x="680" y="300" font-size="14" fill="#e7e5e4" text-anchor="middle">系統歸檔</text>
+  <text x="680" y="234" font-size="14" fill="#e8e6de" text-anchor="middle">護理師核對</text>
+  <text x="680" y="256" font-size="14" fill="#e8e6de" text-anchor="middle">補充細節</text>
+  <text x="680" y="278" font-size="14" fill="#e8e6de" text-anchor="middle">一鍵儲存</text>
+  <text x="680" y="300" font-size="14" fill="#e8e6de" text-anchor="middle">系統歸檔</text>
 
   <!-- 底部功能說明 -->
   <rect x="40" y="355" width="720" height="100" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>

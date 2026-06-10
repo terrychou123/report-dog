@@ -10,69 +10,69 @@
   <rect x="24" y="82" width="364" height="40" rx="12" fill="#d97706" opacity="0.12"/>
   <rect x="24" y="108" width="364" height="14" fill="#d97706" opacity="0.12"/>
   <text x="206" y="108" font-size="16" font-weight="900" text-anchor="middle" fill="#d97706">1 Before / After 對比數據</text>
-  <text x="44" y="138" font-size="14" fill="#44403c" font-weight="700">最有說服力的成效記錄</text>
+  <text x="44" y="138" font-size="14" fill="#57534e" font-weight="700">最有說服力的成效記錄</text>
   <!-- Before After 表格 -->
   <rect x="44" y="148" width="150" height="30" rx="6" fill="#fef3c7"/>
   <text x="119" y="168" font-size="14" text-anchor="middle" fill="#d97706" font-weight="700">推動前 (Before)</text>
-  <rect x="214" y="148" width="150" height="30" rx="6" fill="#d1fae5"/>
-  <text x="289" y="168" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">推動後 (After)</text>
+  <rect x="214" y="148" width="150" height="30" rx="6" fill="#f0fdf4"/>
+  <text x="289" y="168" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">推動後 (After)</text>
   <!-- 行1 -->
   <text x="44" y="196" font-size="14" fill="#78716c">文書時數/週</text>
   <text x="119" y="196" font-size="14" text-anchor="middle" fill="#d97706" font-weight="700">12 小時</text>
   <text x="214" y="196" font-size="14" fill="#78716c">-</text>
-  <text x="289" y="196" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">8 小時 v33%</text>
+  <text x="289" y="196" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">8 小時 v33%</text>
   <!-- 行2 -->
   <text x="44" y="218" font-size="14" fill="#78716c">遊走事件/月</text>
   <text x="119" y="218" font-size="14" text-anchor="middle" fill="#d97706" font-weight="700">8 次</text>
   <text x="214" y="218" font-size="14" fill="#78716c">-</text>
-  <text x="289" y="218" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">3 次 v62.5%</text>
+  <text x="289" y="218" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">3 次 v62.5%</text>
   <!-- 行3 -->
   <text x="44" y="240" font-size="14" fill="#78716c">壓傷新發率</text>
   <text x="119" y="240" font-size="14" text-anchor="middle" fill="#d97706" font-weight="700">2.4%</text>
   <text x="214" y="240" font-size="14" fill="#78716c">-</text>
-  <text x="289" y="240" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">1.1% v54%</text>
+  <text x="289" y="240" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">1.1% v54%</text>
   <text x="44" y="258" font-size="14" fill="#d97706">※ 推動前先記錄 2 週基準數據（baseline）</text>
   <!-- 方法2：參與統計 -->
   <rect x="412" y="82" width="364" height="184" rx="12" fill="#ffffff" opacity="0.95"/>
   <rect x="412" y="82" width="364" height="40" rx="12" fill="#d97706" opacity="0.12"/>
   <rect x="412" y="108" width="364" height="14" fill="#d97706" opacity="0.12"/>
   <text x="594" y="108" font-size="16" font-weight="900" text-anchor="middle" fill="#d97706">2 參與人數 / 時數統計</text>
-  <text x="432" y="138" font-size="14" fill="#44403c" font-weight="700">量化的參與數據</text>
+  <text x="432" y="138" font-size="14" fill="#57534e" font-weight="700">量化的參與數據</text>
   <!-- 統計項目 -->
   <rect x="432" y="148" width="324" height="36" rx="8" fill="#fef9c3"/>
-  <text x="444" y="162" font-size="14" fill="#44403c">技能競賽參與人數</text>
+  <text x="444" y="162" font-size="14" fill="#57534e">技能競賽參與人數</text>
   <text x="740" y="171" font-size="18" font-weight="900" text-anchor="end" fill="#d97706">15 人</text>
   <text x="444" y="175" font-size="14" fill="#78716c">工作人員參與率 100%</text>
   <rect x="432" y="192" width="324" height="36" rx="8" fill="#fef9c3"/>
-  <text x="444" y="206" font-size="14" fill="#44403c">失智友善訓練累積時數</text>
+  <text x="444" y="206" font-size="14" fill="#57534e">失智友善訓練累積時數</text>
   <text x="740" y="215" font-size="18" font-weight="900" text-anchor="end" fill="#d97706">6 時</text>
   <text x="444" y="219" font-size="14" fill="#78716c">全體工作人員均完成</text>
   <rect x="432" y="236" width="324" height="36" rx="8" fill="#fef9c3"/>
-  <text x="444" y="250" font-size="14" fill="#44403c">政府計畫研討會參加場次</text>
+  <text x="444" y="250" font-size="14" fill="#57534e">政府計畫研討會參加場次</text>
   <text x="740" y="259" font-size="18" font-weight="900" text-anchor="end" fill="#d97706">3 場</text>
   <text x="444" y="263" font-size="14" fill="#78716c">累計 12 小時學習時數</text>
   <!-- 方法3：滿意度問卷 -->
   <rect x="24" y="282" width="364" height="184" rx="12" fill="#ffffff" opacity="0.95"/>
-  <rect x="24" y="282" width="364" height="40" rx="12" fill="#44403c" opacity="0.08"/>
-  <rect x="24" y="308" width="364" height="14" fill="#44403c" opacity="0.08"/>
-  <text x="206" y="308" font-size="16" font-weight="900" text-anchor="middle" fill="#44403c">3 住民 / 家屬滿意度問卷</text>
-  <text x="44" y="338" font-size="14" fill="#44403c" font-weight="700">問卷題目示例（加入創新相關題目）</text>
-  <text x="44" y="360" font-size="14" fill="#44403c">Q: 機構是否了解家人的生命歷程？</text>
-  <text x="44" y="378" font-size="14" fill="#44403c"> - Before: 滿意 62% After: 滿意 89%</text>
-  <text x="44" y="400" font-size="14" fill="#44403c">Q: 視訊探視讓你感到更安心嗎？</text>
-  <text x="44" y="418" font-size="14" fill="#44403c"> - Before: 無此選項 After: 非常同意 78%</text>
+  <rect x="24" y="282" width="364" height="40" rx="12" fill="#57534e" opacity="0.08"/>
+  <rect x="24" y="308" width="364" height="14" fill="#57534e" opacity="0.08"/>
+  <text x="206" y="308" font-size="16" font-weight="900" text-anchor="middle" fill="#57534e">3 住民 / 家屬滿意度問卷</text>
+  <text x="44" y="338" font-size="14" fill="#57534e" font-weight="700">問卷題目示例（加入創新相關題目）</text>
+  <text x="44" y="360" font-size="14" fill="#57534e">Q: 機構是否了解家人的生命歷程？</text>
+  <text x="44" y="378" font-size="14" fill="#57534e"> - Before: 滿意 62% After: 滿意 89%</text>
+  <text x="44" y="400" font-size="14" fill="#57534e">Q: 視訊探視讓你感到更安心嗎？</text>
+  <text x="44" y="418" font-size="14" fill="#57534e"> - Before: 無此選項 After: 非常同意 78%</text>
   <text x="44" y="446" font-size="14" fill="#d97706">※ 建議每 6 個月調查一次，留存問卷統計表</text>
   <!-- 方法4：書面成果報告 -->
   <rect x="412" y="282" width="364" height="184" rx="12" fill="#ffffff" opacity="0.95"/>
-  <rect x="412" y="282" width="364" height="40" rx="12" fill="#44403c" opacity="0.08"/>
-  <rect x="412" y="308" width="364" height="14" fill="#44403c" opacity="0.08"/>
-  <text x="594" y="308" font-size="16" font-weight="900" text-anchor="middle" fill="#44403c">4 書面成果報告格式</text>
-  <text x="432" y="338" font-size="14" fill="#44403c" font-weight="700">1–2 頁報告，評鑑前備齊</text>
-  <rect x="432" y="346" width="324" height="110" rx="8" fill="#f9fafb"/>
-  <text x="444" y="366" font-size="14" fill="#44403c">1. 創新項目名稱與推動背景</text>
-  <text x="444" y="384" font-size="14" fill="#44403c">2. 執行過程摘要（時間/人員/步驟）</text>
-  <text x="444" y="402" font-size="14" fill="#44403c">3. 成效數據（表格或條列）</text>
-  <text x="444" y="420" font-size="14" fill="#44403c">4. 後續計畫（持續維持或擴大）</text>
+  <rect x="412" y="282" width="364" height="40" rx="12" fill="#57534e" opacity="0.08"/>
+  <rect x="412" y="308" width="364" height="14" fill="#57534e" opacity="0.08"/>
+  <text x="594" y="308" font-size="16" font-weight="900" text-anchor="middle" fill="#57534e">4 書面成果報告格式</text>
+  <text x="432" y="338" font-size="14" fill="#57534e" font-weight="700">1–2 頁報告，評鑑前備齊</text>
+  <rect x="432" y="346" width="324" height="110" rx="8" fill="#fafaf8"/>
+  <text x="444" y="366" font-size="14" fill="#57534e">1. 創新項目名稱與推動背景</text>
+  <text x="444" y="384" font-size="14" fill="#57534e">2. 執行過程摘要（時間/人員/步驟）</text>
+  <text x="444" y="402" font-size="14" fill="#57534e">3. 成效數據（表格或條列）</text>
+  <text x="444" y="420" font-size="14" fill="#57534e">4. 後續計畫（持續維持或擴大）</text>
   <text x="444" y="446" font-size="14" fill="#d97706">- 4 種方法組合使用，說服力最強</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

@@ -42,7 +42,7 @@
   <text x="688" y="371"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">勞檢紀錄</text>
   <!-- Warning bar -->
   <rect x="28" y="412" width="744" height="48" rx="12" fill="#fef2f2"/>
-  <text x="400" y="441"  font-size="15" font-weight="700" fill="#b91c1c" text-anchor="middle">注意：項目4、5、6評鑑當天無法補救，需貫穿全年落實</text>
+  <text x="400" y="441"  font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">注意：項目4、5、6評鑑當天無法補救，需貫穿全年落實</text>
   <!-- Watermark -->
   <text x="760" y="480"  font-size="16" fill="#d97706" text-anchor="end" opacity="0.6">報告汪</text>
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

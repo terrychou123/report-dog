@@ -12,14 +12,14 @@
   <rect x="40" y="118" width="720" height="60" rx="4" fill="#fff"/>
   <rect x="40" y="118" width="4" height="60" fill="#d97706"/>
   <rect x="44" y="118" width="100" height="60" fill="#fef3c7"/>
-  <text x="94" y="154" text-anchor="middle" font-size="16" fill="#92400e" font-weight="700">策略風險</text>
+  <text x="94" y="154" text-anchor="middle" font-size="16" fill="#d97706" font-weight="700">策略風險</text>
   <text x="165" y="143" font-size="14" fill="#1e293b" font-weight="600">機構經營方向改變、政策法規調整、市場競爭</text>
   <text x="165" y="165" font-size="14" fill="#57534e">計畫重點：訂有因應策略調整的決策程序，含定期市場分析與法規追蹤</text>
 
   <!-- 第2項 - 營運風險 -->
   <rect x="40" y="191" width="720" height="60" rx="4" fill="#fafaf8"/>
   <rect x="40" y="191" width="4" height="60" fill="#78716c"/>
-  <rect x="44" y="191" width="100" height="60" fill="#f5f4f0"/>
+  <rect x="44" y="191" width="100" height="60" fill="#f0efe8"/>
   <text x="94" y="227" text-anchor="middle" font-size="16" fill="#57534e" font-weight="700">營運風險</text>
   <text x="165" y="216" font-size="14" fill="#1e293b" font-weight="600">人力短缺、服務對象人數大幅變動、供應商問題</text>
   <text x="165" y="238" font-size="14" fill="#57534e">計畫重點：人力補充機制、備用供應商清單、住民人數波動的應變程序</text>
@@ -28,14 +28,14 @@
   <rect x="40" y="264" width="720" height="60" rx="4" fill="#fff"/>
   <rect x="40" y="264" width="4" height="60" fill="#d97706"/>
   <rect x="44" y="264" width="100" height="60" fill="#fef3c7"/>
-  <text x="94" y="300" text-anchor="middle" font-size="16" fill="#92400e" font-weight="700">財務風險</text>
+  <text x="94" y="300" text-anchor="middle" font-size="16" fill="#d97706" font-weight="700">財務風險</text>
   <text x="165" y="289" font-size="14" fill="#1e293b" font-weight="600">現金流不足、費用收取困難、補助政策改變</text>
   <text x="165" y="311" font-size="14" fill="#57534e">計畫重點：財務儲備基金、費用催收程序、補助政策替代因應方案</text>
 
   <!-- 第4項 - 天然災害 -->
   <rect x="40" y="337" width="720" height="60" rx="4" fill="#fafaf8"/>
   <rect x="40" y="337" width="4" height="60" fill="#78716c"/>
-  <rect x="44" y="337" width="100" height="60" fill="#f5f4f0"/>
+  <rect x="44" y="337" width="100" height="60" fill="#f0efe8"/>
   <text x="94" y="373" text-anchor="middle" font-size="16" fill="#57534e" font-weight="700">天然災害</text>
   <text x="165" y="362" font-size="14" fill="#1e293b" font-weight="600">颱風、地震、洪水、停電、停水</text>
   <text x="165" y="384" font-size="14" fill="#57534e">計畫重點：緊急疏散計畫、備用電力與飲水、緊急聯絡網路（銜接 C10-C12）</text>
@@ -44,7 +44,7 @@
   <rect x="40" y="410" width="720" height="60" rx="4" fill="#fff"/>
   <rect x="40" y="410" width="4" height="60" fill="#d97706"/>
   <rect x="44" y="410" width="100" height="60" fill="#fef3c7"/>
-  <text x="94" y="446" text-anchor="middle" font-size="16" fill="#92400e" font-weight="700">意外事件</text>
+  <text x="94" y="446" text-anchor="middle" font-size="16" fill="#d97706" font-weight="700">意外事件</text>
   <text x="165" y="435" font-size="14" fill="#1e293b" font-weight="600">火災、住民重大傷亡、媒體負面報導</text>
   <text x="165" y="457" font-size="14" fill="#57534e">計畫重點：事件處理 SOP、媒體因應程序、家屬通知流程（銜接 B13 跌倒等）</text>
 

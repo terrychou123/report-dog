@@ -36,7 +36,7 @@
   <!-- Resource development -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="#fef3c7"/>
   <rect x="28" y="337" width="6" height="60" rx="2" fill="#57534e"/>
-  <circle cx="66" cy="367" r="16" fill="#fde68a"/>
+  <circle cx="66" cy="367" r="16" fill="#fef3c7"/>
   <text x="66" y="372"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">+</text>
   <text x="100" y="357"  font-size="15" font-weight="700" fill="#1e293b">開發資源及服務（加分）</text>
   <text x="100" y="379"  font-size="16" fill="#57534e">針對特殊需求兒少主動連結外部資源，有實際運用紀錄</text>

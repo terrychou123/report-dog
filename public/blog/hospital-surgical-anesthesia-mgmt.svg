@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
-  <rect x="0" y="0" width="800" height="80" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="80" fill="#1e293b"/>
   <text x="400" y="35"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">麻醉作業管理四大查核重點（2.6.3）</text>
   <text x="400" y="60"  font-size="14" fill="#a8a29e" text-anchor="middle">評鑑方式：資料查核＋實地查核 | 委員實地檢查困難插管推車</text>
 
@@ -13,7 +13,7 @@
   <rect x="40" y="100" width="6" height="75" rx="2" fill="#d97706"/>
   <circle cx="80" cy="137" r="20" fill="#fef3c7"/>
   <text x="80" y="142"  font-size="16" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
-  <text x="115" y="125"  font-size="15" font-weight="700" fill="#1c1917">麻醉科醫師主導</text>
+  <text x="115" y="125"  font-size="15" font-weight="700" fill="#1e293b">麻醉科醫師主導</text>
   <text x="115" y="147"  font-size="14" fill="#57534e">整個麻醉過程由麻醉科醫師負責主導，紀錄清楚標示主責醫師</text>
   <text x="115" y="163"  font-size="14" fill="#78716c">麻醉紀錄首頁須清楚記載麻醉科醫師姓名，非由護理師或技術員單獨執行</text>
   <rect x="670" y="118" width="72" height="26" rx="6" fill="#fef3c7"/>
@@ -24,7 +24,7 @@
   <rect x="40" y="190" width="6" height="75" rx="2" fill="#78716c"/>
   <circle cx="80" cy="227" r="20" fill="#f5f5f4"/>
   <text x="80" y="232"  font-size="16" font-weight="900" fill="#78716c" text-anchor="middle">2</text>
-  <text x="115" y="215"  font-size="15" font-weight="700" fill="#1c1917">麻醉紀錄完整</text>
+  <text x="115" y="215"  font-size="15" font-weight="700" fill="#1e293b">麻醉紀錄完整</text>
   <text x="115" y="237"  font-size="14" fill="#57534e">麻醉紀錄包含藥物劑量、時間點、生命徵象變化、特殊事件記錄</text>
   <text x="115" y="253"  font-size="14" fill="#78716c">生命徵象每5分鐘記錄一次，藥物給藥時間精確到分鐘，不得有空白段落</text>
   <rect x="670" y="208" width="72" height="26" rx="6" fill="#f5f5f4"/>
@@ -35,22 +35,22 @@
   <rect x="40" y="280" width="6" height="75" rx="2" fill="#57534e"/>
   <circle cx="80" cy="317" r="20" fill="#f5f5f4"/>
   <text x="80" y="322"  font-size="16" font-weight="900" fill="#57534e" text-anchor="middle">3</text>
-  <text x="115" y="305"  font-size="15" font-weight="700" fill="#1c1917">術中監測設備完備</text>
+  <text x="115" y="305"  font-size="15" font-weight="700" fill="#1e293b">術中監測設備完備</text>
   <text x="115" y="327"  font-size="14" fill="#57534e">心電圖、血氧、血壓、體溫、呼氣末二氧化碳監測設備完備可用</text>
   <text x="115" y="343"  font-size="14" fill="#78716c">設備需有定期維護紀錄，評鑑委員可能現場測試設備是否正常運作</text>
   <rect x="670" y="298" width="72" height="26" rx="6" fill="#f5f5f4"/>
   <text x="706" y="315"  font-size="14" fill="#57534e" text-anchor="middle">監測設備</text>
 
   <!-- 列4：困難插管推車完備 -->
-  <rect x="40" y="370" width="720" height="75" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <rect x="40" y="370" width="720" height="75" rx="10" fill="#fff7ed" stroke="#fff7ed" stroke-width="1.5"/>
   <rect x="40" y="370" width="6" height="75" rx="2" fill="#a8a29e"/>
-  <circle cx="80" cy="407" r="20" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1"/>
+  <circle cx="80" cy="407" r="20" fill="#f0efe8" stroke="#dedad3" stroke-width="1"/>
   <text x="80" y="412"  font-size="16" font-weight="900" fill="#a8a29e" text-anchor="middle">4</text>
-  <text x="115" y="395"  font-size="15" font-weight="700" fill="#1c1917">困難插管推車完備</text>
+  <text x="115" y="395"  font-size="15" font-weight="700" fill="#1e293b">困難插管推車完備</text>
   <text x="115" y="417"  font-size="14" fill="#57534e">困難插管/呼吸道管理推車設備完整、有定期檢查紀錄、人員知悉位置</text>
-  <text x="115" y="433"  font-size="14" fill="#b45309">實地查核重點：LMA各型號齊全、視頻喉鏡電池有電、環甲膜切開器械備用</text>
-  <rect x="670" y="388" width="72" height="26" rx="6" fill="#fed7aa"/>
-  <text x="706" y="405"  font-size="14" fill="#92400e" text-anchor="middle">實地查核</text>
+  <text x="115" y="433"  font-size="14" fill="#d97706">實地查核重點：LMA各型號齊全、視頻喉鏡電池有電、環甲膜切開器械備用</text>
+  <rect x="670" y="388" width="72" height="26" rx="6" fill="#fff7ed"/>
+  <text x="706" y="405"  font-size="14" fill="#d97706" text-anchor="middle">實地查核</text>
 
   <!-- 浮水印 -->
   <text x="400" y="480"  font-size="14" fill="#a8a29e" text-anchor="middle" opacity="0.6">報告汪 reportwang.com</text>

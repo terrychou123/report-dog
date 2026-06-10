@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9" />
-  <rect x="0" y="0" width="800" height="64" fill="#1c1917" rx="8" />
+  <rect width="800" height="500" fill="#f0efe8" />
+  <rect x="0" y="0" width="800" height="64" fill="#1e293b" rx="8" />
 
   <!-- 標題 -->
   <text x="400" y="40"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">SBAR 標準化交班格式（2.3.3 交接班核心）</text>
   <text x="400" y="58"  font-size="14" fill="#a8a29e" text-anchor="middle">Situation / Background / Assessment / Recommendation</text>
 
   <!-- 列1 S -->
-  <rect x="30" y="82" width="740" height="84" rx="10" fill="#fffbeb" />
+  <rect x="30" y="82" width="740" height="84" rx="10" fill="#fef3c7" />
   <rect x="30" y="82" width="6" height="84" rx="2" fill="#d97706" />
   <rect x="44" y="96" width="48" height="48" rx="8" fill="#d97706" />
   <text x="68" y="131"  font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle">S</text>
-  <text x="108" y="116"  font-size="17" font-weight="700" fill="#92400e">Situation 現況</text>
+  <text x="108" y="116"  font-size="17" font-weight="700" fill="#d97706">Situation 現況</text>
   <text x="108" y="140"  font-size="14" fill="#57534e">目前病人狀況：「XX 病人因 XX 問題需要關注」，5 秒說清楚</text>
   <rect x="660" y="100" width="86" height="30" rx="15" fill="#d97706" />
   <text x="703" y="120"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">1-2 句</text>
@@ -23,7 +23,7 @@
   <rect x="30" y="178" width="6" height="84" rx="2" fill="#78716c" />
   <rect x="44" y="192" width="48" height="48" rx="8" fill="#78716c" />
   <text x="68" y="227"  font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle">B</text>
-  <text x="108" y="212"  font-size="17" font-weight="700" fill="#44403c">Background 背景</text>
+  <text x="108" y="212"  font-size="17" font-weight="700" fill="#57534e">Background 背景</text>
   <text x="108" y="236"  font-size="14" fill="#57534e">相關病史、診斷、入院原因、重要護理措施與目前治療</text>
   <rect x="650" y="196" width="98" height="30" rx="15" fill="#78716c" />
   <text x="699" y="216"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">補充脈絡</text>
@@ -33,7 +33,7 @@
   <rect x="30" y="274" width="6" height="84" rx="2" fill="#57534e" />
   <rect x="44" y="288" width="48" height="48" rx="8" fill="#57534e" />
   <text x="68" y="323"  font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle">A</text>
-  <text x="108" y="308"  font-size="17" font-weight="700" fill="#44403c">Assessment 評估</text>
+  <text x="108" y="308"  font-size="17" font-weight="700" fill="#57534e">Assessment 評估</text>
   <text x="108" y="332"  font-size="14" fill="#57534e">護理師對目前狀況的判斷：穩定、惡化、需注意什麼</text>
   <rect x="650" y="292" width="98" height="30" rx="15" fill="#57534e" />
   <text x="699" y="312"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">專業判斷</text>
@@ -43,11 +43,11 @@
   <rect x="30" y="370" width="6" height="84" rx="2" fill="#a8a29e" />
   <rect x="44" y="384" width="48" height="48" rx="8" fill="#a8a29e" />
   <text x="68" y="419"  font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle">R</text>
-  <text x="108" y="404"  font-size="17" font-weight="700" fill="#44403c">Recommendation 建議</text>
+  <text x="108" y="404"  font-size="17" font-weight="700" fill="#57534e">Recommendation 建議</text>
   <text x="108" y="428"  font-size="14" fill="#57534e">接班護理師需特別注意或執行的事項，明確交辦</text>
   <rect x="650" y="388" width="98" height="30" rx="15" fill="#a8a29e" />
   <text x="699" y="408"  font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">交辦清單</text>
 
   <!-- 浮水印 -->
-  <text x="400" y="480"  font-size="14" fill="#d6d3d1" text-anchor="middle">報告汪 reportwang.com</text>
+  <text x="400" y="480"  font-size="14" fill="#dedad3" text-anchor="middle">報告汪 reportwang.com</text>
 </svg>

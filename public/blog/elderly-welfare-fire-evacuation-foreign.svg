@@ -29,7 +29,7 @@
   <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" >外籍看護工訓練注意事項</text>
   <text x="100" y="286" font-size="16" fill="#57534e" >家屬自聘的外籍看護工也包含在內；建議準備多語言版本訓練教材</text>
   <text x="100" y="305" font-size="16" fill="#57534e" >（印尼語、越南語、菲律賓語等）；訓練須有簽到表留存備查</text>
-  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="272" font-size="14" fill="#d97706" text-anchor="middle" >多語教材</text>
   <text x="688" y="291" font-size="14" fill="#d97706" text-anchor="middle" >簽到存查</text>
 

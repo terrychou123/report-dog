@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 頂部標題區塊 -->
-  <rect x="0" y="0" width="800" height="108" rx="0" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="108" rx="0" fill="#1e293b"/>
   <text x="400" y="52"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">出院病摘（2.3.16）四大必備內容</text>
   <text x="400" y="82"  font-size="14" fill="#a8a29e" text-anchor="middle">重點條文，評鑑委員透過資料查核審閱完整性與時限</text>
 
   <!-- 列 1 (y=128) -->
-  <rect x="38" y="128" width="724" height="80" rx="10" fill="#fffbeb"/>
+  <rect x="38" y="128" width="724" height="80" rx="10" fill="#fef3c7"/>
   <rect x="38" y="128" width="6" height="80" rx="2" fill="#d97706"/>
   <circle cx="80" cy="168" r="20" fill="#d97706" opacity="0.15"/>
   <text x="80" y="175"  font-size="20" font-weight="900" fill="#d97706" text-anchor="middle">1</text>
-  <text x="116" y="153"  font-size="15" font-weight="700" fill="#92400e">入院與出院診斷</text>
+  <text x="116" y="153"  font-size="15" font-weight="700" fill="#d97706">入院與出院診斷</text>
   <text x="116" y="175"  font-size="14" fill="#78716c">主要診斷、合併症、手術診斷、出院診斷完整記錄</text>
   <text x="116" y="198"  font-size="14" fill="#a8a29e">ICD碼、診斷名稱、入院與出院診斷對照，需清楚一致</text>
   <rect x="624" y="147" width="114" height="26" rx="13" fill="#d97706"/>
@@ -24,7 +24,7 @@
   <rect x="38" y="228" width="6" height="80" rx="2" fill="#78716c"/>
   <circle cx="80" cy="268" r="20" fill="#78716c" opacity="0.15"/>
   <text x="80" y="275"  font-size="20" font-weight="900" fill="#78716c" text-anchor="middle">2</text>
-  <text x="116" y="253"  font-size="15" font-weight="700" fill="#44403c">治療過程摘要</text>
+  <text x="116" y="253"  font-size="15" font-weight="700" fill="#57534e">治療過程摘要</text>
   <text x="116" y="275"  font-size="14" fill="#78716c">住院期間重要治療、手術、侵入性處置、用藥變更記錄</text>
   <text x="116" y="298"  font-size="14" fill="#a8a29e">檢驗異常值、影像報告摘要、會診結論均應納入</text>
   <rect x="624" y="247" width="114" height="26" rx="13" fill="#78716c"/>
@@ -35,7 +35,7 @@
   <rect x="38" y="328" width="6" height="80" rx="2" fill="#57534e"/>
   <circle cx="80" cy="368" r="20" fill="#57534e" opacity="0.15"/>
   <text x="80" y="375"  font-size="20" font-weight="900" fill="#57534e" text-anchor="middle">3</text>
-  <text x="116" y="353"  font-size="15" font-weight="700" fill="#44403c">出院醫囑與計畫</text>
+  <text x="116" y="353"  font-size="15" font-weight="700" fill="#57534e">出院醫囑與計畫</text>
   <text x="116" y="375"  font-size="14" fill="#78716c">出院用藥、返診時間、活動限制、緊急就醫條件清楚交代</text>
   <text x="116" y="398"  font-size="14" fill="#a8a29e">特殊護理指導、後續追蹤計畫、轉介說明均需記錄</text>
   <rect x="624" y="347" width="114" height="26" rx="13" fill="#57534e"/>
@@ -46,7 +46,7 @@
   <rect x="38" y="428" width="6" height="52" rx="2" fill="#a8a29e"/>
   <circle cx="80" cy="454" r="20" fill="#a8a29e" opacity="0.15"/>
   <text x="80" y="461"  font-size="20" font-weight="900" fill="#a8a29e" text-anchor="middle">4</text>
-  <text x="116" y="449"  font-size="15" font-weight="700" fill="#44403c">時限內完成</text>
+  <text x="116" y="449"  font-size="15" font-weight="700" fill="#57534e">時限內完成</text>
   <text x="116" y="471"  font-size="14" fill="#78716c">出院後規定時間內（一般1-7天）由醫師完成並及時提供後續照護單位</text>
   <rect x="624" y="441" width="114" height="26" rx="13" fill="#a8a29e"/>
   <text x="681" y="459"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">時限要求</text>

@@ -8,8 +8,8 @@
   <!-- 表頭 -->
   <rect x="28" y="106" width="744" height="40" rx="8" fill="#e8e4dc"/>
   <text x="200" y="131" text-anchor="middle" font-size="16" fill="#57534e" font-weight="700">章節</text>
-  <text x="430" y="131" text-anchor="middle" font-size="16" fill="#0284c7" font-weight="700">日間型</text>
-  <text x="650" y="131" text-anchor="middle" font-size="16" fill="#7c3aed" font-weight="700">住宿型</text>
+  <text x="430" y="131" text-anchor="middle" font-size="16" fill="#2563eb" font-weight="700">日間型</text>
+  <text x="650" y="131" text-anchor="middle" font-size="16" fill="#9333ea" font-weight="700">住宿型</text>
 
   <!-- 第一章 -->
   <rect x="28" y="154" width="744" height="72" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
@@ -18,12 +18,12 @@
   <text x="200" y="202" text-anchor="middle" font-size="15" fill="#57534e">負責人、人力、設施、空間</text>
   <!-- 日間型 -->
   <rect x="336" y="162" width="180" height="56" rx="8" fill="#eff6ff"/>
-  <text x="426" y="187" text-anchor="middle" font-size="22" fill="#0284c7" font-weight="700">10 條</text>
-  <text x="426" y="209" text-anchor="middle" font-size="15" fill="#0284c7">34 分</text>
+  <text x="426" y="187" text-anchor="middle" font-size="22" fill="#2563eb" font-weight="700">10 條</text>
+  <text x="426" y="209" text-anchor="middle" font-size="15" fill="#2563eb">34 分</text>
   <!-- 住宿型 -->
   <rect x="556" y="162" width="180" height="56" rx="8" fill="#f5f3ff"/>
-  <text x="646" y="187" text-anchor="middle" font-size="22" fill="#7c3aed" font-weight="700">12 條</text>
-  <text x="646" y="209" text-anchor="middle" font-size="15" fill="#7c3aed">33 分（含24h人力）</text>
+  <text x="646" y="187" text-anchor="middle" font-size="22" fill="#9333ea" font-weight="700">12 條</text>
+  <text x="646" y="209" text-anchor="middle" font-size="15" fill="#9333ea">33 分（含24h人力）</text>
 
   <!-- 第二章 -->
   <rect x="28" y="234" width="744" height="72" rx="12" fill="white" stroke="#dedad3" stroke-width="1"/>
@@ -56,8 +56,8 @@
   <!-- 合計 -->
   <rect x="28" y="394" width="744" height="52" rx="8" fill="#e8e4dc"/>
   <text x="200" y="425" text-anchor="middle" font-size="17" fill="#1e293b" font-weight="700">合計</text>
-  <text x="426" y="425" text-anchor="middle" font-size="20" fill="#0284c7" font-weight="700">36 條 / 100 分</text>
-  <text x="646" y="425" text-anchor="middle" font-size="20" fill="#7c3aed" font-weight="700">40 條 / 100 分</text>
+  <text x="426" y="425" text-anchor="middle" font-size="20" fill="#2563eb" font-weight="700">36 條 / 100 分</text>
+  <text x="646" y="425" text-anchor="middle" font-size="20" fill="#9333ea" font-weight="700">40 條 / 100 分</text>
 
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

@@ -63,7 +63,7 @@
 
   <!-- 提示說明 -->
   <rect x="40" y="390" width="720" height="60" rx="8" fill="#fef3c7"/>
-  <text x="400" y="418" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">重要提示：感染案件「逐案」分析是核心要求，每半年統計分析報告需含改善標準作業流程</text>
+  <text x="400" y="418" text-anchor="middle" font-size="15" fill="#d97706" font-weight="700">重要提示：感染案件「逐案」分析是核心要求，每半年統計分析報告需含改善標準作業流程</text>
   <text x="400" y="443" text-anchor="middle" font-size="14" fill="#78716c">B17 要求：疥瘡、呼吸道傳染病、腸道傳染病、不明原因發燒均需納入監測範圍</text>
 
   <!-- 浮水印 -->

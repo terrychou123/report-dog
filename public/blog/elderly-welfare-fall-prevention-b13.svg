@@ -24,7 +24,7 @@
   <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
   <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" >發生跌倒案件應逐案分析、處置</text>
   <text x="100" y="328" font-size="16" fill="#57534e" >每次跌倒事件均需填寫跌倒事件報告表，記錄發生時間、地點、原因、處置措施及追蹤</text>
-  <rect x="620" y="291" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="291" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="319" font-size="15" fill="#78716c" text-anchor="middle" font-weight="600" >事件報告表</text>
 
   <!-- Row 3 (y=372) -->

@@ -9,7 +9,7 @@
   <rect x="40" y="112" width="168" height="44" rx="10" fill="#16a34a"/>
   <rect x="40" y="132" width="168" height="24" fill="#16a34a"/>
   <text x="124" y="127" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護問題</text>
-  <text x="124" y="152" font-size="14" fill="#bbf7d0" text-anchor="middle">依評估結果識別</text>
+  <text x="124" y="152" font-size="14" fill="#f0fdf4" text-anchor="middle">依評估結果識別</text>
   <text x="56" y="182" font-size="14" fill="#57534e" font-weight="600">好的問題描述：</text>
   <text x="56" y="202" font-size="14" fill="#57534e">• 含評估量表分數</text>
   <text x="56" y="222" font-size="14" fill="#57534e"> Morse 70/Braden 16</text>
@@ -28,7 +28,7 @@
   <text x="238" y="202" font-size="14" fill="#57534e">• 有時間框架</text>
   <text x="238" y="222" font-size="14" fill="#57534e"> 「3個月內」</text>
   <text x="238" y="242" font-size="14" fill="#57534e">• 有具體數值</text>
-  <text x="238" y="262" font-size="14" fill="#57534e"> 「跌倒次數≤1次」</text>
+  <text x="238" y="262" font-size="14" fill="#57534e">「跌倒次數&lt;=1次」</text>
   <text x="238" y="312" font-size="14" fill="#dc2626">[x] 不好示範：</text>
   <text x="238" y="332" font-size="14" fill="#dc2626">「維持安全」（無法評值）</text>
 
@@ -37,7 +37,7 @@
   <rect x="404" y="112" width="168" height="44" rx="10" fill="#2563eb"/>
   <rect x="404" y="132" width="168" height="24" fill="#2563eb"/>
   <text x="488" y="127" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">照護措施</text>
-  <text x="488" y="152" font-size="14" fill="#bfdbfe" text-anchor="middle">誰·做什麼·多久</text>
+  <text x="488" y="152" font-size="14" fill="#eff6ff" text-anchor="middle">誰·做什麼·多久</text>
   <text x="420" y="182" font-size="14" fill="#57534e" font-weight="600">好的措施描述：</text>
   <text x="420" y="202" font-size="14" fill="#57534e">• 明確執行者</text>
   <text x="420" y="222" font-size="14" fill="#57534e"> 「護理師/照服員」</text>

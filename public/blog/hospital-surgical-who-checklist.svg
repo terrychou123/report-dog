@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
-  <rect x="0" y="0" width="800" height="80" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="80" fill="#1e293b"/>
   <text x="400" y="35"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">WHO手術安全查核表三大時間點</text>
   <text x="400" y="60"  font-size="14" fill="#a8a29e" text-anchor="middle">Sign In - Time Out - Sign Out，完整執行有書面紀錄</text>
 
@@ -16,7 +16,7 @@
   <text x="214" y="115"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 01</text>
   <!-- 標題 -->
   <text x="214" y="155"  font-size="17" font-weight="900" fill="#d97706" text-anchor="middle">Sign In</text>
-  <text x="214" y="178"  font-size="14" fill="#44403c" text-anchor="middle">麻醉誘導前</text>
+  <text x="214" y="178"  font-size="14" fill="#57534e" text-anchor="middle">麻醉誘導前</text>
   <!-- 分隔線 -->
   <rect x="149" y="192" width="130" height="1.5" fill="#e8e6de"/>
   <!-- 內容 -->
@@ -39,7 +39,7 @@
   <text x="400" y="115"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 02</text>
   <!-- 標題 -->
   <text x="400" y="155"  font-size="17" font-weight="900" fill="#9333ea" text-anchor="middle">Time Out</text>
-  <text x="400" y="178"  font-size="14" fill="#44403c" text-anchor="middle">切皮前暫停</text>
+  <text x="400" y="178"  font-size="14" fill="#57534e" text-anchor="middle">切皮前暫停</text>
   <!-- 分隔線 -->
   <rect x="335" y="192" width="130" height="1.5" fill="#e8e6de"/>
   <!-- 內容 -->
@@ -47,7 +47,7 @@
   <text x="400" y="235"  font-size="14" fill="#57534e" text-anchor="middle">手術 / 部位 / 備血</text>
   <text x="400" y="255"  font-size="14" fill="#57534e" text-anchor="middle">預防性抗生素</text>
   <!-- Pill -->
-  <rect x="350" y="368" width="100" height="26" rx="13" fill="#f5f0ff"/>
+  <rect x="350" y="368" width="100" height="26" rx="13" fill="#faf5ff"/>
   <text x="400" y="385"  font-size="14" fill="#9333ea" text-anchor="middle">切皮前</text>
 
   <!-- 箭頭2 -->
@@ -62,7 +62,7 @@
   <text x="586" y="115"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">STEP 03</text>
   <!-- 標題 -->
   <text x="586" y="155"  font-size="17" font-weight="900" fill="#57534e" text-anchor="middle">Sign Out</text>
-  <text x="586" y="178"  font-size="14" fill="#44403c" text-anchor="middle">離開手術室前</text>
+  <text x="586" y="178"  font-size="14" fill="#57534e" text-anchor="middle">離開手術室前</text>
   <!-- 分隔線 -->
   <rect x="521" y="192" width="130" height="1.5" fill="#e8e6de"/>
   <!-- 內容 -->

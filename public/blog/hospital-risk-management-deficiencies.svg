@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 頂部標題區 -->
-  <rect width="800" height="90" fill="#1c1917"/>
+  <rect width="800" height="90" fill="#1e293b"/>
   <text x="400" y="42"  font-size="22" font-weight="700" fill="#fff" text-anchor="middle">風險管理評鑑常見失分場景</text>
   <text x="400" y="70"  font-size="14" fill="#a8a29e" text-anchor="middle">4大失分情境 | 提前了解 提前預防</text>
 
@@ -21,7 +21,7 @@
   <text x="705" y="145"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">向上報告</text>
 
   <!-- 列2：失分2 -->
-  <rect x="32" y="198" width="736" height="78" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="32" y="198" width="736" height="78" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
   <rect x="32" y="198" width="8" height="78" rx="4" fill="#d97706"/>
   <circle cx="76" cy="237" r="20" fill="#d97706" opacity="0.15"/>
   <text x="76" y="231"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
@@ -33,7 +33,7 @@
   <text x="705" y="235"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">系統分析</text>
 
   <!-- 列3：失分3 -->
-  <rect x="32" y="288" width="736" height="78" rx="10" fill="#fafaf9" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="32" y="288" width="736" height="78" rx="10" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <rect x="32" y="288" width="8" height="78" rx="4" fill="#78716c"/>
   <circle cx="76" cy="327" r="20" fill="#78716c" opacity="0.15"/>
   <text x="76" y="321"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>
@@ -45,7 +45,7 @@
   <text x="705" y="325"  font-size="14" font-weight="600" fill="#fff" text-anchor="middle">實際演練</text>
 
   <!-- 列4：失分4 -->
-  <rect x="32" y="378" width="736" height="78" rx="10" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="32" y="378" width="736" height="78" rx="10" fill="#f0efe8" stroke="#57534e" stroke-width="1.5"/>
   <rect x="32" y="378" width="8" height="78" rx="4" fill="#57534e"/>
   <circle cx="76" cy="417" r="20" fill="#57534e" opacity="0.15"/>
   <text x="76" y="411"  font-size="14" font-weight="700" fill="#fff" text-anchor="middle">失分</text>

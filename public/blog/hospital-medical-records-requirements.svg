@@ -7,22 +7,22 @@
 
   <!-- Header 標題 -->
   <text x="68" y="79"  font-size="28" font-weight="900" fill="#1e293b">1.4.1 病歷書寫四大評核重點</text>
-  <text x="68" y="107"  font-size="15" fill="#64748b">114年度醫院評鑑基準｜必要條文</text>
+  <text x="68" y="107"  font-size="15" fill="#57534e">114年度醫院評鑑基準｜必要條文</text>
 
   <!-- Row 1 -->
   <rect x="50" y="135" width="700" height="62" rx="10" fill="white"/>
   <rect x="50" y="135" width="6" height="62" rx="2" fill="#78716c"/>
   <text x="70" y="160"  font-size="17" font-weight="700" fill="#1e293b">書寫規範與即時簽名</text>
-  <text x="70" y="184"  font-size="14" fill="#64748b">醫療人員依規定書寫、即時簽名（不得補簽空白或由他人代簽）</text>
+  <text x="70" y="184"  font-size="14" fill="#57534e">醫療人員依規定書寫、即時簽名（不得補簽空白或由他人代簽）</text>
   <!-- 右側標籤 -->
   <rect x="660" y="148" width="80" height="28" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <text x="700" y="167"  font-size="14" font-weight="700" fill="#92400e" text-anchor="middle">抽樣病歷</text>
+  <text x="700" y="167"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">抽樣病歷</text>
 
   <!-- Row 2 -->
   <rect x="50" y="210" width="700" height="62" rx="10" fill="white"/>
   <rect x="50" y="210" width="6" height="62" rx="2" fill="#57534e"/>
   <text x="70" y="235"  font-size="17" font-weight="700" fill="#1e293b">病歷保存管理</text>
-  <text x="70" y="259"  font-size="14" fill="#64748b">保存年限符合規定（門診7年/住院10年），管理程序完整有索引</text>
+  <text x="70" y="259"  font-size="14" fill="#57534e">保存年限符合規定（門診7年/住院10年），管理程序完整有索引</text>
   <!-- 右側標籤 -->
   <rect x="660" y="223" width="80" height="28" rx="14" fill="#f5f5f4" stroke="#78716c" stroke-width="1.5"/>
   <text x="700" y="242"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">年限符規</text>
@@ -31,16 +31,16 @@
   <rect x="50" y="285" width="700" height="62" rx="10" fill="white"/>
   <rect x="50" y="285" width="6" height="62" rx="2" fill="#a8a29e"/>
   <text x="70" y="310"  font-size="17" font-weight="700" fill="#1e293b">調閱管理制度</text>
-  <text x="70" y="334"  font-size="14" fill="#64748b">未授權人員不得查閱，調閱有紀錄可追蹤、外部申請有標準流程</text>
+  <text x="70" y="334"  font-size="14" fill="#57534e">未授權人員不得查閱，調閱有紀錄可追蹤、外部申請有標準流程</text>
   <!-- 右側標籤 -->
   <rect x="660" y="298" width="80" height="28" rx="14" fill="#f5f5f4" stroke="#57534e" stroke-width="1.5"/>
-  <text x="700" y="317"  font-size="14" font-weight="700" fill="#44403c" text-anchor="middle">存取控管</text>
+  <text x="700" y="317"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">存取控管</text>
 
   <!-- Row 4 -->
   <rect x="50" y="360" width="700" height="62" rx="10" fill="white"/>
   <rect x="50" y="360" width="6" height="62" rx="2" fill="#94a3b8"/>
   <text x="70" y="385"  font-size="17" font-weight="700" fill="#1e293b">電子病歷系統合規</text>
-  <text x="70" y="409"  font-size="14" fill="#64748b">符合衛福部電子病歷相關法規，電子簽章有效、資安規定落實</text>
+  <text x="70" y="409"  font-size="14" fill="#57534e">符合衛福部電子病歷相關法規，電子簽章有效、資安規定落實</text>
   <!-- 右側標籤 -->
   <rect x="660" y="373" width="80" height="28" rx="14" fill="#f5f5f4" stroke="#a8a29e" stroke-width="1.5"/>
   <text x="700" y="392"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">法規符合</text>

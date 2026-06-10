@@ -60,7 +60,7 @@
 
   <!-- 底部 -->
   <rect x="40" y="408" width="720" height="48" rx="8" fill="#fef3c7"/>
-  <text x="400" y="428" text-anchor="middle" font-size="14" fill="#92400e" font-weight="700">最後一哩路：請 2 位未參與文件製作的同事「模擬委員」，試閱自評表並找資料</text>
+  <text x="400" y="428" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">最後一哩路：請 2 位未參與文件製作的同事「模擬委員」，試閱自評表並找資料</text>
   <text x="400" y="450" text-anchor="middle" font-size="14" fill="#78716c">能快速找到資料 = 文件結構清晰；找不到 = 需要改善索引</text>
 
   <!-- 浮水印 -->

@@ -5,7 +5,7 @@
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de"/>
 
   <!-- 右側大數字 EPDS -->
-  <text x="1010" y="200" font-size="96" font-weight="900" fill="#7c3aed" text-anchor="middle" opacity="0.85">EPDS</text>
+  <text x="1010" y="200" font-size="96" font-weight="900" fill="#9333ea" text-anchor="middle" opacity="0.85">EPDS</text>
   <text x="1010" y="242" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">愛丁堡產後憂鬱量表</text>
 
   <!-- 分數區間卡片 -->
@@ -17,8 +17,8 @@
   <text x="858" y="341" font-size="22" fill="#d97706" font-weight="700">10–12 分</text>
   <text x="980" y="372" font-size="21" fill="#57534e">輕度傾向需追蹤</text>
 
-  <rect x="840" y="381" width="320" height="52" rx="10" fill="#7c3aed" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="858" y="399" font-size="22" fill="#7c3aed" font-weight="700">>= 13 分</text>
+  <rect x="840" y="381" width="320" height="52" rx="10" fill="#9333ea" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
+  <text x="858" y="399" font-size="22" fill="#9333ea" font-weight="700">>= 13 分</text>
   <text x="952" y="430" font-size="21" fill="#57534e">建議轉介心理健康服務</text>
 
   <rect x="840" y="439" width="320" height="52" rx="10" fill="#dc2626" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
@@ -26,23 +26,23 @@
   <text x="1010" y="487" font-size="19" fill="#57534e">立即評估安全</text>
 
   <!-- 右側底部 -->
-  <rect x="840" y="501" width="320" height="52" rx="10" fill="#7c3aed" opacity="0.10"/>
-  <text x="1000" y="537" font-size="24" fill="#7c3aed" text-anchor="middle" font-weight="700">10 題 · 0–30 分</text>
+  <rect x="840" y="501" width="320" height="52" rx="10" fill="#9333ea" opacity="0.10"/>
+  <text x="1000" y="537" font-size="24" fill="#9333ea" text-anchor="middle" font-weight="700">10 題 · 0–30 分</text>
 
   <rect x="840" y="559" width="320" height="46" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
   <text x="1000" y="588" font-size="20" fill="#57534e" text-anchor="middle">含護理記錄撰寫範例</text>
 
   <!-- 左側主標題 -->
   <text x="60" y="160" font-size="88" font-weight="900" fill="#1e293b">產後憂鬱</text>
-  <text x="60" y="254" font-size="88" font-weight="900" fill="#7c3aed">不只是心情不好</text>
+  <text x="60" y="254" font-size="88" font-weight="900" fill="#9333ea">不只是心情不好</text>
 
   <line x1="60" y1="286" x2="780" y2="286" stroke="#dedad3" stroke-width="2"/>
 
   <text x="60" y="332" font-size="34" fill="#57534e" font-weight="400">B1.1 · EPDS 篩檢流程 + 評鑑紀錄撰寫指南</text>
 
   <!-- 特色標籤列 -->
-  <rect x="60" y="360" width="178" height="52" rx="10" fill="#7c3aed" opacity="0.10"/>
-  <text x="149" y="395" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="600">EPDS 判讀</text>
+  <rect x="60" y="360" width="178" height="52" rx="10" fill="#9333ea" opacity="0.10"/>
+  <text x="149" y="395" font-size="26" fill="#9333ea" text-anchor="middle" font-weight="600">EPDS 判讀</text>
 
   <rect x="250" y="360" width="178" height="52" rx="10" fill="#d97706" opacity="0.12"/>
   <text x="339" y="395" font-size="26" fill="#d97706" text-anchor="middle" font-weight="600">施測時機</text>

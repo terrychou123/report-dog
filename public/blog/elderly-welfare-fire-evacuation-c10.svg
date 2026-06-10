@@ -16,7 +16,7 @@
   <text x="66" y="146" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >1</text>
   <text x="100" y="134" font-size="17" font-weight="bold" fill="#1e293b" >走道、防火門、出入口保持暢通</text>
   <text x="100" y="156" font-size="16" fill="#57534e" >樓梯間、走道、出入口、防火門應保持暢通無阻礙物；安全梯出入口周圍1.5公尺地面標線明示</text>
-  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="121" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="146" font-size="14" fill="#d97706" text-anchor="middle" >隨時確保</text>
 
   <!-- Row 2 -->
@@ -46,7 +46,7 @@
   <text x="66" y="371" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >4</text>
   <text x="100" y="359" font-size="17" font-weight="bold" fill="#1e293b" >中央空調與火警設備連動</text>
   <text x="100" y="381" font-size="16" fill="#57534e" >火災發生時中央空氣調節系統電源開關能和火警自動警報設備連動自動切斷，防止火煙蔓延</text>
-  <rect x="620" y="346" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="346" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="371" font-size="14" fill="#d97706" text-anchor="middle" >自動切斷</text>
 
   <!-- 底部說明 -->

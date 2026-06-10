@@ -42,8 +42,8 @@
 
   <!-- 底部統計 -->
   <rect x="40" y="398" width="720" height="72" rx="10" fill="#fef3c7"/>
-  <text x="400" y="425" font-size="15" fill="#92400e" text-anchor="middle" font-weight="700">B 構面 32 項評鑑基準中</text>
-  <text x="400" y="450" font-size="14" fill="#92400e" text-anchor="middle">護理紀錄直接或間接影響超過 15 項，佔 B 構面近 50% 的得分關鍵</text>
+  <text x="400" y="425" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">B 構面 32 項評鑑基準中</text>
+  <text x="400" y="450" font-size="14" fill="#d97706" text-anchor="middle">護理紀錄直接或間接影響超過 15 項，佔 B 構面近 50% 的得分關鍵</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

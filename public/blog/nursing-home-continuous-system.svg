@@ -7,9 +7,9 @@
   <rect x="40" y="118" width="162" height="270" rx="12" fill="#d97706"/>
   <text x="121" y="172"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="121" y="204"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">即時登錄</text>
-  <text x="121" y="234"  font-size="14" fill="#fff3cd" text-anchor="middle">收到查核通知</text>
-  <text x="121" y="252"  font-size="14" fill="#fff3cd" text-anchor="middle">或缺失函後</text>
-  <text x="121" y="270"  font-size="14" fill="#fff3cd" text-anchor="middle">立即登錄台帳</text>
+  <text x="121" y="234"  font-size="14" fill="#fef3c7" text-anchor="middle">收到查核通知</text>
+  <text x="121" y="252"  font-size="14" fill="#fef3c7" text-anchor="middle">或缺失函後</text>
+  <text x="121" y="270"  font-size="14" fill="#fef3c7" text-anchor="middle">立即登錄台帳</text>
   <text x="121" y="302"  font-size="14" fill="#fef3c7" text-anchor="middle">當日完成</text>
   <!-- 箭頭1 -->
   <text x="214" y="260"  font-size="28" fill="#a8a29e" text-anchor="middle">&#8594;</text>
@@ -17,20 +17,20 @@
   <rect x="222" y="118" width="162" height="270" rx="12" fill="#78716c"/>
   <text x="303" y="172"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="303" y="204"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">制定改善計畫</text>
-  <text x="303" y="234"  font-size="14" fill="#d4ccc8" text-anchor="middle">負責人、方法</text>
-  <text x="303" y="252"  font-size="14" fill="#d4ccc8" text-anchor="middle">目標、期限</text>
-  <text x="303" y="270"  font-size="14" fill="#d4ccc8" text-anchor="middle">主管核准</text>
-  <text x="303" y="302"  font-size="14" fill="#e7e5e4" text-anchor="middle">7 工作天內</text>
+  <text x="303" y="234"  font-size="14" fill="#dedad3" text-anchor="middle">負責人、方法</text>
+  <text x="303" y="252"  font-size="14" fill="#dedad3" text-anchor="middle">目標、期限</text>
+  <text x="303" y="270"  font-size="14" fill="#dedad3" text-anchor="middle">主管核准</text>
+  <text x="303" y="302"  font-size="14" fill="#e8e6de" text-anchor="middle">7 工作天內</text>
   <!-- 箭頭2 -->
   <text x="396" y="260"  font-size="28" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 步驟3 -->
   <rect x="404" y="118" width="162" height="270" rx="12" fill="#57534e"/>
   <text x="485" y="172"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="485" y="204"  font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">執行留佐證</text>
-  <text x="485" y="234"  font-size="14" fill="#d4ccc8" text-anchor="middle">依計畫執行</text>
-  <text x="485" y="252"  font-size="14" fill="#d4ccc8" text-anchor="middle">照片、記錄</text>
-  <text x="485" y="270"  font-size="14" fill="#d4ccc8" text-anchor="middle">採購單據</text>
-  <text x="485" y="302"  font-size="14" fill="#e7e5e4" text-anchor="middle">計畫期限內</text>
+  <text x="485" y="234"  font-size="14" fill="#dedad3" text-anchor="middle">依計畫執行</text>
+  <text x="485" y="252"  font-size="14" fill="#dedad3" text-anchor="middle">照片、記錄</text>
+  <text x="485" y="270"  font-size="14" fill="#dedad3" text-anchor="middle">採購單據</text>
+  <text x="485" y="302"  font-size="14" fill="#e8e6de" text-anchor="middle">計畫期限內</text>
   <!-- 箭頭3 -->
   <text x="578" y="260"  font-size="28" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 步驟4 -->

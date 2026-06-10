@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">行政組負責</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">A1工作手冊、A2入出機構辦法、A3業務計畫、A4缺失改善表、A5住民保護、A6危機管理</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="127"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">9 項</text>
-  <text x="624" y="145"  font-size="14" fill="#92400e" text-anchor="middle">A1–A6+訓練</text>
+  <text x="624" y="127"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">9 項</text>
+  <text x="624" y="145"  font-size="14" fill="#d97706" text-anchor="middle">A1–A6+訓練</text>
 
   <!-- Row 2: 社工組 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>

@@ -4,77 +4,77 @@
   <rect x="20" y="20" width="760" height="460" fill="white" rx="12"/>
 
   <!-- 標題列 -->
-  <rect x="20" y="20" width="760" height="60" fill="#8b5cf6" rx="12"/>
-  <rect x="20" y="60" width="760" height="20" fill="#8b5cf6"/>
+  <rect x="20" y="20" width="760" height="60" fill="#9333ea" rx="12"/>
+  <rect x="20" y="60" width="760" height="20" fill="#9333ea"/>
   <text x="400" y="58" font-size="22" font-weight="700" fill="white" text-anchor="middle">安寧緩和療護年度教育訓練規劃</text>
 
   <!-- 季度標題 -->
   <!-- Q1 -->
-  <rect x="50" y="105" width="155" height="30" rx="6" fill="#3b82f6"/>
+  <rect x="50" y="105" width="155" height="30" rx="6" fill="#2563eb"/>
   <text x="128" y="125" font-size="14" font-weight="700" fill="white" text-anchor="middle">第一季（1–3月）</text>
 
   <!-- Q2 -->
-  <rect x="220" y="105" width="155" height="30" rx="6" fill="#10b981"/>
+  <rect x="220" y="105" width="155" height="30" rx="6" fill="#16a34a"/>
   <text x="298" y="125" font-size="14" font-weight="700" fill="white" text-anchor="middle">第二季（4–6月）</text>
 
   <!-- Q3 -->
-  <rect x="390" y="105" width="155" height="30" rx="6" fill="#8b5cf6"/>
+  <rect x="390" y="105" width="155" height="30" rx="6" fill="#9333ea"/>
   <text x="468" y="125" font-size="14" font-weight="700" fill="white" text-anchor="middle">第三季（7–9月）</text>
 
   <!-- Q4 -->
-  <rect x="560" y="105" width="190" height="30" rx="6" fill="#f59e0b"/>
+  <rect x="560" y="105" width="190" height="30" rx="6" fill="#d97706"/>
   <text x="655" y="125" font-size="14" font-weight="700" fill="white" text-anchor="middle">第四季（10–12月）</text>
 
   <!-- 訓練主題卡片 Q1 -->
-  <rect x="50" y="148" width="155" height="210" rx="10" fill="#dbeafe"/>
-  <text x="128" y="178" font-size="14" font-weight="700" fill="#1e3a5f" text-anchor="middle">安寧療護基本概念</text>
-  <line x1="65" y1="190" x2="190" y2="190" stroke="#bfdbfe" stroke-width="1"/>
-  <text x="65" y="212" font-size="14" fill="#334155">* 安寧療護理念</text>
-  <text x="65" y="232" font-size="14" fill="#334155">* 適用對象說明</text>
-  <text x="65" y="252" font-size="14" fill="#334155">* 家屬溝通技巧</text>
-  <text x="65" y="272" font-size="14" fill="#334155">* 病人自主權利法</text>
-  <text x="65" y="292" font-size="14" fill="#334155">* AD 預立醫療決定</text>
-  <text x="128" y="340" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="700">建議時數：2小時</text>
+  <rect x="50" y="148" width="155" height="210" rx="10" fill="#eff6ff"/>
+  <text x="128" y="178" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">安寧療護基本概念</text>
+  <line x1="65" y1="190" x2="190" y2="190" stroke="#eff6ff" stroke-width="1"/>
+  <text x="65" y="212" font-size="14" fill="#1e293b">* 安寧療護理念</text>
+  <text x="65" y="232" font-size="14" fill="#1e293b">* 適用對象說明</text>
+  <text x="65" y="252" font-size="14" fill="#1e293b">* 家屬溝通技巧</text>
+  <text x="65" y="272" font-size="14" fill="#1e293b">* 病人自主權利法</text>
+  <text x="65" y="292" font-size="14" fill="#1e293b">* AD 預立醫療決定</text>
+  <text x="128" y="340" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- Q2 -->
-  <rect x="220" y="148" width="155" height="210" rx="10" fill="#d1fae5"/>
-  <text x="298" y="178" font-size="14" font-weight="700" fill="#065f46" text-anchor="middle">疼痛與症狀管理</text>
+  <rect x="220" y="148" width="155" height="210" rx="10" fill="#f0fdf4"/>
+  <text x="298" y="178" font-size="14" font-weight="700" fill="#16a34a" text-anchor="middle">疼痛與症狀管理</text>
   <line x1="235" y1="190" x2="360" y2="190" stroke="#a7f3d0" stroke-width="1"/>
-  <text x="235" y="212" font-size="14" fill="#334155">* 疼痛評估工具</text>
-  <text x="235" y="232" font-size="14" fill="#334155">* 非藥物舒適照護</text>
-  <text x="235" y="252" font-size="14" fill="#334155">* 口腔濕潤照護</text>
-  <text x="235" y="272" font-size="14" fill="#334155">* 翻身/擺位技巧</text>
-  <text x="235" y="292" font-size="14" fill="#334155">* 壓傷預防</text>
-  <text x="298" y="340" font-size="14" fill="#10b981" text-anchor="middle" font-weight="700">建議時數：2小時</text>
+  <text x="235" y="212" font-size="14" fill="#1e293b">* 疼痛評估工具</text>
+  <text x="235" y="232" font-size="14" fill="#1e293b">* 非藥物舒適照護</text>
+  <text x="235" y="252" font-size="14" fill="#1e293b">* 口腔濕潤照護</text>
+  <text x="235" y="272" font-size="14" fill="#1e293b">* 翻身/擺位技巧</text>
+  <text x="235" y="292" font-size="14" fill="#1e293b">* 壓傷預防</text>
+  <text x="298" y="340" font-size="14" fill="#16a34a" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- Q3 -->
-  <rect x="390" y="148" width="155" height="210" rx="10" fill="#ede9fe"/>
-  <text x="468" y="178" font-size="14" font-weight="700" fill="#3b0764" text-anchor="middle">心理靈性支持</text>
+  <rect x="390" y="148" width="155" height="210" rx="10" fill="#faf5ff"/>
+  <text x="468" y="178" font-size="14" font-weight="700" fill="#9333ea" text-anchor="middle">心理靈性支持</text>
   <line x1="405" y1="190" x2="530" y2="190" stroke="#ddd6fe" stroke-width="1"/>
-  <text x="405" y="212" font-size="14" fill="#334155">* 末期情緒支持</text>
-  <text x="405" y="232" font-size="14" fill="#334155">* 悲傷輔導基礎</text>
-  <text x="405" y="252" font-size="14" fill="#334155">* 家屬哀傷關懷</text>
-  <text x="405" y="272" font-size="14" fill="#334155">* 宗教/靈性需求</text>
-  <text x="405" y="292" font-size="14" fill="#334155">* 工作人員自我照顧</text>
-  <text x="468" y="340" font-size="14" fill="#8b5cf6" text-anchor="middle" font-weight="700">建議時數：2小時</text>
+  <text x="405" y="212" font-size="14" fill="#1e293b">* 末期情緒支持</text>
+  <text x="405" y="232" font-size="14" fill="#1e293b">* 悲傷輔導基礎</text>
+  <text x="405" y="252" font-size="14" fill="#1e293b">* 家屬哀傷關懷</text>
+  <text x="405" y="272" font-size="14" fill="#1e293b">* 宗教/靈性需求</text>
+  <text x="405" y="292" font-size="14" fill="#1e293b">* 工作人員自我照顧</text>
+  <text x="468" y="340" font-size="14" fill="#9333ea" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- Q4 -->
   <rect x="560" y="148" width="190" height="210" rx="10" fill="#fef3c7"/>
-  <text x="655" y="178" font-size="14" font-weight="700" fill="#78350f" text-anchor="middle">實務演練與年度回顧</text>
-  <line x1="575" y1="190" x2="735" y2="190" stroke="#fde68a" stroke-width="1"/>
-  <text x="575" y="212" font-size="14" fill="#334155">* 轉介流程演練</text>
-  <text x="575" y="232" font-size="14" fill="#334155">* 案例研討討論</text>
-  <text x="575" y="252" font-size="14" fill="#334155">* 年度訓練成效評估</text>
-  <text x="575" y="272" font-size="14" fill="#334155">* 訓練需求調查</text>
-  <text x="575" y="292" font-size="14" fill="#334155">* 次年計畫訂定</text>
-  <text x="655" y="340" font-size="14" fill="#f59e0b" text-anchor="middle" font-weight="700">建議時數：2小時</text>
+  <text x="655" y="178" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">實務演練與年度回顧</text>
+  <line x1="575" y1="190" x2="735" y2="190" stroke="#fef3c7" stroke-width="1"/>
+  <text x="575" y="212" font-size="14" fill="#1e293b">* 轉介流程演練</text>
+  <text x="575" y="232" font-size="14" fill="#1e293b">* 案例研討討論</text>
+  <text x="575" y="252" font-size="14" fill="#1e293b">* 年度訓練成效評估</text>
+  <text x="575" y="272" font-size="14" fill="#1e293b">* 訓練需求調查</text>
+  <text x="575" y="292" font-size="14" fill="#1e293b">* 次年計畫訂定</text>
+  <text x="655" y="340" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700">建議時數：2小時</text>
 
   <!-- 年度總結 -->
   <rect x="50" y="385" width="700" height="75" rx="10" fill="#f1f5f9"/>
-  <rect x="50" y="385" width="4" height="75" rx="2" fill="#3b82f6"/>
-  <text x="70" y="410" font-size="14" font-weight="700" fill="#1e3a5f">訓練記錄備查要件</text>
-  <text x="70" y="432" font-size="14" fill="#475569">課程名稱 · 訓練日期 · 講師姓名/資格 · 出席人員簽到表 · 訓練教材 · 測驗或評估記錄</text>
-  <text x="70" y="452" font-size="14" fill="#475569">每次訓練應留存：出席簽到表 + 課程資料（或照片）＋ 成效評估（問卷/測驗成績）</text>
+  <rect x="50" y="385" width="4" height="75" rx="2" fill="#2563eb"/>
+  <text x="70" y="410" font-size="14" font-weight="700" fill="#1e293b">訓練記錄備查要件</text>
+  <text x="70" y="432" font-size="14" fill="#57534e">課程名稱 · 訓練日期 · 講師姓名/資格 · 出席人員簽到表 · 訓練教材 · 測驗或評估記錄</text>
+  <text x="70" y="452" font-size="14" fill="#57534e">每次訓練應留存：出席簽到表 + 課程資料（或照片）＋ 成效評估（問卷/測驗成績）</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

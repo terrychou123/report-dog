@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8"/>
-  <rect width="800" height="6" fill="#7c3aed"/>
+  <rect width="800" height="6" fill="#9333ea"/>
 
   <!-- 標題 -->
-  <text x="400" y="42" font-size="21" fill="#6d28d9" font-weight="bold" text-anchor="middle">年度在職訓練計畫表範例（每年>=16小時）</text>
+  <text x="400" y="42" font-size="21" fill="#9333ea" font-weight="bold" text-anchor="middle">年度在職訓練計畫表範例（每年>=16小時）</text>
 
   <!-- 表頭 -->
-  <rect x="20" y="58" width="760" height="36" fill="#7c3aed" rx="6"/>
+  <rect x="20" y="58" width="760" height="36" fill="#9333ea" rx="6"/>
   <text x="55" y="80" font-size="14" fill="white" font-weight="bold" text-anchor="middle">月份</text>
   <text x="210" y="80" font-size="14" fill="white" font-weight="bold" text-anchor="middle">訓練主題</text>
   <text x="460" y="80" font-size="14" fill="white" font-weight="bold" text-anchor="middle">訓練內容重點</text>
@@ -24,82 +24,82 @@
   <!-- 列1 -->
   <rect x="20" y="94" width="760" height="38" fill="white"/>
   <line x1="20" y1="132" x2="780" y2="132" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="118" font-size="14" fill="#44403c" text-anchor="middle">1–2月</text>
-  <text x="205" y="112" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">感染控制</text>
+  <text x="55" y="118" font-size="14" fill="#57534e" text-anchor="middle">1–2月</text>
+  <text x="205" y="112" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">感染控制</text>
   <text x="205" y="129" font-size="14" fill="#78716c" text-anchor="middle">手部衛生、隔離措施</text>
-  <text x="455" y="112" font-size="14" fill="#44403c" text-anchor="middle">標準防護、飛沫/接觸隔離、手部衛生實作</text>
-  <text x="650" y="118" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">2 小時</text>
-  <text x="740" y="118" font-size="14" fill="#44403c" text-anchor="middle">護理長</text>
+  <text x="455" y="112" font-size="14" fill="#57534e" text-anchor="middle">標準防護、飛沫/接觸隔離、手部衛生實作</text>
+  <text x="650" y="118" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">2 小時</text>
+  <text x="740" y="118" font-size="14" fill="#57534e" text-anchor="middle">護理長</text>
 
   <!-- 列2 -->
   <rect x="20" y="132" width="760" height="38" fill="#faf5ff"/>
   <line x1="20" y1="170" x2="780" y2="170" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="156" font-size="14" fill="#44403c" text-anchor="middle">3月</text>
-  <text x="205" y="150" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">急救訓練</text>
+  <text x="55" y="156" font-size="14" fill="#57534e" text-anchor="middle">3月</text>
+  <text x="205" y="150" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">急救訓練</text>
   <text x="205" y="167" font-size="14" fill="#78716c" text-anchor="middle">CPR / AED 操作</text>
-  <text x="455" y="150" font-size="14" fill="#44403c" text-anchor="middle">心肺復甦術、AED使用、急救情境演練</text>
-  <text x="650" y="156" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">3 小時</text>
-  <text x="740" y="156" font-size="14" fill="#44403c" text-anchor="middle">護理師</text>
+  <text x="455" y="150" font-size="14" fill="#57534e" text-anchor="middle">心肺復甦術、AED使用、急救情境演練</text>
+  <text x="650" y="156" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">3 小時</text>
+  <text x="740" y="156" font-size="14" fill="#57534e" text-anchor="middle">護理師</text>
 
   <!-- 列3 -->
   <rect x="20" y="170" width="760" height="38" fill="white"/>
   <line x1="20" y1="208" x2="780" y2="208" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="194" font-size="14" fill="#44403c" text-anchor="middle">5月</text>
-  <text x="205" y="188" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">評鑑基準研讀</text>
+  <text x="55" y="194" font-size="14" fill="#57534e" text-anchor="middle">5月</text>
+  <text x="205" y="188" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">評鑑基準研讀</text>
   <text x="205" y="205" font-size="14" fill="#78716c" text-anchor="middle">A/B 區評鑑項目</text>
-  <text x="455" y="188" font-size="14" fill="#44403c" text-anchor="middle">115年度評鑑基準解析、自我查核練習</text>
-  <text x="650" y="194" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">2 小時</text>
-  <text x="740" y="194" font-size="14" fill="#44403c" text-anchor="middle">主任</text>
+  <text x="455" y="188" font-size="14" fill="#57534e" text-anchor="middle">115年度評鑑基準解析、自我查核練習</text>
+  <text x="650" y="194" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">2 小時</text>
+  <text x="740" y="194" font-size="14" fill="#57534e" text-anchor="middle">主任</text>
 
   <!-- 列4 -->
   <rect x="20" y="208" width="760" height="38" fill="#faf5ff"/>
   <line x1="20" y1="246" x2="780" y2="246" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="232" font-size="14" fill="#44403c" text-anchor="middle">7月</text>
-  <text x="205" y="226" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">安全照護</text>
+  <text x="55" y="232" font-size="14" fill="#57534e" text-anchor="middle">7月</text>
+  <text x="205" y="226" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">安全照護</text>
   <text x="205" y="243" font-size="14" fill="#78716c" text-anchor="middle">跌倒預防、約束使用</text>
-  <text x="455" y="226" font-size="14" fill="#44403c" text-anchor="middle">跌倒風險評估、環境改善、約束使用規範</text>
-  <text x="650" y="232" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">2 小時</text>
-  <text x="740" y="232" font-size="14" fill="#44403c" text-anchor="middle">護理長</text>
+  <text x="455" y="226" font-size="14" fill="#57534e" text-anchor="middle">跌倒風險評估、環境改善、約束使用規範</text>
+  <text x="650" y="232" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">2 小時</text>
+  <text x="740" y="232" font-size="14" fill="#57534e" text-anchor="middle">護理長</text>
 
   <!-- 列5 -->
   <rect x="20" y="246" width="760" height="38" fill="white"/>
   <line x1="20" y1="284" x2="780" y2="284" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="270" font-size="14" fill="#44403c" text-anchor="middle">9月</text>
-  <text x="205" y="264" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">壓傷護理</text>
+  <text x="55" y="270" font-size="14" fill="#57534e" text-anchor="middle">9月</text>
+  <text x="205" y="264" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">壓傷護理</text>
   <text x="205" y="281" font-size="14" fill="#78716c" text-anchor="middle">NPUAP分期/換藥</text>
-  <text x="455" y="264" font-size="14" fill="#44403c" text-anchor="middle">壓傷分期判斷、換藥技術、記錄格式</text>
-  <text x="650" y="270" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">2 小時</text>
-  <text x="740" y="270" font-size="14" fill="#44403c" text-anchor="middle">護理師</text>
+  <text x="455" y="264" font-size="14" fill="#57534e" text-anchor="middle">壓傷分期判斷、換藥技術、記錄格式</text>
+  <text x="650" y="270" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">2 小時</text>
+  <text x="740" y="270" font-size="14" fill="#57534e" text-anchor="middle">護理師</text>
 
   <!-- 列6 -->
   <rect x="20" y="284" width="760" height="38" fill="#faf5ff"/>
   <line x1="20" y1="322" x2="780" y2="322" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="308" font-size="14" fill="#44403c" text-anchor="middle">10月</text>
-  <text x="205" y="302" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">認知症照護</text>
+  <text x="55" y="308" font-size="14" fill="#57534e" text-anchor="middle">10月</text>
+  <text x="205" y="302" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">認知症照護</text>
   <text x="205" y="319" font-size="14" fill="#78716c" text-anchor="middle">失智者行為應對</text>
-  <text x="455" y="302" font-size="14" fill="#44403c" text-anchor="middle">失智症症狀認識、非藥物介入、溝通技巧</text>
-  <text x="650" y="308" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">2 小時</text>
-  <text x="740" y="308" font-size="14" fill="#44403c" text-anchor="middle">外聘師資</text>
+  <text x="455" y="302" font-size="14" fill="#57534e" text-anchor="middle">失智症症狀認識、非藥物介入、溝通技巧</text>
+  <text x="650" y="308" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">2 小時</text>
+  <text x="740" y="308" font-size="14" fill="#57534e" text-anchor="middle">外聘師資</text>
 
   <!-- 列7 -->
   <rect x="20" y="322" width="760" height="38" fill="white"/>
   <line x1="20" y1="360" x2="780" y2="360" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="55" y="346" font-size="14" fill="#44403c" text-anchor="middle">12月</text>
-  <text x="205" y="340" font-size="14" fill="#1e3a5f" font-weight="bold" text-anchor="middle">消防安全</text>
+  <text x="55" y="346" font-size="14" fill="#57534e" text-anchor="middle">12月</text>
+  <text x="205" y="340" font-size="14" fill="#1e293b" font-weight="bold" text-anchor="middle">消防安全</text>
   <text x="205" y="357" font-size="14" fill="#78716c" text-anchor="middle">緊急疏散演練</text>
-  <text x="455" y="340" font-size="14" fill="#44403c" text-anchor="middle">消防設備操作、疏散路線、役前演練</text>
-  <text x="650" y="346" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">3 小時</text>
-  <text x="740" y="346" font-size="14" fill="#44403c" text-anchor="middle">主任</text>
+  <text x="455" y="340" font-size="14" fill="#57534e" text-anchor="middle">消防設備操作、疏散路線、役前演練</text>
+  <text x="650" y="346" font-size="14" fill="#9333ea" font-weight="bold" text-anchor="middle">3 小時</text>
+  <text x="740" y="346" font-size="14" fill="#57534e" text-anchor="middle">主任</text>
 
   <!-- 合計 -->
-  <rect x="20" y="360" width="760" height="38" fill="#7c3aed" rx="0"/>
-  <rect x="20" y="380" width="760" height="18" fill="#7c3aed"/>
+  <rect x="20" y="360" width="760" height="38" fill="#9333ea" rx="0"/>
+  <rect x="20" y="380" width="760" height="18" fill="#9333ea"/>
   <text x="400" y="384" font-size="15" fill="white" font-weight="bold" text-anchor="middle">年度合計：16 小時（符合 A1.1 規定）＊可依需求增加額外訓練主題</text>
 
   <!-- 底部提示 -->
   <rect x="20" y="406" width="760" height="54" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="1.5"/>
-  <text x="45" y="425" font-size="14" fill="#92400e" font-weight="bold">存檔文件要求：</text>
-  <text x="45" y="443" font-size="14" fill="#44403c">年度訓練計畫書 ＋ 每次訓練簽到表 ＋ 訓練教材 ＋ 護理師完訓記錄（建議：建立個人訓練歷程檔）</text>
+  <text x="45" y="425" font-size="14" fill="#d97706" font-weight="bold">存檔文件要求：</text>
+  <text x="45" y="443" font-size="14" fill="#57534e">年度訓練計畫書 ＋ 每次訓練簽到表 ＋ 訓練教材 ＋ 護理師完訓記錄（建議：建立個人訓練歷程檔）</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>

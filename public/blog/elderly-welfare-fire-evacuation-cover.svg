@@ -8,7 +8,7 @@
   <!-- 右側圖示裝飾：年度演練圖示 -->
   <circle cx="960" cy="220" r="120" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
   <text x="960" y="200" font-size="48" text-anchor="middle" ></text>
-  <text x="960" y="255" font-size="28" font-weight="bold" fill="#92400e" text-anchor="middle" >年度演練</text>
+  <text x="960" y="255" font-size="28" font-weight="bold" fill="#d97706" text-anchor="middle" >年度演練</text>
   <text x="960" y="290" font-size="22" fill="#78716c" text-anchor="middle" >複合型 ＋ 夜間各1次</text>
 
   <!-- 右側小資訊框 -->
@@ -27,11 +27,11 @@
   <!-- Pill 標籤 -->
   <rect x="80" y="420" width="150" height="44" rx="22" fill="#d97706"/>
   <text x="155" y="448" font-size="19" fill="white" text-anchor="middle" >C9-C12指標</text>
-  <rect x="244" y="420" width="130" height="44" rx="22" fill="#b45309"/>
+  <rect x="244" y="420" width="130" height="44" rx="22" fill="#d97706"/>
   <text x="309" y="448" font-size="19" fill="white" text-anchor="middle" >消防申報</text>
-  <rect x="388" y="420" width="130" height="44" rx="22" fill="#92400e"/>
+  <rect x="388" y="420" width="130" height="44" rx="22" fill="#d97706"/>
   <text x="453" y="448" font-size="19" fill="white" text-anchor="middle" >年度演練</text>
-  <rect x="532" y="420" width="130" height="44" rx="22" fill="#78350f"/>
+  <rect x="532" y="420" width="130" height="44" rx="22" fill="#d97706"/>
   <text x="597" y="448" font-size="19" fill="white" text-anchor="middle" >多人協作</text>
 
   <!-- 底部細節 -->

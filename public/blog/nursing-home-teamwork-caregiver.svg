@@ -7,8 +7,8 @@
 
   <!-- 比例快速計算 -->
   <rect x="40" y="108" width="720" height="50" rx="8" fill="#fef3c7"/>
-  <text x="400" y="130" font-size="15" fill="#92400e" text-anchor="middle" font-weight="700">A11 照服員比例：長照 日1:5 / 夜1:15 ｜養護 日1:8 / 夜1:25 ｜失智 日1:3 / 夜1:15</text>
-  <text x="400" y="150" font-size="14" fill="#92400e" text-anchor="middle">外籍照服員不超過本國籍護理人員+本國籍照服員總人數</text>
+  <text x="400" y="130" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">A11 照服員比例：長照 日1:5 / 夜1:15 ｜養護 日1:8 / 夜1:25 ｜失智 日1:3 / 夜1:15</text>
+  <text x="400" y="150" font-size="14" fill="#d97706" text-anchor="middle">外籍照服員不超過本國籍護理人員+本國籍照服員總人數</text>
 
   <!-- 項目 1 -->
   <rect x="40" y="172" width="340" height="145" rx="10" fill="#ffffff" stroke="#57534e" stroke-width="2"/>

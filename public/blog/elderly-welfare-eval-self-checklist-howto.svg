@@ -12,7 +12,7 @@
   <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
   <!-- 綠燈雙圈設計（保留） -->
-  <circle cx="83" cy="211" r="20" fill="#dcfce7"/>
+  <circle cx="83" cy="211" r="20" fill="#f0fdf4"/>
   <circle cx="83" cy="211" r="12" fill="#16a34a"/>
   <text x="116" y="209" font-size="22" font-weight="700" fill="#1e293b">綠燈｜符合</text>
   <text x="116" y="230" font-size="16" fill="#57534e">文件齊備、執行有紀錄，可隨時應評。維持現況即可，無需額外行動。</text>

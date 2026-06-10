@@ -19,11 +19,11 @@
   <text x="60" y="395" font-size="20" fill="#78716c" >評鑑指標 12-14、24 | 托育活動區塊核心文件</text>
   <text x="60" y="428" font-size="20" fill="#78716c" >臺北市 114-116 年度托嬰中心評鑑</text>
   <!-- 標籤群 -->
-  <rect x="60" y="468" width="140" height="32" rx="16" fill="#f5f0e8" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="60" y="468" width="140" height="32" rx="16" fill="#f0efe8" stroke="#d97706" stroke-width="1.5"/>
   <text x="130" y="489" font-size="14" fill="#d97706" text-anchor="middle" >個別化照顧</text>
-  <rect x="212" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="212" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <text x="272" y="489" font-size="14" fill="#78716c" text-anchor="middle" >發展評量</text>
-  <rect x="344" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="344" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <text x="404" y="489" font-size="14" fill="#78716c" text-anchor="middle" >114年度</text>
   <!-- 右側裝飾大字 -->
   <text x="1010" y="310" font-size="180" fill="#d97706" text-anchor="middle"  font-weight="900" opacity="0.15">個</text>

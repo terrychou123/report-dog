@@ -9,14 +9,14 @@
   <!-- P - 計畫 -->
   <rect x="60" y="130" width="290" height="140" rx="12" fill="#d97706"/>
   <text x="205" y="175" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">P — Plan</text>
-  <text x="205" y="203" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">計畫</text>
+  <text x="205" y="203" text-anchor="middle" font-size="18" fill="#fef3c7" font-weight="600">計畫</text>
   <text x="80" y="232" font-size="14" fill="#fff">• 選擇 3 個以上風險類型</text>
   <text x="80" y="254" font-size="14" fill="#fff">• 訂定各風險計畫書</text>
 
   <!-- D - 執行 -->
   <rect x="450" y="130" width="290" height="140" rx="12" fill="#78716c"/>
   <text x="595" y="175" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">D — Do</text>
-  <text x="595" y="203" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">執行</text>
+  <text x="595" y="203" text-anchor="middle" font-size="18" fill="#fef3c7" font-weight="600">執行</text>
   <text x="470" y="232" font-size="14" fill="#fff">• 事件發生時依計畫執行</text>
   <text x="470" y="254" font-size="14" fill="#fff">• 完整記錄處理過程</text>
 
@@ -28,14 +28,14 @@
   <!-- C - 查核 -->
   <rect x="450" y="310" width="290" height="140" rx="12" fill="#d97706"/>
   <text x="595" y="355" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">C — Check</text>
-  <text x="595" y="383" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">查核</text>
+  <text x="595" y="383" text-anchor="middle" font-size="18" fill="#fef3c7" font-weight="600">查核</text>
   <text x="470" y="412" font-size="14" fill="#fff">• 每半年定期進行分析</text>
   <text x="470" y="434" font-size="14" fill="#fff">• 撰寫分析報告</text>
 
   <!-- A - 行動 -->
   <rect x="60" y="310" width="290" height="140" rx="12" fill="#78716c"/>
   <text x="205" y="355" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">A — Act</text>
-  <text x="205" y="383" text-anchor="middle" font-size="18" fill="#fde68a" font-weight="600">行動</text>
+  <text x="205" y="383" text-anchor="middle" font-size="18" fill="#fef3c7" font-weight="600">行動</text>
   <text x="80" y="412" font-size="14" fill="#fff">• 制定改善措施</text>
   <text x="80" y="434" font-size="14" fill="#fff">• 追蹤改善成效</text>
 
@@ -56,7 +56,7 @@
 
   <!-- 每半年的標示 -->
   <rect x="310" y="265" width="180" height="36" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
-  <text x="400" y="289" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">每半年一循環</text>
+  <text x="400" y="289" text-anchor="middle" font-size="15" fill="#d97706" font-weight="700">每半年一循環</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

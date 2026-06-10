@@ -29,7 +29,7 @@
   <text x="100" y="263" font-size="18" font-weight="bold" fill="#1e293b" >樓層覆蓋與氧氣瓶要求</text>
   <text x="100" y="286" font-size="16" fill="#57534e" >每層樓設護理站或簡易護理工作站；機構內至少 1 處護理站；</text>
   <text x="100" y="305" font-size="16" fill="#57534e" >氧氣瓶須在有效期限內；每護理站至少 1 套急救設備</text>
-  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="254" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="272" font-size="14" fill="#d97706" text-anchor="middle" >每層設置</text>
   <text x="688" y="291" font-size="14" fill="#d97706" text-anchor="middle" >氧氣在效期</text>
 

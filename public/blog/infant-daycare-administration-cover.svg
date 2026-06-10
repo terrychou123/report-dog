@@ -9,11 +9,11 @@
   <line x1="60" y1="350" x2="480" y2="350" stroke="#d97706" stroke-width="3"/>
   <text x="60" y="395" font-size="20" fill="#78716c" >指標 1-11 | 必備文件清單 | 常見扣分陷阱</text>
   <text x="60" y="428" font-size="20" fill="#78716c" >臺北市 114-116 年度托嬰中心評鑑</text>
-  <rect x="60" y="468" width="140" height="32" rx="16" fill="#f5f0e8" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="60" y="468" width="140" height="32" rx="16" fill="#f0efe8" stroke="#d97706" stroke-width="1.5"/>
   <text x="130" y="489" font-size="14" fill="#d97706" text-anchor="middle" >行政管理</text>
-  <rect x="212" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="212" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <text x="272" y="489" font-size="14" fill="#78716c" text-anchor="middle" >在職訓練</text>
-  <rect x="344" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="344" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <text x="404" y="489" font-size="14" fill="#78716c" text-anchor="middle" >文書管理</text>
   <!-- 右側大數字 -->
   <text x="1010" y="320" font-size="200" fill="#d97706" text-anchor="middle"  font-weight="900" opacity="0.12">11</text>

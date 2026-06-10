@@ -61,7 +61,7 @@
 
   <!-- 說明 -->
   <rect x="40" y="408" width="720" height="48" rx="8" fill="#fef3c7"/>
-  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#92400e" font-weight="700">B10 和 B25 均屬「二級加強」項目，評鑑委員將特別深入查核，建議備妥完整佐證文件！</text>
+  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">B10 和 B25 均屬「二級加強」項目，評鑑委員將特別深入查核，建議備妥完整佐證文件！</text>
   <text x="400" y="450" text-anchor="middle" font-size="14" fill="#78716c">抽測：評鑑委員可能現場抽測工作人員洗手技術、查看消毒液效期標示</text>
 
   <!-- 浮水印 -->

@@ -3,49 +3,49 @@
   <rect width="1200" height="630" fill="#f0efe8"/>
 
   <!-- 左側色塊 -->
-  <rect x="0" y="0" width="480" height="630" fill="#3b82f6" rx="0"/>
-  <rect x="460" y="0" width="40" height="630" fill="#60a5fa" rx="0"/>
+  <rect x="0" y="0" width="480" height="630" fill="#2563eb" rx="0"/>
+  <rect x="460" y="0" width="40" height="630" fill="#2563eb" rx="0"/>
 
   <!-- 大字 A2.2 -->
   <text x="80" y="200" font-size="160" font-weight="900" fill="white" opacity="0.18">A2.2</text>
   <text x="80" y="320" font-size="72" font-weight="900" fill="white">A2.2</text>
-  <text x="80" y="390" font-size="28" fill="#bfdbfe">安寧緩和療護</text>
-  <text x="80" y="440" font-size="22" fill="#bfdbfe">Palliative Care</text>
+  <text x="80" y="390" font-size="28" fill="#eff6ff">安寧緩和療護</text>
+  <text x="80" y="440" font-size="22" fill="#eff6ff">Palliative Care</text>
 
   <!-- 右側標題 -->
-  <text x="540" y="120" font-size="38" font-weight="900" fill="#1e3a5f">護理之家</text>
-  <text x="540" y="175" font-size="38" font-weight="900" fill="#1e3a5f">安寧緩和療護評鑑</text>
-  <text x="540" y="230" font-size="24" fill="#3b82f6">AD 預立醫療決定 · 轉介機制</text>
-  <text x="540" y="270" font-size="20" fill="#64748b">115 年度評鑑基準完整解析</text>
+  <text x="540" y="120" font-size="38" font-weight="900" fill="#1e293b">護理之家</text>
+  <text x="540" y="175" font-size="38" font-weight="900" fill="#1e293b">安寧緩和療護評鑑</text>
+  <text x="540" y="230" font-size="24" fill="#2563eb">AD 預立醫療決定 · 轉介機制</text>
+  <text x="540" y="270" font-size="20" fill="#57534e">115 年度評鑑基準完整解析</text>
 
   <!-- 4項要素卡片 -->
   <!-- 卡片1 -->
   <rect x="540" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="540" y="310" width="8" height="110" rx="4" fill="#3b82f6"/>
-  <text x="562" y="350" font-size="24" font-weight="700" fill="#1e3a5f">1 住民與家屬資訊提供</text>
-  <text x="562" y="375" font-size="20" fill="#475569">入住說明 · 衛教資料</text>
-  <text x="562" y="398" font-size="20" fill="#475569">安寧療護諮詢管道</text>
+  <rect x="540" y="310" width="8" height="110" rx="4" fill="#2563eb"/>
+  <text x="562" y="350" font-size="24" font-weight="700" fill="#1e293b">1 住民與家屬資訊提供</text>
+  <text x="562" y="375" font-size="20" fill="#57534e">入住說明 · 衛教資料</text>
+  <text x="562" y="398" font-size="20" fill="#57534e">安寧療護諮詢管道</text>
 
   <!-- 卡片2 -->
   <rect x="850" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="850" y="310" width="8" height="110" rx="4" fill="#10b981"/>
-  <text x="872" y="358" font-size="24" font-weight="700" fill="#1e3a5f">2 AD 預立醫療決定</text>
-  <text x="872" y="389" font-size="20" fill="#475569">住民意願尊重</text>
-  <text x="872" y="398" font-size="20" fill="#475569">辦理協助與轉介</text>
+  <rect x="850" y="310" width="8" height="110" rx="4" fill="#16a34a"/>
+  <text x="872" y="358" font-size="24" font-weight="700" fill="#1e293b">2 AD 預立醫療決定</text>
+  <text x="872" y="389" font-size="20" fill="#57534e">住民意願尊重</text>
+  <text x="872" y="398" font-size="20" fill="#57534e">辦理協助與轉介</text>
 
   <!-- 卡片3 -->
   <rect x="540" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="540" y="440" width="8" height="110" rx="4" fill="#8b5cf6"/>
-  <text x="562" y="480" font-size="24" font-weight="700" fill="#1e3a5f">3 工作人員教育訓練</text>
-  <text x="562" y="505" font-size="20" fill="#475569">安寧理念 · 症狀控制</text>
-  <text x="562" y="528" font-size="20" fill="#475569">溝通技巧 · 家屬支持</text>
+  <rect x="540" y="440" width="8" height="110" rx="4" fill="#9333ea"/>
+  <text x="562" y="480" font-size="24" font-weight="700" fill="#1e293b">3 工作人員教育訓練</text>
+  <text x="562" y="505" font-size="20" fill="#57534e">安寧理念 · 症狀控制</text>
+  <text x="562" y="528" font-size="20" fill="#57534e">溝通技巧 · 家屬支持</text>
 
   <!-- 卡片4 -->
   <rect x="850" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="850" y="440" width="8" height="110" rx="4" fill="#f59e0b"/>
-  <text x="872" y="488" font-size="24" font-weight="700" fill="#1e3a5f">4 安寧療護轉介機制</text>
-  <text x="872" y="519" font-size="20" fill="#475569">轉介流程書面化</text>
-  <text x="872" y="528" font-size="20" fill="#475569">合作醫療機構聯絡</text>
+  <rect x="850" y="440" width="8" height="110" rx="4" fill="#d97706"/>
+  <text x="872" y="488" font-size="24" font-weight="700" fill="#1e293b">4 安寧療護轉介機制</text>
+  <text x="872" y="519" font-size="20" fill="#57534e">轉介流程書面化</text>
+  <text x="872" y="528" font-size="20" fill="#57534e">合作醫療機構聯絡</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

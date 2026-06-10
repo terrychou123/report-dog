@@ -18,10 +18,10 @@
   <!-- 分隔符 -->
   <text x="400" y="188"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 項目2 -->
-  <rect x="40" y="212" width="320" height="50" rx="4" fill="#f8f7f5"/>
+  <rect x="40" y="212" width="320" height="50" rx="4" fill="#f8f7f4"/>
   <text x="60" y="232"  font-size="15" font-weight="700" fill="#78716c">版本管理</text>
   <text x="60" y="252"  font-size="14" fill="#57534e">不確定哪份是最新版，容易誤用舊版</text>
-  <rect x="440" y="212" width="320" height="50" rx="4" fill="#f8f7f5"/>
+  <rect x="440" y="212" width="320" height="50" rx="4" fill="#f8f7f4"/>
   <text x="460" y="232"  font-size="15" font-weight="700" fill="#d97706">版本管理</text>
   <text x="460" y="252"  font-size="14" fill="#57534e">版本自動記錄，修改時間與人員清晰</text>
   <text x="400" y="246"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
@@ -34,10 +34,10 @@
   <text x="460" y="310"  font-size="14" fill="#57534e">即時同步，主管追蹤各項任務進度</text>
   <text x="400" y="304"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>
   <!-- 項目4 -->
-  <rect x="40" y="328" width="320" height="50" rx="4" fill="#f8f7f5"/>
+  <rect x="40" y="328" width="320" height="50" rx="4" fill="#f8f7f4"/>
   <text x="60" y="348"  font-size="15" font-weight="700" fill="#78716c">評鑑準備時間</text>
   <text x="60" y="368"  font-size="14" fill="#57534e">評鑑前 2-3 週大量人力集中整理文件</text>
-  <rect x="440" y="328" width="320" height="50" rx="4" fill="#f8f7f5"/>
+  <rect x="440" y="328" width="320" height="50" rx="4" fill="#f8f7f4"/>
   <text x="460" y="348"  font-size="15" font-weight="700" fill="#d97706">評鑑準備時間</text>
   <text x="460" y="368"  font-size="14" fill="#57534e">日常即維護，評鑑前確認週次即可</text>
   <text x="400" y="362"  font-size="22" fill="#a8a29e" text-anchor="middle">&#8594;</text>

@@ -29,7 +29,7 @@
   <rect x="296" y="112" width="220" height="50" rx="12" fill="#16a34a"/>
   <rect x="296" y="138" width="220" height="24" fill="#16a34a"/>
   <text x="406" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">第二個月</text>
-  <text x="406" y="158" font-size="14" fill="#bbf7d0" text-anchor="middle">D-60 至 D-30</text>
+  <text x="406" y="158" font-size="14" fill="#f0fdf4" text-anchor="middle">D-60 至 D-30</text>
   <text x="312" y="192" font-size="14" fill="#57534e" font-weight="600">核心補強</text>
   <text x="312" y="214" font-size="14" fill="#57534e">B 區照護計畫補強</text>
   <text x="312" y="234" font-size="14" fill="#57534e">A 區行政記錄更新</text>

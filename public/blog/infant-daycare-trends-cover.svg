@@ -9,11 +9,11 @@
   <line x1="60" y1="350" x2="480" y2="350" stroke="#d97706" stroke-width="3"/>
   <text x="60" y="395" font-size="20" fill="#78716c" >個別化照護 | 數位化管理 | 持續改善機制</text>
   <text x="60" y="428" font-size="20" fill="#78716c" >臺北市 114-116 年度托嬰中心評鑑</text>
-  <rect x="60" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="60" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#d97706" stroke-width="1.5"/>
   <text x="120" y="489" font-size="14" fill="#d97706" text-anchor="middle" >政策趨勢</text>
-  <rect x="192" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="192" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <text x="252" y="489" font-size="14" fill="#78716c" text-anchor="middle" >2026評鑑</text>
-  <rect x="324" y="468" width="120" height="32" rx="16" fill="#f5f0e8" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="324" y="468" width="120" height="32" rx="16" fill="#f0efe8" stroke="#78716c" stroke-width="1.5"/>
   <text x="384" y="489" font-size="14" fill="#78716c" text-anchor="middle" >新制</text>
   <!-- 右側大數字 -->
   <text x="1010" y="310" font-size="100" fill="#d97706" text-anchor="middle"  font-weight="900" opacity="0.1">2026</text>

@@ -68,8 +68,8 @@
 
   <!-- 提示 -->
   <rect x="40" y="394" width="720" height="46" rx="8" fill="#fef9c3" stroke="#d97706" stroke-width="1"/>
-  <text x="400" y="414" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">報告汪 AI 文書助理已整合一般護理之家評鑑基準，</text>
-  <text x="400" y="432" font-size="14" fill="#92400e" text-anchor="middle">輸入住民評估資料後，30 秒內可生成符合 B1 規範的照護計畫初稿</text>
+  <text x="400" y="414" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">報告汪 AI 文書助理已整合一般護理之家評鑑基準，</text>
+  <text x="400" y="432" font-size="14" fill="#d97706" text-anchor="middle">輸入住民評估資料後，30 秒內可生成符合 B1 規範的照護計畫初稿</text>
 
   <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
 </svg>

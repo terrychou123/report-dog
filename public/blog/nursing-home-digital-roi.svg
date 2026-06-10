@@ -7,18 +7,18 @@
   <rect x="40" y="130" width="720" height="100" rx="14" fill="#d97706"/>
   <text x="200" y="178"  font-size="64" font-weight="700" fill="#ffffff" opacity="0.4" text-anchor="middle">50%</text>
   <text x="500" y="160"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">評鑑準備人力節省</text>
-  <text x="500" y="188"  font-size="16" fill="#fff3cd" text-anchor="middle">文件查找與整理時間從數週壓縮至數日</text>
-  <text x="500" y="214"  font-size="14" fill="#fff3cd" text-anchor="middle">人力成本節省可在 1-2 年內回收工具訂閱費用</text>
+  <text x="500" y="188"  font-size="16" fill="#fef3c7" text-anchor="middle">文件查找與整理時間從數週壓縮至數日</text>
+  <text x="500" y="214"  font-size="14" fill="#fef3c7" text-anchor="middle">人力成本節省可在 1-2 年內回收工具訂閱費用</text>
   <!-- 效益2 -->
   <rect x="40" y="248" width="720" height="84" rx="14" fill="#78716c"/>
   <text x="200" y="288"  font-size="56" font-weight="700" fill="#ffffff" opacity="0.4" text-anchor="middle">0</text>
   <text x="500" y="276"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">版本混亂造成的評鑑失分</text>
-  <text x="500" y="304"  font-size="15" fill="#d4ccc8" text-anchor="middle">版本控制確保委員看到的永遠是最新版文件</text>
+  <text x="500" y="304"  font-size="15" fill="#dedad3" text-anchor="middle">版本控制確保委員看到的永遠是最新版文件</text>
   <!-- 效益3 -->
   <rect x="40" y="350" width="720" height="84" rx="14" fill="#57534e"/>
   <text x="200" y="392"  font-size="48" font-weight="700" fill="#ffffff" opacity="0.4" text-anchor="middle">B3</text>
   <text x="500" y="378"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">符合 B3 資訊化建置要求</text>
-  <text x="500" y="406"  font-size="15" fill="#d4ccc8" text-anchor="middle">數位工具本身就是評鑑加分項，委員現場操作展示</text>
+  <text x="500" y="406"  font-size="15" fill="#dedad3" text-anchor="middle">數位工具本身就是評鑑加分項，委員現場操作展示</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

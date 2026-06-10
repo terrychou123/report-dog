@@ -63,7 +63,7 @@
 
   <!-- 底部說明 -->
   <rect x="40" y="390" width="720" height="60" rx="8" fill="#fef3c7"/>
-  <text x="400" y="414" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">A6 計畫書標準結構：目的-風險描述-評估矩陣-預防措施-緊急處理程序-責任人員-追蹤機制</text>
+  <text x="400" y="414" text-anchor="middle" font-size="15" fill="#d97706" font-weight="700">A6 計畫書標準結構：目的-風險描述-評估矩陣-預防措施-緊急處理程序-責任人員-追蹤機制</text>
   <text x="400" y="440" text-anchor="middle" font-size="14" fill="#78716c">E1 前次建議改善：改善比例需達 80% 以上，建議對每項建議逐一製作改善對照表</text>
 
   <!-- 浮水印 -->

@@ -19,8 +19,8 @@
   <text x="110" y="174"  font-size="16" fill="#57534e">依老人福利機構設置標準按床數比例配置社工人員</text>
   <text x="110" y="196"  font-size="16" fill="#57534e">評鑑檢視近 5 年，短期人數不足也可能被記錄</text>
   <rect x="598" y="130" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="666" y="149"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">床數比例</text>
-  <text x="666" y="167"  font-size="14" fill="#92400e" text-anchor="middle">近5年檢視</text>
+  <text x="666" y="149"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">床數比例</text>
+  <text x="666" y="167"  font-size="14" fill="#d97706" text-anchor="middle">近5年檢視</text>
 
   <!-- Row 2: 兼任社工合規管理 -->
   <rect x="38" y="221" width="724" height="90" rx="8" fill="white"/>

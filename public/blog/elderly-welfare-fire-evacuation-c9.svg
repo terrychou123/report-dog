@@ -17,7 +17,7 @@
   <text x="100" y="160" font-size="18" font-weight="bold" fill="#1e293b" >建築物防火避難設施安全檢查申報</text>
   <text x="100" y="183" font-size="16" fill="#57534e" >建物現況需與使用執照登載用途相符；依建築物公共安全檢查申報期間</text>
   <text x="100" y="202" font-size="16" fill="#57534e" >規定辦理；現場須備有檢查報告書及地方政府機關審查合格證明文件</text>
-  <rect x="620" y="151" width="136" height="46" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="151" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="169" font-size="14" fill="#d97706" text-anchor="middle" >每年申報</text>
   <text x="688" y="188" font-size="14" fill="#d97706" text-anchor="middle" >文件備查</text>
 

@@ -5,7 +5,7 @@
   <!-- Header y=50, h=76 -->
   <rect x="30" y="50" width="740" height="76" rx="8" fill="#78716c"/>
   <text x="400" y="84" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">第二個月（第 5-8 週）：文件補強任務</text>
-  <text x="400" y="112" font-size="15" fill="#d6d3d1" text-anchor="middle">補足關鍵文件、建立監測統計、強化個案紀錄</text>
+  <text x="400" y="112" font-size="15" fill="#dedad3" text-anchor="middle">補足關鍵文件、建立監測統計、強化個案紀錄</text>
 
   <!-- Row1 y=160, h=62 -->
   <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>

@@ -5,7 +5,7 @@
   <!-- 標題列 -->
   <rect x="30" y="38" width="740" height="90" rx="10" fill="#2563eb"/>
   <text x="400" y="80" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="700" >D6 住民隱私及居家布置（二級加強）</text>
-  <text x="400" y="112" font-size="17" fill="#bfdbfe" text-anchor="middle" >監視器規範 × 床位屏障 × 個人布置空間</text>
+  <text x="400" y="112" font-size="17" fill="#eff6ff" text-anchor="middle" >監視器規範 × 床位屏障 × 個人布置空間</text>
 
   <!-- Row 1 (N=3: y=166) -->
   <rect x="30" y="166" width="740" height="90" rx="8" fill="#ffffff"/>
@@ -24,7 +24,7 @@
   <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="700" >2</text>
   <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700" >床與床間設置圍簾隔屏</text>
   <text x="100" y="328" font-size="16" fill="#57534e" >多人房床位之間須有可隔離視線的屏障物（如圍簾），服務時隨時拉起，維護隱私</text>
-  <rect x="620" y="291" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="291" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="319" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >現場察看確認</text>
 
   <!-- Row 3 (y=372) -->

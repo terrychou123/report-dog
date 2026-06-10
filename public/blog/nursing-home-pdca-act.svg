@@ -7,23 +7,23 @@
   <rect x="40" y="130" width="220" height="240" rx="14" fill="#d97706"/>
   <text x="150" y="195"  font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="150" y="240"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">修訂 SOP</text>
-  <text x="150" y="272"  font-size="15" fill="#fff3cd" text-anchor="middle">將成功改善方法</text>
-  <text x="150" y="294"  font-size="15" fill="#fff3cd" text-anchor="middle">寫入工作手冊</text>
-  <text x="150" y="316"  font-size="14" fill="#fff3cd" text-anchor="middle">（呼應 A1 條）</text>
+  <text x="150" y="272"  font-size="15" fill="#fef3c7" text-anchor="middle">將成功改善方法</text>
+  <text x="150" y="294"  font-size="15" fill="#fef3c7" text-anchor="middle">寫入工作手冊</text>
+  <text x="150" y="316"  font-size="14" fill="#fef3c7" text-anchor="middle">（呼應 A1 條）</text>
   <!-- 項目2 -->
   <rect x="290" y="130" width="220" height="240" rx="14" fill="#78716c"/>
   <text x="400" y="195"  font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="400" y="240"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">納入訓練</text>
-  <text x="400" y="272"  font-size="15" fill="#d4ccc8" text-anchor="middle">缺失案例作為</text>
-  <text x="400" y="294"  font-size="15" fill="#d4ccc8" text-anchor="middle">在職訓練教材</text>
-  <text x="400" y="316"  font-size="14" fill="#d4ccc8" text-anchor="middle">（呼應 A14 條）</text>
+  <text x="400" y="272"  font-size="15" fill="#dedad3" text-anchor="middle">缺失案例作為</text>
+  <text x="400" y="294"  font-size="15" fill="#dedad3" text-anchor="middle">在職訓練教材</text>
+  <text x="400" y="316"  font-size="14" fill="#dedad3" text-anchor="middle">（呼應 A14 條）</text>
   <!-- 項目3 -->
   <rect x="540" y="130" width="220" height="240" rx="14" fill="#57534e"/>
   <text x="650" y="195"  font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="650" y="240"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">更新年度計畫</text>
-  <text x="650" y="272"  font-size="15" fill="#d4ccc8" text-anchor="middle">納入預防措施</text>
-  <text x="650" y="294"  font-size="15" fill="#d4ccc8" text-anchor="middle">展現持續改善</text>
-  <text x="650" y="316"  font-size="14" fill="#d4ccc8" text-anchor="middle">（呼應 A3 條）</text>
+  <text x="650" y="272"  font-size="15" fill="#dedad3" text-anchor="middle">納入預防措施</text>
+  <text x="650" y="294"  font-size="15" fill="#dedad3" text-anchor="middle">展現持續改善</text>
+  <text x="650" y="316"  font-size="14" fill="#dedad3" text-anchor="middle">（呼應 A3 條）</text>
   <!-- 底部說明 -->
   <rect x="40" y="395" width="720" height="50" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <text x="60" y="416"  font-size="15" font-weight="700" fill="#d97706">Act 的目標：</text>

@@ -25,7 +25,7 @@
   <text x="66" y="220"  font-size="14" fill="white" text-anchor="middle" font-weight="700">2</text>
   <text x="100" y="206"  font-size="15" fill="#1e293b" font-weight="700">簽收或匯款憑證</text>
   <text x="100" y="228"  font-size="16" fill="#57534e">現金發放有兒少本人簽名確認；匯入帳戶者保留匯款單據或轉帳截圖</text>
-  <rect x="660" y="191" width="100" height="46" rx="8" fill="#f5f3f0"/>
+  <rect x="660" y="191" width="100" height="46" rx="8" fill="#f0efe8"/>
   <text x="710" y="211"  font-size="14" fill="#78716c" text-anchor="middle" font-weight="700">佐證文件</text>
   <text x="710" y="227"  font-size="14" fill="#78716c" text-anchor="middle">標準 6</text>
 
@@ -36,7 +36,7 @@
   <text x="66" y="295"  font-size="14" fill="white" text-anchor="middle" font-weight="700">3</text>
   <text x="100" y="281"  font-size="15" fill="#1e293b" font-weight="700">定期稽查記錄</text>
   <text x="100" y="303"  font-size="16" fill="#57534e">機構定期（建議每季）抽查兒少，確認實際收到的零用金與薄上一致</text>
-  <rect x="660" y="266" width="100" height="46" rx="8" fill="#f5f3f0"/>
+  <rect x="660" y="266" width="100" height="46" rx="8" fill="#f0efe8"/>
   <text x="710" y="286"  font-size="14" fill="#57534e" text-anchor="middle" font-weight="700">內部稽查</text>
   <text x="710" y="302"  font-size="14" fill="#57534e" text-anchor="middle">標準 7</text>
 
@@ -47,12 +47,12 @@
   <text x="66" y="370"  font-size="14" fill="white" text-anchor="middle" font-weight="700">4</text>
   <text x="100" y="356"  font-size="15" fill="#1e293b" font-weight="700">評鑑委員直接訪談</text>
   <text x="100" y="378"  font-size="16" fill="#57534e">委員可能直接詢問兒少「最近有沒有收到零用金？金額對不對？」事先讓兒少了解</text>
-  <rect x="660" y="341" width="100" height="46" rx="8" fill="#f5f3f0"/>
+  <rect x="660" y="341" width="100" height="46" rx="8" fill="#f0efe8"/>
   <text x="710" y="361"  font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="700">現場查核</text>
   <text x="710" y="377"  font-size="14" fill="#a8a29e" text-anchor="middle">標準 7</text>
 
   <!-- Warning box -->
-  <rect x="28" y="415" width="744" height="50" rx="10" fill="#fff8f0"/>
+  <rect x="28" y="415" width="744" height="50" rx="10" fill="#fff7ed"/>
   <rect x="28" y="415" width="6" height="50" rx="2" fill="#94a3b8"/>
   <text x="55" y="436"  font-size="14" fill="#d97706" font-weight="700">評鑑常見扣分原因</text>
   <text x="55" y="456"  font-size="14" fill="#57534e">零用金薄未個別建立、發放記錄缺簽名、稽查記錄付之闕如、兒少說不清楚金額</text>

@@ -61,7 +61,7 @@
 
   <!-- 底部提示 -->
   <rect x="40" y="408" width="720" height="48" rx="8" fill="#fef3c7"/>
-  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#92400e" font-weight="700">B14 壓損分析週期為「每季」（比B13每半年更頻繁），安養機構B14和B16不適用</text>
+  <text x="400" y="429" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">B14 壓損分析週期為「每季」（比B13每半年更頻繁），安養機構B14和B16不適用</text>
   <text x="400" y="450" text-anchor="middle" font-size="14" fill="#78716c">A6 危機管理：另需確認風險管理計畫含至少 3 個風險，且每半年進行分析</text>
 
   <!-- 浮水印 -->

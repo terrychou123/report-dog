@@ -26,7 +26,7 @@
   <text x="66" y="221" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >2</text>
   <text x="100" y="209" font-size="17" font-weight="bold" fill="#1e293b" >演練文件需完整：四份缺一不可</text>
   <text x="100" y="231" font-size="16" fill="#57534e" >備有：演練腳本、演練照片、演練後檢討會議紀錄、修正後緊急應變計畫（含修正歷程）</text>
-  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="221" font-size="14" fill="#d97706" text-anchor="middle" >四份文件</text>
 
   <!-- Row 3 -->
@@ -46,7 +46,7 @@
   <text x="66" y="371" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >4</text>
   <text x="100" y="359" font-size="17" font-weight="bold" fill="#1e293b" >應變計畫需針對機構特性制訂</text>
   <text x="100" y="381" font-size="16" fill="#57534e" >計畫含：緊急聯絡網、各樓層疏散順序策略、日夜間應變計畫、119通報裝置演練腳本</text>
-  <rect x="620" y="346" width="136" height="40" rx="8" fill="#fafaf9" opacity="0.12"/>
+  <rect x="620" y="346" width="136" height="40" rx="8" fill="#f0efe8" opacity="0.12"/>
   <text x="688" y="371" font-size="14" fill="#78716c" text-anchor="middle" >客製化計畫</text>
 
   <!-- 底部說明 -->

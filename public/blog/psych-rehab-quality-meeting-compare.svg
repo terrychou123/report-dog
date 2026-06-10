@@ -27,7 +27,7 @@
   <text x="82" y="264" font-size="14" fill="#57534e">每年至少1次，學員與家屬均需參與</text>
 
   <!-- 左底部框 -->
-  <rect x="46" y="315" width="322" height="110" rx="8" fill="#fffbeb"/>
+  <rect x="46" y="315" width="322" height="110" rx="8" fill="#fef3c7"/>
   <text x="208" y="340" font-size="15" fill="#d97706" text-anchor="middle" font-weight="700">評鑑委員查核重點</text>
   <text x="208" y="362" font-size="14" fill="#57534e" text-anchor="middle">會議紀錄是否完整記錄議題？</text>
   <text x="208" y="382" font-size="14" fill="#57534e" text-anchor="middle">改善項目是否有追蹤閉環？</text>

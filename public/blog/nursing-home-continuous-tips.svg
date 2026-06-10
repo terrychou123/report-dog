@@ -7,20 +7,20 @@
   <rect x="40" y="118" width="720" height="100" rx="12" fill="#d97706"/>
   <text x="112" y="158"  font-size="24" font-weight="700" fill="#ffffff">01</text>
   <text x="155" y="150"  font-size="18" font-weight="700" fill="#ffffff">「無缺失」也要有文件佐證</text>
-  <text x="155" y="178"  font-size="15" fill="#fff3cd">若查核結果無缺失，要保存「無缺失」書面確認（如：查核通知+無缺失回函）</text>
-  <text x="155" y="200"  font-size="14" fill="#fff3cd">評鑑委員看到「有記錄的無缺失」遠比「完全沒有記錄」更有說服力</text>
+  <text x="155" y="178"  font-size="15" fill="#fef3c7">若查核結果無缺失，要保存「無缺失」書面確認（如：查核通知+無缺失回函）</text>
+  <text x="155" y="200"  font-size="14" fill="#fef3c7">評鑑委員看到「有記錄的無缺失」遠比「完全沒有記錄」更有說服力</text>
   <!-- 技巧2 -->
   <rect x="40" y="232" width="720" height="100" rx="12" fill="#78716c"/>
   <text x="112" y="272"  font-size="24" font-weight="700" fill="#ffffff">02</text>
   <text x="155" y="264"  font-size="18" font-weight="700" fill="#ffffff">佐證文件的「日期」是關鍵</text>
-  <text x="155" y="292"  font-size="15" fill="#d4ccc8">所有佐證照片、記錄、單據上的日期必須在「缺失日期之後」且在「期限之前」</text>
-  <text x="155" y="314"  font-size="14" fill="#d4ccc8">補拍的現況照片若時間點不對，反而造成質疑，事前系統化留存才是正道</text>
+  <text x="155" y="292"  font-size="15" fill="#dedad3">所有佐證照片、記錄、單據上的日期必須在「缺失日期之後」且在「期限之前」</text>
+  <text x="155" y="314"  font-size="14" fill="#dedad3">補拍的現況照片若時間點不對，反而造成質疑，事前系統化留存才是正道</text>
   <!-- 技巧3 -->
   <rect x="40" y="346" width="720" height="100" rx="12" fill="#57534e"/>
   <text x="112" y="386"  font-size="24" font-weight="700" fill="#ffffff">03</text>
   <text x="155" y="378"  font-size="18" font-weight="700" fill="#ffffff">人員異動要第一時間更新台帳</text>
-  <text x="155" y="406"  font-size="15" fill="#d4ccc8">改善計畫的負責人若因離職異動而未更新，評鑑時會被問「這個人現在在哪裡」</text>
-  <text x="155" y="426"  font-size="14" fill="#d4ccc8">人員異動時需同步更新缺失追蹤台帳的負責人，並補充交接確認記錄</text>
+  <text x="155" y="406"  font-size="15" fill="#dedad3">改善計畫的負責人若因離職異動而未更新，評鑑時會被問「這個人現在在哪裡」</text>
+  <text x="155" y="426"  font-size="14" fill="#dedad3">人員異動時需同步更新缺失追蹤台帳的負責人，並補充交接確認記錄</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>
 </svg>

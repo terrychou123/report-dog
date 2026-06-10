@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="68" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="68" fill="#1e293b"/>
   <text x="400" y="42"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">30天文書轉型計畫（評鑑前的最後衝刺）</text>
 
   <!-- 列1 — 第1週 盤點缺漏 (#d97706) -->
-  <rect x="32" y="80" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="80" width="736" height="82" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="32" y="80" width="8" height="82" rx="4" fill="#d97706"/>
   <text x="56" y="107"  font-size="17" font-weight="700" fill="#d97706">第 1 週　盤點缺漏</text>
   <text x="56" y="129"  font-size="14" fill="#57534e">清查各章節文書現況，列出缺漏清單，依重要性排序</text>
@@ -17,7 +17,7 @@
   <text x="698" y="122"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">缺漏地圖</text>
 
   <!-- 列2 — 第2週 補齊必要文書 (#78716c) -->
-  <rect x="32" y="174" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="174" width="736" height="82" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="32" y="174" width="8" height="82" rx="4" fill="#78716c"/>
   <text x="56" y="201"  font-size="17" font-weight="700" fill="#78716c">第 2 週　補齊必要文書</text>
   <text x="56" y="223"  font-size="14" fill="#57534e">優先完成必要條文相關文書，啟用AI工具加速初稿生成</text>
@@ -26,7 +26,7 @@
   <text x="698" y="216"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">AI加速</text>
 
   <!-- 列3 — 第3週 重點條文衝刺 (#57534e) -->
-  <rect x="32" y="268" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="268" width="736" height="82" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="32" y="268" width="8" height="82" rx="4" fill="#57534e"/>
   <text x="56" y="295"  font-size="17" font-weight="700" fill="#57534e">第 3 週　重點條文衝刺</text>
   <text x="56" y="317"  font-size="14" fill="#57534e">護理評估、品質指標、感染管制等重點條文文書全面檢視</text>
@@ -35,7 +35,7 @@
   <text x="698" y="310"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">重點衝刺</text>
 
   <!-- 列4 — 第4週 模擬自我查核 (#a8a29e) -->
-  <rect x="32" y="362" width="736" height="82" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5"/>
+  <rect x="32" y="362" width="736" height="82" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1.5"/>
   <rect x="32" y="362" width="8" height="82" rx="4" fill="#a8a29e"/>
   <text x="56" y="389"  font-size="17" font-weight="700" fill="#78716c">第 4 週　模擬自我查核</text>
   <text x="56" y="411"  font-size="14" fill="#57534e">仿評鑑委員方式抽查，整理文書索引，確認文件可快速調閱</text>

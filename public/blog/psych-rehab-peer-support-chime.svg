@@ -5,7 +5,7 @@
 
   <!-- Header（y=29, h=60，N=5 outer_gap=29） -->
   <rect x="0" y="29" width="800" height="60" fill="white"/>
-  <rect x="0" y="29" width="6" height="61" fill="#7c3aed"/>
+  <rect x="0" y="29" width="6" height="61" fill="#9333ea"/>
   <!-- 11字 → 36px，text_y≈74 -->
   <text x="28" y="74" font-size="36" fill="#1e293b" font-weight="700">CHIME 個人復元五元素</text>
 

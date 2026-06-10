@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區塊 -->
-  <rect x="0" y="0" width="800" height="80" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="80" fill="#1e293b"/>
   <text x="400" y="35"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">AI輔助手術安全文書三大應用</text>
   <text x="400" y="60"  font-size="14" fill="#a8a29e" text-anchor="middle">報告汪 AI 文書助理 — 節省評鑑文書撰寫時間</text>
 
@@ -14,7 +14,7 @@
   <circle cx="80" cy="145" r="22" fill="#fef3c7"/>
   <text x="80" y="141"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">AI</text>
   <text x="80" y="155"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">應用1</text>
-  <text x="115" y="128"  font-size="15" font-weight="700" fill="#1c1917">手術安全品質指標報告</text>
+  <text x="115" y="128"  font-size="15" font-weight="700" fill="#1e293b">手術安全品質指標報告</text>
   <text x="115" y="150"  font-size="14" fill="#57534e">自動統計Time Out執行率、手術部位標示遵從率，生成趨勢圖和改善計畫初稿</text>
   <text x="115" y="170"  font-size="14" fill="#78716c">AI協助從手術查核表原始資料萃取關鍵指標，減少人工統計時間80%以上</text>
   <rect x="660" y="122" width="72" height="26" rx="6" fill="#fef3c7"/>
@@ -26,7 +26,7 @@
   <circle cx="80" cy="250" r="22" fill="#f5f5f4"/>
   <text x="80" y="246"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">AI</text>
   <text x="80" y="260"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">應用2</text>
-  <text x="115" y="233"  font-size="15" font-weight="700" fill="#1c1917">麻醉前評估記錄生成</text>
+  <text x="115" y="233"  font-size="15" font-weight="700" fill="#1e293b">麻醉前評估記錄生成</text>
   <text x="115" y="255"  font-size="14" fill="#57534e">依標準格式自動生成麻醉前評估初稿，麻醉科醫師審閱修訂，節省撰寫時間</text>
   <text x="115" y="275"  font-size="14" fill="#78716c">支援ASA分級建議、高風險病人處置計畫草稿，確保評估紀錄符合評鑑要求</text>
   <rect x="660" y="227" width="72" height="26" rx="6" fill="#f5f5f4"/>
@@ -38,15 +38,15 @@
   <circle cx="80" cy="355" r="22" fill="#f5f5f4"/>
   <text x="80" y="351"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">AI</text>
   <text x="80" y="365"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">應用3</text>
-  <text x="115" y="338"  font-size="15" font-weight="700" fill="#1c1917">設備查核紀錄追蹤</text>
+  <text x="115" y="338"  font-size="15" font-weight="700" fill="#1e293b">設備查核紀錄追蹤</text>
   <text x="115" y="360"  font-size="14" fill="#57534e">困難插管推車定期檢查提醒，自動產生設備維護紀錄，確保可查核</text>
   <text x="115" y="380"  font-size="14" fill="#78716c">建立設備清單模板，AI協助追蹤檢查週期，評鑑前自動生成完整設備履歷</text>
   <rect x="660" y="332" width="72" height="26" rx="6" fill="#f5f5f4"/>
   <text x="696" y="349"  font-size="14" fill="#57534e" text-anchor="middle">設備追蹤</text>
 
   <!-- CTA橫幅 -->
-  <rect x="40" y="418" width="720" height="42" rx="8" fill="#f5f0ff" stroke="#9333ea" stroke-width="1.5"/>
-  <text x="400" y="435"  font-size="14" fill="#7e22ce" text-anchor="middle">立即試用報告汪 AI 文書助理</text>
+  <rect x="40" y="418" width="720" height="42" rx="8" fill="#faf5ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="400" y="435"  font-size="14" fill="#9333ea" text-anchor="middle">立即試用報告汪 AI 文書助理</text>
   <text x="400" y="452"  font-size="14" fill="#9333ea" text-anchor="middle">reportwang.com — 免費開始，手術安全報告一鍵生成</text>
 
   <!-- 浮水印 -->

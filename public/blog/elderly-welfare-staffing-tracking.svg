@@ -17,8 +17,8 @@
   <text x="118" y="125"  font-size="20" fill="#1e293b" font-weight="700">每月追蹤</text>
   <text x="118" y="148"  font-size="16" fill="#57534e">各職類在職人數、外籍/本國籍照服員比例、護理三班排班覆蓋</text>
   <rect x="556" y="108" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="624" y="127"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">每月 1 次</text>
-  <text x="624" y="145"  font-size="14" fill="#92400e" text-anchor="middle">比例盤點</text>
+  <text x="624" y="127"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">每月 1 次</text>
+  <text x="624" y="145"  font-size="14" fill="#d97706" text-anchor="middle">比例盤點</text>
 
   <!-- Row 2: 每季追蹤 -->
   <rect x="50" y="175" width="700" height="62" rx="8" fill="white"/>

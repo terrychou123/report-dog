@@ -5,25 +5,25 @@
   <line x1="40" y1="94" x2="760" y2="94" stroke="#a8a29e" stroke-width="1.5"/>
   <!-- 要件1 -->
   <rect x="40" y="118" width="720" height="76" rx="12" fill="#d97706"/>
-  <rect x="40" y="118" width="64" height="76" rx="12" fill="#b45309"/>
+  <rect x="40" y="118" width="64" height="76" rx="12" fill="#d97706"/>
   <text x="72" y="164"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="124" y="146"  font-size="18" font-weight="700" fill="#ffffff">查核文件完整留存</text>
-  <text x="124" y="172"  font-size="14" fill="#fff3cd">保存所有機關查核通知、查核報告、缺失函（即使無缺失也要留存無缺失通知）</text>
+  <text x="124" y="172"  font-size="14" fill="#fef3c7">保存所有機關查核通知、查核報告、缺失函（即使無缺失也要留存無缺失通知）</text>
   <!-- 要件2 -->
   <rect x="40" y="206" width="720" height="76" rx="12" fill="#78716c"/>
   <rect x="40" y="206" width="64" height="76" rx="12" fill="#57534e"/>
   <text x="72" y="252"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="124" y="234"  font-size="18" font-weight="700" fill="#ffffff">缺失改善計畫可查閱</text>
-  <text x="124" y="260"  font-size="14" fill="#d4ccc8">每一筆缺失均有對應的改善計畫，包含負責人、改善方法、預計完成日期</text>
+  <text x="124" y="260"  font-size="14" fill="#dedad3">每一筆缺失均有對應的改善計畫，包含負責人、改善方法、預計完成日期</text>
   <!-- 要件3 -->
   <rect x="40" y="294" width="720" height="76" rx="12" fill="#57534e"/>
-  <rect x="40" y="294" width="64" height="76" rx="12" fill="#44403c"/>
+  <rect x="40" y="294" width="64" height="76" rx="12" fill="#57534e"/>
   <text x="72" y="340"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="124" y="322"  font-size="18" font-weight="700" fill="#ffffff">改善佐證一一對應</text>
-  <text x="124" y="348"  font-size="14" fill="#d4ccc8">每一缺失的改善均有佐證（照片、採購單、訓練記錄等），且標注對應的缺失項目</text>
+  <text x="124" y="348"  font-size="14" fill="#dedad3">每一缺失的改善均有佐證（照片、採購單、訓練記錄等），且標注對應的缺失項目</text>
   <!-- 要件4 -->
   <rect x="40" y="382" width="720" height="76" rx="12" fill="#94a3b8"/>
-  <rect x="40" y="382" width="64" height="76" rx="12" fill="#64748b"/>
+  <rect x="40" y="382" width="64" height="76" rx="12" fill="#57534e"/>
   <text x="72" y="428"  font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
   <text x="124" y="410"  font-size="18" font-weight="700" fill="#ffffff">預防再發生機制</text>
   <text x="124" y="436"  font-size="14" fill="#e2e8f0">說明如何預防相同缺失再次發生（如：納入 SOP、加入員工訓練、設備維護排程）</text>

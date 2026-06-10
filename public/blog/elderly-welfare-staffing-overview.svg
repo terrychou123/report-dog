@@ -17,8 +17,8 @@
   <text x="100" y="112"  font-size="20" fill="#1e293b" font-weight="700">業務負責人（院長）</text>
   <text x="100" y="134"  font-size="16" fill="#57534e">專任投保勞健保；資格符合老人福利服務專業人員資格訓練辦法；有行政參與佐證</text>
   <rect x="620" y="95" width="136" height="46" rx="8" fill="#fef3c7" opacity="0.12"/>
-  <text x="688" y="114"  font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">專任</text>
-  <text x="688" y="132"  font-size="14" fill="#92400e" text-anchor="middle">投保勞健保</text>
+  <text x="688" y="114"  font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">專任</text>
+  <text x="688" y="132"  font-size="14" fill="#d97706" text-anchor="middle">投保勞健保</text>
 
   <!-- Row 2: A8 社工 -->
   <rect x="29" y="161" width="742" height="60" rx="8" fill="white"/>
@@ -61,8 +61,8 @@
   <text x="100" y="404"  font-size="20" fill="#1e293b" font-weight="700">照顧服務員</text>
   <text x="100" y="426"  font-size="16" fill="#57534e">外籍不超全數照服員1/2；隨時有本國籍在班；近5年配置檢視</text>
   <rect x="620" y="387" width="136" height="46" rx="8" fill="#fef2f2" opacity="0.12"/>
-  <text x="688" y="401"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">外籍≤1/2</text>
-  <text x="688" y="415"  font-size="14" fill="#dc2626" text-anchor="middle">高頻超標</text>
+  <text x="688" y="408"  font-size="14" fill="#dc2626" text-anchor="middle" font-weight="600">外籍&lt;=1/2</text>
+  <text x="688" y="422"  font-size="14" fill="#dc2626" text-anchor="middle">高頻超標</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400" >報告汪 reportwang.com</text>

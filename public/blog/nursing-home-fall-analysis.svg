@@ -63,7 +63,7 @@
 
   <!-- 底部說明 -->
   <rect x="40" y="390" width="720" height="60" rx="8" fill="#fef3c7"/>
-  <text x="400" y="416" text-anchor="middle" font-size="15" fill="#92400e" font-weight="700">半年統計分析報告：需含案件總數、原因分類統計、改善行動方案、追蹤成效</text>
+  <text x="400" y="416" text-anchor="middle" font-size="15" fill="#d97706" font-weight="700">半年統計分析報告：需含案件總數、原因分類統計、改善行動方案、追蹤成效</text>
   <text x="400" y="441" text-anchor="middle" font-size="14" fill="#78716c">B14 壓損同樣採逐案分析，但定期分析週期為「每季」（比 B13 更頻繁）</text>
 
   <!-- 浮水印 -->

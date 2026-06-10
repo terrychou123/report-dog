@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="1200" height="630" fill="#fafaf9" />
+  <rect width="1200" height="630" fill="#fafaf8" />
 
   <!-- 右側裝飾區塊 -->
   <rect x="820" y="0" width="380" height="630" fill="#e8e6de" />
@@ -22,14 +22,14 @@
   <text x="865" y="326" font-size="14" fill="#ccfbf1">資料查核 + 實地查核</text>
 
   <!-- 右側卡片2：1.5.4危險物品管理 -->
-  <rect x="845" y="350" width="310" height="70" rx="8" fill="#b45309" />
+  <rect x="845" y="350" width="310" height="70" rx="8" fill="#d97706" />
   <text x="865" y="375" font-size="14" font-weight="700" fill="#ffffff">1.5.4 危險物品管理</text>
   <rect x="862" y="383" width="46" height="16" rx="4" fill="#ffffff" opacity="0.25" />
   <text x="869" y="405" font-size="14" fill="#ffffff">重點條文</text>
-  <text x="865" y="411" font-size="14" fill="#fde68a">化學品 / 放射性 / 壓縮氣體</text>
+  <text x="865" y="411" font-size="14" fill="#fef3c7">化學品 / 放射性 / 壓縮氣體</text>
 
   <!-- 右側卡片3：雙重審查 -->
-  <rect x="845" y="435" width="310" height="70" rx="8" fill="#374151" />
+  <rect x="845" y="435" width="310" height="70" rx="8" fill="#1e293b" />
   <text x="865" y="458" font-size="14" font-weight="700" fill="#ffffff">實地查核雙重審查</text>
   <text x="865" y="490" font-size="14" fill="#d1d5db">委員現場確認設備狀態</text>
   <text x="865" y="496" font-size="14" fill="#d1d5db">危險物品標示是否到位</text>
@@ -41,7 +41,7 @@
   <text x="212" y="74" font-size="14" fill="#0d9488" text-anchor="middle" font-weight="600">1.5章</text>
 
   <!-- 左側主標題第1行 -->
-  <text x="60" y="160" font-size="50" font-weight="900" fill="#1c1917" letter-spacing="-1">醫療設備管理</text>
+  <text x="60" y="160" font-size="50" font-weight="900" fill="#1e293b" letter-spacing="-1">醫療設備管理</text>
 
   <!-- 左側主標題第2行（青綠色） -->
   <text x="60" y="222" font-size="50" font-weight="900" fill="#0d9488" letter-spacing="-1">定期追蹤攻略</text>
@@ -53,13 +53,13 @@
   <line x1="60" y1="292" x2="540" y2="292" stroke="#d6d3d1" stroke-width="1" />
 
   <!-- 左側特色標籤群 -->
-  <rect x="60" y="315" width="82" height="30" rx="6" fill="#0f766e" />
+  <rect x="60" y="315" width="82" height="30" rx="6" fill="#0d9488" />
   <text x="101" y="335" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">設備清冊</text>
 
-  <rect x="154" y="315" width="94" height="30" rx="6" fill="#0f766e" />
+  <rect x="154" y="315" width="94" height="30" rx="6" fill="#0d9488" />
   <text x="201" y="335" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">預防性維護</text>
 
-  <rect x="260" y="315" width="106" height="30" rx="6" fill="#92400e" />
+  <rect x="260" y="315" width="106" height="30" rx="6" fill="#d97706" />
   <text x="313" y="335" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">危險物品標示</text>
 
   <rect x="60" y="357" width="94" height="30" rx="6" fill="#78716c" />

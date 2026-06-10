@@ -6,7 +6,7 @@
   <!-- 公式區 -->
   <rect x="40" y="118" width="720" height="90" rx="12" fill="#d97706"/>
   <text x="400" y="152"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">外籍照服員人數</text>
-  <text x="400" y="182"  font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 本國籍照服員人數 + 護理人員人數</text>
+  <text x="400" y="182"  font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">&lt;= 本國籍照服員人數 + 護理人員人數</text>
   <!-- 範例 -->
   <rect x="40" y="226" width="350" height="120" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <text x="215" y="258"  font-size="16" font-weight="700" fill="#d97706" text-anchor="middle">範例（達標）</text>

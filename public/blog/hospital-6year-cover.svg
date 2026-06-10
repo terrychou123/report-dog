@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Noto Sans TC', sans-serif">
   <rect width="1200" height="630" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="1200" height="630" fill="#fafaf9"/>
+  <rect width="1200" height="630" fill="#fafaf8"/>
 
   <!-- 左側主要內容區 -->
   <!-- 頂部標籤列 -->
@@ -9,17 +9,17 @@
   <text x="115" y="81" text-anchor="middle" font-size="14" fill="#4f46e5" font-weight="700">醫院評鑑</text>
 
   <rect x="182" y="60" width="100" height="32" rx="16" fill="#fef9c3"/>
-  <text x="232" y="81" text-anchor="middle" font-size="14" fill="#ca8a04" font-weight="700">政策更新</text>
+  <text x="232" y="81" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">政策更新</text>
 
   <!-- 主標題 -->
-  <text x="60" y="158" font-size="52" font-weight="900" fill="#1c1917" letter-spacing="-1">醫院評鑑改革</text>
+  <text x="60" y="158" font-size="52" font-weight="900" fill="#1e293b" letter-spacing="-1">醫院評鑑改革</text>
   <text x="60" y="222" font-size="52" font-weight="900" fill="#4f46e5" letter-spacing="-1">4年-6年</text>
 
   <!-- 副標題 -->
   <text x="60" y="272" font-size="19" fill="#57534e" font-weight="500">週期延長 × 持續品管 × AI自我查核 × 118年準備</text>
 
   <!-- 分隔線 -->
-  <line x1="60" y1="300" x2="480" y2="300" stroke="#e7e5e4" stroke-width="2"/>
+  <line x1="60" y1="300" x2="480" y2="300" stroke="#e8e6de" stroke-width="2"/>
 
   <!-- 特色標籤群組 -->
   <rect x="60" y="320" width="88" height="34" rx="8" fill="#e0e7ff"/>
@@ -55,7 +55,7 @@
   <!-- 卡片1 -->
   <rect x="848" y="260" width="304" height="78" rx="10" fill="#ffffff"/>
   <rect x="848" y="260" width="8" height="78" rx="4" fill="#4f46e5"/>
-  <text x="872" y="290" font-size="15" font-weight="700" fill="#1c1917">4年-6年週期改革</text>
+  <text x="872" y="290" font-size="15" font-weight="700" fill="#1e293b">4年-6年週期改革</text>
   <rect x="872" y="300" width="68" height="22" rx="11" fill="#e0e7ff"/>
   <text x="906" y="320" text-anchor="middle" font-size="14" fill="#4f46e5" font-weight="700">政策改革</text>
   <text x="948" y="316" font-size="14" fill="#78716c">衛福部推動</text>
@@ -63,7 +63,7 @@
   <!-- 卡片2 -->
   <rect x="848" y="350" width="304" height="78" rx="10" fill="#ffffff"/>
   <rect x="848" y="350" width="8" height="78" rx="4" fill="#d97706"/>
-  <text x="872" y="380" font-size="15" font-weight="700" fill="#1c1917">118年預計下輪評鑑</text>
+  <text x="872" y="380" font-size="15" font-weight="700" fill="#1e293b">118年預計下輪評鑑</text>
   <rect x="872" y="390" width="68" height="22" rx="11" fill="#fef3c7"/>
   <text x="906" y="410" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">2029年</text>
   <text x="948" y="406" font-size="14" fill="#78716c">正式評鑑</text>
@@ -71,7 +71,7 @@
   <!-- 卡片3 -->
   <rect x="848" y="440" width="304" height="78" rx="10" fill="#ffffff"/>
   <rect x="848" y="440" width="8" height="78" rx="4" fill="#16a34a"/>
-  <text x="872" y="470" font-size="15" font-weight="700" fill="#1c1917">持續性品質監測</text>
+  <text x="872" y="470" font-size="15" font-weight="700" fill="#1e293b">持續性品質監測</text>
   <rect x="872" y="480" width="68" height="22" rx="11" fill="#dcfce7"/>
   <text x="906" y="500" text-anchor="middle" font-size="14" fill="#16a34a" font-weight="700">日常品管</text>
   <text x="948" y="496" font-size="14" fill="#78716c">取代集中備審</text>

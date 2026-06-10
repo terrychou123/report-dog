@@ -4,80 +4,80 @@
   <rect width="800" height="6" fill="#d97706"/>
 
   <!-- 標題 -->
-  <text x="400" y="45" font-size="22" fill="#92400e" font-weight="bold" text-anchor="middle">壓傷處理與追蹤流程（A1.3）</text>
+  <text x="400" y="45" font-size="22" fill="#d97706" font-weight="bold" text-anchor="middle">壓傷處理與追蹤流程（A1.3）</text>
 
   <!-- 流程橫向步驟 -->
   <!-- 步驟1 -->
   <rect x="20" y="80" width="120" height="70" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="2"/>
-  <text x="80" y="108" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">1 入院評估</text>
-  <text x="80" y="128" font-size="14" fill="#78350f" text-anchor="middle">Braden量表</text>
-  <text x="80" y="144" font-size="14" fill="#a16207" text-anchor="middle">皮膚全身評估</text>
+  <text x="80" y="108" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">1 入院評估</text>
+  <text x="80" y="128" font-size="14" fill="#d97706" text-anchor="middle">Braden量表</text>
+  <text x="80" y="144" font-size="14" fill="#d97706" text-anchor="middle">皮膚全身評估</text>
 
   <polygon points="145,115 158,108 158,122" fill="#d97706"/>
   <line x1="140" y1="115" x2="158" y2="115" stroke="#d97706" stroke-width="2"/>
 
   <!-- 步驟2 -->
   <rect x="162" y="80" width="120" height="70" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="2"/>
-  <text x="222" y="108" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">2 壓傷分級</text>
-  <text x="222" y="128" font-size="14" fill="#78350f" text-anchor="middle">Stage 1–4</text>
-  <text x="222" y="144" font-size="14" fill="#a16207" text-anchor="middle">院內/入院前</text>
+  <text x="222" y="108" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">2 壓傷分級</text>
+  <text x="222" y="128" font-size="14" fill="#d97706" text-anchor="middle">Stage 1–4</text>
+  <text x="222" y="144" font-size="14" fill="#d97706" text-anchor="middle">院內/入院前</text>
 
   <polygon points="287,115 300,108 300,122" fill="#d97706"/>
   <line x1="282" y1="115" x2="300" y2="115" stroke="#d97706" stroke-width="2"/>
 
   <!-- 步驟3 -->
   <rect x="304" y="80" width="120" height="70" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="2"/>
-  <text x="364" y="108" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">3 通報記錄</text>
-  <text x="364" y="128" font-size="14" fill="#78350f" text-anchor="middle">院內壓傷</text>
-  <text x="364" y="144" font-size="14" fill="#a16207" text-anchor="middle">24小時內通報</text>
+  <text x="364" y="108" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">3 通報記錄</text>
+  <text x="364" y="128" font-size="14" fill="#d97706" text-anchor="middle">院內壓傷</text>
+  <text x="364" y="144" font-size="14" fill="#d97706" text-anchor="middle">24小時內通報</text>
 
   <polygon points="429,115 442,108 442,122" fill="#d97706"/>
   <line x1="424" y1="115" x2="442" y2="115" stroke="#d97706" stroke-width="2"/>
 
   <!-- 步驟4 -->
   <rect x="446" y="80" width="120" height="70" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="2"/>
-  <text x="506" y="108" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">4 護理措施</text>
-  <text x="506" y="128" font-size="14" fill="#78350f" text-anchor="middle">換藥/減壓</text>
-  <text x="506" y="144" font-size="14" fill="#a16207" text-anchor="middle">翻身記錄</text>
+  <text x="506" y="108" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">4 護理措施</text>
+  <text x="506" y="128" font-size="14" fill="#d97706" text-anchor="middle">換藥/減壓</text>
+  <text x="506" y="144" font-size="14" fill="#d97706" text-anchor="middle">翻身記錄</text>
 
   <polygon points="571,115 584,108 584,122" fill="#d97706"/>
   <line x1="566" y1="115" x2="584" y2="115" stroke="#d97706" stroke-width="2"/>
 
   <!-- 步驟5 -->
-  <rect x="588" y="80" width="120" height="70" fill="#166534" rx="8"/>
+  <rect x="588" y="80" width="120" height="70" fill="#16a34a" rx="8"/>
   <text x="648" y="108" font-size="14" fill="white" font-weight="bold" text-anchor="middle">5 定期追蹤</text>
-  <text x="648" y="128" font-size="14" fill="#86efac" text-anchor="middle">每週評估</text>
-  <text x="648" y="144" font-size="14" fill="#86efac" text-anchor="middle">照片存檔記錄</text>
+  <text x="648" y="128" font-size="14" fill="#f0fdf4" text-anchor="middle">每週評估</text>
+  <text x="648" y="144" font-size="14" fill="#f0fdf4" text-anchor="middle">照片存檔記錄</text>
 
   <!-- 壓傷分級說明 -->
   <rect x="20" y="175" width="760" height="46" fill="#fef3c7" rx="8" stroke="#d97706" stroke-width="1.5"/>
-  <text x="400" y="196" font-size="14" fill="#92400e" font-weight="bold" text-anchor="middle">壓傷分期說明（NPUAP 分級）</text>
-  <text x="400" y="212" font-size="14" fill="#78350f" text-anchor="middle">Stage 1：皮膚完整紅斑 ｜ Stage 2：部分皮層缺損 ｜ Stage 3：全層皮損 ｜ Stage 4：全層組織缺損</text>
+  <text x="400" y="196" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">壓傷分期說明（NPUAP 分級）</text>
+  <text x="400" y="212" font-size="14" fill="#d97706" text-anchor="middle">Stage 1：皮膚完整紅斑 ｜ Stage 2：部分皮層缺損 ｜ Stage 3：全層皮損 ｜ Stage 4：全層組織缺損</text>
 
   <!-- 院內 vs 入院前表格 -->
   <rect x="20" y="240" width="370" height="195" fill="white" rx="10" stroke="#dc2626" stroke-width="1.5"/>
   <rect x="20" y="240" width="370" height="35" fill="#dc2626" rx="10"/>
   <rect x="20" y="257" width="370" height="18" fill="#dc2626"/>
   <text x="205" y="262" font-size="14" fill="white" font-weight="bold" text-anchor="middle">院內獲得壓傷（需通報）</text>
-  <text x="40" y="297" font-size="14" fill="#44403c">• 入院時皮膚完整，住院後出現</text>
-  <text x="40" y="318" font-size="14" fill="#44403c">• 24小時內向機構主管通報</text>
-  <text x="40" y="339" font-size="14" fill="#44403c">• 填寫意外事件通報表</text>
-  <text x="40" y="360" font-size="14" fill="#44403c">• 通知家屬並請家屬簽名知情</text>
-  <text x="40" y="381" font-size="14" fill="#44403c">• 擬定預防/治療護理計畫</text>
-  <text x="40" y="402" font-size="14" fill="#44403c">• 追蹤愈合情形並更新記錄</text>
-  <text x="40" y="423" font-size="14" fill="#44403c">• 品質指標：院內壓傷發生率</text>
+  <text x="40" y="297" font-size="14" fill="#57534e">• 入院時皮膚完整，住院後出現</text>
+  <text x="40" y="318" font-size="14" fill="#57534e">• 24小時內向機構主管通報</text>
+  <text x="40" y="339" font-size="14" fill="#57534e">• 填寫意外事件通報表</text>
+  <text x="40" y="360" font-size="14" fill="#57534e">• 通知家屬並請家屬簽名知情</text>
+  <text x="40" y="381" font-size="14" fill="#57534e">• 擬定預防/治療護理計畫</text>
+  <text x="40" y="402" font-size="14" fill="#57534e">• 追蹤愈合情形並更新記錄</text>
+  <text x="40" y="423" font-size="14" fill="#57534e">• 品質指標：院內壓傷發生率</text>
 
   <rect x="410" y="240" width="370" height="195" fill="white" rx="10" stroke="#78716c" stroke-width="1.5"/>
   <rect x="410" y="240" width="370" height="35" fill="#78716c" rx="10"/>
   <rect x="410" y="257" width="370" height="18" fill="#78716c"/>
   <text x="595" y="262" font-size="14" fill="white" font-weight="bold" text-anchor="middle">入院時已存在（無需通報）</text>
-  <text x="430" y="297" font-size="14" fill="#44403c">• 入院評估時即記錄皮膚狀況</text>
-  <text x="430" y="318" font-size="14" fill="#44403c">• 留存照片（日期、部位、大小）</text>
-  <text x="430" y="339" font-size="14" fill="#44403c">• 入院照護計畫納入壓傷護理</text>
-  <text x="430" y="360" font-size="14" fill="#44403c">• 通知家屬現有壓傷狀況</text>
-  <text x="430" y="381" font-size="14" fill="#44403c">• 定期記錄傷口變化</text>
-  <text x="430" y="402" font-size="14" fill="#44403c">• 不屬於意外事件通報範疇</text>
-  <text x="430" y="423" font-size="14" fill="#44403c">• 但仍需完整護理記錄</text>
+  <text x="430" y="297" font-size="14" fill="#57534e">• 入院評估時即記錄皮膚狀況</text>
+  <text x="430" y="318" font-size="14" fill="#57534e">• 留存照片（日期、部位、大小）</text>
+  <text x="430" y="339" font-size="14" fill="#57534e">• 入院照護計畫納入壓傷護理</text>
+  <text x="430" y="360" font-size="14" fill="#57534e">• 通知家屬現有壓傷狀況</text>
+  <text x="430" y="381" font-size="14" fill="#57534e">• 定期記錄傷口變化</text>
+  <text x="430" y="402" font-size="14" fill="#57534e">• 不屬於意外事件通報範疇</text>
+  <text x="430" y="423" font-size="14" fill="#57534e">• 但仍需完整護理記錄</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

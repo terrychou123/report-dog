@@ -13,7 +13,7 @@
   <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
   <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700" >資料與隱私（D1、D6）</text>
   <text x="100" y="207" font-size="16" fill="#57534e" >D1個案資料保密（二級加強）、D6住民隱私及居家布置（二級加強）</text>
-  <rect x="620" y="168" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="196" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >二級加強×2</text>
 
   <!-- Row 2 -->

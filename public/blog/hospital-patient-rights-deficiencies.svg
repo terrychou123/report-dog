@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="108" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="108" fill="#1e293b"/>
   <text x="400" y="52"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">病人權利評鑑三大失分場景</text>
   <text x="400" y="82"  font-size="14" fill="#a8a29e" text-anchor="middle">提前了解、預防改善，比事後補救更有效</text>
 
   <!-- 列1（y=130，h=90）— 紅色警示 -->
-  <rect x="28" y="130" width="744" height="90" rx="8" fill="#fff5f5" stroke="#fecaca" stroke-width="1"/>
+  <rect x="28" y="130" width="744" height="90" rx="8" fill="#fef2f2" stroke="#fef2f2" stroke-width="1"/>
   <rect x="28" y="130" width="6" height="90" rx="3" fill="#dc2626"/>
   <text x="52" y="157"  font-size="14" font-weight="700" fill="#dc2626">病人權利書未取得簽收</text>
   <text x="52" y="178"  font-size="14" fill="#57534e">入院護理師口頭說明但未請病人簽收，或簽收頁存放位置與病歷分離，評鑑查核時無法調出</text>
@@ -18,7 +18,7 @@
   <text x="704" y="170"  font-size="14" font-weight="700" fill="#dc2626" text-anchor="middle">簽收管理</text>
 
   <!-- 列2（y=233，h=90）-->
-  <rect x="28" y="233" width="744" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="233" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="233" width="6" height="90" rx="2" fill="#d97706"/>
   <text x="52" y="260"  font-size="14" font-weight="700" fill="#d97706">知情同意書內容不完整</text>
   <text x="52" y="281"  font-size="14" fill="#57534e">同意書缺少替代方案或不治療後果說明，委員訪談主治醫師說「有說但沒有書面」，文書與說明不符</text>
@@ -27,7 +27,7 @@
   <text x="704" y="273"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">書面完整</text>
 
   <!-- 列3（y=336，h=90）-->
-  <rect x="28" y="336" width="744" height="90" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="336" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="336" width="6" height="90" rx="2" fill="#78716c"/>
   <text x="52" y="363"  font-size="14" font-weight="700" fill="#78716c">身體隱私未落實</text>
   <text x="52" y="384"  font-size="14" fill="#57534e">實地查核委員直接觀察到護理操作時未拉簾，或多人病室換藥未遮蔽，是現場最常見到的缺失</text>

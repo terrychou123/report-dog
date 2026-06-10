@@ -5,7 +5,7 @@
   <!-- Header y=29, h=60（警示紅色） -->
   <rect x="40" y="29" width="720" height="60" rx="10" fill="#dc2626"/>
   <text x="400" y="55" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">C 區：安全環境設備 — 5 大必要指標自評（C1–C16）</text>
-  <text x="400" y="78" font-size="15" fill="#fecaca" text-anchor="middle">本區含多個一級必要指標，不符合對評鑑結果影響重大</text>
+  <text x="400" y="78" font-size="15" fill="#fef2f2" text-anchor="middle">本區含多個一級必要指標，不符合對評鑑結果影響重大</text>
 
   <!-- N=5 版型：H=60, inner_gap=13, outer_gap=29 -->
   <!-- Row1 y=118 -->

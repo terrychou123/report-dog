@@ -12,7 +12,7 @@
   <rect x="16" y="110" width="238" height="14" fill="#d97706"/>
   <text x="135" y="106" font-size="15" font-weight="900" text-anchor="middle" fill="#ffffff">評鑑獨有</text>
   <text x="135" y="150" font-size="14" text-anchor="middle" fill="#78716c">品質計畫較不關注</text>
-  <rect x="36" y="168" width="198" height="1" fill="#fed7aa"/>
+  <rect x="36" y="168" width="198" height="1" fill="#fff7ed"/>
   <text x="36" y="190" font-size="14" fill="#d97706">> 疏散通道實地設施</text>
   <text x="36" y="212" font-size="14" fill="#78716c"> （C2 委員現場走訪）</text>
   <text x="36" y="234" font-size="14" fill="#d97706">> 人力配置法規符合性</text>
@@ -25,41 +25,41 @@
   <text x="36" y="406" font-size="14" fill="#d97706" font-weight="700">- 品質計畫不另外審查</text>
   <!-- 中欄：共用 -->
   <rect x="270" y="78" width="256" height="378" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
-  <rect x="270" y="78" width="256" height="46" rx="12" fill="#1c1917"/>
-  <rect x="270" y="110" width="256" height="14" fill="#1c1917"/>
+  <rect x="270" y="78" width="256" height="46" rx="12" fill="#1e293b"/>
+  <rect x="270" y="110" width="256" height="14" fill="#1e293b"/>
   <text x="398" y="106" font-size="15" font-weight="900" text-anchor="middle" fill="#d97706">共用（一份文件兩用）</text>
-  <text x="398" y="150" font-size="14" text-anchor="middle" fill="#44403c">準備一份，兩邊都用</text>
+  <text x="398" y="150" font-size="14" text-anchor="middle" fill="#57534e">準備一份，兩邊都用</text>
   <rect x="290" y="164" width="216" height="1" fill="#e5e7eb"/>
-  <rect x="290" y="172" width="216" height="36" rx="8" fill="#d1fae5"/>
-  <text x="398" y="195" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">品質指標月報</text>
+  <rect x="290" y="172" width="216" height="36" rx="8" fill="#f0fdf4"/>
+  <text x="398" y="195" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">品質指標月報</text>
   <text x="290" y="222" font-size="14" text-anchor="middle" fill="#78716c">跌倒率、壓傷新發率、感染率</text>
-  <rect x="290" y="232" width="216" height="36" rx="8" fill="#d1fae5"/>
-  <text x="398" y="255" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">個別化照護計畫</text>
+  <rect x="290" y="232" width="216" height="36" rx="8" fill="#f0fdf4"/>
+  <text x="398" y="255" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">個別化照護計畫</text>
   <text x="290" y="282" font-size="14" text-anchor="middle" fill="#78716c">執行紀錄與定期更新</text>
-  <rect x="290" y="292" width="216" height="36" rx="8" fill="#d1fae5"/>
-  <text x="398" y="315" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">工作人員訓練記錄</text>
+  <rect x="290" y="292" width="216" height="36" rx="8" fill="#f0fdf4"/>
+  <text x="398" y="315" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">工作人員訓練記錄</text>
   <text x="290" y="342" font-size="14" text-anchor="middle" fill="#78716c">訓練種類、完成率統計</text>
-  <rect x="290" y="352" width="216" height="36" rx="8" fill="#d1fae5"/>
-  <text x="398" y="375" font-size="14" text-anchor="middle" fill="#065f46" font-weight="700">家屬滿意度調查</text>
+  <rect x="290" y="352" width="216" height="36" rx="8" fill="#f0fdf4"/>
+  <text x="398" y="375" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="700">家屬滿意度調查</text>
   <text x="290" y="402" font-size="14" text-anchor="middle" fill="#78716c">定期調查結果統計</text>
-  <text x="398" y="434" font-size="14" text-anchor="middle" fill="#1c1917" font-weight="700">- 最高效率準備區</text>
+  <text x="398" y="434" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="700">- 最高效率準備區</text>
   <!-- 右欄：品質計畫獨有 -->
-  <rect x="542" y="78" width="244" height="378" rx="12" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
-  <rect x="542" y="78" width="244" height="46" rx="12" fill="#1e40af"/>
-  <rect x="542" y="110" width="244" height="14" fill="#1e40af"/>
+  <rect x="542" y="78" width="244" height="378" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="542" y="78" width="244" height="46" rx="12" fill="#2563eb"/>
+  <rect x="542" y="110" width="244" height="14" fill="#2563eb"/>
   <text x="664" y="106" font-size="15" font-weight="900" text-anchor="middle" fill="#ffffff">品質計畫特有</text>
   <text x="664" y="150" font-size="14" text-anchor="middle" fill="#78716c">評鑑不需要，但要額外準備</text>
-  <rect x="562" y="164" width="204" height="1" fill="#bfdbfe"/>
-  <text x="562" y="190" font-size="14" fill="#1e40af">> 年度指標趨勢分析</text>
+  <rect x="562" y="164" width="204" height="1" fill="#eff6ff"/>
+  <text x="562" y="190" font-size="14" fill="#2563eb">> 年度指標趨勢分析</text>
   <text x="562" y="210" font-size="14" fill="#78716c"> 12 個月連續追蹤圖表</text>
-  <text x="562" y="234" font-size="14" fill="#1e40af">> 與全國平均值比較</text>
+  <text x="562" y="234" font-size="14" fill="#2563eb">> 與全國平均值比較</text>
   <text x="562" y="254" font-size="14" fill="#78716c"> 需查詢衛生局公布數據</text>
-  <text x="562" y="278" font-size="14" fill="#1e40af">> 指標計算方式說明</text>
+  <text x="562" y="278" font-size="14" fill="#2563eb">> 指標計算方式說明</text>
   <text x="562" y="298" font-size="14" fill="#78716c"> 確認與計畫定義一致</text>
-  <text x="562" y="322" font-size="14" fill="#1e40af">> 品質改善行動書面說明</text>
+  <text x="562" y="322" font-size="14" fill="#2563eb">> 品質改善行動書面說明</text>
   <text x="562" y="342" font-size="14" fill="#78716c"> 1–2 頁，說明改善因果</text>
-  <text x="562" y="386" font-size="14" fill="#1e40af" font-weight="700">- 評鑑完成後追加</text>
-  <text x="562" y="406" font-size="14" fill="#1e40af" font-weight="700">- 約需額外 4–8 小時</text>
+  <text x="562" y="386" font-size="14" fill="#2563eb" font-weight="700">- 評鑑完成後追加</text>
+  <text x="562" y="406" font-size="14" fill="#2563eb" font-weight="700">- 約需額外 4–8 小時</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

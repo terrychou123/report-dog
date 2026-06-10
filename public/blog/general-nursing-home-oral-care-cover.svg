@@ -3,45 +3,45 @@
   <rect width="1200" height="630" fill="#f0efe8"/>
 
   <!-- 左側色塊 -->
-  <rect x="0" y="0" width="480" height="630" fill="#0ea5e9" rx="0"/>
-  <rect x="460" y="0" width="40" height="630" fill="#38bdf8" rx="0"/>
+  <rect x="0" y="0" width="480" height="630" fill="#0d9488" rx="0"/>
+  <rect x="460" y="0" width="40" height="630" fill="#0d9488" rx="0"/>
 
   <!-- 大字 D2 -->
   <text x="80" y="200" font-size="200" font-weight="900" fill="white" opacity="0.15">D2</text>
   <text x="80" y="320" font-size="90" font-weight="900" fill="white">D2</text>
-  <text x="80" y="390" font-size="28" fill="#bae6fd">口腔照護</text>
-  <text x="80" y="440" font-size="22" fill="#bae6fd">Oral Health Care</text>
+  <text x="80" y="390" font-size="28" fill="#eff6ff">口腔照護</text>
+  <text x="80" y="440" font-size="22" fill="#eff6ff">Oral Health Care</text>
 
   <!-- 右側標題 -->
-  <text x="540" y="120" font-size="38" font-weight="900" fill="#0c4a6e">護理之家</text>
-  <text x="540" y="175" font-size="38" font-weight="900" fill="#0c4a6e">口腔照護新重點</text>
-  <text x="540" y="230" font-size="24" fill="#0ea5e9">D2 評鑑基準 · 牙科轉介機制</text>
-  <text x="540" y="270" font-size="20" fill="#64748b">115 年度評鑑新增重點項目</text>
+  <text x="540" y="120" font-size="38" font-weight="900" fill="#1e293b">護理之家</text>
+  <text x="540" y="175" font-size="38" font-weight="900" fill="#1e293b">口腔照護新重點</text>
+  <text x="540" y="230" font-size="24" fill="#0d9488">D2 評鑑基準 · 牙科轉介機制</text>
+  <text x="540" y="270" font-size="20" fill="#57534e">115 年度評鑑新增重點項目</text>
 
   <!-- 4項要素卡片 -->
   <rect x="540" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="540" y="310" width="8" height="110" rx="4" fill="#0ea5e9"/>
-  <text x="562" y="350" font-size="24" font-weight="700" fill="#0c4a6e">1 口腔健康定期評估</text>
-  <text x="562" y="375" font-size="20" fill="#475569">入住評估 + 定期追蹤</text>
-  <text x="562" y="398" font-size="20" fill="#475569">OHSS 評估工具</text>
+  <rect x="540" y="310" width="8" height="110" rx="4" fill="#0d9488"/>
+  <text x="562" y="350" font-size="24" font-weight="700" fill="#1e293b">1 口腔健康定期評估</text>
+  <text x="562" y="375" font-size="20" fill="#57534e">入住評估 + 定期追蹤</text>
+  <text x="562" y="398" font-size="20" fill="#57534e">OHSS 評估工具</text>
 
   <rect x="850" y="310" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="850" y="310" width="8" height="110" rx="4" fill="#06b6d4"/>
-  <text x="872" y="358" font-size="24" font-weight="700" fill="#0c4a6e">2 個別化口腔照護計畫</text>
-  <text x="872" y="389" font-size="20" fill="#475569">依評估結果訂定</text>
-  <text x="872" y="398" font-size="20" fill="#475569">短期目標 + 具體措施</text>
+  <rect x="850" y="310" width="8" height="110" rx="4" fill="#0d9488"/>
+  <text x="872" y="358" font-size="24" font-weight="700" fill="#1e293b">2 個別化口腔照護計畫</text>
+  <text x="872" y="389" font-size="20" fill="#57534e">依評估結果訂定</text>
+  <text x="872" y="398" font-size="20" fill="#57534e">短期目標 + 具體措施</text>
 
   <rect x="540" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
-  <rect x="540" y="440" width="8" height="110" rx="4" fill="#3b82f6"/>
-  <text x="562" y="480" font-size="24" font-weight="700" fill="#0c4a6e">3 工作人員技能訓練</text>
-  <text x="562" y="505" font-size="20" fill="#475569">刷牙方式 · 義齒清潔</text>
-  <text x="562" y="528" font-size="20" fill="#475569">訓練記錄確實執行</text>
+  <rect x="540" y="440" width="8" height="110" rx="4" fill="#2563eb"/>
+  <text x="562" y="480" font-size="24" font-weight="700" fill="#1e293b">3 工作人員技能訓練</text>
+  <text x="562" y="505" font-size="20" fill="#57534e">刷牙方式 · 義齒清潔</text>
+  <text x="562" y="528" font-size="20" fill="#57534e">訓練記錄確實執行</text>
 
   <rect x="850" y="440" width="290" height="110" rx="12" fill="white" filter="url(#shadow)"/>
   <rect x="850" y="440" width="8" height="110" rx="4" fill="#d97706"/>
-  <text x="872" y="488" font-size="24" font-weight="700" fill="#0c4a6e">4 牙科轉介機制</text>
-  <text x="872" y="519" font-size="20" fill="#475569">轉介指標 · 合作診所</text>
-  <text x="872" y="528" font-size="20" fill="#475569">轉介後追蹤記錄</text>
+  <text x="872" y="488" font-size="24" font-weight="700" fill="#1e293b">4 牙科轉介機制</text>
+  <text x="872" y="519" font-size="20" fill="#57534e">轉介指標 · 合作診所</text>
+  <text x="872" y="528" font-size="20" fill="#57534e">轉介後追蹤記錄</text>
 
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

@@ -8,28 +8,28 @@
   <!-- 護理師 -->
   <rect x="40" y="115" width="340" height="155" rx="12" fill="#d97706"/>
   <text x="210" y="150" font-size="22" fill="#ffffff" font-weight="700" text-anchor="middle">護理師（A9）</text>
-  <text x="210" y="176" font-size="14" fill="#fff8e7" text-anchor="middle">一級必要：長照1:15 / 養護失智1:20</text>
-  <text x="210" y="198" font-size="14" fill="#fff8e7" text-anchor="middle">主責：個案計畫/護理紀錄/用藥</text>
-  <text x="210" y="220" font-size="14" fill="#fff8e7" text-anchor="middle">跌倒壓損感染分析報告</text>
-  <text x="210" y="242" font-size="14" fill="#fff8e7" text-anchor="middle">侵入性照護技術 SOP 稽核</text>
+  <text x="210" y="176" font-size="14" fill="#fef3c7" text-anchor="middle">一級必要：長照1:15 / 養護失智1:20</text>
+  <text x="210" y="198" font-size="14" fill="#fef3c7" text-anchor="middle">主責：個案計畫/護理紀錄/用藥</text>
+  <text x="210" y="220" font-size="14" fill="#fef3c7" text-anchor="middle">跌倒壓損感染分析報告</text>
+  <text x="210" y="242" font-size="14" fill="#fef3c7" text-anchor="middle">侵入性照護技術 SOP 稽核</text>
   <text x="210" y="258" font-size="14" fill="#fef3c7" text-anchor="middle" font-weight="700">全日均應有護理人員上班</text>
 
   <!-- 社工師 -->
   <rect x="420" y="115" width="340" height="155" rx="12" fill="#78716c"/>
   <text x="590" y="150" font-size="22" fill="#ffffff" font-weight="700" text-anchor="middle">社工師（A8）</text>
-  <text x="590" y="176" font-size="14" fill="#e7e5e4" text-anchor="middle">長照養護失智1:100 / 安養1:80</text>
-  <text x="590" y="198" font-size="14" fill="#e7e5e4" text-anchor="middle">主責：個案心理社會評估</text>
-  <text x="590" y="220" font-size="14" fill="#e7e5e4" text-anchor="middle">家屬溝通/資源連結/活動規劃</text>
-  <text x="590" y="242" font-size="14" fill="#e7e5e4" text-anchor="middle">入出機構管理/個案資料管理</text>
+  <text x="590" y="176" font-size="14" fill="#e8e6de" text-anchor="middle">長照養護失智1:100 / 安養1:80</text>
+  <text x="590" y="198" font-size="14" fill="#e8e6de" text-anchor="middle">主責：個案心理社會評估</text>
+  <text x="590" y="220" font-size="14" fill="#e8e6de" text-anchor="middle">家屬溝通/資源連結/活動規劃</text>
+  <text x="590" y="242" font-size="14" fill="#e8e6de" text-anchor="middle">入出機構管理/個案資料管理</text>
   <text x="590" y="258" font-size="14" fill="#fef3c7" text-anchor="middle" font-weight="700">每季至少1次家屬電訪或會談</text>
 
   <!-- 照服員 -->
   <rect x="40" y="288" width="340" height="155" rx="12" fill="#57534e"/>
   <text x="210" y="323" font-size="22" fill="#ffffff" font-weight="700" text-anchor="middle">照服員（A11）</text>
-  <text x="210" y="349" font-size="14" fill="#e7e5e4" text-anchor="middle">一級必要：長照日1:5/夜1:15</text>
-  <text x="210" y="371" font-size="14" fill="#e7e5e4" text-anchor="middle">主責：日常照護/翻身拍背</text>
-  <text x="210" y="393" font-size="14" fill="#e7e5e4" text-anchor="middle">身體清潔/下床活動協助</text>
-  <text x="210" y="415" font-size="14" fill="#e7e5e4" text-anchor="middle">外籍照服員比例管控</text>
+  <text x="210" y="349" font-size="14" fill="#e8e6de" text-anchor="middle">一級必要：長照日1:5/夜1:15</text>
+  <text x="210" y="371" font-size="14" fill="#e8e6de" text-anchor="middle">主責：日常照護/翻身拍背</text>
+  <text x="210" y="393" font-size="14" fill="#e8e6de" text-anchor="middle">身體清潔/下床活動協助</text>
+  <text x="210" y="415" font-size="14" fill="#e8e6de" text-anchor="middle">外籍照服員比例管控</text>
   <text x="210" y="431" font-size="14" fill="#fef3c7" text-anchor="middle" font-weight="700">全日各班均有本國籍照服員</text>
 
   <!-- 協作工具 -->

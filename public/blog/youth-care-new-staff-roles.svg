@@ -13,8 +13,8 @@
   <text x="94" y="126" font-size="16" fill="#1e293b" font-weight="600">機構主任 / 督導</text>
   <text x="94" y="150" font-size="14" fill="#57534e">統籌備評工作、與主管機關溝通、準備行政組織文件</text>
   <rect x="540" y="116" width="224" height="46" rx="8" fill="#fef3c7"/>
-  <text x="652" y="135" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">負責壹、肆大項</text>
-  <text x="652" y="153" font-size="14" fill="#92400e" text-anchor="middle">行政 + 財務管理</text>
+  <text x="652" y="135" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">負責壹、肆大項</text>
+  <text x="652" y="153" font-size="14" fill="#d97706" text-anchor="middle">行政 + 財務管理</text>
   <!-- Row 2 -->
   <rect x="28" y="183" width="744" height="62" rx="8" fill="#ffffff"/>
   <rect x="28" y="183" width="6" height="62" rx="2" fill="#78716c"/>

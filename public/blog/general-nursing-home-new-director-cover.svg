@@ -7,9 +7,9 @@
   <!-- 大數字裝飾 -->
   <text x="80" y="400" font-size="320" font-weight="900" fill="#d97706" opacity="0.10">30</text>
   <!-- 主標題 -->
-  <text x="90" y="155" font-size="50" font-weight="900" fill="#1c1917">護理之家</text>
+  <text x="90" y="155" font-size="50" font-weight="900" fill="#1e293b">護理之家</text>
   <text x="90" y="218" font-size="50" font-weight="900" fill="#d97706">新任護理長</text>
-  <text x="90" y="280" font-size="44" font-weight="900" fill="#1c1917">30 天上手指南</text>
+  <text x="90" y="280" font-size="44" font-weight="900" fill="#1e293b">30 天上手指南</text>
   <!-- 副標題 -->
   <text x="90" y="336" font-size="38" fill="#78716c">從接手到備戰評鑑的生存攻略</text>
   <rect x="90" y="358" width="120" height="4" fill="#d97706" rx="2"/>
@@ -25,10 +25,10 @@
   <text x="614" y="174" font-size="20" text-anchor="middle" fill="#78716c">交接清單確認</text>
   <!-- 第2週 -->
   <rect x="708" y="60" width="148" height="130" rx="12" fill="#ffffff" opacity="0.9"/>
-  <rect x="708" y="60" width="148" height="40" rx="12" fill="#44403c"/>
-  <rect x="708" y="88" width="148" height="12" fill="#44403c"/>
+  <rect x="708" y="60" width="148" height="40" rx="12" fill="#57534e"/>
+  <rect x="708" y="88" width="148" height="12" fill="#57534e"/>
   <text x="782" y="87" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="900">第 2 週</text>
-  <text x="782" y="118" font-size="24" text-anchor="middle" fill="#44403c" font-weight="700">識別缺口</text>
+  <text x="782" y="118" font-size="24" text-anchor="middle" fill="#57534e" font-weight="700">識別缺口</text>
   <text x="782" y="138" font-size="20" text-anchor="middle" fill="#78716c">高風險項目</text>
   <text x="782" y="156" font-size="20" text-anchor="middle" fill="#78716c">優先級分類</text>
   <text x="782" y="174" font-size="20" text-anchor="middle" fill="#78716c">缺口清單製作</text>
@@ -43,10 +43,10 @@
   <text x="950" y="174" font-size="20" text-anchor="middle" fill="#78716c">週進度追蹤</text>
   <!-- 第4週 -->
   <rect x="1044" y="60" width="148" height="130" rx="12" fill="#ffffff" opacity="0.9"/>
-  <rect x="1044" y="60" width="148" height="40" rx="12" fill="#44403c"/>
-  <rect x="1044" y="88" width="148" height="12" fill="#44403c"/>
+  <rect x="1044" y="60" width="148" height="40" rx="12" fill="#57534e"/>
+  <rect x="1044" y="88" width="148" height="12" fill="#57534e"/>
   <text x="1118" y="87" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="900">第 4 週</text>
-  <text x="1118" y="118" font-size="24" text-anchor="middle" fill="#44403c" font-weight="700">系統化管理</text>
+  <text x="1118" y="118" font-size="24" text-anchor="middle" fill="#57534e" font-weight="700">系統化管理</text>
   <text x="1118" y="138" font-size="20" text-anchor="middle" fill="#78716c">文件系統建立</text>
   <text x="1118" y="156" font-size="20" text-anchor="middle" fill="#78716c">AI查核啟動</text>
   <text x="1118" y="174" font-size="20" text-anchor="middle" fill="#78716c">自評時程設定</text>
@@ -57,16 +57,16 @@
   <!-- 要點區 -->
   <rect x="540" y="220" width="652" height="170" rx="12" fill="#ffffff" opacity="0.75"/>
   <text x="570" y="254" font-size="24" font-weight="700" fill="#d97706">新任護理長最常犯的錯誤（要避免！）</text>
-  <text x="570" y="280" font-size="20" fill="#44403c">[x] 急著改變前任所有文件格式</text>
-  <text x="570" y="302" font-size="20" fill="#44403c">[x] 把 15 項基準的文書全部攬在自己身上</text>
-  <text x="570" y="324" font-size="20" fill="#44403c">[x] 只準備文件，忽略工作人員實際執行能力</text>
-  <text x="570" y="346" font-size="20" fill="#44403c">[x] 不追蹤上次評鑑缺失改善進度</text>
+  <text x="570" y="280" font-size="20" fill="#57534e">[x] 急著改變前任所有文件格式</text>
+  <text x="570" y="302" font-size="20" fill="#57534e">[x] 把 15 項基準的文書全部攬在自己身上</text>
+  <text x="570" y="324" font-size="20" fill="#57534e">[x] 只準備文件，忽略工作人員實際執行能力</text>
+  <text x="570" y="346" font-size="20" fill="#57534e">[x] 不追蹤上次評鑑缺失改善進度</text>
   <!-- 底部裝飾 -->
   <circle cx="1100" cy="560" r="160" fill="#d97706" opacity="0.05"/>
   <!-- 標籤 -->
   <rect x="90" y="390" width="140" height="36" rx="18" fill="#d97706"/>
   <text x="160" y="413" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">115年度評鑑</text>
-  <rect x="250" y="390" width="160" height="36" rx="18" fill="#44403c"/>
+  <rect x="250" y="390" width="160" height="36" rx="18" fill="#57534e"/>
   <text x="330" y="413" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">護理長上手攻略</text>
   <!-- 浮水印 -->
   <text x="1140" y="590" font-size="24" fill="#c4bfb8" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

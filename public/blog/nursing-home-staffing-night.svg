@@ -11,7 +11,7 @@
   <text x="114" y="148"  font-size="17" font-weight="700" fill="#1e293b">夜班人數以「實際在班」計算</text>
   <text x="114" y="172"  font-size="15" fill="#57534e">備勤（on call）人員不算在夜班人數，必須是真正在機構值班的照服員</text>
   <!-- 項目2 -->
-  <rect x="40" y="202" width="720" height="72" rx="8" fill="#f8f7f5"/>
+  <rect x="40" y="202" width="720" height="72" rx="8" fill="#f8f7f4"/>
   <rect x="40" y="202" width="6" height="72" rx="2" fill="#78716c"/>
   <rect x="56" y="216" width="40" height="40" rx="6" fill="#78716c"/>
   <text x="76" y="242"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
@@ -25,7 +25,7 @@
   <text x="114" y="316"  font-size="17" font-weight="700" fill="#1e293b">夜班也需至少 1 位本國籍照服員</text>
   <text x="114" y="340"  font-size="15" fill="#57534e">即使夜班人力已達比例，若全數為外籍照服員，仍視為不符合 A11</text>
   <!-- 項目4 -->
-  <rect x="40" y="370" width="720" height="72" rx="8" fill="#f8f7f5"/>
+  <rect x="40" y="370" width="720" height="72" rx="8" fill="#f8f7f4"/>
   <rect x="40" y="370" width="6" height="72" rx="2" fill="#a8a29e"/>
   <rect x="56" y="384" width="40" height="40" rx="6" fill="#94a3b8"/>
   <text x="76" y="410"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>

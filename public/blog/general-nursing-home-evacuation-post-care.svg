@@ -2,22 +2,22 @@
   <!-- 背景 -->
   <rect width="800" height="500" fill="#f0efe8" rx="16"/>
   <!-- 標題 -->
-  <rect x="0" y="0" width="800" height="64" fill="#1e40af" rx="16"/>
-  <rect x="0" y="50" width="800" height="14" fill="#1e40af"/>
+  <rect x="0" y="0" width="800" height="64" fill="#2563eb" rx="16"/>
+  <rect x="0" y="50" width="800" height="14" fill="#2563eb"/>
   <text x="400" y="40" font-size="22" font-weight="900" text-anchor="middle" fill="#ffffff">疏散後持續照顧 SOP（C3 基準必備）</text>
   <!-- 流程步驟橫排 -->
   <!-- Step 1 -->
-  <rect x="24" y="84" width="142" height="370" rx="12" fill="#1e40af" opacity="0.85"/>
+  <rect x="24" y="84" width="142" height="370" rx="12" fill="#2563eb" opacity="0.85"/>
   <circle cx="95" cy="118" r="26" fill="#ffffff"/>
-  <text x="95" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#1e40af">1</text>
+  <text x="95" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#2563eb">1</text>
   <text x="95" y="160" font-size="15" font-weight="900" text-anchor="middle" fill="#ffffff">安置</text>
-  <line x1="55" y1="172" x2="135" y2="172" stroke="#93c5fd" stroke-width="1"/>
-  <text x="95" y="192" font-size="14" text-anchor="middle" fill="#bfdbfe">疏散至</text>
-  <text x="95" y="210" font-size="14" text-anchor="middle" fill="#bfdbfe">指定臨時</text>
-  <text x="95" y="228" font-size="14" text-anchor="middle" fill="#bfdbfe">安置區域</text>
-  <text x="95" y="260" font-size="14" text-anchor="middle" fill="#93c5fd">事先規劃</text>
-  <text x="95" y="278" font-size="14" text-anchor="middle" fill="#93c5fd">空曠安全</text>
-  <text x="95" y="296" font-size="14" text-anchor="middle" fill="#93c5fd">遠離火源</text>
+  <line x1="55" y1="172" x2="135" y2="172" stroke="#eff6ff" stroke-width="1"/>
+  <text x="95" y="192" font-size="14" text-anchor="middle" fill="#eff6ff">疏散至</text>
+  <text x="95" y="210" font-size="14" text-anchor="middle" fill="#eff6ff">指定臨時</text>
+  <text x="95" y="228" font-size="14" text-anchor="middle" fill="#eff6ff">安置區域</text>
+  <text x="95" y="260" font-size="14" text-anchor="middle" fill="#eff6ff">事先規劃</text>
+  <text x="95" y="278" font-size="14" text-anchor="middle" fill="#eff6ff">空曠安全</text>
+  <text x="95" y="296" font-size="14" text-anchor="middle" fill="#eff6ff">遠離火源</text>
   <!-- 箭頭 -->
   <text x="175" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 2 -->
@@ -25,28 +25,28 @@
   <circle cx="259" cy="118" r="26" fill="#ffffff"/>
   <text x="259" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#d97706">2</text>
   <text x="259" y="160" font-size="15" font-weight="900" text-anchor="middle" fill="#ffffff">住民清點</text>
-  <line x1="210" y1="172" x2="308" y2="172" stroke="#fde68a" stroke-width="1"/>
+  <line x1="210" y1="172" x2="308" y2="172" stroke="#fef3c7" stroke-width="1"/>
   <text x="259" y="192" font-size="14" text-anchor="middle" fill="#fef3c7">逐一確認</text>
   <text x="259" y="210" font-size="14" text-anchor="middle" fill="#fef3c7">對照疏散</text>
   <text x="259" y="228" font-size="14" text-anchor="middle" fill="#fef3c7">名冊逐人</text>
-  <text x="259" y="260" font-size="14" text-anchor="middle" fill="#fde68a">確認姓名</text>
-  <text x="259" y="278" font-size="14" text-anchor="middle" fill="#fde68a">非計總人數</text>
-  <text x="259" y="296" font-size="14" text-anchor="middle" fill="#fde68a">缺漏立即回報</text>
+  <text x="259" y="260" font-size="14" text-anchor="middle" fill="#fef3c7">確認姓名</text>
+  <text x="259" y="278" font-size="14" text-anchor="middle" fill="#fef3c7">非計總人數</text>
+  <text x="259" y="296" font-size="14" text-anchor="middle" fill="#fef3c7">缺漏立即回報</text>
   <!-- 箭頭 -->
   <text x="338" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 3 -->
-  <rect x="352" y="84" width="142" height="370" rx="12" fill="#1e40af" opacity="0.85"/>
+  <rect x="352" y="84" width="142" height="370" rx="12" fill="#2563eb" opacity="0.85"/>
   <circle cx="423" cy="118" r="26" fill="#ffffff"/>
-  <text x="423" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#1e40af">3</text>
+  <text x="423" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#2563eb">3</text>
   <text x="423" y="160" font-size="15" font-weight="900" text-anchor="middle" fill="#ffffff">緊急用藥</text>
-  <line x1="372" y1="172" x2="494" y2="172" stroke="#93c5fd" stroke-width="1"/>
-  <text x="423" y="192" font-size="14" text-anchor="middle" fill="#bfdbfe">疏散包內</text>
-  <text x="423" y="210" font-size="14" text-anchor="middle" fill="#bfdbfe">備緊急用藥</text>
-  <text x="423" y="228" font-size="14" text-anchor="middle" fill="#bfdbfe">清單</text>
-  <text x="423" y="260" font-size="14" text-anchor="middle" fill="#93c5fd">心臟病藥</text>
-  <text x="423" y="278" font-size="14" text-anchor="middle" fill="#93c5fd">癲癇用藥</text>
-  <text x="423" y="296" font-size="14" text-anchor="middle" fill="#93c5fd">胰島素</text>
-  <text x="423" y="314" font-size="14" text-anchor="middle" fill="#93c5fd">不可中斷藥物</text>
+  <line x1="372" y1="172" x2="494" y2="172" stroke="#eff6ff" stroke-width="1"/>
+  <text x="423" y="192" font-size="14" text-anchor="middle" fill="#eff6ff">疏散包內</text>
+  <text x="423" y="210" font-size="14" text-anchor="middle" fill="#eff6ff">備緊急用藥</text>
+  <text x="423" y="228" font-size="14" text-anchor="middle" fill="#eff6ff">清單</text>
+  <text x="423" y="260" font-size="14" text-anchor="middle" fill="#eff6ff">心臟病藥</text>
+  <text x="423" y="278" font-size="14" text-anchor="middle" fill="#eff6ff">癲癇用藥</text>
+  <text x="423" y="296" font-size="14" text-anchor="middle" fill="#eff6ff">胰島素</text>
+  <text x="423" y="314" font-size="14" text-anchor="middle" fill="#eff6ff">不可中斷藥物</text>
   <!-- 箭頭 -->
   <text x="503" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 4 -->
@@ -54,30 +54,30 @@
   <circle cx="587" cy="118" r="26" fill="#ffffff"/>
   <text x="587" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#d97706">4</text>
   <text x="587" y="160" font-size="15" font-weight="900" text-anchor="middle" fill="#ffffff">特殊醫療</text>
-  <line x1="536" y1="172" x2="638" y2="172" stroke="#fde68a" stroke-width="1"/>
+  <line x1="536" y1="172" x2="638" y2="172" stroke="#fef3c7" stroke-width="1"/>
   <text x="587" y="192" font-size="14" text-anchor="middle" fill="#fef3c7">特殊設備</text>
   <text x="587" y="210" font-size="14" text-anchor="middle" fill="#fef3c7">持續照顧</text>
-  <text x="587" y="260" font-size="14" text-anchor="middle" fill="#fde68a">鼻胃管</text>
-  <text x="587" y="278" font-size="14" text-anchor="middle" fill="#fde68a">氣切管理</text>
-  <text x="587" y="296" font-size="14" text-anchor="middle" fill="#fde68a">可攜式氧氣</text>
-  <text x="587" y="314" font-size="14" text-anchor="middle" fill="#fde68a">必要時緊急送醫</text>
+  <text x="587" y="260" font-size="14" text-anchor="middle" fill="#fef3c7">鼻胃管</text>
+  <text x="587" y="278" font-size="14" text-anchor="middle" fill="#fef3c7">氣切管理</text>
+  <text x="587" y="296" font-size="14" text-anchor="middle" fill="#fef3c7">可攜式氧氣</text>
+  <text x="587" y="314" font-size="14" text-anchor="middle" fill="#fef3c7">必要時緊急送醫</text>
   <!-- 箭頭 -->
   <text x="667" y="274" font-size="28" fill="#d97706" text-anchor="middle">-</text>
   <!-- Step 5 -->
-  <rect x="680" y="84" width="96" height="370" rx="12" fill="#1e40af" opacity="0.85"/>
+  <rect x="680" y="84" width="96" height="370" rx="12" fill="#2563eb" opacity="0.85"/>
   <circle cx="728" cy="118" r="26" fill="#ffffff"/>
-  <text x="728" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#1e40af">5</text>
+  <text x="728" y="126" font-size="22" font-weight="900" text-anchor="middle" fill="#2563eb">5</text>
   <text x="728" y="160" font-size="14" font-weight="900" text-anchor="middle" fill="#ffffff">家屬</text>
   <text x="728" y="178" font-size="14" font-weight="900" text-anchor="middle" fill="#ffffff">聯繫</text>
-  <line x1="692" y1="192" x2="764" y2="192" stroke="#93c5fd" stroke-width="1"/>
-  <text x="728" y="214" font-size="14" text-anchor="middle" fill="#bfdbfe">指定</text>
-  <text x="728" y="232" font-size="14" text-anchor="middle" fill="#bfdbfe">專責人員</text>
-  <text x="728" y="260" font-size="14" text-anchor="middle" fill="#93c5fd">名冊備</text>
-  <text x="728" y="278" font-size="14" text-anchor="middle" fill="#93c5fd">緊急聯絡</text>
-  <text x="728" y="296" font-size="14" text-anchor="middle" fill="#93c5fd">電話</text>
+  <line x1="692" y1="192" x2="764" y2="192" stroke="#eff6ff" stroke-width="1"/>
+  <text x="728" y="214" font-size="14" text-anchor="middle" fill="#eff6ff">指定</text>
+  <text x="728" y="232" font-size="14" text-anchor="middle" fill="#eff6ff">專責人員</text>
+  <text x="728" y="260" font-size="14" text-anchor="middle" fill="#eff6ff">名冊備</text>
+  <text x="728" y="278" font-size="14" text-anchor="middle" fill="#eff6ff">緊急聯絡</text>
+  <text x="728" y="296" font-size="14" text-anchor="middle" fill="#eff6ff">電話</text>
   <!-- 底部說明 -->
-  <rect x="24" y="466" width="372" height="16" rx="4" fill="#1e40af" opacity="0.1"/>
-  <text x="210" y="479" font-size="14" text-anchor="middle" fill="#1e40af" font-weight="700">C3 要求：疏散後持續照顧 SOP 需書面化</text>
+  <rect x="24" y="466" width="372" height="16" rx="4" fill="#2563eb" opacity="0.1"/>
+  <text x="210" y="479" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="700">C3 要求：疏散後持續照顧 SOP 需書面化</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

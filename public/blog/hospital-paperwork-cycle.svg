@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="68" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="68" fill="#1e293b"/>
   <text x="400" y="42"  font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">大拜拜循環 vs 日常化品管</text>
 
   <!-- 列1 — 評鑑前集中衝刺 (#dc2626)，y=128 -->
-  <rect x="32" y="128" width="736" height="90" rx="8" fill="#fff5f5" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="32" y="128" width="736" height="90" rx="8" fill="#fef2f2" stroke="#fef2f2" stroke-width="1.5"/>
   <rect x="32" y="128" width="8" height="90" rx="4" fill="#dc2626"/>
   <text x="56" y="157"  font-size="17" font-weight="700" fill="#dc2626">評鑑前集中衝刺</text>
   <text x="56" y="179"  font-size="14" fill="#57534e">X 舊模式：評鑑前2個月全科加班補寫文書</text>
@@ -17,7 +17,7 @@
   <text x="698" y="171"  font-size="14" font-weight="700" fill="#dc2626" text-anchor="middle">大拜拜</text>
 
   <!-- 列2 — 評鑑後品管鬆懈 (#d97706)，y=231 -->
-  <rect x="32" y="231" width="736" height="90" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+  <rect x="32" y="231" width="736" height="90" rx="8" fill="#fef3c7" stroke="#fef3c7" stroke-width="1.5"/>
   <rect x="32" y="231" width="8" height="90" rx="4" fill="#d97706"/>
   <text x="56" y="260"  font-size="17" font-weight="700" fill="#d97706">評鑑後品管鬆懈</text>
   <text x="56" y="282"  font-size="14" fill="#57534e">X 舊模式：評鑑結束即放鬆，改善計畫追蹤中斷</text>
@@ -26,7 +26,7 @@
   <text x="698" y="274"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">惡性循環</text>
 
   <!-- 列3 — 日常化品管新路徑 (#16a34a)，y=334 -->
-  <rect x="32" y="334" width="736" height="90" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="32" y="334" width="736" height="90" rx="8" fill="#f0fdf4" stroke="#f0fdf4" stroke-width="1.5"/>
   <rect x="32" y="334" width="8" height="90" rx="4" fill="#16a34a"/>
   <text x="56" y="363"  font-size="17" font-weight="700" fill="#16a34a">日常化品管新路徑</text>
   <text x="56" y="385"  font-size="14" fill="#57534e">O 新做法：每月品質報告、AI輔助文書日常化、每季自我查核</text>

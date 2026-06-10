@@ -26,7 +26,7 @@
   <text x="66" y="221" font-size="14" font-weight="bold" fill="white" text-anchor="middle" >C11</text>
   <text x="100" y="209" font-size="17" font-weight="bold" fill="#1e293b" >每月自主檢查用電設備安全</text>
   <text x="100" y="231" font-size="16" fill="#57534e" >每月自主檢查機構內部用電設備安全並有紀錄；每半年委託業者定期檢驗</text>
-  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fffbeb" opacity="0.12"/>
+  <rect x="620" y="196" width="136" height="40" rx="8" fill="#fef3c7" opacity="0.12"/>
   <text x="688" y="221" font-size="14" fill="#d97706" text-anchor="middle" >月度查核</text>
 
   <!-- Row 3: C12 逃生圖 -->

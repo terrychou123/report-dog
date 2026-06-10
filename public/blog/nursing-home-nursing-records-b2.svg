@@ -34,13 +34,13 @@
   <!-- 說明框 1：72hr -->
   <rect x="160" y="115" width="160" height="98" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
   <line x1="240" y1="213" x2="240" y2="210" stroke="#d97706" stroke-width="2"/>
-  <text x="240" y="138" font-size="14" fill="#92400e" font-weight="700" text-anchor="middle">72小時初評</text>
+  <text x="240" y="138" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">72小時初評</text>
   <text x="240" y="158" font-size="14" fill="#57534e" text-anchor="middle">跌倒風險量表</text>
   <text x="240" y="176" font-size="14" fill="#57534e" text-anchor="middle">Braden Scale</text>
   <text x="240" y="194" font-size="14" fill="#57534e" text-anchor="middle">MNA 營養評估</text>
 
   <!-- 說明框 2：3個月 -->
-  <rect x="340" y="258" width="160" height="98" rx="8" fill="#f0f9ff" stroke="#78716c" stroke-width="1.5"/>
+  <rect x="340" y="258" width="160" height="98" rx="8" fill="#eff6ff" stroke="#78716c" stroke-width="1.5"/>
   <line x1="420" y1="250" x2="420" y2="256" stroke="#78716c" stroke-width="2"/>
   <text x="420" y="280" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">每3個月評值</text>
   <text x="420" y="300" font-size="14" fill="#57534e" text-anchor="middle">身體心理社會</text>

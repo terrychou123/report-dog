@@ -21,8 +21,8 @@
   <text x="916" y="395" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="900">C</text>
   <text x="916" y="426" font-size="21" fill="#78716c" text-anchor="middle">確認</text>
 
-  <rect x="1008" y="356" width="152" height="88" rx="10" fill="#7c3aed" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1084" y="395" font-size="30" fill="#7c3aed" text-anchor="middle" font-weight="900">A</text>
+  <rect x="1008" y="356" width="152" height="88" rx="10" fill="#9333ea" opacity="0.10" stroke="#e8e5de" stroke-width="1"/>
+  <text x="1084" y="395" font-size="30" fill="#9333ea" text-anchor="middle" font-weight="900">A</text>
   <text x="1084" y="426" font-size="21" fill="#78716c" text-anchor="middle">標準化</text>
 
   <!-- 右側品質指標 -->

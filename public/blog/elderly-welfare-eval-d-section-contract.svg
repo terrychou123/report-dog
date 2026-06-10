@@ -13,7 +13,7 @@
   <text x="66" y="197" font-size="14" fill="#d97706" text-anchor="middle" font-weight="700" >1</text>
   <text x="100" y="183" font-size="20" fill="#1e293b" font-weight="700" >主管機關核備契約 + 騎縫章</text>
   <text x="100" y="207" font-size="16" fill="#57534e" >須與服務使用者簽訂經主管機關核備之契約書，並加蓋騎縫章，防止頁數置換</text>
-  <rect x="620" y="168" width="136" height="46" rx="8" fill="#dbeafe" opacity="0.12"/>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#eff6ff" opacity="0.12"/>
   <text x="688" y="196" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600" >核備文號備查</text>
 
   <!-- Row 2 (y=235) -->

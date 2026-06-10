@@ -26,7 +26,7 @@
   <text x="74" y="246" font-size="14" fill="white" text-anchor="middle"  font-weight="700">B15</text>
   <text x="108" y="233" font-size="20" font-weight="700" fill="#1e293b" >B15 疼痛偵測 + B16 約束管理</text>
   <text x="108" y="257" font-size="16" fill="#57534e" >疼痛含時間/位置/嚴重度評估；約束前須有醫師診斷、家屬同意書（3 個月有效）</text>
-  <rect x="620" y="218" width="136" height="46" rx="8" fill="#dcfce7" opacity="0.12"/>
+  <rect x="620" y="218" width="136" height="46" rx="8" fill="#f0fdf4" opacity="0.12"/>
   <text x="688" y="236" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">知情同意</text>
   <text x="688" y="255" font-size="14" fill="#16a34a" text-anchor="middle" >無不當約束</text>
 

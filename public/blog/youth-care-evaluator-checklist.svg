@@ -36,11 +36,11 @@
   <!-- Row 4 -->
   <rect x="28" y="337" width="744" height="60" rx="12" fill="#ffffff"/>
   <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
-  <circle cx="66" cy="367" r="16" fill="#e7e5e4"/>
+  <circle cx="66" cy="367" r="16" fill="#e8e6de"/>
   <text x="66" y="372"  font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
   <text x="100" y="359"  font-size="15" font-weight="700" fill="#1e293b">財務與董事會文件（項目 29，行政組織）</text>
   <text x="100" y="381"  font-size="16" fill="#57534e">歷年審計查核結果、預算執行、持續改善跡象</text>
-  <rect x="620" y="348" width="136" height="38" rx="8" fill="#e7e5e4" opacity="0.12"/>
+  <rect x="620" y="348" width="136" height="38" rx="8" fill="#e8e6de" opacity="0.12"/>
   <text x="688" y="371"  font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">歷史脈絡</text>
   <!-- Warning note -->
   <rect x="28" y="412" width="744" height="48" rx="12" fill="#fef3c7"/>

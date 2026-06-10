@@ -7,33 +7,33 @@
   <text x="56" y="124"  font-size="15" font-weight="700" fill="#d97706">A 管理類（3 項）</text>
   <rect x="40" y="132" width="225" height="44" rx="6" fill="#d97706"/>
   <text x="152" y="150"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">A7 業務負責人</text>
-  <text x="152" y="168"  font-size="14" fill="#fff3cd" text-anchor="middle">實際參與管理，資格符合</text>
+  <text x="152" y="168"  font-size="14" fill="#fef3c7" text-anchor="middle">實際參與管理，資格符合</text>
   <rect x="280" y="132" width="225" height="44" rx="6" fill="#d97706"/>
   <text x="392" y="150"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">A9 護理人員</text>
-  <text x="392" y="168"  font-size="14" fill="#fff3cd" text-anchor="middle">比例達標，全日均有護理師</text>
+  <text x="392" y="168"  font-size="14" fill="#fef3c7" text-anchor="middle">比例達標，全日均有護理師</text>
   <rect x="520" y="132" width="240" height="44" rx="6" fill="#d97706"/>
   <text x="640" y="150"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">A11 照顧服務員</text>
-  <text x="640" y="168"  font-size="14" fill="#fff3cd" text-anchor="middle">比例達標，各班本國籍照服員</text>
+  <text x="640" y="168"  font-size="14" fill="#fef3c7" text-anchor="middle">比例達標，各班本國籍照服員</text>
   <!-- 安全類 -->
   <text x="56" y="200"  font-size="15" font-weight="700" fill="#57534e">C 安全類（6 項）</text>
   <rect x="40" y="208" width="225" height="44" rx="6" fill="#57534e"/>
   <text x="152" y="226"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C4 緊急呼叫系統</text>
-  <text x="152" y="244"  font-size="14" fill="#d4ccc8" text-anchor="middle">寢室浴廁均設置，功能正常</text>
+  <text x="152" y="244"  font-size="14" fill="#dedad3" text-anchor="middle">寢室浴廁均設置，功能正常</text>
   <rect x="280" y="208" width="225" height="44" rx="6" fill="#57534e"/>
   <text x="392" y="226"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C9 消防安全設備</text>
-  <text x="392" y="244"  font-size="14" fill="#d4ccc8" text-anchor="middle">每半年委託消防設備師檢修</text>
+  <text x="392" y="244"  font-size="14" fill="#dedad3" text-anchor="middle">每半年委託消防設備師檢修</text>
   <rect x="520" y="208" width="240" height="44" rx="6" fill="#57534e"/>
   <text x="640" y="226"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C10 疏散避難系統</text>
-  <text x="640" y="244"  font-size="14" fill="#d4ccc8" text-anchor="middle">逃生路徑暢通，等待救援空間</text>
+  <text x="640" y="244"  font-size="14" fill="#dedad3" text-anchor="middle">逃生路徑暢通，等待救援空間</text>
   <rect x="40" y="266" width="225" height="44" rx="6" fill="#78716c"/>
   <text x="152" y="284"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C11 緊急應變計畫</text>
-  <text x="152" y="302"  font-size="14" fill="#d4ccc8" text-anchor="middle">EOP 完備，每年演練 2 次</text>
+  <text x="152" y="302"  font-size="14" fill="#dedad3" text-anchor="middle">EOP 完備，每年演練 2 次</text>
   <rect x="280" y="266" width="225" height="44" rx="6" fill="#78716c"/>
   <text x="392" y="284"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C12 疏散策略</text>
-  <text x="392" y="302"  font-size="14" fill="#d4ccc8" text-anchor="middle">各樓層住民疏散順序與策略</text>
+  <text x="392" y="302"  font-size="14" fill="#dedad3" text-anchor="middle">各樓層住民疏散順序與策略</text>
   <rect x="520" y="266" width="240" height="44" rx="6" fill="#78716c"/>
   <text x="640" y="284"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C15 護理站設施</text>
-  <text x="640" y="302"  font-size="14" fill="#d4ccc8" text-anchor="middle">基本急救設備完備，功能正常</text>
+  <text x="640" y="302"  font-size="14" fill="#dedad3" text-anchor="middle">基本急救設備完備，功能正常</text>
   <!-- 說明框 -->
   <rect x="40" y="330" width="720" height="60" rx="10" fill="#d97706" opacity="0.1"/>
   <text x="60" y="352"  font-size="15" font-weight="700" fill="#d97706">安全類佔 6/9 項：</text>

@@ -7,24 +7,24 @@
   <rect x="60" y="130" width="155" height="170" rx="14" fill="#d97706"/>
   <text x="137" y="190"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
   <text x="137" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">立即通報</text>
-  <text x="137" y="252"  font-size="14" fill="#fff3cd" text-anchor="middle">通報護理長</text>
-  <text x="137" y="272"  font-size="14" fill="#fff3cd" text-anchor="middle">及業務負責人</text>
+  <text x="137" y="252"  font-size="14" fill="#fef3c7" text-anchor="middle">通報護理長</text>
+  <text x="137" y="272"  font-size="14" fill="#fef3c7" text-anchor="middle">及業務負責人</text>
   <!-- 箭頭 -->
   <text x="238" y="222"  font-size="28" fill="#78716c" text-anchor="middle">&#8594;</text>
   <!-- 步驟2 -->
   <rect x="255" y="130" width="155" height="170" rx="14" fill="#78716c"/>
   <text x="332" y="190"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
   <text x="332" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">緊急召回</text>
-  <text x="332" y="252"  font-size="14" fill="#d4ccc8" text-anchor="middle">依 A6 危機管理</text>
-  <text x="332" y="272"  font-size="14" fill="#d4ccc8" text-anchor="middle">緊急人力調度</text>
+  <text x="332" y="252"  font-size="14" fill="#dedad3" text-anchor="middle">依 A6 危機管理</text>
+  <text x="332" y="272"  font-size="14" fill="#dedad3" text-anchor="middle">緊急人力調度</text>
   <!-- 箭頭 -->
   <text x="433" y="222"  font-size="28" fill="#57534e" text-anchor="middle">&#8594;</text>
   <!-- 步驟3 -->
   <rect x="450" y="130" width="155" height="170" rx="14" fill="#57534e"/>
   <text x="527" y="190"  font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
   <text x="527" y="226"  font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">記錄說明</text>
-  <text x="527" y="252"  font-size="14" fill="#d4ccc8" text-anchor="middle">在值班記錄中</text>
-  <text x="527" y="272"  font-size="14" fill="#d4ccc8" text-anchor="middle">說明原因及緩和</text>
+  <text x="527" y="252"  font-size="14" fill="#dedad3" text-anchor="middle">在值班記錄中</text>
+  <text x="527" y="272"  font-size="14" fill="#dedad3" text-anchor="middle">說明原因及緩和</text>
   <!-- 箭頭 -->
   <text x="628" y="222"  font-size="28" fill="#94a3b8" text-anchor="middle">&#8594;</text>
   <!-- 步驟4 -->

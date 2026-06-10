@@ -36,9 +36,9 @@
   <text x="56" y="396" font-size="14" fill="#dc2626" font-weight="600">夜間演練不要再拖！</text>
 
   <!-- 第8週 -->
-  <rect x="400" y="280" width="360" height="150" rx="10" fill="white" stroke="#7c3aed" stroke-width="2"/>
-  <rect x="400" y="280" width="360" height="38" rx="10" fill="#7c3aed"/>
-  <rect x="400" y="298" width="360" height="20" fill="#7c3aed"/>
+  <rect x="400" y="280" width="360" height="150" rx="10" fill="white" stroke="#9333ea" stroke-width="2"/>
+  <rect x="400" y="280" width="360" height="38" rx="10" fill="#9333ea"/>
+  <rect x="400" y="298" width="360" height="20" fill="#9333ea"/>
   <text x="580" y="305" font-size="16" fill="#fff" font-weight="700" text-anchor="middle">第8週：D 區特別事項補強</text>
   <text x="416" y="334" font-size="14" fill="#57534e">• 建立口腔照護記錄格式（從本週開始記錄）</text>
   <text x="416" y="354" font-size="14" fill="#57534e">• 確認口腔照護工作人員訓練記錄</text>

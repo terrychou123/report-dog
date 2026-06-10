@@ -29,7 +29,7 @@
   <text x="112" y="255" font-size="20" font-weight="700" fill="#1e293b" >清潔照護及翻身拍背</text>
   <text x="112" y="280" font-size="15" fill="#57534e" >每週至少洗澡 2 次，維持儀容整潔；臥床個案每 2 小時翻身拍背並記錄；</text>
   <text x="112" y="302" font-size="15" fill="#57534e" >落實每日餐後睡前口腔清潔，包含鼻胃管住民，尊重個人裝扮偏好</text>
-  <rect x="620" y="237" width="136" height="64" rx="8" fill="#dcfce7" opacity="0.12"/>
+  <rect x="620" y="237" width="136" height="64" rx="8" fill="#f0fdf4" opacity="0.12"/>
   <text x="688" y="262" font-size="14" fill="#16a34a" text-anchor="middle"  font-weight="700">翻身頻率</text>
   <text x="688" y="282" font-size="14" fill="#16a34a" text-anchor="middle" >每 2 小時</text>
   <text x="688" y="294" font-size="14" fill="#16a34a" text-anchor="middle" >擺位記錄</text>

@@ -1,52 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9" />
+  <rect width="800" height="500" fill="#f0efe8" />
 
   <!-- 標題區塊 -->
-  <rect x="0" y="0" width="800" height="80" fill="#b45309" />
+  <rect x="0" y="0" width="800" height="80" fill="#d97706" />
   <text x="400" y="35" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">危險物品管理四大要件（1.5.4）</text>
-  <text x="400" y="60" font-size="14" fill="#fde68a" text-anchor="middle">重點條文：清冊、標示、應變、PPE缺一不可</text>
+  <text x="400" y="60" font-size="14" fill="#fef3c7" text-anchor="middle">重點條文：清冊、標示、應變、PPE缺一不可</text>
 
   <!-- 列1：危險物品清冊與分類（y=92） -->
-  <rect x="30" y="92" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="92" width="740" height="88" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1" />
   <rect x="30" y="92" width="6" height="88" rx="2" fill="#d97706" />
   <circle cx="68" cy="136" r="18" fill="#d97706"  opacity="0.15"/>
   <text x="68" y="142" font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">1</text>
-  <text x="98" y="120" font-size="15" font-weight="700" fill="#1c1917">危險物品清冊與分類</text>
+  <text x="98" y="120" font-size="15" font-weight="700" fill="#1e293b">危險物品清冊與分類</text>
   <text x="98" y="140" font-size="14" fill="#57534e">全院危險物品（化學品/放射性物質/壓縮氣體/消毒劑）建立清冊，</text>
   <text x="98" y="158" font-size="14" fill="#57534e">依危害性分類管理</text>
   <rect x="648" y="114" width="90" height="26" rx="6" fill="#fef3c7" />
-  <text x="693" y="132" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">分類清冊</text>
+  <text x="693" y="132" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">分類清冊</text>
 
   <!-- 列2：儲存規定與標示（y=192） -->
-  <rect x="30" y="192" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="192" width="740" height="88" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1" />
   <rect x="30" y="192" width="6" height="88" rx="2" fill="#78716c" />
   <circle cx="68" cy="236" r="18" fill="#78716c"  opacity="0.15"/>
   <text x="68" y="242" font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">2</text>
-  <text x="98" y="220" font-size="15" font-weight="700" fill="#1c1917">儲存規定與標示</text>
+  <text x="98" y="220" font-size="15" font-weight="700" fill="#1e293b">儲存規定與標示</text>
   <text x="98" y="240" font-size="14" fill="#57534e">危險物品依分類儲存（通風/防火/隔離），容器標示清楚，</text>
   <text x="98" y="258" font-size="14" fill="#57534e">GHS標示與SDS資料表就近放置</text>
   <rect x="648" y="214" width="90" height="26" rx="6" fill="#f5f5f4" />
   <text x="693" y="232" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">標示合規</text>
 
   <!-- 列3：洩漏緊急應變程序（y=292） -->
-  <rect x="30" y="292" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="292" width="740" height="88" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1" />
   <rect x="30" y="292" width="6" height="88" rx="2" fill="#57534e" />
   <circle cx="68" cy="336" r="18" fill="#57534e"  opacity="0.15"/>
   <text x="68" y="342" font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">3</text>
-  <text x="98" y="320" font-size="15" font-weight="700" fill="#1c1917">洩漏緊急應變程序</text>
+  <text x="98" y="320" font-size="15" font-weight="700" fill="#1e293b">洩漏緊急應變程序</text>
   <text x="98" y="340" font-size="14" fill="#57534e">各類危險物品洩漏的應變SOP，人員能說明/找到程序書，</text>
   <text x="98" y="358" font-size="14" fill="#57534e">應變設備（如洩漏吸附材）就位</text>
   <rect x="648" y="314" width="90" height="26" rx="6" fill="#f5f5f4" />
   <text x="693" y="332" font-size="14" fill="#57534e" text-anchor="middle" font-weight="600">應變就緒</text>
 
   <!-- 列4：操作人員訓練與PPE（y=392） -->
-  <rect x="30" y="392" width="740" height="88" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1" />
+  <rect x="30" y="392" width="740" height="88" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1" />
   <rect x="30" y="392" width="6" height="88" rx="2" fill="#a8a29e" />
   <circle cx="68" cy="436" r="18" fill="#a8a29e"  opacity="0.15"/>
   <text x="68" y="442" font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">4</text>
-  <text x="98" y="420" font-size="15" font-weight="700" fill="#1c1917">操作人員訓練與PPE</text>
+  <text x="98" y="420" font-size="15" font-weight="700" fill="#1e293b">操作人員訓練與PPE</text>
   <text x="98" y="440" font-size="14" fill="#57534e">操作危險物品人員接受訓練有紀錄，</text>
   <text x="98" y="458" font-size="14" fill="#57534e">配備適當個人防護裝備（手套、護目鏡、口罩等）</text>
   <rect x="648" y="414" width="90" height="26" rx="6" fill="#f5f5f4" />

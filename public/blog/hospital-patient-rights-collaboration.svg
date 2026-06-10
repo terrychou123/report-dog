@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="'Noto Sans TC', sans-serif">
   <rect width="800" height="500" fill="#f0efe8"/>
   <!-- 背景 -->
-  <rect width="800" height="500" fill="#fafaf9"/>
+  <rect width="800" height="500" fill="#f0efe8"/>
 
   <!-- 標題區 -->
-  <rect x="0" y="0" width="800" height="78" fill="#1c1917"/>
+  <rect x="0" y="0" width="800" height="78" fill="#1e293b"/>
   <text x="400" y="38"  font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">病人權利落實各部門協作分工</text>
   <text x="400" y="62"  font-size="14" fill="#a8a29e" text-anchor="middle">全院協作才能讓病人權利從文書落實為日常</text>
 
   <!-- 列1（y=92，h=80）-->
-  <rect x="28" y="92" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="92" width="744" height="80" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="92" width="6" height="80" rx="2" fill="#d97706"/>
   <text x="52" y="116"  font-size="14" font-weight="700" fill="#d97706">護理部門</text>
   <text x="52" y="136"  font-size="14" fill="#57534e">入院辦理病人權利書告知與簽收、隱私措施落實（拉簾、關門）、拒絕治療即時通報醫師</text>
@@ -18,7 +18,7 @@
   <text x="704" y="129"  font-size="14" font-weight="700" fill="#d97706" text-anchor="middle">第一線</text>
 
   <!-- 列2（y=182，h=80）-->
-  <rect x="28" y="182" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="182" width="744" height="80" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="182" width="6" height="80" rx="2" fill="#78716c"/>
   <text x="52" y="206"  font-size="14" font-weight="700" fill="#78716c">醫師</text>
   <text x="52" y="226"  font-size="14" fill="#57534e">執行知情同意說明，確保四大要件完整，緊急情況知情同意記錄，充分回應病人問題</text>
@@ -27,7 +27,7 @@
   <text x="704" y="219"  font-size="14" font-weight="700" fill="#78716c" text-anchor="middle">說明責任</text>
 
   <!-- 列3（y=272，h=80）-->
-  <rect x="28" y="272" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="272" width="744" height="80" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="272" width="6" height="80" rx="2" fill="#57534e"/>
   <text x="52" y="296"  font-size="14" font-weight="700" fill="#57534e">行政管理</text>
   <text x="52" y="316"  font-size="14" fill="#57534e">知情同意書版本管理與更新、個資保護政策維護、病歷查閱授權管控系統</text>
@@ -36,7 +36,7 @@
   <text x="704" y="309"  font-size="14" font-weight="700" fill="#57534e" text-anchor="middle">制度管理</text>
 
   <!-- 列4（y=362，h=80）-->
-  <rect x="28" y="362" width="744" height="80" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="28" y="362" width="744" height="80" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
   <rect x="28" y="362" width="6" height="80" rx="2" fill="#a8a29e"/>
   <text x="52" y="386"  font-size="14" font-weight="700" fill="#78716c">醫療社工</text>
   <text x="52" y="406"  font-size="14" fill="#57534e">特殊宗教文化需求協調、溝通困難病人的代言、外籍病人語言協助</text>

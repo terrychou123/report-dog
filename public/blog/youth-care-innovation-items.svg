@@ -42,7 +42,7 @@
   <text x="702" y="298"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">+1 分</text>
   <rect x="28" y="337" width="360" height="60" rx="12" fill="#f5f5f4"/>
   <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
-  <circle cx="66" cy="367" r="16" fill="#e7e5e4"/>
+  <circle cx="66" cy="367" r="16" fill="#e8e6de"/>
   <text x="66" y="372"  font-size="14" font-weight="700" fill="#a8a29e" text-anchor="middle">34</text>
   <text x="100" y="357"  font-size="15" font-weight="700" fill="#1e293b">COVID 防疫措施</text>
   <text x="100" y="379"  font-size="16" fill="#57534e">防疫計畫、返工計畫、疫苗施打率</text>
@@ -50,7 +50,7 @@
   <text x="324" y="371"  font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">最多 +3 分</text>
   <rect x="400" y="337" width="372" height="60" rx="12" fill="#f5f5f4"/>
   <rect x="400" y="337" width="6" height="60" rx="2" fill="#6b7280"/>
-  <circle cx="438" cy="367" r="16" fill="#f3f4f6"/>
+  <circle cx="438" cy="367" r="16" fill="#f5f5f4"/>
   <text x="438" y="372"  font-size="14" font-weight="700" fill="#6b7280" text-anchor="middle">35</text>
   <text x="472" y="357"  font-size="15" font-weight="700" fill="#1e293b">創新服務方案</text>
   <text x="472" y="379"  font-size="14" fill="#57534e">特殊情況下的創新方案</text>

@@ -43,8 +43,8 @@
   <text x="94" y="351" font-size="16" fill="#1e293b" font-weight="600">地方主管機關 112 年查核</text>
   <text x="94" y="375" font-size="14" fill="#57534e">評鑑當年度查核結果，最新資料</text>
   <rect x="540" y="341" width="224" height="46" rx="8" fill="#fef3c7"/>
-  <text x="652" y="360" font-size="14" fill="#92400e" text-anchor="middle" font-weight="600">合格：20 分</text>
-  <text x="652" y="378" font-size="14" fill="#92400e" text-anchor="middle">函文補件：扣 2 分</text>
+  <text x="652" y="360" font-size="14" fill="#d97706" text-anchor="middle" font-weight="600">合格：20 分</text>
+  <text x="652" y="378" font-size="14" fill="#d97706" text-anchor="middle">函文補件：扣 2 分</text>
   <!-- Watermark -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

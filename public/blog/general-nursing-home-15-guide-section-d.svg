@@ -2,30 +2,30 @@
   <rect width="800" height="500" fill="#f0efe8"/>
   <text x="40" y="48" font-size="32" fill="#1e293b" font-weight="700">D 區：特別事項 3 項說明</text>
   <text x="40" y="76" font-size="22" fill="#57534e">D1 加分 · D2 口腔新重點 · D3 試評扣分紅線</text>
-  <line x1="40" y1="92" x2="760" y2="92" stroke="#7c3aed" stroke-width="2"/>
+  <line x1="40" y1="92" x2="760" y2="92" stroke="#9333ea" stroke-width="2"/>
 
   <!-- D1 -->
-  <rect x="40" y="112" width="228" height="310" rx="12" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
-  <rect x="40" y="112" width="228" height="48" rx="12" fill="#7c3aed"/>
-  <rect x="40" y="136" width="228" height="24" fill="#7c3aed"/>
+  <rect x="40" y="112" width="228" height="310" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <rect x="40" y="112" width="228" height="48" rx="12" fill="#9333ea"/>
+  <rect x="40" y="136" width="228" height="24" fill="#9333ea"/>
   <text x="154" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D1 創新配合政策</text>
-  <text x="154" y="157" font-size="14" fill="#e9d5ff" text-anchor="middle">加分項 · 等第提升關鍵</text>
+  <text x="154" y="157" font-size="14" fill="#faf5ff" text-anchor="middle">加分項 · 等第提升關鍵</text>
   <text x="56" y="190" font-size="14" fill="#57534e" font-weight="600">小機構適合的加分方向：</text>
   <text x="56" y="212" font-size="14" fill="#57534e">• 建立電子化照護記錄</text>
   <text x="56" y="232" font-size="14" fill="#57534e">• 參與衛生局品質促進計畫</text>
   <text x="56" y="252" font-size="14" fill="#57534e">• 推動住民口腔健康促進</text>
   <text x="56" y="272" font-size="14" fill="#57534e">• 護理師地區研討會分享</text>
-  <text x="56" y="300" font-size="14" fill="#7c3aed" font-weight="600">關鍵：有做要留書面記錄</text>
+  <text x="56" y="300" font-size="14" fill="#9333ea" font-weight="600">關鍵：有做要留書面記錄</text>
   <text x="56" y="320" font-size="14" fill="#57534e">創新不需要高科技</text>
   <text x="56" y="340" font-size="14" fill="#57534e">有做·有記錄·有成效</text>
   <text x="56" y="360" font-size="14" fill="#57534e">= 加分機會</text>
 
   <!-- D2 -->
-  <rect x="286" y="112" width="228" height="310" rx="12" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
-  <rect x="286" y="112" width="228" height="48" rx="12" fill="#7c3aed"/>
-  <rect x="286" y="136" width="228" height="24" fill="#7c3aed"/>
+  <rect x="286" y="112" width="228" height="310" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <rect x="286" y="112" width="228" height="48" rx="12" fill="#9333ea"/>
+  <rect x="286" y="136" width="228" height="24" fill="#9333ea"/>
   <text x="400" y="128" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">D2 口腔健康照護</text>
-  <text x="400" y="157" font-size="14" fill="#e9d5ff" text-anchor="middle">115年新增 · 系統性要求</text>
+  <text x="400" y="157" font-size="14" fill="#faf5ff" text-anchor="middle">115年新增 · 系統性要求</text>
   <text x="302" y="190" font-size="14" fill="#57534e" font-weight="600">四項必備：</text>
   <text x="302" y="212" font-size="14" fill="#57534e">1 定期口腔健康評估</text>
   <text x="302" y="232" font-size="14" fill="#57534e">2 工作人員口腔照護訓練</text>

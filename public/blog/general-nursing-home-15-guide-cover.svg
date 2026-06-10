@@ -22,7 +22,7 @@
   <text x="918" y="456" font-size="20" fill="#a8a29e" text-anchor="middle">消防安全</text>
 
   <rect x="1005" y="388" width="155" height="86" rx="10" fill="white" stroke="#e8e5de" stroke-width="1"/>
-  <text x="1083" y="425" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="700">D 區 3 項</text>
+  <text x="1083" y="425" font-size="26" fill="#9333ea" text-anchor="middle" font-weight="700">D 區 3 項</text>
   <text x="1083" y="456" font-size="20" fill="#a8a29e" text-anchor="middle">特別事項</text>
 
   <!-- 右側底部標籤 -->
@@ -47,8 +47,8 @@
   <rect x="376" y="422" width="148" height="52" rx="10" fill="#2563eb" opacity="0.12"/>
   <text x="450" y="457" font-size="26" fill="#2563eb" text-anchor="middle" font-weight="600">C 消防安全</text>
 
-  <rect x="534" y="422" width="148" height="52" rx="10" fill="#7c3aed" opacity="0.12"/>
-  <text x="608" y="457" font-size="26" fill="#7c3aed" text-anchor="middle" font-weight="600">D 特別事項</text>
+  <rect x="534" y="422" width="148" height="52" rx="10" fill="#9333ea" opacity="0.12"/>
+  <text x="608" y="457" font-size="26" fill="#9333ea" text-anchor="middle" font-weight="600">D 特別事項</text>
 
   <!-- 適用對象 -->
   <text x="60" y="546" font-size="26" fill="#94a3b8">適用對象：一般護理之家負責人 · 護理長 · 護理師 · 品管人員</text>

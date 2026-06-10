@@ -71,8 +71,8 @@
 
   <!-- 底部提示 -->
   <rect x="40" y="398" width="720" height="48" rx="8" fill="#fef3c7"/>
-  <text x="400" y="418" font-size="15" fill="#92400e" text-anchor="middle" font-weight="600">用報告汪建立你的評鑑準備進度追蹤看板</text>
-  <text x="400" y="438" font-size="14" fill="#92400e" text-anchor="middle">每項任務指定負責人，截止日期提醒，讓進度不脫軌</text>
+  <text x="400" y="418" font-size="15" fill="#d97706" text-anchor="middle" font-weight="600">用報告汪建立你的評鑑準備進度追蹤看板</text>
+  <text x="400" y="438" font-size="14" fill="#d97706" text-anchor="middle">每項任務指定負責人，截止日期提醒，讓進度不脫軌</text>
 
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>

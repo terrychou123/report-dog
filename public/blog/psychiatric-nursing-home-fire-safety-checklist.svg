@@ -13,24 +13,24 @@
 
   <!-- 左欄項目1 - 確認 -->
   <rect x="40" y="162" width="340" height="54" rx="6" fill="white"/>
-  <circle cx="70" cy="189" r="14" fill="#22c55e"/>
+  <circle cx="70" cy="189" r="14" fill="#16a34a"/>
   <text x="70" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
   <text x="96" y="184" font-size="16" fill="#1e293b" >逃生圖張貼位置</text>
   <text x="96" y="204" font-size="14" fill="#78716c" >入口、玄關、安全梯側均已張貼</text>
 
   <!-- 左欄項目2 - 確認 -->
   <rect x="40" y="228" width="340" height="54" rx="6" fill="white"/>
-  <circle cx="70" cy="255" r="14" fill="#22c55e"/>
+  <circle cx="70" cy="255" r="14" fill="#16a34a"/>
   <text x="70" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
   <text x="96" y="250" font-size="16" fill="#1e293b" >等待救接空間查驗</text>
   <text x="96" y="270" font-size="14" fill="#78716c" >各樓層2處，面積符合規定</text>
 
   <!-- 左欄項目3 - 待確認 -->
   <rect x="40" y="294" width="340" height="54" rx="6" fill="white"/>
-  <circle cx="70" cy="321" r="14" fill="#f59e0b"/>
+  <circle cx="70" cy="321" r="14" fill="#d97706"/>
   <text x="70" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" >!</text>
   <text x="96" y="316" font-size="16" fill="#1e293b" >防火門常閉確認</text>
-  <text x="96" y="336" font-size="14" fill="#f59e0b" >待確認 — 需逐一檢查關閉狀態</text>
+  <text x="96" y="336" font-size="14" fill="#d97706" >待確認 — 需逐一檢查關閉狀態</text>
 
   <!-- 右欄標題 -->
   <rect x="420" y="110" width="340" height="40" rx="6" fill="#78716c"/>
@@ -38,29 +38,29 @@
 
   <!-- 右欄項目1 - 確認 -->
   <rect x="420" y="162" width="340" height="54" rx="6" fill="white"/>
-  <circle cx="450" cy="189" r="14" fill="#22c55e"/>
+  <circle cx="450" cy="189" r="14" fill="#16a34a"/>
   <text x="450" y="194" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
   <text x="476" y="184" font-size="16" fill="#1e293b" >火災應變計畫</text>
   <text x="476" y="204" font-size="14" fill="#78716c" >計畫完整，已年度更新</text>
 
   <!-- 右欄項目2 - 確認 -->
   <rect x="420" y="228" width="340" height="54" rx="6" fill="white"/>
-  <circle cx="450" cy="255" r="14" fill="#22c55e"/>
+  <circle cx="450" cy="255" r="14" fill="#16a34a"/>
   <text x="450" y="260" font-size="14" fill="white" text-anchor="middle" font-weight="700" >V</text>
   <text x="476" y="250" font-size="16" fill="#1e293b" >夜間演練記錄</text>
   <text x="476" y="270" font-size="14" fill="#78716c" >有演練紀錄表及簽到冊</text>
 
   <!-- 右欄項目3 - 待確認 -->
   <rect x="420" y="294" width="340" height="54" rx="6" fill="white"/>
-  <circle cx="450" cy="321" r="14" fill="#f59e0b"/>
+  <circle cx="450" cy="321" r="14" fill="#d97706"/>
   <text x="450" y="326" font-size="16" fill="white" text-anchor="middle" font-weight="700" >!</text>
   <text x="476" y="316" font-size="16" fill="#1e293b" >演練檢討改善報告</text>
-  <text x="476" y="336" font-size="14" fill="#f59e0b" >待確認 — 需補充改善追蹤</text>
+  <text x="476" y="336" font-size="14" fill="#d97706" >待確認 — 需補充改善追蹤</text>
 
   <!-- 圖例說明 -->
-  <circle cx="60" cy="398" r="10" fill="#22c55e"/>
+  <circle cx="60" cy="398" r="10" fill="#16a34a"/>
   <text x="78" y="403" font-size="16" fill="#57534e" >已確認</text>
-  <circle cx="160" cy="398" r="10" fill="#f59e0b"/>
+  <circle cx="160" cy="398" r="10" fill="#d97706"/>
   <text x="178" y="403" font-size="16" fill="#57534e" >待確認（需補強）</text>
 
   <!-- 提示 -->

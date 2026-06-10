@@ -9,15 +9,15 @@
   <text x="1010" y="272" font-size="26" fill="#78716c" text-anchor="middle" font-weight="600">大常見缺失全解析</text>
 
   <!-- 右側缺失分類卡片 -->
-  <rect x="840" y="296" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="840" y="296" width="320" height="64" rx="10" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <text x="860" y="321" font-size="24" fill="#dc2626" font-weight="700">文書記錄不完整</text>
   <text x="860" y="352" font-size="20" fill="#a8a29e">最常見 · A1/B1/B3 失分主因</text>
 
-  <rect x="840" y="370" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="840" y="370" width="320" height="64" rx="10" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <text x="860" y="395" font-size="24" fill="#d97706" font-weight="700">消防演練不達標</text>
   <text x="860" y="426" font-size="20" fill="#a8a29e">缺夜間演練 · 情境計畫不足</text>
 
-  <rect x="840" y="444" width="320" height="64" rx="10" fill="white" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="840" y="444" width="320" height="64" rx="10" fill="white" stroke="#fef2f2" stroke-width="1.5"/>
   <text x="860" y="469" font-size="24" fill="#2563eb" font-weight="700">照護計畫評值空白</text>
   <text x="860" y="500" font-size="20" fill="#a8a29e">B1 最常扣分點</text>
 
@@ -43,8 +43,8 @@
   <rect x="432" y="420" width="176" height="52" rx="10" fill="#2563eb" opacity="0.1"/>
   <text x="520" y="456" font-size="28" fill="#2563eb" text-anchor="middle" font-weight="600">C 區 2 個缺失</text>
 
-  <rect x="618" y="420" width="176" height="52" rx="10" fill="#7c3aed" opacity="0.1"/>
-  <text x="706" y="456" font-size="28" fill="#7c3aed" text-anchor="middle" font-weight="600">D 區 1 個缺失</text>
+  <rect x="618" y="420" width="176" height="52" rx="10" fill="#9333ea" opacity="0.1"/>
+  <text x="706" y="456" font-size="28" fill="#9333ea" text-anchor="middle" font-weight="600">D 區 1 個缺失</text>
 
   <!-- 適用對象 -->
   <text x="60" y="544" font-size="26" fill="#94a3b8">適用對象：護理長 · 評鑑負責人 · 第一次準備評鑑的工作人員</text>

@@ -10,15 +10,15 @@
   <rect x="24" y="84" width="188" height="54" rx="10" fill="#d97706"/>
   <text x="118" y="107" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 1 週</text>
   <text x="118" y="127" font-size="14" text-anchor="middle" fill="#fef3c7">Day 1–7</text>
-  <rect x="224" y="84" width="188" height="54" rx="10" fill="#44403c"/>
+  <rect x="224" y="84" width="188" height="54" rx="10" fill="#57534e"/>
   <text x="318" y="107" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 2 週</text>
-  <text x="318" y="127" font-size="14" text-anchor="middle" fill="#d4d4d4">Day 8–14</text>
+  <text x="318" y="127" font-size="14" text-anchor="middle" fill="#dedad3">Day 8–14</text>
   <rect x="424" y="84" width="188" height="54" rx="10" fill="#d97706"/>
   <text x="518" y="107" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 3 週</text>
   <text x="518" y="127" font-size="14" text-anchor="middle" fill="#fef3c7">Day 15–21</text>
-  <rect x="624" y="84" width="152" height="54" rx="10" fill="#1e40af"/>
+  <rect x="624" y="84" width="152" height="54" rx="10" fill="#2563eb"/>
   <text x="700" y="107" font-size="18" font-weight="900" text-anchor="middle" fill="#ffffff">第 4 週</text>
-  <text x="700" y="127" font-size="14" text-anchor="middle" fill="#bfdbfe">Day 22–30</text>
+  <text x="700" y="127" font-size="14" text-anchor="middle" fill="#eff6ff">Day 22–30</text>
   <!-- 箭頭 -->
   <text x="213" y="116" font-size="16" fill="#d97706" text-anchor="middle">›</text>
   <text x="413" y="116" font-size="16" fill="#d97706" text-anchor="middle">›</text>
@@ -27,68 +27,68 @@
   <rect x="24" y="148" width="188" height="320" rx="10" fill="#ffffff" opacity="0.85"/>
   <text x="118" y="176" font-size="16" font-weight="700" text-anchor="middle" fill="#d97706">盤點現況</text>
   <rect x="40" y="185" width="156" height="1" fill="#e5e7eb"/>
-  <text x="40" y="204" font-size="14" fill="#44403c">[ ] 索取評鑑報告</text>
-  <text x="40" y="224" font-size="14" fill="#44403c">[ ] 確認上次等第</text>
-  <text x="40" y="244" font-size="14" fill="#44403c">[ ] 缺失項目清單</text>
-  <text x="40" y="264" font-size="14" fill="#44403c">[ ] 15 項基準文件</text>
+  <text x="40" y="204" font-size="14" fill="#57534e">[ ] 索取評鑑報告</text>
+  <text x="40" y="224" font-size="14" fill="#57534e">[ ] 確認上次等第</text>
+  <text x="40" y="244" font-size="14" fill="#57534e">[ ] 缺失項目清單</text>
+  <text x="40" y="264" font-size="14" fill="#57534e">[ ] 15 項基準文件</text>
   <text x="40" y="284" font-size="14" fill="#78716c"> |_ 有/部分/無</text>
-  <text x="40" y="304" font-size="14" fill="#44403c">[ ] 前任交接清單</text>
+  <text x="40" y="304" font-size="14" fill="#57534e">[ ] 前任交接清單</text>
   <text x="40" y="324" font-size="14" fill="#78716c"> |_ 合約到期日期</text>
   <text x="40" y="344" font-size="14" fill="#78716c"> |_ 下次評鑑時間</text>
-  <text x="40" y="364" font-size="14" fill="#44403c">[ ] 人員訓練效期</text>
-  <text x="40" y="384" font-size="14" fill="#44403c">[ ] 消防演練次數</text>
+  <text x="40" y="364" font-size="14" fill="#57534e">[ ] 人員訓練效期</text>
+  <text x="40" y="384" font-size="14" fill="#57534e">[ ] 消防演練次數</text>
   <rect x="40" y="400" width="156" height="1" fill="#e5e7eb"/>
   <text x="40" y="452" font-size="14" fill="#d97706" font-weight="700">重點：了解 &gt; 改變</text>
   <!-- 第2週內容 -->
   <rect x="224" y="148" width="188" height="320" rx="10" fill="#ffffff" opacity="0.85"/>
-  <text x="318" y="176" font-size="16" font-weight="700" text-anchor="middle" fill="#44403c">識別缺口</text>
+  <text x="318" y="176" font-size="16" font-weight="700" text-anchor="middle" fill="#57534e">識別缺口</text>
   <rect x="240" y="185" width="156" height="1" fill="#e5e7eb"/>
-  <text x="240" y="204" font-size="14" fill="#44403c">[ ] 製作缺口清單</text>
-  <text x="240" y="224" font-size="14" fill="#44403c">[ ] P1 立即處理</text>
+  <text x="240" y="204" font-size="14" fill="#57534e">[ ] 製作缺口清單</text>
+  <text x="240" y="224" font-size="14" fill="#57534e">[ ] P1 立即處理</text>
   <text x="240" y="244" font-size="14" fill="#78716c"> |_ 訓練效期到期</text>
   <text x="240" y="264" font-size="14" fill="#78716c"> |_ 演練次數不足</text>
-  <text x="240" y="284" font-size="14" fill="#44403c">[ ] P2 本月完成</text>
+  <text x="240" y="284" font-size="14" fill="#57534e">[ ] P2 本月完成</text>
   <text x="240" y="304" font-size="14" fill="#78716c"> |_ 文件格式修正</text>
   <text x="240" y="324" font-size="14" fill="#78716c"> |_ SOP 書面化</text>
-  <text x="240" y="344" font-size="14" fill="#44403c">[ ] P3 評鑑前完成</text>
+  <text x="240" y="344" font-size="14" fill="#57534e">[ ] P3 評鑑前完成</text>
   <text x="240" y="364" font-size="14" fill="#78716c"> |_ D1 創新加分</text>
   <rect x="240" y="380" width="156" height="1" fill="#e5e7eb"/>
   <rect x="240" y="390" width="156" height="28" rx="6" fill="#fee2e2"/>
-  <text x="318" y="409" font-size="14" text-anchor="middle" fill="#991b1b" font-weight="700">(!) 無法補做的項目</text>
+  <text x="318" y="409" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="700">(!) 無法補做的項目</text>
   <text x="240" y="434" font-size="14" fill="#78716c">演練紀錄、品質月報</text>
   <text x="240" y="452" font-size="14" fill="#78716c">照護計畫歷史記錄</text>
   <!-- 第3週內容 -->
   <rect x="424" y="148" width="188" height="320" rx="10" fill="#ffffff" opacity="0.85"/>
   <text x="518" y="176" font-size="16" font-weight="700" text-anchor="middle" fill="#d97706">建立分工</text>
   <rect x="440" y="185" width="156" height="1" fill="#e5e7eb"/>
-  <text x="440" y="204" font-size="14" fill="#44403c">[ ] 指定基準負責人</text>
+  <text x="440" y="204" font-size="14" fill="#57534e">[ ] 指定基準負責人</text>
   <text x="440" y="224" font-size="14" fill="#78716c"> A 類-行政組長</text>
   <text x="440" y="244" font-size="14" fill="#78716c"> B 類-資深護理師</text>
   <text x="440" y="264" font-size="14" fill="#78716c"> C 類-安全管理員</text>
   <text x="440" y="284" font-size="14" fill="#78716c"> D 類-護理長</text>
-  <text x="440" y="304" font-size="14" fill="#44403c">[ ] 更新時程確認</text>
-  <text x="440" y="324" font-size="14" fill="#44403c">[ ] 建立週進度會議</text>
+  <text x="440" y="304" font-size="14" fill="#57534e">[ ] 更新時程確認</text>
+  <text x="440" y="324" font-size="14" fill="#57534e">[ ] 建立週進度會議</text>
   <text x="440" y="344" font-size="14" fill="#78716c"> 每週 30 分鐘</text>
-  <text x="440" y="364" font-size="14" fill="#44403c">[ ] 工作人員訓練</text>
+  <text x="440" y="364" font-size="14" fill="#57534e">[ ] 工作人員訓練</text>
   <text x="440" y="384" font-size="14" fill="#78716c"> 疏散名冊熟悉度</text>
-  <text x="440" y="404" font-size="14" fill="#44403c">[ ] 家屬溝通機制</text>
+  <text x="440" y="404" font-size="14" fill="#57534e">[ ] 家屬溝通機制</text>
   <text x="440" y="452" font-size="14" fill="#d97706" font-weight="700">重點：分工不等於放手</text>
   <!-- 第4週內容 -->
   <rect x="624" y="148" width="152" height="320" rx="10" fill="#ffffff" opacity="0.85"/>
-  <text x="700" y="176" font-size="15" font-weight="700" text-anchor="middle" fill="#1e40af">系統化管理</text>
+  <text x="700" y="176" font-size="15" font-weight="700" text-anchor="middle" fill="#2563eb">系統化管理</text>
   <rect x="640" y="185" width="120" height="1" fill="#e5e7eb"/>
-  <text x="640" y="204" font-size="14" fill="#44403c">[ ] 文件系統建立</text>
+  <text x="640" y="204" font-size="14" fill="#57534e">[ ] 文件系統建立</text>
   <text x="640" y="222" font-size="14" fill="#78716c"> 按15基準分類</text>
-  <text x="640" y="240" font-size="14" fill="#44403c">[ ] AI工具導入</text>
+  <text x="640" y="240" font-size="14" fill="#57534e">[ ] AI工具導入</text>
   <text x="640" y="258" font-size="14" fill="#78716c"> 自動查核缺失</text>
-  <text x="640" y="276" font-size="14" fill="#44403c">[ ] 自評時程設定</text>
+  <text x="640" y="276" font-size="14" fill="#57534e">[ ] 自評時程設定</text>
   <text x="640" y="294" font-size="14" fill="#78716c"> 每季模擬查核</text>
-  <text x="640" y="312" font-size="14" fill="#44403c">[ ] 評鑑倒數啟動</text>
+  <text x="640" y="312" font-size="14" fill="#57534e">[ ] 評鑑倒數啟動</text>
   <text x="640" y="330" font-size="14" fill="#78716c"> 計畫-執行</text>
   <rect x="640" y="380" width="120" height="1" fill="#e5e7eb"/>
-  <text x="640" y="404" font-size="14" fill="#1e40af" font-weight="700">目標：</text>
-  <text x="640" y="422" font-size="14" fill="#44403c">評鑑準備</text>
-  <text x="640" y="440" font-size="14" fill="#44403c">常態化</text>
+  <text x="640" y="404" font-size="14" fill="#2563eb" font-weight="700">目標：</text>
+  <text x="640" y="422" font-size="14" fill="#57534e">評鑑準備</text>
+  <text x="640" y="440" font-size="14" fill="#57534e">常態化</text>
   <!-- 浮水印 -->
   <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end">報告汪 reportwang.com</text>
 </svg>

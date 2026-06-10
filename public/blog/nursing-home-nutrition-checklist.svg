@@ -9,7 +9,7 @@
   <rect x="40" y="132" width="4" height="36" rx="2" fill="#d97706"/>
   <text x="56" y="148"  font-size="14" fill="#1e293b">合格營養師簽名確認菜單</text>
   <text x="56" y="162"  font-size="14" fill="#78716c">含 A10 支援報備文件</text>
-  <rect x="40" y="174" width="350" height="36" rx="5" fill="#f8f7f5"/>
+  <rect x="40" y="174" width="350" height="36" rx="5" fill="#f8f7f4"/>
   <rect x="40" y="174" width="4" height="36" rx="2" fill="#d97706"/>
   <text x="56" y="190"  font-size="14" fill="#1e293b">至少 2 週循環菜單且與實際相符</text>
   <text x="56" y="204"  font-size="14" fill="#78716c">評鑑當天可比對菜單與供餐</text>
@@ -22,7 +22,7 @@
   <rect x="414" y="132" width="4" height="36" rx="2" fill="#78716c"/>
   <text x="430" y="148"  font-size="14" fill="#1e293b">各住民疾病飲食設計記錄完整</text>
   <text x="430" y="162"  font-size="14" fill="#78716c">糖尿病、腎病、心臟病等分別設計</text>
-  <rect x="414" y="174" width="346" height="36" rx="5" fill="#f8f7f5"/>
+  <rect x="414" y="174" width="346" height="36" rx="5" fill="#f8f7f4"/>
   <rect x="414" y="174" width="4" height="36" rx="2" fill="#78716c"/>
   <text x="430" y="190"  font-size="14" fill="#1e293b">每半年膳食滿意度調查留存</text>
   <text x="430" y="204"  font-size="14" fill="#78716c">含分析報告與改善措施</text>
@@ -36,7 +36,7 @@
   <rect x="40" y="284" width="4" height="36" rx="2" fill="#57534e"/>
   <text x="56" y="300"  font-size="14" fill="#1e293b">輔助餐具（缺口杯等）備有且落實使用</text>
   <text x="56" y="314"  font-size="14" fill="#78716c">非全為免洗餐具</text>
-  <rect x="40" y="326" width="350" height="36" rx="5" fill="#f8f7f5"/>
+  <rect x="40" y="326" width="350" height="36" rx="5" fill="#f8f7f4"/>
   <rect x="40" y="326" width="4" height="36" rx="2" fill="#57534e"/>
   <text x="56" y="342"  font-size="14" fill="#1e293b">每位住民有私人餐具且有明確標示</text>
   <text x="56" y="356"  font-size="14" fill="#78716c">個人化水杯餐具，避免交叉使用</text>
@@ -45,7 +45,7 @@
   <rect x="414" y="284" width="4" height="36" rx="2" fill="#94a3b8"/>
   <text x="430" y="300"  font-size="14" fill="#1e293b">每日至少 1 次天然食材灌食記錄</text>
   <text x="430" y="314"  font-size="14" fill="#78716c">非商業包裝稀釋果汁</text>
-  <rect x="414" y="326" width="346" height="36" rx="5" fill="#f8f7f5"/>
+  <rect x="414" y="326" width="346" height="36" rx="5" fill="#f8f7f4"/>
   <rect x="414" y="326" width="4" height="36" rx="2" fill="#94a3b8"/>
   <text x="430" y="342"  font-size="14" fill="#1e293b">護理人員可現場示範灌食技術</text>
   <text x="430" y="356"  font-size="14" fill="#78716c">不可使用灌食筒或灌食袋</text>
