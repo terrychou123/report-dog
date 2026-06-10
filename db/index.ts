@@ -13,7 +13,8 @@ export function getDbUrl(raw = process.env.DATABASE_URL) {
   return raw;
 }
 
-// max: 1 — Vercel Serverless + Supabase Transaction mode pooler 最佳實踐
-// 每個 worker process 只用 1 條連線，避免 build 時 9 workers 並發耗盡 pooler 連線數
-const client = postgres(getDbUrl(), { prepare: false, max: 1 });
+// build 時 9 workers 各用 1 條連線（共 9 條），不超過 Supabase pooler 上限
+// runtime（Fluid Compute）允許 3 條並發，避免並發請求排隊 timeout
+const isBuild = process.env.NEXT_PHASE === 'phase-production-build';
+const client = postgres(getDbUrl(), { prepare: false, max: isBuild ? 1 : 3 });
 export const db = drizzle(client, { schema });

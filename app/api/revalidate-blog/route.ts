@@ -15,5 +15,6 @@ export async function POST(request: NextRequest) {
   }
 
   revalidateTag(`blog-post-${slug}`, { expire: 0 }); // expire:0 = 立即失效（Next.js CacheLifeConfig）
+  revalidateTag("blog-list", { expire: 0 });          // blog 列表快取同步失效
   return NextResponse.json({ ok: true, slug });
 }
