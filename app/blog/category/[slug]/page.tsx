@@ -21,18 +21,23 @@ function isValidImageUrl(url: string | null): url is string {
 }
 
 export async function generateStaticParams() {
-  const posts = await db
-    .select({ category: blogPosts.category })
-    .from(blogPosts)
-    .where(eq(blogPosts.status, "published"));
+  // try/catch：pooler 滿載/DB 不可用時不阻擋 build（改 runtime 生成），避免連線死結
+  try {
+    const posts = await db
+      .select({ category: blogPosts.category })
+      .from(blogPosts)
+      .where(eq(blogPosts.status, "published"));
 
-  const categories = Array.from(
-    new Set(posts.map((p) => p.category).filter(Boolean) as string[])
-  );
+    const categories = Array.from(
+      new Set(posts.map((p) => p.category).filter(Boolean) as string[])
+    );
 
-  return categories.map((cat) => ({
-    slug: encodeURIComponent(cat),
-  }));
+    const params = categories.map((cat) => ({ slug: encodeURIComponent(cat) }));
+    // Cache Components 要求至少一筆；無文章時用佔位符，頁面元件查詢空結果後會 notFound()
+    return params.length > 0 ? params : [{ slug: "_placeholder" }];
+  } catch {
+    return [{ slug: "_placeholder" }];
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
