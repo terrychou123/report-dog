@@ -7,6 +7,8 @@ import { Toaster } from "@/components/ui/sonner";
 import { FbWebviewBanner } from "@/components/fb-webview-banner";
 import { StripTrackingParams } from "@/components/strip-tracking-params";
 import { organizationJsonLd, websiteWithSearchJsonLd, mergeJsonLdGraph } from "@/lib/jsonld";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -112,6 +114,9 @@ export default function RootLayout({
           <StripTrackingParams />
           {children}
           <Toaster richColors />
+          {/* Vercel 效能 / 流量觀測，僅在 Vercel 部署環境實際送資料，dev 為 no-op */}
+          <SpeedInsights />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
