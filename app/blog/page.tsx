@@ -39,8 +39,21 @@ function isValidImageUrl(url: string | null): url is string {
 
 
 async function BlogContent() {
+  // 不加 "use cache"：build 時 9 workers × max:1 連線競爭 Supabase pooler，
+  // 填快取會撞 USE_CACHE_TIMEOUT（見 commit 8e2fccc）。改靠 Suspense 串流 + 下方輕量查詢。
+  // 只 select 列表需要的欄位——絕不撈 content（巨大 HTML），
+  // 否則 255 篇 × ~50KB ≈ 12MB 會撐爆 Supabase pooler（EDB_HANDLER_EXITED / XX000，digest 4093916120）
   const posts = await db
-    .select()
+    .select({
+      id: blogPosts.id,
+      slug: blogPosts.slug,
+      title: blogPosts.title,
+      excerpt: blogPosts.excerpt,
+      coverImageUrl: blogPosts.coverImageUrl,
+      category: blogPosts.category,
+      tags: blogPosts.tags,
+      publishedAt: blogPosts.publishedAt,
+    })
     .from(blogPosts)
     .where(eq(blogPosts.status, "published"))
     .orderBy(desc(blogPosts.publishedAt));

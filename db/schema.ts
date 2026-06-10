@@ -157,7 +157,10 @@ export const blogPosts = pgTable('blog_posts', {
   publishedAt: timestamp('published_at', { withTimezone: true }),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow(),
-});
+}, (t) => ({
+  // /blog 列表查詢：WHERE status='published' ORDER BY published_at DESC
+  statusPublishedAtIdx: index('blog_posts_status_published_at_idx').on(t.status, t.publishedAt.desc()),
+}));
 
 export const classes = pgTable('classes', {
   id: uuid('id').defaultRandom().primaryKey(),
