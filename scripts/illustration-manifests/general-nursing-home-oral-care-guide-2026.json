@@ -1,0 +1,23 @@
+{
+  "slug": "general-nursing-home-oral-care-guide-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-oral-care-d2-requirements.svg",
+      "alt": "D2口腔照護四大評鑑條件：定期評估訂計畫、工作人員技能訓練、每日清潔執行記錄、牙科轉介機制",
+      "caption": "圖：D2 四項條件均需文件佐證，每日執行記錄是最常見失分點",
+      "anchor": "<h2>D2 評鑑基準解析——4 項要求是什麼</h2>"
+    },
+    {
+      "file": "general-nursing-home-oral-care-plan-elements.svg",
+      "alt": "口腔照護計畫四大必備元素：OHSS評分、高風險標記、短期目標、個別化措施",
+      "caption": "圖：計畫必須個別化，所有住民不能使用同一份印刷表格",
+      "anchor": "<h2>口腔照護計畫內容範例</h2>"
+    },
+    {
+      "file": "general-nursing-home-oral-care-staff-training.svg",
+      "alt": "口腔照護技能訓練三大內容：正確刷牙臥床協助、義齒清潔方法、異常通報流程",
+      "caption": "圖：D2 強調技能訓練而非知識，需有操作示範和練習記錄",
+      "anchor": "<h2>工作人員口腔照護技能訓練</h2>"
+    }
+  ]
+}

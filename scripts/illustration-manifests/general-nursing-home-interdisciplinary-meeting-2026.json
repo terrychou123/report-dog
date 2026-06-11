@@ -1,0 +1,23 @@
+{
+  "slug": "general-nursing-home-interdisciplinary-meeting-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-interdisciplinary-b2-requirements.svg",
+      "alt": "B2跨專業整合四大條件：每季召開有記錄、家屬參與、依評估修訂計畫、三種不同領域",
+      "caption": "圖：B2 四項條件缺一不可，會議記錄需有實質討論內容而非只有簽名",
+      "anchor": "<h2>B2 評鑑基準解析——跨專業整合的 4 項要求</h2>"
+    },
+    {
+      "file": "general-nursing-home-interdisciplinary-5-questions.svg",
+      "alt": "評鑑委員B2現場五個問題：上次討論什麼、家屬如何參與、計畫有無依評估修訂、哪些領域出席、決策如何追蹤",
+      "caption": "圖：五個問題測試跨專業會議是否真實運作，非只是文件作業",
+      "anchor": "<h2>評鑑委員最常問的 5 個問題</h2>"
+    },
+    {
+      "file": "general-nursing-home-interdisciplinary-adl-link.svg",
+      "alt": "ADL評估結果連結照護計畫三步驟：定期評估、跨專業討論結果、依評估修訂計畫",
+      "caption": "圖：評估後必須連結到照護計畫修訂，光有評估數據不夠",
+      "anchor": "<h2>ADL 與認知功能評估如何連結照護計畫調整</h2>"
+    }
+  ]
+}

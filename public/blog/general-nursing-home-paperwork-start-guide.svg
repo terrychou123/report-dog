@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <text x="400" y="72" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">減輕文書負擔的建議起步三階段</text>
+  <text x="400" y="108" text-anchor="middle" font-size="22" fill="#57534e">從最耗時的痛點開始，不需要一次全面導入</text>
+  <line x1="129" y1="124" x2="671" y2="124" stroke="#dedad3" stroke-width="1"/>
+  <line x1="299" y1="293" x2="315" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="299,287 315,293 299,299" fill="#c4bfb8"/>
+  <line x1="485" y1="293" x2="501" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="485,287 501,293 485,299" fill="#c4bfb8"/>
+  <rect x="129" y="133" width="170" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="129" y="133" width="170" height="8" rx="4" fill="#d97706"/>
+  <rect x="129" y="137" width="170" height="4" fill="#d97706"/>
+  <circle cx="214" cy="213" r="43" fill="#fef3c7"/>
+  <text x="214" y="202" text-anchor="middle" font-size="17" fill="#d97706" font-weight="700">STEP</text>
+  <text x="214" y="230" text-anchor="middle" font-size="28" fill="#d97706" font-weight="700">01</text>
+  <text x="214" y="301" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">照護計畫</text>
+  <text x="214" y="329" text-anchor="middle" font-size="18" fill="#57534e">AI 生成初稿</text>
+  <text x="214" y="351" text-anchor="middle" font-size="18" fill="#57534e">護理師確認</text>
+  <rect x="142" y="383" width="144" height="36" rx="18" fill="#fef3c7"/>
+  <text x="214" y="407" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">第一優先</text>
+  <rect x="315" y="133" width="170" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="315" y="133" width="170" height="8" rx="4" fill="#78716c"/>
+  <rect x="315" y="137" width="170" height="4" fill="#78716c"/>
+  <circle cx="400" cy="213" r="43" fill="#f5f5f4"/>
+  <text x="400" y="202" text-anchor="middle" font-size="17" fill="#78716c" font-weight="700">STEP</text>
+  <text x="400" y="230" text-anchor="middle" font-size="28" fill="#78716c" font-weight="700">02</text>
+  <text x="400" y="301" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">品質指標</text>
+  <text x="400" y="329" text-anchor="middle" font-size="18" fill="#57534e">數位化記錄</text>
+  <text x="400" y="351" text-anchor="middle" font-size="18" fill="#57534e">自動統計</text>
+  <rect x="328" y="383" width="144" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="400" y="407" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">第二階段</text>
+  <rect x="501" y="133" width="170" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="501" y="133" width="170" height="8" rx="4" fill="#57534e"/>
+  <rect x="501" y="137" width="170" height="4" fill="#57534e"/>
+  <circle cx="586" cy="213" r="43" fill="#f5f0eb"/>
+  <text x="586" y="202" text-anchor="middle" font-size="17" fill="#57534e" font-weight="700">STEP</text>
+  <text x="586" y="230" text-anchor="middle" font-size="28" fill="#57534e" font-weight="700">03</text>
+  <text x="586" y="301" text-anchor="middle" font-size="28" fill="#1e293b" font-weight="700">訓練記錄</text>
+  <text x="586" y="329" text-anchor="middle" font-size="18" fill="#57534e">模板化</text>
+  <text x="586" y="351" text-anchor="middle" font-size="18" fill="#57534e">電子簽名</text>
+  <rect x="514" y="383" width="144" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="586" y="407" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">第三階段</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

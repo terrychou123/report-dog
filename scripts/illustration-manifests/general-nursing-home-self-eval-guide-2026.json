@@ -1,0 +1,29 @@
+{
+  "slug": "general-nursing-home-self-eval-guide-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-self-eval-a-area.svg",
+      "alt": "A區行政管理自評重點確認六項：負責人月查、執照效期、訓練計畫、護理主管資格、AED急救、照護比",
+      "caption": "圖：A 區六項自評要點，任一未達標都可能直接影響 A1 評分",
+      "anchor": "<h2>A 區自評清單（行政管理）</h2>"
+    },
+    {
+      "file": "general-nursing-home-self-eval-b-area.svg",
+      "alt": "B區專業服務自評重點確認五項：24小時初評、72小時完整評估、照護計畫四要素、3個月修訂、跨專業三種領域",
+      "caption": "圖：B 區五項核心要求，照護計畫品質是甲等的決定性因素",
+      "anchor": "<h2>B 區自評清單（專業服務）</h2>"
+    },
+    {
+      "file": "general-nursing-home-self-eval-c-area.svg",
+      "alt": "C區環境安全自評重點確認五項：消防演練含夜間、演練記錄完整、設備維護、疏散通道走查、緊急照明測試",
+      "caption": "圖：C 區以消防安全為核心，夜間演練是最常被忽略的要求",
+      "anchor": "<h2>C 區自評清單（環境安全）</h2>"
+    },
+    {
+      "file": "general-nursing-home-self-eval-3-mistakes.svg",
+      "alt": "自評時三大誤區：有做就打勾不看完整度、一人填表沒交叉確認、自評完不追蹤改善",
+      "caption": "圖：三大誤區讓自評失去意義，避免這些才能真正發揮自評效果",
+      "anchor": "<h2>自評時常見的三個誤區</h2>"
+    }
+  ]
+}

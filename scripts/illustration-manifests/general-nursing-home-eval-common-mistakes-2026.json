@@ -1,0 +1,29 @@
+{
+  "slug": "general-nursing-home-eval-common-mistakes-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-eval-mistakes-monthly-check.svg",
+      "alt": "缺失一負責人月查記錄問題與解法：只寫正常vs建立模板記錄查核項目、連續12月不可缺",
+      "caption": "圖：缺失一的解法是建立標準模板，讓每次查核都有具體記錄",
+      "anchor": "<h2>缺失一：負責人查看記錄「有看沒到」</h2>"
+    },
+    {
+      "file": "general-nursing-home-eval-mistakes-aed-cpr.svg",
+      "alt": "缺失二急救訓練AED未明確標示：CPR訓練vs明確標示BLS及AED操作、2年效期管理",
+      "caption": "圖：只寫「CPR訓練」不夠，記錄必須明確標示「含 AED 操作」",
+      "anchor": "<h2>缺失二：急救訓練記錄沒有標明含 AED</h2>"
+    },
+    {
+      "file": "general-nursing-home-eval-mistakes-infection-plan.svg",
+      "alt": "缺失四感染管制計畫多年未更新：問題、解法、重點版次管理",
+      "caption": "圖：感控計畫每年定期審閱並更新版次，委員一看封面日期即知",
+      "anchor": "<h2>缺失四：感染管制計畫多年未更新</h2>"
+    },
+    {
+      "file": "general-nursing-home-eval-mistakes-meeting-domains.svg",
+      "alt": "缺失五跨專業會議人員不足三種領域：護理師+照服員不構成三種、需護理+社工+復健",
+      "caption": "圖：護理師與照服員屬同一領域，需確保三種不同專業出席",
+      "anchor": "<h2>缺失五：跨專業會議「人員不足三種領域」</h2>"
+    }
+  ]
+}

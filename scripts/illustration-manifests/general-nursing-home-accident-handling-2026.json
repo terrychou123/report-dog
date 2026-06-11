@@ -1,0 +1,23 @@
+{
+  "slug": "general-nursing-home-accident-handling-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-accident-handling-a13-requirements.svg",
+      "alt": "A1.3意外事件處理四大要求：SOP執行有記錄、24小時通報、追蹤改善措施、定期統計修訂辦法",
+      "caption": "圖：A1.3 四項要求從「有SOP」到「持續改善」缺一不可",
+      "anchor": "<h2>A1.3 評鑑基準解析——4 項要求</h2>"
+    },
+    {
+      "file": "general-nursing-home-accident-handling-audit-questions.svg",
+      "alt": "委員實地抽測三個問題：跌倒第一步做什麼、幾小時通報給誰、壓傷如何記錄追蹤",
+      "caption": "圖：全體護理師都需能流暢回答，評鑑前進行全員演練",
+      "anchor": "<h2>評鑑委員實地抽測——護理師要能立刻回答這些問題</h2>"
+    },
+    {
+      "file": "general-nursing-home-accident-handling-record-format.svg",
+      "alt": "意外事件通報記錄表五大必備欄位：事件類型時間、事件經過評估、立即處置、通報時間、後續追蹤",
+      "caption": "圖：記錄表五項欄位讓委員能完整評估機構的處理品質",
+      "anchor": "<h2>意外事件記錄表格式範例</h2>"
+    }
+  ]
+}

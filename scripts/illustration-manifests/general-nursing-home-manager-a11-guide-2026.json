@@ -1,0 +1,23 @@
+{
+  "slug": "general-nursing-home-manager-a11-guide-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-manager-a11-requirements.svg",
+      "alt": "A1.1負責人管理四大評鑑要求：每月書面查核、執照有效相符、照護比符合、在職訓練達16小時",
+      "caption": "圖：A1.1 四項要求環環相扣，任一不符整項失分",
+      "anchor": "<h2>A1.1 評鑑基準解析——4 項要求</h2>"
+    },
+    {
+      "file": "general-nursing-home-manager-a11-license-mgmt.svg",
+      "alt": "護理人員執照管理三大要點：6年效期、執業機構登記相符、建立效期追蹤清單",
+      "caption": "圖：執照過期或機構登記不符是評鑑最嚴重的缺失之一",
+      "anchor": "<h2>護理人員執照與雇用機構符合性</h2>"
+    },
+    {
+      "file": "general-nursing-home-manager-a11-common-defects.svg",
+      "alt": "A1.1五大常見缺失：查核記錄籠統、月份缺漏、執照過期、排班不符、訓練時數未達標",
+      "caption": "圖：五大缺失預先防範可避免失分，其中查核記錄籠統是最常見項",
+      "anchor": "<h2>評鑑委員最常發現的 A1.1 缺失</h2>"
+    }
+  ]
+}

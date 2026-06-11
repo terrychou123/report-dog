@@ -1,0 +1,23 @@
+{
+  "slug": "general-nursing-home-new-director-30day-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-new-director-30day-week3-division.svg",
+      "alt": "第3週15項基準依類型分工：A類行政、B類照護、C類環境、D類特別事項",
+      "caption": "圖：分工是脫離護理長包辦的關鍵，各類別指定對應負責人",
+      "anchor": "<h2>第 3 週——建立分工機制</h2>"
+    },
+    {
+      "file": "general-nursing-home-new-director-30day-5-errors.svg",
+      "alt": "新任護理長五個常犯錯誤：急改文件格式、攬所有文書、只準備文件忽略人員能力、無取件流程、不了解基準",
+      "caption": "圖：五個錯誤都指向同一個根本：應先了解現況和基準再行動",
+      "anchor": "<h2>新任護理長最常犯的 5 個錯誤</h2>"
+    },
+    {
+      "file": "general-nursing-home-new-director-30day-final-checklist.svg",
+      "alt": "評鑑前1個月最終確認六項：CPR效期、消防演練、疏散名冊、通道走查、照護計畫、品質指標季報",
+      "caption": "圖：六項必查涵蓋最高缺失風險，評鑑前一個月逐一確認",
+      "anchor": "<h2>評鑑前 1 個月的最終確認清單</h2>"
+    }
+  ]
+}

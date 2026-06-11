@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="38" width="800" height="90" fill="#e8e6de"/>
+  <rect x="0" y="38" width="6" height="90" rx="2" fill="#d97706"/>
+  <text x="28" y="98" font-size="36" fill="#1e293b" font-weight="700">缺失一：負責人月查記錄問題與解法</text>
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="217" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">問題</text>
+  <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">記錄只寫「視察一切正常」</text>
+  <text x="100" y="234" font-size="16" fill="#57534e">缺少查核了什麼、發現什麼問題、後續怎麼追蹤的具體內容</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#57534e" text-anchor="middle">空洞</text>
+  <text x="688" y="225" font-size="16" fill="#57534e" text-anchor="middle">失分</text>
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="320" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">解法</text>
+  <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">建立「負責人月查記錄模板」</text>
+  <text x="100" y="337" font-size="16" fill="#57534e">固定格式：查核日期、查核項目（護理紀錄/藥事/環境）、發現、追蹤</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#d97706" text-anchor="middle">模板</text>
+  <text x="688" y="328" font-size="16" fill="#d97706" text-anchor="middle">具體</text>
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="423" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">重點</text>
+  <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">每月連續 12 個月不可缺</text>
+  <text x="100" y="440" font-size="16" fill="#57534e">12 個月中任一月缺漏，評鑑委員即標注缺失</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#78716c" text-anchor="middle">每月</text>
+  <text x="688" y="431" font-size="16" fill="#78716c" text-anchor="middle">不間斷</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

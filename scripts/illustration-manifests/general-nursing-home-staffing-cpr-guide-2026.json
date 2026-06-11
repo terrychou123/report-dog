@@ -1,0 +1,23 @@
+{
+  "slug": "general-nursing-home-staffing-cpr-guide-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-staffing-cpr-head-nurse-qualification.svg",
+      "alt": "護理主管三大資格要件：護理師執照（非護士）、3年管理資歷、正式任命文件",
+      "caption": "圖：三項要件缺一不可，護士執照未換照不符合護理主管資格",
+      "anchor": "<h2>護理主管（護理長）資格要求</h2>"
+    },
+    {
+      "file": "general-nursing-home-staffing-cpr-new-nurse-training.svg",
+      "alt": "新進護理人員訓練計畫四大必備內容：訓練目標、週程表、執行簽到記錄、能力評核",
+      "caption": "圖：只有計畫書沒有執行記錄，評鑑委員不會採認為已完成",
+      "anchor": "<h2>新進護理人員訓練計畫</h2>"
+    },
+    {
+      "file": "general-nursing-home-staffing-cpr-aide-ratio.svg",
+      "alt": "照顧服務員配置三大查核要點：評鑑當日人數符合比例、持有結業證明、班表與實際一致",
+      "caption": "圖：委員評鑑當天現場確認照服員數，班表需與實際到勤相符",
+      "anchor": "<h2>照顧服務員配置與持證要求</h2>"
+    }
+  ]
+}

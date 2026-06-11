@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">委員實地抽測護理師必備回答</text>
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">Q1</text>
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">「發生跌倒後你們第一步做什麼？」</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">答：立即到場、評估意識和傷勢、通知醫師、護理記錄、通知家屬</text>
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">評估</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">傷勢</text>
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">Q2</text>
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">「幾小時內要通報？通報給誰？」</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">答：24 小時內通報機構主管（負責人）、醫師</text>
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">24 小時</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">必答</text>
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">Q3</text>
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">「壓傷事件如何記錄追蹤？」</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">答：事件通報記錄、傷口評估、照護計畫修訂、後續追蹤</text>
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">完整</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">記錄</text>
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">重點</text>
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">全體護理師都需能流暢回答</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">委員可能詢問任一值班護理師，評鑑前全員演練回答</text>
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">全員</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">演練</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

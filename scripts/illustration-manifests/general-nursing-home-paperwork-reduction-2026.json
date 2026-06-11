@@ -1,0 +1,29 @@
+{
+  "slug": "general-nursing-home-paperwork-reduction-2026",
+  "figures": [
+    {
+      "file": "general-nursing-home-paperwork-training-template.svg",
+      "alt": "第2招訓練記錄模板化四大效益：統一格式涵蓋多基準、電子簽名、固定欄位自動帶入、時數自動累計",
+      "caption": "圖：一個模板涵蓋 A1.1/A1.2/A2.1/B3，大幅減少重複製作訓練記錄的時間",
+      "anchor": "<h2>第 2 招——訓練記錄模板化 ＋ 電子簽名</h2>"
+    },
+    {
+      "file": "general-nursing-home-paperwork-collaboration.svg",
+      "alt": "第3招多人協作分工三大原則：依基準類型指定負責人、雲端即時同步、護理長轉為審核角色",
+      "caption": "圖：分工是脫離「護理長包辦」困境的關鍵，讓文書負擔分散",
+      "anchor": "<h2>第 3 招——多人協作即時分工</h2>"
+    },
+    {
+      "file": "general-nursing-home-paperwork-quality-auto.svg",
+      "alt": "第4招品質指標自動統計：跌倒發生率、壓傷發生率、趨勢圖自動生成",
+      "caption": "圖：從手動翻查事件記錄到自動統計，節省約 80% 的季報製作時間",
+      "anchor": "<h2>第 4 招——品質指標自動統計</h2>"
+    },
+    {
+      "file": "general-nursing-home-paperwork-start-guide.svg",
+      "alt": "減輕文書負擔建議起步三階段：照護計畫AI生成→品質指標數位化→訓練記錄模板化",
+      "caption": "圖：三階段起步不需一步到位，從最耗時的痛點開始導入",
+      "anchor": "<h2>實施建議：從哪裡開始？</h2>"
+    }
+  ]
+}
