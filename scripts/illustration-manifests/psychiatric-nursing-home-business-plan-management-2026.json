@@ -1,0 +1,29 @@
+{
+  "slug": "psychiatric-nursing-home-business-plan-management-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-business-plan-pdca.svg",
+      "alt": "A1.1 PDCA完整迴圈：Plan三程計畫、Do執行記錄、Check年度檢討、Act改善、定期會議",
+      "caption": "圖：A1.1 要求完整的 PDCA 管理迴圈，五個層次缺一不可",
+      "anchor": "<h2>A1.1 的評鑑架構：計畫→執行→檢討的完整迴圈</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-business-plan-annual-format.svg",
+      "alt": "年度業務計畫四大核心格式：可量化目標、工作項目策略、時程安排、年末檢討",
+      "caption": "圖：計畫目標必須可量化，讓委員可核對執行記錄是否如期完成",
+      "anchor": "<h2>年度業務計畫的格式與撰寫要點</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-business-plan-meeting-records.svg",
+      "alt": "監督經營團隊定期會議三大要點：定期真實召開、記錄格式完整、有討論目標修訂",
+      "caption": "圖：只在評鑑前才召開一次，委員可能質疑會議真實性",
+      "anchor": "<h2>監督或經營團隊定期會議的紀錄</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-business-plan-defect-improvement.svg",
+      "alt": "A1.2缺失改善計畫四大要素：問題分析根本原因、改善目標措施、執行時程負責人、成效驗證方式",
+      "caption": "圖：缺失改善需找根本原因，不只描述缺失本身",
+      "anchor": "<h2>A1.2 查核缺失改善的連動</h2>"
+    }
+  ]
+}

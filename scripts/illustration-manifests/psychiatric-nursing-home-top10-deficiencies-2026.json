@@ -1,0 +1,17 @@
+{
+  "slug": "psychiatric-nursing-home-top10-deficiencies-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-top10-24hr-staffing.svg",
+      "alt": "缺失第一名護理人員排班：大夜班記錄空白、每2小時需有記錄、排班表與護理記錄交叉核對",
+      "caption": "圖：大夜班某時段護理記錄空白是最常見的 A2.2 缺失",
+      "anchor": "<h2>第1名：護理人員排班無法證明24小時在班</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-top10-monthly-quality.svg",
+      "alt": "缺失第二名品質指標未逐月追蹤：只有季報缺月份、零案也要記錄、B1.7六大指標每月",
+      "caption": "圖：無事件的月份也需要零案確認記錄，避免空白被判定未持續監測",
+      "anchor": "<h2>第2名：品質監測指標未逐月追蹤</h2>"
+    }
+  ]
+}

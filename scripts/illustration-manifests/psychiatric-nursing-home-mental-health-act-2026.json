@@ -1,0 +1,35 @@
+{
+  "slug": "psychiatric-nursing-home-mental-health-act-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-mental-health-act-key-changes.svg",
+      "alt": "精神衛生法修法三大重點及機構影響：緊急安置7日、強制鑑定3日、社區支持入法、合理調整原則",
+      "caption": "圖：修法後機構需更新相關 SOP，評鑑文件需呈現法規因應措施",
+      "anchor": "<h2>修法重點一：緊急安置不得逾7日</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-mental-health-act-b110-awol.svg",
+      "alt": "修法對B1.10擅離院影響：通報義務更嚴格、SOP需按修法更新、辦法版次需標注修法依據",
+      "caption": "圖：擅離院 SOP 的「即時」通報要求更嚴格，機構 SOP 需按修法更新",
+      "anchor": "<h2>對B1.10的影響：擅離院處理程序的修法更新</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-mental-health-act-d11-religion.svg",
+      "alt": "修法對D1.1影響：以當事人為中心精神強化、照護計畫需納入精神照護、心靈關懷記錄要有個別性",
+      "caption": "圖：修法後「個別化」要求更明確，心靈關懷服務不能千篇一律",
+      "anchor": "<h2>對D1.1的影響：住民宗教信仰與精神照護</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-mental-health-act-d12-advance.svg",
+      "alt": "修法對D1.2安寧療護影響：精神障礙者AD簽署權利、工作計畫需更新、每位住民需有意願記錄",
+      "caption": "圖：精神障礙者同樣有病人自主權利，機構需協助其了解並辦理",
+      "anchor": "<h2>對D1.2的影響：安寧療護與病人自主</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-mental-health-act-document-response.svg",
+      "alt": "評鑑文件呈現法規因應三策略：業務計畫加入說明、SOP版次更新標注依據、修法訓練納入年度計畫",
+      "caption": "圖：三個策略展示機構的法規追蹤能力，是委員判斷機構管理水準的依據",
+      "anchor": "<h2>如何在評鑑文件中呈現對新法規的因應措施</h2>"
+    }
+  ]
+}

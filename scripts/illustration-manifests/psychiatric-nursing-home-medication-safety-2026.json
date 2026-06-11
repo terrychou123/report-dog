@@ -1,0 +1,23 @@
+{
+  "slug": "psychiatric-nursing-home-medication-safety-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-medication-storage-label.svg",
+      "alt": "子項一二：管制藥品上鎖分開保管、所有藥品在效期內、藥包標示姓名時間劑量完整",
+      "caption": "圖：管制藥品獨立雙鎖保管是委員必查的第一項，藥包標示需有完整姓名",
+      "anchor": "<h2>子項一：藥品儲存分區與有效期限管理</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-medication-3read5check.svg",
+      "alt": "三讀五對：三讀=取藥時/準備給藥時/歸還時，五對=住民/藥品/劑量/時間/途徑",
+      "caption": "圖：委員現場訪談護理人員最常問「請說明三讀五對」",
+      "anchor": "<h2>子項三：三讀五對執行與紀錄</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-medication-side-effects-controlled.svg",
+      "alt": "子項五用藥反應監測（精神科副作用主動觀察）和子項六管制藥品合法回收銷燬",
+      "caption": "圖：精神科藥物副作用需系統化觀察，管制藥品銷燬是最常被忽略的缺失",
+      "anchor": "<h2>子項五：住民用藥反應監測</h2>"
+    }
+  ]
+}

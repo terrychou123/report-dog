@@ -1,0 +1,23 @@
+{
+  "slug": "psychiatric-nursing-home-community-resources-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-community-why-important.svg",
+      "alt": "精神護理之家社區連結三大重要性：精衛法修法去機構化、住民孤立風險、協助回歸社區",
+      "caption": "圖：B1.13 社區連結不只是填表，是機構照護哲學的體現",
+      "anchor": "<h2>為什麼精神護理之家的社區連結特別重要</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-community-3vs5.svg",
+      "alt": "B1.13評分結構：基本達標連結至少3處、進階達標連結至少5處加分",
+      "caption": "圖：3 處是基本門檻，5 處可獲得更高分數，需有成效評估記錄",
+      "anchor": "<h2>B1.13 的評分結構：3 處和 5 處的差異</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-community-service-types.svg",
+      "alt": "精神護理之家可連結五大社區服務：協作模式據點、自立生活中心、社區心理衛生中心、職業重建、家屬支持",
+      "caption": "圖：五大類型涵蓋精神障礙者特有的社區資源需求",
+      "anchor": "<h2>可連結的社區服務類型：精神護理之家特有的選項</h2>"
+    }
+  ]
+}

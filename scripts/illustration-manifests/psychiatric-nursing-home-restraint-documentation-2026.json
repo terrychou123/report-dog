@@ -1,0 +1,17 @@
+{
+  "slug": "psychiatric-nursing-home-restraint-documentation-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-restraint-definition.svg",
+      "alt": "約束兩大定義：身體約束使用器具限制移動、環境約束使用空間限制自由進出",
+      "caption": "圖：翻起的床護欄若住民無法自行放下也屬身體約束，需納入統計",
+      "anchor": "<h2>約束的定義：依操作型定義手冊的標準</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-restraint-record-fields.svg",
+      "alt": "完整約束記錄五大欄位：約束前評估替代措施、醫師醫囑同意、定時觀察、解除追蹤、月度統計",
+      "caption": "圖：五個欄位缺一不可，形成完整的照護決策鏈",
+      "anchor": "<h2>約束記錄必備欄位</h2>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "psychiatric-nursing-home-self-evaluation-checklist-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-self-eval-a-management.svg",
+      "alt": "A面向機構管理自評：A1.1業務計畫、A2.2人員配置試扣分、A4.1教育訓練",
+      "caption": "圖：A 面向 9 項，A2.2 是試扣分重點，24 小時護理在班不能有空白",
+      "anchor": "<h2>A面向：機構管理（9項）</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-self-eval-b-service.svg",
+      "alt": "B面向服務品質五大重點：B1.1個別化計畫、B1.7六大指標每月、B1.10十類緊急事件SOP",
+      "caption": "圖：B 面向占 21 項，B1.7 品質指標逐月追蹤是最常見的缺失來源",
+      "anchor": "<h2>B面向：服務品質（21項）</h2>"
+    }
+  ]
+}

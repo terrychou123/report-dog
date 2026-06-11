@@ -1,0 +1,29 @@
+{
+  "slug": "psychiatric-nursing-home-individualized-care-plan-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-care-plan-72hr-assessment.svg",
+      "alt": "入住72小時內六大評估面向：身體、心理（精神狀態）、社會、認知、活動功能ADL、復健需求",
+      "caption": "圖：六大評估需在 72 小時內完成，精神狀態評估是精神護理之家特別重視的",
+      "anchor": "<h2>重點一：入住72小時內的六大評估面向</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-care-plan-3month-review.svg",
+      "alt": "每3個月定期評估三大要點：每年至少4次、需跨專業團隊參與、評估需連結計畫修訂",
+      "caption": "圖：評估後必須連結照護計畫修訂，光有評估數據不修計畫不合格",
+      "anchor": "<h2>重點二：每3個月定期評估的記錄要求</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-care-plan-case-file.svg",
+      "alt": "個案資料檔三大必備核心：基本資料（含保護人）、個案照顧服務計畫四要素、評估記錄",
+      "caption": "圖：個案資料檔是動態文件，需隨評估結果持續更新",
+      "anchor": "<h2>重點四：個案資料檔的必備內容</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-care-plan-semiannual-review.svg",
+      "alt": "每半年與住民/家屬共同討論三大要求：有簽名確認、修訂有實質變化、說明目標達成狀況",
+      "caption": "圖：委員核查記錄是否有家屬或住民簽名，修訂內容是否實質更新",
+      "anchor": "<h2>重點五：每半年與住民/家屬共同討論修訂</h2>"
+    }
+  ]
+}

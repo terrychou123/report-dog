@@ -1,0 +1,23 @@
+{
+  "slug": "psychiatric-nursing-home-quality-indicators-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-quality-fall-pressure.svg",
+      "alt": "指標一跌倒發生率計算（件/千人日）和指標二壓傷盛行率（%）計算方式",
+      "caption": "圖：兩個最常見指標的計算公式和分類標準",
+      "anchor": "<h2>指標一：跌倒</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-quality-infection-hospitalization.svg",
+      "alt": "指標四院內感染密度（48小時後）和指標五非計畫性轉急性住院率計算",
+      "caption": "圖：感染需排除入住時已有的，非計畫住院需排除計畫性轉診",
+      "anchor": "<h2>指標四：感染</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-quality-weight-change.svg",
+      "alt": "指標六非計畫性體重改變：減少三個判定標準（一個月5%/三個月7.5%/六個月10%）、增加與每月監測",
+      "caption": "圖：精神科藥物常造成代謝症候群，體重監測是重要的品質指標",
+      "anchor": "<h2>指標六：非計畫性體重改變</h2>"
+    }
+  ]
+}

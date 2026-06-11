@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">A1.1 計畫到執行到檢討完整迴圈（PDCA）</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
+  <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">計畫（Plan）：三種時程業務計畫</text>
+  <text x="100" y="166" font-size="16" fill="#57534e">短程（未達1年）、中程（1-4年）、長程（4年以上）各一份</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="142" font-size="16" fill="#d97706" text-anchor="middle">三程</text>
+  <text x="688" y="162" font-size="16" fill="#d97706" text-anchor="middle">計畫</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">D</text>
+  <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">執行（Do）：年度業務計畫確實執行</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">工作項目有執行記錄（會議紀錄、活動照片、培訓記錄等）</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="215" font-size="16" fill="#78716c" text-anchor="middle">執行</text>
+  <text x="688" y="235" font-size="16" fill="#78716c" text-anchor="middle">記錄</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
+  <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">查核（Check）：年度計畫檢討分析</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">年底或定期檢討計畫執行成效，有書面分析報告</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="288" font-size="16" fill="#57534e" text-anchor="middle">檢討</text>
+  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">分析</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">A</text>
+  <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">行動（Act）：改善措施</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">依檢討結果提出改善措施，進入下年度計畫（A1.2缺失改善）</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="361" font-size="16" fill="#a8a29e" text-anchor="middle">改善</text>
+  <text x="688" y="381" font-size="16" fill="#a8a29e" text-anchor="middle">行動</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">會議</text>
+  <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">監督經營團隊定期共同召開會議修訂目標</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">至少每季或半年一次，有會議記錄含出席者姓名職稱</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="434" font-size="16" fill="#94a3b8" text-anchor="middle">定期</text>
+  <text x="688" y="454" font-size="16" fill="#94a3b8" text-anchor="middle">會議</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

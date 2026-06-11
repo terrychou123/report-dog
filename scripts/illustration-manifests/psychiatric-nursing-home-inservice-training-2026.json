@@ -1,0 +1,23 @@
+{
+  "slug": "psychiatric-nursing-home-inservice-training-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-inservice-onboarding-annual.svg",
+      "alt": "職前16小時（1個月內）vs每年在職20小時（含感控4小時）的要求比較",
+      "caption": "圖：感控訓練4小時需獨立計算，是委員最常查核的訓練細節",
+      "anchor": "<h2>子項一：職前訓練16小時，1個月內完成</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-inservice-bls-disaster.svg",
+      "alt": "BLS急救訓練護理師50%達標策略和防救災教育（負責人+照服員+外籍看護工）",
+      "caption": "圖：BLS 效期追蹤和防救災教育是 A4.1 兩個最容易疏漏的子項",
+      "anchor": "<h2>子項三：BLS急救訓練—現職護理人員50%達標策略</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-inservice-psych-topics.svg",
+      "alt": "精神護理之家特有訓練五大主題：精衛法修法、擅離院SOP、低約束文化、症狀識別、代謝症候群監測",
+      "caption": "圖：五個特殊主題展示機構訓練符合精神護理服務內涵",
+      "anchor": "<h2>精神護理之家特有的訓練重點主題</h2>"
+    }
+  ]
+}

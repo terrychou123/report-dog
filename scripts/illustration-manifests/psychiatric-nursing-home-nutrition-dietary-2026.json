@@ -1,0 +1,29 @@
+{
+  "slug": "psychiatric-nursing-home-nutrition-dietary-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-nutrition-why-important.svg",
+      "alt": "精神護理之家膳食特別重要三原因：抗精神病藥物代謝副作用、住民尊嚴選擇、B3.1唯一膳食基準",
+      "caption": "圖：抗精神病藥物容易引發代謝症候群，膳食管理需配合藥物副作用監測",
+      "anchor": "<h2>B3.1 的評鑑背景：為什麼膳食管理在精神護理之家特別重要</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-nutrition-diverse-menu.svg",
+      "alt": "子項一菜色多樣化：委員實地察看、食材驗收記錄、代謝症候群風險住民個別飲食計畫",
+      "caption": "圖：委員可能比對菜單和當天實際供餐，食材驗收記錄也需備查",
+      "anchor": "<h2>B3.1 子項一：菜色多樣化與營養均衡</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-nutrition-tableware-cyclicmenu.svg",
+      "alt": "子項三餐具管理禁止全程免洗、子項四2週循環菜單須與餐食相符",
+      "caption": "圖：循環菜單需標注質地（一般/軟質/流質），與個別化飲食整合",
+      "anchor": "<h2>B3.1 子項三：餐具管理</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-nutrition-satisfaction-survey.svg",
+      "alt": "子項六膳食滿意度調查三要點：每年2次時間分散、精神科住民表達限制的替代方式、PDCA改善閉環",
+      "caption": "圖：調查後需有改善措施並落實，形成完整 PDCA 閉環",
+      "anchor": "<h2>B3.1 子項六：膳食滿意度調查</h2>"
+    }
+  ]
+}

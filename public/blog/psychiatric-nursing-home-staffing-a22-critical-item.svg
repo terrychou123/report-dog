@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="38" width="800" height="90" fill="#e8e6de"/>
+  <rect x="0" y="38" width="6" height="90" rx="2" fill="#d97706"/>
+  <text x="28" y="98" font-size="36" fill="#1e293b" font-weight="700">A2.2 為何是「試扣分」重點項目</text>
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">意義</text>
+  <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">未達C級即整體視為不合格</text>
+  <text x="100" y="234" font-size="18" fill="#57534e">A2.2和C1.1是試扣分項目，無論其他面向得分多高都無法彌補</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">一票</text>
+  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">否決</text>
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">要求</text>
+  <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">24 小時均有護理人員實際在班</text>
+  <text x="100" y="337" font-size="18" fill="#57534e">不可以電話待命方式替代，委員交叉核對排班表與護理記錄時間戳</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">24 小時</text>
+  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">在班</text>
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">查核</text>
+  <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">三種方式交叉確認</text>
+  <text x="100" y="440" font-size="18" fill="#57534e">現場訪談工作人員、文件檢閱人員名冊、核對排班表與護理記錄</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">三重</text>
+  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">查核</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

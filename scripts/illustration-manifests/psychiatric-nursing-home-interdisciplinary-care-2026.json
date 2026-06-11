@@ -1,0 +1,35 @@
+{
+  "slug": "psychiatric-nursing-home-interdisciplinary-care-2026",
+  "figures": [
+    {
+      "file": "psychiatric-nursing-home-interdisciplinary-5roles.svg",
+      "alt": "跨專業團隊五核心角色：特約醫師B1.5、護理師A2.2、職能治療師B2.3、社工師B1.13、臨床心理師D1.1",
+      "caption": "圖：五個核心角色各有對應的評鑑基準，缺少任一角色即影響整體評分",
+      "anchor": "<h2>重點一：精神護理之家跨專業團隊的五個核心角色</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-interdisciplinary-b14-referral.svg",
+      "alt": "B1.4轉介照會：需有書面SOP（觸發條件/流程）和每次執行記錄",
+      "caption": "圖：機制文件和執行記錄缺一不可，委員會隨機抽查實際轉介紀錄",
+      "anchor": "<h2>重點二：B1.4轉介/照會機制的文件格式</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-interdisciplinary-b15-doctor.svg",
+      "alt": "B1.5特約醫師巡診三大要求：合約有效、每季診察有記錄、緊急後送合作醫院",
+      "caption": "圖：新入住住民需在 1 個月內完成初次診察，有醫師簽名記錄",
+      "anchor": "<h2>重點四：B1.5例行醫療服務—特約醫師巡診的紀錄要求</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-interdisciplinary-ot-role.svg",
+      "alt": "職能治療師B2.3角色：FIM功能評估、治療性活動（每週15小時上限）、治療記錄呈現改善脈絡",
+      "caption": "圖：超過 15 小時需有說明，治療記錄要呈現功能改善的證據",
+      "anchor": "<h2>重點五：職能治療師在B2.3預防延緩失能的角色</h2>"
+    },
+    {
+      "file": "psychiatric-nursing-home-interdisciplinary-psychologist.svg",
+      "alt": "臨床心理師三大角色：認知功能評估（MMSE/MoCA）、個別心理治療、工作人員心理支持",
+      "caption": "圖：臨床心理師同時連結 D1.1 心靈關懷和 B1.4 轉介照會兩個評鑑基準",
+      "anchor": "<h2>重點六：臨床心理師在精神照護中的角色</h2>"
+    }
+  ]
+}
