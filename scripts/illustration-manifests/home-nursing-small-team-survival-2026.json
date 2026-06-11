@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-small-team-survival-2026",
+  "figures": [
+    {
+      "file": "home-nursing-small-team-survival-challenges.svg",
+      "alt": "小型居家護理所三大評鑑準備挑戰：無專職品管、護理長身兼數職、評鑑記憶不足",
+      "caption": "圖：六成機構員工不超過 5 人，三大結構性挑戰是小機構的共同困境",
+      "anchor": "<h2>小型居家護理所的現實處境</h2>"
+    },
+    {
+      "file": "home-nursing-small-team-survival-strategy.svg",
+      "alt": "小型機構評鑑準備三步驟：先盤點、依優先分工、設定明確時程",
+      "caption": "圖：三步驟策略避免倉促準備，盤點是最重要的第一步",
+      "anchor": "<h2>小型機構的評鑑準備策略</h2>"
+    },
+    {
+      "file": "home-nursing-small-team-survival-mistakes.svg",
+      "alt": "小型機構三大準備錯誤：等文件全部寫完再歸檔、護理長一人包辦、只看有沒有不看完整",
+      "caption": "圖：三個錯誤都是時間管理問題，完成即歸檔是最重要的習慣",
+      "anchor": "<h2>小型機構最常犯的準備錯誤</h2>"
+    },
+    {
+      "file": "home-nursing-small-team-survival-tools.svg",
+      "alt": "小機構文件管理三層工具：統一資料夾、雲端協作、AI輔助撰寫",
+      "caption": "圖：從基本到高效三層工具，依機構現有資源選擇起點",
+      "anchor": "<h2>工具選擇：讓小機構也能做到大機構的文件管理</h2>"
+    },
+    {
+      "file": "home-nursing-small-team-survival-mindset.svg",
+      "alt": "評鑑季心理準備三個認知：壓力是結構性問題、工具值得善用、評鑑是展示日常",
+      "caption": "圖：正確認識評鑑壓力的本質，才能找到可持續的準備方式",
+      "anchor": "<h2>評鑑季的心理準備</h2>"
+    },
+    {
+      "file": "home-nursing-small-team-survival-reportwang.svg",
+      "alt": "報告汪四大小型機構功能：多人協作、AI報告撰寫、AI自我查核、定期追蹤提醒",
+      "caption": "圖：報告汪四大功能針對小機構的痛點設計，降低文書負擔",
+      "anchor": "<h2>報告汪如何協助小型居家護理所</h2>"
+    }
+  ]
+}

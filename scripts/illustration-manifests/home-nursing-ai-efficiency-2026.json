@@ -1,0 +1,35 @@
+{
+  "slug": "home-nursing-ai-efficiency-2026",
+  "figures": [
+    {
+      "file": "home-nursing-ai-efficiency-nursing-stats.svg",
+      "alt": "2026居家護理人力現況：15000人缺口、3-5人機構、每天2-3小時文書",
+      "caption": "圖：三個數字說明居家護理所面臨的結構性人力挑戰",
+      "anchor": "<h2>2026 年居家護理的人力現況</h2>"
+    },
+    {
+      "file": "home-nursing-ai-efficiency-burden-reasons.svg",
+      "alt": "文書負擔兩大結構原因：評鑑要求持續增加、個案數增加人力不增",
+      "caption": "圖：兩個方向的擠壓造成文書負擔，非個人問題而是結構困境",
+      "anchor": "<h2>文書負擔為什麼這麼重？</h2>"
+    },
+    {
+      "file": "home-nursing-ai-efficiency-4-pain-points.svg",
+      "alt": "文書工作四大痛點：A5季報3-6小時、B2照護計畫45-90分鐘、評鑑盤點1-2天、版本管理混亂",
+      "caption": "圖：四大痛點各有明確的時間成本，AI 能大幅縮短每一項",
+      "anchor": "<h2>文書工作的 4 大痛點</h2>"
+    },
+    {
+      "file": "home-nursing-ai-efficiency-time-savings.svg",
+      "alt": "AI工具時間節省估算：季報省80%、照護計畫省60%、文件盤點省80%、版本管理自動化",
+      "caption": "圖：AI 輔助後各項文書工作的時間節省估算",
+      "anchor": "<h2>AI 工具對應評鑑文書的效益估算</h2>"
+    },
+    {
+      "file": "home-nursing-ai-efficiency-reportwang-features.svg",
+      "alt": "報告汪四大功能：A5季報自動化、B2照護計畫輔助、AI文件掃描、多人協作版本管理",
+      "caption": "圖：報告汪四大功能直接對應居家護理所四大文書痛點",
+      "anchor": "<h2>報告汪的四大功能對應評鑑需求</h2>"
+    }
+  ]
+}

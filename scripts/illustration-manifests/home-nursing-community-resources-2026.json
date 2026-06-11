@@ -1,0 +1,35 @@
+{
+  "slug": "home-nursing-community-resources-2026",
+  "figures": [
+    {
+      "file": "home-nursing-community-resources-a1-conditions.svg",
+      "alt": "A1社區資源盤點三大評鑑條件：建立清單定期更新、有資源連結記錄、有接受社區轉介機制",
+      "caption": "圖：A1 三個條件涵蓋「出去」和「進來」兩個方向的資源連結",
+      "anchor": "<h2>A1 評鑑基準的要求</h2>"
+    },
+    {
+      "file": "home-nursing-community-resources-categories.svg",
+      "alt": "社區資源清單五大類別：醫療、社福、復健、輔具、心理家庭支持",
+      "caption": "圖：五大類別涵蓋個案最常需要的社區資源，確保清單完整性",
+      "anchor": "<h2>社區資源清單應包含哪些類別？</h2>"
+    },
+    {
+      "file": "home-nursing-community-resources-format.svg",
+      "alt": "社區資源清單格式四大建議：依類別分欄、標示更新日期、標示服務對象、版次負責人",
+      "caption": "圖：更新日期是評鑑委員必查項目，無日期等同未更新",
+      "anchor": "<h2>社區資源清單的格式建議</h2>"
+    },
+    {
+      "file": "home-nursing-community-resources-update.svg",
+      "alt": "社區資源清單定期更新三種做法：設定更新週期、即時標記失效資源、指定負責人管理",
+      "caption": "圖：三種做法搭配確保清單持續有效，評鑑時不會發現電話已失效",
+      "anchor": "<h2>「定期更新」的具體做法</h2>"
+    },
+    {
+      "file": "home-nursing-community-resources-referral-record.svg",
+      "alt": "資源連結運用記錄四大欄位：個案編號日期、轉介原因、銜接結果、後續追蹤",
+      "caption": "圖：轉介記錄需有後續追蹤，形成完整的服務連結閉環",
+      "anchor": "<h2>資源連結運用紀錄怎麼做？</h2>"
+    }
+  ]
+}

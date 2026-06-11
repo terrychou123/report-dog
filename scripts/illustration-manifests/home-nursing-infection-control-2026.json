@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-infection-control-2026",
+  "figures": [
+    {
+      "file": "home-nursing-infection-control-a2-conditions.svg",
+      "alt": "A2感染管制四大評鑑條件：感控手冊、流感疫苗接種率（試評）、醫療廢棄物、護理器材盤點",
+      "caption": "圖：A2 四項條件相互獨立，任一文件不全均影響評分",
+      "anchor": "<h2>A2 基準完整要求</h2>"
+    },
+    {
+      "file": "home-nursing-infection-control-handbook-chapters.svg",
+      "alt": "感染管制手冊五大必備核心章節：手部衛生、個人防護裝備、消毒滅菌、傳染病規範、版次管理",
+      "caption": "圖：手冊需依疾管署指引訂定，肺結核和疥瘡為官方明列必備項目",
+      "anchor": "<h2>第一項：感染管制手冊的必備章節</h2>"
+    },
+    {
+      "file": "home-nursing-infection-control-vaccine-docs.svg",
+      "alt": "流感疫苗接種率三類文件：工作人員接種名冊、接種證明、禁忌症說明",
+      "caption": "圖：試評不計分但建議建立記錄，未來年度正式計分時可直接沿用",
+      "anchor": "<h2>第二項：流感疫苗接種率 80%</h2>"
+    },
+    {
+      "file": "home-nursing-infection-control-waste-docs.svg",
+      "alt": "醫療廢棄物處理三份必備文件：清除合約、清除記錄、暫存記錄",
+      "caption": "圖：三份文件缺一不可，合約有效期和記錄連續性是常見失分點",
+      "anchor": "<h2>第三項：醫療廢棄物依法分類處理</h2>"
+    },
+    {
+      "file": "home-nursing-infection-control-equipment.svg",
+      "alt": "護理器材盤點維護四大類型：血壓計、血糖機、體溫計、傷口護理器材",
+      "caption": "圖：各類器材維護頻率與記錄要點，評鑑委員必查項目",
+      "anchor": "<h2>第四項：護理器材定期盤點維護校正</h2>"
+    },
+    {
+      "file": "home-nursing-infection-control-checklist.svg",
+      "alt": "A2評鑑準備六項自查清單：手冊內容、居家情境調整、廢棄物合約、清除記錄、器材盤點、疫苗名冊",
+      "caption": "圖：A2 六項自查確認，對照完成才算真正備妥",
+      "anchor": "<h2>A2 評鑑準備自查清單</h2>"
+    }
+  ]
+}

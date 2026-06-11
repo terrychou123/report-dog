@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-care-plan-writing-2026",
+  "figures": [
+    {
+      "file": "home-nursing-care-plan-b2-conditions.svg",
+      "alt": "B2個案照護管理三大評鑑條件：個案名冊、全人評估四維度、個別化照護計畫",
+      "caption": "圖：B2 占 45% 分數，三大條件均需書面佐證",
+      "anchor": "<h2>B2 基準完整要求</h2>"
+    },
+    {
+      "file": "home-nursing-care-plan-case-records.svg",
+      "alt": "個案名冊與服務記錄四大必備要素：名冊完整、訪視記錄連續、結案記錄完整、基本資料最新",
+      "caption": "圖：個案名冊是 B2 的基礎，10 位以上含結案個案均需列入",
+      "anchor": "<h2>第一條件：個案名冊與服務記錄</h2>"
+    },
+    {
+      "file": "home-nursing-care-plan-holistic-assessment.svg",
+      "alt": "全人評估四個維度：生理功能、心理狀態、社會支持、日常功能",
+      "caption": "圖：四個維度缺一不可，評鑑委員核查評估是否完整覆蓋",
+      "anchor": "<h2>第二條件：全人評估——四個維度</h2>"
+    },
+    {
+      "file": "home-nursing-care-plan-4elements.svg",
+      "alt": "個別化照護計畫四大要素：照護問題P、照護目標G、照護措施I、照護評值E",
+      "caption": "圖：PGIE 四要素缺一不可，且照護問題必須反映個案具體情境",
+      "anchor": "<h2>第三條件：個別化照護計畫</h2>"
+    },
+    {
+      "file": "home-nursing-care-plan-update-management.svg",
+      "alt": "全人評估與照護計畫更新三時機：收案時、每6個月、需求改變時",
+      "caption": "圖：「需求改變」是評鑑委員最常查核的觸發條件，需有記錄說明",
+      "anchor": "<h2>每 6 個月更新的文件管理</h2>"
+    },
+    {
+      "file": "home-nursing-care-plan-fail-scenarios.svg",
+      "alt": "B2三大失分情境：照護計畫千篇一律、需求改變未重新評估、結案記錄不完整",
+      "caption": "圖：三大失分情境都指向「個別化」的核心要求",
+      "anchor": "<h2>B2 常見失分情境</h2>"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "home-nursing-digital-transform-2026",
+  "figures": [
+    {
+      "file": "home-nursing-digital-transform-ltc30-impact.svg",
+      "alt": "長照3.0對居家護理所四大影響：跨專業合作、品質指標、數位申報、人力挑戰",
+      "caption": "圖：政策要求持續增加，數位工具是彌補人力缺口的實際解方",
+      "anchor": "<h2>長照 3.0 對居家護理所的影響</h2>"
+    },
+    {
+      "file": "home-nursing-digital-transform-current-state.svg",
+      "alt": "大多數居家護理所現況四大痛點：Word手寫、Line傳資訊、文件分散、Excel手動計算",
+      "caption": "圖：現有工作模式在個案數增加後會越來越吃力",
+      "anchor": "<h2>大多數居家護理所的現況</h2>"
+    },
+    {
+      "file": "home-nursing-digital-transform-myths.svg",
+      "alt": "數位轉型三大迷思：等同昂貴系統、需要技術能力、等準備好才開始",
+      "caption": "圖：三個迷思阻礙了居家護理所的數位化，真相是門檻遠比想像低",
+      "anchor": "<h2>數位轉型的迷思</h2>"
+    },
+    {
+      "file": "home-nursing-digital-transform-path.svg",
+      "alt": "從報告撰寫開始的數位轉型三步驟：雲端文件、AI撰寫、定期追蹤",
+      "caption": "圖：三步驟轉型路徑不改變臨床流程，從最耗時的文件痛點起步",
+      "anchor": "<h2>從報告撰寫開始的數位轉型路徑</h2>"
+    }
+  ]
+}

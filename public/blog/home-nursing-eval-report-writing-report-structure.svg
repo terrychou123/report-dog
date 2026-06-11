@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- A. 主標題 -->
+  <text x="400" y="72" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">A5 季報建議架構 5 大章節</text>
+  <!-- B. 副標題 -->
+  <text x="400" y="108" text-anchor="middle" font-size="22" fill="#57534e">各章節環環相扣，確保評鑑委員閱讀邏輯一致</text>
+  <!-- 分隔線 -->
+  <line x1="28" y1="124" x2="776" y2="124" stroke="#dedad3" stroke-width="1"/>
+
+  <!-- 箭頭（arrow_y=293） -->
+  <line x1="168" y1="293" x2="180" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="168,287 180,293 168,299" fill="#c4bfb8"/>
+  <line x1="320" y1="293" x2="332" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="320,287 332,293 320,299" fill="#c4bfb8"/>
+  <line x1="472" y1="293" x2="484" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="472,287 484,293 472,299" fill="#c4bfb8"/>
+  <line x1="624" y1="293" x2="636" y2="293" stroke="#c4bfb8" stroke-width="2"/>
+  <polygon points="624,287 636,293 624,299" fill="#c4bfb8"/>
+
+  <!-- Step 1：封面頁（#d97706 琥珀） card x=28 cx=98 -->
+  <rect x="28" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="133" width="140" height="8" rx="4" fill="#d97706"/>
+  <rect x="28" y="137" width="140" height="4" fill="#d97706"/>
+  <circle cx="98" cy="208" r="35" fill="#fef3c7"/>
+  <text x="98" y="199" text-anchor="middle" font-size="14" fill="#d97706" font-weight="700">STEP</text>
+  <text x="98" y="222" text-anchor="middle" font-size="23" fill="#d97706" font-weight="700">01</text>
+  <text x="98" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">封面頁</text>
+  <text x="98" y="329" text-anchor="middle" font-size="16" fill="#57534e">機構名稱</text>
+  <text x="98" y="351" text-anchor="middle" font-size="16" fill="#57534e">報告期間</text>
+  <rect x="41" y="383" width="114" height="36" rx="18" fill="#fef3c7"/>
+  <text x="98" y="407" text-anchor="middle" font-size="16" fill="#d97706" font-weight="600">基本資訊</text>
+
+  <!-- Step 2：指標摘要（#78716c 暖灰） card x=180 cx=250 -->
+  <rect x="180" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="180" y="133" width="140" height="8" rx="4" fill="#78716c"/>
+  <rect x="180" y="137" width="140" height="4" fill="#78716c"/>
+  <circle cx="250" cy="208" r="35" fill="#f5f5f4"/>
+  <text x="250" y="199" text-anchor="middle" font-size="14" fill="#78716c" font-weight="700">STEP</text>
+  <text x="250" y="222" text-anchor="middle" font-size="23" fill="#78716c" font-weight="700">02</text>
+  <text x="250" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">指標摘要</text>
+  <text x="250" y="329" text-anchor="middle" font-size="16" fill="#57534e">本季達標</text>
+  <text x="250" y="351" text-anchor="middle" font-size="16" fill="#57534e">狀況一覽</text>
+  <rect x="193" y="383" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="250" y="407" text-anchor="middle" font-size="16" fill="#78716c" font-weight="600">快速總覽</text>
+
+  <!-- Step 3：各項分析（#57534e 深棕） card x=332 cx=402 -->
+  <rect x="332" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="332" y="133" width="140" height="8" rx="4" fill="#57534e"/>
+  <rect x="332" y="137" width="140" height="4" fill="#57534e"/>
+  <circle cx="402" cy="208" r="35" fill="#f5f0eb"/>
+  <text x="402" y="199" text-anchor="middle" font-size="14" fill="#57534e" font-weight="700">STEP</text>
+  <text x="402" y="222" text-anchor="middle" font-size="23" fill="#57534e" font-weight="700">03</text>
+  <text x="402" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">各項分析</text>
+  <text x="402" y="329" text-anchor="middle" font-size="16" fill="#57534e">每指標詳細</text>
+  <text x="402" y="351" text-anchor="middle" font-size="16" fill="#57534e">趨勢比較</text>
+  <rect x="345" y="383" width="114" height="36" rx="18" fill="#f5f0eb"/>
+  <text x="402" y="407" text-anchor="middle" font-size="16" fill="#57534e" font-weight="600">佐證核心</text>
+
+  <!-- Step 4：改善計畫（#a8a29e 淺灰） card x=484 cx=554 -->
+  <rect x="484" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="484" y="133" width="140" height="8" rx="4" fill="#a8a29e"/>
+  <rect x="484" y="137" width="140" height="4" fill="#a8a29e"/>
+  <circle cx="554" cy="208" r="35" fill="#f5f5f4"/>
+  <text x="554" y="199" text-anchor="middle" font-size="14" fill="#a8a29e" font-weight="700">STEP</text>
+  <text x="554" y="222" text-anchor="middle" font-size="23" fill="#a8a29e" font-weight="700">04</text>
+  <text x="554" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">改善計畫</text>
+  <text x="554" y="329" text-anchor="middle" font-size="16" fill="#57534e">未達標指標</text>
+  <text x="554" y="351" text-anchor="middle" font-size="16" fill="#57534e">具體措施</text>
+  <rect x="497" y="383" width="114" height="36" rx="18" fill="#f5f5f4"/>
+  <text x="554" y="407" text-anchor="middle" font-size="16" fill="#a8a29e" font-weight="600">下季追蹤</text>
+
+  <!-- Step 5：上季追蹤（#94a3b8 藍灰） card x=636 cx=706 -->
+  <rect x="636" y="133" width="140" height="320" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="636" y="133" width="140" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="636" y="137" width="140" height="4" fill="#94a3b8"/>
+  <circle cx="706" cy="208" r="35" fill="#f1f5f9"/>
+  <text x="706" y="199" text-anchor="middle" font-size="14" fill="#94a3b8" font-weight="700">STEP</text>
+  <text x="706" y="222" text-anchor="middle" font-size="23" fill="#94a3b8" font-weight="700">05</text>
+  <text x="706" y="301" text-anchor="middle" font-size="36" fill="#1e293b" font-weight="700">上季追蹤</text>
+  <text x="706" y="329" text-anchor="middle" font-size="16" fill="#57534e">上季計畫</text>
+  <text x="706" y="351" text-anchor="middle" font-size="16" fill="#57534e">執行狀況</text>
+  <rect x="649" y="383" width="114" height="36" rx="18" fill="#f1f5f9"/>
+  <text x="706" y="407" text-anchor="middle" font-size="16" fill="#94a3b8" font-weight="600">閉環確認</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

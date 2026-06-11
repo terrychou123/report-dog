@@ -1,0 +1,35 @@
+{
+  "slug": "home-nursing-paperwork-burden-2026",
+  "figures": [
+    {
+      "file": "home-nursing-paperwork-burden-stats.svg",
+      "alt": "台灣居家護理人力危機三大現實：14000人缺口、個案量增加、下班補文件成常態",
+      "caption": "圖：人力不足與文書負擔形成惡性循環，是整個行業的結構性困境",
+      "anchor": "<h2>數字會說話：台灣居家護理的人力危機</h2>"
+    },
+    {
+      "file": "home-nursing-paperwork-burden-types.svg",
+      "alt": "居家護理所文書工作三大類型：日常訪視、每月季度定期、每4年評鑑準備",
+      "caption": "圖：三類文書疊加，評鑑準備期間壓力最大",
+      "anchor": "<h2>居家護理所的文書工作有多重？</h2>"
+    },
+    {
+      "file": "home-nursing-paperwork-burden-quality-impact.svg",
+      "alt": "文書負擔過重四大衝擊：記錄複製貼上、評鑑文件深度不足、觀察未即時記錄、護理師倦怠",
+      "caption": "圖：文書負擔不只影響護理師，更直接影響照護品質",
+      "anchor": "<h2>文書負擔不只是時間問題，更是品質問題</h2>"
+    },
+    {
+      "file": "home-nursing-paperwork-burden-solutions.svg",
+      "alt": "解決文書負擔三個方向：簡化流程、借助AI工具、合理分工",
+      "caption": "圖：解法不是要求護理師更努力，而是重新分配時間",
+      "anchor": "<h2>解法在哪裡？重新分配時間，而不是要求護理師「更努力」</h2>"
+    },
+    {
+      "file": "home-nursing-paperwork-burden-digital-steps.svg",
+      "alt": "數位轉型三步驟：找出痛點、導入工具、建立習慣",
+      "caption": "圖：從最耗時的痛點開始，不需要一步到位",
+      "anchor": "<h2>居家護理所的數位轉型：不需要一步到位</h2>"
+    }
+  ]
+}

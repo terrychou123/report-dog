@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">安全事件通報記錄表五大欄位</text>
+  <rect x="28" y="160" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="160" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="190" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="196" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="187" font-size="20" fill="#1e293b" font-weight="700">護理師姓名 / 事件日期時間</text>
+  <text x="100" y="207" font-size="16" fill="#57534e">精確記錄事件發生時間及通報護理師</text>
+  <rect x="620" y="168" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">基本</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">必填</text>
+  <rect x="28" y="232" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="232" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="262" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="268" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="259" font-size="20" fill="#1e293b" font-weight="700">事件類型</text>
+  <text x="100" y="279" font-size="16" fill="#57534e">交通事故、人身安全、動物咬傷、扎刺傷或其他</text>
+  <rect x="620" y="240" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="259" font-size="16" fill="#78716c" text-anchor="middle">4 類</text>
+  <text x="688" y="277" font-size="16" fill="#78716c" text-anchor="middle">分類</text>
+  <rect x="28" y="304" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="304" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="334" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="340" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="331" font-size="20" fill="#1e293b" font-weight="700">事件描述與即時處置</text>
+  <text x="100" y="351" font-size="16" fill="#57534e">描述事件發生狀況，護理師採取的立即應對措施</text>
+  <rect x="620" y="312" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="331" font-size="16" fill="#57534e" text-anchor="middle">即時</text>
+  <text x="688" y="349" font-size="16" fill="#57534e" text-anchor="middle">處置</text>
+  <rect x="28" y="376" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="376" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="406" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="412" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="403" font-size="20" fill="#1e293b" font-weight="700">機構通報時間 / 後續追蹤</text>
+  <text x="100" y="423" font-size="16" fill="#57534e">通報主管時間，後續追蹤結果，護理長確認簽名</text>
+  <rect x="620" y="384" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="403" font-size="16" fill="#a8a29e" text-anchor="middle">追蹤</text>
+  <text x="688" y="421" font-size="16" fill="#a8a29e" text-anchor="middle">確認</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

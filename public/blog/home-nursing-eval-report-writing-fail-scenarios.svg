@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- Header（y=38, h=90） -->
+  <rect x="0" y="38" width="800" height="90" fill="#e8e6de"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706"/>
+  <text x="28" y="98" font-size="36" fill="#1e293b" font-weight="700">評鑑報告常見三大失分情境</text>
+
+  <!-- Row 1（y=166, H=90, cy=211, #d97706 琥珀） -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">文件存在，但找不到</text>
+  <text x="100" y="234" font-size="18" fill="#57534e">散落各處，評鑑當天無法即時提供，等同於沒做</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">高風險</text>
+  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">扣分點</text>
+
+  <!-- Row 2（y=269, H=90, cy=314, #78716c 暖灰） -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">報告有填，但細節不足</text>
+  <text x="100" y="337" font-size="18" fill="#57534e">只有結論，缺少數據計算過程，委員無法驗證</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">高風險</text>
+  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">扣分點</text>
+
+  <!-- Row 3（y=372, H=90, cy=417, #57534e 深棕） -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">改善計畫沒有追蹤</text>
+  <text x="100" y="440" font-size="18" fill="#57534e">計畫停在紙面，下季未見落實記錄，A5 最常見扣分</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">A5</text>
+  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">最常見</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

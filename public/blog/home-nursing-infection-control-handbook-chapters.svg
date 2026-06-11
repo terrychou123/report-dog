@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">感染管制手冊五大必備核心章節</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">手部衛生作業程序</text>
+  <text x="100" y="166" font-size="16" fill="#57534e">洗手五時機、步驟、乾洗手規定，需明確列出五個時機</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="142" font-size="16" fill="#d97706" text-anchor="middle">五個</text>
+  <text x="688" y="162" font-size="16" fill="#d97706" text-anchor="middle">時機</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">個人防護裝備使用規定</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">口罩、手套、隔離衣的穿脫時機，說明居家訪視特殊情境</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="215" font-size="16" fill="#78716c" text-anchor="middle">穿脫</text>
+  <text x="688" y="235" font-size="16" fill="#78716c" text-anchor="middle">時機</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">消毒滅菌作業程序</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">器材分類（關鍵性/半關鍵性/非關鍵性）與對應消毒層級</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="288" font-size="16" fill="#57534e" text-anchor="middle">三級</text>
+  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">消毒</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">傳染病及特殊情境訪視規範</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">肺結核、疥瘡為官方明列必備，需引用疾管署指引</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="361" font-size="16" fill="#a8a29e" text-anchor="middle">肺結核</text>
+  <text x="688" y="381" font-size="16" fill="#a8a29e" text-anchor="middle">疥瘡</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">手冊更新與版次管理</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">至少每年更新一次，封面需有版次號和更新日期</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="434" font-size="16" fill="#94a3b8" text-anchor="middle">每年</text>
+  <text x="688" y="454" font-size="16" fill="#94a3b8" text-anchor="middle">更新</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

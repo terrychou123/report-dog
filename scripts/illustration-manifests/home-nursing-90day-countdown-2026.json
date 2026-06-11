@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-90day-countdown-2026",
+  "figures": [
+    {
+      "file": "home-nursing-90day-countdown-why-90days.svg",
+      "alt": "評鑑前90天開始準備的三大理由：補充資料時間充裕、文件品質穩定、三階段分段推進",
+      "caption": "圖：90 天是理想準備期，前後半段各有不同任務重心",
+      "anchor": "<h2>為什麼要在評鑑前 90 天開始倒數？</h2>"
+    },
+    {
+      "file": "home-nursing-90day-countdown-gap-analysis.svg",
+      "alt": "差距盤點自評三分類：已完成文件齊全、已有需要更新、完全缺少需新建",
+      "caption": "圖：自評表對照分三類，各類別對應不同週次處理",
+      "anchor": "<h2>開始之前：用自評表找出差距</h2>"
+    },
+    {
+      "file": "home-nursing-90day-countdown-3phases.svg",
+      "alt": "評鑑前90天三大準備階段：第1-4週差距盤點、第5-8週文件補強、第9-12週確認演練",
+      "caption": "圖：三階段推進確保準備節奏，每階段有明確核心任務",
+      "anchor": "<h2>12 週倒數計畫</h2>"
+    },
+    {
+      "file": "home-nursing-90day-countdown-weekly-plan.svg",
+      "alt": "12週計畫四大核心任務群組：差距盤點、文件補強、確認演練、評鑑當天",
+      "caption": "圖：12 週按群組分配任務，每週有清楚的對應基準",
+      "anchor": "<h2>12 週計畫快速對照表</h2>"
+    },
+    {
+      "file": "home-nursing-90day-countdown-pitfalls.svg",
+      "alt": "計畫執行常見三大卡點：沒時間執行、只有護理長準備、距離評鑑只剩45天",
+      "caption": "圖：三大執行卡點各有對應解法，及早識別才能化解",
+      "anchor": "<h2>常見的計畫執行卡點</h2>"
+    },
+    {
+      "file": "home-nursing-90day-countdown-eval-day.svg",
+      "alt": "評鑑當天四大準備要點：確認接待人員、文件索引、位置演練、預留緩衝",
+      "caption": "圖：評鑑當天不只靠文件，流程安排同樣影響整體印象",
+      "anchor": "<h2>評鑑當天的準備</h2>"
+    }
+  ]
+}

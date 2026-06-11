@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">特徵一：品質指標是日常管理工具</text>
+  <rect x="28" y="175" width="744" height="130" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="175" width="6" height="130" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="230" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="236" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">乙等</text>
+  <text x="100" y="220" font-size="22" fill="#1e293b" font-weight="700">評鑑前才開始整理品質指標</text>
+  <text x="100" y="248" font-size="16" fill="#57534e">每季統計是為了應付評鑑，數字有了但缺乏分析和改善</text>
+  <text x="100" y="270" font-size="16" fill="#57534e">季報在評鑑季前才趕著補，邏輯不一致委員一眼看出</text>
+  <rect x="620" y="183" width="136" height="115" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="235" font-size="16" fill="#57534e" text-anchor="middle">應付</text>
+  <text x="688" y="260" font-size="16" fill="#57534e" text-anchor="middle">評鑑</text>
+  <rect x="28" y="325" width="744" height="120" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="325" width="6" height="120" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="380" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="386" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">甲等</text>
+  <text x="100" y="370" font-size="22" fill="#1e293b" font-weight="700">每季固定追蹤，遇到異常立即分析</text>
+  <text x="100" y="396" font-size="16" fill="#57534e">品質指標是每季例行工作，超標有分析、有措施、有追蹤</text>
+  <text x="100" y="416" font-size="16" fill="#57534e">4 季報告邏輯連貫，委員可看到機構真實的管理節奏</text>
+  <rect x="620" y="333" width="136" height="105" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="381" font-size="16" fill="#d97706" text-anchor="middle">日常</text>
+  <text x="688" y="401" font-size="16" fill="#d97706" text-anchor="middle">管理</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

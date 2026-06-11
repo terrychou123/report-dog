@@ -1,0 +1,53 @@
+{
+  "slug": "home-nursing-eval-report-writing-2026",
+  "figures": [
+    {
+      "file": "home-nursing-eval-report-writing-a5-conditions.svg",
+      "alt": "A5 機構經營指標監測三大條件：訂定5項固定指標、定期統計分析報告、修訂閾值持續改善",
+      "caption": "圖：A5 評鑑三大條件缺一不可，三份文件需邏輯一致",
+      "anchor": "<h2>以 A5 機構經營指標監測報告為範例</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-data-collect.svg",
+      "alt": "A5 五項固定指標所需原始資料對照表：平均個案管理人數、護理人員離職率、非計畫性住院率、急診使用率、皮膚損傷發生率",
+      "caption": "圖：A5 五項指標各需蒐集的原始資料，資料一致性是關鍵",
+      "anchor": "<h2>Step 1：資料蒐集——先確認手上有什麼</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-report-structure.svg",
+      "alt": "A5 季報建議架構五大章節：封面頁、指標摘要、各項分析、改善計畫、上季追蹤",
+      "caption": "圖：A5 季報五章節架構，同時滿足評鑑三大條件",
+      "anchor": "<h2>Step 2：架構規劃——用大綱決定報告骨架</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-improvement-plan.svg",
+      "alt": "具體可追蹤改善計畫四要素：措施、負責人、預計完成日、評估指標",
+      "caption": "圖：改善計畫四要素缺一不可，評鑑委員下季必查落實情況",
+      "anchor": "<h2>Step 3：初稿撰寫——讓每個段落都有證據</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-final-checklist.svg",
+      "alt": "A5 季報最終六項檢查清單：封面期間、指標數值、計算一致性、改善計畫、上季追蹤、簽名",
+      "caption": "圖：完稿前六項必查，計算方式一致性是評鑑委員最常核對的項目",
+      "anchor": "<h2>Step 4：潤飾修改——最後的品質把關</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-other-reports.svg",
+      "alt": "其他評鑑基準文件撰寫重點：A1 社區資源、A2 感染管制、A3 訪視安全、A4 緊急事件、B1 資訊管理",
+      "caption": "圖：A5 四步驟框架同樣適用於其他評鑑基準文件撰寫",
+      "anchor": "<h2>其他評鑑報告的撰寫原則</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-fail-scenarios.svg",
+      "alt": "評鑑報告常見三大失分情境：文件找不到、細節不足、改善未追蹤",
+      "caption": "圖：三大失分情境往往不是「沒做」，而是「沒寫清楚」",
+      "anchor": "<h2>評鑑報告常見失分情境</h2>"
+    },
+    {
+      "file": "home-nursing-eval-report-writing-reportwang.svg",
+      "alt": "報告汪四大評鑑輔助功能：AI 段落改寫、評鑑基準對照、版本管理、多人協作",
+      "caption": "圖：報告汪四大功能對應居家護理所評鑑報告撰寫全流程",
+      "anchor": "<h2>用報告汪提升評鑑報告品質</h2>"
+    }
+  ]
+}

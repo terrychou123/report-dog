@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-pdca-writing-2026",
+  "figures": [
+    {
+      "file": "home-nursing-pdca-why-important.svg",
+      "alt": "PDCA在評鑑中重要的三大理由：A5品質指標必需、B2照護計畫必需、甲等機構日常管理特徵",
+      "caption": "圖：PDCA 同時貫穿 A5 和 B2，是甲等評鑑的核心管理工具",
+      "anchor": "<h2>為什麼 PDCA 在評鑑中那麼重要？</h2>"
+    },
+    {
+      "file": "home-nursing-pdca-common-errors.svg",
+      "alt": "最常見四種PDCA錯誤：Plan太模糊、Do沒記錄、Check只看達標、Act沒追蹤",
+      "caption": "圖：四種錯誤的共同特徵是「形式存在，實質缺乏」",
+      "anchor": "<h2>最常見的 PDCA 錯誤</h2>"
+    },
+    {
+      "file": "home-nursing-pdca-care-plan-application.svg",
+      "alt": "PDCA在照護計畫的對應：P=照護問題+目標、D=照護措施、C=照護評值、A=計畫修訂",
+      "caption": "圖：照護計畫四要素（PGIE）即是 PDCA 在個案層面的具體實踐",
+      "anchor": "<h2>PDCA 在個案照護計畫中的應用</h2>"
+    },
+    {
+      "file": "home-nursing-pdca-quality-indicator-application.svg",
+      "alt": "PDCA在品質指標管理：P設閾值、D季度統計、C比對分析、A改善追蹤",
+      "caption": "圖：A5 季報的四大步驟完整對應 PDCA，缺任一步驟即不完整",
+      "anchor": "<h2>PDCA 在品質指標管理中的應用</h2>"
+    },
+    {
+      "file": "home-nursing-pdca-document-tips.svg",
+      "alt": "讓委員一看就懂的PDCA三大技巧：數字說話、上季追蹤擺開頭、趨勢圖可視化",
+      "caption": "圖：三大技巧讓委員快速看懂改善成效，建立機構管理的正面印象",
+      "anchor": "<h2>讓委員「一看就懂」的 PDCA 文件技巧</h2>"
+    },
+    {
+      "file": "home-nursing-pdca-grade-link.svg",
+      "alt": "PDCA深度與評鑑等級關係：乙等形式存在、甲等有分析追蹤、優等融入日常管理",
+      "caption": "圖：評鑑委員翻閱 4 季報告即能判斷 PDCA 是真實管理還是應付文件",
+      "anchor": "<h2>PDCA 和甲等評鑑的關係</h2>"
+    }
+  ]
+}

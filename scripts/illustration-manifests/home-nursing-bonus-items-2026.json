@@ -1,0 +1,29 @@
+{
+  "slug": "home-nursing-bonus-items-2026",
+  "figures": [
+    {
+      "file": "home-nursing-bonus-items-b3-conditions.svg",
+      "alt": "B3加分題五個方向：創新照護（最易）、競賽獲獎、國際交流、標竿表揚、學術發表",
+      "caption": "圖：五個方向符合任一即可得分，至少 2-3 個對積極準備的機構可行",
+      "anchor": "<h2>B3 評鑑基準的要求</h2>"
+    },
+    {
+      "file": "home-nursing-bonus-items-why-ignored.svg",
+      "alt": "很多機構忽略B3的兩大原因：甲等就夠了、小機構不現實（需重新評估）",
+      "caption": "圖：「小機構不現實」需重新評估，創新照護方向對多數機構可行",
+      "anchor": "<h2>為什麼很多機構忽略 B3？</h2>"
+    },
+    {
+      "file": "home-nursing-bonus-items-feasibility.svg",
+      "alt": "創新照護模式（B3最可行方向）：定義彈性、多元實例、整理現有特色",
+      "caption": "圖：把機構正在做但未系統記錄的照護特色整理成文件即可符合要求",
+      "anchor": "<h2>5 個加分方向的可行性分析</h2>"
+    },
+    {
+      "file": "home-nursing-bonus-items-which-direction.svg",
+      "alt": "選擇B3方向的三個判斷依據：機構現有基礎、護理師意願能力、提前1-2年布局",
+      "caption": "圖：根據機構特質選擇最合適的方向，不必強追所有方向",
+      "anchor": "<h2>哪個方向最適合你的機構？</h2>"
+    }
+  ]
+}

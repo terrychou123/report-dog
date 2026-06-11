@@ -1,0 +1,47 @@
+{
+  "slug": "home-nursing-visit-safety-2026",
+  "figures": [
+    {
+      "file": "home-nursing-visit-safety-a3-conditions.svg",
+      "alt": "A3訪視人員安全管理三大條件：訂定辦法、即時通報記錄、定期檢討改善",
+      "caption": "圖：A3 與 A4 架構相似，但針對訪視人員安全，兩份辦法需分開建立",
+      "anchor": "<h2>A3 評鑑基準的要求</h2>"
+    },
+    {
+      "file": "home-nursing-visit-safety-risk-types.svg",
+      "alt": "居家訪視四大安全風險類型：交通事故、人身安全威脅、動物咬傷、扎刺傷",
+      "caption": "圖：A3 辦法必須涵蓋四類情境，評鑑委員直接查核是否完整",
+      "anchor": "<h2>居家訪視常見的安全風險</h2>"
+    },
+    {
+      "file": "home-nursing-visit-safety-sos-structure.svg",
+      "alt": "安全管理辦法架構四大章節：目的範圍、預防措施、通報記錄、改善追蹤",
+      "caption": "圖：四章節架構確保從預防到改善的完整閉環",
+      "anchor": "<h2>安全管理辦法的架構範本</h2>"
+    },
+    {
+      "file": "home-nursing-visit-safety-record-fields.svg",
+      "alt": "安全事件通報記錄表五大欄位：護理師姓名時間、事件類型、描述與處置、通報時間、後續追蹤",
+      "caption": "圖：通報記錄表五大欄位，評鑑委員必查記錄完整性",
+      "anchor": "<h2>通報記錄表應包含哪些欄位？</h2>"
+    },
+    {
+      "file": "home-nursing-visit-safety-improvement.svg",
+      "alt": "改善追蹤記錄三步驟：每季彙整分析、制定改善措施、修訂辦法版次",
+      "caption": "圖：改善追蹤三步驟，修訂辦法版次是評鑑委員最常核查的項目",
+      "anchor": "<h2>改善追蹤記錄怎麼做？</h2>"
+    },
+    {
+      "file": "home-nursing-visit-safety-audit-angles.svg",
+      "alt": "評鑑委員A3查核五大角度：辦法涵蓋4類、抽查記錄、定期檢討、版次歷程、口頭詢問",
+      "caption": "圖：委員查核 A3 的五種方式，口頭詢問護理師是常見做法",
+      "anchor": "<h2>評鑑委員常見的查核角度</h2>"
+    },
+    {
+      "file": "home-nursing-visit-safety-no-events.svg",
+      "alt": "無安全事件時三份必備文件：無事件說明書、安全管理辦法、定期風險評估",
+      "caption": "圖：無事件亦需備妥三份文件，說明機構持續主動管理安全",
+      "anchor": "<h2>沒有安全事件記錄時怎麼辦？</h2>"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "home-nursing-eval-comparison-2026",
+  "figures": [
+    {
+      "file": "home-nursing-eval-comparison-overview.svg",
+      "alt": "不同長照機構評鑑概覽：居家護理8項、住宿型75+項、日照40-45項、居家照顧依縣市",
+      "caption": "圖：8項基準不代表「比較容易」，每項有多個子條件且查核深度不低",
+      "anchor": "<h2>不同長照機構類型的評鑑概覽</h2>"
+    },
+    {
+      "file": "home-nursing-eval-comparison-vs-residential.svg",
+      "alt": "居家護理所vs住宿型機構四大差異：服務場域、評核重點、人力要求、核心文件",
+      "caption": "圖：委員無法查看訪視現場，書面記錄的品質要求比住宿型更高",
+      "anchor": "<h2>居家護理所 vs 住宿型機構：主要差異</h2>"
+    },
+    {
+      "file": "home-nursing-eval-comparison-vs-daycare.svg",
+      "alt": "居家護理所vs日間照顧中心三大差異：照護模式、評核架構、文件重心",
+      "caption": "圖：同樣服務高齡長者，但照護模式不同決定了不同的評核重點",
+      "anchor": "<h2>居家護理所 vs 日間照顧中心：主要差異</h2>"
+    },
+    {
+      "file": "home-nursing-eval-comparison-mindset-shift.svg",
+      "alt": "轉到居家護理所需重建三個觀念：訪視記錄更詳細、安全管理重心不同、品質指標是機構整體",
+      "caption": "圖：三個觀念轉換幫助從其他機構轉入的護理師快速適應居家護理評鑑邏輯",
+      "anchor": "<h2>從其他機構轉到居家護理所：需要重新建立的觀念</h2>"
+    }
+  ]
+}

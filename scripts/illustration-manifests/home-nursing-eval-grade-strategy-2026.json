@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-eval-grade-strategy-2026",
+  "figures": [
+    {
+      "file": "home-nursing-eval-grade-strategy-scoring.svg",
+      "alt": "居家護理所評鑑各項目權重：B2占45%、A5占15%、B1占10%、A1-A4合計30%",
+      "caption": "圖：B2 占 45% 是居家護理所評鑑的絕對核心，其他項目合計 55%",
+      "anchor": "<h2>居家護理所評鑑評分制度</h2>"
+    },
+    {
+      "file": "home-nursing-eval-grade-strategy-levels.svg",
+      "alt": "三種評鑑等級核心差異：乙等70-79分、甲等80-89分、優等90分以上",
+      "caption": "圖：三個等級的主要分水嶺在 B2 和 A5 的文件深度",
+      "anchor": "<h2>分級策略核心邏輯</h2>"
+    },
+    {
+      "file": "home-nursing-eval-grade-strategy-b2-keys.svg",
+      "alt": "B2個案照護管理四大甲等關鍵：10位以上個案、三種觸發條件、照護計畫深度、結案記錄",
+      "caption": "圖：B2 甲等的四個關鍵，每一項都有明確的評核標準",
+      "anchor": "<h2>B2 個案照護管理（45%）：決勝關鍵</h2>"
+    },
+    {
+      "file": "home-nursing-eval-grade-strategy-a5-indicators.svg",
+      "alt": "A5五項固定機構經營指標：平均個案管理人數、護理人員離職率、非計畫性住院率、急診使用率、皮膚損傷發生率",
+      "caption": "圖：A5 五項指標衛福部官方規定，不可自行調整，每項需完整循環",
+      "anchor": "<h2>A5 機構經營指標監測（15%）：第二道分水嶺</h2>"
+    },
+    {
+      "file": "home-nursing-eval-grade-strategy-b1-items.svg",
+      "alt": "B1機構資訊管理五項填報：服務項目、服務區域、緊急聯絡、訪視說明、跨域合作",
+      "caption": "圖：B1 五項填報全完成即可拿到這 10% 的分數",
+      "anchor": "<h2>B1 機構資訊管理（10%）：全勤就能拿滿分</h2>"
+    },
+    {
+      "file": "home-nursing-eval-grade-strategy-b3-options.svg",
+      "alt": "B3加分題四大方向：照護特色標竿（最易）、研究競賽、創新服務、學術發表",
+      "caption": "圖：B3 任一方向即可加分，優先選擇機構現有基礎最強的方向",
+      "anchor": "<h2>B3 加分題（+5%）：衝優等的最後助力</h2>"
+    }
+  ]
+}

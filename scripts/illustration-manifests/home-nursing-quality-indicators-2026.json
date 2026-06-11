@@ -1,0 +1,41 @@
+{
+  "slug": "home-nursing-quality-indicators-2026",
+  "figures": [
+    {
+      "file": "home-nursing-quality-indicators-a5-requirements.svg",
+      "alt": "A5機構經營指標監測三大要求：訂定5項固定指標、每季統計分析報告、修訂閾值持續改善",
+      "caption": "圖：A5 三大條件環環相扣，指標、報告、改善需邏輯一致",
+      "anchor": "<h2>A5 基準完整要求</h2>"
+    },
+    {
+      "file": "home-nursing-quality-indicators-5-indicators.svg",
+      "alt": "115年度居家護理所A5五項固定指標：平均個案管理人數、護理人員離職率、非計畫性住院率、急診使用率、皮膚損傷發生率",
+      "caption": "圖：五項指標名稱衛福部官方規定，不可自行調整",
+      "anchor": "<h2>第一步：認識 115 年度 5 項固定指標</h2>"
+    },
+    {
+      "file": "home-nursing-quality-indicators-definition-doc.svg",
+      "alt": "指標定義文件必備四項內容：官方名稱、計算公式、目標閾值、資料來源",
+      "caption": "圖：定義文件是所有季報的 SSOT，計算方式前後必須一致",
+      "anchor": "<h2>第二步：建立指標定義文件</h2>"
+    },
+    {
+      "file": "home-nursing-quality-indicators-threshold.svg",
+      "alt": "合理閾值設定三大原則：以歷史表現為基準、挑戰性但可達到、新機構先建立基準期",
+      "caption": "圖：閾值設太高每季未達標，讓改善計畫失去實質意義",
+      "anchor": "<h2>第三步：閾值怎麼設才合理？</h2>"
+    },
+    {
+      "file": "home-nursing-quality-indicators-quarterly-report.svg",
+      "alt": "每季統計分析報告五大章節：封面頁、指標摘要、各項分析、改善計畫、上季追蹤",
+      "caption": "圖：五章節架構同時滿足 A5 三大評鑑條件",
+      "anchor": "<h2>第四步：每季統計分析報告</h2>"
+    },
+    {
+      "file": "home-nursing-quality-indicators-continuous-improvement.svg",
+      "alt": "持續改善四個行動：超標原因分析、具體改善措施、下季追蹤、修訂閾值",
+      "caption": "圖：改善不只是寫計畫，下季追蹤結果才是評鑑委員最看重的",
+      "anchor": "<h2>第五步：持續改善不只是寫文件</h2>"
+    }
+  ]
+}

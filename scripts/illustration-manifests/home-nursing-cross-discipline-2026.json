@@ -1,0 +1,35 @@
+{
+  "slug": "home-nursing-cross-discipline-2026",
+  "figures": [
+    {
+      "file": "home-nursing-cross-discipline-b1-conditions.svg",
+      "alt": "B1機構資訊管理五項條件：服務項目、服務區域、緊急聯絡、訪視安全權益、跨域合作",
+      "caption": "圖：B1 為「單一複合條文」，五項須全部符合任一不足整項失分",
+      "anchor": "<h2>B1 評鑑基準的要求</h2>"
+    },
+    {
+      "file": "home-nursing-cross-discipline-b1-quick-check.svg",
+      "alt": "B1前四個條件快速確認：服務項目一致、服務區域標示、緊急聯絡可達、訪視安全保障",
+      "caption": "圖：前四個條件相對直觀，逐項確認即可完成",
+      "anchor": "<h2>B1 前 4 個條件快速確認</h2>"
+    },
+    {
+      "file": "home-nursing-cross-discipline-real-vs-formal.svg",
+      "alt": "跨域合作真實vs形式：真實需要協議書+轉介記錄+追蹤結果，形式只有協議書",
+      "caption": "圖：評鑑委員直接詢問「可以看轉介記錄嗎？」，形式文件無法應對",
+      "anchor": "<h2>跨域合作機制：真實意涵</h2>"
+    },
+    {
+      "file": "home-nursing-cross-discipline-agreement-elements.svg",
+      "alt": "合作協議書四大必備元素：合作目的與內容、雙方責任、有效期限、負責人簽章",
+      "caption": "圖：有效期限是最常被忽略的欄位，過期協議書等同無效",
+      "anchor": "<h2>合作協議書的格式要求</h2>"
+    },
+    {
+      "file": "home-nursing-cross-discipline-partner-types.svg",
+      "alt": "跨域合作機構建議五大類型：主要醫院、物理治療所、社福機構、日照中心、居家照顧機構",
+      "caption": "圖：五大類型涵蓋個案可能需要的主要跨專業資源",
+      "anchor": "<h2>需要哪些類型的合作機構？</h2>"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "home-nursing-emergency-handling-2026",
+  "figures": [
+    {
+      "file": "home-nursing-emergency-handling-a4-conditions.svg",
+      "alt": "A4 個案緊急事件評鑑三大條件：訂定辦法、即時記錄、定期改善",
+      "caption": "圖：A4 三大條件缺一不可，辦法需涵蓋至少 4 類情境",
+      "anchor": "<h2>A4 評鑑基準的要求</h2>"
+    },
+    {
+      "file": "home-nursing-emergency-handling-event-types.svg",
+      "alt": "居家護理四大緊急事件類型：生命徵象惡化、跌倒、管路異常、造廔口異常",
+      "caption": "圖：四大緊急事件類型及各自的第一步應對原則",
+      "anchor": "<h2>居家護理常見緊急事件類型</h2>"
+    },
+    {
+      "file": "home-nursing-emergency-handling-sos-structure.svg",
+      "alt": "緊急事件處理辦法架構五大章節：目的範圍、預防措施、應變流程、通報記錄、檢討改善",
+      "caption": "圖：A4 辦法五章節架構，從預防到改善形成完整閉環",
+      "anchor": "<h2>緊急事件處理辦法的架構</h2>"
+    },
+    {
+      "file": "home-nursing-emergency-handling-record-fields.svg",
+      "alt": "緊急事件通報記錄表六大必備欄位：個案編號、事件類型、狀況評估、處置措施、通報時間、追蹤確認",
+      "caption": "圖：通報記錄表六大必備欄位，評鑑委員必查項目",
+      "anchor": "<h2>通報記錄表應包含的欄位</h2>"
+    },
+    {
+      "file": "home-nursing-emergency-handling-improvement-steps.svg",
+      "alt": "改善追蹤四步驟：每季彙整、根本原因分析、執行改善、更新版次",
+      "caption": "圖：改善追蹤四步驟，「依結果修訂辦法」是 A4 最常被忽略的條件",
+      "anchor": "<h2>改善追蹤的具體做法</h2>"
+    },
+    {
+      "file": "home-nursing-emergency-handling-a4-a5-link.svg",
+      "alt": "A4 緊急事件記錄對應 A5 三項固定指標：非計畫性住院率、急診使用率、皮膚損傷發生率",
+      "caption": "圖：A4 完整記錄同時成為 A5 固定指標的原始數據來源",
+      "anchor": "<h2>A4 和 A5 的連結</h2>"
+    },
+    {
+      "file": "home-nursing-emergency-handling-audit-angles.svg",
+      "alt": "評鑑委員 A4 查核五大角度：查閱辦法、抽查記錄、定期檢討、版次歷程、口頭詢問",
+      "caption": "圖：委員查核 A4 的五種方式，口頭詢問護理師是常見做法",
+      "anchor": "<h2>評鑑委員常見的查核角度</h2>"
+    }
+  ]
+}

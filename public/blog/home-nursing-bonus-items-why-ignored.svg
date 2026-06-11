@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">很多機構忽略 B3 的兩大原因</text>
+  <rect x="28" y="200" width="744" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="200" width="6" height="100" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="250" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="256" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="240" font-size="24" fill="#1e293b" font-weight="700">「甲等就夠了，不追優等」</text>
+  <text x="100" y="266" font-size="16" fill="#57534e">這是合理考量，B3 確實不是所有機構的優先目標</text>
+  <text x="100" y="286" font-size="16" fill="#57534e">但若有餘力，B3 的回報（+5%）相對準備成本並不低</text>
+  <rect x="620" y="210" width="136" height="80" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="244" font-size="16" fill="#d97706" text-anchor="middle">+5%</text>
+  <text x="688" y="264" font-size="16" fill="#d97706" text-anchor="middle">加分</text>
+  <rect x="28" y="320" width="744" height="100" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="320" width="6" height="100" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="370" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="376" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="360" font-size="24" fill="#1e293b" font-weight="700">「B3 對小機構不現實」</text>
+  <text x="100" y="386" font-size="16" fill="#57534e">這個認知需要重新評估——至少 2–3 個方向對積極準備的機構可行</text>
+  <text x="100" y="406" font-size="16" fill="#57534e">「創新照護模式」方向定義彈性，機構現有特色整理即可</text>
+  <rect x="620" y="330" width="136" height="80" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="364" font-size="16" fill="#78716c" text-anchor="middle">可行</text>
+  <text x="688" y="384" font-size="16" fill="#78716c" text-anchor="middle">方向</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
