@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">手部衛生五時機稽核執行方式</text>
+  <!-- Row 1 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">接觸嬰兒或產婦前</text>
+  <text x="100" y="166" font-size="16" fill="#57534e">WHO 手衛生時機一，稽核員觀察並記錄執行次數</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="145" font-size="16" fill="#d97706" text-anchor="middle">時機一</text>
+  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">接觸前</text>
+  <!-- Row 2 -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">進行無菌或清潔操作前</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">執行換藥、插管等侵入性操作前須確認執行</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="218" font-size="16" fill="#78716c" text-anchor="middle">時機二</text>
+  <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">操作前</text>
+  <!-- Row 3 -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">接觸體液風險後</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">接觸血液、分泌物或傷口後立即執行手部衛生</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="291" font-size="16" fill="#57534e" text-anchor="middle">時機三</text>
+  <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">體液後</text>
+  <!-- Row 4 -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">接觸嬰兒或產婦後</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">離開照護對象後確認執行，並記錄遵從率</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="364" font-size="16" fill="#a8a29e" text-anchor="middle">時機四</text>
+  <text x="688" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">接觸後</text>
+  <!-- Row 5 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">接觸周圍環境後</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">接觸嬰兒床、床欄、護理設備後需執行手衛生</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="437" font-size="16" fill="#94a3b8" text-anchor="middle">時機五</text>
+  <text x="688" y="455" font-size="16" fill="#94a3b8" text-anchor="middle">環境後</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

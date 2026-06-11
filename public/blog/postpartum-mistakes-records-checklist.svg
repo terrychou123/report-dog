@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">5 大失分點——評鑑前自我檢核</text>
+
+  <rect x="28" y="108" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="108" width="6" height="54" rx="2" fill="#78716c"/>
+  <!-- checkbox -->
+  <rect x="58" y="120" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <path d="M62 130 L67 135 L79 122" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="133" font-size="18" fill="#1e293b" font-weight="700">近 4 季品質指標季報完整（含分析與改善追蹤）</text>
+  <text x="94" y="152" font-size="15" fill="#57534e">A2.3 — 6 項指標、趨勢比較、原因說明、改善計畫均已填寫</text>
+
+  <rect x="28" y="173" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="173" width="6" height="54" rx="2" fill="#57534e"/>
+  <rect x="58" y="185" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <path d="M62 195 L67 200 L79 187" fill="none" stroke="#78716c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="198" font-size="18" fill="#1e293b" font-weight="700">全員 NRP／BLS 效期均未逾期，複訓已安排</text>
+  <text x="94" y="217" font-size="15" fill="#57534e">A1.1 — 效期一覽表已建立，效期前 3 個月已啟動複訓報名</text>
+
+  <rect x="28" y="238" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="238" width="6" height="54" rx="2" fill="#a8a29e"/>
+  <rect x="58" y="250" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <path d="M62 260 L67 265 L79 252" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="263" font-size="18" fill="#1e293b" font-weight="700">工作人員流感疫苗接種率 >= 80%，記錄完整</text>
+  <text x="94" y="282" font-size="15" fill="#57534e">A2.1 — 接種名冊已建立，醫療禁忌員工有文件說明</text>
+
+  <rect x="28" y="303" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="303" width="6" height="54" rx="2" fill="#94a3b8"/>
+  <rect x="58" y="315" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="328" font-size="18" fill="#1e293b" font-weight="700">每位產婦有個別化哺乳計畫與追蹤記錄</text>
+  <text x="94" y="347" font-size="15" fill="#57534e">B1.7 — 非統一格式，有個別評估欄；純母乳哺育率已統計</text>
+
+  <rect x="28" y="368" width="744" height="54" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="368" width="6" height="54" rx="2" fill="#6b7280"/>
+  <rect x="58" y="380" width="20" height="20" rx="3" fill="none" stroke="#a8a29e" stroke-width="1.5"/>
+  <text x="94" y="393" font-size="18" fill="#1e293b" font-weight="700">所有在院個案護理記錄連貫，EPDS 評估有記錄</text>
+  <text x="94" y="412" font-size="15" fill="#57534e">B1.1/B1.2 — 無日期空白，身分辨識核對記錄完整</text>
+
+  <rect x="28" y="436" width="744" height="36" rx="8" fill="#fef3c7"/>
+  <text x="400" y="460" font-size="16" fill="#d97706" text-anchor="middle">評鑑前兩週進行以上五點自查，有缺漏立即補強</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">B1.4 評鑑三大查核層次</text>
+  <!-- Row 1 y=166 H=90 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="202" font-size="20" fill="#1e293b" font-weight="700">計畫層次</text>
+  <text x="100" y="223" font-size="16" fill="#57534e">機構是否系統化規劃全年衛教課程，需備年度課程計畫書</text>
+  <rect x="620" y="174" width="136" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">年度計畫書</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">主管簽名</text>
+  <!-- Row 2 y=269 H=90 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="305" font-size="20" fill="#1e293b" font-weight="700">執行層次</text>
+  <text x="100" y="326" font-size="16" fill="#57534e">課程是否確實舉辦、產婦是否參與，需每次出席紀錄（含簽名）</text>
+  <rect x="620" y="277" width="136" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">出席名冊</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">親筆簽名</text>
+  <!-- Row 3 y=372 H=90 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="408" font-size="20" fill="#1e293b" font-weight="700">品質層次</text>
+  <text x="100" y="429" font-size="16" fill="#57534e">教材是否多元且符合現行醫療建議，需標示版本與更新日期</text>
+  <rect x="620" y="380" width="136" height="74" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">教材樣本</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">版本日期</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

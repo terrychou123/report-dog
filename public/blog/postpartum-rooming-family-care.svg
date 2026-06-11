@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">家屬參與嬰兒照護記錄 3 要點</text>
+  <!-- Row 1 N=3 H=90 -->
+  <rect x="32" y="174" width="736" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <rect x="32" y="174" width="6" height="74" rx="2" fill="#d97706"/>
+  <circle cx="68" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="68" y="216" font-size="18" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="207" font-size="17" fill="#1e293b" font-weight="700">探視期間的護理指導</text>
+  <text x="96" y="232" font-size="15" fill="#475569">家屬探視時護理師主動邀請並指導參與換尿布、抱嬰兒、餵奶等活動</text>
+  <!-- Row 2 -->
+  <rect x="32" y="277" width="736" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <rect x="32" y="277" width="6" height="74" rx="2" fill="#78716c"/>
+  <circle cx="68" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="68" y="319" font-size="18" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="310" font-size="17" fill="#1e293b" font-weight="700">技能教導與回覆示教記錄</text>
+  <text x="96" y="335" font-size="15" fill="#475569">記錄教導技能名稱（如新生兒沐浴示範、包巾示範），以及家屬能否正確操作</text>
+  <!-- Row 3 -->
+  <rect x="32" y="380" width="736" height="74" rx="8" fill="#57534e" opacity="0.12"/>
+  <rect x="32" y="380" width="6" height="74" rx="2" fill="#57534e"/>
+  <circle cx="68" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="68" y="422" font-size="18" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="413" font-size="17" fill="#1e293b" font-weight="700">替代方案記錄</text>
+  <text x="96" y="438" font-size="15" fill="#475569">家屬無法到場時，記錄機構提供的衛教影片或書面資料等替代方案</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

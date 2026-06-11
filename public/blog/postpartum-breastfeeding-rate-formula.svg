@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">純母乳哺育率計算公式 3 步驟</text>
+  <!-- Row 1 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700">確認分子：出院時純母乳哺育嬰兒數</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">住院期間完全以母乳為食，未添加配方奶、水分或其他食物</text>
+  <text x="100" y="244" font-size="16" fill="#57534e">資料來源：出院護理評估單的餵食方式記錄</text>
+  <rect x="620" y="177" width="136" height="68" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">純母乳</text>
+  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">哺育人數</text>
+  <text x="688" y="245" font-size="16" fill="#d97706" text-anchor="middle">（分子）</text>
+  <!-- Row 2 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700">確認分母：同期出院嬰兒總數</text>
+  <text x="100" y="325" font-size="16" fill="#57534e">以每季（3 個月）出院個案為統計單位，不用入住個案數</text>
+  <text x="100" y="347" font-size="16" fill="#57534e">混合哺育不計入純母乳，需分開統計</text>
+  <rect x="620" y="280" width="136" height="68" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">出院嬰兒</text>
+  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">總數</text>
+  <text x="688" y="348" font-size="16" fill="#78716c" text-anchor="middle">（分母）</text>
+  <!-- Row 3 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700">季報呈現：列出計算明細 + 趨勢分析</text>
+  <text x="100" y="428" font-size="16" fill="#57534e">純母乳哺育率 = 分子 ÷ 分母 × 100%，需列明細</text>
+  <text x="100" y="450" font-size="16" fill="#57534e">偏低時需說明原因並提出具體改善計畫</text>
+  <rect x="620" y="383" width="136" height="68" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">A2.3</text>
+  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">品質指標</text>
+  <text x="688" y="451" font-size="16" fill="#57534e" text-anchor="middle">每季統計</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

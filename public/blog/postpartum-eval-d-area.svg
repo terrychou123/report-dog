@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="50" width="800" height="76" fill="white"/>
+  <rect x="0" y="50" width="6" height="76" rx="2" fill="#d97706"/>
+  <text x="28" y="104" font-size="36" fill="#1e293b" font-weight="700">D 區特別事項：加分 vs 試評扣分</text>
+  <rect x="28" y="175" width="744" height="130" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="175" width="6" height="130" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="235" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="241" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">D1</text>
+  <text x="100" y="225" font-size="24" fill="#1e293b" font-weight="700">配合政策執行（加分條）</text>
+  <text x="100" y="251" font-size="16" fill="#57534e">母嬰親善醫療院所認證：最直接的加分來源</text>
+  <text x="100" y="271" font-size="16" fill="#57534e">創新服務方案：特殊族群支持、智慧照護導入，需書面佐證</text>
+  <text x="100" y="291" font-size="16" fill="#57534e">參與衛生局政策推廣計畫，保留參與記錄</text>
+  <rect x="620" y="183" width="136" height="115" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="234" font-size="16" fill="#d97706" text-anchor="middle">母嬰</text>
+  <text x="688" y="254" font-size="16" fill="#d97706" text-anchor="middle">親善</text>
+  <text x="688" y="274" font-size="16" fill="#d97706" text-anchor="middle">加分</text>
+  <rect x="28" y="325" width="744" height="120" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="325" width="6" height="120" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="380" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="386" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">D2</text>
+  <text x="100" y="370" font-size="24" fill="#1e293b" font-weight="700">重大異常情事（試評扣分）</text>
+  <text x="100" y="396" font-size="16" fill="#57534e">重大違規裁罰記錄、嬰兒重大意外未依規定通報</text>
+  <text x="100" y="416" font-size="16" fill="#57534e">消防設施失效、評鑑期間提供不實資料，均屬試評直接扣分項</text>
+  <rect x="620" y="333" width="136" height="105" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="381" font-size="16" fill="#57534e" text-anchor="middle">試評</text>
+  <text x="688" y="401" font-size="16" fill="#57534e" text-anchor="middle">扣分</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

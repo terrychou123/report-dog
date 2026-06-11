@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">NRP/BLS 效期管理 ＋ 流感疫苗達標要訣</text>
+
+  <!-- NRP/BLS 段 -->
+  <rect x="28" y="104" width="6" height="28" rx="2" fill="#d97706"/>
+  <text x="44" y="122" font-size="18" fill="#1e293b" font-weight="700">A1.1 NRP／BLS 效期管理（2 年制）</text>
+
+  <rect x="28" y="140" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="140" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="171" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="177" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">建表</text>
+  <text x="100" y="168" font-size="18" fill="#1e293b" font-weight="700">建立全員效期一覽表</text>
+  <text x="100" y="189" font-size="16" fill="#57534e">記錄每位護產人員 NRP/BLS 訓練日期、效期截止日、複訓預計日</text>
+  <rect x="620" y="148" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="165" font-size="16" fill="#d97706" text-anchor="middle">效期前</text>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">3 個月</text>
+
+  <rect x="28" y="215" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="215" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="246" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="252" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">提前</text>
+  <text x="100" y="243" font-size="18" fill="#1e293b" font-weight="700">效期前 3 個月啟動複訓安排</text>
+  <text x="100" y="264" font-size="16" fill="#57534e">NRP/BLS 課程需提前 1–2 個月報名，勿等到效期快到才找課</text>
+  <rect x="620" y="223" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="240" font-size="16" fill="#78716c" text-anchor="middle">提前</text>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">報名</text>
+
+  <!-- 疫苗段 -->
+  <rect x="28" y="295" width="6" height="28" rx="2" fill="#57534e"/>
+  <text x="44" y="313" font-size="18" fill="#1e293b" font-weight="700">A2.1 流感疫苗達標（工作人員接種率 >= 80%）</text>
+
+  <rect x="28" y="331" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="331" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="362" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="368" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">9月</text>
+  <text x="100" y="359" font-size="18" fill="#1e293b" font-weight="700">9 月開始建立員工接種追蹤名冊</text>
+  <text x="100" y="380" font-size="16" fill="#57534e">統一收集診所接種證明，11 月底前確認接種率達標</text>
+  <rect x="620" y="339" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="356" font-size="16" fill="#57534e" text-anchor="middle">11月底</text>
+  <text x="688" y="376" font-size="16" fill="#57534e" text-anchor="middle">確認</text>
+
+  <rect x="28" y="406" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="406" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="436" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="442" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">禁忌</text>
+  <text x="100" y="433" font-size="18" fill="#1e293b" font-weight="700">醫療禁忌員工須保留醫療文件</text>
+  <text x="100" y="454" font-size="16" fill="#57534e">無法接種者須有醫療禁忌說明記錄，評鑑委員查問時有據可依</text>
+  <rect x="620" y="414" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="431" font-size="16" fill="#a8a29e" text-anchor="middle">文件</text>
+  <text x="688" y="451" font-size="16" fill="#a8a29e" text-anchor="middle">留存</text>
+
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

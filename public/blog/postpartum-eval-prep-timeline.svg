@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">115 年度評鑑準備時間軸三階段</text>
+
+  <rect x="28" y="110" width="744" height="106" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="110" width="6" height="106" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="163" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="168" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">3月</text>
+  <text x="100" y="150" font-size="20" fill="#1e293b" font-weight="700">評鑑前 3 個月</text>
+  <text x="100" y="176" font-size="16" fill="#57534e">逐條盤點 17 項基準，找出文件空缺優先補強</text>
+  <text x="100" y="200" font-size="16" fill="#57534e">確認全員 NRP/BLS 效期，擬定品質指標統計計畫</text>
+  <rect x="620" y="140" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="157" font-size="16" fill="#d97706" text-anchor="middle">系統</text>
+  <text x="688" y="177" font-size="16" fill="#d97706" text-anchor="middle">盤點</text>
+
+  <rect x="28" y="228" width="744" height="106" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="228" width="6" height="106" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="281" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="286" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">1月</text>
+  <text x="100" y="268" font-size="20" fill="#1e293b" font-weight="700">評鑑前 1 個月</text>
+  <text x="100" y="294" font-size="16" fill="#57534e">完成當季 6 項品質指標季報與改善記錄</text>
+  <text x="100" y="318" font-size="16" fill="#57534e">更新 SOP、確認醫院協議、辦理消防演練留記錄</text>
+  <rect x="620" y="258" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="275" font-size="16" fill="#78716c" text-anchor="middle">文件</text>
+  <text x="688" y="295" font-size="16" fill="#78716c" text-anchor="middle">補強</text>
+
+  <rect x="28" y="346" width="744" height="106" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="346" width="6" height="106" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="399" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="404" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">1週</text>
+  <text x="100" y="386" font-size="20" fill="#1e293b" font-weight="700">評鑑前 1 週</text>
+  <text x="100" y="412" font-size="16" fill="#57534e">確認嬰兒室溫濕度與母乳冰箱監測記錄連續完整</text>
+  <text x="100" y="436" font-size="16" fill="#57534e">補齊個案簽名追蹤欄，確認疏散路線無障礙物</text>
+  <rect x="620" y="376" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="393" font-size="16" fill="#57534e" text-anchor="middle">最後</text>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">確認</text>
+
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

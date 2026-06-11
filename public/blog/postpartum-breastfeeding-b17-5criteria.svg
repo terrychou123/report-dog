@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">B1.7 的 5 個評鑑基準</text>
+  <!-- Row 1 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="143" font-size="20" fill="#1e293b" font-weight="700">哺乳意願評估 + 個別化計畫</text>
+  <text x="100" y="165" font-size="16" fill="#57534e">入住時評估哺乳意願及能力，依評估結果制訂計畫</text>
+  <rect x="620" y="124" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="141" font-size="16" fill="#d97706" text-anchor="middle">個案紀錄</text>
+  <text x="688" y="161" font-size="16" fill="#d97706" text-anchor="middle">查閱</text>
+  <!-- Row 2 -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="216" font-size="20" fill="#1e293b" font-weight="700">哺乳技巧指導</text>
+  <text x="100" y="238" font-size="16" fill="#57534e">含含乳姿勢、哺乳頻率、奶量評估衛教，有衛教記錄</text>
+  <rect x="620" y="197" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="214" font-size="16" fill="#78716c" text-anchor="middle">個案紀錄</text>
+  <text x="688" y="234" font-size="16" fill="#78716c" text-anchor="middle">查閱</text>
+  <!-- Row 3 -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="289" font-size="20" fill="#1e293b" font-weight="700">哺乳追蹤記錄</text>
+  <text x="100" y="311" font-size="16" fill="#57534e">追蹤嬰兒哺乳/餵食情形及體重變化，持續記錄</text>
+  <rect x="620" y="270" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="287" font-size="16" fill="#57534e" text-anchor="middle">個案紀錄</text>
+  <text x="688" y="307" font-size="16" fill="#57534e" text-anchor="middle">查閱</text>
+  <!-- Row 4 -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="362" font-size="20" fill="#1e293b" font-weight="700">配方奶沖泡保存程序</text>
+  <text x="100" y="384" font-size="16" fill="#57534e">配方奶沖泡及保存標準作業程序，確保食品安全</text>
+  <rect x="620" y="343" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="360" font-size="16" fill="#a8a29e" text-anchor="middle">資料</text>
+  <text x="688" y="380" font-size="16" fill="#a8a29e" text-anchor="middle">查核</text>
+  <!-- Row 5 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="435" font-size="20" fill="#1e293b" font-weight="700">純母乳哺育率統計</text>
+  <text x="100" y="457" font-size="16" fill="#57534e">統計純母乳哺育率並列為 A2.3 品質指標監測項目</text>
+  <rect x="620" y="416" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="433" font-size="16" fill="#94a3b8" text-anchor="middle">資料</text>
+  <text x="688" y="453" font-size="16" fill="#94a3b8" text-anchor="middle">查核</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

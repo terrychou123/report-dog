@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">C1 疏散避難 ＋ C2 災害應變評鑑基準</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">C1</text>
+  <text x="100" y="138" font-size="18" fill="#1e293b" font-weight="700">嬰兒疏散 SOP 明確人員分工</text>
+  <text x="100" y="159" font-size="16" fill="#57534e">每班次工作人員明確知道自己負責哪些嬰兒</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">疏散</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">SOP</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">C1</text>
+  <text x="100" y="211" font-size="18" fill="#1e293b" font-weight="700">每年至少 1 次含嬰兒疏散消防演練</text>
+  <text x="100" y="232" font-size="16" fill="#57534e">演練留存記錄、照片及演練後檢討報告</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">演練</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">記錄</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">C1</text>
+  <text x="100" y="284" font-size="18" fill="#1e293b" font-weight="700">疏散路線無障礙物，緊急出口可開啟</text>
+  <text x="100" y="305" font-size="16" fill="#57534e">現場確認疏散路線暢通，緊急出口功能正常</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">路線</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">暢通</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">C2</text>
+  <text x="100" y="357" font-size="18" fill="#1e293b" font-weight="700">天災應變計畫（颱風、地震）存在</text>
+  <text x="100" y="378" font-size="16" fill="#57534e">天災應變計畫書存在且工作人員熟知</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="363" font-size="16" fill="#a8a29e" text-anchor="middle">天災</text>
+  <text x="688" y="383" font-size="16" fill="#a8a29e" text-anchor="middle">計畫</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">C2</text>
+  <text x="100" y="430" font-size="18" fill="#1e293b" font-weight="700">嬰兒室溫度 24–26°C 連續監測記錄</text>
+  <text x="100" y="451" font-size="16" fill="#57534e">溫濕度監測記錄連續完整，有警示機制</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="436" font-size="16" fill="#94a3b8" text-anchor="middle">24~26</text>
+  <text x="688" y="456" font-size="16" fill="#94a3b8" text-anchor="middle">°C</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">EPDS 施測時機四個時間點</text>
+  <!-- Row 1 y=118 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">第1</text>
+  <text x="100" y="146" font-size="20" fill="#1e293b" font-weight="700">入住第 3–5 天</text>
+  <text x="100" y="167" font-size="16" fill="#57534e">產婦稍微穩定後，有較真實的情緒狀態</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="143" font-size="16" fill="#d97706" text-anchor="middle">住院期間</text>
+  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">可追蹤</text>
+  <!-- Row 2 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">第2</text>
+  <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">入住第 7–10 天（建議必測）</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">WHO 建議黃金施測期，症狀最常在此時段出現</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="216" font-size="16" fill="#78716c" text-anchor="middle">黃金</text>
+  <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">施測期</text>
+  <!-- Row 3 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">第3</text>
+  <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">入住第 10–14 天</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">多數研究建議的核心評估時段，症狀表現明顯</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="289" font-size="16" fill="#57534e" text-anchor="middle">高準確</text>
+  <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">評估期</text>
+  <!-- Row 4 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">第4</text>
+  <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">出院前 1–2 天</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">搭配出院評估，高分個案作為出院轉介依據</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="362" font-size="16" fill="#a8a29e" text-anchor="middle">出院</text>
+  <text x="688" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">轉介依據</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

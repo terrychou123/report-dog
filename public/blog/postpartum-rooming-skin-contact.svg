@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">肌膚接觸指導記錄 4 要點</text>
+  <!-- Row 1 -->
+  <rect x="32" y="126" width="736" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <rect x="32" y="126" width="6" height="46" rx="2" fill="#d97706"/>
+  <circle cx="68" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="68" y="154" font-size="18" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="146" font-size="17" fill="#1e293b" font-weight="700">指導時機</text>
+  <text x="96" y="167" font-size="15" fill="#475569">入住後 24 小時內及產婦狀況穩定後主動說明</text>
+  <!-- Row 2 -->
+  <rect x="32" y="199" width="736" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <rect x="32" y="199" width="6" height="46" rx="2" fill="#78716c"/>
+  <circle cx="68" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="68" y="227" font-size="18" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="219" font-size="17" fill="#1e293b" font-weight="700">指導內容</text>
+  <text x="96" y="240" font-size="15" fill="#475569">說明肌膚接觸的好處：促進親子連結、穩定嬰兒體溫、促進哺乳</text>
+  <!-- Row 3 -->
+  <rect x="32" y="272" width="736" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <rect x="32" y="272" width="6" height="46" rx="2" fill="#57534e"/>
+  <circle cx="68" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="68" y="300" font-size="18" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="292" font-size="17" fill="#1e293b" font-weight="700">產婦的選擇</text>
+  <text x="96" y="313" font-size="15" fill="#475569">記錄產婦對肌膚接觸的意願，包含選擇延後的原因說明</text>
+  <!-- Row 4 -->
+  <rect x="32" y="345" width="736" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <rect x="32" y="345" width="6" height="46" rx="2" fill="#a8a29e"/>
+  <circle cx="68" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="68" y="373" font-size="18" fill="#a8a29e" font-weight="700" text-anchor="middle">4</text>
+  <text x="96" y="365" font-size="17" fill="#1e293b" font-weight="700">實際執行記錄</text>
+  <text x="96" y="386" font-size="15" fill="#475569">若有進行，記錄執行時間、持續時長及產婦嬰兒狀況</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">B 區專業服務八條核心查核項目</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">B1.1</text>
+  <text x="100" y="145" font-size="20" fill="#1e293b" font-weight="700">產婦照護</text>
+  <text x="100" y="166" font-size="16" fill="#57534e">入住評估、EPDS 篩查（分數記錄＋高分轉介）、護理紀錄連貫</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="142" font-size="16" fill="#d97706" text-anchor="middle">EPDS</text>
+  <text x="688" y="162" font-size="16" fill="#d97706" text-anchor="middle">篩查</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">B1.2</text>
+  <text x="100" y="218" font-size="20" fill="#1e293b" font-weight="700">嬰兒照護</text>
+  <text x="100" y="239" font-size="16" fill="#57534e">體重監測（每日記錄）、黃疸評估、嬰兒身分辨識管理</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="215" font-size="16" fill="#78716c" text-anchor="middle">體重</text>
+  <text x="688" y="235" font-size="16" fill="#78716c" text-anchor="middle">黃疸</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">B1.3</text>
+  <text x="100" y="291" font-size="20" fill="#1e293b" font-weight="700">親子同室</text>
+  <text x="100" y="312" font-size="16" fill="#57534e">肌膚接觸指導記錄、家屬參與嬰兒照護、回覆示教記錄</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="288" font-size="16" fill="#57534e" text-anchor="middle">親子</text>
+  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">同室</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">B1.7</text>
+  <text x="100" y="364" font-size="20" fill="#1e293b" font-weight="700">哺乳計畫與母乳支持</text>
+  <text x="100" y="385" font-size="16" fill="#57534e">個別化哺乳計畫記錄、純母乳率計算、配方奶 SOP</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="361" font-size="16" fill="#a8a29e" text-anchor="middle">哺乳</text>
+  <text x="688" y="381" font-size="16" fill="#a8a29e" text-anchor="middle">計畫</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">B1.5</text>
+  <text x="100" y="437" font-size="20" fill="#1e293b" font-weight="700">出院評估與轉介</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">產婦/嬰兒出院評估、書面指導家屬簽名、社區資源轉介</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="434" font-size="16" fill="#94a3b8" text-anchor="middle">出院</text>
+  <text x="688" y="454" font-size="16" fill="#94a3b8" text-anchor="middle">評估</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

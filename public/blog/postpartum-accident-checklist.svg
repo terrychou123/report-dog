@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">A2.2 意外事件——評鑑前自我檢核</text>
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">SOP</text>
+  <text x="100" y="146" font-size="20" fill="#1e293b" font-weight="700">7 類意外事件 SOP 均已建立且工作人員熟知</text>
+  <text x="100" y="167" font-size="16" fill="#57534e">跌倒/燙傷/嬰兒抱錯/誘拐/藥物錯誤/設備故障/重大事故</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="143" font-size="16" fill="#d97706" text-anchor="middle">7 類</text>
+  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">SOP</text>
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">通報</text>
+  <text x="100" y="219" font-size="20" fill="#1e293b" font-weight="700">24 小時通報機制已建立，通報記錄完整</text>
+  <text x="100" y="240" font-size="16" fill="#57534e">通報對象、方式、格式均已訂定，並有實際通報記錄</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="216" font-size="16" fill="#78716c" text-anchor="middle">24 小時</text>
+  <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">通報</text>
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="301" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">演練</text>
+  <text x="100" y="292" font-size="20" fill="#1e293b" font-weight="700">定期演練已辦理，含演練日期與出席名單</text>
+  <text x="100" y="313" font-size="16" fill="#57534e">意外事件演練記錄留存，有演練日期、參與人員名單</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="289" font-size="16" fill="#57534e" text-anchor="middle">演練</text>
+  <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">記錄</text>
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="374" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">設備</text>
+  <text x="100" y="365" font-size="20" fill="#1e293b" font-weight="700">AED 與急救箱定期維護，有維護記錄及合格證明</text>
+  <text x="100" y="386" font-size="16" fill="#57534e">急救設備維護記錄完整，AED 電池效期未過期</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="362" font-size="16" fill="#a8a29e" text-anchor="middle">設備</text>
+  <text x="688" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">維護</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

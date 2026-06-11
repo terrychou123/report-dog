@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">7 類意外事件 SOP 撰寫重點</text>
+  <!-- Row 1 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">①</text>
+  <text x="100" y="143" font-size="20" fill="#1e293b" font-weight="700">跌倒</text>
+  <text x="100" y="165" font-size="16" fill="#57534e">不得擅自移動疑似骨折個案；評估意識生命徵象；記錄時間地點</text>
+  <rect x="620" y="124" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="141" font-size="16" fill="#d97706" text-anchor="middle">最常見</text>
+  <text x="688" y="161" font-size="16" fill="#d97706" text-anchor="middle">產婦跌倒</text>
+  <!-- Row 2 -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">②</text>
+  <text x="100" y="216" font-size="20" fill="#1e293b" font-weight="700">燙傷</text>
+  <text x="100" y="238" font-size="16" fill="#57534e">立即沖洗流動冷水 15-20 分鐘；熱水袋溫度限 40°C 以下</text>
+  <rect x="620" y="197" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="214" font-size="16" fill="#78716c" text-anchor="middle">熱水袋/</text>
+  <text x="688" y="234" font-size="16" fill="#78716c" text-anchor="middle">沐浴水溫</text>
+  <!-- Row 3 -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">③</text>
+  <text x="100" y="289" font-size="20" fill="#1e293b" font-weight="700">嬰兒抱錯</text>
+  <text x="100" y="311" font-size="16" fill="#57534e">手腳環核對 + 照片比對確認；護理主管出面通知雙方家屬</text>
+  <rect x="620" y="270" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="287" font-size="16" fill="#57534e" text-anchor="middle">B1.2</text>
+  <text x="688" y="307" font-size="16" fill="#57534e" text-anchor="middle">身分辨識</text>
+  <!-- Row 4 -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">④</text>
+  <text x="100" y="362" font-size="20" fill="#1e293b" font-weight="700">嬰兒誘拐</text>
+  <text x="100" y="384" font-size="16" fill="#57534e">立即封鎖出入口、報警、調監視器；無需等候主管授權</text>
+  <rect x="620" y="343" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="360" font-size="16" fill="#a8a29e" text-anchor="middle">最嚴重</text>
+  <text x="688" y="380" font-size="16" fill="#a8a29e" text-anchor="middle">安全事件</text>
+  <!-- Row 5 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">⑤⑥⑦</text>
+  <text x="100" y="435" font-size="20" fill="#1e293b" font-weight="700">藥物錯誤 + 設備故障 + 其他重大事故</text>
+  <text x="100" y="457" font-size="16" fill="#57534e">雙重核對制度；故障設備張貼標示；重大事故與 B1.6 交叉引用</text>
+  <rect x="620" y="416" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="433" font-size="16" fill="#94a3b8" text-anchor="middle">建立</text>
+  <text x="688" y="453" font-size="16" fill="#94a3b8" text-anchor="middle">預防機制</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

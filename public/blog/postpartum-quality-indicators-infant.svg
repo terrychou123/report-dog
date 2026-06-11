@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="30" fill="#1e293b" font-weight="700">嬰兒相關 3 項指標：管理重點解析</text>
+  <!-- N=3 rows, H=90, y: 166/269/372 -->
+  <!-- Row 1 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="200" font-size="20" fill="#1e293b" font-weight="700">嬰兒紅臀發生率</text>
+  <text x="100" y="224" font-size="16" fill="#57534e">每次換尿布觀察，使用統一評估等級（無／輕度／中度／重度）</text>
+  <text x="100" y="244" font-size="16" fill="#57534e">上升趨勢需說明原因：換品牌、季節因素，並提出改善措施</text>
+  <rect x="614" y="178" width="142" height="66" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="685" y="203" font-size="16" fill="#d97706" text-anchor="middle">1 級以上</text>
+  <text x="685" y="223" font-size="16" fill="#d97706" text-anchor="middle">即計入</text>
+  <text x="685" y="243" font-size="16" fill="#d97706" text-anchor="middle">統計</text>
+  <!-- Row 2 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">4</text>
+  <text x="100" y="303" font-size="20" fill="#1e293b" font-weight="700">嬰兒體重回升達出生體重比率</text>
+  <text x="100" y="327" font-size="16" fill="#57534e">每日體重監測，出院時末次體重與出生體重比較計入統計</text>
+  <text x="100" y="347" font-size="16" fill="#57534e">未回升者需有說明及轉介追蹤，與純母乳哺育率連動</text>
+  <rect x="614" y="281" width="142" height="66" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="685" y="306" font-size="16" fill="#78716c" text-anchor="middle">生理性</text>
+  <text x="685" y="326" font-size="16" fill="#78716c" text-anchor="middle">下降 5-10%</text>
+  <text x="685" y="346" font-size="16" fill="#78716c" text-anchor="middle">應回升</text>
+  <!-- Row 3 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">5</text>
+  <text x="100" y="406" font-size="20" fill="#1e293b" font-weight="700">嬰兒黃疸（需照光）發生率</text>
+  <text x="100" y="430" font-size="16" fill="#57534e">黃疸評估記錄含每日監測數值，達照光標準才計入發生數</text>
+  <text x="100" y="450" font-size="16" fill="#57534e">率偏高與胎齡、哺乳、種族等有關，需說明原因與管理措施</text>
+  <rect x="614" y="384" width="142" height="66" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="685" y="409" font-size="16" fill="#57534e" text-anchor="middle">每日監測</text>
+  <text x="685" y="429" font-size="16" fill="#57534e" text-anchor="middle">達標準</text>
+  <text x="685" y="449" font-size="16" fill="#57534e" text-anchor="middle">才計入</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
