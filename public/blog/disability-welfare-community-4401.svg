@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">4401 社區資源連結四大要素</text>
+  <!-- 第1行 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="144" font-size="20" fill="#1e293b" font-weight="700">社區活動外出記錄</text>
+  <text x="96" y="165" font-size="16" fill="#57534e">記錄日期、地點、活動類型（購物／文化／休閒／社交），須呈現多元性與個別安排</text>
+  <rect x="620" y="130" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="149" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">社區融合</text>
+  <!-- 第2行 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="217" font-size="20" fill="#1e293b" font-weight="700">資源合作備忘錄（MOU）</text>
+  <text x="96" y="238" font-size="16" fill="#57534e">與社區單位（社區發展協會、運動中心、醫療機構）簽訂合作文件，含聯絡人資料</text>
+  <rect x="620" y="203" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="222" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">正式合作</text>
+  <!-- 第3行 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="290" font-size="20" fill="#1e293b" font-weight="700">志工服務記錄</text>
+  <text x="96" y="311" font-size="16" fill="#57534e">記錄志工來訪日期、人數、服務內容，並留存志工服務時數統計表</text>
+  <rect x="620" y="276" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="295" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">社區互動</text>
+  <!-- 第4行 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="20" fill="#a8a29e" font-weight="700" text-anchor="middle">4</text>
+  <text x="96" y="363" font-size="20" fill="#1e293b" font-weight="700">轉介與追蹤記錄</text>
+  <text x="96" y="384" font-size="16" fill="#57534e">服務對象轉介至社區資源（職訓、日間作業）的轉介文件及後續追蹤結果</text>
+  <rect x="620" y="349" width="136" height="28" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="368" font-size="16" fill="#a8a29e" font-weight="700" text-anchor="middle">轉銜延伸</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">機構留才策略 4 方向</text>
+  <!-- 第1行 y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="94" y="143" font-size="14" fill="#78716c" font-weight="700">建立透明薪資與晉升制度</text>
+  <text x="94" y="162" font-size="16" fill="#57534e">讓員工看到明確的薪資成長路徑，降低因「看不到前途」而離職</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">薪資透明</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">晉升可期</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="94" y="216" font-size="14" fill="#78716c" font-weight="700">透過 AI 工具減少文書負擔</text>
+  <text x="94" y="235" font-size="16" fill="#57534e">AI 輔助 SOAP 紀錄與評鑑文件，讓教保員更多時間回歸服務對象</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="220" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle">減文書</text>
+  <text x="688" y="238" font-size="14" fill="#78716c" text-anchor="middle">降離職意願</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="295" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="301" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">3</text>
+  <text x="94" y="289" font-size="14" fill="#78716c" font-weight="700">合理分配評鑑備審工作</text>
+  <text x="94" y="308" font-size="16" fill="#57534e">制度化分工，避免評鑑備審集中少數人；全員共同承擔責任</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="293" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle">分工制度</text>
+  <text x="688" y="311" font-size="14" fill="#94a3b8" text-anchor="middle">平衡負荷</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="368" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="374" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">4</text>
+  <text x="94" y="362" font-size="14" fill="#78716c" font-weight="700">提供專業發展機會</text>
+  <text x="94" y="381" font-size="16" fill="#57534e">安排外部研習、進階認證，增強員工對機構認同感和職涯空間</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="366" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">專業成長</text>
+  <text x="688" y="384" font-size="14" fill="#57534e" text-anchor="middle">職涯認同</text>
+  <!-- 底部說明 -->
+  <text x="28" y="438" font-size="16" fill="#78716c">四方向同步推進，才能有效提升教保員與社工師留任率</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">群聚事件通報與處理 4 步驟</text>
+  <!-- 第1行 y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="94" y="143" font-size="14" fill="#78716c" font-weight="700">發現症狀與閾值判斷</text>
+  <text x="94" y="162" font-size="16" fill="#57534e">3 天內 3 人以上相同症狀即達通報閾值，應立即啟動應變程序</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">閾值觸發</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">立即啟動</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="94" y="216" font-size="14" fill="#78716c" font-weight="700">主管機關通報</text>
+  <text x="94" y="235" font-size="16" fill="#57534e">書面說明通報情形、通報時間限制，保存通報紀錄備評鑑查閱</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="220" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle">通報紀錄</text>
+  <text x="688" y="238" font-size="14" fill="#78716c" text-anchor="middle">時效要求</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="295" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="301" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">3</text>
+  <text x="94" y="289" font-size="14" fill="#78716c" font-weight="700">隔離措施與暫停共同活動</text>
+  <text x="94" y="308" font-size="16" fill="#57534e">有症狀者安置個別房間，暫停共同活動，防止接觸傳播</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="293" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle">隔離安置</text>
+  <text x="688" y="311" font-size="14" fill="#94a3b8" text-anchor="middle">切斷傳播</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="368" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="374" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">4</text>
+  <text x="94" y="362" font-size="14" fill="#78716c" font-weight="700">環境清消程序</text>
+  <text x="94" y="381" font-size="16" fill="#57534e">說明感染後環境消毒流程，以及常規消毒頻率與使用消毒劑種類</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="366" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">環境清消</text>
+  <text x="688" y="384" font-size="14" fill="#57534e" text-anchor="middle">有紀錄可查</text>
+  <!-- 底部說明 -->
+  <text x="28" y="438" font-size="16" fill="#78716c">備審：書面應變程序＋過去事件處理紀錄（無事件亦需提供程序書）</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">C區六項一級必要指標</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">C1</text>
+  <text x="100" y="138" font-size="18" fill="#1e293b" font-weight="700">C1 建築安全：定期申報消防</text>
+  <text x="100" y="159" font-size="16" fill="#57534e">建築消防安全設備定期申報，記錄5年</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">C1</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">消防</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">C2</text>
+  <text x="100" y="211" font-size="18" fill="#1e293b" font-weight="700">C2 緊急廣播：測試記錄有效</text>
+  <text x="100" y="232" font-size="16" fill="#57534e">緊急廣播系統定期測試，留存測試記錄</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">C2</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">廣播</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">C3</text>
+  <text x="100" y="284" font-size="18" fill="#1e293b" font-weight="700">C3 緊急供電：備用電源有效</text>
+  <text x="100" y="305" font-size="16" fill="#57534e">備用發電機定期測試，有維護校正記錄</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">C3</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">電源</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">C4</text>
+  <text x="100" y="357" font-size="18" fill="#1e293b" font-weight="700">C4 緊急呼叫：現場測試可用</text>
+  <text x="100" y="378" font-size="16" fill="#57534e">緊急呼叫系統每室均有效，現場測試不得有失效</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="363" font-size="16" fill="#a8a29e" text-anchor="middle">C4</text>
+  <text x="688" y="383" font-size="16" fill="#a8a29e" text-anchor="middle">呼叫</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">C5</text>
+  <text x="100" y="430" font-size="18" fill="#1e293b" font-weight="700">C5 防滑設施：浴廁、通道</text>
+  <text x="100" y="451" font-size="16" fill="#57534e">浴廁及通道防滑設施完備，無安全疑慮</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="436" font-size="16" fill="#94a3b8" text-anchor="middle">C5</text>
+  <text x="688" y="456" font-size="16" fill="#94a3b8" text-anchor="middle">防滑</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

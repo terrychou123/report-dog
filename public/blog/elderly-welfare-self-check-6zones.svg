@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">老人福利機構評鑑六大區塊自評架構</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">A區</text>
+  <text x="100" y="138" font-size="18" fill="#1e293b" font-weight="700">行政管理效能（A1-A15，15項）</text>
+  <text x="100" y="159" font-size="16" fill="#57534e">人力配置、訓練時數、管理制度等行政基礎</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">A區</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">15項</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">B區</text>
+  <text x="100" y="211" font-size="18" fill="#1e293b" font-weight="700">專業照護品質（B1-B31，31項，40%）</text>
+  <text x="100" y="232" font-size="16" fill="#57534e">照護計畫、監測指標、感染管制等核心照護</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">B區</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">40%</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">C區</text>
+  <text x="100" y="284" font-size="18" fill="#1e293b" font-weight="700">安全環境設備（C1-C16，16項）</text>
+  <text x="100" y="305" font-size="16" fill="#57534e">6項一級必要指標，任一未達標即不合格</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">C區</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">必查</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">D區</text>
+  <text x="100" y="357" font-size="18" fill="#1e293b" font-weight="700">個案權益保障（D1-D9，9項）</text>
+  <text x="100" y="378" font-size="16" fill="#57534e">契約管理、隱私保護、緩和醫療等</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="363" font-size="16" fill="#a8a29e" text-anchor="middle">D區</text>
+  <text x="688" y="383" font-size="16" fill="#a8a29e" text-anchor="middle">9項</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">E/F</text>
+  <text x="100" y="430" font-size="18" fill="#1e293b" font-weight="700">創新服務＋加分題（最高加4分）</text>
+  <text x="100" y="451" font-size="16" fill="#57534e">E2創新服務、F1牙科、F2人間懷、F3逃生資訊</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="436" font-size="16" fill="#94a3b8" text-anchor="middle">加分</text>
+  <text x="688" y="456" font-size="16" fill="#94a3b8" text-anchor="middle">4分</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

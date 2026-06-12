@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">五大常見人力違規情形</text>
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">空班</text>
+  <text x="100" y="138" font-size="18" fill="#1e293b" font-weight="700">護理空班：某班次無護理人員</text>
+  <text x="100" y="159" font-size="16" fill="#57534e">夜班排班表若有空班即違規，需確保全天覆蓋</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="144" font-size="16" fill="#d97706" text-anchor="middle">護理</text>
+  <text x="688" y="164" font-size="16" fill="#d97706" text-anchor="middle">空班</text>
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">比例</text>
+  <text x="100" y="211" font-size="18" fill="#1e293b" font-weight="700">照服比例不足</text>
+  <text x="100" y="232" font-size="16" fill="#57534e">依住民人數計算應配置照服員數，確認不低標</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="217" font-size="16" fill="#78716c" text-anchor="middle">照服</text>
+  <text x="688" y="237" font-size="16" fill="#78716c" text-anchor="middle">比例</text>
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">兼任</text>
+  <text x="100" y="284" font-size="18" fill="#1e293b" font-weight="700">社工兼任資格不符</text>
+  <text x="100" y="305" font-size="16" fill="#57534e">兼任社工需有社工相關系所學歷，非任何人皆可</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="290" font-size="16" fill="#57534e" text-anchor="middle">社工</text>
+  <text x="688" y="310" font-size="16" fill="#57534e" text-anchor="middle">資格</text>
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">記錄</text>
+  <text x="100" y="357" font-size="18" fill="#1e293b" font-weight="700">排班記錄不完整</text>
+  <text x="100" y="378" font-size="16" fill="#57534e">排班表需按月留存，不得事後補寫或缺漏月份</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="363" font-size="16" fill="#a8a29e" text-anchor="middle">排班</text>
+  <text x="688" y="383" font-size="16" fill="#a8a29e" text-anchor="middle">記錄</text>
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">外籍</text>
+  <text x="100" y="430" font-size="18" fill="#1e293b" font-weight="700">外籍看護比例超標</text>
+  <text x="100" y="451" font-size="16" fill="#57534e">外籍看護人數超過本國照服員比例上限即違規</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="436" font-size="16" fill="#94a3b8" text-anchor="middle">外籍</text>
+  <text x="688" y="456" font-size="16" fill="#94a3b8" text-anchor="middle">超標</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">十大缺失前五名快覽</text>
+  <!-- 第1行 N=5, H=60, y=118 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="153" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="143" font-size="20" fill="#1e293b" font-weight="700">ISP 執行紀錄頻率不足（4103）</text>
+  <text x="96" y="163" font-size="16" fill="#57534e">每 2 週一次紀錄要求，連續兩筆間隔超 14 天即列缺失</text>
+  <rect x="620" y="128" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">4分・最高頻</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="226" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="216" font-size="20" fill="#1e293b" font-weight="700">ISP 未依規定半年檢討修正（4103）</text>
+  <text x="96" y="236" font-size="16" fill="#57534e">檢討有辦但未記錄通知本人或家屬的過程</text>
+  <rect x="620" y="201" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="220" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">4分・通知缺</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="299" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="289" font-size="20" fill="#1e293b" font-weight="700">消防安全設備申報紀錄不全（3105・核心）</text>
+  <text x="96" y="309" font-size="16" fill="#57534e">需備 3 年內完整申報記錄，紙本分散或複檢證明缺失最常見</text>
+  <rect x="620" y="274" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="293" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">4分・核心項</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="372" font-size="20" fill="#a8a29e" font-weight="700" text-anchor="middle">4</text>
+  <text x="96" y="362" font-size="20" fill="#1e293b" font-weight="700">在職訓練時數不足 20 小時（1105）</text>
+  <text x="96" y="382" font-size="16" fill="#57534e">需含 4 小時應急管制及 2 小時口腔照護（講師資格需符合規定）</text>
+  <rect x="620" y="347" width="136" height="28" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="366" font-size="16" fill="#a8a29e" font-weight="700" text-anchor="middle">3分・時數缺</text>
+  <!-- 第5行 y=410 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="445" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">5</text>
+  <text x="96" y="435" font-size="20" fill="#1e293b" font-weight="700">人力配置比例計算錯誤（1106）</text>
+  <text x="96" y="455" font-size="16" fill="#57534e">需採 3 年月均值（無條件進位），誤用當日在職人數導致落差</text>
+  <rect x="620" y="420" width="136" height="28" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="439" font-size="16" fill="#94a3b8" font-weight="700" text-anchor="middle">8分・最高分</text>
+  <!-- 浮水印 -->
+  <text x="760" y="492" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">E+F加分題4項總覽</text>
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">E2</text>
+  <text x="100" y="139" font-size="18" fill="#1e293b" font-weight="700">E2 創新服務（最高3分）</text>
+  <text x="100" y="160" font-size="16" fill="#57534e">特殊族群服務、智慧照護、社區連結等創新，需書面佐證</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="145" font-size="16" fill="#d97706" text-anchor="middle">E2</text>
+  <text x="688" y="165" font-size="16" fill="#d97706" text-anchor="middle">創新</text>
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">F1</text>
+  <text x="100" y="212" font-size="18" fill="#1e293b" font-weight="700">F1 住民牙科診療（加1分）</text>
+  <text x="100" y="233" font-size="16" fill="#57534e">與牙科診所合作提供定期口腔檢查服務</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="218" font-size="16" fill="#78716c" text-anchor="middle">F1</text>
+  <text x="688" y="238" font-size="16" fill="#78716c" text-anchor="middle">牙科</text>
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="301" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">F2</text>
+  <text x="100" y="285" font-size="18" fill="#1e293b" font-weight="700">F2 人間懷服務（加0.5分）</text>
+  <text x="100" y="306" font-size="16" fill="#57534e">提供住民臨終尊嚴服務（人間懷相關認證）</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="291" font-size="16" fill="#57534e" text-anchor="middle">F2</text>
+  <text x="688" y="311" font-size="16" fill="#57534e" text-anchor="middle">人間懷</text>
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="374" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">F3</text>
+  <text x="100" y="358" font-size="18" fill="#1e293b" font-weight="700">F3 逃生資訊提供（加0.5分）</text>
+  <text x="100" y="379" font-size="16" fill="#57534e">入住時提供個別化逃生資訊或疏散說明</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="364" font-size="16" fill="#a8a29e" text-anchor="middle">F3</text>
+  <text x="688" y="384" font-size="16" fill="#a8a29e" text-anchor="middle">逃生</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

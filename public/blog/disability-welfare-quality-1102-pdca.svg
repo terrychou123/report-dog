@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">1102 管理制度 + PDCA 四要點</text>
+  <!-- 第1行 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">P</text>
+  <text x="96" y="144" font-size="20" fill="#1e293b" font-weight="700">Plan 計畫：結構化議程與管理目標</text>
+  <text x="96" y="165" font-size="16" fill="#57534e">管理會議固定議程（上次決議追蹤→品質指標回顧→新議題），每 2 個月至少一次</text>
+  <rect x="620" y="130" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="149" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">事前規劃</text>
+  <!-- 第2行 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">D</text>
+  <text x="96" y="217" font-size="20" fill="#1e293b" font-weight="700">Do 執行：過程有紀錄可查</text>
+  <text x="96" y="238" font-size="16" fill="#57534e">ISP 執行紀錄、月度管理活動記錄；決議追蹤表記錄負責人、預計與實際完成情況</text>
+  <rect x="620" y="203" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="222" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">執行留跡</text>
+  <!-- 第3行 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">C</text>
+  <text x="96" y="290" font-size="20" fill="#1e293b" font-weight="700">Check 查核：半年回顧書面評估</text>
+  <text x="96" y="311" font-size="16" fill="#57534e">每半年回顧目標達成情況並出具書面評估報告，工作人員可在會議提出問題</text>
+  <rect x="620" y="276" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="295" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">定期回顧</text>
+  <!-- 第4行 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="373" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">A</text>
+  <text x="96" y="363" font-size="20" fill="#1e293b" font-weight="700">Act 行動：調整並有記錄</text>
+  <text x="96" y="384" font-size="16" fill="#57534e">依評估結果調整計畫，記錄「因 A 服務對象未達目標，調整策略為…」展現改善思維</text>
+  <rect x="620" y="349" width="136" height="28" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="368" font-size="16" fill="#94a3b8" font-weight="700" text-anchor="middle">循環改善</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

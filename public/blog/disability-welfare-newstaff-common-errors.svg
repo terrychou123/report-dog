@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">新人最常犯的四個文書錯誤</text>
+  <!-- 第1行 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="144" font-size="20" fill="#1e293b" font-weight="700">紀錄過於簡略</text>
+  <text x="96" y="165" font-size="16" fill="#57534e">「今日狀況良好」缺乏具體內容，無法支撐 ISP 執行評估，需記錄具體反應與進展</text>
+  <rect x="620" y="130" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="149" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">內容空洞</text>
+  <!-- 第2行 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="217" font-size="20" fill="#1e293b" font-weight="700">SOAP 格式混淆</text>
+  <text x="96" y="238" font-size="16" fill="#57534e">S 應是服務對象表達（非工作人員觀察），O 應是客觀事實（非評估建議）</text>
+  <rect x="620" y="203" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="222" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">格式錯置</text>
+  <!-- 第3行 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="290" font-size="20" fill="#1e293b" font-weight="700">記錄頻率不足</text>
+  <text x="96" y="311" font-size="16" fill="#57534e">ISP 執行紀錄需每 2 週一次，超過 14 天未記錄即構成評鑑缺失，需設定提醒</text>
+  <rect x="620" y="276" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="295" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">頻率疏漏</text>
+  <!-- 第4行 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="20" fill="#a8a29e" font-weight="700" text-anchor="middle">4</text>
+  <text x="96" y="363" font-size="20" fill="#1e293b" font-weight="700">忘記簽名</text>
+  <text x="96" y="384" font-size="16" fill="#57534e">每份紀錄需有填寫人員簽名，漏簽是評鑑常見扣分原因，提交前務必逐頁確認</text>
+  <rect x="620" y="349" width="136" height="28" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="368" font-size="16" fill="#a8a29e" font-weight="700" text-anchor="middle">文件無效</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

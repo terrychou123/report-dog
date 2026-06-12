@@ -1,0 +1,45 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">自評表目的與結構</text>
+  <!-- Row 1 N=3 H=90 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">目的</text>
+  <text x="100" y="201" font-size="20" fill="#1e293b" font-weight="700">兩大目的：自我檢核 + 讓委員了解現況</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">整理文件找出缺口，在評鑑前有時間補強</text>
+  <text x="100" y="242" font-size="16" fill="#57534e">評鑑委員實地訪查前先參閱，作為抽查文件的參考</text>
+  <rect x="620" y="174" width="136" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="204" font-size="16" fill="#d97706" text-anchor="middle">自我</text>
+  <text x="688" y="224" font-size="16" fill="#d97706" text-anchor="middle">檢核</text>
+  <text x="688" y="244" font-size="16" fill="#d97706" text-anchor="middle">工具</text>
+  <!-- Row 2 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">欄位</text>
+  <text x="100" y="304" font-size="20" fill="#1e293b" font-weight="700">標準自評表 5 大欄位</text>
+  <text x="100" y="325" font-size="16" fill="#57534e">評鑑項目、自評結果（完全/部分/不符合）、自評說明</text>
+  <text x="100" y="345" font-size="16" fill="#57534e">佐證文件名稱、備註改善計畫</text>
+  <rect x="620" y="277" width="136" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="307" font-size="16" fill="#78716c" text-anchor="middle">5 個</text>
+  <text x="688" y="327" font-size="16" fill="#78716c" text-anchor="middle">欄位</text>
+  <text x="688" y="347" font-size="16" fill="#78716c" text-anchor="middle">缺一不可</text>
+  <!-- Row 3 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">關鍵</text>
+  <text x="100" y="407" font-size="20" fill="#1e293b" font-weight="700">最重要的填寫原則：「自評說明」要具體</text>
+  <text x="100" y="428" font-size="16" fill="#57534e">不能只寫「已完成」，要說明如何執行、頻率、文件存放位置</text>
+  <text x="100" y="448" font-size="16" fill="#57534e">具體且誠實的自評表比「全部完全符合」更能贏得信任</text>
+  <rect x="620" y="380" width="136" height="74" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#57534e" text-anchor="middle">說明要</text>
+  <text x="688" y="430" font-size="16" fill="#57534e" text-anchor="middle">具體</text>
+  <text x="688" y="450" font-size="16" fill="#57534e" text-anchor="middle">誠實填</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

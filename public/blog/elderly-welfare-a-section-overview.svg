@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">A區行政管理效能15項三大類別</text>
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">制度</text>
+  <text x="100" y="201" font-size="18" fill="#1e293b" font-weight="700">管理制度類（A1-A4）</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">章程、管理制度、入出機構管理、缺失改善</text>
+  <rect x="620" y="174" width="136" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">制度</text>
+  <text x="688" y="227" font-size="16" fill="#d97706" text-anchor="middle">A1-4</text>
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">人力</text>
+  <text x="100" y="304" font-size="18" fill="#1e293b" font-weight="700">人力配置類（A7-A12）</text>
+  <text x="100" y="325" font-size="16" fill="#57534e">五大職類法定比例、外籍看護工管理</text>
+  <rect x="620" y="277" width="136" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="310" font-size="16" fill="#78716c" text-anchor="middle">人力</text>
+  <text x="688" y="330" font-size="16" fill="#78716c" text-anchor="middle">A7-12</text>
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">訓練</text>
+  <text x="100" y="407" font-size="18" fill="#1e293b" font-weight="700">教育訓練類（A13-A15）</text>
+  <text x="100" y="428" font-size="16" fill="#57534e">職前16H、在職20H、緊急處置訓練</text>
+  <rect x="620" y="380" width="136" height="74" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="413" font-size="16" fill="#57534e" text-anchor="middle">訓練</text>
+  <text x="688" y="433" font-size="16" fill="#57534e" text-anchor="middle">A13-15</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

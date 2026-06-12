@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">4102 ISP 目標撰寫四要素（SMART 格式）</text>
+  <!-- Row 1: y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="144" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">S</text>
+  <text x="66" y="164" font-size="14" fill="#78716c" text-anchor="middle">可量化</text>
+  <text x="96" y="144" font-size="20" fill="#1e293b" font-weight="700">具體可量化的目標陳述</text>
+  <text x="96" y="165" font-size="16" fill="#57534e">明確描述服務對象預期達到的行為或能力，附上量化評量標準</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="146" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">Specific</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">Measurable</text>
+  <!-- Row 2: y=191, H=62 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="217" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">T</text>
+  <text x="66" y="237" font-size="14" fill="#78716c" text-anchor="middle">時限明確</text>
+  <text x="96" y="217" font-size="20" fill="#1e293b" font-weight="700">明確時間限制與評量日期</text>
+  <text x="96" y="238" font-size="16" fill="#57534e">短期目標（3個月）/ 長期目標（6-12個月），並列出評量日期</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="219" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle">Time-bound</text>
+  <text x="688" y="238" font-size="14" fill="#78716c" text-anchor="middle">評量日期</text>
+  <!-- Row 3: y=264, H=62 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="290" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">R</text>
+  <text x="66" y="310" font-size="14" fill="#78716c" text-anchor="middle">責任歸屬</text>
+  <text x="96" y="290" font-size="20" fill="#1e293b" font-weight="700">明確責任執行人員與頻率</text>
+  <text x="96" y="311" font-size="16" fill="#57534e">標註負責執行人員（職稱姓名）及執行頻率（每日/每週X次）</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="292" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">Responsible</text>
+  <text x="688" y="311" font-size="14" fill="#57534e" text-anchor="middle">負責人員</text>
+  <!-- Row 4: y=337, H=62 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1.5"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="363" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">A</text>
+  <text x="66" y="383" font-size="14" fill="#78716c" text-anchor="middle">評估依據</text>
+  <text x="96" y="363" font-size="20" fill="#1e293b" font-weight="700">連結評估結果與目標依據</text>
+  <text x="96" y="384" font-size="16" fill="#57534e">目標必須來自評估發現的需求，說明工具選用邏輯與指標對應</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="365" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle">Assessment</text>
+  <text x="688" y="384" font-size="14" fill="#94a3b8" text-anchor="middle">目標依據</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

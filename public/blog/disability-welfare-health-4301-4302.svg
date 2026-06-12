@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">健康管理 4301 ＋ 用藥管理 4302 四要點</text>
+  <!-- 第1行 y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="94" y="143" font-size="14" fill="#78716c" font-weight="700">4301 入所健康評估與定期健檢</text>
+  <text x="94" y="162" font-size="16" fill="#57534e">每人入所應有完整健康評估；依年齡安排定期健檢並保存報告</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">4301</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">健康管理 4分</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="94" y="216" font-size="14" fill="#78716c" font-weight="700">4301 慢性病追蹤記錄</text>
+  <text x="94" y="235" font-size="16" fill="#57534e">健檢異常或慢性病需持續追蹤，定期記錄血壓、血糖等數值</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="220" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle">追蹤紀錄</text>
+  <text x="688" y="238" font-size="14" fill="#78716c" text-anchor="middle">不得中斷</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="295" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="301" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">3</text>
+  <text x="94" y="289" font-size="14" fill="#78716c" font-weight="700">4302 用藥記錄完整性</text>
+  <text x="94" y="308" font-size="16" fill="#57534e">藥物名稱、劑量、頻率、給藥時間、給藥人員簽名缺一不可</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="293" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle">4302</text>
+  <text x="688" y="311" font-size="14" fill="#94a3b8" text-anchor="middle">用藥管理 4分</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="368" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="374" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">4</text>
+  <text x="94" y="362" font-size="14" fill="#78716c" font-weight="700">4302 藥物保存與自備藥管理</text>
+  <text x="94" y="381" font-size="16" fill="#57534e">藥物環境符合避光低溫要求；自備藥物需登記並分開管理</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="366" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">藥物保存</text>
+  <text x="688" y="384" font-size="14" fill="#57534e" text-anchor="middle">安全優先</text>
+  <!-- 底部說明 -->
+  <text x="28" y="438" font-size="16" fill="#78716c">4301＋4302 合計 8 分，護理師為主要備審負責人</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

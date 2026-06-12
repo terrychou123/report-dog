@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">家屬溝通與臨終支持4要點</text>
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">主動</text>
+  <text x="100" y="139" font-size="18" fill="#1e293b" font-weight="700">主動發起溝通不被動等待</text>
+  <text x="100" y="160" font-size="16" fill="#57534e">入住初期即由社工主動與家屬溝通安寧療護選項</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="145" font-size="16" fill="#d97706" text-anchor="middle">主動</text>
+  <text x="688" y="165" font-size="16" fill="#d97706" text-anchor="middle">溝通</text>
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">記錄</text>
+  <text x="100" y="212" font-size="18" fill="#1e293b" font-weight="700">溝通過程有書面記錄</text>
+  <text x="100" y="233" font-size="16" fill="#57534e">溝通日期、參與者、討論重點及家屬回應有記錄</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="218" font-size="16" fill="#78716c" text-anchor="middle">記錄</text>
+  <text x="688" y="238" font-size="16" fill="#78716c" text-anchor="middle">書面</text>
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="301" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">轉介</text>
+  <text x="100" y="285" font-size="18" fill="#1e293b" font-weight="700">備有安寧療護轉介機制</text>
+  <text x="100" y="306" font-size="16" fill="#57534e">與安寧療護機構有合作關係或轉介管道</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="291" font-size="16" fill="#57534e" text-anchor="middle">轉介</text>
+  <text x="688" y="311" font-size="16" fill="#57534e" text-anchor="middle">機制</text>
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="374" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">支持</text>
+  <text x="100" y="358" font-size="18" fill="#1e293b" font-weight="700">臨終後家屬哀傷支持</text>
+  <text x="100" y="379" font-size="16" fill="#57534e">住民往生後社工提供家屬關懷及哀傷支持服務</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="364" font-size="16" fill="#a8a29e" text-anchor="middle">哀傷</text>
+  <text x="688" y="384" font-size="16" fill="#a8a29e" text-anchor="middle">支持</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

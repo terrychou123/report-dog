@@ -1,0 +1,49 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">3105消防安全必備文件4類</text>
+  <!-- Row 1 - y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">A</text>
+  <text x="100" y="139" font-size="20" fill="#1e293b" font-weight="700">消防安全設備半年檢修申報</text>
+  <text x="100" y="160" font-size="16" fill="#57534e">最近3年每半年向消防局申報，需有消防設備師或設備士簽章</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="143" font-size="16" fill="#d97706" text-anchor="middle">核心文件</text>
+  <text x="688" y="163" font-size="16" fill="#d97706" text-anchor="middle">每半年一次</text>
+  <!-- Row 2 - y=191, H=62 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">B</text>
+  <text x="100" y="212" font-size="20" fill="#1e293b" font-weight="700">防火管理人訓練合格證書</text>
+  <text x="100" y="233" font-size="16" fill="#57534e">機構需指定防火管理人並完成訓練，證書需在有效期限內</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="216" font-size="16" fill="#78716c" text-anchor="middle">人員資格</text>
+  <text x="688" y="236" font-size="16" fill="#78716c" text-anchor="middle">期限內有效</text>
+  <!-- Row 3 - y=264, H=62 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="301" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
+  <text x="100" y="285" font-size="20" fill="#1e293b" font-weight="700">月用電設備自主檢查記錄</text>
+  <text x="100" y="306" font-size="16" fill="#57534e">109年度新增項目，每月留存書面紀錄，需有負責人簽名</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="289" font-size="16" fill="#57534e" text-anchor="middle">新增要求</text>
+  <text x="688" y="309" font-size="16" fill="#57534e" text-anchor="middle">每月一次</text>
+  <!-- Row 4 - y=337, H=62 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="374" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">D</text>
+  <text x="100" y="358" font-size="20" fill="#1e293b" font-weight="700">建築物公共安全申報</text>
+  <text x="100" y="379" font-size="16" fill="#57534e">依建築法規定期向主管機關申報，留存最近期申報核准文件</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="362" font-size="16" fill="#a8a29e" text-anchor="middle">建築安全</text>
+  <text x="688" y="382" font-size="16" fill="#a8a29e" text-anchor="middle">定期申報</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

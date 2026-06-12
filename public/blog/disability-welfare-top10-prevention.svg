@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">評鑑缺失預防四策略</text>
+  <!-- 第1行 N=4, H=62, y=118 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="144" font-size="20" fill="#1e293b" font-weight="700">每 2 週提醒制度</text>
+  <text x="96" y="165" font-size="16" fill="#57534e">在行事曆設定雙週提醒，月底自我檢核每位服務對象的 ISP 紀錄日期是否連續</text>
+  <rect x="620" y="130" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="149" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">習慣養成</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="217" font-size="20" fill="#1e293b" font-weight="700">消防申報專用資料夾</text>
+  <text x="96" y="238" font-size="16" fill="#57534e">按年份整理半年申報紀錄，複檢合格證明與原始申報文件釘在一起，評鑑即可查</text>
+  <rect x="620" y="203" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="222" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">文件歸檔</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="290" font-size="20" fill="#1e293b" font-weight="700">人力三年月均值提前核算</text>
+  <text x="96" y="311" font-size="16" fill="#57534e">以 106-108 年月均值計算四類人力比例，低於標準月份需備說明，小數點無條件進位</text>
+  <rect x="620" y="276" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="295" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">提前校算</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="20" fill="#a8a29e" font-weight="700" text-anchor="middle">4</text>
+  <text x="96" y="363" font-size="20" fill="#1e293b" font-weight="700">全國平台指定專責更新</text>
+  <text x="96" y="384" font-size="16" fill="#57534e">指定行政或社工每月更新全國平台資料，人員異動或個案入出機構時立即更新</text>
+  <rect x="620" y="349" width="136" height="28" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="368" font-size="16" fill="#a8a29e" font-weight="700" text-anchor="middle">即時維護</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

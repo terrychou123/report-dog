@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">5 項不計分新指標 3115–3119 準備 4 原則</text>
+  <!-- 第1行 y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="94" y="143" font-size="14" fill="#78716c" font-weight="700">現況照片記錄（3115–3119 共 5 項）</text>
+  <text x="94" y="162" font-size="16" fill="#57534e">逐項拍照，標注符合與不符合無障礙規範的位置，顯示機構已審視</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">現況記錄</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">照片為主</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="94" y="216" font-size="14" fill="#78716c" font-weight="700">不符合之處說明改善計畫</text>
+  <text x="94" y="235" font-size="16" fill="#57534e">記錄「現況不符，預計 [時間] 前改善」，展現主動改善意願</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="220" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle">改善計畫</text>
+  <text x="688" y="238" font-size="14" fill="#78716c" text-anchor="middle">積極態度</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="295" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="301" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">3</text>
+  <text x="94" y="289" font-size="14" fill="#78716c" font-weight="700">補償性措施說明（老舊機構適用）</text>
+  <text x="94" y="308" font-size="16" fill="#57534e">坡道不符規範但已額外增加人力輔助輪椅，此類措施應書面說明</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="293" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle">補償措施</text>
+  <text x="688" y="311" font-size="14" fill="#94a3b8" text-anchor="middle">降低疑慮</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="368" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="374" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">4</text>
+  <text x="94" y="362" font-size="14" fill="#78716c" font-weight="700">不計分不代表可忽略</text>
+  <text x="94" y="381" font-size="16" fill="#57534e">完全無記錄會反映在整體評鑑意見，影響機構整體印象與下次評鑑</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="366" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">整體印象</text>
+  <text x="688" y="384" font-size="14" fill="#57534e" text-anchor="middle">不可忽視</text>
+  <!-- 底部說明 -->
+  <text x="28" y="438" font-size="16" fill="#78716c">3115 室外通路、3116 室內走廊、3117 坡道、3118 樓梯、3119 昇降機</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

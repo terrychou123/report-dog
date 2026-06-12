@@ -1,0 +1,59 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">A 構面經營管理 5 項重點</text>
+  <!-- Row 1: A1 N=5 H=60 -->
+  <rect x="28" y="118" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="60" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="148" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">A1</text>
+  <text x="100" y="138" font-size="20" fill="#1e293b" font-weight="700">社區資源盤點與運用</text>
+  <text x="100" y="159" font-size="16" fill="#57534e">資源清單年度更新 + 轉介記錄 + 接受社區轉介機制</text>
+  <rect x="620" y="126" width="136" height="44" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="146" font-size="16" fill="#d97706" text-anchor="middle">清單更新</text>
+  <text x="688" y="162" font-size="16" fill="#d97706" text-anchor="middle">轉介記錄</text>
+  <!-- Row 2: A2 -->
+  <rect x="28" y="191" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="60" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="221" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">A2</text>
+  <text x="100" y="211" font-size="20" fill="#1e293b" font-weight="700">感染管制作業與器材維護管理</text>
+  <text x="100" y="232" font-size="16" fill="#57534e">感控手冊、廢棄物合約、血壓計血糖機校正記錄</text>
+  <rect x="620" y="199" width="136" height="44" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="219" font-size="16" fill="#78716c" text-anchor="middle">手冊更新</text>
+  <text x="688" y="235" font-size="16" fill="#78716c" text-anchor="middle">器材校正</text>
+  <!-- Row 3: A3 -->
+  <rect x="28" y="264" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="60" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="294" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">A3</text>
+  <text x="100" y="284" font-size="20" fill="#1e293b" font-weight="700">居家訪視人員安全管理</text>
+  <text x="100" y="305" font-size="16" fill="#57534e">四類情境：車禍、人身安全、動物咬傷、扎刺傷</text>
+  <rect x="620" y="272" width="136" height="44" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="292" font-size="16" fill="#57534e" text-anchor="middle">安全辦法</text>
+  <text x="688" y="308" font-size="16" fill="#57534e" text-anchor="middle">訓練記錄</text>
+  <!-- Row 4: A4 -->
+  <rect x="28" y="337" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="60" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="367" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">A4</text>
+  <text x="100" y="357" font-size="20" fill="#1e293b" font-weight="700">個案緊急或意外事件處理</text>
+  <text x="100" y="378" font-size="16" fill="#57534e">生命徵象惡化、跌倒、造廔口異常、管路異常處理辦法</text>
+  <rect x="620" y="345" width="136" height="44" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="365" font-size="16" fill="#a8a29e" text-anchor="middle">事件記錄</text>
+  <text x="688" y="381" font-size="16" fill="#a8a29e" text-anchor="middle">追蹤結果</text>
+  <!-- Row 5: A5 -->
+  <rect x="28" y="410" width="744" height="60" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="410" width="6" height="60" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="440" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="446" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">A5</text>
+  <text x="100" y="430" font-size="20" fill="#1e293b" font-weight="700">機構經營指標監測與持續改善</text>
+  <text x="100" y="451" font-size="16" fill="#57534e">5 項固定指標每季統計、閾值設定、未達標改善計畫</text>
+  <rect x="620" y="418" width="136" height="44" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="438" font-size="16" fill="#94a3b8" text-anchor="middle">季度報告</text>
+  <text x="688" y="454" font-size="16" fill="#94a3b8" text-anchor="middle">改善計畫</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">SOAP 四段格式詳解</text>
+  <!-- 第1行 S段 y=118, H=62 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">S</text>
+  <text x="94" y="143" font-size="14" fill="#78716c" font-weight="700">Subjective 主觀陳述</text>
+  <text x="94" y="162" font-size="16" fill="#57534e">記錄服務對象說的話、家屬反映，以及個案自身的表達方式</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="147" font-size="14" fill="#d97706" font-weight="700" text-anchor="middle">ISP 起點</text>
+  <text x="688" y="165" font-size="14" fill="#d97706" text-anchor="middle">個案主觀感受</text>
+  <!-- 第2行 O段 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">O</text>
+  <text x="94" y="216" font-size="14" fill="#78716c" font-weight="700">Objective 客觀觀察</text>
+  <text x="94" y="235" font-size="16" fill="#57534e">記錄工作人員可觀察、可測量的具體事實，含數據與行為頻率</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="220" font-size="14" fill="#78716c" font-weight="700" text-anchor="middle">可量化</text>
+  <text x="688" y="238" font-size="14" fill="#78716c" text-anchor="middle">具體可見</text>
+  <!-- 第3行 A段 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="295" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="301" font-size="20" fill="#94a3b8" font-weight="700" text-anchor="middle">A</text>
+  <text x="94" y="289" font-size="14" fill="#78716c" font-weight="700">Assessment 評估</text>
+  <text x="94" y="308" font-size="16" fill="#57534e">專業人員依 S+O 做出判斷，對應 ISP 目標進度與影響因素分析</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="293" font-size="14" fill="#94a3b8" font-weight="700" text-anchor="middle">專業判斷</text>
+  <text x="688" y="311" font-size="14" fill="#94a3b8" text-anchor="middle">進退步判讀</text>
+  <!-- 第4行 P段 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="368" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="374" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">P</text>
+  <text x="94" y="362" font-size="14" fill="#78716c" font-weight="700">Plan 計畫</text>
+  <text x="94" y="381" font-size="16" fill="#57534e">後續行動計畫：下次服務內容、調整策略、跨專業協作事項</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="366" font-size="14" fill="#57534e" font-weight="700" text-anchor="middle">具體行動</text>
+  <text x="688" y="384" font-size="14" fill="#57534e" text-anchor="middle">下次服務依據</text>
+  <!-- 底部說明 -->
+  <text x="28" y="438" font-size="16" fill="#78716c">4103 指標要求：每 2 週至少一次，四段完整，與 ISP 目標明確連結</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

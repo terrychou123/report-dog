@@ -1,0 +1,45 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">B 構面常見缺失 3 項</text>
+  <!-- Row 1 N=3 H=90 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">缺7</text>
+  <text x="100" y="201" font-size="20" fill="#1e293b" font-weight="700">缺跨域合作協議書（B1）</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">B1 五項全符合才得分，協議書最常缺漏</text>
+  <text x="100" y="242" font-size="16" fill="#57534e">聯繫合作診所或醫院，補簽合作意向書即可補救</text>
+  <rect x="620" y="174" width="136" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="204" font-size="16" fill="#d97706" text-anchor="middle">可補救</text>
+  <text x="688" y="224" font-size="16" fill="#d97706" text-anchor="middle">補簽</text>
+  <text x="688" y="244" font-size="16" fill="#d97706" text-anchor="middle">協議書</text>
+  <!-- Row 2 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">缺8</text>
+  <text x="100" y="304" font-size="20" fill="#1e293b" font-weight="700">全人評估漏掉心理或社會面向（B2）</text>
+  <text x="100" y="325" font-size="16" fill="#57534e">生理和功能有，但心理（焦慮憂鬱認知）和社會（家庭支持）缺</text>
+  <text x="100" y="345" font-size="16" fill="#57534e">設計含四面向的標準評估表，未來個案補齊</text>
+  <rect x="620" y="277" width="136" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="307" font-size="16" fill="#78716c" text-anchor="middle">部分可補</text>
+  <text x="688" y="327" font-size="16" fill="#78716c" text-anchor="middle">未來</text>
+  <text x="688" y="347" font-size="16" fill="#78716c" text-anchor="middle">個案補強</text>
+  <!-- Row 3 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">缺9</text>
+  <text x="100" y="407" font-size="20" fill="#1e293b" font-weight="700">照護計畫有問題有目標但缺評值（B2）</text>
+  <text x="100" y="428" font-size="16" fill="#57534e">四要素（問題、目標、措施、評值）缺評值記錄</text>
+  <text x="100" y="448" font-size="16" fill="#57534e">評值記錄每次訪視說明進展與下一步計畫</text>
+  <rect x="620" y="380" width="136" height="74" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#57534e" text-anchor="middle">部分可補</text>
+  <text x="688" y="430" font-size="16" fill="#57534e" text-anchor="middle">日期需</text>
+  <text x="688" y="450" font-size="16" fill="#57534e" text-anchor="middle">合理</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

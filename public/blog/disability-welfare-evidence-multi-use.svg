@@ -1,0 +1,39 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">一份文件支援多指標的3個技巧</text>
+  <!-- Row 1 - y=118, H=90 -->
+  <rect x="28" y="118" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="163" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="169" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">01</text>
+  <text x="100" y="153" font-size="20" fill="#1e293b" font-weight="700">複印副本分置多個資料夾</text>
+  <text x="100" y="176" font-size="16" fill="#57534e">同一份文件複印後，分別放入各指標資料夾，省去重複製作</text>
+  <rect x="620" y="126" width="136" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="157" font-size="16" fill="#d97706" text-anchor="middle">節省時間</text>
+  <text x="688" y="177" font-size="16" fill="#d97706" text-anchor="middle">高效備審</text>
+  <!-- Row 2 - y=221, H=90 -->
+  <rect x="28" y="221" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="221" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">02</text>
+  <text x="100" y="256" font-size="20" fill="#1e293b" font-weight="700">在文件上標注對應指標代碼</text>
+  <text x="100" y="279" font-size="16" fill="#57534e">用黏貼標籤或頁首標注指標代碼，讓委員快速確認關聯</text>
+  <rect x="620" y="229" width="136" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">清楚標注</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">快速確認</text>
+  <!-- Row 3 - y=324, H=90 -->
+  <rect x="28" y="324" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="324" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="369" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="375" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="900">03</text>
+  <text x="100" y="359" font-size="20" fill="#1e293b" font-weight="700">建立跨指標對照表</text>
+  <text x="100" y="382" font-size="16" fill="#57534e">製作一覽表列出每份文件支援哪些指標，避免評鑑時遺漏</text>
+  <rect x="620" y="332" width="136" height="74" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="363" font-size="16" fill="#94a3b8" text-anchor="middle">全面管理</text>
+  <text x="688" y="383" font-size="16" fill="#94a3b8" text-anchor="middle">防遺漏</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

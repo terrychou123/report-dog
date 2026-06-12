@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">七大監測PDCA批量產出4效益</text>
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="155" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">速度</text>
+  <text x="100" y="139" font-size="18" fill="#1e293b" font-weight="700">7項監測一次批量產出</text>
+  <text x="100" y="160" font-size="16" fill="#57534e">B13-B19七項監測月報一次完成，非逐一手工填寫</text>
+  <rect x="620" y="126" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="145" font-size="16" fill="#d97706" text-anchor="middle">批量</text>
+  <text x="688" y="165" font-size="16" fill="#d97706" text-anchor="middle">產出</text>
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="228" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">格式</text>
+  <text x="100" y="212" font-size="18" fill="#1e293b" font-weight="700">符合評鑑委員審閱格式</text>
+  <text x="100" y="233" font-size="16" fill="#57534e">統一格式含數值、趨勢、分析、改善，一目了然</text>
+  <rect x="620" y="199" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="218" font-size="16" fill="#78716c" text-anchor="middle">格式</text>
+  <text x="688" y="238" font-size="16" fill="#78716c" text-anchor="middle">統一</text>
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="301" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">異常</text>
+  <text x="100" y="285" font-size="18" fill="#1e293b" font-weight="700">自動標記異常項目</text>
+  <text x="100" y="306" font-size="16" fill="#57534e">數值超標時AI自動標記並提示改善方向</text>
+  <rect x="620" y="272" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="291" font-size="16" fill="#57534e" text-anchor="middle">異常</text>
+  <text x="688" y="311" font-size="16" fill="#57534e" text-anchor="middle">提示</text>
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="374" font-size="14" fill="#a8a29e" text-anchor="middle" font-weight="900">追蹤</text>
+  <text x="100" y="358" font-size="18" fill="#1e293b" font-weight="700">上季改善追蹤自動帶入</text>
+  <text x="100" y="379" font-size="16" fill="#57534e">前季改善措施執行狀況自動呈現於本季報告</text>
+  <rect x="620" y="345" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="364" font-size="16" fill="#a8a29e" text-anchor="middle">追蹤</text>
+  <text x="688" y="384" font-size="16" fill="#a8a29e" text-anchor="middle">自動</text>
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

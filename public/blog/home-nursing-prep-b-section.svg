@@ -1,0 +1,45 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- Header -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">B 構面照護管理 3 項重點</text>
+  <!-- Row 1: B1 N=3 H=90 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="14" fill="#d97706" text-anchor="middle" font-weight="900">B1</text>
+  <text x="100" y="201" font-size="20" fill="#1e293b" font-weight="700">機構資訊管理（5 項全符合）</text>
+  <text x="100" y="222" font-size="16" fill="#57534e">服務清單公開、服務區域、24小時聯繫、個資告知</text>
+  <text x="100" y="242" font-size="16" fill="#57534e">跨域合作協議書（5 項缺 1 即整項失分）</text>
+  <rect x="620" y="174" width="136" height="74" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="204" font-size="16" fill="#d97706" text-anchor="middle">5 項</text>
+  <text x="688" y="224" font-size="16" fill="#d97706" text-anchor="middle">全符合</text>
+  <text x="688" y="244" font-size="16" fill="#d97706" text-anchor="middle">才得分</text>
+  <!-- Row 2: B2 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="14" fill="#78716c" text-anchor="middle" font-weight="900">B2</text>
+  <text x="100" y="304" font-size="20" fill="#1e293b" font-weight="700">個案照護管理（核心項目）</text>
+  <text x="100" y="325" font-size="16" fill="#57534e">評鑑前一年服務 10 位以上個案、全人評估（四面向）</text>
+  <text x="100" y="345" font-size="16" fill="#57534e">個別化照護計畫（問題、目標、措施、評值 四要素）</text>
+  <rect x="620" y="277" width="136" height="74" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="307" font-size="16" fill="#78716c" text-anchor="middle">全人評估</text>
+  <text x="688" y="327" font-size="16" fill="#78716c" text-anchor="middle">每 6 個月</text>
+  <text x="688" y="347" font-size="16" fill="#78716c" text-anchor="middle">一次</text>
+  <!-- Row 3: B3 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="white" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="14" fill="#57534e" text-anchor="middle" font-weight="900">B3</text>
+  <text x="100" y="407" font-size="20" fill="#1e293b" font-weight="700">加分項目（不影響通過，但能提升成績）</text>
+  <text x="100" y="428" font-size="16" fill="#57534e">創新照護模式、競賽獲獎、國際交流、機構表揚</text>
+  <text x="100" y="448" font-size="16" fill="#57534e">學術研討發表（5 項可選，最務實：創新照護或論文發表）</text>
+  <rect x="620" y="380" width="136" height="74" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#57534e" text-anchor="middle">加分</text>
+  <text x="688" y="430" font-size="16" fill="#57534e" text-anchor="middle">5 個</text>
+  <text x="688" y="450" font-size="16" fill="#57534e" text-anchor="middle">方向</text>
+  <!-- Watermark -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

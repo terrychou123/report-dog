@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">服務對象滿意度收集三步驟</text>
+  <!-- 第1行 N=3, H=90, y=166 -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="211" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="216" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">1</text>
+  <text x="96" y="201" font-size="20" fill="#1e293b" font-weight="700">年度問卷調查</text>
+  <text x="96" y="225" font-size="16" fill="#57534e">每年對服務對象（或其家屬）辦理滿意度問卷，回收率與量化結果納入品質指標報告</text>
+  <rect x="620" y="182" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="201" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">系統收集</text>
+  <!-- 第2行 y=269 -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="314" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="319" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">2</text>
+  <text x="96" y="304" font-size="20" fill="#1e293b" font-weight="700">ISP 檢討後意見收集</text>
+  <text x="96" y="328" font-size="16" fill="#57534e">每次 ISP 半年檢討會議後留存家屬意見紀錄，將意見是否納入服務調整一併記錄</text>
+  <rect x="620" y="285" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="304" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">逐次留存</text>
+  <!-- 第3行 y=372 -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="417" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="422" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">3</text>
+  <text x="96" y="407" font-size="20" fill="#1e293b" font-weight="700">申訴與建議處理紀錄</text>
+  <text x="96" y="431" font-size="16" fill="#57534e">建立申訴管道與回應機制，每筆申訴需記錄受理日期、內容、處理結果與追蹤確認</text>
+  <rect x="620" y="388" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="407" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">服務改善</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <rect width="800" height="500" fill="#f0efe8"/>
+  <!-- 標題列 -->
+  <rect x="0" y="29" width="800" height="60" fill="#e8e6de"/>
+  <rect x="0" y="29" width="6" height="60" rx="2" fill="#d97706"/>
+  <text x="28" y="74" font-size="28" fill="#1e293b" font-weight="700">ISP 短期目標撰寫四要素（SMART）</text>
+  <!-- 第1行 N=4, H=62, y=118 -->
+  <rect x="28" y="118" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="118" width="6" height="62" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="149" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="154" font-size="20" fill="#d97706" font-weight="700" text-anchor="middle">S</text>
+  <text x="96" y="144" font-size="20" fill="#1e293b" font-weight="700">Specific 具體性</text>
+  <text x="96" y="165" font-size="16" fill="#57534e">說明「誰」做「什麼行為」，而非模糊描述「提升能力」；例：小明能主動向同伴打招呼</text>
+  <rect x="620" y="130" width="136" height="28" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="149" font-size="16" fill="#d97706" font-weight="700" text-anchor="middle">誰做什麼</text>
+  <!-- 第2行 y=191 -->
+  <rect x="28" y="191" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="191" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="222" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="227" font-size="20" fill="#78716c" font-weight="700" text-anchor="middle">M</text>
+  <text x="96" y="217" font-size="20" fill="#1e293b" font-weight="700">Measurable 可評量</text>
+  <text x="96" y="238" font-size="16" fill="#57534e">設定基準值與目標值，如「從每次 0 次提升至至少 2 次」；可用頻率、比例、次數表達</text>
+  <rect x="620" y="203" width="136" height="28" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="222" font-size="16" fill="#78716c" font-weight="700" text-anchor="middle">數字可核</text>
+  <!-- 第3行 y=264 -->
+  <rect x="28" y="264" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="264" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="295" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="300" font-size="20" fill="#57534e" font-weight="700" text-anchor="middle">R</text>
+  <text x="96" y="290" font-size="20" fill="#1e293b" font-weight="700">Relevant 具功能性</text>
+  <text x="96" y="311" font-size="16" fill="#57534e">目標需與服務對象日常生活功能或轉銜計畫有實質關聯，非評鑑形式化任務</text>
+  <rect x="620" y="276" width="136" height="28" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="295" font-size="16" fill="#57534e" font-weight="700" text-anchor="middle">生活相關</text>
+  <!-- 第4行 y=337 -->
+  <rect x="28" y="337" width="744" height="62" rx="12" fill="#ffffff" stroke="#e8e6de" stroke-width="1"/>
+  <rect x="28" y="337" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="368" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="373" font-size="20" fill="#a8a29e" font-weight="700" text-anchor="middle">T</text>
+  <text x="96" y="363" font-size="20" fill="#1e293b" font-weight="700">Time-bound 有時限</text>
+  <text x="96" y="384" font-size="16" fill="#57534e">明確標示目標達成期限（如「於 2026 年 6 月前」），方便半年檢討時對照評估</text>
+  <rect x="620" y="349" width="136" height="28" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="368" font-size="16" fill="#a8a29e" font-weight="700" text-anchor="middle">期限明確</text>
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>
