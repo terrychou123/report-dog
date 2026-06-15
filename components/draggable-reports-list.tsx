@@ -24,6 +24,7 @@ import {
   LoaderIcon,
   SparklesIcon,
   UploadIcon,
+  ZapIcon,
 } from "lucide-react";
 import { trackEmptyStateCTA } from "@/lib/analytics";
 import { TemplateImportDialog } from "@/components/template-import-dialog";
@@ -267,6 +268,23 @@ export function DraggableReportsList() {
               <UploadReportButton />
             </div>
           </div>
+
+          <Link
+            href="/demo"
+            className="flex items-start gap-3 rounded-lg border p-4 bg-card hover:border-accent/50 hover:shadow-sm transition-all"
+            onClick={() => trackEmptyStateCTA("demo_try")}
+          >
+            <div className="shrink-0 w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center mt-0.5">
+              <ZapIcon className="h-4 w-4 text-accent" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-medium text-sm text-foreground">先試試 AI 文書改寫</p>
+              <p className="text-xs text-muted-foreground mt-0.5">貼一段護理記錄，AI 30 秒改成 SOAP 格式</p>
+            </div>
+            <div className="shrink-0 self-center">
+              <span className="text-xs font-medium text-accent">免費體驗 →</span>
+            </div>
+          </Link>
         </div>
       </div>
     );
