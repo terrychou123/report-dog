@@ -9,9 +9,9 @@ import { SoapDemo } from "@/components/demo/soap-demo";
 export const metadata: Metadata = {
   // SEO 優化 2026-06-22：原 title「SOAP 寫法 AI 改寫」只有 9 字，127 曝光 2.36% CTR
   // 補長尾關鍵字：個案紀錄 + 護理 + 長照評鑑備審，對齊實際搜尋意圖
-  title: "SOAP 個案紀錄寫法教學｜AI 一鍵改寫長照護理記錄評鑑備審",
+  title: "SOAP 個案紀錄寫法｜AI 一鍵改寫長照護理記錄評鑑備審",
   description:
-    "SOAP 四段式格式（主觀 S、客觀 O、評估 A、計畫 P）逐一說明，附真實個案紀錄範例。啟用 SOAP 模式，AI 自動將紀錄改寫成標準格式，適合居服、護理之家、長照機構評鑑備審使用。",
+    "SOAP 四段式格式（主觀、客觀、評估、計畫）說明，附真實個案紀錄範例。AI 一鍵將護理紀錄改寫成標準 SOAP 格式，適合長照機構評鑑備審使用。",
   alternates: { canonical: "/docs/soap-writing" },
   openGraph: {
     title: "SOAP 個案紀錄寫法教學｜AI 一鍵改寫長照護理記錄",
