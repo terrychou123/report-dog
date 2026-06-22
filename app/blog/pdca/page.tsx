@@ -161,6 +161,11 @@ export default function BlogPdcaPage() {
           <h2 className="text-lg font-semibold mb-4">機構別 PDCA 深度指南</h2>
           <ul className="space-y-2 text-sm">
             <li>
+              <Link href="/blog/hospital-pdca-examples-2026" className="text-primary hover:underline">
+                醫院 PDCA 改善計畫範例：感染管制（2.7.1）、跌倒、用藥安全三大完整寫法（115年） →
+              </Link>
+            </li>
+            <li>
               <Link href="/blog/nursing-pdca-template-full-guide-2026" className="text-primary hover:underline">
                 護理 PDCA 怎麼寫？5 個完整範例範本（感染管制、跌倒、用藥、壓瘡、滿意度） →
               </Link>

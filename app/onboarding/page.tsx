@@ -49,6 +49,7 @@ export default function OnboardingPage() {
     let totalTags = 0;
     let totalReports = 0;
     let failed = 0;
+    let firstReportId: string | null = null;
 
     try {
       for (let i = 0; i < types.length; i++) {
@@ -63,6 +64,9 @@ export default function OnboardingPage() {
             const data = await res.json();
             totalTags += data.tagCount;
             totalReports += data.reportCount;
+            if (!firstReportId && data.firstReportId) {
+              firstReportId = data.firstReportId;
+            }
           } else {
             failed++;
           }
@@ -72,11 +76,15 @@ export default function OnboardingPage() {
         setImportProgress(i + 1);
       }
 
+      // 匯入後直接開啟第一份報告，讓用戶馬上進入編輯狀態
+      const destination = firstReportId
+        ? `/protected/dashboard/${firstReportId}`
+        : "/report";
+
       if (failed === types.length) {
         toast.error("匯入失敗，請稍後再試");
       } else if (failed > 0) {
         toast.warning(`${failed} 個機構類型匯入失敗，其餘已成功匯入`);
-        // 部分成功：追蹤實際匯入數（修補低估 activation 問題）
         trackOnboardingStep("import_partial");
         trackEvent("template_import", {
           facility_count: types.length - failed,
@@ -84,10 +92,9 @@ export default function OnboardingPage() {
           total_reports: totalReports,
         });
         if (typeof window !== "undefined") localStorage.setItem("onboarding_completed", "true");
-        router.push("/report");
+        router.push(destination);
       } else {
         toast.success(`匯入完成！已建立 ${totalTags} 個標籤、${totalReports} 份報告`);
-        // 全部成功：接線既有但未使用的 trackOnboardingStep 與 template_import 事件
         trackOnboardingStep("import_complete");
         trackEvent("template_import", {
           facility_count: types.length,
@@ -95,7 +102,7 @@ export default function OnboardingPage() {
           total_reports: totalReports,
         });
         if (typeof window !== "undefined") localStorage.setItem("onboarding_completed", "true");
-        router.push("/report");
+        router.push(destination);
       }
     } finally {
       setImporting(false);

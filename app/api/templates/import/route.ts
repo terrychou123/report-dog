@@ -116,7 +116,11 @@ export async function POST(request: NextRequest) {
       await tx.insert(reportLinks).values(reportLinkValues);
     }
 
-    return { tagCount: newClients.length, reportCount: newReports.length };
+    return {
+      tagCount: newClients.length,
+      reportCount: newReports.length,
+      firstReportId: newReports[0]?.id ?? null,
+    };
   });
 
   return NextResponse.json(result, { status: 201 });
