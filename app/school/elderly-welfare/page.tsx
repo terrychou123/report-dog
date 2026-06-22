@@ -398,6 +398,32 @@ export default function ElderlyWelfarePage() {
           </p>
         </div>
       </div>
+      {/* 延伸閱讀 — 內部連結傳遞主題權重（Track B 內部連結優化 2026-06-22） */}
+      <div className="not-prose my-8 space-y-3">
+        <h2 className="text-base font-semibold text-foreground">延伸閱讀</h2>
+        <ul className="space-y-2 text-sm">
+          <li>
+            <Link href="/blog/elderly-welfare-eval-115-criteria-full-2026" className="text-primary hover:underline">
+              115 年老人福利機構評鑑指標完整對照：6 大區塊 77 條逐項解析 →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/elderly-welfare-eval-top10-deficiencies" className="text-primary hover:underline">
+              老人福利機構評鑑最常見 10 大缺失：過來人經驗與補救指南 →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/elderly-welfare-eval-90day-plan" className="text-primary hover:underline">
+              老人福利機構評鑑 90 天倒數計畫：分週任務清單 →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/elderly-welfare-fall-prevention-monitoring" className="text-primary hover:underline">
+              老人福利機構跌倒預防與品質監測：B13–B19 七大指標撰寫範例 →
+            </Link>
+          </li>
+        </ul>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

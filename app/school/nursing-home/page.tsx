@@ -406,6 +406,32 @@ export default function NursingHomePage() {
           </p>
         </div>
       </div>
+      {/* 延伸閱讀 — 內部連結傳遞主題權重（Track B 內部連結優化 2026-06-22） */}
+      <div className="not-prose my-8 space-y-3">
+        <h2 className="text-base font-semibold text-foreground">延伸閱讀</h2>
+        <ul className="space-y-2 text-sm">
+          <li>
+            <Link href="/blog/nursing-home-eval-115-criteria-full-2026" className="text-primary hover:underline">
+              115 年護理之家評鑑基準完整版：4 大區塊 63 條與 114 年關鍵變更對照 →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/nursing-pdca-template-full-guide-2026" className="text-primary hover:underline">
+              護理 PDCA 怎麼寫？5 個完整範例範本（感染管制、跌倒、用藥、壓瘡、滿意度） →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/pdca" className="text-primary hover:underline">
+              護理長照 PDCA 報告範例與寫法總覽 →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/nursing-home-eval-top10-deficiencies-2026" className="text-primary hover:underline">
+              住宿型機構評鑑常見 10 大缺失與改善對策 →
+            </Link>
+          </li>
+        </ul>
+      </div>
       <SchoolFaqSection items={FAQ_ITEMS} />
     </>
   );

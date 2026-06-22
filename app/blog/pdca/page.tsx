@@ -156,6 +156,38 @@ export default function BlogPdcaPage() {
           <PdcaArticleList />
         </Suspense>
 
+        {/* 機構別 PDCA 深度指南 — 內部連結傳遞主題權重（Track B 2026-06-22） */}
+        <section className="mt-12 border-t pt-10">
+          <h2 className="text-lg font-semibold mb-4">機構別 PDCA 深度指南</h2>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/blog/nursing-pdca-template-full-guide-2026" className="text-primary hover:underline">
+                護理 PDCA 怎麼寫？5 個完整範例範本（感染管制、跌倒、用藥、壓瘡、滿意度） →
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/nursing-pdca-quality-improvement-examples-2026" className="text-primary hover:underline">
+                護理 PDCA 完整攻略：住宿型、居家護理、日照三大實戰範例（附報告格式） →
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/nursing-fall-pdca-improvement-plan-2026" className="text-primary hover:underline">
+                護理跌倒事件 PDCA 改善計畫實例：P/D/C/A 完整寫法 2026 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/nursing-home-pdca-improvement-tracking-2026" className="text-primary hover:underline">
+                評鑑缺失改善追蹤：用 PDCA 讓委員看到你的進步 →
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/home-nursing-pdca-writing-2026" className="text-primary hover:underline">
+                居家護理所照護計畫 PDCA 怎麼寫？讓評鑑委員一看就懂 →
+              </Link>
+            </li>
+          </ul>
+        </section>
+
         {/* FAQ 段落（靜態，搜尋引擎與 AI 直接讀） */}
         <section className="mt-16 border-t pt-12">
           <h2 className="text-2xl font-bold mb-8">護理 PDCA 常見問題</h2>
