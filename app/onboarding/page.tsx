@@ -78,7 +78,7 @@ export default function OnboardingPage() {
 
       // 匯入後直接開啟第一份報告，讓用戶馬上進入編輯狀態
       const destination = firstReportId
-        ? `/protected/dashboard/${firstReportId}`
+        ? `/report/${firstReportId}`
         : "/report";
 
       if (failed === types.length) {

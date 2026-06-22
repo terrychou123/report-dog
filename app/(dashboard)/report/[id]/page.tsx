@@ -139,6 +139,9 @@ export default function ReportEditorPage() {
   const [confirmingIdx, setConfirmingIdx] = useState<number | null>(null);
   const [soapEnabled, setSoapEnabled] = useState(false);
 
+  // 首次 AI 使用引導（localStorage 確保只顯示一次）
+  const [showAiIntro, setShowAiIntro] = useState(false);
+
   // 刪除報告
   const [deleteReportOpen, setDeleteReportOpen] = useState(false);
   const [deletingReport, setDeletingReport] = useState(false);
@@ -242,6 +245,15 @@ export default function ReportEditorPage() {
     return () => window.removeEventListener("beforeunload", handler);
   }, []);
 
+  useEffect(() => {
+    if (!localStorage.getItem("ai_intro_shown")) setShowAiIntro(true);
+  }, []);
+
+  function dismissAiIntro() {
+    setShowAiIntro(false);
+    localStorage.setItem("ai_intro_shown", "true");
+  }
+
   function openAiDialogWithText(text: string) {
     setSelectedText(text);
     setInstruction("");
@@ -288,6 +300,7 @@ export default function ReportEditorPage() {
       const { revised, reasoning_details } = await res.json();
       setAiProposal(revised);
       setHistory([...newHistory, { role: "assistant", content: revised, reasoning_details }]);
+      dismissAiIntro();
     } catch {
       toast.error("AI 回覆失敗，請重試");
     } finally {
@@ -578,6 +591,23 @@ export default function ReportEditorPage() {
                 ? "以唯讀模式瀏覽"
                 : "圈選文字段落，使用 AI 修改"}
           </p>
+          {showAiIntro && canEdit && report.fileType !== "excel" && (
+            <div className="flex items-start gap-2.5 rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5 text-sm mt-3">
+              <SparklesIcon className="h-4 w-4 text-primary mt-0.5 shrink-0" />
+              <p className="text-foreground/80 flex-1 leading-relaxed">
+                <strong className="text-foreground">試試 AI 改寫：</strong>
+                圈選任一段落文字，就會彈出 AI 修改助手。輸入指令或勾選 SOAP 模式，30 秒改寫成評鑑格式。
+              </p>
+              <button
+                type="button"
+                onClick={dismissAiIntro}
+                className="shrink-0 text-muted-foreground hover:text-foreground transition-colors mt-0.5"
+                aria-label="關閉提示"
+              >
+                <XIcon className="h-4 w-4" />
+              </button>
+            </div>
+          )}
           {/* 關聯標籤 */}
           <div className="flex items-center gap-2 mt-2 flex-wrap">
             {tagAssociations.map((a) => (
