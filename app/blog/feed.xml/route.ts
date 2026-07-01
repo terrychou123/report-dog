@@ -3,9 +3,6 @@ import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
 import { eq, desc } from "drizzle-orm";
 
-// 每小時重驗一次（CDN 快取 24 小時）
-export const revalidate = 3600;
-
 const BASE = "https://reportwang.com";
 
 /** RFC 822 日期格式（RSS 2.0 規範） */
