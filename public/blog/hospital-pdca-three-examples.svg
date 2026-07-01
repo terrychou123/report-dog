@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    N=3 直列清單（兩層間距）
+    H=90, inner_gap=13, outer_gap=38
+    Header y=38, h=90, text_y=100（font=40, 8字）
+    Row[0] y=166, Row[1] y=269, Row[2] y=372
+    三大 PDCA 改善範例
+  -->
+
+  <!-- Header（y=38, h=90） -->
+  <rect x="0" y="38" width="800" height="90" fill="#e8e6de"/>
+  <rect x="0" y="38" width="6" height="90" fill="#d97706" rx="2"/>
+  <text x="28" y="100" font-size="40" fill="#1e293b" font-weight="700">三大 PDCA 改善範例</text>
+
+  <!-- Row 0（y=166, H=90, 感染管制CLABSI, 琥珀 #d97706） -->
+  <rect x="28" y="166" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="166" width="6" height="90" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="211" r="20" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="217" font-size="18" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <text x="100" y="210" font-size="28" fill="#1e293b" font-weight="700">感染管制 CLABSI</text>
+  <text x="100" y="234" font-size="16" fill="#57534e">每千導管日指標降低，落實組合式照護</text>
+  <rect x="620" y="185" width="136" height="52" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">2.7.1</text>
+  <text x="688" y="225" font-size="16" fill="#d97706" text-anchor="middle">組合式照護</text>
+
+  <!-- Row 1（y=269, H=90, 住院跌倒率, 暖灰 #78716c） -->
+  <rect x="28" y="269" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="269" width="6" height="90" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="314" r="20" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="320" font-size="18" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <text x="100" y="313" font-size="28" fill="#1e293b" font-weight="700">住院跌倒率改善</text>
+  <text x="100" y="337" font-size="16" fill="#57534e">跌倒發生率逐月監測與根因分析</text>
+  <rect x="620" y="288" width="136" height="52" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="308" font-size="16" fill="#78716c" text-anchor="middle">2.2.1</text>
+  <text x="688" y="328" font-size="16" fill="#78716c" text-anchor="middle">品安計畫</text>
+
+  <!-- Row 2（y=372, H=90, 用藥錯誤率, 深棕 #57534e） -->
+  <rect x="28" y="372" width="744" height="90" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="372" width="6" height="90" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="417" r="20" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="423" font-size="18" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <text x="100" y="416" font-size="28" fill="#1e293b" font-weight="700">用藥錯誤率降低</text>
+  <text x="100" y="440" font-size="16" fill="#57534e">用藥錯誤偵測與回饋，開立處方雙重核對</text>
+  <rect x="620" y="391" width="136" height="52" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="411" font-size="16" fill="#57534e" text-anchor="middle">2.5.3</text>
+  <text x="688" y="431" font-size="16" fill="#57534e" text-anchor="middle">防錯機制</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

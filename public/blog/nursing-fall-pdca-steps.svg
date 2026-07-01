@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    N=4 直列清單（兩層間距）
+    H=62, inner_gap=13, outer_gap=50
+    Header y=50, h=62, text_y=98
+    Row[0] y=162, Row[1] y=237, Row[2] y=312, Row[3] y=387
+    跌倒 PDCA 四階段寫法
+  -->
+
+  <!-- Header（y=50, h=62） -->
+  <rect x="0" y="50" width="800" height="62" fill="#e8e6de"/>
+  <rect x="0" y="50" width="6" height="62" fill="#d97706" rx="2"/>
+  <text x="28" y="98" font-size="40" fill="#1e293b" font-weight="700">跌倒 PDCA 四階段寫法</text>
+
+  <!-- Row 0（y=162, #d97706 琥珀）P 計劃階段 -->
+  <rect x="28" y="162" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="162" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="193" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="199" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">P</text>
+  <text x="100" y="190" font-size="22" fill="#1e293b" font-weight="700">P 計劃階段</text>
+  <text x="100" y="210" font-size="16" fill="#57534e">量化目標：月跌倒件數4件以下（降低50%）</text>
+  <rect x="620" y="170" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="187" font-size="16" fill="#d97706" text-anchor="middle">Plan</text>
+  <text x="688" y="207" font-size="16" fill="#d97706" text-anchor="middle">根因分析</text>
+
+  <!-- Row 1（y=237, #78716c 暖灰）D 執行階段 -->
+  <rect x="28" y="237" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="237" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="268" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="274" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">D</text>
+  <text x="100" y="265" font-size="22" fill="#1e293b" font-weight="700">D 執行階段</text>
+  <text x="100" y="285" font-size="16" fill="#57534e">措施落實並留佐證文件（訓練簽到表/照片）</text>
+  <rect x="620" y="245" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="262" font-size="16" fill="#78716c" text-anchor="middle">Do</text>
+  <text x="688" y="282" font-size="16" fill="#78716c" text-anchor="middle">簽到+照片</text>
+
+  <!-- Row 2（y=312, #57534e 深棕）C 查核階段 -->
+  <rect x="28" y="312" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="312" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="343" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="349" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">C</text>
+  <text x="100" y="340" font-size="22" fill="#1e293b" font-weight="700">C 查核階段</text>
+  <text x="100" y="360" font-size="16" fill="#57534e">月別趨勢圖對照目標值，非只看總數</text>
+  <rect x="620" y="320" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="337" font-size="16" fill="#57534e" text-anchor="middle">Check</text>
+  <text x="688" y="357" font-size="16" fill="#57534e" text-anchor="middle">非只總數</text>
+
+  <!-- Row 3（y=387, #a8a29e 淺灰）A 行動階段 -->
+  <rect x="28" y="387" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="387" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="418" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="424" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">A</text>
+  <text x="100" y="415" font-size="22" fill="#1e293b" font-weight="700">A 行動階段</text>
+  <text x="100" y="435" font-size="16" fill="#57534e">標準化改善措施寫入SOP，奠定下一輪基礎</text>
+  <rect x="620" y="395" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="412" font-size="16" fill="#a8a29e" text-anchor="middle">Act</text>
+  <text x="688" y="432" font-size="16" fill="#a8a29e" text-anchor="middle">下一輪基礎</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

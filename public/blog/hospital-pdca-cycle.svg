@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+
+  <!-- 背景：米黃暖色 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!-- 標題 + 副標 + 分隔線 -->
+  <text x="400" y="48" text-anchor="middle" font-size="32" fill="#1e293b" font-weight="700">醫院 PDCA 改善循環</text>
+  <text x="400" y="78" text-anchor="middle" font-size="22" fill="#57534e">115年醫院評鑑品質改善計畫必備工具</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#dedad3" stroke-width="1"/>
+
+  <!--
+    ===== PDCA 粗弧箭頭環 =====
+    圓心 cx=400, cy=285
+    外半徑 R=130，內半徑 r=68（弧帶厚 62px）
+    Plan:  14°→ 86°  Do: 104°→176°  Check: 194°→266°  Act: 284°→356°
+  -->
+
+  <!-- === P（Plan，#d97706 琥珀）：弧 14°→86° === -->
+  <path d="
+    M 431 159
+    A 130 130 0 0 1 530 276
+    L 545 275
+    L 498 302
+    L 453 281
+    L 468 280
+    A 68 68 0 0 0 416 219
+    Z"
+    fill="#d97706"/>
+
+  <!-- === D（Do，#78716c 暖灰）：弧 104°→176° === -->
+  <path d="
+    M 526 316
+    A 130 130 0 0 1 409 415
+    L 410 430
+    L 383 383
+    L 404 338
+    L 405 353
+    A 68 68 0 0 0 466 301
+    Z"
+    fill="#78716c"/>
+
+  <!-- === C（Check，#57534e 深棕）：弧 194°→266° === -->
+  <path d="
+    M 369 411
+    A 130 130 0 0 1 270 294
+    L 255 295
+    L 303 268
+    L 347 289
+    L 332 290
+    A 68 68 0 0 0 384 351
+    Z"
+    fill="#57534e"/>
+
+  <!-- === A（Act，#a8a29e 淺灰）：弧 284°→356° === -->
+  <path d="
+    M 274 254
+    A 130 130 0 0 1 391 155
+    L 390 140
+    L 417 188
+    L 396 232
+    L 395 217
+    A 68 68 0 0 0 334 269
+    Z"
+    fill="#a8a29e"/>
+
+  <!-- 弧段字母（各弧中點，r=99） -->
+  <text x="476" y="227" text-anchor="middle" font-size="30" fill="white" font-weight="700">P</text>
+  <text x="464" y="367" text-anchor="middle" font-size="30" fill="white" font-weight="700">D</text>
+  <text x="324" y="355" text-anchor="middle" font-size="30" fill="white" font-weight="700">C</text>
+  <text x="336" y="215" text-anchor="middle" font-size="30" fill="white" font-weight="700">A</text>
+
+  <!-- 中央文字 -->
+  <text x="400" y="278" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">PDCA</text>
+  <text x="400" y="302" text-anchor="middle" font-size="22" fill="#1e293b" font-weight="700">Cycle</text>
+
+  <!-- 右上：計劃 Plan（P，#d97706） -->
+  <rect x="555" y="130" width="6" height="22" rx="2" fill="#d97706"/>
+  <text x="567" y="148" font-size="22" fill="#1e293b" font-weight="700">計劃 Plan</text>
+  <line x1="555" y1="156" x2="755" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="175" font-size="17" fill="#57534e">設定有依據的目標值</text>
+  <text x="555" y="196" font-size="17" fill="#57534e">量化指標訂外部基準</text>
+
+  <!-- 右下：執行 Do（D，#78716c） -->
+  <rect x="555" y="365" width="6" height="22" rx="2" fill="#57534e"/>
+  <text x="567" y="383" font-size="22" fill="#1e293b" font-weight="700">執行 Do</text>
+  <line x1="555" y1="391" x2="755" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="410" font-size="17" fill="#57534e">落實組合式照護 SOP</text>
+  <text x="555" y="431" font-size="17" fill="#57534e">教育訓練與佐證文件</text>
+
+  <!-- 左下：查核 Check（C，#57534e） -->
+  <rect x="100" y="365" width="6" height="22" rx="2" fill="#a8a29e"/>
+  <text x="112" y="383" font-size="22" fill="#1e293b" font-weight="700">查核 Check</text>
+  <line x1="100" y1="391" x2="300" y2="391" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="410" font-size="16" fill="#57534e">每月監測委員會報告</text>
+  <text x="100" y="431" font-size="16" fill="#57534e">不良事件通報分析</text>
+
+  <!-- 左上：行動 Act（A，#a8a29e） -->
+  <rect x="100" y="130" width="6" height="22" rx="2" fill="#78716c"/>
+  <text x="112" y="148" font-size="22" fill="#1e293b" font-weight="700">行動 Act</text>
+  <line x1="100" y1="156" x2="300" y2="156" stroke="#dedad3" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="100" y="175" font-size="16" fill="#57534e">根因分析與系統改善</text>
+  <text x="100" y="196" font-size="16" fill="#57534e">標準化寫入 SOP</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="490" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

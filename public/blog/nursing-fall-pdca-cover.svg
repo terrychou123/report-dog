@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans TC', sans-serif">
+  <rect width="1200" height="630" fill="#f0efe8"/>
+<g clip-path="url(#clip-nursing-fall-pdca)">
+<path d="M1200 0H0V630H1200V0Z" fill="#F0EFE8"/>
+<path d="M1200 0H820V630H1200V0Z" fill="#E8E6DE"/>
+
+<!-- 右側大數字 4（琥珀色，PDCA 4階段） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="200" font-weight="bold" letter-spacing="0em"><tspan x="890" y="232.2">4</tspan></text>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="957" y="274.416">個改善階段</tspan></text>
+
+<!-- 右側卡片 2×2 -->
+<!-- 卡片1 上左（P計劃） -->
+<path d="M991 300H856C850.477 300 846 304.477 846 310V376C846 381.523 850.477 386 856 386H991C996.523 386 1001 381.523 1001 376V310C1001 304.477 996.523 300 991 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="341.708">P 計劃</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="22" letter-spacing="0em"><tspan x="868" y="370.476">量化目標</tspan></text>
+
+<!-- 卡片2 上右（D執行） -->
+<path d="M1156 300H1021C1015.48 300 1011 304.477 1011 310V376C1011 381.523 1015.48 386 1021 386H1156C1161.52 386 1166 381.523 1166 376V310C1166 304.477 1161.52 300 1156 300Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="341.708">D 執行</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="22" letter-spacing="0em"><tspan x="1033" y="370.476">佐證文件</tspan></text>
+
+<!-- 卡片3 下左（C查核） -->
+<path d="M991 399H856C850.477 399 846 403.477 846 409V475C846 480.523 850.477 485 856 485H991C996.523 485 1001 480.523 1001 475V409C1001 403.477 996.523 399 991 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="868" y="440.708">C 查核</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="22" letter-spacing="0em"><tspan x="868" y="469.476">月別趨勢</tspan></text>
+
+<!-- 卡片4 下右（A行動） -->
+<path d="M1156 399H1021C1015.48 399 1011 403.477 1011 409V475C1011 480.523 1015.48 485 1021 485H1156C1161.52 485 1166 480.523 1166 475V409C1166 403.477 1161.52 399 1156 399Z" fill="white" stroke="#E8E6DE"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="1033" y="440.708">A 行動</tspan></text>
+<text fill="#A8A29E" style="white-space: pre" xml:space="preserve" font-size="22" letter-spacing="0em"><tspan x="1033" y="469.476">標準化SOP</tspan></text>
+
+<!-- 右側底部標籤 pill -->
+<path opacity="0.12" d="M1156 498H856C850.477 498 846 502.477 846 508V540C846 545.523 850.477 550 856 550H1156C1161.52 550 1166 545.523 1166 540V508C1166 502.477 1161.52 498 1156 498Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="880" y="530.708">P·D·C·A 完整寫法</tspan></text>
+
+<!-- 左側主標題 L1（黑色，font=140） -->
+<text fill="#1E293B" style="white-space: pre" xml:space="preserve" font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="58" y="211.32">護理跌倒</tspan></text>
+<!-- 左側主標題 L2（琥珀色） -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="140" font-weight="bold" letter-spacing="0em"><tspan x="58" y="361.76">PDCA改善</tspan></text>
+
+<!-- 分隔線 -->
+<path d="M57.5 388H822" stroke="#DEDAD3" stroke-width="2"/>
+
+<!-- 副標題 -->
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="38" letter-spacing="0em"><tspan x="60" y="442.136">護理之家跌倒事件改善計畫完整寫法</tspan></text>
+
+<!-- 左側 Pills（3個） -->
+<path opacity="0.12" d="M198 461H70C64.4772 461 60 465.477 60 471V505C60 510.523 64.4772 515 70 515H198C203.523 515 208 510.523 208 505V471C208 465.477 203.523 461 198 461Z" fill="#D97706"/>
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="88" y="499.708">P 計劃</tspan></text>
+
+<path opacity="0.12" d="M358 461H230C224.477 461 220 465.477 220 471V505C220 510.523 224.477 515 230 515H358C363.523 515 368 510.523 368 505V471C368 465.477 363.523 461 358 461Z" fill="#78716C"/>
+<text fill="#78716C" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="251" y="499.708">D 執行</tspan></text>
+
+<path opacity="0.12" d="M518 461H390C384.477 461 380 465.477 380 471V505C380 510.523 384.477 515 390 515H518C523.523 515 528 510.523 528 505V471C528 465.477 523.523 461 518 461Z" fill="#57534E"/>
+<text fill="#57534E" style="white-space: pre" xml:space="preserve" font-size="28" font-weight="bold" letter-spacing="0em"><tspan x="408" y="499.708">C 查核</tspan></text>
+
+<!-- 適用對象 -->
+<text fill="#94A3B8" style="white-space: pre" xml:space="preserve" font-size="28" letter-spacing="0em"><tspan x="60" y="555.708">適用：護理之家跌倒PDCA改善計畫書撰寫</tspan></text>
+
+<!-- 浮水印 -->
+<text fill="#D97706" style="white-space: pre" xml:space="preserve" font-size="24" letter-spacing="0em"><tspan x="879.008" y="597.928">報告汪 reportwang.com</tspan></text>
+</g>
+<defs>
+<clipPath id="clip-nursing-fall-pdca">
+<rect width="1200" height="630" fill="white"/>
+</clipPath>
+</defs>
+</svg>
