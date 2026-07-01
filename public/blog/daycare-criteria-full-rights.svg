@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    N=4 直列清單（兩層間距）
+    H=62, inner_gap=13, outer_gap=50, Header h=76
+    Header y=50, text_y=105（font=40, 8字）
+    Row 1 y=160, Row 2 y=235, Row 3 y=310, Row 4 y=385
+    壹、個案權益保障（第 1–4 條）
+  -->
+
+  <!-- Header（y=50, h=76） -->
+  <rect x="0" y="50" width="800" height="76" fill="#e8e6de"/>
+  <rect x="0" y="50" width="6" height="76" fill="#d97706" rx="2"/>
+  <!-- font=40（≤8字） -->
+  <text x="28" y="105" font-size="40" fill="#1e293b" font-weight="700">壹、個案權益保障</text>
+
+  <!-- Row 1（y=160, H=62, 服務資訊公開, 琥珀 #d97706） -->
+  <rect x="28" y="160" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="160" width="6" height="62" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="191" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="197" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <!-- Q_y=160+28=188, R_y=160+48=208 -->
+  <text x="100" y="188" font-size="22" fill="#1e293b" font-weight="700">服務資訊公開</text>
+  <text x="100" y="208" font-size="16" fill="#57534e">機構簡介、官網、社群帳號等宣傳資料需定期更新</text>
+  <!-- S rect y=160+8=168, h=46 -->
+  <rect x="620" y="168" width="136" height="46" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="185" font-size="16" fill="#d97706" text-anchor="middle">第 1 條</text>
+  <text x="688" y="205" font-size="16" fill="#d97706" text-anchor="middle">文件+現場</text>
+
+  <!-- Row 2（y=235, H=62, 意見申訴機制, 暖灰 #78716c） -->
+  <rect x="28" y="235" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="235" width="6" height="62" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="266" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="272" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <!-- Q_y=235+28=263, R_y=235+48=283 -->
+  <text x="100" y="263" font-size="22" fill="#1e293b" font-weight="700">意見申訴機制</text>
+  <text x="100" y="283" font-size="16" fill="#57534e">書面辦法、處理紀錄、改善追蹤方案均需備妥</text>
+  <!-- S rect y=235+8=243, h=46 -->
+  <rect x="620" y="243" width="136" height="46" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="260" font-size="16" fill="#78716c" text-anchor="middle">第 2 條</text>
+  <text x="688" y="280" font-size="16" fill="#78716c" text-anchor="middle">文件+訪談</text>
+
+  <!-- Row 3（y=310, H=62, 服務契約簽訂, 深棕 #57534e） -->
+  <rect x="28" y="310" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="310" width="6" height="62" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="341" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="347" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <!-- Q_y=310+28=338, R_y=310+48=358 -->
+  <text x="100" y="338" font-size="22" fill="#1e293b" font-weight="700">服務契約簽訂</text>
+  <text x="100" y="358" font-size="16" fill="#57534e">採衛福部定型化契約範本，主契約加附件一至五</text>
+  <!-- S rect y=310+8=318, h=46 -->
+  <rect x="620" y="318" width="136" height="46" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="335" font-size="16" fill="#57534e" text-anchor="middle">第 3 條</text>
+  <text x="688" y="355" font-size="16" fill="#57534e" text-anchor="middle">文件檢閱</text>
+
+  <!-- Row 4（y=385, H=62, 個人資料保護, 淺灰 #a8a29e） -->
+  <rect x="28" y="385" width="744" height="62" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="385" width="6" height="62" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="416" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="422" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <!-- Q_y=385+28=413, R_y=385+48=433 -->
+  <text x="100" y="413" font-size="22" fill="#1e293b" font-weight="700">個人資料保護</text>
+  <text x="100" y="433" font-size="16" fill="#57534e">上鎖保管設備、電子存取權限、員工保護知識三要件</text>
+  <!-- S rect y=385+8=393, h=46 -->
+  <rect x="620" y="393" width="136" height="46" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="410" font-size="16" fill="#a8a29e" text-anchor="middle">第 4 條</text>
+  <text x="688" y="430" font-size="16" fill="#a8a29e" text-anchor="middle">文件+訪談</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

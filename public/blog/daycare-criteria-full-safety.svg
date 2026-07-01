@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Noto Sans TC', sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f0efe8"/>
+
+  <!--
+    N=6 直列清單（兩層間距）
+    H=54, pad=31, header_gap=10, inner=10
+    Header y=31, h=54, text_y=75（font=40, 8字）
+    Row 1 y=95, Row 2 y=159, Row 3 y=223, Row 4 y=287, Row 5 y=351, Row 6 y=415
+    肆、安全環境設備（第 38–43 條）
+  -->
+
+  <!-- Header（y=31, h=54） -->
+  <rect x="0" y="31" width="800" height="54" fill="#e8e6de"/>
+  <rect x="0" y="31" width="6" height="54" fill="#0d9488" rx="2"/>
+  <!-- font=40（≤8字） -->
+  <text x="28" y="75" font-size="40" fill="#1e293b" font-weight="700">肆、安全環境設備</text>
+
+  <!-- Row 1（y=95, H=54, 高齡友善環境, 琥珀 #d97706） -->
+  <rect x="28" y="95" width="744" height="54" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="95" width="6" height="54" rx="2" fill="#d97706"/>
+  <circle cx="66" cy="122" r="16" fill="#d97706" opacity="0.15"/>
+  <text x="66" y="128" font-size="16" fill="#d97706" text-anchor="middle" font-weight="900">1</text>
+  <!-- Q_y=95+24=119, R_y=95+43=138 -->
+  <text x="100" y="119" font-size="18" fill="#1e293b" font-weight="700">高齡友善環境</text>
+  <text x="100" y="138" font-size="16" fill="#57534e">標示清楚、桌椅適齡、燈光顏色符合長者需求</text>
+  <!-- S rect y=95+8=103, h=38 -->
+  <rect x="620" y="103" width="136" height="38" rx="8" fill="#d97706" opacity="0.12"/>
+  <text x="688" y="116" font-size="14" fill="#d97706" text-anchor="middle">第 38 條</text>
+  <text x="688" y="134" font-size="14" fill="#d97706" text-anchor="middle">實地查看</text>
+
+  <!-- Row 2（y=159, H=54, 盥洗衛生設備, 暖灰 #78716c） -->
+  <rect x="28" y="159" width="744" height="54" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="159" width="6" height="54" rx="2" fill="#78716c"/>
+  <circle cx="66" cy="186" r="16" fill="#78716c" opacity="0.15"/>
+  <text x="66" y="192" font-size="16" fill="#78716c" text-anchor="middle" font-weight="900">2</text>
+  <!-- Q_y=159+24=183, R_y=159+43=202 -->
+  <text x="100" y="183" font-size="18" fill="#1e293b" font-weight="700">盥洗衛生設備</text>
+  <text x="100" y="202" font-size="16" fill="#57534e">出入口淨寬 80cm、防滑扶手、緊急呼叫設備</text>
+  <!-- S rect y=159+8=167, h=38 -->
+  <rect x="620" y="167" width="136" height="38" rx="8" fill="#78716c" opacity="0.12"/>
+  <text x="688" y="180" font-size="14" fill="#78716c" text-anchor="middle">第 39 條</text>
+  <text x="688" y="198" font-size="14" fill="#78716c" text-anchor="middle">實地查看</text>
+
+  <!-- Row 3（y=223, H=54, 休息場所, 深棕 #57534e） -->
+  <rect x="28" y="223" width="744" height="54" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="223" width="6" height="54" rx="2" fill="#57534e"/>
+  <circle cx="66" cy="250" r="16" fill="#57534e" opacity="0.15"/>
+  <text x="66" y="256" font-size="16" fill="#57534e" text-anchor="middle" font-weight="900">3</text>
+  <!-- Q_y=223+24=247, R_y=223+43=266 -->
+  <text x="100" y="247" font-size="18" fill="#1e293b" font-weight="700">休息場所</text>
+  <text x="100" y="266" font-size="16" fill="#57534e">依需求安排休息時間及場所，注意個別隱私</text>
+  <!-- S rect y=223+8=231, h=38 -->
+  <rect x="620" y="231" width="136" height="38" rx="8" fill="#57534e" opacity="0.12"/>
+  <text x="688" y="244" font-size="14" fill="#57534e" text-anchor="middle">第 40 條</text>
+  <text x="688" y="262" font-size="14" fill="#57534e" text-anchor="middle">實地查看</text>
+
+  <!-- Row 4（y=287, H=54, 飲用水管理, 淺灰 #a8a29e） -->
+  <rect x="28" y="287" width="744" height="54" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="287" width="6" height="54" rx="2" fill="#a8a29e"/>
+  <circle cx="66" cy="314" r="16" fill="#a8a29e" opacity="0.15"/>
+  <text x="66" y="320" font-size="16" fill="#a8a29e" text-anchor="middle" font-weight="900">4</text>
+  <!-- Q_y=287+24=311, R_y=287+43=330 -->
+  <text x="100" y="311" font-size="18" fill="#1e293b" font-weight="700">飲用水管理</text>
+  <text x="100" y="330" font-size="16" fill="#57534e">每 3 個月檢測大腸桿菌群，水塔每半年清洗</text>
+  <!-- S rect y=287+8=295, h=38 -->
+  <rect x="620" y="295" width="136" height="38" rx="8" fill="#a8a29e" opacity="0.12"/>
+  <text x="688" y="308" font-size="14" fill="#a8a29e" text-anchor="middle">第 41 條</text>
+  <text x="688" y="326" font-size="14" fill="#a8a29e" text-anchor="middle">文件+實地</text>
+
+  <!-- Row 5（y=351, H=54, 廚房衛生, 藍灰 #94a3b8） -->
+  <rect x="28" y="351" width="744" height="54" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="351" width="6" height="54" rx="2" fill="#94a3b8"/>
+  <circle cx="66" cy="378" r="16" fill="#94a3b8" opacity="0.15"/>
+  <text x="66" y="384" font-size="16" fill="#94a3b8" text-anchor="middle" font-weight="900">5</text>
+  <!-- Q_y=351+24=375, R_y=351+43=394 -->
+  <text x="100" y="375" font-size="18" fill="#1e293b" font-weight="700">廚房衛生</text>
+  <text x="100" y="394" font-size="16" fill="#57534e">食物檢體留存 125g 冷藏 48 小時，生熟食分開</text>
+  <!-- S rect y=351+8=359, h=38 -->
+  <rect x="620" y="359" width="136" height="38" rx="8" fill="#94a3b8" opacity="0.12"/>
+  <text x="688" y="372" font-size="14" fill="#94a3b8" text-anchor="middle">第 42 條</text>
+  <text x="688" y="390" font-size="14" fill="#94a3b8" text-anchor="middle">實地查看</text>
+
+  <!-- Row 6（y=415, H=54, 環境清潔, 中灰 #6b7280） -->
+  <rect x="28" y="415" width="744" height="54" rx="12" fill="#e8e6de"/>
+  <rect x="28" y="415" width="6" height="54" rx="2" fill="#6b7280"/>
+  <circle cx="66" cy="442" r="16" fill="#6b7280" opacity="0.15"/>
+  <text x="66" y="448" font-size="16" fill="#6b7280" text-anchor="middle" font-weight="900">6</text>
+  <!-- Q_y=415+24=439, R_y=415+43=458 -->
+  <text x="100" y="439" font-size="18" fill="#1e293b" font-weight="700">環境清潔</text>
+  <text x="100" y="458" font-size="16" fill="#57534e">每 3 個月消毒 1 次，備防蚊蟲設施及廠商合約</text>
+  <!-- S rect y=415+8=423, h=38 -->
+  <rect x="620" y="423" width="136" height="38" rx="8" fill="#6b7280" opacity="0.12"/>
+  <text x="688" y="436" font-size="14" fill="#6b7280" text-anchor="middle">第 43 條</text>
+  <text x="688" y="454" font-size="14" fill="#6b7280" text-anchor="middle">實地查看</text>
+
+  <!-- 浮水印 -->
+  <text x="760" y="480" font-size="16" fill="#d97706" text-anchor="end" font-weight="400">報告汪 reportwang.com</text>
+</svg>

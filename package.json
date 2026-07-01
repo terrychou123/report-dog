@@ -39,7 +39,8 @@
     "update-blog-seo": "tsx --env-file=.env.local scripts/update-blog-seo.ts",
     "gsc:health": "tsx scripts/gsc.ts --report=sitemap-status",
     "gsc:inspect": "tsx scripts/gsc.ts --report=url-inspection",
-    "ga:health": "tsx scripts/ga-health.ts"
+    "ga:health": "tsx scripts/ga-health.ts",
+    "audit:facility-coverage": "tsx --env-file=.env.local scripts/audit-facility-content-coverage.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
