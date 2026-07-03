@@ -36,6 +36,8 @@ yarn-error.log*
 
 # claude code local settings (may contain credentials)
 .claude/settings.local.json
+# claude code 排程暫存 lock 檔（ephemeral）
+.claude/scheduled_tasks.lock
 
 # MCP project-scope config (may contain SA key paths)
 .mcp.json
