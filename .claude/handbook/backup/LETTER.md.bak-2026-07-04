@@ -1,0 +1,68 @@
+# LETTER.md — 給未來 session 的信
+
+> 寫於 2026-07-03，Fable 5 制度化 session。這封信講三件使用者沒問、但對這個環境最重要的事，
+> 以及這套制度最可能的退化方式。新 session 開頭值得花 30 秒掃過「風險」與「退化」兩節。
+
+## 一、三件最重要的事
+
+### 1.（安全，最優先）`.claude/settings.local.json` 被 git 追蹤，內含 DB 密碼明文
+
+`git ls-files .claude/` 確認該檔在版控中，其 permissions allowlist 至少兩條含
+Supabase pooler 完整連線字串（含密碼）。只要這個 repo 曾被 push 到任何遠端，密碼就該視為外洩。
+
+**待使用者決定的處理順序**（未經同意不要動 git 歷史）：
+1. 在 Supabase dashboard 輪替資料庫密碼，更新 `.env.local` 與 Vercel env
+2. `git rm --cached .claude/settings.local.json` ＋ 加入 `.gitignore`
+3. 清掉 allowlist 中含密碼的兩條 entry（改用 `Bash(npx drizzle-kit:*)` 這類不含密碼的寫法）
+4. 若 repo 是公開或多人可見：考慮 history rewrite（成本高，由使用者拍板）
+
+狀態：❌ 未處理（處理後請照 MAINTENANCE.md §5 標註）
+
+### 2. 沒有測試框架是這個 repo 最大的結構性風險
+
+所有「完成」都缺機械驗證，handbook 只能用實跑＋fresh-context 審查補位，但補不了回歸
+（這次沒改到的地方被弄壞，沒人會發現）。最高價值的第一步很小：給純函數上 vitest——
+`lib/downloads/token.ts`、`lib/email/unsubscribe-token.ts`、`lib/auth/tag-permissions.ts`、
+`lib/ai/usage-limit.ts` 的純邏輯部分。這些是安全/權限關鍵，又不需要 mock 任何外部服務。
+**動手前先問使用者**（CLAUDE.md 明載「無測試框架」是現況描述，引入框架是使用者的決定）。
+
+### 3. 注入面積：plugins 與 skills 是最大的固定 token 支出
+
+全域 14 個 plugins ＋ `~/.claude/skills/` 80+ 個 gstack skills，每 session 固定注入估
+15–20k tokens。明顯的停用候選（使用者確認後執行）：`ios-*` 系列（本環境無 iOS 專案）、
+`document-skills`（xlsx 由 exceljs 腳本處理，其餘少用）、gstack 中重複的舊檔（`gstack.bak`）。
+SEO 系列（keyword-research、geo-content-optimizer…）**使用者有在用，不要動**。
+另外：settings.local.json 的 Stop hook（echo「請繼續執行」、exit 0）疑似無效
+（Stop hook 需 exit 2 或 JSON decision 才會阻止停止）。驗證法：故意留一個未完成事項就停止回合，
+觀察是否被擋下並收到該訊息；沒被擋 → 問使用者要修成有效（exit 2）還是刪除。此問題以本段為唯一紀錄。
+
+## 二、這套制度最可能的退化方式與預防
+
+| 退化 | 徵兆 | 預防／解法 |
+|---|---|---|
+| 規則增生 | CLAUDE.md 又超過 160 行；handbook 出現「補充」「另外」開頭的追加段 | MAINTENANCE.md §3 長度預算＋§6「改原文不追加」；每次想加規則先找可合併/可刪的 |
+| 派工被逐次繞過 | 主對話又出現連續 grep + 整檔 Read 十幾輪 | 判準是機械的（>3 檔即派工），違反就是違反，不接受「這次比較簡單」；徵兆出現時當場改派 Explore |
+| 驗收橡皮圖章 | 審查 agent 每次都全 pass、回報無 路徑:行號 證據 | PROMPTS.md 模板 5 要求逐條證據；全 pass 且無證據的驗收 = 無效，重派並檢查 prompt 是否有引導句 |
+| handbook 與現實脫節 | 引用的路徑/指令 404 | MAINTENANCE.md §5 過時偵測；發現即修（事實錯誤可自行改） |
+| memory 與 handbook 打架 | 同一主題兩處說法不同 | 依 CLAUDE.md 指令優先序裁決後，把輸的那份改掉或標廢止；不准並存 |
+| 制度本身被遺忘 | 新 session 完全沒讀 handbook 就開工 | CLAUDE.md 路由表是唯一防線——所以它必須保持短，短到每次真的會被讀完 |
+
+## 三、本 session 交付清單（2026-07-03）
+
+- `CLAUDE.md` 重寫（395 → 約 130 行），舊版在 `.claude/handbook/backup/CLAUDE.md.bak-2026-07-03`
+- `.claude/handbook/DIAGNOSIS.md` — harness 三大問題診斷
+- `.claude/handbook/REFERENCE.md` — 從 CLAUDE.md 抽出的詳細參考
+- `.claude/handbook/DISPATCH.md` — 模型調度守則
+- `.claude/handbook/JUDGMENT.md` — 判斷力 checklist
+- `.claude/handbook/PROMPTS.md` — 派工模板 ×5
+- `.claude/handbook/MAINTENANCE.md` — 本套檔案的維護協議
+- 本檔
+
+未完成／交接事項：見上方「三件最重要的事」的 ❌ 項目（皆需使用者決定，非技術卡關）。
+
+## 四、harness 極限的誠實聲明
+
+這套制度補得了：執行紀律、驗證流程、token 節約、錯誤升級。
+補不了：**品味判斷與模糊題**。文章有沒有說服力、設計美不美、產品方向對不對——
+rubric 只能驗底線（JUDGMENT.md §5），驗不出「好」。遇到這類題：升到可用的最強模型、
+產多個變體讓使用者選、或直說「這超出我能可靠判斷的範圍」。裝有把握，比慢一點更貴。
