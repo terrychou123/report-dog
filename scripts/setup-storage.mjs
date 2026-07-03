@@ -1,7 +1,11 @@
 import postgres from "postgres";
 
-const DATABASE_URL =
-  "postgresql://postgres.awajsuimcxjfhlxpgrbz:-D8rC6Z%2C3%2B%2Fuw.t@aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres";
+// 連線字串一律走環境變數，禁止硬編碼（本檔曾因硬編碼密碼造成外洩，2026-07-04 修復）
+const DATABASE_URL = process.env.DATABASE_URL;
+if (!DATABASE_URL) {
+  console.error("缺少 DATABASE_URL 環境變數。用法：npx dotenv -e .env.local -- node scripts/setup-storage.mjs");
+  process.exit(1);
+}
 
 const sql = postgres(DATABASE_URL);
 console.log("Connected to database");
