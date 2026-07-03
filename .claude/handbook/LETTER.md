@@ -40,10 +40,10 @@
 15–20k tokens。SEO 系列（keyword-research、geo-content-optimizer…）**使用者有在用，不要動**。
 
 ✅ 已瘦身（2026-07-04，使用者核可）：
-- `ios-*` ×5 與 `gstack.bak`（1.2GB 舊備份）移至 `~/.claude/skills-disabled/`（搬回即復原）
+- `ios-*` ×5 移至 `~/.claude/skills-disabled/`（搬回即復原）
+- `gstack.bak`（1.2GB 舊備份）已由使用者確認**永久刪除**，磁碟已釋放
 - `document-skills` plugin 停用（`~/.claude/settings.json` 改回 true 即復原；
   設定備份：`~/.claude/settings.json.bak-2026-07-04`）
-- `gstack.bak` 仍占 1.2GB 磁碟，確定不要可整目錄刪除（由使用者決定）
 
 尚未動、日後可再評估（各有取捨，動之前問使用者）：superpowers（SessionStart 全文注入
 約 1.5k tokens，但 TDD/debug 工作流有價值）、vercel plugin 的 SessionStart 注入（約 1.2k，
