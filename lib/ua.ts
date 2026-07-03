@@ -20,8 +20,3 @@ export function isInAppBrowser(ua: string | null | undefined): InAppBrowserInfo 
   if (/\bMicroMessenger\b/.test(ua)) return { detected: true, browser: "wechat" };
   return { detected: false, browser: "" };
 }
-
-// 向下相容 alias — 既有呼叫端無需改動
-export function isFacebookWebview(ua: string | null | undefined): boolean {
-  return isInAppBrowser(ua).detected;
-}

@@ -99,7 +99,6 @@ async function main() {
 
     // --- 注入 FIG1：PDCA 概念循環圖，插在第一個 <blockquote> 之後、第一個 <h2> 之前 ---
     // 錨點：</blockquote>\n\n<h2>壹、住宿型
-    const fig1Anchor = `</blockquote>\n\n<h2>壹、住宿型`;
     const fig1AnchorShort = `</blockquote>`;
     // 找第一個 </blockquote>（PDCA 定義那個）
     content = insertAfter(content, fig1AnchorShort, FIG1);

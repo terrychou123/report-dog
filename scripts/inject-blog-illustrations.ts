@@ -88,7 +88,7 @@ function insertAfter(
   anchorIndex = 0
 ): { result: string; found: boolean } {
   let searchFrom = 0;
-  let found = false;
+  const found = false;
   for (let i = 0; i <= anchorIndex; i++) {
     const idx = content.indexOf(anchor, searchFrom);
     if (idx === -1) {

@@ -37,7 +37,7 @@ export const schoolReviewerMap: Record<string, { name: string; url: string }> = 
 };
 
 /** 各機構評鑑年度（民國年）—— SSOT，metadata title 與 sitemap lastModified 共用此值 */
-export const schoolReviewYears: Record<string, number> = {
+const schoolReviewYears: Record<string, number> = {
   "home-care":                              115,
   "daycare":                                115,
   "multi-function-care":                    115,

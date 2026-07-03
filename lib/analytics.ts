@@ -55,10 +55,6 @@ export function trackOnboardingStep(step: string, params?: Record<string, unknow
   trackEvent("onboarding_step", { step, ...params });
 }
 
-export function trackFirstReportCreate(source: "template" | "upload" | "manual") {
-  trackEvent("first_report_create", { source });
-}
-
 export function trackEmptyStateCTA(target: "template_import" | "upload" | "sample" | "demo_try") {
   trackEvent("empty_state_cta", { target });
 }

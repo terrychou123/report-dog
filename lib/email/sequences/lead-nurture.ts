@@ -11,7 +11,7 @@
 import { Resend } from "resend";
 import { db } from "@/db";
 import { leads } from "@/db/schema";
-import { and, isNull, lte, eq, sql } from "drizzle-orm";
+import { and, isNull, lte, eq } from "drizzle-orm";
 import { signUnsubscribeToken } from "../unsubscribe-token";
 
 const BATCH_LIMIT = 50; // 每個 stage 每次 cron 最多寄 N 封，避免打爆 Resend 速率限制

@@ -38,12 +38,10 @@ function OAuthSuccessInner() {
       const ctrl = new AbortController();
       const timer = setTimeout(() => ctrl.abort(), 8000);
       fetch("/api/auth/post-signup", { method: "POST", signal: ctrl.signal })
-        .then(async (res) => {
+        .then(() => {
           clearTimeout(timer);
-          if (res.ok) {
-            const data = await res.json();
-            // newsletter_subscribe 事件僅由使用者主動訂閱觸發（footer/blog-inline），signup 自動訂閱不計入
-          }
+          // newsletter_subscribe 事件僅由使用者主動訂閱觸發（footer/blog-inline），signup 自動訂閱不計入，
+          // 故 response body 無需讀取
         })
         .catch(() => clearTimeout(timer))
         .finally(() => {

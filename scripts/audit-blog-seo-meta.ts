@@ -4,7 +4,7 @@
  */
 import { db } from "@/db";
 import { blogPosts } from "@/db/schema";
-import { eq, isNull, or } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 
 async function main() {
   const published = await db

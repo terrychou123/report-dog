@@ -16,7 +16,6 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import { blogPosts } from "../db/schema";
 import { getDbUrl } from "../db/index";
-import { eq } from "drizzle-orm";
 
 type Severity = "high" | "medium" | "low";
 

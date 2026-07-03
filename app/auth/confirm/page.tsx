@@ -65,12 +65,10 @@ function ConfirmPageInner() {
       const ctrl = new AbortController();
       const timer = setTimeout(() => ctrl.abort(), 8000);
       try {
-        const res = await fetch("/api/auth/post-signup", { method: "POST", signal: ctrl.signal });
+        await fetch("/api/auth/post-signup", { method: "POST", signal: ctrl.signal });
         clearTimeout(timer);
-        if (res.ok) {
-          const data = await res.json();
-          // newsletter_subscribe 事件僅由使用者主動訂閱觸發（footer/blog-inline），signup 自動訂閱不計入
-        }
+        // newsletter_subscribe 事件僅由使用者主動訂閱觸發（footer/blog-inline），signup 自動訂閱不計入，
+        // 故 response body 無需讀取
       } catch {
         clearTimeout(timer);
       }
