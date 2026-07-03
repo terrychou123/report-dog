@@ -89,6 +89,6 @@
 - 長任務用 `run_in_background: true`，完成會收到通知；不要輪詢
 - 會大改檔案又怕污染工作區：`isolation: "worktree"`
 - 要延續某個 subagent 的 context 用 SendMessage 找它，重派 Agent 是全新開始
-- 可用 agent 類型以當下 system-reminder 清單為準（本檔寫成時有：`Explore`、`Plan`、
+- 可用 agent 類型以當下 system-reminder 清單為準（2026-07-04 有：`Explore`、`Plan`、
   `general-purpose`、`claude`、`code-reviewer`、`feature-dev:code-explorer/architect/reviewer`、
-  `code-simplifier`、`claude-code-guide`、`vercel:*`）。清單可能變動，派工前確認名字存在。
+  `code-simplifier`、`claude-code-guide`）。清單會隨 plugin 啟停變動，派工前確認名字存在。

@@ -47,9 +47,12 @@ API route 的授權判斷（非 owner 403）與評鑑 drift check 的邊界案�
 - `document-skills` plugin 停用（`~/.claude/settings.json` 改回 true 即復原；
   設定備份：`~/.claude/settings.json.bak-2026-07-04`）
 
-尚未動、日後可再評估（各有取捨，動之前問使用者）：superpowers（SessionStart 全文注入
-約 1.5k tokens，但 TDD/debug 工作流有價值）、vercel plugin 的 SessionStart 注入（約 1.2k，
-專案部署在 Vercel 故保留）、skill-creator 與 claude-code-setup（少用但體積小）。
+✅ 追加停用（2026-07-04，使用者核可）：`superpowers` 與 `vercel` plugins。
+影響：superpowers 的 SessionStart 全文注入（約 1.5k tokens）與 TDD/debug skill 消失；
+vercel 的 SessionStart 注入（約 1.2k）、`vercel:*` skills 與 vercel 系列 agents 消失
+（部署仍走 git push 自動觸發，不受影響）。復原：`~/.claude/settings.json` 對應項改回 true。
+
+尚未動、日後可再評估：skill-creator 與 claude-code-setup（少用但體積小）。
 另外：settings.local.json 的 Stop hook（echo「請繼續執行」、exit 0）疑似無效
 （Stop hook 需 exit 2 或 JSON decision 才會阻止停止）。驗證法：故意留一個未完成事項就停止回合，
 觀察是否被擋下並收到該訊息；沒被擋 → 問使用者要修成有效（exit 2）還是刪除。此問題以本段為唯一紀錄。
