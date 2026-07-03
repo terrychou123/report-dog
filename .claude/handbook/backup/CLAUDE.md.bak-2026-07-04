@@ -50,16 +50,13 @@ invoke 後發現不適用，說明原因後放下它，不硬套。不做「以�
 
 ```bash
 npm run dev / build / lint / start
-npm test                                          # vitest：lib/ 純函數單元測試（token/退訂/tag 權限）
 npm run lint:dead-code                            # knip 偵測未使用 exports/檔案/依賴
 npm run db:push                                   # Drizzle schema 推送
 npm run check:evaluation-drift -- --facility=<f>  # profile ↔ supplementary 對齊檢查
 npm run evaluation:sync <facility>                # drift check + 重生 public/downloads/*.xlsx
 ```
 
-測試範圍**只有 lib/ 純函數**（vitest，測試檔與被測檔同目錄）。component、API route、DB 邏輯
-無自動化測試，行為驗證仍靠實跑（npm run dev + 手動/瀏覽器）與 fresh-context 審查（DISPATCH.md §6）。
-動了 lib/ 下有對應 .test.ts 的檔案，`npm test` 必跑。
+本專案**沒有測試框架**。行為驗證靠實跑（npm run dev + 手動/瀏覽器）與 fresh-context 審查（DISPATCH.md §6）。
 
 ## 架構不變量（違反即 bug，PR 不得合入）
 
@@ -126,4 +123,3 @@ npm run evaluation:sync <facility>                # drift check + 重生 public/
 - typecheck: `npx tsc --noEmit`
 - lint: `npm run lint`
 - deadcode: `npm run lint:dead-code`
-- test: `npm test`（vitest，lib/ 純函數）

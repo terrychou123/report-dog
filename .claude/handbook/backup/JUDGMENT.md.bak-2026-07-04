@@ -19,8 +19,7 @@
 ## §2 何時算真的完成（宣告「完成」前逐項打勾）
 
 - [ ] 驗收條件逐條核過（沒有驗收條件 = 開工前的失誤，現在補寫再核）
-- [ ] `npx tsc --noEmit` 與 `npm run lint` 通過（動了 .ts/.tsx 才需要）；
-      動了 lib/ 下有對應 .test.ts 的檔案 → `npm test` 也要綠
+- [ ] `npx tsc --noEmit` 與 `npm run lint` 通過（動了 .ts/.tsx 才需要）
 - [ ] 行為改動有實跑證據（dev server 起來、該頁面/該 API 打過、看到預期輸出）——
       「編譯過了」不是行為證據
 - [ ] 改到評鑑 SSOT 檔案 → drift check + evaluation:sync 已跑（CLAUDE.md 工作流）

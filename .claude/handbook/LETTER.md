@@ -26,13 +26,15 @@
 - ❌ 舊密碼仍留在 git 歷史（initial commit）。因密碼已失效，history rewrite 效益低於成本，
   建議不做；若使用者堅持，需 git filter-repo + force push，由使用者拍板
 
-### 2. 沒有測試框架是這個 repo 最大的結構性風險
+### 2. 測試覆蓋仍然很薄（✅ 第一步已完成 2026-07-04）
 
-所有「完成」都缺機械驗證，handbook 只能用實跑＋fresh-context 審查補位，但補不了回歸
-（這次沒改到的地方被弄壞，沒人會發現）。最高價值的第一步很小：給純函數上 vitest——
-`lib/downloads/token.ts`、`lib/email/unsubscribe-token.ts`、`lib/auth/tag-permissions.ts`、
-`lib/ai/usage-limit.ts` 的純邏輯部分。這些是安全/權限關鍵，又不需要 mock 任何外部服務。
-**動手前先問使用者**（CLAUDE.md 明載「無測試框架」是現況描述，引入框架是使用者的決定）。
+✅ 使用者核可後已引入 vitest：`lib/downloads/token.test.ts`、`lib/email/unsubscribe-token.test.ts`、
+`lib/auth/tag-permissions.test.ts`（29 tests，`npm test`）。`lib/ai/usage-limit.ts` 刻意不測——
+它不是純函數（模組頂層 import db），要測得 mock Drizzle chain，脆且低值；其行為驗證仍靠實跑。
+
+仍未覆蓋：所有 component、API route、DB 邏輯。下一步的高價值目標（動手前問使用者）：
+API route 的授權判斷（非 owner 403）與評鑑 drift check 的邊界案例。
+回歸風險依舊存在：這次沒改到的地方被弄壞，自動化仍抓不到。
 
 ### 3. 注入面積：plugins 與 skills 是最大的固定 token 支出
 

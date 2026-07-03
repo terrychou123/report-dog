@@ -40,7 +40,8 @@
     "gsc:health": "tsx scripts/gsc.ts --report=sitemap-status",
     "gsc:inspect": "tsx scripts/gsc.ts --report=url-inspection",
     "ga:health": "tsx scripts/ga-health.ts",
-    "audit:facility-coverage": "tsx --env-file=.env.local scripts/audit-facility-content-coverage.ts"
+    "audit:facility-coverage": "tsx --env-file=.env.local scripts/audit-facility-content-coverage.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -108,6 +109,7 @@
     "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.7",
     "tsx": "^4.0.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.9"
   }
 }

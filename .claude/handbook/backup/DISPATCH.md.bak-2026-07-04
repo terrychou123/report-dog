@@ -76,7 +76,7 @@
 | 產出類型 | 驗法 |
 |---|---|
 | 檔案/文件 | 派 fresh-context agent（haiku/sonnet）read-back：「讀這個檔，回答：它要你做什麼？哪裡矛盾或看不懂？」 |
-| 程式碼 | 主對話自行跑（不派 agent）：動了 .ts/.tsx 就跑 `npx tsc --noEmit` + `npm run lint`；動了 lib/ 下有 .test.ts 的檔案加跑 `npm test`；其餘行為靠實跑（npm run dev / curl / 瀏覽器），component/route 無自動化測試 |
+| 程式碼 | 主對話自行跑（不派 agent）：動了 .ts/.tsx 就跑 `npx tsc --noEmit` + `npm run lint`；行為靠實跑（npm run dev / curl / 瀏覽器），本專案無測試框架 |
 | 高風險判斷（架構、安全、資料遷移） | 第二意見：派 opus 以不同角度重審；或多答案評審（產 2–3 個方案，再派一個 agent 只做選優） |
 | 評鑑內容（school/blog/範本） | 對照對應 `*-evaluation` skill 的法規條號逐條核，禁止「看起來合理就過」 |
 

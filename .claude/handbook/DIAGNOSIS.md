@@ -55,8 +55,7 @@
 1. 「驗證不自驗」制度：文件與高風險判斷的驗收派 fresh-context subagent；程式碼驗收由主對話
    自行跑 tsc/lint ＋ 實跑（規則與模板見 DISPATCH.md §6、PROMPTS.md）。
 2. 完成判準 checklist（JUDGMENT.md §2）：宣告完成前必須逐項打勾，缺一項就不是完成。
-3. 【需使用者同意】中期建議：給 `lib/` 純函數（`lib/downloads/token.ts`、
-   `lib/email/unsubscribe-token.ts`、`lib/auth/tag-permissions.ts`）補 vitest——詳見 LETTER.md。
+3. ✅（2026-07-04 已完成）`lib/` 純函數已上 vitest（29 tests，`npm test`）——後續範圍見 LETTER.md 第 2 點。
 
 ## 附帶發現（非前三名，但要記錄）
 
