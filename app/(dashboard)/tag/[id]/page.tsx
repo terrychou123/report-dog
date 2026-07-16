@@ -195,8 +195,15 @@ export default function TagDetailPage() {
       wasInvited = true;
       toast.success(`已發送邀請信至 ${resolvedEmail}`);
     } else if (!res.ok) {
-      const data = await res.json();
-      toast.error(data.error ?? "查詢失敗");
+      // 若後端回應非 JSON body（例如未預期的例外），res.json() 會再拋錯，故用 try/catch 防呆
+      let message = "查詢失敗，請稍後再試";
+      try {
+        const data = await res.json();
+        message = data.error ?? message;
+      } catch {
+        // 忽略解析錯誤，使用預設訊息
+      }
+      toast.error(message);
       setSavingPermission(false);
       return;
     } else {
